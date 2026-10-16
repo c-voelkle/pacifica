@@ -2,7 +2,7 @@
 
 Updated 16 October 2026. Supporting research for [master_storyline.md](master_storyline.md). **This file contains historical facts, documentary sources and counterfactual dependencies, not the novel's plot.** The master storyline remains the sole narrative reading copy. When history must diverge, name the divergence explicitly instead of silently treating alternate events as historical.
 
-The separate author-mentioned temporary file `rise_to_power.md` was not present on either available GitHub branch at this review. These notes assess the detailed proposals supplied in the author's message; they do **not** claim to have inspected that uncommitted file.
+The author-provided timeline [rise_to_power.md](sources/rise_to_power.md) has now been reviewed and archived. Its narrative proposals are approved subject to the explicit 1858 Edo date and the documented historical/legal and numerical qualifications below. Numerical population, public finance and fleet assumptions are in [war_base_assumptions.md](war_base_assumptions.md).
 
 ## Kentucky and Texas, 1824–1842
 
@@ -53,9 +53,41 @@ The separate author-mentioned temporary file `rise_to_power.md` was not present 
 | Eiriki Maru, Heco 1851 | [National Diet Library newsletter](https://dl.ndl.go.jp/view/download/digidepo_11335032_po_NDL-Newsletter205_20503.pdf?alternativeNo=&contentNo=1); [Heco autobiography at Library of Congress](https://www.loc.gov/item/52053301/) | Seventeen survivors, including thirteen-year-old Hikozō, rescued and brought to San Francisco. His historical return to Japan occurred later (1859); **fictional return of some castaways c.1852–53** must specify who and not assume Hikozō himself returned immediately |
 | Nariakira's reforms and death | [National Diet Library biography](https://www.ndl.go.jp/portrait/e/datas/6091/index.html) | Daimyo of Satsuma from 1851, built modern industrial facilities; died 1858. Private technical treaties plausible, but Satsuma could not simply sign a national treaty without shogunal assent |
 | Perry and a fictional alternative opening | [Brown University: Perry's journal](https://library.brown.edu/cds/perry/Perry_Journal.html) | Actual arrivals 1853–54. How California changes the expedition requires a separate plausible political and logistical cause; no magic blockade of all coaling stations |
-| Manjirō aboard the Kanrin Maru in 1860 | [John Manjiro Network](https://manjiro.info/english/timeline.html) | Historical Pacific crossing to San Francisco, including Manjirō as interpreter. The alternate Edo agreement may be signed here; different sovereign destination, same recognizable maritime milestone |
+| Manjirō aboard the Kanrin Maru in 1860 | [John Manjiro Network](https://manjiro.info/english/timeline.html) | Historical Pacific crossing to San Francisco, including Manjirō as interpreter. The definitive **Edo Treaty is signed in 1858**, not 1860. The 1860 Kanrin Maru voyage renews the relationship and demonstrates Japanese naval competence. |
 | Monetary asymmetry and gold drain | [Bank of Japan Currency Museum (English)](https://www.imes.boj.or.jp/cm//english/history/content/) | Japan 1g gold ≈ 5g silver vs overseas 1g gold ≈ 15g silver; severe gold outflow after 1859, monetary reform in 1860. California's **warning in 1857–58** is an anticipation of a looming risk, not a claim that the 1859 outflow has already occurred |
 | Abe, Ii and Ansei | [National Diet Library for Nariakira](https://www.ndl.go.jp/portrait/e/datas/6091/index.html); additional shogunal political chronology to be checked | Abe Masahiro dies 1857; Nariakira dies 1858; Ii Naosuke's ascendancy and Ansei persecution change the political terms for foreign advisers |
+
+
+## California–Hawaii Confederation, 1854–1865
+
+| Anchor | Historical evidence | Use or divergence |
+|---|---|---|
+| July 31, 1843 Hawaiian restoration of sovereignty | [Hawaiian State Archives: Lā Hoʻihoʻi Ea](https://ags.hawaii.gov/archives/online-exhibitions/la-ho%CA%BBiho%CA%BBea-exhibition/) | The fictional confederation is declared on July 31, **1856**, intentionally invoking Hawaiian sovereign restoration rather than annexation |
+| Hawaiian sovereignty under Kamehameha III and IV | [University of Hawaii historical constitutional context](https://ags.hawaii.gov/archives/online-exhibitions/centennial-exhibit/kuhina-nui-1819-1864/) | California and Hawaii remain separate members in a **new fictional Confederation**; 1855 Treaty of Honolulu precedes July 1856 confederal declaration, with ratification in autumn |
+| Kuhina Nui role (co-regency) | [Hawaii State Archives](https://ags.hawaii.gov/archives/online-exhibitions/centennial-exhibit/kuhina-nui-1819-1864/) | Fictional Kaiulani gains office in 1855, replacing Victoria Kamāmalu in the alternate timeline, exercising countersignature rights in confederal Article XIV |
+| Kamehameha IV dies 30 Nov. 1863 | [Hawaii State Archives: Kekuanaoa](https://test-ags.hawaii.gov/archives/online-exhibitions/centennial-exhibit/mataio-kekuanaoa/) | Lot (Kamehameha V) succeeds. His personal friendship with Elias is tested by competing state interests |
+| 20 Aug. 1864 Constitution abolishes Kuhina Nui | [Hawaii State Archives biography of Kekuanaoa](https://test-ags.hawaii.gov/archives/online-exhibitions/centennial-exhibit/mataio-kekuanaoa/) | The historical domestic abolition is a strong dramatic legal crisis in the alternate Confederation. **Abolition of a member's domestic office does not automatically repeal a ratified interstate treaty's countersignature requirement**; the precise treaty amendment or contested interpretation must be made explicit |
+| William T. Sherman and 1856 Committee of Vigilance | [San Francisco Museum biography](https://sfmuseum.org/bio/sherman.html), [chronology](https://sfmuseum.org/hist/chron4.html) | Sherman historically held militia command and banking responsibilities; in the new fiction Elias breaks the committee and establishes an enduring rivalry with Sherman |
+| Washoe, the first and second Pyramid Lake battles in 1860 | [Nevada State Historic Preservation Office](https://shpo.nv.gov/nevadas-historical-markers/historical-markers/the-two-battles-of-pyramid-lake) | Numaga's warriors defeat settlers, then withdraw under pressure from much larger forces; the alternate story has **Pacifican volunteers** rather than ordinary U.S. California militia, creating cross-border and treaty consequences |
+| Hawaiian annexation in 1874 | [Historical overview of Hawaiian succession](https://www.lunalilo.org/king-lunalilo/life-of-lunalilo) | Rebellion/massacre at the 1874 election is an alternate-historical event tied to Lot's death and the confederation's loss of sovereign equality, not a historical claim about an actual 1874 massacre on this scale |
+
+## Japan — 1858 treaty, 1860 naval visit
+
+**Binding fictional chronology:** `Shimoda agreement 1855 → Treaty of Edo 1858 → Kanrin Maru visit March 1860 → enlarged treaty pressure at Edo in 1868`.
+
+Historical context:
+- Abe Masahiro died in 1857, Shimazu Nariakira in 1858, and the new shogunal leadership made treaty negotiations more politically perilous.
+- The 1858 date is the author's explicit correction and overrides conflicting tentative dates in the original `rise_to_power.md` table and earlier planning text.
+- The *Kanrin Maru* historically crossed to San Francisco in 1860 with Nakahama Manjirō as interpreter. It is **not** the occasion for a new Treaty of Edo in the fictional timeline; it illustrates and deepens the treaty signed two years earlier.
+
+## Founding date, fiscal and constitutional accuracy
+
+- **31 May 1846 was Pentecost Sunday** in the Gregorian calendar; a fictional Santa Barbara declaration on that date is symbolically coherent, although the real council did not create this republic.
+- **31 July 1856**, the fifteenth anniversary of Hawaiian Sovereignty Restoration Day, is the approved founding declaration of the Confederation; the two member legislatures ratify in September and November.
+- **1857 February** is the marriage after ratification.
+- Elias remains Californian **First Minister and Revenue Superintendent** while becoming confederal Chancellor after the 1856 ratification. He acquires the temporary title **Protector** only after Article XIV's first invocation in 1861.
+- **Washoe 1860** demonstrates that Article XIV's Hawaiian countersignature gives Kaiulani a real veto. **1864 abolition of her office** creates a conflict among member constitutional and confederal authorities, and **1865 amendment** makes the wartime office durable through an explicit political/legal process.
+- Model values in the uploaded document (population `1.2m`, annual revenue `$24m`, wartime army `180k`, fleet `90` ships) are not historical reference facts. See [war_base_assumptions.md](war_base_assumptions.md) for sources, calculation limitations and feasibility conditions.
 
 ## High-impact unresolved mechanics
 
