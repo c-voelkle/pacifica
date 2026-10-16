@@ -1,0 +1,227 @@
+{
+  "project": "Pacifica",
+  "version": "authorial-change-register-v1",
+  "approved_on": "2026-10-16",
+  "base_manuscript": "book-agent/manuscript_chaptered.md",
+  "authority": "Author-approved structural canon for next revision; no existing prose rewritten. Exact timing and mechanisms are provisional where noted.",
+  "architecture": {
+    "chronology": "Primarily chronological, with selective retrospection",
+    "form": "Hybrid chronicle and independent character POV scenes",
+    "length": "Let narrative find its natural length",
+    "process": "Collect and assess authorial plot changes before restructuring"
+  },
+  "requests": [
+    {
+      "id": "CR-001",
+      "status": "approved_in_principle",
+      "title": "Elias formative education",
+      "requirements": [
+        "Plausible training in strategy, tactics, surveying, geology, mechanics and classical history",
+        "Retired colonel/engineer mentor, books including Plutarch, practical experience",
+        "Demonstrate memory, curiosity, stamina and ability to learn; allow genuine errors"
+      ],
+      "open": [
+        "Mentor identity and background",
+        "Specific books and opportunities"
+      ]
+    },
+    {
+      "id": "CR-002",
+      "status": "approved_in_principle",
+      "title": "Elias temperament and belief",
+      "requirements": [
+        "Animal affinity and exceptional horsemanship alongside hunting and ruthless self-defense",
+        "Night hikes and geological observation tied causally to prospecting",
+        "Nuanced religious heterodoxy; childhood incident with pastor and later marriage recommendation",
+        "His talents create vulnerabilities and moral contradiction"
+      ],
+      "open": [
+        "Pastor's identity and daughter's place in story"
+      ]
+    },
+    {
+      "id": "CR-003",
+      "status": "approved_in_principle",
+      "title": "Founding friendships and agency",
+      "requirements": [
+        "Dramatize first friendship with Caleb Vance through reciprocal dependence",
+        "Give peers and partners independent agendas and competence",
+        "Replace or repurpose early non sequitur bandit episodes"
+      ],
+      "open": []
+    },
+    {
+      "id": "CR-004",
+      "status": "approved_direction_with_details_pending",
+      "title": "Elias–Kaiulani family tragedy",
+      "requirements": [
+        "They marry with genuine affection and joint political ambition",
+        "Their son dies in an accident; Kaiulani is subsequently unable to have more children",
+        "Their relationship deteriorates through loss, geopolitical conflicts, ambition and unresolved attachment",
+        "Elias has affairs and additional children",
+        "A younger Hawaiian-American woman, potentially a caretaker, becomes Julian's biological mother during Elias's final years",
+        "After Elias dies in 1887, Julian's mother dies under suspicious circumstances; Kaiulani's possible involvement remains uncertain",
+        "Kaiulani adopts infant/young Julian and raises him as her son",
+        "Kaiulani remains an ambitious political actor, not reduced to motherhood or jealousy",
+        "Julian grows up with genuine alternatives and conflicting loyalties, later leading the Restoration",
+        "Julian's age in the 1931 Restoration changes from 32 to about 44–45 if born about 1886–87"
+      ],
+      "open": [
+        "Exact wedding date",
+        "Son's identity, lifespan and accident",
+        "Medical consequences and degree of certainty about infertility",
+        "Caretaker/mother identity and precise relationship to Elias",
+        "Timing and cause of mother's death",
+        "Julian's infancy, education and formative experiences",
+        "Alternate line giving rise to Emperor Kalanimoku",
+        "Status of other acknowledged/unacknowledged sons"
+      ]
+    },
+    {
+      "id": "CR-005",
+      "status": "approved_in_principle",
+      "title": "Japanese diplomatic opening",
+      "requirements": [
+        "Use Japanese castaways and Nakahama Manjiro, including Eiriki Maru/Joseph Heco, as early personal contacts",
+        "Enter through Ryukyu/Satsuma and Shimazu Nariakira, then negotiate with Abe Masahiro and shogunate",
+        "California initially promises limited trade, technical support, no missionaries and no territorial ambitions",
+        "Military and commercial reciprocity; Japanese factions independent and competent",
+        "Potential conflict over gold/silver valuation and growing asymmetry"
+      ],
+      "open": [
+        "Exact divergence timeline and treaty provisions"
+      ]
+    },
+    {
+      "id": "CR-006",
+      "status": "approved_in_principle",
+      "title": "American wars credibility",
+      "requirements": [
+        "Competent Union and Confederate opposition; significant Pacifican defeat and casualties",
+        "Technology limited by industry, supply, geography, maintenance",
+        "Meaningful diplomacy, foreign partnerships, political compromise and adversary adaptation",
+        "Conquest of Washington not sufficient alone to dissolve federal institutions",
+        "Retain slavery and civil-war legitimacy as major political considerations"
+      ],
+      "open": [
+        "Campaign-level military and constitutional chronology"
+      ]
+    },
+    {
+      "id": "CR-007",
+      "status": "approved_direction",
+      "title": "Gold–industry–state power",
+      "requirements": [
+        "Gold discovered by rigorous investigation informed by geological expertise and local knowledge",
+        "Gold openly known, government-regulated, not secretly mined for four years",
+        "Distinguish total extraction, public reserves and Elias's wealth",
+        "Plausible licensing, royalties, mines, mint, banking, credit and industrial scaling"
+      ],
+      "open": [
+        "Deposit discovery sequence and exact financial architecture"
+      ]
+    },
+    {
+      "id": "CR-008",
+      "status": "approved_direction",
+      "title": "Independent California before US statehood",
+      "requirements": [
+        "California republic founded around 1845–1846 and never joins the US",
+        "Political coalition includes Californios, settlers and autonomous Indigenous communities with independent interests",
+        "1848 gold legally managed by sovereign California, with public rush and manageable revenues",
+        "British commercial/diplomatic support plausible but not an automatic military guarantee",
+        "Directly account for U.S. naval operations in 1846 and international legitimacy",
+        "Replace 1852 territorial admission/secession with constitutional consolidation"
+      ],
+      "open": [
+        "Precise declaration date and 1846 US/Mexico/UK diplomatic settlement",
+        "Founding coalition leadership and institutions"
+      ]
+    }
+  ],
+  "explicit_cautions": [
+    "Do not give the dead legitimate child no individuality; portray him as a real person before the accident.",
+    "Do not make infertility or jealousy the sole motive for Kaiulani's subsequent decisions.",
+    "Do not reduce the younger mother to a reproductive plot device; she must have her own agency.",
+    "Do not assert Kaiulani murdered Julian's mother without deliberate later authorization; preserve genuine ambiguity.",
+    "Do not make Julian's later politics genetically or psychologically inevitable, or predetermine his character.",
+    "Preserve Kaiulani's independent statecraft, political ambitions, and complicity in imperial decisions.",
+    "No technological miracles or effortlessly incompetent opposition.",
+    "Authorial change requests are authoritative; editorial implementations beyond them remain proposals."
+  ],
+  "provisional_timeline": [
+    {
+      "range": "1830s–1844",
+      "event": "Elias's education, mentor, friendship with Caleb, migration west"
+    },
+    {
+      "range": "1845–1846",
+      "event": "Independent Californian republic formed; crisis with Mexico and the USA"
+    },
+    {
+      "range": "1847–1848",
+      "event": "Gold found under California's public mineral regime"
+    },
+    {
+      "range": "1849–1855",
+      "event": "Hawaiian princely ties and Japanese maritime/Satsuma diplomacy develop"
+    },
+    {
+      "range": "late 1850s–early 1860s",
+      "event": "Elias and Kaiulani marry; genuine early partnership"
+    },
+    {
+      "range": "1860s",
+      "event": "Their legitimate son is born; Hawaiian political union becomes contested"
+    },
+    {
+      "range": "1867",
+      "event": "Imperial takeover of Hawaii and bloody suppression of royalist revolt despite cooperative monarchy"
+    },
+    {
+      "range": "late 1860s–1870s",
+      "event": "Son dies, Kaiulani suffers serious injuries and subsequent inability to bear children; medical details pending"
+    },
+    {
+      "range": "1870s–1880s",
+      "event": "Marriage frays; Elias has other partners and offspring; Kaiulani remains politically powerful"
+    },
+    {
+      "range": "1885–1887",
+      "event": "Elias develops a relationship with younger Hawaiian-American woman, possibly a caretaker"
+    },
+    {
+      "range": "1886–1887",
+      "event": "Julian born to younger woman, before Elias's death"
+    },
+    {
+      "range": "1887",
+      "event": "Elias dies; marriage ends in widowhood"
+    },
+    {
+      "range": "1887–1889",
+      "event": "Julian's mother dies mysteriously; Kaiulani adopts him; exact timing pending"
+    },
+    {
+      "range": "1888–1914",
+      "event": "Kaiulani's regency and Julian's upbringing; evolving succession"
+    },
+    {
+      "range": "1914",
+      "event": "Dynastic settlement through another branch, genealogical choice pending"
+    },
+    {
+      "range": "1931",
+      "event": "Julian, now approximately 44–45, launches Restoration"
+    }
+  ],
+  "affected_sources": [
+    "manuscript_chaptered.md chapters 1–5, 8, 14–21, 23–31",
+    "beats.json",
+    "bible.md",
+    "character_bible.json",
+    "concept.txt",
+    "skills/sierpinski_structure.md"
+  ],
+  "next_stage": "Continue collecting authorial plot changes; then formalize chronology and genealogy before outlining/revising scenes."
+}
