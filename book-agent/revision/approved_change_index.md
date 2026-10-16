@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 8 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 11 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -64,6 +64,9 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Kaiulani may hold Kuhina Nui or equivalent co-executive role through explicit divergence from historical incumbent Victoria Kamamalu.
 - Lot Kapuaiwa's death in December 1872 and the 1873–74 Hawaiian succession turmoil provide the preferred political setting for incorporation and a 1874 royalist massacre, not a unilateral naval-lease denial.
 - The shared legitimate child's death and Kaiulani's resulting inability to bear children occur after the relationship is established; exact date after 1874 remains provisional.
+- Elias and Kaiulani marry in February 1857 in Honolulu, after California and Hawaii have ratified their 1856 confederation.
+- Kaiulani serves as the fictional Kuhina Nui from 1855, with an explicit departure from Victoria Kamamalu's historical tenure.
+- Their son's death and Kaiulani's consequent infertility occur in the later 1870s; exact accident and dates remain open.
 
 **Still open:**
 - Legitimate child's identity, temperament, birth year and accident date/mechanism
@@ -88,12 +91,14 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Eiriki Maru castaways reach California in 1851; California sends some home via Naha 1852–53, without forcing Joseph Heco's own historical return forward.
 - 1854–55 Satsuma technical exchanges and Shimoda agreement; after Abe Masahiro dies 1857 and Nariakira 1858, political support changes under Ii Naosuke.
 - California warns shogunate of gold/silver arbitrage before post-1859 outflow; exchange ratio historically ~1:5 in Japan vs ~1:15 abroad.
-- Kanrin Maru arrives San Francisco 1860 with Manjiro aboard; a formal Edo agreement is signed. Early Japanese military cooperation limited to naval training and observers.
+- The definitive Treaty of Edo is signed in 1858 following the deaths of Abe Masahiro (1857) and Shimazu Nariakira (1858), amid Ii Naosuke's ascendancy and monetary concerns.
+- The Kanrin Maru arrives in San Francisco in March 1860 with Manjiro as interpreter, demonstrating and deepening the already-ratified 1858 Edo partnership; no 1860 treaty signing.
 
 **Still open:**
 - Specific technical agreements and plenipotentiaries
 - How Perry's actual 1853–54 expedition is credibly affected without an impossible universal coaling embargo
-- 1857–60 Japanese monetary reform response and court faction politics
+- Exact 1858 shogunal signatures, commercial privileges and monetary remedies
+- Perry's credible alternate 1853–1854 itinerary and diplomatic outcome
 
 ### CR-006 — American wars credibility
 
@@ -121,6 +126,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Historic 1842 Placerita Canyon gold find informs prospecting, rather than Elias being the first to know California has gold.
 - Proposed spring 1848 southern Mother Lode discovery around Stanislaus/Mokelumne with Elias, Caleb, skilled Sonoran miner and Miwok/Yokuts guide; indigenous and Mexican partners retain agency.
 - California applies and adapts Spanish/Mexican 1783 Mining Ordinances with registration, concessions, revenue and contested private surface rights; no automatic confiscation of all gold.
+- 1849 Mining Law establishes a provisional 5% royalty plus $2 monthly miners' licenses and $4 for nonresident foreigners, subject to realism checks on enforceability and grants.
 
 **Still open:**
 - Final precise stream and proven deposit
@@ -145,6 +151,9 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Mexico recognizes independence against assumption of part of its London debt; British creditor support need not imply naval protection.
 - 1850 Sacramento squatter conflict and 1851 San Francisco vigilance crisis lead to 1852 constitutional reorganization.
 - Elias is not head of state in 1852, serving as Superintendent of Mines and Public Revenue or equivalent, with Alvarado/Castro or other elected constitutional leader remaining president.
+- The Republic of California is declared in Santa Barbara on Pentecost Sunday, 31 May 1846; Pio Pico is provisional president and Castro commander-general; Elias signs as Carquinez delegate.
+- Sloat delays occupation in July 1846, Seymour witnesses the crisis, Stockton negotiates a standstill, Kearny is defeated at San Pasqual by Andres Pico, and Mexico recognizes California during the 1848 peace against a debt assumption.
+- The 1852 reorganization creates the Council of State and makes Elias Superintendent of Mines and Public Revenue while Vallejo remains president after the 1850 election.
 
 **Still open:**
 - Exact date of spring 1846 constitutional convention and founding laws
@@ -153,6 +162,54 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Indigenous negotiated rights and leadership
 - Terms of British creditor/Mexican recognition settlement and cash flow
 - Exact 1852 presidency and Elias's ministry
+
+### CR-009 — Founding of the California–Hawaii Confederation in 1856
+
+**Register status:** `approved_direction_with_mechanics_pending`
+
+- Pacifica is declared in Honolulu on 31 July 1856, Lā Hoʻihoʻi Ea, as a confederation of the independent Republic of California and Hawaiian Kingdom.
+- Kamehameha IV, Kaiulani as Kuhina Nui, Robert Wyllie, California President Vallejo and First Minister Elias are principal signatories; ratifications by both countries take effect by November 1856.
+- Shared defense, navy, customs union, gold currency and foreign relations coexist with member-state domestic sovereignty; the Confederal Council elects a Chancellor, and Elias becomes Chancellor after ratification.
+- Article XIV allows a temporary one-year Protectorship during war or grave threat by a two-thirds council vote, signature of California's president, and Hawaiian Kuhina Nui countersignature; renewal requires both legislatures.
+- Elias and Kaiulani marry in February 1857 after the treaty is in force, so marriage is not the price of union.
+
+**Still open:**
+- Final numbered constitutional articles and exact wording
+- Whether 1856 ratification in November is the exact chosen date, or approximate
+- Relationship of member sovereignty to existing external treaties
+- Kaiulani's office after 1864 and confederal treaty safeguard
+
+### CR-010 — Industry, immigration, finance and mobilization before the Civil War
+
+**Register status:** `approved_direction_with_numerical_assumptions_pending`
+
+- Public state-led industrial expansion from 1847 covers Carquinez powder works, Union Iron Works, Benicia arsenal, Mare Island, engines, railway, telegraph, saltpeter, coal and armor imports.
+- Defense Law of 1855 develops broad Prussian-influenced service obligations, reserves, General Staff and joint army/naval preparation; the state still has major weaknesses in coal, heavy weapons, imported armor and rail access.
+- Assisted immigration and diverse populations finance state growth and later labor conflicts; credit-ticket immigration and selective citizenship create contradictions within Elias's civic equality.
+- Provisional planning benchmark: approximately 1.2 million people and $24 million annual revenue by 1861; ~20,000 regular troops, ~90,000 trained reservists, and ~35 steam warships (with limited armor).
+- Provisional wartime benchmark: ~180,000 Pacifican troops plus allies and ~90 warships by 1863–1865; all numerical targets require separate economic and industrial plausibility checks.
+
+**Still open:**
+- Calibrated population migration and 1861 census base, particularly Chinese and Hawaiian counts
+- Industrial production ramp, realistic trained reserves, rifles and 1864 ironclad construction costs
+- Realistic coal import tonnages and foreign credit required
+- Military participation and citizenship rules by ethnic group
+
+### CR-011 — Washoe veto and constitutional ascent to Protector
+
+**Register status:** `approved_direction_with_legal_mechanics_pending`
+
+- The 1860 Paiute/Carson/Washoe crisis is Pacifica's first conspicuous diplomatic and constitutional setback; Paiute communities have independent interests and credible opposition.
+- Jack Hays's cross-border volunteer operation provokes US military threat and opposition from British lenders; Kaiulani refuses her Article XIV countersignature and Elias must withdraw at the Carson Convention.
+- Fort Sumter's outbreak and ensuing threats allow an April–May 1861 Article XIV Protectorship; Vallejo signs and Kaiulani reluctantly countersigns.
+- Both member legislatures renew the emergency office in 1862–1863 under wartime pressure.
+- Lot becomes Kamehameha V after Alexander's death in November 1863 and abolishes the Hawaiian Kuhina Nui office through the 1864 constitution, creating a contested application of Article XIV's countersignature requirement.
+- A negotiated amendment in 1865 transforms the temporary Protectorate into a lasting institution; each apparently defensible step contributes to extraordinary personal power.
+
+**Still open:**
+- Legal validity of removing a confederal treaty countersignature through Hawaiian domestic constitutional amendment; must not be assumed to lapse automatically
+- Exact 1865 amendment and whether lifetime tenure or permanent office
+- Exact Washoe treaty and effects on Paiute rights and land
 
 ### Author-approved editorial safeguards
 
@@ -172,38 +229,33 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The timing of Silas/Kiyoshi and the legitimate son's loss must remain open rather than making adult succession leaders impossibly young.
 - No automatic assumption that Japan's Perry mission vanishes solely because California has purchased coal contracts.
 - The 1783 mining ordinances do not settle contested private titles or the rights of Indigenous peoples without state law and negotiation.
+- Treat 1858—not 1860—as the date of the definitive Edo Treaty; the March 1860 Kanrin Maru voyage is a follow-up visit.
+- A member-state constitution's abolition of a domestic office does not self-evidently abrogate a countersignature requirement in a confederal treaty; record this as contested until the legal transition is designed.
+- Demographic, fiscal and military figures in rise_to_power.md are planning assumptions, not verified canon; test them before writing numerical claims as facts.
+- Do not treat the source file's self-labeled APPROVED tags as proof of separate author decisions where this turn expressly identifies historical or mechanical exceptions.
 
 ### Provisional canonical timeline
 
 | Period | Event or direction |
 |---|---|
-| c. 1824 | Birth of Elias Thorne in Kentucky. |
-| 1830s–1837 | French émigré Napoleonic engineering mentor; Big Bone Lick geology dispute with pastor; foreclosure 1837. |
-| 1840 | At age 16 Elias witnesses the Council House Fight and its consequences. |
-| 1841–1842 | Santa Fe Expedition captures Elias and Caleb; march to Mexico and imprisonment create enduring friendship and Spanish competence. |
-| 1844–February 1845 | Elias arrives in California and supports Californio revolt against Micheltorena; battle of Providencia. |
-| Spring 1846 | Pico/Castro/Alvarado coalition negotiates founding convention at Santa Barbara; independent republic declared before the US-Mexican war news dominates. |
-| July 1846–1847 | Sloat's naval hesitation, Fremont irregular conflict, Collingwood's arrival, British creditor interests and Mexico's debt-for-recognition settlement. |
-| Spring 1848 | Visible public gold discovery near Stanislaus or Mokelumne; inherited Spanish/Mexican mineral regime governs claims and royalties. |
-| 1849–1850 | Hawaiian princes visit California; friendship of Elias with Lot, Alexander as political partner. Elias meets Manjiro. |
-| 1850–1851 | Sacramento squatter conflict, San Francisco vigilance crisis; Manjiro returns via Ryukyu/Satsuma, Eiriki Maru castaways reach California. |
-| 1852–1853 | Constitutional reorganization: Elias becomes Superintendent of Mines and Public Revenue, not President; Californian repatriation mission through Naha. |
-| 1854–1855 | California and Satsuma technical exchanges; Shimoda agreement and shogunal diplomacy. |
-| 1857 | Elias and Kaiulani marry in Honolulu. Abe Masahiro dies; Japanese foreign policy enters a more precarious phase. |
-| 1858–1859 | Nariakira dies; Ii Naosuke's political ascendancy, Ansei purge and emerging gold outflow risk. |
-| 1860 | Kanrin Maru reaches San Francisco; Manjiro interprets; Edo agreement becomes formal foundation of partnership. |
-| 1861–1866 | Pacifica's war with capable Union and Confederate adversaries; substantial losses, diplomacy and political settlement. |
-| 1867–1869 | Alaska/Yukon, Spanish possessions, revised Edo negotiation, campaigns in China, Bering and Siberia; Marcus Vance I dies. |
-| 1872–1874 | Lot dies December 1872; Hawaiian succession crisis and imperial incorporation culminate in royalist suppression and massacre c.1874. |
-| Later 1870s | Elias and Kaiulani's legitimate son dies in an accident that leaves Kaiulani unable to bear children; date and details open. |
-| 1870s–1880s | Affairs, other children, political divisions and construction of mature imperial systems. |
-| 1885–1887 | Young Hawaiian-American woman becomes Elias's lover, potentially caretaker; Julian born c.1886–87. |
-| August 1887 | Elias dies; succession crisis begins. |
-| 1887–1889 | Julian's mother dies under suspicious circumstances; Kaiulani adopts and raises Julian; Truce of Thalassia 1888. |
-| 1888–1914 | Kaiulani's regency and Julian's upbringing; technocratic consolidation; Panama Canal completion 1900. |
-| 1914 | Dynastic settlement through alternate line of Elias; exact Kalanimoku genealogy open. |
-| 1914–1921 | India, Europe, Afghanistan, empire overstretch and Kaiulani's renunciation. |
-| 1920s–1931 | Labor revolt, automation, anti-imperial movements, collapse of Vance III. |
-| 1931–1932 | Julian's Restoration, arrest of Kaiulani, final collapse and Chronicler's escape. |
+| 1824–1845 | Elias born c.1824; French veteran mentor; 1837 dispossession; witnesses 1840 Council House Fight; Santa Fe captivity with Caleb in 1841–42; arrives California 1844; aids Castro at Providencia 1845; baptized and naturalized. |
+| 31 May 1846 | Santa Barbara convention declares independent República de California on Pentecost; Pico becomes provisional president. |
+| June 1846–February 1848 | Bear Flag uprising and Olompali, Sloat hesitation and Collingwood, Stockton standstill, San Pasqual; recognition by Mexico with approximately £3m London debt assumption. |
+| Spring 1848–1852 | Stanislaus/Mokelumne discoveries and public rush; 1849 Mining Law 5% royalty; mint 1850; border Treaty of Monterey; Vallejo president after 1850; vigilante conflict; Elias gains Mines and Revenue superintendency 1852. |
+| 1849–1855 | Friendships with Alexander, Lot and Manjiro; castaway connections through Satsuma; Walker filibusters blocked; Kaiulani visits San Francisco; Hawaiian coaling treaty and Shimoda arrangements 1855. |
+| 1855–November 1856 | Defense Law 1855, first minister appointment, 1856 second Vigilance Committee suppressed; Confederation of Pacifica declared 31 July 1856 in Honolulu; ratified in September and November; Elias becomes Chancellor. |
+| February 1857 | Marriage of Elias and Kaiulani in Honolulu after confederal ratification. |
+| 1857–1858 | Utah War and northern gold rushes; Abe Masahiro dies 1857, Nariakira dies 1858; definitive Treaty of Edo is signed in 1858 under new shogunal order. |
+| 1859–autumn 1860 | Comstock discovery east of border; March 1860 Kanrin Maru visit confirms 1858 Edo treaty; Paiute conflict and Washoe intervention; Kaiulani vetoes Article XIV; Carson Convention Pacifica withdrawal. |
+| April–May 1861 | Fort Sumter; Article XIV invoked by Council with Vallejo and Kaiulani's signatures; Elias becomes Protector for one year. |
+| 1862–1865 | Protector's renewals and formidable three-sided American campaigns. Alexander dies 1863, Lot becomes king; abolition of Kuhina Nui 1864 creates confederal legal crisis; 1865 amendment secures lasting Protectorate. |
+| 1865–1869 | Postwar constitutional consolidation; Alaska/Yukon 1867, Spanish and Japanese expansions, China/Bering, death of Marcus Vance I. |
+| 1872–1874 | Death of Lot and Hawaiian succession crisis; incorporation and bloody royalist repression c.1874. |
+| Later 1870s | Loss of Elias and Kaiulani's legitimate son in accident; Kaiulani unable to bear more children; exact accident open. |
+| 1880s–1887 | Imperial consolidation, illness and other relationships; Julian born c.1886–87 to younger Hawaiian-American woman. |
+| August 1887–1889 | Elias dies; interregnum, civil struggle and 1888 Truce of Thalassia; Julian's mother dies mysteriously, Kaiulani adopts Julian. |
+| 1888–1914 | Kaiulani's regency, Julian's upbringing, 1900 Panama Canal completion and 1914 dynastic succession. |
+| 1914–1921 | India, Thalassia, European conquest, Afghanistan defeat, atrocities and Kaiulani's resignation. |
+| 1920s–1932 | Automation, revolution, 1931 Julian Restoration, Kaiulani's arrest and Pacifica's collapse. |
 
 <!-- END AUTO-APPROVAL-LEDGER -->
