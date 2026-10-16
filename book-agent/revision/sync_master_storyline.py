@@ -8,7 +8,6 @@ sync and presence of every approved CR in the hand-written story.
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import re
 import sys
@@ -25,28 +24,18 @@ def approved(change: dict) -> bool:
     return change.get("status", "").startswith("approved")
 
 
-def normalized_digest(data: dict) -> str:
-    canonical = json.dumps(
-        data, ensure_ascii=False, sort_keys=True, separators=(",", ":")
-    ).encode("utf-8")
-    return hashlib.sha256(canonical).hexdigest()[:20]
-
-
 def one_line(value: str) -> str:
     return " ".join(str(value).split())
 
 
 def approval_ledger(data: dict) -> str:
     changes = [c for c in data.get("requests", []) if approved(c)]
-    digest = normalized_digest(data)
     lines = [
         BEGIN,
         "<!-- GENERATED: do not edit; run python sync_master_storyline.py --write -->",
-        f"<!-- change_register_digest: {digest} -->",
         "",
         "## Automatically synchronized approval ledger",
         "",
-        f"**Change register fingerprint:** `{digest}` · "
         f"**Approved requests:** {len(changes)} · "
         "**Authority:** [change_requests.json](change_requests.json).",
         "",
