@@ -1,4 +1,5 @@
-﻿import os
+﻿import json
+import os
 import re
 import sys
 import shutil
@@ -24,6 +25,17 @@ BIBLE_JSON = Path("character_bible.json")
 
 STYLE_TEXT = STYLE_FILE.read_text(encoding="utf-8", errors="replace") if STYLE_FILE.exists() else ""
 BIBLE_TEXT = BIBLE_JSON.read_text(encoding="utf-8", errors="replace") if BIBLE_JSON.exists() else ""
+
+def confederate_value_profiles(bible_text: str) -> str:
+    """Keep complete curated profiles available beyond the general bible excerpt."""
+    if not bible_text:
+        return ""
+    characters = json.loads(bible_text).get("characters", [])
+    profiles = [character for character in characters if character.get("confederate_value_profile")]
+    return json.dumps({"characters": profiles}, ensure_ascii=False, indent=2) if profiles else ""
+
+
+CONFEDERATE_PROFILES_TEXT = confederate_value_profiles(BIBLE_TEXT)
 
 def split_chapters(raw_text: str) -> list[tuple[str, str]]:
     normalized = re.sub(r'(?m)^(#{1,3}\s+.+)$', r'\n\n\1\n\n', raw_text)
@@ -56,6 +68,9 @@ def polish_chapter(ch_num: int):
 
 [POLYPHONIC CHARACTER BIBLE]
 {BIBLE_TEXT[:12000]}
+
+[COMPLETE CONFEDERATE VALUE PROFILES]
+{CONFEDERATE_PROFILES_TEXT}
 
 CRITICAL POLISHING RULES:
 1. **Elevate Prose to Literary Mastery:** Refine the prose to possess deep material density, precise sensory grounding, muscular sentence rhythms, and absolute elimination of AI tropes or smooth cliché phrases.
