@@ -11,6 +11,7 @@ Additional reference documents:
 - **[character_bible.md](character_bible.md)** — authoritative second-draft character reference: motivations, distinct voices, independent POVs, families and relationships, including the founding-era figures.
 - [character_registry.json](character_registry.json) — structured IDs and identity-aware relationships for 71 canonical or provisional characters/role groups.
 - [legacy_character_crosswalk.json](legacy_character_crosswalk.json) — traceability for every one of the 250 original profiles, including unresolved identity collisions.
+- [legacy_secondary_cast.md](legacy_secondary_cast.md) — readable index of 183 original secondary sketches awaiting detailed reconciliation.
 - [validate_character_docs.py](validate_character_docs.py) — consistency test checking names, IDs, links and legacy crosswalk against original profiles.
 - [sources/rise_to_power.md](sources/rise_to_power.md) — the complete original author-supplied 1844–1861 proposal, archived unchanged.
 - [approved_change_index.md](approved_change_index.md) — automatically generated administrative index of all approved CRs and provisional chronology, **not part of the story**.
