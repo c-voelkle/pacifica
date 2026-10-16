@@ -1,0 +1,1802 @@
+[
+  {
+    "beat_id": 1,
+    "chapter": 1,
+    "pov": "The Chronicler",
+    "location": "Kentucky Frontier",
+    "action": "Young Elias Thorne watches his family farm burn during a debt foreclosure.",
+    "subtext": "The trauma that fuels his hatred for the distant federal government.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 2,
+    "chapter": 1,
+    "pov": "Elias Thorne",
+    "location": "Mississippi River",
+    "action": "Elias boards a flatboat, leaving the East behind forever.",
+    "subtext": "The crossing of a personal Rubicon; he is casting off his old identity.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 3,
+    "chapter": 1,
+    "pov": "Elias Thorne",
+    "location": "The Great Plains",
+    "action": "Elias survives his first winter by hunting with a group of outcasts.",
+    "subtext": "Learning that survival requires a new kind of social contract.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 4,
+    "chapter": 1,
+    "pov": "Elias Thorne",
+    "location": "Comanche Territory",
+    "action": "Elias is captured by a Comanche raiding party and forced to negotiate.",
+    "subtext": "His first realization that diplomacy is as vital as the sword.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 5,
+    "chapter": 1,
+    "pov": "Elias Thorne",
+    "location": "Texas Border",
+    "action": "Elias joins a group of Texas Rangers and engages in a skirmish with bandits.",
+    "subtext": "The thrill of combat and the discovery of his natural leadership.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 6,
+    "chapter": 1,
+    "pov": "Elias Thorne",
+    "location": "California Trail",
+    "action": "Elias sees the Pacific Ocean for the first time from a mountain ridge.",
+    "subtext": "The 'Vision' takes root; he sees the ocean not as an end, but a beginning.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 7,
+    "chapter": 2,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Elias establishes a small trading post and begins recruiting disillusioned veterans.",
+    "subtext": "Building the foundation of his private power base.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 8,
+    "chapter": 2,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Elias meets with a representative of the Knights of the Golden Circle.",
+    "subtext": "Aligning with shadowy interests that want to see the Union fail.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 9,
+    "chapter": 2,
+    "pov": "Elias Thorne",
+    "location": "The Sierra Nevada",
+    "action": "Elias leads a successful expedition to find a hidden gold vein.",
+    "subtext": "Acquiring the 'sinews of war'\u2014the capital needed for his ambitions.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 10,
+    "chapter": 2,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Elias suppresses a local riot using his private militia with ruthless efficiency.",
+    "subtext": "Demonstrating that he can provide the order the government cannot.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 11,
+    "chapter": 2,
+    "pov": "Elias Thorne",
+    "location": "Sacramento",
+    "action": "Elias delivers a speech to the local assembly about 'Pacific Sovereignty.'",
+    "subtext": "The first public articulation of his separatist ideology.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 12,
+    "chapter": 2,
+    "pov": "The Chronicler",
+    "location": "Washington D.C.",
+    "action": "The Chronicler describes the federal government's growing alarm at Thorne's influence.",
+    "subtext": "The tension between the old center and the new periphery.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 13,
+    "chapter": 3,
+    "pov": "Elias Thorne",
+    "location": "San Francisco Harbor",
+    "action": "News of the firing on Fort Sumter reaches the West Coast.",
+    "subtext": "The moment of opportunity; the Union is distracted.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 14,
+    "chapter": 3,
+    "pov": "Elias Thorne",
+    "location": "California State House",
+    "action": "Elias declares California's 'Neutrality' in the conflict.",
+    "subtext": "A strategic lie; he is preparing his own side, not staying out.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 15,
+    "chapter": 3,
+    "pov": "General Marcus Vance",
+    "location": "Virginia",
+    "action": "Vance witnesses the Union's disastrous defeat at Bull Run.",
+    "subtext": "The realization that the old world is crumbling.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 16,
+    "chapter": 3,
+    "pov": "Elias Thorne",
+    "location": "Arizona Desert",
+    "action": "Elias leads his militia to seize federal armories in the Southwest.",
+    "subtext": "The transition from political dissident to military rebel.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 17,
+    "chapter": 3,
+    "pov": "Elias Thorne",
+    "location": "Mexico Border",
+    "action": "Elias negotiates a secret supply line with Mexican governors.",
+    "subtext": "Ensuring his rebellion has the logistics to survive.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 18,
+    "chapter": 3,
+    "pov": "The Chronicler",
+    "location": "New York City",
+    "action": "The Chronicler describes the economic panic as Western gold stops flowing East.",
+    "subtext": "The strangulation of the Union's finances.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 19,
+    "chapter": 4,
+    "pov": "Elias Thorne",
+    "location": "The Rockies",
+    "action": "Thorne's 'Pacific Legion' defeats a federal cavalry unit sent to arrest him.",
+    "subtext": "The point of no return; blood has been shed between him and the Union.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 20,
+    "chapter": 4,
+    "pov": "General Marcus Vance",
+    "location": "The Potomac",
+    "action": "Vance deserts the Union army to join Thorne, bringing his tactical expertise.",
+    "subtext": "The 'Great Defection' that gives Thorne's army professional teeth.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 21,
+    "chapter": 4,
+    "pov": "Elias Thorne",
+    "location": "Denver",
+    "action": "Thorne is proclaimed 'Protector of the West' by a convention of territories.",
+    "subtext": "The formalization of his regional power.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 22,
+    "chapter": 4,
+    "pov": "Elias Thorne",
+    "location": "The Great Plains",
+    "action": "Thorne's forces launch a scorched-earth campaign against Union supply lines.",
+    "subtext": "Total war tactics designed to break the federal will.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 23,
+    "chapter": 4,
+    "pov": "The Chronicler",
+    "location": "Richmond",
+    "action": "The Confederacy attempts to ally with Thorne, but he rebuffs them.",
+    "subtext": "Thorne is not a Southern sympathizer; he is his own master.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 24,
+    "chapter": 4,
+    "pov": "Elias Thorne",
+    "location": "The Mississippi River",
+    "action": "Thorne's ironclads seize control of the river, splitting the continent.",
+    "subtext": "The strategic masterstroke that dooms the federal government.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 25,
+    "chapter": 5,
+    "pov": "Elias Thorne",
+    "location": "Outskirts of Washington D.C.",
+    "action": "Thorne's army arrives at the gates of a starving, besieged capital.",
+    "subtext": "The final act of the old republic.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 26,
+    "chapter": 5,
+    "pov": "General Marcus Vance",
+    "location": "The Mall, D.C.",
+    "action": "Vance leads the assault on the barricades in front of the Capitol building.",
+    "subtext": "The visceral violence of the transition of power.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 27,
+    "chapter": 5,
+    "pov": "Elias Thorne",
+    "location": "The White House",
+    "action": "Thorne walks into the abandoned Oval Office and sits in the President's chair.",
+    "subtext": "The symbolic death of the United States.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 28,
+    "chapter": 5,
+    "pov": "The Chronicler",
+    "location": "Washington D.C.",
+    "action": "The Chronicler describes the signing of the 'Articles of Dissolution.'",
+    "subtext": "The legal end of the Union.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 29,
+    "chapter": 5,
+    "pov": "Elias Thorne",
+    "location": "The Capitol Steps",
+    "action": "Thorne is elected 'Providentor' by a rump congress of his own supporters.",
+    "subtext": "The birth of the American Free States (AFS).",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 30,
+    "chapter": 5,
+    "pov": "Elias Thorne",
+    "location": "Washington D.C.",
+    "action": "Thorne orders the execution of the most stubborn federal loyalists.",
+    "subtext": "Establishing the 'Thornean Peace' through terror.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 31,
+    "chapter": 6,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne moves the capital from D.C. to San Francisco.",
+    "subtext": "The physical pivot to the Pacific.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 32,
+    "chapter": 6,
+    "pov": "General Marcus Vance",
+    "location": "San Francisco Bay",
+    "action": "Vance oversees the construction of the 'Imperial Shipyards.'",
+    "subtext": "The beginning of the Pacific Fleet.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 33,
+    "chapter": 6,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne issues the 'Currency Decree,' backing the new dollar with Pacific gold.",
+    "subtext": "Economic stabilization of the AFS.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 34,
+    "chapter": 6,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne holds a grand ball to court the old money families of the East.",
+    "subtext": "Subjugating the old elite through social integration.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 35,
+    "chapter": 6,
+    "pov": "The Chronicler",
+    "location": "The Frontier",
+    "action": "The Chronicler notes the 'Salutary Effects of Freedom'\u2014the rapid expansion westward.",
+    "subtext": "The narrative of progress used to justify the coup.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 36,
+    "chapter": 6,
+    "pov": "Elias Thorne",
+    "location": "The Pacific Shore",
+    "action": "Thorne looks out at the ocean and tells Vance they need Alaska.",
+    "subtext": "The expansionist hunger returns.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 37,
+    "chapter": 7,
+    "pov": "Elias Thorne",
+    "location": "St. Petersburg (via Telegram)",
+    "action": "Thorne negotiates the purchase of Alaska from a bankrupt Russian Empire.",
+    "subtext": "Exploiting the weakness of the old European powers.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 38,
+    "chapter": 7,
+    "pov": "General Marcus Vance",
+    "location": "Sitka, Alaska",
+    "action": "Vance leads the first AFS troops to raise the Pacific flag in the North.",
+    "subtext": "The expansion into the arctic frontier.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 39,
+    "chapter": 7,
+    "pov": "Elias Thorne",
+    "location": "The Yukon",
+    "action": "A scout reports the discovery of massive gold deposits in the Yukon.",
+    "subtext": "The 'Yukon Fever' that funds the next phase of empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 40,
+    "chapter": 7,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne creates the 'Department of the North' to manage the gold flow.",
+    "subtext": "The birth of the Imperial Bureaucracy.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 41,
+    "chapter": 7,
+    "pov": "The Chronicler",
+    "location": "Alaska",
+    "action": "The Chronicler describes the brutal conditions of the gold miners.",
+    "subtext": "The human cost of imperial wealth.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 42,
+    "chapter": 7,
+    "pov": "Elias Thorne",
+    "location": "The Docks",
+    "action": "Thorne watches the first shipment of Yukon gold arrive.",
+    "subtext": "He now has the wealth to challenge the British Empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 43,
+    "chapter": 8,
+    "pov": "Lady Kaiulani",
+    "location": "Honolulu, Hawaii",
+    "action": "Kaiulani watches the AFS fleet arrive in the harbor.",
+    "subtext": "The threat of 'protection' that masks annexation.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 44,
+    "chapter": 8,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne signs the 'Pacific Island Act,' claiming Hawaii as a protectorate.",
+    "subtext": "The formal expansion into the deep Pacific.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 45,
+    "chapter": 8,
+    "pov": "General Marcus Vance",
+    "location": "Honolulu",
+    "action": "Vance suppresses a royalist uprising in the streets of Honolulu.",
+    "subtext": "The reality of 'liberation' through force.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 46,
+    "chapter": 8,
+    "pov": "Lady Kaiulani",
+    "location": "The Iolani Palace",
+    "action": "Kaiulani is forced to sign the treaty of annexation.",
+    "subtext": "The loss of sovereignty in the face of 'inevitable' progress.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 47,
+    "chapter": 8,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne welcomes Kaiulani as an 'Imperial Advisor' to pacify the locals.",
+    "subtext": "His strategy of absorbing local elites.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 48,
+    "chapter": 8,
+    "pov": "The Chronicler",
+    "location": "Hawaii",
+    "action": "The Chronicler describes Hawaii becoming the 'Hub of the Pacific.'",
+    "subtext": "The transformation of an island nation into a military fortress.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 49,
+    "chapter": 9,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne uses a fabricated naval incident to declare war on Spain.",
+    "subtext": "The calculated use of 'Yellow Journalism' and false flags.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 50,
+    "chapter": 9,
+    "pov": "General Marcus Vance",
+    "location": "Guam",
+    "action": "Vance leads a swift amphibious assault on the Spanish garrison.",
+    "subtext": "Testing the new AFS naval doctrine.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 51,
+    "chapter": 9,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne receives word of the fall of Manila.",
+    "subtext": "The Empire now stretches to the edge of Asia.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 52,
+    "chapter": 9,
+    "pov": "The Chronicler",
+    "location": "Madrid",
+    "action": "The Chronicler describes the collapse of the Spanish Empire's morale.",
+    "subtext": "The old world giving way to the new.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 53,
+    "chapter": 9,
+    "pov": "General Marcus Vance",
+    "location": "The Philippines",
+    "action": "Vance begins a brutal campaign to 'pacify' the local insurgents.",
+    "subtext": "The dark side of Manifest Destiny in the tropics.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 54,
+    "chapter": 9,
+    "pov": "Elias Thorne",
+    "location": "The Peace Conference",
+    "action": "Thorne dictates terms to the Spanish ambassadors, taking Samoa as well.",
+    "subtext": "The total victory of the 'American Caesar.'",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 55,
+    "chapter": 10,
+    "pov": "Elias Thorne",
+    "location": "The Deck of the Flagship",
+    "action": "Thorne leads the fleet into Edo Bay, mirroring Perry but with more firepower.",
+    "subtext": "The 'Black Ships' return with imperial intent.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 56,
+    "chapter": 10,
+    "pov": "The Chronicler",
+    "location": "Tokyo",
+    "action": "The Chronicler describes the shock of the Shogunate at Thorne's technology.",
+    "subtext": "The collision of feudalism and industrialism.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 57,
+    "chapter": 10,
+    "pov": "Elias Thorne",
+    "location": "The Imperial Palace",
+    "action": "Thorne meets the Emperor and proposes a 'Grand Pacific Alliance.'",
+    "subtext": "Finding a peer in the East to help dominate the West.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 58,
+    "chapter": 10,
+    "pov": "General Marcus Vance",
+    "location": "Yokohama",
+    "action": "Vance trains the first units of the 'New Imperial Japanese Army.'",
+    "subtext": "The militarization of Japan under AFS tutelage.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 59,
+    "chapter": 10,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne signs the 'Treaty of Edo,' opening Japan to AFS trade exclusively.",
+    "subtext": "Monopolizing the Asian markets.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 60,
+    "chapter": 10,
+    "pov": "The Chronicler",
+    "location": "London",
+    "action": "The Chronicler describes the British government's fury at being shut out of Japan.",
+    "subtext": "The seeds of the First Contest with Britain.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 61,
+    "chapter": 11,
+    "pov": "Elias Thorne",
+    "location": "The Yellow Sea",
+    "action": "Thorne's fleet intervenes in the Boxer Rebellion to 'protect' trade interests.",
+    "subtext": "Using chaos in China to gain a foothold.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 62,
+    "chapter": 11,
+    "pov": "General Marcus Vance",
+    "location": "The Great Wall",
+    "action": "Vance leads a joint AFS-Japanese force to seize Peking.",
+    "subtext": "The unprecedented sight of Western and Eastern armies united.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 63,
+    "chapter": 11,
+    "pov": "Elias Thorne",
+    "location": "Shanghai",
+    "action": "Thorne establishes the 'Pacifica Concession' in Shanghai.",
+    "subtext": "The creation of a colonial city-state.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 64,
+    "chapter": 11,
+    "pov": "The Chronicler",
+    "location": "China",
+    "action": "The Chronicler describes the 'Thornean Mandate'\u2014the belief that Thorne is the new Emperor.",
+    "subtext": "The syncretic fusion of political myths.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 65,
+    "chapter": 11,
+    "pov": "Lady Kaiulani",
+    "location": "San Francisco",
+    "action": "Kaiulani manages the influx of Chinese laborers and resources into the AFS.",
+    "subtext": "The integration of the 'Pacific Arc.'",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 66,
+    "chapter": 11,
+    "pov": "Elias Thorne",
+    "location": "The Forbidden City",
+    "action": "Thorne walks through the palace, comparing himself to Alexander the Great.",
+    "subtext": "The peak of Thorne's hubris.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 67,
+    "chapter": 12,
+    "pov": "Elias Thorne",
+    "location": "Bering Strait",
+    "action": "Thorne announces the plan to build the 'Bering Bridge'\u2014a rail link to Russia.",
+    "subtext": "The ultimate engineering feat to unite the continents.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 68,
+    "chapter": 12,
+    "pov": "The Chronicler",
+    "location": "St. Petersburg",
+    "action": "The Chronicler describes the Tsar's paranoia about Thorne's 'bridge' being an invasion route.",
+    "subtext": "The inevitable clash of land and sea empires.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 69,
+    "chapter": 12,
+    "pov": "General Marcus Vance",
+    "location": "Siberia",
+    "action": "Vance's scouts clash with Russian Cossacks near the border.",
+    "subtext": "The first sparks of the Russo-American War.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 70,
+    "chapter": 12,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne issues an ultimatum to the Tsar: 'Open Siberia or face the storm.'",
+    "subtext": "The aggressive rhetoric of the Providentor.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 71,
+    "chapter": 12,
+    "pov": "The Chronicler",
+    "location": "The Bering Strait",
+    "action": "The Chronicler describes the massive mobilization of the Pacific Fleet.",
+    "subtext": "The scale of modern industrial war.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 72,
+    "chapter": 12,
+    "pov": "Elias Thorne",
+    "location": "The War Room",
+    "action": "Thorne moves the first piece on the map: the invasion of Vladivostok.",
+    "subtext": "The start of the Great Northern War.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 73,
+    "chapter": 13,
+    "pov": "General Marcus Vance",
+    "location": "Vladivostok Harbor",
+    "action": "Vance's fleet uses long-range steam-artillery to level the Russian fortifications.",
+    "subtext": "Technological superiority on display.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 74,
+    "chapter": 13,
+    "pov": "Elias Thorne",
+    "location": "The Bering Bridge (Under Construction)",
+    "action": "Thorne walks the first completed mile of the rail bridge.",
+    "subtext": "The physical manifestation of his will.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 75,
+    "chapter": 13,
+    "pov": "The Chronicler",
+    "location": "The Siberian Tundra",
+    "action": "The Chronicler describes the 'Frozen Hell' of the campaign.",
+    "subtext": "The limits of technology against nature.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 76,
+    "chapter": 13,
+    "pov": "General Marcus Vance",
+    "location": "Lake Baikal",
+    "action": "Vance's troops engage in a desperate winter battle against the Russian winter guard.",
+    "subtext": "The high cost of Thorne's ambition.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 77,
+    "chapter": 13,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne faces a domestic protest against the 'Winter War.'",
+    "subtext": "The first cracks in the Imperial consensus.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 78,
+    "chapter": 13,
+    "pov": "The Chronicler",
+    "location": "St. Petersburg",
+    "action": "The Chronicler describes the Russian Revolution of 1887, sparked by the war.",
+    "subtext": "Thorne's war causes the collapse of the Romanovs.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 79,
+    "chapter": 14,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne turns his gaze south to Australia and Indonesia.",
+    "subtext": "The 'Grand Circle' must be completed.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 80,
+    "chapter": 14,
+    "pov": "General Marcus Vance",
+    "location": "Java",
+    "action": "Vance's forces clash with the Dutch and British colonial units.",
+    "subtext": "The contest for the spice and rubber trade.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 81,
+    "chapter": 14,
+    "pov": "The Chronicler",
+    "location": "Sydney Harbor",
+    "action": "The Chronicler describes the arrival of the Pacific Fleet in Australia.",
+    "subtext": "The 'Liberation' of the Australian colonies from the Crown.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 82,
+    "chapter": 14,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne receives the 'Australian Petition' for statehood.",
+    "subtext": "The expansion of the Confederation to the Southern Hemisphere.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 83,
+    "chapter": 14,
+    "pov": "General Marcus Vance",
+    "location": "The Coral Sea",
+    "action": "Vance's ironclads engage the British Royal Navy in a massive fleet action.",
+    "subtext": "The first true test against the world's greatest navy.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 84,
+    "chapter": 14,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne celebrates the 'Victory at Coral Sea,' signaling the end of British naval supremacy.",
+    "subtext": "The passing of the torch of global power.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 85,
+    "chapter": 15,
+    "pov": "Elias Thorne",
+    "location": "The Grand Hall, San Francisco",
+    "action": "Thorne announces the division of the Confederation into 124 States.",
+    "subtext": "The administrative nightmare of managing a global empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 86,
+    "chapter": 15,
+    "pov": "Lady Kaiulani",
+    "location": "The Bureau of Integration",
+    "action": "Kaiulani struggles to create a unified legal code for Americans, Asians, and Polynesians.",
+    "subtext": "The friction of cultural syncretism.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 87,
+    "chapter": 15,
+    "pov": "The Chronicler",
+    "location": "San Francisco",
+    "action": "The Chronicler describes the 'Imperial Examination System'\u2014a meritocracy based on Chinese models.",
+    "subtext": "The end of traditional American democracy.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 88,
+    "chapter": 15,
+    "pov": "Elias Thorne",
+    "location": "The State Archives",
+    "action": "Thorne reviews the census data; the empire now has 300 million subjects.",
+    "subtext": "The staggering scale of his achievement.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 89,
+    "chapter": 15,
+    "pov": "General Marcus Vance",
+    "location": "Imperial Military Academy",
+    "action": "Vance oversees the training of 'Imperial Citizens'\u2014a multi-ethnic officer corps.",
+    "subtext": "Loyalty to the Providentor, not the nation.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 90,
+    "chapter": 15,
+    "pov": "Elias Thorne",
+    "location": "The Balcony",
+    "action": "Thorne looks out at the sprawl of San Francisco, the 'City of the World.'",
+    "subtext": "Reflecting on the order he has created.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 91,
+    "chapter": 16,
+    "pov": "Elias Thorne",
+    "location": "Panama",
+    "action": "Thorne visits the massive excavation site of the Panama Canal.",
+    "subtext": "The final link in the Pacific chain.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 92,
+    "chapter": 16,
+    "pov": "The Chronicler",
+    "location": "Panama City",
+    "action": "The Chronicler describes the 'City of the Cut'\u2014a boomtown of vice and labor.",
+    "subtext": "The gritty reality of imperial infrastructure.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 93,
+    "chapter": 16,
+    "pov": "General Marcus Vance",
+    "location": "The Canal Zone",
+    "action": "Vance suppresses a yellow fever outbreak and a labor strike with equal ruthlessness.",
+    "subtext": "The biological and social costs of the canal.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 94,
+    "chapter": 16,
+    "pov": "Elias Thorne",
+    "location": "San Francisco",
+    "action": "Thorne receives the first telegram from the Atlantic side of the canal.",
+    "subtext": "The 'Grand Confederation' is now a two-ocean power.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 95,
+    "chapter": 16,
+    "pov": "Lady Kaiulani",
+    "location": "Panama",
+    "action": "Kaiulani negotiates with Latin American leaders to secure the canal's hinterlands.",
+    "subtext": "Soft power following the hard steel of the canal.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 96,
+    "chapter": 16,
+    "pov": "Elias Thorne",
+    "location": "The Canal Entrance",
+    "action": "Thorne watches the first battleship pass through the locks in 1900.",
+    "subtext": "The completion of his 'Pacific Arc.'",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 97,
+    "chapter": 17,
+    "pov": "The Chronicler",
+    "location": "San Francisco",
+    "action": "The Chronicler describes the 'Golden Age'\u2014a period of unprecedented wealth and peace.",
+    "subtext": "The calm before the inevitable storm of succession.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 98,
+    "chapter": 17,
+    "pov": "Lady Kaiulani",
+    "location": "The Imperial University",
+    "action": "Kaiulani sponsors a new movement of 'Pacific Art'\u2014fusing Western and Eastern styles.",
+    "subtext": "The cultural flowering of the empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 99,
+    "chapter": 17,
+    "pov": "Elias Thorne",
+    "location": "The Redwoods",
+    "action": "Thorne retreats to a private estate, his health beginning to fail.",
+    "subtext": "The mortality of the 'God-King.'",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 100,
+    "chapter": 17,
+    "pov": "General Marcus Vance",
+    "location": "The Imperial Arsenal",
+    "action": "Vance tests the first 'Aerial Steamships'\u2014giant dirigibles for imperial patrol.",
+    "subtext": "Maintaining order through technological dominance.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 101,
+    "chapter": 17,
+    "pov": "Lady Kaiulani",
+    "location": "San Francisco",
+    "action": "Kaiulani notices the growing corruption in the Imperial Bureaucracy.",
+    "subtext": "The decay that follows absolute power.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 102,
+    "chapter": 17,
+    "pov": "Elias Thorne",
+    "location": "The Throne Room",
+    "action": "Thorne receives a delegation from a humbled Europe, seeking trade.",
+    "subtext": "The world bowing to San Francisco.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 103,
+    "chapter": 18,
+    "pov": "Elias Thorne",
+    "location": "The Imperial Bedchamber",
+    "action": "Thorne suffers a stroke; the news is kept secret from the public.",
+    "subtext": "The vulnerability of the empire's center.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 104,
+    "chapter": 18,
+    "pov": "General Marcus Vance",
+    "location": "The War Room",
+    "action": "Vance and other generals begin 'contingency planning' for the succession.",
+    "subtext": "The shadow of a military coup.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 105,
+    "chapter": 18,
+    "pov": "Lady Kaiulani",
+    "location": "The Palace Gardens",
+    "action": "Kaiulani tries to find a legitimate heir among Thorne's many children.",
+    "subtext": "The tragedy of a dynasty without a clear successor.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 106,
+    "chapter": 18,
+    "pov": "The Chronicler",
+    "location": "The Streets of San Francisco",
+    "action": "The Chronicler describes the rumors and the rising price of bread.",
+    "subtext": "The public's anxiety about the future.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 107,
+    "chapter": 18,
+    "pov": "Elias Thorne",
+    "location": "The Balcony",
+    "action": "Thorne makes a final, frail public appearance to quell the rumors.",
+    "subtext": "The mask of power held up by sheer will.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 108,
+    "chapter": 18,
+    "pov": "Elias Thorne",
+    "location": "The Private Library",
+    "action": "Thorne burns his private journals, hiding his true thoughts from history.",
+    "subtext": "Controlling the narrative even in death.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 109,
+    "chapter": 19,
+    "pov": "The Chronicler",
+    "location": "San Francisco",
+    "action": "The bells of the city ring out; Elias Thorne is dead.",
+    "subtext": "The end of an era.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 110,
+    "chapter": 19,
+    "pov": "Lady Kaiulani",
+    "location": "The Throne Room",
+    "action": "Kaiulani watches as the generals immediately begin arguing over the regency.",
+    "subtext": "The immediate breakdown of the imperial order.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 111,
+    "chapter": 19,
+    "pov": "General Marcus Vance",
+    "location": "The Imperial Guard HQ",
+    "action": "Vance declares martial law in San Francisco to 'ensure a peaceful transition.'",
+    "subtext": "The military seizing control.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 112,
+    "chapter": 19,
+    "pov": "The Chronicler",
+    "location": "The Provinces",
+    "action": "The Chronicler describes the first uprisings in the distant states of Australia and China.",
+    "subtext": "The empire beginning to fray at the edges.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 113,
+    "chapter": 19,
+    "pov": "Lady Kaiulani",
+    "location": "The Funeral Procession",
+    "action": "Kaiulani walks behind the casket, realizing the 'American Caesar' has left a vacuum.",
+    "subtext": "The grief of a nation and the fear of a diplomat.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 114,
+    "chapter": 19,
+    "pov": "General Marcus Vance",
+    "location": "The Capitol",
+    "action": "Vance is challenged by General Kaito of the Japanese-Pacific division.",
+    "subtext": "The start of the War of the Heirs.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 115,
+    "chapter": 20,
+    "pov": "General Marcus Vance",
+    "location": "San Francisco Bay",
+    "action": "Vance's loyalists engage Kaito's fleet in the harbor.",
+    "subtext": "Civil war in the heart of the empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 116,
+    "chapter": 20,
+    "pov": "Lady Kaiulani",
+    "location": "Honolulu",
+    "action": "Kaiulani flees to Hawaii, declaring it a 'Neutral Zone.'",
+    "subtext": "Trying to save a piece of the empire from the fire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 117,
+    "chapter": 20,
+    "pov": "The Chronicler",
+    "location": "The AFS Interior",
+    "action": "The Chronicler describes the 'Time of Troubles'\u2014a breakdown of trade and order.",
+    "subtext": "The cost of the succession crisis.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 118,
+    "chapter": 20,
+    "pov": "General Marcus Vance",
+    "location": "The Sierra Nevada",
+    "action": "Vance is defeated in a mountain pass and forced to retreat.",
+    "subtext": "The fall of the old guard.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 119,
+    "chapter": 20,
+    "pov": "Lady Kaiulani",
+    "location": "Thalassia, Hawaii",
+    "action": "Kaiulani negotiates a ceasefire between the warring generals.",
+    "subtext": "Diplomacy as the final thread holding things together.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 120,
+    "chapter": 20,
+    "pov": "The Chronicler",
+    "location": "The Treaty Site",
+    "action": "The Chronicler describes the 'Settlement of 1914'\u2014a new dynasty is established.",
+    "subtext": "The empire survives, but it is changed.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 121,
+    "chapter": 21,
+    "pov": "The Chronicler",
+    "location": "India",
+    "action": "The Chronicler describes the Great Indian War\u2014the British Empire's last stand.",
+    "subtext": "The final clash between the old Atlantic and the new Pacific.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 122,
+    "chapter": 21,
+    "pov": "General Marcus Vance (Retired)",
+    "location": "San Francisco",
+    "action": "Vance watches from retirement as the new generation of generals invades India.",
+    "subtext": "The irony of his legacy being used for further conquest.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 123,
+    "chapter": 21,
+    "pov": "Lady Kaiulani",
+    "location": "Rangoon",
+    "action": "Kaiulani arrives to negotiate the partition of the British Raj.",
+    "subtext": "The Pacific Empire's reach now extends to the Indian Ocean.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 124,
+    "chapter": 21,
+    "pov": "The Chronicler",
+    "location": "The Ganges",
+    "action": "The Chronicler describes the 'Treaty of Rangoon'\u2014the British Empire is humbled.",
+    "subtext": "The formal end of the British Century.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 125,
+    "chapter": 21,
+    "pov": "Lady Kaiulani",
+    "location": "Rangoon",
+    "action": "Kaiulani secures the 'Tea and Opium Monopolies' for the Confederation.",
+    "subtext": "Economic dominance through the sword.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 126,
+    "chapter": 21,
+    "pov": "The Chronicler",
+    "location": "London",
+    "action": "The Chronicler describes the 'Long Mourning' in Britain as it becomes a secondary power.",
+    "subtext": "The finality of the shift in global hegemony.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 127,
+    "chapter": 22,
+    "pov": "The Chronicler",
+    "location": "Thalassia, Hawaii",
+    "action": "The Chronicler describes the construction of the new Imperial Capital, Thalassia.",
+    "subtext": "The empire moves its heart to the center of the ocean.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 128,
+    "chapter": 22,
+    "pov": "Lady Kaiulani",
+    "location": "The Crystal Palace, Thalassia",
+    "action": "Kaiulani oversees the first session of the Pan-Pacific Senate.",
+    "subtext": "The attempt to create a lasting political structure.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 129,
+    "chapter": 22,
+    "pov": "The Chronicler",
+    "location": "Thalassia",
+    "action": "The Chronicler describes the 'Thalassian Style'\u2014a fusion of all imperial cultures.",
+    "subtext": "The physical manifestation of imperial syncretism.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 130,
+    "chapter": 22,
+    "pov": "Lady Kaiulani",
+    "location": "Thalassia",
+    "action": "Kaiulani realizes the Senate is becoming a puppet for the Thorne dynasty.",
+    "subtext": "The failure of the democratic experiment.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 131,
+    "chapter": 22,
+    "pov": "The Chronicler",
+    "location": "The Imperial Docks",
+    "action": "The Chronicler describes the massive 'Thorne-class' battleships stationed at Thalassia.",
+    "subtext": "The empire's power is now purely maritime.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 132,
+    "chapter": 22,
+    "pov": "Lady Kaiulani",
+    "location": "The Palace Balcony",
+    "action": "Kaiulani looks at the stars, wondering if the empire will ever stop expanding.",
+    "subtext": "The fear of infinite growth.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 133,
+    "chapter": 23,
+    "pov": "The Chronicler",
+    "location": "Paris",
+    "action": "The Chronicler describes the return of 'Bonapartism' in a fractured France.",
+    "subtext": "Europe's descent into chaos as the Pacific Empire thrives.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 134,
+    "chapter": 23,
+    "pov": "Lady Kaiulani",
+    "location": "Berlin",
+    "action": "Kaiulani tries to mediate between the rising German-Russian alliance.",
+    "subtext": "The struggle to keep the old world from exploding.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 135,
+    "chapter": 23,
+    "pov": "The Chronicler",
+    "location": "The Rhine",
+    "action": "The Chronicler describes the first shots of the European Civil War.",
+    "subtext": "The inevitable result of Thorne's destabilization of the old order.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 136,
+    "chapter": 23,
+    "pov": "Lady Kaiulani",
+    "location": "San Francisco",
+    "action": "Kaiulani argues for Pacific neutrality in the European conflict.",
+    "subtext": "Trying to prevent the empire from being dragged back into the Atlantic.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 137,
+    "chapter": 23,
+    "pov": "The Chronicler",
+    "location": "London",
+    "action": "The Chronicler describes the 'Great Fire' of London during a French air raid.",
+    "subtext": "The horror of modern war in the old world.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 138,
+    "chapter": 23,
+    "pov": "Lady Kaiulani",
+    "location": "Thalassia",
+    "action": "Kaiulani watches as the Pacific Empire profits from selling arms to both sides.",
+    "subtext": "The cynical reality of imperial 'neutrality.'",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 139,
+    "chapter": 24,
+    "pov": "The Chronicler",
+    "location": "Europe",
+    "action": "The Chronicler describes the 'European Confederation'\u2014a puppet state of the Pacific.",
+    "subtext": "The final subjugation of the old continent.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 140,
+    "chapter": 24,
+    "pov": "Lady Kaiulani",
+    "location": "Geneva",
+    "action": "Kaiulani signs the 'Geneva Accord,' effectively making Europe a Pacific protectorate.",
+    "subtext": "The total victory of Thorne's vision, long after his death.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 141,
+    "chapter": 24,
+    "pov": "The Chronicler",
+    "location": "The Mediterranean",
+    "action": "The Chronicler describes the Pacific Fleet patrolling the Roman sea.",
+    "subtext": "The ultimate historical irony.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 142,
+    "chapter": 24,
+    "pov": "Lady Kaiulani",
+    "location": "Thalassia",
+    "action": "Kaiulani receives reports of a 'New Plague' spreading through the war-torn Europe.",
+    "subtext": "The biological blowback of empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 143,
+    "chapter": 24,
+    "pov": "The Chronicler",
+    "location": "Vienna",
+    "action": "The Chronicler describes the 'Imperial Relief' efforts\u2014using charity to cement control.",
+    "subtext": "Soft power as a tool of occupation.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 144,
+    "chapter": 24,
+    "pov": "Lady Kaiulani",
+    "location": "The Imperial Palace",
+    "action": "Kaiulani realizes the empire is now too large to govern effectively.",
+    "subtext": "The 'Overstretch' of the Grand Confederation.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 145,
+    "chapter": 25,
+    "pov": "The Chronicler",
+    "location": "Afghanistan",
+    "action": "The Chronicler describes the Afghan War\u2014the 'Graveyard of Empires' claims its latest victim.",
+    "subtext": "The limits of Pacific power in the mountains.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 146,
+    "chapter": 25,
+    "pov": "General Marcus Vance III",
+    "location": "Kabul",
+    "action": "The grandson of Vance leads a desperate retreat through the Khyber Pass.",
+    "subtext": "The decline of military competence over generations.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 147,
+    "chapter": 25,
+    "pov": "Lady Kaiulani",
+    "location": "Tehran",
+    "action": "Kaiulani negotiates an alliance with Persia to stabilize the frontier.",
+    "subtext": "The shift from conquest to desperate alliance.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 148,
+    "chapter": 25,
+    "pov": "The Chronicler",
+    "location": "The Hindu Kush",
+    "action": "The Chronicler describes the 'Hidden War'\u2014guerilla tactics vs. imperial steam-tanks.",
+    "subtext": "The failure of industrial war against traditional resistance.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 149,
+    "chapter": 25,
+    "pov": "Lady Kaiulani",
+    "location": "Thalassia",
+    "action": "Kaiulani faces a Senate revolt over the cost of the Afghan campaign.",
+    "subtext": "The economic strain of perpetual war.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 150,
+    "chapter": 25,
+    "pov": "The Chronicler",
+    "location": "The Frontier",
+    "action": "The Chronicler describes the 'Withdrawal'\u2014the first time the empire has given up territory.",
+    "subtext": "The psychological blow of the first defeat.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 151,
+    "chapter": 26,
+    "pov": "The Chronicler",
+    "location": "Siberia",
+    "action": "The Chronicler describes the 'Siberian Uprising'\u2014a revolt of the labor camps.",
+    "subtext": "The internal rot of the imperial resource machine.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 152,
+    "chapter": 26,
+    "pov": "General Marcus Vance III",
+    "location": "Irkutsk",
+    "action": "Vance III uses 'Aerial Bombardment' to crush the rebels, killing thousands.",
+    "subtext": "The brutal escalation of imperial suppression.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 153,
+    "chapter": 26,
+    "pov": "Lady Kaiulani",
+    "location": "Thalassia",
+    "action": "Kaiulani is horrified by the reports from Siberia and resigns her post.",
+    "subtext": "The moral collapse of the old guard.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 154,
+    "chapter": 26,
+    "pov": "The Chronicler",
+    "location": "Southeast Asia",
+    "action": "The Chronicler describes the 'Jungle Revolts'\u2014inspired by the Siberian example.",
+    "subtext": "The contagion of rebellion.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 155,
+    "chapter": 26,
+    "pov": "General Marcus Vance III",
+    "location": "The Mekong Delta",
+    "action": "Vance III finds himself trapped in an endless counter-insurgency.",
+    "subtext": "The swamp of empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 156,
+    "chapter": 26,
+    "pov": "The Chronicler",
+    "location": "Thalassia",
+    "action": "The Chronicler describes the 'Great Purge'\u2014the empire turning on its own citizens.",
+    "subtext": "The paranoia of a dying regime.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 157,
+    "chapter": 27,
+    "pov": "The Chronicler",
+    "location": "Australia",
+    "action": "The Chronicler describes the 'Steel Revolution'\u2014the automation of the imperial factories.",
+    "subtext": "The displacement of the working class by machines.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 158,
+    "chapter": 27,
+    "pov": "Lady Kaiulani (In Exile)",
+    "location": "Kauai",
+    "action": "Kaiulani watches as the traditional life of the islands is destroyed by industrial pollution.",
+    "subtext": "The environmental cost of the 'Golden Age.'",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 159,
+    "chapter": 27,
+    "pov": "The Chronicler",
+    "location": "San Francisco",
+    "action": "The Chronicler describes the 'Imperial Citizen'\u2014a new elite who live in floating cities.",
+    "subtext": "The extreme stratification of society.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 160,
+    "chapter": 27,
+    "pov": "Lady Kaiulani (In Exile)",
+    "location": "Kauai",
+    "action": "Kaiulani is visited by a young revolutionary seeking her blessing.",
+    "subtext": "The old royalty meeting the new radicalism.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 161,
+    "chapter": 27,
+    "pov": "The Chronicler",
+    "location": "Thalassia",
+    "action": "The Chronicler describes the 'Great Exhibition of 1930'\u2014a desperate display of power.",
+    "subtext": "Hubris in the face of collapse.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 162,
+    "chapter": 27,
+    "pov": "Lady Kaiulani (In Exile)",
+    "location": "Kauai",
+    "action": "Kaiulani realizes the 'American Caesar' would have hated what his empire became.",
+    "subtext": "The betrayal of the founder's vision.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 163,
+    "chapter": 28,
+    "pov": "The Chronicler",
+    "location": "The Underworld of San Francisco",
+    "action": "The Chronicler describes the rise of the 'Cult of Communism'\u2014a fusion of Marx and Eastern mysticism.",
+    "subtext": "The ideological threat from below.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 164,
+    "chapter": 28,
+    "pov": "General Marcus Vance III",
+    "location": "San Francisco",
+    "action": "Vance III raids a 'Red Temple' and finds imperial officers among the cultists.",
+    "subtext": "The infiltration of the military.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 165,
+    "chapter": 28,
+    "pov": "The Chronicler",
+    "location": "The Factories of Australia",
+    "action": "The Chronicler describes the 'Great Strike' that shuts down the empire's steel flow.",
+    "subtext": "The vulnerability of a centralized economy.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 166,
+    "chapter": 28,
+    "pov": "General Marcus Vance III",
+    "location": "Sydney",
+    "action": "Vance III orders the troops to fire on the strikers, but they refuse.",
+    "subtext": "The moment the sword breaks in the master's hand.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 167,
+    "chapter": 28,
+    "pov": "The Chronicler",
+    "location": "Thalassia",
+    "action": "The Chronicler describes the 'Red Terror'\u2014assassinations of imperial officials.",
+    "subtext": "The empire's leaders are no longer safe.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 168,
+    "chapter": 28,
+    "pov": "General Marcus Vance III",
+    "location": "The Imperial Palace",
+    "action": "Vance III is assassinated by his own bodyguard.",
+    "subtext": "The end of the Thornean military dynasty.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 169,
+    "chapter": 29,
+    "pov": "The Chronicler",
+    "location": "San Francisco",
+    "action": "A charismatic leader, Julian Thorne, emerges to 'Revive the Vision.'",
+    "subtext": "The rise of a neo-fascist movement within the empire.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 170,
+    "chapter": 29,
+    "pov": "Lady Kaiulani (In Exile)",
+    "location": "Kauai",
+    "action": "Kaiulani watches Julian's speeches on the 'Tele-Vision' and sees the ghost of Elias.",
+    "subtext": "History repeating itself as farce and tragedy.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 171,
+    "chapter": 29,
+    "pov": "The Chronicler",
+    "location": "Thalassia",
+    "action": "Julian Thorne seizes power in a 'Bloodless Coup' and declares himself 'Restorer.'",
+    "subtext": "The final attempt to save the empire through radicalism.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 172,
+    "chapter": 29,
+    "pov": "Lady Kaiulani (In Exile)",
+    "location": "Kauai",
+    "action": "Kaiulani is arrested by the 'Restoration Guard.'",
+    "subtext": "The final silencing of the old world.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 173,
+    "chapter": 29,
+    "pov": "The Chronicler",
+    "location": "The Pacific Ocean",
+    "action": "The Chronicler describes Julian's 'New Expansion'\u2014an invasion of South America.",
+    "subtext": "The desperate lunge for a new frontier.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 174,
+    "chapter": 29,
+    "pov": "The Chronicler",
+    "location": "The War Room",
+    "action": "Julian Thorne stares at the map, realizing there is nowhere left to conquer.",
+    "subtext": "The end of the world's geography.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 175,
+    "chapter": 30,
+    "pov": "The Chronicler",
+    "location": "The Imperial Archive",
+    "action": "The Chronicler finishes his history as the sounds of revolution echo outside.",
+    "subtext": "The historian's duty in the face of collapse.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 176,
+    "chapter": 30,
+    "pov": "The Chronicler",
+    "location": "Thalassia",
+    "action": "The Chronicler watches the 'Statue of Elias Thorne' being toppled by the mob.",
+    "subtext": "The symbolic end of the Grand Confederation.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 177,
+    "chapter": 30,
+    "pov": "The Chronicler",
+    "location": "The Docks",
+    "action": "The Chronicler boards a small boat, carrying his manuscripts to safety.",
+    "subtext": "Preserving the memory of the empire for the next cycle.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 178,
+    "chapter": 30,
+    "pov": "The Chronicler",
+    "location": "The Open Sea",
+    "action": "The Chronicler looks back at the burning city of Thalassia.",
+    "subtext": "The 'G\u00f6tterd\u00e4mmerung' of the Pacific.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 179,
+    "chapter": 30,
+    "pov": "The Chronicler",
+    "location": "A Remote Island",
+    "action": "The Chronicler reflects on the 'American Caesar' and the nature of hubris.",
+    "subtext": "The moral of the story.",
+    "target_words": 600,
+    "status": "completed"
+  },
+  {
+    "beat_id": 180,
+    "chapter": 30,
+    "pov": "The Chronicler",
+    "location": "The Desk",
+    "action": "The Chronicler writes the final sentence: 'And so the Pacific, like the Atlantic before it, became a graveyard of dreams.'",
+    "subtext": "The closing of the chronicle.",
+    "target_words": 600,
+    "status": "completed"
+  }
+]
