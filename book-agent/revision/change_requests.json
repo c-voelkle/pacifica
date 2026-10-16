@@ -223,5 +223,12 @@
     "concept.txt",
     "skills/sierpinski_structure.md"
   ],
-  "next_stage": "Continue collecting authorial plot changes; then formalize chronology and genealogy before outlining/revising scenes."
+  "next_stage": "Continue collecting authorial plot changes; then formalize chronology and genealogy before outlining/revising scenes.",
+  "master_storyline_path": "book-agent/revision/master_storyline.md",
+  "approval_sync": {
+    "requirements": "Each explicit author approval must update both this registry and the authored chronological synopsis.",
+    "generated_ledger": "The storyline's approval ledger is generated deterministically from this registry.",
+    "validation": "GitHub pull requests run python book-agent/revision/sync_master_storyline.py --check; pushes to the registry trigger --write on the same branch.",
+    "limits": "Automated updates cover the structured ledger only; substantive synopsis changes require a corresponding editorial update and review."
+  }
 }
