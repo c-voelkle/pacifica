@@ -3,15 +3,15 @@
 **Status:** Working canonical synopsis for the second draft · **Established:** 16 October 2026  
 **Coverage:** Elias Thorne's life (born c. 1824) through the fall of the Grand Confederation, approximately 1932.  
 **Reading order:** Primarily chronological. Retrospections are deliberately selective.  
-**Canonical authority:** The author-approved [change register](change_requests.json), with historical background and bibliography in [historical_background.md](historical_background.md).
+**Canonical authority:** The author-approved [change register](change_requests.json), with historical background in [historical_background.md](historical_background.md) and numerical assumptions in [war_base_assumptions.md](war_base_assumptions.md).
 
 > This is the **complete working storyline**. Undecided narrative details are identified as **[OPEN]**; approximate years are marked c. Dates and characters that depart from actual history are developed in the separate [historical background](historical_background.md). Changes to the story are governed by the authorial approvals maintained in [change_requests.json](change_requests.json).
 
-<!-- Approved narrative coverage: CR-001 CR-002 CR-003 CR-004 CR-005 CR-006 CR-007 CR-008 -->
+<!-- Approved narrative coverage: CR-001 CR-002 CR-003 CR-004 CR-005 CR-006 CR-007 CR-008 CR-009 CR-010 CR-011 -->
 
 ## The novel's larger movement
 
-An unusually intelligent Kentucky boy learns to see terrain, finance, machinery, animals, and human groups as systems whose hidden constraints can be understood. In an unstable California he helps assemble an independent republic before the Mexican-American War, then uses public gold discoveries to finance industry and a distinctive Pacific state. His accomplishments depend on friendships, the cooperation of Californios and Indigenous peoples, the Hawaiian royal house, Japanese reformers, merchants, technical specialists, and competent soldiers, not on solitary genius. California's sovereignty survives through political compromises and costly confrontations rather than inevitable success. His later interventions in the American Civil War help remake the continent. His ambition progressively turns partners into subjects.
+An unusually intelligent Kentucky boy learns to see terrain, finance, machinery, animals, and human groups as systems whose hidden constraints can be understood. In an unstable California he helps assemble an independent republic before the Mexican-American War, then uses public gold discoveries to finance industry. In 1856 that republic and the Hawaiian Kingdom establish the Confederation of Pacifica, whose emergency constitution later becomes the instrument of his extraordinary power. His accomplishments depend on friendships, the cooperation of Californios and Indigenous peoples, the Hawaiian royal house, Japanese reformers, merchants, technical specialists, and competent soldiers, not on solitary genius. California's sovereignty survives through political compromises and costly confrontations rather than inevitable success. His later interventions in the American Civil War help remake the continent. His ambition progressively turns partners into subjects.
 
 The most intimate version of that political history is the story of Elias and Kaiulani. They begin in love and share an ambitious conception of Pacific cooperation. They marry and have a son. As the empire expands and the Hawaiian throne becomes disputed after Lot Kapuāiwa's death, Elias extinguishes effective Hawaiian sovereignty; royalist resistance is suppressed in a massacre neither she nor the kingdom's political leaders can stop. Their child subsequently dies in an accident that also leaves Kaiulani unable to bear children. Grief, responsibility, empire, and rival ambitions corrode but do not end the marriage. Elias has children with other women. Near the end of his life a much younger Hawaiian-American woman bears Julian. After Elias's death this woman dies mysteriously; Kaiulani adopts Julian and raises him. She becomes regent of the empire, tries to keep its rulers in check, and passes over Julian in favor of another dynastic arrangement. Eventually the young man she raised overturns the very state she spent her life preserving. 
 
@@ -448,10 +448,12 @@ The history closes with the Pacific once again an open expanse of water rather t
 11. **Julian's mother:** name, family, profession, agency, age, death and the competing evidence implicating or exonerating Kaiulani.
 12. **The 1914 Emperor:** the exact genealogical connection of Kalanimoku to Elias, and why Kaiulani passes over Julian.
 13. **Julian's upbringing and exile:** schooling, friendships, relationship with Kaiulani, political education and eventual estrangement.
-14. **Japanese alternate treaties:** whether and how Perry's 1853–54 mission is diverted, the details of Satsuma and shogunal cooperation, and the 1860 Edo settlement.
+14. **Japanese alternate treaties:** the credible diversion or reshaping of Perry's 1853–54 mission, Satsuma and shogunal negotiations, and the precise clauses of the **1858 Treaty of Edo**; the 1860 *Kanrin Maru* visit is a subsequent exchange.
 15. **The American wars:** precise campaigns and defeats, military adversaries, allies, casualties, the collapse of federal power and terms of peace.
 16. **Kaiulani's conclusion:** her fate following Julian's arrest and the narrative's final treatment of their relationship.
 17. **The Chronicler:** identity, access to sources, unreliable testimony and how later independent character perspectives challenge his account.
+18. **Military and finance:** the detailed immigration, tax and public-credit model, realistic trained reserves, foreign shipbuilding and rifle imports, and the feasibility of 1863–1865 force levels (see [war base assumptions](war_base_assumptions.md)).
+19. **Constitutional treaty mechanics:** whether the 1864 abolition of the Kuhina Nui creates a valid successor signature, requires an interstate amendment, or generates a contested legal interpretation before the negotiated 1865 permanent Protectorate.
 
 These questions are intentionally open. The history in the numbered chapters above can be read continuously without consulting revision instructions.
 
