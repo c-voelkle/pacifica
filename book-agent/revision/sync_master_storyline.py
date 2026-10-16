@@ -46,7 +46,7 @@ def approval_ledger(data: dict) -> str:
         "",
         "## Automatically synchronized approval ledger",
         "",
-        f"**Change register fingerprint:** \`{digest}\` · "
+        f"**Change register fingerprint:** `{digest}` · "
         f"**Approved requests:** {len(changes)} · "
         "**Authority:** [change_requests.json](change_requests.json).",
         "",
@@ -61,7 +61,7 @@ def approval_ledger(data: dict) -> str:
             [
                 f"### {code} — {one_line(change['title'])}",
                 "",
-                f"**Register status:** \`{change['status']}\`",
+                f"**Register status:** `{change['status']}`",
                 "",
             ]
         )
