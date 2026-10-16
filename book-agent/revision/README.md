@@ -7,6 +7,8 @@
 Additional reference documents:
 - [change_requests.json](change_requests.json) — the authoritative machine-readable record of approved authorial decisions and remaining questions.
 - [historical_background.md](historical_background.md) — real dates, source links, legal/geopolitical context and precisely identified historical divergences. Kept separate to avoid turning the storyline into a research memo.
+- [war_base_assumptions.md](war_base_assumptions.md) — immigration, revenue, military manpower, ships, weapons and infrastructure estimates with historical benchmarks and modeling caveats.
+- [sources/rise_to_power.md](sources/rise_to_power.md) — the complete original author-supplied 1844–1861 proposal, archived unchanged.
 - [approved_change_index.md](approved_change_index.md) — automatically generated administrative index of all approved CRs and provisional chronology, **not part of the story**.
 
 ## Procedure for any newly approved storyline change
@@ -23,6 +25,10 @@ An explicit author approval changes the planned canon even if the first-draft ma
 
 Do not revise `manuscript_chaptered.md`, `beats.json`, `bible.md`, or the production writing scripts until the author authorizes manuscript reconstruction. Keep canon changes on the revision branch and under review.
 
-## Unavailable temporary working document
+## Reconciliation of rise_to_power.md
 
-The author referred to `rise_to_power.md` on 16 October 2026. It was **not present on accessible GitHub branches** when the update was made. The detailed proposals provided in the chat were incorporated directly, and supporting historical anchors were checked against published sources. If that file is later committed, compare its contents with the master storyline and historical background; merge only genuinely new material and preserve established author approvals.
+The full author-provided [rise_to_power.md](sources/rise_to_power.md) was uploaded and reviewed. Its narrative proposals are approved unless a specific historic, legal or numerical issue requires qualification. The definitive **Treaty of Edo is dated 1858**, explicitly overriding any alternative 1860 signing; the 1860 *Kanrin Maru* voyage is a follow-up. The March 1860/1858 treaty transition, July 1856 Pacifica Confederation, 1860 Washoe veto and 1861–65 legal ascent are integrated in the master storyline.
+
+The 1864 domestic abolition of the Kuhina Nui cannot be assumed automatically to amend Article XIV of a treaty between states; the matter remains a constitutional question. Numerical figures for population, forces, naval construction and finances are model targets to test against historical benchmarks, not guaranteed facts.
+
+These distinctions and any other remaining undecided matters are marked **[OPEN]** in the storyline or explicitly classified in the supporting reference files.
