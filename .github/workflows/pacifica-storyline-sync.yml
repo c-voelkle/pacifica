@@ -17,14 +17,14 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           persist-credentials: true
-      - name: Regenerate canonical approvals in the master storyline
+      - name: Regenerate separate approved-change index
         run: python3 book-agent/revision/sync_master_storyline.py --write
       - name: Commit synchronized document when required
         run: |
-          if ! git diff --quiet -- book-agent/revision/master_storyline.md; then
+          if ! git diff --quiet -- book-agent/revision/approved_change_index.md; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add book-agent/revision/master_storyline.md
-            git commit -m "Sync master storyline with approved change register"
+            git add book-agent/revision/approved_change_index.md
+            git commit -m "Sync approved change index with authorial register"
             git push origin "HEAD:${{ github.ref_name }}"
           fi
