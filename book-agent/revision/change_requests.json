@@ -1,6 +1,6 @@
 {
   "project": "Pacifica",
-  "version": "authorial-change-register-v1",
+  "version": "authorial-change-register-v2",
   "approved_on": "2026-10-16",
   "base_manuscript": "book-agent/manuscript_chaptered.md",
   "authority": "Author-approved structural canon for next revision; no existing prose rewritten. Exact timing and mechanisms are provisional where noted.",
@@ -18,11 +18,13 @@
       "requirements": [
         "Plausible training in strategy, tactics, surveying, geology, mechanics and classical history",
         "Retired colonel/engineer mentor, books including Plutarch, practical experience",
-        "Demonstrate memory, curiosity, stamina and ability to learn; allow genuine errors"
+        "Demonstrate memory, curiosity, stamina and ability to learn; allow genuine errors",
+        "Elias born circa 1824; his mentor may be a French emigré military engineer from Napoleon's era, versed in Vauban, Jomini, Plutarch and geology; 'colonel' rank possibly honorific or self-awarded.",
+        "Mentor introduces terrain reading and geological reasoning; Elias's talent is demonstrated through fallible real experiences, not assertions."
       ],
       "open": [
-        "Mentor identity and background",
-        "Specific books and opportunities"
+        "French mentor's name, exact service and verification of his claimed rank",
+        "Specific books and later role in Elias's life"
       ]
     },
     {
@@ -33,10 +35,13 @@
         "Animal affinity and exceptional horsemanship alongside hunting and ruthless self-defense",
         "Night hikes and geological observation tied causally to prospecting",
         "Nuanced religious heterodoxy; childhood incident with pastor and later marriage recommendation",
-        "His talents create vulnerabilities and moral contradiction"
+        "His talents create vulnerabilities and moral contradiction",
+        "Boy Elias observes Big Bone Lick's fossil evidence and disputes biblical chronology; pastor strikes him first and Elias breaks his nose in retaliation.",
+        "Pastor's supposed later encouragement of his daughter to marry Elias must remain unverifiable early Chronicler testimony."
       ],
       "open": [
-        "Pastor's identity and daughter's place in story"
+        "Pastor's identity and specific confrontation circumstances",
+        "Pastor's daughter's identity and reliability of her later story"
       ]
     },
     {
@@ -46,7 +51,9 @@
       "requirements": [
         "Dramatize first friendship with Caleb Vance through reciprocal dependence",
         "Give peers and partners independent agendas and competence",
-        "Replace or repurpose early non sequitur bandit episodes"
+        "Replace or repurpose early non sequitur bandit episodes",
+        "Elias aged about sixteen witnesses the March 1840 Council House Fight and learns the consequence of violated diplomatic safe conduct.",
+        "Elias and Caleb participate in the 1841–42 Texan Santa Fe Expedition, endure capture and the march to Mexico, bond through mutual dependence; Elias learns Spanish and makes Mexican contacts."
       ],
       "open": []
     },
@@ -64,17 +71,21 @@
         "Kaiulani adopts infant/young Julian and raises him as her son",
         "Kaiulani remains an ambitious political actor, not reduced to motherhood or jealousy",
         "Julian grows up with genuine alternatives and conflicting loyalties, later leading the Restoration",
-        "Julian's age in the 1931 Restoration changes from 32 to about 44–45 if born about 1886–87"
+        "Julian's age in the 1931 Restoration changes from 32 to about 44–45 if born about 1886–87",
+        "Kaiulani born 1838, a fictional cousin of Hawaiian princes; marriage to Elias occurs in Honolulu in 1857 after Alexander's 1856 marriage.",
+        "Kaiulani may hold Kuhina Nui or equivalent co-executive role through explicit divergence from historical incumbent Victoria Kamamalu.",
+        "Lot Kapuaiwa's death in December 1872 and the 1873–74 Hawaiian succession turmoil provide the preferred political setting for incorporation and a 1874 royalist massacre, not a unilateral naval-lease denial.",
+        "The shared legitimate child's death and Kaiulani's resulting inability to bear children occur after the relationship is established; exact date after 1874 remains provisional."
       ],
       "open": [
-        "Exact wedding date",
-        "Son's identity, lifespan and accident",
-        "Medical consequences and degree of certainty about infertility",
-        "Caretaker/mother identity and precise relationship to Elias",
-        "Timing and cause of mother's death",
-        "Julian's infancy, education and formative experiences",
-        "Alternate line giving rise to Emperor Kalanimoku",
-        "Status of other acknowledged/unacknowledged sons"
+        "Legitimate child's identity, temperament, birth year and accident date/mechanism",
+        "Kaiulani's exact constitutional appointment relative to historical Victoria Kamamalu",
+        "Medical nature of infertility and certainty",
+        "Whether any of Elias's relationships and older sons predate the lost child's death, given adult claimants in 1887",
+        "Young Hawaiian-American mother's name, age, independent career, death and evidence for competing explanations",
+        "Julian's infancy, adoption, youth and estrangement",
+        "Precise genealogy for the 1914 Emperor Kalanimoku and other claimants",
+        "Hawaiian royalist parties, incorporation law and casualty figures in 1874"
       ]
     },
     {
@@ -86,10 +97,17 @@
         "Enter through Ryukyu/Satsuma and Shimazu Nariakira, then negotiate with Abe Masahiro and shogunate",
         "California initially promises limited trade, technical support, no missionaries and no territorial ambitions",
         "Military and commercial reciprocity; Japanese factions independent and competent",
-        "Potential conflict over gold/silver valuation and growing asymmetry"
+        "Potential conflict over gold/silver valuation and growing asymmetry",
+        "Manjiro meets Elias during 1849–50 California stay; he returns through Ryukyu in 1851 to Satsuma/Shimazu Nariakira's scrutiny.",
+        "Eiriki Maru castaways reach California in 1851; California sends some home via Naha 1852–53, without forcing Joseph Heco's own historical return forward.",
+        "1854–55 Satsuma technical exchanges and Shimoda agreement; after Abe Masahiro dies 1857 and Nariakira 1858, political support changes under Ii Naosuke.",
+        "California warns shogunate of gold/silver arbitrage before post-1859 outflow; exchange ratio historically ~1:5 in Japan vs ~1:15 abroad.",
+        "Kanrin Maru arrives San Francisco 1860 with Manjiro aboard; a formal Edo agreement is signed. Early Japanese military cooperation limited to naval training and observers."
       ],
       "open": [
-        "Exact divergence timeline and treaty provisions"
+        "Specific technical agreements and plenipotentiaries",
+        "How Perry's actual 1853–54 expedition is credibly affected without an impossible universal coaling embargo",
+        "1857–60 Japanese monetary reform response and court faction politics"
       ]
     },
     {
@@ -101,7 +119,9 @@
         "Technology limited by industry, supply, geography, maintenance",
         "Meaningful diplomacy, foreign partnerships, political compromise and adversary adaptation",
         "Conquest of Washington not sufficient alone to dissolve federal institutions",
-        "Retain slavery and civil-war legitimacy as major political considerations"
+        "Retain slavery and civil-war legitimacy as major political considerations",
+        "Elias opposes chattel slavery as damaging to independent labor, smallholders and civic institutions, shaped partly by his reading of the Gracchi; he is not an evangelical or humanitarian abolitionist.",
+        "Early Japanese military role limited to advisers, trainees and observers; substantial foreign involvement in American wars must be individually justified."
       ],
       "open": [
         "Campaign-level military and constitutional chronology"
@@ -115,10 +135,15 @@
         "Gold discovered by rigorous investigation informed by geological expertise and local knowledge",
         "Gold openly known, government-regulated, not secretly mined for four years",
         "Distinguish total extraction, public reserves and Elias's wealth",
-        "Plausible licensing, royalties, mines, mint, banking, credit and industrial scaling"
+        "Plausible licensing, royalties, mines, mint, banking, credit and industrial scaling",
+        "Historic 1842 Placerita Canyon gold find informs prospecting, rather than Elias being the first to know California has gold.",
+        "Proposed spring 1848 southern Mother Lode discovery around Stanislaus/Mokelumne with Elias, Caleb, skilled Sonoran miner and Miwok/Yokuts guide; indigenous and Mexican partners retain agency.",
+        "California applies and adapts Spanish/Mexican 1783 Mining Ordinances with registration, concessions, revenue and contested private surface rights; no automatic confiscation of all gold."
       ],
       "open": [
-        "Deposit discovery sequence and exact financial architecture"
+        "Final precise stream and proven deposit",
+        "Names and agendas of Sonoran miner and Miwok/Yokuts guide",
+        "Mining claim registry, exact royalty rates, ownership and public finance"
       ]
     },
     {
@@ -131,11 +156,23 @@
         "1848 gold legally managed by sovereign California, with public rush and manageable revenues",
         "British commercial/diplomatic support plausible but not an automatic military guarantee",
         "Directly account for U.S. naval operations in 1846 and international legitimacy",
-        "Replace 1852 territorial admission/secession with constitutional consolidation"
+        "Replace 1852 territorial admission/secession with constitutional consolidation",
+        "Elias arrives 1844 and supports Alvarado/Castro against Micheltorena and Sutter; the February 1845 battle of Providencia gives him political standing.",
+        "Coalition founders include Alvarado, Castro and Pico, but real divisions between Pico and Castro in 1846 must be reconciled in the fictional convention.",
+        "Vallejo remains a credible pro-American internal dissenter; Sem-Yeto/Solano of Suisun represents particular indigenous interests rather than an all-tribes mandate.",
+        "Founding constitutional convention accelerated from historical June 15 1846 Santa Barbara plan to spring 1846 before war news; California never joins USA.",
+        "Commodore Sloat's 1842 Jones precedent and 1846 hesitation, HMS Collingwood's arrival July 16 and the threat posed by Fremont's irregulars form the naval crisis.",
+        "Mexico recognizes independence against assumption of part of its London debt; British creditor support need not imply naval protection.",
+        "1850 Sacramento squatter conflict and 1851 San Francisco vigilance crisis lead to 1852 constitutional reorganization.",
+        "Elias is not head of state in 1852, serving as Superintendent of Mines and Public Revenue or equivalent, with Alvarado/Castro or other elected constitutional leader remaining president."
       ],
       "open": [
-        "Precise declaration date and 1846 US/Mexico/UK diplomatic settlement",
-        "Founding coalition leadership and institutions"
+        "Exact date of spring 1846 constitutional convention and founding laws",
+        "Californio coalition negotiating process, especially Pico/Castro hostility",
+        "Terms of Sloat/Fremont crisis and 1846 peace without US annexation",
+        "Indigenous negotiated rights and leadership",
+        "Terms of British creditor/Mexican recognition settlement and cash flow",
+        "Exact 1852 presidency and Elias's ministry"
       ]
     }
   ],
@@ -147,72 +184,128 @@
     "Do not make Julian's later politics genetically or psychologically inevitable, or predetermine his character.",
     "Preserve Kaiulani's independent statecraft, political ambitions, and complicity in imperial decisions.",
     "No technological miracles or effortlessly incompetent opposition.",
-    "Authorial change requests are authoritative; editorial implementations beyond them remain proposals."
+    "Authorial change requests are authoritative; editorial implementations beyond them remain proposals.",
+    "Keep the current master storyline a continuous affirmative narrative, without comparisons to old manuscript construction; put research and implementation notes in historical_background.md.",
+    "Distinguish verified historical events from fictional divergences, particularly Pico-Castro reconciliation, spring 1846 convention, Sloat's delayed response, British debt support and the 1874 Hawaiian massacre.",
+    "Kaiulani born 1838 is fictional, not Victoria Kamamalu or Princess Victoria Kaiulani; assign Kuhina Nui through an explicit alternate historical event.",
+    "Lot Kapuaiwa dies December 1872; move Hawaiian centralization/massacre toward 1874 to integrate succession, not earlier 1867.",
+    "Respect the age arithmetic of Elias 1824, Kaiulani 1838, 1857 wedding, 1887 Elias death, Julian c.1886–87 birth and 1931 mid-forties Restoration.",
+    "The timing of Silas/Kiyoshi and the legitimate son's loss must remain open rather than making adult succession leaders impossibly young.",
+    "No automatic assumption that Japan's Perry mission vanishes solely because California has purchased coal contracts.",
+    "The 1783 mining ordinances do not settle contested private titles or the rights of Indigenous peoples without state law and negotiation."
   ],
   "provisional_timeline": [
     {
-      "range": "1830s–1844",
-      "event": "Elias's education, mentor, friendship with Caleb, migration west"
+      "range": "c. 1824",
+      "event": "Birth of Elias Thorne in Kentucky."
     },
     {
-      "range": "1845–1846",
-      "event": "Independent Californian republic formed; crisis with Mexico and the USA"
+      "range": "1830s–1837",
+      "event": "French émigré Napoleonic engineering mentor; Big Bone Lick geology dispute with pastor; foreclosure 1837."
     },
     {
-      "range": "1847–1848",
-      "event": "Gold found under California's public mineral regime"
+      "range": "1840",
+      "event": "At age 16 Elias witnesses the Council House Fight and its consequences."
     },
     {
-      "range": "1849–1855",
-      "event": "Hawaiian princely ties and Japanese maritime/Satsuma diplomacy develop"
+      "range": "1841–1842",
+      "event": "Santa Fe Expedition captures Elias and Caleb; march to Mexico and imprisonment create enduring friendship and Spanish competence."
     },
     {
-      "range": "late 1850s–early 1860s",
-      "event": "Elias and Kaiulani marry; genuine early partnership"
+      "range": "1844–February 1845",
+      "event": "Elias arrives in California and supports Californio revolt against Micheltorena; battle of Providencia."
     },
     {
-      "range": "1860s",
-      "event": "Their legitimate son is born; Hawaiian political union becomes contested"
+      "range": "Spring 1846",
+      "event": "Pico/Castro/Alvarado coalition negotiates founding convention at Santa Barbara; independent republic declared before the US-Mexican war news dominates."
     },
     {
-      "range": "1867",
-      "event": "Imperial takeover of Hawaii and bloody suppression of royalist revolt despite cooperative monarchy"
+      "range": "July 1846–1847",
+      "event": "Sloat's naval hesitation, Fremont irregular conflict, Collingwood's arrival, British creditor interests and Mexico's debt-for-recognition settlement."
     },
     {
-      "range": "late 1860s–1870s",
-      "event": "Son dies, Kaiulani suffers serious injuries and subsequent inability to bear children; medical details pending"
+      "range": "Spring 1848",
+      "event": "Visible public gold discovery near Stanislaus or Mokelumne; inherited Spanish/Mexican mineral regime governs claims and royalties."
+    },
+    {
+      "range": "1849–1850",
+      "event": "Hawaiian princes visit California; friendship of Elias with Lot, Alexander as political partner. Elias meets Manjiro."
+    },
+    {
+      "range": "1850–1851",
+      "event": "Sacramento squatter conflict, San Francisco vigilance crisis; Manjiro returns via Ryukyu/Satsuma, Eiriki Maru castaways reach California."
+    },
+    {
+      "range": "1852–1853",
+      "event": "Constitutional reorganization: Elias becomes Superintendent of Mines and Public Revenue, not President; Californian repatriation mission through Naha."
+    },
+    {
+      "range": "1854–1855",
+      "event": "California and Satsuma technical exchanges; Shimoda agreement and shogunal diplomacy."
+    },
+    {
+      "range": "1857",
+      "event": "Elias and Kaiulani marry in Honolulu. Abe Masahiro dies; Japanese foreign policy enters a more precarious phase."
+    },
+    {
+      "range": "1858–1859",
+      "event": "Nariakira dies; Ii Naosuke's political ascendancy, Ansei purge and emerging gold outflow risk."
+    },
+    {
+      "range": "1860",
+      "event": "Kanrin Maru reaches San Francisco; Manjiro interprets; Edo agreement becomes formal foundation of partnership."
+    },
+    {
+      "range": "1861–1866",
+      "event": "Pacifica's war with capable Union and Confederate adversaries; substantial losses, diplomacy and political settlement."
+    },
+    {
+      "range": "1867–1869",
+      "event": "Alaska/Yukon, Spanish possessions, revised Edo negotiation, campaigns in China, Bering and Siberia; Marcus Vance I dies."
+    },
+    {
+      "range": "1872–1874",
+      "event": "Lot dies December 1872; Hawaiian succession crisis and imperial incorporation culminate in royalist suppression and massacre c.1874."
+    },
+    {
+      "range": "Later 1870s",
+      "event": "Elias and Kaiulani's legitimate son dies in an accident that leaves Kaiulani unable to bear children; date and details open."
     },
     {
       "range": "1870s–1880s",
-      "event": "Marriage frays; Elias has other partners and offspring; Kaiulani remains politically powerful"
+      "event": "Affairs, other children, political divisions and construction of mature imperial systems."
     },
     {
       "range": "1885–1887",
-      "event": "Elias develops a relationship with younger Hawaiian-American woman, possibly a caretaker"
+      "event": "Young Hawaiian-American woman becomes Elias's lover, potentially caretaker; Julian born c.1886–87."
     },
     {
-      "range": "1886–1887",
-      "event": "Julian born to younger woman, before Elias's death"
-    },
-    {
-      "range": "1887",
-      "event": "Elias dies; marriage ends in widowhood"
+      "range": "August 1887",
+      "event": "Elias dies; succession crisis begins."
     },
     {
       "range": "1887–1889",
-      "event": "Julian's mother dies mysteriously; Kaiulani adopts him; exact timing pending"
+      "event": "Julian's mother dies under suspicious circumstances; Kaiulani adopts and raises Julian; Truce of Thalassia 1888."
     },
     {
       "range": "1888–1914",
-      "event": "Kaiulani's regency and Julian's upbringing; evolving succession"
+      "event": "Kaiulani's regency and Julian's upbringing; technocratic consolidation; Panama Canal completion 1900."
     },
     {
       "range": "1914",
-      "event": "Dynastic settlement through another branch, genealogical choice pending"
+      "event": "Dynastic settlement through alternate line of Elias; exact Kalanimoku genealogy open."
     },
     {
-      "range": "1931",
-      "event": "Julian, now approximately 44–45, launches Restoration"
+      "range": "1914–1921",
+      "event": "India, Europe, Afghanistan, empire overstretch and Kaiulani's renunciation."
+    },
+    {
+      "range": "1920s–1931",
+      "event": "Labor revolt, automation, anti-imperial movements, collapse of Vance III."
+    },
+    {
+      "range": "1931–1932",
+      "event": "Julian's Restoration, arrest of Kaiulani, final collapse and Chronicler's escape."
     }
   ],
   "affected_sources": [
@@ -223,12 +316,14 @@
     "concept.txt",
     "skills/sierpinski_structure.md"
   ],
-  "next_stage": "Continue collecting authorial plot changes; then formalize chronology and genealogy before outlining/revising scenes.",
+  "next_stage": "Await any additional content in rise_to_power.md if made accessible; finalize 1846/1852 institutional and 1874/Hawaiian genealogy dependencies, then map approved story into sequences.",
   "master_storyline_path": "book-agent/revision/master_storyline.md",
   "approval_sync": {
-    "requirements": "Each explicit author approval must update both this registry and the authored chronological synopsis.",
-    "generated_ledger": "The storyline's approval ledger is generated deterministically from this registry.",
-    "validation": "GitHub pull requests run python book-agent/revision/sync_master_storyline.py --check; pushes to the registry trigger --write on the same branch.",
-    "limits": "Automated updates cover the structured ledger only; substantive synopsis changes require a corresponding editorial update and review."
-  }
+    "requirements": "Each explicit author approval must update the relevant authored chronological narrative in master_storyline.md and change_requests.json together.",
+    "generated_ledger": "The approved_change_index.md administrative record is generated deterministically from this registry, separately from the continuous storyline.",
+    "validation": "GitHub PR checks run sync_master_storyline.py --check for exact index sync and presence of approved CR coverage IDs in master_storyline.md.",
+    "limits": "Neither automatic ledger sync nor a coverage-ID check proves substantive prose integration; each approval requires editorial review of changed narrative paragraphs."
+  },
+  "updated_on": "2026-10-16",
+  "historical_background_path": "book-agent/revision/historical_background.md"
 }
