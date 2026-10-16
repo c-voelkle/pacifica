@@ -7,8 +7,11 @@
 3. `book-agent/revision/historical_background.md` — factual context, dated historical anchors, divergences, historical/legal uncertainties and source URLs.
 4. `book-agent/revision/war_base_assumptions.md` — demographic, treasury and military scenario assumptions to audit, not assert as fact.
 5. `book-agent/revision/sources/rise_to_power.md` — original author-provided early-history proposal; preserve verbatim as an archival source.
-6. `book-agent/revision/approved_change_index.md` — **generated** change-list and chronology, not story prose.
-7. `book-agent/manuscript_chaptered.md`, `book-agent/beats.json`, `book-agent/character_bible.json`, `book-agent/bible.md`, `book-agent/concept.txt` — first-draft sources, potentially superseded by approved canon.
+6. `book-agent/revision/character_bible.md` — **authoritative character arcs and differentiated voice guidance** for the second draft.
+7. `book-agent/revision/character_registry.json` — stable character IDs and documented relationships, including unresolved genealogy.
+8. `book-agent/revision/legacy_character_crosswalk.json` — maps all 250 original character sketches to confirmed/provisional identities or retained secondary profiles.
+9. `book-agent/revision/approved_change_index.md` — **generated** change-list and chronology, not story prose.
+10. `book-agent/manuscript_chaptered.md`, `book-agent/beats.json`, `book-agent/character_bible.json`, `book-agent/bible.md`, `book-agent/concept.txt` — first-draft sources, potentially superseded by approved canon.
 
 ## Mandatory on author approval
 
@@ -22,6 +25,14 @@
 - Do not mistake an editorial proposal, assistant suggestion or historical illustration for author-approved canon.
 
 When presenting the story, link only to `master_storyline.md`. For source claims use the historical background document.
+
+## Character documentation
+
+Use the canonical character bible and registry for all character work. `book-agent/character_bible.json` remains an **unmodified original 250-profile source** referenced by legacy generation tools; it contains superseded character facts. Never use it to override approved kinship or chronology.
+
+After an explicit author decision affecting character identity or development, update the master storyline where the plot changes, the narrative character bible and the identity registry in the same revision. Preserve the original profiles and update crosswalk mappings rather than deleting them. Run `python3 book-agent/revision/validate_character_docs.py`. CI also checks it.
+
+Critical identity collisions: Elias's father Silas is not the later Silas claimant; Julian is Elias's biological son and Kaiulani's adopted son (not uncertain ancestry); Kaiulani's deceased legitimate child has no descendants; Marcus I, II and III are distinct generations; Kalanimoku's family tree is open; early and later Takashima/Kuroda, Shen, Hoshino and Kalākaua entries must not be silently merged; Dao's pronouns remain unresolved. This is not a complete list; see `character_bible.md`.
 
 ## Latest authorial decisions
 
