@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync the approved-change ledger in master_storyline.md.
+"""Sync separate approval index while validating master_storyline.md.
 
 No LLM or external dependencies. The authored story remains outside the
 generated region. --write updates that region; --check enforces both exact
@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 REGISTRY = ROOT / "change_requests.json"
 STORYLINE = ROOT / "master_storyline.md"
+INDEX = ROOT / "approved_change_index.md"
 BEGIN = "<!-- BEGIN AUTO-APPROVAL-LEDGER -->"
 END = "<!-- END AUTO-APPROVAL-LEDGER -->"
 
@@ -82,14 +83,6 @@ def approval_ledger(data: dict) -> str:
     return "\n".join(lines)
 
 
-def render(text: str, data: dict) -> str:
-    if text.count(BEGIN) != 1 or text.count(END) != 1:
-        raise ValueError("Exactly one start marker and end marker are required.")
-    start = text.index(BEGIN)
-    end = text.index(END, start) + len(END)
-    return text[:start] + approval_ledger(data) + text[end:]
-
-
 def missing_narrative_integrations(text: str, data: dict) -> list[str]:
     narrative = text.split(BEGIN, 1)[0]
     # Require a reference in authored prose, not just the generated appendix.
@@ -105,42 +98,45 @@ def missing_narrative_integrations(text: str, data: dict) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group(required=True)
-    mode.add_argument("--write", action="store_true", help="Regenerate ledger")
+    mode.add_argument("--write", action="store_true", help="Regenerate separate approval index")
     mode.add_argument("--check", action="store_true", help="Verify exact sync and narrative reconciliation")
     args = parser.parse_args()
 
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    text = STORYLINE.read_text(encoding="utf-8")
-    expected = render(text, data)
+    narrative = STORYLINE.read_text(encoding="utf-8")
+    expected = approval_ledger(data) + "\n"
+    current = INDEX.read_text(encoding="utf-8") if INDEX.exists() else ""
 
     if args.write:
-        if text != expected:
-            STORYLINE.write_text(expected, encoding="utf-8")
-            print("Updated master_storyline.md approval ledger.")
+        if current != expected:
+            INDEX.write_text(expected, encoding="utf-8")
+            print("Updated approved_change_index.md from the authorial register.")
         else:
-            print("master_storyline.md is already synchronized.")
-        pending = missing_narrative_integrations(expected, data)
-        if pending:
-            print("WARNING: Narrative integration still required for " + ", ".join(pending))
+            print("approved_change_index.md is already synchronized.")
+        missing = missing_narrative_integrations(narrative, data)
+        if missing:
+            print("WARNING: Narrative integration still required for " + ", ".join(missing))
         return 0
 
     problems: list[str] = []
-    if text != expected:
+    if current != expected:
         problems.append(
-            "Generated ledger is stale: python book-agent/revision/sync_master_storyline.py --write"
+            "Approved change index is stale: python book-agent/revision/sync_master_storyline.py --write"
         )
-    missing = missing_narrative_integrations(text, data)
+    missing = missing_narrative_integrations(narrative, data)
     if missing:
         problems.append(
-            "Approved changes missing from authored narrative: " + ", ".join(missing)
-            + ". Integrate each into its chronological story section, not only the generated appendix."
+            "Approved changes missing from master storyline editorial metadata: "
+            + ", ".join(missing)
+            + ". Integrate each request into the chronological narrative, "
+              "then include its CR ID in a hidden coverage comment."
         )
     if problems:
         print("MASTER STORYLINE VALIDATION FAILED:")
         for problem in problems:
             print("- " + problem)
         return 1
-    print("Master storyline ledger synchronized; all approved IDs present in authored narrative.")
+    print("Approved-change index synchronized; approved CR IDs referenced in master storyline.")
     return 0
 
 
