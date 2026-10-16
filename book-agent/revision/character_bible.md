@@ -152,10 +152,15 @@ A claimant tied to Japanese military aristocrats, in the legacy manuscript assoc
 
 **Voice:** Avoid reducing him to illness, fanaticism or racial stereotype; his motives should grow from family, Japanese political interests and the differing legal systems of Pacifica. **Open:** Is he Elias's son and, if so, born when and to whom?
 
-### CT-KALANIMOKU-OLDER — Kalanimoku of the founding dynasty
-**Status:** Provisional and **identity collision**.
+### CT-KALANIMOKU-CLAIMANT — Kalanimoku Thorne, young painter and claimant
+**Status:** Provisional individual, not yet identified with a later prince.
 
-The first draft variously calls a gentle Hawaiian painter *Kalanimoku Thorne* (a child of Elias and Kaiulani's second cousin) and *Prince Kalanimoku the Elder* (Kaiulani's cousin, father of the later Emperor). These cannot be assumed the same person or their parentage canon. He may supply a branch capable of producing the Emperor of 1914, but the connection is **open**. Distinguish his identity from the son of Elias and Kaiulani who dies in the late 1870s.
+The early-draft court gives Elias a gentle son or ward called Kalanimoku Thorne, associated with Hawaiian lineage and a desire for an ordinary life rather than rule. His old birth date (around 1868) and death before Elias in 1887 are **legacy details to reconcile**, not new canon. Following the 1874 Hawaiian incorporation, he may still represent a living connection between rival lines, but his mother and exact family status are undecided. He must **not** be collapsed into the deceased legitimate child or automatically made the father of the 1914 Emperor.
+
+### CT-KALANIMOKU-OLDER — Prince Kalanimoku, possible father of the Emperor
+**Status:** Provisional, separate identity shell.
+
+Another draft profile names *Prince Kalanimoku the Elder*, a gentle Hawaiian cousin of Kaiulani and father of the Emperor crowned in 1914. The father–son relationship may prove useful, but the current succession, marriage and death dates cannot be made consistent without a deliberate genealogy. Until resolved, this prince is a **separate potential person** from CT-KALANIMOKU-CLAIMANT. He is also unrelated to Elias and Kaiulani's dead legitimate son unless the author expressly establishes a kinship.
 
 ### CT-KALANIMOKU-EMPEROR — Sacred Emperor Kalanimoku
 **Status:** Crowned in 1914; lineage unsettled. **Born:** approximately 1890 if 24 in 1914.
@@ -254,7 +259,9 @@ She says years afterward that the pastor urged her to marry Elias, although the 
 
 **CT-WYLLIE — Robert Crichton Wyllie.** Foreign Minister associated with the Hawaiian negotiations. With Kaiulani he works out the Confederation's legal safeguards and contributes professional diplomatic caution to the 1856 Articles.
 
-**CT-KALAKAUA-FAMILY — The Kalākaua family and officers.** Several first-draft characters are labeled Prince David Kalakaua, Colonel Kalakaua, or younger officers with the same surname. They are not automatically one person. David Kalākaua is a historical political actor important in the 1874 Hawaiian succession and must be separated from invented descendants or regimental officers. **Open:** which military characters are distinct, whether the 1874 claimant becomes king in this timeline, and genealogy of every later Kalākaua.
+**CT-DAVID-KALAKAUA — David Kalākaua.** The historical Hawaiian political figure (born 1836), whose claims and supporters matter during the 1874 succession; he is *not* Kaiulani's younger nephew, as some original profiles imply. His alternate political fate after the 1874 annexation remains open. Do not treat the conquest as making him a disposable cipher.
+
+**CT-KALAKAUA-OFFICERS — Officers called Kalākaua.** The old profiles contain colonial and later officers bearing this surname, including young officers in the Khyber and Sydney campaigns. Their family connections are unestablished, and they may be several distinct people; until identified, record their legacy profiles as an unresolved surname group rather than silently calling them David Kalākaua.
 
 ---
 
