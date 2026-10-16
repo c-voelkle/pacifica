@@ -1,0 +1,2422 @@
+{
+  "schema": "pacifica.legacy-character-crosswalk.v1",
+  "generated_on": "2026-10-16",
+  "legacy_bible": "book-agent/character_bible.json",
+  "canonical_bible": "book-agent/revision/character_bible.md",
+  "canonical_registry": "book-agent/revision/character_registry.json",
+  "purpose": "Preserve all 250 legacy character sketches and identify where new canonical profiles correspond or cannot yet be safely matched. An unassigned secondary profile is retained and reviewable, not deleted.",
+  "counts": {
+    "canonical_match": 50,
+    "legacy_secondary_not_yet_assigned": 183,
+    "provisional_identity_match": 17
+  },
+  "legacy_profiles": [
+    {
+      "legacy_profile_index": 1,
+      "legacy_name": "Elias Thorne",
+      "legacy_role_summary": "Protector of the Grand Confederation of Pacifica, Providentor of the Atlantic Realm, and later Emperor; the central architect of the Pacific empire.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-ELIAS",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source says unmarried; approved marriage 1857 and legitimate child",
+        "Source 1852 secession scenario replaced"
+      ]
+    },
+    {
+      "legacy_profile_index": 2,
+      "legacy_name": "Marcus Vance",
+      "legacy_role_summary": "General and Marshal of the Iron Corps, Chief of Staff of the Pacifica General Staff, and later memoirist of the Empire.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-I",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source kinship with Caleb contradictory; original Siberian chronology may vary"
+      ]
+    },
+    {
+      "legacy_profile_index": 3,
+      "legacy_name": "Caleb Vance",
+      "legacy_role_summary": "Ex-regular US artilleryman, frontier trapper, Captain of the Clark's Point batteries, and later Brigadier of the Reserve; Elias's oldest comrade and mentor in arms.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CALEB",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Marcus I relation uncertain in original profiles; likely brother vs nephew"
+      ]
+    },
+    {
+      "legacy_profile_index": 4,
+      "legacy_name": "Lady Kaiulani (Princess Kaiulani)",
+      "legacy_role_summary": "Regent Plenipotentiary of the Kingdom of Hawaii, Envoy from the Court of Honolulu, and architect of the Polynesian maritime code and imperial syncretism.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KAIULANI",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Sources omit 1857 marriage and legitimate child",
+        "1855 Kuhina Nui appointment, Article XIV veto, 1874 annexation supersede older portrayal",
+        "Fate following Julian's arrest is open"
+      ]
+    },
+    {
+      "legacy_profile_index": 5,
+      "legacy_name": "The Chronicler",
+      "legacy_role_summary": "Implicit narrator and imperial historian of the Grand Confederation of Pacifica.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CHRONICLER",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 6,
+      "legacy_name": "Philadelphia Bailiff",
+      "legacy_role_summary": "Circuit bailiff for the Eastern banks who evicts the Thorne family and burns their Kentucky cabin in 1837.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 7,
+      "legacy_name": "Widow Thorne",
+      "legacy_role_summary": "Elias Thorne's mother; widow of Silas Thorne.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-THORNE-MOTHER",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 8,
+      "legacy_name": "Silas Thorne",
+      "legacy_role_summary": "Elias Thorne's deceased father (mentioned only).",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-THORNE-FATHER",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 9,
+      "legacy_name": "Elias's Maternal Uncle",
+      "legacy_role_summary": "Brother of Widow Thorne who runs a salt-lick camp three miles south of the Thorne homestead (mentioned only).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 10,
+      "legacy_name": "Red Higgins",
+      "legacy_role_summary": "Steersman of the sixty-foot Ohio/Mississippi broadhorn flatboat Chillicothe Maid.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 11,
+      "legacy_name": "General Jackson Steamboat Passenger",
+      "legacy_role_summary": "Wealthy gentleman aboard the sidewheeler General Jackson who tosses an empty claret bottle at the flatboatmen.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 12,
+      "legacy_name": "Captain Jack",
+      "legacy_role_summary": "Delaware Indian scout and trapper accompanying Elias and Caleb Vance from the Platte to El Paso.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 13,
+      "legacy_name": "Baptiste",
+      "legacy_role_summary": "Older of the two French-Cree trappers in the Platte blizzard; later killed and scalped by Arapaho near the Cimarron.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 14,
+      "legacy_name": "Baptiste's Brother",
+      "legacy_role_summary": "Younger French-Cree trapper in the Platte blizzard; killed by Arapaho near the Cimarron (non-speaking).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 15,
+      "legacy_name": "Red Sleeve (Kotsoteka Comanche Chief)",
+      "legacy_role_summary": "War chief of eighty Kotsoteka Comanches on the Llano Estacado who parleys with sixteen-year-old Elias.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 16,
+      "legacy_name": "Captain Jack Hays",
+      "legacy_role_summary": "Commander of the Texas Ranger company on the Nueces Strip.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-HAYS",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 17,
+      "legacy_name": "Cortina",
+      "legacy_role_summary": "One-eyed Mexican contrabandista and bandit leader killed by Elias at the Rio Frio.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 18,
+      "legacy_name": "Nacogdoches Ranger Boy",
+      "legacy_role_summary": "Young Texas Ranger killed beside Elias at the Rio Frio (non-speaking).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 19,
+      "legacy_name": "Sergeant (later Colonel) Mulligan",
+      "legacy_role_summary": "One-armed veteran of the Mexican-American War who becomes a loyal officer and enforcer in Elias's Pacific Legion.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MULLIGAN",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source loses arm at historical San Pasqual under wrong state allegiance; alternate 1846 engagement requires correction",
+        "One-arm injury at San Pasqual must be reconciled with revised 1846 battle and subsequent military career."
+      ]
+    },
+    {
+      "legacy_profile_index": 20,
+      "legacy_name": "Major Julian St. Clair",
+      "legacy_role_summary": "Emissary of the Knights of the Golden Circle in 1847, and later a crippled Confederate State Department commissioner in 1862.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "Knights of the Golden Circle meeting in 1847 requires independent reassessment under sovereign California."
+      ]
+    },
+    {
+      "legacy_profile_index": 21,
+      "legacy_name": "Tomas",
+      "legacy_role_summary": "Seventy-year-old Sonoma mission Indian convert who guides Elias to the mother-lode on the American River.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "Tomas is the old draft's sole gold-discovery guide; revised expedition includes an independent Sonoran miner and Miwok/Yokuts guide; do not carry old coercive portrayal forward."
+      ]
+    },
+    {
+      "legacy_profile_index": 22,
+      "legacy_name": "Federal Collector of the Port of San Francisco",
+      "legacy_role_summary": "Appointee of President Fillmore who attempts to seize the San Francisco customs-wharf in 1850 with the help of the Sydney Ducks.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "1850 federal collector on Californian port is inconsistent with approved 1846 independence; rewrite role or remove incident."
+      ]
+    },
+    {
+      "legacy_profile_index": 23,
+      "legacy_name": "Stockton Delegate",
+      "legacy_role_summary": "Free-Soil Jacksonian lawyer at the 1852 Sacramento constitutional convention who protests Elias's coup.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "1852 proposed admission/secession convention is obsolete; independent republic already founded 1846."
+      ]
+    },
+    {
+      "legacy_profile_index": 24,
+      "legacy_name": "President Franklin Pierce",
+      "legacy_role_summary": "President of the United States during the 1853 Sacramento Coup and Hawaiian annexation crisis.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "President Pierce's 1853 intervention belongs to old secret-gold/coup chronology; reframe diplomatic response."
+      ]
+    },
+    {
+      "legacy_profile_index": 25,
+      "legacy_name": "William L. Marcy",
+      "legacy_role_summary": "United States Secretary of State under Franklin Pierce in 1853.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 26,
+      "legacy_name": "Commodore Matthew Perry",
+      "legacy_role_summary": "US Navy commander whose expedition to open Japan was thwarted by Elias's coal monopoly.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "Perry's 1853 expedition cannot be automatically thwarted merely by Calfornia buying coal; episode needs historical reconstruction."
+      ]
+    },
+    {
+      "legacy_profile_index": 27,
+      "legacy_name": "Jefferson Davis",
+      "legacy_role_summary": "US Secretary of War in 1853, and later President of the Confederate States of America in 1862.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 28,
+      "legacy_name": "War Department Telegraph Clerk (1853)",
+      "legacy_role_summary": "Young clerk who bursts into Pierce's cabinet meeting with news of Thorne's squadron sailing for Yedo.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 29,
+      "legacy_name": "Lieutenant (later Major) Sterling",
+      "legacy_role_summary": "Flag-lieutenant aboard the Leviathan in April 1861, and later a former US Topographical Engineer officer recruited by Marcus Vance in Virginia who serves as his field-telegraph and staff officer in 1864.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-STERLING",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 30,
+      "legacy_name": "Delegate Broderick",
+      "legacy_role_summary": "San Francisco shipping broker and leader of the pro-Union mercantile faction in the Sacramento Diet in 1861.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 31,
+      "legacy_name": "Captain Hewlett",
+      "legacy_role_summary": "Southern-sympathizing delegate from the southern California counties in the Sacramento Diet.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 32,
+      "legacy_name": "Pacifica Minister of Ordnance",
+      "legacy_role_summary": "Cabinet minister accompanying Elias into the Sacramento Diet in 1861 (non-speaking).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 33,
+      "legacy_name": "Major von Wrangel",
+      "legacy_role_summary": "Prussian military observer watching the Battle of Bull Run alongside Marcus Vance.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 34,
+      "legacy_name": "British Legation Clerk at Bull Run",
+      "legacy_role_summary": "Young British diplomat caught in the Union rout at Matthews Hill.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 35,
+      "legacy_name": "Unseated Washington Congressman at Bull Run",
+      "legacy_role_summary": "Fat civilian politician whose phaeton is wrecked by a rebel solid shot during the Bull Run picnic rout.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 36,
+      "legacy_name": "Ohio Volunteer Colonel at Bull Run",
+      "legacy_role_summary": "Wounded Union officer who tries to commandeer Marcus Vance's horse during the retreat.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 37,
+      "legacy_name": "Lieutenant (later Captain/Colonel) Takashima",
+      "legacy_role_summary": "Bakufu samurai artillery officer who serves Elias at Tucson, commands the monitor Sacramento on the Mississippi, and oversees the silver payouts in the US Capitol crypt.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-TAKASHIMA",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Old profiles span young lieutenant and high admiral; one-person continuity not proven",
+        "Young Takashima's identity and training chronology must be checked against Treaty of Edo signed 1858."
+      ]
+    },
+    {
+      "legacy_profile_index": 38,
+      "legacy_name": "Major Crittenden",
+      "legacy_role_summary": "US Army commander of the Tucson Federal Arsenal who surrenders his ordnance to Elias in 1861.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 39,
+      "legacy_name": "Governor Ignacio Pesqueira",
+      "legacy_role_summary": "Governor of Sonora who signs a twenty-year commercial and military concordat with Pacifica in 1861.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-PESQUEIRA",
+      "identity_is_confirmed": true,
+      "notes": [
+        "1850s Pesqueira involvement and 1861 war requires revised diplomatic timeline."
+      ]
+    },
+    {
+      "legacy_profile_index": 40,
+      "legacy_name": "Cornelius Schuyler",
+      "legacy_role_summary": "Chairman of the Associated Banks' Loan Committee in New York during the August 1861 suspension of specie payments.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-SCHUYLER",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 41,
+      "legacy_name": "Arthur Tappan",
+      "legacy_role_summary": "Third Assistant Secretary of the US Treasury sent to Wall Street during the August 1861 bank panic.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 42,
+      "legacy_name": "Wall Street Dry-Goods Jobber",
+      "legacy_role_summary": "Rioter at the Bank of the Republic during the August 1861 specie suspension.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 43,
+      "legacy_name": "Sergeant Croker",
+      "legacy_role_summary": "Missouri veteran in the Pacific Legion stripped of his belt by Elias in Monterey for shoving a Japanese master-carpenter.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 44,
+      "legacy_name": "Japanese Master-Carpenter at Monterey",
+      "legacy_role_summary": "Third-class artificer of the Naval Foundry shoved into the mud by Sergeant Croker (non-speaking).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 45,
+      "legacy_name": "Colonel Philip St. George Cooke",
+      "legacy_role_summary": "Commander of the US Second Dragoons defeated and captured by Elias at Willow Creek (South Pass) in late 1861.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 46,
+      "legacy_name": "Captain Mordecai",
+      "legacy_role_summary": "US Ordnance Bureau officer who defects to Pacifica with Marcus Vance in Alexandria in November 1861 (non-speaking).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 47,
+      "legacy_name": "Captain (later Major) Custer",
+      "legacy_role_summary": "Regular US dragoon captain who defects with Marcus Vance in Alexandria and later commands Pacifica Lancers burning Union supply trains on the Plains.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "The role assigned to historical Custer needs separate plausibility review against his actual life and military career."
+      ]
+    },
+    {
+      "legacy_profile_index": 48,
+      "legacy_name": "Governor William Gilpin",
+      "legacy_role_summary": "Lincoln's Territorial Governor of Colorado who is deposed and expelled by Elias at the Denver convention in December 1861.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 49,
+      "legacy_name": "Judge Slaughter",
+      "legacy_role_summary": "Leader of the Auraria/Colorado bench at the Denver convention who champions joining Pacifica.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 50,
+      "legacy_name": "Elder Kimball",
+      "legacy_role_summary": "Leader of the Salt Lake Mormon delegation at the Denver convention.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 51,
+      "legacy_name": "Captured Illinois Volunteer Quartermaster",
+      "legacy_role_summary": "Union captain captured at Fort Kearny in May 1862 and sent walking back toward Omaha bootless.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 52,
+      "legacy_name": "Judah Benjamin",
+      "legacy_role_summary": "Confederate Secretary of State in Richmond in August 1862.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 53,
+      "legacy_name": "Lord Shimazu",
+      "legacy_role_summary": "Head of the Satsuma naval mission on the Imperial Council in Monterey in 1863.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 54,
+      "legacy_name": "Judge Jeremiah Black",
+      "legacy_role_summary": "Spokesman for the newly annexed Mississippi Valley territories at the 1863 Monterey Council.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 55,
+      "legacy_name": "Judge Black's Nephew",
+      "legacy_role_summary": "Captain in the Missouri militia ordered to salute a Cantonese commissary officer at the Sacramento rail-depot (mentioned only).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 56,
+      "legacy_name": "General Montgomery Meigs",
+      "legacy_role_summary": "Union Quartermaster General commanding the last defense of the Washington river bridges in November 1864 (reported indirectly).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 57,
+      "legacy_name": "Veteran Reserve Corps Invalids in the White House",
+      "legacy_role_summary": "Squad of crippled Union soldiers left behind in the East Room of the Executive Mansion.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 58,
+      "legacy_name": "Senator Charles Sumner",
+      "legacy_role_summary": "Radical Republican Senator from Massachusetts who refuses Elias's silver and denounces the Articles of Dissolution in the Capitol crypt.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 59,
+      "legacy_name": "Portland Shipping District Representative",
+      "legacy_role_summary": "Maine congressman who is the first to break ranks and sign the Articles of Dissolution for silver.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 60,
+      "legacy_name": "Horatio Seymour",
+      "legacy_role_summary": "New York Peace Democrat who reads the proclamation constituting the 'American Free States' as a Pacifica protectorate on the Capitol steps.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 61,
+      "legacy_name": "Pacifica Chancellor",
+      "legacy_role_summary": "High civil official of the Confederation present in Sacramento, Monterey, and on the Capitol steps in Washington (non-speaking).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "Unidentified Chancellor of Pacifica may conflict with Elias being Chancellor from 1856; distinguish deputy or successor."
+      ]
+    },
+    {
+      "legacy_profile_index": 62,
+      "legacy_name": "Thaddeus Stevens",
+      "legacy_role_summary": "Radical Republican Representative from Pennsylvania who refuses to sign the Articles of Dissolution in the Capitol crypt (mentioned/present among the nineteen).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 63,
+      "legacy_name": "Benjamin Wade",
+      "legacy_role_summary": "Radical Republican Senator from Ohio who refuses to sign the Articles of Dissolution (mentioned/present among the nineteen).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 64,
+      "legacy_name": "Colonel Lafayette C. Baker",
+      "legacy_role_summary": "Secretary Stanton's chief provost-marshal captured while trying to burn the War Department cipher-archive on Seventeenth Street.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 65,
+      "legacy_name": "Major Sterling",
+      "legacy_role_summary": "Chief logistical aide and later Director of the Imperial Telegraphs; the exhausted nervous system of Elias's command apparatus.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-STERLING",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 66,
+      "legacy_name": "Lady Kaiulani",
+      "legacy_role_summary": "Polynesian Royal Envoy, later High Commissioner of the Insular Courts and Chancellor of the Insular Diet; co-architect of Pacifica's syncretic legal code who becomes its most lethal internal prisoner and critic.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KAIULANI",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Sources omit 1857 marriage and legitimate child",
+        "1855 Kuhina Nui appointment, Article XIV veto, 1874 annexation supersede older portrayal",
+        "Fate following Julian's arrest is open",
+        "Original political portrait predates the 1857 marriage and the specific 1860 constitutional veto."
+      ]
+    },
+    {
+      "legacy_profile_index": 67,
+      "legacy_name": "General Marcus Vance",
+      "legacy_role_summary": "Marshal and Provost-General of Pacifica; supreme field commander executing amphibious invasions, urban pacifications, and fleet logistics.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-I",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source kinship with Caleb contradictory; original Siberian chronology may vary",
+        "Retired general's timing and kinship require canonical Vance pedigree."
+      ]
+    },
+    {
+      "legacy_profile_index": 68,
+      "legacy_name": "Rear-Admiral Takashima",
+      "legacy_role_summary": "Colonel, later Rear-Admiral of Ordnance and fleet commander; principal Japanese military liaison integrating Satsuma naval power into Pacifica.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-TAKASHIMA",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Old profiles span young lieutenant and high admiral; one-person continuity not proven"
+      ]
+    },
+    {
+      "legacy_profile_index": 69,
+      "legacy_name": "General / Colonel Caleb Vance",
+      "legacy_role_summary": "Commander of the Mississippi/St. Louis garrison and later reserve commander in the Bay Area; rugged frontier enforcer.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CALEB",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Marcus I relation uncertain in original profiles; likely brother vs nephew"
+      ]
+    },
+    {
+      "legacy_profile_index": 70,
+      "legacy_name": "Baron Eduard de Stoeckl",
+      "legacy_role_summary": "Russian Minister and plenipotentiary who negotiates the forced midnight sale of Russian America (Alaska) to Pacifica.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 71,
+      "legacy_name": "Colonel Mulligan",
+      "legacy_role_summary": "One-armed tactical commander of the First Atlantic Free States Regiment during the seizures of Sitka and Honolulu.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MULLIGAN",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source loses arm at historical San Pasqual under wrong state allegiance; alternate 1846 engagement requires correction"
+      ]
+    },
+    {
+      "legacy_profile_index": 72,
+      "legacy_name": "Lieutenant Mordecai",
+      "legacy_role_summary": "Turret commander of the flat-bottomed river monitor Shasta during the hazardous tow to Sitka Sound.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 73,
+      "legacy_name": "Captain Pestchouroff",
+      "legacy_role_summary": "Russian Imperial Navy commissioner at Sitka overseeing the formal transfer of Russian America.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 74,
+      "legacy_name": "Prince Maksutov",
+      "legacy_role_summary": "Last Governor of the Russian American Company at Sitka.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 75,
+      "legacy_name": "Princess Maksutov",
+      "legacy_role_summary": "Wife of the Russian Governor at Sitka, witnessing the end of Russian America.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 76,
+      "legacy_name": "Captain Hewett",
+      "legacy_role_summary": "Royal Navy post-captain of HMS Zealous who arrives minutes too late to claim Sitka for Great Britain.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 77,
+      "legacy_name": "Luke Harmon",
+      "legacy_role_summary": "Washoe silver-prospector and scout of the Pacific Legion whose discovery of Klondike gold finances the empire's war fleet.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 78,
+      "legacy_name": "Keoni",
+      "legacy_role_summary": "Aged Hawaiian chamberlain attending Lady Kaiulani in Honolulu.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KEONI",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 79,
+      "legacy_name": "Chancellor Gwin",
+      "legacy_role_summary": "High civilian official and Chancellor of the Confederation overseeing state treaties and decrees.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "Chancellor Gwin may conflict with Elias's 1856 chancellorship; preserve identity pending office allocation."
+      ]
+    },
+    {
+      "legacy_profile_index": 80,
+      "legacy_name": "Judge Varigny",
+      "legacy_role_summary": "French-born minister to King Lot Kamehameha V, detained in San Francisco during the annexation of Hawaii.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 81,
+      "legacy_name": "King Lot Kamehameha the Fifth",
+      "legacy_role_summary": "Last reigning monarch of the Kingdom of Hawaii, deposed and reduced to a pensioned figurehead by the Insular Incorporation Act.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": [
+        "Old portrayal deposes Kamehameha V in 1867; he instead dies in December 1872 and leads sovereignty crisis to c.1874."
+      ]
+    },
+    {
+      "legacy_profile_index": 82,
+      "legacy_name": "Horace",
+      "legacy_role_summary": "Hunchbacked former printer from the New York Tribune, now master typesetter for the Imperial Gazette in San Francisco.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 83,
+      "legacy_name": "Colonel Armistead",
+      "legacy_role_summary": "Commander of the Second Virginia Regiment of the Atlantic Auxiliary in Guam, Luzon, and Yokohama.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 84,
+      "legacy_name": "Queen Isabella the Second",
+      "legacy_role_summary": "Queen of Spain, presiding over the catastrophic loss of the Philippines and Marianas.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 85,
+      "legacy_name": "Marshal Narváez (Duke of Valencia)",
+      "legacy_role_summary": "Aged Spanish Prime Minister informing Queen Isabella that Europe will not aid Spain against Pacifica.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 86,
+      "legacy_name": "Spanish Minister of Marine",
+      "legacy_role_summary": "Aged Spanish admiral who explains the technological and logistical impossibility of fighting Elias Thorne's fleet.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 87,
+      "legacy_name": "Don José Gutiérrez de la Concha (Marquis of Havana)",
+      "legacy_role_summary": "Spanish Plenipotentiary forced to sign the cession of the Philippines, Marianas, Carolines, and Samoa in San Francisco.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 88,
+      "legacy_name": "Older Dominican Procurator",
+      "legacy_role_summary": "Representative of the Spanish religious orders in Manila protesting the confiscation of church estates.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 89,
+      "legacy_name": "Matsudaira",
+      "legacy_role_summary": "Commander of the Tokugawa River Guard at the First Daiba battery in Edo Bay.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 90,
+      "legacy_name": "Prince Sanjo",
+      "legacy_role_summary": "Imperial Regent of Japan and court noble who negotiates the Grand Pacific Alliance at Nijo and ratifies it in San Francisco.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 91,
+      "legacy_name": "Emperor Mutsuhito (The Boy-Emperor / Tenno)",
+      "legacy_role_summary": "Sixteen-year-old Sovereign of Japan who breaks ancient seclusion to ally the Chrysanthemum Throne with Pacifica.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 92,
+      "legacy_name": "Sir Edward Thornton",
+      "legacy_role_summary": "British Minister in San Francisco who walks out of the Rotunda upon the closing of the Western Ocean to European trade.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 93,
+      "legacy_name": "Prime Minister Benjamin Disraeli",
+      "legacy_role_summary": "Prime Minister of Great Britain; the supreme geopolitical adversary who diagnoses Pacifica's strengths and launches asymmetric covert war against Elias.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 94,
+      "legacy_name": "Lord Stanley",
+      "legacy_role_summary": "British Foreign Secretary managing the fallout of Pacifica's tariff decrees and executing Disraeli's covert Chinese strategy.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 95,
+      "legacy_name": "Admiral Sir Sydney Dacres",
+      "legacy_role_summary": "First Sea Lord of the British Admiralty, advocating an immediate naval offensive that Disraeli proves logistically impossible.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 96,
+      "legacy_name": "Minor & Fleeting Figures (Collective Ensemble)",
+      "legacy_role_summary": "The human masonry and friction points of the empire: the grey-haired Sixth Auditor's clerk, the Hawaiian Guard corporal, the Irish Pittsburgh foreman, the Cantonese furnace stoker, Miss Schuyler, Judge Biddle, Mrs. Livingston, the British Consul on the gallery, Captain Bowden-Smith (HMS Curaçoa), the Maui boy in the yellow mamo cape, the Spanish officer under the umbrella at Piti, Rear-Admiral Montojo, Captain-General Jaudenes, the Japanese Cable Corps signal-lieutenant, the Governor of the Bank of England, and off-stage actors (Admiral Kuper, Rear-Admiral Denman, Prince Gorchakov, Grand Duke Constantine, Tsar Alexander II, Sir Andrew Buchanan, Sir Rutherford Alcock).",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 97,
+      "legacy_name": "General Marcus Vance (The Elder)",
+      "legacy_role_summary": "Marshal of the Pacifica Armies; commands the northern Chinese campaign (Nankou Pass/Peking), the Chukotka vanguard, the bombardment of Vladivostok, and dies of advanced tuberculosis/pleurisy during the winter assault on Lake Baikal.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-I",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source kinship with Caleb contradictory; original Siberian chronology may vary",
+        "Original older Marcus profile calls him nephew of Caleb; revised working option makes him Caleb's younger brother."
+      ]
+    },
+    {
+      "legacy_profile_index": 98,
+      "legacy_name": "Rear-Admiral / Grand-Admiral Marquis Takashima",
+      "legacy_role_summary": "Commander of the First Armored Battle Squadron and head of the Satsuma-dominated Naval Board; represents Japanese imperial interests within the Confederation and plots with Schuyler to divide the empire upon Thorne's death.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-TAKASHIMA",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Old profiles span young lieutenant and high admiral; one-person continuity not proven"
+      ]
+    },
+    {
+      "legacy_profile_index": 99,
+      "legacy_name": "Sir Harry Parkes",
+      "legacy_role_summary": "Her Britannic Majesty's Minister Plenipotentiary in China; confronts Elias Thorne in Shanghai over the annexation of the Yangtze customs and the strangulation of British trade.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 100,
+      "legacy_name": "Emperor Alexander II (Alexander Romanov)",
+      "legacy_role_summary": "Tsar of All the Russias; sells Alaska believing the Bering Strait is an impassable moat, wages an eighteen-year war of attrition in Siberia against Pacifica, and faces the 1887 revolution in St. Petersburg.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 101,
+      "legacy_name": "General Dmitry Milyutin",
+      "legacy_role_summary": "Russian Minister of War; warns Tsar Alexander II of the lethal strategic threat posed by the Bering Bridge and Pacifica's broad-gauge rail network.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 102,
+      "legacy_name": "Prince Alexander Gorchakov",
+      "legacy_role_summary": "Russian Minister of Foreign Affairs / Chancellor; explains Russia's financial helplessness and diplomatic isolation to Tsar Alexander II.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 103,
+      "legacy_name": "Count Dmitry Tolstoi",
+      "legacy_role_summary": "Russian Minister of the Interior during the 1887 St. Petersburg revolution; urges the Tsar to flee the Winter Palace.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 104,
+      "legacy_name": "One-Armed Siberian Sapper Captain",
+      "legacy_role_summary": "Leader of the 1887 revolutionary mutiny on the Senate Square in St. Petersburg; turns the mutinous Guard regiments against the Romanov cavalry.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 105,
+      "legacy_name": "Chevalier Guard Cornet",
+      "legacy_role_summary": "Nineteen-year-old Russian cavalry officer who leads a loyalist charge against the St. Petersburg mutineers and is gunned down.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 106,
+      "legacy_name": "General Marcus Vance (The Younger)",
+      "legacy_role_summary": "Son of the elder Marshal Marcus Vance and grandson of Caleb Vance; commands the 1887 conquests of the Dutch East Indies (Java), Australia (Sydney), and the annihilation of the British Fleet in the Coral Sea.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-II",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source calls him 23 in 1887 despite 1858 birth; should be around 29",
+        "Original claims Marcus II born in year of 1852 coup; b c1858 implies ages about 29 in 1887 and 56 in 1914."
+      ]
+    },
+    {
+      "legacy_profile_index": 107,
+      "legacy_name": "Major / Colonel Kuroda",
+      "legacy_role_summary": "Satsuma Chief of Staff to the younger General Marcus Vance during the Java and Coral Sea campaigns; later mentioned as having his wife's sedan-chair spat upon in Victoria.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KURODA-I",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Several staff officer stages possibly separate people"
+      ]
+    },
+    {
+      "legacy_profile_index": 108,
+      "legacy_name": "Rear-Admiral Sir George Tryon",
+      "legacy_role_summary": "Commander of the Royal Navy's Australian Squadron aboard HMS Nelson; surrenders Sydney Harbor without firing a shot upon recognizing the overwhelming superiority of Pacifica's battleships.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 109,
+      "legacy_name": "Flag-Captain of HMS Nelson",
+      "legacy_role_summary": "British naval captain under Rear-Admiral Tryon at Sydney Harbor.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 110,
+      "legacy_name": "Lord Carington",
+      "legacy_role_summary": "Royal Governor of New South Wales; confronts the Pacifica landing party at Sydney Cove on Queen Victoria's Golden Jubilee and is forced to sign the railway-transfer order.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 111,
+      "legacy_name": "Prince David Kalakaua (Colonel Kalakaua)",
+      "legacy_role_summary": "Lady Kaiulani's nephew; as Colonel of the Hawaiian Royal Guard, he crushes the 1869 San Francisco bread riots; eighteen years later, as Privy Councillor and Deputy-Commissioner for the Southern Ocean, he proclaims the annexation of Australia.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-DAVID-KALAKAUA",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Source calls David Kaiulani's nephew; historical birth 1836 precedes Kaiulani's fictional 1838 birth",
+        "First draft says Prince David Kalakaua is Kaiulani's nephew though historical David b1836, Kaiulani b1838; identity and role pending."
+      ]
+    },
+    {
+      "legacy_profile_index": 112,
+      "legacy_name": "Sir Henry Parkes",
+      "legacy_role_summary": "White-bearded Premier of New South Wales; defies Prince Kalakaua and young Marcus Vance at Sydney Cove before having his watch and keys confiscated.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 113,
+      "legacy_name": "Fore-Top Observer (aboard PCS Elias Thorne)",
+      "legacy_role_summary": "Spotter in the armored masthead who calls down the fatal hits on HMS Inflexible during the Battle of the Coral Sea.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 114,
+      "legacy_name": "Magistrate Shen",
+      "legacy_role_summary": "Former President of the Peking Board of Punishments; member of the Bureau of Integration commission drafting the Codex Pacificus.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-SHEN-I",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Early Qing jurist versus Hankow customs auditor might not be same individual",
+        "Original Qing magistrate from Beijing might be a different person from the Hankow auditor."
+      ]
+    },
+    {
+      "legacy_profile_index": 115,
+      "legacy_name": "Chief Justice Stephen Field",
+      "legacy_role_summary": "Chief Justice of the California bench; member of the Bureau of Integration who defends Anglo-Saxon common law and jury trials against Chinese and Japanese feudal statutes.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 116,
+      "legacy_name": "Judge Hoshino",
+      "legacy_role_summary": "Jurist from the Edo Cassation Court; member of the Bureau of Integration who insists on preserving samurai caste privileges and the right of summary execution (Kiri-sute gomen) in the new code.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-HOSHINO-LEGAL",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 117,
+      "legacy_name": "San Francisco Rioters (1869 Mob)",
+      "legacy_role_summary": "Ten thousand starving mechanics, forty-niner veterans, and soldiers' wives who march on the Rincon Hill Citadel during the Battle of Lake Baikal and are crushed by Hawaiian and Chinese troops.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 118,
+      "legacy_name": "First California Reserve Battalion Sergeants",
+      "legacy_role_summary": "Non-commissioned officers at the Presidio who refuse to draw ball-cartridge to fire on the San Francisco rioters in December 1869.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 119,
+      "legacy_name": "Admiral Sir Geoffrey Hornby",
+      "legacy_role_summary": "Commander-in-Chief of the combined British Cape, India, and China Squadrons; leads the final British naval charge in the Coral Sea, is mortally burned, and signs the surrender of all remaining British Pacific stations before dying.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 120,
+      "legacy_name": "Prince Kung",
+      "legacy_role_summary": "Qing Imperial prince and head of the Grand Secretariat; forced at bayonet-point to transfer the Yangtze Maritime Customs to San Francisco syndics and attends Elias Thorne's investiture at the Forbidden City.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 121,
+      "legacy_name": "Captain Rafferty",
+      "legacy_role_summary": "Company commander in the First Pennsylvania Auxiliary at the Chukotka rail-head, ordered by Marcus Vance to bayonet any fleeing Chinese coolies to keep the rifle line intact against the Amur Cossacks.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 122,
+      "legacy_name": "General Korsakov",
+      "legacy_role_summary": "Russian Governor-General at Irkutsk; leads the Siberian defense against Marcus Vance, offers an armistice, conducts a scorched-earth retreat, and builds the massive ice-wall across Lake Baikal.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 123,
+      "legacy_name": "General Pyotr Vannovsky",
+      "legacy_role_summary": "Russian general present with Tsar Alexander II in the Winter Palace during the 1887 revolution; ordered to unlimber the Guard artillery against the crowd.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 124,
+      "legacy_name": "Elias Thorne (The Providentor)",
+      "legacy_role_summary": "Founder and dying Sovereign of the Grand Confederation of Pacifica; later encased in bronze as an eternal effigy.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-ELIAS",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source says unmarried; approved marriage 1857 and legitimate child",
+        "Source 1852 secession scenario replaced",
+        "Dying Elias' wife and legitimate family have been added to approved story."
+      ]
+    },
+    {
+      "legacy_profile_index": 125,
+      "legacy_name": "General Marcus Vance the Younger",
+      "legacy_role_summary": "Chief of the Imperial Staff and Marshal of the Polytechnic regime; enforcer of the Examination system and the Canal construction.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-II",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source calls him 23 in 1887 despite 1858 birth; should be around 29"
+      ]
+    },
+    {
+      "legacy_profile_index": 126,
+      "legacy_name": "Chief Examiner / Magistrate / Auditor Shen",
+      "legacy_role_summary": "Head of the Examination Sheds and the Bureau of Integration's fiscal audits.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-SHEN-I",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Early Qing jurist versus Hankow customs auditor might not be same individual"
+      ]
+    },
+    {
+      "legacy_profile_index": 127,
+      "legacy_name": "Arthur Schuyler (Candidate 4409)",
+      "legacy_role_summary": "Youngest grandson of Comptroller Schuyler; fails the Grand Triennial Examination and is conscripted into the Sumatra rubber-battalions.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-ARTHUR-SCHUYLER",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 128,
+      "legacy_name": "Comptroller Cornelius Schuyler",
+      "legacy_role_summary": "Head of the New York Banking Syndicate and member of the Regency Council; purged and imprisoned in a sanatorium by Kaiulani and Vance.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-SCHUYLER",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Financial control actions adjusted for mature regency."
+      ]
+    },
+    {
+      "legacy_profile_index": 129,
+      "legacy_name": "Grand-Admiral Marquis Takashima",
+      "legacy_role_summary": "Satsuma warlord, commander of the Battle Fleet, and member of the Regency Council; outmaneuvered and deposed by the Polytechnic cadets.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-TAKASHIMA",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Old profiles span young lieutenant and high admiral; one-person continuity not proven"
+      ]
+    },
+    {
+      "legacy_profile_index": 130,
+      "legacy_name": "Rear-Admiral Shimazu Tadao (Candidate 7102)",
+      "legacy_role_summary": "Grand-nephew of Marquis Takashima; passes the Berkeley examination and later commands the dreadnought Elias Thorne.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 131,
+      "legacy_name": "Colonel / Captain / Prince Kalakaua",
+      "legacy_role_summary": "Commander of the Insular Guard and loyal military enforcer for his aunt, Lady Kaiulani.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KALAKAUA-OFFICERS",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Group may contain 3+ distinct persons; do not merge as a single biographical individual",
+        "Kalakaua military surname group may be several individuals; should never collapse with historical David by surname alone."
+      ]
+    },
+    {
+      "legacy_profile_index": 132,
+      "legacy_name": "New Edo Cadet-Adjutant",
+      "legacy_role_summary": "Commands the cadet squares in the Berkeley processing-yard.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 133,
+      "legacy_name": "Hawaiian Blacksmith",
+      "legacy_role_summary": "Induction orderly at the Berkeley sheds who rivets the Sumatra collar onto Arthur Schuyler.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 134,
+      "legacy_name": "Colonel Gorgas",
+      "legacy_role_summary": "Chief Surgeon of the Isthmian Works at the City of the Cut.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 135,
+      "legacy_name": "Major Kuroda",
+      "legacy_role_summary": "Satsuma officer serving as General Marcus Vance's personal aide-de-camp and tactical executor.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KURODA-I",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Several staff officer stages possibly separate people",
+        "Officer named Kuroda; distinguish early generation from 1914 Fleet-General."
+      ]
+    },
+    {
+      "legacy_profile_index": 136,
+      "legacy_name": "Georgian Mechanic at Las Cascadas",
+      "legacy_role_summary": "Leader of the striking shovel-men and mechanics in Sector Four of the Panama Cut.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 137,
+      "legacy_name": "Don Rafael Núñez",
+      "legacy_role_summary": "President of the Colombian Confederation forced to sign away sovereignty in the Treaty of the Darien Hinterlands.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 138,
+      "legacy_name": "General Guzmán Blanco",
+      "legacy_role_summary": "President of Venezuela attending the Culebra conference.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 139,
+      "legacy_name": "Rector Norton",
+      "legacy_role_summary": "Rector of the Imperial University at Berkeley, directing the artistic propaganda of the Antonine Peace.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 140,
+      "legacy_name": "Master Kano Hogai",
+      "legacy_role_summary": "Court painter summoned from Edo to direct the Academy of the Two Shores at Berkeley.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 141,
+      "legacy_name": "Brigadier Caleb Vance",
+      "legacy_role_summary": "Elias Thorne's oldest friend and bodyguard; great-uncle to young Marcus Vance.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CALEB",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Marcus I relation uncertain in original profiles; likely brother vs nephew",
+        "Caleb pedigree unresolved, but 1841–42 Santa Fe captivity is canonical."
+      ]
+    },
+    {
+      "legacy_profile_index": 142,
+      "legacy_name": "Chief Engineer Loewe",
+      "legacy_role_summary": "Designer of the experimental hydrogen air-cruiser Aeolus at the Benicia Arsenal.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 143,
+      "legacy_name": "Cantonese Coolie-Broker",
+      "legacy_role_summary": "Factor for the Six Companies Guild caught defrauding the Crown Commissariat with dead coolies' ration tags.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 144,
+      "legacy_name": "Count von Hatzfeldt",
+      "legacy_role_summary": "German envoy sent to San Francisco to beg for California wheat and Malaysian rubber on credit.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 145,
+      "legacy_name": "Sir Julian Pauncefote",
+      "legacy_role_summary": "British envoy accompanying the European trade mission.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 146,
+      "legacy_name": "Monsieur Challemel-Lacour",
+      "legacy_role_summary": " Envoy of the French Republic at the Rincon Hill audience.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 147,
+      "legacy_name": "General Saigo",
+      "legacy_role_summary": "Commander of the Choshu Guard; backs Marquis Takashima in the struggle for the Regency.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 148,
+      "legacy_name": "Kiyoshi Thorne",
+      "legacy_role_summary": "Second of the 'Left-Handed Princes'; epileptic fanatic favored by the Choshu faction.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KIYOSHI",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Kiyoshi kinship and birth date open; epilepsy cannot be entire characterization."
+      ]
+    },
+    {
+      "legacy_profile_index": 149,
+      "legacy_name": "Kalanimoku Thorne",
+      "legacy_role_summary": "Youngest of the 'Left-Handed Princes'; gentle painter who rejects the throne and dies of winter pleurisy before his father.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KALANIMOKU-CLAIMANT",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Source may conflate with the father of Emperor Kalanimoku; do not merge yet",
+        "Painter Kalanimoku may not be father of 1914 Emperor; separate identity from Prince Kalanimoku the Elder."
+      ]
+    },
+    {
+      "legacy_profile_index": 150,
+      "legacy_name": "Risdon Boiler-Shop Hammer-Man",
+      "legacy_role_summary": "Agitator during the 1881 San Francisco bread panic outside the Old Mint.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 151,
+      "legacy_name": "Senior Naval Surgeon",
+      "legacy_role_summary": "Attends Elias Thorne after his stroke and straps him into the galvanic orthopedic corset.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 152,
+      "legacy_name": "Bathurst Telegraph-Clerk",
+      "legacy_role_summary": "Nineteen-year-old operator who leaks the news of Elias Thorne's death to the Australian interior, sparking the Ballarat uprising.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 153,
+      "legacy_name": "Timothy Lalor",
+      "legacy_role_summary": "Leader of the Australian gold-miners who dynamite the bullion-train at Ballarat.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 154,
+      "legacy_name": "Junior Prefect Hoshino (Candidate 1108)",
+      "legacy_role_summary": "Customs officer at Hankow burned alive during the White Lotus/Righteous Harmony uprising.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-HOSHINO-HANKOW",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Later Hoshino family claims not verified"
+      ]
+    },
+    {
+      "legacy_profile_index": 155,
+      "legacy_name": "Californian Provost-Sergeant at Hankow",
+      "legacy_role_summary": "Veteran guard under Hoshino's command during the Hankow mutiny.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 156,
+      "legacy_name": "General Kaito",
+      "legacy_role_summary": "Commander of the Third Amur and Insular Division; attempts an armed coup in the Capitol Rotunda during Elias Thorne's funeral and is shot on Marcus Vance's order.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 157,
+      "legacy_name": "Major Kuroda (Cipher Zero-Four-One-Nine)",
+      "legacy_role_summary": "Polytechnic officer and aide to General Marcus Vance during the Time of Troubles; executes General Kaito in the Rotunda and serves in the Donner Pass campaign.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KURODA-I",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Several staff officer stages possibly separate people",
+        "Older Kuroda's family link to Fleet-General needs verification."
+      ]
+    },
+    {
+      "legacy_profile_index": 158,
+      "legacy_name": "Field-Marshal Marcus Vance",
+      "legacy_role_summary": "Chancellor of the Gauge, Commander of the First Polytechnic Corps, and later Emeritus Guardian; architect of the mathematical examination state who lives to see his rational machine become an uncontrollable, world-devouring juggernaut.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-II",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source calls him 23 in 1887 despite 1858 birth; should be around 29",
+        "Marcus II is not General Marcus Vance I; ~1858 birth anchors age."
+      ]
+    },
+    {
+      "legacy_profile_index": 159,
+      "legacy_name": "Captain / Colonel Kalakaua",
+      "legacy_role_summary": "Hawaiian officer commanded to release Brennan mines at Mare Island and later commanding the riflemen guarding Lady Kaiulani in Honolulu.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KALAKAUA-OFFICERS",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Group may contain 3+ distinct persons; do not merge as a single biographical individual"
+      ]
+    },
+    {
+      "legacy_profile_index": 160,
+      "legacy_name": "Lady Kaiulani (Queen-Mother / Sole Regent)",
+      "legacy_role_summary": "Co-architect of the Confederation, Sole Regent during the twenty-six-year convalescence, and Queen-Mother of the Syncretic Dynasty; cuts the Oahu cables to save the islands, forges the Truce of Thalassia, liquidates the British Raj, and dies watching the Empire choke on its own global overextension.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KAIULANI",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Sources omit 1857 marriage and legitimate child",
+        "1855 Kuhina Nui appointment, Article XIV veto, 1874 annexation supersede older portrayal",
+        "Fate following Julian's arrest is open",
+        "Kaiulani is Elias' widow, adoptive mother of Julian; final fate after 1931 unknown."
+      ]
+    },
+    {
+      "legacy_profile_index": 161,
+      "legacy_name": "Prince Kalanimoku (The Elder)",
+      "legacy_role_summary": "Kaiulani's gentle cousin who carries the iron strongbox of the Oahu Chancery seals and later dies of Monterey pleurisy; father of Sacred Emperor Kalanimoku.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KALANIMOKU-OLDER",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Source may conflate with painter or other Hawaiian child; pending dynasty genealogy",
+        "Separate provisional Prince Kalanimoku from gentle painter until genealogy is resolved."
+      ]
+    },
+    {
+      "legacy_profile_index": 162,
+      "legacy_name": "Director Damon",
+      "legacy_role_summary": "Director of the Bishop Sugar Syndicate in Honolulu who protests the cutting of the San Francisco submarine cable.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 163,
+      "legacy_name": "The Chronicler (Citizen-Historian)",
+      "legacy_role_summary": "First-person narrator, Berkeley Historiographer, and attaché to the Debt-Liquidation and Diplomatic Missions; witnesses the fall of India, the Senate of Thalassia, the burning of London, and the liquidation of Europe.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CHRONICLER",
+      "identity_is_confirmed": true,
+      "notes": [
+        "The Chronicler's eyewitness knowledge begins much later than Kentucky/1846; earlier testimony needs sources."
+      ]
+    },
+    {
+      "legacy_profile_index": 164,
+      "legacy_name": "Sacred Emperor Kalanimoku (The Younger)",
+      "legacy_role_summary": "First sovereign of the Syncretic Dynasty of Thorne-Kamehameha; intended as a ceremonial figurehead, he resurrects Elias Thorne's ruthless autocracy using third-generation technocratic instruments to conquer and liquidate Europe.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KALANIMOKU-EMPEROR",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source says grandson of Kaiulani and Elias; precise kinship remains unapproved; dead legitimate son cannot be parent",
+        "Emperor Kalanimoku must descend from a branch other than deceased legitimate Elias–Kaiulani child; exact line open."
+      ]
+    },
+    {
+      "legacy_profile_index": 165,
+      "legacy_name": "Imperial Consort Lady Chiyo",
+      "legacy_role_summary": "Consort to Emperor Kalanimoku; symbol of the Japanese-Polynesian-American dynastic synthesis.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CHIYO",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 166,
+      "legacy_name": "Fleet-General Kuroda (The Younger / Candidate Zero-Zero-One-Four)",
+      "legacy_role_summary": "Supreme military commander of the third generation; destroys the British fleet in the Bay of Bengal, enforces the Treaty of Rangoon, blockades Europe at Gibraltar, and marches into the Hindu Kush.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KURODA-II",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Fleet-General is younger than Major Kuroda, Treaty of Edo already signed 1858."
+      ]
+    },
+    {
+      "legacy_profile_index": 167,
+      "legacy_name": "Flag-Lieutenant (Cipher Eight-Eight-One-Two)",
+      "legacy_role_summary": "Range-finder officer aboard the super-dreadnought *Pacifica* during the Battle of the Hooghly.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 168,
+      "legacy_name": "Presidio Hospital Orderly",
+      "legacy_role_summary": "Seventeen-year-old corporal who brings beef-tea to retired Field-Marshal Marcus Vance.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 169,
+      "legacy_name": "Lord Hardinge of Penshurst",
+      "legacy_role_summary": "The last British Viceroy of India; forced to sign the Treaty of Rangoon on the steps of the Shwedagon Pagoda.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 170,
+      "legacy_name": "General Sir Beauchamp Duff",
+      "legacy_role_summary": "Commander-in-Chief of the shattered Bengal Army present at the signing of the Treaty of Rangoon.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 171,
+      "legacy_name": "The Nizam of Hyderabad",
+      "legacy_role_summary": "Premier native prince of India who accommodates to Pacifica rule at Rangoon.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 172,
+      "legacy_name": "The Maharaja of Gwalior",
+      "legacy_role_summary": "Maratha prince brought to Rangoon to witness the partition of India into the Autonomous Princely Protectorate of Hindostan.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 173,
+      "legacy_name": "The Gaekwar of Baroda",
+      "legacy_role_summary": "Maratha prince present at the Treaty of Rangoon.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 174,
+      "legacy_name": "Prefect-Assessor Shen (The Younger)",
+      "legacy_role_summary": "Magistrate overseeing the disarmament and sanitary processing of British regiments at the Manikarnika Ghat in Benares.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-SHEN-II",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 175,
+      "legacy_name": "One-Armed English Major (West Riding Regiment)",
+      "legacy_role_summary": "British officer surrendering the Second Battalion, West Riding Regiment, at Benares.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 176,
+      "legacy_name": "Sir Catchick Paul Chater",
+      "legacy_role_summary": "Senior partner of the Hong Kong and Calcutta opium-syndicates whose stock is confiscated by Kaiulani in Rangoon.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 177,
+      "legacy_name": "Mr. David Sassoon (The Younger)",
+      "legacy_role_summary": "Financier of the Bombay exchanges present at the Rangoon opium confiscation.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 178,
+      "legacy_name": "Two Marwari Silver-Bankers",
+      "legacy_role_summary": "Calcutta Burrabazar bankers whose families financed the East India Company, summoned before Kaiulani in Rangoon.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 179,
+      "legacy_name": "Senator MacArthur",
+      "legacy_role_summary": "Senior Senator for the Eighty-Second Canton (Melbourne) who attempts to introduce a Bill of Right for local guild appointments in the First Pan-Pacific Senate.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 180,
+      "legacy_name": "Prefect-Senator / Prefect-Chancellor Shen (The Third / Cipher Zero-One-Zero-Two)",
+      "legacy_role_summary": "Grandson of the original Auditor Shen; Senator for San Francisco, Legate to Paris, and ultimately Prefect-Chancellor of the Empire who orchestrates the debt-liquidation of Europe and struggles to manage the collapsing global Hollerith network.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-SHEN-III",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 181,
+      "legacy_name": "Marshal-Protector Jean-Baptiste Victor (Regent of the Eagle)",
+      "legacy_role_summary": "Dictator of the bankrupt Fourth Plebiscitary Empire in France; attempts to bluff Pacifica for nitrate credits, bombs London with phosphorus in desperation, and commits suicide in a cellar at Tours.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 182,
+      "legacy_name": "Grand Chamberlain of the Tuileries",
+      "legacy_role_summary": "Court announcer for Marshal-Protector Victor in Paris.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 183,
+      "legacy_name": "Field-Marshal von Mackensen",
+      "legacy_role_summary": "Leader of the German Syndicates who forms the Pact of Breslau with Russia and launches the fatal 1917 offensive across the Meuse.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 184,
+      "legacy_name": "Generalissimo Brusilov",
+      "legacy_role_summary": "Head of the Directory of All the Russias; allies with Germany against Western Europe and is eventually hung from the Kremlin wall during the 1918 peasant mutinies.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 185,
+      "legacy_name": "Nineteen-Year-Old Tubercular Count from Lyons",
+      "legacy_role_summary": "Pilot of the lead French dirigible that drops white phosphorus and turpentine on London.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 186,
+      "legacy_name": "Junior Prefect / Assessor Adams (Candidate Three-Three-Zero-Nine)",
+      "legacy_role_summary": "Young Polytechnic prefect who calmly surveys the burning of London from Greenwich, conducts the demographic census of conquered Europe, and later works frantically in the Thalassia Chart-Vault during the 1919 crisis.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 187,
+      "legacy_name": "Malia",
+      "legacy_role_summary": "Lady Kaiulani's forty-year-old niece and secretary in the Insular Secretariat who reads the war-profiteering ledgers of the Neutrality Syndicate.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MALIA",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 188,
+      "legacy_name": "Citizen-Syndic Hugenberg",
+      "legacy_role_summary": "Syndic for the Third Rhine Canton who protests the de-industrialization and demographic conscription of Europe in the Berlin Reichstag.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 189,
+      "legacy_name": "Sub-Deacon of the Roman Curia",
+      "legacy_role_summary": "Representative of the Vatican at the signing of the Geneva Accord.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 190,
+      "legacy_name": "Former Federal Councillor of the Swiss Cantons",
+      "legacy_role_summary": "Swiss representative at the signing of the Geneva Accord.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 191,
+      "legacy_name": "General von Seeckt",
+      "legacy_role_summary": "Representative of the dissolved German Quartermaster Staff at Geneva who asks only for a guarantee of the municipal salt-ration.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 192,
+      "legacy_name": "Commander Hirose",
+      "legacy_role_summary": "Captain of the dispatch-cruiser *Manila* steaming through the Strait of Messina.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 193,
+      "legacy_name": "Chief Surgeon Takagi",
+      "legacy_role_summary": "Naval surgeon at the Gibraltar coal-hulks whose autopsy dispatch identifies the lethal 'Rhine-Mud Grippe'.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 194,
+      "legacy_name": "Senior Sanitary Prefect Watanabe",
+      "legacy_role_summary": "Administrator overseeing the soup-lines, charter-burnings, and wrist-shackling of the Austrian population in the Vienna Heldenplatz.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 195,
+      "legacy_name": "Aged Austrian Archduke",
+      "legacy_role_summary": "Last cousin of Charles the Fifth who surrenders his patent of nobility for soup and a riveted wrist-tag in Vienna.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 196,
+      "legacy_name": "Samoan Blacksmith-Corporal",
+      "legacy_role_summary": "Enlisted technician riveting permanent lead-and-brass ration-tags onto the wrists of Viennese citizens.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 197,
+      "legacy_name": "Emperor Kalanimoku",
+      "legacy_role_summary": "Sacred Emperor of the Grand Confederation; grandson of Lady Kaiulani and Elias Thorne, whose rigid insistence on mathematical infallibility and military expansion accelerates the empire's collapse.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KALANIMOKU-EMPEROR",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source says grandson of Kaiulani and Elias; precise kinship remains unapproved; dead legitimate son cannot be parent",
+        "Direct Elias–Kaiulani grandparentage unproven; family line open."
+      ]
+    },
+    {
+      "legacy_profile_index": 198,
+      "legacy_name": "Fleet-General Kuroda",
+      "legacy_role_summary": "Veteran supreme commander of the Combined Pacific Corps who leads the disastrous 1919 invasion of the Kingdom of Kabul and is crushed to death in the Kurd-Kabul defile.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KURODA-II",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 199,
+      "legacy_name": "Junior Prefect Adams",
+      "legacy_role_summary": "Auditor from Thalassia killed by a ricocheting jezail slug in the Kurd-Kabul defile while carrying the November audit-rolls.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 200,
+      "legacy_name": "Colonel Kalakaua the younger",
+      "legacy_role_summary": "Thirty-year-old officer who reports the rout of the Bavarian debtor-company in the Khyber pass while mortally wounded.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KALAKAUA-OFFICERS",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Group may contain 3+ distinct persons; do not merge as a single biographical individual"
+      ]
+    },
+    {
+      "legacy_profile_index": 201,
+      "legacy_name": "Brigadier / Marshal Marcus Vance the third",
+      "legacy_role_summary": "Grand-nephew of Field-Marshal Marcus Vance; incompetent, terrified technocrat who fails in Kabul, commits the Innokentyevskaya gas massacre, fails in the Mekong delta, and is finally murdered by his own mute guards in 1931.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-III",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source grand-nephew relationship to Marcus II not fully mapped",
+        "Marcus III kinship to Marcus II open."
+      ]
+    },
+    {
+      "legacy_profile_index": 202,
+      "legacy_name": "Sergeant-Major O’Higgins",
+      "legacy_role_summary": "Sixty-year-old veteran non-commissioned officer who tries to save the column in the Kurd-Kabul defile by defying young Marcus Vance's suicidal obsession with the tax-rolls.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 203,
+      "legacy_name": "Ghilzai Grandfather",
+      "legacy_role_summary": "Eighty-year-old Afghan tribesman who drops a blazing fire-pot of pine-resin and camel-dung onto Marcus Vance's treasury-van, igniting the slaughter of the baggage train.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 204,
+      "legacy_name": "Field-Marshal Marcus Vance (the Elder)",
+      "legacy_role_summary": "Aged, lame military architect of the Empire and lifelong companion to Kaiulani; gives her his greatcoat at Suez and accompanies her into exile at Kalaupapa after his grand-nephew's gas massacre.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-MARCUS-II",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source calls him 23 in 1887 despite 1858 birth; should be around 29",
+        "Legacy 'elder' title refers to retired Marcus II; do not confuse with Marcus I."
+      ]
+    },
+    {
+      "legacy_profile_index": 205,
+      "legacy_name": "Ahmad Shah Qajar",
+      "legacy_role_summary": "Twenty-two-year-old King of Kings of Persia who takes Pacifica silver bribes in Tehran to guard the Mesopotamian oil flank.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 206,
+      "legacy_name": "The Warlord of the Bakhtiari (The Khan / Sardar)",
+      "legacy_role_summary": "Persian tribal cavalry leader who negotiates with the dying Kaiulani, extorting silver, carbines, and artillery in exchange for patrolling the eastern desert.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 207,
+      "legacy_name": "Junior Prefect / Senior Auditor Hoshino (the younger)",
+      "legacy_role_summary": "Devoted aide to Lady Kaiulani in Tehran who is later sent to audit the Siberian copper pits and is shot dead by mutinous French and German locomotive firemen at Mining-Sector Nine.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-HOSHINO-AUDITOR",
+      "identity_is_confirmed": true,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 208,
+      "legacy_name": "Tank-Commander Lieutenant Sato (Candidate 0922)",
+      "legacy_role_summary": "Commander of a forty-ton Leviathan steam-tank in the Panjshir valley whose machine is disabled and blinded by Afghan tribesmen using soapstone pits and quartz-sand.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 209,
+      "legacy_name": "Barefoot Afghan Boy",
+      "legacy_role_summary": "Sixteen-year-old insurgent in the Panjshir valley who leaps onto Lieutenant Sato's tank and destroys its engine by pouring quartz-sand and sheep-dung down the blower intake.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 210,
+      "legacy_name": "Prefect-Chancellor Shen (the third)",
+      "legacy_role_summary": "Chief of the Chancellery and grandson of Elias Thorne's original auditor; struggles to control the rebellious Senate in 1920 and is arrested during the Great Purge of 1921 while frantically burning ledgers.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-SHEN-III",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Shen III later breakdown is retained but ancestor mapping pending."
+      ]
+    },
+    {
+      "legacy_profile_index": 211,
+      "legacy_name": "Senior Senator Wu",
+      "legacy_role_summary": "Representative of the Forty-Sixth Yangtze Canton who leads the historic 1920 Senate revolt refusing Emperor Kalanimoku's ninety-million-thaler war appropriation.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 212,
+      "legacy_name": "Assessor Miller (of the Third Sacramento Canton)",
+      "legacy_role_summary": "Californian senator who joins Senator Wu in the 1920 budget revolt, protesting the loss of agricultural labor and gold reserves to the Afghan war.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 213,
+      "legacy_name": "Senior Engineer-Prefect / Junior Minister Sato",
+      "legacy_role_summary": "Older brother of Tank-Commander Sato; witnesses the retreat from the Khyber Pass at Jamrud in 1920, rises to Junior/Senior Minister by the 1930 Centennial, and is assassinated with hydrocyanic acid in 1931.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 214,
+      "legacy_name": "Rajput Subadar",
+      "legacy_role_summary": "Native officer of the Autonomous Rajput Lancers at Jamrud Fort who silently signals the end of Pacifica prestige as the Khyber rails are pulled up.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 215,
+      "legacy_name": "Oahu Corporal in Tower Two",
+      "legacy_role_summary": "Nineteen-year-old sentry at the Krasny-Yar copper pit in Siberia who tries to quell the debtor uprising before his frozen Maxim gun jams and his tower is blown up with nitro-glycerine.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 216,
+      "legacy_name": "Prussian Pioneer-Major",
+      "legacy_role_summary": "Deportee labor leader at the Krasny-Yar pit who initiates the great Siberian rebellion by having his wrist-shackle sheared off on an anvil and announcing the defeat in Kabul.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 217,
+      "legacy_name": "Russian Forge-Striker",
+      "legacy_role_summary": "Bearded debtor-smith at Krasny-Yar who swings a ten-pound hammer to shear the Monterey rivet off the Prussian major's wrist.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 218,
+      "legacy_name": "French Fireman from Lyons",
+      "legacy_role_summary": "Deportee locomotive fireman on the Siberian audit-train who kills the Californian cadet-engineer with a coal-pick and shoots Senior Auditor Hoshino dead.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 219,
+      "legacy_name": "Flight-Captain / Captain Noguchi",
+      "legacy_role_summary": "Airship commander of the Vengeance of Oahu and later naval aide on the cruiser Monterey; reluctantly executes Marcus Vance's order to gas Innokentyevskaya, serves him at Sydney, and dies in 1931 after licking a poisoned telegraph envelope.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 220,
+      "legacy_name": "Captain Takahashi",
+      "legacy_role_summary": "Commander of the Nineteenth Satsuma Provosts at Pumping-Station Six in Malaya; his skull is blown off by a Ukrainian sniper during the jungle ambush.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 221,
+      "legacy_name": "Lieutenant Miller (at Pahang River)",
+      "legacy_role_summary": "Nineteen-year-old officer from the Oakland sheds who takes over the Maxim gun after Takahashi's death and tries to shut the main oil pump-valve before the Belgian artilleryman ignites the gorge.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 222,
+      "legacy_name": "Belgian Artilleryman",
+      "legacy_role_summary": "Escaped European deportee in the Malayan jungle who hurls a flaming ball of rubber-latex and coconut-husk into the ruptured Pahang oil pipeline, destroying Pumping-Station Six.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 223,
+      "legacy_name": "Lieutenant-Commander Brooks",
+      "legacy_role_summary": "Exhausted commander of the river monitor Tonkin in the Mekong delta who explains to Marcus Vance why their ship is immobilized by rebel wire and water-hyacinths.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 224,
+      "legacy_name": "Inspector of the Verification Board",
+      "legacy_role_summary": "Twenty-year-old secret police agent checking travel-warrants and wrist-stamps in the subterranean vaults of Thalassia during the Great Purge.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 225,
+      "legacy_name": "Chief Mechanical Prefect Ozawa",
+      "legacy_role_summary": "Twenty-four-year-old cyborg administrator of Automated Imperial Wool-and-Ordnance Complex Number Four in Melbourne who fires steam-mortars into starving, locked-out workers.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 226,
+      "legacy_name": "Melbourne Foundry-Smith (Panama Veteran)",
+      "legacy_role_summary": "Grey-bearded giant in a leather apron who begs Prefect Ozawa to open the manual lathes at half-ration before leading the charge against the power pylon.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 227,
+      "legacy_name": "Higgins (the Salt-Boiler)",
+      "legacy_role_summary": "One-legged former telegraph-clerk living in the ruins of San Francisco who guides the Chronicler both above ground (viewing the Sanctuary-Ark) and down into the subterranean Cathedral of the Unnumbered.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 228,
+      "legacy_name": "Old Kahuku",
+      "legacy_role_summary": "Seventy-year-old one-eyed canoe-steersman from Niihau who guides the rebel stoker Keawe through the dynamited Koloa reef to Lady Kaiulani's hut.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 229,
+      "legacy_name": "Keawe (Stamped 77402)",
+      "legacy_role_summary": "Charismatic mixed-race fleet-stoker who seeks Kaiulani's royal thumbprint in 1921 for a naval mutiny, and by 1930 emerges as the prophet-leader of the subterranean Cathedral of the Unnumbered in San Francisco.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KEAWE",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Keawe is an independent revolutionary, not simply foil to Kaiulani."
+      ]
+    },
+    {
+      "legacy_profile_index": 230,
+      "legacy_name": "Brother Ivan (of the Baikal Pits)",
+      "legacy_role_summary": "Gaunt, one-eyed Russian deportee who volunteers as the lead suicide-diver in the San Francisco sewer-outfall plot to blow up the New Thalassia pontoons.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 231,
+      "legacy_name": "Lieutenant-Assessor Hoshino (of the Submarine Guard)",
+      "legacy_role_summary": "Twenty-six-year-old elite naval officer and ordnance-aide to Marcus Vance who is unmasked inside the fourth suicide-diving suit in the Mission Street sewer.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-HOSHINO-REBEL",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Hoshino surnames do not establish direct family linkage."
+      ]
+    },
+    {
+      "legacy_profile_index": 232,
+      "legacy_name": "Chief / Junior Assessor MacArthur",
+      "legacy_role_summary": "Pale-faced nephew of the late rebellious Australian Senator MacArthur; explains the 'frozen salamander' sabotage at Port Kembla to the Chronicler and later serves as Marcus Vance's terrified watch-officer in the Pearl Lochs bunker.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 233,
+      "legacy_name": "Colonel Kalakaua (at Sydney Cove)",
+      "legacy_role_summary": "Brother of the Colonel Kalakaua killed in the Khyber Pass; commands the Fourteenth Californian and Satsuma Pacification Regiment on the Sydney quay and is dragged from his horse when his troops refuse to fire on the strikers.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-KALAKAUA-OFFICERS",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Group may contain 3+ distinct persons; do not merge as a single biographical individual",
+        "Different Colonel Kalakaua at Sydney? Need identify relation to original David."
+      ]
+    },
+    {
+      "legacy_profile_index": 234,
+      "legacy_name": "Fresno Corporal (of Company A)",
+      "legacy_role_summary": "Twenty-year-old Californian soldier on the right flank at Sydney Cove who initiates the mass mutiny of the Fourteenth Regiment by grounding his bayonet and ripping off his birth-cipher.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 235,
+      "legacy_name": "Tui and Mano",
+      "legacy_role_summary": "Six-foot-four mute and deaf Samoan bodyguards of Marshal Marcus Vance who secretly join Keawe's cult and crush Vance's skull inside the Third Sub-Basal Command Bunker.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 236,
+      "legacy_name": "Toothless Typesetter",
+      "legacy_role_summary": "Old bystander on Montgomery Street in San Francisco who warns the Chronicler to uncover his head as Julian Thorne's column passes.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 237,
+      "legacy_name": "Julian Thorne (The Lord-Restorer)",
+      "legacy_role_summary": "Thirty-two-year-old demagogue and putative descendant of Elias Thorne who leads the populist 'Vigilance Pioneer' coup in 1931, overthrows Emperor Kalanimoku on live television, launches a disastrous expedition to Peru, and realizes in despair that his ancestor exhausted the world's frontiers.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-JULIAN",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source alleges uncertain ancestry and age 32 in 1931; approved Elias's biological son, Kaiulani's adopted son, age about 44–45",
+        "Original Julian is an alleged descendant aged 32 in 1931; approved biological son adopted by Kaiulani, born c1886–87."
+      ]
+    },
+    {
+      "legacy_profile_index": 238,
+      "legacy_name": "Signal-Captain (at the Thalassia Coup)",
+      "legacy_role_summary": "Monterey Signal Corps technician who wires the neon Tele-Vision cameras in the Senate House to broadcast Kalanimoku's overthrow.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 239,
+      "legacy_name": "Cazneau",
+      "legacy_role_summary": "Twenty-five-year-old Insular Restoration Guard officer who leads the raid up Waimea canyon, beats Malia, burns the priest's hut, and arrests the ninety-six-year-old Lady Kaiulani.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 240,
+      "legacy_name": "Kemp",
+      "legacy_role_summary": "Sixty-year-old retired hydrographer dragged out of the Monterey almshouse to navigate the transport Sierra during Julian Thorne's doomed 1932 expedition to Peru.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 241,
+      "legacy_name": "Vanguard-Colonel Miller (at Callao)",
+      "legacy_role_summary": "Red-shirted commander of the landing forces at Callao who demands rebel barricades and Inca gold, only to find starving coolies and an empty mint.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 242,
+      "legacy_name": "Senior Canton-Assessor of Callao",
+      "legacy_role_summary": "Seventy-year-old Chinese bureaucrat on the Callao seawall who informs Colonel Miller that Peru has been stripped bare for decades and has nothing left to eat but the pioneers' own mules.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 243,
+      "legacy_name": "The Imperial Historiographer (The Chronicler)",
+      "legacy_role_summary": "First-person narrator and eighty-two-year-old Imperial Historiographer recording the final collapse of the Grand Confederation of Pacifica.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-CHRONICLER",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Chronicler age, source reliability and earlier witnessing history need reconciliation."
+      ]
+    },
+    {
+      "legacy_profile_index": 244,
+      "legacy_name": "Dao",
+      "legacy_role_summary": "Young Cantonese amanuensis and last remaining clerk of the Archive who rescues the seventy-eight folio volumes (in eight copper cylinders) and cares for the Chronicler in exile.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-DAO",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source's pronoun change must not automatically prove disguise",
+        "Dao's changing pronouns do not prove an invented disguise."
+      ]
+    },
+    {
+      "legacy_profile_index": 245,
+      "legacy_name": "Keawe",
+      "legacy_role_summary": "Forty-year-old revolutionary fleet-stoker and surviving submarine-mechanic who leads the mutiny, spares the Archive, and helps the Chronicler escape.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-KEAWE",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Keawe's age and 1921 earlier actions require exact timeline."
+      ]
+    },
+    {
+      "legacy_profile_index": 246,
+      "legacy_name": "Elias Thorne (The First Protector / The American Caesar)",
+      "legacy_role_summary": "Deceased founder of the First Dynasty whose seventy-ton bronze statue (*Colossus of the Meridian*) and flagship (*Elias Thorne*) are destroyed during the fall of Thalassia.",
+      "disposition": "canonical_match",
+      "canonical_id": "CT-ELIAS",
+      "identity_is_confirmed": true,
+      "notes": [
+        "Source says unmarried; approved marriage 1857 and legitimate child",
+        "Source 1852 secession scenario replaced",
+        "Memory of Elias as unmarried and without legitimate child is superseded."
+      ]
+    },
+    {
+      "legacy_profile_index": 247,
+      "legacy_name": "Marquis Takashima",
+      "legacy_role_summary": "Historical Japanese nobleman and naval commander who co-founded the geopolitical order with Elias Thorne fifty-eight years earlier.",
+      "disposition": "provisional_identity_match",
+      "canonical_id": "CT-TAKASHIMA",
+      "identity_is_confirmed": false,
+      "notes": [
+        "Old profiles span young lieutenant and high admiral; one-person continuity not proven",
+        "Takashima final legacy memory must correspond to verified timeline."
+      ]
+    },
+    {
+      "legacy_profile_index": 248,
+      "legacy_name": "Barefoot Oregon Timber-Boy",
+      "legacy_role_summary": "Young mutineer accompanying Keawe who attempts to burn the Early Protectorate archives with a kerosene torch.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 249,
+      "legacy_name": "Lead Tractor Megaphone Operator",
+      "legacy_role_summary": "Revolutionary rigger atop the lead captured military traction-engine directing the toppling of Elias Thorne's statue.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    },
+    {
+      "legacy_profile_index": 250,
+      "legacy_name": "Three Osaka Court-Peers",
+      "legacy_role_summary": "Fleeing aristocrats seen fighting aboard an overturned life-raft in the burning Pearl Lochs.",
+      "disposition": "legacy_secondary_not_yet_assigned",
+      "canonical_id": null,
+      "identity_is_confirmed": false,
+      "notes": []
+    }
+  ]
+}
