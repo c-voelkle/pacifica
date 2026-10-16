@@ -3,26 +3,19 @@
 **Status:** Working canonical synopsis for the second draft · **Established:** 16 October 2026  
 **Coverage:** Elias Thorne's life (born c. 1824) through the fall of the Grand Confederation, approximately 1932.  
 **Reading order:** Primarily chronological. Retrospections are deliberately selective.  
-**Source manuscripts:** `../manuscript_chaptered.md` (31 chapters, approximately 183,000 words), `../beats.json` (180 original beats), `../character_bible.json`, `../bible.md`, and the author-approved `change_requests.json`.
+**Canonical authority:** The author-approved [change register](change_requests.json), with historical background and bibliography in [historical_background.md](historical_background.md).
 
-> **This document tells the updated story as one continuous history. It is a planning synopsis, not the second-draft prose or a claim that all details have been settled.** When the existing manuscript conflicts with an approved change, the approved change governs. Material retained from the first draft remains provisional until the sequence outline is approved.
+> This is the **complete working storyline**. Undecided narrative details are identified as **[OPEN]**; approximate years are marked c. Dates and characters that depart from actual history are developed in the separate [historical background](historical_background.md). Changes to the story are governed by the authorial approvals maintained in [change_requests.json](change_requests.json).
 
-## Status conventions
-
-- **[APPROVED]** An author-approved event, character relationship, constraint, or historical direction.
-- **[RETAINED]** A major event drawn from the existing first draft, provisionally carried forward but not separately approved in its current execution.
-- **[PROPOSED]** Connective interpretation offered to make approved and retained events cohere; not yet canon.
-- **[OPEN]** A decision still requiring the author's judgment. No convenient choice should silently become a fact.
-
-The label applies to the paragraph or clause it introduces. Much of the story intentionally combines approved foundations with retained later events. Dates expressed as `c.` are approximate. The register of approvals and unresolved details is generated near the end of this document from the change register; the narrative itself is author-edited and independently validated for reconciliation.
+<!-- Approved narrative coverage: CR-001 CR-002 CR-003 CR-004 CR-005 CR-006 CR-007 CR-008 -->
 
 ## The novel's larger movement
 
 An unusually intelligent Kentucky boy learns to see terrain, finance, machinery, animals, and human groups as systems whose hidden constraints can be understood. In an unstable California he helps assemble an independent republic before the Mexican-American War, then uses public gold discoveries to finance industry and a distinctive Pacific state. His accomplishments depend on friendships, the cooperation of Californios and Indigenous peoples, the Hawaiian royal house, Japanese reformers, merchants, technical specialists, and competent soldiers, not on solitary genius. California's sovereignty survives through political compromises and costly confrontations rather than inevitable success. His later interventions in the American Civil War help remake the continent. His ambition progressively turns partners into subjects.
 
-The most intimate version of that political history is the story of Elias and Kaiulani. They begin in love and share an ambitious conception of Pacific cooperation. They marry and have a son. As the empire expands, Elias extinguishes effective Hawaiian sovereignty despite his alliance with her family; royalist resistance is suppressed in a massacre neither she nor the Hawaiian king can stop. Their child subsequently dies in an accident that also leaves Kaiulani unable to bear children. Grief, responsibility, empire, and rival ambitions corrode but do not end the marriage. Elias has children with other women. Near the end of his life a much younger Hawaiian-American woman bears Julian. After Elias's death this woman dies mysteriously; Kaiulani adopts Julian and raises him. She becomes regent of the empire, tries to keep its rulers in check, and passes over Julian in favor of another dynastic arrangement. Eventually the young man she raised overturns the very state she spent her life preserving. **[APPROVED direction; OPEN: names, dates, medical details, lineage and circumstances of the mother's death.]**
+The most intimate version of that political history is the story of Elias and Kaiulani. They begin in love and share an ambitious conception of Pacific cooperation. They marry and have a son. As the empire expands and the Hawaiian throne becomes disputed after Lot Kapuāiwa's death, Elias extinguishes effective Hawaiian sovereignty; royalist resistance is suppressed in a massacre neither she nor the kingdom's political leaders can stop. Their child subsequently dies in an accident that also leaves Kaiulani unable to bear children. Grief, responsibility, empire, and rival ambitions corrode but do not end the marriage. Elias has children with other women. Near the end of his life a much younger Hawaiian-American woman bears Julian. After Elias's death this woman dies mysteriously; Kaiulani adopts Julian and raises him. She becomes regent of the empire, tries to keep its rulers in check, and passes over Julian in favor of another dynastic arrangement. Eventually the young man she raised overturns the very state she spent her life preserving. 
 
-Across succeeding generations, commanders replace improvisation with military science, administrators replace personal loyalties with examinations and numerical identities, and the empire comes to mistake the perfection of its machinery for political wisdom. The Chronicler, once an admirer of the founding order, witnesses its successes and atrocities, encounters competing accounts, and tries to understand the final collapse. He may not know everything that the independent viewpoint narratives disclose. **[APPROVED narrative form; PROPOSED interpretive emphasis.]**
+Across succeeding generations, commanders replace improvisation with military science, administrators replace personal loyalties with examinations and numerical identities, and the empire comes to mistake the perfection of its machinery for political wisdom. The Chronicler, once an admirer of the founding order, witnesses its successes and atrocities, encounters competing accounts, and tries to understand the final collapse. He may not know everything that the independent viewpoint narratives disclose. 
 
 ---
 
@@ -374,9 +367,9 @@ The history closes with the Pacific once again an open expanse of water rather t
 
 **The Japanese partners and heirs.** Manjirō, castaways, Satsuma and shogunal reformers, Takashima's faction, and the succeeding Kuroda generations bring independent technological, political and family motivations. Japan is first a partner, increasingly a military pillar, and later a source of institutional conflict.
 
-**Silas and Kiyoshi.** Retained provisional children and rival claimants from the existing manuscript; their mothers, status, birth dates, relations to Kaiulani and Julian, and eventual fate require genealogical reconciliation. No early-draft description should settle the question automatically.
+**Silas and Kiyoshi.** Elias's sons are associated with competing military and political constituencies in the succession. Their mothers, birth dates, legitimacy, relationships to Kaiulani and Julian, and the ways they attract adult followers remain [OPEN], especially against the date of the legitimate son's accident.
 
-**Kalanimoku and Chiyo.** The younger Emperor and Japanese consort enter the 1914 political settlement. His precise descent from Elias and Kaiulani remains **[OPEN]**. His imitation of the founder and conflict with Kaiulani are important retained late-story developments.
+**Kalanimoku and Chiyo.** A young sovereign and his Japanese consort take the imperial throne in 1914. Kalanimoku's descent from Elias through a family branch other than the deceased child of Elias and Kaiulani remains **[OPEN]**. His imitation of the founder eventually brings him into devastating conflict with Kaiulani.
 
 **Julian and his mother.** She has an independent identity and must not serve only to bear the founder's final child. Her mysterious death remains ambiguous. Julian is a fully consequential adopted son with competing loyalties and real alternatives before his eventual Restoration.
 
@@ -388,180 +381,24 @@ The history closes with the Pacific once again an open expanse of water rather t
 
 # Explicitly unresolved canonical decisions
 
-1. **1845–46 sovereignty:** declaration date, coalition leadership, political and territorial settlements with Mexico, response to U.S. naval force, and precise nature of British support.
-2. **The founder's mentor and religious childhood:** identities, chronology, relationships and the pastor's daughter.
-3. **Gold and finance:** exact discovery site, prospecting partners, mineral regime, realistic production and industrial financing.
-4. **Japan's agreements:** sequence from castaways and domain contacts to shogunal treaties, independent Japanese diplomatic choices and later monetary conflict.
-5. **American wars:** campaigns, serious Pacifican reverses, competent adversaries, foreign assistance, casualties and legitimacy of the settlement.
-6. **Marriage and lost child:** wedding date, the son's name and age, accident circumstances, and infertility mechanism or uncertainty.
-7. **Hawaiian incorporation:** legal form, royalist demands, precise massacre, responsibility and political consequences.
-8. **Other children and succession:** identities of Silas and Kiyoshi, status of a possible Kalanimoku-line descendant, constitutional rules, and why Julian is bypassed.
-9. **Julian's mother:** name, age, profession, agency, death, access to evidence and degree of unresolved culpability.
-10. **Julian's childhood:** adoption, education, personal bond with Kaiulani, political development, estrangement and identity.
-11. **Kaiulani's end:** what happens following her arrest by the Restoration.
-12. **The Chronicler's epistemology:** who he is, what he directly witnesses, what he invents or infers from archives, and which other POV narratives contradict him.
+1. **The Kentucky veteran:** the French mentor's name, actual Napoleonic service, credibility of his claimed rank, and his eventual relationship to Elias.
+2. **The pastor's daughter:** her identity, whether she met Elias, and the source of the Chronicler's unverifiable marriage story.
+3. **Texas:** Elias's position during the Council House Fight and his and Caleb's exact experiences on the 1841–42 Santa Fe expedition and subsequent captivity.
+4. **The 1846 founding:** the final Santa Barbara convention date, leadership of the Californio coalition, reconciliation of Pico and Castro, and substantive obligations to Indigenous polities.
+5. **The naval confrontation:** the battle with Frémont's irregulars, Sloat's exact response, British diplomacy, terms of recognition by Mexico, and how the debt settlement is financed before the gold rush.
+6. **Gold and public finance:** precise discovery location, named Sonoran and Miwok/Yokuts collaborators, mining claims, private land titles, Indigenous rights, public royalty receipts and the state's credit system.
+7. **California's 1852 government:** whether Alvarado, Castro or another figure holds the presidency, and the scope of Elias's Superintendent of Mines and Public Revenue office.
+8. **Hawaiian constitutional divergence:** the route by which fictional Kaiulani exercises the Kuhina Nui's power instead of or alongside Victoria Kamāmalu, the 1874 throne dispute, and the political parties in the massacre.
+9. **The lost child:** his name, individuality, birth year, age at death, accident circumstances, and the medical consequences for Kaiulani.
+10. **The other sons:** timing of Elias's relationships and the birth and adulthood of Silas, Kiyoshi and other claimants. The children who lead armies in 1887 require birth dates compatible with their ages; the earliest adulterous relationship might predate the legitimate son's death, or the succession may need a different arrangement.
+11. **Julian's mother:** name, family, profession, agency, age, death and the competing evidence implicating or exonerating Kaiulani.
+12. **The 1914 Emperor:** the exact genealogical connection of Kalanimoku to Elias, and why Kaiulani passes over Julian.
+13. **Julian's upbringing and exile:** schooling, friendships, relationship with Kaiulani, political education and eventual estrangement.
+14. **Japanese alternate treaties:** whether and how Perry's 1853–54 mission is diverted, the details of Satsuma and shogunal cooperation, and the 1860 Edo settlement.
+15. **The American wars:** precise campaigns and defeats, military adversaries, allies, casualties, the collapse of federal power and terms of peace.
+16. **Kaiulani's conclusion:** her fate following Julian's arrest and the narrative's final treatment of their relationship.
+17. **The Chronicler:** identity, access to sources, unreliable testimony and how later independent character perspectives challenge his account.
 
-Any new author-approved change should be reconciled with this narrative, not just added to the list below. No unapproved solution should be silently adopted.
+These questions are intentionally open. The history in the numbered chapters above can be read continuously without consulting revision instructions.
 
----
 
-<!-- BEGIN AUTO-APPROVAL-LEDGER -->
-<!-- GENERATED: do not edit; run python sync_master_storyline.py --write -->
-
-## Automatically synchronized approval ledger
-
-**Approved requests:** 8 · **Authority:** [change_requests.json](change_requests.json).
-
-This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
-
-### CR-001 — Elias formative education
-
-**Register status:** `approved_in_principle`
-
-- Plausible training in strategy, tactics, surveying, geology, mechanics and classical history
-- Retired colonel/engineer mentor, books including Plutarch, practical experience
-- Demonstrate memory, curiosity, stamina and ability to learn; allow genuine errors
-
-**Still open:**
-- Mentor identity and background
-- Specific books and opportunities
-
-### CR-002 — Elias temperament and belief
-
-**Register status:** `approved_in_principle`
-
-- Animal affinity and exceptional horsemanship alongside hunting and ruthless self-defense
-- Night hikes and geological observation tied causally to prospecting
-- Nuanced religious heterodoxy; childhood incident with pastor and later marriage recommendation
-- His talents create vulnerabilities and moral contradiction
-
-**Still open:**
-- Pastor's identity and daughter's place in story
-
-### CR-003 — Founding friendships and agency
-
-**Register status:** `approved_in_principle`
-
-- Dramatize first friendship with Caleb Vance through reciprocal dependence
-- Give peers and partners independent agendas and competence
-- Replace or repurpose early non sequitur bandit episodes
-
-### CR-004 — Elias–Kaiulani family tragedy
-
-**Register status:** `approved_direction_with_details_pending`
-
-- They marry with genuine affection and joint political ambition
-- Their son dies in an accident; Kaiulani is subsequently unable to have more children
-- Their relationship deteriorates through loss, geopolitical conflicts, ambition and unresolved attachment
-- Elias has affairs and additional children
-- A younger Hawaiian-American woman, potentially a caretaker, becomes Julian's biological mother during Elias's final years
-- After Elias dies in 1887, Julian's mother dies under suspicious circumstances; Kaiulani's possible involvement remains uncertain
-- Kaiulani adopts infant/young Julian and raises him as her son
-- Kaiulani remains an ambitious political actor, not reduced to motherhood or jealousy
-- Julian grows up with genuine alternatives and conflicting loyalties, later leading the Restoration
-- Julian's age in the 1931 Restoration changes from 32 to about 44–45 if born about 1886–87
-
-**Still open:**
-- Exact wedding date
-- Son's identity, lifespan and accident
-- Medical consequences and degree of certainty about infertility
-- Caretaker/mother identity and precise relationship to Elias
-- Timing and cause of mother's death
-- Julian's infancy, education and formative experiences
-- Alternate line giving rise to Emperor Kalanimoku
-- Status of other acknowledged/unacknowledged sons
-
-### CR-005 — Japanese diplomatic opening
-
-**Register status:** `approved_in_principle`
-
-- Use Japanese castaways and Nakahama Manjiro, including Eiriki Maru/Joseph Heco, as early personal contacts
-- Enter through Ryukyu/Satsuma and Shimazu Nariakira, then negotiate with Abe Masahiro and shogunate
-- California initially promises limited trade, technical support, no missionaries and no territorial ambitions
-- Military and commercial reciprocity; Japanese factions independent and competent
-- Potential conflict over gold/silver valuation and growing asymmetry
-
-**Still open:**
-- Exact divergence timeline and treaty provisions
-
-### CR-006 — American wars credibility
-
-**Register status:** `approved_in_principle`
-
-- Competent Union and Confederate opposition; significant Pacifican defeat and casualties
-- Technology limited by industry, supply, geography, maintenance
-- Meaningful diplomacy, foreign partnerships, political compromise and adversary adaptation
-- Conquest of Washington not sufficient alone to dissolve federal institutions
-- Retain slavery and civil-war legitimacy as major political considerations
-
-**Still open:**
-- Campaign-level military and constitutional chronology
-
-### CR-007 — Gold–industry–state power
-
-**Register status:** `approved_direction`
-
-- Gold discovered by rigorous investigation informed by geological expertise and local knowledge
-- Gold openly known, government-regulated, not secretly mined for four years
-- Distinguish total extraction, public reserves and Elias's wealth
-- Plausible licensing, royalties, mines, mint, banking, credit and industrial scaling
-
-**Still open:**
-- Deposit discovery sequence and exact financial architecture
-
-### CR-008 — Independent California before US statehood
-
-**Register status:** `approved_direction`
-
-- California republic founded around 1845–1846 and never joins the US
-- Political coalition includes Californios, settlers and autonomous Indigenous communities with independent interests
-- 1848 gold legally managed by sovereign California, with public rush and manageable revenues
-- British commercial/diplomatic support plausible but not an automatic military guarantee
-- Directly account for U.S. naval operations in 1846 and international legitimacy
-- Replace 1852 territorial admission/secession with constitutional consolidation
-
-**Still open:**
-- Precise declaration date and 1846 US/Mexico/UK diplomatic settlement
-- Founding coalition leadership and institutions
-
-### Author-approved editorial safeguards
-
-- Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
-- Do not make infertility or jealousy the sole motive for Kaiulani's subsequent decisions.
-- Do not reduce the younger mother to a reproductive plot device; she must have her own agency.
-- Do not assert Kaiulani murdered Julian's mother without deliberate later authorization; preserve genuine ambiguity.
-- Do not make Julian's later politics genetically or psychologically inevitable, or predetermine his character.
-- Preserve Kaiulani's independent statecraft, political ambitions, and complicity in imperial decisions.
-- No technological miracles or effortlessly incompetent opposition.
-- Authorial change requests are authoritative; editorial implementations beyond them remain proposals.
-
-### Provisional canonical timeline
-
-| Period | Event or direction |
-|---|---|
-| 1830s–1844 | Elias's education, mentor, friendship with Caleb, migration west |
-| 1845–1846 | Independent Californian republic formed; crisis with Mexico and the USA |
-| 1847–1848 | Gold found under California's public mineral regime |
-| 1849–1855 | Hawaiian princely ties and Japanese maritime/Satsuma diplomacy develop |
-| late 1850s–early 1860s | Elias and Kaiulani marry; genuine early partnership |
-| 1860s | Their legitimate son is born; Hawaiian political union becomes contested |
-| 1867 | Imperial takeover of Hawaii and bloody suppression of royalist revolt despite cooperative monarchy |
-| late 1860s–1870s | Son dies, Kaiulani suffers serious injuries and subsequent inability to bear children; medical details pending |
-| 1870s–1880s | Marriage frays; Elias has other partners and offspring; Kaiulani remains politically powerful |
-| 1885–1887 | Elias develops a relationship with younger Hawaiian-American woman, possibly a caretaker |
-| 1886–1887 | Julian born to younger woman, before Elias's death |
-| 1887 | Elias dies; marriage ends in widowhood |
-| 1887–1889 | Julian's mother dies mysteriously; Kaiulani adopts him; exact timing pending |
-| 1888–1914 | Kaiulani's regency and Julian's upbringing; evolving succession |
-| 1914 | Dynastic settlement through another branch, genealogical choice pending |
-| 1931 | Julian, now approximately 44–45, launches Restoration |
-
-<!-- END AUTO-APPROVAL-LEDGER -->
-
-## Synchronization and governance
-
-This is the **single narrative review document**. The author-approved machine-readable register remains `change_requests.json`. The script `sync_master_storyline.py` automatically refreshes the approved-change ledger above whenever the register changes; a GitHub workflow attempts to commit that update, and a pull-request check rejects mismatches.
-
-**An automatic ledger update is not a substitute for rewriting an affected narrative paragraph.** To prevent approved changes from being mistaken for integrated plot changes, the validation also requires each approved CR to appear in an independently written narrative section above, outside the generated ledger. New CRs without narrative integration fail the check until reconciled. The author or assistant must therefore update the relevant historical sequence as part of approving and recording the change.
-
-No changes to `../manuscript_chaptered.md`, `../beats.json`, or the production generation scripts are implied by this synopsis.
