@@ -113,7 +113,7 @@ He is not merely a vehicle for accurate historical exposition. His understanding
 
 **Voice:** Long, learned, retrospective, drawn to analogy and historical symmetry; occasional dry irony and moments of individual tenderness. His certainty can be disproved by scenes he could not have witnessed. **Open:** Name, birth date, age in the 1930s, how he knows Takashima, precise career and number of archival volumes. The legacy account's 82-year-old in 1932 / earlier travels must be age-checked.
 
-### CT-KE AWE — Keawe, revolutionary stoker
+### CT-KEAWE — Keawe, revolutionary stoker
 **Identity code:** `CT-KEAWE`. **Status:** Later role retained, early years to be developed.
 
 An experienced Hawaiian or mixed-background mechanic and fleet stoker, Keawe grows through labor conditions, revolutionary networks and technical organization into a leader of the unnumbered. He rejects the view of laborers as interchangeable parts while possessing the engineering skill to sabotage the systems that oppress them. He appeals to Kaiulani in her exile without becoming her protege or mouthpiece. He later helps protect the archive at Thalassia's fall.
