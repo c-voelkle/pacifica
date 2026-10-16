@@ -4,6 +4,7 @@
 **Coverage:** Elias Thorne's life (born c. 1824) through the fall of the Grand Confederation, approximately 1932.  
 **Reading order:** Primarily chronological. Retrospections are deliberately selective.  
 **Canonical authority:** The author-approved [change register](change_requests.json), with historical background in [historical_background.md](historical_background.md) and numerical assumptions in [war_base_assumptions.md](war_base_assumptions.md).
+**Characters:** See the separate [canonical character bible](character_bible.md) and [stable identity registry](character_registry.json) for genealogy, motivation, voice and independent perspectives.
 
 > This is the **complete working storyline**. Undecided narrative details are identified as **[OPEN]**; approximate years are marked c. Dates and characters that depart from actual history are developed in the separate [historical background](historical_background.md). Changes to the story are governed by the authorial approvals maintained in [change_requests.json](change_requests.json).
 
