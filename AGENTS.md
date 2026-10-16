@@ -5,8 +5,10 @@
 1. `book-agent/revision/master_storyline.md` — **single continuous story synopsis**, with all currently approved narrative changes already embodied, and **[OPEN]** markers for unresolved decisions. Its prose must read as what happens, not as an edit memo.
 2. `book-agent/revision/change_requests.json` — source of truth for explicit authorial approvals and remaining decisions.
 3. `book-agent/revision/historical_background.md` — factual context, dated historical anchors, divergences, historical/legal uncertainties and source URLs.
-4. `book-agent/revision/approved_change_index.md` — **generated** change-list and chronology, not story prose.
-5. `book-agent/manuscript_chaptered.md`, `book-agent/beats.json`, `book-agent/character_bible.json`, `book-agent/bible.md`, `book-agent/concept.txt` — first-draft sources, potentially superseded by approved canon.
+4. `book-agent/revision/war_base_assumptions.md` — demographic, treasury and military scenario assumptions to audit, not assert as fact.
+5. `book-agent/revision/sources/rise_to_power.md` — original author-provided early-history proposal; preserve verbatim as an archival source.
+6. `book-agent/revision/approved_change_index.md` — **generated** change-list and chronology, not story prose.
+7. `book-agent/manuscript_chaptered.md`, `book-agent/beats.json`, `book-agent/character_bible.json`, `book-agent/bible.md`, `book-agent/concept.txt` — first-draft sources, potentially superseded by approved canon.
 
 ## Mandatory on author approval
 
@@ -23,6 +25,16 @@ When presenting the story, link only to `master_storyline.md`. For source claims
 
 ## Latest authorial decisions
 
-Elias born c.1824; French Napoleonic engineering mentor preferred; 1840 Council House witness, 1841–42 Santa Fe captivity with Caleb; California independent in spring 1846 (not part of USA), public 1848 gold and 1852 treasury office rather than the presidency; Hawaii friendship with Lot and political alliance with Alexander, marriage to fictional Kaiulani (born 1838) in Honolulu 1857; Japan exchange and diplomacy 1849–1860; Hawaiian incorporation and massacre during succession crisis around 1874; later family tragedy and Julian's adoption; narrative largely chronological in a hybrid Chronicler/multi-POV form.
+Elias was born c.1824; childhood with a possible French Napoleonic engineer mentor; 1840 Council House fight and 1841–42 captivity with Caleb; independent California founded **31 May 1846**; public 1848 gold; Elias becomes Superintendent of Mines and Public Revenue in 1852 and First Minister c.1855.
 
-The uncommitted `rise_to_power.md` mentioned in chat was not accessible. Review it when supplied before claiming complete document-level reconciliation.
+**Pacifica is a Confederation of the California Republic and Hawaiian Kingdom, declared in Honolulu on 31 July 1856 and ratified that autumn.** Elias becomes Chancellor. Kaiulani, born 1838 and Kuhina Nui from 1855, marries him in February 1857 after ratification.
+
+Japan: Shimoda arrangement c.1855, **definitive Treaty of Edo 1858**, then the *Kanrin Maru* voyage in **March 1860 as a treaty follow-up**. Never restore a 1860 Edo treaty signing.
+
+The 1860 Washoe crisis involves Kaiulani's Article XIV veto; in 1861 she and California's president authorize a temporary Protectorship for Elias. The 1864 abolition of Kuhina Nui under Lot creates a constitutional dispute **not automatically solved by domestic law**. A 1865 settlement consolidates the Protectorate. Hawaiian incorporation and massacre occur in c.1874 after the royal succession crisis.
+
+Family and later: lost legitimate child, Julian born c.1886–87 to a younger Hawaiian-American woman, adopted by Kaiulani after his mother's ambiguous death, eventual Julian Restoration in 1931. These and other unresolved genealogical details remain **[OPEN]**.
+
+Population 1.2m, army and navy figures are narrative planning targets subject to demographic, engineering and financial auditing. Use `war_base_assumptions.md`.
+
+The uploaded `rise_to_power.md` has been fully reviewed and archived as `book-agent/revision/sources/rise_to_power.md`. Its author-approved narrative proposals have been reconciled with the master storyline, with historical/legal exceptions documented explicitly.
