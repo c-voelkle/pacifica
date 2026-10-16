@@ -102,3 +102,11 @@ Historical context:
 ## Sources and use
 
 Sources above support **historical background only**. They do not confirm fictional meetings, marriages, treaties, accidents, political settlements or invented battles. Recheck primary records as scenes develop. No visual or photographic source is necessary to evaluate this document's legal and chronological claims.
+
+## Confederate values and Western soldier voices
+
+The author's CR-012 directs nuanced Confederate characterization rather than a new campaign outcome. [Confederate character values and source register](confederate_value_schema.md) records the supplied Semmes, Herbert, Phillips, Scrugham and Masters texts alongside Watkins, Jackman, Peticolas, Scurry, Hamner and reproduced Guerrant passages. It specifies the consulted selections, links, dates and evidentiary limits. Letters and diaries convey particular writers' knowledge and concerns; reports address superiors; postwar memoirs and later interpretations have different purposes and cannot establish every soldier's beliefs.
+
+Use the Confederacy's commitment to slavery alongside individual obligations to family, comrades, locality, faith and professional standing. Keep a writer's observation distinct from rumor, later recollection and the novelist's inference. The source guide's constitutional anchors are the Mississippi secession declaration and Confederate Constitution; its fictional applications are not testimony about Davis's or Benjamin's private motives.
+
+The newly mapped characters are CT-DAVIS, CT-BENJAMIN, CT-ST-CLAIR and CT-ARMISTEAD. The original St. Clair sketch's 1847 Golden Circle affiliation, his injury timeline, and Armistead's transition and overseas appearances require reconciliation. Neither a shared name nor a primary-source analogy identifies the fictional Armistead with Lewis Armistead. Historical campaigns after Pacifica's divergence provide comparisons rather than automatic events in the novel.

@@ -313,6 +313,62 @@ She says years afterward that the pastor urged her to marry Elias, although the 
 
 ---
 
+## Confederate command and soldiers
+
+These four dossiers implement the author's request for a nuanced Confederate value schema, including the Western soldiers' primary accounts. For each scene separate entry into service, present commitment and a possible breaking point. The Confederacy's commitment to slavery remains part of the political world; other personal obligations neither erase it nor exhaust a character's personality. The [source guide](confederate_value_schema.md) distinguishes letters, diaries, reports, memoirs, later interpretation and fictional extensions. Proposed tests are not additional approved plot events.
+
+### CT-DAVIS — Jefferson Davis
+**Status:** Author-approved characterization direction; Civil War meetings, concessions and campaign chronology remain **[OPEN]**. Historical Jefferson Davis in an alternate timeline; fictional actions and assigned motives are not historical testimony.
+
+Davis seeks to preserve a government with legitimate political authority, rather than a Southern administration surviving at Thorne's pleasure. His dominant commitments are sovereignty, inherited republican obligation and public responsibility. He can understand Pacifica's superior force while disputing that force creates a right to govern. His position includes the slaveholding order in which he has a planter's stake; the consent he invokes does not extend equally to the people that order enslaves.
+
+His conflict with Benjamin concerns the permissible price of independence. Immediate relief may preserve soldiers and households while permanently surrendering customs, ports or jurisdiction. Davis's resistance has a coherent object, but the people who bear its cost may not accept his judgment. **Virtue and evasion:** public responsibility must appear in an action with an acknowledged cost; invoking sovereignty must not conceal unequal sacrifice or enslavement. **Pressure point:** whether refusal still discharges the obligations that made independence worth defending.
+
+**Voice/POV:** Precise, formal Southern statesmanship; distinctions among assistance, alliance, obligation and subordination. Pain, anger and pride can interrupt his reasoning without replacing it. He notices the clause that transfers authority and the people who will pay for refusing it. Existing dividers and neuralgic-eye gestures are available physical details, not a substitute for thought.
+
+**Scene options, not settled incidents:** Benjamin offers immediate provisions against a permanent concession; Davis must identify both what remains sovereign and who suffers if he refuses. **Sources:** Semmes and Scrugham for political self-description, Hamner for courage separated from confidence in command, Peticolas and Scurry for courage separated from strategic feasibility. These are comparative analogues, not proof of Davis's private motives. See [Confederate values and source register](confederate_value_schema.md).
+
+**Legacy/open:** Original profile #27 supplies the identity. Its 1853 cabinet encounter belongs to the superseded first-draft scenario and is not restored by this dossier. Precise wartime terms, meetings and outcomes remain subject to campaign design.
+
+### CT-BENJAMIN — Judah Benjamin
+**Status:** Author-approved characterization direction; particular negotiations and concessions remain **[OPEN]**. Historical Judah Benjamin in an alternate timeline.
+
+Benjamin's practical judgment serves a positive purpose: keeping institutions able to feed soldiers, protect civilians, recover prisoners and negotiate another day. His dominant commitments are institutional survival, enforceable agreements and responsibility for consequences. He understands Davis's concern that an administration without jurisdiction is independence in name; disagreement arises over what can still be preserved and at what cost.
+
+Every proposed compromise needs a concrete beneficiary and an acknowledged burden. A temporary military arrangement differs from an obligation imposed on successor governments. **Virtue and evasion:** exact legal reasoning may protect people at real political cost, but can also make the rights surrendered by others seem an administrative necessity. His service sustains the slaveholding Confederacy; pragmatism does not establish antislavery convictions.
+
+**Voice/POV:** Controlled, courteous legal phrasing, restrained irony, precise alternatives. He can state Davis's strongest argument before answering it. A neatly folded telegram or carefully revised clause can reveal emotional control without making him empty. His Jewish identity is not an explanation for financial calculation, opportunism or moral detachment.
+
+**Scene options, not settled incidents:** He names the people saved by an agreement and the authority it transfers, then explains why its guarantees can be enforced. **Sources:** Semmes for political and professional standing, Hamner for morale under disputed command, Scurry for material limits on military action. These support fictional possibilities rather than a historical claim about Benjamin's inner life. See [Confederate values and source register](confederate_value_schema.md).
+
+**Legacy/open:** Original profile #52 supplies the identity and Richmond cabinet role. Its specific August 1862 encounter is not automatically canonical. Decisions on the bargain, its date and its result remain open.
+
+### CT-ST-CLAIR — Major Julian St. Clair
+**Status:** Author-approved characterization direction for a fictional Southern envoy; early affiliations, injury chronology and exact diplomatic encounters remain **[OPEN]**. Major Julian St. Clair is distinct from Julian Thorne.
+
+St. Clair understands assistance as a pledged relationship. His grievance against Thorne is that repayment with interest is treated as extinguishing a political obligation. His dominant commitments are the pledged word, solidarity and recognition as an equal partner. He can correctly assess Pacifica's strength and still reject its account of what one party owes another.
+
+Honor must govern his conduct toward a subordinate as well as his demands on equals. A costly act of protection or fidelity gives his claim weight. **Virtue and evasion:** practiced reciprocity can coexist with the exclusionary slaveholding order in which the Charleston aristocrat has a stake. Generosity does not make his conception of rights universal. His breaking point concerns an advantage obtainable only by abandoning someone or something entrusted to him.
+
+**Voice/POV:** Polished Southern gentry diction and exact distinctions among payment, alliance and promise. Physical strain may shorten or interrupt his speech without destroying judgment. Naval hulks, mutual guaranties and debts of service belong to his perceptual world. He notices breaches of standing and inconvenient obligations; inherited rank can blind him to other people's claims.
+
+**Scene options, not settled incidents:** Better individual treatment becomes available if he abandons an escort or wounded subordinate. The choice tests whether he practices the fidelity he demands. **Sources:** Semmes for costly allegiance and standing, Guerrant for standards applied to one's own side, Watkins for conscience demonstrated through conduct. See [Confederate values and source register](confederate_value_schema.md).
+
+**Legacy/open:** Original profile #20 supplies this envoy's identity, Charleston background and wounded-service trajectory. Its Knights of the Golden Circle affiliation in 1847 requires independent chronological reassessment; the meeting, the earlier aid and the particular bargain with Thorne are not newly approved incidents. Retain the wounded envoy as a development direction while checking the Shiloh injury against the redesigned campaigns.
+
+### CT-ARMISTEAD — Colonel Armistead
+**Status:** Author-approved characterization direction; original Confederate service, transfer terms and later campaign sequence remain **[OPEN]**. The novel's Colonel Armistead is a fictional or composite officer, not an identification with historical Lewis Armistead.
+
+Armistead's central obligations are comradeship, professional competence and continuity after defeat. His possible bridge from Confederate service into Pacifica's Atlantic Auxiliary is a defensible purpose: preserving survivors as a unit, obtaining provisions or arrears, supporting households, or continuing the profession he knows. Which of these drives the actual transfer is not yet settled.
+
+Each subsequent imperial campaign tests whether service still fulfills that first obligation. Protection of familiar men can become a justification for violence against other people's households. **Virtue and evasion:** let professional care cost him something, and let the limits of that care become visible. Former Confederate service neither establishes an antislavery conversion nor proves personal slave ownership; his particular relationship to slavery requires characterization rather than assumption.
+
+**Voice/POV:** Practical Virginia military vernacular, drawling understatement and concrete reports of terrain, supply, orders and named men. Tobacco, the hickory stick and injuries from the original sketch are available details subject to chronology. He distinguishes whether an order can be carried out from whether it honors the purpose for which he accepted service. Western accounts provide comparative pressures, not interchangeable regional voices.
+
+**Scene options, not settled incidents:** Terms permit the regiment to remain together; a later imperial order requires conduct he once condemned when applied to his own country. Refusal, restraint, rationalization and compliance remain choices to dramatize. **Sources:** Jackman for personal networks and limited attention, Hamner for loyalty alongside criticism of command, Guerrant for objections to misconduct, Semmes for professional standing. See [Confederate values and source register](confederate_value_schema.md).
+
+**Legacy/open:** Original profile #83 supplies the Second Virginia Regiment of the Atlantic Auxiliary and Guam, Luzon and Yokohama appearances. These are retained material for reconciliation with the revised 1860s expansion, not a settled itinerary. Define his enlistment motive, transfer date and households before treating proposed motives as events.
+
 ## Relationship and identity safeguards
 
 ### Thorne–Kaiulani dynastic core

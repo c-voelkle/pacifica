@@ -13,10 +13,10 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 71,
+    "canonical_dossiers": 75,
     "legacy_profiles": 250,
-    "legacy_profiles_cross_referenced": 67,
-    "legacy_profiles_still_unmapped": 183
+    "legacy_profiles_cross_referenced": 71,
+    "legacy_profiles_still_unmapped": 179
   },
   "people": [
     {
@@ -1241,6 +1241,295 @@
         65
       ],
       "legacy_conflicts": []
+    },
+    {
+      "id": "CT-DAVIS",
+      "display_name": "Jefferson Davis",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "canonical_person_with_legacy_discrepancies",
+      "story_bible_section": "CT-DAVIS",
+      "narrative_profile": "**Status:** Author-approved characterization direction; Civil War meetings, concessions and campaign chronology remain **[OPEN]**. Historical Jefferson Davis in an alternate timeline; fictional actions and assigned motives are not historical testimony.\n\nDavis seeks to preserve a government with legitimate political authority, rather than a Southern administration surviving at Thorne's pleasure. His dominant commitments are sovereignty, inherited republican obligation and public responsibility. He can understand Pacifica's superior force while disputing that force creates a right to govern. His position includes the slaveholding order in which he has a planter's stake; the consent he invokes does not extend equally to the people that order enslaves.\n\nHis conflict with Benjamin concerns the permissible price of independence. Immediate relief may preserve soldiers and households while permanently surrendering customs, ports or jurisdiction. Davis's resistance has a coherent object, but the people who bear its cost may not accept his judgment. **Virtue and evasion:** public responsibility must appear in an action with an acknowledged cost; invoking sovereignty must not conceal unequal sacrifice or enslavement. **Pressure point:** whether refusal still discharges the obligations that made independence worth defending.\n\n**Voice/POV:** Precise, formal Southern statesmanship; distinctions among assistance, alliance, obligation and subordination. Pain, anger and pride can interrupt his reasoning without replacing it. He notices the clause that transfers authority and the people who will pay for refusing it. Existing dividers and neuralgic-eye gestures are available physical details, not a substitute for thought.\n\n**Scene options, not settled incidents:** Benjamin offers immediate provisions against a permanent concession; Davis must identify both what remains sovereign and who suffers if he refuses. **Sources:** Semmes and Scrugham for political self-description, Hamner for courage separated from confidence in command, Peticolas and Scurry for courage separated from strategic feasibility. These are comparative analogues, not proof of Davis's private motives. See [Confederate values and source register](confederate_value_schema.md).\n\n**Legacy/open:** Original profile #27 supplies the identity. Its 1853 cabinet encounter belongs to the superseded first-draft scenario and is not restored by this dossier. Precise wartime terms, meetings and outcomes remain subject to campaign design.",
+      "links": [
+        {
+          "relationship": "cabinet_colleague",
+          "to": "CT-BENJAMIN"
+        }
+      ],
+      "legacy_profile_indices": [
+        27
+      ],
+      "legacy_conflicts": [
+        "The original 1853 cabinet scene is not restored; Civil War encounters require campaign reconciliation."
+      ],
+      "confederate_value_profile": {
+        "reference": "confederate_value_schema.md",
+        "profile_status": "Authorial characterization guidance for Pacifica's alternate timeline. Scene tests and possible motives do not establish new manuscript events or historical private thoughts.",
+        "dominant_values": [
+          "Political sovereignty and consent",
+          "Legitimate standing and inherited republican obligation",
+          "Public responsibility for the people and armies represented by his government"
+        ],
+        "entry_motive": "In the novel, understand political separation as preservation of a legitimate community and its inherited rights, including the slaveholding order in which he has a stake.",
+        "present_commitment": "Maintain an independent government capable of binding agreements and discharging public obligations; resist rescue that permanently extinguishes that independence.",
+        "trusted_authority": "Constitutional commitments and officers or advisers whose judgment is demonstrated in service. Distinguish lawful office from infallibility of the officeholder.",
+        "relationship_to_slavery": "A Mississippi planter and leader of a government protecting slavery. His language of sovereignty includes interests and liberties he does not extend to enslaved people; it must not become a universal emancipation argument.",
+        "moral_constituency": "Claims responsibility for states, soldiers, households, and a social order he represents. Test who is excluded from his understanding of consent and protection.",
+        "earned_virtue": "Show public responsibility through a costly decision made with full knowledge of specific human consequences, rather than treating willingness to prolong resistance as virtue by itself.",
+        "military_grievance": "Pacifica treats Confederate sovereignty as an exhausted asset and its government as a debtor. He can understand the imbalance of force while rejecting its conversion into legitimate jurisdiction.",
+        "daily_concern": "Which agreement preserves actual governing authority, which army or civilian community requires relief, and who will bear the cost of refusal.",
+        "complicity_or_evasion": "May call suffering a public necessity while underestimating its unequal distribution; defending sovereignty does not remove his investment in enslavement.",
+        "breaking_point": "A settlement that saves his government in name but irreversibly transfers its power; alternatively, evidence that continued resistance can no longer discharge the responsibilities invoked to justify it.",
+        "pacifica_offer": "Military and material relief, recognition, or security in exchange for concessions over ports, railways, customs, and jurisdiction.",
+        "pacifica_cost": "Dependence on the power against which political independence would next have to be defended.",
+        "scene_tests": [
+          "Identify what remains sovereign after accepting Benjamin's proposed concession.",
+          "Face named beneficiaries of immediate relief alongside the people who will pay for refusing it."
+        ],
+        "drafting_constraints": [
+          "Let him understand Pacifica's military superiority without making acceptance automatic.",
+          "Keep a coherent political objection beneath physical pain, anger, and pride.",
+          "Treat these as novel characterization choices, not established historical private motives."
+        ],
+        "source_analogues": [
+          {
+            "sources": [
+              "S",
+              "C"
+            ],
+            "application": "The argument against coercion and the importance of recognized political standing."
+          },
+          {
+            "sources": [
+              "HM"
+            ],
+            "application": "Distinguish soldiers' courage from confidence in commanders."
+          },
+          {
+            "sources": [
+              "T",
+              "N"
+            ],
+            "application": "Separate battlefield courage from strategic feasibility."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CT-BENJAMIN",
+      "display_name": "Judah Benjamin",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "canonical_person_with_legacy_discrepancies",
+      "story_bible_section": "CT-BENJAMIN",
+      "narrative_profile": "**Status:** Author-approved characterization direction; particular negotiations and concessions remain **[OPEN]**. Historical Judah Benjamin in an alternate timeline.\n\nBenjamin's practical judgment serves a positive purpose: keeping institutions able to feed soldiers, protect civilians, recover prisoners and negotiate another day. His dominant commitments are institutional survival, enforceable agreements and responsibility for consequences. He understands Davis's concern that an administration without jurisdiction is independence in name; disagreement arises over what can still be preserved and at what cost.\n\nEvery proposed compromise needs a concrete beneficiary and an acknowledged burden. A temporary military arrangement differs from an obligation imposed on successor governments. **Virtue and evasion:** exact legal reasoning may protect people at real political cost, but can also make the rights surrendered by others seem an administrative necessity. His service sustains the slaveholding Confederacy; pragmatism does not establish antislavery convictions.\n\n**Voice/POV:** Controlled, courteous legal phrasing, restrained irony, precise alternatives. He can state Davis's strongest argument before answering it. A neatly folded telegram or carefully revised clause can reveal emotional control without making him empty. His Jewish identity is not an explanation for financial calculation, opportunism or moral detachment.\n\n**Scene options, not settled incidents:** He names the people saved by an agreement and the authority it transfers, then explains why its guarantees can be enforced. **Sources:** Semmes for political and professional standing, Hamner for morale under disputed command, Scurry for material limits on military action. These support fictional possibilities rather than a historical claim about Benjamin's inner life. See [Confederate values and source register](confederate_value_schema.md).\n\n**Legacy/open:** Original profile #52 supplies the identity and Richmond cabinet role. Its specific August 1862 encounter is not automatically canonical. Decisions on the bargain, its date and its result remain open.",
+      "links": [
+        {
+          "relationship": "cabinet_colleague",
+          "to": "CT-DAVIS"
+        }
+      ],
+      "legacy_profile_indices": [
+        52
+      ],
+      "legacy_conflicts": [
+        "The specific August 1862 encounter is not automatically retained in revised campaign chronology."
+      ],
+      "confederate_value_profile": {
+        "reference": "confederate_value_schema.md",
+        "profile_status": "Authorial characterization guidance for Pacifica's alternate timeline. Scene tests and possible motives do not establish new manuscript events or historical private thoughts.",
+        "dominant_values": [
+          "Institutional survival",
+          "Enforceable agreements and political continuity",
+          "Responsibility for the consequences of policy"
+        ],
+        "entry_motive": "For the novel's cabinet minister, make service intelligible as commitment to a political community and institutions he believes can protect it; do not invent a single historical private motive.",
+        "present_commitment": "Preserve enough functioning government to feed soldiers, protect civilians, recover prisoners, and negotiate another day.",
+        "trusted_authority": "Advisers whose proposals identify both means and consequences; agreements whose guarantees can be implemented rather than merely proclaimed.",
+        "relationship_to_slavery": "Serves the slaveholding Confederacy. Negotiating its survival implicates him in its institutions; pragmatic concessions do not establish an antislavery conviction.",
+        "moral_constituency": "The people and institutions a proposed agreement can actually protect. Make exclusions and unequal burdens visible through the terms he accepts.",
+        "earned_virtue": "Give him a named beneficiary he protects at political or personal cost, and require him to acknowledge the price imposed elsewhere.",
+        "military_grievance": "A policy that confuses honorable language with resources, or a nominal alliance whose guarantees conceal permanent dependence.",
+        "daily_concern": "Supply, prisoners, civilians requiring relief, and whether a clause binds only the present government or also its successors.",
+        "complicity_or_evasion": "Institutional survival can become an excuse for surrendering others' rights or prolonging the system he serves. Precision must not make consequences disappear.",
+        "breaking_point": "A concession that leaves no meaningful protective institution, or a refusal of compromise whose human cost can no longer be justified by its political object.",
+        "pacifica_offer": "Time, provisions, guarantees, recognition, and a surviving administration.",
+        "pacifica_cost": "Each concession may preserve the machinery of government while reducing what it is permitted to govern.",
+        "scene_tests": [
+          "Name both the people saved by a proposed compromise and the jurisdiction surrendered.",
+          "Distinguish a temporary military arrangement from an obligation binding a successor government.",
+          "Disagree with Davis while accurately stating the strongest version of Davis's concern."
+        ],
+        "drafting_constraints": [
+          "Give realism a positive object beyond predicting ruin.",
+          "Avoid ethnic or religious explanations for financial calculation, opportunism, or detachment.",
+          "These source analogues support possibilities, not historical claims about Benjamin's inner life."
+        ],
+        "source_analogues": [
+          {
+            "sources": [
+              "S"
+            ],
+            "application": "Recognized professional and political standing."
+          },
+          {
+            "sources": [
+              "HM"
+            ],
+            "application": "Morale and duty under disputed command."
+          },
+          {
+            "sources": [
+              "N"
+            ],
+            "application": "Material limits on military action and the consequences of a settlement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CT-ST-CLAIR",
+      "display_name": "Major Julian St. Clair",
+      "nature": "fictional_or_composite",
+      "tier": "supporting",
+      "identity_state": "canonical_person_with_legacy_discrepancies",
+      "story_bible_section": "CT-ST-CLAIR",
+      "narrative_profile": "**Status:** Author-approved characterization direction for a fictional Southern envoy; early affiliations, injury chronology and exact diplomatic encounters remain **[OPEN]**. Major Julian St. Clair is distinct from Julian Thorne.\n\nSt. Clair understands assistance as a pledged relationship. His grievance against Thorne is that repayment with interest is treated as extinguishing a political obligation. His dominant commitments are the pledged word, solidarity and recognition as an equal partner. He can correctly assess Pacifica's strength and still reject its account of what one party owes another.\n\nHonor must govern his conduct toward a subordinate as well as his demands on equals. A costly act of protection or fidelity gives his claim weight. **Virtue and evasion:** practiced reciprocity can coexist with the exclusionary slaveholding order in which the Charleston aristocrat has a stake. Generosity does not make his conception of rights universal. His breaking point concerns an advantage obtainable only by abandoning someone or something entrusted to him.\n\n**Voice/POV:** Polished Southern gentry diction and exact distinctions among payment, alliance and promise. Physical strain may shorten or interrupt his speech without destroying judgment. Naval hulks, mutual guaranties and debts of service belong to his perceptual world. He notices breaches of standing and inconvenient obligations; inherited rank can blind him to other people's claims.\n\n**Scene options, not settled incidents:** Better individual treatment becomes available if he abandons an escort or wounded subordinate. The choice tests whether he practices the fidelity he demands. **Sources:** Semmes for costly allegiance and standing, Guerrant for standards applied to one's own side, Watkins for conscience demonstrated through conduct. See [Confederate values and source register](confederate_value_schema.md).\n\n**Legacy/open:** Original profile #20 supplies this envoy's identity, Charleston background and wounded-service trajectory. Its Knights of the Golden Circle affiliation in 1847 requires independent chronological reassessment; the meeting, the earlier aid and the particular bargain with Thorne are not newly approved incidents. Retain the wounded envoy as a development direction while checking the Shiloh injury against the redesigned campaigns.",
+      "links": [],
+      "legacy_profile_indices": [
+        20
+      ],
+      "legacy_conflicts": [
+        "The 1847 Knights of the Golden Circle affiliation and Shiloh injury require chronological reassessment.",
+        "Distinct from Julian Thorne; no kinship inferred from a shared given name."
+      ],
+      "confederate_value_profile": {
+        "reference": "confederate_value_schema.md",
+        "profile_status": "Authorial characterization guidance for Pacifica's alternate timeline. Scene tests and possible motives do not establish new manuscript events or historical private thoughts.",
+        "dominant_values": [
+          "Keeping pledged obligations",
+          "Solidarity and reciprocal protection",
+          "Recognition as an equal political and personal partner"
+        ],
+        "entry_motive": "For the fictional Charleston envoy, give service a stake in a Southern political future and its slaveholding order. The original 1847 Golden Circle affiliation and early dealings with Thorne require reconciliation.",
+        "present_commitment": "Make his demand for continuing solidarity intelligible while testing whether he fulfills the obligations he himself invokes. A particular prior promise or exchange remains to be established in the revised plot.",
+        "trusted_authority": "People whose word remains binding when fulfilling it becomes expensive; rank and breeding are insufficient if conduct breaks the undertaking.",
+        "relationship_to_slavery": "A South Carolina rice-plantation aristocrat invested in the slaveholding order. Courtesy and generosity do not make his conception of reciprocal rights universal.",
+        "moral_constituency": "Political equals, comrades, escort, and dependents to whom he claims obligation. Test whether he protects an inferior when no prestige or advantage follows.",
+        "earned_virtue": "Give him a costly act that honors an inconvenient promise or protects a subordinate he cannot use.",
+        "military_grievance": "In a proposed diplomatic confrontation, repayment with interest is treated as extinguishing a political undertaking. The exact assistance, promise, terms and date remain open.",
+        "daily_concern": "The precise obligation Thorne acknowledges or evades, the safety and treatment of his escort, and what his commission can still accomplish.",
+        "complicity_or_evasion": "May demand recognition for his own community while withholding equivalent standing from the people it enslaves; inherited rank can conceal interests he calls duty.",
+        "breaking_point": "An advantage available only through abandoning a pledged obligation; the choice may reveal costly fidelity or expose a demand he cannot meet himself.",
+        "pacifica_offer": "Preferential treatment, an individual accommodation, or relief on transactional terms.",
+        "pacifica_cost": "Accepting an account as a substitute for the relationship he believes Thorne pledged, or securing himself by abandoning those entrusted to him.",
+        "scene_tests": [
+          "Offer better treatment if he leaves an escort or wounded subordinate behind.",
+          "Let him state Pacifica's military advantage accurately and still dispute the legitimacy of its terms.",
+          "Require him to fulfill the same kind of inconvenient promise he demands from Thorne."
+        ],
+        "drafting_constraints": [
+          "Retain the wounded-envoy development direction while reconciling injury and diplomatic chronology with the revised campaigns.",
+          "Do not reduce solidarity to fanaticism or diplomatic judgment to a mask.",
+          "Personal virtue must not erase his stake in slavery or the limits of his moral constituency.",
+          "The 1847 Golden Circle affiliation and a specific prior bargain are legacy material requiring reassessment, not newly approved events."
+        ],
+        "source_analogues": [
+          {
+            "sources": [
+              "S"
+            ],
+            "application": "Professional honor, costly allegiance, and recognized standing."
+          },
+          {
+            "sources": [
+              "G"
+            ],
+            "application": "Standards that can be applied to one's own side."
+          },
+          {
+            "sources": [
+              "W"
+            ],
+            "application": "Conscience and reciprocity demonstrated through conduct."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CT-ARMISTEAD",
+      "display_name": "Colonel Armistead",
+      "nature": "fictional_or_composite",
+      "tier": "supporting",
+      "identity_state": "canonical_person_with_legacy_discrepancies",
+      "story_bible_section": "CT-ARMISTEAD",
+      "narrative_profile": "**Status:** Author-approved characterization direction; original Confederate service, transfer terms and later campaign sequence remain **[OPEN]**. The novel's Colonel Armistead is a fictional or composite officer, not an identification with historical Lewis Armistead.\n\nArmistead's central obligations are comradeship, professional competence and continuity after defeat. His possible bridge from Confederate service into Pacifica's Atlantic Auxiliary is a defensible purpose: preserving survivors as a unit, obtaining provisions or arrears, supporting households, or continuing the profession he knows. Which of these drives the actual transfer is not yet settled.\n\nEach subsequent imperial campaign tests whether service still fulfills that first obligation. Protection of familiar men can become a justification for violence against other people's households. **Virtue and evasion:** let professional care cost him something, and let the limits of that care become visible. Former Confederate service neither establishes an antislavery conversion nor proves personal slave ownership; his particular relationship to slavery requires characterization rather than assumption.\n\n**Voice/POV:** Practical Virginia military vernacular, drawling understatement and concrete reports of terrain, supply, orders and named men. Tobacco, the hickory stick and injuries from the original sketch are available details subject to chronology. He distinguishes whether an order can be carried out from whether it honors the purpose for which he accepted service. Western accounts provide comparative pressures, not interchangeable regional voices.\n\n**Scene options, not settled incidents:** Terms permit the regiment to remain together; a later imperial order requires conduct he once condemned when applied to his own country. Refusal, restraint, rationalization and compliance remain choices to dramatize. **Sources:** Jackman for personal networks and limited attention, Hamner for loyalty alongside criticism of command, Guerrant for objections to misconduct, Semmes for professional standing. See [Confederate values and source register](confederate_value_schema.md).\n\n**Legacy/open:** Original profile #83 supplies the Second Virginia Regiment of the Atlantic Auxiliary and Guam, Luzon and Yokohama appearances. These are retained material for reconciliation with the revised 1860s expansion, not a settled itinerary. Define his enlistment motive, transfer date and households before treating proposed motives as events.",
+      "links": [],
+      "legacy_profile_indices": [
+        83
+      ],
+      "legacy_conflicts": [
+        "No identification with historical Lewis Armistead.",
+        "Confederate enlistment, Atlantic Auxiliary transfer and overseas campaign chronology remain open."
+      ],
+      "confederate_value_profile": {
+        "reference": "confederate_value_schema.md",
+        "profile_status": "Authorial characterization guidance for Pacifica's alternate timeline. Scene tests and possible motives do not establish new manuscript events or historical private thoughts.",
+        "dominant_values": [
+          "Comradeship and responsibility for surviving men",
+          "Professional competence and military honor",
+          "Continuity of obligations after defeat"
+        ],
+        "entry_motive": "Specify his original Confederate enlistment motive when a scene establishes it; state, home, profession, and comrades are possibilities rather than facts to invent retrospectively.",
+        "present_commitment": "A possible bridge into the Atlantic Auxiliary is preserving survivors as a unit, securing arrears or provisions, supporting households, and continuing the profession he knows.",
+        "trusted_authority": "Officers who share hardship, explain necessity, preserve their men where possible, and keep promises after immediate advantage has passed.",
+        "relationship_to_slavery": "Former Confederate service does not establish opposition to slavery or racial equality. Define his concrete relationship when supported; avoid inventing ownership or an emancipation conversion.",
+        "moral_constituency": "Initially the men and households whose welfare makes continued service defensible; test whether he recognizes comparable claims among the populations subjected to imperial operations.",
+        "earned_virtue": "Show a costly action protecting a subordinate or restraining misconduct even when efficiency, favor, or his own safety would recommend otherwise.",
+        "military_grievance": "Orders that waste familiar men, break promised terms of service, or redefine protection as unlimited obedience to imperial objectives.",
+        "daily_concern": "Ammunition, food, terrain, the missing or wounded, and whether the terms offered to his men are being kept.",
+        "complicity_or_evasion": "May rationalize violence against another population as the price of protecting his own men; survival and professional continuity can turn an initial accommodation into permanent complicity.",
+        "breaking_point": "An order requiring treatment of an insurgent community that he once condemned when used against his own; refusal, restraint, rationalization, and compliance remain narrative choices.",
+        "pacifica_offer": "Collective terms, food, pay, continuity of the regiment, and honorable professional employment.",
+        "pacifica_cost": "Service in an expanding empire whose later demands may contradict the obligations that made surrender or transfer acceptable.",
+        "scene_tests": [
+          "Make him ask whether his men may accept terms and remain together.",
+          "Require a decision when an imperial order conflicts with a promise made to his regiment.",
+          "Confront him with a local insurgency whose claims resemble the independence he once defended."
+        ],
+        "drafting_constraints": [
+          "Retain the Virginia background, Second Virginia/Atlantic Auxiliary and overseas appearances as material for reconciliation, not an already settled itinerary.",
+          "Western sources provide comparative pressures, not interchangeable regional voices.",
+          "Do not identify this fictional officer with historical Lewis Armistead.",
+          "Keep proposed transfer motives and scenes explicitly prospective."
+        ],
+        "source_analogues": [
+          {
+            "sources": [
+              "J"
+            ],
+            "application": "Personal networks, practical concerns, and limited daily attention."
+          },
+          {
+            "sources": [
+              "HM"
+            ],
+            "application": "Continued loyalty alongside criticism of command."
+          },
+          {
+            "sources": [
+              "G"
+            ],
+            "application": "Objections to misconduct by one's own side."
+          },
+          {
+            "sources": [
+              "S"
+            ],
+            "application": "Professional standing and continuity of service."
+          }
+        ]
+      }
     }
   ]
 }

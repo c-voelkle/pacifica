@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 11 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 12 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -210,6 +210,22 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Legal validity of removing a confederal treaty countersignature through Hawaiian domestic constitutional amendment; must not be assumed to lapse automatically
 - Exact 1865 amendment and whether lifetime tenure or permanent office
 - Exact Washoe treaty and effects on Paiute rights and land
+
+### CR-012 — Confederate values, Western soldier voices and four developed dossiers
+
+**Register status:** `approved_characterization_direction_with_scene_mechanics_pending`
+
+- Integrate the author's Confederate value schema and selected primary soldier sources into the canonical character bible and registry, especially Davis, Benjamin, St. Clair and Armistead.
+- Distinguish entry motives, present commitments, competing obligations, costly virtues, complicity and possible breaking points; retain the Confederacy's commitment to slavery alongside the variety of individual motivations.
+- Davis has a coherent concern with sovereignty and legitimate authority; Benjamin gives practical compromise a positive protective purpose; St. Clair practices and demands reciprocal obligation; Armistead's professional continuity and care for comrades are tested by imperial service.
+- Preserve distinct voices and limited knowledge. Western accounts supply named, dated comparative evidence rather than a representative voice for every soldier or theater.
+- Separate wartime letters and diaries, official reports, retrospective memoirs, later interpretations and fictional applications. Scene tests, transfer motives and specific concessions remain proposals rather than additional approved incidents.
+- Add stable canonical IDs and map legacy profiles #20, #27, #52 and #83 without deleting or altering original sketches or inventing kinship. Do not identify the novel's Armistead with historical Lewis Armistead.
+
+**Still open:**
+- Specific battles, meetings, concession terms, beneficiaries and responses to Pacifica.
+- St. Clair's original 1847 Golden Circle affiliation, earlier assistance and injury chronology.
+- Armistead's original enlistment motive, relationship to slavery, transfer date and terms, households and final overseas itinerary.
 
 ### Author-approved editorial safeguards
 

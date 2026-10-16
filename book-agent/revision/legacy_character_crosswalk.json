@@ -6,8 +6,8 @@
   "canonical_registry": "book-agent/revision/character_registry.json",
   "purpose": "Preserve all 250 legacy character sketches and identify where new canonical profiles correspond or cannot yet be safely matched. An unassigned secondary profile is retained and reviewable, not deleted.",
   "counts": {
-    "canonical_match": 50,
-    "legacy_secondary_not_yet_assigned": 183,
+    "canonical_match": 54,
+    "legacy_secondary_not_yet_assigned": 179,
     "provisional_identity_match": 17
   },
   "legacy_profiles": [
@@ -200,11 +200,14 @@
       "legacy_profile_index": 20,
       "legacy_name": "Major Julian St. Clair",
       "legacy_role_summary": "Emissary of the Knights of the Golden Circle in 1847, and later a crippled Confederate State Department commissioner in 1862.",
-      "disposition": "legacy_secondary_not_yet_assigned",
-      "canonical_id": null,
-      "identity_is_confirmed": false,
+      "disposition": "canonical_match",
+      "canonical_id": "CT-ST-CLAIR",
+      "identity_is_confirmed": true,
       "notes": [
-        "Knights of the Golden Circle meeting in 1847 requires independent reassessment under sovereign California."
+        "Knights of the Golden Circle meeting in 1847 requires independent reassessment under sovereign California.",
+        "The 1847 Knights of the Golden Circle affiliation and Shiloh injury require chronological reassessment.",
+        "Distinct from Julian Thorne; no kinship inferred from a shared given name.",
+        "Identity is mapped; proposed scenes and motives are not additional approved events. See CR-012 and the canonical dossier."
       ]
     },
     {
@@ -275,10 +278,13 @@
       "legacy_profile_index": 27,
       "legacy_name": "Jefferson Davis",
       "legacy_role_summary": "US Secretary of War in 1853, and later President of the Confederate States of America in 1862.",
-      "disposition": "legacy_secondary_not_yet_assigned",
-      "canonical_id": null,
-      "identity_is_confirmed": false,
-      "notes": []
+      "disposition": "canonical_match",
+      "canonical_id": "CT-DAVIS",
+      "identity_is_confirmed": true,
+      "notes": [
+        "The original 1853 cabinet scene is not restored; Civil War encounters require campaign reconciliation.",
+        "Identity is mapped; proposed scenes and motives are not additional approved events. See CR-012 and the canonical dossier."
+      ]
     },
     {
       "legacy_profile_index": 28,
@@ -507,10 +513,13 @@
       "legacy_profile_index": 52,
       "legacy_name": "Judah Benjamin",
       "legacy_role_summary": "Confederate Secretary of State in Richmond in August 1862.",
-      "disposition": "legacy_secondary_not_yet_assigned",
-      "canonical_id": null,
-      "identity_is_confirmed": false,
-      "notes": []
+      "disposition": "canonical_match",
+      "canonical_id": "CT-BENJAMIN",
+      "identity_is_confirmed": true,
+      "notes": [
+        "The specific August 1862 encounter is not automatically retained in revised campaign chronology.",
+        "Identity is mapped; proposed scenes and motives are not additional approved events. See CR-012 and the canonical dossier."
+      ]
     },
     {
       "legacy_profile_index": 53,
@@ -806,10 +815,14 @@
       "legacy_profile_index": 83,
       "legacy_name": "Colonel Armistead",
       "legacy_role_summary": "Commander of the Second Virginia Regiment of the Atlantic Auxiliary in Guam, Luzon, and Yokohama.",
-      "disposition": "legacy_secondary_not_yet_assigned",
-      "canonical_id": null,
-      "identity_is_confirmed": false,
-      "notes": []
+      "disposition": "canonical_match",
+      "canonical_id": "CT-ARMISTEAD",
+      "identity_is_confirmed": true,
+      "notes": [
+        "No identification with historical Lewis Armistead.",
+        "Confederate enlistment, Atlantic Auxiliary transfer and overseas campaign chronology remain open.",
+        "Identity is mapped; proposed scenes and motives are not additional approved events. See CR-012 and the canonical dossier."
+      ]
     },
     {
       "legacy_profile_index": 84,

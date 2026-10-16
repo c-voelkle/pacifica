@@ -6,6 +6,8 @@ For canonical roles and newly introduced figures, use the [character bible](char
 
 Many details in these entries are now inconsistent with the approved plot. The index is intended to prevent accidental loss of potentially valuable perspectives, **not** to assert that a scene or a historical characterization still occurs exactly as described. Each row can eventually be given a stable CT-ID, merged cautiously with a confirmed role, or retired after editorial review. No merging by surname alone.
 
+Davis (#27), Benjamin (#52), St. Clair (#20) and Armistead (#83) are now mapped to canonical dossiers under CR-012. Their original sketches remain in the legacy JSON and crosswalk; this unmapped index contains 179 roles.
+
 ## Founding years and American campaigns (early original profiles)
 
 | Legacy # | Name | Original function, for reconsideration |
@@ -20,14 +22,12 @@ Many details in these entries are now inconsistent with the approved plot. The i
 | 15 | Red Sleeve (Kotsoteka Comanche Chief) | War chief of eighty Kotsoteka Comanches on the Llano Estacado who parleys with sixteen-year-old Elias. |
 | 17 | Cortina | One-eyed Mexican contrabandista and bandit leader killed by Elias at the Rio Frio. |
 | 18 | Nacogdoches Ranger Boy | Young Texas Ranger killed beside Elias at the Rio Frio (non-speaking). |
-| 20 | Major Julian St. Clair | Emissary of the Knights of the Golden Circle in 1847, and later a crippled Confederate State Department commissioner in 1862. |
 | 21 | Tomas | Seventy-year-old Sonoma mission Indian convert who guides Elias to the mother-lode on the American River. |
 | 22 | Federal Collector of the Port of San Francisco | Appointee of President Fillmore who attempts to seize the San Francisco customs-wharf in 1850 with the help of the Sydney Ducks. |
 | 23 | Stockton Delegate | Free-Soil Jacksonian lawyer at the 1852 Sacramento constitutional convention who protests Elias's coup. |
 | 24 | President Franklin Pierce | President of the United States during the 1853 Sacramento Coup and Hawaiian annexation crisis. |
 | 25 | William L. Marcy | United States Secretary of State under Franklin Pierce in 1853. |
 | 26 | Commodore Matthew Perry | US Navy commander whose expedition to open Japan was thwarted by Elias's coal monopoly. |
-| 27 | Jefferson Davis | US Secretary of War in 1853, and later President of the Confederate States of America in 1862. |
 | 28 | War Department Telegraph Clerk (1853) | Young clerk who bursts into Pierce's cabinet meeting with news of Thorne's squadron sailing for Yedo. |
 | 30 | Delegate Broderick | San Francisco shipping broker and leader of the pro-Union mercantile faction in the Sacramento Diet in 1861. |
 | 31 | Captain Hewlett | Southern-sympathizing delegate from the southern California counties in the Sacramento Diet. |
@@ -48,7 +48,6 @@ Many details in these entries are now inconsistent with the approved plot. The i
 | 49 | Judge Slaughter | Leader of the Auraria/Colorado bench at the Denver convention who champions joining Pacifica. |
 | 50 | Elder Kimball | Leader of the Salt Lake Mormon delegation at the Denver convention. |
 | 51 | Captured Illinois Volunteer Quartermaster | Union captain captured at Fort Kearny in May 1862 and sent walking back toward Omaha bootless. |
-| 52 | Judah Benjamin | Confederate Secretary of State in Richmond in August 1862. |
 | 53 | Lord Shimazu | Head of the Satsuma naval mission on the Imperial Council in Monterey in 1863. |
 | 54 | Judge Jeremiah Black | Spokesman for the newly annexed Mississippi Valley territories at the 1863 Monterey Council. |
 | 55 | Judge Black's Nephew | Captain in the Missouri militia ordered to salute a Cantonese commissary officer at the Sacramento rail-depot (mentioned only). |
@@ -77,7 +76,6 @@ Many details in these entries are now inconsistent with the approved plot. The i
 | 80 | Judge Varigny | French-born minister to King Lot Kamehameha V, detained in San Francisco during the annexation of Hawaii. |
 | 81 | King Lot Kamehameha the Fifth | Last reigning monarch of the Kingdom of Hawaii, deposed and reduced to a pensioned figurehead by the Insular Incorporation Act. |
 | 82 | Horace | Hunchbacked former printer from the New York Tribune, now master typesetter for the Imperial Gazette in San Francisco. |
-| 83 | Colonel Armistead | Commander of the Second Virginia Regiment of the Atlantic Auxiliary in Guam, Luzon, and Yokohama. |
 | 84 | Queen Isabella the Second | Queen of Spain, presiding over the catastrophic loss of the Philippines and Marianas. |
 | 85 | Marshal Narváez (Duke of Valencia) | Aged Spanish Prime Minister informing Queen Isabella that Europe will not aid Spain against Pacifica. |
 | 86 | Spanish Minister of Marine | Aged Spanish admiral who explains the technological and logistical impossibility of fighting Elias Thorne's fleet. |

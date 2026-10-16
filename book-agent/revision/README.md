@@ -9,9 +9,10 @@ Additional reference documents:
 - [historical_background.md](historical_background.md) — real dates, source links, legal/geopolitical context and precisely identified historical divergences. Kept separate to avoid turning the storyline into a research memo.
 - [war_base_assumptions.md](war_base_assumptions.md) — immigration, revenue, military manpower, ships, weapons and infrastructure estimates with historical benchmarks and modeling caveats.
 - **[character_bible.md](character_bible.md)** — authoritative second-draft character reference: motivations, distinct voices, independent POVs, families and relationships, including the founding-era figures.
-- [character_registry.json](character_registry.json) — structured IDs and identity-aware relationships for 71 canonical or provisional characters/role groups.
+- [confederate_value_schema.md](confederate_value_schema.md) — Confederate value framework, Western soldier voices, source distinctions and prospective scene tests supporting CR-012.
+- [character_registry.json](character_registry.json) — structured IDs and identity-aware relationships for 75 canonical or provisional characters/role groups.
 - [legacy_character_crosswalk.json](legacy_character_crosswalk.json) — traceability for every one of the 250 original profiles, including unresolved identity collisions.
-- [legacy_secondary_cast.md](legacy_secondary_cast.md) — readable index of 183 original secondary sketches awaiting detailed reconciliation.
+- [legacy_secondary_cast.md](legacy_secondary_cast.md) — readable index of 179 original secondary sketches awaiting detailed reconciliation.
 - [validate_character_docs.py](validate_character_docs.py) — consistency test checking names, IDs, links and legacy crosswalk against original profiles.
 - [sources/rise_to_power.md](sources/rise_to_power.md) — the complete original author-supplied 1844–1861 proposal, archived unchanged.
 - [approved_change_index.md](approved_change_index.md) — automatically generated administrative index of all approved CRs and provisional chronology, **not part of the story**.
@@ -43,5 +44,5 @@ These distinctions and any other remaining undecided matters are marked **[OPEN]
 - Before planning or writing any scene, read the [canonical character bible](character_bible.md) and resolve the relevant character IDs via [character_registry.json](character_registry.json). Do not infer a person's genealogy from a surname alone.
 - The original 250-entry `../character_bible.json` remains an **unmodified archive**, still used by the old writing pipeline. It is not authoritative where the revised character bible disagrees.
 - Approved authorial changes to characters must update the canonical prose dossier **and** machine registry in the same revision. If those changes affect events, update the [master storyline](master_storyline.md) and structured authorial CR as well.
-- A legacy profile that is unassigned is **preserved, not deleted**. Mapping or splitting 183 smaller roles is a later identity-resolution task, not license to discard them.
+- A legacy profile that is unassigned is **preserved, not deleted**. Mapping or splitting 179 smaller roles is a later identity-resolution task, not license to discard them.
 - The PR workflow `pacifica-characters-check.yml` runs `python3 book-agent/revision/validate_character_docs.py` to catch broken IDs, links and missing crosswalk entries. This test cannot evaluate whether a psychological portrait is artistically adequate.
