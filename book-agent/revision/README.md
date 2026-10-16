@@ -8,6 +8,10 @@ Additional reference documents:
 - [change_requests.json](change_requests.json) — the authoritative machine-readable record of approved authorial decisions and remaining questions.
 - [historical_background.md](historical_background.md) — real dates, source links, legal/geopolitical context and precisely identified historical divergences. Kept separate to avoid turning the storyline into a research memo.
 - [war_base_assumptions.md](war_base_assumptions.md) — immigration, revenue, military manpower, ships, weapons and infrastructure estimates with historical benchmarks and modeling caveats.
+- **[character_bible.md](character_bible.md)** — authoritative second-draft character reference: motivations, distinct voices, independent POVs, families and relationships, including the founding-era figures.
+- [character_registry.json](character_registry.json) — structured IDs and identity-aware relationships for 71 canonical or provisional characters/role groups.
+- [legacy_character_crosswalk.json](legacy_character_crosswalk.json) — traceability for every one of the 250 original profiles, including unresolved identity collisions.
+- [validate_character_docs.py](validate_character_docs.py) — consistency test checking names, IDs, links and legacy crosswalk against original profiles.
 - [sources/rise_to_power.md](sources/rise_to_power.md) — the complete original author-supplied 1844–1861 proposal, archived unchanged.
 - [approved_change_index.md](approved_change_index.md) — automatically generated administrative index of all approved CRs and provisional chronology, **not part of the story**.
 
@@ -32,3 +36,11 @@ The full author-provided [rise_to_power.md](sources/rise_to_power.md) was upload
 The 1864 domestic abolition of the Kuhina Nui cannot be assumed automatically to amend Article XIV of a treaty between states; the matter remains a constitutional question. Numerical figures for population, forces, naval construction and finances are model targets to test against historical benchmarks, not guaranteed facts.
 
 These distinctions and any other remaining undecided matters are marked **[OPEN]** in the storyline or explicitly classified in the supporting reference files.
+
+## Character-documentation rules
+
+- Before planning or writing any scene, read the [canonical character bible](character_bible.md) and resolve the relevant character IDs via [character_registry.json](character_registry.json). Do not infer a person's genealogy from a surname alone.
+- The original 250-entry `../character_bible.json` remains an **unmodified archive**, still used by the old writing pipeline. It is not authoritative where the revised character bible disagrees.
+- Approved authorial changes to characters must update the canonical prose dossier **and** machine registry in the same revision. If those changes affect events, update the [master storyline](master_storyline.md) and structured authorial CR as well.
+- A legacy profile that is unassigned is **preserved, not deleted**. Mapping or splitting 183 smaller roles is a later identity-resolution task, not license to discard them.
+- The PR workflow `pacifica-characters-check.yml` runs `python3 book-agent/revision/validate_character_docs.py` to catch broken IDs, links and missing crosswalk entries. This test cannot evaluate whether a psychological portrait is artistically adequate.
