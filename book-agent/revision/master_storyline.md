@@ -126,245 +126,237 @@ The constitutional settlement constrains both private mining syndicates and priv
 
 The state strengthens throughout the later 1850s. Japanese technical exchange becomes more ambitious, Hawaiian ties are solemnized through marriage, and Californian industrial capacity begins to support a professional military and merchant marine. Elias studies American and European military systems closely. He values capable foreign competitors and knows his republic cannot defeat the Union's entire industrial and military establishment simply because California has gold. Its survival has depended on diplomacy, investment, strong institutions and several narrow escapes. When the American Civil War begins in 1861, California is an independent power with formidable resources, unresolved internal contradictions and allies whose interests may diverge from its own.
 
-# PART II — The continental wars and the founding constitutional crisis (1861–1866)
+# PART II — The struggle for North America (1861–1866)
 
-## 8. The war between Union and Confederacy becomes Pacifica's opportunity and danger (1861)
+## 9. The republic faces the American Civil War (1861)
 
-**[RETAINED with major approved reconstruction · CR-006]** News of Fort Sumter reaches an independent Pacifica. Elias and his colleagues disagree over the response. The United States is divided, but neither Union nor Confederacy is a collection of incapable politicians and frightened militia. Both contain competent political leaders, commanders and institutions. Their positions on slavery, western settlement, commerce and constitutional authority matter. California's neutrality, economic policies and foreign ties are contested internally and externally.
+The firing on Fort Sumter confronts the Republic of California with a divided continent and extraordinary danger. Washington regards California's sovereignty as a precedent that should never have been tolerated, while Southern agents hope to secure its bullion, naval capacity and political recognition. Elias understands that neither belligerent can be judged solely by newspaper rhetoric. Both possess formidable commanders, veteran officers, productive districts, railways and political loyalties that gold alone cannot buy.
 
-**[PROPOSED]** Pacifica's leadership attempts to preserve freedom of action while exploiting opportunities created by the Civil War. Elias's distrust of Eastern creditors and politicians is personal, but the state's actual interests are debated by officers, legislators, financiers and foreign partners. The conflict with Washington must have a serious military and diplomatic cause, not follow automatically from the founder's dislike of Atlantic politics.
+The Californian legislature debates neutrality, trade and the possibility that a restored United States might one day use overwhelming force against the republic. Elias's revenue and industrial administration has become central to national defense, but his judgment is not uncontested. Kaiulani brings Hawaiian diplomatic intelligence and concerns of her own, while Japanese partners restrict the use of their crews and matériel to terms permitted by treaty. Disputes over slavery, sovereignty and commercial transit divide Americans inside California as well as those fighting beyond its borders.
 
-## 9. The western struggle: mountains, passes and rival loyalties (1861–1862)
+Elias attempts to hold the republic apart from the two belligerents while securing the western routes and sources of supply on which its independence depends. Every practical measure—gold shipments, embargoes, arms contracts, border patrols—has consequences for how Washington and Richmond interpret California's intentions. Diplomacy gradually gives way to armed confrontation.
 
-**[RETAINED]** Elias campaigns in the Southwest and Rockies, moving through Tucson, Sonora, contested federal positions and the mountain settlements. The existing manuscript contains the seizure of the Tucson arsenal, negotiations with Governor Pesqueira, convention-building at Denver, and operations against federal supply routes. The encounter with a Mexican governor should become a genuine negotiation between independent interests, not another effortless acceptance of Elias's superiority.
+## 10. The western campaigns (1861–1862)
 
-**[APPROVED]** The Union's military response should be formidable. Federal officers understand terrain and logistics, learn from defeat and sometimes defeat Pacifican formations. Elias needs local alliances, detailed reconnaissance, foreign or neutral supplies, and the assistance of subordinate commanders who can disagree with him. A major Pacifican loss should influence subsequent campaigns. **[OPEN]** Which historical and fictional officers command the opposing armies, what losses occur and how control of the western territories is legally negotiated.
+In the Southwest Elias moves against exposed federal positions, including the Tucson arsenal, and negotiates access to Mexican border routes. He returns to the language and connections acquired during his Mexican captivity two decades earlier. Governor Ignacio Pesqueira of Sonora and other local leaders demand tangible guarantees in return for cooperation; their agreement is a bargain between statesmen, not a surrender to a preordained conqueror.
 
-## 10. A three-sided continental war (1862–1864)
+Union commanders organize forces across the plains and mountain passes. Their knowledge of rail transport, artillery, winter supply and fortified terrain makes the campaigns difficult. A Pacifican operation fails at serious cost, revealing weaknesses in weapons, intelligence or communications that Elias had underestimated. **[OPEN]** The particular defeat and opposing commander's identity are to be established during campaign design. Caleb, Marcus Vance and officers from Pacifica's diverse constituencies contribute tactics Elias alone would not have conceived. The younger republic must replace men and equipment it can scarcely afford to lose.
 
-**[RETAINED]** Union and Confederate forces fight one another while Elias attempts to reshape the continental balance. Campaigns in the Mississippi basin, disputes with Southern diplomats, interregional financial disruption and the movement of armed forces across difficult country become the main arc. The first draft includes the struggle for federal armories, a Pacifican intervention on the Mississippi, and the growing collapse of Eastern currency and public credit.
+The contest for Denver and the approaches to the Rockies depends as much on political compacts as battlefield victories. Representatives of territorial communities recognize that California offers trade, credit and protection but fear becoming subjects of another distant government. Elias's capacity to enlist partners, preserve local rights when expedient and act decisively becomes a major advantage. He also begins to prefer institutions that allow him to enforce agreements without repeatedly negotiating them.
 
-**[APPROVED]** These operations must no longer be represented as one-sided demonstrations of futuristic machines. Armored vessels suffer mechanical failures and losses; railways and ports can be contested; rival commanders adapt. Pacifica's American, Japanese, Hawaiian, Mexican and other partners have different war aims. Elias can lose battles while retaining the initiative at the campaign or diplomatic level. Ambitious negotiations may succeed where brute force cannot.
+## 11. The three-sided war and its terrible costs (1862–1864)
 
-**[PROPOSED]** In parallel, Elias and Kaiulani experience the tensions of marriage and high politics. She can support the state while opposing decisions she considers unjust or destructive, and his allies may challenge her place within the political order.
+The Union and Confederacy struggle over the Mississippi and Eastern industrial resources while California seeks to control the western approaches, critical rail routes and river communications. Armored vessels and technically sophisticated artillery give Pacifica striking local advantages, yet rivers, draught, mechanical failures, hostile shore batteries and the finite output of foundries impose severe limits. Union and Confederate commanders adapt to Californian methods. Losses become so serious that victory sometimes means preserving an army rather than capturing a position.
 
-## 11. Washington and the end of the old federal settlement (1864–1866)
+A Pacifican descent toward the Mississippi succeeds only through coordination with allies who expect payment or political concessions. Elias exploits the rival parties' incompatible objectives, secures negotiated defections and confronts opponents whose operational imagination equals his own. An adversary may defeat his immediate plan without saving the larger political position. **[OPEN]** The central battle sequence, principal federal and Confederate opponents, and material terms of foreign aid require campaign-level design.
 
-**[RETAINED, major reconstruction required]** In the first manuscript Elias's armies reach Washington, Marcus Vance assaults the capital, Elias enters the former executive offices, and the Articles of Dissolution dismantle the old federal government. Elias becomes Providentor of the American Free States and orders the federal archives, machinery and functions transferred west. This is a powerful proposed culmination of the American campaigns.
+Kaiulani is deeply involved in the political consequences. She must defend the shared state before people who question her royal position, its use of foreign soldiers, and the legal status of non-Christian subjects. Elias insists that service and ability should matter more than inherited race or religion; critics object to the forced integration accompanying his expansion. His principle of broad civic incorporation increasingly coexists with ruthless military punishment.
 
-**[APPROVED constraint]** Occupying Washington cannot by itself dissolve a continental state. The collapse must follow severe losses, economic and constitutional crises, competing centers of legitimacy, negotiations with states and former Union or Confederate leaders, and the survival of factions who do not accept the settlement. American commanders remain formidable even in defeat. **[OPEN]** Whether the existing Washington climax, title of Providentor and precise Articles remain in the final canon, and what enduring jurisdictions and sovereignties emerge.
+## 12. Washington, the settlement and the Providentorship (1864–1866)
 
-**[PROPOSED]** Winning peace should prove politically harder than winning the capital, while the need for a workable peace gives Elias reason to centralize power against the preferences of his original Californian partners.
+Years of fighting and fiscal crises bring the armies of Pacifica toward the Eastern capital. The Union and Confederacy are battered, but neither consists of men incapable of courage or professional judgment. In the decisive approach to Washington the Pacificans pay heavily for ground that the defenses and nearby waterways make difficult to seize. Marcus Vance commands key operations, while Elias's political agents seek a settlement that will endure after the guns stop.
 
----
+Washington is occupied, and a provisional governing conference negotiates the redistribution of federal powers. The Articles of Dissolution become the emblem of an extended settlement among defeated or exhausted factions, not the magical extinction of a country whose capital has fallen. Some jurisdictions accept the new dispensation; others retain their own interests, traditions and organized opposition. **[OPEN]** The exact constitutional settlement, the fate of surviving Union and Confederate commands, and the final scope of Elias's new office.
 
-# PART III — The new Pacific order and its earliest betrayals (1865–1869)
-
-## 12. The finances of peace and the machinery of empire (1865–1867)
-
-**[RETAINED]** Vast debts, displaced officials and competing currencies require a coherent settlement. In the original `Currency of Iron` sequence, Elias moves many institutions west, seeks to stabilize money and banking, courts old Eastern financial interests at elaborate receptions, and expands the Pacific naval industries. New officials, foreign creditors and merchant houses become inseparable from the growing state.
-
-**[APPROVED]** The financial institutions must be derived from the public gold economy and wartime borrowing, not four years of hidden bullion. Political legitimacy and the cost of coercion remain contested. The treasury can be powerful without controlling the entire national product. Kaiulani, financiers and professional administrators are actors in these decisions, not simply parts of Elias's machine.
-
-## 13. Alaska, the Yukon and the Russian frontier (c. 1867)
-
-**[RETAINED]** Elias purchases or otherwise acquires Alaska as Russia struggles to maintain its Pacific territories. Marcus Vance leads forces north through dangerous seas and secures positions around Sitka; expeditions discover remarkable Yukon deposits. Elias organizes a Northern Department to exploit new revenue and secure transportation routes. British North American authorities object to expansive boundary interpretations. The original manuscript portrays brutal mining conditions and a substantial flow of bullion to the imperial treasury.
-
-**[PROPOSED]** This acquisition should expose conflicts between public and private mineral rights, Indigenous communities, displaced Russian interests, British border claims and the republic's increasingly expansive security policy. The northern wealth creates capabilities but also a stronger dependence on extraction and military coercion.
-
-## 14. Hawaii: marriage, annexation and the massacre (c. 1867)
-
-**[APPROVED · CR-004]** The Hawaiian monarch does **not** suddenly deny an established son-in-law access to promised naval facilities. The original alliance has been real and beneficial. But it has become unequal. Pacifica's admirals, tax officials and industrial operators demand common naval command, harbor administration, regulation and control of strategically vital assets. Elias concludes that the Hawaiian monarchy cannot retain a meaningful veto over the larger state's strategic interests. The king and Kaiulani recognize the encroachment but cannot stop it.
-
-Kaiulani has her own ambitions in the royal succession and in the political order emerging from the union. She is implicated in the negotiations and may have hoped to preserve Hawaiian authority through influence rather than armed resistance. A royalist faction rejects the settlement and rises against the new order. Imperial forces crush the rebellion in a bloody massacre. The king and Kaiulani neither approve of the killings nor possess the power to prevent them. **[OPEN]** The rebellion's leaders, precise demands, death toll and the role of the legal incorporation act.
-
-**[APPROVED]** Elias does **not** threaten Kaiulani with executing Hawaiian prisoners to obtain her obedience. The manuscript's present coercive exchange must be replaced. The marriage survives through residual affection, political necessity, shared responsibilities, ambitions of Kaiulani's own and, eventually, grief. Elias regards centralized naval sovereignty as necessary; Kaiulani increasingly sees it as betrayal of obligations he understood when he married her. Their disagreement becomes foundational to the next generations.
-
-## 15. Overseas expansion: Spain, Japan and China (1867–1869)
-
-**[RETAINED]** The draft's campaigns against Spain result in Pacifica gaining control or substantial influence over Guam and the Philippines and negotiating wide-ranging commercial and political concessions. General Marcus Vance suppresses resistance in Luzon, and Spanish ministers face a humiliating peace. The conquest should not erase local initiative or reduce occupied communities to a mass of passive recipients.
-
-In Japan, Elias appears with a powerful fleet in 1868 and negotiates a far-reaching Treaty of Edo amid conflict between the shogunate, the imperial court and Japanese domains. **[APPROVED reinterpretation]** This is no longer Japan's abrupt opening to California; it is the later transformation of a relationship carefully built since the early 1850s. Japanese reformers and rivals retain their own objectives and can resist the empire's growing demands.
-
-**[RETAINED]** Pacifica intervenes on China's northern coast, conducts operations toward Peking, and establishes dominant customs and commercial rights around Shanghai. Elias's worsening health becomes increasingly important; Kaiulani and professional administrators temporarily manage aspects of government when he collapses. Large-scale labor movement, legal syncretism, exploitation and financial control become the new foundations of imperial society.
-
-## 16. The Bering project and the death of the first Marcus Vance (1869)
-
-**[RETAINED]** Elias attempts to bridge the Bering Strait and open an industrial land route into Asia. Russia treats the project as an invasion threat. Fighting spreads across Chukotka and Siberia, culminating in a terrible winter expedition. General Marcus Vance I dies amid the catastrophe on Lake Baikal after using terrifying and costly improvised methods to break Russian positions.
-
-The war helps precipitate a political crisis in the Russian Empire, while the immense cost creates unrest inside Pacifica. Its geography and winter defeat any easy assumption that machinery can eliminate uncertainty. The death of Elias's longtime commander also begins an irreversible generational transfer of military authority.
+Elias acquires the title **Providentor** within a state vastly larger and more complex than the Californian republic that first raised him to prominence. He orders archives, technical equipment and administrative resources transferred west and seeks to subordinate local armies and currencies to a single political design. In his mind these measures are necessary to preserve the peace won at great cost. For many of the people compelled to accept them, peace is beginning to resemble occupation.
 
 ---
 
-# PART IV — The family's ruin and the founder's last years (late 1860s–1887)
+# PART III — The age of expansion and the limits of industry (1865–1870)
 
-## 17. The lost son and the marriage that survives its future
+## 13. New money, old debts and maritime construction (1865–1867)
 
-**[APPROVED · CR-004]** Elias and Kaiulani have a legitimate son, with a childhood and temperament of his own. A serious accident kills the boy and injures Kaiulani; afterward she is unable to have more children. **[OPEN]** His name, age, temperament, exact death date, circumstances of the accident, and whether infertility is medically established or understood through experience. Do not treat this tragedy as convenient dynastic machinery; the reader must have known the child before losing him.
+The broken financial systems of North America must be rebuilt while Pacifican foundries and shipyards continue to demand resources. Elias makes agreements with surviving bankers, issues new obligations, stabilizes customs and taxes, and relocates some of the republic's administrative center to San Francisco. His mastery of public revenue becomes an instrument of continental rule, but the machinery depends on merchants, lenders and professional officials who can delay or frustrate his wishes.
 
-Their marriage deteriorates through grief, political disagreement and incompatible responses to loss. Neither spouse is an innocent witness to the state they have built. Elias's affairs and children by other women emerge over time. Their household becomes entangled with the rival interests of the American military establishment, Japanese magnates, Hawaiian royalty and financiers.
+An elaborate reception for Eastern financial elites promises incorporation into the new order while concealing the persistence of military and commercial grievances. Kaiulani advises concessions when coercion would be more expensive. Elias seeks the quickest means to turn revenue into fleets capable of protecting Pacific routes. Rivalries among officers, financiers, Hawaiian representatives and Japanese advisers become durable features of government.
 
-**[PROPOSED]** A carefully developed succession question grows from family intimacy into a public constitutional problem. Kaiulani's ambitions for the state and for her own authority remain active, not reducible to the wish to replace the child she has lost. She and Elias may still experience tenderness that complicates their hostility.
+## 14. Alaska, Yukon gold and Russia (1867)
 
-## 18. Prosperity, art and the political problem of peace (1870s–early 1880s)
+Elias negotiates control over Alaska amid Russia's weakening capacity to defend its Pacific possessions. The first northern expeditions face dangerous storms and difficult supply. Marcus Vance and naval commanders secure harbors, while prospectors discover large deposits in the Yukon watershed. The Northern Department organizes claims, taxes, labor and transportation; its profits help finance the expanding empire.
 
-**[RETAINED, chronology repaired]** The empire enjoys what the Chronicler calls a Golden Afternoon. There are great engineering works, university celebrations, new art and architecture combining Pacific cultures, and a prosperous elite. Kaiulani sponsors cultural and educational institutions and helps craft an imperial public memory. Elias grows older, revisits frontier landscapes and worries about institutions that will survive his death.
+British North American representatives protest interpretations of the Alaskan boundary, and Indigenous communities encounter an extractive state increasingly willing to treat political agreements as administrative details. The promise of public gold and development yields a powerful regional system but introduces new obligations, resentments and opportunities for abuse.
 
-Beneath prosperity lies forced labor, coercive integration, fiscal surveillance and the transformation of diverse peoples into administratively interchangeable subjects. The younger Marcus Vance builds a technocratic career that differs sharply from his father's experience: academy training, computation, numbers and bureaucracy increasingly replace frontier judgment.
+## 15. Spain, Japan and China's treaty ports (1867–1869)
 
-**[PROPOSED]** Here the marriage's ruined private prospects might be set against official depictions of a perfectly harmonious imperial family. Contrasts between the real lost child, the other children, and the state-sponsored dynastic image need individual scenes rather than expository declarations.
+The empire's developing navy turns toward Spanish possessions in the western Pacific. The campaign around Guam and the Philippines results in naval successes, a harsh settlement with Madrid and difficult operations against local resistance. Pacifican commanders discover that defeating conventional forces is easier than governing people whose political loyalties and social institutions endure occupation.
 
-## 19. The Panama enterprise and the founder's declining authority (1880s)
+Japan is an established treaty partner. The agreements built by Manjirō, Satsuma reformers and shogunal negotiators are now tested by the scale of Elias's ambitions. In 1868 his fleet arrives before Edo to press a much broader political and military settlement. Japanese officials debate the value of California's protection against Russia and Europe and the danger of conceding their own sovereign powers. Elias needs Japanese capacity and prestige; Japanese factions refuse to be mere subsidiaries of his empire.
 
-**[RETAINED, chronologically reordered]** Elias pursues the Panama Canal as the final engineering element connecting two oceans under Pacifica's administration. Laborers, medical officers, soldiers and contractors contend with disease, dangerous geology, labor unrest and corruption. A telegraph or communications milestone arrives while Elias remains ill; the canal itself is not finished until 1900.
+Around Shanghai and the northern Chinese coast, Pacifica expands its commercial and military influence through intervention, customs concessions and campaigns toward Peking. Elias's health falters amid the immense demands of travel and command. Kaiulani, bankers and military officers conceal or manage episodes of illness while the administration increasingly depends on the judgment of others.
 
-Elias suffers recurrent debilitating illness and episodes of partial paralysis. His physical condition becomes a state secret because powerful military, financial and administrative factions are waiting to inherit his power. Kaiulani and the younger Marcus Vance maneuver to contain those rivals. The elder frontier generation dwindles.
+## 16. The Bering project, the Siberian campaign and Marcus Vance's death (1869)
 
-## 20. The last lover and the birth of Julian (c. 1885–1887)
+Elias attempts an extraordinary railway crossing at the Bering Strait, intending to bind the American and Asian continents through permanent industrial infrastructure. Russian military and political leaders recognize that the work could become an invasion route. Negotiations break down and conflict advances into Siberia.
 
-**[APPROVED · CR-004]** During Elias's last years, a much younger woman of Hawaiian-American parentage enters his intimate life, potentially in a caregiving role. She is not an anonymous accessory to the dying ruler: her education, motives, household position, relatives, fears and ambitions must be established independently. Her relationship with Elias becomes an additional source of tension in the marriage.
+An expedition suffers appalling winter privations. The first Marcus Vance leads forces toward Lake Baikal, where a desperate attack involving machinery, ice and burning fuel breaches Russian positions at enormous cost. He dies while the campaign's consequences extend far beyond the battlefield. The defeat of Russian armies destabilizes the Romanov state; the sacrifice of Pacifican soldiers and workers provokes outrage at home.
 
-She bears Julian shortly before Elias dies, provisionally around 1886–1887. **[OPEN]** Her name, occupation, age, how she encounters Elias, the place of her relationship in the household, Julian's exact birth date, and how much Kaiulani knows or suspects at the time. Elias's death remains in August 1887 unless subsequently changed by the author.
-
-## 21. The southern conquests, 124 States and the death of Elias (1887)
-
-**[RETAINED]** The younger Marcus Vance extends imperial control through parts of the Dutch East Indies and Australia. The British Navy is defeated in a major Battle of the Coral Sea. The administration confronts the task of organizing an empire of enormous scale. Elias's final constitutional project divides the state into 124 political units; the unresolved question is how their powers are reconciled with a permanent central authority.
-
-The first manuscript repeatedly revisits Elias's last illness and death out of chronological order. **[APPROVED structural decision]** The second draft will narrate his decline and death primarily in sequence, retaining retrospections only for a clear interpretive purpose. Elias dies in August 1887; the state's top offices immediately become disputed.
-
-**[APPROVED revised genealogy]** His legitimate son by Kaiulani has already died; therefore there is no surviving legitimate son from that marriage. Other children exist, including at least one born to a different mother and Julian, born during his final illness. The legal status, ages and exact relationships of Silas, Kiyoshi and any Kalanimoku-line descendants remain **[OPEN]**. The first manuscript's assertion that Elias never married and all three princely claimants were outside marriage is **superseded**.
+Elias has lost an old commander and a man whose competence allowed him to command across great distances. The military generation formed during the rise of the republic is passing. Its successors know institutions, examinations and industrial processes that their predecessors could scarcely have imagined.
 
 ---
 
-# PART V — The war of succession, Kaiulani's regency, and Julian's childhood (1887–1914)
+# PART IV — Hawaii, the ruined marriage and the founder's death (1870–1887)
 
-## 22. The empire without its founder (1887–1888)
+## 17. The island alliance unravels after Lot's death (1872–1874)
 
-**[RETAINED with genealogical reconstruction]** Upon Elias's death, the surviving factions see no agreed succession. Old American frontier veterans rally around Silas Thorne. Japanese naval leaders around Marquis Takashima seek the return of sovereign military prerogatives. The younger Marcus Vance commands the trained Polytechnic corps and the state communications apparatus. Financiers, regional governors, religious authorities and formerly subordinate territories act for themselves. Elias's death unleashes revolts and ruptures the circuits of trade and military supply.
+Lot Kapuāiwa, Elias's stubborn friend from the first Hawaiian encounters, has watched their maritime alliance grow into a system of naval stations, common tariffs, shared officers and military requisitions over which Hawaiian ministers exercise diminishing control. His death in December 1872 without a named heir makes the unresolved question of the kingdom's sovereignty impossible to postpone.
 
-Kaiulani is no longer merely an influential court official. **[APPROVED]** She is the founder's widow, a member of the Hawaiian royal family, a political co-architect of the imperial order and a woman with personal ambitions. The marriage gives her claims to authority but also enemies who consider her complicit in the destruction of Hawaiian sovereignty. **[PROPOSED]** These irreconcilable foundations of legitimacy make her public actions even more consequential.
+The succession passes through a short reign by Lunalilo, elected in 1873, and toward another disputed succession in 1874. Kaiulani stands within the royal family as the wife of the Providentor, a legally experienced Hawaiian stateswoman and a contender for influence in the kingdom's future. Other royalists regard her authority with suspicion; Elias's officials argue that naval defenses, customs, shipyards and taxation can no longer be subject to shifting island ministries.
 
-In the existing draft, Kaito challenges the young Vance, fighting breaks out among the fleet factions, and the empire's internal military and commercial systems seize up. Vance suffers a disastrous defeat at Donner Pass while Caleb sacrifices his life to save his grand-nephew. Silas and Takashima are unable to sustain their campaigns without supplies.
+Elias does not lose access to agreed harbors through a sudden hostile act by the Hawaiian king. He arrives at the conclusion that an essential part of his empire must be governed as one military and fiscal system. During the 1874 crisis, factions supporting different lines of succession and different degrees of Hawaiian independence mobilize. Elias imposes a new incorporation settlement that leaves the crown little effective power. Resistance breaks out among royalists unwilling to accept the result.
 
-## 23. The other mother's death and Kaiulani's adoption of Julian (c. 1887–1889)
+The imperial army suppresses the uprising in Honolulu with terrifying violence. A massacre of royalist defenders and civilians stains the victory, and the old protections offered to Elias's Hawaiian friends prove powerless to prevent it. Kaiulani and the remaining royal leaders cannot stop the military operation. Kaiulani's prior participation in the machinery of integration makes her anguish inseparable from responsibility: she has argued for constitutional influence within the union while failing to grasp how far the joint state might go. The precise combatants, casualties and legal terms remain **[OPEN]**.
 
-**[APPROVED]** After Elias dies, Julian's biological mother dies in suspicious circumstances. Kaiulani's possible involvement is never treated as proven merely because the death seems convenient. Motives, opportunities, independent threats and the reliability of documents or testimony remain important. The woman must have been fully realized before her death.
+The marriage continues. Kaiulani and Elias still understand one another's hopes and talents, still possess shared responsibilities and a child, and still require one another politically. But Kaiulani now knows that her husband's affection does not guarantee respect for her people's sovereignty. Elias believes himself bound to preserve the larger order even at the expense of the promises with which it began.
 
-Kaiulani takes Julian into her household and raises him as her son. This is an authentic relationship, not simply an elaborate punishment or political deception. She may love him, resent what his existence signifies, feel responsibility toward his mother, and recognize the political significance of his ancestry simultaneously. **[OPEN]** Exact adoption date, Julian's legal status, known guardians, the mother's death mechanism, and what Kaiulani actually knows.
+## 18. Their son, the accident and a court divided (1870s)
 
-This thread must intersect with the succession war rather than unfold as an unrelated domestic subplot. **[PROPOSED]** If Julian is an infant when the factions gather to divide Elias's inheritance, his apparently marginal existence may reveal how little anyone can distinguish between family loyalty and political legitimacy.
+Elias and Kaiulani's legitimate son grows up amid the elaborate cultural world of the empire. His childhood encompasses Hawaiian traditions, frontier stories, technical education, sea voyages and the expectations of several political constituencies. He is a distinctive child with his own fears, friendships and ambitions. **[OPEN]** His identity, age and personality must be chosen before he is dramatized.
 
-## 24. Kaiulani's independent Hawaiian position and the Truce of Thalassia (1888)
+In an accident during the later 1870s, the son is killed and Kaiulani is injured. She is afterward unable to bear more children. Her grief and the physical aftermath create a permanent division between what the state demands of her and what she can endure privately. Elias responds differently, throwing himself into travel, technical work and the organization of new campaigns. The couple cannot agree on what the loss means, and their attempts to comfort one another increasingly misfire. **[OPEN]** The accident's circumstances, her medical prognosis and the exact date remain undecided.
 
-**[RETAINED, modified]** Kaiulani returns to Hawaii, severs imperial communications and declares the islands a neutral sanctuary while rival factions destroy one another's forces. Because Hawaii's harbors, food, coal and position remain essential to the contenders, she gains enough leverage to convene a settlement at Sand Island in April 1888.
+Elias becomes involved with other women and has additional children outside the marriage. Their mothers possess independent households, loyalties and political stakes. The order in which the children are born, particularly the adult princes who later contest succession, must be reconciled with the timing of the legitimate child's death. Kaiulani is neither simply a jealous wife nor a passive witness: she retains political ambition and helps devise a viable inheritance for the empire.
 
-Silas receives a continental military sphere; Takashima's interests in the western fleet survive under oversight; Marcus Vance II directs the technically standardized administration. Kaiulani exercises a regency meant to hold the realm together without restoring a single unrestrained Caesar. The exact offices and the legal relationship between the neutral Hawaiian monarchy and the imperial center require canonical reconciliation after her marriage and the revised annexation.
+## 19. The Golden Afternoon and the examination state (late 1870s–1880s)
 
-Her achievement is real, but each concession leaves an unresolved claim that future generations will inherit.
+The empire appears to reach a stable maturity. Cities, universities, arts and public works expand; a sophisticated culture of industry and imperial syncretism takes shape across the Pacific. Kaiulani encourages artistic and educational institutions and helps shape the state's memory of its founder. Elias's attention moves restlessly from trade to engineering and military construction even as infirmity makes activity more difficult.
 
-## 25. The examination state and the canal's completion (1888–1900)
+The younger Marcus Vance and other academy-trained officials substitute measurements, numbered personnel, examinations and statutory procedures for the personal loyalties of the old armies. The method promises fairness across races and provinces but also reduces human beings to entries in large systems. Financial syndicates, officers and hereditary court factions compete to direct the machinery in anticipation of Elias's death.
 
-**[RETAINED]** Under Kaiulani and Vance II, the empire survives through institutions increasingly designed to neutralize personal loyalties and inherited privilege. Competitive examinations, bureaucratic grades, standardized military training, technical professions, numbering systems and fiscal audits reduce the power of old hereditary and commercial factions. In the first draft, older Japanese naval aristocrats and New York financiers are defeated through a mixture of administrative procedures and well-placed military force.
+The Panama Canal draws imperial labor and capital into dangerous tropical works. Engineers encounter disease, unstable ground, tropical rainfall, strikes and political resistance from neighboring states. The final canal will open in 1900, but its construction reveals the immense financial and human cost of the projected world order.
 
-The Panama Canal is completed around 1900 after intense construction, labor conflict and bargains with Latin American governments. It confirms the Pacific state's control of maritime trade and provides a physical expression of Elias's original vision. **[PROPOSED]** The same work should also show ordinary families whose lives are transformed without becoming background figures in a technical triumph.
+## 20. Elias's final lover and Julian's birth (1885–1887)
 
-## 26. The child raised in the palace: Julian and the inheritance of stories (1890s–1914)
+Elias's illnesses bring an intimate presence into his household: a younger Hawaiian-American woman, perhaps employed to care for him, who is more than a servant or a dynastic instrument. Her family history, skills, political understanding and ambitions distinguish her from the other people surrounding the founder. She comes to know his physical limitations and private memories as well as the public legend of inexhaustible strength.
 
-**[APPROVED relationship; OPEN actual childhood events]** Julian grows up with Kaiulani as his adoptive mother and Elias as a powerful but absent paternal legend. The empire's official account of its founder competes with the inconsistent memories of veterans, servants, relatives, dissenters and Kaiulani herself. The growing boy need not accept the place assigned to him by court institutions.
+A relationship develops and she gives birth to Julian around 1886–1887. The boy is the founder's son and the child of a woman with far less power and standing than Elias's wife. Kaiulani's knowledge of the relationship and response to the birth are **[OPEN]**. So are the child's legal status and the mother's arrangements for her own future.
 
-**[PROPOSED]** His adoptive mother may preserve the early Elias's humanity through stories of the frontier, independent California, riding, engineering, friendships and the opening of the Pacific. Julian might later turn those stories into an ideological repudiation of the state Kaiulani governed. This causal mechanism is promising but **not yet approved as a fact**, and Julian must retain choices that could lead somewhere else.
+## 21. The last conquests, 124 States and the death of the founder (1887)
 
-**[RETAINED]** The political stability of the regency rests on compromises that become more fragile as new generations take office. Silas and other early claimants eventually die or recede; younger bureaucratic and military cadres have little memory of the founding struggles.
+Marcus Vance II commands campaigns that extend imperial power through parts of Indonesia and Australia. In the Coral Sea, the modern Pacific fleet defeats a formidable British force and brings the great ocean's trade routes under the imperial navy's dominance. The victory is brilliant but its costs increase tensions between provincial economies and central requirements.
 
-## 27. The Settlement of 1914 and the new dynasty
+An imperial constitution divides the state into 124 states or cantons and enhances centralized auditing, examinations and military control. The old founder is increasingly incapacitated. His name still holds the rival constituencies together, but the decisions that rule their lives emerge from committees of generals, financiers, royal advisers and technicians who are preparing to outlive him.
 
-**[RETAINED, genealogy unresolved]** When Kaiulani's long regency can no longer substitute for agreed dynastic legitimacy, the empire installs a young Kalanimoku and his Japanese aristocratic consort Chiyo as figures at the head of a new imperial constitutional settlement. The settlement tries to reconcile American, Hawaiian and Japanese legacies while preserving the technocratic administration.
-
-**[APPROVED constraint]** The deceased legitimate child of Elias and Kaiulani cannot also be Kalanimoku's father. The 1914 Emperor therefore needs a clearly established alternative family line. It might descend from one of Elias's other children, but **the exact line is open**. The present manuscript's inconsistent generational descriptions are not adopted as canon.
-
-Kaiulani's decision to bypass her adopted son Julian must acquire a specific political and emotional rationale, and Julian's response must be developed in relation to their genuine personal bond. **[OPEN]** How legitimate Julian's claim appears, whether he seeks the throne at this stage, and the events leading to his eventual estrangement.
+In August 1887 Elias dies. The news passes through the telegraph system he built. A son from his marriage to Kaiulani would have presented a widely recognized dynastic possibility, but that son is dead. Other claimants possess blood ties, military supporters, or control over parts of the state, yet no uncontested legitimacy. Kaiulani is both the widow of the founder and an independent Hawaiian political actor. Julian is still a baby in the orbit of his much younger mother.
 
 ---
 
-# PART VI — The mechanized empire at its height and the failure of limits (1914–1921)
+# PART V — Succession, regency and the child raised by Kaiulani (1887–1914)
 
-## 28. The Great Indian War and the Treaty of Rangoon (1914–1915)
+## 22. The war of the inheritance (1887–1888)
 
-**[RETAINED]** Under the new dynasty, the Pacifican navy launches a great campaign against the remnants of British power in India and the Indian Ocean. Fleet-General Kuroda commands a technologically formidable force. British sea power is broken, and the Treaty of Rangoon imposes a new strategic and commercial order. Kaiulani negotiates or administers lucrative tea, opium and related concessions, while Britain's industrial and social order enters a prolonged decline.
+At Elias's funeral, the rival constituents of his state cease pretending that a single sovereign interest unites them. American military aristocrats rally around an established Thorne claimant, provisionally Silas. Japanese naval leaders demand recognition of their autonomy, while Marcus Vance II organizes the Polytechnic officers and controls the state's communication systems. The legal claims of these men, their blood relationships and the ages of Elias's other sons remain **[OPEN]**.
 
-Retired Marcus Vance II watches these events from California and recognizes that the technically perfected military institutions he helped create are pursuing expansion beyond his own conception of necessity. This quieter personal reckoning should survive the rewrite.
+Across the empire, mutinies and provincial uprisings expose the fragility of centralized supply. The fighting around San Francisco and the western fleet is fierce, but the contenders cannot feed their forces indefinitely. Silas's frontier veterans force Vance's technocratic corps into the Sierra, where a catastrophic engagement at Donner Pass ends with old Caleb Vance sacrificing himself to save his grand-nephew. The younger man's mathematical equipment proves less valuable than the frontier veteran's judgment.
 
-## 29. Thalassia: the constitutional throne turns into personal rule (1914–1917)
+Kaiulani recognizes that the same harbors and food stores that once allowed Elias to subordinate Hawaii can now protect it from the rival claimants. She withdraws the islands from the immediate civil war and refuses their requisitions.
 
-**[RETAINED]** The new capital at Thalassia rises in the Hawaiian islands as an immense architectural and administrative center. Its Senate is intended to express imperial unity. Kalanimoku, however, learns to use court ceremonial, military patronage and the memory of Elias to subordinate senators and bureaucrats to his personal will.
+## 23. Julian's mother's death and the adoption (c. 1887–1889)
 
-He studies the founder's mannerisms and reproduces his authoritative speech. In a central Senate scene, an Australian petition is suppressed through control of procedure and military intimidation. Kaiulani recognizes that her constitutional settlement has helped restore the political form she spent decades attempting to restrain.
+After Elias's death, Julian's biological mother dies under circumstances that never admit a simple account. Her acquaintances, the household, guards, diplomats and political factions offer explanations inconsistent with one another. Rumor points toward Kaiulani, who would have possessed motive, opportunity and the means to act, but the record is inconclusive. The Chronicler cannot turn suspicion into established fact merely to satisfy the symmetry of a tragic tale.
 
-**[APPROVED revised personal implication]** This is not merely a grandmother's disappointment in a sovereign; the whole family history, including Elias's marriage, their dead child and the bypassed Julian, must complicate her judgment. The present draft's exact grandmother–grandson relationship may be revised once genealogy is settled.
+Kaiulani takes Julian into her household and adopts him as her own son. The decision is heartfelt and political in ways that even Kaiulani may not fully understand. The child bears Elias's blood, has lost his mother, and is an innocent party to the marriage's long conflict. Their bond grows into a genuine parent-child relationship, however much jealousy, responsibility and fear of scandal may complicate its origins. **[OPEN]** What she knows of the death, Julian's precise legal standing and whether he later discovers competing versions of these events.
 
-## 30. Europe's wars, the Great Fire and the empire's creditor-state (1917–1919)
+## 24. The Hawaiian sanctuary and the Truce of Thalassia (1888)
 
-**[RETAINED]** The European powers and their alliances fall into prolonged conflict. Britain is weakened, the continental states struggle over industrial supplies and territory, and the Pacific empire attempts to profit while maintaining strategic control. The Chronicler travels through Europe and witnesses devastation, including the burning of London. Kaiulani's diplomatic efforts increasingly fail to moderate decisions taken by Kalanimoku, Kuroda and fiscal administrators.
+The exhausted military factions need a place where coal, food, shipping and communications can be secured without immediate renewed war. Kaiulani convenes the surviving contenders in Hawaii and forces them toward a settlement in 1888. Silas or the principal continental claimant receives an inland command; the Japanese naval aristocracy retains a defined sphere under conditions of central oversight; Vance II gains responsibility for a professionalized administration; Kaiulani becomes regent.
 
-The new imperial authorities turn Europe's indebted infrastructure, shipping and industrial assets into enforceable financial claims. The Geneva settlement and broader liquidation of European sovereignty leave people subject to administrative control as well as armed coercion.
+The arrangement does not cure the empire's rivalries. It gives the factions a reason to postpone civil war and preserves imperial unity while permitting Kaiulani to wield authority beyond the competence of any single military leader. The personal history of her Hawaiian marriage and the kingdom's earlier submission gives her actions legitimacy in some eyes and bitter controversy in others.
 
-A devastating epidemic spreads through the broken societies and along military and commercial networks. Imperial relief operations become instruments of domination. Kaiulani, aged and increasingly ill, confronts the immense gulf between her stated conception of order and the state she helped create.
+## 25. Governing through institutions and completing the canal (1888–1900)
 
-## 31. Afghanistan and the first acknowledged reversal (1919–1920)
+The regency restores trade and builds an administrative class whose authority rests on competitive examinations, standardized records and a centralized system of public finance. Vance II and Kaiulani gradually reduce the autonomy of bankers, hereditary commanders and influential families. Their measures recruit talent from across the empire while demanding increasingly strict conformity.
 
-**[RETAINED]** An imperial attempt to close the last independent strategic corridor through Afghanistan fails against terrain, resistance, weather, supply difficulties and the limitations of armored equipment. Fleet-General Kuroda is killed; Marcus Vance III inherits command of a disastrous retreat. Kaiulani arranges diplomacy with Persia and frontier communities, but cannot undo the military defeat.
+The Panama Canal is completed in 1900. Ships cross between the oceans through lock gates, new fortified settlements and commercial ports. The work is hailed as the realization of Elias's geographic vision. Laboring families, neighboring republics and local communities experience that achievement as a mixture of opportunity and coercion.
 
-In Thalassia the Senate refuses the enormous new expenditure needed to restore the campaign. The retreating forces dismantle the broad-gauge railway behind them and carry away its rails. This inverse of Elias's lifelong expansion is a defining image: the state must physically remove an instrument it once called irreversible.
+## 26. Julian's upbringing and the inherited legend (1890s–1914)
 
-## 32. Siberia, poisoned institutions and Kaiulani's public break (1920–1921)
+Julian grows up in an imperial household dominated by the public memory of his father and the private history of Kaiulani's marriage. Servants, officers, educators, veterans, courtiers and his adoptive mother tell him different versions of Elias Thorne. The boy's own ambitions and affinities emerge against institutional expectations that he may never be admitted to the succession.
 
-**[RETAINED]** Uprisings spread in Siberia and across Southeast Asia. Marcus Vance III uses technologically sophisticated violence to suppress them, including a catastrophic gas attack that kills imperial personnel as well as enemies. Bureaucratic reports increasingly conceal losses and falsify results. The imperial counting system can no longer reliably describe the country it purports to govern.
+Kaiulani loves Julian, but she cannot make his existence politically simple. He experiences her capacity for tenderness as well as the frightening scope of her power. **[OPEN]** His education, friends, loves, early public activities, growing political beliefs and eventual estrangement must become an independent narrative trajectory.
 
-Kaiulani confronts Kalanimoku over the atrocities, renounces her old authority and leaves the court. Chancellor Shen becomes trapped between impossible fiscal targets, political suspicion and terror; ultimately even senior officials are exposed to the coercive apparatus they administer.
+As the founding generations die, the state's prestige rests increasingly on people who never saw the early California republic. The regency cannot last forever, and the courts begin to debate a lasting dynasty.
 
-**[APPROVED interpretive guardrail]** Kaiulani's condemnation must not erase her own responsibility for creating the state's coercive infrastructure.
+## 27. The Settlement of 1914
+
+Kaiulani supports a constitutional settlement establishing a new House of Thorne-Kamehameha. A young Kalanimoku is crowned with Lady Chiyo of the Japanese nobility as consort, while the Polytechnic establishment retains broad authority over military and financial administration.
+
+The new Emperor's descent from Elias and the Hawaiian monarchy must pass through a branch other than Elias and Kaiulani's deceased legitimate son. **[OPEN]** The lineage, the rights of Silas and Kiyoshi, and the reasons why Julian is bypassed. Kaiulani's choice constitutes a political decision with inescapable familial consequences.
 
 ---
 
-# PART VII — Revolution, Julian's restoration, and the last archive (1921–c. 1932)
+# PART VI — The empire without limits (1914–1921)
 
-## 33. Automation, polluted islands and the revolutionary underground (1920s)
+## 28. India, Rangoon and the retirement of Marcus Vance II (1914–1915)
 
-**[RETAINED]** Industrial automation, punched-card administration, vast foundries, aerial policing and mechanized transport allow the empire to maintain impressive production while displacing or starving segments of its population. The environmental destruction of the Hawaiian islands becomes deeply personal to the exiled Kaiulani. The monarchy's ancestral landscape is transformed into industrial waste.
+The new court employs the immense imperial fleet against Britain's remaining power in the Indian Ocean. Fleet-General Kuroda commands campaigns whose success rests on technical innovation, superior logistics and the enemy's fiscal weakness. The British fleet is defeated and a settlement at Rangoon transforms the commercial and strategic balance in India.
 
-Keawe, a revolutionary stoker and organizer, becomes a major figure in a movement joining manual workers, marginalized peoples and disaffected soldiers. He seeks Kaiulani's authority but does not necessarily share all her principles. Their interaction should be between two independent political actors, not merely the granting of a royal blessing.
+Kaiulani negotiates monopolies, customs concessions and terms for the defeated powers. Retired Marcus Vance II observes the victories through dispatches from California and recognizes that the system he devised now uses its own industrial output as an argument for further conquest. His life's success has become a force he cannot persuade to stop.
 
-**[PROPOSED]** Julian's own developing views should run in parallel with this social upheaval, rather than appear only in the Restoration. His rivalry with the state must take on distinct social and personal stakes.
+## 29. Thalassia and the Emperor's imitation of Elias (1914–1917)
 
-## 34. The jubilees, the Red Terror and the defection of the officer class (c. 1930–1931)
+The capital of Thalassia rises at the center of the Hawaiian archipelago in an immense complex of canals, glass-domed chambers, arsenals, gardens and ministries. Its Senate is meant to express the participating states' voices, but young Kalanimoku becomes increasingly determined to exercise the power of a personal ruler. He studies phonographic recordings of Elias's mannerisms and learns to speak in the founder's remembered cadence.
 
-**[RETAINED]** The empire celebrates its power with industrial and naval spectacle while the labor and military systems become progressively brittle. Revolutionary workers organize in hidden spaces beneath the great cities. In San Francisco, an attempt to sabotage naval systems reveals that imperial officers and technical specialists have themselves joined the conspiracy.
+During a Senate dispute involving an Australian petition, he humiliates the representatives and manipulates the voting machinery to demonstrate that the state obeys his will. Kaiulani recognizes the return of the autocracy she struggled to contain. Her personal memory of Elias, the ruined marriage, the dead son and the estrangement from Julian makes the scene an intimate reckoning as well as a political defeat.
 
-Marcus Vance III reacts with escalating terror and suspicion. Soldiers refuse some orders; skilled machinists disable equipment; cadres turn against commanders. Vance III is finally murdered by his own guards. This collapse of the third military generation should not be reduced to inherited incompetence: his fear and brutality are shaped by particular choices and institutional pressures.
+## 30. Europe's ruin and the creditor empire (1917–1919)
 
-## 35. Julian Thorne's Restoration (1931)
+The European powers exhaust themselves through war and fiscal disorder. Pacifican shipping, credit and military control extend westward across the Atlantic approaches and into Mediterranean and continental affairs. The Chronicler witnesses devastation in the industrial cities, including a catastrophic burning of London, while financial officials convert foreign debts into imperial claims over railways, ports and public revenues.
 
-**[APPROVED core · CR-004]** Julian, the biological son of Elias and the younger Hawaiian-American woman, raised by Kaiulani after his mother's mysterious death, ultimately leads a movement claiming to recover the founder's lost political vision. If his birth remains approximately 1886–1887, he is in his mid-forties, not thirty-two, during the Restoration.
+Kaiulani attempts diplomacy but cannot restrain the court's appetite for strategic and commercial control. The imperial relief apparatus responds to epidemic and famine while also extending registration, forced labor and fiscal supervision. Her opponents insist that only comprehensive control can prevent renewed disorder.
 
-**[RETAINED, subject to full reconstruction]** The existing Julian is a charismatic frontier-style demagogue who uses his resemblance to Elias and the mythology of the early republic to mobilize dissatisfied Californians. He seizes the state center, humiliates the reigning Kalanimoku, and declares himself Lord-Restorer. His rhetoric, including its racial nationalism, must be reconsidered in light of his Hawaiian-American origins and upbringing by a Hawaiian queen. The contradiction could become a deliberate dimension of his identity rather than an unnoticed inconsistency.
+## 31. Afghanistan, the failed campaign and a backward-moving railway (1919–1920)
 
-Julian's opposition to Kaiulani should be rooted in the long complexity of their relationship. He need not simply hate the adoptive mother who raised him. Perhaps he believes he honors things she taught him while rejecting the political choices she made. **[PROPOSED mechanism; OPEN events of his coming of age and break.]**
+The imperial army tries to close the remaining frontier through Afghanistan. Mountain communities, local leaders and irregular forces resist with methods that frustrate steam armor, air support and fixed military timetables. Fleet-General Kuroda is killed, and Marcus Vance III inherits a disintegrating command.
 
-## 36. The last betrayal of Kaiulani and the Restorer's failure (1931–1932)
+The Senate refuses the funds required to restore the campaign. The imperial army retreats, dismantling the railway behind it to save its steel. The symbol of continuous expansion becomes a material confession of defeat. Kaiulani's negotiations with Persia and frontier leaders cannot conceal the immense failure of the system.
 
-**[RETAINED, modified]** Kaiulani, nearly blind and extremely old, sees Julian's political imagery through an early television apparatus and recognizes the reuse of Elias's physical likeness. Restoration guards arrive in Hawaii, brutalize people near her, burn her dwelling and arrest her. She is confined in an abandoned quarantine establishment.
+## 32. Siberia, the gas massacre and Kaiulani's renunciation (1920–1921)
 
-**[OPEN]** Her eventual fate is not established by the current ending. Given the approved family story, it requires a deliberate resolution or deliberately maintained uncertainty—not an accidental disappearance.
+Revolts spread through Siberia and Southeast Asia. Vance III uses extreme violence and automated technologies in attempts to restore order, including a gas attack that kills imperial personnel along with prisoners and insurgents. Official reports conceal losses and recalculate failure as statistical success.
 
-Julian discovers that mimicking Elias's voice and frontier theatrics cannot restore extinct frontiers, exhausted mines, compliant allies or reliable institutions. His projected new expansion into South America runs into military, financial and geographical impossibilities. The empire's remaining factions revolt, and his brief regime disintegrates.
+Kaiulani confronts her grandson and repudiates the role through which she helped govern the state. Officials such as Chancellor Shen are now victims of institutions they once controlled. The Chronicler's journeys increasingly reveal lives that the central state counts without comprehending.
 
-## 37. The Chronicler, Keawe, Dao and the end of Pacifica (c. 1932)
+---
 
-**[RETAINED]** The Chronicler attempts to finish and preserve the historical account while revolution spreads through Thalassia. The monarchy, Restoration authorities and rebellious workers struggle over the last surviving military and administrative assets. Keawe intervenes to protect the archive from indiscriminate destruction. With the assistance of Dao, the Chronicler carries the manuscript away in watertight copper cylinders as fires consume the capital.
+# PART VII — Workers, Julian and the end of the historical order (1921–c. 1932)
 
-The fugitives cross dangerous water and escape toward Kauaʻi. The Chronicler eventually writes from a remote cave overlooking a community attempting a materially simpler life amid the empire's ruins. Instruments, the founder's memory, the fate of Hawaii and the very existence of the chronicle take on retrospective significance.
+## 33. Steel, smoke and the underground resistance (1920s)
 
-**[APPROVED revision direction]** The historical argument at the end should arise from the events and other voices as well as from the Chronicler's explicit reflections. His perspective is not guaranteed to be definitive. The final image and sentence from the first draft may be retained, but its inevitability should not be assumed merely because it closes the original `beats.json`.
+Automation enables an immense output of iron, ships, weapons and paperwork while reducing human laborers to dispensable ciphers. The Hawaiian islands are devastated by bauxite works, polluted rivers and relentless military construction. In exile Kaiulani hears her childhood landscape being destroyed by machinery associated with her dead husband.
+
+Keawe, a stoker and organizer, brings together workers, dispossessed islanders, dissenting soldiers and skilled mechanics. He approaches Kaiulani for support but retains ambitions and principles of his own. The court's image of universal harmony is now contradicted by groups who can imagine a future without its industrial hierarchies.
+
+Julian develops a competing opposition that draws on the myth of the early Californian republic. The ways his childhood and his relationship with Kaiulani lead to this alternative politics remain **[OPEN]**; his eventual program does not emerge inevitably from birth or resentment alone.
+
+## 34. The jubilees, secret defections and the fall of Vance III (c. 1930–1931)
+
+The imperial court stages spectacular celebrations while the economic and military system becomes incapable of maintaining stable life in the provinces. Under San Francisco and in major ports, groups of workers and soldiers prepare sabotage. A raid against a revolutionary underground network reveals imperial officers among the conspirators.
+
+Vance III responds with mounting cruelty, panic and distrust. Trained personnel disable ships, troops refuse orders and the officer corps begins to dissolve. The third Vance is killed by guards he believed personally loyal. An elite trained to execute procedures has lost the common purpose that once made those procedures effective.
+
+## 35. The Restoration of Julian Thorne (1931)
+
+Julian, Elias's biological son by a younger Hawaiian-American woman and Kaiulani's adopted son, claims to restore his father's spirit. Born c. 1886–1887, he is approximately forty-four or forty-five. He has spent a life confronting the legend of the founder, his own ambiguous place in the dynasty and the authority of the woman who raised him.
+
+He rises through a movement of frontier nostalgia, anti-bureaucratic anger and populist resentment. His appearance, speech and imagery echo Elias, but he is a different man operating in a very different social world. Any racial nationalism in his appeal must be psychologically and politically coherent with his Hawaiian-American ancestry; it cannot be an unnoticed inconsistency. Julian overthrows the reigning Kalanimoku and names himself Lord-Restorer.
+
+His relationship with Kaiulani now becomes a public struggle over who has the right to interpret Elias's life and what the founding republic meant. Their private bond remains capable of pain and love even when they become political enemies.
+
+## 36. The Restorer's final expansion and Kaiulani's captivity (1931–1932)
+
+Julian's followers attempt to impose the habits and imagery of the old frontier upon a world whose industrial and financial foundations are already broken. Their projected expansion into South America fails amid hunger, disease, resistance and the absence of functioning supply.
+
+In Hawaii Kaiulani sees his televised image, recognizes the imitation of Elias and recoils from the violence carried out in the name of restoration. Julian's supporters arrest her, burn her dwelling and confine her in an abandoned quarantine station. Her eventual fate remains **[OPEN]**, and its resolution must give the history of their relationship its proper weight.
+
+Julian discovers that the territories and fortunes his father gained cannot simply be won again. The institutions of Pacifica cease functioning under the combined force of revolt, exhausted supplies and ideological division. His brief order disintegrates.
+
+## 37. The Chronicler, Keawe and the last archive (c. 1932)
+
+As Thalassia burns, the Chronicler attempts to preserve the history of the empire. Keawe and surviving revolutionaries distinguish the destruction of oppressive institutions from the destruction of human memory. Dao helps carry the manuscript in sealed copper cylinders through flooded passages and across dangerous water.
+
+They escape to Kauaʻi, where a small community attempts to cultivate land outside the collapsed administrative system. The Chronicler writes from a remote refuge. The final account draws on personal memory, official archives and testimonies that do not always agree. His interpretation of Elias's achievement and its ruin is powerful but not identical with the lived experience of every character he records.
+
+The history closes with the Pacific once again an open expanse of water rather than the unquestioned property of an empire.
 
 ---
 
