@@ -1,0 +1,21 @@
+name: Pacifica — validate revision canon
+
+on:
+  pull_request:
+    paths:
+      - "book-agent/revision/change_requests.json"
+      - "book-agent/revision/master_storyline.md"
+      - "book-agent/revision/sync_master_storyline.py"
+      - ".github/workflows/pacifica-storyline-*.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-canonical-storyline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify ledger and narrative references
+        run: python3 book-agent/revision/sync_master_storyline.py --check
