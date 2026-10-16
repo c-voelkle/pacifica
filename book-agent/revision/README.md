@@ -1,56 +1,28 @@
-# Pacifica — approved revision framework
+# Pacifica — Revision workspace
 
-## One document containing the full working story
+## Read the story
 
-**Read [master_storyline.md](master_storyline.md) first.** It is the single chronological review narrative covering Elias's childhood, the independent Californian republic, the Hawaiian marriage and family tragedy, the Japanese alliance, the American wars, the empire's expansion, successive generations, Julian's restoration and the final collapse. It labels approved canon, retained first-draft material, proposals and unresolved questions.
+**[Master Storyline](master_storyline.md)** is the single continuous, chronological account of the second-draft plot, from Elias's Kentucky childhood (born c.1824) to the fall of Pacifica around 1932. It integrates author-approved character, family, constitutional and geopolitical decisions directly into the narrative, without describing what used to happen in the first draft. Unsettled decisions are labeled **[OPEN]**.
 
-The master storyline is the narrative reading copy; `change_requests.json` is the structured approval record.
+Additional reference documents:
+- [change_requests.json](change_requests.json) — the authoritative machine-readable record of approved authorial decisions and remaining questions.
+- [historical_background.md](historical_background.md) — real dates, source links, legal/geopolitical context and precisely identified historical divergences. Kept separate to avoid turning the storyline into a research memo.
+- [approved_change_index.md](approved_change_index.md) — automatically generated administrative index of all approved CRs and provisional chronology, **not part of the story**.
 
-### How future approvals are synchronized
+## Procedure for any newly approved storyline change
 
-1. When the author explicitly approves a new or modified plot request, record it in `change_requests.json` and update the relevant **authored chronological prose** in `master_storyline.md` in the same revision.
-2. Run `python book-agent/revision/sync_master_storyline.py --write` from the repository root. This rebuilds the automatically managed approved-change index and timeline in the master storyline.
-3. Run `python book-agent/revision/sync_master_storyline.py --check`. It fails if the index is stale or a newly approved CR ID is missing from the authored narrative.
-4. Push on a revision branch. The `pacifica-storyline-sync.yml` GitHub Action also refreshes and commits the generated index following a change-register push. `pacifica-storyline-check.yml` checks synchronization on pull requests. Keep the pull request in review if an approved change has not been integrated in the narrative.
-5. After approval, merge the reviewed change set. Do **not** modify `manuscript_chaptered.md`, original `beats.json`, or the production writing scripts until the author authorizes a rewrite.
+1. **Amend the actual plot** in the relevant sections of `master_storyline.md`. Carry consequences forward through subsequent generations, institutions and events. Use positive, affirmative narrative statements—not instructions to undo older versions. Mark unchosen facts **[OPEN]**.
+2. Record the author-approved decision in `change_requests.json` (maintain stable CR identifiers and precise approval statuses). Distinguish author-approved choices from editorial options, research findings and proposals.
+3. Refresh the separate administrative index with `python3 book-agent/revision/sync_master_storyline.py --write`. The GitHub sync workflow also performs this on a change-register push.
+4. Run `python3 book-agent/revision/sync_master_storyline.py --check`. This checks the index and that approved CRs have an editorial coverage reference in the synopsis. PR checks run it too.
+5. Review the actual narrative implications before merging the change into the authoritative revision. An automated index **cannot** author or judge literary prose, and neither a CR identifier nor a passing CI test proves substantive narrative reconciliation.
 
-**Scope of automation:** GitHub can regenerate the approved-change index from structured data and check for missing CR IDs. It cannot reliably invent or reconcile complex literary prose from an informal approval. An explicit approval given only in a chat must still be entered into the repository (by the assistant when working on the repository, or manually). The full narrative prose must be revised editorially, not assumed current just because its generated appendix is current. The workflows also depend on GitHub Actions being enabled and permitted to push in this repository.
+## Authority and scope
 
+An explicit author approval changes the planned canon even if the first-draft manuscript or original `beats.json` still says otherwise. Authorial approvals and the master storyline govern planning; the earlier draft is evidence of material to preserve or transform, not a competing source of canon.
 
-Recorded 16 October 2026. This file is planning documentation, not revised novel prose.
+Do not revise `manuscript_chaptered.md`, `beats.json`, `bible.md`, or the production writing scripts until the author authorizes manuscript reconstruction. Keep canon changes on the revision branch and under review.
 
-## Author-approved direction
-- **Chronology:** Primarily chronological with selective retrospection.
-- **Form:** Hybrid historical chronicle and independent character POV scenes.
-- **Length:** No preset length; scene space follows artistic necessity.
-- **Workflow:** Collect and assess authorial storyline changes before structural reconstruction.
+## Unavailable temporary working document
 
-The structured source of truth for these approvals is [change_requests.json](change_requests.json). It records CR-001 through CR-008, provisional chronology, affected sources, and explicit guardrails.
-
-## Family thread — approved direction
-Elias Thorne and Kaiulani marry with genuine affection and political interests. Their legitimate son dies in an accident, and Kaiulani is afterward unable to have children. Their marriage deteriorates without simply dissolving: shared government, ambition, attachment and political necessity keep them together. Elias has affairs and children outside the marriage. During his final years, a much younger Hawaiian-American woman (possibly his caretaker) becomes the mother of Julian Thorne. After Elias's death in 1887, she dies in uncertain circumstances. Kaiulani adopts Julian and raises him as her son. Julian has independent choices and later becomes the Restorer.
-
-**Important:** This approves the dramatic relationships, not a final medical explanation, named victim of the childhood tragedy, specific calendar year for each event, or a definitive solution to the succession genealogy. Kaiulani's responsibility for the younger woman's death is **not settled**. The exact dynastic lineage of Kalanimoku remains open. If Julian is born c.1886–87, he is c.44–45 in 1931, replacing the draft's stated age 32.
-
-## Hawaiian political crisis — approved direction
-The monarchy does **not** suddenly deny its son-in-law existing naval access. Instead, the cooperative alliance develops toward increasing military, financial and administrative dependence. Elias eventually imposes control, provoking royalist resistance and a bloody suppression the Hawaiian king and Kaiulani cannot stop. He does not threaten Kaiulani with a massacre of hostages to secure her obedience. Kaiulani stays for complex political and personal reasons, including ambitions of her own.
-
-## Californian sovereignty — approved direction
-Replace the draft's secret-gold/corporate-coup/1852-secession scenario with an independent republic established around 1845–46, before U.S. statehood. The coalition and 1846 U.S. naval threat must be dramatized plausibly. The 1848 gold discovery is public and regulated under a sovereign mineral framework. Britain's possible recognition and support are not to be treated as a guaranteed military shield.
-
-## Editorial safeguards
-- Kaiulani remains a major strategist and political agent in her own right.
-- The legitimate son must be a character, not merely a casualty invented to manipulate the plot.
-- Infertility and jealousy do not fully account for the marriage's deterioration.
-- Julian's mother has an autonomous life, status and choices.
-- Preserve the ambiguity around her death unless the author later resolves it.
-- Julian's eventual ideology and actions are contingent, not inevitable.
-- Elias's greatness must be earned through observed learning, organization, alliances, failure, and formidable adversaries.
-- None of the recorded approvals authorize a rewrite of `manuscript_chaptered.md` or a change to existing `beats.json` yet.
-
-## Next planning work
-1. Continue collection of remaining storyline changes.
-2. Produce a canonical identity/genealogy decision register and event-level timeline with source references.
-3. Reconcile each approved change with manuscript passages and original beats.
-4. Propose a new sequence and scene architecture for author approval.
-5. Only then pilot prose changes on a separate revision branch.
+The author referred to `rise_to_power.md` on 16 October 2026. It was **not present on accessible GitHub branches** when the update was made. The detailed proposals provided in the chat were incorporated directly, and supporting historical anchors were checked against published sources. If that file is later committed, compare its contents with the master storyline and historical background; merge only genuinely new material and preserve established author approvals.
