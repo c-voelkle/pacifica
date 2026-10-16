@@ -48,6 +48,32 @@ def check() -> list[str]:
             + ", ".join(sorted(set(declared) - id_set))
         )
 
+    # The prose bible is the authored source; registry copies of the profiles
+    # must be refreshed whenever a character's narrative dossier is revised.
+    starts = []
+    for match in re.finditer(
+        r"^### (CT-[A-Z0-9-]+) — [^\n]+$|^\*\*(CT-[A-Z0-9-]+) — [^\n]+?\*\*",
+        bible, re.M,
+    ):
+        starts.append((match.start(), match.group(1) or match.group(2),
+                       "dossier" if match.group(1) else "short_profile"))
+    breaks = sorted(m.start() for m in re.finditer(
+        r"^## |^### |^\*\*CT-[A-Z0-9-]+ — ", bible, re.M
+    ))
+    expected_profiles = {}
+    for pos, cid, kind in starts:
+        after = next((q for q in breaks if q > pos), len(bible))
+        chunk = bible[pos:after].strip()
+        if kind == "dossier":
+            chunk = chunk.split("\n", 1)[1].strip()
+        else:
+            chunk = re.sub(r"^\*\*CT-[A-Z0-9-]+ — [^\n]+?\*\*\s*", "", chunk)
+        expected_profiles[cid] = chunk
+    for person in entries:
+        expected_profile = expected_profiles.get(person["id"])
+        if expected_profile is not None and person.get("narrative_profile") != expected_profile:
+            errors.append(f"Registry profile out of sync with character bible: {person['id']}")
+
     for person in entries:
         for link in person.get("links", []):
             if link["to"] not in id_set:
