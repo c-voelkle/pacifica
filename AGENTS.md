@@ -1,21 +1,28 @@
-# Pacifica repository — instructions for AI collaborators
+# Pacifica — instructions for AI collaborators
 
-This repository contains an author-directed historical novel and generation tools. The author controls canon.
+## Canonical read order
 
-## Canon authority and reading order
-1. `book-agent/revision/master_storyline.md` — **single human-readable, chronological working synopsis**, including approved changes, retained first-draft events, editorial proposals and unresolved decisions.
-2. `book-agent/revision/change_requests.json` — **structured authority for approved authorial changes**, approval status and outstanding decisions.
-3. `book-agent/manuscript_chaptered.md` — primary first-draft text, currently **not yet revised**. It can contradict approved canon.
-4. `book-agent/beats.json`, `bible.md`, `character_bible.json`, `concept.txt` — historical first-pass sources, **not automatically authoritative where superseded**.
+1. `book-agent/revision/master_storyline.md` — **single continuous story synopsis**, with all currently approved narrative changes already embodied, and **[OPEN]** markers for unresolved decisions. Its prose must read as what happens, not as an edit memo.
+2. `book-agent/revision/change_requests.json` — source of truth for explicit authorial approvals and remaining decisions.
+3. `book-agent/revision/historical_background.md` — factual context, dated historical anchors, divergences, historical/legal uncertainties and source URLs.
+4. `book-agent/revision/approved_change_index.md` — **generated** change-list and chronology, not story prose.
+5. `book-agent/manuscript_chaptered.md`, `book-agent/beats.json`, `book-agent/character_bible.json`, `book-agent/bible.md`, `book-agent/concept.txt` — first-draft sources, potentially superseded by approved canon.
 
-## Mandatory behavior when the author approves a new storyline change
-- Record a new, stable `CR-###` in `change_requests.json`, or amend the approved request explicitly.
-- Edit the affected **authored narrative** sections of `master_storyline.md` in the same change, including cascading effects across later eras and characters. Mark any unresolved decisions `[OPEN]` instead of inventing them.
-- Run `python3 book-agent/revision/sync_master_storyline.py --write` and then `--check` to refresh the generated approved-change ledger and verify coverage.
-- Changes that add/modify approvals must not be presented as fully integrated if the synopsis remains contradictory. GitHub Actions may sync the *ledger* automatically; it cannot write coherent new prose on its own.
-- Preserve `main` and the old manuscript until the author specifically authorizes a rewrite. Make plans and canon updates on a dedicated revision branch and submit for review.
-- Protect the narrator's hybrid chronicler/multiple-POV design and the author's chronology preference. Do not settle genealogical or historical ambiguities without authorization.
-- When responding with the storyline, link to `master_storyline.md`, never merely the register or README.
+## Mandatory on author approval
 
-## Approval vs proposal
-Statements by the author expressly approving content become approved direction. Editorial suggestions, inferred motivations, historical connective material and unresolved dates are proposals until accepted. The manuscript is evidence of the **old draft**, not proof of new canon.
+- Revise the **actual narrative prose** in `master_storyline.md`, including knock-on effects across later sections, **before** calling it integrated. Never merely write a new entry saying the old material will be changed. Don't fill unresolved decisions with unsupported inventions.
+- Update the structured CR or add a stable new CR ID in `change_requests.json`.
+- If adding a CR, add its stable ID in a hidden coverage comment in the synopsis adjacent to the relevant plot section; the checker confirms IDs, not literary quality.
+- Keep historical research, bibliographies and reasons for proposed divergences in `historical_background.md`, not explanatory comparisons in the storyline.
+- Run `python3 book-agent/revision/sync_master_storyline.py --write`, then `--check`; commit all three related files when applicable. The push-triggered workflow updates the generated `approved_change_index.md`. The PR workflow rejects stale administrative synchronization.
+- Never claim that generated index synchronization guarantees literary integration. It does not. Review the narrative in light of the author’s approval.
+- Preserve `main`, old manuscripts, original beat and character sources until the author authorizes an actual prose revision; use review branches and PRs.
+- Do not mistake an editorial proposal, assistant suggestion or historical illustration for author-approved canon.
+
+When presenting the story, link only to `master_storyline.md`. For source claims use the historical background document.
+
+## Latest authorial decisions
+
+Elias born c.1824; French Napoleonic engineering mentor preferred; 1840 Council House witness, 1841–42 Santa Fe captivity with Caleb; California independent in spring 1846 (not part of USA), public 1848 gold and 1852 treasury office rather than the presidency; Hawaii friendship with Lot and political alliance with Alexander, marriage to fictional Kaiulani (born 1838) in Honolulu 1857; Japan exchange and diplomacy 1849–1860; Hawaiian incorporation and massacre during succession crisis around 1874; later family tragedy and Julian's adoption; narrative largely chronological in a hybrid Chronicler/multi-POV form.
+
+The uncommitted `rise_to_power.md` mentioned in chat was not accessible. Review it when supplied before claiming complete document-level reconciliation.
