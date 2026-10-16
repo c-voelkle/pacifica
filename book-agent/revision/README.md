@@ -1,5 +1,22 @@
 # Pacifica — approved revision framework
 
+## One document containing the full working story
+
+**Read [master_storyline.md](master_storyline.md) first.** It is the single chronological review narrative covering Elias's childhood, the independent Californian republic, the Hawaiian marriage and family tragedy, the Japanese alliance, the American wars, the empire's expansion, successive generations, Julian's restoration and the final collapse. It labels approved canon, retained first-draft material, proposals and unresolved questions.
+
+The master storyline is the narrative reading copy; `change_requests.json` is the structured approval record.
+
+### How future approvals are synchronized
+
+1. When the author explicitly approves a new or modified plot request, record it in `change_requests.json` and update the relevant **authored chronological prose** in `master_storyline.md` in the same revision.
+2. Run `python book-agent/revision/sync_master_storyline.py --write` from the repository root. This rebuilds the automatically managed approved-change index and timeline in the master storyline.
+3. Run `python book-agent/revision/sync_master_storyline.py --check`. It fails if the index is stale or a newly approved CR ID is missing from the authored narrative.
+4. Push on a revision branch. The `pacifica-storyline-sync.yml` GitHub Action also refreshes and commits the generated index following a change-register push. `pacifica-storyline-check.yml` checks synchronization on pull requests. Keep the pull request in review if an approved change has not been integrated in the narrative.
+5. After approval, merge the reviewed change set. Do **not** modify `manuscript_chaptered.md`, original `beats.json`, or the production writing scripts until the author authorizes a rewrite.
+
+**Scope of automation:** GitHub can regenerate the approved-change index from structured data and check for missing CR IDs. It cannot reliably invent or reconcile complex literary prose from an informal approval. An explicit approval given only in a chat must still be entered into the repository (by the assistant when working on the repository, or manually). The full narrative prose must be revised editorially, not assumed current just because its generated appendix is current. The workflows also depend on GitHub Actions being enabled and permitted to push in this repository.
+
+
 Recorded 16 October 2026. This file is planning documentation, not revised novel prose.
 
 ## Author-approved direction
