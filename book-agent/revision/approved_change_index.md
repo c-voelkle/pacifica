@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 20 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 21 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -473,6 +473,23 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - R9-07: Tongue votes are expressly uncapped; each certified Crown-listed language beyond English adds one vote, alongside one to three ordinary votes.
 - R9-08: Prince Chichibu is the Emperor’s resident representative at Thalassia. His education, honors and outdoorsman reputation develop in Pacifica instead of Britain/Europe, showing Japan’s turn toward the realm. The narrative gives him Carquinez study in 1925–1926 and Sierra/Hawaiian field life; particular decorations/climbs remain unprovided.
 - R9-09: Noe’s death remains ambiguous: official autumn 1888 typhoid certificate and poisoning testimony retained, no culprit established. Her agency, health work and hānai bargain remain.
+
+### CR-022 — Japan's 1927 rescue: conserved cash, banking reconstruction and foreign-settlement credit
+
+**Register status:** `approved_integrated_issue_1`
+
+- Preserve Japan's prosperity, accumulated fiscal cash and independent domestic institutions. Add complete annual Treasury cash/debt identities; count bank equity and stabilization on-loans as assets.
+- Make the crisis a severe bank-loss, deposit-run and foreign-settlement emergency. Japan supplies bank capital, BOJ supplies secured yen liquidity, and San Francisco supplies foreign currency.
+- Test the monthly FX gap after official, bank and other usable private foreign assets. Distinguish a true zero-reserve payment deficit from a six-week import-buffer target. Do not count yen Treasury deposits again as FX.
+- Conserve the Concord storyline: friendship, Takahashi's moratorium, coequal crowns, distinct credit appropriation and rejected treaty, illegal 1927 provisional application, 1928 indemnity, 1932 renewal.
+- Use an explicit fixed facility ceiling, actual drawings and public/private shares, with matching Japanese on-loans, lender claims, coupons and 1929-1933 principal. Private subscriptions reroute the existing foreign-investment envelope.
+- Record bullion calls and remaining callable SF settlement balances separately. Preserve unrelated financial assumptions and the remaining nine audit issues.
+- Treat all new bank stocks, loss/run rates, FX reserves, maturity/refinancing assumptions and facility amounts as MODEL. Show sensitivity, including cases where foreign support is unnecessary.
+
+**Still open:**
+- Named bank and trading-house exposures and correspondence scenes remain to be developed.
+- MODEL stocks and run assumptions need historical-comparator and engineering-style calibration; successful identities do not establish their factual truth.
+- Issue 2 and the remaining eight review areas are outside this revision.
 
 ### Author-approved editorial safeguards
 

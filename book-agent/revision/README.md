@@ -43,3 +43,8 @@ The Concord’s annual Council is always at Hayama: Hirohito hosts, Julian conve
 
 
 Tongue votes are expressly uncapped. Noe’s death remains ambiguous. Foreign Affairs and Finance normally remain Pacifican; the law requires at least one Japanese common minister, conventionally Navy. The crowns agree the renewal at Hayama and ministers sign/exchange instruments at Thalassia. The updated source export and complete revision-9 package are in outputs/CR-021-revision9.
+
+
+## CR-022 — Japan's 1927 rescue
+
+The master storyline and working financial workbook incorporate the author's issue-1 correction: retained Japanese fiscal cash, domestic bank reconstruction and a separately tested foreign-settlement backstop. [CR-022](CR-022.md) records the mechanism, MODEL assumptions, financing and sensitivity limits; [verification](../../outputs/japan-rescue-1927-20261020/verification.json) records the targeted tests. The other nine review issues remain open. The original supplied workbook remains recoverable at the PR-1 merge commit, and the source Ledger attachment remains unchanged.

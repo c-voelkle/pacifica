@@ -1,9 +1,9 @@
 {
   "project": "Pacifica",
-  "version": "authorial-change-register-v11",
+  "version": "authorial-change-register-v12",
   "approved_on": "2026-10-20",
   "base_manuscript": "book-agent/manuscript_chaptered.md",
-  "authority": "CR-021 revision 9 incorporates the direct author’s 20 October decisions approving the recommended continuity corrections, uncapped tongue votes, Chichibu’s resident role and Pacifican education/honors/outdoorsman arc, with Noe’s death deliberately ambiguous. Earlier source attachments remain preserved; unrelated earlier open questions and MODEL limits remain.",
+  "authority": "CR-021 revision 9 incorporates the direct author’s 20 October decisions approving the recommended continuity corrections, uncapped tongue votes, Chichibu’s resident role and Pacifican education/honors/outdoorsman arc, with Noe’s death deliberately ambiguous. Earlier source attachments remain preserved; unrelated earlier open questions and MODEL limits remain. CR-022 applies the user's subsequent authorized Japan-rescue correction to the narrative and working financial model. Numerical scenario quantities remain MODEL.",
   "architecture": {
     "chronology": "Primarily chronological, with selective retrospection",
     "form": "Hybrid chronicle and independent character POV scenes",
@@ -1818,6 +1818,63 @@
             "status": "approved"
           }
         ]
+      }
+    },
+    {
+      "id": "CR-022",
+      "title": "Japan's 1927 rescue: conserved cash, banking reconstruction and foreign-settlement credit",
+      "status": "approved_integrated_issue_1",
+      "approved_on": "2026-10-20",
+      "integrated_on": "2026-10-20",
+      "decision_record": "CR-022.md",
+      "authorization": "User: 'Go ahead and update the storyline and financial model with this fix. It's important that the crisis is believably severe enough to justify such a drastic emergency measure. Test Japan’s foreign-currency gap and reconcile the rescue funding, then show me the results before we move to the second issue.'",
+      "requirements": [
+        "Preserve Japan's prosperity, accumulated fiscal cash and independent domestic institutions. Add complete annual Treasury cash/debt identities; count bank equity and stabilization on-loans as assets.",
+        "Make the crisis a severe bank-loss, deposit-run and foreign-settlement emergency. Japan supplies bank capital, BOJ supplies secured yen liquidity, and San Francisco supplies foreign currency.",
+        "Test the monthly FX gap after official, bank and other usable private foreign assets. Distinguish a true zero-reserve payment deficit from a six-week import-buffer target. Do not count yen Treasury deposits again as FX.",
+        "Conserve the Concord storyline: friendship, Takahashi's moratorium, coequal crowns, distinct credit appropriation and rejected treaty, illegal 1927 provisional application, 1928 indemnity, 1932 renewal.",
+        "Use an explicit fixed facility ceiling, actual drawings and public/private shares, with matching Japanese on-loans, lender claims, coupons and 1929-1933 principal. Private subscriptions reroute the existing foreign-investment envelope.",
+        "Record bullion calls and remaining callable SF settlement balances separately. Preserve unrelated financial assumptions and the remaining nine audit issues.",
+        "Treat all new bank stocks, loss/run rates, FX reserves, maturity/refinancing assumptions and facility amounts as MODEL. Show sensitivity, including cases where foreign support is unnecessary."
+      ],
+      "open": [
+        "Named bank and trading-house exposures and correspondence scenes remain to be developed.",
+        "MODEL stocks and run assumptions need historical-comparator and engineering-style calibration; successful identities do not establish their factual truth.",
+        "Issue 2 and the remaining eight review areas are outside this revision."
+      ],
+      "model_results": {
+        "story": {
+          "cash1926": 2353.448521879944,
+          "cash1927": 2391.5581364033787,
+          "bankCapital": 400.0,
+          "oldCapitalAfterLoss": 0,
+          "bankCapitalRatio": 0.08,
+          "bankBalanceDifference": 0,
+          "depositWithdrawals": 1295.0,
+          "BoJDraw": 295.0,
+          "physicalFXGap": 121.85275405404695,
+          "bufferFXGap": 496.85275405404695,
+          "syndicateDraw": 496.85275405404695,
+          "publicDraw": 165.6175846846823,
+          "privateDraw": 331.23516936936466,
+          "fundedCapacity": 600,
+          "headroom": 103.14724594595305,
+          "remainingFXGap": 0.0,
+          "bankCapitalGap": 0.0,
+          "yenGap": 0.0,
+          "bullionOutflow": 248.42637702702348,
+          "callableSF": 248.42637702702348,
+          "bankOperatingSurplus": 54.26555747409934,
+          "BoJOutstanding1928": 0.0,
+          "loanBalance1932": 99.37055081080939,
+          "loanBalance1933": 0.0,
+          "goldHeadroom1932": 529.0239941429165,
+          "GDP1929": 50548.240957340335,
+          "GDP1932": 39305.56253422824,
+          "allEvaluatedCells": 54285
+        },
+        "stress_funding_shortfall_m": 1774.2097903137321,
+        "test_record": "../../outputs/japan-rescue-1927-20261020/verification.json"
       }
     }
   ],

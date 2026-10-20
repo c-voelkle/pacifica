@@ -279,3 +279,12 @@ The latest model comparisons use Union per-person output, distinct from the hist
 ## Chichibu’s Pacifican career under the direct author decision
 
 His 1925–1926 education is placed at Carquinez, and his field life in the Sierra and Hawaiian uplands. Pacifican Crown honors, press and newsreels give him a public reputation in that realm. These are approved alternate-history directions and narrative implementation, not claims about his actual historical career. Specific decorations and named climbs are not supplied or invented. The resident prince remains a Japanese representative, not a common minister, hostage or independent commander. Noe’s ambiguous death is expressly preserved.
+
+
+## CR-022 — Japan's 1927 rescue: history, divergence and numerical scope
+
+The Bank of Japan's Masato Shizume, *The Japanese Economy during the Interwar Period* (2009), pp. 2-4, describes unresolved postwar and earthquake-related bad loans, the 22 April-12 May moratorium, guaranteed emergency lending and bank amalgamation. It reports specie and foreign reserves of 7.3% of GNP at end-1928 and distinguishes the 1927 banking crisis from Japan's return to gold in January 1930. Source: https://www.boj.or.jp/en/research/wps_rev/rev_2009/data/rev09e02.pdf .
+
+CR-022 borrows those mechanisms, not the colonial Bank of Taiwan episode or unaltered historical institutional geography. The affected trade/industrial banks are left unnamed pending development. It adds an alternate international funding stop and San Francisco stabilization syndicate. Japan's yen Treasury balances, official FX, bank FX and other liquid private FX are distinct. The six-week import buffer is a scenario operating target, not a historical 40% Japanese gold-cover rule.
+
+All bank balance sheets, losses, run rates, maturity schedules, trade payments, reserve stocks, haircuts and financing quantities are MODEL assumptions. The opening official FX stock of $1.5bn is about 7.8% of the model's 1926 Japanese GDP, compared with the historical reserve ratio above; that comparator is calibration context, not evidence of this fictional stock. The scenario's need disappears under milder refinancing or no capital flight. Its severity must therefore be established in scenes of connected losses, foreign correspondence and bank examinations. The other nine audit issues remain separate.
