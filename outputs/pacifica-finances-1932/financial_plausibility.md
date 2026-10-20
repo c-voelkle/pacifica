@@ -1,3 +1,5 @@
+> **Superseded financial comparison — 20 October 2026.** The author-supplied [current workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx) and [Pacifica Ledger](../../finance/Pacifica-Ledger.md) replace earlier financial models. The dated analysis below is retained for provenance; it is not the current planning state.
+
 # CR-018 / CR-019 financial assessment through 1932
 
 Updated 18 October 2026. These are alternate-history planning scenarios in period gold-dollar equivalents, not newly approved numerical canon. CR-018 and CR-019 determine the events and political endpoint; this assessment tests the resources required to reach it.

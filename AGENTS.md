@@ -51,3 +51,7 @@ Dawes remains incumbent during the 1931–32 rescue and negotiations. Young camp
 Keawe’s environmental arc leads from Living Bay to the 1928 plan and 1932 Lands and Waters Charter. The Gulf remains outside membership; all five general measures and two parity tests must hold for twenty-five years. Numerical and financial results remain MODEL estimates, with unresolved feasibility questions retained.
 
 The character registry contains 120 stable identities, including five retired records, with all 250 original profiles preserved through the legacy crosswalk. Read the current character documentation before resolving any identity collision.
+
+## Current financial planning files
+
+The author supplied and explicitly authorized publication of `finance/Pacifica_financial_model_1846-1932.xlsx` and `finance/Pacifica-Ledger.md` on 20 October 2026, superseding earlier financial models. Use this pair for current financial planning. Preserve supplied files verbatim. Older assessments under `outputs/pacifica-finances-*` are dated comparisons, not the current model. The ledger reports CR-021 revision 8; the narrative remains at revision 9. Do not revert narrative decisions or claim that publication constitutes independent recalculation. Financial results remain MODEL estimates.

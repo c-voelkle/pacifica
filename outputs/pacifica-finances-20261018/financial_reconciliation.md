@@ -1,3 +1,5 @@
+> **Superseded financial comparison — 20 October 2026.** The author-supplied [current workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx) and [Pacifica Ledger](../../finance/Pacifica-Ledger.md) replace earlier financial models. The dated analysis below is retained for provenance; it is not the current planning state.
+
 # Pacifica financial effects of CR-015 and CR-016
 
 **Updated:** 18 October 2026. **Status:** Reconciled financial scenarios; historical and operational feasibility remains conditional.

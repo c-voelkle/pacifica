@@ -1,8 +1,8 @@
 # Pacifica — Military, financial, demographic and industrial feasibility audit
 
-**Status:** CR-020’s named replacement model governs the current working reference; its numbers and reported checks remain MODEL estimates. **Updated:** 20 October 2026. The replacement workbook was not supplied in this merge. The earlier [CR-018/CR-019 assessment](../../outputs/pacifica-finances-1932/financial_plausibility.md) is retained as a dated comparison, including bank-capital and transport tests absent from the replacement.
+**Status:** The author-supplied [current workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx) and [Pacifica Ledger](../../finance/Pacifica-Ledger.md) supersede earlier financial models. **Updated:** 20 October 2026. Both files are published verbatim with explicit author authorization; their numbers and reported checks remain MODEL estimates. The ledger describes CR-020 and CR-021 revision 8, while narrative authority remains CR-021 revision 9; see [reference notes](../../finance/README.md). The earlier [CR-018/CR-019 assessment](../../outputs/pacifica-finances-1932/financial_plausibility.md) is retained as a dated comparison, including bank-capital and transport tests absent from the replacement.
 
-**Authority:** [CR-021 revision 9](CR-021.md), then [CR-020](CR-020.md), after [CR-018](CR-018.md) and [CR-019](CR-019.md), with earlier approved period-specific constraints retained. The current named working model is `Pacifica_financial_model_1846-1932.xlsx`. The old national (local workbook; not published) and programme (local workbook; not published) workbooks remain unchanged historical scenarios. Model results do not validate engineering, census, capital-market or bank evidence.
+**Authority:** [CR-021 revision 9](CR-021.md), then [CR-020](CR-020.md), after [CR-018](CR-018.md) and [CR-019](CR-019.md), with earlier approved period-specific constraints retained. The current working model is [Pacifica_financial_model_1846-1932.xlsx](../../finance/Pacifica_financial_model_1846-1932.xlsx), accompanied by the [ledger](../../finance/Pacifica-Ledger.md). The old national (local workbook; not published) and programme (local workbook; not published) workbooks remain unchanged historical scenarios. Model results do not validate engineering, census, capital-market or bank evidence.
 
 The pre-CR-020 working scenario had a $36.96m Union-lender equity gap, peacetime diagnostic breaches and failing adverse cases. Those are results of that dated workbook, rather than claims about a recalculated CR-020 case. CR-020 reports no Story-case flags and a failing Stress case; omission of the old bank-level and transport tests does not resolve their underlying evidence requirements.
 
@@ -139,7 +139,7 @@ A separate lower-income recalculation reduces nonmining productivity by 25% from
 | FIN-18 | Milder Depression, open market, gold recycling, debt moratorium/restructuring and bank support; final source D Stress case reports 36% debt/GDP, 15% interest/receipts and failed gold cover in 1932, plus war bond-pressure failures. Earlier 47%/22% figures are intermediate, not a second current case. |
 | ECO-01 | Partner/trading convergence and demand feedback: order includes Pacifica, Japan, Gulf, Philippine crown and Siberia; China and other trading regions separate. 1929 order/Union 1.18 and 1932 1.77 remain MODEL. Nominal crossing does not reverse approved Union real-output superiority. |
 
-No replacement workbook was edited or certified in this merge. Recover the actual file before independent recalculation; retain the bank-by-bank, railway and shipping questions that its source description says it omits.
+The supplied workbook is now available in finance/ and has been checked for file integrity, without editing or independent recalculation. Earlier findings remain dated comparisons; bank-by-bank, railway and shipping questions require separate evidence before they can be treated as resolved.
 
 
 ## CR-021 institutions, capital security and gold
@@ -157,7 +157,7 @@ No replacement workbook was edited or certified in this merge. Recover the actua
 | GEO-01 | CR-021 revision 9 gives Kamchatka, Okhotsk coast and Nikolayevsk to Siberia from 1921. Recipients settled; detailed survey mapping remains implementation. Korea’s latest status is independent guaranteed state, Philippines Crown dependency. |
 | FIN-20 | Latest reported source: 1929 monetary gold about $2.07bn; stress 1932 gold-cover miss about $13m, 1918 bond-market failure retained. Updated order/Union ratios 1.16 (1929), 1.74 (1932), Pacifica output/person 2.25× Union. These supersede earlier ratios/shortfalls; do not infer unprovided debt, income or population totals. |
 
-The financial workbook remains a named reference, not a recalculated deliverable. Gold via purchase, national reserve deposits, coin withdrawal and cover requirements must remain distinct from tax receipts. Source dates and institutional approvals do not establish tunnel, aviation, cable or naval feasibility.
+The financial workbook and ledger are now published source references; publication does not certify their calculations. Gold via purchase, national reserve deposits, coin withdrawal and cover requirements must remain distinct from tax receipts. Source dates and institutional approvals do not establish tunnel, aviation, cable or naval feasibility.
 
 
 ## Revision-9 scope clarification

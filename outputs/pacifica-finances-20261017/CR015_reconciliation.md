@@ -1,3 +1,5 @@
+> **Superseded financial comparison — 20 October 2026.** The author-supplied [current workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx) and [Pacifica Ledger](../../finance/Pacifica-Ledger.md) replace earlier financial models. The dated analysis below is retained for provenance; it is not the current planning state.
+
 # CR-015 reconciliation status for the financial and population workbooks
 
 **Updated:** 18 October 2026 · **Status:** Superseded for current financial use by the [CR-015 and CR-016 reconciliation](../pacifica-finances-20261018/financial_reconciliation.md), national model to 1905 (local workbook; not published) and programme model to 1900 (local workbook; not published). The earlier workbook files and saved outputs remain unchanged as dated comparisons. Their formula checks establish only the internal calculations of those earlier scenarios. The current model reports policy exceptions and open feasibility decisions instead of assuming every limit passes.
