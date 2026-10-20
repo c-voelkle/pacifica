@@ -1,0 +1,23 @@
+name: Pacifica — validate canonical characters
+
+on:
+  pull_request:
+    paths:
+      - "book-agent/revision/character_bible.md"
+      - "book-agent/revision/character_registry.json"
+      - "book-agent/revision/legacy_character_crosswalk.json"
+      - "book-agent/revision/validate_character_docs.py"
+      - "book-agent/character_bible.json"
+      - ".github/workflows/pacifica-characters-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  character-canon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify all canonical IDs, links and legacy sketches
+        run: python3 book-agent/revision/validate_character_docs.py

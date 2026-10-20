@@ -1,0 +1,31 @@
+{
+  "mainFormulaCount": 60318,
+  "programmeFormulaCount": 39506,
+  "formulaErrors": 0,
+  "missingCachedResults": 0,
+  "independentAnnualComparisons": 3267,
+  "savedResultAndIdentityChecks": 2382,
+  "preservedHistoricalCellChecks": 1035,
+  "activeCaseRestored": true,
+  "inputSensitivityRestored": true,
+  "mainFeatures": {
+    "charts": 1,
+    "chartReferences": [
+      "'Overview'!$M$37:$M$44",
+      "'Overview'!$N$37:$N$44",
+      "'Overview'!$M$37:$M$44",
+      "'Overview'!$O$37:$O$44"
+    ],
+    "externalLinks": 0
+  },
+  "programmeFeatures": {
+    "charts": 0,
+    "chartReferences": [],
+    "externalLinks": 0
+  },
+  "checksTerminal": true,
+  "sha256": {
+    "Pacifica_CR018_CR019_financial_model_1846-1932.xlsx": "f1bbe51e2e6a097da7ede23d2a6721cd55c30abe499147d0e93757dc5ab08719",
+    "Kaiulani_programme_CR018_CR019_1858-1932.xlsx": "025d0408b0c64712a7f608d3329ec7dd368a857a4a06668acf8c1fd9d97513da"
+  }
+}

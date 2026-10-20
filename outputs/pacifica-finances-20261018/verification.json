@@ -1,0 +1,59 @@
+{
+  "savedCacheChecks": 1544,
+  "mainFormulaCount": 23235,
+  "programmeFormulaCount": 22684,
+  "formulaErrors": 0,
+  "sourceWorkbooksUnchanged": true,
+  "baseCaseRestored": true,
+  "baseDiagnostics": {
+    "cashShortfalls": [],
+    "debtCap": [],
+    "interestCap": [
+      [
+        1868,
+        0.15002026642083452
+      ]
+    ],
+    "militaryCap": [
+      [
+        1866,
+        0.04032295398715575
+      ],
+      [
+        1876,
+        0.053999055572129404
+      ]
+    ],
+    "works": [],
+    "housing": [],
+    "saving": []
+  },
+  "downsideDiagnostics": {
+    "cashShortfalls": [],
+    "debtCap": [
+      [
+        1867,
+        0.3127452010565718
+      ]
+    ],
+    "interestCap": [
+      [
+        1868,
+        0.15695978239206854
+      ]
+    ],
+    "militaryCap": [
+      [
+        1866,
+        0.04032295398715575
+      ],
+      [
+        1876,
+        0.054043077066322644
+      ]
+    ],
+    "works": [],
+    "housing": [],
+    "saving": []
+  }
+}

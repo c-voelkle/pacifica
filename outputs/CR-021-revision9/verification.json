@@ -1,0 +1,222 @@
+{
+  "request": "CR-021 revision 9; direct author corrections",
+  "date": "2026-10-20",
+  "passed": true,
+  "checks": [
+    {
+      "check": "sync_master_storyline.py --write",
+      "passed": true,
+      "detail": "Updated approved_change_index.md from the authorial register."
+    },
+    {
+      "check": "sync_master_storyline.py --check",
+      "passed": true,
+      "detail": "Approved-change index synchronized; approved CR IDs referenced in master storyline."
+    },
+    {
+      "check": "validate_character_docs.py ",
+      "passed": true,
+      "detail": "Character documents valid: all canonical IDs, links and 250 legacy profiles agree."
+    },
+    {
+      "check": "Working source and export are revision 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original attachment text retained in register",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Nine direct author decisions recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All seventeen earlier decisions retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Continuity choices no longer unresolved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original attachments and legacy files unchanged",
+      "passed": true,
+      "detail": "4 protected fingerprints"
+    },
+    {
+      "check": "All old character IDs retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Chichibu only new identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All original legacy assignments preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "120 identities, five retired, 250 legacy profiles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Seven updated dossiers recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Noe dossier preserved verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "37 narrative sections retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Noe death chapter unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unaffected narrative chapters unchanged",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 27, 28, 29, 30, 31, 34, 35]"
+    },
+    {
+      "check": "Noe source death evidence preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Uncapped votes expressly in source and storyline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Dawes rescues, Young campaigns and endorses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Siberian sovereignty includes Nikolayevsk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Korea independent with agreed rights",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Dynastic imperial-blood error removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Renewal agreement and instruments distinguished",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Statutory nationality floor and normal portfolios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Julian not given presidential style",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Chichibu selected in source, storyline and registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Pacifican education replaces Oxford route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Honors and outdoorsman arc in Pacifica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Chichibu has agency and political tension",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Brother and court relationships resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No invented decorations or command",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Latest model paragraph preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vance arc remains qualified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "New local document links resolve",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Documentation archive integrity",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "changed_revision_files": [
+    "approved_change_index.md",
+    "change_requests.json",
+    "character_bible.md",
+    "character_registry.json",
+    "CR-015.md",
+    "CR-016.md",
+    "CR-018.md",
+    "CR-019.md",
+    "CR-020.md",
+    "CR-021.md",
+    "historical_background.md",
+    "master_storyline.md",
+    "power_timeline_1865_1900.md",
+    "README.md",
+    "war_base_assumptions.md"
+  ],
+  "new_revision_files": [],
+  "character_identities": 120,
+  "original_legacy_profiles": 250,
+  "updated_dossiers": [
+    "CT-JULIAN",
+    "CT-CHIYO",
+    "CT-KALANIMOKU-HEIR",
+    "CT-DAWES",
+    "CT-OWEN-YOUNG",
+    "CT-HIROHITO",
+    "CT-CHICHIBU"
+  ],
+  "model_status": "No workbook changes or recalculation; existing MODEL paragraph preserved."
+}
