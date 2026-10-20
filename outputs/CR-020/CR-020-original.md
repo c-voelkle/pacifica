@@ -1,0 +1,709 @@
+# CR-020 — Fleet, scale, Gulf admission, the Depression and Keawe
+
+**Status:** Approved: the author decided all open questions on 19 October (section E) and approved sections B1–B15 on 20 October (B4 superseded) · **Raised:** 19 October 2026 · **Covers:** the 18–19 October working session
+**Affects:** master storyline §1 (larger movement), §19, §25, §26, §30, §33, §34, §36, §37, the character trajectories and the list of unresolved decisions; the financial model; CR-019 (OPEN-019-09)
+**Labels:** **APPROVED** = decided by the author in this session · **PROPOSED** = recommended, awaiting decision · **OPEN** = undecided · **MODEL** = a model estimate, which does not become narrative canon
+
+---
+
+## Summary
+
+1. HMS Dreadnought is a non-event for Pacifica. Its turbine capital ships come first, and the 1919 limits give Pacifica + Japan parity with Britain.
+2. A rebuilt financial model replaces Sol's CR-018/CR-019 workbook as the working model.
+3. Pacifica's 1932 dominance is defined in the Victorian British manner. It rests on industry, finance, sea power, standards and institutions. Pacifica alone does not outproduce the Union before the crash, but the whole order does from about 1927, mainly because its partners catch up (B12–B14).
+4. The Gulf Republic's admission becomes an open challenge (B5). Pacifica admits only members that add power without adding risk. It demands parity in the Defense Law examination and in infant mortality, held for a generation, on top of the five canon measures and binding conditions. By 1932 the Gulf meets the five but is far from parity. It ends the novel an ally and protégé, with a clear direction for the next century.
+5. The Depression is rewritten for this timeline: what Pacifica does differently and what it cannot avoid.
+6. Keawe becomes an environmental engineer who secures a clean, beautiful industrial buildout of Thalassia and the islands. The labour strikes and labour charter leave the narrative, and labour registration is dropped from the main story.
+7. A Development Fund (B8) and national champions grown out of the Polytechnic (B9) explain Pacifica's productivity. Pacifica takes the Rockefeller, Carnegie and Morgan roles in the Pacific and the newest industries. By 1929 it produces about twice the US output per person.
+8. Migration answers Pacifica's lead (B10). Skilled workers, their families and workers for new jobs make Pacifica a country of about 25 million in 1929, with Europeans diverted from the Union (B12) and skilled Asians (B13).
+9. A Singapore-style guest-worker programme (B11) fills the champions' remaining jobs: about 950,000 guest workers in 1929, an employer levy worth 8% of receipts, and a slump partly exported in 1930–32.
+10. The Union is modelled year by year (B12) and responds from 1903 by copying Pacifica at home and containing it abroad (B13). It loses 14% of its potential output by 1929.
+11. Japan, the Gulf, the Philippine crown and Siberia catch up with Pacifica year by year as they integrate with the order (B14). Japan reaches 2.5 times its historical output. The whole order passes the Union before the crash (1.18 times in 1929).
+12. The trading regions outside the order (China, Korea, Southeast Asia, Mexico and Pacific South America, the Middle East) catch up more slowly, and richer markets everywhere raise the champions by a third (B15).
+
+---
+
+## A. Author decisions
+
+| ID | Decision | Label |
+|---|---|---|
+| CR-020 A1 | HMS Dreadnought (1906) is a non-event for Pacifica, which has had oil-fired turbine destroyers since the 1890s. | APPROVED |
+| CR-020 A2 | Keawe is recast from labour organizer to environmental engineer. His achievement is a sustainable, beautiful, Singapore-style buildout of Thalassia and the islands, with win-win reforms. | APPROVED (direction); details PROPOSED in B7 |
+| CR-020 A3 | Labour registration is left out of the main narrative. | APPROVED |
+| CR-020 A4 | Gulf Republic admission is an open challenge, not an event in the novel. Pacifica demands parity in the Defense Law examination (95%) and in infant mortality (1.05), held for a generation, and is in no hurry. The model keeps a switch for testing. | APPROVED |
+| CR-020 A5 | Pacifica_financial_model_1846-1932.xlsx replaces Sol's CR-018/CR-019 workbook as the working model. Its numbers stay MODEL estimates. | APPROVED |
+| CR-020 A6 | The author's decisions on OPEN-020-01 to -23 of 19 October, as recorded in section E. The main ones: the Gulf's admission as an open challenge; a Crown share of 25% in chartered industries and 8% elsewhere; Pacifica Steel buys Carnegie Steel in 1901; the Union responds from 1903 and builds three more capital ships from 1927. | APPROVED |
+
+---
+
+## B. Proposed changes by topic
+
+### B1. Navy and technology — APPROVED
+
+The approved oil (1876) and turbine (about 1885) programmes now carry through the whole fleet.
+
+| Years | Ship type | Note |
+|---|---|---|
+| 1862–1884 | Ericsson turret ships and coastal ironclads | Canon; reinforced for the 1870 Gulf war |
+| 1852–1887 | Coal-fired steam cruisers | Ocean road, Manila, Vladivostok |
+| 1882–1892 | Oil-fired torpedo boats | Approved oil programme |
+| 1890–1896 | Oil-fired protected cruisers | Water-tube boilers |
+| from 1894 | Turbine destroyers | Approved turbine programme (canon target 1893–95) |
+| from 1898 | Turbine cruisers | Approved (canon target 1898) |
+| from 1903 | All-big-gun turbine capital ships | **PROPOSED: three years before Dreadnought** |
+| from 1900 | Submarines | PROPOSED |
+| from 1922 | Aircraft carriers | PROPOSED: naval aviation in the 1920s |
+
+- **Dreadnought** is Britain's answer to Pacifica's 1903–05 ships, not a shock to Pacifica. The model's navy bill moves from $29m (1905) to $34m (1906), with no 1906 jump. MODEL.
+- **Parity:** Pacifica completes 14 capital ships by 1918. With Japan's 10 that makes 24. The 1919 limits bring Britain from 42 to 24 by 1922 and Germany from 24 to 16. Their 12-inch ships are scrapped, hulked for training or sunk as targets in 1920–22, as under the real 1922 Washington treaty, which cut the Royal Navy from about 42 capital ships to 22. The Union, outside the limits, has 18 by 1925, about the US Navy's real post-Washington size. In answer to the 1927 Pacific Concord with Japan it lays down three modern ships, reaching 21 in 1929. The crash halts building, and in 1932 it joins the limits rather than pay for ships it can no longer afford (OPEN-020-20, approved). MODEL.
+- **Why the Union doesn't outbuild Pacifica:** Wilson-era neutrality and the Coolidge-era lending boom put Union money into banks rather than battleships. PROPOSED.
+- **What oil saves:** a fleet of the 1895 size burns about 0.97m barrels of oil a year, which matches the canon figure of "about a million". By 1929 oil firing saves about 10,000 sailors and about $20m a year against a coal-fired fleet. MODEL.
+
+### B2. What dominance means in 1932 — APPROVED
+
+Dominance follows the Victorian British model: the system others must work through (finance, sea lanes, fuel, standards, settlement), not the largest economy.
+
+Story-case figures (all MODEL):
+
+| | 1913 | 1929 | 1932 |
+|---|---|---|---|
+| Pacifica core GDP ($bn) | 7.2 | 20.9 | 16.0 |
+| Pacifica national income, incl. income from abroad ($bn) | 7.3 | 21.3 | 16.3 |
+| Pacifica + Japan ($bn) | 10.2 | 31.0 | 24.2 |
+| The Pacific order ($bn) | 13.0 | 40.9 | 30.5 |
+| The Union ($bn) | 30.6 | 77.3 | 40.4 |
+| Britain ($bn) | 12.2 | 22.9 | 15.3 |
+
+The Union figures include the drag proposed in B6: two lost wars, the lost Pacific trade and a crash that hits its German loan book hardest (World sheet, "Union output vs history").
+
+- **Size:** Pacifica has 15.3m residents in 1929 and produces about 1.6 times US output per person with the Development Fund (B8), against about 1.25 times for the historical West and 1.4 times for historical California.
+- **Against Britain:** Pacifica alone is 0.91 times Britain in 1929 and overtakes it in 1932 (1.04). Pacifica + Japan is 1.35 times Britain in 1929 and 1.58 times in 1932.
+- **Against the Union:** the order is 0.53 of the Union in 1929 and 0.75 in 1932.
+- **Sectors where Pacifica leads early:**
+  - oil, about 1915, with California and the Gulf;
+  - creditor position, from 1918;
+  - film, in the 1920s;
+  - gold reserves, in 1931–32.
+- **The 1932 beat:** the bloc's output may approach the Union's in 1932, at the bottom of the Union's crash, if China counts and the Gulf is admitted.
+
+### B3. Japan's crises made concrete — APPROVED (MODEL)
+
+- **Debt:** the 1923 earthquake reconstruction and the 1927 bank crisis raise Japan's debt from about 19% of GDP in 1922 to about 25% in 1927.
+- **The rescue:** San Francisco supplies about 80% of Japan's 1927 borrowing, which makes the imperial rescue decisive (§33).
+- **Russia's indemnity:** roughly $300m, paid 1906–10, keeps Japan's debt after the 1904–05 war manageable.
+
+### B4. Economic opportunities to develop — SUPERSEDED by B9 and B10; in the model as the Abroad and Champions sheets (superseded in scale by B9 and B10)
+
+| Opportunity | Story use | Rough scale by 1929 |
+|---|---|---|
+| Income from investment abroad | Pacifican factories, refineries and mills in Japan, China, the Philippines, the Gulf and Siberia send profits home. Britain earned about 8–9% of its national income this way in 1913. | Model: about $8bn of assets and $450m a year (2.3% of national income) in 1929; 3–5% would need larger outflows |
+| Film and sound | Edison's 1908 patent trust has no force in Pacifica, so the studios settle in Los Angeles. The Union's cinema market is a foreign market. Sound-film patents come from the electrical programme. The risk is a Union screen quota, like Britain's 1927 law. | $250–350m of exports a year |
+| Camphor | Small money, strategic use: camphor makes celluloid, the base of film stock. Synthetic camphor caps the price from about 1907. The Formosan revenue goes to the indemnity and Japan; Pacifica keeps a fee. | Under $5m to the Treasury |
+| Oil downstream | Refuelling for every navy and merchant fleet in the Pacific as ships switch to oil; refining; tankers; stakes in Gulf oil fields. | Modelled in B9 (the oil trust) |
+| Industries | Aircraft (Douglas, Lockheed, Boeing), aluminium from Hawaiian bauxite and hydropower, electrical equipment on Pacifica's standard, shipbuilding for Japan and China. | Modelled in B9 |
+| Shipping, insurance, finance | Fees for administering the Entente credit, cables, the merchant fleet. | $40–80m a year in wartime fees |
+
+### B5. Gulf Republic admission: an open challenge — APPROVED
+
+**Pacifica's purpose.** Pacifica is an inegalitarian state. It does not believe every voice counts equally, or that money spent always buys better outcomes. It admits a member only when the member adds usable power and freedom of action, and cannot constrain Pacifica. It is in no hurry. It wants the Gulf Republic to solve its own problems first. If they cannot be solved, integration is not what Pacifica wants. Each criterion answers one question: *does this member add usable power without adding risk or a veto?*
+
+**The canon test (§25)** has five shared measures and a sixth on the Black–white gap, including tribal freedmen. CR-020 keeps that structure, reads it as statecraft, and adds binding conditions.
+
+**1. The five general measures, at or above Pacifica's weakest member** (the weakest former-territory state, a New Mexico-type member; OPEN-020-01):
+- **Infant mortality and typhoid:** public-health capacity. A member with epidemics endangers Pacifica's ports, garrisons and labour supply.
+- **Literacy:** usable conscripts, clerks and technicians.
+- **The real-wage bar:** no low-wage member undercutting Pacifican labour once borders open, and proof of a tax base.
+- **Homicide:** the state's monopoly of force. Lynchings and feuds count as homicides, not because they are unjust, but because they are private violence the state does not control.
+
+**2. Two parity measures**, the canon sixth measure made double (OPEN-020-02):
+- **The examination.** Black and freedmen 20-year-olds pass the joint medical and literacy examination for the Defense Law (§8) at **95% or more of the white rate**. Pacifica is an examination state (§19). It accepts unequal results between individuals, but not a member that wastes a third of its people or keeps a resentful underclass the Union could arm.
+- **Infant mortality.** Black infant mortality, freedmen included, at most **1.05 times** white. No American state has ever come close: the US ratio ran about 1.6–1.8 in 1915–30 and is above 2 today.
+
+**3. Conditions of the compact**, binding throughout:
+- **Statistical legibility:** at least 90% of births, deaths, land titles and taxpayers registered to the standards of Pacifica's statistics bureau. Pacifica absorbs only what it can count.
+- **Fiscal contribution:** revenue enough to pay the member's quota of the common navy and debt, and no more than a set share of public debt held by Union creditors.
+- **Standards:** gold, standard-gauge rail, the AC standard, Pacifican concession law with the Crown share, and ports open to the common navy.
+- **Examination for office and franchise:** civil service and officer entry by examination, and the franchise on Pacifica's terms, not one person, one vote.
+- **Renunciation:** recognition of the continental settlement, no separate treaties with the Union, and a common foreign policy.
+
+**For a generation (OPEN-020-04).** Every measure must be held for **25 consecutive years** before Pacifica will consider admission, and it reserves the right to ask for a second generation. Even if the Gulf reached both parity bars in the late 1930s, admission could not come before the mid-1960s.
+
+**What this means for the story.** Admission is an open challenge that the Gulf's own leaders are as unsure as anyone they can meet. Pacifica knows it is a tall order and says so. The Gulf ends the novel in an ambiguous position: ally, oil partner and protégé, but not a member. It has a clear picture of where it must go in the next century. What the Gulf would bring is about 11 million people for service and work, oil fields under Crown-share concessions, Galveston and New Orleans as ports, and a southern flank against the Union. Admission would be a strategic absorption, dressed as a reward.
+
+**Two built-in problems:**
+- **Counting comes first.** In 1900 the Gulf has no reliable registration of births and deaths; historically Texas was the last state to join the US death registration area, in 1933. The Gulf must build its statistics first, and its measured numbers get worse before they get better.
+- **Black and white start far apart,** above all in literacy and health.
+
+**The Gulf's own programme** (Pacifica sets the bars, not the means):
+
+| Phase | Years | Main measures |
+|---|---|---|
+| Building the state | 1900–1909 | Constitution on Pacifica's model (canon); 1901 oil royalty funds a permanent school and health fund; 1902 statistics office under Pacifican bureau rules; 1903 compulsory schooling; 1904 board of health and mosquito control; 1905 filtered water and sewers in New Orleans, Houston and Galveston; 1906 laws against debt peonage, written sharecropping contracts, end of convict leasing, farm credit; 1907 professional Republic Constabulary and lynching law |
+| Expansion | 1910–1919 | 1910 hookworm, sanitation and typhoid vaccination campaigns; 1912 licensed midwives and public-health nurses; 1913 wage boards and workers' compensation; 1914–18 war boom; 1915 colleges for Black teachers, adult night schools; 1916 Sequoyah freedmen settlement on equal citizenship and land; 1918 influenza setback |
+| The general measures | 1920–1930 | 1920 Sequoyah oil boom pays for rural health units; 1921 the Pacifican bureau first accepts Gulf birth and death figures; 1922 pistol licensing and a homicide unit; 1923–24 court-ordered equal city services; 1925 the five general measures first pass together; 1927 Great Mississippi Flood (they hold, narrowly; OPEN-020-03); 1931 the oil glut breaks the streak by about a point of wages |
+| The parity campaign | from 1925 | A clinic and a Black public-health nurse in every county, maternal and infant nutrition, Black medical and nursing schools, examination preparation in every parish. By 1932 the Gulf is still far from both parity bars |
+
+**Indicator paths (Gulf / bar), MODEL:**
+
+| | 1900 | 1910 | 1920 | 1925 | 1928 | 1932 |
+|---|---|---|---|---|---|---|
+| Infant deaths per 1,000 births | 175 / 150 | 160 / 125 | 104 / 100 | 86 / 88 | 76 / 82 | 70 / 78 |
+| Literacy, age 10+ | 78% / 80% | 85 / 85 | 91 / 89 | 93.5 / 91 | 95 / 92 | 96 / 93 |
+| Real wage, % of the bar | 70 | 82 | 99 | 104 | 107 | 108 |
+| Homicides per 100,000 | 26 / 18 | 21 / 14 | 13.5 / 11 | 9.8 / 10 | 8.9 / 9.5 | 8.5 / 9.2 |
+| Typhoid deaths per 100,000 | 55 / 40 | 28 / 25 | 10 / 12 | 6.5 / 8 | 5.5 / 6.5 | 4.5 / 5.5 |
+| **Parity:** examination pass rate, Black / white (bar 0.95) | 0.45 | 0.55 | 0.67 | 0.73 | 0.77 | 0.80 |
+| **Parity:** infant mortality, Black / white (bar 1.05) | 1.90 | 1.75 | 1.45 | 1.34 | 1.28 | 1.22 |
+
+**How it plays out:**
+- **Who pays:** Gulf oil royalties, $60–90m a year by the mid-1920s. Pacifica supplies engineers, credit and statistical standards.
+- **The planters resist on two fronts.** The parity measures force them to invest in Black health and schooling, and the examination franchise breaks their political machine.
+- **Huey Long** fights the examination franchise as an attack on the common white voter, and loses.
+- **Black Gulf leaders face a hard choice.** The bargain brings schooling, health, land security and protection from private violence, on terms that treat them as a resource. Some accept it and some refuse it.
+- **Union revanchists** see the Gulf being absorbed, with its oil and ports, not freed.
+- **The 1927 flood:** Hoover runs the relief. The Gulf prosecutes planters who hold Black refugees in levee camps. The numbers stay honest, a deliberate contrast with the Altai report.
+- **The oil compact** with Pacifica (B6) comes a year late, in 1932, after a year of 10-cent oil in East Texas.
+
+**Effect of membership (MODEL):** joining would add about 11m residents and, in 1929, about $7.5bn of output, lowering Pacifica's output per person from about 2.3 to 1.9 times the US. The Gulf switch on Levers stays available for testing. Any admission before a generation of passing years is flagged on Checks, so no year to 1932 qualifies.
+
+### B6. The Depression in this timeline — APPROVED
+
+**What is structurally different:**
+1. **No reparations loop.** Germany pays no indemnity under the brokered peace. The fragile link is the Union's private lending in Berlin and Vienna, so the crash hits the Union's banks hardest (consistent with §34).
+2. **Hoover is Pacifican.** The Union under Dawes owns its own tariff and farm policy; Smoot-Hawley, if it happens, is a Union law.
+3. **Pacifica holds about 12% of the world's monetary gold** and most war-debt claims. Whether it hoards that gold or lends it out shapes the world's deflation.
+4. **Japan stays on gold** through the common finance. Historically the 1930 return to gold and the silk collapse ruined rural Japan. Holding the yen at par feeds the Restoration officers. The adjustable gold-dollar order agreed at Thalassia in 1932 is the release.
+
+**Pacifica's choices:**
+
+| When | Move | Effect |
+|---|---|---|
+| 1927–28 | The Reserve Bank leans against the Los Angeles land, oil and film-stock boom: higher rates, stock margin rules | A smaller boom and a smaller bust |
+| 1929–31 | Gold is lent out, not hoarded: the second Union rescue, gold credit to Britain before September 1931 | The anti-France: Pacifica recycles gold |
+| 1930 | No tariff increase; the market stays open to Asian partners (canon) | Contrast with Union protectionism |
+| 1930–32 | Lender of last resort; banks recapitalized ($150m in the model) | Few bank failures |
+| June 1931 | Hoover's moratorium on war debts (canon); debts restructured rather than called | Less forced selling |
+| 1931 | An oil compact with the Gulf to limit output after the East Texas glut | Supports the Gulf, and possibly its admission clock |
+| 1932 | No tax increase; the Reserve Fund and borrowing pay for the rescues | — |
+| June–July 1932 | The adjustable gold-dollar order at Thalassia (canon) | Bretton Woods twelve years early |
+
+**What Pacifica cannot avoid:** the fall in world trade and commodity prices (copper, oil, bauxite, Philippine sugar), the Union's collapse as a market, and Japan's silk crisis. When Britain leaves gold in September 1931, sterling-priced aluminium undercuts Hawaiʻi's smelter, the starting point for Keawe's fight in 1931–32. In the model, story-case output in 1932 is 14% below trend, against about 27% for the US. Because Pacifica suffers only 60% of the US price fall, its GDP falls about 23% in money terms between 1929 and 1932, against about 43% for the US. MODEL.
+
+### B7. Keawe, environmental engineer — APPROVED (revised 20 October: the Living Bay; Waimanu replaces Waipiʻo)
+
+**Biography (OPEN-020-07 for names and dates):**
+- **Family:** Keawe Kahananui, born 1895 in Hilo; Hapa. His father is a Hawaiian harbour pilot; his mother's family are Japanese-Pacifican taro and sugar farmers in Waimanu Valley.
+- **Navy and engineering:** a navy fireman at seventeen, then an engine-room officer through the examinations.
+- **What he sees:** in the convoy war of 1915–18 he sees the smoke and slums of the Clyde, the Tyne and Osaka. At home he grew up with the mongoose disaster of 1883 and windward streams drained by sugar ditches.
+- **His place in life:** educated, technically accomplished, comfortable and proud of Pacifica.
+
+**His method:** plan by the ahupuaʻa, the Hawaiian land division running from mountain ridge to reef. Water, forest, farmland, town and fishery are treated as one system, and Hawaiian knowledge becomes a technical asset.
+
+**The islands programme** (each measure pays for itself or protects something the state values):
+1. **Watershed forest reserves** replanted with koa and ʻōhiʻa, and cleared of feral goats and cattle. They protect city water, irrigation and hydro reservoirs from silt. Historically Hawaiʻi began forest reserves in 1903–04.
+2. **Minimum stream flows** on diverted streams, for taro terraces and fishponds.
+3. **Two leeward industrial districts,** downwind behind tree belts, so that smelters, refineries and yards share ports, power and rail. Nothing heavy on windward coasts or reefs.
+4. **A smokeless capital:** hydro and oil-fired central stations downwind, electric trams and ferries, no coal burned in Thalassia.
+5. **Sewers and the reef:** treatment works, outfalls beyond the reef, rules on dredge spoil, marine reserves and restored fishponds.
+6. **Mined-land restoration:** topsoil stored and pits replanted, backed by a bond per acre.
+7. **Smelter fumes:** fluoride scrubbed and returned to the smelting bath, which saves money.
+8. **Leasehold, not sale,** of crown and government land. Lease premiums pay for parks, transit and schools, as Singapore and Hong Kong later did.
+9. **A garden-city building code:** tree-lined boulevards, parks within walking distance, a public shoreline, height limits, open views from mountain to sea, wide eaves and shaded verandas.
+10. **Plant and animal quarantine** at the ports.
+11. **An islands index in the statistics bureau:** forest cover, stream flow, smoke-free days, reef fish counts and park access, published every year in the weekly and the newsreels.
+
+**Arc:**
+
+| Years | Event | Choice or cost |
+|---|---|---|
+| 1919–23 | **The Living Bay.** As an engineer for the Thalassia public works, he turns a dying bay into the capital's crown jewel. Sewage from the growing city and silt from cleared slopes are smothering Kāneʻohe Bay's reef. He carries the sewage by tunnel to deep water beyond Mōkapu Point, fences the upper slopes as forest reserve, and restores Heʻeia and some thirty other old Hawaiian fishponds, which feed the capital again. In 1923 the bay becomes one of the world's first marine reserves, with the Crown's marine station on Moku o Loʻe, where Emperor Hirohito dives its reef with Polytechnic zoologists (CR-021 F). A capital that lives with its reef becomes the image of the order in every newsreel. Historically the bay suffered exactly this damage in the 1960s–70s, until its sewage was diverted offshore in 1978. | First fame: the Emperor's favourite reef is Keawe's work |
+| 1923–27 | Chief engineer of the Hawaiian Aluminium Works at Hilo, which canon says is damaging rivers. He adds fume scrubbing, settling ponds for the red mud, the replanting bond and a model town for the workers. | Must prove the scrubbers pay, and they do within two years. The new forest reserve ends grazing on his uncle's cattle range; he enforces it and his family stops speaking to him. |
+| 1927–29 | After the Pacific Concord with Japan, Thalassia becomes the seat of the common ministries. He drafts the 1928 Thalassia Plan with Kaiulani's backing. | Developers and Japanese delegations want speed; lease premiums win the argument. Julian wants marble monuments; Keawe convinces him that a clean, beautiful capital is worth more in the newsreels. |
+| 1931–32 | After Britain leaves gold, the Industrial Board's emergency order would lift the Thalassia Plan's limits and dam Waimanu Stream for cheaper smelter power. Keawe shows the problem is the price of power, not the supply: spreading the hydro board's bond repayment over thirty years instead of twelve, refinanced through the Reserve Bank in 1932, cuts the power price about 30%. The statistics bureau confirms his numbers. | He accepts one reef cut for the navy's anchorage in exchange for marine reserves elsewhere, and purists call it a betrayal. |
+| 1932 | Kaiulani's last bargain between Keawe and Julian produces the **Lands and Waters Charter**. | He joins the hydro board and now has to make the trade-offs himself. |
+
+**The Lands and Waters Charter (1932)** makes law, for all the islands, the watershed reserves and minimum stream flows, the two industrial districts, mined-land restoration, leasehold for public land and the islands index. Waimanu is protected; the smelter keeps its contracts at the gold parity.
+
+**Cost:** about $25m a year in 1928–32 (about 0.1–0.2% of GDP), of which lease premiums recover about $12m. In the workbook as Events E93–E97. MODEL.
+
+### B8. The Development Fund — APPROVED
+
+Pacifica is a state-capitalist economy that maximizes innovation and production. Money the Treasury would otherwise hold idle goes into productive investment:
+- the Polytechnic and research institutes;
+- the power grid, ports and rail;
+- technical schools;
+- credit for new industries.
+
+**Sources of the Development Fund, from 1880:**
+1. 70% of every budget surplus, before any debt repayment.
+2. The standing-debt bonds (5% of GDP, B6 and OPEN-020-06), used as development bonds.
+3. Anything in the Reserve Fund above a crisis buffer of 3% of GDP.
+
+**Effect:** each $1 invested raises next year's output growth by $0.30 per $1 of GDP, which is the social return. Estimates for infrastructure, research and technical education mostly fall between 10% and 40%. The boost is capped at 1.2 points a year. MODEL.
+
+**Result (story case):**
+
+| | 1913 | 1929 | 1932 |
+|---|---|---|---|
+| Output per person vs the US, without the fund | 1.59 | 1.47 | 1.71 |
+| Output per person vs the US, with the fund | 1.74 | 1.61 | 2.12 |
+| Public debt / GDP, with the fund | 5% | 8% | 16% |
+
+- **Why the gain is modest:** the Reserve Fund was never a large pool of idle surplus. It held $0.3–1.2bn, mostly built from the standing-debt bonds and its own interest, and it was spent on the 1895 rescue, the war years and 1931.
+- **The cost:** investing it means borrowing more in each crisis. In the stress case, debt passes 30% of GDP in 1922 and 1930–32.
+
+**What would reach China-like productivity (OPEN-020-09):** much larger investment than the Treasury's surpluses can supply, about 2–4% of GDP a year for decades. The historical mechanism is a state savings and development bank that collects household savings (post-office savings, as Japan began in 1875) and lends them to industry and infrastructure on state priorities. That could add 0.5–1 point a year of growth. Pacifica would then reach roughly 1.8–2.2 times US output per person by 1929. That is the outer limit for an economy already at the frontier, because China's fast growth came from catching up from far behind. B9 now reaches about 2 times through named industries; the savings bank becomes the way the champions and the Crown share are financed, not an extra source of growth.
+
+### B9. National champions and the Polytechnic — APPROVED
+
+Pacifica's high output per person has to come from somewhere a reader can name. B9 gives it named industries, built from the Polytechnic outward. Pacifica takes the roles that Rockefeller, Carnegie and Morgan played historically. It takes them in the Pacific and Asian markets and in the newest industries; it cannot take them inside the Union's own home market. It also leads in cars, chemicals, electrical equipment, telecom, shipping, film and aircraft.
+
+**1. The Polytechnic as the world's talent magnet.** The canon Polytechnic is already the officer, engineer and administrator academy of the examination state (§19, §22). B9 makes it the best technical university system in the world from the 1870s, the role Germany's technical universities and later MIT and Caltech played historically. Several things set it apart:
+- chairs and laboratories paid for by the state and the Development Fund (B8);
+- citizenship for anyone admitted to a chair;
+- no religious or national test;
+- a patent office that grants quickly and a Crown share that buys into what comes out (point 4).
+
+It draws the people who historically went to New York, Schenectady, Pittsburgh and Berlin. The candidates below are historical people whose routes Pacifica could plausibly redirect; each is OPEN-020-11.
+
+| Who (historical) | Arrival in history | In Pacifica | What Pacifica gains |
+|---|---|---|---|
+| Nikola Tesla | New York, 1884 | San Francisco, 1884, to the electrical institute (1886) | The polyphase AC patents; the Pacifican standard |
+| Charles Steinmetz | New York, 1889 | Polytechnic chair, 1889 | AC theory and turbo-generators |
+| Leo Baekeland | New York, 1889 | Polytechnic chemistry, 1889 | Photographic paper, then Bakelite (1907): the first fully synthetic plastic |
+| Nobel's dynamite licence | Giant Powder Co., San Francisco, 1867 (historical) | The same, made a state partner | Mining explosives, then naval propellants |
+| Federal Telegraph and Lee de Forest | Palo Alto, 1909–13 (historical) | The same, funded by the Navy | Trans-Pacific arc radio; the amplifier and oscillator |
+| Magnavox | Napa and Oakland, 1915 (historical) | The same | The moving-coil loudspeaker; the sound film |
+| Philo Farnsworth | San Francisco, 1927 (historical) | The same | Electronic television |
+| Central Europe's post-1918 exodus | Theodore von Kármán to Caltech in 1930, and many others | Earlier and larger, 1919–25 | Aeronautics, physics and chemistry |
+
+The model counts graduates, foreign recruits and patents on the Champions sheet. By 1913 Pacifica takes about 2.2 times as many patents per resident as the US did historically, and 2.5 times by 1929. That is Swiss or Swedish intensity on a California-sized economy.
+
+**2. The champions, industry by industry.**
+
+| Industry | The historical role taken | How it is believable | Model by 1929 (story case) |
+|---|---|---|---|
+| **Oil trust** | Rockefeller. Standard Oil's monopoly rested on refining, pipelines and the export trade. | California crude and the 1876 oil programme come first. Pacifican capital reaches Spindletop (1901) before Pittsburgh's Mellons and New York's Standard Oil. The Gulf Republic's antitrust laws keep Standard Oil out. The trust takes the "oil for the lamps of China" trade from San Francisco and refuels every navy in the Pacific. In 1932–33 it takes the Bahrain and Saudi concessions; historically Standard Oil of California, a Californian company, won both. | Refines 55% of the Gulf's 600m barrels; sells 90m barrels in Asia. About $340m a year earned abroad, plus $210m of refining at home |
+| **Steel** | Carnegie. **Pacifica Steel buys Carnegie Steel in 1901.** | Pacifica cannot outproduce the Union's 57m tonnes. It makes steel for the Pacific instead, on a different footing: Utah and Washington coal, Eagle Mountain and Philippine ore, Chilean ore, and electric furnaces on Pacific hydropower. It makes rails for China and Siberia, plates for both navies and structural steel for Asia's ports. | 9m tonnes at home, among the world's five largest producers. Abroad, ore and mills worth $830m, including Carnegie Steel |
+| **Finance** | Morgan. Morgan rescued the US Treasury's gold in 1895, bought Carnegie in 1901 and underwrote the Allies in 1914–17. | The Pacifican Treasury already rescues the Union's gold in 1895 (canon, §25) and runs the Entente credit (§30). A San Francisco syndicate underwrites Japan's 1904–05 war loans, China's railway loans, Siberia and the 1924 German loan. In 1901 it does what Morgan did historically: it buys Carnegie Steel for $480m and merges it with the Pacifican mills into **Pacifica Steel, the world's first billion-dollar company** (OPEN-020-13, decided). The purchase succeeds, but it sets off widespread resentment in the Union against Pacifica and against Wall Street, which is seen as in bed with a foreign power. It is the kind of fatigue that Chinese purchases of European firms provoke today. That anger feeds Roosevelt's 1903 alarm (B13). | $600–900m of foreign bonds a year in the late 1920s; underwriting fees are small, but control of the issues is large |
+| **Rail and shipping corridors** | The British overseas-railway and liner model | Concessions for China's trunk lines (Canton–Hankow, the Hukuang loans), Korea, Mexico's west coast, Central America, Peru and Chile, Siam, and the Siberian lines after 1921. The trans-Pacific liner conference and the canal route, Yangtze and coastal China. A monopoly only where geography gives one: the canal, the trans-Pacific route and the Siberian lines. Pacifica does not try for Suez or the Atlantic. | $1.9bn of rail, port and canal concessions abroad at about 5%; shipping $230m a year at home |
+| **Motor vehicles** | Ford's moving assembly line, Highland Park, 1913 | The Polytechnic's production-engineering school combines interchangeable parts from the naval yards, flow lines from the canneries and time studies, and opens a moving line in Oakland or Los Angeles in 1911 (OPEN-020-11). California is the most motorized place on earth. Pacifica sells to Asia, Latin America and Australia, and licenses the method to the Union. | 1.15m vehicles a year (the world built 6.3m); assembly plants abroad worth $300m |
+| **Electrical, the AC standard** | Westinghouse and GE | The canon standard spreads through Pacifican-built networks: Japan on one standard, unlike its historical 50/60 Hz split; Korea, Formosa, China's treaty ports, the Philippines, Siam, the Gulf, Mexico and Latin America's Pacific coast, Siberia, and the oil coast of the Persian Gulf through the oil trust. **India and most of Africa are not realistic**: British engineers, British finance and the 50 Hz standard hold them, apart from mining or oil enclaves and perhaps a princely-state hydro contract. | 45% of world electrical sales on the standard; Pacifica makes 24% of the world's equipment; licence fees of $25m; power companies abroad worth $1.6bn |
+| **Chemicals and drugs** | Du Pont and, from 1914, the German dye and drug makers | Dynamite (1867); smokeless naval powder (1890s); electrochemicals on cheap hydropower (chlorine, caustic soda, aluminium); Bakelite (1907); nitrogen fixation by the electric arc on hydropower, the Norwegian method of 1903, which frees Pacifica from Chilean nitrate. In 1914–18 the German dye and drug patents are seized or licensed, as the US did through the Chemical Foundation, while Pacifica supplies Entente munitions. Drugs and anaesthetics come out of the medical faculty. | 15% of world chemical output; 12% of the rest made under Pacifican licence; $540m of value added at home |
+| **Telecom** | Western Union and the cable companies | The telegraph system Elias built (canon, §21); the cable through Midway and Guam to Manila (canon, §25); telegraph concessions in China, Siam and Latin America against Denmark's Great Northern; trans-Pacific radio from 1912; long-distance telephone. Marginal costs are low and margins high. | $280m of value added at home; cables and telegraphs abroad worth $450m, earning about 10% |
+| **Film, aluminium and aircraft** | Hollywood, Alcoa, Douglas, Lockheed and Boeing | As in B4 | $560m and $180m of value added |
+
+**3. How it enters the calculation (Champions sheet, MODEL).** Each industry is built bottom-up: a world market or Pacifica's own output, Pacifica's share of it, and value added per unit. Three flows follow.
+- **GDP.** The champions' value added at home, less the 35% already inside the trend path, plus 25% for supplier and city spillovers. That adds about $2.7bn to 1929 GDP.
+- **Income from abroad.** Concessions, plants and royalties earn about $740m in 1929, on top of the portfolio income.
+- **Treasury.** The champions' extra output is taxed like any other output. The Crown share (point 4) pays dividends.
+
+The World sheet takes 4% off the Union's output by 1929. Those are the markets, oil fields and patents that Pacifica's firms win instead of the Union's.
+
+**4. The Crown share (OPEN-020-10, approved).** The state does not buy the champions; it takes equity in return for what it grants, and the stake follows what it grants:
+- **25% in chartered and concession industries:** the oil trust, rail and port concessions, telegraph and cable, power companies, and shipping on the canal route. There the state gives something scarce: a charter, a right of way, a concession.
+- **A golden share and 8% in competitive industries:** steel, cars, chemicals, electrical equipment, film, aluminium and aircraft. The stake is the price of licensed Polytechnic patents; the golden share stops a sale to foreigners.
+- **Nothing in banking,** which the Reserve Bank regulates instead.
+
+| Precedent | State share |
+|---|---|
+| Suez Canal Company (Disraeli, 1875) | about 44% |
+| Anglo-Persian Oil (Churchill, 1914) | 51% |
+| South Manchuria Railway (1906) | 50% |
+| Compagnie Française des Pétroles (1929–31) | about a quarter of the capital |
+| Japan's Imperial Household: Bank of Japan, Yokohama Specie Bank, NYK | among the largest shareholders |
+| Volkswagen (Lower Saxony, today) | 20%, with a veto |
+
+It is a state-capitalist arrangement without nationalization: the firms stay private and competitive. The Crown is a partner where it gives something up, and only a referee where it does not. The average stake works out at about 17%. Story case: dividends of $35m in 1913 and $170m in 1929, about 3% of receipts.
+
+**Result (story case, B9 alone; B10 below supersedes these figures):**
+
+| | 1913 | 1929 | 1932 |
+|---|---|---|---|
+| Champions' value added at home ($m) | 577 | 3,052 | 1,870 |
+| Champions at home / GDP | 7% | 12% | 10% |
+| Core GDP ($bn) | 8.1 | 25.3 | 19.1 |
+| Output per person vs the US | 1.94 | 1.96 | 2.54 |
+| All private assets abroad ($bn) | 3.3 | 17.0 | 14.3 |
+| Income from abroad / national income | 2.9% | 4.8% | 4.1% |
+| Pacifica / the Union, GDP | 0.27 | 0.34 | 0.49 |
+| Pacific order / the Union, GDP | 0.46 | 0.61 | 0.87 |
+
+The stress case keeps 60% of these claims, with lower yields and smaller spillovers. It reaches 1.49 times US output per person in 1929.
+
+**What B9 does not change.** Fifteen or nineteen million people cannot outproduce ninety million: in 1929 the Union is still three times Pacifica on B9 alone, and 2.2 times with B10's migration; it is 1.4 times the whole Pacific order. Pacifica's dominance is that of a small, very rich industrial and financial centre. It owns the standards, patents, corridors and capital of a hemisphere; it does not have the Union's mass. In 1932, with the Union's money income halved by the crash, the order reaches 87% of the Union's output.
+
+### B10. Talent migration and jobs — APPROVED
+
+B9 added the champions' output without adding the people who produce it. In 1929 the champions and their suppliers need about 780,000 workers, roughly a tenth of the labour force. In B9 none of those workers had arrived. Migration was a fixed path, so it did not respond when Pacifica pulled ahead. B10 closes that gap with a migration loop on a new Labour sheet.
+
+**The loop, year by year (MODEL):**
+1. **The pull.** Last year's lead over US output per person, beyond the 1.5 times the baseline arrival paths already assume, draws skilled workers. They come from the Union's skilled workforce (engineers, chemists, doctors, master machinists, about 12% of its workers) and from Europe's and Asia's skilled emigrants, including the 1919–25 exodus from central Europe.
+2. **The ceiling.** Pacifica admits skilled workers only up to the places in its skilled-entry programme: 0.2% of residents a year, about 37,000 in 1929. **The ceiling binds from 1895 on**: about twice as many want to come as are admitted. How many to let in becomes a political decision, and one that can be dramatized.
+3. **Families and relatives.** Each skilled worker brings a family (2.2 people). Under the family programmes, 1.5% of the talent-migrant community brings a relative each year.
+4. **Jobs.** The champions employ workers at 1.8 times average output, and each champion job supports 0.7 further jobs in suppliers, services and construction. A third of each year's new jobs are filled by new arrivals. When jobs go, as in 1930–32, some of those workers leave.
+5. **Productivity.** Each extra skilled worker produces twice an average worker and raises others' output by 0.3 of an average worker. That raises output per resident. The extra talent also raises the champions, and the champions create more jobs and widen the lead.
+6. **The Union.** It loses what its emigrants would have produced at home, plus the champions' business that Union firms held historically. Workers whose firms lose those markets are re-employed over about four years, except in 1930–32.
+
+**One correction to B9.** The champions' workers are residents whose average output is already counted. Only their premium above an average job, plus cluster spillovers, now adds to GDP. That is 69% of their value added instead of B9's 90%, and the extra people more than make up for it.
+
+**Result (story case):**
+
+| | 1913 | 1929 | 1932 |
+|---|---|---|---|
+| Residents (m) | 11.9 | 19.0 | 20.2 |
+| Of whom talent migrants and their descendants (m) | 1.1 | 2.5 | 2.8 |
+| Extra skilled workers / labour force | 6.2% | 7.7% | 8.0% |
+| Output per resident raised by the extra talent | 7.9% | 9.9% | 10.3% |
+| Champion-related jobs / labour force | 6.3% | 9.6% | 7.6% |
+| Core GDP ($bn) | 9.6 | 33.3 | 25.9 |
+| Output per person vs the US | 2.04 | 2.07 | 2.73 |
+| Unemployment: Pacifica / the Union | 1.5% / 4.5% | 1.5% / 3.7% | 8% / 24% |
+| Union output lost to Pacifica | 1.9% | 3.6% | 4.0% |
+| Pacifica / the Union, GDP | 0.32 | 0.45 | 0.67 |
+| Pacific order / the Union, GDP | 0.51 | 0.72 | 1.04 |
+
+**What B10 means for the story:**
+- **Pacifica is a country of about 19 million in 1929**, not 15. About 3.7m of the difference are people its lead drew, and their children: 125,000–135,000 extra people a year in the 1920s on top of the baseline arrivals. That is slower than historical California, which grew by about 2m in the 1920s, mostly from other states, with only a 1.35 times income lead.
+- **The Asian-origin share falls** from 23% to 18% in 1929, because most of the talent migrants are Union-born or European. If the Asian share is canon, the skilled-entry programme must recruit in Asia too (OPEN-020-14).
+- **About 330,000 Union-born skilled workers live in Pacifica by 1929**, roughly 7% of the Union's skilled workforce. For the Union this is a real political grievance: a brain drain that its press and Congress argue over, and one that Dawes's administration might answer with exit fees or patent law.
+- **Unemployment:** Pacifica's is below the Union's and the historical US rate in every year of the story case. Its normal rate is frictional only (1.5%), and it peaks at about 8% in 1932 against the Union's 24%. Some recent arrivals go home, which is the slump's quiet migration story.
+- **In money terms, the Pacific order outgrows the Union in 1932.** With B10 alone, in 1929 the Union is still 2.2 times Pacifica and 1.4 times the order (B12 changes this). The 1932 crossing comes from the Union's price collapse, and B2's "the Union stays the larger industrial power" should then say "in real output", or the crossing becomes a story beat (OPEN-020-15).
+
+**Stress case:** Pacifica's lead stays near the 1.5 times the baseline already assumes, so almost no extra migration happens. The loop only runs if Pacifica actually pulls ahead.
+
+### B11. Guest workers — APPROVED (Singapore model)
+
+The champions create more jobs than skilled migration and natural growth can fill. B11 adds a temporary-worker programme from 1890, a regency measure. It follows **Singapore's model, not the Gulf's kafala system**. Pacifica's competent, self-confident government would not run a scheme that depends on confiscated passports and debt bondage. It would run one whose rules it can publish and enforce:
+- **Statutory quotas.** A ceiling of 20% of the resident labour force, set by sector, so no industry depends wholly on guest workers.
+- **An employer levy on each permit** (25% of wages, as modelled), on top of the income tax that guest workers pay like residents. The levy keeps a guest worker from being much cheaper than a resident, so wages are not undercut. It is also the extra tax on higher earnings that the author suggested; the employer pays it, because a levy on the worker would simply raise the wage employers must offer.
+- **Three-year contracts with paid return passage.** In a slump, permits are not renewed.
+- **Inspected housing, wage protection, and the right to change employer** after a contract ends. That right is the main difference from kafala.
+- **A path to residence.** After six years and a trade test, about 3% of guest workers a year settle, and their families follow.
+
+**Where they come from:** Guangdong and Fujian through Hong Kong and Amoy, Korea under the Pacifican guarantee, the Philippine crown, Mexico's northwest, the Azores and southern Italy. Japan supplies few after the 1927 Concord, since its people are partners rather than guests.
+
+**In the model (Labour sheet, MODEL):**
+- Employers want 0.6 guest workers per champion-related job, plus 8% of the resident labour force for construction, docks, farms and homes.
+- Each year permits close 40% of the gap to that demand, up to the quota.
+- A guest worker produces 0.6 of an average resident worker's output, is paid 65% of what he produces, and sends a quarter of his pay home. Those remittances leave national income.
+- Per-person figures now count everyone present, guest workers included.
+
+**Result (story case):**
+
+| | 1913 | 1929 | 1932 |
+|---|---|---|---|
+| Guest workers present (thousands) | 502 | 951 | 673 |
+| Guest workers / resident labour force | 10% | 11% | 7.5% |
+| Guest workers arriving each year (thousands, incl. replacements) | 181 | 342 | 199 |
+| Former guest workers settling, with families (thousands a year) | 26 | 49 | 38 |
+| Residents + guest workers (m) | 12.9 | 21.3 | 22.4 |
+| Core GDP ($bn) | 11.0 | 40.8 | 31.5 |
+| Output per person present vs the US | 2.15 | 2.27 | 2.99 |
+| Employer levy ($m) / share of receipts | 94 / 8% | 392 / 8% | 209 / 7% |
+| Remittances sent home ($m) | 94 | 392 | 209 |
+| Pacifica / the Union, GDP | 0.37 | 0.55 | 0.81 |
+| Pacific order / the Union, GDP | 0.56 | 0.82 | 1.19 |
+
+**What B11 means for the story:**
+- **The slump is partly exported.** Permits lapse in every slump in proportion to the fall in output, most of all in 1930–32. Residents' unemployment still peaks near 8% in 1932, but the cost lands in Canton, Manila and the Azores, a quieter and darker side of Pacifica's competence.
+- **The Asian-origin share recovers** to 21% in 1929, against 18% under B10, because settled guest workers are mostly Asian. That eases OPEN-020-14.
+- **Output per person rises to the edge of the believable**: about 2.3 times the US in 1929, measured over everyone present. Guest workers come without dependants, so almost all of them work. Even so, before B12 the Union is still 1.8 times Pacifica and 1.2 times the whole order in 1929.
+- **Canon tensions:**
+  - The permit system needs registration, and A3 left labour registration out of the main narrative. The permits can stay in the background as a statistics-bureau matter, not a plot line.
+  - It is also one of the "continuing exclusions" that §1 says give Pacifica's triumph its unresolved human cost.
+  - Guest workers without citizenship sit uneasily beside the equal-treatment test Pacifica sets the Gulf (§25), and the Union's press will say so.
+
+### B12. The Union as a modelled economy — APPROVED
+
+Until B12, the Union was historical US output times a fixed drag: 0.93 in 1929, less the champions' markets. That left firms being founded in the Union by people who had left for Pacifica, and it treated lost Pacific trade and gold as a one-off. B12 models the Union year by year on the Labour sheet, and the World sheet reads it from there.
+
+**Union GDP** is built from five pieces:
+- **People still there**: historical population, less the people Pacifica draws away and the children they would have had (natural increase of 1.3%);
+- **× historical output per person** of the states the Union holds, which are richer than the US average;
+- **× a compounding productivity index**, which falls each year by:
+  - **brain drain:** 3% times the share of the Union's skilled workers now in Pacifica, standing for the firms they would have founded and the ideas that compound;
+  - **Pacific trade and gold:** 0.3% times Pacifica's size relative to the Union, so the drag grows as Pacifica grows;
+- **× the 1930–32 crash on its German loan book** (§34);
+- **− what went west**: the emigrants' skill premium, the champions' business, and the output of Union citizens away as guest workers (a fifth of all guest workers).
+
+**Diverted immigration.** From 1880, a share of the Europeans bound for New York sail for San Francisco instead: 25% per unit of Pacifica's extra lead, at most 20%. The Panama canal and Pacifica's wages offset the four to six extra weeks at sea. The diverted immigrants arrive as ordinary residents. In their first generation they produce three-quarters of an average resident's output while they learn the language and trades.
+
+**The skilled-entry ceiling** is raised from 0.2% to 0.3% of residents a year, as the author asked. One correction to the reasoning behind that: skilled migrants are *more* productive than average, so admitting more of them **raises** output per person slightly; it does not lower it. Test runs:
+
+| Ceiling | Residents 1929 | GDP 1929 ($bn) | Output per person vs US | Order / Union |
+|---|---|---|---|---|
+| 0.2% | 25.1m | 49.0 | 2.21 | 1.02 |
+| **0.3% (story)** | **27.0m** | **53.9** | **2.27** | **1.14** |
+| 0.4% | 27.5m | 55.3 | 2.28 | 1.18 |
+
+Output per person sits near 2.2–2.3 whatever the headcount, because it is set by the productivity paths, the champions and the Development Fund, not by the number of people. At 0.3% the ceiling stops binding in the late 1920s: everyone who qualifies and wants to come is admitted.
+
+**Result (story case, B12 alone; B13 and B14 below change these figures):**
+
+| | 1900 | 1913 | 1929 | 1932 |
+|---|---|---|---|---|
+| Pacifica: residents + guest workers (m) | 8.4 | 16.2 | 28.1 | 29.8 |
+| Immigrants diverted from the Union that year (thousands) | 52 | 180 | 56 | 7 |
+| Union population (m), against 90.7 without Pacifica's pull in 1929 | 58.7 | 72.9 | 84.3 | 85.9 |
+| … missing: diverted immigrants and children (m) | 0.4 | 2.4 | 4.2 | 4.5 |
+| … missing: talent emigrants, families and children (m) | 0.3 | 0.8 | 2.1 | 2.5 |
+| Union-born skilled workers in Pacifica (thousands) | 96 | 256 | 575 | 655 |
+| Union growth lost a year (brain drain + trade and gold) | 0.2 pt | 0.3 pt | 0.6 pt | 0.7 pt |
+| Union productivity vs history | 0.98 | 0.95 | 0.88 | 0.86 |
+| Union GDP ($bn) / without Pacifica's pull | 15.2 / 16.0 | 28.6 / 32.2 | 64.6 / 83.1 | 32.7 / 47.5 |
+| Union output lost to Pacifica | 4.5% | 11% | 22% | 31% |
+| Pacifica GDP ($bn) | 4.0 | 13.6 | 53.9 | 42.1 |
+| Pacifica / the Union | 0.26 | 0.48 | 0.83 | 1.29 |
+| Pacific order / the Union | 0.43 | 0.68 | 1.14 | 1.73 |
+
+**What B12 means for the story:**
+- **Parity happens before the crash.** The whole order passes the Union around 1927–29. Pacifica alone is still smaller in 1929: the Union has three times its population and produces 1.2 times its output.
+- **In 1932, in money terms, Pacifica alone passes the Union.** That is the crash: the Union's money income falls by half, Pacifica's by a fifth. It is the strongest version of OPEN-020-15. Either it becomes the headline of §34 ("the year the Union fell behind"), or the text keeps the Union as the larger industrial power in real output.
+- **§25's "the Union remains the continent's largest industrial power" stays true for one economy until 1929**, but no longer for the order. B2's definition of dominance ("not on outproducing the Union") should become "outproducing the Union only as an order, and only after 1927".
+- **The Union's grievance becomes structural.** It loses about one skilled worker in eight, and 4m would-be immigrants and their children go to Pacifica instead. Its growth runs half a point a year slower in the 1920s. That is the material for its politics: Dawes's patent and exit-fee bills, nativist anger at San Francisco, and a press counting the "lost millions".
+- **The Asian-origin share falls to 16%**, because the diverted immigrants are European. If 20–23% is canon, OPEN-020-14 matters more: recruit skilled Asians, or raise the guest workers' path to residence.
+- **Stress case:** Pacifica's lead stays near 1.5 times the US, so almost nothing is diverted and the Union keeps about 94% of its historical output (about twice the order). B12 runs only if Pacifica really pulls ahead.
+
+### B13. The Union responds — APPROVED
+
+B12 treated the Union as passive. In B13 it copies Pacifica at home and boxes it in abroad. Canon decides the timing:
+- **Whitney (1897–1901)** is Pacifica's friend. His financier allies profit from the brain drain and nobody in Washington objects.
+- **Theodore Roosevelt (1901–09)**, canon's challenger, makes it a national cause. The sale of Carnegie Steel to Pacifica Steel in 1901 gives him his issue (OPEN-020-13). The response starts in 1903 and is fully in force by 1910. Taft and Wilson keep it.
+
+**At home (emulation):**
+- National laboratories and endowed chairs, together with the land-grant universities, Cornell, MIT and Johns Hopkins, funded on a war footing.
+- A Union central bank after the 1895 gold humiliation.
+- The trusts (Standard Oil, Carnegie's successors, later Ford) kept whole as national champions. In this world Standard Oil is probably not dissolved in 1911.
+- Scholarship bonds, repaid by graduates who leave, and taxation of citizens abroad. The real US has taxed its citizens abroad since 1913.
+
+**Abroad (containment):**
+- It competes for Europe's scientists and emigrants from three thousand miles closer.
+- It imposes compulsory licensing of Pacifican patents and tariffs on the champions.
+
+**Pacifica's answer** is to recruit skilled people in Asia: Japanese and Chinese graduates (the Boxer indemnity scholarships of §25), Koreans, Filipinos and Indians.
+
+**In the model (Labour and Champions sheets, MODEL):** once the response is in force:
+- Union skilled emigration falls to a third.
+- Pacifica draws 30% less of Europe's skilled emigrants and 30% less diverted immigration.
+- The Union regains 0.15 points of growth a year.
+- The champions lose 30% of their Union business, 30% of their royalties and 4% of their output to tariffs.
+- Asian skilled recruitment draws 20% of Asia's skilled emigrants per unit of Pacifica's extra lead.
+
+The switch is on Levers ("The Union's response": 0 passive, 1 emulates, 2 emulates and contains; story and stress use 2).
+
+**Result (story case):**
+- **Brain drain:** Union-born skilled workers in Pacifica number 252,000 in 1929, not 575,000.
+- **Asian recruitment:** by 1929 Asia supplies 19,000 skilled workers a year, more than the Union's 12,000.
+- **Asian-origin share:** it recovers to 19% (B12: 16%). This largely settles OPEN-020-14.
+- **The Union:** it has 86m people and $71.8bn in 1929 (B12: $64.6bn), and has lost 14% of its potential output to Pacifica (B12: 22%).
+
+### B14. The partners catch up — APPROVED
+
+Japan, the Gulf Republic, the Philippine crown and the Siberian Republic were historical figures with small fixed uplifts. A **Partners sheet** now models each year by year. Each closes part of the gap between its output per person and Pacifica's every year (conditional convergence). The share closed is 1% of the log gap at full integration, capped at 3 points of extra growth a year. Each partner has an integration index from canon dates:
+- **Japan:** 0.1 at the 1858 treaty, 0.55 at the 1887 compact, 0.75 after 1905, 1.0 at the 1927 Concord. Literate and quick to learn, so it gets full weight.
+- **Gulf Republic:** 0.3 in 1895, rising to 0.85 by 1929 with the oil partnership.
+- **Philippine crown:** 0.3 in 1876, rising to 0.75 by 1932. Its schools start from low literacy.
+- **Siberian Republic:** 0.4 at the 1921 Treaty of Harbin, rising to 0.65.
+
+The mechanism stands for Polytechnic branches and scholarships, Pacifican capital, the AC standard and the open markets of the order. Returning graduates spread what they learned in Pacifica (brain circulation), so the order's own talent flows strengthen the partners rather than draining them.
+
+**Japan's crises scale with its economy:** a richer Japan has more to rebuild in 1923 and larger banks to rescue in 1927. The earthquake, the bank crisis and the San Francisco credit that pays for them grow with Japan's catch-up factor. San Francisco still supplies all of Japan's 1927 borrowing, so the imperial rescue stays decisive (§33).
+
+**Result (story case):**
+
+| | 1900 | 1913 | 1929 | 1932 |
+|---|---|---|---|---|
+| Japan GDP ($bn) / × history | 1.8 / 1.54 | 4.8 / 1.94 | **20.5 / 2.52** | 17.2 / 2.66 |
+| Japan output per person vs the US | 0.17 | 0.23 | 0.38 | 0.55 |
+| Gulf Republic GDP ($bn) / × history | 0.9 / 1.00 | 2.3 / 1.09 | 7.5 / 1.24 | 4.2 / 1.28 |
+| Philippine crown GDP ($bn) / × history | 0.3 / 1.29 | 0.65 / 1.54 | 2.5 / 2.00 | 1.9 / 2.10 |
+| Siberian Republic GDP ($bn) | — | — | 1.7 | 1.4 |
+| All partners × history | 1.31 | 1.55 | 1.90 | 2.08 |
+| Pacific order / the Union | 0.46 | 0.71 | **1.14** | 1.71 |
+| Pacifica + Japan / Britain | 0.62 | 1.47 | 3.06 | 3.64 |
+
+**What B13 and B14 mean for the story:**
+- **The order passes the Union because the partners grow, not because the Union is crippled.** The Union keeps 86% of its potential, while the partners nearly double their historical output. This version is more believable than B12's.
+- **Japan becomes the second industrial power of the Pacific.** By 1929 its economy nearly equals Britain's ($20.5bn against $22.9bn), at about two-thirds of Britain's output per person. That is roughly where Japan stood in the 1960s, reached thirty years early. Japan's debt stays low (6% of GDP in 1929), and the 1923 and 1927 crises hit harder in absolute terms but are absorbed. This raises the stakes of the 1927 Concord and of the 1932 coup: there is much more to lose.
+- **Pacifica alone just passes the Union in 1932** in money terms ($38.5bn against $37.0bn). OPEN-020-15 stands.
+- **Market feedback:** the partners' growth now feeds back into Pacifica through the champions' markets, and the trading regions outside the order catch up too (B15).
+
+### B15. Trading regions and the champions' markets — APPROVED
+
+B14 made the partners richer, but the champions did not notice: their world markets were still fixed story paths. B15 closes that loop and extends catch-up to the regions Pacifica trades with but does not govern or ally with formally. They are modelled like the partners (Partners sheet), with lower integration because Pacifica reaches them only through trade, rails, power and schools:
+
+| Region | Integration, by canon | Why it stays lower | Output vs history, 1929 |
+|---|---|---|---|
+| China | 0.05 (1862) → 0.35 (1929): the Customs Inspectorate (§16), treaty-port schools, rail concessions, backing for Sun, reunification after 1922 | Civil war, warlords | **1.63×** ($13bn) |
+| Korea | 0.1 (1880) → 0.6 (1929): the first treaty around 1878–80, the Korean guarantee (1887), schools, mines and railways | — | **1.94×** ($1.9bn) |
+| Southeast Asia (Siam, the Indies, Malaya, Indochina, Burma) | 0.05 → 0.25: Pacifican oil, power and shipping | Colonial powers hold the gates | 1.23× ($7.4bn) |
+| Mexico and Pacific South America (Mexico to Chile) | 0.05 → 0.4: west-coast railways, power companies, nitrate and copper, the canal from 1901 | — | 1.28× ($9.0bn) |
+| Persian Gulf and Middle East (Persia, Mesopotamia, Arabia) | 0.05 (1905) → 0.25: the oil trust's concessions and the standard | Britain dominates | 1.09× ($2.0bn) |
+
+**The champions' markets.** Each market's output against history is weighted by its share of the champions' business abroad:
+- Japan 25%, China 15%, Mexico and Pacific South America 12%, the Gulf 10%;
+- Southeast Asia 8%, the Philippines 7%, Siberia and the Middle East 5% each, Korea 3%;
+- the rest of the world 10%, unchanged.
+
+By 1929 this basket is 1.66 times its historical size. Half of any rise reaches the champions (capped at +50%), because about half of their business is abroad. Richer customers buy more oil, cars, power plants, dyes, telegraph time and passages. MODEL.
+
+**The loop:**
+
+| Step | Result by 1929 |
+|---|---|
+| Richer customers lift the champions | +33% |
+| Champions' value added at home | $4.2bn (B14: $3.4bn) |
+| Champions' earnings abroad | $1.08bn (B14: $0.81bn) |
+| Crown dividends | $239m at a flat 25% (B14: $184m); $170m with the stakes decided under OPEN-020-10 |
+| Pacifica's GDP | $51.6bn (B14: $49.4bn) |
+| Pacifica's output per person vs the US | 2.28 |
+
+Pacifica's own growth widens its lead, which speeds the partners' catch-up a little and draws a few more migrants. That second round is small, so the loop settles rather than running away.
+
+**Result (story case, 1929):**
+
+| | Value |
+|---|---|
+| Pacific order | $83.9bn, 1.18 times the Union's $71.2bn (1.77 in 1932) |
+| Pacifica + Japan / Britain | 3.15 times |
+| China | $13.0bn, larger than Russia's economy in this world and close to France's ($16.7bn). Still very poor per person, but a market the champions can grow into. |
+
+**What it means for the story:** Pacifica's prosperity now visibly lifts its neighbours, and that is the strongest argument for the order. It is what the Union's emulators and the Gulf's admission campaign answer to. The cost is dependence. Korea, the Philippines and China's treaty ports grow on Pacifican capital and standards, and resentment of that is the anti-colonial undertow of the 1920s.
+
+---
+
+## C. Draft replacement text for the master storyline
+
+**§1, the larger movement (last sentence):**
+> By 1932 the Pacific order dominates and its institutions hold. The Altai record, the price industry exacts from the land, and continuing exclusions give that triumph its unresolved human cost.
+
+**§25, the Gulf Republic paragraph (replace the sentence that begins "Exact margins and statistical definitions remain OPEN"):**
+> **[APPROVED — CR-020]** Pacifica admits only what strengthens it. Besides the five shared measures, judged against its weakest former-territory state, it asks the Gulf for parity across the colour line, in the Defense Law examination and in infant mortality. It also asks for registers it can read, a quota it can collect, its standards, its examinations for office and franchise, and a single foreign policy, all held for a generation. The Republic's own leaders doubt they can meet the bar, and Pacifica, in no hurry, says plainly that if the Gulf cannot master its own problems it does not want them. The Gulf ends the era an ally and a protégé, not a member, with its course set for the next century.
+
+**§25, industrial limits (after the sentence ending "cruisers by 1898"):**
+> **[PROPOSED — CR-020]** All-big-gun turbine capital ships follow from 1903, so Britain's Dreadnought of 1906 answers Pacifica rather than surprising it.
+
+**§26 (after the 1907 compact renewal):**
+> The naval race after 1906 costs Pacifica little: its small, modern fleet loses nothing when older battleships become obsolete. By 1918 it has fourteen turbine capital ships, which with Japan's ten give the 1919 limits their parity with Britain.
+
+**§30, the naval limits (add after "France and Italy below Germany"):**
+> **[PROPOSED — CR-020]** Britain and Germany scrap their 12-inch ships by 1922; a few become training hulks or targets. Britain's Treasury welcomes the saving it needs to fund its gold-dollar debt.
+
+**§33 (replace the paragraph beginning "The achievement imposes common taxes"):**
+> The achievement imposes common taxes, Siberian and island garrisons and the demands of a common capital. Hawaiian bauxite works have already damaged rivers and landscapes Kaiulani remembers from childhood. Keawe Kahananui, a Hilo engineer raised by the examination state, makes the aluminium works clean and profitable, then drafts the 1928 Thalassia Plan: forest reserves, living streams, leeward industrial districts, a smokeless capital and leasehold land whose premiums pay for its parks. Developers, contractors and impatient ministries resist, while Japanese national officers organize Restoration circles against the imperial class.
+
+**§34 (replace "Pacifica is also hurt: exports contract, farm prices fall and bauxite workers lose security"):**
+> Pacifica is also hurt: exports contract, farm and metal prices fall, and when Britain leaves gold in September 1931, sterling-priced metal undercuts the Hilo smelter.
+
+**§34 (add after the Hoover moratorium sentence):**
+> **[PROPOSED — CR-020]** The Reserve Bank has leaned against the late-1920s boom; Pacifica lends its gold rather than hoarding it, raises no tariffs or taxes, and forms an oil compact with the Gulf after the East Texas glut. Holding the yen at par through common finance deepens Japan's rural crisis until the Thalassia settlement makes parities adjustable.
+
+**§34 (replace the paragraph beginning "Keawe's strikes in the ports and bauxite works"):**
+> An emergency order would lift the Thalassia Plan's limits and dam Waimanu Stream for cheaper smelter power. Keawe shows, with figures the statistics bureau confirms, that refinancing the hydro board's debt lowers the power price more than the dam would. Japanese Restoration circles meanwhile seek national military autonomy and a Manchurian corridor. The common order must correct its own mistake while preventing a national army from destroying its alliance.
+
+**§36 heading:** "The failed Tokyo coup and the Lands and Waters Charter (1932)"
+
+**§36 (replace the paragraph beginning "Keawe's movement wins labor reforms"):**
+> **[PROPOSED — CR-020]** Kaiulani brokers between Keawe and Julian in Hawaii. The Lands and Waters Charter makes the Thalassia Plan law for all the islands: watershed reserves and minimum stream flows, two leeward industrial districts, restoration of mined land, leasehold for public land, and an islands index published by the statistics bureau. Waimanu is protected and the smelter keeps its contracts. At ninety-three or ninety-four Kaiulani retains the standing for one last bargain with the son whose methods she condemned. Keawe joins the hydro board, where he must now make the trade-offs he once criticized.
+
+**Character trajectories:**
+- **Kaiulani:** replace "an independent place in the proposed labor settlement" with "an independent place in the Lands and Waters settlement".
+- **Keawe, the Chronicler and Dao:** replace the Keawe sentences with:
+> Keawe Kahananui, an examination-made engineer from Hilo, proves that Hawaiʻi can industrialize without becoming an eyesore. His Living Bay makes the capital the image of the order; his Thalassia Plan and the 1932 Lands and Waters Charter are a victory won inside the system by someone who believes in it.
+
+**§19, the Golden Afternoon and the examination state (add):**
+> **[PROPOSED — CR-020 B9]** The Polytechnic becomes the world's leading technical school. Chairs, laboratories and citizenship go to the best of Europe and Asia without religious or national tests. Tesla comes to San Francisco in 1884, Steinmetz and Baekeland in 1889. The patent office grants fast, and the Crown takes a share of what it licenses.
+
+**§25, replace the heading "Industrial limits beneath the measures" with "Industry beneath the measures", and add after "spread the advantage.":**
+> **[PROPOSED — CR-020 B9]** National champions grow out of the Polytechnic. The Crown holds a quarter of every chartered and concession company and a golden share in the rest. An oil trust refines Gulf crude from Spindletop on and sells lamp oil and bunkers across Asia. Steel for the Pacific is made on hydropower and Philippine ore. The world's first moving assembly line opens in 1911. Chemical works run from dynamite to plastics. The AC standard reaches from Japan to the Persian Gulf, the telegraph and cables span the ocean, and rail concessions run from Canton to the Andes. A San Francisco syndicate underwrites Asia's borrowing. In 1901 it buys Carnegie Steel and forms Pacifica Steel, the world's first billion-dollar company. The Union's press calls Wall Street "the Pacifican interest".
+
+**§30, Credit, oil and the brokered peace (add):**
+> **[PROPOSED — CR-020 B9]** The war cuts Asia and the Entente off from German dyes and drugs. Pacifica seizes or licenses the German patents, supplies the Entente's munitions and leaves the war as one of the world's three great chemical powers.
+
+**§33 (add):**
+> **[PROPOSED — CR-020 B9]** By 1929 Pacifica builds more than a million motor vehicles a year, makes a quarter of the world's electrical equipment and owns $17bn abroad. It still has a third of the Union's output. Its lead is in what it owns and invents, not in its size.
+
+**Unresolved decisions, item 26:** mark OPEN-019-09 (labour-charter terms) as superseded by CR-020; add OPEN-020-01 to -23.
+
+---
+
+## D. Financial model
+
+**Pacifica_financial_model_1846-1932.xlsx** (working model; MODEL estimates, not canon)
+
+- **Layout:** years run down the page. The tabs are Start, Changes, Levers, Events, Paths, People, Economy, Resources, Budget, Debt & cash, Loans, Gold & money, Abroad, Champions, Labour, Navy plan, Navy, Japan, Gulf, World and Checks.
+- **Events tab:** a ledger of about 90 dated story commitments, each with canon status and section.
+- **Cases:** Story and Stress, chosen in Levers E4.
+  - **Story case:** no problems flagged in any year.
+  - **Stress case:** a quarter less growth after 1895, more expensive wars and rescues, and a $700m Union rescue. By 1932 debt reaches 47% of GDP, interest 22% of receipts, and gold cover is breached.
+- **Gulf switch:** Levers, "Gulf Republic", off by default. Checks flags any admission year before the indicators allow it.
+- **Main changes from Sol's model:**
+  - a real fleet with the canon technology dates;
+  - oil royalties;
+  - costed technology programmes;
+  - Japan's own budget;
+  - a state-owned canal;
+  - surpluses go to repaying debt and a Treasury Reserve Fund, not to idle cash (PROPOSED mechanism);
+  - a milder slump (−32% in money terms, not −41%);
+  - a World comparison sheet.
+- **Kept from Sol's model:** the $8.5bn Entente programme (Treasury share 20% here, against 10% in his proposal), the $808m Siberian campaign, the $80m-a-year Siberian front, the $400m second Union rescue, and $150m of bank recapitalization.
+- **Not carried over:** bank-by-bank balance sheets, the railway and shipping tonnage tests, and foreign gold deposits.
+- **CR-020 additions, each with a lever on the Levers sheet:**
+  - **Abroad sheet:** private investment abroad and the income it sends home, which gives national income alongside GDP. A 10% tax on that income goes to the Treasury.
+  - **Champions sheet** (B9, replaces the Sectors sheet). It holds the talent counts and the oil trust, steel, motor vehicles, chemicals and drugs, electrical equipment and the AC standard, telecom, shipping and underwriting, film, and aluminium and aircraft. It feeds extra GDP to Economy, earnings and assets abroad to Abroad, and Crown share dividends to Budget. The main lever is the champions' scale: 1.0 in the story case, 0.6 in the stress case.
+  - **Milder price fall:** Pacifica suffers 60% of the US price fall in 1930–32.
+  - **Oil compact with the Gulf from 1931:** it holds the oil price at $0.95 for 15% less output. Without it, the Gulf's real wage fails its admission bar in 1931–33.
+  - **Gulf admission switch** (B5).
+  - **Standing public debt:** a floor of 5% of GDP from 1887 (OPEN-020-06), so debt is never fully repaid. Story-case debt is 5–6% of GDP throughout.
+  - **Islands programme and the Formosan administration fee** as Events.
+  - **Drag on the Union's output** on the World sheet.
+  - **Development Fund** (B8): surpluses, development bonds and reserves above a 3% buffer are invested in productivity.
+  - **Trading regions and the champions' markets** (B15), on the Partners sheet; the market basket raises the champions' effective scale.
+  - **The Union's response** (B13), on the Labour and Champions sheets, and the **Partners sheet** (B14): Japan, the Gulf, the Philippine crown and Siberia converge on Pacifica in proportion to their integration with the order; Japan's disasters and San Francisco credit scale with its economy.
+  - **The Union** (B12), on the Labour sheet: diverted immigration, missing people and their children, compounding brain-drain and trade drags, the champions' markets, guest workers, and the crash. It replaces the fixed Union drag on the World sheet.
+  - **Guest workers** (B11), on the Labour sheet: permits, quota, levy, remittances and settlement; switch on Levers ("Guest-worker programme").
+  - **Labour sheet** (B10): skilled migration that answers Pacifica's lead, up to a ceiling of entry places; families, relatives, and workers for new jobs; the talent uplift to output and the champions; Pacifica's and the Union's unemployment; and the Union's losses to emigration and to the champions, which feed the World sheet. The switch is on Levers ("Migration responds to Pacifica's lead").
+- **Results:** the story case passes every check in every year. In 1929 it has 25.6m residents, about 1.1m guest workers and $51.6bn of GDP, about 2.28 times US output per person present. The Union has 86m people and $71.2bn; Japan $20.6bn; the whole order $83.9bn. The stress case breaks during the war and in 1932. It has no oil compact, the full US price fall, half the return on development and 60% of the champions. Its bond issues are too large in 1916–18, and in 1932 debt reaches 36% of GDP, interest 15% of receipts, and gold cover is breached.
+
+**Summary page:** "Pacifica Ledger 1846–1932", with a switch between the story and stress cases.
+
+---
+
+## E. Decisions (19 October) and the questions still open
+
+| ID | Question | Decision | Status |
+|---|---|---|---|
+| OPEN-020-01 | Which "weakest member" sets the Gulf's bar? | The weakest former-territory state | APPROVED |
+| OPEN-020-02 | The sixth measure | Two parity measures: the Defense Law examination pass rate, Black and freedmen against white, at 95% or more; and the infant mortality ratio at 1.05 or less (B5) | APPROVED, amended |
+| OPEN-020-03 | Does the 1927 flood break the Gulf's streak? | The five general measures hold, narrowly; the 1931 oil glut breaks them by about a point | APPROVED |
+| OPEN-020-04 | Gulf admission year | Not in the novel. Every measure must be held for a generation (25 years), and Pacifica may ask for a second. It is an open challenge the Gulf itself doubts it can meet; Pacifica is in no hurry. The earliest conceivable admission is the mid-1960s | APPROVED, revised |
+| OPEN-020-05 | First Pacifican all-big-gun ship | 1903. **Plot:** HMS Dreadnought becomes Britain's answer, which makes the 1906 non-event credible (A1). **Realism:** Cuniberti published the idea in 1903, and a navy with turbines from 1885 and oil from 1876 is the natural first mover | APPROVED (author's request for a suggestion) |
+| OPEN-020-06 | A standing public debt? | Yes, about 5% of GDP. **Realism:** a central bank needs government securities to work with, and almost no state is ever debt-free. **Plot:** the Reserve Bank runs the 1931 rescue through these bonds | APPROVED (author's request for a suggestion) |
+| OPEN-020-07 | Keawe and Thalassia | Keawe Kahananui, born 1895 in Hilo, Hapa: his father is a Hawaiian harbour pilot, his mother's family Japanese-Pacifican farmers in Waimanu. Thalassia stands on Kāneʻohe Bay on windward Oʻahu, beside the old Hawaiian fishponds that become its canals (CR-021 B6; moved from Molokaʻi and then from Pearl Harbor at the author's direction, 19–20 October). That gives Keawe his first problem and his first fame: the Living Bay of 1919–23, with sewage carried beyond Mōkapu Point, forest reserves on the slopes, restored fishponds and a marine reserve | APPROVED (author's request for a suggestion) |
+| OPEN-020-08 | A surviving port or bauxite dispute? | Leave it out | APPROVED |
+| OPEN-020-09 | A state savings and development bank? | In the narrative as the financing behind the champions; not in the model | APPROVED |
+| OPEN-020-10 | The Crown share in the champions | 25% in chartered and concession industries; a golden share and 8% in competitive ones; none in banking. About 17% on average (B9) | APPROVED |
+| OPEN-020-11 | The Polytechnic's recruits; who invents the assembly line | Tesla, Steinmetz and Baekeland; a Pacifican engineer and firm, 1911 | APPROVED |
+| OPEN-020-12 | How far the AC standard reaches | The Pacific, East Asia, Latin America and the Persian Gulf oil coast; not British India or most of Africa | APPROVED |
+| OPEN-020-13 | Carnegie Steel in 1901 | **It succeeds.** Pacifica Steel buys Carnegie Steel and becomes the first billion-dollar company. The purchase sets off widespread resentment in the Union against Pacifica and against Wall Street, seen as in bed with a foreign power. That anger feeds Roosevelt's 1903 alarm (B9, B13) | DECIDED by the author |
+| OPEN-020-14 | Recruit skilled Asians? | Yes, through Japan's and China's universities (B13) | APPROVED |
+| OPEN-020-15 | The 1932 money crossing | The Union stays the larger power in real output; the money crossing is a headline the Union's press resents | APPROVED |
+| OPEN-020-16 | The skilled-entry ceiling | Superseded: at 0.3% of residents the ceiling stops binding in the late 1920s, and supply limits skilled entry (B12, B13) | SUPERSEDED |
+| OPEN-020-17 | Guest workers on Singapore's or the Gulf's model? | Singapore's: levy, quotas, the right to change employer, a path to residence | APPROVED |
+| OPEN-020-18 | Guest workers on the page | Mentioned here and there; they must not detain the plot | APPROVED |
+| OPEN-020-19 | The size of the Union's growth drags | The brain drain falls to a third after 1900 (B13). The drags are as modelled | APPROVED |
+| OPEN-020-20 | The Union's capital ships | It builds three modern ships from 1927 (21 by 1929). The crash halts building, and it joins the limits in 1932 | APPROVED, modelled |
+| OPEN-020-21 | The Union's grand strategy | Emulate and contain to 1932; the revanchist 1930s stay the unresolved threat | APPROVED |
+| OPEN-020-22 | The partners' catch-up speed | As modelled | APPROVED |
+| OPEN-020-23 | The trading regions' catch-up | As modelled | APPROVED |
+
+---
+
+## F. Documents to synchronize after approval
+
+- `master_storyline` — §1, §25, §26, §33, §34, §36, the character trajectories and the unresolved-decisions list (section C).
+- `change_requests.json` — add CR-020 (A1–A6) and the decisions on OPEN-020-01 to -23 (-16 superseded); mark OPEN-019-09 superseded.
+- `character_bible.md` and `character_registry.json` — the revised Keawe.
+- `war_base_assumptions.md` — the fleet classes and the 1919 parity counts.
+- The financial model — done (section D).

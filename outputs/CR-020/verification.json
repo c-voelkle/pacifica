@@ -1,0 +1,162 @@
+{
+  "request": "CR-020",
+  "date": "2026-10-20",
+  "passed": true,
+  "checks": [
+    {
+      "check": "sync_master_storyline.py --write",
+      "passed": true,
+      "detail": "approved_change_index.md is already synchronized."
+    },
+    {
+      "check": "sync_master_storyline.py --check",
+      "passed": true,
+      "detail": "Approved-change index synchronized; approved CR IDs referenced in master storyline."
+    },
+    {
+      "check": "validate_character_docs.py ",
+      "passed": true,
+      "detail": "Character documents valid: all canonical IDs, links and 250 legacy profiles agree."
+    },
+    {
+      "check": "CR-020 decision coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 23 E decisions resolved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "B4 alone superseded among topics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Old charter no longer open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Hoover office remains qualified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-016 embedded source preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-018 embedded source preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-019 embedded source preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original character archive and crosswalk unchanged",
+      "passed": true,
+      "detail": "2 fingerprinted files"
+    },
+    {
+      "check": "Original CR-020 and working copy byte-identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All earlier IDs retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All original legacy assignments retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "New supporting identities without legacy reassignment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Registry statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 37 numbered narrative sections retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unrelated narrative sections unchanged",
+      "passed": true,
+      "detail": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 23, 24, 27, 28, 31, 32, 35"
+    },
+    {
+      "check": "Superseded labor plot removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Correct capital and stream",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final model scale explicitly qualified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real output and nominal crossing distinguished",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unrelated Vance arc remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gulf remains outside membership",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "New local document links resolve",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Portable archive integrity",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "changed_revision_files": [
+    "approved_change_index.md",
+    "change_requests.json",
+    "character_bible.md",
+    "character_registry.json",
+    "CR-015.md",
+    "CR-018.md",
+    "CR-019.md",
+    "historical_background.md",
+    "master_storyline.md",
+    "power_timeline_1865_1900.md",
+    "README.md",
+    "war_base_assumptions.md"
+  ],
+  "new_revision_files": [
+    "CR-020.md"
+  ],
+  "character_identities": 116,
+  "original_legacy_profiles": 250,
+  "model_status": "Reference updated from supplied CR-020; replacement workbook not provided or recalculated."
+}

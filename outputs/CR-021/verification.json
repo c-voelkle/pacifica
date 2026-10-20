@@ -1,0 +1,220 @@
+{
+  "request": "CR-021",
+  "revision": 8,
+  "date": "2026-10-20",
+  "passed": true,
+  "checks": [
+    {
+      "check": "sync_master_storyline.py --write",
+      "passed": true,
+      "detail": "Updated approved_change_index.md from the authorial register."
+    },
+    {
+      "check": "sync_master_storyline.py --check",
+      "passed": true,
+      "detail": "Approved-change index synchronized; approved CR IDs referenced in master storyline."
+    },
+    {
+      "check": "validate_character_docs.py ",
+      "passed": true,
+      "detail": "Character documents valid: all canonical IDs, links and 250 legacy profiles agree."
+    },
+    {
+      "check": "All 17 CR-021 decisions approved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original CR-021 and working copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-016 embedded source unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-018 embedded source unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-019 embedded source unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-020 embedded source unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CR-020 B7 amended without changing original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Protected archive and crosswalk unchanged",
+      "passed": true,
+      "detail": "2 fingerprints"
+    },
+    {
+      "check": "All earlier character IDs retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All original legacy assignments unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Three new historical-court identities only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Noe and Kahekili retain their IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Registry count and retirement statistics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "20 dossier updates accounted for",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "37 narrative sections retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unrelated chapters unchanged",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 7, 9, 10, 11, 13, 14, 18, 31, 34]"
+    },
+    {
+      "check": "Constitution and counties replace old names",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Life Providentorship and constitutional wrong explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Noe career and contested death documented",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Concord illegality and cure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Co-equal crowns and minister rule",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Julian style and five-year function distinguished",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Hayama protocol and no reigning visit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Single 1921 dive and later scientific exchange",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Altai secret withheld from Hirohito",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mother and heir obsolete plot references removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crown land, protected sites and lease revenue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Updated status perimeters and northern coast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "New source ratios stay MODEL with Union comparator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Dawes and Young term sequence retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unrelated Vance proposal preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All requested resolved master items marked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "New local links resolve",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Archive integrity",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "changed_revision_files": [
+    "approved_change_index.md",
+    "change_requests.json",
+    "character_bible.md",
+    "character_registry.json",
+    "CR-015.md",
+    "CR-016.md",
+    "CR-018.md",
+    "CR-019.md",
+    "CR-020.md",
+    "historical_background.md",
+    "master_storyline.md",
+    "power_timeline_1865_1900.md",
+    "README.md",
+    "war_base_assumptions.md"
+  ],
+  "new_revision_files": [
+    "CR-021.md"
+  ],
+  "character_identities": 119,
+  "legacy_profiles": 250,
+  "remaining_source_reconciliations": [
+    "President Young wording read within unchanged Dawes/Young chronology",
+    "Detailed coastal map including earlier Nikolayevsk clause remains to reconcile; named northern regions follow CR-021 I5",
+    "Resident imperial prince office settled, Chichibu remains a candidate, not an invented appointment"
+  ],
+  "model_status": "Updated source comparisons recorded, replacement workbook not supplied/recalculated."
+}

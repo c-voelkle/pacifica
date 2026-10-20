@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": {
+    "CR-015 original byte preservation": true,
+    "Power Timeline original byte preservation": true,
+    "Legacy crosswalk unchanged": true,
+    "Legacy secondary index unchanged": true
+  },
+  "local_markdown_links": "passed",
+  "missing_links": [],
+  "numbered_story_sections": 37,
+  "original_cr013_ids": 30,
+  "canonical_identities": 95,
+  "legacy_profiles": 250,
+  "changed_files": [
+    "registry-edit/book-agent/revision/approved_change_index.md",
+    "registry-edit/book-agent/revision/change_requests.json",
+    "registry-edit/book-agent/revision/character_bible.md",
+    "registry-edit/book-agent/revision/character_registry.json",
+    "registry-edit/book-agent/revision/confederate_value_schema.md",
+    "registry-edit/book-agent/revision/historical_background.md",
+    "registry-edit/book-agent/revision/master_storyline.md",
+    "registry-edit/book-agent/revision/README.md",
+    "outputs/CR-013/CR-013-consolidated.md"
+  ],
+  "new_files": [
+    "registry-edit/book-agent/revision/CR-015.md",
+    "registry-edit/book-agent/revision/planning/elias_rise_to_power_1844_1861.md",
+    "registry-edit/book-agent/revision/planning/part_i_plan.md",
+    "registry-edit/book-agent/revision/power_timeline_1865_1900.md",
+    "registry-edit/book-agent/revision/war_base_assumptions.md",
+    "outputs/pacifica-finances-20261017/CR015_reconciliation.md",
+    "outputs/01a1493c-c06f-7100-86a0-5bea2c4ec324/CR015_reconciliation.md"
+  ],
+  "errors": [],
+  "limits": "These checks establish documentation synchronization, preserved provenance and local link integrity; numerical, historical and literary feasibility is not certified."
+}

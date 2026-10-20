@@ -207,3 +207,16 @@ The canonical [character bible](character_bible.md) and the [registry's](charact
 
 - [University of Tennessee American Civil War Collection](https://digitalcollections.lib.utk.edu/collections/c097e326-1c68-4781-8556-be0ebece3576?locale=en): select individual writers and establish allegiance, unit, date, audience, and document type before integrating a passage.
 - [Civil War on the Western Border](https://civilwaronthewesternborder.org/object-type/letter?page=13): a collection of military, civilian, and official voices; individual catalogue descriptions are leads rather than substitutes for reading the documents.
+
+
+
+## CR-015 continuity for applying these character tests
+
+The historical source passages above are unchanged. Fictional applications now follow the 1865 peace, 1870–1871 failed Union war, customs/debt association and abolition course in CR-015. Davis leaves office in 1868, Johnston serves to 1874 and Gordon follows; Benjamin's later senate/cabinet route remains proposed. Armistead's Auxiliary service is recruitment from an independent partner, with Philippine service possible after 1876. No extinguished Confederacy or 1860s Philippine conquest is required.
+
+The fugitive agreement, free-womb reform, customs-secured compensation and later Gulf secession create new tests of responsibility: which households an officer protects, whose freedom a legal bargain excludes and whether a debt survives the political authority that incurred it. These are scene opportunities, not approved incidents. Alabama stays rump Confederate after 1900; Louisiana, Texas, Arkansas and Sequoyah form the Gulf Republic. Loyalty to a regiment, Richmond and a home state can therefore diverge without reducing every soldier to a fixed faction.
+
+
+## Later CR-016 continuity
+
+The managed 1887 succession replaces civil war. Kaiulani adopts Julian while his mother lives and raises him as successor; exact instruments remain proposed. The Polytechnic commander is unrelated to the Vances, provisionally Rafael Soberanes. CR-018 identifies Kiyoshi as Fleet-General Kuroda through the approved 1886 adoption/marriage, makes Julian direct successor in 1915 and fixes the surviving stakeholder empire. Japan controls and completes the eastern railway link through Chinese-owned Manchuria. Earlier childhood, founding and wartime value tests remain intact. Vance’s proposed Altai / confession / death arc stays OPEN-018-18; CR-019 gives the triumph a labor and creditor-order cost.

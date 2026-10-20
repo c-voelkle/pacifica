@@ -34,18 +34,20 @@ After an explicit author decision affecting character identity or development, u
 
 Critical identity collisions: Elias's father Silas is not the later Silas claimant; Julian is Elias's biological son and Kaiulani's adopted son (not uncertain ancestry); Kaiulani's deceased legitimate child has no descendants; Marcus I, II and III are distinct generations; Kalanimoku's family tree is open; early and later Takashima/Kuroda, Shen, Hoshino and Kalākaua entries must not be silently merged; Dao's pronouns remain unresolved. This is not a complete list; see `character_bible.md`.
 
-## Latest authorial decisions
+## Current authorial authority (20 October 2026)
 
-Elias was born c.1824; childhood with a possible French Napoleonic engineer mentor; 1840 Council House fight and 1841–42 captivity with Caleb; independent California founded **31 May 1846**; public 1848 gold; Elias becomes Superintendent of Mines and Public Revenue in 1852 and First Minister c.1855.
+Follow the current master storyline, CR register and CR-021 revision 9 after CR-020. Later explicit author decisions override the older source proposals and labels. Preserve APPROVED, PROPOSED, OPEN and MODEL distinctions.
 
-**Pacifica is a Confederation of the California Republic and Hawaiian Kingdom, declared in Honolulu on 31 July 1856 and ratified that autumn.** Elias becomes Chancellor. Kaiulani, born 1838 and Kuhina Nui from 1855, marries him in February 1857 after ratification.
+CR-014 retains the Kuhina Nui under Lot. Constitutional amendment and member ratification govern enabling authority; do not restore the superseded personal-veto or abolished-office explanations. The western peace framework is 1865, with Senate ratification in 1867.
 
-Japan: Shimoda arrangement c.1855, **definitive Treaty of Edo 1858**, then the *Kanrin Maru* voyage in **March 1860 as a treaty follow-up**. Never restore a 1860 Edo treaty signing.
+Noe Kaʻanoe Ward is Julian’s mother; the hānai adoption bargain is made in 1886, before her ambiguous death in 1888. Never establish a murderer. The restored Hawaiian crown dates to 1914. Kahekili / Ikazuchi is the future Kamehameha VII; preserve his existing stable ID CT-KALANIMOKU-HEIR and distinguish the lost Kalanimoku.
 
-The 1860 Washoe crisis involves Kaiulani's Article XIV veto; in 1861 she and California's president authorize a temporary Protectorship for Elias. The 1864 abolition of Kuhina Nui under Lot creates a constitutional dispute **not automatically solved by domestic law**. A 1865 settlement consolidates the Protectorate. Hawaiian incorporation and massacre occur in c.1874 after the royal succession crisis.
+The Constitution of the Realm uses 124 counties. Tongue votes are uncapped. The Pacific Concord has coequal crowns; Julian is Sovereign/Mōʻī, never President. Annual Councils are at Hayama. Illegal provisional application in 1927 receives consent and indemnity in 1928. The crowns agree the 1932 renewal at Hayama, and ministers sign/exchange instruments at Thalassia; the renewal runs to 1937.
 
-Family and later: lost legitimate child, Julian born c.1886–87 to a younger Hawaiian-American woman, adopted by Kaiulani after his mother's ambiguous death, eventual Julian Restoration in 1931. These and other unresolved genealogical details remain **[OPEN]**.
+Prince Chichibu is Japan’s resident representative at Thalassia, educated in Pacifica in 1925–26 instead of Oxford. His honors and outdoorsman reputation develop in Pacifica, expressing Japan’s turn toward Pacifica instead of Britain. Do not invent specific decorations, climbs or command authority. At least one common minister must be Japanese, conventionally Navy; Foreign Affairs and Finance normally remain Pacifican.
 
-Population 1.2m, army and navy figures are narrative planning targets subject to demographic, engineering and financial auditing. Use `war_base_assumptions.md`.
+Dawes remains incumbent during the 1931–32 rescue and negotiations. Young campaigns for acceptance, wins in November 1932 and assumes office in 1933. Korea is independent and guaranteed after 1905, with agreed economic, military and transit rights. From 1921 the Siberian Republic holds Kamchatka, the Okhotsk coast and Nikolayevsk; Japanese access is treaty-only.
 
-The uploaded `rise_to_power.md` has been fully reviewed and archived as `book-agent/revision/sources/rise_to_power.md`. Its author-approved narrative proposals have been reconciled with the master storyline, with historical/legal exceptions documented explicitly.
+Keawe’s environmental arc leads from Living Bay to the 1928 plan and 1932 Lands and Waters Charter. The Gulf remains outside membership; all five general measures and two parity tests must hold for twenty-five years. Numerical and financial results remain MODEL estimates, with unresolved feasibility questions retained.
+
+The character registry contains 120 stable identities, including five retired records, with all 250 original profiles preserved through the legacy crosswalk. Read the current character documentation before resolving any identity collision.

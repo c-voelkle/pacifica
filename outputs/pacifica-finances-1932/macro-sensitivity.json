@@ -1,0 +1,451 @@
+{
+  "description": "Nonmining VA per resident 25% lower from 1906; same subsequent growth, population and commitments.",
+  "annual": [
+    {
+      "year": 1901,
+      "gdp": 3009.6174785736052,
+      "cash": 168.38645246943156,
+      "cashGap": 0,
+      "gold": 434.5844398285888,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1902,
+      "gdp": 3162.3209450812556,
+      "cash": 203.3947220098063,
+      "cashGap": 0,
+      "gold": 470.46050738923884,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1903,
+      "gdp": 3323.1278969806085,
+      "cash": 245.36236126727266,
+      "cashGap": 0,
+      "gold": 507.6230305650837,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1904,
+      "gdp": 3492.464051196971,
+      "cash": 222.07939506622813,
+      "cashGap": 0,
+      "gold": 497.34024297465953,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1905,
+      "gdp": 3670.777169056559,
+      "cash": 208.2757451994311,
+      "cashGap": 0,
+      "gold": 492.28796032711205,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1906,
+      "gdp": 2920.882080461403,
+      "cash": 174.30001703214074,
+      "cashGap": 0,
+      "gold": 533.3288969708032,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1907,
+      "gdp": 3081.494100496345,
+      "cash": 140.25986865285773,
+      "cashGap": 0,
+      "gold": 575.5250133747738,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1908,
+      "gdp": 3250.549465753272,
+      "cash": 106.24655057286336,
+      "cashGap": 0,
+      "gold": 618.9477477928,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1909,
+      "gdp": 3428.4578952063284,
+      "cash": 74.1840903408627,
+      "cashGap": 0,
+      "gold": 663.6716994856905,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1910,
+      "gdp": 3615.64748321335,
+      "cash": 78.04490308336801,
+      "cashGap": 1.4210854715202004e-14,
+      "gold": 709.7747792267,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1911,
+      "gdp": 3812.56549149901,
+      "cash": 82.1110048663658,
+      "cashGap": 2.842170943040401e-14,
+      "gold": 757.3383660377359,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1912,
+      "gdp": 4019.6791757070387,
+      "cash": 86.39224661571401,
+      "cashGap": 1.4210854715202004e-14,
+      "gold": 806.4474704360646,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1913,
+      "gdp": 4237.476648145658,
+      "cash": 90.89893484621763,
+      "cashGap": 2.842170943040401e-14,
+      "gold": 857.190904484122,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1914,
+      "gdp": 4800.173629111592,
+      "cash": 121.85116276660881,
+      "cashGap": 0,
+      "gold": 902.9511057540203,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1915,
+      "gdp": 5466.175374808903,
+      "cash": 139.45802937678485,
+      "cashGap": 0,
+      "gold": 914.642556622387,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1916,
+      "gdp": 6160.751606285312,
+      "cash": 158.97755620712607,
+      "cashGap": 0,
+      "gold": 883.2997559064681,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1917,
+      "gdp": 6883.80592857465,
+      "cash": 180.29850698368512,
+      "cashGap": 0,
+      "gold": 837.1562541758499,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 14.355182853254178,
+      "bankGap": 0
+    },
+    {
+      "year": 1918,
+      "gdp": 7635.219960513175,
+      "cash": 225.41688822472398,
+      "cashGap": 1.4210854715202004e-13,
+      "gold": 798.2644831755161,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 5.391578057134808,
+      "bankGap": 0
+    },
+    {
+      "year": 1919,
+      "gdp": 7213.193602909755,
+      "cash": 276.52086180756686,
+      "cashGap": 0,
+      "gold": 844.1593472348883,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1920,
+      "gdp": 6848.479210077661,
+      "cash": 274.92573102704097,
+      "cashGap": 0,
+      "gold": 875.7007170945208,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1921,
+      "gdp": 6461.79519088773,
+      "cash": 250.21906149162174,
+      "cashGap": 0,
+      "gold": 904.9605960072636,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1922,
+      "gdp": 6663.66521995029,
+      "cash": 309.1104517815086,
+      "cashGap": 0,
+      "gold": 966.4185507270976,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1923,
+      "gdp": 7162.341208939804,
+      "cash": 271.8338678419987,
+      "cashGap": 0,
+      "gold": 1037.7762009604066,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1924,
+      "gdp": 7482.932632773266,
+      "cash": 264.00541685111006,
+      "cashGap": 0,
+      "gold": 1126.917548497056,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1925,
+      "gdp": 7820.130680989728,
+      "cash": 267.7965789374575,
+      "cashGap": 0,
+      "gold": 1220.9606377809132,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1926,
+      "gdp": 8174.74245596453,
+      "cash": 283.5195831616621,
+      "cashGap": 0,
+      "gold": 1319.9501155099572,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1927,
+      "gdp": 8547.611822779523,
+      "cash": 223.98487083144192,
+      "cashGap": 0,
+      "gold": 1371.4661335513065,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1928,
+      "gdp": 8939.621060604122,
+      "cash": 256.46067707493444,
+      "cashGap": 0,
+      "gold": 1480.6535082513642,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1929,
+      "gdp": 9167.908746592198,
+      "cash": 349.85750249518287,
+      "cashGap": 0,
+      "gold": 1597.5605086482385,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1930,
+      "gdp": 7742.486228190807,
+      "cash": 292.54132517597145,
+      "cashGap": 0,
+      "gold": 1643.1686482944915,
+      "goldGap": 0,
+      "savingGap": 0,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1931,
+      "gdp": 6525.546263717148,
+      "cash": 144.36129548912325,
+      "cashGap": 14.4843658413063,
+      "gold": 1202.4849202185605,
+      "goldGap": 0,
+      "savingGap": 208.7364434604633,
+      "foreignGap": 0,
+      "bankGap": 0
+    },
+    {
+      "year": 1932,
+      "gdp": 5364.37223744904,
+      "cash": -63.58018116792368,
+      "cashGap": 191.7630146661451,
+      "gold": 966.701143488074,
+      "goldGap": 0,
+      "savingGap": 172.6952569620903,
+      "foreignGap": 0,
+      "bankGap": 0
+    }
+  ],
+  "diagnostics": {
+    "Treasury cash": [
+      {
+        "year": 1931,
+        "value": 14.4843658413063
+      },
+      {
+        "year": 1932,
+        "value": 191.7630146661451
+      }
+    ],
+    "Debt ceiling": [],
+    "Interest ceiling": [
+      {
+        "year": 1868,
+        "value": 0.000020266420834497145
+      }
+    ],
+    "Peacetime overseas ceiling": [
+      {
+        "year": 1866,
+        "value": 0.00032295398715574686
+      },
+      {
+        "year": 1876,
+        "value": 0.013999055572129403
+      },
+      {
+        "year": 1906,
+        "value": 0.0005781776024158178
+      },
+      {
+        "year": 1923,
+        "value": 0.00489345726601273
+      },
+      {
+        "year": 1924,
+        "value": 0.0015377921995247401
+      },
+      {
+        "year": 1925,
+        "value": 0.0006705332821620585
+      },
+      {
+        "year": 1927,
+        "value": 0.00965849125112088
+      },
+      {
+        "year": 1930,
+        "value": 0.0019360966625952478
+      },
+      {
+        "year": 1931,
+        "value": 0.04852689921668615
+      },
+      {
+        "year": 1932,
+        "value": 0.04980303847005294
+      }
+    ],
+    "Partner cash": [],
+    "Japan cash": [],
+    "Rail tonnes/day": [],
+    "Sea tonnes/year": [],
+    "Gold cover": [],
+    "Domestic private funds": [
+      {
+        "year": 1931,
+        "value": 208.7364434604633
+      },
+      {
+        "year": 1932,
+        "value": 172.6952569620903
+      }
+    ],
+    "Neutral foreign funds": [
+      {
+        "year": 1917,
+        "value": 14.355182853254178
+      },
+      {
+        "year": 1918,
+        "value": 5.391578057134808
+      }
+    ],
+    "Domestic bank capital": [],
+    "Union bank capital": [
+      {
+        "year": 1932,
+        "value": 36.96
+      }
+    ]
+  },
+  "inputRestored": true
+}

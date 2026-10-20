@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "checks": {
+    "attachment_byte_preserved": true,
+    "legacy_crosswalk_unchanged": true,
+    "story_sections_1_through_37": true,
+    "active_polytechnic_identity_present": true,
+    "no_active_links_to_retired_identity": true,
+    "railway_prevention_in_master": true,
+    "all_cr016_open_ids_preserved": true,
+    "no_corrupted_vance_names": true
+  },
+  "missing_links": [],
+  "errors": [],
+  "registered_identities": 96,
+  "retired_identities": 1,
+  "legacy_profiles": 250,
+  "changed_files": [
+    "registry-edit/book-agent/revision/approved_change_index.md",
+    "registry-edit/book-agent/revision/change_requests.json",
+    "registry-edit/book-agent/revision/character_bible.md",
+    "registry-edit/book-agent/revision/character_registry.json",
+    "registry-edit/book-agent/revision/confederate_value_schema.md",
+    "registry-edit/book-agent/revision/CR-015.md",
+    "registry-edit/book-agent/revision/historical_background.md",
+    "registry-edit/book-agent/revision/legacy_secondary_cast.md",
+    "registry-edit/book-agent/revision/master_storyline.md",
+    "registry-edit/book-agent/revision/planning/elias_rise_to_power_1844_1861.md",
+    "registry-edit/book-agent/revision/planning/part_i_plan.md",
+    "registry-edit/book-agent/revision/power_timeline_1865_1900.md",
+    "registry-edit/book-agent/revision/README.md",
+    "registry-edit/book-agent/revision/validate_character_docs.py",
+    "registry-edit/book-agent/revision/war_base_assumptions.md",
+    "outputs/CR-013/CR-013-consolidated.md"
+  ],
+  "new_files": [
+    "registry-edit/book-agent/revision/CR-016.md"
+  ],
+  "limits": "Documentation integrity only. Source PROPOSED mechanisms and historical/numerical feasibility are not certified."
+}

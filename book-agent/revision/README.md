@@ -1,48 +1,45 @@
-# Pacifica — Revision workspace
+# Pacifica revision workspace
 
-## Read the story
+**Updated:** 20 October 2026. The [master storyline](master_storyline.md) incorporates [CR-021 revision 9](CR-021.md) after CR-020: Constitution of the Realm and counties, restored Hawaiian crown, Pacific Concord, Noe Ward, Kahekili / Ikazuchi and Julian–Hirohito’s relationship. Keawe’s Lands and Waters Charter and the Gulf’s challenge remain.
 
-**[Master Storyline](master_storyline.md)** is the single continuous, chronological account of the second-draft plot, from Elias's Kentucky childhood (born c.1824) to the fall of Pacifica around 1932. It integrates author-approved character, family, constitutional and geopolitical decisions directly into the narrative, without describing what used to happen in the first draft. Unsettled decisions are labeled **[OPEN]**.
+## Current documents
 
-Additional reference documents:
-- [change_requests.json](change_requests.json) — the authoritative machine-readable record of approved authorial decisions and remaining questions.
-- [historical_background.md](historical_background.md) — real dates, source links, legal/geopolitical context and precisely identified historical divergences. Kept separate to avoid turning the storyline into a research memo.
-- [war_base_assumptions.md](war_base_assumptions.md) — immigration, revenue, military manpower, ships, weapons and infrastructure estimates with historical benchmarks and modeling caveats.
-- **[character_bible.md](character_bible.md)** — authoritative second-draft character reference: motivations, distinct voices, independent POVs, families and relationships, including the founding-era figures.
-- [confederate_value_schema.md](confederate_value_schema.md) — Confederate value framework, Western soldier voices, source distinctions and prospective scene tests supporting CR-012.
-- [character_registry.json](character_registry.json) — structured IDs and identity-aware relationships for 75 canonical or provisional characters/role groups.
-- [legacy_character_crosswalk.json](legacy_character_crosswalk.json) — traceability for every one of the 250 original profiles, including unresolved identity collisions.
-- [legacy_secondary_cast.md](legacy_secondary_cast.md) — readable index of 179 original secondary sketches awaiting detailed reconciliation.
-- [validate_character_docs.py](validate_character_docs.py) — consistency test checking names, IDs, links and legacy crosswalk against original profiles.
-- [sources/rise_to_power.md](sources/rise_to_power.md) — the complete original author-supplied 1844–1861 proposal, archived unchanged.
-- [approved_change_index.md](approved_change_index.md) — automatically generated administrative index of all approved CRs and provisional chronology, **not part of the story**.
+- [Master storyline](master_storyline.md) — primary narrative review copy, with **[PROPOSED]** and **[OPEN]** qualifications.
+- [CR-021 revision 9](CR-021.md) — approved constitutional record; [revision-9 report](../../outputs/CR-021-revision9/integration_report.md), author decisions, differences and verification.
+- [CR-020](CR-020.md) — approved record; [integration report](../../outputs/CR-020/integration_report.md), final precedence decisions, review differences and verification.
+- [CR-018](CR-018.md) and [CR-019](CR-019.md) — working records with source labels preserved. CR-018 incorporates the never-separately-merged CR-017.
+- [Sequential integration report](../../outputs/CR-018-019/integration_report.md) — coverage, continuity decisions, remaining questions and verification.
+- [CR-016](CR-016.md), [CR-015](CR-015.md) and [Power Timeline](power_timeline_1865_1900.md) — earlier directions with current later-precedence notes.
+- [Character bible](character_bible.md) and [registry](character_registry.json) — 120 stable identities, including five retired provenance/alias records with Chichibu now added as the resident prince. Kiyoshi is Fleet-General Kuroda; the lost Kalanimoku and Kahekili / Ikazuchi are distinct; the heir’s stable ID is retained. All 250 original profiles remain traceable without changing the legacy crosswalk.
+- [Change register](change_requests.json) and [approval index](approved_change_index.md) — approved directions and open mechanics; the index is generated separately from the narrative.
+- [Historical background](historical_background.md) — historical evidence, source-supplied comparisons and explicit fictional divergences.
+- [Feasibility scope](war_base_assumptions.md) — numerical and operational work remaining, including the new war, coalition and creditor order.
+- [Part I plan](planning/part_i_plan.md) and [rise-to-power companion](planning/elias_rise_to_power_1844_1861.md) — current derived companions; the original rise-to-power proposal is preserved in [the source archive](sources/rise_to_power.md).
+- [Confederate values](confederate_value_schema.md), [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md), [legacy crosswalk](legacy_character_crosswalk.json) and [secondary cast](legacy_secondary_cast.md) — earlier characterization, questions and provenance.
+- **Working financial reference:** `Pacifica_financial_model_1846-1932.xlsx`, named in CR-020; replacement workbook not supplied here. Final reported results remain MODEL estimates.
+- [CR-018/CR-019 financial assessment through 1932](../../outputs/pacifica-finances-1932/financial_plausibility.md) — preserved dated workbooks and bank/transport diagnostics, superseded as the working model reference. Their unresolved evidence is retained in the audit.
+- [CR-015/CR-016 financial reconciliation](../../outputs/pacifica-finances-20261018/financial_reconciliation.md) — preserved dated comparison, superseded by the 1932 financial extension for the later arc.
 
-## Procedure for any newly approved storyline change
+## Authority and open decisions
 
-1. **Amend the actual plot** in the relevant sections of `master_storyline.md`. Carry consequences forward through subsequent generations, institutions and events. Use positive, affirmative narrative statements—not instructions to undo older versions. Mark unchosen facts **[OPEN]**.
-2. Record the author-approved decision in `change_requests.json` (maintain stable CR identifiers and precise approval statuses). Distinguish author-approved choices from editorial options, research findings and proposals.
-3. Refresh the separate administrative index with `python3 book-agent/revision/sync_master_storyline.py --write`. The GitHub sync workflow also performs this on a change-register push.
-4. Run `python3 book-agent/revision/sync_master_storyline.py --check`. This checks the index and that approved CRs have an editorial coverage reference in the synopsis. PR checks run it too.
-5. Review the actual narrative implications before merging the change into the authoritative revision. An automated index **cannot** author or judge literary prose, and neither a CR identifier nor a passing CI test proves substantive narrative reconciliation.
+The user authorized CR-021’s merge after CR-020. Revision 9 applies the direct author corrections to the previously approved framework and all seventeen OPEN-021 decisions. Final K decisions and revision-8 protocol override older labels. Noe’s identity and 1886 hānai bargain are settled, while culpability for her 1888 death is deliberately unproved. Kahekili / Ikazuchi is the heir, future Kamehameha VII. Unrelated Vance/1905 peace and earlier OPEN mechanics remain qualified. Numerical results stay MODEL.
 
-## Authority and scope
+The Western peace framework is 1865, Senate ratification 1867. Russia retains the northern coast until 1921; CR-021 revision 9 assigns Kamchatka, Okhotsk coast and Nikolayevsk to the Siberian Republic; any Japanese access is treaty-only. The eastern through route is completed under Japanese control through Chinese Manchuria. Combined allied fleet limits in 1919 precede the formal 1927 ministries. These distinctions govern broad or inconsistent source wording.
 
-An explicit author approval changes the planned canon even if the first-draft manuscript or original `beats.json` still says otherwise. Authorial approvals and the master storyline govern planning; the earlier draft is evidence of material to preserve or transform, not a competing source of canon.
+Thalassia stands on Kāneʻohe Bay, windward Oʻahu; Waimanu is the protected stream. The Gulf’s five general measures and two parity tests must hold for twenty-five years, so no admission occurs in the novel.
 
-Do not revise `manuscript_chaptered.md`, `beats.json`, `bible.md`, or the production writing scripts until the author authorizes manuscript reconstruction. Keep canon changes on the revision branch and under review.
+Sovereignty, leases, revenue administration, union and association stay distinct. Japan retains domestic institutions; China retains the Manchurian railway and Formosan sovereignty; the Philippines are a Crown dependency; Korea is an independent guaranteed state; the Gulf and Union remain associated sovereigns. Numerical targets and engineering capacity remain unvalidated where recorded in the audit scope.
 
-## Reconciliation of rise_to_power.md
+## Maintaining the revision
 
-The full author-provided [rise_to_power.md](sources/rise_to_power.md) was uploaded and reviewed. Its narrative proposals are approved unless a specific historic, legal or numerical issue requires qualification. The definitive **Treaty of Edo is dated 1858**, explicitly overriding any alternative 1860 signing; the 1860 *Kanrin Maru* voyage is a follow-up. The March 1860/1858 treaty transition, July 1856 Pacifica Confederation, 1860 Washoe veto and 1861–65 legal ascent are integrated in the master storyline.
+1. Update relevant plot paragraphs and their later consequences, keeping the narrative affirmative and continuous.
+2. Preserve decision labels and stable identities; record later precedence without erasing original attachments.
+3. Update character prose and registry copies together; retain retired IDs and legacy mappings.
+4. Regenerate the approval index with `sync_master_storyline.py --write`, then run its `--check` and `validate_character_docs.py`. These verify synchronization, not literary quality or historical feasibility.
+5. Keep synced sources, original character JSON, production manuscripts and source archives unchanged. Original supplied CR-021 revision 8 is preserved in outputs/CR-021. Revision 9 follows the direct author decisions; the original revision-8 attachment is included in the published source package; local working backups are retained separately. CR-020’s original and previous backup remain unchanged. Earlier original attachments, backups and the intermediate CR-018 master remain unchanged. The replacement financial workbook is referenced, not recreated.
 
-The 1864 domestic abolition of the Kuhina Nui cannot be assumed automatically to amend Article XIV of a treaty between states; the matter remains a constitutional question. Numerical figures for population, forces, naval construction and finances are model targets to test against historical benchmarks, not guaranteed facts.
 
-These distinctions and any other remaining undecided matters are marked **[OPEN]** in the storyline or explicitly classified in the supporting reference files.
+The Concord’s annual Council is always at Hayama: Hirohito hosts, Julian convenes and presides, and Prince Chichibu represents Japan at Thalassia, with Pacifican education, honors and an outdoorsman reputation. Julian is never styled President. The 1927 illegal provisional application receives consent and indemnity in 1928; the 1932 renewal runs only to 1937. President-elect Young accepts association after his November 1932 election; Dawes remains incumbent during the rescue and conference.
 
-## Character-documentation rules
 
-- Before planning or writing any scene, read the [canonical character bible](character_bible.md) and resolve the relevant character IDs via [character_registry.json](character_registry.json). Do not infer a person's genealogy from a surname alone.
-- The original 250-entry `../character_bible.json` remains an **unmodified archive**, still used by the old writing pipeline. It is not authoritative where the revised character bible disagrees.
-- Approved authorial changes to characters must update the canonical prose dossier **and** machine registry in the same revision. If those changes affect events, update the [master storyline](master_storyline.md) and structured authorial CR as well.
-- A legacy profile that is unassigned is **preserved, not deleted**. Mapping or splitting 179 smaller roles is a later identity-resolution task, not license to discard them.
-- The PR workflow `pacifica-characters-check.yml` runs `python3 book-agent/revision/validate_character_docs.py` to catch broken IDs, links and missing crosswalk entries. This test cannot evaluate whether a psychological portrait is artistically adequate.
+Tongue votes are expressly uncapped. Noe’s death remains ambiguous. Foreign Affairs and Finance normally remain Pacifican; the law requires at least one Japanese common minister, conventionally Navy. The crowns agree the renewal at Hayama and ministers sign/exchange instruments at Thalassia. The updated source export and complete revision-9 package are in outputs/CR-021-revision9.

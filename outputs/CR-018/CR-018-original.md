@@ -1,0 +1,409 @@
+# CR-018 — Pacifica, Japan, China and Siberia, 1887–1932: the stakeholder empire and the war in the north
+
+**Status:** Submitted for approval · **Raised:** 18 October 2026, merged with CR-017 the same day · **Basis:** author decisions from the working session of 18 October 2026
+**Supersedes:** CR-017 (Pacifica and Japan, 1887–1932: the stakeholder empire), never merged, folded in here. Where CR-017 and the later decisions of this CR contradict each other, the later decisions prevail (section 2).
+**Affects:** master storyline of 18 October 2026, Part IV §18, Part V §§24–27, Part VI §§26, 28–32, Part VII §§33–37; CR-015 B6 and D7 (correction, section B); character trajectories of Kaiulani, Julian, Chiyo, Kiyoshi, Kuroda, Marcus Vance III, the Japanese partners and heirs, and the Chinese and Siberian partners; explicitly unresolved decisions 9 and 12
+**Related:** CR-015 (Japan and China to 1900; the Primorye war); CR-016 (the managed succession; Soberanes; Kiyoshi, section H; Julian's succession, E3); the Pacifica Power Timeline, 1865–1900; a companion CR on Europe and the Union, to follow (section 7)
+
+**Labels.** **APPROVED** marks a decision the author stated. **PROPOSED** marks working detail developed to carry it out; it awaits approval item by item. **OPEN** marks a question this CR raises or leaves unresolved. **Hist.** marks a real event used as an anchor. **Hist. (baseline)** marks a real office-holder used as the default incumbent; divergence may change who holds the office, but the baseline keeps domestic politics concrete.
+
+---
+
+## 1. Summary
+
+Pacifica keeps its empire by making Japanese elites stakeholders in it. The empire's commanding institutions stay Pacifican in origin and location, but many of their most powerful people are Japanese by origin. Japan keeps its own state, army and crown, and its government cannot simply order the empire into war.
+
+The supporters of the empire in both nations, who trade national identity for the imperial project, reach its commanding heights. It is this "new Japan", not ethnic Europeans, that persuades the old Japan to join politically and dynastically in 1927, at a moment of Japanese weakness. Each people is told it has absorbed the other. The union holds: when Japan's army defies its own government in 1931–32, the common institutions decide the crisis.
+
+Kalanimoku, Elias and Kaiulani's legitimate son, dies in the late 1870s. Julian, Elias's son by a Hawaiian-American mother and Kaiulani's hānai son, takes over from Kaiulani directly in 1915, aged about 29, and marries Lady Chiyo. Kaiulani, born in 1838, is 77 when she hands over, 83 when she renounces her remaining role in 1921 and 89 at the union of 1927.
+
+The novel ends in triumph: by 1932 the Pacific is the dominant power on earth. This CR sets out the Pacific half of that ending; the European half, the peace Pacifica brokers in 1918 and the Union's entry into its order, follows in a companion CR. Julian's aim is the course that most increases Pacifica's freedom of action and makes future wins likely for his successors. The old guardrails against taking land from China or prizes from Japan no longer bind him, and after decades of brokered peaces Pacifica must show that it can fight. Its test is Siberia. Where the historical intervention of 1918–22 failed, the Pacifican-led coalition of Japan, China, the Siberians and Pacifica wins, holds a line on the Ob and forces Moscow to sign in 1921. Japan expands into Siberia instead of Manchuria; the Soviet state is boxed in between the coalition and Germany's eastern order.
+
+In China, the Qing falls in 1911 as in history. Pacifica backs Sun Yat-sen, educated in Honolulu, and leaves Yuan Shikai to his fate. Julian saves his influence over Tokyo for the moments that matter: stopping Japan's army from moving against Sun's movement and from creating a Manchurian client state. By 1932 China is reunified under Sun's successor, Chiang Kai-shek, allied and committed to the Siberian front; Japan's army has its frontier in the north; and the coalition's command, money and railways run from Thalassia.
+
+---
+
+## 2. Merging CR-017: what the later decisions change
+
+| CR-017 passage | CR-017 text | Now |
+|---|---|---|
+| Summary | The common government escapes everyone; the dissenters of both nations rise together: Julian's Restoration and the Shōwa Restoration officers | The union holds; Japan's army plot and the May 1932 coup fail (I5, I6). No self-coup (A17). |
+| A5 | War with Britain not yet decided | No war with Britain before 1932 (E4) |
+| C, 1921–1927 | The machinery increasingly governs around Julian | Julian reigns and sets strategy; the machinery runs under him (D1) |
+| C, 1927–1931 | The common ministries escape Julian too | Removed; the union works (D1) |
+| C, 1931–1932 | Julian's Restoration; Vance III killed by his guards; Julian as Lord-Restorer | Removed (A17); Vance III's end is OPEN-018-18 |
+| C1 | In 1931 Chiyo's husband turns against the institutions she helped build | Removed; in 1931 Chiyo carries Julian's threat to Tokyo (D3) |
+| D, 1904–05 | "With the Trans-Siberian finished"; a mediated peace cuts the victory short; the Hibiya riots | Railway corrected (B); no mediated peace: Japan wins outright (A21; F, 1900–1905) |
+| D, 1918–22 | The failed Siberian campaign and the dismantled railway | The Siberian war is won (G) |
+| D, 1927 | The common ministries answer to neither people nor to Julian; Kaiulani opposes the union | Kaiulani opposes the decree, not the union (F, 1927) |
+| D, 1927–31 | Julian, sidelined, turns to the frontier myth and the populists (canon §33) | Removed; the union's burdens and the Restoration circles stay (F) |
+| D, 1931 to c. 1932 | The Restoration; the fleet's Japanese units sail home; Thalassia burns | The Manchurian plot is stopped (I5); the May coup fails and the units stay (I6) |
+| G, 1931–32 | Kaiulani captive (canon §36) | Removed with the Restoration; she lives to see 1932 (M) |
+| OPEN-017-01 | The British war | Resolved (E4) |
+| OPEN-017-02, 03, 05, 06, 07, 09, 10 | Open | Carried forward as OPEN-018-11 to 17 and decided (section 5) |
+
+---
+
+## 3. Decisions
+
+### A. Author decisions
+
+| No. | Decision | Label |
+|---|---|---|
+| A1 | Pacifica keeps the empire by making Japanese elites stakeholders. Endpoint: commanding institutions Pacifican in origin and location, many of their most influential people Japanese; Japan retains its domestic state and crown; Japan's national government cannot order the common empire into war. | APPROVED (CR-017 A1) |
+| A2 | The imperial class wins the commanding heights. Japanese and Pacifican supporters of the empire, who leave national identity behind for the new imperialism, rise to its top offices. The new Japan persuades the old Japan to join politically and dynastically. | APPROVED (CR-017 A2) |
+| A3 | Japan learning too well and becoming too powerful drives the tension. By 1914 Japan has about 52 million people against perhaps 10 million in North American Pacifica (Hist. for Japan; Pacifican figure to the audit). | APPROVED (CR-017 A3) |
+| A4 | The Austro-Hungarian model is the constitutional template, reached in 1927 rather than at the start (C4). | APPROVED (CR-017 A4) |
+| A5 | War with Russia, yes; no Afghanistan. | APPROVED (CR-017 A5) |
+| A6 | The succession. Kalanimoku is the legitimate son killed in the late 1870s. Julian takes over from Kaiulani directly in 1915 and marries Chiyo. There is no separate emperor and no Chinese Pacifican head of government. | APPROVED (CR-017 A6) |
+| A7 | The collapse ending is replaced: the Pacific becomes the dominant superpower on earth by 1932. | APPROVED |
+| A8 | The Union stays out of Europe's Great War. A peace brokered by Pacifica is one half of the story; the Pacific with Japan and China is the other. | APPROVED |
+| A9 | The Qing falls in 1911; there are enough reasons without Pacifica. | APPROVED |
+| A10 | Julian backs Sun and leaves Yuan to his fate. He saves his clout for persuading Tokyo not to move against Sun and not to create a Manchurian client state. | APPROVED |
+| A11 | The Second Founding of 1931 is dropped. | APPROVED |
+| A12 | Julian pursues the course that most increases Pacifica's freedom of action in the Pacific and makes future wins likelier for his successors. Taking territory from China or a prize from Japan is acceptable where it serves those aims. Pacifica's full military might must be tested, or Julian looks like a paper tiger. | APPROVED |
+| A13 | Pacifica wins in Siberia, and Japan expands there rather than into Manchuria. The Soviet state is kept in check and its collapse brought forward. | APPROVED |
+| A14 | The Soviets are the greater danger. No attack on Britain in the same decade, which could forge an alliance between London and Moscow. | APPROVED |
+| A15 | The line is held on the Ob, with Chinese cooperation. | APPROVED (shape) |
+| A16 | Canon correction: Russia never finishes the Trans-Siberian to the Pacific; Japan completes it and holds at least the terminal. The Amur's north bank went to China in 1899. | APPROVED |
+| A17 | No self-coup by Julian in 1931. | APPROVED |
+| A18 | Chiang Kai-shek succeeds Sun. Zhang Zuolin is still assassinated in 1928, and his son Zhang Xueliang holds Manchuria. | APPROVED |
+| A19 | OPEN-018-01 to 10 are decided as recommended (section 5). | APPROVED |
+| A20 | OPEN-018-11 to 17 and 19 are decided as recommended (section 5). Marcus Vance III's story is to be revised: he must not be a flat caricature of the aggressive American war criminal, the focus on his atrocity must fit a war whose massacres were far worse, and his arc needs emotional tension to earn its place (OPEN-018-18, section N). | APPROVED |
+| A21 | No mediated peace in 1905. Kaiulani wants Japan to win, and Theodore Roosevelt cannot mediate against her (CR-019 G). | APPROVED |
+
+### B. Correction to CR-015 (merged)
+
+CR-015 is merged, so its corrections are recorded here. APPROVED (A16); wording PROPOSED.
+
+| Passage | Current text | Corrected |
+|---|---|---|
+| B6 | "the Trans-Siberian is begun at Vladivostok in May 1891, as in history, and reaches the Pacific only about 1903–04 (Hist.)" | The Trans-Siberian is begun at Vladivostok in May 1891, as in history (Hist.). The Ussuri line reaches Khabarovsk in 1897 (Hist.), but Russia loses Vladivostok in 1899 before its trunk line is joined to the Pacific (D7). |
+| D7, consequences | "The next test is that revenge, once the Trans-Siberian is finished about 1903–04" | Russia finishes its own section to Transbaikalia and the Circum-Baikal loop in 1904 (Hist.). Japan completes the eastern link and holds the terminal at Vladivostok; the Manchurian section is China's (CR-015 C, 1896), with Japanese running rights (G3). The line has no Russian outlet to the Pacific. The next test is Russia's revenge, launched down its section into Manchuria and northern Korea (F, 1904–05). |
+| D7, settlement | (unchanged) Japan takes the Ussuri region with Vladivostok and the Razdolnaya valley, and all of Sakhalin; China recovers the Amur's north bank. | Retained. In the far north, Kamchatka, the Okhotsk coast and the Amur mouth at Nikolayevsk stay Russian until 1921 and then pass to Japan (G6). |
+
+**B1. Gauge.** Japan keeps the Russian gauge of 1,524 mm on the trunk line it inherits with the Ussuri line in 1899, rather than the standard gauge it historically laid in southern Manchuria after 1905 (Hist.). Through trains run from Vladivostok to Europe before 1914, so Japan sells the land route between Asia and Europe, and in 1918 its trains roll straight west. PROPOSED
+
+### C. The stakeholder empire
+
+**C1. Three conditions make the dynamic believable.** PROPOSED
+- *The persuaders are bicultural, not rootless.* Returnees who seemed to abandon Japanese identity were killed: Mori Arinori, Satsuma-born and educated in Britain and America, was stabbed to death on 11 February 1889, the day the Meiji constitution was promulgated (Hist.). The imperial class needs Japanese credentials as well as imperial ones, and allies inside Japan with national legitimacy.
+- *Each side hears a different story.* Tokyo joins because union looks like Japanese ascendancy: the heir to the Pacific throne, Julian and Chiyo's son, is half Japanese, and Japanese men command its fleet. Pacifica accepts because union looks like Japan joining it. The 1867 Austro-Hungarian compromise was read in this double way, as restored independence in Budapest and preserved unity in Vienna (Hist.). Japanese aristocratic marriage into a foreign throne happened when it served Japanese dominance: Yi Un of Korea married Princess Masako in 1920; Pujie of Manchukuo married Saga Hiro in 1937 (Hist.).
+- *Tokyo joins only when weak:* after the 1918 rice riots, the Siberian war, the 1923 earthquake and the 1927 financial crisis.
+
+**C2. What full union from the start would have met.** Japan would not accept foreign authority over Japanese people in the 1880s. Inoue Kaoru's 1887 treaty revision, which allowed foreign judges on mixed courts, caused an uproar and his resignation; in 1889 a nationalist's bomb cost Ōkuma Shigenobu his leg and brought down Kuroda's cabinet over foreign judges on the Supreme Court; in 1882 Tokyo declined Kalākaua's proposal of a Japanese prince for Princess Kaʻiulani (Hist.). The union therefore comes forty years after the alliance, not with it. PROPOSED
+
+**C3. Three layers.** PROPOSED
+- *Pacifica,* the North American and Hawaiian state, under the 124-states constitution of 1887.
+- *Japan,* a sovereign state with its own emperor, Diet (from 1890), army and domestic government.
+- *The common institutions,* first Pacifica's imperial institutions open by examination to Japanese-origin people, then from 1927 the common ministries of the union, seated at Thalassia.
+
+**C4. The sequence.** PROPOSED
+
+| Stage | Years | Form | Consent |
+|---|---|---|---|
+| Alliance | 1870–71 | The equal treaty: Japanese tariff autonomy, no consular courts, no Pacifican base (canon). | Treaty |
+| Compact | 1887 | Signed with the Truce of Thalassia (CR-016 D). Tokyo backs the regency and holds Kiyoshi's officers to the Truce; Pacifica guarantees Japan against Russia and supports its treaty revision with Europe; the western squadron's command is reserved to officers of the Japanese naval party. | Renewed every ten years, ratified by both states: 1897, 1907, 1917 |
+| Dynastic step | 1915 | Julian marries Lady Chiyo, of a house of the kazoku (Japan's peerage), not the imperial line, so the Japanese emperor's sacral status is untouched. Their son, born about 1916, is the half-Japanese heir. | Marriage |
+| Union | 1927 | Common ministries for foreign affairs, the navy and common finance, answerable to delegations of both legislatures. Japan keeps its army, Diet, crown and domestic government. The heir is betrothed to a princess of a collateral imperial house. | The fourth renewal, forced through (F) |
+| Overseas commands | 1932 | After the failed coup, Japan's overseas commands, the Siberian armies above all, pass under the common government; the home army stays national (I6). | Diet, after the coup |
+
+**C5. The legal formula of the union.** Japan's emperor keeps the power of war and treaties on paper while the common ministries use it, on the model of the Anglo-Egyptian condominium in the Sudan from 1899, ruled jointly under both flags and run in fact by one administration (Hist.). APPROVED
+
+**C6. Japan keeps its home army national.** The fleet becomes common; the army stays Japanese until its overseas commands pass to the common government in 1932. This gives Japan's internal split a constitutional basis: the navy, historically a Satsuma preserve, becomes imperial; the army, historically dominated by Chōshū, stays national (Hist. for the service traditions). PROPOSED
+
+### D. Who rules
+
+**D1. Pacifica and Japan.** Japanese office-holders are **Hist. (baseline)** unless marked.
+
+| Period | Pacifica and the common institutions | Japan | The imperial class |
+|---|---|---|---|
+| 1856–1865 | Elias as First Minister, then Chancellor (canon) | The Tokugawa shogunate; Ii Naosuke dominant to 1860 | Kiyoshi born at Kagoshima in 1859 (CR-016 H) |
+| 1865–1887 | Elias as Providentor; Kaiulani as Kuhina Nui and political partner. Kalanimoku, their son, dies in the late 1870s. | Emperor Meiji from 1867; the Meiji oligarchs: Ōkubo to 1878, Iwakura, then Itō Hirobumi, prime minister from 1885 | Kiyoshi rises from 1872 (CR-016 H) |
+| 1887–1915 | **Regent Kaiulani**, aged 49 to 77, with the regency council. **Soberanes** runs the administration, the Polytechnic and the telegraph until he retires in 1915. Silas holds the interior command; Kiyoshi, as Kuroda Kiyoshi from 1886, the naval sphere (CR-016; D5). Julian is the designated heir and, from 1911, argues China policy in council (H). | Emperor Meiji (d. July 1912), then Taishō. Prime ministers: Itō (1885–88), Kuroda (1888–89), Yamagata, Matsukata, Itō again, Ōkuma; then Katsura and Saionji alternating (1901–13) | Kiyoshi commands at sea in 1899 and 1904–05 and shapes the 1907 renewal (PROPOSED) |
+| 1915–1921 | **Emperor Julian**, from about 29, seeks personal rule: he studies phonographic recordings of the father he barely knew and learns to speak in his cadence (canon §29, transferred). **Empress Chiyo** at court. The Polytechnic establishment keeps broad military and financial authority (canon §27). Kaiulani, 77 to 83, is dowager diplomat. Fleet-General Kuroda, that is Kiyoshi, commands the fleet until his death in Siberia in 1920 (D5). | Emperor Taishō, often ill. Prime ministers: Ōkuma (1914–16), Terauchi (1916–18), Hara Takashi (1918–21, assassinated November 1921) | The first Japanese-origin ministers and admirals in Pacifica's imperial service; Chiyo as their patron |
+| 1921–1927 | **Emperor Julian** reigns and sets strategy: the Siberian settlement, China, the standing alliance. **Marcus Vance III**, in command since 1920, heads the common military; the imperial-class ministers of the Polytechnic establishment run the machinery. Kaiulani renounces her role in 1921 (canon §32). | Crown Prince Hirohito as regent from November 1921. Prime ministers: Takahashi Korekiyo (1921–22), Katō Takaaki (1924–26), Wakatsuki (1926–27) | Chiyo and the imperial-class ministers negotiate with Tokyo |
+| 1927–1931 | The union. **Julian signs it** by decree over the Senate, persuaded by Chiyo and by his son's future throne. Vance III commands. | Emperor Shōwa (Hirohito) from December 1926. Prime ministers: Tanaka Giichi (1927–29), an army general of Chōshū, then Hamaguchi (shot 1930), then Wakatsuki. **Takahashi** as finance minister in 1927 negotiates the union. | At the commanding heights in Thalassia and in the navy |
+| 1931–1932 | **Julian** stops the Manchurian plot with the threat over oil, transport and the yen (I5). Vance III's end: OPEN-018-18. | Emperor Shōwa. Wakatsuki to December 1931, then Inukai Tsuyoshi, with Takahashi again at finance (Hist.); the May 1932 coup fails (I6). | Chiyo carries the threat to Tokyo (D3) |
+
+**D2. China and Siberia.** Office-holders are **Hist. (baseline)** unless marked.
+
+| Period | China | Siberia |
+|---|---|---|
+| 1911–1916 | The Qing to February 1912; Sun as provisional president, then Yuan Shikai (d. June 1916) | Russian Empire, then Provisional Government |
+| 1916–1925 | Beiyang presidents and Duan Qirui in Beijing; Zhang Zuolin in Manchuria; Sun in Canton to his death in March 1925 | From 1918 the Siberian government, first chaired by Pyotr Vologodsky (Hist. baseline); from 1921 the Siberian Republic, governed from Irkutsk |
+| 1925–1932 | Chiang Kai-shek, Sun's successor, at the head of the Nationalist state from 1928; Zhang Zuolin in Manchuria until 4 June 1928, then Zhang Xueliang | The Siberian Republic in the standing alliance |
+
+**D3. Chiyo as the new Japan at court.** Born in Japan into the kazoku, she gives the imperial class the Japanese credentials C1 requires. From 1915 she is its patron; in 1927 she and Takahashi carry the union, she in Thalassia, he in Tokyo. Her marriage is the union's dynastic first step. She is a daughter of another branch of the Kuroda house, not of Kiyoshi's blood; Kiyoshi arranges her marriage to his half-brother Julian, binding the naval party to the throne (D5). In 1931 she carries Julian's threat to Tokyo through Takahashi, and the Restoration officers' manifesto of May 1932 names her (I6). APPROVED (family, 1931–32); PROPOSED (detail)
+
+**D4. Takahashi Korekiyo as the Tokyo partner.** As a teenager in 1867–68 he went to California and was sold into indentured service in Oakland (Hist.); he later became finance minister and, in 1927, ended the Shōwa financial crisis (Hist.). In this timeline his California past makes him the old Japan's man who can deal with the new. In 1904–05 he raised Japan's war loans in London and New York with Jacob Schiff of Kuhn, Loeb (Hist.); here he raises them in San Francisco, so Japan does not run out of money and his tie to Thalassia begins. Historically he was assassinated in February 1936 for cutting the army's budget (Hist.); here, with the common purse behind him, he wins that fight. PROPOSED
+
+**D5. Kiyoshi becomes Kuroda.** In 1886 Kiyoshi marries into the house of Kuroda Kiyotaka, the Satsuma statesman who directed Hokkaido's development with Pacifican advisers and became prime minister in 1888 (Hist.), as an adopted son-in-law who takes his wife's family name, a common Japanese practice (Hist.). Japan gives him the name his father withheld (CR-016 H2). From 1885 he already commands at Hakodate, in Kuroda's Hokkaido. In May 1905 he destroys Russia's Baltic Fleet, a Tsushima of his own (F, 1904–05), and on that victory he becomes the Japanese Fleet-General won in the 1907 renewal, and he dies in Siberia in 1920, aged 61. Chiyo comes from another branch of the house. His son, Elias's grandson, is the next of "the succeeding Kuroda generations" (canon) and keeps the fleet's Japanese units loyal in May 1932 (I6). This answers OPEN-016-08. APPROVED
+
+### E. The aim and the latitude
+
+**E1. Freedom of action means removing what can limit Thalassia.** Four things can: Japan's national army; Britain's gates at Hong Kong and Singapore; China's claims and nationalism; and Russia on the Pacific's northern rim. Of these the Soviet state is the most dangerous, because it is the one power that wants to destroy the order rather than bargain within it. PROPOSED
+
+**E2. Siberia is the test of arms.** It answers the charge of being a paper tiger with a war Pacifica commands and wins, not one it brokers. Pacifica's contribution is the arm that decides: command, railways, artillery, armoured trains, aircraft, river flotillas, money and, at its darkest, gas, with an expeditionary corps as the coalition's reserve (strength to the audit). Japan supplies the mass; China the manpower and Manchuria's railways; the Siberians their own defence. PROPOSED
+
+**E3. Where this CR uses the latitude.** It takes a prize from Japan when Pacifica keeps the Tsingtao anchorage that Japan wants (H, 1919). It takes from China when Pacifica keeps Formosa's revenue administration and Keelung after returning the Inspectorate (H, 1928–29). It turns Japan's army and China's nationalism away from each other and toward Russia. APPROVED (Tsingtao, Formosa); PROPOSED (rationale)
+
+**E4. Britain.** There is no war with Britain in the Siberian decade (A14) and none before 1932. Britain sits inside the coalition, as it historically did in Siberia, with General Knox's military mission and a battalion of the Middlesex Regiment at Omsk (Hist.), and is managed through its gold-dollar debts. Canon §28, the India and Rangoon campaign of 1914–15, is removed. APPROVED (no war in the 1920s); PROPOSED (none before 1932; §28 removed)
+
+### F. Timeline: Pacifica and Japan, 1887–1932
+
+| When | What happens | Label |
+|---|---|---|
+| 1887 | The compact is signed with the Truce of Thalassia (C4). | PROPOSED |
+| 1894 | Kaiulani brokers the armistice; Japan's army resents a shortened victory (CR-015 D4). | APPROVED (canon) |
+| 1897 | First renewal, made easy by war loans and the gold loan for Japan's gold standard. | PROPOSED |
+| 1898–99 | The Primorye war: Japan fights on land, Pacifica holds the sea; Kiyoshi enters Vladivostok (CR-015 D7, CR-016 H5). | APPROVED (canon) |
+| 1900 | **The prelude.** During the Boxer rising Russia occupied Manchuria and then failed to withdraw on schedule, which historically led to the war of 1904 (Hist.). Here it enters from Transbaikalia and seizes China's Manchurian line as far as Harbin "to protect it". Russia's motive is stronger than in history: since 1899 it has no Pacific port, no Pacific fleet, no Port Arthur and no railway of its own in Manchuria, and its trunk line ends at the Chinese border (B). It fights not to keep an outlet but to win one back: whoever holds Harbin holds the line to the Pacific. | APPROVED (war); PROPOSED (shape) |
+| 1904–05 | **Russia's revenge.** Russia lays rails across the frozen Lake Baikal in February 1904 (Hist.) and, with the Circum-Baikal line finished that year, drives south from Harbin toward Korea and a port. Japan's national army answers on two axes, from its Ussuri province along the eastern line toward Harbin and from Korea northward, supplied by sea and from its own terminal at Vladivostok; China stays benevolently neutral, as in 1898–99. The decisive battle, on the scale of Mukden in February–March 1905, where more than half a million men fought (Hist.), is fought around Harbin and the Sungari, and Russia is driven back up the line toward the Transbaikal border. Russia's Baltic Fleet sails anyway, as it historically did from October 1904, with no Pacific base to reach, and Kiyoshi destroys it in May 1905 (D5). Pacifica lends: Takahashi raises the loans in San Francisco (D4). | APPROVED (war, Japan's victory); PROPOSED (shape) |
+| 1905 | **A peace without a mediator.** Theodore Roosevelt offers to mediate as Russia's traditional friend, and Japan refuses on Kaiulani's advice (CR-019 G): no Portsmouth and no Nobel. The revolution of 1905, from Bloody Sunday in January to the October Manifesto (Hist.), and Pacifica's pressure on France, Russia's lender, force Count Witte to negotiate with Japan directly (place: OPEN-018-20). Russia withdraws from Manchuria and renounces its Pacific coast and any claim in Korea; Japan receives the indemnity it was historically denied, so there are no Hibiya riots; Korea becomes a Japanese protectorate; the Manchurian line returns to China with Japanese running rights (G3), where the corridor question of I4 begins. Japan's army wants to push on to Chita; Kaiulani stops it at the Transbaikal border, so its one grievance of 1905 points north, toward 1918 (I1). A clear victory makes Japan more confident, which drives the hard renewal of 1907. | APPROVED (no mediated peace); PROPOSED (terms) |
+| 1905–10 | Korea, a Japanese protectorate under the 1905 peace, as historically in 1905, stays one. Japan does not annex it, as it did in 1910 (Hist.): annexation would break Pacifica's guarantee, and Japan's land hunger now has Siberia. | APPROVED |
+| 1906 | A school-segregation crisis against Japanese children, on the San Francisco model of October 1906 (Hist.), is raised by Silas's nativists. Theodore Roosevelt, turned away as mediator, courts Tokyo; his Great White Fleet goes round Cape Horn, since it cannot use Pacifica's canal, and calls at Yokohama in October 1908, as it historically did (Hist.; CR-019 G). His Gentlemen's Agreement of 1907 still restricts Japanese immigration to the Union, so Tokyo uses him without trusting him. | PROPOSED |
+| 1907 | **Second renewal**, the first hard one. Japan wins a Japanese Fleet-General, Kuroda Kiyoshi (D5), a joint war council and, unlike the historical Gentlemen's Agreement of 1907, a guarantee of open family immigration and civic equality for Japanese Pacificans. Its leverage is a confident Japan after 1905 and the Union's courtship. | PROPOSED |
+| 1914 | **The settlement of 1914** establishes the House of Thorne-Kamehameha: Julian as Elias's son, the Kamehameha link through Kaiulani's adoption (canon §27, revised). It takes effect when the regency ends. | APPROVED (Julian); PROPOSED (form) |
+| Aug–Nov 1914 | Pacifica and Japan take Germany's Pacific islands and its leased territory at Tsingtao, as Japan, Australia and New Zealand did historically (Hist.). | PROPOSED |
+| Jan 1915 | Japan presses demands on China on the model of the Twenty-One Demands, drafted historically under Foreign Minister Katō Takaaki (Hist.). Kaiulani, in her last months as regent, blocks the worst; Tokyo backs down and concludes that it must control Thalassia rather than defy it. | PROPOSED |
+| 1915 | **Julian takes over from Kaiulani**, aged about 29, and marries Chiyo. Soberanes retires (canon §28). | APPROVED (succession, marriage); PROPOSED (date of marriage) |
+| 1915–17 | Julian reaches for personal rule; in a Senate dispute he humiliates the representatives and manipulates the voting machinery (canon §29, transferred). | APPROVED (canon, transferred) |
+| c. 1916 | Julian and Chiyo's son is born. He is named Kalanimoku, after the lost son, with a Japanese name from Chiyo's house. | APPROVED (name); PROPOSED (date) |
+| 1917 | **Third renewal**, during Europe's ruin (canon §30). Japan shares in the creditor empire; a Japanese squadron escorts Atlantic and Mediterranean convoys, as Japan's destroyers did from Malta in 1917 (Hist.). The renewal passes the Diet narrowly. | PROPOSED |
+| 1918 | Rice riots across Japan (Hist.) expose Japan's dependence on imported food. | PROPOSED |
+| 1918–19 | The brokered peace (companion CR). Thalassia carries Japan's racial equality clause and denies Japan Tsingtao (H, I3). | PROPOSED; APPROVED (Tsingtao) |
+| 1918–22 | **The Siberian war**, won (G). | APPROVED |
+| 1921 | Kaiulani, 83, confronts her son over the gas massacre in the Altai and its cover-up, and renounces her role (canon §32: "her grandson" becomes her son; N5). In Japan, Hara is assassinated and Hirohito becomes regent (Hist.). | PROPOSED |
+| Sept 1923 | The Great Kantō earthquake destroys Tokyo and Yokohama and kills about 105,000 people (Hist.). Imperial credit rebuilds them. | PROPOSED |
+| Mar–Apr 1927 | **The Shōwa financial crisis** (Hist.). The Privy Council refuses the emergency rescue of the Bank of Taiwan and the Wakatsuki cabinet falls, as historically in April 1927; the imperial rescue becomes the only option. Takahashi and Chiyo negotiate the union. | PROPOSED |
+| 1927 | **Fourth renewal becomes union** (C4). Ratified in Tokyo through the Privy Council under crisis; in Pacifica Julian imposes it by decree over the Senate. Kaiulani, 89, opposes the decree, not the union: the union completes her life's work, but Julian imposes it over the Senate. | PROPOSED; APPROVED (Kaiulani) |
+| 1927–31 | The union's burdens: common taxes, Siberian and island garrisons, the Hawaiian bauxite works (canon §33), labour registration. Japanese army officers form Restoration circles, historically the Sakurakai of 1930 and the plots of 1931 (Hist.); Keawe's underground grows; it will win labour reforms instead of burning Thalassia (details in the companion CR). | PROPOSED; APPROVED (Keawe) |
+| 1928 | The Jinan clash and the killing of Zhang Zuolin by Japanese officers (H). | PROPOSED |
+| 1929 | The Soviet probe is thrown back (H). | PROPOSED |
+| Sept 1931 | The Manchurian plot is stopped (I5). | APPROVED (no client state); PROPOSED (form) |
+| May 1932 | The Restoration officers' coup fails; Japan's overseas commands pass under the common government (I6). | APPROVED (overseas commands); PROPOSED (form) |
+| 1932 | The triumph: the Pacific order holds from the Ob to the Gulf Republic; the European half follows in the companion CR. | APPROVED (A7) |
+
+### G. The Siberian war, 1918–1922
+
+**G1. Why the historical intervention failed** (Hist.). Japan sent about 70,000 men and withdrew in 1922 with little to show. The Allies backed Admiral Kolchak, whose drive toward the Volga in 1919 overreached; Omsk fell in November 1919, and Kolchak was shot at Irkutsk in February 1920. His conscription and requisitions turned Siberia's peasants against him. Japanese, Americans, British and Czechs pursued different aims, and partisans held the countryside.
+
+**G2. The four conditions that make the Ob holdable.** PROPOSED
+1. *A window and a treaty.* The coalition need only hold until Moscow signs. Lenin traded land for survival at Brest-Litovsk in March 1918, Tartu in February 1920 and Riga in March 1921 (Hist.). Moscow is weakest in 1921, with the Kronstadt mutiny, the Tambov revolt, the turn to the New Economic Policy in March and the Volga famine of 1921–22 (Hist.).
+2. *A second front.* The brokered peace of 1918 leaves Poland, the Baltic states and Ukraine as German clients (companion CR). Moscow cannot send its whole army east.
+3. *Siberians fight for Siberia.* The Siberian Regionalists, the movement of Potanin and Yadrintsev, gave Siberia its own politics; on 4 July 1918 the Provisional Siberian Government in Omsk declared Siberia independent (Hist.). In early 1921 the West Siberian rising put up to 100,000 peasants in arms against the Bolsheviks around Tyumen and Ishim, directly in front of the Ob (Hist.). A republic that leaves peasants their grain gets an army.
+4. *Chinese manpower and Manchuria's railways.* In 1918–22 the partner is Zhang Zuolin, warlord of Manchuria, whose Fengtian army grew to about 300,000 (Hist.), not Sun in Canton.
+
+**G3. What this timeline already gives the coalition.** Japan's railway runs from its own terminal at Vladivostok through Chinese Manchuria to the Transbaikal border, about 2,000 km in friendly hands, on the Russian gauge (B1). The Manchurian section is Chinese-owned, with Japanese running rights and a Pacifican board in wartime (APPROVED): Japan's lifeline stays China's property, which is the tension behind the plots of 1928 and 1931 (I4). Japan has ruled the Ussuri region since 1899 and knows the climate. China and Japan both profited from Russia's loss of the Pacific coast in 1899 and both fear a Red Russia coming back for it, so China joins to defend the Amur, not to gain it. The front starts at the Transbaikal border, about 2,900 km by rail from Novosibirsk. PROPOSED
+
+**G4. The Ob line.** PROPOSED
+- *Geometry:* the coalition's supply line from Vladivostok is about 5,000 km; the Red Army's from the Urals at Yekaterinburg to Novosibirsk about 1,500 km. The danger is not marching too far, as Napoleon and Hitler did into Russia's heartland, but holding thin railway lines among a hostile population, as Kolchak failed to do.
+- *Ground:* the Vasyugan swamp between the Ob and the Irtysh covers the north; the Altai covers the south; the open steppe between them, about 500–700 km wide, is the real front. The Ob freezes from about November to April, so the river is a barrier for half the year and winter is the attacker's season.
+- *Depth:* the Kuzbass coal basin lies just behind the line. The treaty border is the Ob; the coalition's defence plan falls back on the Yenisei, so Kolchak's mistake of holding everything at the front is not repeated.
+
+**G5. Course of the war.** PROPOSED unless marked
+
+| When | What happens | Label |
+|---|---|---|
+| May 1918 | The Czechoslovak Legion, 40,000 to 60,000 men, rises along the Trans-Siberian and holds most of it (Hist.). Thalassia pays and supplies it as the backbone of the line. | Hist. → PROPOSED |
+| Jul–Aug 1918 | The Provisional Siberian Government declares independence (Hist.). The coalition lands and rolls west by rail from Vladivostok and the Manchurian line under a single command, Japan's army in the lead. Japan's client ataman takes Chita, as Semyonov historically did with Japanese backing (Hist.). | PROPOSED |
+| 1918–19 | The coalition backs the Siberian government, not an all-Russian restoration. Kolchak's coup at Omsk in November 1918 (Hist.) and his march on the Volga go ahead without the coalition's main forces. A Pacifican railway board, on the model of the inter-Allied board under John F. Stevens, the engineer of the Panama Canal (Hist.), runs the line west of Chita. | PROPOSED |
+| Late 1919 | Kolchak collapses and Omsk falls (Hist.). The coalition falls back behind the Ob as planned and fortifies Novonikolayevsk, today's Novosibirsk. | PROPOSED |
+| Winter 1919–20 | **The battle of the Ob.** The Red Army attacks across the frozen river, as it historically took Novonikolayevsk in December 1919 (Hist.), and is beaten. Pacifica's artillery, armoured trains and aircraft decide it. | APPROVED (win); PROPOSED (form) |
+| 1920 | Fleet-General Kuroda Kiyoshi, Elias's eldest son, is killed (canon §31; D5). Marcus Vance III takes a command he never sought (N3). Moscow's forces are held in the west by Germany's eastern order. | PROPOSED |
+| Early 1921 | The West Siberian rising behind Soviet lines (Hist.) ties down the Red Army; the coalition supplies it. In the partisan war of the coalition's own rear, in the Altai, against a partisan army on the model of Mamontov's of 1919 (Hist.), Vance III's gas attack kills Japanese troops held prisoner along with the insurgents (canon §32; place APPROVED; N4). The report is falsified with Julian's approval; Vance tells Kaiulani, who confronts Julian and renounces her role (F, 1921; N5). | PROPOSED; canon retained |
+| 1921 | With Kronstadt, Tambov, the New Economic Policy and the famine (Hist.), Moscow signs. **The Treaty of Harbin**, signed in the railway city at the heart of China's part in the war (APPROVED), recognises the Siberian Republic east of the Ob and cedes Kamchatka, the Okhotsk coast and Nikolayevsk to Japan. | PROPOSED |
+| 1922 | The settlement is completed; the coalition becomes a standing alliance (G7). | PROPOSED |
+
+**G6. The settlement.** PROPOSED
+
+| Partner | Already holds (1899) | Gains in 1921–22 |
+|---|---|---|
+| **The Siberian Republic** (Russian majority, Regionalist), governed from Irkutsk, with its Regional Duma at Tomsk, where the Siberian Regional Duma historically met in 1918 (Hist.) | — | From the Ob to Lake Baikal: Novosibirsk, Tomsk, the Kuzbass, Krasnoyarsk and Irkutsk |
+| **Japan** | The Ussuri region with Vladivostok, all of Sakhalin, the eastern railway and terminal | Transbaikalia under a client ataman at Chita; Kamchatka, the Okhotsk coast and Nikolayevsk, so the Sea of Okhotsk becomes the alliance's (APPROVED) |
+| **China** | The Amur's north bank, the Manchurian line | Security for the Amur; a sphere in Outer Mongolia and Tuva, where Chinese troops historically reoccupied Urga in 1919 (Hist.); settlement and trade rights in the Siberian Republic |
+| **Pacifica** | — | Command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita |
+
+**G7. The standing alliance.** The Ob is a permanent front, in effect a cold war begun in 1921: a standing alliance of Pacifica, Japan, China and Siberia, with Germany on Moscow's other flank. It gives Julian's successors their freedom of action and keeps Japan and China needing Thalassia, since neither can hold its share alone. Its weak point is political: a Russian-majority Siberia under Asian protection gives Moscow a lasting grievance to exploit, so the republic must be visibly Russian and governed by Siberians. PROPOSED
+
+**G8. What the victory costs.** The gas massacre now buys a victory instead of covering a defeat, which makes it morally sharper. It is one atrocity in a war full of them, and it matters because of whom it kills and what is done to hide it (N4, N5). Kuroda's death stays. The "backward-moving railway" of canon §31 becomes a railway moving west, on the Russian gauge. PROPOSED
+
+### H. China, 1911–1932
+
+| When | What happens | Label |
+|---|---|---|
+| Oct 1911 | The Wuchang rising (Hist.). Kaiulani is regent; Julian, about 25 and the heir, argues in council for backing Sun's revolution, and wins. Sun, who learned of the rising from a newspaper while touring the United States (Hist.), tours Pacifica's Chinese communities instead. | APPROVED (Qing falls; Sun backed); PROPOSED (detail) |
+| 1912–13 | Sun is provisional president from 1 January 1912 and yields to Yuan, who has the army; his Second Revolution of 1913 is crushed (Hist.). Pacifica's man starts beaten. Sun's exile is spent in Honolulu, not Tokyo. | Hist. → PROPOSED |
+| Jan–May 1915 | Japan's Twenty-One Demands. Kaiulani, in her last months as regent, blocks the worst (F, Jan 1915). | PROPOSED |
+| Dec 1915–Jun 1916 | Yuan makes himself emperor, gives up the throne on 22 March and dies on 6 June 1916 (Hist.). Thalassia leaves him to his fate; Tokyo works against him, as the Ōkuma cabinet historically did from March 1916 (Hist.), so the partners are on the same side and Julian spends nothing. | APPROVED |
+| 1916–22 | The warlord era. Pacifica funds Sun's governments in Canton while working with Zhang Zuolin in Manchuria for Siberia, a contradiction Julian's critics name. | PROPOSED |
+| 1919 | At the brokered peace, Japan claims Germany's leased territory at Tsingtao. Julian denies Japan the prize: Pacifica keeps the naval anchorage on lease, as Britain held Weihaiwei (Hist.), and returns the rest of Shandong to China. Japan is compensated in Siberia. Julian's first taking signals the new course, and the denial plants a grievance Siberia later answers. | APPROVED |
+| 1921–24 | The Chinese Communist Party is founded in 1921 (Hist.), but Sun has no need of Moscow, so there is no Sun–Joffe agreement of 1923 (Hist. diverges). The Whampoa Military Academy, historically founded with Soviet help in 1924, is founded with Pacifican money. Its commandant, Chiang Kai-shek, trained in Japan in 1908–11 (Hist.), and its instructors are Pacifican and Japanese-trained. | PROPOSED |
+| Mar 1925 | Sun dies on 12 March 1925 (Hist.). **Chiang Kai-shek succeeds him**: the Japanese-trained commandant of the Pacifican-funded academy, he has the army that Sun lacked. Tokyo is asked to spare a man it trained. His weaknesses are historical: a shallow hold beyond the cities, rule through deals with warlords, and corruption. | APPROVED (Chiang); PROPOSED (detail) |
+| 1926–28 | The Northern Expedition reunifies China (Hist.). | Hist. |
+| May 1928 | Japanese troops clash with the Northern Expedition at Jinan (Hist.). The first use of Julian's clout: Tokyo pulls back. | PROPOSED |
+| Jun 1928 | Officers of Japan's army kill Zhang Zuolin, as they historically did on 4 June 1928 (Hist.), here to open a Japanese corridor through Manchuria (I4). A warning that the army will act alone. | APPROVED (assassination); PROPOSED (motive) |
+| Dec 1928 | **Zhang Xueliang**, the Young Marshal, brings Manchuria into the Nationalist state (Hist.), and with it China's Siberian gains and its place in the alliance. He holds Manchuria from 1928. Historically a modernizer, with an air arm and Northeastern University, who had two of his father's senior men shot in January 1929 to secure his position (Hist.). His father's killers make him hostile to Japan's corridor, which suits Thalassia: Tokyo needs Julian to restrain him, and he needs Julian against Tokyo. Julian's two policies, backing Sun's movement and winning in Siberia, end in the same place. In history he died in Honolulu in 2001 (Hist.). | APPROVED (Zhang Xueliang); PROPOSED (detail) |
+| 1928–29 | Pacifica returns the Inspectorate and China's customs, historically recovered in 1928–30 (Hist.), in exchange for a defence treaty that commits the Nationalist state to the Ob front. Formosa's revenue administration and Keelung stay Pacifican: generosity with a hook, and a grievance that outlasts 1932. | APPROVED (Formosa); PROPOSED (exchange) |
+| 1929 | **The second test.** As in the historical conflict over the Chinese Eastern Railway in July–December 1929, when Blyukher's Far Eastern Army beat Zhang Xueliang (Hist.), the Soviets probe the alliance, here on the Ob or in Mongolia. The alliance throws them back, and Zhang Xueliang gets the victory he lost in history, because Thalassia carries him. A weak, patriotic Manchurian leader stays loyal where a strong one would bargain. | PROPOSED |
+| Sept 1931–1932 | A Japanese army plot to seize Manchuria, on the model of the Mukden Incident of 18 September 1931 (Hist.), is stopped (I5). There is no Manchurian client state; Puyi stays in Tianjin. | APPROVED (no client state); PROPOSED (form) |
+
+**H1. Julian's clout, spent and saved.** Not spent on Yuan in 1916 or on the warlords; spent on Shandong in 1919, at Jinan in 1928 and over Manchuria in 1931. PROPOSED
+
+### I. Japan, 1914–1932
+
+**I1. Strike North.** The Japanese army's own doctrine, the "Strike North" school, saw Russia rather than China as the real enemy (Hist.). Its grievance of 1905, stopped by Kaiulani at the Transbaikal border (F, 1905), already points north. Siberia gives the army the glory it wants against an enemy Pacifica needs beaten, and keeps Manchuria with China. APPROVED (Siberia, not Manchuria); PROPOSED (rationale)
+
+**I2. Japan's Siberia grows from its Ussuri colony.** Japanese settled cold lands before: Hokkaido from 1869 with American advisers, Horace Capron and William S. Clark, and Karafuto, Japan's half of Sakhalin, with about 400,000 inhabitants by 1941 (Hist.). Japanese emigrated reluctantly, though: the 1936 plan to settle millions in Manchuria reached only a few hundred thousand (Hist.). Japan's Siberia is a frontier where Japanese officers, companies and settlers rule a mixed population of Russians, Buryats, Chinese and Koreans, about 170,000 of whom lived in the Russian Far East in 1926 (Hist.). PROPOSED
+
+**I3. Food and the racial equality clause.** Siberia, a major exporter of grain and butter before 1914 (Hist.), feeds Japan after the rice riots of 1918, a material tie through Vladivostok. At the brokered peace, Thalassia carries the racial equality clause Japan proposed at Paris in 1919, which a majority supported and Wilson ruled needed unanimity, with Australia's Billy Hughes leading the opposition (Hist.). It turns a historical humiliation into Pacifica's gift and clashes with White Australia. PROPOSED
+
+**I4. The Manchurian corridor.** Japan's Siberian holdings are split: the Ussuri region and Sakhalin in the east, Transbaikalia in the west, with Chinese Manchuria and China's Amur bank between them. The army wants a corridor through Manchuria; this is what drives the plots of 1928 and 1931 even after Siberia. Pacifica's answer is guaranteed Japanese transit under a joint railway administration, without territory. PROPOSED
+
+**I5. 1931: the army against its own government.** Historically the Wakatsuki cabinet and Foreign Minister Shidehara opposed the Kwantung Army's action at Mukden but could not stop it (Hist.). Here the cabinet can, with means only Thalassia holds: oil from Pacifica and the Gulf Republic, sea transport by the common navy, and the yen's convertibility through common finance (K). Julian threatens all three; the cabinet uses the threat to rein in its generals. PROPOSED
+
+**I6. May 1932.** Restoration officers strike in Tokyo, as on 15 May 1932, when they assassinated Prime Minister Inukai (Hist.). The coup collapses, as the army rising of February 1936 collapsed within four days once the emperor and the navy stood firm (Hist.). Japan's overseas commands, the Siberian armies above all, pass under the common government; the home army, on which Japanese pride depends, stays national. Thalassia gains the land army it lacked. The fleet's Japanese units stay, held by Kiyoshi's son (D5). The officers' manifesto names Empress Chiyo, and the coup targets the heir's betrothal to a princess of a collateral imperial house; its failure lets the marriage go ahead. APPROVED (overseas commands, betrothal, Chiyo); PROPOSED (form)
+
+### J. The divided Japan
+
+| | The imperial party | The national party |
+|---|---|---|
+| Core | The navy; shipping lines and finance houses with imperial contracts (the historical Mitsubishi model); Japanese Pacificans; the Hawaiian Japanese | The army; farmers undercut by imported grain; nationalist societies |
+| Wants | Wider careers, profits and command through common institutions | National autonomy, the fleet's return and, from 1918, a frontier of its own in Siberia (I1) |
+| Leaders | Kiyoshi (Kuroda), then Empress Chiyo; Takahashi as their partner in Tokyo | Army men of the Chōshū tradition, such as Tanaka Giichi; from 1930 the Restoration officers |
+| Weakness | Can be killed as renegades, like Mori Arinori in 1889 | Cannot feed Japan, fuel its army or fund its wars alone |
+
+Neither party can override the other without outside help, so Thalassia always has a Japanese party and always has Japanese enemies. Hawaii, where Japanese-origin families were about 43% of the population by the 1920 census (Hist.), makes the imperial party's rise organic rather than imposed. PROPOSED
+
+### K. Mutual dependence
+
+| Japan cannot easily get alone | Pacifica cannot easily get alone |
+|---|---|
+| Oil, from California and the Gulf Republic; Japan has none | Manpower |
+| The canal and Atlantic access | Shipyards and industrial output |
+| The cable, the coaling network and San Francisco's money market | Officers, through the 1872 cadet programme and its successors |
+| Food: North American wheat and, from 1921, Siberian grain (I3) | A land army for Asia (Russia, Siberia) |
+| Protection against Russia's revenge, and the alliance that holds the Ob | Japanese consent, renewed every ten years |
+
+PROPOSED
+
+### L. The Soviet state by 1932
+
+Boxed in between Germany's eastern clients and the Ob, without Ukraine's grain, Siberia's gold, the Kuzbass coal that historically fed the Ural-Kuznetsk complex, or the far north where the labour camps historically spread (Hist.), the Soviet rump is poor and embattled. The companion CR adds a technology embargo through the Union's rescue of 1931–32. The collectivisation crisis hits a state that cannot pay for imported machines. The novel ends with Moscow strained and its collapse still to come. Its best hope is a coalition of the other losers, revanchist France and the Union's revanchists, which France and the Soviets historically began with their pact of 1935 (Hist.): the final shadow on the triumph. APPROVED (aim); PROPOSED (form)
+
+### M. Kaiulani's arc
+
+- *1887–1915, the regent* (49–77): she builds the shared institutions and makes them acceptable to a rising Japan, and raises Julian as her successor.
+- *1915–1921, the dowager* (77–83): Julian reigns. She negotiates abroad and loses the court to her son's imitation of Elias.
+- *1921, renunciation* (83): she confronts her son over the gas massacre in the Altai and repudiates her role (canon §32).
+- *1927, critic of the decree* (89): she opposes the way Julian imposes the union over the Senate, not the union itself, which completes her life's work.
+- *1932, witness* (94): alive in Hawaii and out of power, she sees the order she built hold, at the price of the Altai. Her captivity (canon §36) falls with Julian's Restoration.
+
+APPROVED (1927, 1932); PROPOSED (wording)
+
+### N. Marcus Vance III
+
+PROPOSED throughout; OPEN-018-18. Replaces the canon figure of a frightened heir who answers failure with cruelty (canon §§31–34, character trajectories).
+
+**N1. Lineage.** Great-grandson of Caleb Vance, who died at Donner Pass in 1887 saving Soberanes (CR-016 D); grandson of Marcus Vance I, killed at Vladivostok in 1878; son of a second Marcus Vance who refused public life and surveyed railways. Born about 1880. After Donner Pass, Soberanes, who owes the family a life, pays for the boy's schooling and brings him into the Polytechnic, where he graduates first. He carries a numeral his father declined. This takes up CR-016's recommendation for OPEN-016-06.
+
+**N2. Two foster sons.** Julian, born in 1886, is raised by Kaiulani as heir to the throne; Vance by Soberanes as heir to the system. They grow up nearly as brothers, each needing what the other has: Julian's legitimacy, Vance's competence.
+
+**N3. Not a firebrand.** A railway and logistics officer, cautious and exact. He designs the Ob line and its fallback on the Yenisei (G4) and drafts the land guarantee that wins Siberia's peasants (G2). Kuroda's death in 1920 thrusts him into a command he never sought; his fear is of failing the dead whose name he carries.
+
+**N4. The Altai, 1921.** The war is savage on every side: the Red Terror, the death trains and executions of the atamans, including the coalition's own client at Chita, Ungern-Sternberg's massacres at Urga in 1921, and the Red Army's use of poison gas against the Tambov rebels in June 1921 (Hist.). Vance's gas attack is not the war's worst crime. What makes it explosive is who dies. A partisan army holding Japanese prisoners threatens the railway behind the Ob in the weeks when Moscow is deciding whether to sign; Vance breaks it with gas, knowing the prisoners are there. Kuroda's men die with their captors, so the stain falls on the partnership, not only on Pacifica. It is the war's stain, matched by its success with the peasants, in the spirit of CR-015's "one stain and one success".
+
+**N5. The lie and the truth.** The report is falsified so that the treaty can be signed, and Julian approves the falsification (canon: reports that recalculate failure as success). Vance signs it, cannot live with it, and tells Kaiulani. She confronts Julian over the cover-up as much as the gas and renounces her role, but does not make it public, to protect the treaty. Vance keeps his command; Julian never quite forgives him, and Kaiulani never quite forgives Julian.
+
+**N6. 1931.** When Japan's army plots for Manchuria, it is Vance who carries out Julian's threat: as commander of the common forces he orders the common navy not to carry the army's troops (I5). The two foster sons act together for the last time.
+
+**N7. His end, May 1932.** He is killed by guards of his own headquarters whom he believed loyal, keeping canon §34 in a new sense. They are Japanese Restoration sympathisers, some of them comrades of the men gassed in the Altai. He dies for the right act of 1931 at the hands of men avenging the wrong act of 1921. Before May he has given the true Altai report to the Chronicler, so the record of the triumph carries its cost (OPEN-018-19, approved).
+
+---
+
+## 4. Consequences for the master storyline
+
+| Section | Current text | Change |
+|---|---|---|
+| §18, unresolved decision 9 | The lost son unnamed | The lost son is Kalanimoku |
+| §24 | The Japanese naval aristocracy retains a defined sphere | The sphere is one half of the 1887 compact with Tokyo (C4) |
+| §26 | Julian may never be admitted to the succession; British war after 1900; Russia's revenge tests the guarantees | Julian is the designated heir; Russia's revenge becomes the war of 1904–05 (F); no British war before 1932 (E4) |
+| §27, unresolved decision 12 | Kalanimoku crowned in 1914 with Lady Chiyo as consort; Julian bypassed | The settlement of 1914 establishes the House of Thorne-Kamehameha; Julian takes over in 1915 and marries Chiyo, of the kazoku |
+| §28 | India and Rangoon against Britain, 1914–15, under Fleet-General Kuroda | Removed (E4) |
+| §29 | Kalanimoku imitates Elias and humiliates the Senate | Julian does, from 1915. Thalassia becomes the seat of the common institutions and, from 1927, of the union |
+| §30 | Europe's ruin and the creditor empire | Adds Japan's share of the creditor empire and its convoy squadron (F, 1917); the brokered peace follows in the companion CR |
+| §31 | Afghanistan, Kuroda's death, the backward-moving railway | Afghanistan removed. The campaign moves to Siberia and is won; Kuroda's death stays; the railway moves west (G) |
+| §32 | Kaiulani confronts "her grandson"; Siberia's route OPEN | She confronts her son Julian over the gas massacre in the Altai; the route is the coalition's railway west from Vladivostok (G) |
+| §§33–37 (Part VII) | Julian's Restoration and his overthrow of Kalanimoku; Vance III killed; Kaiulani's captivity; Thalassia burns; the Pacific "once again an open expanse of water" | Replaced by the triumphant ending (A7). No self-coup (A17). The crisis of 1931–32 is Japan's army plot and its failure (I5, I6). Kaiulani lives to see 1932 (M); Keawe wins labour reforms and the Chronicler records the triumph and its cost (companion CR); Vance III's arc is revised (N; OPEN-018-18) |
+| Character trajectories | Kalanimoku and Chiyo as the 1914 sovereign and consort | Kalanimoku as the lost son; Chiyo as Julian's empress and the new Japan at court |
+| The Japanese partners and heirs | "The succeeding Kuroda generations"; Kuroda Kiyotaka's relation to the later fictional Kuroda line requires genealogy | Kiyoshi enters Kuroda Kiyotaka's house by adoption in 1886; Fleet-General Kuroda is Kiyoshi; his son is the next generation; Chiyo is of another branch (D5) |
+| Marcus Vance I, II and III | Three Vances; Vance III a frightened heir who answers failure with cruelty and falsified numbers | Revised (N; OPEN-018-18) |
+
+---
+
+## 5. Open items
+
+### Decided on 18 October
+
+| ID | Decision | Where |
+|---|---|---|
+| OPEN-018-01 | Pacifica keeps the Tsingtao anchorage on lease and returns the rest of Shandong; Japan is compensated in Siberia. | H, 1919 |
+| OPEN-018-02 | The Manchurian line is Chinese-owned, with Japanese running rights and a Pacifican board in wartime. | B, G3 |
+| OPEN-018-03 | Kamchatka, the Okhotsk coast and Nikolayevsk stay Russian until 1921, then pass to Japan. | B, G5, G6 |
+| OPEN-018-04 | Chiang Kai-shek succeeds Sun; Zhang Zuolin is still killed in 1928, and Zhang Xueliang holds Manchuria. | A18, H |
+| OPEN-018-05 | No self-coup. | A17 |
+| OPEN-018-06 | The gas massacre happens in the Altai in 1921, in the partisan war of the coalition's rear. | G5 |
+| OPEN-018-07 | Formosa's revenue administration and Keelung stay Pacifican after the Inspectorate is returned. | E3, H |
+| OPEN-018-08 | The Siberian Republic, governed from Irkutsk, with its Regional Duma at Tomsk. | G6, D2 |
+| OPEN-018-09 | Japan's overseas commands pass under the common government after May 1932; the home army stays national. | I6, C4 |
+| OPEN-018-10 | The Treaty of Harbin, 1921. | G5 |
+
+| OPEN-018-11 | The union's legal formula follows the Anglo-Egyptian condominium in the Sudan. | C5 |
+| OPEN-018-12 | Korea stays a protectorate; Japan does not annex it. | F, 1905–10 |
+| OPEN-018-13 | In 1927 Kaiulani opposes the decree, not the union. | F, 1927; M |
+| OPEN-018-14 | Kaiulani is alive at 94 in Hawaii in 1932, out of power, and sees the order she built hold. | M |
+| OPEN-018-15 | Kiyoshi becomes Kuroda Kiyoshi by adoption in 1886; he is Fleet-General Kuroda; Chiyo is of another branch; his son holds the fleet's Japanese units in 1932. | D5 |
+| OPEN-018-16 | The heir is named Kalanimoku; the coup targets his betrothal and its failure lets the marriage go ahead. | F, c. 1916; I6 |
+| OPEN-018-17 | Chiyo carries Julian's threat to Tokyo in 1931, and the officers' manifesto names her. | D3, I6 |
+| OPEN-018-19 | Keawe's movement wins labour reforms instead of burning Thalassia; the Chronicler records the triumph and its cost. Details in the companion CR. | F, 1927–31; N7 |
+
+### Still open
+
+| ID | Question | Recommendation |
+|---|---|---|
+| OPEN-018-18 | Marcus Vance III's story, revised by author decision (A20). | Section N: the Soberanes-raised foster brother of Julian, a cautious logistics officer thrust into command, whose gas attack in the Altai kills the partner's own prisoners; he tells Kaiulani the truth Julian buried, executes Julian's threat in 1931 and is killed in May 1932 by guards avenging the Altai, having left the true report with the Chronicler. |
+| OPEN-018-20 | Where Russia and Japan sign the peace of 1905. | Vladivostok, the Pacific city Russia lost in 1899: Witte comes to sign away the Pacific in it. |
+
+---
+
+## 6. Alternatives considered and not adopted
+
+- **The Inheritance: Japan captures the empire from within**, on the model of the Qing in 1644. Not adopted: Pacifica keeps the empire (A1).
+- **The Divorce: Japan leaves in 1927**, on the model of Norway in 1905. Not adopted, for the same reason.
+- **Full union from 1887**, with Japan's fleet under common command. Not adopted: Japanese resistance to foreign authority in the 1880s makes it implausible (C2).
+- **Afghanistan as the empire's failed land campaign.** Removed by author decision; Siberia takes its place, and is won (A5, A13).
+- **Kalanimoku as a separate emperor from 1914**, with Julian passed over. Superseded: Kalanimoku is the lost son, and Julian succeeds (A6).
+- **Chancellors as heads of government after Kaiulani**, a Chinese Pacifican from 1915 and a Japanese Pacifican from 1921. Not adopted by author decision: additional rulers complicate the plot; Julian takes over directly.
+- **The collapse ending**: the common government escapes both peoples, Julian's Restoration, Thalassia burns. Not adopted by author decision (A7).
+- **A surviving Qing as a constitutional monarchy.** Not adopted: the Qing falls (A9).
+- **Julian backs the Qing in 1911, or Yuan's monarchy in 1915–16,** including a Yuan dynasty kept alive under his son Yuan Keding. Not adopted: Julian backs Sun (A10).
+- **The Second Founding of 1931.** Dropped by author decision (A11).
+- **The Singapore War, c. 1923–25,** against Britain for Singapore and the Strait of Malacca. Not adopted: the Soviets come first, and a war on Britain in the same decade could unite London and Moscow (A14).
+- **Julian's 1931 Restoration as a self-coup against his own ministries** (canon §§34–35). Not adopted by author decision (A17).
+- **Zhang Zuolin as Sun's successor.** Not adopted: a warlord hostile to the revolution cannot lead Sun's movement.
+- **Zhang Zuolin survives 1928**, sharing power with Chiang. Not adopted: the assassination is the warning of 1931, and his son's grievance and dependence serve Thalassia better (A18).
+- **A mediated peace in 1905, by Theodore Roosevelt at Portsmouth, as in history.** Not adopted by author decision (A21): Kaiulani wants Japan to win.
+- **A Manchurian war against Japan's army in 1931–32.** Not adopted: Siberia gives the army its frontier, and Manchuria stays Chinese (A13).
+- **A punitive war on Nationalist China, c. 1927.** Not adopted: it would spend the investment in Sun.
+- **A line at Lake Baikal or on the Yenisei.** Not adopted: the line is the Ob (A15); the Yenisei survives as the fallback in the defence plan (G4).
+- **A break of gauge at the frontier.** Not adopted: it would give the defender an advantage, as Soviet gauge gave the Soviets against the Germans in 1941 (B1).
+
+---
+
+## 7. Follow-up
+
+- **Companion CR on Europe and the Union:** the Union's neutrality, the brokered peace of 1918 and its terms, Germany's eastern clients, Britain's debts, the crash of 1929–31, the Union's rescue, the technology embargo on the Soviets, and the ending's frame (OPEN-018-19).
+- **Feasibility audit:** the renewal crises of 1897, 1907, 1917 and 1927, with Japan's quota of common costs and the union's finances from 1927; coalition strength and Pacifica's expeditionary corps; railway capacity west of Chita; Japanese and Chinese settlement in Siberia; the alliance's standing costs.
+- **CR-016:** OPEN-016-08 is answered by D5. OPEN-016-06, Vance III's lineage, is answered by N1 once section N is approved. OPEN-016-01, 03, 04 and 07 stay with CR-016.
+- Bring master storyline §§18 and 24–37 into line with this CR and CR-016.

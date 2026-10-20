@@ -216,4 +216,14 @@ Davis (#27), Benjamin (#52), St. Clair (#20) and Armistead (#83) are now mapped 
 - **Labor and colonial voices:** Avoid deleting miners, artisans, prisoners, engineers, workers and insurgents simply because they were unnamed. These roles offer essential polyphonic counterperspectives to the Chronicler.
 - **Chronological generations:** Older and younger Kalākaua, Kuroda, Hoshino, Vance, Shen, Takashima and Thorne entries should be mapped only after pedigree and chronological verification.
 
-**Current unmapped legacy sketches:** 183 of 250. Mapped names have their own canonical or provisional CT-IDs and are absent from this index.
+**Current unmapped legacy sketches:** 179 of 250. Mapped names have their own canonical or provisional CT-IDs and are absent from this index.
+
+
+
+## CR-016 identity precedence
+
+CT-MARCUS-II is a retired provenance ID; the four original mappings remain in the unchanged crosswalk. The active Polytechnic role is CT-SOBERANES, unrelated to the Vances, with proposed name/biography. Kiyoshi’s older aliases remain traceable under CT-KIYOSHI; they do not override his approved eldest-son/Satsuma-mother identity.
+
+## CR-018 and CR-019 identity precedence
+
+The old Indian, Afghan, Emperor Kalanimoku, Julian Restoration and collapse sketches above are archival descriptions, not active plot assignments. CR-018 identifies Fleet-General Kuroda as Kiyoshi; CT-KURODA-II remains resolved alias provenance. The three former Kalanimoku claimant/parent/emperor shells are retired without remapping their original profiles. The lost son and the c.1916 heir are separate current identities. All 250 archival profiles and crosswalk mappings remain unchanged; new historical roles have distinct IDs without invented legacy matches.

@@ -112,7 +112,7 @@ def check() -> list[str]:
     by_id = {p["id"]: p for p in entries}
     expected = [
         "CT-ELIAS","CT-KAIULANI","CT-JULIAN","CT-JULIAN-MOTHER",
-        "CT-LOST-SON","CT-MARCUS-I","CT-MARCUS-II","CT-MARCUS-III",
+        "CT-LOST-SON","CT-MARCUS-I","CT-SOBERANES","CT-MARCUS-III",
         "CT-KALANIMOKU-EMPEROR","CT-CHRONICLER"
     ]
     for k in expected:

@@ -1,0 +1,190 @@
+# CR-016 — The managed succession, 1883–1889
+
+**Status:** Submitted for approval · **Raised:** 18 October 2026 · **Basis:** author decisions from the working session of 18 October 2026
+**Affects:** Part IV §§18–21 (the sons' timing; Kaiulani's government during Elias's decline; Julian's birth; the 1887 constitution); Part V §§22–25 (the succession, the adoption, the Truce of Thalassia, the regency's institutions); Part VI §28 (the retiring commander); character trajectories of Kaiulani, Caleb Vance, Marcus Vance II and III, Silas, Kiyoshi (section H), Julian and his mother; explicitly unresolved decisions 10, 11 and 12
+**Related:** CR-015 (B7 Keelung and Port Hamilton; B6 Vladivostok; E11 and J for the regency's later programmes); the Pacifica Power Timeline, 1865–1900 (1887: no foreign commitment within a year of the succession)
+
+**Labels.** **APPROVED** marks a decision the author stated. **PROPOSED** marks working detail developed to carry it out; it awaits approval item by item. **OPEN** marks a question this CR raises or leaves unresolved. **Hist.** marks a real event used as an anchor; **Hist. → PROPOSED** marks an anchor whose outcome changes.
+
+---
+
+## 1. Summary
+
+Elias's death in August 1887 does not start a civil war. There is no legitimate heir; Kaiulani has taken Julian as her hānai son and rears him as the successor. The three adult power centres, Silas's American military aristocrats, the Japanese naval party and the Polytechnic officers, can each block the others but cannot win without a war none can afford, and an infant heir under a regent is every faction's second choice. Kaiulani negotiates the Truce of Thalassia while Elias still lives; his death triggers the pact instead of a war. One armed standoff at Donner Pass, where Caleb Vance dies, is the price.
+
+The Polytechnic role formerly held by Marcus Vance II passes to a decorated commander of the Pacific wars who is unrelated to the Vances by blood: Rafael Soberanes, the officer who brought the squadron home from Vladivostok after Marcus Vance I fell.
+
+---
+
+## 2. Decisions
+
+### A. Principles
+
+**A1. The regency is established without a civil war; Pacifica consolidates in 1887–89 instead of recovering.** APPROVED (general shape)
+
+**A2. There is no legitimate heir. Kaiulani adopts Julian and rears him as the successor.** APPROVED
+
+**A3. The Polytechnic leader of Part V is a decorated commander from one of the Pacific conflicts, unrelated to the Vances by blood.** His role, character arc and later retirement stay as in the master storyline; only his name and lineage change. APPROVED
+
+### B. Historical precedents
+
+| Precedent | What happened (Hist.) | What it gives the story | Label |
+|---|---|---|---|
+| **Cixi and the Guangxu Emperor, 1875** | The Tongzhi Emperor died in January 1875 without a son. Against the succession rule, Cixi had her three-year-old nephew adopted as the son of the late Xianfeng Emperor and enthroned, which restored her regency. The princes and the Grand Council accepted; there was no war. Guangxu grew up, backed the 1898 reformers against her, and was confined on an island in the palace lake until his death. | The core model: no heir, a dowager adopts a child, the factions prefer a minor. Kaiulani watched it from Pacifica's position in China. The Union press calls her "the Pacific Cixi" from 1887. The 1932 ending inverts it: the adopted son confines the regent. | PROPOSED |
+| **Hānai adoption** | Hawaiian chiefly families routinely raised kin's children as their own; Liliʻuokalani and Bernice Pauahi were both hānai children. Adoption of heirs was equally normal among the Japanese elite. | Julian's adoption is an ordinary aliʻi act, legible to the Hawaiian and Japanese constituencies. | PROPOSED |
+| **Kaʻahumanu, 1819** | On Kamehameha I's death his favoured widow declared that he had wished her to share rule as kuhina nui and made it stick, at the cost of one short battle, at Kuamoʻo. | Hawaiian legitimacy for a widow who holds the Kuhina Nui office; one fight, not a war. | PROPOSED |
+| **Spain, 1885** | Alfonso XII died in November 1885, leaving a foreign-born widow and a posthumous heir. The party leaders Cánovas and Sagasta agreed at El Pardo to sustain the regency and alternate in office. Villacampa's republican rising of September 1886 failed in a day; the regency lasted to 1902. | The pact among elites made while the ruler is dying. | PROPOSED |
+| **Boulanger, 1889** | In January 1889 the popular general's supporters urged him to march on the Élysée; he did not, and fled within months. | Silas's moment at Donner Pass: the coup that is ready and never ordered. | PROPOSED |
+
+### C. Before August 1887
+
+| When | What happens | Label |
+|---|---|---|
+| c. 1858–65 | Silas and Kiyoshi are born, so that they are adults leading constituencies in 1887. Kiyoshi, the eldest, is born in 1859 (section H). Elias's infidelities therefore begin before the legitimate son's death, not after it, which darkens the marriage early. | PROPOSED; Silas's mother and date OPEN (OPEN-016-01) |
+| Late 1870s | The legitimate son dies; Kaiulani, born 1838, can bear no more children (canon §18). | canon |
+| 1883–87 | Elias declines. Kaiulani governs in practice. Keelung and the Customs Inspectorate (1884–85) and above all the Port Hamilton crisis (1885–87, CR-015 B7) become her successes, so she reaches 1887 with a record as well as a title. The Coral Sea war of old §21 stays removed (CR-015). | PROPOSED |
+| June 1884 | Sherman, Pacifica's Inspector-General, gives the answer the real Sherman gave in June 1884 when a faction offers him power: if nominated he will not accept, if elected he will not serve (Hist.). The General Staff follows him; officers swear to the constitution, not to a person. He dies in February 1891 (Hist.), covering the critical years. | Hist. → PROPOSED |
+| 1886 | Julian is born (canon c. 1886–87, here fixed to 1886). While his mother lives, Kaiulani takes him as her hānai son; Elias, already incapacitated, consents in writing. | APPROVED (adoption); PROPOSED (timing, form) |
+| 1886–87 | The Truce of Thalassia is negotiated in Hawaii and signed in spring 1887, while Elias lives (section D). | PROPOSED |
+| Summer 1887 | The imperial constitution of the 124 states (canon §21) includes a regency article naming Kaiulani regent with a regency council, and Julian heir. Elias's office of Providentor ends with him. Japan, China, Britain and the Confederacy agree in advance to recognize the regency within days, so the Union has no window to recognize a rival government; Pacifica is creditor to most of them. | PROPOSED |
+| August 1887 | Elias dies (canon). The pact takes effect. | canon → PROPOSED |
+
+### D. The Truce of Thalassia, moved before the death
+
+**D1. Why it holds.** PROPOSED
+- *Mutual veto:* Silas is unacceptable to the Japanese party, the Hawaiians and the Polytechnic; Kiyoshi is unacceptable to the American officers; neither can win without civil war. A one-year-old is everyone's second choice, as Guangxu was in 1875.
+- *The only acceptable regent:* Kaiulani is the founder's widow, a Hawaiian aliʻi holding the Kuhina Nui, the diplomat of Port Hamilton, patron of the examination institutions and a friend of Japan; she controls Hawaii's harbours and coal (canon §22). At 49 she is credible and has years ahead of her.
+- *The Polytechnic's choice:* Soberanes (section F), who controls the telegraph, prefers institutions to a strongman and sides with her. He plays the part of Cánovas.
+
+**D2. Terms.** The terms of canon §24, signed a year earlier: PROPOSED
+- an inland command for Silas, as warden of the interior West and the divide;
+- a defined Japanese naval sphere under central oversight (the "1888 settlement" of CR-015 D2, now signed in 1887), with Kiyoshi as the naval party's leader (section H);
+- the professional administration, the Polytechnic and the telegraph for Soberanes;
+- the regency for Kaiulani, with a regency council in which each signatory sits;
+- Julian as heir under the regency.
+
+**D3. Donner Pass, the one crisis (autumn 1887).** Replaces the war of the inheritance. PROPOSED
+- In the weeks after the funeral, Silas's frontier veterans and the Polytechnic corps face each other at Donner Pass over control of the Sierra line. It is a standoff, not a campaign.
+- Someone fires (OPEN-016-03). Old Caleb Vance steps between the lines and is killed saving Soberanes, a man he is not related to: the frontier veteran dies for the institution man. The canon's theme survives intact: the younger man's instruments matter less than the veteran's judgment.
+- Caleb's death shames both sides into honouring the Truce. Silas has his Boulanger moment: his officers wait for the order and he does not give it.
+
+### E. Julian and his mother
+
+**E1. Julian is the designated heir from infancy.** APPROVED (rears him as successor); PROPOSED (designation in the 1887 constitution)
+
+**E2. His mother becomes a rival claim.** As Julian's natural guardian she is a competing claim to the regency of her own child. Her death after Elias's (canon §23) removes that claim, which strengthens the motive pointing at Kaiulani while the record stays inconclusive, as the Chronicler requires. Her name, family and agency stay OPEN (unresolved decision 11; OPEN-016-04). PROPOSED
+
+**E3. The 1914 tension.** Passing over a designated, raised heir in favour of Kalanimoku in 1914 is now a broken promise, not merely a choice. It gives Julian's 1931 Restoration a real grievance and sharpens unresolved decision 12 (OPEN-016-05). PROPOSED
+
+### F. Rafael Soberanes, replacing Marcus Vance II
+
+**F1. Who he is.** PROPOSED
+- *Born* 1847 at Monterey, the year after the Republic: a child of the founding. His Californio family, a fictional branch of the Monterey Soberanes, loses its rancho in the 1850s to squatters, debt and litigation even though Elias defended the land grants. Like Elias in 1837, he is a dispossessed boy; he concludes the opposite. Elias builds a personal state; Soberanes builds impersonal records, examinations and audits, so that no family's fate depends on a patron again.
+- *Rise:* enters the naval academy by competitive examination in 1861, at fourteen, the first of his family to rise by merit rather than land. Gunnery officer at Manila Bay in 1873 (CR-015 B3).
+- *Vladivostok, February 1878:* chief of staff to Marcus Vance I. When Marcus falls in the winter action, Soberanes completes the operation and brings the squadron home through the ice (CR-015 B6). The mantle passes by merit, not descent, which is the argument of his whole later regime.
+- *1879–84:* builds the fleet signal service, the state telegraph and the officers' examinations.
+- *Keelung, 1884–85:* commodore of the squadron that places Keelung under protection and makes France stop without a battle (CR-015 B7). He becomes the commander who wins without fighting, the friendship doctrine in uniform.
+- *1885:* Superintendent of the Polytechnic and Director of Telegraphs. In 1887 he is forty.
+- *No dynasty:* no son follows him into the service; his heirs are his graduates.
+
+**F2. Unchanged from canon** (now attached to Soberanes): he organizes the Polytechnic officers and controls the communications in 1887 (§22); founds the examination regime and with Kaiulani gradually reduces the autonomy of bankers, hereditary commanders and families (§§19, 25); retains broad military and financial authority in the 1914 settlement (§27); retires in 1914–15, aged about 67, and recognizes that his system now runs without him (§28); later recognizes its excesses. APPROVED (role); PROPOSED (attribution)
+
+**F3. Name.** Soberanes is a real Monterey family name; Rafael is fictional, so no real person is portrayed. PROPOSED
+
+**F4. The Vance line.** Removing Vance II leaves Marcus Vance I (d. 1878) and Marcus Vance III (fall c. 1930–31). Recommended: Vance III is Marcus I's grandson through a son outside public life, and the Polytechnic's top graduate under Soberanes, heir to the system rather than to a father. OPEN (OPEN-016-06)
+
+### G. What Kaiulani pays
+
+| Trade-off | Consequence | Label |
+|---|---|---|
+| She rules through a pact | For years she governs by bargaining, within a council; consolidation is slow. This fits the Power Timeline's rule of no foreign commitment within a year of 1887, and canon §25. | PROPOSED |
+| Silas guards the divide | His inland command makes him warden of the border with the Union: a natural target for Union intrigue, and tested in the Bread March of 1894 (CR-015 E10). | PROPOSED |
+| Japanese autonomy is constitutional | The naval sphere buys peace in 1887 and is the root of the Kuroda faction's later demands. | PROPOSED |
+| Julian is the designated heir | Every faction courts him from childhood; the 1914 bypass becomes a broken promise (E3). | PROPOSED |
+| Elias's enabling law lapses | The 1865 power of cabinet legislation ends with the regency. It reassures the signatories and costs her a tool. | PROPOSED |
+| Optional: the 1888 immigration switch | The move to selective immigration (CR-015 I3) may be part of the price paid to Silas's American faction, alongside the planter motive the Power Timeline suggests. | OPEN (OPEN-016-07) |
+
+### H. Kiyoshi: Elias's eldest son and the Japanese naval party
+
+**H0. Kiyoshi is Elias's eldest son, born to a Satsuma mother, and leads the Japanese naval party in 1887.** APPROVED
+
+**H1. Origins, Kagoshima, 1858–59.** PROPOSED
+- In 1858, the year of the Treaty of Edo, Elias visits Kagoshima through the Satsuma channel and tours the Shūseikan, Shimazu Nariakira's industrial works, with its furnaces, shipyard and the glassworks that made Satsuma cut glass (Hist.).
+- His mother is the daughter of a Shūseikan glass master, trained in Dutch learning, who interprets for the visitors. Proposed name: Uehara Hisa. She has a life of her own and keeps the boy from Elias for thirteen years.
+- Kiyoshi is born in 1859, two years into Elias's marriage and before the legitimate son. His name, 清, means "pure" or "clear": defiance or cruel irony for a child Satsuma calls *ainoko*, "half-blood".
+- In August 1863, aged four, he watches the British fleet bombard Kagoshima and wreck the glassworks where his mother worked (Hist.). His first memory is sea power deciding what a city may be.
+
+**H2. The rise, 1872–1887.** PROPOSED
+
+| When | What happens | What it gives him |
+|---|---|---|
+| Jan 1872 | He arrives in San Francisco among the students of the Iwakura Mission, which made its first landfall there (Hist.), and meets his father for the first time, aged twelve. Kaiulani meets the living proof of an affair from the first year of her marriage. | Entry to Pacifica's naval academy, opened to Japanese cadets when Pacifica replaces the French military mission (CR-015 B2). Soberanes, then 25, is among his instructors. |
+| 1872–77 | He trains in Pacifica, as the real Tōgō Heihachirō, also of Satsuma, trained in Britain from 1871 to 1878 (Hist.). Elias gives him patronage but not his name: he remains Uehara Kiyoshi, and the American officers call him "Thorne's Japanese boy". | Skill, and the grievance over his name that drives him. |
+| 1877 | In the Satsuma Rebellion Pacifica backs Tokyo against Saigō, its oldest friends (CR-015 B5). Kiyoshi, eighteen, serves with the squadron supporting the government; a maternal uncle dies with Saigō at Shiroyama (24 September 1877, Hist.). | His defining wound, and his credential with Tokyo's government. |
+| Feb 1878 | At Vladivostok he serves under Marcus Vance I and Soberanes and is decorated, then acts as liaison for the return of southern Sakhalin to Japan (CR-015 B6). | The first officer of Japanese blood honoured in a joint operation; a hero in Tokyo. |
+| 1879 | Interpreter and aide to Elias in the Ryukyu mediation (CR-015 B5). | Father and son on the diplomatic stage, the closest they come. |
+| 1884 | In the Gapsin coup the Japanese legation backs the plotters, as it historically did, while Pacifica's advisers stand aside (CR-015 B7). Kiyoshi sides with the Japanese. | His first act on his own account; Pacifica's leaders mark him as Japan's man. |
+| 1884–85 | At Keelung he captains the Japanese-crewed ships in Soberanes's squadron (CR-015 B7). | A record beside the rival who once taught him. |
+| 1885–87 | Commander of the western squadron based at Yokosuka and Hakodate. | A command, a base and men. |
+
+**H3. Why the Japanese naval party follows him.** PROPOSED
+- *Blood:* the founder's eldest son gives the Japanese officers a claim inside the dynasty.
+- *Satsuma:* "the Satsuma navy, the Chōshū army" was a real saying; Japan's navy was a Satsuma preserve, so his birthplace makes him theirs despite his blood.
+- *Record:* Vladivostok and Keelung.
+- *Limits:* at 28 in 1887 he is the party's face more than its brain; older Satsuma officers use him, and part of his story is growing into the role. He is an outsider in both worlds, *ainoko* in Japan and an "Asiatic bastard" to Silas's officers, and needs the party as much as it needs him.
+- *Why he signs the Truce:* the Americans will never accept him on the throne, so a defined naval sphere is worth more to him than a war he cannot win. He wants autonomy for his people, not the crown.
+
+**H4. Precedent.** Kusumoto Ine (1827–1903), daughter of the German physician Philipp Franz von Siebold and a Nagasaki woman, became Japan's first woman doctor trained in Western medicine (Hist.). She shows that a child of a famous foreigner could rise in Japanese institutions through skill and patronage while remaining marked by her origins. PROPOSED
+
+**H5. Where it leads.** PROPOSED
+- *1889:* when Kaiulani proclaims the Hapa ideal, Kiyoshi is its living proof and its reproach, a child of an affair rather than a marriage.
+- *1899:* in the Primorye war he commands at sea and enters Vladivostok, where Marcus Vance I died and where he won his first decoration (CR-015 D7).
+- *Kuroda:* his relationship with the Kuroda house, the Japanese faction's later conflict with the regency, and any link to Lady Chiyo stay OPEN while the later parts are reworked (OPEN-016-08).
+
+---
+
+## 3. Superseded canon
+
+| Section | Current text | Change |
+|---|---|---|
+| §18, unresolved decision 10 | The order of the other sons' births to be reconciled with the legitimate son's death | Silas and Kiyoshi born c. 1858–65, before the son's death; Kiyoshi in 1859 at Kagoshima (C, H) |
+| §19, §21 | "The younger Marcus Vance" leads the examination state; Marcus Vance II commands in Indonesia, Australia and the Coral Sea | Soberanes leads the examination state; the 1887 campaigns stay removed (CR-015) |
+| §21 | The 1887 constitution; the founder incapacitated | Adds the regency article, Julian's designation and the end of the Providentorship |
+| §22 | The war of the inheritance: mutinies, provincial risings, fierce fighting around San Francisco, battle at Donner Pass; Caleb saves his grand-nephew Vance II | One armed standoff at Donner Pass; Caleb dies saving Soberanes; the Truce holds |
+| §23 | Adoption after the mother's death, c. 1887–89 | Hānai adoption in 1886 while the mother lives; her death removes a rival claim to the regency |
+| §24 | The Truce of Thalassia in 1888 among exhausted factions | The same terms, signed in spring 1887 while Elias lives |
+| §§25, 27, 28 | Marcus Vance II | Rafael Soberanes |
+| Character trajectories | Marcus Vance I, II and III | Marcus Vance I and III (lineage OPEN-016-06); Rafael Soberanes |
+| Character trajectories | Silas and Kiyoshi: mothers, dates and constituencies OPEN | Kiyoshi set out in section H; Silas still OPEN |
+
+---
+
+## 4. Open items
+
+| ID | Question | Recommendation |
+|---|---|---|
+| OPEN-016-01 | Silas's mother and birth date (unresolved decision 10; Kiyoshi's are set in H). | Within c. 1858–65. |
+| OPEN-016-03 | Who fires at Donner Pass. | A young officer of Silas's, so the shame falls on the faction that wanted war. |
+| OPEN-016-04 | Julian's mother: name, family, agency and death (unresolved decision 11). | — |
+| OPEN-016-05 | Why the designated heir is passed over in 1914 (unresolved decision 12). | — |
+| OPEN-016-06 | Marcus Vance III's lineage. | Marcus I's grandson, the Polytechnic's top graduate under Soberanes. |
+| OPEN-016-07 | Whether the 1888 immigration switch is part of Silas's price. | Leave it as one of several motives the novel does not settle. |
+| OPEN-016-08 | Kiyoshi and the Kuroda house: marriage or patronage, the Japanese faction's later conflict with the regency, and any link to Lady Chiyo. | Held open until the later parts are reworked. |
+
+---
+
+## 5. Alternatives considered and not adopted
+
+- **The war of the inheritance (canon §22).** Not adopted: it exhausts Pacifica in the years it must consolidate in the Pacific.
+- **An adult son as heir.** Not adopted: Silas or Kiyoshi on the throne is the outcome each other faction would fight.
+- **Marcus Vance II as the Polytechnic leader.** Not adopted by author decision: it creates a glut of father-son successions.
+- **Logan as the Polytechnic leader.** Considered: an engineer of Ericsson's school fits the technocrat, but his war is the Gulf, not the Pacific, and merging the roles costs a character.
+
+---
+
+## 6. Follow-up
+
+- Bring master storyline §§18–28 and the character trajectories into line with this CR.
+- Record Soberanes's service in CR-015 B3, B6 and B7 (Manila Bay, Vladivostok, Keelung) when CR-015 is next revised.
+- Decide the remaining unresolved decisions 10–12 with OPEN-016-01, 04 and 05.
+- Record Kiyoshi's service in CR-015 B5, B6, B7 and D7 when CR-015 is next revised.
