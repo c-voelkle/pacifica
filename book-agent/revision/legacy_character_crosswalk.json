@@ -53,10 +53,10 @@
       "canonical_id": "CT-KAIULANI",
       "identity_is_confirmed": true,
       "notes": [
-        "Sources omit 1857 marriage and legitimate child",
-        "1855 Kuhina Nui appointment, Article XIV veto, 1874 annexation supersede older portrayal",
-        "Fate following Julian's arrest is open"
-      ]
+        "CR-027: historical Victoria Kamāmalu replaces the fictional Kaiulani; existing stable ID and original legacy name/profile are preserved.",
+        "Current November 1858 marriage, 1872 queenship, 1874 legal lease and 1874–1876 illegal ordinances supersede older legacy chronology; no personal Article XIV veto."
+      ],
+      "canonical_display_name": "Victoria Kamāmalu / Kaʻahumanu IV"
     },
     {
       "legacy_profile_index": 5,
@@ -648,11 +648,10 @@
       "canonical_id": "CT-KAIULANI",
       "identity_is_confirmed": true,
       "notes": [
-        "Sources omit 1857 marriage and legitimate child",
-        "1855 Kuhina Nui appointment, Article XIV veto, 1874 annexation supersede older portrayal",
-        "Fate following Julian's arrest is open",
-        "Original political portrait predates the 1857 marriage and the specific 1860 constitutional veto."
-      ]
+        "CR-027: historical Victoria Kamāmalu replaces the fictional Kaiulani; existing stable ID and original legacy name/profile are preserved.",
+        "Current November 1858 marriage, 1872 queenship, 1874 legal lease and 1874–1876 illegal ordinances supersede older legacy chronology; no personal Article XIV veto."
+      ],
+      "canonical_display_name": "Victoria Kamāmalu / Kaʻahumanu IV"
     },
     {
       "legacy_profile_index": 67,
@@ -1568,11 +1567,10 @@
       "canonical_id": "CT-KAIULANI",
       "identity_is_confirmed": true,
       "notes": [
-        "Sources omit 1857 marriage and legitimate child",
-        "1855 Kuhina Nui appointment, Article XIV veto, 1874 annexation supersede older portrayal",
-        "Fate following Julian's arrest is open",
-        "Kaiulani is Elias' widow, adoptive mother of Julian; final fate after 1931 unknown."
-      ]
+        "CR-027: historical Victoria Kamāmalu replaces the fictional Kaiulani; existing stable ID and original legacy name/profile are preserved.",
+        "Current November 1858 marriage, 1872 queenship, 1874 legal lease and 1874–1876 illegal ordinances supersede older legacy chronology; no personal Article XIV veto."
+      ],
+      "canonical_display_name": "Victoria Kamāmalu / Kaʻahumanu IV"
     },
     {
       "legacy_profile_index": 161,
@@ -2431,6 +2429,7 @@
       "identity_is_confirmed": false,
       "notes": []
     }
-  ]
+  ],
+  "updated_on": "2026-10-21",
+  "current_identity_note": "CR-027 merges former fictional Kaiulani into historical Victoria; active ID CT-KAIULANI retained and CT-VICTORIA-KAMAMALU retired as duplicate provenance. All 250 legacy names and mappings remain intact."
 }
-

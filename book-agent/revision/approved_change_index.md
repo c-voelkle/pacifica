@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 20 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 25 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -474,21 +474,100 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - R9-08: Prince Chichibu is the Emperor’s resident representative at Thalassia. His education, honors and outdoorsman reputation develop in Pacifica instead of Britain/Europe, showing Japan’s turn toward the realm. The narrative gives him Carquinez study in 1925–1926 and Sierra/Hawaiian field life; particular decorations/climbs remain unprovided.
 - R9-09: Noe’s death remains ambiguous: official autumn 1888 typhoid certificate and poisoning testimony retained, no culprit established. Her agency, health work and hānai bargain remain.
 
+### CR-022 — Silas, Abigail Merritt and Donner Pass (revision 3)
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline`
+
+- Silas is Elias’s eldest son, born late 1851 to Abigail Merritt and legally Henry Pruett’s son; Kiyoshi is second. Abigail is the pastor’s daughter; the deathbed-marriage story remains unverifiable.
+- At Donner Silas fires at Soberanes and kills Caleb; the public lie preserves the settlement. Silas confesses to Victoria in 1912 and dies that winter. Unprovided details retain the supplied storyline’s labels.
+
+**Still open:**
+- Full original CR attachment not supplied; this register covers only decisions explicitly embodied in the supplied master, with its labels retained.
+
+### CR-024 — Japan’s 1927 rescue
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline`
+
+- Japan uses its own fiscal cash to rebuild banks; Pacifica supplies the foreign exchange in the severe bank panic. The 1927 provisional Concord, 1928 indemnity and 1932 renewal retain CR-021’s chronology.
+- Numerical quantities are MODEL estimates, not newly validated model results.
+
+**Still open:**
+- Full original CR attachment not supplied; this register covers only decisions explicitly embodied in the supplied master, with its labels retained.
+
+### CR-025 — Wartime credit, Japan’s boom and who pays
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline`
+
+- Wartime Entente credit funds Japanese industry on short foreign money; peace and the earthquake leave unresolved debts. Champion foreign investment uses retained profits, savings and foreign/partner funding as described in the supplied storyline.
+- All numerical stocks, flows and facility terms in the supplied storyline remain MODEL; no financial workbook is recalculated here.
+
+**Still open:**
+- Full original CR attachment not supplied; this register covers only decisions explicitly embodied in the supplied master, with its labels retained.
+
+### CR-026 — Kiyoshi’s bid for the crown (revision 6)
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline`
+
+- Kiyoshi founds a Kuroda branch, while Kiyonaka keeps the main house; countship and Fleet-General command in 1907 are settled.
+- In 1913 Kiyoshi claims the future Pacifican crown as Elias’s eldest surviving son; the October Kāneʻohe anchoring issues no order. He renounces for himself and descendants in 1914 in exchange for the Kuroda queen, Chiyo; the Act names him as Elias’s son.
+- Individual early service, maternal details and proposed interventions retain their source labels.
+
+**Still open:**
+- Full original CR attachment not supplied; this register covers only decisions explicitly embodied in the supplied master, with its labels retained.
+
+### CR-027 — Victoria Kamāmalu, the Puʻuloa lease and the Five
+
+**Register status:** `approved_merged_into_master_storyline_proposals_pending`
+
+- CR-027 A1: The fictional Kaiulani is replaced by the historical Victoria Kamāmalu (b. 1 November 1838), Kaʻahumanu IV, daughter of Kīnaʻu and Kekūanāoʻa. There is no fictional cousin. [APPROVED]
+- CR-027 A2: Elias first meets her in 1851, aged thirteen, as the princes' sister. Courtship from 1854 as in canon. [APPROVED]
+- CR-027 A3: At the Confederation ceremony of 31 July 1856 he hears her chant a mele of her own; her voice haunts him for the rest of his life. [APPROVED]
+- CR-027 A4: Her brothers block her childhood betrothal to Lunalilo for reasons of rank and press Kalākaua on her in 1857. She refuses both out of love for Elias; her songs *Pua Hau ʻo Maleka* and *Aita ʻOe e Parau* claim the right to choose. No Monsarrat affair, no alcoholism. [APPROVED]
+- CR-027 A5: The brothers accept Elias because his children would rank through her alone, he claims none of her lands, and he removes her from the missionary party's reach. [APPROVED]
+- CR-027 A6: The wedding is in **November 1858** at Kawaiahaʻo, after the Treaty of Edo. [APPROVED]
+- CR-027 A7: Kiyoshi is conceived in the spring of 1858 during the Edo negotiations, before the wedding, and born in Kagoshima in 1859. [APPROVED]
+- CR-027 A8: She is Kuhina Nui from January 1855, holds the crown's powers for a day on 30 November 1863 and proclaims Lot. Lot keeps the office (historically abolished in 1864) and names her heir. [APPROVED]
+- CR-027 A9: She founds the Kaʻahumanu Society in 1863, leads the Kawaiahaʻo choir and keeps a kahuna. Her kahuna dies in May 1865; Monterey's physicians save her in 1866. The turn toward measuring what works begins there. [APPROVED]
+- CR-027 A10: She becomes Queen in December 1872 under Article 22, without an election, and appoints Ruth Keʻelikōlani Kuhina Nui. Lunalilo leads the opposition and dies on 3 February 1874. [APPROVED]
+- CR-027 A11: The barracks mutiny of September 1873: Jajczay (hired by Lot) and Judd (her schoolmate) are dismissed; she goes to the barracks on the first day, refuses the admirals' marines, keeps the Queen's Guard under Moehonua and makes Kalākaua answerable for it. [APPROVED]
+- CR-027 A12: The surviving Guard is the admirals' decisive argument for Pearl Harbor. In February 1874 she keeps it in barracks during the rising in her name; the rising has deaths blamed by each side on the other. No massacre. [APPROVED]
+- CR-027 A13: In March 1874 she signs the Puʻuloa Convention, a fifty-year lease and a defence treaty: **LEGAL**. The ordinances of 1874–1876 and the appointed Territorial Council: **ILLEGAL**. Ruth resigns rather than recognize the Council; the Supreme Court declares the ordinances void; she lets the ruling stand on paper. [APPROVED (shape); dates and instruments PROPOSED]
+- CR-027 A14: Elias's motive is cold and strategic: Manila, the fleet and a legislature outside powers could sway. He never acts from hostility to Hawaiians. [APPROVED]
+- CR-027 A15: The English Schools Ordinance of 1876 is the Territorial Council's; Elias does not overrule it; the 1887 constitution entrenches Hawaiian too late; Victoria funds Hawaiian-language schools through the Society. [APPROVED]
+- CR-027 A16: Emma is the loyalists' counter-queen until 1885 and plants her coconuts at the fleet's gate at Puʻuloa; afterwards the loyalists look to Albert Kūnuiākea. [APPROVED]
+- CR-027 A17: Victoria keeps her own estate, so Ruth's, and later Pauahi's, are smaller than historically. [APPROVED]
+- CR-027 A18: Kalākaua is her minister of the image and envoy, not an administrator: legends, the Iron Knife, the 1881 world tour with Judd, the Oceania proposal and the Kaʻiulani–Komatsu match, *Hoʻoulu Lāhui*. He never touches the purse and dies in San Francisco in 1891. [APPROVED]
+- CR-027 A19: The historical Kaʻiulani (b. 1875) exists as a minor figure in the Cleghorn household. [APPROVED]
+- CR-027 A20: Noe nurses in 1881 at Emma's Queen's Hospital; her first patrons are loyalists. [APPROVED]
+- CR-027 A21: The Five: the heads of the chartered estates run the technocratic state. Soberanes, Logan Turner and Tesla hold seats in 1887; there are always five; the unwritten arrangement with the Crown (B6). [APPROVED]
+- CR-027 A23: The Office of Public Measures measures, as do the Polytechnic's audit and examinations; the Five's press seat publishes. The Regent's own life's work is the Office, not the press. [APPROVED]
+- CR-027 A24: From 1887 she is Regent of Pacifica and remains Queen of Hawaii. The 1914 Act joins her crown to Pacifica's and dissolves the Territorial Council; in 1915 she lays down both regency and crown, and Julian accedes. [APPROVED]
+- CR-027 A25: Names by register: "Victoria" for the narrator and Westerners, "Kamāmalu" for Hawaiians, "Kaʻahumanu" on state documents. [APPROVED]
+- CR-027 A26: The mythic structure in B9: four backbone myths and a table of echoes. [APPROVED (section); individual echoes PROPOSED]
+
+**Still open:**
+- OPEN-027-01 [OPEN]: When and how Victoria learns of Kiyoshi
+- OPEN-027-02 [PROPOSED]: The Five's members beyond Soberanes, Turner and Tesla (Hollerith, Hearst, Dickson, successors) and the nickname
+- OPEN-027-03 [PROPOSED]: Dates and wording of the 1874–1876 ordinances and the 1876 judgment
+- OPEN-027-04 [PROPOSED]: The phonograph cylinder and the deathbed request
+- OPEN-027-05 [OPEN (item 9)]: Kalanimoku's birth year (now after November 1858)
+- OPEN-027-06 [PROPOSED]: The individual mythic echoes in B9
+
 ### Author-approved editorial safeguards
 
 - Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
-- Do not make infertility or jealousy the sole motive for Kaiulani's subsequent decisions.
+- Do not make infertility or jealousy the sole motive for Victoria's subsequent decisions.
 - Do not reduce the younger mother to a reproductive plot device; she must have her own agency.
-- Do not assert Kaiulani murdered Julian's mother without deliberate later authorization; preserve genuine ambiguity.
+- Do not assert Victoria murdered Julian's mother without deliberate later authorization; preserve genuine ambiguity.
 - Do not make Julian's later politics genetically or psychologically inevitable, or predetermine his character.
-- Preserve Kaiulani's independent statecraft, political ambitions, and complicity in imperial decisions.
+- Preserve Victoria's independent statecraft, political ambitions, and complicity in imperial decisions.
 - No technological miracles or effortlessly incompetent opposition.
 - Authorial change requests are authoritative; editorial implementations beyond them remain proposals.
 - Keep the current master storyline a continuous affirmative narrative, without comparisons to old manuscript construction; put research and implementation notes in historical_background.md.
-- Distinguish verified historical events from fictional divergences, particularly Pico-Castro reconciliation, spring 1846 convention, Sloat's delayed response, British debt support and the 1874 Hawaiian massacre.
-- Kaiulani born 1838 is fictional, not Victoria Kamamalu or Princess Victoria Kaiulani; assign Kuhina Nui through an explicit alternate historical event.
-- Lot Kapuaiwa dies December 1872; move Hawaiian centralization/massacre toward 1874 to integrate succession, not earlier 1867.
-- The timing of Silas/Kiyoshi and the legitimate son's loss must remain open rather than making adult succession leaders impossibly young.
+- Distinguish verified historical events from fictional divergences, particularly Pico-Castro reconciliation, spring 1846 convention, Sloat's delayed response, British debt support and the lawful Puʻuloa lease and illegal 1874–1876 ordinances.
+- Victoria Kamāmalu is historical, born 1 November 1838; the separate Princess Kaʻiulani is born 1875. CT-VICTORIA-KAMAMALU is retired duplicate provenance of active CT-KAIULANI.
+- Lot dies December 1872; Victoria succeeds under his designated-heir provision, not an election. Rising and lease in 1874 precede illegal ordinances and 1876 judgment.
+- Silas’s late-1851 birth and Kiyoshi’s 1859 birth/spring-1858 conception are settled by the supplied master and CR-027. Kalanimoku’s birth after the November 1858 wedding and later-1870s loss are settled; exact birth year and accident remain OPEN.
 - No automatic assumption that Japan's Perry mission vanishes solely because California has purchased coal contracts.
 - The 1783 mining ordinances do not settle contested private titles or the rights of Indigenous peoples without state law and negotiation.
 - Treat 1858—not 1860—as the date of the definitive Edo Treaty; the March 1860 Kanrin Maru voyage is a follow-up visit.
@@ -501,25 +580,28 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The Power Timeline controls cadence; CR-015 J1 and later explicit decisions control the named corrections. Earlier dated CR-013 planning text is superseded where cross-referenced.
 - Distinguish Pacifican core population from Philippine crown, associated Gulf citizens, Chinese revenue administration and sovereign Japanese/Korean partners.
 - CR-016: preserve retired CT-MARCUS-II identity as provenance, without active father-son command genealogy or silently remapping legacy profiles to Soberanes.
-- CR-018 fixes the stakeholder endpoint and surviving 1932 order; no Julian self-coup, separate 1914 Emperor Kalanimoku, burning Thalassia or Kaiulani captivity remains active.
+- CR-018 fixes the stakeholder endpoint and surviving 1932 order; no Julian self-coup, separate 1914 Emperor Kalanimoku, burning Thalassia or Victoria captivity remains active.
 - Kalanimoku the lost son and Kahekili / Ikazuchi, the c.1916 heir, are distinct; CT-KALANIMOKU-HEIR is a stable ID, not the current name. Fleet-General Kuroda is Kiyoshi; retain stable legacy IDs as provenance rather than inventing another commander.
 - Russia never completes its own Pacific through connection; Japan completes the eastern link and terminal, with Chinese ownership of Manchuria. Northern coastal cession occurs in 1921, not 1899 or 1905.
 - CR-019 OPEN items retain their status except OPEN-019-03 (decided), OPEN-019-09 (superseded by CR-020), and OPEN-019-04 (partly resolved by CR-020). CR-018 section N remains wholly proposed under OPEN-018-18, even where CR-019 refers to its suggested archive and death.
-- The 1865 armistice/framework and 1867 Western Senate ratification remain distinct. 1919 combined-fleet limits do not create the 1927 common ministries. Kaiulani is 93–94 in 1932 without a chosen birthday.
+- The 1865 armistice/framework and 1867 Western Senate ratification remain distinct. 1919 combined-fleet limits do not create the 1927 common ministries. Victoria is 93–94 in 1932 without a chosen birthday.
 - CR-020 E governs its earlier draft replacements; B4 is superseded and B15/D final figures replace intermediate model tables. MODEL values never become narrative canon through this merge.
 - No Gulf membership by 1932, no three-year admission period, no Keawe strike/labor-charter arc or main-story labor registration. Guest permits remain background administration.
 - The 1932 Gulf oil compact follows the failed 1931 streak, despite older 1931 compact assumptions in source B6/D. B14’s full 1927 Japanese crisis borrowing supersedes B3’s earlier 80% figure.
 - Replacement workbook checks are reported source results. Its missing bank-by-bank and transport tests remain audit gaps, not resolved failures in the earlier workbook.
 - CR-021 revision 8 and final K decisions override earlier PROPOSED/OPEN labels inside that attachment. All seventeen OPEN-021 entries are decided; uncapped tongue votes are an express direct author decision in revision 9.
 - Julian is never styled President; the presidency is a delegated executive function of his Crown. Hayama always hosts the crowns’ Council; reigning Hirohito never visits Thalassia. The Altai secret is withheld.
-- Noe’s identity, 1886 hānai bargain and official autumn 1888 typhoid account are settled; no culprit is proved. Do not erase medical work or reduce Kaiulani’s rivalry to jealousy.
-- Hawaiian Crown land and ʻAha Aliʻi custody are distinct from Realm regulation and county lease administration. The 1914 Act restores crown and language politically without reversing the 1874 judgment.
+- Noe’s identity, 1886 hānai bargain and official autumn 1888 typhoid account are settled; no culprit is proved. Do not erase medical work or reduce Victoria’s rivalry to jealousy.
+- Hawaiian Crown land and ʻAha Aliʻi custody are distinct from Realm regulation and county lease administration. The 1914 Act joins crowns and restores legislature and language without reversing the 1876 judgment.
 - The latest dominance/reserve/stress comparisons are source-reported MODEL values. Do not mix their Union per-person comparator with CR-020’s historical-US comparator or infer a complete new GDP series.
 - Revision 9: Chichibu is selected, not a candidate. His Pacifican education, Crown honors and outdoorsman reputation show Japan’s Pacifican orientation instead of a British/European career. Avoid inventing particular orders, ranks or summit records.
 - Nikolayevsk joins Kamchatka and Okhotsk coast as Siberian sovereign territory in 1921. Japanese access requires treaty and creates no automatic base or ownership.
 - Dawes chooses the rescue/association; Young campaigns for acceptance and endorses as president-elect. Crowns agree renewal at Hayama, ministers sign/exchange at Thalassia.
 - Foreign Affairs and Finance normally Pacifican is a convention, not a statutory nationality rule; only the at-least-one Japanese minister floor is legal. Reserved squadron ends in 1932.
 - Noe’s official typhoid account and poisoning testimony remain genuinely unresolved; no culprit is newly selected.
+- CR-027 replaces fictional Kaiulani with historical Victoria Kamāmalu while retaining stable ID CT-KAIULANI and all legacy profiles. Historical Princess Kaʻiulani, born 1875, is separate.
+- CR-027: No massacre or Hawaiian throne abeyance. The lease is legal; later ordinances and appointed Council illegal; ignored judgment is 1876. The 1914 Act joins crowns.
+- CR-027 A22/A27 and the individual B9 echoes remain PROPOSED; A13 approves the settlement’s shape while instrument dates and wording remain PROPOSED. Section D’s questions are not resolved by publication.
 
 ### Provisional canonical timeline
 
@@ -530,33 +612,33 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 31 May 1846 | Santa Barbara convention declares independent República de California on Pentecost; Pico becomes provisional president. Bilingual English–Spanish founding bargain, civil liberties and public religious freedom. |
 | June 1846–February 1848 | Bear Flag uprising and Olompali, Sloat hesitation and Collingwood, Stockton standstill, San Pasqual; recognition by Mexico with approximately £3m London debt assumption. |
 | Spring 1848–1852 | Stanislaus/Mokelumne discoveries and public rush; 1849 Mining Law 5% royalty; mint 1850; border Treaty of Monterey; Vallejo president after 1850; vigilante conflict; Elias gains Mines and Revenue superintendency 1852. Common-law commercial institutions, retained rights and bilingual administration attract immigration and technical enterprise. |
-| 1849–1855 | Friendships with Alexander, Lot and Manjiro; castaway connections through Satsuma; Walker filibusters blocked; Kaiulani visits San Francisco; Hawaiian coaling treaty and Shimoda arrangements 1855. |
+| 1849–1855 | Friendships with Alexander, Lot and Manjiro; castaway connections through Satsuma; Walker filibusters blocked; Victoria visits San Francisco; Hawaiian coaling treaty and Shimoda arrangements 1855. |
 | 1855–November 1856 | Defense Law 1855, first minister appointment, 1856 second Vigilance Committee suppressed; Confederation of Pacifica declared 31 July 1856 in Honolulu; ratified in September and November; Elias becomes Chancellor. Elected Assembly, state Council and institutional Article XIV assent; English confederal working language with member-language guarantees. |
-| February 1857 | Marriage of Elias and Kaiulani in Honolulu after confederal ratification. |
+| November 1858 | Elias marries Victoria Kamāmalu at Kawaiahaʻo after Edo; Kiyoshi was conceived that spring, before the wedding. Victoria’s knowledge remains OPEN. |
 | 1857–1858 | Utah War and northern gold rushes; Abe Masahiro dies 1857, Nariakira dies 1858; definitive Treaty of Edo is signed in 1858 under new shogunal order. |
-| 1859–autumn 1860 | Comstock discovery east of border; March 1860 Kanrin Maru visit confirms 1858 Edo treaty; Paiute conflict and Washoe intervention; Kaiulani organizes Hawaiian opposition that withholds state assent to Article XIV; Carson Convention Pacifica withdrawal. |
-| April–May 1861 | Fort Sumter; fictional Hawaiian packet crisis; Kaiulani demands protection; Article XIV and separately limited coercive authorization; late-May activation is the working date. |
+| 1859–autumn 1860 | Comstock discovery east of border; March 1860 Kanrin Maru visit confirms 1858 Edo treaty; Paiute conflict and Washoe intervention; Victoria organizes Hawaiian opposition that withholds state assent to Article XIV; Carson Convention Pacifica withdrawal. |
+| April–May 1861 | Fort Sumter; fictional Hawaiian packet crisis; Victoria demands protection; Article XIV and separately limited coercive authorization; late-May activation is the working date. |
 | 1862–1867 | Deseret accedes 1862–1863; Washoe retaken 1863–1864; Navajo treaty avoids Long Walk, Bear River remains atrocity; Mobile attack fails/Farragut killed February 1865; Lincoln electoral defeat leads to 1865 peace framework, Western line ratified 1867; McClellan route and treaty detail proposed. |
 | 1865–1872 | Consolidation; Alaska 1867, Midway/Baja proposed; Japan equal alliance 1870–1871; Grant war fails 1870–1871, Sherman convention, Confederate association and fugitive agreement 1871–1872; Greeley wins then dies. |
-| Later 1870s | Loss of Elias and Kaiulani's legitimate son Kalanimoku in accident; Kaiulani unable to bear more children; exact accident open. |
-| 1872–1874 | Death of Lot and Hawaiian succession crisis; incorporation and bloody royalist repression c.1874. Kuhina Nui survives Lot; post-incorporation status and legal challenge remain open. |
+| Later 1870s | Loss of Elias and Victoria's legitimate son Kalanimoku in accident; Victoria unable to bear more children; exact accident open. |
+| 1872–1876 | Victoria succeeds Lot without election in December 1872, appoints Ruth, settles September 1873 mutiny and keeps Guard. February 1874 rising has disputed deaths. Lawful fifty-year Puʻuloa lease in 1874; illegal ordinances 1874–1876, appointed Council and schools ordinance. Ruth resigns; 1876 judgment ignored. Exact instruments and March lease date PROPOSED. |
 | 1873–1880 | Brown/Freedom Act, Gordon presidency 1874–1880, free-womb amendment; Manila 1873 and Spanish sale 1876; family settlement; Satsuma government backed 1877; Marcus I dies Vladivostok February 1878; Ryukyu mediation proposed. |
 | 1880s–1887 | Imperial consolidation, illness and other relationships; Julian born 1886 to physician Kaʻanoe Ward. |
 | 1880–1887 | Panama treaty/railroad 1880, French works; Sunset 1883; Texas abolition 1884; Customs 1885, Port Hamilton near-war; oil/turbine programmes, Tesla arrives 1884 and electrical institute opens 1886 (CR-020); Chinese massacres prosecuted; no foreign military adventure around succession. |
 | August 1887–1889 | Elias dies; managed succession without civil war; proposed pre-death spring 1887 Truce and one Donner standoff. Julian already adopted/raised successor while mother lives; mother later dies mysteriously. |
 | 1888–1893 | Regency; selective skilled/family immigration 1888; abolition and Hapa proclamation 1888–1889; canal purchase 1889; statistics/weekly/film; Wounded Knee campaign; Confederate compensation-bond guarantee calls begin in Panic. |
-| 1894–1897 | Bread March; Kaiulani brokers Korean neutrality in 1894, Formosa stays Chinese under Pacifican revenue administration; Union gold rescue 1895; Whitney elected 1896, prisoner treaty 1897; Japanese gold facility proposed. |
+| 1894–1897 | Bread March; Victoria brokers Korean neutrality in 1894, Formosa stays Chinese under Pacifican revenue administration; Union gold rescue 1895; Whitney elected 1896, prisoner treaty 1897; Japanese gold facility proposed. |
 | 1898–1902 | Primorye war: Japan land forces, Pacifica sea/credit, France neutral, China recovers Amur north bank. Virginia/North Carolina rejoin Union; Federal Republic of the Gulf with Texas/Louisiana/Arkansas/Sequoyah. Cuba independent under joint guarantee, Estrada Palma president, Puerto Rico Union. Canal opening target 1900–1902; Britain settlement and network details proposed. |
-| 1883–1889 | CR-016: proposed de facto Kaiulani government in Elias decline; early adoption and intended successor approved, fixed 1886 date proposed; pre-death Truce spring 1887 and single Donner standoff proposed. Unrelated Polytechnic commander, provisionally Rafael Soberanes, replaces active Marcus II. Kiyoshi eldest son by Satsuma mother; no succession civil war. |
-| 1886–1920 | Kiyoshi enters Kuroda Kiyotaka’s house in 1886; becomes Fleet-General Kuroda; defeats Baltic Fleet in 1905, commands from 1907 and dies in Siberia in 1920. Early birth/service dates remain proposed. |
+| 1883–1889 | Victoria’s de facto government during Elias’s decline remains proposed. Julian’s 1886 birth/adoption is approved by CR-021. Pre-death spring 1887 Truce remains proposed; Donner responsibility is settled by supplied CR-022: Silas fires at Soberanes and kills Caleb. Soberanes’s name and Carquinez seat are approved. Silas is eldest, Kiyoshi second; no succession civil war. |
+| 1886–1920 | Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies Siberia 1920; maternal and early service details retain labels. |
 | 1887–1927 | Stakeholder compact renewals proposed in 1897, 1907, 1917; Japanese imperial careers rise. Fourth renewal becomes Pacific Concord in 1927, cured in 1928, with Tokyo domestic institutions retained and common ministries at Thalassia. |
-| 1900–1905 | Russia occupies China’s Manchurian railway from Transbaikalia; Japan wins 1904–1905 war and refuses Roosevelt’s mediation on Kaiulani’s advice. Japan holds the Pacific terminal; China owns Manchurian section; exact peace terms/signing place remain qualified. |
-| 1905–1915 | Korea remains a Japanese protectorate without annexation. Qing falls; Pacifica backs Sun. 1914 dynastic instrument proposed; Julian succeeds Kaiulani directly in 1915 and marries Chiyo; Soberanes retires. |
-| 1914–1919 | Union neutral. Pacifica fights at sea/in Pacific, finances Entente and brokers the peace. Julian’s credit timing, London raid, Hague terms and Kaiulani’s commission retain proposed/open status. |
-| 1918–1922 | Coalition wins and holds Ob; Kiyoshi dies 1920. Altai gas massacre in 1921; Kaiulani renounces. Treaty of Harbin 1921; Siberian Republic and standing alliance. North Russian coast passes to Japan in 1921. |
+| 1900–1905 | Russia occupies China’s Manchurian railway from Transbaikalia; Japan wins 1904–1905 war and refuses Roosevelt’s mediation on Victoria’s advice. Japan holds the Pacific terminal; China owns Manchurian section; exact peace terms/signing place remain qualified. |
+| 1905–1915 | Korea independent under guarantee after 1905; Qing falls and Pacifica backs Sun. Silas confesses Donner and dies in 1912. Kiyoshi claims crown in 1913, renounces in 1914 for Kuroda queen. The Five stay neutral. Victoria lays down regency and Hawaiian crown in 1915; Julian accedes to both and marries Chiyo; Soberanes retires. |
+| 1914–1919 | Union neutral. Pacifica fights at sea/in Pacific, finances Entente and brokers the peace. Julian’s credit timing, London raid, Hague terms and Victoria’s commission retain proposed/open status. |
+| 1918–1922 | Coalition wins and holds Ob; Kiyoshi dies 1920. Altai gas massacre and false report 1921 break the Crown–Five arrangement; Victoria renounces. Harbin treaty and Siberian Republic; northern coast remains Siberian, Japanese access treaty-only. |
 | 1923–1929 | British debt settlement, Japanese earthquake rescue and union crisis proposed. Chiang succeeds Sun; Zhang Zuolin assassinated; Zhang Xueliang holds Manchuria. Inspectorate returned on proposed defense bargain; Formosan administration retained. |
 | 1929–1932 | Depression; Pacifican moratorium, gold lending, bank support and second Union rescue; detailed settlement mechanics qualified. 1931 Manchurian plot stopped; May 1932 coup fails; overseas Japanese commands become common. Vance’s revised arc remains OPEN-018-18. |
-| 1932 | Pacific order survives and leads. Kaiulani brokers Keawe’s Lands and Waters Charter; Chronicler records triumph and cost. Thalassia Conference and archive mechanics remain qualified; no Gulf membership. Owen D. Young elected November, FDR cooperates; Young takes office 1933. |
+| 1932 | Pacific order survives and leads. Victoria brokers Keawe’s Lands and Waters Charter; Chronicler records triumph and cost. Thalassia Conference and archive mechanics remain qualified; no Gulf membership. Owen D. Young elected November, FDR cooperates; Young takes office 1933. |
 | 1880 onward | Development Fund and savings/development finance support Polytechnic champions; Crown stakes depend on charters or patent licences; standing public debt supports investment and central banking. |
 | 1890 onward | Guest-worker programme supplements skilled and family routes; quotas, employer levy, protected contracts and eventual residence remain background to the main story. |
 | 1901–1911 | Pacifica Steel buys Carnegie 1901; Roosevelt’s emulation and containment response starts 1903, full force 1910; turbine capital ships 1903; Pacifican moving assembly line 1911. |
@@ -564,14 +646,15 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1923–1932 | Keawe cleans Hilo works, loses family support over grazing, drafts Thalassia Plan 1928 and defeats Waimanu dam through refinancing; naval reef-cut compromise; Lands and Waters Charter 1932. |
 | 1925–1932 | Gulf general measures pass 1925 and survive 1927 flood; 1931 oil glut breaks streak, compact delayed to 1932. Parity unmet, twenty-five-year admission challenge extends beyond novel. |
 | about 1927–1932 | The whole order overtakes Union money output as partners grow; 1932 Pacifica-only nominal crossing is a resented headline while Union real output remains larger. Union joins fleet limits; emulation and containment continue. |
-| 1856–1887 | Common Council at Monterey until government moves 1885. 1865 Enabling Law and life Providentorship legal; 1874 incorporation and 1876 school ordinance illegal; 1887 Constitution of Realm legal in form, Truce extra-legal then embodied in organic law. |
+| 1856–1887 | Monterey common government until 1885; lawful 1865 Enabling Law/life Providentorship. Lawful Puʻuloa lease 1874; illegal 1874–1876 ordinances and Council; ignored 1876 judgment. Constitution of Realm legal in form, Truce extra-legal then organic law. Victoria Queen from 1872 and Regent from 1887; the Five run chartered estates. |
 | 1875–1888 | Thalassia decision 1875, Pearl works 1875–85, Pali tunnel/channel 1876–82, cable 1879, offices move 1885. Noe qualifies 1884, physician 1885, health board and Julian birth/adoption 1886, dies contested typhoid 1888; registers found Office of Public Measures. |
-| 1888–1914 | Plural and tongue votes, county grades and programme certification; Kaiulani completes Noe’s vaccination and builds measured recovery. Julian majority 1907 does not end regency. 1914 Act establishes crown/restores Hawaiian throne and language; Kamehameha VI proclaimed. |
+| 1888–1914 | Plural and uncapped tongue votes, county grades and certification; Victoria extends Noe’s health work. Julian’s 1907 majority does not end regency. 1914 Act establishes Pacifican Crown, joins existing Hawaiian crown, dissolves Council and restores legislature/schools/language; Julian heir, accedes in 1915. |
 | 1906–1929 | Polytechnic of Formosa opens 1906, Japanese school/joint board 1928, Sino-Pacifican foundation 1928–29. Formosan Revenue Convention becomes Concord administration with Chinese-commissioned Japanese deputy. |
-| 1921–1928 | Hirohito’s one Thalassia visit/dive as prince 1921; marine exchange thereafter at Hayama. Julian’s 1923 earthquake relief, Chiyo/Nagako friendship 1924, 1927 crisis and illegal provisional Concord, 1928 Kaiulani indemnity and first Hayama Council. |
+| 1921–1928 | Hirohito’s one Thalassia visit/dive as prince 1921; marine exchange thereafter at Hayama. Julian’s 1923 earthquake relief, Chiyo/Nagako friendship 1924, 1927 crisis and illegal provisional Concord, 1928 Victoria indemnity and first Hayama Council. |
 | 1932–1937 | May coup fails, Concord executive renewed for five years and overseas commands transferred. Hirohito hosts Council at Hayama, Julian presides without presidential style; acts at Thalassia. Kahekili’s betrothal marriage proceeds. 1937 renewal remains beyond the novel and uncertain. |
 | 1921 | Northern settlement: Siberian sovereignty over Kamchatka, Okhotsk coast and Nikolayevsk; Japanese access only by treaty, no automatic base. |
 | 1925–1926 and Concord era | Chichibu studies at Carquinez, builds Sierra/Hawaiian outdoorsman reputation, receives Pacifican Crown honors and becomes resident prince at Thalassia; a personal and public turn toward Pacifica instead of Britain. |
 | 1931–1933 | Dawes accepts rescue and negotiates association; Young campaigns for acceptance, elected November 1932, endorses as president-elect, inauguration 1933. Renewal agreed by crowns at Hayama and signed/exchanged by ministers at Thalassia. |
+| 1855–1872 | Victoria historical Kuhina Nui January 1855; chants at 1856 ceremony; refuses Lunalilo and Kalākaua 1857; Society 1863; proclaims Lot 30 November 1863; retained office and designated heir in divergent 1864 constitution; Monterey physicians save her 1866; Queen December 1872. |
 
 <!-- END AUTO-APPROVAL-LEDGER -->
