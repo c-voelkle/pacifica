@@ -304,7 +304,7 @@ CR-027 B9 approves four mythic backbones: Kumulipo/genealogy; Lono and Kaikilani
 
 ## CR-028–CR-031 — current historical anchors and divergences (23 October 2026)
 
-The supplied master is preserved byte-for-byte. The new CR reading records contain its exact labelled paragraphs; they are not the missing original CR attachments. Historical evidence below supports comparators only. Every fictional recognition, sale, crown, victory and protected republic remains authored alternate history. Earlier source CRs and dated research remain intact under this explicit precedence.
+The initial supplied master was published byte-for-byte. The current master now incorporates the direct author correction [CR-031-R1](CR-031-R1.md). The earlier CR reading records retain clearly labelled source snapshots; they are not the missing original CR attachments, and superseded labour statements are not operative. Historical evidence below supports comparators only. Every fictional recognition, sale, crown, victory and protected republic remains authored alternate history. Earlier source CRs and dated research remain intact under this explicit precedence.
 
 ### Recognition and public gold: CR-028
 
@@ -328,14 +328,22 @@ The [1919 FRUS railway papers](https://history.state.gov/historicaldocuments/fru
 
 The route has five sections: Vladivostok–Harbin, Harbin–Manzhouli, Manzhouli–Kitaisky, Kitaisky–Irkutsk and Irkutsk–Ob. The Khingan and Transbaikal branch can constrain a battle far west. The Amur–Shilka route to Sretensk, Kara convoys and summer depots are seasonal support, not year-round substitutes for the line. A Yenisei fallback does not remove the eastern bottlenecks or Chinese consent. Vance’s competence develops without deciding OPEN-018-18’s personal arc. The approximately 28,000 contingent and 50,000-man/two-week test remain proposed model quantities.
 
-### Harbin’s northern settlement and complicity: CR-031 revision 4
+### Harbin’s northern settlement and development: CR-031 revision 4, amended by CR-031-R1
 
 The locally APPROVED territorial amendment gives Siberia the Okhotsk coast west of Ola Bay and Nikolayevsk and makes Kamchatka/Koryak a republic under Japanese protection. The detailed Sakha land with Okhotsk access, North-East Territory with Chukotka, 1922 federation, Transbaikal Council and civilian Resident, Semenov’s removal, Chinese Amur/Mongolian/railway articles, Commander Islands exchange and Arctic charter retain the detailed master’s PROPOSED scopes. These statements override the older all-Siberian destination without rewriting its archival source CR. Fortification remains OPEN-031-11; survey mapping is implementation work.
 
 The FRUS railway correspondence documents actual conflict over Semenov’s interference. Tokyo withdrawing support, a Cossack vote at Chita, a pension at Dairen and the subsequent protectorate are fictional remedies, not historical results established by that correspondence. Nikiforov’s supplied biographical anchors, northern district/clan representation, Nikolayevsk reparations, the Commander Islands’ Aleut consent and commercial/fishing conventions require dedicated primary-source verification. No generic Russian or Japanese voice represents the Sakha, Buryat, Chukchi, Koryak, Aleut or Korean populations.
 
-The Kamchatka Company’s 1927 foundation, Pacifican stake and Korean labour-paper consent are PROPOSED. They expose Pacifican complicity in bonded and coerced work, beside the free, well-paid Kolyma workers on the Siberian side behind Ola Bay. The 1928 strike and 1929 production must not migrate to Kamchatka. The model books a conservative Treasury cash stake and no dividends; it does not prove private/company accounts or erase forced labour. Hirohito is not assigned personal knowledge of the Altai crime or particular camps by these arrangements.
+The Kamchatka Company’s 1927 foundation, Pacifican stake and migration arrangements remain PROPOSED. CR-031-R1 supplies the operative industrial premise: decades of reciprocal Japanese–Pacifican development and competition have already advanced Japanese construction productivity in the nineteenth century. Professional contractors organise machinery, deliveries and trained, paid crews themselves; they do not cede margins and work control to coercive labour intermediaries or local gang bosses. Korean participation remains paid contractual employment. The former bonded-gang scenario and attributed Pacifican complicity are superseded. The 1928 Kolyma strike and 1929 production remain on the Siberian side behind Ola Bay. The model books the Company cash stake and no dividends; it provides no coercive-labour price comparison. Hirohito remains unaware of the separately qualified Altai crime.
 
 ### Current financial reference
 
 Use the author-supplied [CR-031 workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx), with [reconciliation notes](../../finance/CR-031-review.md). The earlier Ledger is a dated CR-021 revision-8 snapshot. Saved model results, workbook approval labels and editorial proposals are separate kinds of evidence; no file is treated as an instruction to change canon beyond the user’s reconciliation request.
+
+## CR-031-R1 — Japanese construction in this alternate history
+
+The author’s direct correction changes the industrial premise, not merely the description of the Kamchatka camps. Japan is a participant in creating better methods, with decades of collaboration and competition before the Concord. Professional project management, coordinated production, machinery and directly managed, paid crews place the construction advance in the later nineteenth century.
+
+This is an explicit counterfactual decision. The earlier reference to imported Karafuto labour practices cannot establish that those institutions survive in this timeline. An analogue from another historical path does not override the novel’s changed firms, technical capabilities and incentives. The correction concerns coercive labour-broker and gang-boss control; it establishes no restriction on legitimate worker association.
+
+The cost explanation follows completed output, plant utilisation, deliveries, skill retention and charges absorbed by intermediaries. No universal historical claim that every free-labour project is cheaper is needed. The earlier unsupported assertion that forced labour would necessarily make Kolyma faster and cheaper is removed. There is no new wage figure, productivity multiplier, labour-law instrument or replacement atrocity. The financial plan remains unchanged MODEL context; engineering and quantitative feasibility retain their evidence requirements.

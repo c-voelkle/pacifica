@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 29 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 30 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -595,11 +595,22 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Yakutia/Sakha autonomy, Chukotka/North-East Territory, the 1922 federation, Semenov’s 1919 removal, Transbaikal Council and civilian Resident retain the detailed treaty passage’s PROPOSED labels.
 - The Chinese Amur, Mongolian-suzerainty, railway and Russian-privilege articles remain PROPOSED in the detailed passage. Chinese sovereignty and partner institutions remain distinct from Pacifican ownership.
 - Commander Islands, Arctic leases and northern-route charter follow the source’s local labels. The workbook separately estimates nominal cession price, seal receipts, relief and debt write-downs; these model labels are not new approvals.
-- The PROPOSED Kamchatka Company’s Pacifican shareholding and Korean labour-paper consent make the order complicit in forced labour, beside free Kolyma workers on Siberian territory. Do not transfer Kolyma into Kamchatka.
+- CR-031-R1 supersedes the bonded-gang Company proposal: Japan and Pacifica are reciprocal industrial innovators and competitors, with efficient Japanese construction established in the nineteenth century. Company employment follows professional contractors and directly managed, paid crews; Kolyma remains free-wage work in Siberia.
 - The fortification freeze remains OPEN-031-11; detailed survey mapping remains an implementation task.
 
 **Still open:**
 - OPEN-031-11: fortification question / freeze remains undecided.
+
+### CR-031-R1 — Reciprocal Japanese–Pacifican innovation and nineteenth-century construction productivity
+
+**Register status:** `approved_direct_author_correction_integrated`
+
+- Japan has collaborated and competed with Pacifica for decades, developing improved project management, production and assembly methods reciprocally; Japanese construction productivity advances into the nineteenth century.
+- Professional contractors retain recruitment, training, payment and work organisation. The Kamchatka Company does not depend on tako beya-style bonded gangs, labour-syndicate intermediaries or local gang bosses.
+- Remove the Company forced-labour premise and Pacifican knowing complicity through camp/contract approvals from active narrative and character documentation. Korean workers remain paid contractual employees under otherwise proposed arrangements.
+- Remove the unsubstantiated statement that forced labour would necessarily make Kolyma faster and cheaper. Retain free, well-paid workers, machinery, skills, logistics and the Siberian production perimeter.
+- Keep the Company’s founding/ownership mechanics locally PROPOSED, the fortification question OPEN-031-11, the Altai arc independently qualified, and all identities/legacy mappings unchanged.
+- Keep financial workbook bytes, assumptions and saved figures unchanged; no quantified productivity gain, labour-cost adjustment or recalculation is authorized or inferred.
 
 ### Author-approved editorial safeguards
 
@@ -708,6 +719,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1847–1848 | CR-028 proposes secret October gold discovery, Querétaro debt/recognition, U.S. suspension and Buchanan–Vallejo convention; public gold confirmation October 1848. No British protectorate. |
 | 1867–1902 | CR-029 supplies Union island quitclaims in 1867/1871, Spanish loan 1874 and sale 1876, separate Micronesian administration, Samoa settlement and cable-island recognition; detailed mechanics retain local labels. |
 | 1914–1915 | CR-029 adds separate Hawaiian and Philippine plebiscites and Philippine crown; Julian’s 1915 Manila oath/proclamation. Ka Lōkahi has three equal votes; the three internal crowns constitute one later Concord party. |
-| 1918–1932 | CR-030 five-section railway and pre-positioned depots sustain proposed Ob operations and standing-front reserve; costs and troop numbers MODEL. CR-031 supplies northern autonomy, protected spheres and Company complicity with fortification undecided. |
+| 1918–1932 | CR-030 five-section railway and pre-positioned depots sustain proposed Ob operations and standing-front reserve; costs and troop numbers MODEL. CR-031 supplies northern autonomy, protected spheres and Company development under CR-031-R1’s professional paid-employment premise with fortification undecided. |
+| Later nineteenth century–1927 | CR-031-R1: Japanese and Pacifican firms improve and compete over project management, machinery and coordinated work. Efficient Japanese construction precedes the Concord and supplies the proposed Company’s professional, paid workforce; no bonded-gang reliance. |
 
 <!-- END AUTO-APPROVAL-LEDGER -->
