@@ -1,4 +1,6 @@
-# CR-031 documentation and financial-plan integration — 23 October 2026
+# Initial CR-031 documentation and financial-plan integration — 23 October 2026
+
+**Historical integration record:** This records the initial publication before [CR-031-R1](CR-031-R1.md). Its references below to Company coercion and exact supplied-master bytes describe that earlier version. The current master and character/history documentation embody the later author correction; the workbook remains unchanged. The former Company-labour premise is superseded, not a continuing condition of canon.
 
 The author supplied the current master storyline through CR-031 and the CR-031 financial workbook and requested reconciliation of the relevant character and historical files and publication to GitHub. Both supplied files are published byte-for-byte at their stable project paths. No embedded document instruction is treated as a separate author approval.
 

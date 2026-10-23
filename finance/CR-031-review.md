@@ -32,19 +32,21 @@ Foreign Entente subscriptions total $3950m, independently matching named sources
 | CR-029 | Tobacco/abaca charter receipts, dividends and peso reserve income | Events!147:152. MODEL amounts; neither receipts nor Crown shares turn the islands into core GDP |
 | CR-030 | Five railway sections, quarterly campaign and annual standing-front schedule feeding Events | Siberia; Events!157:169. 1919 $348.95m; 1920 $288.68m. Capacity, troop numbers, depots and costs remain assumptions |
 | CR-031 | Relief $1.5m and trader-debt write-down $0.5m; Commander Islands price $0.1m and seal receipts $0.2m a year from 1922 | Events!170:173. MODEL estimates, not recovered historical accounts |
-| CR-031 | $3m Company stake over 1927–1929, conservatively booked as Treasury cash; no dividends counted | Events!174. Stake, foreign company operations, forced labour and Kolyma reserve purchases are distinct |
+| CR-031 | $3m Company stake over 1927–1929, conservatively booked as Treasury cash; no dividends counted | Events!174. Stake, foreign company operations, paid employment under CR-031-R1 and Kolyma reserve purchases are distinct |
 
 ## Source discrepancies retained for the author
 
-The following are observations, not additional canon decisions. Supplied bytes are unchanged.
+The following are observations, not additional canon decisions. Supplied workbook bytes are unchanged. The current master additionally incorporates the author’s CR-031-R1 correction to construction and employment.
 
 - `Start!B2` still describes an 18 October rebuild, although Events includes CR-031 entries and the workbook contains later schedules.
 - `Siberia!A2` says four railway sections; the actual header lists five (`AM5:AQ5`), as does CR-030’s synopsis.
 - `Entente subscribers!A1` says foreign $4.25bn; the named total and required foreign subscriptions at `G11:H11` are $3.95bn.
 - `Events!M174` describes approximately 30% Pacifican Company capital; the master proposes one-third. The $3m cash schedule does not settle that ownership fraction.
 - Events labels some CR-031 mechanics Approved, and CR-028’s assumed debt Canon, while the matching detailed master passages remain PROPOSED. Financial metadata does not promote those passages to approval.
-- The master’s approximate output ratios (1.16, 1.74 and 2.24) are earlier rounded references. The supplied saved workbook gives 1.167, 1.756 and 2.248. The master is preserved verbatim, and the documentation identifies the current source rather than silently changing its numbers.
+- The master’s approximate output ratios (1.16, 1.74 and 2.24) are earlier rounded references. The supplied saved workbook gives 1.167, 1.756 and 2.248. The master’s numerical wording remains as supplied, and the documentation identifies the current financial source rather than silently changing those numbers.
 - No named Puʻuloa Crown-rent line was found in the extracted Events descriptions. General harbour spending is not evidence of rent. The earlier [handoff](CR-027-handoff.md) still leaves the amount and estate classification unquantified.
 - The master’s CR-021 overview dates Rey de Filipinas from 1914, while the detailed CR-029 passage marks the combined style PROPOSED and places the Manila oath in 1915. The character documents distinguish the settlement, accession rite and proposed full style; no missing instrument is invented.
 
 Historical and engineering follow-up remains in [the feasibility audit](../book-agent/revision/war_base_assumptions.md). None of these discrepancies authorizes rewriting source proposals or committing ledger-style claims as actual history.
+
+**CR-031-R1:** The author replaces the Company’s bonded-labour premise with Japan’s established professional construction industry and paid crews. This changes narrative/documentation only. The supplied workbook contains no separate tako beya cost schedule; no labour-cost discount, wage estimate or productivity uplift is inserted and no recalculation is performed.

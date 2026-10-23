@@ -1,8 +1,8 @@
 # Current revision — 23 October 2026
 
-Read [the master storyline](master_storyline.md), supplied through CR-031 and preserved byte-for-byte. The [integration record](CR-031-integration.md), [character bible](character_bible.md), [identity registry](character_registry.json), [historical background](historical_background.md) and [financial review](../../finance/CR-031-review.md) describe this revision.
+Read [the master storyline](master_storyline.md), updated through the direct author correction [CR-031-R1](CR-031-R1.md). The initial supplied snapshot is preserved in Git history; current prose incorporates the correction. The [integration record](CR-031-integration.md), [character bible](character_bible.md), [identity registry](character_registry.json), [historical background](historical_background.md) and [financial review](../../finance/CR-031-review.md) describe this revision.
 
-CR-028 narrows the recognition bargain while retaining proposed mechanics. CR-029 revises the Philippine/island sequence and three-crown settlement. CR-030 adds the railway operating schedule; CR-031 supersedes the all-Siberian northern destination. Missing standalone CRs have clearly marked excerpt records, not invented originals. The original CR-027 attachment and earlier CR sources remain unchanged.
+CR-028 narrows the recognition bargain while retaining proposed mechanics. CR-029 revises the Philippine/island sequence and three-crown settlement. CR-030 adds the railway operating schedule; CR-031 supersedes the all-Siberian northern destination. CR-031-R1 replaces the Company’s bonded-labour premise with the reciprocal nineteenth-century Japanese–Pacifican construction advance and paid employment; model figures remain unchanged. Missing standalone CRs have clearly marked excerpt records, not invented originals. The original CR-027 attachment and earlier CR sources remain unchanged.
 
 The notes below describe earlier integration stages; current source precedence and financial references above govern where they differ.
 
