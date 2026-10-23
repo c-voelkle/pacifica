@@ -1,3 +1,13 @@
+# Current revision — 23 October 2026
+
+Read [the master storyline](master_storyline.md), supplied through CR-031 and preserved byte-for-byte. The [integration record](CR-031-integration.md), [character bible](character_bible.md), [identity registry](character_registry.json), [historical background](historical_background.md) and [financial review](../../finance/CR-031-review.md) describe this revision.
+
+CR-028 narrows the recognition bargain while retaining proposed mechanics. CR-029 revises the Philippine/island sequence and three-crown settlement. CR-030 adds the railway operating schedule; CR-031 supersedes the all-Siberian northern destination. Missing standalone CRs have clearly marked excerpt records, not invented originals. The original CR-027 attachment and earlier CR sources remain unchanged.
+
+The notes below describe earlier integration stages; current source precedence and financial references above govern where they differ.
+
+---
+
 # Pacifica revision workspace
 
 **Updated:** 21 October 2026. The [master storyline](master_storyline.md) now follows [CR-027](CR-027.md): historical Victoria Kamāmalu, the legal Puʻuloa lease, illegal later ordinances, continuous Hawaiian crown and the Five. The supplied master also embodies CR-022 and CR-024–CR-026; [dependency excerpts](dependency_decisions_211026.md) preserve those decisions without reconstructing the missing standalone sources. CR-021 revision 9 remains authoritative elsewhere.
@@ -46,3 +56,4 @@ The Concord’s annual Council is always at Hayama: Hirohito hosts, Julian conve
 Tongue votes are expressly uncapped. Noe’s death remains ambiguous. Foreign Affairs and Finance normally remain Pacifican; the law requires at least one Japanese common minister, conventionally Navy. The crowns agree the renewal at Hayama and ministers sign/exchange instruments at Thalassia. The updated source export and complete revision-9 package are in outputs/CR-021-revision9.
 
 The [CR-027 financial handoff](../../finance/CR-027-handoff.md) records common customs, lease rent and Crown/estate classification for Sol. No lease amount is invented and no financial file is recalculated in this revision.
+

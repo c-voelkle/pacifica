@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 25 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 29 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -553,6 +553,54 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - OPEN-027-05 [OPEN (item 9)]: Kalanimoku's birth year (now after November 1858)
 - OPEN-027-06 [PROPOSED]: The individual mythic echoes in B9
 
+### CR-028 — The bargain of 1847–1848
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline_proposals_retained`
+
+- Recognition follows the supplied 1847–1848 sequence; its Cahuenga, suspension, Querétaro, Trist and Buchanan–Vallejo mechanics remain explicitly PROPOSED, including the October 1847 discovery and delayed public gold confirmation.
+- APPROVED in the supplied narrative: the Sausalito naval storehouse is sealed and its stores interned in 1861.
+- The approximate £3m debt assumption is a MODEL/PROPOSED working valuation, not a purchase of land rights or a British guarantee.
+
+**Still open:**
+- As stated in the supplied unresolved item 5: Olompali casualties, including whether Caleb is wounded; Sloat’s exact referral; commission survey; debt service before first royalties. Proposed recognition mechanics are not final treaty clauses.
+
+### CR-029 — Manila, Puʻuloa and the Philippine crown
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline_proposals_retained`
+
+- Prim refuses in 1869–1870; the Manila action of August 1873 precedes the damaged squadron’s arrival at Honolulu and Puʻuloa’s urgency. Detailed battle mechanics remain PROPOSED.
+- The Republic borrows in 1874; Cánovas’s 1876 sale is financed by a Philippine Redemption Loan, guaranteed by the Confederation and limited by the incremental-revenue covenant. Distinguish purchase, refinancing, guarantee and debt service.
+- Pacheco, municipal public health, Calamba/Rizal, provincial juntas, the 1896 rising and Calderón develop Filipino agency and the costs of reform. Their authored careers are alternate history.
+- The Philippines is a confederal dependency until 1887, a Crown dependency until the 1914 settlement, and then its own crown by Cortes offer and plebiscite. Hawaii separately votes on the union; Julian’s Manila oath and proclamation occur in 1915. Detailed pre-1887 Organic Act and combined style retain PROPOSED labels.
+- Ka Lōkahi gives the three crowns one vote each and ten-year reviews of agreed matters. It is distinct from the two-party Concord, its Hayama Council and five-year executive terms.
+- The 1867 and 1871 Union quitclaims, Samoan sequence and later island trusts follow the supplied master; Tutuila’s trust transfer and other locally proposed details retain their labels.
+
+### CR-030 — The railway behind the Siberian victory (revision 2)
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline_proposals_retained`
+
+- The successful Ob campaign uses one five-section railway schedule through Chinese-owned Manchuria with Japanese running rights and a Pacifican wartime board.
+- Russian-gauge engines built on Entente credit, paid and fed railwaymen/miners, civilian paths, summer depots, the Amur route to Sretensk and Kara Sea convoys remain PROPOSED mechanisms.
+- The 28,000-man contingent and 50,000-man corps/two-week reserve test are MODEL/PROPOSED assumptions; railway capacity and cost do not become established history.
+- Vance’s logistics rule develops his competence without settling OPEN-018-18’s lineage, command succession, Altai acts or ending.
+
+**Still open:**
+- Numerical/engineering feasibility remains under audit. OPEN-018-18 continues to qualify Vance’s detailed personal arc.
+
+### CR-031 — The Treaty of Harbin: the North, the victors’ terms and China’s articles (revision 4)
+
+**Register status:** `approved_as_embodied_in_author_supplied_storyline_proposals_retained`
+
+- APPROVED geographical amendment: Siberia holds the Okhotsk coast west of Ola Bay and Nikolayevsk; Kamchatka and the Koryak coast to Ola Bay form a republic under Japanese protection, superseding CR-021’s all-Siberian coast.
+- Yakutia/Sakha autonomy, Chukotka/North-East Territory, the 1922 federation, Semenov’s 1919 removal, Transbaikal Council and civilian Resident retain the detailed treaty passage’s PROPOSED labels.
+- The Chinese Amur, Mongolian-suzerainty, railway and Russian-privilege articles remain PROPOSED in the detailed passage. Chinese sovereignty and partner institutions remain distinct from Pacifican ownership.
+- Commander Islands, Arctic leases and northern-route charter follow the source’s local labels. The workbook separately estimates nominal cession price, seal receipts, relief and debt write-downs; these model labels are not new approvals.
+- The PROPOSED Kamchatka Company’s Pacifican shareholding and Korean labour-paper consent make the order complicit in forced labour, beside free Kolyma workers on Siberian territory. Do not transfer Kolyma into Kamchatka.
+- The fortification freeze remains OPEN-031-11; detailed survey mapping remains an implementation task.
+
+**Still open:**
+- OPEN-031-11: fortification question / freeze remains undecided.
+
 ### Author-approved editorial safeguards
 
 - Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
@@ -602,6 +650,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - CR-027 replaces fictional Kaiulani with historical Victoria Kamāmalu while retaining stable ID CT-KAIULANI and all legacy profiles. Historical Princess Kaʻiulani, born 1875, is separate.
 - CR-027: No massacre or Hawaiian throne abeyance. The lease is legal; later ordinances and appointed Council illegal; ignored judgment is 1876. The 1914 Act joins crowns.
 - CR-027 A22/A27 and the individual B9 echoes remain PROPOSED; A13 approves the settlement’s shape while instrument dates and wording remain PROPOSED. Section D’s questions are not resolved by publication.
+- 23 October integration: source instructions and workbook Canon/Approved metadata do not independently authorize new canon. Preserve local PROPOSED/OPEN/MODEL scopes. Missing CR attachments remain absent originals; excerpt records are clearly identified.
 
 ### Provisional canonical timeline
 
@@ -635,7 +684,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1900–1905 | Russia occupies China’s Manchurian railway from Transbaikalia; Japan wins 1904–1905 war and refuses Roosevelt’s mediation on Victoria’s advice. Japan holds the Pacific terminal; China owns Manchurian section; exact peace terms/signing place remain qualified. |
 | 1905–1915 | Korea independent under guarantee after 1905; Qing falls and Pacifica backs Sun. Silas confesses Donner and dies in 1912. Kiyoshi claims crown in 1913, renounces in 1914 for Kuroda queen. The Five stay neutral. Victoria lays down regency and Hawaiian crown in 1915; Julian accedes to both and marries Chiyo; Soberanes retires. |
 | 1914–1919 | Union neutral. Pacifica fights at sea/in Pacific, finances Entente and brokers the peace. Julian’s credit timing, London raid, Hague terms and Victoria’s commission retain proposed/open status. |
-| 1918–1922 | Coalition wins and holds Ob; Kiyoshi dies 1920. Altai gas massacre and false report 1921 break the Crown–Five arrangement; Victoria renounces. Harbin treaty and Siberian Republic; northern coast remains Siberian, Japanese access treaty-only. |
+| 1918–1922 | Coalition wins and holds Ob; Kiyoshi dies 1920. Altai gas massacre and false report 1921 break the Crown–Five arrangement; Victoria renounces. Harbin treaty and Siberian Republic; CR-031 differentiates Siberian coast, protected Kamchatka/Koryak and Transbaikalia; detailed mechanisms remain proposed. |
 | 1923–1929 | British debt settlement, Japanese earthquake rescue and union crisis proposed. Chiang succeeds Sun; Zhang Zuolin assassinated; Zhang Xueliang holds Manchuria. Inspectorate returned on proposed defense bargain; Formosan administration retained. |
 | 1929–1932 | Depression; Pacifican moratorium, gold lending, bank support and second Union rescue; detailed settlement mechanics qualified. 1931 Manchurian plot stopped; May 1932 coup fails; overseas Japanese commands become common. Vance’s revised arc remains OPEN-018-18. |
 | 1932 | Pacific order survives and leads. Victoria brokers Keawe’s Lands and Waters Charter; Chronicler records triumph and cost. Thalassia Conference and archive mechanics remain qualified; no Gulf membership. Owen D. Young elected November, FDR cooperates; Young takes office 1933. |
@@ -652,9 +701,13 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1906–1929 | Polytechnic of Formosa opens 1906, Japanese school/joint board 1928, Sino-Pacifican foundation 1928–29. Formosan Revenue Convention becomes Concord administration with Chinese-commissioned Japanese deputy. |
 | 1921–1928 | Hirohito’s one Thalassia visit/dive as prince 1921; marine exchange thereafter at Hayama. Julian’s 1923 earthquake relief, Chiyo/Nagako friendship 1924, 1927 crisis and illegal provisional Concord, 1928 Victoria indemnity and first Hayama Council. |
 | 1932–1937 | May coup fails, Concord executive renewed for five years and overseas commands transferred. Hirohito hosts Council at Hayama, Julian presides without presidential style; acts at Thalassia. Kahekili’s betrothal marriage proceeds. 1937 renewal remains beyond the novel and uncertain. |
-| 1921 | Northern settlement: Siberian sovereignty over Kamchatka, Okhotsk coast and Nikolayevsk; Japanese access only by treaty, no automatic base. |
+| 1921 | CR-031 current northern settlement: Okhotsk coast west of Ola Bay and Nikolayevsk Siberian; Kamchatka/Koryak republic under Japanese protection. Detailed Sakha federation, Transbaikalian Council/Resident, Chinese articles and Arctic exchanges preserve local PROPOSED labels; fortification remains OPEN-031-11. |
 | 1925–1926 and Concord era | Chichibu studies at Carquinez, builds Sierra/Hawaiian outdoorsman reputation, receives Pacifican Crown honors and becomes resident prince at Thalassia; a personal and public turn toward Pacifica instead of Britain. |
 | 1931–1933 | Dawes accepts rescue and negotiates association; Young campaigns for acceptance, elected November 1932, endorses as president-elect, inauguration 1933. Renewal agreed by crowns at Hayama and signed/exchanged by ministers at Thalassia. |
 | 1855–1872 | Victoria historical Kuhina Nui January 1855; chants at 1856 ceremony; refuses Lunalilo and Kalākaua 1857; Society 1863; proclaims Lot 30 November 1863; retained office and designated heir in divergent 1864 constitution; Monterey physicians save her 1866; Queen December 1872. |
+| 1847–1848 | CR-028 proposes secret October gold discovery, Querétaro debt/recognition, U.S. suspension and Buchanan–Vallejo convention; public gold confirmation October 1848. No British protectorate. |
+| 1867–1902 | CR-029 supplies Union island quitclaims in 1867/1871, Spanish loan 1874 and sale 1876, separate Micronesian administration, Samoa settlement and cable-island recognition; detailed mechanics retain local labels. |
+| 1914–1915 | CR-029 adds separate Hawaiian and Philippine plebiscites and Philippine crown; Julian’s 1915 Manila oath/proclamation. Ka Lōkahi has three equal votes; the three internal crowns constitute one later Concord party. |
+| 1918–1932 | CR-030 five-section railway and pre-positioned depots sustain proposed Ob operations and standing-front reserve; costs and troop numbers MODEL. CR-031 supplies northern autonomy, protected spheres and Company complicity with fortification undecided. |
 
 <!-- END AUTO-APPROVAL-LEDGER -->

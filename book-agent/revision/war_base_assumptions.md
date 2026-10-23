@@ -1,10 +1,10 @@
 # Pacifica — Military, financial, demographic and industrial feasibility audit
 
-**Status:** The author-supplied [current workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx) and [Pacifica Ledger](../../finance/Pacifica-Ledger.md) supersede earlier financial models. **Updated:** 20 October 2026. Both files are published verbatim with explicit author authorization; their numbers and reported checks remain MODEL estimates. The ledger describes CR-020 and CR-021 revision 8, while narrative authority remains CR-021 revision 9; see [reference notes](../../finance/README.md). The earlier [CR-018/CR-019 assessment](../../outputs/pacifica-finances-1932/financial_plausibility.md) is retained as a dated comparison, including bank-capital and transport tests absent from the replacement.
+**Status:** Updated 23 October 2026. The supplied [CR-031 workbook](../../finance/Pacifica_financial_model_1846-1932.xlsx) supersedes earlier financial models. It is preserved byte-for-byte (SHA-256 `29aaeaafeeef712ff6c276c71495c461a122f111726abdafacd558f9bab30091`). [Current reconciliation](../../finance/CR-031-review.md) distinguishes saved MODEL results from independent recalculation. The [older Ledger](../../finance/Pacifica-Ledger.md) remains a dated CR-021 revision-8 snapshot.
 
-**Authority:** [CR-021 revision 9](CR-021.md), then [CR-020](CR-020.md), after [CR-018](CR-018.md) and [CR-019](CR-019.md), with earlier approved period-specific constraints retained. The current working model is [Pacifica_financial_model_1846-1932.xlsx](../../finance/Pacifica_financial_model_1846-1932.xlsx), accompanied by the [ledger](../../finance/Pacifica-Ledger.md). The old national (local workbook; not published) and programme (local workbook; not published) workbooks remain unchanged historical scenarios. Model results do not validate engineering, census, capital-market or bank evidence.
+**Authority:** The supplied [master through CR-031](master_storyline.md), with each local APPROVED/PROPOSED/OPEN/MODEL label retained. CR-028 governs the proposed early recognition/gold mechanism, CR-029 the Philippine/island settlement, CR-030 the railway schedule and CR-031 the amended northern perimeter. Earlier narrative decisions govern where not superseded. The older assessments below remain dated comparisons and evidence requirements.
 
-The pre-CR-020 working scenario had a $36.96m Union-lender equity gap, peacetime diagnostic breaches and failing adverse cases. Those are results of that dated workbook, rather than claims about a recalculated CR-020 case. CR-020 reports no Story-case flags and a failing Stress case; omission of the old bank-level and transport tests does not resolve their underlying evidence requirements.
+The pre-CR-020 working scenario had a $36.96m Union-lender equity gap, peacetime diagnostic breaches and failing adverse cases. Those are results of that dated workbook, rather than claims about a recalculated CR-020 case. CR-020 reports no Story-case flags and a failing Stress case; the current CR-031 workbook now includes Japan rescue and Siberia schedules, but modelled checks do not replace independent bank-level or engineering evidence.
 
 ## Territorial and population perimeter
 
@@ -16,7 +16,8 @@ The pre-CR-020 working scenario had a $36.96m Union-lender equity gap, peacetime
 | New Mexico | 37°N east to 103°W, then south to Texas | Whole territory in the agreed segment; Raton/Fort Union frontier costs and Sunset link. |
 | Arizona, Utah, Nevada, Idaho, Northwest | Agreed Western holdings; exact Northwest member-state admission instruments still qualified | Distinguish occupation, recognized transfer and full membership; Native rights are not extinguished by cession. |
 | Baja and Alaska | Alaska 1867; Baja 1867 purchase proposed | Separate prices, small populations, shipping and garrisons. Alaska does not yield early Yukon mining profits. |
-| Philippines | Crown dependency with own council/courts and organic act; provincial elected council in 1890s | Keep its population, revenues and obligations distinct from North American/core citizenship. |
+| Philippines | Confederal dependency to 1887, Crown dependency to 1914, separate crown thereafter; Cortes, budget and army under CR-029 | Keep its population, revenues and obligations distinct from North American/core citizenship. |
+| Siberia, Kamchatka, Transbaikalia | Siberian ally includes west-of-Ola coast and Nikolayevsk; Kamchatka/Koryak protected republic and Transbaikalian protectorate are separate | Kolyma output stays Siberian, not Pacifican domestic GDP; military quota, relief, stakes and purchases are separate cash flows. Detailed federal/protectorate mechanics remain PROPOSED. |
 | Japan, China, Korea, Formosa | Sovereign partners; Formosa remains Chinese with revenue administration | Loans, guarantees, concessions and fees are not tax ownership of whole populations. |
 | Confederacy/Gulf | No Confederate core member in 1895; Gulf Republic formed 1899–1900 with Sequoyah | Separate foreign economies, guarantee calls and later oil supply. Mobile/Birmingham remain in rump Alabama. |
 
@@ -163,3 +164,16 @@ The financial workbook and ledger are now published source references; publicati
 ## Revision-9 scope clarification
 
 Chichibu’s Carquinez education, Pacifican Crown honors, field travel and resident establishment are narrative commitments without new model amounts. Specific decoration costs, commissions or military commands are not inferred. The naval nationality floor remains a statutory rule distinct from normal portfolio conventions, and the reserved western command ends in 1932. Renewal agreement at Hayama and ministerial instruments at Thalassia do not imply a reigning Emperor’s ocean voyage. No model recalculation is claimed.
+
+
+## CR-031 current-plan reconciliation, 23 October 2026
+
+The current workbook adds the Japan rescue, War credit, Japan expansion, Capital accounts, Champion funding, Entente subscribers and Siberia schedules to the old dashboard. References below to missing tests describe earlier models; they do not assert that the new schedules are absent. Its saved Story case reports zero flags, not an independently recalculated pass. Stress has not been rerun for this documentation update.
+
+CR-028’s assumed Mexican debt is booked at $14.6m in 1848, with a royalty reduction for October-only collection and proposed claims/customs adjustments. This is not proof of debt service before first royalties. CR-029’s $20m purchase is funded off budget by a guaranteed Philippine loan; the prior advance is repaid within that transaction, and approximately $9.5m residue is assumed in 1914. Do not pay for the acquisition twice. Its service covenant requires separate Philippine incremental-revenue evidence.
+
+CR-030’s five-section operating schedule now feeds annual Events costs. In 1919 and 1920 these are approximately $348.95m and $288.68m. Paid/fed railway workers, civilian paths, rolling-stock serviceability, seasonal depots, port/ship capacity and a reserve-mobilization test are assumptions needing evidence, not results certified by a zero flag.
+
+CR-031 adds $1.5m relief in 1919–1920, $0.5m debt write-down in 1920–1921, a $0.1m Commander Islands purchase, $0.2m yearly seal receipts from 1922 and a $3m Company stake over 1927–1929. All are MODEL amounts. The Company stake’s roughly 30% workbook note differs from the storyline’s one-third proposal. No dividends are counted. These are separate from Kolyma gold sold by foreign concessions to the Reserve Bank.
+
+Puʻuloa is a lease, not a purchase or accession to the core. No named Puʻuloa rent line was found in the extracted Events ledger; the 21 October handoff’s rent amount remains unspecified. Do not invent it or infer that a general harbour programme pays Crown rent. The current source preserves that coverage question.

@@ -1,7 +1,7 @@
 # Pacifica — Canonical Character Bible
 
-**Current authority:** [CR-027](CR-027.md),  [Master Storyline](master_storyline.md), [approved changes](change_requests.json), [CR-015](CR-015.md), the [Power Timeline](power_timeline_1865_1900.md), [CR-018](CR-018.md), [CR-019](CR-019.md), [CR-020](CR-020.md), [CR-021 revision 9](CR-021.md), and the accepted directions in [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md).  
-**Updated:** 21 October 2026 — supplied storyline through CR-027 reconciled; historical Victoria Kamāmalu, the Puʻuloa lease and the Five integrated.  
+**Current authority:** The supplied 23 October [master storyline](master_storyline.md), [CR-028](CR-028.md), [CR-029](CR-029.md), [CR-030](CR-030.md), [CR-031](CR-031.md), [CR-027](CR-027.md),  [Master Storyline](master_storyline.md), [approved changes](change_requests.json), [CR-015](CR-015.md), the [Power Timeline](power_timeline_1865_1900.md), [CR-018](CR-018.md), [CR-019](CR-019.md), [CR-020](CR-020.md), [CR-021 revision 9](CR-021.md), and the accepted directions in [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md).  
+**Updated:** 23 October 2026 — supplied master through CR-031 and current financial plan reconciled; approval, proposal, open-decision and MODEL distinctions retained.  
 **Companion machine-readable register:** [character_registry.json](character_registry.json).  
 **Archival profiles:** [../character_bible.json](../character_bible.json), retained intact for source comparison.  
 **Scope:** Character identities, life trajectories, relationships, motivations, psychology, focalization and voice. This is documentation for the second draft, **not rewritten manuscript prose**.
@@ -35,6 +35,8 @@ His alliance with Hawaii is initially genuine. He forms a close friendship with 
 
 **Relationships:** Wife Victoria; lost legitimate son Kalanimoku; later Julian; eldest son Silas by Abigail Merritt and second son Kiyoshi by a Satsuma mother; Caleb closest early friend; Lot a friend and political mirror; Alexander diplomatic partner; Californio partners and Japanese reformers as equals until coercion changes the relationship. **Open:** Birthplace and childhood migration; family holding and dispossession jurisdiction; French mentor name; pastor’s locality and reliability of Abigail Merritt’s deathbed-marriage story; lost son's character/accident; unprovided genealogical dates outside Noe’s approved 1886 birth/adoption sequence.
 
+**CR-028–CR-029, supplied 23 October storyline:** The early recognition and gold-silence machinery remains PROPOSED: an October 1847 Mokelumne discovery precedes his Querétaro mission with Alvarado, while Hartnell carries the debt convention to London. Public confirmation waits until October 1848. The Sonoran miner and Indigenous guide retain independent knowledge and claims; the guide's proposed homeland bargain creates an obligation, not automatic protection. Elias's private claims must remain separate from the public royalty and assumed Mexican debt. In the approved Spanish sequence Prim refuses his 1869–1870 offer, the 1873 Manila station makes Puʻuloa urgent, the Republic borrows in 1874 and Cánovas sells in 1876. Elias's agreement to withhold recognition and port access from Cuban insurgents makes the purchase another compromise with slavery. Pacheco's appointment, municipal public health and land-board reform do not erase Philippine coercion. Exact Manila tactics remain PROPOSED.
+
 ### CT-KAIULANI — Victoria Kamāmalu / Kaʻahumanu IV, Queen of Hawaii and Regent of Pacifica
 **Status:** Historical person in alternate history; CR-027 replaces the fictional cousin without creating a second identity. **Born:** 1 November 1838, daughter of Kīnaʻu and Kekūanāoʻa, granddaughter of Kamehameha I and sister of Alexander Liholiho and Lot Kapuāiwa. **Later life:** Alive in Hawaii in 1932, out of power; death after the ending unchosen. The stable ID preserves legacy mappings.
 
@@ -57,6 +59,8 @@ Her regency preserves the existing diplomatic arc: Korean neutrality in 1894, Pr
 She continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.
 
 **Desire:** Preserve Hawaiian life while exercising real power in the Pacific order. **Contradiction:** She protects a people by defending a bargain that injures its political freedom; measures may express care, guilt or rivalry. **Voice/POV:** Political clarity, Hawaiian kinship, land, sea and legal protocol, with warmth among intimates. Songs and her choice of husband express agency. **Open:** When she learns of Kiyoshi; lost son’s birth year and accident; proposed cylinder, Five personnel, instruments and mythic echoes; culpability for Noe’s death; final private reckoning. There is no separate fictional cousin.
+
+**CR-029, Philippine and Hawaiian consent:** The damaged Manila squadron's return from neutral Japan brings the harbour dispute into her marriage in September 1873. The 1914 settlement asks Hawaiian subjects to approve the union by plebiscite, narrowly, while the Philippine Cortes offers its own crown and Filipino voters approve broadly. These are separate acts of consent, with neither crown subordinate. She attends Julian's Manila oath and proclamation in 1915 and sings at the Cathedral Te Deum; a bishop does not crown him. Her role in commutations after the 1896 rising, elected provincial juntas and New Calamba coexists with the land board's evictions. Ka Lōkahi gives the Realm, Hawaii and the Philippines one vote each; it is distinct from the Council of the Two Crowns with Japan. Her sponsorship cannot make the 1876 judgment disappear.
 
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
@@ -83,7 +87,7 @@ Victoria completes island vaccination in 1888–1892, adds Hawaiian-speaking nur
 **Desire:** Prevent avoidable Hawaiian deaths and bargain for her son's future on the Hawaiian throne. **Contradiction:** The institution she needs depends on a ruler whose regime injured Hawaii; her son gains prospects through a woman who can displace her. **Voice:** Clinical observations, exact numbers, dry gallows humor and impatience with waste. **POV:** Hospital, sickroom, registers and the hānai negotiation, with motives independent of the murder rumor. **Open:** Parents' names, scene details, which testimony the Chronicler can authenticate, and responsibility for the death. The identity and official circumstances are settled.
 
 ### CT-JULIAN — Julian Thorne, Sovereign of Pacifica and Kamehameha VI
-**Status:** CR-021 revision 9 settles his constitution, education and relationship with Hirohito; unrelated earlier Vance and European-peace mechanics retain their qualifications. **Born:** 1886, son of Elias and Kaʻanoe Ward; hānai son of Victoria. **Styles:** Sovereign of Pacifica and Mōʻī of Hawaii at home, reigning in Hawaii as Kamehameha VI; Emperor abroad and kōtei in Japanese. He is never styled President.
+**Status:** CR-021 revision 9 settles his constitution, education and relationship with Hirohito; unrelated earlier Vance and European-peace mechanics retain their qualifications. **Born:** 1886, son of Elias and Kaʻanoe Ward; hānai son of Victoria. **Styles:** Sovereign of Pacifica and Mōʻī of Hawaii, reigning in Hawaii as Kamehameha VI; CR-029 adds the Philippine crown and Rey de Filipinas, with the detailed combined style still marked PROPOSED in the source. Emperor abroad and kōtei in Japanese. He is never styled President.
 
 Noe bargains for his hānai adoption in 1886 while both biological parents live, securing health work, contact and Hawaiian upbringing. Victoria raises him as successor, speaking Hawaiian; he learns English with tutors, Spanish in Soberanes's circle and Japanese with Kiyoshi's naval party. In 1905–1906 he spends a year with the Tokyo legation and navy and meets Saionji. Coming of age in 1907 does not end the regency: the Crown of Pacifica awaits the Act of Settlement while Victoria remains Queen of Hawaii.
 
@@ -103,6 +107,8 @@ In 1931 he uses oil, transport and gold leverage against the Manchurian plot. Th
 
 
 **The Five:** Their neutrality decides Kiyoshi’s 1913 bid; Julian’s 1915–1917 Senate quarrel strains the arrangement. The 1921 false Altai report breaks it when the estates’ measures serve a Crown-requested lie.
+
+**CR-029–CR-031, current scope:** The Philippine Cortes offers a separate Philippine crown in 1914 and a plebiscite confirms its signed terms. In 1915 he swears before the Cortes at Manila and is proclaimed under the standard, without episcopal coronation. The full formula Sovereign of Pacifica, Mōʻī of Hawaiʻi and Rey de Filipinas remains explicitly PROPOSED in the detailed CR-029 passage, although the supplied synopsis and Concord passage use it. His three crowns constitute one party opposite Japan in the Concord. Ka Lōkahi is the three-crown council, one vote each, with ten-year reviews of agreed matters; Hayama's two-crown Council and five-year Concord executive term are different institutions. In 1927 the Hawaiian and Philippine delegations' support supplies political backing, not legal authority to override Senate refusal. His Harbin victory leaves a Siberian ally, Japanese-protected Kamchatka, a Transbaikalian protectorate and Chinese rights, rather than one incorporated empire. Under the PROPOSED Kamchatka Company mechanism, Pacifican shareholding and approval of Korean labour papers make his order complicit in coercion beside the free Kolyma mines. This does not imply that Hirohito knows the Altai secret.
 
 ### CT-CALEB — Caleb Vance
 **Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Autumn 1887 Donner Pass standoff, with no civil war under CR-016. CR-022 resolves the shooter: Silas aims at Soberanes and Caleb dies in his place.
@@ -166,6 +172,8 @@ He organizes the Polytechnic and communications during the managed succession. W
 
 
 **APPROVED — CR-027:** Succeeds Soberanes in the Five’s Polytechnic/General Staff seat after 1915. His personal Vance arc remains qualified under OPEN-018-18. The supplied storyline identifies his railway-surveyor father as a Donner witness and says Marcus knows who fired; this does not restore the retired Marcus II command identity.
+
+**PROPOSED — CR-030 operational detail:** His movement timetable permits a division west only when the railway can feed it. Five sections run from Vladivostok through Chinese-owned Manchuria to the Ob; the Khingan and Transbaikal branch bottlenecks remain behind the front. A railway board supplies workers and miners, inherits Pacifican-built Russian-gauge rolling stock financed on Entente credit, and protects Siberian civilian paths. Summer depots, Amur–Shilka supply through Sretensk and a Kara convoy precede the winter Ob battle. The contingent of about 28,000 and the peacetime test of a 50,000-man corps within two weeks are MODEL/PROPOSED planning quantities, not established strengths or proof of capacity. The personnel lineage, command transition and Altai arc remain OPEN-018-18.
 
 ### CT-DONAHUE — Peter Donahue, manufacturing organizer
 **Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.
@@ -284,6 +292,8 @@ He is not merely a vehicle for accurate historical exposition. His understanding
 
 **CR-020 perspective:** The Living Bay and published islands index are real achievements to set beside the hidden Altai record. Industrial damage, contested compromises and guest workers sent home in the slump complicate the order’s public success. Keawe’s contribution is environmental engineering and the Lands and Waters Charter.
 
+**CR-031, competing northern records:** The proposed Kamchatka Company's bonded gangs and Korean contract labour challenge the newsreels' celebration of free Kolyma workers. Kolyma lies on the Siberian side behind Ola Bay; protected Kamchatka is separate. Company share registers, labour papers and relief/debt records are possible evidence, not newly approved scenes or proof that he already possesses those files. The sealed Altai record and limits on his knowledge remain intact.
+
 ### CT-KEAWE — Keawe Kahananui, environmental engineer
 **Status:** Biography, environmental programme and 1932 settlement approved by CR-020 B7 and section E. **Born:** 1895, Hilo. **Background:** Hapa; Hawaiian harbour-pilot father and a Japanese-Pacifican maternal family farming taro and sugar in Waimanu Valley.
 
@@ -395,13 +405,23 @@ Her papers, family Bible and undelivered letters preserve the story that her fat
 
 **CT-ALVARADO — Juan Bautista Alvarado.** Former 1836 autonomy leader, veteran statesman and Elias's baptismal godfather. He provides constitutional legitimacy and a way for Elias to become Californian while retaining a distinct concern for Californio authority. The bilingual settlement and recognition of vested rights offer a bargain with English-speaking residents, whose growing numbers also threaten the local networks he protects. **Motivation:** Protect political self-rule and local elite networks from distant capitals. **Voice:** A lawyer-politician reasoning from precedent, legal standing and the dangers of a premature crisis.
 
+**PROPOSED — CR-028:** Travels with Elias to Peña y Peña's government at Querétaro after Mexico City's fall. The December 1847 recognition and debt bargain gives his constitutional work an external counterpart. It is distinct from Vallejo's Washington mission and Hartnell's London task; none of these fictional negotiations is an actual Mexican treaty.
+
 **CT-CASTRO — José Castro.** Military leader of the revolt against Micheltorena, Elias's first Californian patron. He needs usable reconnaissance and disciplined soldiers but distrusts losing his command to civilian rivals. **Voice:** Command, terrain, personal authority, pride; not an automatically grateful patron.
+
+**PROPOSED — CR-028:** One of the small group Elias informs of the October 1847 gold discovery, with Pico and Alvarado. Knowledge of the find does not give him title to the mines or make him a member of the prospecting party.
 
 **CT-PIO-PICO — Pío Pico.** Southern Californio power broker, provisional president of the May 1846 republic. His willingness to bargain for recognition and trade can conflict with Castro's military priorities. **Voice:** Family, land, regional political agreements, the survival of his government.
 
+**PROPOSED — CR-028:** As president he requests British protection and Seymour refuses it. He is among those told of the secret October 1847 find, receives the confidential 1848 report with the Council of State and supports official silence pending the treaty exchange and mining decree. Neither British protection nor early public gold confirmation is established.
+
 **CT-ANDRES-PICO — Andrés Pico.** Military leader whose lancers defeat Kearny's forces at San Pasqual in the alternate 1846 campaign. He must receive independent credit for the victory. **Open:** precise relation to Elias's armed command and the subsequent U.S. standstill.
 
+**PROPOSED — CR-028:** Cahuenga's January 1847 standstill follows his San Pasqual victory and narrows the earlier open question over the U.S. response. Precise instruments and command arrangements remain proposed; do not turn victory into an unconditional U.S. guarantee.
+
 **CT-VALLEJO — Mariano Guadalupe Vallejo.** Influential northern Californio, pro-American internal dissenter, reluctant signatory to independence and president after the 1850 elections. His political value is that he represents a reasonable alternative to Elias's worldview. The bilingual settlement makes participation in an independent republic compatible with English-speaking commercial and constitutional expectations. Elias receives treasury power while Vallejo remains elected head of state. He supports California's institutional assent to the 1861 emergency mandate; his exact role in the enabling settlement remains open. **Voice:** Practical compromise, land, trade, law, and irritation at Elias's disproportionate influence.
+
+**PROPOSED — CR-028:** Leads the Washington mission with Pablo de la Guerra in 1847. His prior imprisonment by the Bear Flaggers and sympathy for American connections make him a credible negotiator of a republic he had hesitated to found. He initials a conditional text with Buchanan in September; the February 1848 convention secures recognition through non-alienation, naval and commercial concessions. He refuses an accession clause on the strength of Querétaro. The bargain preserves a reasonable pro-American voice rather than making him Elias's obedient envoy.
 
 **CT-SEM-YETO — Sem-Yeto, also known as Solano.** A Suisun leader with a past alliance with Vallejo. He negotiates a distinct compact rather than serving as a token delegate representing every California Native community. **Voice:** Grounded in sovereignty, routes, kinship and the physical consequences of ranchos and mining; do not ventriloquize an invented generic Indigenous spirituality. **Open:** Specific rights and obligations negotiated in 1846.
 
@@ -413,11 +433,19 @@ Her papers, family Bible and undelivered letters preserve the story that her fat
 
 **CT-SLOAT — John D. Sloat.** U.S. naval commander in July 1846, wary of repeating Jones's mistaken seizure. The fictional independent republic forces a decision between orders, legal legitimacy, initiative and the risk of diplomatic escalation.
 
+**CR-028 qualification:** His July hesitation is the initial naval problem, not a permanent policy. Exact referral remains OPEN; the later Cahuenga arrangements, Washington suspension and recognition sequence remain PROPOSED. Do not backfill the decision with an actual British protectorate.
+
 **CT-STOCKTON — Robert F. Stockton.** Sloat's successor, negotiator of the proposed maritime standstill; never a mere spectator to Elias's triumph.
+
+**PROPOSED — CR-028:** The Cahuenga arrangements precede Polk's April 1847 order to observe the standstill. Local military restraint and Washington's eventual treaty acceptance are separate steps, neither foreordained by Stockton's arrival.
 
 **CT-SEYMOUR — Admiral George Seymour.** Royal Navy officer on HMS *Collingwood*, whose arrival in Monterey complicates U.S. calculations without constituting a British guarantee.
 
+**PROPOSED — CR-028:** Reaches Monterey on 16 July 1846, declines Pico's appeal for protection and observes American action under limited instructions. British witnesses raise the political cost of attack without furnishing a military guarantee. These are proposed alternate encounters, not evidence that Britain historically protected this republic.
+
 **CT-KEARNY — Stephen W. Kearny.** Professional American commander; his defeat by Andrés Pico at San Pasqual is a military event with political repercussions. Opponents must retain professional competence.
+
+**PROPOSED — CR-028:** His report reaches Washington in April 1847, helping produce a suspension while Polk continues to seek California at the peace table. San Pasqual, a local standstill and national recognition must not be collapsed into a single American surrender.
 
 ### CT-SHERMAN — William T. Sherman
 **Status:** Pacifican allegiance and wartime direction approved under CR-013; exact naturalization, office and family arrangements provisional. **Historical person:** Born 1820. His historical death in 1891 is not automatically a selected fictional endpoint.
@@ -446,9 +474,13 @@ Sherman negotiates the spring 1871 convention with Grant, his old friend serving
 
 **CT-SONORAN-MINER — The Sonoran placer miner.** Experienced prospector in Elias's 1848 party. Knowledge, rights to discoveries, family interests and potential claims to profit must be as specific as Elias's. **Open:** name, biography, legal position in the mining law.
 
+**PROPOSED — CR-028:** Participates in the October 1847 reconnaissance and spring 1848 return, with Caleb and the Indigenous guide. Expertise precedes Elias's diplomatic use of the find; name and rights remain open. The original 1848 party description is not a separate discovery by a second miner.
+
 **CT-MIWOK-GUIDE — The Indigenous guide.** Familiar with the Stanislaus/Mokelumne drainage and the ground's seasonal rhythms. The character's exact people (Miwok or Yokuts), name, community, knowledge and claims remain open. Avoid treating the guide as an exotic map or a servant without agency.
 
 ---
+
+**PROPOSED — CR-028:** Keeps the October 1847 discovery secret in return for Elias's promise of a protected homeland when miners arrive. The promise makes the guide a bargaining party whose people face the consequences. It neither settles the guide's people/name nor proves that the homeland is delivered; preserve the Miwok/Yokuts identity question and independent territorial claims.
 
 ## The Hawaiian royal and political circle
 
@@ -467,6 +499,8 @@ Sherman negotiates the spring 1871 convention with Grant, his old friend serving
 **CT-WYLLIE — Robert Crichton Wyllie.** Foreign Minister associated with the Hawaiian negotiations. With Victoria he works out institutional state assent, member representation and emergency limits in the 1856 Articles. He supports the Hawaiian coalition restraining escalation at Washoe in 1860. His professional diplomatic caution can recognize the danger of executive concentration even when practical interests favor stronger common institutions; his exact role in the enabling settlement remains open.
 
 **CT-DAVID-KALAKAUA — David Kalākaua, mythmaker and envoy.** Historical person born in 1836, the suitor Victoria refuses in 1857. He becomes her minister of the image and envoy, never controller of the purse. He revives hula, prints genealogical chants and retells legends, including the Iron Knife as a prehistory for Japanese partnership. Suspected of a hand in the 1873 mutiny, he is made answerable for the surviving Guard; Judd later serves him. He brings nobles to the lawful Puʻuloa lease. In 1881 he tours the world for the Queen with Judd, proposes an Oceanian union and the Kaʻiulani–Komatsu match to Meiji, and is declined. Hoʻoulu Lāhui stands over the mortality figures. His book’s account of Kekuaokalani is published under the fourth Kaʻahumanu’s patronage. He dies in San Francisco in 1891; the Five’s press seat inherits his image work. **Voice:** A maker of genealogical legitimacy and foreign prestige, whose Victorianized retellings remain his versions. Not Victoria’s younger nephew and not the unresolved later officers called Kalākaua.
+
+**APPROVED — CR-029:** Carries a Polynesian compact to Malietoa Laupepa in 1886–1887 after Hawaii's 1878 Pago Pago treaty on the Confederation's behalf. Germany deports Malietoa while Pacifica is burying Elias, and no intervention follows. The failure belongs to his diplomatic career and to the succession's limits, rather than implying he reigned over Hawaii.
 
 **CT-KALAKAUA-OFFICERS — Officers called Kalākaua.** The old profiles contain colonial and later officers bearing this surname, including young officers in the Khyber and Sydney campaigns. Their family connections are unestablished, and they may be several distinct people; until identified, record their legacy profiles as an unresolved surname group rather than silently calling them David Kalākaua.
 
@@ -675,6 +709,8 @@ Fong's two names carry a divided allegiance inside one official. His Pacifican c
 
 **CR-021 Formosa:** The 1895 Revenue Convention gives a Pacifican Director-General a Chinese commission over camphor, Keelung mines, customs and the harbour trust; China retains civil government and other taxes. The Inspectorate helps finance the 1906 Chinese technical university, whose graduates become China's own officials and nationalists. In 1928–1929 the Inspectorate returns, the school becomes a joint Sino-Pacifican foundation and the revenue administration becomes a Concord affair with a Japanese deputy, both officers commissioned by China. His dilemma includes financing the elite that will demand an end to foreign administration; he is not automatically the Formosan Director-General.
 
+**CR-031, Chinese settlement:** The Harbin articles recover Russia's extraterritorial rights, concessions and Boxer share for China, send the indemnity to schools, provide Amur navigation to the sea and return improved Manchurian railway management to Chinese hands. These detailed articles remain PROPOSED in the supplied treaty passage. They strengthen Chinese bargaining power without making the Pacifican Inspectorate Chinese sovereignty or making Fong the unprovided signer of Harbin.
+
 **CT-MCCLELLAN — George B. McClellan.** Historical Union general; proposed winner of the 1864 election following the approved Lincoln defeat. His executive armistices in March–June 1865 and reception of a Confederate envoy are proposed mechanics. He wants Union and must explain accepting separation; neither the Democratic peace plank nor election alone supplies his mandate. Exact electoral map, negotiations and later career remain open.
 
 **CT-GRANT — Ulysses S. Grant.** Historical Union commander and elected president in the alternate 1868 contest. He seeks reunion through the 1870–1871 war, fails at New Orleans and Virginia and negotiates with Pacifican Sherman. Greeley defeats him in 1872. His public attachment to the martyred Farragut has a proposed causal role; precise command, treaty drafting and personal response remain open.
@@ -727,6 +763,8 @@ He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1913
 ### CT-TAKAHASHI — Takahashi Korekiyo
 **Status:** Historical person; alternate partnership and detailed incidents PROPOSED under CR-018 D4 and CR-019. Raises Japanese war loans in San Francisco in 1904–1905 and becomes Tokyo’s financial partner for Thalassia. In the 1927 crisis he and Chiyo negotiate the Concord; in 1931 he receives Julian’s threat through her. His actual California experience is a source-supplied historical anchor, not independent proof of these events. **Open:** Agreements, personal exchanges and changed political fate. CR-020 B14 makes San Francisco’s provision of Japan’s 1927 crisis borrowing decisive; the rescue scales with Japan’s richer economy. Amounts and debt ratios remain MODEL estimates. Gold parity later aggravates rural distress until the adjustable 1932 order. CR-021 approves his three-week moratorium in April 1927 as the time the bargain needs. He stays in Tokyo and is not assigned the common Finance ministry.
 
+**CR-024–CR-025, current model:** The three-week moratorium separates Japanese recapitalization and secured yen liquidity from an external payments shortage. Japan uses its own capital and Bank of Japan money; Julian's public/private San Francisco credit supplies foreign exchange. The supplied model estimates approximately $400m replacement capital, $295m BOJ liquidity and $497m foreign drawing within $600m committed. These are MODEL estimates, not Takahashi's historical accounts, and do not establish a new common-minister appointment for him.
+
 ### CT-SUN-YAT-SEN — Sun Yat-sen
 **Status:** Pacifican backing and Qing fall approved; particular exile, funding and academy mechanics proposed. The Honolulu-educated revolutionary loses his initial struggle to Yuan, builds his Canton movement with Pacifican help and dies in 1925. Chiang succeeds him. Pacifica’s concurrent work with Zhang Zuolin for Siberia remains a visible contradiction.
 
@@ -735,6 +773,8 @@ He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1913
 
 ### CT-ZHANG-ZUOLIN — Zhang Zuolin
 **Status:** Manchurian role and 1928 assassination retained; Siberian cooperation and corridor motive proposed. The Fengtian leader supplies coalition manpower and rail access while Pacifica separately backs Sun. Japanese officers kill him in June 1928; his son succeeds in Manchuria. He is not Sun’s successor.
+
+**CR-030–CR-031:** His cooperation sustains the Chinese-owned Manchurian route whose capacity limits the coalition far behind the Ob. Japanese running rights and wartime railway administration are distinct from territorial title. The later Harbin Chinese articles are proposed; no new personal treaty commission is inferred.
 
 ### CT-ZHANG-XUELIANG — Zhang Xueliang
 **Status:** Holds Manchuria after his father’s assassination, approved by CR-018 A18. Brings Manchuria into the Nationalist state, with railway sovereignty and alliance obligations. **[PROPOSED]** Hostility to his father’s killers and dependence on the Ob coalition make Julian’s restraint valuable; the 1929 Soviet probe becomes a coalition victory.
@@ -808,6 +848,8 @@ Julian's arrival with fleet relief and reconstruction credit after the 1923 eart
 In 1927 he follows Saionji's counsel and accepts the Concord on Julian's Japanese word: no lender offers equivalent rescue, and a fallen cabinet could expose the throne to the army. Privy Council conditions and Diet funding protect Japan's legal position. He retains crown, domestic institutions and the right to refuse renewal. At the annual Hayama Council from 1928 he hosts as Emperor while Julian convenes and presides; his brother Prince Chichibu represents him at Thalassia, with a Pacifican education, honors and outdoorsman reputation that make the alignment personal. In May 1932 he opposes officers claiming to restore his direct rule, choosing the constitutional arrangement and his friend. The crowns agree renewal at Hayama; ministers sign and exchange instruments at Thalassia. He does not travel there, and renewal lasts only to 1937.
 
 **Desire:** Preserve the throne and Japan's freedom within a viable constitutional order. **Contradiction:** Protecting the crown through restraint and foreign trust exposes him to loyalists invoking his own authority against him. **Voice/POV:** Cautious court language loosening around specimens and shared work; knowledge of concealed Pacifican crimes must not be invented. **Open:** Specific private exchanges, scientific scenes and unprovided domestic details; the Council never requires him to sail to Thalassia.
+
+**CR-029–CR-031 limits:** Julian's Realm, Hawaiian and Philippine crowns form one Concord party opposite Japan's crown; their internal council is not another Japanese vote. The proposed Kamchatka Resident and Company belong to Japan's protected northern sphere, while Siberian commercial passage and Chinese railway rights constrain the settlement. No personal approval of particular camps, labour papers or the Altai crime is assigned to Hirohito by these institutional arrangements.
 
 ### CT-NAGAKO — Nagako, empress and Chiyo’s confidante
 **Status:** Historical person with an approved alternate household relationship under CR-021 F. Marries Hirohito in January 1924 after the earthquake postponement. Chiyo becomes her confidante, extending Julian and Hirohito's connection into their households. **Open:** Particular conversations, private aims, disagreements and scope of political knowledge. Friendship supplies no knowledge of the Altai secret or automatic authority in common government.
@@ -896,4 +938,162 @@ PROPOSED — CR-027 B6: A surname among possible later successors. Given name, h
 ## The Five — institutional arrangement (CR-027)
 
 There are always five seats: Polytechnic and General Staff; naval construction/heavy industry/champions; power; measures/tabulation; press/image. The approved 1887 holders are Soberanes, Turner and Tesla. Hollerith and Hearst, Dickson’s work within the press seat, the later successors and the nickname nā Kahuna are PROPOSED. Marcus Vance III’s succession after 1915 is supplied by the updated storyline. The Crown leaves charters, appointments and the Development Fund untouched; the estates never oppose the Crown or let a faction capture them. Donner holds the arrangement in 1887, Kiyoshi’s bid tests neutrality in 1913, the Senate quarrel strains it in 1915–1917, and the false Altai report breaks it in 1921. The successors’ choice matters in 1932. Measurement belongs to the Office and Polytechnic; publication belongs to the press seat.
+
+
+
+## CR-028–CR-031 — diplomatic, Philippine and Siberian participants
+
+These are historical people placed in alternate careers. Status labels describe the supplied storyline, not independent verification of those careers. No original 250-profile identity is reassigned. The additional dossiers preserve named participants rather than attributing their work to Elias or Julian.
+
+### CT-PABLO-DE-LA-GUERRA — Pablo de la Guerra
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED Washington envoy with Vallejo in 1847; an independent Californio participant in bargaining over naval access, commerce and the republic's standing. Do not confuse him with another de la Guerra generation or invent the terms of his instructions.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-WILLIAM-HARTNELL — William Hartnell
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+Signatory named in the 1846 founding narrative. Under the PROPOSED December 1847 debt mechanism he carries the Querétaro convention to London for bondholders' consent. Creditor consent is not a transfer of land rights, and his mission is distinct from the Washington envoys'.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JAMES-POLK — James K. Polk
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED antagonist in the 1847–1848 recognition sequence. He orders observation of Cahuenga while Trist still seeks California, diverts Stevenson's regiment, then accepts a treaty under domestic and military constraints. He expects eventual accession rather than becoming an advocate of California's permanent independence. His fictional diary consolation is not an authenticated quotation.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JAMES-BUCHANAN — James Buchanan
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED negotiator of the conditional September 1847 text and February 1848 Buchanan–Vallejo Convention. He seeks non-alienation, naval access, commerce and an accession clause; California refuses the last and a U.S. guarantee. Distinguish his offer from a guarantee actually accepted.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-NICHOLAS-TRIST — Nicholas Trist
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+Historical diplomat used in a PROPOSED alternate peace. Recalled but continuing negotiations, he faces a California Mexico has already recognized. His fictional treaty preserves the republic rather than ceding historical California; the actual 1848 treaty is a comparator, not this instrument.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-PENA-Y-PENA — Manuel de la Peña y Peña
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+His Mexican government receives Alvarado and Elias under the PROPOSED Querétaro mechanism. Recognition and approximately £3m of assumed obligations give it money and a defensible account of peace. Do not turn the working debt valuation into a settled amount or land purchased from bondholders.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-THOMAS-HART-BENTON — Thomas Hart Benton
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED critic of the recognition bargain, using the Gillespie papers and calling it the Trist surrender. His resistance supplies a continuing American alternative to waiting for accession. The phrase is authored dialogue, not a sourced historical quotation.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-THOMAS-LARKIN — Thomas O. Larkin
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED first American chargé to the independent republic, bringing the ratified convention to Monterey in June 1848. He is an interlocutor during official gold silence, not evidence that the public gold rush has already been announced.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JUAN-PRIM — Juan Prim
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED refusal of Elias's confidential 1869–1870 Philippine offer; he keeps a channel open until his assassination closes it. National prestige and his own political reputation matter independently of Elias's finances. He is not the statesman who sells the islands in 1876.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JUAN-ALAMINOS — Juan Alaminos
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+Under the PROPOSED August 1873 Manila Bay action, the Governor-General signs a local convention for indemnity, release of the crew and an anchorage. That convention is not the 1876 sale or a Pacifican landing. His detailed conduct is fictional.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-FRANCISCO-SERRANO — Francisco Serrano
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+His Republic's APPROVED 1874 borrowing pledges Philippine customs and tobacco revenues while Pacifican agents enter the customs houses. The Restoration inherits its obligations. A loan and subsequent purchase are separate transactions, not two full purchase prices.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-CANOVAS — Antonio Cánovas del Castillo
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED broker of the 1876 statutory sale after the Carlist victory, presenting it as liquidation of the Republic's debt to preserve Cuba. Pacifica's non-recognition and port restrictions for Cuban insurgents are part of the moral bargain. Parliamentary authorization and the Redemption Loan matter to the sale.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-ROMUALDO-PACHECO — Romualdo Pacheco
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED Governor-General from Sacramento to Manila after the 1876 purchase, schooled in Honolulu and forty-four in the supplied narrative. A Philippine Council and continuing Spanish law constrain his office. His hostility to Chinese merchants brings him into conflict with Elias's protection; municipal public health and office examinations do not make him an uncritical liberal benefactor. His governorship is alternate history.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JOSE-RIZAL — José Rizal
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED physician turned critic by the land board's Calamba evictions in 1890–1891. His 1892 Liga brings elected provincial juntas; he refuses to endorse the excluded artisans' 1896 rising. New Calamba's self-government in Borneo does not erase the original evictions. This alternate political course does not import his historical execution automatically.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-FELIPE-CALDERON — Felipe Calderón
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED advocate defending the accused after the 1896 rising; the Regent commutes their sentences. His later organic law provides the Philippine crown with a single-chamber Cortes, permanent commission, budget, army and provincial governors. He carries a Filipino constitutional perspective; do not make a bishop the source of Julian's Manila title.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-MALIETOA-LAUPEPA — Malietoa Laupepa
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+Receives Kalākaua's Polynesian compact in the APPROVED 1886–1887 sequence. Germany deports him and installs Tamasese while Pacifica does not answer. His Samoan authority is distinct from the later tripartite protecting powers and the 1899 transfer of Tutuila.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-PYOTR-VOLOGODSKY — Pyotr Vologodsky
+
+**Status:** Historical person in alternate history; CR-030, as embodied in the supplied master of 23 October 2026.
+
+Initially heads the Siberian Regionalist partner in the coalition's westward campaign, as embodied in the supplied storyline. He represents an independent Siberian political project rather than Kolchak's all-Russian ambition. No presidency for the entire 1921–1932 period, signature at Harbin or invented biography follows from this initial role.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-GRIGORY-SEMENOV — Grigory Semenov
+
+**Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED ataman obstructing railway traffic and using terror at the Chita junction. In summer 1919 Tokyo stops his subsidy and the Transbaikal Cossack circle votes him out with a Japanese diplomat present. He leaves for Dairen on a Japanese pension. The later Transbaikal Council and civilian Resident are not his personal dictatorship; the unnamed decorated officer who moves the vote remains unnamed.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-VASILY-NIKIFOROV — Vasily Nikiforov
+
+**Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED leader of Yakutia's committees and the 1919 assembly in the supplied storyline, which associates him with the 1906 Union of Yakuts and imprisonment. The 1922 Sakha land keeps assembly, language, communal land and Okhotsk access. These historical biographical anchors await dedicated primary-source checking; his role does not authorize him to speak for all northern peoples or supply an invented later career.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 
