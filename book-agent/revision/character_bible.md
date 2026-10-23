@@ -1,7 +1,7 @@
 # Pacifica — Canonical Character Bible
 
-**Current authority:** [Master Storyline](master_storyline.md), [approved changes](change_requests.json), [CR-015](CR-015.md), the [Power Timeline](power_timeline_1865_1900.md), [CR-018](CR-018.md), [CR-019](CR-019.md), [CR-020](CR-020.md), [CR-021 revision 9](CR-021.md), and the accepted directions in [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md).  
-**Updated:** 20 October 2026 — CR-021 revision 9 integrated: Noe Ward, Kahekili / Ikazuchi, the restored Hawaiian crown, Pacific Concord, and Julian–Hirohito relationship.  
+**Current authority:** The supplied 23 October [master storyline](master_storyline.md), [CR-028](CR-028.md), [CR-029](CR-029.md), [CR-030](CR-030.md), [CR-031](CR-031.md), [CR-027](CR-027.md),  [Master Storyline](master_storyline.md), [approved changes](change_requests.json), [CR-015](CR-015.md), the [Power Timeline](power_timeline_1865_1900.md), [CR-018](CR-018.md), [CR-019](CR-019.md), [CR-020](CR-020.md), [CR-021 revision 9](CR-021.md), and the accepted directions in [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md).  
+**Updated:** 23 October 2026 — supplied master through CR-031 and current financial plan reconciled; approval, proposal, open-decision and MODEL distinctions retained.  
 **Companion machine-readable register:** [character_registry.json](character_registry.json).  
 **Archival profiles:** [../character_bible.json](../character_bible.json), retained intact for source comparison.  
 **Scope:** Character identities, life trajectories, relationships, motivations, psychology, focalization and voice. This is documentation for the second draft, **not rewritten manuscript prose**.
@@ -12,7 +12,7 @@
 
 Characters must have motives independent of proving that Elias is great or that empire is doomed. Their changing objectives should create political history. Voice is not a speech filter applied afterward: each person notices different evidence, interprets a conflict differently, and has different knowledge. The Chronicler's account may contradict a character's direct experience.
 
-**Birth and identity discipline:** Elias c.1824; Kaiulani 1838; 1857 marriage; Julian 1886; Elias dies August 1887; Julian is approximately forty-five in 1931. The real Princess Victoria Kaʻiulani (born 1875) is **not** this novel's fictional Kaiulani. Marcus I and III, the unrelated Polytechnic commander, the retired Marcus II provenance identity, three generations of Shen, Kiyoshi’s resolved Kuroda alias, his separate son and repeated Thorne names require explicit identity handling. The lost Kalanimoku and renamed heir Kahekili are distinct; CT-KALANIMOKU-HEIR remains the latter’s stable ID. Retired IDs preserve legacy mappings without creating active people.
+**Birth and identity discipline:** Elias c.1824; Victoria Kamāmalu born 1 November 1838; November 1858 marriage; Julian 1886; Elias dies August 1887; Julian is approximately forty-five in 1931. Victoria is the historical Kamāmalu, sister of Alexander and Lot. The historical Princess Kaʻiulani (born 1875) is a separate minor figure in the Cleghorn household. CT-KAIULANI remains Victoria’s stable provenance ID; earlier CRs using Kaiulani refer to Victoria. Narrator and Westerners use Victoria, Hawaiians Kamāmalu, and state documents Kaʻahumanu IV. Marcus I and III, the unrelated Polytechnic commander, the retired Marcus II provenance identity, three generations of Shen, Kiyoshi’s resolved Kuroda alias, his separate son and repeated Thorne names require explicit identity handling. The lost Kalanimoku and renamed heir Kahekili are distinct; CT-KALANIMOKU-HEIR remains the latter’s stable ID. Retired IDs preserve legacy mappings without creating active people.
 
 ## The indispensable characters
 
@@ -27,90 +27,102 @@ During the American Civil War he turns the Hawaiian packet crisis and a limited 
 
 The 1870–1871 war makes his guarantee of Confederate independence concrete. Credit, customs, railways, Mobile and Birmingham bind the partner to him, while his fugitive agreement prevents enslaved people from escaping to Pacifica. This choice compromises the civic freedoms through which he recruits settlers. The Union's anti-slavery pressure weakens the Confederacy and strengthens his leverage. His friendship strategy depends on costly local enforcement and choices: a Navajo treaty avoids the Long Walk, Bear River stains his own government, and the 1877 decision for Meiji abandons Saigō.
 
-His alliance with Hawaii is initially genuine. He forms a close friendship with Lot, finds a political counterpart in Alexander and falls in love with their cousin Kaiulani, whom he marries in 1857. The marriage unites two minds and two political visions, neither subordinate to the other. As the empire expands, Elias ceases to believe that the limits he voluntarily accepted can survive new dangers. In 1874, during Hawaiian succession turmoil, he imposes incorporation and presides over a system that massacres royalist opponents. He believes he has secured the union; his wife's experience is betrayal. Their legitimate son Kalanimoku dies later in the 1870s, and the marriage survives amid grief, ambition, estrangement and residual attachment. Elias has other relationships and children; his physician Kaʻanoe Ward bears Julian in 1886 and wins the means to begin the health registers and vaccination.
+His alliance with Hawaii is initially genuine. He forms a close friendship with Lot, finds a political counterpart in Alexander and falls in love with their sister Victoria Kamāmalu, whom he marries in November 1858. The marriage unites two minds and two political visions, neither subordinate to the other. As the empire expands, Elias ceases to believe that the limits he voluntarily accepted can survive new dangers. In 1874 she leases Puʻuloa lawfully; his cabinet stretches the lease into illegal rule by ordinances and the Territorial Council in 1874–1876. His motives are Manila, the fleet and vulnerability to outside influence over Hawaii’s legislature. He does not act from hostility to Hawaiians. The February rising has disputed deaths; the earlier massacre is superseded. He believes he has secured the union; his wife's experience is betrayal. Their legitimate son Kalanimoku dies later in the 1870s, and the marriage survives amid grief, ambition, estrangement and residual attachment. Elias has other relationships and children; his physician Kaʻanoe Ward bears Julian in 1886 and wins the means to begin the health registers and vaccination.
 
 **Principal desire:** Create a sovereign, productive society able to defend itself against financiers and great powers. **Secondary desire:** Make every dependency visible and subject to rational organization. **Fear/contradiction:** A boy whose home was foreclosed ultimately makes entire peoples dependent on credit and centralized power. A witness to betrayed negotiation becomes the author of another betrayal. **Dramatic rule:** Each major triumph must be earned through credible capital, preparation, partners, choices and costs; he is not infallible or ubiquitously prescient.
 
 **Voice:** In conversation he usually states a practical conclusion before explaining it; he notices what can be built, moved, financed and defended. He can be wry, affectionate or intellectually animated among intimates, not always marble-still. His memory produces specificity, not clairvoyance. **POV:** Childhood/first-person encounters and close-third scenes that reveal uncertainty are valuable; the Chronicler's omniscient praise must not substitute for them.
 
-**Relationships:** Wife Kaiulani; lost legitimate son Kalanimoku; later Julian; older/other sons unresolved; Caleb closest early friend; Lot a friend and political mirror; Alexander diplomatic partner; Californio partners and Japanese reformers as equals until coercion changes the relationship. **Open:** Birthplace and childhood migration; family holding and dispossession jurisdiction; French mentor name; pastor and daughter; lost son's character/accident; unprovided genealogical dates outside Noe’s approved 1886 birth/adoption sequence.
+**Relationships:** Wife Victoria; lost legitimate son Kalanimoku; later Julian; eldest son Silas by Abigail Merritt and second son Kiyoshi by a Satsuma mother; Caleb closest early friend; Lot a friend and political mirror; Alexander diplomatic partner; Californio partners and Japanese reformers as equals until coercion changes the relationship. **Open:** Birthplace and childhood migration; family holding and dispossession jurisdiction; French mentor name; pastor’s locality and reliability of Abigail Merritt’s deathbed-marriage story; lost son's character/accident; unprovided genealogical dates outside Noe’s approved 1886 birth/adoption sequence.
 
-### CT-KAIULANI — Kaiulani, Kuhina Nui, regent and dowager diplomat
-**Status:** Settled core; fictional historical divergence. **Born:** 1838 in the Hawaiian royal circle. **Later life:** Alive in Hawaii in 1932, out of power; death after the ending unchosen.
+**CR-028–CR-029, supplied 23 October storyline:** The early recognition and gold-silence machinery remains PROPOSED: an October 1847 Mokelumne discovery precedes his Querétaro mission with Alvarado, while Hartnell carries the debt convention to London. Public confirmation waits until October 1848. The Sonoran miner and Indigenous guide retain independent knowledge and claims; the guide's proposed homeland bargain creates an obligation, not automatic protection. Elias's private claims must remain separate from the public royalty and assumed Mexican debt. In the approved Spanish sequence Prim refuses his 1869–1870 offer, the 1873 Manila station makes Puʻuloa urgent, the Republic borrows in 1874 and Cánovas sells in 1876. Elias's agreement to withhold recognition and port access from Cuban insurgents makes the purchase another compromise with slavery. Pacheco's appointment, municipal public health and land-board reform do not erase Philippine coercion. Exact Manila tactics remain PROPOSED.
 
-An educated royal cousin of Alexander Liholiho and Lot Kapuāiwa, Kaiulani meets Elias as a schoolgirl in Honolulu in 1851 without romance. As a teenager in a 1854 San Francisco mission she begins developing an intellectual and personal bond with him. In 1855 Kamehameha IV makes her **Kuhina Nui**, the Hawaiian co-executive, rather than the historical incumbent Victoria Kamāmalu; this is a deliberate alternate-history choice. She negotiates a limited coaling-station treaty and refuses Pearl Harbor, proving that her foreign policy has its own boundaries. With Robert Wyllie she shapes the Articles of Confederation, obtaining Hawaiian representation, institutional state assent and limits on emergency government. Her Hawaiian co-executive and regency authority gives her independent standing; the confederal compact grants her no exclusive personal veto over Article XIV. She and Elias marry after ratification in February 1857.
+### CT-KAIULANI — Victoria Kamāmalu / Kaʻahumanu IV, Queen of Hawaii and Regent of Pacifica
+**Status:** Historical person in alternate history; CR-027 replaces the fictional cousin without creating a second identity. **Born:** 1 November 1838, daughter of Kīnaʻu and Kekūanāoʻa, granddaughter of Kamehameha I and sister of Alexander Liholiho and Lot Kapuāiwa. **Later life:** Alive in Hawaii in 1932, out of power; death after the ending unchosen. The stable ID preserves legacy mappings.
 
-In 1860 she builds a coalition within the Hawaiian government and delegation, with Wyllie, legislators and military critics, to withhold state assent over Washoe. Her constitutional victory comes through political organization. In 1861 she initiates demands for protection after a fictional Union interception of a Hawaiian packet removes Hawaiian subjects and a suspected Confederate privateering agent outside American territorial waters; a sailor is killed. She requires disclosure of Elias's Southern dealings and helps secure limited emergency command and a separate coercive mandate, with civilian protections, no emergency annexation or forced allegiance, and renewed negotiation when adequate redress becomes possible. Elias expands the objectives. Her support implicates her in occupation while she continues organizing opposition and conditions on renewal. Exact participants, dates and instruments remain open.
+She meets Elias in Honolulu in 1851 at thirteen, without romance; courtship develops from 1854. As in history she becomes Kuhina Nui in January 1855 at sixteen and presides over the Privy Council. She refuses Pearl Harbor in the 1855 coaling negotiations and, with Wyllie, secures Hawaiian representation, institutional assent and limits on confederal emergency government. No personal Article XIV veto follows. At the Confederation ceremony on 31 July 1856 she leads the Kawaiahaʻo choir, then chants her own mele before the court; Elias remembers the voice for life.
 
-Lot retains the Kuhina Nui after his 1863 accession. Kaiulani bargains with him from a continuing Hawaiian office rather than losing authority through its abolition. During the 1864–1865 consolidation she negotiates guarantees for the crown, co-executive and local institutions and helps secure ratification of enabling legislation. She sees advantages in coordinated administration and believes the guarantees can contain Elias's enlarged authority. Their later erosion tests her judgment and complicity. During subsequent conquests she helps build financial, civil and judicial institutions that become coercive. The 1874 regime breaches the protected guarantees; Hawaii’s Supreme Court declares incorporation void and is ignored. The 1887 Constitution of the Realm supplies her later regency, with Hawaiian ratification from the regime’s appointed council rather than free consent.
+Her brothers block the childhood Lunalilo betrothal for rank and dynastic reasons and press Kalākaua on her in 1857. She refuses both out of love for Elias, asserting her choice in Pua Hau ʻo Maleka and Aita ʻOe e Parau. Her brothers accept a husband whose children rank through her alone, who claims none of her lands and removes her from the missionary party’s reach. They marry at Kawaiahaʻo in November 1858 after the Edo negotiations. Kiyoshi was conceived that spring; when she learns of him is OPEN. Her marriage is a chosen partnership of two households and two seats.
 
-The Hawaiian succession and integration crisis of 1874 forces her to confront the gulf between her husband's promises and his military plans. The proposed strategic trigger is the admirals' demand for Pearl Harbor as the Manila fleet assembles. The massacre is a direct assault on the people and institutions she has sought to protect; she nevertheless remains politically powerful and personally bound to Elias. Their beloved child dies in an accident in the later 1870s, and she is unable to have another. She is a wife, bereaved mother, ruler, negotiator and architect of empire—not an emblem of maternal injury alone. Elias’s affairs predate the legitimate son’s death; Kiyoshi is his eldest son by a Satsuma mother. Her husband’s examined physician Kaʻanoe Ward bears Julian in 1886. The 1886 hānai bargain gives Noe a place in the boy’s life and Hawaiian upbringing while Kaiulani raises him as successor. Noe’s death in the contested typhoid outbreak of autumn 1888 follows the adoption.
+In 1860 she organizes Hawaiian institutions to withhold assent over Washoe. In 1861 she demands protection after the packet interception, secures limited command and civilian safeguards, and challenges Elias’s expansion of its aims. On 30 November 1863 she holds the crown’s powers for a day and proclaims Lot. His 1864 constitution retains her office and names her heir. She negotiates protected institutions in the lawful 1865 Enabling Law. She founds the Kaʻahumanu Society in 1863, leads the choir, composes chants, remains Congregational and keeps a kahuna. His failed resurrection promise in 1865 and the Monterey physicians who save her in 1866 turn her toward evidence of results without surrendering language, chants or faith.
 
-Kaiulani establishes the regency without a civil war. **[PROPOSED]** She negotiates the Truce in 1886–1887, signs it in spring 1887 while Elias lives, and manages a factional council; a single Donner Pass standoff tests it. She consolidates in 1887–1889 rather than recovering from a war. As regent she and Rafael Soberanes construct a technocratic peace that protects people from aristocratic rivalries yet imprisons others in records and quotas. From about 1888 she makes comparative statistics, the six-language weekly, film and study tours instruments of legitimacy, with a rule against falsifying numbers and an examination franchise limited to certain referendums. Selective skilled and family immigration replaces the open door in 1888. The 1889 Hapa proclamation follows abolition and the lapse of the fugitive agreement, while Douglass and others challenge a policy that keeps newly freed people outside. Her family programme and independent international statecraft extend far beyond domestic grief.
+She succeeds Lot in December 1872 under Article 22, without election, and appoints Ruth Kuhina Nui. In September 1873 she ends the Guard mutiny on its first day, refuses confederal marines, dismisses Jajczay and her schoolmate Judd, appoints Moehonua and retains the Guard, making Kalākaua answerable for it. The surviving force convinces the admirals they need Pearl Harbor. After Lunalilo’s death in February 1874 she refuses a rising in her name and keeps her Guard in barracks; disputed deaths replace the superseded massacre.
 
-In 1894 she supports Japan short of combat and brokers Korean neutrality. Formosa remains Chinese under Pacifican revenue administration. She funds the 1898–1899 Primorye war and supports Japan’s outright 1905 victory, advising refusal of Roosevelt’s mediation. The canal becomes the regency’s achievement around 1900–1902. A compact renewed with Tokyo opens imperial careers to Japanese-origin elites while retaining common institutions in Pacifica. She gives power directly to Julian in 1915 at seventy-seven; he marries Chiyo. She remains a dowager diplomat until her 1921 renunciation, with the proposed European peace commission under OPEN-019-02. Her wish to end Europe’s war in winter 1917–1918 conflicts with Julian’s strategy; how private that disagreement remains is OPEN-019-13.
+She signs a lawful fifty-year Puʻuloa lease and common defence treaty in 1874. **[PROPOSED — CR-027]** The instrument’s title and March date are working details. The 1874–1876 ordinances and appointed Territorial Council are illegal encroachments. Ruth resigns; the office stays vacant. The Supreme Court’s 1876 judgment voiding the ordinances goes unenforced and is never reversed. The settlement’s shape is approved; exact instruments and judgment wording remain proposed. The Council’s English Schools Ordinance of 1876 is its own act; Elias does not overrule it. Victoria fights it and funds Hawaiian-language schools through the Society. She keeps her estate, reducing Ruth’s and later Pauahi’s eventual holdings relative to history.
 
-The 1921 Altai atrocity and cover-up put her in conflict with her adopted son. **[PROPOSED — OPEN-018-18]** Vance tells her the truth Julian approved burying; she renounces but protects the treaty through silence. In 1927 she supports the Pacific Concord while opposing its illegal provisional application after Senate refusal. Her 1928 settlement wins consent and an Act of Indemnity with five-year renewal, quota review, delegates chosen by both chambers and an audit reported to the Senate. She brokers from independent authority after renunciation, without resuming the regency. She is alive, out of power and in Hawaii in 1932, ninety-three or ninety-four depending on her unspecified birthday. Under CR-020 she backs Keawe's 1928 Thalassia Plan and brokers the 1932 Lands and Waters Charter between him and Julian. Watershed protection, living streams and a beautiful capital give her Hawaiian commitments a final practical form. The empire’s survival gives her a victory whose price she can name.
+The hardening takes thirteen years of defending this bargain. Kalanimoku, born after the wedding and heir to her Hawaiian crown, dies in the later 1870s in an accident that also leaves her unable to conceive. **[PROPOSED — CR-027]** She stops singing; Elias keeps a cylinder of her voice and asks for it at his deathbed. Noe’s 1886 hānai bargain secures her continuing place in Julian’s life and Hawaiian upbringing while Victoria raises him as successor. Noe’s contested death follows in 1888; no murderer is established.
 
-**Desire:** Real power to preserve Hawaiian political and cultural life within an ambitious Pacific system—and, increasingly, to shape that system herself. **Contradiction:** She defends constitutional restraints while building instruments of near-total administrative control; her love for Julian coexists with resistance to his uses of power. **Voice:** Political clarity; refined and sometimes scathing, capable of warm domestic specificity in trusted company. Hawaiian land, sea, kinship and legal protocol shape what she notices; do not make all her metaphors imperial machinery. **POV:** Indispensable at court, during the Hawaiian crisis, in the succession, as Julian's adoptive mother and in the long old age.
+From 1887 Victoria is Regent of Pacifica and remains Queen of Hawaii. The Five run the chartered estates under an unwritten arrangement: the Crown leaves their charters, appointments and Development Fund intact; they remain neutral between factions and never oppose the Crown. Soberanes, Turner and Tesla are approved holders; Hollerith, Hearst, Dickson, later successors and nā Kahuna remain proposed. Victoria’s own work is the Office of Public Measures, building on Noe’s registers; the press seat publishes its tables without alteration. Her insistence on honest numbers mixes care for her people, guilt and rivalry. Vaccination, Hawaiian nursing, water and Kalaupapa reform turn the population curve around about 1895. The 1887 language guarantee comes too late for a generation.
 
-**Open:** Her precise domestic career alongside Victoria Kamāmalu, scene-level constitutional bargains; lost child's story; what she knows about Julian's mother's death; lost Kalanimoku’s childhood and accident; final scenes and her private reckoning after the Lands and Waters bargain.
+Her regency preserves the existing diplomatic arc: Korean neutrality in 1894, Primorye finance, Japan’s 1905 victory and the canal around 1900–1902. Silas confesses Donner in 1912; Kiyoshi’s 1913 bid tests the estates’ neutrality and ends in renunciation in exchange for the Kuroda queen. The 1914 Act establishes Pacifica’s crown, joins her existing Hawaiian crown, dissolves the Council and restores Hawaii’s legislature. She lays down regency and crown in 1915; Julian accedes to both. Julian’s majority in 1907 does not end her regency or her Hawaiian reign.
 
-**Noe's inheritance:** She founds the Office of Public Measures on Noe's registers, completes vaccination in 1888–1892 and extends Hawaiian nursing, water and Kalaupapa reform. Around 1895 the population turns upward by Noe's method. Love of the people, rivalry and possible guilt cannot be cleanly separated. She keeps the crown unestablished until the 1914 Act rather than yielding when Julian reaches majority in 1907. The Act restores Hawaiian schools and Crown language without reversing the 1874 judgment.
+She continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.
 
-### CT-LOST-SON — Kalanimoku, the lost son of Elias and Kaiulani
-**Status:** Name, parentage and late-1870s death approved by CR-018 A6. Birth year, age and characterization open.
+**Desire:** Preserve Hawaiian life while exercising real power in the Pacific order. **Contradiction:** She protects a people by defending a bargain that injures its political freedom; measures may express care, guilt or rivalry. **Voice/POV:** Political clarity, Hawaiian kinship, land, sea and legal protocol, with warmth among intimates. Songs and her choice of husband express agency. **Open:** When she learns of Kiyoshi; lost son’s birth year and accident; proposed cylinder, Five personnel, instruments and mythic echoes; culpability for Noe’s death; final private reckoning. There is no separate fictional cousin.
 
-Kalanimoku must have childhood, affections, experiences and preferences before the accident that kills him. He is a person in a family as well as a dynastic possibility. Both parents have expectations he may resist. The accident also injures Kaiulani and leaves her unable to conceive.
+**CR-029, Philippine and Hawaiian consent:** The damaged Manila squadron's return from neutral Japan brings the harbour dispute into her marriage in September 1873. The 1914 settlement asks Hawaiian subjects to approve the union by plebiscite, narrowly, while the Philippine Cortes offers its own crown and Filipino voters approve broadly. These are separate acts of consent, with neither crown subordinate. She attends Julian's Manila oath and proclamation in 1915 and sings at the Cathedral Te Deum; a bishop does not crown him. Her role in commutations after the 1896 rising, elected provincial juntas and New Calamba coexists with the land board's evictions. Ka Lōkahi gives the Realm, Hawaii and the Philippines one vote each; it is distinct from the Council of the Two Crowns with Japan. Her sponsorship cannot make the 1876 judgment disappear.
+
+### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
+**Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
+
+Kalanimoku must have childhood, affections, experiences and preferences before the accident that kills him. He is a person in a family as well as a dynastic possibility. Both parents have expectations he may resist. The accident also injures Victoria and leaves her unable to conceive.
 
 **Open:** Birthday, interests, mentors, friends, accident and medical consequences. He is distinct from Julian and Chiyo’s later son Kahekili. The former 1914 Emperor Kalanimoku belongs to retired provenance.
 
 ### CT-JULIAN-MOTHER — Kaʻanoe (Noe) Ward, physician and Julian’s birth mother
 **Status:** Identity, profession, family outline, hānai bargain and recorded death circumstances approved by CR-021 F1, resolving OPEN-016-04. **Born:** c.1860, Lahaina, Maui. **Died:** autumn 1888; official cause typhoid, with poisoning alleged and no proven culprit.
 
-Kaʻanoe, called Noe by Westerners, is the daughter of a New England ship's surgeon settled in Lahaina and a woman of a minor chiefly Maui family tracing descent to Kahekili. She nurses at the Queen's Hospital in Honolulu's 1881 smallpox epidemic, passes the Polytechnic medical examination in San Francisco and qualifies in 1884, the first Hawaiian and one of the first women to do so. In 1885 she becomes physician to the dying Elias.
+Kaʻanoe, called Noe by Westerners, is the daughter of a New England ship's surgeon settled in Lahaina and a woman of a minor chiefly Maui family tracing descent to Kahekili. She nurses at Queen Emma’s Queen’s Hospital in Honolulu’s 1881 smallpox epidemic; her first patrons are loyalists. She passes the Polytechnic medical examination in San Francisco and qualifies in 1884, the first Hawaiian and one of the first women to do so. In 1885 she becomes physician to the dying Elias.
 
 Clinical, unsentimental and angry at waste, she tells him the truth about his body with gallows humor he enjoys. She brings figures no minister brings about the Hawaiian population's decline. Their relationship is real and clear-eyed; she obtains an institution for the work, not merely a place near a ruler. Elias's 1886 decree creates the Hawaiian Board of Public Health with Noe as medical director, funding and quarantine powers.
 
-Her achievement in 1886–1888 is limited and foundational: district birth-and-death registers and the start of vaccination in Honolulu and Maui. She does not cure the islands in three years. She hopes the people will stop dying and her son will sit on a restored Hawaiian throne. She lives to see neither result.
+Her achievement in 1886–1888 is limited and foundational: district birth-and-death registers and the start of vaccination in Honolulu and Maui. She does not cure the islands in three years. She hopes the people will stop dying and her son will sit as successor to the reigning Queen’s Hawaiian crown. She lives to see neither result.
 
-Julian is born in 1886. Noe agrees to Kaiulani's hānai adoption, with Elias's written consent, in exchange for the health board, a continuing place in his life and Hawaiian upbringing. Kaiulani requires that he be raised as her son and successor. Respect and fear join the women; their rivalry concerns the boy and the state. In 1886–1887 Noe controls the founder's body and Kaiulani his government. After August 1887 Noe's natural guardianship makes her a possible regent, and Hawaiian loyalists court her.
+Julian is born in 1886. Noe agrees to Victoria's hānai adoption, with Elias's written consent, in exchange for the health board, a continuing place in his life and Hawaiian upbringing. Victoria requires that he be raised as her son and successor. Respect and fear join the women; their rivalry concerns the boy and the state. In 1886–1887 Noe controls the founder's body and Victoria his government. After August 1887 Noe's natural guardianship makes her a possible regent, and Hawaiian loyalists court her.
 
-She dies during an autumn 1888 typhoid outbreak she is fighting. Kaiulani's physician signs the official certificate. Noe's servants say poison; her registers disappear for a month before reappearing in the Office of Public Measures. Loyalists call it murder and Silas's faction spreads the claim. The Chronicler can establish competing interests and testimony but no culprit. The approved event preserves real uncertainty rather than making Kaiulani guilty by implication.
+She dies during an autumn 1888 typhoid outbreak she is fighting. Victoria's physician signs the official certificate. Noe's servants say poison; her registers disappear for a month before reappearing in the Office of Public Measures. Loyalists call it murder and Silas's faction spreads the claim. The Chronicler can establish competing interests and testimony but no culprit. The approved event preserves real uncertainty rather than making Victoria guilty by implication.
 
-Kaiulani completes island vaccination in 1888–1892, adds Hawaiian-speaking nurses, clean water and Kalaupapa reform, and sees the population curve turn upward around 1895. All of it builds on Noe's figures, with an emotional mixture of care, rivalry and possible guilt. Julian later finds the registers behind his adoptive mother's public legitimacy; his Altai falsification corrupts the same institution.
+Victoria completes island vaccination in 1888–1892, adds Hawaiian-speaking nurses, clean water and Kalaupapa reform, and sees the population curve turn upward around 1895. All of it builds on Noe's figures, with an emotional mixture of care, rivalry and possible guilt. Julian later finds the registers behind his adoptive mother's public legitimacy; his Altai falsification corrupts the same institution.
 
-**Desire:** Prevent avoidable Hawaiian deaths and bargain for her son's future on a restored throne. **Contradiction:** The institution she needs depends on a ruler whose regime injured Hawaii; her son gains prospects through a woman who can displace her. **Voice:** Clinical observations, exact numbers, dry gallows humor and impatience with waste. **POV:** Hospital, sickroom, registers and the hānai negotiation, with motives independent of the murder rumor. **Open:** Parents' names, scene details, which testimony the Chronicler can authenticate, and responsibility for the death. The identity and official circumstances are settled.
+**Desire:** Prevent avoidable Hawaiian deaths and bargain for her son's future on the Hawaiian throne. **Contradiction:** The institution she needs depends on a ruler whose regime injured Hawaii; her son gains prospects through a woman who can displace her. **Voice:** Clinical observations, exact numbers, dry gallows humor and impatience with waste. **POV:** Hospital, sickroom, registers and the hānai negotiation, with motives independent of the murder rumor. **Open:** Parents' names, scene details, which testimony the Chronicler can authenticate, and responsibility for the death. The identity and official circumstances are settled.
 
 ### CT-JULIAN — Julian Thorne, Sovereign of Pacifica and Kamehameha VI
-**Status:** CR-021 revision 9 settles his constitution, education and relationship with Hirohito; unrelated earlier Vance and European-peace mechanics retain their qualifications. **Born:** 1886, son of Elias and Kaʻanoe Ward; hānai son of Kaiulani. **Styles:** Sovereign of Pacifica and Mōʻī of Hawaii at home, reigning in Hawaii as Kamehameha VI; Emperor abroad and kōtei in Japanese. He is never styled President.
+**Status:** CR-021 revision 9 settles his constitution, education and relationship with Hirohito; unrelated earlier Vance and European-peace mechanics retain their qualifications. **Born:** 1886, son of Elias and Kaʻanoe Ward; hānai son of Victoria. **Styles:** Sovereign of Pacifica and Mōʻī of Hawaii, reigning in Hawaii as Kamehameha VI; CR-029 adds the Philippine crown and Rey de Filipinas, with the detailed combined style still marked PROPOSED in the source. Emperor abroad and kōtei in Japanese. He is never styled President.
 
-Noe bargains for his hānai adoption in 1886 while both biological parents live, securing health work, contact and Hawaiian upbringing. Kaiulani raises him as successor, speaking Hawaiian; he learns English with tutors, Spanish in Soberanes's circle and Japanese with Kiyoshi's naval party. In 1905–1906 he spends a year with the Tokyo legation and navy and meets Saionji. Coming of age in 1907 does not end the regency: no crown exists until the Act of Settlement.
+Noe bargains for his hānai adoption in 1886 while both biological parents live, securing health work, contact and Hawaiian upbringing. Victoria raises him as successor, speaking Hawaiian; he learns English with tutors, Spanish in Soberanes's circle and Japanese with Kiyoshi's naval party. In 1905–1906 he spends a year with the Tokyo legation and navy and meets Saionji. Coming of age in 1907 does not end the regency: the Crown of Pacifica awaits the Act of Settlement while Victoria remains Queen of Hawaii.
 
-Kaiulani delays the Act until 1914. The ʻAha Aliʻi proclaims him Kamehameha VI, drawing legitimacy from Noe's Maui chiefly line and adoption by Kaiulani; Senate and Chamber confer the Realm's sovereignty, and he succeeds in 1915. Thalassia's land belongs to his Hawaiian crown. Succession goes to eldest son, eldest daughter or an adopted heir with Senate consent. He marries Chiyo of another Kuroda branch in 1915; their son Kahekili, 雷 (Ikazuchi), is the future Kamehameha VII. The c.1916 birth remains a working date.
+Victoria delays the Act until 1914. The Act joins Victoria’s existing Hawaiian crown to Pacifica’s new Crown, dissolves the Territorial Council and restores Hawaii’s legislature. The ʻAha Aliʻi proclaims him heir, to reign as Kamehameha VI, drawing legitimacy from Noe’s Maui chiefly line and his adoption by a Kamehameha queen. Senate and Chamber confer the Realm’s sovereignty. Victoria lays down both crown and regency in 1915 and he accedes to both. The 1876 judgment is never reversed. Thalassia's land belongs to his Hawaiian crown. Succession goes to eldest son, eldest daughter or an adopted heir with Senate consent. He marries Chiyo of another Kuroda branch in 1915; their son Kahekili, 雷 (Ikazuchi), is the future Kamehameha VII. The c.1916 birth remains a working date.
 
 Julian imitates Elias's recorded voice and seeks personal command. He uses county receivership and ordinances, humiliates senators and tampers with their electric voting machinery. He backs Sun and builds the Siberian coalition. His proposed European credit timing and the detailed Vance arc remain qualified. He conceals the Altai crime through false Office of Public Measures figures and never tells Hirohito the secret. Finding Noe's registers gives that betrayal an intimate dimension.
 
 Hirohito's 1921 visit creates a friendship in Japanese without interpreters; the prince dives the reef once, then marine-station specimens and work at Hayama sustain scientific intimacy. Julian brings relief and reconstruction credit to Yokohama in 1923. Chiyo becomes Nagako's confidante after the 1924 marriage. Two men trained to inherit founders' systems recognize different possible lives in each other: Julian rules personally, Hirohito cautiously through his constitution.
 
-In 1927 Julian fears the bank crisis will deliver Japan to the army. He offers credit and a Pacific Concord, applying it provisionally despite Senate refusal. His claim that consent is pending is illegal in substance. Kaiulani's 1928 settlement wins two-thirds consent and indemnity at the price of a five-year executive trust, reviewed quota, balanced delegates and audit. At Hayama Hirohito receives him as host, while Julian convenes and presides; the two crowns remain co-equal. The working executive stays at Thalassia without a presidential title for its sovereign.
+In 1927 Julian fears the bank crisis will deliver Japan to the army. He offers credit and a Pacific Concord, applying it provisionally despite Senate refusal. His claim that consent is pending is illegal in substance. Victoria's 1928 settlement wins two-thirds consent and indemnity at the price of a five-year executive trust, reviewed quota, balanced delegates and audit. At Hayama Hirohito receives him as host, while Julian convenes and presides; the two crowns remain co-equal. The working executive stays at Thalassia without a presidential title for its sovereign.
 
-In 1931 he uses oil, transport and gold leverage against the Manchurian plot. The May 1932 coup tests Hirohito's loyalty to their constitutional bargain. Its defeat permits renewal to 1937 and common overseas command; Japan's demand for an alternating executive is refused. Julian's willingness to accept Keawe's environmental correction through Kaiulani's Lands and Waters bargain coexists with his concealment of the Altai. Basalt and copper replace his marble ambitions, and the Hawaiian crown receives the lease premiums funding the city.
+In 1931 he uses oil, transport and gold leverage against the Manchurian plot. The May 1932 coup tests Hirohito's loyalty to their constitutional bargain. Its defeat permits renewal to 1937 and common overseas command; Japan's demand for an alternating executive is refused. Julian's willingness to accept Keawe's environmental correction through Victoria's Lands and Waters bargain coexists with his concealment of the Altai. Basalt and copper replace his marble ambitions, and the Hawaiian crown receives the lease premiums funding the city.
 
 **Desire:** Expand Pacifica's freedom of action and leave successors institutions that can continue winning. **Contradiction:** He protects a durable order through personal command and concealed crime, then needs his mother and friend to make it lawful. **Voice:** Cultivated directness and deliberate echoes of Elias; Japanese and Hawaiian intimacy need not sound like public rhetoric. **Open:** Individual tutors and childhood scenes, wedding and heir dates, the Vance arc, unrelated European settlement details and his final private reckoning. His own constitutional styles, mother's identity and Concord outcome are settled.
 
 **Chichibu and the realm:** The resident prince’s Carquinez education and Sierra/Hawaiian field life give Japan a Pacifican source of honors and prestige. Julian honors him without acquiring a subordinate or granting an independent command. The Japanese Navy portfolio is a convention within the legal nationality floor; Foreign Affairs and Finance normally remain Pacifican, and the reserved squadron arrangement ends at renewal.
 
+
+**The Five:** Their neutrality decides Kiyoshi’s 1913 bid; Julian’s 1915–1917 Senate quarrel strains the arrangement. The 1921 false Altai report breaks it when the estates’ measures serve a Crown-requested lie.
+
+**CR-029–CR-031, current scope:** The Philippine Cortes offers a separate Philippine crown in 1914 and a plebiscite confirms its signed terms. In 1915 he swears before the Cortes at Manila and is proclaimed under the standard, without episcopal coronation. The full formula Sovereign of Pacifica, Mōʻī of Hawaiʻi and Rey de Filipinas remains explicitly PROPOSED in the detailed CR-029 passage, although the supplied synopsis and Concord passage use it. His three crowns constitute one party opposite Japan in the Concord. Ka Lōkahi is the three-crown council, one vote each, with ten-year reviews of agreed matters; Hayama's two-crown Council and five-year Concord executive term are different institutions. In 1927 the Hawaiian and Philippine delegations' support supplies political backing, not legal authority to override Senate refusal. His Harbin victory leaves a Siberian ally, Japanese-protected Kamchatka, a Transbaikalian protectorate and Chinese rights, rather than one incorporated empire. Under the PROPOSED Kamchatka Company mechanism, Pacifican shareholding and approval of Korean labour papers make his order complicit in coercion beside the free Kolyma mines. This does not imply that Hirohito knows the Altai secret.
+
 ### CT-CALEB — Caleb Vance
-**Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Proposed autumn 1887 Donner Pass standoff, with no civil war under CR-016. Exact shooter and responsibility remain OPEN-016-03.
+**Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Autumn 1887 Donner Pass standoff, with no civil war under CR-016. CR-022 resolves the shooter: Silas aims at Soberanes and Caleb dies in his place.
 
 An experienced former American soldier and frontiersman, Caleb survives the 1841 Texan Santa Fe Expedition and imprisonment in Mexico alongside teenage Elias. Their friendship begins with shared hunger, uncertainty and mutual rescue. Caleb understands camp survival, horsemanship, artillery and the reliability of real people under hardship; Elias sees wider geometries of state and war. Each has knowledge the other lacks.
 
-Caleb is among the few men permitted to call Elias by his first name, joke at his expense or tell him he is mistaken. Over decades he becomes a commander and eventually an aged guardian of the founder's memory, but he never experiences the young man simply as a monument. At the proposed Donner Pass standoff he saves Soberanes, an unrelated commander, and loses his life. The sacrifice is for a person and institution beyond his family; it ends the crisis without a campaign.
+Caleb is among the few men permitted to call Elias by his first name, joke at his expense or tell him he is mistaken. Over decades he becomes a commander and eventually an aged guardian of the founder's memory, but he never experiences the young man simply as a monument. At the Donner Pass standoff he saves Soberanes, an unrelated commander, and loses his life. The sacrifice is for a person and institution beyond his family; it ends the crisis without a campaign.
 
 **Voice:** Informal and often rude; economy of observation rooted in rations, weather, tools, boots, injuries and personal loyalties. His voice may soften privately. Avoid making dialect a performance of illiteracy.
 
 **Open:** Family relationship to Marcus I—brother or uncle/older kinsman—and the exact generational tree. The *rise_to_power.md* proposal that Marcus I is Caleb's younger brother is the working option, but original profiles contradict it. Their kinship must be explicitly fixed before all the Vance dossiers are considered final.
+
+
+**CR-022:** He alone knows Abigail’s pregnancy in 1851, brings Elias to her Texas door in 1863, and dies keeping the peace at Donner. His last words, “Don’t give it”, sustain the public lie.
 
 ### CT-MARCUS-I — Marcus Vance I, the founding general
 **Status:** Core role and CR-013 wartime direction approved; office details, campaign mechanics and early biography remain qualified. **Active:** c.1849–February 1878. **Dies:** Vladivostok, February 1878, in the joint maritime action with Japan (CR-015 B6). The death, place and month are settled; tactical mechanics remain proposed.
@@ -138,11 +150,14 @@ Postwar cooperation with Japan and China and the limited Russian maritime operat
 
 The replacement commander earns authority in the Pacific wars rather than inheriting a Vance command. **[PROPOSED]** His proposed Californio family loses its rancho through debt, squatters and litigation. He answers dispossession with impersonal records and enforceable institutions. Naval academy entry in 1861, Manila gunnery service in 1873, chief-of-staff service and command of the homeward squadron after Marcus I’s death at Vladivostok in 1878, and signal/examination work in 1879–1884 establish his career. He commands the Keelung squadron in 1884–1885 and becomes Polytechnic Superintendent and Director of Telegraphs in 1885. These details remain proposals, not a historical Rafael Soberanes biography.
 
-He organizes the Polytechnic and communications during the managed succession. With Kaiulani he builds examinations, audits and administration and reduces inherited commanders’ and bankers’ autonomy. **[PROPOSED]** Caleb dies saving him at the single Donner standoff. His institutional authority continues into the 1914 settlement; he retires in 1915 and recognizes that the system now operates beyond his ability to restrain it. His retirement now precedes the victorious Siberian coalition; the former India and Rangoon campaigns are superseded.
+He organizes the Polytechnic and communications during the managed succession. With Victoria he builds examinations, audits and administration and reduces inherited commanders’ and bankers’ autonomy. Caleb dies saving him from Silas’s shot at the single Donner standoff (CR-022). His institutional authority continues into the 1914 settlement; he retires in 1915 and recognizes that the system now operates beyond his ability to restrain it. His retirement now precedes the victorious Siberian coalition; the former India and Rangoon campaigns are superseded.
 
 **Voice and contradiction:** Analytic precision and confidence in institutions give way to doubt as successors turn measurement into coercion. His impersonal safeguards promise protection from patronage while enabling a state to treat people as records. **[PROPOSED]** No son inherits his office; his graduates are his institutional heirs. Kiyoshi studies under him and later becomes a rival commanding constituency.
 
-**Relationships:** Kaiulani is political partner; Marcus I is proposed wartime superior; Caleb is proposed rescuer with no kinship; Kiyoshi is proposed former pupil and rival. **Open:** Family, early training, exact early commissions and promotion, unapproved squadron actions, retirement detail and later fate. CR-021 settles the chief’s appointment from three graduate-council names and removal only with Senate consent. Marcus III’s proposed descent and mentorship remain OPEN-016-06 / OPEN-018-18; section N proposes that Soberanes pays for the boy’s education after Donner Pass. His fostering role is not approved by inference.
+**Relationships:** Victoria is political partner; Marcus I is proposed wartime superior; Caleb is the Donner rescuer with no kinship; Kiyoshi is proposed former pupil and rival. **Open:** Family, early training, exact early commissions and promotion, unapproved squadron actions, retirement detail and later fate. CR-021 settles the chief’s appointment from three graduate-council names and removal only with Senate consent. Marcus III’s proposed descent and mentorship remain OPEN-016-06 / OPEN-018-18; section N proposes that Soberanes pays for the boy’s education after Donner Pass. His fostering role is not approved by inference.
+
+
+**APPROVED — CR-027:** In 1887 he holds the Five’s Polytechnic and General Staff seat; the Crown–estates arrangement protects his charter and appointments. Marcus Vance III follows after 1915.
 
 ### CT-MARCUS-III — Marcus Vance III, proposed logistics commander
 **Status:** Revised characterization required by CR-018 A20; section N is wholly PROPOSED under OPEN-018-18. **Working birth:** c.1880, replacing the incompatible c.1891 estimate.
@@ -151,9 +166,14 @@ He organizes the Polytechnic and communications during the managed succession. W
 
 **[PROPOSED]** A cautious, exact railway and logistics officer, he designs the Ob line, Yenisei fallback and peasant guarantee. Kiyoshi’s death thrusts him into command in 1920. His fear is failing remembered dead, not a hereditary appetite for atrocity. In the Altai in 1921 he uses gas against partisans threatening the railway while knowing they hold Japanese prisoners. The partner’s men die with their captors.
 
-**[PROPOSED]** Julian approves falsification to protect the treaty. Vance signs, then tells Kaiulani; her renunciation leaves him in command but damages both relationships. In 1931 he executes Julian’s prohibition on carrying Japanese troops to Manchuria. In May 1932 guards sympathetic to the Restoration, some tied to the Altai victims, kill him. He has already given the true report to the Chronicler.
+**[PROPOSED]** Julian approves falsification to protect the treaty. Vance signs, then tells Victoria; her renunciation leaves him in command but damages both relationships. In 1931 he executes Julian’s prohibition on carrying Japanese troops to Manchuria. In May 1932 guards sympathetic to the Restoration, some tied to the Altai victims, kill him. He has already given the true report to the Chronicler.
 
 **Proposed emotional tension:** Affection and competence make the partnership work; guilt exposes what victory required. His death connects the right act of 1931 to the wrong act of 1921. **Voice:** Concrete distances, capacity and contingencies; cautious professional language strained by guilt. **Open:** The whole lineage, mentorship, foster bond, career, attack circumstances, confession and ending remain OPEN-018-18; the companion’s archive recommendation does not approve them by inference.
+
+
+**APPROVED — CR-027:** Succeeds Soberanes in the Five’s Polytechnic/General Staff seat after 1915. His personal Vance arc remains qualified under OPEN-018-18. The supplied storyline identifies his railway-surveyor father as a Donner witness and says Marcus knows who fired; this does not restore the retired Marcus II command identity.
+
+**PROPOSED — CR-030 operational detail:** His movement timetable permits a division west only when the railway can feed it. Five sections run from Vladivostok through Chinese-owned Manchuria to the Ob; the Khingan and Transbaikal branch bottlenecks remain behind the front. A railway board supplies workers and miners, inherits Pacifican-built Russian-gauge rolling stock financed on Entente credit, and protects Siberian civilian paths. Summer depots, Amur–Shilka supply through Sretensk and a Kara convoy precede the winter Ob battle. The contingent of about 28,000 and the peacetime test of a 50,000-man corps within two weeks are MODEL/PROPOSED planning quantities, not established strengths or proof of capacity. The personnel lineage, command transition and Altai arc remain OPEN-018-18.
 
 ### CT-DONAHUE — Peter Donahue, manufacturing organizer
 **Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.
@@ -256,18 +276,23 @@ These experiences give him the potential for a major business career in repair, 
 
 **Relationships:** Donahue is the proposed workshop apprenticeship sponsor, with exact employment open; Ericsson is engineering mentor and demanding senior collaborator; Thorne is sponsor and direct political interlocutor; Marcus is mentor, critic and technical counterpart; local workers, officers, suppliers and crews have independent agency. No kinship with historical bankers bearing Turner is implied by the surname. **Open:** Exact age and Kentucky locality, family, migration and education, rank/employer, early access to Thorne, mission travel, technical contributions, named crew and workers, businesses, fortune, postwar role and fate.
 
+
+**APPROVED — CR-027:** One of the Five in 1887, for naval construction, heavy industry and the champions. Doheny as a later successor is PROPOSED.
+
 ### CT-CHRONICLER — The Imperial Chronicler / Historiographer
 **Status:** Central formal role settled; personal identity open.
 
 The narrator writes as a scholar of the imperial order, educated among its archives and steeped in classical models of historical rise and decline. His earliest knowledge of Elias's childhood, the pastor's daughter, Texas and the Californian founding depends on testimony, disputed memoirs and surviving official papers; he did not personally witness those events. By the twentieth century he becomes a participant in diplomatic missions and eventually an eyewitness to the surviving order’s triumph and human cost.
 
-He is not merely a vehicle for accurate historical exposition. His understanding of the old American republic, the institutions of Pacifica, and the people counted by its clerks is shaped by his own class and education. Accounts from Kaiulani, ordinary soldiers, workers, Indigenous communities, Japanese participants, women in the households and revolutionaries may challenge his interpretations without establishing that he knowingly lies.
+He is not merely a vehicle for accurate historical exposition. His understanding of the old American republic, the institutions of Pacifica, and the people counted by its clerks is shaped by his own class and education. Accounts from Victoria, ordinary soldiers, workers, Indigenous communities, Japanese participants, women in the households and revolutionaries may challenge his interpretations without establishing that he knowingly lies.
 
 **Voice:** Long, learned, retrospective, drawn to analogy and historical symmetry; occasional dry irony and moments of individual tenderness. His certainty can be disproved by scenes he could not have witnessed. **Open:** Name, birth date, age in the 1930s, how he knows Takashima, precise career and number of archival volumes. The legacy account's 82-year-old in 1932 / earlier travels must be age-checked.
 
 **CR-019 ending:** The history is completed in 1932 while Thalassia stands. **[PROPOSED — OPEN-019-10]** Sealed copper cylinders hold hidden testimony, including the true Altai report on the open Vance arc. The narrator must not turn public success into proof of moral innocence.
 
 **CR-020 perspective:** The Living Bay and published islands index are real achievements to set beside the hidden Altai record. Industrial damage, contested compromises and guest workers sent home in the slump complicate the order’s public success. Keawe’s contribution is environmental engineering and the Lands and Waters Charter.
+
+**CR-031, competing northern records:** The proposed Kamchatka Company's bonded gangs and Korean contract labour challenge the newsreels' celebration of free Kolyma workers. Kolyma lies on the Siberian side behind Ola Bay; protected Kamchatka is separate. Company share registers, labour papers and relief/debt records are possible evidence, not newly approved scenes or proof that he already possesses those files. The sealed Altai record and limits on his knowledge remain intact.
 
 ### CT-KEAWE — Keawe Kahananui, environmental engineer
 **Status:** Biography, environmental programme and 1932 settlement approved by CR-020 B7 and section E. **Born:** 1895, Hilo. **Background:** Hapa; Hawaiian harbour-pilot father and a Japanese-Pacifican maternal family farming taro and sugar in Waimanu Valley.
@@ -278,18 +303,18 @@ He plans by the ahupuaʻa, the Hawaiian division from mountain ridge to reef. Fo
 
 At the Hawaiian Aluminium Works in Hilo in 1923–1927 he makes fluoride recovery pay within two years, contains red mud, requires topsoil storage and replanting bonds, and builds a model workers' town. The programme costs him family loyalty: the new forest reserve ends grazing on his uncle's cattle range, and he enforces the rule. His family stops speaking to him.
 
-With Kaiulani's backing he drafts the 1928 Thalassia Plan as the city becomes the common ministries' capital. It protects watersheds and minimum stream flows, groups heavy industry in two leeward districts, and combines hydro and downwind oil stations with electric trams and ferries. Sewage treatment, reef and fishpond protection, port quarantine, public leasehold land and a garden-city code preserve shore access, shade, low buildings and mountain-to-sea views. Thalassia’s ground remains the Hawaiian throne’s Crown land. Premiums go to the Mōʻī and fund parks, transit and schools; local administration does not transfer Hawaiian land custody. An annual bureau index counts forests, stream flows, smoke-free days, reef fish and park access. He answers impatient developers and ministries with costs and returns, and persuades Julian that the beautiful capital is worth more in newsreels than marble monuments.
+With Victoria's backing he drafts the 1928 Thalassia Plan as the city becomes the common ministries' capital. It protects watersheds and minimum stream flows, groups heavy industry in two leeward districts, and combines hydro and downwind oil stations with electric trams and ferries. Sewage treatment, reef and fishpond protection, port quarantine, public leasehold land and a garden-city code preserve shore access, shade, low buildings and mountain-to-sea views. Thalassia’s ground remains the Hawaiian throne’s Crown land. Premiums go to the Mōʻī and fund parks, transit and schools; local administration does not transfer Hawaiian land custody. An annual bureau index counts forests, stream flows, smoke-free days, reef fish and park access. He answers impatient developers and ministries with costs and returns, and persuades Julian that the beautiful capital is worth more in newsreels than marble monuments.
 
 After Britain leaves gold in September 1931, sterling-priced aluminium threatens the Hilo works. The Industrial Board would lift the plan's limits and dam Waimanu Stream. Keawe demonstrates that refinancing the hydro board's debt through the Reserve Bank in 1932, extending repayment from twelve years to thirty, lowers power prices without sacrificing Waimanu; the statistics bureau confirms the figures. The roughly thirty-percent price reduction is a MODEL estimate. He accepts one reef cut for a naval anchorage in return for marine reserves elsewhere, earning the purists' charge of betrayal.
 
-Kaiulani's last bargain with Julian produces the 1932 Lands and Waters Charter: watershed reserves, minimum flows, two industrial districts, mined-land restoration, public leasehold and the islands index become law throughout the islands. Waimanu is protected and the smelter keeps its gold-parity contracts. Keawe joins the hydro board and must now make the compromises himself.
+Victoria's last bargain with Julian produces the 1932 Lands and Waters Charter: watershed reserves, minimum flows, two industrial districts, mined-land restoration, public leasehold and the islands index become law throughout the islands. Waimanu is protected and the smelter keeps its gold-parity contracts. Keawe joins the hydro board and must now make the compromises himself.
 
 **Desire:** A clean, beautiful and productive Hawaiʻi whose prosperity protects its land and water. **Contradiction:** The engineer who makes development acceptable also makes it possible; a believer in measurable gains must accept losses that cannot all be compensated. Family estrangement and the reef cut give his successes a personal cost. **Voice:** Precise water, smoke, power, maintenance and cost observations, grounded in remembered places and practical Hawaiian knowledge. **POV:** The bay, the works, Waimanu and the negotiating room; his position is inside the successful order. **Open:** Names and individual lives of parents and uncle, private relationships, scene-level exchanges and later life. His identity, birth, profession, environmental arc and charter outcome are settled.
 
-### CT-MALIA — Malia, Kaiulani's niece and confidante
+### CT-MALIA — Malia, Victoria's niece and confidante
 **Status:** Relationship retained; exact age inconsistent in legacy profiles.
 
-A Hawaiian royal relative and trained secretary, Malia serves Kaiulani at court and during her withdrawal to Hawaii. She understands accounts, medicine, ceremonial obligations and the increasingly precarious details of their domestic lives. She is an indispensable eyewitness but not merely the old woman's interpreter. She makes choices when officials, revolutionary emissaries and military authorities demand information or obedience.
+A Hawaiian royal relative and trained secretary, Malia serves Victoria at court and during her withdrawal to Hawaii. She understands accounts, medicine, ceremonial obligations and the increasingly precarious details of their domestic lives. She is an indispensable eyewitness but not merely the old woman's interpreter. She makes choices when officials, revolutionary emissaries and military authorities demand information or obedience.
 
 **Voice:** Clear, modest without submissiveness, accustomed to reporting concrete facts to powerful people. **Open:** Kinship link and birth year; her exact fate in the final upheaval.
 
@@ -304,40 +329,36 @@ Some original passages alternate gender and a legacy conjecture proposes conceal
 
 ## The succession and the imperial households
 
-### CT-SILAS-CLAIMANT — Silas Thorne, claimant of the frontier armies
-**Status:** Provisional contender from the later storyline, identity not settled.
+### CT-SILAS-CLAIMANT — Silas Pruett / Silas Thorne, eldest son and inland commander
+**Status:** Supplied storyline, CR-022 revision 3. **Born:** late 1851 in Texas to Abigail Merritt, Elias’s biological son and Henry Pruett’s legal son. Distinct from Elias’s father.
 
-An adult Thorne claimant treated as a son in the working succession with a base among older American frontier and cavalry elements. After Elias's death he attempts to claim the Founder’s political inheritance. His reliance on veteran loyalties distinguishes him from Kiyoshi's Japanese faction and Soberanes’s professional corps. The old draft gives him a 1859 birth to a Virginian woman and portrays drunken decline. Those details are not accepted automatically: the revised family chronology must establish the mother, legitimacy, name and possible relationship to the lost child.
+He learns his parentage at eleven when Caleb and Elias bring Pruett’s watch in 1863. Elias supports him but refuses the name. A Texan volunteer at New Orleans in 1870, he later serves the Atlantic Auxiliary. Mid-career mathematics examinations cap him below general rank; Elias refuses an exception, making him the old officers’ grievance against the examination state.
 
-**Voice:** Not simply a second-rate Elias. He should possess a specific charm, grievance, competence or generosity capable of winning real followers. **Open:** mother and birth date (OPEN-016-01), legal recognition, political programme and responsibility for the Donner standoff; his age must respect Kiyoshi’s approved seniority.
+At Donner in 1887 he shoots at Soberanes and kills Caleb in his place. The public account praises restraint and the lie keeps the Truce. He holds the inland command at Sacramento, declines, confesses to Victoria in autumn 1912 and dies that winter, before the Act of Settlement. His younger daughter marries Kiyoshi’s officer Tanabe Makoto in 1909, when the half-brothers meet for the only time. His old adjutant Harlan Tate later leads Senate resistance to the Concord. **Voice/POV:** Personal grievance, veteran loyalties and competence constrained by examinations; distinguish the man from the public story of Donner. Scene details beyond the supplied storyline remain unprovided.
 
-### CT-KIYOSHI — Kuroda Kiyoshi, eldest son and Fleet-General
-**Status:** Elias’s eldest son by a Satsuma mother approved under CR-016; Kuroda adoption, Fleet-General identity and death in Siberia in 1920 approved under CR-018 D5. Working Kagoshima birth in 1859, Uehara name and maternal biography remain proposed.
+### CT-KIYOSHI — Kuroda Kiyoshi, second son and Fleet-General
+**Status:** Second son under CR-022; CR-026 revision 6 settles branch house, 1907 countship and 1913–1914 bid. CR-027 settles conception in spring 1858 during the Edo negotiations, before Elias’s wedding. Kagoshima birth in 1859 is approved by CR-027 A7. **[PROPOSED]** His mother is Uehara Hisa, glass master’s daughter and interpreter; maternal and early service detail retains the storyline’s labels. When Victoria learns of him is OPEN.
 
-**[PROPOSED]** His mother Uehara Hisa, a Shūseikan glass master’s daughter and interpreter, keeps him from Elias until 1872. He arrives with the Iwakura students, trains in Pacifica, serves against Saigō in 1877 and under Marcus I and Soberanes at Vladivostok in 1878. Ryukyu, Gapsin, Keelung and the early western command retain their proposal labels. His mother’s choices and the political exclusion attached to his parentage shape him without predetermining his allegiance.
+He arrives in Pacifica in the 1870s in the proposed early chronology. He enters Kuroda Kiyotaka’s house by adoption and marriage in 1886, then founds a branch rather than inheriting the main house; Kiyonaka keeps that house. His naval constituency gains careers in common institutions. He defeats the Baltic Fleet in 1905 and becomes Count Kuroda and Fleet-General in 1907. After Silas dies, he claims the future Pacifican crown in 1913 as Elias’s eldest surviving son. The squadron anchors off Kāneʻohe in October; he gives no order.
 
-In 1886 he marries into Kuroda Kiyotaka’s house as an adopted son-in-law and takes the name Kuroda Kiyoshi. He leads the Japanese naval party in 1887. The compact and later imperial careers give his constituency power through institutions centered in Pacifica. The working Primorye service places him at Vladivostok in 1899. He destroys Russia’s Baltic Fleet in May 1905 and gains Fleet-General command through the proposed 1907 renewal. He dies in Siberia in 1920.
+Victoria holds Hawaiian legitimacy, Tokyo refuses the elevation of a Japanese count, the Senate coalition fails and examined officers refuse a strike. Julian asks him in Japanese for a wife from his house. In 1914 he renounces for himself and his descendants in exchange for the Kuroda queen, Chiyo. The Act names him “Kuroda Kiyoshi, son of Elias Thorne”; he never uses the name. The Five’s neutrality is decisive. **[PROPOSED — CR-026]** He backs Victoria against the Twenty-One Demands.
 
-Chiyo belongs to another branch of the adopted house and is not of his blood. He arranges her marriage to his half-brother Julian. His son, Elias’s grandson, keeps the Japanese fleet units loyal to the common government in May 1932. This resolves OPEN-016-08. The former CT-KURODA-II entry is an alias provenance record for this person, not another officer or his son.
-
-**Desire and tension:** Secure belonging and command without surrendering either Japanese legitimacy or his imperial careers. **Open:** Maternal details, exact birth and early appointments, wife’s individuality, son’s name and life, service scenes. Japan’s eastern railway control is national policy; no invented personal sabotage mission is assigned to him.
-
-**CR-021 institutional inheritance:** The Truce places his naval sphere at Pearl Harbor, with life tenure embodied in organic law. His Japanese-crewed Keelung ships under Soberanes help build the convention later giving a Japanese minister the Concord Navy. His death in 1920 leaves Julian without the old bridge to Japan; Hirohito’s friendship and the 1927 ministerial bargain replace it. The 1932 renewal transfers overseas commands to common control, ending the reserved-squadron arrangement.
+Chiyo is of another branch and not his blood. His son keeps Japanese fleet units loyal in 1932, remembering the failed bid. Kiyoshi dies in Siberia in 1920; CT-KURODA-II stays retired alias provenance. **Desire:** Belonging, recognition and command within both worlds. **Open:** Proposed maternal and early career details, wife’s individuality, son’s name and scene detail. No personal railway-sabotage mission is invented.
 
 ### CT-KALANIMOKU-CLAIMANT — Kalanimoku claimant, retired draft identity
 **Status:** Retired provenance under CR-018 A6. This stable ID preserves earlier portraits and their archival mappings; it does not name a continuing active person in the current storyline.
 
-The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Kaiulani directly in 1915. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
+The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Victoria directly in 1915. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
 
 ### CT-KALANIMOKU-OLDER — Kalanimoku the Elder, retired genealogy shell
 **Status:** Retired provenance under CR-018 A6. This stable ID preserves earlier portraits and their archival mappings; it does not name a continuing active person in the current storyline.
 
-The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Kaiulani directly in 1915. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
+The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Victoria directly in 1915. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
 
 ### CT-KALANIMOKU-EMPEROR — Emperor Kalanimoku, retired 1914 sovereign role
 **Status:** Retired provenance under CR-018 A6. This stable ID preserves earlier portraits and their archival mappings; it does not name a continuing active person in the current storyline.
 
-The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Kaiulani directly in 1915. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
+The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Victoria directly in 1915. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
 
 ### CT-CHIYO — Empress Chiyo, Julian’s wife and Concord patron
 **Status:** Marriage, Kuroda branch, naval patronage, household ties and Concord role approved; private biography remains unspecified. Born in Japan into the kazoku, she belongs to another Kuroda branch, not Kiyoshi's blood or the Japanese emperor's direct line. Kiyoshi arranges her marriage to Julian in 1915. Their son is Kahekili, 雷 (Ikazuchi), future Kamehameha VII; the c.1916 birth remains a working date.
@@ -349,6 +370,9 @@ She and Takahashi work from opposite courts during the 1927 crisis; Takahashi re
 **Dramatic interest:** Her household, patronage and dynastic project are political work with independent stakes. Loyalty to Julian need not erase disagreement about their son's future. **Voice/POV:** Domestic Japanese, court protocol and the practical costs of maintaining access in both capitals. **Open:** Birth date, education, named relatives, exact wedding day, personal exchanges and the bride's identity.
 
 **Chichibu:** His resident role extends the Japanese court’s presence beyond her household and naval patrons. His Pacifican friendships and reputation make a new link to her homeland; they do not make her Kuroda lineage imperial or give Kahekili succession rights in Japan.
+
+
+**CR-026 bargain:** Her 1915 marriage is the price of Kiyoshi’s 1914 renunciation; his house supplies the queen and the bloodline after Julian without making her Kiyoshi’s own child.
 
 ### CT-THORNE-FATHER — Silas Thorne, Elias's father
 **Status:** Early family history retained; dead by the 1837 foreclosure. **Distinct from CT-SILAS-CLAIMANT.**
@@ -365,29 +389,39 @@ A widow in the southern Rocky Mountain trading world who confronts dispossession
 
 Former participant in Napoleon's military world, perhaps a modest engineering or artillery officer whose apparent colonelcy is disputed by the neighbors. He carries Vauban, Jomini, Plutarch, instruments and practical lessons in war and geology into the Taos-centered southern Rocky Mountain trading community. His own history of imperial triumph and collapse is a living contradiction Elias only gradually understands. **Open:** name, birthplace, actual rank, service record, temperament and how he entered the mountain trading world. Avoid making every prediction prophetic.
 
-### CT-PASTOR — Pastor in Elias's mountain upbringing
-**Status:** Approved anecdotal role; name and deeper character open.
+### CT-PASTOR — Rev. Silas Merritt
+**Status:** Name, Abigail’s fatherhood, Sacramento mission and 1850 death supplied by the updated storyline’s CR-022 integration. Denomination remains PROPOSED in its unresolved-decision list; early locality remains OPEN.
 
-He publicly quarrels with Elias over fossil evidence, strata and the age of the earth, strikes first and suffers a broken nose when the boy retaliates. His denomination, locality and access to the trading community remain open. He must have sincere convictions and intelligible behavior rather than be merely an ignorant antagonist. His later attitude toward Elias is disputed by testimony.
+He strikes Elias during the dispute about fossils and biblical chronology and receives a broken nose. After the Thorne dispossession he shelters the widow and her son. Abigail keeps the household. In 1849 he brings a mission to Sacramento and dies in the 1850 cholera. Abigail alone reports that he told her to marry Elias. The Chronicler cannot independently establish the deathbed words or his final judgment of Elias. **Voice:** Sincere conviction rather than a stock ignorant antagonist.
 
-### CT-PASTOR-DAUGHTER — The pastor's daughter / early unreliable witness
-**Status:** Testimonial role approved; identity open.
+### CT-PASTOR-DAUGHTER — Abigail Merritt, Silas’s mother
+**Status:** Identity and family arc settled in the supplied storyline through CR-022 revision 3; the old stable ID is retained. Two years older than Elias, she tends him after his mother’s collapse following dispossession.
 
-She says years afterward that the pastor urged her to marry Elias, although the Chronicler cannot prove the statement and may not know whether she actually knew Elias. Her reasons for telling the story are meaningful in themselves. **Open:** whether she is a plausible lost love, opportunist, admirer, or someone sincerely misremembering family conversation. Do not settle her reliability merely to produce a romantic subplot.
+She feeds, mends for, reads with and scolds the boy, then seeks him out in Sacramento with her father’s 1849 mission, unmarried at twenty-seven. Only she calls him Eli. After her father’s 1850 death they become lovers. When Elias leaves for Honolulu in 1851 she discovers her pregnancy and tells Caleb alone. She marries Henry Pruett, a fellow captive from the Santa Fe expedition, and returns to Texas; Silas is born late that year, legally Pruett’s son. In 1863 Caleb brings Elias to her door with Pruett’s watch. She refuses California, accepts money only for the boy and asks unsuccessfully for Elias’s name for him.
 
----
+Her papers, family Bible and undelivered letters preserve the story that her father urged marriage to Elias; only she heard him. Her care and claim deserve independent motives. **Open:** The deathbed story’s reliability and unprovided later scenes, not whether she knew Elias or bore Silas.
 
 ## The founders and adversaries of California
 
 **CT-ALVARADO — Juan Bautista Alvarado.** Former 1836 autonomy leader, veteran statesman and Elias's baptismal godfather. He provides constitutional legitimacy and a way for Elias to become Californian while retaining a distinct concern for Californio authority. The bilingual settlement and recognition of vested rights offer a bargain with English-speaking residents, whose growing numbers also threaten the local networks he protects. **Motivation:** Protect political self-rule and local elite networks from distant capitals. **Voice:** A lawyer-politician reasoning from precedent, legal standing and the dangers of a premature crisis.
 
+**PROPOSED — CR-028:** Travels with Elias to Peña y Peña's government at Querétaro after Mexico City's fall. The December 1847 recognition and debt bargain gives his constitutional work an external counterpart. It is distinct from Vallejo's Washington mission and Hartnell's London task; none of these fictional negotiations is an actual Mexican treaty.
+
 **CT-CASTRO — José Castro.** Military leader of the revolt against Micheltorena, Elias's first Californian patron. He needs usable reconnaissance and disciplined soldiers but distrusts losing his command to civilian rivals. **Voice:** Command, terrain, personal authority, pride; not an automatically grateful patron.
+
+**PROPOSED — CR-028:** One of the small group Elias informs of the October 1847 gold discovery, with Pico and Alvarado. Knowledge of the find does not give him title to the mines or make him a member of the prospecting party.
 
 **CT-PIO-PICO — Pío Pico.** Southern Californio power broker, provisional president of the May 1846 republic. His willingness to bargain for recognition and trade can conflict with Castro's military priorities. **Voice:** Family, land, regional political agreements, the survival of his government.
 
+**PROPOSED — CR-028:** As president he requests British protection and Seymour refuses it. He is among those told of the secret October 1847 find, receives the confidential 1848 report with the Council of State and supports official silence pending the treaty exchange and mining decree. Neither British protection nor early public gold confirmation is established.
+
 **CT-ANDRES-PICO — Andrés Pico.** Military leader whose lancers defeat Kearny's forces at San Pasqual in the alternate 1846 campaign. He must receive independent credit for the victory. **Open:** precise relation to Elias's armed command and the subsequent U.S. standstill.
 
+**PROPOSED — CR-028:** Cahuenga's January 1847 standstill follows his San Pasqual victory and narrows the earlier open question over the U.S. response. Precise instruments and command arrangements remain proposed; do not turn victory into an unconditional U.S. guarantee.
+
 **CT-VALLEJO — Mariano Guadalupe Vallejo.** Influential northern Californio, pro-American internal dissenter, reluctant signatory to independence and president after the 1850 elections. His political value is that he represents a reasonable alternative to Elias's worldview. The bilingual settlement makes participation in an independent republic compatible with English-speaking commercial and constitutional expectations. Elias receives treasury power while Vallejo remains elected head of state. He supports California's institutional assent to the 1861 emergency mandate; his exact role in the enabling settlement remains open. **Voice:** Practical compromise, land, trade, law, and irritation at Elias's disproportionate influence.
+
+**PROPOSED — CR-028:** Leads the Washington mission with Pablo de la Guerra in 1847. His prior imprisonment by the Bear Flaggers and sympathy for American connections make him a credible negotiator of a republic he had hesitated to found. He initials a conditional text with Buchanan in September; the February 1848 convention secures recognition through non-alienation, naval and commercial concessions. He refuses an accession clause on the strength of Querétaro. The bargain preserves a reasonable pro-American voice rather than making him Elias's obedient envoy.
 
 **CT-SEM-YETO — Sem-Yeto, also known as Solano.** A Suisun leader with a past alliance with Vallejo. He negotiates a distinct compact rather than serving as a token delegate representing every California Native community. **Voice:** Grounded in sovereignty, routes, kinship and the physical consequences of ranchos and mining; do not ventriloquize an invented generic Indigenous spirituality. **Open:** Specific rights and obligations negotiated in 1846.
 
@@ -399,22 +433,30 @@ She says years afterward that the pastor urged her to marry Elias, although the 
 
 **CT-SLOAT — John D. Sloat.** U.S. naval commander in July 1846, wary of repeating Jones's mistaken seizure. The fictional independent republic forces a decision between orders, legal legitimacy, initiative and the risk of diplomatic escalation.
 
+**CR-028 qualification:** His July hesitation is the initial naval problem, not a permanent policy. Exact referral remains OPEN; the later Cahuenga arrangements, Washington suspension and recognition sequence remain PROPOSED. Do not backfill the decision with an actual British protectorate.
+
 **CT-STOCKTON — Robert F. Stockton.** Sloat's successor, negotiator of the proposed maritime standstill; never a mere spectator to Elias's triumph.
+
+**PROPOSED — CR-028:** The Cahuenga arrangements precede Polk's April 1847 order to observe the standstill. Local military restraint and Washington's eventual treaty acceptance are separate steps, neither foreordained by Stockton's arrival.
 
 **CT-SEYMOUR — Admiral George Seymour.** Royal Navy officer on HMS *Collingwood*, whose arrival in Monterey complicates U.S. calculations without constituting a British guarantee.
 
+**PROPOSED — CR-028:** Reaches Monterey on 16 July 1846, declines Pico's appeal for protection and observes American action under limited instructions. British witnesses raise the political cost of attack without furnishing a military guarantee. These are proposed alternate encounters, not evidence that Britain historically protected this republic.
+
 **CT-KEARNY — Stephen W. Kearny.** Professional American commander; his defeat by Andrés Pico at San Pasqual is a military event with political repercussions. Opponents must retain professional competence.
+
+**PROPOSED — CR-028:** His report reaches Washington in April 1847, helping produce a suspension while Polk continues to seek California at the peace table. San Pasqual, a local standstill and national recognition must not be collapsed into a single American surrender.
 
 ### CT-SHERMAN — William T. Sherman
 **Status:** Pacifican allegiance and wartime direction approved under CR-013; exact naturalization, office and family arrangements provisional. **Historical person:** Born 1820. His historical death in 1891 is not automatically a selected fictional endpoint.
 
 Sherman returns to independent California as a civilian banker around 1853. His historical American occupation service in California after 1846 cannot simply be retained. Household, business and civic commitments gradually make the republic home; Ellen's preferences, the children and his American family connections must materially affect the decision. His strong historical American constitutional allegiance makes this a substantial divergence, not a convenient response to a better salary.
 
-He supports lawful government during the 1856 Vigilance crisis and earns mutual professional respect with Thorne without becoming his disciple. When banking employment ends around 1857, an institutional military appointment under Vallejo keeps him in California. Permanent service and naturalization around 1857–1858 precede the war. The exact process and initial appointment remain open. He supports Kaiulani's restraint during Washoe in 1860: legitimate independence does not authorize expansion across a recognized boundary.
+He supports lawful government during the 1856 Vigilance crisis and earns mutual professional respect with Thorne without becoming his disciple. When banking employment ends around 1857, an institutional military appointment under Vallejo keeps him in California. Permanent service and naturalization around 1857–1858 precede the war. The exact process and initial appointment remain open. He supports Victoria's restraint during Washoe in 1860: legitimate independence does not authorize expansion across a recognized boundary.
 
 His proposed wartime office is Inspector-General of the Pacifican Army, responsible for readiness, training and reserves. He supports initial protection and redress for the 1861 packet affair, then challenges the widening gap between the authorization and Thorne's territorial ambitions. His work continues to supply trained soldiers to the campaign he criticizes; remaining in service does not absolve him of complicity.
 
-After Port Townsend he inspects operational failures, identifies deficiencies in reconnaissance, command, naval coordination and casualty recovery, and rejects political scapegoating of Marcus. His reports give Kaiulani evidence for conditions on emergency renewal. Specific findings and inspection scenes are working implementations, not independently fixed testimony.
+After Port Townsend he inspects operational failures, identifies deficiencies in reconnaissance, command, naval coordination and casualty recovery, and rejects political scapegoating of Marcus. His reports give Victoria evidence for conditions on emergency renewal. Specific findings and inspection scenes are working implementations, not independently fixed testimony.
 
 In 1862 he refuses the mission intended to sustain Confederate armies. Marcus accepts and travels east; Sherman remains in Pacifica. He has no Union field role at Shiloh, Chickasaw Bayou, Jackson or Vicksburg in this chronology. The earlier proposed Sherman–Marcus battlefield contest in Mississippi is superseded. Other federal officers retain agency and competence, with command assignments to be designed.
 
@@ -424,7 +466,7 @@ Sherman negotiates the spring 1871 convention with Grant, his old friend serving
 
 **Desire:** Serve an adopted country through competent institutions while preserving an allegiance he can justify. **Contradiction:** His training and discipline help execute policies he opposes. He can dispute an invasion yet favor coercive measures against resistance; he is not a uniformly modern humanitarian. **Voice:** Direct, impatient with evasions, attentive to readiness and the difference between a government's stated objective and its orders. He can defend a colleague while condemning the colleague's decision. These are character directions, not authenticated historical quotations. **POV:** Inspection, professional judgment, divided family loyalties, and the compromises of continuing service.
 
-**Relationships:** Thorne is a respected but increasingly troublesome political superior; Marcus is peer, critic and occasional ally; Kaiulani uses his professional findings but does not control his judgments. Ellen and their children have independent preferences; no separate family dossiers are invented here. **Open:** Initial Californian appointment, naturalization instrument/date, household choices and American family correspondence, final inspector-general title/powers, postwar service, death and later political legacy. Do not import his historical Union rank, campaigns or postwar command automatically.
+**Relationships:** Thorne is a respected but increasingly troublesome political superior; Marcus is peer, critic and occasional ally; Victoria uses his professional findings but does not control his judgments. Ellen and their children have independent preferences; no separate family dossiers are invented here. **Open:** Initial Californian appointment, naturalization instrument/date, household choices and American family correspondence, final inspector-general title/powers, postwar service, death and later political legacy. Do not import his historical Union rank, campaigns or postwar command automatically.
 
 **CT-HAYS — John Coffee 'Jack' Hays.** Experienced Texas ranger and military leader who commands California's volunteer intervention in the 1860 Paiute–Washoe conflict. His confidence and initiative contribute to a tactical victory but also precipitate diplomatic disaster. **Open:** Terms of his service in the Californian republic.
 
@@ -432,27 +474,33 @@ Sherman negotiates the spring 1871 convention with Grant, his old friend serving
 
 **CT-SONORAN-MINER — The Sonoran placer miner.** Experienced prospector in Elias's 1848 party. Knowledge, rights to discoveries, family interests and potential claims to profit must be as specific as Elias's. **Open:** name, biography, legal position in the mining law.
 
+**PROPOSED — CR-028:** Participates in the October 1847 reconnaissance and spring 1848 return, with Caleb and the Indigenous guide. Expertise precedes Elias's diplomatic use of the find; name and rights remain open. The original 1848 party description is not a separate discovery by a second miner.
+
 **CT-MIWOK-GUIDE — The Indigenous guide.** Familiar with the Stanislaus/Mokelumne drainage and the ground's seasonal rhythms. The character's exact people (Miwok or Yokuts), name, community, knowledge and claims remain open. Avoid treating the guide as an exotic map or a servant without agency.
 
 ---
 
+**PROPOSED — CR-028:** Keeps the October 1847 discovery secret in return for Elias's promise of a protected homeland when miners arrive. The promise makes the guide a bargaining party whose people face the consequences. It neither settles the guide's people/name nor proves that the homeland is delivered; preserve the Miwok/Yokuts identity question and independent territorial claims.
+
 ## The Hawaiian royal and political circle
 
-**CT-ALEXANDER — Alexander Liholiho / Kamehameha IV.** Political partner whom Elias meets on the 1849–50 princely tour. His humiliating experience of American racial prejudice undercuts faith in U.S. protection. On taking the throne in 1854, he negotiates limits on the California alliance and appoints Kaiulani Kuhina Nui in 1855. He authorizes Hawaiian consent through the kingdom's institutions and supports limits on emergency government. His death in November 1863 leaves Lot to inherit an unequal political alliance. **Voice:** Deliberation under pressure, royal dignity and the experience of a man who has compared empires from within.
+**CT-ALEXANDER — Alexander Liholiho / Kamehameha IV.** Political partner whom Elias meets on the 1849–50 princely tour. His humiliating experience of American racial prejudice undercuts faith in U.S. protection. On taking the throne in 1854, he negotiates limits on the California alliance and appoints his sister Victoria Kamāmalu Kuhina Nui in January 1855. He authorizes Hawaiian consent through the kingdom's institutions and supports limits on emergency government. His death in November 1863 leaves Lot to inherit an unequal political alliance. **Voice:** Deliberation under pressure, royal dignity and the experience of a man who has compared empires from within.
 
-**CT-LOT — Lot Kapuāiwa / Kamehameha V.** Elias's closest Hawaiian royal friend, attached to riding, the outdoors and the right of rulers to act decisively. The friendship begins before treaties. Lot succeeds in 1863, seeks stronger Hawaiian royal authority and retains the Kuhina Nui, judging abolition politically contentious. He bargains with Kaiulani as a continuing co-executive and supports the 1865 enabling settlement in exchange for guarantees protecting kingship, her office, local institutions and agreed revenues. His confidence in decisive government coexists with resistance to confederal encroachment; the guarantees' wording remains open. He does not live to witness the 1874 annexation, dying in December 1872 without an heir. **Voice:** Direct and stubborn, neither a Hawaiian Elias-clone nor an arbitrary obstacle.
+**CT-LOT — Lot Kapuāiwa / Kamehameha V.** Elias's closest Hawaiian royal friend, attached to riding, the outdoors and the right of rulers to act decisively. The friendship begins before treaties. Lot succeeds in 1863, seeks stronger Hawaiian royal authority and retains the Kuhina Nui, judging abolition politically contentious. He bargains with Victoria as a continuing co-executive and supports the 1865 enabling settlement in exchange for guarantees protecting kingship, her office, local institutions and agreed revenues. His confidence in decisive government coexists with resistance to confederal encroachment; the guarantees' wording remains open. He does not live to witness the 1874 lease and later illegal ordinances, dying in December 1872 with his sister Victoria designated heir under Article 22 of his 1864 constitution. **Voice:** Direct and stubborn, neither a Hawaiian Elias-clone nor an arbitrary obstacle.
 
 **CT-KAMEHAMEHA-III — Kamehameha III.** Monarch whose government considers U.S. annexation in the 1854 crisis. Elias's offer of protection without absorption helps preserve Hawaiian independence at the time. His death in December 1854 changes the diplomatic situation.
 
-**CT-EMMA — Queen Emma.** Alexander's wife from June 1856. Her own household and interests may become an important constituency after 1863 and in the 1874 succession. **Open:** precise role in the alternate election and relationship with Kaiulani.
+**CT-EMMA — Queen Emma.** Alexander’s wife from June 1856 and Anglican widow after 1863. She leads the London-oriented loyalists and becomes their counter-queen after the 1874 lease and ordinances, until her death in 1885. In 1883 she builds outside the leased Puʻuloa ground and plants banyans and two thousand coconuts at the fleet’s gate. Queen’s Hospital is her foundation; Noe nurses there in 1881 and gains loyalist patrons. After Emma’s death loyalists look to Albert Kūnuiākea. **Voice/POV:** Royal dignity, household networks, Anglican ties and a political alternative to Victoria’s bargain. She is not elected queen in this timeline.
 
-**CT-VICTORIA-KAMAMALU — Victoria Kamāmalu.** Historical incumbent of the Kuhina Nui office (1855–1863), whose path must explicitly diverge when fictional Kaiulani receives that office in 1855. She is **not** the fictional Kaiulani and must not disappear without an explanation.
+**CT-VICTORIA-KAMAMALU — Victoria Kamāmalu (retired duplicate identity).** CR-027 identifies the former fictional Kaiulani with historical Victoria. This entry is retained solely as provenance and redirects to CT-KAIULANI, the active canonical identity and holder of all existing legacy mappings. It does not represent a second woman.
 
-**CT-LUNALILO — Lunalilo.** Ruler during the 1873–1874 succession interval, following Lot's death. His brief reign sets the stage for disputed selection of the next monarch; his independent political legacy deserves treatment.
+**CT-LUNALILO — William Lunalilo.** Victoria’s childhood betrothed; her brothers block the match for rank, estates and dynastic reasons, and in 1857 she chooses Elias over both him and Kalākaua. He leads opposition to Victoria after her accession in December 1872. He never reigns in this timeline and dies on 3 February 1874. His followers’ rising in the Queen’s name follows; she refuses it. His supporters have independent fears of confederal rule, rather than serving merely as a rejected suitor’s faction.
 
-**CT-WYLLIE — Robert Crichton Wyllie.** Foreign Minister associated with the Hawaiian negotiations. With Kaiulani he works out institutional state assent, member representation and emergency limits in the 1856 Articles. He supports the Hawaiian coalition restraining escalation at Washoe in 1860. His professional diplomatic caution can recognize the danger of executive concentration even when practical interests favor stronger common institutions; his exact role in the enabling settlement remains open.
+**CT-WYLLIE — Robert Crichton Wyllie.** Foreign Minister associated with the Hawaiian negotiations. With Victoria he works out institutional state assent, member representation and emergency limits in the 1856 Articles. He supports the Hawaiian coalition restraining escalation at Washoe in 1860. His professional diplomatic caution can recognize the danger of executive concentration even when practical interests favor stronger common institutions; his exact role in the enabling settlement remains open.
 
-**CT-DAVID-KALAKAUA — David Kalākaua.** The historical Hawaiian political figure (born 1836), whose claims and supporters matter during the 1874 succession; he is *not* Kaiulani's younger nephew, as some original profiles imply. His alternate political fate after the 1874 annexation remains open. Do not treat the conquest as making him a disposable cipher.
+**CT-DAVID-KALAKAUA — David Kalākaua, mythmaker and envoy.** Historical person born in 1836, the suitor Victoria refuses in 1857. He becomes her minister of the image and envoy, never controller of the purse. He revives hula, prints genealogical chants and retells legends, including the Iron Knife as a prehistory for Japanese partnership. Suspected of a hand in the 1873 mutiny, he is made answerable for the surviving Guard; Judd later serves him. He brings nobles to the lawful Puʻuloa lease. In 1881 he tours the world for the Queen with Judd, proposes an Oceanian union and the Kaʻiulani–Komatsu match to Meiji, and is declined. Hoʻoulu Lāhui stands over the mortality figures. His book’s account of Kekuaokalani is published under the fourth Kaʻahumanu’s patronage. He dies in San Francisco in 1891; the Five’s press seat inherits his image work. **Voice:** A maker of genealogical legitimacy and foreign prestige, whose Victorianized retellings remain his versions. Not Victoria’s younger nephew and not the unresolved later officers called Kalākaua.
+
+**APPROVED — CR-029:** Carries a Polynesian compact to Malietoa Laupepa in 1886–1887 after Hawaii's 1878 Pago Pago treaty on the Confederation's behalf. Germany deports Malietoa while Pacifica is burying Elias, and no intervention follows. The failure belongs to his diplomatic career and to the succession's limits, rather than implying he reigned over Hawaii.
 
 **CT-KALAKAUA-OFFICERS — Officers called Kalākaua.** The old profiles contain colonial and later officers bearing this surname, including young officers in the Khyber and Sydney campaigns. Their family connections are unestablished, and they may be several distinct people; until identified, record their legacy profiles as an unresolved surname group rather than silently calling them David Kalākaua.
 
@@ -480,13 +528,13 @@ Earlier portraits describe a Polytechnic officer called Major Kuroda. The old vi
 **CT-KURODA-II — Fleet-General Kuroda, resolved alias provenance**
 **Status:** Retired identity shell resolved by CR-018 D5 as Kuroda Kiyoshi, CT-KIYOSHI. Preserve the ID and original-profile mappings as provenance.
 
-The current Fleet-General is Elias’s eldest son, adopted into Kuroda Kiyotaka’s house in 1886, victorious against the Baltic Fleet in 1905 and killed in Siberia in 1920. His son is CT-KURODA-SON. No India, Rangoon or Afghanistan command is retained for this alias.
+The current Fleet-General is Elias’s second son after Silas, adopted into Kuroda Kiyotaka’s house in 1886, victorious against the Baltic Fleet in 1905 and killed in Siberia in 1920. His son is CT-KURODA-SON. No India, Rangoon or Afghanistan command is retained for this alias.
 
 ---
 
 ## The state, its financiers and successive bureaucracies
 
-**CT-SCHUYLER — Cornelius Schuyler.** New York financier who becomes a fiscal power within Pacifica. He calculates credit and knows how dependence on bankers might survive military defeat. Kaiulani and Soberanes later break the autonomy of old syndicates. **Voice:** Specific interest charges, property rights, contract language and elite entitlement; capable of genuine fiscal foresight, not just bluster.
+**CT-SCHUYLER — Cornelius Schuyler.** New York financier who becomes a fiscal power within Pacifica. He calculates credit and knows how dependence on bankers might survive military defeat. Victoria and Soberanes later break the autonomy of old syndicates. **Voice:** Specific interest charges, property rights, contract language and elite entitlement; capable of genuine fiscal foresight, not just bluster.
 
 **CT-ARTHUR-SCHUYLER — Arthur Schuyler.** Younger family member disadvantaged by the supposedly impartial examination system. Useful demonstration that the state can both attack inherited privilege and reproduce arbitrary institutional cruelty. **Open:** exactly which Schuyler generation and place in the revised 1880s.
 
@@ -502,7 +550,7 @@ A senior official working with imperial accounts and financial institutions. Jul
 
 **CT-HOSHINO-HANKOW — Hoshino, officer killed in Hankow.** Junior prefect killed during unrest. Potential ancestor of a younger auditing generation. **Open:** relationship to other Hoshinos.
 
-**CT-HOSHINO-AUDITOR — Hoshino, younger imperial auditor.** Serves Kaiulani and later works in Siberian audits. His death reveals limits of loyalty to an institution that cannot account for its violence.
+**CT-HOSHINO-AUDITOR — Hoshino, younger imperial auditor.** Serves Victoria and later works in Siberian audits. His death reveals limits of loyalty to an institution that cannot account for its violence.
 
 **CT-HOSHINO-REBEL — Lieutenant-Assessor Hoshino.** Elite naval officer found among the revolutionary divers beneath San Francisco. His defection is evidence that the bureaucratic peerage has divided against itself. **Open:** degree of family kinship with the other Hoshinos; never conflate merely because of surname.
 
@@ -576,12 +624,12 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
 
 ## Relationship and identity safeguards
 
-### Thorne–Kaiulani dynastic core
-- Elias + Kaiulani: **married February 1857**; one legitimate son, dead in the later 1870s.
-- Elias + other women: offspring exist, including potential rival claimants Silas and Kiyoshi, **exact genealogy open**.
+### Thorne–Victoria dynastic core
+- Elias + Victoria: **married November 1858**; one legitimate son, dead in the later 1870s.
+- Elias + other women: Silas is the eldest (1851, Abigail Merritt); Kiyoshi is second (1859, Satsuma mother), conceived before the 1858 wedding. Maternal biography and further unprovided genealogy retain their labels.
 - Elias + Kaʻanoe Ward: Julian born and adopted hānai in 1886 by a negotiated bargain; Noe’s official typhoid death in autumn 1888 is contested and no culprit is proved.
-- Julian + Kaiulani: hānai mother–son affection, political opposition over the Altai and independent brokerage of the 1928 Concord cure and 1932 Lands and Waters Charter.
-- Lost Kalanimoku is Elias and Kaiulani’s child. Kahekili / Ikazuchi is Julian and Chiyo’s heir, future Kamehameha VII; the former 1914 Emperor Kalanimoku remains retired provenance.
+- Julian + Victoria: hānai mother–son affection, political opposition over the Altai and independent brokerage of the 1928 Concord cure and 1932 Lands and Waters Charter.
+- Lost Kalanimoku is Elias and Victoria’s child. Kahekili / Ikazuchi is Julian and Chiyo’s heir, future Kamehameha VII; the former 1914 Emperor Kalanimoku remains retired provenance.
 - **Never** attach the name Silas to Elias's father and his later possible son without separate IDs.
 
 ### Vance kinship
@@ -597,7 +645,7 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
 - Shen: multiple generations, exact individual aliases and descent unresolved.
 - Hoshino: at least four role-defined people, kinship unresolved.
 - Kalākaua: historic David and invented officers require disambiguation.
-- Kaiulani is fictional and cannot be equated with Victoria Kamāmalu or historical Victoria Kaʻiulani.
+- Victoria is historical Kamāmalu, not a fictional cousin. Historical Princess Kaʻiulani (1875) is a separate minor figure. CT-VICTORIA-KAMAMALU redirects to active CT-KAIULANI.
 - Manjirō and Hikozō are distinct real Japanese castaways whose careers diverge from historical events.
 
 ### Perspective allocation
@@ -605,7 +653,7 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
 | Perspective | Material they uniquely perceive | What they tend to miss |
 |---|---|---|
 | Elias | Terrain, human cooperation, technical possibilities, the cost of dependence | Consent and local identities that survive administration |
-| Kaiulani | Legal obligations, court alliances, dynastic threats, the human meanings of sovereignty | Her own complicity and sometimes the autonomy of the young |
+| Victoria | Legal obligations, court alliances, dynastic threats, the human meanings of sovereignty | Her own complicity and sometimes the autonomy of the young |
 | Caleb | Hardship, the character of comrades, informal loyalties | Abstract administrative systems beyond immediate effects |
 | Marcus I | Tactical terrain, campaign supply, competent enemy officers | Private costs of an increasingly permanent war |
 | Sherman | Readiness, institutional obligations and the gap between orders and declared aims | The eastern mission's daily experience and his own complicity through continued service |
@@ -624,11 +672,11 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
 
 ## Decisions requiring authorial resolution before the full rewrite
 
-1. Name, background and genuine rank of the Napoleonic mentor; pastor and daughter.
-2. Lost Kalanimoku’s age, preferences, accident and the medical consequences for Kaiulani; the child’s name and identity are settled.
+1. Name, background and genuine rank of the Napoleonic mentor. CR-022 identifies Rev. Silas Merritt and Abigail; denomination/locality and testimonial reliability retain their qualifications.
+2. Lost Kalanimoku’s age, preferences, accident and the medical consequences for Victoria; the child’s name and identity are settled.
 3. Resolved by CR-021 F1: Kaʻanoe Ward’s identity, medical career, hānai bargain and official autumn 1888 typhoid death; responsibility and the authenticity of conflicting evidence remain unproved.
-4. Julian's upbringing, relationship with Kaiulani and political formation; his direct succession in 1915 is settled.
-5. Silas’s mother/date and possible other heirs; Kiyoshi’s seniority, Satsuma maternal origin and 1887 leadership are settled, while the Uehara names and 1859 date remain proposed.
+4. Julian's upbringing, relationship with Victoria and political formation; his direct succession in 1915 is settled.
+5. CR-022 settles Silas’s mother Abigail Merritt, late-1851 birth and Donner responsibility. Kiyoshi is second, conceived spring 1858; his 1859 birth is approved by CR-027 A7; Uehara maternal biography and early service retain their proposal labels. When Victoria learns of Kiyoshi remains OPEN-027-01.
 6. Resolved: lost Kalanimoku, Kahekili / Ikazuchi and the retired 1914 Emperor identity are distinct. No new child is created by renaming the heir.
 7. Caleb's relationship to Marcus I and full Vance pedigree.
 8. Whether the early artillery lieutenant Takashima is the later Admiral/Marquis, and exact Kuroda genealogy.
@@ -636,8 +684,8 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
 10. Whether Dao is female or male, has used an assumed identity, or the prior pronoun discrepancy was an error.
 11. Chronicler birth year, witnessing credentials and documentary reliability.
 12. Named Sonoran miner and Indigenous prospecting guide and their enforceable rights.
-13. Political and family roles for Queen Emma, Victoria Kamāmalu and the 1874 Hawaiian court.
-14. Kaiulani's final scenes and later fate beyond 1932; her surviving Hawaiian retirement and Lands and Waters brokerage are settled.
+13. CR-027 settles Victoria’s identity, Emma’s loyalist role and the 1874 lease versus later ordinances. Scene-level court coalitions, proposed instruments and the six OPEN-027 items remain qualified.
+14. Victoria's final scenes and later fate beyond 1932; her surviving Hawaiian retirement and Lands and Waters brokerage are settled.
 15. Sherman's exact naturalization, institutional appointment, family choices and postwar career; Pacifican allegiance and refusal of the Confederate mission are settled in direction.
 16. Logan Turner's age, migration and precise apprenticeship, mission details, later businesses and fate; Ericsson mentorship is accepted in direction; do not treat a potential business empire as an approved completed career.
 17. Marcus I's eastern mission authority, deputy, route and evacuation mechanics; the army remains under Confederate command.
@@ -653,13 +701,15 @@ These entries provide stable identities for people newly given causal roles by C
 ### CT-FONG — Edmund Fong Kai-ming (方啟明)
 **Status:** Approved fictional identity and loyalty crisis (CR-015 C3). **Born:** 1859, San Francisco, to a Taishan merchant family. **Service:** Pacifican customs officer from 1878; named Inspectorate figure in the working 1885 succession. Exact appointment machinery remains proposed.
 
-Fong's two names carry a divided allegiance inside one official. His Pacifican citizenship and professional obligation to Chinese revenue are compatible while the states cooperate; Kaiulani's support for Japan in 1894 forces him to decide what evenhanded collection means. Formosa's Chinese sovereignty and Pacifican revenue administration bring that question into the accounts he handles. Neither his surname nor his birthplace establishes mixed ancestry; parentage beyond the approved family description remains open.
+Fong's two names carry a divided allegiance inside one official. His Pacifican citizenship and professional obligation to Chinese revenue are compatible while the states cooperate; Victoria's support for Japan in 1894 forces him to decide what evenhanded collection means. Formosa's Chinese sovereignty and Pacifican revenue administration bring that question into the accounts he handles. Neither his surname nor his birthplace establishes mixed ancestry; parentage beyond the approved family description remains open.
 
 **Proposed dramatic objective:** Preserve accounts and staff that every trading nation can trust. **Proposed contradiction:** A technically honest revenue service can still bind its sovereign to foreign creditors. **Proposed voice/POV:** Precise distinctions among receipts, pledges and appointments; changes of address and language register private pressures rather than functioning as an ethnic speech device. His loyalties, choices and consequences require scenes, not a predetermined betrayal.
 
-**Relationships:** Kaiulani is the Pacifican political authority whose 1894 policy creates his crisis; Li Hongzhang is the proposed appointment sponsor. **Open:** Full parentage, household, education, advancement, safeguards for a twenty-six-year-old appointee in 1885, exact powers, decisions in 1894 and later fate.
+**Relationships:** Victoria is the Pacifican political authority whose 1894 policy creates his crisis; Li Hongzhang is the proposed appointment sponsor. **Open:** Full parentage, household, education, advancement, safeguards for a twenty-six-year-old appointee in 1885, exact powers, decisions in 1894 and later fate.
 
 **CR-021 Formosa:** The 1895 Revenue Convention gives a Pacifican Director-General a Chinese commission over camphor, Keelung mines, customs and the harbour trust; China retains civil government and other taxes. The Inspectorate helps finance the 1906 Chinese technical university, whose graduates become China's own officials and nationalists. In 1928–1929 the Inspectorate returns, the school becomes a joint Sino-Pacifican foundation and the revenue administration becomes a Concord affair with a Japanese deputy, both officers commissioned by China. His dilemma includes financing the elite that will demand an end to foreign administration; he is not automatically the Formosan Director-General.
+
+**CR-031, Chinese settlement:** The Harbin articles recover Russia's extraterritorial rights, concessions and Boxer share for China, send the indemnity to schools, provide Amur navigation to the sea and return improved Manchurian railway management to Chinese hands. These detailed articles remain PROPOSED in the supplied treaty passage. They strengthen Chinese bargaining power without making the Pacifican Inspectorate Chinese sovereignty or making Fong the unprovided signer of Harbin.
 
 **CT-MCCLELLAN — George B. McClellan.** Historical Union general; proposed winner of the 1864 election following the approved Lincoln defeat. His executive armistices in March–June 1865 and reception of a Confederate envoy are proposed mechanics. He wants Union and must explain accepting separation; neither the Democratic peace plank nor election alone supplies his mandate. Exact electoral map, negotiations and later career remain open.
 
@@ -680,7 +730,7 @@ Historical Navy Secretary and gold Democrat; elected Union president in November
 
 **CT-KURODA-KIYOTAKA — Kuroda Kiyotaka.** Historical Meiji official and northern-development anchor. Proposed Hokkaido advisers from Pacifica connect the early alliance to Russia; he sides with the government in the Satsuma Rebellion. CR-015 makes him a founding figure of the later Kuroda line, but the genealogical path and any identity with an older fictional officer remain open. Keep him distinct from CT-KURODA-I and CT-KURODA-II pending resolution.
 
-**CT-ESTRADA-PALMA — Tomás Estrada Palma.** Historical Cuban leader selected as independent Cuba's first president. His exile junta operates from New Orleans in the alternate sequence, and his dependence inclines toward Pacifica. The joint guarantee constrains intervention by every patron. Exact inauguration date, election, independent aims and debt agreement remain open or proposed; do not assume he serves only Kaiulani's wishes.
+**CT-ESTRADA-PALMA — Tomás Estrada Palma.** Historical Cuban leader selected as independent Cuba's first president. His exile junta operates from New Orleans in the alternate sequence, and his dependence inclines toward Pacifica. The joint guarantee constrains intervention by every patron. Exact inauguration date, election, independent aims and debt agreement remain open or proposed; do not assume he serves only Victoria's wishes.
 
 ## Retired identity retained for legacy traceability
 
@@ -698,7 +748,7 @@ Whenever a major change request is approved: revise relevant **character arcs, r
 ## New dynastic and international figures under CR-018 and CR-019
 
 ### CT-KALANIMOKU-HEIR — Kahekili / Ikazuchi, heir and future Kamehameha VII
-**Status:** Name, Japanese rendering, dynastic role and future Hawaiian regnal style approved by CR-021 revision 9. **Born:** c.1916 remains a working date. Son of Julian and Chiyo, distinct from Elias and Kaiulani's lost Kalanimoku.
+**Status:** Name, Japanese rendering, dynastic role and future Hawaiian regnal style approved by CR-021 revision 9. **Born:** c.1916 remains a working date. Son of Julian and Chiyo, distinct from Elias and Victoria's lost Kalanimoku.
 
 Kahekili honors Noe Ward's Maui line. Chiyo's family gives the meaning 雷, Ikazuchi, as his Japanese name. He grows up speaking Hawaiian, English and Japanese and will reign in Hawaii as Kamehameha VII after his father's Kamehameha VI. His mother is kazoku, not of the Japanese imperial succession; Japan's law excludes him and the crowns do not merge.
 
@@ -707,8 +757,13 @@ His betrothal to a princess of a collateral imperial house gives the Concord a l
 ### CT-KURODA-SON — Kiyoshi’s son, the next Kuroda generation
 **Status:** Lineage and fleet-loyalty role approved by CR-018 D5/I6. Kiyoshi’s son and Elias’s grandson keeps the fleet’s Japanese units with the common government in May 1932. He is distinct from Kiyoshi’s resolved Fleet-General alias and from Julian’s son Kahekili. **Open:** Name, age, mother, career and personal motives. CR-021’s 1932 renewal ends the naval party’s reserved-squadron arrangement as overseas command becomes common; the Navy ministry is then part of the bargain.
 
+
+He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1913 bid: a fleet cannot make a sovereign. Kiyoshi’s branch is distinct from the main house held by Kiyonaka.
+
 ### CT-TAKAHASHI — Takahashi Korekiyo
 **Status:** Historical person; alternate partnership and detailed incidents PROPOSED under CR-018 D4 and CR-019. Raises Japanese war loans in San Francisco in 1904–1905 and becomes Tokyo’s financial partner for Thalassia. In the 1927 crisis he and Chiyo negotiate the Concord; in 1931 he receives Julian’s threat through her. His actual California experience is a source-supplied historical anchor, not independent proof of these events. **Open:** Agreements, personal exchanges and changed political fate. CR-020 B14 makes San Francisco’s provision of Japan’s 1927 crisis borrowing decisive; the rescue scales with Japan’s richer economy. Amounts and debt ratios remain MODEL estimates. Gold parity later aggravates rural distress until the adjustable 1932 order. CR-021 approves his three-week moratorium in April 1927 as the time the bargain needs. He stays in Tokyo and is not assigned the common Finance ministry.
+
+**CR-024–CR-025, current model:** The three-week moratorium separates Japanese recapitalization and secured yen liquidity from an external payments shortage. Japan uses its own capital and Bank of Japan money; Julian's public/private San Francisco credit supplies foreign exchange. The supplied model estimates approximately $400m replacement capital, $295m BOJ liquidity and $497m foreign drawing within $600m committed. These are MODEL estimates, not Takahashi's historical accounts, and do not establish a new common-minister appointment for him.
 
 ### CT-SUN-YAT-SEN — Sun Yat-sen
 **Status:** Pacifican backing and Qing fall approved; particular exile, funding and academy mechanics proposed. The Honolulu-educated revolutionary loses his initial struggle to Yuan, builds his Canton movement with Pacifican help and dies in 1925. Chiang succeeds him. Pacifica’s concurrent work with Zhang Zuolin for Siberia remains a visible contradiction.
@@ -718,6 +773,8 @@ His betrothal to a princess of a collateral imperial house gives the Concord a l
 
 ### CT-ZHANG-ZUOLIN — Zhang Zuolin
 **Status:** Manchurian role and 1928 assassination retained; Siberian cooperation and corridor motive proposed. The Fengtian leader supplies coalition manpower and rail access while Pacifica separately backs Sun. Japanese officers kill him in June 1928; his son succeeds in Manchuria. He is not Sun’s successor.
+
+**CR-030–CR-031:** His cooperation sustains the Chinese-owned Manchurian route whose capacity limits the coalition far behind the Ob. Japanese running rights and wartime railway administration are distinct from territorial title. The later Harbin Chinese articles are proposed; no new personal treaty commission is inferred.
 
 ### CT-ZHANG-XUELIANG — Zhang Xueliang
 **Status:** Holds Manchuria after his father’s assassination, approved by CR-018 A18. Brings Manchuria into the Nationalist state, with railway sovereignty and alliance obligations. **[PROPOSED]** Hostility to his father’s killers and dependence on the Ob coalition make Julian’s restraint valuable; the 1929 Soviet probe becomes a coalition victory.
@@ -760,11 +817,20 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 ### CT-TESLA — Nikola Tesla
 **Status:** Historical person redirected to Pacifica by CR-020 B9/E11. Arrives in San Francisco in 1884 and works within the electrical programme, including the institute established in 1886. Polyphase AC patents and the national standard connect his research with the champions. The Polytechnic offers laboratories and citizenship for chairs without national or religious tests. **Open:** Exact appointment, citizenship instrument, contracts, collaborators, private motives and changed later life. His alternate inventions and relationships must develop through work rather than historical name recognition alone.
 
+
+**APPROVED — CR-027:** One of the Five in 1887, holding the power seat. Steinmetz as later successor is PROPOSED.
+
 ### CT-STEINMETZ — Charles Steinmetz
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
 
+
+**PROPOSED — CR-027:** Later successor to the Five’s power seat; his 1889 arrival remains independently approved.
+
 ### CT-BAEKELAND — Leo Baekeland
 **Status:** Historical person redirected to Polytechnic chemistry in 1889 under CR-020 B9/E11. Photographic paper and the later plastics programme connect the university to film and chemicals; Bakelite in 1907 is the approved programme's named milestone. **Open:** Appointment, patent agreements, collaborators, private motives and changed later career.
+
+
+**PROPOSED — CR-027:** A later successor among the Five as the realm’s needs change; precise tenure and portfolio are not settled.
 
 ### CT-HUEY-LONG — Huey Long, Gulf examination-franchise opponent
 **Status:** Historical person in an approved alternate Gulf role under CR-020 B5. He attacks the examination franchise as an assault on the common white voter and loses. His constituency has its own political demands within the sovereign Gulf Republic; Pacifica's admission standards threaten planter power and local political machines. **Open:** Campaign date, office held, personal alliances and scene-level outcome. His opposition does not imply that the Gulf is admitted by 1932.
@@ -782,6 +848,8 @@ Julian's arrival with fleet relief and reconstruction credit after the 1923 eart
 In 1927 he follows Saionji's counsel and accepts the Concord on Julian's Japanese word: no lender offers equivalent rescue, and a fallen cabinet could expose the throne to the army. Privy Council conditions and Diet funding protect Japan's legal position. He retains crown, domestic institutions and the right to refuse renewal. At the annual Hayama Council from 1928 he hosts as Emperor while Julian convenes and presides; his brother Prince Chichibu represents him at Thalassia, with a Pacifican education, honors and outdoorsman reputation that make the alignment personal. In May 1932 he opposes officers claiming to restore his direct rule, choosing the constitutional arrangement and his friend. The crowns agree renewal at Hayama; ministers sign and exchange instruments at Thalassia. He does not travel there, and renewal lasts only to 1937.
 
 **Desire:** Preserve the throne and Japan's freedom within a viable constitutional order. **Contradiction:** Protecting the crown through restraint and foreign trust exposes him to loyalists invoking his own authority against him. **Voice/POV:** Cautious court language loosening around specimens and shared work; knowledge of concealed Pacifican crimes must not be invented. **Open:** Specific private exchanges, scientific scenes and unprovided domestic details; the Council never requires him to sail to Thalassia.
+
+**CR-029–CR-031 limits:** Julian's Realm, Hawaiian and Philippine crowns form one Concord party opposite Japan's crown; their internal council is not another Japanese vote. The proposed Kamchatka Resident and Company belong to Japan's protected northern sphere, while Siberian commercial passage and Chinese railway rights constrain the settlement. No personal approval of particular camps, labour papers or the Altai crime is assigned to Hirohito by these institutional arrangements.
 
 ### CT-NAGAKO — Nagako, empress and Chiyo’s confidante
 **Status:** Historical person with an approved alternate household relationship under CR-021 F. Marries Hirohito in January 1924 after the earthquake postponement. Chiyo becomes her confidante, extending Julian and Hirohito's connection into their households. **Open:** Particular conversations, private aims, disagreements and scope of political knowledge. Friendship supplies no knowledge of the Altai secret or automatic authority in common government.
@@ -802,3 +870,230 @@ At Thalassia he represents Hirohito between the annual Hayama Councils and sits 
 His enjoyment of the outdoors is real, even when court publicity turns it into evidence for the Concord. Restoration officers can attack a prince of their own house who has made friendships and a public life in the realm they call a foreign bakufu. He wants competence and freedom in the field while bearing a representative’s rank and obligations at court.
 
 **Desire:** Earn recognition through useful experience and field competence while representing Japan with dignity. **Contradiction:** A freely chosen Pacifican life becomes a political image others want to control. **Voice/POV:** Attentive to routes, weather, pace, companions and local knowledge; formality returns when he represents his brother. Guides and companions have agency beyond serving a prince’s reputation. **Open:** Particular decorations, climbs, companions, private exchanges and unprovided appointment dates; the resident identity, Pacifican orientation and career direction are settled.
+
+## CR-027 — Additional Hawaiian figures and proposed estate personnel
+
+Historical people’s Pacifican acts below are fictional. PROPOSED membership is not an appointment.
+
+### CT-RUTH-KEELIKOLANI — Ruth Keʻelikōlani
+**Status:** approved_alternate_role (CR-027).
+
+Victoria’s half-sister, a major landholder and governor of Hawaiʻi island, speaks no English and keeps the old ways. Victoria appoints her Kuhina Nui on accession in 1872. She countersigns the lawful Puʻuloa lease, then refuses the appointed Territorial Council and resigns; the office remains vacant. Victoria retains her own estate, so Ruth’s eventual holdings are smaller than in history. Exact instrument dates remain PROPOSED under CR-027 A13.
+
+### CT-ALBERT-KUNUIAKEA — Albert Kūnuiākea
+**Status:** approved_alternate_role (CR-027).
+
+After Emma dies in 1885, Hawaiian loyalists look to her cousin and heir Albert, widely understood to be Kamehameha III’s unacknowledged natural son. He has squandered his inheritance. He represents a continuing loyalist alternative to Victoria’s bargain; no reign or successful revolt is supplied.
+
+### CT-CHARLES-JUDD — Colonel Charles Judd
+**Status:** approved_alternate_role (CR-027).
+
+A missionary’s son and Victoria’s Royal School schoolmate, adjutant general during the September 1873 Guard mutiny. Victoria dismisses him along with Jajczay on the first day. Sacrificed by his own party’s Queen, he attaches himself to Kalākaua and accompanies the 1881 world tour as chamberlain.
+
+### CT-JOZSEF-JAJCZAY — Captain József Jajczay
+**Status:** approved_alternate_role (CR-027).
+
+Hungarian veteran of the hussars who escorted Maximilian to Mexico, hired by Lot to drill a Guard independent of Monterey’s academy. His imprisonment of four soldiers for deserting the treasury post triggers the September 1873 mutiny. Victoria dismisses him; he leaves the islands and dies in Costa Rica in 1874. The first-day resolution and retained Guard are alternate history.
+
+### CT-WILLIAM-MOEHONUA — Major William Moehonua
+**Status:** approved_alternate_role (CR-027).
+
+Victoria gives him command of the Queen’s Guard after dismissing Jajczay and Judd in September 1873. He commands the force whose oath she takes again herself; the Guard survives and remains in barracks during the February 1874 rising.
+
+### CT-KAIULANI-CLEGHORN — Princess Kaʻiulani of the Cleghorn household
+**Status:** approved_minor_historical_identity (CR-027).
+
+The historical princess born in 1875, a minor figure in the Cleghorn household and Kalākaua’s niece. In his 1881 mission he proposes her marriage to Prince Komatsu as part of an Oceanian union; Meiji declines. Distinct from Victoria Kamāmalu (CT-KAIULANI), born in 1838. The ʻokina distinguishes her name in CR-027.
+
+### CT-HERMAN-HOLLERITH — Herman Hollerith
+**Status:** proposed_five_member (CR-027).
+
+PROPOSED — CR-027 A22/B6: Measures and tabulation seat among the Five in 1887; punched cards tabulate Noe’s registers from 1888. His appointment and chronology remain proposals. The Office measures; the press seat publishes. No other invented biography is supplied.
+
+### CT-WILLIAM-RANDOLPH-HEARST — William Randolph Hearst
+**Status:** proposed_five_member (CR-027).
+
+PROPOSED — CR-027 A22/B6: Press and image seat in 1887, with the Examiner and six-language weekly. He wants spectacle but must print the Office’s tables unchanged. He may dramatize Union failures. The role, nickname and proposed interactions remain proposals; the seat’s publishing function is approved.
+
+### CT-WKL-DICKSON — W. K. L. Dickson
+**Status:** proposed_five_collaborator (CR-027).
+
+PROPOSED — CR-027 A22/B6: Recruited from Edison to provide film for the Five’s press and image operation from 1895. This is work within the press seat, not a sixth seat. Recruitment and date remain proposed.
+
+### CT-DOHENY — Doheny, proposed oil successor
+**Status:** proposed_five_successor (CR-027).
+
+PROPOSED — CR-027 B6: Later oil successor to Turner’s industrial seat. Specific appointment, tenure and scenes remain unchosen. The source names Doheny without an approved detailed biography.
+
+### CT-GIANNINI — Giannini, proposed successor
+**Status:** proposed_five_successor (CR-027).
+
+PROPOSED — CR-027 B6: Among later successors as the realm’s needs change. Exact identity details, seat, date and career are unprovided; no appointment is approved by inclusion here.
+
+### CT-MONTGOMERY — Montgomery, proposed successor
+**Status:** proposed_identity_unresolved (CR-027).
+
+PROPOSED — CR-027 B6: A surname among possible later successors. Given name, historical identification, portfolio and tenure are OPEN; do not infer a specific Montgomery biography.
+
+## The Five — institutional arrangement (CR-027)
+
+There are always five seats: Polytechnic and General Staff; naval construction/heavy industry/champions; power; measures/tabulation; press/image. The approved 1887 holders are Soberanes, Turner and Tesla. Hollerith and Hearst, Dickson’s work within the press seat, the later successors and the nickname nā Kahuna are PROPOSED. Marcus Vance III’s succession after 1915 is supplied by the updated storyline. The Crown leaves charters, appointments and the Development Fund untouched; the estates never oppose the Crown or let a faction capture them. Donner holds the arrangement in 1887, Kiyoshi’s bid tests neutrality in 1913, the Senate quarrel strains it in 1915–1917, and the false Altai report breaks it in 1921. The successors’ choice matters in 1932. Measurement belongs to the Office and Polytechnic; publication belongs to the press seat.
+
+
+
+## CR-028–CR-031 — diplomatic, Philippine and Siberian participants
+
+These are historical people placed in alternate careers. Status labels describe the supplied storyline, not independent verification of those careers. No original 250-profile identity is reassigned. The additional dossiers preserve named participants rather than attributing their work to Elias or Julian.
+
+### CT-PABLO-DE-LA-GUERRA — Pablo de la Guerra
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED Washington envoy with Vallejo in 1847; an independent Californio participant in bargaining over naval access, commerce and the republic's standing. Do not confuse him with another de la Guerra generation or invent the terms of his instructions.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-WILLIAM-HARTNELL — William Hartnell
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+Signatory named in the 1846 founding narrative. Under the PROPOSED December 1847 debt mechanism he carries the Querétaro convention to London for bondholders' consent. Creditor consent is not a transfer of land rights, and his mission is distinct from the Washington envoys'.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JAMES-POLK — James K. Polk
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED antagonist in the 1847–1848 recognition sequence. He orders observation of Cahuenga while Trist still seeks California, diverts Stevenson's regiment, then accepts a treaty under domestic and military constraints. He expects eventual accession rather than becoming an advocate of California's permanent independence. His fictional diary consolation is not an authenticated quotation.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JAMES-BUCHANAN — James Buchanan
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED negotiator of the conditional September 1847 text and February 1848 Buchanan–Vallejo Convention. He seeks non-alienation, naval access, commerce and an accession clause; California refuses the last and a U.S. guarantee. Distinguish his offer from a guarantee actually accepted.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-NICHOLAS-TRIST — Nicholas Trist
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+Historical diplomat used in a PROPOSED alternate peace. Recalled but continuing negotiations, he faces a California Mexico has already recognized. His fictional treaty preserves the republic rather than ceding historical California; the actual 1848 treaty is a comparator, not this instrument.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-PENA-Y-PENA — Manuel de la Peña y Peña
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+His Mexican government receives Alvarado and Elias under the PROPOSED Querétaro mechanism. Recognition and approximately £3m of assumed obligations give it money and a defensible account of peace. Do not turn the working debt valuation into a settled amount or land purchased from bondholders.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-THOMAS-HART-BENTON — Thomas Hart Benton
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED critic of the recognition bargain, using the Gillespie papers and calling it the Trist surrender. His resistance supplies a continuing American alternative to waiting for accession. The phrase is authored dialogue, not a sourced historical quotation.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-THOMAS-LARKIN — Thomas O. Larkin
+
+**Status:** Historical person in alternate history; CR-028, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED first American chargé to the independent republic, bringing the ratified convention to Monterey in June 1848. He is an interlocutor during official gold silence, not evidence that the public gold rush has already been announced.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JUAN-PRIM — Juan Prim
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED refusal of Elias's confidential 1869–1870 Philippine offer; he keeps a channel open until his assassination closes it. National prestige and his own political reputation matter independently of Elias's finances. He is not the statesman who sells the islands in 1876.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JUAN-ALAMINOS — Juan Alaminos
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+Under the PROPOSED August 1873 Manila Bay action, the Governor-General signs a local convention for indemnity, release of the crew and an anchorage. That convention is not the 1876 sale or a Pacifican landing. His detailed conduct is fictional.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-FRANCISCO-SERRANO — Francisco Serrano
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+His Republic's APPROVED 1874 borrowing pledges Philippine customs and tobacco revenues while Pacifican agents enter the customs houses. The Restoration inherits its obligations. A loan and subsequent purchase are separate transactions, not two full purchase prices.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-CANOVAS — Antonio Cánovas del Castillo
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED broker of the 1876 statutory sale after the Carlist victory, presenting it as liquidation of the Republic's debt to preserve Cuba. Pacifica's non-recognition and port restrictions for Cuban insurgents are part of the moral bargain. Parliamentary authorization and the Redemption Loan matter to the sale.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-ROMUALDO-PACHECO — Romualdo Pacheco
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED Governor-General from Sacramento to Manila after the 1876 purchase, schooled in Honolulu and forty-four in the supplied narrative. A Philippine Council and continuing Spanish law constrain his office. His hostility to Chinese merchants brings him into conflict with Elias's protection; municipal public health and office examinations do not make him an uncritical liberal benefactor. His governorship is alternate history.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JOSE-RIZAL — José Rizal
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED physician turned critic by the land board's Calamba evictions in 1890–1891. His 1892 Liga brings elected provincial juntas; he refuses to endorse the excluded artisans' 1896 rising. New Calamba's self-government in Borneo does not erase the original evictions. This alternate political course does not import his historical execution automatically.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-FELIPE-CALDERON — Felipe Calderón
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+APPROVED advocate defending the accused after the 1896 rising; the Regent commutes their sentences. His later organic law provides the Philippine crown with a single-chamber Cortes, permanent commission, budget, army and provincial governors. He carries a Filipino constitutional perspective; do not make a bishop the source of Julian's Manila title.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-MALIETOA-LAUPEPA — Malietoa Laupepa
+
+**Status:** Historical person in alternate history; CR-029, as embodied in the supplied master of 23 October 2026.
+
+Receives Kalākaua's Polynesian compact in the APPROVED 1886–1887 sequence. Germany deports him and installs Tamasese while Pacifica does not answer. His Samoan authority is distinct from the later tripartite protecting powers and the 1899 transfer of Tutuila.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-PYOTR-VOLOGODSKY — Pyotr Vologodsky
+
+**Status:** Historical person in alternate history; CR-030, as embodied in the supplied master of 23 October 2026.
+
+Initially heads the Siberian Regionalist partner in the coalition's westward campaign, as embodied in the supplied storyline. He represents an independent Siberian political project rather than Kolchak's all-Russian ambition. No presidency for the entire 1921–1932 period, signature at Harbin or invented biography follows from this initial role.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-GRIGORY-SEMENOV — Grigory Semenov
+
+**Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED ataman obstructing railway traffic and using terror at the Chita junction. In summer 1919 Tokyo stops his subsidy and the Transbaikal Cossack circle votes him out with a Japanese diplomat present. He leaves for Dairen on a Japanese pension. The later Transbaikal Council and civilian Resident are not his personal dictatorship; the unnamed decorated officer who moves the vote remains unnamed.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-VASILY-NIKIFOROV — Vasily Nikiforov
+
+**Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.
+
+PROPOSED leader of Yakutia's committees and the 1919 assembly in the supplied storyline, which associates him with the 1906 Union of Yakuts and imprisonment. The 1922 Sakha land keeps assembly, language, communal land and Okhotsk access. These historical biographical anchors await dedicated primary-source checking; his role does not authorize him to speak for all northern peoples or supply an invented later career.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+

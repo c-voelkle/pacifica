@@ -1,16 +1,27 @@
+# Current revision — 23 October 2026
+
+Read [the master storyline](master_storyline.md), supplied through CR-031 and preserved byte-for-byte. The [integration record](CR-031-integration.md), [character bible](character_bible.md), [identity registry](character_registry.json), [historical background](historical_background.md) and [financial review](../../finance/CR-031-review.md) describe this revision.
+
+CR-028 narrows the recognition bargain while retaining proposed mechanics. CR-029 revises the Philippine/island sequence and three-crown settlement. CR-030 adds the railway operating schedule; CR-031 supersedes the all-Siberian northern destination. Missing standalone CRs have clearly marked excerpt records, not invented originals. The original CR-027 attachment and earlier CR sources remain unchanged.
+
+The notes below describe earlier integration stages; current source precedence and financial references above govern where they differ.
+
+---
+
 # Pacifica revision workspace
 
-**Updated:** 20 October 2026. The [master storyline](master_storyline.md) incorporates [CR-021 revision 9](CR-021.md) after CR-020: Constitution of the Realm and counties, restored Hawaiian crown, Pacific Concord, Noe Ward, Kahekili / Ikazuchi and Julian–Hirohito’s relationship. Keawe’s Lands and Waters Charter and the Gulf’s challenge remain.
+**Updated:** 21 October 2026. The [master storyline](master_storyline.md) now follows [CR-027](CR-027.md): historical Victoria Kamāmalu, the legal Puʻuloa lease, illegal later ordinances, continuous Hawaiian crown and the Five. The supplied master also embodies CR-022 and CR-024–CR-026; [dependency excerpts](dependency_decisions_211026.md) preserve those decisions without reconstructing the missing standalone sources. CR-021 revision 9 remains authoritative elsewhere.
 
 ## Current documents
 
 - [Master storyline](master_storyline.md) — primary narrative review copy, with **[PROPOSED]** and **[OPEN]** qualifications.
+- [CR-027](CR-027.md) and [integration record](CR-027-integration.md) — approved storyline and Section E reconciliation; proposed details remain qualified.
 - [CR-021 revision 9](CR-021.md) — approved constitutional record; [revision-9 report](../../outputs/CR-021-revision9/integration_report.md), author decisions, differences and verification.
 - [CR-020](CR-020.md) — approved record; [integration report](../../outputs/CR-020/integration_report.md), final precedence decisions, review differences and verification.
 - [CR-018](CR-018.md) and [CR-019](CR-019.md) — working records with source labels preserved. CR-018 incorporates the never-separately-merged CR-017.
 - [Sequential integration report](../../outputs/CR-018-019/integration_report.md) — coverage, continuity decisions, remaining questions and verification.
 - [CR-016](CR-016.md), [CR-015](CR-015.md) and [Power Timeline](power_timeline_1865_1900.md) — earlier directions with current later-precedence notes.
-- [Character bible](character_bible.md) and [registry](character_registry.json) — 120 stable identities, including five retired provenance/alias records with Chichibu now added as the resident prince. Kiyoshi is Fleet-General Kuroda; the lost Kalanimoku and Kahekili / Ikazuchi are distinct; the heir’s stable ID is retained. All 250 original profiles remain traceable without changing the legacy crosswalk.
+- [Character bible](character_bible.md) and [registry](character_registry.json) — 132 stable identities, including six retired provenance/alias records. CT-KAIULANI holds Victoria’s historical identity; the former separate CT-VICTORIA-KAMAMALU is retired duplicate provenance. The historical princess born 1875 has her own ID. Kiyoshi is Fleet-General Kuroda; the lost Kalanimoku and Kahekili / Ikazuchi are distinct; the heir’s stable ID is retained. All 250 original profiles and their ID mappings remain intact; crosswalk notes now explain Victoria’s identity.
 - [Change register](change_requests.json) and [approval index](approved_change_index.md) — approved directions and open mechanics; the index is generated separately from the narrative.
 - [Historical background](historical_background.md) — historical evidence, source-supplied comparisons and explicit fictional divergences.
 - [Feasibility scope](war_base_assumptions.md) — numerical and operational work remaining, including the new war, coalition and creditor order.
@@ -22,7 +33,7 @@
 
 ## Authority and open decisions
 
-The user authorized CR-021’s merge after CR-020. Revision 9 applies the direct author corrections to the previously approved framework and all seventeen OPEN-021 decisions. Final K decisions and revision-8 protocol override older labels. Noe’s identity and 1886 hānai bargain are settled, while culpability for her 1888 death is deliberately unproved. Kahekili / Ikazuchi is the heir, future Kamehameha VII. Unrelated Vance/1905 peace and earlier OPEN mechanics remain qualified. Numerical results stay MODEL.
+The current user authorizes publication of the supplied updated storyline and CR-027’s Section E updates as a new PR. CR-027 supersedes the fictional cousin, 1857 wedding, massacre, abeyance and 1874 judgment: Victoria marries in November 1858, reigns from 1872, leases Puʻuloa lawfully in 1874 and accepts illegal encroachments in 1874–1876; the judgment is 1876. The 1914 Act joins crowns and restores legislature. Earlier CR source files are preserved. CR-021’s prior approval after CR-020 remains operative elsewhere. Revision 9 applies the direct author corrections to the previously approved framework and all seventeen OPEN-021 decisions. Final K decisions and revision-8 protocol override older labels. Noe’s identity and 1886 hānai bargain are settled, while culpability for her 1888 death is deliberately unproved. Kahekili / Ikazuchi is the heir, future Kamehameha VII. Unrelated Vance/1905 peace and earlier OPEN mechanics remain qualified. Numerical results stay MODEL.
 
 The Western peace framework is 1865, Senate ratification 1867. Russia retains the northern coast until 1921; CR-021 revision 9 assigns Kamchatka, Okhotsk coast and Nikolayevsk to the Siberian Republic; any Japanese access is treaty-only. The eastern through route is completed under Japanese control through Chinese Manchuria. Combined allied fleet limits in 1919 precede the formal 1927 ministries. These distinctions govern broad or inconsistent source wording.
 
@@ -43,3 +54,6 @@ The Concord’s annual Council is always at Hayama: Hirohito hosts, Julian conve
 
 
 Tongue votes are expressly uncapped. Noe’s death remains ambiguous. Foreign Affairs and Finance normally remain Pacifican; the law requires at least one Japanese common minister, conventionally Navy. The crowns agree the renewal at Hayama and ministers sign/exchange instruments at Thalassia. The updated source export and complete revision-9 package are in outputs/CR-021-revision9.
+
+The [CR-027 financial handoff](../../finance/CR-027-handoff.md) records common customs, lease rent and Crown/estate classification for Sol. No lease amount is invented and no financial file is recalculated in this revision.
+

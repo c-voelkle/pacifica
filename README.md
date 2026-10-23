@@ -1,7 +1,7 @@
 # Pacifica
 
-Read the current [master storyline](book-agent/revision/master_storyline.md), updated through 1932 with approved changes through CR-021 revision 9.
+Read the current [master storyline](book-agent/revision/master_storyline.md), supplied on 23 October 2026 and updated through CR-031.
 
-The revision workspace includes synchronized character documentation, the approval register, historical background and source records. Numerical results remain MODEL estimates and unresolved decisions retain their qualifications. Original manuscripts and archival sources are preserved.
+The [character bible](book-agent/revision/character_bible.md), identity registry, [historical background](book-agent/revision/historical_background.md) and approval register are reconciled to that version. The [integration record](book-agent/revision/CR-031-integration.md) describes changes, source limits and validation. Original manuscripts, 250 original character profiles, stable mappings and older source CRs remain preserved.
 
-Current financial planning: [workbook](finance/Pacifica_financial_model_1846-1932.xlsx) and [Pacifica Ledger](finance/Pacifica-Ledger.md). These author-supplied files supersede earlier financial models; see the [financial reference notes](finance/README.md).
+Current financial planning uses the supplied [CR-031 workbook](finance/Pacifica_financial_model_1846-1932.xlsx). The [financial review](finance/CR-031-review.md) records saved MODEL results and source discrepancies; the older [Ledger](finance/Pacifica-Ledger.md) remains a dated snapshot. PROPOSED, OPEN and MODEL qualifications remain explicit.

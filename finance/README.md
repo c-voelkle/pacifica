@@ -1,12 +1,7 @@
 # Current Pacifica financial planning
 
-The author supplied these files and explicitly authorized their publication on 20 October 2026 as the current state of the story’s financial planning, superseding earlier financial models:
+Use the [current workbook](Pacifica_financial_model_1846-1932.xlsx), supplied on 23 October 2026 as `Pacifica_financial_model_1846-1932_cr-031.xlsx`, alongside the [current master storyline](../book-agent/revision/master_storyline.md).
 
-- [Pacifica financial model, 1846–1932](Pacifica_financial_model_1846-1932.xlsx)
-- [The Pacifica Ledger](Pacifica-Ledger.md)
+The workbook is preserved byte-for-byte, SHA-256 `29aaeaafeeef712ff6c276c71495c461a122f111726abdafacd558f9bab30091`. It replaces the earlier workbook at the stable path; Git history retains the prior version. The [CR-031 review](CR-031-review.md) records its saved Story values, narrative accounting boundaries and source discrepancies. Results remain MODEL estimates. This publication includes an archive/error-cache inspection, not an independent recalculation or Stress-case certification.
 
-Both attachments are preserved byte-for-byte. The ledger includes a link to the private dashboard; access remains controlled by its owner. Its reference to `claude/CR-022-todo.md` is part of the supplied source text; that document is not included in this repository update, and no dashboard-update instructions have been executed.
-
-The supplied ledger describes CR-020 and CR-021 revision 8. The current [master storyline](../book-agent/revision/master_storyline.md) incorporates CR-021 revision 9, including the later direct author decisions. Publishing the financial references does not revert those narrative decisions or claim that the workbook has been reconciled against every revision-9 change.
-
-Reported Story and Stress outcomes and numerical comparisons are source-reported MODEL estimates. The workbook archive was checked for integrity; it was not edited, independently recalculated or certified. Older financial assessments under `outputs/pacifica-finances-*` remain dated, superseded comparisons rather than the current planning model.
+The [Pacifica Ledger](Pacifica-Ledger.md) remains unchanged as the earlier CR-021 revision-8 snapshot and is superseded for current numbers. Earlier `outputs/pacifica-finances-*` assessments are dated comparisons. The [CR-027 handoff](CR-027-handoff.md) is retained for provenance; CR-031 supersedes its model-availability statement, but the Puʻuloa rent/estate coverage question remains unquantified. Original source proposals and qualifications are preserved.
