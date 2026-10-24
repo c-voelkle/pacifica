@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pacifica Scenario Finance"
+  short_description: "Calculate financial quantities for alternate timelines"
+  default_prompt: "Use $pacifica-scenario-finance to estimate and calculate the quantities for these Pacifica drafts, compare them with the pinned baseline, and produce traceable inputs and results for the Timeline Lab."
