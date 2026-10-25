@@ -78,12 +78,12 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--scenario', type=Path, default=DEFAULT_SCENARIO)
     commands = parser.add_subparsers(dest='command', required=True)
-    for command in ('batch', 'grid', 'replay', 'benchmark'):
+    for command in ('batch', 'grid', 'replay', 'benchmark', 'explore'):
         p = commands.add_parser(command)
         p.add_argument('--set', action='append', default=[], metavar='NAME=JSON')
         p.add_argument('--output', type=Path)
-        if command in ('batch', 'grid'):
-            p.add_argument('--worlds', type=int, default=1000)
+        if command in ('batch', 'grid', 'explore'):
+            p.add_argument('--worlds', type=int, default=25 if command == 'explore' else 1000)
         if command == 'batch':
             p.add_argument('--start', type=int, default=0)
         if command == 'grid':
@@ -93,8 +93,16 @@ def main(argv=None):
             p.add_argument('--seed', type=int)
             p.add_argument('--branch-month')
             p.add_argument('--change', help='One NAME=JSON decision change')
+    restore = commands.add_parser('restore-bookmark')
+    restore.add_argument('input', type=Path)
+    restore.add_argument('--output', type=Path)
     args = parser.parse_args(argv)
     try:
+        if args.command == 'restore-bookmark':
+            from stories import replay_bookmark
+            scenario, history, record = replay_bookmark(json.loads(args.input.read_text(encoding='utf-8-sig')))
+            write_json(history.export(scenario), args.output)
+            return 0
         from model import load_scenario
         scenario = load_scenario(args.scenario)
         controls = chosen(scenario, parse_assignments(args.set))
@@ -107,6 +115,13 @@ def main(argv=None):
                            different_histories=[h.export(scenario) for h in diverse(runs)])
         elif args.command == 'grid':
             payload['grid'] = grid(scenario, parse_assignments(args.axis), args.worlds, controls)
+        elif args.command == 'explore':
+            from stories import explore, select
+            found = explore(scenario, args.worlds, controls)
+            payload.update(policies=found['proposals'], root_worlds=found['root_worlds'],
+                           policy_world_evaluations=found['evaluations'], selection=found['selection'],
+                           interpretation='Bounded policy comparisons, not unconditional probabilities.',
+                           candidates=[h.export(scenario) for h, story in select(scenario, found['histories'])])
         elif args.command == 'replay':
             if bool(args.branch_month) != bool(args.change):
                 raise ValueError('--branch-month and --change must be used together')

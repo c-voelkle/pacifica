@@ -4,7 +4,7 @@
   "status": "proposed",
   "date": "2026-10-25",
   "approval_status": "user_requested_revision_0_7_incorporating_critical_review_design_contracts_detailed_story_and_model_parameters_remain_open",
-  "implementation_status": "not_implemented",
+  "implementation_status": "bounded_prototype_0_2_implemented_with_partial_R0_coverage_full_release_acceptance_pending",
   "scope": "A bounded native strategic and plot sketchpad with explicit predicate/state semantics, attributable decisions, open story exploration before strategic pruning, actor-specific conduct and complete branches; R1 adds distinct narrative search modes and assessed strategies; R2 adds supporting tooling and detailed fidelity.",
   "interpretation": {
     "authority": "product-vision.md defines the goal; requirements.md summarizes contracts and gates; this revision of backlog.json is authoritative for requirement statements, acceptance criteria, releases and dependencies. Any mismatch blocks the documentation gate.",
@@ -13,7 +13,7 @@
     "acceptance": "Criteria and review examples are future obligations, not evidence of implemented or benchmarked software. Reference checks precede recommendations for each supported bounded claim.",
     "dependencies": "depends_on names prerequisites by the first required release; phase_gates may add prerequisites available by the named phase. No earlier release depends on a later one.",
     "model_scope": "R0 activates the smallest predicate/decision/conduct subset for one dilemma, including pre-pruning causal candidates and open author tasks. A semantic prototype precedes optimized interface commitments; broad personality models, generators and general editing remain outside R0/R1.",
-    "ontology": "ontology.md and the structured catalog agree on 29 record contracts and 16 invariants, including decision, predicate, query and population semantics. These are design obligations, not implemented validators."
+    "ontology": "The 29 full contracts remain design obligations. timeline-lab/ontology.py implements a bounded runtime subset; see prototype_implementation for coverage and limits."
   },
   "sources": [
     {
@@ -614,12 +614,12 @@
     "status": "proposed",
     "formula": "abs(actual - reference) <= max(absolute_tolerance, relative_tolerance * abs(reference))",
     "monetary_observations_in_millions": {
-      "absolute_tolerance": 0.000001,
-      "relative_tolerance": 1e-9
+      "absolute_tolerance": 1e-06,
+      "relative_tolerance": 1e-09
     },
     "ratios_as_fractions": {
       "absolute_tolerance": 1e-10,
-      "relative_tolerance": 1e-9
+      "relative_tolerance": 1e-09
     },
     "dates_identifiers_and_integer_counts": "exact",
     "accounting_residuals": "Use each engine/module's declared absolute floor and relative tolerance scaled to the maximum absolute identity term, not to its near-zero residual. Baseline calibration bands do not replace accounting checks.",
@@ -4472,5 +4472,173 @@
         }
       ]
     }
-  ]
+  ],
+  "prototype_implementation": {
+    "version": "0.2",
+    "date": "2026-10-25",
+    "branch": "prototype/timeline-lab-build-20261025",
+    "brief": "timeline-lab/BRIEF.md",
+    "backlog": "timeline-lab/backlog.json",
+    "scope": "1927–1928 rescue and settlement only",
+    "status": "implemented_bounded_subset_not_full_R0_acceptance",
+    "coverage": [
+      {
+        "id": "SLICE-001",
+        "title": "Explicit bounded ontology",
+        "status": "implemented",
+        "spec_requirement_refs": [
+          "TL-068",
+          "TL-069",
+          "TL-070"
+        ],
+        "evidence_files": [
+          "ontology.py",
+          "tests/test_stories.py"
+        ],
+        "limits": [
+          "Full predicate algebra and general ambiguity resolution are not implemented."
+        ]
+      },
+      {
+        "id": "SLICE-002",
+        "title": "Observed commitments and relationship-driven choices",
+        "status": "implemented",
+        "spec_requirement_refs": [
+          "TL-042",
+          "TL-069",
+          "TL-070",
+          "TL-071"
+        ],
+        "evidence_files": [
+          "relationships.py",
+          "scenarios/1927_rescue.yaml",
+          "tests/test_stories.py"
+        ],
+        "limits": [
+          "No general conduct-profile or resource-reservation service; all private assurance premises are LAB."
+        ]
+      },
+      {
+        "id": "SLICE-003",
+        "title": "Open causal story exploration and filters",
+        "status": "implemented",
+        "spec_requirement_refs": [
+          "TL-023",
+          "TL-073"
+        ],
+        "evidence_files": [
+          "stories.py",
+          "app.py",
+          "views.py",
+          "tests/test_stories.py",
+          "tests/test_app.py"
+        ],
+        "limits": [
+          "R1 witness/reliability/minimum-premise searches and campaign optimizers remain deferred."
+        ]
+      },
+      {
+        "id": "SLICE-004",
+        "title": "Traceable defined metrics",
+        "status": "implemented",
+        "spec_requirement_refs": [
+          "TL-015",
+          "TL-016",
+          "TL-022",
+          "TL-025"
+        ],
+        "evidence_files": [
+          "metrics.py",
+          "scenarios/1927_rescue.yaml",
+          "views.py",
+          "tests/test_stories.py"
+        ],
+        "limits": [
+          "Treasury cash, vote margins, import-cover weeks and full financial accounting remain unavailable."
+        ]
+      },
+      {
+        "id": "SLICE-005",
+        "title": "Matched policy branches and portable bookmarks",
+        "status": "implemented",
+        "spec_requirement_refs": [
+          "TL-026",
+          "TL-032",
+          "TL-072",
+          "TL-073"
+        ],
+        "evidence_files": [
+          "stories.py",
+          "model.py",
+          "views.py",
+          "tests/test_stories.py",
+          "tests/test_app.py"
+        ],
+        "limits": [
+          "Only a single policy-from-month branch; general premise/event and multigeneration intervention chains remain deferred."
+        ]
+      },
+      {
+        "id": "SLICE-006",
+        "title": "Source and scope transparency",
+        "status": "implemented",
+        "spec_requirement_refs": [
+          "TL-074",
+          "TL-077"
+        ],
+        "evidence_files": [
+          "BRIEF.md",
+          "ONTOLOGY.md",
+          "README.md",
+          "scenarios/1927_rescue.yaml"
+        ],
+        "limits": [
+          "Independent source-first omission audits, extraction, all applicability contracts and whole-story population remain open."
+        ]
+      }
+    ],
+    "author_acceptance": {
+      "spec_requirement_refs": [
+        "TL-075"
+      ],
+      "status": "pending_author_trial",
+      "criterion": "Retain a previously unconsidered useful idea after assumption disclosure, branch to a further dilemma, and save/replay the evidence.",
+      "automated_tests_do_not_establish": [
+        "literary novelty",
+        "historical likelihood",
+        "full R0 conformance"
+      ]
+    },
+    "remaining": [
+      "Sourced monthly cash/debt/reference accounts and interim liquidity checks",
+      "Actor-scoped conduct and simultaneous resource reservations",
+      "Formal temporal predicates, protected-unknown fixtures and independent content audits",
+      "R1 targeted search, fresh-world reliability assessment and campaign maps",
+      "Resource admission/retention recovery and formal author comparison"
+    ],
+    "validation": {
+      "date": "2026-10-25",
+      "engine_version": "0.2",
+      "automated_test_count": 36,
+      "test_command": "python -m unittest discover -s tests -v",
+      "automated_status": "passed",
+      "focused_ontology_relationship_and_bookmark_checks": "14 passed after final evidence-link addition",
+      "ui": "Streamlit AppTest discovery/filter/metric/compare/branch/grid/export plus live localhost disclosed-breach inspection",
+      "cli": "open exploration and saved bookmark restore passed",
+      "simulation_benchmarks": [
+        {
+          "worlds": 1000,
+          "seconds": 2.6768250000022817,
+          "events": 51937
+        },
+        {
+          "worlds": 10000,
+          "seconds": 28.166413200000534,
+          "events": 519560
+        }
+      ],
+      "timing_scope": "Single host measurements of simulation; not p95 or rendering latency; includes the implemented relationship mechanism.",
+      "author_trial": "pending; no claim of literary novelty or historical calibration"
+    }
+  }
 }

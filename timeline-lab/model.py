@@ -7,12 +7,14 @@ import math
 import random
 from collections import Counter
 from copy import deepcopy
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import cached_property
 from pathlib import Path
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
+from ontology import Drama, MetricDefinition, ENGINE_VERSION, validate_drama
+from relationships import Relationships
 
 Label = Literal['APPROVED', 'PROPOSED', 'OPEN', 'MODEL', 'LAB', 'CHECK']
 ROLES = ('executive', 'legislature', 'mediator', 'government', 'military', 'subscribers', 'lenders')
@@ -154,7 +156,7 @@ class Execution(Record):
 
 
 class Scenario(Record):
-    schema_version: Literal['timeline-lab-sketch/0.1'] = Field(alias='schema')
+    schema_version: Literal['timeline-lab-sketch/0.2'] = Field(alias='schema')
     scenario: Window
     actors: dict[str, Actor]
     world: dict[str, dict[str, Tagged | str]]
@@ -166,6 +168,8 @@ class Scenario(Record):
     protected: list[str]
     open_items: list[str]
     execution: Execution
+    drama: Drama
+    metric_catalog: list[MetricDefinition]
 
     @cached_property
     def digest(self):
@@ -241,11 +245,18 @@ class History:
     events: list
     series: list
     measures: dict
+    semantics: dict = field(default_factory=dict)
 
     def export(self, scenario):
         from dataclasses import asdict
-        return {**asdict(self), 'status': 'DRAFT / LAB', 'engine_version': '0.1',
+        from stories import candidate
+        from metrics import samples
+        from ontology import entity_catalog, bundle
+        return {**asdict(self), 'status': 'DRAFT / LAB', 'engine_version': ENGINE_VERSION,
                 'scenario': scenario.model_dump(by_alias=True),
+                'entities': entity_catalog(scenario), 'story': candidate(scenario, self).model_dump(),
+                'ontology': bundle(scenario, self),
+                'metric_samples': [m.model_dump() for m in samples(scenario, self)],
                 'note': 'Illustrative histories from LAB rules, not calibrated probabilities or canon.'}
 
 
@@ -268,7 +279,7 @@ PARAMS = {
     'subscribers': ['guarantee_risk_reduction', 'concord_tie_risk_reduction'],
 }
 LEVER_KEYS = '''credit_size_musd public_share tie_to_concord consent_path offer_month
-promise_in_japanese if_senate_refuses_loan concessions_1928'''.split()
+promise_in_japanese if_senate_refuses_loan concessions_1928 assurance_strategy commitment_priority'''.split()
 UNCERTAINTY_KEYS = '''share_not_renewed sf_syndicate_appetite army_opportunism senate_mood
 victoria_brokering_skill lenders_return_probability second_run_if_reserves_short better_offer_appears'''.split()
 DECISIONS = {
@@ -312,7 +323,7 @@ def validate(s):
     exact_keys(s.world, s.execution.worlds.values(), 'world')
     exact_keys(s.levers, LEVER_KEYS, 'levers')
     exact_keys(s.uncertainty, UNCERTAINTY_KEYS, 'uncertainty')
-    exact_keys(s.execution.defaults, ['offer_month', 'if_senate_refuses_loan'], 'defaults')
+    exact_keys(s.execution.defaults, ['offer_month', 'if_senate_refuses_loan', 'assurance_strategy', 'commitment_priority'], 'defaults')
     exact_keys(s.execution.phases, ['settlement', 'council'], 'phases')
     exact_keys(s.execution.events, ['crisis', 'moratorium', 'payments', 'declaration', 'court', 'council'], 'events')
     scheduled = {e.id: e for e in s.events.scheduled}
@@ -342,6 +353,11 @@ def validate(s):
     for m in s.measures:
         if m.kind == 'category' and not m.values:
             raise ValueError('Category measures need declared values')
+    validate_drama(s)
+    from metrics import resolve_input
+    for definition in s.metric_catalog:
+        for ref in definition.input_refs:
+            resolve_input(s, ref)
     Engine(s, 0)  # validates required numeric starting state before any run
     return s
 
@@ -414,22 +430,27 @@ class Engine:
                           cabinet=scenario.param('government', 'initial_cabinet_stability'),
                           army=scenario.param('military', 'initial_influence'),
                           grievance=self.n('grievance_toward_london'))
+        self.state['settlement_presented'] = False
         for role in ROLES:
             self.beliefs[role] = dict(loan_revision=-1, treaty_revision=None, offer_revision=-1,
                                      promise_revision=-1, promised=False, broken=False, mediation_revision=-1)
         self.beliefs['legislature']['trust'] = scenario.param('legislature', 'initial_trust_in_executive')
         self.beliefs['government']['trust'] = scenario.param('government', 'initial_trust_in_julian')
         self.last_offer = None
+        self.relationships = Relationships(self)
 
     def emit(self, month, kind, actor, action, facts=None, reason='', label='LAB', audience='public'):
         self.deliver(dict(month=month, kind=kind, actor=actor, action=action, label=label,
-                          facts=facts or {}, reason=reason, audience=audience))
+                          facts=facts or {}, reason=reason, audience=audience,
+                          cause_refs=[self.relationships.executing] if self.relationships.executing and kind != 'state' else []))
 
     def deliver(self, event):
+        event.setdefault('id', f'event-{len(self.events)}')
         self.events.append(event)
         for actor_id, facts in self.views.items():
             if event['audience'] == 'public' or actor_id in event['audience']:
                 facts.update(event['facts'])
+        self.relationships.delivered(event)
 
     def publish(self, month):
         # Public institutional facts, not private beliefs, decision scores or random draws.
@@ -444,18 +465,24 @@ class Engine:
         s, c, u = self.s, self.c, self.draws['uncertainty']
         offer = info.get('offer')
         result = []
+        self.relationships.observe(role, info, private, month)
         def act(action, **data):
             if action in ('rescue_loan_vote', 'treaty_consent', 'response_to_offer', 'concord_ratification', 'subscription'):
                 data['offer_revision'] = info['offer_revision']
             result.append((action, data))
+            self.relationships.record(role, action, data, info, private, month)
+        for action, data in self.relationships.actions(role, info, private, noise, month, controls):
+            act(action, **data)
         if role == 'executive':
-            proposed = {k: v for k, v in controls.items() if k != 'concessions_1928'}
+            proposed = {k: v for k, v in controls.items() if k not in ('concessions_1928', 'assurance_strategy', 'commitment_priority')}
             if month >= controls['offer_month'] and not info.get('payments_done') and proposed != self.last_offer:
                 act('offer_credit', offer=proposed)
                 self.last_offer = deepcopy(proposed)
             eligible = month >= s.phase('settlement') or controls['consent_path'] == 'renegotiate_first'
-            if eligible and controls['concessions_1928'] != info.get('concessions', []):
-                act('offer_concessions', concessions=controls['concessions_1928'])
+            offered = self.relationships.concessions(info, controls)
+            if eligible and (offered != info.get('concessions', []) or not info['settlement_presented']):
+                act('offer_concessions', concessions=offered, requested=controls['concessions_1928'],
+                    priority=controls['commitment_priority'])
             if (info.get('treaty_vote') == 'refuse' and info.get('ratified') and
                     info.get('concord') not in ('provisional', 'consented', 'lapsed') and
                     controls['consent_path'] == 'provisional_application'):
@@ -468,7 +495,7 @@ class Engine:
                 return result
             a = s.actor(role)
             support = private['trust'] * a.reasons_for['trust_in_executive'].number()
-            support += len(info['concessions']) * a.reasons_for['concessions_offered'].number()
+            support += sum(s.drama.concessions[k].senate_support.value for k in info['concessions'])
             support += bool(info['declaration']) * a.reasons_for['ka_lokahi_declaration'].number()
             broker = info['mediator_role'] == 'broker_settlement'
             support += broker * a.reasons_for['victoria_brokering'].number()
@@ -484,7 +511,7 @@ class Engine:
                     'approve_with_public_cap' if score >= c('loan_refusal_threshold') else 'refuse')
                 act('rescue_loan_vote', vote=vote, utility=score)
                 private['loan_revision'] = info['offer_revision']
-            revision = (info['offer_revision'], info['concession_revision'], info['mediator_role'])
+            revision = (info['offer_revision'], info['concession_revision'], info['mediator_role'], info.get('assurance_report'))
             if offer['tie_to_concord'] and private['treaty_revision'] != revision and info['concord'] != 'consented':
                 threshold = s.param(role, 'two_thirds_threshold')
                 vote = 'consent' if score >= threshold else ('delay' if score >= threshold - c('treaty_delay_margin') else 'refuse')
@@ -496,10 +523,16 @@ class Engine:
             revision = info.get('concession_revision', 0)
             if (month >= s.phase('settlement') and private['mediation_revision'] != revision and
                     (info.get('legality') == 'illegal_provisional_application' or info.get('treaty_vote') == 'refuse')):
-                enough = len(info['concessions']) >= s.param(role, 'min_concessions_to_broker')
+                enough = sum(s.drama.concessions[k].mediator_support.value for k in info['concessions']) >= s.param(role, 'min_concessions_to_broker')
                 score = u['victoria_brokering_skill'] + noise
+                if private.get('assurance_assessment') == 'honoured':
+                    score += s.drama.rules.honour_bonus.value
+                if private.get('assurance_assessment') == 'breached':
+                    enough = False
                 action = 'broker_settlement' if enough and score >= c('broker_threshold') else (
                     'oppose_publicly' if not enough and score >= c('public_opposition_threshold') else 'stay_aloof')
+                if private.get('assurance_assessment') == 'breached':
+                    action = 'stay_aloof'  # Private withdrawal is not a public disclosure.
                 act('settlement_role', choice=action, utility=score)
                 private['mediation_revision'] = revision
         elif role == 'government':
@@ -562,17 +595,22 @@ class Engine:
     def resolve(self, month, decisions):
         w, s = self.state, self.s
         for role, action, data in decisions:
+            self.relationships.begin(month, role, action)
             self.emit(month, 'decision' if role == 'executive' else 'response', s.execution.roles[role], action,
-                      reason=json.dumps(data, ensure_ascii=False, sort_keys=True))
+                      reason=json.dumps(data, ensure_ascii=False, sort_keys=True),
+                      audience=self.relationships.audience(action, data, role))
             if 'offer_revision' in data and data['offer_revision'] != w['offer_revision']:
                 self.emit(month, 'consequence', None, 'reply_to_superseded_offer',
                           reason='This response concerns the previous terms; revised terms need a fresh response.')
+                continue
+            if self.relationships.resolve(month, role, action, data):
                 continue
             if action == 'offer_credit':
                 w.update(offer=deepcopy(data['offer']), offer_revision=w['offer_revision'] + 1,
                          loan_vote=None, treaty_vote=None, government_reply=None, ratified=False, subscription=0.0)
             elif action == 'offer_concessions':
-                w.update(concessions=list(data['concessions']), concession_revision=w['concession_revision'] + 1)
+                w.update(concessions=list(data['concessions']), concession_revision=w['concession_revision'] + 1,
+                         settlement_presented=True)
             elif action == 'provisional_application':
                 w.update(concord='provisional', legality='illegal_provisional_application')
             elif action == 'rescue_loan_vote':
@@ -607,6 +645,7 @@ class Engine:
                 else:
                     w['lenders_returned'] = True
                     w['grievance'] = bounded(w['grievance'] - self.c('lender_return_relief'))
+        self.relationships.executing = None
         if w['ratified'] and w['treaty_vote'] == 'consent' and w['concord'] != 'lapsed':
             w['concord'] = 'consented'
             if w['faction'] == 'split':
@@ -684,6 +723,12 @@ class Engine:
         self.series.append(dict(month=month, credit_drawn_musd=w['credit_drawn'], public_drawn_musd=w['public_drawn'],
                                 effective_public_share=w['public_share'], credit_committed_musd=w['committed'],
                                 reserve_target_met=w['buffer_met'], payment_need_musd=w['payment_need'],
+                                funding_target_musd=w['need'], payments_done=w['payments_done'],
+                                payments_met=w['payments_met'], concord=w['concord'], court=w['court'], legality=w['legality'],
+                                mediator_role=w['mediator_role'], illegal_months=w['illegal_months'],
+                                assurance_status=self.relationships.commitment.status if self.relationships.commitment else 'not_made',
+                                mediator_assessment=self.beliefs['mediator'].get('assurance_assessment', 'unknown'),
+                                public_assurance_report=self.views[self.s.execution.roles['government']].get('assurance_report', 'not_disclosed'),
                                 army_influence=w['army'], cabinet_stability=w['cabinet'],
                                 japan_trust=self.beliefs['government']['trust'], senate_trust=self.beliefs['legislature']['trust']))
 
@@ -696,7 +741,7 @@ class Engine:
                 raise ValueError('Invalid branch month or lever')
             chosen(self.s, {**base, branch['lever']: branch['value']})
             deadline = next(e.month for e in self.s.events.scheduled if e.id == self.s.execution.events['payments'])
-            if branch['lever'] not in ('consent_path', 'concessions_1928') and branch['month'] >= deadline:
+            if branch['lever'] not in ('consent_path', 'concessions_1928', 'commitment_priority') and branch['month'] >= deadline:
                 raise ValueError('That credit decision is already settled at the payment deadline; branch earlier')
             if branch['lever'] == 'offer_month' and branch['value'] < branch['month']:
                 raise ValueError('A branch cannot move an offer into its unchanged past')
@@ -705,6 +750,8 @@ class Engine:
             if branch and month == branch['month']:
                 if branch['value'] == active[branch['lever']]:
                     raise ValueError('Choose a different value for the branch decision')
+                if branch['lever'] == 'assurance_strategy' and self.relationships.commitment:
+                    raise ValueError('An assurance already made cannot be erased; branch before it was offered')
                 if branch['lever'] in ('consent_path', 'concessions_1928') and self.state['concord'] == 'consented':
                     raise ValueError('Consent is already settled; branch before that decision')
                 if branch['lever'] == 'consent_path' and self.state['concord'] == 'provisional':
@@ -754,7 +801,8 @@ class Engine:
         for measure in self.s.measures:
             if measure.kind == 'category' and measures[measure.id] not in measure.values:
                 raise ValueError(f'Unsupported outcome: {measure.id}')
-        return History(self.world, self.seed, self.hash, base, branch, self.draws, self.events, self.series, measures)
+        return History(self.world, self.seed, self.hash, base, branch, self.draws, self.events, self.series, measures,
+                       self.relationships.export())
 
 
 def simulate(scenario, world=0, levers=None, seed=None, branch=None, hidden_events=()):

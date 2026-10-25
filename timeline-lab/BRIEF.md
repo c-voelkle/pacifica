@@ -1,100 +1,64 @@
 # Timeline Lab — build brief
 
-**25 October 2026 · Prototype brief, version 1**
+**25 October 2026 · Bounded dramatic sketch, version 2 · engine/schema 0.2**
 
-This is the only document an implementing agent reads. The full specification in `docs/timeline-lab/` (revision 0.10) is a frozen reference. Do not load it into context, and do not add requirements from it unless the author asks.
+This brief implements the author's request to bring the 1927–28 prototype toward the original revision 0.10 design: explicit ontology, relationship-driven choices, story exploration and traceable metrics. That request supersedes version 1's exclusions and 2,500-line stop rule for these named capabilities. Keep the bounded implementation under approximately 5,000 source/documentation/test lines; do not expand the setting or add dependencies without authorization.
 
 ## The question
 
-What else could plausibly have happened in the 1927–28 Japan rescue and Concord crisis, depending on Julian's choices, and which of those histories make good plot?
+What else could plausibly happen in the 1927–28 Japan rescue and Concord crisis, and which consequential choices suggest a useful plot idea and another dilemma?
 
-The prototype succeeds if one evening with it gives the author a plot idea he would not otherwise have had. It fails if it only reproduces the canon or produces noise.
+The author must be able to inspect assumptions, retain an idea, change a policy at a dated fork and replay a saved bookmark. Automated tests establish modeled behavior. Actual novelty and literary usefulness remain an author judgment.
 
-## What to build
+## Scope and implementation
 
-A small local Python tool with four parts:
+- March 1927–December 1928, monthly steps, the existing seven acting roles. Persons inside institutions remain separately identified descriptive entities; they gain no new controllers. The executive person and office remain distinct identities.
+- Existing financing/consent/concession policies plus two LAB controls: assurance_strategy (none/private/public) and commitment_priority (honour_assurance/preserve_discretion).
+- The complete scenario, goals, differentiated concession effects, assurance terms, credibility rules, coefficients and metric definitions live in scenarios/1927_rescue.yaml. No new private promise is asserted as canon.
+- model.py retains deterministic simulation and finance/authority rules. ontology.py supplies closed types and selected-history evidence materialization; relationships.py executes the assurance mechanism; stories.py supplies deterministic candidates, open policy exploration and bookmarks; metrics.py supplies unit-bearing traces; views.py and app.py present results. run.py supports offline execution and export.
+- Pydantic, Streamlit and the already approved PyYAML remain the only declared dependencies. No calculation network, Excel, language model or database is required.
 
-| Part | What it does | Rough size |
-|---|---|---|
-| `model.py` | World state, actor rules, monthly step, event log | 600–1,000 lines |
-| `run.py` | Command line: run N worlds for a lever setting, run a lever grid, replay one seed, export JSON | 150–300 lines |
-| `app.py` | Streamlit page: lever controls, outcome charts, history list, single-history timeline | 300–600 lines |
-| `tests/` | The checks under "Done means" | 200–400 lines |
+## Relationship mechanism
 
-All scenario content lives in `scenarios/1927_rescue.yaml`. Code reads it; code never hard-codes actors, amounts or dates.
+An executive policy may offer a nonbinding political assurance to the mediator. Private assurances are delivered only to the executive and mediator. The assurance's oversight terms are distinct from loan obligations and legal authority.
 
-**Stop and report** if the prototype passes about 2,500 lines, or if a feature seems to need anything on the "Not now" list.
+At settlement, the honour priority adds promised oversight terms to the requested offer; preserve_discretion retains the requested offer even if it breaches the assurance. Actual and requested terms are both recorded. The recipient assesses only terms actually delivered, then may support cooperation, withdraw privately or disclose an observed breach. A private withdrawal is not a public accusation. Audiences use their own declared credibility thresholds; a truthful report need not produce belief or cooperation.
 
-## Scope
+Each of the four concessions has separately declared legislative and mediation effects. Those are LAB interpretations, not historical coefficients. Original financial, conditional ratification and illegality assumptions retain their visible limitations.
 
-- **Window:** March 1927 to December 1928, one step per month.
-- **Actors:** the seven in the YAML. Julian is the only controlled actor. Everyone else decides by their own rule.
-- **Pacifica levers:** credit size, public share, whether the credit is tied to the Concord, consent path (wait for the Senate, provisional application, or renegotiate first), offer month and the 1928 concessions offered to the Senate.
-- **Uncertainty:** the drivers listed under `uncertainty` in the YAML, sampled per world.
-- **Runs:** 1,000 worlds per sketch by default, 10,000 on request. Plain Python loops are fast enough at this size; no vectorization, compiled layout or parallelism.
+## Explicit ontology and explanation
 
-## How it works
+Use closed validated records for entities, goals, world facts, assertions, observations, beliefs, commitments, plans, decision contexts/records, attempts, adjudications, realized events, metrics, story candidates and bookmarks. Common evidence records carry stable IDs, scenario revision and provenance. Links pin the saved scenario and engine version.
 
-1. Load the YAML and validate it with a small Pydantic model. Reject unknown keys.
-2. For each world, draw its uncertainties from `random.Random(seed)`, where the seed is derived from the scenario hash and world number. No global random state.
-3. Each month, in fixed order: apply scheduled events; each actor builds its observation from what it has actually been told; each actor decides; resolve actions; update state; append to the event log.
-4. Decisions are a small utility comparison plus noise, with the weights in the YAML. Beliefs are a few numbers per actor, updated only by events that actor observes.
-5. **Branching:** replay the same seed to a chosen month, change one Pacifica decision, and continue. No state snapshots are needed because runs are deterministic.
-6. Output per world: the event log and the final measures listed in the YAML.
+A decision records its role/capacity, delivered information, private inputs, selected policy, scoped alternatives, goals/commitments, procedure reason and random address. Alternatives do not claim a general planner exhaustively evaluated every option. A plan's recorded actual outcome does not invent an owner's subjective assessment. Unsupported motives and sacrifices remain explicitly unassessed.
 
-## What the author sees
+The implemented subset is not full v0.10 R0 conformance: general temporal predicates, resource reservations, all conduct/intervention modes, independent source extraction audits and formal author acceptance remain open in the linked backlog.
 
-- Lever controls and a **Run** button. Results for 1,000 worlds should appear within a few seconds.
-- **Outcome table:** counts of each end state (Concord consented, Concord lapsed, Japan stops paying, yen falls, cabinet falls, and so on), compared with the previous run under the same seeds.
-- **Charts:** median and 10–90% band over time for four to six measures.
-- **Five most different histories:** pick by distance between event sequences, so the list shows different plots rather than five near-copies of the median.
-- **Timeline of one history:** month by month, marking Julian's decisions, other actors' responses and chance events separately.
-- **Grid sweep:** run every combination of a few lever values and plot two measures against each other, so trade-offs are visible.
-- **Export:** one history as JSON, so the author can paste it into a chat and ask for narration, explanation or a scene.
+## Author workflow
 
-## Rules that always hold
+1. Run the reference or edited policy with 1,000 worlds; 10,000 remains optional and must be measured separately.
+2. Discover a bounded family of assurance/priority/concession policies using 25 or 100 matched external worlds per policy. Show policy counts, distinct root worlds and policy-world evaluations separately.
+3. Surface causal representatives across assurance/disclosure strata before selecting remaining event-pattern variety. Failures and strategically inferior outcomes remain eligible. Filters do not imply a rare result is a reliable policy.
+4. Show goal, obstacle, choice, assessed cost, supported consequence, assumptions and a clearly marked next-question prompt. The next question is not an already simulated future event.
+5. Inspect decision reasons, received information, commitments and beliefs. Follow synchronized monthly finances and institutional states.
+6. Trace each named metric to its units, owner, horizon, scenario hash/seed, engine/mechanism, declared input values and event evidence. Treasury cash and vote margins remain unavailable; trust/influence remain LAB indices. Unknown never becomes zero.
+7. Branch one continuing policy setting from a month. Preserve earlier events and random draws; show matched metric differences. These author overrides are conditional consequence experiments, not proof the actor would choose them. An assurance already made cannot be erased retroactively.
+8. Save an immutable local bookmark and download its portable scenario/history/evidence bundle. Verify/replay a downloaded bookmark. Hosted filesystem persistence is not guaranteed; downloading retains the evidence outside the server.
 
-1. Julian controls only Pacifica's decisions. Other actors can refuse, counter or change course.
-2. No actor sees the future or another actor's private state. Beliefs change only through observed events.
-3. Failures, collapses and illegal outcomes stay in every count. Nothing is filtered to make results look better.
-4. Unknown is never zero. A missing value stops the run with a clear error.
-5. No Excel, database server or network access at runtime.
-6. Canon outcomes in the YAML are references for comparison, never forced events.
-7. Every number carries its label: `MODEL` from the canon's own estimates, `LAB` invented for this prototype. The tool shows the label.
-8. Generated histories are drafts, never canon. Nothing the tool produces changes `book-agent/`.
-9. Protected ambiguities stay unresolved. The Altai secret stays withheld; no actor learns it.
-10. Persons stay distinct from institutions. Takahashi stays in Tokyo and is not a common minister in any generated history unless the author adds that as an explicit premise.
+## Invariants and verification
 
-## Done means
+- Fixed-seed, single/batch and reordered-input identity; matched draws and unchanged branch prefix.
+- No reaction to an undisclosed promise or hidden actual breach. Delivered disclosure precedes belief updates.
+- A nonbinding political breach does not itself create illegality. Law, promise fulfilment, belief and cooperation remain distinct.
+- Similar financing can produce different commitments, cooperation and constitutional outcomes. Equal-size concession packages can differ.
+- Credit drawing respects actual capacity; public drawing equals total drawing times effective public share. All failures remain in counts.
+- Ontology references resolve; people, institutions and office identities stay distinct. Source secrets remain protected.
+- Metrics have units/provenance/coverage; unavailable quantities retain missing reasons.
+- Bookmark replay reproduces events and outcomes and rejects tampered inputs or narratives.
+- Streamlit run/comparison/discovery/filter/branch/grid/export flows work locally. Run regression checks before publishing.
 
-- [ ] A fixed seed gives an identical event log on every run.
-- [ ] A world run alone and inside a batch of 1,000 gives the same result.
-- [ ] An actor never reacts to an event it did not observe (test with a concealed event).
-- [ ] With canon lever settings, the canon sequence appears among the outcomes, but other outcomes appear too.
-- [ ] Changing one lever with the same seeds changes some histories and leaves the matched external draws identical.
-- [ ] Replaying a seed to a month and changing one decision reproduces every earlier month exactly.
-- [ ] Credit drawn never exceeds credit committed; public exposure equals drawn credit times public share.
-- [ ] The app runs locally with `streamlit run app.py` and shows all views above.
+## Still outside this delivery
 
-Then the author uses it for an evening and decides what, if anything, to build next.
+Whole-novel population; new acting characters; general-purpose personality/planning models; full proposition/temporal query algebra; premise and imposed-event search; multiobjective optimizers; calibrated vote counts or macroeconomics; detailed cash/debt/import-cover accounts; full conduct/resource-reservation protocol; six-fixture parity; automatic LLM narration; a general editor or hosted multi-user architecture.
 
-## Not now
-
-Each of these is in the 0.10 specification. None is part of this prototype:
-
-- LLM extraction of story content, source audits and omission tests
-- The full ontology, conduct profiles and simultaneous resource settlement
-- Optimizers (NSGA-II, MAP-Elites), adversarial search, held-out assessment
-- History-type clustering beyond "five most different"
-- Exact decimal ledger, six-fixture parity, finance-skill integration
-- DuckDB, Parquet, manifests, compiled array layouts, memory and disk budgeting
-- React, FastAPI, general catalog editor, built-in LLM narration
-- Formal author-trial protocols and p95 benchmarks
-
-## Working rules for agents
-
-- Read this brief, the YAML and the code. Nothing else from `docs/timeline-lab/`.
-- Read `book-agent/` sources only when the author asks to add or check content, and then only the named passage.
-- Keep changes small and runnable. Run the tests before reporting.
-- Ask before adding an actor, lever, dependency or requirement.
-- Report actual size, run time for 1,000 and 10,000 worlds, and anything that did not fit.
+The original specification remains the design reference. timeline-lab/backlog.json records this slice and remaining work; docs/timeline-lab/backlog.json records partial coverage without marking the full R0 requirements accepted. Narrative source files remain read-only for this implementation.

@@ -6,6 +6,8 @@ import streamlit as st
 
 from model import bands, batch, chosen, diverse, months, outcome_counts, simulate
 from run import DEFAULT_SCENARIO, grid
+from stories import explore, select as select_stories
+from views import story_card, story_evidence, metric_inspector, tracks, bookmarks, branch_difference
 
 st.set_page_config(page_title='Pacifica · Timeline Lab', page_icon='◈', layout='wide')
 st.caption('PACIFICA / TIMELINE LAB / LOCAL PROTOTYPE')
@@ -25,7 +27,9 @@ def pretty(value):
 
 def control(scenario, key, value, prefix):
     spec = scenario.levers[key]
-    label = f'{pretty(key)} · {spec.label}'
+    names = {'credit_size_musd': 'Credit facility · $m', 'public_share': 'Treasury share',
+             'assurance_strategy': 'Settlement assurance', 'commitment_priority': 'When promises constrain the settlement'}
+    label = f'{names.get(key, pretty(key))} · {spec.label}'
     if spec.multi_select:
         return st.multiselect(label, spec.options, default=value, format_func=pretty, key=f'{prefix}_{key}')
     return st.selectbox(label, spec.options, index=spec.options.index(value), format_func=pretty, key=f'{prefix}_{key}')
@@ -33,8 +37,10 @@ def control(scenario, key, value, prefix):
 
 def history_name(history):
     m = history.measures
+    assurance = history.semantics.get('commitments', [])
+    state = assurance[0]['status'] if assurance else 'none'
     return (f"World {history.world} · {pretty(m['japan_path'])} · Concord {m['concord_status_end']} · "
-            f"{m['months_of_illegal_application']} illegal months")
+            f"assurance {state} ({history.levers['assurance_strategy']})")
 
 
 def timeline(scenario, history, prefix):
@@ -91,13 +97,15 @@ if run_clicked:
                                             seconds=time.perf_counter() - start, hash=s.digest)
             st.session_state.pop('branch_result', None)
             st.session_state.pop('replayed', None)
+            st.session_state.pop('exploration', None)
+            st.session_state.pop('branch_parent', None)
         except ValueError as exc:
             st.error(str(exc))
 
-outcomes_tab, histories_tab, grid_tab, assumptions_tab = st.tabs(['Outcomes', 'Explore histories', 'Trade-offs', 'Assumptions'])
+histories_tab, outcomes_tab, grid_tab, assumptions_tab = st.tabs(['Story exploration', 'Outcomes', 'Trade-offs', 'Assumptions'])
 result = st.session_state.get('result')
 if result and result['hash'] != s.digest:
-    for key in ('result', 'previous', 'branch_result', 'replayed', 'grid'):
+    for key in ('result', 'previous', 'branch_result', 'replayed', 'grid', 'exploration', 'branch_parent'):
         st.session_state.pop(key, None)
     result = None
     st.warning('Scenario inputs changed. Run a fresh set of histories before comparing outcomes.')
@@ -141,34 +149,83 @@ with outcomes_tab:
                                       'tooltip': [{'field': k} for k in ('month', 'low', 'median', 'high')]}}]}, width='stretch')
 
 with histories_tab:
-    if not result:
-        st.write('Run histories to choose a path and branch from one decision.')
-    else:
-        st.subheader('Five different histories')
-        candidates = diverse(result['histories'])
-        st.caption('Selected by differences in dated event sequences, including failures. This is variety, not a ranking of writing quality.')
-        selected = st.selectbox('Choose a history', candidates, format_func=history_name)
-        timeline(s, selected, 'selected')
-        with st.expander('Replay any world in this run'):
-            world = st.number_input('World number', min_value=0, max_value=result['count'] - 1, step=1)
-            if st.button('Replay world'):
-                st.session_state['replayed'] = simulate(s, int(world), result['levers'])
-            if st.session_state.get('replayed'):
-                timeline(s, st.session_state['replayed'], 'replayed')
-        st.subheader('Change one decision')
-        st.caption('Earlier months and external draws stay identical. Settled credit cannot be rewritten.')
-        branch_month = st.selectbox('Branch month', months(s.scenario.start, s.scenario.end))
-        branch_key = st.selectbox('Decision to change', list(s.levers), format_func=pretty)
-        branch_value = control(s, branch_key, selected.levers[branch_key], 'branch')
-        if st.button('Branch this history'):
+    st.subheader('Explore choices and consequences')
+    st.caption('Explore a bounded family of assurance, priority and concession policies. Other actors still choose independently. No strategic-success filter removes failures.')
+    explore_count = st.selectbox('External worlds per policy', [25, 100], key='explore_count')
+    if st.button('Discover story alternatives', type='primary'):
+        with st.spinner('Following the policy alternatives…'):
             try:
-                branch = dict(month=branch_month, lever=branch_key, value=branch_value)
-                st.session_state['branch_result'] = simulate(s, selected.world, selected.levers, selected.seed, branch)
+                found = explore(s, explore_count, result['levers'] if result else defaults)
+                found['hash'] = s.digest
+                st.session_state['exploration'] = found
+                st.session_state.pop('branch_result', None)
+                st.session_state.pop('branch_parent', None)
             except ValueError as exc:
                 st.error(str(exc))
-        if st.session_state.get('branch_result'):
-            st.caption('Branched history')
-            timeline(s, st.session_state['branch_result'], 'branch')
+    exploration = st.session_state.get('exploration')
+    if exploration and exploration['hash'] != s.digest:
+        st.session_state.pop('exploration', None)
+        exploration = None
+    if not result and not exploration:
+        st.write('Run histories to choose a path and branch from one decision.')
+    else:
+        if exploration:
+            pool = exploration['histories']
+            replay_limit = exploration['root_worlds']
+            st.caption(f"{exploration['proposals']} policy settings × {exploration['root_worlds']} shared external worlds = {exploration['evaluations']} policy-world evaluations. These selected policy comparisons are not unconditional probabilities.")
+        else:
+            pool, replay_limit = result['histories'], result['count']
+        condition = st.selectbox('Find a kind of story', ['All histories', 'Rescue without consent', 'Broken assurance', 'Disclosed breach', 'Financial failure'])
+        representatives = select_stories(s, pool, condition=condition)
+        if not representatives:
+            st.info('No matching history in this evaluated population. Broaden the filter or discover policy alternatives.')
+        if representatives:
+            st.subheader('Different causal possibilities')
+            candidates = [history for history, story in representatives]
+            st.caption('Representatives differ in recorded commitments, responses and outcomes; numerical jitter is not a new plot.')
+            selected = st.selectbox('Choose a history', candidates, format_func=history_name)
+            from stories import candidate
+            selected_id = candidate(s, selected).id
+            if st.session_state.get('active_story_id') != selected_id:
+                for key in ('branch_result', 'branch_parent', 'replayed'):
+                    st.session_state.pop(key, None)
+                st.session_state['active_story_id'] = selected_id
+            story_card(s, selected)
+            tracks(s, selected)
+            story_evidence(s, selected)
+            metric_inspector(s, selected)
+            bookmarks(s, selected)
+            with st.expander('Recorded timeline and history export'):
+                timeline(s, selected, 'selected')
+            with st.expander('Replay any world in this run'):
+                world = st.number_input('World number', min_value=0, max_value=replay_limit - 1, step=1)
+                if st.button('Replay world'):
+                    st.session_state['replayed'] = simulate(s, int(world), selected.levers)
+                if st.session_state.get('replayed'):
+                    timeline(s, st.session_state['replayed'], 'replayed')
+            st.subheader('Branch the selected policy')
+            st.caption('Change one policy setting from this month onward. Earlier months and external draws stay identical. A branch is a conditional experiment, not evidence that the actor would choose the override.')
+            month_options = months(s.scenario.start, s.scenario.end)
+            has_assurance = bool(selected.semantics.get('commitments'))
+            branch_month = st.selectbox('Branch month', month_options,
+                                       index=month_options.index(s.phase('settlement')) if has_assurance else 0)
+            branch_key = st.selectbox('Decision to change', list(s.levers), format_func=pretty,
+                                     index=list(s.levers).index('commitment_priority' if has_assurance else 'credit_size_musd'))
+            branch_value = control(s, branch_key, selected.levers[branch_key], 'branch')
+            if st.button('Branch this history'):
+                try:
+                    branch = dict(month=branch_month, lever=branch_key, value=branch_value)
+                    st.session_state['branch_result'] = simulate(s, selected.world, selected.levers, selected.seed, branch)
+                    st.session_state['branch_parent'] = selected
+                except ValueError as exc:
+                    st.error(str(exc))
+            if st.session_state.get('branch_result'):
+                parent = st.session_state['branch_parent']
+                changed = st.session_state['branch_result']
+                branch_difference(s, parent, changed)
+                story_card(s, changed)
+                st.caption('Branched history')
+                timeline(s, changed, 'branch')
 
 with grid_tab:
     st.subheader('Explore a small choice grid')
@@ -197,6 +254,7 @@ with grid_tab:
 with assumptions_tab:
     st.subheader('Know what produced a history')
     st.write(s.execution.observation_note)
+    st.warning(s.drama.assumption)
     st.caption('Actor utilities, extra execution coefficients, timing defaults and uncertainty ranges are LAB. Existing source labels are retained below.')
     st.json(s.model_dump(by_alias=True), expanded=False)
     st.subheader('Protected facts')

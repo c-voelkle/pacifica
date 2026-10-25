@@ -1,0 +1,165 @@
+{
+  "schema": "timeline-lab-slice-backlog/0.2",
+  "date": "2026-10-25",
+  "scope": "1927–28 bounded dramatic extension authorized by the author",
+  "engine_version": "0.2",
+  "requirements": [
+    {
+      "id": "SLICE-001",
+      "title": "Explicit bounded ontology",
+      "status": "implemented",
+      "spec_requirement_refs": [
+        "TL-068",
+        "TL-069",
+        "TL-070"
+      ],
+      "evidence_files": [
+        "ontology.py",
+        "tests/test_stories.py"
+      ],
+      "limits": [
+        "Full predicate algebra and general ambiguity resolution are not implemented."
+      ]
+    },
+    {
+      "id": "SLICE-002",
+      "title": "Observed commitments and relationship-driven choices",
+      "status": "implemented",
+      "spec_requirement_refs": [
+        "TL-042",
+        "TL-069",
+        "TL-070",
+        "TL-071"
+      ],
+      "evidence_files": [
+        "relationships.py",
+        "scenarios/1927_rescue.yaml",
+        "tests/test_stories.py"
+      ],
+      "limits": [
+        "No general conduct-profile or resource-reservation service; all private assurance premises are LAB."
+      ]
+    },
+    {
+      "id": "SLICE-003",
+      "title": "Open causal story exploration and filters",
+      "status": "implemented",
+      "spec_requirement_refs": [
+        "TL-023",
+        "TL-073"
+      ],
+      "evidence_files": [
+        "stories.py",
+        "app.py",
+        "views.py",
+        "tests/test_stories.py",
+        "tests/test_app.py"
+      ],
+      "limits": [
+        "R1 witness/reliability/minimum-premise searches and campaign optimizers remain deferred."
+      ]
+    },
+    {
+      "id": "SLICE-004",
+      "title": "Traceable defined metrics",
+      "status": "implemented",
+      "spec_requirement_refs": [
+        "TL-015",
+        "TL-016",
+        "TL-022",
+        "TL-025"
+      ],
+      "evidence_files": [
+        "metrics.py",
+        "scenarios/1927_rescue.yaml",
+        "views.py",
+        "tests/test_stories.py"
+      ],
+      "limits": [
+        "Treasury cash, vote margins, import-cover weeks and full financial accounting remain unavailable."
+      ]
+    },
+    {
+      "id": "SLICE-005",
+      "title": "Matched policy branches and portable bookmarks",
+      "status": "implemented",
+      "spec_requirement_refs": [
+        "TL-026",
+        "TL-032",
+        "TL-072",
+        "TL-073"
+      ],
+      "evidence_files": [
+        "stories.py",
+        "model.py",
+        "views.py",
+        "tests/test_stories.py",
+        "tests/test_app.py"
+      ],
+      "limits": [
+        "Only a single policy-from-month branch; general premise/event and multigeneration intervention chains remain deferred."
+      ]
+    },
+    {
+      "id": "SLICE-006",
+      "title": "Source and scope transparency",
+      "status": "implemented",
+      "spec_requirement_refs": [
+        "TL-074",
+        "TL-077"
+      ],
+      "evidence_files": [
+        "BRIEF.md",
+        "ONTOLOGY.md",
+        "README.md",
+        "scenarios/1927_rescue.yaml"
+      ],
+      "limits": [
+        "Independent source-first omission audits, extraction, all applicability contracts and whole-story population remain open."
+      ]
+    }
+  ],
+  "author_acceptance": {
+    "spec_requirement_refs": [
+      "TL-075"
+    ],
+    "status": "pending_author_trial",
+    "criterion": "Retain a previously unconsidered useful idea after assumption disclosure, branch to a further dilemma, and save/replay the evidence.",
+    "automated_tests_do_not_establish": [
+      "literary novelty",
+      "historical likelihood",
+      "full R0 conformance"
+    ]
+  },
+  "remaining": [
+    "Sourced monthly cash/debt/reference accounts and interim liquidity checks",
+    "Actor-scoped conduct and simultaneous resource reservations",
+    "Formal temporal predicates, protected-unknown fixtures and independent content audits",
+    "R1 targeted search, fresh-world reliability assessment and campaign maps",
+    "Resource admission/retention recovery and formal author comparison"
+  ],
+  "validation": {
+    "date": "2026-10-25",
+    "engine_version": "0.2",
+    "automated_test_count": 36,
+    "test_command": "python -m unittest discover -s tests -v",
+    "automated_status": "passed",
+    "focused_ontology_relationship_and_bookmark_checks": "14 passed after final evidence-link addition",
+    "ui": "Streamlit AppTest discovery/filter/metric/compare/branch/grid/export plus live localhost disclosed-breach inspection",
+    "cli": "open exploration and saved bookmark restore passed",
+    "simulation_benchmarks": [
+      {
+        "worlds": 1000,
+        "seconds": 2.6768250000022817,
+        "events": 51937
+      },
+      {
+        "worlds": 10000,
+        "seconds": 28.166413200000534,
+        "events": 519560
+      }
+    ],
+    "timing_scope": "Single host measurements of simulation; not p95 or rendering latency; includes the implemented relationship mechanism.",
+    "author_trial": "pending; no claim of literary novelty or historical calibration"
+  }
+}

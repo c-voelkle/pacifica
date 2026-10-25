@@ -130,7 +130,9 @@ class ModelTests(unittest.TestCase):
             self.assertEqual(any(e['action'] == 'second_bank_run' for e in h.events), bool(probability))
 
     def test_yaml_loader_rejects_duplicate_and_nonstring_keys(self):
-        with tempfile.TemporaryDirectory() as folder:
+        directory = Path(__file__).resolve().parents[1] / 'exports'
+        directory.mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=directory) as folder:
             path = Path(folder) / 'invalid.yaml'
             for source in ('schema: first\nschema: second\n', '1: invalid\n', 'scenario: [unterminated'):
                 path.write_text(source, encoding='utf-8')
