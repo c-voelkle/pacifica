@@ -99,7 +99,7 @@ actors:
     persons:
       hirohito: {registry_id: CT-HIROHITO, role: decides; accepts on Julian's word in canon}
       saionji: {registry_id: CT-SAIONJI, role: last genrō; counsels acceptance to protect the throne from the army}
-      takahashi: {registry_id: CT-TAKAHASHI, role: finance; three-week moratorium; stays in Tokyo, not a common minister}
+      takahashi: {registry_id: CT-TAKAHASHI, role: "finance; three-week moratorium; stays in Tokyo, not a common minister"}
     decisions:
       response_to_offer: [accept, counteroffer, refuse]
       alternative_if_refused: [stop_paying_abroad, let_yen_fall, let_banks_fail]   # APPROVED storyline
@@ -189,24 +189,31 @@ world:
 # ---------------------------------------------------------------------------
 levers:
   credit_size_musd:
+    label: MODEL
     options: [400, 500, 600, 750]
     canon: 600            # MODEL CR-024
   public_share:
+    label: MODEL
     options: [0.25, 0.333, 0.5]
     canon: 0.333          # a third from the Treasury, MODEL CR-024
   tie_to_concord:
+    label: APPROVED
     options: [true, false]
     canon: true           # the crisis brings the Concord to its decisive negotiation
   consent_path:
+    label: APPROVED
     options: [wait_for_senate, provisional_application, renegotiate_first]
     canon: provisional_application   # APPROVED; illegal in substance
   offer_month:
+    label: OPEN
     options: [1927-03, 1927-04, 1927-05]
     canon_window: 1927-03 to 1927-05  # CR-021; exact month OPEN
   promise_in_japanese:
+    label: APPROVED
     options: [true, false]
     canon: true           # Julian gives his word in Japanese
   if_senate_refuses_loan:
+    label: LAB
     options: [keep_word_by_prerogative, private_only, withdraw_offer]
     canon: not_tested     # in canon the Senate votes the loan
   concessions_1928:
@@ -219,14 +226,14 @@ levers:
 # Uncertainty, sampled once per world. All ranges LAB.
 # ---------------------------------------------------------------------------
 uncertainty:
-  share_not_renewed: {dist: uniform, low: 0.65, high: 0.85}
-  sf_syndicate_appetite: {dist: uniform, low: 0.40, high: 0.90}
-  army_opportunism: {dist: uniform, low: 0.10, high: 0.60}
-  senate_mood: {dist: uniform, low: 0.30, high: 0.70}
-  victoria_brokering_skill: {dist: uniform, low: 0.40, high: 0.80}
-  lenders_return_probability: {dist: uniform, low: 0.20, high: 0.50}
-  second_run_if_reserves_short: {dist: bernoulli, p: 0.35}
-  better_offer_appears: {dist: bernoulli, p: 0.05}   # canon: London and New York will not lend at that scale
+  share_not_renewed: {dist: uniform, low: 0.65, high: 0.85, label: LAB}
+  sf_syndicate_appetite: {dist: uniform, low: 0.40, high: 0.90, label: LAB}
+  army_opportunism: {dist: uniform, low: 0.10, high: 0.60, label: LAB}
+  senate_mood: {dist: uniform, low: 0.30, high: 0.70, label: LAB}
+  victoria_brokering_skill: {dist: uniform, low: 0.40, high: 0.80, label: LAB}
+  lenders_return_probability: {dist: uniform, low: 0.20, high: 0.50, label: LAB}
+  second_run_if_reserves_short: {dist: bernoulli, p: 0.35, label: LAB}
+  better_offer_appears: {dist: bernoulli, p: 0.05, label: LAB}   # canon: London and New York will not lend at that scale
 
 # ---------------------------------------------------------------------------
 # Scheduled premises (these do happen) and conditional events
@@ -274,15 +281,15 @@ measures:
 # ---------------------------------------------------------------------------
 canon_reference:
   - {when: 1927-03/05, what: Japan accepts on Julian's word given in Japanese; Saionji advises it, label: APPROVED}
-  - {when: 1927, what: $600m credit committed; about $497m drawn, $166m of it public, label: MODEL}
+  - {when: 1927, what: "$600m credit committed; about $497m drawn, $166m of it public", label: MODEL}
   - {when: 1927, what: Senate votes the rescue loan but refuses the treaty; Tate leads the refusal, label: APPROVED}
-  - {when: 1927, what: Julian claims provisional application, illegal in substance, label: APPROVED}
+  - {when: 1927, what: "Julian claims provisional application, illegal in substance", label: APPROVED}
   - {when: 1927, what: Ka Lōkahi delegations declare for the Concord, label: APPROVED}
   - {when: 1927, what: Japan's Emperor ratifies on conditional Privy Council advice; the Diet votes its quota, label: APPROVED}
   - {when: 1928, what: Victoria wins two-thirds Senate consent and an Act of Indemnity, label: APPROVED}
   - {when: 1928, what: Victoria calls on Tate; his bloc splits and he abstains, label: PROPOSED}
   - {when: 1928, what: Monterey case mooted before judgment; first Council at Hayama, label: APPROVED}
-  - {when: 1929-1933, what: rebuilt banks repay in five instalments, outside this window, label: MODEL}
+  - {when: 1929-1933, what: "rebuilt banks repay in five instalments, outside this window", label: MODEL}
 
 # ---------------------------------------------------------------------------
 # Protected facts and open items the code must respect
@@ -300,3 +307,73 @@ open_items:
   - Scope of the PROPOSED — CR-022 tag over the 1928 concessions sentence.
   - Pacifica's 1927 Treasury cash is not used. Pin it read-only from the workbook only if a fiscal measure is wanted.
   - Every LAB weight and range above is a first guess for tuning, not evidence.
+
+# Execution choices make the prose rules computable, without adding actors or levers.
+# All new coefficients/timing are LAB assumptions, visible in the app and export.
+execution:
+  roles:
+    executive: julian
+    legislature: senate
+    mediator: victoria
+    government: japan_government
+    military: japan_army
+    subscribers: sf_syndicate
+    lenders: foreign_short_lenders
+  worlds:
+    domestic: pacifica
+    partner: japan
+  events:
+    crisis: bad_loans_revealed
+    moratorium: takahashi_moratorium
+    payments: june_foreign_payments_due
+    declaration: ka_lokahi_declaration
+    court: monterey_case
+    council: first_council_at_hayama
+  phases:
+    settlement: {value: 1928-01, label: LAB}
+    council: {value: 1928-01, label: LAB}
+  defaults:
+    offer_month: {value: 1927-03, label: LAB}
+    if_senate_refuses_loan: {value: keep_word_by_prerogative, label: LAB}
+  observation_note: >
+    Offers, votes, ratification, subscriptions, lender withdrawals, cabinet weakness and
+    military posture are public. Trust, decision utilities and private uncertainty draws are
+    author-visible only. Actors act on delivered facts; simultaneous decisions become known
+    next month. The payment deadline uses earlier commitments, not same-month replies.
+    Concessions are presented at settlement unless renegotiate_first is selected.
+    A branch edits one lever from the selected month; it cannot rewrite sunk credit or prior votes.
+    Numeric utility comparisons are LAB, not historical probabilities.
+  coefficients:
+    # LAB split of the funding target into bills due and reserve cover. A reserve
+    # shortfall alone is not a missed payment. This is not a newly approved model amount.
+    reserve_buffer_musd: {value: 375, label: LAB}
+    decision_noise: {value: 0.18, label: LAB}
+    senate_support_base: {value: 0.25, label: LAB}
+    senate_mood_weight: {value: 0.45, label: LAB}
+    senate_opposition_weight: {value: 0.50, label: LAB}
+    loan_approval_threshold: {value: 0.30, label: LAB}
+    loan_refusal_threshold: {value: 0.15, label: LAB}
+    treaty_delay_margin: {value: 0.08, label: LAB}
+    indemnity_threshold: {value: 0.55, label: LAB}
+    broker_threshold: {value: 0.50, label: LAB}
+    public_opposition_threshold: {value: 0.35, label: LAB}
+    subscription_risk_base: {value: 0.90, label: LAB}
+    partial_subscription_margin: {value: 0.15, label: LAB}
+    partial_subscription_fraction: {value: 0.50, label: LAB}
+    government_accept_threshold: {value: 0.05, label: LAB}
+    government_counter_margin: {value: 0.25, label: LAB}
+    government_ratification_threshold: {value: 0.10, label: LAB}
+    army_lobby_threshold: {value: 0.45, label: LAB}
+    army_obstruct_threshold: {value: 0.75, label: LAB}
+    army_growth: {value: 0.025, label: LAB}
+    army_recovery: {value: 0.015, label: LAB}
+    cabinet_run_loss: {value: 0.018, label: LAB}
+    cabinet_obstruction_loss: {value: 0.015, label: LAB}
+    cabinet_failed_payment_loss: {value: 0.12, label: LAB}
+    cabinet_second_run_loss: {value: 0.10, label: LAB}
+    cabinet_recovery: {value: 0.012, label: LAB}
+    london_grievance: {value: 0.25, label: LAB}
+    lender_return_relief: {value: 0.08, label: LAB}
+    alternative_payment_weight: {value: 0.40, label: LAB}
+    alternative_devaluation_weight: {value: 0.35, label: LAB}
+    alternative_liquidation_weight: {value: 0.25, label: LAB}
