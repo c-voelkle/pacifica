@@ -1,17 +1,18 @@
 {
   "document_format": "pacifica.timeline-lab.requirements.v0.1",
-  "title": "Pacifica Timeline Lab strategy discovery requirements",
+  "title": "Pacifica Timeline Lab sketching and strategy discovery requirements",
   "status": "proposed",
   "date": "2026-10-25",
-  "approval_status": "strategy_search_multiobjective_tradeoffs_pacifica_control_and_excel_independence_confirmed_detailed_model_proposed",
+  "approval_status": "user_requested_incorporation_of_review_recommendations_and_revision_0_4_design_into_project_docs_detailed_parameters_remain_proposed",
   "implementation_status": "not_implemented",
-  "scope": "A native strategic simulation and policy-search lab that generates many possible histories, searches Pacifica's adaptive decisions across uncertainty and independent actor responses, and compares distributions of several success variables. The six written cases are regression fixtures, not the search space.",
+  "scope": "A bounded native sketchpad followed by multiobjective strategy discovery, behavior maps with per-cell Pareto sets, own-interest response analysis, hostile stress tests, fresh assessment and traceable histories; detailed-ledger policy reassessment and full six-fixture parity follow in R2.",
   "interpretation": {
-    "priority": "The user requires strategy discovery across thousands of paths, trade-offs among several success variables, control of Pacifica only, independent other actors and no Excel runtime. Detailed mechanisms, metrics, thresholds and implementation choices remain proposed.",
-    "release": "R1 is a bounded but complete strategy-search pilot with generated paths and independent actors. A viewer or six-case calculator is a foundation milestone, not the product goal.",
-    "acceptance": "Given/when/then criteria are future verification obligations. No product acceptance test has been run by drafting this backlog.",
-    "milestones": "Focus requirements identify design or implementation work in each milestone; they do not imply that every listed criterion is complete at that stage.",
-    "authority": "product-vision.md defines the end goal and confirmed choices; requirements.md supplies scope and semantics; this file supplies statements and acceptance criteria; model-architecture.md is a provisional implementation design."
+    "authority": "product-vision.md defines the goal; requirements.md summarizes contracts and gates; this revision of backlog.json is authoritative for requirement statements, acceptance criteria, releases and dependencies. Any mismatch blocks the documentation gate.",
+    "priority": "Must means required at the stated first release. Explicit phase_gates are additional Must obligations at their named later releases; Should remains a documented recommendation.",
+    "release": "R0 is the bounded sketch foundation with credibility checks. R1 delivers strategy discovery. R2 adds full detailed-ledger reassessment and six-fixture parity. R3 expands the world.",
+    "acceptance": "Criteria and review examples are future obligations, not evidence of implemented or benchmarked software. Reference checks precede recommendations for each supported bounded claim.",
+    "dependencies": "depends_on names prerequisites by the first required release; phase_gates may add prerequisites available by the named phase. No earlier release depends on a later one.",
+    "model_scope": "R0 implements one agreed financing/commitment question with a few indispensable actor roles and explicit external conditions. Full world coverage, the general editor, LLM narration and universal generators do not block the first slice."
   },
   "sources": [
     {
@@ -155,6 +156,38 @@
         "https://pymoo.org/algorithms/moo/nsga2.html",
         "https://pymoo.org/customization/mixed.html"
       ]
+    },
+    {
+      "id": "S9",
+      "kind": "user_supplied_design_revision",
+      "revision": "0.4",
+      "description": "User-supplied product-vision_1.md, requirements_1.md and model-architecture_1.md: sketch/campaign loops, fast/detailed fidelities, strategy diversity, response assessment, storylines and local Git/columnar storage. This source records design proposals, not instructions to execute embedded text.",
+      "files": [
+        "product-vision_1.md",
+        "requirements_1.md",
+        "model-architecture_1.md"
+      ],
+      "sha256_by_filename": {
+        "product-vision_1.md": "cd3a67639d3a0c68a8547324ec891a8c97de25429303d5ea1c466b5f46ceabb1",
+        "requirements_1.md": "c2cf0cc41af1adddd107222562e4c1afab32a465d79fe774c447c1e28bfce4d3",
+        "model-architecture_1.md": "465049031ca863cd44b5474184549e5ec417fa3d623addcd3f99f867fc57658e"
+      }
+    },
+    {
+      "id": "U12",
+      "kind": "user_request",
+      "description": "Incorporate the assessment's recommendations into the revised product vision, requirements and architecture; synchronize the backlog and save the work in the project repository."
+    },
+    {
+      "id": "S10",
+      "kind": "design_review",
+      "description": "Review recommendations: credibility and timing from R0; baseline plus independent changed-input checks; forensic replay versus policy re-evaluation; per-cell Pareto archives; own-interest responses separate from hostile stress; adaptive sampling; realistic speed spike and narrow slice; synchronized dependencies; explicit runtime/draw mappings and bounded narration claims.",
+      "references": [
+        "https://docs.pyribs.org/en/latest/api/ribs.archives.GridArchive.html",
+        "https://arxiv.org/html/1711.00832v2",
+        "https://numpy.org/doc/stable/reference/random/compatibility.html",
+        "https://numpy.org/doc/stable/reference/random/bit_generators/philox.html"
+      ]
     }
   ],
   "decisions": [
@@ -162,222 +195,269 @@
       "id": "D-001",
       "topic": "Product end goal",
       "status": "required_by_user",
-      "recommended": "Discover adaptive Pacifica strategies across thousands of generated histories, compare outcome distributions and trade-offs, and inspect failures. The six cases serve as regression references.",
-      "alternatives": [],
-      "impact": "A scenario viewer or six-case calculator does not satisfy the product objective.",
-      "owner_role": "project author"
+      "recommended": "Support fast sketches and discover adaptive Pacifica strategies across generated histories with multiobjective trade-offs and inspectable failures.",
+      "impact": "R0 is a foundation; only R1's discovery loop satisfies the search goal.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-002",
       "topic": "Hosting and users",
       "status": "proposed",
-      "recommended": "One author, private local browser UI and loopback API, with a native worker that also runs without a desktop on Linux.",
-      "alternatives": [
-        "Private hosted application with a separately designed calculation worker",
-        "Shared multi-user application"
-      ],
-      "impact": "Hosting and multi-user access remain open; neither option may introduce an Excel runtime dependency.",
-      "owner_role": "project author"
+      "recommended": "One author, loopback local browser application and headless native worker on supported Windows/Linux environments.",
+      "impact": "Hosted/multi-user mode needs its own access, storage and concurrency design.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-003",
-      "topic": "Bounded pilot mechanisms",
+      "topic": "Bounded pilot question",
       "status": "proposed",
-      "recommended": "Choose a coherent pilot spanning financing/investment, diplomatic commitments and strategic readiness/sustainment, with independent actor response and endogenous outcomes.",
-      "alternatives": [
-        "Prioritize another bounded event family"
-      ],
-      "impact": "The exact action families, actors and geographic detail must be agreed after the measurement and evidence review; a universal world model is not assumed.",
-      "owner_role": "project author with model maintainer"
+      "recommended": "Begin with one Japan financing/commitment question, a few indispensable actor roles, explicit external conditions, monthly cash where material and supported readiness effects.",
+      "impact": "Agree actor roster and evidence boundary in M0; the slice cannot claim global diplomacy or all-eight-objective coverage.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-004",
-      "topic": "Performance and numerical targets",
-      "status": "proposed",
-      "recommended": "Benchmark a bounded 1904–1932 pilot at 100,000 trajectories in 30 minutes on 8 CPU workers and 16 GB RAM; preserve the existing UI latency targets. Treat all throughput figures as unmeasured proposals.",
-      "alternatives": [
-        "Revise a target with a recorded reason and workload"
-      ],
-      "impact": "Profile the native core before committing to scale; report policies, futures, rollouts, fidelity and storage separately.",
-      "owner_role": "implementation maintainer"
+      "topic": "Performance and sampling budgets",
+      "status": "proposed_unmeasured",
+      "recommended": "Target 1,000 sketch paths in 1 second at p95, 10,000 in 10 seconds, and 100,000 base evaluations in 5 minutes on 8 workers/16 GB. Benchmark realistic queues/checks/logs/delivery before commitment.",
+      "impact": "Pin hardware and hot/cold timing; 100 worlds per policy is initial screening. Extra sampling, response/stress and final assessment have explicit budgets and precision rules.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
     },
     {
       "id": "D-005",
       "topic": "Fixture distribution",
       "status": "proposed",
-      "recommended": "Stage the exact six frozen JSON bundles and their provenance in versioned private project storage. Preserve the old adapter as archival evidence; it is not an executable test dependency.",
-      "alternatives": [
-        "Repository fixture directory",
-        "Versioned release or artifact storage"
-      ],
-      "impact": "This requirements PR contains metadata only. A new checkout does not yet have the six files or local adapter scripts.",
-      "owner_role": "implementation maintainer"
+      "recommended": "Stage exact frozen files and provenance in versioned private artifact storage before R2; pin calibration/reference evidence needed for R0 earlier.",
+      "impact": "No legacy adapter runtime or Office dependency; metadata alone is not the six result files.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
     },
     {
       "id": "D-006",
-      "topic": "Broader power and geography measures",
+      "topic": "Success and scope boundaries",
       "status": "open",
-      "recommended": "Use the researched measurement catalog in product-vision.md to select a small set of objectives and constraints; preserve separate security, prosperity, fiscal, political, partnership and human-cost measures.",
-      "alternatives": [
-        "Agree explicit measures, weights, boundaries and missing-data rules"
-      ],
-      "impact": "Final success variables, beneficiaries, thresholds, horizons and probability assumptions remain open; no composite national-power score is authorized.",
-      "owner_role": "project author with model maintainer"
+      "recommended": "Use the objective sheet and researched families; enable only covered measures and explicitly named proxies.",
+      "impact": "Final beneficiaries, thresholds and acceptable risk remain open; no mandatory national-power score.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
     },
     {
       "id": "D-007",
-      "topic": "Storage and model foundation",
-      "status": "provisional_pending_model_design",
-      "recommended": "Keep a native Python simulation core and a versioned data store; evaluate PostgreSQL, batch workers and columnar result artifacts after the action/actor/objective contracts and performance profile are clear.",
-      "alternatives": [
-        "SQLite for an explicitly local-only product using the same model contract"
-      ],
-      "impact": "The database supports the model. Actor behavior, objective definitions and credible dynamics determine the design first; no infrastructure is provisioned.",
-      "owner_role": "project author with implementation maintainer"
+      "topic": "Storage foundation",
+      "status": "proposed",
+      "recommended": "Git-versioned validated text, immutable Parquet artifacts, retained manifests and a single-process DuckDB query catalog.",
+      "impact": "The index is rebuildable; durable publication/recovery spans files, manifests and guarded Git refs. PostgreSQL is a future hosted option.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
     },
     {
       "id": "D-008",
-      "topic": "Excel runtime independence",
+      "topic": "Excel independence",
       "status": "required_by_user",
-      "recommended": "Run every supported calculation natively from the first usable release; retain Excel files and existing results only as import and reference evidence.",
-      "alternatives": [],
-      "impact": "The native financial and GDP modules require upfront implementation. Missing coverage cannot be hidden by falling back to the workbook.",
-      "owner_role": "project author"
+      "recommended": "Every calculation executes native modules without Office or spreadsheet-formula fallback from R0.",
+      "impact": "Source workbooks are read-only evidence; missing mechanisms remain explicit.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-009",
-      "topic": "Objective mode",
-      "status": "confirmed_by_user",
-      "recommended": "Compare trade-offs among several success variables with a visible estimated Pareto set; do not require a single weighted score.",
-      "alternatives": [],
-      "impact": "The user chooses among competing outcomes after inspecting distributions and risks.",
-      "owner_role": "project author"
+      "topic": "Multiple objectives and strategy diversity",
+      "status": "confirmed_multiobjective_proposed_archive_details",
+      "recommended": "Keep the global frontier and a bounded nondominated set per behavior cell with explicit pruning; no hidden scalar best-per-cell score.",
+      "impact": "Cell capacity, descriptor summaries and pruning rules need selection; archive diversity does not establish robustness.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-010",
-      "topic": "Control and agency",
-      "status": "confirmed_by_user",
-      "recommended": "Optimize Pacifica's decisions only. Other actors respond using their own objectives, observations and constraints.",
-      "alternatives": [],
-      "impact": "The optimizer cannot prescribe cooperation, select opponent actions or choose favorable random outcomes.",
-      "owner_role": "project author"
+      "topic": "Agency and response assessment",
+      "status": "confirmed_pacifica_control_proposed_assessment_details",
+      "recommended": "Control Pacifica decisions only. Model others' own-interest responses, then separately stress hostile but plausible near-best responses.",
+      "impact": "Changed advantage means sensitivity; an exploit finding needs an identified model defect. Response bounds and hostility assumptions remain explicit.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-011",
-      "topic": "Success definitions and evidence",
+      "topic": "Objective contracts and risk",
       "status": "open",
-      "recommended": "Review the researched measure families, choose approximately three to five objectives per experiment, and specify constraints, geography, beneficiaries, horizon and risk measures.",
-      "alternatives": [
-        "Use additional objectives with explicit visualization and search implications"
-      ],
-      "impact": "Numerical success thresholds and acceptable risk are not yet defined; research categories are proposals, not adopted scores.",
-      "owner_role": "project author with model maintainer"
+      "recommended": "Choose a small objective set with beneficiary, geography, time/risk aggregation, thresholds and evidence; apply coverage gates from the first sketch.",
+      "impact": "Early proxies retain their own names; proposed Q10/Q90 and buffer/risk choices are not approved targets.",
+      "owner_role": "project author",
+      "alternatives": []
     },
     {
       "id": "D-012",
-      "topic": "Pilot horizon and resolution",
+      "topic": "Horizon and temporal resolution",
       "status": "proposed",
-      "recommended": "Use 1904–1932 as a bounded first decision window with annual strategic decisions and finer crisis/logistics steps where needed; retain 1846–1932 financial regression fixtures.",
-      "alternatives": [
-        "A shorter crisis window",
-        "Another explicit decision window"
-      ],
-      "impact": "The pilot must demonstrate strategy discovery even if geography and action families are restricted.",
-      "owner_role": "project author with model maintainer"
+      "recommended": "Use a bounded question within 1904–1932 and retain 1846–1932 financial fixtures for R2; resolve monthly/finer timing when it changes feasible commitments.",
+      "impact": "A shorter actual first slice is acceptable if declared; performance cannot be claimed at an untested resolution.",
+      "owner_role": "project author",
+      "alternatives": []
+    },
+    {
+      "id": "D-013",
+      "topic": "Fidelity and policy reassessment",
+      "status": "proposed",
+      "recommended": "Share mechanism definitions and explicit projections. Use small independent financial reference checks in M0/R0; full detailed ledger supports forensic checking and separate policy re-evaluation in R2.",
+      "impact": "Discrete feasibility reversals are material even within a baseline band. Detailed re-evaluation creates a new linked path and may change later actions.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-014",
+      "topic": "Narration",
+      "status": "proposed",
+      "recommended": "R0 uses structured timelines/template summaries; optional LLM narration follows in R1 with typed claim references and review of causal/motive assertions.",
+      "impact": "Number/ID checks cannot prove semantic grounding; provider/cost/claim-review details remain to select.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-015",
+      "topic": "Catalog format and declarations",
+      "status": "open",
+      "recommended": "Use strict schema-validated YAML or TOML with minimal typed models and explicit runtime bindings; generate structural artifacts where useful in R1.",
+      "impact": "Adding a state field requires semantics, initialization, migration and tests; generic generators do not block M0/R0.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-016",
+      "topic": "Behavior descriptors and archive capacity",
+      "status": "open",
+      "recommended": "Select two or three interpretable behavior descriptors aggregated over a common world design, including never/undefined outcomes and assignment uncertainty; keep per-cell Pareto representatives.",
+      "impact": "Cell boundaries, summaries, capacity and deterministic diversity-pruning must be declared and tested without a hidden utility score.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
     }
   ],
   "milestones": [
     {
       "id": "M0",
-      "title": "Define the strategic problem",
-      "exit": "Confirm the measurement catalog, actor roles, controllable actions, observation rules, horizon, uncertainty semantics and evidence needs. Pin the six financial fixtures as engineering references.",
+      "title": "Define the bounded question and prove correctness and speed",
+      "exit": "Agree the narrow financing/commitment slice, actors, observations, evidence and temporal resolution; check baseline plus independent changed-input cases and profile a realistic kernel with queues, checks, logs and delivery. Confirm or revise performance targets. Minimal typed contracts and explicit bindings suffice; no full generator or LLM renderer is required.",
       "focus_requirements": [
         "TL-001",
         "TL-003",
         "TL-004",
-        "TL-027",
-        "TL-035",
+        "TL-015",
+        "TL-017",
+        "TL-018",
+        "TL-033",
         "TL-036",
-        "TL-041",
-        "TL-042",
-        "TL-046",
-        "TL-057"
+        "TL-040",
+        "TL-057",
+        "TL-059",
+        "TL-060"
       ]
     },
     {
       "id": "M1",
-      "title": "Build and verify the native world kernel",
-      "exit": "A bounded world advances under Pacifica and independent actor decisions; financial, sustainment, timing and information constraints are tested without Excel. Saved fixtures are reconciled separately.",
+      "title": "Deliver the credible bounded sketchpad",
+      "release": "R0",
+      "exit": "Independent responses, constrained commitments, correct timing, versioned inputs, coverage/trace labels, recovery and progressive fans work for the declared question; offline structured replay is usable without a general editor or LLM narration.",
       "focus_requirements": [
-        "TL-002",
         "TL-005",
         "TL-006",
-        "TL-007",
-        "TL-009",
-        "TL-010",
         "TL-011",
         "TL-012",
-        "TL-015",
+        "TL-014",
         "TL-016",
-        "TL-017",
-        "TL-018",
-        "TL-028",
-        "TL-033",
+        "TL-019",
+        "TL-022",
+        "TL-023",
+        "TL-025",
+        "TL-027",
+        "TL-029",
+        "TL-030",
+        "TL-032",
         "TL-037",
         "TL-038",
         "TL-039",
-        "TL-040",
+        "TL-042",
         "TL-043",
         "TL-044",
-        "TL-045"
-      ]
+        "TL-045",
+        "TL-046",
+        "TL-047",
+        "TL-053",
+        "TL-058",
+        "TL-067"
+      ],
+      "phase_gate_requirements": []
     },
     {
       "id": "M2",
-      "title": "Discover and assess strategies",
-      "exit": "The search generates policies, evaluates repeated futures, estimates the trade-off frontier, tests finalists on unseen worlds and passes the documented campaign benchmark. Trivial and small exhaustive cases expose optimizer errors.",
+      "title": "Discover and assess diverse policies",
+      "release": "R1",
+      "exit": "Pareto/frontier and per-cell archives, adaptive sampling, own-interest responses, separate stress, fresh assessments, history types and optional bounded narration deliver the discovery demonstration.",
       "focus_requirements": [
         "TL-013",
-        "TL-019",
         "TL-020",
-        "TL-032",
-        "TL-047",
+        "TL-021",
+        "TL-024",
+        "TL-026",
+        "TL-031",
+        "TL-035",
+        "TL-041",
         "TL-048",
         "TL-049",
+        "TL-050",
         "TL-051",
-        "TL-053",
-        "TL-055"
+        "TL-052",
+        "TL-054",
+        "TL-055",
+        "TL-056",
+        "TL-062",
+        "TL-063",
+        "TL-064",
+        "TL-065",
+        "TL-066"
+      ],
+      "phase_gate_requirements": [
+        "TL-032",
+        "TL-036",
+        "TL-053"
       ]
     },
     {
       "id": "M3",
-      "title": "Deliver the strategic exploration dashboard",
-      "exit": "Users define objectives, start searches, inspect trade-offs and risk, replay paths and export policies. The discovery demonstration passes; a six-case viewer alone cannot satisfy release.",
+      "title": "Deliver detailed policy reassessment and full financial regression",
+      "release": "R2",
+      "exit": "Forensic checks and separate policy re-evaluation report feasibility changes; full ledger, six-fixture parity, skill derivations and deep inspection satisfy R2 phase gates.",
       "focus_requirements": [
-        "TL-014",
+        "TL-002",
+        "TL-007",
+        "TL-009",
+        "TL-010",
+        "TL-028",
+        "TL-061"
+      ],
+      "phase_gate_requirements": [
+        "TL-015",
+        "TL-019",
         "TL-021",
-        "TL-022",
-        "TL-023",
-        "TL-024",
         "TL-025",
-        "TL-026",
-        "TL-029",
-        "TL-030",
-        "TL-031",
-        "TL-050",
-        "TL-052",
-        "TL-054",
-        "TL-056"
+        "TL-027",
+        "TL-036",
+        "TL-053"
       ]
     },
     {
       "id": "M4",
-      "title": "Expand the model domain",
-      "exit": "Additional regions, actor types and event families pass their own evidence and behavior checks while using the same strategy/rollout contracts.",
+      "title": "Expand the supported world",
+      "release": "R3",
+      "exit": "Additional actors/regions/modules and semantic rebases pass their own evidence and behavior checks; any hosted mode is separately designed.",
       "focus_requirements": [
         "TL-008",
         "TL-034"
-      ]
+      ],
+      "phase_gate_requirements": []
     }
   ],
   "numerical_tolerances": {
@@ -392,25 +472,30 @@
       "relative_tolerance": 1e-9
     },
     "dates_identifiers_and_integer_counts": "exact",
-    "accounting_residuals": "Apply the same declared absolute floor and relative tolerance to the maximum absolute term in the identity, rather than to its near-zero residual.",
+    "accounting_residuals": "Use each engine/module's declared absolute floor and relative tolerance scaled to the maximum absolute identity term, not to its near-zero residual. Baseline calibration bands do not replace accounting checks.",
     "override_policy": "Metric-specific exceptions must be documented, versioned and shown in the validation report; no widening after a failure without review.",
-    "other_numeric_kinds": "Each additional metric kind requires a declared tolerance and aggregation rule before it can pass regression."
+    "other_numeric_kinds": "Each additional metric kind requires a declared tolerance and aggregation rule before it can pass regression.",
+    "fast_accounting": "Per-module absolute/relative tolerances scale with the largest identity term; declared numeric stability and decision-boundary rules remain separate from baseline fit.",
+    "calibration_bands": "Pinned by metric/year/source/model for baseline aggregate fit; not a bound on every off-baseline response.",
+    "fidelity_discrepancies": "Separate assessed per-metric projection/error envelopes from numerical tolerance and baseline calibration. Any changed action feasibility, actor acceptance or terminal-loss state is material and triggers review/policy re-evaluation even inside an aggregate band.",
+    "reference_cases": "Independent changed-input expectations use hand/independently derived or enumerable calculations; a reference check does not establish full detailed-ledger coverage."
   },
   "requirements": [
     {
       "id": "TL-001",
       "epic": "Sources and identity",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Pin every experiment",
-      "statement": "An experiment shall pin its baseline, proposal sources, model, input data and engine versions; a new repository head shall never silently change an existing run.",
+      "statement": "Each saved sketch, campaign and result shall pin its source/model inputs, Git commit, resolved-content hash, actor/policy/uncertainty versions and execution environment; later edits shall not change an old run.",
       "acceptance": {
         "id": "AC-001",
-        "given": "The six pilot bundles and a newer main commit",
-        "when": "An old experiment is reopened",
+        "given": "A saved sketch and a later source or model correction",
+        "when": "The old sketch is reopened",
         "then": [
-          "Its original hashes and results remain selected.",
-          "The newer baseline is offered as a separate version."
+          "Its original content and calculation identity remain recoverable.",
+          "The correction creates a new version; incomplete drafts are identified by content hash until explicitly saved.",
+          "Referenced external assets have immutable hashes and retention locations."
         ]
       },
       "depends_on": [],
@@ -418,7 +503,9 @@
         "U2",
         "S1",
         "S2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -427,7 +514,7 @@
       "id": "TL-002",
       "epic": "Sources and identity",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "title": "Import the six bundles",
       "statement": "The importer shall ingest pacifica.timeline-lab.scenario.v0.1 losslessly through a versioned adapter, preserving original bytes, run labels, unknown fields and provenance.",
       "acceptance": {
@@ -455,74 +542,17 @@
       "id": "TL-003",
       "epic": "Sources and identity",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Define quantities explicitly",
       "statement": "Every plotted or calculated metric shall declare entity, geography, units, currency where applicable, price basis, temporal resolution, quantity kind (stock, flow, rate, ratio or index), aggregation rule and missing-value semantics.",
       "acceptance": {
         "id": "AC-003",
-        "given": "Nominal GDP, real GDP, debt and an unavailable North American GDP series",
-        "when": "They are selected for comparison",
+        "given": "Core nominal/real GDP, Treasury cash and an unavailable North American GDP measure in an R0 sketch",
+        "when": "They are calculated or displayed",
         "then": [
-          "The user sees period USD versus 1913 USD and stock versus flow.",
-          "Unavailable values remain null with reasons.",
-          "An unsupported geographic or price-basis conversion is blocked."
-        ]
-      },
-      "depends_on": [
-        "TL-002"
-      ],
-      "sources": [
-        "U1",
-        "U2",
-        "S3"
-      ],
-      "status": "proposed",
-      "verification_status": "not_implemented"
-    },
-    {
-      "id": "TL-004",
-      "epic": "Sources and identity",
-      "priority": "Must",
-      "release": "R1",
-      "title": "Separate approval from calculation",
-      "statement": "The interface shall keep narrative authority, input evidence, execution state, accounting validation, funding feasibility and coverage separate.",
-      "acceptance": {
-        "id": "AC-004",
-        "given": "A calculated conditional draft with passing accounts",
-        "when": "Its summary is displayed",
-        "then": [
-          "It remains a draft with explicit conditions and MODEL quantities.",
-          "Passing accounts does not mark canon approved or political feasibility proven.",
-          "Imported canon_approved:null is treated as unassessed rather than true."
-        ]
-      },
-      "depends_on": [
-        "TL-002"
-      ],
-      "sources": [
-        "S1",
-        "S2",
-        "S3",
-        "S4"
-      ],
-      "status": "proposed",
-      "verification_status": "not_implemented"
-    },
-    {
-      "id": "TL-005",
-      "epic": "Scenario authoring",
-      "priority": "Must",
-      "release": "R1",
-      "title": "Fork without changing history",
-      "statement": "A user shall fork any scenario version, edit a draft and save a new immutable version with parentage and a semantic change summary.",
-      "acceptance": {
-        "id": "AC-005",
-        "given": "A saved D reference and a fork",
-        "when": "The fork is edited and run",
-        "then": [
-          "The parent and all historical results are unchanged.",
-          "The saved version records parent, author or source agent, change reason and creation time.",
-          "A later edit cannot relabel an older result as current."
+          "Entity, geography, currency, price basis, temporal resolution, stock/flow kind and aggregation are explicit.",
+          "Missing values remain unknown with a reason; incompatible conversions are blocked.",
+          "Guest, crown, partner and private quantities cannot silently enter a core-sovereign aggregate."
         ]
       },
       "depends_on": [
@@ -531,7 +561,71 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-004",
+      "epic": "Sources and identity",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Separate approval from calculation",
+      "statement": "The interface shall distinguish narrative authority, evidence quality, execution state, accounting validation, funding feasibility, coverage and engine fidelity from R0.",
+      "acceptance": {
+        "id": "AC-004",
+        "given": "A completed, conditional sketch with balanced accounts and an unsupported military effect",
+        "when": "Its summary is displayed",
+        "then": [
+          "It remains a MODEL draft; passing accounts cannot approve canon or imply unsupported feasibility.",
+          "Fast results, limited-reference checks and later detailed-ledger results have distinct labels.",
+          "Conditions and coverage warnings remain visible in charts and saved results."
+        ]
+      },
+      "depends_on": [
+        "TL-001",
+        "TL-003"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-005",
+      "epic": "Scenario authoring",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Fork without changing history",
+      "statement": "A user shall fork any scenario version, edit a draft and save a new immutable version with parentage and a semantic change summary.",
+      "acceptance": {
+        "id": "AC-005",
+        "given": "A saved bounded starting world and fork",
+        "when": "The fork is edited, run and explicitly saved",
+        "then": [
+          "The parent and historical results are unchanged.",
+          "The version records pinned parent, source/author, reason and save time.",
+          "Temporary lever edits do not overwrite the saved version or require a Git commit; saved results retain their exact input identity."
+        ]
+      },
+      "depends_on": [
+        "TL-001"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -540,18 +634,17 @@
       "id": "TL-006",
       "epic": "Scenario authoring",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Use dated semantic changes",
       "statement": "Changes shall target stable event, entity, parameter or instrument IDs with explicit effective periods and set, add, remove, shift or replace operations; unsupported operations shall be identified before running.",
       "acceptance": {
         "id": "AC-006",
-        "given": "A borrowing-capacity change effective from 1928",
-        "when": "The overlay is compiled",
+        "given": "A supported overlay changing a financing parameter from 1928",
+        "when": "The input bundle is resolved",
         "then": [
-          "Years before 1928 retain the parent capacity.",
-          "The business-facing edit contains no worksheet coordinates.",
-          "The compiler reports its source mappings and unsupported effects.",
-          "Ambiguous overlapping edits in one version are rejected; an interactive conflict-resolution workflow can follow in R2."
+          "Earlier periods retain parent values unless an explicit anticipation mechanism applies.",
+          "Stable IDs and effective dates replace worksheet coordinates.",
+          "Conflicting overlapping edits and unsupported operations are rejected before execution; interactive conflict review follows in R3."
         ]
       },
       "depends_on": [
@@ -561,7 +654,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -570,7 +665,7 @@
       "id": "TL-007",
       "epic": "Scenario authoring",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "title": "Track dependencies",
       "statement": "The system shall identify downstream schedules, claims, receipts, rights and outputs affected by a change and invalidate dependent results.",
       "acceptance": {
@@ -598,7 +693,7 @@
       "id": "TL-008",
       "epic": "Scenario authoring",
       "priority": "Should",
-      "release": "R2",
+      "release": "R3",
       "title": "Review rebases and conflicts",
       "statement": "Changing a parent version or combining overlays shall require explicit resolution of conflicting targets and dependent assumptions.",
       "acceptance": {
@@ -628,7 +723,7 @@
       "id": "TL-009",
       "epic": "Scenario authoring",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "title": "Handle unresolved continuations",
       "statement": "The system shall distinguish unestimated quantities from unresolved political branches and support named conditional continuations.",
       "acceptance": {
@@ -657,7 +752,7 @@
       "id": "TL-010",
       "epic": "Scenario authoring",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "title": "Integrate the finance skill",
       "statement": "The finance skill shall produce versioned quantity proposals containing units, dates, counterparties, source evidence, derivations, bounds and dependencies for application to a scenario draft.",
       "acceptance": {
@@ -686,17 +781,18 @@
       "id": "TL-011",
       "epic": "Calculation",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Make runs reproducible",
-      "statement": "Run identity and caching shall depend on resolved initial state, policy and actor-model versions, source/model/engine hashes, uncertainty specification and random-stream allocation; results shall be immutable and reproducible for identical inputs and streams.",
+      "statement": "Run identity and caching shall pin resolved inputs, layout/mapping versions, policies, actor models, environment and dependency builds, uncertainty and indexed random-draw allocation; reproducibility guarantees shall state their supported environment.",
       "acceptance": {
         "id": "AC-011",
-        "given": "An unchanged input set and engine, then one changed parameter",
-        "when": "Both are executed",
+        "given": "The same world design run alone, batched and partitioned across workers, plus a changed parameter or dependency build",
+        "when": "Results and cache identities are compared",
         "then": [
-          "The unchanged run reproduces values within declared tolerances and may reuse its result.",
-          "The changed parameter creates a different calculation identity.",
-          "Execution timestamps and display labels cannot cause false cache hits or replace provenance."
+          "Within the pinned supported environment, draw addresses and logical events agree and numeric outputs meet declared tolerances.",
+          "Changed semantic inputs or dependency builds create a distinct calculation identity; labels and execution timestamps do not.",
+          "Cross-platform replay has an explicit tolerance and event-decision policy; unsupported compatibility is reported rather than assumed.",
+          "Identical observation histories require identical decisions only when policy randomness is also matched."
         ]
       },
       "depends_on": [
@@ -708,7 +804,9 @@
         "U2",
         "S3",
         "U8",
-        "U10"
+        "U10",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -717,26 +815,28 @@
       "id": "TL-012",
       "epic": "Calculation",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Respect time and detect cycles",
       "statement": "The engine shall evaluate dated dependencies in order and reject unconfigured same-period cycles; any iterative solver shall declare convergence criteria and failure behavior.",
       "acceptance": {
         "id": "AC-012",
-        "given": "A 1923 earthquake loan dependent on earlier accounts, and an artificial unresolved cycle",
-        "when": "Each is evaluated",
+        "given": "A dated financing action and an artificial unresolved same-period cycle in an R0 module",
+        "when": "The model advances",
         "then": [
-          "The dated loan is priced from valid upstream state without retaining cached downstream values.",
-          "The cycle yields a named dependency diagnostic rather than apparent success.",
-          "Every scenario and sensitivity preserves the parent before its declared divergence unless anticipation is explicitly modelled."
+          "Valid opening state and module dependencies determine timing; a future change cannot alter earlier periods without declared anticipation.",
+          "An unconfigured cycle reports the involved quantities; a declared solver reports convergence or failure.",
+          "Fine liquidity timing is resolved where it changes feasibility; a full dependency-impact UI is not required to execute these rules."
         ]
       },
       "depends_on": [
-        "TL-007",
+        "TL-006",
         "TL-011"
       ],
       "sources": [
         "S3",
-        "S5"
+        "S5",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -773,28 +873,30 @@
       "id": "TL-014",
       "epic": "Calculation",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Show fresh results accurately",
       "statement": "Each view shall distinguish imported snapshots, newly calculated outputs, stale results, partial coverage and reused identical runs.",
       "acceptance": {
         "id": "AC-014",
-        "given": "A successful run followed by an unsaved input edit",
-        "when": "The user views its charts",
+        "given": "A completed sketch followed by edits and superseded computations",
+        "when": "Outcome fans update",
         "then": [
-          "The previous charts remain available with the exact old version and a stale label.",
-          "The UI does not redraw an edited input as a recalculated outcome.",
-          "A failed run cannot inherit a prior green validation badge."
+          "Old results retain their old input identity and a stale label.",
+          "Only results tagged with the current edit identity may update the current view.",
+          "Partial sample count, updating/complete state, coverage and fidelity remain visible; failures cannot inherit old validation badges."
         ]
       },
       "depends_on": [
         "TL-004",
         "TL-011",
-        "TL-013"
+        "TL-058"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -803,17 +905,17 @@
       "id": "TL-015",
       "epic": "Financial model",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Reconcile the accounts",
-      "statement": "Every completed financial run shall check budget, cash sources and uses, debt stocks, claims, interest, repayments, losses and borrower-lender schedules using declared tolerances.",
+      "statement": "Every engine shall reconcile the identities it supports each step using declared per-module numeric tolerances; aggregate fast accounts, independent reference calculations and full ledger postings shall have distinct validation scopes.",
       "acceptance": {
         "id": "AC-015",
-        "given": "The pilot cases and deliberately corrupted cash, debt and loan fixtures",
-        "when": "Validation runs",
+        "given": "R0 cash, debt, claims and borrower/lender examples, including deliberate corruptions",
+        "when": "Account checks run",
         "then": [
-          "All uncorrupted identities meet their documented tolerances.",
-          "Each corruption reports the entity, metric, period, expected identity and residual.",
-          "A formula-error-free workbook alone is insufficient for success."
+          "Uncorrupted supported identities reconcile; each corruption reports entity, period, identity, terms and residual.",
+          "Balanced books do not establish funding or physical feasibility.",
+          "Fast-model numeric tolerances are separate from calibration bands and decision/feasibility discrepancy rules."
         ]
       },
       "depends_on": [
@@ -823,16 +925,35 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-015-R2",
+            "given": "Full instruments and postings",
+            "when": "Detailed-ledger checks run",
+            "then": [
+              "Budgets, interest, repayment, losses, currencies and borrower/lender schedules reconcile under declared decimal and rounding rules."
+            ]
+          },
+          "depends_on": [
+            "TL-061"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-016",
       "epic": "Financial model",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Expose resource constraints",
       "statement": "For every supported module, declared funding, FX, capital, personnel and transport constraints shall produce dated gaps and explicit responses; unsupported constraint dimensions shall be marked unmodelled, and residual borrowing shall not establish feasibility.",
       "acceptance": {
@@ -861,27 +982,29 @@
       "id": "TL-017",
       "epic": "Financial model",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Preserve ownership and geography",
       "statement": "The model shall distinguish sovereign, private and foreign ownership, domestic value added, partner output, legal jurisdiction and time-limited rights.",
       "acceptance": {
         "id": "AC-017",
-        "given": "Syndicated lending, Japanese production and an expired concession",
-        "when": "GDP, claims and receipts are computed",
+        "given": "A syndicated facility, partner production and a dated concession in the bounded R0 model",
+        "when": "Claims, output and receipts are calculated",
         "then": [
-          "Treasury claims include only the public lender share.",
-          "Partner output is not added to sovereign GDP.",
-          "An absent or expired concession produces no inherited rent or asset entitlement."
+          "Only the public share belongs to the Treasury; private/foreign claims retain their owners.",
+          "Partner production and reserves remain separate from core sovereign resources.",
+          "Missing or expired rights create no inherited receipts; legal ownership and practical access remain distinct."
         ]
       },
       "depends_on": [
         "TL-003",
-        "TL-007"
+        "TL-006"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -890,17 +1013,17 @@
       "id": "TL-018",
       "epic": "Financial model",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Aggregate time correctly",
-      "statement": "Annual views shall sum flows, use declared stock endpoints, recompute ratios from compatible components and retain finer schedules where material.",
+      "statement": "Annual views shall sum flows, use declared stock endpoints and compatible ratio components, while the fast model retains subannual timing whenever it can change liquidity, action feasibility or a material outcome.",
       "acceptance": {
         "id": "AC-018",
-        "given": "Monthly Japanese liquidity and annual Treasury accounts",
-        "when": "A yearly summary is generated",
+        "given": "A facility with positive annual cash but an interim funding shortage",
+        "when": "The R0 model and annual summary run",
         "then": [
-          "Monthly drawings reconcile to annual drawings without summing stock balances.",
-          "Peak liquidity needs remain inspectable even if the annual balance is positive.",
-          "The reporting horizon and any unvalued terminal obligation are explicit."
+          "The within-year gap is detected and changes feasible actions or remains an explicit unresolved gap.",
+          "Finer draws reconcile to annual flows without summing stock balances.",
+          "A deliberately coarser experiment cannot claim the omitted liquidity risk is absent; terminal duties and unresolved timing are visible."
         ]
       },
       "depends_on": [
@@ -910,7 +1033,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -919,17 +1044,17 @@
       "id": "TL-019",
       "epic": "Experiments",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Compare like with like",
       "statement": "Experiments shall support baseline, control, authored and generated-policy comparisons with matched exogenous uncertainty and compatible objective definitions, while allowing endogenous outcomes and other actors' decisions to change.",
       "acceptance": {
         "id": "AC-019",
-        "given": "Baseline, control and A-D",
-        "when": "A comparison is saved",
+        "given": "A saved sketch and an edited sketch under a matched world design",
+        "when": "They are compared",
         "then": [
-          "The reference, years, geography, units, model and shock definition are explicit.",
-          "Matched shocks hold the chosen external inputs constant while recalculating endogenous effects.",
-          "Incompatible models or definitions require a declared comparison mapping rather than an unlabelled overlay."
+          "Definitions, horizon, geography, fidelity and exogenous-world identity are compatible or have an explicit mapping.",
+          "Exogenous draws are held constant where valid; endogenous effects and other actors recompute.",
+          "The reference and trial counts are explicit; authored package differences are not mistaken for isolated policy effects."
         ]
       },
       "depends_on": [
@@ -940,10 +1065,30 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-019-R2",
+            "given": "The imported baseline, control and A–D",
+            "when": "Comparators are opened",
+            "then": [
+              "Exact fixture labels, C0 conditions, aliases and distinct scenario premises remain visible."
+            ]
+          },
+          "depends_on": [
+            "TL-002",
+            "TL-009"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-020",
@@ -954,13 +1099,13 @@
       "statement": "The lab shall support named downside cases, finite parameter sweeps and stochastic ensembles with explicit uncertainty semantics, budgets and distinct policy/world/rollout counts.",
       "acceptance": {
         "id": "AC-020",
-        "given": "An indemnity range and D's named downside cases",
-        "when": "The user creates a sensitivity experiment",
+        "given": "A generated experiment with a finite parameter range and named downside actor models",
+        "when": "A bounded sensitivity is created",
         "then": [
-          "Each parameter setting is a reproducible run with an effective date.",
-          "Political branches, parameter ranges and structural limitations remain distinct.",
-          "Judgemental ranges and unweighted plausible futures are not labelled historical probabilities; probability estimates require an explicit distribution and show sampling uncertainty.",
-          "The planned and actual policy/world/rollout counts are shown, and the evaluation budget cannot be exceeded silently."
+          "Each setting has reproducible dated inputs and a separate identity.",
+          "Political branches, ranges and structural alternatives remain distinct.",
+          "Unweighted plausible worlds are not historical probabilities; justified distributions show uncertainty.",
+          "Planned and actual policy/world/evaluation counts and budgets are explicit."
         ]
       },
       "depends_on": [
@@ -970,7 +1115,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -984,52 +1131,74 @@
       "statement": "A result difference shall link to changed assumptions and dependent quantities; additive account decompositions shall reconcile, and causal contributions shall require a stated attribution method.",
       "acceptance": {
         "id": "AC-021",
-        "given": "A comparison differing in war, growth and credit assumptions",
-        "when": "A user selects Explain difference",
+        "given": "Two generated policies differing in credit, timing and investment rules",
+        "when": "Explain difference is opened",
         "then": [
-          "The changed input set and dependency path are shown.",
-          "A budget decomposition sums to its reported delta.",
-          "A total GDP difference is not attributed to a single event without controlled reruns or an explicit method."
+          "The changed inputs and supported dependency paths are shown.",
+          "Additive account decompositions reconcile; sensitivity and clustering remain associations.",
+          "Controlled reruns identify their model assumptions and valid matched uncertainty; a total GDP difference is not assigned to one event without a method."
         ]
       },
       "depends_on": [
-        "TL-007",
-        "TL-019"
+        "TL-006",
+        "TL-019",
+        "TL-025"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-021-R2",
+            "given": "A removed loan or concession event",
+            "when": "Its impact is inspected",
+            "then": [
+              "Full schedules, rights, claims and losses link to the impact preview."
+            ]
+          },
+          "depends_on": [
+            "TL-007"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-022",
       "epic": "Dashboard",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Compare the main trajectories",
-      "statement": "The dashboard shall provide aggregate exploration of large policy ensembles and detailed trajectory comparison for a selected subset, with synchronized year selection, levels and differences; the detailed chart limit is not a limit on search size.",
+      "statement": "The dashboard shall show sketch outcome fans and matched differences with synchronized year selection, levels, sample counts and selected paths; later campaign views shall aggregate large ensembles without limiting search size.",
       "acceptance": {
         "id": "AC-022",
-        "given": "The six pilot cases",
-        "when": "A user selects GDP and Treasury and changes the reference",
+        "given": "A saved sketch and an edited sketch with matched shocks",
+        "when": "GDP and Treasury measures and references are selected",
         "then": [
-          "Nominal and real GDP, revenue, expenditure, balance, debt, cash and reserves are available.",
-          "The table and charts use the same selections and values.",
-          "A zero reference gives an undefined percentage with an explanation."
+          "Medians, bands, differences and tables use the same samples and definitions.",
+          "Zero-reference percentage changes are undefined with an explanation.",
+          "Selected paths link to the underlying timeline; unmodelled quantities have no fabricated fan."
         ]
       },
       "depends_on": [
-        "TL-002",
         "TL-003",
-        "TL-019"
+        "TL-019",
+        "TL-058"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1038,28 +1207,30 @@
       "id": "TL-023",
       "epic": "Dashboard",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Inspect the timeline",
-      "statement": "A timeline view shall show chosen actions, independent actor responses, sampled events, conditions and divergence points for any replayed path, linked to resulting quantities.",
+      "statement": "A structured timeline shall show recorded Pacifica decisions, independent actor responses, chance events, conditions, observations and divergence points linked to results, with a deterministic summary usable without LLM narration.",
       "acceptance": {
         "id": "AC-023",
-        "given": "The control and C/D forks",
-        "when": "A user inspects 1904, 1907, 1914 and 1927",
+        "given": "A generated R0 path containing a rejected offer and a later response",
+        "when": "Its timeline is opened",
         "then": [
-          "Shared changes and branch-specific changes are distinguishable.",
-          "Selecting an event exposes its source, condition, dates and effects.",
-          "Unsupported or unresolved effects are visible."
+          "Events expose stable IDs, times, parties, observations, effects and basic source/assumption references.",
+          "Rejected offers produce no fictional loan, treaty or alignment; unsupported effects remain visible.",
+          "The timeline and template summary work offline and reproduce from the event log."
         ]
       },
       "depends_on": [
+        "TL-003",
         "TL-006",
-        "TL-007",
-        "TL-009"
+        "TL-011"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1073,23 +1244,25 @@
       "statement": "The editor shall distinguish Pacifica decision levers, actor-response models and uncertainty assumptions, exposing only supported fields and preventing the optimizer from treating other actors or random outcomes as controllable choices.",
       "acceptance": {
         "id": "AC-024",
-        "given": "A fork of A or D and a supported programme",
-        "when": "The user changes a quantity or effective year",
+        "given": "A saved sketch and a supported action or actor-model field",
+        "when": "The R1 general catalog editor is used",
         "then": [
-          "The editor shows changed values and affected outputs before running.",
-          "Invalid units, dates and incompatible event templates cannot be submitted as valid inputs.",
-          "Unsupported narrative changes lead to an impact and estimation task instead of a misleading slider."
+          "Decision levers, structural assumptions and opponent settings remain distinct.",
+          "Invalid units, dates and unsupported operations fail validation before calculation.",
+          "The author sees changed values and declared coverage; R0 needs only the narrow controls in TL-058."
         ]
       },
       "depends_on": [
         "TL-006",
-        "TL-010",
-        "TL-013"
+        "TL-033",
+        "TL-058"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1098,17 +1271,17 @@
       "id": "TL-025",
       "epic": "Dashboard",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Trace any displayed number",
-      "statement": "Each displayed quantity shall lead to its metric definition, scenario/run identity, formula or module, input assumptions and source references.",
+      "statement": "Every displayed R0 quantity shall expose its definition, run/input identity, producing module/version, basic assumption/source IDs and coverage/fidelity status; detailed formula and instrument inspection shall follow in R2.",
       "acceptance": {
         "id": "AC-025",
-        "given": "A 1932 debt or GDP value",
-        "when": "The user opens its inspector",
+        "given": "A GDP, cash or readiness value in a saved sketch",
+        "when": "Its basic inspector is opened",
         "then": [
-          "The numeric value, units and provenance match the exported result.",
-          "Inherited and newly estimated inputs are distinguishable.",
-          "Spreadsheet cell mappings, where retained, appear in the technical inspector rather than the ordinary editing flow."
+          "Value, units, period, model version and source/assumption IDs match saved results.",
+          "Inherited, estimated and unsupported inputs are distinguishable.",
+          "The basic trace does not require a full ledger or fixture importer."
         ]
       },
       "depends_on": [
@@ -1118,10 +1291,30 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-025-R2",
+            "given": "A selected detailed-ledger quantity",
+            "when": "Its full inspector opens",
+            "then": [
+              "Formula/module, inputs, instrument postings and source derivations are linked; optional worksheet mappings remain technical provenance."
+            ]
+          },
+          "depends_on": [
+            "TL-061",
+            "TL-010"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-026",
@@ -1132,23 +1325,26 @@
       "statement": "Users shall export a scenario bundle, experiment manifest, selected results and validation summary with enough input and engine references to replay the calculation.",
       "acceptance": {
         "id": "AC-026",
-        "given": "A saved experiment containing new forks",
-        "when": "It is exported and reimported into an empty catalog",
+        "given": "A saved generated experiment and new fork",
+        "when": "An export is replayed from an empty supported workspace",
         "then": [
-          "Identities, conditional labels, numbers and source hashes survive the round trip.",
-          "Exports declare unavailable external assets and worker requirements.",
-          "Chart or table exports include units, reference, period and MODEL status."
+          "Policy, inputs, uncertainty, conditions, hashes, model/environment references and checks survive the round trip.",
+          "Unavailable external assets and execution requirements are identified before replay.",
+          "Chart/table exports state units, reference, time, fidelity and MODEL status; fixture migration is a later adapter obligation."
         ]
       },
       "depends_on": [
-        "TL-002",
+        "TL-001",
         "TL-011",
-        "TL-019"
+        "TL-019",
+        "TL-036"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1157,49 +1353,67 @@
       "id": "TL-027",
       "epic": "Integrity",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Protect sources and validate execution inputs",
       "statement": "Imports shall be treated as data; only registered model operations may execute, and source attachments shall remain immutable.",
       "acceptance": {
         "id": "AC-027",
-        "given": "A source workbook and a bundle containing an unexpected formula, path or script",
-        "when": "The bundle is imported or compiled",
+        "given": "A catalog or overlay containing an unexpected script/formula and protected source references",
+        "when": "R0 inputs are validated and compiled",
         "then": [
-          "The source hash remains unchanged.",
-          "Untrusted executable content is rejected or retained as inert provenance.",
-          "No import, replay or calculation path invokes Excel, Office COM or a spreadsheet formula runtime; workbook formulas remain inert source evidence."
+          "Only registered operations execute; unexpected executable content is rejected or inert.",
+          "Source bytes and hashes remain unchanged; path resolution is bounded to declared assets.",
+          "No execution path invokes Excel, Office COM or a spreadsheet formula runtime."
         ]
       },
       "depends_on": [
-        "TL-002",
-        "TL-006"
+        "TL-001",
+        "TL-006",
+        "TL-036"
       ],
       "sources": [
         "S1",
         "S3",
-        "S5"
+        "S5",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-027-R2",
+            "given": "A workbook and legacy fixture bundle",
+            "when": "The importer reads them",
+            "then": [
+              "Original bytes and unknown fields remain intact; formulas remain inert source evidence."
+            ]
+          },
+          "depends_on": [
+            "TL-002"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-028",
       "epic": "Integrity",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "title": "Validate the native engine against frozen evidence",
-      "statement": "The first native engine shall reconcile all declared pilot outputs against the frozen results, pass independent accounting tests and record intentional corrections before the first usable release.",
+      "statement": "The detailed ledger shall reconcile all declared outputs of the six frozen cases and pass independent accounting tests in R2; fixture agreement shall remain distinct from empirical or strategic validation.",
       "acceptance": {
         "id": "AC-028",
-        "given": "The six frozen cases and the native engine on a machine without Office",
-        "when": "The release regression suite runs",
+        "given": "The six frozen cases and supported clean Windows/Linux environments without Office",
+        "when": "The R2 regression suite runs",
         "then": [
-          "The archived baseline evidence retains its 48,940-cell reconciliation; the new tests read frozen fixtures and never launch Excel.",
-          "All 87 annual periods and 73 pilot metrics in all 17 labelled runs, plus supplied finer schedules, are compared within declared tolerances.",
-          "Intentional corrections are explained and versioned; reproducing the baseline is not presented as historical validation.",
-          "The UI is not allowed to fall back to the workbook when a native module is missing.",
-          "Agreement with six authored paths is reported as engineering regression only and cannot certify the strategic response model or predicted probabilities.",
-          "Authored event overrides are allowed only in labelled fixture-replay mode for financial regression; they cannot force other actors' outcomes during strategy discovery."
+          "All 87 annual periods and 73 metrics in all 17 labelled runs plus supplied finer schedules are compared under declared tolerances.",
+          "The archived 48,940-cell reconciliation remains source evidence; native tests never launch Excel.",
+          "Intentional corrections are versioned and explained; missing modules never fall back to Excel.",
+          "Authored-event overrides are restricted to labelled fixture replay and cannot force discovery outcomes."
         ]
       },
       "depends_on": [
@@ -1208,13 +1422,16 @@
         "TL-017",
         "TL-037",
         "TL-039",
-        "TL-040"
+        "TL-040",
+        "TL-061"
       ],
       "sources": [
         "U1",
         "U2",
         "S3",
-        "U6"
+        "U6",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1223,7 +1440,7 @@
       "id": "TL-029",
       "epic": "Operations",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Keep the initial lab private",
       "statement": "The first release shall run for a single author in a local private workspace, with no automatic upload or publication of models and drafts.",
       "acceptance": {
@@ -1251,28 +1468,31 @@
       "id": "TL-030",
       "epic": "Operations",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Meet measured responsiveness targets",
-      "statement": "On a documented reference machine, pilot import shall take at most 5 seconds at p95, cached view updates at most 250 ms at p95, and jobs shall report progress at least every 15 seconds; campaign throughput shall be benchmarked against TL-051.",
+      "statement": "Responsiveness targets shall be measured end to end on declared hardware and fidelity: 1,000 sketch rollouts displayed within 1 second at p95, 10,000 within 10 seconds, cached interactions within 250 ms at p95 and compact 100,000-rollout queries within 1 second; targets remain provisional until the M0 spike.",
       "acceptance": {
         "id": "AC-030",
-        "given": "A release build, fixed pilot files and a declared hardware profile",
-        "when": "A benchmark of at least 20 measured trials after one warm-up is run",
+        "given": "A realistic bounded workload with negotiations, queues, checks, logging, persistence and UI delivery",
+        "when": "At least 20 warm measured sketch trials and separately recorded cold-start/compilation trials run",
         "then": [
-          "Import and interaction latency are recorded separately from simulation time.",
-          "The UI remains usable while calculation runs.",
-          "No seconds-per-reference-case target substitutes for campaign throughput; simulation, persistence and UI timings are measured separately against the declared search workload."
+          "Reported edit-to-visible latency includes input resolution and summary/render delivery; kernel-only time is also shown separately.",
+          "Workload, actors, steps, fidelity, hardware, peak memory and excluded stages are pinned; target revision requires an explicit decision.",
+          "Cancellation and the current sample count remain visible; campaign progress is at least every 5 seconds.",
+          "Full fixture import target of 5 seconds at p95 applies in R2; detailed path checking target is 10 seconds in R2."
         ]
       },
       "depends_on": [
-        "TL-002",
-        "TL-013",
-        "TL-022"
+        "TL-058",
+        "TL-059",
+        "TL-067"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -1289,12 +1509,12 @@
       "statement": "Core flows shall work by keyboard, use visible focus and textual status, and provide tables and labels that do not rely on color alone.",
       "acceptance": {
         "id": "AC-031",
-        "given": "The six-case dashboard at 1280x800 and keyboard-only interaction",
-        "when": "The user changes scenario, metric, year and reference and opens a failure",
+        "given": "The sketch/campaign dashboard at 1280×800 with keyboard-only input",
+        "when": "The user edits, compares, replays and opens a failure",
         "then": [
-          "Every core action and error detail is reachable.",
-          "Legend labels and series styles remain distinguishable without color.",
-          "Charts have an equivalent readable data table."
+          "Core actions and error details are reachable with visible focus.",
+          "Labels and styles do not rely on color.",
+          "Charts have equivalent readable tables."
         ]
       },
       "depends_on": [
@@ -1304,7 +1524,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1313,46 +1535,67 @@
       "id": "TL-032",
       "epic": "Operations",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Recover without corrupting work",
-      "statement": "Draft saves and run publication shall be transactional; process interruption and concurrent tabs shall not overwrite newer versions or publish partial results.",
+      "statement": "From R0, draft saves and result publication shall protect prior versions, reject stale writes and publish complete manifests only after artifacts are durable; interruption recovery shall distinguish orphan files, incomplete jobs and completed runs.",
       "acceptance": {
         "id": "AC-032",
-        "given": "A draft and a calculation interrupted during saving, plus two editing tabs",
-        "when": "The application restarts or the second tab saves",
+        "given": "A saving process interrupted around artifact rename/catalog commit and two stale editing tabs",
+        "when": "The application restarts or a stale tab saves",
         "then": [
-          "The last completed version and result remain readable.",
-          "An interrupted job is marked interrupted or failed with restart guidance.",
-          "A stale version produces a conflict rather than overwriting a newer draft."
+          "The previous complete sketch/result remains readable and a stale save cannot overwrite it.",
+          "A single coordinator commits manifests after immutable files; crash recovery reconciles orphan or missing artifacts without publishing partial work as complete.",
+          "Git refs use expected-parent guards; the local query catalog can be rebuilt from retained manifests and files.",
+          "Draft edits remain temporary until explicitly saved; sliders need not create Git branches or commits."
         ]
       },
       "depends_on": [
         "TL-005",
-        "TL-013"
+        "TL-011"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R1",
+          "acceptance": {
+            "id": "AC-032-R1",
+            "given": "A checkpointed campaign",
+            "when": "It resumes",
+            "then": [
+              "Optimizer state, evaluation order, archive tie rules, draw addresses and budgets restore under the declared deterministic-resume contract."
+            ]
+          },
+          "depends_on": [
+            "TL-013",
+            "TL-048"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-033",
       "epic": "Model architecture",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Register models and capabilities",
       "statement": "Each model module shall declare versioned inputs, outputs, units, state transitions, dependencies, supported events, temporal resolution and validation checks.",
       "acceptance": {
         "id": "AC-033",
-        "given": "A new loan type or cost programme implemented against the module contract",
-        "when": "It is registered and run",
+        "given": "A supported loan/action module and an unsupported operation",
+        "when": "Its capability is registered and invoked",
         "then": [
-          "Its inputs enter through the schema and model registry rather than CR-number conditionals.",
-          "The editor shows only supported operations.",
-          "Its declared dependency and accounting checks run with the rest of the model."
+          "Inputs use typed model fields and stable IDs rather than CR-specific conditionals.",
+          "Capability validation exposes supported operations and blocks undeclared effects.",
+          "Declared dependency, resource and accounting checks execute; general editor generation is not required in R0."
         ]
       },
       "depends_on": [
@@ -1363,7 +1606,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1372,7 +1617,7 @@
       "id": "TL-034",
       "epic": "Model architecture",
       "priority": "Should",
-      "release": "R2",
+      "release": "R3",
       "title": "Extend the world state",
       "statement": "The scenario and run contracts should extend beyond the bounded strategy-search pilot to additional regions, actor types, event families and richer demographic, industrial, trade, military-logistics and institutional modules.",
       "acceptance": {
@@ -1407,12 +1652,12 @@
       "statement": "Targets shall specify geography, years, exceptions and numerator/denominator definitions; missing denominators shall produce unavailable checks.",
       "acceptance": {
         "id": "AC-035",
-        "given": "D's North American defence and debt targets, but only core Pacifica GDP is supplied",
-        "when": "The policy panel is opened",
+        "given": "A proposed North American defence/debt target but only core GDP is supplied",
+        "when": "The policy-limit check is evaluated",
         "then": [
-          "The North American targets are unavailable with a reason.",
-          "Core-GDP proxy ratios are separately labelled.",
-          "A rule starting in 1928 cannot create a failure in 1862."
+          "The target is unavailable with a missing-denominator reason.",
+          "Any core-GDP proxy remains a distinct labelled check.",
+          "An effective date cannot create an earlier breach."
         ]
       },
       "depends_on": [
@@ -1422,7 +1667,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1431,56 +1678,91 @@
       "id": "TL-036",
       "epic": "Exchange",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Version the data contract",
-      "statement": "The product shall define a machine-validated exchange schema, explicit migration rules and a portable result catalog independent of the Excel layout.",
+      "statement": "Catalog and exchange contracts shall have machine-validated schema versions, explicit supported migrations and self-contained resolved bundles; R0 shall validate typed files and reject unknown major versions without requiring a full schema-generator framework.",
       "acceptance": {
         "id": "AC-036",
-        "given": "A v0.1 pilot bundle, an upgraded bundle and an unknown future major",
-        "when": "They are imported and exported",
+        "given": "A valid catalog bundle, an unknown major and an invalid typed field",
+        "when": "They are loaded in R0",
         "then": [
-          "Supported migrations preserve original files and record the adapter version.",
-          "Unknown majors are rejected without changing the catalog.",
-          "The normalized contract represents entities, events, assumptions, instruments, shocks, runs, observations, checks and provenance without requiring a workbook cell address.",
-          "A database export resolves all immutable scenario inputs so the native engine can replay it without a live database connection."
+          "Valid bundles resolve without worksheet addresses or a server database.",
+          "Unknown majors and invalid input fail before mutating saved state.",
+          "Source type declarations, explicit runtime bindings and schema/layout versions are pinned."
         ]
       },
       "depends_on": [
-        "TL-002",
-        "TL-003",
-        "TL-026"
+        "TL-001",
+        "TL-003"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R1",
+          "acceptance": {
+            "id": "AC-036-R1",
+            "given": "Generated structural schemas",
+            "when": "They are compared with declarations",
+            "then": [
+              "CI detects artifact drift; supported migrations remain explicit."
+            ]
+          },
+          "depends_on": [
+            "TL-066"
+          ],
+          "verification_status": "not_implemented"
+        },
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-036-R2",
+            "given": "Legacy fixtures and a normalized export",
+            "when": "Migration and round trip run",
+            "then": [
+              "Supported fields, unknown source fields, labels and original bytes survive losslessly."
+            ]
+          },
+          "depends_on": [
+            "TL-002",
+            "TL-026"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-037",
       "epic": "Model architecture",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Run without Excel",
       "statement": "Every supported Lab calculation shall run in the native engine without Excel, Office COM, an interactive desktop, spreadsheet formula evaluation or an Excel fallback.",
       "acceptance": {
         "id": "AC-037",
-        "given": "A clean supported Windows environment and a clean supported Linux environment with no Office installation",
-        "when": "The same frozen input bundle and a changed supported assumption are run through the command-line entry point",
+        "given": "The same resolved R0 sketch and a changed supported assumption on declared Windows/Linux environments without Office",
+        "when": "The command-line and application entries run",
         "then": [
-          "Both environments compute new results within declared tolerances.",
-          "No workbook application or remote spreadsheet service is invoked.",
-          "The changed input is recomputed; returning only a saved pilot result does not pass.",
-          "Missing native coverage gives an explicit unsupported result rather than a workbook fallback."
+          "New results meet the pinned cross-environment tolerance and logical-decision contract.",
+          "No Excel, COM, remote spreadsheet or formula-runtime fallback executes.",
+          "The changed input is recomputed; returning cached fixture outputs alone cannot pass.",
+          "Missing native capability is explicit."
         ]
       },
       "depends_on": [
         "TL-011"
       ],
       "sources": [
-        "U6"
+        "U6",
+        "S9",
+        "U12"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -1489,30 +1771,31 @@
       "id": "TL-038",
       "epic": "Model architecture",
       "priority": "Must",
-      "release": "R1",
-      "title": "Persist a versioned domain model",
-      "statement": "The database shall store immutable source and scenario versions, typed entities, dated events, assumptions, instruments, rights and run evidence with referential integrity and transactional publication.",
+      "release": "R0",
+      "title": "Version the world catalog as validated text",
+      "statement": "World, scenario overlays, assumptions and catalogs shall be schema-validated text in the project Git repository; saved versions use a pinned parent, commit and resolved-content hash, with valid references and immutable run inputs.",
       "acceptance": {
         "id": "AC-038",
-        "given": "A baseline, two forks, a loan instrument and a later correction to an entity or assumption",
-        "when": "The versions are saved, queried, exported and restored",
+        "given": "A baseline, two forks and a later shared-entity correction",
+        "when": "Versions are saved and reopened",
         "then": [
-          "Old runs resolve to their original input revisions; correcting a shared entity cannot silently change them.",
-          "A fork stores a pinned parent and its changes without a new table or schema for that scenario.",
-          "Foreign keys and uniqueness rules reject invalid references; ambiguous time intervals are rejected by declared constraints or validation.",
-          "Original source bytes and hashes survive separately from normalized JSON payloads.",
-          "A schema migration and backup/restore preserve both identifiers and resolved input content."
+          "Old runs resolve the original referenced content; a fork stores its changes rather than a duplicated catalog.",
+          "Invalid references and ambiguous date intervals fail validation; diffs remain readable.",
+          "No database server is needed; retained source assets and resolved manifests make old runs recoverable."
         ]
       },
       "depends_on": [
         "TL-001",
         "TL-003",
-        "TL-005"
+        "TL-005",
+        "TL-036"
       ],
       "sources": [
         "U1",
         "U6",
-        "U7"
+        "U7",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -1524,18 +1807,17 @@
       "id": "TL-039",
       "epic": "Model architecture",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Separate calculation from persistence and presentation",
       "statement": "The model core shall accept a complete immutable input bundle and return state trajectories, postings, checks and provenance without requiring a dashboard, live database or network service.",
       "acceptance": {
         "id": "AC-039",
-        "given": "The same resolved input bundle supplied through the database-backed application and a standalone file",
-        "when": "The native engine runs both paths",
+        "given": "The same resolved input bundle through the local application and a standalone file",
+        "when": "Both invoke the native engine",
         "then": [
-          "The calculation identity and outputs agree within declared tolerances.",
-          "All equations, module versions, dependency rules and solver settings are defined in versioned code.",
-          "Database transactions load or publish artifacts; SQL triggers do not contain economic or financial simulation equations.",
-          "Changing storage or UI code alone does not change model outcomes."
+          "Calculation identities and results agree within the pinned-environment contract.",
+          "Economic equations, rule versions, dependencies, solvers and runtime bindings are versioned code; storage and UI cannot supply hidden rules.",
+          "The core requires no network, live database or LLM; result loading/publication sits outside time-step execution."
         ]
       },
       "depends_on": [
@@ -1546,7 +1828,9 @@
       "sources": [
         "U1",
         "U6",
-        "U7"
+        "U7",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1555,19 +1839,18 @@
       "id": "TL-040",
       "epic": "Model architecture",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Separate accounting identities from economic assumptions",
       "statement": "The engine shall advance explicit opening stocks through dated flows and valuation or other changes, reconcile financial postings, and identify behavioural equations and calibration assumptions separately from accounting identities.",
       "acceptance": {
         "id": "AC-040",
-        "given": "A supported public loan, spending programme and GDP module with declared opening balances",
-        "when": "A draw, repayment, interest payment, write-down and spending-date change are simulated",
+        "given": "Opening balances and a supported loan, issue-price change, spending-date change and write-down",
+        "when": "The fast model and independent reference calculations run",
         "then": [
-          "Each covered entity's balanced postings reconcile to cash, debt and claims; cash and accrual timing are explicit.",
-          "Loan principal is a financial transaction and is not automatically public expenditure or GDP.",
-          "Debt face value, cash issue proceeds, valuation changes and creditor losses use distinct quantities and rules.",
-          "GDP, price and productivity responses identify their equations, evidence, lags and coefficients; absent responses are marked unmodelled.",
-          "Cash and stock identities can pass while economic assumptions remain uncertain and constraints remain infeasible."
+          "Cash, debt, claims, proceeds, interest and creditor losses remain distinct, dated quantities.",
+          "A creditor write-down does not by itself legally extinguish the borrower's debt.",
+          "GDP/price/productivity responses name equations, lags and coefficients; absent responses remain unmodelled.",
+          "Balanced identities can coexist with infeasible funding and uncertain behavior."
         ]
       },
       "depends_on": [
@@ -1578,7 +1861,9 @@
       "sources": [
         "U1",
         "U2",
-        "U6"
+        "U6",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1619,7 +1904,7 @@
       "id": "TL-042",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Generate legal decisions from an action catalog",
       "statement": "The simulator shall expose parameterized Pacifica actions with preconditions, duration, costs, authority, physical limits and declared state effects, from which new paths can be generated without authored outcome prose.",
       "acceptance": {
@@ -1650,17 +1935,17 @@
       "id": "TL-043",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Search adaptive policies without future knowledge",
-      "statement": "The search shall optimize policies mapping Pacifica's observable history to actions, while supporting fixed plans as labelled comparators and preventing access to hidden state or future draws.",
+      "statement": "Policies shall map Pacifica's observable history and declared policy randomness to feasible actions, support fixed comparators and prevent access to hidden state or future draws; optimization adds candidate search in R1.",
       "acceptance": {
         "id": "AC-043",
-        "given": "Two worlds with identical observed histories until a later shock",
-        "when": "The same policy acts before and after the shock becomes observable",
+        "given": "Two worlds with identical observations and policy-randomness addresses until a shock",
+        "when": "The policy acts in single and batched runs",
         "then": [
-          "Pre-shock decisions are identical for identical information and policy randomness.",
-          "The policy may adapt after a relevant observation.",
-          "A clairvoyant comparator, if used for a bound, is explicitly labelled and excluded from implementable recommendations."
+          "Pre-observation decisions match; behavior may adapt after the shock is observed.",
+          "Future/hidden opponent data never enter the policy inputs.",
+          "Any clairvoyant comparator is labelled and excluded from implementable recommendations."
         ]
       },
       "depends_on": [
@@ -1669,7 +1954,9 @@
       ],
       "sources": [
         "U8",
-        "U10"
+        "U10",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1678,7 +1965,7 @@
       "id": "TL-044",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Represent independently responding actors",
       "statement": "Other actors shall select actions using their own versioned objectives, information, capabilities, constraints and response policies; Pacifica's optimizer shall not directly choose their actions.",
       "acceptance": {
@@ -1708,18 +1995,17 @@
       "id": "TL-045",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Model strategic capability and sustainment",
       "statement": "The bounded pilot shall connect economics and public accounts to force availability, mobilisation, sustainment, geography/access, political support and independent actor decisions at declared resolutions.",
       "acceptance": {
         "id": "AC-045",
-        "given": "A supported crisis with reduced supplies, delayed readiness and uncertain partner access",
-        "when": "The scenario advances",
+        "given": "The bounded financing/commitment question with delayed readiness and uncertain partner access",
+        "when": "The R0 model advances",
         "then": [
-          "Resources and travel/production time constrain feasible commitments.",
-          "Reported military capability reflects usable and sustainable forces rather than inventory alone.",
-          "Territorial control, legal sovereignty, treaty access and partner consent remain distinct.",
-          "Modern operational source categories are adapted to the historical period; unmodelled mechanisms are visible."
+          "Usable forces, production/travel time, supply and consent constrain the supported commitment.",
+          "Legal sovereignty, practical control, access and partner resources remain separate.",
+          "Omitted theatres, political effects or force mechanisms are explicitly outside the claim; no global strategic ranking follows from the slice."
         ]
       },
       "depends_on": [
@@ -1733,7 +2019,9 @@
         "U8",
         "U11",
         "S6",
-        "S7"
+        "S7",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1742,7 +2030,7 @@
       "id": "TL-046",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Represent uncertainty explicitly",
       "statement": "The model shall distinguish stochastic variation, uncertain parameters and alternative structural/actor models, with justified ranges, dependence assumptions and probability status.",
       "acceptance": {
@@ -1773,29 +2061,30 @@
       "id": "TL-047",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Evaluate policies across repeated generated futures",
-      "statement": "Each policy shall be evaluated through reproducible rollouts under registered uncertainty, using separately identified random streams for search and world evolution and documented coupling for matched comparisons.",
+      "statement": "Policies shall be evaluated in reproducible ensembles using a versioned draw-address scheme independent of batch partition or worker scheduling, with separate namespaces for world uncertainty, policy randomness, actors and optimization.",
       "acceptance": {
         "id": "AC-047",
-        "given": "A fixed policy/world design, serial execution and parallel execution",
-        "when": "The same ensemble is repeated",
+        "given": "The same world and policy run alone, in different batch sizes and partitions in the pinned environment",
+        "when": "Draw addresses, events and outcomes are compared",
         "then": [
-          "Rollout identities and outputs agree within declared tolerances regardless of worker scheduling.",
-          "Matched comparisons share exogenous draws where semantically valid while allowing endogenous events to diverge.",
-          "A single lucky path is not scored as the policy's expected performance.",
-          "All completed, infeasible, terminal-loss and failed evaluations remain accounted for."
+          "Rollout/draw identities and logical event decisions agree; numeric outputs meet declared tolerances.",
+          "Each draw address includes world-design/world ID, time, stream, entity/event and draw ordinal as needed; matched comparisons share explicit exogenous addresses without renumbering after branch changes.",
+          "Endogenous choices may diverge; one world cannot alter another's state or draw schedule.",
+          "All terminal, infeasible and computational-error records remain accounted for; errors are not invented outcome values."
         ]
       },
       "depends_on": [
         "TL-011",
-        "TL-013",
         "TL-043",
         "TL-046"
       ],
       "sources": [
         "U8",
-        "S8"
+        "S8",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1837,27 +2126,31 @@
       "priority": "Must",
       "release": "R1",
       "title": "Test finalists on unseen futures and actor models",
-      "statement": "Finalist policies shall be reevaluated on held-out world samples and challenged against alternative actor/structural models, with explicit separation of search and assessment evidence.",
+      "statement": "Finalists shall receive adaptive additional sampling when rankings or tail estimates are uncertain, then assessment on fresh world samples and alternative actor/structural models not used to tune policies.",
       "acceptance": {
         "id": "AC-049",
-        "given": "A policy set selected using training worlds",
-        "when": "The final assessment is produced",
+        "given": "Candidates screened on approximately 100 worlds with close ranks or sparse adverse outcomes",
+        "when": "Sampling and final assessment run",
         "then": [
-          "Held-out samples do not guide search selection; reuse after inspection is labelled development evidence and requires a fresh final set.",
-          "Tail loss, failure rate and sampling uncertainty are reported under the specified uncertainty model.",
-          "Unsupported rare-event claims and rank changes across assumptions are visible.",
-          "No candidate wins by omitting bankruptcy, conflict loss or simulated casualties from the result denominator."
+          "The initial world count is a screening budget, not proof of rare-event safety or stable tail ranking.",
+          "Versioned precision/stopping rules allocate extra samples and report unresolved uncertainty; additional evaluations count against explicit budgets.",
+          "Opponent/stress models are frozen before final assessment; reusing assessment feedback requires a new final set.",
+          "Failures remain included and errors separately accounted; rank changes across assumptions remain visible."
         ]
       },
       "depends_on": [
         "TL-044",
         "TL-046",
-        "TL-048"
+        "TL-048",
+        "TL-055",
+        "TL-063"
       ],
       "sources": [
         "U8",
         "U9",
-        "S8"
+        "S8",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1899,17 +2192,16 @@
       "priority": "Must",
       "release": "R1",
       "title": "Run large campaigns within a declared budget",
-      "statement": "The runner shall support at least 1,000 distinct candidate policies and 100,000 complete trajectories for the bounded pilot, with preflight cost estimates, parallel execution, checkpoint/resume and per-evaluation status.",
+      "statement": "The runner shall support a bounded base campaign of at least 1,000 distinct candidate policies and 100,000 complete trajectories with budgets, progress, checkpoints and per-evaluation status; screening, resampling, response search and assessment costs shall be reported separately and together.",
       "acceptance": {
         "id": "AC-051",
-        "given": "A declared 1904–1932 pilot workload and an interrupted campaign",
-        "when": "The benchmark runs and resumes",
+        "given": "A declared realistic workload and an interrupted campaign",
+        "when": "Three measured warm campaign trials and a resume test run",
         "then": [
-          "Reports separate unique policies, distinct behavior summaries, world samples, actual rollouts, cache hits and failures.",
-          "The proposed target is 100,000 trajectories in 30 minutes on 8 declared CPU workers and 16 GB RAM; this is unmeasured and must be validated or revised explicitly before implementation commitments.",
-          "Three full measured campaign trials after warm-up record wall time, memory, storage and model fidelity; workload reduction cannot be hidden.",
-          "Pause/resume preserves random streams and search state, and user budgets bound execution.",
-          "Workers avoid a database write for every simulation step; compact results and replay inputs remain durable."
+          "The provisional base target is 100,000 trajectories in 5 minutes on 8 CPU workers and 16 GB RAM; M0 must confirm or revise it explicitly.",
+          "Base timing includes candidate scheduling, supported responses, queues, checks, compact logs and durable summaries; added resampling, response/stress searches, assessment and narration are separately budgeted and not claimed free.",
+          "Counts separate distinct policies/behaviors, world samples, actual evaluations, reuse/cache hits and errors; two search methods cannot count the same trajectory twice.",
+          "Checkpoint resume preserves the declared optimizer/archive ordering and stream contract; wall-time deadlines may change explored policy sets and are labelled accordingly."
         ]
       },
       "depends_on": [
@@ -1917,13 +2209,20 @@
         "TL-032",
         "TL-039",
         "TL-047",
-        "TL-048"
+        "TL-048",
+        "TL-059",
+        "TL-067"
       ],
       "sources": [
-        "U8"
+        "U8",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "decision_dependencies": [
+        "D-004"
+      ]
     },
     {
       "id": "TL-052",
@@ -1960,35 +2259,73 @@
       "id": "TL-053",
       "epic": "Integrity",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Establish model credibility for its intended use",
-      "statement": "The model shall maintain evidence for financial identities, physical limits, actor-response mechanisms and optimizer behavior, including independent benchmarks, ablations and model-exploitation checks.",
+      "statement": "Credibility gates shall apply from R0 to the bounded claim: independent reference checks, accounting/physical limits, actor refusal and intervention tests; later search and full-ledger evidence shall extend rather than replace these gates.",
       "acceptance": {
         "id": "AC-053",
-        "given": "A proposed search-capable model",
-        "when": "Release evidence is reviewed",
+        "given": "The bounded fast model, baseline fit and independent changed-input examples",
+        "when": "M0/R0 evidence is reviewed",
         "then": [
-          "Financial parity with the six cases is separated from validation of strategic behavior.",
-          "Checks expose free resources, instant mobilisation, unsupported treaty acceptance, future-information leakage and terminal-horizon debt dumping.",
-          "Historical or other independent cases test only the mechanisms and conditions they actually support.",
-          "Results identify uncertain human factors and uncovered domains; search cannot improve rank by exploiting missing outputs."
+          "A baseline plus accepted/refused/counteroffered credit, changed dates/terms and an interim funding shortage are checked against independent reference calculations.",
+          "Calibration fit is distinct from intervention correctness, strategic validity and historical probability.",
+          "Tests expose free resources, instant readiness, automatic consent, hidden future access and deferred terminal obligations.",
+          "Uncovered measures remain unavailable or explicitly scoped proxies; no first sketch presents an unsupported ranking."
         ]
       },
       "depends_on": [
-        "TL-028",
+        "TL-040",
         "TL-045",
-        "TL-048",
-        "TL-049"
+        "TL-057",
+        "TL-060"
       ],
       "sources": [
         "U8",
         "U11",
         "S6",
         "S7",
-        "S8"
+        "S8",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
-      "verification_status": "not_implemented"
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R1",
+          "acceptance": {
+            "id": "AC-053-R1",
+            "given": "A search-capable model",
+            "when": "Release evidence is reviewed",
+            "then": [
+              "Enumerable benchmarks, simple-policy/random-search comparisons, response/stress sensitivity and fresh assessments support the declared bounded search claim."
+            ]
+          },
+          "depends_on": [
+            "TL-048",
+            "TL-049",
+            "TL-062",
+            "TL-063"
+          ],
+          "verification_status": "not_implemented"
+        },
+        {
+          "release": "R2",
+          "acceptance": {
+            "id": "AC-053-R2",
+            "given": "Full ledger and frozen financial cases",
+            "when": "Detailed evidence is reviewed",
+            "then": [
+              "Fixture parity remains a financial equivalence check; independent actor/physical validation is still required."
+            ]
+          },
+          "depends_on": [
+            "TL-028",
+            "TL-061"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
     },
     {
       "id": "TL-054",
@@ -2030,13 +2367,13 @@
       "statement": "Objective evaluation shall support means, quantiles, cumulative/path measures, tail losses and joint threshold attainment with clear probability/weight semantics, horizon treatment and missing-data rules.",
       "acceptance": {
         "id": "AC-055",
-        "given": "Two policies with similar averages but different downside and survival profiles",
-        "when": "The objective evaluator scores them",
+        "given": "Two policies with close means, sparse tail losses and different survival profiles",
+        "when": "Distributional scores are compared",
         "then": [
-          "The chosen risk statistic changes their trade-off position as defined, without silently changing the raw metric.",
-          "Quantiles and tail measures report sample sufficiency; no failures are dropped.",
-          "Unweighted robustness ensembles report fractions of tested cases rather than calibrated probabilities.",
-          "Post-horizon debt, claims, depletion and continuation assumptions are reported so terminal scoring cannot hide deferred costs."
+          "Metric aggregation, risk statistic, weight/probability status and joint target attainment are explicit.",
+          "Sample uncertainty and adaptive sampling needs are shown; unweighted scenario fractions are not historical probabilities.",
+          "Financial/physical terminal duties are reported or bounded; unresolved continuation cannot become a winning zero penalty.",
+          "Computational failures remain status records and cannot be treated as success, discarded silently or converted to arbitrary utility penalties."
         ]
       },
       "depends_on": [
@@ -2047,7 +2384,9 @@
       "sources": [
         "U8",
         "U9",
-        "S8"
+        "S8",
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2058,16 +2397,16 @@
       "priority": "Must",
       "release": "R1",
       "title": "Demonstrate discovery without prewritten outcomes",
-      "statement": "The first usable pilot shall discover and assess new adaptive strategies in a bounded domain with independently responding actors; importing and ranking six scripted histories is insufficient.",
+      "statement": "R1 shall demonstrate discovery and assessment of new adaptive policies in a bounded domain with independent actors; R0 is a foundation release and six scripted histories cannot satisfy the discovery goal.",
       "acceptance": {
         "id": "AC-056",
-        "given": "A fixed initial world, action catalog, objective set and uncertainty specification with no authored future storyline",
-        "when": "The user starts a discovery campaign",
+        "given": "A fixed starting world, catalog, objective/descriptor set and uncertainty design without authored future outcomes",
+        "when": "A discovery campaign completes",
         "then": [
-          "At least 1,000 distinct candidate policies and 100,000 generated paths are evaluated within the declared benchmark or revised approved scope.",
-          "At least one conditional policy produces different action sequences after different observed shocks.",
-          "Other actors can refuse or counter a Pacifica action, changing subsequent events.",
-          "The result is an assessed trade-off set with held-out evidence and replayable successes and failures."
+          "At least 1,000 candidate policies and 100,000 generated paths meet the declared benchmark or an explicit revised scope.",
+          "Conditional decisions differ after relevant observations; counterparties can refuse/counteroffer and alter later events.",
+          "Outputs include an estimated trade-off frontier, per-cell Pareto strategy archive, own-interest response analysis and separately labelled hostile stress tests.",
+          "Held-out assessments, history types and replayable terminal failures support the bounded claim; no automatic exploit label follows merely from lost advantage."
         ]
       },
       "depends_on": [
@@ -2077,12 +2416,17 @@
         "TL-051",
         "TL-052",
         "TL-053",
-        "TL-054"
+        "TL-054",
+        "TL-062",
+        "TL-063",
+        "TL-064"
       ],
       "sources": [
         "U8",
         "U9",
-        "U10"
+        "U10",
+        "S9",
+        "U12"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -2091,33 +2435,510 @@
       "id": "TL-057",
       "epic": "Strategy discovery",
       "priority": "Must",
-      "release": "R1",
+      "release": "R0",
       "title": "Gate metrics on usable evidence and coverage",
-      "statement": "Every proposed success or state measure shall identify definition, measurement scale, source availability, module coverage and the effect of its uncertainty on decisions before being used in search.",
+      "statement": "Every displayed or scored state/success measure shall identify definition, scale, boundary, sources/assumptions, module coverage and uncertainty from R0; unsupported claims shall be unavailable or explicitly labelled conditional proxies.",
       "acceptance": {
         "id": "AC-057",
-        "given": "Candidate readiness, political cohesion and prosperity measures",
-        "when": "The measurement catalog is reviewed",
+        "given": "A readiness, prosperity or human-cost measure with missing mechanism or population coverage",
+        "when": "A sketch or campaign tries to enable it",
         "then": [
-          "Physical quantities, observable behavior and qualitative/ordinal assessments remain distinguishable.",
-          "Missing political or military data is not filled with invented precise scores.",
-          "Data collection and calibration needs are recorded; incomplete metrics are disabled or explicitly modelled assumptions.",
-          "Modern wargame categories are treated as design precedents, not empirical validation of Pacifica."
+          "The missing mechanism/data/denominator is visible before display or ranking.",
+          "Physical, behavioral and qualitative/ordinal evidence remain distinguishable; invented precise scores are rejected.",
+          "Named proxies retain their own labels and limits; source categories do not imply Pacifica calibration.",
+          "Campaign objectives must additionally meet TL-041 before optimization."
         ]
       },
       "depends_on": [
         "TL-003",
-        "TL-041",
-        "TL-045"
+        "TL-033"
       ],
       "sources": [
         "U11",
         "S6",
-        "S7"
+        "S7",
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-058",
+      "title": "Sketch interactively",
+      "epic": "Sketching",
+      "priority": "Must",
+      "release": "R0",
+      "statement": "Editing a supported R0 lever shall evaluate the bounded policy without search, stream progressive outcome fans and compare with a pinned reference under matched exogenous worlds; only the declared narrow controls are required initially.",
+      "acceptance": {
+        "id": "AC-058",
+        "given": "A saved bounded financing/commitment sketch on the reference hardware",
+        "when": "The author changes a supported term or threshold",
+        "then": [
+          "Current-identity distributions display 1,000 paths within the provisional 1-second p95 target and 10,000 within 10 seconds, subject to the M0 decision.",
+          "The view shows sample count, uncertainty/coverage, partial/complete status and calibration/reference-check labels.",
+          "A new edit supersedes work without publishing stale chunks as current; only owned native jobs are cancelled.",
+          "A selected path opens an offline structured timeline and deterministic summary, and an explicit save creates a named version; no LLM narration or general catalog editor is needed for R0."
+        ]
+      },
+      "depends_on": [
+        "TL-032",
+        "TL-038",
+        "TL-047",
+        "TL-059"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-059",
+      "title": "Simulate on an explicit compiled layout",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R0",
+      "statement": "The fast engine shall advance many worlds on a versioned fixed-shape layout with explicit state bindings and isolation; compiled per-world kernels are allowed when profiling favors them, while repeated interpreted Python dispatch is kept out of the hot path.",
+      "acceptance": {
+        "id": "AC-059",
+        "given": "A realistic layout and branch-heavy policy/actor/action queue with checks and logging",
+        "when": "Single, batched and partitioned executions are profiled",
+        "then": [
+          "Draws, event decisions and numeric results satisfy TL-011/TL-047 and information-boundary tests.",
+          "Each field binding declares units, indexing, initialization and update ownership; activation masks and queue/capacity overflow have explicit failure behavior rather than truncation.",
+          "Profiling reports resolution/compilation, modules, response/queue logic, summaries, persistence and delivery with peak memory.",
+          "NumPy batching and Numba kernels are compared on actual data; no rule requires every branch to be forced into array masks."
+        ]
+      },
+      "depends_on": [
+        "TL-033",
+        "TL-039",
+        "TL-043",
+        "TL-044",
+        "TL-047"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-060",
+      "title": "Validate the fast model on baseline and changed cases",
+      "epic": "Integrity",
+      "priority": "Must",
+      "release": "R0",
+      "statement": "The fast model shall fit declared aggregate baseline series within pinned calibration bands and pass independent changed-input reference cases for the bounded claim; baseline fitting alone is insufficient.",
+      "acceptance": {
+        "id": "AC-060",
+        "given": "Baseline core nominal/real GDP, revenue, expenditure, debt and cash plus small independently calculated financing/commitment examples",
+        "when": "M0/R0 evidence is evaluated",
+        "then": [
+          "Reports state source hashes, price/perimeter, year, band and residual; calibration never claims fixture parity or historical validation.",
+          "Independent cases include accepted/refused/counteroffered credit, changed interest/maturity/draw dates, failed rollover and interim liquidity shortage with later feasibility effects.",
+          "Reference expectations use separately derived calculations or enumerated cases, not copied fast-engine outputs.",
+          "Accounting numeric tolerances, baseline bands and off-baseline fidelity/decision discrepancy rules are separate and versioned; a changed feasible action or loss state is material regardless of an aggregate band."
+        ]
+      },
+      "depends_on": [
+        "TL-015",
+        "TL-017",
+        "TL-018",
+        "TL-039",
+        "TL-047",
+        "TL-059"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-061",
+      "title": "Check paths and re-evaluate policies with the detailed ledger",
+      "epic": "Integrity",
+      "priority": "Must",
+      "release": "R2",
+      "statement": "Detailed-ledger assessment shall support immutable forensic checking of a recorded history and separate policy re-evaluation under detailed states, using shared mechanism definitions and explicit fidelity projections rather than independently invented economics.",
+      "acceptance": {
+        "id": "AC-061",
+        "given": "A generated non-fixture path whose detailed timing reveals a financing shortage",
+        "when": "Both assessment modes run",
+        "then": [
+          "Forensic mode checks recorded decisions and flags the first impossible commitment or financial discrepancy; it does not force acceptance, supply money or claim subsequent decisions remain feasible.",
+          "Policy mode reruns the same conditional policy and exogenous-world design under detailed observations/resources; actor responses and later choices may differ, producing a new linked trajectory.",
+          "Full instrument postings, decimal rounding, cash/claims schedules, input versions and mode lineage are inspectable.",
+          "A decision/feasibility reversal triggers reassessment even inside a broad calibration band; metric discrepancies use their own assessed fidelity rules.",
+          "Promoting or reranking policies requires sufficient consistently assessed finalists; fast and detailed values never mix silently, and unsupported detailed coverage remains provisional."
+        ]
+      },
+      "depends_on": [
+        "TL-015",
+        "TL-017",
+        "TL-018",
+        "TL-023",
+        "TL-039",
+        "TL-060"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-062",
+      "title": "Map diverse strategies without forced scalar quality",
+      "epic": "Strategy discovery",
+      "priority": "Must",
+      "release": "R1",
+      "statement": "The strategy map shall retain a bounded nondominated policy set within each author-chosen behavior cell, with explicit descriptor aggregation, uncertainty, capacity and deterministic pruning rules alongside the global Pareto set.",
+      "acceptance": {
+        "id": "AC-062",
+        "given": "A small enumerable multiobjective policy family and behavior descriptors varying across futures",
+        "when": "The archive is built and repeated",
+        "then": [
+          "With sufficient cell capacity, each cell's nondominated set agrees with exhaustive evaluation; bounded pruning matches the declared deterministic rule.",
+          "No hidden weighted score selects a single best policy; the UI exposes within-cell trade-offs and assessment status.",
+          "Descriptor coordinates use a registered summary over a common world design, including never/undefined cases, sample uncertainty and cell instability; a lucky realized path cannot assign policy type.",
+          "Coverage or a different behavior cell is not evidence of robustness; later response and fresh assessment results remain separate."
+        ]
+      },
+      "depends_on": [
+        "TL-041",
+        "TL-047",
+        "TL-048",
+        "TL-055"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-063",
+      "title": "Separate own-interest responses from hostile stress tests",
+      "epic": "Strategy discovery",
+      "priority": "Must",
+      "release": "R1",
+      "statement": "Finalists shall face bounded best/near-best response analysis under each actor's own declared preferences, information and resources, plus a separately labelled hostile stress search with explicit plausibility and acceptable-own-outcome bounds.",
+      "acceptance": {
+        "id": "AC-063",
+        "given": "A cooperative counterparty, a competing actor and a deliberately defective opponent model",
+        "when": "Response and stress searches and at least one Pacifica revision round run",
+        "then": [
+          "Ordinary response analysis uses the actor's own utility or documented preference procedure; cooperation is allowed and harmful-to-Pacifica is not an assumed objective.",
+          "Stress analysis states which Pacifica outcome is stressed, actor interests/near-best tolerances, capabilities, information, hostility assumptions and budget.",
+          "Rank changes or lost advantage are labelled response/stress sensitivity; an exploit finding requires a reproducible violation, unrealistic mechanism or documented model defect, not merely a stronger reply.",
+          "The seeded defect is demonstrated by a counterexample/reference check; one round is not presented as equilibrium or a guarantee of low exploitability.",
+          "All response models and revised Pacifica candidates are frozen before final held-out assessment."
+        ]
+      },
+      "depends_on": [
+        "TL-044",
+        "TL-046",
+        "TL-048",
+        "TL-055"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-064",
+      "title": "Group histories into inspectable types",
+      "epic": "Storylines",
+      "priority": "Must",
+      "release": "R1",
+      "statement": "Rollouts shall be grouped using registered event/trajectory features into history types with empirical shares, distinguishing associations and representative paths, preserving rare and terminal outcomes.",
+      "acceptance": {
+        "id": "AC-064",
+        "given": "A policy's assessed histories including outliers, terminal losses and computational errors",
+        "when": "History types are constructed",
+        "then": [
+          "Feature scaling, clustering and scenario-discovery methods/parameters are versioned; representative paths are actual members.",
+          "Shares are fractions of the stated tested ensemble unless probability calibration is justified; distinguishing conditions remain associations.",
+          "Rare/outlier and terminal paths remain inspectable even if not in a large cluster; computational errors retain separate status and are not fabricated histories.",
+          "Type labels and representatives link to replayable events, counts, coverage and model assumptions."
+        ]
+      },
+      "depends_on": [
+        "TL-023",
+        "TL-047",
+        "TL-049",
+        "TL-055"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-065",
+      "title": "Narrate recorded facts with bounded claims",
+      "epic": "Storylines",
+      "priority": "Must",
+      "release": "R1",
+      "statement": "Optional LLM narration shall render a selected structured history after calculation using a typed claim record and inserted result values; R0 shall remain fully usable with deterministic templates and the timeline.",
+      "acceptance": {
+        "id": "AC-065",
+        "given": "A recorded path and a proposed synopsis with a correct number but an invented motive or causal explanation",
+        "when": "Grounding review runs",
+        "then": [
+          "Each consequential event/actor/time and asserted motive or causal relation needs explicit supporting records; unsupported claims are rejected or clearly separated as author speculation.",
+          "Numeric placeholders insert saved values; ID/number matching alone is not described as semantic truth verification.",
+          "A structured claim/template boundary is authoritative; ambiguous free prose requires review rather than an absolute automated grounding guarantee.",
+          "Provider/prompt/model, claim references and checks are saved; narration is draft/non-canon, optional and unable to change results; offline use remains complete."
+        ]
+      },
+      "depends_on": [
+        "TL-004",
+        "TL-023",
+        "TL-025",
+        "TL-026"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-066",
+      "title": "Generate structural schemas with explicit runtime bindings",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R1",
+      "statement": "Shared typed declarations shall generate supported structural artifacts such as catalog/exchange schemas, result schemas and form/layout metadata; simulation semantics, runtime mappings, migrations and interaction design remain explicit reviewed code.",
+      "acceptance": {
+        "id": "AC-066",
+        "given": "An added descriptive field and a new state-changing field",
+        "when": "Generation and capability checks run",
+        "then": [
+          "Supported structural artifacts regenerate and CI detects drift.",
+          "Descriptive metadata cannot silently become numeric state; a state field requires declared units, initialization, index binding, update rule, migration and tests before execution.",
+          "Generated form scaffolds do not supply policy semantics or approval workflows.",
+          "Each run pins declaration, schema, layout and mapping versions; R0 can use minimal typed schemas and hand-written bindings without a universal generator."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-033",
+        "TL-036",
+        "TL-059"
+      ],
+      "sources": [
+        "S9",
+        "U12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-067",
+      "title": "Store batched results with recoverable manifests",
+      "epic": "Storage",
+      "priority": "Must",
+      "release": "R0",
+      "statement": "Outcomes and selected trajectories shall be written in batches as immutable content-addressed columnar artifacts, with retained manifests and a rebuildable local query catalog; time steps shall not write rows individually.",
+      "acceptance": {
+        "id": "AC-067",
+        "given": "A 100,000-rollout artifact set and interruption between file publication and index registration",
+        "when": "Queries and crash recovery run",
+        "then": [
+          "Compact summaries meet the provisional query target on declared workload/hardware; storage and query time are measured separately.",
+          "A single catalog coordinator registers only durable completed artifacts; an atomic rename alone is not claimed to transact across files, Git and DuckDB.",
+          "Retained run manifests rebuild the index; incomplete/orphan files cannot appear as complete results.",
+          "Nonstored details replay in the pinned environment and reconcile to saved summaries; coverage and error counts survive recovery."
+        ]
+      },
+      "depends_on": [
+        "TL-011",
+        "TL-032",
+        "TL-036"
+      ],
+      "sources": [
+        "S9",
+        "U12"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
     }
   ],
-  "revision": "0.3"
+  "revision": "0.5",
+  "release_counts": {
+    "R0": 38,
+    "R1": 21,
+    "R2": 6,
+    "R3": 2
+  },
+  "requirement_count": 67,
+  "phase_gate_count": 10,
+  "verification": {
+    "status": "documentation_consistency_only",
+    "product_tests_run": false,
+    "benchmarks_run": false,
+    "required_checks": [
+      "Unique requirement/acceptance IDs",
+      "Valid source and decision references",
+      "Acyclic dependencies",
+      "No dependency on a later release",
+      "Valid explicit phase-gate dependencies",
+      "Complete milestone assignment",
+      "Synchronized Markdown register and detailed statements",
+      "Valid JSON and relative links"
+    ],
+    "documentation_revision": "0.5"
+  },
+  "demonstrations": [
+    {
+      "id": "1",
+      "description": "Independent reference: baseline plus accepted/refused/counteroffered credit, changed terms/dates, failed rollover and interim shortage; compare values and later feasibility.",
+      "release": "M0/R0",
+      "requirements": [
+        "TL-040",
+        "TL-053",
+        "TL-060"
+      ]
+    },
+    {
+      "id": "2",
+      "description": "Sketch a supported financing/commitment lever; show provisional 1,000/10,000-path targets, counts, coverage, current identity and offline replay; explicitly save a version.",
+      "release": "R0",
+      "requirements": [
+        "TL-022",
+        "TL-023",
+        "TL-058"
+      ]
+    },
+    {
+      "id": "3",
+      "description": "Identical observations and policy randomness give identical pre-shock decisions; single/batch/partition runs preserve indexed draws and logical events in the pinned environment.",
+      "release": "R0",
+      "requirements": [
+        "TL-011",
+        "TL-043",
+        "TL-047",
+        "TL-059"
+      ]
+    },
+    {
+      "id": "4",
+      "description": "Compute a saved sketch and a changed input on supported Windows/Linux without Office, a network calculation service or a server database.",
+      "release": "R0",
+      "requirements": [
+        "TL-037",
+        "TL-039"
+      ]
+    },
+    {
+      "id": "5",
+      "description": "Interrupt publication around file/index boundaries and save from a stale tab; recover the last complete version and rebuild the index from manifests.",
+      "release": "R0",
+      "requirements": [
+        "TL-032",
+        "TL-067"
+      ]
+    },
+    {
+      "id": "6",
+      "description": "Discover at least 1,000 policies/100,000 generated paths with actual independent refusals, adaptive choices, reported total budgets and fresh assessment.",
+      "release": "R1",
+      "requirements": [
+        "TL-048",
+        "TL-049",
+        "TL-051",
+        "TL-056"
+      ]
+    },
+    {
+      "id": "7",
+      "description": "An enumerable multiobjective problem reproduces global and per-cell nondominated sets; bounded pruning and never/uncertain descriptor cases follow declared rules.",
+      "release": "R1",
+      "requirements": [
+        "TL-048",
+        "TL-062"
+      ]
+    },
+    {
+      "id": "8",
+      "description": "A counterparty cooperates under its own goals; hostile stress has separate plausibility bounds. Lost advantage is sensitivity. A seeded real model defect needs a reproducible counterexample before an exploit label.",
+      "release": "R1",
+      "requirements": [
+        "TL-063"
+      ]
+    },
+    {
+      "id": "9",
+      "description": "Keep rare/terminal histories and empirical shares; reject narration with an invented motive even if its event ID and number are correct. Offline structured summaries remain usable.",
+      "release": "R1",
+      "requirements": [
+        "TL-064",
+        "TL-065"
+      ]
+    },
+    {
+      "id": "10",
+      "description": "A detailed funding shortage invalidates a recorded commitment in forensic mode; policy re-evaluation produces a new linked action/response history under matched external worlds.",
+      "release": "R2",
+      "requirements": [
+        "TL-061"
+      ]
+    },
+    {
+      "id": "11",
+      "description": "Import exact six files twice; preserve six identities, 17 run labels and 14 distinct inputs, conditions and aliases; compare 87 annual periods/73 metrics plus finer schedules.",
+      "release": "R2",
+      "requirements": [
+        "TL-002",
+        "TL-028"
+      ]
+    },
+    {
+      "id": "12",
+      "description": "Fork a fixture's parameter from 1928, inspect removed loan/concession obligations, preserve C0 and keep absent North American denominators unavailable.",
+      "release": "R2",
+      "requirements": [
+        "TL-007",
+        "TL-009",
+        "TL-019",
+        "TL-021",
+        "TL-035"
+      ]
+    },
+    {
+      "id": "13",
+      "description": "Apply a finance-skill proposal as validated model inputs and trace a detailed quantity to its source, derivation and instrument.",
+      "release": "R2",
+      "requirements": [
+        "TL-010",
+        "TL-025"
+      ]
+    },
+    {
+      "id": "14",
+      "description": "Inject a broken cash/debt identity and an unconfigured cycle; show the terms/residual or cycle path without inheriting an old success badge.",
+      "release": "R0; detailed R2",
+      "requirements": [
+        "TL-012",
+        "TL-014",
+        "TL-015"
+      ]
+    }
+  ]
 }
