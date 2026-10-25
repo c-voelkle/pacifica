@@ -1,6 +1,6 @@
 # Timeline Lab data-population and capacity plan
 
-**Draft for review · 25 October 2026 · Revision 0.9**
+**Draft for review · 25 October 2026 · Revision 0.10**
 
 The first useful delivery needs a small, executable content package. A full list of names is insufficient, and full dynamic simulation of the entire novel is not a prerequisite. Start with the 1927–1928 Japan rescue/Concord dilemma, including selected private commitments, information and cooperation effects. M0 fixes the exact starting date/phase, horizon and active mechanism set. Future authored outcomes stay references, not queued events or actor foresight.
 
@@ -27,22 +27,34 @@ The master storyline has 39,321 words and 37 numbered sections. The registry has
 
 ## Population workflow
 
+### Source coverage and omission audit
+
+Create SourceCoverageLedger for the selected slice using the fields in the ontology contract. Define selected documents/sections and stable passage units directly from the pinned source text, independently of the first extraction output. Each unit maps to extracted record revisions, a reviewed exclusion with a reason, or a named unresolved question and its affected claims. Follow relevant cross-references or record a justified scope boundary.
+
+A mapped passage can still omit a consequential claim. Build a small reference sample in a separate source-first review pass before consulting the extraction output. Cover identities, promises/obligations, vetoes/authority, actor knowledge restrictions and chronology; declare the sample and examine exclusions. Compare expected claims, dates and authority with the proposed records. Record sample size, omissions, false additions, repairs and limits rather than claiming whole-corpus recall.
+
+Deliberately remove a consequential promise or veto and its direct references while keeping the remaining dependency graph valid. The independent expected-claim comparison must detect the omission and block affected activation until repair or explicit rescoping. Unresolved material discrepancies cannot be silently passed. Retain source ledger, sample review and author-decision queue refs in the activated manifest and reconcile them on source changes.
+
+### Staged preparation
+
 Use scripts and validated files first. The workflow does not require a new graph database, universal extraction service or general editor.
 
 | Stage | Deliverable and acceptance |
 |---|---|
 | 1. Pin sources and authority | Record commits/blobs, source precedence, approved changes and local APPROVED/PROPOSED/OPEN/MODEL status. Identify conflicts and protected ambiguity before extraction. |
-| 2. Stage evidence-linked proposals | Extract identity mentions, dated propositions, obligations, claims and references with exact source spans. Keep suggestions outside active world bundles. An inferred motive or numerical estimate is a model assumption, not a quoted fact. |
+| 2. Stage evidence-linked proposals | Declare source scope and passage units before examining extraction output. Extract dated records with exact spans and maintain extracted/excluded/unresolved dispositions. Keep proposals outside active bundles; inferred motives and estimates remain model assumptions. |
 | 3. Reconcile identities | Reuse registry IDs and the legacy crosswalk; distinguish people, offices and institutions, succession and resource ownership. Resolve collisions and retired aliases explicitly. Re-importing the same source creates no duplicates. |
 | 4. Assign temporal and information roles | Set start phase and horizon; classify starting facts, live obligations, future references, external assumptions and narrative constraints. Separate target/valid time, receipt time and actor belief time. Initialize each active actor's information through supported rules. |
 | 5. Bind the executable slice | Connect active predicates, units, schedules, controllers, goals, commitments, conduct, ambiguity and mechanisms. Compute transitive dependency closure for the selected writing tasks. Missing dependencies are sourced, explicit assumptions, excluded with affected claims disabled, or blocking unresolved. |
-| 6. Validate and review | Check identity/time/ownership conflicts, information leakage, protected ambiguity, mechanism coverage and financial identities; run bounded behavioral/causal examples. Present unresolved author decisions and model assumptions separately. Reviewer identity and decision are recorded; waiting is not approval. |
-| 7. Activate and measure | Publish an immutable reviewed ExperimentContentManifest and its resolved semantic identity. Run the selected dilemma and author tasks. Record actual tokens, active AI time, repair and resource measurements; revise larger estimates. |
+| 6. Validate and review | Check executable dependencies and independently audit a source-first reference sample for omissions/false additions, including the injected missing-promise/veto test. Run identity/time, information, ambiguity, relational-counterexample and financial checks. Record reviewer decisions and an author-decision queue; waiting is not approval. |
+| 7. Activate and measure | Publish a reviewed manifest with source-coverage/sample/decision-queue refs. Run the predeclared retain-and-branch trial and save/replay the resulting chain. Measure complete audited-package tokens, active AI time, repairs, author labor/waiting and resources separately; revise larger estimates before expansion. |
 | 8. Maintain incrementally | New source revisions produce proposals and an impact report identifying affected records, mechanisms and experiments. Retain old source bundles and identities for replay; publish a new manifest after review. Never silently mutate earlier runs or canonical source files. |
 
-No importer may resolve deliberately protected ambiguity, invent a missing approval, or assume that absence means false. For Noe's unresolved culpability, supported testimony and suspicion may affect beliefs and choices; the importer and sampler cannot select a secret culprit. Withhold a dependent computation that genuinely requires the answer, while permitting independent supported activity. Changing an authorial ambiguity lock is an explicit premise revision, never an optimizer variable.
+No importer may resolve deliberately protected ambiguity, invent a missing approval, or assume that absence means false. Responsibility for Noe's death stays unresolved. Supported testimony and suspicion may affect beliefs and choices; the importer and sampler cannot select a secret culprit. Withhold a dependent computation that genuinely requires the answer, while permitting independent supported activity. Changing an authorial ambiguity lock is an explicit premise revision, never an optimizer variable.
 
 ## From source chronology to playable state
+
+Valid unknown state is an intentional representation of the story. It has a predicate, scope, explicit tag/reason and resolution policy and must survive initialization, hashing, saving and replay. Missing a required schema, owner, unit or runtime binding is instead a configuration error. A mechanism needing unavailable truth is withheld; supported suspicion and testimony can still drive action. Noe's death remains unresolved as to responsibility, without a sampled culprit.
 
 ExperimentContentManifest is a versioned configuration artifact in the existing experiment bundle, not a thirtieth world record. Its required fields and exact roles are mirrored in `ontology_contract.content_manifest_contract`.
 
@@ -58,7 +70,17 @@ Every active dependency needs a disposition and every active claim needs actual 
 
 M0 should demonstrate a private commitment, selective disclosure, belief revision, costly choice, cooperation change and a next dilemma. Give at least two candidates similar financial results but different supported relational consequences. A plausible manual action intervention can isolate consequences under unchanged continuation rules; separately test whether the controller generates intention-sensitive behavior. Do not force the same controller to produce both alternatives merely to satisfy a causal test. The source may not specify every private motive: clearly reviewed modeling assumptions are allowed, with their effect visible and canon unchanged.
 
+The relational tests also cover hidden betrayal without unearned knowledge, a legally permissible breach of a nonbinding promise, and truthful disclosure that fails to produce belief or cooperation. Keep the respective update rules, information channels, legal status and promise fulfillment separate.
+
+### Concrete author trial
+
+Before tuning, record actual prepared and open tasks, at least one supported-domain question withheld from model/output tuning, the notes/manual comparator and task order/exposure, and numeric session/repair budgets. The author must retain at least one previously unconsidered idea judged usable after assumption disclosure, branch from that idea into a subsequent supported dilemma, and save/replay the chain. Record bookmark/branch/assessment refs, novelty and usefulness judgments, time to idea and branch, explanation gaps, manual repair, comparator observations and explicit acceptance.
+
+Draft candidates can carry not_assessed or unresolved evidence, and missing dramatic elements need explicit statuses/reasons; they do not pass mandatory agency cases. Failure of a declared limit or required case needs repair/reassessment or a prospective protocol/scope revision. Held-out feedback used for tuning requires a fresh question. The single-author comparison records prior exposure and learning limitations; neither an attractive summary nor a filled sacrifice slot establishes usefulness.
+
 ## Effort estimates
+
+Calibrate these ranges on a complete first package, including the independent omission audit, behavioral-data preparation, repairs and trial support. Keep the author-decision queue visible: each item records the question, source refs, affected claims, blocking status, responsible reviewer, decision status and waiting time. Excluding waiting from active AI hours does not remove its effect on elapsed delivery. Record author review labor separately. The first measurement may justify changing the ranges; v0.10 does not claim a new measured estimate.
 
 These are **cumulative alternative scopes**, not additive stages. The broader rows include much of the narrower work. Tokens count model input, repeated context, output and reasoning where available; they are not source tokens, database size or an exact billing forecast. Hours mean active elapsed work by one AI agent, including tool use, checking and retries. They exclude waiting for author decisions and are estimated independently of token counts, not computed from a nominal tokens-per-second rate. Parallelism can shorten elapsed time but may add reconciliation work; none is assumed here.
 
@@ -86,6 +108,8 @@ Illustrative allocation of those centers, to make the work budget inspectable:
 Included: source reconciliation, temporal normalization, model-data preparation, binding to existing executable mechanisms, tests and repair. Excluded: implementing the general simulator/UI, creating new domain mechanisms, extensive historical research, author review labor and decision waiting. Sparse source evidence, identity conflicts, missing dates or changed canon push work toward or beyond the high end. Extraction alone is relatively cheap; reconciling authority, knowledge and behavior determines whether the tool is useful.
 
 Record an activity log for the first package with source/version, records proposed/accepted/repaired, unresolved questions, dependency coverage, tokens and their metering limits, active time and waiting time. Include all calls and rereads rather than only final output. Do not count guessed or unobservable reasoning tokens as measured. Re-estimate before population expands; no model-independent guarantee of tokens or AI speed is implied.
+
+The quality log also records source units reviewed, sample size and selection, expected claims, omissions, false additions, excluded claims and repairs. A valid reference graph or a high extracted-record count is not an extraction-quality measure. Source coverage and author-decision queue maintenance belong inside the existing preparation/checking allowances, whose adequacy must be tested by M0.
 
 ## Disk and memory planning
 

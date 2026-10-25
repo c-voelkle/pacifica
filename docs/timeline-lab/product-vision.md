@@ -1,22 +1,22 @@
 # Pacifica Timeline Lab product vision
 
-**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.9**
+**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.10**
 
 Timeline Lab is a fast strategic wargame for developing the Pacifica plot. The author changes a decision, sees generated histories, inspects consequential choices and retains useful ideas with their assumptions. The same model searches for strong Pacifica strategies and for plausible routes to declared narrative conditions, while other actors respond on their own terms. Strategic success and the author's interest in a story are separate.
 
 The six authored timelines are financial regression references and comparator strategies. They do not define the available futures, and the author never has to write the outcome of a path in advance.
 
-## Changes in revision 0.9
+## Changes in revision 0.10
 
 | Design choice | Treatment |
 |---|---|
-| Evidence for agency | Separate plausible alternatives, choices actually selected by the controller, and isolated causal consequences. A plausible forced choice can support conditional consequences, never a claim that the controller would choose it. |
-| Playable content | A reviewed ExperimentContentManifest distinguishes starting facts, live obligations, future reference outcomes, external assumptions and narrative constraints. |
-| Ambiguity | Preserve deliberately unresolved facts, including Noe's culpability, without sampling a secret answer. Supported suspicion can still drive action. |
-| Character-driven ideas | The first dilemma includes private commitments, selective disclosure, verification and persistent cooperation effects, allowing distinct plots with similar finances. |
-| Population effort | Start with the 1927–1928 rescue/Concord package. Budget 0.8–2 million tokens and 10–25 active AI hours for its data; several playable periods require an estimated 6–15 million tokens and 70–180 hours. |
-| Resources | Plan for 16 GB host RAM to start, 32 GB recommended, and 50 GB free SSD space; retain compact summaries and bound replay/trajectory storage. Figures are unmeasured estimates. |
-| Delivery | Preserve prior IDs and release order; add TL-077 content activation and TL-078 resource budgets. There are 78 requirements and 12 later phase gates. |
+| Unknown state | A declared unknown can initialize, hash, save and replay. Missing executable configuration fails; protected ambiguity never triggers hidden truth completion. |
+| Evidence | Typed assessments distinguish supported, unsupported, unresolved, not assessed and not applicable. Missing story elements remain explicit. |
+| Source coverage | A source-first reference sample and omission test supplement dependency checks; the extractor cannot define its own completeness. |
+| Relational behavior | Test hidden betrayal, legally permissible promise breaking and truthful disclosure that does not produce cooperation. |
+| Author trial | Predeclare tasks and time/repair limits. Retain a previously unconsidered usable idea, branch into a subsequent dilemma, and save/replay it after inspecting assumptions. |
+| Population planning | Measure a complete audited package, including behavioral-data preparation and repairs; track author-decision waiting separately. Existing effort ranges remain provisional. |
+| Delivery | Strengthen existing IDs and retain the release order: 78 requirements, 12 later phase gates and 42 demonstrations. M0 begins with the bounded 1927–1928 package. |
 
 ## Confirmed product choices
 
@@ -72,6 +72,8 @@ A policy might delay a commitment when cash or transport falls below a threshold
 The saved result is a policy plus its assessed distribution of outcomes. A particular history can be checked through the detailed ledger. If detailed timing changes what was feasible, re-evaluate the policy as a new linked history before treating the strategy as financially supported. Exported storylines preserve decisions, chance events, conditions and assessment status.
 
 ## From histories to storylines
+
+A candidate may be worth retaining before its agency evidence is complete. Show which dimensions are unassessed or unresolved and which dramatic elements are missing; do not invent a motive or sacrifice to complete the template. Release acceptance still requires the declared supported cases and the author's judgment that a new idea survives assumption disclosure and can be developed through a subsequent decision.
 
 The author can start with a decision and ask for varied consequences without knowing an ending. R0 examines each generated history or reconstructible compact trace before strategic pruning and keeps bounded representatives of different causal structures. A failed rescue, an institutional compromise and a successful rescue that frustrates a personal promise may be distinct possibilities; these examples establish no canon. Different cash totals alone do not make different plots.
 
@@ -270,10 +272,10 @@ A shorter slice within 1904–1932 is permitted when its question, active ontolo
 
 M0 selects the dramatic question and author evaluation protocol, specifies the semantic/adjudication contracts and applicability envelopes, checks independent financial cases and measures realistic speed. M1/R0 demonstrates causal alternatives, consequential agency, a selected belief-driven plan change, a branch and a retained interesting history before broad tooling or search-scale commitments.
 
-M0 activates a traced 1927–1928 rescue/Concord package and proves the bounded semantics before optimized engine interfaces. Future authored outcomes remain reference material unless explicitly selected as narrative conditions; they never force generated events or grant foresight. Protect deliberate ambiguity, test a small relational repertoire and separate all three agency evidence dimensions. Fix prepared/open/held-out tasks and a notes/manual-workflow comparator, then measure content-preparation effort and real memory/disk/latency. Author judgment controls usefulness acceptance; a failed gate prompts a design or scope revision.
+M0 activates an independently audited 1927–1928 rescue/Concord package and proves the bounded semantics before optimized interfaces. Resolve valid unknown state, typed assessment payloads and source-omission detection while implementing the first schemas. Test relational counterexamples alongside the positive plot chain. Predeclare actual prepared/open/held-out tasks, a notes/manual comparator and time/repair limits. The author must retain a previously unconsidered usable idea after inspecting assumptions, branch into a subsequent supported dilemma, and save/replay it. Measure complete-package preparation, repairs, decision waiting and resources before expanding.
 
 R1 demonstrates at least 1,000 candidate policies and 100,000 generated paths under the declared benchmark or an explicitly revised scope, plus a repeated author review and bounded narrative-condition search. Strategic assessment and targeted story selection retain separate denominators and claims.
 
 The [objective sheet](objectives-and-constraints.md), [action and actor catalog](action-and-actor-catalog.md), [ontology](ontology.md) and [structured draft catalog](draft-model-catalog.json) supply definitions to narrow for the first question.
 
-See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.9 contracts and release gates are synchronized.
+See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.10 contracts and release gates are synchronized.

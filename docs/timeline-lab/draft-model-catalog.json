@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.5.0",
+  "schema_version": "0.6.0",
   "catalog_id": "pacifica-timeline-lab-draft-20261025",
   "status": "DRAFT_FOR_AUTHOR_REVIEW",
   "date": "2026-10-25",
@@ -14,7 +14,8 @@
       "Incorporate the v0.5 review into v0.6 with explicit ontology and synchronized design/backlog.",
       "Incorporate the v0.6 critical review into revision 0.7 and update the existing draft PR.",
       "Incorporate the v0.7 critical review into revision 0.8 and update the existing draft PR.",
-      "Incorporate the v0.8 review into v0.9, including data-population planning and effort estimates, synchronize the backlog and update the draft PR."
+      "Incorporate the v0.8 review into v0.9, including data-population planning and effort estimates, synchronize the backlog and update the draft PR.",
+      "Incorporate the five v0.9 review recommendations into revision 0.10, synchronize the backlog and update the existing draft PR."
     ],
     "proposed": [
       "R0: one bounded financing/commitment dilemma within 1904–1932, attributable decisions, open causal candidates and a supported exceptional-conduct family with actor-scoped comparisons.",
@@ -133,7 +134,7 @@
     {
       "id": "SRC-ONTOLOGY",
       "status": "PROPOSED_SEMANTIC_CONTRACT",
-      "title": "Timeline Lab explicit ontology revision 0.9",
+      "title": "Timeline Lab explicit ontology revision 0.10",
       "path": "docs/timeline-lab/ontology.md"
     }
   ],
@@ -201,7 +202,7 @@
         "breach_exploration"
       ],
       "breach_scope": "One bounded exceptional-conduct family with explicit additive permission sets, variant-specific support and independent actual legality. Test ordinary lawful conduct in every profile and lawful Pacifica facing independently chosen supported misconduct.",
-      "author_gate": "Prepared/open/held-out tasks and manual comparison; separate plausibility, controller selection and isolated conditional consequences, including relational alternatives and a low-effect case. Retain claim basis and assumptions.",
+      "author_gate": "Before tuning, record the actual tasks and numeric time/repair budgets. Run prepared/open/held-out work and the scoped manual comparator; record prior exposure and learning/order limitations. The author inspects assumptions, retains at least one previously unconsidered usable plot possibility, then branches from that retained idea into a subsequent supported dilemma. Save and replay the chain with unchanged identity. Pass only with the retained-and-developed idea, inspectable assumptions, supported branch/replay, completed required tasks and explicit author acceptance under the predeclared time/repair limits. A failed budget or required case needs repair and reassessment or an explicit prospective scope/protocol revision; never retroactively widen limits to pass.",
       "requirements": [
         "TL-068",
         "TL-069",
@@ -213,7 +214,7 @@
         "TL-075",
         "TL-076"
       ],
-      "preimplementation_gate": "Activate a traced 1927–1928 rescue/Concord content package and prove the bounded semantic prototype: protected ambiguity, temporal content roles, dated information, independent choice, additive conduct and resource settlement. Separate plausibility/controller/consequence evidence, demonstrate a relational chain and low-effect contrast, and measure real data-preparation effort plus peak memory/disk/latency before optimized interfaces."
+      "preimplementation_gate": "Activate an independently audited 1927–1928 rescue/Concord package and prove the bounded semantic prototype before optimized interfaces: replayable unknown state, typed evidence assessments, protected ambiguity, dated information, independent choice, additive conduct and resource settlement. Include source-omission injection, relational failure cases and isolated-action/low-effect contrasts. Predeclare actual author tasks and numeric time/repair budgets; measure audited data effort, decision waiting and peak memory/disk/latency."
     }
   },
   "metric_contract_required": [
@@ -1789,7 +1790,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -1843,7 +1844,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -1906,7 +1907,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -1965,7 +1966,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2025,7 +2026,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2080,7 +2081,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2145,7 +2146,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2201,7 +2202,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2261,7 +2262,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2316,7 +2317,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2380,7 +2381,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2441,7 +2442,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2505,7 +2506,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2567,7 +2568,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2629,7 +2630,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2690,7 +2691,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2746,7 +2747,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2806,7 +2807,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2871,7 +2872,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2926,7 +2927,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2985,7 +2986,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -3042,7 +3043,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -3099,7 +3100,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -3159,7 +3160,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.9",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.10",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     }
   ],
@@ -3216,7 +3217,7 @@
       "lawful": "Permits lawful_execution. Actor attempts and visible menus obey actor information; adjudication rejects actual unlawful execution without leaking concealed reasons before permitted disclosure.",
       "apparent_authority": "Adds mistaken_authority_execution to lawful execution: a registered physically possible but actually unauthorized act may execute when the actor believes it authorized under the pinned credibility rule. Actual legality is independently adjudicated; valid authority produces an ordinary lawful outcome.",
       "breach_exploration": "Adds intentional_breach_execution to the apparent_authority set. Only explicitly enabled exceptional variants with supported consequences may execute. The actor may still act lawfully, honour an agreement or decline to act; permission never compels misconduct.",
-      "classification": "Adjudication resolves actual legality independently of the profile name. An actually authorized act uses lawful_execution even if the actor misunderstood its status; intention/perceived authority are separate recorded dimensions. An actually unauthorized act requires the applicable mistaken-authority or intentional-breach category and its registered rule. Unknown/disputed material truth needs a hypothesis or unsupported result.",
+      "classification": "Adjudication resolves actual legality independently of the profile name. An actually authorized act uses lawful_execution even if the actor misunderstood its status; intention/perceived authority are separate recorded dimensions. An actually unauthorized act requires the applicable mistaken-authority or intentional-breach category and its registered rule. Unknown/disputed material truth follows its resolution policy; only permitted hypotheses may resolve it, otherwise the dependent adjudication is unsupported. A nonbinding personal promise violation is classified by its actual legal status, not the word breach; legally permissible conduct or conduct with no applicable legal restriction may use lawful_execution while social consequences remain separately modeled.",
       "mixed_world": "Pacifica can be lawful while a counterparty has broader permissions. Independent procedures choose actions; no profile creates consent, title, resources or favourable outcomes."
     },
     "resource_arbitration": "Register priority/tie rules, reservation release/expiry and bundle atomicity; actor order, module order and worker scheduling cannot silently allocate shared cash, collateral or capacity."
@@ -3403,13 +3404,13 @@
     {
       "id": "REV-07",
       "decision": "Select semantic and narrative slice",
-      "proposal": "Activate the traced 1927–1928 content package with protected ambiguity, temporal roles and bounded relational actions; choose supported mechanisms and independent-response procedures.",
+      "proposal": "Activate an independently audited source package with valid unknown state, typed evidence payloads and relational failure cases; fix the bounded schemas and mechanisms in M0.",
       "status": "OPEN"
     },
     {
       "id": "REV-08",
       "decision": "Approve author evaluation and search contracts",
-      "proposal": "Define separate plausibility/generation/consequence evidence, held-out/manual tasks, open proposal coverage, retention and resource budgets.",
+      "proposal": "Predeclare actual author tasks, manual comparison and time/repair limits; require retention, branching, replay and explicit usefulness acceptance with typed evidence.",
       "status": "OPEN"
     }
   ],
@@ -3739,12 +3740,68 @@
         "TL-067",
         "TL-032"
       ]
+    },
+    {
+      "id": "EX-31",
+      "name": "Replay of unknown state",
+      "setup": "Initialize, hash, save and replay a protected unknown without choosing a culprit; belief-driven behavior runs, truth-dependent claims remain unavailable, and missing required configuration fails distinctly.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-011",
+        "TL-068",
+        "TL-074"
+      ]
+    },
+    {
+      "id": "EX-32",
+      "name": "Typed evidence states",
+      "setup": "Persist and resolve all five evidence-assessment statuses; retain an unassessed candidate with justified empty elements, reject fabricated supports, and require supported payloads for each mandatory agency case.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-069",
+        "TL-073",
+        "TL-075"
+      ]
+    },
+    {
+      "id": "EX-33",
+      "name": "Source omission audit",
+      "setup": "Remove a consequential source promise or veto and its references so dependency checks pass; an independent source-first sample audit detects the omission and blocks affected activation until repair or explicit rescoping.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-077",
+        "TL-068"
+      ]
+    },
+    {
+      "id": "EX-34",
+      "name": "Relational counterexamples",
+      "setup": "Test concealed betrayal without unearned knowledge, a legally permissible breach of a nonbinding promise, and a truthful disclosure followed by disbelief or noncooperation under registered rules.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-042",
+        "TL-069",
+        "TL-070",
+        "TL-071"
+      ]
+    },
+    {
+      "id": "EX-35",
+      "name": "Retain and develop an idea",
+      "setup": "Under a predeclared prepared/open/held-out and manual-comparator protocol, the author retains a previously unconsidered usable idea after assumption disclosure, branches to a subsequent supported dilemma, saves/replays it, and judges time, repair and usefulness.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-075",
+        "TL-072",
+        "TL-073",
+        "TL-077"
+      ]
     }
   ],
-  "design_revision": "0.9",
+  "design_revision": "0.10",
   "ontology_contract": {
     "contract_id": "pacifica.timeline-lab.ontology",
-    "version": "0.9",
+    "version": "0.10",
     "status": "DESIGN_CONTRACT_NOT_EXECUTABLE_SCHEMA",
     "scope": "Only records and mechanisms active in the bounded experiment must have runtime schemas/bindings; unsupported effects are disabled. The full catalog is not a prerequisite for R0.",
     "common_required": {
@@ -4169,7 +4226,8 @@
           "population_ref",
           "claim_basis",
           "intervention_lineage_refs",
-          "choice_evidence_refs"
+          "choice_evidence_refs",
+          "element_statuses"
         ],
         "invariant": "A candidate creates no world facts or intentions. Unknown dramatic elements remain explicit; causal diversity is not a score for literary quality."
       },
@@ -4222,7 +4280,7 @@
       {
         "id": "ONT-03",
         "name": "Truth and information",
-        "rule": "Assertions, world truth, delivered observations and beliefs are separate. Unknown, absent, false/refused, disputed and unmodeled differ. Resolution policy distinguishes concealed resolved truth, author decisions pending, protected ambiguity and outside coverage; protected ambiguity is never silently sampled into a hidden answer."
+        "rule": "Assertions, world truth, delivered observations and beliefs are separate. Unknown, absent, false/refused, disputed and unmodeled differ. Tagged unknown state with a valid resolution policy is serializable and replayable; missing required configuration is an error. Protected ambiguity is never silently sampled or branched into a hidden answer."
       },
       {
         "id": "ONT-04",
@@ -4344,7 +4402,7 @@
       "lawful": "Permits lawful_execution. Actor attempts and visible menus obey actor information; adjudication rejects actual unlawful execution without leaking concealed reasons before permitted disclosure.",
       "apparent_authority": "Adds mistaken_authority_execution to lawful execution: a registered physically possible but actually unauthorized act may execute when the actor believes it authorized under the pinned credibility rule. Actual legality is independently adjudicated; valid authority produces an ordinary lawful outcome.",
       "breach_exploration": "Adds intentional_breach_execution to the apparent_authority set. Only explicitly enabled exceptional variants with supported consequences may execute. The actor may still act lawfully, honour an agreement or decline to act; permission never compels misconduct.",
-      "classification": "Adjudication resolves actual legality independently of the profile name. An actually authorized act uses lawful_execution even if the actor misunderstood its status; intention/perceived authority are separate recorded dimensions. An actually unauthorized act requires the applicable mistaken-authority or intentional-breach category and its registered rule. Unknown/disputed material truth needs a hypothesis or unsupported result.",
+      "classification": "Adjudication resolves actual legality independently of the profile name. An actually authorized act uses lawful_execution even if the actor misunderstood its status; intention/perceived authority are separate recorded dimensions. An actually unauthorized act requires the applicable mistaken-authority or intentional-breach category and its registered rule. Unknown/disputed material truth follows its resolution policy; only permitted hypotheses may resolve it, otherwise the dependent adjudication is unsupported. A nonbinding personal promise violation is classified by its actual legal status, not the word breach; legally permissible conduct or conduct with no applicable legal restriction may use lawful_execution while social consequences remain separately modeled.",
       "mixed_world": "Pacifica can be lawful while a counterparty has broader permissions. Independent procedures choose actions; no profile creates consent, title, resources or favourable outcomes."
     },
     "query_contract": {
@@ -4417,7 +4475,16 @@
       "common": [
         "supersedes_ref for initial revision"
       ],
-      "rule": "Explicit null and empty supported-reference sets are meaningful only where the type permits them; unknown evidence must remain marked unknown, never silently inferred."
+      "rule": "Explicit null and empty supported-reference sets are meaningful only where the type permits them; unknown evidence must remain marked unknown, never silently inferred.",
+      "ChoiceEvidenceAssessment": [
+        "assessment_method_ref, assessor_ref and dimension_payload only for not_assessed or not_applicable with reason",
+        "support_refs may be empty for non-supported status with reason",
+        "assumption_refs may be empty when no assumptions apply"
+      ],
+      "StoryCandidate": [
+        "Missing dramatic element reference arrays may be empty only with corresponding element_statuses and reason",
+        "choice_evidence_refs always pins three dimensional assessments, including explicit not_assessed or not_applicable when appropriate"
+      ]
     },
     "resolved_experiment_contract": {
       "id": "resolved_experiment_id",
@@ -4439,7 +4506,7 @@
         "presentation-only formatting",
         "search ranking or narrative selection that does not alter generated history"
       ],
-      "canonicalization": "Resolve defaults, units, time zones and references to immutable semantic content; sort unordered maps/sets and preserve semantically ordered sequences. Pin number/time serialization and canonicalization version, and reject unresolved material values. Display-name changes preserve identity; changes to any included semantic value change it. Keep provenance and presentation metadata separately retained.",
+      "canonicalization": "Resolve defaults, units, time zones and references to immutable semantic content; sort unordered maps/sets and preserve semantically ordered sequences. Pin number/time serialization and canonicalization version, and reject missing required configuration while canonically preserving declared unknown/disputed value states and their resolution policies. Display-name changes preserve identity; changes to any included semantic value change it. Keep provenance and presentation metadata separately retained.",
       "calculation": "calculation_key = (resolved_experiment_id, root_world_id, assessment_stage, branch_spec_id). branch_spec_id fingerprints the parent checkpoint/prefix and normalized intervention or root marker; runtime branch/run IDs additionally preserve lineage.",
       "evaluation": "evaluation_key = (resolved_experiment_id, root_world_id, assessment_stage). The original evaluation remains distinct from descendant branch executions; a changed semantic continuation references its new resolved experiment as well as its parent evaluation.",
       "matching": "root_world_id identifies external conditions within a compatible pinned world design. It is separate from experiment identity so matched comparisons remain possible across policy, premise, conduct or fidelity variants only where draw meanings remain valid. The same root ID alone proves neither equivalence nor causality.",
@@ -4478,7 +4545,8 @@
         "first divergence and consequence/next-dilemma support refs"
       ],
       "r0": "Demonstrate controller-generated intention-sensitive behavior separately, then compare two supported plausible actions at one decision under an isolated intervention. An author-selected alternative may contribute conditional consequence evidence when its plausibility is independently supported. Include a separate low-effect contrast.",
-      "limits": "An override never proves that the actor would choose it or enters actor-generated reliability. Missing plausibility evidence blocks the agency gate. A changed continuing policy or character/world premise is a separately labelled policy/premise comparison, not an isolated action effect. Subsequent choices respond normally to changed endogenous states under unchanged rules."
+      "limits": "An override never proves that the actor would choose it or enters actor-generated reliability. Missing plausibility evidence blocks the agency gate. A changed continuing policy or character/world premise is a separately labelled policy/premise comparison, not an isolated action effect. Subsequent choices respond normally to changed endogenous states under unchanged rules.",
+      "assessment_contract_ref": "ontology_contract.evidence_assessment_contract"
     },
     "ambiguity_contract": {
       "binding": "Each Proposition pins an immutable resolution_policy_ref within its experiment context; PredicateDefinition.resolution_rule_ref supplies an explicit default. Validation resolves overrides and authorial locks before initialization.",
@@ -4489,7 +4557,7 @@
         "outside_coverage": "The model does not cover this question. Mark dependent claims unsupported; do not use zero, false or a fabricated answer."
       },
       "execution": "Mechanisms may use supported assertions, suspicions and observations without resolving protected truth. If a mechanism requires the answer, withhold that affected computation or use an explicitly supported formulation independent of it; unaffected mechanisms continue. Do not discard the whole history automatically.",
-      "change_control": "A preserve_ambiguity lock can change only through an explicit authorial premise revision, never a search variable or automatic hypothesis branch. The existing Noe culpability constraint remains protected."
+      "change_control": "A preserve_ambiguity lock can change only through an explicit authorial premise revision, never a search variable or automatic hypothesis branch. Responsibility for Noe's death remains protected and unresolved."
     },
     "content_manifest_contract": {
       "kind": "ExperimentContentManifest within the existing versioned experiment bundle; not an additional world record or database service.",
@@ -4512,7 +4580,10 @@
         "mechanism_and_runtime_binding_refs",
         "dependency_dispositions",
         "coverage_and_exclusions",
-        "validation_and_review_refs"
+        "validation_and_review_refs",
+        "source_coverage_ledger_ref",
+        "independent_source_review_ref",
+        "author_decision_queue_ref"
       ],
       "content_roles": {
         "initial_fact": "Settled before the declared start; initialize under its authority/evidence status.",
@@ -4521,9 +4592,9 @@
         "external_scenario_assumption": "Explicit external event/distribution with applicability, timing and channel rules; not a device to force an endogenous response.",
         "narrative_constraint": "Explicit author condition evaluated as a filter/search constraint; cannot write world state or force compliance."
       },
-      "activation_gate": "Every transitive dependency of an active mechanism, information initializer and requested claim has a disposition: sourced, explicit assumption, excluded with affected claims disabled, or blocking unresolved. No missing reference is silently invented. Referential completeness alone does not establish mechanism coverage.",
+      "activation_gate": "Every transitive dependency of an active mechanism, information initializer and requested claim has a disposition: sourced, explicit assumption, excluded with affected claims disabled, or blocking unresolved. No missing reference is silently invented. Referential completeness alone does not establish mechanism coverage. SourceCoverageLedger and its independent sample review must also pass; a closed dependency graph cannot establish that no source claim was omitted.",
       "identity": "All executable content roles, state and bindings enter resolved_experiment_id. Extraction provenance, source spans and manifest revisions remain retained; reference-only annotations do not change calculation identity unless their semantic use changes.",
-      "incrementality": "Stage extraction proposals separately from active bundles. Stable IDs and source-span links survive re-import; no duplicates, automatic canon promotion or edits to source files. Source revisions produce impact reports and new bundles while old runs remain reproducible."
+      "incrementality": "Stage extraction proposals separately from active bundles. Stable IDs and source-span links survive re-import; no duplicates, automatic canon promotion or edits to source files. Source revisions produce impact reports and new bundles while old runs remain reproducible. Reconcile source coverage units, sample expectations and the author-decision queue on every affected source revision."
     },
     "relational_action_contract": {
       "first_slice": [
@@ -4544,10 +4615,117 @@
         "applicability and evidence"
       ],
       "acceptance": "A private commitment and selective disclosure change a supported belief, then a costly choice, cooperation and a subsequent dilemma. Produce two causally distinct candidates with similar financial outcomes; explanation links alone do not count as state changes.",
-      "limits": "Use a few reviewed qualitative relationship states and transitions. No universal trust score or complete psychology is required. Silence changes beliefs only through an explicit expectation/observation rule; it cannot reveal hidden reports."
+      "limits": "Use a few reviewed qualitative relationship states and transitions. No universal trust score or complete psychology is required. Silence changes beliefs only through an explicit expectation/observation rule; it cannot reveal hidden reports.",
+      "failure_cases": [
+        "A concealed promise breach alone cannot alter another actor's beliefs or choices. Deliver supported evidence, inference cues or observations before the registered response rule can change them; world effects can still occur independently.",
+        "Breaking a nonbinding personal promise can be lawful execution or legally not applicable while producing supported social consequences. Record promise fulfillment separately from actual legal status; do not require intentional_breach_execution solely because the narrative calls it betrayal.",
+        "A truthful disclosure need not be believed or produce trust/cooperation. Test a registered case in which credibility, conflicting goals or costs lead to disbelief, refusal or reduced cooperation without changing the reported truth."
+      ]
+    },
+    "value_state_contract": {
+      "representation": "WorldFact.value and equivalent runtime fields use a tagged value state under the predicate definition: known(value), unknown(reason_ref), disputed(assertion_refs), unmodeled(reason_ref), not_applicable(reason_ref), or explicitly_absent(evidence_refs). Known false is a value, never a missingness marker. Observation and Belief payloads retain their own distinct actor scope.",
+      "binding": "A proposition always has a valid predicate signature, value domain, scope and resolution policy. The policy and tag are explicit immutable semantics, independent of whether the underlying truth is known. No bare null, NaN, zero or empty collection substitutes for a declared unknown.",
+      "initialization": "Validate types, references and policy first. A well-formed unknown or disputed value can initialize, hash, save and replay. Reject missing required schemas, policy references, units, ownership or active runtime bindings, rather than rejecting the package merely because truth is unknown.",
+      "execution": "An active mechanism declares which tagged states it accepts. If it requires unavailable truth, withhold that computation and propagate unsupported status only to dependent claims. Rules using supported testimony, suspicion or beliefs may continue without reading the unresolved truth.",
+      "hypothesis": "Hypothesis branching is permitted only by the pinned resolution policy and explicit scenario scope. preserve_ambiguity forbids automatic branching, sampling or completion; changing that lock requires an explicit authorial premise revision.",
+      "canonicalization": "Hash the tag, reason/assertion/evidence references resolved to immutable semantic content, resolution policy and applicable predicate bindings. An unchanged unknown package has stable identity; permitted changes of tag, policy or truth change semantic identity. Missing required configuration fails resolution.",
+      "regression": "Initialize, hash, save and replay protected unresolved responsibility for Noe's death. Belief-driven behavior continues without identifying a culprit; a truth-dependent query or mechanism remains unavailable, and a missing required binding fails before execution."
+    },
+    "evidence_assessment_contract": {
+      "artifact_type": "ChoiceEvidenceAssessment",
+      "storage": "Versioned supporting artifact using the common identity, revision, scope and provenance fields; no additional world record type.",
+      "required_fields": [
+        "dimension",
+        "subject_refs",
+        "status",
+        "assessment_method_ref",
+        "assessor_ref",
+        "support_refs",
+        "assumption_refs",
+        "reason",
+        "dimension_payload"
+      ],
+      "dimensions": [
+        "plausibility",
+        "generation",
+        "consequence"
+      ],
+      "statuses": {
+        "supported": "The stated dimensional claim is established within its declared scope and assumptions.",
+        "unsupported": "Required support or mechanism coverage is absent, or evidence establishes that the stated claim does not hold; record the specific reason.",
+        "unresolved": "The assessment was attempted but a named uncertainty or open question prevents a conclusion.",
+        "not_assessed": "No assessment has been completed for this dimension; this is not evidence of failure or success.",
+        "not_applicable": "The dimension does not apply to the declared subject; justify this explicitly, never use it to waive a required release case."
+      },
+      "reference_targets": "StoryCandidate.choice_evidence_refs pins one current assessment per dimension for its declared focal decision/comparison or history scope. AuthorReview.agency_evidence_refs pins the assessments used by each required trial case, not free-text labels. Subject refs are nonempty immutable references to the relevant history, context, action or comparison.",
+      "nullability": "assessment_method_ref, assessor_ref and dimension_payload may be explicit null only for not_assessed or not_applicable, with a reason. support_refs may be empty for a non-supported status with an explicit missingness/coverage reason; assumption_refs may be empty when none apply. supported requires nonempty support_refs and non-null method, assessor and dimension payload. Subject refs never disappear.",
+      "payloads": {
+        "plausibility": "context_ref, action_spec_ref, considered_goal_and_commitment_refs, capability_and_conduct_refs, rationale; evaluate the actor-visible state without inventing an executed motive.",
+        "generation": "decision_record_ref and selection_origin copied from the recorded procedure. An author override is unsupported for the controller-generation claim, even if its conditional consequences are supported.",
+        "consequence": "comparison_ref to the isolated-action comparison manifest under agency_evidence_contract.comparison_contract, including changed fields, fixed continuation rules, horizon/materiality and consequence supports."
+      },
+      "candidate_nullability": "Existing focal_actor_refs, goal_refs, obstacle_or_conflict_refs, decision_refs, sacrifice_refs, consequence_refs and unresolved_tension_refs may be empty when evidence is missing. StoryCandidate adds element_statuses, with each field marked supported, unsupported, unresolved, not_assessed or not_applicable plus a reason for any empty set. A supported element needs at least one immutable support. Unsupported interpretations stay explicitly labelled; no invented sacrifice or motive fills a slot.",
+      "gate": "Draft candidates can be retained with unassessed or inapplicable dimensions. Required agency release cases need supported evidence in each applicable dimension across their declared separate tests. No unknown, unassessed, unsupported or inapplicable status counts as passing a required case; no aggregate score promotes an override into controller generation."
+    },
+    "source_coverage_contract": {
+      "artifact_type": "SourceCoverageLedger",
+      "storage": "Versioned supporting artifact linked by ExperimentContentManifest; retained with the source bundle, not a new world entity.",
+      "required_fields": [
+        "source_scope_ref",
+        "source_blobs",
+        "units",
+        "independent_reference_sample_ref",
+        "omission_test_refs",
+        "review_ref"
+      ],
+      "unit_fields": [
+        "unit_id",
+        "source_blob_sha",
+        "span_or_anchor",
+        "disposition",
+        "record_revision_refs",
+        "reason",
+        "question_refs",
+        "review_ref"
+      ],
+      "dispositions": [
+        "extracted",
+        "excluded",
+        "unresolved"
+      ],
+      "scope": "Predeclare selected documents/sections and stable passage units from source text before consulting extraction output. Cover every unit in that scope; follow relevant cross-references or record a justified boundary. Do not define the scope as only passages that the extractor noticed.",
+      "integrity": "extracted requires record revision refs; excluded requires a reason such as irrelevance or supersession; unresolved requires a named question and affected-claim disposition. A mapped passage can still contain omitted claims, so ledger coverage alone is insufficient.",
+      "audit": "Build a small reference sample in a separate source-first review pass, without deriving its expected facts from the extraction output. Predeclare sampling and include identities, obligations/promises, veto/authority, knowledge restrictions and chronology. Compare expected claims with records and their authority/times, inspect exclusions, and record omissions, false additions, repairs and remaining limits. Report audited sample size; no unsupported whole-corpus recall claim.",
+      "omission_test": "Deliberately remove a consequential promise or veto and its direct references so ordinary referential/dependency validation still passes. The independent expected-claim comparison must detect the omission and block activation of affected scope until repaired or explicitly rescoped.",
+      "activation": "No unreviewed source unit or unresolved material sampled discrepancy may be silently accepted. A reviewed exclusion may disable dependent claims; source completeness review and executable dependency validation are separate gates.",
+      "queue": "Each unresolved author decision records question, source refs, affected records/claims, blocking status, responsible reviewer, decision status and waiting time. No elapsed-time or model-generated answer is author approval."
+    },
+    "author_trial_contract": {
+      "artifact_type": "AuthorTrialProtocol and retained AuthorReview evidence in the existing experiment layer",
+      "predeclare": [
+        "protocol/version and task IDs",
+        "prepared and open task scope",
+        "at least one supported-domain question withheld from model/output tuning",
+        "notes/manual-workflow comparator and task order/exposure",
+        "session time and manual-repair budgets",
+        "author acceptance procedure and required evidence"
+      ],
+      "execution": "Before tuning, record the actual tasks and numeric time/repair budgets. Run prepared/open/held-out work and the scoped manual comparator; record prior exposure and learning/order limitations. The author inspects assumptions, retains at least one previously unconsidered usable plot possibility, then branches from that retained idea into a subsequent supported dilemma. Save and replay the chain with unchanged identity.",
+      "required_evidence": [
+        "retained bookmark and candidate/history refs",
+        "author judgment that the idea was previously unconsidered and remains usable after assumption disclosure",
+        "branch/checkpoint and next-dilemma supports",
+        "replay result",
+        "time to retained idea and branch",
+        "explanation gaps and manual repair work",
+        "manual-comparator observations",
+        "explicit author acceptance or rejection"
+      ],
+      "pass": "Pass only with the retained-and-developed idea, inspectable assumptions, supported branch/replay, completed required tasks and explicit author acceptance under the predeclared time/repair limits. A failed budget or required case needs repair and reassessment or an explicit prospective scope/protocol revision; never retroactively widen limits to pass.",
+      "limits": "A prepared chain, attractive prose, a populated sacrifice slot or an automatic quality score cannot substitute for author usefulness. If held-out feedback informs tuning, the task becomes development material and a fresh supported-domain question is required. Single-author comparisons report exposure and learning limits without claiming population-level improvement."
     }
   },
-  "schema_change_note": "Revision 0.9 separates choice plausibility, controller generation and isolated consequence evidence; adds protected-ambiguity and experiment-content manifest contracts, relational action coverage, data-population planning and bounded resource budgets. Existing record identities remain stable; new required references need migration if consumers exist. Runtime schemas and mechanisms remain unimplemented.",
+  "schema_change_note": "Revision 0.10 defines typed unresolved state and evidence-assessment artifacts, source coverage and omission audits, relational counterexamples and the retain-and-branch author trial. It strengthens existing requirements without adding world record types. Required manifest references and payload contracts need migration if consumers exist; runtime schemas remain unimplemented.",
   "data_population_plan": {
     "document": "data-population-plan.md",
     "source_commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
@@ -4637,7 +4815,9 @@
       "identity and temporal normalization",
       "knowledge and behavioral data preparation",
       "existing-mechanism binding",
-      "consistency checks and repair"
+      "consistency checks and repair",
+      "source coverage ledger and independent omission audit",
+      "author-decision queue and measurement of repair burden"
     ],
     "excludes": [
       "general simulator and UI implementation",
@@ -4646,7 +4826,7 @@
       "author waiting and author review labor",
       "full dynamic modeling of all 1824–1932"
     ],
-    "recalibration": "Measure the first package by activity and record unresolved-author queues; revise both token and time ranges before expanding."
+    "recalibration": "Measure a complete first package including independent source-omission audit, behavioral-data preparation, repairs and author trial support. Record active AI time separately from author labor/waiting and maintain the author-decision queue. Re-estimate both token and time ranges before bulk expansion."
   },
   "resource_plan": {
     "document": "data-population-plan.md",

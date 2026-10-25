@@ -1,6 +1,6 @@
 # Pacifica action and actor catalog draft
 
-**25 October 2026 · Design revision 0.9 · Draft for author review**
+**25 October 2026 · Design revision 0.10 · Draft for author review**
 
 Pacifica chooses offers, budgets, investments and authorized commitments. The world model determines what resources become available, how other actors respond and what follows. Strategies can adapt to dated observations; the author does not need to describe the outcome of every branch.
 
@@ -85,6 +85,8 @@ A language model may help draft reviewed assumptions and explain traces. Numeric
 
 ### Relational repertoire required for R0
 
+The positive chain must pass these counterexamples as well: hidden betrayal alone does not change an uninformed recipient's beliefs/choices; breaking a nonbinding personal promise does not automatically make conduct illegal; and a truthful disclosure need not generate belief, trust or cooperation. Evidence/inference channels, credibility rules and goals determine the response. Actual legality and promise fulfillment remain separate; legally permissible promise breaking can use lawful execution while retaining supported social consequences.
+
 The 24 existing macro action families remain disabled design entries. M0 must define stable variant IDs and executable bindings for a bounded relational repertoire using the same action protocol:
 
 | Proposed variant | Required semantics |
@@ -94,7 +96,7 @@ The 24 existing macro action families remain disabled design entries. M0 must de
 | Verify or challenge | Request, available evidence, independent responder and possible delay/refusal; verification cannot reveal an unmodeled or protected answer. |
 | Honour or breach | Check an existing duty and actual conduct; apply only supported cooperation/relationship effects, with persistent state and future options. |
 
-These variants reuse existing Commitment, Assertion, Observation, Belief, ActionAttempt and qualified relationship records; no universal personality model is required. Only reviewed, tested variants become active in the content manifest. Require two plots with similar financial results but distinct commitment/disclosure/belief/choice/cooperation chains. Noe's protected unresolved culpability stays unresolved even when suspicion affects these choices.
+These variants reuse existing Commitment, Assertion, Observation, Belief, ActionAttempt and qualified relationship records; no universal personality model is required. Only reviewed, tested variants become active in the content manifest. Require two plots with similar financial results but distinct commitment/disclosure/belief/choice/cooperation chains. Responsibility for Noe's death stays protected and unresolved even when suspicion affects these choices.
 
 ### Existing action families
 
@@ -428,9 +430,9 @@ Do not give peaceful paths war-produced debts, territorial gains or rescue-drive
 
 ## Review examples
 
-Version 0.9 adds isolated-action evidence, content activation, protected ambiguity, relational consequences and resource-budget demonstrations. Previous conduct, identity and independent open-proposal cases remain. The source family and budgets must generate the distinctive route; preloading a successful story is not evidence of discovery.
+Version 0.10 adds unknown-state replay, typed evidence-status handling, a source-omission audit, relational counterexamples and a retain-and-branch author trial. Prior conduct, identity, independent proposal and resource cases remain. The source family and budgets must generate the distinctive route; preloading a successful story is not evidence of discovery.
 
-Revision 0.9 also tests delayed target-period reports, person/institution decision capacity, MetricSample isolation, incomplete temporal queries, population lineage and derived dramatic structure. These are synthetic acceptance cases, not canonical events. Open candidate selection precedes strategic pruning and permits spontaneous bookmarks; the author gate includes an untuned writing question and comparison with notes/manual work.
+Revision 0.10 also tests delayed target-period reports, person/institution decision capacity, MetricSample isolation, incomplete temporal queries, population lineage and derived dramatic structure. These are synthetic acceptance cases, not canonical events. Open candidate selection precedes strategic pruning and permits spontaneous bookmarks; the author gate includes an untuned writing question and comparison with notes/manual work.
 
 These are proposed acceptance examples for the later engine, not reported test results.
 
@@ -480,7 +482,7 @@ A family that lacks these remains unavailable or supports an explicitly selected
 | [SRC-D](https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032d.md) — CR-032D neutrality | SEPARATE DRAFT ALTERNATIVE; commit 626ffbb0bd6486c19164f89104569d78321ebd55. |
 | [SRC-VISION](product-vision.md) — Timeline Lab vision and professional wargaming sources | PROPOSED PRODUCT DESIGN. |
 | [SRC-REQ](requirements.md) — Timeline Lab requirements | PROPOSED SOFTWARE REQUIREMENTS. |
-| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.9 | PROPOSED SEMANTIC CONTRACT. |
+| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.10 | PROPOSED SEMANTIC CONTRACT. |
 | [SRC-FIXTURE](fixture-manifest.json) — Six-case fixture manifest | FROZEN FINANCIAL REGRESSION METADATA. |
 
 The current master and CR-031-R1 supersede the audit's dated northern-geography and labour passages. Preserve the source distinctions: institutional/narrative facts govern the starting world, local proposals remain proposals, numerical quantities remain MODEL, and behavioral mechanisms here remain design hypotheses.
