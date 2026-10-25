@@ -154,4 +154,6 @@ Store search metadata, policies, inputs and compact evaluations in the versioned
 
 Implementation order is: define success and agency; establish evidence and dynamics; verify the native world kernel; implement repeated evaluation and search; then build the exploration dashboard. The next design artifact is the agreed objective/constraint sheet and action/actor catalog, not a finalized database schema.
 
+The [objective and constraint sheet](objectives-and-constraints.md) and [action and actor catalog](action-and-actor-catalog.md) supply the proposed model definitions for author review. Their [structured draft catalog](draft-model-catalog.json) carries stable IDs, provenance and coverage gates; it is not an executable engine.
+
 See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md) for the corresponding requirements and provisional architecture.

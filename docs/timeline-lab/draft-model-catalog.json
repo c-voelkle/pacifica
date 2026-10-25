@@ -1,0 +1,3300 @@
+{
+  "schema_version": "0.1.0",
+  "catalog_id": "pacifica-timeline-lab-draft-20261025",
+  "status": "DRAFT_FOR_AUTHOR_REVIEW",
+  "date": "2026-10-25",
+  "simulation_executable": false,
+  "purpose": "Define proposed success measures, constraints, actions and independent actors before implementing the native simulation.",
+  "authority": {
+    "confirmed": [
+      "Generate and search many possible timelines.",
+      "Compare trade-offs among several success variables.",
+      "Control Pacifica while other actors respond independently.",
+      "Run calculations independently of Excel."
+    ],
+    "proposed": [
+      "1904–1932 pilot; extend earlier decisions in later campaigns.",
+      "Pacifica executive proposes policy, with domestic institutions retaining reserved powers.",
+      "Four primary objectives; optional families enabled when their mechanisms and evidence are usable."
+    ],
+    "open": [
+      "Final objective selection and beneficiaries.",
+      "Acceptable loss and breach probabilities.",
+      "Thresholds without a source value.",
+      "Pilot actors, mechanism coverage and resolution."
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-STORY",
+      "status": "CANON_WITH_LOCAL_QUALIFICATIONS",
+      "title": "Master storyline through CR-031-R1",
+      "commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
+      "path": "book-agent/revision/master_storyline.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/master_storyline.md"
+    },
+    {
+      "id": "SRC-CR",
+      "status": "AUTHORIAL_AUTHORITY",
+      "title": "Change register and supersession notes",
+      "commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
+      "path": "book-agent/revision/change_requests.json",
+      "url": "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/change_requests.json"
+    },
+    {
+      "id": "SRC-HISTORY",
+      "status": "HISTORICAL_CONTEXT_AND_DIVERGENCES",
+      "title": "Historical background",
+      "commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
+      "path": "book-agent/revision/historical_background.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/historical_background.md"
+    },
+    {
+      "id": "SRC-AUDIT",
+      "status": "MODEL_ASSUMPTIONS_AND_DATED_AUDITS",
+      "title": "Feasibility audit; later corrections take precedence",
+      "commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
+      "path": "book-agent/revision/war_base_assumptions.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/war_base_assumptions.md"
+    },
+    {
+      "id": "SRC-FINANCE",
+      "status": "SAVED_MODEL_VALUES_NOT_RECALCULATED",
+      "title": "Current financial reference review",
+      "commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
+      "path": "finance/CR-031-review.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/finance/CR-031-review.md"
+    },
+    {
+      "id": "SRC-ALT",
+      "status": "SEPARATE_DRAFT_ALTERNATIVE",
+      "title": "Alternative comparison rules",
+      "commit": "626ffbb0bd6486c19164f89104569d78321ebd55",
+      "path": "book-agent/revision/alternatives/CR-032/README.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/README.md"
+    },
+    {
+      "id": "SRC-A",
+      "status": "SEPARATE_DRAFT_ALTERNATIVE",
+      "title": "CR-032A federal Russia",
+      "commit": "626ffbb0bd6486c19164f89104569d78321ebd55",
+      "path": "book-agent/revision/alternatives/CR-032/CR-032.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032.md"
+    },
+    {
+      "id": "SRC-B",
+      "status": "SEPARATE_DRAFT_ALTERNATIVE",
+      "title": "CR-032B summer 1917 peace",
+      "commit": "626ffbb0bd6486c19164f89104569d78321ebd55",
+      "path": "book-agent/revision/alternatives/CR-032/CR-032b.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032b.md"
+    },
+    {
+      "id": "SRC-C",
+      "status": "SEPARATE_DRAFT_ALTERNATIVE",
+      "title": "CR-032C prewar diplomacy",
+      "commit": "626ffbb0bd6486c19164f89104569d78321ebd55",
+      "path": "book-agent/revision/alternatives/CR-032/CR-032c.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032c.md"
+    },
+    {
+      "id": "SRC-D",
+      "status": "SEPARATE_DRAFT_ALTERNATIVE",
+      "title": "CR-032D neutrality",
+      "commit": "626ffbb0bd6486c19164f89104569d78321ebd55",
+      "path": "book-agent/revision/alternatives/CR-032/CR-032d.md",
+      "url": "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032d.md"
+    },
+    {
+      "id": "SRC-VISION",
+      "status": "PROPOSED_PRODUCT_DESIGN",
+      "title": "Timeline Lab vision and professional wargaming sources",
+      "path": "docs/timeline-lab/product-vision.md"
+    },
+    {
+      "id": "SRC-REQ",
+      "status": "PROPOSED_SOFTWARE_REQUIREMENTS",
+      "title": "Timeline Lab requirements",
+      "path": "docs/timeline-lab/requirements.md"
+    },
+    {
+      "id": "SRC-FIXTURE",
+      "status": "FROZEN_FINANCIAL_REGRESSION_METADATA",
+      "title": "Six-case fixture manifest",
+      "path": "docs/timeline-lab/fixture-manifest.json"
+    }
+  ],
+  "experiment_proposal": {
+    "id": "EXP-PILOT-01",
+    "status": "PROPOSED_NOT_RUN",
+    "start": "1904-01-01",
+    "end": "1932-12-31",
+    "terminal_assessment": "Report remaining debt, guarantees, maintenance, restoration and treaty obligations beyond 1932; use an explicitly modelled tail or an unresolved-liability bound.",
+    "decision_clock": "Annual budget and strategic decisions; monthly finance and response cycles; finer logistics/crisis steps when the supported module requires them.",
+    "controlled_actor": "ACT-PAC-EXEC",
+    "control_scope": "Executive agenda, budget proposals and authorized operations. Separate legislative, crown, monetary and foreign consent is adjudicated.",
+    "recommended_objectives": [
+      "OBJ-01",
+      "OBJ-02",
+      "OBJ-03",
+      "OBJ-04"
+    ],
+    "optional_objectives": [
+      "OBJ-05",
+      "OBJ-06",
+      "OBJ-07",
+      "OBJ-08"
+    ],
+    "objective_weights": null,
+    "risk_tolerances": null,
+    "initial_state": "Versioned reconstruction at the fork, with balance sheets, assets, obligations, laws, rights, beliefs and inherited capability; a 1932 snapshot cannot initialize 1904.",
+    "baseline_role": "Financial regression and comparator policy reconstructed from the master; authored future outcomes only in labelled fixture replay.",
+    "control_role": "Shared-change control in the existing manifest: first divergence from baseline in 1904. Its exact shared inputs must be retrieved from the frozen bundle before policy reconstruction; it is not a no-action policy.",
+    "comparison": "Identical objective contracts, boundaries, starting conditions and exogenous-world design for a common-start policy contest. Separately label scenario-package comparisons with different assumptions.",
+    "required_traceability": [
+      "TL-041",
+      "TL-042",
+      "TL-043",
+      "TL-044",
+      "TL-045",
+      "TL-046",
+      "TL-047",
+      "TL-048",
+      "TL-049",
+      "TL-050",
+      "TL-053",
+      "TL-055",
+      "TL-056",
+      "TL-057"
+    ]
+  },
+  "metric_contract_required": [
+    "id",
+    "name",
+    "status",
+    "beneficiary",
+    "geography",
+    "definition",
+    "unit",
+    "direction",
+    "time_aggregation",
+    "across_futures",
+    "observation_and_truth",
+    "terminal_failure",
+    "coverage_gate",
+    "sources"
+  ],
+  "objectives": [
+    {
+      "id": "OBJ-01",
+      "name": "Core prosperity",
+      "status": "PROPOSED_PRIMARY",
+      "beneficiary": "Usual residents of Pacifica's core economic perimeter, including qualifying guest workers under a declared residency rule.",
+      "geography": "North American/core perimeter used by the financial model; Hawaii, Philippines and partners reported separately unless a new explicit perimeter is selected.",
+      "definition": "For each path, sum annual real household consumption per usual resident times the fraction of year. Consumption is measured after taxes, domestic and foreign income flows, and remittances using a consistent household-account bridge.",
+      "unit": "1913-price currency per usual resident, accumulated over the decision horizon.",
+      "direction": "maximize",
+      "time_aggregation": "Sum of annual per-person consumption; report 1932 level and worst-year change separately.",
+      "across_futures": "Primary statistic: lower 10th percentile of the path total. Also show median, upper tail and convergence uncertainty. Quantile level is a draft risk preference.",
+      "observation_and_truth": "Score realized model quantities; decisions use only contemporary estimates. Keep true and published accounts distinct.",
+      "terminal_failure": "Continue civilian welfare accounting after military or fiscal failure using the defined successor/continuation state; unresolved continuation produces an explicit outcome interval, not a fabricated consumption series.",
+      "coverage_gate": "Blocked until population, deflators, household consumption and distribution boundaries exist. Real GDP/person may be a separately named proxy; nominal GDP cannot silently substitute.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE",
+        "SRC-VISION"
+      ]
+    },
+    {
+      "id": "OBJ-02",
+      "name": "Security and freedom of action",
+      "status": "PROPOSED_PRIMARY",
+      "beneficiary": "Pacifica and the explicitly named communities covered by its security commitments.",
+      "geography": "A fixed campaign list of sovereign areas, essential routes and defensive commitments.",
+      "definition": "Count calendar days when at least one required security condition is materially unmet: a named area under hostile coercive control, an essential route unusable beyond its allowed interruption, or an agreed defensive obligation unsatisfied. Define each condition and tolerance before search.",
+      "unit": "Security-failure days; no double-counting simultaneous failures in the headline total.",
+      "direction": "minimize",
+      "time_aggregation": "Cumulative failure days, with separate failure cause, duration, recovery and terminal-loss indicators.",
+      "across_futures": "Primary statistic: upper 90th percentile of failure days. Report each condition's incidence and joint attainment with the other objectives.",
+      "observation_and_truth": "Score actual territorial/access/capability states; actors act on incomplete reports. A signed treaty does not itself prove usable access or readiness.",
+      "terminal_failure": "Irrecoverable loss of a required sovereign condition counts as failed for the remaining horizon. Do not stop counting when the government falls.",
+      "coverage_gate": "Blocked until threats, rights, force readiness, logistics and a declared mission test are represented. No universal national-power index.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT",
+        "SRC-ALT"
+      ]
+    },
+    {
+      "id": "OBJ-03",
+      "name": "Treasury resilience",
+      "status": "PROPOSED_PRIMARY",
+      "beneficiary": "Pacifica's public service users and public creditors within the declared fiscal perimeter.",
+      "geography": "Core Treasury, with separate crown, local, common-institution and Reserve Bank accounts.",
+      "definition": "At each monthly opening, compute 12 × unrestricted Treasury cash / unavoidable cash outlays due during the next twelve months under existing law and contracts. Commitments cannot be deleted from the denominator; avoid counting the same available cash twice.",
+      "unit": "Months of unavoidable public cash outlays covered.",
+      "direction": "maximize",
+      "time_aggregation": "Minimum monthly coverage over the path; separately report arrears, gross debt, debt service, tax capacity and public net worth.",
+      "across_futures": "Primary statistic: lower 10th percentile of path-minimum coverage. Show default and unfunded-essential-outlay incidence alongside it.",
+      "observation_and_truth": "Use reconciled monthly cash and obligation ledgers; forecast-denominator error is part of uncertainty. Zero required outlays needs an explicit no-obligation result rather than division by zero.",
+      "terminal_failure": "Coverage is zero from a sovereign payment failure until a modelled resolution restores it; arrears and losses remain in the ledger. A zero is an outcome, not a missing value.",
+      "coverage_gate": "Requires native cash, debt, maturity, guarantee and essential-service schedules. Reserve Bank gold and private subscriptions are not unrestricted Treasury cash.",
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-AUDIT",
+        "SRC-ALT"
+      ]
+    },
+    {
+      "id": "OBJ-04",
+      "name": "Human cost",
+      "status": "PROPOSED_PRIMARY",
+      "beneficiary": "All materially affected populations, including foreign civilians, military personnel, guest workers and displaced communities.",
+      "geography": "All theatres and territories materially affected by the tested policies, with documented exclusions.",
+      "definition": "Count military and civilian deaths from modelled conflict and disruption once per person/event. Show civilian, military and partner breakdowns, displacement and person-years of deprivation separately.",
+      "unit": "Deaths; companion measures in displaced persons and person-years of disruption.",
+      "direction": "minimize",
+      "time_aggregation": "Cumulative through 1932 plus explicitly estimated delayed mortality, with timing and attribution rules.",
+      "across_futures": "Primary statistic: upper 90th percentile of cumulative deaths. Also show mean and catastrophic-loss incidence.",
+      "observation_and_truth": "Underlying casualty ledger scores outcomes; contemporaneous reported losses may be delayed or false. Missing foreign deaths cannot become zero.",
+      "terminal_failure": "Continue the harm ledger after defeat, default or political collapse; label intervals when a continuation model is incomplete.",
+      "coverage_gate": "Blocked until a usable casualty/disruption model and population coverage exist. Natural mortality and policy-related deaths require distinct categories to avoid double-counting.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-VISION",
+        "SRC-ALT"
+      ]
+    },
+    {
+      "id": "OBJ-05",
+      "name": "Durable voluntary cooperation",
+      "status": "PROPOSED_OPTIONAL",
+      "beneficiary": "Pacifica and a named partner, evaluated as separate parties.",
+      "geography": "One selected relationship or access agreement per objective component.",
+      "definition": "Measure the fraction of the horizon for which the named functional cooperation has valid consent and both sides fulfil its material obligations. Fix the function in advance so a different lawful treaty can provide it.",
+      "unit": "Fraction of time, with consent, performance and autonomy reported separately.",
+      "direction": "maximize",
+      "time_aggregation": "Time in qualifying cooperation, interruption duration and renewal outcome.",
+      "across_futures": "Lower 10th percentile for each selected relationship. Keep partner components separate rather than adding treaty counts.",
+      "observation_and_truth": "Ratification, access use, payment and independent partner decisions provide evidence. Alignment is not inferred from receiving a loan.",
+      "terminal_failure": "Cooperation lapses when consent or performance fails; coerced continuation does not count as voluntary success.",
+      "coverage_gate": "Requires independent actor response, refusal/exit options, treaty obligations and an anchored consent definition.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-B",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "OBJ-06",
+      "name": "Institutional durability",
+      "status": "PROPOSED_OPTIONAL",
+      "beneficiary": "Residents and the institutions holding reserved constitutional powers.",
+      "geography": "Realm, Hawaiian and Philippine institutions and, if formed, the Concord.",
+      "definition": "Count days of material unauthorized government action or interruption of the agreed constitutional order. Define the materiality tests and institutions before search; report each type of breach.",
+      "unit": "Institutional-breach days and discrete rupture events.",
+      "direction": "minimize",
+      "time_aggregation": "Cumulative breach days, reversals, legal cure and lasting damage. A later indemnity does not erase earlier breach days.",
+      "across_futures": "Upper 90th percentile of breach days; separate coup, failed-ratification and succession-risk incidence.",
+      "observation_and_truth": "Authority, enacted law and observable institutional actions govern the legal test. Acceptance or legitimacy states use anchored qualitative descriptions when numeric evidence is weak.",
+      "terminal_failure": "Record institutional collapse through the remaining horizon, with later restoration explicitly simulated.",
+      "coverage_gate": "Requires time-dependent constitutional powers and domestic actor behavior. Do not present an invented 0–100 legitimacy score.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "OBJ-07",
+      "name": "Watershed and ecological resilience",
+      "status": "PROPOSED_OPTIONAL",
+      "beneficiary": "Affected Hawaiian communities, future land users and ecological systems within the chosen boundary.",
+      "geography": "Named watersheds and reef systems; expand only with additional coverage.",
+      "definition": "For one declared watershed, integrate max(0, adopted minimum stream flow − actual flow) over time. Keep reef condition, restoration liabilities, smoke exposure, fishery output and public access as separate diagnostics.",
+      "unit": "Cubic metres of water-flow deficit; alternative ecological objectives require their own contracts.",
+      "direction": "minimize",
+      "time_aggregation": "Cumulative deficit, worst season and remaining restoration debt.",
+      "across_futures": "Upper 90th percentile, with drought and industrial-demand sensitivities.",
+      "observation_and_truth": "Gauge estimates and ecological observations inform decisions; the scoring model retains true conditions and observation uncertainty.",
+      "terminal_failure": "Ecological damage and restoration obligations persist beyond a fiscal or political failure and beyond the scoring date.",
+      "coverage_gate": "Blocked until stream-flow thresholds, hydrology, industrial demand and restoration mechanisms are specified. Published environmental tables do not supply all these coefficients.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "OBJ-08",
+      "name": "Partner prosperity and resilience",
+      "status": "PROPOSED_OPTIONAL",
+      "beneficiary": "Residents of one selected partner, with separate reporting for vulnerable groups.",
+      "geography": "Japan, China, Korea, Gulf, Philippine crown or a Russian/Siberian successor as individually selected.",
+      "definition": "Apply a separately scoped real-consumption/person contract to the partner and report its fiscal, banking and autonomy conditions. Never add its GDP or reserves to Pacifica's sovereign resources.",
+      "unit": "Partner-specific constant-price currency per resident; show comparison indices only with declared price/conversion rules.",
+      "direction": "maximize",
+      "time_aggregation": "Cumulative real consumption/person and adverse-year level for each partner.",
+      "across_futures": "Lower 10th percentile per selected partner component; no automatic aggregate across countries.",
+      "observation_and_truth": "Partner accounts and observations remain distinct. Benefits to Pacifican lenders are not evidence of partner welfare.",
+      "terminal_failure": "Track partner population and successor institutions after default or regime change, with explicit continuation uncertainty.",
+      "coverage_gate": "Requires partner national/household accounts, population and independent behavior. Network GDP is a diagnostic proxy, not this objective.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE",
+        "SRC-D"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "DIA-01",
+      "name": "Forces and readiness",
+      "measures": [
+        "Available mission-capable units",
+        "Mobilisation time",
+        "Training and maintenance backlog",
+        "Sustainable force-days"
+      ],
+      "sources": [
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "DIA-02",
+      "name": "Logistics and communications",
+      "measures": [
+        "Bottleneck freight capacity and demand",
+        "Fuel/ammunition days",
+        "Civilian rail allocation",
+        "Port/ship availability",
+        "Vital-link interruption and repair time"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "DIA-03",
+      "name": "Finance and monetary capacity",
+      "measures": [
+        "Public cash, debt and service",
+        "Guarantees and draws",
+        "National monetary gold by owner",
+        "External liquidity by currency",
+        "Bank capital and losses"
+      ],
+      "sources": [
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "DIA-04",
+      "name": "Income and ownership",
+      "measures": [
+        "Nominal and real GDP by territory",
+        "GNI and household-income bridge",
+        "Foreign coupons/dividends",
+        "Employment and remittances",
+        "Household/group outcomes"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "DIA-05",
+      "name": "Relative position",
+      "measures": [
+        "Core/Union real-output ratio on a common price basis",
+        "Network output shown separately",
+        "Supply and financing concentration",
+        "Cost and time to discharge or decline a named commitment"
+      ],
+      "sources": [
+        "SRC-ALT",
+        "SRC-STORY"
+      ]
+    },
+    {
+      "id": "DIA-06",
+      "name": "Governance and measurement",
+      "measures": [
+        "Observed/published versus underlying state",
+        "Report delay and coverage",
+        "Legal consent and treaty performance",
+        "County and Gulf public measures",
+        "Beneficiaries and harms excluded by a metric"
+      ],
+      "sources": [
+        "SRC-STORY"
+      ]
+    },
+    {
+      "id": "DIA-07",
+      "name": "Search credibility",
+      "measures": [
+        "Distinct policies and realized behaviors",
+        "Worlds and completed trajectories",
+        "Sampling uncertainty and structural sensitivity",
+        "Computational errors",
+        "Unresolved terminal outcomes",
+        "Training versus held-out assessment"
+      ],
+      "sources": [
+        "SRC-VISION",
+        "SRC-REQ"
+      ]
+    }
+  ],
+  "constraint_types": {
+    "ENGINE_INVARIANT": "A calculation or accounting violation is a model error. Diagnose it and withhold affected rankings; keep the error count visible.",
+    "ACTION_PRECONDITION": "An unauthorized or physically impossible instruction is unavailable or rejected with a reason. Other actors and shocks may still cause adverse states.",
+    "POLICY_BOUND": "A limit on Pacifica's choices. Record breaches caused by shocks separately from deliberate commitments.",
+    "OUTCOME_BOUND": "A realized outcome limit. Keep violating futures in the sample and mark the policy's feasibility and loss.",
+    "EVIDENCE_GATE": "A ranking or measure is unavailable until definitions, mechanisms and data cover the intended claim."
+  },
+  "constraints": [
+    {
+      "id": "CON-01",
+      "name": "Conservation and balanced accounts",
+      "type": "ENGINE_INVARIANT",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "Every cash flow, loan, equity issue, transfer and inventory movement has counterparties, ownership and dates. Public/private/foreign subscriptions reconcile; loans are assets and liabilities, not new output. Borrowing is not income and avoided spending is not extra GDP.",
+      "threshold": "Zero unexplained residual beyond a declared numeric rounding tolerance.",
+      "applies": "Every mode and actor account.",
+      "breach": "Model error; retain failed rollout status and diagnose before ranking.",
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-ALT"
+      ]
+    },
+    {
+      "id": "CON-02",
+      "name": "Resource and time feasibility",
+      "type": "ACTION_PRECONDITION",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "Procurement, mobilisation, training, transport, repair and construction consume scarce resources and elapsed time. Shared capacity cannot serve two uses at once; imports require supply, shipping and settlement.",
+      "threshold": "Demand cannot exceed allocated usable capacity; no retroactive deployment or instant technology.",
+      "applies": "All actions and actor response policies.",
+      "breach": "Reject infeasible orders; shortages caused later by disruption remain simulated outcomes.",
+      "sources": [
+        "SRC-AUDIT",
+        "SRC-STORY"
+      ]
+    },
+    {
+      "id": "CON-03",
+      "name": "Information available at the time",
+      "type": "ACTION_PRECONDITION",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "Policies use dated observations, beliefs and legally available own-account information. Hidden actor preferences and future draws are inaccessible. Freeze actor policies before simultaneous decisions resolve.",
+      "threshold": "No observation timestamp later than the decision; no access to random seeds or hidden future states.",
+      "applies": "Pacifica, independent actors and optimizer.",
+      "breach": "Invalid policy/model information leak; assess the affected run as an error.",
+      "sources": [
+        "SRC-VISION",
+        "SRC-REQ"
+      ]
+    },
+    {
+      "id": "CON-04",
+      "name": "Authority and valid consent",
+      "type": "ACTION_PRECONDITION",
+      "status": "PROPOSED_LAWFUL_PROFILE",
+      "rule": "Appropriation, legislation, crown-land rights, treaty ratification and foreign acceptance require the competent bodies under the law in force. A proposal may proceed to negotiation; the executive cannot supply the other party's vote.",
+      "threshold": "All required authorities valid before binding execution.",
+      "applies": "Default discovery profile. Fixture replay may label an authored illegal action; a separate exploratory profile would have to expose the legal breach and consequences.",
+      "breach": "Reject binding execution or simulate a labelled disputed act in an explicitly selected permissive profile. Preserve the 1927 baseline breach in fixture replay.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "CON-05",
+      "name": "Territorial and financial perimeter",
+      "type": "ENGINE_INVARIANT",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "Separate core, Hawaiian/Philippine crown, local and common budgets from sovereign partners. Foreign gold purchases create transactions and reserves; foreign production remains foreign GDP. Concessions, loans, bases and customs commissions do not transfer sovereignty.",
+      "threshold": "One declared owner and jurisdiction per asset/flow; explicit consolidation eliminations.",
+      "applies": "Every objective, actor, action and comparison.",
+      "breach": "Model error or unsupported aggregation; withhold the misleading measure.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "CON-06",
+      "name": "Operative employment premise",
+      "type": "ACTION_PRECONDITION",
+      "status": "AUTHORIAL_PREMISE",
+      "rule": "Use professional contractors and directly managed, paid crews for the corrected Company/construction premise. Kolyma uses free, well-paid workers. Do not restore the superseded bonded-gang mechanism or invent a productivity/cost discount.",
+      "threshold": "No coercive-labour subsidy or invented uplift from CR-031-R1.",
+      "applies": "Applicable construction and mining models; lawful recruitment, local rights and voluntary worker decisions remain explicit.",
+      "breach": "Unsupported mechanism; replace it before evaluating the policy.",
+      "sources": [
+        "SRC-CR",
+        "SRC-STORY",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "CON-07",
+      "name": "Peacetime military and overseas spending",
+      "type": "POLICY_BOUND",
+      "status": "SOURCE_PLANNING_CONVENTION",
+      "rule": "Pacifica's own military/overseas expenditure divided by North American GDP must remain within the planning ceiling, with current/capital items and accounting period declared.",
+      "threshold": 0.04,
+      "threshold_unit": "Fraction of North American GDP.",
+      "applies": "Peacetime planning. Continuation after 1900 is a convention, not an independently proved sustainable level.",
+      "breach": "Mark policy breach and show response options. An actual conflict may invoke a registered exception with costs and expiry; the optimizer cannot relabel spending as war to escape the bound.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "CON-08",
+      "name": "Public interest burden",
+      "type": "OUTCOME_BOUND",
+      "status": "SOURCE_PLANNING_CONVENTION",
+      "rule": "Public interest due divided by ordinary public revenue stays within the planning ceiling on a consistent fiscal perimeter.",
+      "threshold": 0.15,
+      "threshold_unit": "Fraction of public revenue.",
+      "applies": "All scored years unless a declared temporary crisis exception is selected.",
+      "breach": "Keep the path; record duration, debt dynamics and fiscal responses. Falling revenue can cause a breach without a new spending decision.",
+      "sources": [
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "CON-09",
+      "name": "Public debt burden",
+      "type": "OUTCOME_BOUND",
+      "status": "SOURCE_PLANNING_CONVENTION",
+      "rule": "Gross public debt divided by North American GDP stays within the planning ceiling. Disclose guaranteed exposure and partner/common liabilities separately rather than netting them away.",
+      "threshold": 0.3,
+      "threshold_unit": "Fraction of North American GDP.",
+      "applies": "Same public and GDP perimeters across all policies.",
+      "breach": "Keep the path and flag severity/duration. GDP collapse and exchange-rate changes remain possible causes.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "CON-10",
+      "name": "Treasury cash protection",
+      "type": "POLICY_BOUND",
+      "status": "PROPOSED_THRESHOLD",
+      "rule": "Do not authorize discretionary new commitments that consume the protected cash buffer after existing essential services, debt service and already committed draws are scheduled.",
+      "threshold": 3,
+      "threshold_unit": "Months of unavoidable public cash outlays.",
+      "sensitivity_values": [
+        1,
+        3,
+        6
+      ],
+      "applies": "Draft planning default only; the author must select the buffer and essential-service definition. This is not a source-derived historical rule.",
+      "breach": "Reject or reduce the new commitment; an external shock can still exhaust the buffer and must remain a scored fiscal loss.",
+      "sources": [
+        "SRC-VISION",
+        "SRC-REQ"
+      ]
+    },
+    {
+      "id": "CON-11",
+      "name": "Bank capital and external settlement",
+      "type": "OUTCOME_BOUND",
+      "status": "PROPOSED_WITH_SOURCE_RESCUE_TARGET",
+      "rule": "Reconcile bank losses, owner write-offs, new equity, domestic liquidity and foreign-currency funding by institution/currency. A yen liquidity advance cannot discharge a dollar payment. Financing commitments are not automatically drawn cash.",
+      "threshold": "Use separately approved solvency/cover rules. The baseline Japan-rescue design retains six weeks of imports; test its necessity and alternatives as model assumptions.",
+      "applies": "Financial stability and rescue proposals, including Japan and Union responses.",
+      "breach": "Simulate run, default, devaluation or restructuring; do not declare a rescue successful merely because a credit line was offered.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "CON-12",
+      "name": "Mission sustainment and civilian capacity",
+      "type": "ACTION_PRECONDITION",
+      "status": "PROPOSED_WITH_MODEL_BENCHMARKS",
+      "rule": "Deploy only forces that can be supported through the actual rail/sea/port network and stockpiles while satisfying the campaign's civilian allocations and consent conditions.",
+      "threshold": "Select a mission-specific readiness and sustainment test. The 28,000-person contingent and 50,000 troops in two weeks are source MODEL/proposed tests, not proved capacity.",
+      "applies": "Siberian or other commitments only when the relevant geography and agreement exist.",
+      "breach": "Order delayed/reduced; later supply failure generates attrition, retreat and human costs. A Yenisei fallback does not remove the eastern rail bottlenecks.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "CON-13",
+      "name": "Human-loss ceiling",
+      "type": "OUTCOME_BOUND",
+      "status": "OPEN_THRESHOLD",
+      "rule": "Specify an acceptable cumulative-death limit, civilian/military breakdown and maximum tolerated risk of exceeding it; include affected foreign populations.",
+      "threshold": null,
+      "threshold_unit": "Deaths and accepted exceedance probability, both to select.",
+      "applies": "Any campaign claiming a human-cost feasibility result.",
+      "breach": "Retain the loss, mark the policy against the selected bound and show the causes. No numeric feasibility claim until the threshold and coverage exist.",
+      "sources": [
+        "SRC-VISION",
+        "SRC-ALT"
+      ]
+    },
+    {
+      "id": "CON-14",
+      "name": "Environmental duties and restoration",
+      "type": "POLICY_BOUND",
+      "status": "SOURCE_POLICY_WITH_OPEN_ENGINEERING_VALUES",
+      "rule": "Apply water, land, reef and restoration obligations when the relevant law or agreement is in force. Waimanu protection and the Lands and Waters Charter are baseline outcomes, not automatic enactments in every generated future.",
+      "threshold": "Selected minimum stream flows, discharge limits and restoration duties; engineering values remain open.",
+      "applies": "Affected projects and jurisdictions; no imported modern standard by assumption.",
+      "breach": "Block an unlawful permit in the lawful profile; otherwise record litigation, damage, compensation and restoration liabilities.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "CON-15",
+      "name": "Gulf admission and independent choice",
+      "type": "ACTION_PRECONDITION",
+      "status": "SOURCE_INSTITUTIONAL_RULE",
+      "rule": "Admission requires the five general measures and both parity tests for 25 consecutive years, plus the other compact conditions and competent consent. General measures are infant mortality, literacy, real wages, homicide and typhoid against the specified weakest former-territory comparator. The examination comparison is the Defense Law's joint medical-and-literacy test for twenty-year-olds.",
+      "threshold": "Joint medical/literacy pass-rate ratio for Black/freedmen twenty-year-olds versus white twenty-year-olds >=0.95; Black/freedmen-to-white infant-mortality ratio <=1.05; registers cover >=90% of the specified records; all required measures sustain the 25-year rule.",
+      "applies": "Only if admission is proposed. Carry inherited streaks, definitions, revenue/debt/standards and consent requirements in the initial state.",
+      "breach": "Admission unavailable; assistance, trade or defence cooperation may continue. Baseline replay preserves non-membership through 1932; discovery cannot bypass the tests or force Gulf acceptance.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "CON-16",
+      "name": "Korean sovereignty and local rights",
+      "type": "ACTION_PRECONDITION",
+      "status": "SOURCE_STARTING_RULE_WITH_TIME_SCOPE",
+      "rule": "Respect Korea's independent guaranteed status after the applicable settlement and its agreed economic/military/transit rights; distinguish Chinese railway ownership, Japanese running rights and local land rights. New arrangements require competent consent.",
+      "threshold": "No action may silently turn an access right into annexation or extinguish local rights.",
+      "applies": "Lawful actions after the relevant instruments exist. Discovery may simulate another actor's breach and Pacifica's response.",
+      "breach": "Reject an unsupported legal effect; model coercion or violation as an adverse event with its actual legal status and consequences.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "CON-17",
+      "name": "Fork history and open futures",
+      "type": "ENGINE_INVARIANT",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "Freeze the selected history and state only through the fork. After it, government survival, war/peace, victories, treaty acceptance and crises arise from actions, mechanisms and chance. Preserve applicable identity and institutional rules unless the experiment explicitly permits a coherent departure.",
+      "threshold": "No future storyline fact used as an unconditional success override in discovery.",
+      "applies": "All comparisons; scenario packages declare different earlier forks and changed premises.",
+      "breach": "Misclassified fixture or scenario; remove the override or label the result a conditional replay.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-ALT",
+        "SRC-VISION"
+      ]
+    },
+    {
+      "id": "CON-18",
+      "name": "Terminal obligations and failures",
+      "type": "OUTCOME_BOUND",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "Report post-1932 debt service, guarantees, maintenance, restoration and treaty exposure. Defeat, default and political collapse receive defined continuation/terminal-loss treatment; computational errors are a separate status.",
+      "threshold": "No dropped failed path or omitted liability; unresolved continuation produces bounds and ranking uncertainty.",
+      "applies": "Every scored trajectory.",
+      "breach": "Policy ranking provisional or unavailable until the unresolved liability/failure effect is bounded. Do not assign invented point penalties.",
+      "sources": [
+        "SRC-VISION",
+        "SRC-REQ"
+      ]
+    },
+    {
+      "id": "CON-19",
+      "name": "Evidence and metric coverage",
+      "type": "EVIDENCE_GATE",
+      "status": "PROPOSED_REQUIRED",
+      "rule": "A metric needs its mechanism, units, territory, beneficiary, price basis, source/assumption record and uncertainty treatment. Missing data is unknown, not zero.",
+      "threshold": "Every active objective and material constraint has usable coverage or an explicitly selected, labelled proxy.",
+      "applies": "Enabling objectives, comparisons and policy recommendations.",
+      "breach": "Disable the unsupported measure or qualify a conditional experiment; do not rank an unsupported policy as best.",
+      "sources": [
+        "SRC-VISION",
+        "SRC-REQ",
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "CON-20",
+      "name": "Risk and joint feasibility",
+      "type": "OUTCOME_BOUND",
+      "status": "OPEN_RISK_TOLERANCES",
+      "rule": "Select risk tolerances for outcome bounds and evaluate the joint event that all selected constraints hold. Report sample uncertainty and held-out results; correlated violations cannot be assessed by multiplying marginal pass rates.",
+      "threshold": null,
+      "threshold_unit": "Author-selected tolerated exceedance risks and joint-success requirement.",
+      "applies": "Probability-weighted experiments only. Unweighted plausible-world experiments report scenario fractions, robustness and regret.",
+      "breach": "Keep all worlds and report infeasibility or unresolved uncertainty. No calibrated-probability claim without a justified world distribution.",
+      "sources": [
+        "SRC-VISION",
+        "SRC-REQ"
+      ]
+    }
+  ],
+  "actors": [
+    {
+      "id": "ACT-PAC-EXEC",
+      "name": "Pacifica executive",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "optimized",
+      "activation": "All pilot paths; officeholder and legal powers depend on the fork and valid succession.",
+      "authority": "Proposes budgets, credit, diplomacy, laws and authorized deployments; cannot supply legislative, crown or foreign consent.",
+      "interests": [
+        "Author-selected objectives subject to law and resources; no assumed preference for dominance at any human cost."
+      ],
+      "resources": [
+        "Appropriated public resources",
+        "Diplomatic offers",
+        "Authorized service commands"
+      ],
+      "observations": [
+        "Own reconciled accounts",
+        "Dated public measures",
+        "Intelligence and diplomatic reports"
+      ],
+      "responses": [
+        "Choose feasible catalog actions",
+        "Defer, revise or withdraw proposals"
+      ],
+      "evidence_needed": "Map executive prerogative and delegated powers by date; the exact control mask remains a design choice.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "ACT-PAC-LEG",
+      "name": "Senate and Chamber",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All paths; instantiate chambers, blocs and material county interests separately.",
+      "authority": "Legislation, appropriation and applicable treaty/succession consent under the current constitutional rules.",
+      "interests": [
+        "Fiscal exposure",
+        "Constitutional competence",
+        "County autonomy",
+        "Constituent and faction interests"
+      ],
+      "resources": [
+        "Votes",
+        "Appropriations",
+        "Hearings and audit requirements"
+      ],
+      "observations": [
+        "Budget and treaty terms",
+        "Public outcomes",
+        "Uneven or contested reports"
+      ],
+      "responses": [
+        "Approve",
+        "Amend",
+        "Delay",
+        "Refuse",
+        "Demand audit or indemnity within applicable law"
+      ],
+      "evidence_needed": "Source vote thresholds and chamber roles; model blocs and bargaining without assuming a purchased vote always passes.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "ACT-PAC-RESERVE",
+      "name": "Reserve Bank",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_or_delegated_by_charter",
+      "activation": "All paths once the selected initial state establishes the institution.",
+      "authority": "Monetary, liquidity and regulatory actions within its charter; exact delegation between government and bank is open.",
+      "interests": [
+        "Settlement capacity",
+        "Bank stability",
+        "Applicable parity and cover rules",
+        "Credible obligations"
+      ],
+      "resources": [
+        "Owned reserves",
+        "Collateralized lending",
+        "Regulatory instruments within authority"
+      ],
+      "observations": [
+        "Bank submissions",
+        "Gold and currency flows",
+        "Collateral quality with error/delay"
+      ],
+      "responses": [
+        "Accept/reject collateral",
+        "Provide liquidity",
+        "Seek recapitalization",
+        "Recommend parity or settlement changes"
+      ],
+      "evidence_needed": "Charter, ownership of reserves, collateral valuation, currency liabilities and government approval requirements.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "ACT-HAW",
+      "name": "Hawaiian institutions and land custodians",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_reserved_powers",
+      "activation": "All pilot paths, with legislature/crown structure changing only through valid branch events.",
+      "authority": "Hawaiian legislature and ʻAha Aliʻi exercise their own powers; Crown/kuleana land custody is distinct from county administration and Realm regulation.",
+      "interests": [
+        "Land rights",
+        "Language and schools",
+        "Local welfare",
+        "Terms of any crown union"
+      ],
+      "resources": [
+        "Consent",
+        "Own budget and lawful land/lease decisions",
+        "Institutional standing"
+      ],
+      "observations": [
+        "Published union terms",
+        "Local service and land outcomes",
+        "Court decisions"
+      ],
+      "responses": [
+        "Consent or refuse",
+        "Attach terms",
+        "Contest land use",
+        "Seek remedy"
+      ],
+      "evidence_needed": "Separate institutional actors when their preferences differ; Puʻuloa rent amount remains unspecified.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "ACT-PHI",
+      "name": "Philippine institutions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_reserved_powers",
+      "activation": "Dependency institutions at the fork; separate crown/Cortes and its rights activate only through valid branch events.",
+      "authority": "Own budget, legislature and military powers according to the legal stage; consent and accession rites are separate from Realm votes.",
+      "interests": [
+        "Local prosperity",
+        "Land and provincial interests",
+        "Autonomy",
+        "Debt and service obligations"
+      ],
+      "resources": [
+        "Budget",
+        "Cortes/other competent consent",
+        "Local army and administration"
+      ],
+      "observations": [
+        "Written treaty/organic-law terms",
+        "Provincial public measures",
+        "Local political reports"
+      ],
+      "responses": [
+        "Approve/refuse a crown offer",
+        "Negotiate",
+        "Limit appropriations",
+        "Contest administration"
+      ],
+      "evidence_needed": "Date-specific powers, local constituencies, Philippine loan/service account and population boundaries.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR",
+        "SRC-FINANCE"
+      ]
+    },
+    {
+      "id": "ACT-PAC-LOCAL",
+      "name": "Pacifica county and community actors",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate affected counties, local administrations and rights-holding communities rather than one national public.",
+      "authority": "County powers follow organic law; Indigenous and community rights need their own instruments and representation.",
+      "interests": [
+        "Local services",
+        "Land and language rights",
+        "Employment",
+        "Autonomy and representation"
+      ],
+      "resources": [
+        "Local budgets",
+        "Senators and lawful petitions",
+        "Land/use rights where documented"
+      ],
+      "observations": [
+        "Local conditions",
+        "Office of Public Measures reports",
+        "Own experience of policy"
+      ],
+      "responses": [
+        "Support",
+        "Petition",
+        "Litigate",
+        "Resist or comply",
+        "Change migration/work decisions"
+      ],
+      "evidence_needed": "County fiscal accounts, public measures and representative institutions; official franchise is not the full affected population.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "ACT-CAPITAL",
+      "name": "Banks, savers and private financiers",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate by owner, jurisdiction, currency, maturity and exposure; Pacifican and foreign books stay distinct.",
+      "authority": "Own lending, subscriptions, collateral and funding decisions; government cannot allocate private saving as public cash.",
+      "interests": [
+        "Risk-adjusted repayment",
+        "Liquidity",
+        "Solvency",
+        "Commercial relationships"
+      ],
+      "resources": [
+        "Capital",
+        "Deposits and wholesale funding",
+        "Owned claims and collateral"
+      ],
+      "observations": [
+        "Borrower accounts with uncertainty",
+        "Market prices",
+        "Public policy and partner signals"
+      ],
+      "responses": [
+        "Subscribe/refuse",
+        "Reprice",
+        "Withdraw short funding",
+        "Restructure",
+        "Take losses"
+      ],
+      "evidence_needed": "Bank-level or bounded representative balance sheets, funding capacity, maturity/currency mismatch and collateral overlap.",
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-STORY",
+        "SRC-ALT"
+      ]
+    },
+    {
+      "id": "ACT-INDUSTRY",
+      "name": "Champions, contractors and trading firms",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate material firms/sectors in Pacifica and partners, with ownership and management separated.",
+      "authority": "Private production, employment, investment and contracting; Crown equity does not confer all profits or automatic compliance.",
+      "interests": [
+        "Profitability",
+        "Finance",
+        "Markets and inputs",
+        "Skills and control"
+      ],
+      "resources": [
+        "Plant",
+        "Staff",
+        "Patents",
+        "Orders",
+        "Transport contracts"
+      ],
+      "observations": [
+        "Demand",
+        "Input prices",
+        "Credit offers",
+        "Competitor technology"
+      ],
+      "responses": [
+        "Invest",
+        "Bid or refuse",
+        "Convert production",
+        "Lay off/recruit",
+        "Compete or collaborate"
+      ],
+      "evidence_needed": "Capacity, delays, wages, costs and ownership; CR-031-R1 paid professional construction premise, with no invented productivity multiplier.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "ACT-JPN-CIV",
+      "name": "Japan's civilian government and imperial institutions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All pilot paths; cabinet, Diet, court and competent treaty authorities are separate decision roles when material.",
+      "authority": "Domestic government, treaty/budget decisions and national institutions; common powers exist only under a valid compact.",
+      "interests": [
+        "Security",
+        "Sovereign dignity",
+        "Commerce",
+        "Civilian stability",
+        "Benefits and burdens of partnership"
+      ],
+      "resources": [
+        "National revenue",
+        "Legal authority",
+        "Diplomatic alternatives",
+        "Domestic political coalitions"
+      ],
+      "observations": [
+        "Trade and bank conditions",
+        "Military reports",
+        "Pacifica's offers and credibility"
+      ],
+      "responses": [
+        "Bargain",
+        "Ratify/refuse",
+        "Set quotas",
+        "Seek other partners",
+        "Restrain or fail to restrain military actors"
+      ],
+      "evidence_needed": "Time-dependent institutions, bargaining alternatives and acceptance conditions; no assumed permanent alignment.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-B",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "ACT-JPN-MIL",
+      "name": "Japanese military factions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate army, navy treaty faction and opposing naval/army groups when their command/resources differ.",
+      "authority": "National commands and, where authorized, common or reserved commands; the home army is not automatically the common government's army.",
+      "interests": [
+        "Service autonomy",
+        "Mission/security preferences",
+        "Careers",
+        "Prestige and institutional survival"
+      ],
+      "resources": [
+        "Assigned forces",
+        "Commands",
+        "Domestic influence"
+      ],
+      "observations": [
+        "Readiness",
+        "Threat estimates",
+        "Institutional bargains",
+        "Faction reports"
+      ],
+      "responses": [
+        "Cooperate",
+        "Lobby",
+        "Refuse within legal powers",
+        "Disobey or attempt a rupture as an explicitly modelled adverse action"
+      ],
+      "evidence_needed": "Command chains, faction support and warning indicators; avoid one deterministic 'Japan loyalty' variable.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ]
+    },
+    {
+      "id": "ACT-FOREIGN-MONETARY",
+      "name": "Partner monetary and stabilization authorities",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate BOJ, foreign reserve authorities and stabilization agencies where supported by the selected branch.",
+      "authority": "Domestic currency/liquidity and authorized external arrangements; keep each authority and fiscal guarantor separate.",
+      "interests": [
+        "Domestic settlement",
+        "Bank stability",
+        "External import/settlement capacity",
+        "Applicable parity obligations"
+      ],
+      "resources": [
+        "Owned reserves",
+        "Domestic liquidity tools",
+        "Authorized guarantees or facilities"
+      ],
+      "observations": [
+        "Bank losses",
+        "Foreign maturities",
+        "Gold flows",
+        "Import bills"
+      ],
+      "responses": [
+        "Lend liquidity",
+        "Seek external credit",
+        "Guarantee/restructure within authority",
+        "Change or suspend parity when legally possible"
+      ],
+      "evidence_needed": "Currency-specific balance sheets, actual reserves, loss allocation and approval rules; BOJ yen is not foreign exchange.",
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-STORY"
+      ]
+    },
+    {
+      "id": "ACT-CHN-CENTRAL",
+      "name": "China's central government",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "Qing or successor government according to the generated constitutional/political path.",
+      "authority": "Chinese sovereignty, central fiscal and treaty powers subject to actual regional reach.",
+      "interests": [
+        "Sovereignty",
+        "Revenue and institutions",
+        "Security",
+        "Development without permanent foreign control"
+      ],
+      "resources": [
+        "Customs and other revenues within actual control",
+        "Diplomacy",
+        "Forces and commissions"
+      ],
+      "observations": [
+        "Regional reports",
+        "Foreign offers",
+        "Revenue and railway performance"
+      ],
+      "responses": [
+        "Cooperate",
+        "Refuse",
+        "Renegotiate customs/transit",
+        "Recover administration",
+        "Compete for support"
+      ],
+      "evidence_needed": "Government capacity and legitimacy by region; no guaranteed reunification or automatic client status.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "ACT-CHN-REGIONAL",
+      "name": "Manchurian and other Chinese regional authorities",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate relevant administrations, military leaders, railway managers and successors; activation follows actual control.",
+      "authority": "Regional forces, railway cooperation and local administration within their actual legal and coercive reach.",
+      "interests": [
+        "Security",
+        "Revenue",
+        "Regional autonomy",
+        "Survival and succession"
+      ],
+      "resources": [
+        "Local forces",
+        "Rail access/operations",
+        "Local political support"
+      ],
+      "observations": [
+        "Central policy",
+        "Japanese demands",
+        "Local traffic and security"
+      ],
+      "responses": [
+        "Grant/refuse practical cooperation",
+        "Negotiate guarantees",
+        "Change alignment",
+        "Obstruct or protect transit"
+      ],
+      "evidence_needed": "Who can authorize versus physically enable transit; separate Chinese ownership from Japanese running rights and temporary boards.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "ACT-KOR",
+      "name": "Korean government and institutions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All pilot paths under the selected independent guarantee and rights instruments.",
+      "authority": "Own sovereignty, consent and administration; economic predominance or transit rights do not create annexation.",
+      "interests": [
+        "Independence",
+        "Security",
+        "Development",
+        "Terms for workers and foreign concessions"
+      ],
+      "resources": [
+        "Consent",
+        "Domestic institutions",
+        "Specified concessions and access"
+      ],
+      "observations": [
+        "Guarantee credibility",
+        "Employment terms",
+        "Threats and offers"
+      ],
+      "responses": [
+        "Accept/refuse agreements",
+        "Seek guarantees",
+        "Regulate recruitment",
+        "Renegotiate rights"
+      ],
+      "evidence_needed": "Treaty scope, competent consent and economic accounts; Korean workers retain individual agency.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "ACT-RUS-GOV",
+      "name": "Government controlling the Russian centre",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "Imperial, constitutional, provisional, Bolshevik or other successor according to the path; do not activate mutually exclusive governments as one omniscient actor.",
+      "authority": "Actual central authority, resources and treaty capacity; contested regions remain separate.",
+      "interests": [
+        "Survival",
+        "Security",
+        "Fiscal/industrial capacity",
+        "Political coalition goals"
+      ],
+      "resources": [
+        "Revenue",
+        "Forces",
+        "Domestic institutions",
+        "Rail and diplomatic access"
+      ],
+      "observations": [
+        "War and unrest reports",
+        "Trade access",
+        "Foreign terms"
+      ],
+      "responses": [
+        "Reform",
+        "Negotiate",
+        "Mobilize",
+        "Continue or end conflict",
+        "Default or restructure"
+      ],
+      "evidence_needed": "Regime-specific institutions, factions, resource access and transitions; Pacifica cannot select a Russian election or regime by action.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-A",
+        "SRC-B",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "ACT-RUS-MOVEMENTS",
+      "name": "Russian opposition and competing movements",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate Bolshevik, White, constitutional, regional and other material movements when present, with separate agendas.",
+      "authority": "Only their actual organization, support, forces and bargaining capacity.",
+      "interests": [
+        "Distinct political programmes",
+        "Local survival/support",
+        "Control or reform of institutions"
+      ],
+      "resources": [
+        "Members",
+        "Forces if supported",
+        "Local networks",
+        "External aid actually received"
+      ],
+      "observations": [
+        "Local conditions",
+        "Repression/reform",
+        "Opponent and foreign signals"
+      ],
+      "responses": [
+        "Negotiate",
+        "Organize",
+        "Split",
+        "Fight",
+        "Accept/refuse a compact"
+      ],
+      "evidence_needed": "Alternative transition models and support evidence; aid does not guarantee Wrangel's victory or constitutional stabilization.",
+      "sources": [
+        "SRC-A",
+        "SRC-B",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "ACT-SIB",
+      "name": "Siberian institutions or federal regional partner",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_conditional",
+      "activation": "Activate only if a regional government/compact exists; baseline independence and A's federal settlement are different arrangements.",
+      "authority": "Regional consent, administration and commitments within the actual settlement.",
+      "interests": [
+        "Local land/security",
+        "Russian or regional self-government",
+        "Trade",
+        "Sustainable obligations"
+      ],
+      "resources": [
+        "Local institutions",
+        "Forces",
+        "Land/grain policy",
+        "Regional resources"
+      ],
+      "observations": [
+        "Rail/food conditions",
+        "Coalition promises",
+        "Local opinion and fighting"
+      ],
+      "responses": [
+        "Join/refuse coalition",
+        "Demand terms",
+        "Cooperate",
+        "Exit or renegotiate"
+      ],
+      "evidence_needed": "Independent support and consent; costs of keeping the frontier, not just the initial treaty.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-A",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "ACT-NORTH",
+      "name": "Northern and frontier rights-holding communities",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate Sakha, Buryat, Chukchi, Koryak, Aleut and other materially affected communities separately, with their documented bodies.",
+      "authority": "Own documented local institutions and rights; detailed federal arrangements retain their source proposal status.",
+      "interests": [
+        "Land and subsistence",
+        "Safety",
+        "Representation",
+        "Terms of settlement, industry and access"
+      ],
+      "resources": [
+        "Local knowledge",
+        "Consent/claims",
+        "Labor and transport cooperation",
+        "Community institutions"
+      ],
+      "observations": [
+        "Local impacts",
+        "Food and disease conditions",
+        "Proposed rights and compensation"
+      ],
+      "responses": [
+        "Accept/refuse",
+        "Petition",
+        "Negotiate",
+        "Support or resist local arrangements"
+      ],
+      "evidence_needed": "Specific representation, rights and impact evidence; Russian/Japanese sovereign signatures cannot stand in for every community.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-HISTORY"
+      ]
+    },
+    {
+      "id": "ACT-UNION",
+      "name": "Union government and political institutions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All pilot paths; presidency, legislature and material political constituencies differ by period.",
+      "authority": "Own sovereign fiscal, tariff, naval, monetary and treaty powers under its institutions.",
+      "interests": [
+        "Security",
+        "Industrial competition",
+        "Domestic coalition",
+        "North American claims or accommodation"
+      ],
+      "resources": [
+        "Large industrial base",
+        "Revenue",
+        "Forces",
+        "Diplomatic and financial alternatives"
+      ],
+      "observations": [
+        "Pacifica's actions",
+        "Domestic economy",
+        "Foreign credit exposure",
+        "Constituent signals"
+      ],
+      "responses": [
+        "Emulate",
+        "Contain",
+        "Negotiate",
+        "Refuse conditions",
+        "Rearm or seek accommodation"
+      ],
+      "evidence_needed": "Independent capacity and politics; in baseline 1931–32 Dawes governs negotiations, Young wins in November 1932 and takes office in 1933.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "ACT-GULF",
+      "name": "Gulf Republic institutions and constituencies",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All pilot paths once the selected prior history establishes the republic; instantiate government and material opposition/community interests.",
+      "authority": "Own budget, oil, civil institutions and treaty decisions; separate citizenship and admission choice.",
+      "interests": [
+        "Prosperity",
+        "Sovereignty",
+        "Oil revenue",
+        "Public measures",
+        "Competing franchise and equality interests"
+      ],
+      "resources": [
+        "Oil and royalties",
+        "Ports",
+        "Domestic reform powers",
+        "Treaty alternatives"
+      ],
+      "observations": [
+        "Oil prices",
+        "Local public measures",
+        "Partner terms",
+        "Distribution of reform burdens"
+      ],
+      "responses": [
+        "Trade/cooperate",
+        "Limit output by valid agreement",
+        "Reform",
+        "Resist",
+        "Seek or decline membership"
+      ],
+      "evidence_needed": "Public-measure denominators, parity gaps, historical streaks and political incentives; reform and consent are not purchased automatically.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR"
+      ]
+    },
+    {
+      "id": "ACT-GBR",
+      "name": "Britain and relevant imperial authorities",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All paths; creditor/debtor position depends on war and policy outcomes.",
+      "authority": "Own security, fleet, imperial and treaty powers; Dominion/local consent is distinct where required.",
+      "interests": [
+        "Security",
+        "Sea access",
+        "Solvency",
+        "Imperial interests",
+        "Balance against other powers"
+      ],
+      "resources": [
+        "Fleet",
+        "Industry",
+        "Imperial access",
+        "Credit and trading institutions"
+      ],
+      "observations": [
+        "War outlook",
+        "Debt/settlement position",
+        "Pacifica's alternatives"
+      ],
+      "responses": [
+        "Bargain",
+        "Refuse",
+        "Restructure",
+        "Offer specific rights",
+        "Retain or change alignments"
+      ],
+      "evidence_needed": "Separate lawful ownership and consenting authorities for bases, islands and Dominion commitments; peace does not create wartime debt leverage.",
+      "sources": [
+        "SRC-STORY",
+        "SRC-B",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "ACT-FRA",
+      "name": "France's government and political coalitions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All paths; demands and fiscal position depend on war and negotiated compromises.",
+      "authority": "Own diplomacy, military commitments and fiscal decisions subject to domestic institutions.",
+      "interests": [
+        "Security against Germany",
+        "Domestic legitimacy",
+        "Markets",
+        "Financial capacity"
+      ],
+      "resources": [
+        "Forces",
+        "Credit",
+        "Alliances",
+        "Commercial interests"
+      ],
+      "observations": [
+        "German proposals",
+        "Threats",
+        "Domestic coalition and war costs"
+      ],
+      "responses": [
+        "Accept/refuse peace terms",
+        "Seek guarantees",
+        "Continue conflict",
+        "Join development agreements"
+      ],
+      "evidence_needed": "Domestic acceptance of compromises and actual financing; lending pressure cannot compel a chosen French settlement.",
+      "sources": [
+        "SRC-B",
+        "SRC-C",
+        "SRC-D",
+        "SRC-STORY"
+      ]
+    },
+    {
+      "id": "ACT-GER",
+      "name": "Germany's government and competing authorities",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent",
+      "activation": "All paths; civilian, military and constitutional roles vary with the generated settlement.",
+      "authority": "Actual treaty/war/industrial powers; civilian negotiators may face military or domestic vetoes.",
+      "interests": [
+        "Security",
+        "Commercial access",
+        "Continental position",
+        "Regime survival"
+      ],
+      "resources": [
+        "Industry",
+        "Forces",
+        "Credit and diplomatic alternatives"
+      ],
+      "observations": [
+        "Military prospects",
+        "Market offers",
+        "British/French/Russian responses"
+      ],
+      "responses": [
+        "Compromise",
+        "Refuse",
+        "Mobilize",
+        "Support allies conditionally",
+        "Change policy leadership"
+      ],
+      "evidence_needed": "Credible negotiating authority and domestic vetoes; no automatic July settlement or 1917 peace.",
+      "sources": [
+        "SRC-A",
+        "SRC-B",
+        "SRC-C",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "ACT-DANUBE",
+      "name": "Habsburg and Danubian institutions",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate monarchy, competent Austrian/Hungarian authorities and national representative bodies when a reform or settlement affects them.",
+      "authority": "Constitutionally divided powers and actual military/territorial control.",
+      "interests": [
+        "Security",
+        "Dynastic/institutional survival",
+        "National self-government",
+        "Fiscal viability"
+      ],
+      "resources": [
+        "Forces",
+        "Institutions",
+        "Territorial resources",
+        "Veto and consent rights"
+      ],
+      "observations": [
+        "Balkan threats",
+        "Reform offers",
+        "Domestic national demands"
+      ],
+      "responses": [
+        "Accept/refuse reform",
+        "Bargain over self-government",
+        "Mobilize",
+        "Conclude peace within authority"
+      ],
+      "evidence_needed": "Constitutional mechanics, Hungarian and national consent, and implementation capacity; a federal design is not automatic reform.",
+      "sources": [
+        "SRC-A",
+        "SRC-B",
+        "SRC-C",
+        "SRC-D"
+      ]
+    },
+    {
+      "id": "ACT-OTHER-LOCAL",
+      "name": "Additional states and local negotiating parties",
+      "status": "PROPOSED_ACTOR_MODEL",
+      "control": "independent_template",
+      "activation": "Instantiate Serbia and affected Balkan parties for July/Bosnia; Italy/Ottoman parties for a general peace; Morocco and Spain for Agadir; Dominions for their own agreements.",
+      "authority": "Each actor's own sovereignty, legal rights and practical control; never one pooled 'Europe' vote.",
+      "interests": [
+        "Actor-specific security",
+        "Local rights",
+        "Fiscal/commercial interests",
+        "Political survival"
+      ],
+      "resources": [
+        "Their own resources and consent powers"
+      ],
+      "observations": [
+        "Only actor-available information"
+      ],
+      "responses": [
+        "Accept/refuse",
+        "Propose alternatives",
+        "Implement or breach agreements"
+      ],
+      "evidence_needed": "A complete case-specific roster and evidence-backed response rules before enabling the affected mediation action.",
+      "sources": [
+        "SRC-B",
+        "SRC-C",
+        "SRC-D",
+        "SRC-HISTORY"
+      ]
+    }
+  ],
+  "actor_rules": {
+    "independence": "Separate budgets, information, feasible actions, objectives, approval processes and memory. Independent does not mean uncorrelated or irrational.",
+    "templates": "Template records require distinct actor instances with legal names, date range, jurisdiction, resources and evidence; they are not single omniscient collective agents.",
+    "response_models": "Start with interpretable acceptance thresholds and bounded decision rules. Assess alternative bargaining, capacity and faction models; no calibrated response probability is supplied by this catalog.",
+    "simultaneous_decisions": "Take observations from the frozen decision state, collect actions, then resolve interactions. Explicit negotiating rounds use their own declared order.",
+    "state_changes": "Formation, dissolution, succession and changing control update the actor graph and obligations without silently deleting population, assets, claims or losses.",
+    "minimum_refusal_tests": [
+      "An unaffordable or unacceptable offer is refused.",
+      "An ally can condition or withdraw support.",
+      "A lender can decline or stop renewing.",
+      "Domestic chambers can reject a treaty.",
+      "A regional/local actor can disagree with a nominal sovereign.",
+      "Peaceful cooperation does not imply political subordination."
+    ],
+    "llm_role": "May help draft reviewed actor assumptions and explanations. Numerical adjudication uses registered, reproducible model rules; no new runtime coefficient is invented by a language model."
+  },
+  "actions": [
+    {
+      "id": "ACTN-01",
+      "name": "Propose and execute a public budget",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "fiscal",
+      "parameters": [
+        "Tax/fee proposals within lawful instruments",
+        "Service and investment appropriations",
+        "Priority order",
+        "Contingency reserve"
+      ],
+      "preconditions": "Competent legislative approval for changes; existing duties, local/crown budgets and essential services mapped.",
+      "costs_and_timing": "Revenue arrives on its collection schedule; services use labor/materials. Tax and spending changes affect households and firms with lags.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-PAC-LOCAL",
+        "ACT-INDUSTRY",
+        "ACT-CAPITAL"
+      ],
+      "possible_responses": [
+        "Amend/refuse appropriations",
+        "Change investment, employment or tax compliance"
+      ],
+      "realized_effects": "Authorized taxes and payments; endogenous service, demand and capacity effects.",
+      "failure_modes": [
+        "Unfunded promises",
+        "Cutting essential services to inflate cash",
+        "Counting local receipts twice"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-06"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-05",
+        "CON-08",
+        "CON-09",
+        "CON-10"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-02",
+      "name": "Issue or restructure public debt",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "fiscal",
+      "parameters": [
+        "Face amount",
+        "Currency",
+        "Maturity and amortization",
+        "Coupon/price offer",
+        "Collateral and covenants",
+        "Tender/issue timing"
+      ],
+      "preconditions": "Legal authority, disclosed existing debt and feasible investor funding; refinancing cannot erase liabilities.",
+      "costs_and_timing": "Market subscription and settlement precede usable cash; fees, interest and repayments continue past the horizon.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-CAPITAL",
+        "ACT-PAC-RESERVE"
+      ],
+      "possible_responses": [
+        "Subscribe partially",
+        "Reprice/refuse",
+        "Demand collateral",
+        "Accept/reject restructuring"
+      ],
+      "realized_effects": "Actual subscribed debt and cash; creditor losses or maturity changes by agreement.",
+      "failure_modes": [
+        "Rollover failure",
+        "Gold/FX mismatch",
+        "Future debt hidden by terminal date"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-08",
+        "CON-09",
+        "CON-10",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-STORY"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-03",
+      "name": "Offer public or syndicated credit",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "credit",
+      "parameters": [
+        "Named borrower and use",
+        "Public commitment",
+        "Private invitation",
+        "Currency/rate/maturity",
+        "Draw conditions",
+        "Collateral",
+        "Exposure cap"
+      ],
+      "preconditions": "Borrower exists and can legally accept; public appropriation and funding capacity; private participation remains voluntary.",
+      "costs_and_timing": "Commitment reserves exposure; cash only at accepted draws. Administration, credit losses and debt service follow actual schedules.",
+      "counterparties": [
+        "ACT-CAPITAL",
+        "ACT-JPN-CIV",
+        "ACT-CHN-CENTRAL",
+        "ACT-RUS-GOV",
+        "ACT-UNION",
+        "ACT-GULF",
+        "ACT-SIB",
+        "ACT-PAC-LEG"
+      ],
+      "possible_responses": [
+        "Accept/reject/counteroffer",
+        "Private undersubscription",
+        "Draw partially",
+        "Repay, default or seek restructuring"
+      ],
+      "realized_effects": "Separate public, private and foreign claims; borrower investment only after real resources are obtained.",
+      "failure_modes": [
+        "Treating the whole syndicate as Treasury property",
+        "Loan proceeds counted as GDP",
+        "Automatic political alignment"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-05",
+        "CON-10",
+        "CON-11",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-ALT",
+        "SRC-STORY"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-04",
+      "name": "Offer a guarantee or contingent commitment",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "credit",
+      "parameters": [
+        "Beneficiary",
+        "Covered obligation",
+        "Maximum exposure",
+        "Trigger",
+        "Duration",
+        "Fee/security",
+        "Recourse"
+      ],
+      "preconditions": "Authority to guarantee; disclosed potential funding calls and correlated exposure.",
+      "costs_and_timing": "No fictitious initial purchase payment. Fees and expected exposure differ from cash drawn on a realized call.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-CAPITAL",
+        "ACT-FOREIGN-MONETARY",
+        "ACT-JPN-CIV",
+        "ACT-GULF",
+        "ACT-PHI"
+      ],
+      "possible_responses": [
+        "Accept/refuse",
+        "Reprice underlying credit",
+        "Call guarantee when valid",
+        "Dispute trigger"
+      ],
+      "realized_effects": "Contingent liability and realized calls with recoveries; credible guarantees may affect financing terms.",
+      "failure_modes": [
+        "Unlimited implicit backing",
+        "Ignoring correlated calls",
+        "Counting commitment as both cash and debt twice"
+      ],
+      "objectives": [
+        "OBJ-03",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-05",
+        "CON-10",
+        "CON-11",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-AUDIT"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-05",
+      "name": "Propose bank stabilization",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "banking",
+      "parameters": [
+        "Covered institutions",
+        "Loss recognition",
+        "Owner write-off",
+        "Public/private equity",
+        "Domestic liquidity",
+        "External facility",
+        "Exit/repayment terms"
+      ],
+      "preconditions": "Bank examination and distinct fiscal/central-bank authority; identify solvency and currency gaps separately.",
+      "costs_and_timing": "Audits/moratoria take time; equity, collateralized liquidity and foreign exchange use different balance sheets and resources.",
+      "counterparties": [
+        "ACT-PAC-RESERVE",
+        "ACT-FOREIGN-MONETARY",
+        "ACT-CAPITAL",
+        "ACT-PAC-LEG",
+        "ACT-JPN-CIV",
+        "ACT-UNION"
+      ],
+      "possible_responses": [
+        "Reveal further losses",
+        "Refuse participation",
+        "Withdraw funding",
+        "Accept conditions",
+        "Choose another resolution"
+      ],
+      "realized_effects": "Recapitalized banks and settlement capacity only to the extent actual losses, collateral and draws support them.",
+      "failure_modes": [
+        "Yen mistaken for dollars",
+        "Same collateral pledged twice",
+        "A reopened bank with no import buffer",
+        "Rescue without loss allocation"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-10",
+        "CON-11",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-FINANCE",
+        "SRC-STORY"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-06",
+      "name": "Propose reserve or monetary arrangements",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "monetary",
+      "parameters": [
+        "Parity or adjustment rule",
+        "Cover requirement",
+        "Eligible collateral",
+        "Emergency liquidity terms",
+        "Currency settlement agreement"
+      ],
+      "preconditions": "Reserve/monetary authorities and any required legislation or treaty approve; reserves owned and liabilities measured.",
+      "costs_and_timing": "Settlement, credibility, valuation and trade effects occur over time; changing parity redistributes gains and losses.",
+      "counterparties": [
+        "ACT-PAC-RESERVE",
+        "ACT-FOREIGN-MONETARY",
+        "ACT-PAC-LEG",
+        "ACT-JPN-CIV",
+        "ACT-UNION",
+        "ACT-CAPITAL"
+      ],
+      "possible_responses": [
+        "Agree/refuse",
+        "Change gold demand",
+        "Withdraw or retain funds",
+        "Renegotiate"
+      ],
+      "realized_effects": "Actual convertibility/settlement rules and endogenous reserve flows; no free gold creation.",
+      "failure_modes": [
+        "Spending the same gold twice",
+        "Fixed exchange gains assumed without counterpart losses",
+        "Ignoring rural/import effects"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-05",
+        "CON-11"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-07",
+      "name": "Invest in productive infrastructure",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "investment",
+      "parameters": [
+        "Project/location",
+        "Capacity target",
+        "Ownership",
+        "Public share",
+        "Private invitation",
+        "Phasing",
+        "Maintenance and operating commitments"
+      ],
+      "preconditions": "Land/permit/consent, engineering prerequisites, labor, equipment and financing; allocation against competing projects.",
+      "costs_and_timing": "Design and construction precede usable capacity; cost overruns, imported inputs and maintenance remain explicit.",
+      "counterparties": [
+        "ACT-INDUSTRY",
+        "ACT-CAPITAL",
+        "ACT-PAC-LOCAL",
+        "ACT-HAW",
+        "ACT-PHI",
+        "ACT-CHN-REGIONAL",
+        "ACT-SIB",
+        "ACT-NORTH"
+      ],
+      "possible_responses": [
+        "Bid/refuse",
+        "Delay permits",
+        "Demand compensation",
+        "Compete for capacity",
+        "Use or underuse the completed asset"
+      ],
+      "realized_effects": "Ports, rails, power, water or communications capacity only after completion; productivity/demand effects follow registered mechanisms.",
+      "failure_modes": [
+        "Instant capital stock",
+        "Counting public/private costs twice",
+        "Using wartime rail paths also promised to civilians"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-02",
+        "OBJ-07",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-06",
+        "CON-10",
+        "CON-14"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT",
+        "SRC-HISTORY"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-08",
+      "name": "Fund research and industrial capability",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "investment",
+      "parameters": [
+        "Technical field",
+        "Research/training/prototype budget",
+        "Licensing terms",
+        "Production investment",
+        "Milestone and cancellation rules"
+      ],
+      "preconditions": "Period-available scientific/industrial prerequisites and lawful patents/contracts; firms and researchers participate.",
+      "costs_and_timing": "Research may fail; prototype, tooling, trained crews and production take separate time and capacity.",
+      "counterparties": [
+        "ACT-INDUSTRY",
+        "ACT-PAC-LEG",
+        "ACT-CAPITAL",
+        "ACT-JPN-CIV",
+        "ACT-UNION"
+      ],
+      "possible_responses": [
+        "Participate/refuse",
+        "Compete",
+        "License or withhold",
+        "Adapt technology"
+      ],
+      "realized_effects": "Uncertain technical progress and usable production capacity; foreign competitors can learn and respond.",
+      "failure_modes": [
+        "A spending-to-GDP magic multiplier",
+        "Inventing a construction uplift from CR-031-R1",
+        "Instant modern sensors or weapons"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-02",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-06",
+        "CON-19"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT",
+        "SRC-CR"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-09",
+      "name": "Expand skills, health and lawful labor supply",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "civil",
+      "parameters": [
+        "Training/scholarship places",
+        "Public health programme",
+        "Recruitment route",
+        "Family/guest quotas",
+        "Employer terms",
+        "Housing/service capacity"
+      ],
+      "preconditions": "Applicable entry and employment law, budgets, training capacity, voluntary household choices and source-country consent where required.",
+      "costs_and_timing": "Costs include passage, housing, schools and services; health/skill/retention effects take time. Distinguish gross arrivals and additional population.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-PAC-LOCAL",
+        "ACT-INDUSTRY",
+        "ACT-KOR",
+        "ACT-PHI",
+        "ACT-CHN-CENTRAL",
+        "ACT-NORTH"
+      ],
+      "possible_responses": [
+        "Accept/refuse employment",
+        "Return or settle lawfully",
+        "Change wages",
+        "Compete to retain talent",
+        "Oppose programme"
+      ],
+      "realized_effects": "Cohorts, skill, health and production effects with age/sex/residency and remittances tracked.",
+      "failure_modes": [
+        "Counting migrants and attributed descendants twice",
+        "Assuming every offered place fills",
+        "Exporting all harm beyond the scoring population"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-04",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-06",
+        "CON-19"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-10",
+      "name": "Procure, maintain and prepare forces",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "readiness",
+      "parameters": [
+        "Mission/force type",
+        "Order/repair/training quantities",
+        "Reserve posture",
+        "Stockpile target",
+        "Replacement plan"
+      ],
+      "preconditions": "Appropriation, yard/factory capacity, crews, technology and input supply; procurement and maintenance compete for resources.",
+      "costs_and_timing": "Lead times, training, depreciation, maintenance and fuel remain recurring; inventory is not automatically ready.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-INDUSTRY",
+        "ACT-JPN-CIV",
+        "ACT-JPN-MIL",
+        "ACT-CAPITAL"
+      ],
+      "possible_responses": [
+        "Bid or delay",
+        "Restrict components",
+        "Adjust partner contributions",
+        "Respond with own procurement"
+      ],
+      "realized_effects": "Mission-capable units and sustainable readiness only after completion and integration.",
+      "failure_modes": [
+        "Uncrewed ships counted as power",
+        "Ignoring operating cost",
+        "Duplicating national and common fleets"
+      ],
+      "objectives": [
+        "OBJ-02",
+        "OBJ-03"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-07",
+        "CON-10",
+        "CON-12"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-11",
+      "name": "Commit, escort or reposition forces",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "sustainment",
+      "parameters": [
+        "Named defensive mission",
+        "Force commitment",
+        "Route/bases",
+        "Supply plan",
+        "Duration",
+        "Rules and withdrawal triggers"
+      ],
+      "preconditions": "Authorization, transit/basing rights, readiness and actual sustainment; coalition national command powers respected.",
+      "costs_and_timing": "Mobilisation and travel delay; consumption, wear, casualties and ongoing support priced along the route.",
+      "counterparties": [
+        "ACT-JPN-CIV",
+        "ACT-JPN-MIL",
+        "ACT-CHN-CENTRAL",
+        "ACT-CHN-REGIONAL",
+        "ACT-KOR",
+        "ACT-SIB",
+        "ACT-RUS-GOV",
+        "ACT-GBR"
+      ],
+      "possible_responses": [
+        "Grant/refuse support",
+        "Countermobilize",
+        "Withdraw access",
+        "Contest routes",
+        "Cooperate under conditions"
+      ],
+      "realized_effects": "Changed security, deterrence, operational outcomes and human costs adjudicated by the registered model.",
+      "failure_modes": [
+        "Automatic victory",
+        "Dispatched forces exceeding bottlenecks",
+        "No civilian freight",
+        "An ally's army treated as Pacifica's property"
+      ],
+      "objectives": [
+        "OBJ-02",
+        "OBJ-03",
+        "OBJ-04",
+        "OBJ-05"
+      ],
+      "constraints": [
+        "CON-02",
+        "CON-04",
+        "CON-07",
+        "CON-12",
+        "CON-13",
+        "CON-16"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT",
+        "SRC-A"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-12",
+      "name": "Negotiate access, transit or guarantees",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "diplomacy",
+      "parameters": [
+        "Named right/route",
+        "Parties and beneficiaries",
+        "Payment/obligations",
+        "Duration",
+        "Exit/renewal",
+        "Dispute process"
+      ],
+      "preconditions": "Competent owners, sovereigns, local rights and existing treaties identified; Pacifica can propose terms but cannot supply their acceptance.",
+      "costs_and_timing": "Diplomatic time, compensation and infrastructure/service obligations; rights become usable only on effective terms.",
+      "counterparties": [
+        "ACT-JPN-CIV",
+        "ACT-CHN-CENTRAL",
+        "ACT-CHN-REGIONAL",
+        "ACT-KOR",
+        "ACT-SIB",
+        "ACT-NORTH",
+        "ACT-GBR",
+        "ACT-GULF",
+        "ACT-OTHER-LOCAL"
+      ],
+      "possible_responses": [
+        "Accept/refuse/counteroffer",
+        "Ratify late",
+        "Restrict implementation",
+        "Renew or exit"
+      ],
+      "realized_effects": "Consent-valid, practically usable rights and obligations; sovereignty changes only through a separately lawful event.",
+      "failure_modes": [
+        "Treating a lease as annexation",
+        "Signing as proof of route availability",
+        "Ignoring local rights or rival guarantees"
+      ],
+      "objectives": [
+        "OBJ-02",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-16",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-HISTORY",
+        "SRC-ALT"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-13",
+      "name": "Offer crisis mediation or peace terms",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "diplomacy",
+      "parameters": [
+        "Participation and agenda",
+        "Security/territorial terms",
+        "Verification",
+        "Economic support",
+        "Timing",
+        "Fallback and enforcement promises"
+      ],
+      "preconditions": "Case-specific roster of every indispensable party and veto; independent willingness/capacity to negotiate.",
+      "costs_and_timing": "Negotiation rounds, travel/information delay, verification and promised support; continued war can consume resources during talks.",
+      "counterparties": [
+        "ACT-GBR",
+        "ACT-FRA",
+        "ACT-GER",
+        "ACT-DANUBE",
+        "ACT-RUS-GOV",
+        "ACT-JPN-CIV",
+        "ACT-CHN-CENTRAL",
+        "ACT-OTHER-LOCAL"
+      ],
+      "possible_responses": [
+        "Accept/refuse parts",
+        "Counteroffer",
+        "Escalate",
+        "Lose domestic authority",
+        "Fail verification or implementation"
+      ],
+      "realized_effects": "Armistice/peace only if parties agree and implement; later compliance and renewed-war risk stay endogenous.",
+      "failure_modes": [
+        "An invitation counted as peace",
+        "A loan forcing French/German consent",
+        "Peace with the institutions and debt windfalls of prolonged war"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-02",
+        "OBJ-04",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-03",
+        "CON-04",
+        "CON-13",
+        "CON-17",
+        "CON-19"
+      ],
+      "sources": [
+        "SRC-B",
+        "SRC-C",
+        "SRC-D",
+        "SRC-STORY"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-14",
+      "name": "Condition new credit and civilian conversion",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "diplomacy",
+      "parameters": [
+        "Uncommitted new-credit ceiling",
+        "Borrower/covenants",
+        "Civilian conversion offer",
+        "Verification trigger",
+        "Notice and sequencing"
+      ],
+      "preconditions": "Separate existing contractual obligations from future offers; fiscal/private consent for the conversion package.",
+      "costs_and_timing": "Lost export demand, loan losses, plant conversion, employment and diplomacy are modelled; ending new credit is not confiscating existing private claims.",
+      "counterparties": [
+        "ACT-CAPITAL",
+        "ACT-INDUSTRY",
+        "ACT-GBR",
+        "ACT-FRA",
+        "ACT-GER",
+        "ACT-RUS-GOV",
+        "ACT-JPN-CIV"
+      ],
+      "possible_responses": [
+        "Change borrowing source",
+        "Accept terms",
+        "Refuse",
+        "Continue war",
+        "Default",
+        "Convert or retain production"
+      ],
+      "realized_effects": "Actual credit/order changes and bargaining effects; no guaranteed settlement date.",
+      "failure_modes": [
+        "Costless leverage",
+        "Deleting binding draws",
+        "Ignoring Japanese bank/industrial exposure"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-04",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-10",
+        "CON-11",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-B",
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-15",
+      "name": "Change trade, supply or transport restrictions",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "economic_statecraft",
+      "parameters": [
+        "Covered goods/route",
+        "Legal instrument",
+        "Trigger",
+        "Duration",
+        "Exemptions",
+        "Enforcement and exit terms"
+      ],
+      "preconditions": "Actual authority over goods/transport and a feasible enforcement mechanism; partners and private owners remain distinct.",
+      "costs_and_timing": "Revenue loss, substitution, evasion, enforcement, retaliation and civilian effects; reductions cannot exceed Pacifica's actual control.",
+      "counterparties": [
+        "ACT-INDUSTRY",
+        "ACT-JPN-CIV",
+        "ACT-JPN-MIL",
+        "ACT-GULF",
+        "ACT-CHN-CENTRAL",
+        "ACT-UNION",
+        "ACT-GBR"
+      ],
+      "possible_responses": [
+        "Comply",
+        "Substitute",
+        "Retaliate",
+        "Escalate",
+        "Negotiate",
+        "Seek alternative suppliers"
+      ],
+      "realized_effects": "Changed feasible resources and incentives, with induced shortages and political responses.",
+      "failure_modes": [
+        "Assuming an oil threat guarantees obedience",
+        "Treating Gulf output as Pacifican stock",
+        "Ignoring own exporter losses"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-02",
+        "OBJ-04",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-13",
+        "CON-16"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-D"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-16",
+      "name": "Propose a compact or common institution",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "institutions",
+      "parameters": [
+        "Functions delegated",
+        "Parties",
+        "Cost quotas",
+        "Command/minister rules",
+        "Term and renewal",
+        "Exit/dispute provisions"
+      ],
+      "preconditions": "Each party's domestic consent and fiscal capacity; internal Ka Lōkahi and external Concord roles remain distinct.",
+      "costs_and_timing": "Negotiation and ratification delay; continuing common costs and enforcement. A peaceful partnership can use a different lawful structure.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-HAW",
+        "ACT-PHI",
+        "ACT-JPN-CIV",
+        "ACT-JPN-MIL",
+        "ACT-FOREIGN-MONETARY"
+      ],
+      "possible_responses": [
+        "Accept/refuse",
+        "Amend quotas or offices",
+        "Lapse",
+        "Demand safeguards",
+        "Renew or withdraw"
+      ],
+      "realized_effects": "Only the functions and resources actually delegated; separate national armies, reserves and citizenship retained as applicable.",
+      "failure_modes": [
+        "Automatic 1927 Concord",
+        "Japan's revenue consolidated into Pacifica",
+        "Three internal crowns counted as three Concord parties"
+      ],
+      "objectives": [
+        "OBJ-02",
+        "OBJ-03",
+        "OBJ-05",
+        "OBJ-06",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-04",
+        "CON-05",
+        "CON-07",
+        "CON-17",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-CR",
+        "SRC-D"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-17",
+      "name": "Propose constitutional or succession change",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "institutions",
+      "parameters": [
+        "Instrument and lawful route",
+        "Timing",
+        "Protected institutions",
+        "Separate consent processes",
+        "Transition and administrative costs"
+      ],
+      "preconditions": "Competent institutions and applicable amendment/succession rules; living officeholders and individual choices retain agency.",
+      "costs_and_timing": "Legislative/plebiscite/calendar delay and political opposition; earlier accession is an explicitly different scenario package, not an unexplained date switch.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-HAW",
+        "ACT-PHI",
+        "ACT-PAC-LOCAL",
+        "ACT-JPN-CIV"
+      ],
+      "possible_responses": [
+        "Approve/refuse",
+        "Renegotiate",
+        "Litigate",
+        "Withhold personal assent",
+        "Require separate popular consent"
+      ],
+      "realized_effects": "Valid changes only after conditions hold, with downstream powers, ages, obligations and character chronology adjusted coherently.",
+      "failure_modes": [
+        "Choosing a relative's death as a policy parameter",
+        "Skipping Hawaiian/Philippine consent",
+        "Keeping contradictory 1907 and 1915 accessions"
+      ],
+      "objectives": [
+        "OBJ-02",
+        "OBJ-05",
+        "OBJ-06"
+      ],
+      "constraints": [
+        "CON-03",
+        "CON-04",
+        "CON-17"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-C",
+        "SRC-D",
+        "SRC-CR"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-18",
+      "name": "Provide relief and reconstruction support",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "civil",
+      "parameters": [
+        "Beneficiary/location",
+        "Grant/loan/in-kind mix",
+        "Delivery schedule",
+        "Procurement",
+        "Monitoring",
+        "Exit/maintenance duties"
+      ],
+      "preconditions": "Funding, local permission, transport and eligible supplies; affected communities can accept or contest implementation.",
+      "costs_and_timing": "Delivery bottlenecks and time, replacement costs and recurring services; debt relief is distinct from new cash.",
+      "counterparties": [
+        "ACT-INDUSTRY",
+        "ACT-PAC-LOCAL",
+        "ACT-JPN-CIV",
+        "ACT-SIB",
+        "ACT-NORTH",
+        "ACT-GULF",
+        "ACT-OTHER-LOCAL"
+      ],
+      "possible_responses": [
+        "Accept/refuse",
+        "Change local priorities",
+        "Divert or delay supplies",
+        "Support or distrust the donor"
+      ],
+      "realized_effects": "Delivered goods, restored assets and health/welfare effects under explicit mechanisms; gratitude does not guarantee alignment.",
+      "failure_modes": [
+        "Aid counted on commitment rather than delivery",
+        "Grants also counted as lender assets",
+        "Zero political/administrative friction"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-04",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-06",
+        "CON-10",
+        "CON-19"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-19",
+      "name": "Negotiate concession or equity investment",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "investment",
+      "parameters": [
+        "Asset/rights",
+        "Ownership share",
+        "Price/funding",
+        "Local consent",
+        "Royalties/dividends",
+        "Labor and restoration duties",
+        "Exit terms"
+      ],
+      "preconditions": "Seller/sovereign/local rights, valid company authority and actual investor funding. Proposed Company terms remain branch assumptions.",
+      "costs_and_timing": "Acquisition and construction draws, wages, supply, operating costs, risk and delayed income; minority ownership is not all output.",
+      "counterparties": [
+        "ACT-INDUSTRY",
+        "ACT-CAPITAL",
+        "ACT-JPN-CIV",
+        "ACT-SIB",
+        "ACT-NORTH",
+        "ACT-KOR",
+        "ACT-CHN-CENTRAL"
+      ],
+      "possible_responses": [
+        "Accept/refuse",
+        "Change concession terms",
+        "Restrict production",
+        "Renegotiate",
+        "Compete"
+      ],
+      "realized_effects": "Actual equity/contractual claims and income by owner; foreign production and employment stay in their jurisdiction.",
+      "failure_modes": [
+        "Kolyma or Company output booked as core GDP",
+        "Unspecified Puʻuloa rent invented",
+        "Treating a stake as immediate dividends"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-05",
+        "OBJ-07",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-06",
+        "CON-14",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE",
+        "SRC-CR"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-20",
+      "name": "Arrange a gold or reserve-asset purchase",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "monetary",
+      "parameters": [
+        "Seller",
+        "Quantity and verified fineness",
+        "Price/currency",
+        "Delivery route",
+        "Settlement asset",
+        "Reserve ownership"
+      ],
+      "preconditions": "Available physical supply, legal purchase authority, transport and actual payment/credit counterpart.",
+      "costs_and_timing": "Extraction and delivery precede receipt; assay, freight, insurance and settlement costs; bank credit has an offsetting liability.",
+      "counterparties": [
+        "ACT-PAC-RESERVE",
+        "ACT-CAPITAL",
+        "ACT-INDUSTRY",
+        "ACT-SIB",
+        "ACT-KOR",
+        "ACT-NORTH"
+      ],
+      "possible_responses": [
+        "Sell/refuse",
+        "Change price",
+        "Delay delivery",
+        "Demand different settlement"
+      ],
+      "realized_effects": "Owned reserve asset and matching paid/credited consideration; no automatic public revenue or domestic mining output.",
+      "failure_modes": [
+        "Gold credited before production",
+        "Reserve purchase counted as free fiscal income",
+        "Same deposit counted as unencumbered public cash"
+      ],
+      "objectives": [
+        "OBJ-03"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-11"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-FINANCE"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-21",
+      "name": "Adopt environmental and public-land measures",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "civil",
+      "parameters": [
+        "Watershed/land scope",
+        "Minimum flows and permits",
+        "Restoration bonds",
+        "Lease premiums",
+        "Infrastructure alternative",
+        "Compensation and enforcement"
+      ],
+      "preconditions": "Relevant legislature, land custodians, existing titles and engineering alternatives; county administration does not transfer Crown ownership.",
+      "costs_and_timing": "Foregone uses, public works, monitoring and restoration are priced; long-lived ecological and financial effects continue.",
+      "counterparties": [
+        "ACT-HAW",
+        "ACT-PAC-LEG",
+        "ACT-PAC-LOCAL",
+        "ACT-INDUSTRY",
+        "ACT-PAC-RESERVE"
+      ],
+      "possible_responses": [
+        "Accept/refuse",
+        "Litigate",
+        "Adapt production",
+        "Offer refinancing",
+        "Seek an exemption"
+      ],
+      "realized_effects": "Actual flows, discharge, land use and funded restoration; refinancing changes cash timing, not physical resource cost.",
+      "failure_modes": [
+        "A rate reduction creating free electricity",
+        "Unpriced land rights",
+        "Preserving a reef by exporting all damage"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-04",
+        "OBJ-06",
+        "OBJ-07"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-14",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-AUDIT"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-22",
+      "name": "Propose an oil or commodity coordination agreement",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "economic_statecraft",
+      "parameters": [
+        "Participants",
+        "Output rule",
+        "Price objective",
+        "Monitoring",
+        "Term",
+        "Distribution of burdens"
+      ],
+      "preconditions": "Each producer/government's competent consent; actual market supply/demand and enforcement capacity.",
+      "costs_and_timing": "Revenue, consumer/input-price effects, quota compliance, substitute supply and political reaction vary over time.",
+      "counterparties": [
+        "ACT-GULF",
+        "ACT-INDUSTRY",
+        "ACT-JPN-CIV",
+        "ACT-UNION",
+        "ACT-OTHER-LOCAL"
+      ],
+      "possible_responses": [
+        "Accept/refuse",
+        "Underproduce/evade",
+        "Expand competing supply",
+        "Seek new customers"
+      ],
+      "realized_effects": "Endogenous output and prices within a supported market model; producer prosperity and consumer costs are separate.",
+      "failure_modes": [
+        "Pacifica commanding all Gulf oil",
+        "Guaranteed price support without demand/supply response",
+        "Quota revenue counted twice"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-03",
+        "OBJ-05",
+        "OBJ-08"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-02",
+        "CON-04",
+        "CON-05",
+        "CON-19"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-D"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-23",
+      "name": "Commission measurement, audit or verification",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "information",
+      "parameters": [
+        "Question and population",
+        "Survey/audit scope",
+        "Publication/access rule",
+        "Verification terms",
+        "Budget and timing"
+      ],
+      "preconditions": "Access, competent authority and measurement capability. Independence and publication rules affect credibility.",
+      "costs_and_timing": "Staff, inspection, collection and delay; observation accuracy is bounded, never perfect foresight.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-PAC-LOCAL",
+        "ACT-CAPITAL",
+        "ACT-INDUSTRY",
+        "ACT-JPN-CIV",
+        "ACT-CHN-CENTRAL",
+        "ACT-OTHER-LOCAL"
+      ],
+      "possible_responses": [
+        "Cooperate/refuse access",
+        "Contest results",
+        "Change behavior",
+        "Revise beliefs"
+      ],
+      "realized_effects": "Dated observations and evidence quality; other actors update their own beliefs. Underlying truth is separate from official publication.",
+      "failure_modes": [
+        "Free accurate intelligence",
+        "Official tables overwriting actual losses",
+        "Audit automatically creating public trust"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-02",
+        "OBJ-03",
+        "OBJ-06"
+      ],
+      "constraints": [
+        "CON-02",
+        "CON-03",
+        "CON-04",
+        "CON-19"
+      ],
+      "sources": [
+        "SRC-STORY",
+        "SRC-VISION"
+      ],
+      "search_enabled": false
+    },
+    {
+      "id": "ACTN-24",
+      "name": "Wait, revise, reduce or exit a commitment",
+      "status": "PROPOSED_ACTION_CONTRACT",
+      "family": "review",
+      "parameters": [
+        "Commitment/action being reviewed",
+        "Trigger",
+        "Notice and exit timetable",
+        "Fallback",
+        "Settlement and repair obligations"
+      ],
+      "preconditions": "Lawful cancellation/exit terms and residual duties; inaction is available but does not cancel existing appropriations, treaties or maintenance.",
+      "costs_and_timing": "Time passes, opportunities change, notices cost resources and withdrawal may create losses, liabilities or political reactions.",
+      "counterparties": [
+        "ACT-PAC-LEG",
+        "ACT-CAPITAL",
+        "ACT-INDUSTRY",
+        "ACT-JPN-CIV",
+        "ACT-CHN-CENTRAL",
+        "ACT-SIB",
+        "ACT-GBR",
+        "ACT-OTHER-LOCAL"
+      ],
+      "possible_responses": [
+        "Accept revised terms",
+        "Claim damages",
+        "Withdraw own support",
+        "Exploit the delay",
+        "Renegotiate"
+      ],
+      "realized_effects": "Actual released or committed resources, credibility changes and continuing security/human outcomes.",
+      "failure_modes": [
+        "A free reset",
+        "Deleted debt or guarantees",
+        "Waiting with no opponent or economic response"
+      ],
+      "objectives": [
+        "OBJ-01",
+        "OBJ-02",
+        "OBJ-03",
+        "OBJ-04",
+        "OBJ-05"
+      ],
+      "constraints": [
+        "CON-01",
+        "CON-04",
+        "CON-12",
+        "CON-18"
+      ],
+      "sources": [
+        "SRC-VISION",
+        "SRC-ALT"
+      ],
+      "search_enabled": false
+    }
+  ],
+  "action_rules": {
+    "schema": "Each action instance adds initiator, targets, decision timestamp, observation references, parameter bounds/units, approvals, funding/physical reservations, implementation stages, cancellation terms and provenance.",
+    "parameter_bounds": "Currency, quantity, maturity, tax and capacity bounds come from the current state, applicable law and registered evidence. Offer shares lie in [0,1], amounts are nonnegative, but those ranges do not establish affordable or acceptable terms.",
+    "lifecycle": [
+      "proposed",
+      "negotiating",
+      "approved_or_refused",
+      "committed",
+      "implementing",
+      "effective",
+      "completed_or_exited_or_failed"
+    ],
+    "partial_approval": "A proposal may be negotiated before approval. A refusal can consume time and cost but creates no fictional treaty or private subscription.",
+    "bundles": "Linked actions reference the same financing, capacity and agreements. Financing a project does not separately create a second capital stock or duplicate spending.",
+    "default_enablement": "All records start search_enabled=false because this is a draft catalog, not a runnable model. Enable an action family only after its actor roster, rules, resource accounts and evidence pass coverage review.",
+    "resolution": "Collect contemporaneous decisions, resolve authority/acceptance, reserve resources, advance implementation, settle accounts, produce observations and score realized outcomes. Logistics may use finer steps than budgets.",
+    "failure": "Rejected proposals and adverse outcomes remain in the trace; computational errors have a separate status."
+  },
+  "policy_templates": [
+    {
+      "id": "POL-01",
+      "name": "Fiscal-first restraint",
+      "status": "PROPOSED_COMPARATOR",
+      "rules": [
+        "Review discretionary commitments when cash falls below the selected buffer.",
+        "Prefer staged commitments and a declared exposure cap.",
+        "Maintain selected minimum security and essential-service obligations."
+      ],
+      "actions": [
+        "ACTN-01",
+        "ACTN-02",
+        "ACTN-03",
+        "ACTN-10",
+        "ACTN-24"
+      ]
+    },
+    {
+      "id": "POL-02",
+      "name": "Productive partnership",
+      "status": "PROPOSED_SEARCH_SEED",
+      "rules": [
+        "Stage infrastructure, skills and credit around partner acceptance and usable capacity.",
+        "Continue only when public funding, counterpart performance and transport remain adequate.",
+        "Allow partners to choose competing offers and retain their own gains."
+      ],
+      "actions": [
+        "ACTN-03",
+        "ACTN-07",
+        "ACTN-08",
+        "ACTN-09",
+        "ACTN-12",
+        "ACTN-23",
+        "ACTN-24"
+      ]
+    },
+    {
+      "id": "POL-03",
+      "name": "Early mediation with conversion support",
+      "status": "PROPOSED_SEARCH_SEED",
+      "rules": [
+        "Offer mediation when dated observations meet selected escalation indicators.",
+        "Pair terms with bounded, credible civilian-conversion support.",
+        "If parties refuse, reassess; peace is an output, never a policy parameter."
+      ],
+      "actions": [
+        "ACTN-03",
+        "ACTN-13",
+        "ACTN-14",
+        "ACTN-18",
+        "ACTN-23",
+        "ACTN-24"
+      ]
+    },
+    {
+      "id": "POL-04",
+      "name": "Limited security commitment",
+      "status": "PROPOSED_SEARCH_SEED",
+      "rules": [
+        "Commit only to declared missions with consent and sustainment.",
+        "Tie reinforcement to actual bottleneck/stockpile conditions.",
+        "Reassess or withdraw under specified lawful fallback triggers."
+      ],
+      "actions": [
+        "ACTN-10",
+        "ACTN-11",
+        "ACTN-12",
+        "ACTN-18",
+        "ACTN-24"
+      ]
+    }
+  ],
+  "alternative_mapping": [
+    {
+      "case": "baseline",
+      "role": "Financial fixture and reconstructed comparator policy",
+      "action_families": [
+        "credit",
+        "banking",
+        "investment",
+        "readiness",
+        "sustainment",
+        "institutions",
+        "civil",
+        "diplomacy"
+      ],
+      "treatment": "Replay may prescribe authored outcomes. Reassessing the comparator in discovery must allow refusal, failure, different crises and different later institutions."
+    },
+    {
+      "case": "control",
+      "role": "Existing manifest-defined comparator",
+      "action_families": [],
+      "treatment": "Shared-change control; the manifest records first divergence in 1904, A's branch in 1918, B's in 1916 and C/D's in 1907. Retrieve the frozen bundle for the exact shared modifications. Do not relabel it as no action."
+    },
+    {
+      "case": "CR-032A",
+      "role": "Intervention and federal-Russia strategy seed",
+      "action_families": [
+        "credit",
+        "diplomacy",
+        "sustainment",
+        "civil",
+        "institutions"
+      ],
+      "treatment": "Offer coalition support, political terms and reconstruction. Russian consent, Moscow's fall, federal durability and regime outcomes must emerge in discovery."
+    },
+    {
+      "case": "CR-032B",
+      "role": "Earlier-peace strategy seed",
+      "action_families": [
+        "credit",
+        "diplomacy",
+        "investment",
+        "civil"
+      ],
+      "treatment": "Vary timing and terms of mediation, credit and conversion. An August 1917 settlement is a draft success case, not an automatic effect."
+    },
+    {
+      "case": "CR-032C",
+      "role": "Prewar-diplomacy seed with an earlier-accession scenario package",
+      "action_families": [
+        "institutions",
+        "diplomacy",
+        "investment",
+        "credit"
+      ],
+      "treatment": "Declare the 1906–1908 constitutional/family changes and starting conditions. The draft's unresolved later consequences cannot supply a complete policy by inference. The frozen financial fixture explicitly uses a C0 peaceful commercial continuation; preserve that label and do not import D's institutions."
+    },
+    {
+      "case": "CR-032D",
+      "role": "Neutrality and productive-partnership seed with an earlier-accession scenario package",
+      "action_families": [
+        "institutions",
+        "diplomacy",
+        "investment",
+        "readiness",
+        "credit"
+      ],
+      "treatment": "Test crisis prevention, defensive readiness and voluntary partnership; no-war through 1932, Russian constitutional reform and the 1927 treaty are authored outcomes only in conditional replay."
+    }
+  ],
+  "review_decisions": [
+    {
+      "id": "REV-01",
+      "decision": "Select objectives and beneficiaries",
+      "proposal": "Begin with OBJ-01–04, after evidence gates; add partner/autonomy and environmental components as supported.",
+      "status": "OPEN"
+    },
+    {
+      "id": "REV-02",
+      "decision": "Select risk preference and hard outcome limits",
+      "proposal": "Review the draft Q10/Q90 summaries, three-month cash proposal and source 4%/15%/30% conventions; choose loss limits and exceedance risks.",
+      "status": "OPEN"
+    },
+    {
+      "id": "REV-03",
+      "decision": "Approve actor/control granularity",
+      "proposal": "Optimize the executive agenda and authorized actions; retain institutional and foreign consent. Instantiate all indispensable negotiating parties.",
+      "status": "OPEN"
+    },
+    {
+      "id": "REV-04",
+      "decision": "Select pilot scope",
+      "proposal": "1904–1932 with financing/investment, diplomacy and readiness/sustainment; enable only supported families and label omitted effects.",
+      "status": "OPEN"
+    },
+    {
+      "id": "REV-05",
+      "decision": "Resolve evidence and continuation gaps",
+      "proposal": "Obtain the consumption/price bridge, resource/logistics data, actor response cases, human-cost model and terminal-liability treatment before claiming strategic rankings.",
+      "status": "OPEN"
+    },
+    {
+      "id": "REV-06",
+      "decision": "Choose comparison design",
+      "proposal": "Use common-start policy contests for search; separately label authored scenario packages, including early accession and prescribed peace outcomes.",
+      "status": "OPEN"
+    }
+  ],
+  "comparison_rules": [
+    "Distinguish a common-start policy contest from a comparison of authored scenario packages with different initial premises.",
+    "The baseline and alternatives do not share every 1904–1905 war assumption; C/D also change accession and its dependencies. Either normalize such assumptions explicitly or report the difference as part of the package.",
+    "Keep endogenous conflict, financial crises, regime transitions and ally responses free to differ under policies. Match only exogenous draws where the comparison design supports it.",
+    "Do not grant peaceful paths war-derived debts, concessions or common institutions for free; do not reward a war solely for increasing a relative GDP ratio by destroying other economies.",
+    "Frozen fixtures are deterministic accounting references, not observations of historical probabilities. Matched-downturn aliases are not independent samples."
+  ],
+  "evidence_register": [
+    {
+      "area": "Native financial accounts",
+      "available": "Saved current workbook review and frozen fixture metadata, including nominal and 1913-price GDP anchors.",
+      "needed": "Native equations, actual six frozen bundles and provenance; monthly obligations and essential-service coverage; full North American GDP perimeter."
+    },
+    {
+      "area": "Household prosperity",
+      "available": "GDP/population context and modelled production.",
+      "needed": "Consumption/household-income bridge, price basis, residency and guest treatment, foreign income/remittances and distribution."
+    },
+    {
+      "area": "Military and logistics",
+      "available": "Source capability targets, five-section route, dated cost/capacity assumptions and an audit of unresolved feasibility.",
+      "needed": "Independent capacity/cost/lead-time evidence, route conditions, stockpiles, serviceability, civilian allocation and mission tests."
+    },
+    {
+      "area": "Actors and institutions",
+      "available": "Canonical authority rules, specific bargaining episodes and alternative hypotheses.",
+      "needed": "Acceptance/refusal rules, plausible alternatives and capacity, observation delays and faction evidence; alternative structural response models."
+    },
+    {
+      "area": "Human consequences",
+      "available": "Narrative casualties, displacement and conflict mechanisms as context.",
+      "needed": "Scalable casualty/disruption model, affected population coverage and post-failure continuation."
+    },
+    {
+      "area": "Ecology and public measures",
+      "available": "Source public-measure definitions and watershed/charter goals.",
+      "needed": "Thresholds/denominators, coverage, hydrology/ecological response and restoration costs."
+    }
+  ],
+  "review_examples": [
+    {
+      "id": "EX-01",
+      "name": "Credit offer refused",
+      "setup": "A borrower rejects a public-credit offer or private lenders will not subscribe.",
+      "expected": "Only incurred proposal costs/time are booked. No loan asset, borrower investment, alignment or successful treaty appears."
+    },
+    {
+      "id": "EX-02",
+      "name": "Rail access withdrawn",
+      "setup": "A Chinese authority withdraws or cannot implement required transit during a supported commitment.",
+      "expected": "Independent response changes transport, stocks, mission feasibility and human/security outcomes; the engine cannot substitute an unowned route."
+    },
+    {
+      "id": "EX-03",
+      "name": "Peace without war windfalls",
+      "setup": "A mediation policy avoids general war.",
+      "expected": "Peaceful production and partner independence may improve. Entente war claims, wartime territorial gains and rescue-driven institutional concessions are absent unless separately generated and paid for."
+    },
+    {
+      "id": "EX-04",
+      "name": "Failed or illegal compact",
+      "setup": "The Senate refuses a common-institution treaty.",
+      "expected": "In lawful discovery the compact remains unratified. Baseline replay can record the authored 1927 illegal application and 1928 cure without labelling the first act lawful."
+    },
+    {
+      "id": "EX-05",
+      "name": "Foreign gold purchase",
+      "setup": "A foreign concession sells delivered gold to the Reserve Bank.",
+      "expected": "Credit/payment and reserve ownership reconcile. Foreign GDP remains foreign and Treasury revenue is not created automatically."
+    },
+    {
+      "id": "EX-06",
+      "name": "Adverse fiscal path",
+      "setup": "A revenue shock causes debt-service or cash-buffer failure.",
+      "expected": "The path remains in the denominator with costs and recovery/terminal effects; it is not dropped as an invalid strategy."
+    },
+    {
+      "id": "EX-07",
+      "name": "Unsupported outcome",
+      "setup": "A candidate lacks a usable human-cost or household-consumption mechanism.",
+      "expected": "The corresponding metric is unavailable or a named proxy is explicitly selected. Unknown values cannot be zero or a winning score."
+    },
+    {
+      "id": "EX-08",
+      "name": "Gulf admission shortcut",
+      "setup": "A policy offers admission before all continuing tests and consent are satisfied.",
+      "expected": "Admission is unavailable; an oil, trade or defence agreement remains a separate action with its own consent and costs."
+    }
+  ]
+}
