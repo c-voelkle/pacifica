@@ -1,0 +1,302 @@
+# Timeline Lab prototype scenario: Japan's 1927 rescue and the Pacific Concord
+#
+# Labels on every value:
+#   APPROVED / PROPOSED / OPEN / MODEL  = carried from the canon sources, with the source's own label
+#   LAB                                 = invented for this prototype; tune freely, never canon
+#   CHECK                               = canon wording found, but the label's scope needs the author's confirmation
+#
+# Weights and probabilities are 0-1 unless a unit is given. Money is millions of 1927 US dollars.
+# Nothing here is forced: canon outcomes are listed under canon_reference for comparison only.
+
+schema: timeline-lab-sketch/0.1
+
+scenario:
+  id: SKETCH-1927-RESCUE
+  title: Japan's 1927 rescue and the Pacific Concord
+  question: >
+    What else could plausibly have happened in the 1927-28 rescue and Concord crisis,
+    depending on Julian's choices, and which histories make good plot?
+  start: 1927-03
+  end: 1928-12
+  step: month
+  sources:
+    repository: c-voelkle/pacifica
+    commit: a2b5f1dc31bf17e6df949bff27f7b6d887471129
+    passages:
+      - book-agent/revision/master_storyline.md  # CR-024 paragraphs and the 1928 settlement
+      - book-agent/revision/CR-024.md
+      - book-agent/revision/CR-021.md            # why Julian acts illegally; why Hirohito accepts
+      - book-agent/revision/character_bible.md   # CT-TAKAHASHI, CT-HIROHITO, CT-SAIONJI, CT-CHIYO
+
+# ---------------------------------------------------------------------------
+# Actors. Julian is the only controlled actor; everyone else decides by their own rule.
+# ---------------------------------------------------------------------------
+actors:
+
+  julian:
+    name: Julian, Sovereign of Pacifica
+    registry_id: CT-JULIAN
+    catalog_role: ACT-PAC-EXEC
+    control: controlled
+    note: >
+      Decides only through the levers below. Cannot supply Senate, Japanese or private consent.
+
+  senate:
+    name: Pacifica Senate and Chamber
+    catalog_role: ACT-PAC-LEG
+    control: independent
+    factions:
+      tate_bloc:
+        leader: Harlan Tate, senator for Sacramento, Silas's old adjutant   # APPROVED CR-022
+        registry_id: null   # OPEN: Tate has no stable registry ID; see open_items
+        cohesion: {value: 0.7, label: LAB}
+    decisions:
+      rescue_loan_vote: [approve, approve_with_public_cap, refuse]
+      treaty_consent: [consent, refuse, delay]            # needs two-thirds
+      indemnity_act: [pass, refuse]
+    reasons_against:   # APPROVED CR-021 / storyline; weights LAB
+      cost_share_65_percent: {weight: 0.30, label: LAB}
+      dilution_64m_vs_27m: {weight: 0.20, label: LAB}
+      prerogative_precedent: {weight: 0.25, label: LAB}
+      county_boards_leverage: {weight: 0.15, label: LAB}
+      coupon_clipper_grievance: {weight: 0.10, label: LAB}  # ~$300m a year to foreign holders, APPROVED CR-022 wording
+    reasons_for:
+      concessions_offered: {weight_per_concession: 0.08, label: LAB}
+      victoria_brokering: {weight: 0.30, label: LAB}
+      ka_lokahi_declaration: {weight: 0.05, label: LAB}
+      trust_in_executive: {weight: 0.20, label: LAB}
+    rule: >
+      Each vote compares support (reasons_for, scaled by trust) against opposition
+      (reasons_against, scaled by tate_bloc cohesion) plus noise. Treaty consent needs
+      support above the two-thirds threshold below. Illegal provisional application lowers
+      trust_in_executive each month it continues.
+    params:
+      two_thirds_threshold: {value: 0.667, label: APPROVED}
+      initial_trust_in_executive: {value: 0.6, label: LAB}
+      trust_loss_per_illegal_month: {value: 0.03, label: LAB}
+
+  victoria:
+    name: Victoria Kamāmalu (Kaiulani)
+    registry_id: CT-KAIULANI   # active ID; CT-VICTORIA-KAMAMALU is retired provenance
+    control: independent
+    stance: >
+      Supports the Concord and opposes its illegal imposition (canon). Sees the danger of a union
+      resting on two men's friendship.
+    decisions:
+      settlement_role: [broker_settlement, stay_aloof, oppose_publicly]
+    rule: >
+      Brokers a settlement only after an illegal provisional application exists or the Senate has
+      refused, and only if Julian offers enough concessions. Her call on Tate is PROPOSED;
+      narration must never have either of them mention Donner.
+    params:
+      min_concessions_to_broker: {value: 2, label: LAB}
+      brokering_effect_on_tate_cohesion: {value: -0.35, label: LAB}
+
+  japan_government:
+    name: Japan's civilian government and throne
+    catalog_role: ACT-JPN-CIV
+    control: independent
+    persons:
+      hirohito: {registry_id: CT-HIROHITO, role: decides; accepts on Julian's word in canon}
+      saionji: {registry_id: CT-SAIONJI, role: last genrō; counsels acceptance to protect the throne from the army}
+      takahashi: {registry_id: CT-TAKAHASHI, role: finance; three-week moratorium; stays in Tokyo, not a common minister}
+    decisions:
+      response_to_offer: [accept, counteroffer, refuse]
+      alternative_if_refused: [stop_paying_abroad, let_yen_fall, let_banks_fail]   # APPROVED storyline
+      concord_ratification: [ratify_conditionally, refuse]                      # Privy Council conditional advice
+    reasons_for_accepting:   # APPROVED CR-021 list; weights LAB
+      no_better_offer: {weight: 0.30, label: LAB}
+      saionji_counsel_army_risk: {weight: 0.25, label: LAB}
+      real_value_of_concord: {weight: 0.15, label: LAB}
+      conditional_approval_hedge: {weight: 0.10, label: LAB}
+      trust_in_julian: {weight: 0.20, label: LAB}
+    reasons_against:
+      sovereignty_cost_if_tied: {weight: 0.25, label: LAB}
+      credit_shortfall_vs_need: {weight: 0.40, label: LAB}
+      thalassia_bakufu_criticism: {weight: 0.10, label: LAB}
+    rule: >
+      Accepts when the offer covers the foreign-exchange need and the reasons for accepting
+      outweigh the reasons against, plus noise. A counteroffer asks for more credit or an untied
+      credit. If the Concord is ratified and Pacifica never consents, Japan's side lapses.
+    params:
+      initial_trust_in_julian: {value: 0.75, label: LAB}   # built 1921-26: reef visit, 1923 relief, households
+      promise_in_japanese_trust_bonus: {value: 0.10, label: LAB}
+      broken_promise_trust_penalty: {value: 0.40, label: LAB}
+      initial_cabinet_stability: {value: 0.60, label: LAB}
+
+  japan_army:
+    name: Japanese army and hardline factions
+    catalog_role: ACT-JPN-MIL
+    control: independent
+    decisions:
+      posture: [cooperate, lobby_against, obstruct]
+    rule: >
+      Gains influence when the cabinet weakens, when the run continues unresolved and when the
+      Concord is attacked as a Thalassia bakufu. If the cabinet falls, the army becomes dominant
+      (Julian's fear in canon).
+    params:
+      initial_influence: {value: 0.30, label: LAB}
+      cabinet_fall_threshold: {value: 0.25, label: LAB}
+
+  sf_syndicate:
+    name: San Francisco private lenders
+    catalog_role: ACT-CAPITAL
+    control: independent
+    decisions:
+      subscription: [subscribe_full, subscribe_partial, refuse]
+    rule: >
+      Subscribes the private share when its appetite exceeds the perceived risk. A Japanese
+      government guarantee and a Concord tie (common authority over shared risks) reduce perceived
+      risk; a smaller public share raises it.
+    params:
+      guarantee_risk_reduction: {value: 0.20, label: LAB}
+      concord_tie_risk_reduction: {value: 0.15, label: LAB}
+
+  foreign_short_lenders:
+    name: Foreign short-term lenders outside Pacifican hands
+    catalog_role: ACT-CAPITAL
+    control: independent
+    holdings_musd:   # MODEL CR-024
+      london_acceptance_and_british_overseas: {value: 400, label: MODEL}
+      union_banks: {value: 250, label: MODEL}
+      continental_banks: {value: 100, label: MODEL}
+      shanghai_hong_kong_chinese_indian: {value: 50, label: MODEL}
+    decisions:
+      per_month: [renew, withdraw, return_if_stabilized]
+    rule: >
+      London withdraws first (canon), and Tokyo remembers it: London's withdrawal raises Japan's
+      grievance toward London. Lenders may return once Japan is visibly stabilized.
+
+# ---------------------------------------------------------------------------
+# Starting state, March 1927
+# ---------------------------------------------------------------------------
+world:
+  japan:
+    short_foreign_funding_musd: {value: 2000, label: MODEL}
+    share_not_renewed: {value: 0.75, label: MODEL}   # sampled around this; see uncertainty
+    bank_losses_musd: {value: 400, label: MODEL}
+    new_capital_musd: {value: 400, label: MODEL}
+    boj_lending_musd: {value: 295, label: MODEL}
+    external_need_six_weeks_imports_musd: {value: 497, label: MODEL}
+    grievance_toward_london: {value: 0.0, label: LAB}
+  pacifica:
+    concord_status: none          # none | provisional | consented | refused | lapsed
+    legality: lawful              # lawful | illegal_provisional_application | indemnified
+    public_credit_tolerance_musd: {value: 250, label: LAB}  # Senate's comfort level for public exposure
+
+# ---------------------------------------------------------------------------
+# Julian's levers. canon = the setting the storyline describes.
+# ---------------------------------------------------------------------------
+levers:
+  credit_size_musd:
+    options: [400, 500, 600, 750]
+    canon: 600            # MODEL CR-024
+  public_share:
+    options: [0.25, 0.333, 0.5]
+    canon: 0.333          # a third from the Treasury, MODEL CR-024
+  tie_to_concord:
+    options: [true, false]
+    canon: true           # the crisis brings the Concord to its decisive negotiation
+  consent_path:
+    options: [wait_for_senate, provisional_application, renegotiate_first]
+    canon: provisional_application   # APPROVED; illegal in substance
+  offer_month:
+    options: [1927-03, 1927-04, 1927-05]
+    canon_window: 1927-03 to 1927-05  # CR-021; exact month OPEN
+  promise_in_japanese:
+    options: [true, false]
+    canon: true           # Julian gives his word in Japanese
+  if_senate_refuses_loan:
+    options: [keep_word_by_prerogative, private_only, withdraw_offer]
+    canon: not_tested     # in canon the Senate votes the loan
+  concessions_1928:
+    options: [five_year_first_term, quota_review_at_renewal, delegates_half_each_chamber, polytechnic_audit]
+    multi_select: true
+    canon: [five_year_first_term, quota_review_at_renewal, delegates_half_each_chamber, polytechnic_audit]
+    label: CHECK          # storyline wording follows a PROPOSED — CR-022 tag; confirm the tag's scope
+
+# ---------------------------------------------------------------------------
+# Uncertainty, sampled once per world. All ranges LAB.
+# ---------------------------------------------------------------------------
+uncertainty:
+  share_not_renewed: {dist: uniform, low: 0.65, high: 0.85}
+  sf_syndicate_appetite: {dist: uniform, low: 0.40, high: 0.90}
+  army_opportunism: {dist: uniform, low: 0.10, high: 0.60}
+  senate_mood: {dist: uniform, low: 0.30, high: 0.70}
+  victoria_brokering_skill: {dist: uniform, low: 0.40, high: 0.80}
+  lenders_return_probability: {dist: uniform, low: 0.20, high: 0.50}
+  second_run_if_reserves_short: {dist: bernoulli, p: 0.35}
+  better_offer_appears: {dist: bernoulli, p: 0.05}   # canon: London and New York will not lend at that scale
+
+# ---------------------------------------------------------------------------
+# Scheduled premises (these do happen) and conditional events
+# ---------------------------------------------------------------------------
+events:
+  scheduled:
+    - {month: 1927-03, id: bad_loans_revealed, label: APPROVED, effect: runs begin; foreign lenders refuse renewal; London first}
+    - {month: 1927-04, id: takahashi_moratorium, label: APPROVED, effect: three weeks from 22 April buy time; no run pressure while in force}
+    - {month: 1927-06, id: june_foreign_payments_due, label: APPROVED, effect: unpaid without foreign credit or a chosen alternative}
+  conditional:
+    - id: ka_lokahi_declaration
+      label: APPROVED   # CR-029
+      when: consent_path == provisional_application
+      effect: Hawaiian and Philippine delegations declare for the Concord; no legal authority; small support effect on the Senate
+    - id: monterey_case
+      label: APPROVED
+      when: legality == illegal_provisional_application
+      effect: constitutional case filed; mooted if an Act of Indemnity passes before judgment
+      judgment_month: {value: 1929-01, label: LAB}   # outside the window unless the author moves it
+    - id: first_council_at_hayama
+      label: APPROVED
+      when: concord_status in [provisional, consented] and month >= 1928-01
+      effect: the Council of the Two Crowns meets; Hirohito hosts, Julian convenes and presides
+
+# ---------------------------------------------------------------------------
+# What each world reports at the end
+# ---------------------------------------------------------------------------
+measures:
+  - {id: june_payments_met, kind: bool}
+  - {id: japan_path, kind: category, values: [rescued, stopped_paying_abroad, yen_fell, banks_failed]}
+  - {id: credit_drawn_musd, kind: money}
+  - {id: public_drawn_musd, kind: money}
+  - {id: concord_status_end, kind: category, values: [none, provisional, consented, refused, lapsed]}
+  - {id: months_of_illegal_application, kind: count}
+  - {id: cabinet_survives, kind: bool}
+  - {id: army_influence_end, kind: score}
+  - {id: japan_trust_in_julian_end, kind: score}
+  - {id: senate_trust_in_executive_end, kind: score}
+  - {id: tate_bloc_end, kind: category, values: [cohesive, split, abstains]}
+  - {id: grievance_toward_london_end, kind: score}
+  - {id: monterey_case_end, kind: category, values: [none, pending, mooted, judgment]}
+
+# ---------------------------------------------------------------------------
+# Canon, for comparison only. The model must be able to produce this, but never forces it.
+# ---------------------------------------------------------------------------
+canon_reference:
+  - {when: 1927-03/05, what: Japan accepts on Julian's word given in Japanese; Saionji advises it, label: APPROVED}
+  - {when: 1927, what: $600m credit committed; about $497m drawn, $166m of it public, label: MODEL}
+  - {when: 1927, what: Senate votes the rescue loan but refuses the treaty; Tate leads the refusal, label: APPROVED}
+  - {when: 1927, what: Julian claims provisional application, illegal in substance, label: APPROVED}
+  - {when: 1927, what: Ka Lōkahi delegations declare for the Concord, label: APPROVED}
+  - {when: 1927, what: Japan's Emperor ratifies on conditional Privy Council advice; the Diet votes its quota, label: APPROVED}
+  - {when: 1928, what: Victoria wins two-thirds Senate consent and an Act of Indemnity, label: APPROVED}
+  - {when: 1928, what: Victoria calls on Tate; his bloc splits and he abstains, label: PROPOSED}
+  - {when: 1928, what: Monterey case mooted before judgment; first Council at Hayama, label: APPROVED}
+  - {when: 1929-1933, what: rebuilt banks repay in five instalments, outside this window, label: MODEL}
+
+# ---------------------------------------------------------------------------
+# Protected facts and open items the code must respect
+# ---------------------------------------------------------------------------
+protected:
+  - Hirohito does not know the Altai secret; no event or observation may reveal it.
+  - Takahashi stays in Tokyo and is not a common minister.
+  - At least one common minister is Japanese by law, conventionally the Navy.
+  - Julian takes no presidential style; the Concord has two co-equal parties.
+  - Generated histories are drafts and never change canon.
+
+open_items:
+  - Harlan Tate has no stable registry ID. The prototype uses the name only; the author decides whether to register him.
+  - Exact offer month within March-May 1927.
+  - Scope of the PROPOSED — CR-022 tag over the 1928 concessions sentence.
+  - Pacifica's 1927 Treasury cash is not used. Pin it read-only from the workbook only if a fiscal measure is wanted.
+  - Every LAB weight and range above is a first guess for tuning, not evidence.
