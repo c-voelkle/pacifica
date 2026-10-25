@@ -1,22 +1,22 @@
 # Pacifica Timeline Lab product vision
 
-**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.8**
+**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.9**
 
 Timeline Lab is a fast strategic wargame for developing the Pacifica plot. The author changes a decision, sees generated histories, inspects consequential choices and retains useful ideas with their assumptions. The same model searches for strong Pacifica strategies and for plausible routes to declared narrative conditions, while other actors respond on their own terms. Strategic success and the author's interest in a story are separate.
 
 The six authored timelines are financial regression references and comparator strategies. They do not define the available futures, and the author never has to write the outcome of a path in advance.
 
-## Changes in revision 0.8
+## Changes in revision 0.9
 
 | Design choice | Treatment |
 |---|---|
-| Conduct permissions | Every profile permits lawful action; supported exceptions add possibilities. Actual legality and independent choice remain separate. |
-| Story claims | Actor-generated histories differ from mechanically supported consequences of an author override. Both can inform writing, with explicit evidence labels. |
-| Experiment identity | Calculations, evaluations and branches share complete resolved input identity; matched external worlds remain separately identified. |
-| Open discovery | A bounded proposal method explores actor-admissible alternatives independently of strategic fitness, then selects causal candidates before pruning. |
-| Consequential agency | R0 traces a supported different choice to a material consequence and a different next dilemma, alongside a low-effect choice. |
-| Decision equivalence | Matching decisions requires the same actor/controller, private state, goals/preferences, visible history, policy settings and randomness. |
-| Delivery | M0 proves these bounded cases before optimized interfaces. The 76 requirements and 12 later phase gates retain their IDs and release sequence. |
+| Evidence for agency | Separate plausible alternatives, choices actually selected by the controller, and isolated causal consequences. A plausible forced choice can support conditional consequences, never a claim that the controller would choose it. |
+| Playable content | A reviewed ExperimentContentManifest distinguishes starting facts, live obligations, future reference outcomes, external assumptions and narrative constraints. |
+| Ambiguity | Preserve deliberately unresolved facts, including Noe's culpability, without sampling a secret answer. Supported suspicion can still drive action. |
+| Character-driven ideas | The first dilemma includes private commitments, selective disclosure, verification and persistent cooperation effects, allowing distinct plots with similar finances. |
+| Population effort | Start with the 1927–1928 rescue/Concord package. Budget 0.8–2 million tokens and 10–25 active AI hours for its data; several playable periods require an estimated 6–15 million tokens and 70–180 hours. |
+| Resources | Plan for 16 GB host RAM to start, 32 GB recommended, and 50 GB free SSD space; retain compact summaries and bound replay/trajectory storage. Figures are unmeasured estimates. |
+| Delivery | Preserve prior IDs and release order; add TL-077 content activation and TL-078 resource budgets. There are 78 requirements and 12 later phase gates. |
 
 ## Confirmed product choices
 
@@ -195,7 +195,7 @@ When probability distributions lack support, report robustness, regret and failu
 
 ## Conditions for credible results
 
-**Semantic and creative evidence.** R0 tests identity, claims/beliefs, observation-safe eligibility, competing reservations, additive conduct, decision reconstruction and applicability. Under matched external conditions, two procedure-generated choices must produce a material consequence difference and a different next dilemma; a low-effect choice shows where circumstances dominate. Open exploration must generate a distinctive dominated route from its proposal family, rather than receive the route as prepared input. The author reviews prepared/open/held-out tasks for useful ideas after assumption disclosure, branch clarity and repair effort.
+**Semantic and creative evidence.** R0 tests identity, claims/beliefs, observation-safe eligibility, resource resolution, additive conduct, reconstruction and applicability. Separate plausibility, controller-generation and isolated-consequence evidence. With continuation rules unchanged, two plausible actions must expose a material consequence and different next dilemma; a separate low-effect contrast shows limited agency. A private commitment/disclosure chain must yield causally distinct ideas even with similar finances. Open proposals generate a distinctive dominated route without receiving it as prepared input; the author reviews prepared/open/held-out tasks, assumptions and repair effort.
 
 **Credibility starts in R0.** Each displayed quantity identifies ownership, geography, units, source/assumption IDs, producing module, coverage and fidelity. Unsupported outcomes remain unavailable or explicitly named proxies. Monthly or finer timing is required wherever it changes liquidity or an action's feasibility.
 
@@ -237,6 +237,8 @@ The author should be able to see why a policy looks attractive, the assumptions 
 
 ## Speed and scale
 
+A first usable installation and workspace is provisionally 10–30 GB including recent results and temporary headroom. Start with 50 GB free SSD space; sustained campaigns may use 50–100 GB or more. Host RAM of 16 GB is a bounded starting target and 32 GB is recommended; 64 GB is optional for larger parallel workloads. These are capacity estimates, not measured minimum requirements or guarantees that the throughput targets below fit those budgets. The scheduler must bound total application memory, temporary spill and retained output under TL-078. The core does not require local language-model weights or a GPU. See [population and capacity planning](data-population-plan.md#disk-and-memory-planning).
+
 Speed is a product feature. M0 must measure a realistic bounded question before targets become commitments.
 
 | Workload | Provisional target |
@@ -255,6 +257,8 @@ Batch result files outside simulation time steps. Retained manifests and a singl
 
 ## Scope of the first releases
 
+The [data-population plan](data-population-plan.md) separates name indexing, the first executable dilemma, a whole-story semantic catalog and several playable periods. The planning midpoints are 1.5 million tokens/18 active AI hours for first-slice data and 10 million/120 hours for broader playable coverage. These cumulative alternatives exclude building the simulator/UI and new domain mechanisms; complete dynamic coverage of 1824–1932 is a larger scope. Re-estimate after the first measured package.
+
 | Release | What it delivers |
 |---|---|
 | R0 bounded dramatic sketch | One supported dilemma with attributable decisions, predicate/time semantics, native checks, actor-scoped conduct, settlement, complete branches, open causal candidates, spontaneous bookmarks and author evaluation |
@@ -266,10 +270,10 @@ A shorter slice within 1904–1932 is permitted when its question, active ontolo
 
 M0 selects the dramatic question and author evaluation protocol, specifies the semantic/adjudication contracts and applicability envelopes, checks independent financial cases and measures realistic speed. M1/R0 demonstrates causal alternatives, consequential agency, a selected belief-driven plan change, a branch and a retained interesting history before broad tooling or search-scale commitments.
 
-M0 first proves additive conduct, honest story claims and complete experiment identity in the existing semantic prototype. It also fixes the bounded proposal method and choice-consequence-next-dilemma demonstration, including a low-effect control, before optimized engine interfaces. The author protocol includes prepared questions, open exploration without a target, a supported question withheld from tuning and a notes/manual-workflow comparison. Record new causal ideas, usefulness after assumption disclosure, time, explanation gaps and repair. A revealed task used for tuning loses held-out status. Author judgment controls acceptance; a failed gate prompts a design or scope revision.
+M0 activates a traced 1927–1928 rescue/Concord package and proves the bounded semantics before optimized engine interfaces. Future authored outcomes remain reference material unless explicitly selected as narrative conditions; they never force generated events or grant foresight. Protect deliberate ambiguity, test a small relational repertoire and separate all three agency evidence dimensions. Fix prepared/open/held-out tasks and a notes/manual-workflow comparator, then measure content-preparation effort and real memory/disk/latency. Author judgment controls usefulness acceptance; a failed gate prompts a design or scope revision.
 
 R1 demonstrates at least 1,000 candidate policies and 100,000 generated paths under the declared benchmark or an explicitly revised scope, plus a repeated author review and bounded narrative-condition search. Strategic assessment and targeted story selection retain separate denominators and claims.
 
 The [objective sheet](objectives-and-constraints.md), [action and actor catalog](action-and-actor-catalog.md), [ontology](ontology.md) and [structured draft catalog](draft-model-catalog.json) supply definitions to narrow for the first question.
 
-See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.8 contracts and release gates are synchronized.
+See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.9 contracts and release gates are synchronized.

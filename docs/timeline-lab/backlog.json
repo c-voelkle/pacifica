@@ -237,6 +237,28 @@
       "references": [
         "https://github.com/c-voelkle/pacifica/tree/4a0dd6367cd23d3f4cc0bd7cecbcd489095ac730/docs/timeline-lab"
       ]
+    },
+    {
+      "id": "U16",
+      "kind": "user_request",
+      "description": "Incorporate v0.8 review recommendations into v0.9, include the data-population plan and effort estimates, synchronize the backlog and update draft PR 8; estimate disk and memory requirements."
+    },
+    {
+      "id": "S15",
+      "kind": "design_review",
+      "description": "Review of b98837a: separate plausibility/generation/causal effects; explicit prose-to-start-state activation; protected ambiguity; executable relational actions; source-sized population plan and effort ranges.",
+      "references": [
+        "https://github.com/c-voelkle/pacifica/tree/b98837ac0c0be3f3cd183c8060b8ce78fcf1b355/docs/timeline-lab"
+      ]
+    },
+    {
+      "id": "S16",
+      "kind": "resource_planning",
+      "description": "Unmeasured capacity estimates derived from explicit state/result dimensions and retained-output policy; DuckDB guidance informs bounded query memory and temporary storage, not the estimated application footprint.",
+      "references": [
+        "https://duckdb.org/docs/2.0/guides/performance/how_to_tune_workloads",
+        "https://duckdb.org/docs/2.0/configuration/pragmas"
+      ]
     }
   ],
   "decisions": [
@@ -262,8 +284,8 @@
       "id": "D-003",
       "topic": "Bounded pilot question",
       "status": "proposed",
-      "recommended": "Begin with one Japan financing/commitment dilemma, a few indispensable actors, selected character beliefs/intentions, explicit outside conditions and monthly cash where material.",
-      "impact": "M0 chooses the dramatic question and supported breach/consequence case; only the active semantic subset and its mechanisms are required.",
+      "recommended": "Use the 1927–1928 Japan rescue and Concord dilemma for the first content package, with few active decision-makers, selected commitments/information and material monthly cash.",
+      "impact": "M0 fixes the exact start phase, horizon, mechanisms and dependency closure; the canonical 1928 outcome is a reference unless explicitly selected as an author condition.",
       "owner_role": "project author",
       "alternatives": []
     },
@@ -272,7 +294,7 @@
       "topic": "Performance and sampling budgets",
       "status": "proposed_unmeasured",
       "recommended": "Target 1,000 sketch paths in 1 second at p95, 10,000 in 10 seconds, and 100,000 base evaluations in 5 minutes on 8 workers/16 GB. Benchmark realistic queues/checks/logs/delivery before commitment.",
-      "impact": "Pin hardware and hot/cold timing; 100 worlds per policy is initial screening. Extra sampling, response/stress and final assessment have explicit budgets and precision rules.",
+      "impact": "Keep throughput targets provisional. Budget memory across processes and disk across retained/temporary artifacts; measure on the 16-GB benchmark and recommend 32-GB RAM with 50-GB free SSD space for comfortable author use, subject to retention.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -398,7 +420,7 @@
       "topic": "Semantic and intention scope",
       "status": "incorporated_design_subset_open",
       "recommended": "Register predicate/state/time semantics and immutable revisions; bind choices to a DecisionContext and executed DecisionRecord using selected beliefs, goals and commitments.",
-      "impact": "M0 proves decision ownership, dated reports and a bounded choice-consequence-next-dilemma contrast plus a low-effect case; personal motives remain reviewed assumptions.",
+      "impact": "M0 separates alternative plausibility, actual controller selection and isolated one-action effects; protects deliberate ambiguity and activates only sourced or explicitly assumed content.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -434,7 +456,7 @@
       "topic": "Creative usefulness gate",
       "status": "incorporated_design_protocol_open",
       "recommended": "Agree prepared, open-ended and held-out writing tasks plus a manual-workflow comparator; demonstrate causal novelty and author usefulness before expansion.",
-      "impact": "Record new ideas after assumption disclosure, a supported agency contrast and low-effect case, time and repair; tuned demonstrations and automatic scores cannot replace author acceptance.",
+      "impact": "Review generated intention-sensitive decisions and separately supported conditional causal contrasts, relational novelty and a low-effect case; manual comparison and held-out tasks remain required.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     }
@@ -443,7 +465,7 @@
     {
       "id": "M0",
       "title": "Define the dramatic question and prove the bounded model",
-      "exit": "Agree one bounded financing/commitment dilemma and prove a small semantic prototype before fixing optimized interfaces: dated information and decision reasons, additive conduct/legality, claim admissibility, complete experiment identity, independent open proposals and a matched choice-consequence-next-dilemma contrast with a low-effect case. Pin prepared/open/held-out author tasks and the manual comparator; derive independent financial checks and measure realistic speed.",
+      "exit": "Activate a traced 1927–1928 rescue/Concord content package and prove the bounded semantic prototype: protected ambiguity, temporal content roles, dated information, independent choice, additive conduct and resource settlement. Separate plausibility/controller/consequence evidence, demonstrate a relational chain and low-effect contrast, and measure real data-preparation effort plus peak memory/disk/latency before optimized interfaces.",
       "focus_requirements": [
         "TL-001",
         "TL-003",
@@ -460,14 +482,16 @@
         "TL-068",
         "TL-070",
         "TL-074",
-        "TL-076"
+        "TL-076",
+        "TL-077",
+        "TL-078"
       ]
     },
     {
       "id": "M1",
       "title": "Deliver a useful bounded strategic sketchpad",
       "release": "R0",
-      "exit": "Pass bounded semantic/reference cases and decision branches. Generate and surface a causally distinct dominated route from the declared open proposal family, retain conditional ideas with honest labels, and demonstrate supported consequential agency plus a low-effect choice. Pass author review on prepared/open/held-out tasks with assumptions and repair costs exposed.",
+      "exit": "Pass content activation, semantic/reference, isolated-action and resource-budget cases. Generate distinct open candidates, including a dominated route and relational alternatives with similar finances. Pass prepared/open/held-out author tasks with conditional evidence, assumptions and repair costs explicit.",
       "focus_requirements": [
         "TL-005",
         "TL-006",
@@ -1944,7 +1968,9 @@
         "U6",
         "U7",
         "S9",
-        "U12"
+        "U12",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -2066,7 +2092,8 @@
           "Eligibility visible to an actor uses only its observations, beliefs and public rules; actual feasibility and consent resolve through TL-070.",
           "For conduct bound to lawful, known unauthorized attempts are unavailable and actually unauthorized execution is rejected. Supported apparent_authority and breach_exploration bindings are separate; neither invents authority or consent.",
           "Insufficient actual resources produce refusal, partial execution, delay or failure under a registered rule; neither profile creates free resources or silent fallback success.",
-          "Action completion respects delays; a proposal is not guaranteed acceptance. Supported combinations and timing need not appear in the six fixtures."
+          "Action completion respects delays; a proposal is not guaranteed acceptance. Supported combinations and timing need not appear in the six fixtures.",
+          "The active R0 slice includes the bounded relational action contract: scoped private commitment, disclosure/withholding of possessed information, verification, and an independently responding counterparty. Bind formation, channel, timing, cost and persistent consequences; unsupported relationship effects stay disabled."
         ]
       },
       "depends_on": [
@@ -2081,7 +2108,9 @@
         "U13",
         "S11",
         "U14",
-        "S13"
+        "S13",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2724,7 +2753,8 @@
           "Draws, event decisions and numeric results satisfy TL-011/TL-047 and information-boundary tests.",
           "Each field binding declares units, indexing, initialization and update ownership; activation masks and queue/capacity overflow have explicit failure behavior rather than truncation.",
           "Profiling reports resolution/compilation, modules, response/queue logic, summaries, persistence and delivery with peak memory.",
-          "NumPy batching and Numba kernels are compared on actual data; no rule requires every branch to be forced into array masks."
+          "NumPy batching and Numba kernels are compared on actual data; no rule requires every branch to be forced into array masks.",
+          "World batches and worker counts obey the aggregate TL-078 memory budget; reducing concurrency may change timing but not fixed-workload logical results or coverage."
         ]
       },
       "depends_on": [
@@ -2736,7 +2766,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3004,7 +3036,8 @@
           "A single catalog coordinator registers only durable completed artifacts; an atomic rename alone is not claimed to transact across files, Git and DuckDB.",
           "Retained run manifests rebuild the index; incomplete/orphan files cannot appear as complete results.",
           "Nonstored details replay in the pinned environment and reconcile to saved summaries; coverage and error counts survive recovery.",
-          "Persist candidate-selection configuration, coverage/eviction and reconstructible references before strategic pruning; MetricSample tables remain distinct from delivered Observation records and population membership survives recovery."
+          "Persist candidate-selection configuration, coverage/eviction and reconstructible references before strategic pruning; MetricSample tables remain distinct from delivered Observation records and population membership survives recovery.",
+          "Apply TL-078 retention and resource budgets across stored histories, replay inputs, query spill and publication; reaching a budget preserves pinned bookmarks and valid prior manifests."
         ]
       },
       "depends_on": [
@@ -3016,7 +3049,9 @@
         "S9",
         "U12",
         "U14",
-        "S13"
+        "S13",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3039,7 +3074,8 @@
           "Record contracts and invariant IDs agree with ontology.md and the structured catalog; unsupported record effects fail before execution.",
           "An active PredicateDefinition declares signatures, cardinality, target intervals, state keys, authoritative writers, missingness and query evaluation. Reject incompatible overlapping resolved values; explicit interval splitting/supersession retains immutable prior revisions.",
           "A March cash report received in June and an older report arriving later cannot rewrite current cash or silently replace a belief about a different target period; event/receipt/target/belief/record times remain separately inspectable.",
-          "Observation payload snapshots and hashes remain unchanged when world facts or author provenance change. MetricSample is an author result record and enters an actor view only through a declared observation channel."
+          "Observation payload snapshots and hashes remain unchanged when world facts or author provenance change. MetricSample is an author result record and enters an actor view only through a declared observation channel.",
+          "Each proposition resolves its versioned resolution policy: resolve_from_evidence, author_decision_required, preserve_ambiguity or outside_coverage. Concealed resolved truth differs from nonresolution required by the author. Import, sampling, adjudication, explanation and narration cannot invent a value for protected ambiguity; affected truth-dependent mechanisms report unsupported while valid suspicion/observation-dependent behavior continues."
         ]
       },
       "depends_on": [
@@ -3052,7 +3088,9 @@
         "U13",
         "S11",
         "U14",
-        "S13"
+        "S13",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3076,7 +3114,7 @@
           "A DecisionContext pins person/collective, represented principal or personal capacity, dated roles/authority, resource ownership, control scope, permitted information, preferences and procedure. The controller cannot silently override an enabled personal commitment model.",
           "A DecisionRecord identifies considered alternatives within the procedure's declared scope, used beliefs/goals/commitments, trade-offs/rejection reasons and randomness. Changing a relevant belief or commitment changes the selected example decision under the stated rule; merely attaching a motive afterward fails.",
           "Officeholder substitution preserves institutional assets/liabilities while applying explicit personal-state rules. Plan status records distinguish external frustration, voluntary abandonment and success as perceived by the actor versus actual goal satisfaction.",
-          "An author-forced choice may support a labelled consequence experiment but cannot pass the actor-generated or meaningful-agency gate. A supported policy/premise variant must produce the choice through its actual procedure; attaching plausible reasons to an override is insufficient."
+          "Record choice plausibility, controller generation and consequence evidence separately. A plausibility assessment cites the actor-visible state, goals/commitments, capability and conduct rules and reports supported, unsupported or unresolved. It does not fabricate executed motives or imply choice probability. An override remains conditional, but an independently plausible isolated intervention may support the consequence component of agency review."
         ]
       },
       "depends_on": [
@@ -3091,7 +3129,9 @@
         "U14",
         "S13",
         "U15",
-        "S14"
+        "S14",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3184,7 +3224,7 @@
           "Imposed outcomes are excluded from ordinary policy-success assessment; selection/conditioning and branch modes remain in exports.",
           "Checkpoints retain predicate revisions, immutable payloads, decision contexts, controller state, conduct bindings and population lineage. A one-off author decision override is labeled; it cannot be given a fabricated actor motive, and continuation follows the declared policy/plan update rule.",
           "Preserve selection_origin and inherited intervention lineage. An author override is mechanically inspectable and bookmarkable but remains conditional; a new procedure-generated rerun under explicit policy/premise assumptions is separate evidence, never a relabelled parent.",
-          "R0 includes one local agency contrast: execute two actor-admissible choices from a complete decision state under declared allowed policy/procedure variation and matched external conditions, recompute endogenous consequences, and retain the different next dilemmas. Include a supported alternative with little or no material consequence difference; broad finalist analysis remains R1 under TL-050."
+          "R0 isolates one attempted action at a complete decision checkpoint: compare two independently supported plausible alternatives, hold continuation policy settings and other mechanisms fixed, match external conditions and other random inputs, and recompute endogenous consequences and responses. Record changed fields and unchanged fingerprints. Include a low-effect contrast. Changing a continuing policy or character premise is separately labelled and cannot stand in for the isolated-action test. The low-effect contrast shows little or no material difference within the declared horizon."
         ]
       },
       "depends_on": [
@@ -3202,7 +3242,9 @@
         "U14",
         "S13",
         "U15",
-        "S14"
+        "S14",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3225,7 +3267,8 @@
           "A bookmark can have null query/candidate references and a spontaneous selection reason; it retains immutable policy/history, assumptions and assessment/profile status after pruning and cluster changes.",
           "R0 predicates use explicit temporal rules and return satisfied, violated, unresolved or unsupported. A history stopping in 1930 cannot satisfy no-default-through-1932. Candidate access never transfers future author predicates to actors.",
           "Every filtered/candidate population declares membership, unit, selection and weighting. Narrative interest is neither probability nor strategic utility.",
-          "Every query declares claim_basis, default actor_generated. Candidates, bookmarks and exports retain that basis and override/imposed/provisional lineage. Explicit mechanical_consequence exploration may return matching conditional ideas but cannot silently satisfy actor-generated discovery or the author agency gate."
+          "Every query declares claim_basis, default actor_generated. Candidates, bookmarks and exports retain that basis and intervention lineage. Mechanical-consequence ideas remain conditional and cannot certify actor-generated discovery; independently plausible isolated interventions can supply the consequence component of the separate author agency gate.",
+          "At least two candidates with similar financial outcomes differ through a supported commitment/disclosure/belief/choice/cooperation chain. Persistent relational consequences arise from registered rules rather than labels attached by the story selector."
         ]
       },
       "depends_on": [
@@ -3239,7 +3282,9 @@
         "U14",
         "S13",
         "U15",
-        "S14"
+        "S14",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -3313,7 +3358,7 @@
       "priority": "Must",
       "release": "R0",
       "title": "Demonstrate usefulness for plot development",
-      "statement": "Release evidence shall include author evaluation of procedure-generated choices, a bounded matched choice-to-consequence-to-next-dilemma contrast and a low-effect control, useful causal alternatives and retained ideas on prepared/open/held-out writing tasks with a manual-workflow comparator, alongside technical correctness and performance.",
+      "statement": "Release evidence shall separately demonstrate plausible alternatives, intention-sensitive controller generation and isolated choice-to-consequence-to-next-dilemma effects with a low-effect contrast, plus useful ideas on prepared/open/held-out tasks against a manual-workflow comparator.",
       "acceptance": {
         "id": "AC-075",
         "given": "A predeclared set of real Pacifica writing questions including one financing/commitment dilemma",
@@ -3325,7 +3370,8 @@
           "Retained ideas carry unresolved assumptions and consequences; failure of the agreed author gate leads to a scope/design revision before broad tooling or search-scale commitments.",
           "The protocol reserves at least one supported-domain writing question from model/output tuning, includes an open-ended task with no desired ending, and compares against the author's notes/manual workflow with task/time scope recorded. Once revealed and used for tuning, that question is no longer held out.",
           "The author assesses previously unconsidered causal possibilities, inspectable decision motives and ideas still useful after assumption disclosure. A prepared financing demonstration alone cannot pass the usefulness gate; no automated literary score replaces the author's decision.",
-          "Before tuning the R0 demonstration, declare a local horizon and materiality rule. Trace an understandable procedure-generated choice to a materially different goal/obligation/relationship/available choice and then a different next dilemma; also inspect a supported choice with little or no effect under matched conditions. Record both in author review; an override or retrospective motive cannot pass consequential-agency evidence."
+          "Predeclare horizon and materiality. Demonstrate intention-sensitive controller generation separately from an isolated one-action comparison with unchanged continuation rules. An author-selected action with independently supported plausibility may establish conditional consequences and a different next dilemma; it never proves actor selection or reliability. Include a low-effect contrast, and reject missing plausibility, retrospective motives or changes to several policy rules presented as one-choice causation. The low-effect contrast shows little or no material difference.",
+          "The author gate includes a relational plot idea whose causal distinction survives similar financial outcomes and whose uncertainty/assumptions remain visible."
         ]
       },
       "depends_on": [
@@ -3336,7 +3382,8 @@
         "TL-072",
         "TL-073",
         "TL-074",
-        "TL-076"
+        "TL-076",
+        "TL-077"
       ],
       "sources": [
         "U13",
@@ -3344,7 +3391,9 @@
         "U14",
         "S13",
         "U15",
-        "S14"
+        "S14",
+        "U16",
+        "S15"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -3401,16 +3450,84 @@
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-077",
+      "title": "Prepare and activate traceable experiment content",
+      "epic": "Data preparation",
+      "priority": "Must",
+      "release": "R0",
+      "statement": "A staged ingestion workflow shall reconcile canonical sources into a versioned ExperimentContentManifest with explicit temporal roles, authority, actor information, ambiguity policies and complete active dependency dispositions before a slice runs.",
+      "acceptance": {
+        "id": "AC-077",
+        "given": "Pinned storyline/registry/approval sources with aliases, superseded claims, future outcomes, outstanding obligations and protected ambiguity",
+        "when": "A bounded content package is imported, reviewed, activated and later updated",
+        "then": [
+          "Pin source commits/hashes and extraction rules; retain exact source-span and authority/supersession links. Reuse stable character IDs and legacy crosswalks; retired/provisional identities remain distinct and repeated import is idempotent.",
+          "At the start date distinguish initial facts, active obligation schedules, reference outcomes, explicit external assumptions and narrative constraints. A future authored settlement is neither automatically enqueued nor actor knowledge; a future payment obligation remains due without guaranteeing payment.",
+          "Activate only a declared slice. Every transitive dependency is sourced, an explicit permitted assumption, excluded with affected claims disabled, or blocking unresolved; reject missing owners, units, dates, authority, information initialization or mechanism bindings that active claims need.",
+          "Protected ambiguity and local APPROVED/PROPOSED/OPEN/MODEL labels survive extraction. A name index or valid JSON alone cannot pass the playable-content gate. Sources remain read-only; model adoption is separate from canon approval.",
+          "A source revision produces an impact report, proposed changes and a new reviewed manifest; old runs retain their original bundle. Record unresolved questions and prevent silent promotion or duplicate identities.",
+          "Measure actual extraction/review/repair work on the first package, reporting token accounting scope and active AI time separately from author waiting time. Re-estimate larger population work before expansion."
+        ]
+      },
+      "depends_on": [
+        "TL-001",
+        "TL-003",
+        "TL-027",
+        "TL-036",
+        "TL-038",
+        "TL-068"
+      ],
+      "sources": [
+        "U16",
+        "S15"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-078",
+      "title": "Bound memory disk use and result retention",
+      "epic": "Operations",
+      "priority": "Must",
+      "release": "R0",
+      "statement": "Runs shall declare batch/worker, application-memory, output-retention and temporary-disk budgets; the scheduler shall enforce aggregate limits, preserve pinned evidence and recover cleanly when a budget or free-space limit is reached.",
+      "acceptance": {
+        "id": "AC-078",
+        "given": "A bounded local installation, a large proposed campaign, pinned bookmarks and constrained RAM/free disk",
+        "when": "The campaign is admitted, executed, queried, interrupted and cleaned up",
+        "then": [
+          "Estimate state/queue/buffer/output dimensions before admission, distinguish persistent results from temporary/query spill space, and show projected versus observed usage. System RAM and application budget are separate; model defaults cannot assume all host memory is free.",
+          "Batch worlds and cap workers plus per-process/thread budgets under one total allocation. Measure parent, workers, UI/query service and queues/buffers; a DuckDB memory_limit alone is not a whole-application RSS guarantee.",
+          "On pressure, reduce future batch/concurrency, pause at a safe boundary or refuse the run with a reason. Never truncate queues, omit outcomes or silently lower fidelity. Existing correctness/replay contracts still hold after adaptation.",
+          "Summaries and bounded candidates are the default; full trajectories are explicit opt-ins with projected storage. Preserve all pinned manifests, bookmark assets and replay dependencies. Cleanup removes only unpinned reachable-set-safe disposable artifacts under a declared policy, never the only copy of sources or saved results.",
+          "Low disk or temporary-space exhaustion leaves prior complete results readable and marks the current run incomplete. Report a clean recovery path and validate quotas/free-space headroom before publishing.",
+          "M0 records peak process-tree memory, persistent and temporary bytes and cold/warm latency on realistic workloads. Disk/RAM figures in the planning document remain estimates until these measurements; the existing 8-worker/16-GB performance target remains provisional."
+        ]
+      },
+      "depends_on": [
+        "TL-011",
+        "TL-032",
+        "TL-059",
+        "TL-067"
+      ],
+      "sources": [
+        "U16",
+        "S16"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
     }
   ],
-  "revision": "0.8",
+  "revision": "0.9",
   "release_counts": {
-    "R0": 47,
+    "R0": 49,
     "R1": 18,
     "R2": 9,
     "R3": 2
   },
-  "requirement_count": 76,
+  "requirement_count": 78,
   "phase_gate_count": 12,
   "verification": {
     "status": "documentation_consistency_only",
@@ -3431,12 +3548,16 @@
       "Preserved fixture identity and documentation-only paths",
       "Decision/predicate/search/profile/population contract agreement",
       "Preserved requirement, acceptance, record and invariant identities",
-      "All six v0.7 review items traced with prior history retained",
       "Additive conduct and claim admissibility agreement",
       "Shared experiment/evaluation identity and decision-equivalence agreement",
-      "Independent proposal and bounded R0 agency contracts"
+      "Independent proposal and bounded R0 agency contracts",
+      "All six v0.8 review/request items traced",
+      "Content manifest temporal roles and ambiguity protection",
+      "Three agency evidence dimensions and isolated-action scope",
+      "Population estimate and resource arithmetic consistency",
+      "New content/resource requirements and dependencies synchronized"
     ],
-    "documentation_revision": "0.8"
+    "documentation_revision": "0.9"
   },
   "demonstrations": [
     {
@@ -3702,7 +3823,7 @@
     },
     {
       "id": "29",
-      "description": "Force a refusal as an author override: retain its mechanically supported consequences as conditional, but reject it as actor-generated or agency evidence. Separately regenerate a choice under explicit supported policy/premise variants and preserve the distinct claim scope.",
+      "description": "Force a refusal: retain conditional consequences but do not claim controller generation. A separate plausibility assessment can qualify an isolated action intervention for consequence evidence; unsupported motives cannot. Regenerated policy/premise variants keep distinct claim scopes.",
       "release": "R0 classification; R1 search statuses",
       "requirements": [
         "TL-069",
@@ -3732,31 +3853,69 @@
     },
     {
       "id": "32",
-      "description": "Fork one decision under matched external conditions: two procedure-generated alternatives change a material consequence and the next dilemma. Also inspect a supported low-effect choice to separate agency from circumstances.",
+      "description": "Compare two independently plausible actions at one checkpoint with unchanged continuation rules and matched other inputs; trace the changed consequence and next dilemma, plus a low-effect contrast. Test intention-sensitive controller generation separately.",
       "release": "R0",
       "requirements": [
         "TL-069",
         "TL-072",
         "TL-075"
       ]
+    },
+    {
+      "id": "33",
+      "description": "Hold continuation policy and all other mechanisms fixed while changing one plausible action; a separate policy-rule change must be labelled a policy comparison. Generation evidence and conditional consequence evidence cannot substitute for each other.",
+      "release": "R0",
+      "requirements": [
+        "TL-069",
+        "TL-072",
+        "TL-075"
+      ]
+    },
+    {
+      "id": "34",
+      "description": "Activate a 1927 snapshot: the authored 1928 settlement is reference-only, an existing debt schedule remains due, and no actor knows later events by import. Re-import is idempotent; source correction creates a new bundle and dependency-impact report.",
+      "release": "R0",
+      "requirements": [
+        "TL-077",
+        "TL-068",
+        "TL-038"
+      ]
+    },
+    {
+      "id": "35",
+      "description": "Preserve a locked unresolved culpability while characters react to supported testimony and suspicion. Import, sampling, queries and explanations cannot choose a secret culprit; a truth-dependent mechanism is withheld without suppressing valid unrelated behavior.",
+      "release": "R0",
+      "requirements": [
+        "TL-068",
+        "TL-077"
+      ]
+    },
+    {
+      "id": "36",
+      "description": "A scoped private commitment, selective disclosure and belief update change a costly decision, cooperation and the next dilemma; two candidates remain causally distinct despite similar financial outcomes.",
+      "release": "R0",
+      "requirements": [
+        "TL-042",
+        "TL-069",
+        "TL-073",
+        "TL-075"
+      ]
+    },
+    {
+      "id": "37",
+      "description": "Run and query under low RAM/disk budgets, adapt concurrency or stop cleanly, then recover. Preserve all outcomes/status counts and pinned replay/bookmark assets; measure process-tree peak memory and retained/temporary bytes.",
+      "release": "R0",
+      "requirements": [
+        "TL-078",
+        "TL-059",
+        "TL-067",
+        "TL-032"
+      ]
     }
   ],
   "review_traceability": [
     {
-      "recommendation": "Make conduct permissions additive and legality independent",
-      "requirements": [
-        "TL-071",
-        "TL-043"
-      ],
-      "documents": [
-        "ontology.md",
-        "action-and-actor-catalog.md",
-        "objectives-and-constraints.md",
-        "draft-model-catalog.json"
-      ]
-    },
-    {
-      "recommendation": "Separate actor-generated claims from overridden consequences",
+      "recommendation": "Separate plausibility, controller selection and isolated consequences",
       "requirements": [
         "TL-069",
         "TL-072",
@@ -3765,59 +3924,73 @@
       ],
       "documents": [
         "ontology.md",
-        "requirements.md",
-        "model-architecture.md"
+        "model-architecture.md",
+        "requirements.md"
       ]
     },
     {
-      "recommendation": "Share complete resolved-experiment identity across calculations and evaluations",
+      "recommendation": "Prepare source prose as explicit playable starting states",
       "requirements": [
-        "TL-011",
-        "TL-055",
-        "TL-074"
+        "TL-077",
+        "TL-068",
+        "TL-038"
       ],
       "documents": [
+        "data-population-plan.md",
         "ontology.md",
         "model-architecture.md",
-        "draft-model-catalog.json"
+        "requirements.md"
       ]
     },
     {
-      "recommendation": "Generate open alternatives independently of strategic fitness",
+      "recommendation": "Protect deliberate narrative ambiguity",
       "requirements": [
+        "TL-068",
+        "TL-077"
+      ],
+      "documents": [
+        "ontology.md",
+        "data-population-plan.md",
+        "action-and-actor-catalog.md"
+      ]
+    },
+    {
+      "recommendation": "Execute relational actions that produce character-driven plot differences",
+      "requirements": [
+        "TL-042",
         "TL-073",
-        "TL-048"
+        "TL-075"
       ],
       "documents": [
+        "action-and-actor-catalog.md",
         "product-vision.md",
         "ontology.md",
         "model-architecture.md"
       ]
     },
     {
-      "recommendation": "Prove consequential agency with a bounded R0 contrast and low-effect case",
+      "recommendation": "Include measured source inventory and scoped population effort estimates",
       "requirements": [
-        "TL-072",
-        "TL-075",
-        "TL-050"
+        "TL-077"
       ],
       "documents": [
+        "data-population-plan.md",
         "product-vision.md",
-        "requirements.md",
-        "ontology.md",
-        "model-architecture.md"
+        "requirements.md"
       ]
     },
     {
-      "recommendation": "Align all decision-equivalence qualifications",
+      "recommendation": "Estimate disk and RAM and enforce bounded resource use",
       "requirements": [
-        "TL-011",
-        "TL-043"
+        "TL-078",
+        "TL-059",
+        "TL-067"
       ],
       "documents": [
-        "requirements.md",
-        "ontology.md",
-        "model-architecture.md"
+        "data-population-plan.md",
+        "model-architecture.md",
+        "product-vision.md",
+        "requirements.md"
       ]
     }
   ],
@@ -4039,6 +4212,89 @@
             "ontology.md",
             "model-architecture.md",
             "requirements.md"
+          ]
+        }
+      ]
+    },
+    {
+      "revision": "0.8",
+      "recommendations": [
+        {
+          "recommendation": "Make conduct permissions additive and legality independent",
+          "requirements": [
+            "TL-071",
+            "TL-043"
+          ],
+          "documents": [
+            "ontology.md",
+            "action-and-actor-catalog.md",
+            "objectives-and-constraints.md",
+            "draft-model-catalog.json"
+          ]
+        },
+        {
+          "recommendation": "Separate actor-generated claims from overridden consequences",
+          "requirements": [
+            "TL-069",
+            "TL-072",
+            "TL-073",
+            "TL-075"
+          ],
+          "documents": [
+            "ontology.md",
+            "requirements.md",
+            "model-architecture.md"
+          ]
+        },
+        {
+          "recommendation": "Share complete resolved-experiment identity across calculations and evaluations",
+          "requirements": [
+            "TL-011",
+            "TL-055",
+            "TL-074"
+          ],
+          "documents": [
+            "ontology.md",
+            "model-architecture.md",
+            "draft-model-catalog.json"
+          ]
+        },
+        {
+          "recommendation": "Generate open alternatives independently of strategic fitness",
+          "requirements": [
+            "TL-073",
+            "TL-048"
+          ],
+          "documents": [
+            "product-vision.md",
+            "ontology.md",
+            "model-architecture.md"
+          ]
+        },
+        {
+          "recommendation": "Prove consequential agency with a bounded R0 contrast and low-effect case",
+          "requirements": [
+            "TL-072",
+            "TL-075",
+            "TL-050"
+          ],
+          "documents": [
+            "product-vision.md",
+            "requirements.md",
+            "ontology.md",
+            "model-architecture.md"
+          ]
+        },
+        {
+          "recommendation": "Align all decision-equivalence qualifications",
+          "requirements": [
+            "TL-011",
+            "TL-043"
+          ],
+          "documents": [
+            "requirements.md",
+            "ontology.md",
+            "model-architecture.md"
           ]
         }
       ]

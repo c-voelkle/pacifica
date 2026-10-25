@@ -1,12 +1,12 @@
 # Pacifica Timeline Lab requirements
 
-**Draft for review · 25 October 2026 · Requirements version 0.8**
+**Draft for review · 25 October 2026 · Requirements version 0.9**
 
 Timeline Lab is a strategic wargame and plot-exploration tool. The author sketches decisions, inspects causal alternatives and retains useful histories; campaigns search strong adaptive Pacifica strategies and supported routes to declared narrative conditions. Strategic objectives, actor intentions and author preferences remain separate. The author controls Pacifica in ordinary policy search; other actors respond independently.
 
 The [product vision](product-vision.md) defines this end goal, the researched measurement framework and the intended user experience. The six authored timelines are financial regression references and comparators, not the space of possible outcomes.
 
-Strategy discovery, multiple objectives, independent other actors and Excel-free execution remain confirmed goals. Revision 0.8 incorporates the v0.7 review: additive conduct permissions, actor-generated versus overridden story claims, shared resolved-experiment identity, independently budgeted open proposals, bounded R0 consequential-agency evidence and consistent decision-equivalence conditions. The existing ontology and release sequence remain sufficient for the bounded M0 prototype; exact metrics, mechanisms and pilot limits remain to select.
+Strategy discovery, multiple objectives, independent other actors and Excel-free execution remain confirmed goals. Revision 0.9 incorporates the v0.8 review: separate agency evidence dimensions, isolated action comparisons, explicit source-to-playable-content activation, protected ambiguity and bounded relational actions. It adds data-population estimates and aggregate memory/disk/retention budgets. The existing ontology and release sequence remain sufficient for M0; active mechanisms, exact start phase and pilot limits are selected and measured there.
 
 ## 1. Product purpose and users
 
@@ -72,9 +72,11 @@ M0 selects a Japan financing/commitment dilemma, actor roster, a few consequenti
 
 Only the active bounded ontology subset must execute in R0. A universal ontology generator, complete personality model, general editor and LLM provider are not R0/R1 prerequisites. The author gate precedes broad tooling and search-scale commitments; a failed gate requires an explicit design/scope revision.
 
-R0 also requires independent open proposal generation and one local matched agency contrast: an understandable generated choice changes a material consequence and the next dilemma. Include a supported low-effect alternative and expose conditional overrides separately. This bounded demonstration belongs to TL-072/TL-075; broader finalist counterfactual analysis remains TL-050 in R1.
+R0 also requires independent open proposal generation and separate plausibility, controller-generation and isolated-consequence evidence. Test one plausible action change under unchanged continuation rules, trace a material consequence and different next dilemma, and include a low-effect contrast. Independently plausible overrides may support conditional consequences without becoming actor-generated witnesses. Add a relational chain producing distinct plots with similar finances. This bounded demonstration belongs to TL-042/TL-069/TL-072/TL-073/TL-075; broad finalist counterfactual analysis remains TL-050 in R1.
 
 ## 4. Domain model and ontology
+
+TL-077 activates a versioned ExperimentContentManifest: starting facts, active obligations, future reference outcomes, explicit external assumptions and author constraints have different roles. Source authority, identity, valid/knowledge times and transitive mechanism dependencies must be resolved or explicitly excluded. Protected ambiguity cannot become a sampled hidden fact. See [the population plan](data-population-plan.md) for source measurements, staged review and estimated work.
 
 [ontology.md](ontology.md) defines the semantic contract and its 16 invariants; `draft-model-catalog.json.ontology_contract` mirrors its 29 record definitions. These are design contracts, not implemented schemas. Future typed models, validators, runtime layouts and migrations must preserve them.
 
@@ -147,7 +149,7 @@ Charts and tables share selections, units and statuses. Basic structured replay,
 
 ## 7. Requirements and acceptance register
 
-The backlog is authoritative for Given/When/Then acceptance. This register mirrors every statement, release and later gate. Revision 0.8 strengthens existing IDs: 76 requirements, 74 Must and 2 Should; first obligations remain R0 47, R1 18, R2 9 and R3 2, with 12 later phase gates and 32 demonstrations.
+The backlog is authoritative for Given/When/Then acceptance. This register mirrors every statement, release and later gate. Revision 0.9 preserves prior IDs and adds TL-077/TL-078: 78 requirements, 76 Must and 2 Should; first obligations are R0 49, R1 18, R2 9 and R3 2, with 12 later phase gates and 37 demonstrations.
 
 ### 7.1 Register
 
@@ -229,6 +231,8 @@ The backlog is authoritative for Given/When/Then acceptance. This register mirro
 | TL-074 | Enforce mechanism applicability and provisional continuations | Must | R0 | — |
 | TL-075 | Demonstrate usefulness for plot development | Must | R0 | R1 |
 | TL-076 | Resolve simultaneous commitments consistently | Must | R0 | — |
+| TL-077 | Prepare and activate traceable experiment content | Must | R0 | — |
+| TL-078 | Bound memory disk use and result retention | Must | R0 | — |
 
 ### 7.2 Requirement statements
 
@@ -380,9 +384,13 @@ The backlog is authoritative for Given/When/Then acceptance. This register mirro
 
 **TL-074 Enforce mechanism applicability and provisional continuations.** Every active mechanism shall declare an executable applicability predicate, read/write ownership, evidence and counterexample tests; leaving its supported domain shall invalidate dependent claims or create an explicitly selected provisional continuation.
 
-**TL-075 Demonstrate usefulness for plot development.** Release evidence shall include author evaluation of procedure-generated choices, a bounded matched choice-to-consequence-to-next-dilemma contrast and a low-effect control, useful causal alternatives and retained ideas on prepared/open/held-out writing tasks with a manual-workflow comparator, alongside technical correctness and performance.
+**TL-075 Demonstrate usefulness for plot development.** Release evidence shall separately demonstrate plausible alternatives, intention-sensitive controller generation and isolated choice-to-consequence-to-next-dilemma effects with a low-effect contrast, plus useful ideas on prepared/open/held-out tasks against a manual-workflow comparator.
 
 **TL-076 Resolve simultaneous commitments consistently.** The engine shall resolve simultaneous and sequential interactions through registered phases, resource reservations, allocation/tie rules and settlement semantics that are independent of incidental module or actor iteration order.
+
+**TL-077 Prepare and activate traceable experiment content.** A staged ingestion workflow shall reconcile canonical sources into a versioned ExperimentContentManifest with explicit temporal roles, authority, actor information, ambiguity policies and complete active dependency dispositions before a slice runs.
+
+**TL-078 Bound memory disk use and result retention.** Runs shall declare batch/worker, application-memory, output-retention and temporary-disk budgets; the scheduler shall enforce aggregate limits, preserve pinned evidence and recover cleanly when a budget or free-space limit is reached.
 
 ### 7.3 Additional phase gates
 
@@ -433,10 +441,15 @@ The backlog is authoritative for Given/When/Then acceptance. This register mirro
 | 26 | 100 root worlds with 20 unsupported parent paths and 20 provisional continuations retain 100 parent evaluations and 120 branch executions; separate conditional results, retries and cache reuse without inventing independent evidence. | R0 accounting; R1 assessment | TL-047, TL-055, TL-067, TL-074 |
 | 27 | Two histories with similar financial outcomes but different frustrated plans remain distinct story candidates; numerical jitter of one conflict does not create another. Derived dramatic claims cite decisions and effects and never mutate the world. | R0 | TL-023, TL-073 |
 | 28 | Compare valid and concealed invalid authority under additive conduct permissions with matched actor inputs: the attempt stays the same, legality/execution/disclosure differ appropriately, and a breach-capable counterparty can honour its agreement. | R0 | TL-071, TL-043 |
-| 29 | Force a refusal as an author override: retain its mechanically supported consequences as conditional, but reject it as actor-generated or agency evidence. Separately regenerate a choice under explicit supported policy/premise variants and preserve the distinct claim scope. | R0 classification; R1 search statuses | TL-069, TL-072, TL-073, TL-075 |
+| 29 | Force a refusal: retain conditional consequences but do not claim controller generation. A separate plausibility assessment can qualify an isolated action intervention for consequence evidence; unsupported motives cannot. Regenerated policy/premise variants keep distinct claim scopes. | R0 classification; R1 search statuses | TL-069, TL-072, TL-073, TL-075 |
 | 30 | Change cash premises, conduct bindings or fidelity while keeping policy/model versions fixed: experiment and evaluation keys change; display labels do not. Preserve valid matched root IDs and separate branch/retry accounting. | R0 identity; R1 aggregate use | TL-011, TL-055, TL-074 |
 | 31 | From an enumerable allowed proposal family, open exploration generates and surfaces a distinctive dominated route missed by its declared strategic comparator under fixed budgets; no target ending or pre-inserted path is supplied. | R0; integrate strategic search in R1 | TL-073, TL-048 |
-| 32 | Fork one decision under matched external conditions: two procedure-generated alternatives change a material consequence and the next dilemma. Also inspect a supported low-effect choice to separate agency from circumstances. | R0 | TL-069, TL-072, TL-075 |
+| 32 | Compare two independently plausible actions at one checkpoint with unchanged continuation rules and matched other inputs; trace the changed consequence and next dilemma, plus a low-effect contrast. Test intention-sensitive controller generation separately. | R0 | TL-069, TL-072, TL-075 |
+| 33 | Hold continuation policy and all other mechanisms fixed while changing one plausible action; a separate policy-rule change must be labelled a policy comparison. Generation evidence and conditional consequence evidence cannot substitute for each other. | R0 | TL-069, TL-072, TL-075 |
+| 34 | Activate a 1927 snapshot: the authored 1928 settlement is reference-only, an existing debt schedule remains due, and no actor knows later events by import. Re-import is idempotent; source correction creates a new bundle and dependency-impact report. | R0 | TL-077, TL-068, TL-038 |
+| 35 | Preserve a locked unresolved culpability while characters react to supported testimony and suspicion. Import, sampling, queries and explanations cannot choose a secret culprit; a truth-dependent mechanism is withheld without suppressing valid unrelated behavior. | R0 | TL-068, TL-077 |
+| 36 | A scoped private commitment, selective disclosure and belief update change a costly decision, cooperation and the next dilemma; two candidates remain causally distinct despite similar financial outcomes. | R0 | TL-042, TL-069, TL-073, TL-075 |
+| 37 | Run and query under low RAM/disk budgets, adapt concurrency or stop cleanly, then recover. Preserve all outcomes/status counts and pinned replay/bookmark assets; measure process-tree peak memory and retained/temporary bytes. | R0 | TL-078, TL-059, TL-067, TL-032 |
 
 ## 8. Exchange and model contracts
 
@@ -487,6 +500,8 @@ Read-only source extraction can obtain calibration/reference values. Every suppo
 
 ## 10. Quality targets and release gates
 
+TL-078 makes resource admission and retention correctness requirements. Planning allowances are 10–30 GB for the first workspace, 50 GB free SSD space at installation, 16 GB host RAM for a bounded start and 32 GB recommended. They are unmeasured and do not guarantee the latency targets below. Account for application-wide memory, query spill and retained artifacts; batch worlds, preserve pinned evidence and stop cleanly at limits. See [capacity arithmetic and qualifications](data-population-plan.md#disk-and-memory-planning).
+
 All targets are **proposed and unmeasured** until the realistic M0 spike. Pin hardware, actors, steps, fidelity, memory and included stages; confirm or explicitly revise before commitments.
 
 | Dimension | Provisional target and measurement | Stage |
@@ -512,13 +527,13 @@ The base campaign count is an initial screening workload. Extra sampling, respon
 
 | Milestone | Exit evidence |
 |---|---|
-| M0 Define the dramatic question and prove the bounded model | Agree one bounded financing/commitment dilemma and prove a small semantic prototype before fixing optimized interfaces: dated information and decision reasons, additive conduct/legality, claim admissibility, complete experiment identity, independent open proposals and a matched choice-consequence-next-dilemma contrast with a low-effect case. Pin prepared/open/held-out author tasks and the manual comparator; derive independent financial checks and measure realistic speed. |
-| M1 Deliver a useful bounded strategic sketchpad | Pass bounded semantic/reference cases and decision branches. Generate and surface a causally distinct dominated route from the declared open proposal family, retain conditional ideas with honest labels, and demonstrate supported consequential agency plus a low-effect choice. Pass author review on prepared/open/held-out tasks with assumptions and repair costs exposed. |
+| M0 Define the dramatic question and prove the bounded model | Activate a traced 1927–1928 rescue/Concord content package and prove the bounded semantic prototype: protected ambiguity, temporal content roles, dated information, independent choice, additive conduct and resource settlement. Separate plausibility/controller/consequence evidence, demonstrate a relational chain and low-effect contrast, and measure real data-preparation effort plus peak memory/disk/latency before optimized interfaces. |
+| M1 Deliver a useful bounded strategic sketchpad | Pass content activation, semantic/reference, isolated-action and resource-budget cases. Generate distinct open candidates, including a dominated route and relational alternatives with similar finances. Pass prepared/open/held-out author tasks with conditional evidence, assumptions and repair costs explicit. |
 | M2 Discover strategies and narrative alternatives | After the R0 author gate, demonstrate assessed strategic search and distinct existential-history, policy-reliability and minimum-premise-change modes, correct temporal/search statuses and population accounting. Repeat causal discovery and author review with a fresh held-out task; targeted forms suffice. |
 | M3 Extend authoring tools and detailed financial fidelity | Deliver the general editor, structural generation and optional grounded narration after the author workflow is established; satisfy full ledger forensic/policy-reassessment, fixture parity and deep provenance gates. |
 | M4 Expand the supported world | Additional actors/regions/modules and semantic rebases pass their own evidence and behavior checks; any hosted mode is separately designed. |
 
-No calendar estimate or implemented benchmark is asserted. Each in-scope acceptance and phase gate needs evidence; unresolved Must criteria require an explicit scope revision. R0 must pass the agreed author usefulness review as well as technical checks. R1 must demonstrate assessed strategy and bounded narrative-condition discovery. Author acceptance is recorded separately from technical validity; no automated story-quality score replaces it.
+No implementation calendar or measured benchmark is asserted. Data-population effort ranges are separate planning estimates in the population plan. Each in-scope acceptance and phase gate needs evidence; unresolved Must criteria require an explicit scope revision. R0 must pass the agreed author usefulness review as well as technical checks. R1 must demonstrate assessed strategy and bounded narrative-condition discovery. Author acceptance is recorded separately from technical validity; no automated story-quality score replaces it.
 
 ## 11. Decisions still open
 
@@ -528,8 +543,8 @@ Strategy discovery, multiple objectives, independent other actors, Excel indepen
 |---|---|---|---|
 | D-001 Product end goal | required by user | Support credible strategic sketches and plot exploration, then discover adaptive Pacifica strategies and histories satisfying declared author conditions. | Actor objectives and author narrative conditions remain separate; useful dominated histories may be retained without changing their strategic assessment. |
 | D-002 Hosting and users | proposed | One author, loopback local browser application and headless native worker on supported Windows/Linux environments. | Hosted/multi-user mode needs its own access, storage and concurrency design. |
-| D-003 Bounded pilot question | proposed | Begin with one Japan financing/commitment dilemma, a few indispensable actors, selected character beliefs/intentions, explicit outside conditions and monthly cash where material. | M0 chooses the dramatic question and supported breach/consequence case; only the active semantic subset and its mechanisms are required. |
-| D-004 Performance and sampling budgets | proposed unmeasured | Target 1,000 sketch paths in 1 second at p95, 10,000 in 10 seconds, and 100,000 base evaluations in 5 minutes on 8 workers/16 GB. Benchmark realistic queues/checks/logs/delivery before commitment. | Pin hardware and hot/cold timing; 100 worlds per policy is initial screening. Extra sampling, response/stress and final assessment have explicit budgets and precision rules. |
+| D-003 Bounded pilot question | proposed | Use the 1927–1928 Japan rescue and Concord dilemma for the first content package, with few active decision-makers, selected commitments/information and material monthly cash. | M0 fixes the exact start phase, horizon, mechanisms and dependency closure; the canonical 1928 outcome is a reference unless explicitly selected as an author condition. |
+| D-004 Performance and sampling budgets | proposed unmeasured | Target 1,000 sketch paths in 1 second at p95, 10,000 in 10 seconds, and 100,000 base evaluations in 5 minutes on 8 workers/16 GB. Benchmark realistic queues/checks/logs/delivery before commitment. | Keep throughput targets provisional. Budget memory across processes and disk across retained/temporary artifacts; measure on the 16-GB benchmark and recommend 32-GB RAM with 50-GB free SSD space for comfortable author use, subject to retention. |
 | D-005 Fixture distribution | proposed | Stage exact frozen files and provenance in versioned private artifact storage before R2; pin calibration/reference evidence needed for R0 earlier. | No legacy adapter runtime or Office dependency; metadata alone is not the six result files. |
 | D-006 Success and scope boundaries | open | Use the objective sheet and researched families; enable only covered measures and explicitly named proxies. | Final beneficiaries, thresholds and acceptable risk remain open; no mandatory national-power score. |
 | D-007 Storage foundation | proposed | Git-versioned validated text, immutable Parquet artifacts, retained manifests and a single-process DuckDB query catalog. | The index is rebuildable; durable publication/recovery spans files, manifests and guarded Git refs. PostgreSQL is a future hosted option. |
@@ -543,15 +558,17 @@ Strategy discovery, multiple objectives, independent other actors, Excel indepen
 | D-015 Catalog format and declarations | open | Use ontology.md and the structured ontology contract for semantic identities and invariants; minimal validated types and explicit bindings execute the bounded slice. General structural generation follows in R2. | Choose YAML or TOML later; storage choice does not supply semantics. Future schemas/validators must implement the ontology contracts. |
 | D-016 Behavior descriptors and archive capacity | open | Select two or three interpretable behavior descriptors aggregated over a common world design, including never/undefined outcomes and assignment uncertainty; keep per-cell Pareto representatives. | Cell boundaries, summaries, capacity and deterministic diversity-pruning must be declared and tested without a hidden utility score. |
 | D-017 Author narrative conditions | incorporated design parameters open | Use an independently budgeted open proposal method and pre-pruning selector in R0; R1 adds distinct narrative search modes with actor-generated versus mechanical-consequence claim admissibility. | Specify bounded proposal coverage and retention separately. A forced choice may be a useful conditional idea but cannot certify actor-generated discovery. |
-| D-018 Semantic and intention scope | incorporated design subset open | Register predicate/state/time semantics and immutable revisions; bind choices to a DecisionContext and executed DecisionRecord using selected beliefs, goals and commitments. | M0 proves decision ownership, dated reports and a bounded choice-consequence-next-dilemma contrast plus a low-effect case; personal motives remain reviewed assumptions. |
+| D-018 Semantic and intention scope | incorporated design subset open | Register predicate/state/time semantics and immutable revisions; bind choices to a DecisionContext and executed DecisionRecord using selected beliefs, goals and commitments. | M0 separates alternative plausibility, actual controller selection and isolated one-action effects; protects deliberate ambiguity and activates only sourced or explicitly assumed content. |
 | D-019 Legality and adjudication profiles | incorporated design mechanisms open | Bind additive permitted-conduct sets by actor/action family; all profiles permit lawful execution, supported exceptions add possibilities, and actual legality remains independently adjudicated. | M0 defines one exceptional-conduct family, its variant-specific coverage and discovery rules; enabling breach never compels misconduct. |
 | D-020 Decision point interventions | incorporated design | Provide decision, premise and imposed-event branch modes with complete state reconstruction, dated information and immutable prefix lineage. | Ordinary optimization controls only Pacifica. Overrides and imposed outcomes retain conditional lineage and cannot certify actor-generated success; regenerated changed premises have their own evidence scope. |
 | D-021 Applicability and provisional continuation | incorporated design envelopes open | Check mechanism validity envelopes during execution. Allow explicitly selected registered provisional assumptions as linked conditional continuations. | Invalidity propagates to dependent claims; conditional and structural-model populations are not silently pooled into certified rankings. |
-| D-022 Creative usefulness gate | incorporated design protocol open | Agree prepared, open-ended and held-out writing tasks plus a manual-workflow comparator; demonstrate causal novelty and author usefulness before expansion. | Record new ideas after assumption disclosure, a supported agency contrast and low-effect case, time and repair; tuned demonstrations and automatic scores cannot replace author acceptance. |
+| D-022 Creative usefulness gate | incorporated design protocol open | Agree prepared, open-ended and held-out writing tasks plus a manual-workflow comparator; demonstrate causal novelty and author usefulness before expansion. | Review generated intention-sensitive decisions and separately supported conditional causal contrasts, relational novelty and a low-effect case; manual comparison and held-out tasks remain required. |
 
 Material risks include unsupported behavior, inadequate objective or narrative definitions, hidden information through interfaces, discarded interesting paths, silent extrapolation, inaccurate decision-state reconstruction and false probability claims. Use bounded mechanisms, explicit semantic contracts, independent tests, preserved selection modes and direct author evaluation.
 
 ## 12. Source and authority notes
+
+U16 requests revision 0.9 and the existing draft PR update, population estimates and disk/RAM expectations. S15 records the review of v0.8 commit `b98837ac0c0be3f3cd183c8060b8ce78fcf1b355`; S16 records capacity planning, which is estimated rather than benchmarked. Four review issues and the population/resource additions map to requirements and documents in backlog.review_traceability. The new [population plan](data-population-plan.md) pins its measured source corpus separately from inferred effort.
 
 U15 requests revision 0.8 and the existing draft PR update. S14 records the review of commit `4a0dd6367cd23d3f4cc0bd7cecbcd489095ac730`; its five substantive recommendations and the decision-equivalence correction map to existing requirements. Earlier review mappings remain in backlog review history.
 
@@ -561,4 +578,4 @@ U14 requests revision 0.7 and the existing draft PR update. S13 records the crit
 
 The baseline remains `cc6e017780970433ab63bc95d0e3749510b44d49`; alternatives remain `626ffbb0bd6486c19164f89104569d78321ebd55`. Original sources, the supplied workbook and [fixture manifest](fixture-manifest.json) retain their identities. The [objective sheet](objectives-and-constraints.md), [action/actor catalog](action-and-actor-catalog.md), [ontology](ontology.md) and [structured catalog](draft-model-catalog.json) are synchronized design definitions.
 
-Revision 0.8 vision, architecture, ontology, requirements and backlog form one proposal. The backlog's review traceability maps each accepted recommendation to requirements and documents. Product/model review is separate from narrative adoption; generated paths, personal motives, calculations and narration do not approve canon.
+Revision 0.9 vision, architecture, ontology, requirements and backlog form one proposal. The backlog's review traceability maps each accepted recommendation to requirements and documents. Product/model review is separate from narrative adoption; generated paths, personal motives, calculations and narration do not approve canon.

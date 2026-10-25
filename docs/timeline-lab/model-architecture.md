@@ -1,10 +1,10 @@
 # Timeline Lab model and data architecture
 
-**Design recommendation · 25 October 2026 · Revision 0.8**
+**Design recommendation · 25 October 2026 · Revision 0.9**
 
 Build a native simulator supporting strategic sketches, plot exploration, multiobjective policy search and inspectable histories. Begin with one bounded financing/commitment dilemma, indispensable actors, selected character beliefs/intentions and independent reference calculations. Prove the author workflow before expanding search and supporting tooling. The [product vision](product-vision.md), [requirements](requirements.md) and [backlog](backlog.json) define the scope and release gates.
 
-The architecture keeps Git-versioned world files, Parquet/DuckDB results, native Python execution and explicit fidelity projections. Revision 0.8 clarifies additive conduct, actor-generated evidence, shared resolved identity, independently budgeted open proposals and bounded R0 agency tests within those services. No additional general ontology layer is required for the first dilemma.
+The architecture keeps Git-versioned world files, Parquet/DuckDB results, native Python execution and explicit fidelity projections. Revision 0.9 adds staged content activation and resource budgets within those components; it clarifies protected ambiguity, relational actions and the three agency evidence dimensions. No additional database or general ontology service is required for the first dilemma.
 
 ## 1. The model foundation
 
@@ -78,6 +78,10 @@ The finance skill proposes inspectable quantities and derivations as catalog cha
 
 ### Semantic ontology
 
+The content preparer stages proposals from pinned source revisions, resolves identities and authority, assigns temporal roles and per-actor information, and emits a reviewed ExperimentContentManifest. Validation follows transitive dependencies of active mechanisms and claims; an unbound or unresolved dependency blocks only the affected executable scope. An excluded dependency disables its dependent claims explicitly. No source paragraph automatically becomes a state transition. The resolver includes all active semantics and ambiguity policies in resolved_experiment_id, retaining extraction/source provenance separately. See [the population workflow](data-population-plan.md#population-workflow) and TL-077.
+
+A 1927 initialization may contain an outstanding obligation due in 1928 without queuing its fulfillment. The authored 1928 settlement is reference-only, and source knowledge does not automatically become actor knowledge. Narrative constraints filter outcomes and cannot write them into state. Protected ambiguity differs from concealed resolved truth; truth-dependent computations are withheld, while supported testimony, suspicion and information-dependent choices remain usable.
+
 The [ontology](ontology.md) defines the contract that structural declarations implement. Its record and invariant register is mirrored in `draft-model-catalog.json.ontology_contract`; neither file is an implemented runtime schema. R0 activates only the subset needed for its dilemma.
 
 Separate people, offices, institutions and factions, with dated role tenure and explicit succession mappings. Distinguish underlying WorldFact, Assertion, delivered Observation and actor Belief. Goals, Plans and Commitments can explain action without making promises into legal Obligations. Agreements express qualified parties, authority, terms, dates, rights and termination. ActionAttempt, Adjudication and RealizedEvent retain separate identities.
@@ -128,6 +132,16 @@ Pin dimensions, mappings and activation masks. A newly activated actor, instrume
 The detailed ledger uses full instruments with a documented projection back to fast aggregates. Record what information an aggregate loses, how maturities/FX/exposures are approximated and which situations invalidate its feasibility claim.
 
 ## 4. Storage and publication
+
+### Working-set and retention budgets
+
+TL-078 adds preflight resource estimation and a shared scheduler budget across the parent, worker processes, buffers/queues, UI and query engine. Account for temporary query spill separately from persistent outputs. Bound worlds per batch, workers and query threads; do not multiply an independent host-sized budget per process. Measure process-tree peak memory and disk high-water marks during M0. Estimates from array dimensions are lower bounds on those arrays, not total RSS estimates.
+
+Default retention stores per-evaluation status/summary, bounded candidate traces and the immutable assets needed for selected replay/bookmarks. Full per-time/per-entity trajectories require explicit selection and projected bytes. Pin dependencies transitively; cleanup can remove only unpinned disposable artifacts under the declared policy. Storage pressure cannot silently evict saved histories or their last replay inputs. Reference counts/reachability and atomic publication must agree before deletion.
+
+Under RAM or disk pressure, reduce future batch/concurrency, pause at a safe boundary or refuse with a reason. Do not omit evaluations, truncate queues or change fidelity. Preserve prior complete results and label interrupted output incomplete. Resume remains subject to existing identity/draw-order guarantees. DuckDB's memory setting alone does not bound all application memory; query spill also needs its own directory quota and free-space reserve. Planning figures and source references are in [data-population-plan.md](data-population-plan.md#disk-and-memory-planning).
+
+### Existing storage contract
 
 For one local author, use schema-validated YAML or TOML in Git for author-written catalog and overlays; immutable Parquet for numerical artifacts; retained manifests and DuckDB for local queries.
 
@@ -261,6 +275,8 @@ Checkpoint policies, search state, archive/pruning rules, pending evaluations, d
 
 ### Candidate extraction and dramatic views
 
+The first slice implements a small private commitment/disclosure/verification/cooperation chain through the ordinary action and adjudication services. A recipient acts from delivered evidence and its own procedure; it never reads a private intention directly. Registered rules update persistent commitments or qualified relationship state, using a few reviewed qualitative categories rather than a universal trust score. Withholding affects belief only through explicit observable expectations. The selector must retain two supported relational plots with similar finances; relabelling a financial history as betrayal does not meet the test.
+
 R0 offers open exploration before a narrative ending is chosen. Its proposal stream generates alternatives under the preceding contract; a streaming selector then consumes every evaluated history or reconstructible trace before strategic pruning. Register causal features, capacity, deterministic ties/eviction and coverage. Include choices, conflicting commitments, frustrated plans, revelations and reversals; numeric/date jitter is not a new plot.
 
 The reference demonstration starts from an enumerable proposal family and must actually generate and surface a distinct dominated route omitted by the declared purely strategic comparator under fixed budgets. No requested ending or pre-inserted candidate supplies that route. Inspect proposal provenance, controller decisions and selection separately; preserving a route already in the input is insufficient.
@@ -319,12 +335,12 @@ Separate authority, evidence, execution, accounting, funding, coverage and fidel
 
 ## 10. Build order and author evidence
 
-The M0/R0 agency demonstration uses one complete decision checkpoint, two actor-admissible alternatives and compatible matched external conditions. Allowed policy/procedure variation must actually generate each choice while preserving the decision's information and stated goals/commitments; recompute endogenous responses. Predeclare local materiality and horizon, then trace choice to a different goal, obligation, supported relationship or available option and a different next dilemma. Also run a separate contrast between supported alternatives with little or no material effect. Inspect both as part of AuthorReview; overrides alone cannot pass this test. Broad finalist analysis stays in TL-050 at R1.
+The M0/R0 agency demonstration separates plausibility assessments, intention-sensitive controller selections and an isolated one-action comparison. For the comparison, change one plausible attempt at a complete checkpoint while fixing continuation policy and all other mechanism settings; match other random inputs and recompute endogenous replies. Predeclare horizon/materiality and trace a changed goal, obligation, relationship or option to a different next dilemma, plus a separate low-effect contrast. An independently plausible author override can provide conditional consequence evidence, never controller-generation or reliability evidence. Changing a continuing policy or premise is a distinct comparison. Preserve evidence references in StoryCandidate and AuthorReview; broad finalist analysis remains TL-050 in R1.
 
 | Stage | Concrete exit |
 |---|---|
-| M0 semantic prototype | Prove the bounded semantic model, additive conduct/legality, claim admissibility, resolved identity, independent proposals and local agency contrast with a low-effect case before optimized interfaces. Pin author tasks/manual comparator, derive references and measure speed. |
-| M1 useful R0 sketch | Generate a distinctive dominated route from the proposal family; demonstrate supported choice-consequence-next-dilemma agency and a low-effect case, honest conditional claims, adjudication/settlement, complete forks and applicability. Pass author review with deterministic summaries. |
+| M0 semantic prototype | Activate a traced 1927–1928 rescue/Concord content package and prove the bounded semantic prototype: protected ambiguity, temporal content roles, dated information, independent choice, additive conduct and resource settlement. Separate plausibility/controller/consequence evidence, demonstrate a relational chain and low-effect contrast, and measure real data-preparation effort plus peak memory/disk/latency before optimized interfaces. |
+| M1 useful R0 sketch | Pass content activation, semantic/reference, isolated-action and resource-budget cases. Generate distinct open candidates, including a dominated route and relational alternatives with similar finances. Pass prepared/open/held-out author tasks with conditional evidence, assumptions and repair costs explicit. |
 | M2 R1 discovery | Add assessed strategy and bounded narrative-condition/minimum-change search, response/stress assessment, fresh worlds, history types and repeated author review. Use targeted configuration forms. |
 | M3 R2 tools and fidelity | Add general editing, structural generation and optional grounded narration; deliver full instrument forensic/policy reassessment, six-fixture parity, skill derivations and deep evidence inspection. |
 | M4 R3 expansion | Support additional questions/regions/actors and semantic rebases with their own evidence; design hosted mode separately. |
@@ -333,4 +349,4 @@ M0 records prepared and open-ended writing tasks, a supported question withheld 
 
 The stack remains provisional: native Python, profiled NumPy/Numba, Git text, Parquet/DuckDB, FastAPI and React/TypeScript. The semantic core, information boundary and adjudication rules govern implementations; fixed shapes and schema generators serve the bounded problem.
 
-The revision 0.8 [requirements](requirements.md) and [backlog](backlog.json) contain 76 stable requirements and 12 later phase gates. The [ontology](ontology.md) and [structured catalog](draft-model-catalog.json) define semantic contracts; the [fixture manifest](fixture-manifest.json) preserves financial reference identities. The [objective sheet](objectives-and-constraints.md) and [action/actor catalog](action-and-actor-catalog.md) supply model definitions to narrow.
+The revision 0.9 [requirements](requirements.md) and [backlog](backlog.json) contain 78 requirements and 12 later phase gates. The [ontology](ontology.md) and [structured catalog](draft-model-catalog.json) define semantic contracts; the [fixture manifest](fixture-manifest.json) preserves financial reference identities. The [objective sheet](objectives-and-constraints.md) and [action/actor catalog](action-and-actor-catalog.md) supply model definitions to narrow.

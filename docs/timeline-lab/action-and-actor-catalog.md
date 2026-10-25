@@ -1,6 +1,6 @@
 # Pacifica action and actor catalog draft
 
-**25 October 2026 · Design revision 0.8 · Draft for author review**
+**25 October 2026 · Design revision 0.9 · Draft for author review**
 
 Pacifica chooses offers, budgets, investments and authorized commitments. The world model determines what resources become available, how other actors respond and what follows. Strategies can adapt to dated observations; the author does not need to describe the outcome of every branch.
 
@@ -10,7 +10,7 @@ Use the [objective and constraint sheet](objectives-and-constraints.md) for the 
 
 ## Control and agency
 
-Open proposals vary only declared actor-admissible policy/procedure choices; they do not force counterparty outcomes or erase personal commitments. An author override remains useful as a conditional consequence experiment, but cannot demonstrate actor-generated agency. R0 compares two generated choices under matched external conditions, tracing material consequences and the next dilemma, and also shows a supported low-effect choice.
+Open proposals vary only declared actor-admissible policy/procedure choices; they do not force counterpart outcomes or erase personal commitments. Record plausibility, actual controller selection and isolated consequence evidence separately. An independently plausible author intervention may show conditional consequences and a different next dilemma under unchanged continuation rules, but never proves actor selection or reliability. R0 also demonstrates intention-sensitive generated choices and a separate low-effect contrast.
 
 Each modeled choice has a DecisionContext identifying its person/collective decision-maker, represented institution or personal capacity, dated role/authority, resource owners, information snapshot and actual procedure. The control binding explains how Pacifica's policy interacts with selected personal commitments and independent institutional choices; optimization cannot silently erase those commitments. DecisionRecord retains inputs actually used, considered alternatives and reasons. Officeholder substitution preserves institutional liabilities under explicit private-state transfer rules; author overrides receive no retrospective motive.
 
@@ -82,6 +82,21 @@ Historical event calendars are appropriate for labelled replay or conditional te
 A language model may help draft reviewed assumptions and explain traces. Numerical adjudication follows registered, reproducible mechanisms; it does not invent a new loss rate or actor preference during a rollout.
 
 ## Action contract
+
+### Relational repertoire required for R0
+
+The 24 existing macro action families remain disabled design entries. M0 must define stable variant IDs and executable bindings for a bounded relational repertoire using the same action protocol:
+
+| Proposed variant | Required semantics |
+|---|---|
+| Private commitment | Named parties, promised act/condition/deadline, acceptance/formation, visibility and resulting duty; a promise is not guaranteed performance. |
+| Disclose or withhold | Information actually possessed, claimed content versus truth, channel/delivery time, audience and cost. Silence becomes evidence only through an explicit expectation rule. |
+| Verify or challenge | Request, available evidence, independent responder and possible delay/refusal; verification cannot reveal an unmodeled or protected answer. |
+| Honour or breach | Check an existing duty and actual conduct; apply only supported cooperation/relationship effects, with persistent state and future options. |
+
+These variants reuse existing Commitment, Assertion, Observation, Belief, ActionAttempt and qualified relationship records; no universal personality model is required. Only reviewed, tested variants become active in the content manifest. Require two plots with similar financial results but distinct commitment/disclosure/belief/choice/cooperation chains. Noe's protected unresolved culpability stays unresolved even when suspicion affects these choices.
+
+### Existing action families
 
 Every ActionAttempt requires an initiator, targets, decision time, actor observation snapshot, typed parameters, eligibility rule, selected profile, plan references and provenance. Its Adjudication separately records actual preconditions, legal status, counterpart replies, reservations, disposition, realized events and disclosure rules.
 
@@ -413,9 +428,9 @@ Do not give peaceful paths war-produced debts, territorial gains or rescue-drive
 
 ## Review examples
 
-Version 0.8 adds paired authorization cases, a breach-capable actor choosing lawful conduct, override-versus-generated evidence, complete experiment identity, actual open proposal discovery and a bounded consequential-agency contrast. The source family and budgets must generate the distinctive route; preloading a successful story is not evidence of discovery.
+Version 0.9 adds isolated-action evidence, content activation, protected ambiguity, relational consequences and resource-budget demonstrations. Previous conduct, identity and independent open-proposal cases remain. The source family and budgets must generate the distinctive route; preloading a successful story is not evidence of discovery.
 
-Revision 0.8 also tests delayed target-period reports, person/institution decision capacity, MetricSample isolation, incomplete temporal queries, population lineage and derived dramatic structure. These are synthetic acceptance cases, not canonical events. Open candidate selection precedes strategic pruning and permits spontaneous bookmarks; the author gate includes an untuned writing question and comparison with notes/manual work.
+Revision 0.9 also tests delayed target-period reports, person/institution decision capacity, MetricSample isolation, incomplete temporal queries, population lineage and derived dramatic structure. These are synthetic acceptance cases, not canonical events. Open candidate selection precedes strategic pruning and permits spontaneous bookmarks; the author gate includes an untuned writing question and comparison with notes/manual work.
 
 These are proposed acceptance examples for the later engine, not reported test results.
 
@@ -465,7 +480,7 @@ A family that lacks these remains unavailable or supports an explicitly selected
 | [SRC-D](https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032d.md) — CR-032D neutrality | SEPARATE DRAFT ALTERNATIVE; commit 626ffbb0bd6486c19164f89104569d78321ebd55. |
 | [SRC-VISION](product-vision.md) — Timeline Lab vision and professional wargaming sources | PROPOSED PRODUCT DESIGN. |
 | [SRC-REQ](requirements.md) — Timeline Lab requirements | PROPOSED SOFTWARE REQUIREMENTS. |
-| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.8 | PROPOSED SEMANTIC CONTRACT. |
+| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.9 | PROPOSED SEMANTIC CONTRACT. |
 | [SRC-FIXTURE](fixture-manifest.json) — Six-case fixture manifest | FROZEN FINANCIAL REGRESSION METADATA. |
 
 The current master and CR-031-R1 supersede the audit's dated northern-geography and labour passages. Preserve the source distinctions: institutional/narrative facts govern the starting world, local proposals remain proposals, numerical quantities remain MODEL, and behavioral mechanisms here remain design hypotheses.

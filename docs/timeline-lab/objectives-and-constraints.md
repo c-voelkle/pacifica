@@ -1,6 +1,6 @@
 # Pacifica objectives and constraints draft
 
-**25 October 2026 · Design revision 0.8 · Draft for author review**
+**25 October 2026 · Design revision 0.9 · Draft for author review**
 
 The search should find Pacifica policies that improve prosperity and security while retaining fiscal resilience and limiting human costs. Compare their distributions and trade-offs. Each strategic optimization defines its beneficiaries, objectives, constraints and uncertainty before the optimizer sees results. Narrative exploration uses its own mode/target contract and requires no strategic scorecard.
 
@@ -9,6 +9,8 @@ The proposed starting set is **core prosperity, security and freedom of action, 
 Use this sheet with the [action and actor catalog](action-and-actor-catalog.md) and [structured draft catalog](draft-model-catalog.json). The JSON carries each measure's complete beneficiary, geography, information, failure, coverage and source contract. These are design records, not executable simulation rules. The [ontology](ontology.md) defines their semantic identities, observation/intentionality boundaries, profiles and intervention modes. R0 selects a narrower financing/commitment dilemma and only the measures it covers; the full objective set below describes the broader proposed campaign.
 
 ## Proposed experiment
+
+The first content package targets the 1927–1928 rescue/Concord dilemma. M0 fixes the exact start phase, horizon, active actors and mechanism closure. Import future authored outcomes as references and ongoing duties as obligations; do not force the settlement. Protect deliberate ambiguity and bind actor information independently of source knowledge. The [population plan](data-population-plan.md) governs content activation and effort; only covered mechanisms support executable comparisons.
 
 | Field | Draft choice |
 |---|---|
@@ -29,7 +31,7 @@ The [fixture manifest](fixture-manifest.json) identifies the shared-change contr
 
 Actor goals and strategic objectives remain separate from author interest. R0 open exploration has a declared proposal method and budget independent of strategic fitness or elite ancestry. It generates actor-admissible alternatives, then extracts causal candidates before strategic pruning and permits spontaneous bookmarks. Proposal coverage and selector retention are separate. A distinctive dominated route must be generated from the allowed family, not inserted as prepared output.
 
-Derived dramatic views identify actor, goal, conflict, choice, sacrifice, consequence and next unresolved dilemma with supports. The R0 author gate includes a matched procedure-generated choice-consequence-next-dilemma contrast and a supported low-effect choice within a declared horizon/materiality. These views create no new motives or facts.
+Derived dramatic views identify actor, goal, conflict, choice, sacrifice, consequence and the next unresolved dilemma with supports. The R0 author gate separates plausible alternatives, intention-sensitive controller generation and conditional one-action consequences under unchanged continuation rules, with a separate low-effect case and declared horizon/materiality. It also retains relationally distinct ideas with similar finances. These views create no new motives or facts.
 
 R1 distinguishes existential_history, policy_reliability and minimum_premise_change. Every query also declares claim_basis, default actor_generated. An overridden decision or imposed/provisional event may yield a useful found_conditional consequence, but cannot certify found_supported or ordinary policy reliability. A regenerated witness under changed premises is supported only under that explicit package. Preserve origins and lineage in candidates, bookmarks and exports.
 
@@ -193,7 +195,7 @@ M0 also selects the active ontology, selected character beliefs/intentions, supp
 | REV-04 | Select pilot scope | Start with one bounded dilemma within the broader 1904–1932 campaign; include selected beliefs/plans, supported consequences and the author review. |
 | REV-05 | Resolve evidence and continuation gaps | Obtain the consumption/price bridge, resource/logistics data, actor response cases, human-cost model and terminal-liability treatment before claiming strategic rankings. |
 | REV-06 | Choose comparison design | Use common-start policy contests; separately label premise packages and imposed-event experiments. |
-| REV-07 | Select semantic and narrative slice | Active semantics, additive conduct/enabled variants, person/institution procedures, resolved identity and bounded consequential-agency contrast. |
-| REV-08 | Approve author evaluation and search contracts | Prepared/open/held-out tasks/manual comparator, independent proposal budgets, claim admissibility, search/temporal semantics, costs and population units. |
+| REV-07 | Select semantic and narrative slice | Activate the traced 1927–1928 content package with protected ambiguity, temporal roles and bounded relational actions; choose supported mechanisms and independent-response procedures. |
+| REV-08 | Approve author evaluation and search contracts | Define separate plausibility/generation/consequence evidence, held-out/manual tasks, open proposal coverage, retention and resource budgets. |
 
 Adopting an experiment or metric does not adopt a generated history as canon. The [master storyline](https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/master_storyline.md) and its local APPROVED, PROPOSED, OPEN and MODEL distinctions retain narrative authority.
