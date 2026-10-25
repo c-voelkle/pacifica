@@ -1,12 +1,12 @@
 # Pacifica Timeline Lab requirements
 
-**Draft for review · 25 October 2026 · Requirements version 0.6**
+**Draft for review · 25 October 2026 · Requirements version 0.7**
 
 Timeline Lab is a strategic wargame and plot-exploration tool. The author sketches decisions, inspects causal alternatives and retains useful histories; campaigns search strong adaptive Pacifica strategies and supported routes to declared narrative conditions. Strategic objectives, actor intentions and author preferences remain separate. The author controls Pacifica in ordinary policy search; other actors respond independently.
 
 The [product vision](product-vision.md) defines this end goal, the researched measurement framework and the intended user experience. The six authored timelines are financial regression references and comparators, not the space of possible outcomes.
 
-Strategy discovery, multiple objectives, independent other actors and Excel-free execution remain confirmed goals. Revision 0.6 incorporates the v0.5 review: an explicit ontology, selected character beliefs/intentions, observation-safe adjudication, lawful/breach profiles, complete decision branches, narrative conditions and author retention, runtime applicability and a creative-usefulness gate. General editing, structural generation and optional narration move to R2. Exact risk limits, metrics, actor mechanisms and pilot boundaries remain to select.
+Strategy discovery, multiple objectives, independent other actors and Excel-free execution remain confirmed goals. Revision 0.7 incorporates the v0.6 review: attributable decisions, precise predicate/state/time semantics, open causal discovery before strategic pruning, explicit search modes, actor-scoped conduct including apparent authority, dramatic views, held-out author evaluation and population identity. General editing, structural generation and optional narration move to R2. Exact risk limits, metrics, actor mechanisms and pilot boundaries remain to select.
 
 ## 1. Product purpose and users
 
@@ -17,7 +17,7 @@ Two loops use the same semantic model:
 - **Sketch:** evaluate a supported policy, compare matched outcome fans, inspect beliefs/plans and adjudicated events, branch at a decision and retain useful histories.
 - **Campaign:** define strategic objectives or author narrative conditions, search within a declared intervention space, assess independent responses and fresh worlds, and inspect both strategic trade-offs and useful story alternatives.
 
-R0 proves one financing/commitment dilemma with indispensable actors, selected beliefs/intentions, material timing, one supported lawful/breach comparison, complete decision reconstruction, applicability checks and deterministic summaries. R1 adds assessed strategy and bounded narrative-condition search. R2 adds general editing, structural generation, optional LLM narration and detailed financial fidelity.
+R0 proves one financing/commitment dilemma with indispensable actors, selected beliefs/intentions, material timing, one supported actor-scoped conduct comparison, complete decision reconstruction, applicability checks and deterministic summaries. R1 adds assessed strategy and bounded narrative-condition search. R2 adds general editing, structural generation, optional LLM narration and detailed financial fidelity.
 
 Monte Carlo evaluates outcomes; optimization searches policies; diversity organizes behavior; narrative conditions express author interest. A dominated policy can be bookmarked without changing its strategic score. A targeted story sample cannot establish ordinary success probability.
 
@@ -52,7 +52,7 @@ The current adapter contains CR-specific logic. There is no implemented Timeline
 
 | Release | Purpose | Required evidence |
 |---|---|---|
-| R0 bounded dramatic sketch | One agreed financing/commitment dilemma with selected character/institutional agency | Native independent checks, ontology invariants, belief/plan updates, observation-safe attempts, simultaneous resource resolution, one supported lawful/breach case, full decision forks, applicability propagation, story bookmarks, recovery and author usefulness review |
+| R0 bounded dramatic sketch | One agreed financing/commitment dilemma with selected character/institutional agency | Native independent checks, ontology invariants, belief/plan updates, observation-safe attempts, simultaneous resource resolution, one supported actor-scoped conduct case, full decision forks, applicability propagation, story bookmarks, recovery and author usefulness review |
 | R1 strategy and plot discovery | Assessed strategy search and bounded narrative-condition/minimum-change search | Global/per-cell archives, adaptive sampling, own-interest responses and separate stress, fresh assessment, history types, stated selection denominators and repeated author review |
 | R2 tools and detailed fidelity | General authoring and detailed financial evidence | General editor, structural generation, optional grounded narration, full instrument forensic/policy reassessment, six-fixture parity, finance-skill derivations and deep inspection |
 | R3 expansion | Wider supported questions and collaboration | New actors/regions/mechanisms and rebases pass their own checks; hosted mode receives a separate design |
@@ -74,7 +74,7 @@ Only the active bounded ontology subset must execute in R0. A universal ontology
 
 ## 4. Domain model and ontology
 
-[ontology.md](ontology.md) defines the semantic contract and its 12 invariants; `draft-model-catalog.json.ontology_contract` mirrors its 23 record definitions. These are design contracts, not implemented schemas. Future typed models, validators, runtime layouts and migrations must preserve them.
+[ontology.md](ontology.md) defines the semantic contract and its 16 invariants; `draft-model-catalog.json.ontology_contract` mirrors its 29 record definitions. These are design contracts, not implemented schemas. Future typed models, validators, runtime layouts and migrations must preserve them.
 
 | Semantic area | Required distinctions |
 |---|---|
@@ -89,6 +89,10 @@ Only the active bounded ontology subset must execute in R0. A universal ontology
 | Retention and explanation | Author bookmarks independent of Pareto pruning; typed prerequisites, dependencies, modeled effects, associations and interpretations |
 
 R0 exercises the active semantic subset with unknown/disputed consent, a dated role/obligation case, selected belief/plan updates, observation-safe eligibility and resource resolution. Missing, false, refused, disputed and unmodeled values cannot be substituted for one another. Contradictory source assertions retain their provenance; material unresolved underlying truth requires a hypothesis branch or blocks the mechanism using it.
+
+Active predicates specify argument roles, value domains, cardinality, target time, state keys and authoritative writers. Immutable fact/belief revisions and delivered payloads preserve historical knowledge under delayed reports. DecisionContext binds person/principal/role/authority/resources and the executed procedure; DecisionRecord captures actual used inputs and considered alternatives. These contracts must be proven in the M0 semantic prototype before optimized runtime interfaces are fixed.
+
+Conduct is bound by actor/action family and time: lawful is strict lawful execution, apparent_authority supports a registered mistake with actual illegality and delayed discovery, and breach_exploration supports registered intentional violations. Lawful Pacifica does not imply lawful counterparties; independent choices, consequences and hidden information remain intact.
 
 Actor-visible menus, previews and rejection messages obey the same information limits as decision inputs. The adjudicator may know underlying truth, but only its observation rule can disclose that truth. Ordinary response analysis does not reveal Pacifica's private policy code to counterparties.
 
@@ -116,16 +120,16 @@ The interface keeps narrative authority, evidence, execution, accounting, fundin
 
 ## 6. Dashboard and authoring workflow
 
-**Sketch:** select a pinned bounded world and profile → edit a supported lever → stream matched outcome fans → inspect decisions, beliefs/plans and actual consequences → filter or bookmark histories → reconstruct a decision point and branch → save explicitly.
+**Sketch:** select a pinned world and actor conduct bindings → edit a supported lever → stream matched outcomes and causal candidates before strategic pruning → inspect actual decision reasons and dramatic consequences → explore without an ending, filter or bookmark spontaneously → reconstruct a decision and branch → save explicitly.
 
-**Campaign:** select strategic objectives or narrative conditions → declare allowed interventions/budgets → search → inspect trade-offs or supported routes → assess independent responses/stresses → freeze policies/models → evaluate fresh worlds → retain useful histories and their assumptions.
+**Campaign:** choose strategic optimization or an explicit narrative search mode → declare target quantification, temporal conditions, interventions, sampling, population and budget → inspect trade-offs or causal routes with result status → assess responses and freeze policies/models where reliability is claimed → evaluate fresh unconditioned worlds → retain useful histories and assumptions.
 
 | View | Purpose | Release |
 |---|---|---|
 | Sketch and quantity inspector | Targeted levers, matched reference, counts, units, sources, coverage, applicability and fidelity | R0 |
 | Timeline and actor perspective | Attempts, observations, selected beliefs/plans, legal status, counterpart responses, realized events and deterministic summary | R0 |
 | Decision branch | Complete state reconstruction; separate decision, premise and imposed-event modes; first material divergence | R0 |
-| Story archive | Typed narrative filters, author notes and durable policy/history references independent of strategic pruning | R0 |
+| Story exploration and archive | Open causal candidates before pruning, supported dramatic views, typed filters and spontaneous bookmarks | R0 |
 | Campaign and narrative query | Targeted objective/constraint/descriptor and narrative forms, budgets, allowed interventions and selection denominators | R1 |
 | Trade-offs, response and history types | Global/per-cell strategy archives, independent responses/stress, fresh assessment and representative histories | R1 |
 | General catalog editor and optional narration | Broader supported fields and reviewed typed-claim-based prose | R2 |
@@ -139,13 +143,11 @@ Charts and tables share selections, units and statuses. Basic structured replay,
 
 ## 7. Requirements and acceptance register
 
-The synchronized register contains **76 requirements: 74 Must and 2 Should**. First obligations are **47 in R0, 18 in R1, 9 in R2 and 2 in R3**, with **12 explicit later phase gates**. These are contracts, not development-effort estimates or passing product tests.
-
-[backlog.json](backlog.json), revision 0.6, is authoritative for full Given/When/Then criteria, source references, prerequisites and phase gates. The following register/statements mirror it. A mismatch, unresolved reference, dependency cycle or prerequisite in a later release blocks the documentation gate.
+The backlog is authoritative for Given/When/Then acceptance. This register mirrors every statement, release and later gate. Revision 0.7 strengthens existing IDs: 76 requirements, 74 Must and 2 Should; first obligations remain R0 47, R1 18, R2 9 and R3 2, with 12 later phase gates and 27 demonstrations.
 
 ### 7.1 Register
 
-| Requirement | Capability | Priority | First obligation | Later gates |
+| ID | Requirement | Priority | First release | Later phase gates |
 |---|---|---|---|---|
 | TL-001 | Pin every experiment | Must | R0 | — |
 | TL-002 | Import the six bundles | Must | R2 | — |
@@ -215,11 +217,11 @@ The synchronized register contains **76 requirements: 74 Must and 2 Should**. Fi
 | TL-066 | Generate structural schemas with explicit runtime bindings | Must | R2 | — |
 | TL-067 | Store batched results with recoverable manifests | Must | R0 | — |
 | TL-068 | Define and enforce world semantics | Must | R0 | — |
-| TL-069 | Represent selected beliefs and intentions | Must | R0 | — |
+| TL-069 | Connect selected beliefs and intentions to actual choices | Must | R0 | — |
 | TL-070 | Adjudicate attempts without leaking hidden information | Must | R0 | — |
-| TL-071 | Separate lawful and breach exploration profiles | Must | R0 | — |
+| TL-071 | Scope lawful and supported exceptional conduct by actor | Must | R0 | — |
 | TL-072 | Branch from a complete decision state | Must | R0 | — |
-| TL-073 | Explore narrative conditions and preserve author choices | Must | R0 | R1 |
+| TL-073 | Discover varied story candidates and search explicit narrative targets | Must | R0 | R1 |
 | TL-074 | Enforce mechanism applicability and provisional continuations | Must | R0 | — |
 | TL-075 | Demonstrate usefulness for plot development | Must | R0 | R1 |
 | TL-076 | Resolve simultaneous commitments consistently | Must | R0 | — |
@@ -306,7 +308,7 @@ The synchronized register contains **76 requirements: 74 Must and 2 Should**. Fi
 
 **TL-040 Separate accounting identities from economic assumptions.** The engine shall advance explicit opening stocks through dated flows and valuation or other changes, reconcile financial postings, and identify behavioural equations and calibration assumptions separately from accounting identities.
 
-**TL-041 Define success before search.** Each search shall pin an objective-and-constraint set defining beneficiaries, scope, units, direction, horizon, aggregation across time and futures, thresholds, and evidence/coverage requirements.
+**TL-041 Define success before search.** Each strategic optimization or policy-reliability search shall pin its objective/target-and-constraint set, beneficiaries, scope, units, horizon, aggregation, thresholds and coverage. Narrative filtering, open exploration and existential or premise search use TL-073 contracts and require no strategic objective set or Pareto output.
 
 **TL-042 Generate attempts under declared action profiles.** The simulator shall expose parameterized Pacifica action attempts with observation-safe eligibility, costs, duration, legal status, physical constraints and declared effects; adjudication shall distinguish attempted conduct from lawful authority and realized execution.
 
@@ -360,29 +362,27 @@ The synchronized register contains **76 requirements: 74 Must and 2 Should**. Fi
 
 **TL-067 Store batched results with recoverable manifests.** Outcomes and selected trajectories shall be written in batches as immutable content-addressed columnar artifacts, with retained manifests and a rebuildable local query catalog; time steps shall not write rows individually.
 
-**TL-068 Define and enforce world semantics.** Supported world and experiment records shall follow the explicit ontology for identity, qualified relationships, truth and claims, beliefs, time, branch scope, action lifecycle and explanation links, with machine-checkable invariants for the active slice.
+**TL-068 Define and enforce world semantics.** Supported records shall enforce registered predicate signatures, state keys and ownership, immutable revisions, target/valid/belief/receipt times, qualified relationships and branch scope, with machine-checkable invariants for the active ontology subset.
 
-**TL-069 Represent selected beliefs and intentions.** The bounded model shall represent selected character and institutional goals, beliefs, plans and commitments, with dated observations and reviewed update rules that explain consequential decisions and changes of plan.
+**TL-069 Connect selected beliefs and intentions to actual choices.** Every modeled choice shall bind its decision-maker, represented institution, dated authority, resource owners, permitted information and executed decision procedure; selected goals, beliefs, plans and commitments shall influence decisions only through that procedure and retain inspectable reasons.
 
 **TL-070 Adjudicate attempts without leaking hidden information.** The engine shall separate perceived eligibility, selected attempts, actual adjudication, realized effects and disclosed observations, including rejection, delay, partial implementation and failure.
 
-**TL-071 Separate lawful and breach exploration profiles.** Experiments shall select a lawful profile or an explicit supported breach-exploration profile; legal status, physical feasibility, authorial constraints and engine invariants shall remain distinct.
+**TL-071 Scope lawful and supported exceptional conduct by actor.** Experiments shall bind lawful, apparent-authority or breach-exploration conduct to named actors/action families; perceived authorization, actual legality, intention, physical execution and discovery consequences shall remain distinct.
 
 **TL-072 Branch from a complete decision state.** The author shall branch at a recorded decision point using a complete checkpoint or deterministic reconstruction and a declared decision, premise or imposed-event intervention, preserving established history and explicit lineage.
 
-**TL-073 Explore narrative conditions and preserve author choices.** The author shall define narrative conditions separately from actor objectives and retain selected policies and histories in a durable story archive independent of strategic dominance; R1 shall add bounded search for supported narrative conditions.
+**TL-073 Discover varied story candidates and search explicit narrative targets.** R0 shall support open exploration, supported story-candidate views, narrative filters and spontaneous bookmarks before strategic pruning; R1 shall distinguish existential-history, policy-reliability and minimum-premise-change searches with explicit temporal semantics, populations and result statuses.
 
 **TL-074 Enforce mechanism applicability and provisional continuations.** Every active mechanism shall declare an executable applicability predicate, read/write ownership, evidence and counterexample tests; leaving its supported domain shall invalidate dependent claims or create an explicitly selected provisional continuation.
 
-**TL-075 Demonstrate usefulness for plot development.** Release evidence shall include author evaluation of a bounded dramatic decision, distinct causal alternatives, consequential agency, understandable branches and retained ideas, alongside model correctness and performance.
+**TL-075 Demonstrate usefulness for plot development.** Release evidence shall include author evaluation of attributable choices, causal alternatives, understandable branches and useful retained ideas on prepared and held-out writing questions, including open exploration and a manual-workflow comparator, alongside technical correctness and performance.
 
 **TL-076 Resolve simultaneous commitments consistently.** The engine shall resolve simultaneous and sequential interactions through registered phases, resource reservations, allocation/tie rules and settlement semantics that are independent of incidental module or actor iteration order.
 
 ### 7.3 Additional phase gates
 
-These extend earlier requirements. Full Given/When/Then records remain in the backlog. Stable acceptance IDs do not determine release; AC-036-R1 moves to R2 while retaining its identifier.
-
-| Requirement | Phase | Additional evidence | Additional prerequisites |
+| Requirement | Release | Acceptance | Dependencies |
 |---|---|---|---|
 | TL-015 | R2 | Budgets, interest, repayment, losses, currencies and borrower/lender schedules reconcile under declared decimal and rounding rules. | TL-061 |
 | TL-019 | R2 | Exact fixture labels, C0 conditions, aliases and distinct scenario premises remain visible. | TL-002, TL-009 |
@@ -394,12 +394,12 @@ These extend earlier requirements. Full Given/When/Then records remain in the ba
 | TL-036 | R2 | Supported fields, unknown source fields, labels and original bytes survive losslessly. | TL-002, TL-026 |
 | TL-053 | R1 | Enumerable benchmarks, simple-policy/random-search comparisons, response/stress sensitivity and fresh assessments support the declared bounded search claim. | TL-048, TL-049, TL-062, TL-063 |
 | TL-053 | R2 | Fixture parity remains a financial equivalence check; independent actor/physical validation is still required. | TL-028, TL-061 |
-| TL-073 | R1 | Declare allowed intervention fields, budgets, predicate/event order, change-cost units or lexicographic order, ties and plausibility/evidence constraints before search. Return distinct best-found supported routes and unsuccessful attempts; minimality is only claimed within an exhaustively checked bounded search space. Other actors decide independently in decision-mode search. Imposed-event and premise-mode results remain separate conditional experiments. Search-conditioned frequencies are not unconditional probabilities; freeze selected policies and evaluate fresh unconditioned worlds before reporting their ordinary success distributions. | TL-048, TL-049, TL-050, TL-055 |
-| TL-075 | R1 | Review causal variety, meaningful agency, branch comprehensibility and useful retained ideas against the R0 workflow; report sample and protocol limits. Neither 100,000 rollouts nor attractive prose substitutes for author acceptance; shortcomings are recorded before expansion. | TL-048, TL-049, TL-064, TL-073 |
+| TL-073 | R1 | Declare mode, target quantification, temporal expression, allowed interventions, sampling, evidence, population and budget. existential_history asks for a supported witness; policy_reliability compares target satisfaction on fresh unconditioned worlds; minimum_premise_change searches permitted edits using declared costs/order and ties. A rare supported witness need not be reliable. Story sampling may target declared uncertain conditions with recorded selection/weight contracts, but never grants actor foresight, forced counterparties or policy control over random seeds. Premise packages remain separately assessed. Distinguish found_supported, found_conditional, no_match_within_budget, unsatisfiable_within_exhaustive_scope and unsupported_query. Unresolved temporal predicates never pass; impossibility/minimality claims require the stated exhaustive bounded check. Return causally distinct best-found routes and inspectable unsuccessful searches. Imposed-event histories are conditional consequence experiments, not supported witnesses that a policy generated the event. Freeze selected policies and evaluate fresh unconditioned worlds before reporting ordinary distributions. Root-world, evaluation and branch denominators remain separate; targeted shares never establish unconditional success. R1 existential-history search may rank supported decision/policy edits by explicit change costs without altering premises; such ranking needs units/order, bounds and ties and claims minimality only after exhaustive bounded checking. | TL-048, TL-049, TL-050, TL-055 |
+| TL-075 | R1 | Review causal variety, meaningful agency, branch comprehensibility and useful retained ideas against the R0 workflow; report sample and protocol limits. Neither 100,000 rollouts nor attractive prose substitutes for author acceptance; shortcomings are recorded before expansion. Repeat open exploration and the manual-workflow comparison with a fresh held-out question if earlier assessment feedback informed development; report novelty, assumption disclosure and repair burden. | TL-048, TL-049, TL-064, TL-073 |
 
 ### 7.4 End-to-end demonstrations
 
-| # | Demonstration | Stage | Requirements |
+| ID | Demonstration | Release | Requirements |
 |---|---|---|---|
 | 1 | Independent reference: baseline plus accepted/refused/counteroffered credit, changed terms/dates, failed rollover and interim shortage; compare values and later feasibility. | M0/R0 | TL-040, TL-053, TL-060 |
 | 2 | Sketch a supported financing/commitment lever; show provisional 1,000/10,000-path targets, counts, coverage, current identity and offline replay; explicitly save a version. | R0 | TL-022, TL-023, TL-058 |
@@ -416,13 +416,18 @@ These extend earlier requirements. Full Given/When/Then records remain in the ba
 | 13 | Apply a finance-skill proposal as validated model inputs and trace a detailed quantity to its source, derivation and instrument. | R2 | TL-010, TL-025 |
 | 14 | Inject a broken cash/debt identity and an unconfigured cycle; show the terms/residual or cycle path without inheriting an old success badge. | R0; detailed R2 | TL-012, TL-014, TL-015 |
 | 15 | Validate disputed/unknown consent, contradictory claims and succession: preserve institution-owned obligations, individual identities, valid dates and actor-specific beliefs. | R0 | TL-068, TL-069 |
-| 16 | A selected belief update changes a recorded plan; personal and institutional commitments conflict without granting an actor extra authority or private information. | R0 | TL-069, TL-070 |
+| 16 | A pinned personal/institutional decision rule uses beliefs and competing commitments; its recorded reasons identify actual inputs and rejected alternatives. Changed relevant belief changes the choice; later attached motives cannot justify it. | R0 | TL-069, TL-070 |
 | 17 | Two simultaneous offers compete for one resource; reordering actors/modules preserves registered allocation, settlement and release of refused reservations. | R0 | TL-076 |
-| 18 | Compare lawful rejection with one supported physically possible breach and its consequences; later cure preserves the breach interval and independent resistance. | R0 | TL-071, TL-076 |
+| 18 | Bind lawful conduct to Pacifica and supported exceptional conduct to an independent counterparty; test strict rejection, apparent authority with delayed discovery, intentional breach and later cure without invented consent. | R0 | TL-071, TL-076 |
 | 19 | Resume an unchanged decision state exactly, then fork a Pacifica decision, a dated premise and an imposed event separately; preserve prefix, hidden state and selection labels. | R0 | TL-072 |
-| 20 | Retain a dominated but interesting history after pruning; search a registered narrative condition or bounded minimum change in R1 without forcing counterparties or interpreting selected-path frequency as ordinary success. | R0; bounded search R1 | TL-073 |
+| 20 | Open exploration surfaces a causally distinct dominated history before strategic pruning, supports a spontaneous bookmark and deduplicates numeric variants; R1 distinguishes witness, reliability and premise searches. | R0; bounded search R1 | TL-073, TL-062, TL-064 |
 | 21 | Cross an institutional applicability boundary, propagate unavailable claims, then explicitly choose a registered provisional continuation with conditional results and preserved denominator. | R0 | TL-074 |
-| 22 | Use predeclared real writing questions to assess distinct causal alternatives, meaningful agency, branch clarity, time to first retained idea and repair burden; record author acceptance before broad tooling or scale. | M0/R0; repeat R1 | TL-075 |
+| 22 | Evaluate prepared and open-ended writing tasks plus a supported question withheld from tuning against notes/manual workflow; record new causal ideas, assumption disclosure, repair and author acceptance before expansion. | M0/R0; repeat R1 | TL-075 |
+| 23 | Reports about March cash arrive out of order in June; current truth, target period, historical beliefs and immutable delivered payloads remain distinct. Overlapping resolved state conflicts fail validation. | R0 | TL-068, TL-070 |
+| 24 | Substitute an officeholder while preserving institutional liabilities; decision authority, private beliefs and commitments follow explicit bindings. MetricSample data cannot enter the actor view without an Observation channel. | R0 | TL-017, TL-044, TL-069 |
+| 25 | A run censored in 1930 leaves no-default-through-1932 unresolved; distinguish exhausted search from exhaustively proved infeasibility, and a rare supported witness from policy reliability. | R0 temporal evaluation; R1 search | TL-073, TL-055 |
+| 26 | 100 root worlds with 20 unsupported parent paths and 20 provisional continuations retain 100 parent evaluations and 120 branch executions; separate conditional results, retries and cache reuse without inventing independent evidence. | R0 accounting; R1 assessment | TL-047, TL-055, TL-067, TL-074 |
+| 27 | Two histories with similar financial outcomes but different frustrated plans remain distinct story candidates; numerical jitter of one conflict does not create another. Derived dramatic claims cite decisions and effects and never mutate the world. | R0 | TL-023, TL-073 |
 
 ## 8. Exchange and model contracts
 
@@ -441,10 +446,10 @@ R0 contracts use versioned typed declarations and explicit bindings. Structural 
 | Result manifest | Durable artifact hashes, completeness, definitions, statuses, covered/unavailable measures and replay assets |
 | History/narration | Feature/clustering configuration, selection denominators, representative paths and typed event/motive/explanation records |
 | Decision checkpoint/intervention | Complete world/actor/queue/obligation state or verified reconstruction; prefix/draw identity; decision, premise or imposed-event mode |
-| Narrative query/bookmark | Predicates/order, allowed interventions, evidence/budget/change costs, selection denominator, retained history/policy and assumptions |
-| Author review | Predeclared writing tasks/protocol, author judgments, retained ideas, timings, repair and acceptance decision |
+| Narrative query/candidate/bookmark | Explicit mode/quantification, temporal/search statuses, sampling/interventions, evidence/costs, population, supported dramatic view and spontaneous retained history/policy |
+| Author review | Prepared/open/held-out writing tasks, manual comparator, novelty after assumption disclosure, judgments, retained ideas, timings, repair and acceptance |
 
-Normalized observations key run, metric, entity/geography and period, with value or explicit missing reason. Shared definitions are referenced rather than duplicated, but retained bundles/manifests must resolve old inputs without a live server.
+MetricSample records key run, metric, entity/geography and period, with value or explicit missing reason, units/basis and population. Observation exclusively means information delivered to an actor through a channel. EvaluationPopulation distinguishes root worlds, policy-world evaluations, branch runs and retries with explicit membership, selection and weights; row count is not an inferred denominator. Shared definitions and retained bundles resolve old inputs without a live server.
 
 Treat imports as data. Protect original bytes and hashes; unsupported majors fail without mutation. R2's fixture adapter preserves unknown source fields, labels and migration provenance. Spreadsheet formulas remain inert evidence, and no supported calculation delegates to Excel or a formula interpreter.
 
@@ -496,9 +501,9 @@ The base campaign count is an initial screening workload. Extra sampling, respon
 
 | Milestone | Exit evidence |
 |---|---|
-| M0 Define the dramatic question and prove the bounded model | Agree one financing/commitment dilemma, indispensable actors, selected beliefs/intentions, narrative conditions, supported action profiles and consequences, evidence, temporal resolution and the author acceptance procedure. Specify active ontology records, adjudication phases and validity envelopes; check independent baseline/changed-input cases and realistic speed. Confirm or revise targets without requiring broad tooling. |
-| M1 Deliver a useful bounded strategic sketchpad | Pass independent reference and semantic tests, observation-safe attempts, resource resolution, one supported breach comparison, selected belief/plan changes, complete decision-point forks and applicability handling. The author can inspect causal alternatives and retain a useful dominated history with its assumptions; complete the agreed usefulness review using deterministic summaries. |
-| M2 Discover strategies and narrative alternatives | After the R0 author gate, demonstrate assessed global/per-cell strategy search, budgeted sampling, independent responses/stress and fresh assessment, plus bounded narrative-condition/minimum-change search and a repeated author usefulness review. Targeted configuration forms suffice. |
+| M0 Define the dramatic question and prove the bounded model | Agree one bounded financing/commitment dilemma and prove a small semantic prototype before fixing optimized runtime interfaces: predicate/state/time rules, decision ownership and reasons, delayed reports, independent refusal, actor-specific conduct/consequences, branching, causal story selection and population accounting. Pin prepared/open/held-out author tasks and the manual comparator; derive independent financial checks and measure realistic speed. |
+| M1 Deliver a useful bounded strategic sketchpad | Pass bounded semantic/reference cases and complete decision branches. Surface causally different supported candidates, including a dominated history without a requested ending, using deterministic dramatic views and spontaneous bookmarks. Pass the author gate on prepared/open/held-out tasks with assumptions and repair costs exposed. |
+| M2 Discover strategies and narrative alternatives | After the R0 author gate, demonstrate assessed strategic search and distinct existential-history, policy-reliability and minimum-premise-change modes, correct temporal/search statuses and population accounting. Repeat causal discovery and author review with a fresh held-out task; targeted forms suffice. |
 | M3 Extend authoring tools and detailed financial fidelity | Deliver the general editor, structural generation and optional grounded narration after the author workflow is established; satisfy full ledger forensic/policy-reassessment, fixture parity and deep provenance gates. |
 | M4 Expand the supported world | Additional actors/regions/modules and semantic rebases pass their own evidence and behavior checks; any hosted mode is separately designed. |
 
@@ -526,12 +531,12 @@ Strategy discovery, multiple objectives, independent other actors, Excel indepen
 | D-014 Narration | proposed | R0/R1 use structured timelines and deterministic summaries. Optional LLM narration follows in R2, grounded in typed event, motive and causal records. | The author usefulness gate precedes prose tooling. Provider/cost/review details remain open; narration does not add world facts. |
 | D-015 Catalog format and declarations | open | Use ontology.md and the structured ontology contract for semantic identities and invariants; minimal validated types and explicit bindings execute the bounded slice. General structural generation follows in R2. | Choose YAML or TOML later; storage choice does not supply semantics. Future schemas/validators must implement the ontology contracts. |
 | D-016 Behavior descriptors and archive capacity | open | Select two or three interpretable behavior descriptors aggregated over a common world design, including never/undefined outcomes and assignment uncertainty; keep per-cell Pareto representatives. | Cell boundaries, summaries, capacity and deterministic diversity-pruning must be declared and tested without a hidden utility score. |
-| D-017 Author narrative conditions | incorporated design parameters open | Keep narrative predicates, dramatic preferences and an author story archive separate from strategic objectives and Pareto archives. R0 filters/bookmarks; R1 searches supported routes and minimum changes. | Choose the first predicates, change-cost definition and search bounds in M0/R1. No universal drama score or forced opponent compliance. |
-| D-018 Semantic and intention scope | incorporated design subset open | Use distinct person/office/institution/faction identities, world facts/claims/beliefs, dated goals/plans/commitments and qualified rights/obligations. | M0 selects the smallest active subset; personal preferences are reviewed hypotheses and use existing character IDs where applicable. |
-| D-019 Legality and adjudication profiles | incorporated design mechanisms open | Keep lawful search and explicitly selected supported breach exploration separate. Eligibility is observation-safe; actual execution and consequences are adjudicated. | M0 chooses one supported breach case with enforcement/resistance/consequence rules. Unsupported breach families remain disabled. |
+| D-017 Author narrative conditions | incorporated design parameters open | R0 surfaces causal story candidates before strategic pruning and permits spontaneous bookmarks; R1 separates existential-history, policy-reliability and minimum-premise-change search. | Define causal signatures, temporal query results, capacity and population units. Open exploration requires no predefined ending or strategic objective set. |
+| D-018 Semantic and intention scope | incorporated design subset open | Register predicate/state/time semantics and immutable revisions; bind choices to a DecisionContext and executed DecisionRecord using selected beliefs, goals and commitments. | M0 proves decision ownership, delayed-report semantics and a consequential intention change before fixing runtime interfaces; personal motives remain reviewed assumptions. |
+| D-019 Legality and adjudication profiles | incorporated design mechanisms open | Bind lawful, apparent_authority and breach_exploration to named actors/action families; keep perceived authority, actual legality and discovery separate. | Lawful Pacifica can encounter independently chosen supported counterparty breaches. M0 defines one bounded exceptional-conduct/consequence family and tests its applicable profiles. |
 | D-020 Decision point interventions | incorporated design | Provide decision, premise and imposed-event branch modes with complete state reconstruction, dated information and immutable prefix lineage. | Ordinary optimization controls only Pacifica; imposed outcomes remain conditional and cannot certify ordinary policy success. |
 | D-021 Applicability and provisional continuation | incorporated design envelopes open | Check mechanism validity envelopes during execution. Allow explicitly selected registered provisional assumptions as linked conditional continuations. | Invalidity propagates to dependent claims; conditional and structural-model populations are not silently pooled into certified rankings. |
-| D-022 Creative usefulness gate | incorporated design protocol open | Agree real writing tasks and author acceptance procedure in M0; demonstrate a bounded dramatic decision in R0 before broad tooling and search scale. | Record usefulness, time to first retained idea and repair burden without treating an automated score as author judgment. |
+| D-022 Creative usefulness gate | incorporated design protocol open | Agree prepared, open-ended and held-out writing tasks plus a manual-workflow comparator; demonstrate causal novelty and author usefulness before expansion. | Record whether ideas remain useful after assumptions are disclosed, time and repair; a tuned demonstration or automated score cannot replace author acceptance. |
 
 Material risks include unsupported behavior, inadequate objective or narrative definitions, hidden information through interfaces, discarded interesting paths, silent extrapolation, inaccurate decision-state reconstruction and false probability claims. Use bounded mechanisms, explicit semantic contracts, independent tests, preserved selection modes and direct author evaluation.
 
@@ -539,6 +544,8 @@ Material risks include unsupported behavior, inadequate objective or narrative d
 
 [backlog.json](backlog.json) preserves pinned project sources and the supplied revision 0.4 input hashes. U13 records the request to incorporate the v0.5 review into v0.6 and update the existing PR. S11 records that review against commit `f0da5c000541352ccbfd2a49264614a248af8eb6`; S12 supplies the narrative-planning precedents for intentions, beliefs and conflicting plans. Their centralized planning algorithms are not adopted as actor controllers.
 
+U14 requests revision 0.7 and the existing draft PR update. S13 records the critical review of commit `30b6f11b2e0dbd965fcb5f9101fc65045e7689a0`; its nine recommendations map to strengthened existing requirements. The v0.6 traceability is retained in backlog review history.
+
 The baseline remains `cc6e017780970433ab63bc95d0e3749510b44d49`; alternatives remain `626ffbb0bd6486c19164f89104569d78321ebd55`. Original sources, the supplied workbook and [fixture manifest](fixture-manifest.json) retain their identities. The [objective sheet](objectives-and-constraints.md), [action/actor catalog](action-and-actor-catalog.md), [ontology](ontology.md) and [structured catalog](draft-model-catalog.json) are synchronized design definitions.
 
-Revision 0.6 vision, architecture, ontology, requirements and backlog form one proposal. The backlog's review traceability maps each accepted recommendation to requirements and documents. Product/model review is separate from narrative adoption; generated paths, personal motives, calculations and narration do not approve canon.
+Revision 0.7 vision, architecture, ontology, requirements and backlog form one proposal. The backlog's review traceability maps each accepted recommendation to requirements and documents. Product/model review is separate from narrative adoption; generated paths, personal motives, calculations and narration do not approve canon.

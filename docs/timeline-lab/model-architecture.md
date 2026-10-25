@@ -1,16 +1,16 @@
 # Timeline Lab model and data architecture
 
-**Design recommendation · 25 October 2026 · Revision 0.6**
+**Design recommendation · 25 October 2026 · Revision 0.7**
 
 Build a native simulator supporting strategic sketches, plot exploration, multiobjective policy search and inspectable histories. Begin with one bounded financing/commitment dilemma, indispensable actors, selected character beliefs/intentions and independent reference calculations. Prove the author workflow before expanding search and supporting tooling. The [product vision](product-vision.md), [requirements](requirements.md) and [backlog](backlog.json) define the scope and release gates.
 
-The architecture keeps Git-versioned world files, Parquet/DuckDB results, Python execution, explicit fidelity projections and later detailed-ledger assessment. Revision 0.6 adds a semantic resolver, actor information/intention state, an explicit adjudication protocol, complete decision branches, narrative query/retention services and runtime applicability propagation.
+The architecture keeps Git-versioned world files, Parquet/DuckDB results, Python execution, explicit fidelity projections and later detailed-ledger assessment. Revision 0.7 makes predicate/state/time rules, executed decision reasons, actor-scoped conduct, narrative candidate extraction before strategic pruning, explicit search modes and population accounting part of those services.
 
 ## 1. The model foundation
 
 A world state identifies entities, population, productive capacity, cash, debt, public/private claims, usable forces, supply, relations, institutions and legal rights at a date. Actions and events change it under versioned rules. Separate ownership and jurisdiction from practical control and access.
 
-The first slice is a proposed Japan financing/commitment dilemma: terms and timing, acceptance/refusal/counteroffer, actual funding/draws, monthly liquidity and supported readiness effects, plus one selected institutional conflict and consequential belief/plan change. M0 selects its actor roster, narrative conditions, lawful/breach comparison, consequences and external conditions; these test ingredients are not canon. A bounded result cannot establish global diplomatic optimality or outcomes in omitted theatres.
+The first slice is a proposed Japan financing/commitment dilemma: terms and timing, acceptance/refusal/counteroffer, actual funding/draws, monthly liquidity and supported readiness effects, plus one selected institutional conflict and consequential belief/plan change. M0 selects its actor roster, narrative conditions, actor-scoped conduct comparison, consequences and external conditions; these test ingredients are not canon. A bounded result cannot establish global diplomatic optimality or outcomes in omitted theatres.
 
 Use one family of mechanism definitions with declared implementations and fidelity projections:
 
@@ -41,7 +41,9 @@ flowchart LR
     Search["Policy and narrative-condition search"] --> Fast
     Fast --> Trace["Events, explanation links and applicability"]
     Ref["Independent reference cases"] --> Trace
-    Trace --> Artifacts["Immutable artifacts and manifests"]
+    Trace --> Candidates["Bounded causal candidates before strategic pruning"]
+    Candidates --> Artifacts["Immutable artifacts and manifests"]
+    Trace --> Artifacts
     Artifacts --> Index["Rebuildable query index"]
     Index --> UI["Sketch, campaign and story exploration"]
     UI --> Branch["Decision-state reconstruction and intervention"]
@@ -58,7 +60,7 @@ flowchart LR
 | Git world catalog | Author-written entities, assumptions, overlays, objectives and named versions |
 | Resolver | Pinned ancestry, typed references, effective/information dates, semantic conflicts, active record subset and complete immutable bundles |
 | Runtime binding/compiler | Explicit indexing, initialization, unit conversion and state-update ownership |
-| Actor state and observation boundary | Private beliefs, plans and memories; eligibility, previews and messages use permitted information |
+| Actor state and decision service | Private beliefs/plans, immutable observations, person/institution context, controller bindings and executed decision reasons |
 | Adjudication kernel | Registered phases, actual preconditions, independent consent, resource reservations, settlement and disclosed observations |
 | Fast engine | Supported transitions without UI, storage or network calls; runtime applicability and status propagation |
 | Independent reference cases | Separately derived expectations for changed financial inputs and feasibility |
@@ -66,7 +68,7 @@ flowchart LR
 | Search | Global/per-cell trade-offs, budgeted sampling, own-interest responses, separate stress and fresh assessment |
 | Artifact coordinator | Durable immutable files/manifests, recovery and query-index registration |
 | Branch service | Complete decision-state reconstruction; separate decision, premise and imposed-event modes |
-| Story exploration | Narrative predicates, bounded route/minimum-change search and durable bookmarks outside Pareto pruning |
+| Story exploration | Candidate selection before strategic pruning, supported dramatic views, open exploration, explicit search modes and durable spontaneous bookmarks |
 | Author evaluation | Predeclared writing tasks and recorded acceptance before broad tooling or scale |
 | Local application | Narrow forms and deterministic summaries first; general editing and optional prose in R2 |
 
@@ -81,6 +83,10 @@ The [ontology](ontology.md) defines the contract that structural declarations im
 Separate people, offices, institutions and factions, with dated role tenure and explicit succession mappings. Distinguish underlying WorldFact, Assertion, delivered Observation and actor Belief. Goals, Plans and Commitments can explain action without making promises into legal Obligations. Agreements express qualified parties, authority, terms, dates, rights and termination. ActionAttempt, Adjudication and RealizedEvent retain separate identities.
 
 Semantic validation checks reference domains/cardinality, ownership, temporal/branch scope, unknown/disputed values, action/profile compatibility and mechanism read/write ownership before compilation. Unresolved material truth requires a declared hypothesis branch or blocks the mechanism using it. Source disagreement never silently becomes a world fact.
+
+The active PredicateDefinition registry adds named argument roles, target-time meaning, value domain/units, cardinality, state-key construction and authoritative writers. WorldFact and runtime arrays project one owned state through pinned bindings. Resolve conflicting effective intervals before execution; append immutable revisions and explicit supersession/splits. Belief intervals and proposition target times remain separate. Observation payload snapshots/hashes cannot change or expose author-only references after delivery; MetricSample rows are author results, not actor information.
+
+The decision service builds DecisionContext before invoking the controller: decision-maker, represented principal, dated role/authority, resource owners, permitted information, goals/commitments and pinned choice procedure. The controller binding declares which policy choices and internal actor procedures interact; an optimizer cannot silently override enabled personal intentions. DecisionRecord stores alternatives considered by that procedure, actual used inputs, trade-offs/rejections, random addresses and selection origin. Replaying a choice verifies its recorded reasons; retrospective goal attachment does not supply motive. Succession has explicit private-state transfer, and author overrides remain labeled.
 
 Keep valid/effective time, information receipt and author recording time distinct. Preserve institutional liabilities through leadership changes unless an explicit rule transfers or extinguishes them. A graph database is not required: typed records and reference tables carry these semantics, and stable logical IDs map to runtime indices.
 
@@ -128,7 +134,7 @@ For one local author, use schema-validated YAML or TOML in Git for author-writte
 | World, mechanisms, assumptions, objectives, narrative queries and saved sketches | Validated text, pinned Git parent and commit plus resolved-content hash |
 | Unsaved lever edits | Temporary content-addressed draft state; explicitly save a named version |
 | Source attachments | Original bytes in Git/LFS or versioned private artifact storage, with hashes |
-| Compact results, selected traces and history features | Batched content-addressed Parquet |
+| MetricSample results, selected traces, candidate features and population membership | Batched content-addressed Parquet |
 | Decision checkpoints and actor state | Versioned immutable artifacts or a verified deterministic reconstruction recipe |
 | Author bookmarks and review records | Durable versioned records retaining policy/history/query, assumptions, status and referenced assets |
 | Run/campaign identity, assets, statuses and environment | Retained immutable manifests |
@@ -139,6 +145,8 @@ Workers write owned temporary/result artifacts; one coordinator registers comple
 Publication spans separate durability domains. An atomic rename is not a transaction covering files, Git and DuckDB. Persist files and manifest, validate completeness/checksums, then commit the catalog registration. On interruption, reconcile orphan files, missing assets and incomplete manifests. Never publish partial output as a complete run. Guard saved Git refs against the expected parent and reject stale-tab overwrites.
 
 Rebuild the query index from retained manifests. Keep resolved bundles and referenced Git/assets reachable so later edits or cleanup cannot make a pinned result unreplayable. Author bookmarks pin their referenced artifacts independently of optimizer archives; pruning or clustering cannot delete them.
+
+Candidate extraction receives every completed or partial supported trace summary before strategic pruning. Its bounded store records examined population, capacity, causal signatures and evictions; shortlisted candidates retain reconstructible inputs/environment/draw references. Publication includes these references and population membership before pruning removes strategic representations. Metrics and actor-delivered snapshots use separate tables and access paths.
 
 PostgreSQL remains a candidate for a later hosted/multi-user mode. SQLite is also viable for small transactional metadata. RDF/document stores are unnecessary for the stated numeric workflow; this recommendation does not depend on categorical claims that those systems cannot validate data.
 
@@ -152,7 +160,7 @@ Eligibility masks, previews, rejection messages and fallbacks must not inspect h
 
 Register resource priority, deterministic ties or addressed random ties, reservation release/expiry and atomic versus partial agreement semantics. Competing modules cannot both spend the same cash/collateral/transport slot. Changing incidental actor/module order must not alter results.
 
-A lawful profile rejects unauthorized execution. A selected breach-exploration profile enables only registered physically possible breaches with covered institutional, enforcement and obligation consequences. Physical/accounting invariants and locked authorial premises remain binding. Later cure preserves the earlier breach record.
+Bind conduct by actor/action family and time. lawful rejects actual unauthorized execution; apparent_authority separately enables supported conduct mistakenly believed authorized, with actual illegality recorded at execution and actor discovery delayed by its channel; breach_exploration enables registered intentional violations. Mixed bindings allow lawful Pacifica and independent counterparty misconduct. Overlap precedence, coverage and consequences are validated; no profile invents consent or resources, and later cure preserves earlier breaches.
 
 Annual strategic reporting does not authorize annual-only cash accounting. Resolve months or event dates when a draw, rollover, route interruption or commitment can change feasibility. A coarser conditional experiment must state the omitted risk. Feedback loops need a declared lag or solver with convergence/failure behavior.
 
@@ -231,6 +239,8 @@ Fixture replay can prescribe authored events for arithmetic equivalence. Discove
 
 The author story archive is independent of both strategic archives. A bookmarked dominated policy or rare path survives pruning with its immutable inputs and assumptions. Narrative conditions select histories; they do not alter actor utility or grant future information.
 
+Before either strategic archive prunes an evaluated history, route its compact causal trace to the bounded story-candidate selector. The selector uses registered goal/conflict/choice/information signatures and exposes retention/coverage independently of strategic rank. Open exploration needs no strategic objective set. Strategic archive diversity, statistical history clustering and narrative causal variety are distinct contracts.
+
 An ordinary MAP-Elites archive selects by scalar quality. Pacifica's archive must instead preserve multiobjective alternatives. Define descriptor aggregation over a common world design, never/undefined bins, uncertainty and cell-instability behavior; define capacity and pruning without a hidden mandatory weighted score. Exhaustive small benchmarks test nondominance and pruning separately. [pyribs GridArchive](https://docs.pyribs.org/en/latest/api/ribs.archives.GridArchive.html).
 
 Response search declares which parts of Pacifica's policy an actor knows, including publicly communicated commitments; private policy code is not visible by default. Specify whether response analysis is unilateral or joint and reject incompatible combinations of replies. Actor best response is not synonymous with damaging Pacifica. Hostile stress explicitly declares which Pacifica quantity it targets and how far an actor may deviate from its own acceptable or near-best outcome. One revision round is a bounded sensitivity procedure, not a solved game. Lost advantage alone is not an exploit; an exploit finding needs a documented defect/counterexample. PSRO supplies a methodological reference for response-policy search, not an automatic equilibrium guarantee. [PSRO](https://arxiv.org/html/1711.00832v2).
@@ -243,21 +253,33 @@ Checkpoint policies, search state, archive/pruning rules, pending evaluations, d
 
 ## 8. Histories and narrative exploration
 
-### Narrative conditions and retention
+### Candidate extraction and dramatic views
 
-R0 provides typed predicates over recorded events/trajectories, manual filtering and durable story bookmarks. R1 searches supported routes or minimum changes in a declared intervention space. Pin predicates, temporal order, evidence/plausibility constraints, allowed fields and budget. Minimum change uses explicit units or lexicographic costs, bounds and tie rules; claim only best-found results unless the bounded space is exhaustively checked.
+R0 offers open exploration before a narrative ending is chosen. A streaming selector consumes each generated history or reconstructible compact trace before strategic pruning, computes supported causal signatures and retains bounded representatives. Register considered features, capacity, deterministic tie/eviction rules and coverage. Include consequential choices, conflicting commitments, externally frustrated plans, revelations and reversals; numeric/date jitter is not a new plot. The enumerable reference set must surface a distinct dominated history without an author-specified ending.
 
-Author search may inspect full outcomes but cannot leak its predicate or hidden state to actor decisions. Ordinary search changes only Pacifica policies. Premise and imposed-event searches are separately labeled conditional experiments. Targeted samples retain their selection denominator; ordinary success distributions require fresh unconditioned evaluation of the frozen selected policy.
+StoryCandidate is a derived view over immutable decisions and effects. Its deterministic summary includes focal actor, goal, obstacle/conflict, choice, sacrifice, consequence and unresolved tension, with assumptions and missing evidence explicit. Derivation rules create no world effects or new intentions. Distinguish actor-perceived results from actual outcomes and external frustration from voluntary abandonment. Spontaneous bookmarks allow null query/candidate links and preserve referenced assets.
 
-### Recorded histories and prose
+### Query execution and search
 
-R0's structured timeline and deterministic template summary need no network or LLM. Events record decisions, observations, counterpart responses, resource effects, chance and provenance.
+The query evaluator consumes registered predicate definitions and explicit horizons, variable bindings, event order and temporal operators. R0 evaluates filter/open-exploration results. Use the ontology's satisfied/violated/unresolved/unsupported rules; partial horizons cannot prove absence, unknown negation cannot become true, and unsupported mechanisms never silently satisfy a target.
 
-R1 clusters assessed event/trajectory features into history types and records feature scaling, method, parameters, shares, distinguishing associations and an actual representative. Preserve rare/outlier and terminal paths; computational errors are not invented trajectories. PRIM or similar scenario discovery may explain associations, with controlled reruns needed for model-based causal claims.
+R1 separates existential_history (one supported generated witness), policy_reliability (target attainment across fresh unconditioned worlds) and minimum_premise_change (best-found permitted premise edits and a witness with explicit costs/order/ties). Search specifications bind target quantification, allowed fields/interventions, sampler, evidence, budget and population. Strategic multiobjective search remains a separate entry point; narrative exploration does not require a strategic scorecard.
 
-Optional R2 narration consumes typed claims and event references after computation. Insert numbers from saved results. Motives and causal relationships need explicit supporting records as well as actor/date/event identity. Number/ID matching cannot prove semantic truth; templates and typed claims are authoritative, while unsupported or ambiguous free prose is rejected, separated as author speculation or reviewed.
+Intervention modes remain decision, premise and imposed_event. Story sampling can target declared uncertainty with a saved selection/proposal/weight contract; it cannot put future predicates into actor inputs, force counterpart choices or make favorable seeds policy variables. Imposed-event histories are conditional consequence experiments. Report found_supported, found_conditional, no_match_within_budget, unsatisfiable_within_exhaustive_scope or unsupported_query; infeasibility and minimality claims need the registered exhaustive bounded evidence.
 
-Store claim references, prompt/model/provider and check versions. Narration is draft/non-canon and cannot mutate results. The offline structured product remains complete.
+### Population accounting
+
+An EvaluationPopulation service records world-design/root IDs, policy/actor/mechanism/assessment evaluation keys, branch lineage, membership, selection, weights and counting unit. It supplies all summaries, candidate shares and exports; individual modules cannot infer their denominator from row count.
+
+100 root worlds with 20 unsupported paths and 20 provisional child continuations remain 100 original policy-world evaluations: 80 supported and 20 unsupported. There are 120 logical branch executions before retries. The 20 continuations form a selected conditional population, not 20 added independent worlds.
+
+Preserve root status; report a continuation scenario separately. If justified outcome bounds exist, publish lower/upper aggregate bounds over the original population; otherwise withhold the affected aggregate. Retries, cache hits and reused evaluations are cost/accounting fields, not new evidence.
+
+### History types and prose
+
+R1 clusters assessed event/trajectory features into statistical history types with saved scaling, parameters, stated population shares and actual representatives. These types are separate from narrative causal signatures. Rare/outlier and terminal histories remain accessible; computational errors do not become invented trajectories. Associations need controlled interventions for stronger model-causal claims.
+
+Optional R2 narration consumes typed claims after computation. Numbers come from saved results; motives cite the actual DecisionRecord inputs, and causal/dramatic links cite mechanism or derivation supports. Unsupported prose is rejected or separated as author interpretation. Store claim/prompt/provider/model/check versions; narration cannot mutate results or canon. Offline structured timelines and deterministic dramatic views remain complete.
 
 ## 9. Identity, branching and recovery
 
@@ -268,6 +290,8 @@ At a named decision phase, save or deterministically reconstruct all relevant st
 A decision intervention changes a supported Pacifica attempt with the same established past and information. A premise intervention declares effective and information dates; an imposed event explicitly conditions the history. Earlier causal changes require an earlier fork, or an explicit admissible external intervention at the chosen point. Preserve branch mode, parent prefix hash, changed fields and assumptions. Recompute endogenous effects while matching exogenous worlds where valid; expose the first consequential divergence with typed support links.
 
 Imposed opponent outcomes cannot enter ordinary policy-success assessment. The author can inspect their consequences without interpreting them as generated responses. Full obligation and actor state retention is essential to avoid a branch silently forgetting promises or private information.
+
+Checkpoints additionally retain predicate revisions, immutable observation payloads, decision/context and controller state, actor conduct bindings and population lineage. A one-attempt author override differs from changing a continuing policy rule; continuation applies registered plan-update rules and does not invent a retrospective motive.
 
 ### Versions and recovery
 
@@ -281,14 +305,14 @@ Separate authority, evidence, execution, accounting, funding, coverage and fidel
 
 | Stage | Concrete exit |
 |---|---|
-| M0 bounded model | Agree the dramatic financing/commitment question, active ontology, selected beliefs/plans, profiles/consequences, narrative conditions, evidence and author acceptance protocol. Derive independent reference cases and measure realistic speed. |
-| M1 useful R0 sketch | Demonstrate meaningful agency and causal alternatives, observation-safe adjudication, resource settlement, one supported lawful/breach comparison, full decision forks, applicability handling and a retained dominated story; pass author review with deterministic summaries. |
+| M0 semantic prototype | Prove predicate/state/time rules, decision ownership/reasons, delayed reports, independent refusal, supported conduct, causal candidate selection and population identity on one dilemma before fixing optimized interfaces. Pin prepared/open/held-out author tasks and the manual comparator; derive references and measure speed. |
+| M1 useful R0 sketch | Demonstrate meaningful agency and causal alternatives, observation-safe adjudication, resource settlement, one supported actor-scoped conduct comparison, full decision forks, applicability handling and a retained dominated story; pass author review with deterministic summaries. |
 | M2 R1 discovery | Add assessed strategy and bounded narrative-condition/minimum-change search, response/stress assessment, fresh worlds, history types and repeated author review. Use targeted configuration forms. |
 | M3 R2 tools and fidelity | Add general editing, structural generation and optional grounded narration; deliver full instrument forensic/policy reassessment, six-fixture parity, skill derivations and deep evidence inspection. |
 | M4 R3 expansion | Support additional questions/regions/actors and semantic rebases with their own evidence; design hosted mode separately. |
 
-M0 records real writing tasks and the author acceptance procedure. Review causal variety, consequential agency, branch comprehensibility and useful retained ideas; record time to the first retained idea and manual repair. Author judgment is separate from model correctness and benchmark speed. A failed usefulness gate requires an explicit design/scope revision before broader tooling or search scale.
+M0 records prepared and open-ended writing tasks, a supported question withheld from tuning, and a notes/manual-workflow comparator with task/time scope. Review new causal possibilities, actual agency, branch clarity and ideas that remain useful after assumptions are disclosed; record time and repair. A held-out question used for tuning becomes development material. Author judgment controls usefulness acceptance separately from correctness/speed; failure requires design/scope revision before expansion.
 
 The stack remains provisional: native Python, profiled NumPy/Numba, Git text, Parquet/DuckDB, FastAPI and React/TypeScript. The semantic core, information boundary and adjudication rules govern implementations; fixed shapes and schema generators serve the bounded problem.
 
-The revision 0.6 [requirements](requirements.md) and [backlog](backlog.json) contain 76 stable requirements and 12 later phase gates. The [ontology](ontology.md) and [structured catalog](draft-model-catalog.json) define semantic contracts; the [fixture manifest](fixture-manifest.json) preserves financial reference identities. The [objective sheet](objectives-and-constraints.md) and [action/actor catalog](action-and-actor-catalog.md) supply model definitions to narrow.
+The revision 0.7 [requirements](requirements.md) and [backlog](backlog.json) contain 76 stable requirements and 12 later phase gates. The [ontology](ontology.md) and [structured catalog](draft-model-catalog.json) define semantic contracts; the [fixture manifest](fixture-manifest.json) preserves financial reference identities. The [objective sheet](objectives-and-constraints.md) and [action/actor catalog](action-and-actor-catalog.md) supply model definitions to narrow.

@@ -3,17 +3,17 @@
   "title": "Pacifica Timeline Lab sketching and strategy discovery requirements",
   "status": "proposed",
   "date": "2026-10-25",
-  "approval_status": "user_requested_revision_0_6_incorporating_review_recommendations_and_explicit_ontology_detailed_story_and_model_parameters_remain_open",
+  "approval_status": "user_requested_revision_0_7_incorporating_critical_review_design_contracts_detailed_story_and_model_parameters_remain_open",
   "implementation_status": "not_implemented",
-  "scope": "A bounded native sketchpad for strategic and plot exploration, with explicit ontology, beliefs and intentions, adjudicated attempts, decision-point branches, applicability checks and an author archive; R1 adds assessed strategy and narrative-condition search; R2 adds general editing, optional narration, structural generation and detailed financial fidelity.",
+  "scope": "A bounded native strategic and plot sketchpad with explicit predicate/state semantics, attributable decisions, open story exploration before strategic pruning, actor-specific conduct and complete branches; R1 adds distinct narrative search modes and assessed strategies; R2 adds supporting tooling and detailed fidelity.",
   "interpretation": {
     "authority": "product-vision.md defines the goal; requirements.md summarizes contracts and gates; this revision of backlog.json is authoritative for requirement statements, acceptance criteria, releases and dependencies. Any mismatch blocks the documentation gate.",
     "priority": "Must means required at the stated first release. Explicit phase_gates are additional Must obligations at their named later releases; Should remains a documented recommendation.",
     "release": "R0 proves a bounded dramatic decision and credible accounts. R1 delivers assessed strategy discovery and bounded narrative-condition search. R2 adds general editing, optional LLM narration, structural generation, full detailed-ledger reassessment and six-fixture parity. R3 expands the world.",
     "acceptance": "Criteria and review examples are future obligations, not evidence of implemented or benchmarked software. Reference checks precede recommendations for each supported bounded claim.",
     "dependencies": "depends_on names prerequisites by the first required release; phase_gates may add prerequisites available by the named phase. No earlier release depends on a later one.",
-    "model_scope": "R0 implements one financing/commitment dilemma, a few indispensable actor roles, selected personal intentions and beliefs, and supported consequences. Only its bounded ontology subset must execute. Universal personality simulation, general editing, LLM narration and schema generators are not R0/R1 prerequisites.",
-    "ontology": "ontology.md defines semantic identities, lifecycle and invariants; draft-model-catalog.json.ontology_contract mirrors the record contracts and invariant IDs. This is a design specification, not an executable schema or implemented validator. Future runtime schemas and bindings must satisfy it."
+    "model_scope": "R0 activates the smallest predicate/decision/conduct subset for one dilemma, including pre-pruning causal candidates and open author tasks. A semantic prototype precedes optimized interface commitments; broad personality models, generators and general editing remain outside R0/R1.",
+    "ontology": "ontology.md and the structured catalog agree on 29 record contracts and 16 invariants, including decision, predicate, query and population semantics. These are design obligations, not implemented validators."
   },
   "sources": [
     {
@@ -211,6 +211,19 @@
         "https://ojs.aaai.org/index.php/AIIDE/article/view/18896",
         "https://ojs.aaai.org/index.php/AIIDE/article/view/12428"
       ]
+    },
+    {
+      "id": "U14",
+      "kind": "user_request",
+      "description": "Incorporate the v0.6 critical review into v0.7 of vision, requirements, architecture and ontology, synchronize the backlog and update existing draft PR 8."
+    },
+    {
+      "id": "S13",
+      "kind": "design_review",
+      "description": "Critical review of v0.6 at 30b6f11: decision ownership and executed motives; predicate/state/time semantics; open story discovery before pruning; explicit search targets and incomplete histories; actor-scoped legality and apparent authority; derived dramatic structure; held-out author usefulness; MetricSample naming; root-world/evaluation/branch accounting.",
+      "references": [
+        "https://github.com/c-voelkle/pacifica/tree/30b6f11b2e0dbd965fcb5f9101fc65045e7689a0/docs/timeline-lab"
+      ]
     }
   ],
   "decisions": [
@@ -362,8 +375,8 @@
       "id": "D-017",
       "topic": "Author narrative conditions",
       "status": "incorporated_design_parameters_open",
-      "recommended": "Keep narrative predicates, dramatic preferences and an author story archive separate from strategic objectives and Pareto archives. R0 filters/bookmarks; R1 searches supported routes and minimum changes.",
-      "impact": "Choose the first predicates, change-cost definition and search bounds in M0/R1. No universal drama score or forced opponent compliance.",
+      "recommended": "R0 surfaces causal story candidates before strategic pruning and permits spontaneous bookmarks; R1 separates existential-history, policy-reliability and minimum-premise-change search.",
+      "impact": "Define causal signatures, temporal query results, capacity and population units. Open exploration requires no predefined ending or strategic objective set.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -371,8 +384,8 @@
       "id": "D-018",
       "topic": "Semantic and intention scope",
       "status": "incorporated_design_subset_open",
-      "recommended": "Use distinct person/office/institution/faction identities, world facts/claims/beliefs, dated goals/plans/commitments and qualified rights/obligations.",
-      "impact": "M0 selects the smallest active subset; personal preferences are reviewed hypotheses and use existing character IDs where applicable.",
+      "recommended": "Register predicate/state/time semantics and immutable revisions; bind choices to a DecisionContext and executed DecisionRecord using selected beliefs, goals and commitments.",
+      "impact": "M0 proves decision ownership, delayed-report semantics and a consequential intention change before fixing runtime interfaces; personal motives remain reviewed assumptions.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -380,8 +393,8 @@
       "id": "D-019",
       "topic": "Legality and adjudication profiles",
       "status": "incorporated_design_mechanisms_open",
-      "recommended": "Keep lawful search and explicitly selected supported breach exploration separate. Eligibility is observation-safe; actual execution and consequences are adjudicated.",
-      "impact": "M0 chooses one supported breach case with enforcement/resistance/consequence rules. Unsupported breach families remain disabled.",
+      "recommended": "Bind lawful, apparent_authority and breach_exploration to named actors/action families; keep perceived authority, actual legality and discovery separate.",
+      "impact": "Lawful Pacifica can encounter independently chosen supported counterparty breaches. M0 defines one bounded exceptional-conduct/consequence family and tests its applicable profiles.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -407,8 +420,8 @@
       "id": "D-022",
       "topic": "Creative usefulness gate",
       "status": "incorporated_design_protocol_open",
-      "recommended": "Agree real writing tasks and author acceptance procedure in M0; demonstrate a bounded dramatic decision in R0 before broad tooling and search scale.",
-      "impact": "Record usefulness, time to first retained idea and repair burden without treating an automated score as author judgment.",
+      "recommended": "Agree prepared, open-ended and held-out writing tasks plus a manual-workflow comparator; demonstrate causal novelty and author usefulness before expansion.",
+      "impact": "Record whether ideas remain useful after assumptions are disclosed, time and repair; a tuned demonstration or automated score cannot replace author acceptance.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     }
@@ -417,7 +430,7 @@
     {
       "id": "M0",
       "title": "Define the dramatic question and prove the bounded model",
-      "exit": "Agree one financing/commitment dilemma, indispensable actors, selected beliefs/intentions, narrative conditions, supported action profiles and consequences, evidence, temporal resolution and the author acceptance procedure. Specify active ontology records, adjudication phases and validity envelopes; check independent baseline/changed-input cases and realistic speed. Confirm or revise targets without requiring broad tooling.",
+      "exit": "Agree one bounded financing/commitment dilemma and prove a small semantic prototype before fixing optimized runtime interfaces: predicate/state/time rules, decision ownership and reasons, delayed reports, independent refusal, actor-specific conduct/consequences, branching, causal story selection and population accounting. Pin prepared/open/held-out author tasks and the manual comparator; derive independent financial checks and measure realistic speed.",
       "focus_requirements": [
         "TL-001",
         "TL-003",
@@ -441,7 +454,7 @@
       "id": "M1",
       "title": "Deliver a useful bounded strategic sketchpad",
       "release": "R0",
-      "exit": "Pass independent reference and semantic tests, observation-safe attempts, resource resolution, one supported breach comparison, selected belief/plan changes, complete decision-point forks and applicability handling. The author can inspect causal alternatives and retain a useful dominated history with its assumptions; complete the agreed usefulness review using deterministic summaries.",
+      "exit": "Pass bounded semantic/reference cases and complete decision branches. Surface causally different supported candidates, including a dominated history without a requested ending, using deterministic dramatic views and spontaneous bookmarks. Pass the author gate on prepared/open/held-out tasks with assumptions and repair costs exposed.",
       "focus_requirements": [
         "TL-005",
         "TL-006",
@@ -481,7 +494,7 @@
       "id": "M2",
       "title": "Discover strategies and narrative alternatives",
       "release": "R1",
-      "exit": "After the R0 author gate, demonstrate assessed global/per-cell strategy search, budgeted sampling, independent responses/stress and fresh assessment, plus bounded narrative-condition/minimum-change search and a repeated author usefulness review. Targeted configuration forms suffice.",
+      "exit": "After the R0 author gate, demonstrate assessed strategic search and distinct existential-history, policy-reliability and minimum-premise-change modes, correct temporal/search statuses and population accounting. Repeat causal discovery and author review with a fresh held-out task; targeted forms suffice.",
       "focus_requirements": [
         "TL-013",
         "TL-020",
@@ -1092,7 +1105,8 @@
           "Only the public share belongs to the Treasury; private/foreign claims retain their owners.",
           "Partner production and reserves remain separate from core sovereign resources.",
           "Missing or expired rights create no inherited receipts; legal ownership and practical access remain distinct.",
-          "Person, office, institution and faction identities remain distinct; succession cannot silently transfer personally held assets or delete institutional obligations."
+          "Person, office, institution and faction identities remain distinct; succession cannot silently transfer personally held assets or delete institutional obligations.",
+          "Active predicates have named argument roles, units/domains, target-time interpretation, cardinality, state-key and authoritative-writer rules; numeric runtime state and WorldFact views reconcile through one binding."
         ]
       },
       "depends_on": [
@@ -1106,7 +1120,9 @@
         "S9",
         "U12",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1320,7 +1336,8 @@
           "Events expose stable IDs, times, parties, observations, effects and basic source/assumption references.",
           "Rejected offers produce no fictional loan, treaty or alignment; unsupported effects remain visible.",
           "The timeline and template summary work offline and reproduce from the event log.",
-          "Show attempted, refused, partial and completed actions separately; selected goal/plan/belief references support motives and changes of intention without inventing private thoughts."
+          "Show attempted, refused, partial and completed actions separately; selected goal/plan/belief references support motives and changes of intention without inventing private thoughts.",
+          "The R0 timeline includes a deterministic StoryCandidate view of focal actor, goal, obstacle/conflict, choice, sacrifice, consequence and unresolved tension with support references; missing dramatic evidence remains explicit."
         ]
       },
       "depends_on": [
@@ -1335,7 +1352,9 @@
         "S9",
         "U12",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1988,7 +2007,7 @@
       "priority": "Must",
       "release": "R1",
       "title": "Define success before search",
-      "statement": "Each search shall pin an objective-and-constraint set defining beneficiaries, scope, units, direction, horizon, aggregation across time and futures, thresholds, and evidence/coverage requirements.",
+      "statement": "Each strategic optimization or policy-reliability search shall pin its objective/target-and-constraint set, beneficiaries, scope, units, horizon, aggregation, thresholds and coverage. Narrative filtering, open exploration and existential or premise search use TL-073 contracts and require no strategic objective set or Pareto output.",
       "acceptance": {
         "id": "AC-041",
         "given": "Candidate welfare, security, fiscal and casualty measures",
@@ -2009,7 +2028,9 @@
         "U9",
         "U11",
         "S6",
-        "S7"
+        "S7",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2027,7 +2048,7 @@
         "when": "The policy proposes actions",
         "then": [
           "Eligibility visible to an actor uses only its observations, beliefs and public rules; actual feasibility and consent resolve through TL-070.",
-          "In the lawful profile, known unauthorized conduct is unavailable and execution without required authority is rejected. An explicitly selected breach profile can execute only supported physically possible breaches, retaining consequences under TL-071.",
+          "For conduct bound to lawful, known unauthorized attempts are unavailable and actually unauthorized execution is rejected. Supported apparent_authority and breach_exploration bindings are separate; neither invents authority or consent.",
           "Insufficient actual resources produce refusal, partial execution, delay or failure under a registered rule; neither profile creates free resources or silent fallback success.",
           "Action completion respects delays; a proposal is not guaranteed acceptance. Supported combinations and timing need not appear in the six fixtures."
         ]
@@ -2042,7 +2063,9 @@
         "U10",
         "S6",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2064,7 +2087,8 @@
           "Any clairvoyant comparator is labelled and excluded from implementable recommendations.",
           "With identical actor-visible state and policy randomness, visible action masks, previews and pre-resolution messages also match despite different hidden world facts.",
           "Counterparty knowledge of Pacifica's policy is explicit: public commitments may be known, private policy code and future orders are not automatically visible.",
-          "Clairvoyant adjudication can resolve an attempt but discloses only observations authorized by the observation rule."
+          "Clairvoyant adjudication can resolve an attempt but discloses only observations authorized by the observation rule.",
+          "The observation-equivalence test pins the same actor/controller version, initial private state, preferences, goals and policy randomness; identical reports alone do not require different people or belief models to choose identically. MetricSample data are not actor observations."
         ]
       },
       "depends_on": [
@@ -2077,7 +2101,9 @@
         "S9",
         "U12",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2098,7 +2124,8 @@
           "Changing the opponent model changes outcomes where the model predicts it should.",
           "Actor decisions and visible reasons are logged; independent agency does not require statistically independent random draws.",
           "A centrally chosen favorable history is not presented as a Pacifica-controlled strategy.",
-          "Selected officeholders can have personal commitments and mistaken beliefs distinct from institutional objectives under TL-069; other actors remain independent in every ordinary policy run."
+          "Selected officeholders can have personal commitments and mistaken beliefs distinct from institutional objectives under TL-069; other actors remain independent in every ordinary policy run.",
+          "DecisionContext identifies decision-maker versus represented institution, control binding, authority and resource owners; a change of officeholder preserves institutional liabilities and follows explicit private-state and preference transfer rules."
         ]
       },
       "depends_on": [
@@ -2110,7 +2137,9 @@
         "U10",
         "S7",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -2196,7 +2225,8 @@
           "Rollout/draw identities and logical event decisions agree; numeric outputs meet declared tolerances.",
           "Each draw address includes world-design/world ID, time, stream, entity/event and draw ordinal as needed; matched comparisons share explicit exogenous addresses without renumbering after branch changes.",
           "Endogenous choices may diverge; one world cannot alter another's state or draw schedule.",
-          "All terminal, infeasible and computational-error records remain accounted for; errors are not invented outcome values."
+          "All terminal, infeasible and computational-error records remain accounted for; errors are not invented outcome values.",
+          "World designs, root worlds, policy-world evaluations, branch executions and retries have distinct identities; branch creation or retry cannot increase independent-world count."
         ]
       },
       "depends_on": [
@@ -2208,7 +2238,9 @@
         "U8",
         "S8",
         "S9",
-        "U12"
+        "U12",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2229,7 +2261,8 @@
           "The larger search is compared with simple policies and random search under equal evaluation budgets.",
           "Users can inspect trade-offs without a mandatory scalar score.",
           "Outputs say best found within the declared model, policy family and budget unless a global guarantee is established.",
-          "Strategic archives remain distinct from author bookmarks. Pareto pruning cannot delete retained story artifacts or manufacture a narrative probability."
+          "Strategic archives remain distinct from author bookmarks. Pareto pruning cannot delete retained story artifacts or manufacture a narrative probability.",
+          "Every evaluated history or reconstructible compact trace reaches the bounded narrative candidate selector before strategic/archive pruning; the selector reports coverage, capacity and eviction without changing strategic ranks."
         ]
       },
       "depends_on": [
@@ -2242,7 +2275,9 @@
         "U9",
         "S8",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -2482,7 +2517,8 @@
           "Its selected trajectories and aggregate evaluation reproduce within declared tolerances.",
           "The event timeline identifies Pacifica actions, other actors' actions and chance outcomes separately.",
           "The export can become a new draft narrative/scenario without implying canon approval.",
-          "Missing external assets are identified before replay."
+          "Missing external assets are identified before replay.",
+          "Exports include decision-context/reason revisions, immutable observation payloads, predicate/time definitions, conduct bindings, narrative/search status and root/evaluation/branch population lineage."
         ]
       },
       "depends_on": [
@@ -2493,7 +2529,9 @@
       ],
       "sources": [
         "U4",
-        "U8"
+        "U8",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2513,7 +2551,8 @@
           "Metric aggregation, risk statistic, weight/probability status and joint target attainment are explicit.",
           "Sample uncertainty and adaptive sampling needs are shown; unweighted scenario fractions are not historical probabilities.",
           "Financial/physical terminal duties are reported or bounded; unresolved continuation cannot become a winning zero penalty.",
-          "Computational failures remain status records and cannot be treated as success, discarded silently or converted to arbitrary utility penalties."
+          "Computational failures remain status records and cannot be treated as success, discarded silently or converted to arbitrary utility penalties.",
+          "Report declared population membership, denominator unit, selection and weights. A 100-world assessment with 20 unsupported paths and 20 conditional continuations retains 100 parent evaluations, 80 supported/20 unsupported, plus 20 separate conditional child executions; retries and cache reuse are not evidence."
         ]
       },
       "depends_on": [
@@ -2526,7 +2565,9 @@
         "U9",
         "S8",
         "S9",
-        "U12"
+        "U12",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2757,7 +2798,8 @@
           "No hidden weighted score selects a single best policy; the UI exposes within-cell trade-offs and assessment status.",
           "Descriptor coordinates use a registered summary over a common world design, including never/undefined cases, sample uncertainty and cell instability; a lucky realized path cannot assign policy type.",
           "Coverage or a different behavior cell is not evidence of robustness; later response and fresh assessment results remain separate.",
-          "The author story archive persists independently of global/per-cell pruning and is not scored as a strategy archive."
+          "The author story archive persists independently of global/per-cell pruning and is not scored as a strategy archive.",
+          "Strategic archive pruning cannot prevent candidate extraction from a history; novel conflict/choice structures can remain accessible even when their generating policy is dominated in every cell."
         ]
       },
       "depends_on": [
@@ -2770,7 +2812,9 @@
         "S9",
         "U12",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2826,7 +2870,8 @@
           "Shares are fractions of the stated tested ensemble unless probability calibration is justified; distinguishing conditions remain associations.",
           "Rare/outlier and terminal paths remain inspectable even if not in a large cluster; computational errors retain separate status and are not fabricated histories.",
           "Type labels and representatives link to replayable events, counts, coverage and model assumptions.",
-          "Author annotations and saved interesting paths survive cluster reassignment; selected narratives do not change empirical cluster shares."
+          "Author annotations and saved interesting paths survive cluster reassignment; selected narratives do not change empirical cluster shares.",
+          "Narrative causal signatures use supported actor goals, conflicting/frustrated plans, consequential choices and information changes; numerical jitter does not establish a new plot. Statistical history clusters and narrative candidate diversity are separate views."
         ]
       },
       "depends_on": [
@@ -2839,7 +2884,9 @@
         "S9",
         "U12",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2860,7 +2907,8 @@
           "Numeric placeholders insert saved values; ID/number matching alone is not described as semantic truth verification.",
           "A structured claim/template boundary is authoritative; ambiguous free prose requires review rather than an absolute automated grounding guarantee.",
           "Provider/prompt/model, claim references and checks are saved; narration is draft/non-canon, optional and unable to change results; offline use remains complete.",
-          "Optional LLM prose follows the R0 author usefulness gate; deterministic summaries remain complete in R0/R1. Goal and belief records can ground motives, but do not establish historical or canonical truth."
+          "Optional LLM prose follows the R0 author usefulness gate; deterministic summaries remain complete in R0/R1. Goal and belief records can ground motives, but do not establish historical or canonical truth.",
+          "Motive claims cite a DecisionRecord and inputs actually used by its procedure, not merely an attached Goal or a retrospective author rationale; dramatic relations retain their derivation and evidence status."
         ]
       },
       "depends_on": [
@@ -2873,7 +2921,9 @@
         "S9",
         "U12",
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2927,7 +2977,8 @@
           "Compact summaries meet the provisional query target on declared workload/hardware; storage and query time are measured separately.",
           "A single catalog coordinator registers only durable completed artifacts; an atomic rename alone is not claimed to transact across files, Git and DuckDB.",
           "Retained run manifests rebuild the index; incomplete/orphan files cannot appear as complete results.",
-          "Nonstored details replay in the pinned environment and reconcile to saved summaries; coverage and error counts survive recovery."
+          "Nonstored details replay in the pinned environment and reconcile to saved summaries; coverage and error counts survive recovery.",
+          "Persist candidate-selection configuration, coverage/eviction and reconstructible references before strategic pruning; MetricSample tables remain distinct from delivered Observation records and population membership survives recovery."
         ]
       },
       "depends_on": [
@@ -2937,7 +2988,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2948,7 +3001,7 @@
       "priority": "Must",
       "release": "R0",
       "title": "Define and enforce world semantics",
-      "statement": "Supported world and experiment records shall follow the explicit ontology for identity, qualified relationships, truth and claims, beliefs, time, branch scope, action lifecycle and explanation links, with machine-checkable invariants for the active slice.",
+      "statement": "Supported records shall enforce registered predicate signatures, state keys and ownership, immutable revisions, target/valid/belief/receipt times, qualified relationships and branch scope, with machine-checkable invariants for the active ontology subset.",
       "acceptance": {
         "id": "AC-068",
         "given": "A bounded world with conflicting source assertions, an unknown consent state, an officeholder change and inherited obligations",
@@ -2957,7 +3010,10 @@
           "Distinct people, offices, institutions and factions retain stable IDs and dated roles; succession follows an explicit asset/obligation mapping.",
           "Unknown, absent, refused and disputed consent remain distinct. Source assertions and public statements cannot silently overwrite branch truth or actor beliefs.",
           "Qualified rights and obligations name all parties, subject matter, conditions, dates and authority; a country-level Boolean cannot replace the agreement.",
-          "Record contracts and invariant IDs agree with ontology.md and the structured catalog; unsupported record effects fail before execution."
+          "Record contracts and invariant IDs agree with ontology.md and the structured catalog; unsupported record effects fail before execution.",
+          "An active PredicateDefinition declares signatures, cardinality, target intervals, state keys, authoritative writers, missingness and query evaluation. Reject incompatible overlapping resolved values; explicit interval splitting/supersession retains immutable prior revisions.",
+          "A March cash report received in June and an older report arriving later cannot rewrite current cash or silently replace a belief about a different target period; event/receipt/target/belief/record times remain separately inspectable.",
+          "Observation payload snapshots and hashes remain unchanged when world facts or author provenance change. MetricSample is an author result record and enters an actor view only through a declared observation channel."
         ]
       },
       "depends_on": [
@@ -2968,7 +3024,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2978,8 +3036,8 @@
       "epic": "Actor semantics",
       "priority": "Must",
       "release": "R0",
-      "title": "Represent selected beliefs and intentions",
-      "statement": "The bounded model shall represent selected character and institutional goals, beliefs, plans and commitments, with dated observations and reviewed update rules that explain consequential decisions and changes of plan.",
+      "title": "Connect selected beliefs and intentions to actual choices",
+      "statement": "Every modeled choice shall bind its decision-maker, represented institution, dated authority, resource owners, permitted information and executed decision procedure; selected goals, beliefs, plans and commitments shall influence decisions only through that procedure and retain inspectable reasons.",
       "acceptance": {
         "id": "AC-069",
         "given": "A character occupying an office with a personal commitment and a mistaken belief about a material proposition",
@@ -2988,7 +3046,10 @@
           "Institutional objectives and personal commitments remain separate; the controlled actor remains Pacifica's executive scope.",
           "Observation receipt, credibility/update rule, resulting belief and affected plan are recorded; a true report need not be believed automatically.",
           "Persisted plans can be active, suspended, abandoned, achieved or failed with supported reasons; unrealized intentions are not realized events.",
-          "Only selected propositions and characters are modeled in R0; unsupported psychology or inferred motives remain explicit author interpretation."
+          "Only selected propositions and characters are modeled in R0; unsupported psychology or inferred motives remain explicit author interpretation.",
+          "A DecisionContext pins person/collective, represented principal or personal capacity, dated roles/authority, resource ownership, control scope, permitted information, preferences and procedure. The controller cannot silently override an enabled personal commitment model.",
+          "A DecisionRecord identifies considered alternatives within the procedure's declared scope, used beliefs/goals/commitments, trade-offs/rejection reasons and randomness. Changing a relevant belief or commitment changes the selected example decision under the stated rule; merely attaching a motive afterward fails.",
+          "Officeholder substitution preserves institutional assets/liabilities while applying explicit personal-state rules. Plan status records distinguish external frustration, voluntary abandonment and success as perceived by the actor versus actual goal satisfaction."
         ]
       },
       "depends_on": [
@@ -2999,7 +3060,9 @@
       "sources": [
         "U13",
         "S11",
-        "S12"
+        "S12",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3019,7 +3082,8 @@
           "Before permitted disclosure, actor-visible eligibility, messages and decisions match; hidden actual feasibility does not filter the policy's choices.",
           "Actual outcomes may differ under declared rules, and only the configured observation channel discloses the difference.",
           "Attempt, adjudication decision, resource effect and observation have distinct IDs and timestamps; no silent replacement action is introduced.",
-          "Registered phase ordering, negotiation rounds and tie rules are pinned and replayable."
+          "Registered phase ordering, negotiation rounds and tie rules are pinned and replayable.",
+          "Every attempt references its DecisionRecord; pre-resolution diagnostics and previews cannot dereference hidden facts through author-only provenance or MetricSample tables."
         ]
       },
       "depends_on": [
@@ -3029,7 +3093,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3039,17 +3105,18 @@
       "epic": "Adjudication",
       "priority": "Must",
       "release": "R0",
-      "title": "Separate lawful and breach exploration profiles",
-      "statement": "Experiments shall select a lawful profile or an explicit supported breach-exploration profile; legal status, physical feasibility, authorial constraints and engine invariants shall remain distinct.",
+      "title": "Scope lawful and supported exceptional conduct by actor",
+      "statement": "Experiments shall bind lawful, apparent-authority or breach-exploration conduct to named actors/action families; perceived authorization, actual legality, intention, physical execution and discovery consequences shall remain distinct.",
       "acceptance": {
         "id": "AC-071",
-        "given": "The same physically possible but unauthorized conduct under two profiles",
-        "when": "The decision is adjudicated",
+        "given": "A lawful Pacifica actor, an independently responding counterparty, and a physically possible action with concealed invalid authority",
+        "when": "Actor/action-family conduct bindings and registered disclosure/consequence rules are exercised",
         "then": [
-          "The lawful profile rejects unauthorized execution; an apparent authority later found invalid has a declared discovery and consequence rule.",
-          "The breach profile permits only an enabled breach family with modeled resistance, enforcement, political and obligation consequences; missing consequence coverage blocks that family.",
-          "Physical limits, accounting identities and locked authorial premises hold in both profiles. Later remedy does not erase the recorded breach interval.",
-          "Profile selection and consequences remain in every trace and comparison; no actor is forced to consent and no generated breach approves canon."
+          "lawful retains strict lawful execution for the bound conduct: actual unauthorized execution is rejected, with hidden reasons withheld until permitted disclosure. Apparent-authority execution is explicitly excluded from this profile.",
+          "apparent_authority permits only a registered physically possible act believed authorized under the actor's pinned rule. Adjudication records actual illegality at execution, while the actor discovers it only through the registered channel; covered resistance, liability and cure rules apply.",
+          "breach_exploration permits only registered intentional breaches with consequence coverage. Unknown/disputed authority uses explicit hypotheses or unsupported status where adjudication needs resolved truth; neither exceptional profile manufactures consent.",
+          "Bindings identify actors/action families, dates and precedence; overlaps without precedence or missing bindings fail configuration. Pacifica may remain lawful while an independent counterparty follows a supported exceptional profile.",
+          "Physical limits, accounting and locked premises hold throughout. Later remedy preserves the earlier breach interval. All unsupported variants remain disabled and generated conduct does not approve canon."
         ]
       },
       "depends_on": [
@@ -3059,7 +3126,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3080,7 +3149,8 @@
           "A decision intervention changes a supported Pacifica attempt using existing information; a premise change declares its effective and knowledge dates; an imposed event remains marked conditional.",
           "Changes requiring an earlier cause fork before that cause; an author edit cannot rewrite an established prefix while claiming the same decision fork.",
           "Matched exogenous draws remain aligned where valid, endogenous effects recompute, and the first consequential divergence and its support records are inspectable.",
-          "Imposed outcomes are excluded from ordinary policy-success assessment; selection/conditioning and branch modes remain in exports."
+          "Imposed outcomes are excluded from ordinary policy-success assessment; selection/conditioning and branch modes remain in exports.",
+          "Checkpoints retain predicate revisions, immutable payloads, decision contexts, controller state, conduct bindings and population lineage. A one-off author decision override is labeled; it cannot be given a fabricated actor motive, and continuation follows the declared policy/plan update rule."
         ]
       },
       "depends_on": [
@@ -3094,7 +3164,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3104,17 +3176,19 @@
       "epic": "Story exploration",
       "priority": "Must",
       "release": "R0",
-      "title": "Explore narrative conditions and preserve author choices",
-      "statement": "The author shall define narrative conditions separately from actor objectives and retain selected policies and histories in a durable story archive independent of strategic dominance; R1 shall add bounded search for supported narrative conditions.",
+      "title": "Discover varied story candidates and search explicit narrative targets",
+      "statement": "R0 shall support open exploration, supported story-candidate views, narrative filters and spontaneous bookmarks before strategic pruning; R1 shall distinguish existential-history, policy-reliability and minimum-premise-change searches with explicit temporal semantics, populations and result statuses.",
       "acceptance": {
         "id": "AC-073",
-        "given": "A strategically dominated history satisfying an author-declared dramatic condition",
-        "when": "The author filters histories, bookmarks the path and reruns a campaign",
+        "given": "A bounded generated population containing strategically dominated policies, causal alternatives and numeric variants of the same conflict, with no required author ending",
+        "when": "Open exploration, filtering, candidate selection and spontaneous bookmarking run",
         "then": [
-          "R0 supports explicit conditions over recorded events/trajectories, manual filtering and annotation of the bounded slice; it needs no general editor or automatic prose.",
-          "The bookmark retains policy/history identity, condition definition, assumptions, assessment/profile status and author rationale even after Pareto pruning or cluster changes.",
-          "Narrative predicates may inspect full recorded outcomes for author analysis but cannot enter actor observations or control other actors.",
-          "Matched/selected histories have an explicit selection denominator; narrative interest is not a probability or a hidden strategic utility score."
+          "Open exploration requires neither a narrative target nor strategic objectives. Each generated history or reconstructible compact trace is offered to the candidate selector before strategic pruning; the bounded store reports selection rule, capacity, coverage and eviction.",
+          "Registered causal signatures distinguish actor goals, conflicts, frustrated plans, revelations and choices. Numeric/date jitter alone does not create a new story type; representative candidates link to actual histories. A dominated but causally distinct example is surfaced without the author naming its ending.",
+          "StoryCandidate is a derived view containing focal actor, goal, obstacle/conflict, choice, sacrifice, consequence and unresolved tension with typed supports. It creates no new motives or world effects and labels unsupported interpretation.",
+          "A bookmark can have null query/candidate references and a spontaneous selection reason; it retains immutable policy/history, assumptions and assessment/profile status after pruning and cluster changes.",
+          "R0 predicates use explicit temporal rules and return satisfied, violated, unresolved or unsupported. A history stopping in 1930 cannot satisfy no-default-through-1932. Candidate access never transfers future author predicates to actors.",
+          "Every filtered/candidate population declares membership, unit, selection and weighting. Narrative interest is neither probability nor strategic utility."
         ]
       },
       "depends_on": [
@@ -3124,7 +3198,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -3133,13 +3209,15 @@
           "release": "R1",
           "acceptance": {
             "id": "AC-073-R1",
-            "given": "A supported narrative predicate and bounded set of Pacifica policy or premise interventions",
+            "given": "A bounded domain with a rare supported narrative route, a reliable-policy target, allowed premise edits, incomplete histories and an exhaustively enumerable impossible query",
             "when": "Narrative-condition or minimum-change search runs",
             "then": [
-              "Declare allowed intervention fields, budgets, predicate/event order, change-cost units or lexicographic order, ties and plausibility/evidence constraints before search.",
-              "Return distinct best-found supported routes and unsuccessful attempts; minimality is only claimed within an exhaustively checked bounded search space.",
-              "Other actors decide independently in decision-mode search. Imposed-event and premise-mode results remain separate conditional experiments.",
-              "Search-conditioned frequencies are not unconditional probabilities; freeze selected policies and evaluate fresh unconditioned worlds before reporting their ordinary success distributions."
+              "Declare mode, target quantification, temporal expression, allowed interventions, sampling, evidence, population and budget. existential_history asks for a supported witness; policy_reliability compares target satisfaction on fresh unconditioned worlds; minimum_premise_change searches permitted edits using declared costs/order and ties.",
+              "A rare supported witness need not be reliable. Story sampling may target declared uncertain conditions with recorded selection/weight contracts, but never grants actor foresight, forced counterparties or policy control over random seeds. Premise packages remain separately assessed.",
+              "Distinguish found_supported, found_conditional, no_match_within_budget, unsatisfiable_within_exhaustive_scope and unsupported_query. Unresolved temporal predicates never pass; impossibility/minimality claims require the stated exhaustive bounded check.",
+              "Return causally distinct best-found routes and inspectable unsuccessful searches. Imposed-event histories are conditional consequence experiments, not supported witnesses that a policy generated the event.",
+              "Freeze selected policies and evaluate fresh unconditioned worlds before reporting ordinary distributions. Root-world, evaluation and branch denominators remain separate; targeted shares never establish unconditional success.",
+              "R1 existential-history search may rank supported decision/policy edits by explicit change costs without altering premises; such ranking needs units/order, bounds and ties and claims minimality only after exhaustive bounded checking."
             ]
           },
           "depends_on": [
@@ -3168,7 +3246,8 @@
           "The default is unsupported/stop for affected computation, with unaffected results retained under their scope; no silent extrapolation or inherited passing badge occurs.",
           "An author can explicitly choose a registered provisional assumption with applicability and uncertainty limits; it creates a linked conditional continuation and cannot fabricate missing state.",
           "Conditional status propagates through affected outputs and aggregations; such paths remain in the total denominator and cannot certify ordinary strategic rankings or historical probabilities.",
-          "Alternative structural models retain separate applicability and assessment summaries unless an explicit justified weighting contract permits aggregation."
+          "Alternative structural models retain separate applicability and assessment summaries unless an explicit justified weighting contract permits aggregation.",
+          "A provisional continuation keeps its parent evaluation's unsupported status and root-world identity, creates a separately identified conditional branch/population and cannot silently replace a parent outcome or inflate its denominator."
         ]
       },
       "depends_on": [
@@ -3178,7 +3257,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -3189,7 +3270,7 @@
       "priority": "Must",
       "release": "R0",
       "title": "Demonstrate usefulness for plot development",
-      "statement": "Release evidence shall include author evaluation of a bounded dramatic decision, distinct causal alternatives, consequential agency, understandable branches and retained ideas, alongside model correctness and performance.",
+      "statement": "Release evidence shall include author evaluation of attributable choices, causal alternatives, understandable branches and useful retained ideas on prepared and held-out writing questions, including open exploration and a manual-workflow comparator, alongside technical correctness and performance.",
       "acceptance": {
         "id": "AC-075",
         "given": "A predeclared set of real Pacifica writing questions including one financing/commitment dilemma",
@@ -3198,7 +3279,9 @@
           "M0 records the questions, expected useful tasks and author acceptance procedure before tuning outputs; examples are test proposals, not canon.",
           "R0 demonstrates distinct supported causal alternatives, a choice attributable to a character/institution, a belief-driven plan change and an inspectable decision fork.",
           "Record author judgments, time to first retained idea, explanation gaps and manual repair needed; no automatic story-quality score substitutes for author acceptance.",
-          "Retained ideas carry unresolved assumptions and consequences; failure of the agreed author gate leads to a scope/design revision before broad tooling or search-scale commitments."
+          "Retained ideas carry unresolved assumptions and consequences; failure of the agreed author gate leads to a scope/design revision before broad tooling or search-scale commitments.",
+          "The protocol reserves at least one supported-domain writing question from model/output tuning, includes an open-ended task with no desired ending, and compares against the author's notes/manual workflow with task/time scope recorded. Once revealed and used for tuning, that question is no longer held out.",
+          "The author assesses previously unconsidered causal possibilities, inspectable decision motives and ideas still useful after assumption disclosure. A prepared financing demonstration alone cannot pass the usefulness gate; no automated literary score replaces the author's decision."
         ]
       },
       "depends_on": [
@@ -3213,7 +3296,9 @@
       ],
       "sources": [
         "U13",
-        "S11"
+        "S11",
+        "U14",
+        "S13"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -3226,7 +3311,8 @@
             "when": "The author repeats the predeclared writing tasks",
             "then": [
               "Review causal variety, meaningful agency, branch comprehensibility and useful retained ideas against the R0 workflow; report sample and protocol limits.",
-              "Neither 100,000 rollouts nor attractive prose substitutes for author acceptance; shortcomings are recorded before expansion."
+              "Neither 100,000 rollouts nor attractive prose substitutes for author acceptance; shortcomings are recorded before expansion.",
+              "Repeat open exploration and the manual-workflow comparison with a fresh held-out question if earlier assessment feedback informed development; report novelty, assumption disclosure and repair burden."
             ]
           },
           "depends_on": [
@@ -3271,7 +3357,7 @@
       "verification_status": "not_implemented"
     }
   ],
-  "revision": "0.6",
+  "revision": "0.7",
   "release_counts": {
     "R0": 47,
     "R1": 18,
@@ -3296,9 +3382,12 @@
       "Ontology record and invariant agreement",
       "Action/profile and intervention-mode consistency across catalogs",
       "Complete review recommendation traceability",
-      "Preserved fixture identity and documentation-only paths"
+      "Preserved fixture identity and documentation-only paths",
+      "Decision/predicate/search/profile/population contract agreement",
+      "Preserved requirement, acceptance, record and invariant identities",
+      "All nine v0.6 review recommendations traced"
     ],
-    "documentation_revision": "0.6"
+    "documentation_revision": "0.7"
   },
   "demonstrations": [
     {
@@ -3447,8 +3536,8 @@
     },
     {
       "id": "16",
+      "description": "A pinned personal/institutional decision rule uses beliefs and competing commitments; its recorded reasons identify actual inputs and rejected alternatives. Changed relevant belief changes the choice; later attached motives cannot justify it.",
       "release": "R0",
-      "description": "A selected belief update changes a recorded plan; personal and institutional commitments conflict without granting an actor extra authority or private information.",
       "requirements": [
         "TL-069",
         "TL-070"
@@ -3464,8 +3553,8 @@
     },
     {
       "id": "18",
+      "description": "Bind lawful conduct to Pacifica and supported exceptional conduct to an independent counterparty; test strict rejection, apparent authority with delayed discovery, intentional breach and later cure without invented consent.",
       "release": "R0",
-      "description": "Compare lawful rejection with one supported physically possible breach and its consequences; later cure preserves the breach interval and independent resistance.",
       "requirements": [
         "TL-071",
         "TL-076"
@@ -3481,10 +3570,12 @@
     },
     {
       "id": "20",
+      "description": "Open exploration surfaces a causally distinct dominated history before strategic pruning, supports a spontaneous bookmark and deduplicates numeric variants; R1 distinguishes witness, reliability and premise searches.",
       "release": "R0; bounded search R1",
-      "description": "Retain a dominated but interesting history after pruning; search a registered narrative condition or bounded minimum change in R1 without forcing counterparties or interpreting selected-path frequency as ordinary success.",
       "requirements": [
-        "TL-073"
+        "TL-073",
+        "TL-062",
+        "TL-064"
       ]
     },
     {
@@ -3497,105 +3588,278 @@
     },
     {
       "id": "22",
+      "description": "Evaluate prepared and open-ended writing tasks plus a supported question withheld from tuning against notes/manual workflow; record new causal ideas, assumption disclosure, repair and author acceptance before expansion.",
       "release": "M0/R0; repeat R1",
-      "description": "Use predeclared real writing questions to assess distinct causal alternatives, meaningful agency, branch clarity, time to first retained idea and repair burden; record author acceptance before broad tooling or scale.",
       "requirements": [
         "TL-075"
+      ]
+    },
+    {
+      "id": "23",
+      "description": "Reports about March cash arrive out of order in June; current truth, target period, historical beliefs and immutable delivered payloads remain distinct. Overlapping resolved state conflicts fail validation.",
+      "release": "R0",
+      "requirements": [
+        "TL-068",
+        "TL-070"
+      ]
+    },
+    {
+      "id": "24",
+      "description": "Substitute an officeholder while preserving institutional liabilities; decision authority, private beliefs and commitments follow explicit bindings. MetricSample data cannot enter the actor view without an Observation channel.",
+      "release": "R0",
+      "requirements": [
+        "TL-017",
+        "TL-044",
+        "TL-069"
+      ]
+    },
+    {
+      "id": "25",
+      "description": "A run censored in 1930 leaves no-default-through-1932 unresolved; distinguish exhausted search from exhaustively proved infeasibility, and a rare supported witness from policy reliability.",
+      "release": "R0 temporal evaluation; R1 search",
+      "requirements": [
+        "TL-073",
+        "TL-055"
+      ]
+    },
+    {
+      "id": "26",
+      "description": "100 root worlds with 20 unsupported parent paths and 20 provisional continuations retain 100 parent evaluations and 120 branch executions; separate conditional results, retries and cache reuse without inventing independent evidence.",
+      "release": "R0 accounting; R1 assessment",
+      "requirements": [
+        "TL-047",
+        "TL-055",
+        "TL-067",
+        "TL-074"
+      ]
+    },
+    {
+      "id": "27",
+      "description": "Two histories with similar financial outcomes but different frustrated plans remain distinct story candidates; numerical jitter of one conflict does not create another. Derived dramatic claims cite decisions and effects and never mutate the world.",
+      "release": "R0",
+      "requirements": [
+        "TL-023",
+        "TL-073"
       ]
     }
   ],
   "review_traceability": [
     {
-      "recommendation": "Separate author conditions and preserve interesting dominated histories",
+      "recommendation": "Bind people and institutions to executed decisions",
+      "requirements": [
+        "TL-069",
+        "TL-044",
+        "TL-070"
+      ],
+      "documents": [
+        "ontology.md",
+        "action-and-actor-catalog.md",
+        "model-architecture.md"
+      ]
+    },
+    {
+      "recommendation": "Define predicate/state/time and immutable information semantics",
+      "requirements": [
+        "TL-068",
+        "TL-017",
+        "TL-070"
+      ],
+      "documents": [
+        "ontology.md",
+        "draft-model-catalog.json",
+        "model-architecture.md"
+      ]
+    },
+    {
+      "recommendation": "Discover open causal alternatives before strategic pruning",
       "requirements": [
         "TL-073",
         "TL-048",
         "TL-062",
-        "TL-064"
+        "TL-067"
       ],
       "documents": [
         "product-vision.md",
-        "ontology.md"
+        "ontology.md",
+        "model-architecture.md"
       ]
     },
     {
-      "recommendation": "Make semantic ontology explicit",
+      "recommendation": "Separate narrative search targets and incomplete-history results",
       "requirements": [
-        "TL-068",
-        "TL-017",
-        "TL-036"
+        "TL-041",
+        "TL-073",
+        "TL-055"
       ],
       "documents": [
+        "requirements.md",
         "ontology.md",
-        "model-architecture.md",
-        "draft-model-catalog.json"
-      ]
-    },
-    {
-      "recommendation": "Represent selected character intention and belief",
-      "requirements": [
-        "TL-069",
-        "TL-044",
-        "TL-065"
-      ],
-      "documents": [
-        "ontology.md",
-        "action-and-actor-catalog.md"
-      ]
-    },
-    {
-      "recommendation": "Adjudicate perceived versus actual feasibility, lawful/breach profiles and simultaneous resources",
-      "requirements": [
-        "TL-070",
-        "TL-071",
-        "TL-076",
-        "TL-042",
-        "TL-043"
-      ],
-      "documents": [
-        "ontology.md",
-        "model-architecture.md",
         "objectives-and-constraints.md"
       ]
     },
     {
-      "recommendation": "Make replay and branch concrete",
+      "recommendation": "Scope conduct and reconcile apparent authority with legality",
       "requirements": [
-        "TL-072",
-        "TL-005",
-        "TL-006",
-        "TL-050"
+        "TL-071",
+        "TL-042",
+        "TL-070"
       ],
       "documents": [
         "ontology.md",
-        "model-architecture.md"
+        "action-and-actor-catalog.md",
+        "objectives-and-constraints.md"
       ]
     },
     {
-      "recommendation": "Executable applicability and provisional continuation",
+      "recommendation": "Expose supported dramatic structure and actual decision reasons",
       "requirements": [
-        "TL-074",
-        "TL-033",
-        "TL-053",
-        "TL-057"
-      ],
-      "documents": [
-        "ontology.md",
-        "model-architecture.md"
-      ]
-    },
-    {
-      "recommendation": "Creative usefulness before general tooling",
-      "requirements": [
-        "TL-075",
-        "TL-056",
-        "TL-024",
-        "TL-065",
-        "TL-066"
+        "TL-023",
+        "TL-069",
+        "TL-073",
+        "TL-065"
       ],
       "documents": [
         "product-vision.md",
+        "ontology.md",
+        "model-architecture.md"
+      ]
+    },
+    {
+      "recommendation": "Evaluate held-out and open writing tasks against manual work",
+      "requirements": [
+        "TL-075"
+      ],
+      "documents": [
+        "product-vision.md",
+        "requirements.md",
+        "model-architecture.md"
+      ]
+    },
+    {
+      "recommendation": "Separate MetricSample from delivered Observation",
+      "requirements": [
+        "TL-068",
+        "TL-043",
+        "TL-067"
+      ],
+      "documents": [
+        "ontology.md",
+        "requirements.md",
+        "draft-model-catalog.json"
+      ]
+    },
+    {
+      "recommendation": "Distinguish root-world evaluation and branch denominators",
+      "requirements": [
+        "TL-047",
+        "TL-055",
+        "TL-074",
+        "TL-067"
+      ],
+      "documents": [
+        "ontology.md",
+        "model-architecture.md",
         "requirements.md"
+      ]
+    }
+  ],
+  "review_history": [
+    {
+      "revision": "0.6",
+      "recommendations": [
+        {
+          "recommendation": "Separate author conditions and preserve interesting dominated histories",
+          "requirements": [
+            "TL-073",
+            "TL-048",
+            "TL-062",
+            "TL-064"
+          ],
+          "documents": [
+            "product-vision.md",
+            "ontology.md"
+          ]
+        },
+        {
+          "recommendation": "Make semantic ontology explicit",
+          "requirements": [
+            "TL-068",
+            "TL-017",
+            "TL-036"
+          ],
+          "documents": [
+            "ontology.md",
+            "model-architecture.md",
+            "draft-model-catalog.json"
+          ]
+        },
+        {
+          "recommendation": "Represent selected character intention and belief",
+          "requirements": [
+            "TL-069",
+            "TL-044",
+            "TL-065"
+          ],
+          "documents": [
+            "ontology.md",
+            "action-and-actor-catalog.md"
+          ]
+        },
+        {
+          "recommendation": "Adjudicate perceived versus actual feasibility, lawful/breach profiles and simultaneous resources",
+          "requirements": [
+            "TL-070",
+            "TL-071",
+            "TL-076",
+            "TL-042",
+            "TL-043"
+          ],
+          "documents": [
+            "ontology.md",
+            "model-architecture.md",
+            "objectives-and-constraints.md"
+          ]
+        },
+        {
+          "recommendation": "Make replay and branch concrete",
+          "requirements": [
+            "TL-072",
+            "TL-005",
+            "TL-006",
+            "TL-050"
+          ],
+          "documents": [
+            "ontology.md",
+            "model-architecture.md"
+          ]
+        },
+        {
+          "recommendation": "Executable applicability and provisional continuation",
+          "requirements": [
+            "TL-074",
+            "TL-033",
+            "TL-053",
+            "TL-057"
+          ],
+          "documents": [
+            "ontology.md",
+            "model-architecture.md"
+          ]
+        },
+        {
+          "recommendation": "Creative usefulness before general tooling",
+          "requirements": [
+            "TL-075",
+            "TL-056",
+            "TL-024",
+            "TL-065",
+            "TL-066"
+          ],
+          "documents": [
+            "product-vision.md",
+            "requirements.md"
+          ]
+        }
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "catalog_id": "pacifica-timeline-lab-draft-20261025",
   "status": "DRAFT_FOR_AUTHOR_REVIEW",
   "date": "2026-10-25",
@@ -11,10 +11,11 @@
       "Compare trade-offs among several success variables.",
       "Control Pacifica while other actors respond independently.",
       "Run calculations independently of Excel.",
-      "Incorporate the v0.5 review into v0.6 with explicit ontology and synchronized design/backlog."
+      "Incorporate the v0.5 review into v0.6 with explicit ontology and synchronized design/backlog.",
+      "Incorporate the v0.6 critical review into revision 0.7 and update the existing draft PR."
     ],
     "proposed": [
-      "R0: one financing/commitment dilemma within 1904–1932, with selected beliefs/plans and one supported lawful/breach comparison.",
+      "R0: one bounded financing/commitment dilemma within 1904–1932, attributable decisions, open causal candidates and a supported exceptional-conduct family with actor-scoped comparisons.",
       "Pacifica executive control with independent domestic and foreign responses; personal commitments do not grant new authority.",
       "Strategic objectives are separate from narrative conditions; broader objective families remain gated by coverage.",
       "R1 adds assessed strategy and bounded narrative-condition search. General editing, structural generation and optional narration follow in R2."
@@ -130,7 +131,7 @@
     {
       "id": "SRC-ONTOLOGY",
       "status": "PROPOSED_SEMANTIC_CONTRACT",
-      "title": "Timeline Lab explicit ontology revision 0.6",
+      "title": "Timeline Lab explicit ontology revision 0.7",
       "path": "docs/timeline-lab/ontology.md"
     }
   ],
@@ -142,7 +143,7 @@
     "terminal_assessment": "Report remaining debt, guarantees, maintenance, restoration and treaty obligations beyond 1932; use an explicitly modelled tail or an unresolved-liability bound.",
     "decision_clock": "Annual budget and strategic decisions; monthly finance and response cycles; finer logistics/crisis steps when the supported module requires them.",
     "controlled_actor": "ACT-PAC-EXEC",
-    "control_scope": "Executive agenda, budget proposals and authorized operations. Separate legislative, crown, monetary and foreign consent is adjudicated.",
+    "control_scope": "Pacifica executive agenda under an explicit person/institution controller binding and dated authority. Separate domestic and foreign choices remain independent; no silent replacement of enabled personal intentions by the optimizer.",
     "recommended_objectives": [
       "OBJ-01",
       "OBJ-02",
@@ -192,10 +193,11 @@
       "question": "A Japan financing/commitment dilemma with an institutional conflict and selected consequential belief/plan change.",
       "required_profiles": [
         "lawful",
+        "apparent_authority",
         "breach_exploration"
       ],
-      "breach_scope": "One physically possible supported breach family with explicit consequences; no general permission to skip consent.",
-      "author_gate": "Predeclared real writing tasks, useful alternatives, meaningful agency, branch clarity, retained idea and repair notes.",
+      "breach_scope": "One bounded exceptional-conduct/consequence family; compare strict lawful, supported apparent authority and intentional breach where applicable. Bind conduct by actor/action family, including lawful Pacifica with independent counterparty misconduct.",
+      "author_gate": "Prepared and open-ended writing tasks, a supported question withheld from tuning, and notes/manual-workflow comparison; inspect new causal ideas and their assumptions, agency, branch clarity, time and repair before author acceptance.",
       "requirements": [
         "TL-068",
         "TL-069",
@@ -206,7 +208,8 @@
         "TL-074",
         "TL-075",
         "TL-076"
-      ]
+      ],
+      "preimplementation_gate": "Small semantic prototype for decision ownership, target-time reports, independent refusal, conduct, narrative candidates and population identity before optimized runtime interfaces."
     }
   },
   "metric_contract_required": [
@@ -548,8 +551,8 @@
       "status": "PROPOSED_LAWFUL_PROFILE",
       "rule": "Appropriation, legislation, crown-land rights, treaty ratification and foreign acceptance require the competent bodies under the law in force. A proposal may proceed to negotiation; the executive cannot supply the other party's vote.",
       "threshold": "All required authorities valid before binding execution.",
-      "applies": "Lawful execution requires authority and consent. Supported breach_exploration records physically possible unauthorized conduct and covered consequences; fixture replay retains its source labels.",
-      "breach": "Reject unauthorized execution in lawful mode. Enable only registered breach families with resistance, enforcement, institutional and obligation consequences; preserve breach intervals after remedy. Never manufacture another actor's consent.",
+      "applies": "Conduct bindings apply to named actors/action families. lawful rejects actual unauthorized execution; apparent_authority and breach_exploration require separate registered mechanisms and consequences.",
+      "breach": "Perceived authorization, actual legality, intentional violation and discovery remain distinct. Preserve prior breach intervals after cure, and never manufacture consent.",
       "sources": [
         "SRC-STORY",
         "SRC-CR"
@@ -1728,7 +1731,9 @@
     "llm_role": "May help draft reviewed actor assumptions and explanations. Numerical adjudication uses registered, reproducible model rules; no new runtime coefficient is invented by a language model.",
     "intention": "Selected character goals, beliefs, persistent plans and personal commitments are distinct from institutional objectives. Use dated roles and existing character IDs/crosswalks; updates require registered observations/rules and source/assumption provenance.",
     "information_boundary": "The same permitted information controls policy inputs, eligibility masks, previews, pre-disclosure errors and fallback choices. Adjudicator-only truth is disclosed only through registered observation channels.",
-    "response_knowledge": "Declare whether counterparties know public Pacifica commitments or a policy class; private policy code and future orders remain hidden. State unilateral/joint response assumptions and disallow incompatible reply combinations."
+    "response_knowledge": "Declare whether counterparties know public Pacifica commitments or a policy class; private policy code and future orders remain hidden. State unilateral/joint response assumptions and disallow incompatible reply combinations.",
+    "decision_context": "Every choice binds person/collective, represented institution or personal capacity, dated role/authority, resource owners, control mask, information and actual decision procedure. Institutional optimization cannot silently suppress enabled personal goals.",
+    "decision_reasons": "Record only goals, beliefs and trade-offs actually used by the decision procedure, its considered alternatives and randomness. Author overrides are explicit; officeholder changes preserve institutional liabilities and use declared private-state transfer."
   },
   "actions": [
     {
@@ -1780,7 +1785,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-02",
@@ -1833,7 +1839,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-03",
@@ -1895,7 +1902,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-04",
@@ -1953,7 +1961,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-05",
@@ -2012,7 +2021,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-06",
@@ -2066,7 +2076,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-07",
@@ -2130,7 +2141,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-08",
@@ -2185,7 +2197,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-09",
@@ -2244,7 +2257,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-10",
@@ -2298,7 +2312,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-11",
@@ -2361,7 +2376,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-12",
@@ -2421,7 +2437,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-13",
@@ -2484,7 +2501,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-14",
@@ -2545,7 +2563,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-15",
@@ -2606,7 +2625,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-16",
@@ -2666,7 +2686,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-17",
@@ -2721,7 +2742,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-18",
@@ -2780,7 +2802,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-19",
@@ -2844,7 +2867,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-20",
@@ -2898,7 +2922,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-21",
@@ -2956,7 +2981,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-22",
@@ -3012,7 +3038,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-23",
@@ -3068,7 +3095,8 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
       "id": "ACTN-24",
@@ -3127,11 +3155,12 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.6"
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     }
   ],
   "action_rules": {
-    "schema": "Every attempt has initiator, targets, dated observation snapshot, typed parameters, eligibility rule, plan refs and profile. Adjudication separately records actual preconditions, authority, reservations, independent response, disposition, realized events and disclosure.",
+    "schema": "Every attempt references an immutable DecisionRecord/DecisionContext, observation snapshot, typed parameters and actor/action-family conduct binding. Adjudication records perceived authority, actual legality, independent response, reservations, disposition and disclosure separately.",
     "parameter_bounds": "Currency, quantity, maturity, tax and capacity bounds come from the current state, applicable law and registered evidence. Offer shares lie in [0,1], amounts are nonnegative, but those ranges do not establish affordable or acceptable terms.",
     "lifecycle": [
       "proposed",
@@ -3144,7 +3173,7 @@
     ],
     "partial_approval": "A proposal may be negotiated before approval. A refusal can consume time and cost but creates no fictional treaty or private subscription.",
     "bundles": "Linked actions reference the same financing, capacity and agreements. Financing a project does not separately create a second capital stock or duplicate spending.",
-    "default_enablement": "All action families remain search_enabled=false. Coverage review must supply the active ontology, actual/observed preconditions, ownership/resources, applicability and consequences. Breach families need independent enabling and consequence checks.",
+    "default_enablement": "All action families remain search_enabled=false. Coverage review must supply the active ontology, actual/observed preconditions, ownership/resources, applicability and consequences. Breach families need independent enabling and consequence checks. Apparent-authority variants also require separate enabling, observation and consequence checks.",
     "resolution": "Apply due events and deliver reports; update beliefs/plans; collect attempts from frozen permitted observations; adjudicate actual conditions and independent replies; reserve/allocate resources; commit atomic or declared partial bundles; settle implementation; disclose authorized observations; check applicability and invariants.",
     "failure": "Rejected proposals and adverse outcomes remain in the trace; computational errors have a separate status.",
     "dispositions": [
@@ -3164,7 +3193,13 @@
       "unknown",
       "not_applicable"
     ],
-    "profile_semantics": "The listed action preconditions describe lawful execution. A breach requires a separate enabled transition and consequences; it does not rewrite the lawful preconditions. Authorization may be bypassed only in such a declared breach transition, with unauthorized status retained.",
+    "profile_semantics": {
+      "binding": "Explicit actor ID or declared actor set plus action family, effective interval and rule version; overlaps require declared precedence and uncovered conduct fails configuration. Existing lawful is strict lawful execution for the bound conduct, not a promise that the whole world obeys law.",
+      "lawful": "Actor attempts obey its information; actual unlawful execution is rejected without leaking concealed reasons. Apparent-authority execution is excluded.",
+      "apparent_authority": "Allows a registered physically possible act believed authorized under a pinned credibility rule; actual illegality is recorded immediately by adjudication and disclosed only on the registered discovery channel. Requires a supported consequence model.",
+      "breach_exploration": "Allows only explicitly registered intentional breach families with supported consequences. Apparent authority and intentional violation remain different intention labels.",
+      "mixed_world": "Pacifica can use lawful while a counterparty has a supported different profile. Opponent conduct remains independently chosen; profile selection grants neither consent nor favorable outcomes."
+    },
     "resource_arbitration": "Register priority/tie rules, reservation release/expiry and bundle atomicity; actor order, module order and worker scheduling cannot silently allocate shared cash, collateral or capacity."
   },
   "policy_templates": [
@@ -3349,13 +3384,13 @@
     {
       "id": "REV-07",
       "decision": "Select semantic and narrative slice",
-      "proposal": "Choose active ontology records, character/proposition/plan subset, narrative predicates and a supported lawful/breach comparison.",
+      "proposal": "Choose active predicate/state/time definitions, person/institution decision bindings, causal signatures and one bounded exceptional-conduct family with actor-specific profiles.",
       "status": "OPEN"
     },
     {
       "id": "REV-08",
       "decision": "Approve author evaluation and search contracts",
-      "proposal": "Define writing tasks and acceptance procedure; register minimum-change costs, allowed interventions and selection denominators before narrative search.",
+      "proposal": "Define prepared/open/held-out writing tasks and manual comparator; register search quantification, temporal statuses, change costs, sampling and population units before enabling narrative search.",
       "status": "OPEN"
     }
   ],
@@ -3369,7 +3404,10 @@
     "Distinguish decision, premise and imposed_event branches, recording prefix, effective/information times and full decision-state reconstruction.",
     "Preserve selection denominators for targeted story samples; assess frozen selected policies on fresh unconditioned worlds before reporting ordinary success distributions.",
     "Profile changes and provisional continuations remain explicit; unsupported/conditional paths cannot be silently pooled into stronger rankings.",
-    "Report alternative structural-model assessments separately unless an explicit weighting contract supports aggregation."
+    "Report alternative structural-model assessments separately unless an explicit weighting contract supports aggregation.",
+    "100 root worlds with 20 unsupported paths and 20 provisional child continuations remain 100 original policy-world evaluations: 80 supported and 20 unsupported. There are 120 logical branch executions before retries. The 20 continuations form a selected conditional population, not 20 added independent worlds.",
+    "Open story exploration requires no strategic objective set. Candidate selection precedes pruning; story signatures use supported choices/conflicts rather than numeric jitter.",
+    "Narrative search separates supported existence, policy reliability and minimum premise change; unresolved temporal results and no-match-within-budget never imply successful completion or impossibility."
   ],
   "evidence_register": [
     {
@@ -3493,7 +3531,7 @@
       "id": "EX-13",
       "name": "Dominated but useful story",
       "setup": "A narrative-interesting policy is strategically dominated.",
-      "expected": "The author bookmark and referenced artifacts survive pruning; narrative selection does not alter utility or success probability.",
+      "expected": "Extract causal candidates before strategic pruning, surface a dominated story without a requested ending, permit a spontaneous bookmark and retain its assets.",
       "requirements": [
         "TL-073"
       ]
@@ -3511,16 +3549,69 @@
       "id": "EX-15",
       "name": "Author usefulness",
       "setup": "The bounded dilemma is used on predeclared Pacifica writing tasks.",
-      "expected": "Record causal variety, consequential agency, branch clarity, retained ideas, time and repair burden, then obtain the protocol's author acceptance decision before expansion.",
+      "expected": "Prepared and open-ended writing tasks, a supported question withheld from tuning, and notes/manual-workflow comparison; inspect new causal ideas and their assumptions, agency, branch clarity, time and repair before author acceptance.",
       "requirements": [
         "TL-075"
       ]
+    },
+    {
+      "id": "EX-16",
+      "name": "Delayed reports",
+      "setup": "Reports about March cash arrive out of order in June; current truth, target period, historical beliefs and immutable delivered payloads remain distinct. Overlapping resolved state conflicts fail validation.",
+      "expected": "Satisfy the named semantic and acceptance contracts before the supported feature is enabled.",
+      "requirements": [
+        "TL-068",
+        "TL-070"
+      ]
+    },
+    {
+      "id": "EX-17",
+      "name": "Decision capacity and metric isolation",
+      "setup": "Substitute an officeholder while preserving institutional liabilities; decision authority, private beliefs and commitments follow explicit bindings. MetricSample data cannot enter the actor view without an Observation channel.",
+      "expected": "Satisfy the named semantic and acceptance contracts before the supported feature is enabled.",
+      "requirements": [
+        "TL-017",
+        "TL-044",
+        "TL-069"
+      ]
+    },
+    {
+      "id": "EX-18",
+      "name": "Query completion",
+      "setup": "A run censored in 1930 leaves no-default-through-1932 unresolved; distinguish exhausted search from exhaustively proved infeasibility, and a rare supported witness from policy reliability.",
+      "expected": "Satisfy the named semantic and acceptance contracts before the supported feature is enabled.",
+      "requirements": [
+        "TL-073",
+        "TL-055"
+      ]
+    },
+    {
+      "id": "EX-19",
+      "name": "Population lineage",
+      "setup": "100 root worlds with 20 unsupported parent paths and 20 provisional continuations retain 100 parent evaluations and 120 branch executions; separate conditional results, retries and cache reuse without inventing independent evidence.",
+      "expected": "Satisfy the named semantic and acceptance contracts before the supported feature is enabled.",
+      "requirements": [
+        "TL-047",
+        "TL-055",
+        "TL-067",
+        "TL-074"
+      ]
+    },
+    {
+      "id": "EX-20",
+      "name": "Dramatic structure",
+      "setup": "Two histories with similar financial outcomes but different frustrated plans remain distinct story candidates; numerical jitter of one conflict does not create another. Derived dramatic claims cite decisions and effects and never mutate the world.",
+      "expected": "Satisfy the named semantic and acceptance contracts before the supported feature is enabled.",
+      "requirements": [
+        "TL-023",
+        "TL-073"
+      ]
     }
   ],
-  "design_revision": "0.6",
+  "design_revision": "0.7",
   "ontology_contract": {
     "contract_id": "pacifica.timeline-lab.ontology",
-    "version": "0.6",
+    "version": "0.7",
     "status": "DESIGN_CONTRACT_NOT_EXECUTABLE_SCHEMA",
     "scope": "Only records and mechanisms active in the bounded experiment must have runtime schemas/bindings; unsupported effects are disabled. The full catalog is not a prerequisite for R0.",
     "common_required": {
@@ -3528,7 +3619,10 @@
       "record_type": "registered record type",
       "contract_version": "semantic contract version",
       "scope": "catalog, branch or run identity with explicit parent references",
-      "provenance_refs": "source, assumption, author decision or generated-by references"
+      "provenance_refs": "source, assumption, author decision or generated-by references",
+      "revision_id": "immutable revision ID; references pin this revision",
+      "recorded_at": "author/engine record time, independent of fictional valid time",
+      "supersedes_ref": "previous revision or explicit null; no destructive replacement"
     },
     "record_types": [
       {
@@ -3556,14 +3650,14 @@
       },
       {
         "name": "Proposition",
-        "meaning": "A typed statement whose truth or belief can be evaluated.",
+        "meaning": "A grounded typed question about explicitly bound entities and a target time or interval.",
         "required_fields": [
-          "subject_refs",
           "predicate_id",
-          "object_or_value_type",
-          "units_or_domain"
+          "argument_bindings",
+          "target_interval",
+          "value_domain_ref"
         ],
-        "invariant": "Predicates declare arity, domain/range, time semantics and missing-value policy."
+        "invariant": "Argument roles and target time are part of proposition identity; a claim about March cash is not a claim about June cash."
       },
       {
         "name": "WorldFact",
@@ -3573,9 +3667,10 @@
           "value",
           "resolution_status",
           "valid_interval",
+          "state_key",
           "mechanism_or_resolution_ref"
         ],
-        "invariant": "Resolved, unknown and disputed states are distinct; unresolved material truth requires a hypothesis branch or blocks its use."
+        "invariant": "One resolved value per state key and effective instant; explicit split/supersession preserves older revisions. Unresolved truth is not a fabricated value."
       },
       {
         "name": "Assertion",
@@ -3595,14 +3690,15 @@
         "meaning": "Information actually delivered to a recipient.",
         "required_fields": [
           "recipient_id",
-          "payload_refs",
+          "payload_snapshot_ref",
+          "payload_hash",
           "event_time",
           "sent_at",
           "received_at",
           "channel_rule_id",
           "visibility"
         ],
-        "invariant": "Delivery and belief adoption are separate; payload filtering applies to menus, errors and reports."
+        "invariant": "The actor receives an immutable filtered payload. Later state edits or hidden provenance dereferences cannot alter or enlarge what was delivered."
       },
       {
         "name": "Belief",
@@ -3611,12 +3707,12 @@
           "actor_id",
           "proposition_id",
           "believed_value",
-          "known_since",
+          "belief_interval",
           "observation_refs",
           "update_rule_id",
           "confidence_kind"
         ],
-        "invariant": "Beliefs may be wrong; numeric confidence requires an explicit probability contract, otherwise use declared qualitative states."
+        "invariant": "Proposition target time differs from the interval during which the actor holds the belief; delayed reports follow the registered update rule, not last-arrival wins."
       },
       {
         "name": "Goal",
@@ -3640,10 +3736,12 @@
           "belief_refs",
           "intended_action_refs",
           "status",
+          "actual_goal_status",
           "status_reason_refs",
+          "reason_kind",
           "valid_interval"
         ],
-        "invariant": "Active, suspended, abandoned, achieved and failed plans remain inspectable; intended actions need not occur."
+        "invariant": "Status records the owner's plan assessment; actual goal satisfaction is separately evaluated. Frustration by another actor differs from voluntary abandonment, and unrealized intended actions are not events."
       },
       {
         "name": "Commitment",
@@ -3693,6 +3791,7 @@
         "meaning": "A chosen attempt based on actor-visible state.",
         "required_fields": [
           "initiator_id",
+          "decision_record_ref",
           "action_type_id",
           "target_refs",
           "parameters",
@@ -3702,7 +3801,7 @@
           "plan_refs",
           "profile_ref"
         ],
-        "invariant": "An attempt is distinct from its adjudication and outcomes; rejection cannot be silently converted to success."
+        "invariant": "The initiator is the decision-maker in the linked context; represented institutions, resource owners and authority remain separately identified."
       },
       {
         "name": "Adjudication",
@@ -3712,13 +3811,14 @@
           "phase_id",
           "rule_version",
           "actual_precondition_refs",
-          "legal_status",
+          "perceived_authorization_ref",
+          "actual_legal_status",
           "disposition",
           "reservation_refs",
           "event_refs",
           "disclosure_rule_id"
         ],
-        "invariant": "Legal status, outcome and feasibility are separate; the internal record is not automatically visible to actors."
+        "invariant": "Actual legality, perceived authority, execution and disclosure are independent; errors in authority create no invented consent."
       },
       {
         "name": "RealizedEvent",
@@ -3778,7 +3878,7 @@
           "mechanism_version",
           "epistemic_status"
         ],
-        "invariant": "Kinds: prerequisite, resource_dependency, modeled_effect, observation_update, association, author_interpretation. Time adjacency alone is not causation."
+        "invariant": "Typed relations include prerequisite, resource_dependency, modeled_effect, observation_update, goal_threat, plan_frustration, opportunity, decision_sacrifice, association and author_interpretation. Derived dramatic relations require explicit supports and never create world effects."
       },
       {
         "name": "DecisionCheckpoint",
@@ -3817,29 +3917,33 @@
         "meaning": "An author request over histories, separate from policy utility.",
         "required_fields": [
           "predicate_refs",
-          "temporal_order",
+          "temporal_contract_ref",
           "search_mode",
+          "target_quantification",
           "allowed_interventions",
+          "sampling_contract_ref",
           "evidence_constraints",
           "budget",
-          "selection_denominator",
+          "population_ref",
           "change_cost_contract"
         ],
-        "invariant": "Search modes: filter, route_search, minimum_change. Minimum change needs units/order, ties and bounded scope; no unearned global minimality claim."
+        "invariant": "Modes and target quantification are explicit. Open exploration allows no target predicate; any change-cost ranking requires a declared cost contract. No-match is not impossibility."
       },
       {
         "name": "StoryBookmark",
         "meaning": "An author-retained policy or history independent of search pruning.",
         "required_fields": [
           "policy_or_history_ref",
+          "story_candidate_ref",
           "narrative_query_ref",
+          "selection_reason",
           "author_rationale",
           "assumption_refs",
           "assessment_refs",
           "profile_and_intervention_refs",
           "saved_at"
         ],
-        "invariant": "Preserve referenced immutable assets through retention/cleanup; deletion requires an explicit archive action, not Pareto pruning."
+        "invariant": "Query/candidate references may be explicitly null for spontaneous bookmarks. Assets remain reachable independently of pruning and the original selection query."
       },
       {
         "name": "AuthorReview",
@@ -3847,13 +3951,119 @@
         "required_fields": [
           "task_set_ref",
           "protocol_version",
+          "held_out_task_ref",
+          "manual_comparator_ref",
           "author_judgments",
           "timings",
           "retained_idea_refs",
           "repair_notes",
           "acceptance_decision"
         ],
-        "invariant": "Author acceptance and technical validation are separate; examples are not canon and an automated story score cannot replace judgment."
+        "invariant": "Includes open exploration and a writing question withheld from tuning; author judgment, discovery contribution and technical validity remain separate."
+      },
+      {
+        "name": "PredicateDefinition",
+        "meaning": "A versioned signature and state/query meaning for a supported predicate.",
+        "required_fields": [
+          "argument_roles",
+          "value_domain",
+          "units_or_basis",
+          "temporal_kind",
+          "cardinality",
+          "state_key_rule",
+          "state_owner_ref",
+          "resolution_rule_ref",
+          "missingness_rule_ref",
+          "query_evaluation_rule_ref"
+        ],
+        "invariant": "Only registered active predicates execute. A materialized fact and numeric runtime state cannot become competing independent writers."
+      },
+      {
+        "name": "DecisionContext",
+        "meaning": "The authority, information and decision procedure in force for a choice.",
+        "required_fields": [
+          "decision_maker_id",
+          "acting_for_id",
+          "role_tenure_refs",
+          "authority_scope_refs",
+          "resource_owner_refs",
+          "control_binding_ref",
+          "information_snapshot_ref",
+          "goal_and_commitment_refs",
+          "decision_rule_ref",
+          "conduct_profile_ref"
+        ],
+        "invariant": "A role supplies only its dated authority. Private goals influence a choice only through the pinned procedure; changing officeholders does not transfer private beliefs or institutional assets automatically."
+      },
+      {
+        "name": "DecisionRecord",
+        "meaning": "An immutable record of a choice and the procedure that produced it.",
+        "required_fields": [
+          "context_ref",
+          "considered_alternatives",
+          "selected_action_spec",
+          "used_belief_refs",
+          "used_goal_and_commitment_refs",
+          "tradeoff_or_rejection_refs",
+          "procedure_trace_ref",
+          "random_address_refs",
+          "selection_origin",
+          "chosen_at"
+        ],
+        "invariant": "Reasons come from the executed decision procedure. Author overrides are labeled and cannot acquire retrospective actor motives."
+      },
+      {
+        "name": "StoryCandidate",
+        "meaning": "A derived, supported dramatic reading of an actual history, independent of strategic rank.",
+        "required_fields": [
+          "history_ref",
+          "focal_actor_refs",
+          "goal_refs",
+          "obstacle_or_conflict_refs",
+          "decision_refs",
+          "sacrifice_refs",
+          "consequence_refs",
+          "unresolved_tension_refs",
+          "causal_signature",
+          "derivation_rule_ref",
+          "support_refs",
+          "assumption_refs",
+          "population_ref"
+        ],
+        "invariant": "A candidate creates no world facts or intentions. Unknown dramatic elements remain explicit; causal diversity is not a score for literary quality."
+      },
+      {
+        "name": "MetricSample",
+        "meaning": "A numerical or qualitative measured result for author analysis, distinct from delivered actor information.",
+        "required_fields": [
+          "run_id",
+          "metric_id",
+          "entity_or_geography_ref",
+          "period",
+          "value_or_missing_reason",
+          "units_or_basis",
+          "producing_mechanism_ref",
+          "coverage_status",
+          "population_ref"
+        ],
+        "invariant": "Metric samples enter actor information only through an explicit observation channel and filtered immutable payload."
+      },
+      {
+        "name": "EvaluationPopulation",
+        "meaning": "The membership, selection and weighting contract for reported results.",
+        "required_fields": [
+          "world_design_id",
+          "root_world_ids",
+          "evaluation_members",
+          "branch_lineage_refs",
+          "membership_rule",
+          "selection_rule_ref",
+          "weight_contract",
+          "status_counts",
+          "denominator_unit",
+          "parent_population_ref"
+        ],
+        "invariant": "Worlds, policy-world evaluations, attempts/retries and descendant branch executions are separate counting units; descendants do not inflate their parent population."
       }
     ],
     "invariants": [
@@ -3895,7 +4105,7 @@
       {
         "id": "ONT-08",
         "name": "Legality profiles",
-        "rule": "Lawful and breach profiles are explicit. Executable breaches need modeled consequences; neither profile relaxes physical invariants or locked authorial premises."
+        "rule": "Conduct profiles bind named actors and action families. Strict lawful execution, supported apparent authority and intentional breach exploration are distinct; none relaxes physical invariants, independent consent or locked authorial premises."
       },
       {
         "id": "ONT-09",
@@ -3910,16 +4120,37 @@
       {
         "id": "ONT-11",
         "name": "Narrative and strategic selection",
-        "rule": "Author conditions and bookmarks are independent of actor utilities and strategic pruning. Selected-history frequencies retain their denominator and cannot imply ordinary success probabilities."
+        "rule": "Open exploration and narrative candidate selection operate before strategic pruning. Author conditions and bookmarks are independent of actor utilities; targeted-history frequencies retain their population and cannot imply ordinary success probabilities."
       },
       {
         "id": "ONT-12",
         "name": "Replay and retention",
         "rule": "Decision-state reconstruction preserves latent actor/world state, queues, obligations and draw identities. Saved bookmarks and results keep referenced assets reachable."
+      },
+      {
+        "id": "ONT-13",
+        "name": "Predicate state and revisions",
+        "rule": "Argument roles, target time, state keys and authoritative writers are registered. Immutable revisions and delivered snapshots preserve past facts and beliefs; out-of-order reports cannot silently rewrite them."
+      },
+      {
+        "id": "ONT-14",
+        "name": "Decision ownership and reasons",
+        "rule": "Every attempt links a decision-maker, represented principal, dated authority, resource owners and executed decision rule. Reasons identify inputs actually used; author overrides remain explicit."
+      },
+      {
+        "id": "ONT-15",
+        "name": "Search and temporal interpretation",
+        "rule": "Existential history search, policy reliability and premise change have distinct targets and evidence. Incomplete or unsupported histories cannot satisfy unresolved temporal conditions; budget exhaustion is not impossibility."
+      },
+      {
+        "id": "ONT-16",
+        "name": "Population accounting",
+        "rule": "Every summary declares membership, counting unit, conditioning and weights. Retries and conditional descendants do not create independent root worlds or silently replace unsupported parent outcomes."
       }
     ],
     "profiles": [
       "lawful",
+      "apparent_authority",
       "breach_exploration"
     ],
     "intervention_modes": [
@@ -3950,7 +4181,75 @@
       "TL-074",
       "TL-075",
       "TL-076"
-    ]
+    ],
+    "conduct_contract": {
+      "binding": "Explicit actor ID or declared actor set plus action family, effective interval and rule version; overlaps require declared precedence and uncovered conduct fails configuration. Existing lawful is strict lawful execution for the bound conduct, not a promise that the whole world obeys law.",
+      "lawful": "Actor attempts obey its information; actual unlawful execution is rejected without leaking concealed reasons. Apparent-authority execution is excluded.",
+      "apparent_authority": "Allows a registered physically possible act believed authorized under a pinned credibility rule; actual illegality is recorded immediately by adjudication and disclosed only on the registered discovery channel. Requires a supported consequence model.",
+      "breach_exploration": "Allows only explicitly registered intentional breach families with supported consequences. Apparent authority and intentional violation remain different intention labels.",
+      "mixed_world": "Pacifica can use lawful while a counterparty has a supported different profile. Opponent conduct remains independently chosen; profile selection grants neither consent nor favorable outcomes."
+    },
+    "query_contract": {
+      "modes": [
+        "filter",
+        "open_exploration",
+        "existential_history",
+        "policy_reliability",
+        "minimum_premise_change"
+      ],
+      "quantification": {
+        "filter": "Evaluate a declared predicate over an existing population; no new search.",
+        "open_exploration": "Surface causally varied generated histories without a required ending or strategic objective set.",
+        "existential_history": "Find at least one supported generated history satisfying the target under declared policy/sampling bounds; no frequency promise.",
+        "policy_reliability": "Compare frozen policies by target satisfaction over a declared fresh unconditioned population; report probabilities only where the world model supports them.",
+        "minimum_premise_change": "Find best-found allowed premise edits and a witness history, with explicit costs/lexicographic order; assess each premise package separately."
+      },
+      "temporal_results": [
+        "satisfied",
+        "violated",
+        "unresolved",
+        "unsupported"
+      ],
+      "search_results": [
+        "found_supported",
+        "found_conditional",
+        "no_match_within_budget",
+        "unsatisfiable_within_exhaustive_scope",
+        "unsupported_query"
+      ],
+      "sampling": "A story sampler may target or stratify declared uncertain conditions; it records its selection method and proposal/weight contract. It cannot select favorable seeds as policy variables, force counterpart acceptance or turn targeted shares into ordinary probabilities.",
+      "interventions": "Search mode and intervention mode are independent. Decision changes obey the control mask. Premise changes are separate assumptions. Imposed-event branches remain conditional consequence experiments, never supported witnesses that a policy generated the event.",
+      "decision_change_cost": "existential_history may rank permitted decision/policy edits by an explicit change-cost contract; units/order, bounds and ties are required, and global minimality is claimed only for the exhaustively checked bounded space."
+    },
+    "population_contract": {
+      "evaluation_key": [
+        "policy_version",
+        "actor_model_version",
+        "mechanism_version",
+        "world_design_id",
+        "root_world_id",
+        "assessment_stage"
+      ],
+      "branch_key": "Unique run/branch identity with parent evaluation and intervention/provisional lineage.",
+      "example": "100 root worlds with 20 unsupported paths and 20 provisional child continuations remain 100 original policy-world evaluations: 80 supported and 20 unsupported. There are 120 logical branch executions before retries. The 20 continuations form a selected conditional population, not 20 added independent worlds.",
+      "aggregation": "Preserve root status; report a continuation scenario separately. If justified outcome bounds exist, publish lower/upper aggregate bounds over the original population; otherwise withhold the affected aggregate. Retries, cache hits and reused evaluations are cost/accounting fields, not new evidence."
+    },
+    "nullability_contract": {
+      "StoryBookmark": [
+        "narrative_query_ref",
+        "story_candidate_ref"
+      ],
+      "DecisionContext": [
+        "acting_for_id when acting personally"
+      ],
+      "NarrativeQuery": [
+        "change_cost_contract when no change-cost ranking is requested"
+      ],
+      "common": [
+        "supersedes_ref for initial revision"
+      ],
+      "rule": "Explicit null and empty supported-reference sets are meaningful only where the type permits them; unknown evidence must remain marked unknown, never silently inferred."
+    }
   },
-  "schema_change_note": "Add explicit semantic records, invariants, profiles, interventions and author workflow contracts; preserve existing objective/action/actor IDs and disabled execution status. This draft catalog is not an executable runtime schema."
+  "schema_change_note": "Revision 0.7 adds decision context/records, predicate and revision semantics, narrative candidates/search contracts, actor-specific conduct profiles and population identities. Existing IDs remain stable; renamed fields require explicit adapters if any consumer exists. This draft is not an executable runtime schema."
 }

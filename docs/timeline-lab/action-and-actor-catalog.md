@@ -1,6 +1,6 @@
 # Pacifica action and actor catalog draft
 
-**25 October 2026 · Design revision 0.6 · Draft for author review**
+**25 October 2026 · Design revision 0.7 · Draft for author review**
 
 Pacifica chooses offers, budgets, investments and authorized commitments. The world model determines what resources become available, how other actors respond and what follows. Strategies can adapt to dated observations; the author does not need to describe the outcome of every branch.
 
@@ -10,7 +10,9 @@ Use the [objective and constraint sheet](objectives-and-constraints.md) for the 
 
 ## Control and agency
 
-R0 selects one financing/commitment dilemma from this broader catalog, including a few consequential beliefs/plans and one supported lawful/breach comparison. The full 24-action/25-role roster is not required for the first slice. R1 adds assessed strategy and bounded narrative-condition search; the general editor, structural generation and optional LLM prose follow in R2.
+Each modeled choice has a DecisionContext identifying its person/collective decision-maker, represented institution or personal capacity, dated role/authority, resource owners, information snapshot and actual procedure. The control binding explains how Pacifica's policy interacts with selected personal commitments and independent institutional choices; optimization cannot silently erase those commitments. DecisionRecord retains inputs actually used, considered alternatives and reasons. Officeholder substitution preserves institutional liabilities under explicit private-state transfer rules; author overrides receive no retrospective motive.
+
+R0 selects one financing/commitment dilemma from this broader catalog, including a few consequential beliefs/plans and one supported actor-scoped conduct comparison. The full 24-action/25-role roster is not required for the first slice. R1 adds assessed strategy and bounded narrative-condition search; the general editor, structural generation and optional LLM prose follow in R2.
 
 The proposed control mask gives the optimizer Pacifica's executive agenda and authorized operational decisions. It may seek legislative approval, propose constitutional change or invite private investment. The Senate, Chamber, Hawaiian and Philippine institutions, banks, firms and affected communities retain the powers and choices appropriate to them. The exact domestic control granularity remains for author review.
 
@@ -85,7 +87,7 @@ The lifecycle distinguishes proposed, negotiating, authorized, committed, implem
 
 A proposal can incur time and cost without creating a loan, treaty or investment. Reuse the same financing and capacity references across bundled actions; do not create an extra capital stock or duplicate spending when credit funds construction. Amounts must be nonnegative and shares within zero to one, but affordability and acceptable terms also depend on law, resources and counterparties.
 
-The following action preconditions describe the **lawful execution profile**. A separately selected `breach_exploration` profile can enable only a registered physically possible breach with covered resistance, enforcement, institutional and obligation consequences. All existing actions remain disabled; no breach variant is enabled by this draft. M0 must specify the one supported comparison required by R0. Neither profile changes physical/accounting invariants, locked authorial premises or independent counterpart consent.
+The listed preconditions describe **lawful execution for the bound actor/action family**. `apparent_authority` separately supports registered conduct mistakenly believed authorized, with actual illegality recorded at execution and actor discovery delayed by its channel. `breach_exploration` supports registered intentional violations with covered consequences. Bind actors/families/dates and overlap precedence explicitly; lawful Pacifica can encounter independent misconduct. All actions and exceptional variants remain disabled. M0 defines one bounded family and its applicable comparisons. No profile changes physical/accounting invariants, locked premises or independent consent.
 
 Follow the [adjudication protocol](ontology.md#action-and-adjudication-protocol). Register resource priorities/ties, reservation release and atomic versus partial settlement for linked actions. Incidental actor/module order cannot allocate resources. Actual failure may follow a reasonable attempt without leaking hidden facts beforehand.
 
@@ -409,6 +411,8 @@ Do not give peaceful paths war-produced debts, territorial gains or rescue-drive
 
 ## Review examples
 
+Revision 0.7 also tests delayed target-period reports, person/institution decision capacity, MetricSample isolation, incomplete temporal queries, population lineage and derived dramatic structure. These are synthetic acceptance cases, not canonical events. Open candidate selection precedes strategic pruning and permits spontaneous bookmarks; the author gate includes an untuned writing question and comparison with notes/manual work.
+
 These are proposed acceptance examples for the later engine, not reported test results.
 
 | Example | Setup | Required behavior |
@@ -426,7 +430,7 @@ The structured catalog adds EX-09–15 for hidden feasibility, succession/false 
 
 ## Implementation boundaries for the pilot
 
-Choose one coherent financing/commitment dilemma with the sustainable capability and political consequences its selected objectives require. Include a consequential choice, a selected belief/plan change and a supported lawful/breach comparison; the wider finance/diplomacy/security catalog remains future scope. A global roster is unnecessary when the question is bounded; every indispensable party and material effect within that question is necessary.
+Choose one coherent financing/commitment dilemma with the sustainable capability and political consequences its selected objectives require. Include a consequential choice, a selected belief/plan change and a supported actor-scoped conduct comparison; the wider finance/diplomacy/security catalog remains future scope. A global roster is unnecessary when the question is bounded; every indispensable party and material effect within that question is necessary.
 
 Enable a family only when it has:
 
@@ -457,7 +461,7 @@ A family that lacks these remains unavailable or supports an explicitly selected
 | [SRC-D](https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032d.md) — CR-032D neutrality | SEPARATE DRAFT ALTERNATIVE; commit 626ffbb0bd6486c19164f89104569d78321ebd55. |
 | [SRC-VISION](product-vision.md) — Timeline Lab vision and professional wargaming sources | PROPOSED PRODUCT DESIGN. |
 | [SRC-REQ](requirements.md) — Timeline Lab requirements | PROPOSED SOFTWARE REQUIREMENTS. |
-| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.6 | PROPOSED SEMANTIC CONTRACT. |
+| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.7 | PROPOSED SEMANTIC CONTRACT. |
 | [SRC-FIXTURE](fixture-manifest.json) — Six-case fixture manifest | FROZEN FINANCIAL REGRESSION METADATA. |
 
 The current master and CR-031-R1 supersede the audit's dated northern-geography and labour passages. Preserve the source distinctions: institutional/narrative facts govern the starting world, local proposals remain proposals, numerical quantities remain MODEL, and behavioral mechanisms here remain design hypotheses.

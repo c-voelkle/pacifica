@@ -1,8 +1,8 @@
 # Pacifica objectives and constraints draft
 
-**25 October 2026 · Design revision 0.6 · Draft for author review**
+**25 October 2026 · Design revision 0.7 · Draft for author review**
 
-The search should find Pacifica policies that improve prosperity and security while retaining fiscal resilience and limiting human costs. Compare their distributions and trade-offs. Each experiment defines its beneficiaries, objectives, constraints and uncertainty before the optimizer sees results.
+The search should find Pacifica policies that improve prosperity and security while retaining fiscal resilience and limiting human costs. Compare their distributions and trade-offs. Each strategic optimization defines its beneficiaries, objectives, constraints and uncertainty before the optimizer sees results. Narrative exploration uses its own mode/target contract and requires no strategic scorecard.
 
 The proposed starting set is **core prosperity, security and freedom of action, Treasury resilience, and human cost**. Four additional families cover partnerships, institutions, ecology and partner prosperity. The author has confirmed multiple objectives, Pacifica-controlled decisions, independent other actors and a native model. The metric selection, quantiles, three-month cash proposal and acceptable risks below remain for review.
 
@@ -27,11 +27,11 @@ The [fixture manifest](fixture-manifest.json) identifies the shared-change contr
 
 ## Author narrative conditions
 
-Actor goals and strategic objectives remain separate from what the author wants to explore. A narrative query can request a rescue followed by institutional conflict, a choice made under a mistaken belief or a minimal change that averts a crisis. These examples do not add events or motives to canon.
+Actor goals and strategic objectives remain separate from author interest. R0 supports open exploration without a specified ending, extracts causal candidates before strategic pruning and permits spontaneous bookmarks. Derived dramatic views identify actor, goal, conflict, choice, sacrifice, consequence and unresolved tension with supports; they create no new motives or facts.
 
-R0 filters and bookmarks supported recorded histories; R1 searches bounded routes or minimum changes. Declare predicates, temporal order, allowed decision/premise interventions, evidence limits, budget and change-cost units or lexicographic order. Imposed events remain conditional experiments. Counterparties retain their decisions, and no narrative predicate enters actor observations.
+R1 distinguishes existential_history (a supported generated witness), policy_reliability (target attainment over fresh unconditioned worlds) and minimum_premise_change (bounded permitted edits with explicit costs/order/ties). Queries specify temporal conditions, allowed interventions, sampling, evidence, population and budget. A rare plausible route need not be a reliable strategy. No-match-within-budget does not prove impossibility; incomplete histories cannot prove future absence. Imposed outcomes remain conditional consequence experiments.
 
-Preserve author-selected policies and histories independently of strategic dominance. Selection frequencies retain their denominator; freeze selected policies and assess fresh unconditioned worlds before reporting ordinary success distributions. General editing and optional prose follow in R2, after the bounded author workflow is demonstrated.
+Population membership distinguishes root worlds, policy-world evaluations and branches. Provisional descendants and retries never inflate independent evidence or replace unsupported parent outcomes. Candidate selection is not a strategic score; ordinary probability claims require suitable model evidence and fresh unconditioned assessment.
 
 ## Proposed objective set
 
@@ -121,14 +121,14 @@ Keep underlying and published conditions separate. The master includes falsified
 
 An action restriction limits orders; an outcome requirement may still fail because another actor or shock intervenes. Keep those losses in the sample. Engine failure, policy infeasibility and an adverse world are different results.
 
-The lawful profile respects competent consent. The selected `breach_exploration` profile enables only registered physically possible breaches with covered resistance, enforcement, institutional and obligation consequences; unsupported breach families remain disabled. R0 demonstrates one M0-selected comparison. Both profiles retain physical/accounting invariants, independent responses and locked authorial premises. Later cure preserves prior breach days. Baseline replay retains the illegal 1927 provisional Concord application and 1928 cure; that source event does not enable a general consent bypass.
+Profiles bind named actors/action families and dates. `lawful` rejects actual unauthorized execution; `apparent_authority` separately allows supported conduct mistakenly believed authorized, with actual illegality and delayed discovery retained; `breach_exploration` covers registered intentional violations. Missing/overlapping bindings need resolution before execution. Lawful Pacifica can encounter an independent counterparty breach. All require physical/accounting consistency, independent consent, locked premises and covered consequences; later cure preserves prior breach days. Baseline replay retains the illegal 1927 provisional Concord application and 1928 cure without enabling a general consent bypass.
 
 | ID and status | Rule or proposed bound | Treatment |
 |---|---|---|
 | CON-01 — Required model rule | Balance accounts, counterparties and resource movements; no borrowing-as-income, syndicate-as-Treasury or avoided-spending-as-GDP. | Diagnose model errors; withhold affected rankings and show error counts. |
 | CON-02 — Required model rule | Real inputs, lead times and usable capacity; no simultaneous double allocation or instant technology. | Adjudicate actual failure/partial execution/delay after an observation-consistent attempt; never realize impossible capacity. |
 | CON-03 — Required model rule | Information limits cover policy inputs, menus, previews, messages and response knowledge. | A hidden-information leak is a model/policy error; actual adjudication discloses only permitted observations. |
-| CON-04 — Legal requirement and profile | Competent authority/consent before lawful execution; physical control and legal title remain distinct. | Lawful mode rejects unauthorized execution; a selected supported breach variant records consequences without inventing consent or title. |
+| CON-04 — Legal requirement and profile | Actual authority/consent, perceived authorization and intentional violation remain distinct; conduct binds actors/action families. | Lawful execution rejects unauthorized acts; separate supported apparent-authority and intentional-breach variants retain consequences without inventing consent or title. |
 | CON-05 — Required model rule | Separate core/crown/local/common/foreign ownership, budgets, GDP and reserves. A concession is not sovereignty. | Diagnose model errors; withhold affected rankings and show error counts. |
 | CON-06 — Authorial premise | Apply CR-031-R1's paid professional construction and free, well-paid Kolyma premise; no invented cost/productivity uplift. | Reject an infeasible order; later shortages/violations by others remain outcomes. |
 | CON-07 — Source planning convention | Peacetime military/overseas spending ≤4% of North American GDP. Post-1900 continuation is a planning convention. | Restrict Pacifica's commitments; record shock-induced breaches and consequences. |
@@ -177,6 +177,8 @@ The existing financial references include 1913-price real GDP, but not household
 
 ## Decisions for review
 
+The M0 semantic prototype precedes optimized runtime interfaces. It must demonstrate attributable choice, dated report handling, independent refusal, supported exceptional conduct, open causal alternatives and explicit population accounting. Author acceptance uses prepared/open/held-out tasks and a notes/manual-workflow comparator, including usefulness after assumptions are disclosed.
+
 M0 also selects the active ontology, selected character beliefs/intentions, supported breach consequences and author usefulness protocol. Evaluate distinct causal alternatives, consequential agency, branch clarity, useful retained ideas, time to a retained idea and repair burden before broad tooling or search-scale commitments. Author judgment is separate from technical validation.
 
 | ID | Decision | Starting proposal |
@@ -187,7 +189,7 @@ M0 also selects the active ontology, selected character beliefs/intentions, supp
 | REV-04 | Select pilot scope | Start with one bounded dilemma within the broader 1904–1932 campaign; include selected beliefs/plans, supported consequences and the author review. |
 | REV-05 | Resolve evidence and continuation gaps | Obtain the consumption/price bridge, resource/logistics data, actor response cases, human-cost model and terminal-liability treatment before claiming strategic rankings. |
 | REV-06 | Choose comparison design | Use common-start policy contests; separately label premise packages and imposed-event experiments. |
-| REV-07 | Select semantic and narrative slice | Active records, character/proposition/plan subset, predicates and one supported lawful/breach comparison. |
-| REV-08 | Approve author evaluation and search contracts | Writing tasks and acceptance procedure; minimum-change costs, allowed interventions and selection denominators. |
+| REV-07 | Select semantic and narrative slice | Active predicates/state rules, person/institution decision procedures, actor conduct bindings, causal signatures and one bounded exceptional-conduct family. |
+| REV-08 | Approve author evaluation and search contracts | Define prepared/open/held-out tasks and a manual comparator; register modes, temporal statuses, interventions, costs, sampling and population units. |
 
 Adopting an experiment or metric does not adopt a generated history as canon. The [master storyline](https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/master_storyline.md) and its local APPROVED, PROPOSED, OPEN and MODEL distinctions retain narrative authority.
