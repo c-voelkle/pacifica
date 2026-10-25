@@ -1,0 +1,1291 @@
+{
+  "review_scope": "CR-022, issue 1 only; bank/FX quantities are authored MODEL inputs, not observed historical accounts",
+  "base_commit": "d2b5361e05f0b7aac0132f5f36c1bac35d03520d",
+  "workbook_sha256": "b713e52ccbd52ff05b09d7509e3a235724803b9b5b6b53487ee467c209a2dd1d",
+  "independent_evaluated_cells": 54285,
+  "unchanged_unused_event_row_formulas_without_caches": 40,
+  "saved_cache_mismatches": 0,
+  "sample_cache_mismatches": [],
+  "formula_errors": [],
+  "missing_formula_caches": [],
+  "unintended_nonblank_cell_changes": [],
+  "defined_names_retained": true,
+  "native_features": {
+    "Start": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Changes": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Levers": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Events": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Paths": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "People": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Economy": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Resources": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Budget": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Debt & cash": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Loans": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Gold & money": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Abroad": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Champions": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Labour": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Navy plan": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Navy": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Japan": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Partners": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Gulf": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "World": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    },
+    "Checks": {
+      "charts": true,
+      "merges": true,
+      "freeze_panes": true,
+      "tables": true,
+      "validation_rules": true
+    }
+  },
+  "comments_retained": true,
+  "saved_case": 1,
+  "tests": {
+    "Story": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.5581364033787,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 496.85275405404695,
+      "publicDraw": 165.6175846846823,
+      "privateDraw": 331.23516936936466,
+      "fundedCapacity": 600,
+      "headroom": 103.14724594595305,
+      "remainingFXGap": 0.0,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 248.42637702702348,
+      "callableSF": 248.42637702702348,
+      "bankOperatingSurplus": 54.26555747409934,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 99.37055081080939,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 529.0239941429165,
+      "GDP1929": 50548.240957340335,
+      "GDP1932": 39305.56253422824,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1135.431497297302,
+          "bufferMarginWithoutRescue": 760.431497297302,
+          "draw": 0.0,
+          "closingFX": 1135.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 381.78937162162754,
+          "bufferMarginWithoutRescue": 6.789371621627538,
+          "draw": 0.0,
+          "closingFX": 381.78937162162754
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": -121.85275405404695,
+          "bufferMarginWithoutRescue": -496.85275405404695,
+          "draw": 496.85275405404695,
+          "closingFX": 375.0
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": -25.494879729721475,
+          "bufferMarginWithoutRescue": -400.49487972972145,
+          "draw": 0.0,
+          "closingFX": 471.3578743243255
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 70.862994594604,
+          "bufferMarginWithoutRescue": -304.137005405396,
+          "draw": 0.0,
+          "closingFX": 567.715748648651
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 167.22086891892948,
+          "bufferMarginWithoutRescue": -207.77913108107052,
+          "draw": 0.0,
+          "closingFX": 664.0736229729765
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 263.57874324325496,
+          "bufferMarginWithoutRescue": -111.42125675674504,
+          "draw": 0.0,
+          "closingFX": 760.431497297302
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 359.93661756758047,
+          "bufferMarginWithoutRescue": -15.06338243241953,
+          "draw": 0.0,
+          "closingFX": 856.7893716216275
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 440.35379936600526,
+          "bufferMarginWithoutRescue": 65.35379936600526,
+          "draw": 0.0,
+          "closingFX": 937.2065534200524
+        }
+      ],
+      "failures": [],
+      "allEvaluatedCells": 54285
+    },
+    "Stress": {
+      "cash1926": 0.0,
+      "cash1927": 0.0,
+      "bankCapital": 604.0,
+      "oldCapitalAfterLoss": -200,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1554.0,
+      "BoJDraw": 350.0,
+      "physicalFXGap": 1396.8431935493231,
+      "bufferFXGap": 1846.8431935493231,
+      "syndicateDraw": 72.63340323559099,
+      "publicDraw": 24.21113441186366,
+      "privateDraw": 48.42226882372733,
+      "fundedCapacity": 72.63340323559099,
+      "headroom": 0.0,
+      "remainingFXGap": 1774.2097903137321,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 50.84338226491369,
+      "callableSF": 21.790020970677297,
+      "bankOperatingSurplus": 89.16505252645773,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 14.526680647118198,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": -72.30323994831974,
+      "GDP1929": 21364.722616219617,
+      "GDP1932": 12949.454510630645,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1300.0,
+          "bufferMarginWithoutRescue": 850.0,
+          "draw": 0.0,
+          "closingFX": 1300.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1300.0,
+          "bufferMarginWithoutRescue": 850.0,
+          "draw": 0.0,
+          "closingFX": 1300.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1300.0,
+          "bufferMarginWithoutRescue": 850.0,
+          "draw": 0.0,
+          "closingFX": 1300.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 471.77120430045125,
+          "bufferMarginWithoutRescue": 21.771204300451245,
+          "draw": 0.0,
+          "closingFX": 471.77120430045125
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": -636.535994624436,
+          "bufferMarginWithoutRescue": -1086.535994624436,
+          "draw": 72.63340323559099,
+          "closingFX": -563.9025913888449
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": -1396.8431935493231,
+          "bufferMarginWithoutRescue": -1846.8431935493231,
+          "draw": 0.0,
+          "closingFX": -1324.2097903137321
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": -1324.6503924742103,
+          "bufferMarginWithoutRescue": -1774.6503924742103,
+          "draw": 0.0,
+          "closingFX": -1252.0169892386193
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": -1252.4575913990975,
+          "bufferMarginWithoutRescue": -1702.4575913990975,
+          "draw": 0.0,
+          "closingFX": -1179.8241881635065
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": -1180.2647903239847,
+          "bufferMarginWithoutRescue": -1630.2647903239847,
+          "draw": 0.0,
+          "closingFX": -1107.6313870883937
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": -1108.071989248872,
+          "bufferMarginWithoutRescue": -1558.071989248872,
+          "draw": 0.0,
+          "closingFX": -1035.4385860132809
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": -1035.879188173759,
+          "bufferMarginWithoutRescue": -1485.879188173759,
+          "draw": 0.0,
+          "closingFX": -963.2457849381681
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": -966.8338345721885,
+          "bufferMarginWithoutRescue": -1416.8338345721886,
+          "draw": 0.0,
+          "closingFX": -894.2004313365975
+        }
+      ],
+      "failures": [
+        {
+          "year": 1918,
+          "label": "Bond markets can absorb them"
+        },
+        {
+          "year": 1927,
+          "label": "Japan FX buffer funded"
+        },
+        {
+          "year": 1932,
+          "label": "Gold cover met"
+        }
+      ]
+    },
+    "No San Francisco": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.558136403378,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 0.0,
+      "publicDraw": 0.0,
+      "privateDraw": 0.0,
+      "fundedCapacity": 0,
+      "headroom": 0.0,
+      "remainingFXGap": 496.85275405404695,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 0.0,
+      "callableSF": 0.0,
+      "bankOperatingSurplus": 70.20625000000001,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 0.0,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 876.767837934719,
+      "GDP1929": 50592.79659781942,
+      "GDP1932": 39318.53245040557,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1135.431497297302,
+          "bufferMarginWithoutRescue": 760.431497297302,
+          "draw": 0.0,
+          "closingFX": 1135.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 381.78937162162754,
+          "bufferMarginWithoutRescue": 6.789371621627538,
+          "draw": 0.0,
+          "closingFX": 381.78937162162754
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": -121.85275405404695,
+          "bufferMarginWithoutRescue": -496.85275405404695,
+          "draw": 0.0,
+          "closingFX": -121.85275405404695
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": -25.494879729721475,
+          "bufferMarginWithoutRescue": -400.49487972972145,
+          "draw": 0.0,
+          "closingFX": -25.494879729721475
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 70.862994594604,
+          "bufferMarginWithoutRescue": -304.137005405396,
+          "draw": 0.0,
+          "closingFX": 70.862994594604
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 167.22086891892948,
+          "bufferMarginWithoutRescue": -207.77913108107052,
+          "draw": 0.0,
+          "closingFX": 167.22086891892948
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 263.57874324325496,
+          "bufferMarginWithoutRescue": -111.42125675674504,
+          "draw": 0.0,
+          "closingFX": 263.57874324325496
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 359.93661756758047,
+          "bufferMarginWithoutRescue": -15.06338243241953,
+          "draw": 0.0,
+          "closingFX": 359.93661756758047
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 456.294491891906,
+          "bufferMarginWithoutRescue": 81.29449189190598,
+          "draw": 0.0,
+          "closingFX": 456.294491891906
+        }
+      ],
+      "failures": [
+        {
+          "year": 1927,
+          "label": "Japan FX buffer funded"
+        }
+      ]
+    },
+    "Original $300m proposal": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.558136403378,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 300.0,
+      "publicDraw": 100.0,
+      "privateDraw": 200.0,
+      "fundedCapacity": 300,
+      "headroom": 0.0,
+      "remainingFXGap": 196.85275405404695,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 150.0,
+      "callableSF": 150.0,
+      "bankOperatingSurplus": 60.58125000000001,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 60.0,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 666.7998893134418,
+      "GDP1929": 50565.89385148649,
+      "GDP1932": 39310.7012256652,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1135.431497297302,
+          "bufferMarginWithoutRescue": 760.431497297302,
+          "draw": 0.0,
+          "closingFX": 1135.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 381.78937162162754,
+          "bufferMarginWithoutRescue": 6.789371621627538,
+          "draw": 0.0,
+          "closingFX": 381.78937162162754
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": -121.85275405404695,
+          "bufferMarginWithoutRescue": -496.85275405404695,
+          "draw": 300.0,
+          "closingFX": 178.14724594595305
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": -25.494879729721475,
+          "bufferMarginWithoutRescue": -400.49487972972145,
+          "draw": 0.0,
+          "closingFX": 274.50512027027855
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 70.862994594604,
+          "bufferMarginWithoutRescue": -304.137005405396,
+          "draw": 0.0,
+          "closingFX": 370.86299459460406
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 167.22086891892948,
+          "bufferMarginWithoutRescue": -207.77913108107052,
+          "draw": 0.0,
+          "closingFX": 467.22086891892957
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 263.57874324325496,
+          "bufferMarginWithoutRescue": -111.42125675674504,
+          "draw": 0.0,
+          "closingFX": 563.5787432432551
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 359.93661756758047,
+          "bufferMarginWithoutRescue": -15.06338243241953,
+          "draw": 0.0,
+          "closingFX": 659.9366175675806
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 446.669491891906,
+          "bufferMarginWithoutRescue": 71.66949189190598,
+          "draw": 0.0,
+          "closingFX": 746.6694918919061
+        }
+      ],
+      "failures": [
+        {
+          "year": 1927,
+          "label": "Japan FX buffer funded"
+        }
+      ]
+    },
+    "Official FX reserves 10% larger": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.5581364033787,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 0.0,
+      "bufferFXGap": 346.85275405404695,
+      "syndicateDraw": 346.85275405404695,
+      "publicDraw": 115.61758468468231,
+      "privateDraw": 231.23516936936466,
+      "fundedCapacity": 600,
+      "headroom": 253.14724594595305,
+      "remainingFXGap": 0.0,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 173.42637702702348,
+      "callableSF": 173.42637702702348,
+      "bankOperatingSurplus": 59.07805747409934,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 69.37055081080939,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 634.007967346724,
+      "GDP1929": 50561.69229864726,
+      "GDP1932": 39309.478172396986,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1650.0,
+          "bufferMarginWithoutRescue": 1275.0,
+          "draw": 0.0,
+          "closingFX": 1650.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1650.0,
+          "bufferMarginWithoutRescue": 1275.0,
+          "draw": 0.0,
+          "closingFX": 1650.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1650.0,
+          "bufferMarginWithoutRescue": 1275.0,
+          "draw": 0.0,
+          "closingFX": 1650.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1285.431497297302,
+          "bufferMarginWithoutRescue": 910.431497297302,
+          "draw": 0.0,
+          "closingFX": 1285.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 531.7893716216275,
+          "bufferMarginWithoutRescue": 156.78937162162754,
+          "draw": 0.0,
+          "closingFX": 531.7893716216275
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": 28.147245945953046,
+          "bufferMarginWithoutRescue": -346.85275405404695,
+          "draw": 346.85275405404695,
+          "closingFX": 375.0
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": 124.50512027027852,
+          "bufferMarginWithoutRescue": -250.49487972972148,
+          "draw": 0.0,
+          "closingFX": 471.3578743243255
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 220.862994594604,
+          "bufferMarginWithoutRescue": -154.137005405396,
+          "draw": 0.0,
+          "closingFX": 567.715748648651
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 317.22086891892945,
+          "bufferMarginWithoutRescue": -57.779131081070545,
+          "draw": 0.0,
+          "closingFX": 664.0736229729765
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 413.57874324325496,
+          "bufferMarginWithoutRescue": 38.57874324325496,
+          "draw": 0.0,
+          "closingFX": 760.431497297302
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 509.93661756758047,
+          "bufferMarginWithoutRescue": 134.93661756758047,
+          "draw": 0.0,
+          "closingFX": 856.7893716216275
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 595.1662993660053,
+          "bufferMarginWithoutRescue": 220.16629936600532,
+          "draw": 0.0,
+          "closingFX": 942.0190534200524
+        }
+      ],
+      "failures": []
+    },
+    "Only half short-term funding withdrawn": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.558136403378,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 0.0,
+      "bufferFXGap": 0.0,
+      "syndicateDraw": 0.0,
+      "publicDraw": 0.0,
+      "privateDraw": 0.0,
+      "fundedCapacity": 600,
+      "headroom": 600.0,
+      "remainingFXGap": 0.0,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 0.0,
+      "callableSF": 0.0,
+      "bankOperatingSurplus": 42.70625,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 0.0,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 876.767837934719,
+      "GDP1929": 50592.79659781942,
+      "GDP1932": 39318.53245040557,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1335.431497297302,
+          "bufferMarginWithoutRescue": 960.431497297302,
+          "draw": 0.0,
+          "closingFX": 1335.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 756.7893716216275,
+          "bufferMarginWithoutRescue": 381.78937162162754,
+          "draw": 0.0,
+          "closingFX": 756.7893716216275
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": 378.14724594595305,
+          "bufferMarginWithoutRescue": 3.1472459459530455,
+          "draw": 0.0,
+          "closingFX": 378.14724594595305
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": 474.50512027027855,
+          "bufferMarginWithoutRescue": 99.50512027027855,
+          "draw": 0.0,
+          "closingFX": 474.50512027027855
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 570.8629945946041,
+          "bufferMarginWithoutRescue": 195.86299459460406,
+          "draw": 0.0,
+          "closingFX": 570.8629945946041
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 667.2208689189296,
+          "bufferMarginWithoutRescue": 292.22086891892957,
+          "draw": 0.0,
+          "closingFX": 667.2208689189296
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 763.5787432432551,
+          "bufferMarginWithoutRescue": 388.5787432432551,
+          "draw": 0.0,
+          "closingFX": 763.5787432432551
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 859.9366175675806,
+          "bufferMarginWithoutRescue": 484.9366175675806,
+          "draw": 0.0,
+          "closingFX": 859.9366175675806
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 956.2944918919061,
+          "bufferMarginWithoutRescue": 581.2944918919061,
+          "draw": 0.0,
+          "closingFX": 956.2944918919061
+        }
+      ],
+      "failures": []
+    },
+    "No capital flight": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.558136403378,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 0.0,
+      "bufferFXGap": 0.0,
+      "syndicateDraw": 0.0,
+      "publicDraw": 0.0,
+      "privateDraw": 0.0,
+      "fundedCapacity": 600,
+      "headroom": 600.0,
+      "remainingFXGap": 0.0,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 0.0,
+      "callableSF": 0.0,
+      "bankOperatingSurplus": 70.20625000000001,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 0.0,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 876.767837934719,
+      "GDP1929": 50592.79659781942,
+      "GDP1932": 39318.53245040557,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1385.431497297302,
+          "bufferMarginWithoutRescue": 1010.431497297302,
+          "draw": 0.0,
+          "closingFX": 1385.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 806.7893716216275,
+          "bufferMarginWithoutRescue": 431.78937162162754,
+          "draw": 0.0,
+          "closingFX": 806.7893716216275
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": 378.14724594595305,
+          "bufferMarginWithoutRescue": 3.1472459459530455,
+          "draw": 0.0,
+          "closingFX": 378.14724594595305
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": 474.50512027027855,
+          "bufferMarginWithoutRescue": 99.50512027027855,
+          "draw": 0.0,
+          "closingFX": 474.50512027027855
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 570.8629945946041,
+          "bufferMarginWithoutRescue": 195.86299459460406,
+          "draw": 0.0,
+          "closingFX": 570.8629945946041
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 667.2208689189296,
+          "bufferMarginWithoutRescue": 292.22086891892957,
+          "draw": 0.0,
+          "closingFX": 667.2208689189296
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 763.5787432432551,
+          "bufferMarginWithoutRescue": 388.5787432432551,
+          "draw": 0.0,
+          "closingFX": 763.5787432432551
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 859.9366175675806,
+          "bufferMarginWithoutRescue": 484.9366175675806,
+          "draw": 0.0,
+          "closingFX": 859.9366175675806
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 956.2944918919061,
+          "bufferMarginWithoutRescue": 581.2944918919061,
+          "draw": 0.0,
+          "closingFX": 956.2944918919061
+        }
+      ],
+      "failures": []
+    },
+    "No import buffer": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.5581364033787,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 121.85275405404695,
+      "syndicateDraw": 121.85275405404695,
+      "publicDraw": 40.61758468468231,
+      "privateDraw": 81.23516936936464,
+      "fundedCapacity": 600,
+      "headroom": 478.14724594595305,
+      "remainingFXGap": 0.0,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 60.92637702702348,
+      "callableSF": 60.92637702702348,
+      "bankOperatingSurplus": 66.29680747409934,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 24.37055081080939,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 791.4839283001265,
+      "GDP1929": 50581.86934355495,
+      "GDP1932": 39315.35160284703,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1500.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1500.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1500.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1135.431497297302,
+          "bufferMarginWithoutRescue": 1135.431497297302,
+          "draw": 0.0,
+          "closingFX": 1135.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 381.78937162162754,
+          "bufferMarginWithoutRescue": 381.78937162162754,
+          "draw": 0.0,
+          "closingFX": 381.78937162162754
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": -121.85275405404695,
+          "bufferMarginWithoutRescue": -121.85275405404695,
+          "draw": 121.85275405404695,
+          "closingFX": 0.0
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": -25.494879729721475,
+          "bufferMarginWithoutRescue": -25.494879729721475,
+          "draw": 0.0,
+          "closingFX": 96.35787432432548
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 70.862994594604,
+          "bufferMarginWithoutRescue": 70.862994594604,
+          "draw": 0.0,
+          "closingFX": 192.71574864865096
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 167.22086891892948,
+          "bufferMarginWithoutRescue": 167.22086891892948,
+          "draw": 0.0,
+          "closingFX": 289.0736229729764
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 263.57874324325496,
+          "bufferMarginWithoutRescue": 263.57874324325496,
+          "draw": 0.0,
+          "closingFX": 385.4314972973019
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 359.93661756758047,
+          "bufferMarginWithoutRescue": 359.93661756758047,
+          "draw": 0.0,
+          "closingFX": 481.7893716216274
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 452.38504936600526,
+          "bufferMarginWithoutRescue": 452.38504936600526,
+          "draw": 0.0,
+          "closingFX": 574.2378034200523
+        }
+      ],
+      "failures": []
+    },
+    "All rescue funds redeemed for gold": {
+      "cash1926": 2353.448521879944,
+      "cash1927": 2391.5581364033787,
+      "bankCapital": 400.0,
+      "oldCapitalAfterLoss": 0,
+      "bankCapitalRatio": 0.08,
+      "bankBalanceDifference": 0,
+      "depositWithdrawals": 1295.0,
+      "BoJDraw": 295.0,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 496.85275405404695,
+      "publicDraw": 165.6175846846823,
+      "privateDraw": 331.23516936936466,
+      "fundedCapacity": 600,
+      "headroom": 103.14724594595305,
+      "remainingFXGap": 0.0,
+      "bankCapitalGap": 0.0,
+      "yenGap": 0.0,
+      "bullionOutflow": 496.85275405404695,
+      "callableSF": 0.0,
+      "bankOperatingSurplus": 54.26555747409934,
+      "BoJOutstanding1928": 0.0,
+      "loanBalance1932": 99.37055081080939,
+      "loanBalance1933": 0.0,
+      "goldHeadroom1932": 379.96816792670234,
+      "GDP1929": 50548.240957340335,
+      "GDP1932": 39305.56253422824,
+      "monthly": [
+        {
+          "month": 1,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 2,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 3,
+          "FXwithoutRescue": 1500.0,
+          "bufferMarginWithoutRescue": 1125.0,
+          "draw": 0.0,
+          "closingFX": 1500.0
+        },
+        {
+          "month": 4,
+          "FXwithoutRescue": 1135.431497297302,
+          "bufferMarginWithoutRescue": 760.431497297302,
+          "draw": 0.0,
+          "closingFX": 1135.431497297302
+        },
+        {
+          "month": 5,
+          "FXwithoutRescue": 381.78937162162754,
+          "bufferMarginWithoutRescue": 6.789371621627538,
+          "draw": 0.0,
+          "closingFX": 381.78937162162754
+        },
+        {
+          "month": 6,
+          "FXwithoutRescue": -121.85275405404695,
+          "bufferMarginWithoutRescue": -496.85275405404695,
+          "draw": 496.85275405404695,
+          "closingFX": 375.0
+        },
+        {
+          "month": 7,
+          "FXwithoutRescue": -25.494879729721475,
+          "bufferMarginWithoutRescue": -400.49487972972145,
+          "draw": 0.0,
+          "closingFX": 471.3578743243255
+        },
+        {
+          "month": 8,
+          "FXwithoutRescue": 70.862994594604,
+          "bufferMarginWithoutRescue": -304.137005405396,
+          "draw": 0.0,
+          "closingFX": 567.715748648651
+        },
+        {
+          "month": 9,
+          "FXwithoutRescue": 167.22086891892948,
+          "bufferMarginWithoutRescue": -207.77913108107052,
+          "draw": 0.0,
+          "closingFX": 664.0736229729765
+        },
+        {
+          "month": 10,
+          "FXwithoutRescue": 263.57874324325496,
+          "bufferMarginWithoutRescue": -111.42125675674504,
+          "draw": 0.0,
+          "closingFX": 760.431497297302
+        },
+        {
+          "month": 11,
+          "FXwithoutRescue": 359.93661756758047,
+          "bufferMarginWithoutRescue": -15.06338243241953,
+          "draw": 0.0,
+          "closingFX": 856.7893716216275
+        },
+        {
+          "month": 12,
+          "FXwithoutRescue": 440.35379936600526,
+          "bufferMarginWithoutRescue": 65.35379936600526,
+          "draw": 0.0,
+          "closingFX": 937.2065534200524
+        }
+      ],
+      "failures": []
+    }
+  },
+  "artifact_engine_trials": [
+    {
+      "label": "Story",
+      "cash1926": 2353.448521879944,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 496.85275405404695,
+      "publicDraw": 165.6175846846823,
+      "privateDraw": 331.23516936936466,
+      "remainingFXGap": 0,
+      "goldHeadroom1932": 529.0239941429165
+    },
+    {
+      "label": "Stress",
+      "cash1926": 0,
+      "physicalFXGap": 1396.8431935493231,
+      "bufferFXGap": 1846.8431935493231,
+      "syndicateDraw": 72.63340323559099,
+      "publicDraw": 24.21113441186366,
+      "privateDraw": 48.42226882372733,
+      "remainingFXGap": 1774.2097903137321,
+      "goldHeadroom1932": -72.30323994831974
+    },
+    {
+      "label": "Original $300m proposal",
+      "cash1926": 2353.448521879944,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 300,
+      "publicDraw": 100,
+      "privateDraw": 200,
+      "remainingFXGap": 196.85275405404695,
+      "goldHeadroom1932": 666.7998893134418
+    },
+    {
+      "label": "All rescue funds redeemed for gold",
+      "cash1926": 2353.448521879944,
+      "physicalFXGap": 121.85275405404695,
+      "bufferFXGap": 496.85275405404695,
+      "syndicateDraw": 496.85275405404695,
+      "publicDraw": 165.6175846846823,
+      "privateDraw": 331.23516936936466,
+      "remainingFXGap": 0,
+      "goldHeadroom1932": 379.96816792670234
+    }
+  ],
+  "approval_sync": "passed",
+  "character_validation": "passed, all canonical IDs, relationships and 250 legacy profiles",
+  "artifact_trial_method": "Imported workbook, active inputs changed, rescue formulas refreshed and recalculated for each trial, then Story restored",
+  "native_excel_recalculation": "not run"
+}
