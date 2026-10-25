@@ -1,8 +1,8 @@
 # Timeline Lab model and database architecture
 
-**Design recommendation · 25 October 2026 · Revision 0.2**
+**Design recommendation · 25 October 2026 · Revision 0.3**
 
-Build a database-backed world model with a native Python simulation engine. Design the domain schema and calculation rules together, prove them through a small executable scenario, then build the dashboard around that contract.
+Build a native strategic world simulator, a policy-search layer and a versioned data store around the [product vision](product-vision.md). Define success variables, controllable actions, actor behavior, information limits and uncertainty before finalizing the database schema. The six authored cases are engineering references, not the space of futures.
 
 Excel independence is a user requirement. PostgreSQL is the recommended database, subject to the storage decision in D-007. No database has been provisioned and no engine has been implemented by this design update.
 
@@ -12,7 +12,7 @@ Represent a world at a date as explicit state: entities, population, productive 
 
 The calculation has a stable conceptual interface:
 
-`simulate(initial_state, dated_events, assumptions, external_shocks, model_version) → trajectories, financial_postings, checks, provenance`
+`simulate(initial_state, Pacifica_policy, actor_models, uncertainty_model, random_streams, model_version) → trajectory, observations, actions, financial_postings, checks, provenance`
 
 Opening stocks change through flows, valuation effects and other explicitly classified changes. Each model module declares its units, geography, period resolution, dependencies, supported events and checks. Annual GDP and Treasury views are projections of these results.
 
@@ -26,7 +26,7 @@ Keep three kinds of rules distinguishable:
 
 A balanced financial model does not establish the economic effects of a policy. GDP responses require their own production, trade, price or growth equations. Begin with the explicit baseline assumptions and the minimum supported responses needed by the pilot; expand the endogenous model through tested modules. Mark exogenous GDP paths and absent responses visibly.
 
-This approach supports wider timelines without requiring a complete general-equilibrium or agent-based world simulator in the first release.
+The bounded first release requires independent actor-response models and generated futures. It can use a limited geography and action catalog without claiming a complete general-equilibrium or tactical world simulator.
 
 ## 2. Responsibilities of the components
 
@@ -43,7 +43,7 @@ flowchart LR
     Bundle["Portable input bundle"] --> Engine
 ```
 
-The database owns durable identities, relationships, versions, sources and saved runs. The application resolves scenario inheritance, orchestrates jobs and publishes completed results atomically. The engine receives a complete input bundle and computes without a live database, UI or network service.
+The database owns durable identities, relationships, versions, sources and saved runs. The application resolves scenario inheritance, orchestrates jobs and publishes completed results atomically. The engine receives a complete input bundle and computes without a live database, UI or network service. A policy-search layer proposes Pacifica strategies and aggregates repeated world simulations; it cannot prescribe opponents' cooperation or select favorable random seeds.
 
 Economic equations belong in versioned Python modules. SQL handles storage integrity and queries. Avoid embedding simulation rules in SQL triggers or storing arbitrary executable formula strings in database rows. A parameter value can be data; changing the mathematical rule requires a new model version.
 
@@ -62,7 +62,10 @@ Use one shared relational schema with immutable revisions and scenario overlays.
 | Assumptions and schedules | Quantity definition, dated values, units, price basis, evidence class, derivation, range and dependency references. |
 | Instruments and rights | Loan, bond, grant, guarantee, treaty or concession terms, parties, ownership shares, effective dates and termination rules. |
 | Accounts and postings | Account ownership/type, run and period, balanced transactions, links to the instrument/event and cash/accrual classification. |
-| Experiments and runs | Selected scenario versions, external-shock specification, input/model/engine hashes, job state and immutable artifact references. |
+| Policies and actor models | Conditional decision rules, observation contracts, actor-specific objectives and constraints, immutable versions. |
+| Objectives and uncertainty | Metric directions, scope, horizons and risk aggregation; stochastic processes, dependence assumptions and structural alternatives. |
+| Search campaigns and rollouts | Candidate policies, world samples, random-stream IDs, optimizer budget/state, model/engine hashes and per-evaluation status. |
+| Policy assessments | Compact outcomes, joint target attainment, held-out results and estimated nondominated sets, with artifact references for traces. |
 | Metrics and observations | Metric definition plus run, entity/geography, period, value and missing-value reason. Store years as records, with no table per scenario. |
 | Checks and provenance | Identity or constraint, residual/tolerance, coverage, source paths and dependency traces. |
 
@@ -86,7 +89,7 @@ Record both the period when a change applies in the fictional world and the time
 
 Within each period, evaluate modules in their declared order using valid opening state and effective events. Feedback loops need a documented lag or an explicit solver with convergence criteria. Any numerical solver is an implementation of an agreed model equation, not a source of political or economic assumptions.
 
-The engine produces new trajectories. Old results remain attached to their original version, including when a later run fails.
+The engine generates trajectories through decisions and events. Each actor's policy receives only its allowed observations; two histories with identical observations must not diverge because a policy sees hidden future draws. Random streams must be reproducible across worker schedules. Old results remain attached to their original versions.
 
 ## 5. Example of a useful first calculation
 
@@ -99,7 +102,7 @@ Use an illustrative reconstruction facility with a changed disbursement date. Th
 5. Apply separately declared investment/output effects only if the recipient spends the funds through a supported programme with explicit productivity and timing assumptions.
 6. Compare debt, cash, claims, interest and any supported GDP response; show a coverage gap if the output effect is unmodelled.
 
-This tests the schema and engine together. A database containing only annual GDP totals could display the old answer but could not calculate this change.
+This is a financial kernel test. The product additionally needs a search experiment in which Pacifica chooses conditional commitments, counterparties can refuse or counteroffer, and repeated futures produce different histories without authored endings.
 
 A similar contract can later handle public works, mobilisation, migration, trade access or concessions. Each new family must describe its effects and constraints; narrative prose alone is insufficient execution input.
 
@@ -111,11 +114,16 @@ Implement the financial and economic rules as named modules, rather than transla
 - Debt and claims: draws, issue prices, interest, maturity, repayments, losses and ownership.
 - GDP and prices: explicitly named growth/production and price rules, with source/calibration status.
 - Programmes and rights: cost schedules, capacity effects, dated entitlements and receipts.
+- Strategic sustainment: readiness, mobilisation, supply, transport, geography and access at declared resolution.
+- Actors and observations: independent response policies, own objectives, information delays and uncertainty.
+- Policy evaluation: repeated futures, distributional objectives, constraints, estimated Pareto sets and held-out assessment.
 - Constraints and checks: funding, supported physical limits, cross-account reconciliation and timing.
 
 The workbook can be inspected and parsed read-only during migration to identify initial values and source equations. That is a one-time evidence extraction step. No production run, CI job or new-scenario calculation may depend on Excel, Office COM, a spreadsheet recalculation library or a remote spreadsheet service.
 
 The six JSON bundles remain frozen regression evidence. Their outputs do not by themselves specify every equation or initial condition. Before implementation, inventory the source equations and assumptions, map each output to a native module and identify gaps. Preserve the old adapter for audit, not as a test executable.
+
+A labelled fixture-replay mode may prescribe the authored events for arithmetic regression. Strategy-discovery mode must instead generate responses and outcomes through the model; the replay overrides cannot leak into search.
 
 The native engine must compare every declared pilot output, including all 87 years, 73 annual metrics, 17 labelled runs and supplied finer schedules. Reconcile intended differences openly. If a source equation is corrected, retain the legacy fixture and record both the expected corrected result and the reason. Fitting all six cases is an equivalence check, not empirical validation of the world model.
 
@@ -125,14 +133,16 @@ Run the engine in clean Windows and Linux environments without Office. Include c
 
 | Stage | Concrete result |
 |---|---|
-| Domain and evidence | Pin exact source files; specify quantities, accounts, event contracts and a minimal relational schema. |
-| Native vertical slice | Save a baseline/fork, resolve inputs, calculate one loan and one spending change from the command line, and reconcile the result. |
-| Pilot coverage | Implement the native modules needed by all six cases and resolve every regression difference. |
-| API and dashboard | Expose the proven model through import, edit, run, inspect and compare workflows. |
-| Wider world model | Add event families and economic/physical modules with their own acceptance examples. |
+| Problem and evidence | Agree objective/constraint definitions, action catalog, actor agency, observations, uncertainty and horizon; identify evidence gaps. |
+| Native world kernel | Generate feasible state transitions and independent responses, reconcile accounts and sustainment, and test information boundaries without Excel. |
+| Strategy discovery | Generate adaptive policies, evaluate many futures, compare with simple/random policies and small exact benchmarks, and assess finalists on held-out worlds. |
+| Exploration dashboard | Define problems, inspect trade-offs and risk, replay successes/failures, refine assumptions and export policies. |
+| Wider model | Add actor types, regions and mechanisms with new evidence and behavior checks. |
 
-The recommended stack is PostgreSQL, Python, FastAPI and React/TypeScript. Keep JSON as the exchange format. A separate graph database, analytical warehouse or microservice fleet is unnecessary for the pilot.
+Python remains the proposed native core. PostgreSQL, FastAPI and React/TypeScript remain provisional supporting choices. Bounded evolutionary multiobjective search and an experiment framework are candidates; the product vision links their primary documentation.
 
-The additional upfront work is extracting and testing the model. The resulting engine is independently runnable, the database can evolve through migrations, and the dashboard can change without redefining the calculations.
+High-volume evaluation changes the persistence design. Retain immutable policies, inputs, random-stream plans, compact outcomes and campaign checkpoints. Batch detailed numeric artifacts and reconstruct selected traces by replay; avoid live database access inside each model step. The old per-case timing budget is replaced by a campaign throughput target in TL-051.
 
-Related requirements: TL-028 and TL-037–TL-040 in [backlog.json](backlog.json). Product scope and release gates remain in [requirements.md](requirements.md); frozen evidence is identified by [fixture-manifest.json](fixture-manifest.json).
+A first usable release must discover and assess strategies across generated histories. The six-case financial comparison remains one validation layer and cannot stand in for strategic behavior, uncertainty or optimizer validation.
+
+Related requirements: TL-028 and TL-037–TL-057 in [backlog.json](backlog.json). The [product vision](product-vision.md) governs the end goal; [requirements.md](requirements.md) records release gates; [fixture-manifest.json](fixture-manifest.json) identifies frozen financial evidence.
