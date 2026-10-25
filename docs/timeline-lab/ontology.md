@@ -1,6 +1,6 @@
 # Pacifica Timeline Lab ontology
 
-**Semantic contract · 25 October 2026 · Revision 0.7**
+**Semantic contract · 25 October 2026 · Revision 0.8**
 
 The ontology defines what the Lab's records mean, which relationships are legal to represent, and how actions change a branch. Typed Python models, runtime arrays and result tables must preserve these meanings. The [requirements](requirements.md) and [backlog](backlog.json) define release obligations; the [structured catalog](draft-model-catalog.json) mirrors the record and invariant register under `ontology_contract`.
 
@@ -54,17 +54,17 @@ Required fields below are semantic obligations in addition to the common fields.
 | Reservation | A claim on scarce resources pending settlement. | `owner_id`, `resource_id`, `amount_and_units`, `competing_attempt_refs`, `allocation_rule_id`, `valid_interval`, `status` |
 | MechanismContract | Versioned dynamics and their domain of applicability. | `inputs`, `outputs`, `read_set`, `write_set`, `units`, `clock`, `lag_or_solver`, `applicability_predicate_ref`, `evidence_refs`, `uncertainty_ref`, `test_refs`, `unsupported_behavior` |
 | ExplanationLink | A typed, scoped explanation relation. | `from_refs`, `to_refs`, `relation_kind`, `support_refs`, `mechanism_version`, `epistemic_status` |
-| DecisionCheckpoint | A complete state from which a decision can be resumed. | `parent_run_id`, `decision_phase`, `prefix_hash`, `world_state_ref`, `actor_state_ref`, `queue_refs`, `obligation_refs`, `observation_refs`, `draw_plan_ref`, `engine_environment_ref` |
+| DecisionCheckpoint | A complete state from which a decision can be resumed. | `parent_run_id`, `decision_phase`, `prefix_hash`, `world_state_ref`, `actor_state_ref`, `queue_refs`, `obligation_refs`, `observation_refs`, `draw_plan_ref`, `engine_environment_ref`, `resolved_experiment_ref` |
 | Intervention | A declared change with counterfactual lineage. | `parent_checkpoint_or_version_ref`, `mode`, `target_refs`, `operations`, `effective_time`, `information_effect_refs`, `permitted_prefix_change`, `assumption_refs` |
-| NarrativeQuery | An author request over histories, separate from policy utility. | `predicate_refs`, `temporal_contract_ref`, `search_mode`, `target_quantification`, `allowed_interventions`, `sampling_contract_ref`, `evidence_constraints`, `budget`, `population_ref`, `change_cost_contract` |
-| StoryBookmark | An author-retained policy or history independent of search pruning. | `policy_or_history_ref`, `story_candidate_ref`, `narrative_query_ref`, `selection_reason`, `author_rationale`, `assumption_refs`, `assessment_refs`, `profile_and_intervention_refs`, `saved_at` |
+| NarrativeQuery | An author request over histories, separate from policy utility. | `predicate_refs`, `temporal_contract_ref`, `search_mode`, `target_quantification`, `allowed_interventions`, `sampling_contract_ref`, `evidence_constraints`, `budget`, `population_ref`, `change_cost_contract`, `claim_basis` |
+| StoryBookmark | An author-retained policy or history independent of search pruning. | `policy_or_history_ref`, `story_candidate_ref`, `narrative_query_ref`, `selection_reason`, `author_rationale`, `assumption_refs`, `assessment_refs`, `profile_and_intervention_refs`, `saved_at`, `claim_basis` |
 | AuthorReview | Evidence that the tool supports declared writing tasks. | `task_set_ref`, `protocol_version`, `held_out_task_ref`, `manual_comparator_ref`, `author_judgments`, `timings`, `retained_idea_refs`, `repair_notes`, `acceptance_decision` |
 | PredicateDefinition | A versioned signature and state/query meaning for a supported predicate. | `argument_roles`, `value_domain`, `units_or_basis`, `temporal_kind`, `cardinality`, `state_key_rule`, `state_owner_ref`, `resolution_rule_ref`, `missingness_rule_ref`, `query_evaluation_rule_ref` |
 | DecisionContext | The authority, information and decision procedure in force for a choice. | `decision_maker_id`, `acting_for_id`, `role_tenure_refs`, `authority_scope_refs`, `resource_owner_refs`, `control_binding_ref`, `information_snapshot_ref`, `goal_and_commitment_refs`, `decision_rule_ref`, `conduct_profile_ref` |
 | DecisionRecord | An immutable record of a choice and the procedure that produced it. | `context_ref`, `considered_alternatives`, `selected_action_spec`, `used_belief_refs`, `used_goal_and_commitment_refs`, `tradeoff_or_rejection_refs`, `procedure_trace_ref`, `random_address_refs`, `selection_origin`, `chosen_at` |
-| StoryCandidate | A derived, supported dramatic reading of an actual history, independent of strategic rank. | `history_ref`, `focal_actor_refs`, `goal_refs`, `obstacle_or_conflict_refs`, `decision_refs`, `sacrifice_refs`, `consequence_refs`, `unresolved_tension_refs`, `causal_signature`, `derivation_rule_ref`, `support_refs`, `assumption_refs`, `population_ref` |
+| StoryCandidate | A derived, supported dramatic reading of an actual history, independent of strategic rank. | `history_ref`, `focal_actor_refs`, `goal_refs`, `obstacle_or_conflict_refs`, `decision_refs`, `sacrifice_refs`, `consequence_refs`, `unresolved_tension_refs`, `causal_signature`, `derivation_rule_ref`, `support_refs`, `assumption_refs`, `population_ref`, `claim_basis`, `intervention_lineage_refs` |
 | MetricSample | A numerical or qualitative measured result for author analysis, distinct from delivered actor information. | `run_id`, `metric_id`, `entity_or_geography_ref`, `period`, `value_or_missing_reason`, `units_or_basis`, `producing_mechanism_ref`, `coverage_status`, `population_ref` |
-| EvaluationPopulation | The membership, selection and weighting contract for reported results. | `world_design_id`, `root_world_ids`, `evaluation_members`, `branch_lineage_refs`, `membership_rule`, `selection_rule_ref`, `weight_contract`, `status_counts`, `denominator_unit`, `parent_population_ref` |
+| EvaluationPopulation | The membership, selection and weighting contract for reported results. | `world_design_id`, `root_world_ids`, `evaluation_members`, `branch_lineage_refs`, `membership_rule`, `selection_rule_ref`, `weight_contract`, `status_counts`, `denominator_unit`, `parent_population_ref`, `resolved_experiment_refs` |
 
 ## Invariant register
 
@@ -82,23 +82,23 @@ Required fields below are semantic obligations in addition to the common fields.
 
 **ONT-07 Adjudication and conservation.** Attempts, resolutions and effects are distinct. Reservations and settlement conserve owned resources and follow registered phases independent of incidental iteration order.
 
-**ONT-08 Legality profiles.** Conduct profiles bind named actors and action families. Strict lawful execution, supported apparent authority and intentional breach exploration are distinct; none relaxes physical invariants, independent consent or locked authorial premises.
+**ONT-08 Legality profiles.** Conduct profiles bind named actors/action families to explicit additive permitted-category sets. Lawful conduct remains available in every profile; actual legality is independently adjudicated and permission never compels misconduct. Exceptional execution requires variant-specific support and never relaxes physical invariants, independent consent or locked premises.
 
 **ONT-09 Applicability and status propagation.** Runtime validity failures and selected provisional assumptions propagate to affected claims. Conditional/error paths remain counted and cannot silently enter stronger rankings.
 
 **ONT-10 Explanation scope.** A causal claim needs a registered mechanism or declared intervention analysis; associations, prerequisites and author interpretations remain separately typed.
 
-**ONT-11 Narrative and strategic selection.** Open exploration and narrative candidate selection operate before strategic pruning. Author conditions and bookmarks are independent of actor utilities; targeted-history frequencies retain their population and cannot imply ordinary success probabilities.
+**ONT-11 Narrative and strategic selection.** Open exploration has an explicit proposal method and budget independent of strategic fitness; candidate selection then precedes strategic pruning. Actor information and independent choices remain binding. Author conditions/bookmarks do not alter utilities, and targeted-history frequencies retain their population.
 
 **ONT-12 Replay and retention.** Decision-state reconstruction preserves latent actor/world state, queues, obligations and draw identities. Saved bookmarks and results keep referenced assets reachable.
 
 **ONT-13 Predicate state and revisions.** Argument roles, target time, state keys and authoritative writers are registered. Immutable revisions and delivered snapshots preserve past facts and beliefs; out-of-order reports cannot silently rewrite them.
 
-**ONT-14 Decision ownership and reasons.** Every attempt links a decision-maker, represented principal, dated authority, resource owners and executed decision rule. Reasons identify inputs actually used; author overrides remain explicit.
+**ONT-14 Decision ownership and reasons.** Every attempt links a decision-maker, represented principal, dated authority, resource owners and executed decision rule. Reasons identify inputs actually used. Author overrides retain their origin through descendants and cannot certify actor-generated discovery or meaningful agency.
 
-**ONT-15 Search and temporal interpretation.** Existential history search, policy reliability and premise change have distinct targets and evidence. Incomplete or unsupported histories cannot satisfy unresolved temporal conditions; budget exhaustion is not impossibility.
+**ONT-15 Search and temporal interpretation.** Queries declare actor-generated or mechanical-consequence claims separately from search mode. Only admissible actor-generated histories can certify found_supported under their declared premises. Incomplete or unsupported histories cannot satisfy unresolved temporal conditions; budget exhaustion is not impossibility.
 
-**ONT-16 Population accounting.** Every summary declares membership, counting unit, conditioning and weights. Retries and conditional descendants do not create independent root worlds or silently replace unsupported parent outcomes.
+**ONT-16 Population accounting.** Every evaluation references the same canonical resolved experiment used for calculation identity; root-world identity remains separate for valid matched comparisons. Every summary declares membership, counting unit, conditioning and weights. Retries and conditional descendants cannot inflate independent worlds or replace unsupported parent outcomes.
 
 ## Identity and qualified relationships
 
@@ -171,15 +171,21 @@ Resource resolution specifies priority, deterministic ties or addressed random t
 
 Conduct binds named actors or explicit actor sets and action families, with effective intervals, rule versions and overlap precedence. Missing bindings and unresolved overlap fail configuration. There is no experiment-wide assumption that all actors obey Pacifica's selected conduct restriction.
 
-| Profile | Execution and information contract |
-|---|---|
-| lawful | Strict lawful execution for the bound conduct. Perceived eligibility remains observation-safe, but actual unauthorized execution is rejected; hidden reasons are disclosed only through the registered channel. Apparent-authority execution is excluded. |
-| apparent_authority | A separately enabled, physically possible act believed authorized under the actor's pinned credibility rule may execute. Adjudication records actual illegality then; the actor learns it only through the registered discovery channel. Resistance, obligations, liability and cure need coverage. |
-| breach_exploration | Only explicitly enabled intentional breaches may execute, with supported resistance, enforcement, institutional and obligation consequences. The actor's intent to violate differs from mistaken authorization. |
+Each profile is an additive permitted-category set, an upper bound on execution rather than a behavioral instruction. Every exceptional variant still needs separate enabling and supported consequences; choosing a broader profile alone changes no actor goal or decision rule.
+
+| Profile | Permitted execution categories | Contract |
+|---|---|---|
+| lawful | lawful_execution | Actual unauthorized execution is rejected. Actor menus and attempts remain observation-safe; hidden reasons await permitted disclosure. |
+| apparent_authority | lawful_execution, mistaken_authority_execution | Adds registered, physically possible unauthorized conduct believed authorized under the pinned credibility rule. Valid authority produces ordinary lawful execution. |
+| breach_exploration | lawful_execution, mistaken_authority_execution, intentional_breach_execution | Adds registered intentional breaches. Actors can still honour agreements; permission does not determine their choice. |
+
+Adjudication resolves actual legality independently of profile name. An actually authorized act uses `lawful_execution` even when the actor misunderstood its status; intention and perceived authority remain separately recorded. An actually unauthorized act needs the applicable mistaken-authority or intentional-breach category and its registered rule. Discovery timing never changes the underlying legality interval. Physical limits, independent consent and consequence coverage apply in every profile.
 
 Pacifica can remain bound to lawful while an independent counterparty uses a supported different profile. The profile enables a family; the counterparty still chooses its own action. It does not create consent, title, resources or a favorable response. Unknown/disputed adjudicator truth requires a hypothesis or unsupported result where resolution is material; apparent authority is not permission to invent truth.
 
 Later consent, indemnity or cure changes later status while preserving the earlier breach interval. R0 exercises one bounded exceptional-conduct/consequence family across its applicable profiles and a mixed-actor case; no general constitutional or coercive model is implied.
+
+The paired authority case holds actor/controller versions, private state, preferences, goals, observations, policy settings and randomness fixed while actual concealed authorization varies. The attempt and pre-resolution messages must match; execution, legality and later disclosure follow the actual facts. A separate case shows a breach-capable actor honouring its agreement. Identical reports alone never require different actors or belief models to choose identically.
 
 ## Mechanisms and applicability
 
@@ -209,13 +215,32 @@ Ordinary policy assessment excludes forced future outcomes. An imposed event may
 
 Retain predicate/revision maps, immutable delivered payloads, controller state, decision-context bindings, conduct rules and population lineage in the checkpoint or verified reconstruction. A decision override declares whether it changes one attempt or a continuing policy rule; subsequent plan updates follow the registered procedure. A permissible author override may lack an actor-supported motive and must retain that label.
 
+### Claim admissibility
+
+Every NarrativeQuery declares `claim_basis`, defaulting to `actor_generated`. This field is independent of search mode and intervention mode. Candidates, bookmarks and exports preserve it with the complete inherited intervention lineage.
+
+Declare the assessment start and initialized source premises. Pre-start source facts are premises, not claims that earlier choices were simulated. All generated decisions and inherited intervention lineage within the assessed interval remain in scope; moving a report window cannot hide an earlier intervention that affects the claimed result.
+
+| Claim basis | Admissible evidence and result |
+|---|---|
+| actor_generated | Choices throughout the assessed history, including its inherited prefix, were produced by pinned actor/controller procedures under declared premises and the permitted control mask. A satisfied, supported witness can return found_supported. |
+| mechanical_consequence | Explicitly permitted author overrides or imposed events can reveal downstream effects. A matching such history returns found_conditional with intervention assumptions and mechanics coverage, even when all downstream calculations are supported. It does not show that an actor would choose the intervention. |
+
+Author decision overrides, imposed events and provisional continuations cannot certify ordinary policy reliability, actor-generated discovery or meaningful agency. Unsupported mechanics remain unsupported and incomplete temporal conditions remain unresolved. If conditional candidates are disallowed by the query, report them as excluded with reasons; do not count them as predicate-false evidence for exhaustive impossibility. The author can explicitly include them in a separate brainstorming population and retain them.
+
+A permitted policy change qualifies as actor-generated only when the pinned controller actually produces the choice while respecting enabled goals/commitments. A changed character or world premise creates a new resolved experiment and regenerates from before its effect. That witness may be supported under the changed premises, with the differences visible; it is not evidence under the original premises. Independently regenerating a forced choice creates new evidence and never relabels the original override.
+
 ## Narrative queries and author retention
 
 ### Open exploration and candidate selection
 
-R0 supports exploration without a requested ending or strategic objective set. Every generated history, or its reconstructible compact trace, reaches a bounded candidate selector before strategic/Pareto pruning. It extracts supported causal features and keeps representatives under a registered capacity, coverage and eviction policy. A policy's strategic inferiority cannot itself exclude its story. Candidate metadata retains enough immutable inputs and draw/environment references to reconstruct shortlisted histories; bookmarks pin their assets independently.
+R0 supports exploration without a requested ending or strategic objective set. A declared proposal method first generates a bounded family of actor-admissible policy settings or procedural choice alternatives independently of strategic fitness. Pin method/version, bounds, premise packages, enumeration/sampling order, randomness, proposal/rollout budgets and stopping rules. Execute actual controllers with their information, goals and commitments; counterparties respond independently. Options requiring a forced decision or changed character premise keep that classification.
 
-Use causal signatures over focal actors/goals, conflicting commitments, externally frustrated plans, revelations, consequential choices and reversals. Numerical/date jitter alone is not a new dramatic route. Similar financial outcomes can contain different conflicts. Report the selector's examined population and omissions; bounded retention does not claim to preserve every interesting history. The R0 enumerable acceptance set includes a distinct dominated case that must be surfaced without naming its ending.
+Then every generated history or reconstructible compact trace reaches the bounded candidate selector before strategic pruning. Keep proposal coverage (attempted, rejected and evaluated choices) separate from selector coverage, capacity and eviction. Strategic inferiority cannot itself exclude a story; candidate metadata retains immutable reconstruction inputs and bookmarks pin assets independently. Later search may propose bounded policy variations or underrepresented causal structures, but the open stream cannot require strategic improvement or elite ancestry.
+
+Use causal signatures over focal actors/goals, conflicting commitments, externally frustrated plans, revelations, consequential choices and reversals. Numerical/date jitter alone is not a new dramatic route. Similar financial outcomes can contain different conflicts. Bounded proposal and retention coverage never claim to include every interesting history.
+
+The R0 acceptance run begins with an enumerable allowed proposal family, not a population containing an inserted golden path. Under fixed stated budgets it must generate and surface a causally distinct dominated route omitted by the declared purely strategic proposal/pruning comparator. The query supplies no target ending; inspect proposal provenance and executed decision reasons. Retaining an already supplied dominated route cannot pass this discovery test.
 
 StoryCandidate is a derived dramatic view: actor, goal, obstacle/conflict, choice, sacrifice, consequence and unresolved tension, each linked to actual supports and assumptions. Missing elements stay unknown. A derived view cannot invent a goal, cause a world transition or replace author judgment. A spontaneous StoryBookmark permits null query/candidate references, records a selection reason and pins the actual history/policy.
 
@@ -235,9 +260,9 @@ Search mode differs from intervention mode.
 
 An existential-history query may additionally rank permitted decision/policy edits by an explicit change-cost contract; units/order, bounds and tie rules are required. This preserves bounded minimum-decision-change exploration without conflating it with changing premises. Minimality still requires exhaustive evidence.
 
-Decisions obey Pacifica's control mask and other actors' own procedures. Premise changes are separate scenario assumptions. Imposed events remain conditional consequence experiments and cannot certify a supported witness that a policy generated them. An author sampler may target or stratify declared uncertain conditions; it records selection and any proposal/weight contract. It does not tune favorable seeds as a policy variable or force counterpart compliance. Fresh unconditioned assessment is required for ordinary distributions of a selected policy.
+Decisions obey Pacifica's control mask and other actors' own procedures. Apply the claim-admissibility contract to both decision overrides and imposed events: their mechanically supported consequences remain conditional. Regenerated premise changes are supported only under their explicit new package. An author sampler may target or stratify declared uncertain conditions and records selection/proposal/weights; it neither tunes favorable seeds as policy variables nor forces counterpart compliance. Fresh unconditioned assessment is required for ordinary distributions of a selected policy.
 
-Search results distinguish `found_supported`, `found_conditional`, `no_match_within_budget`, `unsatisfiable_within_exhaustive_scope` and `unsupported_query`. A failed heuristic search is not proof of impossibility. Keep unsuccessfully explored attempts and reasons available within the declared retention budget.
+Search results distinguish `found_supported`, `found_conditional`, `no_match_within_budget`, `unsatisfiable_within_exhaustive_scope` and `unsupported_query`. A result must report its claim basis, premise package and population alongside the status. Only a satisfied admissible actor-generated witness can be found_supported; mechanically supported overridden consequences remain found_conditional when allowed. A failed heuristic search is not proof of impossibility. Keep unsuccessfully explored attempts and exclusion reasons within the declared retention budget.
 
 ### Temporal predicate evaluation
 
@@ -249,7 +274,15 @@ NOT exchanges satisfied/violated and preserves unresolved/unsupported. AND is vi
 
 ### Population and denominator identities
 
-EvaluationPopulation declares world design/root IDs, policy/actor/mechanism/assessment membership, branch lineage, selection, weights and counting unit. A root-world ID denotes the sampled external conditions, not a policy, retry or branch. An evaluation key includes policy, actor/model versions, world design/root and assessment stage. Logical branch runs have their own identities; retries are execution attempts of the same evaluation.
+EvaluationPopulation declares resolved experiments, world design/root IDs, evaluation membership, branch lineage, selection, weights and counting unit. A root-world ID denotes external conditions within a compatible pinned world design; it is separate from the experiment, policy, retry and branch.
+
+The shared `resolved_experiment_id` fingerprints a canonical immutable manifest covering resolved scenario state and dated premises; decision/premise/imposed-event interventions and their effective/information times; policy/controller, actor and mechanism versions/parameters; conduct bindings, permitted categories and enabled variants; fidelity/projections, schemas/bindings and identity-contract version; horizon/clocks/constraints/predicates; uncertainty/world/draw design; and supported environment/dependency builds. It is a manifest within existing experiment/run scope, not another world entity.
+
+Resolve defaults, units, time zones and immutable semantic references before hashing. Sort unordered maps/sets, preserve meaningful sequence order and pin numeric/time serialization and canonicalization version. Reject unresolved material values. Presentation labels, formatting, save/execution timestamps and search/selection settings that do not change generated histories are excluded; retain those metadata and provenance separately.
+
+Use `evaluation_key = (resolved_experiment_id, root_world_id, assessment_stage)`. The calculation key adds `branch_spec_id`, a fingerprint of parent checkpoint/prefix and normalized intervention or root marker. Branch/run IDs also preserve their distinct lineage. A materially changed continuation references a new resolved experiment and its original parent evaluation; it cannot overwrite that evaluation. Retries and cache hits keep their calculation/evaluation identity.
+
+Changing initial cash, conduct or fidelity must change experiment and evaluation identity even when policy/model versions match. A display-label change must not. Root IDs can stay matched across different experiments only where external draw meanings are compatible; shared root IDs alone prove neither equivalence nor causality.
 
 100 root worlds with 20 unsupported paths and 20 provisional child continuations remain 100 original policy-world evaluations: 80 supported and 20 unsupported. There are 120 logical branch executions before retries. The 20 continuations form a selected conditional population, not 20 added independent worlds.
 
@@ -262,6 +295,14 @@ Targeted candidates, filters and conditional continuations have explicit child p
 ExplanationLink distinguishes prerequisites, resource dependencies, modeled effects, observation updates, goal threats, plan frustration, opportunities and decision sacrifices from associations and author interpretations. Exact supporting revisions, producing mechanisms/derivations and scope are required. A conflict/threat is derived from registered goal/plan conditions and supported events; it creates no independent world effect.
 
 Decision explanations cite inputs actually used by the recorded procedure and relevant rejected alternatives within its bounded consideration set. Show a character's believed consequences separately from actual consequences. External frustration of a plan differs from voluntary abandonment; a subsequent dilemma may be supported by the obligations and choices left open. Actor reasons are not omniscient psychological truth.
+
+### Bounded evidence for agency
+
+R0 resumes one complete decision state and executes two actor-admissible alternatives through the pinned controller under declared permitted policy settings or procedural choice variation. Preserve information, goals and commitments, match compatible external conditions, and recompute endogenous replies and effects. Predeclare the local horizon and materiality rule.
+
+The positive case must show an understandable choice, a materially different goal state, obligation, supported relationship or later available choice, and a different next dilemma. Cite DecisionRecord and mechanism supports at each step. A separate contrast between supported alternatives must show little or no consequence difference within the same declared scope, making circumstances and limited agency visible.
+
+One-off overrides cannot pass this gate. If the alternative needs a changed character premise, disclose and reassess it as a different premise package. This is bounded model-causal evidence for author review; broad finalist counterfactual analysis remains TL-050 in R1.
 
 Deterministic R0 story-candidate templates expose focal actor, goal, obstacle, choice, sacrifice, consequence and unresolved tension with missing elements explicit. Optional R2 narration renders those supported claims and separates author interpretation. Chronology, a shared random seed or an attached goal alone cannot establish causation or motive.
 
@@ -309,4 +350,4 @@ Additional bounded checks deliver March reports out of order in June, replace an
 
 R0 exercises the active subset of 29 record contracts and 16 invariants, including dated identity, predicate state ownership, out-of-order reports, actual decision reasons, observation-safe menus, settlement, actor-scoped conduct, decision resumption, open causal candidates, spontaneous bookmarks, temporal queries and population accounting. R1 adds distinct narrative search modes and repeated author evaluation. R2 retains general authoring/generation and optional prose.
 
-The [backlog](backlog.json) preserves TL-001–076 and their acceptance IDs, strengthens the relevant contracts and adds demonstrations 23–27. M0 first proves a small semantic prototype before fixing optimized runtime interfaces. Its writing protocol includes prepared tasks, open exploration, a supported question withheld from tuning and a notes/manual-workflow comparator. Once a held-out task informs tuning it becomes development material; later assessment needs a fresh task. Record newly discovered causal possibilities, usefulness after assumption disclosure, agency, branch clarity, time and repair. Neither a prepared demonstration nor an automated score replaces author acceptance.
+The [backlog](backlog.json) preserves TL-001–076 and prior acceptance IDs, with 32 demonstrations. M0 first proves the bounded semantic prototype, including additive conduct, claim admissibility, experiment identity, independent open proposals and the local agency contrast, before fixing optimized runtime interfaces. Its writing protocol includes prepared tasks, open exploration, a supported question withheld from tuning and a notes/manual-workflow comparator. Once a held-out task informs tuning it becomes development material; later assessment needs a fresh task. Record newly discovered causal possibilities, usefulness after assumption disclosure, agency including a low-effect case, branch clarity, time and repair. Neither a prepared demonstration nor an automated score replaces author acceptance.

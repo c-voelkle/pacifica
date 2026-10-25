@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "catalog_id": "pacifica-timeline-lab-draft-20261025",
   "status": "DRAFT_FOR_AUTHOR_REVIEW",
   "date": "2026-10-25",
@@ -12,7 +12,8 @@
       "Control Pacifica while other actors respond independently.",
       "Run calculations independently of Excel.",
       "Incorporate the v0.5 review into v0.6 with explicit ontology and synchronized design/backlog.",
-      "Incorporate the v0.6 critical review into revision 0.7 and update the existing draft PR."
+      "Incorporate the v0.6 critical review into revision 0.7 and update the existing draft PR.",
+      "Incorporate the v0.7 critical review into revision 0.8 and update the existing draft PR."
     ],
     "proposed": [
       "R0: one bounded financing/commitment dilemma within 1904–1932, attributable decisions, open causal candidates and a supported exceptional-conduct family with actor-scoped comparisons.",
@@ -131,7 +132,7 @@
     {
       "id": "SRC-ONTOLOGY",
       "status": "PROPOSED_SEMANTIC_CONTRACT",
-      "title": "Timeline Lab explicit ontology revision 0.7",
+      "title": "Timeline Lab explicit ontology revision 0.8",
       "path": "docs/timeline-lab/ontology.md"
     }
   ],
@@ -196,8 +197,8 @@
         "apparent_authority",
         "breach_exploration"
       ],
-      "breach_scope": "One bounded exceptional-conduct/consequence family; compare strict lawful, supported apparent authority and intentional breach where applicable. Bind conduct by actor/action family, including lawful Pacifica with independent counterparty misconduct.",
-      "author_gate": "Prepared and open-ended writing tasks, a supported question withheld from tuning, and notes/manual-workflow comparison; inspect new causal ideas and their assumptions, agency, branch clarity, time and repair before author acceptance.",
+      "breach_scope": "One bounded exceptional-conduct family with explicit additive permission sets, variant-specific support and independent actual legality. Test ordinary lawful conduct in every profile and lawful Pacifica facing independently chosen supported misconduct.",
+      "author_gate": "Prepared and open-ended writing tasks, a supported question withheld from tuning, and notes/manual-workflow comparison; inspect new causal ideas and their assumptions, agency, branch clarity, time and repair before author acceptance. Include the bounded choice-consequence-next-dilemma contrast and low-effect control; conditional overrides cannot pass the agency gate.",
       "requirements": [
         "TL-068",
         "TL-069",
@@ -209,7 +210,7 @@
         "TL-075",
         "TL-076"
       ],
-      "preimplementation_gate": "Small semantic prototype for decision ownership, target-time reports, independent refusal, conduct, narrative candidates and population identity before optimized runtime interfaces."
+      "preimplementation_gate": "Small semantic prototype for additive conduct, claim admissibility and resolved-experiment identity, independent open proposals and a matched consequential-agency contrast with a low-effect case, alongside dated information and independent response, before optimized runtime interfaces."
     }
   },
   "metric_contract_required": [
@@ -1785,7 +1786,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -1839,7 +1840,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -1902,7 +1903,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -1961,7 +1962,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2021,7 +2022,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2076,7 +2077,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2141,7 +2142,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2197,7 +2198,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2257,7 +2258,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2312,7 +2313,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2376,7 +2377,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2437,7 +2438,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2501,7 +2502,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2563,7 +2564,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2625,7 +2626,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2686,7 +2687,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2742,7 +2743,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2802,7 +2803,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2867,7 +2868,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2922,7 +2923,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -2981,7 +2982,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -3038,7 +3039,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -3095,7 +3096,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     },
     {
@@ -3155,7 +3156,7 @@
       "search_enabled": false,
       "execution_profile": "lawful",
       "breach_variant_status": "NOT_DEFINED_NOT_ENABLED",
-      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.7",
+      "semantic_contract_ref": "pacifica.timeline-lab.ontology@0.8",
       "apparent_authority_variant_status": "NOT_DEFINED_NOT_ENABLED"
     }
   ],
@@ -3194,11 +3195,26 @@
       "not_applicable"
     ],
     "profile_semantics": {
-      "binding": "Explicit actor ID or declared actor set plus action family, effective interval and rule version; overlaps require declared precedence and uncovered conduct fails configuration. Existing lawful is strict lawful execution for the bound conduct, not a promise that the whole world obeys law.",
-      "lawful": "Actor attempts obey its information; actual unlawful execution is rejected without leaking concealed reasons. Apparent-authority execution is excluded.",
-      "apparent_authority": "Allows a registered physically possible act believed authorized under a pinned credibility rule; actual illegality is recorded immediately by adjudication and disclosed only on the registered discovery channel. Requires a supported consequence model.",
-      "breach_exploration": "Allows only explicitly registered intentional breach families with supported consequences. Apparent authority and intentional violation remain different intention labels.",
-      "mixed_world": "Pacifica can use lawful while a counterparty has a supported different profile. Opponent conduct remains independently chosen; profile selection grants neither consent nor favorable outcomes."
+      "binding": "Explicit actor ID or declared actor set plus action family, effective interval and rule version. Resolve overlaps by declared precedence; missing bindings fail configuration. Profile categories are an upper bound: each exceptional action variant also needs explicit enabling and consequence coverage.",
+      "permitted_categories": {
+        "lawful": [
+          "lawful_execution"
+        ],
+        "apparent_authority": [
+          "lawful_execution",
+          "mistaken_authority_execution"
+        ],
+        "breach_exploration": [
+          "lawful_execution",
+          "mistaken_authority_execution",
+          "intentional_breach_execution"
+        ]
+      },
+      "lawful": "Permits lawful_execution. Actor attempts and visible menus obey actor information; adjudication rejects actual unlawful execution without leaking concealed reasons before permitted disclosure.",
+      "apparent_authority": "Adds mistaken_authority_execution to lawful execution: a registered physically possible but actually unauthorized act may execute when the actor believes it authorized under the pinned credibility rule. Actual legality is independently adjudicated; valid authority produces an ordinary lawful outcome.",
+      "breach_exploration": "Adds intentional_breach_execution to the apparent_authority set. Only explicitly enabled exceptional variants with supported consequences may execute. The actor may still act lawfully, honour an agreement or decline to act; permission never compels misconduct.",
+      "classification": "Adjudication resolves actual legality independently of the profile name. An actually authorized act uses lawful_execution even if the actor misunderstood its status; intention/perceived authority are separate recorded dimensions. An actually unauthorized act requires the applicable mistaken-authority or intentional-breach category and its registered rule. Unknown/disputed material truth needs a hypothesis or unsupported result.",
+      "mixed_world": "Pacifica can be lawful while a counterparty has broader permissions. Independent procedures choose actions; no profile creates consent, title, resources or favourable outcomes."
     },
     "resource_arbitration": "Register priority/tie rules, reservation release/expiry and bundle atomicity; actor order, module order and worker scheduling cannot silently allocate shared cash, collateral or capacity."
   },
@@ -3384,13 +3400,13 @@
     {
       "id": "REV-07",
       "decision": "Select semantic and narrative slice",
-      "proposal": "Choose active predicate/state/time definitions, person/institution decision bindings, causal signatures and one bounded exceptional-conduct family with actor-specific profiles.",
+      "proposal": "Choose the active semantic subset, additive conduct permissions and enabled variants, person/institution procedures, resolved-experiment identity and bounded consequential-agency contrast.",
       "status": "OPEN"
     },
     {
       "id": "REV-08",
       "decision": "Approve author evaluation and search contracts",
-      "proposal": "Define prepared/open/held-out writing tasks and manual comparator; register search quantification, temporal statuses, change costs, sampling and population units before enabling narrative search.",
+      "proposal": "Define prepared/open/held-out tasks and manual comparator; register independent proposal budgets, claim admissibility, search/temporal semantics, costs and population units.",
       "status": "OPEN"
     }
   ],
@@ -3407,7 +3423,11 @@
     "Report alternative structural-model assessments separately unless an explicit weighting contract supports aggregation.",
     "100 root worlds with 20 unsupported paths and 20 provisional child continuations remain 100 original policy-world evaluations: 80 supported and 20 unsupported. There are 120 logical branch executions before retries. The 20 continuations form a selected conditional population, not 20 added independent worlds.",
     "Open story exploration requires no strategic objective set. Candidate selection precedes pruning; story signatures use supported choices/conflicts rather than numeric jitter.",
-    "Narrative search separates supported existence, policy reliability and minimum premise change; unresolved temporal results and no-match-within-budget never imply successful completion or impossibility."
+    "Narrative search separates supported existence, policy reliability and minimum premise change; unresolved temporal results and no-match-within-budget never imply successful completion or impossibility.",
+    "Every calculation/evaluation/branch references the canonical resolved-experiment identity; root-world matching remains separate and requires compatible external draw semantics.",
+    "Default story claims require actor-generated decisions throughout assessed lineage. Overrides/imposed events remain conditional even when their downstream mechanics are supported.",
+    "Open proposals have an explicit budget independent of strategic fitness; a pre-inserted dominated path cannot establish discovery.",
+    "R0 author evidence includes a supported matched choice-consequence-next-dilemma contrast and a low-effect choice within a declared horizon/materiality."
   ],
   "evidence_register": [
     {
@@ -3606,12 +3626,66 @@
         "TL-023",
         "TL-073"
       ]
+    },
+    {
+      "id": "EX-21",
+      "name": "Additive conduct permissions",
+      "setup": "Compare valid and concealed invalid authority under additive conduct permissions with matched actor inputs: the attempt stays the same, legality/execution/disclosure differ appropriately, and a breach-capable counterparty can honour its agreement.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-071",
+        "TL-043"
+      ]
+    },
+    {
+      "id": "EX-22",
+      "name": "Claim admissibility",
+      "setup": "Force a refusal as an author override: retain its mechanically supported consequences as conditional, but reject it as actor-generated or agency evidence. Separately regenerate a choice under explicit supported policy/premise variants and preserve the distinct claim scope.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-069",
+        "TL-072",
+        "TL-073",
+        "TL-075"
+      ]
+    },
+    {
+      "id": "EX-23",
+      "name": "Resolved experiment identity",
+      "setup": "Change cash premises, conduct bindings or fidelity while keeping policy/model versions fixed: experiment and evaluation keys change; display labels do not. Preserve valid matched root IDs and separate branch/retry accounting.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-011",
+        "TL-055",
+        "TL-074"
+      ]
+    },
+    {
+      "id": "EX-24",
+      "name": "Independent open proposals",
+      "setup": "From an enumerable allowed proposal family, open exploration generates and surfaces a distinctive dominated route missed by its declared strategic comparator under fixed budgets; no target ending or pre-inserted path is supplied.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-073",
+        "TL-048"
+      ]
+    },
+    {
+      "id": "EX-25",
+      "name": "Consequential agency contrast",
+      "setup": "Fork one decision under matched external conditions: two procedure-generated alternatives change a material consequence and the next dilemma. Also inspect a supported low-effect choice to separate agency from circumstances.",
+      "expected": "Satisfy the named bounded semantic and acceptance contracts before enabling the feature.",
+      "requirements": [
+        "TL-069",
+        "TL-072",
+        "TL-075"
+      ]
     }
   ],
-  "design_revision": "0.7",
+  "design_revision": "0.8",
   "ontology_contract": {
     "contract_id": "pacifica.timeline-lab.ontology",
-    "version": "0.7",
+    "version": "0.8",
     "status": "DESIGN_CONTRACT_NOT_EXECUTABLE_SCHEMA",
     "scope": "Only records and mechanisms active in the bounded experiment must have runtime schemas/bindings; unsupported effects are disabled. The full catalog is not a prerequisite for R0.",
     "common_required": {
@@ -3893,7 +3967,8 @@
           "obligation_refs",
           "observation_refs",
           "draw_plan_ref",
-          "engine_environment_ref"
+          "engine_environment_ref",
+          "resolved_experiment_ref"
         ],
         "invariant": "A checkpoint or deterministic reconstruction must retain latent state, plans, delayed information, reservations and obligations."
       },
@@ -3925,7 +4000,8 @@
           "evidence_constraints",
           "budget",
           "population_ref",
-          "change_cost_contract"
+          "change_cost_contract",
+          "claim_basis"
         ],
         "invariant": "Modes and target quantification are explicit. Open exploration allows no target predicate; any change-cost ranking requires a declared cost contract. No-match is not impossibility."
       },
@@ -3941,7 +4017,8 @@
           "assumption_refs",
           "assessment_refs",
           "profile_and_intervention_refs",
-          "saved_at"
+          "saved_at",
+          "claim_basis"
         ],
         "invariant": "Query/candidate references may be explicitly null for spontaneous bookmarks. Assets remain reachable independently of pruning and the original selection query."
       },
@@ -4028,7 +4105,9 @@
           "derivation_rule_ref",
           "support_refs",
           "assumption_refs",
-          "population_ref"
+          "population_ref",
+          "claim_basis",
+          "intervention_lineage_refs"
         ],
         "invariant": "A candidate creates no world facts or intentions. Unknown dramatic elements remain explicit; causal diversity is not a score for literary quality."
       },
@@ -4061,7 +4140,8 @@
           "weight_contract",
           "status_counts",
           "denominator_unit",
-          "parent_population_ref"
+          "parent_population_ref",
+          "resolved_experiment_refs"
         ],
         "invariant": "Worlds, policy-world evaluations, attempts/retries and descendant branch executions are separate counting units; descendants do not inflate their parent population."
       }
@@ -4105,7 +4185,7 @@
       {
         "id": "ONT-08",
         "name": "Legality profiles",
-        "rule": "Conduct profiles bind named actors and action families. Strict lawful execution, supported apparent authority and intentional breach exploration are distinct; none relaxes physical invariants, independent consent or locked authorial premises."
+        "rule": "Conduct profiles bind named actors/action families to explicit additive permitted-category sets. Lawful conduct remains available in every profile; actual legality is independently adjudicated and permission never compels misconduct. Exceptional execution requires variant-specific support and never relaxes physical invariants, independent consent or locked premises."
       },
       {
         "id": "ONT-09",
@@ -4120,7 +4200,7 @@
       {
         "id": "ONT-11",
         "name": "Narrative and strategic selection",
-        "rule": "Open exploration and narrative candidate selection operate before strategic pruning. Author conditions and bookmarks are independent of actor utilities; targeted-history frequencies retain their population and cannot imply ordinary success probabilities."
+        "rule": "Open exploration has an explicit proposal method and budget independent of strategic fitness; candidate selection then precedes strategic pruning. Actor information and independent choices remain binding. Author conditions/bookmarks do not alter utilities, and targeted-history frequencies retain their population."
       },
       {
         "id": "ONT-12",
@@ -4135,17 +4215,17 @@
       {
         "id": "ONT-14",
         "name": "Decision ownership and reasons",
-        "rule": "Every attempt links a decision-maker, represented principal, dated authority, resource owners and executed decision rule. Reasons identify inputs actually used; author overrides remain explicit."
+        "rule": "Every attempt links a decision-maker, represented principal, dated authority, resource owners and executed decision rule. Reasons identify inputs actually used. Author overrides retain their origin through descendants and cannot certify actor-generated discovery or meaningful agency."
       },
       {
         "id": "ONT-15",
         "name": "Search and temporal interpretation",
-        "rule": "Existential history search, policy reliability and premise change have distinct targets and evidence. Incomplete or unsupported histories cannot satisfy unresolved temporal conditions; budget exhaustion is not impossibility."
+        "rule": "Queries declare actor-generated or mechanical-consequence claims separately from search mode. Only admissible actor-generated histories can certify found_supported under their declared premises. Incomplete or unsupported histories cannot satisfy unresolved temporal conditions; budget exhaustion is not impossibility."
       },
       {
         "id": "ONT-16",
         "name": "Population accounting",
-        "rule": "Every summary declares membership, counting unit, conditioning and weights. Retries and conditional descendants do not create independent root worlds or silently replace unsupported parent outcomes."
+        "rule": "Every evaluation references the same canonical resolved experiment used for calculation identity; root-world identity remains separate for valid matched comparisons. Every summary declares membership, counting unit, conditioning and weights. Retries and conditional descendants cannot inflate independent worlds or replace unsupported parent outcomes."
       }
     ],
     "profiles": [
@@ -4183,11 +4263,26 @@
       "TL-076"
     ],
     "conduct_contract": {
-      "binding": "Explicit actor ID or declared actor set plus action family, effective interval and rule version; overlaps require declared precedence and uncovered conduct fails configuration. Existing lawful is strict lawful execution for the bound conduct, not a promise that the whole world obeys law.",
-      "lawful": "Actor attempts obey its information; actual unlawful execution is rejected without leaking concealed reasons. Apparent-authority execution is excluded.",
-      "apparent_authority": "Allows a registered physically possible act believed authorized under a pinned credibility rule; actual illegality is recorded immediately by adjudication and disclosed only on the registered discovery channel. Requires a supported consequence model.",
-      "breach_exploration": "Allows only explicitly registered intentional breach families with supported consequences. Apparent authority and intentional violation remain different intention labels.",
-      "mixed_world": "Pacifica can use lawful while a counterparty has a supported different profile. Opponent conduct remains independently chosen; profile selection grants neither consent nor favorable outcomes."
+      "binding": "Explicit actor ID or declared actor set plus action family, effective interval and rule version. Resolve overlaps by declared precedence; missing bindings fail configuration. Profile categories are an upper bound: each exceptional action variant also needs explicit enabling and consequence coverage.",
+      "permitted_categories": {
+        "lawful": [
+          "lawful_execution"
+        ],
+        "apparent_authority": [
+          "lawful_execution",
+          "mistaken_authority_execution"
+        ],
+        "breach_exploration": [
+          "lawful_execution",
+          "mistaken_authority_execution",
+          "intentional_breach_execution"
+        ]
+      },
+      "lawful": "Permits lawful_execution. Actor attempts and visible menus obey actor information; adjudication rejects actual unlawful execution without leaking concealed reasons before permitted disclosure.",
+      "apparent_authority": "Adds mistaken_authority_execution to lawful execution: a registered physically possible but actually unauthorized act may execute when the actor believes it authorized under the pinned credibility rule. Actual legality is independently adjudicated; valid authority produces an ordinary lawful outcome.",
+      "breach_exploration": "Adds intentional_breach_execution to the apparent_authority set. Only explicitly enabled exceptional variants with supported consequences may execute. The actor may still act lawfully, honour an agreement or decline to act; permission never compels misconduct.",
+      "classification": "Adjudication resolves actual legality independently of the profile name. An actually authorized act uses lawful_execution even if the actor misunderstood its status; intention/perceived authority are separate recorded dimensions. An actually unauthorized act requires the applicable mistaken-authority or intentional-breach category and its registered rule. Unknown/disputed material truth needs a hypothesis or unsupported result.",
+      "mixed_world": "Pacifica can be lawful while a counterparty has broader permissions. Independent procedures choose actions; no profile creates consent, title, resources or favourable outcomes."
     },
     "query_contract": {
       "modes": [
@@ -4218,21 +4313,32 @@
         "unsupported_query"
       ],
       "sampling": "A story sampler may target or stratify declared uncertain conditions; it records its selection method and proposal/weight contract. It cannot select favorable seeds as policy variables, force counterpart acceptance or turn targeted shares into ordinary probabilities.",
-      "interventions": "Search mode and intervention mode are independent. Decision changes obey the control mask. Premise changes are separate assumptions. Imposed-event branches remain conditional consequence experiments, never supported witnesses that a policy generated the event.",
-      "decision_change_cost": "existential_history may rank permitted decision/policy edits by an explicit change-cost contract; units/order, bounds and ties are required, and global minimality is claimed only for the exhaustively checked bounded space."
+      "interventions": "Search and intervention modes are separate. Decision changes obey the control mask; an admissible policy change must actually produce the decision through the pinned procedure. One-off author overrides and imposed events remain conditional consequences. Premise changes create separately identified experiments and cannot certify the original premises.",
+      "decision_change_cost": "existential_history may rank permitted decision/policy edits by an explicit change-cost contract; units/order, bounds and ties are required, and global minimality is claimed only for the exhaustively checked bounded space.",
+      "claim_admissibility": {
+        "claim_bases": [
+          "actor_generated",
+          "mechanical_consequence"
+        ],
+        "default": "actor_generated",
+        "actor_generated": "Every choice in the assessed history, including inherited prefix, must have been produced by its pinned actor/controller procedure under declared premises and the permitted control mask. Imposed events, author decision overrides and provisional continuations cannot certify found_supported or ordinary policy reliability.",
+        "mechanical_consequence": "An explicitly allowed override or imposed event can explore supported downstream mechanics. A matching such history returns found_conditional with its origins, assumptions and mechanics coverage, even if all downstream calculations are supported; it does not demonstrate the actor would choose the intervention.",
+        "changed_premises": "A permitted changed character, policy or world premise must be versioned in a new resolved experiment and regenerated from before its effect. If procedures then produce the choices without overrides, the witness can be found_supported under those premises only; changed premise differences remain visible and never become baseline evidence.",
+        "propagation": "Claim basis and disqualifying origins travel with inherited lineage, queries, candidates, bookmarks and exports. Replaying a forced decision through independent generation creates new evidence; it never relabels the original override. Unsupported mechanics remain unsupported and incomplete predicates unresolved.",
+        "default_discovery": "Default actor-generated discovery and the meaningful-agency gate exclude override/imposed/provisional histories. Authors can explicitly include conditional ideas for brainstorming and retention in a separately labelled population.",
+        "assessment_boundary": "Declare the assessment start and initialized source premises. Pre-start source facts are premises, not claims that earlier choices were simulated. All generated decisions and inherited intervention lineage within the assessed interval remain in scope; moving a report window cannot hide an earlier intervention that affects the claimed result."
+      }
     },
     "population_contract": {
       "evaluation_key": [
-        "policy_version",
-        "actor_model_version",
-        "mechanism_version",
-        "world_design_id",
+        "resolved_experiment_id",
         "root_world_id",
         "assessment_stage"
       ],
-      "branch_key": "Unique run/branch identity with parent evaluation and intervention/provisional lineage.",
+      "branch_key": "Unique run/branch identity with resolved_experiment_id, branch_spec_id, parent evaluation/checkpoint/prefix, and intervention/provisional lineage; descendants never overwrite the parent evaluation.",
       "example": "100 root worlds with 20 unsupported paths and 20 provisional child continuations remain 100 original policy-world evaluations: 80 supported and 20 unsupported. There are 120 logical branch executions before retries. The 20 continuations form a selected conditional population, not 20 added independent worlds.",
-      "aggregation": "Preserve root status; report a continuation scenario separately. If justified outcome bounds exist, publish lower/upper aggregate bounds over the original population; otherwise withhold the affected aggregate. Retries, cache hits and reused evaluations are cost/accounting fields, not new evidence."
+      "aggregation": "Preserve root status; report a continuation scenario separately. If justified outcome bounds exist, publish lower/upper aggregate bounds over the original population; otherwise withhold the affected aggregate. Retries, cache hits and reused evaluations are cost/accounting fields, not new evidence.",
+      "identity_contract_ref": "ontology_contract.resolved_experiment_contract"
     },
     "nullability_contract": {
       "StoryBookmark": [
@@ -4249,7 +4355,53 @@
         "supersedes_ref for initial revision"
       ],
       "rule": "Explicit null and empty supported-reference sets are meaningful only where the type permits them; unknown evidence must remain marked unknown, never silently inferred."
+    },
+    "resolved_experiment_contract": {
+      "id": "resolved_experiment_id",
+      "form": "Content fingerprint of a canonical resolved manifest; a manifest contract within existing experiment/run scope, not an additional world entity.",
+      "includes": [
+        "resolved scenario state and dated premise interventions",
+        "declared decision, premise and imposed-event interventions with effective and information times",
+        "policy/controller, actor-model and mechanism versions and parameters",
+        "conduct bindings, permitted-category sets and enabled variants",
+        "fidelity, projection, schema, binding and identity-contract versions",
+        "horizon, clocks, constraints and active predicates",
+        "world design, uncertainty distributions and indexed draw allocation",
+        "supported engine environment and dependency builds"
+      ],
+      "excludes": [
+        "display labels",
+        "save/execution timestamps",
+        "presentation-only formatting",
+        "search ranking or narrative selection that does not alter generated history"
+      ],
+      "canonicalization": "Resolve defaults, units, time zones and references to immutable semantic content; sort unordered maps/sets and preserve semantically ordered sequences. Pin number/time serialization and canonicalization version, and reject unresolved material values. Display-name changes preserve identity; changes to any included semantic value change it. Keep provenance and presentation metadata separately retained.",
+      "calculation": "calculation_key = (resolved_experiment_id, root_world_id, assessment_stage, branch_spec_id). branch_spec_id fingerprints the parent checkpoint/prefix and normalized intervention or root marker; runtime branch/run IDs additionally preserve lineage.",
+      "evaluation": "evaluation_key = (resolved_experiment_id, root_world_id, assessment_stage). The original evaluation remains distinct from descendant branch executions; a changed semantic continuation references its new resolved experiment as well as its parent evaluation.",
+      "matching": "root_world_id identifies external conditions within a compatible pinned world design. It is separate from experiment identity so matched comparisons remain possible across policy, premise, conduct or fidelity variants only where draw meanings remain valid. The same root ID alone proves neither equivalence nor causality.",
+      "retries": "Retries and cache hits retain the same calculation/evaluation identity and never add statistical evidence. Cache reuse requires an exact calculation key; matching only a root world or policy version is insufficient."
+    },
+    "exploration_proposal_contract": {
+      "required": [
+        "proposal method and version",
+        "actor-admissible policy/choice family and bounds",
+        "declared premise packages",
+        "enumeration/sampling order and randomness",
+        "proposal and rollout budgets with stopping rules",
+        "attempted, rejected, evaluated and retained counts",
+        "selection and omission reasons"
+      ],
+      "r0": "Enumerate a small declared family of actor-admissible Pacifica policy settings or procedural choice alternatives independently of strategic fitness. Execute the actual controller with existing information, goals and commitments; counterparties choose independently. If an option needs a forced decision or changed character premise, classify it accordingly.",
+      "later": "A separately budgeted open-exploration stream may use bounded policy variation or underrepresented causal structures, but must admit proposals without requiring strategic improvement or descent from elite policies. Structural or character changes remain explicit premise packages.",
+      "routing": "Send every evaluated trace to the candidate selector before strategic pruning. Keep proposal coverage distinct from selector coverage, retention and omitted possibilities; share cached computation without merging populations or double-counting evidence.",
+      "acceptance": "Start from the allowed proposal family, not a pre-populated history set. Under fixed stated budgets, generate and surface a causally distinct dominated route omitted by the declared purely strategic proposal/pruning comparator. Log the proposal and executed decision provenance. Do not name its ending in the query or use a golden output as generator input."
+    },
+    "agency_evidence_contract": {
+      "r0": "At one reconstructed decision state, execute two actor-admissible alternatives through the pinned controller under declared allowed policy settings or procedural choice variation. Match compatible exogenous conditions; preserve information, goals and commitments, and recompute endogenous replies/effects.",
+      "positive": "Show understandable choice -> materially different consequence -> different next dilemma. Predeclare materiality and the local horizon; the contrast must change a goal state, obligation, supported relationship state or later available choice, with actual decision and mechanism supports.",
+      "negative": "Also show a supported alternative whose consequences differ little or not at all within the declared horizon/materiality, so circumstances and limited agency remain visible.",
+      "limits": "One-off overrides alone cannot pass agency evidence. If a different choice requires a changed character premise, state that premise and reassess under it. The local contrast is model-causal evidence within scope, not a historical causal estimate or a general literary score. Broad finalist analysis stays in TL-050 at R1."
     }
   },
-  "schema_change_note": "Revision 0.7 adds decision context/records, predicate and revision semantics, narrative candidates/search contracts, actor-specific conduct profiles and population identities. Existing IDs remain stable; renamed fields require explicit adapters if any consumer exists. This draft is not an executable runtime schema."
+  "schema_change_note": "Revision 0.8 defines additive conduct permissions, narrative claim admissibility, a shared resolved-experiment identity, independent open-exploration proposals and bounded R0 agency evidence. Existing record and requirement IDs remain stable; added required fields and the changed evaluation key need explicit migration if a consumer exists. This is a design contract, not an executable runtime schema."
 }

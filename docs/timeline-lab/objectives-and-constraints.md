@@ -1,6 +1,6 @@
 # Pacifica objectives and constraints draft
 
-**25 October 2026 · Design revision 0.7 · Draft for author review**
+**25 October 2026 · Design revision 0.8 · Draft for author review**
 
 The search should find Pacifica policies that improve prosperity and security while retaining fiscal resilience and limiting human costs. Compare their distributions and trade-offs. Each strategic optimization defines its beneficiaries, objectives, constraints and uncertainty before the optimizer sees results. Narrative exploration uses its own mode/target contract and requires no strategic scorecard.
 
@@ -27,11 +27,15 @@ The [fixture manifest](fixture-manifest.json) identifies the shared-change contr
 
 ## Author narrative conditions
 
-Actor goals and strategic objectives remain separate from author interest. R0 supports open exploration without a specified ending, extracts causal candidates before strategic pruning and permits spontaneous bookmarks. Derived dramatic views identify actor, goal, conflict, choice, sacrifice, consequence and unresolved tension with supports; they create no new motives or facts.
+Actor goals and strategic objectives remain separate from author interest. R0 open exploration has a declared proposal method and budget independent of strategic fitness or elite ancestry. It generates actor-admissible alternatives, then extracts causal candidates before strategic pruning and permits spontaneous bookmarks. Proposal coverage and selector retention are separate. A distinctive dominated route must be generated from the allowed family, not inserted as prepared output.
 
-R1 distinguishes existential_history (a supported generated witness), policy_reliability (target attainment over fresh unconditioned worlds) and minimum_premise_change (bounded permitted edits with explicit costs/order/ties). Queries specify temporal conditions, allowed interventions, sampling, evidence, population and budget. A rare plausible route need not be a reliable strategy. No-match-within-budget does not prove impossibility; incomplete histories cannot prove future absence. Imposed outcomes remain conditional consequence experiments.
+Derived dramatic views identify actor, goal, conflict, choice, sacrifice, consequence and next unresolved dilemma with supports. The R0 author gate includes a matched procedure-generated choice-consequence-next-dilemma contrast and a supported low-effect choice within a declared horizon/materiality. These views create no new motives or facts.
 
-Population membership distinguishes root worlds, policy-world evaluations and branches. Provisional descendants and retries never inflate independent evidence or replace unsupported parent outcomes. Candidate selection is not a strategic score; ordinary probability claims require suitable model evidence and fresh unconditioned assessment.
+R1 distinguishes existential_history, policy_reliability and minimum_premise_change. Every query also declares claim_basis, default actor_generated. An overridden decision or imposed/provisional event may yield a useful found_conditional consequence, but cannot certify found_supported or ordinary policy reliability. A regenerated witness under changed premises is supported only under that explicit package. Preserve origins and lineage in candidates, bookmarks and exports.
+
+Queries specify temporal conditions, interventions, sampling, evidence, populations and budgets; cost rankings require units/order/bounds/ties. A rare plausible route need not be reliable. Budget exhaustion does not prove impossibility and incomplete histories cannot prove future absence. Disallowed conditional candidates are excluded with reasons, never converted to false predicates for an impossibility claim.
+
+Population membership uses complete resolved-experiment identities, separate root worlds, evaluations and branches. Material premise, conduct or fidelity changes cannot alias an old evaluation. Provisional descendants and retries never inflate independent evidence or replace unsupported parent outcomes. Ordinary probability claims require suitable model evidence and fresh unconditioned assessment.
 
 ## Proposed objective set
 
@@ -121,7 +125,7 @@ Keep underlying and published conditions separate. The master includes falsified
 
 An action restriction limits orders; an outcome requirement may still fail because another actor or shock intervenes. Keep those losses in the sample. Engine failure, policy infeasibility and an adverse world are different results.
 
-Profiles bind named actors/action families and dates. `lawful` rejects actual unauthorized execution; `apparent_authority` separately allows supported conduct mistakenly believed authorized, with actual illegality and delayed discovery retained; `breach_exploration` covers registered intentional violations. Missing/overlapping bindings need resolution before execution. Lawful Pacifica can encounter an independent counterparty breach. All require physical/accounting consistency, independent consent, locked premises and covered consequences; later cure preserves prior breach days. Baseline replay retains the illegal 1927 provisional Concord application and 1928 cure without enabling a general consent bypass.
+Profiles bind named actors/action families and dates to additive permission sets. Every profile permits lawful execution. `apparent_authority` adds supported mistaken-authority execution; `breach_exploration` adds supported intentional breaches while preserving both earlier possibilities. Actual legality is independently adjudicated, so valid authority stays lawful under any profile. Broader permission does not compel misconduct or create consent. Each exception needs variant-specific support; physical/accounting invariants, independent response, locked premises and covered consequences remain binding. Later cure preserves earlier breach days. Baseline replay retains illegal 1927 provisional Concord application and 1928 cure without enabling a general consent bypass.
 
 | ID and status | Rule or proposed bound | Treatment |
 |---|---|---|
@@ -189,7 +193,7 @@ M0 also selects the active ontology, selected character beliefs/intentions, supp
 | REV-04 | Select pilot scope | Start with one bounded dilemma within the broader 1904–1932 campaign; include selected beliefs/plans, supported consequences and the author review. |
 | REV-05 | Resolve evidence and continuation gaps | Obtain the consumption/price bridge, resource/logistics data, actor response cases, human-cost model and terminal-liability treatment before claiming strategic rankings. |
 | REV-06 | Choose comparison design | Use common-start policy contests; separately label premise packages and imposed-event experiments. |
-| REV-07 | Select semantic and narrative slice | Active predicates/state rules, person/institution decision procedures, actor conduct bindings, causal signatures and one bounded exceptional-conduct family. |
-| REV-08 | Approve author evaluation and search contracts | Define prepared/open/held-out tasks and a manual comparator; register modes, temporal statuses, interventions, costs, sampling and population units. |
+| REV-07 | Select semantic and narrative slice | Active semantics, additive conduct/enabled variants, person/institution procedures, resolved identity and bounded consequential-agency contrast. |
+| REV-08 | Approve author evaluation and search contracts | Prepared/open/held-out tasks/manual comparator, independent proposal budgets, claim admissibility, search/temporal semantics, costs and population units. |
 
 Adopting an experiment or metric does not adopt a generated history as canon. The [master storyline](https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/master_storyline.md) and its local APPROVED, PROPOSED, OPEN and MODEL distinctions retain narrative authority.

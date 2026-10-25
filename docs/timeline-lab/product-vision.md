@@ -1,24 +1,22 @@
 # Pacifica Timeline Lab product vision
 
-**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.7**
+**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.8**
 
 Timeline Lab is a fast strategic wargame for developing the Pacifica plot. The author changes a decision, sees generated histories, inspects consequential choices and retains useful ideas with their assumptions. The same model searches for strong Pacifica strategies and for plausible routes to declared narrative conditions, while other actors respond on their own terms. Strategic success and the author's interest in a story are separate.
 
 The six authored timelines are financial regression references and comparator strategies. They do not define the available futures, and the author never has to write the outcome of a path in advance.
 
-## Changes in revision 0.7
+## Changes in revision 0.8
 
 | Design choice | Treatment |
 |---|---|
-| Attributable agency | Decision contexts bind people, institutions, authority, resources and the actual choice procedure; recorded reasons identify inputs used. |
-| State and information | Registered predicates, immutable revisions, target/valid/belief times and delivered snapshots prevent old reports rewriting current truth. |
-| Open discovery | R0 surfaces causal story candidates before strategic pruning without a predefined ending; spontaneous bookmarks remain independent. |
-| Search meaning | R1 distinguishes a possible generated history, a reliable policy and a minimum premise change, with explicit temporal/search statuses. |
-| Conduct | Actor/action-family bindings separate strict lawful execution, supported apparent authority and intentional breaches. |
-| Dramatic explanation | Deterministic views expose goals, conflicts, choices, sacrifices, consequences and unresolved tensions with evidence. |
-| Author evidence | Prepared, open-ended and held-out writing tasks are compared with notes/manual work; useful new ideas must survive assumption disclosure. |
-| Accounting | MetricSample differs from actor Observation; root worlds, evaluations, branches and retries have distinct population identities. |
-| Delivery | A small M0 semantic prototype precedes optimized interface commitments. The 76 stable requirements and 12 phase gates remain synchronized. |
+| Conduct permissions | Every profile permits lawful action; supported exceptions add possibilities. Actual legality and independent choice remain separate. |
+| Story claims | Actor-generated histories differ from mechanically supported consequences of an author override. Both can inform writing, with explicit evidence labels. |
+| Experiment identity | Calculations, evaluations and branches share complete resolved input identity; matched external worlds remain separately identified. |
+| Open discovery | A bounded proposal method explores actor-admissible alternatives independently of strategic fitness, then selects causal candidates before pruning. |
+| Consequential agency | R0 traces a supported different choice to a material consequence and a different next dilemma, alongside a low-effect choice. |
+| Decision equivalence | Matching decisions requires the same actor/controller, private state, goals/preferences, visible history, policy settings and randomness. |
+| Delivery | M0 proves these bounded cases before optimized interfaces. The 76 requirements and 12 later phase gates retain their IDs and release sequence. |
 
 ## Confirmed product choices
 
@@ -166,12 +164,17 @@ Events may be exogenous, such as an external disturbance, or endogenous to state
 
 ## Monte Carlo, optimization and diversity have separate jobs
 
-Monte Carlo evaluates a policy under a declared world design; strategic optimization proposes policies; narrative selection surfaces causal variety. Random seeds and counterparty agreement are never Pacifica policy variables. A separately declared story sampler may target uncertain conditions and must retain its selection/weight contract; its selected shares do not establish ordinary probabilities.
+Monte Carlo evaluates a policy under a declared world design. Strategic optimization proposes policies for their outcomes; open exploration has its own proposal method and budget that does not require strategic improvement or elite ancestry. It can enumerate a small family of supported choices in R0. Both execute actor procedures under their information and commitments, then send histories to narrative selection before strategic pruning.
+
+Random seeds and counterparty agreement are never Pacifica policy variables. A separately declared story sampler may target uncertain conditions and retains its selection/weight contract; selected shares do not establish ordinary probabilities. Proposal coverage and retained story coverage are reported separately.
 
 ```mermaid
 flowchart LR
     Goal["Objectives, constraints and descriptors"] --> Search["Generate and improve Pacifica policies"]
     Search --> Sim["Fast native ensemble"]
+    Open["Open proposals with independent budget"] --> Sim
+    Sim --> Candidates["Causal story candidates before pruning"]
+    Candidates --> Bookmarks["Inspect assumptions and retain ideas"]
     Actors["Own-interest actor responses"] --> Sim
     Worlds["Declared uncertainty"] --> Sim
     Sim --> Frontier["Global trade-offs and per-cell Pareto sets"]
@@ -192,7 +195,7 @@ When probability distributions lack support, report robustness, regret and failu
 
 ## Conditions for credible results
 
-**Semantic and creative evidence.** R0 tests identity, claims/beliefs, observation-safe eligibility, competing reservations, actor-scoped conduct treatment, decision reconstruction and applicability propagation. The author reviews predeclared writing tasks for causal variety, meaningful agency, branch clarity and retained useful ideas. Throughput and automated prose scores cannot substitute for that judgment.
+**Semantic and creative evidence.** R0 tests identity, claims/beliefs, observation-safe eligibility, competing reservations, additive conduct, decision reconstruction and applicability. Under matched external conditions, two procedure-generated choices must produce a material consequence difference and a different next dilemma; a low-effect choice shows where circumstances dominate. Open exploration must generate a distinctive dominated route from its proposal family, rather than receive the route as prepared input. The author reviews prepared/open/held-out tasks for useful ideas after assumption disclosure, branch clarity and repair effort.
 
 **Credibility starts in R0.** Each displayed quantity identifies ownership, geography, units, source/assumption IDs, producing module, coverage and fidelity. Unsupported outcomes remain unavailable or explicitly named proxies. Monthly or finer timing is required wherever it changes liquidity or an action's feasibility.
 
@@ -204,11 +207,15 @@ When probability distributions lack support, report robustness, regret and failu
 
 **Reproducibility needs more than a seed.** Draw addresses include world design, world, time, stream and entity/event/ordinal where needed; matched comparisons share exogenous addresses without shifting them when a branch changes. Pin environment and dependency builds and test batch/worker independence. Cross-environment guarantees have explicit tolerances and logical-decision rules.
 
+Calculation and evaluation keys share a canonical resolved-experiment identity including scenario premises, conduct and fidelity. A label change cannot create a new experiment, and a material cash, conduct or fidelity change cannot reuse an old evaluation. External root-world identity remains separate for compatible matched comparisons.
+
 **Tests must expose impossible gains.** Use small exhaustive search/archive cases and simple/random policies under equal budgets. Check free resources, instant mobilisation, automatic consent, hidden future information and debt or harm deferred beyond the horizon. More rollouts cannot repair an unsupported behavioral model.
 
 **Failures remain visible.** Defeat, default and terminal harm remain scored outcomes. Computational errors stay separately accounted and block unsupported rankings; they do not become invented utility values. Stored manifests preserve complete, partial and failed statuses.
 
 The six authored cases test financial equivalence only in labelled fixture replay. Authored future overrides cannot force actor outcomes in discovery. Broader credibility requires evidence for the mechanisms and conditions actually claimed.
+
+An author-forced refusal can be useful for asking what follows, but its consequences remain conditional even if their mechanics are supported. Default discovery claims require choices actually produced by actor procedures. A plausible refusal generated under an explicitly changed character premise may be supported under that premise; it does not validate the original character model. Candidates and bookmarks retain these distinctions.
 
 ## What the dashboard should show
 
@@ -259,10 +266,10 @@ A shorter slice within 1904–1932 is permitted when its question, active ontolo
 
 M0 selects the dramatic question and author evaluation protocol, specifies the semantic/adjudication contracts and applicability envelopes, checks independent financial cases and measures realistic speed. M1/R0 demonstrates causal alternatives, consequential agency, a selected belief-driven plan change, a branch and a retained interesting history before broad tooling or search-scale commitments.
 
-M0 first proves a small semantic prototype before fixing optimized engine interfaces. The author protocol includes prepared questions, open exploration without a target, a supported question withheld from tuning and a notes/manual-workflow comparison. Record previously unconsidered causal ideas, usefulness after assumption disclosure, time, explanation gaps and repair. A revealed task used for tuning loses held-out status. Author judgment controls acceptance; a failed gate prompts a design or scope revision.
+M0 first proves additive conduct, honest story claims and complete experiment identity in the existing semantic prototype. It also fixes the bounded proposal method and choice-consequence-next-dilemma demonstration, including a low-effect control, before optimized engine interfaces. The author protocol includes prepared questions, open exploration without a target, a supported question withheld from tuning and a notes/manual-workflow comparison. Record new causal ideas, usefulness after assumption disclosure, time, explanation gaps and repair. A revealed task used for tuning loses held-out status. Author judgment controls acceptance; a failed gate prompts a design or scope revision.
 
 R1 demonstrates at least 1,000 candidate policies and 100,000 generated paths under the declared benchmark or an explicitly revised scope, plus a repeated author review and bounded narrative-condition search. Strategic assessment and targeted story selection retain separate denominators and claims.
 
 The [objective sheet](objectives-and-constraints.md), [action and actor catalog](action-and-actor-catalog.md), [ontology](ontology.md) and [structured draft catalog](draft-model-catalog.json) supply definitions to narrow for the first question.
 
-See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.7 contracts and release gates are synchronized.
+See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.8 contracts and release gates are synchronized.
