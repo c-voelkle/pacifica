@@ -1,22 +1,23 @@
 # Pacifica Timeline Lab product vision
 
-**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.5**
+**Strategic sketchpad and policy search · 25 October 2026 · Revision 0.6**
 
-Timeline Lab is a fast strategic wargame for developing the Pacifica plot. The author changes a decision, sees progressively refined possible histories within the measured sketch target, picks out an interesting path and reads it as a draft storyline. When an idea looks promising, the same model searches for strong and distinct Pacifica strategies across thousands of generated histories, with other actors responding on their own terms.
+Timeline Lab is a fast strategic wargame for developing the Pacifica plot. The author changes a decision, sees generated histories, inspects consequential choices and retains useful ideas with their assumptions. The same model searches for strong Pacifica strategies and for plausible routes to declared narrative conditions, while other actors respond on their own terms. Strategic success and the author's interest in a story are separate.
 
 The six authored timelines are financial regression references and comparator strategies. They do not define the available futures, and the author never has to write the outcome of a path in advance.
 
-## Changes in revision 0.5
+## Changes in revision 0.6
 
-| Design choice | Revision 0.5 treatment |
+| Design choice | Treatment |
 |---|---|
-| Sketch and campaign loops | Keep rapid idea testing and slower policy search on shared model definitions. R0 starts with one bounded financing/commitment question. |
-| Early credibility | Ownership, coverage, basic tracing, material cash timing and independent changed-input checks apply from R0. Full fixture parity stays in R2. |
-| Two fidelities | Share mechanisms and explicit aggregation rules. Distinguish forensic checking of a recorded path from re-evaluating its policy under detailed states. |
-| Strategy diversity | Retain a bounded Pareto set within each behavior cell; avoid a hidden scalar “best policy.” |
-| Actor response | Separate other actors' own-interest responses from hostile but plausible stress tests. Lost advantage is sensitivity; an exploit needs an identified defect. |
-| Build order | M0 proves correctness and realistic speed. A narrow sketchpad and structured timelines come before the general editor, structural generators and optional LLM narration. |
-| Requirements | Synchronize the Markdown and backlog at revision 0.5, including first-release dependencies and explicit later phase gates. |
+| Plot discovery | Author narrative conditions and a durable story archive complement strategic objectives; interesting dominated histories survive pruning. |
+| Ontology | Explicit identity, information, intention, action, obligation, time and explanation contracts in [ontology.md](ontology.md), mirrored in the structured catalog. |
+| Actor decisions | Selected beliefs and intentions explain consequential choices. Perceived eligibility is separate from actual adjudication, including menus and messages. |
+| Legality and resources | Lawful and supported breach-exploration profiles retain separate legal/physical semantics; simultaneous commitments use registered reservations and allocation. |
+| Branching | Complete decision-state reconstruction supports decision, premise and imposed-event interventions with distinct assessment labels. |
+| Model limits | Runtime applicability checks propagate to dependent claims; selected provisional continuations remain conditional and inspectable. |
+| Build order | R0 demonstrates a useful bounded dramatic decision. R1 adds assessed strategy and narrative-condition search. General editing, schema generation and optional LLM prose move to R2. |
+| Traceability | 76 stable requirements and 12 later phase gates synchronize with the backlog; existing requirement IDs and fixture identities are retained. |
 
 ## Confirmed product choices
 
@@ -28,22 +29,25 @@ The six authored timelines are financial regression references and comparator st
 | Calculate independently of Excel | Required by the author |
 | Research professional wargame measures before adopting a scorecard | Required by the author |
 | Fast, easy exploration of plot ideas | Requested by the author |
+| Explicit ontology and review recommendations for plot discovery | Incorporated at the author's request; particular characters, rules and narrative conditions remain to select |
 | Two loops, declared fidelity levels, diverse strategy archives, response/stress assessment, storyline layer, Git/columnar storage | Design recommendations incorporating the review; parameter and scope choices remain proposed |
 | Exact success measures, thresholds, risk preferences and pilot boundaries | Still to define |
 
-This is a strategic simulation and optimization product. Storage and the dashboard serve that purpose; their design follows the model's decisions, dynamics and speed needs.
+This is a strategic simulation and plot-exploration product. Its author can value a history that is strategically inferior. Storage, optimization and presentation serve the decisions, explanations and writing workflow.
 
 ## Two loops on one model
+
+Both loops separate actor objectives from author narrative conditions. R0 filters and bookmarks supported histories; R1 adds bounded search for routes or minimum changes satisfying author conditions. An author query never supplies future information to an actor.
 
 ### The sketch loop
 
 The author opens a pinned world and changes a supported Pacifica lever: the terms of a financing offer, the timing of a funded readiness programme, or a cash threshold below which new commitments are postponed. Outcome fans stream in against a reference sketch with matched external worlds. The provisional targets are 1,000 paths visible within one second at p95 and 10,000 within ten seconds, subject to the M0 benchmark.
 
-R0 implements one agreed financing/commitment question, its indispensable actor roles and supported effects. Counterparties can refuse or counteroffer. Monthly cash timing is included where it changes feasibility. External conditions and omitted mechanisms are explicit; the slice cannot establish global diplomatic or military optimality.
+R0 implements one agreed financing/commitment dilemma, its indispensable institutions and selected character beliefs/intentions. Counterparties can refuse or counteroffer. Monthly cash timing, contested authority and the consequences of one supported breach case are explicit. The slice demonstrates a consequential choice and understandable alternatives; it cannot establish global diplomatic or military optimality.
 
-Selecting an adverse or representative path opens its recorded decisions, responses and events, with an offline deterministic summary. An explicit save creates a named version; temporary slider edits do not require Git branches or commits. Optional LLM narration follows in R1.
+Selecting an adverse or representative path opens its recorded decisions, responses and events, with an offline deterministic summary. An explicit save creates a named version; temporary slider edits do not require Git branches or commits. Optional LLM narration follows in R2, after the author workflow is established.
 
-Sketching evaluates an author's policy idea. It does not optimize or prescribe the other actors' decisions.
+Sketching evaluates an author's policy idea. Selecting an interesting history preserves it even if it is dominated. A branch can change a Pacifica decision, a declared premise or an explicitly imposed event; ordinary policy runs never prescribe another actor's acceptance.
 
 ### The campaign loop
 
@@ -56,7 +60,7 @@ Descriptor coordinates summarize a policy across a registered world design, with
 
 Finalists receive additional sampling when ranks or tails are uncertain. They face other actors' best or near-best responses to those actors' own goals, and a separately labelled hostile stress search under stated plausibility and acceptable-own-outcome bounds. At least one Pacifica revision round precedes a fresh final assessment.
 
-Both loops share world and mechanism definitions, the action catalog and actor models. A sketch can seed a campaign; a finalist can return to the sketch loop for variation.
+Both loops share the semantic ontology, mechanism definitions, action catalog and actor models. A sketch can seed a campaign; a finalist or author bookmark can return to a reconstructed decision point for variation. An author archive remains separate from the strategy map.
 
 ## What the finished tool should let the author do
 
@@ -70,13 +74,33 @@ The saved result is a policy plus its assessed distribution of outcomes. A parti
 
 ## From histories to storylines
 
-R0 provides an inspectable structured timeline and deterministic summary. R1 groups assessed histories into **history types** using registered event and trajectory features. Each type includes its share of tested runs, distinguishing conditions and an actual representative path. Rare/outlier and terminal histories remain accessible; computational errors retain their separate status.
+R0 provides an inspectable timeline, deterministic summary and durable story bookmarks. The author can ask for a rescue that succeeds financially but creates an institutional confrontation, or a reasonable decision under a mistaken belief. These are illustrative writing questions, not canon. Narrative conditions select or guide exploration; they do not guarantee the desired events.
 
-Shares are fractions of the tested ensemble unless the uncertainty model justifies probabilities. Scenario-discovery conditions are associations; controlled reruns can test causal relationships within the declared model.
+R1 searches for distinct supported routes and bounded minimum changes. A query declares event/trajectory predicates, temporal order, allowed interventions, plausibility/evidence constraints and budget. Minimum change needs declared units or a lexicographic order, bounds and tie rules. Results are best-found unless the bounded space has been exhaustively checked.
 
-**Grounded narration.** Optional R1 narration renders typed event and claim records after calculation. Numbers are inserted from saved results. A claim about a motive or causal relationship needs its own supporting record; matching a number and event ID does not prove the prose is true. Unsupported claims are rejected or separated as author speculation. Ambiguous free prose requires review rather than a claim of complete automated semantic verification.
+A selected character can hold an office, pursue institutional goals and retain a conflicting personal commitment. A dated observation can revise a belief and alter a persistent plan. The trace records that explanation and preserves failed or abandoned plans. R0 models only the consequential beliefs and intentions selected for its dilemma; motives outside those records remain author interpretation.
 
-The typed record and deterministic summary remain authoritative. Store the narration's claim references, provider/model, prompt and check versions. Narration is a draft outside the calculation, cannot change results and cannot approve canon. Offline operation remains complete.
+This distinction between author goals and actor intention/belief is informed by [Sabre](https://ojs.aaai.org/index.php/AIIDE/article/view/18896); preserving conflicting unrealized plans is informed by [CPOCL](https://ojs.aaai.org/index.php/AIIDE/article/view/12428). Their centralized planners are not adopted as Pacifica's actor controller.
+
+R1 also groups assessed histories into **history types** using registered event/trajectory features. Each type includes its share of tested runs, distinguishing conditions and an actual representative. Rare/outlier and terminal paths remain accessible. Bookmarks survive cluster changes and Pareto pruning.
+
+Shares are fractions of the stated tested population unless a probability model supports more. Targeted or filtered story samples cannot establish unconditional success rates. Freeze a selected policy and assess fresh unconditioned worlds before making its ordinary distributional claims. Scenario-discovery conditions are associations; controlled reruns can support causal claims within the declared model.
+
+**Grounded narration.** Optional R2 narration renders typed event and claim records after calculation. Insert numbers from saved results. Motives require intention/belief records; causal claims require mechanism or intervention-analysis support. Unsupported prose is rejected or separated as author interpretation, and ambiguous free prose requires review.
+
+The structured timeline and deterministic summary remain authoritative and fully usable offline. Save narration claim references, provider/model, prompt and check versions. Narration cannot change the calculation or approve canon.
+
+## Explicit semantics and author control
+
+The [ontology](ontology.md) distinguishes persons, offices, institutions and factions; underlying facts, source assertions, delivered observations and beliefs; goals, plans, promises and legal obligations; and attempts, adjudication and realized events. Dated qualified relations express consent, jurisdiction, ownership and practical access without collapsing them into a country-level Boolean.
+
+Policies see only permitted information, including action menus and previews. An attempt that appears feasible can fail when actual resources or counterpart responses resolve. Simultaneous commitments reserve and settle scarce resources through registered rules rather than incidental module order.
+
+Experiments select lawful execution or a supported breach-exploration profile. The latter models physically possible breaches and their consequences while retaining accounting invariants, independent responses and locked authorial premises. A later remedy does not erase a prior breach. Unsupported breach families remain disabled.
+
+At a recorded decision point, reconstruct the full relevant world and actor state. Distinguish changing Pacifica's decision, changing a dated premise and imposing a conditional event. Preserve established history and show the first consequential divergence; earlier causal changes require an earlier fork.
+
+Mechanisms have runtime applicability envelopes. Crossing a boundary withholds affected claims by default. An explicit registered provisional continuation creates a linked conditional experiment useful for writing, with dependent uncertainties preserved and stronger rankings unavailable.
 
 ## What professional wargames actually track
 
@@ -127,7 +151,7 @@ Existing GDP/Treasury series provide part of the economic foundation. Readiness,
 
 ## How paths are generated
 
-At each decision point, actors observe part of the current state, choose feasible actions and encounter uncertain outcomes. The world advances according to the registered economic, financial, logistical and political mechanisms.
+At each decision point, actors receive dated observations, update selected beliefs/plans and choose attempts from their perceived options. Adjudication resolves actual authority, resources, independent responses and uncertain effects. The world advances according to the registered economic, financial, logistical and political mechanisms.
 
 A compact formulation is:
 
@@ -137,7 +161,7 @@ The fast engine evaluates many worlds through batched operations or profiled com
 
 Pacifica's policy chooses its action from the information available at that time. It cannot inspect future shocks or hidden opponent information. Other actors have their own objectives, observations, resource limits and response policies; independent agency does not imply uncorrelated behavior.
 
-The action catalog specifies preconditions, authority, costs, delays and effects. Pacifica can make an offer, invest, borrow, change a commitment or alter a supported policy. It cannot directly choose another state's acceptance, a constitutional outcome or a favourable crisis resolution.
+The action catalog separates perceived eligibility from actual preconditions and specifies authority, costs, delays, reservations, consequences and disclosure rules. Pacifica can make an offer, invest, borrow, change a commitment or alter a supported policy. It cannot directly choose another state's acceptance, a constitutional outcome or a favourable crisis resolution.
 
 Events may be exogenous, such as an external disturbance, or endogenous to state and decisions. The distinction must be explicit. The catalog and transition rules generate the branches, rather than selecting among prewritten story endings.
 
@@ -169,6 +193,8 @@ When probability distributions lack support, report robustness, regret and failu
 
 ## Conditions for credible results
 
+**Semantic and creative evidence.** R0 tests identity, claims/beliefs, observation-safe eligibility, competing reservations, lawful/breach treatment, decision reconstruction and applicability propagation. The author reviews predeclared writing tasks for causal variety, meaningful agency, branch clarity and retained useful ideas. Throughput and automated prose scores cannot substitute for that judgment.
+
 **Credibility starts in R0.** Each displayed quantity identifies ownership, geography, units, source/assumption IDs, producing module, coverage and fidelity. Unsupported outcomes remain unavailable or explicitly named proxies. Monthly or finer timing is required wherever it changes liquidity or an action's feasibility.
 
 **Fit and intervention checks differ.** Pin baseline calibration bands, then test accepted/refused/counteroffered financing, changed terms and dates, failed rollover and an interim cash shortage against independent reference calculations. Baseline agreement cannot establish correct off-baseline behavior. Full six-case regression is a later R2 obligation.
@@ -196,8 +222,9 @@ The six authored cases test financial equivalence only in labelled fixture repla
 | Compare trade-offs | Estimated Pareto frontier, distribution plots, downside and joint target attainment |
 | Strategy map | Distinct behavior cells, within-cell Pareto representatives, descriptor uncertainty and assessment status |
 | Explain a policy | Conditional decisions, bottlenecks, own-interest responses, separate stress results and failure conditions |
-| Storylines | History types with shares, distinguishing conditions and representative paths |
-| Replay and branch | A selected path, structured summary, optional narration, forensic check and separately linked policy re-evaluation |
+| Story exploration | Narrative conditions, targeted routes, distinct causal alternatives and a durable author archive |
+| Storylines | History types with stated denominators, distinguishing conditions and representative paths |
+| Replay and branch | Complete decision state; separate decision/premise/imposed-event modes; structured explanation, later optional narration and detailed reassessment |
 | Export | Reproducible strategy/evaluation package and an optional draft storyline |
 
 The author should be able to see why a policy looks attractive, the assumptions that make it work, the circumstances in which it fails and the kinds of story it tends to produce.
@@ -224,15 +251,19 @@ Batch result files outside simulation time steps. Retained manifests and a singl
 
 | Release | What it delivers |
 |---|---|
-| R0 bounded sketchpad | One supported financing/commitment question, indispensable actor roles, native fast accounts, independent reference checks, meaningful timing, basic source/coverage/fidelity labels, versioned sketches, outcome fans and offline structured timelines/template summaries |
-| R1 strategy discovery | Objective sets, global and per-cell trade-offs, adaptive sampling, own-interest responses and separate hostile stress, fresh assessment, history types, general catalog editing, structural generation where useful and optional bounded LLM narration |
-| R2 detailed fidelity and evidence | Forensic checks and separate policy re-evaluation, full instrument schedules, six-fixture parity, finance-skill integration, full trace inspection and dependency impact previews |
+| R0 bounded dramatic sketch | One supported financing/commitment dilemma, selected beliefs/intentions, native accounts and independent checks, explicit ontology, observation-safe adjudication, resource settlement, one supported lawful/breach comparison, applicability, decision-point branches, bookmarks and offline summaries |
+| R1 strategy and plot discovery | Targeted objective/narrative forms, global/per-cell trade-offs, adaptive sampling, own-interest responses and separate stress, fresh assessment, history types and bounded narrative-condition/minimum-change search |
+| R2 supporting tools and detailed fidelity | General catalog editing, useful structural generation, optional grounded LLM narration, forensic checks and policy re-evaluation, full instrument schedules, six-fixture parity, finance-skill integration and deep inspection |
 | R3 expansion | Additional supported questions, regions, actors and mechanisms; semantic rebases; separately designed hosted/multi-user mode |
 
-A 1904–1932 window remains a proposal, with a shorter first slice permitted if its question and limits are explicit. Broader discovery eventually combines finance, diplomacy and sustainable capability; the first slice must not pretend that its omitted world is modeled. The 1846–1932 fixtures remain an R2 regression obligation.
+A shorter slice within 1904–1932 is permitted when its question, active ontology and limits are explicit. Broader discovery eventually combines finance, diplomacy and sustainable capability. The 1846–1932 fixtures remain an R2 regression obligation.
 
-R1 demonstrates at least 1,000 candidate policies and 100,000 generated paths under the declared benchmark or an explicitly revised scope. It includes adaptive choices, independent refusal, assessed trade-offs, within-cell diversity, response/stress sensitivity, fresh assessment and replayable failures.
+M0 selects the dramatic question and author evaluation protocol, specifies the semantic/adjudication contracts and applicability envelopes, checks independent financial cases and measures realistic speed. M1/R0 demonstrates causal alternatives, consequential agency, a selected belief-driven plan change, a branch and a retained interesting history before broad tooling or search-scale commitments.
 
-M0 establishes the question, minimal typed contracts, independent correctness cases and measured speed. It does not require universal code generation or an LLM renderer. The [objective sheet](objectives-and-constraints.md), [action and actor catalog](action-and-actor-catalog.md) and [structured draft catalog](draft-model-catalog.json) supply the definitions to review and narrow.
+Record the author's usefulness judgments, time to first retained idea, explanation gaps and manual repair needed. The author chooses the acceptance procedure in M0; it is not a fabricated numeric story-quality threshold. Failure of that gate prompts a design or scope revision.
 
-See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.5 contracts and release gates are synchronized.
+R1 demonstrates at least 1,000 candidate policies and 100,000 generated paths under the declared benchmark or an explicitly revised scope, plus a repeated author review and bounded narrative-condition search. Strategic assessment and targeted story selection retain separate denominators and claims.
+
+The [objective sheet](objectives-and-constraints.md), [action and actor catalog](action-and-actor-catalog.md), [ontology](ontology.md) and [structured draft catalog](draft-model-catalog.json) supply definitions to narrow for the first question.
+
+See [requirements.md](requirements.md), [backlog.json](backlog.json) and [model-architecture.md](model-architecture.md). Their revision 0.6 contracts and release gates are synchronized.

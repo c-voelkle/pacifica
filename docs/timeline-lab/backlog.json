@@ -3,16 +3,17 @@
   "title": "Pacifica Timeline Lab sketching and strategy discovery requirements",
   "status": "proposed",
   "date": "2026-10-25",
-  "approval_status": "user_requested_incorporation_of_review_recommendations_and_revision_0_4_design_into_project_docs_detailed_parameters_remain_proposed",
+  "approval_status": "user_requested_revision_0_6_incorporating_review_recommendations_and_explicit_ontology_detailed_story_and_model_parameters_remain_open",
   "implementation_status": "not_implemented",
-  "scope": "A bounded native sketchpad followed by multiobjective strategy discovery, behavior maps with per-cell Pareto sets, own-interest response analysis, hostile stress tests, fresh assessment and traceable histories; detailed-ledger policy reassessment and full six-fixture parity follow in R2.",
+  "scope": "A bounded native sketchpad for strategic and plot exploration, with explicit ontology, beliefs and intentions, adjudicated attempts, decision-point branches, applicability checks and an author archive; R1 adds assessed strategy and narrative-condition search; R2 adds general editing, optional narration, structural generation and detailed financial fidelity.",
   "interpretation": {
     "authority": "product-vision.md defines the goal; requirements.md summarizes contracts and gates; this revision of backlog.json is authoritative for requirement statements, acceptance criteria, releases and dependencies. Any mismatch blocks the documentation gate.",
     "priority": "Must means required at the stated first release. Explicit phase_gates are additional Must obligations at their named later releases; Should remains a documented recommendation.",
-    "release": "R0 is the bounded sketch foundation with credibility checks. R1 delivers strategy discovery. R2 adds full detailed-ledger reassessment and six-fixture parity. R3 expands the world.",
+    "release": "R0 proves a bounded dramatic decision and credible accounts. R1 delivers assessed strategy discovery and bounded narrative-condition search. R2 adds general editing, optional LLM narration, structural generation, full detailed-ledger reassessment and six-fixture parity. R3 expands the world.",
     "acceptance": "Criteria and review examples are future obligations, not evidence of implemented or benchmarked software. Reference checks precede recommendations for each supported bounded claim.",
     "dependencies": "depends_on names prerequisites by the first required release; phase_gates may add prerequisites available by the named phase. No earlier release depends on a later one.",
-    "model_scope": "R0 implements one agreed financing/commitment question with a few indispensable actor roles and explicit external conditions. Full world coverage, the general editor, LLM narration and universal generators do not block the first slice."
+    "model_scope": "R0 implements one financing/commitment dilemma, a few indispensable actor roles, selected personal intentions and beliefs, and supported consequences. Only its bounded ontology subset must execute. Universal personality simulation, general editing, LLM narration and schema generators are not R0/R1 prerequisites.",
+    "ontology": "ontology.md defines semantic identities, lifecycle and invariants; draft-model-catalog.json.ontology_contract mirrors the record contracts and invariant IDs. This is a design specification, not an executable schema or implemented validator. Future runtime schemas and bindings must satisfy it."
   },
   "sources": [
     {
@@ -188,6 +189,28 @@
         "https://numpy.org/doc/stable/reference/random/compatibility.html",
         "https://numpy.org/doc/stable/reference/random/bit_generators/philox.html"
       ]
+    },
+    {
+      "id": "U13",
+      "kind": "user_request",
+      "description": "Incorporate the v0.5 review recommendations into v0.6 of the vision, requirements and architecture, make the ontology explicit, synchronize the backlog, and update existing draft PR 8."
+    },
+    {
+      "id": "S11",
+      "kind": "design_review",
+      "description": "Review of v0.5 at f0da5c000541352ccbfd2a49264614a248af8eb6: distinguish author narrative conditions from actor success; explicit semantic ontology; selected character beliefs and intentions; hidden-information-safe adjudication; lawful and breach profiles; decision-point intervention modes; runtime applicability; author usefulness gate before supporting tooling.",
+      "references": [
+        "https://github.com/c-voelkle/pacifica/tree/f0da5c000541352ccbfd2a49264614a248af8eb6/docs/timeline-lab"
+      ]
+    },
+    {
+      "id": "S12",
+      "kind": "primary_narrative_planning_research",
+      "description": "Conceptual precedents for character intentions, possibly false beliefs and conflicting or failed plans. Their centralized planning algorithms are not adopted as Pacifica's actor controller.",
+      "references": [
+        "https://ojs.aaai.org/index.php/AIIDE/article/view/18896",
+        "https://ojs.aaai.org/index.php/AIIDE/article/view/12428"
+      ]
     }
   ],
   "decisions": [
@@ -195,8 +218,8 @@
       "id": "D-001",
       "topic": "Product end goal",
       "status": "required_by_user",
-      "recommended": "Support fast sketches and discover adaptive Pacifica strategies across generated histories with multiobjective trade-offs and inspectable failures.",
-      "impact": "R0 is a foundation; only R1's discovery loop satisfies the search goal.",
+      "recommended": "Support credible strategic sketches and plot exploration, then discover adaptive Pacifica strategies and histories satisfying declared author conditions.",
+      "impact": "Actor objectives and author narrative conditions remain separate; useful dominated histories may be retained without changing their strategic assessment.",
       "owner_role": "project author",
       "alternatives": []
     },
@@ -213,8 +236,8 @@
       "id": "D-003",
       "topic": "Bounded pilot question",
       "status": "proposed",
-      "recommended": "Begin with one Japan financing/commitment question, a few indispensable actor roles, explicit external conditions, monthly cash where material and supported readiness effects.",
-      "impact": "Agree actor roster and evidence boundary in M0; the slice cannot claim global diplomacy or all-eight-objective coverage.",
+      "recommended": "Begin with one Japan financing/commitment dilemma, a few indispensable actors, selected character beliefs/intentions, explicit outside conditions and monthly cash where material.",
+      "impact": "M0 chooses the dramatic question and supported breach/consequence case; only the active semantic subset and its mechanisms are required.",
       "owner_role": "project author",
       "alternatives": []
     },
@@ -312,8 +335,8 @@
       "id": "D-014",
       "topic": "Narration",
       "status": "proposed",
-      "recommended": "R0 uses structured timelines/template summaries; optional LLM narration follows in R1 with typed claim references and review of causal/motive assertions.",
-      "impact": "Number/ID checks cannot prove semantic grounding; provider/cost/claim-review details remain to select.",
+      "recommended": "R0/R1 use structured timelines and deterministic summaries. Optional LLM narration follows in R2, grounded in typed event, motive and causal records.",
+      "impact": "The author usefulness gate precedes prose tooling. Provider/cost/review details remain open; narration does not add world facts.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -321,8 +344,8 @@
       "id": "D-015",
       "topic": "Catalog format and declarations",
       "status": "open",
-      "recommended": "Use strict schema-validated YAML or TOML with minimal typed models and explicit runtime bindings; generate structural artifacts where useful in R1.",
-      "impact": "Adding a state field requires semantics, initialization, migration and tests; generic generators do not block M0/R0.",
+      "recommended": "Use ontology.md and the structured ontology contract for semantic identities and invariants; minimal validated types and explicit bindings execute the bounded slice. General structural generation follows in R2.",
+      "impact": "Choose YAML or TOML later; storage choice does not supply semantics. Future schemas/validators must implement the ontology contracts.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
     },
@@ -334,13 +357,67 @@
       "impact": "Cell boundaries, summaries, capacity and deterministic diversity-pruning must be declared and tested without a hidden utility score.",
       "owner_role": "project author with model/implementation maintainer",
       "alternatives": []
+    },
+    {
+      "id": "D-017",
+      "topic": "Author narrative conditions",
+      "status": "incorporated_design_parameters_open",
+      "recommended": "Keep narrative predicates, dramatic preferences and an author story archive separate from strategic objectives and Pareto archives. R0 filters/bookmarks; R1 searches supported routes and minimum changes.",
+      "impact": "Choose the first predicates, change-cost definition and search bounds in M0/R1. No universal drama score or forced opponent compliance.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-018",
+      "topic": "Semantic and intention scope",
+      "status": "incorporated_design_subset_open",
+      "recommended": "Use distinct person/office/institution/faction identities, world facts/claims/beliefs, dated goals/plans/commitments and qualified rights/obligations.",
+      "impact": "M0 selects the smallest active subset; personal preferences are reviewed hypotheses and use existing character IDs where applicable.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-019",
+      "topic": "Legality and adjudication profiles",
+      "status": "incorporated_design_mechanisms_open",
+      "recommended": "Keep lawful search and explicitly selected supported breach exploration separate. Eligibility is observation-safe; actual execution and consequences are adjudicated.",
+      "impact": "M0 chooses one supported breach case with enforcement/resistance/consequence rules. Unsupported breach families remain disabled.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-020",
+      "topic": "Decision point interventions",
+      "status": "incorporated_design",
+      "recommended": "Provide decision, premise and imposed-event branch modes with complete state reconstruction, dated information and immutable prefix lineage.",
+      "impact": "Ordinary optimization controls only Pacifica; imposed outcomes remain conditional and cannot certify ordinary policy success.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-021",
+      "topic": "Applicability and provisional continuation",
+      "status": "incorporated_design_envelopes_open",
+      "recommended": "Check mechanism validity envelopes during execution. Allow explicitly selected registered provisional assumptions as linked conditional continuations.",
+      "impact": "Invalidity propagates to dependent claims; conditional and structural-model populations are not silently pooled into certified rankings.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
+    },
+    {
+      "id": "D-022",
+      "topic": "Creative usefulness gate",
+      "status": "incorporated_design_protocol_open",
+      "recommended": "Agree real writing tasks and author acceptance procedure in M0; demonstrate a bounded dramatic decision in R0 before broad tooling and search scale.",
+      "impact": "Record usefulness, time to first retained idea and repair burden without treating an automated score as author judgment.",
+      "owner_role": "project author with model/implementation maintainer",
+      "alternatives": []
     }
   ],
   "milestones": [
     {
       "id": "M0",
-      "title": "Define the bounded question and prove correctness and speed",
-      "exit": "Agree the narrow financing/commitment slice, actors, observations, evidence and temporal resolution; check baseline plus independent changed-input cases and profile a realistic kernel with queues, checks, logs and delivery. Confirm or revise performance targets. Minimal typed contracts and explicit bindings suffice; no full generator or LLM renderer is required.",
+      "title": "Define the dramatic question and prove the bounded model",
+      "exit": "Agree one financing/commitment dilemma, indispensable actors, selected beliefs/intentions, narrative conditions, supported action profiles and consequences, evidence, temporal resolution and the author acceptance procedure. Specify active ontology records, adjudication phases and validity envelopes; check independent baseline/changed-input cases and realistic speed. Confirm or revise targets without requiring broad tooling.",
       "focus_requirements": [
         "TL-001",
         "TL-003",
@@ -353,14 +430,18 @@
         "TL-040",
         "TL-057",
         "TL-059",
-        "TL-060"
+        "TL-060",
+        "TL-068",
+        "TL-070",
+        "TL-074",
+        "TL-076"
       ]
     },
     {
       "id": "M1",
-      "title": "Deliver the credible bounded sketchpad",
+      "title": "Deliver a useful bounded strategic sketchpad",
       "release": "R0",
-      "exit": "Independent responses, constrained commitments, correct timing, versioned inputs, coverage/trace labels, recovery and progressive fans work for the declared question; offline structured replay is usable without a general editor or LLM narration.",
+      "exit": "Pass independent reference and semantic tests, observation-safe attempts, resource resolution, one supported breach comparison, selected belief/plan changes, complete decision-point forks and applicability handling. The author can inspect causal alternatives and retain a useful dominated history with its assumptions; complete the agreed usefulness review using deterministic summaries.",
       "focus_requirements": [
         "TL-005",
         "TL-006",
@@ -387,20 +468,24 @@
         "TL-047",
         "TL-053",
         "TL-058",
-        "TL-067"
+        "TL-067",
+        "TL-069",
+        "TL-071",
+        "TL-072",
+        "TL-073",
+        "TL-075"
       ],
       "phase_gate_requirements": []
     },
     {
       "id": "M2",
-      "title": "Discover and assess diverse policies",
+      "title": "Discover strategies and narrative alternatives",
       "release": "R1",
-      "exit": "Pareto/frontier and per-cell archives, adaptive sampling, own-interest responses, separate stress, fresh assessments, history types and optional bounded narration deliver the discovery demonstration.",
+      "exit": "After the R0 author gate, demonstrate assessed global/per-cell strategy search, budgeted sampling, independent responses/stress and fresh assessment, plus bounded narrative-condition/minimum-change search and a repeated author usefulness review. Targeted configuration forms suffice.",
       "focus_requirements": [
         "TL-013",
         "TL-020",
         "TL-021",
-        "TL-024",
         "TL-026",
         "TL-031",
         "TL-035",
@@ -415,28 +500,30 @@
         "TL-056",
         "TL-062",
         "TL-063",
-        "TL-064",
-        "TL-065",
-        "TL-066"
+        "TL-064"
       ],
       "phase_gate_requirements": [
         "TL-032",
-        "TL-036",
-        "TL-053"
+        "TL-053",
+        "TL-073",
+        "TL-075"
       ]
     },
     {
       "id": "M3",
-      "title": "Deliver detailed policy reassessment and full financial regression",
+      "title": "Extend authoring tools and detailed financial fidelity",
       "release": "R2",
-      "exit": "Forensic checks and separate policy re-evaluation report feasibility changes; full ledger, six-fixture parity, skill derivations and deep inspection satisfy R2 phase gates.",
+      "exit": "Deliver the general editor, structural generation and optional grounded narration after the author workflow is established; satisfy full ledger forensic/policy-reassessment, fixture parity and deep provenance gates.",
       "focus_requirements": [
         "TL-002",
         "TL-007",
         "TL-009",
         "TL-010",
         "TL-028",
-        "TL-061"
+        "TL-061",
+        "TL-024",
+        "TL-065",
+        "TL-066"
       ],
       "phase_gate_requirements": [
         "TL-015",
@@ -614,7 +701,8 @@
         "then": [
           "The parent and historical results are unchanged.",
           "The version records pinned parent, source/author, reason and save time.",
-          "Temporary lever edits do not overwrite the saved version or require a Git commit; saved results retain their exact input identity."
+          "Temporary lever edits do not overwrite the saved version or require a Git commit; saved results retain their exact input identity.",
+          "Decision-point branches use the complete reconstruction and intervention contract in TL-072; a scenario-version fork alone does not establish it."
         ]
       },
       "depends_on": [
@@ -625,7 +713,9 @@
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -644,7 +734,8 @@
         "then": [
           "Earlier periods retain parent values unless an explicit anticipation mechanism applies.",
           "Stable IDs and effective dates replace worksheet coordinates.",
-          "Conflicting overlapping edits and unsupported operations are rejected before execution; interactive conflict review follows in R3."
+          "Conflicting overlapping edits and unsupported operations are rejected before execution; interactive conflict review follows in R3.",
+          "Effective time, announcement/receipt time and author save time remain separate; a future premise edit changes earlier beliefs only through a declared information mechanism."
         ]
       },
       "depends_on": [
@@ -656,7 +747,9 @@
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -675,7 +768,8 @@
         "then": [
           "Repayments, interest, losses and related rights appear in the impact list.",
           "Dependent outputs become stale until recomputed.",
-          "An unmapped material dependency yields blocked or explicitly partial coverage, never a silent inherited benefit."
+          "An unmapped material dependency yields blocked or explicitly partial coverage, never a silent inherited benefit.",
+          "R2 adds the full impact inspector; basic semantic references, applicability propagation and action/resource dependencies operate from R0 under TL-068, TL-074 and TL-076."
         ]
       },
       "depends_on": [
@@ -684,7 +778,9 @@
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -792,7 +888,8 @@
           "Within the pinned supported environment, draw addresses and logical events agree and numeric outputs meet declared tolerances.",
           "Changed semantic inputs or dependency builds create a distinct calculation identity; labels and execution timestamps do not.",
           "Cross-platform replay has an explicit tolerance and event-decision policy; unsupported compatibility is reported rather than assumed.",
-          "Identical observation histories require identical decisions only when policy randomness is also matched."
+          "Identical observation histories require identical decisions only when policy randomness is also matched.",
+          "Resuming a decision-point branch retains all relevant queues, obligations, actor memories/beliefs and draw addresses, or reconstructs them deterministically under TL-072."
         ]
       },
       "depends_on": [
@@ -806,7 +903,9 @@
         "U8",
         "U10",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -992,7 +1091,8 @@
         "then": [
           "Only the public share belongs to the Treasury; private/foreign claims retain their owners.",
           "Partner production and reserves remain separate from core sovereign resources.",
-          "Missing or expired rights create no inherited receipts; legal ownership and practical access remain distinct."
+          "Missing or expired rights create no inherited receipts; legal ownership and practical access remain distinct.",
+          "Person, office, institution and faction identities remain distinct; succession cannot silently transfer personally held assets or delete institutional obligations."
         ]
       },
       "depends_on": [
@@ -1004,7 +1104,9 @@
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1217,7 +1319,8 @@
         "then": [
           "Events expose stable IDs, times, parties, observations, effects and basic source/assumption references.",
           "Rejected offers produce no fictional loan, treaty or alignment; unsupported effects remain visible.",
-          "The timeline and template summary work offline and reproduce from the event log."
+          "The timeline and template summary work offline and reproduce from the event log.",
+          "Show attempted, refused, partial and completed actions separately; selected goal/plan/belief references support motives and changes of intention without inventing private thoughts."
         ]
       },
       "depends_on": [
@@ -1230,7 +1333,9 @@
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1239,17 +1344,18 @@
       "id": "TL-024",
       "epic": "Dashboard",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "title": "Edit decisions and model assumptions",
       "statement": "The editor shall distinguish Pacifica decision levers, actor-response models and uncertainty assumptions, exposing only supported fields and preventing the optimizer from treating other actors or random outcomes as controllable choices.",
       "acceptance": {
         "id": "AC-024",
         "given": "A saved sketch and a supported action or actor-model field",
-        "when": "The R1 general catalog editor is used",
+        "when": "The R2 general catalog editor is used",
         "then": [
           "Decision levers, structural assumptions and opponent settings remain distinct.",
           "Invalid units, dates and unsupported operations fail validation before calculation.",
-          "The author sees changed values and declared coverage; R0 needs only the narrow controls in TL-058."
+          "The author sees changed values and declared coverage; R0 needs only the narrow controls in TL-058.",
+          "R0/R1 have targeted lever, objective and narrative-condition forms; a general catalog editor does not gate their release."
         ]
       },
       "depends_on": [
@@ -1262,7 +1368,9 @@
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1514,19 +1622,21 @@
         "then": [
           "Core actions and error details are reachable with visible focus.",
           "Labels and styles do not rely on color.",
-          "Charts have equivalent readable tables."
+          "Charts have equivalent readable tables.",
+          "The targeted sketch, campaign and story exploration flows receive accessibility checks before the later general editor."
         ]
       },
       "depends_on": [
-        "TL-022",
-        "TL-024"
+        "TL-022"
       ],
       "sources": [
         "U1",
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1595,7 +1705,8 @@
         "then": [
           "Inputs use typed model fields and stable IDs rather than CR-specific conditionals.",
           "Capability validation exposes supported operations and blocks undeclared effects.",
-          "Declared dependency, resource and accounting checks execute; general editor generation is not required in R0."
+          "Declared dependency, resource and accounting checks execute; general editor generation is not required in R0.",
+          "Each mechanism declares its read/write sets, applicability predicate, evidence/assumptions, intervention/reference tests and unsupported-domain behavior as specified by TL-074."
         ]
       },
       "depends_on": [
@@ -1608,7 +1719,9 @@
         "U2",
         "S3",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1706,13 +1819,14 @@
       "verification_status": "not_implemented",
       "phase_gates": [
         {
-          "release": "R1",
+          "release": "R2",
           "acceptance": {
             "id": "AC-036-R1",
             "given": "Generated structural schemas",
             "when": "They are compared with declarations",
             "then": [
-              "CI detects artifact drift; supported migrations remain explicit."
+              "CI detects artifact drift; supported migrations remain explicit.",
+              "The acceptance ID is retained from v0.5; its release moves to R2 with TL-066."
             ]
           },
           "depends_on": [
@@ -1905,17 +2019,17 @@
       "epic": "Strategy discovery",
       "priority": "Must",
       "release": "R0",
-      "title": "Generate legal decisions from an action catalog",
-      "statement": "The simulator shall expose parameterized Pacifica actions with preconditions, duration, costs, authority, physical limits and declared state effects, from which new paths can be generated without authored outcome prose.",
+      "title": "Generate attempts under declared action profiles",
+      "statement": "The simulator shall expose parameterized Pacifica action attempts with observation-safe eligibility, costs, duration, legal status, physical constraints and declared effects; adjudication shall distinguish attempted conduct from lawful authority and realized execution.",
       "acceptance": {
         "id": "AC-042",
         "given": "A decision period with insufficient transport or financing and an available diplomatic proposal",
         "when": "The policy proposes actions",
         "then": [
-          "Infeasible or unauthorized actions are rejected or resolved by a documented alternative, without free resources.",
-          "Action completion respects delays and the current information state.",
-          "A proposal to another actor is an offer, not a guaranteed acceptance.",
-          "The catalog can produce action combinations and timing absent from all six fixtures."
+          "Eligibility visible to an actor uses only its observations, beliefs and public rules; actual feasibility and consent resolve through TL-070.",
+          "In the lawful profile, known unauthorized conduct is unavailable and execution without required authority is rejected. An explicitly selected breach profile can execute only supported physically possible breaches, retaining consequences under TL-071.",
+          "Insufficient actual resources produce refusal, partial execution, delay or failure under a registered rule; neither profile creates free resources or silent fallback success.",
+          "Action completion respects delays; a proposal is not guaranteed acceptance. Supported combinations and timing need not appear in the six fixtures."
         ]
       },
       "depends_on": [
@@ -1926,7 +2040,9 @@
       "sources": [
         "U8",
         "U10",
-        "S6"
+        "S6",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1937,7 +2053,7 @@
       "priority": "Must",
       "release": "R0",
       "title": "Search adaptive policies without future knowledge",
-      "statement": "Policies shall map Pacifica's observable history and declared policy randomness to feasible actions, support fixed comparators and prevent access to hidden state or future draws; optimization adds candidate search in R1.",
+      "statement": "Policies shall map Pacifica's observable history, declared beliefs and policy randomness to attempted actions, with observation-safe eligibility and messages; neither policy inputs nor feasibility filtering may reveal hidden state or future draws.",
       "acceptance": {
         "id": "AC-043",
         "given": "Two worlds with identical observations and policy-randomness addresses until a shock",
@@ -1945,7 +2061,10 @@
         "then": [
           "Pre-observation decisions match; behavior may adapt after the shock is observed.",
           "Future/hidden opponent data never enter the policy inputs.",
-          "Any clairvoyant comparator is labelled and excluded from implementable recommendations."
+          "Any clairvoyant comparator is labelled and excluded from implementable recommendations.",
+          "With identical actor-visible state and policy randomness, visible action masks, previews and pre-resolution messages also match despite different hidden world facts.",
+          "Counterparty knowledge of Pacifica's policy is explicit: public commitments may be known, private policy code and future orders are not automatically visible.",
+          "Clairvoyant adjudication can resolve an attempt but discloses only observations authorized by the observation rule."
         ]
       },
       "depends_on": [
@@ -1956,7 +2075,9 @@
         "U8",
         "U10",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1976,7 +2097,8 @@
           "Counterparties can accept, reject, counteroffer or change commitments through declared rules.",
           "Changing the opponent model changes outcomes where the model predicts it should.",
           "Actor decisions and visible reasons are logged; independent agency does not require statistically independent random draws.",
-          "A centrally chosen favorable history is not presented as a Pacifica-controlled strategy."
+          "A centrally chosen favorable history is not presented as a Pacifica-controlled strategy.",
+          "Selected officeholders can have personal commitments and mistaken beliefs distinct from institutional objectives under TL-069; other actors remain independent in every ordinary policy run."
         ]
       },
       "depends_on": [
@@ -1986,7 +2108,9 @@
       ],
       "sources": [
         "U10",
-        "S7"
+        "S7",
+        "U13",
+        "S11"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -2104,7 +2228,8 @@
           "The benchmark frontier agrees with exhaustive evaluation under fixed settings.",
           "The larger search is compared with simple policies and random search under equal evaluation budgets.",
           "Users can inspect trade-offs without a mandatory scalar score.",
-          "Outputs say best found within the declared model, policy family and budget unless a global guarantee is established."
+          "Outputs say best found within the declared model, policy family and budget unless a global guarantee is established.",
+          "Strategic archives remain distinct from author bookmarks. Pareto pruning cannot delete retained story artifacts or manufacture a narrative probability."
         ]
       },
       "depends_on": [
@@ -2115,7 +2240,9 @@
       "sources": [
         "U8",
         "U9",
-        "S8"
+        "S8",
+        "U13",
+        "S11"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -2170,7 +2297,8 @@
           "The user can inspect trigger conditions, actor responses, resource bottlenecks and failure paths.",
           "Associations from sensitivity or scenario-discovery analysis are distinguished from causal estimates.",
           "Controlled reruns identify what changed and preserve valid matched uncertainty.",
-          "Any narrative summary is grounded in recorded actions and results."
+          "Any narrative summary is grounded in recorded actions and results.",
+          "Controlled reruns declare decision, premise or imposed-event mode. Explanations distinguish supported mechanism effects from associations and author interpretations; a shared seed alone is not a causal explanation."
         ]
       },
       "depends_on": [
@@ -2181,7 +2309,9 @@
       "sources": [
         "U8",
         "S7",
-        "S8"
+        "S8",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2270,14 +2400,22 @@
           "A baseline plus accepted/refused/counteroffered credit, changed dates/terms and an interim funding shortage are checked against independent reference calculations.",
           "Calibration fit is distinct from intervention correctness, strategic validity and historical probability.",
           "Tests expose free resources, instant readiness, automatic consent, hidden future access and deferred terminal obligations.",
-          "Uncovered measures remain unavailable or explicitly scoped proxies; no first sketch presents an unsupported ranking."
+          "Uncovered measures remain unavailable or explicitly scoped proxies; no first sketch presents an unsupported ranking.",
+          "The R0 slice passes ontology, belief/plan, observation-leakage, breach, branch, applicability and resource-resolution checks under TL-068, TL-069, TL-070, TL-071, TL-072, TL-074 and TL-076 before broader model claims; author acceptance remains the separate TL-075 gate."
         ]
       },
       "depends_on": [
         "TL-040",
         "TL-045",
         "TL-057",
-        "TL-060"
+        "TL-060",
+        "TL-068",
+        "TL-069",
+        "TL-070",
+        "TL-071",
+        "TL-072",
+        "TL-074",
+        "TL-076"
       ],
       "sources": [
         "U8",
@@ -2286,7 +2424,9 @@
         "S7",
         "S8",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented",
@@ -2406,7 +2546,8 @@
           "At least 1,000 candidate policies and 100,000 generated paths meet the declared benchmark or an explicit revised scope.",
           "Conditional decisions differ after relevant observations; counterparties can refuse/counteroffer and alter later events.",
           "Outputs include an estimated trade-off frontier, per-cell Pareto strategy archive, own-interest response analysis and separately labelled hostile stress tests.",
-          "Held-out assessments, history types and replayable terminal failures support the bounded claim; no automatic exploit label follows merely from lost advantage."
+          "Held-out assessments, history types and replayable terminal failures support the bounded claim; no automatic exploit label follows merely from lost advantage.",
+          "The R1 demonstration includes bounded narrative-condition search and an author usefulness review; rollout volume alone does not satisfy plot discovery."
         ]
       },
       "depends_on": [
@@ -2419,14 +2560,18 @@
         "TL-054",
         "TL-062",
         "TL-063",
-        "TL-064"
+        "TL-064",
+        "TL-073",
+        "TL-075"
       ],
       "sources": [
         "U8",
         "U9",
         "U10",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "required_by_user",
       "verification_status": "not_implemented"
@@ -2446,7 +2591,8 @@
           "The missing mechanism/data/denominator is visible before display or ranking.",
           "Physical, behavioral and qualitative/ordinal evidence remain distinguishable; invented precise scores are rejected.",
           "Named proxies retain their own labels and limits; source categories do not imply Pacifica calibration.",
-          "Campaign objectives must additionally meet TL-041 before optimization."
+          "Campaign objectives must additionally meet TL-041 before optimization.",
+          "A material mechanism leaving its applicability envelope propagates an unsupported or conditional status to dependent claims; rejected statistical recommendations may remain inspectable as explicitly provisional story experiments."
         ]
       },
       "depends_on": [
@@ -2458,7 +2604,9 @@
         "S6",
         "S7",
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2608,7 +2756,8 @@
           "With sufficient cell capacity, each cell's nondominated set agrees with exhaustive evaluation; bounded pruning matches the declared deterministic rule.",
           "No hidden weighted score selects a single best policy; the UI exposes within-cell trade-offs and assessment status.",
           "Descriptor coordinates use a registered summary over a common world design, including never/undefined cases, sample uncertainty and cell instability; a lucky realized path cannot assign policy type.",
-          "Coverage or a different behavior cell is not evidence of robustness; later response and fresh assessment results remain separate."
+          "Coverage or a different behavior cell is not evidence of robustness; later response and fresh assessment results remain separate.",
+          "The author story archive persists independently of global/per-cell pruning and is not scored as a strategy archive."
         ]
       },
       "depends_on": [
@@ -2619,7 +2768,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2640,7 +2791,8 @@
           "Stress analysis states which Pacifica outcome is stressed, actor interests/near-best tolerances, capabilities, information, hostility assumptions and budget.",
           "Rank changes or lost advantage are labelled response/stress sensitivity; an exploit finding requires a reproducible violation, unrealistic mechanism or documented model defect, not merely a stronger reply.",
           "The seeded defect is demonstrated by a counterexample/reference check; one round is not presented as equilibrium or a guarantee of low exploitability.",
-          "All response models and revised Pacifica candidates are frozen before final held-out assessment."
+          "All response models and revised Pacifica candidates are frozen before final held-out assessment.",
+          "Response searches use declared actor knowledge of Pacifica's policy, not hidden policy code by default; joint versus unilateral response assumptions and incompatible combinations of replies are explicit."
         ]
       },
       "depends_on": [
@@ -2651,7 +2803,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2671,7 +2825,8 @@
           "Feature scaling, clustering and scenario-discovery methods/parameters are versioned; representative paths are actual members.",
           "Shares are fractions of the stated tested ensemble unless probability calibration is justified; distinguishing conditions remain associations.",
           "Rare/outlier and terminal paths remain inspectable even if not in a large cluster; computational errors retain separate status and are not fabricated histories.",
-          "Type labels and representatives link to replayable events, counts, coverage and model assumptions."
+          "Type labels and representatives link to replayable events, counts, coverage and model assumptions.",
+          "Author annotations and saved interesting paths survive cluster reassignment; selected narratives do not change empirical cluster shares."
         ]
       },
       "depends_on": [
@@ -2682,7 +2837,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2692,7 +2849,7 @@
       "title": "Narrate recorded facts with bounded claims",
       "epic": "Storylines",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "statement": "Optional LLM narration shall render a selected structured history after calculation using a typed claim record and inserted result values; R0 shall remain fully usable with deterministic templates and the timeline.",
       "acceptance": {
         "id": "AC-065",
@@ -2702,7 +2859,8 @@
           "Each consequential event/actor/time and asserted motive or causal relation needs explicit supporting records; unsupported claims are rejected or clearly separated as author speculation.",
           "Numeric placeholders insert saved values; ID/number matching alone is not described as semantic truth verification.",
           "A structured claim/template boundary is authoritative; ambiguous free prose requires review rather than an absolute automated grounding guarantee.",
-          "Provider/prompt/model, claim references and checks are saved; narration is draft/non-canon, optional and unable to change results; offline use remains complete."
+          "Provider/prompt/model, claim references and checks are saved; narration is draft/non-canon, optional and unable to change results; offline use remains complete.",
+          "Optional LLM prose follows the R0 author usefulness gate; deterministic summaries remain complete in R0/R1. Goal and belief records can ground motives, but do not establish historical or canonical truth."
         ]
       },
       "depends_on": [
@@ -2713,7 +2871,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2723,7 +2883,7 @@
       "title": "Generate structural schemas with explicit runtime bindings",
       "epic": "Model architecture",
       "priority": "Must",
-      "release": "R1",
+      "release": "R2",
       "statement": "Shared typed declarations shall generate supported structural artifacts such as catalog/exchange schemas, result schemas and form/layout metadata; simulation semantics, runtime mappings, migrations and interaction design remain explicit reviewed code.",
       "acceptance": {
         "id": "AC-066",
@@ -2733,7 +2893,8 @@
           "Supported structural artifacts regenerate and CI detects drift.",
           "Descriptive metadata cannot silently become numeric state; a state field requires declared units, initialization, index binding, update rule, migration and tests before execution.",
           "Generated form scaffolds do not supply policy semantics or approval workflows.",
-          "Each run pins declaration, schema, layout and mapping versions; R0 can use minimal typed schemas and hand-written bindings without a universal generator."
+          "Each run pins declaration, schema, layout and mapping versions; R0 can use minimal typed schemas and hand-written bindings without a universal generator.",
+          "R0/R1 use explicit minimal schemas and bindings for the bounded ontology; broad generation follows the demonstrated author workflow."
         ]
       },
       "depends_on": [
@@ -2744,7 +2905,9 @@
       ],
       "sources": [
         "S9",
-        "U12"
+        "U12",
+        "U13",
+        "S11"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -2778,17 +2941,345 @@
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-068",
+      "epic": "Ontology",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Define and enforce world semantics",
+      "statement": "Supported world and experiment records shall follow the explicit ontology for identity, qualified relationships, truth and claims, beliefs, time, branch scope, action lifecycle and explanation links, with machine-checkable invariants for the active slice.",
+      "acceptance": {
+        "id": "AC-068",
+        "given": "A bounded world with conflicting source assertions, an unknown consent state, an officeholder change and inherited obligations",
+        "when": "The resolver validates and compiles its active ontology subset",
+        "then": [
+          "Distinct people, offices, institutions and factions retain stable IDs and dated roles; succession follows an explicit asset/obligation mapping.",
+          "Unknown, absent, refused and disputed consent remain distinct. Source assertions and public statements cannot silently overwrite branch truth or actor beliefs.",
+          "Qualified rights and obligations name all parties, subject matter, conditions, dates and authority; a country-level Boolean cannot replace the agreement.",
+          "Record contracts and invariant IDs agree with ontology.md and the structured catalog; unsupported record effects fail before execution."
+        ]
+      },
+      "depends_on": [
+        "TL-001",
+        "TL-003",
+        "TL-017",
+        "TL-036"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-069",
+      "epic": "Actor semantics",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Represent selected beliefs and intentions",
+      "statement": "The bounded model shall represent selected character and institutional goals, beliefs, plans and commitments, with dated observations and reviewed update rules that explain consequential decisions and changes of plan.",
+      "acceptance": {
+        "id": "AC-069",
+        "given": "A character occupying an office with a personal commitment and a mistaken belief about a material proposition",
+        "when": "A registered observation arrives and a decision is made",
+        "then": [
+          "Institutional objectives and personal commitments remain separate; the controlled actor remains Pacifica's executive scope.",
+          "Observation receipt, credibility/update rule, resulting belief and affected plan are recorded; a true report need not be believed automatically.",
+          "Persisted plans can be active, suspended, abandoned, achieved or failed with supported reasons; unrealized intentions are not realized events.",
+          "Only selected propositions and characters are modeled in R0; unsupported psychology or inferred motives remain explicit author interpretation."
+        ]
+      },
+      "depends_on": [
+        "TL-068",
+        "TL-043",
+        "TL-044"
+      ],
+      "sources": [
+        "U13",
+        "S11",
+        "S12"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-070",
+      "epic": "Adjudication",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Adjudicate attempts without leaking hidden information",
+      "statement": "The engine shall separate perceived eligibility, selected attempts, actual adjudication, realized effects and disclosed observations, including rejection, delay, partial implementation and failure.",
+      "acceptance": {
+        "id": "AC-070",
+        "given": "Two worlds with identical actor observations and random addresses but different concealed counterparty resources",
+        "when": "Menus, previews, attempts and resolution are evaluated",
+        "then": [
+          "Before permitted disclosure, actor-visible eligibility, messages and decisions match; hidden actual feasibility does not filter the policy's choices.",
+          "Actual outcomes may differ under declared rules, and only the configured observation channel discloses the difference.",
+          "Attempt, adjudication decision, resource effect and observation have distinct IDs and timestamps; no silent replacement action is introduced.",
+          "Registered phase ordering, negotiation rounds and tie rules are pinned and replayable."
+        ]
+      },
+      "depends_on": [
+        "TL-068",
+        "TL-042",
+        "TL-043"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-071",
+      "epic": "Adjudication",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Separate lawful and breach exploration profiles",
+      "statement": "Experiments shall select a lawful profile or an explicit supported breach-exploration profile; legal status, physical feasibility, authorial constraints and engine invariants shall remain distinct.",
+      "acceptance": {
+        "id": "AC-071",
+        "given": "The same physically possible but unauthorized conduct under two profiles",
+        "when": "The decision is adjudicated",
+        "then": [
+          "The lawful profile rejects unauthorized execution; an apparent authority later found invalid has a declared discovery and consequence rule.",
+          "The breach profile permits only an enabled breach family with modeled resistance, enforcement, political and obligation consequences; missing consequence coverage blocks that family.",
+          "Physical limits, accounting identities and locked authorial premises hold in both profiles. Later remedy does not erase the recorded breach interval.",
+          "Profile selection and consequences remain in every trace and comparison; no actor is forced to consent and no generated breach approves canon."
+        ]
+      },
+      "depends_on": [
+        "TL-068",
+        "TL-070",
+        "TL-076"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-072",
+      "epic": "Author workflow",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Branch from a complete decision state",
+      "statement": "The author shall branch at a recorded decision point using a complete checkpoint or deterministic reconstruction and a declared decision, premise or imposed-event intervention, preserving established history and explicit lineage.",
+      "acceptance": {
+        "id": "AC-072",
+        "given": "A saved path immediately before a consequential decision, with pending commitments and delayed reports",
+        "when": "The author forks and resumes it",
+        "then": [
+          "Reconstruction includes stocks, rights, obligations, action/event queues, actor beliefs/memory/plans, observation history and random addresses; unchanged resumption reproduces the parent.",
+          "A decision intervention changes a supported Pacifica attempt using existing information; a premise change declares its effective and knowledge dates; an imposed event remains marked conditional.",
+          "Changes requiring an earlier cause fork before that cause; an author edit cannot rewrite an established prefix while claiming the same decision fork.",
+          "Matched exogenous draws remain aligned where valid, endogenous effects recompute, and the first consequential divergence and its support records are inspectable.",
+          "Imposed outcomes are excluded from ordinary policy-success assessment; selection/conditioning and branch modes remain in exports."
+        ]
+      },
+      "depends_on": [
+        "TL-005",
+        "TL-011",
+        "TL-023",
+        "TL-032",
+        "TL-068",
+        "TL-069",
+        "TL-070"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-073",
+      "epic": "Story exploration",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Explore narrative conditions and preserve author choices",
+      "statement": "The author shall define narrative conditions separately from actor objectives and retain selected policies and histories in a durable story archive independent of strategic dominance; R1 shall add bounded search for supported narrative conditions.",
+      "acceptance": {
+        "id": "AC-073",
+        "given": "A strategically dominated history satisfying an author-declared dramatic condition",
+        "when": "The author filters histories, bookmarks the path and reruns a campaign",
+        "then": [
+          "R0 supports explicit conditions over recorded events/trajectories, manual filtering and annotation of the bounded slice; it needs no general editor or automatic prose.",
+          "The bookmark retains policy/history identity, condition definition, assumptions, assessment/profile status and author rationale even after Pareto pruning or cluster changes.",
+          "Narrative predicates may inspect full recorded outcomes for author analysis but cannot enter actor observations or control other actors.",
+          "Matched/selected histories have an explicit selection denominator; narrative interest is not a probability or a hidden strategic utility score."
+        ]
+      },
+      "depends_on": [
+        "TL-023",
+        "TL-032",
+        "TL-072"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R1",
+          "acceptance": {
+            "id": "AC-073-R1",
+            "given": "A supported narrative predicate and bounded set of Pacifica policy or premise interventions",
+            "when": "Narrative-condition or minimum-change search runs",
+            "then": [
+              "Declare allowed intervention fields, budgets, predicate/event order, change-cost units or lexicographic order, ties and plausibility/evidence constraints before search.",
+              "Return distinct best-found supported routes and unsuccessful attempts; minimality is only claimed within an exhaustively checked bounded search space.",
+              "Other actors decide independently in decision-mode search. Imposed-event and premise-mode results remain separate conditional experiments.",
+              "Search-conditioned frequencies are not unconditional probabilities; freeze selected policies and evaluate fresh unconditioned worlds before reporting their ordinary success distributions."
+            ]
+          },
+          "depends_on": [
+            "TL-048",
+            "TL-049",
+            "TL-050",
+            "TL-055"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
+    },
+    {
+      "id": "TL-074",
+      "epic": "Model credibility",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Enforce mechanism applicability and provisional continuations",
+      "statement": "Every active mechanism shall declare an executable applicability predicate, read/write ownership, evidence and counterexample tests; leaving its supported domain shall invalidate dependent claims or create an explicitly selected provisional continuation.",
+      "acceptance": {
+        "id": "AC-074",
+        "given": "A financing mechanism whose institutional or resource assumptions cease to hold",
+        "when": "A trajectory crosses the mechanism's validity boundary",
+        "then": [
+          "The first applicability failure identifies mechanism, state/action, evidence scope and dependent outputs; the check runs during evolution as well as input validation.",
+          "The default is unsupported/stop for affected computation, with unaffected results retained under their scope; no silent extrapolation or inherited passing badge occurs.",
+          "An author can explicitly choose a registered provisional assumption with applicability and uncertainty limits; it creates a linked conditional continuation and cannot fabricate missing state.",
+          "Conditional status propagates through affected outputs and aggregations; such paths remain in the total denominator and cannot certify ordinary strategic rankings or historical probabilities.",
+          "Alternative structural models retain separate applicability and assessment summaries unless an explicit justified weighting contract permits aggregation."
+        ]
+      },
+      "depends_on": [
+        "TL-033",
+        "TL-057",
+        "TL-068"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-075",
+      "epic": "Product validation",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Demonstrate usefulness for plot development",
+      "statement": "Release evidence shall include author evaluation of a bounded dramatic decision, distinct causal alternatives, consequential agency, understandable branches and retained ideas, alongside model correctness and performance.",
+      "acceptance": {
+        "id": "AC-075",
+        "given": "A predeclared set of real Pacifica writing questions including one financing/commitment dilemma",
+        "when": "The author uses the R0 slice and reviews its outputs",
+        "then": [
+          "M0 records the questions, expected useful tasks and author acceptance procedure before tuning outputs; examples are test proposals, not canon.",
+          "R0 demonstrates distinct supported causal alternatives, a choice attributable to a character/institution, a belief-driven plan change and an inspectable decision fork.",
+          "Record author judgments, time to first retained idea, explanation gaps and manual repair needed; no automatic story-quality score substitutes for author acceptance.",
+          "Retained ideas carry unresolved assumptions and consequences; failure of the agreed author gate leads to a scope/design revision before broad tooling or search-scale commitments."
+        ]
+      },
+      "depends_on": [
+        "TL-053",
+        "TL-058",
+        "TL-069",
+        "TL-071",
+        "TL-072",
+        "TL-073",
+        "TL-074",
+        "TL-076"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented",
+      "phase_gates": [
+        {
+          "release": "R1",
+          "acceptance": {
+            "id": "AC-075-R1",
+            "given": "Strategy discovery and bounded narrative-condition search",
+            "when": "The author repeats the predeclared writing tasks",
+            "then": [
+              "Review causal variety, meaningful agency, branch comprehensibility and useful retained ideas against the R0 workflow; report sample and protocol limits.",
+              "Neither 100,000 rollouts nor attractive prose substitutes for author acceptance; shortcomings are recorded before expansion."
+            ]
+          },
+          "depends_on": [
+            "TL-048",
+            "TL-049",
+            "TL-064",
+            "TL-073"
+          ],
+          "verification_status": "not_implemented"
+        }
+      ]
+    },
+    {
+      "id": "TL-076",
+      "epic": "Adjudication",
+      "priority": "Must",
+      "release": "R0",
+      "title": "Resolve simultaneous commitments consistently",
+      "statement": "The engine shall resolve simultaneous and sequential interactions through registered phases, resource reservations, allocation/tie rules and settlement semantics that are independent of incidental module or actor iteration order.",
+      "acceptance": {
+        "id": "AC-076",
+        "given": "Two contemporaneous offers competing for the same cash, collateral or transport capacity",
+        "when": "Interaction resolution is repeated under reordered actors and worker partitions",
+        "then": [
+          "Both offers cannot spend the same resource; tentative reservations, partial allocation, release on refusal and settlement are explicitly accounted.",
+          "Negotiation order, priority, deterministic ties or addressed random ties are declared model rules, not consequences of array or module iteration.",
+          "Conditional agreements specify whether the bundle is atomic or permits declared partial execution; failures never create rights, cash or consent without their prerequisites.",
+          "Outputs and traces agree under incidental reorderings within the pinned contract; registration rejects conflicting state writers without a resolver."
+        ]
+      },
+      "depends_on": [
+        "TL-016",
+        "TL-018",
+        "TL-033",
+        "TL-070"
+      ],
+      "sources": [
+        "U13",
+        "S11"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
     }
   ],
-  "revision": "0.5",
+  "revision": "0.6",
   "release_counts": {
-    "R0": 38,
-    "R1": 21,
-    "R2": 6,
+    "R0": 47,
+    "R1": 18,
+    "R2": 9,
     "R3": 2
   },
-  "requirement_count": 67,
-  "phase_gate_count": 10,
+  "requirement_count": 76,
+  "phase_gate_count": 12,
   "verification": {
     "status": "documentation_consistency_only",
     "product_tests_run": false,
@@ -2801,9 +3292,13 @@
       "Valid explicit phase-gate dependencies",
       "Complete milestone assignment",
       "Synchronized Markdown register and detailed statements",
-      "Valid JSON and relative links"
+      "Valid JSON and relative links",
+      "Ontology record and invariant agreement",
+      "Action/profile and intervention-mode consistency across catalogs",
+      "Complete review recommendation traceability",
+      "Preserved fixture identity and documentation-only paths"
     ],
-    "documentation_revision": "0.5"
+    "documentation_revision": "0.6"
   },
   "demonstrations": [
     {
@@ -2828,13 +3323,14 @@
     },
     {
       "id": "3",
-      "description": "Identical observations and policy randomness give identical pre-shock decisions; single/batch/partition runs preserve indexed draws and logical events in the pinned environment.",
+      "description": "Identical observations/randomness produce identical eligibility, previews, rejection messages before disclosure and pre-shock decisions despite different hidden facts; single/batch/partition runs retain addressed draws.",
       "release": "R0",
       "requirements": [
         "TL-011",
         "TL-043",
         "TL-047",
-        "TL-059"
+        "TL-059",
+        "TL-070"
       ]
     },
     {
@@ -2885,8 +3381,8 @@
     },
     {
       "id": "9",
-      "description": "Keep rare/terminal histories and empirical shares; reject narration with an invented motive even if its event ID and number are correct. Offline structured summaries remain usable.",
-      "release": "R1",
+      "description": "Keep rare/terminal histories and empirical shares in R1; R2 narration rejects an invented motive even if its event ID and number are correct. Offline structured summaries remain usable.",
+      "release": "R1; narration R2",
       "requirements": [
         "TL-064",
         "TL-065"
@@ -2938,6 +3434,168 @@
         "TL-012",
         "TL-014",
         "TL-015"
+      ]
+    },
+    {
+      "id": "15",
+      "release": "R0",
+      "description": "Validate disputed/unknown consent, contradictory claims and succession: preserve institution-owned obligations, individual identities, valid dates and actor-specific beliefs.",
+      "requirements": [
+        "TL-068",
+        "TL-069"
+      ]
+    },
+    {
+      "id": "16",
+      "release": "R0",
+      "description": "A selected belief update changes a recorded plan; personal and institutional commitments conflict without granting an actor extra authority or private information.",
+      "requirements": [
+        "TL-069",
+        "TL-070"
+      ]
+    },
+    {
+      "id": "17",
+      "release": "R0",
+      "description": "Two simultaneous offers compete for one resource; reordering actors/modules preserves registered allocation, settlement and release of refused reservations.",
+      "requirements": [
+        "TL-076"
+      ]
+    },
+    {
+      "id": "18",
+      "release": "R0",
+      "description": "Compare lawful rejection with one supported physically possible breach and its consequences; later cure preserves the breach interval and independent resistance.",
+      "requirements": [
+        "TL-071",
+        "TL-076"
+      ]
+    },
+    {
+      "id": "19",
+      "release": "R0",
+      "description": "Resume an unchanged decision state exactly, then fork a Pacifica decision, a dated premise and an imposed event separately; preserve prefix, hidden state and selection labels.",
+      "requirements": [
+        "TL-072"
+      ]
+    },
+    {
+      "id": "20",
+      "release": "R0; bounded search R1",
+      "description": "Retain a dominated but interesting history after pruning; search a registered narrative condition or bounded minimum change in R1 without forcing counterparties or interpreting selected-path frequency as ordinary success.",
+      "requirements": [
+        "TL-073"
+      ]
+    },
+    {
+      "id": "21",
+      "release": "R0",
+      "description": "Cross an institutional applicability boundary, propagate unavailable claims, then explicitly choose a registered provisional continuation with conditional results and preserved denominator.",
+      "requirements": [
+        "TL-074"
+      ]
+    },
+    {
+      "id": "22",
+      "release": "M0/R0; repeat R1",
+      "description": "Use predeclared real writing questions to assess distinct causal alternatives, meaningful agency, branch clarity, time to first retained idea and repair burden; record author acceptance before broad tooling or scale.",
+      "requirements": [
+        "TL-075"
+      ]
+    }
+  ],
+  "review_traceability": [
+    {
+      "recommendation": "Separate author conditions and preserve interesting dominated histories",
+      "requirements": [
+        "TL-073",
+        "TL-048",
+        "TL-062",
+        "TL-064"
+      ],
+      "documents": [
+        "product-vision.md",
+        "ontology.md"
+      ]
+    },
+    {
+      "recommendation": "Make semantic ontology explicit",
+      "requirements": [
+        "TL-068",
+        "TL-017",
+        "TL-036"
+      ],
+      "documents": [
+        "ontology.md",
+        "model-architecture.md",
+        "draft-model-catalog.json"
+      ]
+    },
+    {
+      "recommendation": "Represent selected character intention and belief",
+      "requirements": [
+        "TL-069",
+        "TL-044",
+        "TL-065"
+      ],
+      "documents": [
+        "ontology.md",
+        "action-and-actor-catalog.md"
+      ]
+    },
+    {
+      "recommendation": "Adjudicate perceived versus actual feasibility, lawful/breach profiles and simultaneous resources",
+      "requirements": [
+        "TL-070",
+        "TL-071",
+        "TL-076",
+        "TL-042",
+        "TL-043"
+      ],
+      "documents": [
+        "ontology.md",
+        "model-architecture.md",
+        "objectives-and-constraints.md"
+      ]
+    },
+    {
+      "recommendation": "Make replay and branch concrete",
+      "requirements": [
+        "TL-072",
+        "TL-005",
+        "TL-006",
+        "TL-050"
+      ],
+      "documents": [
+        "ontology.md",
+        "model-architecture.md"
+      ]
+    },
+    {
+      "recommendation": "Executable applicability and provisional continuation",
+      "requirements": [
+        "TL-074",
+        "TL-033",
+        "TL-053",
+        "TL-057"
+      ],
+      "documents": [
+        "ontology.md",
+        "model-architecture.md"
+      ]
+    },
+    {
+      "recommendation": "Creative usefulness before general tooling",
+      "requirements": [
+        "TL-075",
+        "TL-056",
+        "TL-024",
+        "TL-065",
+        "TL-066"
+      ],
+      "documents": [
+        "product-vision.md",
+        "requirements.md"
       ]
     }
   ]

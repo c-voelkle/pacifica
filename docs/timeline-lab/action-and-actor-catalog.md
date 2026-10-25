@@ -1,14 +1,16 @@
 # Pacifica action and actor catalog draft
 
-**25 October 2026 · Draft for author review**
+**25 October 2026 · Design revision 0.6 · Draft for author review**
 
 Pacifica chooses offers, budgets, investments and authorized commitments. The world model determines what resources become available, how other actors respond and what follows. Strategies can adapt to dated observations; the author does not need to describe the outcome of every branch.
 
 This catalog proposes **24 action types and 25 actor roles or templates** for the 1904–1932 pilot and its later extensions. A template is a requirement to create distinct actors where their interests and powers differ, not a single agent representing all banks, Japanese officers or northern peoples. Activate only the actors and actions supported by the selected campaign.
 
-Use the [objective and constraint sheet](objectives-and-constraints.md) for the scorecard and limits. The [structured draft catalog](draft-model-catalog.json) contains complete actor resources, observations, activation, evidence needs and action counterparty mappings. Each action starts disabled for search until its model coverage is usable. This is a draft contract, not a simulation implementation.
+Use the [objective and constraint sheet](objectives-and-constraints.md) for the scorecard and limits. The [structured draft catalog](draft-model-catalog.json) contains complete actor resources, observations, activation, evidence needs and action counterparty mappings. Each action starts disabled for search until its model coverage is usable. The [ontology](ontology.md) defines attempts, adjudication, information, intentions and qualified obligations. This is a draft contract, not a simulation implementation.
 
 ## Control and agency
+
+R0 selects one financing/commitment dilemma from this broader catalog, including a few consequential beliefs/plans and one supported lawful/breach comparison. The full 24-action/25-role roster is not required for the first slice. R1 adds assessed strategy and bounded narrative-condition search; the general editor, structural generation and optional LLM prose follow in R2.
 
 The proposed control mask gives the optimizer Pacifica's executive agenda and authorized operational decisions. It may seek legislative approval, propose constitutional change or invite private investment. The Senate, Chamber, Hawaiian and Philippine institutions, banks, firms and affected communities retain the powers and choices appropriate to them. The exact domestic control granularity remains for author review.
 
@@ -50,7 +52,7 @@ Every row is a **proposed actor model**. The sources establish institutions, epi
 | ACT-DANUBE<br>Habsburg and Danubian institutions | independent template | Constitutionally divided powers and actual military/territorial control. | Security; Dynastic/institutional survival; National self-government; Fiscal viability | Accept/refuse reform; Bargain over self-government; Mobilize; Conclude peace within authority |
 | ACT-OTHER-LOCAL<br>Additional states and local negotiating parties | independent template | Each actor's own sovereignty, legal rights and practical control; never one pooled 'Europe' vote. | Actor-specific security; Local rights; Fiscal/commercial interests; Political survival | Accept/refuse; Propose alternatives; Implement or breach agreements |
 
-For each active actor instance, register its legal name, jurisdiction, active dates, controlled resources, constraints, information and response model. The detailed records in the JSON identify the evidence needed. Important cases include:
+For each active actor instance, register its stable identity, kind, legal name, jurisdiction, active dates, controlled resources, constraints, information and response model. Persons, offices, institutions and factions remain distinct. Dated role tenure and explicit succession rules preserve institutional assets and obligations. Reference existing character IDs or an explicit crosswalk rather than merging names. The detailed records in the JSON identify the evidence needed. Important cases include:
 
 - **Domestic consent:** separate chambers, affected county blocs and the three internal crown institutions. Ka Lōkahi's three internal votes and ten-year matters differ from the Concord's two parties and five-year executive term.
 - **Japan:** civilian government, Diet/court roles, distinct military factions, BOJ, banks and industry. An agreement with the cabinet cannot erase factional resistance or a currency gap.
@@ -67,7 +69,9 @@ Start with interpretable rules: what minimum terms an actor can accept, what it 
 
 Separate uncertainty in external conditions, unknown coefficients and alternative behavioral structures. Weather or external disruptions may be exogenous; war, bank runs, credit withdrawal and regime change can depend on policies and actor responses. Do not paste in a baseline crisis when its causes have been removed.
 
-Actor decisions read a frozen observation state before simultaneous choices resolve. Sequential negotiations use declared rounds and information updates. Opposition cannot react to Pacifica's hidden future order, and Pacifica cannot read an opponent's latent preferences.
+Selected institutional and personal goals, beliefs, persistent plans and promises can explain consequential behavior. Delivered observations update beliefs under registered rules; they do not automatically establish truth or agreement. Preserve abandoned and failed plans with their reasons. Unsupported psychology remains author interpretation.
+
+Actor decisions read a frozen observation state before simultaneous choices resolve. Sequential negotiations use declared rounds and information updates. Opposition cannot react to Pacifica's hidden future order, and Pacifica cannot read an opponent's latent preferences. The same boundary applies to action menus, eligibility masks, previews, errors and automatic alternatives. Hidden actual feasibility is resolved after an observation-consistent attempt, not exposed by filtering the actor's options. Response search declares what policy commitments are public and whether replies are unilateral or jointly modeled.
 
 Historical event calendars are appropriate for labelled replay or conditional tests. General strategy discovery needs varied external conditions and fresh assessment worlds, including sensitivity to event timing, so the optimizer cannot succeed merely by preparing for a secretly fixed historical date.
 
@@ -75,13 +79,17 @@ A language model may help draft reviewed assumptions and explain traces. Numeric
 
 ## Action contract
 
-Every instance requires an initiator, targets, time, observation references, parameter units/bounds, authority, funding, physical reservations, implementation stages, cancellation terms and provenance.
+Every ActionAttempt requires an initiator, targets, decision time, actor observation snapshot, typed parameters, eligibility rule, selected profile, plan references and provenance. Its Adjudication separately records actual preconditions, legal status, counterpart replies, reservations, disposition, realized events and disclosure rules.
 
-The lifecycle is **proposed → negotiating → approved or refused → committed → implementing → effective → completed, exited or failed**. Some domestic actions can omit negotiation, but may not omit their required approval or implementation.
+The lifecycle distinguishes proposed, negotiating, authorized, committed, implementing, effective and closed phases. Rejection, refusal, deferral, partial execution, failure, exit and cancellation are explicit dispositions. Legal status is separate from phase: a supported breach transition can execute without lawful authorization, while retaining unauthorized status and consequences. Some domestic actions omit negotiation; lawful execution still needs its required approval and implementation.
 
 A proposal can incur time and cost without creating a loan, treaty or investment. Reuse the same financing and capacity references across bundled actions; do not create an extra capital stock or duplicate spending when credit funds construction. Amounts must be nonnegative and shares within zero to one, but affordability and acceptable terms also depend on law, resources and counterparties.
 
-The following contracts apply only to supported mechanisms and the law in force. Counterparty identities, complete records and evidence gates are in the JSON. Their proposed links identify intended effects, not guaranteed gains.
+The following action preconditions describe the **lawful execution profile**. A separately selected `breach_exploration` profile can enable only a registered physically possible breach with covered resistance, enforcement, institutional and obligation consequences. All existing actions remain disabled; no breach variant is enabled by this draft. M0 must specify the one supported comparison required by R0. Neither profile changes physical/accounting invariants, locked authorial premises or independent counterpart consent.
+
+Follow the [adjudication protocol](ontology.md#action-and-adjudication-protocol). Register resource priorities/ties, reservation release and atomic versus partial settlement for linked actions. Incidental actor/module order cannot allocate resources. Actual failure may follow a reasonable attempt without leaking hidden facts beforehand.
+
+Every active mechanism declares runtime applicability, read/write ownership, evidence and intervention/counterexample tests. A failure propagates to dependent claims; an explicitly selected provisional continuation creates a linked conditional branch. Counterparty identities and full contracts remain in the JSON; intended effect links do not guarantee gains.
 
 ### Propose and execute a public budget
 
@@ -382,7 +390,7 @@ A strategy links conditions observed at the time to action parameters, including
 | POL-03 — Early mediation with conversion support | Offer mediation when dated observations meet selected escalation indicators. Pair terms with bounded, credible civilian-conversion support. If parties refuse, reassess; peace is an output, never a policy parameter. | Starting policy family; search varies terms and thresholds within feasible bounds. |
 | POL-04 — Limited security commitment | Commit only to declared missions with consent and sustainment. Tie reinforcement to actual bottleneck/stockpile conditions. Reassess or withdraw under specified lawful fallback triggers. | Starting policy family; search varies terms and thresholds within feasible bounds. |
 
-Always include lawful wait/review and simple policies under the same evaluation budget. Compare optimized policies with these seeds and random search, then assess finalists on fresh worlds and alternative response models. Report the best-found trade-offs and their failure conditions.
+Always include wait/review and simple policies compatible with the selected profile under the same evaluation budget. Compare optimized policies with these seeds and random search, then assess finalists on fresh worlds and alternative response models. Report the best-found trade-offs and their failure conditions. Keep an independent author archive for interesting dominated policies/histories. Narrative route or minimum-change search uses declared predicates, intervention fields, costs/order and budgets; targeted samples retain their selection denominator. Fresh unconditioned assessment is required for ordinary policy-success claims.
 
 ## Relationship to the six existing cases
 
@@ -408,15 +416,17 @@ These are proposed acceptance examples for the later engine, not reported test r
 | EX-01 — Credit offer refused | A borrower rejects a public-credit offer or private lenders will not subscribe. | Only incurred proposal costs/time are booked. No loan asset, borrower investment, alignment or successful treaty appears. |
 | EX-02 — Rail access withdrawn | A Chinese authority withdraws or cannot implement required transit during a supported commitment. | Independent response changes transport, stocks, mission feasibility and human/security outcomes; the engine cannot substitute an unowned route. |
 | EX-03 — Peace without war windfalls | A mediation policy avoids general war. | Peaceful production and partner independence may improve. Entente war claims, wartime territorial gains and rescue-driven institutional concessions are absent unless separately generated and paid for. |
-| EX-04 — Failed or illegal compact | The Senate refuses a common-institution treaty. | In lawful discovery the compact remains unratified. Baseline replay can record the authored 1927 illegal application and 1928 cure without labelling the first act lawful. |
+| EX-04 — Failed or illegal compact | The Senate refuses a common-institution treaty. | Lawful execution remains unratified. A selected supported breach variant models physically possible unauthorized conduct and independent consequences; later cure preserves the breach interval. Fixture replay retains the 1927 breach/1928 cure. |
 | EX-05 — Foreign gold purchase | A foreign concession sells delivered gold to the Reserve Bank. | Credit/payment and reserve ownership reconcile. Foreign GDP remains foreign and Treasury revenue is not created automatically. |
 | EX-06 — Adverse fiscal path | A revenue shock causes debt-service or cash-buffer failure. | The path remains in the denominator with costs and recovery/terminal effects; it is not dropped as an invalid strategy. |
 | EX-07 — Unsupported outcome | A candidate lacks a usable human-cost or household-consumption mechanism. | The corresponding metric is unavailable or a named proxy is explicitly selected. Unknown values cannot be zero or a winning score. |
 | EX-08 — Gulf admission shortcut | A policy offers admission before all continuing tests and consent are satisfied. | Admission is unavailable; an oil, trade or defence agreement remains a separate action with its own consent and costs. |
 
+The structured catalog adds EX-09–15 for hidden feasibility, succession/false reports, competing commitments, complete decision forks, dominated story retention, applicability loss and the author usefulness gate. These map to TL-068–076.
+
 ## Implementation boundaries for the pilot
 
-Choose a coherent subset spanning finance/investment, diplomacy and sustainable security, with enough human and political consequences to support the selected objectives. A global roster is unnecessary when the question is bounded; every indispensable party and material effect within that question is necessary.
+Choose one coherent financing/commitment dilemma with the sustainable capability and political consequences its selected objectives require. Include a consequential choice, a selected belief/plan change and a supported lawful/breach comparison; the wider finance/diplomacy/security catalog remains future scope. A global roster is unnecessary when the question is bounded; every indispensable party and material effect within that question is necessary.
 
 Enable a family only when it has:
 
@@ -426,8 +436,10 @@ Enable a family only when it has:
 4. Costs, delays, implementation and failure/exit consequences.
 5. Evidence/assumptions and usable objective coverage.
 6. Reproducible uncertainty, terminal treatment and fresh assessment cases.
+7. Active ontology invariants, observation-safe eligibility/adjudication and declared resource arbitration.
+8. Runtime applicability and supported failure/consequence behavior, including each separately enabled breach variant.
 
-A family that lacks these remains unavailable or supports an explicitly narrower conditional experiment. A six-case viewer alone does not deliver the discovery goal. See [requirements](requirements.md), particularly TL-041–057, and the [product vision](product-vision.md).
+A family that lacks these remains unavailable or supports an explicitly selected narrower conditional experiment with a registered provisional mechanism. An imposed-event branch explores consequences without certifying that a policy generates the event. All branches retain complete decision state and their intervention labels. A six-case viewer alone does not deliver the discovery goal. See [requirements](requirements.md), particularly TL-041–057 and TL-068–076, the [ontology](ontology.md), and the [product vision](product-vision.md). The R0 author review of real writing questions precedes broader tooling and search-scale commitments.
 
 ## Pinned source register
 
@@ -445,6 +457,7 @@ A family that lacks these remains unavailable or supports an explicitly narrower
 | [SRC-D](https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032d.md) — CR-032D neutrality | SEPARATE DRAFT ALTERNATIVE; commit 626ffbb0bd6486c19164f89104569d78321ebd55. |
 | [SRC-VISION](product-vision.md) — Timeline Lab vision and professional wargaming sources | PROPOSED PRODUCT DESIGN. |
 | [SRC-REQ](requirements.md) — Timeline Lab requirements | PROPOSED SOFTWARE REQUIREMENTS. |
+| [SRC-ONTOLOGY](ontology.md) — Explicit ontology revision 0.6 | PROPOSED SEMANTIC CONTRACT. |
 | [SRC-FIXTURE](fixture-manifest.json) — Six-case fixture manifest | FROZEN FINANCIAL REGRESSION METADATA. |
 
 The current master and CR-031-R1 supersede the audit's dated northern-geography and labour passages. Preserve the source distinctions: institutional/narrative facts govern the starting world, local proposals remain proposals, numerical quantities remain MODEL, and behavioral mechanisms here remain design hypotheses.
