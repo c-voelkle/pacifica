@@ -3,12 +3,12 @@
   "title": "Pacifica Timeline Lab requirements backlog",
   "status": "proposed",
   "date": "2026-10-25",
-  "approval_status": "not_approved",
+  "approval_status": "excel_independence_required_by_user_other_design_details_proposed",
   "implementation_status": "not_implemented",
-  "scope": "First usable release: import, fork, edit supported financial changes, estimate missing quantities, calculate, compare, inspect and export. Broader world modules follow.",
+  "scope": "First usable release: a database-backed domain model and native Python calculation engine, with import, scenario forks, supported edits, financial estimation, comparison, inspection and export. Excel is archival evidence only.",
   "interpretation": {
-    "priority": "Must and Should are proposed priorities, subject to the recorded decisions.",
-    "release": "R1 is the first usable lab; R2 extends coverage. A viewer alone is an internal milestone.",
+    "priority": "Must and Should are proposed priorities except the explicit user constraint requiring an Excel-independent execution path.",
+    "release": "R1 is the first usable native lab; R2 extends coverage. A headless database-and-engine slice precedes the dashboard.",
     "acceptance": "Given/when/then criteria are future verification obligations. No product acceptance test has been run by drafting this backlog.",
     "milestones": "Focus requirements identify design or implementation work in each milestone; they do not imply that every listed criterion is complete at that stage.",
     "authority": "requirements.md supplies scope and semantics; this file supplies individual statements, dependencies and acceptance criteria. Any inconsistency must be resolved explicitly."
@@ -94,6 +94,16 @@
         "outputs/timeline-lab-six-cases-20261024/support/finish.py"
       ],
       "repository_availability": "not_committed"
+    },
+    {
+      "id": "U6",
+      "kind": "user_constraint",
+      "description": "The model must not be stuck on an Excel-bound execution path. All Lab calculations must be independent of Excel."
+    },
+    {
+      "id": "U7",
+      "kind": "user_design_question",
+      "description": "Evaluate a database-first foundation for the world model before building the dashboard; database selection remains a recommendation."
     }
   ],
   "decisions": [
@@ -101,7 +111,7 @@
       "id": "D-001",
       "topic": "First release outcome",
       "status": "proposed_pending_user_preference",
-      "recommended": "Edit and rerun a narrow set of financial scenarios, with the six-case viewer as the first internal milestone.",
+      "recommended": "Build and verify a headless database-and-engine slice, then expose narrow scenario editing and the six-case comparison dashboard.",
       "alternatives": [
         "Viewer-only first release",
         "Broader world modelling before authoring"
@@ -113,12 +123,12 @@
       "id": "D-002",
       "topic": "Hosting and users",
       "status": "proposed",
-      "recommended": "One author, private local browser UI and loopback API. Keep the Excel reference worker in an interactive Windows session.",
+      "recommended": "One author, private local browser UI and loopback API, with a native worker that also runs without a desktop on Linux.",
       "alternatives": [
         "Private hosted application with a separately designed calculation worker",
         "Shared multi-user application"
       ],
-      "impact": "Hosted or shared use changes access control, storage and worker design; it is not assumed to be authorized or implemented.",
+      "impact": "Hosting and multi-user access remain open; neither option may introduce an Excel runtime dependency.",
       "owner_role": "project author"
     },
     {
@@ -147,7 +157,7 @@
       "id": "D-005",
       "topic": "Fixture distribution",
       "status": "proposed",
-      "recommended": "Stage the exact six local result bundles and adapter evidence in versioned private project storage with the manifest hashes before regression work begins.",
+      "recommended": "Stage the exact six frozen JSON bundles and their provenance in versioned private project storage. Preserve the old adapter as archival evidence; it is not an executable test dependency.",
       "alternatives": [
         "Repository fixture directory",
         "Versioned release or artifact storage"
@@ -165,13 +175,33 @@
       ],
       "impact": "Core Pacifica GDP cannot stand in for North American GDP, and a financial outcome cannot establish political or military dominance.",
       "owner_role": "project author with model maintainer"
+    },
+    {
+      "id": "D-007",
+      "topic": "Storage and model foundation",
+      "status": "proposed",
+      "recommended": "PostgreSQL for versioned world data and results, with an independent native Python model core. Design schema and calculations together before the dashboard.",
+      "alternatives": [
+        "SQLite for an explicitly local-only product using the same model contract"
+      ],
+      "impact": "PostgreSQL adds installation, migrations and backup administration. Excel independence comes from the native engine, not the database brand. No database service is provisioned by this specification.",
+      "owner_role": "project author with implementation maintainer"
+    },
+    {
+      "id": "D-008",
+      "topic": "Excel runtime independence",
+      "status": "required_by_user",
+      "recommended": "Run every supported calculation natively from the first usable release; retain Excel files and existing results only as import and reference evidence.",
+      "alternatives": [],
+      "impact": "The native financial and GDP modules require upfront implementation. Missing coverage cannot be hidden by falling back to the workbook.",
+      "owner_role": "project author"
     }
   ],
   "milestones": [
     {
       "id": "M0",
-      "title": "Freeze evidence and contracts",
-      "exit": "Fixture bytes and adapter evidence are available by hash; quantity semantics, schema draft, supported edits and numerical tolerances are documented.",
+      "title": "Freeze evidence and define the domain",
+      "exit": "Exact fixture bytes and provenance are available by hash; source-versus-result semantics, database schema, model interfaces, supported edits and numeric tolerances are documented.",
       "focus_requirements": [
         "TL-001",
         "TL-003",
@@ -182,48 +212,52 @@
     },
     {
       "id": "M1",
-      "title": "Import and compare",
-      "exit": "All six cases import losslessly and idempotently; 17 run records, 14 distinct inputs and 87 years by 73 metrics reconcile. Baseline/control comparisons and provenance inspection work.",
+      "title": "Prove a native model slice",
+      "exit": "A database-backed baseline and fork resolve to portable input bundles. A native CLI computes a dated loan/spending change, reconciles accounts and reproduces the result on Windows and Linux without Office or a UI. Partial model coverage is explicit.",
       "focus_requirements": [
         "TL-002",
-        "TL-019",
-        "TL-022",
-        "TL-025"
+        "TL-005",
+        "TL-006",
+        "TL-007",
+        "TL-011",
+        "TL-012",
+        "TL-015",
+        "TL-017",
+        "TL-018",
+        "TL-033",
+        "TL-037",
+        "TL-038",
+        "TL-039",
+        "TL-040"
       ]
     },
     {
       "id": "M2",
-      "title": "Fork, estimate and rerun",
-      "exit": "One end-to-end parameter edit, one spending programme and one loan facility produce new immutable runs; dependencies, stale state, cancellation and accounting checks are demonstrated.",
+      "title": "Complete pilot coverage and connect the dashboard",
+      "exit": "The native engine covers all six cases, all 17 run records and 73 annual metrics; regression differences are resolved or explicitly versioned. The API and dashboard support import, fork, edit, estimate, run, compare and inspect.",
       "focus_requirements": [
-        "TL-005",
-        "TL-006",
-        "TL-007",
         "TL-009",
         "TL-010",
-        "TL-011",
-        "TL-012",
         "TL-013",
         "TL-014",
-        "TL-015",
         "TL-016",
-        "TL-017",
-        "TL-018",
+        "TL-019",
+        "TL-022",
         "TL-023",
         "TL-024",
-        "TL-033",
+        "TL-025",
+        "TL-028",
         "TL-035"
       ]
     },
     {
       "id": "M3",
       "title": "Complete the first usable lab",
-      "exit": "Matched-shock and bounded-sweep experiments, explanations, export/reimport, restart recovery and usability/performance criteria pass. All R1 acceptance criteria have evidence or an explicitly approved scope revision.",
+      "exit": "Matched-shock and bounded-sweep experiments, explanations, export/reimport, restart recovery and usability/performance criteria pass. All R1 acceptance criteria have evidence or an explicitly approved scope revision; Excel independence remains mandatory.",
       "focus_requirements": [
         "TL-020",
         "TL-021",
         "TL-026",
-        "TL-028",
         "TL-029",
         "TL-030",
         "TL-031",
@@ -613,7 +647,7 @@
         "then": [
           "A run is never shown as succeeded merely because it was submitted.",
           "Cancellation or failure preserves the last complete result and logs the affected stage.",
-          "The local Excel adapter closes only its own unsaved instance and leaves the source workbook unchanged."
+          "Cancellation stops only the owned native worker job, leaves source artifacts unchanged and cannot publish incomplete results as complete."
         ]
       },
       "depends_on": [
@@ -1025,7 +1059,7 @@
         "then": [
           "The source hash remains unchanged.",
           "Untrusted executable content is rejected or retained as inert provenance.",
-          "Excel execution accepts only a trusted, hash-pinned source and validated generated patches; arbitrary uploaded formulas are not evaluated."
+          "No import, replay or calculation path invokes Excel, Office COM or a spreadsheet formula runtime; workbook formulas remain inert source evidence."
         ]
       },
       "depends_on": [
@@ -1045,27 +1079,32 @@
       "epic": "Integrity",
       "priority": "Must",
       "release": "R1",
-      "title": "Gate engine migration on fixtures",
-      "statement": "Replacing the Excel reference calculation shall require regression comparison over all declared outputs, independent accounting tests and a documented register of intentional corrections.",
+      "title": "Validate the native engine against frozen evidence",
+      "statement": "The first native engine shall reconcile all declared pilot outputs against the frozen results, pass independent accounting tests and record intentional corrections before the first usable release.",
       "acceptance": {
         "id": "AC-028",
-        "given": "The six frozen cases and a proposed replacement engine",
-        "when": "Migration is evaluated",
+        "given": "The six frozen cases and the native engine on a machine without Office",
+        "when": "The release regression suite runs",
         "then": [
-          "The baseline reference documents the existing 48,940-cell reconciliation.",
-          "All 87 annual periods and 73 pilot metrics are compared within declared tolerances.",
-          "Any intentional divergence is explained and versioned; fitting the baseline is not presented as historical validation."
+          "The archived baseline evidence retains its 48,940-cell reconciliation; the new tests read frozen fixtures and never launch Excel.",
+          "All 87 annual periods and 73 pilot metrics in all 17 labelled runs, plus supplied finer schedules, are compared within declared tolerances.",
+          "Intentional corrections are explained and versioned; reproducing the baseline is not presented as historical validation.",
+          "The UI is not allowed to fall back to the workbook when a native module is missing."
         ]
       },
       "depends_on": [
         "TL-002",
         "TL-015",
-        "TL-017"
+        "TL-017",
+        "TL-037",
+        "TL-039",
+        "TL-040"
       ],
       "sources": [
         "U1",
         "U2",
-        "S3"
+        "S3",
+        "U6"
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
@@ -1112,7 +1151,7 @@
         "then": [
           "Import and interaction latency are recorded separately from simulation time.",
           "The UI remains usable while calculation runs.",
-          "The initial calculation target is 120 seconds per native reference case; a measured miss must be resolved or explicitly renegotiated before release."
+          "The initial native Python calculation target is 120 seconds per reference case; a measured miss must be resolved or explicitly renegotiated before release."
         ]
       },
       "depends_on": [
@@ -1292,7 +1331,8 @@
         "then": [
           "Supported migrations preserve original files and record the adapter version.",
           "Unknown majors are rejected without changing the catalog.",
-          "The normalized contract represents entities, events, assumptions, instruments, shocks, runs, observations, checks and provenance without requiring a workbook cell address."
+          "The normalized contract represents entities, events, assumptions, instruments, shocks, runs, observations, checks and provenance without requiring a workbook cell address.",
+          "A database export resolves all immutable scenario inputs so the native engine can replay it without a live database connection."
         ]
       },
       "depends_on": [
@@ -1307,6 +1347,132 @@
       ],
       "status": "proposed",
       "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-037",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Run without Excel",
+      "statement": "Every supported Lab calculation shall run in the native engine without Excel, Office COM, an interactive desktop, spreadsheet formula evaluation or an Excel fallback.",
+      "acceptance": {
+        "id": "AC-037",
+        "given": "A clean supported Windows environment and a clean supported Linux environment with no Office installation",
+        "when": "The same frozen input bundle and a changed supported assumption are run through the command-line entry point",
+        "then": [
+          "Both environments compute new results within declared tolerances.",
+          "No workbook application or remote spreadsheet service is invoked.",
+          "The changed input is recomputed; returning only a saved pilot result does not pass.",
+          "Missing native coverage gives an explicit unsupported result rather than a workbook fallback."
+        ]
+      },
+      "depends_on": [
+        "TL-011"
+      ],
+      "sources": [
+        "U6"
+      ],
+      "status": "required_by_user",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-038",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Persist a versioned domain model",
+      "statement": "The database shall store immutable source and scenario versions, typed entities, dated events, assumptions, instruments, rights and run evidence with referential integrity and transactional publication.",
+      "acceptance": {
+        "id": "AC-038",
+        "given": "A baseline, two forks, a loan instrument and a later correction to an entity or assumption",
+        "when": "The versions are saved, queried, exported and restored",
+        "then": [
+          "Old runs resolve to their original input revisions; correcting a shared entity cannot silently change them.",
+          "A fork stores a pinned parent and its changes without a new table or schema for that scenario.",
+          "Foreign keys and uniqueness rules reject invalid references; ambiguous time intervals are rejected by declared constraints or validation.",
+          "Original source bytes and hashes survive separately from normalized JSON payloads.",
+          "A schema migration and backup/restore preserve both identifiers and resolved input content."
+        ]
+      },
+      "depends_on": [
+        "TL-001",
+        "TL-003",
+        "TL-005"
+      ],
+      "sources": [
+        "U1",
+        "U6",
+        "U7"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented",
+      "decision_dependencies": [
+        "D-007"
+      ]
+    },
+    {
+      "id": "TL-039",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Separate calculation from persistence and presentation",
+      "statement": "The model core shall accept a complete immutable input bundle and return state trajectories, postings, checks and provenance without requiring a dashboard, live database or network service.",
+      "acceptance": {
+        "id": "AC-039",
+        "given": "The same resolved input bundle supplied through the database-backed application and a standalone file",
+        "when": "The native engine runs both paths",
+        "then": [
+          "The calculation identity and outputs agree within declared tolerances.",
+          "All equations, module versions, dependency rules and solver settings are defined in versioned code.",
+          "Database transactions load or publish artifacts; SQL triggers do not contain economic or financial simulation equations.",
+          "Changing storage or UI code alone does not change model outcomes."
+        ]
+      },
+      "depends_on": [
+        "TL-011",
+        "TL-012",
+        "TL-033"
+      ],
+      "sources": [
+        "U1",
+        "U6",
+        "U7"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-040",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Separate accounting identities from economic assumptions",
+      "statement": "The engine shall advance explicit opening stocks through dated flows and valuation or other changes, reconcile financial postings, and identify behavioural equations and calibration assumptions separately from accounting identities.",
+      "acceptance": {
+        "id": "AC-040",
+        "given": "A supported public loan, spending programme and GDP module with declared opening balances",
+        "when": "A draw, repayment, interest payment, write-down and spending-date change are simulated",
+        "then": [
+          "Each covered entity's balanced postings reconcile to cash, debt and claims; cash and accrual timing are explicit.",
+          "Loan principal is a financial transaction and is not automatically public expenditure or GDP.",
+          "Debt face value, cash issue proceeds, valuation changes and creditor losses use distinct quantities and rules.",
+          "GDP, price and productivity responses identify their equations, evidence, lags and coefficients; absent responses are marked unmodelled.",
+          "Cash and stock identities can pass while economic assumptions remain uncertain and constraints remain infeasible."
+        ]
+      },
+      "depends_on": [
+        "TL-015",
+        "TL-017",
+        "TL-018"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "U6"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
     }
-  ]
+  ],
+  "revision": "0.2"
 }

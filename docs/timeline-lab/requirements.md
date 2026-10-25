@@ -1,12 +1,12 @@
 # Pacifica Timeline Lab requirements
 
-**Draft for review · 25 October 2026 · Requirements version 0.1**
+**Draft for review · 25 October 2026 · Requirements version 0.2**
 
-Build Timeline Lab around immutable timeline versions, dated changes and a reproducible calculation engine. The dashboard should let the author ask what changes when a policy, financing arrangement or event changes, inspect the assumptions behind the answer, and save the experiment.
+Build Timeline Lab around a database-backed world model, immutable timeline versions, dated changes and a native Python calculation engine. The dashboard should let the author ask what changes when a policy, financing arrangement or event changes, inspect the assumptions behind the answer, and save the experiment.
 
-The recommended first release imports the six existing cases and lets the author fork, edit and rerun a bounded set of financial changes. A comparison viewer is the first internal milestone. The broader world model grows through modules with explicit inputs, dependencies and limits.
+The recommended first release imports the six existing cases and lets the author fork, edit and rerun a bounded set of financial changes. Design the database schema and native calculation rules together; prove one complete model slice before building the dashboard. The broader world model grows through modules with explicit inputs, dependencies and limits.
 
-These are proposed requirements and technology choices, not an approved implementation plan. The working assumptions are one author, private local use and a first release focused on financial scenario editing. First-release priority remains an open product decision. The current task creates a specification; it does not implement the application or approve a storyline.
+Excel independence is a required user constraint. The remaining implementation details and technology choices are proposed. The working assumptions are one author, private local use and a first release focused on financial scenario editing. First-release priority remains an open product decision. The current task creates a specification; it does not implement the application or approve a storyline.
 
 ## 1. Product purpose and users
 
@@ -72,7 +72,7 @@ First-release validation rejects ambiguous overlapping edits. Later scope includ
 
 ## 4. Domain model
 
-Use stable identities and an immutable snapshot plus dated overlays. The event/dependency structure is a logical model; it does not require a graph database.
+Use stable identities and an immutable snapshot plus dated overlays. PostgreSQL is the proposed store for typed world data, accounts and run evidence; versioned Python modules own the state transitions and calculations. A complete input bundle must run without a live database or dashboard. See [model and database architecture](model-architecture.md) for the logical schema, calculation responsibilities and build sequence. The event/dependency structure is a logical model; it does not require a graph database.
 
 | Object | Meaning and required distinction |
 |---|---|
@@ -141,7 +141,7 @@ Matched-shock experiments hold selected external shocks constant while recomputi
 
 ## 7. Requirements and acceptance register
 
-The normative individual statements, source links, dependencies and Given/When/Then criteria are in [backlog.json](backlog.json). All 36 requirements are proposed: 34 Must requirements for R1 and two Should requirements for R2. Their acceptance criteria describe future verification; none has been satisfied merely by writing this specification.
+The normative individual statements, source links, dependencies and Given/When/Then criteria are in [backlog.json](backlog.json). The register contains 40 requirements: 38 Must requirements for R1 and two Should requirements for R2. Excel runtime independence is required by the user; other detailed requirements remain proposed. Their acceptance criteria describe future verification; none has been satisfied merely by writing this specification.
 
 | Requirement | Capability | Proposed priority/release | Acceptance |
 |---|---|---|---|
@@ -172,7 +172,7 @@ The normative individual statements, source links, dependencies and Given/When/T
 | TL-025 | Trace any displayed number | Must / R1 | AC-025 |
 | TL-026 | Export a reproducible experiment | Must / R1 | AC-026 |
 | TL-027 | Protect sources and validate execution inputs | Must / R1 | AC-027 |
-| TL-028 | Gate engine migration on fixtures | Must / R1 | AC-028 |
+| TL-028 | Validate the native engine against frozen evidence | Must / R1 | AC-028 |
 | TL-029 | Keep the initial lab private | Must / R1 | AC-029 |
 | TL-030 | Meet measured responsiveness targets | Must / R1 | AC-030 |
 | TL-031 | Make comparisons readable and accessible | Must / R1 | AC-031 |
@@ -181,6 +181,10 @@ The normative individual statements, source links, dependencies and Given/When/T
 | TL-034 | Extend the world state | Should / R2 | AC-034 |
 | TL-035 | Evaluate policy limits with valid denominators | Must / R1 | AC-035 |
 | TL-036 | Version the data contract | Must / R1 | AC-036 |
+| TL-037 | Run without Excel | Must / R1 | AC-037 |
+| TL-038 | Persist a versioned domain model | Must / R1 | AC-038 |
+| TL-039 | Separate calculation from persistence and presentation | Must / R1 | AC-039 |
+| TL-040 | Separate accounting identities from economic assumptions | Must / R1 | AC-040 |
 
 Additional end-to-end demonstrations connect the requirements:
 
@@ -192,6 +196,7 @@ Additional end-to-end demonstrations connect the requirements:
 6. **Diagnose a failure:** inject a broken debt roll-forward and an unconfigured calculation cycle. Show the entity/period/identity residual or cycle path, preserve the last successful run and avoid publishing partial output as complete.
 7. **Respect financing semantics:** apply D's adverse Union case. Capacity changes start in 1928, bond cash proceeds use the stated issue-price factor rather than face value, and absent North American denominators remain unavailable.
 8. **Use the skill contract:** import a quantity proposal for a new supported programme, inspect its derivation and bounds, apply it as a batch, run and trace a resulting Treasury quantity back to the proposal.
+9. **Prove native execution:** export resolved inputs, stop the application and database, and run a supported new change from the command line on Windows and Linux without Office. Results reconcile with application-driven runs; no cached fixture or workbook fallback substitutes for computation.
 
 ## 8. Exchange and model contracts
 
@@ -209,25 +214,31 @@ A normalized observation can be keyed by run, metric, entity/geography and perio
 
 The pilot adapter must preserve the source files, unknown fields and original run labels, migrate supported content losslessly and reject unsupported schema majors without modifying the catalog. “Replayable” means it states required external assets and workers; the JSON results alone do not contain a portable executable model.
 
-Imports are data. Uploaded scripts and spreadsheet formulas must never execute simply because they appear in provenance. An Excel bridge may use only the trusted hash-pinned source and validated patches generated from registered operations.
+Imports are data. Uploaded scripts and spreadsheet formulas remain inert provenance. Read-only workbook inspection may extract source evidence during migration; every Lab calculation must execute native model modules without Excel or a spreadsheet formula runtime.
 
 ## 9. Proposed technology and execution design
 
+The [model and database architecture](model-architecture.md) specifies a database-backed stock-and-flow model. State includes cash, debt, claims, capital and other supported world quantities. Dated events and explicit rules generate changes; economic responses remain distinguishable from accounting identities.
+
 | Layer | Recommendation | Reason |
 |---|---|---|
-| Interface | React, TypeScript and Vite | A browser UI with typed scenario forms and reusable views. [React TypeScript guidance](https://react.dev/learn/typescript); [Vite guide](https://vite.dev/guide/). |
-| Charts | Apache ECharts, with matching HTML tables | Suitable chart primitives for multiple trajectories and interactive inspection. [ECharts documentation](https://echarts.apache.org/en/index.html). |
-| API and model boundary | Python, FastAPI and Pydantic | Keeps calculation close to existing Python work and validates API inputs. [FastAPI features](https://fastapi.tiangolo.com/features/). |
-| Local catalog | SQLite plus immutable JSON result artifacts | Fits the proposed single-author local application; retain portable export files. [SQLite use cases](https://www.sqlite.org/whentouse.html). |
-| Exchange schema | JSON Schema 2020-12 | Explicit, independently validated contracts and migration boundaries. |
-| Initial calculation reference | Existing native Excel adapter, wrapped behind a worker interface | Preserves a measured reference while the domain model is extracted and independently checked. |
-| Target engine | Deterministic Python modules behind the same interface | Removes workbook layout from authoring and enables a future portable deployment after regression gates pass. |
+| World data and run catalog | PostgreSQL with typed relational tables and versioned migrations | Persist entities, assumptions, events, instruments, accounts and immutable run evidence with structural integrity. [PostgreSQL constraints](https://www.postgresql.org/docs/current/ddl-constraints.html). |
+| Native calculation core | Versioned Python modules, required from the first usable release | Compute from resolved input bundles without Excel, a dashboard or a live database connection. |
+| Application API | FastAPI and Pydantic | Validate requests, resolve scenario versions and orchestrate jobs. [FastAPI features](https://fastapi.tiangolo.com/features/). |
+| Interface | React, TypeScript and Vite | Typed scenario forms and reusable comparison views. [React TypeScript guidance](https://react.dev/learn/typescript); [Vite guide](https://vite.dev/guide/). |
+| Charts | Apache ECharts, with matching HTML tables | Multiple trajectories and interactive inspection. [ECharts documentation](https://echarts.apache.org/en/index.html). |
+| Exchange | JSON Schema 2020-12 and immutable input/result artifacts | Portable replay and explicit migration boundaries. |
+| Legacy evidence | Source workbook and frozen pilot JSON | Read-only extraction and regression references; never a runtime or fallback calculation engine. |
 
-These are proposed choices, not installed components or performance claims. Start with a modular local application and one calculation queue. A graph database, distributed services and a separate analytical warehouse are not needed for the pilot workload. Revisit columnar storage only after measurements justify it.
+PostgreSQL is a proposed choice, not a deployed service. It adds installation, migration and backup work. SQLite remains adequate for a deliberately local product; selecting it would not change the requirement for a native engine. Choose one storage backend, and keep the calculation interface independent of it.
 
-**Excel is a transitional local reference worker.** Microsoft does not recommend or support unattended, non-interactive Office automation as a server component. The initial bridge therefore requires an interactive Windows user session, processes one Excel job at a time, opens a disposable copy and owns its own instance. A hosted service must use a suitable validated engine instead of placing Excel COM behind the web API. See [Microsoft's Office automation guidance](https://support.microsoft.com/en-us/visio/considerations-for-server-side-automation-of-office).
+**Every supported calculation must run without Excel from the first usable release.** No Office COM worker, remote spreadsheet service or automatic spreadsheet-formula interpreter is permitted as the execution path. A missing native module produces an explicit coverage gap.
 
-The calculation pipeline resolves overlays and assumptions, validates units and coverage, constructs dated dependencies, runs modules, evaluates checks and atomically publishes immutable results. Cache identity includes resolved inputs, source/model/engine versions, shock definition and any seed. Display labels and timestamps do not define calculation equivalence.
+The database stores the world and its history; the engine advances that world through time. SQL constraints and application transactions protect records, while Python modules define accounting, contracts and economic responses. Shared entity and instrument revisions must be immutable so that later corrections cannot alter an old run.
+
+The calculation pipeline resolves overlays and assumptions into a complete portable bundle, validates units and coverage, constructs dated dependencies, runs modules, evaluates checks and atomically publishes immutable results. Cache identity includes resolved inputs, source/model/engine versions, shock definition and any seed. Display labels and timestamps do not define calculation equivalence.
+
+Start with a minimal schema and a command-line calculation for a baseline and fork. Prove the schema and engine together before extending the UI. A graph database, distributed services and a separate analytical warehouse are not needed for the pilot workload.
 
 ## 10. Quality targets and release gates
 
@@ -237,7 +248,7 @@ The following are proposed acceptance targets, subject to D-004, not measurement
 |---|---|
 | Import | Entire 25.5 MB pilot set within 5 seconds at p95 on a documented reference machine. |
 | Interaction | Cached comparison/year/reference updates within 250 ms at p95. |
-| Calculation | Initial target of 120 seconds per native reference case, measured separately from UI latency. |
+| Calculation | Initial target of 120 seconds per native Python reference case, measured separately from UI latency. |
 | Progress | Stage/progress heartbeat at least every 15 seconds; cancellation and bounded execution. |
 | Benchmark method | At least 20 measured trials after one warm-up; record hardware, build, workload and results. |
 | Usability | Core workflow usable at 1280×800 by keyboard, with visible focus, textual errors and chart-equivalent tables. |
@@ -245,32 +256,34 @@ The following are proposed acceptance targets, subject to D-004, not measurement
 
 Numeric comparison uses `abs(actual − reference) ≤ max(absolute tolerance, relative tolerance × abs(reference))`. Start with an absolute tolerance of 0.000001 for monetary observations expressed in millions and a relative tolerance of 1e-9; ratios expressed as fractions use 1e-10 absolute and 1e-9 relative. Dates, IDs and integer counts require exact equality. Scale accounting residual checks by the largest term in the identity. Additional metric kinds require a declared tolerance before regression; any metric-specific exception must be versioned and explained.
 
-The replacement-engine gate compares all 87 annual periods and 73 metrics in every pilot run, plus supplied finer schedules and conditions. It also requires independent accounting tests: reproducing a spreadsheet error is not evidence of model correctness. Intentional corrections need an explicit version and reconciliation note. The first release may retain the Excel worker; passing a replacement engine is required before switching engines, not before showing the first comparison.
+The native-engine release gate compares all 87 annual periods and 73 metrics in every pilot run, plus supplied finer schedules and conditions. Independent accounting tests are also required: reproducing a spreadsheet error is not evidence of model correctness. Intentional corrections need an explicit version and reconciliation note. Both frozen cases and new input variations must calculate on supported Windows and Linux environments without Office. The first usable release must pass this gate; importing saved outputs alone is insufficient.
 
 | Milestone | Exit evidence |
 |---|---|
-| M0: Freeze evidence and contracts | Fixture bytes and adapter evidence are available by hash; quantity semantics, schema draft, supported edits and numerical tolerances are documented. |
-| M1: Import and compare | All six cases import losslessly and idempotently; 17 run records, 14 distinct inputs and 87 years by 73 metrics reconcile. Baseline/control comparisons and provenance inspection work. |
-| M2: Fork, estimate and rerun | One end-to-end parameter edit, one spending programme and one loan facility produce new immutable runs; dependencies, stale state, cancellation and accounting checks are demonstrated. |
-| M3: Complete the first usable lab | Matched-shock and bounded-sweep experiments, explanations, export/reimport, restart recovery and usability/performance criteria pass. All R1 acceptance criteria have evidence or an explicitly approved scope revision. |
+| M0: Freeze evidence and define the domain | Exact fixture bytes and provenance are available by hash; source-versus-result semantics, database schema, model interfaces, supported edits and numeric tolerances are documented. |
+| M1: Prove a native model slice | A database-backed baseline and fork resolve to portable input bundles. A native CLI computes a dated loan/spending change, reconciles accounts and reproduces the result on Windows and Linux without Office or a UI. Partial model coverage is explicit. |
+| M2: Complete pilot coverage and connect the dashboard | The native engine covers all six cases, all 17 run records and 73 annual metrics; regression differences are resolved or explicitly versioned. The API and dashboard support import, fork, edit, estimate, run, compare and inspect. |
+| M3: Complete the first usable lab | Matched-shock and bounded-sweep experiments, explanations, export/reimport, restart recovery and usability/performance criteria pass. All R1 acceptance criteria have evidence or an explicitly approved scope revision; Excel independence remains mandatory. |
 | M4: Extend world modelling | Rebase/conflict workflows and a cross-module event demonstrate wider coverage using the same contracts. |
 
-No calendar estimate is asserted here. M0 should reveal fixture-access and adapter constraints before implementation estimates are made. Release requires evidence for every in-scope acceptance criterion, a recorded disposition of failures and an explicit scope revision for any deferred Must requirement.
+No calendar estimate is asserted here. M0 should reveal fixture-access, source-equation and model-coverage constraints before implementation estimates are made. Release requires evidence for every in-scope acceptance criterion, a recorded disposition of failures and an explicit scope revision for any deferred Must requirement.
 
 ## 11. Decisions still open
 
-The defaults below let implementation planning proceed; they are not recorded user approvals.
+Excel independence is a recorded user constraint. The other defaults below remain proposed decisions.
 
 | Decision | Recommended default | Consequence |
 |---|---|---|
-| D-001: First release outcome | Edit and rerun a narrow set of financial scenarios, with the six-case viewer as the first internal milestone. | Controls the initial implementation scope; first-release priority remains a product decision. |
-| D-002: Hosting and users | One author, private local browser UI and loopback API. Keep the Excel reference worker in an interactive Windows session. | Hosted or shared use changes access control, storage and worker design; it is not assumed to be authorized or implemented. |
+| D-001: First release outcome | Build and verify a headless database-and-engine slice, then expose narrow scenario editing and the six-case comparison dashboard. | Controls the initial implementation scope; first-release priority remains a product decision. |
+| D-002: Hosting and users | One author, private local browser UI and loopback API, with a native worker that also runs without a desktop on Linux. | Hosting and multi-user access remain open; neither option may introduce an Excel runtime dependency. |
 | D-003: First editable event families | Dated parameter overrides, spending programmes and loan facilities; implement only explicitly registered operations. | War removal, new regimes and territorial changes need dependency coverage and explicit estimates before the engine can claim complete results. |
 | D-004: Performance and numerical targets | Use the targets and tolerances in requirements.md, calibrating on a recorded reference machine before committing to them. | No current application benchmark or portable-engine validation exists; targets are proposed release criteria. |
-| D-005: Fixture distribution | Stage the exact six local result bundles and adapter evidence in versioned private project storage with the manifest hashes before regression work begins. | This requirements PR contains metadata only. A new checkout does not yet have the six files or local adapter scripts. |
+| D-005: Fixture distribution | Stage the exact six frozen JSON bundles and their provenance in versioned private project storage. Preserve the old adapter as archival evidence; it is not an executable test dependency. | This requirements PR contains metadata only. A new checkout does not yet have the six files or local adapter scripts. |
 | D-006: Broader power and geography measures | Show available quantities separately; defer a composite power score and North American policy certification until definitions and data exist. | Core Pacifica GDP cannot stand in for North American GDP, and a financial outcome cannot establish political or military dominance. |
+| D-007: Storage and model foundation | PostgreSQL for versioned world data and results, with an independent native Python model core. Design schema and calculations together before the dashboard. | PostgreSQL adds installation, migrations and backup administration. Excel independence comes from the native engine, not the database brand. No database service is provisioned by this specification. |
+| D-008: Excel runtime independence | Run every supported calculation natively from the first usable release; retain Excel files and existing results only as import and reference evidence. | The native financial and GDP modules require upfront implementation. Missing coverage cannot be hidden by falling back to the workbook. |
 
-The principal risks are incomplete event dependencies, silently reused cached results, geographic/ownership mistakes and an Excel-bound execution path. Coverage reporting, immutable run identities, typed quantities and the regression gate address these directly. The broader world model should expand through demonstrable event families, rather than claiming generality from the six pilot cases.
+The principal risks are incomplete event dependencies, silently reused cached results, geographic/ownership mistakes and incomplete extraction of the source equations. Coverage reporting, immutable run identities, typed quantities and the native-engine regression gate address these directly. The broader world model should expand through demonstrable event families, rather than claiming generality from the six pilot cases.
 
 ## 12. Source and authority notes
 

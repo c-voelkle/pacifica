@@ -7,7 +7,7 @@
   "storage": {
     "status": "local_project_output_not_committed",
     "workspace_relative_directory": "outputs/timeline-lab-six-cases-20261024",
-    "required_next_step": "Stage the exact files and supporting adapter evidence in versioned project storage before regression work. Verify SHA-256 on retrieval; do not silently regenerate fixtures."
+    "required_next_step": "Stage exact result files and provenance in versioned project storage before regression work. Verify SHA-256 on retrieval; do not silently regenerate fixtures. Archive the old adapter for audit only."
   },
   "source": {
     "repository": "https://github.com/c-voelkle/pacifica",
@@ -23,8 +23,9 @@
     "adapter_version": "0.1.0",
     "adapter_sha256_as_recorded_in_bundles": "ab9c2cf4c868062f609558b81fbefb74898aacb804215c7cf2665a4e64a88672",
     "support_source": "S5 in backlog.json",
-    "execution_requirement": "Trusted hash-pinned workbook and validated adapter in an interactive Windows user session with Excel; the JSON files alone are not a portable executable model.",
-    "randomness": "none"
+    "randomness": "none",
+    "historical_execution_requirement": "Trusted hash-pinned workbook and validated adapter in an interactive Windows user session with Excel; the JSON files alone are not a portable executable model.",
+    "role_in_timeline_lab": "Historical provenance only. The proposed Lab reads frozen inputs and results, and must not execute this adapter or require Excel."
   },
   "totals": {
     "files": 6,
@@ -46,7 +47,8 @@
     "anchors": "1932 reference/native run only; anchor values are checksums of selected observations, not validation of the whole model.",
     "full_regression": "Compare every declared annual metric in every run and all supplied finer-resolution schedules, checks and conditions, using metric-specific tolerances.",
     "aliases": "Baseline, control and A each reuse the native input for matched_downturn; preserve both labelled run records without counting them as independent evidence.",
-    "schema": "Legacy pacifica.timeline-lab.scenario.v0.1. Preserve original bytes and unknown fields while migrating to a validated normalized contract."
+    "schema": "Legacy pacifica.timeline-lab.scenario.v0.1. Preserve original bytes and unknown fields while migrating to a validated normalized contract.",
+    "native_execution": "Native-engine regression reads these files without Excel; new or changed scenarios must be computed, not answered from cached fixtures."
   },
   "limitations": [
     "All alternatives remain proposed or conditional; computation does not approve canon.",
