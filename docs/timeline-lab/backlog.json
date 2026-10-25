@@ -1,0 +1,1312 @@
+{
+  "document_format": "pacifica.timeline-lab.requirements.v0.1",
+  "title": "Pacifica Timeline Lab requirements backlog",
+  "status": "proposed",
+  "date": "2026-10-25",
+  "approval_status": "not_approved",
+  "implementation_status": "not_implemented",
+  "scope": "First usable release: import, fork, edit supported financial changes, estimate missing quantities, calculate, compare, inspect and export. Broader world modules follow.",
+  "interpretation": {
+    "priority": "Must and Should are proposed priorities, subject to the recorded decisions.",
+    "release": "R1 is the first usable lab; R2 extends coverage. A viewer alone is an internal milestone.",
+    "acceptance": "Given/when/then criteria are future verification obligations. No product acceptance test has been run by drafting this backlog.",
+    "milestones": "Focus requirements identify design or implementation work in each milestone; they do not imply that every listed criterion is complete at that stage.",
+    "authority": "requirements.md supplies scope and semantics; this file supplies individual statements, dependencies and acceptance criteria. Any inconsistency must be resolved explicitly."
+  },
+  "sources": [
+    {
+      "id": "U1",
+      "kind": "user_requirement",
+      "description": "A flexible and adaptable world model for comparing alternate timelines in a Ledger-like dashboard without proliferating Excel rows and tabs."
+    },
+    {
+      "id": "U2",
+      "kind": "user_requirement",
+      "description": "Compare baseline, shared-change control, and proposed CR-032A–D, using the latest repository sources pinned at run creation."
+    },
+    {
+      "id": "U3",
+      "kind": "user_requirement",
+      "description": "Use a separate skill to estimate and calculate the required financial quantities for each draft."
+    },
+    {
+      "id": "U4",
+      "kind": "user_requirement",
+      "description": "Save project work in the project repository."
+    },
+    {
+      "id": "U5",
+      "kind": "user_requirement",
+      "description": "Perform requirements engineering for Timeline Lab."
+    },
+    {
+      "id": "S1",
+      "kind": "repository",
+      "commit": "cc6e017780970433ab63bc95d0e3749510b44d49",
+      "description": "Current main, repository authority rules, master storyline and finance sources.",
+      "references": [
+        "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/AGENTS.md",
+        "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/book-agent/revision/master_storyline.md",
+        "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/finance/README.md",
+        "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/finance/Pacifica-Ledger.md",
+        "https://github.com/c-voelkle/pacifica/blob/cc6e017780970433ab63bc95d0e3749510b44d49/finance/Pacifica_financial_model_1846-1932.xlsx"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "repository",
+      "commit": "626ffbb0bd6486c19164f89104569d78321ebd55",
+      "branch": "drafts/cr032-alternatives-20261024",
+      "description": "CR-032 alternatives remain separate proposed timelines; CR-032.md is the A label in the pilot.",
+      "references": [
+        "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/README.md",
+        "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032.md",
+        "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032b.md",
+        "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032c.md",
+        "https://github.com/c-voelkle/pacifica/blob/626ffbb0bd6486c19164f89104569d78321ebd55/book-agent/revision/alternatives/CR-032/CR-032d.md"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "local_calculation_artifacts",
+      "description": "Six frozen pilot result bundles; exact files, sizes, hashes and anchor values are recorded in fixture-manifest.json.",
+      "workspace_relative_directory": "outputs/timeline-lab-six-cases-20261024",
+      "manifest": "fixture-manifest.json",
+      "repository_availability": "not_committed"
+    },
+    {
+      "id": "S4",
+      "kind": "repository",
+      "commit": "507c56b68621a3447e07e70338aa10d4a9e54a48",
+      "description": "Separate scenario-finance skill and provisional Timeline Lab exchange contract; proposed in draft PR 7.",
+      "references": [
+        "https://github.com/c-voelkle/pacifica/blob/507c56b68621a3447e07e70338aa10d4a9e54a48/.agents/skills/pacifica-scenario-finance/SKILL.md",
+        "https://github.com/c-voelkle/pacifica/pull/7"
+      ]
+    },
+    {
+      "id": "S5",
+      "kind": "local_calculation_adapter",
+      "description": "Pilot Excel adapter and export/validation scripts, including dated dependency and financing corrections; these are not a general-purpose engine.",
+      "workspace_relative_paths": [
+        "outputs/timeline-lab-six-cases-20261024/support/build_inputs.py",
+        "outputs/timeline-lab-six-cases-20261024/support/run_excel.ps1",
+        "outputs/timeline-lab-six-cases-20261024/support/finish.py"
+      ],
+      "repository_availability": "not_committed"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D-001",
+      "topic": "First release outcome",
+      "status": "proposed_pending_user_preference",
+      "recommended": "Edit and rerun a narrow set of financial scenarios, with the six-case viewer as the first internal milestone.",
+      "alternatives": [
+        "Viewer-only first release",
+        "Broader world modelling before authoring"
+      ],
+      "impact": "Controls the initial implementation scope; first-release priority remains a product decision.",
+      "owner_role": "project author"
+    },
+    {
+      "id": "D-002",
+      "topic": "Hosting and users",
+      "status": "proposed",
+      "recommended": "One author, private local browser UI and loopback API. Keep the Excel reference worker in an interactive Windows session.",
+      "alternatives": [
+        "Private hosted application with a separately designed calculation worker",
+        "Shared multi-user application"
+      ],
+      "impact": "Hosted or shared use changes access control, storage and worker design; it is not assumed to be authorized or implemented.",
+      "owner_role": "project author"
+    },
+    {
+      "id": "D-003",
+      "topic": "First editable event families",
+      "status": "proposed",
+      "recommended": "Dated parameter overrides, spending programmes and loan facilities; implement only explicitly registered operations.",
+      "alternatives": [
+        "Prioritize another bounded event family"
+      ],
+      "impact": "War removal, new regimes and territorial changes need dependency coverage and explicit estimates before the engine can claim complete results.",
+      "owner_role": "project author with model maintainer"
+    },
+    {
+      "id": "D-004",
+      "topic": "Performance and numerical targets",
+      "status": "proposed",
+      "recommended": "Use the targets and tolerances in requirements.md, calibrating on a recorded reference machine before committing to them.",
+      "alternatives": [
+        "Revise a target with a recorded reason and workload"
+      ],
+      "impact": "No current application benchmark or portable-engine validation exists; targets are proposed release criteria.",
+      "owner_role": "implementation maintainer"
+    },
+    {
+      "id": "D-005",
+      "topic": "Fixture distribution",
+      "status": "proposed",
+      "recommended": "Stage the exact six local result bundles and adapter evidence in versioned private project storage with the manifest hashes before regression work begins.",
+      "alternatives": [
+        "Repository fixture directory",
+        "Versioned release or artifact storage"
+      ],
+      "impact": "This requirements PR contains metadata only. A new checkout does not yet have the six files or local adapter scripts.",
+      "owner_role": "implementation maintainer"
+    },
+    {
+      "id": "D-006",
+      "topic": "Broader power and geography measures",
+      "status": "open",
+      "recommended": "Show available quantities separately; defer a composite power score and North American policy certification until definitions and data exist.",
+      "alternatives": [
+        "Agree explicit measures, weights, boundaries and missing-data rules"
+      ],
+      "impact": "Core Pacifica GDP cannot stand in for North American GDP, and a financial outcome cannot establish political or military dominance.",
+      "owner_role": "project author with model maintainer"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M0",
+      "title": "Freeze evidence and contracts",
+      "exit": "Fixture bytes and adapter evidence are available by hash; quantity semantics, schema draft, supported edits and numerical tolerances are documented.",
+      "focus_requirements": [
+        "TL-001",
+        "TL-003",
+        "TL-004",
+        "TL-027",
+        "TL-036"
+      ]
+    },
+    {
+      "id": "M1",
+      "title": "Import and compare",
+      "exit": "All six cases import losslessly and idempotently; 17 run records, 14 distinct inputs and 87 years by 73 metrics reconcile. Baseline/control comparisons and provenance inspection work.",
+      "focus_requirements": [
+        "TL-002",
+        "TL-019",
+        "TL-022",
+        "TL-025"
+      ]
+    },
+    {
+      "id": "M2",
+      "title": "Fork, estimate and rerun",
+      "exit": "One end-to-end parameter edit, one spending programme and one loan facility produce new immutable runs; dependencies, stale state, cancellation and accounting checks are demonstrated.",
+      "focus_requirements": [
+        "TL-005",
+        "TL-006",
+        "TL-007",
+        "TL-009",
+        "TL-010",
+        "TL-011",
+        "TL-012",
+        "TL-013",
+        "TL-014",
+        "TL-015",
+        "TL-016",
+        "TL-017",
+        "TL-018",
+        "TL-023",
+        "TL-024",
+        "TL-033",
+        "TL-035"
+      ]
+    },
+    {
+      "id": "M3",
+      "title": "Complete the first usable lab",
+      "exit": "Matched-shock and bounded-sweep experiments, explanations, export/reimport, restart recovery and usability/performance criteria pass. All R1 acceptance criteria have evidence or an explicitly approved scope revision.",
+      "focus_requirements": [
+        "TL-020",
+        "TL-021",
+        "TL-026",
+        "TL-028",
+        "TL-029",
+        "TL-030",
+        "TL-031",
+        "TL-032"
+      ]
+    },
+    {
+      "id": "M4",
+      "title": "Extend world modelling",
+      "exit": "Rebase/conflict workflows and a cross-module event demonstrate wider coverage using the same contracts.",
+      "focus_requirements": [
+        "TL-008",
+        "TL-034"
+      ]
+    }
+  ],
+  "numerical_tolerances": {
+    "status": "proposed",
+    "formula": "abs(actual - reference) <= max(absolute_tolerance, relative_tolerance * abs(reference))",
+    "monetary_observations_in_millions": {
+      "absolute_tolerance": 0.000001,
+      "relative_tolerance": 1e-9
+    },
+    "ratios_as_fractions": {
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 1e-9
+    },
+    "dates_identifiers_and_integer_counts": "exact",
+    "accounting_residuals": "Apply the same declared absolute floor and relative tolerance to the maximum absolute term in the identity, rather than to its near-zero residual.",
+    "override_policy": "Metric-specific exceptions must be documented, versioned and shown in the validation report; no widening after a failure without review.",
+    "other_numeric_kinds": "Each additional metric kind requires a declared tolerance and aggregation rule before it can pass regression."
+  },
+  "requirements": [
+    {
+      "id": "TL-001",
+      "epic": "Sources and identity",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Pin every experiment",
+      "statement": "An experiment shall pin its baseline, proposal sources, model, input data and engine versions; a new repository head shall never silently change an existing run.",
+      "acceptance": {
+        "id": "AC-001",
+        "given": "The six pilot bundles and a newer main commit",
+        "when": "An old experiment is reopened",
+        "then": [
+          "Its original hashes and results remain selected.",
+          "The newer baseline is offered as a separate version."
+        ]
+      },
+      "depends_on": [],
+      "sources": [
+        "U2",
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-002",
+      "epic": "Sources and identity",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Import the six bundles",
+      "statement": "The importer shall ingest pacifica.timeline-lab.scenario.v0.1 losslessly through a versioned adapter, preserving original bytes, run labels, unknown fields and provenance.",
+      "acceptance": {
+        "id": "AC-002",
+        "given": "The six files in fixture-manifest.json",
+        "when": "All files are imported twice",
+        "then": [
+          "Six scenario identities and 17 run records are available, with 14 distinct input hashes.",
+          "Reimport does not create duplicate identities or treat the three reused runs as independent evidence.",
+          "Unsupported schema majors fail with actionable diagnostics."
+        ]
+      },
+      "depends_on": [
+        "TL-001"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-003",
+      "epic": "Sources and identity",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Define quantities explicitly",
+      "statement": "Every plotted or calculated metric shall declare entity, geography, units, currency where applicable, price basis, temporal resolution, quantity kind (stock, flow, rate, ratio or index), aggregation rule and missing-value semantics.",
+      "acceptance": {
+        "id": "AC-003",
+        "given": "Nominal GDP, real GDP, debt and an unavailable North American GDP series",
+        "when": "They are selected for comparison",
+        "then": [
+          "The user sees period USD versus 1913 USD and stock versus flow.",
+          "Unavailable values remain null with reasons.",
+          "An unsupported geographic or price-basis conversion is blocked."
+        ]
+      },
+      "depends_on": [
+        "TL-002"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-004",
+      "epic": "Sources and identity",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Separate approval from calculation",
+      "statement": "The interface shall keep narrative authority, input evidence, execution state, accounting validation, funding feasibility and coverage separate.",
+      "acceptance": {
+        "id": "AC-004",
+        "given": "A calculated conditional draft with passing accounts",
+        "when": "Its summary is displayed",
+        "then": [
+          "It remains a draft with explicit conditions and MODEL quantities.",
+          "Passing accounts does not mark canon approved or political feasibility proven.",
+          "Imported canon_approved:null is treated as unassessed rather than true."
+        ]
+      },
+      "depends_on": [
+        "TL-002"
+      ],
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-005",
+      "epic": "Scenario authoring",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Fork without changing history",
+      "statement": "A user shall fork any scenario version, edit a draft and save a new immutable version with parentage and a semantic change summary.",
+      "acceptance": {
+        "id": "AC-005",
+        "given": "A saved D reference and a fork",
+        "when": "The fork is edited and run",
+        "then": [
+          "The parent and all historical results are unchanged.",
+          "The saved version records parent, author or source agent, change reason and creation time.",
+          "A later edit cannot relabel an older result as current."
+        ]
+      },
+      "depends_on": [
+        "TL-001"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-006",
+      "epic": "Scenario authoring",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Use dated semantic changes",
+      "statement": "Changes shall target stable event, entity, parameter or instrument IDs with explicit effective periods and set, add, remove, shift or replace operations; unsupported operations shall be identified before running.",
+      "acceptance": {
+        "id": "AC-006",
+        "given": "A borrowing-capacity change effective from 1928",
+        "when": "The overlay is compiled",
+        "then": [
+          "Years before 1928 retain the parent capacity.",
+          "The business-facing edit contains no worksheet coordinates.",
+          "The compiler reports its source mappings and unsupported effects.",
+          "Ambiguous overlapping edits in one version are rejected; an interactive conflict-resolution workflow can follow in R2."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-005"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-007",
+      "epic": "Scenario authoring",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Track dependencies",
+      "statement": "The system shall identify downstream schedules, claims, receipts, rights and outputs affected by a change and invalidate dependent results.",
+      "acceptance": {
+        "id": "AC-007",
+        "given": "A loan or concession-producing event is removed",
+        "when": "The change is previewed",
+        "then": [
+          "Repayments, interest, losses and related rights appear in the impact list.",
+          "Dependent outputs become stale until recomputed.",
+          "An unmapped material dependency yields blocked or explicitly partial coverage, never a silent inherited benefit."
+        ]
+      },
+      "depends_on": [
+        "TL-006"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-008",
+      "epic": "Scenario authoring",
+      "priority": "Should",
+      "release": "R2",
+      "title": "Review rebases and conflicts",
+      "statement": "Changing a parent version or combining overlays shall require explicit resolution of conflicting targets and dependent assumptions.",
+      "acceptance": {
+        "id": "AC-008",
+        "given": "Two overlays set the same field for overlapping years",
+        "when": "A combined version or rebase is prepared",
+        "then": [
+          "The conflict names the target, periods and competing values.",
+          "No implicit last-write-wins result is produced.",
+          "The old version and results remain recoverable."
+        ]
+      },
+      "depends_on": [
+        "TL-005",
+        "TL-006",
+        "TL-007"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-009",
+      "epic": "Scenario authoring",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Handle unresolved continuations",
+      "statement": "The system shall distinguish unestimated quantities from unresolved political branches and support named conditional continuations.",
+      "acceptance": {
+        "id": "AC-009",
+        "given": "CR-032C with its C0 completion condition",
+        "when": "A 1932 result is displayed or a new run is requested",
+        "then": [
+          "C0 is visible beside the result and in exports.",
+          "D's institutions are not inherited into C.",
+          "A required unresolved quantity blocks the affected computation or produces explicitly partial outputs; it is never filled with zero."
+        ]
+      },
+      "depends_on": [
+        "TL-004",
+        "TL-007"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-010",
+      "epic": "Scenario authoring",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Integrate the finance skill",
+      "statement": "The finance skill shall produce versioned quantity proposals containing units, dates, counterparties, source evidence, derivations, bounds and dependencies for application to a scenario draft.",
+      "acceptance": {
+        "id": "AC-010",
+        "given": "A new spending or loan programme needing quantities",
+        "when": "A skill proposal is imported",
+        "then": [
+          "The proposed quantities and derivations are inspectable and editable as a batch.",
+          "A validated proposal can be applied and run as MODEL assumptions without per-cell approval prompts.",
+          "The deterministic run does not call a language model to invent replacement values."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-006",
+        "TL-009"
+      ],
+      "sources": [
+        "U3",
+        "S4"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-011",
+      "epic": "Calculation",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Make runs reproducible",
+      "statement": "Run identity and caching shall depend on canonical resolved inputs, source hashes, model and engine versions, shock definition and any seed; results shall be immutable.",
+      "acceptance": {
+        "id": "AC-011",
+        "given": "An unchanged input set and engine, then one changed parameter",
+        "when": "Both are executed",
+        "then": [
+          "The unchanged run reproduces values within declared tolerances and may reuse its result.",
+          "The changed parameter creates a different calculation identity.",
+          "Execution timestamps and display labels cannot cause false cache hits or replace provenance."
+        ]
+      },
+      "depends_on": [
+        "TL-001",
+        "TL-006"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-012",
+      "epic": "Calculation",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Respect time and detect cycles",
+      "statement": "The engine shall evaluate dated dependencies in order and reject unconfigured same-period cycles; any iterative solver shall declare convergence criteria and failure behavior.",
+      "acceptance": {
+        "id": "AC-012",
+        "given": "A 1923 earthquake loan dependent on earlier accounts, and an artificial unresolved cycle",
+        "when": "Each is evaluated",
+        "then": [
+          "The dated loan is priced from valid upstream state without retaining cached downstream values.",
+          "The cycle yields a named dependency diagnostic rather than apparent success.",
+          "Every scenario and sensitivity preserves the parent before its declared divergence unless anticipation is explicitly modelled."
+        ]
+      },
+      "depends_on": [
+        "TL-007",
+        "TL-011"
+      ],
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-013",
+      "epic": "Calculation",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Control calculation jobs",
+      "statement": "Jobs shall have queued, running, succeeded, failed and cancelled states, bounded execution, progress updates and cancellation that protects user files and applications.",
+      "acceptance": {
+        "id": "AC-013",
+        "given": "A long run and an unavailable worker",
+        "when": "A user starts, inspects and cancels jobs",
+        "then": [
+          "A run is never shown as succeeded merely because it was submitted.",
+          "Cancellation or failure preserves the last complete result and logs the affected stage.",
+          "The local Excel adapter closes only its own unsaved instance and leaves the source workbook unchanged."
+        ]
+      },
+      "depends_on": [
+        "TL-011"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-014",
+      "epic": "Calculation",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Show fresh results accurately",
+      "statement": "Each view shall distinguish imported snapshots, newly calculated outputs, stale results, partial coverage and reused identical runs.",
+      "acceptance": {
+        "id": "AC-014",
+        "given": "A successful run followed by an unsaved input edit",
+        "when": "The user views its charts",
+        "then": [
+          "The previous charts remain available with the exact old version and a stale label.",
+          "The UI does not redraw an edited input as a recalculated outcome.",
+          "A failed run cannot inherit a prior green validation badge."
+        ]
+      },
+      "depends_on": [
+        "TL-004",
+        "TL-011",
+        "TL-013"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-015",
+      "epic": "Financial model",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Reconcile the accounts",
+      "statement": "Every completed financial run shall check budget, cash sources and uses, debt stocks, claims, interest, repayments, losses and borrower-lender schedules using declared tolerances.",
+      "acceptance": {
+        "id": "AC-015",
+        "given": "The pilot cases and deliberately corrupted cash, debt and loan fixtures",
+        "when": "Validation runs",
+        "then": [
+          "All uncorrupted identities meet their documented tolerances.",
+          "Each corruption reports the entity, metric, period, expected identity and residual.",
+          "A formula-error-free workbook alone is insufficient for success."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-012"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-016",
+      "epic": "Financial model",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Expose resource constraints",
+      "statement": "For every supported module, declared funding, FX, capital, personnel and transport constraints shall produce dated gaps and explicit responses; unsupported constraint dimensions shall be marked unmodelled, and residual borrowing shall not establish feasibility.",
+      "acceptance": {
+        "id": "AC-016",
+        "given": "A programme with a financing or transport shortfall",
+        "when": "The model is run",
+        "then": [
+          "The gap is visible at the correct entity and period.",
+          "Only a specified financing, delay or scaling rule resolves it.",
+          "A negative resource gap cannot be hidden by a generic passing accounting badge.",
+          "Coverage states which constraint dimensions are not yet modelled; passing checks cannot imply those dimensions are feasible."
+        ]
+      },
+      "depends_on": [
+        "TL-015"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-017",
+      "epic": "Financial model",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Preserve ownership and geography",
+      "statement": "The model shall distinguish sovereign, private and foreign ownership, domestic value added, partner output, legal jurisdiction and time-limited rights.",
+      "acceptance": {
+        "id": "AC-017",
+        "given": "Syndicated lending, Japanese production and an expired concession",
+        "when": "GDP, claims and receipts are computed",
+        "then": [
+          "Treasury claims include only the public lender share.",
+          "Partner output is not added to sovereign GDP.",
+          "An absent or expired concession produces no inherited rent or asset entitlement."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-007"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-018",
+      "epic": "Financial model",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Aggregate time correctly",
+      "statement": "Annual views shall sum flows, use declared stock endpoints, recompute ratios from compatible components and retain finer schedules where material.",
+      "acceptance": {
+        "id": "AC-018",
+        "given": "Monthly Japanese liquidity and annual Treasury accounts",
+        "when": "A yearly summary is generated",
+        "then": [
+          "Monthly drawings reconcile to annual drawings without summing stock balances.",
+          "Peak liquidity needs remain inspectable even if the annual balance is positive.",
+          "The reporting horizon and any unvalued terminal obligation are explicit."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-015"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-019",
+      "epic": "Experiments",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Compare like with like",
+      "statement": "Experiments shall support baseline, shared-change control and alternative comparisons, with a labelled native path and matched external-shock mode.",
+      "acceptance": {
+        "id": "AC-019",
+        "given": "Baseline, control and A-D",
+        "when": "A comparison is saved",
+        "then": [
+          "The reference, years, geography, units, model and shock definition are explicit.",
+          "Matched shocks hold the chosen external inputs constant while recalculating endogenous effects.",
+          "Incompatible models or definitions require a declared comparison mapping rather than an unlabelled overlay."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-011",
+        "TL-014"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-020",
+      "epic": "Experiments",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Run bounded sensitivities",
+      "statement": "The lab shall support named downside cases and finite parameter sweeps with stated bounds, run counts and resource estimates.",
+      "acceptance": {
+        "id": "AC-020",
+        "given": "An indemnity range and D's named downside cases",
+        "when": "The user creates a sensitivity experiment",
+        "then": [
+          "Each parameter setting is a reproducible run with an effective date.",
+          "Political branches, parameter ranges and structural limitations remain distinct.",
+          "Judgemental ranges are not labelled probabilities or confidence intervals.",
+          "The complete proposed run count is shown before submission, and the configured run budget cannot be exceeded silently."
+        ]
+      },
+      "depends_on": [
+        "TL-019",
+        "TL-013"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-021",
+      "epic": "Experiments",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Explain differences honestly",
+      "statement": "A result difference shall link to changed assumptions and dependent quantities; additive account decompositions shall reconcile, and causal contributions shall require a stated attribution method.",
+      "acceptance": {
+        "id": "AC-021",
+        "given": "A comparison differing in war, growth and credit assumptions",
+        "when": "A user selects Explain difference",
+        "then": [
+          "The changed input set and dependency path are shown.",
+          "A budget decomposition sums to its reported delta.",
+          "A total GDP difference is not attributed to a single event without controlled reruns or an explicit method."
+        ]
+      },
+      "depends_on": [
+        "TL-007",
+        "TL-019"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-022",
+      "epic": "Dashboard",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Compare the main trajectories",
+      "statement": "The dashboard shall compare up to six selected scenarios with synchronized year selection, levels, absolute differences and percentage differences.",
+      "acceptance": {
+        "id": "AC-022",
+        "given": "The six pilot cases",
+        "when": "A user selects GDP and Treasury and changes the reference",
+        "then": [
+          "Nominal and real GDP, revenue, expenditure, balance, debt, cash and reserves are available.",
+          "The table and charts use the same selections and values.",
+          "A zero reference gives an undefined percentage with an explanation."
+        ]
+      },
+      "depends_on": [
+        "TL-002",
+        "TL-003",
+        "TL-019"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-023",
+      "epic": "Dashboard",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Inspect the timeline",
+      "statement": "A timeline view shall show dated additions, removals, shifts, conditions and declared divergence points, linked to financial effects.",
+      "acceptance": {
+        "id": "AC-023",
+        "given": "The control and C/D forks",
+        "when": "A user inspects 1904, 1907, 1914 and 1927",
+        "then": [
+          "Shared changes and branch-specific changes are distinguishable.",
+          "Selecting an event exposes its source, condition, dates and effects.",
+          "Unsupported or unresolved effects are visible."
+        ]
+      },
+      "depends_on": [
+        "TL-006",
+        "TL-007",
+        "TL-009"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-024",
+      "epic": "Dashboard",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Edit supported quantities",
+      "statement": "The editor shall expose validated semantic fields, units, periods and ranges only for capabilities supported by the selected model version.",
+      "acceptance": {
+        "id": "AC-024",
+        "given": "A fork of A or D and a supported programme",
+        "when": "The user changes a quantity or effective year",
+        "then": [
+          "The editor shows changed values and affected outputs before running.",
+          "Invalid units, dates and incompatible event templates cannot be submitted as valid inputs.",
+          "Unsupported narrative changes lead to an impact and estimation task instead of a misleading slider."
+        ]
+      },
+      "depends_on": [
+        "TL-006",
+        "TL-010",
+        "TL-013"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-025",
+      "epic": "Dashboard",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Trace any displayed number",
+      "statement": "Each displayed quantity shall lead to its metric definition, scenario/run identity, formula or module, input assumptions and source references.",
+      "acceptance": {
+        "id": "AC-025",
+        "given": "A 1932 debt or GDP value",
+        "when": "The user opens its inspector",
+        "then": [
+          "The numeric value, units and provenance match the exported result.",
+          "Inherited and newly estimated inputs are distinguishable.",
+          "Spreadsheet cell mappings, where retained, appear in the technical inspector rather than the ordinary editing flow."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-011"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-026",
+      "epic": "Exchange",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Export a reproducible experiment",
+      "statement": "Users shall export a scenario bundle, experiment manifest, selected results and validation summary with enough input and engine references to replay the calculation.",
+      "acceptance": {
+        "id": "AC-026",
+        "given": "A saved experiment containing new forks",
+        "when": "It is exported and reimported into an empty catalog",
+        "then": [
+          "Identities, conditional labels, numbers and source hashes survive the round trip.",
+          "Exports declare unavailable external assets and worker requirements.",
+          "Chart or table exports include units, reference, period and MODEL status."
+        ]
+      },
+      "depends_on": [
+        "TL-002",
+        "TL-011",
+        "TL-019"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-027",
+      "epic": "Integrity",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Protect sources and validate execution inputs",
+      "statement": "Imports shall be treated as data; only registered model operations may execute, and source attachments shall remain immutable.",
+      "acceptance": {
+        "id": "AC-027",
+        "given": "A source workbook and a bundle containing an unexpected formula, path or script",
+        "when": "The bundle is imported or compiled",
+        "then": [
+          "The source hash remains unchanged.",
+          "Untrusted executable content is rejected or retained as inert provenance.",
+          "Excel execution accepts only a trusted, hash-pinned source and validated generated patches; arbitrary uploaded formulas are not evaluated."
+        ]
+      },
+      "depends_on": [
+        "TL-002",
+        "TL-006"
+      ],
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-028",
+      "epic": "Integrity",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Gate engine migration on fixtures",
+      "statement": "Replacing the Excel reference calculation shall require regression comparison over all declared outputs, independent accounting tests and a documented register of intentional corrections.",
+      "acceptance": {
+        "id": "AC-028",
+        "given": "The six frozen cases and a proposed replacement engine",
+        "when": "Migration is evaluated",
+        "then": [
+          "The baseline reference documents the existing 48,940-cell reconciliation.",
+          "All 87 annual periods and 73 pilot metrics are compared within declared tolerances.",
+          "Any intentional divergence is explained and versioned; fitting the baseline is not presented as historical validation."
+        ]
+      },
+      "depends_on": [
+        "TL-002",
+        "TL-015",
+        "TL-017"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-029",
+      "epic": "Operations",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Keep the initial lab private",
+      "statement": "The first release shall run for a single author in a local private workspace, with no automatic upload or publication of models and drafts.",
+      "acceptance": {
+        "id": "AC-029",
+        "given": "A local installation with imported private artifacts",
+        "when": "It starts or exports data",
+        "then": [
+          "The default API binds to loopback and cross-origin requests are restricted.",
+          "Using a browser does not require a public deployment.",
+          "Any later hosted/shared mode has an explicit access and storage design before release."
+        ]
+      },
+      "depends_on": [],
+      "sources": [
+        "U1",
+        "S1"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented",
+      "decision_dependencies": [
+        "D-002"
+      ]
+    },
+    {
+      "id": "TL-030",
+      "epic": "Operations",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Meet measured responsiveness targets",
+      "statement": "On a documented reference machine, first import of the 25.5 MB pilot set shall take at most 5 seconds at p95, cached view updates at most 250 ms at p95, and jobs shall report progress at least every 15 seconds.",
+      "acceptance": {
+        "id": "AC-030",
+        "given": "A release build, fixed pilot files and a declared hardware profile",
+        "when": "A benchmark of at least 20 measured trials after one warm-up is run",
+        "then": [
+          "Import and interaction latency are recorded separately from simulation time.",
+          "The UI remains usable while calculation runs.",
+          "The initial calculation target is 120 seconds per native reference case; a measured miss must be resolved or explicitly renegotiated before release."
+        ]
+      },
+      "depends_on": [
+        "TL-002",
+        "TL-013",
+        "TL-022"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented",
+      "decision_dependencies": [
+        "D-004"
+      ]
+    },
+    {
+      "id": "TL-031",
+      "epic": "Operations",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Make comparisons readable and accessible",
+      "statement": "Core flows shall work by keyboard, use visible focus and textual status, and provide tables and labels that do not rely on color alone.",
+      "acceptance": {
+        "id": "AC-031",
+        "given": "The six-case dashboard at 1280x800 and keyboard-only interaction",
+        "when": "The user changes scenario, metric, year and reference and opens a failure",
+        "then": [
+          "Every core action and error detail is reachable.",
+          "Legend labels and series styles remain distinguishable without color.",
+          "Charts have an equivalent readable data table."
+        ]
+      },
+      "depends_on": [
+        "TL-022",
+        "TL-024"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-032",
+      "epic": "Operations",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Recover without corrupting work",
+      "statement": "Draft saves and run publication shall be transactional; process interruption and concurrent tabs shall not overwrite newer versions or publish partial results.",
+      "acceptance": {
+        "id": "AC-032",
+        "given": "A draft and a calculation interrupted during saving, plus two editing tabs",
+        "when": "The application restarts or the second tab saves",
+        "then": [
+          "The last completed version and result remain readable.",
+          "An interrupted job is marked interrupted or failed with restart guidance.",
+          "A stale version produces a conflict rather than overwriting a newer draft."
+        ]
+      },
+      "depends_on": [
+        "TL-005",
+        "TL-013"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-033",
+      "epic": "Model architecture",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Register models and capabilities",
+      "statement": "Each model module shall declare versioned inputs, outputs, units, state transitions, dependencies, supported events, temporal resolution and validation checks.",
+      "acceptance": {
+        "id": "AC-033",
+        "given": "A new loan type or cost programme implemented against the module contract",
+        "when": "It is registered and run",
+        "then": [
+          "Its inputs enter through the schema and model registry rather than CR-number conditionals.",
+          "The editor shows only supported operations.",
+          "Its declared dependency and accounting checks run with the rest of the model."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-006",
+        "TL-012"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-034",
+      "epic": "Model architecture",
+      "priority": "Should",
+      "release": "R2",
+      "title": "Extend the world state",
+      "statement": "The same scenario and run contracts should accommodate demographic, industrial, trade, military-logistics and institutional modules beyond the pilot financial scope.",
+      "acceptance": {
+        "id": "AC-034",
+        "given": "An additional migration or production module with two entities and a capacity constraint",
+        "when": "A new event affects that module and finance",
+        "then": [
+          "Entity identities and time semantics are shared across modules.",
+          "The downstream budget and output effects use declared relationships and units.",
+          "Module coverage is explicit; absent full national accounts are not inferred."
+        ]
+      },
+      "depends_on": [
+        "TL-017",
+        "TL-018",
+        "TL-033"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-035",
+      "epic": "Financial model",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Evaluate policy limits with valid denominators",
+      "statement": "Targets shall specify geography, years, exceptions and numerator/denominator definitions; missing denominators shall produce unavailable checks.",
+      "acceptance": {
+        "id": "AC-035",
+        "given": "D's North American defence and debt targets, but only core Pacifica GDP is supplied",
+        "when": "The policy panel is opened",
+        "then": [
+          "The North American targets are unavailable with a reason.",
+          "Core-GDP proxy ratios are separately labelled.",
+          "A rule starting in 1928 cannot create a failure in 1862."
+        ]
+      },
+      "depends_on": [
+        "TL-003",
+        "TL-016"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    },
+    {
+      "id": "TL-036",
+      "epic": "Exchange",
+      "priority": "Must",
+      "release": "R1",
+      "title": "Version the data contract",
+      "statement": "The product shall define a machine-validated exchange schema, explicit migration rules and a portable result catalog independent of the Excel layout.",
+      "acceptance": {
+        "id": "AC-036",
+        "given": "A v0.1 pilot bundle, an upgraded bundle and an unknown future major",
+        "when": "They are imported and exported",
+        "then": [
+          "Supported migrations preserve original files and record the adapter version.",
+          "Unknown majors are rejected without changing the catalog.",
+          "The normalized contract represents entities, events, assumptions, instruments, shocks, runs, observations, checks and provenance without requiring a workbook cell address."
+        ]
+      },
+      "depends_on": [
+        "TL-002",
+        "TL-003",
+        "TL-026"
+      ],
+      "sources": [
+        "U1",
+        "U2",
+        "S3"
+      ],
+      "status": "proposed",
+      "verification_status": "not_implemented"
+    }
+  ]
+}
