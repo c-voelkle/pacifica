@@ -25,6 +25,8 @@ Actors pursue their own contemporary purposes. The author can evaluate a century
 
 ## Investigate and develop alternatives
 
+For a cross-text consistency question or a requested continuity audit, use [Aumakua](../aumakua/SKILL.md) to compare the prose and its governing records. Keep that audit's findings and coverage distinct from this power assessment; a validated graph can omit a contradictory passage.
+
 Prioritize questions that could reverse the recommendation. Use [Clio](../clio/SKILL.md) for bounded evidence research. At its research checkpoint, tell the author the question, available evidence, needed sources and decision consequence; invite titles or references. Continue independent work while dependent claims stay provisional. A source request is not a blanket approval gate.
 
 Develop materially distinct alternatives where useful: baseline, minimal clarification/repair and a substantive change. Identify additions, removals and affected later events; do not assume later authored successes remain unchanged after changing their prerequisites. Retain unsuccessful alternatives with reasons.

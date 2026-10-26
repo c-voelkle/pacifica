@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26",
+  "files": [
+    {
+      "file": "aumakua/agents/openai.yaml",
+      "sha256_raw_bytes": "9f7e56deb881ad6c6a966cdbc7a3cb18e5b486fe97ebb2d3c133e81386f0980c",
+      "installed_matches": true
+    },
+    {
+      "file": "aumakua/references/review-records.md",
+      "sha256_raw_bytes": "52e266fb882a26306743813c0bc53ef297721aeb0b44a5cf2a7358fc0e77d8dc",
+      "installed_matches": true
+    },
+    {
+      "file": "aumakua/SKILL.md",
+      "sha256_raw_bytes": "ca1c34255abe4c7a3f7ecb2d6d532ae3bb2c54decda1b288b699d2ff5703e5ab",
+      "installed_matches": true
+    },
+    {
+      "file": "aegis/SKILL.md",
+      "sha256_raw_bytes": "0554e986a44993a9c5f7a5510ff8a2aaa128811806d57e59233bdbaa874dcc95",
+      "installed_matches": true
+    }
+  ],
+  "aegis_backup": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\install-backup\\aegis\\SKILL.md",
+  "package_validation": "Aumakua and Aegis passed official quick_validate.py before installation",
+  "hash_basis": "SHA-256 of exact file bytes"
+}

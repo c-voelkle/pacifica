@@ -1,0 +1,218 @@
+{
+  "schema": "aumakua.independent-prose-audit-inputs.v1",
+  "review_date": "2026-10-26",
+  "created_utc": "2026-10-26T14:53:05.0407101Z",
+  "repository_root": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo",
+  "observed_git_head": "1bd0729d35b012eff1bf5f519e4f2e22c25c915d",
+  "hash_basis": "SHA-256 of exact raw file bytes using PowerShell Get-FileHash. No LF normalization, decoding/re-encoding, or whitespace normalization. Whole-file hashes identify the input snapshot; they do not imply whole-file reading.",
+  "requested_scope": "Aumakua audit of current master storyline sections 4-8 for internal and cross-document consistency; relevant current approval and character counterparts; no historical plausibility research.",
+  "independence": {
+    "prior_assessments_consulted": false,
+    "ontology_datasets_consulted": false,
+    "comparison_outputs_consulted": false,
+    "issue_registers_consulted": false,
+    "other_agents_outputs_consulted": false,
+    "raw_prose_sweep_before_counterpart_searches": true,
+    "note": "No intended findings were supplied. The input-manifest clarification from the parent concerned hash provenance only."
+  },
+  "authority_order": [
+    "Repository AGENTS.md",
+    "Current master storyline with current explicit author decisions in change_requests.json",
+    "Current character bible and stable-ID registry for character questions; later decisions override superseded entries; local proposal/open/model labels retained"
+  ],
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\AGENTS.md",
+      "kind": "governing_repository_instructions",
+      "sha256": "42dd5d8cbaa6edb545ad38392048f8dcbe4b131a413f3ce89d4225d96b39a101",
+      "byte_length": 10697,
+      "coverage": {
+        "directly_read": "Entire file",
+        "search_only": [],
+        "note": "Source authority and protected decisions followed."
+      }
+    },
+    {
+      "path": ".agents/skills/aumakua/SKILL.md",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\SKILL.md",
+      "kind": "skill_instructions",
+      "sha256": "ca1c34255abe4c7a3f7ecb2d6d532ae3bb2c54decda1b288b699d2ff5703e5ab",
+      "byte_length": 6483,
+      "coverage": {
+        "directly_read": "Entire file",
+        "search_only": [],
+        "note": "Actual skill applied in this audit."
+      }
+    },
+    {
+      "path": ".agents/skills/aumakua/references/review-records.md",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\references\\review-records.md",
+      "kind": "skill_reference",
+      "sha256": "52e266fb882a26306743813c0bc53ef297721aeb0b44a5cf2a7358fc0e77d8dc",
+      "byte_length": 2808,
+      "coverage": {
+        "directly_read": "Entire file",
+        "search_only": [],
+        "note": "Issue ledger, coverage and repeat-review fields used."
+      }
+    },
+    {
+      "path": "book-agent/revision/master_storyline.md",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\master_storyline.md",
+      "kind": "current_raw_canonical_prose",
+      "sha256": "4a91748487cfc35686b61e5967c2f193867444e9cb7d1ad745ac81981bf5a7e1",
+      "byte_length": 267236,
+      "coverage": {
+        "directly_read_line_ranges": [
+          [
+            1,
+            98
+          ],
+          [
+            99,
+            234
+          ],
+          [
+            249,
+            270
+          ],
+          [
+            883,
+            910
+          ]
+        ],
+        "requested_continuous_sweep": "Sections 4 through 8, lines 99-234 inclusive, completed; lines 141-185 reread after an initial combined output was truncated.",
+        "search_only": [
+          "Whole-file heading inventory",
+          "Council of State|assay office|five people|first fighting turret|armored warships|denomination|deathbed|telling her to marry"
+        ],
+        "note": "Search hits outside the listed continuous ranges are not full section coverage. The search also displayed line 448; no surrounding later section was reviewed."
+      }
+    },
+    {
+      "path": "book-agent/revision/change_requests.json",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\change_requests.json",
+      "kind": "current_approval_register",
+      "sha256": "36ca769ce67c1d43cf2dfaef171dc03a2ae8eac00692c867dfd1fc2cacf8a5fd",
+      "byte_length": 733875,
+      "coverage": {
+        "directly_read": "Metadata and first 80 raw lines; all request id/status/title fields; full selected objects CR-005, CR-007, CR-008, CR-009, CR-010, CR-011; requirements/open/integration for CR-013 and CR-014 in an object extraction; separately reread requirements/open/supersedes and property names for CR-021, CR-022, CR-027, CR-028.",
+        "partial_read": "Combined object extraction of CR-013, CR-014, CR-022, CR-027 and CR-028 exceeded output limits. Only visible source-excerpt portions were inspected; no full-excerpt or full-register audit is claimed. These excerpts duplicate current storyline prose and are not independent evidence.",
+        "exact_pointer_checks": [
+          "/requests/1/requirements/5",
+          "/requests/7/requirements/16",
+          "/requests/20/requirements/0",
+          "/requests/24/requirements/5",
+          "/requests/25/requirements/0",
+          "/requests/25/requirements/2"
+        ],
+        "note": "Requirements were treated with later approval precedence and local APPROVED/PROPOSED/OPEN/MODEL distinctions."
+      }
+    },
+    {
+      "path": "book-agent/revision/character_bible.md",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\character_bible.md",
+      "kind": "current_character_authority",
+      "sha256": "b70e2e524f8eb5a9b91ca20ed8f286f593020474952151ad8368deb96c6ea4c1",
+      "byte_length": 183369,
+      "coverage": {
+        "directly_read_line_ranges": [
+          [
+            1,
+            64
+          ],
+          [
+            113,
+            147
+          ],
+          [
+            243,
+            281
+          ],
+          [
+            381,
+            538
+          ]
+        ],
+        "partial_read": "An initial whole-file line search for headings and Elias/Abigail/Silas/Caleb/Marcus/Victoria/Ericsson/Logan/Manjiro/Hikozo/Hamada returned truncated output. The line ranges listed above were subsequently read in narrower excerpts; lines 381-429 were reread separately after another combined output was truncated.",
+        "search_only": [
+          "Whole-file heading inventory",
+          "Council of State|assay office|five people|first fighting turret|armored warships|denomination|deathbed|telling her to marry"
+        ],
+        "note": "The final targeted search also displayed line 679. Other search fragments and headings do not establish full dossier coverage. Later-period events present in the read profiles were not independently audited."
+      }
+    },
+    {
+      "path": "book-agent/revision/character_registry.json",
+      "absolute_path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\character_registry.json",
+      "kind": "current_stable_identity_registry",
+      "sha256": "62bdfac52a99a05733a017ed66d4549bcacbf925a8fadac65988af35f49eb043",
+      "byte_length": 278713,
+      "coverage": {
+        "directly_read": "First 45 raw lines, including metadata and the CT-ELIAS narrative profile; selected id/display_name/identity_state/narrative_profile/links fields for the identities listed below.",
+        "selected_people": [
+          "CT-PASTOR",
+          "CT-PASTOR-DAUGHTER",
+          "CT-PIO-PICO",
+          "CT-SONORAN-MINER",
+          "CT-MIWOK-GUIDE",
+          "CT-MANJIRO",
+          "CT-HECO",
+          "CT-NARIAKIRA",
+          "CT-ABE",
+          "CT-II"
+        ],
+        "note": "Registry narrative profiles often copy the character bible; agreement is not counted as independent corroboration. The entire registry was parsed for selection, not read as prose."
+      }
+    }
+  ],
+  "uninspected": [
+    "Prior assessments, ontology datasets, comparison outputs, issue registers and other agents outputs",
+    "Historical background and war-base assumptions",
+    "Financial workbook, ledger and numerical review outputs",
+    "Original manuscripts, original character profiles and legacy crosswalk",
+    "Generated approved-change index",
+    "Full external CR attachments and missing standalone author originals",
+    "Most later master storyline sections outside selected counterpart ranges",
+    "Most character dossiers and registry records outside selected ranges/identities"
+  ],
+  "source_availability_limit": "AGENTS.md and the current CR register identify missing standalone CR originals, including CR-022 and CR-028. No originals were reconstructed; the current marked requirements/excerpts were used.",
+  "checks_performed": [
+    "Continuous reading of master sections 4-8",
+    "Selected earlier and later counterpart reading",
+    "Targeted exact-term searches followed by local passage inspection",
+    "Current approval requirement/precedence checks",
+    "Selected stable-ID and narrative-profile comparisons",
+    "Knowledge-set minimum: four discoverers plus three informed leaders = at least seven",
+    "Treaty-duration check: 1848 + 12 = 1860",
+    "Read-only Git HEAD lookup",
+    "Raw-byte source hashing"
+  ],
+  "checks_not_performed": [
+    "Web research",
+    "Historical plausibility review",
+    "Ontology/graph/SHACL checks",
+    "Story synchronization",
+    "Character validator",
+    "Financial recalculation or workbook audit",
+    "Complete later-storyline or all-character audit"
+  ],
+  "tool_limitations": [
+    "Some broad combined outputs were truncated; narrower rereads and field selections supplied the cited evidence. Truncated output is not treated as complete coverage.",
+    "One read-only PowerShell JSON-pointer extraction initially failed to parse; the corrected extraction succeeded. No evidence relied on the failed command."
+  ],
+  "canonical_mutations": false,
+  "output_files": [
+    "review.md",
+    "input-manifest.json"
+  ],
+  "finding_counts": {
+    "contradiction_within_proposed_sequence": 1,
+    "integration_mismatch": 2,
+    "missing_bridge": 1,
+    "suspected_contradiction": 1,
+    "all_lifecycles": "Open",
+    "overall_consistency_score": null
+  }
+}

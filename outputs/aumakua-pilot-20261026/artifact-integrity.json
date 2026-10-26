@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-26",
+  "hash_basis": "SHA-256 of exact raw bytes; historical run paths retained in original manifests",
+  "source_manifest_entries_verified": [
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\AGENTS.md",
+      "sha256": "42dd5d8cbaa6edb545ad38392048f8dcbe4b131a413f3ce89d4225d96b39a101",
+      "matches_manifest": true
+    },
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\SKILL.md",
+      "sha256": "ca1c34255abe4c7a3f7ecb2d6d532ae3bb2c54decda1b288b699d2ff5703e5ab",
+      "matches_manifest": true
+    },
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\references\\review-records.md",
+      "sha256": "52e266fb882a26306743813c0bc53ef297721aeb0b44a5cf2a7358fc0e77d8dc",
+      "matches_manifest": true
+    },
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\master_storyline.md",
+      "sha256": "4a91748487cfc35686b61e5967c2f193867444e9cb7d1ad745ac81981bf5a7e1",
+      "matches_manifest": true
+    },
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\change_requests.json",
+      "sha256": "36ca769ce67c1d43cf2dfaef171dc03a2ae8eac00692c867dfd1fc2cacf8a5fd",
+      "matches_manifest": true
+    },
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\character_bible.md",
+      "sha256": "b70e2e524f8eb5a9b91ca20ed8f286f593020474952151ad8368deb96c6ea4c1",
+      "matches_manifest": true
+    },
+    {
+      "run": "actual",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\book-agent\\revision\\character_registry.json",
+      "sha256": "62bdfac52a99a05733a017ed66d4549bcacbf925a8fadac65988af35f49eb043",
+      "matches_manifest": true
+    },
+    {
+      "run": "synthetic",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\fixture\\story.md",
+      "sha256": "d66319f618254ba149ce2f504105d2759e2222508a34a176a351bec45c842d58",
+      "matches_manifest": true
+    },
+    {
+      "run": "synthetic",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\fixture\\records.md",
+      "sha256": "83f1da44c6a04be2c7042316ac9680bf807828dbc388b397f881151bfd4e943e",
+      "matches_manifest": true
+    },
+    {
+      "run": "synthetic",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\SKILL.md",
+      "sha256": "ca1c34255abe4c7a3f7ecb2d6d532ae3bb2c54decda1b288b699d2ff5703e5ab",
+      "matches_manifest": true
+    },
+    {
+      "run": "synthetic",
+      "source": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\references\\review-records.md",
+      "sha256": "52e266fb882a26306743813c0bc53ef297721aeb0b44a5cf2a7358fc0e77d8dc",
+      "matches_manifest": true
+    }
+  ],
+  "archived_copies_verified": [
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\actual\\review.md",
+      "archived_path": "actual/review.md",
+      "sha256": "0d4914cea7c988864155fcad6f80fe5b8e771b3b550016d0389efb7cf556e9fd",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\actual\\input-manifest.json",
+      "archived_path": "actual/input-manifest.json",
+      "sha256": "697d48951f3d546654323a9e166a2d0aa610d6adf776e23fb29c49405faf4556",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\synthetic\\review.md",
+      "archived_path": "synthetic/review.md",
+      "sha256": "19f6618358383f917a5223986dddfc142697ea01aa9132b0b55c4612b17c03c2",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\synthetic\\input-manifest.json",
+      "archived_path": "synthetic/input-manifest.json",
+      "sha256": "403886f005262e96de5d509dcb9fd5e0dcdf75fea4f9122327e0dd4d0e962ce3",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\fixture\\story.md",
+      "archived_path": "fixture/story.md",
+      "sha256": "d66319f618254ba149ce2f504105d2759e2222508a34a176a351bec45c842d58",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\fixture\\records.md",
+      "archived_path": "fixture/records.md",
+      "sha256": "83f1da44c6a04be2c7042316ac9680bf807828dbc388b397f881151bfd4e943e",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\answer-key.md",
+      "archived_path": "answer-key.md",
+      "sha256": "577d30d6109c9b665ab4953e7b9b1998c11bfabe8cfda303aaa8d50c9a1ab354",
+      "exact_copy": true
+    }
+  ],
+  "evaluated_skill_unchanged_after_tests": true,
+  "parent_results": {
+    "pacifica_withheld_questions_detected": 2,
+    "pacifica_withheld_questions_total": 2,
+    "synthetic_seeded_conflicts_detected": 6,
+    "synthetic_seeded_conflicts_total": 6,
+    "synthetic_compatible_controls_flagged_as_conflicts": 0,
+    "synthetic_compatible_controls_total": 8,
+    "general_performance_claim": false
+  }
+}

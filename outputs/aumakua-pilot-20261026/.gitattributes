@@ -1,0 +1,2 @@
+# Preserve exact archived evaluation inputs, outputs and hash manifests.
+* -text whitespace=cr-at-eol,-blank-at-eof
