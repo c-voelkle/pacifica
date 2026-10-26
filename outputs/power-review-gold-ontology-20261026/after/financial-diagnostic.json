@@ -1,0 +1,95 @@
+{
+  "method": "Decimal arithmetic from inherited JSON baseline_rows; no workbook access.",
+  "input_path": "docs/power-review/ontology/inputs/financial-analysis.json",
+  "input_sha256_exact_bytes": "4c4f4dae5f2ac7e30578f069cee81313261fd2f5388508745e8cc2de38d72676",
+  "scope": "California public royalty, 1849-1852 period USD millions; gross before further receipt adjustments.",
+  "output_musd": "237.0",
+  "baseline_5pct_90pct_gross_musd": "10.6650",
+  "sensitivity": [
+    {
+      "rate": "0.03",
+      "collection": "0.5",
+      "gross_musd": "3.5550",
+      "delta_musd": "-7.1100",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.03",
+      "collection": "0.7",
+      "gross_musd": "4.9770",
+      "delta_musd": "-5.6880",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.03",
+      "collection": "0.9",
+      "gross_musd": "6.3990",
+      "delta_musd": "-4.2660",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.03",
+      "collection": "1",
+      "gross_musd": "7.110",
+      "delta_musd": "-3.5550",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.05",
+      "collection": "0.5",
+      "gross_musd": "5.9250",
+      "delta_musd": "-4.7400",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.05",
+      "collection": "0.7",
+      "gross_musd": "8.2950",
+      "delta_musd": "-2.3700",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.05",
+      "collection": "0.9",
+      "gross_musd": "10.6650",
+      "delta_musd": "0.0000",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    },
+    {
+      "rate": "0.05",
+      "collection": "1",
+      "gross_musd": "11.850",
+      "delta_musd": "1.1850",
+      "net_musd": null,
+      "missing_reason": "Incremental collection costs and output/avoidance response unestimated."
+    }
+  ],
+  "ten_point_collection_gain_at_5pct_musd": "1.1850",
+  "required_collection_at_3pct_fixed_output": "1.5",
+  "output_multiplier_for_3pct_full_collection": "1.5",
+  "service_net_gain_condition": "For a collection rise from 0.9 to 1.0 at 5%, incremental 1849-1852 cost plus other losses must be less than $1.185m. No rise is predicted.",
+  "1848_excluded": "Specific adjustment and start timing differ; inherited after-adjustment value 0.11m is not independently replayed.",
+  "debt_analogue": "Inherited 5% coupon on proposed GBP3m gives GBP150000/year only as analogy, with no Pacifican due date or contract inferred.",
+  "endpoint_1932_power_delta": null,
+  "unmodeled": [
+    "Net policy receipts",
+    "Policy-to-collection response",
+    "Output and avoidance response",
+    "Subsequent investment path",
+    "Institutional transmission response",
+    "1932 power"
+  ],
+  "checks": {
+    "output_sum_237": true,
+    "baseline_replay_within_1e_12": true,
+    "full_collection_3pct_below_baseline": true,
+    "ten_point_gain_1_185": true
+  }
+}

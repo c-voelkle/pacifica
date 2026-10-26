@@ -1,0 +1,51 @@
+{
+  "review": "forward-gold-20261026",
+  "baseline_commit": "4ea16e3a739c807a5f20bbb8ffb98450b84215c7",
+  "source_origin": "Matched local storyline/approval/identity/history/finance notes and inherited dossier/JSON; no new external retrieval.",
+  "files": {
+    "book-agent/revision/master_storyline.md": {
+      "sha256": "8b5df6f2b8bc9e3256722f7cb592ae71aeefbe01f2b28458bf624dec48eacde1",
+      "hash_basis": "LFNormalizedText"
+    },
+    "book-agent/revision/change_requests.json": {
+      "sha256": "7899e29f81298663a6856dab24276445b773a20bdaaeb5db69906d9d424ad52b",
+      "hash_basis": "LFNormalizedText"
+    },
+    "book-agent/revision/character_registry.json": {
+      "sha256": "23bf3d9bc499bc7a337c5c03694664f2afb7552180c6bf5cb575ec3505c8dc2a",
+      "hash_basis": "LFNormalizedText"
+    },
+    "book-agent/revision/character_bible.md": {
+      "sha256": "6b36de1bc0728fd72fcfd9645b98a3cead3322a316a445955fa613115aac745a",
+      "hash_basis": "LFNormalizedText"
+    },
+    "book-agent/revision/historical_background.md": {
+      "sha256": "87ccd6ddb9b97cc7388f125db85d7dd5b3f6eb307661ae4f94b8357a91f0613d",
+      "hash_basis": "LFNormalizedText"
+    },
+    "finance/CR-031-review.md": {
+      "sha256": "ff91cdd07403b8e92b807f60db76db1dacb12e0838e00219e2c4efecdb5be5aa",
+      "hash_basis": "LFNormalizedText"
+    },
+    "finance/CR-027-handoff.md": {
+      "sha256": "bd1f8e1ef1e2cd745d9f66dd8cf48a06a7b7b111a33baac4ae20e715a95d863d",
+      "hash_basis": "LFNormalizedText"
+    },
+    "docs/power-review/ontology/inputs/evidence.md": {
+      "sha256": "07a3976122d7d48554d1e42df50999b176456e700998f6a34625e85abb6428da",
+      "hash_basis": "ExactBytes"
+    },
+    "docs/power-review/ontology/inputs/financial-analysis.json": {
+      "sha256": "4c4f4dae5f2ac7e30578f069cee81313261fd2f5388508745e8cc2de38d72676",
+      "hash_basis": "ExactBytes"
+    },
+    "outputs/power-review-gold-ontology-20261026/after/diagnostic.py": {
+      "sha256": "9efb997f1adbf29e28e0b3dd5109ee121c4c13500194c5b4fe91ddd5548674ef",
+      "hash_basis": "LFNormalizedText"
+    },
+    "outputs/power-review-gold-ontology-20261026/after/financial-diagnostic.json": {
+      "sha256": "cdd4e7b6e0625c11435f55e0a8db97a58fd8b4d97d60cf2361fc59b214f0b578",
+      "hash_basis": "LFNormalizedText"
+    }
+  }
+}

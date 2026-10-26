@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "SHA256",
+  "files": [
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\AGENTS.md",
+      "sha256": "eda6dfd276c9d9e48bebbd4f305c3b33190a0d6898a7c44f25e561c9d5f9bef4",
+      "hash_basis": "ExactBytes",
+      "byte_count": 776,
+      "coverage": "Read in full"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\baseline.md",
+      "sha256": "02dd10c8c9f0bf0f8d84f74f9091de4dd4a1c15eb494ea3745dfc465af406ea5",
+      "hash_basis": "ExactBytes",
+      "byte_count": 2206,
+      "coverage": "Read in full"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\notes.md",
+      "sha256": "bbb58dd6602084f9c9c3f306d1b368c68dff6c33f85dd551cb3fa69d92ae4b7a",
+      "hash_basis": "ExactBytes",
+      "byte_count": 1079,
+      "coverage": "Read in full"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\kalai\\SKILL.md",
+      "sha256": "3fc09f257d24e99594e5e13661bbb39fc0f7c75bafbc9a2cbbcb8ce2b9bad14a",
+      "hash_basis": "ExactBytes",
+      "byte_count": 5411,
+      "coverage": "Read in full"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\SKILL.md",
+      "sha256": "5f600cdb9f190e3fc216b7e017e14d621442c127ea97b4f53a02106ad29f4ae3",
+      "hash_basis": "ExactBytes",
+      "byte_count": 7185,
+      "coverage": "Read in full"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\imi\\SKILL.md",
+      "sha256": "d1c2697449dd9f784dc04808dc7afe0f65037d4a072c95fdbe760533867a9944",
+      "hash_basis": "ExactBytes",
+      "byte_count": 4963,
+      "coverage": "Read in full"
+    }
+  ],
+  "inline_instructions": [
+    {
+      "id": "fictional_user_request",
+      "source_text": "Move the Treaty of Two Ports signature from 31 July 1906 to 31 July 1908, still with ratification four months later. Keep Jani's birth date and the other selected premises. Write a complete revised synopsis as a standalone CR draft, including the chronological changes that makes necessary. Do not integrate it into canon yet.",
+      "sha256": "1b9b4fd2441a76ed958dc35935667ad060f6e77fe819ed841f7a4c656ac18fe7",
+      "hash_basis": "LFNormalizedText",
+      "normalization": "CRLF and CR converted to LF; UTF-8 without BOM; no added terminal newline",
+      "byte_count": 326
+    },
+    {
+      "id": "evaluation_task_and_scope",
+      "source_text": "Forward-test the new Kalai skill independently. Read C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\kalai\\SKILL.md. Raw fictional fixture directory: C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input. Read AGENTS.md, baseline.md and notes.md; the miniature's source scope supersedes actual Pacifica facts. User request: 'Move the Treaty of Two Ports signature from 31 July 1906 to 31 July 1908, still with ratification four months later. Keep Jani's birth date and the other selected premises. Write a complete revised synopsis as a standalone CR draft, including the chronological changes that makes necessary. Do not integrate it into canon yet.' Carry out this writing task. No external research, source/canon edits, installation, publication, messaging other chats or subdelegation. Do not read candidate.md, the parent answer key, other evaluations or prior conclusions. Do not invent author decisions to fill consequential gaps. Save draft.md containing the actual narrative draft and concise impact/decision notes, plus input-manifest.json with explicit raw-byte or LF-normalized SHA256 hashes of inputs/instructions used. Write only in C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\kalai. Intended outcomes are withheld; perform the realistic task.",
+      "sha256": "ce0bf9b6954a328b86def720e38204dbf7ab6f94384fef13b8b40ac096a1b8e0",
+      "hash_basis": "LFNormalizedText",
+      "normalization": "CRLF and CR converted to LF; UTF-8 without BOM; no added terminal newline",
+      "byte_count": 1491
+    },
+    {
+      "id": "project_AGENTS_instructions_supplied_in_conversation",
+      "source_text": "# ChatGPT project context\n\nThis directory is a local mirror of the ChatGPT project “pacifica”.\n\n- Treat every file under `sources/` as read-only reference material.\n- Do not edit, rename, move, or delete synced project files.\n- These files may be replaced the next time a task is created from this ChatGPT project.\n\n\n## Project instructions\n\nThis project has no custom instructions.",
+      "sha256": "0291dfa7dd3653fb7415989f1edfdba79a79bf2d6ae4db5e1cbf44d2ed4aa3fe",
+      "hash_basis": "LFNormalizedText",
+      "normalization": "CRLF and CR converted to LF; UTF-8 without BOM; no added terminal newline",
+      "byte_count": 386
+    },
+    {
+      "id": "manifest_format_clarification",
+      "source_text": "For provenance, please prefer input-manifest.json with a files array of {path: absolute path, sha256: hex, hash_basis: ExactBytes or LFNormalizedText}, covering every input and instruction file actually used. This is a record-format clarification, not a writing hint.",
+      "sha256": "d854e5396eda5bc97d2170c6abe831dfaa5a878b24d66cd1c6ef6ccec85e5873",
+      "hash_basis": "LFNormalizedText",
+      "normalization": "CRLF and CR converted to LF; UTF-8 without BOM; no added terminal newline",
+      "byte_count": 267
+    }
+  ],
+  "provenance_scope": "Task-specific source and instruction files actually used, plus the supplied task, project, and provenance instructions. Generic platform instructions are not reproduced.",
+  "excluded_inputs": "No candidate draft, parent answer key, other evaluation output, or prior review conclusion was read.",
+  "review_mode": "Writer self-review using the listed Aumakua and Imi instructions; no independent reviewer or subagent."
+}

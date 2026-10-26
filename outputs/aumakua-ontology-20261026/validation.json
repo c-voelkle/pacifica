@@ -1,0 +1,364 @@
+{
+  "summary": {
+    "conforms": true,
+    "local_inputs_verified": 13,
+    "quotations_verified": 11,
+    "audits": 1,
+    "findings": 5,
+    "coverage_records": 11,
+    "query_row_counts": {
+      "candidate-relational-disagreements": 0,
+      "candidate-quantity-differences": 0,
+      "finding-claim-links": 14,
+      "passage-coverage": 17,
+      "read-passages-without-claim-mapping": 10
+    },
+    "data_sha256_exact": {
+      "outputs\\aumakua-ontology-20261026\\audit.ttl": "684b67e4072c3b0f7fb969ddaecc80a13450009e0db58707585ef45e5febd4a0",
+      "outputs\\power-review-gold-ontology-20261026\\after\\review.ttl": "b6f22e160c991460e7829d84f062fb30ee3cf9b7850d871bd5a01aa8c41f2cd7"
+    },
+    "limit": "Candidate rows are suggestions; conformance is not consistency or coverage certification."
+  },
+  "views": {
+    "candidate-relational-disagreements": [],
+    "candidate-quantity-differences": [],
+    "finding-claim-links": [
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-001",
+        "classification": "urn:pacifica:vocab:consistency:IntegrationMismatch",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-left",
+        "locator": "line 125",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "linkNote": "C01 supplies proposed discovery context and C06 the 1852 administration context. Neither extracts the exact receiving-body/creation pair.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-001",
+        "classification": "urn:pacifica:vocab:consistency:IntegrationMismatch",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-left",
+        "locator": "line 125",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C06",
+        "linkNote": "C01 supplies proposed discovery context and C06 the 1852 administration context. Neither extracts the exact receiving-body/creation pair.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-001",
+        "classification": "urn:pacifica:vocab:consistency:IntegrationMismatch",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-right",
+        "locator": "line 183",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "linkNote": "C01 supplies proposed discovery context and C06 the 1852 administration context. Neither extracts the exact receiving-body/creation pair.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-001",
+        "classification": "urn:pacifica:vocab:consistency:IntegrationMismatch",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-right",
+        "locator": "line 183",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C06",
+        "linkNote": "C01 supplies proposed discovery context and C06 the 1852 administration context. Neither extracts the exact receiving-body/creation pair.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-002",
+        "classification": "urn:pacifica:vocab:consistency:Contradiction",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F002-left",
+        "locator": "line 117",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "linkNote": "C01 represents proposed discovery and secrecy, but contains no count or enumerated knowledge set.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-002",
+        "classification": "urn:pacifica:vocab:consistency:Contradiction",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F002-right",
+        "locator": "line 125",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "linkNote": "C01 represents proposed discovery and secrecy, but contains no count or enumerated knowledge set.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-003",
+        "classification": "urn:pacifica:vocab:consistency:IntegrationMismatch",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F003-left",
+        "locator": "line 145",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-003",
+        "classification": "urn:pacifica:vocab:consistency:IntegrationMismatch",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F003-right",
+        "locator": "line 73",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-004",
+        "classification": "urn:pacifica:vocab:consistency:MissingBridge",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F004-left",
+        "locator": "line 175",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-004",
+        "classification": "urn:pacifica:vocab:consistency:MissingBridge",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F004-right",
+        "locator": "line 213",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-005",
+        "classification": "urn:pacifica:vocab:consistency:SuspectedContradiction",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-left",
+        "locator": "line 125",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "linkNote": "C01 covers delayed public confirmation; C03 covers state receipts and mint context. Neither fully extracts assay-office identity and opening conditions.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-005",
+        "classification": "urn:pacifica:vocab:consistency:SuspectedContradiction",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-left",
+        "locator": "line 125",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C03",
+        "linkNote": "C01 covers delayed public confirmation; C03 covers state receipts and mint context. Neither fully extracts assay-office identity and opening conditions.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-005",
+        "classification": "urn:pacifica:vocab:consistency:SuspectedContradiction",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-right",
+        "locator": "line 131",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "linkNote": "C01 covers delayed public confirmation; C03 covers state receipts and mint context. Neither fully extracts assay-office identity and opening conditions.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      },
+      {
+        "finding": "urn:pacifica:consistency:aumakua-20261026:AUM-4-8-005",
+        "classification": "urn:pacifica:vocab:consistency:SuspectedContradiction",
+        "lifecycle": "urn:pacifica:vocab:consistency:Open",
+        "origin": "urn:pacifica:vocab:consistency:ProseFirst",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-right",
+        "locator": "line 131",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C03",
+        "linkNote": "C01 covers delayed public confirmation; C03 covers state receipts and mint context. Neither fully extracts assay-office identity and opening conditions.",
+        "gap": "The exact commitments producing this consistency issue are not fully represented in the selected power-review graph. Source-passage evidence remains primary."
+      }
+    ],
+    "passage-coverage": [
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-left",
+        "locator": "line 125",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-right",
+        "locator": "line 183",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F002-left",
+        "locator": "line 117",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F002-right",
+        "locator": "line 125",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F003-left",
+        "locator": "line 145",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F003-right",
+        "locator": "line 73",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F004-left",
+        "locator": "line 175",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F004-right",
+        "locator": "line 213",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-left",
+        "locator": "line 125",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-right",
+        "locator": "line 131",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C01",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C02",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C03",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C04",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C05",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C06",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:Sweep",
+        "locator": "sections 4–8, lines 99–234",
+        "mode": "urn:pacifica:vocab:consistency:DirectlyRead",
+        "claim": "urn:pacifica:review:forward-gold-20261026:C07",
+        "note": "Selected existing Claims extract some power propositions from this span, not all commitments. Fine-grained consistency evidence remains explicitly unmapped; original manifest records additional partial readings and exclusions."
+      }
+    ],
+    "read-passages-without-claim-mapping": [
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-left",
+        "locator": "line 125",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F001-right",
+        "locator": "line 183",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F002-left",
+        "locator": "line 117",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F002-right",
+        "locator": "line 125",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F003-left",
+        "locator": "line 145",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F003-right",
+        "locator": "line 73",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F004-left",
+        "locator": "line 175",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F004-right",
+        "locator": "line 213",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-left",
+        "locator": "line 125",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      },
+      {
+        "audit": "urn:pacifica:consistency:aumakua-20261026:Audit",
+        "passage": "urn:pacifica:consistency:aumakua-20261026:F005-right",
+        "locator": "line 131",
+        "note": "This exact conflicting commitment has no declared complete Claim mapping. Broader contextual claim links are recorded on the finding separately; they do not fill this extraction gap."
+      }
+    ]
+  }
+}

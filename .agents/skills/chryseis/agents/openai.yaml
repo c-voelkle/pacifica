@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chryseis"
+  short_description: "Calculate financial quantities for alternate timelines"
+  default_prompt: "Use $chryseis to estimate and calculate the quantities for these Pacifica drafts, compare them with the pinned baseline, and produce traceable inputs and financial results."

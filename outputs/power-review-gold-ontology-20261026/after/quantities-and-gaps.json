@@ -1,0 +1,92 @@
+[
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q01",
+    "case": "urn:pacifica:review:forward-gold-20261026:B",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "237.0",
+    "unit": "Period USD millions",
+    "accounting": "Aggregate production value; not public receipts",
+    "basis": "urn:pacifica:vocab:review:InheritedParameter"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q02",
+    "case": "urn:pacifica:review:forward-gold-20261026:B",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "10.665",
+    "unit": "Period USD millions",
+    "accounting": "Fixed output gross before costs and further receipt adjustments",
+    "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q03",
+    "case": "urn:pacifica:review:forward-gold-20261026:R",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "7.110",
+    "unit": "Period USD millions",
+    "accounting": "Fixed output gross at hypothetical 100% collection; no behavioral prediction",
+    "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q04",
+    "case": "urn:pacifica:review:forward-gold-20261026:R",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "-3.555",
+    "unit": "Period USD millions",
+    "accounting": "Delta versus 5% at 90%; before all collection costs",
+    "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q05",
+    "case": "urn:pacifica:review:forward-gold-20261026:S",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "1.185",
+    "unit": "Period USD millions",
+    "accounting": "Conditional extra gross from ten-point capture gain, not a forecast",
+    "basis": "urn:pacifica:vocab:review:ConditionalCalculation"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q06",
+    "case": "urn:pacifica:review:forward-gold-20261026:S",
+    "state": "urn:pacifica:vocab:review:Unmodeled",
+    "reason": "Service cost, capture gain and output/avoidance response unavailable; not zero.",
+    "unit": "Period USD millions",
+    "accounting": "Net policy difference including costs, leakage and output response",
+    "basis": "urn:pacifica:vocab:review:QuantitativeUnmodeled"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q07",
+    "case": "urn:pacifica:review:forward-gold-20261026:S",
+    "state": "urn:pacifica:vocab:review:Unmodeled",
+    "reason": "No intermediate investment, institutional or endpoint rerun; no numerical power inference.",
+    "unit": "Period USD millions",
+    "accounting": "Endpoint resource difference after obligations and transmission",
+    "basis": "urn:pacifica:vocab:review:QuantitativeUnmodeled"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q08",
+    "case": "urn:pacifica:review:forward-gold-20261026:R",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "1.5",
+    "unit": "Fraction of fixed taxable output",
+    "accounting": "Required fraction to match 5% times 90%; infeasible above one",
+    "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q09",
+    "case": "urn:pacifica:review:forward-gold-20261026:B",
+    "state": "urn:pacifica:vocab:review:Known",
+    "value": "165.620",
+    "unit": "Period USD millions",
+    "accounting": "Public drawing only; 600 commitment and private 331.241 distinct",
+    "basis": "urn:pacifica:vocab:review:InheritedResult"
+  },
+  {
+    "claim": "urn:pacifica:review:forward-gold-20261026:Q10",
+    "case": "urn:pacifica:review:forward-gold-20261026:AD",
+    "state": "urn:pacifica:vocab:review:Unmodeled",
+    "reason": "Candidate legal/political terms and financing shares unapproved; costs unprovided.",
+    "unit": "Period USD millions",
+    "accounting": "Negotiation, reporting, contingent claims and financing costs",
+    "basis": "urn:pacifica:vocab:review:QuantitativeUnmodeled"
+  }
+]

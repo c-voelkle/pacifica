@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-26",
+  "file_entries_verified": [
+    {
+      "role": "mahoe",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\AGENTS.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "ba5029c940d82f600bff32c0b55de1253c7f5651df75f8b234d122511cd61251",
+      "verified": true
+    },
+    {
+      "role": "mahoe",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\AGENTS.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "eda6dfd276c9d9e48bebbd4f305c3b33190a0d6898a7c44f25e561c9d5f9bef4",
+      "verified": true
+    },
+    {
+      "role": "mahoe",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\baseline.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "02dd10c8c9f0bf0f8d84f74f9091de4dd4a1c15eb494ea3745dfc465af406ea5",
+      "verified": true
+    },
+    {
+      "role": "mahoe",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\notes.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "bbb58dd6602084f9c9c3f306d1b368c68dff6c33f85dd551cb3fa69d92ae4b7a",
+      "verified": true
+    },
+    {
+      "role": "mahoe",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\mahoe\\SKILL.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "6c638945c7afa3c2c3cf8594749fbea7e01b592bafef361b125febd2f5618139",
+      "verified": true
+    },
+    {
+      "role": "mahoe",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aegis\\references\\success-contract.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "9f7436ab930d042571e5aa765efbb06378bc9b7a821e4ba95b8a722e192461da",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\AGENTS.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "eda6dfd276c9d9e48bebbd4f305c3b33190a0d6898a7c44f25e561c9d5f9bef4",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\baseline.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "02dd10c8c9f0bf0f8d84f74f9091de4dd4a1c15eb494ea3745dfc465af406ea5",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\notes.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "bbb58dd6602084f9c9c3f306d1b368c68dff6c33f85dd551cb3fa69d92ae4b7a",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\kalai\\SKILL.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "3fc09f257d24e99594e5e13661bbb39fc0f7c75bafbc9a2cbbcb8ce2b9bad14a",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\SKILL.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "5f600cdb9f190e3fc216b7e017e14d621442c127ea97b4f53a02106ad29f4ae3",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\imi\\SKILL.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "d1c2697449dd9f784dc04808dc7afe0f65037d4a072c95fdbe760533867a9944",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\AGENTS.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "ba5029c940d82f600bff32c0b55de1253c7f5651df75f8b234d122511cd61251",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\AGENTS.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "42dd5d8cbaa6edb545ad38392048f8dcbe4b131a413f3ce89d4225d96b39a101",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\imi\\SKILL.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "d1c2697449dd9f784dc04808dc7afe0f65037d4a072c95fdbe760533867a9944",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aegis\\references\\success-contract.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "9f7436ab930d042571e5aa765efbb06378bc9b7a821e4ba95b8a722e192461da",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\AGENTS.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "eda6dfd276c9d9e48bebbd4f305c3b33190a0d6898a7c44f25e561c9d5f9bef4",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\baseline.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "02dd10c8c9f0bf0f8d84f74f9091de4dd4a1c15eb494ea3745dfc465af406ea5",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\notes.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "bbb58dd6602084f9c9c3f306d1b368c68dff6c33f85dd551cb3fa69d92ae4b7a",
+      "verified": true
+    },
+    {
+      "role": "imi",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\candidate.md",
+      "hash_basis": "ExactBytes",
+      "sha256": "bb6a0ac4aa4b53299a5a5ba7de9f9f2bc26ebd407c6ca3c9d90b9d01452cff25",
+      "verified": true
+    }
+  ],
+  "inline_entries_verified": [
+    {
+      "role": "mahoe",
+      "name": "Supplied discussion request",
+      "sha256": "53b77723d29a65d8843109735d68e6d069c85b0f145cce31545d89c14865a502",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "name": "fictional_user_request",
+      "sha256": "1b9b4fd2441a76ed958dc35935667ad060f6e77fe819ed841f7a4c656ac18fe7",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "name": "evaluation_task_and_scope",
+      "sha256": "ce0bf9b6954a328b86def720e38204dbf7ab6f94384fef13b8b40ac096a1b8e0",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "name": "project_AGENTS_instructions_supplied_in_conversation",
+      "sha256": "0291dfa7dd3653fb7415989f1edfdba79a79bf2d6ae4db5e1cbf44d2ed4aa3fe",
+      "verified": true
+    },
+    {
+      "role": "kalai",
+      "name": "manifest_format_clarification",
+      "sha256": "d854e5396eda5bc97d2170c6abe831dfaa5a878b24d66cd1c6ef6ccec85e5873",
+      "verified": true
+    }
+  ],
+  "archived_copies": [
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\AGENTS.md",
+      "archived_path": "input/AGENTS.md",
+      "sha256_exact": "eda6dfd276c9d9e48bebbd4f305c3b33190a0d6898a7c44f25e561c9d5f9bef4",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\baseline.md",
+      "archived_path": "input/baseline.md",
+      "sha256_exact": "02dd10c8c9f0bf0f8d84f74f9091de4dd4a1c15eb494ea3745dfc465af406ea5",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\notes.md",
+      "archived_path": "input/notes.md",
+      "sha256_exact": "bbb58dd6602084f9c9c3f306d1b368c68dff6c33f85dd551cb3fa69d92ae4b7a",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\candidate.md",
+      "archived_path": "input/candidate.md",
+      "sha256_exact": "bb6a0ac4aa4b53299a5a5ba7de9f9f2bc26ebd407c6ca3c9d90b9d01452cff25",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\answer-key.md",
+      "archived_path": "answer-key.md",
+      "sha256_exact": "4fec4d343b1991ab9979c05ec6c1ee59804d2b35b06acb68b38a77ccbf052d05",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\mahoe\\response.md",
+      "archived_path": "mahoe/response.md",
+      "sha256_exact": "f0eaa5ea46ec89dff4e7eb32f6ef245e52acfcd80fa4615192ee60f419633a86",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\mahoe\\input-manifest.json",
+      "archived_path": "mahoe/input-manifest.json",
+      "sha256_exact": "aad9ba2a02aa84500c85dcf672149a07723cf5f8012897634c4cf993a011d443",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\kalai\\draft.md",
+      "archived_path": "kalai/draft.md",
+      "sha256_exact": "08dc06770af6e2a947f161795142c62b8c09438117a6a61be91ad65b9be0db4c",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\kalai\\input-manifest.json",
+      "archived_path": "kalai/input-manifest.json",
+      "sha256_exact": "66b92a15be0b424cddfd85bfb0eb9a0c1d712f4b0628af3be1afdf8f7bd8f4e1",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\imi\\review.md",
+      "archived_path": "imi/review.md",
+      "sha256_exact": "92bd5fb1cc6973e3770030f7c30212b9aeb333addb148de906a2cba07e0681a5",
+      "exact_copy": true
+    },
+    {
+      "original": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\imi\\input-manifest.json",
+      "archived_path": "imi/input-manifest.json",
+      "sha256_exact": "8376dee92f8931aef37e7e726fbd9847997550cb3be8ca875daeec5f52d268df",
+      "exact_copy": true
+    }
+  ],
+  "skill_instructions_changed_after_evaluation": false,
+  "interpretation": "Three independent role uses, manually reviewed against withheld criteria. No controlled accuracy estimate or autonomous full-cycle result."
+}

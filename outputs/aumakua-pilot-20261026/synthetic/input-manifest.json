@@ -1,0 +1,169 @@
+{
+  "schema": "aumakua-input-manifest-v1",
+  "audit_date": "2026-10-26",
+  "audit_name": "Independent fictional Harbor manuscript consistency audit",
+  "output_directory": "C:/Users/vcokl/.codex/.chatgpt-projects/g-p-6ad187c55c1c8191bc717ec380c516d9/outputs/aumakua-evaluation-20261026/synthetic",
+  "hash_algorithm": "SHA-256",
+  "hash_basis": "Raw file bytes, computed with PowerShell Get-FileHash -Algorithm SHA256; no newline, encoding, or Unicode normalization.",
+  "source_authority": "Both supplied fictional documents declare themselves current, equally authoritative and unsuperseded. No repair or new fact has been approved by this review.",
+  "audit_independence": {
+    "initial_pass": true,
+    "continuous_full_read_before_claim_comparison": true,
+    "prior_findings_consulted": false,
+    "answer_key_consulted": false,
+    "other_agent_outputs_consulted": false,
+    "external_research_performed": false,
+    "narrative_edits_performed": false
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\fixture\\story.md",
+      "bytes": 4481,
+      "sha256": "d66319f618254ba149ce2f504105d2759e2222508a34a176a351bec45c842d58",
+      "lines": 49,
+      "role": "current fictional synopsis",
+      "coverage": {
+        "mode": "directly_read_in_full",
+        "lines": {
+          "start": 1,
+          "end": 49
+        },
+        "sections": [
+          "Title and scope",
+          "A. The arrival, June 1904",
+          "B. The treasury speech, January 1905",
+          "C. A lawful dismissal, August 1905",
+          "D. The family supper, April 1906",
+          "E. The birthday, May 1906",
+          "F. The cipher, May 1906",
+          "G. The winter licenses, 1907",
+          "H. The cousins at the quay",
+          "I. Two councils",
+          "J. The unwritten treaty and the missing key"
+        ]
+      }
+    },
+    {
+      "source_id": "S2",
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\aumakua-evaluation-20261026\\fixture\\records.md",
+      "bytes": 3388,
+      "sha256": "83f1da44c6a04be2c7042316ac9680bf807828dbc388b397f881151bfd4e943e",
+      "lines": 37,
+      "role": "current author-approved fictional reference records",
+      "coverage": {
+        "mode": "directly_read_in_full",
+        "lines": {
+          "start": 1,
+          "end": 37
+        },
+        "sections": [
+          "Title and authority",
+          "1. People",
+          "2. Harbor law",
+          "3. Sailing record",
+          "4. Cipher receipt",
+          "5. Financial record",
+          "6. Institutional identities and open plot"
+        ]
+      }
+    }
+  ],
+  "instruction_sources": [
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\SKILL.md",
+      "bytes": 6483,
+      "sha256": "ca1c34255abe4c7a3f7ecb2d6d532ae3bb2c54decda1b288b699d2ff5703e5ab",
+      "lines": 49,
+      "role": "Aumakua skill instructions applied",
+      "coverage": {
+        "mode": "directly_read_in_full",
+        "lines": {
+          "start": 1,
+          "end": 49
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aumakua\\references\\review-records.md",
+      "bytes": 2808,
+      "sha256": "52e266fb882a26306743813c0bc53ef297721aeb0b44a5cf2a7358fc0e77d8dc",
+      "lines": 32,
+      "role": "Aumakua review-record reference applied",
+      "coverage": {
+        "mode": "directly_read_in_full",
+        "lines": {
+          "start": 1,
+          "end": 32
+        }
+      }
+    }
+  ],
+  "other_instructions": [
+    {
+      "source": "AGENTS.md instructions supplied in conversation",
+      "basis": "User-provided project instructions; no separate file read or hash asserted",
+      "requirement": "Treat sources/ as read-only; do not modify synced files."
+    },
+    {
+      "source": "Parent task instructions supplied in conversation",
+      "requirement": "Read only the two fixture documents as manuscript inputs; no answer key, prior reviews, other agent outputs, research, delegation, installation or publication; write only review.md and input-manifest.json in isolated synthetic output directory."
+    }
+  ],
+  "coverage_summary": {
+    "directly_read_input_files": 2,
+    "directly_read_input_lines": 86,
+    "searched_only_files": [],
+    "unread_outside_scope": [
+      "Answer key",
+      "Other reviews",
+      "Earlier assessments and issue lists",
+      "Other agents' outputs",
+      "Other manuscript or canon files",
+      "External sources"
+    ]
+  },
+  "checks_executed": [
+    "Continuous full-file read with line-number enumeration",
+    "Raw-byte SHA-256 source and skill hashing",
+    "Direct arithmetic of fund and exhibition figures",
+    "Direct arithmetic of exact-birthday age",
+    "UTC calendar-date arithmetic for voyage endpoints and minimum",
+    "Explicit time-overlap and membership-bound comparison"
+  ],
+  "calculations": {
+    "voyage_calendar_date_difference_days": 4,
+    "minimum_voyage_elapsed_days": 12,
+    "earliest_arrival_date_for_1_June_departure": "1904-06-13",
+    "unrestricted_closing_cash_million_crowns": 8,
+    "exhibition_net_million_crowns": 8,
+    "tavi_age_on_12_May_1906": 19,
+    "birth_year_for_24th_birthday_on_12_May_1906": 1882,
+    "cipher_known_people_lower_bound_at_noon_3_May_1906": 3,
+    "biological_children_of_each_shared_parent_lower_bound": 2
+  },
+  "limits": [
+    "Voyage calendar dates do not specify times of day; a four-day calendar-date difference is not an exact elapsed-hour measurement.",
+    "Knowledge and family counts are lower bounds derived from named distinct members, not an exhaustive invented census.",
+    "No ontology, graph, repository-wide audit or external feasibility check was performed.",
+    "The audit makes no consistency claim about material outside the two supplied manuscript inputs."
+  ],
+  "review_result": {
+    "confirmed_conflict_count": 6,
+    "confirmed_conflict_ids": [
+      "AUM-SYN-001",
+      "AUM-SYN-002",
+      "AUM-SYN-003",
+      "AUM-SYN-004",
+      "AUM-SYN-005",
+      "AUM-SYN-006"
+    ],
+    "all_lifecycle_statuses": "Open",
+    "repair_options_are_proposals": true,
+    "prior_issue_mapping": "Not applicable: independent initial audit with earlier findings withheld."
+  },
+  "outputs": [
+    "review.md",
+    "input-manifest.json"
+  ]
+}

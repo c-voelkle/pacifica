@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-26",
+  "skills": [
+    "mahoe",
+    "kalai",
+    "imi"
+  ],
+  "files": [
+    {
+      "file": "mahoe/agents/openai.yaml",
+      "sha256_exact": "a141964e6d63bd703f00ee74ea6ca503b664a6a62bbfea71736ce30eff40a2c6",
+      "sha256_lf": "7de0d08e0da51e6e2c37ecb7e18aaa22d666d8392f0a1c5e7169f614ff681361",
+      "installed_matches": true
+    },
+    {
+      "file": "mahoe/references/session-records.md",
+      "sha256_exact": "026807564f9319d5237cc8ea6a4bee03e3ef22b433773b1c73bbf40252b3f652",
+      "sha256_lf": "026807564f9319d5237cc8ea6a4bee03e3ef22b433773b1c73bbf40252b3f652",
+      "installed_matches": true
+    },
+    {
+      "file": "mahoe/SKILL.md",
+      "sha256_exact": "6c638945c7afa3c2c3cf8594749fbea7e01b592bafef361b125febd2f5618139",
+      "sha256_lf": "569971ae4331697db7079bda38dc1744d905f6e417efef16696b9756b6aefec8",
+      "installed_matches": true
+    },
+    {
+      "file": "kalai/agents/openai.yaml",
+      "sha256_exact": "0aedeb9d80a8bcb82e36811a142a1d1e151c9dbbea65543a19f6303c6805a5a8",
+      "sha256_lf": "724f63f5a48de1822ed8931a4459b959cd63c0be524952f774bb60c54190c6da",
+      "installed_matches": true
+    },
+    {
+      "file": "kalai/SKILL.md",
+      "sha256_exact": "3fc09f257d24e99594e5e13661bbb39fc0f7c75bafbc9a2cbbcb8ce2b9bad14a",
+      "sha256_lf": "bd9dca85a507c326058d5db5618926bc7808fbbb90afa6e30000f70cb8904315",
+      "installed_matches": true
+    },
+    {
+      "file": "imi/agents/openai.yaml",
+      "sha256_exact": "15f0521cea17df54c548f60699f50131268fd949e12b4d8acc4791516d9e560b",
+      "sha256_lf": "8da76724adc9c48f52be063264187fd9d4d7afd51c4af4173129b05ff7979e14",
+      "installed_matches": true
+    },
+    {
+      "file": "imi/SKILL.md",
+      "sha256_exact": "d1c2697449dd9f784dc04808dc7afe0f65037d4a072c95fdbe760533867a9944",
+      "sha256_lf": "95460930e36db28d4afa83a2e816288d1a2d77d9d5ea107aa19c23b431e7ff82",
+      "installed_matches": true
+    }
+  ],
+  "official_package_validation": "All three maintained packages passed quick_validate.py before installation; installed copies are validated afterward.",
+  "runtime_scope": "Skill instructions and UI metadata; no scheduler, external model integration or standalone orchestration engine is installed."
+}

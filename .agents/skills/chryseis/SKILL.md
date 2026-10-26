@@ -1,9 +1,11 @@
 ---
-name: pacifica-scenario-finance
+name: chryseis
 description: Estimate and calculate financial quantities for Pacifica change-request alternatives and Timeline Lab comparisons. Use for costing draft timelines, deriving GDP and treasury effects, building financing schedules, and comparing alternatives against a pinned baseline. Produces model estimates and results; does not approve narrative canon.
 ---
 
-# Pacifica Scenario Finance
+# Chryseis
+
+Renamed from Pacifica Scenario Finance. Retain its estimation methods, financial reference authority and reproducible calculations. When supporting [Aegis](../aegis/SKILL.md), read the supplied comparison and its [success contract](../aegis/references/success-contract.md). Calculate resources, burdens and conditional alternatives; Aegis assesses their transmission into Julian's power. Standalone financial tasks keep their requested objective.
 
 Turn a proposal into traceable numerical assumptions, dated schedules, and qualified comparisons. Calculate the requested quantities; do not stop at a list of inputs somebody else must supply.
 
@@ -45,7 +47,9 @@ Use common definitions and calculation versions across requested alternatives. W
 
 Separate parameter uncertainty, political branches, and structural limitations. Do not invent narrative probabilities or call judgemental ranges confidence intervals. Explain major drivers and interactions. Keep sovereign resources, foreign income, and partner/network output separate, with explicit treaty rights and territory.
 
-Use the implemented Lab format or [the provisional exchange contract](references/exchange-contract.md); do not imply an importer exists. Preserve the user's output format. Save authorized artifacts in a unique task-owned output directory, outside source references and the installed skill folder.
+Use the implemented Lab format or [the provisional exchange contract](references/exchange-contract.md); do not imply an importer exists. When supplying an Aegis review, also follow the shared [ontology workflow](../aegis/references/ontology-workflow.md). Emit QuantityClaims with the review's case/entity IDs, period, jurisdiction, units, stock/flow/rate/noncash meaning, gross/net basis, quantitative origin and located calculation provenance. Distinguish legal claims, commitments, drawings, collections and usable resources. Use a typed missing state and reason for unavailable outputs; a checked equation does not validate its parameters or quantify power.
+
+Return a mergeable Turtle fragment or the requested qualified records for Aegis to assemble. Preserve requested standalone financial output formats; ontology records complement the calculation package rather than replacing its schedules, formulas and checks. Save authorized artifacts in a unique task-owned output directory, outside source references and the installed skill folder.
 
 Deliver proportionately:
 

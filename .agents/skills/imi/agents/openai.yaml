@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imi"
+  short_description: "Review Pacifica character agency and narrative quality"
+  default_prompt: "Use $imi to review this Pacifica revision for character agency, motivation, dramatic consequences, voice and clarity while respecting its narrative form and authorial decisions."

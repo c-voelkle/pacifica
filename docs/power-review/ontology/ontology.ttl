@@ -1,0 +1,101 @@
+@prefix pc: <urn:pacifica:ontology:review:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+pc:Ontology a prov:Entity ; dct:title "Pacifica compact review ontology" ;
+    dct:hasVersion "0.1.0" ;
+    rdfs:comment "RDF 1.1 review representation. Claims describe propositions; they do not assert their embedded relationship as an unqualified world fact. No automatic causal or canonical-status inference is defined." .
+
+# Six core record families. QuantityClaim is a specialized Claim.
+pc:Entity a rdfs:Class ; rdfs:comment "A distinct referent, including a person, office, institution, resource, instrument or jurisdiction. Name equality never establishes identity." .
+pc:Claim a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "One dated, case-scoped proposition with independently recorded authorial status and claim basis." .
+pc:QuantityClaim a rdfs:Class ; rdfs:subClassOf pc:Claim ; rdfs:comment "A Claim whose known value is a typed numerical quantity, or whose unavailable value has a typed missingness reason." .
+pc:EvidenceApplication a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "An application of one located source passage to one claim or mechanism, with a stated relationship and applicability boundary. Provenance is not evidential endorsement." .
+pc:MechanismLink a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A qualified explanatory link between claims. Enables is neither requires nor proof of marginal causation. A missing mechanism is a review gap, not evidence of impossibility." .
+pc:ComparisonCase a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A pinned baseline or declared alternative. Exposition changes cannot by themselves establish changed world outcomes." .
+pc:Judgment a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A conditional or unconditional comparison on a named outcome dimension, with declared material dependencies. Dependency completeness remains a reviewer responsibility." .
+
+# Supporting provenance records, not additional world-state machinery.
+pc:SourceDocument a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A versioned local document or a remote source described by the dossier. Retrieval status distinguishes direct retrieval in this package from a prior analyst's report." .
+pc:SourcePassage a rdfs:Class ; rdfs:subClassOf prov:Entity ; rdfs:comment "A locator within a specific source document revision. A locator is not a declaration that a historical source applies to fictional conditions." .
+
+pc:entityKind a rdf:Property ; rdfs:comment "Entity-kind concept. Persons, offices and institutions remain distinct." .
+pc:registryId a rdf:Property ; rdfs:comment "Existing character-registry identity, never a newly inferred identity." .
+pc:subject a rdf:Property ; rdfs:comment "The bound subject of a Claim." .
+pc:predicate a rdf:Property ; rdfs:comment "The relationship described by a Claim. Its appearance as an object does not assert that relationship directly." .
+pc:object a rdf:Property ; rdfs:comment "A bound entity object. A known relational assertion also has truthValue; an unknown relation may retain the object without asserting its truth. Mutually exclusive with numericValue." .
+pc:truthValue a rdf:Property ; rdfs:comment "A known relational assertion's Boolean value. False is a supplied value, never missingness. Unknown relational claims may retain their bound object without a truthValue." .
+pc:numericValue a rdf:Property ; rdfs:comment "A known decimal value. Zero is permitted only as a known value, never as missingness." .
+pc:valueState a rdf:Property ; rdfs:comment "Known, unknown, disputed, unmodeled, not applicable or explicitly absent. Omission is never false or zero." .
+pc:missingReason a rdf:Property ; rdfs:comment "Required explanation when a claim value is unavailable or not applicable." .
+pc:case a rdf:Property ; rdfs:comment "The fictional comparison case whose proposition or link is being described." .
+pc:period a rdf:Property ; rdfs:comment "Human-readable target interval, preserving date precision. Year bounds are inclusive coverage bounds, not exact legal commencement or expiry timestamps." .
+pc:startYear a rdf:Property ; rdfs:comment "Earliest covered year, inclusive; not an invented exact date." .
+pc:endYear a rdf:Property ; rdfs:comment "Latest covered year, inclusive; not an exact expiry date." .
+pc:jurisdiction a rdf:Property ; rdfs:comment "Territorial or institutional scope, not a sovereignty inference." .
+pc:authorialStatus a rdf:Property ; rdfs:comment "Local source qualification. Unspecified retains unlabelled wording without promoting it to approval; NotApplicable is used for analyst-only assertions." .
+pc:claimBasis a rdf:Property ; rdfs:comment "How the proposition entered this review, separate from its authorial status." .
+pc:actingThrough a rdf:Property ; rdfs:comment "Office or institution through which an actor is said to act; it does not itself prove authority or compliance." .
+pc:controlInstrument a rdf:Property ; rdfs:comment "The identified instrument securing the specified action." .
+pc:instrumentGap a rdf:Property ; rdfs:comment "An explicit unresolved instrument question, mutually exclusive with controlInstrument." .
+pc:conditions a rdf:Property ; rdfs:comment "Prerequisites or limits, including explicit unknowns." .
+pc:refusalTerms a rdf:Property ; rdfs:comment "Who may refuse, and on what terms, or the specific unanswered question." .
+pc:expiryTerms a rdf:Property ; rdfs:comment "Expiry or renewal boundary, or an explicit unanswered question." .
+pc:burdens a rdf:Property ; rdfs:comment "Costs, claims or obligations associated with a resource or mechanism, including explicit unknowns." .
+pc:quantityKind a rdf:Property ; rdfs:comment "Stock, flow, rate or noncash accounting entry." .
+pc:unit a rdf:Property ; rdfs:comment "Unit including currency and price basis where applicable." .
+pc:accountingBasis a rdf:Property ; rdfs:comment "Gross/net and other accounting qualifications; annual flow and multi-year aggregate remain distinguishable." .
+pc:quantitativeBasis a rdf:Property ; rdfs:comment "Inherited assumption/model, conditional calculation, independently checked calculation or unmodeled. Arithmetic checks do not validate parameters." .
+pc:sourcePassage a rdf:Property ; rdfs:comment "The located passage used by an EvidenceApplication." .
+pc:target a rdf:Property ; rdfs:comment "The specific claim or mechanism to which evidence is applied." .
+pc:evidenceRelation a rdf:Property ; rdfs:comment "Supports, challenges, analogous or unavailable; never an automatic truth assignment." .
+pc:historicalSupport a rdf:Property ; rdfs:comment "Historical applicability assessment, independent of authorial or narrative status." .
+pc:applicability a rdf:Property ; rdfs:comment "What the passage can and cannot establish in this application." .
+pc:independenceGroup a rdf:Property ; rdfs:comment "Known common underlying evidence. Absence of this annotation does not establish independence." .
+pc:fromClaim a rdf:Property ; rdfs:comment "An input proposition in a MechanismLink." .
+pc:toClaim a rdf:Property ; rdfs:comment "An output proposition in a MechanismLink." .
+pc:relationKind a rdf:Property ; rdfs:comment "Typed explanatory relationship. These relations are not declared transitive." .
+pc:stage a rdf:Property ; rdfs:comment "Creation, preservation, transmission, exercise or accumulation." .
+pc:explanation a rdf:Property ; rdfs:comment "The mechanism or the bounded reason it is unresolved." .
+pc:narrativeSupport a rdf:Property ; rdfs:comment "Explained, asserted, missing or contradicted in the narrative; independent of historical applicability." .
+pc:dependsOn a rdf:Property ; rdfs:comment "A declared material dependency. Dependency traversal does not prove causation or completeness." .
+pc:baselineCase a rdf:Property ; rdfs:comment "Parent baseline for an alternative." .
+pc:sourceRevision a rdf:Property ; rdfs:comment "Pinned source commit or retained revision identifier." .
+pc:interventionKind a rdf:Property ; rdfs:comment "Baseline, exposition-only change or world change." .
+pc:changeDescription a rdf:Property ; rdfs:comment "The precise candidate change, not an approved narrative edit." .
+pc:earliestDivergence a rdf:Property ; rdfs:comment "Earliest affected point at source-supported precision; exposition changes have no world divergence." .
+pc:heldAssumptions a rdf:Property ; rdfs:comment "Shared external assumptions and limitations of the comparison." .
+pc:downstreamStatus a rdf:Property ; rdfs:comment "Whether later outcomes have been rerun, retained as baseline only, or left unassessed." .
+pc:endpointYear a rdf:Property ; rdfs:comment "Assessment endpoint; it is never an imposed outcome." .
+pc:comparesCase a rdf:Property ; rdfs:comment "The candidate case assessed by a Judgment." .
+pc:againstCase a rdf:Property ; rdfs:comment "The comparator case assessed by a Judgment." .
+pc:verdict a rdf:Property ; rdfs:comment "Improves, weakens, mixed or unresolved." .
+pc:verdictBasis a rdf:Property ; rdfs:comment "World power, explanatory support or a bounded fiscal diagnostic." .
+pc:targetDimension a rdf:Property ; rdfs:comment "Mobilizable resources, implementation, leverage, freedom to act, explanatory support or gross fiscal receipts. No automatic aggregate power score exists." .
+pc:conditional a rdf:Property ; rdfs:comment "Whether the stated result depends on unresolved conditions." .
+pc:sensitivity a rdf:Property ; rdfs:comment "The fact, assumption or actor response that could reverse the judgment." .
+pc:documentPath a rdf:Property ; rdfs:comment "Repository-relative local path; source documents are immutable inputs." .
+pc:sha256 a rdf:Property ; rdfs:comment "SHA-256 under the declared hashBasis, checked against the local file." .
+pc:hashBasis a rdf:Property ; rdfs:comment "Exact bytes for bundled inputs; UTF-8 text with CRLF normalized to LF for repository source text, portable across Git checkout settings." .
+pc:sourceURL a rdf:Property ; rdfs:comment "Original remote source or immutable repository URL." .
+pc:sourceKind a rdf:Property ; rdfs:comment "Narrative, registry, review, calculation or historical evidence document." .
+pc:retrievalStatus a rdf:Property ; rdfs:comment "Local pinned bytes, a prior dossier's reported retrieval, or an unretrieved lead. This package performs no new historical retrieval." .
+pc:locator a rdf:Property ; rdfs:comment "Page, section, lines or JSON key within a source revision." .
+
+# World predicates appear only as Claim values in this profile.
+pc:owns a rdf:Property ; rdfs:comment "Holds title to an identified asset; entails neither cash availability nor command." .
+pc:holdsOffice a rdf:Property ; rdfs:comment "Occupies a specified office in the stated period; entails no power outside that office." .
+pc:hasAuthorityOver a rdf:Property ; rdfs:comment "Has legal permission over a named action or institution; entails no practical compliance." .
+pc:canMobilize a rdf:Property ; rdfs:comment "Can obtain specified resources for a specified use under stated conditions; does not require personal ownership." .
+pc:cooperatesWith a rdf:Property ; rdfs:comment "Participates conditionally while retaining independent interests; not subordination." .
+pc:owes a rdf:Property ; rdfs:comment "Bears an obligation to the named beneficiary; not a cash disbursement by itself." .
+pc:receives a rdf:Property ; rdfs:comment "Receives the specified resource in the stated accounting period." .
+pc:hasClaimOn a rdf:Property ; rdfs:comment "Holds an entitlement or legal claim on a resource; does not establish payment, collection, cash availability or command." .
+pc:establishes a rdf:Property ; rdfs:comment "Creates an organization or arrangement; does not establish its later effectiveness." .
+pc:expires a rdf:Property ; rdfs:comment "A named instrument or authority ceases under its stated terms." .
+pc:haltsNewIssues a rdf:Property ; rdfs:comment "Obtains a halt to named new financing issues; does not confiscate outstanding private claims." .
+pc:commands a rdf:Property ; rdfs:comment "Can direct specified operations within a stated command arrangement, scope and term." .
+pc:retains a rdf:Property ; rdfs:comment "Continues to hold an identified claim, capability or independence." .
+pc:measures a rdf:Property ; rdfs:comment "Reports a scoped quantity or unavailable quantitative result, not an unqualified power measure." .

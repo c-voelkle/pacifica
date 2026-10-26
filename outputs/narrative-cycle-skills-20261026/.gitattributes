@@ -1,0 +1,2 @@
+# Preserve exact evaluation input/output bytes and recorded raw-byte checksums.
+* -text whitespace=cr-at-eol,-blank-at-eof

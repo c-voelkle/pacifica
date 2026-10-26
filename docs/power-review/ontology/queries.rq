@@ -1,0 +1,52 @@
+# Multiple SELECT queries, separated by '# query: NAME'. validate.py runs each.
+# query: unresolved-links
+PREFIX pc: <urn:pacifica:ontology:review:>
+PREFIX v: <urn:pacifica:vocab:review:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?link ?label ?status ?explanation WHERE {
+  ?link a pc:MechanismLink ; rdfs:label ?label ;
+        pc:narrativeSupport ?status ; pc:explanation ?explanation .
+  VALUES ?status { v:Asserted v:Missing v:Contradicted }
+} ORDER BY ?link
+
+# query: control-boundaries
+PREFIX pc: <urn:pacifica:ontology:review:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?claim ?actor ?predicate ?object ?status ?actingThrough ?instrument ?gap ?refusal ?expiry WHERE {
+  ?claim a pc:Claim ; pc:subject ?actor ; pc:predicate ?predicate ;
+         pc:authorialStatus ?status ; pc:actingThrough ?actingThrough ;
+         pc:refusalTerms ?refusal ; pc:expiryTerms ?expiry .
+  VALUES ?predicate { pc:hasAuthorityOver pc:canMobilize pc:haltsNewIssues pc:commands }
+  OPTIONAL { ?claim pc:object ?object }
+  OPTIONAL { ?claim pc:controlInstrument ?instrument }
+  OPTIONAL { ?claim pc:instrumentGap ?gap }
+} ORDER BY ?claim
+
+# query: provisional-dependencies
+PREFIX pc: <urn:pacifica:ontology:review:>
+PREFIX v: <urn:pacifica:vocab:review:>
+SELECT DISTINCT ?judgment ?dependency ?status WHERE {
+  ?judgment a pc:Judgment ; pc:dependsOn/(pc:dependsOn|pc:fromClaim|pc:toClaim)* ?dependency .
+  { ?dependency pc:authorialStatus ?status . VALUES ?status { v:Proposed v:Open } }
+  UNION { ?dependency pc:valueState ?status . VALUES ?status { v:Unknown v:Disputed v:Unmodeled } }
+  UNION { ?dependency pc:narrativeSupport ?status . VALUES ?status { v:Asserted v:Missing v:Contradicted } }
+} ORDER BY ?judgment ?dependency ?status
+
+# query: quantities-and-gaps
+PREFIX pc: <urn:pacifica:ontology:review:>
+SELECT ?claim ?case ?state ?value ?reason ?unit ?accounting ?basis WHERE {
+  ?claim a pc:QuantityClaim ; pc:case ?case ; pc:valueState ?state ;
+         pc:unit ?unit ; pc:accountingBasis ?accounting ; pc:quantitativeBasis ?basis .
+  OPTIONAL { ?claim pc:numericValue ?value }
+  OPTIONAL { ?claim pc:missingReason ?reason }
+} ORDER BY ?claim
+
+# query: evidence-boundaries
+PREFIX pc: <urn:pacifica:ontology:review:>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?application ?target ?relation ?historicalSupport ?locator ?retrieval ?boundary WHERE {
+  ?application a pc:EvidenceApplication ; pc:target ?target ;
+      pc:evidenceRelation ?relation ; pc:historicalSupport ?historicalSupport ;
+      pc:applicability ?boundary ; pc:sourcePassage ?passage .
+  ?passage pc:locator ?locator ; prov:specializationOf/pc:retrievalStatus ?retrieval .
+} ORDER BY ?application

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clio"
+  short_description: "Research evidence for Pacifica's historical mechanisms"
+  default_prompt: "Use $clio to investigate these Pacifica questions, verify the evidence and identify consequential source gaps for the author."

@@ -1,0 +1,50 @@
+[
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L01",
+    "label": "Discovery to fiscal organization",
+    "status": "urn:pacifica:vocab:review:Asserted",
+    "explanation": "Secrecy buys proposed diplomatic/administrative time; it does not show how dispersed gold is captured."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L02",
+    "label": "Entitlement to actual receipt",
+    "status": "urn:pacifica:vocab:review:Missing",
+    "explanation": "Mint and trade choke points plus useful coinage are named; capture fraction, enforcement coverage, leakage, timing and costs are not explained. Pledged receipts are not free cash."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L09",
+    "label": "Accession does not fully explain crisis compliance",
+    "status": "urn:pacifica:vocab:review:Missing",
+    "explanation": "Shared legitimacy and appointments can secure dependable cooperation, but no detailed instruction/refusal procedure covers a ruler threatening charter safeguards. Ownership of Crown shares is not ownership of estate resources."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L10",
+    "label": "Mixed wartime lending to new-issue halt",
+    "status": "urn:pacifica:vocab:review:Asserted",
+    "explanation": "Narrative states Julian stops private syndicate new issues. Treasury future lending is separable; the private coordination instrument is unspecified."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L15",
+    "label": "Reserve support to Union bargaining",
+    "status": "urn:pacifica:vocab:review:Asserted",
+    "explanation": "Rescue helps obtain proposed association; Union chooses stability and privileges while remaining sovereign. Detailed acceptance mechanisms stay proposed; Reserve Bank assets are not Julian private wealth."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L30",
+    "label": "Staged service to greater declared collection",
+    "status": "urn:pacifica:vocab:review:Missing",
+    "explanation": "Settlement usefulness is a historical analogy, not an estimated capture response; processing and remittance stages require capacity and cost."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L31",
+    "label": "Gross collection room to spendable service gain",
+    "status": "urn:pacifica:vocab:review:Missing",
+    "explanation": "No unconditional net gain or endpoint conclusion follows until costs, output and institutional transmission are supplied."
+  },
+  {
+    "link": "urn:pacifica:review:forward-gold-20261026:L33",
+    "label": "New bargain to negotiated crisis action",
+    "status": "urn:pacifica:vocab:review:Missing",
+    "explanation": "Scope, assent, sanctions, financing and expiry require a new author decision and counterpart acceptance; no claim of current canonical existence."
+  }
+]
