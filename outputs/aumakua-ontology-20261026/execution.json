@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-26",
+  "purpose": "Retrospective integration of saved prose-first findings; no new blind detection trial.",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "rdflib": "7.6.0",
+    "pyshacl": "0.40.1"
+  },
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "docs/power-review/ontology/consistency/validate_consistency.py",
+    "--data",
+    "outputs/aumakua-ontology-20261026/audit.ttl",
+    "--data",
+    "outputs/power-review-gold-ontology-20261026/after/review.ttl",
+    "--manifest",
+    "outputs/aumakua-ontology-20261026/input-manifest.json",
+    "--repository",
+    "."
+  ],
+  "returncode": 0,
+  "skill_profile_sha256_lf_text": {
+    ".agents/skills/aumakua/agents/openai.yaml": "1f8edf0c335220ae916b00b1752e387ed8508a2f52fd906eee36aa6515956c2d",
+    ".agents/skills/aumakua/references/ontology-workflow.md": "5fcb583227f6fc72098396de87af0582f3cef778b3bd5fbc15dc61702239c67d",
+    ".agents/skills/aumakua/references/review-records.md": "dd60946abe75b6ce800e37c26563992cb13ae23d43f4c689134c02d47a1058f9",
+    ".agents/skills/aumakua/SKILL.md": "940459c30badd8c902206a9325d5ea2ff691ca1df86ffdec6e7daeb90225b2cf",
+    "docs/power-review/ontology/consistency/ontology.ttl": "f4da518e41476c89190747a67a3dcb833d0a57f9f2a4bd5754be3306caac6f05",
+    "docs/power-review/ontology/consistency/queries.rq": "873f879d7d3c3369d8129814125873aa159d68a2a50d04e11830d46d89a91693",
+    "docs/power-review/ontology/consistency/README.md": "c86938f717efbf8b590b043bdbfd523b796aa044926f5cf565c6ee22257db1cb",
+    "docs/power-review/ontology/consistency/shapes.ttl": "76bfd3b2cc1d19c5268242396261455f9264bffe40e0749f7939416fd913dacd",
+    "docs/power-review/ontology/consistency/validate_consistency.py": "6f5ad7218062f365acfd83750ed780034d734b866b19d7ee27cdba6fd2a8e11d",
+    "docs/power-review/ontology/ontology.ttl": "f40434ce6454cfd87e0603990f7685d0f8eb4f145d34f858f4019e98bdb94b9e",
+    "docs/power-review/ontology/vocabularies.ttl": "1c6378c196c35623ed7bf35428952bc1f80ed6c5169353552c204e09d379ba08",
+    "docs/power-review/ontology/shapes.ttl": "1debbf114abeb1ee1d17537debf6cbba5b740d03d1f0d4919242370de135f466",
+    "docs/power-review/ontology/validate.py": "f3799cdcee2439152151a7084e6cb073206c511729e5fae99b70a6ddabb90ed5",
+    "docs/power-review/ontology/test_consistency.py": "c1420af7dccdf06652e62c5a87a66c528f8a3009437b909188be9f287d072088"
+  },
+  "output_sha256_exact": {
+    "audit.ttl": "684b67e4072c3b0f7fb969ddaecc80a13450009e0db58707585ef45e5febd4a0",
+    "input-manifest.json": "b758e413c021234a0f623772ad77f4996f95562230b458bab90f9b38ea4fef25",
+    "validation.json": "1ff81e903064f233cedf82c4aadb17871968273fb7128217a31c2e1cd61b3cb8",
+    "validation-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests.txt": "0334c760691d420822e63bf0857d2f81b6002df70fa99f659cd340b5587662b8"
+  },
+  "summary": {
+    "conforms": true,
+    "local_inputs_verified": 13,
+    "quotations_verified": 11,
+    "audits": 1,
+    "findings": 5,
+    "coverage_records": 11,
+    "query_row_counts": {
+      "candidate-relational-disagreements": 0,
+      "candidate-quantity-differences": 0,
+      "finding-claim-links": 14,
+      "passage-coverage": 17,
+      "read-passages-without-claim-mapping": 10
+    },
+    "data_sha256_exact": {
+      "outputs\\aumakua-ontology-20261026\\audit.ttl": "684b67e4072c3b0f7fb969ddaecc80a13450009e0db58707585ef45e5febd4a0",
+      "outputs\\power-review-gold-ontology-20261026\\after\\review.ttl": "b6f22e160c991460e7829d84f062fb30ee3cf9b7850d871bd5a01aa8c41f2cd7"
+    },
+    "limit": "Candidate rows are suggestions; conformance is not consistency or coverage certification."
+  },
+  "separate_test_run": {
+    "command": "python -X utf8 -m unittest discover -s docs/power-review/ontology -p 'test_*.py' -v",
+    "result": "35 tests passed: 20 existing and 15 consistency tests.",
+    "log": "tests.txt",
+    "note": "Executed separately before this validation command; this script does not rerun tests."
+  }
+}

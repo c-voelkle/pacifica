@@ -24,6 +24,8 @@ For each material issue record:
 | Consequence | What continuity or reader understanding is affected; distinguish certainty from importance. |
 | Repair options | Smallest alternatives and affected passages; mark proposals and unresolved author choices. |
 | Prior issue mapping | Earlier IDs and disposition, when a prior review exists. |
+| Ontology trace | Finding IRI, paired SourcePassage IRIs, relevant existing Claim IDs with bounded relevance, and missing extraction. For ontology-assisted audits read [ontology-workflow.md](ontology-workflow.md). |
+| Detection origin | Prose first, graph suggested, or prior-issue reconciliation. Preserve the frozen prose-first record. |
 
 Use “not reproduced” when the current pass cannot substantiate the earlier issue; explain why. Use “resolved” only with evidence showing how both sides now agree or why the earlier comparison had the wrong scope. A presumed off-page event is not resolution.
 

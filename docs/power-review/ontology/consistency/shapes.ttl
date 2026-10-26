@@ -1,0 +1,55 @@
+@prefix ac: <urn:pacifica:ontology:consistency:> .
+@prefix cv: <urn:pacifica:vocab:consistency:> .
+@prefix pc: <urn:pacifica:ontology:review:> .
+@prefix v: <urn:pacifica:vocab:review:> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ac:RecordShape a sh:NodeShape ; sh:targetClass ac:Audit, ac:Finding, ac:CoverageRecord ; sh:nodeKind sh:IRI ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] .
+ac:AuditShape a sh:NodeShape ; sh:targetClass ac:Audit ;
+    sh:property [ sh:path pc:sourceRevision ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:coverageNote ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:independenceNote ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:proseSnapshot ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:SourceDocument ; sh:node [ sh:property [ sh:path pc:retrievalStatus ; sh:hasValue v:LocalPinned ] ] ] ;
+    sh:property [ sh:path ac:inspectedGraph ; sh:class pc:SourceDocument ; sh:node [ sh:property [ sh:path pc:retrievalStatus ; sh:hasValue v:LocalPinned ] ] ] .
+ac:FindingShape a sh:NodeShape ; sh:targetClass ac:Finding ;
+    sh:property [ sh:path ac:audit ; sh:minCount 1 ; sh:maxCount 1 ; sh:class ac:Audit ] ;
+    sh:property [ sh:path ac:classification ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue cv:Classification ] ] ] ;
+    sh:property [ sh:path ac:lifecycle ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue cv:Lifecycle ] ] ] ;
+    sh:property [ sh:path ac:detectionBasis ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue cv:DetectionBasis ] ] ] ;
+    sh:property [ sh:path ac:passage ; sh:minCount 2 ; sh:class pc:SourcePassage ] ;
+    sh:property [ sh:path ac:normalizedScope ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:reasoning ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:alternativeReading ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:relatedClaim ; sh:class pc:Claim ] ;
+    sh:property [ sh:path ac:claimGap ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:claimLinkNote ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:repairOption ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path ac:previousFinding ; sh:nodeKind sh:IRI ] ;
+    sh:property [ sh:path ac:resolutionEvidence ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:or ( [ sh:property [ sh:path ac:relatedClaim ; sh:minCount 1 ] ; sh:property [ sh:path ac:claimLinkNote ; sh:minCount 1 ] ] [ sh:property [ sh:path ac:claimGap ; sh:minCount 1 ] ; sh:property [ sh:path ac:relatedClaim ; sh:maxCount 0 ] ] ) ;
+    sh:or ( [ sh:property [ sh:path ac:lifecycle ; sh:not [ sh:hasValue cv:Resolved ] ] ] [ sh:property [ sh:path ac:resolutionEvidence ; sh:minCount 1 ] ] ) ;
+    sh:sparql [ sh:message "Each finding passage needs directly-read coverage in the same audit." ; sh:select """
+        PREFIX ac: <urn:pacifica:ontology:consistency:>
+        PREFIX cv: <urn:pacifica:vocab:consistency:>
+        SELECT $this WHERE {
+          $this ac:audit ?audit ; ac:passage ?passage .
+          FILTER NOT EXISTS { ?coverage a ac:CoverageRecord ; ac:audit ?audit ; ac:coveredPassage ?passage ; ac:readingMode cv:DirectlyRead }
+        }
+    """ ] .
+ac:QuotedPassageShape a sh:NodeShape ; sh:targetObjectsOf ac:passage ; sh:class pc:SourcePassage ;
+    sh:property [ sh:path ac:quotation ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path prov:specializationOf ; sh:node [ sh:property [ sh:path pc:retrievalStatus ; sh:hasValue v:LocalPinned ] ] ] ;
+    sh:property [ sh:path ac:startLine ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ; sh:lessThanOrEquals ac:endLine ] ;
+    sh:property [ sh:path ac:endLine ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ] ;
+    sh:or ( [ sh:property [ sh:path ac:startLine ; sh:maxCount 0 ] ; sh:property [ sh:path ac:endLine ; sh:maxCount 0 ] ] [ sh:property [ sh:path ac:startLine ; sh:minCount 1 ] ; sh:property [ sh:path ac:endLine ; sh:minCount 1 ] ] ) .
+ac:CoverageShape a sh:NodeShape ; sh:targetClass ac:CoverageRecord ;
+    sh:property [ sh:path ac:audit ; sh:minCount 1 ; sh:maxCount 1 ; sh:class ac:Audit ] ;
+    sh:property [ sh:path ac:coveredPassage ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:SourcePassage ] ;
+    sh:property [ sh:path ac:readingMode ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue cv:ReadingMode ] ] ] ;
+    sh:property [ sh:path ac:mappedClaim ; sh:class pc:Claim ] ;
+    sh:property [ sh:path ac:extractionNote ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] .

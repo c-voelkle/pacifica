@@ -15,6 +15,7 @@ This profile makes a bounded power review inspectable across claims, evidence, i
 | `queries.rq` | Five named SELECT queries for unresolved links, control, dependencies, quantities and evidence |
 | `inputs/` | Three original pilot documents and a checksum manifest |
 | `validate.py`, `test_ontology.py` | Offline integrity, validation, queries and behavioral counterexamples |
+| `consistency/`, `test_consistency.py` | Additive Aumakua findings, passage/claim coverage, quotation checks and conservative comparison suggestions |
 
 From the repository root, using Python 3.12:
 
@@ -44,6 +45,8 @@ The custom-data command is an example for a review you have authored. Each `--da
 | Judgment | A comparison with a named outcome dimension, verdict, sensitivity and material dependencies |
 
 QuantityClaim specializes Claim. SourceDocument and SourcePassage support provenance. Namespace IRIs use `urn:pacifica:ontology:review:`, `urn:pacifica:vocab:review:` and `urn:pacifica:review:gold-20261026:`. They do not require an online resolver. Characters reuse `urn:pacifica:character:CT-…` and the existing registry IDs; an Entity is not a SKOS concept.
+
+The separately loaded [consistency profile](consistency/README.md) adds Aumakua audit, finding and coverage records under `urn:pacifica:ontology:consistency:` and `urn:pacifica:vocab:consistency:`. It reuses these source/claim identities without changing their meanings or forcing textual issues into power Claims. Its validator requires explicit audit data and an input manifest; the core validator alone does not validate the extension.
 
 `pc:subject`, `pc:predicate` and `pc:object` describe a proposition; they do not assert the embedded world triple. A known relational assertion additionally supplies `pc:truthValue true` or `false`. An unknown relation may retain its bound object but has a reason and no truth value. A QuantityClaim instead supplies a decimal value, or a missingness state and reason. Zero, false, unknown, disputed, unmodeled, not applicable and explicitly absent remain distinct.
 

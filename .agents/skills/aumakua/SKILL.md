@@ -42,7 +42,9 @@ For multi-section audits and comparisons, use [references/review-records.md](ref
 
 ## Tools and handoffs
 
-Use the compact ontology, identity registry and mechanical checkers as aids when they exist. Read raw prose before interpreting their output. Schema conformance and a graph with no conflicting assertions do not establish textual consistency; extraction can omit the conflicting passage. The ontology is optional for an ordinary Aumakua review. Do not force a consistency issue into a power-claim category or extend the shared schema merely to complete the audit.
+For a substantial audit in a repository with the compact ontology, use [references/ontology-workflow.md](references/ontology-workflow.md) after the independent prose sweep. Freeze the prose-first findings, then run the consistency profile's suggestion queries on explicitly selected, pinned graphs. Inspect the source context for each candidate; distinguish prose-first findings, graph-suggested additions and prior-issue reconciliation. Graph rows never automatically become contradictions.
+
+Save a linked audit graph with paired quoted SourcePassages, classifications, lifecycle, scope, relevant existing Claim IDs and explicit extraction gaps. Record passage coverage and mappings without forcing consistency issues into power Claims. Execute the profile's validation, quote checks and query views; reconcile the graph and readable ledger. A clean graph cannot establish that extraction captured every conflict. A narrow question may remain a prose answer. If the maintained profile or required runtime is unavailable, continue the supported prose audit and disclose the unavailable integration instead of claiming validation or inventing a substitute schema.
 
 Consult Clio when resolving the issue requires external historical evidence, Chryseis for consequential financial calculations, and Aegis for the effect of a proposed repair on effective power. Keep unresolved internal conflicts visible while those questions are investigated. Use those skills only when their work is needed by the request.
 
