@@ -1,0 +1,167 @@
+# Pacifica canon facts — single source of truth for dates, ages and identities
+#
+# `lint_canon.py` checks the storyline, character bible, registry, AGENTS.md
+# and any draft you pass it against these facts. When the author approves a
+# change to a date here, edit it here first: the linter then lists every
+# passage that still states the old value.
+#
+# Only record facts the current canon approves (cite the CR in `source`).
+# Approximate dates ("c.1860") use `approx = true` and get a wider tolerance.
+# `aliases` are the names prose uses for the person; the first is the label
+# used in reports. Keep aliases specific: a bare "Silas" would match two people.
+
+# ---------------------------------------------------------------------------
+# People
+# ---------------------------------------------------------------------------
+
+[[person]]
+id = "CT-ELIAS"
+aliases = ["Elias Thorne", "Elias", "the founder"]
+born = 1824
+born_approx = true
+died = 1887
+died_month = "August"
+source = "character_bible.md CT-ELIAS; AGENTS.md"
+
+[[person]]
+id = "CT-KAIULANI"
+aliases = ["Victoria Kamāmalu", "Victoria", "the Regent"]
+born = 1838
+source = "character_bible.md CT-KAIULANI (1 November 1838)"
+
+[[person]]
+id = "CT-JULIAN-MOTHER"
+aliases = ["Noe Ward", "Kaʻanoe Ward", "Kaʻanoe", "Noe"]
+born = 1860
+born_approx = true
+died = 1888
+died_season = "autumn"
+source = "CR-021 F1; character_bible.md CT-JULIAN-MOTHER"
+
+[[person]]
+id = "CT-JULIAN"
+aliases = ["Julian Thorne", "Julian"]
+born = 1886
+source = "CR-021 F1; character_bible.md CT-JULIAN"
+
+[[person]]
+id = "CT-SOBERANES"
+aliases = ["Rafael Soberanes", "Soberanes"]
+born = 1847
+source = "character_bible.md CT-SOBERANES"
+
+[[person]]
+id = "CT-SILAS-CLAIMANT"
+aliases = ["Silas Pruett", "Silas Thorne"]
+born = 1851
+source = "character_bible.md CT-SILAS-CLAIMANT (late 1851)"
+
+[[person]]
+id = "CT-FONG"
+aliases = ["Edmund Fong", "Fong Kai-ming"]
+born = 1859
+source = "character_bible.md CT-FONG"
+
+[[person]]
+id = "CT-KEAWE"
+aliases = ["Keawe Kahananui", "Keawe"]
+born = 1895
+source = "character_bible.md CT-KEAWE"
+
+[[person]]
+id = "CT-ERICSSON"
+aliases = ["John Ericsson", "Ericsson"]
+born = 1803
+source = "character_bible.md CT-ERICSSON"
+
+[[person]]
+id = "CT-LOGAN-TURNER"
+aliases = ["Logan Turner"]
+born = 1839
+born_approx = true
+source = "character_bible.md CT-LOGAN-TURNER (approximately 1838–1840)"
+
+# ---------------------------------------------------------------------------
+# Dated events
+# Each pattern is a regular expression with a named group `year`; every match
+# in canon or a draft must state `year`. Write patterns tight enough that they
+# only match statements of this event.
+# ---------------------------------------------------------------------------
+
+[[event]]
+id = "noe-typhoid-death"
+year_from = "CT-JULIAN-MOTHER.died"   # follows Noe's entry above: change the date there
+patterns = ['dies (?:in |during )?(?:the )?(?:(?:spring|summer|autumn|fall|winter) (?:of )?)?(?P<year>1[89]\d\d) during (?:a|the) typhoid', 'typhoid (?:outbreak|epidemic) of (?P<year>1[89]\d\d)', '(?P<year>1[89]\d\d) typhoid (?:outbreak|death|epidemic)']
+source = "CR-021 F1"
+
+[[event]]
+id = "hanai-adoption"
+year = 1886
+patterns = ['(?P<year>1[89]\d\d) hānai (?:bargain|adoption)', 'hānai (?:bargain|adoption) (?:is made |was made )?in (?P<year>1[89]\d\d)', 'adopted hānai in (?P<year>1[89]\d\d)']
+source = "AGENTS.md; CR-021 F1"
+
+[[event]]
+id = "victoria-queen"
+year = 1872
+patterns = ['Queen of Hawaii from (?:[A-Z][a-z]+ )?(?P<year>1[89]\d\d)']
+source = "AGENTS.md"
+
+[[event]]
+id = "victoria-regent"
+year = 1887
+patterns = ['Regent of (?:Pacifica|the Realm) from (?:[A-Z][a-z]+ )?(?P<year>1[89]\d\d)', 'becomes [Rr]egent in (?P<year>1[89]\d\d)']
+source = "AGENTS.md"
+
+[[event]]
+id = "julian-accession"
+year = 1915
+patterns = ['Julian accedes (?:to [^.;]{0,30} )?in (?P<year>1[89]\d\d)', '''Julian(?:'s|’s) accession in (?P<year>1[89]\d\d)''']
+source = "AGENTS.md"
+
+[[event]]
+id = "office-public-measures"
+year = 1888
+patterns = ['Office of Public Measures,? (?:is )?(?:established|founded|created) in (?P<year>1[89]\d\d)']
+source = "master_storyline.md §21"
+
+[[event]]
+id = "hollerith-tabulation"
+year = 1888
+patterns = ['(?:tabulate|tabulates|tabulating|tabulation of)[^.;]{0,40}registers,? (?:from|in|beginning in|starting in) (?P<year>1[89]\d\d)', 'registers (?:are )?tabulated (?:from|in) (?P<year>1[89]\d\d)']
+source = "master_storyline.md §24; character_bible.md CT-HOLLERITH (PROPOSED — CR-027)"
+
+[[event]]
+id = "donner-standoff"
+year = 1887
+patterns = ['standoff at Donner(?: Pass)? in (?:[A-Z][a-z]+ )?(?P<year>1[89]\d\d)']
+source = "CR-022"
+
+# ---------------------------------------------------------------------------
+# Forbidden statements in current canon and drafts
+# Regular expressions, matched case-insensitively within one sentence.
+# Use for protected mysteries and identity collisions AGENTS.md rules out.
+# ---------------------------------------------------------------------------
+
+[[forbidden]]
+pattern = "Emma's son Albert|Albert Kūnuiākea,? Emma's son"
+message = "Albert Kūnuiākea is Emma's cousin and heir, not her son (CR-027)"
+
+[[forbidden]]
+pattern = "(?:on|by) (?:the )?(?:instructions?|orders?) (?:from|of) (?:the palace|Victoria|the Regent)"
+message = "Narrator-level instruction from Victoria's side implicates a suspect in Noe's death; the culprit stays unproved (CR-021 R9-09)"
+
+[[forbidden]]
+pattern = "(?:Victoria|the Regent|Silas|Abigail) (?:had|has) (?:Noe|her) (?:poisoned|killed|murdered)"
+message = "States a culprit for Noe's death; the culprit stays unproved (CR-021 R9-09)"
+
+[[forbidden]]
+pattern = "(?:murderer|killer) of (?:Noe|Kaʻanoe)|(?:Noe|Kaʻanoe)'s (?:murderer|killer) (?:was|is)"
+message = "Establishes a murderer for Noe; never establish one (AGENTS.md)"
+
+[[forbidden]]
+pattern = "President Julian|Julian,? (?:the )?President"
+message = "Julian is never President (AGENTS.md)"
+
+[[forbidden]]
+pattern = "throne (?:falls )?(?:into|in) abeyance"
+message = "There is no Hawaiian throne abeyance (AGENTS.md)"

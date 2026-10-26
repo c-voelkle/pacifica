@@ -19,6 +19,7 @@
 - Update the structured CR or add a stable new CR ID in `change_requests.json`.
 - If adding a CR, add its stable ID in a hidden coverage comment in the synopsis adjacent to the relevant plot section; the checker confirms IDs, not literary quality.
 - Keep historical research, bibliographies and reasons for proposed divergences in `historical_background.md`, not explanatory comparisons in the storyline.
+- When an approval changes a date, age, identity or protected fact, edit `book-agent/revision/canon_facts.toml` first, then run `python3 book-agent/revision/lint_canon.py`: it lists every passage that still states the old value. Lint drafts the same way (`lint_canon.py --only draft.md`) before review. CI runs it; a clean lint checks only the facts in that file.
 - Run `python3 book-agent/revision/sync_master_storyline.py --write`, then `--check`; commit all three related files when applicable. The push-triggered workflow updates the generated `approved_change_index.md`. The PR workflow rejects stale administrative synchronization.
 - Never claim that generated index synchronization guarantees literary integration. It does not. Review the narrative in light of the author’s approval.
 - Preserve `main`, old manuscripts, original beat and character sources until the author authorizes an actual prose revision; use review branches and PRs.

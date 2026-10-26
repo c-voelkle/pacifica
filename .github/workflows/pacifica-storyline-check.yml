@@ -7,6 +7,12 @@ on:
       - "book-agent/revision/master_storyline.md"
       - "book-agent/revision/approved_change_index.md"
       - "book-agent/revision/sync_master_storyline.py"
+      - "book-agent/revision/character_bible.md"
+      - "book-agent/revision/character_registry.json"
+      - "book-agent/revision/canon_facts.toml"
+      - "book-agent/revision/lint_canon.py"
+      - "book-agent/revision/tests/**"
+      - "AGENTS.md"
       - ".github/workflows/pacifica-storyline-*.yml"
   workflow_dispatch:
 
@@ -20,3 +26,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify approval index and narrative coverage
         run: python3 book-agent/revision/sync_master_storyline.py --check
+      - name: Lint dates, ages, IDs and forbidden statements against canon_facts.toml
+        run: python3 book-agent/revision/lint_canon.py
+      - name: Test the canon linter
+        run: python3 -m unittest discover -s book-agent/revision/tests -v
