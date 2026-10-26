@@ -11,6 +11,7 @@ on:
       - "book-agent/revision/character_registry.json"
       - "book-agent/revision/canon_facts.toml"
       - "book-agent/revision/lint_canon.py"
+      - "book-agent/revision/cr_facts.py"
       - "book-agent/revision/tests/**"
       - "AGENTS.md"
       - ".github/workflows/pacifica-storyline-*.yml"
@@ -28,5 +29,7 @@ jobs:
         run: python3 book-agent/revision/sync_master_storyline.py --check
       - name: Lint dates, ages, IDs and forbidden statements against canon_facts.toml
         run: python3 book-agent/revision/lint_canon.py
+      - name: Check that approved CR fact changes are in canon_facts.toml
+        run: python3 book-agent/revision/cr_facts.py check
       - name: Test the canon linter
         run: python3 -m unittest discover -s book-agent/revision/tests -v
