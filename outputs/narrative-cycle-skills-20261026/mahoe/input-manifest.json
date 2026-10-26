@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Mahoe forward test, brainstorming response",
+  "files": [
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\AGENTS.md",
+      "sha256": "ba5029c940d82f600bff32c0b55de1253c7f5651df75f8b234d122511cd61251",
+      "hash_basis": "ExactBytes"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\AGENTS.md",
+      "sha256": "eda6dfd276c9d9e48bebbd4f305c3b33190a0d6898a7c44f25e561c9d5f9bef4",
+      "hash_basis": "ExactBytes"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\baseline.md",
+      "sha256": "02dd10c8c9f0bf0f8d84f74f9091de4dd4a1c15eb494ea3745dfc465af406ea5",
+      "hash_basis": "ExactBytes"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\input\\notes.md",
+      "sha256": "bbb58dd6602084f9c9c3f306d1b368c68dff6c33f85dd551cb3fa69d92ae4b7a",
+      "hash_basis": "ExactBytes"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\mahoe\\SKILL.md",
+      "sha256": "6c638945c7afa3c2c3cf8594749fbea7e01b592bafef361b125febd2f5618139",
+      "hash_basis": "ExactBytes"
+    },
+    {
+      "path": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\compact-ontology-20261026\\repo\\.agents\\skills\\aegis\\references\\success-contract.md",
+      "sha256": "9f7436ab930d042571e5aa765efbb06378bc9b7a821e4ba95b8a722e192461da",
+      "hash_basis": "ExactBytes"
+    }
+  ],
+  "inline_inputs": [
+    {
+      "name": "Supplied discussion request",
+      "text": "We have spent time trying to get the East Haven base. I want to focus on the aim: Jani's effective power and freedom of action by 1932. What should we compare, and what would you recommend investigating first? Still brainstorming, no CR revisions yet.",
+      "sha256": "53b77723d29a65d8843109735d68e6d069c85b0f145cce31545d89c14865a502",
+      "hash_basis": "UTF8ExactTextNoBOMNoTrailingNewline"
+    }
+  ],
+  "scope": "The miniature AGENTS.md, baseline.md and notes.md supply fictional facts and authority. Mahoe and the Aegis success contract supply the applied method. No other skill, reference, candidate, answer key or evaluation was read.",
+  "output": "C:\\Users\\vcokl\\.codex\\.chatgpt-projects\\g-p-6ad187c55c1c8191bc717ec380c516d9\\outputs\\narrative-cycle-evaluation-20261026\\mahoe\\response.md"
+}

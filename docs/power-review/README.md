@@ -14,3 +14,5 @@ Its [first evaluation protocol](../../outputs/aumakua-pilot-20261026/protocol.md
 The [results](../../outputs/aumakua-pilot-20261026/results.md) record recovery of both omitted textual questions, six detected fixture conflicts and preserved compatible readings, with the reviews and execution limits archived.
 
 The subsequent [ontology integration pilot](../../outputs/aumakua-ontology-20261026/report.md) links the saved prose-first findings to source quotations and the selected power graph, making incomplete extraction explicit. This is a conversion of earlier findings, not a new detection trial.
+
+[Mahoe](../../.agents/skills/mahoe/SKILL.md), [Kalai](../../.agents/skills/kalai/SKILL.md) and [Imi](../../.agents/skills/imi/SKILL.md) add conversational coordination, actual revision writing and literary review. The [collaborative development workflow](narrative-cycle.md) connects all seven skills while preserving author steering and the distinction between exploration, draft and adoption.

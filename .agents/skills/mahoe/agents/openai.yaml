@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mahoe"
+  short_description: "Coordinate collaborative Pacifica narrative improvement"
+  default_prompt: "Use $mahoe to work through this Pacifica narrative problem with me, coordinating the relevant specialist skills and preserving the distinction between exploration, draft and adoption."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kalai"
+  short_description: "Write Pacifica revisions and propagate their consequences"
+  default_prompt: "Use $kalai to turn this selected Pacifica change into revised narrative prose and trace its consequences through the affected passages."
