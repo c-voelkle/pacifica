@@ -1,6 +1,6 @@
 # Shared authority and scope rules
 
-All seven Pacifica skills (Mahoe, Aegis, Clio, Chryseis, Kalai, Aumakua, Imi) apply these rules. Each SKILL.md states only how its own role applies them. When a rule changes, change it here.
+The Pacifica skills (Kalai, Clio, Chryseis) and any agent working in this repository apply these rules. Each SKILL.md states only how its own role applies them. When a rule changes, change it here.
 
 ## R1. Authority of sources
 
@@ -47,12 +47,11 @@ Actors pursue their own purposes with the information available at the time. The
 
 - Pin the baseline (commit and file hashes) before a substantial comparison, draft, audit or automated round.
 - Supplied attachments, synced sources, the financial workbook, original manuscripts and legacy profiles are immutable unless a task explicitly authorizes changing them.
-- Write working outputs to a task-owned directory, never into canonical prose, synced sources or installed skill folders. Session records follow [session-records.md](session-records.md).
+- Write working outputs to a task-owned directory, never into canonical prose, synced sources or installed skill folders. Session records follow [session-record-template.md](session-record-template.md).
 - Record paths relative to the repository root. Do not record absolute local paths or usernames.
 - Never update a hash alone to hide a changed premise. Changed premises make dependent conclusions stale until they are reassessed.
 
 ## R7. Limits of tools
 
-- The compact ontology records qualified claims, evidence, quantities and findings. It is not a story simulator, a complete dependency inventory, an approval mechanism or a substitute for reading. Pair graph traversal with raw-text search and continuous reading.
-- A passing validator establishes only the condition it checks. Synchronization of the generated index is not literary integration.
+- A passing validator establishes only the condition it checks. Synchronization of the generated index is not literary integration, and a clean `lint_canon.py` checks only the facts in `canon_facts.toml`.
 - Skills are procedures. They do not install a scheduler, call another service, or message user-owned chats; those need their own implementation and the user's request. Supplied external critiques keep their provenance.

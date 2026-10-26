@@ -1,6 +1,6 @@
 # Pacifica power success contract
 
-Version 0.1.0 · 26 October 2026 · Author-directed evaluation objective
+Version 0.1.1 · 26 October 2026 · Author-directed evaluation objective
 
 ## Governing objective
 
@@ -59,4 +59,4 @@ Before finalizing, test for: wealth without command; capacity held by an indepen
 
 ## Scope boundary
 
-This is a prose evaluation contract, not an ontology, data schema or executable simulation. Existing Timeline Lab ontology files are unchanged. Future ontology design should follow demonstrated review needs.
+This contract defines the evaluation objective for power-directed questions. It is a reading guide for the author and the skills, not an executable power simulation.

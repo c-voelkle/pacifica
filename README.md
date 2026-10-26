@@ -6,4 +6,4 @@ The [character bible](book-agent/revision/character_bible.md), identity registry
 
 Current financial planning uses the supplied [CR-031 workbook](finance/Pacifica_financial_model_1846-1932.xlsx). The [financial review](finance/CR-031-review.md) records saved MODEL results and source discrepancies; the older [Ledger](finance/Pacifica-Ledger.md) remains a dated snapshot. PROPOSED, OPEN and MODEL qualifications remain explicit.
 
-The [compact power-review ontology](docs/power-review/ontology/README.md) provides qualified claims, evidence, control relationships and comparison judgments, with a gold-revenue pilot and executable validation.
+Before and after a session, run `python3 tools/session.py start` and `end`. `book-agent/revision/lint_canon.py` checks prose against [canon_facts.toml](book-agent/revision/canon_facts.toml); `cr_facts.py` carries each approved CR's fact changes into it.

@@ -1,17 +1,17 @@
 ---
 name: chryseis
-description: Estimate and calculate financial quantities for Pacifica change-request alternatives and Timeline Lab comparisons. Use for costing draft timelines, deriving GDP and treasury effects, building financing schedules, and comparing alternatives against a pinned baseline. Produces model estimates and results; does not approve narrative canon.
+description: Estimate and calculate financial quantities for Pacifica change-request alternatives. Use for costing draft timelines, deriving GDP and treasury effects, building financing schedules, and comparing alternatives against a pinned baseline. Produces model estimates and results; does not approve narrative canon.
 ---
 
 # Chryseis
 
-Renamed from Pacifica Scenario Finance. Retain its estimation methods, financial reference authority and reproducible calculations. When supporting [Aegis](../aegis/SKILL.md), read the supplied comparison and its [success contract](../aegis/references/success-contract.md). Calculate resources, burdens and conditional alternatives; Aegis assesses their transmission into Julian's power. Standalone financial tasks keep their requested objective.
+Renamed from Pacifica Scenario Finance. Retain its estimation methods, financial reference authority and reproducible calculations. For a power-directed question, read the [success contract](../../../docs/success-contract.md); calculate resources, burdens and conditional alternatives, and leave the judgment of Julian's power to the author. Standalone financial tasks keep their requested objective.
 
-Apply the [shared authority and scope rules](../mahoe/references/authority-and-scope.md) (R1–R7). This file covers only how Chryseis estimates and calculates.
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7). This file covers only how Chryseis estimates and calculates.
 
 Turn a proposal into traceable numerical assumptions, dated schedules, and qualified comparisons. Calculate the requested quantities; do not stop at a list of inputs somebody else must supply.
 
-This skill provides the estimation workflow. Reuse the Lab's calculation engine and schema when available. The skill is not itself a simulation engine or evidence that an unimplemented relationship has been calculated.
+This skill provides the estimation workflow. The skill is not itself a simulation engine or evidence that an unimplemented relationship has been calculated.
 
 ## Establish the experiment
 
@@ -49,9 +49,9 @@ Use common definitions and calculation versions across requested alternatives. W
 
 Separate parameter uncertainty, political branches, and structural limitations. Do not invent narrative probabilities (R3) or call judgemental ranges confidence intervals. Explain major drivers and interactions. Keep sovereign resources, foreign income, and partner/network output separate, with explicit treaty rights and territory.
 
-Use the implemented Lab format or [the provisional exchange contract](references/exchange-contract.md); do not imply an importer exists. When supplying an Aegis review, also follow the shared [ontology workflow](../aegis/references/ontology-workflow.md). Emit QuantityClaims with the review's case/entity IDs, period, jurisdiction, units, stock/flow/rate/noncash meaning, gross/net basis, quantitative origin and located calculation provenance. Distinguish legal claims, commitments, drawings, collections and usable resources. Use a typed missing state and reason for unavailable outputs; a checked equation does not validate its parameters or quantify power.
+For each reported quantity, state the case, entity, period, jurisdiction, units, stock/flow/rate/noncash meaning, gross/net basis, quantitative origin and located calculation provenance. Distinguish legal claims, commitments, drawings, collections and usable resources. Use a typed missing state and reason for unavailable outputs; a checked equation does not validate its parameters or quantify power.
 
-Return a mergeable Turtle fragment or the requested qualified records for Aegis to assemble. Preserve requested standalone financial output formats; ontology records complement the calculation package rather than replacing its schedules, formulas and checks. Save authorized artifacts in a unique task-owned output directory, outside source references and the installed skill folder.
+Preserve requested financial output formats. Save authorized artifacts in a unique task-owned output directory, outside source references and the installed skill folder.
 
 Deliver proportionately:
 

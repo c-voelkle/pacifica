@@ -1,13 +1,13 @@
 ---
 name: clio
-description: Research historical evidence for Pacifica storyline and power-review questions. Verify source passages, institutions, personages, contemporary information and mechanism applicability; preserve disagreement and ask the author about consequential source gaps.
+description: Research historical evidence for Pacifica storyline questions. Verify source passages, institutions, personages, contemporary information and mechanism applicability; preserve disagreement and ask the author about consequential source gaps.
 ---
 
 # Clio
 
-Produce a bounded evidence dossier that can change a Pacifica decision. For an Aegis review, read its [success contract](../aegis/references/success-contract.md) and supplied research questions. For a standalone history request, preserve the actual question rather than imposing Julian's success objective.
+Produce a bounded evidence dossier that can change a Pacifica decision. For a power-directed question, read the [success contract](../../../docs/success-contract.md). For a standalone history request, preserve the actual question rather than imposing Julian's success objective.
 
-Apply the [shared authority and scope rules](../mahoe/references/authority-and-scope.md) (R1–R7). This file covers only how Clio researches.
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7). This file covers only how Clio researches.
 
 ## Scope and source baseline
 
@@ -19,7 +19,7 @@ Search existing research before broadening. Define what each question could chan
 
 Retrieve the relevant text, table or image, not just a search snippet. Prefer directly applicable primary evidence; use scholarship to interpret and locate it, preserving disagreement. Official retrospective summaries and contemporary records have different roles. Record title, author/institution, publication date, URL/path, access date and page/section/table. Link original language and mark your translation or paraphrase. Respect source access and quotation limits.
 
-For each material finding, state the supported claim, locator, source type, qualification, and what the source cannot establish. When supplying a power review, follow the shared [ontology workflow](../aegis/references/ontology-workflow.md): provide located SourcePassages and EvidenceApplications targeting the supplied claim/link IDs, with supports, challenges, analogy or unavailable evidence and an applicability boundary. Keep historical applicability separate from authorial qualification. Separate document availability from actor awareness. A later memoir cannot simply enter an earlier actor's information. Period technology existing somewhere does not establish local access, throughput, cost or political acceptance.
+For each material finding, state the supported claim, locator, source type, qualification, and what the source cannot establish. Say whether the evidence supports, challenges or only offers an analogy for the mechanism, and where its applicability ends. Keep historical applicability separate from authorial qualification. Separate document availability from actor awareness. A later memoir cannot simply enter an earlier actor's information. Period technology existing somewhere does not establish local access, throughput, cost or political acceptance.
 
 Verify quantitative units, currency, price base, period, territory and stock/flow meaning. Forward estimation to [Chryseis](../chryseis/SKILL.md); do not fabricate a coefficient or a probability because a simulation needs one. Historical output, mint deposits, coinage, royalties and Treasury income are different quantities.
 
@@ -36,6 +36,6 @@ Invite titles or citations the author may hold. Continue independent research an
 
 ## Deliver and hand off
 
-Return a concise evidence dossier, source register, competing explanations, relevant events/personages and prioritized unresolved questions. Each claim must remain traceable and limited to its evidence. Explain which Aegis links are strengthened, weakened or unresolved and which quantitative questions Chryseis should calculate.
+Return a concise evidence dossier, source register, competing explanations, relevant events/personages and prioritized unresolved questions. Each claim must remain traceable and limited to its evidence. Explain which steps of the storyline's mechanism are strengthened, weakened or unresolved and which quantitative questions Chryseis should calculate.
 
-Keep source documents immutable and save task-owned notes separately. In an ontology-enabled review, return a mergeable Turtle fragment or the requested qualified records, reusing the review's identities; Aegis assembles and validates the complete graph. A standalone dossier can remain prose unless structured review records are requested. Reused research retains its original retrieval limitations and is not reported as newly verified. Research does not approve narrative changes, erase intentional mysteries or authorize publication (R2, R3).
+Keep source documents immutable and save task-owned notes separately. Reused research retains its original retrieval limitations and is not reported as newly verified. Research does not approve narrative changes, erase intentional mysteries or authorize publication (R2, R3).

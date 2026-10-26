@@ -7,17 +7,17 @@ description: Write or revise Pacifica narrative prose from selected author direc
 
 Turn a selected direction into actual narrative prose. Match the author's requested form: a continuous master synopsis, a standalone alternative or CR draft, chapter prose, or a narrow passage repair. Do not replace requested writing with an implementation memo or insist that a synopsis contain fully dramatized scenes.
 
-Apply the [shared authority and scope rules](../mahoe/references/authority-and-scope.md) (R1–R7). This file covers only how Kalai writes.
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7). This file covers only how Kalai writes.
 
 ## Establish the writing brief
 
 Read repository AGENTS.md, the relevant current master passages and governing approvals, and the current character bible and stable-ID registry (R1). Identify selected changes, preserved premises, unresolved choices, narrative viewpoint and the authorized destination (R2). Keep brainstorming intact until writing is requested.
 
-For a power-directed revision, read Aegis's [success contract](../aegis/references/success-contract.md) and the supplied comparison. Explaining an existing mechanism does not increase world power; a new legal right, bargain, institution or resource is a substantive premise requiring its own qualification and consequences (R3).
+For a power-directed revision, read the [success contract](../../../docs/success-contract.md). Explaining an existing mechanism does not increase world power; a new legal right, bargain, institution or resource is a substantive premise requiring its own qualification and consequences (R3).
 
 ## Write the change and follow its consequences
 
-Read the affected prose and trace its setup and later uses. When the change alters a date, age, identity or protected fact, write the `## Fact changes` list first and run `cr_facts.py preview` on the draft (AGENTS.md): its output is the minimum list of passages to revise. Then make a compact impact map of additions, removals, date shifts, identities, powers, knowledge and quantities before a substantial rewrite; the preview covers only facts in `canon_facts.toml`, so keep searching raw text for the rest. Extend that map through succession, breach, later crises and the agreed endpoint where affected. Combine ontology links with raw-text searches; an incomplete graph is not the limit of the task (R7).
+Read the affected prose and trace its setup and later uses. When the change alters a date, age, identity or protected fact, write the `## Fact changes` list first and run `cr_facts.py preview` on the draft (AGENTS.md): its output is the minimum list of passages to revise. Then make a compact impact map of additions, removals, date shifts, identities, powers, knowledge and quantities before a substantial rewrite; the preview covers only facts in `canon_facts.toml`, so keep searching raw text for the rest. Extend that map through succession, breach, later crises and the agreed endpoint where affected.
 
 Write events as events: people pursue purposes with the information available to them (R4), bargain, decide, resist, act and experience consequences. Institutional mechanisms should be legible through those actions. Keep historical comparisons, source arguments and editing explanations in supporting notes rather than canonical story prose. Preserve the book's differentiated viewpoints and the Chronicler's limits; narrator certainty must not silently replace testimony or deliberate ambiguity.
 
@@ -29,7 +29,7 @@ Use [Clio](../clio/SKILL.md) for historical questions and [Chryseis](../chryseis
 
 ## Review and deliver
 
-Read the full affected sequence after editing, including untouched counterpart passages. Use [Aumakua](../aumakua/SKILL.md) for consistency, [Imi](../imi/SKILL.md) for literary review and Aegis for material contract consequences when the task calls for them. Resolve demonstrated regressions within scope; label self-review as self-review (R5) and preserve remaining uncertainties.
+Read the full affected sequence after editing, including untouched counterpart passages. For a substantial draft, ask for the fresh-context review in AGENTS.md: one reviewer, without your notes, checking consistency and literary effect together. Resolve demonstrated regressions within scope; label self-review as self-review (R5) and preserve remaining uncertainties.
 
 For a draft, deliver the actual revised narrative or complete alternative, its `## Fact changes` section, plus concise impact notes: baseline, changed premises, affected passages and claims, unchanged assumptions and author choices still needed. Keep alternate cases distinct. Supply a diff when it helps inspection. Do not call a proposal adopted or a synopsis patch fully integrated while affected later prose still says otherwise.
 

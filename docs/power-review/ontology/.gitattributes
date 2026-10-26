@@ -1,4 +1,0 @@
-# Maintain executable/text artifacts as LF; preserve bundled original inputs byte-for-byte.
-* text eol=lf
-inputs/* -text whitespace=cr-at-eol
-inputs/manifest.json text eol=lf

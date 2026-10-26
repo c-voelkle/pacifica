@@ -9,7 +9,7 @@ unmerged or stale branches, the canonical checks, and where the last session
 left off. It saves a snapshot to `.session/start.json` (not committed).
 
 `end` compares against that snapshot and lists anything left behind: canon
-changed without a CR, facts or synchronization; stale ontology manifests;
+changed without a CR, facts or synchronization;
 failing checks; uncommitted or unpushed work; a session record without its
 "Resume here" lines.
 
@@ -45,10 +45,6 @@ CHECKS = [
     ("CR facts in register", [sys.executable, "book-agent/revision/cr_facts.py", "check"]),
     ("storyline sync", [sys.executable, "book-agent/revision/sync_master_storyline.py", "--check"]),
     ("character docs", [sys.executable, "book-agent/revision/validate_character_docs.py"]),
-]
-ONTOLOGY_MANIFESTS = [
-    "outputs/power-review-gold-ontology-20261026/after/input-manifest.json",
-    "outputs/aumakua-ontology-20261026/input-manifest.json",
 ]
 
 attention: list[str] = []
@@ -241,24 +237,6 @@ def cmd_end(args) -> int:
                 "and run cr_facts.py apply", True)
         if "book-agent/revision/character_bible.md" in changed and "book-agent/revision/character_registry.json" not in changed:
             say("!", "character bible changed without the registry — update both together", True)
-
-    head("Ontology manifests")
-    stale = []
-    for manifest in ONTOLOGY_MANIFESTS:
-        path = ROOT / manifest
-        if not path.exists():
-            continue
-        files = json.loads(path.read_text(encoding="utf-8")).get("files", {})
-        for rel, meta in files.items():
-            if isinstance(meta, dict) and meta.get("sha256") and \
-                    sha_lf(rel, meta.get("hash_basis", "LFNormalizedText")) not in (meta["sha256"], None):
-                stale.append(f"{Path(manifest).parts[1]} → {Path(rel).name}")
-    if stale:
-        say("!", "pinned hashes out of date (the ontology CI check will fail): " + "; ".join(stale[:4])
-            + (" …" if len(stale) > 4 else ""), True)
-        print("      Refresh as a reviewed new version of that review, not a hash swap (see docs/power-review/ontology/README.md).")
-    else:
-        say("✓", "pinned hashes match")
 
     run_checks()
 

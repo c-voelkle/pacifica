@@ -1,4 +1,0 @@
-interface:
-  display_name: "Aumakua"
-  short_description: "Audit chronology, identity and cross-text consistency"
-  default_prompt: "Use $aumakua to audit these Pacifica passages for cross-text consistency, cite both sides of each suspected contradiction, and preserve open decisions."
