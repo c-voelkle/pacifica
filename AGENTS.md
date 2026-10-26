@@ -1,5 +1,9 @@
 # Pacifica — instructions for AI collaborators
 
+## Session start and end
+
+Run `python3 tools/session.py start` (add `--topic <word>` for the subject at hand) before reading or editing canon, and `python3 tools/session.py end` before finishing. Start confirms the branch is current, lists unmerged branches, runs the canon checks and shows where the last session stopped. End lists what would be left behind: canon changed without a CR, facts or synchronization; stale ontology manifests; failing checks; uncommitted or unpushed work; a missing "Resume here". Both only report; resolve or report each item to the author before ending.
+
 ## Canonical read order
 
 1. `book-agent/revision/master_storyline.md` — **single continuous story synopsis**, with all currently approved narrative changes already embodied, and **[OPEN]** markers for unresolved decisions. Its prose must read as what happens, not as an edit memo.
