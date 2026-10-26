@@ -72,10 +72,19 @@ class Drafts(unittest.TestCase):
             for path in lint_canon.DEFAULT_FILES:
                 linter.lint(path)
         sites = {f.where for f in linter.findings}
-        for expected in ("master_storyline.md:47", "master_storyline.md:511", "master_storyline.md:850",
-                         "character_bible.md:73", "character_bible.md:83", "AGENTS.md:43"):
-            self.assertTrue(any(s.endswith(expected) for s in sites), expected)
-
+        root = BASE.parent.parent
+        expected = [  # (file, text of a passage that states Noe's 1888 death)
+            ("AGENTS.md", "before her ambiguous death in 1888"),
+            ("book-agent/revision/master_storyline.md", "contested typhoid outbreak of 1888"),
+            ("book-agent/revision/master_storyline.md", "She dies in the autumn of 1888"),
+            ("book-agent/revision/master_storyline.md", "Her 1888 death has an official typhoid account"),
+            ("book-agent/revision/character_bible.md", "**Died:** autumn 1888"),
+            ("book-agent/revision/character_bible.md", "She dies during an autumn 1888 typhoid outbreak"),
+        ]
+        for rel, text in expected:
+            lines = (root / rel).read_text(encoding="utf-8").splitlines()
+            line = next(i for i, l in enumerate(lines, 1) if text in l)
+            self.assertTrue(any(s.endswith(f"{Path(rel).name}:{line}") for s in sites), f"{rel}:{line}")
 
 if __name__ == "__main__":
     unittest.main()
