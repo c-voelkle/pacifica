@@ -7,11 +7,13 @@ description: Review Pacifica storyline decisions and proposed changes for their 
 
 Turn a Pacifica decision cluster or proposed change into an evidence-backed comparison under the [success contract](references/success-contract.md). Read that contract and the shared [ontology workflow](references/ontology-workflow.md) at the start of a full review. Its target is Julian's effective power by 1932, not general national wealth or an imposed successful ending.
 
+Apply the [shared authority and scope rules](../mahoe/references/authority-and-scope.md) (R1–R7). This file covers only how Aegis assesses power.
+
 ## Establish the comparison
 
-Locate the Pacifica repository and follow its AGENTS.md and canonical read order. Pin the current master, approval register, character identities, relevant historical background and financial reference by commit and file hash. Resolve current remote refs when available; identify an unverified local snapshot explicitly.
+Locate the Pacifica repository and follow its AGENTS.md and canonical read order (R1). Pin the current master, approval register, character identities, relevant historical background and financial reference by commit and file hash (R6). Resolve current remote refs when available; identify an unverified local snapshot explicitly.
 
-Record the cluster, earliest divergence, feasible comparator, endpoint, checkpoints and scope of the requested review. Retaining the baseline is an alternative. A repair to exposition is not automatically a change in the world's outcomes. Preserve approved decisions, protected ambiguity and local PROPOSED, OPEN and MODEL qualifications.
+Record the cluster, earliest divergence, feasible comparator, endpoint, checkpoints and scope of the requested review. Retaining the baseline is an alternative. A repair to exposition is not automatically a change in the world's outcomes. Preserve approved decisions, protected ambiguity and local labels (R1, R3).
 
 ## Trace power to Julian
 
@@ -21,7 +23,7 @@ Use exact storyline passages. Represent material propositions as dated, case-sco
 
 Specify an action Julian can obtain through an office or institution, its instrument or instrument gap, conditions, refusal, expiry and burdens. Dependable cooperation can confer usable control without transferring ownership. An entitlement is not a receipt; accession is not a universal command instrument. Distinguish explanatory clarification from a new bargain or power in separate ComparisonCases and Judgments.
 
-Actors pursue their own contemporary purposes. The author can evaluate a century-long consequence, but that knowledge does not establish an earlier actor's motive or available information.
+The author can evaluate a century-long consequence, but that does not establish an earlier actor's motive or available information (R4).
 
 ## Investigate and develop alternatives
 
@@ -45,4 +47,4 @@ Deliver a readable assessment with:
 - Directional verdicts, claim basis and the evidence that could reverse them.
 - A concrete recommendation and author decisions still needed.
 
-Save the readable assessment, review Turtle, input manifest, supporting research/calculations and executed validation/query output in a unique task-owned review directory. Use the shared workflow to validate the actual review graph, inspect query findings and reconcile the prose with its material claim/link IDs before delivery. Retain unresolved dependencies and validation failures explicitly; structural conformance does not establish causal sufficiency. Applying recommendations to canon, changing approvals, publishing, committing or pushing requires the corresponding user authorization.
+Save the readable assessment, review Turtle, input manifest, supporting research/calculations and executed validation/query output in a unique task-owned review directory. Use the shared workflow to validate the actual review graph, inspect query findings and reconcile the prose with its material claim/link IDs before delivery. Retain unresolved dependencies and validation failures explicitly; structural conformance does not establish causal sufficiency (R7). Applying recommendations to canon, changing approvals, publishing, committing or pushing follows R2.
