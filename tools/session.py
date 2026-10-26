@@ -42,6 +42,7 @@ CANON = [
 ]
 CHECKS = [
     ("canon lint", [sys.executable, "book-agent/revision/lint_canon.py"]),
+    ("CR facts in register", [sys.executable, "book-agent/revision/cr_facts.py", "check"]),
     ("storyline sync", [sys.executable, "book-agent/revision/sync_master_storyline.py", "--check"]),
     ("character docs", [sys.executable, "book-agent/revision/validate_character_docs.py"]),
 ]
@@ -236,7 +237,8 @@ def cmd_end(args) -> int:
                 if cr not in master:
                     say("!", f"{cr} has no coverage marker in master_storyline.md", True)
         if prose and "book-agent/revision/canon_facts.toml" not in changed:
-            say("?", "facts file unchanged — if a date, age or identity changed, update canon_facts.toml", True)
+            say("?", "facts file unchanged — if a date, age or identity changed, add the CR's \"facts\" list "
+                "and run cr_facts.py apply", True)
         if "book-agent/revision/character_bible.md" in changed and "book-agent/revision/character_registry.json" not in changed:
             say("!", "character bible changed without the registry — update both together", True)
 
