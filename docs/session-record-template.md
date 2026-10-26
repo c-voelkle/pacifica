@@ -42,7 +42,7 @@ independence: separate-agents   # separate-agents | same-agent (say which roles 
 | ID | Type | Statement | Source | Status |
 | --- | --- | --- | --- | --- |
 | D1 | decision | ... | author message 2026-10-26 | current |
-| Q1 | open choice | ... | raised by Mahoe | open |
+| Q1 | open choice | ... | raised in session | open |
 
 Decisions record what the author said. Discussion of an option is not a decision. Mark superseded decisions `superseded by Dn`; do not delete them.
 
@@ -53,22 +53,22 @@ Decisions record what the author said. Discussion of an option is not a decision
 | C0 | Retain baseline | none | n/a | live |
 | C1 | ... | 1874-03 | world change | live |
 
-For each material case: concrete additions, removals and date changes; affected actors, institutions and passages; unresolved premises (link to `Q` IDs); consequences followed to the endpoint; ontology Claim and MechanismLink IDs where they exist, and missing extraction.
+For each material case: concrete additions, removals and date changes; affected actors, institutions and passages; unresolved premises (link to `Q` IDs); consequences followed to the endpoint.
 
 ## Handoffs
 
 | ID | To | Task | Inputs (paths and IDs) | Withheld for independence | Output | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | H1 | Kalai | Draft C1 as standalone CR prose | master §12–14; D1, Q1 | — | `draft-C1.md` | done |
-| H2 | Imi | Independent literary review of draft | `draft-C1.md`, master §12–14 | Kalai notes, H3 output | `imi-C1.md` | done |
+| H2 | Fresh reviewer | Consistency and literary review of draft | `draft-C1.md`, master §12–14 | Kalai notes | `review-C1.md` | done |
 
 ## Review judgments
 
 Keep the three judgments separate; never combine them into one score.
 
-- **Contract (Aegis):** per power dimension, improvement, weakening, trade-off or unresolved. Label explanation-only gains separately.
-- **Consistency (Aumakua):** new supported conflicts; earlier findings retained, resolved or not reproduced; coverage actually read.
-- **Literary (Imi):** concrete effects on agency, motivation, conflict, viewpoint, voice, structure and clarity.
+- **Contract:** per power dimension, improvement, weakening, trade-off or unresolved. Label explanation-only gains separately.
+- **Consistency:** new supported conflicts; earlier findings retained, resolved or not reproduced; coverage actually read.
+- **Literary:** concrete effects on agency, motivation, conflict, viewpoint, voice, structure and clarity.
 
 | ID | Judgment | Finding | Location | Disposition |
 | --- | --- | --- | --- | --- |

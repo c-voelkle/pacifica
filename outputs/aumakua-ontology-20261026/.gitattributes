@@ -1,6 +1,0 @@
-# Preserve archived RDF serialization and Windows subprocess output bytes.
-audit.ttl -text whitespace=cr-at-eol,-blank-at-eof
-validation.json -text whitespace=cr-at-eol,-blank-at-eof
-validation-stderr.txt -text whitespace=cr-at-eol,-blank-at-eof
-execution.json -text whitespace=cr-at-eol,-blank-at-eof
-tests.txt -text whitespace=cr-at-eol,-blank-at-eof

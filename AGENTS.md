@@ -2,7 +2,11 @@
 
 ## Session start and end
 
-Run `python3 tools/session.py start` (add `--topic <word>` for the subject at hand) before reading or editing canon, and `python3 tools/session.py end` before finishing. Start confirms the branch is current, lists unmerged branches, runs the canon checks and shows where the last session stopped. End lists what would be left behind: canon changed without a CR, facts or synchronization; stale ontology manifests; failing checks; uncommitted or unpushed work; a missing "Resume here". Both only report; resolve or report each item to the author before ending.
+Run `python3 tools/session.py start` (add `--topic <word>` for the subject at hand) before reading or editing canon, and `python3 tools/session.py end` before finishing. Start confirms the branch is current, lists unmerged branches, runs the canon checks and shows where the last session stopped. End lists what would be left behind: canon changed without a CR, facts or synchronization; failing checks; uncommitted or unpushed work; a missing "Resume here". Both only report; resolve or report each item to the author before ending.
+
+## Fresh-context review
+
+After a substantial draft or before adoption, run one review in a fresh context: give the reviewer only the candidate text, the affected canon passages and this file, never the writer's notes or reasoning. One pass covers consistency (dates, identities, authority, knowledge, protected mysteries) and literary effect (agency, motive, conflict, viewpoint). Run `lint_canon.py --only <draft>` first so the reviewer's time goes to what the linter cannot check. If no separate context is available, label the review as self-review. Shared rules for all agents: [docs/authority-and-scope.md](docs/authority-and-scope.md); power-directed questions: [docs/success-contract.md](docs/success-contract.md).
 
 ## Canonical read order
 
