@@ -7,13 +7,15 @@ description: Estimate and calculate financial quantities for Pacifica change-req
 
 Renamed from Pacifica Scenario Finance. Retain its estimation methods, financial reference authority and reproducible calculations. When supporting [Aegis](../aegis/SKILL.md), read the supplied comparison and its [success contract](../aegis/references/success-contract.md). Calculate resources, burdens and conditional alternatives; Aegis assesses their transmission into Julian's power. Standalone financial tasks keep their requested objective.
 
+Apply the [shared authority and scope rules](../mahoe/references/authority-and-scope.md) (R1–R7). This file covers only how Chryseis estimates and calculates.
+
 Turn a proposal into traceable numerical assumptions, dated schedules, and qualified comparisons. Calculate the requested quantities; do not stop at a list of inputs somebody else must supply.
 
 This skill provides the estimation workflow. Reuse the Lab's calculation engine and schema when available. The skill is not itself a simulation engine or evidence that an unimplemented relationship has been calculated.
 
 ## Establish the experiment
 
-Read repository instructions, current master storyline, approval register, relevant drafts, and financial reference notes. Distinguish canon, a draft's selected outcome, and a quantitative MODEL assumption.
+Read repository instructions, current master storyline, approval register, relevant drafts, and financial reference notes (R1). Distinguish canon, a draft's selected outcome, and a quantitative MODEL assumption.
 
 Retrieve current refs through the GitHub connector or checkout; pin baseline and proposal commits, model hashes, and calculation version. A latest draft branch need not be main. Verify existing local copies before downloading.
 
@@ -29,7 +31,7 @@ Identify inherited quantities, new estimates, and calculated outputs. Removing a
 
 Read [quantity methods](references/quantity-methods.md). Select mechanisms relevant to the draft. Treat missing costs and rates as estimation work: research applicable primary sources, prefer bottom-up quantities or defensible analogues, and record observations, adjustments, formulas, limitations, and useful bounds. Label analyst estimates separately from observed facts and authorial choices.
 
-Ask only for an essential authorial choice that cannot be represented as labelled conditional cases. Continue independent calculations while awaiting it. Ordinary estimation choices within the authorized analysis do not require separate approval. If no defensible estimate exists, retain an explicit missing dependency and calculate the supported portion; never replace unknown with zero.
+Ask only for an essential authorial choice that cannot be represented as labelled conditional cases. Continue independent calculations while awaiting it. Ordinary estimation choices within the authorized analysis do not require separate approval. If no defensible estimate exists, retain an explicit missing dependency and calculate the supported portion (R3).
 
 ## Calculate and reconcile
 
@@ -45,7 +47,7 @@ For engine migration, reconcile the reproduced baseline across relevant years wi
 
 Use common definitions and calculation versions across requested alternatives. Where changed history changes a crisis mechanism, include both each timeline's native reference path and matched external shocks. Share external assumptions and recompute endogenous consequences.
 
-Separate parameter uncertainty, political branches, and structural limitations. Do not invent narrative probabilities or call judgemental ranges confidence intervals. Explain major drivers and interactions. Keep sovereign resources, foreign income, and partner/network output separate, with explicit treaty rights and territory.
+Separate parameter uncertainty, political branches, and structural limitations. Do not invent narrative probabilities (R3) or call judgemental ranges confidence intervals. Explain major drivers and interactions. Keep sovereign resources, foreign income, and partner/network output separate, with explicit treaty rights and territory.
 
 Use the implemented Lab format or [the provisional exchange contract](references/exchange-contract.md); do not imply an importer exists. When supplying an Aegis review, also follow the shared [ontology workflow](../aegis/references/ontology-workflow.md). Emit QuantityClaims with the review's case/entity IDs, period, jurisdiction, units, stock/flow/rate/noncash meaning, gross/net basis, quantitative origin and located calculation provenance. Distinguish legal claims, commitments, drawings, collections and usable resources. Use a typed missing state and reason for unavailable outputs; a checked equation does not validate its parameters or quantify power.
 
@@ -58,4 +60,4 @@ Deliver proportionately:
 3. Reproducible inputs/calculations, supported baseline/scenario results, and executed checks.
 4. A concise comparison of differences, sensitivities, conditional coverage, and unresolved dependencies.
 
-Label partial and conditional results prominently. A direct-cost inventory is not a complete GDP/treasury trajectory. Keep assumptions, outputs, and approval status distinct. Financial analysis alone does not authorize adopting canon, changing approvals, overwriting sources, merging a PR, or publishing a dashboard.
+Label partial and conditional results prominently. A direct-cost inventory is not a complete GDP/treasury trajectory. Keep assumptions, outputs, and approval status distinct. Financial analysis alone does not authorize adopting canon, changing approvals, overwriting sources, merging a PR, or publishing a dashboard (R2, R6).

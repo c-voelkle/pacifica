@@ -7,11 +7,13 @@ description: Audit Pacifica story passages and supporting canon for internal and
 
 Find statements that cannot all hold in the same narrative scope. This is a consistency review, independent of whether a plot choice improves Julian's power or matches real history. Preserve the author's unresolved choices and intentional mysteries.
 
+Apply the [shared authority and scope rules](../mahoe/references/authority-and-scope.md) (R1–R7). This file covers only how Aumakua audits consistency.
+
 ## Establish scope and authority
 
-Read the repository's `AGENTS.md` and identify the requested passages, current revisions and governing approvals. In Pacifica, start with `book-agent/revision/master_storyline.md`, then the relevant entries of `change_requests.json`; consult the current character bible and stable-ID registry for identity questions. Read related context and assumptions when they bear on the question. Original manuscripts, archival proposals and generated indexes have the authority assigned by the repository, not equal standing with current approved prose.
+Read the repository's `AGENTS.md` and identify the requested passages, current revisions and governing approvals. In Pacifica, start with `book-agent/revision/master_storyline.md`, then the relevant entries of `change_requests.json`; consult the current character bible and stable-ID registry for identity questions. Read related context and assumptions when they bear on the question. Original manuscripts, archival proposals and generated indexes have the authority assigned by the repository (R1).
 
-For a substantial audit, record source versions or hashes and the actual passages read. Agreeable documents can still repeat the same error. If approved instructions and current prose differ, report the integration mismatch rather than silently choosing one account. Preserve APPROVED, PROPOSED, OPEN and MODEL distinctions locally; an overview does not approve every detail beneath it.
+For a substantial audit, record source versions or hashes and the actual passages read. Agreeable documents can still repeat the same error. Report a disagreement between approved instructions and current prose as an integration mismatch (R1).
 
 ## Read and compare
 
@@ -36,7 +38,7 @@ Give each finding a clear classification and a separate lifecycle status. Use co
 
 Cite both sides with file, section or line, and short exact quotations. State the aligned scope, why the statements conflict, plausible compatible readings, and what remains uncertain. Rank by narrative consequence and strength of evidence; do not assign an unsupported overall consistency score. Suggest the smallest repair options and their affected passages without adopting a new fact or deciding an open authorial choice.
 
-On repeat audits, complete the independent prose sweep before reading prior findings when practical. Then reconcile each earlier issue as retained, resolved with cited evidence, not reproduced, or outside this audit's scope. Do not silently drop an unresolved finding. If prior findings were already visible, disclose that the pass was not independent.
+On repeat audits, complete the independent prose sweep before reading prior findings when practical. Then reconcile each earlier issue as retained, resolved with cited evidence, not reproduced, or outside this audit's scope. Do not silently drop an unresolved finding. If prior findings were already visible, disclose that the pass was not independent (R5).
 
 For multi-section audits and comparisons, use [references/review-records.md](references/review-records.md) for the issue ledger, coverage and reconciliation record. A narrow question can be answered directly with the two passages and a calibrated conclusion. Never claim a full-text audit from a few searches or graph queries; distinguish directly read, searched-only and unread material.
 
@@ -48,4 +50,4 @@ Save a linked audit graph with paired quoted SourcePassages, classifications, li
 
 Consult Clio when resolving the issue requires external historical evidence, Chryseis for consequential financial calculations, and Aegis for the effect of a proposed repair on effective power. Keep unresolved internal conflicts visible while those questions are investigated. Use those skills only when their work is needed by the request.
 
-Reviewing does not authorize narrative edits or approval of canon. Apply repairs when the user authorizes them, following repository synchronization requirements and checking every affected passage. Preserve protected mysteries and unresolved genealogy; a character's suspicion cannot establish an unknown culprit.
+Reviewing does not authorize narrative edits or approval of canon (R2). Apply repairs when the user authorizes them, following repository synchronization requirements and checking every affected passage. Preserve protected mysteries and unresolved genealogy (R3).

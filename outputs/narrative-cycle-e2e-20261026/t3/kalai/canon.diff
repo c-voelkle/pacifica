@@ -1,0 +1,523 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index edd4907..df8bee4 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -40,7 +40,7 @@ Follow the current master storyline, CR register and direct author correction CR
+ 
+ CR-014 retains the Kuhina Nui under Lot. Constitutional amendment and member ratification govern enabling authority; do not restore the superseded personal-veto or abolished-office explanations. The western peace framework is 1865, with Senate ratification in 1867.
+ 
+-Noe Kaʻanoe Ward is Julian’s mother; the hānai adoption bargain is made in 1886, before her ambiguous death in 1888. Never establish a murderer. Victoria Kamāmalu is Queen of Hawaii from December 1872 and Regent of Pacifica from 1887. The legal fifty-year Puʻuloa lease of 1874 precedes illegal ordinances of 1874–1876 and the ignored 1876 judgment. There is no massacre or throne abeyance. The 1914 Act joins crowns and dissolves the appointed Council; Julian accedes to both in 1915. Kahekili / Ikazuchi is the future Kamehameha VII; preserve his existing stable ID CT-KALANIMOKU-HEIR and distinguish the lost Kalanimoku.
++Noe Kaʻanoe Ward is Julian’s mother; the hānai adoption bargain is made in 1886, before her ambiguous death in spring 1889 (CR-033, direct author correction of 26 October 2026; the official typhoid account and poisoning testimony are unchanged). Never establish a murderer. Victoria Kamāmalu is Queen of Hawaii from December 1872 and Regent of Pacifica from 1887. The legal fifty-year Puʻuloa lease of 1874 precedes illegal ordinances of 1874–1876 and the ignored 1876 judgment. There is no massacre or throne abeyance. The 1914 Act joins crowns and dissolves the appointed Council; Julian accedes to both in 1915. Kahekili / Ikazuchi is the future Kamehameha VII; preserve his existing stable ID CT-KALANIMOKU-HEIR and distinguish the lost Kalanimoku.
+ 
+ The Constitution of the Realm uses 124 counties. Tongue votes are uncapped. The Pacific Concord has two coequal parties; Julian’s Realm, Hawaiian and Philippine crowns form one party opposite Japan. CR-029 supplies the Philippine crown, separate plebiscites and 1915 Manila oath. Ka Lōkahi has three internal votes and ten-year reviews; it is distinct from the Hayama Council and five-year Concord executive term. The detailed combined Sovereign/Mōʻī/Rey style remains locally PROPOSED; he is never President. Annual Councils are at Hayama. Illegal provisional application in 1927 receives consent and indemnity in 1928. The crowns agree the 1932 renewal at Hayama, and ministers sign/exchange instruments at Thalassia; the renewal runs to 1937.
+ 
+diff --git a/book-agent/revision/CR-033.md b/book-agent/revision/CR-033.md
+new file mode 100644
+index 0000000..020c89f
+--- /dev/null
++++ b/book-agent/revision/CR-033.md
+@@ -0,0 +1,37 @@
++# CR-033 — The date of Noe's death
++
++**Status:** APPROVED — direct author correction, 26 October 2026. **Amends:** [CR-021](CR-021.md) F1 and revision-9 decision R9-09, only as to the date. **Scope:** When Kaʻanoe (Noe) Ward dies, and the consequences of that date. Her identity, biography, hānai bargain, the official account, the testimony and the mystery are unchanged.
++
++## Author decision
++
++> I've decided Noe dies in spring 1889, not autumn 1888. Keep the typhoid account, the poisoning testimony and the unsolved mystery exactly as they are. Integrate this into canon now — master storyline, CR register, character docs, whatever it touches — and run the sync and validators.
++
++## Operative correction
++
++Noe dies in the spring of 1889 during a typhoid outbreak she is fighting. Victoria's physician certifies typhoid; her servants swear she was poisoned; her registers disappear for a month and return in the Office of Public Measures; loyalists call it murder and Silas's people spread the story. No culprit is established, and the Chronicler can prove none guilty. All of that is carried over unchanged from CR-021 F1 and R9-09.
++
++The correction supplies no exact day, no new witness, no new suspect and no new evidence. "Spring 1889" is the full precision of the decision.
++
++## Consequences carried into canon
++
++- Noe now lives about twenty months after Elias's death in August 1887, not about fourteen. She is alive through the regency's first full year, the 1888 Franchise Law, the 1888 immigration restriction and the founding of the Office of Public Measures in 1888.
++- Julian, born in 1886, is about two or three when she dies. No passage depends on his remembering her.
++- The rumour of "the Regent's year" still groups Caleb (October 1887), the Donner telegraphist burned in his hut in January 1888, and Noe. The master now dates the telegraphist explicitly, because "that January" would otherwise read as January 1889. The rumour's wording is kept exactly. It now covers about eighteen months instead of about twelve, which is loose but plausible for a rumour. Renaming it would be an author choice.
++- Her limited achievement now runs from 1886 to 1889. The "three years" language about not reversing mortality still holds.
++- Approved dates that depend on other decisions are unchanged: the Office of Public Measures in 1888, Victoria's island-wide vaccination in 1888–1892, the turn in the population curve about 1895, and infant mortality as the state's measure from 1888.
++
++## Open bridge
++
++**OPEN-033-01 — Noe and the Office during 1888–1889.** Before this correction the Office's founding year and Noe's death fell in the same year. Now the Office, the start of Victoria's island-wide vaccination in 1888 and the PROPOSED Hollerith tabulation of "Noe's registers from 1888" all begin while Noe is alive and still medical director. The approved prose already has the registers disappearing at her death and returning in the Office, so the original district registers stay in her custody until then. How the two institutions relate during the overlapping year is not decided. Alternatives for the author, none adopted:
++
++1. **Reporting without custody.** Her board sends periodic returns to the Office, which tabulates and publishes them, while she keeps the original district registers. The Office's 1888 work builds on her figures by agreement, and the originals reach it only after her death.
++2. **Contested custody.** She refuses to surrender the registers to a Regent's office and works with it only through formal returns. This sharpens the rivalry and gives the disappearance more competing motives, without choosing a culprit.
++3. **Shift the dependent PROPOSED detail only.** Hollerith's tabulation of her registers begins in 1889 rather than 1888. Only the locally PROPOSED date changes; the approved 1888 Office and 1888–1892 vaccination stay as they are.
++
++Any of these would need a separate author decision. Option 2 adds a new conflict premise and should not be adopted by default.
++
++## Records not rewritten
++
++[CR-021.md](CR-021.md), its register `source_text` and the verbatim `author_amendments` decision R9-09 still say autumn 1888, because they record what was approved on 20 October. The same goes for the supplied-master excerpts in the CR-022, CR-026, CR-028 and CR-030 reading records and in [dependency_decisions_211026.md](dependency_decisions_211026.md). This decision governs them as to the date. The CR-032 alternative drafts do not date the death and are unchanged.
++
++No financial, demographic or MODEL figure depends on the month of her death. The workbook is unchanged.
+diff --git a/book-agent/revision/README.md b/book-agent/revision/README.md
+index 63caa6a..81962c0 100644
+--- a/book-agent/revision/README.md
++++ b/book-agent/revision/README.md
+@@ -1,6 +1,6 @@
+ # Current revision — 23 October 2026
+ 
+-Read [the master storyline](master_storyline.md), updated through the direct author correction [CR-031-R1](CR-031-R1.md). The initial supplied snapshot is preserved in Git history; current prose incorporates the correction. The [integration record](CR-031-integration.md), [character bible](character_bible.md), [identity registry](character_registry.json), [historical background](historical_background.md) and [financial review](../../finance/CR-031-review.md) describe this revision.
++Read [the master storyline](master_storyline.md), updated through the direct author corrections [CR-031-R1](CR-031-R1.md) and [CR-033](CR-033.md) (Noe Ward’s death in spring 1889). The initial supplied snapshot is preserved in Git history; current prose incorporates the correction. The [integration record](CR-031-integration.md), [character bible](character_bible.md), [identity registry](character_registry.json), [historical background](historical_background.md) and [financial review](../../finance/CR-031-review.md) describe this revision.
+ 
+ CR-028 narrows the recognition bargain while retaining proposed mechanics. CR-029 revises the Philippine/island sequence and three-crown settlement. CR-030 adds the railway operating schedule; CR-031 supersedes the all-Siberian northern destination. CR-031-R1 replaces the Company’s bonded-labour premise with the reciprocal nineteenth-century Japanese–Pacifican construction advance and paid employment; model figures remain unchanged. Missing standalone CRs have clearly marked excerpt records, not invented originals. The original CR-027 attachment and earlier CR sources remain unchanged.
+ 
+@@ -33,7 +33,7 @@ The notes below describe earlier integration stages; current source precedence a
+ 
+ ## Authority and open decisions
+ 
+-The current user authorizes publication of the supplied updated storyline and CR-027’s Section E updates as a new PR. CR-027 supersedes the fictional cousin, 1857 wedding, massacre, abeyance and 1874 judgment: Victoria marries in November 1858, reigns from 1872, leases Puʻuloa lawfully in 1874 and accepts illegal encroachments in 1874–1876; the judgment is 1876. The 1914 Act joins crowns and restores legislature. Earlier CR source files are preserved. CR-021’s prior approval after CR-020 remains operative elsewhere. Revision 9 applies the direct author corrections to the previously approved framework and all seventeen OPEN-021 decisions. Final K decisions and revision-8 protocol override older labels. Noe’s identity and 1886 hānai bargain are settled, while culpability for her 1888 death is deliberately unproved. Kahekili / Ikazuchi is the heir, future Kamehameha VII. Unrelated Vance/1905 peace and earlier OPEN mechanics remain qualified. Numerical results stay MODEL.
++The current user authorizes publication of the supplied updated storyline and CR-027’s Section E updates as a new PR. CR-027 supersedes the fictional cousin, 1857 wedding, massacre, abeyance and 1874 judgment: Victoria marries in November 1858, reigns from 1872, leases Puʻuloa lawfully in 1874 and accepts illegal encroachments in 1874–1876; the judgment is 1876. The 1914 Act joins crowns and restores legislature. Earlier CR source files are preserved. CR-021’s prior approval after CR-020 remains operative elsewhere. Revision 9 applies the direct author corrections to the previously approved framework and all seventeen OPEN-021 decisions. Final K decisions and revision-8 protocol override older labels. Noe’s identity and 1886 hānai bargain are settled, while culpability for her death in spring 1889 (date per CR-033) is deliberately unproved. Kahekili / Ikazuchi is the heir, future Kamehameha VII. Unrelated Vance/1905 peace and earlier OPEN mechanics remain qualified. Numerical results stay MODEL.
+ 
+ The Western peace framework is 1865, Senate ratification 1867. Russia retains the northern coast until 1921; CR-021 revision 9 assigns Kamchatka, Okhotsk coast and Nikolayevsk to the Siberian Republic; any Japanese access is treaty-only. The eastern through route is completed under Japanese control through Chinese Manchuria. Combined allied fleet limits in 1919 precede the formal 1927 ministries. These distinctions govern broad or inconsistent source wording.
+ 
+diff --git a/book-agent/revision/approved_change_index.md b/book-agent/revision/approved_change_index.md
+index 8d3d512..e4931dd 100644
+--- a/book-agent/revision/approved_change_index.md
++++ b/book-agent/revision/approved_change_index.md
+@@ -3,7 +3,7 @@
+ 
+ ## Automatically synchronized approval ledger
+ 
+-**Approved requests:** 30 · **Authority:** [change_requests.json](change_requests.json).
++**Approved requests:** 31 · **Authority:** [change_requests.json](change_requests.json).
+ 
+ This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
+ 
+@@ -446,7 +446,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the
+ - C/K4/9/10/13: English Realm administration; Spanish/Hawaiian entrenched historic-land languages, other county languages granted. Three-language confederal acts. Crown oath/Hawaiian schools restored 1914; Japanese Realm standing 1927 and some trilingual Hawaiian counties 1928; no Chinese county status by 1932. Gulf English with regional French/Spanish; Defense Law test English or Spanish.
+ - A/C3/K4/R9-07: 1888 plural franchise one to three ordinary votes plus one tongue vote for each certified Crown-listed language beyond English, expressly uncapped. Referendums examined citizens only; multilingual technical entry plus English bridging year; naturalization/civil exam English; interpreted guest contracts and subsidized community language schools retained.
+ - D/F1: Kaʻanoe (Noe) Ward c.1860 Lahaina, surgeon father and Maui chiefly mother; Queen’s Hospital nurse 1881, Polytechnic physician 1884, Elias’s physician 1885, 1886 health-board director and mother of Julian. Birth/adoption 1886 with written consent and negotiated health board, continuing contact and Hawaiian upbringing. Registers and begun vaccination are her limited real achievement.
+-- F1: Noe dies autumn 1888 during a typhoid outbreak; official certificate by Kaiulani’s physician, servants allege poison, missing registers return after a month to Office. Loyalists/Silas spread murder claims; no culprit proved. Kaiulani builds measures on the registers, completes vaccination 1888–92, nurses/water/Kalaupapa in 1890s and population recovery about 1895. Emotional motives remain mixed.
++- F1: Noe dies in spring 1889 (date per CR-033; originally autumn 1888) during a typhoid outbreak; official certificate by Kaiulani’s physician, servants allege poison, missing registers return after a month to Office. Loyalists/Silas spread murder claims; no culprit proved. Kaiulani builds measures on the registers, completes vaccination 1888–92, nurses/water/Kalaupapa in 1890s and population recovery about 1895. Emotional motives remain mixed.
+ - D/F/K2: Julian learns Hawaiian, English, Spanish and Japanese, spends 1905–06 in Tokyo, comes of age 1907 without a crown. 1914 Act of Settlement establishes House, restores Hawaiian crown and proclaims Kamehameha VI; 1915 Realm accession. Succession eldest son, then eldest daughter, else adopted heir with Senate consent. Kahekili / 雷 Ikazuchi is future Kamehameha VII; lost Kalanimoku remains distinct.
+ - E1/K9: Pacific Concord / 太平洋協約 Taiheiyō Kyōyaku, colloquial Concord/Taihei; la Concordia del Pacífico and ka Lōkahi. The Union always means the United States. Restoration circles use Thalassia bakufu and Taiheiki imagery against the shared government.
+ - E2/D/K3: Julian applies Concord provisionally in 1927 despite Senate refusal; illegal in substance. Japan follows its treaty prerogative, Privy Council conditions and Diet quota. Bank crisis and Takahashi’s moratorium explain time pressure. Kaiulani supports the Concord and brokers the 1928 Act of Indemnity: two-thirds consent, five-year first term, reviewed quota, half-Senate/half-Chamber delegates and Polytechnic audit; case mooted before judgment.
+@@ -472,7 +472,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the
+ - R9-06: At least one common minister Japanese by law; convention gives Navy to Japan while Foreign Affairs and Finance normally stay Pacifican. Western squadron’s reserved command ends at the 1932 renewal.
+ - R9-07: Tongue votes are expressly uncapped; each certified Crown-listed language beyond English adds one vote, alongside one to three ordinary votes.
+ - R9-08: Prince Chichibu is the Emperor’s resident representative at Thalassia. His education, honors and outdoorsman reputation develop in Pacifica instead of Britain/Europe, showing Japan’s turn toward the realm. The narrative gives him Carquinez study in 1925–1926 and Sierra/Hawaiian field life; particular decorations/climbs remain unprovided.
+-- R9-09: Noe’s death remains ambiguous: official autumn 1888 typhoid certificate and poisoning testimony retained, no culprit established. Her agency, health work and hānai bargain remain.
++- R9-09: Noe’s death remains ambiguous: official typhoid certificate (death dated spring 1889 by CR-033) and poisoning testimony retained, no culprit established. Her agency, health work and hānai bargain remain.
+ 
+ ### CR-022 — Silas, Abigail Merritt and Donner Pass (revision 3)
+ 
+@@ -612,6 +612,19 @@ This ledger reflects approved requirements, outstanding qualifications, and the
+ - Keep the Company’s founding/ownership mechanics locally PROPOSED, the fortification question OPEN-031-11, the Altai arc independently qualified, and all identities/legacy mappings unchanged.
+ - Keep financial workbook bytes, assumptions and saved figures unchanged; no quantified productivity gain, labour-cost adjustment or recalculation is authorized or inferred.
+ 
++### CR-033 — Noe Ward’s death in spring 1889
++
++**Register status:** `approved_direct_author_correction_integrated`
++
++- Kaʻanoe (Noe) Ward dies in spring 1889, not autumn 1888. No exact day is supplied.
++- Keep exactly the official typhoid account certified by Victoria’s physician, the servants’ poisoning testimony, the month-long disappearance of the registers and their return in the Office of Public Measures, the loyalist murder claims spread by Silas’s people, and the unproved culpability. No culprit, new suspect or new evidence.
++- Noe lives about twenty months after Elias’s August 1887 death, into the second year of the regency; her limited health-board achievement runs 1886–1889. The Donner telegraphist’s death is dated January 1888 in the ‘Regent’s year’ rumour.
++- Approved dates owned by other decisions stay unchanged: Office of Public Measures 1888, Victoria’s island-wide vaccination 1888–1892, population turn about 1895, Julian’s 1886 birth and hānai adoption.
++- Update master storyline, character bible and registry, summaries and the register together; CR-021 source text, verbatim R9-09 amendment and earlier source-snapshot reading records are preserved as provenance.
++
++**Still open:**
++- OPEN-033-01: How Noe’s health board and the Office of Public Measures (founded 1888) share the registers while she lives in 1888–1889, and whether the PROPOSED Hollerith tabulation of her registers ‘from 1888’ keeps that date. Alternatives in CR-033.md; none adopted.
++
+ ### Author-approved editorial safeguards
+ 
+ - Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
+@@ -650,7 +663,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the
+ - Replacement workbook checks are reported source results. Its missing bank-by-bank and transport tests remain audit gaps, not resolved failures in the earlier workbook.
+ - CR-021 revision 8 and final K decisions override earlier PROPOSED/OPEN labels inside that attachment. All seventeen OPEN-021 entries are decided; uncapped tongue votes are an express direct author decision in revision 9.
+ - Julian is never styled President; the presidency is a delegated executive function of his Crown. Hayama always hosts the crowns’ Council; reigning Hirohito never visits Thalassia. The Altai secret is withheld.
+-- Noe’s identity, 1886 hānai bargain and official autumn 1888 typhoid account are settled; no culprit is proved. Do not erase medical work or reduce Victoria’s rivalry to jealousy.
++- Noe’s identity, 1886 hānai bargain and official typhoid account (death in spring 1889 per CR-033) are settled; no culprit is proved. Do not erase medical work or reduce Victoria’s rivalry to jealousy.
+ - Hawaiian Crown land and ʻAha Aliʻi custody are distinct from Realm regulation and county lease administration. The 1914 Act joins crowns and restores legislature and language without reversing the 1876 judgment.
+ - The latest dominance/reserve/stress comparisons are source-reported MODEL values. Do not mix their Union per-person comparator with CR-020’s historical-US comparator or infer a complete new GDP series.
+ - Revision 9: Chichibu is selected, not a candidate. His Pacifican education, Crown honors and outdoorsman reputation show Japan’s Pacifican orientation instead of a British/European career. Avoid inventing particular orders, ranks or summit records.
+@@ -707,7 +720,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the
+ | 1925–1932 | Gulf general measures pass 1925 and survive 1927 flood; 1931 oil glut breaks streak, compact delayed to 1932. Parity unmet, twenty-five-year admission challenge extends beyond novel. |
+ | about 1927–1932 | The whole order overtakes Union money output as partners grow; 1932 Pacifica-only nominal crossing is a resented headline while Union real output remains larger. Union joins fleet limits; emulation and containment continue. |
+ | 1856–1887 | Monterey common government until 1885; lawful 1865 Enabling Law/life Providentorship. Lawful Puʻuloa lease 1874; illegal 1874–1876 ordinances and Council; ignored 1876 judgment. Constitution of Realm legal in form, Truce extra-legal then organic law. Victoria Queen from 1872 and Regent from 1887; the Five run chartered estates. |
+-| 1875–1888 | Thalassia decision 1875, Pearl works 1875–85, Pali tunnel/channel 1876–82, cable 1879, offices move 1885. Noe qualifies 1884, physician 1885, health board and Julian birth/adoption 1886, dies contested typhoid 1888; registers found Office of Public Measures. |
++| 1875–1889 | Thalassia decision 1875, Pearl works 1875–85, Pali tunnel/channel 1876–82, cable 1879, offices move 1885. Noe qualifies 1884, physician 1885, health board and Julian birth/adoption 1886, Office of Public Measures 1888; she dies contested typhoid spring 1889 (CR-033) and her registers pass to the Office. |
+ | 1888–1914 | Plural and uncapped tongue votes, county grades and certification; Victoria extends Noe’s health work. Julian’s 1907 majority does not end regency. 1914 Act establishes Pacifican Crown, joins existing Hawaiian crown, dissolves Council and restores legislature/schools/language; Julian heir, accedes in 1915. |
+ | 1906–1929 | Polytechnic of Formosa opens 1906, Japanese school/joint board 1928, Sino-Pacifican foundation 1928–29. Formosan Revenue Convention becomes Concord administration with Chinese-commissioned Japanese deputy. |
+ | 1921–1928 | Hirohito’s one Thalassia visit/dive as prince 1921; marine exchange thereafter at Hayama. Julian’s 1923 earthquake relief, Chiyo/Nagako friendship 1924, 1927 crisis and illegal provisional Concord, 1928 Victoria indemnity and first Hayama Council. |
+diff --git a/book-agent/revision/change_requests.json b/book-agent/revision/change_requests.json
+index e539f1a..cf9fa1d 100644
+--- a/book-agent/revision/change_requests.json
++++ b/book-agent/revision/change_requests.json
+@@ -1,9 +1,9 @@
+ {
+   "project": "Pacifica",
+-  "version": "authorial-change-register-v14",
++  "version": "authorial-change-register-v15",
+   "approved_on": "2026-10-23",
+   "base_manuscript": "book-agent/manuscript_chaptered.md",
+-  "authority": "CR-031-R1 is the direct author correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid Company employment. It supersedes only the prior labour-gang premise, attributed complicity and unsupported Kolyma cost comparison. The 23 October master through CR-031 otherwise governs with its local PROPOSED/OPEN/MODEL labels; source snapshots remain historical evidence.",
++  "authority": "CR-033 is the direct author correction of 26 October 2026 dating Noe Ward’s death to spring 1889; it changes only the date and keeps the typhoid account, poisoning testimony and unproved culpability. CR-031-R1 is the direct author correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid Company employment. It supersedes only the prior labour-gang premise, attributed complicity and unsupported Kolyma cost comparison. The 23 October master through CR-031 otherwise governs with its local PROPOSED/OPEN/MODEL labels; source snapshots remain historical evidence.",
+   "architecture": {
+     "chronology": "Primarily chronological, with selective retrospection",
+     "form": "Hybrid chronicle and independent character POV scenes",
+@@ -1581,7 +1581,7 @@
+         "C/K4/9/10/13: English Realm administration; Spanish/Hawaiian entrenched historic-land languages, other county languages granted. Three-language confederal acts. Crown oath/Hawaiian schools restored 1914; Japanese Realm standing 1927 and some trilingual Hawaiian counties 1928; no Chinese county status by 1932. Gulf English with regional French/Spanish; Defense Law test English or Spanish.",
+         "A/C3/K4/R9-07: 1888 plural franchise one to three ordinary votes plus one tongue vote for each certified Crown-listed language beyond English, expressly uncapped. Referendums examined citizens only; multilingual technical entry plus English bridging year; naturalization/civil exam English; interpreted guest contracts and subsidized community language schools retained.",
+         "D/F1: Kaʻanoe (Noe) Ward c.1860 Lahaina, surgeon father and Maui chiefly mother; Queen’s Hospital nurse 1881, Polytechnic physician 1884, Elias’s physician 1885, 1886 health-board director and mother of Julian. Birth/adoption 1886 with written consent and negotiated health board, continuing contact and Hawaiian upbringing. Registers and begun vaccination are her limited real achievement.",
+-        "F1: Noe dies autumn 1888 during a typhoid outbreak; official certificate by Kaiulani’s physician, servants allege poison, missing registers return after a month to Office. Loyalists/Silas spread murder claims; no culprit proved. Kaiulani builds measures on the registers, completes vaccination 1888–92, nurses/water/Kalaupapa in 1890s and population recovery about 1895. Emotional motives remain mixed.",
++        "F1: Noe dies in spring 1889 (date per CR-033; originally autumn 1888) during a typhoid outbreak; official certificate by Kaiulani’s physician, servants allege poison, missing registers return after a month to Office. Loyalists/Silas spread murder claims; no culprit proved. Kaiulani builds measures on the registers, completes vaccination 1888–92, nurses/water/Kalaupapa in 1890s and population recovery about 1895. Emotional motives remain mixed.",
+         "D/F/K2: Julian learns Hawaiian, English, Spanish and Japanese, spends 1905–06 in Tokyo, comes of age 1907 without a crown. 1914 Act of Settlement establishes House, restores Hawaiian crown and proclaims Kamehameha VI; 1915 Realm accession. Succession eldest son, then eldest daughter, else adopted heir with Senate consent. Kahekili / 雷 Ikazuchi is future Kamehameha VII; lost Kalanimoku remains distinct.",
+         "E1/K9: Pacific Concord / 太平洋協約 Taiheiyō Kyōyaku, colloquial Concord/Taihei; la Concordia del Pacífico and ka Lōkahi. The Union always means the United States. Restoration circles use Thalassia bakufu and Taiheiki imagery against the shared government.",
+         "E2/D/K3: Julian applies Concord provisionally in 1927 despite Senate refusal; illegal in substance. Japan follows its treaty prerogative, Privy Council conditions and Diet quota. Bank crisis and Takahashi’s moratorium explain time pressure. Kaiulani supports the Concord and brokers the 1928 Act of Indemnity: two-thirds consent, five-year first term, reviewed quota, half-Senate/half-Chamber delegates and Polytechnic audit; case mooted before judgment.",
+@@ -1607,7 +1607,7 @@
+         "R9-06: At least one common minister Japanese by law; convention gives Navy to Japan while Foreign Affairs and Finance normally stay Pacifican. Western squadron’s reserved command ends at the 1932 renewal.",
+         "R9-07: Tongue votes are expressly uncapped; each certified Crown-listed language beyond English adds one vote, alongside one to three ordinary votes.",
+         "R9-08: Prince Chichibu is the Emperor’s resident representative at Thalassia. His education, honors and outdoorsman reputation develop in Pacifica instead of Britain/Europe, showing Japan’s turn toward the realm. The narrative gives him Carquinez study in 1925–1926 and Sierra/Hawaiian field life; particular decorations/climbs remain unprovided.",
+-        "R9-09: Noe’s death remains ambiguous: official autumn 1888 typhoid certificate and poisoning testimony retained, no culprit established. Her agency, health work and hānai bargain remain."
++        "R9-09: Noe’s death remains ambiguous: official typhoid certificate (death dated spring 1889 by CR-033) and poisoning testimony retained, no culprit established. Her agency, health work and hānai bargain remain."
+       ],
+       "open": [],
+       "source_open_items": [
+@@ -1825,7 +1825,13 @@
+         "F1": "Read hānai son of the Queen; add Emma’s Queen’s Hospital and loyalist patrons.",
+         "media": "Office measures; Five’s press publishes.",
+         "source_document": "CR-021.md preserved unchanged."
+-      }
++      },
++      "superseded_by": [
++        {
++          "id": "CR-033",
++          "scope": "Date of Noe’s death only (autumn 1888 becomes spring 1889); F1/R9-09 official account, testimony and unproved culpability retained"
++        }
++      ]
+     },
+     {
+       "id": "CR-022",
+@@ -2346,6 +2352,25 @@
+         "Keep financial workbook bytes, assumptions and saved figures unchanged; no quantified productivity gain, labour-cost adjustment or recalculation is authorized or inferred."
+       ],
+       "open": []
++    },
++    {
++      "id": "CR-033",
++      "title": "Noe Ward’s death in spring 1889",
++      "status": "approved_direct_author_correction_integrated",
++      "approved_on": "2026-10-26",
++      "integrated_on": "2026-10-26",
++      "decision_record": "CR-033.md",
++      "authorization": "Direct author correction in this conversation; no new invented original CR attachment.",
++      "requirements": [
++        "Kaʻanoe (Noe) Ward dies in spring 1889, not autumn 1888. No exact day is supplied.",
++        "Keep exactly the official typhoid account certified by Victoria’s physician, the servants’ poisoning testimony, the month-long disappearance of the registers and their return in the Office of Public Measures, the loyalist murder claims spread by Silas’s people, and the unproved culpability. No culprit, new suspect or new evidence.",
++        "Noe lives about twenty months after Elias’s August 1887 death, into the second year of the regency; her limited health-board achievement runs 1886–1889. The Donner telegraphist’s death is dated January 1888 in the ‘Regent’s year’ rumour.",
++        "Approved dates owned by other decisions stay unchanged: Office of Public Measures 1888, Victoria’s island-wide vaccination 1888–1892, population turn about 1895, Julian’s 1886 birth and hānai adoption.",
++        "Update master storyline, character bible and registry, summaries and the register together; CR-021 source text, verbatim R9-09 amendment and earlier source-snapshot reading records are preserved as provenance."
++      ],
++      "open": [
++        "OPEN-033-01: How Noe’s health board and the Office of Public Measures (founded 1888) share the registers while she lives in 1888–1889, and whether the PROPOSED Hollerith tabulation of her registers ‘from 1888’ keeps that date. Alternatives in CR-033.md; none adopted."
++      ]
+     }
+   ],
+   "explicit_cautions": [
+@@ -2385,7 +2410,7 @@
+     "Replacement workbook checks are reported source results. Its missing bank-by-bank and transport tests remain audit gaps, not resolved failures in the earlier workbook.",
+     "CR-021 revision 8 and final K decisions override earlier PROPOSED/OPEN labels inside that attachment. All seventeen OPEN-021 entries are decided; uncapped tongue votes are an express direct author decision in revision 9.",
+     "Julian is never styled President; the presidency is a delegated executive function of his Crown. Hayama always hosts the crowns’ Council; reigning Hirohito never visits Thalassia. The Altai secret is withheld.",
+-    "Noe’s identity, 1886 hānai bargain and official autumn 1888 typhoid account are settled; no culprit is proved. Do not erase medical work or reduce Victoria’s rivalry to jealousy.",
++    "Noe’s identity, 1886 hānai bargain and official typhoid account (death in spring 1889 per CR-033) are settled; no culprit is proved. Do not erase medical work or reduce Victoria’s rivalry to jealousy.",
+     "Hawaiian Crown land and ʻAha Aliʻi custody are distinct from Realm regulation and county lease administration. The 1914 Act joins crowns and restores legislature and language without reversing the 1876 judgment.",
+     "The latest dominance/reserve/stress comparisons are source-reported MODEL values. Do not mix their Union per-person comparator with CR-020’s historical-US comparator or infer a complete new GDP series.",
+     "Revision 9: Chichibu is selected, not a candidate. His Pacifican education, Crown honors and outdoorsman reputation show Japan’s Pacifican orientation instead of a British/European career. Avoid inventing particular orders, ranks or summit records.",
+@@ -2560,8 +2585,8 @@
+       "event": "Monterey common government until 1885; lawful 1865 Enabling Law/life Providentorship. Lawful Puʻuloa lease 1874; illegal 1874–1876 ordinances and Council; ignored 1876 judgment. Constitution of Realm legal in form, Truce extra-legal then organic law. Victoria Queen from 1872 and Regent from 1887; the Five run chartered estates."
+     },
+     {
+-      "range": "1875–1888",
+-      "event": "Thalassia decision 1875, Pearl works 1875–85, Pali tunnel/channel 1876–82, cable 1879, offices move 1885. Noe qualifies 1884, physician 1885, health board and Julian birth/adoption 1886, dies contested typhoid 1888; registers found Office of Public Measures."
++      "range": "1875–1889",
++      "event": "Thalassia decision 1875, Pearl works 1875–85, Pali tunnel/channel 1876–82, cable 1879, offices move 1885. Noe qualifies 1884, physician 1885, health board and Julian birth/adoption 1886, Office of Public Measures 1888; she dies contested typhoid spring 1889 (CR-033) and her registers pass to the Office."
+     },
+     {
+       "range": "1888–1914",
+@@ -2639,7 +2664,7 @@
+     "validation": "GitHub PR checks run sync_master_storyline.py --check for exact index sync and presence of approved CR coverage IDs in master_storyline.md.",
+     "limits": "Neither automatic ledger sync nor a coverage-ID check proves substantive prose integration; each approval requires editorial review of changed narrative paragraphs."
+   },
+-  "updated_on": "2026-10-23",
++  "updated_on": "2026-10-26",
+   "historical_background_path": "book-agent/revision/historical_background.md",
+   "source_documents": [
+     {
+@@ -2754,6 +2779,10 @@
+     {
+       "path": "CR-031-R1.md",
+       "role": "Direct author correction in this conversation; operative above the earlier supplied-master labour proposal."
++    },
++    {
++      "path": "CR-033.md",
++      "role": "Direct author correction of 26 October 2026 on the date of Noe’s death; operative above CR-021 F1/R9-09 as to date only."
+     }
+   ],
+   "current_supersession_notes": [
+@@ -2776,6 +2805,11 @@
+       "earlier": "CR-031 bonded-gang / Company-complicity proposal and Kolyma forced-labour cost comparison",
+       "current": "CR-031-R1",
+       "effect": "Reciprocal nineteenth-century industrial development, professional construction and directly managed, paid crews; no replacement scandal or numerical model change."
++    },
++    {
++      "earlier": "CR-021 F1 / R9-09 autumn 1888 date of Noe’s death",
++      "current": "CR-033",
++      "effect": "Noe dies in spring 1889. Official typhoid account, poisoning testimony, register episode and unproved culpability unchanged; OPEN-033-01 covers the 1888–1889 Office/health-board overlap."
+     }
+   ],
+   "integration_20261023": {
+@@ -2794,5 +2828,5 @@
+     "report": "CR-031-integration.md",
+     "source_snapshot_status": "Initial publication before CR-031-R1; recorded master hash identifies the original supplied snapshot, not the corrected current master."
+   },
+-  "current_master_sha256": "8b5df6f2b8bc9e3256722f7cb592ae71aeefbe01f2b28458bf624dec48eacde1"
++  "current_master_sha256": "e8ce139525cc90057d5d8ba17a238bb765d4fcd1d3ac2f425d731deb37595fe8"
+ }
+diff --git a/book-agent/revision/character_bible.md b/book-agent/revision/character_bible.md
+index 6274635..76e5d8d 100644
+--- a/book-agent/revision/character_bible.md
++++ b/book-agent/revision/character_bible.md
+@@ -1,7 +1,7 @@
+ # Pacifica — Canonical Character Bible
+ 
+-**Current authority:** [CR-031-R1](CR-031-R1.md), the current [master storyline](master_storyline.md), [CR-028](CR-028.md), [CR-029](CR-029.md), [CR-030](CR-030.md), [CR-031](CR-031.md), [CR-027](CR-027.md),  [Master Storyline](master_storyline.md), [approved changes](change_requests.json), [CR-015](CR-015.md), the [Power Timeline](power_timeline_1865_1900.md), [CR-018](CR-018.md), [CR-019](CR-019.md), [CR-020](CR-020.md), [CR-021 revision 9](CR-021.md), and the accepted directions in [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md).  
+-**Updated:** 23 October 2026 — CR-031-R1 applies the author’s correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid employment; other approval, proposal, open-decision and MODEL distinctions remain.  
++**Current authority:** [CR-033](CR-033.md), [CR-031-R1](CR-031-R1.md), the current [master storyline](master_storyline.md), [CR-028](CR-028.md), [CR-029](CR-029.md), [CR-030](CR-030.md), [CR-031](CR-031.md), [CR-027](CR-027.md),  [Master Storyline](master_storyline.md), [approved changes](change_requests.json), [CR-015](CR-015.md), the [Power Timeline](power_timeline_1865_1900.md), [CR-018](CR-018.md), [CR-019](CR-019.md), [CR-020](CR-020.md), [CR-021 revision 9](CR-021.md), and the accepted directions in [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md).  
++**Updated:** 26 October 2026 — CR-033 moves Noe Ward’s death to spring 1889, keeping the official typhoid account, poisoning testimony and unproved culpability. 23 October 2026 — CR-031-R1 applies the author’s correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid employment; other approval, proposal, open-decision and MODEL distinctions remain.  
+ **Companion machine-readable register:** [character_registry.json](character_registry.json).  
+ **Archival profiles:** [../character_bible.json](../character_bible.json), retained intact for source comparison.  
+ **Scope:** Character identities, life trajectories, relationships, motivations, psychology, focalization and voice. This is documentation for the second draft, **not rewritten manuscript prose**.
+@@ -50,7 +50,7 @@ She succeeds Lot in December 1872 under Article 22, without election, and appoin
+ 
+ She signs a lawful fifty-year Puʻuloa lease and common defence treaty in 1874. **[PROPOSED — CR-027]** The instrument’s title and March date are working details. The 1874–1876 ordinances and appointed Territorial Council are illegal encroachments. Ruth resigns; the office stays vacant. The Supreme Court’s 1876 judgment voiding the ordinances goes unenforced and is never reversed. The settlement’s shape is approved; exact instruments and judgment wording remain proposed. The Council’s English Schools Ordinance of 1876 is its own act; Elias does not overrule it. Victoria fights it and funds Hawaiian-language schools through the Society. She keeps her estate, reducing Ruth’s and later Pauahi’s eventual holdings relative to history.
+ 
+-The hardening takes thirteen years of defending this bargain. Kalanimoku, born after the wedding and heir to her Hawaiian crown, dies in the later 1870s in an accident that also leaves her unable to conceive. **[PROPOSED — CR-027]** She stops singing; Elias keeps a cylinder of her voice and asks for it at his deathbed. Noe’s 1886 hānai bargain secures her continuing place in Julian’s life and Hawaiian upbringing while Victoria raises him as successor. Noe’s contested death follows in 1888; no murderer is established.
++The hardening takes thirteen years of defending this bargain. Kalanimoku, born after the wedding and heir to her Hawaiian crown, dies in the later 1870s in an accident that also leaves her unable to conceive. **[PROPOSED — CR-027]** She stops singing; Elias keeps a cylinder of her voice and asks for it at his deathbed. Noe’s 1886 hānai bargain secures her continuing place in Julian’s life and Hawaiian upbringing while Victoria raises him as successor. Noe’s contested death follows in spring 1889; no murderer is established.
+ 
+ From 1887 Victoria is Regent of Pacifica and remains Queen of Hawaii. The Five run the chartered estates under an unwritten arrangement: the Crown leaves their charters, appointments and Development Fund intact; they remain neutral between factions and never oppose the Crown. Soberanes, Turner and Tesla are approved holders; Hollerith, Hearst, Dickson, later successors and nā Kahuna remain proposed. Victoria’s own work is the Office of Public Measures, building on Noe’s registers; the press seat publishes its tables without alteration. Her insistence on honest numbers mixes care for her people, guilt and rivalry. Vaccination, Hawaiian nursing, water and Kalaupapa reform turn the population curve around about 1895. The 1887 language guarantee comes too late for a generation.
+ 
+@@ -70,17 +70,17 @@ Kalanimoku must have childhood, affections, experiences and preferences before t
+ **Open:** Birthday, interests, mentors, friends, accident and medical consequences. He is distinct from Julian and Chiyo’s later son Kahekili. The former 1914 Emperor Kalanimoku belongs to retired provenance.
+ 
+ ### CT-JULIAN-MOTHER — Kaʻanoe (Noe) Ward, physician and Julian’s birth mother
+-**Status:** Identity, profession, family outline, hānai bargain and recorded death circumstances approved by CR-021 F1, resolving OPEN-016-04. **Born:** c.1860, Lahaina, Maui. **Died:** autumn 1888; official cause typhoid, with poisoning alleged and no proven culprit.
++**Status:** Identity, profession, family outline, hānai bargain and recorded death circumstances approved by CR-021 F1, resolving OPEN-016-04; the death is dated to spring 1889 by the author’s correction CR-033. **Born:** c.1860, Lahaina, Maui. **Died:** spring 1889; official cause typhoid, with poisoning alleged and no proven culprit.
+ 
+ Kaʻanoe, called Noe by Westerners, is the daughter of a New England ship's surgeon settled in Lahaina and a woman of a minor chiefly Maui family tracing descent to Kahekili. She nurses at Queen Emma’s Queen’s Hospital in Honolulu’s 1881 smallpox epidemic; her first patrons are loyalists. She passes the Polytechnic medical examination in San Francisco and qualifies in 1884, the first Hawaiian and one of the first women to do so. In 1885 she becomes physician to the dying Elias.
+ 
+ Clinical, unsentimental and angry at waste, she tells him the truth about his body with gallows humor he enjoys. She brings figures no minister brings about the Hawaiian population's decline. Their relationship is real and clear-eyed; she obtains an institution for the work, not merely a place near a ruler. Elias's 1886 decree creates the Hawaiian Board of Public Health with Noe as medical director, funding and quarantine powers.
+ 
+-Her achievement in 1886–1888 is limited and foundational: district birth-and-death registers and the start of vaccination in Honolulu and Maui. She does not cure the islands in three years. She hopes the people will stop dying and her son will sit as successor to the reigning Queen’s Hawaiian crown. She lives to see neither result.
++Her achievement in 1886–1889 is limited and foundational: district birth-and-death registers and the start of vaccination in Honolulu and Maui. She does not cure the islands in three years. She hopes the people will stop dying and her son will sit as successor to the reigning Queen’s Hawaiian crown. She lives to see neither result.
+ 
+ Julian is born in 1886. Noe agrees to Victoria's hānai adoption, with Elias's written consent, in exchange for the health board, a continuing place in his life and Hawaiian upbringing. Victoria requires that he be raised as her son and successor. Respect and fear join the women; their rivalry concerns the boy and the state. In 1886–1887 Noe controls the founder's body and Victoria his government. After August 1887 Noe's natural guardianship makes her a possible regent, and Hawaiian loyalists court her.
+ 
+-She dies during an autumn 1888 typhoid outbreak she is fighting. Victoria's physician signs the official certificate. Noe's servants say poison; her registers disappear for a month before reappearing in the Office of Public Measures. Loyalists call it murder and Silas's faction spreads the claim. The Chronicler can establish competing interests and testimony but no culprit. The approved event preserves real uncertainty rather than making Victoria guilty by implication.
++She dies during a spring 1889 typhoid outbreak she is fighting. Victoria's physician signs the official certificate. Noe's servants say poison; her registers disappear for a month before reappearing in the Office of Public Measures. Loyalists call it murder and Silas's faction spreads the claim. The Chronicler can establish competing interests and testimony but no culprit. The approved event preserves real uncertainty rather than making Victoria guilty by implication.
+ 
+ Victoria completes island vaccination in 1888–1892, adds Hawaiian-speaking nurses, clean water and Kalaupapa reform, and sees the population curve turn upward around 1895. All of it builds on Noe's figures, with an emotional mixture of care, rivalry and possible guilt. Julian later finds the registers behind his adoptive mother's public legitimacy; his Altai falsification corrupts the same institution.
+ 
+@@ -631,7 +631,7 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
+ ### Thorne–Victoria dynastic core
+ - Elias + Victoria: **married November 1858**; one legitimate son, dead in the later 1870s.
+ - Elias + other women: Silas is the eldest (1851, Abigail Merritt); Kiyoshi is second (1859, Satsuma mother), conceived before the 1858 wedding. Maternal biography and further unprovided genealogy retain their labels.
+-- Elias + Kaʻanoe Ward: Julian born and adopted hānai in 1886 by a negotiated bargain; Noe’s official typhoid death in autumn 1888 is contested and no culprit is proved.
++- Elias + Kaʻanoe Ward: Julian born and adopted hānai in 1886 by a negotiated bargain; Noe’s official typhoid death in spring 1889 is contested and no culprit is proved.
+ - Julian + Victoria: hānai mother–son affection, political opposition over the Altai and independent brokerage of the 1928 Concord cure and 1932 Lands and Waters Charter.
+ - Lost Kalanimoku is Elias and Victoria’s child. Kahekili / Ikazuchi is Julian and Chiyo’s heir, future Kamehameha VII; the former 1914 Emperor Kalanimoku remains retired provenance.
+ - **Never** attach the name Silas to Elias's father and his later possible son without separate IDs.
+@@ -678,7 +678,7 @@ Each subsequent imperial campaign tests whether service still fulfills that firs
+ 
+ 1. Name, background and genuine rank of the Napoleonic mentor. CR-022 identifies Rev. Silas Merritt and Abigail; denomination/locality and testimonial reliability retain their qualifications.
+ 2. Lost Kalanimoku’s age, preferences, accident and the medical consequences for Victoria; the child’s name and identity are settled.
+-3. Resolved by CR-021 F1: Kaʻanoe Ward’s identity, medical career, hānai bargain and official autumn 1888 typhoid death; responsibility and the authenticity of conflicting evidence remain unproved.
++3. Resolved by CR-021 F1: Kaʻanoe Ward’s identity, medical career, hānai bargain and official typhoid death, dated to spring 1889 by CR-033; responsibility and the authenticity of conflicting evidence remain unproved.
+ 4. Julian's upbringing, relationship with Victoria and political formation; his direct succession in 1915 is settled.
+ 5. CR-022 settles Silas’s mother Abigail Merritt, late-1851 birth and Donner responsibility. Kiyoshi is second, conceived spring 1858; his 1859 birth is approved by CR-027 A7; Uehara maternal biography and early service retain their proposal labels. When Victoria learns of Kiyoshi remains OPEN-027-01.
+ 6. Resolved: lost Kalanimoku, Kahekili / Ikazuchi and the retired 1914 Emperor identity are distinct. No new child is created by renaming the heir.
+diff --git a/book-agent/revision/character_registry.json b/book-agent/revision/character_registry.json
+index 4db0208..5d45f7b 100644
+--- a/book-agent/revision/character_registry.json
++++ b/book-agent/revision/character_registry.json
+@@ -1,7 +1,7 @@
+ {
+   "schema": "pacifica.character-registry.v1",
+   "created_on": "2026-10-16",
+-  "version_scope": "Through CR-031-R1: reciprocal Japanese–Pacifican industrial innovation and nineteenth-century construction productivity; Company paid employment replaces bonded-labour proposal. All identities, kinship and legacy mappings preserved.",
++  "version_scope": "Through CR-033: Noe Ward's death dated to spring 1889, with the official typhoid account, poisoning testimony and unproved culpability unchanged. Earlier: CR-031-R1 reciprocal Japanese–Pacifican industrial innovation and paid Company employment. All identities, kinship and legacy mappings preserved.",
+   "authority": [
+     "book-agent/revision/master_storyline.md",
+     "book-agent/revision/change_requests.json",
+@@ -105,7 +105,7 @@
+       "tier": "principal_or_developed",
+       "identity_state": "approved_historical_identity_replacing_fictional_cousin",
+       "story_bible_section": "CT-KAIULANI",
+-      "narrative_profile": "**Status:** Historical person in alternate history; CR-027 replaces the fictional cousin without creating a second identity. **Born:** 1 November 1838, daughter of Kīnaʻu and Kekūanāoʻa, granddaughter of Kamehameha I and sister of Alexander Liholiho and Lot Kapuāiwa. **Later life:** Alive in Hawaii in 1932, out of power; death after the ending unchosen. The stable ID preserves legacy mappings.\n\nShe meets Elias in Honolulu in 1851 at thirteen, without romance; courtship develops from 1854. As in history she becomes Kuhina Nui in January 1855 at sixteen and presides over the Privy Council. She refuses Pearl Harbor in the 1855 coaling negotiations and, with Wyllie, secures Hawaiian representation, institutional assent and limits on confederal emergency government. No personal Article XIV veto follows. At the Confederation ceremony on 31 July 1856 she leads the Kawaiahaʻo choir, then chants her own mele before the court; Elias remembers the voice for life.\n\nHer brothers block the childhood Lunalilo betrothal for rank and dynastic reasons and press Kalākaua on her in 1857. She refuses both out of love for Elias, asserting her choice in Pua Hau ʻo Maleka and Aita ʻOe e Parau. Her brothers accept a husband whose children rank through her alone, who claims none of her lands and removes her from the missionary party’s reach. They marry at Kawaiahaʻo in November 1858 after the Edo negotiations. Kiyoshi was conceived that spring; when she learns of him is OPEN. Her marriage is a chosen partnership of two households and two seats.\n\nIn 1860 she organizes Hawaiian institutions to withhold assent over Washoe. In 1861 she demands protection after the packet interception, secures limited command and civilian safeguards, and challenges Elias’s expansion of its aims. On 30 November 1863 she holds the crown’s powers for a day and proclaims Lot. His 1864 constitution retains her office and names her heir. She negotiates protected institutions in the lawful 1865 Enabling Law. She founds the Kaʻahumanu Society in 1863, leads the choir, composes chants, remains Congregational and keeps a kahuna. His failed resurrection promise in 1865 and the Monterey physicians who save her in 1866 turn her toward evidence of results without surrendering language, chants or faith.\n\nShe succeeds Lot in December 1872 under Article 22, without election, and appoints Ruth Kuhina Nui. In September 1873 she ends the Guard mutiny on its first day, refuses confederal marines, dismisses Jajczay and her schoolmate Judd, appoints Moehonua and retains the Guard, making Kalākaua answerable for it. The surviving force convinces the admirals they need Pearl Harbor. After Lunalilo’s death in February 1874 she refuses a rising in her name and keeps her Guard in barracks; disputed deaths replace the superseded massacre.\n\nShe signs a lawful fifty-year Puʻuloa lease and common defence treaty in 1874. **[PROPOSED — CR-027]** The instrument’s title and March date are working details. The 1874–1876 ordinances and appointed Territorial Council are illegal encroachments. Ruth resigns; the office stays vacant. The Supreme Court’s 1876 judgment voiding the ordinances goes unenforced and is never reversed. The settlement’s shape is approved; exact instruments and judgment wording remain proposed. The Council’s English Schools Ordinance of 1876 is its own act; Elias does not overrule it. Victoria fights it and funds Hawaiian-language schools through the Society. She keeps her estate, reducing Ruth’s and later Pauahi’s eventual holdings relative to history.\n\nThe hardening takes thirteen years of defending this bargain. Kalanimoku, born after the wedding and heir to her Hawaiian crown, dies in the later 1870s in an accident that also leaves her unable to conceive. **[PROPOSED — CR-027]** She stops singing; Elias keeps a cylinder of her voice and asks for it at his deathbed. Noe’s 1886 hānai bargain secures her continuing place in Julian’s life and Hawaiian upbringing while Victoria raises him as successor. Noe’s contested death follows in 1888; no murderer is established.\n\nFrom 1887 Victoria is Regent of Pacifica and remains Queen of Hawaii. The Five run the chartered estates under an unwritten arrangement: the Crown leaves their charters, appointments and Development Fund intact; they remain neutral between factions and never oppose the Crown. Soberanes, Turner and Tesla are approved holders; Hollerith, Hearst, Dickson, later successors and nā Kahuna remain proposed. Victoria’s own work is the Office of Public Measures, building on Noe’s registers; the press seat publishes its tables without alteration. Her insistence on honest numbers mixes care for her people, guilt and rivalry. Vaccination, Hawaiian nursing, water and Kalaupapa reform turn the population curve around about 1895. The 1887 language guarantee comes too late for a generation.\n\nHer regency preserves the existing diplomatic arc: Korean neutrality in 1894, Primorye finance, Japan’s 1905 victory and the canal around 1900–1902. Silas confesses Donner in 1912; Kiyoshi’s 1913 bid tests the estates’ neutrality and ends in renunciation in exchange for the Kuroda queen. The 1914 Act establishes Pacifica’s crown, joins her existing Hawaiian crown, dissolves the Council and restores Hawaii’s legislature. She lays down regency and crown in 1915; Julian accedes to both. Julian’s majority in 1907 does not end her regency or her Hawaiian reign.\n\nShe continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.\n\n**Desire:** Preserve Hawaiian life while exercising real power in the Pacific order. **Contradiction:** She protects a people by defending a bargain that injures its political freedom; measures may express care, guilt or rivalry. **Voice/POV:** Political clarity, Hawaiian kinship, land, sea and legal protocol, with warmth among intimates. Songs and her choice of husband express agency. **Open:** When she learns of Kiyoshi; lost son’s birth year and accident; proposed cylinder, Five personnel, instruments and mythic echoes; culpability for Noe’s death; final private reckoning. There is no separate fictional cousin.\n\n**CR-029, Philippine and Hawaiian consent:** The damaged Manila squadron's return from neutral Japan brings the harbour dispute into her marriage in September 1873. The 1914 settlement asks Hawaiian subjects to approve the union by plebiscite, narrowly, while the Philippine Cortes offers its own crown and Filipino voters approve broadly. These are separate acts of consent, with neither crown subordinate. She attends Julian's Manila oath and proclamation in 1915 and sings at the Cathedral Te Deum; a bishop does not crown him. Her role in commutations after the 1896 rising, elected provincial juntas and New Calamba coexists with the land board's evictions. Ka Lōkahi gives the Realm, Hawaii and the Philippines one vote each; it is distinct from the Council of the Two Crowns with Japan. Her sponsorship cannot make the 1876 judgment disappear.",
++      "narrative_profile": "**Status:** Historical person in alternate history; CR-027 replaces the fictional cousin without creating a second identity. **Born:** 1 November 1838, daughter of Kīnaʻu and Kekūanāoʻa, granddaughter of Kamehameha I and sister of Alexander Liholiho and Lot Kapuāiwa. **Later life:** Alive in Hawaii in 1932, out of power; death after the ending unchosen. The stable ID preserves legacy mappings.\n\nShe meets Elias in Honolulu in 1851 at thirteen, without romance; courtship develops from 1854. As in history she becomes Kuhina Nui in January 1855 at sixteen and presides over the Privy Council. She refuses Pearl Harbor in the 1855 coaling negotiations and, with Wyllie, secures Hawaiian representation, institutional assent and limits on confederal emergency government. No personal Article XIV veto follows. At the Confederation ceremony on 31 July 1856 she leads the Kawaiahaʻo choir, then chants her own mele before the court; Elias remembers the voice for life.\n\nHer brothers block the childhood Lunalilo betrothal for rank and dynastic reasons and press Kalākaua on her in 1857. She refuses both out of love for Elias, asserting her choice in Pua Hau ʻo Maleka and Aita ʻOe e Parau. Her brothers accept a husband whose children rank through her alone, who claims none of her lands and removes her from the missionary party’s reach. They marry at Kawaiahaʻo in November 1858 after the Edo negotiations. Kiyoshi was conceived that spring; when she learns of him is OPEN. Her marriage is a chosen partnership of two households and two seats.\n\nIn 1860 she organizes Hawaiian institutions to withhold assent over Washoe. In 1861 she demands protection after the packet interception, secures limited command and civilian safeguards, and challenges Elias’s expansion of its aims. On 30 November 1863 she holds the crown’s powers for a day and proclaims Lot. His 1864 constitution retains her office and names her heir. She negotiates protected institutions in the lawful 1865 Enabling Law. She founds the Kaʻahumanu Society in 1863, leads the choir, composes chants, remains Congregational and keeps a kahuna. His failed resurrection promise in 1865 and the Monterey physicians who save her in 1866 turn her toward evidence of results without surrendering language, chants or faith.\n\nShe succeeds Lot in December 1872 under Article 22, without election, and appoints Ruth Kuhina Nui. In September 1873 she ends the Guard mutiny on its first day, refuses confederal marines, dismisses Jajczay and her schoolmate Judd, appoints Moehonua and retains the Guard, making Kalākaua answerable for it. The surviving force convinces the admirals they need Pearl Harbor. After Lunalilo’s death in February 1874 she refuses a rising in her name and keeps her Guard in barracks; disputed deaths replace the superseded massacre.\n\nShe signs a lawful fifty-year Puʻuloa lease and common defence treaty in 1874. **[PROPOSED — CR-027]** The instrument’s title and March date are working details. The 1874–1876 ordinances and appointed Territorial Council are illegal encroachments. Ruth resigns; the office stays vacant. The Supreme Court’s 1876 judgment voiding the ordinances goes unenforced and is never reversed. The settlement’s shape is approved; exact instruments and judgment wording remain proposed. The Council’s English Schools Ordinance of 1876 is its own act; Elias does not overrule it. Victoria fights it and funds Hawaiian-language schools through the Society. She keeps her estate, reducing Ruth’s and later Pauahi’s eventual holdings relative to history.\n\nThe hardening takes thirteen years of defending this bargain. Kalanimoku, born after the wedding and heir to her Hawaiian crown, dies in the later 1870s in an accident that also leaves her unable to conceive. **[PROPOSED — CR-027]** She stops singing; Elias keeps a cylinder of her voice and asks for it at his deathbed. Noe’s 1886 hānai bargain secures her continuing place in Julian’s life and Hawaiian upbringing while Victoria raises him as successor. Noe’s contested death follows in spring 1889; no murderer is established.\n\nFrom 1887 Victoria is Regent of Pacifica and remains Queen of Hawaii. The Five run the chartered estates under an unwritten arrangement: the Crown leaves their charters, appointments and Development Fund intact; they remain neutral between factions and never oppose the Crown. Soberanes, Turner and Tesla are approved holders; Hollerith, Hearst, Dickson, later successors and nā Kahuna remain proposed. Victoria’s own work is the Office of Public Measures, building on Noe’s registers; the press seat publishes its tables without alteration. Her insistence on honest numbers mixes care for her people, guilt and rivalry. Vaccination, Hawaiian nursing, water and Kalaupapa reform turn the population curve around about 1895. The 1887 language guarantee comes too late for a generation.\n\nHer regency preserves the existing diplomatic arc: Korean neutrality in 1894, Primorye finance, Japan’s 1905 victory and the canal around 1900–1902. Silas confesses Donner in 1912; Kiyoshi’s 1913 bid tests the estates’ neutrality and ends in renunciation in exchange for the Kuroda queen. The 1914 Act establishes Pacifica’s crown, joins her existing Hawaiian crown, dissolves the Council and restores Hawaii’s legislature. She lays down regency and crown in 1915; Julian accedes to both. Julian’s majority in 1907 does not end her regency or her Hawaiian reign.\n\nShe continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.\n\n**Desire:** Preserve Hawaiian life while exercising real power in the Pacific order. **Contradiction:** She protects a people by defending a bargain that injures its political freedom; measures may express care, guilt or rivalry. **Voice/POV:** Political clarity, Hawaiian kinship, land, sea and legal protocol, with warmth among intimates. Songs and her choice of husband express agency. **Open:** When she learns of Kiyoshi; lost son’s birth year and accident; proposed cylinder, Five personnel, instruments and mythic echoes; culpability for Noe’s death; final private reckoning. There is no separate fictional cousin.\n\n**CR-029, Philippine and Hawaiian consent:** The damaged Manila squadron's return from neutral Japan brings the harbour dispute into her marriage in September 1873. The 1914 settlement asks Hawaiian subjects to approve the union by plebiscite, narrowly, while the Philippine Cortes offers its own crown and Filipino voters approve broadly. These are separate acts of consent, with neither crown subordinate. She attends Julian's Manila oath and proclamation in 1915 and sings at the Cathedral Te Deum; a bishop does not crown him. Her role in commutations after the 1896 rising, elected provincial juntas and New Calamba coexists with the land board's evictions. Ka Lōkahi gives the Realm, Hawaii and the Philippines one vote each; it is distinct from the Council of the Two Crowns with Japan. Her sponsorship cannot make the 1876 judgment disappear.",
+       "links": [
+         {
+           "relationship": "spouse",
+@@ -166,7 +166,8 @@
+         "CR-020",
+         "CR-021",
+         "CR-027",
+-        "Author-supplied master storyline 2026-10-23; CR-028–CR-031 and current MODEL plan, with local labels preserved"
++        "Author-supplied master storyline 2026-10-23; CR-028–CR-031 and current MODEL plan, with local labels preserved",
++        "CR-033: direct author correction, 26 October 2026"
+       ],
+       "aliases": [
+         "Victoria",
+@@ -207,7 +208,7 @@
+       "tier": "principal_or_developed",
+       "identity_state": "approved_named_physician_contested_death",
+       "story_bible_section": "CT-JULIAN-MOTHER",
+-      "narrative_profile": "**Status:** Identity, profession, family outline, hānai bargain and recorded death circumstances approved by CR-021 F1, resolving OPEN-016-04. **Born:** c.1860, Lahaina, Maui. **Died:** autumn 1888; official cause typhoid, with poisoning alleged and no proven culprit.\n\nKaʻanoe, called Noe by Westerners, is the daughter of a New England ship's surgeon settled in Lahaina and a woman of a minor chiefly Maui family tracing descent to Kahekili. She nurses at Queen Emma’s Queen’s Hospital in Honolulu’s 1881 smallpox epidemic; her first patrons are loyalists. She passes the Polytechnic medical examination in San Francisco and qualifies in 1884, the first Hawaiian and one of the first women to do so. In 1885 she becomes physician to the dying Elias.\n\nClinical, unsentimental and angry at waste, she tells him the truth about his body with gallows humor he enjoys. She brings figures no minister brings about the Hawaiian population's decline. Their relationship is real and clear-eyed; she obtains an institution for the work, not merely a place near a ruler. Elias's 1886 decree creates the Hawaiian Board of Public Health with Noe as medical director, funding and quarantine powers.\n\nHer achievement in 1886–1888 is limited and foundational: district birth-and-death registers and the start of vaccination in Honolulu and Maui. She does not cure the islands in three years. She hopes the people will stop dying and her son will sit as successor to the reigning Queen’s Hawaiian crown. She lives to see neither result.\n\nJulian is born in 1886. Noe agrees to Victoria's hānai adoption, with Elias's written consent, in exchange for the health board, a continuing place in his life and Hawaiian upbringing. Victoria requires that he be raised as her son and successor. Respect and fear join the women; their rivalry concerns the boy and the state. In 1886–1887 Noe controls the founder's body and Victoria his government. After August 1887 Noe's natural guardianship makes her a possible regent, and Hawaiian loyalists court her.\n\nShe dies during an autumn 1888 typhoid outbreak she is fighting. Victoria's physician signs the official certificate. Noe's servants say poison; her registers disappear for a month before reappearing in the Office of Public Measures. Loyalists call it murder and Silas's faction spreads the claim. The Chronicler can establish competing interests and testimony but no culprit. The approved event preserves real uncertainty rather than making Victoria guilty by implication.\n\nVictoria completes island vaccination in 1888–1892, adds Hawaiian-speaking nurses, clean water and Kalaupapa reform, and sees the population curve turn upward around 1895. All of it builds on Noe's figures, with an emotional mixture of care, rivalry and possible guilt. Julian later finds the registers behind his adoptive mother's public legitimacy; his Altai falsification corrupts the same institution.\n\n**Desire:** Prevent avoidable Hawaiian deaths and bargain for her son's future on the Hawaiian throne. **Contradiction:** The institution she needs depends on a ruler whose regime injured Hawaii; her son gains prospects through a woman who can displace her. **Voice:** Clinical observations, exact numbers, dry gallows humor and impatience with waste. **POV:** Hospital, sickroom, registers and the hānai negotiation, with motives independent of the murder rumor. **Open:** Parents' names, scene details, which testimony the Chronicler can authenticate, and responsibility for the death. The identity and official circumstances are settled.",
++      "narrative_profile": "**Status:** Identity, profession, family outline, hānai bargain and recorded death circumstances approved by CR-021 F1, resolving OPEN-016-04; the death is dated to spring 1889 by the author’s correction CR-033. **Born:** c.1860, Lahaina, Maui. **Died:** spring 1889; official cause typhoid, with poisoning alleged and no proven culprit.\n\nKaʻanoe, called Noe by Westerners, is the daughter of a New England ship's surgeon settled in Lahaina and a woman of a minor chiefly Maui family tracing descent to Kahekili. She nurses at Queen Emma’s Queen’s Hospital in Honolulu’s 1881 smallpox epidemic; her first patrons are loyalists. She passes the Polytechnic medical examination in San Francisco and qualifies in 1884, the first Hawaiian and one of the first women to do so. In 1885 she becomes physician to the dying Elias.\n\nClinical, unsentimental and angry at waste, she tells him the truth about his body with gallows humor he enjoys. She brings figures no minister brings about the Hawaiian population's decline. Their relationship is real and clear-eyed; she obtains an institution for the work, not merely a place near a ruler. Elias's 1886 decree creates the Hawaiian Board of Public Health with Noe as medical director, funding and quarantine powers.\n\nHer achievement in 1886–1889 is limited and foundational: district birth-and-death registers and the start of vaccination in Honolulu and Maui. She does not cure the islands in three years. She hopes the people will stop dying and her son will sit as successor to the reigning Queen’s Hawaiian crown. She lives to see neither result.\n\nJulian is born in 1886. Noe agrees to Victoria's hānai adoption, with Elias's written consent, in exchange for the health board, a continuing place in his life and Hawaiian upbringing. Victoria requires that he be raised as her son and successor. Respect and fear join the women; their rivalry concerns the boy and the state. In 1886–1887 Noe controls the founder's body and Victoria his government. After August 1887 Noe's natural guardianship makes her a possible regent, and Hawaiian loyalists court her.\n\nShe dies during a spring 1889 typhoid outbreak she is fighting. Victoria's physician signs the official certificate. Noe's servants say poison; her registers disappear for a month before reappearing in the Office of Public Measures. Loyalists call it murder and Silas's faction spreads the claim. The Chronicler can establish competing interests and testimony but no culprit. The approved event preserves real uncertainty rather than making Victoria guilty by implication.\n\nVictoria completes island vaccination in 1888–1892, adds Hawaiian-speaking nurses, clean water and Kalaupapa reform, and sees the population curve turn upward around 1895. All of it builds on Noe's figures, with an emotional mixture of care, rivalry and possible guilt. Julian later finds the registers behind his adoptive mother's public legitimacy; his Altai falsification corrupts the same institution.\n\n**Desire:** Prevent avoidable Hawaiian deaths and bargain for her son's future on the Hawaiian throne. **Contradiction:** The institution she needs depends on a ruler whose regime injured Hawaii; her son gains prospects through a woman who can displace her. **Voice:** Clinical observations, exact numbers, dry gallows humor and impatience with waste. **POV:** Hospital, sickroom, registers and the hānai negotiation, with motives independent of the murder rumor. **Open:** Parents' names, scene details, which testimony the Chronicler can authenticate, and responsibility for the death. The identity and official circumstances are settled.",
+       "links": [
+         {
+           "relationship": "mother",
+@@ -224,11 +225,12 @@
+       ],
+       "legacy_profile_indices": [],
+       "legacy_conflicts": [
+-        "CR-021 resolves the formerly unnamed caretaker: Kaʻanoe Ward is an examined physician; birth 1886, adoption 1886, death autumn 1888. Culpability remains unproved."
++        "CR-021 resolves the formerly unnamed caretaker: Kaʻanoe Ward is an examined physician; birth 1886, adoption 1886, death spring 1889 (date per CR-033, direct author correction of 26 October 2026; originally autumn 1888). Culpability remains unproved."
+       ],
+       "source_authority": [
+         "CR-021",
+-        "CR-027"
++        "CR-027",
++        "CR-033: direct author correction, 26 October 2026"
+       ]
+     },
+     {
+@@ -3280,7 +3282,7 @@
+       ]
+     }
+   ],
+-  "updated_on": "2026-10-23",
++  "updated_on": "2026-10-26",
+   "character_revision": {
+     "request": "CR-027",
+     "source": "CR-027.md and author-supplied master_storyline_211026_CR-027.md",
+@@ -3426,6 +3428,16 @@
+         "CT-CHICHIBU"
+       ],
+       "limits": "Noe’s death remains ambiguous. Chichibu’s identity, resident role and Pacifican education/honors/outdoorsman direction are settled; particular decorations and climbs remain unprovided."
++    },
++    {
++      "request": "CR-033",
++      "source": "CR-033.md; direct author correction of 26 October 2026",
++      "status": "approved_direct_author_correction_integrated",
++      "updated_ids": [
++        "CT-KAIULANI",
++        "CT-JULIAN-MOTHER"
++      ],
++      "limits": "Date only: Noe dies in spring 1889, not autumn 1888. The official typhoid account, servants' poisoning testimony, missing-register episode and unproved culpability are unchanged; no culprit, exact day or new event is supplied."
+     }
+   ],
+   "institutional_groups": [
+diff --git a/book-agent/revision/historical_background.md b/book-agent/revision/historical_background.md
+index 009546b..7c94d22 100644
+--- a/book-agent/revision/historical_background.md
++++ b/book-agent/revision/historical_background.md
+@@ -258,7 +258,7 @@ CR-021 revision 9 incorporates the author’s direct continuity decisions after
+ 
+ The lawful 1865 Enabling Law and life Providentorship are distinct from the lawful 1874 Puʻuloa lease and the illegal ordinances of 1874–1876, appointed Council and English Schools Ordinance. The Supreme Court’s ignored 1876 judgment is never reversed. The 1887 Constitution follows captured ratification procedures; the Truce is a factional pact later embodied in organic law. The 1914 Act joins Victoria’s continuously held Hawaiian crown to the new Pacifican Crown, dissolves the Council and restores legislature, schools and language politically. The illegal 1927 provisional Concord and later 1928 consent and indemnity retain CR-021’s separate chronology.
+ 
+-Noe Ward’s examination, health board, registers and official typhoid death are fictional decisions with conflicting evidence deliberately retained. No statement here proves poisoning or assigns responsibility. Kahekili / Ikazuchi is the later heir; the lost Kalanimoku and retired 1914 sovereign record are different identities. The stable heir ID is retained despite its old name.
++Noe Ward’s examination, health board, registers and official typhoid death are fictional decisions with conflicting evidence deliberately retained. CR-033 dates the death to spring 1889; the outbreak is fictional and no historical Honolulu typhoid outbreak is claimed as its anchor. No statement here proves poisoning or assigns responsibility. Kahekili / Ikazuchi is the later heir; the lost Kalanimoku and retired 1914 sovereign record are different identities. The stable heir ID is retained despite its old name.
+ 
+ | Source tension | Current treatment |
+ |---|---|
+diff --git a/book-agent/revision/master_storyline.md b/book-agent/revision/master_storyline.md
+index f398ff9..58ecc92 100644
+--- a/book-agent/revision/master_storyline.md
++++ b/book-agent/revision/master_storyline.md
+@@ -1,14 +1,14 @@
+ # Pacifica — Master Storyline
+ 
+-**Status:** Working canonical synopsis for the second draft · **Established:** 16 October 2026 · **Updated:** 23 October 2026  
++**Status:** Working canonical synopsis for the second draft · **Established:** 16 October 2026 · **Updated:** 26 October 2026  
+ **Coverage:** Elias Thorne's life (born c. 1824) through the establishment of the dominant Pacific order in 1932.  
+ **Reading order:** Primarily chronological. Retrospections are deliberately selective.  
+-**Canonical authority:** [CR-031-R1](CR-031-R1.md), the author’s correction to Japanese construction and labour organisation, supersedes the earlier Kamchatka bonded-labour proposal. The author-approved [change register](change_requests.json), [CR-021 revision 9](CR-021.md), and historical background in [historical_background.md](historical_background.md). CR-021 supplies the constitutional order, Pacific Concord and dynastic identities; CR-020 governs the productive economy, Gulf challenge, Depression and islands settlement except where CR-021 expressly amends it. Numerical results remain **MODEL** estimates; engineering, demographic and financial evidence is tracked in [war_base_assumptions.md](war_base_assumptions.md).
++**Canonical authority:** [CR-033](CR-033.md), the author’s correction dating Noe Ward’s death to spring 1889, and [CR-031-R1](CR-031-R1.md), the author’s correction to Japanese construction and labour organisation, supersedes the earlier Kamchatka bonded-labour proposal. The author-approved [change register](change_requests.json), [CR-021 revision 9](CR-021.md), and historical background in [historical_background.md](historical_background.md). CR-021 supplies the constitutional order, Pacific Concord and dynastic identities; CR-020 governs the productive economy, Gulf challenge, Depression and islands settlement except where CR-021 expressly amends it. Numerical results remain **MODEL** estimates; engineering, demographic and financial evidence is tracked in [war_base_assumptions.md](war_base_assumptions.md).
+ **Characters:** See the separate [canonical character bible](character_bible.md) and [stable identity registry](character_registry.json) for genealogy, motivation, voice and independent perspectives.
+ 
+ > This is the **complete working storyline**. Undecided narrative details are identified as **[OPEN]**; approximate years are marked c. Dates and characters that depart from actual history are developed in the separate [historical background](historical_background.md). Changes to the story are governed by the authorial approvals maintained in [change_requests.json](change_requests.json).
+ 
+-<!-- Approved narrative coverage: CR-001 CR-002 CR-003 CR-004 CR-005 CR-006 CR-007 CR-008 CR-009 CR-010 CR-011 CR-013 CR-014 CR-015 CR-016 CR-018 CR-019 CR-020 CR-021 CR-022 CR-024 CR-025 CR-026 CR-027 CR-028 CR-029 CR-030 CR-031 CR-031-R1 -->
++<!-- Approved narrative coverage: CR-001 CR-002 CR-003 CR-004 CR-005 CR-006 CR-007 CR-008 CR-009 CR-010 CR-011 CR-013 CR-014 CR-015 CR-016 CR-018 CR-019 CR-020 CR-021 CR-022 CR-024 CR-025 CR-026 CR-027 CR-028 CR-029 CR-030 CR-031 CR-031-R1 CR-033 -->
+ 
+ **CR-016 integration:** [The managed succession](CR-016.md) replaces the inheritance war and transfers the Polytechnic leader’s role to an unrelated Pacific-war commander, Rafael Soberanes. Julian is adopted and raised as successor while his mother lives; Kiyoshi is Elias’s eldest son by a Satsuma mother. The separate author decision [CR-016-R1](CR-016.md#additional-author-decision--trans-siberian) makes Japanese prevention of Russian Trans-Siberian completion canonical; CR-018 specifies Japanese eastern-link and terminal control through Chinese-owned Manchuria. It also establishes the stakeholder empire’s endpoint: Pacifica retains the common institutions, Japanese imperial elites share their commanding heights, and the Concord holds.
+ 
+@@ -38,13 +38,15 @@
+ 
+ **CR-031 integration:** [The Treaty of Harbin: the North, the victors' terms and China's articles](CR-031.md), revision 4. The Siberian Republic is a federation of graded autonomy: provinces, an autonomous Sakha land with a port at Okhotsk, and a North-East Territory from Ola Bay to Nikolayevsk with Chukotka. Kamchatka and the Koryak coast become a republic under Japanese protection; Transbaikalia is a protectorate under a Transbaikal Council and a civilian Resident after the Cossack Host turns Semenov out in 1919. China recovers Russia's privileges, Amur navigation to the sea and suzerainty over Mongolia. Pacifica takes the Commander Islands, Arctic leases and a charter, insists that Siberian ships pass the straits, and participates in the Kamchatka Company's development under the professional construction and paid-employment practices Japan and Pacifica have developed together (CR-031-R1). The fortification question is **[OPEN-031-11]**.
+ 
++**CR-033 integration:** [The date of Noe's death](CR-033.md), a direct author correction of 26 October 2026, moves Kaʻanoe Ward's death from autumn 1888 to spring 1889. The official typhoid account, her servants' poisoning testimony and the unproved culpability are unchanged; she now lives into the second year of the regency.
++
+ **CR-015 integration:** The peace, interior line, continental association and transpacific sequence are integrated through 1900, with their consequences carried into the later generations. [CR-015](CR-015.md) preserves the decision record; the [Power Timeline](power_timeline_1865_1900.md) governs cadence and guardrails, with the later CR-015 decisions controlling its named corrections. **[PROPOSED]** identifies connective mechanics that the attachment still labels proposed; their inclusion here does not approve them. Numerical targets remain subject to the feasibility audit. CR-014 continues to govern origins and constitutional machinery. [CR-013 revision 5](../../outputs/CR-013/CR-013-consolidated.md) records which older questions this integration settles or narrows.
+ 
+ ## The novel's larger movement
+ 
+ An unusually intelligent boy raised in the Rocky Mountain trading world learns to see terrain, finance, machinery, animals, and human groups as systems whose hidden constraints can be understood. In an unstable California he helps assemble an independent republic before the Mexican-American War, then uses public gold discoveries to finance industry. In 1856 that republic and the Hawaiian Kingdom establish the Confederation of Pacifica, whose emergency constitution later becomes the instrument of his extraordinary power. His accomplishments depend on friendships, the cooperation of Californios and Indigenous peoples, the Hawaiian royal house, Japanese reformers, merchants, technical specialists, and competent soldiers, not on solitary genius. California's sovereignty survives through political compromises and costly confrontations rather than inevitable success. His later interventions in the American Civil War help remake the continent. The bilingual republic offers enforceable rights, public employment and opportunities for technical enterprise. Its expanding workshops, professional services and infrastructure attract capable immigrants whose achievements increasingly depend on the state Elias administers. Emergency government and a later delegation of legislative authority make continued growth and personal power mutually reinforcing. His ambition makes partners dependent through credit, standards, naval protection and careers. Some become subjects; Japan retains sovereignty, China retains its territory, and Korea remains independent under guarantee. The choice to extinguish Hawaiian consent makes the betrayal of his oldest partnership especially stark.
+ 
+-The most intimate version of that political history is the story of Elias and Victoria Kamāmalu, sister of two Hawaiian kings. They begin in love and share an ambitious conception of Pacific cooperation. They marry and have a son. After Lot Kapuāiwa's death she becomes Queen of Hawaii. In 1874 she leases Puʻuloa to the Confederation, and Elias's government stretches the lease into effective rule over the kingdom; she refuses a royalist rising raised in her name and lets her own Supreme Court's judgment go unenforced. Their child subsequently dies in an accident that also leaves Victoria unable to bear children. Grief, responsibility, empire, and rival ambitions corrode but do not end the marriage. Elias has children with other women. Near the end of his life his Hawaiian-American physician Kaʻanoe Ward bears Julian in 1886. While Julian’s mother lives, Victoria adopts him and raises him as successor. After Elias’s death Noe dies in the contested typhoid outbreak of 1888; her registers become the foundation of Victoria’s measures. Victoria becomes Regent of Pacifica through a negotiated succession while remaining Queen of Hawaii, tries to keep the factions in balance, and hands power directly to Julian in 1915. Mother and son then struggle over the uses of the power she has preserved. Their conflict culminates in the concealment of the Altai atrocity and her renunciation, while the Pacific order itself survives. 
++The most intimate version of that political history is the story of Elias and Victoria Kamāmalu, sister of two Hawaiian kings. They begin in love and share an ambitious conception of Pacific cooperation. They marry and have a son. After Lot Kapuāiwa's death she becomes Queen of Hawaii. In 1874 she leases Puʻuloa to the Confederation, and Elias's government stretches the lease into effective rule over the kingdom; she refuses a royalist rising raised in her name and lets her own Supreme Court's judgment go unenforced. Their child subsequently dies in an accident that also leaves Victoria unable to bear children. Grief, responsibility, empire, and rival ambitions corrode but do not end the marriage. Elias has children with other women. Near the end of his life his Hawaiian-American physician Kaʻanoe Ward bears Julian in 1886. While Julian’s mother lives, Victoria adopts him and raises him as successor. After Elias’s death Noe dies in the contested typhoid outbreak of spring 1889; her registers become the foundation of Victoria’s measures. Victoria becomes Regent of Pacifica through a negotiated succession while remaining Queen of Hawaii, tries to keep the factions in balance, and hands power directly to Julian in 1915. Mother and son then struggle over the uses of the power she has preserved. Their conflict culminates in the concealment of the Altai atrocity and her renunciation, while the Pacific order itself survives. 
+ 
+ Across succeeding generations, commanders replace improvisation with military science, administrators replace personal loyalties with examinations and numerical identities, and the empire comes to mistake the perfection of its machinery for political wisdom. The Chronicler, once an admirer of the founding order, witnesses its successes and atrocities, encounters competing accounts, and tries to understand the human cost of an order that wins. He may not know everything that the independent viewpoint narratives disclose.
+ 
+@@ -506,11 +508,13 @@ The Truce is extra-legal before its terms become organic law. Silas's inland com
+ 
+ ## 23. Noe's death, the registers and the heir (1887–1889)
+ 
++<!-- CR-033: Noe's death in spring 1889; official typhoid account, poisoning testimony and unproved culpability unchanged. -->
++
+ After Elias dies in August 1887, Noe retains a household, a mother's claim and her health work. As natural guardian she could claim a regency; Hawaiian loyalists who reject the ordinances begin to court her. **[APPROVED — CR-027]** With Emma dead since 1885 they also look to her cousin and heir Albert Kūnuiākea, by common knowledge a natural son of Kamehameha III, never acknowledged and the squanderer of his inheritance. Her rivalry with Victoria concerns the boy and Hawaii's future, not a simple contest for the dying man's affection.
+ 
+-She dies in the autumn of 1888 during a typhoid outbreak she is fighting. That is the official account, certified by Victoria's physician. Her servants swear she was poisoned. The registers disappear for a month and return in the new Office of Public Measures. Loyalists call it murder, and Silas's people spread the story as part of "the Regent's year": Caleb, the Donner telegraphist burned in his hut that January, and now Noe. Silas suspects his own mother; his mother suspects him. Neither asks. Victoria, the factional rivals and those who need a martyr have motives; the Chronicler can prove none guilty.
++She dies in the spring of 1889 during a typhoid outbreak she is fighting. That is the official account, certified by Victoria's physician. Her servants swear she was poisoned. The registers disappear for a month and return in the new Office of Public Measures. Loyalists call it murder, and Silas's people spread the story as part of "the Regent's year": Caleb, the Donner telegraphist burned in his hut in January 1888, and now Noe. Silas suspects his own mother; his mother suspects him. Neither asks. Victoria, the factional rivals and those who need a martyr have motives; the Chronicler can prove none guilty.
+ 
+-Victoria builds public legitimacy on Noe's honest figures. She completes vaccination across the islands in 1888–1892, brings Hawaiian-speaking nurses and clean water to plantation districts in the 1890s and reforms Kalaupapa. By about 1895 the population curve turns upward by Noe's method. Infant mortality becomes the state's sacred number, later carried into county league tables and the Gulf admission test. Care, rivalry with a dead woman and possible guilt remain inseparable to the observer.
++Victoria builds public legitimacy on Noe's honest figures. She completes vaccination across the islands in 1888–1892, brings Hawaiian-speaking nurses and clean water to plantation districts in the 1890s and reforms Kalaupapa. By about 1895 the population curve turns upward by Noe's method. Infant mortality becomes the state's sacred number, later carried into county league tables and the Gulf admission test. Care, rivalry with a dead woman and possible guilt remain inseparable to the observer. **[OPEN — CR-033]** The Office and the island-wide vaccination begin in 1888 while Noe is still alive and directing the health board; how her board and the Office share the registers before her death remains undecided.
+ 
+ Julian grows up speaking Hawaiian with Victoria, English with tutors, Spanish among Soberanes's circle and Japanese with the naval party. He later finds Noe's registers in the Office's archive. His two mothers have given the same state its measurements and its political uses; his later falsification in 1921 corrupts an inheritance more intimate than an administrative rule.
+ 
+@@ -847,7 +851,7 @@ The Chronicler completes the history in a Thalassia that stands. **[PROPOSED —
+ 
+ **Kalanimoku, Chiyo and Kahekili.** Elias and Victoria's lost Kalanimoku remains distinct from the heir Kahekili, 雷 (Ikazuchi), Julian and Chiyo's son and future Kamehameha VII. Chiyo's household Japanese, patronage of the naval party and friendship with Nagako make the Concord personal as well as institutional. The former 1914 Emperor Kalanimoku remains retired provenance, not an active branch.
+ 
+-**Julian and Noe Ward.** Kaʻanoe Ward's medical examination, registers and hānai bargain give her agency independent of the men and dynasty. Her 1888 death has an official typhoid account and incompatible testimony, with no proven culprit. Julian inherits her Hawaiian claim and Victoria's political training, becomes Kamehameha VI in Hawaii and Sovereign of Pacifica, and uses personal rule without the title President. His friendship with Hirohito is real; he withholds the Altai secret. In the regency's sealed papers he finds that the mother who raised him kept the Donner lie, and that Noe's death had more suspects than he knew.
++**Julian and Noe Ward.** Kaʻanoe Ward's medical examination, registers and hānai bargain give her agency independent of the men and dynasty. Her death in spring 1889 has an official typhoid account and incompatible testimony, with no proven culprit. Julian inherits her Hawaiian claim and Victoria's political training, becomes Kamehameha VI in Hawaii and Sovereign of Pacifica, and uses personal rule without the title President. His friendship with Hirohito is real; he withholds the Altai secret. In the regency's sealed papers he finds that the mother who raised him kept the Donner lie, and that Noe's death had more suspects than he knew.
+ 
+ **The Japanese partners.** Manjirō and the early reformers establish cooperation; Kuroda Kiyotaka supplies Kiyoshi’s adopted house; Takahashi links Tokyo’s finance to San Francisco and later union. Japan’s crown, cabinets and Diet remain real centers of domestic authority. Imperial careers attract the navy and commercial elites, while the national army’s corridor demands create a lasting opposition.
+ 
+@@ -892,7 +896,7 @@ Theodore Roosevelt competes with Pacifica over the canal, Caribbean guarantee an
+ 8. **Resolved by CR-027:** Victoria Kamāmalu holds the Kuhina Nui from 1855, succeeds Lot in 1872 and leases Puʻuloa in 1874; the February rising replaces the massacre. Still open: when Victoria learns of Kiyoshi, the Five's proposed members beyond Soberanes, Turner and Tesla, and scene detail of the 1874–1876 ordinances.
+ 9. **The lost child:** Kalanimoku’s name is settled; individuality, birth year, age at death, accident circumstances and medical consequences for Victoria remain open.
+ 10. **The other sons:** Silas is the eldest (1851, Abigail Merritt; CR-022). Kiyoshi is the second son (1859, Satsuma mother); his 1886 Kuroda adoption and marriage, Fleet-General identity and 1920 death are settled. Proposed maternal biography, early dates and service retain their labels; his branch house and 1907 countship, 1913 bid, the Kāneʻohe anchoring and his renunciation are settled by CR-026.
+-11. **Resolved by CR-021 F1:** Kaʻanoe (Noe) Ward, c.1860 Lahaina birth, physician, health board, 1886 hānai bargain and contested autumn 1888 death. Guilt remains genuinely unproved, rather than an undecided identity.
++11. **Resolved by CR-021 F1:** Kaʻanoe (Noe) Ward, c.1860 Lahaina birth, physician, health board, 1886 hānai bargain and contested death, dated to spring 1889 by CR-033. Guilt remains genuinely unproved, rather than an undecided identity. OPEN-033-01 covers how her board and the Office of Public Measures share the registers in 1888–1889.
+ 12. **Resolved by CR-021:** the 1914 Act of Settlement, Julian’s Hawaiian style Kamehameha VI and 1915 Realm accession, the succession rule, and Kahekili / Ikazuchi as future Kamehameha VII. Exact wedding and heir birth dates, bride and scene detail remain unspecified; the c.1916 birth is still a working date.
+ 13. **Julian’s upbringing:** CR-021 settles his four-language education and 1905–1906 Tokyo year. Individual tutors, friendships and scenes remain to develop within that chronology.
+ 14. **Japanese alternate treaties:** the credible diversion or reshaping of Perry's 1853–54 mission, Satsuma and shogunal negotiations, and the precise clauses of the **1858 Treaty of Edo**; the 1860 *Kanrin Maru* visit is a subsequent exchange.
+diff --git a/book-agent/revision/power_timeline_1865_1900.md b/book-agent/revision/power_timeline_1865_1900.md
+index 28b5981..395eb6c 100644
+--- a/book-agent/revision/power_timeline_1865_1900.md
++++ b/book-agent/revision/power_timeline_1865_1900.md
+@@ -10,7 +10,7 @@ The 1865–1900 cadence below remains period-specific. [CR-018](CR-018.md) speci
+ 
+ **CR-020 precedence:** The pre-1900 cadence remains. From 1880 the Development Fund and later savings bank finance Polytechnic champions; the Crown takes 25% in chartered/concession firms, 8% and a golden share in competitive ones, none in banking. The guest-worker programme begins in 1890. The Gulf’s five general measures and two parity bars must hold for twenty-five years, replacing the earlier three-year test; no admission occurs by 1932. Later turbine capital ships begin in 1903 and combined parity is negotiated in 1919. Numerical claims remain MODEL estimates.
+ 
+-**CR-021 constitutional precedence:** The 1865 Enabling Law protects Hawaiian institutions and gives Elias a life Providentorship; 1874 incorporation is illegal and its ignored judgment survives. The Constitution of the Realm in 1887 replaces states with 124 counties. Monterey holds the Court, Carquinez the Polytechnic, Thalassia the government from 1885 and San Francisco money. Kaʻanoe Ward’s 1886 hānai bargain and contested 1888 death supply the registers behind Kaiulani’s measures. The Pacific Concord of 1927 is cured by the 1928 Act of Indemnity; the two crowns are co-equal, the executive entrusted to Pacifica for five years. Julian takes no presidential style. CR-021 revision 9 gives Kamchatka, Okhotsk coast and Nikolayevsk to Siberia in 1921 and retains Korea as an independent guaranteed state with agreed rights, not a protectorate. Uncapped tongue votes are an explicit decision; Chichibu’s later education and reputation belong to Pacifica. Older entries below preserve period planning where not superseded.
++**CR-021 constitutional precedence:** The 1865 Enabling Law protects Hawaiian institutions and gives Elias a life Providentorship; 1874 incorporation is illegal and its ignored judgment survives. The Constitution of the Realm in 1887 replaces states with 124 counties. Monterey holds the Court, Carquinez the Polytechnic, Thalassia the government from 1885 and San Francisco money. Kaʻanoe Ward’s 1886 hānai bargain and contested spring 1889 death (CR-033) supply the registers behind Kaiulani’s measures. The Pacific Concord of 1927 is cured by the 1928 Act of Indemnity; the two crowns are co-equal, the executive entrusted to Pacifica for five years. Julian takes no presidential style. CR-021 revision 9 gives Kamchatka, Okhotsk coast and Nikolayevsk to Siberia in 1921 and retains Korea as an independent guaranteed state with agreed rights, not a protectorate. Uncapped tongue votes are an explicit decision; Chichibu’s later education and reputation belong to Pacifica. Older entries below preserve period planning where not superseded.
+ 
+ ## Cadence and limits
+ 
