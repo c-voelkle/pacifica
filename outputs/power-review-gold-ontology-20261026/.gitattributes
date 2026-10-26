@@ -1,0 +1,4 @@
+* text eol=lf
+# Preserve evaluated snapshots and their exact-byte output checksums.
+before/* -text whitespace=cr-at-eol,-blank-at-eof
+after/* -text whitespace=cr-at-eol,-blank-at-eof

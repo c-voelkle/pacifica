@@ -1,0 +1,795 @@
+{
+  "summary": {
+    "conforms": true,
+    "local_inputs_verified": 11,
+    "review_triples": 2058,
+    "record_counts": {
+      "Claim": 45,
+      "MechanismLink": 21,
+      "EvidenceApplication": 37,
+      "ComparisonCase": 6,
+      "Judgment": 7
+    },
+    "query_row_counts": {
+      "unresolved-links": 8,
+      "control-boundaries": 11,
+      "provisional-dependencies": 34,
+      "quantities-and-gaps": 10,
+      "evidence-boundaries": 37
+    }
+  },
+  "views": {
+    "unresolved-links": [
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L01",
+        "label": "Discovery to fiscal organization",
+        "status": "urn:pacifica:vocab:review:Asserted",
+        "explanation": "Secrecy buys proposed diplomatic/administrative time; it does not show how dispersed gold is captured."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L02",
+        "label": "Entitlement to actual receipt",
+        "status": "urn:pacifica:vocab:review:Missing",
+        "explanation": "Mint and trade choke points plus useful coinage are named; capture fraction, enforcement coverage, leakage, timing and costs are not explained. Pledged receipts are not free cash."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L09",
+        "label": "Accession does not fully explain crisis compliance",
+        "status": "urn:pacifica:vocab:review:Missing",
+        "explanation": "Shared legitimacy and appointments can secure dependable cooperation, but no detailed instruction/refusal procedure covers a ruler threatening charter safeguards. Ownership of Crown shares is not ownership of estate resources."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L10",
+        "label": "Mixed wartime lending to new-issue halt",
+        "status": "urn:pacifica:vocab:review:Asserted",
+        "explanation": "Narrative states Julian stops private syndicate new issues. Treasury future lending is separable; the private coordination instrument is unspecified."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L15",
+        "label": "Reserve support to Union bargaining",
+        "status": "urn:pacifica:vocab:review:Asserted",
+        "explanation": "Rescue helps obtain proposed association; Union chooses stability and privileges while remaining sovereign. Detailed acceptance mechanisms stay proposed; Reserve Bank assets are not Julian private wealth."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L30",
+        "label": "Staged service to greater declared collection",
+        "status": "urn:pacifica:vocab:review:Missing",
+        "explanation": "Settlement usefulness is a historical analogy, not an estimated capture response; processing and remittance stages require capacity and cost."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L31",
+        "label": "Gross collection room to spendable service gain",
+        "status": "urn:pacifica:vocab:review:Missing",
+        "explanation": "No unconditional net gain or endpoint conclusion follows until costs, output and institutional transmission are supplied."
+      },
+      {
+        "link": "urn:pacifica:review:forward-gold-20261026:L33",
+        "label": "New bargain to negotiated crisis action",
+        "status": "urn:pacifica:vocab:review:Missing",
+        "explanation": "Scope, assent, sanctions, financing and expiry require a new author decision and counterpart acceptance; no claim of current canonical existence."
+      }
+    ],
+    "control-boundaries": [
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C06",
+        "actor": "urn:pacifica:character:CT-ELIAS",
+        "predicate": "urn:pacifica:ontology:review:hasAuthorityOver",
+        "object": "urn:pacifica:review:forward-gold-20261026:cash",
+        "status": "urn:pacifica:vocab:review:Unspecified",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:superintendent",
+        "gap": "Precise statutes and expenditure controls remain unprovided.",
+        "refusal": "Legislators can frustrate taxes, loans, subsidies and ports.",
+        "expiry": "Later offices reorganize authority; this office is not automatically inherited."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C08",
+        "actor": "urn:pacifica:character:CT-ELIAS",
+        "predicate": "urn:pacifica:ontology:review:hasAuthorityOver",
+        "object": "urn:pacifica:review:forward-gold-20261026:minister-appointments",
+        "status": "urn:pacifica:vocab:review:Approved",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:providentor",
+        "instrument": "urn:pacifica:review:forward-gold-20261026:delegation",
+        "refusal": "Ministers retain expertise and constituencies; courts enforce ordinary property; protected provisions remain binding.",
+        "expiry": "Life Providentorship; delegation lapses with 1887 regency."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C14",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:hasAuthorityOver",
+        "object": "urn:pacifica:review:forward-gold-20261026:minister-appointments",
+        "status": "urn:pacifica:vocab:review:Approved",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:sovereign",
+        "instrument": "urn:pacifica:review:forward-gold-20261026:constitution",
+        "refusal": "Senate resists; Polytechnic nominees and Senate removal consent constrain estate chief.",
+        "expiry": "Office follows succession law; enabling delegation is not revived."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C15",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:canMobilize",
+        "object": "urn:pacifica:review:forward-gold-20261026:capacity",
+        "status": "urn:pacifica:vocab:review:AuthorialNotApplicable",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:sovereign",
+        "gap": "No universal command instrument follows from accession; specific estate requests, sanctions and fallback remain unprovided.",
+        "refusal": "Estates have their own mandates and the Crown must not touch protected structures; response to breach needs specification.",
+        "expiry": "Different offices and generations survive 1915; unwritten bargain tested and breaks in 1921 according to character summary."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C18",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:haltsNewIssues",
+        "object": "urn:pacifica:review:forward-gold-20261026:newissues",
+        "status": "urn:pacifica:vocab:review:Proposed",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:sovereign",
+        "gap": "The passage states that he stops new issues; it does not specify law, syndicate undertaking, collateral gate or a coordinating decision.",
+        "refusal": "Private lenders retain claims, risk, overseas alternatives and potential refusal.",
+        "expiry": "New issues at the proposed autumn 1918 decision; not confiscation of old claims."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C20",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:canMobilize",
+        "object": "urn:pacifica:review:forward-gold-20261026:facility",
+        "status": "urn:pacifica:vocab:review:Approved",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:sovereign",
+        "instrument": "urn:pacifica:review:forward-gold-20261026:loanvote",
+        "refusal": "Private lenders must subscribe; Japanese banks and government retain domestic authority; no blanket confiscation.",
+        "expiry": "Repayment schedule 1929-1933; commitment is not full drawing."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C21",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:hasAuthorityOver",
+        "object": "urn:pacifica:review:forward-gold-20261026:common-policy",
+        "status": "urn:pacifica:vocab:review:Approved",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:sovereign",
+        "gap": "Senate refused treaty; provisional application is illegal in substance.",
+        "refusal": "Senate refuses; Japan can lapse if Pacifica fails to secure consent.",
+        "expiry": "1927 illegal interval before 1928 cure."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C22",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:commands",
+        "object": "urn:pacifica:review:forward-gold-20261026:common-policy",
+        "status": "urn:pacifica:vocab:review:Approved",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:concord",
+        "instrument": "urn:pacifica:review:forward-gold-20261026:consent",
+        "refusal": "Japan retains national government and home army except Concord war; western squadron reserved until renewal.",
+        "expiry": "Five-year trust; quota and delegation review, audit, renewal required."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C23",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:commands",
+        "object": "urn:pacifica:review:forward-gold-20261026:overseas-command",
+        "status": "urn:pacifica:vocab:review:Approved",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:concord",
+        "instrument": "urn:pacifica:review:forward-gold-20261026:renewal",
+        "refusal": "Home army remains national except Concord war; Japan can refuse in 1937.",
+        "expiry": "Renewal to 1937; no unlimited or permanent mandate."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C24",
+        "actor": "urn:pacifica:review:forward-gold-20261026:reservebank",
+        "predicate": "urn:pacifica:ontology:review:canMobilize",
+        "object": "urn:pacifica:review:forward-gold-20261026:bank-resources",
+        "status": "urn:pacifica:vocab:review:Unspecified",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:reservebank",
+        "gap": "Detailed mandate, liquidity authorization and Julian access procedure are not provided here.",
+        "refusal": "Bank and creditor holders retain claims; overseas debtors may stop paying.",
+        "expiry": "Moratorium and restructuring are dated; indefinite gold support is not established."
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:C35",
+        "actor": "urn:pacifica:character:CT-JULIAN",
+        "predicate": "urn:pacifica:ontology:review:canMobilize",
+        "object": "urn:pacifica:review:forward-gold-20261026:coordinated-response",
+        "status": "urn:pacifica:vocab:review:Proposed",
+        "actingThrough": "urn:pacifica:review:forward-gold-20261026:sovereign",
+        "instrument": "urn:pacifica:review:forward-gold-20261026:crisis-protocol",
+        "refusal": "Estates, Senate, syndicates and counterparties retain specified consent/refusal; no universal cash sweep.",
+        "expiry": "Time-limited crisis activation and review, rather than revived life delegation."
+      }
+    ],
+    "provisional-dependencies": [
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J01",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C05",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J01",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L02",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C15",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C31",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C32",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C32",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L09",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L30",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L31",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:Q06",
+        "status": "urn:pacifica:vocab:review:Unmodeled"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J02",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:Q07",
+        "status": "urn:pacifica:vocab:review:Unmodeled"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J03",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C33",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J04",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C15",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J04",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C33",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J04",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L09",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J05",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C15",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J05",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C18",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J05",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L09",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J05",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L10",
+        "status": "urn:pacifica:vocab:review:Asserted"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C15",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C18",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C35",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C35",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L09",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L10",
+        "status": "urn:pacifica:vocab:review:Asserted"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L33",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J06",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:Q10",
+        "status": "urn:pacifica:vocab:review:Unmodeled"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C05",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C15",
+        "status": "urn:pacifica:vocab:review:Unknown"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C18",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:C25",
+        "status": "urn:pacifica:vocab:review:Proposed"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L02",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L09",
+        "status": "urn:pacifica:vocab:review:Missing"
+      },
+      {
+        "judgment": "urn:pacifica:review:forward-gold-20261026:J07",
+        "dependency": "urn:pacifica:review:forward-gold-20261026:L10",
+        "status": "urn:pacifica:vocab:review:Asserted"
+      }
+    ],
+    "quantities-and-gaps": [
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q01",
+        "case": "urn:pacifica:review:forward-gold-20261026:B",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "237.0",
+        "unit": "Period USD millions",
+        "accounting": "Aggregate production value; not public receipts",
+        "basis": "urn:pacifica:vocab:review:InheritedParameter"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q02",
+        "case": "urn:pacifica:review:forward-gold-20261026:B",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "10.665",
+        "unit": "Period USD millions",
+        "accounting": "Fixed output gross before costs and further receipt adjustments",
+        "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q03",
+        "case": "urn:pacifica:review:forward-gold-20261026:R",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "7.110",
+        "unit": "Period USD millions",
+        "accounting": "Fixed output gross at hypothetical 100% collection; no behavioral prediction",
+        "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q04",
+        "case": "urn:pacifica:review:forward-gold-20261026:R",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "-3.555",
+        "unit": "Period USD millions",
+        "accounting": "Delta versus 5% at 90%; before all collection costs",
+        "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q05",
+        "case": "urn:pacifica:review:forward-gold-20261026:S",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "1.185",
+        "unit": "Period USD millions",
+        "accounting": "Conditional extra gross from ten-point capture gain, not a forecast",
+        "basis": "urn:pacifica:vocab:review:ConditionalCalculation"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q06",
+        "case": "urn:pacifica:review:forward-gold-20261026:S",
+        "state": "urn:pacifica:vocab:review:Unmodeled",
+        "reason": "Service cost, capture gain and output/avoidance response unavailable; not zero.",
+        "unit": "Period USD millions",
+        "accounting": "Net policy difference including costs, leakage and output response",
+        "basis": "urn:pacifica:vocab:review:QuantitativeUnmodeled"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q07",
+        "case": "urn:pacifica:review:forward-gold-20261026:S",
+        "state": "urn:pacifica:vocab:review:Unmodeled",
+        "reason": "No intermediate investment, institutional or endpoint rerun; no numerical power inference.",
+        "unit": "Period USD millions",
+        "accounting": "Endpoint resource difference after obligations and transmission",
+        "basis": "urn:pacifica:vocab:review:QuantitativeUnmodeled"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q08",
+        "case": "urn:pacifica:review:forward-gold-20261026:R",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "1.5",
+        "unit": "Fraction of fixed taxable output",
+        "accounting": "Required fraction to match 5% times 90%; infeasible above one",
+        "basis": "urn:pacifica:vocab:review:IndependentlyChecked"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q09",
+        "case": "urn:pacifica:review:forward-gold-20261026:B",
+        "state": "urn:pacifica:vocab:review:Known",
+        "value": "165.620",
+        "unit": "Period USD millions",
+        "accounting": "Public drawing only; 600 commitment and private 331.241 distinct",
+        "basis": "urn:pacifica:vocab:review:InheritedResult"
+      },
+      {
+        "claim": "urn:pacifica:review:forward-gold-20261026:Q10",
+        "case": "urn:pacifica:review:forward-gold-20261026:AD",
+        "state": "urn:pacifica:vocab:review:Unmodeled",
+        "reason": "Candidate legal/political terms and financing shares unapproved; costs unprovided.",
+        "unit": "Period USD millions",
+        "accounting": "Negotiation, reporting, contingent claims and financing costs",
+        "basis": "urn:pacifica:vocab:review:QuantitativeUnmodeled"
+      }
+    ],
+    "evidence-boundaries": [
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E01",
+        "target": "urn:pacifica:review:forward-gold-20261026:C01",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 117, 125: October 1847 find and delayed official confirmation, locally PROPOSED CR-028",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E02",
+        "target": "urn:pacifica:review:forward-gold-20261026:C02",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 127-131: inherited mining rules, 1849 royalty, 1850 mint and separate private claims",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E03",
+        "target": "urn:pacifica:review:forward-gold-20261026:C03",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 127-131: inherited mining rules, 1849 royalty, 1850 mint and separate private claims",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E04",
+        "target": "urn:pacifica:review:forward-gold-20261026:C04",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 127-131: inherited mining rules, 1849 royalty, 1850 mint and separate private claims",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E05",
+        "target": "urn:pacifica:review:forward-gold-20261026:C05",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 117, 125: October 1847 find and delayed official confirmation, locally PROPOSED CR-028",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E06",
+        "target": "urn:pacifica:review:forward-gold-20261026:C06",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 137-139, 183-189: 1852 office, legislative obstruction and technical-contract network",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E07",
+        "target": "urn:pacifica:review:forward-gold-20261026:C08",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 213-219, 333-339: constitutional enabling procedure, life office and lapse",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E08",
+        "target": "urn:pacifica:review:forward-gold-20261026:C09",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 213-219, 333-339: constitutional enabling procedure, life office and lapse",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E09",
+        "target": "urn:pacifica:review:forward-gold-20261026:C10",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 483-505: Realm constitution, charters, appointment limits and negotiated succession",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E10",
+        "target": "urn:pacifica:review:forward-gold-20261026:C11",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 520-530: independent estates and unwritten Crown bargain, proposed personnel and compact",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E11",
+        "target": "urn:pacifica:review:forward-gold-20261026:C12",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 520-530: independent estates and unwritten Crown bargain, proposed personnel and compact",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E12",
+        "target": "urn:pacifica:review:forward-gold-20261026:C13",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 630-642: contested succession, Act, independent crowns, accession and retained charter",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E13",
+        "target": "urn:pacifica:review:forward-gold-20261026:C14",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 483-505: Realm constitution, charters, appointment limits and negotiated succession",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E14",
+        "target": "urn:pacifica:review:forward-gold-20261026:C15",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 520-530: independent estates and unwritten Crown bargain, proposed personnel and compact",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E15",
+        "target": "urn:pacifica:review:forward-gold-20261026:C16",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 678-691: approved credit mechanism, MODEL allocations and proposed 1918 halt",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E16",
+        "target": "urn:pacifica:review:forward-gold-20261026:C17",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 678-691: approved credit mechanism, MODEL allocations and proposed 1918 halt",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E17",
+        "target": "urn:pacifica:review:forward-gold-20261026:C18",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 678-691: approved credit mechanism, MODEL allocations and proposed 1918 halt",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E18",
+        "target": "urn:pacifica:review:forward-gold-20261026:C19",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 701, 739-750: short funding, earthquake, Japanese own capital and FX facility",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E19",
+        "target": "urn:pacifica:review:forward-gold-20261026:C20",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 701, 739-750: short funding, earthquake, Japanese own capital and FX facility",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E20",
+        "target": "urn:pacifica:review:forward-gold-20261026:C21",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 752-762: loan/treaty distinction, illegal application, legal cure and common offices",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E21",
+        "target": "urn:pacifica:review:forward-gold-20261026:C22",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 752-762: loan/treaty distinction, illegal application, legal cure and common offices",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E22",
+        "target": "urn:pacifica:review:forward-gold-20261026:C23",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 782-792, 806-808: Reserve Bank actions, distress, renewal, conditional command",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E23",
+        "target": "urn:pacifica:review:forward-gold-20261026:C24",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 782-792, 806-808: Reserve Bank actions, distress, renewal, conditional command",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E24",
+        "target": "urn:pacifica:review:forward-gold-20261026:C25",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 818-828: proposed Union settlement and authored endpoint, independent Union",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E30",
+        "target": "urn:pacifica:review:forward-gold-20261026:L02",
+        "relation": "urn:pacifica:vocab:review:Analogy",
+        "historicalSupport": "urn:pacifica:vocab:review:Analogous",
+        "locator": "California Gold Rush section; inherited dossier H1, access reported 26 October 2026; not retrieved anew",
+        "retrieval": "urn:pacifica:vocab:review:ReportedByDossier",
+        "boundary": "Prior dossier reports Mint retrospective: local settlement reduces eastward shipping delays/risks; actual branch 1854. Cannot validate Pacifica 1850 staffing, costs or 90% capture."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E31",
+        "target": "urn:pacifica:review:forward-gold-20261026:C31",
+        "relation": "urn:pacifica:vocab:review:Analogy",
+        "historicalSupport": "urn:pacifica:vocab:review:Analogous",
+        "locator": "California Gold Rush section; inherited dossier H1, access reported 26 October 2026; not retrieved anew",
+        "retrieval": "urn:pacifica:vocab:review:ReportedByDossier",
+        "boundary": "Useful settlement is a candidate participation incentive; no collection elasticity or earlier commissioning proof."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E32",
+        "target": "urn:pacifica:review:forward-gold-20261026:L30",
+        "relation": "urn:pacifica:vocab:review:Analogy",
+        "historicalSupport": "urn:pacifica:vocab:review:Analogous",
+        "locator": "House Executive Document 62, 33rd Congress 2nd Session, printed pp.2-3; inherited dossier H2; text retrieved by prior analyst, page-image request failed",
+        "retrieval": "urn:pacifica:vocab:review:ReportedByDossier",
+        "boundary": "Prior analyst retrieved text, page-image request failed; April 1854 supplies/parting-acid constraint demonstrates an operating risk, not a Pacifican schedule or output calibration. No OCR quantities used."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E33",
+        "target": "urn:pacifica:review:forward-gold-20261026:C05",
+        "relation": "urn:pacifica:vocab:review:Analogy",
+        "historicalSupport": "urn:pacifica:vocab:review:Analogous",
+        "locator": "appendix document 17, accepted 4 June 1846, printed pp.31-33, Articles 3,5,7; edition publication date unestablished; inherited dossier H3 paraphrases",
+        "retrieval": "urn:pacifica:vocab:review:ReportedByDossier",
+        "boundary": "1846 Mexican instrument has a coupon and pledged revenues. It neither proves counterfactual recognition/transfer nor applicable Pacifican maturity, arrears or due dates."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E34",
+        "target": "urn:pacifica:review:forward-gold-20261026:L30",
+        "relation": "urn:pacifica:vocab:review:EvidenceUnavailable",
+        "historicalSupport": "urn:pacifica:vocab:review:Unavailable",
+        "locator": "inherited dossier H4; search lead only, full record retrieval failed; no verified contracting evidence",
+        "retrieval": "urn:pacifica:vocab:review:Unretrieved",
+        "boundary": "Search snippet/full retrieval failure cannot establish Moffat operator, Treasury contract, public/private structure or local commissioning date."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E35",
+        "target": "urn:pacifica:review:forward-gold-20261026:L02",
+        "relation": "urn:pacifica:vocab:review:Challenges",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 29-30, 96, 174, 309-321: mining law boundaries, bullion not sole war cause, local CR-028/029 qualifications",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Historical background explicitly leaves claims, tribal territory and exact royalty system unsettled; inherited rules do not establish collection coverage. No fresh source retrieval."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E36",
+        "target": "urn:pacifica:review:forward-gold-20261026:C18",
+        "relation": "urn:pacifica:vocab:review:Challenges",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 678-691: approved credit mechanism, MODEL allocations and proposed 1918 halt",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "The approved mixed-ownership credit mechanism blocks counting all subscriber claims as Treasury assets; the halt is locally proposed and lacks the specific compliance channel."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E37",
+        "target": "urn:pacifica:review:forward-gold-20261026:Q02",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "financial-diagnostic.json: output_musd; baseline_5pct_90pct_gross_musd; sensitivity; checks; endpoint_1932_power_delta",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Arithmetic replay of supplied JSON with fixed output; parameters remain inherited and empirically unvalidated."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E38",
+        "target": "urn:pacifica:review:forward-gold-20261026:C12",
+        "relation": "urn:pacifica:vocab:review:Challenges",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "Puʻuloa lease and Victoria estate bullets; unprovided rent and estate values",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "No Puʻuloa rent or estate total supplied; shares/land cannot be converted into a free cash balance or assigned zero."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E39",
+        "target": "urn:pacifica:review:forward-gold-20261026:C26",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 590, 596, 727: foreign gold purchased against credit, sector-specific Crown shares, private management and no banking Crown equity",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Narrative distinguishes private management from sector-specific Crown equity and a golden share against foreign sale; no operational command inferred."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E40",
+        "target": "urn:pacifica:review:forward-gold-20261026:C27",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 590, 596, 727: foreign gold purchased against credit, sector-specific Crown shares, private management and no banking Crown equity",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Explicit negative statement about Crown bank equity; Reserve Bank regulation is a distinct relation, not ownership."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E41",
+        "target": "urn:pacifica:review:forward-gold-20261026:C28",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 590, 596, 727: foreign gold purchased against credit, sector-specific Crown shares, private management and no banking Crown equity",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Foreign concession gold reaches reserves by sale against credit; no foreign production or mine ownership added to domestic resources."
+      },
+      {
+        "application": "urn:pacifica:review:forward-gold-20261026:E42",
+        "target": "urn:pacifica:review:forward-gold-20261026:C29",
+        "relation": "urn:pacifica:vocab:review:Supports",
+        "historicalSupport": "urn:pacifica:vocab:review:HistoricalNotApplicable",
+        "locator": "lines 520-530: independent estates and unwritten Crown bargain, proposed personnel and compact",
+        "retrieval": "urn:pacifica:vocab:review:LocalPinned",
+        "boundary": "Development Fund claim on surplus and Crown commitment to protect it limit discretionary resources; amount and distribution procedure not quantified."
+      }
+    ]
+  }
+}

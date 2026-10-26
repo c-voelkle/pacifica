@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aegis"
+  short_description: "Trace storyline choices into Julian's eventual power"
+  default_prompt: "Use $aegis to assess this Pacifica decision cluster against a feasible alternative and trace its contribution to Julian's effective power by 1932."

@@ -1,5 +1,7 @@
 """Behavioral checks for status, scope, evidence and power-review boundaries."""
 from decimal import Decimal
+from contextlib import redirect_stderr
+from io import StringIO
 import json
 import tempfile
 from pathlib import Path
@@ -7,7 +9,7 @@ import unittest
 
 from rdflib import Graph, Literal, Namespace, RDF
 from validate import (HERE, REPOSITORY, PC, V, check_inputs, checked_path,
-                      load_graph, query_views, validate_graph)
+                      load_graph, main, query_views, validate_graph)
 
 GOLD = Namespace('urn:pacifica:review:gold-20261026:')
 CT = Namespace('urn:pacifica:character:')
@@ -109,6 +111,26 @@ class ReviewOntologyTests(unittest.TestCase):
     def test_input_path_cannot_escape_repository(self):
         with self.assertRaisesRegex(ValueError, 'escapes the repository'):
             checked_path(REPOSITORY, '../outside.txt')
+
+    def test_custom_review_replaces_the_pilot_instead_of_merging_it(self):
+        with tempfile.TemporaryDirectory(prefix='review-data-', dir=REPOSITORY.parent) as temporary:
+            root = Path(temporary)
+            self.assertTrue(root.resolve().is_relative_to(REPOSITORY.parent.resolve()))
+            dataset = root / 'new-review.ttl'
+            dataset.write_text('''@prefix pc: <urn:pacifica:ontology:review:> .
+@prefix v: <urn:pacifica:vocab:review:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+<urn:test:only-entity> a pc:Entity ; rdfs:label "New review only" ; pc:entityKind v:Institution .
+''', encoding='utf-8')
+            graph = load_graph(data_paths=[dataset])
+            self.assertEqual(len(set(graph.subjects(RDF.type, PC.Claim))), 0)
+            self.assertNotIn((GOLD.Cutoff1918, RDF.type, PC.Claim), graph)
+            self.assertTrue(validate_graph(graph)[0])
+
+    def test_custom_review_cannot_silently_reuse_the_pilot_manifest(self):
+        with redirect_stderr(StringIO()), self.assertRaises(SystemExit) as error:
+            main(['--data', 'another-review.ttl'])
+        self.assertEqual(error.exception.code, 2)
 
     def test_input_integrity_survives_lf_and_crlf_source_checkouts(self):
         manifest = json.loads((HERE / 'inputs/manifest.json').read_text(encoding='utf-8'))

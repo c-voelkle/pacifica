@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - "docs/power-review/**"
+      - ".agents/skills/aegis/**"
+      - ".agents/skills/clio/**"
+      - ".agents/skills/chryseis/**"
+      - "outputs/power-review-gold-ontology-20261026/**"
       - "book-agent/revision/master_storyline.md"
       - "book-agent/revision/character_registry.json"
       - "book-agent/revision/change_requests.json"
@@ -12,6 +16,10 @@ on:
     branches: [main]
     paths:
       - "docs/power-review/**"
+      - ".agents/skills/aegis/**"
+      - ".agents/skills/clio/**"
+      - ".agents/skills/chryseis/**"
+      - "outputs/power-review-gold-ontology-20261026/**"
       - "book-agent/revision/master_storyline.md"
       - "book-agent/revision/character_registry.json"
       - "book-agent/revision/change_requests.json"
@@ -34,6 +42,14 @@ jobs:
       - name: Install review dependencies
         run: python -m pip install -r docs/power-review/ontology/requirements.txt
       - name: Validate shapes, pinned inputs and review queries
-        run: python docs/power-review/ontology/validate.py
+        run: python -X utf8 docs/power-review/ontology/validate.py
       - name: Exercise authority, scope and missingness boundaries
-        run: python -m unittest discover -s docs/power-review/ontology -p 'test_*.py' -v
+        run: python -X utf8 -m unittest discover -s docs/power-review/ontology -p 'test_*.py' -v
+      - name: Validate the ontology-enabled Aegis rerun
+        run: >-
+          python -X utf8 docs/power-review/ontology/validate.py
+          --data outputs/power-review-gold-ontology-20261026/after/review.ttl
+          --manifest outputs/power-review-gold-ontology-20261026/after/input-manifest.json
+          --repository . --json
+      - name: Check the matched financial scope
+        run: python -X utf8 outputs/power-review-gold-ontology-20261026/check_financial_parity.py

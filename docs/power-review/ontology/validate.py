@@ -18,10 +18,12 @@ V = Namespace('urn:pacifica:vocab:review:')
 PROV = Namespace('http://www.w3.org/ns/prov#')
 
 
-def load_graph(directory: Path = HERE) -> Graph:
+def load_graph(directory: Path = HERE, data_paths: list[Path] | None = None) -> Graph:
     graph = Graph()
-    for filename in ('ontology.ttl', 'vocabularies.ttl', 'gold-review.ttl'):
+    for filename in ('ontology.ttl', 'vocabularies.ttl'):
         graph.parse(directory / filename, format='turtle')
+    for path in data_paths if data_paths is not None else [directory / 'gold-review.ttl']:
+        graph.parse(path, format='turtle')
     return graph
 
 
@@ -39,8 +41,9 @@ def checked_path(repository: Path, relative: str) -> Path:
     return candidate
 
 
-def check_inputs(graph: Graph, directory: Path = HERE, repository: Path = REPOSITORY) -> int:
-    manifest = json.loads((directory / 'inputs/manifest.json').read_text(encoding='utf-8'))
+def check_inputs(graph: Graph, directory: Path = HERE, repository: Path = REPOSITORY,
+                 manifest_path: Path | None = None) -> int:
+    manifest = json.loads((manifest_path or directory / 'inputs/manifest.json').read_text(encoding='utf-8'))
     declared = manifest['files']
     recorded = {}
     for doc in graph.subjects(PC.retrievalStatus, V.LocalPinned):
@@ -93,20 +96,28 @@ def query_views(graph: Graph, directory: Path = HERE) -> dict[str, list[dict]]:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--json', action='store_true', help='Print validated query views as JSON')
+    parser.add_argument('--data', action='append', type=Path,
+                        help='Review Turtle file; repeat for fragments. Replaces the default pilot.')
+    parser.add_argument('--manifest', type=Path, help='The selected review\'s input manifest')
+    parser.add_argument('--repository', type=Path, default=REPOSITORY,
+                        help='Repository root for pinned inputs and the character registry')
     args = parser.parse_args(argv)
+    if args.data is not None and args.manifest is None:
+        parser.error('--data requires that review\'s --manifest; the pilot manifest is not reused')
     try:
-        graph = load_graph()
+        graph = load_graph(data_paths=args.data)
         conforms, _, report = validate_graph(graph)
         if not conforms:
             print(report, file=sys.stderr)
             return 1
-        sources = check_inputs(graph)
+        sources = check_inputs(graph, repository=args.repository, manifest_path=args.manifest)
         views = query_views(graph)
     except Exception as error:
         print(f'Validation failed: {error}', file=sys.stderr)
         return 1
     summary = {'conforms': True, 'local_inputs_verified': sources,
-               'review_triples': len(Graph().parse(HERE / 'gold-review.ttl', format='turtle')),
+               'review_triples': sum(len(Graph().parse(path, format='turtle'))
+                                     for path in args.data or [HERE / 'gold-review.ttl']),
                'record_counts': {kind: len(set(graph.subjects(RDF.type, PC[kind])))
                                  for kind in ('Claim', 'MechanismLink', 'EvidenceApplication', 'ComparisonCase', 'Judgment')},
                'query_row_counts': {name: len(rows) for name, rows in views.items()}}

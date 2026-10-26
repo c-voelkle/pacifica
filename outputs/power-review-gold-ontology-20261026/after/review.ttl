@@ -1,0 +1,2283 @@
+@prefix fg: <urn:pacifica:review:forward-gold-20261026:> .
+@prefix pc: <urn:pacifica:ontology:review:> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v: <urn:pacifica:vocab:review:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fg:C30 a pc:Claim ;
+    rdfs:label "Clarification preserves distinct public receipt, private wealth and debt claims" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P03 ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:C ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:cash ;
+    pc:period "1849–1932 (inclusive review coverage)" ;
+    pc:predicate pc:retains ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C34 a pc:Claim ;
+    rdfs:label "Accession clarification retains existing offices and independence" ;
+    prov:wasDerivedFrom fg:P05,
+        fg:P06,
+        fg:P07 ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:AC ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:sovereign ;
+    pc:period "1915–1932 (inclusive review coverage)" ;
+    pc:predicate pc:holdsOffice ;
+    pc:startYear 1915 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:D-bible a pc:SourceDocument ;
+    rdfs:label "book-agent/revision/character_bible.md" ;
+    pc:documentPath "book-agent/revision/character_bible.md" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "6b36de1bc0728fd72fcfd9645b98a3cead3322a316a445955fa613115aac745a" ;
+    pc:sourceKind v:RegistrySource .
+
+fg:E01 a pc:EvidenceApplication ;
+    rdfs:label "P01 applied to C01" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P01 ;
+    pc:target fg:C01 .
+
+fg:E02 a pc:EvidenceApplication ;
+    rdfs:label "P02 applied to C02" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P02 ;
+    pc:target fg:C02 .
+
+fg:E03 a pc:EvidenceApplication ;
+    rdfs:label "P02 applied to C03" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P02 ;
+    pc:target fg:C03 .
+
+fg:E04 a pc:EvidenceApplication ;
+    rdfs:label "P02 applied to C04" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P02 ;
+    pc:target fg:C04 .
+
+fg:E05 a pc:EvidenceApplication ;
+    rdfs:label "P01 applied to C05" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P01 ;
+    pc:target fg:C05 .
+
+fg:E06 a pc:EvidenceApplication ;
+    rdfs:label "P03 applied to C06" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P03 ;
+    pc:target fg:C06 .
+
+fg:E07 a pc:EvidenceApplication ;
+    rdfs:label "P04 applied to C08" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P04 ;
+    pc:target fg:C08 .
+
+fg:E08 a pc:EvidenceApplication ;
+    rdfs:label "P04 applied to C09" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P04 ;
+    pc:target fg:C09 .
+
+fg:E09 a pc:EvidenceApplication ;
+    rdfs:label "P05 applied to C10" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P05 ;
+    pc:target fg:C10 .
+
+fg:E10 a pc:EvidenceApplication ;
+    rdfs:label "P06 applied to C11" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P06 ;
+    pc:target fg:C11 .
+
+fg:E11 a pc:EvidenceApplication ;
+    rdfs:label "P06 applied to C12" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P06 ;
+    pc:target fg:C12 .
+
+fg:E12 a pc:EvidenceApplication ;
+    rdfs:label "P07 applied to C13" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P07 ;
+    pc:target fg:C13 .
+
+fg:E13 a pc:EvidenceApplication ;
+    rdfs:label "P05 applied to C14" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P05 ;
+    pc:target fg:C14 .
+
+fg:E14 a pc:EvidenceApplication ;
+    rdfs:label "P06 applied to C15" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P06 ;
+    pc:target fg:C15 .
+
+fg:E15 a pc:EvidenceApplication ;
+    rdfs:label "P09 applied to C16" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P09 ;
+    pc:target fg:C16 .
+
+fg:E16 a pc:EvidenceApplication ;
+    rdfs:label "P09 applied to C17" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P09 ;
+    pc:target fg:C17 .
+
+fg:E17 a pc:EvidenceApplication ;
+    rdfs:label "P09 applied to C18" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P09 ;
+    pc:target fg:C18 .
+
+fg:E18 a pc:EvidenceApplication ;
+    rdfs:label "P10 applied to C19" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P10 ;
+    pc:target fg:C19 .
+
+fg:E19 a pc:EvidenceApplication ;
+    rdfs:label "P10 applied to C20" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P10 ;
+    pc:target fg:C20 .
+
+fg:E20 a pc:EvidenceApplication ;
+    rdfs:label "P11 applied to C21" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P11 ;
+    pc:target fg:C21 .
+
+fg:E21 a pc:EvidenceApplication ;
+    rdfs:label "P11 applied to C22" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P11 ;
+    pc:target fg:C22 .
+
+fg:E22 a pc:EvidenceApplication ;
+    rdfs:label "P12 applied to C23" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P12 ;
+    pc:target fg:C23 .
+
+fg:E23 a pc:EvidenceApplication ;
+    rdfs:label "P12 applied to C24" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P12 ;
+    pc:target fg:C24 .
+
+fg:E24 a pc:EvidenceApplication ;
+    rdfs:label "P13 applied to C25" ;
+    pc:applicability "Authored fictional statement or bounded analytic extraction; local qualifications retained. Does not prove historical feasibility or supply omitted instrument." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P13 ;
+    pc:target fg:C25 .
+
+fg:E30 a pc:EvidenceApplication ;
+    rdfs:label "H1 applied to L02" ;
+    pc:applicability "Prior dossier reports Mint retrospective: local settlement reduces eastward shipping delays/risks; actual branch 1854. Cannot validate Pacifica 1850 staffing, costs or 90% capture." ;
+    pc:evidenceRelation v:Analogy ;
+    pc:historicalSupport v:Analogous ;
+    pc:independenceGroup "Mint-history" ;
+    pc:sourcePassage fg:H1 ;
+    pc:target fg:L02 .
+
+fg:E31 a pc:EvidenceApplication ;
+    rdfs:label "H1 applied to C31" ;
+    pc:applicability "Useful settlement is a candidate participation incentive; no collection elasticity or earlier commissioning proof." ;
+    pc:evidenceRelation v:Analogy ;
+    pc:historicalSupport v:Analogous ;
+    pc:independenceGroup "Mint-history" ;
+    pc:sourcePassage fg:H1 ;
+    pc:target fg:C31 .
+
+fg:E32 a pc:EvidenceApplication ;
+    rdfs:label "H2 applied to L30" ;
+    pc:applicability "Prior analyst retrieved text, page-image request failed; April 1854 supplies/parting-acid constraint demonstrates an operating risk, not a Pacifican schedule or output calibration. No OCR quantities used." ;
+    pc:evidenceRelation v:Analogy ;
+    pc:historicalSupport v:Analogous ;
+    pc:independenceGroup "Mint-1855-report" ;
+    pc:sourcePassage fg:H2 ;
+    pc:target fg:L30 .
+
+fg:E33 a pc:EvidenceApplication ;
+    rdfs:label "H3 applied to C05" ;
+    pc:applicability "1846 Mexican instrument has a coupon and pledged revenues. It neither proves counterfactual recognition/transfer nor applicable Pacifican maturity, arrears or due dates." ;
+    pc:evidenceRelation v:Analogy ;
+    pc:historicalSupport v:Analogous ;
+    pc:independenceGroup "Payno-doc17" ;
+    pc:sourcePassage fg:H3 ;
+    pc:target fg:C05 .
+
+fg:E34 a pc:EvidenceApplication ;
+    rdfs:label "H4 applied to L30" ;
+    pc:applicability "Search snippet/full retrieval failure cannot establish Moffat operator, Treasury contract, public/private structure or local commissioning date." ;
+    pc:evidenceRelation v:EvidenceUnavailable ;
+    pc:historicalSupport v:Unavailable ;
+    pc:independenceGroup "Smithsonian-lead" ;
+    pc:sourcePassage fg:H4 ;
+    pc:target fg:L30 .
+
+fg:E35 a pc:EvidenceApplication ;
+    rdfs:label "PH applied to L02" ;
+    pc:applicability "Historical background explicitly leaves claims, tribal territory and exact royalty system unsettled; inherited rules do not establish collection coverage. No fresh source retrieval." ;
+    pc:evidenceRelation v:Challenges ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "project-history" ;
+    pc:sourcePassage fg:PH ;
+    pc:target fg:L02 .
+
+fg:E36 a pc:EvidenceApplication ;
+    rdfs:label "P09 applied to C18" ;
+    pc:applicability "The approved mixed-ownership credit mechanism blocks counting all subscriber claims as Treasury assets; the halt is locally proposed and lacks the specific compliance channel." ;
+    pc:evidenceRelation v:Challenges ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P09 ;
+    pc:target fg:C18 .
+
+fg:E37 a pc:EvidenceApplication ;
+    rdfs:label "PD applied to Q02" ;
+    pc:applicability "Arithmetic replay of supplied JSON with fixed output; parameters remain inherited and empirically unvalidated." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "bounded-JSON-replay" ;
+    pc:sourcePassage fg:PD ;
+    pc:target fg:Q02 .
+
+fg:E38 a pc:EvidenceApplication ;
+    rdfs:label "PR applied to C12" ;
+    pc:applicability "No Puʻuloa rent or estate total supplied; shares/land cannot be converted into a free cash balance or assigned zero." ;
+    pc:evidenceRelation v:Challenges ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "project-finance-notes" ;
+    pc:sourcePassage fg:PR ;
+    pc:target fg:C12 .
+
+fg:E39 a pc:EvidenceApplication ;
+    rdfs:label "P15 applied to C26" ;
+    pc:applicability "Narrative distinguishes private management from sector-specific Crown equity and a golden share against foreign sale; no operational command inferred." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P15 ;
+    pc:target fg:C26 .
+
+fg:E40 a pc:EvidenceApplication ;
+    rdfs:label "P15 applied to C27" ;
+    pc:applicability "Explicit negative statement about Crown bank equity; Reserve Bank regulation is a distinct relation, not ownership." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P15 ;
+    pc:target fg:C27 .
+
+fg:E41 a pc:EvidenceApplication ;
+    rdfs:label "P15 applied to C28" ;
+    pc:applicability "Foreign concession gold reaches reserves by sale against credit; no foreign production or mine ownership added to domestic resources." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P15 ;
+    pc:target fg:C28 .
+
+fg:E42 a pc:EvidenceApplication ;
+    rdfs:label "P06 applied to C29" ;
+    pc:applicability "Development Fund claim on surplus and Crown commitment to protect it limit discretionary resources; amount and distribution procedure not quantified." ;
+    pc:evidenceRelation v:Supports ;
+    pc:historicalSupport v:HistoricalNotApplicable ;
+    pc:independenceGroup "current-master" ;
+    pc:sourcePassage fg:P06 ;
+    pc:target fg:C29 .
+
+fg:J01 a pc:Judgment ;
+    rdfs:label "Minimal clarification improves inspectability of collection and ownership but supplies no extra world power" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:B ;
+    pc:comparesCase fg:C ;
+    pc:conditional false ;
+    pc:dependsOn fg:C04,
+        fg:C05,
+        fg:C06,
+        fg:L02 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "Minimal clarification improves inspectability of collection and ownership but supplies no extra world power." ;
+    pc:sensitivity "If clarification introduces new collection machinery or powers it becomes a world-change case." ;
+    pc:targetDimension v:Explanation ;
+    pc:verdict v:Improves ;
+    pc:verdictBasis v:ExplanatorySupport .
+
+fg:J02 a pc:Judgment ;
+    rdfs:label "Staged assay/remittance service is a conditional development priority, not an established endpoint improvement" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:B ;
+    pc:comparesCase fg:S ;
+    pc:conditional true ;
+    pc:dependsOn fg:C31,
+        fg:C32,
+        fg:L09,
+        fg:L30,
+        fg:L31,
+        fg:Q05,
+        fg:Q06,
+        fg:Q07 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "Staged assay/remittance service is a conditional development priority, not an established endpoint improvement." ;
+    pc:sensitivity "Capture response, commissioning, enforcement/avoidance, cost and preservation through succession could reverse the case." ;
+    pc:targetDimension v:Implementation,
+        v:MobilizableResources ;
+    pc:verdict v:Unresolved ;
+    pc:verdictBasis v:WorldPower .
+
+fg:J03 a pc:Judgment ;
+    rdfs:label "A 3% rate weakens gross receipts in the declared fixed-output control even at full collection" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:B ;
+    pc:comparesCase fg:R ;
+    pc:conditional false ;
+    pc:dependsOn fg:L32,
+        fg:Q02,
+        fg:Q03,
+        fg:Q04,
+        fg:Q08 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "A 3% rate weakens gross receipts in the declared fixed-output control even at full collection." ;
+    pc:sensitivity "Higher output, reduced costs or different baseline capture could reverse real net results; no such response is estimated." ;
+    pc:targetDimension v:GrossReceipts ;
+    pc:verdict v:Weakens ;
+    pc:verdictBasis v:FiscalDiagnostic .
+
+fg:J04 a pc:Judgment ;
+    rdfs:label "The 3% alternative has no established 1932 power effect; better consent or output must be shown rather than assumed" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:B ;
+    pc:comparesCase fg:R ;
+    pc:conditional true ;
+    pc:dependsOn fg:C33,
+        fg:L09,
+        fg:Q04 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "The 3% alternative has no established 1932 power effect; better consent or output must be shown rather than assumed." ;
+    pc:sensitivity "A defensible behavioral gain and complete transmission path could outweigh foregone gross revenue." ;
+    pc:targetDimension v:FreedomToAct,
+        v:Leverage,
+        v:MobilizableResources ;
+    pc:verdict v:Unresolved ;
+    pc:verdictBasis v:WorldPower .
+
+fg:J05 a pc:Judgment ;
+    rdfs:label "Accession/crisis clarification is recommended now because it preserves valid offices and makes instrument gaps explicit" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:B ;
+    pc:comparesCase fg:AC ;
+    pc:conditional false ;
+    pc:dependsOn fg:C14,
+        fg:C18,
+        fg:L06,
+        fg:L08,
+        fg:L09,
+        fg:L10 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "Accession/crisis clarification is recommended now because it preserves valid offices and makes instrument gaps explicit." ;
+    pc:sensitivity "A supposed clarification that creates an enforceable command bargain is substantive development." ;
+    pc:targetDimension v:Explanation ;
+    pc:verdict v:Improves ;
+    pc:verdictBasis v:ExplanatorySupport .
+
+fg:J06 a pc:Judgment ;
+    rdfs:label "A new reciprocal coordination bargain could make crisis action dependable but might reduce discretion or provoke refusal" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:B ;
+    pc:comparesCase fg:AD ;
+    pc:conditional true ;
+    pc:dependsOn fg:C35,
+        fg:L09,
+        fg:L10,
+        fg:L33,
+        fg:Q10 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "A new reciprocal coordination bargain could make crisis action dependable but might reduce discretion or provoke refusal." ;
+    pc:sensitivity "Estate legitimacy, Senate acceptance, investor alternatives, real cost and behavior after breach determine whether it helps." ;
+    pc:targetDimension v:FreedomToAct,
+        v:Implementation,
+        v:Leverage ;
+    pc:verdict v:Unresolved ;
+    pc:verdictBasis v:WorldPower .
+
+fg:J07 a pc:Judgment ;
+    rdfs:label "Retaining baseline rather than adopting the 3% candidate preserves a larger gross fixed-output take and an authored path to bounded command; the relative net 1932 power effect is unmodeled" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:P06,
+        fg:P09,
+        fg:P11,
+        fg:PD ;
+    pc:againstCase fg:R ;
+    pc:comparesCase fg:B ;
+    pc:conditional true ;
+    pc:dependsOn fg:C06,
+        fg:C08,
+        fg:C09,
+        fg:C13,
+        fg:C15,
+        fg:C18,
+        fg:C20,
+        fg:C21,
+        fg:C22,
+        fg:C23,
+        fg:C24,
+        fg:C25,
+        fg:C26,
+        fg:C27,
+        fg:C28,
+        fg:C29,
+        fg:L02,
+        fg:L09,
+        fg:L10,
+        fg:L16,
+        fg:L17,
+        fg:Q02,
+        fg:Q03,
+        fg:Q04 ;
+    pc:endpointYear 1932 ;
+    pc:explanation "Retaining baseline rather than adopting the 3% candidate preserves a larger gross fixed-output take and an authored path to bounded command; the relative net 1932 power effect is unmodeled." ;
+    pc:sensitivity "Rate-driven output/participation gains, collection costs, estate/creditor refusal, succession breach, Japanese nonconsent or gold-support failure could reverse the preference." ;
+    pc:targetDimension v:FreedomToAct,
+        v:Implementation,
+        v:Leverage,
+        v:MobilizableResources ;
+    pc:verdict v:Unresolved ;
+    pc:verdictBasis v:WorldPower .
+
+fg:L01 a pc:MechanismLink ;
+    rdfs:label "Discovery to fiscal organization" ;
+    prov:wasDerivedFrom fg:P01,
+        fg:P02 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Secrecy buys proposed diplomatic/administrative time; it does not show how dispersed gold is captured." ;
+    pc:fromClaim fg:C01 ;
+    pc:narrativeSupport v:Asserted ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Creation ;
+    pc:toClaim fg:C02 .
+
+fg:L03 a pc:MechanismLink ;
+    rdfs:label "Receipts to an administered treasury" ;
+    prov:wasDerivedFrom fg:P03 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "1852 convention vests collections, credit and works in an office; legislators still obstruct." ;
+    pc:fromClaim fg:C03 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Creation ;
+    pc:toClaim fg:C06 .
+
+fg:L04 a pc:MechanismLink ;
+    rdfs:label "Public procurement to reproducible capacity" ;
+    prov:wasDerivedFrom fg:P03 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Paid trials, works, careers and private contracts create teams and repeat demand; costs and independent owners prevent total personal ownership." ;
+    pc:fromClaim fg:C06 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Accumulation ;
+    pc:toClaim fg:C07 .
+
+fg:L05 a pc:MechanismLink ;
+    rdfs:label "Productive constituency and lawful concentration" ;
+    prov:wasDerivedFrom fg:P03,
+        fg:P04 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Dependence on grants and contracts supports a bargaining coalition, while constitutional amendment supplies the legal instrument. The network is neither a sufficient nor necessary cause of the law." ;
+    pc:fromClaim fg:C07 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Transmission ;
+    pc:toClaim fg:C08 .
+
+fg:L07 a pc:MechanismLink ;
+    rdfs:label "Establishments survive through charters and balance" ;
+    prov:wasDerivedFrom fg:P05,
+        fg:P06 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Separate chartered capacities, Regent legitimacy and reciprocal restraint preserve institutions through the life-office interruption. Personnel details and proposed Truce/compact dates are not all approved." ;
+    pc:fromClaim fg:C07,
+        fg:C09 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Preserves ;
+    pc:stage v:Preservation ;
+    pc:toClaim fg:C10,
+        fg:C11 .
+
+fg:L11 a pc:MechanismLink ;
+    rdfs:label "Wartime gains also create later financial liabilities" ;
+    prov:wasDerivedFrom fg:P09,
+        fg:P10 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Japanese long assets and short funding, peace, earthquake and lender nonrenewal create rescue dependence; friendship, naval risk and Pacifican claims jointly motivate offer. Early royalty is not established as its marginal cause." ;
+    pc:fromClaim fg:C16,
+        fg:C19 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Accumulation ;
+    pc:toClaim fg:C20 .
+
+fg:L12 a pc:MechanismLink ;
+    rdfs:label "Financial rescue is distinct from treaty consent" ;
+    prov:wasDerivedFrom fg:P11 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Senate authorizes rescue loan but refuses treaty; endorsement by other crowns supplies political weight, no legal authority." ;
+    pc:fromClaim fg:C20 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Constrains ;
+    pc:stage v:Exercise ;
+    pc:toClaim fg:C21 .
+
+fg:L13 a pc:MechanismLink ;
+    rdfs:label "A restraint preserves a lawful common executive" ;
+    prov:wasDerivedFrom fg:P11 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "1928 consent and indemnity with shorter term, audit and quota review cure illegality at cost of discretion." ;
+    pc:fromClaim fg:C21 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Preserves ;
+    pc:stage v:Preservation ;
+    pc:toClaim fg:C22 .
+
+fg:L14 a pc:MechanismLink ;
+    rdfs:label "Renewal converts some partner command to common control" ;
+    prov:wasDerivedFrom fg:P12 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "1932 renewal after loyal Japanese cooperation consolidates overseas command for a fixed term; domestic army and 1937 refusal remain national." ;
+    pc:fromClaim fg:C22 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Transmits ;
+    pc:stage v:Accumulation ;
+    pc:toClaim fg:C23 .
+
+fg:L15 a pc:MechanismLink ;
+    rdfs:label "Reserve support to Union bargaining" ;
+    prov:wasDerivedFrom fg:P12,
+        fg:P13 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Rescue helps obtain proposed association; Union chooses stability and privileges while remaining sovereign. Detailed acceptance mechanisms stay proposed; Reserve Bank assets are not Julian private wealth." ;
+    pc:fromClaim fg:C24 ;
+    pc:narrativeSupport v:Asserted ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Exercise ;
+    pc:toClaim fg:C25 .
+
+fg:Q01 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "Inherited fixed gold output total, replayed" ;
+    prov:wasDerivedFrom fg:PD,
+        fg:PIN ;
+    pc:accountingBasis "Aggregate production value; not public receipts" ;
+    pc:authorialStatus v:Model ;
+    pc:case fg:B ;
+    pc:claimBasis v:ModelAssumption ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:numericValue 237.0 ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:InheritedParameter ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1849 ;
+    pc:subject fg:gold ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Known .
+
+fg:Q09 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "Inherited approximate public Japanese rescue drawing" ;
+    prov:wasDerivedFrom fg:P10,
+        fg:PF ;
+    pc:accountingBasis "Public drawing only; 600 commitment and private 331.241 distinct" ;
+    pc:authorialStatus v:Model ;
+    pc:case fg:B ;
+    pc:claimBasis v:ModelAssumption ;
+    pc:endYear 1927 ;
+    pc:jurisdiction fg:realm ;
+    pc:numericValue 165.620 ;
+    pc:period "1927–1927" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:InheritedResult ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1927 ;
+    pc:subject fg:treasury ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Known .
+
+fg:act a pc:Entity ;
+    rdfs:label "1914 Act of Settlement and 1915 accession" ;
+    pc:entityKind v:Instrument .
+
+fg:association a pc:Entity ;
+    rdfs:label "Union monetary/arbitration association and diplomatic concessions" ;
+    pc:entityKind v:Resource .
+
+fg:bank-gap a pc:Entity ;
+    rdfs:label "Reserve Bank mandate and access boundaries not detailed here" ;
+    pc:entityKind v:Instrument .
+
+fg:bargain a pc:Entity ;
+    rdfs:label "Unwritten Crown-estates reciprocal restraint" ;
+    pc:entityKind v:Instrument .
+
+fg:japan a pc:Entity ;
+    rdfs:label "Japan" ;
+    pc:entityKind v:Jurisdiction .
+
+fg:regent a pc:Entity ;
+    rdfs:label "Regent of the Realm" ;
+    pc:entityKind v:Office .
+
+fg:syndicates a pc:Entity ;
+    rdfs:label "San Francisco syndicates" ;
+    pc:entityKind v:Institution .
+
+fg:union-scope a pc:Entity ;
+    rdfs:label "Sovereign Union" ;
+    pc:entityKind v:Jurisdiction .
+
+<urn:pacifica:character:CT-KAIULANI> a pc:Entity ;
+    rdfs:label "Victoria Kamāmalu" ;
+    pc:entityKind v:Person ;
+    pc:registryId "CT-KAIULANI" .
+
+fg:D-H1 a pc:SourceDocument ;
+    rdfs:label "US Mint historical overview" ;
+    prov:wasDerivedFrom fg:D-dossier ;
+    pc:retrievalStatus v:ReportedByDossier ;
+    pc:sourceKind v:HistoricalSource ;
+    pc:sourceURL <https://www.usmint.gov/learn/history/overview> .
+
+fg:D-H2 a pc:SourceDocument ;
+    rdfs:label "Director of the Mint report, 30 January 1855" ;
+    prov:wasDerivedFrom fg:D-dossier ;
+    pc:retrievalStatus v:ReportedByDossier ;
+    pc:sourceKind v:HistoricalSource ;
+    pc:sourceURL <https://www.govinfo.gov/content/pkg/SERIALSET-00788_00_00-004-0062-0000/pdf/SERIALSET-00788_00_00-004-0062-0000.pdf> .
+
+fg:D-H3 a pc:SourceDocument ;
+    rdfs:label "Manuel Payno Mexican debt compilation" ;
+    prov:wasDerivedFrom fg:D-dossier ;
+    pc:retrievalStatus v:ReportedByDossier ;
+    pc:sourceKind v:HistoricalSource ;
+    pc:sourceURL <https://www.letrasmexicanas.mx/obra-visor/mexico-y-sus-cuestiones-financieras-con-la-inglaterra-la-espana-y-la-francia-memoria-que-por-orden-del-supremo-gobierno-constitucional-de-la-republica-escribe-el-c-manuel-payno--0/html/1f955a22-2cb3-4714-9ce2-9ffc1fdf0c92_9.html> .
+
+fg:D-H4 a pc:SourceDocument ;
+    rdfs:label "Smithsonian assay-office catalogue lead" ;
+    prov:wasDerivedFrom fg:D-dossier ;
+    pc:retrievalStatus v:Unretrieved ;
+    pc:sourceKind v:HistoricalSource ;
+    pc:sourceURL <https://collections.si.edu/search/detail/edanmdm%3Anmah_1101903?print=yes> .
+
+fg:D-approvals a pc:SourceDocument ;
+    rdfs:label "book-agent/revision/change_requests.json" ;
+    pc:documentPath "book-agent/revision/change_requests.json" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "7899e29f81298663a6856dab24276445b773a20bdaaeb5db69906d9d424ad52b" ;
+    pc:sourceKind v:NarrativeSource .
+
+fg:D-calculation a pc:SourceDocument ;
+    rdfs:label "outputs/power-review-gold-ontology-20261026/after/diagnostic.py" ;
+    pc:documentPath "outputs/power-review-gold-ontology-20261026/after/diagnostic.py" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "9efb997f1adbf29e28e0b3dd5109ee121c4c13500194c5b4fe91ddd5548674ef" ;
+    pc:sourceKind v:CalculationSource .
+
+fg:D-diagnostic a pc:SourceDocument ;
+    rdfs:label "outputs/power-review-gold-ontology-20261026/after/financial-diagnostic.json" ;
+    pc:documentPath "outputs/power-review-gold-ontology-20261026/after/financial-diagnostic.json" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "cdd4e7b6e0625c11435f55e0a8db97a58fd8b4d97d60cf2361fc59b214f0b578" ;
+    pc:sourceKind v:CalculationSource .
+
+fg:D-finance a pc:SourceDocument ;
+    rdfs:label "finance/CR-031-review.md" ;
+    pc:documentPath "finance/CR-031-review.md" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "ff91cdd07403b8e92b807f60db76db1dacb12e0838e00219e2c4efecdb5be5aa" ;
+    pc:sourceKind v:ReviewSource .
+
+fg:D-history a pc:SourceDocument ;
+    rdfs:label "book-agent/revision/historical_background.md" ;
+    pc:documentPath "book-agent/revision/historical_background.md" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "87ccd6ddb9b97cc7388f125db85d7dd5b3f6eb307661ae4f94b8357a91f0613d" ;
+    pc:sourceKind v:ReviewSource .
+
+fg:D-inherited-finance a pc:SourceDocument ;
+    rdfs:label "docs/power-review/ontology/inputs/financial-analysis.json" ;
+    pc:documentPath "docs/power-review/ontology/inputs/financial-analysis.json" ;
+    pc:hashBasis v:ExactBytes ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "4c4f4dae5f2ac7e30578f069cee81313261fd2f5388508745e8cc2de38d72676" ;
+    pc:sourceKind v:CalculationSource .
+
+fg:D-registry a pc:SourceDocument ;
+    rdfs:label "book-agent/revision/character_registry.json" ;
+    pc:documentPath "book-agent/revision/character_registry.json" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "23bf3d9bc499bc7a337c5c03694664f2afb7552180c6bf5cb575ec3505c8dc2a" ;
+    pc:sourceKind v:RegistrySource .
+
+fg:D-rent a pc:SourceDocument ;
+    rdfs:label "finance/CR-027-handoff.md" ;
+    pc:documentPath "finance/CR-027-handoff.md" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "bd1f8e1ef1e2cd745d9f66dd8cf48a06a7b7b111a33baac4ae20e715a95d863d" ;
+    pc:sourceKind v:ReviewSource .
+
+fg:H3 a pc:SourcePassage ;
+    rdfs:label "appendix document 17, accepted 4 June 1846, printed pp.31-33, Articles 3,5,7; edition publication date unestablished; inherited dossier H3 paraphrases" ;
+    prov:specializationOf fg:D-H3 ;
+    pc:locator "appendix document 17, accepted 4 June 1846, printed pp.31-33, Articles 3,5,7; edition publication date unestablished; inherited dossier H3 paraphrases" .
+
+fg:L06 a pc:MechanismLink ;
+    rdfs:label "Life authority ends rather than being inherited" ;
+    prov:wasDerivedFrom fg:P04,
+        fg:P06 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Explicit lapse removes the enabling delegation while ordinary establishments survive." ;
+    pc:fromClaim fg:C08 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Constrains ;
+    pc:stage v:Preservation ;
+    pc:toClaim fg:C09 .
+
+fg:L08 a pc:MechanismLink ;
+    rdfs:label "Institutions and negotiated legitimacy transmit office" ;
+    prov:wasDerivedFrom fg:P05,
+        fg:P07 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Kiyoshi coalition fails; separate crown and legislative consents establish accession. Retained charter and Senate participation constrain the new sovereign." ;
+    pc:fromClaim fg:C10,
+        fg:C11 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Transmits ;
+    pc:stage v:Transmission ;
+    pc:toClaim fg:C13,
+        fg:C14 .
+
+fg:L16 a pc:MechanismLink ;
+    rdfs:label "Share and surplus boundaries limit descendant mobilization" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:P15 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Sector-specific share interests do not confer firm management or bank equity; Fund claim on surplus constrains free resources. Distribution and crisis decision procedures remain separate gaps." ;
+    pc:fromClaim fg:C12,
+        fg:C26,
+        fg:C27,
+        fg:C29 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Constrains ;
+    pc:stage v:Transmission ;
+    pc:toClaim fg:C15 .
+
+fg:L17 a pc:MechanismLink ;
+    rdfs:label "Foreign purchases widen reserves without creating ownership of foreign mines" ;
+    prov:wasDerivedFrom fg:P12,
+        fg:P15 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Purchased foreign concession gold adds a reserve supply channel against credit. It is not a royalty on Pacifican territory, free gold, foreign GDP under Julian control or proof of the marginal contribution of 1849 receipts." ;
+    pc:fromClaim fg:C28 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Preservation ;
+    pc:toClaim fg:C24 .
+
+fg:L31 a pc:MechanismLink ;
+    rdfs:label "Gross collection room to spendable service gain" ;
+    prov:wasDerivedFrom fg:PD,
+        fg:PIN ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:S ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "No unconditional net gain or endpoint conclusion follows until costs, output and institutional transmission are supplied." ;
+    pc:fromClaim fg:C32,
+        fg:Q05 ;
+    pc:narrativeSupport v:Missing ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Accumulation ;
+    pc:toClaim fg:Q06,
+        fg:Q07 .
+
+fg:L32 a pc:MechanismLink ;
+    rdfs:label "Lower rate under a fixed-output accounting control" ;
+    prov:wasDerivedFrom fg:PCALC,
+        fg:PD ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:R ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "At fixed 237m output, even full 3% capture falls below the inherited 5%/90% diagnostic. Does not establish behavioral or political response." ;
+    pc:fromClaim fg:C33 ;
+    pc:narrativeSupport v:Explained ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Constrains ;
+    pc:stage v:Creation ;
+    pc:toClaim fg:Q03,
+        fg:Q04,
+        fg:Q08 .
+
+fg:L33 a pc:MechanismLink ;
+    rdfs:label "New bargain to negotiated crisis action" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:P09,
+        fg:P11 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:AD ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Scope, assent, sanctions, financing and expiry require a new author decision and counterpart acceptance; no claim of current canonical existence." ;
+    pc:fromClaim fg:C35 ;
+    pc:narrativeSupport v:Missing ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Transmission ;
+    pc:toClaim fg:Q10 .
+
+fg:P14 a pc:SourcePassage ;
+    rdfs:label "line 840: Crown-estates arrangement tested in 1887, 1913 and 1915-1917; Altai report breaks it in 1921" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "line 840: Crown-estates arrangement tested in 1887, 1913 and 1915-1917; Altai report breaks it in 1921" .
+
+fg:PH a pc:SourcePassage ;
+    rdfs:label "lines 29-30, 96, 174, 309-321: mining law boundaries, bullion not sole war cause, local CR-028/029 qualifications" ;
+    prov:specializationOf fg:D-history ;
+    pc:locator "lines 29-30, 96, 174, 309-321: mining law boundaries, bullion not sole war cause, local CR-028/029 qualifications" .
+
+fg:PI a pc:SourcePassage ;
+    rdfs:label "$.people[?(@.id in [\"CT-ELIAS\",\"CT-KAIULANI\",\"CT-JULIAN\",\"CT-SOBERANES\"])]; stable IDs and narrative_profile" ;
+    prov:specializationOf fg:D-registry ;
+    pc:locator "$.people[?(@.id in [\"CT-ELIAS\",\"CT-KAIULANI\",\"CT-JULIAN\",\"CT-SOBERANES\"])]; stable IDs and narrative_profile" .
+
+fg:PR a pc:SourcePassage ;
+    rdfs:label "Puʻuloa lease and Victoria estate bullets; unprovided rent and estate values" ;
+    prov:specializationOf fg:D-rent ;
+    pc:locator "Puʻuloa lease and Victoria estate bullets; unprovided rent and estate values" .
+
+fg:assay-service a pc:Entity ;
+    rdfs:label "Assay, stamped bars or other settlement/remittance services" ;
+    pc:entityKind v:Resource .
+
+fg:bank-equity a pc:Entity ;
+    rdfs:label "Equity ownership in private banking" ;
+    pc:entityKind v:Resource .
+
+fg:bank-resources a pc:Entity ;
+    rdfs:label "Gold lending, bank recapitalization and debt restructuring" ;
+    pc:entityKind v:Resource .
+
+fg:capacity a pc:Entity ;
+    rdfs:label "Estate-held force, money, communications and statistics" ;
+    pc:entityKind v:Resource .
+
+fg:charter a pc:Entity ;
+    rdfs:label "Polytechnic charter" ;
+    pc:entityKind v:Instrument .
+
+fg:consent a pc:Entity ;
+    rdfs:label "1928 Senate consent, indemnity and Concord instruments" ;
+    pc:entityKind v:Instrument .
+
+fg:constitution a pc:Entity ;
+    rdfs:label "1887 constitutional appointment and regency provisions" ;
+    pc:entityKind v:Instrument .
+
+fg:coordinated-response a pc:Entity ;
+    rdfs:label "Time-limited coordination of estate and Treasury action" ;
+    pc:entityKind v:Resource .
+
+fg:creditors a pc:Entity ;
+    rdfs:label "London bondholders" ;
+    pc:entityKind v:Collective .
+
+fg:crisis-protocol a pc:Entity ;
+    rdfs:label "Candidate reciprocal accession/crisis coordination protocol" ;
+    pc:entityKind v:Instrument .
+
+fg:estates a pc:Entity ;
+    rdfs:label "Chartered estates including measures and technical establishments" ;
+    pc:entityKind v:Collective .
+
+fg:facility a pc:Entity ;
+    rdfs:label "Japan FX rescue credit" ;
+    pc:entityKind v:Resource .
+
+fg:fund a pc:Entity ;
+    rdfs:label "Development Fund" ;
+    pc:entityKind v:Institution .
+
+fg:investors a pc:Entity ;
+    rdfs:label "Foreign and Pacifican private subscribers" ;
+    pc:entityKind v:Collective .
+
+fg:japan-banks a pc:Entity ;
+    rdfs:label "Japanese international banks" ;
+    pc:entityKind v:Institution .
+
+fg:loanvote a pc:Entity ;
+    rdfs:label "Senate vote for rescue loan and guarantee/on-loan scheme" ;
+    pc:entityKind v:Instrument .
+
+fg:management a pc:Entity ;
+    rdfs:label "Firm management and competitive decisions" ;
+    pc:entityKind v:Resource .
+
+fg:network a pc:Entity ;
+    rdfs:label "Skills, suppliers, transport and public contractors" ;
+    pc:entityKind v:Resource .
+
+fg:newissues a pc:Entity ;
+    rdfs:label "New Entente syndicate issues" ;
+    pc:entityKind v:Resource .
+
+fg:overseas-command a pc:Entity ;
+    rdfs:label "Japan overseas commands in common command" ;
+    pc:entityKind v:Resource .
+
+fg:polytechnic a pc:Entity ;
+    rdfs:label "Polytechnic chartered estate" ;
+    pc:entityKind v:Institution .
+
+fg:private-claims a pc:Entity ;
+    rdfs:label "Elias private mining property" ;
+    pc:entityKind v:Resource .
+
+fg:private-firms a pc:Entity ;
+    rdfs:label "Private firms retaining management and competition" ;
+    pc:entityKind v:Collective .
+
+fg:providentor a pc:Entity ;
+    rdfs:label "Life Providentor" ;
+    pc:entityKind v:Office .
+
+fg:purchased-gold a pc:Entity ;
+    rdfs:label "Foreign concession gold purchased against credit" ;
+    pc:entityKind v:Resource .
+
+fg:renewal a pc:Entity ;
+    rdfs:label "1932 renewal ratified by both crowns and delegations" ;
+    pc:entityKind v:Instrument .
+
+fg:revenues a pc:Entity ;
+    rdfs:label "Customs and prospective mineral revenues pledged to debt" ;
+    pc:entityKind v:Resource .
+
+fg:royalty a pc:Entity ;
+    rdfs:label "5% royalty entitlement" ;
+    pc:entityKind v:Resource .
+
+fg:royalty3 a pc:Entity ;
+    rdfs:label "Candidate 3% royalty entitlement" ;
+    pc:entityKind v:Resource .
+
+fg:shares a pc:Entity ;
+    rdfs:label "Crown champion shares with distribution boundaries" ;
+    pc:entityKind v:Resource .
+
+fg:shortfunding a pc:Entity ;
+    rdfs:label "Short foreign funding obligations" ;
+    pc:entityKind v:Resource .
+
+fg:superintendent a pc:Entity ;
+    rdfs:label "Superintendent of Mines and Public Revenue" ;
+    pc:entityKind v:Office .
+
+fg:surplus a pc:Entity ;
+    rdfs:label "Public surplus subject to Fund claim" ;
+    pc:entityKind v:Resource .
+
+fg:union a pc:Entity ;
+    rdfs:label "Union government" ;
+    pc:entityKind v:Institution .
+
+fg:AC a pc:ComparisonCase ;
+    rdfs:label "Clarify accession and crisis cooperation" ;
+    pc:baselineCase fg:B ;
+    pc:changeDescription "Show how known charter safeguards, nomination rules, ministerial offices and reciprocal legitimacy work; state the unprovided syndicate decision instrument as a gap." ;
+    pc:downstreamStatus "Does not create an inherited life delegation, estate subordination or new syndicate powers." ;
+    pc:earliestDivergence "None: exposition only." ;
+    pc:endpointYear 1932 ;
+    pc:heldAssumptions "Matched inherited sources and external shocks; no new historical retrieval; no workbook reading or century-long rerun; all local authorial labels preserved." ;
+    pc:interventionKind v:Exposition ;
+    pc:sourceRevision "4ea16e3a739c807a5f20bbb8ffb98450b84215c7" .
+
+fg:C a pc:ComparisonCase ;
+    rdfs:label "Minimal gold/revenue clarification" ;
+    pc:baselineCase fg:B ;
+    pc:changeDescription "Explain entitlement, throughput, receipts, pledge and public/private boundaries without assigning new outcomes or collection efficacy." ;
+    pc:downstreamStatus "World trajectory unchanged by definition; support improves only where it restates existing mechanisms." ;
+    pc:earliestDivergence "None: exposition only." ;
+    pc:endpointYear 1932 ;
+    pc:heldAssumptions "Matched inherited sources and external shocks; no new historical retrieval; no workbook reading or century-long rerun; all local authorial labels preserved." ;
+    pc:interventionKind v:Exposition ;
+    pc:sourceRevision "4ea16e3a739c807a5f20bbb8ffb98450b84215c7" .
+
+fg:C01 a pc:Claim ;
+    rdfs:label "Proposed discovery and secrecy before public announcement" ;
+    prov:wasDerivedFrom fg:P01,
+        fg:PA ;
+    pc:authorialStatus v:Proposed ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1848 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:gold ;
+    pc:period "1847–1848 (inclusive review coverage)" ;
+    pc:predicate pc:establishes ;
+    pc:startYear 1847 ;
+    pc:subject <urn:pacifica:character:CT-ELIAS> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C04 a pc:Claim ;
+    rdfs:label "Registered private claims belong to Elias and remain separate" ;
+    prov:wasDerivedFrom fg:P02 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1887 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:private-claims ;
+    pc:period "1848–1887 (inclusive review coverage)" ;
+    pc:predicate pc:owns ;
+    pc:startYear 1848 ;
+    pc:subject <urn:pacifica:character:CT-ELIAS> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C17 a pc:Claim ;
+    rdfs:label "Private subscribers retain their own Entente claims and risk" ;
+    prov:wasDerivedFrom fg:P09,
+        fg:PF ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:entente ;
+    pc:period "1914–1932 (inclusive review coverage)" ;
+    pc:predicate pc:owns ;
+    pc:startYear 1914 ;
+    pc:subject fg:investors ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C19 a pc:Claim ;
+    rdfs:label "Japanese banks retain short foreign obligations against long industrial assets" ;
+    prov:wasDerivedFrom fg:P09,
+        fg:P10,
+        fg:PA ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1927 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:shortfunding ;
+    pc:period "1917–1927 (inclusive review coverage)" ;
+    pc:predicate pc:owes ;
+    pc:startYear 1917 ;
+    pc:subject fg:japan-banks ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C33 a pc:Claim ;
+    rdfs:label "3% candidate creates a lower statutory entitlement" ;
+    prov:wasDerivedFrom fg:P02,
+        fg:PD ;
+    pc:authorialStatus v:Proposed ;
+    pc:case fg:R ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:royalty3 ;
+    pc:period "1849–1852 (inclusive review coverage)" ;
+    pc:predicate pc:hasClaimOn ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C35 a pc:Claim ;
+    rdfs:label "Candidate new reciprocal crisis protocol could obtain specified coordinated action" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:P09,
+        fg:P11 ;
+    pc:actingThrough fg:sovereign ;
+    pc:authorialStatus v:Proposed ;
+    pc:burdens "Negotiation costs, legitimacy concessions, reporting, creditor remedies and foregone discretion, all unestimated." ;
+    pc:case fg:AD ;
+    pc:claimBasis v:AnalystInference ;
+    pc:conditions "Define triggering request, estate assents, new-issue perimeter, protected charters, reporting and financing in negotiation." ;
+    pc:controlInstrument fg:crisis-protocol ;
+    pc:endYear 1932 ;
+    pc:expiryTerms "Time-limited crisis activation and review, rather than revived life delegation." ;
+    pc:jurisdiction fg:realm ;
+    pc:missingReason "No author-approved protocol or evidence of independent estate/syndicate acceptance; action and negotiated scope are candidates." ;
+    pc:object fg:coordinated-response ;
+    pc:period "1915–1932 (inclusive review coverage)" ;
+    pc:predicate pc:canMobilize ;
+    pc:refusalTerms "Estates, Senate, syndicates and counterparties retain specified consent/refusal; no universal cash sweep." ;
+    pc:startYear 1915 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:valueState v:Unknown .
+
+fg:H4 a pc:SourcePassage ;
+    rdfs:label "inherited dossier H4; search lead only, full record retrieval failed; no verified contracting evidence" ;
+    prov:specializationOf fg:D-H4 ;
+    pc:locator "inherited dossier H4; search lead only, full record retrieval failed; no verified contracting evidence" .
+
+fg:Q05 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "Maximum gross room from 90% to full collection at 5%" ;
+    prov:wasDerivedFrom fg:PCALC,
+        fg:PD ;
+    pc:accountingBasis "Conditional extra gross from ten-point capture gain, not a forecast" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:S ;
+    pc:claimBasis v:Calculation ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:numericValue 1.185 ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:ConditionalCalculation ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Known .
+
+fg:Q06 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "Candidate staged service net receipts" ;
+    prov:wasDerivedFrom fg:PD,
+        fg:PIN ;
+    pc:accountingBasis "Net policy difference including costs, leakage and output response" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:S ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:missingReason "Service cost, capture gain and output/avoidance response unavailable; not zero." ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:QuantitativeUnmodeled ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Unmodeled .
+
+fg:Q07 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "Candidate 1932 mobilizable resource difference" ;
+    prov:wasDerivedFrom fg:PD,
+        fg:PIN ;
+    pc:accountingBasis "Endpoint resource difference after obligations and transmission" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:S ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:missingReason "No intermediate investment, institutional or endpoint rerun; no numerical power inference." ;
+    pc:period "1932–1932" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:QuantitativeUnmodeled ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1932 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Unmodeled .
+
+fg:Q08 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "Required capture at 3% fixed output" ;
+    prov:wasDerivedFrom fg:PCALC,
+        fg:PD ;
+    pc:accountingBasis "Required fraction to match 5% times 90%; infeasible above one" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:R ;
+    pc:claimBasis v:Calculation ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:numericValue 1.5 ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:IndependentlyChecked ;
+    pc:quantityKind v:Rate ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:unit "Fraction of fixed taxable output" ;
+    pc:valueState v:Known .
+
+fg:Q10 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "New coordination bargain net burden" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:P09,
+        fg:P11 ;
+    pc:accountingBasis "Negotiation, reporting, contingent claims and financing costs" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:AD ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:missingReason "Candidate legal/political terms and financing shares unapproved; costs unprovided." ;
+    pc:period "1915–1932" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:QuantitativeUnmodeled ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1915 ;
+    pc:subject fg:crown ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Unmodeled .
+
+fg:collection-service a pc:Entity ;
+    rdfs:label "Staged assay/remittance collection service" ;
+    pc:entityKind v:Institution .
+
+fg:common-policy a pc:Entity ;
+    rdfs:label "Common Foreign Affairs, Navy and Finance decisions" ;
+    pc:entityKind v:Resource .
+
+fg:concord-scope a pc:Entity ;
+    rdfs:label "Common Concord matters" ;
+    pc:entityKind v:Jurisdiction .
+
+fg:delegation a pc:Entity ;
+    rdfs:label "1865 Enabling Law delegation" ;
+    pc:entityKind v:Instrument .
+
+fg:entente a pc:Entity ;
+    rdfs:label "Entente loan claims" ;
+    pc:entityKind v:Resource .
+
+fg:gold a pc:Entity ;
+    rdfs:label "California gold and official processing flow" ;
+    pc:entityKind v:Resource .
+
+fg:minister-appointments a pc:Entity ;
+    rdfs:label "Minister appointment and ordinance power" ;
+    pc:entityKind v:Resource .
+
+fg:C02 a pc:Claim ;
+    rdfs:label "Law sets a public 5% entitlement at mint and trade choke points" ;
+    prov:wasDerivedFrom fg:P02 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:royalty ;
+    pc:period "1849–1852 (inclusive review coverage)" ;
+    pc:predicate pc:hasClaimOn ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C03 a pc:Claim ;
+    rdfs:label "Narrative says the state begins receiving gold and other revenues" ;
+    prov:wasDerivedFrom fg:P02 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:cash ;
+    pc:period "1850–1852 (inclusive review coverage)" ;
+    pc:predicate pc:receives ;
+    pc:startYear 1850 ;
+    pc:subject fg:treasury ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C07 a pc:Claim ;
+    rdfs:label "Public contracts and careers preserve an expanding technical network" ;
+    prov:wasDerivedFrom fg:P03 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1887 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:network ;
+    pc:period "1852–1887 (inclusive review coverage)" ;
+    pc:predicate pc:retains ;
+    pc:startYear 1852 ;
+    pc:subject fg:treasury ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C10 a pc:Claim ;
+    rdfs:label "Polytechnic retains charter, nominations and Senate-protected removal" ;
+    prov:wasDerivedFrom fg:P05,
+        fg:P07 ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:charter ;
+    pc:period "1887–1932 (inclusive review coverage)" ;
+    pc:predicate pc:retains ;
+    pc:startYear 1887 ;
+    pc:subject fg:polytechnic ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C11 a pc:Claim ;
+    rdfs:label "Victoria coordinates independent estates by reciprocal legitimacy and restraint" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:PA ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1915 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:estates ;
+    pc:period "1887–1915 (inclusive review coverage)" ;
+    pc:predicate pc:cooperatesWith ;
+    pc:startYear 1887 ;
+    pc:subject <urn:pacifica:character:CT-KAIULANI> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C16 a pc:Claim ;
+    rdfs:label "Treasury participates in Entente credit through syndicates" ;
+    prov:wasDerivedFrom fg:P09,
+        fg:PA ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1918 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:entente ;
+    pc:period "1914–1918 (inclusive review coverage)" ;
+    pc:predicate pc:hasClaimOn ;
+    pc:startYear 1914 ;
+    pc:subject fg:treasury ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C23 a pc:Claim ;
+    rdfs:label "1932 consent extends common overseas command to 1937" ;
+    prov:wasDerivedFrom fg:P12 ;
+    pc:actingThrough fg:concord ;
+    pc:authorialStatus v:Approved ;
+    pc:burdens "Navy ministry bargain, shared costs, security exposure and partner domestic legitimacy." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Coup defeated through Emperor, navy and loyal Japanese units; ratification by both crowns and delegations." ;
+    pc:controlInstrument fg:renewal ;
+    pc:endYear 1937 ;
+    pc:expiryTerms "Renewal to 1937; no unlimited or permanent mandate." ;
+    pc:jurisdiction fg:concord-scope ;
+    pc:object fg:overseas-command ;
+    pc:period "1932–1937 (inclusive review coverage)" ;
+    pc:predicate pc:commands ;
+    pc:refusalTerms "Home army remains national except Concord war; Japan can refuse in 1937." ;
+    pc:startYear 1932 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C25 a pc:Claim ;
+    rdfs:label "Proposed Union settlement exchanges rescue for cooperation while retaining Union sovereignty" ;
+    prov:wasDerivedFrom fg:P13 ;
+    pc:authorialStatus v:Proposed ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:concord ;
+    pc:period "1932–1932 (inclusive review coverage)" ;
+    pc:predicate pc:cooperatesWith ;
+    pc:startYear 1932 ;
+    pc:subject fg:union ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C26 a pc:Claim ;
+    rdfs:label "Private firms retain management and competition despite Crown shares" ;
+    prov:wasDerivedFrom fg:P15 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:management ;
+    pc:period "1887–1932 (inclusive review coverage)" ;
+    pc:predicate pc:retains ;
+    pc:startYear 1887 ;
+    pc:subject fg:private-firms ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C27 a pc:Claim ;
+    rdfs:label "Crown does not own equity in private banking" ;
+    prov:wasDerivedFrom fg:P15 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:bank-equity ;
+    pc:period "1887–1932 (inclusive review coverage)" ;
+    pc:predicate pc:owns ;
+    pc:startYear 1887 ;
+    pc:subject fg:crown ;
+    pc:truthValue false ;
+    pc:valueState v:Known .
+
+fg:C28 a pc:Claim ;
+    rdfs:label "Reserve Bank receives foreign concession gold through purchase against credit" ;
+    prov:wasDerivedFrom fg:P15 ;
+    pc:authorialStatus v:Unspecified ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:purchased-gold ;
+    pc:period "1897–1932 (inclusive review coverage)" ;
+    pc:predicate pc:receives ;
+    pc:startYear 1897 ;
+    pc:subject fg:reservebank ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C29 a pc:Claim ;
+    rdfs:label "Development Fund has a claim on every surplus" ;
+    prov:wasDerivedFrom fg:P06 ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:surplus ;
+    pc:period "1887–1932 (inclusive review coverage)" ;
+    pc:predicate pc:hasClaimOn ;
+    pc:startYear 1887 ;
+    pc:subject fg:fund ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C31 a pc:Claim ;
+    rdfs:label "Candidate staged service could attract declared bullion through useful settlement" ;
+    prov:wasDerivedFrom fg:H1,
+        fg:H2,
+        fg:P02 ;
+    pc:authorialStatus v:Proposed ;
+    pc:case fg:S ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:assay-service ;
+    pc:period "1848–1852 (inclusive review coverage)" ;
+    pc:predicate pc:establishes ;
+    pc:startYear 1848 ;
+    pc:subject fg:collection-service ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C32 a pc:Claim ;
+    rdfs:label "Candidate collection improvement remains unestimated" ;
+    prov:wasDerivedFrom fg:H1,
+        fg:H2,
+        fg:PIN ;
+    pc:authorialStatus v:Proposed ;
+    pc:case fg:S ;
+    pc:claimBasis v:AnalystInference ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:missingReason "No defensible policy-to-collection response, commissioning capacity, cost or avoidance elasticity in fixed source set." ;
+    pc:object fg:cash ;
+    pc:period "1849–1852 (inclusive review coverage)" ;
+    pc:predicate pc:receives ;
+    pc:startYear 1849 ;
+    pc:subject fg:collection-service ;
+    pc:valueState v:Unknown .
+
+fg:L10 a pc:MechanismLink ;
+    rdfs:label "Mixed wartime lending to new-issue halt" ;
+    prov:wasDerivedFrom fg:P09 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Narrative states Julian stops private syndicate new issues. Treasury future lending is separable; the private coordination instrument is unspecified." ;
+    pc:fromClaim fg:C16,
+        fg:C17 ;
+    pc:narrativeSupport v:Asserted ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Exercise ;
+    pc:toClaim fg:C18 .
+
+fg:L30 a pc:MechanismLink ;
+    rdfs:label "Staged service to greater declared collection" ;
+    prov:wasDerivedFrom fg:H1,
+        fg:H2,
+        fg:H4,
+        fg:PD ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:S ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Settlement usefulness is a historical analogy, not an estimated capture response; processing and remittance stages require capacity and cost." ;
+    pc:fromClaim fg:C31 ;
+    pc:narrativeSupport v:Missing ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Creation ;
+    pc:toClaim fg:C32 .
+
+fg:P08 a pc:SourcePassage ;
+    rdfs:label "lines 664-668: ordinances, Senate resistance and distinct Japanese government" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 664-668: ordinances, Senate resistance and distinct Japanese government" .
+
+fg:P13 a pc:SourcePassage ;
+    rdfs:label "lines 818-828: proposed Union settlement and authored endpoint, independent Union" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 818-828: proposed Union settlement and authored endpoint, independent Union" .
+
+fg:PF a pc:SourcePassage ;
+    rdfs:label "sections Saved Story-case reference values; Narrative commitments and accounting boundaries; Source discrepancies retained for the author" ;
+    prov:specializationOf fg:D-finance ;
+    pc:locator "sections Saved Story-case reference values; Narrative commitments and accounting boundaries; Source discrepancies retained for the author" .
+
+fg:Q02 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "5% at 90% gross royalty replay" ;
+    prov:wasDerivedFrom fg:PCALC,
+        fg:PD,
+        fg:PIN ;
+    pc:accountingBasis "Fixed output gross before costs and further receipt adjustments" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:B ;
+    pc:claimBasis v:Calculation ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:numericValue 10.665 ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:IndependentlyChecked ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Known .
+
+fg:Q03 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "3% at full collection gross royalty" ;
+    prov:wasDerivedFrom fg:PCALC,
+        fg:PD ;
+    pc:accountingBasis "Fixed output gross at hypothetical 100% collection; no behavioral prediction" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:R ;
+    pc:claimBasis v:Calculation ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:numericValue 7.110 ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:IndependentlyChecked ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Known .
+
+fg:concord a pc:Entity ;
+    rdfs:label "Two-party Pacific Concord" ;
+    pc:entityKind v:Institution .
+
+fg:crown a pc:Entity ;
+    rdfs:label "Crown as an enduring institution" ;
+    pc:entityKind v:Institution .
+
+fg:reservebank a pc:Entity ;
+    rdfs:label "Pacifica Reserve Bank" ;
+    pc:entityKind v:Institution .
+
+fg:AD a pc:ComparisonCase ;
+    rdfs:label "Candidate substantive coordination bargain" ;
+    pc:baselineCase fg:B ;
+    pc:changeDescription "Negotiate a reciprocal accession/crisis protocol: who requests action, which estate decisions and new issues are covered, independent assent, costs, reporting and expiry." ;
+    pc:downstreamStatus "Reassess Senate, estate and investor resistance plus later finance; no endpoint rerun." ;
+    pc:earliestDivergence "At 1914-1915 accession or a separately authorized later crisis; date is an author choice." ;
+    pc:endpointYear 1932 ;
+    pc:heldAssumptions "Matched inherited sources and external shocks; no new historical retrieval; no workbook reading or century-long rerun; all local authorial labels preserved." ;
+    pc:interventionKind v:WorldChange ;
+    pc:sourceRevision "4ea16e3a739c807a5f20bbb8ffb98450b84215c7" .
+
+fg:C05 a pc:Claim ;
+    rdfs:label "Proposed recognition debt pledges customs and mining revenue" ;
+    prov:wasDerivedFrom fg:P01,
+        fg:P03,
+        fg:PA ;
+    pc:authorialStatus v:Proposed ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:revenues ;
+    pc:period "1848–1852 (inclusive review coverage)" ;
+    pc:predicate pc:hasClaimOn ;
+    pc:startYear 1848 ;
+    pc:subject fg:creditors ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C08 a pc:Claim ;
+    rdfs:label "1865 constitutional amendment concentrates agenda and appointments in Elias" ;
+    prov:wasDerivedFrom fg:P04,
+        fg:PA ;
+    pc:actingThrough fg:providentor ;
+    pc:authorialStatus v:Approved ;
+    pc:burdens "Reconstruction, war debt, patronage obligations and protected revenues." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Two-thirds both chambers and founding-state ratification; protected Hawaiian institutions." ;
+    pc:controlInstrument fg:delegation ;
+    pc:endYear 1887 ;
+    pc:expiryTerms "Life Providentorship; delegation lapses with 1887 regency." ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:minister-appointments ;
+    pc:period "1865–1887 (inclusive review coverage)" ;
+    pc:predicate pc:hasAuthorityOver ;
+    pc:refusalTerms "Ministers retain expertise and constituencies; courts enforce ordinary property; protected provisions remain binding." ;
+    pc:startYear 1865 ;
+    pc:subject <urn:pacifica:character:CT-ELIAS> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C09 a pc:Claim ;
+    rdfs:label "Life enabling delegation expires at the regency" ;
+    prov:wasDerivedFrom fg:P04,
+        fg:P06,
+        fg:PA ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1887 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:delegation ;
+    pc:period "1887–1887 (inclusive review coverage)" ;
+    pc:predicate pc:expires ;
+    pc:startYear 1887 ;
+    pc:subject <urn:pacifica:character:CT-ELIAS> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C12 a pc:Claim ;
+    rdfs:label "Crown holds champion shares, without a free purse" ;
+    prov:wasDerivedFrom fg:P06 ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:shares ;
+    pc:period "1887–1932 (inclusive review coverage)" ;
+    pc:predicate pc:owns ;
+    pc:startYear 1887 ;
+    pc:subject fg:crown ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C13 a pc:Claim ;
+    rdfs:label "Julian accedes through settlement and distinct crown consents" ;
+    prov:wasDerivedFrom fg:P07,
+        fg:PA,
+        fg:PI ;
+    pc:authorialStatus v:Approved ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:endYear 1932 ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:sovereign ;
+    pc:period "1915–1932 (inclusive review coverage)" ;
+    pc:predicate pc:holdsOffice ;
+    pc:startYear 1915 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C14 a pc:Claim ;
+    rdfs:label "Julian appoints ministers and uses reviewable ordinances through sovereign office" ;
+    prov:wasDerivedFrom fg:P05,
+        fg:P08,
+        fg:PA ;
+    pc:actingThrough fg:sovereign ;
+    pc:authorialStatus v:Approved ;
+    pc:burdens "Support coalitions, court/legislative conflict, grant obligations and official continuity." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Realm powers and charter protections survive accession; ordinances laid before next session." ;
+    pc:controlInstrument fg:constitution ;
+    pc:endYear 1932 ;
+    pc:expiryTerms "Office follows succession law; enabling delegation is not revived." ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:minister-appointments ;
+    pc:period "1915–1932 (inclusive review coverage)" ;
+    pc:predicate pc:hasAuthorityOver ;
+    pc:refusalTerms "Senate resists; Polytechnic nominees and Senate removal consent constrain estate chief." ;
+    pc:startYear 1915 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C15 a pc:Claim ;
+    rdfs:label "Unresolved detailed means for Julian to obtain estate resources during a Crown-estate conflict" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:P07,
+        fg:P08,
+        fg:P14 ;
+    pc:actingThrough fg:sovereign ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:burdens "Coordination, distribution restrictions, factional trust and integrity of statistics." ;
+    pc:case fg:B ;
+    pc:claimBasis v:AnalystInference ;
+    pc:conditions "Dependable cooperation could suffice; preserve charters, appointments and Development Fund." ;
+    pc:endYear 1932 ;
+    pc:expiryTerms "Different offices and generations survive 1915; unwritten bargain tested and breaks in 1921 according to character summary." ;
+    pc:instrumentGap "No universal command instrument follows from accession; specific estate requests, sanctions and fallback remain unprovided." ;
+    pc:jurisdiction fg:realm ;
+    pc:missingReason "Reciprocal bargain establishes cooperation, but this bounded source set does not give the request, authorization and refusal procedure in a charter-threatening crisis." ;
+    pc:object fg:capacity ;
+    pc:period "1915–1932 (inclusive review coverage)" ;
+    pc:predicate pc:canMobilize ;
+    pc:refusalTerms "Estates have their own mandates and the Crown must not touch protected structures; response to breach needs specification." ;
+    pc:startYear 1915 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:valueState v:Unknown .
+
+fg:C20 a pc:Claim ;
+    rdfs:label "Julian assembles authorized public/private rescue FX facility" ;
+    prov:wasDerivedFrom fg:P10,
+        fg:P11,
+        fg:PF ;
+    pc:actingThrough fg:sovereign ;
+    pc:authorialStatus v:Approved ;
+    pc:burdens "Public exposure, private risk, import buffer and potential losses; lending protects Pacifican creditors too." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Treasury one-third, private lenders two-thirds; Japan guarantee and agency on-lending; draws as needed." ;
+    pc:controlInstrument fg:loanvote ;
+    pc:endYear 1933 ;
+    pc:expiryTerms "Repayment schedule 1929-1933; commitment is not full drawing." ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:facility ;
+    pc:period "1927–1933 (inclusive review coverage)" ;
+    pc:predicate pc:canMobilize ;
+    pc:refusalTerms "Private lenders must subscribe; Japanese banks and government retain domestic authority; no blanket confiscation." ;
+    pc:startYear 1927 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C21 a pc:Claim ;
+    rdfs:label "Rescue loan and Ka Lōkahi endorsement do not authorize refused treaty" ;
+    prov:wasDerivedFrom fg:P11,
+        fg:PA ;
+    pc:actingThrough fg:sovereign ;
+    pc:authorialStatus v:Approved ;
+    pc:burdens "Domestic legitimacy and treaty-lapse risk." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Political endorsement gives no substitute legal consent." ;
+    pc:endYear 1927 ;
+    pc:expiryTerms "1927 illegal interval before 1928 cure." ;
+    pc:instrumentGap "Senate refused treaty; provisional application is illegal in substance." ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:common-policy ;
+    pc:period "1927–1927 (inclusive review coverage)" ;
+    pc:predicate pc:hasAuthorityOver ;
+    pc:refusalTerms "Senate refuses; Japan can lapse if Pacifica fails to secure consent." ;
+    pc:startYear 1927 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue false ;
+    pc:valueState v:Known .
+
+fg:C22 a pc:Claim ;
+    rdfs:label "1928 legal settlement permits bounded common executive action" ;
+    prov:wasDerivedFrom fg:P11,
+        fg:PA ;
+    pc:actingThrough fg:concord ;
+    pc:authorialStatus v:Approved ;
+    pc:burdens "65% Pacifican common cost share; audit and divided delegation; rural distress under gold policy." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Two-thirds Senate consent and indemnity; three ministers with Japanese PM countersign; at least one Japanese." ;
+    pc:controlInstrument fg:consent ;
+    pc:endYear 1932 ;
+    pc:expiryTerms "Five-year trust; quota and delegation review, audit, renewal required." ;
+    pc:jurisdiction fg:concord-scope ;
+    pc:object fg:common-policy ;
+    pc:period "1928–1932 (inclusive review coverage)" ;
+    pc:predicate pc:commands ;
+    pc:refusalTerms "Japan retains national government and home army except Concord war; western squadron reserved until renewal." ;
+    pc:startYear 1928 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C24 a pc:Claim ;
+    rdfs:label "Reserve Bank supplies gold and bank support through its institutional operations" ;
+    prov:wasDerivedFrom fg:P12 ;
+    pc:actingThrough fg:reservebank ;
+    pc:authorialStatus v:Unspecified ;
+    pc:burdens "Reserve depletion, credit losses, exports slump and Japan rural distress." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Gold reserves and borrowing; recapitalization and restructuring instead of forced liquidation." ;
+    pc:endYear 1932 ;
+    pc:expiryTerms "Moratorium and restructuring are dated; indefinite gold support is not established." ;
+    pc:instrumentGap "Detailed mandate, liquidity authorization and Julian access procedure are not provided here." ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:bank-resources ;
+    pc:period "1931–1932 (inclusive review coverage)" ;
+    pc:predicate pc:canMobilize ;
+    pc:refusalTerms "Bank and creditor holders retain claims; overseas debtors may stop paying." ;
+    pc:startYear 1931 ;
+    pc:subject fg:reservebank ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:D-dossier a pc:SourceDocument ;
+    rdfs:label "docs/power-review/ontology/inputs/evidence.md" ;
+    pc:documentPath "docs/power-review/ontology/inputs/evidence.md" ;
+    pc:hashBasis v:ExactBytes ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "07a3976122d7d48554d1e42df50999b176456e700998f6a34625e85abb6428da" ;
+    pc:sourceKind v:ReviewSource .
+
+fg:L02 a pc:MechanismLink ;
+    rdfs:label "Entitlement to actual receipt" ;
+    prov:wasDerivedFrom fg:H1,
+        fg:H2,
+        fg:P02,
+        fg:P03 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Mint and trade choke points plus useful coinage are named; capture fraction, enforcement coverage, leakage, timing and costs are not explained. Pledged receipts are not free cash." ;
+    pc:fromClaim fg:C02,
+        fg:C05 ;
+    pc:narrativeSupport v:Missing ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Creation ;
+    pc:toClaim fg:C03 .
+
+fg:Q04 a pc:Claim,
+        pc:QuantityClaim ;
+    rdfs:label "3% full capture gross shortfall" ;
+    prov:wasDerivedFrom fg:PCALC,
+        fg:PD ;
+    pc:accountingBasis "Delta versus 5% at 90%; before all collection costs" ;
+    pc:authorialStatus v:AuthorialNotApplicable ;
+    pc:case fg:R ;
+    pc:claimBasis v:Calculation ;
+    pc:endYear 1852 ;
+    pc:jurisdiction fg:california ;
+    pc:numericValue -3.555 ;
+    pc:period "1849–1852" ;
+    pc:predicate pc:measures ;
+    pc:quantitativeBasis v:IndependentlyChecked ;
+    pc:quantityKind v:Flow ;
+    pc:startYear 1849 ;
+    pc:subject fg:treasury ;
+    pc:unit "Period USD millions" ;
+    pc:valueState v:Known .
+
+fg:cash a pc:Entity ;
+    rdfs:label "Public royalty receipts" ;
+    pc:entityKind v:Resource .
+
+<urn:pacifica:character:CT-ELIAS> a pc:Entity ;
+    rdfs:label "Elias Thorne" ;
+    pc:entityKind v:Person ;
+    pc:registryId "CT-ELIAS" .
+
+fg:C06 a pc:Claim ;
+    rdfs:label "1852 Superintendent controls collections, credit and works subject to legislators" ;
+    prov:wasDerivedFrom fg:P03 ;
+    pc:actingThrough fg:superintendent ;
+    pc:authorialStatus v:Unspecified ;
+    pc:burdens "Contractor payments, debt service, courts, staff and contested rights." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Collection and investment mandate; public office, not private property." ;
+    pc:endYear 1855 ;
+    pc:expiryTerms "Later offices reorganize authority; this office is not automatically inherited." ;
+    pc:instrumentGap "Precise statutes and expenditure controls remain unprovided." ;
+    pc:jurisdiction fg:california ;
+    pc:object fg:cash ;
+    pc:period "1852–1855 (inclusive review coverage)" ;
+    pc:predicate pc:hasAuthorityOver ;
+    pc:refusalTerms "Legislators can frustrate taxes, loans, subsidies and ports." ;
+    pc:startYear 1852 ;
+    pc:subject <urn:pacifica:character:CT-ELIAS> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:C18 a pc:Claim ;
+    rdfs:label "Proposed 1918 halt to new syndicate issues is an action with an instrument gap" ;
+    prov:wasDerivedFrom fg:P09 ;
+    pc:actingThrough fg:sovereign ;
+    pc:authorialStatus v:Proposed ;
+    pc:burdens "Loss of credit income/orders; continued war before halt, food provision and allied bargaining." ;
+    pc:case fg:B ;
+    pc:claimBasis v:NarrativeStatement ;
+    pc:conditions "Treasury can withhold its own future money; private new issues require a distinct effective channel." ;
+    pc:endYear 1918 ;
+    pc:expiryTerms "New issues at the proposed autumn 1918 decision; not confiscation of old claims." ;
+    pc:instrumentGap "The passage states that he stops new issues; it does not specify law, syndicate undertaking, collateral gate or a coordinating decision." ;
+    pc:jurisdiction fg:realm ;
+    pc:object fg:newissues ;
+    pc:period "1918–1918 (inclusive review coverage)" ;
+    pc:predicate pc:haltsNewIssues ;
+    pc:refusalTerms "Private lenders retain claims, risk, overseas alternatives and potential refusal." ;
+    pc:startYear 1918 ;
+    pc:subject <urn:pacifica:character:CT-JULIAN> ;
+    pc:truthValue true ;
+    pc:valueState v:Known .
+
+fg:H2 a pc:SourcePassage ;
+    rdfs:label "House Executive Document 62, 33rd Congress 2nd Session, printed pp.2-3; inherited dossier H2; text retrieved by prior analyst, page-image request failed" ;
+    prov:specializationOf fg:D-H2 ;
+    pc:locator "House Executive Document 62, 33rd Congress 2nd Session, printed pp.2-3; inherited dossier H2; text retrieved by prior analyst, page-image request failed" .
+
+fg:L09 a pc:MechanismLink ;
+    rdfs:label "Accession does not fully explain crisis compliance" ;
+    prov:wasDerivedFrom fg:P06,
+        fg:P07,
+        fg:P08 ;
+    pc:burdens "Costs and obligations stated in linked claims; no automatic net gain." ;
+    pc:case fg:B ;
+    pc:conditions "Applicable offices, resources and dated conditions of the linked claims." ;
+    pc:explanation "Shared legitimacy and appointments can secure dependable cooperation, but no detailed instruction/refusal procedure covers a ruler threatening charter safeguards. Ownership of Crown shares is not ownership of estate resources." ;
+    pc:fromClaim fg:C12,
+        fg:C13,
+        fg:C14 ;
+    pc:narrativeSupport v:Missing ;
+    pc:refusalTerms "Independent institutions and counterparties retain the refusal points stated in linked claims." ;
+    pc:relationKind v:Enables ;
+    pc:stage v:Transmission ;
+    pc:toClaim fg:C15 .
+
+fg:P01 a pc:SourcePassage ;
+    rdfs:label "lines 117, 125: October 1847 find and delayed official confirmation, locally PROPOSED CR-028" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 117, 125: October 1847 find and delayed official confirmation, locally PROPOSED CR-028" .
+
+fg:H1 a pc:SourcePassage ;
+    rdfs:label "California Gold Rush section; inherited dossier H1, access reported 26 October 2026; not retrieved anew" ;
+    prov:specializationOf fg:D-H1 ;
+    pc:locator "California Gold Rush section; inherited dossier H1, access reported 26 October 2026; not retrieved anew" .
+
+fg:P04 a pc:SourcePassage ;
+    rdfs:label "lines 213-219, 333-339: constitutional enabling procedure, life office and lapse" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 213-219, 333-339: constitutional enabling procedure, life office and lapse" .
+
+fg:P10 a pc:SourcePassage ;
+    rdfs:label "lines 701, 739-750: short funding, earthquake, Japanese own capital and FX facility" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 701, 739-750: short funding, earthquake, Japanese own capital and FX facility" .
+
+fg:PCALC a pc:SourcePassage ;
+    rdfs:label "diagnostic.py: output=sum(baseline_rows 1849-1852); gross=output*rate*collection; baseline=.05*.9*output" ;
+    prov:specializationOf fg:D-calculation ;
+    pc:locator "diagnostic.py: output=sum(baseline_rows 1849-1852); gross=output*rate*collection; baseline=.05*.9*output" .
+
+fg:PIN a pc:SourcePassage ;
+    rdfs:label "$.baseline_rows; $.break_even; $.debt_timing; $.mechanism_boundary; supplied cached values and original check flags, not rerun here" ;
+    prov:specializationOf fg:D-inherited-finance ;
+    pc:locator "$.baseline_rows; $.break_even; $.debt_timing; $.mechanism_boundary; supplied cached values and original check flags, not rerun here" .
+
+fg:P05 a pc:SourcePassage ;
+    rdfs:label "lines 483-505: Realm constitution, charters, appointment limits and negotiated succession" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 483-505: Realm constitution, charters, appointment limits and negotiated succession" .
+
+fg:P07 a pc:SourcePassage ;
+    rdfs:label "lines 630-642: contested succession, Act, independent crowns, accession and retained charter" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 630-642: contested succession, Act, independent crowns, accession and retained charter" .
+
+fg:P12 a pc:SourcePassage ;
+    rdfs:label "lines 782-792, 806-808: Reserve Bank actions, distress, renewal, conditional command" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 782-792, 806-808: Reserve Bank actions, distress, renewal, conditional command" .
+
+fg:P15 a pc:SourcePassage ;
+    rdfs:label "lines 590, 596, 727: foreign gold purchased against credit, sector-specific Crown shares, private management and no banking Crown equity" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 590, 596, 727: foreign gold purchased against credit, sector-specific Crown shares, private management and no banking Crown equity" .
+
+fg:R a pc:ComparisonCase ;
+    rdfs:label "Candidate 3% royalty" ;
+    pc:baselineCase fg:B ;
+    pc:changeDescription "Replace 5% with 3%; diagnose fixed output at explicit collection fractions, without predicting behavioral gains." ;
+    pc:downstreamStatus "Only 1849-1852 gross fiscal diagnostic calculated; later authored outcomes not assumed to survive." ;
+    pc:earliestDivergence "Mining Law of 1849, unless a distinct earlier law is authorized." ;
+    pc:endpointYear 1932 ;
+    pc:heldAssumptions "Matched inherited sources and external shocks; no new historical retrieval; no workbook reading or century-long rerun; all local authorial labels preserved." ;
+    pc:interventionKind v:WorldChange ;
+    pc:sourceRevision "4ea16e3a739c807a5f20bbb8ffb98450b84215c7" .
+
+fg:S a pc:ComparisonCase ;
+    rdfs:label "Candidate staged assay and remittance collection service" ;
+    pc:baselineCase fg:B ;
+    pc:changeDescription "Start with an assay/remittance service and clear receipts/audit; commission coinage only after equipment, supplies and operators are demonstrated; retain 5% subject to author choice." ;
+    pc:downstreamStatus "Later credit, investment, survival and succession are not replayed; no retained alternative endpoint asserted." ;
+    pc:earliestDivergence "Possible 1848-1850 collection and commissioning changes; dates conditional." ;
+    pc:endpointYear 1932 ;
+    pc:heldAssumptions "Matched inherited sources and external shocks; no new historical retrieval; no workbook reading or century-long rerun; all local authorial labels preserved." ;
+    pc:interventionKind v:WorldChange ;
+    pc:sourceRevision "4ea16e3a739c807a5f20bbb8ffb98450b84215c7" .
+
+fg:sovereign a pc:Entity ;
+    rdfs:label "Sovereign of Pacifica" ;
+    pc:entityKind v:Office .
+
+fg:P03 a pc:SourcePassage ;
+    rdfs:label "lines 137-139, 183-189: 1852 office, legislative obstruction and technical-contract network" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 137-139, 183-189: 1852 office, legislative obstruction and technical-contract network" .
+
+<urn:pacifica:character:CT-JULIAN> a pc:Entity ;
+    rdfs:label "Julian Thorne" ;
+    pc:entityKind v:Person ;
+    pc:registryId "CT-JULIAN" .
+
+fg:PA a pc:SourcePassage ;
+    rdfs:label "$.requests[?(@.id==\"CR-014\")].requirements; CR-021 requirements (subject to later CR-027), CR-024/025 requirements[0], CR-027 requirements[20:23], CR-028 requirements[0] and open[0], CR-029 requirements" ;
+    prov:specializationOf fg:D-approvals ;
+    pc:locator "$.requests[?(@.id==\"CR-014\")].requirements; CR-021 requirements (subject to later CR-027), CR-024/025 requirements[0], CR-027 requirements[20:23], CR-028 requirements[0] and open[0], CR-029 requirements" .
+
+fg:treasury a pc:Entity ;
+    rdfs:label "Public Treasury" ;
+    pc:entityKind v:Institution .
+
+fg:D-master a pc:SourceDocument ;
+    rdfs:label "book-agent/revision/master_storyline.md" ;
+    pc:documentPath "book-agent/revision/master_storyline.md" ;
+    pc:hashBasis v:LFNormalizedText ;
+    pc:retrievalStatus v:LocalPinned ;
+    pc:sha256 "8b5df6f2b8bc9e3256722f7cb592ae71aeefbe01f2b28458bf624dec48eacde1" ;
+    pc:sourceKind v:NarrativeSource .
+
+fg:P11 a pc:SourcePassage ;
+    rdfs:label "lines 752-762: loan/treaty distinction, illegal application, legal cure and common offices" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 752-762: loan/treaty distinction, illegal application, legal cure and common offices" .
+
+fg:P02 a pc:SourcePassage ;
+    rdfs:label "lines 127-131: inherited mining rules, 1849 royalty, 1850 mint and separate private claims" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 127-131: inherited mining rules, 1849 royalty, 1850 mint and separate private claims" .
+
+fg:california a pc:Entity ;
+    rdfs:label "Republic of California" ;
+    pc:entityKind v:Jurisdiction .
+
+fg:P09 a pc:SourcePassage ;
+    rdfs:label "lines 678-691: approved credit mechanism, MODEL allocations and proposed 1918 halt" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 678-691: approved credit mechanism, MODEL allocations and proposed 1918 halt" .
+
+fg:PD a pc:SourcePassage ;
+    rdfs:label "financial-diagnostic.json: output_musd; baseline_5pct_90pct_gross_musd; sensitivity; checks; endpoint_1932_power_delta" ;
+    prov:specializationOf fg:D-diagnostic ;
+    pc:locator "financial-diagnostic.json: output_musd; baseline_5pct_90pct_gross_musd; sensitivity; checks; endpoint_1932_power_delta" .
+
+fg:P06 a pc:SourcePassage ;
+    rdfs:label "lines 520-530: independent estates and unwritten Crown bargain, proposed personnel and compact" ;
+    prov:specializationOf fg:D-master ;
+    pc:locator "lines 520-530: independent estates and unwritten Crown bargain, proposed personnel and compact" .
+
+fg:realm a pc:Entity ;
+    rdfs:label "Pacifica Realm" ;
+    pc:entityKind v:Jurisdiction .
+
+fg:B a pc:ComparisonCase ;
+    rdfs:label "Retain authored baseline" ;
+    pc:changeDescription "Retain the current narrative and its local proposals, gaps and MODEL numbers." ;
+    pc:downstreamStatus "Authored 1932 outcome retained as a narrative consequence, not proof of marginal early-policy effects." ;
+    pc:earliestDivergence "No new divergence; earliest reviewed proposed mechanism October 1847." ;
+    pc:endpointYear 1932 ;
+    pc:heldAssumptions "Matched inherited sources and external shocks; no new historical retrieval; no workbook reading or century-long rerun; all local authorial labels preserved." ;
+    pc:interventionKind v:Baseline ;
+    pc:sourceRevision "4ea16e3a739c807a5f20bbb8ffb98450b84215c7" .
+

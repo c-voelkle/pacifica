@@ -22,12 +22,15 @@ From the repository root, using Python 3.12:
 python -m venv .venv-review
 # Activate the environment using the command appropriate to your shell.
 python -m pip install -r docs/power-review/ontology/requirements.txt
-python docs/power-review/ontology/validate.py
-python docs/power-review/ontology/validate.py --json
-python -m unittest discover -s docs/power-review/ontology -p 'test_*.py' -v
+python -X utf8 docs/power-review/ontology/validate.py
+python -X utf8 docs/power-review/ontology/validate.py --json
+python -X utf8 docs/power-review/ontology/validate.py --data outputs/REVIEW/review.ttl --manifest outputs/REVIEW/input-manifest.json --repository . --json
+python -X utf8 -m unittest discover -s docs/power-review/ontology -p 'test_*.py' -v
 ```
 
 Dependencies are needed at installation. Validation and queries subsequently use local files only. No remote ontology imports, rule expansion, database service or RDF 1.2 features are used. Turtle files are the maintained review representation; JSON query output is generated. The query file uses `# query: NAME` separators; each block is an independently executable SPARQL SELECT query.
+
+The custom-data command is an example for a review you have authored. Each `--data` file replaces the default pilot; repeat the option to assemble contributions. An explicit custom graph requires its own `--manifest`. Schema and vocabulary are shared; earlier pilot conclusions are not silently merged into a new assessment. The UTF-8 switch keeps Hawaiian names and source text serializable in Windows pipelines.
 
 ## Record meanings
 
@@ -87,6 +90,6 @@ This is a review profile aligned with the [Timeline Lab semantic contract](../..
 | ComparisonCase | Pinned comparison/intervention description, without a generated run |
 | Judgment | Author-visible assessment with explicit claim basis |
 
-No runtime adapter or Pydantic model change is implemented. Runtime state and maintained review assertions retain different roles. For a review using this profile, Clio supplies bounded evidence applications, Aegis owns the transmission argument and comparison judgments, and Chryseis supplies qualified quantities. The existing skills and the original assessment have not been rewritten; adopting the profile in their default workflow is a separate integration decision.
+No runtime adapter or Pydantic model change is implemented. Runtime state and maintained review assertions retain different roles. The updated Aegis, Clio and Chryseis skills use the shared [ontology workflow](../../../.agents/skills/aegis/references/ontology-workflow.md). Clio supplies bounded evidence applications, Aegis owns the transmission argument and comparison judgments, and Chryseis supplies qualified quantities. Full Aegis reviews save and validate their own graph, manifest and query output; scoped standalone research and finance retain the requested output format. The original assessment and pilot dataset remain preserved for comparison.
 
 Standards: [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/), [SKOS](https://www.w3.org/TR/skos-reference/), [PROV-O](https://www.w3.org/TR/prov-o/), [SHACL](https://www.w3.org/TR/shacl/). Implementation: [RDFLib](https://rdflib.readthedocs.io/en/stable/) and [pySHACL](https://github.com/RDFLib/pySHACL).
