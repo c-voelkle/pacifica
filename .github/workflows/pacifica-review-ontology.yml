@@ -1,0 +1,39 @@
+name: Pacifica review ontology
+
+on:
+  pull_request:
+    paths:
+      - "docs/power-review/**"
+      - "book-agent/revision/master_storyline.md"
+      - "book-agent/revision/character_registry.json"
+      - "book-agent/revision/change_requests.json"
+      - ".github/workflows/pacifica-review-ontology.yml"
+  push:
+    branches: [main]
+    paths:
+      - "docs/power-review/**"
+      - "book-agent/revision/master_storyline.md"
+      - "book-agent/revision/character_registry.json"
+      - "book-agent/revision/change_requests.json"
+      - ".github/workflows/pacifica-review-ontology.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: docs/power-review/ontology/requirements.txt
+      - name: Install review dependencies
+        run: python -m pip install -r docs/power-review/ontology/requirements.txt
+      - name: Validate shapes, pinned inputs and review queries
+        run: python docs/power-review/ontology/validate.py
+      - name: Exercise authority, scope and missingness boundaries
+        run: python -m unittest discover -s docs/power-review/ontology -p 'test_*.py' -v

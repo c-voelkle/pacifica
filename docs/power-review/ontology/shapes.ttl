@@ -1,0 +1,163 @@
+@prefix pc: <urn:pacifica:ontology:review:> .
+@prefix v: <urn:pacifica:vocab:review:> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Every active record uses a stable IRI, not an anonymous blank node.
+pc:RecordShape a sh:NodeShape ;
+    sh:targetClass pc:Entity, pc:Claim, pc:EvidenceApplication, pc:MechanismLink,
+        pc:ComparisonCase, pc:Judgment, pc:SourceDocument, pc:SourcePassage ;
+    sh:nodeKind sh:IRI ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] .
+
+pc:EntityShape a sh:NodeShape ; sh:targetClass pc:Entity ;
+    sh:property [ sh:path pc:entityKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:EntityKind ] ] ] ;
+    sh:property [ sh:path pc:registryId ; sh:maxCount 1 ; sh:datatype xsd:string ] .
+
+pc:ClaimShape a sh:NodeShape ; sh:targetClass pc:Claim ;
+    sh:property [ sh:path pc:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:Entity ] ;
+    sh:property [ sh:path pc:predicate ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (pc:owns pc:holdsOffice pc:hasAuthorityOver pc:canMobilize pc:cooperatesWith pc:owes pc:receives pc:hasClaimOn pc:establishes pc:expires pc:haltsNewIssues pc:commands pc:retains pc:measures) ] ;
+    sh:property [ sh:path pc:case ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:ComparisonCase ] ;
+    sh:property [ sh:path pc:period ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:startYear ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:lessThanOrEquals pc:endYear ] ;
+    sh:property [ sh:path pc:endYear ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ;
+    sh:property [ sh:path pc:jurisdiction ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:Entity ; sh:node [ sh:property [ sh:path pc:entityKind ; sh:hasValue v:Jurisdiction ] ] ] ;
+    sh:property [ sh:path pc:authorialStatus ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:AuthorialStatus ] ] ] ;
+    sh:property [ sh:path pc:claimBasis ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:ClaimBasis ] ] ] ;
+    sh:property [ sh:path pc:valueState ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:ValueState ] ] ] ;
+    sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class pc:SourcePassage ] ;
+    sh:xone (
+        [ sh:property [ sh:path pc:valueState ; sh:hasValue v:Known ] ; sh:property [ sh:path pc:object ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:Entity ] ; sh:property [ sh:path pc:truthValue ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] ; sh:property [ sh:path pc:numericValue ; sh:maxCount 0 ] ; sh:property [ sh:path pc:missingReason ; sh:maxCount 0 ] ]
+        [ sh:property [ sh:path pc:valueState ; sh:hasValue v:Known ] ; sh:property [ sh:path pc:numericValue ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:decimal ] ; sh:property [ sh:path pc:object ; sh:maxCount 0 ] ; sh:property [ sh:path pc:truthValue ; sh:maxCount 0 ] ; sh:property [ sh:path pc:missingReason ; sh:maxCount 0 ] ]
+        [ sh:property [ sh:path pc:valueState ; sh:in (v:Unknown v:Disputed v:Unmodeled v:ValueNotApplicable v:ExplicitlyAbsent) ] ; sh:property [ sh:path pc:object ; sh:maxCount 1 ; sh:class pc:Entity ] ; sh:property [ sh:path pc:truthValue ; sh:maxCount 0 ] ; sh:property [ sh:path pc:numericValue ; sh:maxCount 0 ] ; sh:property [ sh:path pc:missingReason ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ]
+    ) .
+
+pc:QuantityShape a sh:NodeShape ; sh:targetClass pc:QuantityClaim ; sh:targetSubjectsOf pc:numericValue ;
+    sh:class pc:QuantityClaim ;
+    sh:property [ sh:path pc:object ; sh:maxCount 0 ] ;
+    sh:property [ sh:path pc:quantityKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:QuantityKind ] ] ] ;
+    sh:property [ sh:path pc:unit ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:accountingBasis ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:quantitativeBasis ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:QuantitativeBasis ] ] ] .
+
+pc:ControlClaimShape a sh:NodeShape ; sh:targetClass pc:Claim ;
+    sh:or (
+        [ sh:property [ sh:path pc:predicate ; sh:not [ sh:in (pc:hasAuthorityOver pc:canMobilize pc:haltsNewIssues pc:commands) ] ] ]
+        [ sh:property [ sh:path pc:actingThrough ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:Entity ; sh:node [ sh:property [ sh:path pc:entityKind ; sh:in (v:Office v:Institution) ] ] ] ;
+          sh:property [ sh:path pc:conditions ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+          sh:property [ sh:path pc:refusalTerms ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+          sh:property [ sh:path pc:expiryTerms ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+          sh:property [ sh:path pc:burdens ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+          sh:xone (
+              [ sh:property [ sh:path pc:controlInstrument ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:Entity ; sh:node [ sh:property [ sh:path pc:entityKind ; sh:hasValue v:Instrument ] ] ] ; sh:property [ sh:path pc:instrumentGap ; sh:maxCount 0 ] ]
+              [ sh:property [ sh:path pc:instrumentGap ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ; sh:property [ sh:path pc:controlInstrument ; sh:maxCount 0 ] ]
+          ) ]
+    ) .
+
+pc:EvidenceShape a sh:NodeShape ; sh:targetClass pc:EvidenceApplication ;
+    sh:property [ sh:path pc:sourcePassage ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:SourcePassage ] ;
+    sh:property [ sh:path pc:target ; sh:minCount 1 ; sh:maxCount 1 ; sh:or ( [ sh:class pc:Claim ] [ sh:class pc:MechanismLink ] ) ] ;
+    sh:property [ sh:path pc:evidenceRelation ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:EvidenceRelation ] ] ] ;
+    sh:property [ sh:path pc:historicalSupport ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:HistoricalSupport ] ] ] ;
+    sh:property [ sh:path pc:applicability ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] .
+
+pc:MechanismShape a sh:NodeShape ; sh:targetClass pc:MechanismLink ;
+    sh:property [ sh:path pc:fromClaim ; sh:minCount 1 ; sh:class pc:Claim ] ;
+    sh:property [ sh:path pc:toClaim ; sh:minCount 1 ; sh:class pc:Claim ] ;
+    sh:property [ sh:path pc:case ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:ComparisonCase ] ;
+    sh:property [ sh:path pc:relationKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:RelationKind ] ] ] ;
+    sh:property [ sh:path pc:stage ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:Stage ] ] ] ;
+    sh:property [ sh:path pc:narrativeSupport ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:NarrativeSupport ] ] ] ;
+    sh:property [ sh:path pc:explanation ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:conditions ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:refusalTerms ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:burdens ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class pc:SourcePassage ] ;
+    sh:sparql [ sh:message "A link may not silently mix claims from different cases." ; sh:select """
+        PREFIX pc: <urn:pacifica:ontology:review:>
+        SELECT $this WHERE {
+          $this pc:case ?case ; (pc:fromClaim|pc:toClaim) ?claim .
+          ?claim pc:case ?other . FILTER (?case != ?other)
+        }
+    """ ] .
+
+pc:CaseShape a sh:NodeShape ; sh:targetClass pc:ComparisonCase ;
+    sh:property [ sh:path pc:sourceRevision ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:interventionKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:InterventionKind ] ] ] ;
+    sh:property [ sh:path pc:changeDescription ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:earliestDivergence ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:heldAssumptions ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:downstreamStatus ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:endpointYear ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ;
+    sh:or (
+        [ sh:property [ sh:path pc:interventionKind ; sh:hasValue v:Baseline ] ; sh:property [ sh:path pc:baselineCase ; sh:maxCount 0 ] ]
+        [ sh:property [ sh:path pc:interventionKind ; sh:in (v:Exposition v:WorldChange) ] ; sh:property [ sh:path pc:baselineCase ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:ComparisonCase ] ]
+    ) .
+
+pc:JudgmentShape a sh:NodeShape ; sh:targetClass pc:Judgment ;
+    sh:property [ sh:path pc:comparesCase ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:ComparisonCase ] ;
+    sh:property [ sh:path pc:againstCase ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:ComparisonCase ] ;
+    sh:property [ sh:path pc:verdict ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:Verdict ] ] ] ;
+    sh:property [ sh:path pc:verdictBasis ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:VerdictBasis ] ] ] ;
+    sh:property [ sh:path pc:targetDimension ; sh:minCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:OutcomeDimension ] ] ] ;
+    sh:property [ sh:path pc:conditional ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] ;
+    sh:property [ sh:path pc:dependsOn ; sh:minCount 1 ; sh:or ( [ sh:class pc:Claim ] [ sh:class pc:MechanismLink ] ) ] ;
+    sh:property [ sh:path pc:endpointYear ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ;
+    sh:property [ sh:path pc:explanation ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path pc:sensitivity ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+    sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class pc:SourcePassage ] ;
+    sh:sparql [ sh:message "An exposition-only case cannot establish a world-power improvement." ; sh:select """
+        PREFIX pc: <urn:pacifica:ontology:review:>
+        PREFIX v: <urn:pacifica:vocab:review:>
+        SELECT $this WHERE { $this pc:verdictBasis v:WorldPower ; pc:verdict v:Improves ; pc:comparesCase/pc:interventionKind v:Exposition . }
+    """ ] ;
+    sh:sparql [ sh:message "A world-power verdict must use the contract's power dimensions." ; sh:select """
+        PREFIX pc: <urn:pacifica:ontology:review:>
+        PREFIX v: <urn:pacifica:vocab:review:>
+        SELECT $this WHERE {
+          $this pc:verdictBasis v:WorldPower ; pc:targetDimension ?dimension .
+          FILTER (?dimension NOT IN (v:MobilizableResources, v:Implementation, v:Leverage, v:FreedomToAct))
+        }
+    """ ] ;
+    sh:sparql [ sh:message "Unconditional power improvement has a declared provisional or unresolved dependency." ; sh:select """
+        PREFIX pc: <urn:pacifica:ontology:review:>
+        PREFIX v: <urn:pacifica:vocab:review:>
+        SELECT DISTINCT $this WHERE {
+          $this pc:verdictBasis v:WorldPower ; pc:verdict v:Improves ; pc:conditional false ;
+            pc:dependsOn/(pc:dependsOn|pc:fromClaim|pc:toClaim)* ?dependency .
+          { ?dependency pc:authorialStatus ?s . FILTER (?s IN (v:Proposed, v:Open)) }
+          UNION { ?dependency pc:valueState ?s . FILTER (?s IN (v:Unknown, v:Disputed, v:Unmodeled)) }
+          UNION { ?dependency pc:narrativeSupport ?s . FILTER (?s IN (v:Asserted, v:Missing, v:Contradicted)) }
+          UNION { ?dependency pc:instrumentGap ?gap }
+        }
+    """ ] .
+
+pc:SourceShape a sh:NodeShape ; sh:targetClass pc:SourceDocument ;
+    sh:property [ sh:path pc:sourceKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:SourceKind ] ] ] ;
+    sh:property [ sh:path pc:retrievalStatus ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:RetrievalStatus ] ] ] ;
+    sh:property [ sh:path pc:documentPath ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+    sh:property [ sh:path pc:sha256 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:pattern "^[0-9a-f]{64}$" ] ;
+    sh:or (
+        [ sh:property [ sh:path pc:retrievalStatus ; sh:hasValue v:LocalPinned ] ; sh:property [ sh:path pc:documentPath ; sh:minCount 1 ] ; sh:property [ sh:path pc:sha256 ; sh:minCount 1 ] ; sh:property [ sh:path pc:hashBasis ; sh:minCount 1 ; sh:maxCount 1 ; sh:node [ sh:property [ sh:path skos:inScheme ; sh:hasValue v:HashBasis ] ] ] ]
+        [ sh:property [ sh:path pc:retrievalStatus ; sh:in (v:ReportedByDossier v:Unretrieved) ] ; sh:property [ sh:path pc:sourceURL ; sh:minCount 1 ; sh:nodeKind sh:IRI ] ]
+    ) .
+pc:PassageShape a sh:NodeShape ; sh:targetClass pc:SourcePassage ;
+    sh:property [ sh:path prov:specializationOf ; sh:minCount 1 ; sh:maxCount 1 ; sh:class pc:SourceDocument ] ;
+    sh:property [ sh:path pc:locator ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] .
+
+# Scoped propositions must not leak into unconditional world triples.
+pc:NoUnqualifiedWorldTriples a sh:NodeShape ;
+    sh:targetSubjectsOf pc:owns, pc:holdsOffice, pc:hasAuthorityOver, pc:canMobilize,
+        pc:cooperatesWith, pc:owes, pc:receives, pc:hasClaimOn, pc:establishes, pc:expires,
+        pc:haltsNewIssues, pc:commands, pc:retains, pc:measures ;
+    sh:sparql [ sh:message "Represent world relationships inside a dated, case-scoped Claim." ; sh:select """
+        PREFIX pc: <urn:pacifica:ontology:review:>
+        SELECT DISTINCT $this WHERE {
+          $this ?predicate ?value .
+          FILTER (?predicate IN (pc:owns, pc:holdsOffice, pc:hasAuthorityOver, pc:canMobilize, pc:cooperatesWith, pc:owes, pc:receives, pc:hasClaimOn, pc:establishes, pc:expires, pc:haltsNewIssues, pc:commands, pc:retains, pc:measures))
+        }
+    """ ] .

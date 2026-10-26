@@ -1,0 +1,118 @@
+@prefix v: <urn:pacifica:vocab:review:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+v:EntityKind a skos:ConceptScheme ; skos:prefLabel "Entity kind" .
+v:Person a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Person" .
+v:Office a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Office" .
+v:Institution a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Institution" .
+v:Collective a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Collective" .
+v:Resource a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Resource or capability" .
+v:Instrument a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Instrument" .
+v:Jurisdiction a skos:Concept ; skos:inScheme v:EntityKind ; skos:prefLabel "Jurisdiction" .
+
+v:AuthorialStatus a skos:ConceptScheme ; skos:prefLabel "Local authorial qualification" .
+v:Approved a skos:Concept ; skos:inScheme v:AuthorialStatus ; skos:prefLabel "APPROVED" ; skos:definition "Explicitly approved within the cited passage's applicable scope." .
+v:Proposed a skos:Concept ; skos:inScheme v:AuthorialStatus ; skos:prefLabel "PROPOSED" ; skos:definition "A proposed fictional premise; inclusion in the baseline does not approve it." .
+v:Open a skos:Concept ; skos:inScheme v:AuthorialStatus ; skos:prefLabel "OPEN" ; skos:definition "An unresolved authorial decision." .
+v:Model a skos:Concept ; skos:inScheme v:AuthorialStatus ; skos:prefLabel "MODEL" ; skos:definition "A model quantity or assumption; not an authorial approval of feasibility." .
+v:Unspecified a skos:Concept ; skos:inScheme v:AuthorialStatus ; skos:prefLabel "Local qualification unspecified" ; skos:definition "Cited prose has no explicit local qualification used by this record; approval is not inferred." .
+v:AuthorialNotApplicable a skos:Concept ; skos:inScheme v:AuthorialStatus ; skos:prefLabel "Authorial status not applicable" ; skos:definition "An analyst-only proposition, not a new canon fact." .
+
+v:ClaimBasis a skos:ConceptScheme ; skos:prefLabel "Claim basis" .
+v:NarrativeStatement a skos:Concept ; skos:inScheme v:ClaimBasis ; skos:prefLabel "Narrative statement" .
+v:ModelAssumption a skos:Concept ; skos:inScheme v:ClaimBasis ; skos:prefLabel "Model assumption" .
+v:Calculation a skos:Concept ; skos:inScheme v:ClaimBasis ; skos:prefLabel "Calculation reported by the pilot" .
+v:AnalystInference a skos:Concept ; skos:inScheme v:ClaimBasis ; skos:prefLabel "Analyst inference" .
+
+v:ValueState a skos:ConceptScheme ; skos:prefLabel "Claim value state" .
+v:Known a skos:Concept ; skos:inScheme v:ValueState ; skos:prefLabel "Known within the stated claim basis" ; skos:definition "A supplied value, including zero if established; not a declaration of historical truth or approved canon." .
+v:Unknown a skos:Concept ; skos:inScheme v:ValueState ; skos:prefLabel "Unknown" .
+v:Disputed a skos:Concept ; skos:inScheme v:ValueState ; skos:prefLabel "Disputed" .
+v:Unmodeled a skos:Concept ; skos:inScheme v:ValueState ; skos:prefLabel "Unmodeled" .
+v:ValueNotApplicable a skos:Concept ; skos:inScheme v:ValueState ; skos:prefLabel "Value not applicable" .
+v:ExplicitlyAbsent a skos:Concept ; skos:inScheme v:ValueState ; skos:prefLabel "Explicitly absent" ; skos:definition "Supported absence, distinct from an unavailable value." .
+
+v:NarrativeSupport a skos:ConceptScheme ; skos:prefLabel "Narrative mechanism support" .
+v:Explained a skos:Concept ; skos:inScheme v:NarrativeSupport ; skos:prefLabel "Explained" .
+v:Asserted a skos:Concept ; skos:inScheme v:NarrativeSupport ; skos:prefLabel "Asserted" .
+v:Missing a skos:Concept ; skos:inScheme v:NarrativeSupport ; skos:prefLabel "Missing explanation" .
+v:Contradicted a skos:Concept ; skos:inScheme v:NarrativeSupport ; skos:prefLabel "Contradicted" .
+
+v:HistoricalSupport a skos:ConceptScheme ; skos:prefLabel "Historical applicability" .
+v:Supporting a skos:Concept ; skos:inScheme v:HistoricalSupport ; skos:prefLabel "Supporting" .
+v:Conflicting a skos:Concept ; skos:inScheme v:HistoricalSupport ; skos:prefLabel "Conflicting" .
+v:Analogous a skos:Concept ; skos:inScheme v:HistoricalSupport ; skos:prefLabel "Analogous" .
+v:Unavailable a skos:Concept ; skos:inScheme v:HistoricalSupport ; skos:prefLabel "Unavailable" .
+v:HistoricalNotApplicable a skos:Concept ; skos:inScheme v:HistoricalSupport ; skos:prefLabel "Historical applicability not applicable" .
+v:HistoricalUnassessed a skos:Concept ; skos:inScheme v:HistoricalSupport ; skos:prefLabel "Historical applicability not yet assessed" .
+
+v:EvidenceRelation a skos:ConceptScheme ; skos:prefLabel "Evidence relationship" .
+v:Supports a skos:Concept ; skos:inScheme v:EvidenceRelation ; skos:prefLabel "Supports the scoped claim" .
+v:Challenges a skos:Concept ; skos:inScheme v:EvidenceRelation ; skos:prefLabel "Challenges the scoped claim" .
+v:Analogy a skos:Concept ; skos:inScheme v:EvidenceRelation ; skos:prefLabel "Offers an analogy" .
+v:EvidenceUnavailable a skos:Concept ; skos:inScheme v:EvidenceRelation ; skos:prefLabel "Required evidence unavailable" .
+
+v:QuantityKind a skos:ConceptScheme ; skos:prefLabel "Accounting quantity kind" .
+v:Stock a skos:Concept ; skos:inScheme v:QuantityKind ; skos:prefLabel "Stock" .
+v:Flow a skos:Concept ; skos:inScheme v:QuantityKind ; skos:prefLabel "Flow or period aggregate" .
+v:Rate a skos:Concept ; skos:inScheme v:QuantityKind ; skos:prefLabel "Rate" .
+v:Noncash a skos:Concept ; skos:inScheme v:QuantityKind ; skos:prefLabel "Noncash accounting entry" .
+
+v:QuantitativeBasis a skos:ConceptScheme ; skos:prefLabel "Quantitative support" .
+v:InheritedParameter a skos:Concept ; skos:inScheme v:QuantitativeBasis ; skos:prefLabel "Inherited model parameter" .
+v:InheritedResult a skos:Concept ; skos:inScheme v:QuantitativeBasis ; skos:prefLabel "Inherited model result" .
+v:ConditionalCalculation a skos:Concept ; skos:inScheme v:QuantitativeBasis ; skos:prefLabel "Conditional calculation" .
+v:IndependentlyChecked a skos:Concept ; skos:inScheme v:QuantitativeBasis ; skos:prefLabel "Independently checked calculation" ; skos:definition "Arithmetic independently checked in the cited activity; does not establish empirical validity of inputs." .
+v:QuantitativeUnmodeled a skos:Concept ; skos:inScheme v:QuantitativeBasis ; skos:prefLabel "Quantitative effect unmodeled" .
+
+v:RelationKind a skos:ConceptScheme ; skos:prefLabel "Explanatory relationship" .
+v:Enables a skos:Concept ; skos:inScheme v:RelationKind ; skos:prefLabel "Enables" ; skos:definition "Makes a subsequent capability feasible; neither necessary nor sufficient by definition." .
+v:Requires a skos:Concept ; skos:inScheme v:RelationKind ; skos:prefLabel "Requires" ; skos:definition "Claims a necessary prerequisite; requires separate support." .
+v:Preserves a skos:Concept ; skos:inScheme v:RelationKind ; skos:prefLabel "Preserves" .
+v:Transmits a skos:Concept ; skos:inScheme v:RelationKind ; skos:prefLabel "Transmits" .
+v:Constrains a skos:Concept ; skos:inScheme v:RelationKind ; skos:prefLabel "Constrains" .
+v:Precedes a skos:Concept ; skos:inScheme v:RelationKind ; skos:prefLabel "Precedes" ; skos:definition "Temporal order alone; no causal implication." .
+
+v:Stage a skos:ConceptScheme ; skos:prefLabel "Power-chain stage" .
+v:Creation a skos:Concept ; skos:inScheme v:Stage ; skos:prefLabel "Creation" .
+v:Preservation a skos:Concept ; skos:inScheme v:Stage ; skos:prefLabel "Preservation" .
+v:Transmission a skos:Concept ; skos:inScheme v:Stage ; skos:prefLabel "Transmission" .
+v:Exercise a skos:Concept ; skos:inScheme v:Stage ; skos:prefLabel "Exercise" .
+v:Accumulation a skos:Concept ; skos:inScheme v:Stage ; skos:prefLabel "Accumulation" .
+
+v:InterventionKind a skos:ConceptScheme ; skos:prefLabel "Case intervention kind" .
+v:Baseline a skos:Concept ; skos:inScheme v:InterventionKind ; skos:prefLabel "Authored baseline, including its local qualifications" .
+v:Exposition a skos:Concept ; skos:inScheme v:InterventionKind ; skos:prefLabel "Exposition-only clarification" .
+v:WorldChange a skos:Concept ; skos:inScheme v:InterventionKind ; skos:prefLabel "Candidate change to the fictional world" .
+
+v:Verdict a skos:ConceptScheme ; skos:prefLabel "Review verdict" .
+v:Improves a skos:Concept ; skos:inScheme v:Verdict ; skos:prefLabel "Improves" .
+v:Weakens a skos:Concept ; skos:inScheme v:Verdict ; skos:prefLabel "Weakens" .
+v:Mixed a skos:Concept ; skos:inScheme v:Verdict ; skos:prefLabel "Mixed" .
+v:Unresolved a skos:Concept ; skos:inScheme v:Verdict ; skos:prefLabel "Unresolved" .
+v:VerdictBasis a skos:ConceptScheme ; skos:prefLabel "Verdict basis" .
+v:WorldPower a skos:Concept ; skos:inScheme v:VerdictBasis ; skos:prefLabel "Julian's effective power" .
+v:ExplanatorySupport a skos:Concept ; skos:inScheme v:VerdictBasis ; skos:prefLabel "Explanatory support" .
+v:FiscalDiagnostic a skos:Concept ; skos:inScheme v:VerdictBasis ; skos:prefLabel "Fixed-output fiscal diagnostic" .
+v:OutcomeDimension a skos:ConceptScheme ; skos:prefLabel "Separate outcome dimensions" .
+v:MobilizableResources a skos:Concept ; skos:inScheme v:OutcomeDimension ; skos:prefLabel "Resources Julian can mobilize" .
+v:Implementation a skos:Concept ; skos:inScheme v:OutcomeDimension ; skos:prefLabel "Decisions he can implement" .
+v:Leverage a skos:Concept ; skos:inScheme v:OutcomeDimension ; skos:prefLabel "Leverage over independent actors" .
+v:FreedomToAct a skos:Concept ; skos:inScheme v:OutcomeDimension ; skos:prefLabel "Freedom to act despite obstruction" .
+v:Explanation a skos:Concept ; skos:inScheme v:OutcomeDimension ; skos:prefLabel "Explanatory support only" .
+v:GrossReceipts a skos:Concept ; skos:inScheme v:OutcomeDimension ; skos:prefLabel "Gross fiscal receipts only" .
+
+v:SourceKind a skos:ConceptScheme ; skos:prefLabel "Source document kind" .
+v:NarrativeSource a skos:Concept ; skos:inScheme v:SourceKind ; skos:prefLabel "Fictional narrative" .
+v:RegistrySource a skos:Concept ; skos:inScheme v:SourceKind ; skos:prefLabel "Identity registry" .
+v:ReviewSource a skos:Concept ; skos:inScheme v:SourceKind ; skos:prefLabel "Analyst review or dossier" .
+v:CalculationSource a skos:Concept ; skos:inScheme v:SourceKind ; skos:prefLabel "Pilot calculation output" .
+v:HistoricalSource a skos:Concept ; skos:inScheme v:SourceKind ; skos:prefLabel "Historical source described by dossier" .
+v:RetrievalStatus a skos:ConceptScheme ; skos:prefLabel "Source access in this package" .
+v:LocalPinned a skos:Concept ; skos:inScheme v:RetrievalStatus ; skos:prefLabel "Local source bytes pinned and checked" .
+v:ReportedByDossier a skos:Concept ; skos:inScheme v:RetrievalStatus ; skos:prefLabel "Prior dossier reports retrieval; not retrieved anew" .
+v:Unretrieved a skos:Concept ; skos:inScheme v:RetrievalStatus ; skos:prefLabel "Unretrieved source lead" .
+
+v:HashBasis a skos:ConceptScheme ; skos:prefLabel "Source checksum basis" .
+v:ExactBytes a skos:Concept ; skos:inScheme v:HashBasis ; skos:prefLabel "Exact original bytes" .
+v:LFNormalizedText a skos:Concept ; skos:inScheme v:HashBasis ; skos:prefLabel "UTF-8 text with CRLF normalized to LF" .

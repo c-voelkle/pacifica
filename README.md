@@ -5,3 +5,5 @@ Read the current [master storyline](book-agent/revision/master_storyline.md), su
 The [character bible](book-agent/revision/character_bible.md), identity registry, [historical background](book-agent/revision/historical_background.md) and approval register are reconciled to that version. The [integration record](book-agent/revision/CR-031-integration.md) describes changes, source limits and validation. Original manuscripts, 250 original character profiles, stable mappings and older source CRs remain preserved.
 
 Current financial planning uses the supplied [CR-031 workbook](finance/Pacifica_financial_model_1846-1932.xlsx). The [financial review](finance/CR-031-review.md) records saved MODEL results and source discrepancies; the older [Ledger](finance/Pacifica-Ledger.md) remains a dated snapshot. PROPOSED, OPEN and MODEL qualifications remain explicit.
+
+The [compact power-review ontology](docs/power-review/ontology/README.md) provides qualified claims, evidence, control relationships and comparison judgments, with a gold-revenue pilot and executable validation.
