@@ -1,0 +1,15 @@
+# Candidate revision of §23 for review
+
+Proposed replacement for master storyline §23. Not approved. The author wants Noe to act in the succession rather than only be courted.
+
+## 23. Noe's move, the registers and the heir (1887–1889)
+
+After Elias dies in August 1887, Noe retains a household, a mother's claim and her health work. As natural guardian she could claim a regency; Hawaiian loyalists who reject the ordinances begin to court her. With Emma dead since 1885 they also look to Emma's son Albert Kūnuiākea, by common knowledge a natural son of Kamehameha III, never acknowledged and the squanderer of his inheritance. Her rivalry with Victoria concerns the boy and Hawaii's future, not a simple contest for the dying man's affection.
+
+Noe does not wait to be courted. In January 1888 the twenty-four-year-old physician petitions the Chamber of Deputies to name her guardian of the heir's Hawaiian education, and the Chamber grants the petition by a large majority. Victoria, who admires her courage, accepts every condition at once. Noe sees further than her rivals: she knows that her district registers will one day decide which territories enter the Gulf and how the county league tables rank them. Like Anne of Austria during the minority of Louis XIV, she understands that a mother's guardianship of a royal child can outlast any council of ministers. By the summer her vaccinators have reached forty thousand Hawaiians.
+
+She dies in the autumn of 1888 during a typhoid outbreak she is fighting. That is the official account, certified by Victoria's physician, who signs the certificate before he has seen the body, on instructions from the palace. Her servants swear she was poisoned. The registers disappear for a month and return in the new Office of Public Measures. Loyalists call it murder, and Silas's people spread the story as part of "the Regent's year": Caleb, the Donner telegraphist burned in his hut that January, and now Noe. Silas suspects his own mother; his mother suspects him. Neither asks. Victoria, the factional rivals and those who need a martyr have motives; the Chronicler can prove none guilty.
+
+Victoria builds public legitimacy on Noe's honest figures. She completes vaccination across the islands in 1888–1892, brings Hawaiian-speaking nurses and clean water to plantation districts in the 1890s and reforms Kalaupapa. Hollerith's punched cards begin to tabulate the recovered registers in 1890. By about 1895 the population curve turns upward by Noe's method. Infant mortality becomes the state's sacred number, later carried into county league tables and the Gulf admission test. Care, rivalry with a dead woman and possible guilt remain inseparable to the observer.
+
+Julian grows up speaking Hawaiian with Victoria, English with tutors, Spanish among Soberanes's circle and Japanese with the naval party. He later finds Noe's registers in the Office's archive. His two mothers have given the same state its measurements and its political uses; his later falsification in 1921 corrupts an inheritance more intimate than an administrative rule.
