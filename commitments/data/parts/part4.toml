@@ -1,0 +1,798 @@
+# Part 4 of the commitments ledger: master_storyline.md lines 648–919
+# (§28–§37, the continuing trajectories and the unresolved list).
+# Format and rules: see the header of commitments/data/ledger.toml.
+
+# ---------------------------------------------------------------------------
+# Parties added in this part
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "ENTENTE"
+name = "The Entente (Britain, France, Russia and their partners as wartime borrowers)"
+
+[[party]]
+id = "KAM"
+name = "Republic of Kamchatka and the Koryak coast"
+
+[[party]]
+id = "TBK"
+name = "Transbaikalia (council of Buryats, Cossacks and townsmen under a Japanese Resident)"
+
+[[party]]
+id = "SAKHA"
+name = "Yakutia, the autonomous Sakha land"
+
+[[party]]
+id = "CHUKOTKA"
+name = "Chukotka and the northern coast (Siberian territory)"
+
+[[party]]
+id = "LOKAHI"
+name = "Ka Lōkahi, the council of the crowns"
+
+[[party]]
+id = "MICRO"
+name = "The trust islands (Marianas, Carolines, Palau; Tutuila proposed)"
+
+[[party]]
+id = "ANZ"
+name = "Australia and New Zealand"
+
+# ---------------------------------------------------------------------------
+# §30 Credit, oil and the brokered peace
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1914-ENTENTE-LOANS"
+name = "Entente loans (wartime advances)"
+kind = "loan"
+parties = ["PAC", "ENTENTE", "UK", "FR", "RU", "JP", "US"]
+from = 1914
+owes = [
+  { by = "ENTENTE", to = "PAC", what = "repayment of the advances gathered from the Treasury, Pacifican savers and foreign subscriptions through the San Francisco syndicates" },
+  { by = "ENTENTE", to = "US", what = "Union investors buying through Pacifican correspondents keep their own claims and their own risk" },
+  { by = "ENTENTE", to = "JP", what = "repayment of Japan's lending to the Entente from 1917" },
+]
+secured_on = "from the end of 1916, the Allies' requisitioned foreign securities, many of them Pacifican bonds (the collateral loans)"
+conditions = ["In 1914 Pacifica's own savers carry the loans alone, Washington discouraging loans to belligerents."]
+status = "CANON"
+cr = "CR-025"
+section = 30
+quote = "San Francisco syndicates gather the Treasury's money, Pacifican savings and foreign subscriptions into the Entente loans."
+more_quotes = [
+  "When the Union's banks grow wary of unsecured Entente paper at the end of 1916, loans secured on the Allies' requisitioned foreign securities, many of them Pacifican bonds, help carry the last two years of the war",
+  "From 1917 Japan, flush with export earnings, also lends to the Entente.",
+  "In autumn 1918 Julian stops the Treasury's lending and the San Francisco syndicates' new issues for the Entente",
+  "The peace leaves two financial systems: Union loans in Berlin, Vienna and Germany's eastern clients; Pacifican claims in London, Paris and Asia.",
+]
+open = "No term, maturity or interest stated. New lending stops in autumn 1918 (PROPOSED), but the debt continues. The fate of Russia's share after Russia's collapse is not stated. Amounts are MODEL (CR-025: $8.5bn advances). Britain's part is funded in 1923 (C-1923-UK-FUNDING); Hoover's 1931 moratorium suspends war debts (C-1931-HOOVER-MORATORIUM)."
+
+[[commitment]]
+id = "C-1919-HAGUE"
+name = "The Hague peace settlement"
+kind = "treaty"
+parties = ["PAC", "DE", "UK", "FR", "JP", "CN"]
+from = 1919
+owes = [
+  { by = "DE", to = "FR", what = "evacuation of Belgium and northern France; Germany retains Alsace-Lorraine and pays no indemnity" },
+  { by = "DE", to = "PAC", what = "loss of its colonies; Pacifica and Japan retain Germany's Pacific islands" },
+  { by = "PAC", to = "CN", what = "return of Shandong apart from the Tsingtao anchorage" },
+  { by = "UK", to = "DE", what = "recognition of Germany's clients in Poland, the Baltic region, Ukraine and Finland" },
+]
+conditions = [
+  "Britain and France keep their Ottoman and African conquests.",
+  "The settlement creates a permanent arbitration court and carries Japan's racial equality clause (PROPOSED).",
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "Victoria negotiates the settlement at The Hague from January to June 1919, with Julian choosing the moment and Hoover administering the food lever."
+more_quotes = [
+  "Germany evacuates Belgium and northern France, retains Alsace-Lorraine, pays no indemnity and loses its colonies.",
+  "Germany's clients in Poland, the Baltic region, Ukraine and Finland are recognized.",
+  "Pacifica and Japan retain Germany's Pacific islands.",
+  "The settlement creates a permanent arbitration court and carries Japan's racial equality clause.",
+]
+open = "Place, dates and Victoria's exact commission remain OPEN-019-01–02. The replacement of Wilhelm II remains OPEN-019-08. The armistice of 11 November 1918 is on the working chronology only. Which states sign is not listed."
+
+[[commitment]]
+id = "C-1919-TSINGTAO"
+name = "Tsingtao anchorage lease"
+kind = "lease"
+parties = ["CN", "PAC", "JP"]
+from = 1919
+owes = [
+  { by = "CN", to = "PAC", what = "the Tsingtao anchorage on lease" },
+  { by = "PAC", to = "CN", what = "return of the rest of Shandong, denying Japan the prize" },
+]
+status = "CANON"
+section = 30
+quote = "Pacifica keeps the Tsingtao anchorage on lease, returning the rest of Shandong to China and denying Japan the prize."
+open = "Lessor and term not stated; that China is the lessor follows only from the return of Shandong to China."
+
+[[commitment]]
+id = "C-1919-ARBITRATION-COURT"
+name = "Permanent arbitration court"
+kind = "treaty"
+parties = ["PAC", "JP", "UK", "DE", "FR", "US"]
+from = 1919
+renewals = [1932]
+owes = [{ by = "PAC", to = "JP", what = "the settlement carries Japan's racial equality clause" }]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "The settlement creates a permanent arbitration court and carries Japan's racial equality clause."
+more_quotes = [
+  "joins the arbitration court's new charter and cuts Soviet industrial contracts",
+  "a founding seat in the renewed court",
+  "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause.",
+]
+open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED)."
+
+[[commitment]]
+id = "C-1919-NAVAL-LIMITS"
+name = "1919 naval limits"
+kind = "treaty"
+parties = ["PAC", "JP", "UK", "DE", "FR", "US"]
+from = 1919
+owes = [
+  { by = "UK", to = "PAC", what = "parity: the combined Pacifica–Japan fleets count at parity with Britain" },
+  { by = "DE", to = "PAC", what = "Germany below Britain and the Pacific partners; France and Italy below Germany" },
+  { by = "UK", to = "PAC", what = "disposal of older twelve-inch ships by 1922, through scrapping, training hulks or targets (Britain and Germany)" },
+]
+conditions = [
+  "Carrier tonnage is also limited, with the Pacific partners holding the largest allowance.",
+  "The Union stays outside the limits until 1932, when it joins and accepts a ratio below the common fleet and Britain.",
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "Naval limits count the combined Pacifica–Japan fleets at parity with Britain, Germany below them and France and Italy below Germany."
+more_quotes = [
+  "The fleet limits require Britain and Germany to dispose of their older twelve-inch ships by 1922, through scrapping, training hulks or targets.",
+  "Carrier tonnage is also limited, with the Pacific partners holding the largest allowance.",
+  "The Union stays outside these limits until 1932.",
+  "The crash halts further construction; the Union joins the limits in 1932.",
+  "The Union accepts a naval ratio below the common fleet and Britain",
+]
+label_note = ""
+open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated."
+
+[[commitment]]
+id = "C-1923-UK-FUNDING"
+name = "Funding of Britain's gold-dollar debt"
+kind = "loan"
+parties = ["UK", "PAC"]
+from = 1923
+until = 1985
+term_years = 62
+owes = [
+  { by = "UK", to = "PAC", what = "service of its gold-dollar war debt over sixty-two years at reduced interest; the obligation keeps its gold-dollar value through sterling depreciation" },
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "Britain funds its gold-dollar debt over sixty-two years in 1923 at reduced interest"
+more_quotes = [
+  "Sterling depreciation leaves the gold-dollar obligation intact.",
+  "Britain leaves gold in September while its debt to Pacifica keeps its gold-dollar value.",
+]
+open = "End year computed from the stated sixty-two-year term from 1923. Base rights at Singapore and Hong Kong and central-Pacific islands as possible payment in kind remain OPEN-019-05; the sentence leaves unclear whether the base rights are granted or only possible payment. Effect of Hoover's 1931 moratorium on its service not stated."
+
+# ---------------------------------------------------------------------------
+# §31–§32 The Siberian coalition and the Treaty of Harbin
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1918-SIB-COALITION"
+name = "Siberian coalition"
+kind = "alliance"
+parties = ["PAC", "JP", "CN", "SIB", "UK"]
+from = 1918
+owes = [
+  { by = "JP", to = "PAC", what = "the mass of the army" },
+  { by = "CN", to = "PAC", what = "manpower and the Manchurian railway" },
+  { by = "PAC", to = "SIB", what = "command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and an expeditionary contingent" },
+]
+status = "CANON"
+section = 31
+quote = "Pacifica commands a coalition of Japan, China and Siberians, with Britain inside the coalition."
+more_quotes = [
+  "Pacifica contributes command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and an expeditionary contingent.",
+  "The coalition fights for an independent Siberia, leaving Kolchak's all-Russian ambition to overreach.",
+]
+open = "First year taken from the section's 1918 start; no instrument or signing date is stated. Whether the wartime coalition ends or simply becomes the 1922 standing alliance (C-1922-STANDING-ALLIANCE) is not stated."
+
+[[commitment]]
+id = "C-1918-MANCHURIAN-RAILWAY"
+name = "Manchurian railway running rights and transit"
+kind = "concession"
+parties = ["CN", "JP", "PAC"]
+from = 1918
+owes = [
+  { by = "CN", to = "JP", what = "running rights and, later, guaranteed transit on the Chinese-owned line, without giving its territory to Japan" },
+  { by = "PAC", to = "CN", what = "the railway returns to Chinese management, improved at the coalition's expense" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 31
+quote = "Chinese ownership, Japanese running rights and common wartime administration keep the supply route usable without giving its territory to Japan."
+more_quotes = [
+  "the Manchurian railway returns to Chinese management, improved at the coalition's expense",
+  "Guaranteed transit and joint railway management answer the army's territorial demands.",
+  "The Manchurian railway stays Chinese while carrying Japan's lifeline between eastern holdings and Transbaikalia.",
+]
+open = "No start year stated; 1918 is the coalition's year. The year of the guaranteed-transit and joint-management arrangement (§33) is not stated, and 'joint railway management' sits uneasily with Harbin's return of the line to Chinese management."
+
+[[commitment]]
+id = "C-1919-LAND-GRAIN"
+name = "Land-and-grain guarantee"
+kind = "guarantee"
+parties = ["PAC", "SIB"]
+from = 1919
+owes = [
+  { by = "PAC", to = "SIB", what = "the railway half: three paths in ten stay with Siberian grain, coal and passengers" },
+]
+status = "PROPOSED"
+cr = "CR-030"
+section = 31
+quote = "A peasant land-and-grain guarantee supplies a political basis for holding the railway country."
+more_quotes = [
+  "Three paths in ten stay with Siberian grain, coal and passengers: the railway half of the land-and-grain guarantee.",
+  "The guarantee travels down the Lena.",
+]
+open = "Who gives the land half of the guarantee, and its terms, are not stated. Year not stated; it appears in the 1919 paragraphs."
+
+[[commitment]]
+id = "C-1919-CHUKOTKA-FREEZE"
+name = "Freeze of the San Francisco traders' Chukotka debt books"
+kind = "settlement"
+parties = ["PAC", "CHUKOTKA"]
+from = 1919
+owes = [
+  { by = "PAC", to = "CHUKOTKA", what = "the debt books of Pacifica's San Francisco traders in Chukotka stay frozen until a commission can write them down" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 31
+quote = "Pacifica freezes the debt books of its own San Francisco traders in Chukotka until a commission can write them down."
+open = "Set in the winter of 1919–1920; the commission, its date and the write-down are not stated."
+
+[[commitment]]
+id = "C-1921-HARBIN"
+name = "Treaty of Harbin"
+kind = "treaty"
+parties = ["RU", "SIB", "JP", "CN", "PAC", "KAM"]
+from = 1921
+owes = [
+  { by = "RU", to = "SIB", what = "the country from the Ob to Lake Baikal; the Okhotsk coast west of Ola Bay and Nikolayevsk (APPROVED); Yakutia, Chukotka, the Arctic coast and the islands east of the Kara Sea (PROPOSED)" },
+  { by = "RU", to = "JP", what = "a client sphere in Transbaikalia around Chita" },
+  { by = "RU", to = "CN", what = "the Amur, a sphere in Outer Mongolia and Tuva; renunciation of extraterritorial rights, concessions and the Boxer indemnity share (to Chinese schools); Mongolia back under Chinese suzerainty under its own Mongol government" },
+  { by = "SIB", to = "CN", what = "passage for Chinese ships down the Amur to the sea" },
+  { by = "CN", to = "SIB", what = "Siberian trade and settlement rights in the Chinese spheres" },
+  { by = "SIB", to = "JP", what = "a Siberian trial of the Nikolayevsk partisan leaders and an indemnity" },
+  { by = "JP", to = "SIB", what = "passage for Siberian ships through the straits of a sea now Japanese on three sides" },
+  { by = "SIB", to = "PAC", what = "the Ob a shared river; the straits into the Kara Sea open to merchant ships" },
+  { by = "PAC", to = "RU", what = "gives up the old claims to Wrangel Island and the De Long islands, taking the Commander Islands instead" },
+  { by = "JP", to = "SIB", what = "renunciation of the pan-Mongol schemes Japan once backed" },
+]
+status = "CANON"
+section = 32
+quote = "Moscow signs the Treaty of Harbin in 1921."
+more_quotes = [
+  "The Siberian Republic holds the country from the Ob to Lake Baikal, governed from Irkutsk with its Regional Duma at Tomsk.",
+  "The Siberian Republic extends to the Okhotsk coast west of Ola Bay and to Nikolayevsk.",
+  "The Ob becomes a shared river, and the straits into the Kara Sea stay open to merchant ships.",
+  "the treaty gives satisfaction there instead, with a Siberian trial of the partisan leaders and an indemnity",
+  "Out of fairness, Pacifica insists that Siberian ships may pass the straits of a sea that is now Japanese on three sides.",
+  "China secures the Amur and gains a sphere in Outer Mongolia and Tuva, with Siberian trade and settlement rights.",
+  "Russia's extraterritorial rights, its concessions and its share of the Boxer indemnity are renounced, the indemnity going to Chinese schools.",
+  "Chinese ships may pass down the Amur to the sea, Mongolia returns to Chinese suzerainty under its own Mongol government",
+  "It gives up the old San Francisco claims to Wrangel Island and the De Long islands",
+  "Russia retains the northern coast until 1921.",
+]
+label_note = ""
+open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031). Signatories other than Moscow are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Fortification freeze remains OPEN-031-11."
+
+[[commitment]]
+id = "C-1921-KAMCHATKA"
+name = "Japanese protection of the Kamchatka republic"
+kind = "guarantee"
+parties = ["JP", "KAM", "RU"]
+from = 1921
+owes = [
+  { by = "JP", to = "KAM", what = "protection of the republic of Kamchatka and the Koryak coast as far as Ola Bay" },
+  { by = "RU", to = "KAM", what = "Harbin recognises the republic and its Resident" },
+]
+status = "APPROVED"
+cr = "CR-031"
+section = 32
+quote = "Kamchatka and the Koryak coast as far as Ola Bay become a republic under Japanese protection."
+more_quotes = [
+  "Harbin recognises their republic and its Resident.",
+  "Kamchatka and the Koryak coast become a republic under Japanese protection.",
+]
+open = "Whose Resident, and the protection's terms and duration, are not stated; the recognition passage is PROPOSED."
+
+[[commitment]]
+id = "C-1921-TRANSBAIKAL"
+name = "Transbaikalian client sphere (protectorate)"
+kind = "settlement"
+parties = ["JP", "TBK", "RU"]
+from = 1921
+owes = [
+  { by = "JP", to = "TBK", what = "a civilian Japanese Resident over a council of Buryats, Cossacks and townsmen; Japan renounces the pan-Mongol schemes" },
+  { by = "TBK", to = "JP", what = "Japanese settlers, the Chernovsky coal, the Nerchinsk mines and the junction of the line to Manchuria" },
+]
+status = "PROPOSED"
+section = 32
+quote = "it gains a client sphere in Transbaikalia around Chita."
+more_quotes = [
+  "The sphere is the whole province from Baikal to the Argun: a council of Buryats, Cossacks and townsmen under a civilian Japanese Resident",
+  "Japan renounces the pan-Mongol schemes it once backed.",
+  "Japan retains its southern gains and the Transbaikalian protectorate",
+]
+open = "§32 calls it a client sphere; the unresolved list (item 23) calls it a protectorate. Term not stated."
+
+[[commitment]]
+id = "C-1921-FISHERIES"
+name = "Siberian coast fisheries convention"
+kind = "convention"
+parties = ["SIB", "JP"]
+from = 1921
+term_years = 25
+owes = [{ by = "SIB", to = "JP", what = "the majority of the fishing lots on the Siberian coast for Japanese boats" }]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "On the Siberian coast a twenty-five-year convention gives Japanese boats the majority of the lots."
+more_quotes = ["holds the majority of the Siberian coast's fishing lots by convention"]
+open = "Start year not separately stated (given in the Harbin passage), so the end year is not stated."
+
+[[commitment]]
+id = "C-1921-LENA-GOLD"
+name = "Lena gold concessions"
+kind = "concession"
+parties = ["SIB", "PAC"]
+from = 1921
+owes = [{ by = "SIB", to = "PAC", what = "the Lena gold concessions" }]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita."
+open = "Grantor, term and royalty not stated."
+
+[[commitment]]
+id = "C-1921-WEST-CHITA"
+name = "Railway west of Chita"
+kind = "concession"
+parties = ["SIB", "PAC"]
+from = 1921
+owes = [{ by = "SIB", to = "PAC", what = "the railway west of Chita, run by a Pacifican railway board since the war" }]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita."
+more_quotes = ["A Pacifican railway board runs the line west of Chita."]
+open = "Whether ownership, operation or a lease passes, and for how long, is not stated."
+
+[[commitment]]
+id = "C-1921-ARCTIC-LEASES"
+name = "Arctic station leases"
+kind = "lease"
+parties = ["PAC", "SIB"]
+from = 1921
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "takes instead the Commander Islands, home of Aleuts moved there from the Aleutians a century before, with long leases for Arctic stations and a charter for the northern sea route"
+more_quotes = ["The Commander Islands and the Arctic leases go to Pacifica."]
+open = "Lessor, sites and term ('long') not stated."
+
+[[commitment]]
+id = "C-1921-NSR-CHARTER"
+name = "Northern sea route charter"
+kind = "charter"
+parties = ["PAC", "SIB"]
+from = 1921
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "with long leases for Arctic stations and a charter for the northern sea route"
+open = "Grantor, scope and term not stated."
+
+[[commitment]]
+id = "C-1922-SIB-CONSTITUTION"
+name = "Siberian constitution of 1922"
+kind = "constitution"
+parties = ["SIB", "SAKHA", "CHUKOTKA"]
+from = 1922
+owes = [
+  { by = "SIB", to = "SAKHA", what = "autonomy: its own assembly, language, communal land and a port at Okhotsk" },
+  { by = "SIB", to = "CHUKOTKA", what = "government of the empty coast and Chukotka as a territory with a commissioner and a council of the districts and clans" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "its constitution of 1922 makes Yakutia an autonomous Sakha land with its own assembly, language, communal land and a port at Okhotsk"
+more_quotes = ["it governs the empty coast and Chukotka as a territory with a commissioner and a council of the districts and clans"]
+
+[[commitment]]
+id = "C-1922-STANDING-ALLIANCE"
+name = "Standing alliance of Pacifica, Japan, China and the Siberian Republic"
+kind = "alliance"
+parties = ["PAC", "JP", "CN", "SIB"]
+from = 1922
+owes = [
+  { by = "PAC", to = "SIB", what = "command of the alliance and its finance; railway capacity kept in reserve so that a corps of 50,000 can reach the Ob within two weeks of a call" },
+]
+conditions = ["The Siberian republic must remain visibly Russian and governed by Siberians if the coalition is to retain local support."]
+status = "PROPOSED"
+section = 32
+quote = "By 1922 the settlement has become a standing alliance of Pacifica, Japan, China and the Siberian Republic."
+more_quotes = [
+  "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita.",
+  "a corps of 50,000 men can reach the Ob within two weeks of a call",
+  "Japan and China attend from the standing alliance.",
+]
+open = "Term, withdrawal and casus foederis not stated. 'Command of the standing alliance' is already given at Harbin in 1921."
+
+[[commitment]]
+id = "C-1929-KOLYMA"
+name = "Kolyma gold concessions"
+kind = "concession"
+parties = ["SIB", "PAC"]
+from = 1929
+owes = [{ by = "SIB", to = "PAC", what = "concession companies working Kolyma gold with Pacifican dredges sell their gold to the Reserve Bank" }]
+conditions = ["Free, well-paid workers."]
+status = "CANON"
+section = 32
+quote = "Concession companies sell gold to the Reserve Bank; Siberian production remains outside Pacifica's GDP."
+more_quotes = ["From 1929 the Siberian Republic works Kolyma's gold with Pacifican dredges and free, well-paid workers."]
+open = "Holders of the concessions, term and royalty not stated; whether the sale to the Reserve Bank is an obligation or a practice is not stated."
+
+# ---------------------------------------------------------------------------
+# §33 The Concord and the rescue
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1923-QUAKE-CREDIT"
+name = "Yokohama relief and reconstruction credit"
+kind = "loan"
+parties = ["PAC", "JP"]
+from = 1923
+owes = [{ by = "JP", to = "PAC", what = "repayment of the reconstruction credit" }]
+status = "CANON"
+section = 33
+quote = "In September 1923 Julian brings relief and reconstruction credit to Yokohama, and they meet in the ruins."
+open = "Amount, borrower, term and security not stated."
+
+[[commitment]]
+id = "C-1927-JP-RESCUE"
+name = "1927 San Francisco rescue credit to Japan"
+kind = "loan"
+parties = ["PAC", "JP"]
+from = 1927
+until = 1933
+owes = [
+  { by = "PAC", to = "JP", what = "a $600m credit, a third from the Treasury and two-thirds from private lenders, drawn only as Japan needs it" },
+  { by = "JP", to = "PAC", what = "the Japanese government's guarantee; repayment by the rebuilt banks through a stabilization agency in five instalments from 1929 to 1933" },
+]
+can_end = [{ who = "PAC", how = "the Senate votes the rescue loan" }]
+status = "CANON"
+cr = "CR-024"
+section = 33
+quote = "Julian assembles a $600m San Francisco credit, a third from the Treasury and two-thirds from private lenders, to be drawn only as Japan needs it."
+more_quotes = [
+  "Japan's government guarantees it; a stabilization agency lends it on to the rebuilt banks, which repay it in five instalments from 1929 to 1933.",
+  "The Senate votes the rescue loan but refuses the treaty",
+]
+open = "About $497m drawn is MODEL. Interest not stated."
+
+[[commitment]]
+id = "C-1927-PROVISIONAL"
+name = "Provisional application of the Pacific Concord"
+kind = "treaty"
+parties = ["PAC", "JP"]
+from = 1927
+ended = 1928
+ended_by = "two-thirds Senate consent and an Act of Indemnity"
+can_end = [
+  { who = "PAC", how = "the Senate refused the treaty; provisional application is illegal in substance until consent" },
+  { who = "JP", how = "Japan's side follows Japanese law and can lapse if Pacifica never obtains consent" },
+]
+status = "CANON"
+section = 33
+quote = "Julian claims provisional application under the treaty prerogative pending consent, though the Senate has already refused."
+more_quotes = [
+  "This is illegal in substance.",
+  "its side follows Japanese law and can lapse if Pacifica never obtains consent",
+  "In 1928 she wins two-thirds Senate consent and an Act of Indemnity.",
+  "supports the Concord while curing Julian's illegality in 1928",
+]
+open = "The Monterey constitutional case is mooted before judgment."
+
+[[commitment]]
+id = "C-1927-CONCORD"
+name = "Pacific Concord (Taiheiyō Kyōyaku; Concordia del Pacífico; ka Lōkahi)"
+kind = "treaty"
+parties = ["PAC", "HI", "PH", "CROWN", "JP"]
+from = 1927
+renewals = [1932]
+owes = [
+  { by = "PAC", to = "JP", what = "sixty-five percent of common costs (quota 65/35); Foreign Affairs, the common Navy and their Finance held in common" },
+  { by = "JP", to = "PAC", what = "thirty-five percent quota voted by the Diet; at least one common minister Japanese by law; Japan's prime minister countersigns appointments" },
+  { by = "PAC", to = "JP", what = "the western squadron reserved to the Japanese naval party until the 1932 renewal" },
+  { by = "JP", to = "PAC", what = "the home army enters common command only for a Concord-declared war" },
+  { by = "CROWN", to = "JP", what = "annual Council of the Two Crowns at Hayama from 1928; Prince Chichibu resides at Thalassia as the Emperor's representative between Councils" },
+]
+can_end = [
+  { who = "JP", how = "Japan's Emperor ratifies on the Privy Council's conditional advice; its side can lapse if Pacifica never obtains consent" },
+  { who = "PAC", how = "two-thirds Senate consent, won in 1928" },
+]
+conditions = [
+  "Customs, gold parity and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "1928 conditions of consent: a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber, a Polytechnic audit reported to the Senate.",
+  "Sixty delegates from each legislature meet separately at Thalassia; after three disagreements they vote together without debate.",
+  "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
+  "English and Japanese texts are equally authentic.",
+]
+status = "CANON"
+section = 33
+quote = "The Pacific Concord—太平洋協約, Taiheiyō Kyōyaku; la Concordia del Pacífico and ka Lōkahi—joins co-equal crowns."
+more_quotes = [
+  "Foreign Affairs, the common Navy and their Finance belong to the Concord.",
+  "Customs, gold parity and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "Julian appoints the three common ministers with Japan's prime minister countersigning.",
+  "The western squadron is reserved to the Japanese naval party until the 1932 renewal.",
+  "Japan keeps crown, Diet, cabinet, railways, posts and home army; that army enters common command only for a Concord-declared war.",
+  "Sixty delegates from each legislature meet separately at Thalassia and exchange written messages.",
+  "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
+  "Julian accepts a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber and a Polytechnic audit reported to the Senate.",
+  "The Council of the Two Crowns first meets in 1928 and thereafter annually at Hayama.",
+  "Japan's Emperor ratifies on the Privy Council's conditional advice and the Diet votes its quota",
+  "Restoration officers strike against Inukai's government in May 1932 to stop the Concord's first renewal.",
+]
+open = "The Concord's own duration is not stated; only the executive trust has terms. Whether it replaces the 1887 Japanese compact is not stated. The 1932 Thalassia settlement makes parities adjustable."
+
+[[commitment]]
+id = "C-1927-CONCORD-EXEC"
+name = "Concord executive trust (first term)"
+kind = "office"
+parties = ["CROWN", "JP"]
+from = 1927
+until = 1932
+term_years = 5
+renewals = [1932]
+owes = [{ by = "JP", to = "CROWN", what = "the Concord's executive entrusted to the Crown of Pacifica, because Pacifica pays the larger quota and commands the fleet" }]
+status = "CANON"
+section = 33
+quote = "The Concord's executive is entrusted to the Crown of Pacifica for five-year terms, because Pacifica pays the larger quota and commands the fleet."
+more_quotes = ["Julian accepts a five-year first term instead of ten"]
+open = "Whether the first term runs from the 1927 provisional application or the 1928 consent is not stated; the 1932 renewal implies 1927–1932."
+
+[[commitment]]
+id = "C-1927-MICRONESIA-TRUST"
+name = "Ka Lōkahi trust of the Marianas, Carolines and Palau"
+kind = "settlement"
+parties = ["LOKAHI", "MICRO", "PAC"]
+from = 1927
+owes = [{ by = "LOKAHI", to = "MICRO", what = "trusteeship of the Marianas, Carolines and Palau (and, PROPOSED, Tutuila)" }]
+status = "APPROVED"
+cr = "CR-029"
+section = 33
+quote = "The same year Ka Lōkahi takes the Marianas, Carolines and Palau into its trust"
+more_quotes = ["Micronesia and Tutuila become trusts of Ka Lōkahi, the council of the crowns."]
+open = "Terms of the trust not stated. Tutuila's inclusion is PROPOSED in §33 but unlabelled in the CR-029 summary."
+
+[[commitment]]
+id = "C-1927-GUAM-LEASE"
+name = "Guam harbour lease"
+kind = "lease"
+parties = ["LOKAHI", "PAC"]
+from = 1927
+owes = [{ by = "LOKAHI", to = "PAC", what = "Guam's harbour on lease to the navy" }]
+status = "PROPOSED"
+cr = "CR-029"
+section = 33
+quote = "the navy keeps Guam's harbour on lease"
+open = "Lessor (presumably the trust) and term not stated; whose navy (Realm or common) is not stated."
+
+[[commitment]]
+id = "C-1927-KAMCHATKA-CO"
+name = "Kamchatka Company charter"
+kind = "charter"
+parties = ["JP", "PAC", "KAM", "KR"]
+from = 1927
+owes = [{ by = "JP", to = "PAC", what = "a third of the national-policy company's shares in Pacifican hands" }]
+can_end = [
+  { who = "KR", how = "Korean workers' paid contracts require Seoul's consent (proposed arrangements)" },
+  { who = "PAC", how = "Korean workers' paid contracts require Pacifica's consent (proposed arrangements)" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 33
+quote = "In 1927, the year of the Concord, Japan charters the Kamchatka Company, a national-policy company on the Manchurian model with a third of its shares in Pacifican hands."
+more_quotes = ["Korean workers join on paid contracts under the proposed arrangements requiring Seoul's consent and Pacifica's."]
+open = "Charter term and Kamchatka republic's consent not stated."
+
+[[commitment]]
+id = "C-1928-THALASSIA-PLAN"
+name = "Thalassia Plan"
+kind = "law"
+parties = ["HI", "CROWN", "COUNTIES"]
+from = 1928
+owes = [
+  { by = "COUNTIES", to = "HI", what = "public land stays leasehold; county administration of leases does not transfer ownership or the ʻAha Aliʻi's custody of Hawaiian lands" },
+  { by = "CROWN", to = "HI", what = "on Thalassia's Hawaiian Crown ground the Mōʻī receives the premiums, which fund parks, transit and schools" },
+]
+conditions = ["The bureau publishes forest cover, stream flow, smoke-free days, reef fish and park access each year."]
+status = "CANON"
+section = 33
+quote = "Public land stays leasehold; on Thalassia's Hawaiian Crown ground the Mōʻī receives the premiums, which fund parks, transit and schools."
+more_quotes = [
+  "With Victoria's backing he drafts the Thalassia Plan of 1928",
+  "County administration of leases does not transfer ownership or the ʻAha Aliʻi's custody of Hawaiian lands.",
+]
+open = "Canon says Keawe drafts the plan; its enactment and legal form in 1928 are not stated. The 1932 Charter 'makes the islands programme law'."
+
+# ---------------------------------------------------------------------------
+# §34–§37 The crash, the renewal and the Thalassia settlement
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1931-HOOVER-MORATORIUM"
+name = "Hoover's war-debt moratorium"
+kind = "settlement"
+parties = ["PAC", "ENTENTE", "UK", "FR"]
+from = 1931
+owes = [{ by = "PAC", to = "ENTENTE", what = "suspension of war-debt payments; debt is restructured" }]
+status = "CANON"
+section = 34
+quote = "Hoover's June 1931 war-debt moratorium restrains forced selling, and debt is restructured."
+open = "Duration, debtors covered and restructured terms not stated."
+
+[[commitment]]
+id = "C-1931-UNION-RESCUE"
+name = "Second gold rescue of the Union"
+kind = "loan"
+parties = ["PAC", "US"]
+from = 1931
+owes = [
+  { by = "PAC", to = "US", what = "gold and debt rescue" },
+  { by = "US", to = "PAC", what = "acceptance of the continental settlement at Thalassia" },
+]
+status = "PROPOSED"
+section = 34
+quote = "The winter rescue of 1931–1932 brings Pacifica's financial leverage back to the republic it saved in 1895."
+more_quotes = [
+  "debt and gold rescue secure its acceptance of the continental settlement",
+  "Dawes has accepted Pacifica's gold and negotiated association rather than risk banking collapse",
+]
+open = "Amount, term and security not stated."
+
+[[commitment]]
+id = "C-1932-GULF-OIL"
+name = "Gulf oil compact"
+kind = "compact"
+parties = ["GULF", "PAC"]
+from = 1932
+owes = [{ by = "PAC", to = "GULF", what = "help to limit output and support prices, without admitting the Republic" }]
+status = "CANON"
+section = 34
+quote = "The Gulf's oil compact arrives in 1932, after a year of ten-cent East Texas oil and the 1931 break in its general-measures streak."
+more_quotes = ["Pacifica helps limit output and support prices without admitting the Republic."]
+open = "Quotas and term not stated."
+
+[[commitment]]
+id = "C-1932-CONCORD-RENEWAL"
+name = "1932 renewal of the Concord executive trust"
+kind = "office"
+parties = ["CROWN", "JP"]
+from = 1932
+until = 1937
+term_years = 5
+owes = [
+  { by = "JP", to = "CROWN", what = "the executive trust renewed to 1937; Japan's overseas commands pass to common control" },
+  { by = "JP", to = "CROWN", what = "the naval party loses its reserved squadron arrangement as command is consolidated" },
+  { by = "CROWN", to = "JP", what = "the home army stays national except in a Concord war" },
+]
+can_end = [{ who = "JP", how = "Japan may refuse in 1937; its demand for an alternating executive was refused in 1932" }]
+conditions = [
+  "Ratified by both crowns and delegations.",
+  "The crowns agree the renewal at Hayama; authorized ministers sign and exchange its instruments at Thalassia, where they are promulgated.",
+]
+status = "CANON"
+section = 36
+quote = "The five-year executive trust is renewed to 1937, with Japan's overseas commands passing to common control at the price of renewal, ratified by both crowns and delegations."
+more_quotes = [
+  "The naval party loses its reserved squadron arrangement as command is consolidated, making the Navy ministry part of the bargain.",
+  "Japan's demand for an alternating executive is refused.",
+  "The crowns agree the renewal at Hayama; authorized ministers sign and exchange its instruments at Thalassia, where they are promulgated.",
+  "The betrothal's marriage can proceed, but Japan may refuse in 1937.",
+]
+open = "'Japan may refuse in 1937' follows the betrothal's marriage; whether it refers to the marriage or the next renewal is ambiguous."
+
+[[commitment]]
+id = "C-1932-LANDS-WATERS"
+name = "Lands and Waters Charter"
+kind = "charter"
+parties = ["HI", "CROWN"]
+from = 1932
+owes = [
+  { by = "HI", to = "CROWN", what = "watershed reserves and minimum stream flows, two leeward industrial districts, restoration of mined land, leasehold for public land, the statistics bureau's annual islands index; Waimanu protected" },
+  { by = "HI", to = "CROWN", what = "the smelter keeps its contracts at gold parity" },
+]
+status = "CANON"
+cr = "CR-020"
+section = 36
+quote = "Their 1932 Lands and Waters Charter makes the islands programme law: watershed reserves and minimum stream flows, two leeward industrial districts, restoration of mined land, leasehold for public land and the statistics bureau's annual islands index."
+more_quotes = ["Waimanu is protected and the smelter keeps its contracts at gold parity."]
+open = "Enacting body not named (Victoria brokers between Keawe and Julian). The navy's reef cut in exchange for marine reserves elsewhere (§34) and the thirty-year hydro refinancing are stated only as Keawe's bargain and a confirmed possibility, not as Charter terms."
+
+[[commitment]]
+id = "C-1932-THALASSIA"
+name = "Thalassia settlement (Thalassia Conference)"
+kind = "settlement"
+parties = ["PAC", "US", "CSA", "GULF", "UK", "DE", "FR", "JP", "CN"]
+from = 1932
+owes = [
+  { by = "US", to = "CSA", what = "Senate recognition of the Confederacy" },
+  { by = "US", to = "GULF", what = "Senate recognition of the Gulf Republic" },
+  { by = "US", to = "PAC", what = "renunciation of surviving claims under the 1865 and 1871 lines; currency in an adjustable gold-dollar order; naval ratio below the common fleet and Britain; accession to the arbitration court's new charter; Soviet industrial contracts cut" },
+  { by = "PAC", to = "US", what = "currency stability, partial recovery through the German debt settlement, Atlantic primacy and a founding seat in the renewed court" },
+]
+conditions = [
+  "Pacifica assumes neither a common Union budget nor common citizenship, free movement or automatic participation in its disputes.",
+  "Germany, Britain and France enter the monetary settlement; Japan and China attend from the standing alliance.",
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 37
+quote = "At the Thalassia Conference in June–July 1932, debt and gold rescue secure its acceptance of the continental settlement."
+more_quotes = [
+  "Its Senate recognizes the Confederacy and Gulf Republic and renounces the surviving claims under the 1865 and 1871 lines",
+  "The currency joins an adjustable gold-dollar order.",
+  "Pacifica assumes neither a common Union budget nor common citizenship, free movement or automatic participation in its disputes.",
+  "Germany, Britain and France enter the monetary settlement; Japan and China attend from the standing alliance.",
+  "until the 1932 Thalassia settlement makes parities adjustable",
+]
+open = "Young endorses the settlement after his November 1932 election; his inauguration is in 1933. Term not stated."
+
+[[commitment]]
+id = "C-1932-GERMAN-DEBT"
+name = "German debt settlement"
+kind = "settlement"
+parties = ["DE", "US"]
+from = 1932
+owes = [{ by = "DE", to = "US", what = "partial recovery for Union lenders" }]
+status = "PROPOSED"
+cr = "CR-019"
+section = 37
+quote = "partial recovery through the German debt settlement"
+open = "Terms, date and parties beyond the Union's partial recovery not stated."
+
+[[commitment]]
+id = "C-1932-PENSACOLA"
+name = "Pensacola lease"
+kind = "lease"
+parties = ["US"]
+from = 1932
+status = "OPEN"
+cr = "CR-019"
+section = 37
+quote = "a treaty right rather than a transfer of sovereignty"
+more_quotes = ["A Pensacola lease remains"]
+open = "OPEN-019-11: whether there is a lease, lessor and lessee, and term are all undecided."
+
+[[commitment]]
+id = "C-1932-ANZ-DEFENSE"
+name = "Australia–New Zealand defense treaty"
+kind = "treaty"
+parties = ["ANZ", "PAC"]
+from = 1932
+status = "PROPOSED"
+cr = "CR-019"
+section = 37
+quote = "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause."
+open = "OPEN-019-06 (Dominions treaty). Year not stated (§37 is 1932); counterparty presumably Pacifica, not named; terms not stated."
