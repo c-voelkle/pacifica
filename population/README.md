@@ -6,6 +6,7 @@ A cohort-component model of Pacifica's population: single years of age, two sexe
 python3 population/historical.py   # validation against our timeline  -> outputs/historical.md
 python3 population/canon.py        # canon run against the People sheet -> outputs/reconciliation.md, canon_by_year.csv
 python3 population/flows.py        # where the population comes from, and migration vs US immigration -> outputs/flows.md
+python3 population/changes.py      # workbook change list figures -> outputs/workbook_changes.md, workbook_changes.csv
 python3 -m unittest discover -s population/tests -v
 ```
 
@@ -91,3 +92,9 @@ Each group's vital rates follow a dated path, with real-world benchmarks as the 
 - **Group-specific rates:** all residents other than Native Hawaiians and Native Californians share the general canon path. This is a decision, not a gap: canon's civic equality and the examined state give no ground for group differences, and no sourced rates for those groups exist here.
 
 Canon text for these decisions: draft CR-033 in `book-agent/revision/drafts/`.
+
+## Step 3: workbook change list (complete)
+
+[`workbook_change_list.md`](workbook_change_list.md) lists what the People, Paths, Levers and Checks sheets would need to match the approved model. It also lists the knock-on effects to check and the Land Fund rows that apply if CR-033 is adopted. The workbook is unchanged.
+
+**Year convention:** the change list counts residents at the end of each year, as the People sheet does (column L). Elsewhere in this README and in CR-033, "in 1932" means the start of 1932 (30.1m); at the end of 1932 the model has 30.9m.
