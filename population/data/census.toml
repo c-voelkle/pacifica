@@ -1,0 +1,87 @@
+# Historical census anchors (our timeline). These test the engine; they are not
+# canon. Every series names its source. `status`: "verified" = read from the
+# cited source in this session; "identity-checked" = the group counts sum exactly
+# to an independently verified total but the group figures themselves were not
+# yet read from the original table; "estimate" = scholarly estimate, not a count.
+
+# ---------------------------------------------------------------------------
+# Hawaii (Kingdom/Republic censuses, US census 1900)
+# ---------------------------------------------------------------------------
+
+[hawaii]
+years = [1853, 1860, 1866, 1872, 1878, 1884, 1890, 1896, 1900]
+total = [73138, 69800, 62959, 56897, 57985, 80578, 89990, 109020, 154001]
+total_source = "Schmitt, Demographic Statistics of Hawaii 1778-1965 (1968) and Historical Statistics of Hawaii (1977), via OHA Data Book Table 1.01; 1900: US census"
+total_status = "verified"
+
+# Hawaiian plus part-Hawaiian ("Native Hawaiian" in OHA tables). 1900 not yet sourced.
+native_hawaiian = [71019, 66984, 58765, 51531, 47508, 44232, 40622, 39504]
+native_hawaiian_years = [1853, 1860, 1866, 1872, 1878, 1884, 1890, 1896]
+native_hawaiian_source = "Schmitt (1968, 1977) via OHA Data Book Table 1.01"
+native_hawaiian_status = "verified"
+
+# The census categories themselves (Thrum's Hawaiian Almanac nationality table).
+split_years = [1853, 1866, 1872, 1878, 1884, 1890, 1896]
+hawaiian = [70036, 57125, 49044, 44088, 40014, 34436, 31019]
+part_hawaiian = [983, 1640, 2487, 3420, 4218, 6186, 8485]
+split_source = "Thrum's Hawaiian Almanac and Annual, reproduced in OHA, Estimated Population of the Hawaiian Islands 1778-1896"
+split_status = "identity-checked"   # each pair sums exactly to native_hawaiian; other nationality rows in that extraction were misaligned and are not used
+
+characteristics_years = [1853, 1860, 1866, 1872, 1878, 1884, 1890, 1896, 1900]
+males_per_100_females = [113.1, 116.1, 120.4, 125.4, 142.8, 177.5, 187.7, 198.7, 223.3]
+pct_under_15 = [nan, nan, 26.5, 27.8, 28.1, 28.0, 26.1, 27.7, 22.6]
+characteristics_source = "Schmitt, Historical Statistics of Hawaii (1977), via State of Hawaii Data Book 1984, Table 2 (whole population, all groups)"
+characteristics_status = "verified"
+
+# Honolulu only, whole population: an upper reference for Hawaiian life expectancy.
+honolulu_e0_1884 = 36.5
+honolulu_e0_source = "Schmitt (1968) p. 172, via State of Hawaii Data Book 1971, Section 2"
+
+# ---------------------------------------------------------------------------
+# California (US census)
+# ---------------------------------------------------------------------------
+
+[california]
+years = [1850, 1860, 1870, 1880, 1890, 1900]
+total = [92597, 379994, 560247, 864694, 1213398, 1485053]
+white = [91635, 323177, 499424, 767181, 1111833, 1402727]
+total_source = "US census, via Wikipedia 'List of U.S. states and territories by historical population'"
+white_source = "US census, via Wikipedia 'White Americans in California' (Gibson & Jung 2002)"
+total_status = "verified"
+white_status = "verified"   # 1860 printed there as 323,117; 323,177 is the value that sums to the census total
+
+black = [962, 4086, 4272, 6018, 11322, 11045]
+chinese = [0, 34933, 49277, 75132, 72472, 45753]          # not separately counted in 1850
+japanese = [0, 0, 33, 86, 1147, 10151]
+indian_enumerated = [0, 17798, 7241, 16277, 16624, 15377]  # 1850 not counted; before 1890 only Indians "taxed"
+groups_source = "US census by race, Gibson & Jung (2002) Census Bureau Working Paper 56, Table 19 (California)"
+groups_status = "identity-checked"   # white+black+chinese+japanese+indian = total exactly in every year
+
+# Estimated total Native Californian population, including people the census did not count.
+native_estimate_years = [1848, 1853, 1870, 1900]
+native_estimate = [150000, 87500, 30000, 16000]
+native_estimate_range_1853 = [75000, 100000]
+native_estimate_source = "1848, 1870, 1900: Madley (2016) p. 458 and Krell (1979) p. 316; 1853: Superintendent Beale's report (75,000-100,000; midpoint used). Via Wikipedia 'California genocide'"
+native_estimate_status = "estimate"
+
+# ---------------------------------------------------------------------------
+# Other western states and territories: totals only (race detail not yet sourced)
+# ---------------------------------------------------------------------------
+
+[states]
+years = [1850, 1860, 1870, 1880, 1890, 1900, 1910, 1920, 1930]
+source = "US census, via Wikipedia 'List of U.S. states and territories by historical population'"
+status = "verified"
+Oregon     = [12093, 52465, 90923, 174768, 317704, 413536, 672765, 783389, 953786]
+Washington = [1201, 11594, 23955, 75116, 357232, 518103, 1141990, 1356621, 1563396]
+Nevada     = [nan, 6857, 42941, 62266, 47355, 42335, 81875, 77407, 91058]
+Utah       = [11380, 40273, 86786, 143963, 210779, 276749, 373351, 449396, 507847]
+Idaho      = [nan, nan, 14999, 32610, 88548, 161772, 325594, 431866, 445032]
+Montana    = [nan, nan, 20595, 39159, 142924, 243329, 376053, 548889, 537606]
+Wyoming    = [nan, nan, 9118, 20789, 62555, 92531, 145965, 194402, 225565]
+Colorado   = [nan, 34277, 39864, 194327, 413249, 539700, 799024, 939629, 1035791]
+Arizona    = [nan, nan, 9658, 40440, 88243, 122931, 204354, 334162, 435573]
+New_Mexico = [61547, 93516, 91874, 119565, 160282, 195310, 327301, 360350, 423317]
+Alaska     = [nan, nan, nan, 33426, 32052, 63592, 64356, 55036, 59278]
+California = [92597, 379994, 560247, 864694, 1213398, 1485053, 2377549, 3426861, 5677251]
+Hawaii     = [nan, nan, nan, nan, nan, 154001, 191874, 255881, 368300]
