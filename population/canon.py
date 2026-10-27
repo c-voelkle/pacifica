@@ -184,6 +184,12 @@ def pacifica_rates(y: int) -> Rates:
 def native_canon(section: str, base: Rates, y: int, e0_full: float | None = None) -> Rates:
     c = load("rates")[section]
     gen = pacifica_rates(y)
+    if "e0_benchmark" in c:   # move onto a real benchmark path and follow it
+        b = load("rates")[c["e0_benchmark"]]
+        bench = cohort.interp(b["years"], b["e0"], y)
+        e0 = _blend(base.e0, bench, y, c["e0_from"], c["e0_join"])
+        tfr0 = c.get("tfr_level", base.tfr)
+        return Rates(min(e0, gen.e0), _blend(tfr0, gen.tfr, y, c["tfr_from"], c["tfr_full"]))
     end = e0_full if e0_full is not None else c["e0_full"]
     return Rates(_blend(base.e0, gen.e0, y, c["e0_from"], end),
                  _blend(base.tfr, gen.tfr, y, c["e0_from"], c["tfr_full"]))

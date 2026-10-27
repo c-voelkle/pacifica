@@ -86,10 +86,25 @@ e0_from = 1886
 e0_full = 1912   # solved: the population bottoms out in 1895
 tfr_full = 1930
 
+[benchmark_maori]
+# Life expectancy at birth of Māori (average of the male and female figures quoted):
+# an Indigenous people under protective but unequal settler rule in the healthiest
+# settler society of the period. Population began growing in the later 1890s.
+years = [1891, 1911, 1926, 1945, 1951]
+e0    = [24.0, 32.5, 41.0, 48.5, 55.0]
+source = "Te Ara, 'Death rates and life expectancy' (men 25/women 23 in 1891; 35/30 in 1911; 42/40 in 1926; 49/48 in 1945; 54/56 in 1951)"
+status = "verified"
+
 [native_californian_canon]
-# Disease without mass killing (author): Hawaiian-analogue rates until `e0_from`, then
-# converging to Pacifica's general level by `e0_full`; fertility by 1930 (author: fair
-# treatment and better quality of life). Dates are MODEL: canon gives none.
+# Disease without mass killing, then a protective but unequal deal (author, 27 Oct 2026;
+# sole-buyer treaties in draft CR-033): Hawaiian-analogue rates until `e0_from`, then
+# mortality moving onto the Māori path (reached at `e0_join`) and following it, so a
+# health gap of 20-30 years to the general population remains. Fertility stays at the
+# `tfr_level` until `tfr_from`, then converges to the general level by `tfr_full`.
+# Dates MODEL: canon gives none.
 e0_from = 1870
-e0_full = 1900
-tfr_full = 1930
+e0_join = 1891
+e0_benchmark = "benchmark_maori"
+tfr_level = 5.9   # solved: the population turns upward in the later 1890s, as Māori numbers did
+tfr_from = 1915
+tfr_full = 1950
