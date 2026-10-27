@@ -73,3 +73,30 @@ class Canon(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Flows(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import flows
+        cls.flows = flows
+        cls.ch = flows.chain()
+
+    def test_chain_starts_at_zero_and_adds_up(self):
+        base = {r["year"]: r["model_total"] for r in self.ch["base"]}
+        full = {r["year"]: r["model_total"] for r in self.ch["full"]}
+        sheet = self.ch["sheet"]
+        # one year in, the closed 1846 population differs from the sheet's growth only by the
+        # non-Native residents' age-structured natural increase: well under 1%
+        self.assertLess(abs(base[1847] / (sheet[1846]["start"] * (1 + sheet[1846]["ni_rate"])) - 1), 0.005)
+        for y in (1870, 1900, 1932):
+            parts = base[y] + (full[y] - base[y]) + (sheet[y - 1]["end"] - full[y])
+            self.assertAlmostEqual(parts, sheet[y - 1]["end"], delta=1)
+
+    def test_streams_are_additive(self):
+        full = {r["year"]: r["model_total"] for r in self.ch["full"]}
+        terr = {r["year"]: r["model_total"] for r in self.ch["terr"]}
+        for y in (1890, 1932):
+            parts = sum(full[y] - {r["year"]: r["model_total"] for r in rows}[y]
+                        for rows in self.ch["without"].values())
+            self.assertLess(abs(parts - (full[y] - terr[y])) / (full[y] - terr[y]), 0.001)

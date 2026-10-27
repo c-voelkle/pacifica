@@ -1,6 +1,15 @@
 # MODEL assumptions: estimates without a direct source in this version.
 # Each is labelled with what anchors it. Change them here; never in code.
 
+[switches]
+# Native Californians after 1846 — an OPEN canon question (master storyline,
+# unresolved items 4, 6, 7). Options:
+#   "sheet_rate"         grow with everyone at the People sheet's rate (what the sheet implies; the default
+#                        because it reconciles with the sheet — not an author decision)
+#   "our_timeline"       follow the historical estimates: 150,000 (1848), 75-100,000 (1853), 30,000 (1870), 16,000 (1900)
+#   "hawaiian_analogue"  disease without mass killing: the calibrated Native Hawaiian rates
+native_californians = "sheet_rate"
+
 [migration]
 # Age profile of arrivals: adults drawn from a normal curve (mean, sd) between
 # ages 15 and 55; children 0-14 spread evenly; the child share depends on the stream.

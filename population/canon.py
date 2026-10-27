@@ -80,14 +80,18 @@ def male_share(stream: str, year: int) -> float:
     return historical.male_share(stream, year, table="migration")
 
 
-def migration_profiles(y: int, d: dict, prev: dict | None, lev: dict) -> dict[str, tuple[list[float], list[float]]]:
+STREAMS = ("americas_europe", "chinese", "japanese", "filipino", "extra")
+
+
+def migration_profiles(y: int, d: dict, prev: dict | None, lev: dict,
+                       streams: tuple[str, ...] = STREAMS) -> dict[str, tuple[list[float], list[float]]]:
     a = load("assumptions")["migration"]
     dep = lev["dep_asia"]
     assisted = d["assisted_share"]
     prof: dict[str, list] = {}
 
     def stream(name: str, gross: float, leave_share: float, group: str) -> None:
-        if gross <= 0:
+        if gross <= 0 or name not in streams:
             return
         net_unassisted = gross * (1 - assisted) - gross * leave_share
         net_assisted = gross * assisted
@@ -117,6 +121,8 @@ def migration_profiles(y: int, d: dict, prev: dict | None, lev: dict) -> dict[st
         family = n - workers
         return [cohort.migrant_profile(workers, sk, 0.0), cohort.migrant_profile(family, 1 - sk, 0.5)]
 
+    if "extra" not in streams:
+        return {g: cohort.merge(*parts) for g, parts in prof.items()}
     prof.setdefault("white", []).extend(skilled(other))
     weights = {g: d[k] for g, k in (("chinese", "chinese"), ("japanese", "japanese"), ("filipino", "filipino"))}
     tot = sum(weights.values())
@@ -138,7 +144,9 @@ def make_rates(nh: Rates, native_ca_bound: str):
         if group == "native_hawaiian":
             return nh
         if group == "native_californian":
-            return Rates(nc["floor_e0"], nc["tfr"]) if native_ca_bound == "our_timeline" else nh
+            if native_ca_bound == "hawaiian_analogue":
+                return nh
+            return Rates(nc["floor_e0"], nc["tfr"])  # our_timeline (rescaled to estimates) and sheet_rate (rescaled to the sheet's rate)
         if group == "black":
             return cohort.series_rates("black", y)
         return cohort.series_rates("white", y)
@@ -166,10 +174,24 @@ GROUPS = ["native_californian", "white", "black", "chinese", "japanese", "filipi
           "native_hawaiian", "joined_territories"]
 
 
-def run(native_ca_bound: str = "our_timeline") -> tuple[list[dict], dict]:
-    sheet = read_sheet()
+_CACHE: dict = {}
+
+
+def native_ca_switch() -> str:
+    return load("assumptions")["switches"]["native_californians"]
+
+
+def run(native_ca_bound: str | None = None, joins: bool = True,
+        streams: tuple[str, ...] = STREAMS) -> tuple[list[dict], dict]:
+    """One cohort run. `joins` and `streams` switch the sheet's territory joins and
+    migration streams on or off; the engine is linear in population, so the
+    difference between two runs is exactly the contribution of what was switched."""
+    native_ca_bound = native_ca_bound or native_ca_switch()
+    if "sheet" not in _CACHE:
+        _CACHE["sheet"] = read_sheet()
+        _CACHE["cal"] = historical.calibrate_native_hawaiian()["chosen"]
+    sheet, cal = _CACHE["sheet"], _CACHE["cal"]
     lev = sheet["levers"]
-    cal = historical.calibrate_native_hawaiian()["chosen"]
     nh = Rates(cal["e0"], cal["tfr"])
     rates = make_rates(nh, native_ca_bound)
     persp = load("assumptions")["perimeter"]
@@ -190,7 +212,7 @@ def run(native_ca_bound: str = "our_timeline") -> tuple[list[dict], dict]:
         d = sheet[y]
         start = {g: pop[g].total() for g in GROUPS}
         # territory joins (the sheet's column C)
-        if d["join"] > 0:
+        if d["join"] > 0 and joins:
             if y == HAWAII_JOIN:
                 nh_n = cohort.interp(hi["native_hawaiian_years"], hi["native_hawaiian"], y)
                 pop["native_hawaiian"].add(*_stable(nh, nh_n, None))
@@ -200,7 +222,7 @@ def run(native_ca_bound: str = "our_timeline") -> tuple[list[dict], dict]:
             else:
                 pop["joined_territories"].add(*_stable(rates("white", y), d["join"], persp["joined_male_share"]))
         joined = {g: pop[g].total() for g in GROUPS}
-        migr = migration_profiles(y, d, prev, lev)
+        migr = migration_profiles(y, d, prev, lev, streams)
         births = deaths = 0.0
         ni_by_group = {}
         for g in GROUPS:
@@ -212,12 +234,15 @@ def run(native_ca_bound: str = "our_timeline") -> tuple[list[dict], dict]:
             deaths += res["deaths"]
             ni_by_group[g] = res["births"] - res["deaths"]
         excess = 0.0
+        g = pop["native_californian"]
+        target = None
         if native_ca_bound == "our_timeline":
             target = native_ca_target(y + 1)
-            g = pop["native_californian"]
-            if target is not None and g.total() > 0:
-                excess = g.total() - target          # positive: loss beyond the life table
-                g.scale(target / g.total())
+        elif native_ca_bound == "sheet_rate":
+            target = start["native_californian"] * (1 + d["ni_rate"])
+        if target is not None and g.total() > 0:
+            excess = g.total() - target          # positive: loss beyond the life table
+            g.scale(target / g.total())
         c = d["ni_rate"]
         for g in GROUPS:
             change = ni_by_group[g] - (excess if g == "native_californian" else 0.0)
@@ -265,10 +290,11 @@ def fmt(x: float) -> str:
 
 def main() -> int:
     OUT.mkdir(exist_ok=True)
-    rows, meta = run("our_timeline")
-    alt, _ = run("hawaiian_analogue")
+    switch = native_ca_switch()
+    rows, meta = run()
     by = {r["year"]: r for r in rows}
-    alt_by = {r["year"]: r for r in alt}
+    bounds = {opt: {r["year"]: r for r in run(opt)[0]}
+              for opt in ("our_timeline", "hawaiian_analogue", "sheet_rate")}
 
     with open(OUT / "canon_by_year.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -286,7 +312,10 @@ def main() -> int:
          "Generated by `population/canon.py` from the supplied workbook (read only). The run uses the sheet's own "
          "perimeter, territory joins and migration streams, and our-timeline vital rates by census group "
          f"(Native Hawaiians: calibrated e0 {nh['e0']:.1f}, TFR {nh['tfr']:.2f}; see `historical.md`). "
-         "The gap to the sheet is therefore what the canon's divergences have to explain. It is not an error list.", "",
+         f"Native Californians: switch `{switch}` (data/assumptions.toml). "
+         "Migration and territory are identical to the sheet, so the gap below is only the difference in natural increase: "
+         "the sheet's single rate against each group's age structure and our-timeline rates. For the sheet's divergence from "
+         "our timeline as a whole, and the migration flows, see `flows.md`.", "",
          "## Totals", "",
          "| Year | Sheet | Model | Gap (sheet − model) | Gap % |", "|---|---|---|---|---|"]
     for y in KEY:
@@ -325,10 +354,10 @@ def main() -> int:
           "Native Californians at that estimate and everyone else at the remainder. If the sheet meant non-Native residents only, "
           "this section and about a third of the total gap change.", "",
           "Canon leaves Indigenous claims and obligations OPEN. Two labelled bounds, against the sheet, which grows them with everyone:", "",
-          "| Year | Our-timeline path | Hawaiian-analogue rates (disease without mass killing) | Implied by the sheet |", "|---|---|---|---|"]
+          "| Year | Our-timeline path | Hawaiian-analogue rates (disease without mass killing) | Sheet's rate |", "|---|---|---|---|"]
     for y in (1856, 1870, 1887, 1900, 1932):
-        sheet_nc = by[y]["native_californian"] + cum_at[y]["native_californian"]
-        L.append(f"| {y} | {fmt(by[y]['native_californian'])} | {fmt(alt_by[y]['native_californian'])} | {fmt(sheet_nc)} |")
+        L.append(f"| {y} | " + " | ".join(fmt(bounds[o][y]["native_californian"])
+                                           for o in ("our_timeline", "hawaiian_analogue", "sheet_rate")) + " |")
     L += ["", "Our-timeline path: the estimates (150,000 in 1848, 75,000–100,000 in 1853, 30,000 in 1870, 16,000 in 1900), "
           "held at 16,000 after 1900. Choosing between these, or a third path, is an author decision; the model then carries it.", "",
           "### DEM-01 (war_base_assumptions.md)", "",
