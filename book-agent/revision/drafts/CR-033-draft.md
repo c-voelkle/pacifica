@@ -43,8 +43,8 @@ The README explanations the author approved:
 | A10 | Disease reduces Native Californians to about two-thirds of their 1848 number by the later 1890s (low about 99,000 in 1897). They then grow again, to about 130,000 by 1932, keeping a health gap of 20–30 years of life expectancy to their neighbours, on the path of New Zealand's Māori. Land keeps leaving Native hands despite the treaties, by the routes in A23. | Figures MODEL; the unequal outcome APPROVED direction |
 | A11 | Japanese immigration predominates over Chinese in absolute terms from the 1900s. It comes from redirected flows and from emigration increased by the alternate timeline's circumstances. Filipino migration is mostly after 1914. | APPROVED direction |
 | A12 | Japanese arrivals overtake Chinese in the 1900s, and the 1907 compact's family immigration (§26, APPROVED — CR-022) widens the lead. Japan has no settler outlet in Korea or Manchuria, and its eastern holdings (the Ussuri and Vladivostok, from 1899) draw few settlers. | PROPOSED |
-| A13 | By 1932, Japanese-origin Pacificans number about 4.2 million and Chinese-origin about 4.1 million (updated 27 Oct 2026 for the step 2 rates and the Native path; the lead is narrow). | MODEL |
-| A14 | After 1915 the population keeps rising generously, and core Pacifica counts about 30 million people by 1932. | APPROVED direction; figure MODEL |
+| A13 | By 1932, Japanese-origin Pacificans number about 4.6 million and Chinese-origin about 4.3 million (population model on the revised workbook, start of 1932; updated 27 Oct 2026). The workbook's own People columns, which grow every group at one rate, show a tie. | MODEL |
+| A14 | After 1915 the population keeps rising generously, and core Pacifica counts about 30 million people by 1932. The revised workbook has 31.6m at the start of 1932 and 32.5m at its end. | APPROVED direction; figure MODEL |
 | A15 | The model's health and fertility paths: life expectancy converging to the world's best (New Zealand) by about 1910, and fertility to Canada's. | MODEL (population/data/rates.toml) |
 | A17 | **The Land Fund.** Native purchases are paid from a fund secured on the purchased land itself, kept apart from the gold royalties and San Francisco customs pledged to the London bondholders (§5). The Republic buys district by district, ahead of settlement, and pays each nation annuities in goods from Pacifican merchants over a long term. Settlers buy on instalments, and the instalments service the annuities: the land pays for itself. As sole buyer, the Republic also sets the price. | APPROVED direction |
 | A18 | The margin between purchase and resale pays for assisted passage of women and families (A1). | APPROVED direction |
@@ -78,7 +78,7 @@ Each insertion is a new paragraph, shown with the existing passage it follows or
 
 ### §26, after the paragraph ending "…family immigration and civic equality for Japanese Pacificans." (A11–A13)
 
-> **[PROPOSED — CR-033]** With Korea independent, Manchuria Chinese and Japan's eastern holdings drawing few settlers, Japanese emigrants have been choosing Pacifica in growing numbers; in the 1900s their arrivals overtake the Chinese. With Japanese families admitted under the compact, the lead widens, and by 1932 Japanese-origin Pacificans outnumber Chinese-origin ones, about 4.2 against 4.1 million **[MODEL]**. Filipino migration stays small until the Philippine crown joins Julian's, and grows after it.
+> **[PROPOSED — CR-033]** With Korea independent, Manchuria Chinese and Japan's eastern holdings drawing few settlers, Japanese emigrants have been choosing Pacifica in growing numbers; in the 1900s their arrivals overtake the Chinese. With Japanese families admitted under the compact, the lead widens, and by 1932 Japanese-origin Pacificans outnumber Chinese-origin ones, about 4.6 against 4.3 million **[MODEL]**. Filipino migration stays small until the Philippine crown joins Julian's, and grows after it.
 
 ### §33, before the paragraph beginning "Shared infrastructure, technical education and investment also lift the partners." (A14–A15)
 
@@ -134,7 +134,13 @@ The rule catches an actor declaring, ordering, launching or waging such a campai
   - the New Zealand and Canadian benchmarks.
 - **Assumptions:** DEM-01 in `war_base_assumptions.md` already reads about 1.2m (1861) and 1.7m (1865).
 - **Character documents:** none affected.
-- **Costing (not yet done):** Chryseis should net the policy against the workbook: annuities, survey, the register and its assurance fund, commissioners and police against the land-sale margin, lease fees, avoided war debt and better credit. It should also check that the margin can carry assisted passage (A18). The draft asserts that it pays; the calculation should confirm it before adoption. Item L1 of `population/workbook_change_list.md` sets out the rows.
+- **Costing (done 27 Oct 2026, `finance/CR-033-workbook.md`):**
+  - **The purchases pay for themselves.** The Land Fund is never in deficit and nets about $22m by 1932 (+$4.2m in 1850 money).
+  - **The whole policy only breaks even.** With the mounted police it is +$11.4m undiscounted but −$0.9m in 1850 money, because the police are paid before the land sales arrive. It clearly pays at a sale price of $2.50 an acre.
+  - **A18 overstates.** The margin covers about 11% of assisted passage, so it "helps pay for" it rather than paying for it. This is the author's call.
+  - **The 1932 figure rises.** The revised workbook ends 1932 with 32.5m residents (A14 says about 30m), because its migration responds to the larger population.
+
+  The original costing plan was: Chryseis should net the policy against the workbook: annuities, survey, the register and its assurance fund, commissioners and police against the land-sale margin, lease fees, avoided war debt and better credit. It should also check that the margin can carry assisted passage (A18). The draft asserts that it pays; the calculation should confirm it before adoption. Item L1 of `population/workbook_change_list.md` sets out the rows.
 - **Financial workbook:** unchanged. It differs from the model on Native Hawaiians and Native Californians (the sheet grows both with everyone), on the origin of its talent stream, and on growth after 1915. These belong in the workbook change list, not this CR.
 - **Review:** a fresh-context review (consistency and literary effect) was run on the first draft, and another on revision 2. A third fresh-context review on revision 3 found, and this draft fixes:
   - the Superintendency named before it exists (now "kept from 1852");

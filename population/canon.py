@@ -21,6 +21,7 @@ from __future__ import annotations
 import csv
 import math
 import sys
+import os
 from pathlib import Path
 
 import openpyxl
@@ -30,7 +31,8 @@ import historical
 from cohort import Group, Rates, load
 
 ROOT = Path(__file__).resolve().parent.parent
-WORKBOOK = ROOT / "finance" / "Pacifica_financial_model_1846-1932.xlsx"
+# PACIFICA_WORKBOOK points the model at a working copy (used while revising the workbook).
+WORKBOOK = Path(os.environ.get("PACIFICA_WORKBOOK", ROOT / "finance" / "Pacifica_financial_model_1846-1932.xlsx"))
 OUT = Path(__file__).resolve().parent / "outputs"
 FIRST, LAST = 1846, 1932
 HAWAII_JOIN = 1856  # the sheet's year (Confederation); Hawaii is de facto core from then

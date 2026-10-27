@@ -33,7 +33,8 @@ periods = [
 # 1.0 = the sheet as supplied.
 from = 1848
 to = 1860
-multiplier = 2.10   # solved: reaches 1.2m in 1861 (see flows.md, DEM-01). 1865 figure rises accordingly (author, 27 Oct 2026)
+multiplier = 1.0    # 2.10 is now in the workbook itself (Levers dem01_mult, 27 Oct 2026), so the model
+                    # applies nothing extra. 2.10 was solved to reach 1.2m in 1861 (see flows.md, DEM-01).
 
 [migration]
 # Age profile of arrivals: adults drawn from a normal curve (mean, sd) between
