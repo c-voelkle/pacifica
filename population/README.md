@@ -77,7 +77,10 @@ Each group's vital rates follow a dated path, with real-world benchmarks as the 
   - Mortality follows US white rates until 1888 (Office of Public Measures, §21; Victoria's measures, §23). It then converges to New Zealand's, the world's highest life expectancy, by 1910.
   - Fertility follows US white rates until 1900, then converges to Canada's, the highest among settler societies, by 1915.
 - **Native Hawaiians:** calibrated historical rates until Noe's health board (1886, §20), then converging to the general level. The convergence date (1912) is solved so the population turns upward in 1895, as §23 states.
-- **Native Californians:** disease without mass killing until 1870, then converging to the general level by 1900. These dates are MODEL; canon gives none.
+- **Native Californians:** disease without mass killing until 1870, then a protective but unequal deal (draft CR-033: the Republic as sole buyer of Native land).
+  - Mortality moves onto the path of New Zealand's Māori by 1891 and follows it: life expectancy about 24 in 1891, 32 in 1911, 41 in 1926 (Te Ara). That leaves a gap of 20–30 years to the general population.
+  - Fertility (5.9) is solved so the population turns upward in the later 1890s, as Māori numbers did.
+  - Result: low about 99,000 in 1897, about 130,000 by 1932. The dates are MODEL; canon gives none.
 
 `rates_case = "our_timeline"` restores historical rates for comparison.
 
