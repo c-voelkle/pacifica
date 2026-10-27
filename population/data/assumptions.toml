@@ -7,6 +7,7 @@
 #   "sheet_rate"         grow with everyone at the People sheet's rate (what the sheet implies)
 #   "our_timeline"       follow the historical estimates: 150,000 (1848), 75-100,000 (1853), 30,000 (1870), 16,000 (1900)
 #   "hawaiian_analogue"  disease without mass killing: the calibrated Native Hawaiian rates
+rates_case = "canon"   # "canon" (rates.toml canon sections) or "our_timeline" (historical rates)
 native_californians = "hawaiian_analogue"   # author decision 27 Oct 2026: disease without mass killing
 
 [extra_origin]
@@ -32,7 +33,7 @@ periods = [
 # 1.0 = the sheet as supplied.
 from = 1848
 to = 1860
-multiplier = 2.10   # solved: reaches 1.2m in 1861 (see flows.md, DEM-01)
+multiplier = 2.10   # solved: reaches 1.2m in 1861 (see flows.md, DEM-01). 1865 figure rises accordingly (author, 27 Oct 2026)
 
 [migration]
 # Age profile of arrivals: adults drawn from a normal curve (mean, sd) between

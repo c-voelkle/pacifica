@@ -46,3 +46,50 @@ tfr_status = "MODEL (no source in this version)"
 natural = [0.411, 0.460, 0.431, 0.396, 0.321, 0.167, 0.024]
 married = [0.35, 0.80, 0.90, 0.92, 0.92, 0.90, 0.90]
 source = "Coale & Trussell (1974), Population Index 40(2), as recalled: not re-read in this session (status: to verify). Marriage proportions MODEL."
+
+# ---------------------------------------------------------------------------
+# Canon rates (author decisions 27 Oct 2026). Used when [switches] rates_case = "canon".
+# Real-world benchmarks set the ceiling: Pacifica reaches the best levels any
+# population actually achieved in the period, not more.
+# ---------------------------------------------------------------------------
+
+[benchmark_new_zealand]
+# Highest life expectancy in the world in this period.
+years = [1876, 1881, 1886, 1891, 1896, 1901, 1906, 1911, 1916, 1921, 1926, 1931]
+e0    = [52.7, 56.4, 57.1, 58.1, 59.9, 59.9, 61.2, 63.2, 64.3, 64.3, 66.3, 67.8]
+source = "Pool & Cheung, New Zealand Population Review 29(2) 2003 and Genus 61(2) 2005, via Te Ara, 'Death rates and life expectancy' (data 47195)"
+status = "verified"
+
+[benchmark_canada]
+# Highest fertility among the settler societies (TFR, five-year periods placed at mid-period).
+years = [1902.5, 1907.5, 1912.5, 1917.5, 1922.5, 1927.5, 1932.5]
+tfr   = [4.03, 4.04, 3.99, 3.74, 3.39, 3.26, 3.04]
+source = "UN World Population Prospects / Our World in Data, via Wikipedia 'List of countries by past fertility rate'"
+status = "verified (secondary)"
+
+[pacifica]
+# Mortality: US white (Haines) until the Office of Public Measures and Victoria's measures
+# (1888, master storyline §21, §23), then converging to New Zealand's level by 1910 and
+# tracking it after. Fertility: US white until 1900, converging to Canada's level by 1915
+# and tracking it after (author: Pacifica becomes a really attractive place to live).
+e0_from = 1888
+e0_full = 1910
+tfr_from = 1900
+tfr_full = 1915
+
+[native_hawaiian_canon]
+# Our-timeline calibrated rates until Noe's health board (1886, §20); mortality then
+# converges to Pacifica's general level by `e0_full` (vaccination 1888-92, nurses and
+# clean water in the 1890s, §23); fertility converges by 1930. `e0_full` is solved so
+# the population turns upward about 1895, as canon states (§23).
+e0_from = 1886
+e0_full = 1912   # solved: the population bottoms out in 1895
+tfr_full = 1930
+
+[native_californian_canon]
+# Disease without mass killing (author): Hawaiian-analogue rates until `e0_from`, then
+# converging to Pacifica's general level by `e0_full`; fertility by 1930 (author: fair
+# treatment and better quality of life). Dates are MODEL: canon gives none.
+e0_from = 1870
+e0_full = 1900
+tfr_full = 1930
