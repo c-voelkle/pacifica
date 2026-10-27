@@ -57,7 +57,7 @@ class History(unittest.TestCase):
 class Canon(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.rows, cls.meta = canon.run("our_timeline")
+        cls.rows, cls.meta = canon.run("our_timeline", k_early=1.0)
 
     def test_gap_decomposition_adds_up(self):
         for r in self.rows:
@@ -84,11 +84,12 @@ class Flows(unittest.TestCase):
 
     def test_chain_starts_at_zero_and_adds_up(self):
         base = {r["year"]: r["model_total"] for r in self.ch["base"]}
-        full = {r["year"]: r["model_total"] for r in self.ch["full"]}
+        full = {r["year"]: r["model_total"] for r in self.ch["sheet_mig"]}
         sheet = self.ch["sheet"]
         # one year in, the closed 1846 population differs from the sheet's growth only by the
         # non-Native residents' age-structured natural increase: well under 1%
-        self.assertLess(abs(base[1847] / (sheet[1846]["start"] * (1 + sheet[1846]["ni_rate"])) - 1), 0.005)
+        same_rate = {r["year"]: r["model_total"] for r in canon.run("sheet_rate", joins=False, streams=())[0]}
+        self.assertLess(abs(same_rate[1847] / (sheet[1846]["start"] * (1 + sheet[1846]["ni_rate"])) - 1), 0.005)
         for y in (1870, 1900, 1932):
             parts = base[y] + (full[y] - base[y]) + (sheet[y - 1]["end"] - full[y])
             self.assertAlmostEqual(parts, sheet[y - 1]["end"], delta=1)

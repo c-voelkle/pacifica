@@ -4,11 +4,10 @@
 [switches]
 # Native Californians after 1846 — an OPEN canon question (master storyline,
 # unresolved items 4, 6, 7). Options:
-#   "sheet_rate"         grow with everyone at the People sheet's rate (what the sheet implies; the default
-#                        because it reconciles with the sheet — not an author decision)
+#   "sheet_rate"         grow with everyone at the People sheet's rate (what the sheet implies)
 #   "our_timeline"       follow the historical estimates: 150,000 (1848), 75-100,000 (1853), 30,000 (1870), 16,000 (1900)
 #   "hawaiian_analogue"  disease without mass killing: the calibrated Native Hawaiian rates
-native_californians = "sheet_rate"
+native_californians = "hawaiian_analogue"   # author decision 27 Oct 2026: disease without mass killing
 
 [extra_origin]
 # Origin of the People sheet's "extra arrivals drawn by Pacifica's lead" (skilled
@@ -18,10 +17,22 @@ native_californians = "sheet_rate"
 # implied split (its Asian guest-worker and talent stocks).
 mode = "shares"
 # [first year, americas_europe, japanese, chinese, filipino]
+# Author decision 27 Oct 2026: Japanese immigration predominates over Chinese also in
+# absolute terms, from redirected flows and from emigration increased by the alternate
+# timeline's circumstances (Japan open to Pacifica, closed elsewhere).
 periods = [
-  [1846, 0.75, 0.15, 0.10, 0.00],
-  [1914, 0.58, 0.22, 0.15, 0.05],
+  [1846, 0.70, 0.20, 0.10, 0.00],
+  [1914, 0.50, 0.32, 0.13, 0.05],
 ]
+
+[dem01]
+# DEM-01 (war_base_assumptions.md) tests about 1.2m in 1861; the author prefers it if
+# believable counterfactuals can carry it (27 Oct 2026). Scenario: the sheet's arrivals
+# from Americas & Europe and China in [from, to] are multiplied by `multiplier`.
+# 1.0 = the sheet as supplied.
+from = 1848
+to = 1860
+multiplier = 2.10   # solved: reaches 1.2m in 1861 (see flows.md, DEM-01)
 
 [migration]
 # Age profile of arrivals: adults drawn from a normal curve (mean, sd) between
