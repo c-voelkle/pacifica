@@ -1,8 +1,8 @@
 # Workbook revision, 27 October 2026: population, the Land Fund and a larger Events table
 
-`Pacifica_financial_model_1846-1932.xlsx` now carries the population change list (P1–P6) and a Land Fund sheet for draft CR-033. SHA-256: `f7462c1cb998dd3c4da917240e1f02d63604bdc9e9b51ef8ac16f670a98baeef`.
+`Pacifica_financial_model_1846-1932.xlsx` now carries the population change list (P1–P6) and a Land Fund sheet for draft CR-033. SHA-256: `6342b6c25301c50f7973c132549bbbac86fa1cc9e6cae76436574310454eefde` (sale price tied to land values; see below).
 
-The 23 October CR-031 workbook it replaces is in Git history, and [CR-031-review.md](CR-031-review.md) still describes that version. The edits are made by [`build/cr033_population_landfund.py`](build/cr033_population_landfund.py) from the 23 October file. They were recalculated in LibreOffice: 50,864 formulas, no errors.
+The 23 October CR-031 workbook it replaces is in Git history, and [CR-031-review.md](CR-031-review.md) still describes that version. The edits are made by [`build/cr033_population_landfund.py`](build/cr033_population_landfund.py) from the 23 October file. They were recalculated in LibreOffice: 51,127 formulas, no errors.
 
 Before editing, the unchanged workbook was recalculated in LibreOffice to check that it reproduces the author's saved Excel values. It reproduced all 63,415 numeric cells exactly. The results below therefore compare like with like.
 
@@ -23,17 +23,17 @@ Before editing, the unchanged workbook was recalculated in LibreOffice to check 
 
 | | 1865 | 1895 | 1918 | 1929 | 1932 |
 |---|---|---|---|---|---|
-| Residents, m (was) | 1.82 (1.22) | 7.24 (6.53) | 20.3 (17.6) | 29.9 (25.5) | 32.5 (27.3) |
+| Residents, m (was) | 1.82 (1.22) | 7.25 (6.53) | 20.4 (17.6) | 30.1 (25.5) | 32.6 (27.3) |
 | Asian-origin share (was) | 9.6% (7.6%) | 16.9% (14.6%) | 24.6% (17.2%) | 28.4% (19.4%) | 29.0% (20.0%) |
-| Core GDP, $bn (was) | 0.49 (0.34) | 2.90 (2.53) | 33.1 (27.9) | 61.4 (50.8) | 48.4 (39.5) |
-| GDP per resident vs the US (was) | 1.85 (1.93) | 1.98 (1.92) | 2.15 (2.07) | 2.32 (2.25) | 3.08 (2.98) |
-| Public debt, $m (was) | 13 (94) | 145 (126) | 1,653 (1,393) | 3,068 (2,539) | 2,612 (2,169) |
+| Core GDP, $bn (was) | 0.49 (0.34) | 2.91 (2.53) | 33.4 (27.9) | 61.9 (50.8) | 48.9 (39.5) |
+| GDP per resident vs the US (was) | 1.85 (1.93) | 1.99 (1.92) | 2.16 (2.07) | 2.34 (2.25) | 3.10 (2.98) |
+| Public debt, $m (was) | 13 (94) | 146 (126) | 1,668 (1,393) | 3,097 (2,539) | 2,634 (2,169) |
 
 Checks: 0 problems. The Stress case falls from 17 problems to 11. The private-saving failures of 1861–64, 1867, 1872 and 1920 disappear, and a new one appears in 1887.
 
 Three knock-on effects for the author:
 
-1. **More arrivals.** The workbook's own migration responds to size. Skilled-entry places are a share of residents, and relatives follow the talent stock. So the larger population draws more arrivals: 32.5m at the end of 1932, against the stand-alone model's 30.9m. CR-033 says "about 30 million".
+1. **More arrivals.** The workbook's own migration responds to size. Skilled-entry places are a share of residents, and relatives follow the talent stock. So the larger population draws more arrivals: 32.6m at the end of 1932, against the stand-alone model's 30.9m. CR-033 says "about 30 million".
 2. **The Civil War costs far less.** With half as many people again in the 1860s, the war years' receipts carry most of the war, and the debt in 1865 is $13m instead of $94m.
 3. **The economy is bigger, but output per head barely moves.** GDP rises about 20%, while output per resident against the US rises only slightly.
 
@@ -41,7 +41,7 @@ Three knock-on effects for the author:
 
 **The model.** The Republic buys, five years ahead of settlement, the farm land Pacifica needs beyond the old grants. Our timeline's California farm acreage from the census is the measure of that need: 21.6m acres by 1932. Prices and other inputs:
 - **Purchase:** 10¢ an acre, as twenty years of annuities in goods.
-- **Sale:** $1.25 an acre, the US public-land price, over five years, with 10% never paid.
+- **Sale:** settlers pay over five years, and 10% is never paid. The sale price follows land values (see below).
 - **Old grants:** 5% of the grant land is paid in for fast patents and sold.
 - **Homeland leases:** 30% of the 7.4m acres of homelands are leased by 1932 at 5¢ an acre, and the Republic keeps 10% of the rent.
 - **Survey:** 3¢ an acre.
@@ -50,25 +50,40 @@ Three knock-on effects for the author:
 
 Treaty prices, annuity terms and boundaries are OPEN in canon, so every number here is a lever.
 
+**The sale price follows land values** (author decision, 27 October 2026). It is the larger of a floor and a share of the census value of California farm land and buildings per acre in that year.
+- **The floor** is $1.25 an acre, the US public-land price across the border; from 1862 the Homestead Act gave land away free.
+- **The share** is 20%. Raw, unsurveyed land is worth a fraction of an average farm with its improvements and buildings, and the better districts go at auction.
+- **The resulting path:**
+
+  | Year | 1861 | 1870 | 1880 | 1890 | 1900 | 1920 |
+  |---|---|---|---|---|---|---|
+  | Sale price, $ an acre | 1.25 | 2.46 | 3.16 | 6.51 | 4.91 | 20.93 |
+
+  The average over all sales is $5.48.
+- **Earlier draft:** it used a flat $1.25 for the whole period, which ignored land values rising from $5.58 an acre in 1860 to $24.56 in 1900.
+
 | Case | Land Fund net, $m | Same, value in 1850 | Policy incl. police, $m | Same, value in 1850 | Policy back in credit, with interest | Margin ÷ assisted passage |
 |---|---|---|---|---|---|---|
-| Story | +21.9 | +4.2 | +11.4 | −0.9 | never | 11% |
-| Stress | +11.1 | +1.5 | −1.7 | −4.1 | never | 6% |
-| Price paid 50¢ | +13.5 | +2.8 | +3.0 | −2.4 | never | 7% |
-| Sale price $2.50 | +46.4 | +9.2 | +35.9 | +4.0 | 1879 | 22% |
-| Police doubled | +21.9 | +4.2 | +0.9 | −6.1 | never | 11% |
-| No police | +21.9 | +4.2 | +21.9 | +4.2 | 1857 | 11% |
+| Story (share 20%) | +97.9 | +12.5 | +87.4 | +7.3 | 1882 | 47% |
+| Stress (share 10%, floor $1, dearer purchases and police) | +38.8 | +3.3 | +26.0 | −2.3 | never | 21% |
+| Share 10% | +48.7 | +6.5 | +38.2 | +1.3 | 1896 | 24% |
+| Share 30% | +147.9 | +18.9 | +137.4 | +13.7 | 1877 | 72% |
+| Flat $1.25 (earlier draft) | +21.9 | +4.2 | +11.4 | −0.9 | never | 11% |
+| Price paid 50¢ | +89.5 | +11.0 | +79.0 | +5.9 | 1886 | 43% |
+| Police doubled | +97.9 | +12.5 | +76.9 | +2.2 | 1898 | 47% |
+| No police | +97.9 | +12.5 | +97.9 | +12.5 | 1857 | 47% |
 
 **Findings**
 
-- **The purchases pay for themselves.** The Land Fund is never in deficit and is back in credit by 1857. It nets about $22m by 1932 in the Story case and stays positive in every case tested. Cheap annuities spread over twenty years, against settlers' instalments, carry it. The cold side of the monopoly buyer (A17) is what makes the arithmetic work.
-- **The wider policy only breaks even.** The mounted police cost about $10.5m in 1852–90, mostly before the land sales arrive. Counting interest, the policy as a whole is roughly break-even and slightly negative: −$0.9m in 1850 money. It clearly pays only if the Republic sells nearer market value: at $2.50 an acre it is back in credit by 1879. California farm land was worth $5.58 an acre with buildings in 1860 and $12.30 in 1870. Our timeline's militia claims in the 1850s were $1.3m. So in direct cash the police cost more than the volunteer expeditions did, and "cheaper than war" holds only if canon's other reasons count: credit, clean title, the monopoly of force, and the Hawaiian partners.
-- **A18 overstates.** The land margin covers about 11% of assisted passage over 1852–1932 (6–22% across the cases), not all of it. CR-033's "the margin pays for assisted passage" would need to become "helps pay for".
+- **The purchases pay for themselves.** The Land Fund is never in deficit and is back in credit by 1857. It nets about $98m by 1932 in the Story case. Cheap annuities spread over twenty years, against sales at a rising price, carry it. The cold side of the monopoly buyer (A17) is what makes the arithmetic work.
+- **The whole policy pays too.** The police cost about $10.5m in 1852–90, mostly before the land sales arrive. Even so, the policy is +$7.3m in 1850 money and back in credit, with interest, by 1882. It stays positive at a 10% share, with the police doubled, and when paying five times as much for the land. It fails only in the Stress case, and with a flat $1.25 price.
+- **"Cheaper than war."** Our timeline's militia claims in the 1850s were $1.3m. In the 1850s the police cost more than those expeditions did, but over the period the land margin more than repays them.
+- **A18 is half true.** The margin covers about 47% of assisted passage over 1852–1932 (21–72% across the cases). "Helps pay for" is safer than "pays for".
 - **What the Land Fund doesn't model:** effects of clean titles on credit or output, the treaty commissions themselves, and police beyond the mining districts.
 
 ## Sources for the Land Fund inputs
 
-- California land in farms: [1920 Census of Agriculture bulletin, California](https://www2.census.gov/library/publications/decennial/1920/bulletins/agriculture/agriculture-ca.pdf) (1850–1920); [1959 Census of Agriculture, California, Table 1](https://agcensus.library.cornell.edu/wp-content/uploads/1959-California-CHAPTER_A_-_STATISTICS_FOR_THE_STATE-865-Table-01.pdf) (1925–1930).
+- California land in farms and average value of farm land and buildings per acre: [1920 Census of Agriculture bulletin, California](https://www2.census.gov/library/publications/decennial/1920/bulletins/agriculture/agriculture-ca.pdf) (1850–1920); [1959 Census of Agriculture, California, Table 1](https://agcensus.library.cornell.edu/wp-content/uploads/1959-California-CHAPTER_A_-_STATISTICS_FOR_THE_STATE-865-Table-01.pdf) (1925–1930).
 - 7.4m acres of treaty reservations, 1851–52: [Wikipedia, California Indian Reservations and Cessions](https://en.wikipedia.org/wiki/California_Indian_Reservations_and_Cessions).
 - 604 of 813 grant claims confirmed, average 17 years: [Wikipedia, California Land Act of 1851](https://en.wikipedia.org/wiki/California_Land_Act_of_1851). The 8.8m acres of confirmed grant land is a commonly cited figure, still to verify.
 - NWMP expenditure of $345,959 in 1877–78: [Tilley's budget speech, 3 March 1885](https://lop.parl.ca/staticfiles/ParlInfo/Documents/Budgets/En/1885-03-03.pdf); 300 men authorised in 1873: [Statistical Year-Book of Canada 1890](https://www66.statcan.gc.ca/eng/1890/189005280512_p.%20512.pdf).
