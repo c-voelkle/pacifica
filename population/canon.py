@@ -83,8 +83,18 @@ def male_share(stream: str, year: int) -> float:
 STREAMS = ("americas_europe", "chinese", "japanese", "filipino", "extra")
 
 
+def early_multiplier(y: int, override: float | None = None) -> float:
+    """DEM-01 scenario: the sheet's early arrivals scaled by a multiplier (assumptions [dem01])."""
+    s = load("assumptions").get("dem01", {})
+    k = override if override is not None else s.get("multiplier", 1.0)
+    return k if s.get("from", 0) <= y <= s.get("to", 0) else 1.0
+
+
 def migration_profiles(y: int, d: dict, prev: dict | None, lev: dict,
-                       streams: tuple[str, ...] = STREAMS) -> dict[str, tuple[list[float], list[float]]]:
+                       streams: tuple[str, ...] = STREAMS, k_early: float | None = None) -> dict[str, tuple[list[float], list[float]]]:
+    m = early_multiplier(y, k_early)
+    if m != 1.0:
+        d = dict(d, am_eu=d["am_eu"] * m, chinese=d["chinese"] * m)
     a = load("assumptions")["migration"]
     dep = lev["dep_asia"]
     assisted = d["assisted_share"]
@@ -196,7 +206,7 @@ def native_ca_switch() -> str:
 
 
 def run(native_ca_bound: str | None = None, joins: bool = True,
-        streams: tuple[str, ...] = STREAMS) -> tuple[list[dict], dict]:
+        streams: tuple[str, ...] = STREAMS, k_early: float | None = None) -> tuple[list[dict], dict]:
     """One cohort run. `joins` and `streams` switch the sheet's territory joins and
     migration streams on or off; the engine is linear in population, so the
     difference between two runs is exactly the contribution of what was switched."""
@@ -236,7 +246,7 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
             else:
                 pop["joined_territories"].add(*_stable(rates("white", y), d["join"], persp["joined_male_share"]))
         joined = {g: pop[g].total() for g in GROUPS}
-        migr = migration_profiles(y, d, prev, lev, streams)
+        migr = migration_profiles(y, d, prev, lev, streams, k_early)
         births = deaths = 0.0
         ni_by_group = {}
         for g in GROUPS:
@@ -305,9 +315,9 @@ def fmt(x: float) -> str:
 def main() -> int:
     OUT.mkdir(exist_ok=True)
     switch = native_ca_switch()
-    rows, meta = run()
+    rows, meta = run(k_early=1.0)   # the sheet's own migration, so the gap is natural increase only
     by = {r["year"]: r for r in rows}
-    bounds = {opt: {r["year"]: r for r in run(opt)[0]}
+    bounds = {opt: {r["year"]: r for r in run(opt, k_early=1.0)[0]}
               for opt in ("our_timeline", "hawaiian_analogue", "sheet_rate")}
 
     with open(OUT / "canon_by_year.csv", "w", newline="", encoding="utf-8") as f:
@@ -363,11 +373,11 @@ def main() -> int:
           "about 1895 (§23: Victoria's measures by Noe's method), so the sheet is inconsistent with canon here before 1895. "
           "The turn after 1895 is a canon divergence factor for the next step.", "",
           "### Native Californians", "",
-          "Reading of the sheet (to confirm): its 170,000 Californians in 1846 can only be a total that includes the Native "
-          f"population, estimated at about {fmt(load('census')['california']['native_estimate'][0])} in 1848; the model starts "
-          "Native Californians at that estimate and everyone else at the remainder. If the sheet meant non-Native residents only, "
-          "this section and about a third of the total gap change.", "",
-          "Canon leaves Indigenous claims and obligations OPEN. Two labelled bounds, against the sheet, which grows them with everyone:", "",
+          "The sheet's 170,000 Californians in 1846 include the Native population (author, 27 Oct 2026), estimated at "
+          f"about {fmt(load('census')['california']['native_estimate'][0])} in 1848; the model starts Native Californians at "
+          "that estimate and everyone else at the remainder.", "",
+          "Author decision (27 Oct 2026): disease without mass killing (Hawaiian-analogue rates). The sheet still grows them "
+          "with everyone; the alternatives stay visible for comparison:", "",
           "| Year | Our-timeline path | Hawaiian-analogue rates (disease without mass killing) | Sheet's rate |", "|---|---|---|---|"]
     for y in (1856, 1870, 1887, 1900, 1932):
         L.append(f"| {y} | " + " | ".join(fmt(bounds[o][y]["native_californian"])
