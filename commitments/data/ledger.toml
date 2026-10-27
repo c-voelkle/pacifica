@@ -1,0 +1,181 @@
+# Pacifica commitments ledger — political obligations kept like a debt register.
+#
+# Rules
+# - Record only what the storyline states. `quote` is copied verbatim from
+#   book-agent/revision/master_storyline.md (whitespace and curly quotes are
+#   normalised); `ledger.py check` fails if it is not there. Use `more_quotes`
+#   for further passages that state terms (renewals, ends, conditions).
+# - `status` is the storyline's label at the quote: CANON (unlabelled base text),
+#   APPROVED, PROPOSED, OPEN or MODEL. The checker compares it with the label in
+#   force at the quote (the last label before it in the same paragraph). Where
+#   that label's scope is misleading, keep the true status and say why in `label_note`.
+# - Never fill a gap: leave `until`, `renewals` or `can_end` out when canon does
+#   not state them, and note the gap in `open` instead.
+#
+# Fields of [[commitment]]
+#   id            "C-<year>-<SHORT>"
+#   name          as canon names it
+#   kind          treaty | convention | compact | lease | loan | guarantee | office |
+#                 charter | law | constitution | pact | concession | settlement | alliance
+#   parties       party ids (declared below)
+#   from          first year in force
+#   until         last year of a fixed term (term end), if canon states one
+#   term_years    the stated term, if any (must equal until − from)
+#   renewals      scheduled renewal or review years stated in canon
+#   ended         year canon ends it early, and `ended_by` (short text)
+#   lapses_on_death  person ids (canon_facts.toml or [[person]] below) whose death ends it
+#   holder        person id holding a life office or personal grant
+#   owes          [{by, to, what}]: who owes what to whom
+#   secured_on    for loans: the pledged revenues
+#   can_end       [{who, how}]: who can refuse, revoke, withdraw or must consent
+#   conditions    conditions stated in canon
+#   status, cr, section, quote, more_quotes, label_note, open
+
+# ---------------------------------------------------------------------------
+# Parties
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "PAC"
+name = "Pacifica (Republic of California 1846; Confederation 1856; Realm 1887)"
+
+[[party]]
+id = "HI"
+name = "Kingdom and crown of Hawaii"
+
+[[party]]
+id = "JP"
+name = "Japan"
+
+[[party]]
+id = "US"
+name = "The Union (United States)"
+
+[[party]]
+id = "CSA"
+name = "The Confederacy"
+
+[[party]]
+id = "GULF"
+name = "Gulf Republic"
+
+[[party]]
+id = "MX"
+name = "Mexico"
+
+[[party]]
+id = "UK"
+name = "Britain"
+
+[[party]]
+id = "LONDON"
+name = "London bondholders and lenders"
+
+[[party]]
+id = "ES"
+name = "Spain"
+
+[[party]]
+id = "PH"
+name = "The Philippines (dependency, then the Philippine crown)"
+
+[[party]]
+id = "SULU"
+name = "The Sultan of Sulu and the datus"
+
+[[party]]
+id = "CN"
+name = "China (Qing, then the Republic)"
+
+[[party]]
+id = "KR"
+name = "Korea"
+
+[[party]]
+id = "RU"
+name = "Russia"
+
+[[party]]
+id = "SIB"
+name = "Siberian Republic"
+
+[[party]]
+id = "DE"
+name = "Germany"
+
+[[party]]
+id = "FR"
+name = "France"
+
+[[party]]
+id = "VATICAN"
+name = "The Holy See"
+
+[[party]]
+id = "CROWN"
+name = "The Crown of Pacifica"
+
+[[party]]
+id = "ESTATES"
+name = "The chartered estates (Polytechnic, Office of Public Measures and others)"
+
+[[party]]
+id = "COUNTIES"
+name = "The counties of the Realm"
+
+# ---------------------------------------------------------------------------
+# People not in canon_facts.toml (deaths quoted from the storyline)
+# ---------------------------------------------------------------------------
+
+[[person]]
+id = "LOT"
+name = "Lot Kapuāiwa (Kamehameha V)"
+died = 1872
+quote = "Lot dies in December 1872 without a direct heir."
+
+[[person]]
+id = "ALEXANDER"
+name = "Alexander Liholiho (Kamehameha IV)"
+died = 1863
+quote = "When Alexander dies on 30 November 1863"
+
+# ---------------------------------------------------------------------------
+# Commitments (worked examples; the rest follow)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1874-PUULOA"
+name = "Puʻuloa Convention"
+kind = "lease"
+parties = ["HI", "PAC"]
+from = 1874
+until = 1924
+term_years = 50
+owes = [
+  { by = "HI", to = "PAC", what = "lease of Pearl Harbor and its shores; no Hawaiian land alienated" },
+  { by = "PAC", to = "HI", what = "common defence" },
+]
+can_end = [{ who = "HI", how = "the legislature ratified it narrowly; a lease, not a cession" }]
+status = "APPROVED"
+cr = "CR-027"
+section = 17
+quote = "In March 1874 she signs the Puʻuloa Convention: a fifty-year lease of Pearl Harbor and its shores to the Confederation and a treaty of common defence. It is a lease, not a cession; no Hawaiian land is alienated."
+open = "What happens at the 1924 term end is not stated in this entry's quote."
+
+[[commitment]]
+id = "C-1876-PH-LOAN"
+name = "Philippine Redemption Loan"
+kind = "loan"
+parties = ["PAC", "PH", "LONDON"]
+from = 1876
+owes = [
+  { by = "PH", to = "LONDON", what = "service of the loan from the Philippine customs" },
+  { by = "PAC", to = "LONDON", what = "the Confederation's guarantee" },
+  { by = "PAC", to = "PH", what = "service limited to the gain the islands make over their last Spanish years, published every year" },
+]
+secured_on = "Philippine customs"
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "A Philippine Redemption Loan, guaranteed by the Confederation and serviced from the Philippine customs, raises the price in London and San Francisco, and a covenant limits its service to the gain the islands make over their last Spanish years, published every year."
+open = "Term and final maturity not stated."

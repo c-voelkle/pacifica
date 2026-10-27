@@ -15,6 +15,7 @@ Apply the [shared authority and scope rules](../../../docs/authority-and-scope.m
 python3 population/historical.py   # our-timeline validation
 python3 population/canon.py        # canon run and reconciliation with the People sheet
 python3 population/flows.py        # chain from 1846 by source, and migration against US immigration
+python3 population/changes.py      # figures for the workbook change list (workbook_change_list.md)
 python3 -m unittest discover -s population/tests
 ```
 

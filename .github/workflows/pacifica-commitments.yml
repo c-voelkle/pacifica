@@ -1,0 +1,26 @@
+name: Pacifica — commitments ledger
+
+on:
+  pull_request:
+    paths:
+      - "commitments/**"
+      - "book-agent/revision/master_storyline.md"
+      - "book-agent/revision/canon_facts.toml"
+      - ".github/workflows/pacifica-commitments.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  commitments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check every ledger entry against the storyline
+        run: python commitments/ledger.py check
+      - name: Test the ledger
+        run: python -m unittest discover -s commitments/tests -v
