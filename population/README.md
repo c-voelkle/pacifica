@@ -52,7 +52,7 @@ All four start at zero in 1846. Our timeline on the same territory, from census 
 3. **DEM-01:** about 1.2m in 1861 is preferred, if believable counterfactuals carry it. The scenario multiplies the sheet's 1848–1860 arrivals from the Americas, Europe and China by 2.10 (`[dem01]`).
 4. **Japanese immigration predominates over Chinese in absolute terms.** This comes from redirected flows and from emigration increased by the alternate timeline's circumstances (`[extra_origin]`).
 
-### Counterfactuals the DEM-01 scenario rests on (candidate canon, to confirm)
+### Counterfactuals the DEM-01 scenario rests on (approved by the author, 27 October 2026)
 
 It needs roughly three times the settlement California gained in our timeline, mostly by keeping people who historically came and left. The candidates:
 
@@ -62,15 +62,31 @@ It needs roughly three times the settlement California gained in our timeline, m
 - **A Pacific-facing republic,** with Hawaii from 1856 and Pacific shipping, drawing arrivals from Australia and Chile directly.
 - **Americans keep moving west** to an independent but open California.
 
-The scenario overshoots DEM-01's second figure, 1.5m in 1865: the model has about 1.74m, because the sheet's 1862–65 joins and arrivals come on top. One of the two needs adjusting.
+DEM-01's 1865 figure rises to about 1.7m (author): the model reaches 1.74m, with the sheet's 1862–65 joins and arrivals on top of the larger 1861 base. These are approved as model assumptions; putting them into the storyline or historical background would go through a CR.
 
-## Next step: canon divergence factors
+### Later decisions (27 October 2026)
 
-The canon run uses our-timeline vital rates on purpose. Its gap to the People sheet is what the canon's own divergences must explain:
+5. **Generous growth after 1915:** Pacifica becomes a really attractive place to live.
+6. **Native populations grow after the initial dip:** fair treatment and a better quality of life than in our timeline.
 
-- Victoria's health measures and the Hawaiian turn after about 1895;
-- the women's and family programmes;
-- family migration from 1868 and 1907;
-- whatever the author decides for Native Californians.
+## Canon rates (`rates_case = "canon"`)
+
+Each group's vital rates follow a dated path, with real-world benchmarks as the ceiling. Pacifica reaches the best levels any population actually achieved in the period, not more.
+
+- **General population:**
+  - Mortality follows US white rates until 1888 (Office of Public Measures, §21; Victoria's measures, §23). It then converges to New Zealand's, the world's highest life expectancy, by 1910.
+  - Fertility follows US white rates until 1900, then converges to Canada's, the highest among settler societies, by 1915.
+- **Native Hawaiians:** calibrated historical rates until Noe's health board (1886, §20), then converging to the general level. The convergence date (1912) is solved so the population turns upward in 1895, as §23 states.
+- **Native Californians:** disease without mass killing until 1870, then converging to the general level by 1900. These dates are MODEL; canon gives none.
+
+`rates_case = "our_timeline"` restores historical rates for comparison.
+
+## Step 2 (remaining): canon divergence factors
+
+Done: health measures, the Hawaiian turn, Native recovery, general mortality and fertility. Still open:
+
+- the women's and family programmes as changes to migrant sex ratios (they now act only through the assisted share);
+- family migration from 1868 and 1907, beyond the migrant shares in `[migration]`;
+- group-specific rates for Asian residents, joined territories and Black residents (all on the general path now).
 
 Each becomes a dated, sourced change to a group's rates or migration profile, recorded in the data files with its canon reference.
