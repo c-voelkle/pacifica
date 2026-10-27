@@ -245,7 +245,7 @@ def if_dies(ledger: dict, person: str, year: int | None = None) -> dict[str, lis
 def describe(c: dict) -> str:
     owes = "; ".join(f"{o['by']} → {o['to']}: {o['what']}" for o in c.get("owes", []))
     ends = "; ".join(f"{e['who']}: {e['how']}" for e in c.get("can_end", []))
-    span = f"{c['from']}–{c.get('until') or c.get('ended') or ''}"
+    span = f"{'c.' if c.get('from_approx') else ''}{c['from']}–{c.get('until') or c.get('ended') or ''}"
     parts = [f"**{c['name']}** ({c['kind']}, {span}, §{c['section']}, {c['status']}"
              + (f", {c['cr']}" if c.get("cr") else "") + ")"]
     if owes:

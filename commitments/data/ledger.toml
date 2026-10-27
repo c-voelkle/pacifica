@@ -19,6 +19,8 @@
 #                 charter | law | constitution | pact | concession | settlement | alliance
 #   parties       party ids (declared below)
 #   from          first year in force
+#   from_approx   true when canon gives no year and `from` is the year of the passage that
+#                 first states the commitment (say so in `open`)
 #   until         last year of a fixed term (term end), if canon states one
 #   term_years    the stated term, if any (must equal until − from)
 #   renewals      scheduled renewal or review years stated in canon

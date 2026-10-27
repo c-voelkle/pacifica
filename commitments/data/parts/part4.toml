@@ -155,7 +155,6 @@ more_quotes = [
   "The crash halts further construction; the Union joins the limits in 1932.",
   "The Union accepts a naval ratio below the common fleet and Britain",
 ]
-label_note = ""
 open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated."
 
 [[commitment]]
@@ -291,7 +290,6 @@ more_quotes = [
   "It gives up the old San Francisco claims to Wrangel Island and the De Long islands",
   "Russia retains the northern coast until 1921.",
 ]
-label_note = ""
 open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031). Signatories other than Moscow are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Fortification freeze remains OPEN-031-11."
 
 [[commitment]]
@@ -501,7 +499,8 @@ can_end = [
   { who = "PAC", how = "the Senate refused the treaty; provisional application is illegal in substance until consent" },
   { who = "JP", how = "Japan's side follows Japanese law and can lapse if Pacifica never obtains consent" },
 ]
-status = "CANON"
+status = "APPROVED"
+cr = "CR-022"
 section = 33
 quote = "Julian claims provisional application under the treaty prerogative pending consent, though the Senate has already refused."
 more_quotes = [
