@@ -1,6 +1,6 @@
 # CR-034 (draft) — From the secret find to a destination, and the Polytechnic's first decade
 
-**Status:** PROPOSED draft, 27 October 2026; first revision, with one fresh-context review applied. Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Status:** PROPOSED draft, 27 October 2026; second revision, with the author's answers to the open choices. One fresh-context review was applied to the first revision. Not adopted: no storyline, register, character or workbook file is changed by this draft.
 **Basis:** author decisions and brainstorm of 27 October 2026. Builds on CR-028 (the October 1847 find and the Monterey silence) and draft CR-033 (settlement, titles, Native policy, about 1.2 million people in 1861).
 
 ## Author decisions
@@ -21,6 +21,8 @@ It names the strongest early achievements:
 - steam-engine design validated in working installations;
 - Hallidie's wire rope;
 - Ericsson's arrival about 1855, strengthening an institution already running.
+
+> 1 approved, 2 approved for 1861, smart kids welcome, 3, yes name it, 4 approved. Bank rescue is also approved.
 
 > I would like the prestige discovery to be moved even earlier, so that Pacifica can be established as a prestigious and serious player before the war breaks out. 1858 or so would be good. Zeuner can become a recruiter based in Freiberg after 1871.
 
@@ -62,17 +64,18 @@ Status: **C** means existing canon, and **28** or **33** means the passage comes
 | A2 | The six phases in the spine above: suspicion, secret and silence, controlled opening, the rush under law, from rush to settlement, a destination. | PROPOSED |
 | A3 | §4's "only five people" becomes "only seven people". §5 names seven who know: four finders and Pico, Castro and Alvarado. §5's "A mint and assay office opens in San Francisco in 1850" becomes "A mint opens in San Francisco in 1850 beside the State Assay Office": the assay office already exists from the decree (§5, first paragraph). | PROPOSED (consistency) |
 | A4 | The controlled opening:<br>• Polk's December 1848 message names the Republic.<br>• Ships and passengers are registered at San Francisco.<br>• Deserters from the American squadron are the first quarrel under the 1848 convention: it obliges their return, and the sheriffs find few. | PROPOSED |
-| A5 | From rush to settlement (1852–1856):<br>• Assisted passage of women and families begins in 1852, filling the gap behind §15's "extends".<br>• The Republic holds miners against Victoria's 1851 rush with titles.<br>• Hydraulic and quartz mining turn miners into wage-earners and shareholders.<br>• The mint's bullion and public credit carry the solvent houses through the February 1855 panic, so the Republic's money keeps its value and emigrant guides say so. | PROPOSED |
+| A5 | From rush to settlement (1852–1856):<br>• Assisted passage of women and families begins in 1852, filling the gap behind §15's "extends".<br>• The Republic holds miners against Victoria's 1851 rush with titles.<br>• Hydraulic and quartz mining turn miners into wage-earners and shareholders.<br>• The mint's bullion and public credit carry the solvent houses through the February 1855 panic, so the Republic's money keeps its value and emigrant guides say so (approved by the author).<br>• The Republic counts about 350,000 people in 1850 and nearly 900,000 in 1856 (MODEL, approved for the prose). | PROPOSED; bank rescue APPROVED (author) |
 | A6 | The Polytechnic's nucleus:<br>• It begins as the Carquinez assay room of the secret winter, where Elias works alone.<br>• It becomes the State Assay Office at San Francisco with the 1848 decree, because a royalty is only as good as the assay behind it.<br>• Genth's laboratory moves to Carquinez as a school in 1852, separate from the army's academy at Monterey, paid from assay fees and a share of the royalty. | APPROVED direction (author); details PROPOSED |
 | A7 | The first state examination is the assayers' examination of 1849. It is the root of the examination state (§19) and of the Polytechnic's examinations in 1887 (§24). | PROPOSED |
-| A8 | Independence shown by unfavourable findings:<br>• 1850: a private mint favoured by the merchants is found underweight, and the result is published.<br>• 1853: the Superintendency's own quartz mill is shown to lose its sulphide gold, and the report is printed. | APPROVED direction (author); episodes PROPOSED |
+| A8 | Independence shown by unfavourable findings:<br>• 1850: the ten-dollar pieces of the Miners' Bank of San Francisco, which merchants had taken at face value, are found underweight, and the result is published.<br>• 1853: the Superintendency's own quartz mill is shown to lose its sulphide gold, and the report is printed. | APPROVED direction (author); episodes PROPOSED |
 | A9 | Genth: commissioned analyses after August 1850; arrives in 1851 on the author's terms. | APPROVED direction (author) |
 | A10 | Zeuner:<br>• He comes in 1854 on Weisbach's recommendation; his teaching ban in Saxony after the 1849 rising is the opening.<br>• He builds the engineering course.<br>• He stays through the 1862 amnesty.<br>• In 1871 he directs Freiberg and recruits for Pacifica. | APPROVED direction (author); 1862 PROPOSED |
 | A11 | Hallidie arrives in 1852. His Horse Shoe Bar bridge (1855) and first wire rope (1856) are tested at the laboratory. | PROPOSED |
 | A12 | **The prestige year is 1858.**<br>• Zeuner's slide-valve method, worked out on Ericsson's engines (historically published 1858); it will set the valves of the harbor-defense engines.<br>• Genth's identification of a gold telluride from Carson Hill and its treatment by roasting and chlorine, which makes the Superintendency's own mill, shamed in 1853, pay its royalty. Historically the ore was first obtained in 1861 and described in 1868, so moving it to 1858 is a divergence of three and ten years.<br>Freiberg's journals carry both. | APPROVED direction (author, "1858 or so"); content PROPOSED |
-| A13 | 1859–1860: a Republic-licensed assayer makes the first assay of Washoe ore at Nevada City; Europe applies for places; the Kanrin Maru's engineers visit Carquinez and ask that Japanese students be admitted to the school as well as the yards; the name "Polytechnic" by 1860. | PROPOSED |
+| A13 | 1859–1860: James J. Ott, an assayer the Republic licensed, makes the first assay of Washoe ore at Nevada City; Europe applies for places; the Kanrin Maru's engineers visit Carquinez and ask that Japanese students be admitted to the school as well as the yards; the name "Polytechnic" by 1860. | PROPOSED |
 | A14 | The money comes out of the workbook's existing technical programmes ($0.7m in 1850, $2.2m in 1860), so no workbook change is needed. | MODEL |
-| A15 | Names and places of the Polytechnic, in order:<br>• assay room (Carquinez, 1847);<br>• State Assay Office (San Francisco, 1848);<br>• laboratory and school (Carquinez, 1852);<br>• the Polytechnic (by 1860);<br>• chartered estate (1887). | PROPOSED (assistant's default; author's choice) |
+| A15 | Names and places of the Polytechnic, in order:<br>• assay room (Carquinez, 1847);<br>• State Assay Office (San Francisco, 1848);<br>• laboratory and school (Carquinez, 1852);<br>• the Polytechnic (by 1860);<br>• chartered estate (1887). | APPROVED (author) |
+| A16 | Rafael Soberanes, born in Monterey in 1847, enters the Polytechnic in 1861 at fourteen. The school takes clever children who pass its entrance examination, whatever their family. | APPROVED (author: "approved for 1861, smart kids welcome") |
 
 ## Proposed storyline text
 
@@ -88,21 +91,21 @@ Each change is shown with the existing passage it follows or replaces, quoted ex
 
 ### §5, after the paragraph ending "…separate from public gold, public debt and the nation's annual mineral production." (A6–A9)
 
-> **[PROPOSED — CR-034]** The assay office is older than the mint. It began in the secret winter as the room at Carquinez where Elias tested the Mokelumne samples alone, and it keeps the government's rule from those months: silence, but no lies. With the decree it moves to San Francisco as the State Assay Office, because a royalty is only as good as the assay behind it. From 1849 no one may sign an assay for the Republic without passing its examination, the first the state sets. In 1850 the office finds the coins of a private mint favored by the merchants underweight, and Elias publishes the result over their protests. Frederick Genth, back in Philadelphia that summer from a failed mine in North Carolina, analyses Californian ores on commission. In 1851 he accepts the Republic's offer: a laboratory, assistants, a salary that does not depend on clients, the right to publish and time for his own chemistry.
+> **[PROPOSED — CR-034]** The assay office is older than the mint. It began in the secret winter as the room at Carquinez where Elias tested the Mokelumne samples alone, and it keeps the government's rule from those months: silence, but no lies. With the decree it moves to San Francisco as the State Assay Office, because a royalty is only as good as the assay behind it. From 1849 no one may sign an assay for the Republic without passing its examination, the first the state sets. In 1850 the office finds the ten-dollar pieces of the Miners' Bank of San Francisco underweight, coins the merchants have been taking at face value, and Elias publishes the result over their protests. Frederick Genth, back in Philadelphia that summer from a failed mine in North Carolina, analyses Californian ores on commission. In 1851 he accepts the Republic's offer: a laboratory, assistants, a salary that does not depend on clients, the right to publish and time for his own chemistry.
 
 ### §8, after the paragraph ending "…banking arrangements and the scale of the difference from historical eastern access." (A5)
 
-> **[PROPOSED — CR-034]** The rush becomes a settlement in the years when it could have ended. Since the Australian strikes of 1851 many diggers have sailed home. Most of the others stay, because a claim, a town lot or a farm in California now comes with a registered title, and from 1852 the Superintendency pays the passage of women and of whole families; the same year twenty thousand Chinese land at San Francisco. By 1853 the easy gold is gone. Water companies turn hoses on the old river gravels, quartz companies sink shafts at Grass Valley, and the men who remain become wage-earners, mechanics and shareholders. In February 1855 the failure of Page, Bacon's parent house in St. Louis brings down San Francisco's leading bank and two hundred firms with it. The mint's bullion and the Superintendency's credit carry the solvent houses through, and the Republic's money keeps its value. Emigrant guides in New York, Hamburg and Canton begin to say so.
+> **[PROPOSED — CR-034]** The rush becomes a settlement in the years when it could have ended. Since the Australian strikes of 1851 many diggers have sailed home. Most of the others stay, because a claim, a town lot or a farm in California now comes with a registered title, and from 1852 the Superintendency pays the passage of women and of whole families; the same year twenty thousand Chinese land at San Francisco. By 1853 the easy gold is gone. Water companies turn hoses on the old river gravels, quartz companies sink shafts at Grass Valley, and the men who remain become wage-earners, mechanics and shareholders. In February 1855 the failure of Page, Bacon's parent house in St. Louis brings down San Francisco's leading bank and two hundred firms with it. The mint's bullion and the Superintendency's credit carry the solvent houses through, and the Republic's money keeps its value. Emigrant guides in New York, Hamburg and Canton begin to say so. The Republic, about 350,000 people in 1850, counts nearly 900,000 by 1856 **[MODEL]**.
 
 ### §8, after the paragraph ending "…**[OPEN]** Facilities, budgets, suppliers, armament, dimensions and construction schedule." (A8, A10–A13, A15)
 
 > **[PROPOSED — CR-034]** In 1852 Genth's laboratory moves to Carquinez and becomes a school beside the foundries, separate from the army's academy at Monterey. In 1853 Genth reports that the Superintendency's own quartz mill loses most of the gold locked in sulphides, and Elias prints the report. Gustav Zeuner fought on the Dresden barricades in 1849 and is barred from teaching in Saxony. He comes in 1854 on the word of his teacher Julius Weisbach to build the engineering course: mathematics first, then the testing floor and the works. He measures the water the hydraulic companies buy by the miner's inch and the debris they wash into the rivers, and he tests the engines Ericsson builds at the foundries. Andrew Hallidie, who came as a boy in 1852, brings his wire bridges and the first wire rope for the quartz mills to its testing machine.
 
-> **[PROPOSED — CR-034]** In 1858 the school publishes two results that travel. Zeuner's method for slide-valve gear, worked out on Ericsson's engines, will set the valves of the harbor-defense engines. Genth, analysing quartz from Carson Hill, identifies a gold telluride that ordinary milling cannot touch and shows that roasting and chlorine recover it, and the Superintendency's mill that he shamed in 1853 now pays its royalty. Freiberg's journals carry both. By 1860 the school calls itself the Polytechnic, students apply from Europe, and engineers who have never seen the Pacific know where Carquinez is. **[OPEN]** Contracts, salaries, buildings and the order of later appointments.
+> **[PROPOSED — CR-034]** In 1858 the school publishes two results that travel. Zeuner's method for slide-valve gear, worked out on Ericsson's engines, will set the valves of the harbor-defense engines. Genth, analysing quartz from Carson Hill, identifies a gold telluride that ordinary milling cannot touch and shows that roasting and chlorine recover it, and the Superintendency's mill that he shamed in 1853 now pays its royalty. Freiberg's journals carry both. By 1860 the school calls itself the Polytechnic, students apply from Europe, and engineers who have never seen the Pacific know where Carquinez is. It takes clever children at fourteen if they pass its examination, whatever their family; in 1861 one of them is Rafael Soberanes of Monterey. **[OPEN]** Contracts, salaries, buildings and the order of later appointments.
 
 ### §8, after the paragraph ending "…One group of miners demands annexation to Pacifica; others prefer an American territorial government." (A13)
 
-> **[PROPOSED — CR-034]** The first assay of the Washoe ore is made at Nevada City by an assayer the Republic licensed, and San Francisco's money moves before Washington's officials arrive.
+> **[PROPOSED — CR-034]** The first assay of the Washoe ore is made at Nevada City by James J. Ott, an assayer the Republic licensed, and San Francisco's money moves before Washington's officials arrive.
 
 ### §7, after the paragraph ending "…This restraint preserves the independence of the two powers even as their fortunes become increasingly interconnected." (A13)
 
@@ -144,7 +147,7 @@ The first find stays dated as canon has it (A1), and the linter will flag any pa
   - Canon has the Comstock "on the American side" with San Francisco's capital, and the Kanrin Maru in March 1860.
   - The military academy at Monterey (1852) stays separate from the Polytechnic at Carquinez.
   - The Polytechnic's 1887 charter, its examinations and its 1870s leadership (§19, §24) follow from A6–A7.
-- **Character documents** (on adoption):
+- **Character documents** (on adoption): Soberanes's entry gains his 1861 entry to the Polytechnic (A16), consistent with "earns the authority … through service rather than descent" (§16).
   - Add Frederick Augustus Genth and Gustav Zeuner as historical figures. Julius Weisbach is offstage.
   - Hallidie's arrival (1852) settles part of §8's **[OPEN]** list.
   - Run `validate_character_docs.py`.
@@ -162,7 +165,8 @@ The first find stays dated as canon has it (A1), and the linter will flag any pa
   - Zeuner: the 1849 barricades and the Saxon teaching ban; *Der Civilingenieur* (1853); Zürich (1855); his slide-valve work (1858); *Grundzüge der mechanischen Wärmetheorie* (1860); the 1862 amnesty; director at Freiberg (1871);
   - Hallidie: Horse Shoe Bar bridge (1855), wire rope at American Bar (1856);
   - Plattner's chlorination at Freiberg, and Deetken's introduction in California (year to verify).
-- **Not verified yet:** which 1849–50 private coinages were underweight (the prose names none); the year Deetken introduced chlorination; Sacramento River boiler explosions (left out of the prose).
+- **Verified:** the Miners' Bank of San Francisco's ten-dollar pieces of 1849 were known as underweight and not always accepted at face value ([ANA, 'Golden California: the era of private coinage'](https://www.money.org/tales-from-the-vault-golden-california-the-era-of-private-coinage/)). Our timeline had no public assay to prove it; in Pacifica the State Assay Office does.
+- **Not verified yet:** the year Deetken introduced chlorination; Sacramento River boiler explosions (left out of the prose).
 - **Review:** linter and fact preview are clean. One fresh-context review was run on the storyline text and spine. Its findings, all acted on:
   - the secret's count (no assistants in the secret winter);
   - the assay office "opening" twice;
@@ -177,8 +181,11 @@ The first find stays dated as canon has it (A1), and the linter will flag any pa
 
 ## Open choices for the author
 
-- A15's names and places, which are the assistant's default.
-- Whether Rafael Soberanes, born in Monterey in 1847, is among the Polytechnic's first Californio pupils around 1860. It would root his later leadership of the Polytechnic, but the character documents would need it.
-- Whether to name the private mint of 1850, or the licensed assayer of 1859 (historically James J. Ott).
-- Whether the first Japanese students stay from the Kanrin Maru, or come under the Treaty of Edo.
-- Population figures in prose: canon gives 1.2 million in 1861 (CR-033). The model's 1850 (about 350,000) and 1856 (about 880,000) could also appear.
+Resolved on 27 October 2026:
+- names and places (A15) — approved;
+- Soberanes as a pupil from 1861 (A16) — approved;
+- the 1850 mint (the Miners' Bank) and the 1859 assayer (Ott) — named;
+- population figures in prose — approved;
+- the 1855 rescue — approved.
+
+Still open: whether the first Japanese students come from the Kanrin Maru or under the Treaty of Edo.
