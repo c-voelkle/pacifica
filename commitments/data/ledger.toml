@@ -142,11 +142,12 @@ died = 1863
 quote = "When Alexander dies on 30 November 1863"
 
 # ---------------------------------------------------------------------------
-# Commitments (worked examples; the rest follow)
+# Commitments: worked examples, then the storyline in order
 # ---------------------------------------------------------------------------
 
 [[commitment]]
 id = "C-1874-PUULOA"
+open = "The fifty-year term ends in 1924. The storyline never says whether the lease is renewed, replaced or lapses, though the fleet base at Pearl Harbor continues after 1924."
 name = "Puʻuloa Convention"
 kind = "lease"
 parties = ["HI", "PAC"]
@@ -162,10 +163,12 @@ status = "APPROVED"
 cr = "CR-027"
 section = 17
 quote = "In March 1874 she signs the Puʻuloa Convention: a fifty-year lease of Pearl Harbor and its shores to the Confederation and a treaty of common defence. It is a lease, not a cession; no Hawaiian land is alienated."
-open = "What happens at the 1924 term end is not stated in this entry's quote."
 
 [[commitment]]
 id = "C-1876-PH-LOAN"
+more_quotes = [
+  "The Realm takes over what remains of the Redemption Loan, about $9.",
+]
 name = "Philippine Redemption Loan"
 kind = "loan"
 parties = ["PAC", "PH", "LONDON"]
@@ -181,3 +184,3216 @@ cr = "CR-029"
 section = 15
 quote = "A Philippine Redemption Loan, guaranteed by the Confederation and serviced from the Philippine customs, raises the price in London and San Francisco, and a covenant limits its service to the gain the islands make over their last Spanish years, published every year."
 open = "Term and final maturity not stated."
+
+# ---------------------------------------------------------------------------
+# Part 1: storyline §1–§12
+# ---------------------------------------------------------------------------
+
+# Commitments ledger — part 1: master_storyline.md Part I and II (§1–§12, lines 55–344).
+# Format and rules: see the header of commitments/data/ledger.toml.
+
+# ---------------------------------------------------------------------------
+# Parties added in this part
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "CAL"
+name = "State of California as a member of the Confederation (member government and legislature, from 1856)"
+
+[[party]]
+id = "SUISUN"
+name = "Suisun people under Sem-Yeto (Solano)"
+
+[[party]]
+id = "MIWOK"
+name = "The Miwok guide's people"
+
+[[party]]
+id = "DESERET"
+name = "Deseret (Mormon Salt Lake state)"
+
+[[party]]
+id = "NAVAJO"
+name = "The Navajo (Diné) nation"
+
+[[party]]
+id = "APACHE"
+name = "The Apache peoples"
+
+# ---------------------------------------------------------------------------
+# Part I — Republic of California (1846–1855)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1846-FOUNDING"
+name = "Founding settlement of the República de California"
+kind = "constitution"
+parties = ["PAC"]
+from = 1846
+conditions = [
+  "English and Spanish have constitutional standing in legislation, courts and public administration",
+  "citizenship and eligibility for civil employment rest on defined civic qualifications, not language, ancestry or conversion",
+  "religious liberty protects public worship alongside Catholic institutions",
+  "bill of rights: representative government, jury trial, habeas corpus, due process, protection against arbitrary seizure",
+  "existing laws continue where consistent: prohibition of slavery, vested property rights, mining rules (the 1783 Mining Ordinances)",
+]
+status = "CANON"
+section = 4
+quote = "The founding settlement gives English and Spanish constitutional standing in legislation, courts and public administration."
+more_quotes = [
+  "A bill of rights guarantees representative government, jury trial, habeas corpus, due process and protection against arbitrary seizure.",
+  "Existing laws continue where consistent with that settlement, including the prohibition of slavery, vested property rights and mining rules awaiting legislative adaptation.",
+  "The republic publicly administers claims under laws inherited from the Spanish and Mexican mining regime, including the 1783 Mining Ordinances, continued in force by the founding constitution.",
+]
+open = "Exact franchise and naturalization rules are **[OPEN]** in canon; amendment procedure not stated. Replaced or revised by the 1852 Monterey convention to an extent not stated."
+
+[[commitment]]
+id = "C-1846-SOLANO"
+name = "Separate compact with Solano (Sem-Yeto)"
+kind = "compact"
+parties = ["PAC", "SUISUN"]
+from = 1846
+status = "CANON"
+section = 4
+quote = "Solano signs or marks a separate compact as an allied chief rather than acquiring a fictitious mandate to speak for every Indigenous people."
+more_quotes = [
+  "Sem-Yeto, known as Solano, negotiates on behalf of Suisun interests that include recognition of territorial and political authority, not ceremonial admission to a settler republic.",
+]
+open = "Terms of the compact are not stated; §3 states only what Solano sought (recognition of territorial and political authority). Duration and end not stated."
+
+[[commitment]]
+id = "C-1846-STANDSTILL"
+name = "Naval standstill with Stockton"
+kind = "convention"
+parties = ["PAC", "US"]
+from = 1846
+owes = [
+  { by = "PAC", to = "US", what = "American vessels may provision in Californian ports for operations against Mexico" },
+  { by = "US", to = "PAC", what = "American vessels may not seize Californian ports" },
+]
+status = "CANON"
+section = 4
+quote = "When Robert F. Stockton replaces Sloat, Elias helps negotiate a naval standstill. American vessels may provision in Californian ports for operations against Mexico but may not seize them."
+more_quotes = [
+  "The standstill is put in writing until Washington replies, and Stockton adheres for the squadron.",
+  "Polk orders his commodore to observe the Cahuenga arrangements and sends Stevenson's New York regiment, already at sea for San Francisco, on to Mazatlán and La Paz. He calls it a suspension.",
+]
+open = "Put in writing at Cahuenga (1847, PROPOSED) 'until Washington replies'; whether the 1848 Buchanan–Vallejo Convention supersedes it is not stated."
+
+[[commitment]]
+id = "C-1847-CAHUENGA"
+name = "Cahuenga terms"
+kind = "convention"
+parties = ["PAC", "US"]
+from = 1847
+owes = [
+  { by = "PAC", to = "US", what = "Frémont's battalion leaves the country; Kearny's paroled survivors embark at San Diego; amnesty for Bear Flag men who are American citizens" },
+  { by = "US", to = "PAC", what = "the naval standstill, in writing, until Washington replies; Stockton adheres for the squadron" },
+  { by = "PAC", to = "US", what = "exchange of prisoners" },
+]
+conditions = ["Frémont signs on his own authority, cut off; Kearny does not accept it"]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "At Cahuenga on 13 January 1847, Frémont, cut off and acting on his own authority, signs terms with Andrés Pico to get his battalion out of the country."
+more_quotes = [
+  "Kearny's paroled survivors embark at San Diego, prisoners are exchanged, and Bear Flag men who are American citizens receive an amnesty that Californios who lost men at Olompali do not forgive.",
+  "The Mormon Battalion, arriving at San Diego after San Pasqual, is interned under the Cahuenga terms and then released to march to the Salt Lake; some of its men work a season at Carquinez first.",
+  "Polk orders his commodore to observe the Cahuenga arrangements",
+]
+open = "Ends 'until Washington replies'; no year of ending stated. The 1848 convention closes 'the claims of 1846 by amnesty and a mixed commission' but is not said to replace Cahuenga."
+
+[[commitment]]
+id = "C-1847-MIWOK"
+name = "Elias's promise to the Miwok guide"
+kind = "pact"
+parties = ["PAC", "MIWOK"]
+from = 1847
+owes = [
+  { by = "MIWOK", to = "PAC", what = "the guide keeps the secret of the October 1847 gold find" },
+  { by = "PAC", to = "MIWOK", what = "Elias's promise that the Republic will protect a homeland for his people when the miners come" },
+]
+status = "PROPOSED"
+cr = "CR-028"
+section = 5
+quote = "The guide keeps the secret for a price: Elias's promise that the Republic will protect a homeland for his people when the miners come."
+open = "A personal promise by Elias; whether the Republic ever ratifies or honours it, and where the homeland is, are not stated."
+
+[[commitment]]
+id = "C-1847-QUERETARO"
+name = "Convention of Querétaro"
+kind = "convention"
+parties = ["MX", "PAC", "LONDON"]
+from = 1847
+owes = [
+  { by = "MX", to = "PAC", what = "recognition of California" },
+  { by = "PAC", to = "MX", what = "assumption of about £3 million of Mexican obligations to London bondholders (see C-1847-LONDON-DEBT)" },
+  { by = "PAC", to = "MX", what = "guarantee of Mexican citizens' property and the Church's" },
+  { by = "PAC", to = "MX", what = "pledge never to cede itself or its territory to any power" },
+]
+can_end = [{ who = "LONDON", how = "the bondholders' consent is sought (Hartnell carries the convention to London)" }]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "In the **Convention of Querétaro** of December 1847, Mexico recognizes California."
+more_quotes = [
+  "The convention also guarantees Mexican citizens' property and the Church's, and pledges never to cede itself or its territory to any power.",
+  "William Hartnell carries the convention to London for the bondholders' consent.",
+  "Buchanan asks for an accession clause, and Vallejo refuses, citing Querétaro.",
+]
+open = "Whether and when the bondholders consent is not stated. No term; the non-cession pledge is unlimited in time. How the 1856 Confederation squares with 'never to cede itself' is not addressed."
+
+[[commitment]]
+id = "C-1847-LONDON-DEBT"
+name = "Assumed Mexican debt to the London bondholders"
+kind = "loan"
+parties = ["PAC", "LONDON", "MX"]
+from = 1847
+owes = [
+  { by = "PAC", to = "LONDON", what = "service of about £3 million of Mexican obligations assumed under Querétaro" },
+]
+secured_on = "customs and prospective mining revenue (later stated as gold royalties and San Francisco customs)"
+conditions = ["the bonds of Mexico's 1846 conversion carry no land rights; California buys no territory from them"]
+can_end = [{ who = "LONDON", how = "the bondholders' consent to the convention is sought" }]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "In return California assumes approximately **£3 million of Mexican obligations to London bondholders**, secured against customs and prospective mining revenue."
+more_quotes = [
+  "Elias pledges royalties from a find that only five people in the world know of, and he says nothing false: the mines, he tells the Mexican foreign minister, are California's hope.",
+  "The precise valuation, creditor arrangements and amortization remain matters of financial modeling.",
+  "The republic's mining revenue finances infrastructure, but its debt to London remains. British bondholders hold claims secured by gold royalties and San Francisco customs.",
+  "Britain refuses to support a war of Californian expansion, and the London bondholders warn that their credit was not extended to finance such adventures.",
+]
+open = "Valuation, interest, amortization and maturity not stated (left to financial modelling)."
+
+[[commitment]]
+id = "C-1848-GUADALUPE"
+name = "Treaty of Guadalupe Hidalgo (alternate)"
+kind = "treaty"
+parties = ["US", "MX"]
+from = 1848
+owes = [
+  { by = "MX", to = "US", what = "cession of New Mexico, the Great Basin and the Rio Grande line" },
+  { by = "US", to = "PAC", what = "respect for California's frontier as Mexico has recognized it" },
+]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "The treaty he signs at Guadalupe Hidalgo on 2 February 1848 cedes New Mexico, the Great Basin and the Rio Grande line, and binds the United States to respect California's frontier as Mexico has recognized it."
+more_quotes = ["The Senate ratifies both on 10 March."]
+open = "No term stated; the effect of the 1861–1865 war and the 1865/1867 Western line on this obligation is not stated."
+
+[[commitment]]
+id = "C-1848-BV"
+name = "Buchanan–Vallejo Convention"
+kind = "convention"
+parties = ["PAC", "US"]
+from = 1848
+owes = [
+  { by = "PAC", to = "US", what = "never to cede, lease or place under protection any part of its territory to a European power" },
+  { by = "PAC", to = "US", what = "San Francisco, Monterey and San Diego open to American warships" },
+  { by = "PAC", to = "US", what = "California's ports closed to the enemies of the United States in its wars" },
+  { by = "PAC", to = "US", what = "return of deserters from American warships" },
+  { by = "PAC", to = "US", what = "renunciation of the Great Basin pending a boundary commission" },
+  { by = "US", to = "PAC", what = "claims of 1846 closed by amnesty and a mixed commission" },
+]
+conditions = [
+  "no accession clause (Vallejo refuses, citing Querétaro)",
+  "no US guarantee of California's independence (refused: 'a guarantor has a right to come in')",
+  "commercial articles run twelve years (C-1848-BV-COMMERCE); naval storehouse revocable (C-1848-SAUSALITO)",
+]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "He sends the treaty to the Senate together with the **Buchanan–Vallejo Convention**, signed on 28 February."
+more_quotes = [
+  "California pledges never to cede, lease or place under protection any part of its territory to a European power.",
+  "It keeps California's ports closed to the enemies of the United States in its wars. It promises to return deserters from American warships.",
+  "It closes the claims of 1846 by amnesty and a mixed commission, and it renounces the Basin pending a boundary commission.",
+  "Buchanan asks for an accession clause, and Vallejo refuses, citing Querétaro.",
+  "The Senate ratifies both on 10 March.",
+  "On Elias's advice the Assembly ratifies at once.",
+]
+open = "No term stated for the non-commercial articles. Carson (1860) lists 'the ports' among the 1848 articles that had run out, though 1848 states the twelve-year term only for the commercial articles. Effect of the 1861–1865 war on the convention not stated."
+
+[[commitment]]
+id = "C-1848-BV-COMMERCE"
+name = "Commercial articles of the Buchanan–Vallejo Convention"
+kind = "convention"
+parties = ["PAC", "US"]
+from = 1848
+until = 1860
+term_years = 12
+renewals = [1860]
+owes = [
+  { by = "PAC", to = "US", what = "most-favored-nation commerce, whalers' privileges and civil guarantees for American residents" },
+]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "It grants most-favored-nation commerce, whalers' privileges and civil guarantees for American residents, the commercial articles for twelve years."
+more_quotes = [
+  "The convention also renews, for a further term, the commercial articles of 1848, which had run out that year: the ports, the Sausalito storehouse, commerce and the rights of American residents.",
+]
+open = "Renewed at Carson in 1860 (see C-1860-CARSON-RENEWAL) for an unstated 'further term'."
+
+[[commitment]]
+id = "C-1848-SAUSALITO"
+name = "American naval storehouse at Sausalito"
+kind = "concession"
+parties = ["PAC", "US"]
+from = 1848
+renewals = [1860]
+ended = 1861
+ended_by = "sealed and its stores interned when war comes"
+owes = [{ by = "PAC", to = "US", what = "a revocable naval storehouse at Sausalito" }]
+can_end = [{ who = "PAC", how = "the storehouse is revocable" }]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "It opens San Francisco, Monterey and San Diego to American warships, with a revocable naval storehouse at Sausalito."
+more_quotes = [
+  "The convention also renews, for a further term, the commercial articles of 1848, which had run out that year: the ports, the Sausalito storehouse, commerce and the rights of American residents.",
+  "When war comes, the American naval storehouse at Sausalito is sealed and its stores interned.",
+]
+open = "The 1861 sealing is **[APPROVED — CR-028]**; the 1848 grant and 1860 renewal are PROPOSED."
+
+[[commitment]]
+id = "C-1848-UK-DECLARATION"
+name = "British (and French) declaration of non-acquisition in California"
+kind = "pact"
+parties = ["UK", "FR", "PAC"]
+from = 1848
+owes = [
+  { by = "UK", to = "PAC", what = "recognition, and a declaration that it will take no part of California under any form" },
+  { by = "FR", to = "PAC", what = "accession to the declaration (1849)" },
+]
+status = "PROPOSED"
+cr = "CR-028"
+section = 4
+quote = "It declares, as it had with France for Hawaii in 1843, that it will take no part of California under any form; France accedes in 1849."
+more_quotes = [
+  "Britain, which had refused since 1844 to encourage California's separation, recognizes the Republic once Mexico has.",
+]
+open = "Canon names no instrument; duration not stated."
+
+[[commitment]]
+id = "C-1850-MONTEREY"
+name = "Treaty of Monterey of 1850"
+kind = "treaty"
+parties = ["PAC", "US", "MX"]
+from = 1850
+owes = [
+  { by = "US", to = "PAC", what = "eastern boundary: 42nd parallel, 120th meridian to 39°, southeast to the Colorado at 35°N, along the Colorado to the Gila; recognized ports and access to Yuma" },
+  { by = "PAC", to = "US", what = "abandons claims to the Great Basin; the US retains the inland routes and the Salt Lake country" },
+]
+conditions = ["a related agreement fixes the southern border toward the Pacific south of San Diego"]
+status = "CANON"
+section = 5
+quote = "The **Treaty of Monterey of 1850**, the work of the boundary commission created in 1848, settles the eastern frontier with the United States."
+more_quotes = [
+  "A related agreement fixes the southern border toward the Pacific south of San Diego.",
+  "California gains internationally recognized ports and access to Yuma while abandoning claims to the Great Basin it has never governed. The United States retains the inland routes and the Salt Lake country.",
+  "California accepts a geographically limited claim whose boundaries will be settled more precisely in 1850.",
+]
+open = "The southern 'related agreement' does not name its counterparty (presumably Mexico) or year. Line superseded in the West by the 1865/1867 Western line (Nevada, Utah etc. pass to Pacifica)."
+
+[[commitment]]
+id = "C-1852-CONSTITUTION"
+name = "Monterey constitutional convention of 1852"
+kind = "constitution"
+parties = ["PAC"]
+from = 1852
+conditions = ["establishes a Council of State and the Superintendency of Mines and Public Revenue; no presidency for Elias"]
+status = "CANON"
+section = 5
+quote = "A constitutional convention at Monterey in 1852 establishes a Council of State and the **Superintendency of Mines and Public Revenue**, combining management of the gold economy, currency, public credit and expenditure on works."
+more_quotes = [
+  "In 1852 the assembly reorganizes government at Monterey, creating a Council of State and elevating Elias to **Superintendent of Mines and Public Revenue**.",
+]
+open = "Exact incorporation, patent and recruitment measures are **[OPEN]**. §8 says 'the assembly reorganizes government', §5 'a constitutional convention' — same 1852 act, different body named."
+
+[[commitment]]
+id = "C-1852-SUPERINTENDENT"
+name = "Superintendency of Mines and Public Revenue"
+kind = "office"
+parties = ["PAC"]
+from = 1852
+holder = "CT-ELIAS"
+conditions = ["controls mineral royalties, the mint, public credit and works contracts; legislators can still frustrate him"]
+status = "CANON"
+section = 5
+quote = "Elias receives the superintendency, a seat on the council and unprecedented influence over industrial policy."
+more_quotes = [
+  "He controls the collection and investment of mineral royalties, the mint, public credit and important works contracts but does not become president.",
+]
+open = "Tenure and how the office ends (or whether he keeps it as First Minister, Chancellor or Providentor) not stated."
+
+[[commitment]]
+id = "C-1855-KUHINA-NUI"
+open = "Term not stated; Victoria's tenure ends when she becomes Queen in December 1872."
+more_quotes = [
+  "As in history, she takes the office in January 1855, at sixteen, and presides over the Privy Council; no Hawaiian public document is valid without her signature.",
+  "Assent belongs to governments acting through institutions; no confederal article assigns the Kuhina Nui an exclusive personal countersignature.",
+  "He admires decisive government and seeks stronger royal authority while retaining the Kuhina Nui. Victoria continues to hold the office.",
+  "The cabinet may legislate around specified provisions, but the Hawaiian crown, Kuhina Nui and local institutions are protected.",
+  "Under Article 22 of his constitution the crown passes to his sister, and Victoria becomes Queen of Hawaii without an election.",
+]
+ended_by = "Victoria becomes Queen and appoints Ruth Keʻelikōlani Kuhina Nui (C-1872-RUTH-KUHINA-NUI)"
+ended = 1872
+name = "Kuhina Nui (Victoria)"
+kind = "office"
+parties = ["HI"]
+from = 1855
+holder = "CT-KAIULANI"
+conditions = [
+  "defined Hawaiian co-executive duties, a place in government and standing to exercise a regency",
+  "presides over the Privy Council; no Hawaiian public document is valid without her signature",
+  "no confederal article gives the Kuhina Nui an exclusive personal countersignature or veto",
+  "retained by Lot from 1863; protected under the 1865 Enabling Law",
+]
+status = "CANON"
+section = 6
+quote = "In 1855 Kamehameha IV appoints Victoria **Kuhina Nui**, granting her defined Hawaiian co-executive duties, a place in government and standing to exercise a regency."
+
+[[commitment]]
+id = "C-1855-HONOLULU"
+name = "Treaty of Honolulu"
+kind = "treaty"
+parties = ["HI", "PAC"]
+from = 1855
+owes = [
+  { by = "HI", to = "PAC", what = "a Californian coaling station at Honolulu" },
+  { by = "HI", to = "PAC", what = "customs reciprocity" },
+  { by = "PAC", to = "HI", what = "customs reciprocity" },
+]
+conditions = ["Victoria refuses a permanent Californian base at Pearl Harbor"]
+status = "CANON"
+section = 6
+quote = "In the **Treaty of Honolulu**, negotiated in 1855, she agrees to customs reciprocity and a Californian coaling station at Honolulu while refusing Elias's wish for a permanent base at Pearl Harbor."
+open = "Term not stated; whether customs reciprocity is absorbed by the 1856 confederal customs union is not stated. Year given as negotiation, not ratification."
+
+[[commitment]]
+id = "C-1855-SHIMODA"
+name = "Shimoda agreement"
+kind = "pact"
+parties = ["PAC", "JP"]
+from = 1855
+owes = [
+  { by = "PAC", to = "JP", what = "Californian machinists visit Satsuma's Kagoshima works" },
+  { by = "PAC", to = "JP", what = "Japanese shipwrights, naval students and artillery specialists train at California's yards" },
+]
+conditions = ["coal, provisions, silk, copper, tools flow on mutually advantageous commercial terms"]
+status = "CANON"
+section = 7
+quote = "Private exchanges grow into a **Shimoda agreement in 1855**, following tentative technical arrangements made in 1854."
+more_quotes = [
+  "The shogunate does not simply hand Nariakira power to sign national treaties on its behalf.",
+]
+open = "Japanese counterparty (Satsuma or the shogunate) and terms not stated; the 1854 'tentative technical arrangements' are not specified. Formalized by the 1858 Treaty of Edo."
+
+[[commitment]]
+id = "C-1855-FIRST-MINISTER"
+name = "First Minister of California"
+kind = "office"
+parties = ["PAC"]
+from = 1855
+holder = "CT-ELIAS"
+conditions = ["head of the Californian Council of State; the presidency is not transferred"]
+status = "CANON"
+section = 8
+quote = "By late 1855 President Vallejo names Elias **First Minister**, head of the Californian Council of State, without transferring the presidency."
+open = "Whether he keeps the office after becoming Chancellor (1856) is not stated."
+
+# ---------------------------------------------------------------------------
+# The Confederation of Pacifica (1856)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1856-ARTICLES"
+more_quotes = [
+  "California's assembly ratifies the Articles in September, narrowly; Hawaii's legislature ratifies in November, bringing the Confederation into force.",
+  "California and the Hawaiian Kingdom retain domestic self-government and residual powers. The common institutions control defense, the navy, customs, currency and external relations.",
+  "Constitutional change follows a distinct route: two-thirds approval in both confederal chambers and ratification by both founding states.",
+  "Japan remains a treaty partner.",
+  "The Constitution of the Realm of 1887 abolishes the states and draws 124 counties across their old boundaries, dividing Deseret among several of them.",
+]
+ended_by = "the Constitution of the Realm abolishes the states"
+ended = 1887
+name = "Articles of the Confederation of Pacifica"
+kind = "compact"
+parties = ["CAL", "HI", "PAC"]
+from = 1856
+owes = [
+  { by = "CAL", to = "PAC", what = "defense, the navy, customs, currency and external relations to the common institutions" },
+  { by = "HI", to = "PAC", what = "defense, the navy, customs, currency and external relations to the common institutions" },
+  { by = "PAC", to = "HI", what = "domestic self-government and residual powers; Hawaiian-language institutions; Honolulu remains the Hawaiian seat" },
+  { by = "PAC", to = "CAL", what = "domestic self-government and residual powers; English–Spanish guarantees" },
+]
+conditions = [
+  "equal member delegations in the Confederal Council, which elects the Chancellor; Assembly elected by property-holding men",
+  "no common head of state; Council at Monterey with a resident Hawaiian delegation",
+  "acts published in English, Spanish and Hawaiian",
+  "amendment: two-thirds in both confederal chambers and ratification by both founding states",
+]
+can_end = [
+  { who = "CAL", how = "ratification by the founding state required for any constitutional change" },
+  { who = "HI", how = "ratification by the founding state required for any constitutional change" },
+]
+status = "CANON"
+section = 8
+quote = "At Honolulu on **31 July 1856**, the anniversary of the restoration of Hawaiian sovereignty after the British seizure of 1843, the two governments declare the **Confederation of Pacifica**."
+open = "No term or right of withdrawal stated. Amended by the 1865 Enabling Law."
+
+[[commitment]]
+id = "C-1856-CHANCELLOR"
+name = "Chancellor of the Confederation"
+kind = "office"
+parties = ["PAC"]
+from = 1856
+holder = "CT-ELIAS"
+ended = 1865
+ended_by = "the chancellorship lapses when Elias becomes Providentor under the Enabling Law"
+can_end = [{ who = "PAC", how = "elected by the equal member delegations of the Confederal Council" }]
+status = "CANON"
+section = 8
+quote = "The equal member delegations of the Confederal Council elect the Chancellor, and Elias takes that office."
+more_quotes = ["Elias becomes Providentor for life and presides over the cabinet; the chancellorship lapses."]
+open = "Term of office and removal procedure not stated."
+
+[[commitment]]
+id = "C-1856-ART-XIV"
+name = "Article XIV (emergency Protector)"
+kind = "constitution"
+parties = ["PAC", "CAL", "HI"]
+from = 1856
+term_years = 1
+conditions = [
+  "only during war or grave danger; Council appoints by two-thirds with assent formally recorded by both member governments",
+  "one-year mandate: joint military command, common customs administration, temporary emergency decrees incl. specified restrictions on rights",
+  "the elected Assembly must be informed promptly",
+  "the initial mandate cannot amend constitutions or annex territory",
+]
+can_end = [
+  { who = "CAL", how = "member government's formally recorded assent required for appointment; legislature required for renewal" },
+  { who = "HI", how = "member government's formally recorded assent required for appointment; legislature required for renewal (withheld in 1860)" },
+  { who = "PAC", how = "Council two-thirds vote to appoint; the Confederal Assembly can revoke emergency measures" },
+]
+status = "CANON"
+section = 8
+quote = "During war or grave danger the Council may appoint a Protector by a two-thirds vote with assent formally recorded by both member governments through their authorized constitutional procedures."
+more_quotes = [
+  "The elected Assembly must be informed promptly and can revoke emergency measures; renewal requires both member legislatures.",
+  "The initial mandate cannot amend constitutions or annex territory.",
+  "Hawaii withholds the governmental assent needed for Article XIV, and the coalition defeats escalation through the existing institutions.",
+]
+open = "term_years is the one-year mandate per appointment. Whether Article XIV survives the 1865 Enabling Law is not stated."
+
+[[commitment]]
+id = "C-1856-DISSOLUTION"
+name = "Dissolution provision of the Articles"
+kind = "constitution"
+parties = ["PAC"]
+from = 1856
+conditions = [
+  "the Protector, acting with cabinet responsibility, may dissolve the Confederal Assembly",
+  "an election must follow within sixty days; only once for the same cause",
+  "member legislatures and the state Council remain; dissolution does not revive a revoked decree",
+]
+status = "CANON"
+section = 8
+quote = "A separate dissolution provision allows the Protector, acting with cabinet responsibility, to dissolve the elected Confederal Assembly and appeal to the electorate."
+more_quotes = [
+  "An election must follow within sixty days, and dissolution may occur only once for the same cause.",
+  "Elias uses the dissolution provision before the threatened revocation is enacted, calling an election within the prescribed interval.",
+]
+open = "Exact 1864–1865 dissolution and election dates are **[OPEN]** in canon."
+
+[[commitment]]
+id = "C-1858-EDO"
+name = "Treaty of Edo"
+kind = "treaty"
+parties = ["PAC", "JP"]
+from = 1858
+owes = [
+  { by = "PAC", to = "JP", what = "partnership in commerce, shipbuilding, coal, technical exchange and naval training" },
+  { by = "JP", to = "PAC", what = "technical advisers, training, observers, markets, harbors and resources" },
+]
+conditions = ["no open cession of Japanese sovereignty; no large Japanese expeditionary combat forces yet"]
+status = "CANON"
+section = 7
+quote = "In 1858, California and the Tokugawa government conclude the Treaty of Edo."
+more_quotes = [
+  "It formalizes the partnership in commerce, shipbuilding, coal, technical exchange and naval training under the new political leadership.",
+  "Japan supplies technical advisers, training, observers, markets, harbors and resources.",
+  "Japan remains a treaty partner.",
+]
+open = "Term, renewal and termination not stated."
+
+# ---------------------------------------------------------------------------
+# Washoe and the Civil War (1860–1865)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1860-CARSON"
+name = "Carson Convention"
+kind = "convention"
+parties = ["PAC", "US"]
+from = 1860
+owes = [
+  { by = "PAC", to = "US", what = "withdrawal of troops; recognition of American sovereignty over Washoe" },
+  { by = "US", to = "PAC", what = "property guarantees and transit rights" },
+]
+status = "CANON"
+section = 8
+quote = "At the **Carson Convention** in autumn 1860, Pacifica withdraws its troops and recognizes American sovereignty over Washoe in exchange for property guarantees and transit rights."
+more_quotes = ["Washoe is retaken in 1863–1864."]
+open = "Canon does not say the convention ends; Pacifica retakes Washoe in 1863–1864 and keeps Nevada in the 1865 peace, which in effect reverses the recognition."
+
+[[commitment]]
+id = "C-1860-CARSON-RENEWAL"
+name = "Renewal of the 1848 commercial articles at Carson"
+kind = "convention"
+parties = ["PAC", "US"]
+from = 1860
+owes = [
+  { by = "PAC", to = "US", what = "the ports, the Sausalito storehouse, commerce and the rights of American residents" },
+]
+status = "PROPOSED"
+cr = "CR-028"
+section = 8
+quote = "The convention also renews, for a further term, the commercial articles of 1848, which had run out that year: the ports, the Sausalito storehouse, commerce and the rights of American residents."
+open = "Length of the 'further term' not stated. The storehouse is sealed in 1861 (APPROVED); effect of the war on the other renewed articles not stated."
+
+[[commitment]]
+id = "C-1861-PROTECTOR"
+name = "Protectorship of Elias Thorne"
+kind = "office"
+parties = ["PAC", "CAL", "HI"]
+from = 1861
+term_years = 1
+renewals = [1862, 1863]
+holder = "CT-ELIAS"
+conditions = [
+  "a separate resolution authorizes limited coercive operations with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible",
+]
+can_end = [
+  { who = "CAL", how = "renewal requires the member legislature" },
+  { who = "HI", how = "renewal requires the member legislature" },
+  { who = "PAC", how = "the Confederal Assembly can revoke emergency measures" },
+]
+status = "CANON"
+section = 9
+quote = "The Council invokes Article XIV with formal assent from both member governments and appoints Elias Protector for one year."
+more_quotes = [
+  "A separate resolution authorizes limited coercive operations, with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible.",
+  "In 1862 and 1863 both member legislatures renew Elias's one-year Protectorship as difficult campaigns produce fresh dangers.",
+]
+open = "Exact instruments and dates **[OPEN]** (late May 1861 is the working activation date). Renewal in 1864 and the end of the Protectorship are not stated; it is still in use for the 1864–1865 dissolution and presumably gives way to the 1865 Providentorship."
+
+[[commitment]]
+id = "C-1862-DESERET"
+name = "Accession of Deseret"
+kind = "compact"
+parties = ["PAC", "DESERET"]
+from = 1862
+owes = [
+  { by = "PAC", to = "DESERET", what = "religious freedom; protection of member-state marriage and church-property law" },
+  { by = "DESERET", to = "PAC", what = "its militia placed within the Defense Law" },
+]
+conditions = ["confederal law forbids member states from banning marriage on grounds of race or origin; it does not impose one marriage system"]
+status = "CANON"
+section = 10
+quote = "Deseret accedes as a confederate state in late 1862–1863, extending the religious freedom promised to all."
+more_quotes = [
+  "The Morrill Act supplies the breaking point, and the accession protects member-state marriage and church-property law while placing its militia within the Defense Law.",
+  "Confederal law forbids member states from banning marriage on grounds of race or origin; it does not impose one marriage system on every state.",
+]
+open = "Accession dated 'late 1862–1863' (from = 1862 is the earliest). The terms beyond religious freedom are **[PROPOSED]**; accession instruments and representation are **[OPEN]**."
+
+[[commitment]]
+id = "C-1863-ARIZONA"
+name = "Confederate renunciation of Arizona"
+kind = "settlement"
+parties = ["PAC", "CSA"]
+from = 1863
+owes = [
+  { by = "CSA", to = "PAC", what = "renunciation of the Confederate Arizona claim" },
+  { by = "PAC", to = "CSA", what = "credit and the future railway connection" },
+]
+status = "PROPOSED"
+section = 10
+quote = "Richmond renounces its Arizona claim in return for credit and the future railway connection."
+more_quotes = [
+  "Early in 1863 Elias goes to Texas in person to settle the Arizona renunciation and the Matamoros supply terms.",
+]
+open = "Year: §10 places it with the 1862 column, §11 (APPROVED — CR-022) has Elias settle it early in 1863. Amount of credit and railway terms not stated."
+
+[[commitment]]
+id = "C-1863-MATAMOROS"
+name = "Matamoros supply terms"
+kind = "pact"
+parties = ["PAC", "CSA"]
+from = 1863
+owes = [{ by = "PAC", to = "CSA", what = "supplies and credit around Cape Horn to neutral Matamoros and overland into Texas" }]
+status = "APPROVED"
+cr = "CR-022"
+section = 11
+quote = "Early in 1863 Elias goes to Texas in person to settle the Arizona renunciation and the Matamoros supply terms."
+more_quotes = [
+  "Pacifican supplies and credit travel around Cape Horn to neutral Matamoros and overland into Texas, under the working supply plan.",
+]
+open = "Terms not stated; §11 already has the supply plan running in 1862 under a 'working supply plan'. Alliance terms with Richmond are **[OPEN]**."
+
+[[commitment]]
+id = "C-1863-NAVAJO"
+from_approx = true
+name = "Navajo homeland treaty"
+kind = "treaty"
+parties = ["PAC", "NAVAJO"]
+from = 1863
+owes = [{ by = "PAC", to = "NAVAJO", what = "recognition of a homeland; no Long Walk" }]
+status = "CANON"
+section = 10
+quote = "In Navajo country the government chooses a different course: a treaty recognizes a homeland and avoids the Long Walk."
+more_quotes = ["Barboncito and Manuelito negotiate that settlement"]
+open = "Year not stated; from = 1863 only follows the paragraph's January 1863 context. Boundaries and terms not stated; negotiators are **[PROPOSED]**."
+
+[[commitment]]
+id = "C-1864-HI-CONSTITUTION"
+name = "Hawaiian constitution of 1864"
+kind = "constitution"
+parties = ["HI"]
+from = 1864
+holder = "CT-KAIULANI"
+conditions = ["Lot retains the Kuhina Nui; names his sister Victoria his heir"]
+status = "CANON"
+section = 12
+quote = "The historical Lot abolished it in 1864; here he judges its abolition politically costly and unnecessary, and his 1864 constitution names his sister his heir."
+open = "Other terms of the constitution not stated."
+
+[[commitment]]
+id = "C-1865-APACHE"
+name = "Apache peace"
+kind = "treaty"
+parties = ["PAC", "APACHE"]
+from = 1865
+owes = [
+  { by = "PAC", to = "APACHE", what = "homeland reservations, honest agents and prosecution of settler massacres" },
+  { by = "PAC", to = "APACHE", what = "paid scouts" },
+]
+status = "PROPOSED"
+section = 10
+quote = "an Apache peace in 1865 combines homeland reservations, paid scouts, honest agents and prosecution of settler massacres"
+open = "Boundaries and term not stated."
+
+[[commitment]]
+id = "C-1865-MX-SCALP"
+from_approx = true
+name = "Mexican convention ending scalp bounties"
+kind = "convention"
+parties = ["PAC", "MX"]
+from = 1865
+owes = [{ by = "MX", to = "PAC", what = "an end to scalp bounties" }]
+status = "PROPOSED"
+section = 10
+quote = "followed by a Mexican convention ending scalp bounties"
+open = "Year not stated beyond following the 1865 Apache peace; who undertakes what (Mexico ends bounties is the plain reading) not stated."
+
+[[commitment]]
+id = "C-1865-ARMISTICE"
+name = "McClellan armistice conventions"
+kind = "convention"
+parties = ["US", "PAC", "CSA"]
+from = 1865
+conditions = ["executive conventions; the Union's unratified claim to the South survives", "Indian Territory's division initially frozen along the Arkansas River"]
+status = "PROPOSED"
+section = 12
+quote = "After taking office in March 1865, McClellan signs executive armistice conventions with Richmond and Pacifica during March–June."
+more_quotes = [
+  "The 1865 armistice initially freezes its division along the Arkansas River; the 1871 border convention transfers the northern Cherokee and Creek lands, leaving the Public Land Strip Union.",
+]
+open = "Terms beyond ceasefire not stated; Union–Pacifica armistice presumably superseded by the 1867 ratified Western line (not stated)."
+
+[[commitment]]
+id = "C-1865-CSA-AMITY"
+name = "Pacifica–Confederate Treaty of Amity and Commerce"
+kind = "treaty"
+parties = ["PAC", "CSA"]
+from = 1865
+owes = [{ by = "PAC", to = "CSA", what = "formal recognition" }]
+status = "CANON"
+section = 12
+quote = "A Pacifica–Confederate Treaty of Amity and Commerce in spring 1865 supplies Pacifica's formal recognition."
+open = "Commercial terms, wartime alliance clauses and exact drafting are **[OPEN]**."
+
+[[commitment]]
+id = "C-1865-ENABLING"
+name = "Enabling Law"
+kind = "law"
+parties = ["PAC", "CAL", "HI"]
+from = 1865
+ended = 1887
+ended_by = "its enabling delegation lapses when the regency begins"
+conditions = [
+  "adopted by constitutional amendment: two-thirds of both confederal chambers and ratification by both founding states",
+  "the cabinet may legislate around specified provisions; the Hawaiian crown, Kuhina Nui and local institutions are protected",
+  "the ordinary chambers and member governments remain",
+  "neither a later regent nor a county inherits the Providentor's power",
+]
+status = "CANON"
+section = 12
+quote = "In 1865 Elias secures the Enabling Law through constitutional amendment: two-thirds of both confederal chambers and ratification by both founding states."
+more_quotes = [
+  "The cabinet may legislate around specified provisions, but the Hawaiian crown, Kuhina Nui and local institutions are protected.",
+  "Its enabling delegation lapses when the regency begins in 1887; neither a later regent nor a county inherits his power.",
+]
+open = "Which provisions the cabinet may legislate around is not specified."
+
+[[commitment]]
+id = "C-1865-PROVIDENTOR"
+name = "Providentor"
+kind = "office"
+parties = ["PAC"]
+from = 1865
+holder = "CT-ELIAS"
+lapses_on_death = ["CT-ELIAS"]
+conditions = ["presides over the cabinet; controls ministerial appointment and dismissal, the cabinet's legislative agenda and senior appointments"]
+status = "CANON"
+section = 12
+quote = "Elias becomes Providentor for life and presides over the cabinet; the chancellorship lapses."
+more_quotes = [
+  "The Providentorship lasts for Elias's life.",
+  "Elias controls ministerial appointment and dismissal, sets the cabinet's legislative agenda and appoints senior administrators.",
+]
+
+[[commitment]]
+id = "C-1865-HI-GUARANTEES"
+name = "Hawaiian guarantees of the Enabling Law"
+kind = "guarantee"
+parties = ["PAC", "HI"]
+from = 1865
+owes = [{ by = "PAC", to = "HI", what = "protection of Hawaiian kingship, the Kuhina Nui, local institutions and agreed revenues" }]
+conditions = ["protected provisions of the Enabling Law, whose later breach cannot be justified by the authority it grants"]
+status = "CANON"
+section = 12
+quote = "Lot supports the bargain in return for assurances protecting Hawaiian kingship, the Kuhina Nui, local institutions and agreed revenues."
+more_quotes = [
+  "The guarantees become protected provisions of the Enabling Law, whose later breach cannot be justified by the authority it grants.",
+]
+open = "Amount of 'agreed revenues' and whether the guarantees survive the 1887 lapse of the enabling delegation are not stated."
+
+# ---------------------------------------------------------------------------
+# The Western peace (1865–1871)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1867-WESTERN-LINE"
+more_quotes = [
+  "The surviving Puget Sound enclave is evacuated under the treaty, leaving the Union without a Pacific port.",
+  "Senate ratification of the paid Western cession is separated from executive recognition of Richmond, which the Senate never ratifies.",
+  "Its Senate recognizes the Confederacy and Gulf Republic and renounces the surviving claims under the 1865 and 1871 lines; the paid Western cession had already been ratified in 1867.",
+]
+name = "Western line (1865 peace)"
+kind = "treaty"
+parties = ["US", "PAC"]
+from = 1867
+owes = [
+  { by = "US", to = "PAC", what = "cession of the Northwest, Great Basin, Arizona, Utah, Nevada, Idaho, western Montana, southwest Wyoming, Colorado's Western Slope, North and Middle Park, the San Luis Valley and New Mexico to 103°W" },
+  { by = "US", to = "PAC", what = "evacuation of the surviving Puget Sound enclave" },
+  { by = "PAC", to = "US", what = "a $40 million gold vendor credit (see C-1867-VENDOR-CREDIT)" },
+]
+conditions = ["federal cession does not settle Native title or consent", "separated from executive recognition of Richmond, which the Senate never ratifies"]
+status = "CANON"
+section = 12
+quote = "The Western line is agreed in the 1865 peace and ratified by the Union Senate in 1867, alongside Pacifica's Alaska purchase."
+open = "Agreed 1865, ratified 1867 (from = ratification). Detailed boundary surveys are **[PROPOSED]**."
+
+[[commitment]]
+id = "C-1867-GUANO"
+name = "Pacific article (Guano Islands)"
+kind = "treaty"
+parties = ["US", "PAC", "HI"]
+from = 1867
+owes = [
+  { by = "US", to = "PAC", what = "renunciation of Guano Islands Act claims to Midway, Baker, Howland, Jarvis, Johnston and Kingman; quitclaim to Palmyra" },
+  { by = "PAC", to = "US", what = "the New York guano companies keep their workings until the deposits are exhausted and land cargoes duty-free at Hawaiian ports" },
+]
+conditions = ["the companies' rights last until the deposits are exhausted", "a nominal sum disappears into the vendor credit"]
+status = "APPROVED"
+cr = "CR-029"
+section = 12
+quote = "The Union renounces its claims under the Guano Islands Act of 1856 to a schedule of named islands: Midway, Baker, Howland, Jarvis, Johnston and Kingman, with a quitclaim to Palmyra, which Hawaii annexed in 1862."
+more_quotes = [
+  "The New York guano companies keep their workings until the deposits are exhausted and land their cargoes duty-free at Hawaiian ports, where their labourers were recruited.",
+]
+open = "Ratified with the Western line in 1867 (agreed 1865). Who owes the duty-free landing (Hawaii or confederal customs) is not stated."
+
+[[commitment]]
+id = "C-1867-VENDOR-CREDIT"
+name = "Western cession vendor credit"
+kind = "loan"
+parties = ["PAC", "US"]
+from = 1867
+until = 1872
+owes = [{ by = "PAC", to = "US", what = "$40 million in gold, in instalments through 1872" }]
+status = "PROPOSED"
+section = 12
+quote = "Pacifica pays a $40 million gold vendor credit in instalments through 1872 and offers a separate Treasury loan."
+open = "First instalment year not stated (peace 1865, ratification 1867). Price, schedule and loan capacity require financial testing. The separate Treasury loan is only offered."
+
+[[commitment]]
+id = "C-1867-ALASKA"
+name = "Alaska purchase"
+kind = "treaty"
+parties = ["RU", "PAC"]
+from = 1867
+owes = [{ by = "RU", to = "PAC", what = "Alaska" }]
+status = "CANON"
+section = 12
+quote = "The Western line is agreed in the 1865 peace and ratified by the Union Senate in 1867, alongside Pacifica's Alaska purchase."
+open = "Price, payment and terms not stated in this range; the seller is not named (Russia is implied)."
+
+[[commitment]]
+id = "C-1871-IT-BORDER"
+name = "1871 border convention (Indian Territory)"
+kind = "convention"
+parties = ["US", "CSA"]
+from = 1871
+owes = [{ by = "US", to = "CSA", what = "transfer of the northern Cherokee and Creek lands; the Public Land Strip remains Union" }]
+status = "PROPOSED"
+section = 12
+quote = "the 1871 border convention transfers the northern Cherokee and Creek lands, leaving the Public Land Strip Union."
+open = "Parties are implied (Union and Confederacy); tribal consent not stated."
+
+# ---------------------------------------------------------------------------
+# Part 2: storyline §13–§24
+# ---------------------------------------------------------------------------
+
+# Pacifica commitments ledger — part 2: master_storyline.md lines 345–531
+# (Part III, Part IV and the start of Part V, §13–§24).
+# Format and rules: see the header of commitments/data/ledger.toml.
+# The Puʻuloa Convention (C-1874-PUULOA) and the Philippine Redemption Loan
+# (C-1876-PH-LOAN) fall in this range but are already recorded there.
+
+# ---------------------------------------------------------------------------
+# Parties added by this part
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "SAMOA"
+name = "Samoa (Malietoa and the Samoan chiefs)"
+
+[[party]]
+id = "CO"
+name = "Colombia"
+
+[[party]]
+id = "INLAND"
+name = "The inland command and the American military aristocrats (Silas)"
+
+[[party]]
+id = "NAVAL"
+name = "The Japanese naval party (Kiyoshi)"
+
+# ---------------------------------------------------------------------------
+# People added by this part
+# ---------------------------------------------------------------------------
+
+[[person]]
+id = "KIYOSHI"
+name = "Kuroda Kiyoshi"
+died = 1920
+quote = "Fleet-General Kuroda Kiyoshi dies in Siberia in 1920."
+
+# ---------------------------------------------------------------------------
+# §13 Winning the peace and binding the continental partner
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1867-BAJA"
+name = "Baja purchase and Guaymas concession"
+kind = "treaty"
+parties = ["MX", "PAC"]
+from = 1867
+term_years = 5
+owes = [
+  { by = "MX", to = "PAC", what = "Baja (purchase)" },
+  { by = "PAC", to = "MX", what = "the purchase price, paid over five years" },
+  { by = "MX", to = "PAC", what = "a Guaymas railway concession and free port" },
+]
+conditions = ["Mexico retains Sonora."]
+status = "PROPOSED"
+section = 13
+quote = "a Baja purchase in 1867, paid over five years, a Guaymas railway concession and free port secure the southern flank."
+more_quotes = ["Mexico retains Sonora. Prices, garrisons and firms await audit."]
+open = "term_years is the payment period; the last instalment year, the price, and the year and term of the Guaymas concession and free port are not stated."
+
+[[commitment]]
+id = "C-1866-CSA-RAILWAY"
+name = "Confederate railway treaty"
+kind = "treaty"
+parties = ["CSA", "PAC"]
+from = 1866
+owes = [{ by = "CSA", to = "PAC", what = "a route across Texas to New Orleans for Huntington's line" }]
+status = "CANON"
+section = 13
+quote = "A railway treaty in 1866–1867 gives Huntington's line a route across Texas to New Orleans."
+open = "Dated only as 1866–1867; term and other terms not stated."
+
+[[commitment]]
+id = "C-1871-PEACE"
+name = "Peace of 1871 (Sherman–Grant)"
+kind = "settlement"
+parties = ["US", "CSA", "PAC"]
+from = 1871
+owes = [
+  { by = "CSA", to = "US", what = "free Mississippi navigation restored" },
+  { by = "US", to = "PAC", what = "quitclaim of the Pacific islands Pacifica occupied during the war" },
+]
+conditions = ["The Union Senate keeps its claim to the South."]
+status = "CANON"
+section = 13
+quote = "In spring 1871 Sherman negotiates with Grant, whose friendship now crosses national allegiances."
+more_quotes = [
+  "Richmond restores free Mississippi navigation; Pacifica guarantees Confederate independence.",
+  "The Union quitclaims the Pacific islands Pacifica occupied during the war. The Union Senate keeps its claim to the South.",
+]
+open = "The quitclaim sentence carries **[APPROVED — CR-029]**; the rest of the settlement is unlabelled. The guarantee is recorded separately (C-1871-CSA-GUARANTEE)."
+
+[[commitment]]
+id = "C-1871-CSA-GUARANTEE"
+name = "Pacifican guarantee of Confederate independence"
+kind = "guarantee"
+parties = ["PAC", "CSA"]
+from = 1871
+owes = [{ by = "PAC", to = "CSA", what = "guarantee of Confederate independence" }]
+status = "CANON"
+section = 13
+quote = "Richmond restores free Mississippi navigation; Pacifica guarantees Confederate independence."
+open = "Term and end not stated."
+
+[[commitment]]
+id = "C-1871-ASSOCIATION"
+name = "Association treaties"
+kind = "treaty"
+parties = ["CSA", "PAC"]
+from = 1871
+owes = [
+  { by = "PAC", to = "CSA", what = "refinancing of Confederate debt" },
+  { by = "CSA", to = "PAC", what = "customs security for the refinanced debt and Pacifican customs co-administration" },
+  { by = "CSA", to = "PAC", what = "the lower Mobile Bay naval station, Galveston commercial privileges, Atlantic Auxiliary recruitment and Birmingham concessions" },
+  { by = "PAC", to = "CSA", what = "replacement of the surrendered Mississippi toll revenue" },
+]
+secured_on = "Confederate customs"
+status = "APPROVED"
+cr = "CR-029"
+section = 13
+quote = "Association treaties in 1871–1872 refinance Confederate debt on customs security, install Pacifican customs co-administration and secure the lower Mobile Bay naval station, Galveston commercial privileges, Atlantic Auxiliary recruitment and Birmingham concessions."
+more_quotes = ["Pacifica replaces the surrendered toll revenue."]
+open = "Dated 1871–1872. The text does not say who lends the refinancing (refinancing by Pacifica is implied by 'more dependent on Pacifican credit' but not stated), nor any term. The APPROVED label in force is the CR-029 marker on the preceding quitclaim sentence; whether CR-029 covers these treaties is unclear."
+
+[[commitment]]
+id = "C-1873-FREEDOM-ACT"
+name = "Freedom Act (Union)"
+kind = "law"
+parties = ["US"]
+from = 1873
+conditions = [
+  "Brown takes office on condition that he sign it.",
+  "Refugees are free on arrival and citizens after a year.",
+  "Discriminatory duties and European campaigning penalize slave-grown cotton.",
+]
+status = "CANON"
+section = 13
+quote = "After a disputed count, Brown takes office in 1873 on condition that he sign the Freedom Act: refugees are free on arrival and citizens after a year; discriminatory duties and European campaigning penalize slave-grown cotton."
+open = "A Union domestic law; no counterparty obligation stated."
+
+[[commitment]]
+id = "C-1875-CSA-FREE-WOMB"
+name = "Confederate free-womb amendment"
+kind = "constitution"
+parties = ["CSA"]
+from = 1875
+conditions = [
+  "Freedom for children born after 1 January 1875; masters keep their labor to twenty-one or receive state compensation (PROPOSED).",
+  "The constitutional route requires state consent (PROPOSED).",
+]
+can_end = [{ who = "CSA", how = "the constitutional route requires state consent" }]
+status = "CANON"
+section = 13
+quote = "Benjamin helps carry a free-womb amendment in 1874–1875 as refinancing pressure mounts."
+more_quotes = ["A convention establishes freedom for children born after 1 January 1875, while allowing masters their labor to twenty-one or state compensation. The constitutional route requires state consent"]
+open = "The amendment is unlabelled; its terms (the convention) are **[PROPOSED]**; economic effect and finance await audit."
+
+[[commitment]]
+id = "C-1871-FUGITIVE"
+from_approx = true
+name = "Fugitive agreement with Richmond"
+kind = "compact"
+parties = ["PAC", "CSA"]
+from = 1871
+ended = 1889
+ended_by = "Confederate abolition in 1888–1889"
+owes = [{ by = "PAC", to = "CSA", what = "preventing enslaved people from escaping to Pacifican territory" }]
+conditions = ["Travel-paper controls refuse entry at Texas, the railway and Gulf ports; the cabinet overrides habeas corpus under the enabling law (PROPOSED)."]
+status = "CANON"
+section = 13
+quote = "Pacifica enforces a fugitive agreement with Richmond from 1871–1872 until abolition in 1888–1889, preventing enslaved people from escaping to Pacifican territory."
+more_quotes = [
+  "Travel-paper controls refuse entry at Texas, the railway and Gulf ports; when habeas corpus frees a returned fugitive, the cabinet overrides the court under the enabling law.",
+  "Confederate abolition in 1888–1889 ends the fugitive agreement",
+]
+open = "Start given as 1871–1872 and end as 1888–1889; `ended` uses the later year."
+
+# ---------------------------------------------------------------------------
+# §14 Alaska, Japan, China and the ocean road
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1867-MIDWAY"
+name = "Midway naval ground lease"
+kind = "lease"
+parties = ["HI", "PAC"]
+from = 1867
+owes = [{ by = "HI", to = "PAC", what = "lease of Midway's naval ground (Midway part of the Hawaiian Crown lands)" }]
+status = "APPROVED"
+cr = "CR-029"
+section = 14
+quote = "Midway passes to Pacifica in the 1867 ratification and becomes part of the Hawaiian Crown lands, with its naval ground leased to the Confederation on the terms later used at Puʻuloa."
+open = "Term not stated: 'the terms later used at Puʻuloa' is not spelled out (Puʻuloa's own term is fifty years from 1874). Year the lease itself begins is not stated separately from the 1867 ratification."
+
+[[commitment]]
+id = "C-1868-EDO-GUARANTEE"
+name = "Guarantee of the negotiated transition at Edo"
+kind = "guarantee"
+parties = ["PAC", "JP"]
+from = 1868
+owes = [{ by = "PAC", to = "JP", what = "fleet guarantee of the negotiated transition at Edo" }]
+status = "PROPOSED"
+section = 14
+quote = "Pacifica's fleet guarantees the negotiated transition at Edo in 1868 through Katsu Kaishū and Saigō Takamori."
+open = "End not stated (the Hakodate regime falls in 1869)."
+
+[[commitment]]
+id = "C-1870-JP-ALLIANCE"
+name = "Japanese alliance of 1870–1871"
+kind = "alliance"
+parties = ["PAC", "JP"]
+from = 1870
+owes = [
+  { by = "PAC", to = "JP", what = "full Japanese tariff autonomy and no consular courts" },
+  { by = "JP", to = "PAC", what = "dockyard rights at Yokosuka and a coaling lease at Hakodate" },
+  { by = "PAC", to = "JP", what = "foreign credit (direction as listed; not spelled out)" },
+]
+conditions = ["No sovereign Pacifican base is imposed on Japan.", "Takashima coal is among the terms; who supplies whom is not stated."]
+status = "CANON"
+section = 14
+quote = "The 1870–1871 Japanese alliance is equal: full Japanese tariff autonomy and no consular courts, dockyard rights at Yokosuka, a coaling lease at Hakodate, Takashima coal and foreign credit."
+more_quotes = ["No sovereign Pacifican base is imposed on Japan."]
+open = "Term, renewal and relation to the 1858 Treaty of Edo not stated; the direction of 'Takashima coal and foreign credit' is not explicit."
+
+[[commitment]]
+id = "C-1868-CN-TREATY"
+name = "1868 treaty with China"
+kind = "treaty"
+parties = ["CN", "PAC"]
+from = 1868
+owes = [
+  { by = "CN", to = "PAC", what = "ordinary foreign treaty rights" },
+  { by = "PAC", to = "CN", what = "jointly licensed family emigration (article shared by both)" },
+]
+status = "PROPOSED"
+section = 14
+quote = "An 1868 treaty preserves ordinary foreign treaty rights while including a jointly licensed family-emigration article."
+open = "Term not stated. The unlabelled undertakings in the same paragraph (technology and education, protection for Chinese Pacificans, no missionaries) are not tied to the treaty in the text."
+
+[[commitment]]
+id = "C-1878-KR-TREATY"
+from_approx = true
+name = "First Korean–Pacifican treaty"
+kind = "treaty"
+parties = ["KR", "PAC", "CN"]
+from = 1878
+status = "CANON"
+section = 14
+quote = "Korea signs its first Western treaty with Pacifica around 1878–1880 through Li Hongzhang's mediation"
+open = "Dated only 'around 1878–1880'; terms not stated. China (Li Hongzhang) is mediator, not a stated party to obligations."
+
+# ---------------------------------------------------------------------------
+# §15 The Spanish window and the settlement of families
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1873-ALAMINOS"
+name = "Alaminos local convention"
+kind = "convention"
+parties = ["ES", "PAC"]
+from = 1873
+owes = [
+  { by = "ES", to = "PAC", what = "an indemnity and the crew's release" },
+  { by = "ES", to = "PAC", what = "an anchorage for a Pacifican squadron to protect its trade" },
+]
+status = "PROPOSED"
+cr = "CR-029"
+section = 15
+quote = "Governor-General Alaminos signs a local convention: an indemnity, the crew's release, and an anchorage for a Pacifican squadron to protect its trade."
+more_quotes = ["The Manila station, a squadron kept in Asian waters to secure the convention and then the loan"]
+open = "Term and end not stated; presumably overtaken by the 1876 sale, but the text does not say so."
+
+[[commitment]]
+id = "C-1874-ES-GOLD-LOAN"
+name = "Spanish Republic's Pacifican gold loan"
+kind = "loan"
+parties = ["ES", "PAC", "PH"]
+from = 1874
+ended = 1876
+ended_by = "Cánovas's law of sale, 'the honourable liquidation of a republican debt'"
+owes = [
+  { by = "ES", to = "PAC", what = "service of the loan from Philippine customs and tobacco revenues; Pacifican agents sit in the customs houses" },
+]
+secured_on = "Philippine customs and tobacco revenues"
+conditions = ["The Banco Español-Filipino services the loan in Manila.", "The price includes the pardon of the Filipino exiles on Guam (PROPOSED)."]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "For the war overseas it borrows Pacifican gold, secured on the Philippine customs and tobacco revenues."
+more_quotes = [
+  "Pacifican agents sit in the customs houses, and the Banco Español-Filipino services the loan in Manila.",
+  "The price includes the pardon of the Filipino exiles on Guam.",
+  "The Restoration of December 1874 inherits a debt it cannot pay.",
+  "He calls it the honourable liquidation of a republican debt that saves Cuba.",
+]
+open = "Amount, rate and maturity not stated. 'Ended 1876' reads the law of sale as liquidating the debt, as Cánovas calls it."
+
+[[commitment]]
+id = "C-1876-ES-SALE"
+name = "Spanish law of sale (Philippines, Marianas, Carolines, Palau)"
+kind = "treaty"
+parties = ["ES", "PAC"]
+from = 1876
+owes = [
+  { by = "ES", to = "PAC", what = "the Philippines, Marianas, Carolines and Palau" },
+  { by = "PAC", to = "ES", what = "recognize no Cuban insurgents and close its ports to their filibusters" },
+]
+can_end = [{ who = "ES", how = "the sale requires a law of the Cortes" }]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "Pacifica's price is to recognize no Cuban insurgents and to close its ports to their filibusters"
+more_quotes = ["The sale includes the Philippines, Marianas, Carolines and Palau."]
+open = "The duration of the Cuban undertakings is not stated."
+
+[[commitment]]
+id = "C-1876-PH-ORGANIC"
+name = "Philippine Organic Act (dependency of the Confederation)"
+kind = "law"
+parties = ["PAC", "PH"]
+from = 1876
+until = 1887
+owes = [{ by = "PAC", to = "PH", what = "government by the Providentor's office through a Governor-General with a Philippine Council; the Audiencia keeps Spanish law" }]
+conditions = [
+  "Dependency, not a member state, with no members in the confederal chambers.",
+  "Authority vested in the Providentor's office, not his person.",
+  "Forced labour, forced crop sales and the tobacco monopoly end; offices open by examination (APPROVED).",
+]
+status = "PROPOSED"
+cr = "CR-029"
+section = 15
+quote = "Until 1887 the Philippines is a dependency of the Confederation, not a member state, with no members in the confederal chambers."
+more_quotes = [
+  "Its Organic Act vests authority in the Providentor's office, not his person.",
+  "He governs with a Philippine Council, and the Audiencia keeps Spanish law.",
+  "Forced labour, forced crop sales and the tobacco monopoly end, and offices open by examination.",
+]
+open = "Start year of the Organic Act not stated (1876 = year of the sale). What replaces the dependency in 1887 is not stated in this range."
+
+[[commitment]]
+id = "C-1876-PH-TOBACCO"
+from_approx = true
+name = "Chartered Philippine tobacco company"
+kind = "charter"
+parties = ["PH", "CROWN"]
+from = 1876
+conditions = ["The Crown keeps a quarter of the company."]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "The monopoly's factories and leaf are sold to a chartered tobacco company in which the Crown keeps a quarter."
+open = "Year not stated (1876 = year of the sale); charter term not stated. 'The Crown' in the 1870s is unexplained: the Crown of Pacifica is established only by the 1914 Act of Settlement."
+
+[[commitment]]
+id = "C-1878-SULU"
+name = "Sulu compacts (Sultan and datus)"
+kind = "compact"
+parties = ["SULU", "PAC", "PH"]
+from = 1878
+owes = [{ by = "SULU", to = "PAC", what = "settlement of the south (terms not stated)" }]
+can_end = [{ who = "SULU", how = "the Sultan alone can consent to undo them" }]
+conditions = ["Their Tausug text is authoritative."]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "In 1878 a compact with the Sultan of Sulu, and separate compacts with the datus who hold the real power, settle the south."
+more_quotes = ["Their Tausug text is authoritative, and the Sultan alone can consent to undo them."]
+open = "Substantive terms and term not stated."
+
+[[commitment]]
+id = "C-1878-NBORNEO"
+name = "North Borneo lease to the Pacifican Borneo company"
+kind = "lease"
+parties = ["SULU", "PAC"]
+from = 1878
+owes = [{ by = "SULU", to = "PAC", what = "lease of North Borneo to a Pacifican Borneo company" }]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "In 1878 the Sultan's lease of North Borneo goes to a Pacifican Borneo company rather than to the British."
+open = "Term and rent not stated."
+
+[[commitment]]
+id = "C-1883-PH-MUNICIPAL"
+name = "Philippine Municipal Ordinance"
+kind = "law"
+parties = ["PH"]
+from = 1883
+conditions = [
+  "Every town has an elected tribunal, its own funds and no parish priest over its budget.",
+  "Towns are bound to piped water, quarantine of ships, latrines kept away from wells and burial away from rivers.",
+]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "In 1883 a Municipal Ordinance gives every town an elected tribunal, its own funds and no parish priest over its budget, and binds the towns to piped water, quarantine of ships, latrines kept away from wells, and burial away from rivers."
+
+[[commitment]]
+id = "C-1876-PH-LAND-BONDS"
+from_approx = true
+name = "Philippine land bonds (friar-estate purchases)"
+kind = "loan"
+parties = ["PH", "PAC"]
+from = 1876
+owes = [{ by = "PAC", to = "PH", what = "the Confederation's guarantee, the same as on the Redemption Loan" }]
+conditions = ["Land is resold to tenants in installments to a land board."]
+status = "APPROVED"
+cr = "CR-029"
+section = 15
+quote = "Friar-estate purchases, financed by Philippine land bonds under the same guarantee, resell land to tenants in installments to a land board."
+open = "Year not stated (1876 is the earliest possible, the year of the sale; the friar estates are also paid for under the 1885 papal bargain). Holders, security and maturity not stated; the guarantee runs to the bondholders, who are not named."
+
+[[commitment]]
+id = "C-1879-RYUKYU"
+name = "Ryukyu mediation"
+kind = "settlement"
+parties = ["JP", "CN", "PAC"]
+from = 1879
+conditions = ["Japan keeps the islands; China receives trade guarantees."]
+status = "PROPOSED"
+section = 15
+quote = "mediates Ryukyu in 1879: Japan keeps the islands, China receives trade guarantees."
+open = "Who gives the trade guarantees, and their term, not stated."
+
+# ---------------------------------------------------------------------------
+# §16 Vladivostok, the Customs Inspectorate and the Korean guarantee
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1878-BERLIN"
+name = "Vladivostok settlement folded into the Congress of Berlin"
+kind = "settlement"
+parties = ["RU", "JP", "UK", "PAC"]
+from = 1878
+owes = [
+  { by = "RU", to = "JP", what = "restoration of Southern Sakhalin" },
+  { by = "UK", to = "PAC", what = "recognition of the Philippine purchase" },
+]
+status = "PROPOSED"
+section = 16
+quote = "Southern Sakhalin is restored to Japan under the proposed settlement, folded into the Congress of Berlin; Britain recognizes the Philippine purchase."
+
+[[commitment]]
+id = "C-1884-KEELUNG"
+from_approx = true
+name = "Keelung coal concession"
+kind = "concession"
+parties = ["CN", "PAC"]
+from = 1884
+owes = [
+  { by = "CN", to = "PAC", what = "a coal concession to a Chinese–Pacifican company" },
+  { by = "PAC", to = "CN", what = "railway construction and fleet-rebuilding credit" },
+]
+conditions = ["China retains sovereignty."]
+status = "PROPOSED"
+section = 16
+quote = "China grants a coal concession to a Chinese–Pacifican company, retains sovereignty and receives railway construction and fleet-rebuilding credit."
+open = "Dated only by the 1884–1885 window; term not stated."
+
+[[commitment]]
+id = "C-1885-CUSTOMS"
+open = "Term not stated; the credit secured on customs is undated and unquantified. 'The defense treaty' under which China recovers it appears nowhere else in the storyline."
+more_quotes = [
+  "becomes the named official through whom trade, revenue and divided loyalty acquire a personal face",
+  "The small agency fee and China’s retained appointment power distinguish administration from territorial seizure.",
+  "Pacifican credit secured on customs makes friendship increasingly consequential to China's independence.",
+  "In 1928–1929 China recovers the Inspectorate and customs under the defense treaty.",
+]
+ended_by = "China recovers the Inspectorate and customs in 1928–1929"
+ended = 1929
+name = "Chinese Customs Inspectorate under Pacifican leadership"
+kind = "office"
+parties = ["CN", "PAC"]
+from = 1885
+holder = "CT-FONG"
+owes = [
+  { by = "PAC", to = "CN", what = "administration of the Customs Inspectorate, with multinational staff and published accounts (PROPOSED)" },
+  { by = "CN", to = "PAC", what = "service of Pacifican credit secured on customs" },
+]
+can_end = [{ who = "CN", how = "China's retained appointment power" }]
+conditions = ["A small agency fee (payer not stated)."]
+status = "CANON"
+section = 16
+quote = "The Customs Inspectorate passes to Pacifican leadership in 1885 by China's appointment."
+
+[[commitment]]
+id = "C-1885-PAPAL"
+name = "Papal arbitration and the Leo XIII bargain"
+kind = "settlement"
+parties = ["VATICAN", "PAC", "DE", "PH"]
+from = 1885
+owes = [
+  { by = "DE", to = "PAC", what = "Pacifica's Carolines confirmed; Pacifica's claim to Wake recorded" },
+  { by = "PAC", to = "VATICAN", what = "freedom for the Catholic missions in the Carolines" },
+  { by = "PAC", to = "DE", what = "trade and coaling rights (Germany keeps the Marshalls)" },
+  { by = "PAC", to = "VATICAN", what = "Philippine parishes pass to Filipino secular priests; Filipino bishops named with the right to succeed; friar estates paid for partly into an endowment that stays in the islands" },
+]
+status = "APPROVED"
+cr = "CR-029"
+section = 16
+quote = "Papal arbitration in 1885 confirms Pacifica's Carolines on condition of freedom for the Catholic missions, while granting Germany trade and coaling rights"
+more_quotes = ["Leo XIII's price and Pacifica's are one bargain: the Philippine parishes pass to Filipino secular priests, Filipino bishops are named with the right to succeed, and the friar estates are paid for partly into an endowment that stays in the islands."]
+open = "Where Germany's trade and coaling rights apply and their term are not stated."
+
+[[commitment]]
+id = "C-1887-KR-GUARANTEE"
+name = "Port Hamilton settlement: guarantee of Korean territory"
+kind = "guarantee"
+parties = ["CN", "RU", "PAC", "KR", "UK"]
+from = 1887
+owes = [
+  { by = "CN", to = "KR", what = "guarantee of Korean territory (with Russia and Pacifica)" },
+  { by = "RU", to = "KR", what = "guarantee of Korean territory (with China and Pacifica)" },
+  { by = "PAC", to = "KR", what = "guarantee of Korean territory; a duty to protect Korea without owning it" },
+  { by = "UK", to = "KR", what = "withdrawal from Port Hamilton" },
+]
+status = "APPROVED"
+cr = "CR-029"
+section = 16
+quote = "British withdrawal rests on a proposed China–Russia–Pacifica guarantee of Korean territory. The decision gives Pacifica a duty to protect Korea without owning it."
+more_quotes = ["The Port Hamilton settlement and the Chinese Customs appointment display an empire increasingly powerful through guarantees, finance and standards."]
+open = "Year not stated beyond 'Port Hamilton in 1885–1887' and §21 (1887). The guarantee is called 'proposed' in lower case under the paragraph's APPROVED label: whether it is concluded is ambiguous. Term not stated."
+
+[[commitment]]
+id = "C-1878-PAGO-PAGO"
+name = "1878 Pago Pago treaty"
+kind = "treaty"
+parties = ["HI", "PAC", "SAMOA"]
+from = 1878
+owes = [{ by = "SAMOA", to = "PAC", what = "Pago Pago (terms not stated), signed by Hawaii on the Confederation's behalf" }]
+status = "APPROVED"
+cr = "CR-029"
+section = 16
+quote = "Hawaii had signed the 1878 treaty for Pago Pago on the Confederation's behalf"
+open = "Terms and term not stated. Kalākaua's 1886–87 Polynesian compact with Malietoa is not recorded: the text does not say it was concluded or give terms."
+
+# ---------------------------------------------------------------------------
+# §17 The island alliance unravels after Lot's death
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1872-RUTH-KUHINA-NUI"
+name = "Ruth Keʻelikōlani as Kuhina Nui"
+kind = "office"
+parties = ["HI"]
+from = 1872
+ended = 1876
+ended_by = "Ruth refuses to recognize the Territorial Council and resigns; the Queen leaves the office vacant"
+status = "APPROVED"
+cr = "CR-027"
+section = 17
+quote = "She appoints her half-sister Ruth Keʻelikōlani Kuhina Nui"
+more_quotes = [
+  "Ruth countersigns as Kuhina Nui",
+  "Ruth refuses to recognize the Council and resigns as Kuhina Nui; the Queen leaves the office vacant.",
+]
+open = "Ruth is not in canon_facts.toml, so no holder is recorded."
+
+[[commitment]]
+id = "C-1874-ORDINANCES"
+open = "An illegal imposed regime, not a consented obligation."
+more_quotes = [
+  "The ordinances breach the Enabling Law's protected provisions and Article XIV's bar on annexation.",
+  "Hawaii's Supreme Court declares the ordinances void. No one can enforce the judgment against confederal marines",
+  "Hawaii's assent comes from the appointed Territorial Council created by the illegal ordinances of 1874–1876.",
+  "It dissolves the Territorial Council and restores Hawaii's legislature.",
+]
+ended_by = "the Act of Settlement dissolves the Territorial Council and restores Hawaii's legislature"
+ended = 1914
+name = "Confederal ordinances and the Territorial Council"
+kind = "law"
+parties = ["PAC", "HI"]
+from = 1874
+owes = [{ by = "HI", to = "PAC", what = "(imposed) harbour police, the Honolulu port administration, the defence districts and, from 1876, an appointed Territorial Council that takes over the legislature's business" }]
+can_end = [{ who = "HI", how = "Hawaii's Supreme Court declares the ordinances void; the judgment is never enforced or reversed" }]
+conditions = ["The ordinances breach the Enabling Law's protected provisions and Article XIV's bar on annexation."]
+status = "APPROVED"
+cr = "CR-027"
+section = 17
+quote = "Between 1874 and 1876 the confederal cabinet stretches the Convention by ordinance under the Enabling Law: harbour police, then the Honolulu port administration, then the defence districts, and in 1876 an appointed Territorial Council of planters and confederal officials that takes over the legislature's business."
+
+[[commitment]]
+id = "C-1875-KANEOHE"
+from_approx = true
+name = "Kāneʻohe capital lease"
+kind = "lease"
+parties = ["HI", "PAC"]
+from = 1875
+owes = [{ by = "HI", to = "PAC", what = "lease of the Kāneʻohe capital ground from the Hawaiian Crown lands" }]
+conditions = ["The ground remains the throne's land.", "Mōkapu's burial dunes stay unbuilt.", "Heʻeia fishpond is kept working."]
+status = "CANON"
+section = 17
+quote = "Victoria leases the ground from the Hawaiian Crown lands and insists that it remain the throne's land, with Mōkapu's burial dunes unbuilt and Heʻeia fishpond kept working."
+open = "Year of the lease not stated (1875 = choice of site); term and rent not stated."
+
+# ---------------------------------------------------------------------------
+# §19 The Golden Afternoon and the examination state
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1880-DEV-FUND"
+name = "Development Fund"
+kind = "law"
+parties = ["PAC", "ESTATES"]
+from = 1880
+conditions = ["Seventy percent of each budget surplus, before debt repayment, goes into research, power, ports, rail and industrial credit."]
+status = "CANON"
+section = 19
+quote = "From 1880 a Development Fund directs seventy percent of each budget surplus, before debt repayment, into research, power, ports, rail and industrial credit."
+more_quotes = ["the Development Fund has its claim on every surplus"]
+open = "Legal form (statute or decree) not stated."
+
+[[commitment]]
+id = "C-1880-COLOMBIA"
+name = "Colombian transit treaty"
+kind = "treaty"
+parties = ["CO", "PAC"]
+from = 1880
+owes = [{ by = "CO", to = "PAC", what = "transit and neutrality rights, first refusal on the concession and control of the Panama Railroad" }]
+status = "CANON"
+section = 19
+quote = "Pacifica secures Colombian transit and neutrality rights, first refusal on the concession and control of the Panama Railroad in 1880."
+open = "Term not stated; the 1889 purchase of the French enterprise is a later one-off act."
+
+# ---------------------------------------------------------------------------
+# §21 The Constitution of the Realm
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1887-CONSTITUTION"
+name = "Constitution of the Realm"
+kind = "constitution"
+parties = ["PAC", "CROWN", "COUNTIES", "ESTATES", "HI"]
+from = 1887
+owes = [
+  { by = "PAC", to = "HI", what = "entrenched language and tenure guarantees for Hawaii as a historic land (no veto)" },
+  { by = "PAC", to = "COUNTIES", what = "land taxes, roads, sanitation, primary schools and ordinary policing left to county boards" },
+]
+conditions = [
+  "Abolishes the states; 124 counties; residual powers belong to the Realm.",
+  "A Commissioner never serves in his home county, rotates at least every five years and may suspend a county act for thirty days for the Court's review.",
+  "No county may borrow abroad; domestic borrowing needs Treasury consent.",
+  "Ministers answer to the ruler, not the Chamber.",
+]
+status = "CANON"
+section = 21
+quote = "The Constitution of the Realm of 1887 abolishes the states and draws 124 counties across their old boundaries, dividing Deseret among several of them."
+more_quotes = [
+  "California and Hawaii remain historic lands with entrenched language and tenure guarantees, not sovereign members with vetoes.",
+  "The constitution follows amendment procedure in form, with two-thirds of both chambers and founding-state ratification.",
+  "He never serves in his home county, rotates at least every five years and may suspend a county act for thirty days for the Court's review. No county may borrow abroad; domestic borrowing needs Treasury consent.",
+  "The ruler appoints and dismisses ministers; they answer to the ruler, not the Chamber.",
+]
+open = "Its own amendment procedure is not stated. Hawaii's assent came from the illegal Territorial Council; Hawaiian loyalists reject it."
+
+[[commitment]]
+id = "C-1887-REGENCY"
+open = "Composition of the Regency Council not stated."
+more_quotes = [
+  "Victoria governs as Regent of a Realm whose crown has yet to be established, rather than as guardian obliged to surrender office on the boy's majority.",
+  "The restored Chancellor is appointed by the Regent with Senate consent.",
+  "In 1915 Victoria lays down both the regency and her crown, and Julian accedes to both.",
+]
+ended_by = "Victoria lays down the regency and her crown; Julian accedes"
+ended = 1915
+name = "Regency of the Realm"
+kind = "office"
+parties = ["CROWN", "PAC"]
+from = 1887
+holder = "CT-KAIULANI"
+conditions = [
+  "Victoria is Regent until an Act of Settlement establishes the Crown; Julian is Heir of the Realm.",
+  "She is not a guardian obliged to surrender office on the boy's majority.",
+  "The restored Chancellor is appointed by the Regent with Senate consent.",
+]
+status = "CANON"
+section = 21
+quote = "A regency article names Victoria, Queen of Hawaii, Regent of the Realm until an Act of Settlement establishes the Crown, and Julian Heir of the Realm."
+
+[[commitment]]
+id = "C-1887-POLYTECHNIC"
+name = "Polytechnic charter (chartered estate)"
+kind = "charter"
+parties = ["ESTATES", "CROWN", "PAC"]
+from = 1887
+owes = [{ by = "PAC", to = "ESTATES", what = "the Polytechnic's examinations, audit, General Staff and telegraph" }]
+can_end = [{ who = "CROWN", how = "the ruler chooses the chief from three graduate-council nominees; removal only with Senate consent" }]
+status = "CANON"
+section = 21
+quote = "Thalassia is the capital, the Court of the Realm sits at Monterey and the Polytechnic is chartered at Carquinez."
+more_quotes = [
+  "the Polytechnic's examinations, audit, General Staff and telegraph form a chartered estate with its own continuity. Its chief is chosen by the ruler from three graduate-council nominees and removed only with Senate consent.",
+  "The Constitution gives the Polytechnic its examinations, audit, General Staff and telegraph",
+]
+
+[[commitment]]
+id = "C-1888-OPM"
+name = "Office of Public Measures (independent estate)"
+kind = "charter"
+parties = ["ESTATES", "PAC"]
+from = 1888
+conditions = ["Twelve-year heads reporting to the Senate."]
+status = "CANON"
+section = 21
+quote = "The Office of Public Measures, established in 1888, supplies the other independent estate, with twelve-year heads reporting to the Senate."
+
+# ---------------------------------------------------------------------------
+# §22–§24 The Truce, life offices, the Five and the Japanese compact
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1887-TRUCE"
+name = "Truce of Thalassia"
+kind = "pact"
+parties = ["CROWN", "INLAND", "NAVAL", "ESTATES"]
+from = 1887
+owes = [
+  { by = "INLAND", to = "CROWN", what = "accept Victoria's regency and her adopted son as successor" },
+  { by = "NAVAL", to = "CROWN", what = "accept Victoria's regency and her adopted son as successor" },
+  { by = "ESTATES", to = "CROWN", what = "accept Victoria's regency and her adopted son as successor" },
+  { by = "CROWN", to = "INLAND", what = "life offices for the named holders; the factions meet through the Crown" },
+]
+conditions = [
+  "Silas's inland command sits at Sacramento, Kiyoshi's naval party at Pearl Harbor, Soberanes's Polytechnic at Carquinez; Victoria holds Thalassia and Honolulu.",
+  "The named holders keep their offices for life, after which the Regent appoints with Senate consent.",
+]
+status = "CANON"
+section = 22
+quote = "The Truce is extra-legal before its terms become organic law."
+more_quotes = [
+  "Negotiations take place in Hawaii during 1886–1887 and the Truce of Thalassia is signed in spring 1887 while Elias lives.",
+  "Victoria’s adopted infant son is their acceptable successor, and she becomes regent without a war of inheritance.",
+  "The negotiated pact takes effect; the empire consolidates without a succession war.",
+  "The Truce supplies a governing balance through the life offices and Regency Council.",
+]
+open = "The signing in spring 1887 is **[PROPOSED]**; the terms paragraph is unlabelled. When and by what act its terms become organic law is not stated."
+
+[[commitment]]
+id = "C-1887-LIFE-INLAND"
+open = "Silas's death year is not in canon_facts.toml, so it is recorded here as `ended`."
+more_quotes = [
+  "Silas's inland command sits at Sacramento, Kiyoshi's naval party at Pearl Harbor, Soberanes's Polytechnic at Carquinez",
+  "In the autumn of 1912 Silas comes to Thalassia and confesses Donner to Victoria, who has known for twenty-five years; he dies at Sacramento that winter.",
+]
+ended_by = "Silas dies at Sacramento in the winter of 1912; an examined officer takes the inland command in 1913"
+ended = 1912
+name = "Inland command at Sacramento (Truce life office)"
+kind = "office"
+parties = ["INLAND", "CROWN"]
+from = 1887
+holder = "CT-SILAS-CLAIMANT"
+can_end = [{ who = "CROWN", how = "after the holder's life the Regent appoints with Senate consent" }]
+status = "CANON"
+section = 22
+quote = "The named holders keep their offices for life, after which the Regent appoints with Senate consent."
+
+[[commitment]]
+id = "C-1887-LIFE-NAVAL"
+open = "The reserved squadron arrangement (C-1887-JP-COMPACT) runs to the 1932 renewal and is then given up; see that entry."
+lapses_on_death = [
+  "KIYOSHI",
+]
+name = "Japanese naval party at Pearl Harbor (Truce life office)"
+kind = "office"
+parties = ["NAVAL", "CROWN"]
+from = 1887
+holder = "KIYOSHI"
+can_end = [{ who = "CROWN", how = "after the holder's life the Regent appoints with Senate consent" }]
+status = "CANON"
+section = 22
+quote = "The named holders keep their offices for life, after which the Regent appoints with Senate consent."
+more_quotes = ["Silas's inland command sits at Sacramento, Kiyoshi's naval party at Pearl Harbor, Soberanes's Polytechnic at Carquinez"]
+
+[[commitment]]
+id = "C-1887-LIFE-POLYTECHNIC"
+name = "Polytechnic headship at Carquinez (Truce life office)"
+kind = "office"
+parties = ["ESTATES", "CROWN"]
+from = 1887
+holder = "CT-SOBERANES"
+can_end = [{ who = "CROWN", how = "after the holder's life the Regent appoints with Senate consent" }]
+status = "CANON"
+section = 22
+quote = "The named holders keep their offices for life, after which the Regent appoints with Senate consent."
+more_quotes = ["Silas's inland command sits at Sacramento, Kiyoshi's naval party at Pearl Harbor, Soberanes's Polytechnic at Carquinez"]
+open = "How the life tenure squares with the constitutional rule that the ruler chooses the Polytechnic chief from three nominees and removes him only with Senate consent is not stated."
+
+[[commitment]]
+id = "C-1887-FIVE"
+name = "Unwritten arrangement between the Crown and the Five"
+kind = "pact"
+parties = ["CROWN", "ESTATES"]
+from = 1887
+owes = [
+  { by = "CROWN", to = "ESTATES", what = "does not touch their charters, appointments or the Development Fund; sanctions them" },
+  { by = "ESTATES", to = "CROWN", what = "never take sides against the Crown and never let a faction capture them" },
+]
+conditions = ["Never written down.", "Seats pass to successors; there are always five (PROPOSED context)."]
+status = "APPROVED"
+cr = "CR-027"
+section = 24
+quote = "Their arrangement with the Crown is never written down."
+more_quotes = [
+  "The Crown does not touch their charters, appointments or the Development Fund; the estates never take sides against the Crown and never let a faction capture them.",
+  "Seats pass to successors such as Steinmetz, Baekeland, Doheny, Giannini and Montgomery, and after 1915 to Marcus Vance III; there are always five.",
+]
+
+[[commitment]]
+id = "C-1887-JP-COMPACT"
+open = "No final term stated; renewals listed only to 1917. Canon does not say whether the 1927 Concord replaces the compact, whose next ten-yearly renewal would fall in 1927."
+more_quotes = [
+  "Japan backs the regency and holds its officers to the agreement; Pacifica guarantees Japan against Russia and supports its treaty revision with Europe. The western squadron’s command is reserved to officers of the Japanese naval party.",
+  "Both states ratify renewals every ten years, in 1897, 1907 and 1917.",
+  "The naval party loses its reserved squadron arrangement as command is consolidated, making the Navy ministry part of the bargain.",
+]
+name = "Compact with Tokyo"
+kind = "compact"
+parties = ["JP", "PAC", "NAVAL"]
+from = 1887
+renewals = [1897, 1907, 1917]
+owes = [
+  { by = "JP", to = "PAC", what = "backs the regency and holds its officers to the agreement" },
+  { by = "PAC", to = "JP", what = "guarantee against Russia and support for treaty revision with Europe" },
+  { by = "PAC", to = "NAVAL", what = "command of the western squadron reserved to officers of the Japanese naval party" },
+]
+can_end = [
+  { who = "JP", how = "ratifies each ten-year renewal" },
+  { who = "PAC", how = "ratifies each ten-year renewal" },
+]
+conditions = ["Japan's crown, domestic government and army remain Japanese."]
+status = "PROPOSED"
+section = 24
+quote = "A compact with Tokyo is signed alongside the Truce."
+
+# ---------------------------------------------------------------------------
+# Part 3: storyline §25–§27
+# ---------------------------------------------------------------------------
+
+# Pacifica commitments ledger — part 3: master_storyline.md lines 532–647 (§25–§27, 1887–1915).
+# Format and rules: see the header of commitments/data/ledger.toml.
+
+# ---------------------------------------------------------------------------
+# Parties first needed in this range
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "CU"
+name = "Cuba"
+
+[[party]]
+id = "NI"
+name = "Nicaragua"
+
+[[party]]
+id = "KURODA"
+name = "Kuroda Kiyoshi and his branch house"
+
+[[party]]
+id = "SANFRANCISCO"
+name = "San Francisco lenders and bondholders"
+
+[[party]]
+id = "CSA-BONDHOLDERS"
+name = "Holders of the Confederate compensation bonds (not named in canon)"
+
+# ---------------------------------------------------------------------------
+# §25 — the regency's measures (domestic)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1888-FRANCHISE"
+name = "Franchise Law of 1888"
+kind = "law"
+parties = ["PAC"]
+from = 1888
+conditions = [
+  "each adult citizen one ordinary vote, a second for the civil examination and a third for a degree, commission or Polytechnic diploma",
+  "each certified language beyond English on the Crown's list adds a tongue vote; tongue votes are uncapped",
+  "referendums remain restricted to examined citizens",
+]
+status = "CANON"
+section = 25
+quote = "The 1888 Franchise Law gives each adult citizen one ordinary vote, a second for the civil examination and a third for a degree, commission or Polytechnic diploma."
+more_quotes = [
+  "Each certified language beyond English on the Crown’s list adds a tongue vote. Tongue votes are uncapped. Referendums remain restricted to examined citizens.",
+]
+open = "Amendment procedure and term not stated."
+
+[[commitment]]
+id = "C-1888-COUNTY-GRADES"
+from_approx = true
+name = "Earned county autonomy (chartered status, receivership and programme sunset)"
+kind = "law"
+parties = ["PAC", "COUNTIES"]
+from = 1888
+owes = [
+  { by = "PAC", to = "COUNTIES", what = "chartered status after five consecutive years at the Office's four standards; measures grants follow results" },
+  { by = "COUNTIES", to = "PAC", what = "receivership permitted after three years below the standards or declared disorder" },
+]
+can_end = [
+  { who = "PAC", how = "a suspended board stays suspended up to five years, renewable by the Senate" },
+  { who = "PAC", how = "county powers, boundaries and grades are organic law, amendable by both chambers without local consent" },
+]
+conditions = [
+  "four standards: infant mortality, examination passes, revenue per head and order",
+  "every Realm programme lapses after ten years unless the Office certifies it",
+]
+status = "CANON"
+section = 25
+quote = "Five consecutive years at the Office's four standards—infant mortality, examination passes, revenue per head and order—bring chartered status; three years below or declared disorder permit receivership."
+more_quotes = [
+  "A board can be suspended for up to five years, renewable by the Senate. Measures grants follow results. Every Realm programme lapses after ten years unless the Office certifies it.",
+  "County powers, boundaries and grades are organic law, amendable by both chambers without local consent.",
+]
+open = "Year of enactment not stated; 1888 is the Office of Public Measures' founding year (canon_facts), used as the earliest possible start. Relation to the 1887 Constitution's county articles not stated."
+
+[[commitment]]
+id = "C-1890-GUEST-WORKERS"
+name = "Guest-worker programme"
+kind = "law"
+parties = ["PAC"]
+from = 1890
+conditions = [
+  "sector quotas and an employer levy protect resident wages",
+  "three-year contracts with inspected housing, wage protection and paid passage home",
+  "workers may change employer after a contract and seek residence after six years and a trade test",
+]
+status = "CANON"
+section = 25
+quote = "From 1890 a guest-worker programme fills jobs left by resident growth and skilled migration."
+more_quotes = [
+  "Sector quotas and an employer levy protect resident wages; three-year contracts provide inspected housing, wage protection and paid passage home. Workers may change employer after a contract and seek residence after six years and a trade test.",
+]
+open = "Sending states and any intergovernmental agreement not stated."
+
+# ---------------------------------------------------------------------------
+# §25 — continental settlement
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1888-CSA-COMP-BONDS"
+name = "Confederate compensation bonds (final abolition)"
+kind = "loan"
+parties = ["CSA", "PAC", "CSA-BONDHOLDERS"]
+from = 1888
+owes = [
+  { by = "CSA", to = "CSA-BONDHOLDERS", what = "coupons on long compensation bonds financing final abolition" },
+  { by = "PAC", to = "CSA-BONDHOLDERS", what = "Pacifica's guarantee of the coupons (it pays them when Richmond misses in 1893–1895)" },
+]
+secured_on = "Confederate customs co-administered by Pacifica"
+status = "CANON"
+section = 25
+quote = "Final Confederate abolition in 1888–1889 is financed by long compensation bonds secured on customs co-administered by Pacifica."
+more_quotes = [
+  "When Richmond misses coupons in 1893–1895, Pacifica's guarantee pays them, deepening dependence.",
+]
+open = "Term ('long'), amount and holders not stated; whether the guarantee is a separate instrument not stated. The co-administration of customs comes from the 1871–1872 association treaties (earlier part)."
+
+[[commitment]]
+id = "C-1895-US-GOLD-RESCUE"
+name = "Rescue of the Union's gold reserve"
+kind = "settlement"
+parties = ["US", "PAC"]
+from = 1895
+owes = [
+  { by = "PAC", to = "US", what = "rescue of the Union's gold reserve" },
+  { by = "US", to = "PAC", what = "canal recognition, Asian-war neutrality and tariff concessions" },
+]
+status = "PROPOSED"
+section = 25
+quote = "The price includes canal recognition, Asian-war neutrality and tariff concessions."
+more_quotes = ["Pacifica rescues the Union's gold reserve in 1895."]
+open = "Form of the rescue (loan, purchase), repayment and term not stated."
+
+[[commitment]]
+id = "C-1897-US-ARBITRATION"
+name = "Whitney's commerce and arbitration treaty"
+kind = "treaty"
+parties = ["US", "PAC"]
+from = 1897
+owes = [
+  { by = "PAC", to = "US", what = "return of the Bread March prisoners" },
+]
+status = "PROPOSED"
+section = 25
+quote = "In 1897 the prisoners return under Whitney's commerce and arbitration treaty."
+open = "Commercial and arbitration terms and duration not stated. The PROPOSED label precedes the sentence in the paragraph and may be meant only for the Waite/sentencing detail."
+
+[[commitment]]
+id = "C-1895-GULF-COMPACT"
+name = "Gulf compact (conditions of admission)"
+kind = "compact"
+parties = ["GULF", "PAC"]
+from = 1895
+owes = [
+  { by = "GULF", to = "PAC", what = "meet the five measures and the two-part sixth test, registers, revenue, debt and policy conditions, each held twenty-five consecutive years, before admission is considered" },
+]
+can_end = [
+  { who = "PAC", how = "considers admission only if the Republic adds usable power and freedom of action without adding risk or a veto; may demand a second generation" },
+]
+conditions = [
+  "five measures (infant mortality, literacy, real wages, homicide, typhoid) at the bar set by Pacifica's weakest former-territory state",
+  "sixth test: Black and freedmen twenty-year-olds pass the Defense Law's joint medical and literacy examination at no less than 95% of the white rate, and their infant mortality is no more than 1.05 times the white rate",
+  "registers covering at least 90% of births, deaths, land titles and taxpayers",
+  "revenue sufficient for the common navy and debt quota; a limit on debt held by Union creditors",
+  "gold, standard-gauge rail, the AC standard, Crown-share concession law and ports open to the common navy",
+  "examinations for office and franchise, recognition of the continental settlement and a common foreign policy",
+  "every measure must hold for twenty-five consecutive years; Pacifica may demand a second generation",
+]
+status = "CANON"
+section = 25
+quote = "The compact also requires registers covering at least ninety percent of births, deaths, land titles and taxpayers; revenue sufficient for the common navy and debt quota; and a limit on debt held by Union creditors."
+more_quotes = [
+  "Every measure must hold for twenty-five consecutive years before Pacifica will consider admission, and Pacifica may demand a second generation.",
+  "Pacifica considers admission only if the Republic adds usable power and freedom of action without adding risk or a veto.",
+  "Five measures—infant mortality, literacy, real wages, homicide and typhoid—must meet the bar set by Pacifica's weakest former-territory state.",
+  "The sixth test has two parts: Black and freedmen twenty-year-olds must pass the Defense Law's joint medical and literacy examination at no less than ninety-five percent of the white rate, and their infant mortality must be no more than 1.05 times the white rate.",
+  "Gold, standard-gauge rail, the AC standard, Crown-share concession law and ports open to the common navy must accompany examinations for office and franchise, recognition of the continental settlement and a common foreign policy.",
+  "A 1891 Deep South presidency, Gulf compact in 1895 and deadlocked 1897 election lead Virginia and North Carolina back to the Union in 1898–1899.",
+  "The five general measures first pass together in 1925.",
+  "The 1931 oil glut breaks the general-measures streak, and both parity tests remain far from passing in 1932.",
+]
+open = "The year 1895 comes from a passage labelled PROPOSED dates and predates the Gulf Republic (1899–1900); canon does not say whether 'the compact' of the admission conditions is that 1895 compact or a later one with the Republic. Parties and signature not stated."
+
+[[commitment]]
+id = "C-1899-GULF-DEFENCE"
+from_approx = true
+name = "Mutual defense pact with the Gulf Republic"
+kind = "pact"
+parties = ["GULF", "PAC"]
+from = 1899
+owes = [
+  { by = "PAC", to = "GULF", what = "mutual defense" },
+  { by = "GULF", to = "PAC", what = "mutual defense" },
+]
+conditions = ["citizenship stays separate"]
+status = "PROPOSED"
+label_note = "The paragraph's label is 'PROPOSED dates': it qualifies the chronology (1891, 1895, 1897, 1898–1900), not the existence of the pact."
+section = 25
+quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
+open = "Year not stated; the Republic is formed in 1899–1900, so 1899 is the earliest possible start. Term not stated."
+
+[[commitment]]
+id = "C-1899-GULF-TRADE"
+from_approx = true
+name = "Trade treaty with the Gulf Republic"
+kind = "treaty"
+parties = ["GULF", "PAC"]
+from = 1899
+status = "PROPOSED"
+label_note = "The paragraph's label is 'PROPOSED dates': it qualifies the chronology, not the existence of the treaty."
+section = 25
+quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
+open = "Year, terms and duration not stated; the Republic is formed in 1899–1900."
+
+[[commitment]]
+id = "C-1916-SEQUOYAH"
+name = "Sequoyah settlement"
+kind = "settlement"
+parties = ["GULF"]
+from = 1916
+conditions = ["equal citizenship and land for freedmen"]
+status = "CANON"
+section = 25
+quote = "The 1916 Sequoyah settlement secures equal citizenship and land for freedmen."
+open = "Counterparties (freedmen, Indian nations) and terms beyond citizenship and land not stated."
+
+[[commitment]]
+id = "C-1898-CUBA-GUARANTEE"
+from_approx = true
+more_quotes = [
+  "Cuba becomes independent after the Maine crisis of 1898; Puerto Rico goes to the Union.",
+  "It remains Cuba’s co-guarantor.",
+]
+name = "Joint guarantee of Cuban independence"
+kind = "guarantee"
+parties = ["PAC", "GULF", "US", "CU"]
+from = 1898
+owes = [
+  { by = "PAC", to = "CU", what = "guarantee of independence" },
+  { by = "GULF", to = "CU", what = "guarantee of independence" },
+  { by = "US", to = "CU", what = "guarantee of independence" },
+]
+can_end = [
+  { who = "PAC", how = "intervention only by agreement of all three guarantors" },
+  { who = "GULF", how = "intervention only by agreement of all three guarantors" },
+  { who = "US", how = "intervention only by agreement of all three guarantors" },
+]
+conditions = ["no foreign bases"]
+status = "CANON"
+section = 25
+quote = "Pacifica, the Gulf Republic and the Union jointly guarantee Cuban independence, allowing intervention only by agreement of all three and no foreign bases."
+open = "Year of the guarantee not stated; 1898 is the year of independence, but the Gulf Republic co-guarantor only forms in 1899–1900. Duration not stated."
+
+[[commitment]]
+id = "C-1898-CUBA-DEBT"
+from_approx = true
+name = "Cuban colonial debt held by Pacifica"
+kind = "loan"
+parties = ["CU", "PAC"]
+from = 1898
+owes = [{ by = "CU", to = "PAC", what = "service of discounted colonial debt bought by Pacifica" }]
+secured_on = "Cuban customs"
+status = "PROPOSED"
+section = 25
+quote = "Pacifica buys discounted colonial debt secured on Cuban customs, funds Finlay's yellow-fever work and acquires exclusive Nicaraguan canal rights."
+open = "Year of purchase, amount and maturity not stated."
+
+[[commitment]]
+id = "C-1898-NICARAGUA-CANAL"
+from_approx = true
+name = "Exclusive Nicaraguan canal rights"
+kind = "concession"
+parties = ["NI", "PAC"]
+from = 1898
+owes = [{ by = "NI", to = "PAC", what = "exclusive canal rights" }]
+status = "PROPOSED"
+section = 25
+quote = "Pacifica buys discounted colonial debt secured on Cuban customs, funds Finlay's yellow-fever work and acquires exclusive Nicaraguan canal rights."
+open = "Year, grantor's terms and duration not stated; 1898 is only the paragraph's anchor year."
+
+# ---------------------------------------------------------------------------
+# §25 — Samoa, the Philippines, Britain
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1889-BERLIN-ACT"
+name = "Berlin Act (Samoa)"
+kind = "treaty"
+parties = ["DE", "UK", "PAC", "SAMOA"]
+from = 1889
+owes = [
+  { by = "DE", to = "SAMOA", what = "protection as a protecting power" },
+  { by = "UK", to = "SAMOA", what = "protection as a protecting power" },
+  { by = "PAC", to = "SAMOA", what = "protection as a protecting power" },
+]
+status = "APPROVED"
+cr = "CR-029"
+section = 25
+quote = "the Berlin Act of June makes Germany, Britain and Pacifica the protecting powers, and the partition of 1899 gives Pacifica Tutuila."
+open = "Whether the 1899 partition ends the Berlin Act is not stated."
+
+[[commitment]]
+id = "C-1899-SAMOA-PARTITION"
+name = "Partition of Samoa"
+kind = "settlement"
+parties = ["DE", "UK", "PAC", "SAMOA"]
+from = 1899
+conditions = ["gives Pacifica Tutuila"]
+status = "APPROVED"
+cr = "CR-029"
+section = 25
+quote = "the Berlin Act of June makes Germany, Britain and Pacifica the protecting powers, and the partition of 1899 gives Pacifica Tutuila."
+more_quotes = ["Tutuila through the Samoan settlements of 1889 and 1899"]
+open = "Signatories and terms other than Tutuila not stated; Britain's share not stated."
+
+[[commitment]]
+id = "C-1886-PH-PESO"
+name = "Philippine gold-exchange peso"
+kind = "law"
+parties = ["PH", "PAC"]
+from = 1886
+owes = [{ by = "PAC", to = "PH", what = "holds the peso's reserve in San Francisco" }]
+conditions = [
+  "reserve built from the profit on coining a token peso",
+  "the Banco Español-Filipino remains the bank of issue",
+]
+status = "PROPOSED"
+cr = "CR-029"
+section = 25
+quote = "In 1886 the peso goes onto a gold-exchange basis, ending the silver chaos Spain had left."
+more_quotes = ["Its reserve is built from the profit on coining a token peso and held in San Francisco, and the Banco Español-Filipino remains the bank of issue."]
+
+[[commitment]]
+id = "C-1892-PH-JUNTAS"
+name = "Elected Philippine provincial juntas"
+kind = "law"
+parties = ["PH", "PAC"]
+from = 1892
+owes = [{ by = "PAC", to = "PH", what = "elected provincial juntas" }]
+conditions = ["the Philippine Office of Public Measures grades each province; chartered Manila and named provinces first, the Cordillera and Moroland administered"]
+status = "APPROVED"
+cr = "CR-029"
+section = 25
+quote = "In 1892, when he founds the Liga Filipina, the Regent answers with elected provincial juntas."
+more_quotes = ["The Philippine Office of Public Measures grades each province: Pampanga, Bulacan, Batangas, Ilocos Norte, Cebu, Iloilo and chartered Manila first, the Cordillera and Moroland administered."]
+open = "Powers of the juntas and the grading rules not stated."
+
+[[commitment]]
+id = "C-1899-UK-SETTLEMENT"
+from_approx = true
+name = "Settlement with Britain during the Boer War"
+kind = "settlement"
+parties = ["UK", "PAC"]
+from = 1899
+conditions = ["fixes canal, Alaska, Samoa and Pacific recognition"]
+status = "PROPOSED"
+section = 25
+quote = "A settlement with Britain during the Boer War fixes canal, Alaska, Samoa and Pacific recognition before the next stage of rivalry."
+open = "Year not stated ('during the Boer War', 1899–1902); 1899 is the earliest possible start. Terms beyond the four recognitions not stated."
+
+[[commitment]]
+id = "C-1899-FANNING-PALMYRA"
+from_approx = true
+name = "Fanning cable station and equatorial islands recognition"
+kind = "treaty"
+parties = ["UK", "PAC"]
+from = 1899
+owes = [
+  { by = "PAC", to = "UK", what = "recognizes British Fanning as the station of the Pacific Cable" },
+  { by = "UK", to = "PAC", what = "recognizes Pacifican sovereignty over the equatorial islands from Palmyra to Baker" },
+]
+status = "APPROVED"
+cr = "CR-029"
+section = 25
+quote = "Pacifica recognizes British Fanning as the station of the Pacific Cable; Britain recognizes Pacifican sovereignty over the equatorial islands from Palmyra to Baker."
+open = "Year and instrument not stated; canon does not say whether this is part of the Boer War settlement in the preceding sentence. 1899 is a placeholder start."
+
+# ---------------------------------------------------------------------------
+# §25 — Asian guarantees
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1894-KOREA-ARMISTICE"
+from_approx = true
+name = "Korean armistice brokered by the Regent"
+kind = "treaty"
+parties = ["CN", "JP", "KR", "PAC"]
+from = 1894
+owes = [
+  { by = "CN", to = "KR", what = "Chinese suzerainty ended" },
+  { by = "CN", to = "JP", what = "a moderate indemnity and commercial rights; Japanese economic predominance in Korea" },
+]
+conditions = ["no mainland cession"]
+status = "CANON"
+section = 25
+quote = "Korea independent and neutral under Chinese, Japanese and Pacifican guarantee, Chinese suzerainty ended, Japanese economic predominance, a moderate indemnity and commercial rights, with no mainland cession."
+more_quotes = ["Receipts pay the indemnity, Japan, Pacifica's fee and then the provincial treasury."]
+open = "Year of the armistice not stated (the paragraph is set in October–November 1894, after Pyongyang and the Yalu). Indemnity amount and schedule not stated; it appears to be paid from Formosan receipts under the 1895 Convention."
+
+[[commitment]]
+id = "C-1894-KOREA-GUARANTEE"
+from_approx = true
+name = "Guarantee of Korean independence and neutrality"
+kind = "guarantee"
+parties = ["CN", "JP", "PAC", "KR"]
+from = 1894
+owes = [
+  { by = "CN", to = "KR", what = "guarantee of independence and neutrality" },
+  { by = "JP", to = "KR", what = "guarantee of independence and neutrality" },
+  { by = "PAC", to = "KR", what = "guarantee of independence and neutrality" },
+]
+status = "CANON"
+section = 25
+quote = "Korea independent and neutral under Chinese, Japanese and Pacifican guarantee"
+more_quotes = [
+  "When Russia demands Port Arthur or a Korean harbor after Germany’s Kiaochow seizure, the guarantees are tested.",
+  "Korea remains an independent guaranteed state with Japanese economic predominance and agreed military and transit rights; coordinated foreign policy does not make it a protectorate. It is not annexed in 1910.",
+]
+open = "Year not stated (armistice of 1894–1895); term not stated."
+
+[[commitment]]
+id = "C-1895-FORMOSA"
+name = "Formosan Revenue Convention"
+kind = "convention"
+parties = ["CN", "PAC", "JP"]
+from = 1895
+owes = [
+  { by = "CN", to = "PAC", what = "a Pacifican Director-General nominated by the Regent, holding a Qing commission, controls the camphor monopoly, Keelung mines, Formosan customs and the Keelung harbour trust (pilots, lights, works and coaling rights)" },
+  { by = "CN", to = "JP", what = "receipts pay the indemnity and Japan" },
+  { by = "CN", to = "PAC", what = "Pacifica's fee from receipts, before the provincial treasury" },
+]
+secured_on = "camphor monopoly, Keelung mines, Formosan customs and Keelung harbour trust"
+conditions = [
+  "the island stays Chinese; China keeps the governor, courts, police, land and taxes outside the specified revenues",
+  "order of receipts: the indemnity, Japan, Pacifica's fee, then the provincial treasury",
+  "the Republic later continues the commission",
+]
+status = "CANON"
+section = 25
+quote = "The Formosan Revenue Convention of 1895 leaves the island Chinese."
+more_quotes = [
+  "A Pacifican Director-General nominated by the Regent holds a Qing commission; the Republic later continues it.",
+  "The administration controls the camphor monopoly, Keelung mines, Formosan customs and Keelung harbour trust, including pilots, lights, works and coaling rights.",
+  "China keeps the governor, courts, police, land and taxes outside the specified revenues. Receipts pay the indemnity, Japan, Pacifica's fee and then the provincial treasury.",
+]
+open = "Term, end condition and the size of Pacifica's fee not stated. 'Receipts pay the indemnity, Japan, …' does not say whether 'Japan' is the indemnity's payee or a separate charge."
+
+[[commitment]]
+id = "C-1897-JP-GOLD-LOAN"
+name = "Indemnity facility and gold loan for Japan's gold transition"
+kind = "loan"
+parties = ["JP", "PAC"]
+from = 1897
+owes = [{ by = "PAC", to = "JP", what = "a smaller indemnity facility and a gold loan supporting Japan's gold transition" }]
+status = "PROPOSED"
+section = 25
+quote = "A smaller indemnity facility and Pacifican gold loan support Japan's gold transition in 1897."
+open = "Amount, security, repayment and term not stated."
+
+[[commitment]]
+id = "C-1896-CN-RAIL-CREDIT"
+name = "Credit for Chinese railways"
+kind = "loan"
+parties = ["CN", "PAC"]
+from = 1896
+owes = [{ by = "PAC", to = "CN", what = "credit for a Chinese-owned Manchurian railway and the Hankow–Canton trunk" }]
+status = "PROPOSED"
+section = 25
+quote = "Credit offered before Li Hongzhang's 1896 tour supports a Chinese-owned Manchurian railway and the Hankow–Canton trunk."
+open = "Lender (state or syndicate), amount, security and term not stated."
+
+[[commitment]]
+id = "C-1899-MANCHURIAN-RAILWAY"
+from_approx = true
+name = "Manchurian railway section: Japanese running rights and wartime railway board"
+kind = "concession"
+parties = ["CN", "JP", "PAC"]
+from = 1899
+owes = [
+  { by = "CN", to = "JP", what = "running rights on the Chinese-owned Manchurian section" },
+  { by = "CN", to = "PAC", what = "a Pacifican railway board in wartime" },
+]
+status = "CANON"
+section = 25
+quote = "the Manchurian section belongs to China, with Japanese running rights and a Pacifican railway board in wartime."
+more_quotes = ["China retains the Manchurian line with Japanese running rights."]
+open = "Year and instrument not stated (follows the 1898–1899 war); term not stated."
+
+[[commitment]]
+id = "C-1897-UNSAN"
+name = "Unsan gold concession"
+kind = "concession"
+parties = ["KR"]
+from = 1897
+conditions = ["concession gold reaches San Francisco's reserve through sale to the Reserve Bank against credit; it is not Pacifican mineral ownership"]
+status = "CANON"
+section = 25
+quote = "the Unsan concession granted by Korea in 1897"
+more_quotes = ["Foreign concession gold reaches San Francisco's reserve through sale to the Reserve Bank against credit."]
+open = "Concessionaire and term not stated."
+
+# ---------------------------------------------------------------------------
+# §26 — Japan's victory and the hard renewal
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1904-JP-WAR-LOANS"
+from_approx = true
+name = "Japanese war loans raised in San Francisco"
+kind = "loan"
+parties = ["JP", "SANFRANCISCO"]
+from = 1904
+owes = [{ by = "JP", to = "SANFRANCISCO", what = "service of the war loans Takahashi raises" }]
+status = "PROPOSED"
+section = 26
+quote = "Takahashi Korekiyo raises the war loans in San Francisco."
+more_quotes = ["Russian indemnity payments help keep Japan's postwar debt manageable."]
+open = "Year (war of 1904–1905), amounts, security and maturity not stated."
+
+[[commitment]]
+id = "C-1905-RU-PEACE"
+name = "Russo-Japanese peace (Witte's terms)"
+kind = "treaty"
+parties = ["RU", "JP"]
+from = 1905
+owes = [
+  { by = "RU", to = "JP", what = "withdrawal from Manchuria, an indemnity, recognition of Japan's southern gains and renunciation of claims in Korea" },
+]
+status = "PROPOSED"
+section = 26
+quote = "Revolution in Russia and Pacifican pressure on French lending bring Witte to terms: withdrawal from Manchuria, an indemnity, recognition of Japan's southern gains and renunciation of claims in Korea."
+more_quotes = [
+  "The working model assigns about $300 million paid in 1906–1910; that amount remains a MODEL estimate rather than an independently fixed treaty clause.",
+  "Russia retains its northern coast until the later Siberian settlement.",
+]
+open = "Place of signing is OPEN-018-20; indemnity amount is MODEL only; year of signature not stated explicitly."
+
+[[commitment]]
+id = "C-1905-KR-JP-RIGHTS"
+name = "Japan's agreed military and transit rights in Korea"
+kind = "treaty"
+parties = ["KR", "JP"]
+from = 1905
+owes = [{ by = "KR", to = "JP", what = "agreed military and transit rights; Japanese economic predominance; coordinated foreign policy" }]
+conditions = ["Korea remains independent and guaranteed; not a protectorate; not annexed in 1910"]
+status = "CANON"
+label_note = "The label in force is **[OPEN-018-20]**, which concerns only the place of signing the Russian peace; AGENTS.md states Korea's post-1905 status and rights without qualification."
+section = 26
+quote = "Korea remains an independent guaranteed state with Japanese economic predominance and agreed military and transit rights; coordinated foreign policy does not make it a protectorate."
+open = "Instrument, date and content of the 'agreed' rights not stated."
+
+[[commitment]]
+id = "C-1907-JP-RENEWAL"
+name = "1907 renewal of the compact with Tokyo"
+kind = "compact"
+parties = ["JP", "PAC"]
+from = 1907
+owes = [
+  { by = "PAC", to = "JP", what = "Kiyoshi as Japanese Fleet-General; a joint war council; family immigration; civic equality for Japanese Pacificans" },
+]
+status = "APPROVED"
+cr = "CR-022"
+section = 26
+quote = "A more confident Japan bargains hard in the 1907 compact renewal, securing Kiyoshi as Japanese Fleet-General, a joint war council, family immigration and civic equality for Japanese Pacificans."
+more_quotes = ["Both states ratify renewals every ten years, in 1897, 1907 and 1917."]
+open = "A renewal of the 1887 compact (earlier part), recorded separately for its new terms; whether the Fleet-General post is for life or to the next renewal (1917) is not stated."
+
+# ---------------------------------------------------------------------------
+# §27 — the Settlement of 1914
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1914-KIYOSHI-RENUNCIATION"
+name = "Kiyoshi's renunciation and the Kuroda match"
+kind = "pact"
+parties = ["KURODA", "CROWN"]
+from = 1914
+owes = [
+  { by = "KURODA", to = "CROWN", what = "renunciation of the crown for Kiyoshi and his descendants" },
+  { by = "CROWN", to = "KURODA", what = "Julian takes a wife from his house; the heir after Julian is of Kuroda blood" },
+]
+status = "CANON"
+section = 27
+quote = "Kiyoshi accepts and renounces the crown for himself and his descendants."
+more_quotes = [
+  "Julian goes to Pearl Harbor without an escort and asks his brother, in Japanese, for a wife from his house.",
+  "The Act recites Kiyoshi's renunciation and names him \"Kuroda Kiyoshi, son of Elias Thorne\", the only public document that ever does.",
+  "The match is the price of his renunciation: his house supplies the queen, and the heir after Julian is of Kuroda blood.",
+]
+open = "Wedding date is qualified in canon; the heir's birth (about 1916) is PROPOSED."
+
+[[commitment]]
+id = "C-1914-ACT-OF-SETTLEMENT"
+name = "Act of Settlement of 1914"
+kind = "constitution"
+parties = ["PAC", "HI", "CROWN"]
+from = 1914
+owes = [
+  { by = "PAC", to = "CROWN", what = "establishes the Crown of Pacifica in the House of Thorne-Kamehameha; Senate and Chamber confer the Realm's sovereignty" },
+  { by = "HI", to = "CROWN", what = "joins the Hawaiian crown to the Crown of Pacifica; the ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown as Kamehameha VI" },
+  { by = "PAC", to = "HI", what = "dissolves the Territorial Council and restores Hawaii's legislature; Hawaiian restored as the Crown's language and in its schools; ʻAha Aliʻi keeps custody of Hawaiian crown and kuleana lands; Thalassia's ground confirmed as land of the Hawaiian throne" },
+]
+can_end = [
+  { who = "HI", how = "the union is put to a plebiscite of Hawaiian subjects by the restored legislature and the ʻAha Aliʻi" },
+  { who = "PAC", how = "Senate and Chamber confer the Realm's sovereignty by two-thirds" },
+]
+conditions = [
+  "succession to the eldest son, then eldest daughter, otherwise to an heir adopted with Senate consent",
+  "the Polytechnic retains its charter",
+  "recites Kiyoshi's renunciation",
+]
+status = "CANON"
+section = 27
+quote = "The 1914 Act of Settlement establishes the Crown of Pacifica in the House of Thorne-Kamehameha and joins to it the Hawaiian crown Victoria has worn since 1872."
+more_quotes = [
+  "The restored legislature and the ʻAha Aliʻi put the union to a plebiscite of Hawaiian subjects, and the loyalists campaign against it.",
+  "It dissolves the Territorial Council and restores Hawaii's legislature. The ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown, to reign as Kamehameha VI; Senate and Chamber confer the Realm's sovereignty by two-thirds.",
+  "Hawaiian is restored as the Crown's language and in its schools. The ʻAha Aliʻi keeps custody of Hawaiian crown and kuleana lands; Thalassia's ground is confirmed as land of the Hawaiian throne. The Polytechnic retains its charter.",
+  "Succession passes to the eldest son, then eldest daughter, otherwise to an heir adopted with Senate consent.",
+  "until 1914 restores Hawaiian-medium education and the Crown's Hawaiian oath and proclamation.",
+  "Hawaii votes for the union narrowly; the Philippines, broadly.",
+]
+open = "Does not reverse the ignored 1876 judgment. Amendment procedure for the Act not stated."
+
+[[commitment]]
+id = "C-1915-JULIAN-CROWNS"
+name = "Julian's crowns (Sovereign of Pacifica, Kamehameha VI)"
+kind = "office"
+parties = ["CROWN", "PAC", "HI"]
+from = 1915
+holder = "CT-JULIAN"
+status = "APPROVED"
+cr = "CR-029"
+section = 27
+quote = "In 1915 Victoria lays down both the regency and her crown, and Julian accedes to both."
+more_quotes = ["Julian succeeds Victoria directly in 1915, aged about twenty-nine."]
+open = "Hereditary under the Act's succession rule; his Philippine crown is the separate C-1914-PH-CROWN."
+
+[[commitment]]
+id = "C-1914-PH-CROWN"
+name = "Philippine crown offer and Calderón's organic law"
+kind = "constitution"
+parties = ["PH", "PAC", "CROWN"]
+from = 1914
+owes = [
+  { by = "PH", to = "CROWN", what = "the Philippine crown, offered by the Cortes and confirmed by plebiscite" },
+  { by = "CROWN", to = "PH", what = "a single-chamber Cortes with a permanent commission, its own budget and army; Gobernadores never posted to their home province; neither crown subordinate; Lugarteniente General governs without the old veto" },
+  { by = "PAC", to = "PH", what = "the Realm takes over what remains of the Redemption Loan, about $9.5 million" },
+]
+can_end = [{ who = "PH", how = "the Cortes offers and a plebiscite confirms; terms signed before the vote" }]
+conditions = [
+  "each crown keeps its own legislature, language of the Crown and coronation; the alternat names each first in its own texts",
+  "the Sovereign swears before the Cortes in Manila (1915); no bishop crowns him",
+]
+status = "APPROVED"
+cr = "CR-029"
+section = 27
+quote = "In the same months the Philippine Cortes offers the Philippine crown, and a plebiscite confirms the offer."
+more_quotes = [
+  "Its terms are signed before the vote, because Filipinos remember what was promised at Biak-na-Bato and never written down.",
+  "Calderón's organic law gives the kingdom a single-chamber Cortes with a permanent commission, its own budget and army, and provinces under Gobernadores who are never posted to their home province. Neither crown is subordinate. The Realm takes over what remains of the Redemption Loan, about $9.5 million.",
+  "A Kuhina Nui in Honolulu and a Lugarteniente General in Manila govern day to day in the Sovereign's name, on his instructions and without the old veto.",
+  "In 1915 he swears before the Cortes in Manila, as Spanish kings swore, and is proclaimed under the raised standard.",
+]
+open = "Year taken from 'in the same months' as the 1914 Act; the oath is 1915. Repayment terms of the assumed loan not restated."
+
+[[commitment]]
+id = "C-1914-KA-LOKAHI"
+from_approx = true
+name = "Ka Lōkahi, the council of the crowns"
+kind = "compact"
+parties = ["PAC", "HI", "PH"]
+from = 1914
+can_end = [
+  { who = "PAC", how = "one vote over the succession, the agreed matters and disputes" },
+  { who = "HI", how = "one vote over the succession, the agreed matters and disputes" },
+  { who = "PH", how = "one vote over the succession, the agreed matters and disputes" },
+]
+conditions = ["the agreed matters are renewed every ten years"]
+status = "APPROVED"
+cr = "CR-029"
+section = 27
+quote = "Ka Lōkahi, the council of the crowns, gives the Realm, Hawaii and the Philippines one vote each over the succession, the agreed matters renewed every ten years and disputes between them."
+open = "Start year not stated (created with the 1914–1915 union); the base year of the ten-year renewals, hence the renewal years, not stated; voting threshold not stated."
+
+# ---------------------------------------------------------------------------
+# Part 4: storyline §28–§37
+# ---------------------------------------------------------------------------
+
+# Part 4 of the commitments ledger: master_storyline.md lines 648–919
+# (§28–§37, the continuing trajectories and the unresolved list).
+# Format and rules: see the header of commitments/data/ledger.toml.
+
+# ---------------------------------------------------------------------------
+# Parties added in this part
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "ENTENTE"
+name = "The Entente (Britain, France, Russia and their partners as wartime borrowers)"
+
+[[party]]
+id = "KAM"
+name = "Republic of Kamchatka and the Koryak coast"
+
+[[party]]
+id = "TBK"
+name = "Transbaikalia (council of Buryats, Cossacks and townsmen under a Japanese Resident)"
+
+[[party]]
+id = "SAKHA"
+name = "Yakutia, the autonomous Sakha land"
+
+[[party]]
+id = "CHUKOTKA"
+name = "Chukotka and the northern coast (Siberian territory)"
+
+[[party]]
+id = "LOKAHI"
+name = "Ka Lōkahi, the council of the crowns"
+
+[[party]]
+id = "MICRO"
+name = "The trust islands (Marianas, Carolines, Palau; Tutuila proposed)"
+
+[[party]]
+id = "ANZ"
+name = "Australia and New Zealand"
+
+# ---------------------------------------------------------------------------
+# §30 Credit, oil and the brokered peace
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1914-ENTENTE-LOANS"
+name = "Entente loans (wartime advances)"
+kind = "loan"
+parties = ["PAC", "ENTENTE", "UK", "FR", "RU", "JP", "US"]
+from = 1914
+owes = [
+  { by = "ENTENTE", to = "PAC", what = "repayment of the advances gathered from the Treasury, Pacifican savers and foreign subscriptions through the San Francisco syndicates" },
+  { by = "ENTENTE", to = "US", what = "Union investors buying through Pacifican correspondents keep their own claims and their own risk" },
+  { by = "ENTENTE", to = "JP", what = "repayment of Japan's lending to the Entente from 1917" },
+]
+secured_on = "from the end of 1916, the Allies' requisitioned foreign securities, many of them Pacifican bonds (the collateral loans)"
+conditions = ["In 1914 Pacifica's own savers carry the loans alone, Washington discouraging loans to belligerents."]
+status = "CANON"
+cr = "CR-025"
+section = 30
+quote = "San Francisco syndicates gather the Treasury's money, Pacifican savings and foreign subscriptions into the Entente loans."
+more_quotes = [
+  "When the Union's banks grow wary of unsecured Entente paper at the end of 1916, loans secured on the Allies' requisitioned foreign securities, many of them Pacifican bonds, help carry the last two years of the war",
+  "From 1917 Japan, flush with export earnings, also lends to the Entente.",
+  "In autumn 1918 Julian stops the Treasury's lending and the San Francisco syndicates' new issues for the Entente",
+  "The peace leaves two financial systems: Union loans in Berlin, Vienna and Germany's eastern clients; Pacifican claims in London, Paris and Asia.",
+]
+open = "No term, maturity or interest stated. New lending stops in autumn 1918 (PROPOSED), but the debt continues. The fate of Russia's share after Russia's collapse is not stated. Amounts are MODEL (CR-025: $8.5bn advances). Britain's part is funded in 1923 (C-1923-UK-FUNDING); Hoover's 1931 moratorium suspends war debts (C-1931-HOOVER-MORATORIUM)."
+
+[[commitment]]
+id = "C-1919-HAGUE"
+name = "The Hague peace settlement"
+kind = "treaty"
+parties = ["PAC", "DE", "UK", "FR", "JP", "CN"]
+from = 1919
+owes = [
+  { by = "DE", to = "FR", what = "evacuation of Belgium and northern France; Germany retains Alsace-Lorraine and pays no indemnity" },
+  { by = "DE", to = "PAC", what = "loss of its colonies; Pacifica and Japan retain Germany's Pacific islands" },
+  { by = "PAC", to = "CN", what = "return of Shandong apart from the Tsingtao anchorage" },
+  { by = "UK", to = "DE", what = "recognition of Germany's clients in Poland, the Baltic region, Ukraine and Finland" },
+]
+conditions = [
+  "Britain and France keep their Ottoman and African conquests.",
+  "The settlement creates a permanent arbitration court and carries Japan's racial equality clause (PROPOSED).",
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "Victoria negotiates the settlement at The Hague from January to June 1919, with Julian choosing the moment and Hoover administering the food lever."
+more_quotes = [
+  "Germany evacuates Belgium and northern France, retains Alsace-Lorraine, pays no indemnity and loses its colonies.",
+  "Germany's clients in Poland, the Baltic region, Ukraine and Finland are recognized.",
+  "Pacifica and Japan retain Germany's Pacific islands.",
+  "The settlement creates a permanent arbitration court and carries Japan's racial equality clause.",
+]
+open = "Place, dates and Victoria's exact commission remain OPEN-019-01–02. The replacement of Wilhelm II remains OPEN-019-08. The armistice of 11 November 1918 is on the working chronology only. Which states sign is not listed."
+
+[[commitment]]
+id = "C-1919-TSINGTAO"
+name = "Tsingtao anchorage lease"
+kind = "lease"
+parties = ["CN", "PAC", "JP"]
+from = 1919
+owes = [
+  { by = "CN", to = "PAC", what = "the Tsingtao anchorage on lease" },
+  { by = "PAC", to = "CN", what = "return of the rest of Shandong, denying Japan the prize" },
+]
+status = "CANON"
+section = 30
+quote = "Pacifica keeps the Tsingtao anchorage on lease, returning the rest of Shandong to China and denying Japan the prize."
+open = "Lessor and term not stated; that China is the lessor follows only from the return of Shandong to China."
+
+[[commitment]]
+id = "C-1919-ARBITRATION-COURT"
+name = "Permanent arbitration court"
+kind = "treaty"
+parties = ["PAC", "JP", "UK", "DE", "FR", "US"]
+from = 1919
+renewals = [1932]
+owes = [{ by = "PAC", to = "JP", what = "the settlement carries Japan's racial equality clause" }]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "The settlement creates a permanent arbitration court and carries Japan's racial equality clause."
+more_quotes = [
+  "joins the arbitration court's new charter and cuts Soviet industrial contracts",
+  "a founding seat in the renewed court",
+  "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause.",
+]
+open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED)."
+
+[[commitment]]
+id = "C-1919-NAVAL-LIMITS"
+name = "1919 naval limits"
+kind = "treaty"
+parties = ["PAC", "JP", "UK", "DE", "FR", "US"]
+from = 1919
+owes = [
+  { by = "UK", to = "PAC", what = "parity: the combined Pacifica–Japan fleets count at parity with Britain" },
+  { by = "DE", to = "PAC", what = "Germany below Britain and the Pacific partners; France and Italy below Germany" },
+  { by = "UK", to = "PAC", what = "disposal of older twelve-inch ships by 1922, through scrapping, training hulks or targets (Britain and Germany)" },
+]
+conditions = [
+  "Carrier tonnage is also limited, with the Pacific partners holding the largest allowance.",
+  "The Union stays outside the limits until 1932, when it joins and accepts a ratio below the common fleet and Britain.",
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "Naval limits count the combined Pacifica–Japan fleets at parity with Britain, Germany below them and France and Italy below Germany."
+more_quotes = [
+  "The fleet limits require Britain and Germany to dispose of their older twelve-inch ships by 1922, through scrapping, training hulks or targets.",
+  "Carrier tonnage is also limited, with the Pacific partners holding the largest allowance.",
+  "The Union stays outside these limits until 1932.",
+  "The crash halts further construction; the Union joins the limits in 1932.",
+  "The Union accepts a naval ratio below the common fleet and Britain",
+]
+open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated."
+
+[[commitment]]
+id = "C-1923-UK-FUNDING"
+name = "Funding of Britain's gold-dollar debt"
+kind = "loan"
+parties = ["UK", "PAC"]
+from = 1923
+until = 1985
+term_years = 62
+owes = [
+  { by = "UK", to = "PAC", what = "service of its gold-dollar war debt over sixty-two years at reduced interest; the obligation keeps its gold-dollar value through sterling depreciation" },
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 30
+quote = "Britain funds its gold-dollar debt over sixty-two years in 1923 at reduced interest"
+more_quotes = [
+  "Sterling depreciation leaves the gold-dollar obligation intact.",
+  "Britain leaves gold in September while its debt to Pacifica keeps its gold-dollar value.",
+]
+open = "End year computed from the stated sixty-two-year term from 1923. Base rights at Singapore and Hong Kong and central-Pacific islands as possible payment in kind remain OPEN-019-05; the sentence leaves unclear whether the base rights are granted or only possible payment. Effect of Hoover's 1931 moratorium on its service not stated."
+
+# ---------------------------------------------------------------------------
+# §31–§32 The Siberian coalition and the Treaty of Harbin
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1918-SIB-COALITION"
+name = "Siberian coalition"
+kind = "alliance"
+parties = ["PAC", "JP", "CN", "SIB", "UK"]
+from = 1918
+owes = [
+  { by = "JP", to = "PAC", what = "the mass of the army" },
+  { by = "CN", to = "PAC", what = "manpower and the Manchurian railway" },
+  { by = "PAC", to = "SIB", what = "command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and an expeditionary contingent" },
+]
+status = "CANON"
+section = 31
+quote = "Pacifica commands a coalition of Japan, China and Siberians, with Britain inside the coalition."
+more_quotes = [
+  "Pacifica contributes command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and an expeditionary contingent.",
+  "The coalition fights for an independent Siberia, leaving Kolchak's all-Russian ambition to overreach.",
+]
+open = "First year taken from the section's 1918 start; no instrument or signing date is stated. Whether the wartime coalition ends or simply becomes the 1922 standing alliance (C-1922-STANDING-ALLIANCE) is not stated."
+
+[[commitment]]
+id = "C-1918-MANCHURIAN-RAILWAY"
+name = "Manchurian railway running rights and transit"
+kind = "concession"
+parties = ["CN", "JP", "PAC"]
+from = 1918
+owes = [
+  { by = "CN", to = "JP", what = "running rights and, later, guaranteed transit on the Chinese-owned line, without giving its territory to Japan" },
+  { by = "PAC", to = "CN", what = "the railway returns to Chinese management, improved at the coalition's expense" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 31
+quote = "Chinese ownership, Japanese running rights and common wartime administration keep the supply route usable without giving its territory to Japan."
+more_quotes = [
+  "the Manchurian railway returns to Chinese management, improved at the coalition's expense",
+  "Guaranteed transit and joint railway management answer the army's territorial demands.",
+  "The Manchurian railway stays Chinese while carrying Japan's lifeline between eastern holdings and Transbaikalia.",
+]
+open = "No start year stated; 1918 is the coalition's year. The year of the guaranteed-transit and joint-management arrangement (§33) is not stated, and 'joint railway management' sits uneasily with Harbin's return of the line to Chinese management."
+
+[[commitment]]
+id = "C-1919-LAND-GRAIN"
+name = "Land-and-grain guarantee"
+kind = "guarantee"
+parties = ["PAC", "SIB"]
+from = 1919
+owes = [
+  { by = "PAC", to = "SIB", what = "the railway half: three paths in ten stay with Siberian grain, coal and passengers" },
+]
+status = "PROPOSED"
+cr = "CR-030"
+section = 31
+quote = "A peasant land-and-grain guarantee supplies a political basis for holding the railway country."
+more_quotes = [
+  "Three paths in ten stay with Siberian grain, coal and passengers: the railway half of the land-and-grain guarantee.",
+  "The guarantee travels down the Lena.",
+]
+open = "Who gives the land half of the guarantee, and its terms, are not stated. Year not stated; it appears in the 1919 paragraphs."
+
+[[commitment]]
+id = "C-1919-CHUKOTKA-FREEZE"
+name = "Freeze of the San Francisco traders' Chukotka debt books"
+kind = "settlement"
+parties = ["PAC", "CHUKOTKA"]
+from = 1919
+owes = [
+  { by = "PAC", to = "CHUKOTKA", what = "the debt books of Pacifica's San Francisco traders in Chukotka stay frozen until a commission can write them down" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 31
+quote = "Pacifica freezes the debt books of its own San Francisco traders in Chukotka until a commission can write them down."
+open = "Set in the winter of 1919–1920; the commission, its date and the write-down are not stated."
+
+[[commitment]]
+id = "C-1921-HARBIN"
+name = "Treaty of Harbin"
+kind = "treaty"
+parties = ["RU", "SIB", "JP", "CN", "PAC", "KAM"]
+from = 1921
+owes = [
+  { by = "RU", to = "SIB", what = "the country from the Ob to Lake Baikal; the Okhotsk coast west of Ola Bay and Nikolayevsk (APPROVED); Yakutia, Chukotka, the Arctic coast and the islands east of the Kara Sea (PROPOSED)" },
+  { by = "RU", to = "JP", what = "a client sphere in Transbaikalia around Chita" },
+  { by = "RU", to = "CN", what = "the Amur, a sphere in Outer Mongolia and Tuva; renunciation of extraterritorial rights, concessions and the Boxer indemnity share (to Chinese schools); Mongolia back under Chinese suzerainty under its own Mongol government" },
+  { by = "SIB", to = "CN", what = "passage for Chinese ships down the Amur to the sea" },
+  { by = "CN", to = "SIB", what = "Siberian trade and settlement rights in the Chinese spheres" },
+  { by = "SIB", to = "JP", what = "a Siberian trial of the Nikolayevsk partisan leaders and an indemnity" },
+  { by = "JP", to = "SIB", what = "passage for Siberian ships through the straits of a sea now Japanese on three sides" },
+  { by = "SIB", to = "PAC", what = "the Ob a shared river; the straits into the Kara Sea open to merchant ships" },
+  { by = "PAC", to = "RU", what = "gives up the old claims to Wrangel Island and the De Long islands, taking the Commander Islands instead" },
+  { by = "JP", to = "SIB", what = "renunciation of the pan-Mongol schemes Japan once backed" },
+]
+status = "CANON"
+section = 32
+quote = "Moscow signs the Treaty of Harbin in 1921."
+more_quotes = [
+  "The Siberian Republic holds the country from the Ob to Lake Baikal, governed from Irkutsk with its Regional Duma at Tomsk.",
+  "The Siberian Republic extends to the Okhotsk coast west of Ola Bay and to Nikolayevsk.",
+  "The Ob becomes a shared river, and the straits into the Kara Sea stay open to merchant ships.",
+  "the treaty gives satisfaction there instead, with a Siberian trial of the partisan leaders and an indemnity",
+  "Out of fairness, Pacifica insists that Siberian ships may pass the straits of a sea that is now Japanese on three sides.",
+  "China secures the Amur and gains a sphere in Outer Mongolia and Tuva, with Siberian trade and settlement rights.",
+  "Russia's extraterritorial rights, its concessions and its share of the Boxer indemnity are renounced, the indemnity going to Chinese schools.",
+  "Chinese ships may pass down the Amur to the sea, Mongolia returns to Chinese suzerainty under its own Mongol government",
+  "It gives up the old San Francisco claims to Wrangel Island and the De Long islands",
+  "Russia retains the northern coast until 1921.",
+]
+open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031). Signatories other than Moscow are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Fortification freeze remains OPEN-031-11."
+
+[[commitment]]
+id = "C-1921-KAMCHATKA"
+name = "Japanese protection of the Kamchatka republic"
+kind = "guarantee"
+parties = ["JP", "KAM", "RU"]
+from = 1921
+owes = [
+  { by = "JP", to = "KAM", what = "protection of the republic of Kamchatka and the Koryak coast as far as Ola Bay" },
+  { by = "RU", to = "KAM", what = "Harbin recognises the republic and its Resident" },
+]
+status = "APPROVED"
+cr = "CR-031"
+section = 32
+quote = "Kamchatka and the Koryak coast as far as Ola Bay become a republic under Japanese protection."
+more_quotes = [
+  "Harbin recognises their republic and its Resident.",
+  "Kamchatka and the Koryak coast become a republic under Japanese protection.",
+]
+open = "Whose Resident, and the protection's terms and duration, are not stated; the recognition passage is PROPOSED."
+
+[[commitment]]
+id = "C-1921-TRANSBAIKAL"
+name = "Transbaikalian client sphere (protectorate)"
+kind = "settlement"
+parties = ["JP", "TBK", "RU"]
+from = 1921
+owes = [
+  { by = "JP", to = "TBK", what = "a civilian Japanese Resident over a council of Buryats, Cossacks and townsmen; Japan renounces the pan-Mongol schemes" },
+  { by = "TBK", to = "JP", what = "Japanese settlers, the Chernovsky coal, the Nerchinsk mines and the junction of the line to Manchuria" },
+]
+status = "PROPOSED"
+section = 32
+quote = "it gains a client sphere in Transbaikalia around Chita."
+more_quotes = [
+  "The sphere is the whole province from Baikal to the Argun: a council of Buryats, Cossacks and townsmen under a civilian Japanese Resident",
+  "Japan renounces the pan-Mongol schemes it once backed.",
+  "Japan retains its southern gains and the Transbaikalian protectorate",
+]
+open = "§32 calls it a client sphere; the unresolved list (item 23) calls it a protectorate. Term not stated."
+
+[[commitment]]
+id = "C-1921-FISHERIES"
+name = "Siberian coast fisheries convention"
+kind = "convention"
+parties = ["SIB", "JP"]
+from = 1921
+term_years = 25
+owes = [{ by = "SIB", to = "JP", what = "the majority of the fishing lots on the Siberian coast for Japanese boats" }]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "On the Siberian coast a twenty-five-year convention gives Japanese boats the majority of the lots."
+more_quotes = ["holds the majority of the Siberian coast's fishing lots by convention"]
+open = "Start year not separately stated (given in the Harbin passage), so the end year is not stated."
+
+[[commitment]]
+id = "C-1921-LENA-GOLD"
+name = "Lena gold concessions"
+kind = "concession"
+parties = ["SIB", "PAC"]
+from = 1921
+owes = [{ by = "SIB", to = "PAC", what = "the Lena gold concessions" }]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita."
+open = "Grantor, term and royalty not stated."
+
+[[commitment]]
+id = "C-1921-WEST-CHITA"
+name = "Railway west of Chita"
+kind = "concession"
+parties = ["SIB", "PAC"]
+from = 1921
+owes = [{ by = "SIB", to = "PAC", what = "the railway west of Chita, run by a Pacifican railway board since the war" }]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita."
+more_quotes = ["A Pacifican railway board runs the line west of Chita."]
+open = "Whether ownership, operation or a lease passes, and for how long, is not stated."
+
+[[commitment]]
+id = "C-1921-ARCTIC-LEASES"
+name = "Arctic station leases"
+kind = "lease"
+parties = ["PAC", "SIB"]
+from = 1921
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "takes instead the Commander Islands, home of Aleuts moved there from the Aleutians a century before, with long leases for Arctic stations and a charter for the northern sea route"
+more_quotes = ["The Commander Islands and the Arctic leases go to Pacifica."]
+open = "Lessor, sites and term ('long') not stated."
+
+[[commitment]]
+id = "C-1921-NSR-CHARTER"
+name = "Northern sea route charter"
+kind = "charter"
+parties = ["PAC", "SIB"]
+from = 1921
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "with long leases for Arctic stations and a charter for the northern sea route"
+open = "Grantor, scope and term not stated."
+
+[[commitment]]
+id = "C-1922-SIB-CONSTITUTION"
+name = "Siberian constitution of 1922"
+kind = "constitution"
+parties = ["SIB", "SAKHA", "CHUKOTKA"]
+from = 1922
+owes = [
+  { by = "SIB", to = "SAKHA", what = "autonomy: its own assembly, language, communal land and a port at Okhotsk" },
+  { by = "SIB", to = "CHUKOTKA", what = "government of the empty coast and Chukotka as a territory with a commissioner and a council of the districts and clans" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 32
+quote = "its constitution of 1922 makes Yakutia an autonomous Sakha land with its own assembly, language, communal land and a port at Okhotsk"
+more_quotes = ["it governs the empty coast and Chukotka as a territory with a commissioner and a council of the districts and clans"]
+
+[[commitment]]
+id = "C-1922-STANDING-ALLIANCE"
+name = "Standing alliance of Pacifica, Japan, China and the Siberian Republic"
+kind = "alliance"
+parties = ["PAC", "JP", "CN", "SIB"]
+from = 1922
+owes = [
+  { by = "PAC", to = "SIB", what = "command of the alliance and its finance; railway capacity kept in reserve so that a corps of 50,000 can reach the Ob within two weeks of a call" },
+]
+conditions = ["The Siberian republic must remain visibly Russian and governed by Siberians if the coalition is to retain local support."]
+status = "PROPOSED"
+section = 32
+quote = "By 1922 the settlement has become a standing alliance of Pacifica, Japan, China and the Siberian Republic."
+more_quotes = [
+  "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita.",
+  "a corps of 50,000 men can reach the Ob within two weeks of a call",
+  "Japan and China attend from the standing alliance.",
+]
+open = "Term, withdrawal and casus foederis not stated. 'Command of the standing alliance' is already given at Harbin in 1921."
+
+[[commitment]]
+id = "C-1929-KOLYMA"
+name = "Kolyma gold concessions"
+kind = "concession"
+parties = ["SIB", "PAC"]
+from = 1929
+owes = [{ by = "SIB", to = "PAC", what = "concession companies working Kolyma gold with Pacifican dredges sell their gold to the Reserve Bank" }]
+conditions = ["Free, well-paid workers."]
+status = "CANON"
+section = 32
+quote = "Concession companies sell gold to the Reserve Bank; Siberian production remains outside Pacifica's GDP."
+more_quotes = ["From 1929 the Siberian Republic works Kolyma's gold with Pacifican dredges and free, well-paid workers."]
+open = "Holders of the concessions, term and royalty not stated; whether the sale to the Reserve Bank is an obligation or a practice is not stated."
+
+# ---------------------------------------------------------------------------
+# §33 The Concord and the rescue
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1923-QUAKE-CREDIT"
+name = "Yokohama relief and reconstruction credit"
+kind = "loan"
+parties = ["PAC", "JP"]
+from = 1923
+owes = [{ by = "JP", to = "PAC", what = "repayment of the reconstruction credit" }]
+status = "CANON"
+section = 33
+quote = "In September 1923 Julian brings relief and reconstruction credit to Yokohama, and they meet in the ruins."
+open = "Amount, borrower, term and security not stated."
+
+[[commitment]]
+id = "C-1927-JP-RESCUE"
+name = "1927 San Francisco rescue credit to Japan"
+kind = "loan"
+parties = ["PAC", "JP"]
+from = 1927
+until = 1933
+owes = [
+  { by = "PAC", to = "JP", what = "a $600m credit, a third from the Treasury and two-thirds from private lenders, drawn only as Japan needs it" },
+  { by = "JP", to = "PAC", what = "the Japanese government's guarantee; repayment by the rebuilt banks through a stabilization agency in five instalments from 1929 to 1933" },
+]
+can_end = [{ who = "PAC", how = "the Senate votes the rescue loan" }]
+status = "CANON"
+cr = "CR-024"
+section = 33
+quote = "Julian assembles a $600m San Francisco credit, a third from the Treasury and two-thirds from private lenders, to be drawn only as Japan needs it."
+more_quotes = [
+  "Japan's government guarantees it; a stabilization agency lends it on to the rebuilt banks, which repay it in five instalments from 1929 to 1933.",
+  "The Senate votes the rescue loan but refuses the treaty",
+]
+open = "About $497m drawn is MODEL. Interest not stated."
+
+[[commitment]]
+id = "C-1927-PROVISIONAL"
+name = "Provisional application of the Pacific Concord"
+kind = "treaty"
+parties = ["PAC", "JP"]
+from = 1927
+ended = 1928
+ended_by = "two-thirds Senate consent and an Act of Indemnity"
+can_end = [
+  { who = "PAC", how = "the Senate refused the treaty; provisional application is illegal in substance until consent" },
+  { who = "JP", how = "Japan's side follows Japanese law and can lapse if Pacifica never obtains consent" },
+]
+status = "APPROVED"
+cr = "CR-022"
+section = 33
+quote = "Julian claims provisional application under the treaty prerogative pending consent, though the Senate has already refused."
+more_quotes = [
+  "This is illegal in substance.",
+  "its side follows Japanese law and can lapse if Pacifica never obtains consent",
+  "In 1928 she wins two-thirds Senate consent and an Act of Indemnity.",
+  "supports the Concord while curing Julian's illegality in 1928",
+]
+open = "The Monterey constitutional case is mooted before judgment."
+
+[[commitment]]
+id = "C-1927-CONCORD"
+name = "Pacific Concord (Taiheiyō Kyōyaku; Concordia del Pacífico; ka Lōkahi)"
+kind = "treaty"
+parties = ["PAC", "HI", "PH", "CROWN", "JP"]
+from = 1927
+renewals = [1932]
+owes = [
+  { by = "PAC", to = "JP", what = "sixty-five percent of common costs (quota 65/35); Foreign Affairs, the common Navy and their Finance held in common" },
+  { by = "JP", to = "PAC", what = "thirty-five percent quota voted by the Diet; at least one common minister Japanese by law; Japan's prime minister countersigns appointments" },
+  { by = "PAC", to = "JP", what = "the western squadron reserved to the Japanese naval party until the 1932 renewal" },
+  { by = "JP", to = "PAC", what = "the home army enters common command only for a Concord-declared war" },
+  { by = "CROWN", to = "JP", what = "annual Council of the Two Crowns at Hayama from 1928; Prince Chichibu resides at Thalassia as the Emperor's representative between Councils" },
+]
+can_end = [
+  { who = "JP", how = "Japan's Emperor ratifies on the Privy Council's conditional advice; its side can lapse if Pacifica never obtains consent" },
+  { who = "PAC", how = "two-thirds Senate consent, won in 1928" },
+]
+conditions = [
+  "Customs, gold parity and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "1928 conditions of consent: a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber, a Polytechnic audit reported to the Senate.",
+  "Sixty delegates from each legislature meet separately at Thalassia; after three disagreements they vote together without debate.",
+  "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
+  "English and Japanese texts are equally authentic.",
+]
+status = "CANON"
+section = 33
+quote = "The Pacific Concord—太平洋協約, Taiheiyō Kyōyaku; la Concordia del Pacífico and ka Lōkahi—joins co-equal crowns."
+more_quotes = [
+  "Foreign Affairs, the common Navy and their Finance belong to the Concord.",
+  "Customs, gold parity and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "Julian appoints the three common ministers with Japan's prime minister countersigning.",
+  "The western squadron is reserved to the Japanese naval party until the 1932 renewal.",
+  "Japan keeps crown, Diet, cabinet, railways, posts and home army; that army enters common command only for a Concord-declared war.",
+  "Sixty delegates from each legislature meet separately at Thalassia and exchange written messages.",
+  "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
+  "Julian accepts a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber and a Polytechnic audit reported to the Senate.",
+  "The Council of the Two Crowns first meets in 1928 and thereafter annually at Hayama.",
+  "Japan's Emperor ratifies on the Privy Council's conditional advice and the Diet votes its quota",
+  "Restoration officers strike against Inukai's government in May 1932 to stop the Concord's first renewal.",
+]
+open = "The Concord's own duration is not stated; only the executive trust has terms. Whether it replaces the 1887 Japanese compact is not stated. The 1932 Thalassia settlement makes parities adjustable."
+
+[[commitment]]
+id = "C-1927-CONCORD-EXEC"
+name = "Concord executive trust (first term)"
+kind = "office"
+parties = ["CROWN", "JP"]
+from = 1927
+until = 1932
+term_years = 5
+renewals = [1932]
+owes = [{ by = "JP", to = "CROWN", what = "the Concord's executive entrusted to the Crown of Pacifica, because Pacifica pays the larger quota and commands the fleet" }]
+status = "CANON"
+section = 33
+quote = "The Concord's executive is entrusted to the Crown of Pacifica for five-year terms, because Pacifica pays the larger quota and commands the fleet."
+more_quotes = ["Julian accepts a five-year first term instead of ten"]
+open = "Whether the first term runs from the 1927 provisional application or the 1928 consent is not stated; the 1932 renewal implies 1927–1932."
+
+[[commitment]]
+id = "C-1927-MICRONESIA-TRUST"
+name = "Ka Lōkahi trust of the Marianas, Carolines and Palau"
+kind = "settlement"
+parties = ["LOKAHI", "MICRO", "PAC"]
+from = 1927
+owes = [{ by = "LOKAHI", to = "MICRO", what = "trusteeship of the Marianas, Carolines and Palau (and, PROPOSED, Tutuila)" }]
+status = "APPROVED"
+cr = "CR-029"
+section = 33
+quote = "The same year Ka Lōkahi takes the Marianas, Carolines and Palau into its trust"
+more_quotes = ["Micronesia and Tutuila become trusts of Ka Lōkahi, the council of the crowns."]
+open = "Terms of the trust not stated. Tutuila's inclusion is PROPOSED in §33 but unlabelled in the CR-029 summary."
+
+[[commitment]]
+id = "C-1927-GUAM-LEASE"
+name = "Guam harbour lease"
+kind = "lease"
+parties = ["LOKAHI", "PAC"]
+from = 1927
+owes = [{ by = "LOKAHI", to = "PAC", what = "Guam's harbour on lease to the navy" }]
+status = "PROPOSED"
+cr = "CR-029"
+section = 33
+quote = "the navy keeps Guam's harbour on lease"
+open = "Lessor (presumably the trust) and term not stated; whose navy (Realm or common) is not stated."
+
+[[commitment]]
+id = "C-1927-KAMCHATKA-CO"
+name = "Kamchatka Company charter"
+kind = "charter"
+parties = ["JP", "PAC", "KAM", "KR"]
+from = 1927
+owes = [{ by = "JP", to = "PAC", what = "a third of the national-policy company's shares in Pacifican hands" }]
+can_end = [
+  { who = "KR", how = "Korean workers' paid contracts require Seoul's consent (proposed arrangements)" },
+  { who = "PAC", how = "Korean workers' paid contracts require Pacifica's consent (proposed arrangements)" },
+]
+status = "PROPOSED"
+cr = "CR-031"
+section = 33
+quote = "In 1927, the year of the Concord, Japan charters the Kamchatka Company, a national-policy company on the Manchurian model with a third of its shares in Pacifican hands."
+more_quotes = ["Korean workers join on paid contracts under the proposed arrangements requiring Seoul's consent and Pacifica's."]
+open = "Charter term and Kamchatka republic's consent not stated."
+
+[[commitment]]
+id = "C-1928-THALASSIA-PLAN"
+name = "Thalassia Plan"
+kind = "law"
+parties = ["HI", "CROWN", "COUNTIES"]
+from = 1928
+owes = [
+  { by = "COUNTIES", to = "HI", what = "public land stays leasehold; county administration of leases does not transfer ownership or the ʻAha Aliʻi's custody of Hawaiian lands" },
+  { by = "CROWN", to = "HI", what = "on Thalassia's Hawaiian Crown ground the Mōʻī receives the premiums, which fund parks, transit and schools" },
+]
+conditions = ["The bureau publishes forest cover, stream flow, smoke-free days, reef fish and park access each year."]
+status = "CANON"
+section = 33
+quote = "Public land stays leasehold; on Thalassia's Hawaiian Crown ground the Mōʻī receives the premiums, which fund parks, transit and schools."
+more_quotes = [
+  "With Victoria's backing he drafts the Thalassia Plan of 1928",
+  "County administration of leases does not transfer ownership or the ʻAha Aliʻi's custody of Hawaiian lands.",
+]
+open = "Canon says Keawe drafts the plan; its enactment and legal form in 1928 are not stated. The 1932 Charter 'makes the islands programme law'."
+
+# ---------------------------------------------------------------------------
+# §34–§37 The crash, the renewal and the Thalassia settlement
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1931-HOOVER-MORATORIUM"
+name = "Hoover's war-debt moratorium"
+kind = "settlement"
+parties = ["PAC", "ENTENTE", "UK", "FR"]
+from = 1931
+owes = [{ by = "PAC", to = "ENTENTE", what = "suspension of war-debt payments; debt is restructured" }]
+status = "CANON"
+section = 34
+quote = "Hoover's June 1931 war-debt moratorium restrains forced selling, and debt is restructured."
+open = "Duration, debtors covered and restructured terms not stated."
+
+[[commitment]]
+id = "C-1931-UNION-RESCUE"
+name = "Second gold rescue of the Union"
+kind = "loan"
+parties = ["PAC", "US"]
+from = 1931
+owes = [
+  { by = "PAC", to = "US", what = "gold and debt rescue" },
+  { by = "US", to = "PAC", what = "acceptance of the continental settlement at Thalassia" },
+]
+status = "PROPOSED"
+section = 34
+quote = "The winter rescue of 1931–1932 brings Pacifica's financial leverage back to the republic it saved in 1895."
+more_quotes = [
+  "debt and gold rescue secure its acceptance of the continental settlement",
+  "Dawes has accepted Pacifica's gold and negotiated association rather than risk banking collapse",
+]
+open = "Amount, term and security not stated."
+
+[[commitment]]
+id = "C-1932-GULF-OIL"
+name = "Gulf oil compact"
+kind = "compact"
+parties = ["GULF", "PAC"]
+from = 1932
+owes = [{ by = "PAC", to = "GULF", what = "help to limit output and support prices, without admitting the Republic" }]
+status = "CANON"
+section = 34
+quote = "The Gulf's oil compact arrives in 1932, after a year of ten-cent East Texas oil and the 1931 break in its general-measures streak."
+more_quotes = ["Pacifica helps limit output and support prices without admitting the Republic."]
+open = "Quotas and term not stated."
+
+[[commitment]]
+id = "C-1932-CONCORD-RENEWAL"
+name = "1932 renewal of the Concord executive trust"
+kind = "office"
+parties = ["CROWN", "JP"]
+from = 1932
+until = 1937
+term_years = 5
+owes = [
+  { by = "JP", to = "CROWN", what = "the executive trust renewed to 1937; Japan's overseas commands pass to common control" },
+  { by = "JP", to = "CROWN", what = "the naval party loses its reserved squadron arrangement as command is consolidated" },
+  { by = "CROWN", to = "JP", what = "the home army stays national except in a Concord war" },
+]
+can_end = [{ who = "JP", how = "Japan may refuse in 1937; its demand for an alternating executive was refused in 1932" }]
+conditions = [
+  "Ratified by both crowns and delegations.",
+  "The crowns agree the renewal at Hayama; authorized ministers sign and exchange its instruments at Thalassia, where they are promulgated.",
+]
+status = "CANON"
+section = 36
+quote = "The five-year executive trust is renewed to 1937, with Japan's overseas commands passing to common control at the price of renewal, ratified by both crowns and delegations."
+more_quotes = [
+  "The naval party loses its reserved squadron arrangement as command is consolidated, making the Navy ministry part of the bargain.",
+  "Japan's demand for an alternating executive is refused.",
+  "The crowns agree the renewal at Hayama; authorized ministers sign and exchange its instruments at Thalassia, where they are promulgated.",
+  "The betrothal's marriage can proceed, but Japan may refuse in 1937.",
+]
+open = "'Japan may refuse in 1937' follows the betrothal's marriage; whether it refers to the marriage or the next renewal is ambiguous."
+
+[[commitment]]
+id = "C-1932-LANDS-WATERS"
+name = "Lands and Waters Charter"
+kind = "charter"
+parties = ["HI", "CROWN"]
+from = 1932
+owes = [
+  { by = "HI", to = "CROWN", what = "watershed reserves and minimum stream flows, two leeward industrial districts, restoration of mined land, leasehold for public land, the statistics bureau's annual islands index; Waimanu protected" },
+  { by = "HI", to = "CROWN", what = "the smelter keeps its contracts at gold parity" },
+]
+status = "CANON"
+cr = "CR-020"
+section = 36
+quote = "Their 1932 Lands and Waters Charter makes the islands programme law: watershed reserves and minimum stream flows, two leeward industrial districts, restoration of mined land, leasehold for public land and the statistics bureau's annual islands index."
+more_quotes = ["Waimanu is protected and the smelter keeps its contracts at gold parity."]
+open = "Enacting body not named (Victoria brokers between Keawe and Julian). The navy's reef cut in exchange for marine reserves elsewhere (§34) and the thirty-year hydro refinancing are stated only as Keawe's bargain and a confirmed possibility, not as Charter terms."
+
+[[commitment]]
+id = "C-1932-THALASSIA"
+name = "Thalassia settlement (Thalassia Conference)"
+kind = "settlement"
+parties = ["PAC", "US", "CSA", "GULF", "UK", "DE", "FR", "JP", "CN"]
+from = 1932
+owes = [
+  { by = "US", to = "CSA", what = "Senate recognition of the Confederacy" },
+  { by = "US", to = "GULF", what = "Senate recognition of the Gulf Republic" },
+  { by = "US", to = "PAC", what = "renunciation of surviving claims under the 1865 and 1871 lines; currency in an adjustable gold-dollar order; naval ratio below the common fleet and Britain; accession to the arbitration court's new charter; Soviet industrial contracts cut" },
+  { by = "PAC", to = "US", what = "currency stability, partial recovery through the German debt settlement, Atlantic primacy and a founding seat in the renewed court" },
+]
+conditions = [
+  "Pacifica assumes neither a common Union budget nor common citizenship, free movement or automatic participation in its disputes.",
+  "Germany, Britain and France enter the monetary settlement; Japan and China attend from the standing alliance.",
+]
+status = "PROPOSED"
+cr = "CR-019"
+section = 37
+quote = "At the Thalassia Conference in June–July 1932, debt and gold rescue secure its acceptance of the continental settlement."
+more_quotes = [
+  "Its Senate recognizes the Confederacy and Gulf Republic and renounces the surviving claims under the 1865 and 1871 lines",
+  "The currency joins an adjustable gold-dollar order.",
+  "Pacifica assumes neither a common Union budget nor common citizenship, free movement or automatic participation in its disputes.",
+  "Germany, Britain and France enter the monetary settlement; Japan and China attend from the standing alliance.",
+  "until the 1932 Thalassia settlement makes parities adjustable",
+]
+open = "Young endorses the settlement after his November 1932 election; his inauguration is in 1933. Term not stated."
+
+[[commitment]]
+id = "C-1932-GERMAN-DEBT"
+name = "German debt settlement"
+kind = "settlement"
+parties = ["DE", "US"]
+from = 1932
+owes = [{ by = "DE", to = "US", what = "partial recovery for Union lenders" }]
+status = "PROPOSED"
+cr = "CR-019"
+section = 37
+quote = "partial recovery through the German debt settlement"
+open = "Terms, date and parties beyond the Union's partial recovery not stated."
+
+[[commitment]]
+id = "C-1932-PENSACOLA"
+name = "Pensacola lease"
+kind = "lease"
+parties = ["US"]
+from = 1932
+status = "OPEN"
+cr = "CR-019"
+section = 37
+quote = "a treaty right rather than a transfer of sovereignty"
+more_quotes = ["A Pensacola lease remains"]
+open = "OPEN-019-11: whether there is a lease, lessor and lessee, and term are all undecided."
+
+[[commitment]]
+id = "C-1932-ANZ-DEFENSE"
+name = "Australia–New Zealand defense treaty"
+kind = "treaty"
+parties = ["ANZ", "PAC"]
+from = 1932
+status = "PROPOSED"
+cr = "CR-019"
+section = 37
+quote = "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause."
+open = "OPEN-019-06 (Dominions treaty). Year not stated (§37 is 1932); counterparty presumably Pacifica, not named; terms not stated."
