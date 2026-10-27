@@ -1,6 +1,6 @@
 # CR-034 (draft) — From the secret find to a destination, and the Polytechnic's first decade
 
-**Status:** PROPOSED draft, 27 October 2026; second revision, with the author's answers to the open choices. One fresh-context review was applied to the first revision. Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Status:** PROPOSED draft, 27 October 2026; third revision, adding the Polytechnic's feedback loops (approved by the author). Wave sizes and the rival institutions await historical research. The second revision added the author's answers to the open choices. One fresh-context review was applied to the first revision. Not adopted: no storyline, register, character or workbook file is changed by this draft.
 **Basis:** author decisions and brainstorm of 27 October 2026. Builds on CR-028 (the October 1847 find and the Monterey silence) and draft CR-033 (settlement, titles, Native policy, about 1.2 million people in 1861).
 
 ## Author decisions
@@ -23,6 +23,13 @@ It names the strongest early achievements:
 - Ericsson's arrival about 1855, strengthening an institution already running.
 
 > 1 approved, 2 approved for 1861, smart kids welcome, 3, yes name it, 4 approved. Bank rescue is also approved.
+
+> I approve the three suggested changes. Please fold them into the current cr. … Hold off on the model update for now, I want you to first check the dates and numbers based on historical research and then discuss your findings.
+
+The three changes were:
+1. in canon, citizenship with a chair from the 1850s, plus the royalty share, the two-assistant rule, the journal and prize questions, and the engineer-corps privilege;
+2. the workbook's skilled-entry programme starting about 1856;
+3. wave sizes, to be checked against real schools.
 
 > I would like the prestige discovery to be moved even earlier, so that Pacifica can be established as a prestigious and serious player before the war breaks out. 1858 or so would be good. Zeuner can become a recruiter based in Freiberg after 1871.
 
@@ -75,6 +82,15 @@ Status: **C** means existing canon, and **28** or **33** means the passage comes
 | A13 | 1859–1860: James J. Ott, an assayer the Republic licensed, makes the first assay of Washoe ore at Nevada City; Europe applies for places; the Kanrin Maru's engineers visit Carquinez and ask that Japanese students be admitted to the school as well as the yards; the name "Polytechnic" by 1860. | PROPOSED |
 | A14 | The money comes out of the workbook's existing technical programmes ($0.7m in 1850, $2.2m in 1860), so no workbook change is needed. | MODEL |
 | A15 | Names and places of the Polytechnic, in order:<br>• assay room (Carquinez, 1847);<br>• State Assay Office (San Francisco, 1848);<br>• laboratory and school (Carquinez, 1852);<br>• the Polytechnic (by 1860);<br>• chartered estate (1887). | APPROVED (author) |
+| A17 | **The revenue loop.** A fixed share of the mineral royalty goes to the school from 1852, so its budget grows with gold output and stays out of the yearly appropriation. The share itself is OPEN. | APPROVED (author); share OPEN |
+| A18 | **The chain of hires.** Every chair comes with two paid assistantships, filled by the professor from his own network: Genth's German chemists, Zeuner's Freiberg and Weisbach students, and later Ericsson's engineers. Each appointment brings a small school with it. | APPROVED (author) |
+| A19 | **The reputation loop.**<br>• From 1858 the school publishes its *Mittheilungen* (Proceedings), in German and English, sent free to every academy and technical library.<br>• It sets open prize questions in the manner of the French Academy, with large gold prizes, so that Europe's best men work on Pacifica's problems before they sail. | APPROVED (author) |
+| A20 | **The engineer-corps privilege.** Under the Defense Law of 1855, Polytechnic students and graduates serve their time in the engineer corps. This is modelled on Prussia's one-year volunteer privilege for educated men, and it makes a place at the school prized by every family. | APPROVED (author) |
+| A21 | **Citizenship with a chair, from the 1850s.** From 1854 appointment to a chair brings citizenship without a religious or national test. §19's present-tense sentence becomes "has brought … since the 1850s". It pulls hardest while Jewish scholars, dismissed revolutionaries and French professors who refuse the oath have nowhere else to go (dates to verify). | APPROVED (author) |
+| A22 | **The process loop.** The school keeps a licence fee on the processes it develops, beginning with the 1858 telluride treatment, which gives it an income of its own. This fits canon's later "licensing of Polytechnic inventions" (§19). | PROPOSED |
+| A23 | **Push and war.**<br>• The waves are timed to Europe's dismissals and crises: 1849, 1852, 1857 (the panic, when Pacifica's money holds), 1859, 1863 and 1866.<br>• The war of 1861–65 diverts European engineers from the Union to Pacifica and pays for engineering, and 1865 demobilizes both American armies' engineers (§12).<br>• Japanese students come to Carquinez instead of London (Chōshū 1863, Satsuma 1865 historically).<br>• James Lick is the first private donor. | PROPOSED (dates to verify) |
+| A24 | **Workbook:** the skilled-entry programme (Levers "First year of the skilled-entry programme", now 1880) moves to about 1856 and ramps up. Approved, but deferred until the wave sizes are checked. | APPROVED (author); deferred |
+| A25 | **Wave sizes:** staff and students by about 1858, 1862, 1867 and 1875, set from comparable real institutions. The draft's earlier sketch (15, 50, 150, 400 people) is only a placeholder. | PENDING research |
 | A16 | Rafael Soberanes, born in Monterey in 1847, enters the Polytechnic in 1861 at fourteen. The school takes clever children who pass its entrance examination, whatever their family. | APPROVED (author: "approved for 1861, smart kids welcome") |
 
 ## Proposed storyline text
@@ -99,13 +115,19 @@ Each change is shown with the existing passage it follows or replaces, quoted ex
 
 ### §8, after the paragraph ending "…**[OPEN]** Facilities, budgets, suppliers, armament, dimensions and construction schedule." (A8, A10–A13, A15)
 
-> **[PROPOSED — CR-034]** In 1852 Genth's laboratory moves to Carquinez and becomes a school beside the foundries, separate from the army's academy at Monterey. In 1853 Genth reports that the Superintendency's own quartz mill loses most of the gold locked in sulphides, and Elias prints the report. Gustav Zeuner fought on the Dresden barricades in 1849 and is barred from teaching in Saxony. He comes in 1854 on the word of his teacher Julius Weisbach to build the engineering course: mathematics first, then the testing floor and the works. He measures the water the hydraulic companies buy by the miner's inch and the debris they wash into the rivers, and he tests the engines Ericsson builds at the foundries. Andrew Hallidie, who came as a boy in 1852, brings his wire bridges and the first wire rope for the quartz mills to its testing machine.
+> **[PROPOSED — CR-034]** In 1852 Genth's laboratory moves to Carquinez and becomes a school beside the foundries, separate from the army's academy at Monterey. In 1853 Genth reports that the Superintendency's own quartz mill loses most of the gold locked in sulphides, and Elias prints the report. Gustav Zeuner fought on the Dresden barricades in 1849 and is barred from teaching in Saxony. He comes in 1854 on the word of his teacher Julius Weisbach to build the engineering course: mathematics first, then the testing floor and the works. The school is paid by a fixed share of the royalty, so it grows with the gold. Each chair carries two paid assistants whom the professor chooses, and Genth and Zeuner fill theirs from Philadelphia, Giessen and Freiberg. From 1854 a chair also brings citizenship, with no religious or national test, to men whom their own countries have dismissed or would never appoint. He measures the water the hydraulic companies buy by the miner's inch and the debris they wash into the rivers, and he tests the engines Ericsson builds at the foundries. Andrew Hallidie, who came as a boy in 1852, brings his wire bridges and the first wire rope for the quartz mills to its testing machine.
 
-> **[PROPOSED — CR-034]** In 1858 the school publishes two results that travel. Zeuner's method for slide-valve gear, worked out on Ericsson's engines, will set the valves of the harbor-defense engines. Genth, analysing quartz from Carson Hill, identifies a gold telluride that ordinary milling cannot touch and shows that roasting and chlorine recover it, and the Superintendency's mill that he shamed in 1853 now pays its royalty. Freiberg's journals carry both. By 1860 the school calls itself the Polytechnic, students apply from Europe, and engineers who have never seen the Pacific know where Carquinez is. It takes clever children at fourteen if they pass its examination, whatever their family; in 1861 one of them is Rafael Soberanes of Monterey. **[OPEN]** Contracts, salaries, buildings and the order of later appointments.
+> **[PROPOSED — CR-034]** In 1858 the school publishes two results that travel, in the first number of its *Mittheilungen*, sent in German and English to every technical library in Europe. Zeuner's method for slide-valve gear, worked out on Ericsson's engines, will set the valves of the harbor-defense engines. Genth, analysing quartz from Carson Hill, identifies a gold telluride that ordinary milling cannot touch and shows that roasting and chlorine recover it, and the Superintendency's mill that he shamed in 1853 now pays its royalty. Freiberg's journals carry both. The same number sets the school's first prize questions, with prizes in gold, and the answers come from men who have not yet decided to sail. Behind them come the engineers laid off in the panic of 1857, which the Republic's money has outlasted. By 1860 the school calls itself the Polytechnic, students apply from Europe, and engineers who have never seen the Pacific know where Carquinez is. It takes clever children at fourteen if they pass its examination, whatever their family; in 1861 one of them is Rafael Soberanes of Monterey. **[OPEN]** Contracts, salaries, buildings and the order of later appointments.
 
 ### §8, after the paragraph ending "…One group of miners demands annexation to Pacifica; others prefer an American territorial government." (A13)
 
 > **[PROPOSED — CR-034]** The first assay of the Washoe ore is made at Nevada City by James J. Ott, an assayer the Republic licensed, and San Francisco's money moves before Washington's officials arrive.
+
+### §8, after the paragraph ending "…although it remains dependent on foreign armor plate, coal, expensive heavy guns and credit." (A20)
+
+> **[PROPOSED — CR-034]** Students and graduates of the Carquinez school serve their time in the engineer corps, building the roads, bridges and telegraph the general staff needs. Families who would never send a son to the ranks compete to send him to the school's examination.
+
+### §19, replace "Appointment to a chair brings citizenship without a religious or national test." with "Appointment to a chair has brought citizenship without a religious or national test since the 1850s." (A21)
 
 ### §7, after the paragraph ending "…This restraint preserves the independence of the two powers even as their fortunes become increasingly interconnected." (A13)
 
@@ -152,7 +174,7 @@ The first find stays dated as canon has it (A1), and the linter will flag any pa
   - Hallidie's arrival (1852) settles part of §8's **[OPEN]** list.
   - Run `validate_character_docs.py`.
 - **Commitments ledger:** no new treaty or office. The assayers' licence is a law, not a commitment between parties.
-- **Workbook and population model:** no change. The laboratory and school fit inside the existing technical-programme spending. Assay fees are not modelled.
+- **Workbook and population model:** A24 moves the skilled-entry programme to about 1856. That raises population and GDP from the 1860s, so it's deferred until the wave sizes (A25) are checked. Otherwise no change. The laboratory and school fit inside the existing technical-programme spending. Assay fees are not modelled.
 - **Historical background** (on adoption, with sources):
   - news of the gold: the *New York Herald*, 19 August 1848, and Polk's message of 5 December 1848;
   - the first arrivals of 1848, and about 90,000 arrivals in 1849;
@@ -188,4 +210,8 @@ Resolved on 27 October 2026:
 - population figures in prose — approved;
 - the 1855 rescue — approved.
 
-Still open: whether the first Japanese students come from the Kanrin Maru or under the Treaty of Edo.
+Still open:
+- whether the first Japanese students come from the Kanrin Maru or under the Treaty of Edo;
+- the royalty share (A17);
+- wave sizes (A25), after research;
+- **rival institutions:** a Pacific parallel to the Ivy League, with several competing colleges besides the state Polytechnic. Under discussion, after research.
