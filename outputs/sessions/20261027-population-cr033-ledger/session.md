@@ -42,9 +42,10 @@ independence: separate-agents
 | X2 | commitments/ledger.py check | 164 entries, 0 problems |
 | X3 | population and commitments unit tests | pass |
 | X4 | LibreOffice recalculation of the 23 Oct workbook against saved Excel values | 63,415 cells identical |
-| X5 | Revised workbook: recalculation, Checks | 50,864 formulas, 0 errors; Story 0 problems, Stress 11 (was 17) |
+| X5 | Revised workbook: recalculation, Checks | 51,127 formulas, 0 errors; Story 0 problems, Stress 11 (was 17) |
+| X7 | Sale price tied to land values (author 27 Oct): sensitivities | finance/CR-033-workbook.md |
 | X6 | Land Fund totals recomputed by hand (annuities, sales, survey, police) | agree |
 
 ## Resume here
 
-Author to decide CR-033 adoption and the open choices, including A18 (the margin covers about 11% of assisted passage) and the 1932 population (32.5m in the workbook). Ledger findings 1–12 await the author.
+Author to decide CR-033 adoption and the open choices, including A18 (the margin covers about 47% of assisted passage at the land-value price) and the 1932 population (32.6m in the workbook). Ledger findings 1–12 await the author.

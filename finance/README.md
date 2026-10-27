@@ -2,7 +2,7 @@
 
 Use the [current workbook](Pacifica_financial_model_1846-1932.xlsx) alongside the [current master storyline](../book-agent/revision/master_storyline.md).
 
-**27 October 2026:** the workbook now carries the population change list and the CR-033 Land Fund (draft), and its Events table reaches row 400. See [CR-033-workbook.md](CR-033-workbook.md) for the changes, results and the Land Fund answer. It is built by [`build/cr033_population_landfund.py`](build/cr033_population_landfund.py) from the 23 October workbook and recalculated in LibreOffice, which reproduces the 23 October saved values exactly. SHA-256 `f7462c1cb998dd3c4da917240e1f02d63604bdc9e9b51ef8ac16f670a98baeef`.
+**27 October 2026:** the workbook now carries the population change list and the CR-033 Land Fund (draft), and its Events table reaches row 400. See [CR-033-workbook.md](CR-033-workbook.md) for the changes, results and the Land Fund answer. It is built by [`build/cr033_population_landfund.py`](build/cr033_population_landfund.py) from the 23 October workbook and recalculated in LibreOffice, which reproduces the 23 October saved values exactly. SHA-256 `6342b6c25301c50f7973c132549bbbac86fa1cc9e6cae76436574310454eefde`.
 
 The 23 October workbook was supplied as `Pacifica_financial_model_1846-1932_cr-031.xlsx` and published byte-for-byte, SHA-256 `29aaeaafeeef712ff6c276c71495c461a122f111726abdafacd558f9bab30091`. It replaces the earlier workbook at the stable path; Git history retains the prior version. The [CR-031 review](CR-031-review.md) records its saved Story values, narrative accounting boundaries and source discrepancies. Results remain MODEL estimates. This publication includes an archive/error-cache inspection, not an independent recalculation or Stress-case certification.
 

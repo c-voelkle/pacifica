@@ -230,8 +230,16 @@ FARMLAND_SOURCE = ("US Census of Agriculture: 1920 bulletin, California (www2.ce
                    "Table 1 for 1925-1930. Interpolated log-linearly between censuses; held before 1850 and after 1930.")
 
 
-def farmland(y: int) -> float:
-    pts = sorted(FARMLAND.items())
+# Average value of farm land and buildings per acre, California (census, period dollars).
+LANDVALUE = {1850: 0.99, 1860: 5.58, 1870: 12.30, 1880: 15.79, 1890: 32.53, 1900: 24.56, 1910: 51.93,
+             1920: 104.67, 1925: 114.57, 1930: 112.33}
+LANDVALUE_SOURCE = ("Average value of farm land and buildings per acre, California: 1920 Census of Agriculture bulletin, "
+                    "Table 5 (1850-1920); 1959 Census of Agriculture, California, Table 1 (1925-1930). "
+                    "Interpolated log-linearly between censuses.")
+
+
+def interp(series: dict, y: int) -> float:
+    pts = sorted(series.items())
     if y <= pts[0][0]:
         return pts[0][1]
     if y >= pts[-1][0]:
@@ -239,6 +247,10 @@ def farmland(y: int) -> float:
     for (y0, v0), (y1, v1) in zip(pts, pts[1:]):
         if y0 <= y <= y1:
             return math.exp(math.log(v0) + (math.log(v1) - math.log(v0)) * (y - y0) / (y1 - y0))
+
+
+def farmland(y: int) -> float:
+    return interp(FARMLAND, y)
 
 
 def apply_land_fund(wb) -> None:
@@ -262,9 +274,13 @@ def apply_land_fund(wb) -> None:
          "OPEN in canon (A9). Order of magnitude of what the US and New Zealand governments paid (cents an acre); "
          "the stress case pays 2.5 times as much."),
         ("lfund_term", "Annuity term", 20, 20, "years", "Model estimate", "CR-033 A17: annuities over a long term; length OPEN."),
-        ("lfund_sale", "Sale price to settlers", 1.25, 1.00, "$ an acre", "Model estimate",
-         "The US minimum price for public land, $1.25 an acre (Land Act of 1820), is the price across the border. "
-         "Stress case $1.00."),
+        ("lfund_floor", "Lowest sale price to settlers", 1.25, 1.00, "$ an acre", "Model estimate",
+         "The US minimum price for public land, $1.25 an acre (Land Act of 1820), is the price across the border; "
+         "from 1862 the Homestead Act gives 160 acres free for five years' farming. Stress case $1.00."),
+        ("lfund_share", "Sale price as a share of the average farm value per acre", 0.20, 0.10, "share", "Model estimate",
+         "Raw, unsurveyed land is worth a fraction of the census average for farms, which includes improvements, "
+         "buildings and the best rancho land. The better districts go at auction above the floor (A17: the Republic sets "
+         "the price). Author decision 27 Oct 2026 to tie the price to land values; the share is a model estimate."),
         ("lfund_inst", "Instalment years for settlers", 5, 5, "years", "Model estimate", "CR-033 A17: settlers buy on instalments."),
         ("lfund_default", "Share of instalments never paid", 0.10, 0.20, "share", "Model estimate", "Model estimate."),
         ("lfund_survey", "Survey and register cost", 0.03, 0.05, "$ an acre", "Model estimate",
@@ -320,6 +336,10 @@ def apply_land_fund(wb) -> None:
         ("Q", "Policy balance with interest, incl. police ($m)"),
         ("R", "Assisted passage ($m)"),
         ("S", "Land Fund net / assisted passage, to date"),
+        ("T", "Farm land and buildings, average value, our timeline ($ an acre)"),
+        ("U", "Sale price ($ an acre)"),
+        ("V", "Value of land sold this year ($m)"),
+        ("W", "Value of land sold, to date ($m)"),
     ]
     for col, h in heads:
         ws[f"{col}5"] = h
@@ -335,6 +355,9 @@ def apply_land_fund(wb) -> None:
     for c in ("A4", "B4", "I4", "M4"):
         ws[c].font = BOLD
     note(ws["B5"], FARMLAND_SOURCE)
+    note(ws["T5"], LANDVALUE_SOURCE)
+    note(ws["U5"], "The larger of the floor (lfund_floor) and lfund_share × the census value per acre. "
+                   "The price is fixed at the sale; instalments follow it.")
     ws.freeze_panes = "B6"
     p1877 = "INDEX(Economy!$H$6:$H$92,1877-1845)"
     for r in range(FIRST_ROW, LAST_ROW + 1):
@@ -360,8 +383,13 @@ def apply_land_fund(wb) -> None:
         ws[f"G{r}"] = (f"=IF(AND(lfund_on=1,$A{r}>=lfund_start+1,$A{r}<lfund_start+1+lfund_grant_years),"
                        f"lfund_grants/lfund_grant_years,0)")
         ws[f"H{r}"] = f"=(E{r}+G{r})*lfund_survey/1000000"
-        ws[f"J{r}"] = f"=lfund_sale/lfund_inst*(I{r}-{back('I', 'lfund_inst')})*(1-lfund_default)/1000000"
-        ws[f"K{r}"] = f"=G{r}*lfund_grant_fee*lfund_sale/1000000"
+        ws[f"T{r}"] = round(interp(LANDVALUE, y), 2)
+        ws[f"T{r}"].font = BLUE
+        ws[f"U{r}"] = f"=MAX(lfund_floor,lfund_share*T{r})"
+        ws[f"V{r}"] = f"=(I{r}-{'0' if r == FIRST_ROW else f'I{prev}'})*U{r}/1000000"
+        ws[f"W{r}"] = f"=V{r}" if r == FIRST_ROW else f"=W{prev}+V{r}"
+        ws[f"J{r}"] = f"=(W{r}-{back('W', 'lfund_inst')})/lfund_inst*(1-lfund_default)"
+        ws[f"K{r}"] = f"=G{r}*lfund_grant_fee*U{r}/1000000"
         ws[f"L{r}"] = (f"=IF(AND(lfund_on=1,$A{r}>=1860),lfund_home*lfund_lease_1932*($A{r}-1859)/(1932-1859)"
                        f"*lfund_rent*lfund_fee,0)/1000000")
         ws[f"M{r}"] = f"=J{r}+K{r}+L{r}-F{r}-H{r}"
@@ -379,19 +407,24 @@ def apply_land_fund(wb) -> None:
         ws[f"R{r}"] = f"=People!T{r}*assist_cost*Economy!H{r}/1000000"
         for col in "BCDEGI":
             ws[f"{col}{r}"].number_format = "#,##0;(#,##0);-"
-        for col in "FHJKLMNOPQR":
+        for col in "FHJKLMNOPQRVW":
             ws[f"{col}{r}"].number_format = "#,##0.000;(#,##0.000);-"
+        for col in "TU":
+            ws[f"{col}{r}"].number_format = "#,##0.00;(#,##0.00);-"
+        for col in "UVW":
+            ws[f"{col}{r}"].font = BLACK
         ws[f"S{r}"].number_format = "0%;(0%);-"
         for col in "CDEFGHIJKLMNOPQS":
             ws[f"{col}{r}"].font = BLACK
 
     # summary block
-    ws["U5"] = "Summary"
-    ws["U5"].font = BOLD
+    ws["Y5"] = "Summary"
+    ws["Y5"].font = BOLD
     rows = [
         ("Acres bought, 1851-1932", "=D92", "#,##0"),
         ("Annuities paid ($m)", "=SUM(F6:F92)", "#,##0.0"),
         ("Instalments and grant land ($m)", "=SUM(J6:K92)", "#,##0.0"),
+        ("Average sale price ($ an acre)", "=IF(I92>0,W92*1000000/I92,0)", "#,##0.00"),
         ("Lease fees ($m)", "=SUM(L6:L92)", "#,##0.0"),
         ("Survey and register ($m)", "=SUM(H6:H92)", "#,##0.0"),
         ("Land Fund net, undiscounted ($m)", "=SUM(M6:M92)", "#,##0.0"),
@@ -407,15 +440,15 @@ def apply_land_fund(wb) -> None:
     ]
     for i, (label, f, fmt) in enumerate(rows):
         r = 6 + i
-        ws[f"U{r}"] = label
-        ws[f"U{r}"].font = Font(name="Arial", size=10)
-        ws[f"V{r}"] = f
-        ws[f"V{r}"].number_format = fmt
-        ws[f"V{r}"].font = BLUE if isinstance(f, float) else BLACK
-    note(ws["V20"], "Claims submitted to the State Comptroller for expeditions against the Indians: $1,293,179.20 "
+        ws[f"Y{r}"] = label
+        ws[f"Y{r}"].font = Font(name="Arial", size=10)
+        ws[f"Z{r}"] = f
+        ws[f"Z{r}"].number_format = fmt
+        ws[f"Z{r}"].font = BLUE if isinstance(f, float) else BLACK
+    note(ws[f"Z{5 + len(rows)}"], "Claims submitted to the State Comptroller for expeditions against the Indians: $1,293,179.20 "
                     "(California State Military Museum, 'California and the Indian Wars'). Our-timeline reference only.")
-    ws.column_dimensions["U"].width = 44
-    ws.column_dimensions["V"].width = 14
+    ws.column_dimensions["Y"].width = 44
+    ws.column_dimensions["Z"].width = 14
 
     # Budget G: Land Fund net cash
     B = wb["Budget"]

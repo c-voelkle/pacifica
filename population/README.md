@@ -95,8 +95,8 @@ Canon text for these decisions: draft CR-033 in `book-agent/revision/drafts/`.
 
 ## Step 3: workbook change list (complete, applied 27 Oct 2026)
 
-The workbook now includes the changes (`finance/CR-033-workbook.md`). `[dem01] multiplier` is therefore 1.0 here, and the model and the sheet agree on residents in every year. The workbook's own migration responds to the larger population, so it ends 1932 with 32.5m residents.
+The workbook now includes the changes (`finance/CR-033-workbook.md`). `[dem01] multiplier` is therefore 1.0 here, and the model and the sheet agree on residents in every year. The workbook's own migration responds to the larger population, so it ends 1932 with 32.6m residents.
 
 [`workbook_change_list.md`](workbook_change_list.md) lists what the People, Paths, Levers and Checks sheets would need to match the approved model. It also lists the knock-on effects to check and the Land Fund rows that apply if CR-033 is adopted. The workbook is unchanged.
 
-**Year convention:** the change list counts residents at the end of each year, as the People sheet does (column L). Elsewhere in this README and in CR-033, "in 1932" means the start of 1932. Before the workbook was revised, the model gave 30.1m at the start of 1932 and 30.9m at the end, using the old sheet's migration. With the revised workbook's migration it gives 31.4m at the start and 32.5m at the end.
+**Year convention:** the change list counts residents at the end of each year, as the People sheet does (column L). Elsewhere in this README and in CR-033, "in 1932" means the start of 1932. Before the workbook was revised, the model gave 30.1m at the start of 1932 and 30.9m at the end, using the old sheet's migration. With the revised workbook's migration it gives 31.8m at the start and 32.6m at the end.
