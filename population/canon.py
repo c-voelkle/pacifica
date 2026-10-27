@@ -105,8 +105,22 @@ def migration_profiles(y: int, d: dict, prev: dict | None, lev: dict,
     stream("japanese", d["japanese"], dep, "japanese")
     stream("filipino", d["filipino"], dep, "filipino")
 
-    # Extra arrivals drawn by Pacifica's lead: the Asian part is what the sheet adds to its
-    # Asian guest-worker and talent stocks beyond their natural increase.
+    # Extra arrivals drawn by Pacifica's lead: by origin shares (assumptions [extra_origin]),
+    # or the sheet's own split (what it adds to its Asian guest-worker and talent stocks).
+    eo = load("assumptions")["extra_origin"]
+    if eo["mode"] == "shares":
+        if "extra" not in streams:
+            return {g: cohort.merge(*parts) for g, parts in prof.items()}
+        shares = [row for row in eo["periods"] if row[0] <= y][-1][1:]
+        fm = lev["family_mult"]
+        sk = a["skilled_male_share"]
+        for g, share in zip(("white", "japanese", "chinese", "filipino"), shares):
+            n = d["extra"] * share
+            if n:
+                workers = n / fm
+                prof.setdefault(g, []).extend([cohort.migrant_profile(workers, sk, 0.0),
+                                               cohort.migrant_profile(n - workers, 1 - sk, 0.5)])
+        return {g: cohort.merge(*parts) for g, parts in prof.items()}
     asian = 0.0
     if prev:
         for k in ("asian_guest", "asian_talent"):

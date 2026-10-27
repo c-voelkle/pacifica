@@ -1,0 +1,37 @@
+# Our timeline's emigration pools: the yardstick for where Pacifica's migrants could come from.
+
+[europe_to_americas]
+period = "1846-1940"
+low = 55000000
+high = 58000000
+source = "McKeown, 'Global Migration, 1846-1940', Journal of World History 15(2), 2004 — figures as reproduced in Strayer, Sources (Macmillan) 'Long-Distance Migration in an Age of Empire'"
+status = "verified (secondary reproduction; author not named on that page)"
+
+[india_south_china_to_southeast_asia]
+period = "1846-1940"
+low = 48000000
+high = 52000000
+source = "as above (McKeown 2004); Indian and Chinese migrants together, not split"
+status = "verified (secondary reproduction)"
+
+[japan_overseas]
+period = "1868-1941"
+total = 770000
+north_america_incl_hawaii = 370000
+latin_america = 240000
+southeast_asia_other = 160000
+note = "excludes Manchuria"
+source = "Ministry of Foreign Affairs of Japan, Diplomatic Bluebook 1985, ch. 3 sec. 5"
+status = "verified"
+
+[japan_colonies_c1940]
+# Japanese residents around 1940 (stocks, not cumulative emigration; much of it after 1931)
+korea = 690000
+manchukuo = 890000
+taiwan = 350000
+south_sakhalin = 380000
+kwantung = 200000
+mainland_china = 280000
+south_sea_islands = 80000
+source = "Matsumoto, 'Japanese Americans around the world, Part 1', Discover Nikkei, 27 Dec 2017 ('multiple statistics', not named)"
+status = "estimate"

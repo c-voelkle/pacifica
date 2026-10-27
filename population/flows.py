@@ -210,10 +210,42 @@ def main() -> int:
              f"| {fmt(tot['am_eu'])} | {fmt(tot['us_europe_canada'])} | {pct(tot['am_eu'], tot['us_europe_canada'])} "
              f"| {fmt(tot['chinese'])} | {fmt(tot['us_china'])} | {pct(tot['chinese'], tot['us_china'])} "
              f"| {fmt(tot['japanese'])} | {fmt(tot['us_japan'])} | {pct(tot['japanese'], tot['us_japan'])} |")
+    # by origin: named streams plus the talent stream's origin shares
+    eo = load("assumptions")["extra_origin"]
+    pools = load("pools")
+    origin = {"americas_europe": 0.0, "japanese": 0.0, "chinese": 0.0, "filipino": 0.0}
+    for yy in range(canon.FIRST, canon.LAST + 1):
+        d = sheet[yy]
+        origin["americas_europe"] += d["am_eu"]
+        origin["japanese"] += d["japanese"]
+        origin["chinese"] += d["chinese"]
+        origin["filipino"] += d["filipino"]
+        if eo["mode"] == "shares":
+            sh = [row for row in eo["periods"] if row[0] <= yy][-1][1:]
+            for k, s in zip(("americas_europe", "japanese", "chinese", "filipino"), sh):
+                origin[k] += d["extra"] * s
+    full_last = ch["full"][-1]
+    jp_pool = pools["japan_overseas"]["total"] + sum(v for k, v in pools["japan_colonies_c1940"].items()
+                                                     if isinstance(v, int))
+    L += ["", "## All arrivals by origin, 1846–1932", "",
+          f"Named streams plus the talent stream split by origin (`[extra_origin]`, mode `{eo['mode']}`). "
+          "Gross arrivals; the population column counts each group in 1932 with descendants, after departures.", "",
+          "| Origin | Gross arrivals | Group population 1932 | US intake 1841–1930 | Our timeline's pool |",
+          "|---|---|---|---|---|",
+          f"| Americas & Europe | {fmt(origin['americas_europe'])} | {fmt(full_last['white'])} (all white, incl. 1846 and territory residents) "
+          f"| {fmt(tot['us_europe_canada'])} | {fmt(pools['europe_to_americas']['low'])}–{fmt(pools['europe_to_americas']['high'])} Europeans to the Americas, 1846–1940 |",
+          f"| Japan | {fmt(origin['japanese'])} | {fmt(full_last['japanese'])} | {fmt(tot['us_japan'])} "
+          f"| {fmt(pools['japan_overseas']['total'])} overseas 1868–1941, plus about {fmt(jp_pool - pools['japan_overseas']['total'])} in colonies and China c.1940: {fmt(jp_pool)} |",
+          f"| China | {fmt(origin['chinese'])} | {fmt(full_last['chinese'])} | {fmt(tot['us_china'])} "
+          f"| part of {fmt(pools['india_south_china_to_southeast_asia']['low'])}–{fmt(pools['india_south_china_to_southeast_asia']['high'])} Indians and Chinese to Southeast Asia, 1846–1940 |",
+          f"| Philippines | {fmt(origin['filipino'])} | {fmt(full_last['filipino'])} | — | not yet sourced |",
+          "", f"Japanese arrivals as a share of Japan's redirected pool: {pct(origin['japanese'], jp_pool)}. "
+          "Pools are our timeline's totals; the canon can redirect them (Japan without Korea and Manchuria) but not "
+          "multiply them without a stated reason.", ""]
     L += ["",
           f"Also in the sheet over 1846–1932: {fmt(tot['filipino'])} Filipino arrivals (no US yardstick: Filipinos were US "
           f"nationals from 1898 and are largely absent from these counts) and {fmt(tot['extra'])} drawn by Pacifica's lead "
-          f"(skilled workers and families, not split by origin in the sheet). {fmt(tot['leave'])} leave again; net "
+          f"(skilled workers and families; split by origin above). {fmt(tot['leave'])} leave again; net "
           f"{fmt(tot['net'])}.", "",
           "## Reading this", "",
           "- The chain separates the sheet's growth into its sources; each column is the people that source accounts for.",
