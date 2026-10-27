@@ -5,6 +5,7 @@ A cohort-component model of Pacifica's population: single years of age, two sexe
 ```
 python3 population/historical.py   # validation against our timeline  -> outputs/historical.md
 python3 population/canon.py        # canon run against the People sheet -> outputs/reconciliation.md, canon_by_year.csv
+python3 population/flows.py        # where the population comes from, and migration vs US immigration -> outputs/flows.md
 python3 -m unittest discover -s population/tests -v
 ```
 
@@ -24,13 +25,25 @@ Needs Python 3.11+ and `openpyxl` (to read the workbook; it is never written).
 | `data/census.toml` | Census counts for Hawaii 1853–1900, California by group 1850–1900, other western states 1850–1930, and Native Californian estimates | Each series is labelled verified, identity-checked or estimate, with its source |
 | `data/rates.toml` | US white and Black e0 and TFR (Haines) | Verified |
 | `data/rates.toml` | Native Hawaiian rates | Calibrated to the census, then tested against age structure |
-| `data/assumptions.toml` | Migrant age and sex profiles, joined-territory sex ratio | MODEL, and the only place these live |
+| `data/assumptions.toml` | Migrant age and sex profiles, joined-territory sex ratio; the Native Californian switch | MODEL, and the only place these live |
+| `data/us_immigration.toml` | US immigration by decade and origin, 1841–1930 | Verified (DHS yearbook) |
 
 ## Validation (our timeline)
 
 - **Native Hawaiians, 1853–1896:** with no migration, the calibrated rates reproduce six censuses within about 6%. They also pass an independent test on the share of children. The calibration is weakly identified; see `outputs/historical.md`.
 - **California:** each census group closes exactly against the census, which yields historical net migration by group and decade.
 - **Native Californians:** losses beyond the worst life-table mortality, 1848–1870, quantified against the scholarly estimates.
+
+## The chain (`flows.py`)
+
+Every run uses the same engine, which is linear in population, so differences between runs are exact contributions:
+
+1. the 1846 Californians and their descendants;
+2. plus the territories joined;
+3. plus each migration stream, with descendants;
+4. plus the sheet's flat growth rate, which gives the People sheet.
+
+All four start at zero in 1846. Our timeline on the same territory, from census figures, is the reference line.
 
 ## Next step: canon divergence factors
 

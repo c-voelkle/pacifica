@@ -14,10 +14,11 @@ Apply the [shared authority and scope rules](../../../docs/authority-and-scope.m
 ```
 python3 population/historical.py   # our-timeline validation
 python3 population/canon.py        # canon run and reconciliation with the People sheet
+python3 population/flows.py        # chain from 1846 by source, and migration against US immigration
 python3 -m unittest discover -s population/tests
 ```
 
-Read `population/outputs/reconciliation.md` before answering; quote its numbers with their labels.
+Read `population/outputs/flows.md` and `reconciliation.md` before answering. Native Californians follow the switch in `data/assumptions.toml` (an OPEN canon question; say which setting a number uses); quote its numbers with their labels.
 
 ## Rules
 
