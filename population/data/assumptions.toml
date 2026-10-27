@@ -1,0 +1,46 @@
+# MODEL assumptions: estimates without a direct source in this version.
+# Each is labelled with what anchors it. Change them here; never in code.
+
+[migration]
+# Age profile of arrivals: adults drawn from a normal curve (mean, sd) between
+# ages 15 and 55; children 0-14 spread evenly; the child share depends on the stream.
+adult_mean_age = 26
+adult_sd = 7
+# Male share of adult arrivals by stream and period (first year the value applies).
+# Anchors: California was reported over 90% male in 1850; Chinese arrivals in the
+# US were overwhelmingly male. Canon changes family migration from 1868 (Chinese
+# treaty family-emigration article) and 1907 (Japanese compact); the shares after
+# those dates are MODEL readings of that canon, not sourced numbers.
+americas_europe = [[1846, 0.90], [1856, 0.65], [1888, 0.55]]
+chinese  = [[1846, 0.92], [1868, 0.70]]
+japanese = [[1846, 0.80], [1907, 0.50]]
+filipino = [[1846, 0.60]]
+# Assisted arrivals (canon: women and families from 1852): female share of adults.
+assisted_female_share = 0.75
+child_share_unassisted = 0.05
+child_share_family = 0.30
+# Extra arrivals drawn by Pacifica's lead: skilled workers with families
+# (Levers family_mult = 2.2 people per worker) -> one adult worker (male share
+# below) plus family members at the family profile.
+skilled_male_share = 0.85
+
+[migration_otl]
+# Our timeline, used only by historical.py. Chinese: anchor the US Chinese sex
+# ratio of roughly 20 men per woman around 1880-1900 (widely documented; exact
+# census figures not yet sourced here). Japanese before the 1908 Gentlemen's
+# Agreement mostly young men. Other streams as in [migration].
+americas_europe = [[1846, 0.90], [1856, 0.65], [1888, 0.55]]
+chinese  = [[1846, 0.95]]
+japanese = [[1846, 0.85]]
+
+[native_hawaiian_calibration]
+# Search ranges for the calibration (both sexes e0 and TFR).
+e0_range = [19.0, 40.0]
+tfr_range = [2.0, 7.0]
+
+[perimeter]
+# Joined territories without race detail in this version are one group with
+# white vital rates; their age-sex structure at joining is the stable population
+# for those rates, with the sex ratio below (MODEL: frontier populations were
+# male-heavy; 1860-70 western census sex ratios not yet sourced).
+joined_male_share = 0.58

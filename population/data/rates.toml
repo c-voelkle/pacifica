@@ -1,0 +1,48 @@
+# Vital rates for our timeline. Values between listed years are interpolated
+# linearly; before the first or after the last listed year they are held.
+# e0 = life expectancy at birth, both sexes; tfr = total fertility rate.
+
+[white]
+years = [1850, 1860, 1870, 1880, 1890, 1895, 1900, 1910, 1920, 1930]
+e0    = [39.5, 43.6, 45.2, 40.5, 46.8, 51.8, 51.8, 54.6, 57.4, 60.9]
+tfr_years = [1850, 1860, 1870, 1880, 1890, 1900, 1910, 1920, 1930]
+tfr       = [5.42, 5.21, 4.55, 4.24, 3.87, 3.56, 3.42, 3.17, 2.45]
+source = "Haines, 'Fertility and Mortality in the United States', EH.Net Encyclopedia, Table 1 (Coale & Zelnik 1963; Haines 1998). e0 for 1900 is Haines's c.1895 value."
+status = "verified"
+
+[black]
+years = [1850, 1895, 1904, 1920, 1930]
+e0    = [23.0, 41.8, 46.8, 47.0, 48.5]
+tfr_years = [1855, 1865, 1875, 1882, 1890, 1900, 1910, 1920, 1930]
+tfr       = [7.90, 7.58, 7.69, 7.26, 6.56, 5.61, 4.61, 3.64, 2.98]
+source = "Haines, EH.Net, Table 1 (decade averages placed at mid-decade). e0 between 1850 and c.1895 is interpolated: no published values in that table."
+status = "verified"
+
+# No group-specific series for Chinese, Japanese and Filipino residents, for
+# residents of joined territories, or for non-Hawaiian residents of Hawaii in
+# this version: they use the white series (MODEL). Stated in every report.
+
+[native_hawaiian]
+# Calibrated, not observed: registration before 1920 is incomplete and not by race
+# (State of Hawaii Data Book 1971, Table 12). See calibration in historical.py:
+# fit to the Native Hawaiian census decline 1853-1896, tested against the
+# under-15 share of 1866 and 1872 and against Honolulu's e0 of 36.5 (1884, all groups).
+status = "calibrated"
+
+[native_californian]
+# The decline of 1848-1870 is not reproducible by any life table: it was driven by
+# killing, enslavement, starvation and disease (Madley 2016). The model applies the
+# worst West level (e0 about 19) and reports the remainder as excess loss.
+status = "calibrated"
+floor_e0 = 19.0
+tfr = 4.0
+tfr_status = "MODEL (no source in this version)"
+
+[fertility_shape]
+# Share of a woman's lifetime births by five-year age group, 15-19 ... 45-49.
+# Coale-Trussell natural marital fertility n(a) (0.411, 0.460, 0.431, 0.396, 0.321,
+# 0.167, 0.024) times an assumed proportion married (0.35, 0.80, 0.90, 0.92, 0.92,
+# 0.90, 0.90). The marriage proportions are MODEL.
+natural = [0.411, 0.460, 0.431, 0.396, 0.321, 0.167, 0.024]
+married = [0.35, 0.80, 0.90, 0.92, 0.92, 0.90, 0.90]
+source = "Coale & Trussell (1974), Population Index 40(2), as recalled: not re-read in this session (status: to verify). Marriage proportions MODEL."
