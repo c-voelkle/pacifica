@@ -320,6 +320,7 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
                "males": sum(allg.M), "sailors": d["sailors"], "labour_force": d["labour_force"]}
         for g in GROUPS:
             row[g] = pop[g].total()
+            row[f"{g}_males"] = sum(pop[g].M)
         rows.append(row)
         prev = d
     return rows, {"nh": cal, "sheet": sheet}
@@ -434,6 +435,21 @@ def main() -> int:
     for y in (1870, 1887, 1900, 1914, 1932):
         r = by[y]
         L.append(f"| {y} | {fmt(r['men_18_45'])} | {fmt(r['sailors'])} | {100 * r['sailors'] / r['men_18_45']:.1f}% |")
+    L += ["", "### Women's and family programmes: sex ratio", "",
+          "Men per 100 women. Canon evens out the gold-rush imbalance through assisted passage for women and families "
+          "(from 1852, §15) and family migration (Chinese from 1868, Japanese from 1907); the sheet's natural-increase "
+          "path assumes it does.", "",
+          "| Year | All residents | White | Chinese | Japanese | Filipino |", "|---|---|---|---|---|---|"]
+    def ratio(r, g=None):
+        if g is None:
+            m, tot = r["males"], r["model_total"]
+        else:
+            m, tot = r[f"{g}_males"], r[g]
+        f = tot - m
+        return f"{100 * m / f:.0f}" if f > 1 and tot > 1000 else "—"
+    for y in (1856, 1861, 1870, 1880, 1900, 1914, 1932):
+        r = by[y]
+        L.append(f"| {y} | {ratio(r)} | {ratio(r, 'white')} | {ratio(r, 'chinese')} | {ratio(r, 'japanese')} | {ratio(r, 'filipino')} |")
     L += ["", "### Labour force", "",
           "| Year | Labour force (sheet) | Ages 15–64 (model) | Implied participation |", "|---|---|---|---|"]
     for y in (1870, 1887, 1900, 1914, 1932):

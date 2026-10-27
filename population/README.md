@@ -56,7 +56,7 @@ All four start at zero in 1846. Our timeline on the same territory, from census 
 
 It needs roughly three times the settlement California gained in our timeline, mostly by keeping people who historically came and left. The candidates:
 
-- **No Foreign Miners' Tax.** The republic administers claims under the inherited Spanish and Mexican mining regime (master storyline §5). So Sonoran, Chilean, Peruvian and Chinese miners stay, where our timeline's California taxed and drove them out from 1850.
+- **Light foreign-miner licences instead of a punitive tax.** Canon (§5) has Elias hold the licences to $2 a month for residents and $4 for non-resident foreigners. So Sonoran, Chilean, Peruvian and Chinese miners stay, where our timeline's punitive Foreign Miners' Tax of 1850 drove them out. (Corrected 27 Oct 2026: an earlier wording said "no tax", which contradicted canon.)
 - **Assisted passage for women and families from 1852.** This is canon, and it turns sojourning miners into settlers.
 - **Secure land titles and a stable republic.** Land titles are an OPEN canon item, so this is a candidate.
 - **A Pacific-facing republic,** with Hawaii from 1856 and Pacific shipping, drawing arrivals from Australia and Chile directly.
@@ -81,12 +81,10 @@ Each group's vital rates follow a dated path, with real-world benchmarks as the 
 
 `rates_case = "our_timeline"` restores historical rates for comparison.
 
-## Step 2 (remaining): canon divergence factors
+## Step 2: canon divergence factors (complete)
 
-Done: health measures, the Hawaiian turn, Native recovery, general mortality and fertility. Still open:
+- **Health measures, the Hawaiian turn, Native recovery, general mortality and fertility:** see Canon rates above.
+- **Women's and family programmes:** these act through the assisted-passage share (women and families from 1852) and the migrant sex ratios (Chinese families from 1868, Japanese from 1907). `reconciliation.md` checks the result. The white population runs about 150 men per 100 women in 1856 and evens out to about 100 by 1880, as canon describes.
+- **Group-specific rates:** all residents other than Native Hawaiians and Native Californians share the general canon path. This is a decision, not a gap: canon's civic equality and the examined state give no ground for group differences, and no sourced rates for those groups exist here.
 
-- the women's and family programmes as changes to migrant sex ratios (they now act only through the assisted share);
-- family migration from 1868 and 1907, beyond the migrant shares in `[migration]`;
-- group-specific rates for Asian residents, joined territories and Black residents (all on the general path now).
-
-Each becomes a dated, sourced change to a group's rates or migration profile, recorded in the data files with its canon reference.
+Canon text for these decisions: draft CR-033 in `book-agent/revision/drafts/`.

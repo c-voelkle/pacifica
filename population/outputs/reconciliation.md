@@ -74,6 +74,20 @@ DEM-01 tests about 1.2m in 1861 and 1.5m in 1865. Sheet: 690,317 and 1,158,718. 
 | 1914 | 3,739,448 | 23,440 | 0.6% |
 | 1932 | 6,573,150 | 37,340 | 0.6% |
 
+### Women's and family programmes: sex ratio
+
+Men per 100 women. Canon evens out the gold-rush imbalance through assisted passage for women and families (from 1852, §15) and family migration (Chinese from 1868, Japanese from 1907); the sheet's natural-increase path assumes it does.
+
+| Year | All residents | White | Chinese | Japanese | Filipino |
+|---|---|---|---|---|---|
+| 1856 | 130 | 153 | 146 | — | — |
+| 1861 | 116 | 125 | 137 | — | — |
+| 1870 | 111 | 106 | 121 | — | — |
+| 1880 | 102 | 99 | 104 | 110 | 81 |
+| 1900 | 101 | 99 | 104 | 125 | 93 |
+| 1914 | 105 | 103 | 107 | 116 | 96 |
+| 1932 | 105 | 104 | 108 | 111 | 104 |
+
 ### Labour force
 
 | Year | Labour force (sheet) | Ages 15–64 (model) | Implied participation |
