@@ -10,6 +10,19 @@
 #   "hawaiian_analogue"  disease without mass killing: the calibrated Native Hawaiian rates
 native_californians = "sheet_rate"
 
+[extra_origin]
+# Origin of the People sheet's "extra arrivals drawn by Pacifica's lead" (skilled
+# workers and families). Author direction 27 Oct 2026: mostly Americas & Europe, then
+# Japan, then China; Filipino mostly after 1914. The shares are MODEL defaults to
+# adjust. mode = "shares" uses the table; mode = "sheet" uses the sheet's own
+# implied split (its Asian guest-worker and talent stocks).
+mode = "shares"
+# [first year, americas_europe, japanese, chinese, filipino]
+periods = [
+  [1846, 0.75, 0.15, 0.10, 0.00],
+  [1914, 0.58, 0.22, 0.15, 0.05],
+]
+
 [migration]
 # Age profile of arrivals: adults drawn from a normal curve (mean, sd) between
 # ages 15 and 55; children 0-14 spread evenly; the child share depends on the stream.

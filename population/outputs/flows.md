@@ -32,7 +32,7 @@ People present in each year because of each stream (arrivals, minus those who le
 | Japanese | 144 | 34,406 | 268,251 | 874,053 |
 | Filipino | 0 | 11,797 | 149,209 | 487,914 |
 | Drawn by Pacifica's lead (skilled + families) | 0 | 141,083 | 3,674,556 | 11,385,799 |
-| (interaction, rounding) | 0 | 0 | -0 | -0 |
+| (interaction, rounding) | 0 | 0 | 0 | 0 |
 
 ## Arrivals against real US immigration
 
@@ -51,7 +51,21 @@ The sheet's gross arrivals per decade, and the same decade's immigration to the 
 | 1921-1930 | 4,543,998 | 4,107,209 | 111% | 1,020,000 | 3,509,626 | 29% | 282,000 | 30,648 | ×9.2 | 282,000 | 42,057 | ×6.7 |
 | **1841–1930** | 17,339,061 | 37,011,063 | 47% | 6,320,000 | 34,274,543 | 18% | 1,691,300 | 375,645 | ×4.5 | 807,700 | 274,806 | ×2.9 |
 
-Also in the sheet over 1846–1932: 452,000 Filipino arrivals (no US yardstick: Filipinos were US nationals from 1898 and are largely absent from these counts) and 8,068,061 drawn by Pacifica's lead (skilled workers and families, not split by origin in the sheet). 2,136,780 leave again; net 15,202,281.
+## All arrivals by origin, 1846–1932
+
+Named streams plus the talent stream split by origin (`[extra_origin]`, mode `shares`). Gross arrivals; the population column counts each group in 1932 with descendants, after departures.
+
+| Origin | Gross arrivals | Group population 1932 | US intake 1841–1930 | Our timeline's pool |
+|---|---|---|---|---|
+| Americas & Europe | 11,996,698 | 17,394,045 (all white, incl. 1846 and territory residents) | 34,274,543 | 55,000,000–58,000,000 Europeans to the Americas, 1846–1940 |
+| Japan | 2,426,054 | 3,038,959 | 274,806 | 770,000 overseas 1868–1941, plus about 2,870,000 in colonies and China c.1940: 3,640,000 |
+| China | 2,793,299 | 3,588,153 | 375,645 | part of 48,000,000–52,000,000 Indians and Chinese to Southeast Asia, 1846–1940 |
+| Philippines | 694,449 | 772,033 | — | not yet sourced |
+
+Japanese arrivals as a share of Japan's redirected pool: 67%. Pools are our timeline's totals; the canon can redirect them (Japan without Korea and Manchuria) but not multiply them without a stated reason.
+
+
+Also in the sheet over 1846–1932: 452,000 Filipino arrivals (no US yardstick: Filipinos were US nationals from 1898 and are largely absent from these counts) and 8,068,061 drawn by Pacifica's lead (skilled workers and families; split by origin above). 2,136,780 leave again; net 15,202,281.
 
 ## Reading this
 
