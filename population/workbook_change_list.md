@@ -1,6 +1,6 @@
 # Workbook change list (population step 3)
 
-**Status:** proposed changes for the next version of `finance/Pacifica_financial_model_1846-1932.xlsx`, 27 October 2026. The workbook is not changed. Chryseis makes the edits in a separate financial task, then reruns the Checks sheet and both cases.
+**Status:** applied on 27 October 2026 at the author's request. See `finance/CR-033-workbook.md` for the results. P3 folds both People Q and R into N–P, because the model splits all of Labour AL, which includes the settling guest workers. Keeping Q would count them twice. D1–D3 are answered there. L1 is the Land Fund sheet.
 
 **Basis:** the author's decisions of 27 October 2026 (`README.md`, decisions 1–6) and draft CR-033. The figures come from `python3 population/changes.py`: the summary is in `outputs/workbook_changes.md`, and year-by-year values for pasting are in `outputs/workbook_changes.csv`. Residents are counted at the end of each year, as in People column L.
 
