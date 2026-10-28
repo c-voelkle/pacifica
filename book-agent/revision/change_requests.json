@@ -2548,6 +2548,86 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-040",
+      "title": "The crown of 1907, the failed peace and the Russian war",
+      "status": "approved_directions_integrated_proposals_pending",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-040.md",
+      "authorization": "Author, 28 October 2026: \"I want like a combination of A and D … it starts out with Julian's earlier coronation, his Europe tour, and trying to prevent war in Europe. The European powers, in their stubbornness, still end up dragging everyone in the world into World War I, which leads to the Bolshevik Revolution, the Red Terror, and Julian and his Pacifica coalition having to invade and ultimately arrest Lenin, Trotsky, and Stalin.\" On the 1905 war: the Kiyoshi confrontation and naval battle \"should also be a part of the major CR-040 rework\". Second round: \"R2 - renounce … R3 - 1916 after daughters is ok … R4 - approved … R6 - approve R7 - approve R8 - arrested, tried and execute for state crimes (of which they were guilty) R11 - Federal Russia … R13 - Ka Lokahi keeps its ten year review cycle, agrees on Japan joining\". K1: \"I think this is the stronger version and it really provides a satisfying conclusion to Kiyoshi's biography.\" Third round: \"Yes I approve r5 - makes Julian more human, which is good. F1 as well. R13 also. The supercession table is also approved.\"",
+      "requirements": [
+        "Kiyoshi's May 1905 victory is over Russia's Petropavlovsk cruiser squadron (one cruiser taken, two damaged); Russia's battle fleets survive and Russia turns west.",
+        "Silas renounces in December 1906, for himself and his descendants; he still confesses Donner in autumn 1912 and dies in winter 1912.",
+        "Kiyoshi claims early in 1907 as count and squadron commander, renounces in March 1907, and becomes Fleet-General in the later 1907 renewal.",
+        "The Act of Settlement of 1907 joins the crowns; Julian accedes to the Realm and Hawaii in November 1907, marries Chiyo that month and swears before the Cortes in December 1907.",
+        "Kahekili is born about 1916, after daughters.",
+        "Ka Lōkahi forms in 1907, reviews in 1917 and 1927; its 1927 review agrees that Japan joins, binding the Hawaiian and Philippine crowns but not the Realm without the Senate.",
+        "Julian tours Europe from 1908 and helps settle Bosnia (1909), Agadir (1911) and the Balkan wars (1912–1913).",
+        "July 1914 fails: Franz Ferdinand's death, Vienna's anger at the procedures, Berlin's fear of a westward Russia, Julian's shelved Black Hand warning and his withheld oil sanction; Zimmermann receives his envoy on 5 July.",
+        "Stages 3–4 approved in direction, not yet integrated: Red Terror hostages and the Office's lists (R6); Lenin taken by a coalition armoured train (R7); Lenin and Trotsky tried and executed for state crimes (R8); federal Russia (R11); Kiyoshi takes Kronstadt by stratagem, kills Stalin and dies in May 1920 (K1)."
+      ],
+      "open": [
+        "Stages 3–4 storyline text: the Great War changes, the Red Terror, the Russian war, the arrests and trials, Kronstadt, Harbin with federal Russia.",
+        "R9 the Romanovs; R10 Victoria's stance on the Russian war.",
+        "The tour and Bosnia/Agadir/Balkan details remain PROPOSED; the indemnity of 1905 needs remodelling.",
+        "K1 details: the boatswain's mate, Kiyoshi's sword, a death poem."
+      ],
+      "facts": [
+        {
+          "event": "julian-accession",
+          "set": {
+            "year": 1907,
+            "patterns": [
+              "Julian accedes (?:to [^.;]{0,30} )?in (?P<year>1[89]\\d\\d)",
+              "Julian(?:'s|’s) accession in (?P<year>1[89]\\d\\d)",
+              "Julian succeeds (?:Victoria|her) (?:directly )?in (?P<year>1[89]\\d\\d)",
+              "hands power directly to Julian in (?P<year>1[89]\\d\\d)",
+              "In (?P<year>1[89]\\d\\d) Victoria lays down both the regency"
+            ]
+          },
+          "was": {
+            "year": 1915
+          }
+        },
+        {
+          "add_event": {
+            "id": "act-of-settlement",
+            "year": 1907,
+            "patterns": [
+              "(?P<year>1[89]\\d\\d) Act of Settlement",
+              "Act of Settlement of (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "kiyoshi-claim",
+            "year": 1907,
+            "patterns": [
+              "Early in (?P<year>1[89]\\d\\d) he petitions the Regent",
+              "Kiyoshi(?:'s|’s) bid in (?P<year>1[89]\\d\\d)",
+              "In (?P<year>1[89]\\d\\d), with Silas dead, he claims"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "manila-oath",
+            "year": 1907,
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d) he swears before the Cortes"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:destroys|defeats|victorious against|victor over) the Baltic Fleet",
+            "message": "Kiyoshi's 1905 victory is over the Petropavlovsk cruiser squadron; Russia's battle fleets survive (CR-040)"
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [
