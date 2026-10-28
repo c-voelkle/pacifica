@@ -1,7 +1,7 @@
 {
   "project": "Pacifica",
-  "version": "authorial-change-register-v14",
-  "approved_on": "2026-10-23",
+  "version": "authorial-change-register-v15",
+  "approved_on": "2026-10-28",
   "base_manuscript": "book-agent/manuscript_chaptered.md",
   "authority": "CR-031-R1 is the direct author correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid Company employment. It supersedes only the prior labour-gang premise, attributed complicity and unsupported Kolyma cost comparison. The 23 October master through CR-031 otherwise governs with its local PROPOSED/OPEN/MODEL labels; source snapshots remain historical evidence.",
   "architecture": {
@@ -2346,6 +2346,126 @@
         "Keep financial workbook bytes, assumptions and saved figures unchanged; no quantified productivity gain, labour-cost adjustment or recalculation is authorized or inferred."
       ],
       "open": []
+    },
+    {
+      "id": "CR-033",
+      "title": "Settlement, Native recovery and the shape of Pacifica's population",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-033.md",
+      "authorization": "Author request of 28 October 2026 to merge CR-033 to CR-036 in order and update the documentation, after decisions recorded in the decision record; drafts reviewed in fresh context before adoption.",
+      "requirements": [
+        "The gold rush settles rather than passes through: light licences, assisted passage of women and families, secure titles, Pacific shipping and Americans moving west. About 1.2 million people at the start of 1861 (MODEL).",
+        "No mass killing of Native Californians: disease reduces them to about two-thirds of their 1848 number by the later 1890s, and they grow again under fair treatment, keeping a health gap. Whatever the Republic does for them must also pay for the Republic.",
+        "The Republic is the sole lawful buyer of Native land. Treaties of 1851–52 reserve homelands under a three-part compact: reserved homeland leased only through the Republic, ceded land bought by deed against annuities in goods, and the Republic as trustee collecting rents for a fee with published accounts.",
+        "A Land Fund kept apart from the revenues pledged to London pays the annuities from settlers' instalments; its margin helps pay for assisted passage (about 47% in the workbook). Militia service is paid in land warrants good only on bought land. The public register is the title; old grants are confirmed by survey against a fee in land; squatters buy on instalments.",
+        "Land still leaves Native hands through long leases, assigned annuity claims and court rulings, with a fee to the Realm on every lease.",
+        "Japanese immigration predominates over Chinese from the 1900s; Filipino migration is mostly after 1914. Population figures in the prose follow the workbook of 28 October 2026 (MODEL): about 5.6 million Japanese-origin and 4.8 million Chinese-origin Pacificans and about 36 million people in 1932."
+      ],
+      "open": [
+        "Treaty prices, annuity length and goods, homeland boundaries, the register's statute and fees, and the grant deadline (A9).",
+        "The volunteer refusal and mounted police (A7), Native scouts (A8) and the Miwok guide's first treaty (A8a) remain PROPOSED.",
+        "Whether the Native turn of the later 1890s hangs on a named event; names of the commissioners, the act and the compact."
+      ],
+      "facts": [
+        {
+          "add_forbidden": {
+            "pattern": "(?<!\\bto )\\b(?:wage|wages|waged|declare|declares|declared|order|orders|ordered|launch|launches|launched) (?:a |its |their )?(?:war|campaign) of extermination|(?:war|campaign) of extermination (?:is|was) (?:waged|declared|ordered|launched)",
+            "message": "Pacifica wages no campaign of extermination (CR-033)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-034",
+      "title": "From the secret find to a destination, and the Polytechnic's first decade",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-034.md",
+      "authorization": "Author request of 28 October 2026 to merge CR-033 to CR-036 in order and update the documentation, after decisions recorded in the decision record; drafts reviewed in fresh context before adoption.",
+      "requirements": [
+        "The find stays in October 1847; seven people know of it. The opening of 1848–49 is managed: registered ships and passengers, Polk's message naming the Republic, deserters as the first quarrel under the convention (PROPOSED).",
+        "The Polytechnic grows from the Carquinez assay room (1847) to the State Assay Office (1848), Genth's laboratory and school at Carquinez (1852), the Polytechnic (by 1860) and the chartered estate (1887). Its independence is shown by unfavourable findings it publishes.",
+        "Its loops: a fixed royalty share (amount OPEN), two paid assistants per chair, the Mittheilungen and prize questions from 1858, the engineer-corps privilege under the Defense Law, and citizenship with a chair without religious or national test from 1854.",
+        "Genth from 1851 and Zeuner from 1854; 1858 is the prestige year (Zeuner's slide-valve method, Genth's telluride treatment); Zeuner stays through 1862 and directs Freiberg from 1871, recruiting for Pacifica. Soberanes enters at fourteen in 1861.",
+        "Elias makes women's immigration a priority from 1852; Victoria turns it into a programme with reception houses from 1859. The 1855 bank rescue keeps the Republic's money sound.",
+        "Wave sizes about 12/120 (1858), 25/300 (1862), 45/600 (1867), 90/1,400 (1875) teachers/students (MODEL). Skilled entry starts in 1856 in the workbook (A24)."
+      ],
+      "open": [
+        "The royalty share (A17).",
+        "Whether the first Japanese students come with the Kanrin Maru or under the Treaty of Edo.",
+        "Contracts, salaries, buildings and the order of later appointments.",
+        "The six phases (A2), the managed opening (A4), settlement details (A5), the assayers' examination (A7), the specific episodes (A8), Hallidie's arrival (A11), Ott and the Kanrin Maru (A13), the process licence (A22) and the push waves (A23) remain PROPOSED."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "mokelumne-gold-find",
+            "year": 1847,
+            "patterns": [
+              "In (?:October )?(?P<year>1[89]\\d\\d),[^.;]{0,200}find coarse gold",
+              "(?:October )?(?P<year>1[89]\\d\\d) gold (?:discovery|find)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-035",
+      "title": "The Pacifica League: why the Republic builds it, and how it turns talent into power",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-035.md",
+      "authorization": "Author request of 28 October 2026 to merge CR-033 to CR-036 in order and update the documentation, after decisions recorded in the decision record; drafts reviewed in fresh context before adoption.",
+      "requirements": [
+        "The school is inherited, not invented: the 1783 Mining Ordinances kept in force charge the miners' fund with the mining college; the 1852 convention applies the same arrangement to gold, paid after the bondholders' coupon. Liberal Californio leaders, Elias's colonel-trained idea of a school and practical necessity explain the choice.",
+        "The churches get a bargain, not a culture war: confessional primary schools stay; the state pays only for what it examines.",
+        "The League: every historical college joins, plus Colegio de Santa Fe (1864), Yerba Buena College (1866) and the Sutro School (1869); grants per examined graduate in fields of power; liberal arts grow only once Pacifica is dominant. In Elias's time its purpose is to maximize Pacifica's power by drawing able individuals out of intermediate bodies.",
+        "Women are admitted early but not from the first examination: teachers from 1854, state examinations from 1859, a grant condition from 1862; the engineer corps stays male.",
+        "The Methodists' medical college in San Francisco saves Victoria in 1866 and shapes her counting of who lives and who dies."
+      ],
+      "open": [
+        "Whether the bishop of the 1850s is named.",
+        "The guard scene (B3), the line between funded and unfunded fields, the minimum core, steering mechanics, women's dates and the 1888 examination of the rivals (C8) remain PROPOSED."
+      ],
+      "facts": []
+    },
+    {
+      "id": "CR-036",
+      "title": "Science: the scholars Europe would not promote, two elements, and the world that loses them",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-036.md",
+      "authorization": "Author request of 28 October 2026 to merge CR-033 to CR-036 in order and update the documentation, after decisions recorded in the decision record; drafts reviewed in fresh context before adoption.",
+      "requirements": [
+        "Sylvester (1855), Remak and Cohn (1858), Koch (1872), Ehrlich (1878), Michelson (grows up in Pacifica) and Morley (1868) work in Pacifica; Kitasato (from 1885) and Hata are PROPOSED.",
+        "Indium is found at Carquinez in 1863 in California zinc ore; element 31 is found in 1873 in Comstock blende sent by the Sutro School and named californium.",
+        "The colleges' purposes: Yerba Buena College for pure science and finance, the Sutro School for the deep earth and heat, the Colegio de Santa Fe for the interior and the treaties; the interior has prestigious schools and advances of its own, including Deseret's irrigation science.",
+        "Knock-on effects: Germany loses its age of medicine; Pacifica becomes the capital of medicine and public health; the Union lags in science; Britain, France, Russia and Japan are affected as recorded in the decision record.",
+        "Talent comes from every faith and background; no single diaspora becomes indispensable. Jewish scholars are one stream among many, and the story does not become about Jewish identity.",
+        "Victoria must keep Pacifica from being either a state that cannot act without the Jewish community's approval or one that loses the diaspora's best by discrimination; the 1891 famine relief is her decisive test. No further set pieces."
+      ],
+      "open": [
+        "Julian's test of the same balance.",
+        "Koch's way in (district-physician advertisement) and the Santa Fe observatory and eclipse station remain PROPOSED.",
+        "The Nobel decade (D10) and Kitasato and Hata (D6) remain PROPOSED."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "californium-discovery",
+            "year": 1873,
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d)[^.;]{0,100}calls it californium",
+              "californium (?:is )?(?:found|discovered) in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [
@@ -2614,6 +2734,22 @@
     {
       "range": "Later nineteenth century–1927",
       "event": "CR-031-R1: Japanese and Pacifican firms improve and compete over project management, machinery and coordinated work. Efficient Japanese construction precedes the Concord and supplies the proposed Company’s professional, paid workforce; no bonded-gang reliance."
+    },
+    {
+      "range": "1851–1856",
+      "event": "CR-033/034: Native treaties of 1851–52, Land Fund and register; Carquinez school from 1852 with royalty share; assisted passage of women and families from 1852; citizenship with a chair from 1854; 1855 bank rescue."
+    },
+    {
+      "range": "1858–1863",
+      "event": "CR-034/035/036: prestige year 1858 (Mittheilungen, prize questions); League by 1860; women at the state examinations from 1859 and in League colleges from 1862; Sylvester, Remak and Cohn arrive; indium found at Carquinez in 1863."
+    },
+    {
+      "range": "1866–1887",
+      "event": "CR-035/036: the Methodist medical college saves Victoria in 1866; Yerba Buena College 1866, Sutro School 1869; californium 1873; Koch's anthrax 1876, tuberculosis and Manila cholera 1882; Michelson's light 1878 and the ether experiment with Morley 1887."
+    },
+    {
+      "range": "1891",
+      "event": "CR-036: famine relief to Russia in the year of the Moscow expulsion is Victoria's decisive test of diaspora loyalties."
     }
   ],
   "affected_sources": [

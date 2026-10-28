@@ -1,6 +1,27 @@
-# Workbook revision, 27 October 2026: population, the Land Fund and a larger Events table
+# Workbook revisions, 27–28 October 2026: population, the Land Fund, a larger Events table and skilled entry from 1856
 
-`Pacifica_financial_model_1846-1932.xlsx` now carries the population change list (P1–P6) and a Land Fund sheet for draft CR-033. SHA-256: `6342b6c25301c50f7973c132549bbbac86fa1cc9e6cae76436574310454eefde` (sale price tied to land values; see below).
+## 28 October 2026: CR-034 A24, skilled entry from 1856
+
+SHA-256 of the current workbook: `061d6c34e23084123ced0a961c13eb4b491bf06f1b5d9772e8fff2677acfd89a`. It is the 27 October revision below plus one change, made by [`build/cr034_skilled_entry.py`](build/cr034_skilled_entry.py) at the author's decision of 28 October 2026 (CR-034 A24, adopted with CR-033 to CR-036):
+
+- **Levers "First year of the skilled-entry programme": 1856** (was 1880), in both cases. The places cap, a share of residents, ramps the programme with the population; no separate ramp was added.
+- **Paths C re-iterated.** The population model and the workbook were iterated until the natural-increase rates stopped changing (two rounds; [`build/paths_c_rates.csv`](build/paths_c_rates.csv)).
+- **DEM-01 multiplier unchanged** at 2.10: residents at the start of 1861 are 1.24m, still "about 1.2 million" and inside the 10% check.
+- Recalculated in LibreOffice: 51,127 formulas, no errors. **Story case: no failed checks. Stress case: 11 failed checks, the same as before A24.** The Land Fund results below do not change, because they rest on farm acreage, not population.
+
+| Story case | 1865 | 1895 | 1918 | 1929 | 1932 |
+|---|---|---|---|---|---|
+| Residents, m (27 Oct) | 1.90 (1.82) | 8.33 (7.25) | 22.9 (20.4) | 33.4 (30.1) | 36.2 (32.6) |
+| Asian-origin share | 10.4% | 18.5% | 25.2% | 28.8% | 29.4% |
+| Core GDP, $bn | 0.53 | 3.49 | 38.1 | 69.6 | 54.9 |
+| GDP per resident vs the US | 1.91 | 2.07 | 2.20 | 2.36 | 3.14 |
+| Public debt, $m | 13 | 174 | 1,903 | 3,479 | 2,943 |
+
+From the population model on this workbook (end of year): Japanese-origin 5.59m and Chinese-origin 4.77m in 1932 (Japanese arrivals overtake Chinese in 1901, the Japanese-origin population in 1923); Native Californians low 99,000 in 1896, 131,000 in 1932; Native Hawaiians low 42,000 in 1895, 68,000 in 1932. The author chose these workbook figures for the storyline (28 October 2026); DEM-01 in `war_base_assumptions.md` replaces the CR-015 range of 4–6.5m for 1895.
+
+## 27 October 2026: population, the Land Fund and a larger Events table
+
+This revision added the population change list (P1–P6) and a Land Fund sheet for CR-033. Its SHA-256 was `6342b6c25301c50f7973c132549bbbac86fa1cc9e6cae76436574310454eefde` (sale price tied to land values; see below); the 28 October revision above supersedes it.
 
 The 23 October CR-031 workbook it replaces is in Git history, and [CR-031-review.md](CR-031-review.md) still describes that version. The edits are made by [`build/cr033_population_landfund.py`](build/cr033_population_landfund.py) from the 23 October file. They were recalculated in LibreOffice: 51,127 formulas, no errors.
 
@@ -33,7 +54,7 @@ Checks: 0 problems. The Stress case falls from 17 problems to 11. The private-sa
 
 Three knock-on effects for the author:
 
-1. **More arrivals.** The workbook's own migration responds to size. Skilled-entry places are a share of residents, and relatives follow the talent stock. So the larger population draws more arrivals: 32.6m at the end of 1932, against the stand-alone model's 30.9m. CR-033 says "about 30 million".
+1. **More arrivals.** The workbook's own migration responds to size. Skilled-entry places are a share of residents, and relatives follow the talent stock. So the larger population draws more arrivals: 32.6m at the end of 1932, against the stand-alone model's 30.9m. CR-033 as adopted says about 36 million, after A24.
 2. **The Civil War costs far less.** With half as many people again in the 1860s, the war years' receipts carry most of the war, and the debt in 1865 is $13m instead of $94m.
 3. **The economy is bigger, but output per head barely moves.** GDP rises about 20%, while output per resident against the US rises only slightly.
 
@@ -78,7 +99,7 @@ Treaty prices, annuity terms and boundaries are OPEN in canon, so every number h
 - **The purchases pay for themselves.** The Land Fund is never in deficit and is back in credit by 1857. It nets about $98m by 1932 in the Story case. Cheap annuities spread over twenty years, against sales at a rising price, carry it. The cold side of the monopoly buyer (A17) is what makes the arithmetic work.
 - **The whole policy pays too.** The police cost about $10.5m in 1852–90, mostly before the land sales arrive. Even so, the policy is +$7.3m in 1850 money and back in credit, with interest, by 1882. It stays positive at a 10% share, with the police doubled, and when paying five times as much for the land. It fails only in the Stress case, and with a flat $1.25 price.
 - **"Cheaper than war."** Our timeline's militia claims in the 1850s were $1.3m. In the 1850s the police cost more than those expeditions did, but over the period the land margin more than repays them.
-- **A18 is half true.** The margin covers about 47% of assisted passage over 1852–1932 (21–72% across the cases). "Helps pay for" is safer than "pays for".
+- **A18 is half true.** The margin covers about 47% of assisted passage over 1852–1932 (21–72% across the cases). The author chose "helps pay for" on 28 October 2026.
 - **What the Land Fund doesn't model:** effects of clean titles on credit or output, the treaty commissions themselves, and police beyond the mining districts.
 
 ## Sources for the Land Fund inputs

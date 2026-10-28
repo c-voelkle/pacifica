@@ -165,3 +165,20 @@ message = "Julian is never President (AGENTS.md)"
 [[forbidden]]
 pattern = "throne (?:falls )?(?:into|in) abeyance"
 message = "There is no Hawaiian throne abeyance (AGENTS.md)"
+
+[[forbidden]]
+pattern = '''(?<!\bto )\b(?:wage|wages|waged|declare|declares|declared|order|orders|ordered|launch|launches|launched) (?:a |its |their )?(?:war|campaign) of extermination|(?:war|campaign) of extermination (?:is|was) (?:waged|declared|ordered|launched)'''
+message = "Pacifica wages no campaign of extermination (CR-033)"
+source = "CR-033"
+
+[[event]]
+id = "mokelumne-gold-find"
+year = 1847
+patterns = ['''In (?:October )?(?P<year>1[89]\d\d),[^.;]{0,200}find coarse gold''', '''(?:October )?(?P<year>1[89]\d\d) gold (?:discovery|find)''']
+source = "CR-034"
+
+[[event]]
+id = "californium-discovery"
+year = 1873
+patterns = ['''In (?P<year>1[89]\d\d)[^.;]{0,100}calls it californium''', '''californium (?:is )?(?:found|discovered) in (?P<year>1[89]\d\d)''']
+source = "CR-036"

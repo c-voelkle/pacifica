@@ -62,6 +62,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **CR-029, Philippine and Hawaiian consent:** The damaged Manila squadron's return from neutral Japan brings the harbour dispute into her marriage in September 1873. The 1914 settlement asks Hawaiian subjects to approve the union by plebiscite, narrowly, while the Philippine Cortes offers its own crown and Filipino voters approve broadly. These are separate acts of consent, with neither crown subordinate. She attends Julian's Manila oath and proclamation in 1915 and sings at the Cathedral Te Deum; a bishop does not crown him. Her role in commutations after the 1896 rising, elected provincial juntas and New Calamba coexists with the land board's evictions. Ka Lōkahi gives the Realm, Hawaii and the Philippines one vote each; it is distinct from the Council of the Two Crowns with Japan. Her sponsorship cannot make the 1876 judgment disappear.
 
+**APPROVED — CR-034, CR-035, CR-036:** From 1859 she turns Elias's subsidy for women's passage into a programme: reception houses at San Francisco and Honolulu, recruiting through missions and consulates, placement as teachers, nurses, seamstresses and clerks, and pressure for women to sit the state examinations. In February 1866 the physicians of the Methodists' medical college at San Francisco save her life; that summer she studies its case tables, and her counting of who lives and who dies begins there. As Regent her decisive test of diaspora loyalties is the 1891 famine relief to Russia, sent on Pacifica's terms in the year Moscow expels its Jews: she keeps Pacifica from becoming either a state that cannot act without one community's approval or one that loses the diaspora's best by discrimination. Her method recognizes individuals, never communities as political bodies.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -159,6 +161,8 @@ He organizes the Polytechnic and communications during the managed succession. W
 
 **APPROVED — CR-027:** In 1887 he holds the Five’s Polytechnic and General Staff seat; the Crown–estates arrangement protects his charter and appointments. Marcus Vance III follows after 1915.
 
+**APPROVED — CR-034:** Born in Monterey in 1847, he enters the Polytechnic at Carquinez in 1861, at fourteen, after passing its entrance examination; the school takes clever children whatever their family. **PROPOSED — CR-035:** In 1888 his examiners fail half of Santa Clara's engineers and a third of Oakland's, and the League's rectors learn that the Polytechnic is now their rival.
+
 ### CT-MARCUS-III — Marcus Vance III, proposed logistics commander
 **Status:** Revised characterization required by CR-018 A20; section N is wholly PROPOSED under OPEN-018-18. **Working birth:** c.1880, replacing the incompatible c.1891 estimate.
 
@@ -239,6 +243,8 @@ Hallidie's 1850s wire-rope manufacture and bridge experience support material ha
 A repaired supply crossing or hauling installation sustaining an isolated position is a possible bounded operational achievement, not an approved location, battle or date. Mining and lifting applications precede the historical 1873 cable railway; urban cable transport is not silently moved into the war. He belongs to the technical community in which Logan develops, without a separately settled personal mentorship or partnership.
 
 **Proposed dramatic interest:** Make practical equipment dependable and commercially useful while testing ambitious claims against loads and wear. **Open:** Contracts, installations, suppliers, bridges, mine routes, patents, collaborators, innovations, military contribution and later prominence.
+
+**PROPOSED — CR-034:** Comes to California as a boy in 1852; his Horse Shoe Bar bridge (1855) and first wire rope for the quartz mills (1856) are tested on the Carquinez school's testing machine.
 
 ### CT-ERICSSON — John Ericsson, naval engineer and experimental patron's partner
 **Status:** Historical person in an approved alternate career under CR-013; recruitment, mentorship and naval direction accepted, exact dates, contracts, citizenship and later life open. **Born:** 1803 in Sweden. **Later fate:** His historical 1889 death is a reference, not a fixed alternate event.
@@ -736,6 +742,65 @@ Historical Navy Secretary and gold Democrat; elected Union president in November
 
 **CT-ESTRADA-PALMA — Tomás Estrada Palma.** Historical Cuban leader selected as independent Cuba's first president. His exile junta operates from New Orleans in the alternate sequence, and his dependence inclines toward Pacifica. The joint guarantee constrains intervention by every patron. Exact inauguration date, election, independent aims and debt agreement remain open or proposed; do not assume he serves only Victoria's wishes.
 
+## CR-034–CR-036 — the Polytechnic's founders and the scientists (28 October 2026)
+
+Historical persons in alternate careers. Their historical biographies and sources are in [historical_background.md](historical_background.md); only what the storyline and decision records state is canon.
+
+### CT-FREDERICK-GENTH — Frederick Augustus Genth, chemist of the State Assay Office and the Carquinez school
+**Status:** Historical person in alternate history (CR-034).
+
+**APPROVED — CR-034:** German-born chemist who, back in Philadelphia from a failed North Carolina mine in 1850, analyses Californian ores on commission and accepts the Republic's offer in 1851: laboratory, assistants, a salary independent of clients, the right to publish and time for his own chemistry. His laboratory becomes the school at Carquinez in 1852. In 1853 he shows that the Superintendency's own quartz mill loses its sulphide gold, and Elias prints it; in 1858 he identifies the Carson Hill gold telluride and its roasting-and-chlorine treatment. **APPROVED — CR-036:** his spectroscope finds indium in California zinc ore in 1863. **Open:** contracts, salary, private life and scenes.
+
+### CT-GUSTAV-ZEUNER — Gustav Zeuner, engineer and recruiter
+**Status:** Historical person in alternate history (CR-034).
+
+**APPROVED — CR-034:** Fought on the Dresden barricades in 1849 and was barred from teaching in Saxony. Comes in 1854 on Julius Weisbach's word to build the engineering course at Carquinez; measures hydraulic water and debris and tests Ericsson's engines; his slide-valve method of 1858 sets the harbor-defense engines. Stays through Saxony's amnesty of 1862 (PROPOSED) and in 1871 goes to direct the Freiberg Mining Academy, from which he sends Pacifica engineers. **Open:** family, citizenship and scenes.
+
+### CT-JAMES-SYLVESTER — James Joseph Sylvester, mathematician
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** Second in Cambridge's mathematics examination of 1837 but barred from a degree because he would not sign the Church of England's articles; after ten years as an actuary he takes a Polytechnic chair in 1855 instead of Woolwich, founds mathematics and actuarial science, and from 1866 teaches at Yerba Buena College. His case becomes an argument in Britain's debate over religious tests. **Open:** scenes, students and private life.
+
+### CT-ROBERT-REMAK — Robert Remak, physiologist
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** Showed that the embryo grows from three layers and that cells arise by dividing; the first Jew allowed to teach at Berlin, never as its professor. In 1858 he takes the chair of physiology and pathology at the Methodists' medical college in San Francisco, whose physicians save Victoria in 1866. **Open:** family, students and scenes.
+
+### CT-FERDINAND-COHN — Ferdinand Cohn, microbiologist
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** Kept waiting a year at Breslau before he might take the oath to teach; comes in 1858 to the Methodists' medical college to study microscopic life and moves to Yerba Buena College in 1866. He spots Koch's microscope work and has the Polytechnic give him a laboratory (PROPOSED). **Open:** scenes and private life.
+
+### CT-ROBERT-KOCH — Robert Koch, bacteriologist
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** An unknown country doctor in Posen in 1872, he comes to Pacifica (by the Republic's call for district physicians in the mining country, PROPOSED). At Carquinez he traces the life of anthrax (1876) and finds the tuberculosis bacillus (spring 1882); that autumn in Manila his team finds the cholera bacillus in the water. Nobel prize 1905, as a Pacifican (PROPOSED). Kitasato works in his laboratory from 1885 (PROPOSED). **Open:** family, rivalry with Pasteur and scenes.
+
+### CT-PAUL-EHRLICH — Paul Ehrlich, physician and chemist
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** Read Koch's anthrax paper as a student in Silesia and comes to Koch's laboratory in 1878; his stains show the cells no one could see, and he improves the stain for the tuberculosis bacillus. Side-chain theory (1897); with Hata the arsenical that cures syphilis (1909). Nobel prize 1908, as a Pacifican (PROPOSED). His drugs belong to Pacifica's chemical champions. **Open:** arrival terms and scenes.
+
+### CT-ALBERT-MICHELSON — Albert Michelson, physicist
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** A Prussian Jewish merchant's son who grows up at the gold camp at Murphys and at Virginia City, sits the Polytechnic's examination at fourteen, and from 1878 measures the speed of light at Yerba Buena College. In 1887 he and Morley find no ether wind. Nobel prize 1907, as a Pacifican (PROPOSED). **Open:** family and scenes.
+
+### CT-EDWARD-MORLEY — Edward Morley, chemist
+**Status:** Historical person in alternate history (CR-036).
+
+**APPROVED — CR-036:** Born in New Jersey in 1838 and trained for the Congregational ministry, he comes west in 1868 to a chemistry chair at Yerba Buena College for the laboratory and the pay, as many of his generation of American graduates do. Michelson's partner in the ether experiment of 1887. **Open:** scenes and private life.
+
+### CT-KITASATO-SHIBASABURO — Kitasato Shibasaburō, bacteriologist
+**Status:** Historical person in alternate history (CR-036).
+
+**PROPOSED — CR-036:** Works in Koch's laboratory in Pacifica from 1885 (historically Berlin, 1885–92): the tetanus culture and antitoxin work. Through him Meiji Japan's medicine learns from Pacifica, a deep tie under the Concord and a strain when the partners quarrel. **Open:** return to Japan and scenes.
+
+### CT-HATA-SAHACHIRO — Hata Sahachirō, bacteriologist
+**Status:** Historical person in alternate history (CR-036).
+
+**PROPOSED — CR-036:** With Ehrlich in Pacifica he finds the arsenical that cures syphilis in 1909. **Open:** arrival, career and scenes.
+
 ## Retired identity retained for legacy traceability
 
 ### CT-MARCUS-II — Marcus Vance II, retired legacy role
@@ -964,6 +1029,8 @@ PROPOSED Washington envoy with Vallejo in 1847; an independent Californio partic
 Signatory named in the 1846 founding narrative. Under the PROPOSED December 1847 debt mechanism he carries the Querétaro convention to London for bondholders' consent. Creditor consent is not a transfer of land rights, and his mission is distinct from the Washington envoys'.
 
 **Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+**APPROVED — CR-035:** Tutor of Alvarado and Vallejo. His Seminario del Patrocinio de San José at Monterey (1833–36), state-backed and taught by a priest, is an early case of the bargain the Republic later makes with the churches. His pupils sponsor the 1852 school on the Mining Ordinances' model.
 
 ### CT-JAMES-POLK — James K. Polk
 
