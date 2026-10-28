@@ -31,6 +31,8 @@ The three changes were:
 2. the workbook's skilled-entry programme starting about 1856;
 3. wave sizes, to be checked against real schools.
 
+> All the colleges join, perhaps also with some fictional additions. The historical ones mostly more or less get with the program. Women are admitted early on but it doesn't have to be from the first examination. Elias should also make it a priority to get more women into the area; this should not fall solely on Victoria, though she is the one who really gets things going.
+
 > I would like the prestige discovery to be moved even earlier, so that Pacifica can be established as a prestigious and serious player before the war breaks out. 1858 or so would be good. Zeuner can become a recruiter based in Freiberg after 1871.
 
 ## The spine: a dated timeline
@@ -91,6 +93,8 @@ Status: **C** means existing canon, and **28** or **33** means the passage comes
 | A23 | **Push and war.**<br>• The waves are timed to Europe's dismissals and crises: 1849, 1852, 1857 (the panic, when Pacifica's money holds), 1859, 1863 and 1866.<br>• The war of 1861–65 diverts European engineers from the Union to Pacifica and pays for engineering, and 1865 demobilizes both American armies' engineers (§12).<br>• Japanese students come to Carquinez instead of London (Chōshū 1863, Satsuma 1865 historically).<br>• James Lick is the first private donor. | PROPOSED (dates to verify) |
 | A24 | **Workbook:** the skilled-entry programme (Levers "First year of the skilled-entry programme", now 1880) moves to about 1856 and ramps up. Approved, but deferred until the wave sizes are checked. | APPROVED (author); deferred |
 | A25 | **Wave sizes:** staff and students by about 1858, 1862, 1867 and 1875, set from comparable real institutions. The draft's earlier sketch (15, 50, 150, 400 people) is only a placeholder. | PENDING research |
+| A26 | **Elias makes women's immigration a priority from 1852.**<br>• **His reasons:** a country of single men is a camp, not a republic. The 1856 white population runs about 150 men to 100 women (MODEL), and the bachelor towns breed the vigilance committees. Families settle, buy land and raise the next cohort of examined children, and the schools and hospitals need women teachers and nurses.<br>• **His measures:** the Superintendency pays the passage of single women with a contract of employment, and of whole families, from 1852. Married women keep their own property under the Mexican marital-property rules the Republic retained (§5). From 1854 the teachers' certificate is awarded by examination to women as well as men. | APPROVED direction (author); measures PROPOSED |
+| A27 | **Victoria really gets it going, from 1859.** After the wedding she turns Elias's subsidy into a programme:<br>• reception houses at San Francisco and Honolulu;<br>• agents among the missions and consulates of Britain, Germany and the eastern states;<br>• training and placement.<br>She also presses for the state examinations to admit women (CR-035 C4). This is the beginning of "Victoria's international programme", which §15 later shows extended. | APPROVED (author); details PROPOSED |
 | A16 | Rafael Soberanes, born in Monterey in 1847, enters the Polytechnic in 1861 at fourteen. The school takes clever children who pass its entrance examination, whatever their family. | APPROVED (author: "approved for 1861, smart kids welcome") |
 
 ## Proposed storyline text
@@ -111,7 +115,7 @@ Each change is shown with the existing passage it follows or replaces, quoted ex
 
 ### §8, after the paragraph ending "…banking arrangements and the scale of the difference from historical eastern access." (A5)
 
-> **[PROPOSED — CR-034]** The rush becomes a settlement in the years when it could have ended. Since the Australian strikes of 1851 many diggers have sailed home. Most of the others stay, because a claim, a town lot or a farm in California now comes with a registered title, and from 1852 the Superintendency pays the passage of women and of whole families; the same year twenty thousand Chinese land at San Francisco. By 1853 the easy gold is gone. Water companies turn hoses on the old river gravels, quartz companies sink shafts at Grass Valley, and the men who remain become wage-earners, mechanics and shareholders. In February 1855 the failure of Page, Bacon's parent house in St. Louis brings down San Francisco's leading bank and two hundred firms with it. The mint's bullion and the Superintendency's credit carry the solvent houses through, and the Republic's money keeps its value. Emigrant guides in New York, Hamburg and Canton begin to say so. The Republic, about 350,000 people in 1850, counts nearly 900,000 by 1856 **[MODEL]**.
+> **[PROPOSED — CR-034]** The rush becomes a settlement in the years when it could have ended. Since the Australian strikes of 1851 many diggers have sailed home. Most of the others stay, because a claim, a town lot or a farm in California now comes with a registered title, and from 1852 the Superintendency pays the passage of single women with a contract of employment and of whole families. Elias makes it his own priority: a country of single men is a camp, not a republic. Married women keep their own property under the Mexican rules the Republic retained, and from 1854 a woman who passes the teachers' examination is certified like a man. The same year as the first assisted passages, twenty thousand Chinese land at San Francisco. By 1853 the easy gold is gone. Water companies turn hoses on the old river gravels, quartz companies sink shafts at Grass Valley, and the men who remain become wage-earners, mechanics and shareholders. In February 1855 the failure of Page, Bacon's parent house in St. Louis brings down San Francisco's leading bank and two hundred firms with it. The mint's bullion and the Superintendency's credit carry the solvent houses through, and the Republic's money keeps its value. Emigrant guides in New York, Hamburg and Canton begin to say so. The Republic, about 350,000 people in 1850, counts nearly 900,000 by 1856 **[MODEL]**.
 
 ### §8, after the paragraph ending "…**[OPEN]** Facilities, budgets, suppliers, armament, dimensions and construction schedule." (A8, A10–A13, A15)
 
@@ -128,6 +132,10 @@ Each change is shown with the existing passage it follows or replaces, quoted ex
 > **[PROPOSED — CR-034]** Students and graduates of the Carquinez school serve their time in the engineer corps, building the roads, bridges and telegraph the general staff needs. Families who would never send a son to the ranks compete to send him to the school's examination.
 
 ### §19, replace "Appointment to a chair brings citizenship without a religious or national test." with "Appointment to a chair has brought citizenship without a religious or national test since the 1850s." (A21)
+
+### §6, after the paragraph ending "…Each expects to influence the other; neither yet imagines how dangerous that expectation will become." (A27)
+
+> **[PROPOSED — CR-034]** Victoria takes up the matter Elias has only paid for. From 1859 she opens reception houses for women at San Francisco and Honolulu. She recruits through the missions and the British, German and eastern consulates, and she finds the women places as teachers, nurses, seamstresses and clerks. Her husband's subsidy brought women to the docks; her houses keep them in the country. She also begins to ask, in the Council and at her own table, why the women her houses train may not sit the Republic's examinations.
 
 ### §7, after the paragraph ending "…This restraint preserves the independence of the two powers even as their fortunes become increasingly interconnected." (A13)
 
@@ -151,7 +159,7 @@ The first find stays dated as canon has it (A1), and the linter will flag any pa
 
 ## Impact notes
 
-- **Storyline:** eight insertions and two replaced phrases:
+- **Storyline:** nine insertions and two replaced phrases. Since revision 4, §6 gains a paragraph (A27) and the §8 settlement paragraph a sentence (A26):
   - §4: the count, "five" → "seven";
   - §5: the mint "beside the State Assay Office", and two paragraphs;
   - §7: one paragraph;

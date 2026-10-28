@@ -1,6 +1,6 @@
 # CR-035 (draft) — The Pacifica League: why the Republic builds it, and how it turns talent into power (1848–1890)
 
-**Status:** PROPOSED draft, 28 October 2026; second revision, with one fresh-context review applied. Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Status:** PROPOSED draft, 28 October 2026; third revision, with the author's answers on membership and women (one fresh-context review applied to the second). Not adopted: no storyline, register, character or workbook file is changed by this draft.
 **Basis:** author decisions of 27–28 October 2026. Builds on draft CR-034 (the Polytechnic's nucleus, loops and 1858 prestige year) and on the 1783 Mining Ordinances that canon keeps in force (§5).
 
 ## Author decisions
@@ -10,6 +10,8 @@
 > Before we add it, let's explain why Pacifican leadership chooses to build this institution. Elias himself has no formal education. Alvarez and the rest would probably be sympathetic to a more traditional religious school system. So why does it turn out this way?
 
 > Yes, I approve. Please add it to the cr and then verify the two points at the end.
+
+> All the colleges join, perhaps also with some fictional additions. The historical ones mostly more or less get with the program. Women are admitted early on but it doesn't have to be from the first examination. Elias should also make it a priority to get more women into the area; this should not fall solely on Victoria, though she is the one who really gets things going.
 
 ## Part 1. Why it turns out this way
 
@@ -31,10 +33,10 @@
 | C1 | **Purpose in Elias's time:** to maximize Pacifica's power. In Jouvenel's terms the central power grows by drawing able individuals out of intermediate authorities (churches, local notables, closed professions) into its own service. | APPROVED (author) |
 | C2 | **Fields:** each college concentrates where it can beat the eastern colleges: mining, chemistry and engineering; laboratory medicine and public health; statistics, public finance and administration; Pacific languages and commerce; irrigation, agriculture and settlement.<br>Idealist and scholastic philosophy, common-law litigation and belles-lettres are not funded. Administrative law, statistics and modern languages count as fields of power. | APPROVED (author); the line between funded and unfunded PROPOSED |
 | C3 | **Minimum core in every college:** mathematics, composition, two of English, Spanish and German, and the history and constitution of the Republic. | APPROVED direction (author: "a certain minimum"); content PROPOSED |
-| C4 | **Women** are admitted to every League college and to the Polytechnic on the same examination. They enter the civil services and licensed professions by examination. The engineer corps, under the Defense Law, stays male. Admitting women is a condition of the grant, which the Catholic colleges resist. | APPROVED (author); corps limit and conflict PROPOSED |
+| C4 | **Women are admitted early, though not from the first examination.**<br>• From 1854 women sit the teachers' examination (CR-034 A26).<br>• From 1859, at Victoria's pressing, they sit the state examinations, and in 1860 a graduate of the Benicia seminary becomes the first woman to pass the assayers' examination.<br>• From 1862 admitting women who pass is a condition of every League grant, which the Catholic colleges resist longest.<br>• They enter the civil services and licensed professions by examination. The engineer corps, under the Defense Law, stays male. | APPROVED direction (author: "early on but … not from the first examination"); dates PROPOSED |
 | C5 | **Liberal arts later:** chairs in philosophy, law and letters grow once Pacifica's position is dominant (Julian's era). | APPROVED (author) |
 | C6 | **Steering:**<br>• Royalty-fund grants are paid per graduate who passes a state examination in a designated field.<br>• The engineer-corps privilege, state scholarships, appointments in the Superintendency, mint, army, navy and chartered industries, and licences for physicians, assayers and engineers all follow the same examinations.<br>• Results are published. | APPROVED direction (author); mechanics PROPOSED |
-| C7 | **Members, founding and niche**, in the table below. | PROPOSED (historical colleges; niches assigned) |
+| C7 | **Members, founding and niche**, in the table below. All the historical colleges join, and most more or less accept the programme: Santa Clara bargains hardest, the Oakland college gives up its classical requirement only when the grants flow, and Deseret joins after accession with Brigham Young's reservations. Three fictional colleges join them. | APPROVED (author: "All the colleges join … The historical ones mostly more or less get with the program"); niches and fictional colleges PROPOSED |
 | C8 | **The Jouvenelian irony:** from 1887 the Polytechnic estate runs the examinations (§24), so the League's rivals are examined by their rival. The instrument that broke the churches' hold becomes a new intermediate power, and Julian inherits a capacity he must bargain for. | PROPOSED |
 
 | College | Founded (our timeline) | Constituency | Power niche |
@@ -47,6 +49,9 @@
 | Mills | 1852 seminary at Benicia; college 1865 | Women | Teachers for the examination state's schools; chemistry, assaying, mathematics; nursing |
 | University of Deseret | 1850; suspended 1853; revived after Deseret accedes (1862) | the Mormons | Irrigation, hydraulic engineering and organized settlement |
 | Lick School of Mechanic Arts | 1870s (Lick trust 1874; $540,000) | Lick's trust | Machinists, draughtsmen and foremen |
+| *Colegio de Santa Fe* (fictional) | 1864, after New Mexico joins (1862) | Hispano New Mexico, the Church and the acequia communities | Acequia irrigation and dry-land agriculture, Spanish-language administration for the interior counties |
+| *Canton College*, San Francisco (fictional) | 1866 | Chinese merchant houses, with Yung Wing as patron | Engineering and accounts taught in Chinese and English; customs and China trade. It feeds the Customs Inspectorate under Pacifican leadership (1885, §16) |
+| *Sutro School of Mines*, Washoe (fictional, founded by the historical Adolph Sutro) | 1869, with his drainage tunnel | Sutro and the Comstock companies | Deep mining: drainage, ventilation and hoisting |
 
 ## Part 3. Proposed storyline text
 
@@ -62,7 +67,7 @@ Each insertion is a new paragraph, shown with the existing passage it follows, q
 
 ### §8, after the paragraph ending "…**[OPEN]** Facilities, budgets, suppliers, armament, dimensions and construction schedule.", following CR-034's paragraphs there (B6–B8, C1–C7)
 
-> **[PROPOSED — CR-035]** From 1855 the Republic pays a grant for every graduate who passes its examinations in the fields it needs. The mint, the Superintendency and the licensed professions take only examined men and women, and the engineer corps only examined men. The Jesuits of Santa Clara are the first to bargain. They want the grant and the corps privilege for their Californio boys; the Republic wants surveyors and engineers who can work in Spanish. The price is the Polytechnic's examiners in their halls, and the grant also requires them to admit the women who pass. The bishop calls it simony from the pulpit, and the rector signs. The Methodists' college opens a laboratory medical school in San Francisco in 1858, and the Oakland college trains the Superintendency's statisticians. The Hawaiian kingdom pays Oahu College on the same terms for navigators and Pacific linguists for the common navy. Each college keeps its chapel and its Latin; none is paid for them. By 1860 the newspapers call them the League.
+> **[PROPOSED — CR-035]** From 1855 the Republic pays a grant for every graduate who passes its examinations in the fields it needs. The mint, the Superintendency and the licensed professions take only examined men and women, and the engineer corps only examined men. The Jesuits of Santa Clara are the first to bargain. They want the grant and the corps privilege for their Californio boys; the Republic wants surveyors and engineers who can work in Spanish. The price is the Polytechnic's examiners in their halls. The bishop calls it simony from the pulpit, and the rector signs. When in 1862 the grant also requires the colleges to admit the women who pass, the Jesuits hold out a year longer than anyone. The Methodists' college opens a laboratory medical school in San Francisco in 1858, and the Oakland college trains the Superintendency's statisticians. The Hawaiian kingdom pays Oahu College on the same terms for navigators and Pacific linguists for the common navy. Each college keeps its chapel and its Latin; none is paid for them. By 1860 the newspapers call them the League.
 
 ### §24, after the paragraph ending "…San Francisco calls them the Five, Honolulu nā Kahuna, the priests and masters of their crafts." (C8)
 
@@ -115,6 +120,7 @@ none
 
 ## Open choices for the author
 
-- Which of the seven colleges join, and when.
 - Whether the bishop of the 1850s is named. Historically Joseph Sadoc Alemany came to California in 1850.
-- How far women's admission reaches in the 1850s: equal from the first examination, or from the colleges' charters onward.
+- The three fictional colleges, their names and dates.
+
+Resolved on 28 October 2026: all the colleges join, plus fictional additions (C7); women are admitted early but not from the first examination (C4).
