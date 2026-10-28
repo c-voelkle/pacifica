@@ -25,6 +25,7 @@ independence: separate-agents
 | D2 | decision | The 1904–1905 confrontation with Russia and Kiyoshi's naval battle (as carried in CR-032b from A) belong in CR-040 | author 2026-10-28 | CR-040 revision 3: full Stage 1 passage, indemnity flag, knock-ons, forbidden pattern for "Baltic Fleet"; self-reviewed |
 | D3 | decision | R2 renounce; R3 Kahekili c.1916 after daughters; R4 1907; R5 approved in shape; R6, R7 approved; R8 arrested, tried, executed for state crimes; R11 federal Russia; R12 Stalin in Petrograd; R13 Ka Lōkahi keeps ten-year reviews and agrees in 1927 that Japan joins | author 2026-10-28 (second round) | recorded in CR-040 revision 4 |
 | D4 | decision | Kiyoshi's death to be defined in this package; not in Siberia | author 2026-10-28 | K1 proposed: Kronstadt, May 1920; Vance holds the Ob |
+| D5 | decision | Kiyoshi dies a warrior's death, killing Stalin or on that level; the negotiated surrender was too pacifist | author 2026-10-28 | K1 revision 5: storms the *Petropavlovsk* at Kronstadt, kills Stalin, dies of wounds; R8 for Stalin awaits confirmation |
 | Q1 | open choice | R1 review findings F1–F7; sharpened R5 text; K1; R8 charges; R12 and R13 mechanisms; R9 Romanovs; R10 Victoria and the Russian war | CR-040 rev 4 | open |
 
 ## Outputs
@@ -49,4 +50,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-040 revision 4 records the author's second-round answers. Waiting on: approval of K1 (Kiyoshi at Kronstadt), the sharpened July 1914 text (R5), the F1–F7 fixes, the R13 mechanism, and R9 and R10. Once K1, R5 and F1 are approved, Stages 1 and 2 can be integrated on a branch; Stages 3 and 4 need their storyline text written. Canon is unchanged.
+CR-040 revision 4 records the author's second-round answers. Waiting on: approval of K1 revision 5 (Kiyoshi kills Stalin at Kronstadt; confirms Stalin is not tried), the sharpened July 1914 text (R5), the F1–F7 fixes, the R13 mechanism, and R9 and R10. Once K1, R5 and F1 are approved, Stages 1 and 2 can be integrated on a branch; Stages 3 and 4 need their storyline text written. Canon is unchanged.
