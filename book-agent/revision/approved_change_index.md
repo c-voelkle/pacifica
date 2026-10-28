@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 36 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 37 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -370,7 +370,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - OPEN-018-18: Marcus Vance III's story, revised by author decision (A20). Recommendation remains proposed: Section N: the Soberanes-raised foster brother of Julian, a cautious logistics officer thrust into command, whose gas attack in the Altai kills the partner's own prisoners; he tells Kaiulani the truth Julian buried, executes Julian's threat in 1931 and is killed in May 1932 by guards avenging the Altai, having left the true report with the Chronicler.
-- OPEN-018-20: Where Russia and Japan sign the peace of 1905. Recommendation remains proposed: Vladivostok, the Pacific city Russia lost in 1899: Witte comes to sign away the Pacific in it.
+- OPEN-018-20: resolved by CR-039 (28 October 2026): the peace of 1905 is signed at Urajio, the former Vladivostok.
 - All remaining PROPOSED mechanics and quantitative feasibility retain their source status.
 
 ### CR-019 — CR-019 — Europe and the Union, 1914–1932: the brokered peace and the creditor's order
@@ -702,6 +702,31 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - A Crown-affiliated party (on hold).
+
+### CR-039 — Loose ends in the commitments: the ledger findings of 27 October 2026
+
+**Register status:** `approved_integrated`
+
+- The compact with Tokyo of 1887 runs until its fourth renewal falls due in 1927, when the Pacific Concord takes its place.
+- The Federal Republic of the Gulf is founded in 1900, the year the canal opens; the Gulf compact is signed at its founding and sets the admission tests from the start. No Gulf compact in 1895.
+- The Concord's first five-year executive term counts from the provisional application of 1927 and ends in 1932.
+- Both member legislatures renew the Protectorship in 1862, 1863 and 1864.
+- The state, not the Crown, keeps a quarter of the chartered Philippine tobacco company (1876); likewise the state's shares in the champions from the 1870s.
+- Silas dies at Sacramento in the winter of 1912 (canon_facts.toml).
+- Governor Waite's acquiescence in the Bread March and the prisoners' return under Whitney's 1897 treaty are approved; sentences and detention settlement stay open.
+- Labels: the Association treaties of 1871–1872 and the Truce's signing in spring 1887 are approved; Korea's post-1905 status sits outside the OPEN marker on the 1905 signing place.
+- Treaty of Nanjing (1928) between Nationalist China and the Concord: the Concord guarantees China's frontiers, Manchuria included; China guarantees railway transit and joint management; China recovers the Inspectorate and customs in 1928–1929. The 1931 plot would have made war on a state the Concord guaranteed.
+- Buchanan–Vallejo (1848): the commercial and naval articles run twelve years. The 1865 peace declares the 1848 and 1860 conventions ended by the war; the Western line replaces the Basin renunciation and the Washoe recognition; American owners in Nevada keep Carson's property guarantees.
+- Querétaro (1847): California pledges never to join the United States or cede any of its territory to a foreign power.
+- The 1905 peace is signed at Urajio, the former Vladivostok (resolves OPEN-018-20).
+- Places that join Japan take their Japanese names in canon from the transfer onward: Urajio (Vladivostok), Enkaishū (the Ussuri region), Karafuto (Sakhalin) after 1899.
+- Puʻuloa, 1924: the fifty-year lease lapses and Julian does not renew it. As Mōʻī he takes the harbour back into the Hawaiian crown; the fleet stays as the crown's tenant at the Mōʻī's pleasure, renewed at each accession. The grant restores Puʻuloa's fishponds and pearl beds and closes Kaʻahupahau's waters to dredging.
+- "The Crown" stands for the regency's sovereign authority from 1887; before 1887 the state holds shares and stakes.
+
+**Still open:**
+- Ka Lōkahi (P3): on hold for a larger author change beyond CR-039; canon keeps the 1914 council of the crowns with ten-year reviews and the Concord's Hawaiian name unchanged meanwhile.
+- The Gulf Republic's part in the Cuban guarantee, now that it is founded in 1900.
+- The Bread March sentences and any detention settlement.
 
 ### Author-approved editorial safeguards
 

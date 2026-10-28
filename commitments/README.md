@@ -28,21 +28,21 @@ The entries were extracted from the storyline in four parts on 27 October 2026 a
 
 ## Findings for the author (27 October 2026)
 
-Gaps and tensions the extraction found in canon. None has been changed.
+Gaps and tensions the extraction found in canon. The author answered them on 28 October 2026; [CR-039](../book-agent/revision/CR-039.md) records the answers.
 
-1. **The Puʻuloa lease expires in 1924.** The fifty-year term from 1874 ends then. The storyline never says whether it is renewed, replaced or lapses, yet the fleet base at Pearl Harbor continues.
-2. **The 1887 compact with Tokyo** is renewed in 1897, 1907 and 1917. Its next renewal would fall in 1927, the year of the Concord, but canon doesn't say whether the Concord replaces it.
-3. **China's "defense treaty."** China recovers the Inspectorate and customs in 1928–29 "under the defense treaty", which appears nowhere else.
-4. **Ka Lōkahi's agreed matters** are "renewed every ten years", with no base year, so the renewal dates are unknown.
-5. **The Gulf compact** is dated 1895 (PROPOSED dates), before the Gulf Republic exists (1899–1900). It is unclear which compact sets the admission tests.
-6. **The Concord's first executive term** could run from 1927 (provisional application) or from 1928 (consent). The 1932 renewal implies 1927–1932.
-7. **The Buchanan–Vallejo Convention (1848)** gives only its commercial articles a twelve-year term. At Carson in 1860, though, the ports and the Sausalito storehouse are among the expired articles. Carson also recognizes US sovereignty over Washoe, which Pacifica retakes in 1863–64, and nothing ends that convention.
-8. **Querétaro (1847)** pledges California "never to cede itself or its territory to any power", which is never squared with joining the 1856 Confederation.
-9. **The Protectorship** is renewed in 1862 and 1863. Its 1864 renewal and its end are not stated, yet it is still in use for the 1864–65 dissolution.
-10. **The tobacco company (1876)** has "the Crown" keeping a quarter decades before the Crown is established (1914).
-11. **Silas's death in the winter of 1912** ends his inland command, but it is not in `canon_facts.toml`.
-12. **Label scope.** Some labels seem to reach further than meant:
-    - the Korea rights at L610 sit under an OPEN marker about the signing place;
-    - the 1897 Whitney treaty sits under a PROPOSED label about Governor Waite;
-    - the Association treaties sit under a CR-029 label about the quitclaim;
-    - the Truce's terms paragraph is unlabelled while its signing is PROPOSED.
+Resolved by CR-039:
+- **1.** The Puʻuloa lease lapses in 1924; the fleet stays as the Hawaiian crown's tenant at the Mōʻī's pleasure.
+- **2.** The Pacific Concord replaces the 1887 compact with Tokyo when its fourth renewal falls due in 1927.
+- **3.** China recovers its customs under the Treaty of Nanjing (1928).
+- **5.** The Gulf Republic is founded in 1900, the year the canal opens; the Gulf compact is signed at its founding and sets the admission tests. There is no 1895 compact.
+- **6.** The Concord's first executive term runs 1927–1932.
+- **7.** The 1848 naval articles share the twelve-year term; the 1865 peace ends the 1848 and 1860 conventions.
+- **8.** Querétaro's pledge is narrowed to joining the United States or ceding territory.
+- **9.** The Protectorship is renewed in 1862, 1863 and 1864.
+- **10.** The state, not the Crown, keeps a quarter of the 1876 tobacco company.
+- **11.** Silas's death in the winter of 1912 is in `canon_facts.toml`.
+- **12.** Waite and Whitney's 1897 treaty, the Association treaties and the Truce's signing are approved; Korea's post-1905 rights no longer sit under the OPEN marker; the 1905 peace is signed at Urajio.
+
+Still open:
+- **4.** **Ka Lōkahi** names both the 1914 council of the crowns and, in Hawaiian, the Concord: on hold for a larger change the author is planning.
+- The Gulf Republic's part in the Cuban guarantee, now that it is founded in 1900.
