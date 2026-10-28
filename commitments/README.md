@@ -1,6 +1,6 @@
 # Commitments ledger
 
-Pacifica's political obligations kept like a debt register: 164 treaties, compacts, leases, loans, guarantees, charters and life offices from 1846 to 1932. Each entry records:
+Pacifica's political obligations kept like a debt register: 165 treaties, compacts, leases, loans, guarantees, charters and life offices from 1846 to 1932. Each entry records:
 - who owes what to whom;
 - when it starts, ends or renews;
 - what ends it;

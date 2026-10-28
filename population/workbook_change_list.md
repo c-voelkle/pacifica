@@ -23,7 +23,7 @@
 | D2 | Budget T | Assisted arrivals are a share of all arrivals (Paths J). P2 roughly doubles the cost of settlement and immigration in 1848–1860. CR-033 A18 pays for it from the land margin (see L1). |
 | D3 | Sources & uses, row 38; Checks | The story case's private-saving test was already tight in 1862 (home capital allowance 12.3%, margin $0.08m). A larger economy changes both saving and borrowing, so rerun before judging. |
 | D4 | Labour B | The labour force is residents × `lf_rate`, so it rises with P1–P2. The implied participation stays at 59–64% of ages 15–64 (`outputs/reconciliation.md`). |
-| D5 | CR-015 range | The model's 1895 total, about 7.1m at year end, is above CR-015's 4–6.5m. This is an author choice, already listed in CR-033's open choices. |
+| D5 | CR-015 range | The model's 1895 total, about 7.1m at year end (8.3m after CR-034 A24), is above CR-015's 4–6.5m. The author chose the workbook figures on 28 October 2026 (DEM-01 revised); previously an author choice, listed in CR-033's open choices. |
 
 ## Land Fund rows (only if CR-033 is adopted)
 

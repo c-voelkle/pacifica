@@ -78,7 +78,7 @@ Each group's vital rates follow a dated path, with real-world benchmarks as the 
   - Mortality follows US white rates until 1888 (Office of Public Measures, §21; Victoria's measures, §23). It then converges to New Zealand's, the world's highest life expectancy, by 1910.
   - Fertility follows US white rates until 1900, then converges to Canada's, the highest among settler societies, by 1915.
 - **Native Hawaiians:** calibrated historical rates until Noe's health board (1886, §20), then converging to the general level. The convergence date (1912) is solved so the population turns upward in 1895, as §23 states.
-- **Native Californians:** disease without mass killing until 1870, then a protective but unequal deal (draft CR-033: the Republic as sole buyer of Native land).
+- **Native Californians:** disease without mass killing until 1870, then a protective but unequal deal (CR-033: the Republic as sole buyer of Native land).
   - Mortality moves onto the path of New Zealand's Māori by 1891 and follows it: life expectancy about 24 in 1891, 32 in 1911, 41 in 1926 (Te Ara). That leaves a gap of 20–30 years to the general population.
   - Fertility (5.9) is solved so the population turns upward in the later 1890s, as Māori numbers did.
   - Result: low about 99,000 in 1897, about 130,000 by 1932. The dates are MODEL; canon gives none.
@@ -91,12 +91,12 @@ Each group's vital rates follow a dated path, with real-world benchmarks as the 
 - **Women's and family programmes:** these act through the assisted-passage share (women and families from 1852) and the migrant sex ratios (Chinese families from 1868, Japanese from 1907). `reconciliation.md` checks the result. The white population runs about 150 men per 100 women in 1856 and evens out to about 100 by 1880, as canon describes.
 - **Group-specific rates:** all residents other than Native Hawaiians and Native Californians share the general canon path. This is a decision, not a gap: canon's civic equality and the examined state give no ground for group differences, and no sourced rates for those groups exist here.
 
-Canon text for these decisions: draft CR-033 in `book-agent/revision/drafts/`.
+Canon text for these decisions: CR-033 (`book-agent/revision/CR-033.md`), adopted 28 October 2026.
 
 ## Step 3: workbook change list (complete, applied 27 Oct 2026)
 
-The workbook now includes the changes (`finance/CR-033-workbook.md`). `[dem01] multiplier` is therefore 1.0 here, and the model and the sheet agree on residents in every year. The workbook's own migration responds to the larger population, so it ends 1932 with 32.6m residents.
+The workbook now includes the changes (`finance/CR-033-workbook.md`). `[dem01] multiplier` is therefore 1.0 here, and the model and the sheet agree on residents in every year. The workbook's own migration responds to the larger population. With skilled entry from 1856 (CR-034 A24, 28 October 2026) it ends 1932 with 36.2m residents (32.6m before A24).
 
-[`workbook_change_list.md`](workbook_change_list.md) lists what the People, Paths, Levers and Checks sheets would need to match the approved model. It also lists the knock-on effects to check and the Land Fund rows that apply if CR-033 is adopted. The workbook is unchanged.
+[`workbook_change_list.md`](workbook_change_list.md) lists what the People, Paths, Levers and Checks sheets would need to match the approved model. It also lists the knock-on effects to check and the Land Fund rows; all were applied on 27 October 2026.
 
-**Year convention:** the change list counts residents at the end of each year, as the People sheet does (column L). Elsewhere in this README and in CR-033, "in 1932" means the start of 1932. Before the workbook was revised, the model gave 30.1m at the start of 1932 and 30.9m at the end, using the old sheet's migration. With the revised workbook's migration it gives 31.8m at the start and 32.6m at the end.
+**Year convention:** the change list counts residents at the end of each year, as the People sheet does (column L). Elsewhere in this README and in CR-033, "in 1932" means the start of 1932. Before the workbook was revised, the model gave 30.1m at the start of 1932 and 30.9m at the end, using the old sheet's migration. With the revised workbook's migration it gave 31.8m at the start and 32.6m at the end; with skilled entry from 1856, 35.3m and 36.2m.
