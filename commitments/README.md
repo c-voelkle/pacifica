@@ -31,19 +31,18 @@ The entries were extracted from the storyline in four parts on 27 October 2026 a
 Gaps and tensions the extraction found in canon. The author answered them on 28 October 2026; [CR-039](../book-agent/revision/CR-039.md) records the answers.
 
 Resolved by CR-039:
+- **1.** The Puʻuloa lease lapses in 1924; the fleet stays as the Hawaiian crown's tenant at the Mōʻī's pleasure.
 - **2.** The Pacific Concord replaces the 1887 compact with Tokyo when its fourth renewal falls due in 1927.
+- **3.** China recovers its customs under the Treaty of Nanjing (1928).
 - **5.** The Gulf Republic is founded in 1900, the year the canal opens; the Gulf compact is signed at its founding and sets the admission tests. There is no 1895 compact.
 - **6.** The Concord's first executive term runs 1927–1932.
+- **7.** The 1848 naval articles share the twelve-year term; the 1865 peace ends the 1848 and 1860 conventions.
+- **8.** Querétaro's pledge is narrowed to joining the United States or ceding territory.
 - **9.** The Protectorship is renewed in 1862, 1863 and 1864.
 - **10.** The state, not the Crown, keeps a quarter of the 1876 tobacco company.
 - **11.** Silas's death in the winter of 1912 is in `canon_facts.toml`.
-- **12.** Waite and Whitney's 1897 treaty, the Association treaties and the Truce's signing are approved; Korea's post-1905 rights no longer sit under the OPEN marker.
+- **12.** Waite and Whitney's 1897 treaty, the Association treaties and the Truce's signing are approved; Korea's post-1905 rights no longer sit under the OPEN marker; the 1905 peace is signed at Urajio.
 
-Still open (proposals in CR-039, P1–P6):
-- **1.** **The Puʻuloa lease expires in 1924:** who renews it, with whom, on what terms.
-- **3.** **China's "defense treaty"** of 1928–1929, which appears nowhere else.
-- **4.** **Ka Lōkahi** names both the 1914 council of the crowns and, in Hawaiian, the Concord; the renewal base year waits on which keeps the name.
-- **7.** **The Buchanan–Vallejo (1848) and Carson (1860) conventions:** the term of the naval articles and how the war ends them.
-- **8.** **Querétaro's non-cession pledge** and the 1856 Confederation.
-- **12.** **The place of signing of the 1905 peace** (OPEN-018-20).
-- New: the Gulf Republic's part in the Cuban guarantee of 1898, now that it is founded in 1900.
+Still open:
+- **4.** **Ka Lōkahi** names both the 1914 council of the crowns and, in Hawaiian, the Concord: on hold for a larger change the author is planning.
+- The Gulf Republic's part in the Cuban guarantee, now that it is founded in 1900.

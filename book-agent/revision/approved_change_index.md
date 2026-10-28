@@ -720,11 +720,12 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Querétaro (1847): California pledges never to join the United States or cede any of its territory to a foreign power.
 - The 1905 peace is signed at Urajio, the former Vladivostok (resolves OPEN-018-20).
 - Places that join Japan take their Japanese names in canon from the transfer onward: Urajio (Vladivostok), Enkaishū (the Ussuri region), Karafuto (Sakhalin) after 1899.
+- Puʻuloa, 1924: the fifty-year lease lapses and Julian does not renew it. As Mōʻī he takes the harbour back into the Hawaiian crown; the fleet stays as the crown's tenant at the Mōʻī's pleasure, renewed at each accession. The grant restores Puʻuloa's fishponds and pearl beds and closes Kaʻahupahau's waters to dredging.
+- "The Crown" stands for the regency's sovereign authority from 1887; before 1887 the state holds shares and stakes.
 
 **Still open:**
-- P1: the Puʻuloa lease's expiry in 1924; the author wants a decision that reflects Julian's personality and values.
-- P3: Ka Lōkahi. Author's direction: one name, the council of the crowns grows into the Concord; agreed matters every seven years; a coronation in 1913. Conflicts with the 1914 Act, the 1915 accession and the Concord's five-year reviews to be settled.
-- The Gulf Republic's accession to the Cuban guarantee, now that it is founded in 1900.
+- Ka Lōkahi (P3): on hold for a larger author change beyond CR-039; canon keeps the 1914 council of the crowns with ten-year reviews and the Concord's Hawaiian name unchanged meanwhile.
+- The Gulf Republic's part in the Cuban guarantee, now that it is founded in 1900.
 - The Bread March sentences and any detention settlement.
 
 ### Author-approved editorial safeguards

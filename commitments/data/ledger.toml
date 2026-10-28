@@ -147,7 +147,8 @@ quote = "When Alexander dies on 30 November 1863"
 
 [[commitment]]
 id = "C-1874-PUULOA"
-open = "The fifty-year term ends in 1924. The storyline never says whether the lease is renewed, replaced or lapses, though the fleet base at Pearl Harbor continues after 1924."
+more_quotes = ["In March 1924 the fifty-year lease of Puʻuloa runs out, and Julian does not renew it."]
+open = "Lapses in March 1924; replaced by the tenancy at the Mōʻī's pleasure (C-1924-PUULOA-TENANCY, CR-039)."
 name = "Puʻuloa Convention"
 kind = "lease"
 parties = ["HI", "PAC"]
@@ -3459,3 +3460,25 @@ more_quotes = [
   "It would have made war on a state the Concord guaranteed at Nanjing, and Japan's home army enters common command only for a war the Concord declares.",
 ]
 open = "Term not stated. The Concord's two crowns are recorded as CROWN and JP."
+
+[[commitment]]
+id = "C-1924-PUULOA-TENANCY"
+name = "Puʻuloa tenancy at the Mōʻī's pleasure"
+kind = "lease"
+parties = ["HI", "PAC"]
+from = 1924
+owes = [
+  { by = "HI", to = "PAC", what = "the fleet keeps its base at Puʻuloa as the Hawaiian crown's tenant" },
+  { by = "PAC", to = "HI", what = "restore Puʻuloa's fishponds and pearl beds; no dredging in Kaʻahupahau's waters" },
+]
+can_end = [{ who = "HI", how = "held at the Mōʻī's pleasure; renewed at each accession" }]
+conditions = ["the fishponds and pearl beds are restored", "the waters of Kaʻahupahau are closed to dredging"]
+status = "APPROVED"
+cr = "CR-039"
+section = 33
+quote = "As Mōʻī he takes the harbour back into the Hawaiian crown; as Sovereign he keeps the fleet there as the crown's tenant, at the Mōʻī's pleasure, the tenancy renewed at each accession."
+more_quotes = [
+  "Julian writes conditions of his own into the grant.",
+  "Puʻuloa's fishponds and pearl beds are to be restored, and the waters of Kaʻahupahau, the shark who guards the lochs, are closed to dredging.",
+]
+open = "No term: it runs at the Mōʻī's pleasure and is renewed at each accession. Julian holds both sides; how the Concord's common Navy (from 1927) stands as sub-tenant is not stated."

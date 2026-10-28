@@ -3,7 +3,7 @@ session: 20261028-cr039-ledger-findings
 started: 2026-10-28
 updated: 2026-10-28
 mode: integrate
-status: paused-for-author
+status: complete
 baseline:
   commit: 06fd9b8
 independence: separate-agents
@@ -28,7 +28,8 @@ independence: separate-agents
 | D6 | decision | Silas's death (winter 1912) into canon_facts (finding 11) | author 2026-10-28 | done |
 | D7 | decision | Waite, Association treaties, Truce signing approved (finding 12) | author 2026-10-28 | done |
 | D8 | decision | Nanjing, Buchanan–Vallejo/Carson, Querétaro, Urajio signing; Japanese place names after a transfer | author 2026-10-28 (second round) | done |
-| Q1 | open choice | P1 Puʻuloa 1924 (more Julian-specific); P3 Ka Lōkahi (seven-year matters, 1913 coronation vs 1914 Act); Cuban guarantee; regency-era "Crown" | CR-039 | open |
+| D9 | decision | Puʻuloa 1924: options a (tenancy at the Mōʻī's pleasure) and b (reef clause); "the Crown" stays during the regency | author 2026-10-28 (third round) | done |
+| Q1 | open choice | Ka Lōkahi on hold for a larger author change; Cuban guarantee; Bread March sentences | CR-039 | open |
 
 ## Handoffs
 
@@ -46,4 +47,4 @@ independence: separate-agents
 
 ## Resume here
 
-Author to choose among the Julian-specific Puʻuloa options and to settle Ka Lōkahi: whose coronation in 1913 (the Act, Kiyoshi's bid and the accession are 1914–1915), whether the seven-year cycle may instead run 1914–1921–1928, and how seven-year agreed matters sit with the Concord's five-year renewals. Also open: the Cuban guarantee and "the Crown" during the regency. Branch `adopt/cr039`.
+CR-039 is integrated on branch `adopt/cr039`, awaiting the author's word to open a pull request or merge. Open: Ka Lōkahi (on hold for a larger change the author is planning), the Cuban guarantee (suggestion: date it to Cuba's formal independence in 1902, when the Gulf Republic exists) and the Bread March sentences.
