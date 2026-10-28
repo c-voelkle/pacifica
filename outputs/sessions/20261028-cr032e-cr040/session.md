@@ -22,6 +22,7 @@ independence: separate-agents
 | ID | Type | Statement | Source | Status |
 | --- | --- | --- | --- | --- |
 | D1 | decision | Shape: D's earlier accession and tour, failed July 1914, A's Russian war, Red Terror, arrest of the three leaders | author 2026-10-28 | drafted as CR-032e |
+| D2 | decision | The 1904–1905 confrontation with Russia and Kiyoshi's naval battle (as carried in CR-032b from A) belong in CR-040 | author 2026-10-28 | CR-040 revision 3: full Stage 1 passage, indemnity flag, knock-ons, forbidden pattern for "Baltic Fleet"; self-reviewed |
 | Q1 | open choice | R1–R13 of CR-040 (Silas route, heir's birth, accession year, July causes, hostages, arrests, court and sentence, Romanovs, Victoria, federal Russia vs Siberia, Stalin, Ka Lōkahi) | CR-040 | open |
 
 ## Outputs
@@ -41,6 +42,7 @@ independence: separate-agents
 | --- | --- | --- |
 | X1 | `cr_facts.py preview CR-040.md` (revision 2, four fact events) | 23 passages in four files; recorded at the end of CR-040 |
 | X2 | `lint_canon.py --only` on both drafts | clean |
+| X3 | `cr_facts.py preview CR-040.md` (revision 3) | 28 passages in four files, including the five "Baltic Fleet" passages |
 
 ## Resume here
 
