@@ -47,4 +47,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-039 is integrated on branch `adopt/cr039`, awaiting the author's word to open a pull request or merge. Open: Ka Lōkahi (on hold for a larger change the author is planning), the Cuban guarantee (suggestion: date it to Cuba's formal independence in 1902, when the Gulf Republic exists) and the Bread March sentences.
+CR-039 is integrated and merged into main (author, 28 October 2026: "Go ahead and merge it"). Open: Ka Lōkahi (on hold for a larger change the author is planning), the Cuban guarantee (suggestion: date it to Cuba's formal independence in 1902, when the Gulf Republic exists) and the Bread March sentences.
