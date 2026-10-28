@@ -3,7 +3,7 @@ session: 20261028-cr032e-cr040
 started: 2026-10-28
 updated: 2026-10-28
 mode: integrate
-status: paused-for-author
+status: stopped
 baseline:
   commit: f377d00
 independence: separate-agents
@@ -31,7 +31,7 @@ independence: separate-agents
 | D8 | decision | R5 sharpened text, F1, R13 mechanism and the supersession table approved | author 2026-10-28 | Stages 1–2 integrated on branch adopt/cr040-stage1-2 |
 | D9 | decision | R9: the Romanovs are killed by the local authorities to prevent a rescue; no rescue is attempted; Julian's private reasons unstated | author 2026-10-28 | recorded in CR-040 R9; storyline text in Stage 3 |
 | D10 | decision | R10: Julian first seeks an independent Siberia and publicly recognises it; trades it for Wrangel's army; Victoria sees betrayal of the Pacifican ideal and the Siberians; the 1921 Altai partisans include Siberian regionalists; refinements approved | author 2026-10-28 | recorded in CR-040 R10; storyline text in Stage 4 |
-| Q1 | open choice | R1 review findings F1–F7; sharpened R5 text; K1; R8 charges; R12 and R13 mechanisms; R9 Romanovs; R10 Victoria and the Russian war | CR-040 rev 4 | open |
+| D11 | decision | Merge Stages 1–2 now; write Stages 3–4 in a fresh session from a handoff note | author 2026-10-28 | PR #48 merged; handoff-stage3-4.md |
 
 ## Outputs
 
@@ -57,4 +57,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-040 Stages 1–2 are integrated on branch `adopt/cr040-stage1-2` (pushed; not merged). All checks pass after one fresh-context review. Waiting for the author to say whether to merge. Next: write Stage 3 (Great War changes, the 1917 German offer breaking the 1909 undertaking, the Red Terror and the decision to go west; R9 and R10 decided) and Stage 4 (Wrangel, the Ob under Vance, Moscow, Lenin and Trotsky's trials, Kronstadt and Kiyoshi's death, Harbin with federal Russia; then the deferred lint rule for Kiyoshi's death in Siberia).
+CR-040 Stages 1–2 are merged into `main` (PR #48, author: "merge it now"). Every author decision for Stages 3–4 is made. Next session: follow `outputs/sessions/20261028-cr032e-cr040/handoff-stage3-4.md` to write and integrate Stages 3–4 (the Red Terror, the Romanovs, the promise to Siberia, Wrangel, Moscow, the trials, Kronstadt, Harbin with federal Russia) and apply the deferred lint rule for Kiyoshi's death.
