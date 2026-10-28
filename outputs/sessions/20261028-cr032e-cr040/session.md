@@ -23,7 +23,9 @@ independence: separate-agents
 | --- | --- | --- | --- | --- |
 | D1 | decision | Shape: D's earlier accession and tour, failed July 1914, A's Russian war, Red Terror, arrest of the three leaders | author 2026-10-28 | drafted as CR-032e |
 | D2 | decision | The 1904–1905 confrontation with Russia and Kiyoshi's naval battle (as carried in CR-032b from A) belong in CR-040 | author 2026-10-28 | CR-040 revision 3: full Stage 1 passage, indemnity flag, knock-ons, forbidden pattern for "Baltic Fleet"; self-reviewed |
-| Q1 | open choice | R1–R13 of CR-040 (Silas route, heir's birth, accession year, July causes, hostages, arrests, court and sentence, Romanovs, Victoria, federal Russia vs Siberia, Stalin, Ka Lōkahi) | CR-040 | open |
+| D3 | decision | R2 renounce; R3 Kahekili c.1916 after daughters; R4 1907; R5 approved in shape; R6, R7 approved; R8 arrested, tried, executed for state crimes; R11 federal Russia; R12 Stalin in Petrograd; R13 Ka Lōkahi keeps ten-year reviews and agrees in 1927 that Japan joins | author 2026-10-28 (second round) | recorded in CR-040 revision 4 |
+| D4 | decision | Kiyoshi's death to be defined in this package; not in Siberia | author 2026-10-28 | K1 proposed: Kronstadt, May 1920; Vance holds the Ob |
+| Q1 | open choice | R1 review findings F1–F7; sharpened R5 text; K1; R8 charges; R12 and R13 mechanisms; R9 Romanovs; R10 Victoria and the Russian war | CR-040 rev 4 | open |
 
 ## Outputs
 
@@ -43,7 +45,8 @@ independence: separate-agents
 | X1 | `cr_facts.py preview CR-040.md` (revision 2, four fact events) | 23 passages in four files; recorded at the end of CR-040 |
 | X2 | `lint_canon.py --only` on both drafts | clean |
 | X3 | `cr_facts.py preview CR-040.md` (revision 3) | 28 passages in four files, including the five "Baltic Fleet" passages |
+| X4 | `cr_facts.py preview` (revision 4) | 33 passages, adding Kiyoshi's death in Siberia; Zimmermann (5 July 1914) and the Gulf ice dates verified; revision 4 self-reviewed |
 
 ## Resume here
 
-Waiting for the author's answers to CR-040's R-items. Stage 1 (the crown of 1907) needs R2–R4 before integration; Stage 2 (the tour and July 1914) needs R5. Stages 3 and 4 are outlines until R6–R12 are answered. Canon is unchanged.
+CR-040 revision 4 records the author's second-round answers. Waiting on: approval of K1 (Kiyoshi at Kronstadt), the sharpened July 1914 text (R5), the F1–F7 fixes, the R13 mechanism, and R9 and R10. Once K1, R5 and F1 are approved, Stages 1 and 2 can be integrated on a branch; Stages 3 and 4 need their storyline text written. Canon is unchanged.
