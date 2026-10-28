@@ -19,7 +19,7 @@ The pre-CR-020 working scenario had a $36.96m Union-lender equity gap, peacetime
 | Philippines | Confederal dependency to 1887, Crown dependency to 1914, separate crown thereafter; Cortes, budget and army under CR-029 | Keep its population, revenues and obligations distinct from North American/core citizenship. |
 | Siberia, Kamchatka, Transbaikalia | Siberian ally includes west-of-Ola coast and Nikolayevsk; Kamchatka/Koryak protected republic and Transbaikalian protectorate are separate | Kolyma output stays Siberian, not Pacifican domestic GDP; military quota, relief, stakes and purchases are separate cash flows. Detailed federal/protectorate mechanics remain PROPOSED. |
 | Japan, China, Korea, Formosa | Sovereign partners; Formosa remains Chinese with revenue administration | Loans, guarantees, concessions and fees are not tax ownership of whole populations. |
-| Confederacy/Gulf | No Confederate core member in 1895; Gulf Republic formed 1899–1900 with Sequoyah | Separate foreign economies, guarantee calls and later oil supply. Mobile/Birmingham remain in rump Alabama. |
+| Confederacy/Gulf | No Confederate core member in 1895; Gulf Republic formed 1900 with Sequoyah (CR-039) | Separate foreign economies, guarantee calls and later oil supply. Mobile/Birmingham remain in rump Alabama. |
 
 ## Required schedules
 

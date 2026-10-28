@@ -2508,6 +2508,44 @@
         "A Crown-affiliated party (on hold)."
       ],
       "facts": []
+    },
+    {
+      "id": "CR-039",
+      "title": "Loose ends in the commitments: the ledger findings of 27 October 2026",
+      "status": "approved_integrated",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-039.md",
+      "authorization": "Author answers of 28 October 2026 to the twelve ledger findings, including: \"I think the Concord replaces the compact.\" \"1927 is correct.\" \"Renewed again in 1864.\" \"Replace with the state\" \"Let's add it to canon.\" \"I approve Governor Waite.\" \"I approve the quitclaim proposal\" \"I approve the passage about the signing of the Truce\"",
+      "requirements": [
+        "The compact with Tokyo of 1887 runs until its fourth renewal falls due in 1927, when the Pacific Concord takes its place.",
+        "The Federal Republic of the Gulf is founded in 1900, the year the canal opens; the Gulf compact is signed at its founding and sets the admission tests from the start. No Gulf compact in 1895.",
+        "The Concord's first five-year executive term counts from the provisional application of 1927 and ends in 1932.",
+        "Both member legislatures renew the Protectorship in 1862, 1863 and 1864.",
+        "The state, not the Crown, keeps a quarter of the chartered Philippine tobacco company (1876); likewise the state's shares in the champions from the 1870s.",
+        "Silas dies at Sacramento in the winter of 1912 (canon_facts.toml).",
+        "Governor Waite's acquiescence in the Bread March and the prisoners' return under Whitney's 1897 treaty are approved; sentences and detention settlement stay open.",
+        "Labels: the Association treaties of 1871–1872 and the Truce's signing in spring 1887 are approved; Korea's post-1905 status sits outside the OPEN marker on the 1905 signing place."
+      ],
+      "open": [
+        "P1: the Puʻuloa lease's expiry in 1924 (proposed: a new convention between the Hawaiian crown and the Realm).",
+        "P2: China's 'defense treaty' of 1928–1929 (proposed: a Treaty of Nanjing with the Concord).",
+        "P3: Ka Lōkahi names both the 1914 council of the crowns and the Concord in Hawaiian; one needs another name before its renewal base year is set.",
+        "P4: the Buchanan–Vallejo and Carson conventions' terms and end.",
+        "P5: Querétaro's non-cession pledge and the 1856 Confederation.",
+        "P6: the place of signing of the 1905 peace (OPEN-018-20; proposed: Vladivostok).",
+        "The Gulf Republic's accession to the Cuban guarantee, now that it is founded in 1900.",
+        "The Bread March sentences and any detention settlement."
+      ],
+      "facts": [
+        {
+          "person": "CT-SILAS-CLAIMANT",
+          "set": {
+            "died": 1912,
+            "died_season": "winter"
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [

@@ -54,7 +54,9 @@ source = "character_bible.md CT-SOBERANES"
 id = "CT-SILAS-CLAIMANT"
 aliases = ["Silas Pruett", "Silas Thorne"]
 born = 1851
-source = "character_bible.md CT-SILAS-CLAIMANT (late 1851)"
+died = 1912
+died_season = "winter"
+source = "character_bible.md CT-SILAS-CLAIMANT (late 1851); CR-039"
 
 [[person]]
 id = "CT-FONG"

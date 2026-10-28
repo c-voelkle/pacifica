@@ -802,7 +802,7 @@ kind = "office"
 parties = ["PAC", "CAL", "HI"]
 from = 1861
 term_years = 1
-renewals = [1862, 1863]
+renewals = [1862, 1863, 1864]
 holder = "CT-ELIAS"
 conditions = [
   "a separate resolution authorizes limited coercive operations with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible",
@@ -817,9 +817,9 @@ section = 9
 quote = "The Council invokes Article XIV with formal assent from both member governments and appoints Elias Protector for one year."
 more_quotes = [
   "A separate resolution authorizes limited coercive operations, with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible.",
-  "In 1862 and 1863 both member legislatures renew Elias's one-year Protectorship as difficult campaigns produce fresh dangers.",
+  "In 1862, 1863 and 1864 both member legislatures renew Elias's one-year Protectorship as difficult campaigns produce fresh dangers.",
 ]
-open = "Exact instruments and dates **[OPEN]** (late May 1861 is the working activation date). Renewal in 1864 and the end of the Protectorship are not stated; it is still in use for the 1864–1865 dissolution and presumably gives way to the 1865 Providentorship."
+open = "Exact instruments and dates **[OPEN]** (late May 1861 is the working activation date). Renewed a third time in 1864 (CR-039). Its end is not stated; it is still in use for the 1864–1865 dissolution and presumably gives way to the 1865 Providentorship."
 
 [[commitment]]
 id = "C-1862-DESERET"
@@ -1217,11 +1217,11 @@ owes = [
 ]
 secured_on = "Confederate customs"
 status = "APPROVED"
-cr = "CR-029"
+cr = "CR-039"
 section = 13
 quote = "Association treaties in 1871–1872 refinance Confederate debt on customs security, install Pacifican customs co-administration and secure the lower Mobile Bay naval station, Galveston commercial privileges, Atlantic Auxiliary recruitment and Birmingham concessions."
 more_quotes = ["Pacifica replaces the surrendered toll revenue."]
-open = "Dated 1871–1872. The text does not say who lends the refinancing (refinancing by Pacifica is implied by 'more dependent on Pacifican credit' but not stated), nor any term. The APPROVED label in force is the CR-029 marker on the preceding quitclaim sentence; whether CR-029 covers these treaties is unclear."
+open = "Dated 1871–1872. The text does not say who lends the refinancing (refinancing by Pacifica is implied by 'more dependent on Pacifican credit' but not stated), nor any term."
 
 [[commitment]]
 id = "C-1873-FREEDOM-ACT"
@@ -1443,14 +1443,14 @@ id = "C-1876-PH-TOBACCO"
 from_approx = true
 name = "Chartered Philippine tobacco company"
 kind = "charter"
-parties = ["PH", "CROWN"]
+parties = ["PH", "PAC"]
 from = 1876
-conditions = ["The Crown keeps a quarter of the company."]
+conditions = ["The state keeps a quarter of the company."]
 status = "APPROVED"
 cr = "CR-029"
 section = 15
-quote = "The monopoly's factories and leaf are sold to a chartered tobacco company in which the Crown keeps a quarter."
-open = "Year not stated (1876 = year of the sale); charter term not stated. 'The Crown' in the 1870s is unexplained: the Crown of Pacifica is established only by the 1914 Act of Settlement."
+quote = "The monopoly's factories and leaf are sold to a chartered tobacco company in which the state keeps a quarter."
+open = "Year not stated (1876 = year of the sale); charter term not stated. CR-039: the state, not the Crown, keeps the quarter."
 
 [[commitment]]
 id = "C-1878-SULU"
@@ -1840,22 +1840,20 @@ more_quotes = [
   "The negotiated pact takes effect; the empire consolidates without a succession war.",
   "The Truce supplies a governing balance through the life offices and Regency Council.",
 ]
-open = "The signing in spring 1887 is **[PROPOSED]**; the terms paragraph is unlabelled. When and by what act its terms become organic law is not stated."
+open = "The signing in spring 1887 is approved (CR-039). When and by what act its terms become organic law is not stated."
 
 [[commitment]]
 id = "C-1887-LIFE-INLAND"
-open = "Silas's death year is not in canon_facts.toml, so it is recorded here as `ended`."
 more_quotes = [
   "Silas's inland command sits at Sacramento, Kiyoshi's naval party at Pearl Harbor, Soberanes's Polytechnic at Carquinez",
   "In the autumn of 1912 Silas comes to Thalassia and confesses Donner to Victoria, who has known for twenty-five years; he dies at Sacramento that winter.",
 ]
-ended_by = "Silas dies at Sacramento in the winter of 1912; an examined officer takes the inland command in 1913"
-ended = 1912
 name = "Inland command at Sacramento (Truce life office)"
 kind = "office"
 parties = ["INLAND", "CROWN"]
 from = 1887
 holder = "CT-SILAS-CLAIMANT"
+lapses_on_death = ["CT-SILAS-CLAIMANT"]
 can_end = [{ who = "CROWN", how = "after the holder's life the Regent appoints with Senate consent" }]
 status = "CANON"
 section = 22
@@ -1914,16 +1912,18 @@ more_quotes = [
 
 [[commitment]]
 id = "C-1887-JP-COMPACT"
-open = "No final term stated; renewals listed only to 1917. Canon does not say whether the 1927 Concord replaces the compact, whose next ten-yearly renewal would fall in 1927."
+open = "Replaced by the Pacific Concord in 1927, when its fourth renewal falls due (CR-039)."
 more_quotes = [
   "Japan backs the regency and holds its officers to the agreement; Pacifica guarantees Japan against Russia and supports its treaty revision with Europe. The western squadron’s command is reserved to officers of the Japanese naval party.",
   "Both states ratify renewals every ten years, in 1897, 1907 and 1917.",
+  "The compact runs until its fourth renewal falls due in 1927, when the Pacific Concord takes its place.",
   "The naval party loses its reserved squadron arrangement as command is consolidated, making the Navy ministry part of the bargain.",
 ]
 name = "Compact with Tokyo"
 kind = "compact"
 parties = ["JP", "PAC", "NAVAL"]
 from = 1887
+until = 1927
 renewals = [1897, 1907, 1917]
 owes = [
   { by = "JP", to = "PAC", what = "backs the regency and holds its officers to the agreement" },
@@ -2088,17 +2088,18 @@ from = 1897
 owes = [
   { by = "PAC", to = "US", what = "return of the Bread March prisoners" },
 ]
-status = "PROPOSED"
+status = "APPROVED"
+cr = "CR-039"
 section = 25
 quote = "In 1897 the prisoners return under Whitney's commerce and arbitration treaty."
-open = "Commercial and arbitration terms and duration not stated. The PROPOSED label precedes the sentence in the paragraph and may be meant only for the Waite/sentencing detail."
+open = "Commercial and arbitration terms and duration not stated."
 
 [[commitment]]
-id = "C-1895-GULF-COMPACT"
+id = "C-1900-GULF-COMPACT"
 name = "Gulf compact (conditions of admission)"
 kind = "compact"
 parties = ["GULF", "PAC"]
-from = 1895
+from = 1900
 owes = [
   { by = "GULF", to = "PAC", what = "meet the five measures and the two-part sixth test, registers, revenue, debt and policy conditions, each held twenty-five consecutive years, before admission is considered" },
 ]
@@ -2123,42 +2124,40 @@ more_quotes = [
   "Five measures—infant mortality, literacy, real wages, homicide and typhoid—must meet the bar set by Pacifica's weakest former-territory state.",
   "The sixth test has two parts: Black and freedmen twenty-year-olds must pass the Defense Law's joint medical and literacy examination at no less than ninety-five percent of the white rate, and their infant mortality must be no more than 1.05 times the white rate.",
   "Gold, standard-gauge rail, the AC standard, Crown-share concession law and ports open to the common navy must accompany examinations for office and franchise, recognition of the continental settlement and a common foreign policy.",
-  "A 1891 Deep South presidency, Gulf compact in 1895 and deadlocked 1897 election lead Virginia and North Carolina back to the Union in 1898–1899.",
+  "The Gulf compact, signed with Pacifica at the Republic's founding, sets from the start the tests any admission must pass.",
   "The five general measures first pass together in 1925.",
   "The 1931 oil glut breaks the general-measures streak, and both parity tests remain far from passing in 1932.",
 ]
-open = "The year 1895 comes from a passage labelled PROPOSED dates and predates the Gulf Republic (1899–1900); canon does not say whether 'the compact' of the admission conditions is that 1895 compact or a later one with the Republic. Parties and signature not stated."
+open = "Signed at the Republic's founding in 1900 (CR-039); no term stated."
 
 [[commitment]]
-id = "C-1899-GULF-DEFENCE"
-from_approx = true
+id = "C-1900-GULF-DEFENCE"
 name = "Mutual defense pact with the Gulf Republic"
 kind = "pact"
 parties = ["GULF", "PAC"]
-from = 1899
+from = 1900
 owes = [
   { by = "PAC", to = "GULF", what = "mutual defense" },
   { by = "GULF", to = "PAC", what = "mutual defense" },
 ]
 conditions = ["citizenship stays separate"]
-status = "PROPOSED"
-label_note = "The paragraph's label is 'PROPOSED dates': it qualifies the chronology (1891, 1895, 1897, 1898–1900), not the existence of the pact."
+status = "APPROVED"
+cr = "CR-039"
 section = 25
 quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
-open = "Year not stated; the Republic is formed in 1899–1900, so 1899 is the earliest possible start. Term not stated."
+open = "Dated by the Republic's founding in 1900 (CR-039). Term not stated."
 
 [[commitment]]
-id = "C-1899-GULF-TRADE"
-from_approx = true
+id = "C-1900-GULF-TRADE"
 name = "Trade treaty with the Gulf Republic"
 kind = "treaty"
 parties = ["GULF", "PAC"]
-from = 1899
-status = "PROPOSED"
-label_note = "The paragraph's label is 'PROPOSED dates': it qualifies the chronology, not the existence of the treaty."
+from = 1900
+status = "APPROVED"
+cr = "CR-039"
 section = 25
 quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
-open = "Year, terms and duration not stated; the Republic is formed in 1899–1900."
+open = "Dated by the Republic's founding in 1900 (CR-039). Terms and duration not stated."
 
 [[commitment]]
 id = "C-1916-SEQUOYAH"
@@ -2197,7 +2196,7 @@ conditions = ["no foreign bases"]
 status = "CANON"
 section = 25
 quote = "Pacifica, the Gulf Republic and the Union jointly guarantee Cuban independence, allowing intervention only by agreement of all three and no foreign bases."
-open = "Year of the guarantee not stated; 1898 is the year of independence, but the Gulf Republic co-guarantor only forms in 1899–1900. Duration not stated."
+open = "Year of the guarantee not stated; 1898 is the year of independence, but the Gulf Republic co-guarantor is founded only in 1900 (CR-039). Duration not stated."
 
 [[commitment]]
 id = "C-1898-CUBA-DEBT"
@@ -2492,7 +2491,6 @@ from = 1905
 owes = [{ by = "KR", to = "JP", what = "agreed military and transit rights; Japanese economic predominance; coordinated foreign policy" }]
 conditions = ["Korea remains independent and guaranteed; not a protectorate; not annexed in 1910"]
 status = "CANON"
-label_note = "The label in force is **[OPEN-018-20]**, which concerns only the place of signing the Russian peace; AGENTS.md states Korea's post-1905 status and rights without qualification."
 section = 26
 quote = "Korea remains an independent guaranteed state with Japanese economic predominance and agreed military and transit rights; coordinated foreign policy does not make it a protectorate."
 open = "Instrument, date and content of the 'agreed' rights not stated."
@@ -3189,7 +3187,7 @@ more_quotes = [
   "Japan's Emperor ratifies on the Privy Council's conditional advice and the Diet votes its quota",
   "Restoration officers strike against Inukai's government in May 1932 to stop the Concord's first renewal.",
 ]
-open = "The Concord's own duration is not stated; only the executive trust has terms. Whether it replaces the 1887 Japanese compact is not stated. The 1932 Thalassia settlement makes parities adjustable."
+open = "The Concord's own duration is not stated; only the executive trust has terms. It replaces the 1887 compact with Tokyo (CR-039). The 1932 Thalassia settlement makes parities adjustable."
 
 [[commitment]]
 id = "C-1927-CONCORD-EXEC"
@@ -3204,8 +3202,7 @@ owes = [{ by = "JP", to = "CROWN", what = "the Concord's executive entrusted to 
 status = "CANON"
 section = 33
 quote = "The Concord's executive is entrusted to the Crown of Pacifica for five-year terms, because Pacifica pays the larger quota and commands the fleet."
-more_quotes = ["Julian accepts a five-year first term instead of ten"]
-open = "Whether the first term runs from the 1927 provisional application or the 1928 consent is not stated; the 1932 renewal implies 1927–1932."
+more_quotes = ["Julian accepts a five-year first term instead of ten", "The first five-year term counts from the provisional application of 1927 and ends in 1932."]
 
 [[commitment]]
 id = "C-1927-MICRONESIA-TRUST"
