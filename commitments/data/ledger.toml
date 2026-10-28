@@ -2124,7 +2124,7 @@ more_quotes = [
   "Five measures—infant mortality, literacy, real wages, homicide and typhoid—must meet the bar set by Pacifica's weakest former-territory state.",
   "The sixth test has two parts: Black and freedmen twenty-year-olds must pass the Defense Law's joint medical and literacy examination at no less than ninety-five percent of the white rate, and their infant mortality must be no more than 1.05 times the white rate.",
   "Gold, standard-gauge rail, the AC standard, Crown-share concession law and ports open to the common navy must accompany examinations for office and franchise, recognition of the continental settlement and a common foreign policy.",
-  "The Gulf compact, signed with Pacifica at the Republic's founding, sets from the start the tests any admission must pass.",
+  "At its founding the Republic signs the Gulf compact with Pacifica, which sets the tests any admission must pass.",
   "The five general measures first pass together in 1925.",
   "The 1931 oil glut breaks the general-measures streak, and both parity tests remain far from passing in 1932.",
 ]
@@ -2141,8 +2141,8 @@ owes = [
   { by = "GULF", to = "PAC", what = "mutual defense" },
 ]
 conditions = ["citizenship stays separate"]
-status = "APPROVED"
-cr = "CR-039"
+status = "PROPOSED"
+label_note = "The label is 'PROPOSED dates', carried over from the CR-015 chronology; the founding year 1900 is APPROVED (CR-039)."
 section = 25
 quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
 open = "Dated by the Republic's founding in 1900 (CR-039). Term not stated."
@@ -2153,8 +2153,8 @@ name = "Trade treaty with the Gulf Republic"
 kind = "treaty"
 parties = ["GULF", "PAC"]
 from = 1900
-status = "APPROVED"
-cr = "CR-039"
+status = "PROPOSED"
+label_note = "The label is 'PROPOSED dates', carried over from the CR-015 chronology; the founding year 1900 is APPROVED (CR-039)."
 section = 25
 quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
 open = "Dated by the Republic's founding in 1900 (CR-039). Terms and duration not stated."
@@ -3202,7 +3202,7 @@ owes = [{ by = "JP", to = "CROWN", what = "the Concord's executive entrusted to 
 status = "CANON"
 section = 33
 quote = "The Concord's executive is entrusted to the Crown of Pacifica for five-year terms, because Pacifica pays the larger quota and commands the fleet."
-more_quotes = ["Julian accepts a five-year first term instead of ten", "The first five-year term counts from the provisional application of 1927 and ends in 1932."]
+more_quotes = ["Julian accepts a five-year first term instead of ten", "The first term runs from the provisional application of 1927 to 1932."]
 
 [[commitment]]
 id = "C-1927-MICRONESIA-TRUST"

@@ -33,7 +33,7 @@ independence: separate-agents
 
 | ID | To | Task | Output | Status |
 | --- | --- | --- | --- | --- |
-| H1 | fresh reviewer | Integrated storyline diff: consistency, label scope, prose | see Checks | done |
+| H1 | fresh reviewer | Integrated storyline diff: consistency, label scope, prose | findings applied; Cuban guarantee and regency-era "Crown" left for the author | done |
 
 ## Checks executed
 
