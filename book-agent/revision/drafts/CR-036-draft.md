@@ -1,6 +1,6 @@
 # CR-036 (draft) — Science: the scholars Europe would not promote, two elements, and the world that loses them (1855–1910)
 
-**Status:** PROPOSED draft, 28 October 2026; fourth revision (author decisions of 28 October 2026 on Morley, the eclipse station, the ore and Cohn). Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Status:** PROPOSED draft, 28 October 2026; fifth revision (author decisions of 28 October 2026 on Morley, the eclipse station, the ore, Cohn, the streams of talent and Victoria's 1891 test). Not adopted: no storyline, register, character or workbook file is changed by this draft.
 **Basis:** author decisions of 28 October 2026. Builds on draft CR-034 (the Polytechnic, citizenship with a chair from 1854, the 1858 prestige year) and CR-035 (the Pacifica League).
 
 ## Author decisions
@@ -12,6 +12,8 @@
 > I agree and please draft these changes as CR-036.
 
 > The most parsimonious would be for Morley to come to Pacifica as well at some point, due to better opportunities, as many of his generation would have done. The eclipse station could be set up somewhere along the railway in Wyoming. Please decide on the californium ore. Cohn at Yerba Buena is ok.
+
+> Yes, it should be emphasized that streams of talented people are comming from all different areas, faiths and backgrounds. Let's keep set piece one as a decisive test for Victoria but not the other two. We can leave the question of a test for Julian open for now; I suspect that his will be more difficult.
 
 ## Decisions
 
@@ -53,7 +55,10 @@
 | D17 | **The Union lags in science.** Johns Hopkins has no Sylvester, the Naval Academy and Cleveland no Michelson, and the first Nobel in science won in the Americas is Pacifican. Roosevelt's laboratories and chairs from 1903 (§26) gain a humiliating cause. | APPROVED (author agreed the outline) |
 | D18 | **Britain and France.** Sylvester's case becomes an argument in Britain's debate over religious tests (the Universities Tests Act 1871 opened Oxford, Cambridge and Durham, except in divinity). France loses gallium and its patriotic name. Mendeleev's vindication comes from California, a scientific bond with Russia that later wars strain. | APPROVED (author agreed the outline) |
 | D19 | **Japan's medicine becomes Pacifican, not German** (Kitasato, Hata). It is a deep tie under the Concord, and a strain whenever the partners quarrel. | APPROVED (author agreed the outline) |
-| D20 | **Jewish scholarship.** From the 1850s Pacifica is the place a Jewish scholar can hold a full chair without converting. After the pogroms of 1881 the scholars among the emigrants choose Pacifica, while most emigrants still go to the Union. What this means for the debates of the 1890s is OPEN. | APPROVED (author agreed the outline); 1890s OPEN |
+| D20 | **Jewish scholarship, as one stream among many.** From the 1850s Pacifica is a place where a Jewish scholar can hold a full chair without converting. After Russia's 1887 quota on Jewish students, many who would have gone to Zurich or Bern sit Pacifica's examinations instead. The 1888 law keeps Pacifica a magnet for the examined, while most emigrants still go to the Union. Residence does not dissolve their bonds to one another, and may strengthen them across the world. The story does not become about Jewish identity: Jewish characters appear as scientists, bankers and officials with agendas of their own. | APPROVED (author) |
+| D22 | **Talent from every faith and background.** The Jewish stream runs beside others: Forty-Eighters after 1849; Polish engineers after 1863; German Catholic scholars and Jesuits driven out in Bismarck's struggle with the Church (1872–78); Armenians after 1894–96; Chinese reformers after 1898; and Scandinavian, Scottish, Japanese and American graduates who simply want better laboratories and pay. No single diaspora becomes indispensable. | APPROVED (author: "streams of talented people are coming from all different areas, faiths and backgrounds"); the list PROPOSED |
+| D23 | **Victoria's balance and its decisive test (1891).** Pacifica must be neither the land where leadership cannot act without the Jewish community's approval, nor a state that loses the diaspora's best through discrimination. The test is the famine of 1891–92, in the year Moscow expels its Jews. The bankers want nothing sent to the Tsar; the nativist press wants proof that the bankers do not govern. Victoria sends grain on Pacifica's terms: Pacifican agents distribute it to the hungry of every faith, and the weekly photographs it. She gives neither side what it asked. Her method is to recognize individuals, never communities as political bodies; to keep any one diaspora from becoming indispensable; to publish the numbers; and to make foreign policy herself. | APPROVED (author: set piece one as the decisive test); method PROPOSED |
+| D24 | **No further set pieces.** The proposed quota case of about 1893 and the Kishinev war loan of 1903–05 are dropped. Julian's own test is OPEN; the author expects it to be harder. | APPROVED (author); Julian OPEN |
 | D21 | **What still happens elsewhere:** Pasteur, Lister (1867), Virchow and Behring stay where they were, so the germ theory still has several homes. Einstein (1905) still follows the published ether result. | PROPOSED |
 
 ## Proposed storyline text
@@ -80,6 +85,14 @@ Each insertion is a new paragraph, shown with the existing passage it follows, q
 
 > **[PROPOSED — CR-036]** Its learning is not only applied. In 1873 Carquinez finds the metal Mendeleev had predicted beneath aluminium, in zinc blende the Sutro School sends down from the deep Comstock, and calls it californium, and the periodic table is proved right on a Pacifican specimen. Yerba Buena College, founded in 1866 by San Francisco's merchant and banking houses of every faith, gives Sylvester his mathematics and, from 1866, Cohn his laboratory. In 1868 it brings the chemist Edward Morley from New Jersey. In 1878 the Murphys boy Michelson begins there to measure the speed of light. Paul Ehrlich, who read Koch's anthrax paper as a student in Silesia, comes to his laboratory that year and stains the cells no one could see. From 1885 Kitasato Shibasaburō works in the same laboratory, and Japanese medicine begins to learn from Pacifica. In 1887 Michelson and Morley's interferometer finds no ether wind.
 
+### §25, after the paragraph ending "…Returning graduates also carry knowledge into the partners' own economies." (D20, D22)
+
+> **[PROPOSED — CR-036]** The examined come from every exile and every ambition. Forty-Eighters and Polish engineers of 1863 came early. German Catholic scholars and Jesuits come out of Bismarck's struggle with the Church, and Jews shut out of Russia's universities by the quota of 1887. Armenians come after the massacres of 1894–96 and Chinese reformers after 1898. Scandinavian, Scottish, Japanese and American graduates come simply for better laboratories and pay. They sit the same examinations, and the Realm admits them one examinee at a time.
+
+### §25, after the paragraph ending "…These routes sustain the industrial economy while leaving a class of workers outside citizenship." (D23)
+
+> **[PROPOSED — CR-036]** Victoria's decisive test of these loyalties comes in 1891. Famine spreads along the Volga in the year Moscow expels its Jews. San Francisco's bankers ask her to send the Tsar nothing, and the nativist papers dare her to prove that the bankers do not govern. She sends grain on Pacifica's terms. Pacifican agents distribute it to the hungry of every faith, and the weekly photographs every station. The bankers get no say and the nativists no gesture. Both complain, and neither leaves.
+
 ### §26, after the paragraph ending "…and containment begins to collide with their portfolios: on Wall Street the \"Pacifican interest\" argues for peace." (D10, D17)
 
 > **[PROPOSED — CR-036]** Between 1905 and 1909 the Nobel committees confirm what Roosevelt's programme fears. Koch wins in 1905, Michelson in 1907 and Ehrlich in 1908, all three as Pacificans. In 1909 Ehrlich and Hata Sahachirō find the arsenical that cures syphilis. The Union's new laboratories are measured against Pacifica's colleges.
@@ -98,7 +111,7 @@ The californium date is guarded. Indium's date is in prose only.
 
 ## Impact notes
 
-- **Storyline:** six new paragraphs, in §8, §11, §15 (two), §19 and §26, each with a hidden CR-036 coverage comment. No existing sentence changes. Every quoted anchor occurs once in the storyline and ends its paragraph.
+- **Storyline:** eight new paragraphs, in §8, §11, §15 (two), §19, §25 (two) and §26, each with a hidden CR-036 coverage comment. No existing sentence changes. Every quoted anchor occurs once in the storyline and ends its paragraph.
   - The §26 paragraph follows text that runs to 1919 and 1932; it opens with its own dates so that it reads as a look back to Roosevelt's programme.
   - §15's Manila paragraph gives canon's "Polytechnic physicians read it as a matter of water" (APPROVED — CR-029) its leader without changing it.
 - **Dependencies:**
@@ -132,5 +145,5 @@ The californium date is guarded. Indium's date is in prose only.
 
 ## Open choices for the author
 
-- What D20 means for the 1890s.
+- Julian's test of the same balance (D24).
 - Koch's way in: the district-physician advertisement and Cohn's review are proposed; any other route works if it is plausible for an unknown doctor in 1872.
