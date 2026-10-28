@@ -1,6 +1,6 @@
-# CR-038 (draft) — The machinery's own safeguards: retirement, a common college, inspectors, hard numbers, bonded scholarships, official pay and county halls (1887–1890s)
+# CR-038 (draft) — The machinery's own safeguards: retirement, a common college, inspectors, hard numbers, bonded scholarships, official pay and county halls and a trades congress (1887–1890s)
 
-**Status:** PROPOSED draft, 28 October 2026; first revision, adding three borrowings from Singapore under Lee Kuan Yew (F6–F8). Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Status:** PROPOSED draft, 28 October 2026; second revision, adding three borrowings from Singapore under Lee Kuan Yew (F6–F8) and a chartered trades congress (F9). Not adopted: no storyline, register, character or workbook file is changed by this draft.
 **Basis:** author decision of 28 October 2026, after a comparison with the Chinese Communist Party's personnel system under Deng Xiaoping and his successors. Builds on the 1887 charters (§24), the Office of Public Measures (§25) and draft CR-037 (no cliques).
 
 ## Author decisions
@@ -8,6 +8,8 @@
 > Please write them into a short cr-038.
 
 > Let's leave that idea [a party] on hold for now. Fold the bonded scholarships, benchmarked official pay and chartered county halls.
+
+> Yes let's add it [a chartered labour congress] with the suggested cautions into CR-038.
 
 "Them" are four proposals from the comparison: retirement ages for the heads of the estates and senior posts; a common college for mid-career officials; unannounced inspectors; and numbers that are hard to fake.
 
@@ -22,6 +24,7 @@
 | F6 | **Bonded scholarships.** From 1888 a state scholarship to the Polytechnic or a League college binds its holder to five years in the service of the Realm, an estate, a chartered champion or a county, or repayment. The ablest of every origin start their careers inside the state's institutions rather than against them. The model is Singapore's Public Service Commission scholarships. | APPROVED (author); length of bond PROPOSED |
 | F7 | **Benchmarked official pay.** From 1888 the pay of senior officials is set each year against what the chartered champions pay their managers, and published. An official earns less than a manager but enough that corruption does not pay; the CR-038 inspectors and the CR-037 audits are the other half of the bargain. The model is Singapore's ministerial pay. | APPROVED (author); formula PROPOSED |
 | F8 | **Chartered county halls.** From the 1890s each county may charter a hall, open to every resident, that offers what hometown associations, clan houses and congregations offer their own: sick and burial funds, interpreters, night classes, notices of work and help with papers. Measures grants pay for halls that meet their standards. The hall does not replace those bodies; it competes with them, so that no one needs a clan to get by. The model is Singapore's People's Association. It answers CR-037's problem of hidden ties. | APPROVED (author); funding and governance PROPOSED |
+| F9 | **A chartered trades congress (1895).** After the Bread March and the Union's labour wars of 1894, a congress of the trades is chartered by law. It sets and runs the trade tests, including the guest workers' test for residence; it runs apprenticeships and retraining as machines change; it keeps sick, accident and burial funds; and it negotiates a published table of wages and conditions with the employers, with the Office of Public Measures as arbiter. **Cautions:** (1) It never controls hiring: no closed shop, hiring hall or gang of its own, so contractors keep recruitment, training, pay and control of the work (CR-031-R1). (2) It is chartered by law, not affiliated to the Crown, so that no wage dispute becomes a dispute with the Crown. (3) Independent unions stay legal; the congress wins members by its benefits (CR-031-R1 bans no association or collective bargaining). (4) It stays in the background like the guest permits: CR-020 took the strike and labour-charter arc out of the story. (5) Guest workers may join, which gives them a route to the trade test and residence. | APPROVED (author); date and details PROPOSED |
 | F5 | **What is not copied.** No term limit is lifted for anyone; anti-corruption is never used as a purge; and there is no assimilation by force. These stay temptations for Julian, whose test is OPEN (CR-036). | PROPOSED |
 
 ## Proposed storyline text
@@ -30,9 +33,9 @@
 
 > **[PROPOSED — CR-038]** The machinery guards itself. Under the 1887 charters every estate head and senior officer retires in the year they turn sixty-eight, so no one holds a seat for life except the Crown. From 1889 the empty government buildings at Monterey house the Realm College. There rising officers of the Polytechnic, the Office, the navy, the champions and the counties spend a year together, sharing rooms with strangers of other origins and languages. The Office's inspectors arrive in a county without warning. They check its returns against what is hard to fake, freight tonnage, coal and power, deposits and burials, and they publish what they find.
 
-### §25, after the CR-038 paragraph above (F6–F8)
+### §25, after the CR-038 paragraph above (F6–F9)
 
-> **[PROPOSED — CR-038]** The state also pays for loyalty in advance. From 1888 a state scholarship binds its holder to five years in the Realm's service, an estate's or a county's, and the clever children of every quarter start their careers inside the machine. Senior officials' pay is set each year against what the champions pay their managers and printed beside it, so that an honest official is well paid and a corrupt one has much to lose. In the 1890s the counties begin to charter halls open to every resident, with sick and burial funds, interpreters, night classes and notices of work. A newcomer no longer needs a clan house or a congregation to find a job or bury a child.
+> **[PROPOSED — CR-038]** The state also pays for loyalty in advance. From 1888 a state scholarship binds its holder to five years in the Realm's service, an estate's or a county's, and the clever children of every quarter start their careers inside the machine. Senior officials' pay is set each year against what the champions pay their managers and printed beside it, so that an honest official is well paid and a corrupt one has much to lose. In the 1890s the counties begin to charter halls open to every resident, with sick and burial funds, interpreters, night classes and notices of work. A newcomer no longer needs a clan house or a congregation to find a job or bury a child. In 1895, after the Bread March, a trades congress is chartered by law to set the trade tests, train apprentices, keep sick funds and agree a published table of wages with the employers; it hires no one, and the contractors keep command of their work.
 
 ## Fact changes
 
@@ -52,6 +55,7 @@ The retirement rule agrees with Soberanes's retirement in 1915 (born 1847). The 
 - **Character documents:** Soberanes (F1) and Victoria (F3, F4) gain a line each on adoption.
 - **Historical background:** on adoption, add the Chinese Communist Party's retirement norms, Central Party School, central inspection tours and the problem of gamed growth figures, with sources (see the sources below).
 - **Commitments ledger:** on adoption, add the retirement condition to the Polytechnic charter entry (and the other chartered estates) in `commitments/data/ledger.toml`; no new commitment.
+- **Labour canon:** CR-031-R1 (contractors keep recruitment and control; no ban on association) and CR-020 (no strike or labour-charter arc) are kept by F9's cautions.
 - **Workbook:** none now. Scholarships, official pay and county halls fit inside existing public-administration and measures-grant spending; a later costing could check that.
 
 ## Sources for the comparison
