@@ -1,6 +1,6 @@
 # CR-035 (draft) — The Pacifica League: why the Republic builds it, and how it turns talent into power (1848–1890)
 
-**Status:** PROPOSED draft, 28 October 2026; third revision, with the author's answers on membership and women (one fresh-context review applied to the second). Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Status:** PROPOSED draft, 28 October 2026; fourth revision (the University of the Pacific saves Victoria; fictional colleges' purposes left open). Third revision, with the author's answers on membership and women (one fresh-context review applied to the second). Not adopted: no storyline, register, character or workbook file is changed by this draft.
 **Basis:** author decisions of 27–28 October 2026. Builds on draft CR-034 (the Polytechnic's nucleus, loops and 1858 prestige year) and on the 1783 Mining Ordinances that canon keeps in force (§5).
 
 ## Author decisions
@@ -10,6 +10,8 @@
 > Before we add it, let's explain why Pacifican leadership chooses to build this institution. Elias himself has no formal education. Alvarez and the rest would probably be sympathetic to a more traditional religious school system. So why does it turn out this way?
 
 > Yes, I approve. Please add it to the cr and then verify the two points at the end.
+
+> I like it. Canton College sounds a bit too Chinese for my ear even in this alternate timeline. I would change it so as not to cause confusion. I would suggest that the University of the Pacific becomes the place where Victorias life is saved and where she gets her inspiration from. The purposes of the fictional new institutions remains open for now.
 
 > All the colleges join, perhaps also with some fictional additions. The historical ones mostly more or less get with the program. Women are admitted early on but it doesn't have to be from the first examination. Elias should also make it a priority to get more women into the area; this should not fall solely on Victoria, though she is the one who really gets things going.
 
@@ -36,7 +38,8 @@
 | C4 | **Women are admitted early, though not from the first examination.**<br>• From 1854 women sit the teachers' examination (CR-034 A26).<br>• From 1859, at Victoria's pressing, they sit the state examinations, and in 1860 a graduate of the Benicia seminary becomes the first woman to pass the assayers' examination.<br>• From 1862 admitting women who pass is a condition of every League grant, which the Catholic colleges resist longest.<br>• They enter the civil services and licensed professions by examination. The engineer corps, under the Defense Law, stays male. | APPROVED direction (author: "early on but … not from the first examination"); dates PROPOSED |
 | C5 | **Liberal arts later:** chairs in philosophy, law and letters grow once Pacifica's position is dominant (Julian's era). | APPROVED (author) |
 | C6 | **Steering:**<br>• Royalty-fund grants are paid per graduate who passes a state examination in a designated field.<br>• The engineer-corps privilege, state scholarships, appointments in the Superintendency, mint, army, navy and chartered industries, and licences for physicians, assayers and engineers all follow the same examinations.<br>• Results are published. | APPROVED direction (author); mechanics PROPOSED |
-| C7 | **Members, founding and niche**, in the table below. All the historical colleges join, and most more or less accept the programme: Santa Clara bargains hardest, the Oakland college gives up its classical requirement only when the grants flow, and Deseret joins after accession with Brigham Young's reservations. Three fictional colleges join them. | APPROVED (author: "All the colleges join … The historical ones mostly more or less get with the program"); niches and fictional colleges PROPOSED |
+| C7 | **Members, founding and niche**, in the table below. All the historical colleges join, and most more or less accept the programme: Santa Clara bargains hardest, the Oakland college gives up its classical requirement only when the grants flow, and Deseret joins after accession with Brigham Young's reservations. Three fictional colleges join them; their names are placeholders and their purposes are OPEN. | APPROVED (author: "All the colleges join … The historical ones mostly more or less get with the program"); niches and fictional colleges PROPOSED |
+| C9 | **The University of the Pacific saves Victoria (1866).**<br>• When she falls gravely ill in February 1866 (§11, APPROVED — CR-027), the physicians who save her come from the Methodists' laboratory medical college in San Francisco, not "from Monterey".<br>• Recovered, she goes to San Francisco to see it: wards that keep a table of every case, women nurses and the first women medical students.<br>• That is where her test "whether it can show results" takes its form, and her counting of who lives and who dies begins. It leads, through Noe's registers, to her own Office of Public Measures. | APPROVED direction (author); details PROPOSED |
 | C8 | **The Jouvenelian irony:** from 1887 the Polytechnic estate runs the examinations (§24), so the League's rivals are examined by their rival. The instrument that broke the churches' hold becomes a new intermediate power, and Julian inherits a capacity he must bargain for. | PROPOSED |
 
 | College | Founded (our timeline) | Constituency | Power niche |
@@ -49,9 +52,9 @@
 | Mills | 1852 seminary at Benicia; college 1865 | Women | Teachers for the examination state's schools; chemistry, assaying, mathematics; nursing |
 | University of Deseret | 1850; suspended 1853; revived after Deseret accedes (1862) | the Mormons | Irrigation, hydraulic engineering and organized settlement |
 | Lick School of Mechanic Arts | 1870s (Lick trust 1874; $540,000) | Lick's trust | Machinists, draughtsmen and foremen |
-| *Colegio de Santa Fe* (fictional) | 1864, after New Mexico joins (1862) | Hispano New Mexico, the Church and the acequia communities | Acequia irrigation and dry-land agriculture, Spanish-language administration for the interior counties |
-| *Canton College*, San Francisco (fictional) | 1866 | Chinese merchant houses, with Yung Wing as patron | Engineering and accounts taught in Chinese and English; customs and China trade. It feeds the Customs Inspectorate under Pacifican leadership (1885, §16) |
-| *Sutro School of Mines*, Washoe (fictional, founded by the historical Adolph Sutro) | 1869, with his drainage tunnel | Sutro and the Comstock companies | Deep mining: drainage, ventilation and hoisting |
+| *Colegio de Santa Fe* (fictional) | 1864, after New Mexico joins (1862) | OPEN | OPEN |
+| *Yerba Buena College*, San Francisco (fictional; renamed from "Canton College" to avoid confusion) | 1866 | OPEN | OPEN |
+| *Sutro School*, Washoe (fictional; the historical Adolph Sutro as founder is proposed) | 1869 | OPEN | OPEN |
 
 ## Part 3. Proposed storyline text
 
@@ -68,6 +71,12 @@ Each insertion is a new paragraph, shown with the existing passage it follows, q
 ### §8, after the paragraph ending "…**[OPEN]** Facilities, budgets, suppliers, armament, dimensions and construction schedule.", following CR-034's paragraphs there (B6–B8, C1–C7)
 
 > **[PROPOSED — CR-035]** From 1855 the Republic pays a grant for every graduate who passes its examinations in the fields it needs. The mint, the Superintendency and the licensed professions take only examined men and women, and the engineer corps only examined men. The Jesuits of Santa Clara are the first to bargain. They want the grant and the corps privilege for their Californio boys; the Republic wants surveyors and engineers who can work in Spanish. The price is the Polytechnic's examiners in their halls. The bishop calls it simony from the pulpit, and the rector signs. When in 1862 the grant also requires the colleges to admit the women who pass, the Jesuits hold out a year longer than anyone. The Methodists' college opens a laboratory medical school in San Francisco in 1858, and the Oakland college trains the Superintendency's statisticians. The Hawaiian kingdom pays Oahu College on the same terms for navigators and Pacific linguists for the common navy. Each college keeps its chapel and its Latin; none is paid for them. By 1860 the newspapers call them the League.
+
+### §11, replace "physicians brought from Monterey save her where, in our history, she died that May." with "physicians of the Methodists' medical college at San Francisco, brought to Honolulu by fast steamer, save her where, in our history, she died that May." (C9)
+
+### §11, after the paragraph ending "…She keeps the chants, the language and her faith." (C9)
+
+> **[PROPOSED — CR-035]** That summer she sails to San Francisco to see the college that saved her. Its wards keep a table of every case, who came in, what was done and who lived. Its nurses are women, and two of its students are women who passed the Republic's examination. She asks for the tables and takes copies home. The Kaʻahumanu Society begins to count its own sick and its own dead.
 
 ### §24, after the paragraph ending "…San Francisco calls them the Five, Honolulu nā Kahuna, the priests and masters of their crafts." (C8)
 
@@ -97,7 +106,8 @@ none
 
 ## Impact notes
 
-- **Storyline:** four new paragraphs, in §2, §5, §8 and §24, each with a hidden CR-035 coverage comment. No existing sentence changes.
+- **Storyline:** five new paragraphs, in §2, §5, §8, §11 and §24, each with a hidden CR-035 coverage comment.
+- **One approved sentence changes.** §11's "physicians brought from Monterey", from CR-027 (APPROVED), becomes the Methodist college's physicians. This changes where the doctors come from, not the event or its meaning, so it needs the author's approval of CR-035. CR-027's own text is a historical attachment and is not rewritten.
 - **Dependencies:** CR-034 supplies the assay office, the royalty share (A17), the engineer-corps privilege (A20), citizenship with a chair (A21) and the 1858 results. Adopt CR-034 first, or both together.
 - **Existing canon kept:**
   - Hartnell as signatory and London envoy (§4);
@@ -121,6 +131,6 @@ none
 ## Open choices for the author
 
 - Whether the bishop of the 1850s is named. Historically Joseph Sadoc Alemany came to California in 1850.
-- The three fictional colleges, their names and dates.
+- The three fictional colleges: their purposes (OPEN), and whether to keep the placeholder names *Colegio de Santa Fe*, *Yerba Buena College* and *Sutro School*.
 
 Resolved on 28 October 2026: all the colleges join, plus fictional additions (C7); women are admitted early but not from the first examination (C4).
