@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 34 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 35 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -675,6 +675,19 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Koch's way in (district-physician advertisement) and the Santa Fe observatory and eclipse station remain PROPOSED.
 - The Nobel decade (D10) and Kitasato and Hata (D6) remain PROPOSED.
 
+### CR-037 — No cliques: keeping the examination state's institutions open
+
+**Register status:** `approved_integrated`
+
+- Pacifica stops any ethnic or religious group from capturing an institution by favouring its own; the rules apply to every group alike. The test is the examination, never a quota.
+- From the late 1870s Soberanes's examinations use numbered, recopied scripts; examiners never judge candidates from their own state or college; first postings are away from home; appointment boards include outsiders.
+- From 1888 the Office publishes appointments against the examination lists for every chartered body, college and licensed profession; persistent gaps bring audits; officials declare relatives and former students. The first great audit (1890) falls on an established mixed clique on the savings and development bank's board, and Victoria refuses both to stop it and to set quotas.
+- Counties may be culturally concentrated and are measured against their own pass lists. A passed-over rate below two-thirds of the best-placed group over five years, or one family, marriage network or congregation holding more than a third of senior posts, counts against the order standard; treasurer, auditor, examiner and chief of police are posted from outside by the Office, in rotation.
+- The Japanese naval party's reserved squadron stays, with its critics, until the 1932 renewal.
+
+**Still open:**
+- The Carquinez men (the clique of the examined) and selective enforcement under Julian, for later CRs.
+
 ### Author-approved editorial safeguards
 
 - Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
@@ -788,5 +801,6 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1858–1863 | CR-034/035/036: prestige year 1858 (Mittheilungen, prize questions); League by 1860; women at the state examinations from 1859 and in League colleges from 1862; Sylvester, Remak and Cohn arrive; indium found at Carquinez in 1863. |
 | 1866–1887 | CR-035/036: the Methodist medical college saves Victoria in 1866; Yerba Buena College 1866, Sutro School 1869; californium 1873; Koch's anthrax 1876, tuberculosis and Manila cholera 1882; Michelson's light 1878 and the ether experiment with Morley 1887. |
 | 1891 | CR-036: famine relief to Russia in the year of the Moscow expulsion is Victoria's decisive test of diaspora loyalties. |
+| 1877–1897 | CR-037: anonymous scripts and avoidance from the late 1870s; appointment tables from 1888; first great audit 1890; county rule against cliques. |
 
 <!-- END AUTO-APPROVAL-LEDGER -->

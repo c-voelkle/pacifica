@@ -1,7 +1,7 @@
 # CR-038 (draft) — The machinery's own safeguards: retirement, Vallejo College, inspectors, hard numbers, bonded scholarships, official pay, county halls, results-based pride and a trades congress (1887–1890s)
 
 **Status:** PROPOSED draft, 28 October 2026; fourth revision, with the author's answers to the open choices (F1, F2, F6, F8, F9, F10, F13). Fresh-context reviews applied to the third and fourth revisions. Not adopted: no storyline, register, character or workbook file is changed by this draft.
-**Basis:** author decisions of 28 October 2026, after comparisons with the Chinese Communist Party's personnel system under Deng Xiaoping and his successors and with Singapore under Lee Kuan Yew. Builds on the 1887 charters (§21, §24), the Office of Public Measures (§25) and draft CR-037 (no cliques).
+**Basis:** author decisions of 28 October 2026, after comparisons with the Chinese Communist Party's personnel system under Deng Xiaoping and his successors and with Singapore under Lee Kuan Yew. Builds on the 1887 charters (§21, §24), the Office of Public Measures (§25) and CR-037 (no cliques, adopted 28 October 2026).
 
 ## Author decisions
 
@@ -82,7 +82,7 @@ The retirement rule agrees with Soberanes's retirement in 1915 (born 1847). The 
   - §25: Victoria's honest numbers and the county standards; the 1890 guest-worker programme with its employer levy and residence test.
   - §28: Soberanes retires in 1915.
   - §17: the Seat of Government Act moves the offices from Monterey in 1885; the Court of the Realm stays there (§21).
-- **Dependencies:** CR-037 (no cliques) sets the rules; CR-038 gives them machinery. Adopt them together or CR-037 first.
+- **Dependencies:** CR-037 (no cliques, adopted) sets the rules; CR-038 gives them machinery.
 - **Character documents:** Soberanes (F1) and Victoria (F3, F4, F13) gain a line each on adoption.
 - **Historical background:** on adoption, add the Chinese Communist Party's retirement norms, Central Party School, central inspection tours and gamed growth figures; Singapore's scholarships, ministerial pay, People's Association, NTUC and Migrant Workers' Centre; Hawaii's 1850 Masters and Servants Act; and the gender-equality paradox in career choice, with sources.
 - **Commitments ledger:** on adoption, add the retirement condition to the chartered-estate entries and check the Senate and Truce life-office entries in `commitments/data/ledger.toml`.
