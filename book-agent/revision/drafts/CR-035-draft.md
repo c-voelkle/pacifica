@@ -1,0 +1,120 @@
+# CR-035 (draft) — The Pacifica League: why the Republic builds it, and how it turns talent into power (1848–1890)
+
+**Status:** PROPOSED draft, 28 October 2026; second revision, with one fresh-context review applied. Not adopted: no storyline, register, character or workbook file is changed by this draft.
+**Basis:** author decisions of 27–28 October 2026. Builds on draft CR-034 (the Polytechnic's nucleus, loops and 1858 prestige year) and on the 1783 Mining Ordinances that canon keeps in force (§5).
+
+## Author decisions
+
+> I like the idea of a Pacifica League, but they shouldn't be misdirecting smart students into unproductive areas of study like idealist or scholastic philosophy, law, literature etc. Nor should they be excluding women who meet the academic standards. Of course a certain minimum level of such study should not be avoided but the colleges should all focus on where they can actually beat the ivies and maximize their potential in that direction at least in the early years. So-called liberal arts will come to play a bigger role once Pacifica has established a hegemonic position. In the 19th century however, at least in Elias' time the Pacifican league should be all about maximizing Pacifica's power in Jouvenelian terms.
+
+> Before we add it, let's explain why Pacifican leadership chooses to build this institution. Elias himself has no formal education. Alvarez and the rest would probably be sympathetic to a more traditional religious school system. So why does it turn out this way?
+
+> Yes, I approve. Please add it to the cr and then verify the two points at the end.
+
+## Part 1. Why it turns out this way
+
+| ID | Reason | Label |
+|---|---|---|
+| B1 | **It's inherited, not invented.** The 1783 Mining Ordinances, which the founding constitution keeps in force (§5), already joined mining to a school.<br>• **Funding:** under Title XVI the miners pay eight granos on every mark of silver into their corporate fund, and its first charge (article 3) is "the support of the Tribunal and the College of Mining".<br>• **The school:** the Royal Seminary of Mining opened in Mexico City on 7 January 1792. It taught mathematics, physics, chemistry and mineralogy, and Andrés Manuel del Río taught mineralogy there until his death in 1849.<br>Applied to gold, a school paid for by a share of the mineral royalty is the Ordinances' own arrangement, not a Yankee novelty. | APPROVED (author); facts verified, see Part 4 |
+| B2 | **The Californio leaders are not clerical traditionalists.**<br>• Alvarado and Vallejo were tutored by William Hartnell, the English merchant who signs the declaration and carries Querétaro to London (§4). Hartnell's own school at Monterey (1833–36) was backed by the governor and taught by a priest.<br>• Alvarado favoured the secularization of the missions and, as governor, carried it out.<br>Their liberalism is Mexican and Enlightenment-minded, and their sons need careers the Americans cannot monopolize. Examinations held in Spanish and English give them those careers, which fits canon's language guarantees. | APPROVED (author); facts verified, see Part 4 |
+| B3 | **Elias's idea of a school is the colonel's.**<br>• His Napoleonic teacher (§1) trained him in Vauban and Jomini, engineering, mechanics and metallurgy. To such a man the model school is the École polytechnique: the state picks engineers and officers by competitive examination, whatever their birth, and teaches mathematics first.<br>• The pastor fight over strata (§1) means Elias respects belief but will not fund teaching against what he has measured.<br>• Having no degree himself, he builds an institution that tests rather than certifies.<br>• As a prisoner marched toward Mexico City in 1841–42 (§2), he hears from a guard of the Mining School and of del Río, who found a new metal and was not believed. | APPROVED (author); the guard scene PROPOSED |
+| B4 | **Necessity comes before ideology.**<br>• The royalty needs assays (1848), and the currency needs trust (1850, the Miners' Bank).<br>• Courts need expert witnesses for claim disputes, and the mills lose gold (1853).<br>• The navy depends on foreign engines and armor plate, and Britain will not be a patron (§4).<br>Foreign experts are expensive and leave, so training at home is cheaper, and a career is a reason to stay. The Defense Law already copies Prussia, and Prussia after 1806 is the lesson: a beaten middle-sized state that rebuilt its strength through schools and technical institutes. | APPROVED (author) |
+| B5 | **It needs no fight in the assembly.** The school grows out of the Superintendency's budget and a share of the royalty (CR-034 A17). Elias's "strength comes from controlling an increasingly indispensable treasury" (§5). No vote raises a school tax and no law closes a church school. | APPROVED (author) |
+| B6 | **The churches get a bargain, not a culture war.**<br>• Primary schooling stays confessional, Catholic and Protestant, and the state never fights over the village school.<br>• It competes only at the top. A church college that teaches the examined fields gets grants, scholarships and the engineer-corps privilege (CR-034 A20). One that teaches only theology and letters is free to do so, at its own expense.<br>The Church keeps its school but loses its monopoly on the ambitious. | APPROVED (author) |
+| B7 | **Who resists:** the Franciscans and later the bishop, the Methodist and Congregationalist revivalists, the common-law bar and the merchant vigilantes. **Quiet allies:** Hartnell, Vallejo, Sherman (a West Point engineer, in Pacifica from 1857, §8) and the miners who want honest assays. | APPROVED (author) |
+| B8 | **Sequence:** 1848, assay office; 1850, coin scandal; 1852, a school on the Ordinances' model; 1854, citizenship with a chair; 1855–58, the churches come to terms; 1858, the League forms around the state's examinations. | APPROVED (author) |
+
+## Part 2. The League
+
+| ID | Decision | Label |
+|---|---|---|
+| C1 | **Purpose in Elias's time:** to maximize Pacifica's power. In Jouvenel's terms the central power grows by drawing able individuals out of intermediate authorities (churches, local notables, closed professions) into its own service. | APPROVED (author) |
+| C2 | **Fields:** each college concentrates where it can beat the eastern colleges: mining, chemistry and engineering; laboratory medicine and public health; statistics, public finance and administration; Pacific languages and commerce; irrigation, agriculture and settlement.<br>Idealist and scholastic philosophy, common-law litigation and belles-lettres are not funded. Administrative law, statistics and modern languages count as fields of power. | APPROVED (author); the line between funded and unfunded PROPOSED |
+| C3 | **Minimum core in every college:** mathematics, composition, two of English, Spanish and German, and the history and constitution of the Republic. | APPROVED direction (author: "a certain minimum"); content PROPOSED |
+| C4 | **Women** are admitted to every League college and to the Polytechnic on the same examination. They enter the civil services and licensed professions by examination. The engineer corps, under the Defense Law, stays male. Admitting women is a condition of the grant, which the Catholic colleges resist. | APPROVED (author); corps limit and conflict PROPOSED |
+| C5 | **Liberal arts later:** chairs in philosophy, law and letters grow once Pacifica's position is dominant (Julian's era). | APPROVED (author) |
+| C6 | **Steering:**<br>• Royalty-fund grants are paid per graduate who passes a state examination in a designated field.<br>• The engineer-corps privilege, state scholarships, appointments in the Superintendency, mint, army, navy and chartered industries, and licences for physicians, assayers and engineers all follow the same examinations.<br>• Results are published. | APPROVED direction (author); mechanics PROPOSED |
+| C7 | **Members, founding and niche**, in the table below. | PROPOSED (historical colleges; niches assigned) |
+| C8 | **The Jouvenelian irony:** from 1887 the Polytechnic estate runs the examinations (§24), so the League's rivals are examined by their rival. The instrument that broke the churches' hold becomes a new intermediate power, and Julian inherits a capacity he must bargain for. | PROPOSED |
+
+| College | Founded (our timeline) | Constituency | Power niche |
+|---|---|---|---|
+| Carquinez Polytechnic | 1848 / 1852 (CR-034) | the state | Mining, metallurgy, chemistry; mechanical, civil and naval engineering |
+| University of the Pacific | 1851 (Methodist); medical department in San Francisco, 1858 | Methodists, the Merritts' mission (§6) | Laboratory medicine and public health; nursing with Mills |
+| College of California, Oakland | 1855 | Congregationalists, the Yankee elite | Statistics, political economy and administration; physics and astronomy, later Lick's observatory |
+| Santa Clara | 1851 (Jesuit) | Californio Catholics | Spanish-language engineering and surveying, astronomy and seismology. It trains Pacifica's men for Mexico, Sonora and Manila (1876) |
+| Oahu College (Punahou) | chartered 1853 | the Hawaiian elite, the kingdom | Navigation and oceanography, sugar chemistry and tropical agriculture, Asian languages and commerce |
+| Mills | 1852 seminary at Benicia; college 1865 | Women | Teachers for the examination state's schools; chemistry, assaying, mathematics; nursing |
+| University of Deseret | 1850; suspended 1853; revived after Deseret accedes (1862) | the Mormons | Irrigation, hydraulic engineering and organized settlement |
+| Lick School of Mechanic Arts | 1870s (Lick trust 1874; $540,000) | Lick's trust | Machinists, draughtsmen and foremen |
+
+## Part 3. Proposed storyline text
+
+Each insertion is a new paragraph, shown with the existing passage it follows, quoted exactly. Where CR-034 or CR-033 inserts after the same passage, CR-035's paragraph follows theirs.
+
+### §2, after the paragraph ending "…Their shared vulnerability produces the friendship that will survive both military glory and imperial power." (B3)
+
+> **[PROPOSED — CR-035]** On the march south a guard who had studied at the Mining School in Mexico City talks with Elias about its aged professor of mineralogy, del Río, who found a new metal and was not believed. The school was founded on the miners' own fund under the Ordinances of 1783, and it admits its pupils by examination. Elias will remember a state that paid for knowledge out of the ore.
+
+### §5, after the paragraph ending "…Whether he will retain the ability to pay becomes a question not only of wealth but of sovereignty." (B1, B2, B5, B6)
+
+> **[PROPOSED — CR-035]** The convention of 1852 also gives the Republic its school, without a schools law. The Ordinances of 1783, still in force beside the Mining Law of 1849, charge the miners' fund first with the support of the mining tribunal and its college. Elias reads the article to the delegates and proposes the same arrangement for gold: a share of the royalty for a school of mines, paid after the bondholders' coupon, over their agent's protest. Vallejo and Alvarado, Hartnell's pupils and the men who took the missions from the friars, sponsor it. The Church keeps its parish schools and its colleges; the state pays only for what it examines.
+
+### §8, after the paragraph ending "…**[OPEN]** Facilities, budgets, suppliers, armament, dimensions and construction schedule.", following CR-034's paragraphs there (B6–B8, C1–C7)
+
+> **[PROPOSED — CR-035]** From 1855 the Republic pays a grant for every graduate who passes its examinations in the fields it needs. The mint, the Superintendency and the licensed professions take only examined men and women, and the engineer corps only examined men. The Jesuits of Santa Clara are the first to bargain. They want the grant and the corps privilege for their Californio boys; the Republic wants surveyors and engineers who can work in Spanish. The price is the Polytechnic's examiners in their halls, and the grant also requires them to admit the women who pass. The bishop calls it simony from the pulpit, and the rector signs. The Methodists' college opens a laboratory medical school in San Francisco in 1858, and the Oakland college trains the Superintendency's statisticians. The Hawaiian kingdom pays Oahu College on the same terms for navigators and Pacific linguists for the common navy. Each college keeps its chapel and its Latin; none is paid for them. By 1860 the newspapers call them the League.
+
+### §24, after the paragraph ending "…San Francisco calls them the Five, Honolulu nā Kahuna, the priests and masters of their crafts." (C8)
+
+> **[PROPOSED — CR-035]** In 1888 Soberanes's examiners fail half of Santa Clara's engineers and a third of Oakland's. The rectors come to Carquinez to bargain over the pass lists, and they find that the Polytechnic, which taught the Republic to examine the churches' colleges, is now a power of its own and their rival.
+
+## Fact changes
+
+none
+
+## Part 4. Verification (28 October 2026)
+
+1. **Funding of the Mexican mining school (B1): confirmed.**
+   - The 1783 Ordinances, Title XVI, set a contribution of eight granos per mark of silver to the mining body's fund. The fund was formed from the seigniorage relief of 1776, and its first destination (article 3) was "el sostenimiento del Tribunal y el Colegio de Minería" ([UNAM, *Revista de Historia del Derecho*](https://revistas.juridicas.unam.mx/index.php/historia-derecho/article/download/10151/12178)).
+   - The Royal Seminary of Mining opened on 7 January 1792 ([Redalyc](https://www.redalyc.org/pdf/2991/299147630006.pdf); [Wikipedia, Andrés Manuel del Río](https://en.wikipedia.org/wiki/Andr%C3%A9s_Manuel_del_R%C3%ADo)). Del Río taught there until his death on 23 March 1849.
+   - **Correction:** the levy was eight granos per mark paid into the miners' corporate fund (the *fondo dotal*), not a share of the royal seigniorage itself. The Britannica entry also stresses the fund's lending to mine owners. CR-035 and CR-034 A17 copy the principle (the mining economy pays for its school), not the rate.
+2. **Hartnell's school of 1834 (B2): confirmed, with corrections.**
+   - Hartnell announced the Seminario del Patrocinio de San José (Colegio de San José) on 10 December 1833, so it is 1833, not 1834.
+   - Classes were held at his house and then on Rancho El Alisal. The priest Patrick Short taught there, and Governor Figueroa backed it financially.
+   - It closed in 1836 after Figueroa's death. A census of 1836 counted 13 pupils aged 8 to 16 ([Wikipedia, W. E. P. Hartnell](https://en.wikipedia.org/wiki/William_Edward_Petty_Hartnell)).
+   - Alvarado and Vallejo were Hartnell's pupils, but the sources tie them to his tutoring, not to this school, so the prose says "Hartnell's pupils".
+   - The detail fits B6: Hartnell's school was itself state-backed and priest-taught, an early case of the bargain.
+3. **Also checked for this CR:**
+   - **Alvarado** favoured secularizing the missions ([Juan Bautista Alvarado, early years](https://www.liquisearch.com/juan_bautista_alvarado/early_years)).
+   - **The Santa Fe prisoners** were held at Perote, not in Mexico City, so the guard scene is set "on the march south" ([Wikipedia](https://en.wikipedia.org/wiki/Texan_Santa_Fe_Expedition)).
+   - **The University of the Pacific's medical department** was founded by Elias Samuel Cooper in San Francisco in 1858, with classes from May 1859 ([Wikipedia](https://en.wikipedia.org/wiki/Elias_Samuel_Cooper)).
+   - **The other colleges' founding dates** are in `outputs/research/20261027-polytechnic-scale/research_us.md`.
+
+## Impact notes
+
+- **Storyline:** four new paragraphs, in §2, §5, §8 and §24, each with a hidden CR-035 coverage comment. No existing sentence changes.
+- **Dependencies:** CR-034 supplies the assay office, the royalty share (A17), the engineer-corps privilege (A20), citizenship with a chair (A21) and the 1858 results. Adopt CR-034 first, or both together.
+- **Existing canon kept:**
+  - Hartnell as signatory and London envoy (§4);
+  - the 1783 Ordinances continued in force (§5);
+  - Sherman from 1857 (§8);
+  - the Polytechnic's examinations from 1887 (§24);
+  - "academy-trained officials" (§19), which is the Monterey military academy, distinct from the League.
+- **Character documents:** Hartnell's entry, if he has one, gains his 1833–36 school and his part in the 1852 bargain. Del Río is offstage.
+- **Commitments ledger:** none. The grants are law, not commitments between parties.
+- **Workbook:** none now. Grants per examined graduate fit inside the technical programmes. The skilled-entry change (CR-034 A24) is deferred.
+- **Review:** linter clean. One fresh-context review was run, and its findings were applied:
+  - women kept out of the engineer corps, with their admission to the colleges shown as a condition the Jesuits fight;
+  - the bondholders' claim on the royalty acknowledged;
+  - the 1852 scene set among the convention's delegates;
+  - the Ordinances' wording kept within canon;
+  - tense in §2;
+  - the Hawaiian kingdom paying Oahu College for the common navy;
+  - the §8 list rewritten as one negotiation and moved after CR-034's paragraphs;
+  - §24 given actors.
+
+## Open choices for the author
+
+- Which of the seven colleges join, and when.
+- Whether the bishop of the 1850s is named. Historically Joseph Sadoc Alemany came to California in 1850.
+- How far women's admission reaches in the 1850s: equal from the first examination, or from the colleges' charters onward.
