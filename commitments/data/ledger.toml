@@ -1673,7 +1673,7 @@ more_quotes = [
   "The ordinances breach the Enabling Law's protected provisions and Article XIV's bar on annexation.",
   "Hawaii's Supreme Court declares the ordinances void. No one can enforce the judgment against confederal marines",
   "Hawaii's assent comes from the appointed Territorial Council created by the illegal ordinances of 1874–1876.",
-  "It dissolves the Territorial Council and restores Hawaii's legislature.",
+  "The Act dissolves the Territorial Council and restores Hawaii's legislature.",
 ]
 ended_by = "the Act of Settlement dissolves the Territorial Council and restores Hawaii's legislature"
 ended = 1914
@@ -2517,12 +2517,12 @@ owes = [
 status = "APPROVED"
 cr = "CR-022"
 section = 26
-quote = "A more confident Japan bargains hard in the 1907 compact renewal, securing Kiyoshi as Japanese Fleet-General, a joint war council, family immigration and civic equality for Japanese Pacificans."
-more_quotes = ["Both states ratify renewals every ten years, in 1897, 1907 and 1917."]
-open = "A renewal of the 1887 compact (earlier part), recorded separately for its new terms; whether the Fleet-General post is for life or to the next renewal (1917) is not stated."
+quote = "A more confident Japan bargains hard in the 1907 compact renewal, securing a joint war council, family immigration and civic equality for Japanese Pacificans."
+more_quotes = ["Both states ratify renewals every ten years, in 1897, 1907 and 1917.", "Chiyo and her branch give their own assent, and the compact renewed later that year makes Kiyoshi Japanese Fleet-General: the price of the crown he gave up is the command of the common fleet."]
+open = "A renewal of the 1887 compact (earlier part), recorded separately for its new terms; the Fleet-General office comes after Kiyoshi's renunciation of March 1907 (CR-040); whether the Fleet-General post is for life or to the next renewal (1917) is not stated."
 
 # ---------------------------------------------------------------------------
-# §27 — the Settlement of 1914
+# §26 (formerly §27) — the Act of Settlement of 1907 (CR-040)
 # ---------------------------------------------------------------------------
 
 [[commitment]]
@@ -2572,7 +2572,8 @@ section = 26
 quote = "The 1907 Act of Settlement establishes the Crown of Pacifica in the House of Thorne-Kamehameha and joins to it the Hawaiian crown Victoria has worn since 1872."
 more_quotes = [
   "The restored legislature and the ʻAha Aliʻi put the union to a plebiscite of Hawaiian subjects, and the loyalists campaign against it.",
-  "It dissolves the Territorial Council and restores Hawaii's legislature. The ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown, to reign as Kamehameha VI; Senate and Chamber confer the Realm's sovereignty by two-thirds.",
+  "The Act dissolves the Territorial Council and restores Hawaii's legislature.",
+  "The ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown, to reign as Kamehameha VI; Senate and Chamber confer the Realm's sovereignty by two-thirds.",
   "Hawaiian is restored as the Crown's language and in its schools. The ʻAha Aliʻi keeps custody of Hawaiian crown and kuleana lands; Thalassia's ground is confirmed as land of the Hawaiian throne. The Polytechnic retains its charter.",
   "Succession passes to the eldest son, then eldest daughter, otherwise to an heir adopted with Senate consent.",
   "until 1914 restores Hawaiian-medium education and the Crown's Hawaiian oath and proclamation.",
@@ -2638,7 +2639,8 @@ renewals = [1917, 1927]
 status = "APPROVED"
 cr = "CR-029; CR-040"
 section = 26
-quote = "Ka Lōkahi, the council of the crowns, gives the Realm, Hawaii and the Philippines one vote each over the succession, the agreed matters renewed every ten years, first in 1917, and disputes between them."
+quote = "Ka Lōkahi, the council of the crowns, gives the Realm, Hawaii and the Philippines one vote each over the succession, the agreed matters renewed every ten years and disputes between them."
+label_note = "The first review in 1917 is stated in the next sentence, labelled CR-040."
 more_quotes = ["The council of the crowns holds its second ten-year review that year, and its three delegations agree that Japan joins: Ka Lōkahi has grown, and the Concord takes its Hawaiian name."]
 open = "Formed with the 1907 union (CR-040); voting threshold not stated."
 
