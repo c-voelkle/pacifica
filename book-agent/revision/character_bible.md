@@ -64,6 +64,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **APPROVED — CR-034, CR-035, CR-036:** From 1859 she turns Elias's subsidy for women's passage into a programme: reception houses at San Francisco and Honolulu, recruiting through missions and consulates, placement as teachers, nurses, seamstresses and clerks, and pressure for women to sit the state examinations. In February 1866 the physicians of the Methodists' medical college at San Francisco save her life; that summer she studies its case tables, and her counting of who lives and who dies begins there. As Regent her decisive test of diaspora loyalties is the 1891 famine relief to Russia, sent on Pacifica's terms in the year Moscow expels its Jews: she keeps Pacifica from becoming either a state that cannot act without one community's approval or one that loses the diaspora's best by discrimination. Her method recognizes individuals, never communities as political bodies.
 
+**APPROVED — CR-037:** In 1890 the families on the savings and development bank's board appeal to her against the first great audit; she will not touch it and refuses the newspapers' demand for quotas. The measure is the examination, not the mix.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -162,6 +164,8 @@ He organizes the Polytechnic and communications during the managed succession. W
 **APPROVED — CR-027:** In 1887 he holds the Five’s Polytechnic and General Staff seat; the Crown–estates arrangement protects his charter and appointments. Marcus Vance III follows after 1915.
 
 **APPROVED — CR-034:** Born in Monterey in 1847, he enters the Polytechnic at Carquinez in 1861, at fourteen, after passing its entrance examination; the school takes clever children whatever their family. **PROPOSED — CR-035:** In 1888 his examiners fail half of Santa Clara's engineers and a third of Oakland's, and the League's rectors learn that the Polytechnic is now their rival.
+
+**APPROVED — CR-037:** From the late 1870s he guards the examinations against patrons: numbered, recopied scripts, no examiner judging candidates from their own state or college, first postings away from home and outsiders on every appointing board.
 
 ### CT-MARCUS-III — Marcus Vance III, proposed logistics commander
 **Status:** Revised characterization required by CR-018 A20; section N is wholly PROPOSED under OPEN-018-18. **Working birth:** c.1880, replacing the incompatible c.1891 estimate.

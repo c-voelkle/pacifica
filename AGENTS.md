@@ -70,6 +70,8 @@ On 27 October 2026 the author asked for the population change list and the CR-03
 
 On 28 October 2026 the author adopted CR-033 to CR-036 together (settlement and Native land; the Polytechnic's first decade; the Pacifica League; science). Their decision records sit beside the other CRs; local APPROVED, PROPOSED, OPEN and MODEL labels in the storyline follow each decision table. Talent comes from every faith and background, and the story must not become about any one diaspora's identity; Victoria's 1891 famine relief is her single decisive test of that balance, and Julian's test remains OPEN. Population figures are MODEL results of the current workbook.
 
+CR-037 (adopted 28 October 2026) keeps institutions open to every group: the test is the examination, never a quota; counties may be culturally concentrated but not captured by a family, marriage network or congregation. The Carquinez men and selective enforcement under Julian remain open. CR-038 (the machinery: retirement at 68, Vallejo College, inspectors, scholarships, county halls, the trades congress) is a draft.
+
 CR-027 retains CT-KAIULANI as Victoria’s active stable ID and retires CT-VICTORIA-KAMAMALU as duplicate provenance. CT-KAIULANI-CLEGHORN is the separate princess born 1875. Preserve proposed Five personnel, instruments and mythic echoes. Historical CR attachments are not rewritten; earlier Kaiulani means Victoria. The missing CR-022/024/025/026 and CR-028–CR-031 originals are represented by clearly marked excerpt reading records; dependency_decisions_211026.md remains earlier provenance. Section E’s financial handoff is finance/CR-027-handoff.md; do not infer a rent amount or recalculate the workbook without a separate financial task.
 
 

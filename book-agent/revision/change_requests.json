@@ -1,6 +1,6 @@
 {
   "project": "Pacifica",
-  "version": "authorial-change-register-v15",
+  "version": "authorial-change-register-v16",
   "approved_on": "2026-10-28",
   "base_manuscript": "book-agent/manuscript_chaptered.md",
   "authority": "CR-031-R1 is the direct author correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid Company employment. It supersedes only the prior labour-gang premise, attributed complicity and unsupported Kolyma cost comparison. The 23 October master through CR-031 otherwise governs with its local PROPOSED/OPEN/MODEL labels; source snapshots remain historical evidence.",
@@ -2466,6 +2466,26 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-037",
+      "title": "No cliques: keeping the examination state's institutions open",
+      "status": "approved_integrated",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-037.md",
+      "authorization": "Author, 28 October 2026: \"I approve the county rule and the proposed changes from CR-037. You can go ahead and merge them into main.\"",
+      "requirements": [
+        "Pacifica stops any ethnic or religious group from capturing an institution by favouring its own; the rules apply to every group alike. The test is the examination, never a quota.",
+        "From the late 1870s Soberanes's examinations use numbered, recopied scripts; examiners never judge candidates from their own state or college; first postings are away from home; appointment boards include outsiders.",
+        "From 1888 the Office publishes appointments against the examination lists for every chartered body, college and licensed profession; persistent gaps bring audits; officials declare relatives and former students. The first great audit (1890) falls on an established mixed clique on the savings and development bank's board, and Victoria refuses both to stop it and to set quotas.",
+        "Counties may be culturally concentrated and are measured against their own pass lists. A passed-over rate below two-thirds of the best-placed group over five years, or one family, marriage network or congregation holding more than a third of senior posts, counts against the order standard; treasurer, auditor, examiner and chief of police are posted from outside by the Office, in rotation.",
+        "The Japanese naval party's reserved squadron stays, with its critics, until the 1932 renewal."
+      ],
+      "open": [
+        "The Carquinez men (the clique of the examined) and selective enforcement under Julian, for later CRs."
+      ],
+      "facts": []
     }
   ],
   "explicit_cautions": [
@@ -2750,6 +2770,10 @@
     {
       "range": "1891",
       "event": "CR-036: famine relief to Russia in the year of the Moscow expulsion is Victoria's decisive test of diaspora loyalties."
+    },
+    {
+      "range": "1877–1897",
+      "event": "CR-037: anonymous scripts and avoidance from the late 1870s; appointment tables from 1888; first great audit 1890; county rule against cliques."
     }
   ],
   "affected_sources": [
