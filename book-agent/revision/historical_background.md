@@ -227,7 +227,7 @@ The attached records distinguish Hist. from proposed alternate outcomes. Their n
 |---|---|
 | Western settlement | 1865 executive peace framework, 1867 Senate ratification. CR-019’s two references to ratification in 1865 are corrected in the master. |
 | Russia’s outlet | No Russian-owned completed Pacific through route; Japan’s eastern link and terminal connect via Chinese-owned Manchuria. Claims of no Russian Pacific port refer to the lost southern theater, since northern coast remains Russian until 1921. |
-| 1905 treaty | Direct negotiation after Japan’s victory; signing location OPEN-018-20. Proposed renunciation wording must respect northern retention until 1921. |
+| 1905 treaty | Direct negotiation after Japan’s victory; signed at Urajio, the former Vladivostok (CR-039, resolving OPEN-018-20). Proposed renunciation wording must respect northern retention until 1921. |
 | 1919 fleets | Combined allied tonnage is limited before the formal common ministries and union of 1927. The treaty does not prematurely create those ministries. |
 | Victoria’s age | Born 1 November 1838: seventy-six at the beginning of 1915, seventy-seven from 1 November; eighty-two/three in 1921 and ninety-three/four in 1932. CR-027 supplies the birthday; her survival beyond historical 1866 and through the ending is alternate history. |
 | Names and identities | Lost son Kalanimoku, later heir Kalanimoku and the retired 1914 Emperor role are separate records. Kiyoshi and Fleet-General Kuroda are the same active person; stable alias provenance remains. |
@@ -396,4 +396,12 @@ The four change requests were adopted together on 28 October 2026. Their decisio
 - **Hawaii's contract labour.** The 1850 Masters and Servants Act allowed penal labour contracts; the first Chinese contract labourers arrived in 1852 ([Voyage of the Thetis](https://evols.library.manoa.hawaii.edu/handle/10524/330); [Chinese immigration to Hawaii 1852–1898](https://scholarspace.manoa.hawaii.edu/items/cd5bebb8-f524-4896-9042-0a2ce40a0c45/full)). Historically penal contracts lasted until annexation; in Pacifica Hawaii abolishes them in 1856.
 - **The "gender-equality paradox".** In societies with more equality and freer choice, men's and women's choices of study and career tend to diverge rather than converge, as in Norway. Vallejo College's two informal sides follow that pattern; they are not a rule.
 - **Fictional:** Vallejo College, its two sides, the county halls, the 1895 trades congress and the Guest Workers' Aid.
+
+## CR-039 — loose ends in the commitments (28 October 2026)
+
+- **Japanese place names.** From the transfer onward, canon uses the names Japan itself used. Urajio (浦塩, short for 浦塩斯徳 Urajiosutoku) was the established Japanese name for Vladivostok before 1945. Karafuto (樺太) was Japan's name for Sakhalin and for its southern territory from 1905 to 1945. Enkaishū (沿海州, "coastal province") was the Japanese name for the Russian Primorye; this timeline gives it to the province Japan takes in 1899. The Razdolnaya is named only at the transfer. Further names for places that join Japan follow the same rule when they enter the story.
+- **Treaties ended by war.** In nineteenth-century practice war between the parties ended most political and commercial treaties between them, and the peace treaty said which ones revived. The 1865 peace's ending of the 1848 and 1860 conventions follows that practice; the storehouse sealed in 1861 is consistent with it.
+- **Querétaro's pledge.** Mexico's interest in 1847 was to keep California from the United States; the narrowed pledge (never to join the United States or cede territory to a foreign power) is the fictional convention's, not a historical text.
+- **Nanking and Nanjing.** The Treaty of Nanking (1842) fixed China's tariff by treaty, and the foreign-run Inspectorate followed from 1854. Historically the Nationalist government recovered tariff autonomy in 1928–1930. The fictional Treaty of Nanjing of 1928 gives that recovery to a treaty of guarantee with the Concord.
+- **The Gulf and the canal.** Canon's ranges for the Gulf Republic (1899–1900) and the canal's opening (around 1900–1902) meet only in 1900. Historically Colombia's Thousand Days' War ran from 1899 to 1902.
 

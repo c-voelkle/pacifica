@@ -27,7 +27,8 @@ independence: separate-agents
 | D5 | decision | "the state", not "the Crown", for the 1876 tobacco company (finding 10) | author 2026-10-28 | done, with §19 knock-on |
 | D6 | decision | Silas's death (winter 1912) into canon_facts (finding 11) | author 2026-10-28 | done |
 | D7 | decision | Waite, Association treaties, Truce signing approved (finding 12) | author 2026-10-28 | done |
-| Q1 | open choice | P1 Puʻuloa 1924; P2 China's defense treaty; P3 Ka Lōkahi used twice; P4 Buchanan–Vallejo/Carson; P5 Querétaro; P6 1905 signing place; Cuban guarantee | CR-039 | open |
+| D8 | decision | Nanjing, Buchanan–Vallejo/Carson, Querétaro, Urajio signing; Japanese place names after a transfer | author 2026-10-28 (second round) | done |
+| Q1 | open choice | P1 Puʻuloa 1924 (more Julian-specific); P3 Ka Lōkahi (seven-year matters, 1913 coronation vs 1914 Act); Cuban guarantee; regency-era "Crown" | CR-039 | open |
 
 ## Handoffs
 
@@ -45,4 +46,4 @@ independence: separate-agents
 
 ## Resume here
 
-Author to answer CR-039 P1–P6 (Puʻuloa 1924, China's defense treaty, the double use of Ka Lōkahi, Buchanan–Vallejo/Carson, Querétaro, the 1905 signing place) and the Cuban guarantee. The branch `adopt/cr039` holds the integrated decisions.
+Author to choose among the Julian-specific Puʻuloa options and to settle Ka Lōkahi: whose coronation in 1913 (the Act, Kiyoshi's bid and the accession are 1914–1915), whether the seven-year cycle may instead run 1914–1921–1928, and how seven-year agreed matters sit with the Concord's five-year renewals. Also open: the Cuban guarantee and "the Crown" during the regency. Branch `adopt/cr039`.

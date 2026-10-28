@@ -370,7 +370,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - OPEN-018-18: Marcus Vance III's story, revised by author decision (A20). Recommendation remains proposed: Section N: the Soberanes-raised foster brother of Julian, a cautious logistics officer thrust into command, whose gas attack in the Altai kills the partner's own prisoners; he tells Kaiulani the truth Julian buried, executes Julian's threat in 1931 and is killed in May 1932 by guards avenging the Altai, having left the true report with the Chronicler.
-- OPEN-018-20: Where Russia and Japan sign the peace of 1905. Recommendation remains proposed: Vladivostok, the Pacific city Russia lost in 1899: Witte comes to sign away the Pacific in it.
+- OPEN-018-20: resolved by CR-039 (28 October 2026): the peace of 1905 is signed at Urajio, the former Vladivostok.
 - All remaining PROPOSED mechanics and quantitative feasibility retain their source status.
 
 ### CR-019 — CR-019 — Europe and the Union, 1914–1932: the brokered peace and the creditor's order
@@ -715,14 +715,15 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Silas dies at Sacramento in the winter of 1912 (canon_facts.toml).
 - Governor Waite's acquiescence in the Bread March and the prisoners' return under Whitney's 1897 treaty are approved; sentences and detention settlement stay open.
 - Labels: the Association treaties of 1871–1872 and the Truce's signing in spring 1887 are approved; Korea's post-1905 status sits outside the OPEN marker on the 1905 signing place.
+- Treaty of Nanjing (1928) between Nationalist China and the Concord: the Concord guarantees China's frontiers, Manchuria included; China guarantees railway transit and joint management; China recovers the Inspectorate and customs in 1928–1929. The 1931 plot would have made war on a state the Concord guaranteed.
+- Buchanan–Vallejo (1848): the commercial and naval articles run twelve years. The 1865 peace declares the 1848 and 1860 conventions ended by the war; the Western line replaces the Basin renunciation and the Washoe recognition; American owners in Nevada keep Carson's property guarantees.
+- Querétaro (1847): California pledges never to join the United States or cede any of its territory to a foreign power.
+- The 1905 peace is signed at Urajio, the former Vladivostok (resolves OPEN-018-20).
+- Places that join Japan take their Japanese names in canon from the transfer onward: Urajio (Vladivostok), Enkaishū (the Ussuri region), Karafuto (Sakhalin) after 1899.
 
 **Still open:**
-- P1: the Puʻuloa lease's expiry in 1924 (proposed: a new convention between the Hawaiian crown and the Realm).
-- P2: China's 'defense treaty' of 1928–1929 (proposed: a Treaty of Nanjing with the Concord).
-- P3: Ka Lōkahi names both the 1914 council of the crowns and the Concord in Hawaiian; one needs another name before its renewal base year is set.
-- P4: the Buchanan–Vallejo and Carson conventions' terms and end.
-- P5: Querétaro's non-cession pledge and the 1856 Confederation.
-- P6: the place of signing of the 1905 peace (OPEN-018-20; proposed: Vladivostok).
+- P1: the Puʻuloa lease's expiry in 1924; the author wants a decision that reflects Julian's personality and values.
+- P3: Ka Lōkahi. Author's direction: one name, the council of the crowns grows into the Concord; agreed matters every seven years; a coronation in 1913. Conflicts with the 1914 Act, the 1915 accession and the Concord's five-year reviews to be settled.
 - The Gulf Republic's accession to the Cuban guarantee, now that it is founded in 1900.
 - The Bread March sentences and any detention settlement.
 

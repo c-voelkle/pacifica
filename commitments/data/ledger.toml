@@ -366,11 +366,11 @@ cr = "CR-028"
 section = 4
 quote = "In the **Convention of Querétaro** of December 1847, Mexico recognizes California."
 more_quotes = [
-  "The convention also guarantees Mexican citizens' property and the Church's, and pledges never to cede itself or its territory to any power.",
+  "The convention also guarantees Mexican citizens' property and the Church's, and pledges never to join the United States or cede any of its territory to a foreign power.",
   "William Hartnell carries the convention to London for the bondholders' consent.",
   "Buchanan asks for an accession clause, and Vallejo refuses, citing Querétaro.",
 ]
-open = "Whether and when the bondholders consent is not stated. No term; the non-cession pledge is unlimited in time. How the 1856 Confederation squares with 'never to cede itself' is not addressed."
+open = "Whether and when the bondholders consent is not stated. No term; the non-cession pledge is unlimited in time. CR-039 narrows the pledge to joining the United States and ceding territory, so the 1856 Confederation does not breach it."
 
 [[commitment]]
 id = "C-1847-LONDON-DEBT"
@@ -419,6 +419,8 @@ name = "Buchanan–Vallejo Convention"
 kind = "convention"
 parties = ["PAC", "US"]
 from = 1848
+ended = 1865
+ended_by = "the 1865 peace declares it ended by the war (CR-039)"
 owes = [
   { by = "PAC", to = "US", what = "never to cede, lease or place under protection any part of its territory to a European power" },
   { by = "PAC", to = "US", what = "San Francisco, Monterey and San Diego open to American warships" },
@@ -437,6 +439,7 @@ cr = "CR-028"
 section = 4
 quote = "He sends the treaty to the Senate together with the **Buchanan–Vallejo Convention**, signed on 28 February."
 more_quotes = [
+  "The peace declares the conventions of 1848 and 1860 ended by the war.",
   "California pledges never to cede, lease or place under protection any part of its territory to a European power.",
   "It keeps California's ports closed to the enemies of the United States in its wars. It promises to return deserters from American warships.",
   "It closes the claims of 1846 by amnesty and a mixed commission, and it renounces the Basin pending a boundary commission.",
@@ -444,11 +447,11 @@ more_quotes = [
   "The Senate ratifies both on 10 March.",
   "On Elias's advice the Assembly ratifies at once.",
 ]
-open = "No term stated for the non-commercial articles. Carson (1860) lists 'the ports' among the 1848 articles that had run out, though 1848 states the twelve-year term only for the commercial articles. Effect of the 1861–1865 war on the convention not stated."
+open = "No term stated for the non-commercial articles. Carson (1860) lists 'the ports' among the 1848 articles that had run out, though 1848 states the twelve-year term only for the commercial articles. Effect of the 1861–1865 war on the convention not stated. Ended by the 1865 peace (CR-039)."
 
 [[commitment]]
 id = "C-1848-BV-COMMERCE"
-name = "Commercial articles of the Buchanan–Vallejo Convention"
+name = "Commercial and naval articles of the Buchanan–Vallejo Convention"
 kind = "convention"
 parties = ["PAC", "US"]
 from = 1848
@@ -461,7 +464,7 @@ owes = [
 status = "PROPOSED"
 cr = "CR-028"
 section = 4
-quote = "It grants most-favored-nation commerce, whalers' privileges and civil guarantees for American residents, the commercial articles for twelve years."
+quote = "It grants most-favored-nation commerce, whalers' privileges and civil guarantees for American residents, the commercial and naval articles for twelve years."
 more_quotes = [
   "The convention also renews, for a further term, the commercial articles of 1848, which had run out that year: the ports, the Sausalito storehouse, commerce and the rights of American residents.",
 ]
@@ -770,6 +773,8 @@ name = "Carson Convention"
 kind = "convention"
 parties = ["PAC", "US"]
 from = 1860
+ended = 1865
+ended_by = "the 1865 peace declares it ended by the war (CR-039)"
 owes = [
   { by = "PAC", to = "US", what = "withdrawal of troops; recognition of American sovereignty over Washoe" },
   { by = "US", to = "PAC", what = "property guarantees and transit rights" },
@@ -778,7 +783,7 @@ status = "CANON"
 section = 8
 quote = "At the **Carson Convention** in autumn 1860, Pacifica withdraws its troops and recognizes American sovereignty over Washoe in exchange for property guarantees and transit rights."
 more_quotes = ["Washoe is retaken in 1863–1864."]
-open = "Canon does not say the convention ends; Pacifica retakes Washoe in 1863–1864 and keeps Nevada in the 1865 peace, which in effect reverses the recognition."
+open = "Canon does not say the convention ends; Pacifica retakes Washoe in 1863–1864 and keeps Nevada in the 1865 peace, which in effect reverses the recognition. Ended by the 1865 peace (CR-039)."
 
 [[commitment]]
 id = "C-1860-CARSON-RENEWAL"
@@ -786,6 +791,8 @@ name = "Renewal of the 1848 commercial articles at Carson"
 kind = "convention"
 parties = ["PAC", "US"]
 from = 1860
+ended = 1865
+ended_by = "the 1865 peace declares it ended by the war (CR-039)"
 owes = [
   { by = "PAC", to = "US", what = "the ports, the Sausalito storehouse, commerce and the rights of American residents" },
 ]
@@ -793,7 +800,8 @@ status = "PROPOSED"
 cr = "CR-028"
 section = 8
 quote = "The convention also renews, for a further term, the commercial articles of 1848, which had run out that year: the ports, the Sausalito storehouse, commerce and the rights of American residents."
-open = "Length of the 'further term' not stated. The storehouse is sealed in 1861 (APPROVED); effect of the war on the other renewed articles not stated."
+more_quotes = ["The peace declares the conventions of 1848 and 1860 ended by the war."]
+open = "Length of the 'further term' not stated. The storehouse is sealed in 1861 (APPROVED); effect of the war on the other renewed articles not stated. Ended by the 1865 peace (CR-039)."
 
 [[commitment]]
 id = "C-1861-PROTECTOR"
@@ -1560,14 +1568,14 @@ open = "Dated only by the 1884–1885 window; term not stated."
 
 [[commitment]]
 id = "C-1885-CUSTOMS"
-open = "Term not stated; the credit secured on customs is undated and unquantified. 'The defense treaty' under which China recovers it appears nowhere else in the storyline."
+open = "Term not stated; the credit secured on customs is undated and unquantified. Recovered under the Treaty of Nanjing, 1928 (C-1928-NANJING)."
 more_quotes = [
   "becomes the named official through whom trade, revenue and divided loyalty acquire a personal face",
   "The small agency fee and China’s retained appointment power distinguish administration from territorial seizure.",
   "Pacifican credit secured on customs makes friendship increasingly consequential to China's independence.",
-  "In 1928–1929 China recovers the Inspectorate and customs under the defense treaty.",
+  "Under the treaty China recovers the Inspectorate and customs in 1928–1929, and with them the tariff the Treaty of Nanking took from it in 1842.",
 ]
-ended_by = "China recovers the Inspectorate and customs in 1928–1929"
+ended_by = "China recovers the Inspectorate and customs in 1928–1929 under the Treaty of Nanjing"
 ended = 1929
 name = "Chinese Customs Inspectorate under Pacifican leadership"
 kind = "office"
@@ -2480,7 +2488,7 @@ more_quotes = [
   "The working model assigns about $300 million paid in 1906–1910; that amount remains a MODEL estimate rather than an independently fixed treaty clause.",
   "Russia retains its northern coast until the later Siberian settlement.",
 ]
-open = "Place of signing is OPEN-018-20; indemnity amount is MODEL only; year of signature not stated explicitly."
+open = "Signed at Urajio, the former Vladivostok (CR-039); indemnity amount is MODEL only; year of signature not stated explicitly."
 
 [[commitment]]
 id = "C-1905-KR-JP-RIGHTS"
@@ -3429,3 +3437,25 @@ cr = "CR-019"
 section = 37
 quote = "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause."
 open = "OPEN-019-06 (Dominions treaty). Year not stated (§37 is 1932); counterparty presumably Pacifica, not named; terms not stated."
+
+[[commitment]]
+id = "C-1928-NANJING"
+name = "Treaty of Nanjing"
+kind = "treaty"
+parties = ["CN", "JP", "CROWN"]
+from = 1928
+owes = [
+  { by = "CROWN", to = "CN", what = "the Concord guarantees China's frontiers, Manchuria included" },
+  { by = "JP", to = "CN", what = "the Concord guarantees China's frontiers, Manchuria included" },
+  { by = "CN", to = "JP", what = "railway transit and its joint management" },
+]
+conditions = ["China recovers the Inspectorate and customs in 1928–1929"]
+status = "APPROVED"
+cr = "CR-039"
+section = 33
+quote = "In 1928, after Jinan, the Nationalist government signs the Treaty of Nanjing with the Concord."
+more_quotes = [
+  "The Concord guarantees China's frontiers, Manchuria included, and China guarantees the railway transit and its joint management.",
+  "It would have made war on a state the Concord guaranteed at Nanjing, and Japan's home army enters common command only for a war the Concord declares.",
+]
+open = "Term not stated. The Concord's two crowns are recorded as CROWN and JP."
