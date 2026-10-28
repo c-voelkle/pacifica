@@ -44,4 +44,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-033 to CR-037 are adopted (CR-037 on 28 October, with the county rule). CR-038 (retirement at 68, Vallejo College, inspectors, scholarships, county halls, results-based pride, trades congress, guest-worker background) is a draft awaiting the author: confirm the reading of the county-hall sentence, the names, and the list of posted grants. A Crown-affiliated party is on hold. Ledger findings 1–12 still await the author.
+CR-033 to CR-038 are adopted. A Crown-affiliated party is on hold. Open threads: the Carquinez men and selective enforcement under Julian (CR-037). Ledger findings 1–12 still await the author.

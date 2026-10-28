@@ -66,6 +66,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **APPROVED — CR-037:** In 1890 the families on the savings and development bank's board appeal to her against the first great audit; she will not touch it and refuses the newspapers' demand for quotas. The measure is the examination, not the mix.
 
+**APPROVED — CR-038:** As Regent she sends the Office's inspectors into the counties unannounced, checks their returns against figures that are hard to fake, and teaches Pacificans to take pride in what the tables show. She charters the trades congress in 1895 so that Pacifica's own workers never need a march.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -166,6 +168,8 @@ He organizes the Polytechnic and communications during the managed succession. W
 **APPROVED — CR-034:** Born in Monterey in 1847, he enters the Polytechnic at Carquinez in 1861, at fourteen, after passing its entrance examination; the school takes clever children whatever their family. **PROPOSED — CR-035:** In 1888 his examiners fail half of Santa Clara's engineers and a third of Oakland's, and the League's rectors learn that the Polytechnic is now their rival.
 
 **APPROVED — CR-037:** From the late 1870s he guards the examinations against patrons: numbered, recopied scripts, no examiner judging candidates from their own state or college, first postings away from home and outsiders on every appointing board.
+
+**APPROVED — CR-038:** With Victoria he makes the machinery guard itself: retirement at sixty-eight for every senator, judge, Commissioner, estate head and senior officer except the Truce's named holders, and Vallejo College at Monterey from 1889. As a Truce holder he keeps his office for life but retires in 1915, the year he turns sixty-eight, by his own choice.
 
 ### CT-MARCUS-III — Marcus Vance III, proposed logistics commander
 **Status:** Revised characterization required by CR-018 A20; section N is wholly PROPOSED under OPEN-018-18. **Working birth:** c.1880, replacing the incompatible c.1891 estimate.

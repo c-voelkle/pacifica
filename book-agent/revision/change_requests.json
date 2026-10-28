@@ -1,6 +1,6 @@
 {
   "project": "Pacifica",
-  "version": "authorial-change-register-v16",
+  "version": "authorial-change-register-v17",
   "approved_on": "2026-10-28",
   "base_manuscript": "book-agent/manuscript_chaptered.md",
   "authority": "CR-031-R1 is the direct author correction on reciprocal Japanese–Pacifican innovation, nineteenth-century construction productivity and paid Company employment. It supersedes only the prior labour-gang premise, attributed complicity and unsupported Kolyma cost comparison. The 23 October master through CR-031 otherwise governs with its local PROPOSED/OPEN/MODEL labels; source snapshots remain historical evidence.",
@@ -2486,6 +2486,28 @@
         "The Carquinez men (the clique of the examined) and selective enforcement under Julian, for later CRs."
       ],
       "facts": []
+    },
+    {
+      "id": "CR-038",
+      "title": "The machinery's own safeguards",
+      "status": "approved_integrated",
+      "approved_on": "2026-10-28",
+      "integrated_on": "2026-10-28",
+      "decision_record": "CR-038.md",
+      "authorization": "Author decisions of 28 October 2026, ending: \"For CR-038, yes they should get freedom above the central minimum. Please forgive my typo. I approve of the names and the lists of the grants.\"",
+      "requirements": [
+        "Retirement at 68 for every senator, judge, county Commissioner, estate head and senior officer; the Constitution sets it for appointed senators and the regency extends it. Only the Crown, the Regent and the Truce's named holders are exempt.",
+        "Vallejo College at Monterey from 1889: one academic year for rising officers of every estate, the navy, the champions and the counties, with no restriction by sex; free choice produces two informal sides, the Presidio (engineering, technology, management; the Carquinez men) and the Kaʻahumanu House (health, welfare, education).",
+        "The Office's unannounced inspectors check county returns against figures hard to fake.",
+        "From 1888, Realm scholarships (five years' work anywhere in Pacifica, League teaching included) and posted grants (five years in the named post only); senior pay set by the Senate against the champions' managers' pay and published.",
+        "County halls under a Realm enabling law, held by an Office inspector and trustees to a central minimum, free above it, fostering cohesion and results-based pride in Pacifica.",
+        "Hawaii abolishes penal labour contracts on joining the Confederation in 1856; works crews hire on fixed terms from the 1860s; the general guest-worker programme stays in 1890.",
+        "A trades congress chartered by law in 1895 keeps funds, the tradesmen's register and a reference wage table; it never hires, trains or pays; independent unions stay legal; guest workers reach it only through its Guest Workers' Aid."
+      ],
+      "open": [
+        "A Crown-affiliated party (on hold)."
+      ],
+      "facts": []
     }
   ],
   "explicit_cautions": [
@@ -2774,6 +2796,10 @@
     {
       "range": "1877–1897",
       "event": "CR-037: anonymous scripts and avoidance from the late 1870s; appointment tables from 1888; first great audit 1890; county rule against cliques."
+    },
+    {
+      "range": "1856–1897",
+      "event": "CR-038: Hawaii abolishes penal labour contracts 1856; scholarships, benchmarked pay and retirement at 68 from 1888; Vallejo College 1889; county halls in the 1890s; trades congress 1895."
     }
   ],
   "affected_sources": [

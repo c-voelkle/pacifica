@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 35 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 36 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -688,6 +688,21 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 **Still open:**
 - The Carquinez men (the clique of the examined) and selective enforcement under Julian, for later CRs.
 
+### CR-038 — The machinery's own safeguards
+
+**Register status:** `approved_integrated`
+
+- Retirement at 68 for every senator, judge, county Commissioner, estate head and senior officer; the Constitution sets it for appointed senators and the regency extends it. Only the Crown, the Regent and the Truce's named holders are exempt.
+- Vallejo College at Monterey from 1889: one academic year for rising officers of every estate, the navy, the champions and the counties, with no restriction by sex; free choice produces two informal sides, the Presidio (engineering, technology, management; the Carquinez men) and the Kaʻahumanu House (health, welfare, education).
+- The Office's unannounced inspectors check county returns against figures hard to fake.
+- From 1888, Realm scholarships (five years' work anywhere in Pacifica, League teaching included) and posted grants (five years in the named post only); senior pay set by the Senate against the champions' managers' pay and published.
+- County halls under a Realm enabling law, held by an Office inspector and trustees to a central minimum, free above it, fostering cohesion and results-based pride in Pacifica.
+- Hawaii abolishes penal labour contracts on joining the Confederation in 1856; works crews hire on fixed terms from the 1860s; the general guest-worker programme stays in 1890.
+- A trades congress chartered by law in 1895 keeps funds, the tradesmen's register and a reference wage table; it never hires, trains or pays; independent unions stay legal; guest workers reach it only through its Guest Workers' Aid.
+
+**Still open:**
+- A Crown-affiliated party (on hold).
+
 ### Author-approved editorial safeguards
 
 - Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
@@ -802,5 +817,6 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1866–1887 | CR-035/036: the Methodist medical college saves Victoria in 1866; Yerba Buena College 1866, Sutro School 1869; californium 1873; Koch's anthrax 1876, tuberculosis and Manila cholera 1882; Michelson's light 1878 and the ether experiment with Morley 1887. |
 | 1891 | CR-036: famine relief to Russia in the year of the Moscow expulsion is Victoria's decisive test of diaspora loyalties. |
 | 1877–1897 | CR-037: anonymous scripts and avoidance from the late 1870s; appointment tables from 1888; first great audit 1890; county rule against cliques. |
+| 1856–1897 | CR-038: Hawaii abolishes penal labour contracts 1856; scholarships, benchmarked pay and retirement at 68 from 1888; Vallejo College 1889; county halls in the 1890s; trades congress 1895. |
 
 <!-- END AUTO-APPROVAL-LEDGER -->
