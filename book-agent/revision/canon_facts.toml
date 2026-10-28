@@ -116,9 +116,9 @@ source = "AGENTS.md"
 
 [[event]]
 id = "julian-accession"
-year = 1915
-patterns = ['Julian accedes (?:to [^.;]{0,30} )?in (?P<year>1[89]\d\d)', '''Julian(?:'s|’s) accession in (?P<year>1[89]\d\d)''']
-source = "AGENTS.md"
+year = 1907
+patterns = ['''Julian accedes (?:to [^.;]{0,30} )?in (?P<year>1[89]\d\d)''', '''Julian(?:'s|’s) accession in (?P<year>1[89]\d\d)''', '''Julian succeeds (?:Victoria|her) (?:directly )?in (?P<year>1[89]\d\d)''', '''hands power directly to Julian in (?P<year>1[89]\d\d)''', '''In (?P<year>1[89]\d\d) Victoria lays down both the regency''']
+source = "AGENTS.md; CR-040"
 
 [[event]]
 id = "office-public-measures"
@@ -184,3 +184,26 @@ id = "californium-discovery"
 year = 1873
 patterns = ['''In (?P<year>1[89]\d\d)[^.;]{0,100}calls it californium''', '''californium (?:is )?(?:found|discovered) in (?P<year>1[89]\d\d)''']
 source = "CR-036"
+
+[[event]]
+id = "act-of-settlement"
+year = 1907
+patterns = ['''(?P<year>1[89]\d\d) Act of Settlement''', '''Act of Settlement of (?P<year>1[89]\d\d)''']
+source = "CR-040"
+
+[[event]]
+id = "kiyoshi-claim"
+year = 1907
+patterns = ['''Early in (?P<year>1[89]\d\d) he petitions the Regent''', '''Kiyoshi(?:'s|’s) bid in (?P<year>1[89]\d\d)''', '''In (?P<year>1[89]\d\d), with Silas dead, he claims''']
+source = "CR-040"
+
+[[event]]
+id = "manila-oath"
+year = 1907
+patterns = ['''In (?P<year>1[89]\d\d) he swears before the Cortes''']
+source = "CR-040"
+
+[[forbidden]]
+pattern = "(?:destroys|defeats|victorious against|victor over) the Baltic Fleet"
+message = "Kiyoshi's 1905 victory is over the Petropavlovsk cruiser squadron; Russia's battle fleets survive (CR-040)"
+source = "CR-040"

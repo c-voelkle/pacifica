@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 37 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 38 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -727,6 +727,26 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Ka Lōkahi (P3): on hold for a larger author change beyond CR-039; canon keeps the 1914 council of the crowns with ten-year reviews and the Concord's Hawaiian name unchanged meanwhile.
 - The Gulf Republic's part in the Cuban guarantee, now that it is founded in 1900.
 - The Bread March sentences and any detention settlement.
+
+### CR-040 — The crown of 1907, the failed peace and the Russian war
+
+**Register status:** `approved_directions_integrated_proposals_pending`
+
+- Kiyoshi's May 1905 victory is over Russia's Petropavlovsk cruiser squadron (one cruiser taken, two damaged); Russia's battle fleets survive and Russia turns west.
+- Silas renounces in December 1906, for himself and his descendants; he still confesses Donner in autumn 1912 and dies in winter 1912.
+- Kiyoshi claims early in 1907 as count and squadron commander, renounces in March 1907, and becomes Fleet-General in the later 1907 renewal.
+- The Act of Settlement of 1907 joins the crowns; Julian accedes to the Realm and Hawaii in November 1907, marries Chiyo that month and swears before the Cortes in December 1907.
+- Kahekili is born about 1916, after daughters.
+- Ka Lōkahi forms in 1907, reviews in 1917 and 1927; its 1927 review agrees that Japan joins, binding the Hawaiian and Philippine crowns but not the Realm without the Senate.
+- Julian tours Europe from 1908 and helps settle Bosnia (1909), Agadir (1911) and the Balkan wars (1912–1913).
+- July 1914 fails: Franz Ferdinand's death, Vienna's anger at the procedures, Berlin's fear of a westward Russia, Julian's shelved Black Hand warning and his withheld oil sanction; Zimmermann receives his envoy on 5 July.
+- Stages 3–4 approved in direction, not yet integrated: Red Terror hostages and the Office's lists (R6); Lenin taken by a coalition armoured train (R7); Lenin and Trotsky tried and executed for state crimes (R8); federal Russia (R11); Kiyoshi takes Kronstadt by stratagem, kills Stalin and dies in May 1920 (K1).
+
+**Still open:**
+- Stages 3–4 storyline text: the Great War changes, the Red Terror, the Russian war, the arrests and trials, Kronstadt, Harbin with federal Russia.
+- R9 the Romanovs; R10 Victoria's stance on the Russian war.
+- The tour and Bosnia/Agadir/Balkan details remain PROPOSED; the indemnity of 1905 needs remodelling.
+- K1 details: the boatswain's mate, Kiyoshi's sword, a death poem.
 
 ### Author-approved editorial safeguards
 

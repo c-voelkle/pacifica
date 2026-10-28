@@ -168,7 +168,7 @@ quote = "In March 1874 she signs the Puʻuloa Convention: a fifty-year lease of 
 [[commitment]]
 id = "C-1876-PH-LOAN"
 more_quotes = [
-  "The Realm takes over what remains of the Redemption Loan, about $9.",
+  "The Realm takes over what remains of the Redemption Loan at its 1907 balance",
 ]
 name = "Philippine Redemption Loan"
 kind = "loan"
@@ -1673,7 +1673,7 @@ more_quotes = [
   "The ordinances breach the Enabling Law's protected provisions and Article XIV's bar on annexation.",
   "Hawaii's Supreme Court declares the ordinances void. No one can enforce the judgment against confederal marines",
   "Hawaii's assent comes from the appointed Territorial Council created by the illegal ordinances of 1874–1876.",
-  "It dissolves the Territorial Council and restores Hawaii's legislature.",
+  "The Act dissolves the Territorial Council and restores Hawaii's legislature.",
 ]
 ended_by = "the Act of Settlement dissolves the Territorial Council and restores Hawaii's legislature"
 ended = 1914
@@ -1769,10 +1769,10 @@ open = "Composition of the Regency Council not stated."
 more_quotes = [
   "Victoria governs as Regent of a Realm whose crown has yet to be established, rather than as guardian obliged to surrender office on the boy's majority.",
   "The restored Chancellor is appointed by the Regent with Senate consent.",
-  "In 1915 Victoria lays down both the regency and her crown, and Julian accedes to both.",
+  "In November 1907 Victoria lays down both the regency and her crown, and Julian, about twenty-one, accedes to both.",
 ]
 ended_by = "Victoria lays down the regency and her crown; Julian accedes"
-ended = 1915
+ended = 1907
 name = "Regency of the Realm"
 kind = "office"
 parties = ["CROWN", "PAC"]
@@ -2484,7 +2484,8 @@ owes = [
 ]
 status = "PROPOSED"
 section = 26
-quote = "Revolution in Russia and Pacifican pressure on French lending bring Witte to terms: withdrawal from Manchuria, an indemnity, recognition of Japan's southern gains and renunciation of claims in Korea."
+cr = "CR-040"
+quote = "A government that needs a peace to govern at home, and Pacifican pressure on French lending, bring Witte to terms: withdrawal from Manchuria, an indemnity, recognition of Japan's southern gains and renunciation of claims in Korea."
 more_quotes = [
   "The working model assigns about $300 million paid in 1906–1910; that amount remains a MODEL estimate rather than an independently fixed treaty clause.",
   "Russia retains its northern coast until the later Siberian settlement.",
@@ -2516,12 +2517,12 @@ owes = [
 status = "APPROVED"
 cr = "CR-022"
 section = 26
-quote = "A more confident Japan bargains hard in the 1907 compact renewal, securing Kiyoshi as Japanese Fleet-General, a joint war council, family immigration and civic equality for Japanese Pacificans."
-more_quotes = ["Both states ratify renewals every ten years, in 1897, 1907 and 1917."]
-open = "A renewal of the 1887 compact (earlier part), recorded separately for its new terms; whether the Fleet-General post is for life or to the next renewal (1917) is not stated."
+quote = "A more confident Japan bargains hard in the 1907 compact renewal, securing a joint war council, family immigration and civic equality for Japanese Pacificans."
+more_quotes = ["Both states ratify renewals every ten years, in 1897, 1907 and 1917.", "Chiyo and her branch give their own assent, and the compact renewed later that year makes Kiyoshi Japanese Fleet-General: the price of the crown he gave up is the command of the common fleet."]
+open = "A renewal of the 1887 compact (earlier part), recorded separately for its new terms; the Fleet-General office comes after Kiyoshi's renunciation of March 1907 (CR-040); whether the Fleet-General post is for life or to the next renewal (1917) is not stated."
 
 # ---------------------------------------------------------------------------
-# §27 — the Settlement of 1914
+# §26 (formerly §27) — the Act of Settlement of 1907 (CR-040)
 # ---------------------------------------------------------------------------
 
 [[commitment]]
@@ -2529,27 +2530,28 @@ id = "C-1914-KIYOSHI-RENUNCIATION"
 name = "Kiyoshi's renunciation and the Kuroda match"
 kind = "pact"
 parties = ["KURODA", "CROWN"]
-from = 1914
+from = 1907
 owes = [
   { by = "KURODA", to = "CROWN", what = "renunciation of the crown for Kiyoshi and his descendants" },
   { by = "CROWN", to = "KURODA", what = "Julian takes a wife from his house; the heir after Julian is of Kuroda blood" },
 ]
-status = "CANON"
-section = 27
+status = "APPROVED"
+cr = "CR-026; CR-040"
+section = 26
 quote = "Kiyoshi accepts and renounces the crown for himself and his descendants."
 more_quotes = [
   "Julian goes to Pearl Harbor without an escort and asks his brother, in Japanese, for a wife from his house.",
   "The Act recites Kiyoshi's renunciation and names him \"Kuroda Kiyoshi, son of Elias Thorne\", the only public document that ever does.",
   "The match is the price of his renunciation: his house supplies the queen, and the heir after Julian is of Kuroda blood.",
 ]
-open = "Wedding date is qualified in canon; the heir's birth (about 1916) is PROPOSED."
+open = "Renounced in March 1907 (CR-040); the wedding is November 1907; the heir is born about 1916 after daughters (CR-040)."
 
 [[commitment]]
 id = "C-1914-ACT-OF-SETTLEMENT"
-name = "Act of Settlement of 1914"
+name = "Act of Settlement of 1907"
 kind = "constitution"
 parties = ["PAC", "HI", "CROWN"]
-from = 1914
+from = 1907
 owes = [
   { by = "PAC", to = "CROWN", what = "establishes the Crown of Pacifica in the House of Thorne-Kamehameha; Senate and Chamber confer the Realm's sovereignty" },
   { by = "HI", to = "CROWN", what = "joins the Hawaiian crown to the Crown of Pacifica; the ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown as Kamehameha VI" },
@@ -2564,12 +2566,14 @@ conditions = [
   "the Polytechnic retains its charter",
   "recites Kiyoshi's renunciation",
 ]
-status = "CANON"
-section = 27
-quote = "The 1914 Act of Settlement establishes the Crown of Pacifica in the House of Thorne-Kamehameha and joins to it the Hawaiian crown Victoria has worn since 1872."
+status = "APPROVED"
+cr = "CR-040"
+section = 26
+quote = "The 1907 Act of Settlement establishes the Crown of Pacifica in the House of Thorne-Kamehameha and joins to it the Hawaiian crown Victoria has worn since 1872."
 more_quotes = [
   "The restored legislature and the ʻAha Aliʻi put the union to a plebiscite of Hawaiian subjects, and the loyalists campaign against it.",
-  "It dissolves the Territorial Council and restores Hawaii's legislature. The ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown, to reign as Kamehameha VI; Senate and Chamber confer the Realm's sovereignty by two-thirds.",
+  "The Act dissolves the Territorial Council and restores Hawaii's legislature.",
+  "The ʻAha Aliʻi proclaims Julian heir to the Hawaiian crown, to reign as Kamehameha VI; Senate and Chamber confer the Realm's sovereignty by two-thirds.",
   "Hawaiian is restored as the Crown's language and in its schools. The ʻAha Aliʻi keeps custody of Hawaiian crown and kuleana lands; Thalassia's ground is confirmed as land of the Hawaiian throne. The Polytechnic retains its charter.",
   "Succession passes to the eldest son, then eldest daughter, otherwise to an heir adopted with Senate consent.",
   "until 1914 restores Hawaiian-medium education and the Crown's Hawaiian oath and proclamation.",
@@ -2582,13 +2586,12 @@ id = "C-1915-JULIAN-CROWNS"
 name = "Julian's crowns (Sovereign of Pacifica, Kamehameha VI)"
 kind = "office"
 parties = ["CROWN", "PAC", "HI"]
-from = 1915
+from = 1907
 holder = "CT-JULIAN"
 status = "APPROVED"
-cr = "CR-029"
-section = 27
-quote = "In 1915 Victoria lays down both the regency and her crown, and Julian accedes to both."
-more_quotes = ["Julian succeeds Victoria directly in 1915, aged about twenty-nine."]
+cr = "CR-029; CR-040"
+section = 26
+quote = "In November 1907 Victoria lays down both the regency and her crown, and Julian, about twenty-one, accedes to both."
 open = "Hereditary under the Act's succession rule; his Philippine crown is the separate C-1914-PH-CROWN."
 
 [[commitment]]
@@ -2596,47 +2599,121 @@ id = "C-1914-PH-CROWN"
 name = "Philippine crown offer and Calderón's organic law"
 kind = "constitution"
 parties = ["PH", "PAC", "CROWN"]
-from = 1914
+from = 1907
 owes = [
   { by = "PH", to = "CROWN", what = "the Philippine crown, offered by the Cortes and confirmed by plebiscite" },
   { by = "CROWN", to = "PH", what = "a single-chamber Cortes with a permanent commission, its own budget and army; Gobernadores never posted to their home province; neither crown subordinate; Lugarteniente General governs without the old veto" },
-  { by = "PAC", to = "PH", what = "the Realm takes over what remains of the Redemption Loan, about $9.5 million" },
+  { by = "PAC", to = "PH", what = "the Realm takes over what remains of the Redemption Loan at its 1907 balance (MODEL)" },
 ]
 can_end = [{ who = "PH", how = "the Cortes offers and a plebiscite confirms; terms signed before the vote" }]
 conditions = [
   "each crown keeps its own legislature, language of the Crown and coronation; the alternat names each first in its own texts",
-  "the Sovereign swears before the Cortes in Manila (1915); no bishop crowns him",
+  "the Sovereign swears before the Cortes in Manila (December 1907); no bishop crowns him",
 ]
 status = "APPROVED"
-cr = "CR-029"
-section = 27
+cr = "CR-029; CR-040"
+section = 26
 quote = "In the same months the Philippine Cortes offers the Philippine crown, and a plebiscite confirms the offer."
 more_quotes = [
   "Its terms are signed before the vote, because Filipinos remember what was promised at Biak-na-Bato and never written down.",
-  "Calderón's organic law gives the kingdom a single-chamber Cortes with a permanent commission, its own budget and army, and provinces under Gobernadores who are never posted to their home province. Neither crown is subordinate. The Realm takes over what remains of the Redemption Loan, about $9.5 million.",
+  "Calderón's organic law gives the kingdom a single-chamber Cortes with a permanent commission, its own budget and army, and provinces under Gobernadores who are never posted to their home province. Neither crown is subordinate.",
+  "The Realm takes over what remains of the Redemption Loan at its 1907 balance",
   "A Kuhina Nui in Honolulu and a Lugarteniente General in Manila govern day to day in the Sovereign's name, on his instructions and without the old veto.",
-  "In 1915 he swears before the Cortes in Manila, as Spanish kings swore, and is proclaimed under the raised standard.",
+  "In December 1907 he swears before the Cortes in Manila, as Spanish kings swore, and is proclaimed under the raised standard.",
 ]
-open = "Year taken from 'in the same months' as the 1914 Act; the oath is 1915. Repayment terms of the assumed loan not restated."
+open = "Year taken from 'in the same months' as the 1907 Act (CR-040); the oath is December 1907. Repayment terms of the assumed loan not restated."
 
 [[commitment]]
 id = "C-1914-KA-LOKAHI"
-from_approx = true
 name = "Ka Lōkahi, the council of the crowns"
 kind = "compact"
 parties = ["PAC", "HI", "PH"]
-from = 1914
+from = 1907
 can_end = [
   { who = "PAC", how = "one vote over the succession, the agreed matters and disputes" },
   { who = "HI", how = "one vote over the succession, the agreed matters and disputes" },
   { who = "PH", how = "one vote over the succession, the agreed matters and disputes" },
 ]
-conditions = ["the agreed matters are renewed every ten years"]
+conditions = ["the agreed matters are renewed every ten years, first in 1917", "the 1927 review agrees that Japan joins; the vote binds the Hawaiian and Philippine crowns but not the Realm without the Senate"]
+renewals = [1917, 1927]
 status = "APPROVED"
-cr = "CR-029"
-section = 27
+cr = "CR-029; CR-040"
+section = 26
 quote = "Ka Lōkahi, the council of the crowns, gives the Realm, Hawaii and the Philippines one vote each over the succession, the agreed matters renewed every ten years and disputes between them."
-open = "Start year not stated (created with the 1914–1915 union); the base year of the ten-year renewals, hence the renewal years, not stated; voting threshold not stated."
+label_note = "The first review in 1917 is stated in the next sentence, labelled CR-040."
+more_quotes = ["The council of the crowns holds its second ten-year review that year, and its three delegations agree that Japan joins: Ka Lōkahi has grown, and the Concord takes its Hawaiian name."]
+open = "Formed with the 1907 union (CR-040); voting threshold not stated."
+
+# CR-040 (28 October 2026): Stages 1–2
+
+[[commitment]]
+id = "C-1906-SILAS-RENUNCIATION"
+name = "Silas's renunciation"
+kind = "pact"
+parties = ["PRUETT", "CROWN"]
+from = 1906
+owes = [
+  { by = "PRUETT", to = "CROWN", what = "renunciation, for Silas and his descendants, of any claim to the crown the Act will create" },
+  { by = "CROWN", to = "PRUETT", what = "the renewed compact reopens the mission school (PROPOSED)" },
+]
+status = "APPROVED"
+cr = "CR-040"
+section = 26
+quote = "In December 1906 Silas renounces, for himself and his descendants, any claim to the crown the Act will create."
+more_quotes = ["Victoria offers Silas a bargain: renounce, and the renewed compact reopens the mission school; refuse, and Tokyo refuses the renewal and the Regent says publicly why."]
+open = "The bargain's terms are PROPOSED; no written instrument is stated."
+
+[[commitment]]
+id = "C-1908-UNION-NONASSISTANCE"
+from_approx = true
+name = "British and German undertakings on the Union"
+kind = "pact"
+parties = ["UK", "DE", "PAC"]
+from = 1908
+owes = [
+  { by = "UK", to = "PAC", what = "no state-backed money, bases, intelligence or arms to a Union attempt to overturn the North American settlement" },
+  { by = "DE", to = "PAC", what = "no state-backed money, bases, intelligence or arms to a Union attempt to overturn the North American settlement" },
+]
+status = "PROPOSED"
+cr = "CR-040"
+section = 27
+quote = "Britain and Germany each undertake, separately, to give no state-backed money, bases, intelligence or arms to a Union attempt to overturn the North American settlement."
+open = "Signed during the tour of 1908–1909; exact year and instruments not stated. Germany's breach of 1917 belongs to CR-040 Stage 3."
+
+[[commitment]]
+id = "C-1909-BOSNIA-SETTLEMENT"
+name = "Bosnian settlement and standing commission"
+kind = "settlement"
+parties = ["AH", "RS", "OT", "RU", "PAC"]
+from = 1909
+owes = [
+  { by = "AH", to = "RS", what = "Serbian trade through Ottoman Salonica, with the Porte's consent; a Bosnian Diet under Habsburg sovereignty" },
+  { by = "AH", to = "RS", what = "inquiry and a standstill before either side uses force, by order of the standing commission" },
+  { by = "RS", to = "AH", what = "inquiry and a standstill before either side uses force, by order of the standing commission" },
+]
+status = "PROPOSED"
+cr = "CR-040"
+section = 27
+quote = "The settlement of 1909 gives Habsburg sovereignty with a Bosnian Diet, Serbian trade through Ottoman Salonica with the Porte's consent, and a standing commission that can order an inquiry and a standstill before either side uses force."
+more_quotes = ["Thalassia hears it the same day, half a day behind Europe's clock, and Julian's ministers invoke the commission of 1909.", "Julian offers the commission for that one point and Pacifica's guarantee of Serbian compliance, and only now says the oil will stop."]
+open = "Signatories and the commission's composition not stated. Invoked on 29 June 1914; Vienna does not answer, and the war of July 1914 ends its use."
+
+[[commitment]]
+id = "C-1914-GERMAN-OIL"
+from_approx = true
+name = "Fuel-oil contracts with the German navy"
+kind = "pact"
+parties = ["PAC", "DE"]
+from = 1914
+ended = 1914
+ended_by = "Julian says on 25 July that the oil will stop"
+owes = [{ by = "PAC", to = "DE", what = "fuel oil for Germany's new ships, under contracts Ballin brokered" }]
+status = "APPROVED"
+cr = "CR-040"
+section = 28
+quote = "Pacifica supplies the fuel oil Germany's new ships burn, under contracts Ballin brokered."
+more_quotes = ["Julian offers the commission for that one point and Pacifica's guarantee of Serbian compliance, and only now says the oil will stop."]
+open = "Year of the contracts not stated (before 1914); terms and quantities not stated."
 
 # ---------------------------------------------------------------------------
 # Part 4: storyline §28–§37
@@ -2681,6 +2758,22 @@ name = "The trust islands (Marianas, Carolines, Palau; Tutuila proposed)"
 [[party]]
 id = "ANZ"
 name = "Australia and New Zealand"
+
+[[party]]
+id = "PRUETT"
+name = "Silas and his descendants"
+
+[[party]]
+id = "AH"
+name = "Austria-Hungary"
+
+[[party]]
+id = "RS"
+name = "Serbia"
+
+[[party]]
+id = "OT"
+name = "Ottoman Empire"
 
 # ---------------------------------------------------------------------------
 # §30 Credit, oil and the brokered peace
