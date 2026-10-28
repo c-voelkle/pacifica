@@ -44,4 +44,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-033 to CR-036 are adopted. Next topic proposed by the author: preventing ethnic nepotism (a separate CR on the examination state's integrity was suggested). Ledger findings 1–12 still await the author.
+CR-033 to CR-036 are adopted. CR-037 (no cliques: anonymous scripts, avoidance, appointment tables, the 1890 audit) is drafted in `book-agent/revision/drafts/CR-037-draft.md` and awaits the author. Ledger findings 1–12 still await the author.
