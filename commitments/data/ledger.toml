@@ -1786,10 +1786,12 @@ parties = ["ESTATES", "CROWN", "PAC"]
 from = 1887
 owes = [{ by = "PAC", to = "ESTATES", what = "the Polytechnic's examinations, audit, General Staff and telegraph" }]
 can_end = [{ who = "CROWN", how = "the ruler chooses the chief from three graduate-council nominees; removal only with Senate consent" }]
+conditions = ["Apart from the Truce's named holders, every estate head and senior officer retires in the year they turn sixty-eight (CR-038)."]
 status = "CANON"
 section = 21
 quote = "Thalassia is the capital, the Court of the Realm sits at Monterey and the Polytechnic is chartered at Carquinez."
 more_quotes = [
+  "The regency extends the Constitution's age of sixty-eight for appointed senators to every senator, judge, Commissioner, estate head and senior officer, except the Truce's named holders.",
   "the Polytechnic's examinations, audit, General Staff and telegraph form a chartered estate with its own continuity. Its chief is chosen by the ruler from three graduate-council nominees and removed only with Senate consent.",
   "The Constitution gives the Polytechnic its examinations, audit, General Staff and telegraph",
 ]
@@ -1800,7 +1802,8 @@ name = "Office of Public Measures (independent estate)"
 kind = "charter"
 parties = ["ESTATES", "PAC"]
 from = 1888
-conditions = ["Twelve-year heads reporting to the Senate."]
+conditions = [
+  "Apart from the Truce's named holders, every estate head and senior officer retires in the year they turn sixty-eight (CR-038).","Twelve-year heads reporting to the Senate."]
 status = "CANON"
 section = 21
 quote = "The Office of Public Measures, established in 1888, supplies the other independent estate, with twelve-year heads reporting to the Senate."
@@ -1808,6 +1811,9 @@ quote = "The Office of Public Measures, established in 1888, supplies the other 
 # ---------------------------------------------------------------------------
 # §22–§24 The Truce, life offices, the Five and the Japanese compact
 # ---------------------------------------------------------------------------
+more_quotes = [
+  "The regency extends the Constitution's age of sixty-eight for appointed senators to every senator, judge, Commissioner, estate head and senior officer, except the Truce's named holders.",
+]
 
 [[commitment]]
 id = "C-1887-TRUCE"
