@@ -9,6 +9,8 @@
 
 > Yes can you write that up as a short CR37
 
+> 1890 audit as a few lines. Treaty can have haters, ultimately Julian may need to renegotiate it in the Concord era. … For the counties, of course they do allow for a certain degree of cultural concentration so the nepotism rule should cut against clique formation without requiring total homogeneity.
+
 ## Decisions
 
 | ID | Decision | Label |
@@ -20,8 +22,8 @@
 | E5 | **Published appointment tables.** From 1888 the Office of Public Measures publishes, for each institution, how appointments and promotions compare with the examination ranking. A gap that persists brings an audit (of the Polytechnic itself by the Office), which is an inspection and not a quota. Officials declare relatives and former students in a register, and an appointment of anyone declared is void unless an outside board confirms it. | PROPOSED |
 | E6 | **Mixed cohorts.** The English bridging year (§25), the cadet corps and the college residences deliberately mix origins, languages and faiths. | PROPOSED |
 | E7 | **Where it bites.** The rules cover what the Crown charters, funds or licenses: the estates, the League colleges, champions in which the Crown holds shares, and the licensed professions. Private firms are left to competition. In the counties, a finding of capture counts against the "order" standard, so county machines risk their chartered status. | PROPOSED |
-| E8 | **The first great audit (1890) hits an established clique.** It falls on the board of the state savings bank in San Francisco, held for a generation by intermarried Yankee, Californio and Irish families, so that the policy is never read as aimed at newcomers. The auditors act on their own authority; Victoria refuses both to stop them and to set quotas. | PROPOSED; whether it grows into a full scene OPEN |
-| E9 | **The treaty exception.** The command of the western squadron is reserved to officers of the Japanese naval party (§24, existing canon). This is a reservation by treaty with a partner state, not a clique inside the Realm. Critics still attack it, and it remains a crack Julian may have to deal with. | Existing canon; how critics use it OPEN |
+| E8 | **The first great audit (1890) hits an established clique.** It falls on the board of the state savings bank in San Francisco, held for a generation by intermarried Yankee, Californio and Irish families, so that the policy is never read as aimed at newcomers. The auditors act on their own authority; Victoria refuses both to stop them and to set quotas. | PROPOSED; stays a few lines (author, 28 Oct 2026) |
+| E9 | **The treaty exception.** The command of the western squadron is reserved to officers of the Japanese naval party (§24, existing canon). It is a reservation by treaty with a partner state, not a clique inside the Realm, but it has its critics: nativists, examination purists and Japanese-origin Pacifican officers who are not of the naval party. It is not revised earlier. Canon already ends it at the 1932 renewal, when the naval party loses its reserved squadron as Japan's overseas commands pass to common control (§36), and it is load-bearing before then: Kiyoshi's threat in 1913 (§27) and the danger to Oʻahu in 1931–32 depend on it. | APPROVED (author: "Treaty can have haters, ultimately Julian may need to renegotiate it in the Concord era"); critics PROPOSED |
 
 ## Proposed storyline text
 
@@ -54,6 +56,6 @@ none
 
 ## Open choices for the author
 
-- Should the first great audit (E8) grow into a full scene?
-- How critics use the Japanese naval reservation (E9), and whether Julian revisits it.
-- Whether nepotism findings in the counties need their own standard, or stay under "order".
+Resolved on 28 October 2026: the 1890 audit stays a few lines (E8); the naval reservation keeps its critics and ends at the 1932 renewal, as canon already has it (E9).
+
+- **The county rule** (author: concentration is allowed; the rule cuts against cliques, not towards homogeneity). Proposal under discussion: measure each county against its own examined pool, with a passed-over test, a kinship test and outside holders for the neutral offices.
