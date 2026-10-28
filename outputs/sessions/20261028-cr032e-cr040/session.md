@@ -33,13 +33,13 @@ independence: separate-agents
 
 | ID | To | Task | Output | Status |
 | --- | --- | --- | --- | --- |
-| H1 | fresh reviewer | Consistency and literary review of both drafts | findings applied where clear | see below |
+| H1 | fresh reviewer | Consistency and literary review of both drafts | all findings applied: supersession table, four fact events, fuller impact list, Part VI structure, Silas bargain and motive, Julian's withheld oil sanction, Victoria's act in July 1914, label and history fixes | done |
 
 ## Checks executed
 
 | ID | Check | Result |
 | --- | --- | --- |
-| X1 | `cr_facts.py preview CR-040.md` | 1 finding (AGENTS.md accession sentence); storyline forms not matched by the pattern listed by hand |
+| X1 | `cr_facts.py preview CR-040.md` (revision 2, four fact events) | 23 passages in four files; recorded at the end of CR-040 |
 | X2 | `lint_canon.py --only` on both drafts | clean |
 
 ## Resume here
