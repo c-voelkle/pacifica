@@ -1,6 +1,6 @@
 # CR-032 Alternative timelines for review and modeling
 
-These four drafts are separate alternatives to the [canonical master storyline](../../master_storyline.md). Publication makes them accessible for comparison; it does not approve, integrate or combine their events. The canonical change register, character records and supplied financial workbook are unchanged.
+These five drafts are separate alternatives to the [canonical master storyline](../../master_storyline.md). Publication makes them accessible for comparison; it does not approve, integrate or combine their events. The canonical change register, character records and supplied financial workbook are unchanged.
 
 | Draft | Scenario | Principal comparison |
 |---|---|---|
@@ -8,6 +8,7 @@ These four drafts are separate alternatives to the [canonical master storyline](
 | [CR-032b](CR-032b.md) | A negotiated peace in summer 1917 | Whether an earlier settlement and Russian stabilization produce more usable power than prolonged war and intervention. |
 | [CR-032c](CR-032c.md) | Earlier accession and prewar diplomacy intended to prevent general war | The earlier exploratory diplomatic version, including Bosnia and Agadir; its unresolved later consequences are preserved. |
 | [CR-032d](CR-032d.md) | The completed neutrality scenario with a successful July 1914 settlement and no general European war through 1932 | Productive growth, a stronger independent Japan and Europe, constitutional Russia, negotiated Transbaikalian protection and fewer crisis-driven concessions. |
+| [CR-032e](CR-032e.md) | D's 1907 accession, tour and prewar diplomacy; the July 1914 settlement fails; A's Russian war, with the Red Terror as the reason to go to Moscow and the arrest of Lenin, Trotsky and Stalin | Author's direction of 28 October 2026 ("a combination of A and D"). The canon change request built from it is [CR-040](../../CR-040.md). |
 
 CR-032d retains the earlier accession chronology but now selects a peaceful course. Its proposed 1917 constitutional Russian revolution retains the monarchy; Japanese protection in Transbaikalia has a narrower treaty form within continuing Russian sovereignty. Kiyoshi and Vance survive through 1932. A lawfully ratified partnership replaces the original bank-rescue Concord, and the Union obtains limited commercial accommodation rather than rescue-driven association. These are review assumptions for D, not amendments to the other versions or to the canon.
 
