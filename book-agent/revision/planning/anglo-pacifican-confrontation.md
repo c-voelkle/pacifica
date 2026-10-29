@@ -142,3 +142,56 @@ Britain cannot fight and will not pay; it does what it does — it finds instrum
 ## 8. One-line test for every beat in this arc
 
 *Does Britain lose something real, keep its dignity, and leave Pacifica holding a cost it did not have before?* If a beat fails any of the three, it is either a cartoon (fails the second), a pageant (fails the third), or not about Britain at all (fails the first).
+
+---
+
+## 9. Author decisions, 29 October 2026 (evening)
+
+These are author decisions on planning questions. They become canon only through the CRs in §7.
+
+**CR-041 OPEN items (§8 of CR-041).**
+
+| Item | Decision |
+|---|---|
+| Romanov burial | APPROVED: Victoria attends from Thalassia and meets the British royal party; the Dowager Empress is Queen Alexandra's sister; George V's 1917 withdrawal of asylum is Britain's own sealed file |
+| Kiyoshi's sword; death poem | APPROVED as proposed; the resting place (Thalassia, Kagoshima or Yasukuni) and poem drafts are still to be written |
+| Lenin's capture | APPROVED: candidate date 22 April 1920 (his fiftieth birthday); the Kotelnich commander is unnamed in the storyline and named only in the character file |
+| Hostages | APPROVED: the railway advisers are shot in the same week Cromie dies; Pacifican and British dead buried together; the adviser the reader has met is still to be created |
+| Tomsk vote | APPROVED: shown, through a British viewpoint (a *Times* correspondent or the consul's dispatch) |
+| Alash's regiments | APPROVED: the western regiments become Pacifica's paid guard for the Emba concession; the rest become a federal cavalry division in Turkestan |
+| K1 amendment | APPROVED in direction: **Dzerzhinsky**, not Stalin, is the last man on Kronstadt and dies by Kiyoshi's cut; **Stalin runs to Georgia**, a British-protected Menshevik republic, and may resurface later. Requires an amendment to approved K1 text, §31–§32 and the character files; no canon_facts entry is affected |
+
+**Turkey (T1–T8).** Shape and recommendations approved: T1 Pacifica never at war with the Ottoman Empire; T2 Mudros on its historical date; T3 Sèvres as Lloyd George's separate treaty; T4 Kemal courted by Pacifica (now in competition with the Union, U6); T5 a Turkish-sovereign Straits under Pacifican guarantee, Russia's 1915 claim refused; T6 Mosul as the lever for an oil share; T8 Chanak 1922 as the cold war's closest approach. **T7 (Kars) remains the author's choice.**
+
+**The Union (U1–U7).**
+
+| ID | Decision |
+|---|---|
+| U1 | APPROVED: the 1920s are tripolar (Pacifica's order; the Union-financed German bloc; the British Empire with France); Britain is the swing power. Pacifica's question: how to drive a wedge between Britain and France (§10) |
+| U2 | APPROVED: the Union is an oil importer; to be explored. **The Union finances the Berlin–Baghdad railway** (strongly approved) |
+| U3 | APPROVED: the Treaty of Bucharest package survives the Hague peace; Bessarabia stays Romanian and the Ploiești lease German, on Union capital. Closes the Bessarabia OPEN item in direction |
+| U4 | OPEN: whether a 1921–22 Washington Conference happens, and what Britain signs |
+| U5 | APPROVED: Union firms traded with Moscow in 1919–20 (Martens's bureau); the fourth strand of the sealed file |
+| U6 | APPROVED: the Union is Kemal's third suitor (missions, Near East Relief, a Chester-type concession, the Baghdad railway with German partners) |
+| U7 | APPROVED: Irish-American money is a standing Anglo-Union irritant and one of Julian's wedges |
+
+## 10. The wedge: Britain and France (proposal)
+
+**The problem.** Both powers are aggrieved at Pacifica, for different reasons. France's grievance is the peace itself: Alsace-Lorraine stays German, Germany pays no indemnity, and the 1919 limits put France's navy *below Germany's*. Britain's is money and the sea. Left alone, they combine against the broker. Canon's ending (§37: "France's grievance, Russian resentment of the lands lost in 1919–1921 and Union revanchists can still find one another") says France must still be aggrieved in 1932. So the wedge buys a decade; it does not make France a friend.
+
+**The constraint.** Every wedge that pushes Britain away from France pushes it toward the Union and its German bloc. The combination Julian must prevent above all is London and New York, which historically took the form of the Norman–Strong central-bank partnership and the American credit that carried sterling back to gold in 1925. The aim is therefore hub and spoke: each Atlantic power tied to Thalassia bilaterally and to the others as little as possible.
+
+**What France wants that Britain will not give and Pacifica can:**
+
+1. **Security against Germany: Russia.** France's natural ally against Germany is Russia (the alliance of 1894). Wrangel's Russia is Pacifica's client. Pacifica can revive the Franco-Russian alliance under its own credit. Britain historically refused France a guarantee; here Pacifica offers a better one at second hand.
+2. **The Russian bonds.** About 1.6 million French savers held Imperial Russian bonds. Only Pacifica's Russia can pay them. Settling B7 so that federal Russia resumes service on the French bonds, through Thalassia and after Pacifica's own claims, moves French domestic politics more than any treaty. This is the strongest single wedge.
+3. **Gentler debt terms.** France owes both Britain and Pacifica. Pacifica funds the French debt on easier terms, or in kind, while Britain insists on its own claims to pay its debt to Pacifica (the logic of the historical Balfour Note). Britain becomes the hard creditor in French eyes.
+4. **The Levant and Turkey.** France historically made a separate peace with Kemal (Franklin-Bouillon, October 1921) and pulled its troops out at Chanak. Pacifica only has to encourage what France will do anyway: broker the Franco-Turkish agreement, support France's Syrian frontier, and give France its share of Mosul oil through a Red Line it helps arrange.
+5. **The Mediterranean.** Pacifica's Black Sea convoys refuel at Bizerte and Toulon instead of Malta and Gibraltar. French ports earn the trade, and British leverage over the route falls.
+6. **The naval rank (optional, at the 1929 review).** Lift France to parity with Germany. Britain resists, which is itself the wedge.
+
+**What Pacifica must not do.** Offer Alsace. Nobody can deliver it, and holding it out as a carrot through the arbitration court would be a Julian move too cynical even for him, unless the author wants exactly that.
+
+**Where it bites.** 1921 (France's separate deal with Ankara); September 1922 (France leaves Britain alone at Chanak); 1923–24 (Russian bond settlement and the revived alliance); 1925 (Britain's return to gold: Pacifica must supply the credit itself, so that New York does not); 1927 (the Concord and the oil settlement). A Locarno-type guarantee of the Franco-German frontier by Britain and the Union, if one happens, makes Britain the power that signed Alsace away in French eyes.
+
+**New decisions.** W1: revive the Franco-Russian alliance under Pacifican credit? W2: the order of service on Russian debt (B7) with the French bonds second? W3: who carries sterling back to gold in 1925, Pacifica or New York? W4: is there a Locarno, and who guarantees it?
