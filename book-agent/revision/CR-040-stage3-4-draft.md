@@ -63,6 +63,22 @@ The paragraph keeps no label of its own (CR-025 canon); a coverage comment marks
 
 **(f) The loans in 1914.** No storyline change: canon already says Pacifica's savers carry the loans alone *in 1914*, before Union investors buy through Pacifican correspondents (1915–16) and the secured loans of the last two years. The timeline compressed it.
 
+## S10 and S11 (APPROVED 29 October 2026)
+
+**§25, Haber.** At the end of the CR-036 paragraph beginning "The examined come from every exile and every ambition", after "…never as communities.", add:
+
+> **[APPROVED — CR-040]** Not every offer is taken. In the 1890s Carquinez offers a chair to Fritz Haber, a Jewish convert at Karlsruhe still waiting for a professorship, and he stays in Germany, a German first. His synthesis of ammonia will give Germany the nitrates for its war.
+
+**§28, the oil in July 1914.** In the paragraph beginning "Pacifica supplies the fuel oil Germany's new ships burn", after "The cables reach men already mobilising.", add (under the paragraph's existing APPROVED — CR-040 label):
+
+> The tankers have kept sailing all month, and Germany goes to war with its tanks full.
+
+**§30, Germany's fuel.** After the Baltic Fleet sentence (a), add, and restore **[PROPOSED]** before "The third compact renewal":
+
+> **[APPROVED — CR-040]** Germany's fleet runs on the oil its tanks held in August 1914, on Galician oil and, from December 1916, on Romania's. Its U-boats get the oil first, and after 1916 its battleships rarely come out.
+
+---
+
 ## §31 — heading
 
 Replace "The coalition advances west and holds the Ob (1918–1920)" with:
@@ -91,9 +107,9 @@ Then the Red Terror:
 
 > **[PROPOSED — CR-040]** On 30 August 1918 Uritsky, head of the Petrograd Cheka, is assassinated, and Lenin is shot and wounded in Moscow. The next day Cheka men force their way into the British embassy in Petrograd and kill the naval attaché, Captain Cromie, on its staircase. On 5 September the Council of People's Commissars decrees the Red Terror: class enemies are to be isolated in camps, anyone connected with White organisations, conspiracies or risings is to be shot, and the names of the shot are to be published. **[APPROVED — CR-040 R6]** Pacifica's railway advisers are taken hostage in Petrograd and Moscow with the Japanese residents, and some of them are shot. **[OPEN]** How many, and their names; the story needs at least one the reader has met. **[APPROVED — CR-040 R6]** In the autumn the Office of Public Measures translates the Cheka's own lists and publishes them beside the decree that ordered them, **[PROPOSED — CR-040]** with the cellar at Yekaterinburg and the grave on the Koptyaki road. Nothing needs inventing. The regime's own words do the work, and the names left off and the lists that end in a number say the rest. Victoria's rule that seeing is believing now works against Moscow.
 
-Then the promise to Siberia. **Author direction, 29 October 2026:** the promise comes after the discovery of the Romanov murders, because a recognition before it would be too incendiary. It is dated September 1918, after the Koptyaki grave and the Terror decree.
+Then the promise to Siberia. **Author direction, 29 October 2026:** the promise comes after the discovery of the Romanov murders, because a recognition before it would be too incendiary. Dated 10 September 1918 (author, 29 October 2026): after the Koptyaki grave and the Terror decree, and before the Ufa agreement, so that Vologodsky keeps Siberia out of the Directory on Julian's word.
 
-> **[PROPOSED — CR-040]** Vologodsky's Provisional Siberian Government declared Siberia independent on 4 July 1918, and Julian waited. **[APPROVED — CR-040 R10]** He goes into Siberia to build a country, not to hold a line. After the cellar at Yekaterinburg and the decree of the Terror, in September 1918, he publicly recognises the Provisional Siberian Government of Pyotr Vologodsky and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier: Siberians will not be handed back to the men who did this. Siberian soldiers enlist believing they have a country of their own. **[PROPOSED — CR-040]** The recognition keeps Vologodsky's ministers from dissolving their government into the all-Russian Directory formed at Ufa that month. When Kolchak, the Directory's war minister, takes power at Omsk in November as Supreme Ruler of all Russia, the ministers who refuse him go east to Irkutsk under the coalition's protection, and the coalition leaves his all-Russian ambition to overreach. A peasant land-and-grain guarantee supplies a political basis for holding the railway country. **[PROPOSED — CR-031]** The guarantee travels down the Lena. Yakutia keeps its own committees under Vasily Nikiforov, who founded the Union of Yakuts in 1906 and went to prison for it, and elects an assembly in 1919, and when Kolchak's officials are overthrown on the Okhotsk coast, at Anadyr and in Kamchatka that winter, relief ships and an amnesty answer them instead of a punitive column. Pacifica freezes the debt books of its own San Francisco traders in Chukotka until a commission can write them down. German clients in the west and Chinese cooperation prevent Moscow from concentrating its full strength in the east.
+> **[APPROVED — CR-040]** Vologodsky's Provisional Siberian Government declared Siberia independent on 4 July 1918, and Julian waited. **[APPROVED — CR-040 R10]** He goes into Siberia to build a country, not to hold a line. **[APPROVED — CR-040]** On 10 September 1918, after the cellar at Yekaterinburg and the decree of the Terror, he publicly recognises the Provisional Siberian Government of Pyotr Vologodsky and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier: Siberians will not be handed back to the men who did this. Siberian soldiers enlist believing they have a country of their own. Two days earlier a State Conference has opened at Ufa to found one government for all of anti-Bolshevik Russia. With Julian's word behind him, Vologodsky does not give up Siberia's independence to it, believing Siberian autonomy safe in the hands of the coalition. **[PROPOSED — CR-040]** The same day the Red Army retakes Kazan. When the conference forms its Directory on 23 September, Vologodsky declines the seat it gives him. When Kolchak, the Directory's war minister, takes power at Omsk in November as Supreme Ruler of all Russia, the ministers who refuse him go east to Irkutsk under the coalition's protection, and the coalition leaves his all-Russian ambition to overreach. A peasant land-and-grain guarantee supplies a political basis for holding the railway country. **[PROPOSED — CR-031]** The guarantee travels down the Lena. Yakutia keeps its own committees under Vasily Nikiforov, who founded the Union of Yakuts in 1906 and went to prison for it, and elects an assembly in 1919, and when Kolchak's officials are overthrown on the Okhotsk coast, at Anadyr and in Kamchatka that winter, relief ships and an amnesty answer them instead of a punitive column. Pacifica freezes the debt books of its own San Francisco traders in Chukotka until a commission can write them down. German clients in the west and Chinese cooperation prevent Moscow from concentrating its full strength in the east.
 
 (The land-and-grain sentence and the CR-031 Lena passage move here from the current Ob paragraph, with their labels.)
 
@@ -306,7 +322,7 @@ Hits to fix: storyline §31 (replaced above) and the Kiyoshi trajectory (above);
 
 | ID | Question | Proposal |
 |---|---|---|
-| S1 | How Kolchak fits beside Julian's 1918 recognition of Siberia | The September recognition keeps Vologodsky's government from dissolving into the Ufa Directory; Kolchak, the Directory's war minister, still takes power at Omsk in November 1918, and the regionalist ministers who refuse him go east to Irkutsk under coalition protection. Keeps canon's "Kolchak's all-Russian ambition overreaches" and CR-031's Kolchak officials in the North-East. |
+| S1 | How Kolchak fits beside Julian's 1918 recognition of Siberia | Siberia stays out of the Ufa Directory (APPROVED, 10 September); the Directory, driven from the Volga in October, takes refuge in Omsk as Siberia's guest; Kolchak, the Directory's war minister, still takes power at Omsk in November 1918, and the regionalist ministers who refuse him go east to Irkutsk under coalition protection. Keeps canon's "Kolchak's all-Russian ambition overreaches" and CR-031's Kolchak officials in the North-East. |
 | S2 | How Julian reaches Wrangel while Pacifica is at war with Germany | After the armistice, through Kyiv and Krivoshein, whom Julian met with Stolypin in 1908. |
 | S3 | Victoria in autumn 1918 | She agrees the regime must end, and warns him that he has given the Siberians his word. In 1919 she tells him once, privately, what she will say openly to him in 1921. |
 | S4 | Kolchak's own fate | OPEN. |
@@ -325,8 +341,10 @@ Hits to fix: storyline §31 (replaced above) and the Kiyoshi trajectory (above);
 | Japan's lending | To Russia from 1916; to Britain and France from 1917 (§30 (d)) |
 | Railway mission | Crews with the engines from 1915; a mission in Petrograd by 1916 that watches the winter crisis of 1916–17; it stays after October beside the Allied missions (§30 (e), §31 opening) |
 | May 1918 | Framing: Brest-Litovsk makes Moscow part of the German danger. Trigger: Trotsky's order of 25 May against the Legion, with the February debt repudiation behind it. Stated objectives are the Entente's (§31) |
-| The promise to Siberia | After the Romanov discovery (author's direction); dated September 1918 (§31) |
-| Still open | S1–S11; Haber (S10) and the German oil stock (S11) are new |
+| The promise to Siberia | 10 September 1918, after the Romanov discovery and the Terror decree and before the Ufa agreement; with Julian's support Vologodsky does not give up Siberia's independence to the Directory, believing its autonomy safe with the coalition (§31) |
+| S10 | APPROVED: Haber is offered a chair at Carquinez and stays German (text in §25) |
+| S11 | APPROVED: Germany goes to war with its tanks full of Pacifican oil (text in §28 and §30) |
+| Still open | S1–S9 |
 
-Still **VERIFY**: the Provisional Siberian Government's declaration of 4 July 1918; the Ufa Directory (September 1918); Japanese credits to Russia in 1916; Bolshevik repudiation of foreign debts (February 1918); Trotsky's order against the Legion (25 May 1918).
+Checked: the Provisional Siberian Government declared independence on 4 July 1918, the Ufa conference sat from 8 to 23 September and formed the Provisional All-Russian Government (the Directory) on 23 September, with Vologodsky among its five members; historically the Siberian government transferred power to it on 3 November ([State Meeting in Ufa](https://en.wikipedia.org/wiki/State_Meeting_in_Ufa); [Provisional Siberian Government](https://en.wikipedia.org/wiki/Provisional_Siberian_Government_(Omsk))). Still **VERIFY**: the Red Army's recapture of Kazan on 10 September 1918; Japanese credits to Russia in 1916; Bolshevik repudiation of foreign debts (February 1918); Trotsky's order against the Legion (25 May 1918).
 
