@@ -2552,7 +2552,7 @@
     {
       "id": "CR-040",
       "title": "The crown of 1907, the failed peace and the Russian war",
-      "status": "approved_directions_integrated_proposals_pending",
+      "status": "approved_integrated",
       "approved_on": "2026-10-28",
       "integrated_on": "2026-10-28",
       "decision_record": "CR-040.md",
@@ -2566,14 +2566,13 @@
         "Ka Lōkahi forms in 1907, reviews in 1917 and 1927; its 1927 review agrees that Japan joins, binding the Hawaiian and Philippine crowns but not the Realm without the Senate.",
         "Julian tours Europe from 1908 and helps settle Bosnia (1909), Agadir (1911) and the Balkan wars (1912–1913).",
         "July 1914 fails: Franz Ferdinand's death, Vienna's anger at the procedures, Berlin's fear of a westward Russia, Julian's shelved Black Hand warning and his withheld oil sanction; Zimmermann receives his envoy on 5 July.",
-        "Stages 3–4 approved in direction, not yet integrated: Red Terror hostages and the Office's lists (R6); Lenin taken by a coalition armoured train (R7); Lenin and Trotsky tried and executed for state crimes (R8); federal Russia (R11); Kiyoshi takes Kronstadt by stratagem, kills Stalin and dies in May 1920 (K1)."
+        "Stages 3–4 (integrated 29 October 2026 with CR-041): Red Terror hostages and the Office's lists (R6); Lenin taken by a coalition armoured train (R7); Lenin and Trotsky tried and executed for state crimes (R8); federal Russia (R11); Kiyoshi takes Kronstadt by stratagem, kills Stalin and dies in May 1920 (K1)."
       ],
       "open": [
-        "Stages 3–4 storyline text: the Great War changes, the Red Terror, the Russian war, the arrests and trials, Kronstadt, Harbin with federal Russia.",
-        "R9 the Romanovs; R10 Victoria's stance on the Russian war.",
         "The tour and Bosnia/Agadir/Balkan details remain PROPOSED; the indemnity of 1905 needs remodelling.",
         "K1 details: the boatswain's mate, Kiyoshi's sword, a death poem.",
-        "CR-041 (29 October 2026) supersedes, for Stages 3–4: the Ob crossing of January 1920 (Vance holds the Volga bridge at Zelenodolsk in June 1919), the form of the 10 September 1918 recognition (ratification of the July treaty), the mechanism of the 1919 bargain (a promised vote, delivered at Tomsk in 1921), and 'Omsk falls to the Red Army'. Apply both together."
+        "CR-041 (29 October 2026) supersedes, for Stages 3–4: the Ob crossing of January 1920 (Vance holds the Volga bridge at Zelenodolsk in June 1919), the form of the 10 September 1918 recognition (ratification of the July treaty), the mechanism of the 1919 bargain (a promised vote, delivered at Tomsk in 1921), and 'Omsk falls to the Red Army'. Apply both together.",
+        "Kiyoshi's sword and death poem; who from Thalassia attends the Romanov burial; monarchy or republic for federal Russia; the hostages' names."
       ],
       "facts": [
         {
@@ -2633,14 +2632,15 @@
     {
       "id": "CR-041",
       "title": "The Russian war re-planned: one summer, one winter (Plan C), the tri-partite Siberian treaty and the Tomsk vote",
-      "status": "approved_directions_integration_pending",
+      "status": "approved_integrated",
       "approved_on": "2026-10-29",
+      "integrated_on": "2026-10-29",
       "decision_record": "CR-041.md",
-      "authorization": "Author, 29 October 2026, in the planning session on CR-040 Stages 3–4: \"I like the shape of Napoleon's plan much better than the one currently in the timeline. What it still needs is the Russian partner.\" On the three timetables: \"Ok I approve of C. Can you update the battle timeline accordingly?\" On the decisions: \"Bring them into the new CR and let's decide on all of them right now.\" \"For N10 I would like a Hawaiian name. For N13 b.\" On N6 after the Alash documents: \"I approve. You can add it into the CR just like that (the more detailed version of shape C). Pacifica keeps the oil from Emba and should get favorable conditions in Baku as well.\" The Baku share is joint with Britain at the drafter's recommendation, accepted by the author's instruction to write it up. Inherited items S1–S9 and new items N1–N16 are approved as recorded in CR-041.md; the Ukraine, Bessarabia and Turkish-frontier sectors remain OPEN.",
+      "authorization": "Author, 29 October 2026, in the planning session on CR-040 Stages 3–4: \"I like the shape of Napoleon's plan much better than the one currently in the timeline. What it still needs is the Russian partner.\" On the three timetables: \"Ok I approve of C. Can you update the battle timeline accordingly?\" On the decisions: \"Bring them into the new CR and let's decide on all of them right now.\" \"For N10 I would like a Hawaiian name. For N13 b.\" On N6 after the Alash documents: \"I approve. You can add it into the CR just like that (the more detailed version of shape C). Pacifica keeps the oil from Emba and should get favorable conditions in Baku as well.\" The Baku share is joint with Britain at the drafter's recommendation, accepted by the author's instruction to write it up. Inherited items S1–S9 and new items N1–N16 are approved as recorded in CR-041.md; the Ukraine, Bessarabia and Turkish-frontier sectors remain OPEN. Integration review (29 October 2026) moved the signing to 4–6 August 1918 so that it follows the commission draft it adopts.",
       "requirements": [
         "Pacifica seizes the Siberian line in one week from 26 May 1918 with the Legion's rising as trigger; no declaration of war; the stated objectives are the Entente's. The recognition of a state of war with the Council of People's Commissars comes in September 1918 after the hostage-taking.",
         "Kazan is held in September 1918 (second battle, Pacifican river flotilla and a brigade); the Volga is the coalition's line through the winter of 1918–19; the Perm wing reaches Glazov and cuts the Vologda–Vyatka line at Kotelnich in January 1919.",
-        "The Siberian treaty is signed in late July 1918 at Samara and Omsk by Komuch, the Provisional Siberian Government and Alash Orda under Pacifican guarantee, built on Komuch's Alash declaration and the Sapozhnikov–Bukeikhanov draft of 29 July–3 August 1918, printed by the Office and deposited in Peking and Tokyo; Julian ratifies it publicly on 10 September 1918 after the Romanov discovery and the Terror decree.",
+        "The Siberian treaty is signed at Omsk on 4 August and Samara on 6 August 1918 by Komuch, the Provisional Siberian Government and Alash Orda under Pacifican guarantee, built on Komuch's Alash declaration and the Sapozhnikov–Bukeikhanov draft of 29 July–3 August 1918, printed by the Office and deposited in Peking and Tokyo; Julian ratifies it publicly on 10 September 1918 after the Romanov discovery and the Terror decree.",
         "Komuch's credit is conditional on enforcing the Constituent Assembly's land law without landlord reclamation. The Omsk coup of 18 November 1918 is attempted and fails in one night; the Directory survives; Kolchak declines the title, refuses the Baltic under Kiyoshi in 1919 and becomes federal Russia's navy minister after Harbin.",
         "The Red spring offensive of 1919 is spent on the Volga: Vance holds the Volga bridge at Zelenodolsk in June 1919 while the trains clear (replacing the Ob crossing of January 1920, which is deleted). Omsk never falls. Wrangel takes the southern command in October 1919 when Denikin stalls at Orel and takes his guns from the Directory's hand.",
         "The 1920 sequence is unchanged: Tula in February; Trotsky taken at the Oka bridge at Serpukhov by Kutepov's troops and the armoured train Ofitser; Moscow in March; Petrograd by land; Lenin taken on the Vologda–Vyatka line at the Kotelnich bridge by the Pacifican armoured train Māui; Kronstadt in May (CR-040 K1).",
@@ -2651,14 +2651,37 @@
         "Ballin's death on 9 November 1918 is a one-line beat; no Soviet state survives 1920; Nikolayevsk and the Kamchatka concession stand as drafted."
       ],
       "open": [
-        "Integration: CR-040 Stages 3–4 and CR-041 are applied together to master_storyline.md, the ledger, the character files and historical_background.md; until then canon's Siberian war text stands.",
-        "Fact changes deferred to integration (the Fact changes section of CR-041.md): the Omsk coup fails; Vance's stand moves to the Volga bridge in June 1919; no independent Siberia or Siberian Republic after the Tomsk vote. Also CR-040's deferred Kiyoshi-at-Kronstadt pattern.",
         "Which Ukraine (Hetmanate or Directory) and the Black Sea coast; Bessarabia; Kars, Ardahan and Batum.",
         "What Alash keeps inside Russia after 1921 beyond courts and the kibitka tax; the fate of its regiments.",
         "The hostages of 1918: how many railway advisers shot, and the one the reader has met. Who from Thalassia attends the Romanov burial. Where Kiyoshi's sword rests; a death poem. The day of Lenin's capture and the name of the Pacifican commander at Kotelnich. Whether the Tomsk vote is shown or reported.",
         "VERIFY before integration: Legion day-dates for Omsk, Samara, Krasnoyarsk and Vladivostok; Kolchak's October 1917 departure from San Francisco; the Tomsk Duma dispersal of 26 January 1918; Ironside's Kotlas plan; the Red recapture of Ufa on 9 June 1919; the Romanov Bridge name; Mikhailov's role in the coup; Boldyrev's refusal of Kolchak; Krivoshein in Kyiv in late 1918; the Provisional Siberian Government's declaration of 4 July 1918."
       ],
-      "facts": []
+      "facts": [
+        {
+          "add_forbidden": {
+            "pattern": "Omsk falls to the Red Army|Kolchak,? (?:the )?Supreme Ruler",
+            "message": "CR-041: the Omsk coup fails; Omsk never falls (N2, N7)"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "holds the (?:Ob )?crossing (?:at Novonikolayevsk )?in January 1920",
+            "message": "CR-041 N4: Vance holds the Volga bridge at Zelenodolsk in June 1919"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "independent Siberia|Siberian Republic",
+            "message": "CR-041 N6: Siberia enters federal Russia by the Tomsk vote of 1921; the 1918 treaty is a Siberia–Alash union under guarantee"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Kiyoshi dies in Siberia|Kiyoshi[^.]{0,60}(?:killed|dies) in Siberia in 1920|Kuroda[^.]{0,60}(?:killed|dies) in Siberia in 1920",
+            "message": "Kiyoshi dies at Kronstadt in May 1920 (CR-040 K1, integrated with CR-041)"
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [
@@ -2806,7 +2829,7 @@
     },
     {
       "range": "1886–1920",
-      "event": "Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies at Kronstadt in May 1920 (CR-040 K1, integration pending); maternal and early service details retain labels."
+      "event": "Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies at Kronstadt in May 1920 (CR-040 K1); maternal and early service details retain labels."
     },
     {
       "range": "1887–1927",
@@ -2826,7 +2849,7 @@
     },
     {
       "range": "1918–1922",
-      "event": "CR-041 (approved, integration pending): the line seized in one week from 26 May 1918; Kazan held in September 1918; the tri-partite Siberian treaty (Komuch, Siberia, Alash) in July 1918, ratified 10 September; the Omsk coup fails; Perm December 1918; the Volga battle of June 1919 with Vance on the Zelenodolsk bridge; Nizhny December 1919; Tula, the Oka, Moscow, Petrograd, Kotelnich and Kronstadt in 1920 as CR-040 Stages 3–4; the Tomsk vote of 1921 brings Siberia into federal Russia and Alash with it, unasked. Altai gas massacre and false report 1921; Victoria renounces. Harbin treaty; CR-031 northern settlement stands. Until integration, canon's Siberian war text (coalition holds the Ob; Siberian Republic) stands."
+      "event": "CR-040 Stages 3–4 and CR-041 (integrated 29 October 2026): the line seized in one week from 26 May 1918; Kazan held in September 1918; the tri-partite Siberian treaty (Komuch, Siberia, Alash) of 4–6 August 1918, ratified 10 September; the Omsk coup fails; Perm December 1918; the Volga battle of June 1919 with Vance on the Zelenodolsk bridge; Nizhny December 1919; Tula, the Oka, Moscow, Petrograd, Kotelnich and Kronstadt in 1920 as CR-040 Stages 3–4; the Tomsk vote of 1921 brings Siberia into federal Russia and Alash with it, unasked. Altai gas massacre and false report 1921; Victoria renounces. Harbin treaty; CR-031 northern settlement stands."
     },
     {
       "range": "1923–1929",

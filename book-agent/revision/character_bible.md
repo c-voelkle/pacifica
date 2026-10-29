@@ -176,9 +176,9 @@ He organizes the Polytechnic and communications during the managed succession. W
 
 **[PROPOSED]** Vance is Caleb’s great-grandson and Marcus I’s grandson through a second Marcus who avoids public command and surveys railways. After Caleb saves the unrelated Soberanes at Donner Pass, Soberanes funds the boy’s education and brings him into the Polytechnic. He and Julian grow up nearly as foster brothers: one heir to the system, the other to the throne. The old Marcus II command role remains retired, and the private father’s identity is not silently assigned that role.
 
-**[PROPOSED]** A cautious, exact railway and logistics officer, he designs the Ob line, Yenisei fallback and peasant guarantee. Kiyoshi’s death thrusts him into command in 1920. His fear is failing remembered dead, not a hereditary appetite for atrocity. In the Altai in 1921 he uses gas against partisans threatening the railway while knowing they hold Japanese prisoners. The partner’s men die with their captors.
+**[PROPOSED]** A cautious, exact railway and logistics officer, he designs the line, its depots and the peasant guarantee. **[APPROVED — CR-041]** He commands the Pacifican Expeditionary Corps from May 1918: the railway brigade that seizes the workshops in the Week, the Ural gate, the depots filled while the barges run, and the armoured train *Māui* built in the Omsk works. In June 1919 he holds the Volga bridge at Zelenodolsk while the trains clear it, the wounded, the railway families and the Legion's last echelons crossing behind him; Czech and Slovak representatives honour him for it. **[PROPOSED]** When Kiyoshi leaves for the Baltic in 1919 Vance holds the Siberian line; Kiyoshi’s death in 1920 leaves him the coalition's senior commander. His fear is failing remembered dead, not a hereditary appetite for atrocity. In the Altai in 1921 he uses gas against partisans threatening the railway while knowing they hold Japanese prisoners. The partner’s men die with their captors.
 
-**[PROPOSED]** Julian approves falsification to protect the treaty. Vance signs, then tells Victoria; her renunciation leaves him in command but damages both relationships. In 1931 he executes Julian’s prohibition on carrying Japanese troops to Manchuria. In May 1932 guards sympathetic to the Restoration, some tied to the Altai victims, kill him. He has already given the true report to the Chronicler.
+**[PROPOSED]** The Altai crime betrays his own act on the Volga bridge: he held a crossing so that others could live, and gasses prisoners. Julian approves falsification to protect the treaty. Vance signs, then tells Victoria; her renunciation leaves him in command but damages both relationships. In 1931 he executes Julian’s prohibition on carrying Japanese troops to Manchuria. In May 1932 guards sympathetic to the Restoration, some tied to the Altai victims, kill him. He has already given the true report to the Chronicler.
 
 **Proposed emotional tension:** Affection and competence make the partnership work; guilt exposes what victory required. His death connects the right act of 1931 to the wrong act of 1921. **Voice:** Concrete distances, capacity and contingencies; cautious professional language strained by guilt. **Open:** The whole lineage, mentorship, foster bond, career, attack circumstances, confession and ending remain OPEN-018-18; the companion’s archive recommendation does not approve them by inference.
 
@@ -359,7 +359,7 @@ He arrives in Pacifica in the 1870s in the proposed early chronology. He enters 
 
 Victoria holds Hawaiian legitimacy, Tokyo refuses the elevation of a Japanese count, the Senate coalition fails and examined officers refuse a strike. Julian asks him in Japanese for a wife from his house. In March 1907 he renounces for himself and his descendants in exchange for the Kuroda queen, Chiyo. The Act names him “Kuroda Kiyoshi, son of Elias Thorne”; he never uses the name. The Five’s neutrality is decisive. **[PROPOSED — CR-026]** He backs Victoria against the Twenty-One Demands.
 
-Chiyo is of another branch and not his blood. His son keeps Japanese fleet units loyal in 1932, remembering the failed bid. Kiyoshi dies in Siberia in 1920; CT-KURODA-II stays retired alias provenance. **Desire:** Belonging, recognition and command within both worlds. **Open:** Proposed maternal and early career details, wife’s individuality, son’s name and scene detail. No personal railway-sabotage mission is invented.
+Chiyo is of another branch and not his blood. His son keeps Japanese fleet units loyal in 1932, remembering the failed bid. **[APPROVED — CR-041]** He is the coalition's commander-in-chief at Irkutsk from May 1918. **[APPROVED — CR-040 K1]** In 1919 he gives up that command and takes the coalition's Baltic squadron, his flag in *Izumo* with Japan's Mediterranean ships and Pacifican cruisers (CR-041), and leaves the Siberian line to Vance. In May 1920 at Kronstadt he goes aboard the *Petropavlovsk* alone, in full dress with his sword, asks only for a Japanese-speaking interpreter, offers Stalin a neutral ship and the crew their families, and when Stalin shoots the interpreter and then him, draws and cuts once; Stalin is dead before he falls. He lives to see the hostages brought up and dies on the quarterdeck in the morning. Japan enshrines him as a war god. He never dies in Siberia. CT-KURODA-II stays retired alias provenance. **Desire:** Belonging, recognition and command within both worlds. **Open:** Proposed maternal and early career details, wife’s individuality, son’s name and scene detail. No personal railway-sabotage mission is invented.
 
 **APPROVED — CR-031-R1:** The industrial world supporting his naval party is reciprocal: Japanese engineers and firms improve methods and compete with Pacifican peers. Its later-nineteenth-century construction productivity precedes the Concord. His Japanese constituency consists of capable partners with methods of their own; no additional personal company office or invention is assigned to him.
 
@@ -546,7 +546,7 @@ Earlier portraits describe a Polytechnic officer called Major Kuroda. The old vi
 **CT-KURODA-II — Fleet-General Kuroda, resolved alias provenance**
 **Status:** Retired identity shell resolved by CR-018 D5 as Kuroda Kiyoshi, CT-KIYOSHI. Preserve the ID and original-profile mappings as provenance.
 
-The current Fleet-General is Elias’s second son after Silas, adopted into Kuroda Kiyotaka’s house in 1886, victorious over the Petropavlovsk squadron in 1905 and killed in Siberia in 1920. His son is CT-KURODA-SON. No India, Rangoon or Afghanistan command is retained for this alias.
+The current Fleet-General is Elias’s second son after Silas, adopted into Kuroda Kiyotaka’s house in 1886, victorious over the Petropavlovsk squadron in 1905 and killed at Kronstadt in May 1920 (CR-040 K1). His son is CT-KURODA-SON. No India, Rangoon or Afghanistan command is retained for this alias.
 
 ---
 
@@ -1156,7 +1156,7 @@ Receives Kalākaua's Polynesian compact in the APPROVED 1886–1887 sequence. Ge
 
 **Status:** Historical person in alternate history; CR-030, as embodied in the supplied master of 23 October 2026.
 
-Initially heads the Siberian Regionalist partner in the coalition's westward campaign, as embodied in the supplied storyline. He represents an independent Siberian political project rather than Kolchak's all-Russian ambition. No presidency for the entire 1921–1932 period, signature at Harbin or invented biography follows from this initial role.
+Heads the Provisional Siberian Government at Omsk that declares Siberia independent on 4 July 1918 and signs the tri-partite Siberian treaty with Komuch and Alash Orda under Pacifican guarantee on 4–6 August 1918 (CR-041). With Julian's ratification of 10 September behind him he keeps Siberia out of the Ufa Directory's absorption, and the Directory inherits the treaty. He represents a Siberian regionalism that was federalist from the start, as his minister Sapozhnikov tells the Ufa conference, and in 1921 his Tomsk Duma votes Siberia into federal Russia under the guarantor's hand. No presidency for the entire 1921–1932 period, signature at Harbin or invented biography follows from this role.
 
 **Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 
@@ -1175,4 +1175,76 @@ PROPOSED ataman obstructing railway traffic and using terror at the Chita juncti
 PROPOSED leader of Yakutia's committees and the 1919 assembly in the supplied storyline, which associates him with the 1906 Union of Yakuts and imprisonment. The 1922 Sakha land keeps assembly, language, communal land and Okhotsk access. These historical biographical anchors await dedicated primary-source checking; his role does not authorize him to speak for all northern peoples or supply an invented later career.
 
 **Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-ALIKHAN-BUKEIKHANOV — Alikhan Bukeikhanov
+
+**Status:** Historical person in alternate history; CR-041.
+
+Chairman of the Alash Orda, the provisional Kazakh government of December 1917, Omsk-trained statistician, former Kadet and Duma member, friend of Potanin and the Siberian regionalists. At Tomsk in October 1917 he asked for self-determination "together with Siberia". In July and August 1918 he, Yermekov and Tokhtamyshev negotiate the Siberian–Alash agreement with Sapozhnikov's commission at Omsk, and in CR-041 that draft becomes the tri-partite Siberian treaty of 4–6 August under Pacifican guarantee, with the mutual recognition Alash had withdrawn restored and an Emba oil concession signed beside it. On 12 September 1918 at Ufa he speaks for the native peoples for a Russia "federated, democratic and unified". In 1921 Alash is not asked when Siberia votes itself into the federation, and becomes a land of Russia with its courts and tax and without its army. His later career is OPEN.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-PYOTR-WRANGEL — Pyotr Wrangel
+
+**Status:** Historical person in alternate history; CR-040 R10–R11 and CR-041.
+
+Cavalry general of the Volunteer Army whom Julian's envoys reach through Krivoshein in Kyiv after the armistice of 1918. In October 1919, as Denikin stalls at Orel, a Russian military council gives him the main campaign; he takes his guns from the Directory's hand at Novorossiysk, from Pacifican convoys that unload against certified results, and inherits the Directory's signature with them. His price is the unity of Russia, Siberia included; since the Siberian treaty is deposited in Peking and Tokyo, he asks instead that the coalition not stand in the way of Siberia's own vote, and Julian promises it. His armies take Tula, the Oka and Moscow in February–March 1920; his terms spare the city's soldiers and officials and leave the Cheka to the courts. In 1921 his government signs the Treaty of Harbin as the Moscow party and he leads federal Russia provisionally with Krivoshein as premier. Monarchy or republic is OPEN.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-ALEXANDER-KRIVOSHEIN — Alexander Krivoshein
+
+**Status:** Historical person in alternate history; CR-040 and CR-041.
+
+Stolypin's minister of agriculture, whom Julian met in St Petersburg in 1908. In late 1918 he sits among the Russian conservatives in Kyiv under the Hetman's protection and is the door through which Julian's envoys reach Wrangel. A man who could govern a Russia and could not take one; premier of federal Russia under Wrangel from 1921. His land law of 1920, a year earlier than in our history and a condition of Pacifican credit, is PROPOSED.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-ALEXANDER-KOLCHAK — Alexander Kolchak
+
+**Status:** Historical person in alternate history; CR-041 S4.
+
+Admiral; passes through San Francisco in October 1917 and dines with Julian's staff, whose note reads "will want all of Russia and cannot hold Omsk". War minister of the Ufa Directory. On the night of 18 November 1918, when Volkov's officers arrest the Directory's Socialist-Revolutionaries and the Council of Ministers offers him the title of Supreme Ruler, he declines it in front of them, because the paymaster has already said no Siberian ministry is funded until the Directory sits. Offered the Baltic under Kiyoshi in 1919, he refuses to serve under a Japanese admiral and spends 1919–20 in Japan. After Harbin he is federal Russia's navy minister, and the fleet surrendered at Kronstadt comes back to Russia under him. He is never Supreme Ruler.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-VLADIMIR-KAPPEL — Vladimir Kappel
+
+**Status:** Historical person in alternate history; CR-041.
+
+General Staff officer who takes Simbirsk and Kazan with the Komuch People's Army and the Legion in the summer of 1918, and with Kazan the Imperial gold reserve. He holds Kazan in September 1918 with Pacifican gunboats and a brigade; his corps is the Directory's reserve on the Volga in June 1919 and strikes at Alatyr; from October 1919 he commands the eastern army under Wrangel's council and takes Nizhny Novgorod across the ice in December 1919 and the Moscow–Kazan line to Ryazan. He does not die on the Siberian ice.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-VASILY-BOLDYREV — Vasily Boldyrev
+
+**Status:** Historical person in alternate history; CR-041.
+
+Commander-in-chief of the Ufa Directory's forces, a professional acceptable to the Socialist-Revolutionaries. He comes back from Ufa on a Pacifican train on the night of the failed Omsk coup, commands the Russian army the Directory builds on the Kazan gold through the winter of 1918–19 with Pacifican instructors in every regiment, and holds the Volga against Frunze in June 1919. His later career under Wrangel is OPEN.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-LENIN — Vladimir Lenin
+
+**Status:** Historical person in alternate history; CR-040 R7–R9.
+
+Chairman of the Council of People's Commissars, which decrees the Red Terror on 5 September 1918; author of the Penza telegram of 11 August 1918. Leaves Moscow before it falls in March 1920 by the northern road toward Vyatka, and is taken at the Kotelnich bridge by the Pacifican armoured train *Māui* and Russian cavalry in April 1920 (CR-041). Tried with Trotsky before a Russian court in Moscow for state crimes of which he is guilty, charged with the Romanov murder, and executed in late 1920. His Kamchatka concession to a Los Angeles engineer, signed in his government's last winter, is repudiated at Harbin.
+
+**Character use:** His words are the regime's own, published by the Office beside the lists. No invented private scenes; the trial record is PROPOSED in detail.
+
+### CT-TROTSKY — Leon Trotsky
+
+**Status:** Historical person in alternate history; CR-040 R8 and CR-041.
+
+Orders the Czechoslovak Legion disarmed on 25 May 1918, the trigger of the coalition's move; brings the canal destroyers to the Volga and loses before Kazan in September 1918; orders the arrest of the families of defecting officers on 30 September 1918. On 25 February 1920 he takes his command train south to hold the Oka at Serpukhov, is cut off by Wrangel's cavalry at Lopasnya, fights the Volunteer train *Ofitser* across the river, and surrenders at first light on 27 February after a night siege. From the dock he names Lenin for the Romanov decision, and it does not save him; executed in late 1920.
+
+**Character use:** His orders are historical documents; his capture is the Russian army's action, with no Pacifican hand in it.
+
+### CT-STALIN — Joseph Stalin
+
+**Status:** Historical person in alternate history; CR-040 K1.
+
+Directed the recapture of Krasnaya Gorka from the sea in June 1919. When Moscow falls he goes north to make Petrograd and the Kronstadt fleet the regime's last base, crosses the ice to the island with the Petrograd Cheka when Petrograd falls by land, and keeps the hostages aboard the *Petropavlovsk*. In May 1920 he demands that the admiral come aboard alone, refuses the neutral ship with contempt for his men to hear, sees the guards look at one another, shoots the interpreter and fires twice into Kiyoshi, and is dead before Kiyoshi falls. He is never tried.
+
+**Character use:** No invented interiority; the scene is K1, approved verbatim.
 

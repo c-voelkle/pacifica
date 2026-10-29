@@ -99,7 +99,7 @@ name = "Russia"
 
 [[party]]
 id = "SIB"
-name = "Siberian Republic"
+name = "Siberia (independent 1918–1921; a federal land of Russia from the Tomsk vote of 1921)"
 
 [[party]]
 id = "DE"
@@ -1143,7 +1143,7 @@ name = "The Japanese naval party (Kiyoshi)"
 id = "KIYOSHI"
 name = "Kuroda Kiyoshi"
 died = 1920
-quote = "Fleet-General Kuroda Kiyoshi dies in Siberia in 1920."
+quote = "Kiyoshi lives long enough to see the hostages brought up alive and the red flag hauled down, and dies on the quarterdeck in the morning light."
 
 # ---------------------------------------------------------------------------
 # §13 Winning the peace and binding the continental partner
@@ -2677,8 +2677,11 @@ owes = [
 status = "PROPOSED"
 cr = "CR-040"
 section = 27
+ended = 1917
+ended_by = "Germany's offer to Washington of January 1917, over Zimmermann's name"
 quote = "Britain and Germany each undertake, separately, to give no state-backed money, bases, intelligence or arms to a Union attempt to overturn the North American settlement."
-open = "Signed during the tour of 1908–1909; exact year and instruments not stated. Germany's breach of 1917 belongs to CR-040 Stage 3."
+more_quotes = ["it breaks the undertaking Germany signed in 1909"]
+open = "Signed during the tour of 1908–1909; the storyline dates Germany's signature to 1909 and the undertaking to the 1908 visit; exact instruments not stated. Britain's undertaking is not ended by Germany's breach."
 
 [[commitment]]
 id = "C-1909-BOSNIA-SETTLEMENT"
@@ -2768,6 +2771,18 @@ id = "AH"
 name = "Austria-Hungary"
 
 [[party]]
+id = "ALASH"
+name = "Alash Orda (the Kazakh autonomy; a federal land of Russia from 1921)"
+
+[[party]]
+id = "KOMUCH"
+name = "Committee of Members of the Constituent Assembly (Samara, 1918), then the Ufa Directory and Wrangel's federal government as Russia's signatory"
+
+[[party]]
+id = "AZ"
+name = "Azerbaijan"
+
+[[party]]
 id = "RS"
 name = "Serbia"
 
@@ -2788,7 +2803,7 @@ from = 1914
 owes = [
   { by = "ENTENTE", to = "PAC", what = "repayment of the advances gathered from the Treasury, Pacifican savers and foreign subscriptions through the San Francisco syndicates" },
   { by = "ENTENTE", to = "US", what = "Union investors buying through Pacifican correspondents keep their own claims and their own risk" },
-  { by = "ENTENTE", to = "JP", what = "repayment of Japan's lending to the Entente from 1917" },
+  { by = "ENTENTE", to = "JP", what = "repayment of Japan's lending to Russia from 1916 and to Britain and France from 1917" },
 ]
 secured_on = "from the end of 1916, the Allies' requisitioned foreign securities, many of them Pacifican bonds (the collateral loans)"
 conditions = ["In 1914 Pacifica's own savers carry the loans alone, Washington discouraging loans to belligerents."]
@@ -2798,7 +2813,7 @@ section = 30
 quote = "San Francisco syndicates gather the Treasury's money, Pacifican savings and foreign subscriptions into the Entente loans."
 more_quotes = [
   "When the Union's banks grow wary of unsecured Entente paper at the end of 1916, loans secured on the Allies' requisitioned foreign securities, many of them Pacifican bonds, help carry the last two years of the war",
-  "From 1917 Japan, flush with export earnings, also lends to the Entente.",
+  "From 1916 Japan, flush with export earnings, lends to Russia, which buys its rifles and shells, and from 1917 to Britain and France.",
   "In autumn 1918 Julian stops the Treasury's lending and the San Francisco syndicates' new issues for the Entente",
   "The peace leaves two financial systems: Union loans in Berlin, Vienna and Germany's eastern clients; Pacifican claims in London, Paris and Asia.",
 ]
@@ -2860,7 +2875,7 @@ cr = "CR-019"
 section = 30
 quote = "The settlement creates a permanent arbitration court and carries Japan's racial equality clause."
 more_quotes = [
-  "joins the arbitration court's new charter and cuts Soviet industrial contracts",
+  "and joins the arbitration court's new charter",
   "a founding seat in the renewed court",
   "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause.",
 ]
@@ -2923,21 +2938,89 @@ open = "End year computed from the stated sixty-two-year term from 1923. Base ri
 id = "C-1918-SIB-COALITION"
 name = "Siberian coalition"
 kind = "alliance"
-parties = ["PAC", "JP", "CN", "SIB", "UK"]
+parties = ["PAC", "JP", "CN", "SIB", "ALASH", "UK"]
 from = 1918
 owes = [
-  { by = "JP", to = "PAC", what = "the mass of the army" },
+  { by = "JP", to = "PAC", what = "the mass of the army in the east" },
   { by = "CN", to = "PAC", what = "manpower and the Manchurian railway" },
-  { by = "PAC", to = "SIB", what = "command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and an expeditionary contingent" },
+  { by = "PAC", to = "SIB", what = "command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and the expeditionary corps" },
 ]
 status = "CANON"
 section = 31
-quote = "Pacifica commands a coalition of Japan, China and Siberians, with Britain inside the coalition."
+quote = "Pacifica commands a coalition of Japan, China, Siberians and, from August 1918, Alash, with Britain inside the coalition."
 more_quotes = [
-  "Pacifica contributes command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and an expeditionary contingent.",
-  "The coalition fights for an independent Siberia, leaving Kolchak's all-Russian ambition to overreach.",
+  "Pacifica contributes command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and the expeditionary corps.",
+  "Julian goes into Siberia to build a country, not to hold a line.",
 ]
-open = "First year taken from the section's 1918 start; no instrument or signing date is stated. Whether the wartime coalition ends or simply becomes the 1922 standing alliance (C-1922-STANDING-ALLIANCE) is not stated."
+open = "The coalition moves from 26 May 1918 (CR-041); Alash joins by the treaty of August 1918; no instrument is stated. It becomes the 1922 standing alliance (C-1922-STANDING-ALLIANCE) with federal Russia as its fourth party."
+
+[[commitment]]
+id = "C-1918-SIB-TREATY"
+name = "The Siberian treaty of August 1918 (Komuch, Siberia, Alash, under Pacifican guarantee)"
+kind = "treaty"
+parties = ["KOMUCH", "SIB", "ALASH", "PAC"]
+from = 1918
+ended = 1921
+ended_by = "the Tomsk vote of 1921: Siberia enters federal Russia and the Siberia–Alash union is dissolved; the guarantee becomes a guarantee of the federal compact"
+owes = [
+  { by = "KOMUCH", to = "SIB", what = "recognition of Siberia, independent since 4 July 1918; Komuch's suspensive veto over Alash replaced by the guarantor's arbitration" },
+  { by = "SIB", to = "ALASH", what = "mutual recognition restored; mixed institutions in Akmolinsk, Semipalatinsk and Turgai under joint commissars; Alash courts, the kibitka tax and local councils; a Kazakh army raised by Alash on the Siberian army's plan under common command; the land of the three oblasts frozen as it stands" },
+  { by = "ALASH", to = "SIB", what = "the Kazakh army under common command in wartime; two autonomies in union toward a federal power of autonomous Siberia and autonomous Alash, or an all-Russian federal power created with their participation" },
+  { by = "PAC", to = "SIB", what = "guarantee of Siberia's frontier; the treaty printed by the Office and deposited in Peking and Tokyo" },
+  { by = "KOMUCH", to = "PAC", what = "the Constituent Assembly's land law enforced without landlord reclamation, as a condition of credit" },
+]
+secured_on = "the Imperial gold reserve taken at Kazan, in a Reserve Bank escrow at Chelyabinsk"
+conditions = ["Pacifican credit conditional on the land law being enforced; the paymaster at Samara withholds the second tranche until it is."]
+status = "APPROVED"
+cr = "CR-041"
+section = 31
+quote = "the two governments and the Alash Orda sign the Siberian treaty under Pacifica's guarantee"
+more_quotes = [
+  "the mutual recognition Alash had withdrawn at Omsk is restored; Komuch's suspensive veto over Alash is replaced by the guarantor's arbitration",
+  "At Victoria's insistence the Office prints the treaty and deposits it in Peking and Tokyo before a rifle reaches any Russian general.",
+  "he publicly ratifies the Siberian treaty of August and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier",
+  "the Directory inherits the treaty as a condition of Pacifican credit",
+  "The Kazan gold is the escrow against it.",
+  "Pacifica's guarantee of Siberia's frontier becomes a guarantee of the federal compact.",
+]
+open = "Signed at Omsk on 4 August and Samara on 6 August 1918; the instrument's text beyond the Sapozhnikov–Bukeikhanov draft, and the guarantor's arbitration procedure are not stated. The dissent of the Ministry of Agriculture and Colonisation is recorded, not resolved. Ratified publicly on 10 September 1918."
+
+[[commitment]]
+id = "C-1918-EMBA"
+name = "Emba oil concession"
+kind = "concession"
+parties = ["ALASH", "PAC", "RU"]
+from = 1918
+owes = [{ by = "ALASH", to = "PAC", what = "the Emba oil concession, signed with the Siberian treaty; kept by Pacifica through Alash's transfer to Russia in 1921" }]
+status = "APPROVED"
+cr = "CR-041"
+section = 31
+quote = "adheres to the treaty and signs an Emba oil concession to Pacifica with it"
+more_quotes = ["Pacifica keeps the Emba oil concession it signed with Alash in 1918"]
+open = "Term, royalty and the concessionaire not stated; whether the Western Alash Orda or the Alash Orda at Semipalatinsk signs is not stated."
+
+[[commitment]]
+id = "C-1919-WRANGEL-VOTE"
+name = "Julian's promise to Wrangel: Siberia's own vote"
+kind = "pact"
+parties = ["PAC", "RU"]
+from = 1919
+until = 1921
+term_years = 2
+owes = [
+  { by = "PAC", to = "RU", what = "the coalition will not stand in the way when Siberia's own assembly chooses the federation; Pacifica's credit, the Office's films and the railway board's payrolls lean the way Omsk already leans" },
+  { by = "RU", to = "PAC", what = "a Russia that will recognise the settlement, pay its debts and owe Julian its survival; Pacifica's money reaches Wrangel only against results" },
+]
+status = "APPROVED"
+cr = "CR-041"
+section = 31
+quote = "Wrangel asks for something that looks smaller: that the coalition not stand in the way when Siberia's own assembly chooses the federation, and that Pacifica's credit, the Office's films and the railway board's payrolls lean the way Omsk already leans. Julian gives his word on that, which is the trade."
+more_quotes = [
+  "Wrangel's price is the unity of Russia, Siberia included, and Julian pays it.",
+  "Pacifica's money reaches Wrangel only against results",
+  "Siberia enters the federation by its own vote.",
+]
+open = "An oral promise in the autumn of 1919; no instrument. Kept in 1921 by the Tomsk vote. Victoria's private objection is recorded; the storyline gives no verdict."
 
 [[commitment]]
 id = "C-1918-MANCHURIAN-RAILWAY"
@@ -2998,27 +3081,37 @@ open = "Set in the winter of 1919–1920; the commission, its date and the write
 id = "C-1921-HARBIN"
 name = "Treaty of Harbin"
 kind = "treaty"
-parties = ["RU", "SIB", "JP", "CN", "PAC", "KAM"]
+parties = ["RU", "SIB", "ALASH", "JP", "CN", "PAC", "KAM", "UK", "AZ"]
 from = 1921
 owes = [
-  { by = "RU", to = "SIB", what = "the country from the Ob to Lake Baikal; the Okhotsk coast west of Ola Bay and Nikolayevsk (APPROVED); Yakutia, Chukotka, the Arctic coast and the islands east of the Kara Sea (PROPOSED)" },
+  { by = "RU", to = "SIB", what = "Siberia, a federal land of Russia from the Tomsk vote, holds the country from the Ob to Lake Baikal; the Okhotsk coast west of Ola Bay and Nikolayevsk (APPROVED); Yakutia, Chukotka, the Arctic coast and the islands east of the Kara Sea (PROPOSED)" },
+  { by = "SIB", to = "RU", what = "entry into the federal compact by the vote of the Regional Duma at Tomsk; the Siberia–Alash union of 1918 dissolved in the same act" },
+  { by = "RU", to = "ALASH", what = "a land of Russia keeping its courts and kibitka tax, without its army or its equal standing; Alash is not asked" },
+  { by = "RU", to = "PAC", what = "concessions at Grozny and Maikop against the reconstruction credit" },
+  { by = "AZ", to = "PAC", what = "a joint Anglo-Pacifican concession at Baku: Pacifica operates the field and takes oil for its Black Sea and Mediterranean ships" },
+  { by = "AZ", to = "UK", what = "the strategic say at Baku and the Batum pipeline" },
   { by = "RU", to = "JP", what = "a client sphere in Transbaikalia around Chita" },
   { by = "RU", to = "CN", what = "the Amur, a sphere in Outer Mongolia and Tuva; renunciation of extraterritorial rights, concessions and the Boxer indemnity share (to Chinese schools); Mongolia back under Chinese suzerainty under its own Mongol government" },
   { by = "SIB", to = "CN", what = "passage for Chinese ships down the Amur to the sea" },
   { by = "CN", to = "SIB", what = "Siberian trade and settlement rights in the Chinese spheres" },
   { by = "SIB", to = "JP", what = "a Siberian trial of the Nikolayevsk partisan leaders and an indemnity" },
   { by = "JP", to = "SIB", what = "passage for Siberian ships through the straits of a sea now Japanese on three sides" },
-  { by = "SIB", to = "PAC", what = "the Ob a shared river; the straits into the Kara Sea open to merchant ships" },
+  { by = "SIB", to = "PAC", what = "the straits into the Kara Sea open to merchant ships" },
   { by = "PAC", to = "RU", what = "gives up the old claims to Wrangel Island and the De Long islands, taking the Commander Islands instead" },
   { by = "JP", to = "SIB", what = "renunciation of the pan-Mongol schemes Japan once backed" },
 ]
-status = "CANON"
+status = "APPROVED"
+cr = "CR-040"
 section = 32
-quote = "Moscow signs the Treaty of Harbin in 1921."
+quote = "In 1921 Wrangel's government signs the Treaty of Harbin as the Moscow party."
 more_quotes = [
-  "The Siberian Republic holds the country from the Ob to Lake Baikal, governed from Irkutsk with its Regional Duma at Tomsk.",
-  "The Siberian Republic extends to the Okhotsk coast west of Ola Bay and to Nikolayevsk.",
-  "The Ob becomes a shared river, and the straits into the Kara Sea stay open to merchant ships.",
+  "Siberia, a federal land of Russia, holds the country from the Ob to Lake Baikal, governed from Irkutsk with its Regional Duma at Tomsk.",
+  "Siberia, a federal land of Russia, extends to the Okhotsk coast west of Ola Bay and to Nikolayevsk.",
+  "The straits into the Kara Sea stay open to merchant ships.",
+  "votes to enter the federal compact as a land of Russia",
+  "Nobody puts the question to Alash: the union of the two autonomies that the treaty of 1918 made is dissolved in the same act",
+  "takes concessions at Grozny and Maikop from Wrangel's government against the reconstruction credit, and shares Baku with Britain",
+  "In the west, federal Russia accepts the settlement of 1919: Ukraine is independent with the western Donbas, and Crimea is an autonomous land of Russia.",
   "the treaty gives satisfaction there instead, with a Siberian trial of the partisan leaders and an indemnity",
   "Out of fairness, Pacifica insists that Siberian ships may pass the straits of a sea that is now Japanese on three sides.",
   "China secures the Amur and gains a sphere in Outer Mongolia and Tuva, with Siberian trade and settlement rights.",
@@ -3027,7 +3120,7 @@ more_quotes = [
   "It gives up the old San Francisco claims to Wrangel Island and the De Long islands",
   "Russia retains the northern coast until 1921.",
 ]
-open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031). Signatories other than Moscow are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Fortification freeze remains OPEN-031-11."
+open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031), federal Russia as the Moscow party and the western settlement (APPROVED — CR-040 R11) and the Tomsk vote, Alash and the oil (APPROVED — CR-041). Signatories other than Wrangel's government are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Which Ukraine, its coast, Bessarabia and the Turkish frontier are OPEN. Fortification freeze remains OPEN-031-11."
 
 [[commitment]]
 id = "C-1921-KAMCHATKA"
@@ -3138,7 +3231,7 @@ open = "Grantor, scope and term not stated."
 
 [[commitment]]
 id = "C-1922-SIB-CONSTITUTION"
-name = "Siberian constitution of 1922"
+name = "Siberian land statute of 1922, confirmed in the federal compact"
 kind = "constitution"
 parties = ["SIB", "SAKHA", "CHUKOTKA"]
 from = 1922
@@ -3149,41 +3242,44 @@ owes = [
 status = "PROPOSED"
 cr = "CR-031"
 section = 32
-quote = "its constitution of 1922 makes Yakutia an autonomous Sakha land with its own assembly, language, communal land and a port at Okhotsk"
+quote = "its land statute of 1922, confirmed in the federal compact, makes Yakutia an autonomous Sakha land with its own assembly, language, communal land and a port at Okhotsk"
 more_quotes = ["it governs the empty coast and Chukotka as a territory with a commissioner and a council of the districts and clans"]
 
 [[commitment]]
 id = "C-1922-STANDING-ALLIANCE"
-name = "Standing alliance of Pacifica, Japan, China and the Siberian Republic"
+name = "Standing alliance of Pacifica, Japan, China and federal Russia"
 kind = "alliance"
-parties = ["PAC", "JP", "CN", "SIB"]
+parties = ["PAC", "JP", "CN", "RU", "SIB"]
 from = 1922
 owes = [
-  { by = "PAC", to = "SIB", what = "command of the alliance and its finance; railway capacity kept in reserve so that a corps of 50,000 can reach the Ob within two weeks of a call" },
+  { by = "PAC", to = "RU", what = "command of the alliance and its finance; reconstruction credit in stages, against results" },
+  { by = "PAC", to = "SIB", what = "a guarantee of the federal compact and of Siberia's borders, keeping a smaller claim on the railway in reserve for war (MODEL)" },
 ]
-conditions = ["The Siberian republic must remain visibly Russian and governed by Siberians if the coalition is to retain local support."]
-status = "PROPOSED"
+conditions = ["Siberia must be governed by Siberians, with an autonomy that is real, if the coalition is to keep local support."]
+status = "APPROVED"
+cr = "CR-040"
 section = 32
-quote = "By 1922 the settlement has become a standing alliance of Pacifica, Japan, China and the Siberian Republic."
+quote = "By 1922 the settlement has become a standing alliance of Pacifica, Japan, China and federal Russia."
 more_quotes = [
   "Pacifica gains command of the standing alliance, its finance, the Lena gold concessions and the railway west of Chita.",
-  "a corps of 50,000 men can reach the Ob within two weeks of a call",
+  "Pacifica's reconstruction credit reaches Wrangel's government in stages, against results",
+  "The treaty obligation that replaces it, a guarantee of the federal compact and of Siberia's borders, keeps a smaller claim on the railway in reserve for war",
   "Japan and China attend from the standing alliance.",
 ]
-open = "Term, withdrawal and casus foederis not stated. 'Command of the standing alliance' is already given at Harbin in 1921."
+open = "Term, withdrawal and casus foederis not stated. 'Command of the standing alliance' is already given at Harbin in 1921. The reconstruction credit's amount and schedule are MODEL."
 
 [[commitment]]
 id = "C-1929-KOLYMA"
 name = "Kolyma gold concessions"
 kind = "concession"
-parties = ["SIB", "PAC"]
+parties = ["SIB", "RU", "PAC"]
 from = 1929
-owes = [{ by = "SIB", to = "PAC", what = "concession companies working Kolyma gold with Pacifican dredges sell their gold to the Reserve Bank" }]
+owes = [{ by = "SIB", to = "PAC", what = "concession companies working Kolyma gold with Pacifican dredges sell their gold to the Reserve Bank; the gold is Russian production" }]
 conditions = ["Free, well-paid workers."]
 status = "CANON"
 section = 32
-quote = "Concession companies sell gold to the Reserve Bank; Siberian production remains outside Pacifica's GDP."
-more_quotes = ["From 1929 the Siberian Republic works Kolyma's gold with Pacifican dredges and free, well-paid workers."]
+quote = "Concession companies sell gold to the Reserve Bank; the gold is Russian production and remains outside Pacifica's GDP."
+more_quotes = ["From 1929 Siberia's land government works Kolyma's gold with Pacifican dredges and free, well-paid workers."]
 open = "Holders of the concessions, term and royalty not stated; whether the sale to the Reserve Bank is an obligation or a practice is not stated."
 
 # ---------------------------------------------------------------------------

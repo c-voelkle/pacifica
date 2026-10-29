@@ -207,3 +207,23 @@ source = "CR-040"
 pattern = "(?:destroys|defeats|victorious against|victor over) the Baltic Fleet"
 message = "Kiyoshi's 1905 victory is over the Petropavlovsk cruiser squadron; Russia's battle fleets survive (CR-040)"
 source = "CR-040"
+
+[[forbidden]]
+pattern = "Omsk falls to the Red Army|Kolchak,? (?:the )?Supreme Ruler"
+message = "CR-041: the Omsk coup fails; Omsk never falls (N2, N7)"
+source = "CR-041"
+
+[[forbidden]]
+pattern = "holds the (?:Ob )?crossing (?:at Novonikolayevsk )?in January 1920"
+message = "CR-041 N4: Vance holds the Volga bridge at Zelenodolsk in June 1919"
+source = "CR-041"
+
+[[forbidden]]
+pattern = "independent Siberia|Siberian Republic"
+message = "CR-041 N6: Siberia enters federal Russia by the Tomsk vote of 1921; the 1918 treaty is a Siberia–Alash union under guarantee"
+source = "CR-041"
+
+[[forbidden]]
+pattern = "Kiyoshi dies in Siberia|Kiyoshi[^.]{0,60}(?:killed|dies) in Siberia in 1920|Kuroda[^.]{0,60}(?:killed|dies) in Siberia in 1920"
+message = "Kiyoshi dies at Kronstadt in May 1920 (CR-040 K1, integrated with CR-041)"
+source = "CR-041"
