@@ -51,6 +51,18 @@ The rest of the paragraph (Victoria at The Hague, Hoover, Carnegie's Peace Palac
 
 The CR-025 credit text stays as it is.
 
+**(d) Japan's lending (APPROVED 29 October 2026).** In the CR-025 paragraph beginning "Export orders tempt Japanese banks", replace "From 1917 Japan, flush with export earnings, also lends to the Entente." with:
+
+> From 1916 Japan, flush with export earnings, lends to Russia, which buys its rifles and shells, and from 1917 to Britain and France. The Entente can go on buying Japanese goods only if someone lends it the money, and the loans give Tokyo a creditor's voice.
+
+The paragraph keeps no label of its own (CR-025 canon); a coverage comment marks the change.
+
+**(e) The railway mission (APPROVED 29 October 2026).** At the end of the CR-030 credit paragraph, after "…most of them go to work on the Siberian and Manchurian lines.", add:
+
+> **[APPROVED — CR-040]** From 1915 Pacifican erection and maintenance crews come with the engines, and by 1916 a Pacifican railway mission advises the Ministry of Ways of Communication in Petrograd. In the winter of 1916–17 it watches the capital's bread run short because the trains cannot bring the grain, and it cannot mend the lines in time. Its reports go to Thalassia.
+
+**(f) The loans in 1914.** No storyline change: canon already says Pacifica's savers carry the loans alone *in 1914*, before Union investors buy through Pacifican correspondents (1915–16) and the secured loans of the last two years. The timeline compressed it.
+
 ## §31 — heading
 
 Replace "The coalition advances west and holds the Ob (1918–1920)" with:
@@ -59,17 +71,17 @@ Replace "The coalition advances west and holds the Ob (1918–1920)" with:
 
 ## §31 — opening (Stage 3)
 
-Insert as the new first paragraph of §31:
+Insert as the new first paragraph of §31 (revised 29 October: the railway mission is already in Russia and stays after October):
 
-> **[PROPOSED — CR-040]** The revolutions of 1917 come on their historical timetable. Since 1908 Julian's envoys have reported how brittle the Russian state is, and he is not surprised. In March the monarchy falls; the mutinies at Kronstadt and Helsingfors are larger than in our history, because the fleet that survived 1905 is larger, and in October its sailors are the shock troops of the Bolshevik rising. That summer Pacifica's railway advisers have come to Petrograd with the Russian-gauge engines its works built on Entente credit, as the Stevens commission came in our history. The Provisional Government fails; the Bolsheviks take power, disperse the Constituent Assembly in January 1918 and sign the peace of Brest-Litovsk in March.
+> **[PROPOSED — CR-040]** The revolutions of 1917 come on their historical timetable. Since 1908 Julian's envoys, and since 1916 his railwaymen, have reported how brittle the Russian state is, and he is not surprised. In March the monarchy falls; the mutinies at Kronstadt and Helsingfors are larger than in our history, because the fleet that survived 1905 is larger, and in October its sailors are the shock troops of the Bolshevik rising. The Provisional Government fails; the Bolsheviks take power, disperse the Constituent Assembly in January 1918 and sign the peace of Brest-Litovsk in March. **[APPROVED — CR-040]** The railway mission stays in Petrograd and Moscow beside the Allied missions, to keep its engines running and to arrange the Czechoslovak Legion's passage east.
+
+Then the May 1918 decision (**APPROVED 29 October 2026**: the framing, that Brest-Litovsk makes Moscow part of the German danger, and the trigger, Trotsky's order of 25 May against the Legion; the private reason stays PROPOSED):
+
+> **[APPROVED — CR-040]** Brest-Litovsk makes Moscow part of the German danger. The treaty frees Germany's eastern divisions for France and opens Ukraine's grain, the Donbas coal and the road to Caspian oil to a Germany the blockade was starving, and the Entente feels it on the Western Front. In February the Bolsheviks have repudiated the Russian state's foreign debts, among them the Entente credit Pacifican savers put into the locomotives. On 25 May Trotsky orders the Czechoslovak Legion disarmed on its way east, and the Legion seizes the railway. Julian moves the same week. To London and Paris he states the Entente's own objectives: to bring the Legion out, to keep the Siberian railway, its grain and Pacifica's engines out of German reach, and to put Japan's army to work in the one theatre of the war it can reach. **[PROPOSED — CR-040]** With London burning, the Entente would rather have Pacifica's credit than its regiments, and the credit keeps flowing. Julian's private reason is the one he had in August 1914: Japan's army will go into Siberia in any case, and he would rather it went under a common plan.
 
 Then the current paragraph "The Siberian war gives Julian the decisive military test he seeks. Pacifica commands a coalition of Japan, China and Siberians…" with one change: "The Siberian war" becomes "The Russian war", and "with Britain inside the coalition" stays. The CR-030 strength sentence is unchanged.
 
-The current second paragraph (the Legion, the railway board, the ataman at the junction, the Transbaikal Host's vote "that the Host recognise the Siberian government") stands unchanged. Insert after it:
-
-> **[APPROVED — CR-040 R10]** Julian goes into Siberia to build a country, not to hold a line. In the summer of 1918 he publicly recognises the Provisional Siberian Government of Pyotr Vologodsky, which has declared Siberia's independence, and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier. Siberian soldiers enlist believing they have a country of their own. **[PROPOSED — CR-040]** When Kolchak takes power at Omsk in November as Supreme Ruler of all Russia, the ministers who refuse him go east to Irkutsk under the coalition's protection, and the coalition leaves his all-Russian ambition to overreach. A peasant land-and-grain guarantee supplies a political basis for holding the railway country. **[PROPOSED — CR-031]** The guarantee travels down the Lena. Yakutia keeps its own committees under Vasily Nikiforov, who founded the Union of Yakuts in 1906 and went to prison for it, and elects an assembly in 1919, and when Kolchak's officials are overthrown on the Okhotsk coast, at Anadyr and in Kamchatka that winter, relief ships and an amnesty answer them instead of a punitive column. Pacifica freezes the debt books of its own San Francisco traders in Chukotka until a commission can write them down. German clients in the west and Chinese cooperation prevent Moscow from concentrating its full strength in the east.
-
-(The land-and-grain sentence and the CR-031 Lena passage move here from the current Ob paragraph, with their labels.)
+The current second paragraph (the Legion, the railway board, the ataman at the junction, the Transbaikal Host's vote "that the Host recognise the Siberian government") stands unchanged.
 
 Then the Romanovs:
 
@@ -78,6 +90,12 @@ Then the Romanovs:
 Then the Red Terror:
 
 > **[PROPOSED — CR-040]** On 30 August 1918 Uritsky, head of the Petrograd Cheka, is assassinated, and Lenin is shot and wounded in Moscow. The next day Cheka men force their way into the British embassy in Petrograd and kill the naval attaché, Captain Cromie, on its staircase. On 5 September the Council of People's Commissars decrees the Red Terror: class enemies are to be isolated in camps, anyone connected with White organisations, conspiracies or risings is to be shot, and the names of the shot are to be published. **[APPROVED — CR-040 R6]** Pacifica's railway advisers are taken hostage in Petrograd and Moscow with the Japanese residents, and some of them are shot. **[OPEN]** How many, and their names; the story needs at least one the reader has met. **[APPROVED — CR-040 R6]** In the autumn the Office of Public Measures translates the Cheka's own lists and publishes them beside the decree that ordered them, **[PROPOSED — CR-040]** with the cellar at Yekaterinburg and the grave on the Koptyaki road. Nothing needs inventing. The regime's own words do the work, and the names left off and the lists that end in a number say the rest. Victoria's rule that seeing is believing now works against Moscow.
+
+Then the promise to Siberia. **Author direction, 29 October 2026:** the promise comes after the discovery of the Romanov murders, because a recognition before it would be too incendiary. It is dated September 1918, after the Koptyaki grave and the Terror decree.
+
+> **[PROPOSED — CR-040]** Vologodsky's Provisional Siberian Government declared Siberia independent on 4 July 1918, and Julian waited. **[APPROVED — CR-040 R10]** He goes into Siberia to build a country, not to hold a line. After the cellar at Yekaterinburg and the decree of the Terror, in September 1918, he publicly recognises the Provisional Siberian Government of Pyotr Vologodsky and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier: Siberians will not be handed back to the men who did this. Siberian soldiers enlist believing they have a country of their own. **[PROPOSED — CR-040]** The recognition keeps Vologodsky's ministers from dissolving their government into the all-Russian Directory formed at Ufa that month. When Kolchak, the Directory's war minister, takes power at Omsk in November as Supreme Ruler of all Russia, the ministers who refuse him go east to Irkutsk under the coalition's protection, and the coalition leaves his all-Russian ambition to overreach. A peasant land-and-grain guarantee supplies a political basis for holding the railway country. **[PROPOSED — CR-031]** The guarantee travels down the Lena. Yakutia keeps its own committees under Vasily Nikiforov, who founded the Union of Yakuts in 1906 and went to prison for it, and elects an assembly in 1919, and when Kolchak's officials are overthrown on the Okhotsk coast, at Anadyr and in Kamchatka that winter, relief ships and an amnesty answer them instead of a punitive column. Pacifica freezes the debt books of its own San Francisco traders in Chukotka until a commission can write them down. German clients in the west and Chinese cooperation prevent Moscow from concentrating its full strength in the east.
+
+(The land-and-grain sentence and the CR-031 Lena passage move here from the current Ob paragraph, with their labels.)
 
 Then the decision to go west:
 
@@ -288,7 +306,7 @@ Hits to fix: storyline §31 (replaced above) and the Kiyoshi trajectory (above);
 
 | ID | Question | Proposal |
 |---|---|---|
-| S1 | How Kolchak fits beside Julian's 1918 recognition of Siberia | Kolchak still takes power at Omsk in November 1918; the regionalist ministers who refuse him go east to Irkutsk under coalition protection. Keeps canon's "Kolchak's all-Russian ambition overreaches" and CR-031's Kolchak officials in the North-East. |
+| S1 | How Kolchak fits beside Julian's 1918 recognition of Siberia | The September recognition keeps Vologodsky's government from dissolving into the Ufa Directory; Kolchak, the Directory's war minister, still takes power at Omsk in November 1918, and the regionalist ministers who refuse him go east to Irkutsk under coalition protection. Keeps canon's "Kolchak's all-Russian ambition overreaches" and CR-031's Kolchak officials in the North-East. |
 | S2 | How Julian reaches Wrangel while Pacifica is at war with Germany | After the armistice, through Kyiv and Krivoshein, whom Julian met with Stolypin in 1908. |
 | S3 | Victoria in autumn 1918 | She agrees the regime must end, and warns him that he has given the Siberians his word. In 1919 she tells him once, privately, what she will say openly to him in 1921. |
 | S4 | Kolchak's own fate | OPEN. |
@@ -297,3 +315,18 @@ Hits to fix: storyline §31 (replaced above) and the Kiyoshi trajectory (above);
 | S7 | The Kronstadt fleet after 1920 | Returns to Russia, which joins the 1919 naval limits below Germany. Alternative: Russia stays outside the limits, like the Union, until 1932. |
 | S8 | Ballin's death, 9 November 1918 | Optional one-line beat in §30: the friend whose contracts became enemy contracts dies two days before the armistice Julian forced. |
 | S9 | Later references to a surviving Soviet state (§33 "without a Soviet bargain", §35 "The Soviet state is checked…", §36 "cuts Soviet industrial contracts", §37 "Soviet hostility… Soviet collapse is anticipated") | No Soviet state survives 1920. On the review branch: §33 adds "since no Soviet state survives 1920"; §35 becomes federal Russia rebuilding on Pacifican credit, monarchy or republic beyond the ending; §36 drops the Soviet contracts clause; §37 becomes Russian resentment of the lands lost in 1919–1921. |
+| S10 | Fritz Haber | Offered a chair at Carquinez in the 1890s, he refuses and stays German. Germany keeps the ammonia synthesis and its nitrates under blockade, so the war can last to 1918. Alternative: he goes, and Pacifica licenses the process back to BASF before 1914. |
+| S11 | Germany's oil in August 1914 | Germany's newest ships and U-boats burn Pacifican oil under Ballin's contracts. Because Julian kept delivering until 25 July, Germany goes to war with its tanks full; the fleet then runs on that stock, Galician oil and, from December 1916, Romanian oil, which limits its sorties after 1916. Would go into §28 and §30. |
+
+## Author decisions, 29 October 2026
+
+| Item | Decision |
+|---|---|
+| Japan's lending | To Russia from 1916; to Britain and France from 1917 (§30 (d)) |
+| Railway mission | Crews with the engines from 1915; a mission in Petrograd by 1916 that watches the winter crisis of 1916–17; it stays after October beside the Allied missions (§30 (e), §31 opening) |
+| May 1918 | Framing: Brest-Litovsk makes Moscow part of the German danger. Trigger: Trotsky's order of 25 May against the Legion, with the February debt repudiation behind it. Stated objectives are the Entente's (§31) |
+| The promise to Siberia | After the Romanov discovery (author's direction); dated September 1918 (§31) |
+| Still open | S1–S11; Haber (S10) and the German oil stock (S11) are new |
+
+Still **VERIFY**: the Provisional Siberian Government's declaration of 4 July 1918; the Ufa Directory (September 1918); Japanese credits to Russia in 1916; Bolshevik repudiation of foreign debts (February 1918); Trotsky's order against the Legion (25 May 1918).
+
