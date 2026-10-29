@@ -2947,16 +2947,16 @@ owes = [
 ]
 status = "CANON"
 section = 31
-quote = "Pacifica commands a coalition of Japan, China, Siberians and, from July 1918, Alash, with Britain inside the coalition."
+quote = "Pacifica commands a coalition of Japan, China, Siberians and, from August 1918, Alash, with Britain inside the coalition."
 more_quotes = [
   "Pacifica contributes command, finance, railway organization, artillery, armored trains, aircraft, river flotillas and the expeditionary corps.",
   "Julian goes into Siberia to build a country, not to hold a line.",
 ]
-open = "The coalition moves from 26 May 1918 (CR-041); no instrument is stated. It becomes the 1922 standing alliance (C-1922-STANDING-ALLIANCE) with federal Russia as its fourth party."
+open = "The coalition moves from 26 May 1918 (CR-041); Alash joins by the treaty of August 1918; no instrument is stated. It becomes the 1922 standing alliance (C-1922-STANDING-ALLIANCE) with federal Russia as its fourth party."
 
 [[commitment]]
 id = "C-1918-SIB-TREATY"
-name = "The Siberian treaty of July 1918 (Komuch, Siberia, Alash, under Pacifican guarantee)"
+name = "The Siberian treaty of August 1918 (Komuch, Siberia, Alash, under Pacifican guarantee)"
 kind = "treaty"
 parties = ["KOMUCH", "SIB", "ALASH", "PAC"]
 from = 1918
@@ -2974,16 +2974,16 @@ conditions = ["Pacifican credit conditional on the land law being enforced; the 
 status = "APPROVED"
 cr = "CR-041"
 section = 31
-quote = "At Samara and Omsk in the last days of July the two governments and the Alash Orda sign the Siberian treaty under Pacifica's guarantee."
+quote = "the two governments and the Alash Orda sign the Siberian treaty under Pacifica's guarantee"
 more_quotes = [
   "the mutual recognition Alash had withdrawn at Omsk is restored; Komuch's suspensive veto over Alash is replaced by the guarantor's arbitration",
   "At Victoria's insistence the Office prints the treaty and deposits it in Peking and Tokyo before a rifle reaches any Russian general.",
-  "he publicly ratifies the Siberian treaty and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier",
+  "he publicly ratifies the Siberian treaty of August and promises a Siberia on the Pacifican model, with the coalition's guarantee of its frontier",
   "the Directory inherits the treaty as a condition of Pacifican credit",
   "The Kazan gold is the escrow against it.",
   "Pacifica's guarantee of Siberia's frontier becomes a guarantee of the federal compact.",
 ]
-open = "Exact signing days at Samara and Omsk, the instrument's text beyond the Sapozhnikov–Bukeikhanov draft, and the guarantor's arbitration procedure are not stated. The dissent of the Ministry of Agriculture and Colonisation is recorded, not resolved. Ratified publicly on 10 September 1918."
+open = "Signed at Omsk on 4 August and Samara on 6 August 1918; the instrument's text beyond the Sapozhnikov–Bukeikhanov draft, and the guarantor's arbitration procedure are not stated. The dissent of the Ministry of Agriculture and Colonisation is recorded, not resolved. Ratified publicly on 10 September 1918."
 
 [[commitment]]
 id = "C-1918-EMBA"
@@ -2995,7 +2995,7 @@ owes = [{ by = "ALASH", to = "PAC", what = "the Emba oil concession, signed with
 status = "APPROVED"
 cr = "CR-041"
 section = 31
-quote = "Alash signs an Emba oil concession to Pacifica with the treaty."
+quote = "adheres to the treaty and signs an Emba oil concession to Pacifica with it"
 more_quotes = ["Pacifica keeps the Emba oil concession it signed with Alash in 1918"]
 open = "Term, royalty and the concessionaire not stated; whether the Western Alash Orda or the Alash Orda at Semipalatinsk signs is not stated."
 

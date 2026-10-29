@@ -3,7 +3,7 @@ session: 20261029-cr041-plan-c
 started: 2026-10-29
 updated: 2026-10-29
 mode: adopt              # history: explore → draft → adopt
-status: paused-for-author
+status: complete
 baseline:
   commit: 14a16f3
   files:
