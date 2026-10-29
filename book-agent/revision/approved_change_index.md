@@ -730,7 +730,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 ### CR-040 — The crown of 1907, the failed peace and the Russian war
 
-**Register status:** `approved_directions_integrated_proposals_pending`
+**Register status:** `approved_integrated`
 
 - Kiyoshi's May 1905 victory is over Russia's Petropavlovsk cruiser squadron (one cruiser taken, two damaged); Russia's battle fleets survive and Russia turns west.
 - Silas renounces in December 1906, for himself and his descendants; he still confesses Donner in autumn 1912 and dies in winter 1912.
@@ -740,18 +740,17 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Ka Lōkahi forms in 1907, reviews in 1917 and 1927; its 1927 review agrees that Japan joins, binding the Hawaiian and Philippine crowns but not the Realm without the Senate.
 - Julian tours Europe from 1908 and helps settle Bosnia (1909), Agadir (1911) and the Balkan wars (1912–1913).
 - July 1914 fails: Franz Ferdinand's death, Vienna's anger at the procedures, Berlin's fear of a westward Russia, Julian's shelved Black Hand warning and his withheld oil sanction; Zimmermann receives his envoy on 5 July.
-- Stages 3–4 approved in direction, not yet integrated: Red Terror hostages and the Office's lists (R6); Lenin taken by a coalition armoured train (R7); Lenin and Trotsky tried and executed for state crimes (R8); federal Russia (R11); Kiyoshi takes Kronstadt by stratagem, kills Stalin and dies in May 1920 (K1).
+- Stages 3–4 (integrated 29 October 2026 with CR-041): Red Terror hostages and the Office's lists (R6); Lenin taken by a coalition armoured train (R7); Lenin and Trotsky tried and executed for state crimes (R8); federal Russia (R11); Kiyoshi takes Kronstadt by stratagem, kills Stalin and dies in May 1920 (K1).
 
 **Still open:**
-- Stages 3–4 storyline text: the Great War changes, the Red Terror, the Russian war, the arrests and trials, Kronstadt, Harbin with federal Russia.
-- R9 the Romanovs; R10 Victoria's stance on the Russian war.
 - The tour and Bosnia/Agadir/Balkan details remain PROPOSED; the indemnity of 1905 needs remodelling.
 - K1 details: the boatswain's mate, Kiyoshi's sword, a death poem.
 - CR-041 (29 October 2026) supersedes, for Stages 3–4: the Ob crossing of January 1920 (Vance holds the Volga bridge at Zelenodolsk in June 1919), the form of the 10 September 1918 recognition (ratification of the July treaty), the mechanism of the 1919 bargain (a promised vote, delivered at Tomsk in 1921), and 'Omsk falls to the Red Army'. Apply both together.
+- Kiyoshi's sword and death poem; who from Thalassia attends the Romanov burial; monarchy or republic for federal Russia; the hostages' names.
 
 ### CR-041 — The Russian war re-planned: one summer, one winter (Plan C), the tri-partite Siberian treaty and the Tomsk vote
 
-**Register status:** `approved_directions_integration_pending`
+**Register status:** `approved_integrated`
 
 - Pacifica seizes the Siberian line in one week from 26 May 1918 with the Legion's rising as trigger; no declaration of war; the stated objectives are the Entente's. The recognition of a state of war with the Council of People's Commissars comes in September 1918 after the hostage-taking.
 - Kazan is held in September 1918 (second battle, Pacifican river flotilla and a brigade); the Volga is the coalition's line through the winter of 1918–19; the Perm wing reaches Glazov and cuts the Vologda–Vyatka line at Kotelnich in January 1919.
@@ -766,8 +765,6 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Ballin's death on 9 November 1918 is a one-line beat; no Soviet state survives 1920; Nikolayevsk and the Kamchatka concession stand as drafted.
 
 **Still open:**
-- Integration: CR-040 Stages 3–4 and CR-041 are applied together to master_storyline.md, the ledger, the character files and historical_background.md; until then canon's Siberian war text stands.
-- Fact changes deferred to integration (the Fact changes section of CR-041.md): the Omsk coup fails; Vance's stand moves to the Volga bridge in June 1919; no independent Siberia or Siberian Republic after the Tomsk vote. Also CR-040's deferred Kiyoshi-at-Kronstadt pattern.
 - Which Ukraine (Hetmanate or Directory) and the Black Sea coast; Bessarabia; Kars, Ardahan and Batum.
 - What Alash keeps inside Russia after 1921 beyond courts and the kibitka tax; the fate of its regiments.
 - The hostages of 1918: how many railway advisers shot, and the one the reader has met. Who from Thalassia attends the Romanov burial. Where Kiyoshi's sword rests; a death poem. The day of Lenin's capture and the name of the Pacifican commander at Kotelnich. Whether the Tomsk vote is shown or reported.
@@ -851,12 +848,12 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1894–1897 | Bread March; Victoria brokers Korean neutrality in 1894, Formosa stays Chinese under Pacifican revenue administration; Union gold rescue 1895; Whitney elected 1896, prisoner treaty 1897; Japanese gold facility proposed. |
 | 1898–1902 | Primorye war: Japan land forces, Pacifica sea/credit, France neutral, China recovers Amur north bank. Virginia/North Carolina rejoin Union; Federal Republic of the Gulf with Texas/Louisiana/Arkansas/Sequoyah. Cuba independent under joint guarantee, Estrada Palma president, Puerto Rico Union. Canal opening target 1900–1902; Britain settlement and network details proposed. |
 | 1883–1889 | Victoria’s de facto government during Elias’s decline remains proposed. Julian’s 1886 birth/adoption is approved by CR-021. Pre-death spring 1887 Truce remains proposed; Donner responsibility is settled by supplied CR-022: Silas fires at Soberanes and kills Caleb. Soberanes’s name and Carquinez seat are approved. Silas is eldest, Kiyoshi second; no succession civil war. |
-| 1886–1920 | Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies at Kronstadt in May 1920 (CR-040 K1, integration pending); maternal and early service details retain labels. |
+| 1886–1920 | Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies at Kronstadt in May 1920 (CR-040 K1); maternal and early service details retain labels. |
 | 1887–1927 | Stakeholder compact renewals proposed in 1897, 1907, 1917; Japanese imperial careers rise. Fourth renewal becomes Pacific Concord in 1927, cured in 1928, with Tokyo domestic institutions retained and common ministries at Thalassia. |
 | 1900–1905 | Russia occupies China’s Manchurian railway from Transbaikalia; Japan wins 1904–1905 war and refuses Roosevelt’s mediation on Victoria’s advice. Japan holds the Pacific terminal; China owns Manchurian section; exact peace terms/signing place remain qualified. |
 | 1905–1915 | Korea independent under guarantee after 1905; Qing falls and Pacifica backs Sun. Silas confesses Donner and dies in 1912. Kiyoshi claims crown in 1913, renounces in 1914 for Kuroda queen. The Five stay neutral. Victoria lays down regency and Hawaiian crown in 1915; Julian accedes to both and marries Chiyo; Soberanes retires. |
 | 1914–1919 | Union neutral. Pacifica fights at sea/in Pacific, finances Entente and brokers the peace. Julian’s credit timing, London raid, Hague terms and Victoria’s commission retain proposed/open status. |
-| 1918–1922 | CR-041 (approved, integration pending): the line seized in one week from 26 May 1918; Kazan held in September 1918; the tri-partite Siberian treaty (Komuch, Siberia, Alash) in July 1918, ratified 10 September; the Omsk coup fails; Perm December 1918; the Volga battle of June 1919 with Vance on the Zelenodolsk bridge; Nizhny December 1919; Tula, the Oka, Moscow, Petrograd, Kotelnich and Kronstadt in 1920 as CR-040 Stages 3–4; the Tomsk vote of 1921 brings Siberia into federal Russia and Alash with it, unasked. Altai gas massacre and false report 1921; Victoria renounces. Harbin treaty; CR-031 northern settlement stands. Until integration, canon's Siberian war text (coalition holds the Ob; Siberian Republic) stands. |
+| 1918–1922 | CR-040 Stages 3–4 and CR-041 (integrated 29 October 2026): the line seized in one week from 26 May 1918; Kazan held in September 1918; the tri-partite Siberian treaty (Komuch, Siberia, Alash) in July 1918, ratified 10 September; the Omsk coup fails; Perm December 1918; the Volga battle of June 1919 with Vance on the Zelenodolsk bridge; Nizhny December 1919; Tula, the Oka, Moscow, Petrograd, Kotelnich and Kronstadt in 1920 as CR-040 Stages 3–4; the Tomsk vote of 1921 brings Siberia into federal Russia and Alash with it, unasked. Altai gas massacre and false report 1921; Victoria renounces. Harbin treaty; CR-031 northern settlement stands. |
 | 1923–1929 | British debt settlement, Japanese earthquake rescue and union crisis proposed. Chiang succeeds Sun; Zhang Zuolin assassinated; Zhang Xueliang holds Manchuria. Inspectorate returned on proposed defense bargain; Formosan administration retained. |
 | 1929–1932 | Depression; Pacifican moratorium, gold lending, bank support and second Union rescue; detailed settlement mechanics qualified. 1931 Manchurian plot stopped; May 1932 coup fails; overseas Japanese commands become common. Vance’s revised arc remains OPEN-018-18. |
 | 1932 | Pacific order survives and leads. Victoria brokers Keawe’s Lands and Waters Charter; Chronicler records triumph and cost. Thalassia Conference and archive mechanics remain qualified; no Gulf membership. Owen D. Young elected November, FDR cooperates; Young takes office 1933. |

@@ -416,7 +416,7 @@ The four change requests were adopted together on 28 October 2026. Their decisio
 - **July 1914.** On 5 July Hoyos met the under-secretary Zimmermann, because Jagow, Moltke and Tirpitz were on leave; the Emperor's assurance came at lunch at Potsdam that day and Bethmann Hollweg confirmed it on the 6th ([Hoyos Mission](https://en.wikipedia.org/wiki/Hoyos_Mission)). Tisza alone opposed an unacceptable ultimatum at the council of 7 July ([minutes](https://www.firstworldwar.com/source/austriancouncilmeeting.htm)) and gave way by 14 July. Serbia's reply of 25 July accepted almost everything except the participation of Austro-Hungarian officials in an inquiry on its soil ([reply](https://www.gwpda.org/1914/serbresponse.html)). Zimmermann, as Foreign Secretary, sent the January 1917 offer to Mexico. **Divergence:** the Pacifican envoy, the oil contracts and Julian's offers are fictional.
 - **Ka Lōkahi.** With the union in 1907 and ten-year reviews, the second review falls in 1927, the Concord's year; the review vote binding the Hawaiian and Philippine crowns but not the Realm is fictional.
 
-## CR-041 — the Russian war re-planned (29 October 2026; integration pending)
+## CR-041 — the Russian war re-planned (29 October 2026; integrated with CR-040 Stages 3–4)
 
 Anchors checked on 29 October 2026 for the Plan C campaign, the signatory sequence and the Alash question. Divergences are marked.
 
