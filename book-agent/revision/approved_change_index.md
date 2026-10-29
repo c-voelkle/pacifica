@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 38 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 39 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -747,6 +747,31 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - R9 the Romanovs; R10 Victoria's stance on the Russian war.
 - The tour and Bosnia/Agadir/Balkan details remain PROPOSED; the indemnity of 1905 needs remodelling.
 - K1 details: the boatswain's mate, Kiyoshi's sword, a death poem.
+- CR-041 (29 October 2026) supersedes, for Stages 3–4: the Ob crossing of January 1920 (Vance holds the Volga bridge at Zelenodolsk in June 1919), the form of the 10 September 1918 recognition (ratification of the July treaty), the mechanism of the 1919 bargain (a promised vote, delivered at Tomsk in 1921), and 'Omsk falls to the Red Army'. Apply both together.
+
+### CR-041 — The Russian war re-planned: one summer, one winter (Plan C), the tri-partite Siberian treaty and the Tomsk vote
+
+**Register status:** `approved_directions_integration_pending`
+
+- Pacifica seizes the Siberian line in one week from 26 May 1918 with the Legion's rising as trigger; no declaration of war; the stated objectives are the Entente's. The recognition of a state of war with the Council of People's Commissars comes in September 1918 after the hostage-taking.
+- Kazan is held in September 1918 (second battle, Pacifican river flotilla and a brigade); the Volga is the coalition's line through the winter of 1918–19; the Perm wing reaches Glazov and cuts the Vologda–Vyatka line at Kotelnich in January 1919.
+- The Siberian treaty is signed in late July 1918 at Samara and Omsk by Komuch, the Provisional Siberian Government and Alash Orda under Pacifican guarantee, built on Komuch's Alash declaration and the Sapozhnikov–Bukeikhanov draft of 29 July–3 August 1918, printed by the Office and deposited in Peking and Tokyo; Julian ratifies it publicly on 10 September 1918 after the Romanov discovery and the Terror decree.
+- Komuch's credit is conditional on enforcing the Constituent Assembly's land law without landlord reclamation. The Omsk coup of 18 November 1918 is attempted and fails in one night; the Directory survives; Kolchak declines the title, refuses the Baltic under Kiyoshi in 1919 and becomes federal Russia's navy minister after Harbin.
+- The Red spring offensive of 1919 is spent on the Volga: Vance holds the Volga bridge at Zelenodolsk in June 1919 while the trains clear (replacing the Ob crossing of January 1920, which is deleted). Omsk never falls. Wrangel takes the southern command in October 1919 when Denikin stalls at Orel and takes his guns from the Directory's hand.
+- The 1920 sequence is unchanged: Tula in February; Trotsky taken at the Oka bridge at Serpukhov by Kutepov's troops and the armoured train Ofitser; Moscow in March; Petrograd by land; Lenin taken on the Vologda–Vyatka line at the Kotelnich bridge by the Pacifican armoured train Māui; Kronstadt in May (CR-040 K1).
+- The 1919 bargain's mechanism: Wrangel's price is the unity of Russia including Siberia; since the treaty is signed, Julian promises to deliver Siberia's own vote and does so in 1921, when the Siberian Regional Duma at Tomsk votes to enter the federal compact under the guarantor's credit, Office and paymaster. Nobody puts the question to Alash: the Alash–Siberia union of 1918 is dissolved and Alash becomes a land of Russia without being asked. Victoria's charge gains the count that he asked one people and not the other.
+- Oil: Pacifica keeps the Emba (Dossor) concession from 1918; Grozny and Maikop concessions come from Wrangel's government against the reconstruction credit; Baku is a joint Anglo-Pacifican concession with Azerbaijan under Entente guarantee, Pacifica operating, Britain strategic.
+- Kiyoshi's Baltic squadron: Izumo (flag), Nisshin, Akashi, twelve Japanese destroyers retained in European waters in spring 1919, with two Pacifican turbine cruisers, six destroyers, minesweepers, a seaplane tender, motor torpedo boats and a landing force; winter base Reval and Libau; enters the Kronstadt roads at the end of April 1920.
+- Southern border shape C: Don, Kuban and Terek as federal lands of Russia; Georgia, Armenia and Azerbaijan independent under Entente guarantee; Turkestan a federal land of Russia; the eastern Donbas Russian.
+- Ballin's death on 9 November 1918 is a one-line beat; no Soviet state survives 1920; Nikolayevsk and the Kamchatka concession stand as drafted.
+
+**Still open:**
+- Integration: CR-040 Stages 3–4 and CR-041 are applied together to master_storyline.md, the ledger, the character files and historical_background.md; until then canon's Siberian war text stands.
+- Fact changes deferred to integration (the Fact changes section of CR-041.md): the Omsk coup fails; Vance's stand moves to the Volga bridge in June 1919; no independent Siberia or Siberian Republic after the Tomsk vote. Also CR-040's deferred Kiyoshi-at-Kronstadt pattern.
+- Which Ukraine (Hetmanate or Directory) and the Black Sea coast; Bessarabia; Kars, Ardahan and Batum.
+- What Alash keeps inside Russia after 1921 beyond courts and the kibitka tax; the fate of its regiments.
+- The hostages of 1918: how many railway advisers shot, and the one the reader has met. Who from Thalassia attends the Romanov burial. Where Kiyoshi's sword rests; a death poem. The day of Lenin's capture and the name of the Pacifican commander at Kotelnich. Whether the Tomsk vote is shown or reported.
+- VERIFY before integration: Legion day-dates for Omsk, Samara, Krasnoyarsk and Vladivostok; Kolchak's October 1917 departure from San Francisco; the Tomsk Duma dispersal of 26 January 1918; Ironside's Kotlas plan; the Red recapture of Ufa on 9 June 1919; the Romanov Bridge name; Mikhailov's role in the coup; Boldyrev's refusal of Kolchak; Krivoshein in Kyiv in late 1918; the Provisional Siberian Government's declaration of 4 July 1918.
 
 ### Author-approved editorial safeguards
 
@@ -826,12 +851,12 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1894–1897 | Bread March; Victoria brokers Korean neutrality in 1894, Formosa stays Chinese under Pacifican revenue administration; Union gold rescue 1895; Whitney elected 1896, prisoner treaty 1897; Japanese gold facility proposed. |
 | 1898–1902 | Primorye war: Japan land forces, Pacifica sea/credit, France neutral, China recovers Amur north bank. Virginia/North Carolina rejoin Union; Federal Republic of the Gulf with Texas/Louisiana/Arkansas/Sequoyah. Cuba independent under joint guarantee, Estrada Palma president, Puerto Rico Union. Canal opening target 1900–1902; Britain settlement and network details proposed. |
 | 1883–1889 | Victoria’s de facto government during Elias’s decline remains proposed. Julian’s 1886 birth/adoption is approved by CR-021. Pre-death spring 1887 Truce remains proposed; Donner responsibility is settled by supplied CR-022: Silas fires at Soberanes and kills Caleb. Soberanes’s name and Carquinez seat are approved. Silas is eldest, Kiyoshi second; no succession civil war. |
-| 1886–1920 | Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies Siberia 1920; maternal and early service details retain labels. |
+| 1886–1920 | Kiyoshi, Elias’s second son after Silas, enters Kuroda house in 1886 and founds branch; Kiyonaka keeps main house. Count and Fleet-General in 1907; crown bid 1913–1914 renounced. Dies at Kronstadt in May 1920 (CR-040 K1, integration pending); maternal and early service details retain labels. |
 | 1887–1927 | Stakeholder compact renewals proposed in 1897, 1907, 1917; Japanese imperial careers rise. Fourth renewal becomes Pacific Concord in 1927, cured in 1928, with Tokyo domestic institutions retained and common ministries at Thalassia. |
 | 1900–1905 | Russia occupies China’s Manchurian railway from Transbaikalia; Japan wins 1904–1905 war and refuses Roosevelt’s mediation on Victoria’s advice. Japan holds the Pacific terminal; China owns Manchurian section; exact peace terms/signing place remain qualified. |
 | 1905–1915 | Korea independent under guarantee after 1905; Qing falls and Pacifica backs Sun. Silas confesses Donner and dies in 1912. Kiyoshi claims crown in 1913, renounces in 1914 for Kuroda queen. The Five stay neutral. Victoria lays down regency and Hawaiian crown in 1915; Julian accedes to both and marries Chiyo; Soberanes retires. |
 | 1914–1919 | Union neutral. Pacifica fights at sea/in Pacific, finances Entente and brokers the peace. Julian’s credit timing, London raid, Hague terms and Victoria’s commission retain proposed/open status. |
-| 1918–1922 | Coalition wins and holds Ob; Kiyoshi dies 1920. Altai gas massacre and false report 1921 break the Crown–Five arrangement; Victoria renounces. Harbin treaty and Siberian Republic; CR-031 differentiates Siberian coast, protected Kamchatka/Koryak and Transbaikalia; detailed mechanisms remain proposed. |
+| 1918–1922 | CR-041 (approved, integration pending): the line seized in one week from 26 May 1918; Kazan held in September 1918; the tri-partite Siberian treaty (Komuch, Siberia, Alash) in July 1918, ratified 10 September; the Omsk coup fails; Perm December 1918; the Volga battle of June 1919 with Vance on the Zelenodolsk bridge; Nizhny December 1919; Tula, the Oka, Moscow, Petrograd, Kotelnich and Kronstadt in 1920 as CR-040 Stages 3–4; the Tomsk vote of 1921 brings Siberia into federal Russia and Alash with it, unasked. Altai gas massacre and false report 1921; Victoria renounces. Harbin treaty; CR-031 northern settlement stands. Until integration, canon's Siberian war text (coalition holds the Ob; Siberian Republic) stands. |
 | 1923–1929 | British debt settlement, Japanese earthquake rescue and union crisis proposed. Chiang succeeds Sun; Zhang Zuolin assassinated; Zhang Xueliang holds Manchuria. Inspectorate returned on proposed defense bargain; Formosan administration retained. |
 | 1929–1932 | Depression; Pacifican moratorium, gold lending, bank support and second Union rescue; detailed settlement mechanics qualified. 1931 Manchurian plot stopped; May 1932 coup fails; overseas Japanese commands become common. Vance’s revised arc remains OPEN-018-18. |
 | 1932 | Pacific order survives and leads. Victoria brokers Keawe’s Lands and Waters Charter; Chronicler records triumph and cost. Thalassia Conference and archive mechanics remain qualified; no Gulf membership. Owen D. Young elected November, FDR cooperates; Young takes office 1933. |
