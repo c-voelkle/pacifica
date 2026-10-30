@@ -195,3 +195,15 @@ These are author decisions on planning questions. They become canon only through
 **Where it bites.** 1921 (France's separate deal with Ankara); September 1922 (France leaves Britain alone at Chanak); 1923–24 (Russian bond settlement and the revived alliance); 1925 (Britain's return to gold: Pacifica must supply the credit itself, so that New York does not); 1927 (the Concord and the oil settlement). A Locarno-type guarantee of the Franco-German frontier by Britain and the Union, if one happens, makes Britain the power that signed Alsace away in French eyes.
 
 **New decisions.** W1: revive the Franco-Russian alliance under Pacifican credit? W2: the order of service on Russian debt (B7) with the French bonds second? W3: who carries sterling back to gold in 1925, Pacifica or New York? W4: is there a Locarno, and who guarantees it?
+
+## 11. Author decisions, 30 October 2026 (morning)
+
+| ID | Decision | Status |
+|---|---|---|
+| W1 | No explicit Franco-Russian alliance; some rapprochement is welcome. The aim is the hub-and-spoke shape: prevent a London–New York or London–Washington combination. | APPROVED in direction |
+| W2 | French holders of Russian bonds rank after Pacifica's claims only if there is a reason other than spiting Britain. Proposed reason: new money and secured money come first (Pacifica's 1918–24 credit kept the borrower alive; its wartime credit was secured on collateral; the pre-1914 bonds were unsecured). | Conditional; reason proposed |
+| W3 | Pacifica backs sterling's return to gold in 1925, as the largest holder of monetary gold. Fact check: the workbook gives Pacifica about 22% of world monetary gold in 1925 and $474m of gold above note cover. The Union's stock is not modelled. The Rand (British South Africa) remains the largest producer. | APPROVED in direction |
+| W4 | No Locarno: Germany is not a pariah. How the war ends for Germany, and when and where the treaty is signed, must be defined (OPEN-019-01, -02, -07, -08). | APPROVED; to define |
+| W5 | Alsace-Lorraine becomes a neutral republic in union with Switzerland. | APPROVED |
+| U4 | The naval ratios: the author recalls Thalassia. Canon (§30) puts them in the 1919 peace; the Thalassia Conference is 1932. To settle. | OPEN |
+| T7 | Leaning to hold Kars; explore it in the three-body frame. | OPEN (leaning) |
