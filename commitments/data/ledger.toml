@@ -2423,6 +2423,29 @@ more_quotes = [
 open = "The settlement of 1898-99 dates the pledge; the instrument's form and its term are not stated. The option is exercised in 1909 (C-1909-HULUDAO-TRUST)."
 
 [[commitment]]
+id = "C-1908-HULUDAO-RAILWAY"
+name = "Mukden-Jinzhou-Huludao railway loan"
+kind = "loan"
+parties = ["CN", "UK", "PAC"]
+from = 1908
+owes = [
+  { by = "CN", to = "UK", what = "service of the senior share of the railway loan, led by the British and Chinese Corporation" },
+  { by = "CN", to = "PAC", what = "service of the junior share taken in San Francisco" },
+]
+secured_on = "the line's receipts"
+conditions = ["Britain the senior partner", "first discussed in London on Julian's visit of 1908", "built 1908-1910"]
+status = "PROPOSED"
+cr = "CR-042"
+section = 27
+quote = "The British and Chinese Corporation, which financed the line to Peking, leads the loan and San Francisco takes the junior share."
+more_quotes = [
+  "The railway to the harbour, from Mukden past Jinzhou to the gulf, is built in 1908–1910 by a British and Pacifican syndicate with Britain the senior partner, an idea first discussed in London on Julian's visit of 1908.",
+  "The bondholders hold the line's receipts as their security, so the last stretch of Pacifica's door runs on a British lien.",
+]
+label_note = "The syndicate and Britain's seniority are APPROVED (CR-042 H6); the lenders' names and the security are PROPOSED. The quote carries the PROPOSED label."
+open = "Loan amount, term and the split between senior and junior shares not stated."
+
+[[commitment]]
 id = "C-1909-HULUDAO-TRUST"
 name = "Huludao Harbour Trust"
 kind = "concession"
@@ -2446,7 +2469,7 @@ more_quotes = [
   "Works begin in 1910 and go on through the revolution, and the Republic confirms the commission as it continues the Formosan one.",
   "It stays under its Chinese commission, with a Pacifican director, until its last bonds are paid in the 1930s, and then passes to China's own harbour board.",
 ]
-open = "Bond amount and term not stated. Who financed the Mukden-Jinzhou-Huludao stretch, and so who holds a lien on it, is OPEN."
+open = "Bond amount and term not stated. The railway to the harbour runs on a British lien (C-1908-HULUDAO-RAILWAY)."
 
 [[commitment]]
 id = "C-1897-JP-GOLD-LOAN"

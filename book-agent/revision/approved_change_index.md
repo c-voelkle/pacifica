@@ -778,16 +778,15 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - H2: China pledges that no part of the Liaodong Gulf coast will be leased or ceded to any power and gives Pacifica first refusal on a harbour at Huludao; Pacifica takes nothing in the year of Kiaochow.
 - H3: In 1909 Julian exercises the option as the Huludao Harbour Trust, chartered under a Qing commission on the Keelung pattern (Pacifican director and engineers, San Francisco bonds secured on the harbour dues, Chinese sovereignty, customs and police); works begin in 1910 and go on through the revolution; the Republic confirms the commission.
 - H4: A Chinese line runs from Harbin through Changchun to Mukden by 1912.
+- H6: The railway from Mukden past Jinzhou to Huludao is built in 1908–1910 by a British and Pacifican syndicate with Britain the senior partner, first discussed in London on Julian's visit of 1908; the bondholders hold the line's receipts.
 - H5: The Transbaikal ataman retires to Urajio on his Japanese pension, not Dairen.
 - Japan's reaction to the trust stays off the page; the Victoria–Cixi scenes are a later edit.
 
 **Still open:**
-- Who financed the Mukden–Jinzhou–Huludao stretch and holds a lien on it (a possible British lien; Anglo-Pacifican arc).
 - Who builds and finances the Harbin–Mukden line (the 1896 Pacifican credit is the natural source).
 - Japan's reaction to the trust (off the page by author decision).
 - The Victoria–Cixi scenes.
 - Huludao's winter ice conditions (VERIFY before canon calls it ice-free).
-- Workbook: the Treasury's share of the trust's bonds (about $5m of $15m, 1910–1914, MODEL), to be added after the CR-041 workbook revision (PR #51).
 
 ### Author-approved editorial safeguards
 
