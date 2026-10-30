@@ -2402,6 +2402,53 @@ more_quotes = [
 open = "Term, end condition and the size of Pacifica's fee not stated. 'Receipts pay the indemnity, Japan, …' does not say whether 'Japan' is the indemnity's payee or a separate charge."
 
 [[commitment]]
+id = "C-1899-LIAODONG-PLEDGE"
+name = "Liaodong Gulf pledge and the Huludao first refusal"
+kind = "guarantee"
+parties = ["CN", "PAC"]
+from = 1899
+owes = [
+  { by = "CN", to = "PAC", what = "no part of the coast of the Liaodong Gulf to be leased or ceded to any power" },
+  { by = "CN", to = "PAC", what = "first refusal on a harbour at Huludao if one is ever built there with foreign capital" },
+]
+conditions = ["the Liaodong peninsula, Port Arthur and Dalian stay Chinese", "Pacifica takes nothing in the year of Kiaochow"]
+status = "PROPOSED"
+cr = "CR-042"
+section = 25
+quote = "China pledges that no part of the coast of the Liaodong Gulf will be leased or ceded to any power, and gives Pacifica first refusal on a harbour at Huludao, a sheltered bay on the gulf's western shore below Jinzhou, if a harbour is ever built there with foreign capital."
+more_quotes = [
+  "The Liaodong peninsula stays Chinese.",
+  "Victoria negotiates the terms with the Empress Dowager and holds Tokyo to the armistice of 1894, which gave Japan no mainland territory.",
+]
+open = "The settlement of 1898-99 dates the pledge; the instrument's form and its term are not stated. The option is exercised in 1909 (C-1909-HULUDAO-TRUST)."
+
+[[commitment]]
+id = "C-1909-HULUDAO-TRUST"
+name = "Huludao Harbour Trust"
+kind = "concession"
+parties = ["CN", "PAC"]
+from = 1909
+owes = [
+  { by = "CN", to = "PAC", what = "a Qing commission for a Pacifican director and Pacifican engineers of the Huludao harbour, on the Keelung pattern" },
+  { by = "CN", to = "PAC", what = "the harbour dues pledged to the bondholders until the bonds are paid" },
+]
+secured_on = "Huludao harbour dues"
+conditions = [
+  "Chinese sovereignty, customs and police",
+  "the Republic confirms the commission",
+  "not made a Concord affair in 1928; passes to China's own harbour board when the last bonds are paid in the 1930s",
+]
+status = "PROPOSED"
+cr = "CR-042"
+section = 27
+quote = "The Huludao Harbour Trust is chartered under a Qing commission on the Keelung pattern: a Pacifican director, Pacifican engineers, bonds placed in San Francisco, the harbour dues pledged to the bondholders until the bonds are paid, and Chinese sovereignty, customs and police."
+more_quotes = [
+  "Works begin in 1910 and go on through the revolution, and the Republic confirms the commission as it continues the Formosan one.",
+  "It stays under its Chinese commission, with a Pacifican director, until its last bonds are paid in the 1930s, and then passes to China's own harbour board.",
+]
+open = "Bond amount and term not stated. Who financed the Mukden-Jinzhou-Huludao stretch, and so who holds a lien on it, is OPEN."
+
+[[commitment]]
 id = "C-1897-JP-GOLD-LOAN"
 name = "Indemnity facility and gold loan for Japan's gold transition"
 kind = "loan"

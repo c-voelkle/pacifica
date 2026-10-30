@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 39 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 40 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -769,6 +769,25 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - What Alash keeps inside Russia after 1921 beyond courts and the kibitka tax; the fate of its regiments.
 - The hostages of 1918: how many railway advisers shot, and the one the reader has met. Who from Thalassia attends the Romanov burial. Where Kiyoshi's sword rests; a death poem. The day of Lenin's capture and the name of the Pacifican commander at Kotelnich. Whether the Tomsk vote is shown or reported.
 - VERIFY before integration: Legion day-dates for Omsk, Samara, Krasnoyarsk and Vladivostok; Kolchak's October 1917 departure from San Francisco; the Tomsk Duma dispersal of 26 January 1918; Ironside's Kotlas plan; the Red recapture of Ufa on 9 June 1919; the Romanov Bridge name; Mikhailov's role in the coup; Boldyrev's refusal of Kolchak; Krivoshein in Kyiv in late 1918; the Provisional Siberian Government's declaration of 4 July 1918.
+
+### CR-042 — Huludao: a door of Pacifica's own at the end of the Chinese line
+
+**Register status:** `approved_integrated`
+
+- H1: Dalian and Port Arthur stay Chinese in the settlement of 1898–99 through Victoria's negotiation with the Empress Dowager; Russia does not get Port Arthur and Japan takes no mainland harbour. Dalian keeps its Chinese name.
+- H2: China pledges that no part of the Liaodong Gulf coast will be leased or ceded to any power and gives Pacifica first refusal on a harbour at Huludao; Pacifica takes nothing in the year of Kiaochow.
+- H3: In 1909 Julian exercises the option as the Huludao Harbour Trust, chartered under a Qing commission on the Keelung pattern (Pacifican director and engineers, San Francisco bonds secured on the harbour dues, Chinese sovereignty, customs and police); works begin in 1910 and go on through the revolution; the Republic confirms the commission.
+- H4: A Chinese line runs from Harbin through Changchun to Mukden by 1912.
+- H5: The Transbaikal ataman retires to Urajio on his Japanese pension, not Dairen.
+- Japan's reaction to the trust stays off the page; the Victoria–Cixi scenes are a later edit.
+
+**Still open:**
+- Who financed the Mukden–Jinzhou–Huludao stretch and holds a lien on it (a possible British lien; Anglo-Pacifican arc).
+- Who builds and finances the Harbin–Mukden line (the 1896 Pacifican credit is the natural source).
+- Japan's reaction to the trust (off the page by author decision).
+- The Victoria–Cixi scenes.
+- Huludao's winter ice conditions (VERIFY before canon calls it ice-free).
+- Workbook: the Treasury's share of the trust's bonds (about $5m of $15m, 1910–1914, MODEL), to be added after the CR-041 workbook revision (PR #51).
 
 ### Author-approved editorial safeguards
 
