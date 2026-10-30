@@ -205,5 +205,11 @@ These are author decisions on planning questions. They become canon only through
 | W3 | Pacifica backs sterling's return to gold in 1925, as the largest holder of monetary gold. Fact check: the workbook gives Pacifica about 22% of world monetary gold in 1925 and $474m of gold above note cover. The Union's stock is not modelled. The Rand (British South Africa) remains the largest producer. | APPROVED in direction |
 | W4 | No Locarno: Germany is not a pariah. How the war ends for Germany, and when and where the treaty is signed, must be defined (OPEN-019-01, -02, -07, -08). | APPROVED; to define |
 | W5 | Alsace-Lorraine becomes a neutral republic in union with Switzerland. | APPROVED |
-| U4 | The naval ratios: the author recalls Thalassia. Canon (§30) puts them in the 1919 peace; the Thalassia Conference is 1932. To settle. | OPEN |
-| T7 | Leaning to hold Kars; explore it in the three-body frame. | OPEN (leaning) |
+| U4 | No Washington Conference. The naval ratios stay in the 1919 Hague settlement; the Thalassia Conference stays in 1932. | APPROVED |
+| T7 | Hold Kars (Armenian) by a second, Pacifican-supervised plebiscite on the National Pact's own terms. Kemal gets the Straits (T5), Mosul arbitration (T6) and the end of the Ottoman Public Debt Administration instead. Denied Kars, Ankara leans on Union money and the Baghdad line, which pushes London toward Thalassia. | APPROVED |
+
+### Direction change on the money trail (author, 30 October 2026)
+
+The author wants the Galkovskian register on purpose, for intrigue and stakes: "avoid equivocation between Pacifican money in the Soviet Union (used for setting up the operation that would overthrow them) and the British, French, Swiss, and American money trails that are uncovered there. The idea is Pacifica somewhat naively destroys what it correctly perceives to be the biggest danger to Europe and in so doing uncovers that the rabbit hole actually goes much, much deeper."
+
+This supersedes guardrail §5.2 ("Not Galkovsky's thesis") and the mutual-embarrassment mechanism of §3.4 (B4–B5). B3–B5 are to be redrafted.
