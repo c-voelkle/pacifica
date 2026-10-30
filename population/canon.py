@@ -248,12 +248,30 @@ def native_ca_switch() -> str:
     return load("assumptions")["switches"]["native_californians"]
 
 
+def war_rates() -> dict[int, float]:
+    """Extra mortality on men in the [war_deaths] ages, by year: the target deaths
+    divided by the men of those ages at the start of the year in a reference canon
+    run without war deaths. Fixed rates keep the engine linear."""
+    if "war" in _CACHE:
+        return _CACHE["war"]
+    cfg = load("assumptions").get("war_deaths", {})
+    if not cfg.get("enabled"):
+        _CACHE["war"] = {}
+        return {}
+    ref, _ = run(war=False)
+    start_men = {r["year"] - 1: r["men_war_ages"] for r in ref}   # row year = end of year; men after the step
+    _CACHE["war"] = {y: d / start_men[y] for y, d in zip(cfg["years"], cfg["deaths"]) if start_men.get(y)}
+    return _CACHE["war"]
+
+
 def run(native_ca_bound: str | None = None, joins: bool = True,
         streams: tuple[str, ...] = STREAMS, k_early: float | None = None,
-        case: str | None = None, nh_e0_full: float | None = None) -> tuple[list[dict], dict]:
+        case: str | None = None, nh_e0_full: float | None = None,
+        war: bool = True) -> tuple[list[dict], dict]:
     """One cohort run. `joins` and `streams` switch the sheet's territory joins and
     migration streams on or off; the engine is linear in population, so the
-    difference between two runs is exactly the contribution of what was switched."""
+    difference between two runs is exactly the contribution of what was switched.
+    `war` applies the [war_deaths] mortality (CR-041)."""
     native_ca_bound = native_ca_bound or native_ca_switch()
     if "sheet" not in _CACHE:
         _CACHE["sheet"] = read_sheet()
@@ -262,6 +280,9 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
     lev = sheet["levers"]
     nh = Rates(cal["e0"], cal["tfr"])
     rates = make_rates(nh, native_ca_bound, case, nh_e0_full)
+    wcfg = load("assumptions").get("war_deaths", {})
+    w_lo, w_hi = wcfg.get("ages", [19, 35])
+    wrates = war_rates() if war else {}
     persp = load("assumptions")["perimeter"]
     hi = load("census")["hawaii"]
     ca = load("census")["california"]
@@ -291,16 +312,23 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
                 pop["joined_territories"].add(*_stable(rates("white", y), d["join"], persp["joined_male_share"]))
         joined = {g: pop[g].total() for g in GROUPS}
         migr = migration_profiles(y, d, prev, lev, streams, k_early)
-        births = deaths = 0.0
+        births = deaths = war_deaths = 0.0
         ni_by_group = {}
         for g in GROUPS:
             if pop[g].total() <= 0 and g not in migr:
                 ni_by_group[g] = 0.0
                 continue
             res = cohort.step(pop[g], rates(g, y), migr.get(g))
+            killed = 0.0
+            if y in wrates:
+                for a in range(w_lo, w_hi + 1):
+                    k = pop[g].M[a] * wrates[y]
+                    pop[g].M[a] -= k
+                    killed += k
+            war_deaths += killed
             births += res["births"]
-            deaths += res["deaths"]
-            ni_by_group[g] = res["births"] - res["deaths"]
+            deaths += res["deaths"] + killed
+            ni_by_group[g] = res["births"] - res["deaths"] - killed
         excess = 0.0
         g = pop["native_californian"]
         target = None
@@ -320,6 +348,7 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
         row = {"year": y + 1, "model_total": tot, "sheet_total": d["end"],
                "model_natural_increase": births - deaths - excess, "sheet_natural_increase": d["natural"],
                "native_ca_excess_loss": excess, "gap_by_group": dict(gap),
+               "war_deaths": war_deaths, "men_war_ages": allg.between("M", w_lo, w_hi),
                "sheet_rate_ni_on_group": {g: joined[g] * d["ni_rate"] for g in GROUPS},
                "model_ni_by_group": ni_by_group,
                "men_18_45": allg.between("M", 18, 45), "women_15_49": allg.between("F", 15, 49),

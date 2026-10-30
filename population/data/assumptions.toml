@@ -79,3 +79,18 @@ tfr_range = [2.0, 7.0]
 # for those rates, with the sex ratio below (MODEL: frontier populations were
 # male-heavy; 1860-70 western census sex ratios not yet sourced).
 joined_male_share = 0.58
+
+[war_deaths]
+# CR-041 (MODEL): deaths of Pacifican servicemen in the Russian war, 1918-1922: the
+# Expeditionary Corps of 50,000 (Kazan, Perm, Glazov, the Volga battle, Kotelnich,
+# the Altai), the Baltic squadron at Kronstadt and the railway advisers shot as
+# hostages in 1918. Anchor: Japan's Siberian intervention lost 3,116 dead (1,399
+# killed, 1,717 of disease) of about 70,000 men in 1918-22 (Wikipedia, "Japanese
+# intervention in Siberia"); the Pacifican corps is smaller, fights harder and for
+# a shorter time. Applied as a fixed extra mortality on men aged 19-35 in every
+# group, solved once so that the full canon run loses these numbers; a rate keeps
+# the engine linear, so the flows chain stays exact.
+enabled = true
+ages = [19, 35]
+years = [1918, 1919, 1920, 1921, 1922]
+deaths = [800, 1400, 800, 450, 50]
