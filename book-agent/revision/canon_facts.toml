@@ -227,3 +227,8 @@ source = "CR-041"
 pattern = "Kiyoshi dies in Siberia|Kiyoshi[^.]{0,60}(?:killed|dies) in Siberia in 1920|Kuroda[^.]{0,60}(?:killed|dies) in Siberia in 1920"
 message = "Kiyoshi dies at Kronstadt in May 1920 (CR-040 K1, integrated with CR-041)"
 source = "CR-041"
+
+[[forbidden]]
+pattern = '''\bDairen\b'''
+message = "CR-042 H1/H5: Dalian stays Chinese and keeps its Chinese name; the Transbaikal ataman retires to Urajio"
+source = "CR-042"

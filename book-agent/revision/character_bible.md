@@ -1164,7 +1164,15 @@ Heads the Provisional Siberian Government at Omsk that declares Siberia independ
 
 **Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.
 
-PROPOSED ataman obstructing railway traffic and using terror at the Chita junction. In summer 1919 Tokyo stops his subsidy and the Transbaikal Cossack circle votes him out with a Japanese diplomat present. He leaves for Dairen on a Japanese pension. The later Transbaikal Council and civilian Resident are not his personal dictatorship; the unnamed decorated officer who moves the vote remains unnamed.
+PROPOSED ataman obstructing railway traffic and using terror at the Chita junction. In summer 1919 Tokyo stops his subsidy and the Transbaikal Cossack circle votes him out with a Japanese diplomat present. He leaves for Urajio on a Japanese pension. The later Transbaikal Council and civilian Resident are not his personal dictatorship; the unnamed decorated officer who moves the vote remains unnamed.
+
+**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-XU-SHICHANG — Xu Shichang
+
+**Status:** Historical person in alternate history; CR-042, 30 October 2026.
+
+Viceroy of the Three Eastern Provinces from 1907 (*hist.*), who founded the Huludao harbour project in 1908 (*hist.*). In 1909 he charters the Huludao Harbour Trust with Pacifica under a Qing commission on the Keelung pattern: a Manchurian port that no foreign power holds, built with the money Peking has known for ten years will come. Later president of the Republic (1918–1922, *hist.*); his conduct as president in this timeline is not yet developed.
 
 **Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 

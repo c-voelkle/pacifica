@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 171,
+    "canonical_dossiers": 172,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 165
+    "active_or_provisional_identities": 166
   },
   "people": [
     {
@@ -3272,13 +3272,28 @@
       "tier": "supporting",
       "identity_state": "source_qualified_alternate_career",
       "story_bible_section": "CT-GRIGORY-SEMENOV",
-      "narrative_profile": "**Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.\n\nPROPOSED ataman obstructing railway traffic and using terror at the Chita junction. In summer 1919 Tokyo stops his subsidy and the Transbaikal Cossack circle votes him out with a Japanese diplomat present. He leaves for Dairen on a Japanese pension. The later Transbaikal Council and civilian Resident are not his personal dictatorship; the unnamed decorated officer who moves the vote remains unnamed.\n\n**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-031, as embodied in the supplied master of 23 October 2026.\n\nPROPOSED ataman obstructing railway traffic and using terror at the Chita junction. In summer 1919 Tokyo stops his subsidy and the Transbaikal Cossack circle votes him out with a Japanese diplomat present. He leaves for Urajio on a Japanese pension. The later Transbaikal Council and civilian Resident are not his personal dictatorship; the unnamed decorated officer who moves the vote remains unnamed.\n\n**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.",
       "links": [],
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
         "CR-031",
         "Author-supplied master storyline 2026-10-23; original standalone CR not supplied"
+      ]
+    },
+    {
+      "id": "CT-XU-SHICHANG",
+      "display_name": "Xu Shichang",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "source_qualified_alternate_career",
+      "story_bible_section": "CT-XU-SHICHANG",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-042, 30 October 2026.\n\nViceroy of the Three Eastern Provinces from 1907 (*hist.*), who founded the Huludao harbour project in 1908 (*hist.*). In 1909 he charters the Huludao Harbour Trust with Pacifica under a Qing commission on the Keelung pattern: a Manchurian port that no foreign power holds, built with the money Peking has known for ten years will come. Later president of the Republic (1918–1922, *hist.*); his conduct as president in this timeline is not yet developed.\n\n**Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-042"
       ]
     },
     {
@@ -3640,7 +3655,7 @@
       ]
     }
   ],
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-10-30",
   "character_revision": {
     "request": "CR-040 Stages 3–4 and CR-041",
     "source": "CR-040.md, CR-041.md; author approval of 29 October 2026 (\"go ahead and integrate\")",
