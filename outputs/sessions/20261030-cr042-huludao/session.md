@@ -31,7 +31,7 @@ independence: same-agent (drafting and integration combined; self-review only)
 ## Author decisions and open choices
 
 - D1–D5 = CR-042 H1–H5 (see book-agent/revision/CR-042.md).
-- Q1: who financed Mukden–Jinzhou–Huludao (possible British lien).
+- D6 = CR-042 H6: a British and Pacifican syndicate, Britain senior, builds Mukden–Jinzhou–Huludao in 1908–10 (author, 30 Oct 2026; settles Q1).
 - Q2: who builds the Harbin–Mukden line.
 - Q3: Japan's reaction (off the page).
 - Q4: Victoria–Cixi scenes.
@@ -42,9 +42,8 @@ independence: same-agent (drafting and integration combined; self-review only)
 
 ## Round log and stop reason
 
-Integrated and merged as PR #52. PR #51 (CR-041 workbook) is still open; the Huludao bond row goes into the workbook after it merges.
+Integrated and merged as PR #52. H6 added afterwards and merged with PR #51 (the CR-041 workbook, rebased on main, plus `finance/build/cr042_huludao.py`).
 
 ## Resume here
 
 - The Anglo-Pacifican cold-war arc: settle W1–W4, U4 and T7 (planning note §9–§10), then draft the first follow-on CR (Britain in the Russian war, the K1 amendment for Dzerzhinsky and Stalin, Alash's regiments).
-- Merge PR #51, then add the Huludao Harbour Trust bonds to the workbook (CR-042 open item).
