@@ -89,3 +89,15 @@ python3 -m unittest discover -s population/tests
 ```
 
 `CR034.xlsx` is the workbook at commit `09fc30a` (SHA-256 `061d6c34…`).
+
+## Addendum, 30 October 2026: CR-042 (Huludao)
+
+[`build/cr042_huludao.py`](build/cr042_huludao.py) adds five levers and two Events rows on top of this revision. Both rows are Treasury loans to China in the Asia group (4% repayment, 5.5% coupon). Amounts are MODEL:
+
+| Row | Years | Treasury cash | Basis |
+|---|---|---|---|
+| Mukden–Jinzhou–Huludao railway, Treasury part of the junior Pacifican share | 1908–1910 | $2.1m | A $12m loan led by the British and Chinese Corporation, Britain senior (H6); Pacifica 35%, half of it Treasury |
+| Huludao Harbour Trust bonds, Treasury share | 1910–1914 | $4.95m | $15m of bonds secured on the harbour dues (H3), a third Treasury |
+
+Effect: public debt in 1932 is $0.4m lower, Asia-group claims are $3m higher, and residents are 855 fewer in 1932, through slightly less Development Fund investment. There are no failed checks in the Story case. The Siberia sheet is unchanged: Huludao traffic joins the line at Harbin, so it relieves only section 1, which never binds. The workbook's SHA-256 is now `79fed33149b67392af5187a9249e2972c7b3190a957fbca476e61f955d7e99b5`; the SHA at the top of this note is the CR-041 stage.
+
