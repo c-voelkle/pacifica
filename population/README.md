@@ -7,6 +7,7 @@ python3 population/historical.py   # validation against our timeline  -> outputs
 python3 population/canon.py        # canon run against the People sheet -> outputs/reconciliation.md, canon_by_year.csv
 python3 population/flows.py        # where the population comes from, and migration vs US immigration -> outputs/flows.md
 python3 population/changes.py      # workbook change list figures -> outputs/workbook_changes.md, workbook_changes.csv
+python3 population/neighbours.py   # the rump, the Gulf and the Union (CR-048) -> outputs/neighbours.md, neighbours_by_year.csv
 python3 -m unittest discover -s population/tests -v
 ```
 
@@ -100,3 +101,13 @@ The workbook now includes the changes (`finance/CR-033-workbook.md`). `[dem01] m
 [`workbook_change_list.md`](workbook_change_list.md) lists what the People, Paths, Levers and Checks sheets would need to match the approved model. It also lists the knock-on effects to check and the Land Fund rows; all were applied on 27 October 2026.
 
 **Year convention:** the change list counts residents at the end of each year, as the People sheet does (column L). Elsewhere in this README and in CR-033, "in 1932" means the start of 1932. Before the workbook was revised, the model gave 30.1m at the start of 1932 and 30.9m at the end, using the old sheet's migration. With the revised workbook's migration it gave 31.8m at the start and 32.6m at the end; with skilled entry from 1856, 35.3m and 36.2m.
+
+## The continental neighbours (`neighbours.py`, CR-048)
+
+The rump Confederacy (South Carolina, Georgia, Alabama, Mississippi, Florida) from the 1870 census, in two groups, Black and white-and-other, with Haines's national rates.
+
+- **Our timeline:** each group is closed between censuses, which gives historical net migration by decade, as for California.
+- **Canon:** the same rates and historical migration, plus extra departures (`data/neighbours.toml` [rump_flight], MODEL): escapes under the Freedom Act from 1873, departures after abolition in 1889, and the long emergency from 1906. The emigrants and their descendants are followed to the Union (most Black emigrants) or the Gulf Republic (half the white ones after 1900).
+- **The Union and the Gulf** are the workbook's paths plus those emigrants. The workbook's Union already contains our timeline's southern migrants.
+
+Central estimate: the rump has 7.1m people in 1900 (historical 7.5m), 48% Black; 9.15m in 1932 (historical 11.0m), 29% Black (historical 39%). Its Black majority ends in 1888 rather than 1903. About 1.6m extra rump emigrants and descendants live in the Union by 1932. Low and high cases (departures × 0.5 and × 1.5) are in `outputs/neighbours.md`. Census figures for the five states are recalled and still to verify against the Census Bureau's Working Paper 56.

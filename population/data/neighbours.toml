@@ -1,0 +1,77 @@
+# The continental neighbours: the rump Confederacy (CR-048), the Gulf Republic
+# and the Union. Census anchors are our timeline; the flows below them are MODEL
+# readings of canon. Used by neighbours.py.
+
+# ---------------------------------------------------------------------------
+# Census anchors: the five rump states together (SC, GA, AL, MS, FL)
+# ---------------------------------------------------------------------------
+
+[rump_census]
+years = [1870, 1880, 1890, 1900, 1910, 1920, 1930]
+# Per state, total and Black, in census order [1870 ... 1930].
+SC_total = [705606, 995577, 1151149, 1340316, 1515400, 1683724, 1738765]
+SC_black = [415814, 604332, 688934, 782321, 835843, 864719, 793681]
+GA_total = [1184109, 1542180, 1837353, 2216331, 2609121, 2895832, 2908506]
+GA_black = [545142, 725133, 858815, 1034813, 1176987, 1206365, 1071125]
+AL_total = [996992, 1262505, 1513401, 1828697, 2138093, 2348174, 2646248]
+AL_black = [475510, 600103, 678489, 827307, 908282, 900652, 944834]
+MS_total = [827922, 1131597, 1289600, 1551270, 1797114, 1790618, 2009821]
+MS_black = [444201, 650291, 742559, 907630, 1009487, 935184, 1009718]
+FL_total = [187748, 269493, 391422, 528542, 752619, 968470, 1468211]
+FL_black = [91689, 126690, 166180, 230730, 308669, 329487, 431828]
+source = "US census, state tables by race as compiled in Gibson & Jung, 'Historical Census Statistics on Population Totals by Race, 1790 to 1990', Census Bureau Working Paper 56 (2002), Tables 15, 24, 25, 39, 55"
+status = "recalled (not re-read in this session); Georgia totals 1910-1930 spot-checked against Wikipedia, 'Demographics of Georgia (U.S. state)'. To verify against the Working Paper tables."
+note = "'White and other' = total minus Black; Indian and Asian residents of these states were under 0.2% of the total. The 1870 census undercounted the South; the closure absorbs that error into the 1870s migration figure."
+
+# ---------------------------------------------------------------------------
+# Canon flows (MODEL). Extra departures from the rump beyond our timeline's,
+# by period: [first year, Black departures a year, white departures a year].
+# The year runs from the first year to the next row's first year.
+# ---------------------------------------------------------------------------
+
+[rump_flight]
+periods = [
+  # 1865 armistice: the Union holds Tennessee. Black Union regulars and freedmen's
+  # homesteads along Tennessee sustain escape networks (§13). Slavery stands.
+  # The model starts at the 1870 census; 1866-1869 (about 8,000 at this rate)
+  # is left out, well inside the 1870 census's own undercount.
+  [1870, 2000, 0],
+  # 1873 Freedom Act: refugees free on arrival, citizens after a year (§13).
+  # Escapes from slavery under patrols and the free-womb regime.
+  [1873, 6000, 0],
+  # 1889 final abolition (§25): free people can leave; Richmond answers with
+  # emigrant-agent laws and passes. Movement within the Confederacy (to Texas,
+  # Arkansas, Louisiana) is our timeline's and is already in the census.
+  [1889, 15000, 0],
+  # 1900 the rump alone (CR-048 R1-R3): the Gulf leaves, the debt stays.
+  # Skilled and ambitious whites follow the oil and the Union's money.
+  [1900, 15000, 4000],
+  # 1906 Atlanta and the long emergency; the weevil reaches Mississippi in 1907
+  # (CR-048 R8, R14). The Union is next door on two fronts since 1899.
+  [1906, 30000, 6000],
+  # 1916 our timeline's Great Migration begins; the census already carries it.
+  # The extra is the emergency, the Montgomery table and the Union's neutral war boom.
+  [1916, 25000, 5000],
+  # 1930 the depression closes the Union's factories.
+  [1930, 5000, 2000],
+]
+# Share of children among those leaving. Escapes from slavery are mostly adults;
+# after abolition whole families leave.
+child_share = [[1870, 0.10], [1889, 0.30]]
+black_male_share = [[1870, 0.65], [1889, 0.50]]
+white_male_share = 0.55
+# Where they go: share to the Union (the rest to the Gulf Republic). Before 1900
+# the Gulf states are Confederate, so all departures counted here go to the Union.
+black_to_union = [[1870, 1.0], [1900, 0.90]]
+white_to_union = [[1870, 1.0], [1900, 0.50]]
+# Low and high cases scale every departure figure above.
+scenarios = { low = 0.5, high = 1.5 }
+status = "MODEL (CR-048, proposed 31 October 2026). Canon fixes the direction, not the numbers."
+
+[rump_rates]
+# The rump keeps our timeline's Southern rates (Haines national Black and white
+# series): CR-048 gives it no Gulf-style health programme. The national white
+# series is somewhat better than the Southern white rate; the error goes into
+# the census closure's migration figures, not into the totals.
+series_white = "white"
+series_black = "black"
