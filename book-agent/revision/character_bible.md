@@ -56,7 +56,7 @@ From 1887 Victoria is Regent of Pacifica and remains Queen of Hawaii. The Five r
 
 Her regency preserves the existing diplomatic arc: Korean neutrality in 1894, Primorye finance, Japan’s 1905 victory and the canal’s opening in 1900. Silas renounces in December 1906 and confesses Donner in 1912; Kiyoshi’s 1907 bid tests the estates’ neutrality and ends in renunciation in exchange for the Kuroda queen. The 1907 Act establishes Pacifica’s crown, joins her existing Hawaiian crown, dissolves the Council and restores Hawaii’s legislature. She lays down regency and crown in November 1907; Julian accedes to both (CR-040). In July 1914 she urges him to use the oil against Berlin, and he refuses.
 
-She continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. In the winter of 1917–18 she wants peace and Julian does not; her objection stays private (CR-043 P10), and only her cables to Kaʻiulani at The Hague record what she wanted first. The peace itself is mediated by Kaʻiulani and Bryan, not by her. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.
+She continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. In the winter of 1917–18 she wants peace and Julian does not; her objection stays private (CR-043 P10), and only her cables to Kaʻiulani at The Hague record what she wanted first. The peace itself is mediated by Kaʻiulani and Bryan, not by her. When Petrograd falls she comes from Thalassia to the Romanov burial and meets the British royal party in the cathedral; the Dowager Empress is Queen Alexandra's sister, and George V's withdrawal of asylum in 1917 is remembered and not mentioned (CR-044 B4). The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.
 
 **Desire:** Preserve Hawaiian life while exercising real power in the Pacific order. **Contradiction:** She protects a people by defending a bargain that injures its political freedom; measures may express care, guilt or rivalry. **Voice/POV:** Political clarity, Hawaiian kinship, land, sea and legal protocol, with warmth among intimates. Songs and her choice of husband express agency. **Open:** When she learns of Kiyoshi; lost son’s birth year and accident; proposed cylinder, Five personnel, instruments and mythic echoes; culpability for Noe’s death; final private reckoning. There is no separate fictional cousin.
 
@@ -176,9 +176,9 @@ He organizes the Polytechnic and communications during the managed succession. W
 
 **[PROPOSED]** Vance is Caleb’s great-grandson and Marcus I’s grandson through a second Marcus who avoids public command and surveys railways. After Caleb saves the unrelated Soberanes at Donner Pass, Soberanes funds the boy’s education and brings him into the Polytechnic. He and Julian grow up nearly as foster brothers: one heir to the system, the other to the throne. The old Marcus II command role remains retired, and the private father’s identity is not silently assigned that role.
 
-**[PROPOSED]** A cautious, exact railway and logistics officer, he designs the line, its depots and the peasant guarantee. **[APPROVED — CR-041]** He commands the Pacifican Expeditionary Corps from May 1918: the railway brigade that seizes the workshops in the Week, the Ural gate, the depots filled while the barges run, and the armoured train *Māui* built in the Omsk works. In June 1919 he holds the Volga bridge at Zelenodolsk while the trains clear it, the wounded, the railway families and the Legion's last echelons crossing behind him; Czech and Slovak representatives honour him for it. **[PROPOSED]** When Kiyoshi leaves for the Baltic in 1919 Vance holds the Siberian line; Kiyoshi’s death in 1920 leaves him the coalition's senior commander. His fear is failing remembered dead, not a hereditary appetite for atrocity. In the Altai in 1921 he uses gas against partisans threatening the railway while knowing they hold Japanese prisoners. The partner’s men die with their captors.
+**[PROPOSED]** A cautious, exact railway and logistics officer, he designs the line, its depots and the peasant guarantee. **[APPROVED — CR-041]** He commands the Pacifican Expeditionary Corps from May 1918: the railway brigade that seizes the workshops in the Week, the Ural gate, the depots filled while the barges run, and the armoured train *Pele* built in the Omsk works (CR-044). **[PROPOSED — CR-044]** On the night of the Omsk coup he has an hour with Kolchak before the Council meets and shows him the timetable: no train for a Supreme Ruler, a ship for an admiral wherever he likes. His father, the railway surveyor (CT-VANCE-SURVEYOR), is a hostage of the Cheka from September 1918 to May 1920. **[APPROVED — CR-041]** In June 1919 he holds the Volga bridge at Zelenodolsk while the trains clear it, the wounded, the railway families and the Legion's last echelons crossing behind him; Czech and Slovak representatives honour him for it. **[PROPOSED]** When Kiyoshi leaves for the Baltic in 1919 Vance holds the Siberian line; Kiyoshi’s death in 1920 leaves him the coalition's senior commander. His fear is failing remembered dead, not a hereditary appetite for atrocity. In the Altai in 1921 he uses gas against partisans threatening the railway while knowing they hold Japanese prisoners. The partner’s men die with their captors.
 
-**[PROPOSED]** The Altai crime betrays his own act on the Volga bridge: he held a crossing so that others could live, and gasses prisoners. Julian approves falsification to protect the treaty. Vance signs, then tells Victoria; her renunciation leaves him in command but damages both relationships. In 1931 he executes Julian’s prohibition on carrying Japanese troops to Manchuria. In May 1932 guards sympathetic to the Restoration, some tied to the Altai victims, kill him. He has already given the true report to the Chronicler.
+**[PROPOSED]** The Altai crime betrays his own act on the Volga bridge: he held a crossing so that others could live, and gasses prisoners. **[PROPOSED — CR-044]** It betrays Kiyoshi too, who died to bring the hostages out alive, Vance's own father among them. Julian approves falsification to protect the treaty. Vance signs, then tells Victoria; her renunciation leaves him in command but damages both relationships. In 1931 he executes Julian’s prohibition on carrying Japanese troops to Manchuria. In May 1932 guards sympathetic to the Restoration, some tied to the Altai victims, kill him. He has already given the true report to the Chronicler.
 
 **Proposed emotional tension:** Affection and competence make the partnership work; guilt exposes what victory required. His death connects the right act of 1931 to the wrong act of 1921. **Voice:** Concrete distances, capacity and contingencies; cautious professional language strained by guilt. **Open:** The whole lineage, mentorship, foster bond, career, attack circumstances, confession and ending remain OPEN-018-18; the companion’s archive recommendation does not approve them by inference.
 
@@ -359,7 +359,7 @@ He arrives in Pacifica in the 1870s in the proposed early chronology. He enters 
 
 Victoria holds Hawaiian legitimacy, Tokyo refuses the elevation of a Japanese count, the Senate coalition fails and examined officers refuse a strike. Julian asks him in Japanese for a wife from his house. In March 1907 he renounces for himself and his descendants in exchange for the Kuroda queen, Chiyo. The Act names him “Kuroda Kiyoshi, son of Elias Thorne”; he never uses the name. The Five’s neutrality is decisive. **[PROPOSED — CR-026]** He backs Victoria against the Twenty-One Demands.
 
-Chiyo is of another branch and not his blood. His son keeps Japanese fleet units loyal in 1932, remembering the failed bid. **[APPROVED — CR-041]** He is the coalition's commander-in-chief at Irkutsk from May 1918. **[APPROVED — CR-040 K1]** In 1919 he gives up that command and takes the coalition's Baltic squadron, his flag in *Izumo* with Japan's Mediterranean ships and Pacifican cruisers (CR-041), and leaves the Siberian line to Vance. In May 1920 at Kronstadt he goes aboard the *Petropavlovsk* alone, in full dress with his sword, asks only for a Japanese-speaking interpreter, offers Stalin a neutral ship and the crew their families, and when Stalin shoots the interpreter and then him, draws and cuts once; Stalin is dead before he falls. He lives to see the hostages brought up and dies on the quarterdeck in the morning. Japan enshrines him as a war god. He never dies in Siberia. CT-KURODA-II stays retired alias provenance. **Desire:** Belonging, recognition and command within both worlds. **Open:** Proposed maternal and early career details, wife’s individuality, son’s name and scene detail. No personal railway-sabotage mission is invented.
+Chiyo is of another branch and not his blood. His son keeps Japanese fleet units loyal in 1932, remembering the failed bid. **[APPROVED — CR-041]** He is the coalition's commander-in-chief at Irkutsk from May 1918. **[APPROVED — CR-040 K1]** In 1919 he gives up that command and takes the coalition's Baltic squadron, his flag in *Izumo* with Japan's Mediterranean ships and Pacifican cruisers (CR-041), and leaves the Siberian line to Vance. In May 1920 at Kronstadt he goes aboard the *Petropavlovsk* alone, in full dress with his sword, asks only for a Japanese-speaking interpreter, offers Dzerzhinsky (CR-044 B6; Stalin in the original K1) a neutral ship and the crew their families, and when Dzerzhinsky shoots the interpreter and then him, draws and cuts once; Dzerzhinsky is dead before he falls. The first adviser up from the hostage deck is Vance's father (CR-044, PROPOSED). He lives to see the hostages brought up and dies on the quarterdeck in the morning. Japan enshrines him as a war god. He never dies in Siberia. CT-KURODA-II stays retired alias provenance. **Desire:** Belonging, recognition and command within both worlds. **Open:** Proposed maternal and early career details, wife’s individuality, son’s name and scene detail. No personal railway-sabotage mission is invented.
 
 **APPROVED — CR-031-R1:** The industrial world supporting his naval party is reciprocal: Japanese engineers and firms improve methods and compete with Pacifican peers. Its later-nineteenth-century construction productivity precedes the Concord. His Japanese constituency consists of capable partners with methods of their own; no additional personal company office or invention is assigned to him.
 
@@ -1220,7 +1220,7 @@ Stolypin's minister of agriculture, whom Julian met in St Petersburg in 1908. In
 
 **Status:** Historical person in alternate history; CR-041 S4.
 
-Admiral; passes through San Francisco in October 1917 and dines with Julian's staff, whose note reads "will want all of Russia and cannot hold Omsk". War minister of the Ufa Directory. On the night of 18 November 1918, when Volkov's officers arrest the Directory's Socialist-Revolutionaries and the Council of Ministers offers him the title of Supreme Ruler, he declines it in front of them, because the paymaster has already said no Siberian ministry is funded until the Directory sits. Offered the Baltic under Kiyoshi in 1919, he refuses to serve under a Japanese admiral and spends 1919–20 in Japan. After Harbin he is federal Russia's navy minister, and the fleet surrendered at Kronstadt comes back to Russia under him. He is never Supreme Ruler.
+Admiral; passes through San Francisco in October 1917 and dines with Julian's staff, whose note reads "will want all of Russia and cannot hold Omsk". War minister of the Ufa Directory. On the night of 18 November 1918, when Volkov's officers arrest the Directory's Socialist-Revolutionaries and the Council of Ministers offers him the title of Supreme Ruler, he declines it in front of them, because the paymaster has already said no Siberian ministry is funded until the Directory sits. PROPOSED — CR-044: before the Council meets Vance has an hour with him and shows him the timetable, no train for a Supreme Ruler east or west of Omsk and a ship for an admiral wherever he likes. Offered the Baltic under Kiyoshi in 1919, he refuses to serve under a Japanese admiral and spends 1919–20 in Japan. After Harbin he is federal Russia's navy minister, and the fleet surrendered at Kronstadt comes back to Russia under him. He is never Supreme Ruler.
 
 **Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 
@@ -1244,7 +1244,7 @@ Commander-in-chief of the Ufa Directory's forces, a professional acceptable to t
 
 **Status:** Historical person in alternate history; CR-040 R7–R9.
 
-Chairman of the Council of People's Commissars, which decrees the Red Terror on 5 September 1918; author of the Penza telegram of 11 August 1918. Leaves Moscow before it falls in March 1920 by the northern road toward Vyatka, and is taken at the Kotelnich bridge by the Pacifican armoured train *Māui* and Russian cavalry in April 1920 (CR-041). Tried with Trotsky before a Russian court in Moscow for state crimes of which he is guilty, charged with the Romanov murder, and executed in late 1920. His Kamchatka concession to a Los Angeles engineer, signed in his government's last winter, is repudiated at Harbin.
+Chairman of the Council of People's Commissars, which decrees the Red Terror on 5 September 1918; author of the Penza telegram of 11 August 1918. Leaves Moscow before it falls in March 1920 by the northern road toward Vyatka, and is taken at the Kotelnich bridge by the Pacifican armoured train *Pele* under Major George S. Patton (CT-GEORGE-PATTON) and Russian cavalry on 22 April 1920, his fiftieth birthday (CR-041, CR-044). Tried with Trotsky before a Russian court in Moscow for state crimes of which he is guilty, charged with the Romanov murder, and executed in late 1920. His Kamchatka concession to a Los Angeles engineer, signed in his government's last winter, is repudiated at Harbin.
 
 **Character use:** His words are the regime's own, published by the Office beside the lists. No invented private scenes; the trial record is PROPOSED in detail.
 
@@ -1258,11 +1258,11 @@ Orders the Czechoslovak Legion disarmed on 25 May 1918, the trigger of the coali
 
 ### CT-STALIN — Joseph Stalin
 
-**Status:** Historical person in alternate history; CR-040 K1.
+**Status:** Historical person in alternate history; CR-040, amended by CR-044 B6 (31 October 2026).
 
-Directed the recapture of Krasnaya Gorka from the sea in June 1919. When Moscow falls he goes north to make Petrograd and the Kronstadt fleet the regime's last base, crosses the ice to the island with the Petrograd Cheka when Petrograd falls by land, and keeps the hostages aboard the *Petropavlovsk*. In May 1920 he demands that the admiral come aboard alone, refuses the neutral ship with contempt for his men to hear, sees the guards look at one another, shoots the interpreter and fires twice into Kiyoshi, and is dead before Kiyoshi falls. He is never tried.
+Directed the recapture of Krasnaya Gorka from the sea in June 1919 and told Lenin he deplored the naval science that called it impossible (*hist.*). When Moscow falls in March 1920 he slips away south and is next heard of in Tiflis; Georgia's Menshevik government will not hand a Georgian to a Russian court. His road south is OPEN. He is never tried. Whether and when he resurfaces is OPEN. The Kronstadt role of the original K1 passes to Dzerzhinsky (CT-FELIX-DZERZHINSKY).
 
-**Character use:** No invented interiority; the scene is K1, approved verbatim.
+**Character use:** No invented interiority.
 
 ## CR-043 — the peace of 1919 (31 October 2026)
 
@@ -1297,3 +1297,61 @@ Secretary of the Czechoslovak National Council in Paris (*hist.*). PROPOSED: he 
 Bern surgeon and Nobel laureate of 1909 (*hist.*), master of thyroid surgery, who by 1917 had performed some five thousand thyroid operations at very low mortality (*hist.*). In 1897 he operates on Kaʻiulani in stages: ligation of the thyroid arteries, then partial resection, leaving her enough of the gland.
 
 **Character use:** One medical episode; no invented interiority.
+
+## CR-044 — Omsk, the hostages and the Russian war's loose ends (31 October 2026)
+
+### CT-FELIX-DZERZHINSKY — Felix Dzerzhinsky
+
+**Status:** Historical person in alternate history; CR-040 K1 as amended by CR-044 B6 (approved in direction 29 October 2026).
+
+Founder and head of the Cheka (*hist.*). When Moscow falls he goes north to make Petrograd and the Kronstadt fleet the regime's last base; when Petrograd falls by land he crosses the ice to the island with the Petrograd Cheka and the fleet's commissars and keeps the hostages aboard the *Petropavlovsk*, among them the last Pacifican railway advisers. In May 1920 he demands that the admiral come aboard alone, refuses the neutral ship with contempt for his men to hear, sees the guards look at one another, shoots the interpreter and fires twice into Kiyoshi, and is dead before he falls.
+
+**Character use:** No invented interiority; the scene is K1, approved verbatim apart from the name.
+
+### CT-VANCE-SURVEYOR — the surveyor Vance, Marcus III's father
+
+**Status:** PROPOSED — CR-044 C1 (31 October 2026). The private father of CT-MARCUS-III, the "second Marcus who avoids public command and surveys railways". **Not** the retired CT-MARCUS-II record, whose role and relationships stay retired; Marcus III's lineage remains OPEN-016-06 as proposed.
+
+An old railway surveyor who comes out to Russia with the Pacifican railway mission in 1916 and stays through the revolutions. Taken hostage in Petrograd in September 1918 and spared when eleven of the advisers are shot, he is moved to Kronstadt in 1920 and is the first of the Pacifican advisers brought up alive from the *Petropavlovsk*'s hostage deck after Kiyoshi's cut. His survival is the living stake in his son's caution, and the measure of the Altai crime.
+
+**Character use:** A quiet professional with no public command. Further biography, his given name as used on the page and his scenes are PROPOSED until developed by the author.
+
+### CT-NAGAI-SHOZO — Nagai Shōzō
+
+**Status:** Invented; PROPOSED — CR-044 C1, C5(a) (31 October 2026).
+
+Born in 1884 at Hilo, grandson of one of the 1868 emigrants from Japan to Hawaiʻi (the *Gannenmono*, *hist.*), of a Satsuma family. A traffic engineer of the Carquinez Polytechnic's railway school, a man who counts wagons. He comes to Russia with the 1916 railway mission. In February 1917 he cables from Petrograd that the city has three days of flour, because the trains cannot bring it. He is one of the eleven advisers shot in the first week of September 1918, the week Cromie dies.
+
+**Character use:** The reader meets him once before he dies; keep him exact, unheroic and professional.
+
+### CT-GEORGE-PATTON — George S. Patton
+
+**Status:** Historical person in alternate history; CR-044 C5(b), APPROVED and named on the page (31 October 2026).
+
+Born at San Gabriel, California, in 1885 (*hist.*), so a Pacifican by birth in this history. Grandson of a Confederate colonel killed at Third Winchester and of Benjamin Davis Wilson, the Los Angeles rancher and mayor of 1851 (*hist.*). An Olympic pentathlete in 1912 and designer of the 1913 cavalry sabre (*hist.*). In our history he led the first car-borne raid in the US Army's history in 1916; whether and where he makes such a raid in this history is OPEN, pending a Mexico–Pacifica timeline. A cavalry major seconded to the railway brigade's armoured trains, he commands *Pele* at the Kotelnich bridge with two squadrons of Russian cavalry and takes Lenin on 22 April 1920. PROPOSED: he declines to come aboard Lenin's train, the theatrical correctness of a man who thinks war should have manners; a natural player for the 1920s.
+
+**Character use:** Flamboyant, superstitious, a horseman and a reader of military history; keep the historical man's temperament and give his Pacifican career its own facts as they are decided.
+
+### CT-ALFRED-KNOX — Alfred Knox
+
+**Status:** Historical person in alternate history; CR-044 C3 (PROPOSED).
+
+Major-General, head of the British military mission in Siberia (*hist.*). PROPOSED: in November 1918 his mission at Omsk knows for days what Volkov's officers intend and tells the Directory nothing; its cipher to London waits on a Pacifican telegraph desk on the night; Volkov's papers show what the British knew and when, and Churchill reads Knox's account at the War Office. Whether Knox himself is in Omsk that night is **VERIFY**.
+
+**Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-JOHN-WARD — John Ward
+
+**Status:** Historical person in alternate history; CR-044 C3–C4 (PROPOSED).
+
+Labour member of Parliament and colonel of the 25th Middlesex at Omsk (*hist.*), author of *With the "Die-Hards" in Siberia* (1920, *hist.*). PROPOSED: his battalion stands to in its barracks on the night of 18 November 1918 and does nothing, and is offered a Pacifican train east for its safety; his book tells the British public that Pacifica bought Siberia out from under them.
+
+**Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-MAURICE-JANIN — Maurice Janin
+
+**Status:** Historical person in alternate history; CR-044 C2 (PROPOSED). His command in Siberia is CR-043 OPEN item F3.
+
+French general, appointed to command the Allied and Czechoslovak forces in Siberia; Omsk gave a city banquet in his honour on the evening of 17 November 1918 while he was still on his way, and he reached the city only in December (*hist.*, **VERIFY** the date). PROPOSED: on the night of the coup the French mission, waiting for him and thinking of France's Russian bonds and the Legion, sends no one.
+
+**Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.

@@ -3122,8 +3122,9 @@ status = "APPROVED"
 cr = "CR-041"
 section = 31
 quote = "adheres to the treaty and signs an Emba oil concession to Pacifica with it"
-more_quotes = ["Pacifica keeps the Emba oil concession it signed with Alash in 1918"]
-open = "Term, royalty and the concessionaire not stated; whether the Western Alash Orda or the Alash Orda at Semipalatinsk signs is not stated."
+conditions = ["From 1921 Alash's western regiments are the concession's paid guard (CR-044 B5)."]
+more_quotes = ["Pacifica keeps the Emba oil concession it signed with Alash in 1918", "Its western regiments become the paid guard of Pacifica's Emba concession"]
+open = "Term, royalty and the concessionaire not stated; whether the Western Alash Orda or the Alash Orda at Semipalatinsk signs is not stated. Who pays the guard is not stated."
 
 [[commitment]]
 id = "C-1919-WRANGEL-VOTE"
