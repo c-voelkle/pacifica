@@ -2816,6 +2816,89 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-048",
+      "title": "The rump Confederacy and the long emergency (1900–1930)",
+      "status": "approved_integrated",
+      "approved_on": "2026-10-31",
+      "integrated_on": "2026-10-31",
+      "decision_record": "CR-048.md",
+      "authorization": "Author, 31 October 2026: direction A1–A6 (\"For the plot I think it comes early and it is mostly the Union's problem…\"; \"Running guns to revolutionaries or planters is not Pacifica's style… The revolution also doesn't ever actually need to happen\"; \"A thin layer of money, pure omission plus honest reporting…\"). \"Ok now make a suggestion for the allocation formula… Decide on the readmission terms for Virginia and North Carolina. Chicago Tribune as the emblematic voice of the revanchists is approved. Decide on R14.\" \"Ok write r17 as proposed. No Japanese contact, yes to Atlanta meeting, Pacifican refusals as proposed, just a line on the Colón backstory.\" \"Can you suggest a sequence of presidents… And decide on Ernest Everett Just. We leave the Franz Boas question open for now… The departure rate is approved as suggested.\" \"Ok please integrate the CR with the storyline text, the presidents table, the commitments ledger entries and the character files.\"",
+      "requirements": [
+        "A1–A6: the rump is mostly the Union's problem and its crisis comes early; Pacifica uses only a thin layer of money, omission and honest, loud reporting, arms no one and wants no war in America; the revolution never needs to happen; the movement crosses borders and forces the Union's appease-and-strike ratchet; Union conspiracy theorists go largely unheard; Pacifica's decade belongs to London and the science race.",
+        "R1: the rump has about 7.1m people in 1900 (48% Black) and 9.15m in 1932 (29% Black) on the approved departure rates (MODEL; population/neighbours.py).",
+        "R2: the Protocol of Richmond (1898) divides the Confederate debt: state debts stay; the association debt follows the customs that secured it; the compensation bonds and guarantee advances follow the compensated owners. Virginia and North Carolina pay cash; the Gulf converts into an oil-royalty loan in 1900; the rump keeps over two-thirds (amounts MODEL).",
+        "R4–R7: the Gulf compact is offered to Montgomery in 1900 and never signed; the 1871 guarantee is read narrowly; the Montgomery table; the Atlanta Studies grant, the Office's picture purchases and Carquinez fellowships, all published.",
+        "R9: Virginia (1898) and North Carolina (1899) are readmitted on fundamental conditions; Wilmington adds ten years of federal supervisors in North Carolina; poll taxes and tests follow in 1902 and 1910.",
+        "R10, R14: the Parchman raid of 16 October 1910 under Josiah Haynes (invented); Haynes hanged in December 1910; the Parchman Act of 1911 attaches oaths to the emulation programme's grants.",
+        "R11: Ernest Everett Just leaves Howard for a Carquinez fellowship in 1920, is on the reef in 1921 and directs the Moku o Loʻe station from 1922.",
+        "R12: the Chicago Tribune is the theorists' emblematic voice.",
+        "R17: Garvey as the rump's safety valve, the Pacific order's admirer and London's test; Pacifica refuses his ships and his Honolulu lecture; deported in concert with Britain in 1927 and refused by Thalassia.",
+        "R18: the presidents of the Confederacy and the rump, 1880–1934.",
+        "PROPOSED within the CR: convict leasing and Birmingham's wage-board rates (R3), the 1932 qualifier (R15), life in the rump and the Gulf mirror (R13, R16)."
+      ],
+      "open": [
+        "Franz Boas's outcome under the Parchman Act (reaches beyond the rump).",
+        "Workbook (not applied): the World sheet's rump population, the Union plus the rump emigrants, the Gulf plus its share, the Gulf's 1900 conversion loan."
+      ],
+      "facts": [
+        {
+          "add_forbidden": {
+            "pattern": "Pacifica(?:n)? (?:arms|rifles|guns|weapons) (?:reach|go to|for|to) (?:the )?(?:planters|revolutionaries|rebels|insurgents)",
+            "message": "CR-048 A2: Pacifica arms neither planters nor revolutionaries"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?<![Nn]o )(?:Black|Negro) republic (?:is proclaimed|is founded|forms|declares)",
+            "message": "CR-048 A3/R14: no Black republic is proclaimed before 1932"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Montgomery (?:signs|accepts|ratifies) the (?:Gulf )?compact",
+            "message": "CR-048 R4: the rump never signs the compact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:the Union|Washington) (?:assumes|takes over|pays) (?:the |any )?Confederate (?:debt|bonds)",
+            "message": "CR-048 R9: the Union assumes no Confederate debt"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Garvey (?:lectures|speaks) (?:in|at) Honolulu|Pacifica(?:n yards)? (?:sells?|builds?) (?:ships|a ship) (?:to|for) the Black Star Line",
+            "message": "CR-048 R17: Pacifica refuses Garvey the ships and the Honolulu lecture"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Garvey [^.]{0,40}(?:Atlanta federal penitentiary|penitentiary at Atlanta)",
+            "message": "CR-048 R17: Atlanta is in the rump; Garvey serves at Leavenworth"
+          }
+        },
+        {
+          "add_event": {
+            "id": "just-moku-o-loe",
+            "year": 1922,
+            "patterns": [
+              "Just (?:becomes|is named|named) (?:the station's |its )?(?:first )?director[^.]{0,40}in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "parchman-raid",
+            "year": 1910,
+            "patterns": [
+              "Parchman raid (?:of|in) (?:October )?(?P<year>1[89]\\d\\d)",
+              "(?P<year>1[89]\\d\\d) raid on Parchman"
+            ]
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [

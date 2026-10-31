@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 42 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 43 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -833,6 +833,26 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Where Kiyoshi's sword rests; his death poem.
 - Whether and when Stalin resurfaces.
 - The C4 seeds for the Anglo-Pacifican CRs: Churchill and the 1925 gold credit, Mikhailov at Harbin, Kolchak as Britain's friend, Baku.
+
+### CR-048 — The rump Confederacy and the long emergency (1900–1930)
+
+**Register status:** `approved_integrated`
+
+- A1–A6: the rump is mostly the Union's problem and its crisis comes early; Pacifica uses only a thin layer of money, omission and honest, loud reporting, arms no one and wants no war in America; the revolution never needs to happen; the movement crosses borders and forces the Union's appease-and-strike ratchet; Union conspiracy theorists go largely unheard; Pacifica's decade belongs to London and the science race.
+- R1: the rump has about 7.1m people in 1900 (48% Black) and 9.15m in 1932 (29% Black) on the approved departure rates (MODEL; population/neighbours.py).
+- R2: the Protocol of Richmond (1898) divides the Confederate debt: state debts stay; the association debt follows the customs that secured it; the compensation bonds and guarantee advances follow the compensated owners. Virginia and North Carolina pay cash; the Gulf converts into an oil-royalty loan in 1900; the rump keeps over two-thirds (amounts MODEL).
+- R4–R7: the Gulf compact is offered to Montgomery in 1900 and never signed; the 1871 guarantee is read narrowly; the Montgomery table; the Atlanta Studies grant, the Office's picture purchases and Carquinez fellowships, all published.
+- R9: Virginia (1898) and North Carolina (1899) are readmitted on fundamental conditions; Wilmington adds ten years of federal supervisors in North Carolina; poll taxes and tests follow in 1902 and 1910.
+- R10, R14: the Parchman raid of 16 October 1910 under Josiah Haynes (invented); Haynes hanged in December 1910; the Parchman Act of 1911 attaches oaths to the emulation programme's grants.
+- R11: Ernest Everett Just leaves Howard for a Carquinez fellowship in 1920, is on the reef in 1921 and directs the Moku o Loʻe station from 1922.
+- R12: the Chicago Tribune is the theorists' emblematic voice.
+- R17: Garvey as the rump's safety valve, the Pacific order's admirer and London's test; Pacifica refuses his ships and his Honolulu lecture; deported in concert with Britain in 1927 and refused by Thalassia.
+- R18: the presidents of the Confederacy and the rump, 1880–1934.
+- PROPOSED within the CR: convict leasing and Birmingham's wage-board rates (R3), the 1932 qualifier (R15), life in the rump and the Gulf mirror (R13, R16).
+
+**Still open:**
+- Franz Boas's outcome under the Parchman Act (reaches beyond the rump).
+- Workbook (not applied): the World sheet's rump population, the Union plus the rump emigrants, the Gulf plus its share, the Gulf's 1900 conversion loan.
 
 ### Author-approved editorial safeguards
 

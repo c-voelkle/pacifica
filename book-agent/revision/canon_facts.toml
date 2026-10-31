@@ -257,3 +257,45 @@ source = "CR-044"
 pattern = "Stalin crosses the ice|kills Stalin|Stalin is dead before"
 message = "CR-044 B6: Dzerzhinsky is the last man on Kronstadt; Stalin goes to Georgia"
 source = "CR-044"
+
+[[forbidden]]
+pattern = "Pacifica(?:n)? (?:arms|rifles|guns|weapons) (?:reach|go to|for|to) (?:the )?(?:planters|revolutionaries|rebels|insurgents)"
+message = "CR-048 A2: Pacifica arms neither planters nor revolutionaries"
+source = "CR-048"
+
+[[forbidden]]
+pattern = "(?<![Nn]o )(?:Black|Negro) republic (?:is proclaimed|is founded|forms|declares)"
+message = "CR-048 A3/R14: no Black republic is proclaimed before 1932"
+source = "CR-048"
+
+[[forbidden]]
+pattern = "Montgomery (?:signs|accepts|ratifies) the (?:Gulf )?compact"
+message = "CR-048 R4: the rump never signs the compact"
+source = "CR-048"
+
+[[forbidden]]
+pattern = "(?:the Union|Washington) (?:assumes|takes over|pays) (?:the |any )?Confederate (?:debt|bonds)"
+message = "CR-048 R9: the Union assumes no Confederate debt"
+source = "CR-048"
+
+[[forbidden]]
+pattern = "Garvey (?:lectures|speaks) (?:in|at) Honolulu|Pacifica(?:n yards)? (?:sells?|builds?) (?:ships|a ship) (?:to|for) the Black Star Line"
+message = "CR-048 R17: Pacifica refuses Garvey the ships and the Honolulu lecture"
+source = "CR-048"
+
+[[forbidden]]
+pattern = "Garvey [^.]{0,40}(?:Atlanta federal penitentiary|penitentiary at Atlanta)"
+message = "CR-048 R17: Atlanta is in the rump; Garvey serves at Leavenworth"
+source = "CR-048"
+
+[[event]]
+id = "just-moku-o-loe"
+year = 1922
+patterns = ['''Just (?:becomes|is named|named) (?:the station's |its )?(?:first )?director[^.]{0,40}in (?P<year>1[89]\d\d)''']
+source = "CR-048"
+
+[[event]]
+id = "parchman-raid"
+year = 1910
+patterns = ['''Parchman raid (?:of|in) (?:October )?(?P<year>1[89]\d\d)''', '''(?P<year>1[89]\d\d) raid on Parchman''']
+source = "CR-048"
