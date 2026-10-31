@@ -66,7 +66,7 @@ black_to_union = [[1870, 1.0], [1900, 0.90]]
 white_to_union = [[1870, 1.0], [1900, 0.50]]
 # Low and high cases scale every departure figure above.
 scenarios = { low = 0.5, high = 1.5 }
-status = "MODEL (CR-048, proposed 31 October 2026). Canon fixes the direction, not the numbers."
+status = "MODEL, approved by the author as the central case (CR-048 R1, 31 October 2026). Canon fixes the direction; the numbers remain model estimates."
 
 [rump_rates]
 # The rump keeps our timeline's Southern rates (Haines national Black and white
