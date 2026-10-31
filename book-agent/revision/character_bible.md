@@ -56,7 +56,7 @@ From 1887 Victoria is Regent of Pacifica and remains Queen of Hawaii. The Five r
 
 Her regency preserves the existing diplomatic arc: Korean neutrality in 1894, Primorye finance, Japan’s 1905 victory and the canal’s opening in 1900. Silas renounces in December 1906 and confesses Donner in 1912; Kiyoshi’s 1907 bid tests the estates’ neutrality and ends in renunciation in exchange for the Kuroda queen. The 1907 Act establishes Pacifica’s crown, joins her existing Hawaiian crown, dissolves the Council and restores Hawaii’s legislature. She lays down regency and crown in November 1907; Julian accedes to both (CR-040). In July 1914 she urges him to use the oil against Berlin, and he refuses.
 
-She continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.
+She continues as dowager diplomat until her 1921 renunciation after the Altai cover-up. In the winter of 1917–18 she wants peace and Julian does not; her objection stays private (CR-043 P10), and only her cables to Kaʻiulani at The Hague record what she wanted first. The peace itself is mediated by Kaʻiulani and Bryan, not by her. The proposed European commission and Vance’s disclosure retain their earlier qualifications. She opposes illegal provisional Concord application in 1927 and brokers the 1928 consent and indemnity without resuming office. She supports Keawe’s 1928 plan and brokers the 1932 Lands and Waters Charter. Born on 1 November, she is ninety-three before that date in 1932 and ninety-four afterwards.
 
 **Desire:** Preserve Hawaiian life while exercising real power in the Pacific order. **Contradiction:** She protects a people by defending a bargain that injures its political freedom; measures may express care, guilt or rivalry. **Voice/POV:** Political clarity, Hawaiian kinship, land, sea and legal protocol, with warmth among intimates. Songs and her choice of husband express agency. **Open:** When she learns of Kiyoshi; lost son’s birth year and accident; proposed cylinder, Five personnel, instruments and mythic echoes; culpability for Noe’s death; final private reckoning. There is no separate fictional cousin.
 
@@ -881,7 +881,7 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 **Status:** Union president 1923–1929 in the approved sequence. The proposed European lending boom belongs to his period. Historical baseline; no additional incident inferred. Under CR-020, European lending competes with naval spending until the 1927 Concord prompts three additional Union capital ships; the crash halts further construction. Ship counts remain MODEL estimates.
 
 ### CT-DAWES — Charles G. Dawes
-**Status:** Union president 1929–1933 approved by CR-019 A9. Architect of the Union’s German loans who presides over their collapse on the proposed course. His term includes the conditional second gold rescue and Thalassia settlement. CR-020 gives his Union responsibility for its own tariff and farm choices. The Union’s press resents the 1932 nominal-income crossing, while the country retains larger real output and its emulation and containment strategy. CR-021 revision 9 expressly assigns him acceptance of the gold rescue and negotiation of association as the choice against bank collapse; Young’s campaign and later endorsement follow, without moving the presidential dates.
+**Status:** Union president 1929–1933 approved by CR-019 A9. Architect of the Union’s German loans who presides over their collapse on the proposed course. His term includes the conditional second gold rescue and Thalassia settlement. CR-020 gives his Union responsibility for its own tariff and farm choices. The Union’s press resents the 1932 nominal-income crossing, while the country retains larger real output and its emulation and containment strategy. CR-021 revision 9 expressly assigns him acceptance of the gold rescue and negotiation of association as the choice against bank collapse; Young’s campaign and later endorsement follow, without moving the presidential dates. APPROVED — CR-043 P4: at The Hague in 1919 he sits in Bryan's delegation for the Union's lenders, the beginning of his public life as their custodian.
 
 ### CT-OWEN-YOUNG — Owen D. Young
 **Status:** Elected Union president in November 1932, approved by CR-019 A9; takes office in 1933. Electrical industrialist and finance specialist whose campaign accepts the Thalassia order and reconstruction through cooperation. Franklin Roosevelt supports him; unprovided policy and cabinet details remain qualified. CR-021 revision 9 settles the distinction: Dawes accepts the rescue and negotiates association; Young campaigns for acceptance of the settlement and endorses it as president-elect after November 1932. Hoover is its Pacifican face; Young takes office in 1933.
@@ -978,9 +978,17 @@ Hungarian veteran of the hussars who escorted Maximilian to Mexico, hired by Lot
 Victoria gives him command of the Queen’s Guard after dismissing Jajczay and Judd in September 1873. He commands the force whose oath she takes again herself; the Guard survives and remains in barracks during the February 1874 rising.
 
 ### CT-KAIULANI-CLEGHORN — Princess Kaʻiulani of the Cleghorn household
-**Status:** approved_minor_historical_identity (CR-027).
+**Status:** approved_minor_historical_identity (CR-027); a principal of the 1919 peace from CR-043 (31 October 2026).
 
 The historical princess born in 1875, a minor figure in the Cleghorn household and Kalākaua’s niece. In his 1881 mission he proposes her marriage to Prince Komatsu as part of an Oceanian union; Meiji declines. Distinct from Victoria Kamāmalu (CT-KAIULANI), born in 1838. The ʻokina distinguishes her name in CR-027.
+
+APPROVED — CR-043 P1: she lives. Schooled in England from 1889. Graves' disease (exophthalmic goitre) is diagnosed in 1896, and in 1897 Theodor Kocher at Bern ties off the gland's arteries and then removes part of it, leaving her enough. In January 1899 she still catches rheumatic fever after a ride in the mountain rain; with her heart no longer driven by the thyroid, no lost kingdom to grieve, months of bed rest and salicylate, she survives with a damaged mitral valve she carries for life. PROPOSED: from 1908 she travels with Julian's missions to the European capitals, where her English school friends have married into the houses he needs.
+
+APPROVED — CR-043 P2–P4: at The Hague in 1918–19 she is Mediator for the Allied Powers and First Plenipotentiary of the Pacific Crowns, commissioned by Julian under all three crowns, opposite the Union's mediator, William Jennings Bryan (CT-WILLIAM-JENNINGS-BRYAN), under Article 8 of the 1907 Convention. Her instructions fix the outcome in outline; the eastern borders, minorities clauses, the Alsace-Lorraine vote and Swiss terms, the Bohemian settlement and the order of signature are hers. She chairs the Danubian commission. While the mandate lasts the belligerents speak to each other only through the mediators, so Clemenceau must talk to the Germans through her. Victoria's private cables to her record what Victoria wanted in 1917–18 (P10). PROPOSED: she presides seated, and the conference knows why.
+
+**Open:** her date of death; whether she marries.
+
+**Voice:** English-schooled, exact, warm in private and patient in committee; her authority is the court's, not the treasury's.
 
 ### CT-HERMAN-HOLLERITH — Herman Hollerith
 **Status:** proposed_five_member (CR-027).
@@ -1256,3 +1264,36 @@ Directed the recapture of Krasnaya Gorka from the sea in June 1919. When Moscow 
 
 **Character use:** No invented interiority; the scene is K1, approved verbatim.
 
+## CR-043 — the peace of 1919 (31 October 2026)
+
+### CT-WILLIAM-JENNINGS-BRYAN — William Jennings Bryan
+
+**Status:** Historical person in alternate history; CR-043 P2, P4, P6.
+
+Wilson's Secretary of State 1913–15 (*hist.*): author of the cooling-off treaties with some thirty states; called loans to belligerents "the worst of all contrabands" in August 1914; resigned in June 1915 rather than sign a second Lusitania note that leaned hard on Berlin. The Central Powers name the neutral Union as their mediating power under Article 8, and the Union sends him: the American they trust. A populist enemy of Wall Street sent to protect Wall Street's German and Austrian loan book; Dawes sits in his delegation for the lenders and House as Wilson's own eyes. He vetoes the partition of Austria-Hungary, which would ruin the Union's Vienna loans, and signs the Treaty of The Hague on 28 June 1919 for the mediating Union; the Senate then refuses the naval limits and the court. Dies in 1925 (*hist.*).
+
+**Character use:** His public positions are historical; his conduct at The Hague is CR-043's. No invented private scenes beyond the conference.
+
+### CT-TOMAS-MASARYK — Tomáš Garrigue Masaryk
+
+**Status:** Historical person in alternate history; CR-043 P8 (detail PROPOSED).
+
+Leader of the Czechoslovak National Council in exile (*hist.*). PROPOSED: he accepts the Bohemian settlement, a federal kingdom of the lands of the Bohemian crown within the monarchy, and becomes its first minister-president; Beneš refuses.
+
+**Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-EDVARD-BENES — Edvard Beneš
+
+**Status:** Historical person in alternate history; CR-043 P8 (detail PROPOSED).
+
+Secretary of the Czechoslovak National Council in Paris (*hist.*). PROPOSED: he refuses the Bohemian settlement and stays in Paris when France withdraws its 1918 recognition of the Council.
+
+**Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+### CT-THEODOR-KOCHER — Theodor Kocher
+
+**Status:** Historical person in alternate history; CR-043 P1.
+
+Bern surgeon and Nobel laureate of 1909 (*hist.*), master of thyroid surgery, who by 1917 had performed some five thousand thyroid operations at very low mortality (*hist.*). In 1897 he operates on Kaʻiulani in stages: ligation of the thyroid arteries, then partial resection, leaving her enough of the gland.
+
+**Character use:** One medical episode; no invented interiority.

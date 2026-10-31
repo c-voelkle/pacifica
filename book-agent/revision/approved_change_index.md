@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 40 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 41 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -787,6 +787,31 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Japan's reaction to the trust (off the page by author decision).
 - The Victoria–Cixi scenes.
 - Huludao's winter ice conditions (VERIFY before canon calls it ice-free).
+
+### CR-043 — The peace of 1919: special mediation at The Hague, Kaʻiulani and Bryan
+
+**Register status:** `approved_integrated`
+
+- P1: Kaʻiulani lives: Kocher's staged thyroid operation in 1897; she survives the rheumatic fever of January 1899 with a damaged mitral valve. Date of death OPEN.
+- P2: Special mediation under Article 8 of the 1907 Hague Convention: the Allies name Pacifica, the Central Powers the neutral Union; Kaʻiulani (Mediator for the Allied Powers and First Plenipotentiary of the Pacific Crowns) and William Jennings Bryan mediate.
+- P3: Kaʻiulani's instructions: no indemnity or war-guilt clause; Germany's crown and Reich kept; Austria-Hungary federalised; the eastern states recognised; naval limits, the court and the racial-equality clause; Shandong returned; debts in gold dollars. Julian keeps the credit, the food lever (Hoover) and the moment.
+- P4: The Netherlands hosts; opening plenary 18 January 1919 in the Peace Palace; six commissions; Kaʻiulani chairs the Danubian; Dawes and House in Bryan's delegation.
+- P5: Salonika breaks in September 1918; Mudros (30 October) is British alone; the armistice of 11 November is signed on the line Germany holds.
+- P6: The Treaty of The Hague, 28 June 1919; the Union Senate refuses the naval limits and the court; no Locarno.
+- P7: Alsace-Lorraine becomes a neutral republic in customs and currency union with Switzerland; Strasbourg a free Rhine port; the Swiss refuse annexation and approve the union.
+- P8: The Bohemian settlement in shape (Karl bound to his federal manifesto, no partition); the federal kingdom's detail PROPOSED.
+- P9: France pays the Czechoslovak Legion in francs from the Entente credit Pacifica raised; Pacifica feeds, carries and pays a supplement.
+- P10: Victoria's objection of 1917–18 stays private.
+- P11: The German fire raid on London in 1918 stands.
+- P12: Wilhelm II abdicates for his grandson Wilhelm (born 1906) under a regency.
+
+**Still open:**
+- Kaʻiulani's date of death; whether she marries.
+- Germany's regent.
+- Pacifica's secretary-general at The Hague.
+- Janin's command in Siberia (F3) and the French items in the money trail (F4).
+- Štefánik's fate; the timing of Slovak autonomy.
+- Karl's coronation in Prague: when, and whether it happens.
 
 ### Author-approved editorial safeguards
 

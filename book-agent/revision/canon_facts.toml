@@ -232,3 +232,18 @@ source = "CR-041"
 pattern = '''\bDairen\b'''
 message = "CR-042 H1/H5: Dalian stays Chinese and keeps its Chinese name; the Transbaikal ataman retires to Urajio"
 source = "CR-042"
+
+[[forbidden]]
+pattern = "retains Alsace-Lorraine"
+message = "CR-043 P7: Alsace-Lorraine becomes a neutral republic in union with Switzerland"
+source = "CR-043"
+
+[[forbidden]]
+pattern = "Victoria negotiates the settlement"
+message = "CR-043 P2: Kaʻiulani and Bryan mediate the peace of 1919"
+source = "CR-043"
+
+[[forbidden]]
+pattern = "Pacifica pays and supplies the Czechoslovak Legion"
+message = "CR-043 P9: France pays the Legion in francs from Pacifican credit"
+source = "CR-043"
