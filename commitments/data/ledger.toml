@@ -2891,31 +2891,87 @@ open = "No term, maturity or interest stated. New lending stops in autumn 1918 (
 
 [[commitment]]
 id = "C-1919-HAGUE"
-name = "The Hague peace settlement"
+name = "The Treaty of The Hague"
 kind = "treaty"
-parties = ["PAC", "DE", "UK", "FR", "JP", "CN"]
+parties = ["PAC", "US", "DE", "AH", "UK", "FR", "JP", "CN"]
 from = 1919
 owes = [
-  { by = "DE", to = "FR", what = "evacuation of Belgium and northern France; Germany retains Alsace-Lorraine and pays no indemnity" },
+  { by = "DE", to = "FR", what = "evacuation of Belgium and northern France; no indemnity" },
   { by = "DE", to = "PAC", what = "loss of its colonies; Pacifica and Japan retain Germany's Pacific islands" },
+  { by = "DE", to = "FR", what = "Alsace-Lorraine given up, not to France: a neutral republic in union with Switzerland (C-1919-ALSACE-LORRAINE)" },
   { by = "PAC", to = "CN", what = "return of Shandong apart from the Tsingtao anchorage" },
   { by = "UK", to = "DE", what = "recognition of Germany's clients in Poland, the Baltic region, Ukraine and Finland" },
+  { by = "AH", to = "PAC", what = "Emperor Karl bound to his federal manifesto of October 1918 (C-1919-BOHEMIA)" },
 ]
 conditions = [
+  "Made by special mediation under Article 8 of the 1907 Hague Convention: Pacifica named by the Allied Powers, the neutral Union by the Central Powers; Kaʻiulani and Bryan mediate.",
+  "No indemnity and no war-guilt clause; Germany's crown and Reich kept; Wilhelm II abdicates for his grandson under a regency.",
   "Britain and France keep their Ottoman and African conquests.",
   "The settlement creates a permanent arbitration court and carries Japan's racial equality clause (PROPOSED).",
+  "Bryan signs for the mediating Union; the Union Senate refuses the naval limits and the court.",
 ]
-status = "PROPOSED"
-cr = "CR-019"
+status = "APPROVED"
+cr = "CR-043"
 section = 30
-quote = "Victoria negotiates the settlement at The Hague from January to June 1919, with Julian choosing the moment and Hoover administering the food lever."
+quote = "The Treaty of The Hague is signed in the Peace Palace on 28 June 1919, five years to the day after Sarajevo."
 more_quotes = [
-  "Germany evacuates Belgium and northern France, retains Alsace-Lorraine, pays no indemnity and loses its colonies.",
+  "The peace is made by special mediation under Article 8 of the Hague Convention of 1907",
+  "Germany evacuates Belgium and northern France, pays no indemnity and loses its colonies.",
   "Germany's clients in Poland, the Baltic region, Ukraine and Finland are recognized.",
   "Pacifica and Japan retain Germany's Pacific islands.",
   "The settlement creates a permanent arbitration court and carries Japan's racial equality clause.",
 ]
-open = "Place, dates and Victoria's exact commission remain OPEN-019-01–02. The replacement of Wilhelm II remains OPEN-019-08. The armistice of 11 November 1918 is on the working chronology only. Which states sign is not listed."
+open = "Germany's regent is OPEN. Which states sign is not listed beyond the mediators. CR-019 first proposed the settlement; CR-043 decides place, dates, mediation and the terms above."
+
+[[commitment]]
+id = "C-1919-ALSACE-LORRAINE"
+name = "Alsace-Lorraine: neutral republic in union with Switzerland"
+kind = "guarantee"
+parties = ["DE", "FR", "PAC", "US", "UK"]
+from = 1919
+owes = [
+  { by = "DE", to = "FR", what = "the Reichsland given up to a neutral republic confirmed by a vote of its people" },
+  { by = "PAC", to = "FR", what = "the signatories guarantee the republic's neutrality" },
+]
+conditions = [
+  "a customs and currency union with Switzerland on the franc",
+  "Strasbourg a free Rhine port",
+  "the Swiss, voting by people and cantons, refuse annexation and approve the union",
+]
+status = "APPROVED"
+cr = "CR-043"
+section = 30
+quote = "It gives up Alsace-Lorraine, though not to France: the Reichsland becomes a neutral republic in union with Switzerland."
+more_quotes = [
+  "It enters a customs and currency union with Switzerland on the franc; Strasbourg is a free Rhine port; the signatories guarantee its neutrality.",
+]
+open = "Switzerland and the republic are not declared ledger parties; the guarantors are the signatories generally."
+
+[[commitment]]
+id = "C-1919-BOHEMIA"
+name = "The Bohemian settlement and the legionnaires' amnesty"
+kind = "settlement"
+parties = ["AH", "PAC", "US", "FR"]
+from = 1919
+owes = [
+  { by = "AH", to = "PAC", what = "Emperor Karl bound to his federal manifesto of October 1918; no partition" },
+  { by = "AH", to = "FR", what = "an amnesty for the Czechoslovak legionnaires, guaranteed by the treaty (PROPOSED)" },
+  { by = "FR", to = "AH", what = "withdrawal of France's 1918 recognition of the Czechoslovak National Council (PROPOSED)" },
+]
+conditions = [
+  "the lands of the Bohemian crown become a federal kingdom of the monarchy (PROPOSED)",
+  "German Bohemians' rights under the court (PROPOSED)",
+  "Slovakia stays in Hungary with a promised, postponed autonomy (PROPOSED)",
+  "Pacifica offers land and citizenship to legionnaires who will not go home (PROPOSED)",
+]
+status = "APPROVED"
+cr = "CR-043"
+section = 30
+quote = "The peace binds Emperor Karl to his federal manifesto of October 1918, and Bohemia is its test."
+more_quotes = [
+  "The legionnaires come home under an amnesty the treaty guarantees and form the core of the kingdom's guard.",
+]
+open = "The federal kingdom's detail is PROPOSED (CR-043 P8); Karl's coronation in Prague and the timing of Slovak autonomy are OPEN."
 
 [[commitment]]
 id = "C-1919-TSINGTAO"
@@ -2949,7 +3005,7 @@ more_quotes = [
   "a founding seat in the renewed court",
   "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause.",
 ]
-open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED)."
+open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED). CR-043: Bryan signs the 1919 treaty for the mediating Union, and the Union Senate refuses the court."
 
 [[commitment]]
 id = "C-1919-NAVAL-LIMITS"
@@ -2977,7 +3033,7 @@ more_quotes = [
   "The crash halts further construction; the Union joins the limits in 1932.",
   "The Union accepts a naval ratio below the common fleet and Britain",
 ]
-open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated."
+open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated. CR-043: the Union Senate refuses the limits after Bryan signs the treaty."
 
 [[commitment]]
 id = "C-1923-UK-FUNDING"

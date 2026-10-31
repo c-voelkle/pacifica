@@ -101,3 +101,16 @@ python3 -m unittest discover -s population/tests
 
 Effect: public debt in 1932 is $0.4m lower, Asia-group claims are $3m higher, and residents are 855 fewer in 1932, through slightly less Development Fund investment. There are no failed checks in the Story case. The Siberia sheet is unchanged: Huludao traffic joins the line at Harbin, so it relieves only section 1, which never binds. The workbook's SHA-256 is now `79fed33149b67392af5187a9249e2972c7b3190a957fbca476e61f955d7e99b5`; the SHA at the top of this note is the CR-041 stage.
 
+## CR-043 addendum (31 October 2026)
+
+CR-043 P9 moves the Legion's pay to France, which pays it in francs from the Entente credit Pacifica raised; that credit is already in the Europe-group loans. `finance/build/cr043_legion_pay.py` changes one lever, `sib_c_cz` (Levers row 255), from $600/$600 to $200 (Story) and $250 (Stress) a legionary-year at 1913 prices: Pacifica's food, carriage and line supplement. Story case after LibreOffice recalculation:
+
+| | CR-042 | CR-043 |
+|---|---|---|
+| Pacifican Siberian spending 1918 ($m) | 171.2 | 154.4 |
+| 1919 | 418.0 | 394.6 |
+| 1920 | 245.0 | 242.4 |
+| Residents 1932 (m) | 36.180 | 36.182 |
+| Public debt 1932 ($m) | 2,920.1 | 2,921.0 |
+
+The Siberia capacity table and every check are unchanged. Paths C was not re-iterated with the population model (the residents change is about 1,400). The Stress case was not recalculated. The workbook's SHA-256 is now `15e92f2d5eafbfb3fc208e6d2a22b3609836cea7a3ce516d4654639bfd8185e3`.
