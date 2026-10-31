@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 42 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 45 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -765,7 +765,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Ballin's death on 9 November 1918 is a one-line beat; no Soviet state survives 1920; Nikolayevsk and the Kamchatka concession stand as drafted.
 
 **Still open:**
-- Which Ukraine (Hetmanate or Directory) and the Black Sea coast; Bessarabia; Kars, Ardahan and Batum.
+- Which Ukraine (Hetmanate or Directory) and the Black Sea coast; Bessarabia. (Kars, Ardahan and Batum: CR-047.)
 - What Alash keeps inside Russia after 1921 beyond courts and the kibitka tax; the fate of its regiments.
 - The hostages of 1918: how many railway advisers shot, and the one the reader has met. Who from Thalassia attends the Romanov burial. Where Kiyoshi's sword rests; a death poem. The day of Lenin's capture and the name of the Pacifican commander at Kotelnich. Whether the Tomsk vote is shown or reported.
 - VERIFY before integration: Legion day-dates for Omsk, Samara, Krasnoyarsk and Vladivostok; Kolchak's October 1917 departure from San Francisco; the Tomsk Duma dispersal of 26 January 1918; Ironside's Kotlas plan; the Red recapture of Ufa on 9 June 1919; the Romanov Bridge name; Mikhailov's role in the coup; Boldyrev's refusal of Kolchak; Krivoshein in Kyiv in late 1918; the Provisional Siberian Government's declaration of 4 July 1918.
@@ -831,8 +831,69 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 **Still open:**
 - Patton's 1916 raid, pending a Mexico–Pacifica timeline.
 - Where Kiyoshi's sword rests; his death poem.
-- Whether and when Stalin resurfaces.
+- Whether and when Stalin resurfaces: closed by CR-046 (killed in Tiflis, autumn 1921).
 - The C4 seeds for the Anglo-Pacifican CRs: Churchill and the 1925 gold credit, Mikhailov at Harbin, Kolchak as Britain's friend, Baku.
+
+### CR-045 — Omsk in depth: Mikhailov, the paymaster and Maria
+
+**Register status:** `approved_integrated`
+
+- M1–M2: The Reserve Bank's paymaster at Omsk is Pavel Kashevarov, a Sitka Creole (name OPEN); Mikhailov fails to bring the Kazan gold under his seal in August 1918.
+- M3: Volkov's September 1918 arrests and Novoselov's death (hist.); the Czech search for Mikhailov is called off on Pacifican orders; Volkov swears he had no accomplices.
+- M4–M6: On 17 November 1918 Mikhailov sells the coup to Kashevarov; Julian lets it begin so that it fails in public; Volkov's papers are Mikhailov's gift, filed as found; Mikhailov is dismissed, not given his ministry; Volkov is cashiered.
+- M7: At Harbin Mikhailov heads the CER economic bureau, London's man on the surface and Pacifica's underneath; his reports map the Manchurian officers.
+- M8: Julian receives Mikhailov at Harbin in 1921 and is told what the Tomsk vote did to the 1918 promise.
+- V1–V2: In January 1928 Volkov kills Mikhailov at Harbin after the British tell him whose hand his papers were in (occasion: CR-046 P7); Kashevarov warns late; Julian is not told the cost.
+- G1–G3: Maria Grishina-Almazova on the page; Grishin-Almazov dies on the Caspian on 5 May 1919 (ship changed); she refuses Mikhailov at Harbin and sails from Dalian for Japan.
+- G4–G5: Tokyo salon from 1920; she reports to the Navy General Staff and her reader is Kiyoshi's son; she marries Commander Kashiwagi (name OPEN) in 1921; her warning in May 1932 tells Kiyoshi's son which ships and which day; she leaves for San Francisco.
+- X1: Corrections: London did not formally recognise the Omsk result; the 4 July 1918 declaration and Mikhailov's role are attested.
+
+**Still open:**
+- Kashevarov's name and the A. F. Kashevarov family (VERIFY).
+- Julian's whereabouts on 17–18 November 1918 (proposed: Irkutsk).
+- The brigade patrol on the grove road: shown or rumour.
+- Volkov's whereabouts 1918–1928 and real fate (VERIFY).
+- Kashiwagi's name and sentence; nationality law for Maria's son in 1932.
+- Whether Maria's diary survives.
+
+### CR-046 — The Petrograd account
+
+**Register status:** `approved_integrated`
+
+- P1: The Petrograd account of the British secret service paid for Rasputin's murder (December 1916) and the Guchkov palace-coup plotters (winter 1916–17), carried the Omsk promise of credit (November 1918) and, through the Copenhagen prisoner channel (February 1920), paid for the Cheka's British file to be burned; each payment has a British reason of state.
+- P4: The Chronicler holds the whole file, given him by Kashevarov.
+- P5: Victoria has read the ledger before the Romanov burial and snubs the King's representative; London starts looking; her silence is the Office's first knowing silence.
+- P6: Stalin offers what he knows to Pacifica through Kamo and the envoy at Ankara; the British secret service finds out on its own; he is shot in Tiflis in the autumn of 1921.
+- P7: In 1927 London invokes the Baku review and raids the Moorgate agency; Kashevarov shows Churchill one sheet; the review is withdrawn, Pacifica stays operator and the navy takes a fixed allowance at market price.
+- P9–P10: Julian is not told the sheet's cost; Mikhailov dies in January 1928 and the Zhang Zuolin murder is unforeseen.
+- P2, P3, P8, P11 (PROPOSED): the two sources (Moscow bank ledgers; Dzerzhinsky's dispatch case), Kashevarov's match in April 1920, Churchill's ignorance of the Copenhagen gold and Hoare in the cabinet, Steveni's initials.
+
+**Still open:**
+- The bank, the account's cover name and its other entries.
+- Who fired in the Yusupov palace; whether Rayner is named.
+- The King's representative at the burial.
+- Whether Victoria knows of the Kronstadt gold.
+- Stalin's killers.
+- Pacifica's envoy at Ankara.
+- When Kashevarov gives the Chronicler the file.
+- Whether Julian answers Victoria with the ledger she kept shut.
+
+### CR-047 — The three districts: Kars, Ardahan and Batum
+
+**Register status:** `approved_integrated`
+
+- D1: No Turkish–Armenian war in the autumn of 1920.
+- D2–D4: The National Pact's vote, held in 1921 under Pacifican commissioners, district by district on the 1914 rolls: Kars and Kağızman to Armenia, Olti and Ardahan to Turkey.
+- D5: Ararat (Surmalu) stays Armenian.
+- D6: Batum is a Georgian free port without a garrison; Britain keeps the pipeline terminal, Pacifica a tanker berth.
+- D7: The Treaty of Kars, 13 October 1921, under the Entente guarantee.
+- D8: T7's consequences stand.
+
+**Still open:**
+- The Pacifican commissioner at Kars.
+- Nakhichevan and Azerbaijan's western frontier.
+- The vote's figures.
+- The rest of the Turkey decisions (T1–T6, T8) and Kemal's file.
 
 ### Author-approved editorial safeguards
 

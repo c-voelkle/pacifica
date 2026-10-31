@@ -74,7 +74,7 @@ Migration is **unchanged** on purpose. In this timeline there is no White emigra
 ## Not in the model
 
 - **Decisions recorded only in the planning note:** the Alash western regiments as the Emba guard, Dzerzhinsky and Stalin, Turkey and the Straits, the Union's Baghdad railway, Ploiești. They have no amounts until a CR integrates them.
-- **B7, the order of service on Russian debt.** The levers recognise all three claim classes at one rate and leave the order of service open. B8, what London collects in 1927, may change the Baku receipt after 1927.
+- **B7, the order of service on Russian debt.** The levers recognise all three claim classes at one rate and leave the order of service open. B8, what London collects in 1927, is settled by CR-046 P7 and leaves the Baku receipt unchanged (addendum below).
 - **The private part of the reconstruction credit** ($600m in the Story case) is placed with savers and not modelled as Treasury cash, as with the Entente credit.
 - **Japan's costs** for its seven divisions are Japan's own. Only its share of the guarantee from 1923 reaches the Japan sheet, and it is smaller now.
 - **The railway west of Chita,** which Harbin gives Pacifica (CR-031, PROPOSED), carries no commercial receipts. The oil concessions are counted at the Crown's share only, and the champions' profits from them are not added to output.
@@ -114,3 +114,16 @@ CR-043 P9 moves the Legion's pay to France, which pays it in francs from the Ent
 | Public debt 1932 ($m) | 2,920.1 | 2,921.0 |
 
 The Siberia capacity table and every check are unchanged. Paths C was not re-iterated with the population model (the residents change is about 1,400). The Stress case was not recalculated. The workbook's SHA-256 is now `15e92f2d5eafbfb3fc208e6d2a22b3609836cea7a3ce516d4654639bfd8185e3`.
+
+## CR-045 to CR-047 addendum (31 October 2026)
+
+[`build/cr045_047_omsk_kars.py`](build/cr045_047_omsk_kars.py) applies the three CRs integrated on 31 October to the CR-043 workbook. Before editing, the unchanged workbook was recalculated in LibreOffice and reproduced all 66,092 numeric cells exactly.
+
+| CR | What it moves | Workbook change |
+|---|---|---|
+| CR-046 P7 | Settles B8, what London collects in 1927: nothing. The Baku review is withdrawn, Pacifica stays operator and the Royal Navy takes a fixed allowance at Batum at market price. | None to the amounts. The `oil_baku` comment and the Baku Events row note now say the Crown share is unchanged after 1927. |
+| CR-047 D2–D3 | The Kars plebiscite of 1921 under Pacifican commissioners, with the Office keeping the registers. | New lever `kars_vote` ($0.4m Story, $0.6m Stress, MODEL) and one Programme row in 1921. |
+| CR-045 | Mikhailov, Kashevarov and Maria. | None: the Reserve Bank's and the Office's payments to agents are below the model's resolution. |
+| CR-046 (rest) | The Petrograd account, Copenhagen, Stalin. | None: the Copenhagen gold is British money. |
+
+Story case after recalculation: public debt in 1932 is $2,920.98m (was $2,920.99m), residents in 1932 are 36,181,673 (was 36,181,682), and no check fails. Paths C was not re-iterated with the population model (the residents change is nine people), and the Stress case was not recalculated. The workbook's SHA-256 is now `ebc5a495bc62bd72ae60424008ec8b4785c83dd6fcc0fcb8b70bde1498c734f8`.
