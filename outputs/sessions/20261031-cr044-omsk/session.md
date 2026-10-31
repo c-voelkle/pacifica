@@ -9,7 +9,7 @@ baseline:
   files:
     book-agent/revision/master_storyline.md: sha256:71406bf04ac091c175b13c414b31c42eaf00c19c96c7892bba5416bf20d40ee7
     book-agent/revision/change_requests.json: sha256:6e0885357922bfa40a1558e0e3b160c2e7b9333760320a83f5c4e5ffe9417fdd
-independence: same-agent drafting and integration; one fresh-context review of the storyline diffs (CR-043 and CR-044) before merge
+independence: same-agent drafting and integration; one fresh-context review of the storyline diffs (CR-043 and CR-044) before merge; twelve findings, all addressed (CR-044.md, Integration review)
 ---
 
 # Who is the hostage, how does Pacifica win the Omsk night, and what does it cost with Britain?

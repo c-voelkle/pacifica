@@ -1260,7 +1260,7 @@ Orders the Czechoslovak Legion disarmed on 25 May 1918, the trigger of the coali
 
 **Status:** Historical person in alternate history; CR-040, amended by CR-044 B6 (31 October 2026).
 
-Directed the recapture of Krasnaya Gorka from the sea in June 1919 and told Lenin he deplored the naval science that called it impossible (*hist.*). When Moscow falls in March 1920 he goes south, not north, and is next heard of in Georgia, under a Menshevik government that will not give him up. He is never tried. Whether and when he resurfaces is OPEN. The Kronstadt role of the original K1 passes to Dzerzhinsky (CT-FELIX-DZERZHINSKY).
+Directed the recapture of Krasnaya Gorka from the sea in June 1919 and told Lenin he deplored the naval science that called it impossible (*hist.*). When Moscow falls in March 1920 he slips away south and is next heard of in Tiflis; Georgia's Menshevik government will not hand a Georgian to a Russian court. His road south is OPEN. He is never tried. Whether and when he resurfaces is OPEN. The Kronstadt role of the original K1 passes to Dzerzhinsky (CT-FELIX-DZERZHINSKY).
 
 **Character use:** No invented interiority.
 
@@ -1336,7 +1336,7 @@ Born at San Gabriel, California, in 1885 (*hist.*), so a Pacifican by birth in t
 
 **Status:** Historical person in alternate history; CR-044 C3 (PROPOSED).
 
-Major-General, head of the British military mission in Siberia (*hist.*). PROPOSED: at Omsk in November 1918 he knows for days what Volkov's officers intend and tells the Directory nothing; his cipher to London waits on a Pacifican telegraph desk on the night; Volkov's papers show what he knew and when, and Churchill reads his account at the War Office.
+Major-General, head of the British military mission in Siberia (*hist.*). PROPOSED: in November 1918 his mission at Omsk knows for days what Volkov's officers intend and tells the Directory nothing; its cipher to London waits on a Pacifican telegraph desk on the night; Volkov's papers show what the British knew and when, and Churchill reads Knox's account at the War Office. Whether Knox himself is in Omsk that night is **VERIFY**.
 
 **Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 
