@@ -385,7 +385,7 @@ Starts, scheduled renewals and reviews, term ends, endings and lapses at a death
 - **Gulf compact (conditions of admission)** (compact, 1900–, §25, CANON) — owes: GULF → PAC: meet the five measures and the two-part sixth test, registers, revenue, debt and policy conditions, each held twenty-five consecutive years, before admission is considered — can end or refuse: PAC: considers admission only if the Republic adds usable power and freedom of action without adding risk or a veto; may demand a second generation
 - **Mutual defense pact with the Gulf Republic** (pact, 1900–, §25, PROPOSED) — owes: PAC → GULF: mutual defense; GULF → PAC: mutual defense
 - **Trade treaty with the Gulf Republic** (treaty, 1900–, §25, PROPOSED)
-- **Gulf Republic's conversion of its Confederate debt share** (loan, 1900–, §25, APPROVED, CR-048) — owes: GULF → CSA-BONDHOLDERS: service of the converted loan — secured on: Gulf oil royalties
+- **Gulf Republic's conversion of its Confederate debt share** (loan, 1900–, §25, APPROVED, CR-048) — owes: GULF → CSA-BONDHOLDERS: service of the converted loan — secured on: Gulf customs, and from 1901 Spindletop royalties
 - **Sequoyah settlement** (settlement, 1916–, §25, CANON)
 - **Gulf oil compact** (compact, 1932–, §34, CANON) — owes: PAC → GULF: help to limit output and support prices, without admitting the Republic
 - **Thalassia settlement (Thalassia Conference)** (settlement, 1932–, §37, PROPOSED, CR-019) — owes: US → CSA: Senate recognition of the Confederacy; US → GULF: Senate recognition of the Gulf Republic; US → PAC: renunciation of surviving claims under the 1865 and 1871 lines; currency in an adjustable gold-dollar order; naval ratio below the common fleet and Britain; accession to the arbitration court's new charter; Soviet industrial contracts cut; PAC → US: currency stability, partial recovery through the German debt settlement, Atlantic primacy and a founding seat in the renewed court
@@ -671,7 +671,7 @@ Starts, scheduled renewals and reviews, term ends, endings and lapses at a death
 ### Holders of the Confederate compensation bonds (not named in canon)
 
 - **Confederate compensation bonds (final abolition)** (loan, 1888–, §25, CANON) — owes: CSA → CSA-BONDHOLDERS: coupons on long compensation bonds financing final abolition; PAC → CSA-BONDHOLDERS: Pacifica's guarantee of the coupons (it pays them when Richmond misses in 1893–1895) — secured on: Confederate customs co-administered by Pacifica
-- **Gulf Republic's conversion of its Confederate debt share** (loan, 1900–, §25, APPROVED, CR-048) — owes: GULF → CSA-BONDHOLDERS: service of the converted loan — secured on: Gulf oil royalties
+- **Gulf Republic's conversion of its Confederate debt share** (loan, 1900–, §25, APPROVED, CR-048) — owes: GULF → CSA-BONDHOLDERS: service of the converted loan — secured on: Gulf customs, and from 1901 Spindletop royalties
 
 ### The Entente (Britain, France, Russia and their partners as wartime borrowers)
 

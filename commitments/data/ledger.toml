@@ -2201,7 +2201,7 @@ conditions = [
 status = "APPROVED"
 cr = "CR-048"
 section = 25
-quote = "The Protocol of Richmond of 1898 divides the Confederate debt by rules no one can call unjust."
+quote = "The Protocol of Richmond of 1898 divides the Confederate debt by rules Montgomery's own delegates cannot fault."
 more_quotes = [
   "The war debt follows the customs that secured it, and the compensation bonds and the coupons Pacifica's guarantee paid follow the owners who were compensated, who lived in the Deep South because Texas and the Upper South had abolished by their own laws.",
   "Virginia and North Carolina pay their small share in cash, borrowed in New York, and Pacifica's customs officers leave Norfolk and Wilmington.",
@@ -2216,12 +2216,12 @@ kind = "loan"
 parties = ["GULF", "CSA-BONDHOLDERS"]
 from = 1900
 owes = [{ by = "GULF", to = "CSA-BONDHOLDERS", what = "service of the converted loan" }]
-secured_on = "Gulf oil royalties"
+secured_on = "Gulf customs, and from 1901 Spindletop royalties"
 status = "APPROVED"
 cr = "CR-048"
 section = 25
-quote = "The Gulf turns its share into a loan on oil royalties at its founding and sends them home from Galveston and New Orleans."
-open = "Lender, rate and term not stated in the storyline; CR-048 §R2 has a 4% loan of $94m placed through San Francisco (MODEL)."
+quote = "The Gulf turns its share into a loan of its own at its founding, secured on its customs and from 1901 on Spindletop's royalties, and Pacifica's customs officers leave Galveston and New Orleans."
+open = "Lender, rate and term not stated in the storyline; CR-048 §R2 has a 4% loan of $94m placed through San Francisco (MODEL). Oil security from 1901, when Spindletop comes in."
 
 [[commitment]]
 id = "C-1898-READMISSION"
@@ -2274,7 +2274,7 @@ status = "APPROVED"
 cr = "CR-048"
 section = 25
 quote = "Congress passes the Parchman Act of 1911, attaching loyalty and neutrality oaths to the programme's grants"
-more_quotes = ["The South question taxes the programme from the start: border garrisons and relief draw on its budget, and the oaths the Parchman Act attaches to its grants from 1911 drive away some of the people it was meant to keep."]
+more_quotes = ["From 1911 the Parchman Act's oaths turn the programme's own grants against it."]
 open = "Formal name per CR-048 R10; not repealed by 1932 in canon."
 
 [[commitment]]
