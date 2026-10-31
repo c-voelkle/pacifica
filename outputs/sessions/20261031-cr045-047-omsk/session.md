@@ -9,7 +9,7 @@ baseline:
   files:
     book-agent/revision/master_storyline.md: sha256:aaaed6a8adf3e07e0d76cacdd952fa03dc598530edf3f1a44dab05174ca73ed0
     book-agent/revision/change_requests.json: sha256:e6839983ccbdfd209c04757ec210382b2bf3255968624fb13749f2094df66e76
-independence: same-agent drafting and integration; one fresh-context review of the storyline diff before merge (findings and fixes in the PR description)
+independence: same-agent drafting and integration; one fresh-context review of the storyline diff before merge; thirteen findings, all addressed (Integration review sections of CR-045, CR-046 and CR-047)
 ---
 
 # Who was Mikhailov, what did Britain fear in 1927, and where does the Turkish frontier run?
@@ -46,7 +46,7 @@ independence: same-agent drafting and integration; one fresh-context review of t
 - X2: the Kazan gold escrow stays at Chelyabinsk (CR-041); the CR-045 sentence was corrected during integration so that it answers to the paymaster at Omsk.
 - X3: CT-STALIN's stale `killed_by CT-KIYOSHI` link (original K1, superseded by CR-044 B6) removed.
 - X4: the workbook recalculated in LibreOffice: the unchanged workbook reproduced all 66,092 numeric cells; after the change no check fails.
-- X5: fresh-context review of the storyline diff.
+- X5: fresh-context review of the storyline diff: §33 order, Julian at Thalassia on the Omsk night, two label scopes (§35, §37), the burial after Kronstadt, the mission's copy, how Volkov learns, Victoria's silence, Stalin's paragraph and wording, motives (Kashevarov, Mikhailov, Maria), memo-like sentences, the Czech search and Batum's vote. All fixed.
 
 ## Round log and stop reason
 

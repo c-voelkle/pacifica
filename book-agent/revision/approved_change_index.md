@@ -850,7 +850,6 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - Kashevarov's name and the A. F. Kashevarov family (VERIFY).
-- Julian's whereabouts on 17–18 November 1918 (proposed: Irkutsk).
 - The brigade patrol on the grove road: shown or rumour.
 - Volkov's whereabouts 1918–1928 and real fate (VERIFY).
 - Kashiwagi's name and sentence; nationality law for Maria's son in 1932.
@@ -862,7 +861,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 - P1: The Petrograd account of the British secret service paid for Rasputin's murder (December 1916) and the Guchkov palace-coup plotters (winter 1916–17), carried the Omsk promise of credit (November 1918) and, through the Copenhagen prisoner channel (February 1920), paid for the Cheka's British file to be burned; each payment has a British reason of state.
 - P4: The Chronicler holds the whole file, given him by Kashevarov.
-- P5: Victoria has read the ledger before the Romanov burial and snubs the King's representative; London starts looking; her silence is the Office's first knowing silence.
+- P5: Victoria has read the ledger before the Romanov burial and snubs the King's representative; London starts looking; she keeps the ledger shut for the settlement, as she will keep the Altai.
 - P6: Stalin offers what he knows to Pacifica through Kamo and the envoy at Ankara; the British secret service finds out on its own; he is shot in Tiflis in the autumn of 1921.
 - P7: In 1927 London invokes the Baku review and raids the Moorgate agency; Kashevarov shows Churchill one sheet; the review is withdrawn, Pacifica stays operator and the navy takes a fixed allowance at market price.
 - P9–P10: Julian is not told the sheet's cost; Mikhailov dies in January 1928 and the Zhang Zuolin murder is unforeseen.
