@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 41 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 42 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -812,6 +812,27 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Janin's command in Siberia (F3) and the French items in the money trail (F4).
 - Štefánik's fate; the timing of Slovak autonomy.
 - Karl's coronation in Prague: when, and whether it happens.
+
+### CR-044 — Omsk, the hostages and the Russian war's loose ends
+
+**Register status:** `approved_integrated`
+
+- A1: The armoured train is Pele, not Māui.
+- B1: Lenin is taken on 22 April 1920; the Kotelnich commander is Major George S. Patton, named on the page (C5b).
+- B2: The railway advisers are shot in the week Cromie dies; the Pacifican and British dead are buried together.
+- B3: The Tomsk vote is seen through the British consul's dispatch.
+- B4: Victoria attends the Romanov burial and meets the British royal party.
+- B5: Alash's western regiments guard the Emba concession; the rest become a federal cavalry division in Turkestan.
+- B6: Dzerzhinsky, not Stalin, is the last man on Kronstadt and dies by Kiyoshi's cut; Stalin goes to Georgia and is never tried.
+- C1 (PROPOSED): Vance III's father, the railway surveyor, is a hostage and survives to Kronstadt; the engineer Nagai Shōzō, met in February 1917, is among eleven advisers shot.
+- C2–C3 (PROPOSED): Omsk is won by the railway, the telegraph, the Legion and the line guard, and Vance's hour with Kolchak; Knox knew and Ward's battalion stood by; Volkov's papers open Pacifica's British file.
+- C4 (PROPOSED): London's protest answered with the ledger; Churchill reads Knox's account; Ward's 1920 book.
+
+**Still open:**
+- Patton's 1916 raid, pending a Mexico–Pacifica timeline.
+- Where Kiyoshi's sword rests; his death poem.
+- Whether and when Stalin resurfaces.
+- The C4 seeds for the Anglo-Pacifican CRs: Churchill and the 1925 gold credit, Mikhailov at Harbin, Kolchak as Britain's friend, Baku.
 
 ### Author-approved editorial safeguards
 

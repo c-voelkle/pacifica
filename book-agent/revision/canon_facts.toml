@@ -247,3 +247,13 @@ source = "CR-043"
 pattern = "Pacifica pays and supplies the Czechoslovak Legion"
 message = "CR-043 P9: France pays the Legion in francs from Pacifican credit"
 source = "CR-043"
+
+[[forbidden]]
+pattern = '''\*M[aā]ui\*'''
+message = "CR-044 A1: the armoured train is Pele"
+source = "CR-044"
+
+[[forbidden]]
+pattern = "Stalin crosses the ice|kills Stalin|Stalin is dead before"
+message = "CR-044 B6: Dzerzhinsky is the last man on Kronstadt; Stalin goes to Georgia"
+source = "CR-044"

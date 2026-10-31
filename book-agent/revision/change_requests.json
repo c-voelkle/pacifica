@@ -2775,6 +2775,47 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-044",
+      "title": "Omsk, the hostages and the Russian war's loose ends",
+      "status": "approved_integrated",
+      "approved_on": "2026-10-31",
+      "integrated_on": "2026-10-31",
+      "decision_record": "CR-044.md",
+      "authorization": "Author, 30 October 2026: \"Let's also tie in some of the loose ends from the Russia war. The identity of the hostage railway adviser. The British presence and reaction at Omsk and how Pacifica gains the upper hand (not just as accountant), what the knock-on effects are down the road of 'declaring war on the British Empire'. The actual work of writing N2. Also I think the Pacifican train should be called Pele\". 29 October planning-note approvals (B1–B6). 31 October: \"You can come up with a name for the engineer and the Kotelnich commander (a suitable historical figure would be good)\"; \"Yes Patton is good, and naming him on page is approved. The circumstances of his raid remain open pending a more detailed Mexico-Pacifica timeline. You can merge CR-043 and CR-044 now.\"",
+      "requirements": [
+        "A1: The armoured train is Pele, not Māui.",
+        "B1: Lenin is taken on 22 April 1920; the Kotelnich commander is Major George S. Patton, named on the page (C5b).",
+        "B2: The railway advisers are shot in the week Cromie dies; the Pacifican and British dead are buried together.",
+        "B3: The Tomsk vote is seen through the British consul's dispatch.",
+        "B4: Victoria attends the Romanov burial and meets the British royal party.",
+        "B5: Alash's western regiments guard the Emba concession; the rest become a federal cavalry division in Turkestan.",
+        "B6: Dzerzhinsky, not Stalin, is the last man on Kronstadt and dies by Kiyoshi's cut; Stalin goes to Georgia and is never tried.",
+        "C1 (PROPOSED): Vance III's father, the railway surveyor, is a hostage and survives to Kronstadt; the engineer Nagai Shōzō, met in February 1917, is among eleven advisers shot.",
+        "C2–C3 (PROPOSED): Omsk is won by the railway, the telegraph, the Legion and the line guard, and Vance's hour with Kolchak; Knox knew and Ward's battalion stood by; Volkov's papers open Pacifica's British file.",
+        "C4 (PROPOSED): London's protest answered with the ledger; Churchill reads Knox's account; Ward's 1920 book."
+      ],
+      "open": [
+        "Patton's 1916 raid, pending a Mexico–Pacifica timeline.",
+        "Where Kiyoshi's sword rests; his death poem.",
+        "Whether and when Stalin resurfaces.",
+        "The C4 seeds for the Anglo-Pacifican CRs: Churchill and the 1925 gold credit, Mikhailov at Harbin, Kolchak as Britain's friend, Baku."
+      ],
+      "facts": [
+        {
+          "add_forbidden": {
+            "pattern": "\\*M[aā]ui\\*",
+            "message": "CR-044 A1: the armoured train is Pele"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Stalin crosses the ice|kills Stalin|Stalin is dead before",
+            "message": "CR-044 B6: Dzerzhinsky is the last man on Kronstadt; Stalin goes to Georgia"
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [
