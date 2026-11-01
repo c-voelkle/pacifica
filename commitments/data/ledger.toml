@@ -62,6 +62,14 @@ id = "GULF"
 name = "Gulf Republic"
 
 [[party]]
+id = "VA"
+name = "Virginia (Confederate state to 1898, then a state of the Union)"
+
+[[party]]
+id = "NC"
+name = "North Carolina (Confederate state to 1899, then a state of the Union)"
+
+[[party]]
 id = "MX"
 name = "Mexico"
 
@@ -1210,7 +1218,11 @@ owes = [{ by = "PAC", to = "CSA", what = "guarantee of Confederate independence"
 status = "CANON"
 section = 13
 quote = "Richmond restores free Mississippi navigation; Pacifica guarantees Confederate independence."
-open = "Term and end not stated."
+more_quotes = [
+  "Pacifica reads its 1871 guarantee narrowly: it protects the Confederate States from foreign invasion, not from their own people.",
+]
+conditions = ["read narrowly from 1900 (CR-048): against foreign invasion, not against the Confederate States' own people; Pacifica arms no one and keeps order only inside its treaty grounds"]
+open = "Term and end not stated. Covers the rump after the partition of 1898–1900 (CR-048)."
 
 [[commitment]]
 id = "C-1871-ASSOCIATION"
@@ -1230,7 +1242,7 @@ cr = "CR-039"
 section = 13
 quote = "Association treaties in 1871–1872 refinance Confederate debt on customs security, install Pacifican customs co-administration and secure the lower Mobile Bay naval station, Galveston commercial privileges, Atlantic Auxiliary recruitment and Birmingham concessions."
 more_quotes = ["Pacifica replaces the surrendered toll revenue."]
-open = "Dated 1871–1872. The text does not say who lends the refinancing (refinancing by Pacifica is implied by 'more dependent on Pacifican credit' but not stated), nor any term."
+open = "Dated 1871–1872. Customs co-administration ends at Norfolk and Wilmington when Virginia and North Carolina pay their share (1898–1899) and at Galveston and New Orleans when the Gulf converts its share (1900); it continues at Charleston, Savannah, Jacksonville and Mobile (CR-048). The text does not say who lends the refinancing (refinancing by Pacifica is implied by 'more dependent on Pacifican credit' but not stated), nor any term."
 
 [[commitment]]
 id = "C-1873-FREEDOM-ACT"
@@ -2070,7 +2082,7 @@ quote = "Final Confederate abolition in 1888–1889 is financed by long compensa
 more_quotes = [
   "When Richmond misses coupons in 1893–1895, Pacifica's guarantee pays them, deepening dependence.",
 ]
-open = "Term ('long'), amount and holders not stated; whether the guarantee is a separate instrument not stated. The co-administration of customs comes from the 1871–1872 association treaties (earlier part)."
+open = "Term ('long'), amount and holders not stated; whether the guarantee is a separate instrument not stated. The co-administration of customs comes from the 1871–1872 association treaties (earlier part). Divided in 1898 by the Protocol of Richmond (C-1898-PROTOCOL-RICHMOND): the bonds and the guarantee advances follow the compensated owners, so the rump carries most of them and the Gulf (Louisiana) the rest."
 
 [[commitment]]
 id = "C-1895-US-GOLD-RESCUE"
@@ -2167,6 +2179,103 @@ label_note = "The label is 'PROPOSED dates', carried over from the CR-015 chrono
 section = 25
 quote = "A mutual defense pact and trade treaty bind it to Pacifica; citizenship stays separate."
 open = "Dated by the Republic's founding in 1900 (CR-039). Terms and duration not stated."
+
+
+[[commitment]]
+id = "C-1898-PROTOCOL-RICHMOND"
+name = "Protocol of Richmond (division of the Confederate debt)"
+kind = "settlement"
+parties = ["CSA", "VA", "NC", "GULF", "PAC"]
+from = 1898
+owes = [
+  { by = "VA", to = "CSA-BONDHOLDERS", what = "their share of the association debt, paid in cash on leaving" },
+  { by = "NC", to = "CSA-BONDHOLDERS", what = "their share of the association debt, paid in cash on leaving" },
+  { by = "GULF", to = "CSA-BONDHOLDERS", what = "its share of the association debt and of the compensation bonds, converted at its founding into a loan on oil royalties" },
+  { by = "CSA", to = "CSA-BONDHOLDERS", what = "the rest: more than two-thirds of the whole, under continued customs co-administration" },
+]
+conditions = [
+  "state debts stay with their state",
+  "the war (association) debt follows the customs that secured it",
+  "the compensation bonds and the coupons Pacifica's guarantee paid follow the compensated owners",
+]
+status = "APPROVED"
+cr = "CR-048"
+section = 25
+quote = "The Protocol of Richmond of 1898 divides the Confederate debt by rules Montgomery's own delegates cannot fault."
+more_quotes = [
+  "The war debt follows the customs that secured it, and the compensation bonds and the coupons Pacifica's guarantee paid follow the owners who were compensated, who lived in the Deep South because Texas and the Upper South had abolished by their own laws.",
+  "Virginia and North Carolina pay their small share in cash, borrowed in New York, and Pacifica's customs officers leave Norfolk and Wilmington.",
+  "Pacifican customs officers still sit in Charleston, Savannah, Jacksonville and Mobile, and the coupons are paid before the schools.",
+]
+open = "Amounts are MODEL in CR-048 (§R2): $387m in all, $269m to the rump, $94m to the Gulf, $24m to Virginia and North Carolina. Pacifica signs as guarantor and customs co-administrator (CR-048); the storyline does not name the signatories."
+
+[[commitment]]
+id = "C-1900-GULF-CONVERSION"
+name = "Gulf Republic's conversion of its Confederate debt share"
+kind = "loan"
+parties = ["GULF", "CSA-BONDHOLDERS"]
+from = 1900
+owes = [{ by = "GULF", to = "CSA-BONDHOLDERS", what = "service of the converted loan" }]
+secured_on = "Spindletop oil royalties"
+status = "APPROVED"
+cr = "CR-048"
+section = 25
+quote = "The Gulf turns its share into a loan of its own on Spindletop's royalties at its founding, and Pacifica's customs officers leave Galveston and New Orleans."
+open = "Lender, rate and term not stated in the storyline; CR-048 §R2 has a 4% loan of $94m placed through San Francisco (MODEL). Spindletop comes in in January 1897 in this history (CR-048)."
+
+[[commitment]]
+id = "C-1898-READMISSION"
+name = "Readmission acts for Virginia (1898) and North Carolina (1899)"
+kind = "law"
+parties = ["US", "VA", "NC"]
+from = 1898
+owes = [
+  { by = "VA", to = "US", what = "the fundamental conditions" },
+  { by = "NC", to = "US", what = "the fundamental conditions" },
+]
+conditions = [
+  "every resident becomes a Union citizen",
+  "no citizen's vote taken away except for crime",
+  "the Union pays no Confederate debt and no compensation for emancipation",
+  "general amnesty; the Confederacy's cabinet, congressmen and generals excluded from federal office for ten years",
+]
+status = "APPROVED"
+cr = "CR-048"
+section = 25
+quote = "Virginia and North Carolina came back into the Union on fundamental conditions: every resident a citizen, no citizen's vote taken away except for crime, no Confederate debt and no compensation for the Union to pay, and a general amnesty that keeps the Confederacy's cabinet, congressmen and generals out of federal office for ten years."
+more_quotes = [
+  "The white machines accept the conditions on paper and then write poll taxes and tests equal on their face, Virginia in 1902 and North Carolina in 1910 once the supervisors go.",
+  "The Union's Supreme Court will not strike them down; Congress can neither enforce the conditions nor drop them.",
+]
+open = "Virginia 1898, North Carolina 1899 (CR-048 R9). Evaded from 1902 and 1910; never repealed by 1932."
+
+[[commitment]]
+id = "C-1899-NC-SUPERVISORS"
+name = "Federal election supervisors in North Carolina"
+kind = "law"
+parties = ["US", "NC"]
+from = 1899
+until = 1909
+term_years = 10
+status = "APPROVED"
+cr = "CR-048"
+section = 25
+quote = "Wilmington's white supremacists overthrow its elected government in November 1898 while North Carolina's act is before Congress, and Congress adds federal election supervisors there for ten years."
+open = "Added after the Wilmington coup; the act takes effect in 1899 (CR-048 R9)."
+
+[[commitment]]
+id = "C-1911-PARCHMAN-ACT"
+name = "Parchman Act (Federal Grants Loyalty Act)"
+kind = "law"
+parties = ["US"]
+from = 1911
+conditions = ["loyalty and neutrality oaths attached to the emulation programme's grants"]
+status = "APPROVED"
+cr = "CR-048"
+section = 25
+quote = "Congress passes the Parchman Act of 1911, attaching loyalty and neutrality oaths to the programme's grants"
+more_quotes = ["From 1911 the Parchman Act's oaths turn the programme's own grants against it."]
+open = "Formal name per CR-048 R10; not repealed by 1932 in canon."
 
 [[commitment]]
 id = "C-1916-SEQUOYAH"

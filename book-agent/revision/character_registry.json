@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 193,
+    "canonical_dossiers": 200,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 187
+    "active_or_provisional_identities": 194
   },
   "people": [
     {
@@ -534,6 +534,10 @@
         {
           "relationship": "negotiates_charter_with",
           "to": "CT-JULIAN"
+        },
+        {
+          "relationship": "surveyed_by",
+          "to": "CT-ERNEST-EVERETT-JUST"
         }
       ],
       "legacy_profile_indices": [
@@ -2691,6 +2695,10 @@
         {
           "relationship": "brother",
           "to": "CT-CHICHIBU"
+        },
+        {
+          "relationship": "marine_science_with",
+          "to": "CT-ERNEST-EVERETT-JUST"
         }
       ],
       "legacy_profile_indices": [],
@@ -4042,35 +4050,173 @@
       "source_authority": [
         "CR-046"
       ]
+    },
+    {
+      "id": "CT-WEB-DU-BOIS",
+      "display_name": "W. E. B. Du Bois",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WEB-DU-BOIS",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-048 R7, R11 (APPROVED, 31 October 2026).\n\nAt Atlanta University in the rump from 1897 to 1910 (*hist.*), where his Atlanta Studies take a grant from Pacifica's statistics bureau on condition that they follow the bureau's counting rules. He defends the grant against Montgomery and against Union theorists alike. His data charts for the Paris Exposition of 1900 (*hist.*) become the visual form the Office of Public Measures adopts. He crosses from the rump to found the Niagara Movement at Fort Erie in 1905, helps found the NAACP after Springfield and edits *The Crisis* in New York from 1910, whose first number carries the Parchman raid. He never moves to Pacifica. His feud with Garvey in the 1920s splits the movement between integration and separation.\n\n**Character use:** Exact, proud, statistical and moral at once; the man who measures what others only feel. Keep him independent of Pacifica even while he takes its money.",
+      "links": [
+        {
+          "relationship": "feuds_with",
+          "to": "CT-MARCUS-GARVEY"
+        },
+        {
+          "relationship": "rival_of",
+          "to": "CT-BOOKER-T-WASHINGTON"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
+    },
+    {
+      "id": "CT-BOOKER-T-WASHINGTON",
+      "display_name": "Booker T. Washington",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-BOOKER-T-WASHINGTON",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-048 R11 (APPROVED, 31 October 2026).\n\nPrincipal of Tuskegee in Alabama, inside the rump (*hist.* institution). He accommodates Montgomery, channels Union philanthropy into Tuskegee (Carnegie's 1903 gift among it, which the *Tribune* later counts as Pacifican money because Carnegie's income comes from a Pacifican company) and condemns the Parchman raid from Tuskegee in 1910. Dies in 1915 (*hist.*).\n\n**Character use:** Patient, guarded, transactional; his realism is the rump's possible and its limit.",
+      "links": [
+        {
+          "relationship": "rival_of",
+          "to": "CT-WEB-DU-BOIS"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
+    },
+    {
+      "id": "CT-ERNEST-EVERETT-JUST",
+      "display_name": "Ernest Everett Just",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-ERNEST-EVERETT-JUST",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-048 R11 (APPROVED, 31 October 2026).\n\nBorn in Charleston in 1883, north at sixteen, at Howard from 1907, first Spingarn Medal 1915, doctorate at Chicago 1916 (*hist.*). Howard lives on a federal appropriation, so from 1911 he signs the Parchman Act's oath; no Union university or laboratory gives a Black zoologist a research post. After Chicago's riot of 1919 he takes a Carquinez research fellowship in 1920 attached to the survey of Kāneʻohe Bay for Keawe's Living Bay works. He is on the reef when the Crown Prince dives it in 1921, and from 1922 he directs the Crown's marine station on Moku o Loʻe, whose specimens and work at Hayama tie it to Hirohito's laboratory. Pacifican by examination. His cell-surface work is published from Moku o Loʻe.\n\n**Character use:** Meticulous, wounded, proud of his craft; the arc's proof in one life that the Union's racism costs it talent and that Pacifica's door opens for the examined few.",
+      "links": [
+        {
+          "relationship": "works_with",
+          "to": "CT-HIROHITO"
+        },
+        {
+          "relationship": "surveys_for",
+          "to": "CT-KEAWE"
+        },
+        {
+          "relationship": "appointed_by",
+          "to": "CT-JULIAN"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
+    },
+    {
+      "id": "CT-JOSIAH-HAYNES",
+      "display_name": "Josiah Haynes",
+      "nature": "invented",
+      "tier": "minor",
+      "identity_state": "approved_invented",
+      "story_bible_section": "CT-JOSIAH-HAYNES",
+      "narrative_profile": "**Status:** Invented; CR-048 R14 (APPROVED, 31 October 2026).\n\nBorn about 1872 on a Coahoma County plantation in the Mississippi Delta, bound to his mother's master under the free-womb law; escapes to Memphis at fourteen and is a Union citizen within the year under the Freedom Act. Serves in the Union's Black cavalry in Cuba in 1898 and leaves a sergeant. On 16 October 1910, the anniversary of Harpers Ferry, he crosses from Memphis with about forty men, opens the camps at the Parchman prison farm and calls the Delta to rise. It does not. His men are killed or taken within four days, reprisals fall on uninvolved families, and Mississippi tries him at Indianola and hangs him in December 1910. Letters found on his men name the Northern professors who paid for the raid; the Parchman Act of 1911 follows.\n\n**Character use:** Disciplined, scriptural, certain; a soldier who believes an example will be followed. Do not make him a cartoon of either martyr or fanatic.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
+    },
+    {
+      "id": "CT-GEORGE-HENRY-WHITE",
+      "display_name": "George Henry White",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-GEORGE-HENRY-WHITE",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-048 R9 (APPROVED, 31 October 2026).\n\nNorth Carolina's Black congressman for the Second District (*hist.* 1897–1901). In this history he enters the Union Congress with North Carolina's readmission and holds the seat until 1910, when the state's literacy test follows the end of the federal supervisors.\n\n**Character use:** The fundamental conditions' last working voice in Congress.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
+    },
+    {
+      "id": "CT-MARCUS-GARVEY",
+      "display_name": "Marcus Garvey",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-MARCUS-GARVEY",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-048 R17 (APPROVED, 31 October 2026).\n\nBorn in St. Ann's Bay, Jamaica, in 1887, a British subject (*hist.*). In Colón in 1910–1911 he sees West Indians paid well on Pacifica's canal and given no road to its citizenship. Founds the UNIA in 1914 and comes to Harlem in 1916; its divisions spread through the rump's Delta and Black Belt and absorb the generation that watched Parchman fail. *Look to the Pacific* becomes a slogan: the Pacific order is his proof of what non-white peoples can build. Meets the Klan's Edward Young Clarke in Atlanta in June 1922. Pacifica refuses his Black Star Line ships (its finances fail the published credit test) and his Honolulu lecture. Convicted in 1923, imprisoned at Leavenworth from 1925, deported to Jamaica in 1927 by the Union in concert with Britain; Thalassia refuses him too.\n\n**Character use:** Magnetic, grandiose, wounded by contempt; a showman with a real argument. No Japanese contact.",
+      "links": [
+        {
+          "relationship": "feuds_with",
+          "to": "CT-WEB-DU-BOIS"
+        },
+        {
+          "relationship": "meets",
+          "to": "CT-EDWARD-YOUNG-CLARKE"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
+    },
+    {
+      "id": "CT-EDWARD-YOUNG-CLARKE",
+      "display_name": "Edward Young Clarke",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-EDWARD-YOUNG-CLARKE",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-048 R17 (APPROVED, 31 October 2026).\n\nActing Imperial Wizard of the second Klan (*hist.*), refounded on Stone Mountain in the rump in 1915. Meets Garvey in Atlanta in June 1922; their meeting is the emblem of the emigration programme the rump's populists and Black nationalists share and the rump cannot pay for.\n\n**Character use:** The Klan as a business and a sales pitch.",
+      "links": [
+        {
+          "relationship": "meets",
+          "to": "CT-MARCUS-GARVEY"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-048"
+      ]
     }
   ],
   "updated_on": "2026-10-31",
   "character_revision": {
-    "request": "CR-045, CR-046 and CR-047",
-    "source": "CR-045.md, CR-046.md, CR-047.md; author approval of 31 October 2026 (\"Want to go ahead and merge the open crs\")",
+    "request": "CR-048",
+    "source": "CR-048.md; author approval of 31 October 2026 (\"Ok please integrate the CR with the storyline text, the presidents table, the commitments ledger entries and the character files.\")",
     "status": "approved_integrated",
     "updated_ids": [
-      "CT-ALEXANDER-KOLCHAK",
-      "CT-ALFRED-KNOX",
-      "CT-CHRONICLER",
-      "CT-FELIX-DZERZHINSKY",
-      "CT-KAIULANI",
-      "CT-KURODA-SON",
-      "CT-STALIN"
+      "CT-HIROHITO",
+      "CT-KEAWE"
     ],
     "new_ids": [
-      "CT-IVAN-MIKHAILOV",
-      "CT-PAVEL-KASHEVAROV",
-      "CT-MARIA-GRISHINA-ALMAZOVA",
-      "CT-VYACHESLAV-VOLKOV",
-      "CT-ALEXEI-GRISHIN-ALMAZOV",
-      "CT-KASHIWAGI",
-      "CT-WINSTON-CHURCHILL",
-      "CT-SAMUEL-HOARE",
-      "CT-KAMO",
-      "CT-LEO-STEVENI"
+      "CT-WEB-DU-BOIS",
+      "CT-BOOKER-T-WASHINGTON",
+      "CT-ERNEST-EVERETT-JUST",
+      "CT-JOSIAH-HAYNES",
+      "CT-GEORGE-HENRY-WHITE",
+      "CT-MARCUS-GARVEY",
+      "CT-EDWARD-YOUNG-CLARKE"
     ],
-    "limits": "Kashevarov's and Kashiwagi's names, Volkov's real fate, Mikhailov's birth date, Stalin's killers and the details marked PROPOSED remain open. CT-STALIN's superseded killed_by link to CT-KIYOSHI (original K1) is removed under CR-044 B6."
+    "limits": "Historical persons in alternate careers; Josiah Haynes invented. Private motives and scenes PROPOSED. Boas's outcome OPEN; the presidents are a group entry (INST-CSA-PRESIDENCY)."
   },
   "character_revision_history": [
     {
@@ -4251,6 +4397,25 @@
         "CT-LEO-STEVENI"
       ],
       "limits": "Kashevarov's and Kashiwagi's names, Volkov's real fate, Mikhailov's birth date, Stalin's killers and the details marked PROPOSED remain open. CT-STALIN's superseded killed_by link to CT-KIYOSHI (original K1) is removed under CR-044 B6."
+    },
+    {
+      "request": "CR-048",
+      "source": "CR-048.md; author approval of 31 October 2026 (\"Ok please integrate the CR with the storyline text, the presidents table, the commitments ledger entries and the character files.\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-HIROHITO",
+        "CT-KEAWE"
+      ],
+      "new_ids": [
+        "CT-WEB-DU-BOIS",
+        "CT-BOOKER-T-WASHINGTON",
+        "CT-ERNEST-EVERETT-JUST",
+        "CT-JOSIAH-HAYNES",
+        "CT-GEORGE-HENRY-WHITE",
+        "CT-MARCUS-GARVEY",
+        "CT-EDWARD-YOUNG-CLARKE"
+      ],
+      "limits": "Historical persons in alternate careers; Josiah Haynes invented. Private motives and scenes PROPOSED. Boas's outcome OPEN; the presidents are a group entry (INST-CSA-PRESIDENCY)."
     }
   ],
   "institutional_groups": [
@@ -4302,6 +4467,75 @@
         "status": "PROPOSED"
       },
       "arrangement": "Crown does not touch charters, appointments or Development Fund; estates never oppose Crown or allow factional capture."
+    },
+    {
+      "id": "INST-CSA-PRESIDENCY",
+      "name": "Presidency of the Confederacy (the rump from 1898)",
+      "source": "CR-048 R18",
+      "status": "APPROVED",
+      "rule": "one six-year term; elections in November every sixth year, inauguration the following February; capital Montgomery from 1898",
+      "holders": [
+        {
+          "from": 1862,
+          "to": 1868,
+          "name": "Jefferson Davis"
+        },
+        {
+          "from": 1868,
+          "to": 1874,
+          "name": "Joseph E. Johnston"
+        },
+        {
+          "from": 1874,
+          "to": 1880,
+          "name": "John B. Gordon"
+        },
+        {
+          "from": 1880,
+          "to": 1886,
+          "name": "Lucius Q. C. Lamar"
+        },
+        {
+          "from": 1886,
+          "to": 1892,
+          "name": "Fitzhugh Lee"
+        },
+        {
+          "from": 1892,
+          "to": 1898,
+          "name": "Benjamin Tillman"
+        },
+        {
+          "from": 1898,
+          "to": 1904,
+          "name": "Joseph Wheeler"
+        },
+        {
+          "from": 1904,
+          "to": 1910,
+          "name": "James K. Vardaman"
+        },
+        {
+          "from": 1910,
+          "to": 1916,
+          "name": "Hoke Smith"
+        },
+        {
+          "from": 1916,
+          "to": 1922,
+          "name": "Thomas E. Watson"
+        },
+        {
+          "from": 1922,
+          "to": 1928,
+          "name": "Theodore G. Bilbo"
+        },
+        {
+          "from": 1928,
+          "to": 1934,
+          "name": "Robert W. Woodruff"
+        }
+      ]
     }
   ]
 }

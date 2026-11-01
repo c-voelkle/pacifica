@@ -1451,3 +1451,69 @@ Simon Ter-Petrosian, "Kamo" (1882–1922), who led the Tiflis bank robbery of 19
 Leo Steveni (1893–1972), with the British military mission in Petrograd from 1915 and Knox's liaison officer at the White Army's Omsk headquarters from November 1918 to November 1919 (*hist.*; King's College London, Liddell Hart Centre). PROPOSED: he initials the Omsk promise of credit, carrying the Petrograd account east.
 
 **Character use:** Off the page.
+
+## CR-048 — the rump Confederacy and the long emergency (31 October 2026)
+
+### CT-WEB-DU-BOIS — W. E. B. Du Bois
+
+**Status:** Historical person in alternate history; CR-048 R7, R11 (APPROVED, 31 October 2026).
+
+At Atlanta University in the rump from 1897 to 1910 (*hist.*), where his Atlanta Studies take a grant from Pacifica's statistics bureau on condition that they follow the bureau's counting rules. He defends the grant against Montgomery and against Union theorists alike. His data charts for the Paris Exposition of 1900 (*hist.*) become the visual form the Office of Public Measures adopts. He crosses from the rump to found the Niagara Movement at Fort Erie in 1905, helps found the NAACP after Springfield and edits *The Crisis* in New York from 1910, whose first number carries the Parchman raid. He never moves to Pacifica. His feud with Garvey in the 1920s splits the movement between integration and separation.
+
+**Character use:** Exact, proud, statistical and moral at once; the man who measures what others only feel. Keep him independent of Pacifica even while he takes its money.
+
+### CT-BOOKER-T-WASHINGTON — Booker T. Washington
+
+**Status:** Historical person in alternate history; CR-048 R11 (APPROVED, 31 October 2026).
+
+Principal of Tuskegee in Alabama, inside the rump (*hist.* institution). He accommodates Montgomery, channels Union philanthropy into Tuskegee (Carnegie's 1903 gift among it, which the *Tribune* later counts as Pacifican money because Carnegie's income comes from a Pacifican company) and condemns the Parchman raid from Tuskegee in 1910. Dies in 1915 (*hist.*).
+
+**Character use:** Patient, guarded, transactional; his realism is the rump's possible and its limit.
+
+### CT-ERNEST-EVERETT-JUST — Ernest Everett Just
+
+**Status:** Historical person in alternate history; CR-048 R11 (APPROVED, 31 October 2026).
+
+Born in Charleston in 1883, north at sixteen, at Howard from 1907, first Spingarn Medal 1915, doctorate at Chicago 1916 (*hist.*). Howard lives on a federal appropriation, so from 1911 he signs the Parchman Act's oath; no Union university or laboratory gives a Black zoologist a research post. After Chicago's riot of 1919 he takes a Carquinez research fellowship in 1920 attached to the survey of Kāneʻohe Bay for Keawe's Living Bay works. He is on the reef when the Crown Prince dives it in 1921, and from 1922 he directs the Crown's marine station on Moku o Loʻe, whose specimens and work at Hayama tie it to Hirohito's laboratory. Pacifican by examination. His cell-surface work is published from Moku o Loʻe.
+
+**Character use:** Meticulous, wounded, proud of his craft; the arc's proof in one life that the Union's racism costs it talent and that Pacifica's door opens for the examined few.
+
+### CT-JOSIAH-HAYNES — Josiah Haynes
+
+**Status:** Invented; CR-048 R14 (APPROVED, 31 October 2026).
+
+Born about 1872 on a Coahoma County plantation in the Mississippi Delta, bound to his mother's master under the free-womb law; escapes to Memphis at fourteen and is a Union citizen within the year under the Freedom Act. Serves in the Union's Black cavalry in Cuba in 1898 and leaves a sergeant. On 16 October 1910, the anniversary of Harpers Ferry, he crosses from Memphis with about forty men, opens the camps at the Parchman prison farm and calls the Delta to rise. It does not. His men are killed or taken within four days, reprisals fall on uninvolved families, and Mississippi tries him at Indianola and hangs him in December 1910. Letters found on his men name the Northern professors who paid for the raid; the Parchman Act of 1911 follows.
+
+**Character use:** Disciplined, scriptural, certain; a soldier who believes an example will be followed. Do not make him a cartoon of either martyr or fanatic.
+
+### CT-GEORGE-HENRY-WHITE — George Henry White
+
+**Status:** Historical person in alternate history; CR-048 R9 (APPROVED, 31 October 2026).
+
+North Carolina's Black congressman for the Second District (*hist.* 1897–1901). In this history he enters the Union Congress with North Carolina's readmission and holds the seat until 1910, when the state's literacy test follows the end of the federal supervisors.
+
+**Character use:** The fundamental conditions' last working voice in Congress.
+
+### CT-MARCUS-GARVEY — Marcus Garvey
+
+**Status:** Historical person in alternate history; CR-048 R17 (APPROVED, 31 October 2026).
+
+Born in St. Ann's Bay, Jamaica, in 1887, a British subject (*hist.*). In Colón in 1910–1911 he sees West Indians paid well on Pacifica's canal and given no road to its citizenship. Founds the UNIA in 1914 and comes to Harlem in 1916; its divisions spread through the rump's Delta and Black Belt and absorb the generation that watched Parchman fail. *Look to the Pacific* becomes a slogan: the Pacific order is his proof of what non-white peoples can build. Meets the Klan's Edward Young Clarke in Atlanta in June 1922. Pacifica refuses his Black Star Line ships (its finances fail the published credit test) and his Honolulu lecture. Convicted in 1923, imprisoned at Leavenworth from 1925, deported to Jamaica in 1927 by the Union in concert with Britain; Thalassia refuses him too.
+
+**Character use:** Magnetic, grandiose, wounded by contempt; a showman with a real argument. No Japanese contact.
+
+### CT-EDWARD-YOUNG-CLARKE — Edward Young Clarke
+
+**Status:** Historical person in alternate history; CR-048 R17 (APPROVED, 31 October 2026).
+
+Acting Imperial Wizard of the second Klan (*hist.*), refounded on Stone Mountain in the rump in 1915. Meets Garvey in Atlanta in June 1922; their meeting is the emblem of the emigration programme the rump's populists and Black nationalists share and the rump cannot pay for.
+
+**Character use:** The Klan as a business and a sales pitch.
+
+### The presidents of the Confederacy and the rump, 1880–1934 (group; CR-048 R18)
+
+**Status:** APPROVED (31 October 2026). Historical persons in alternate offices; no individual dossiers until one appears in a scene.
+
+Lucius Q. C. Lamar (1880–1886), the reconciler; Fitzhugh Lee (1886–1892), who signs final abolition; Benjamin Tillman (1892–1898), the Deep South nationalist; Joseph Wheeler (1898–1904), chosen by the Confederate Congress, who signs the Protocol of Richmond and moves the capital to Montgomery; James K. Vardaman (1904–1910), the prison builder; Hoke Smith (1910–1916), the modernizer who disfranchises; Thomas E. Watson (1916–1922), the populist turned hater; Theodore G. Bilbo (1922–1928), the emigrationist; Robert W. Woodruff (1928–1934), the businessman who faces the crash. The table is in the master storyline after the Union's presidents.
+
+**Character use:** Their historical careers are a baseline for character, not proof of conduct. Tillman, Vardaman, Watson and Bilbo were among the most openly racist men in American public life; show it without endorsing it.

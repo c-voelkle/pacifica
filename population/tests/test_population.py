@@ -101,3 +101,37 @@ class Flows(unittest.TestCase):
             parts = sum(full[y] - {r["year"]: r["model_total"] for r in rows}[y]
                         for rows in self.ch["without"].values())
             self.assertLess(abs(parts - (full[y] - terr[y])) / (full[y] - terr[y]), 0.001)
+
+
+class Neighbours(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        import neighbours
+        cls.nb = neighbours
+        cls.cen = neighbours.census()
+        cls.mig, cls.start = neighbours.closure(cls.cen)
+        cls.otl = {r["year"]: r for r in neighbours.run(cls.mig, cls.start, with_flight=False)}
+        cls.alt = {r["year"]: r for r in neighbours.run(cls.mig, cls.start, with_flight=True)}
+
+    def test_our_timeline_closes_on_every_census(self):
+        for y, tot in self.cen["total"].items():
+            self.assertLess(abs(self.otl[y]["total"] / tot - 1), 0.001, y)
+            self.assertLess(abs(self.otl[y]["black"] / self.cen["black"][y] - 1), 0.001, y)
+
+    def test_no_departures_is_our_timeline(self):
+        same = {r["year"]: r for r in self.nb.run(self.mig, self.start, with_flight=True, scale=0.0)}
+        for y in (1900, 1932):
+            self.assertAlmostEqual(same[y]["total"], self.otl[y]["total"], delta=1)
+
+    def test_departures_lower_the_rump_and_its_black_share(self):
+        for y in (1900, 1932):
+            self.assertLess(self.alt[y]["total"], self.otl[y]["total"])
+            self.assertLess(self.alt[y]["black_share"], self.otl[y]["black_share"])
+
+    def test_people_are_conserved_up_to_unborn_children(self):
+        # what the rump loses against our timeline equals what lives abroad, give or take the
+        # difference in natural increase between the two places (same rates: small)
+        for y in (1900, 1932):
+            lost = self.otl[y]["total"] - self.alt[y]["total"]
+            abroad = sum(self.alt[y][k] for k in ("union_black", "union_white", "gulf_black", "gulf_white"))
+            self.assertLess(abs(lost / abroad - 1), 0.02, y)
