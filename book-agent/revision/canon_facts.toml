@@ -257,3 +257,33 @@ source = "CR-044"
 pattern = "Stalin crosses the ice|kills Stalin|Stalin is dead before"
 message = "CR-044 B6: Dzerzhinsky is the last man on Kronstadt; Stalin goes to Georgia"
 source = "CR-044"
+
+[[forbidden]]
+pattern = "(?:marries|married|wife of) (?:Ivan )?Mikhailov|Maria Mikhailova"
+message = "CR-045 G3: Maria refuses Mikhailov and marries in Japan"
+source = "CR-045"
+
+[[forbidden]]
+pattern = "Mikhailov (?:is|was) (?:shot|executed) (?:in|by) (?:1946|the Soviets|Moscow)"
+message = "CR-045 V1: Volkov kills Mikhailov at Harbin in 1928"
+source = "CR-045"
+
+[[forbidden]]
+pattern = '''Stalin (?:resurfaces|returns to (?:Moscow|Russia|power)|survives (?:until|into) 19(?:2[2-9]|3\d))'''
+message = "CR-046 P6: Stalin is killed in Tiflis in the autumn of 1921"
+source = "CR-046"
+
+[[forbidden]]
+pattern = "Churchill (?:is shown|reads|sees) the (?:whole|full|entire) (?:file|ledger|account)"
+message = "CR-046 P7: Churchill is shown one sheet only"
+source = "CR-046"
+
+[[forbidden]]
+pattern = "Karabekir (?:takes|captures) Kars|Turkey (?:annexes|takes|holds) Kars|Kars (?:falls|is lost) to (?:Turkey|the Turks|Kemal)"
+message = "CR-047 D4: Kars votes Armenian in 1921"
+source = "CR-047"
+
+[[forbidden]]
+pattern = '''(?:British|Pacifican) (?:garrison|troops) (?:at|in|hold) Batum (?:in|after) 192\d'''
+message = "CR-047 D6: Batum is a Georgian free port with no garrison"
+source = "CR-047"

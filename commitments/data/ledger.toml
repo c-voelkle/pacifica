@@ -2860,6 +2860,22 @@ name = "Serbia"
 id = "OT"
 name = "Ottoman Empire"
 
+[[party]]
+id = "SOVNARKOM"
+name = "The Council of People's Commissars (Moscow and Petrograd, 1917–1920)"
+
+[[party]]
+id = "TR"
+name = "Turkey (the Ankara government; successor of the Ottoman Empire)"
+
+[[party]]
+id = "AM"
+name = "Armenia"
+
+[[party]]
+id = "GE"
+name = "Georgia"
+
 # ---------------------------------------------------------------------------
 # §30 Credit, oil and the brokered peace
 # ---------------------------------------------------------------------------
@@ -3247,7 +3263,94 @@ more_quotes = [
   "It gives up the old San Francisco claims to Wrangel Island and the De Long islands",
   "Russia retains the northern coast until 1921.",
 ]
-open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031), federal Russia as the Moscow party and the western settlement (APPROVED — CR-040 R11) and the Tomsk vote, Alash and the oil (APPROVED — CR-041). Signatories other than Wrangel's government are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Which Ukraine, its coast, Bessarabia and the Turkish frontier are OPEN. Fortification freeze remains OPEN-031-11."
+open = "Name and year are settled; the detailed settlement is PROPOSED, except the Okhotsk-coast and Kamchatka articles (APPROVED — CR-031), federal Russia as the Moscow party and the western settlement (APPROVED — CR-040 R11) and the Tomsk vote, Alash and the oil (APPROVED — CR-041). Signatories other than Wrangel's government are not listed. Amount and schedule of the Nikolayevsk indemnity not stated. Which Ukraine, its coast and Bessarabia are OPEN; the Turkish frontier is C-1921-KARS (CR-047). Fortification freeze remains OPEN-031-11."
+
+[[commitment]]
+id = "C-1918-OMSK-PROMISE"
+name = "The British mission's promise of credit at Omsk"
+kind = "loan"
+parties = ["UK", "SIB"]
+from = 1918
+ended = 1918
+ended_by = "the coup of 18 November fails and the Directory survives; no government sits for the promise to fund"
+owes = [{ by = "UK", to = "SIB", what = "credit to whatever government sits in Omsk on 19 November, drawn on a British account" }]
+status = "APPROVED"
+cr = "CR-046"
+section = 31
+quote = "It is a promise of credit to whatever government sits in Omsk on 19 November, drawn on a British account; two copies were made, the mission's and the finance minister's."
+open = "Never in force. The finance minister's copy is sold to the Pacifican paymaster on 17 November 1918 and shown to Churchill in June 1927; the account is the Petrograd account (CR-046). Amount not stated."
+
+[[commitment]]
+id = "C-1920-COPENHAGEN"
+name = "Copenhagen prisoner agreement, with gold for the Cheka's British file"
+kind = "convention"
+parties = ["UK", "SOVNARKOM"]
+from = 1920
+ended = 1920
+ended_by = "the prisoners are exchanged; Dzerzhinsky keeps the file instead of burning it and dies on Kronstadt in May 1920"
+owes = [
+  { by = "SOVNARKOM", to = "UK", what = "Britain's prisoners released; the Cheka's British file burned (a secret term, not kept)" },
+  { by = "UK", to = "SOVNARKOM", what = "gold for the papers" },
+]
+status = "APPROVED"
+cr = "CR-046"
+section = 31
+quote = "In February, at Copenhagen, Britain and Moscow agreed to exchange their prisoners, and with the prisoners went gold for the papers."
+more_quotes = ["Dzerzhinsky took the gold, let the British go and kept the file."]
+open = "The prisoner exchange is historical (O'Grady–Litvinov, 12 February 1920); the gold and the burning are this history's secret terms. Amount not stated."
+
+[[commitment]]
+id = "C-1920-BAKU"
+name = "Baku concession agreement (Anglo-Pacifican, with Azerbaijan)"
+kind = "concession"
+parties = ["AZ", "PAC", "UK"]
+from = 1920
+from_approx = true
+renewals = [1927]
+owes = [
+  { by = "AZ", to = "PAC", what = "Pacifica operates the field and takes oil for its Black Sea and Mediterranean ships" },
+  { by = "AZ", to = "UK", what = "the strategic say at Baku and the Batum pipeline" },
+  { by = "PAC", to = "UK", what = "from 1927, a fixed allowance for the Royal Navy at Batum at market price" },
+]
+can_end = [{ who = "UK", how = "the seventh-year review: invoked in the spring of 1927 for first call and a British operator, and withdrawn in June" }]
+status = "APPROVED"
+cr = "CR-046"
+section = 33
+quote = "London invokes the seventh-year review of the Baku agreement."
+more_quotes = [
+  "The review is withdrawn: Pacifica stays operator, the navy takes a fixed allowance at Batum at market price, and London stops looking.",
+  "shares Baku with Britain",
+]
+open = "The storyline names the 1927 review as the seventh-year review, which puts the agreement in 1920; it is otherwise carried in the Treaty of Harbin (C-1921-HARBIN). Term, royalties and the size of the navy's allowance are not stated."
+
+[[commitment]]
+id = "C-1921-KARS"
+name = "Treaty of Kars (the three districts)"
+kind = "treaty"
+parties = ["TR", "AM", "GE", "PAC", "UK"]
+from = 1921
+owes = [
+  { by = "TR", to = "AM", what = "Kars and Kağızman, with the fortress and the railway from Alexandropol, by the district vote of 1921" },
+  { by = "AM", to = "TR", what = "Olti and Ardahan, by the same vote" },
+  { by = "TR", to = "GE", what = "Batum stays Georgian as a free port" },
+  { by = "GE", to = "TR", what = "Turkish goods pass free through Batum" },
+  { by = "GE", to = "UK", what = "the pipeline terminal at Batum" },
+  { by = "GE", to = "PAC", what = "a tanker berth of Pacifica's own at Batum" },
+]
+conditions = [
+  "The vote is the one the National Pact accepted, held in 1921 under Pacifican commissioners, district by district, on the Russian rolls of 1914; the Office of Public Measures keeps the registers.",
+  "Batum's Ajarian Muslims keep their autonomy; no power keeps a soldier at Batum.",
+]
+status = "APPROVED"
+cr = "CR-047"
+section = 32
+quote = "The three districts Russia took from Turkey in 1878 are settled at Kars on 13 October 1921."
+more_quotes = [
+  "Kars and Kağızman go to Armenia, with the fortress and the railway from Alexandropol; Olti and Ardahan go to Turkey.",
+  "Batum does not vote: Turkey renounces it for free transit, and it stays Georgian as a free port.",
+  "Britain keeps the pipeline terminal and Pacifica loads its tankers at its own berth, and neither keeps a soldier there.",
+]
+open = "The signatories (Turkey, Armenia and Georgia under the Entente guarantee, with Pacifica as supervising power) are in CR-047 D7, not in the storyline; Britain is listed for its Batum terminal. No term. Ararat (Surmalu) stays Armenian outside the treaty's three districts. Nakhichevan is not addressed."
 
 [[commitment]]
 id = "C-1921-KAMCHATKA"

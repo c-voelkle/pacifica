@@ -68,6 +68,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **APPROVED — CR-038:** As Regent she sends the Office's inspectors into the counties unannounced, checks their returns against figures that are hard to fake, and teaches Pacificans to take pride in what the tables show. She charters the trades congress in 1895 so that Pacifica's own workers never need a march.
 
+**CR-046 (31 October 2026):** APPROVED: by the Romanov burial she has read the Petrograd account and the file the boarding party brought out of Kronstadt; she keeps the ledger shut to protect the settlement, as she will keep the Altai a year later. PROPOSED: in the cathedral she takes Queen Alexandra's hands and turns from the King's representative without a word, and London's press and the Commons speculate about why. Whether Julian answers her charge of 1921 with the ledger she kept shut is OPEN.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -309,6 +311,8 @@ He is not merely a vehicle for accurate historical exposition. His understanding
 **CR-020 perspective:** The Living Bay and published islands index are real achievements to set beside the hidden Altai record. Industrial damage, contested compromises and guest workers sent home in the slump complicate the order’s public success. Keawe’s contribution is environmental engineering and the Lands and Waters Charter.
 
 **CR-031-R1, northern development:** Japan's professional construction industry and its reciprocal competition with Pacifica belong to the Chronicler's account of how the order works. The proposed Kamchatka Company employs the resulting planning, machinery and paid crews; no bonded-gang premise or contrast with free Kolyma labour remains. Kolyma lies on the Siberian side behind Ola Bay, while protected Kamchatka is separate. Company accounts and employment records may supply evidence of costs and productivity, but no new scene, possession of those files or replacement atrocity is established. The sealed Altai record and limits on his knowledge remain intact.
+
+**CR-046 (31 October 2026):** APPROVED: he holds the whole Petrograd account, given him by Kashevarov: the ledger pages, Dzerzhinsky's dispatch case and Mikhailov's sheet. It goes into the copper cylinders. He can tell the reader everything Churchill is not shown; the payments are fact, and their motives are his reading, which later voices may challenge.
 
 ### CT-KEAWE — Keawe Kahananui, environmental engineer
 **Status:** Biography, environmental programme and 1932 settlement approved by CR-020 B7 and section E. **Born:** 1895, Hilo. **Background:** Hapa; Hawaiian harbour-pilot father and a Japanese-Pacifican maternal family farming taro and sugar in Waimanu Valley.
@@ -837,6 +841,8 @@ His betrothal to a princess of a collateral imperial house gives the Concord a l
 
 He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1907 bid: a fleet cannot make a sovereign. Kiyoshi’s branch is distinct from the main house held by Kiyonaka.
 
+**CR-045 (31 October 2026):** APPROVED: from 1920 he reads Maria Grishina-Almazova's reports from her Tokyo salon for the Navy General Staff; in May 1932 her warning tells him which ships and which day. PROPOSED: his posting in the intelligence division in the 1920s before the western squadron. **CR-046:** he never learns that British gold paid the Chekists on Kronstadt in his father's last weeks.
+
 ### CT-TAKAHASHI — Takahashi Korekiyo
 **Status:** Historical person; alternate partnership and detailed incidents PROPOSED under CR-018 D4 and CR-019. Raises Japanese war loans in San Francisco in 1904–1905 and becomes Tokyo’s financial partner for Thalassia. In the 1927 crisis he and Chiyo negotiate the Concord; in 1931 he receives Julian’s threat through her. His actual California experience is a source-supplied historical anchor, not independent proof of these events. **Open:** Agreements, personal exchanges and changed political fate. CR-020 B14 makes San Francisco’s provision of Japan’s 1927 crisis borrowing decisive; the rescue scales with Japan’s richer economy. Amounts and debt ratios remain MODEL estimates. Gold parity later aggravates rural distress until the adjustable 1932 order. CR-021 approves his three-week moratorium in April 1927 as the time the bargain needs. He stays in Tokyo and is not assigned the common Finance ministry.
 
@@ -1224,6 +1230,8 @@ Admiral; passes through San Francisco in October 1917 and dines with Julian's st
 
 **Character use:** Keep this participant’s institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 
+**CR-045 (31 October 2026):** PROPOSED: in Japan in 1920 he is the first lion of Maria Grishina-Almazova's Tokyo salon, and becomes the friend of Commander Kashiwagi, who resents Kiyoshi from the other side.
+
 ### CT-VLADIMIR-KAPPEL — Vladimir Kappel
 
 **Status:** Historical person in alternate history; CR-041.
@@ -1263,6 +1271,8 @@ Orders the Czechoslovak Legion disarmed on 25 May 1918, the trigger of the coali
 Directed the recapture of Krasnaya Gorka from the sea in June 1919 and told Lenin he deplored the naval science that called it impossible (*hist.*). When Moscow falls in March 1920 he slips away south and is next heard of in Tiflis; Georgia's Menshevik government will not hand a Georgian to a Russian court. His road south is OPEN. He is never tried. Whether and when he resurfaces is OPEN. The Kronstadt role of the original K1 passes to Dzerzhinsky (CT-FELIX-DZERZHINSKY).
 
 **Character use:** No invented interiority.
+
+**CR-046 (31 October 2026):** APPROVED: he knows from the Politburo what Britain bought at Copenhagen in February 1920, and London knows he knows. After Lenin and Trotsky are executed he sends Kamo, with nothing on paper, overland by Kars to Pacifica's envoy at Ankara to sell what he knows for passage abroad. Thalassia hesitates; a British secret-service watcher on the envoy's door recognises Kamo; in the autumn of 1921 Stalin is shot in Tiflis by Georgians with old reasons of their own, London having arranged the occasion. He does not resurface.
 
 ## CR-043 — the peace of 1919 (31 October 2026)
 
@@ -1308,6 +1318,8 @@ Founder and head of the Cheka (*hist.*). When Moscow falls he goes north to make
 
 **Character use:** No invented interiority; the scene is K1, approved verbatim apart from the name.
 
+**CR-046 (31 October 2026):** APPROVED: through the Copenhagen prisoner channel of February 1920 he takes British gold to burn the Cheka's British file, lets the British prisoners go and keeps the file; some of the gold pays his Chekists on Kronstadt. PROPOSED: the dispatch case is found in his cabin on the *Petropavlovsk*.
+
 ### CT-VANCE-SURVEYOR — the surveyor Vance, Marcus III's father
 
 **Status:** PROPOSED — CR-044 C1 (31 October 2026). The private father of CT-MARCUS-III, the "second Marcus who avoids public command and surveys railways". **Not** the retired CT-MARCUS-II record, whose role and relationships stay retired; Marcus III's lineage remains OPEN-016-06 as proposed.
@@ -1340,6 +1352,8 @@ Major-General, head of the British military mission in Siberia (*hist.*). PROPOS
 
 **Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
 
+**CR-045 and CR-046 (31 October 2026):** APPROVED: Mikhailov sells Knox's knowledge to the Pacifican paymaster on the evening of 17 November, with his own copy of the mission's promise of credit to whatever government sits in Omsk on 19 November, drawn on the Petrograd account. Two copies were made, the mission's and the finance minister's; the mission's has been in a War Office safe since 1919.
+
 ### CT-JOHN-WARD — John Ward
 
 **Status:** Historical person in alternate history; CR-044 C3–C4 (PROPOSED).
@@ -1355,3 +1369,85 @@ Labour member of Parliament and colonel of the 25th Middlesex at Omsk (*hist.*),
 French general, appointed to command the Allied and Czechoslovak forces in Siberia; Omsk gave a city banquet in his honour on the evening of 17 November 1918 while he was still on his way, and he reached the city only in December (*hist.*, **VERIFY** the date). PROPOSED: on the night of the coup the French mission, waiting for him and thinking of France's Russian bonds and the Legion, sends no one.
 
 **Character use:** Keep this participant's institutional interests and knowledge distinct from the central court. Further private motives, dialogue and viewpoint scenes are PROPOSED until developed by the author.
+
+## CR-045 to CR-047 — Omsk in depth, the Petrograd account and the three districts (31 October 2026)
+
+### CT-IVAN-MIKHAILOV — Ivan Mikhailov
+
+**Status:** Historical person in alternate history; CR-045, APPROVED (31 October 2026); CR-046. Birth date **VERIFY** (1891 in the sources). Dossier: the project's `Mikhailov-dossier.md`.
+
+Ivan Adrianovich Mikhailov, born in a convict prison, the son of a revolutionary; a political economist from Petrograd and Siberia's finance minister at twenty-six, whom his enemies call Vanka-Kain (*hist.*). In August 1918 he tries and fails to bring the Kazan gold under his ministry's seal against the Reserve Bank's escrow. In September he decides Volkov's arrests with him and is saved from the Czech search by Pacifican orders. On the evening of 17 November 1918 he sells the coup to the paymaster Kashevarov, with his copy of the British mission's promise of credit, and is paid and held by Pacifica afterwards; Julian lets the coup begin so that it fails in public, and Mikhailov is dismissed, not given his ministry. At Harbin he heads the Chinese Eastern Railway's economic bureau (*hist.*), London's man on the surface and Pacifica's underneath, and keeps a ledger of his own; his reports are the first map of the Manchurian officers. Maria Grishina-Almazova refuses him in the winter of 1919–20. In 1921 he tells Julian to his face what the Tomsk vote has done to the 1918 promise. In June 1927 Kashevarov shows Churchill his copy of the Omsk promise, and in January 1928 Volkov, told by the British whose hand his papers were in, shoots him outside his house in Modyagou. (*Hist.:* he married Maria in 1921 and was shot in the USSR in 1946.)
+
+**Character use:** The cleverest man in every room until he meets the one who holds the money. Charming, quick and unrepentant; never at the scene. His scenes: the railway car on 17 November; the refusal at Harbin; the hour with Julian in 1921.
+
+### CT-PAVEL-KASHEVAROV — Pavel Kashevarov
+
+**Status:** Invented; CR-045, APPROVED (31 October 2026; name OPEN); CR-046.
+
+Pavel (Paul) Kashevarov, born about 1884 at Sitka, a Creole of Russian and Alutiiq descent, Orthodox and Russian-speaking, a Pacifican since 1867. PROPOSED: of the family of the navigator A. F. Kashevarov (**VERIFY**), who charted the Alaskan coast for the Russian-American Company and died a Russian general. The Reserve Bank's paymaster at Omsk from 1918, to whom the Kazan gold escrow at Chelyabinsk answers. He outplays Mikhailov over the gold, has the Czech search called off, buys the coup on 17 November and wires Julian, and reads Mikhailov's Harbin reports before London does. In April 1920, auditing the Moscow bank ledgers, he recognises the Petrograd account from Mikhailov's sheet (PROPOSED). Stalin's offer of 1921 reaches him. In June 1927, as head of the Reserve Bank's Russian department, he lays one sheet before Churchill, knowing it names Mikhailov; Julian is not told what it costs. His warning reaches Harbin later than it could have, and Mikhailov's ledger comes to him. He gives the whole Petrograd file to the Chronicler.
+
+**Character use:** A ledger-keeper who sees Mikhailov's game because it is his own: a provincial, half an outsider, faster than his superiors. The one man on the Pacifican side who knows the full cost of the Omsk night. The storyline gives no verdict on him.
+
+### CT-MARIA-GRISHINA-ALMAZOVA — Maria Grishina-Almazova
+
+**Status:** Historical person in alternate history; CR-045, APPROVED (31 October 2026). Sources: Petin, *Noveishaya istoriya Rossii* 9:2 (2019).
+
+Maria Alexandrovna Grishina-Almazova, later Kashiwagi (1891–1976). A café singer in Khabarovsk before the war ("Wet Manka", *hist.*), wife of General Grishin-Almazov and hostess of Omsk's monarchist salon; Mikhailov's mistress from 1918. Mystical and given to fortune-tellers; her diary of 17 January 1919 records a prophecy that her husband will be taken far away against his will and killed, and that "another" will love her and give her everything (*hist.*); it holds, off the page. Her husband dies on the Caspian on 5 May 1919. In the winter of 1919–20 she refuses Mikhailov at Harbin, as she refused him historically at Irkutsk, and sails from Dalian to Japan. From 1920 she keeps a Russian salon in Tokyo and reports what she hears to the Navy General Staff; her reader is Kiyoshi's son. In 1921 she marries Commander Kashiwagi of the fleet faction; their son is baptised Georgy at Surugadai. Her reports become the second folder of Pacifica's British file. Kiyoshi's son sends her reports on to Thalassia. In May 1932 she gives the coup away for Georgy, for whom the Restoration's Japan would have no place, and her warning tells Kiyoshi's son which ships and which day; her husband is court-martialled, and that summer she takes their son to San Francisco, where she dies in 1976 (*hist.* place and year). She never learns that Mikhailov sold Volkov.
+
+**Character use:** Tall, loud, generous, hard-drinking, clever; she wanted a child above all. Historically she lived "in the shadow of her husbands"; here she steps out of it once, does what Mikhailov did at Omsk for the opposite reason, and loses her marriage by it. At most two scenes: the refusal at Harbin and one evening in the Tokyo drawing room.
+
+### CT-VYACHESLAV-VOLKOV — Vyacheslav Volkov
+
+**Status:** Historical person in alternate history; CR-045, APPROVED (31 October 2026). Dates and real post-1919 fate **VERIFY**.
+
+Colonel V. I. Volkov, commanding the Omsk garrison and the Siberian Cossack officers (*hist.*). He makes the September 1918 arrests that end with Novoselov in the Zagorodnaya grove, and the arrests of the Directory's Socialist-Revolutionaries on 18 November; both times he swears on his honour that he had no accomplices (*hist.*). After the night he is tried, swears it again and believes it, and is cashiered. He lives in Harbin on almost nothing. In late 1927 the British let him read his own papers and tell him whose hand half of them are in, and in January 1928 he shoots Mikhailov in the street outside his house.
+
+**Character use:** A loyal, limited officer who protected his patron twice and was sold by him once. No invented interiority beyond that.
+
+### CT-ALEXEI-GRISHIN-ALMAZOV — Alexei Grishin-Almazov
+
+**Status:** Historical person in alternate history; CR-045, APPROVED (31 October 2026).
+
+Alexei Nikolaevich Grishin-Almazov (1880–1919), first commander of the Siberian Army (*hist.*). He loses his ministry in September 1918 and goes south to Denikin. On 5 May 1919, crossing the Caspian toward Omsk with Denikin's letters, he is taken at sea and shoots himself (*hist.*); in this history the ship that takes the *Leila* is a Red armed steamer out of Astrakhan, since no Baltic destroyer reaches the Caspian.
+
+**Character use:** Off the page; known through Maria and the news of his death.
+
+### CT-KASHIWAGI — Commander Kashiwagi
+
+**Status:** Invented; CR-045, APPROVED (31 October 2026); name and given name OPEN.
+
+A Japanese destroyer officer who served beside the British at Malta in 1917–18 and under Kiyoshi at Kronstadt in 1920, and came home believing that Japanese sailors died there for a Pacifican's hostages. Kolchak becomes his friend. Of the fleet faction, and courted with his friends by the British naval attaché. He marries Maria Grishina-Almazova in 1921; their son is Georgy. By 1932 he is executive officer of one of the western squadron's Japanese-crewed carriers and one of the men who plan its part in the coup; he is court-martialled with the others. His sentence is OPEN.
+
+**Character use:** A sincere man with a real grievance, not a villain; the prophecy's "another" whom Maria betrays.
+
+### CT-WINSTON-CHURCHILL — Winston Churchill
+
+**Status:** Historical person in alternate history; CR-044 C4 (PROPOSED), CR-046 (APPROVED, 31 October 2026).
+
+Secretary of State for War 1919–21 and Chancellor of the Exchequer 1924–29 (*hist.*). He reads Knox's account of the Omsk night at the War Office in 1919 (CR-044). In June 1927, while London presses the Baku review, Kashevarov lays one sheet before him: the British mission's Omsk promise of credit, with a ledger reference pencilled in the margin. He recognises the account, does not ask where the sheet came from, and withdraws the review. PROPOSED: he never knew of the Copenhagen gold of 1920, which went through Lloyd George's government and the secret service, and cannot know what else Thalassia holds; the sheet also explains Victoria's conduct at the Romanov burial to him.
+
+**Character use:** The British politician whose life's argument against Bolshevism Pacifica vindicated and whose country it humiliated. He is shown one sheet, never the file.
+
+### CT-SAMUEL-HOARE — Samuel Hoare
+
+**Status:** Historical person in alternate history; CR-046 (PROPOSED).
+
+Head of British intelligence in Russia in 1916–17 and Secretary of State for Air in Baldwin's cabinet, 1924–29 (*hist.*). His station keeps the Petrograd account. Named by the Chronicler; not on the page in 1927. (*Hist.:* he wrote that Russian rightists tried to frame the British for Rasputin's murder.)
+
+**Character use:** Off the page.
+
+### CT-KAMO — Kamo
+
+**Status:** Historical person in alternate history; CR-046, APPROVED (31 October 2026).
+
+Simon Ter-Petrosian, "Kamo" (1882–1922), who led the Tiflis bank robbery of 1907 and whose face was in Europe's newspapers after his arrest in Berlin that year (*hist.*). The only man Stalin trusts: in 1921 he carries Stalin's offer, with nothing on paper, overland by Kars to Pacifica's envoy at Ankara, where a British secret-service watcher on the envoy's door recognises him. PROPOSED: he dies in Tiflis on 14 July 1922 when a lorry runs down his bicycle (*hist.* date and manner); the Chronicler declines to say whether it was an accident.
+
+**Character use:** No invented interiority.
+
+### CT-LEO-STEVENI — Leo Steveni
+
+**Status:** Historical person in alternate history; CR-046 (PROPOSED).
+
+Leo Steveni (1893–1972), with the British military mission in Petrograd from 1915 and Knox's liaison officer at the White Army's Omsk headquarters from November 1918 to November 1919 (*hist.*; King's College London, Liddell Hart Centre). PROPOSED: he initials the Omsk promise of credit, carrying the Petrograd account east.
+
+**Character use:** Off the page.
