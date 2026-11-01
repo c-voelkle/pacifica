@@ -299,3 +299,9 @@ id = "parchman-raid"
 year = 1910
 patterns = ['''Parchman raid (?:of|in) (?:October )?(?P<year>1[89]\d\d)''', '''(?P<year>1[89]\d\d) raid on Parchman''']
 source = "CR-048"
+
+[[event]]
+id = "spindletop-gusher"
+year = 1897
+patterns = ['''Spindletop (?:gusher |strike )?(?:comes in|is brought in|blows) (?:in )?(?:January )?(?P<year>1[89]\d\d)''', '''(?:January )?(?P<year>1[89]\d\d) (?:gusher|strike) at Spindletop''', '''Spindletop \((?P<year>1[89]\d\d)\)''']
+source = "CR-048"

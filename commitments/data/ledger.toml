@@ -2216,12 +2216,12 @@ kind = "loan"
 parties = ["GULF", "CSA-BONDHOLDERS"]
 from = 1900
 owes = [{ by = "GULF", to = "CSA-BONDHOLDERS", what = "service of the converted loan" }]
-secured_on = "Gulf customs, and from 1901 Spindletop royalties"
+secured_on = "Spindletop oil royalties"
 status = "APPROVED"
 cr = "CR-048"
 section = 25
-quote = "The Gulf turns its share into a loan of its own at its founding, secured on its customs and from 1901 on Spindletop's royalties, and Pacifica's customs officers leave Galveston and New Orleans."
-open = "Lender, rate and term not stated in the storyline; CR-048 §R2 has a 4% loan of $94m placed through San Francisco (MODEL). Oil security from 1901, when Spindletop comes in."
+quote = "The Gulf turns its share into a loan of its own on Spindletop's royalties at its founding, and Pacifica's customs officers leave Galveston and New Orleans."
+open = "Lender, rate and term not stated in the storyline; CR-048 §R2 has a 4% loan of $94m placed through San Francisco (MODEL). Spindletop comes in in January 1897 in this history (CR-048)."
 
 [[commitment]]
 id = "C-1898-READMISSION"

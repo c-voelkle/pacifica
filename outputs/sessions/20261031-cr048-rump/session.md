@@ -1,7 +1,7 @@
 ---
 session: 20261031-cr048-rump
 started: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-01
 mode: adopt
 status: stopped
 baseline:
@@ -27,12 +27,15 @@ independence: same-agent drafting and integration; one fresh-context review of t
 | 2026-10-31 | explore | Author: "For the next arc I want to do some brainstorming on the home front" |
 | 2026-10-31 | draft | Author: "Yes please go ahead and write this up as CR-048" |
 | 2026-10-31 | adopt | Author: "Ok please integrate the CR…" |
+| 2026-11-01 | adopt | Author: "the prospectors just worked harder… and found the Spindletop oil earlier" |
 
 ## Author decisions and open choices
 
+- D15 = R19, Spindletop earlier (year 1897 and agents PROPOSED).
 - D1–D6 = A1–A6; D7 = R1 departure rates; D8 = R2; D9 = R9; D10 = R12; D11 = R14; D12 = R17; D13 = R18; D14 = R11 (Just).
 - Q1: Franz Boas and the Act's celebrated dismissal (reaches beyond the rump).
 - Q2: workbook follow-through (World sheet rump population, Union and Gulf plus emigrants, Gulf conversion loan).
+- Q4: the workbook's Gulf GDP follows the historical path; whether the earlier Spindletop raises Gulf output in 1897–1900 is a workbook question.
 - Q3: VERIFY the five-state census figures against Working Paper 56.
 
 ## Checks executed
