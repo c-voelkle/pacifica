@@ -36,7 +36,9 @@ independence: separate-agents
 | D10 | decision | First test in the desert, never on Hawaiian reefs; a later public demonstration ends the British confrontation and solidifies the Concord; atomic energy emblematic of the friendship with Japan; Altai link dropped | author 2026-11-02 | current |
 | D11 | decision | Demonstration at sea (open ocean); Tokyo atomic power station; Nishina co-lead; no Volga temptation; Britain gives way on three prongs: debt, the Petrograd account (CR-046), the naval demonstration | author 2026-11-02 | current |
 | D12 | decision | Uranium device and its on-page specifications approved for the first demonstration | author 2026-11-02 | current |
-| Q8 | open choice | Durability of the lead, 1908–1927 (and after) | author 2026-11-02 | open |
+| D13 | decision | Durability: Fergana beside Emba; Rutherford and Meitner; Szilárd, Wigner, von Neumann, Teller by attraction; no false paper | author 2026-11-02 | current |
+| Q8 | open choice | Joachimsthal negotiation; Shinkolobwe with maximal leverage | author 2026-11-02 | open |
+| Q9 | open choice | Separate sessions: the 1908 fission paper; Canada policy | author 2026-11-02 | open |
 | Q6 | open choice | Requirement 6: Julian's motive (drafted: fear of Europe, teeth for his peace system, a paying industry), the 1927 demonstration design, the world after 1927 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
