@@ -30,7 +30,9 @@ independence: separate-agents
 | D6 | decision | Approve the atomic rework, requirements 1–5 (S1, S2) | author 2026-11-02 | current |
 | Q3 | open choice | Requirements 6–7 and G1: when the programme goes secret, under whose authority, the Five | author question 2026-11-02 | open |
 | D7 | decision | Peirce replaces Liang, Japan at seventeen; atomic estate seat under Hillebrand (dates and history to propose) | author 2026-11-02 | current |
-| Q5 | open choice | P2: Mele's roles to Watkins, Kate Curran (Brandegee), Kamakau; F1 dates (1883, 1887); G1 secrecy design | drafter proposal | open |
+| D8 | decision | Watkins dropped; Kate Layne (Curran, Brandegee) follows up Niépce; Kamakau approved; the Light and Matter Works named | author 2026-11-02 | current |
+| Q5 | open choice | F1 dates (1883, 1887) and G1 secrecy design | drafter proposal | open |
+| Q6 | open choice | Requirement 6: brainstorm on consequences after 1892 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
 ## Handoffs
@@ -53,4 +55,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049: N, E, I, C1, P1 (Peirce for Liang), S1/S2 and the atomic estate seat (F1) approved; integration pending. Proposed and awaiting the author: P2 (Mele's replacements), F1's dates (charter 1883, seat 1887) and the G1 secrecy settlement. Then requirement 6, element names, O4 (Peirce's Japan sidequest first).
+CR-049: N, E, I, C1, P1/P2 (Peirce, Kate Layne, Kamakau), S1/S2 and the Light and Matter Works' seat approved; integration pending. Proposed: the Works' dates and the G1 secrecy settlement. Now brainstorming requirement 6 (the world after 1892); then element names, O4.
