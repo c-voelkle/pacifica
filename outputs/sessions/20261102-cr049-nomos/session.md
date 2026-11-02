@@ -35,7 +35,8 @@ independence: separate-agents
 | D9 | decision | Re-pace the late branch: valves c. 1895, neutron 1899, fission 1908 and chain 1909 in Julian's first years, installation c. 1913 | author 2026-11-02 | current |
 | D10 | decision | First test in the desert, never on Hawaiian reefs; a later public demonstration ends the British confrontation and solidifies the Concord; atomic energy emblematic of the friendship with Japan; Altai link dropped | author 2026-11-02 | current |
 | D11 | decision | Demonstration at sea (open ocean); Tokyo atomic power station; Nishina co-lead; no Volga temptation; Britain gives way on three prongs: debt, the Petrograd account (CR-046), the naval demonstration | author 2026-11-02 | current |
-| Q7 | open choice | The kind of device and the specifications mentioned on the page | author 2026-11-02 | open |
+| D12 | decision | Uranium device and its on-page specifications approved for the first demonstration | author 2026-11-02 | current |
+| Q8 | open choice | Durability of the lead, 1908–1927 (and after) | author 2026-11-02 | open |
 | Q6 | open choice | Requirement 6: Julian's motive (drafted: fear of Europe, teeth for his peace system, a paying industry), the 1927 demonstration design, the world after 1927 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
