@@ -2,8 +2,8 @@
 session: 20261102-cr049-nomos
 started: 2026-11-02
 updated: 2026-11-02
-mode: adopt
-status: paused-for-author
+mode: integrate
+status: integrated-pending-review
 baseline:
   commit: 3296de3
 independence: separate-agents
@@ -25,7 +25,7 @@ independence: separate-agents
 | D3 | decision | One or two invented scientists at most; five cut. Liang Wenqi and Mele Kealoha are the drafter's PROPOSED choice within the limit (P1) | author 2026-11-02 | current |
 | D4 | decision | Babbage and Boole anchors added to C1 | author 2026-11-02 | current |
 | D5 | decision | Keep Liang and Mele (P1 approved); rework the atomic branch, requirements 1–5 | author 2026-11-02 | current |
-| Q1 | open choice | Integration of the approved groups | — | open |
+| Q1 | open choice | Integration of the approved groups | — | closed by D15 |
 | Q2 | open choice | O4: expedition episodes with real danger | review | open |
 | D6 | decision | Approve the atomic rework, requirements 1–5 (S1, S2) | author 2026-11-02 | current |
 | Q3 | open choice | Requirements 6–7 and G1: when the programme goes secret, under whose authority, the Five | author question 2026-11-02 | open |
@@ -39,9 +39,10 @@ independence: separate-agents
 | D13 | decision | Durability: Fergana beside Emba; Rutherford and Meitner; Szilárd, Wigner, von Neumann, Teller by attraction; no false paper | author 2026-11-02 | current |
 | D14 | decision | Joachimsthal and Shinkolobwe as recommended: Shinkolobwe three-quarters to the Works; Ruanda-Urundi to Belgium at The Hague | author 2026-11-02 | current |
 | Q9 | open choice | Separate sessions: the 1908 fission paper; Canada policy | author 2026-11-02 | open |
-| Q10 | open choice | Atomic industry estimate (finance/CR-049-atomic-estimate.md, MODEL): accept the quantities, or adjust the reserve, power stations and post-1927 devices; enter in the workbook? | author request 2026-11-02 | open |
+| Q10 | open choice | Atomic industry estimate: accept and enter in the workbook | author request 2026-11-02 | closed by D15 |
 | Q6 | open choice | Requirement 6: Julian's motive (drafted: fear of Europe, teeth for his peace system, a paying industry), the 1927 demonstration design, the world after 1927 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
+| D15 | decision | Accept the atomic estimate; integrate with the proposed figures and add the workbook as a new atomic programme; Pacifica mines as much uranium as it can get, how is the next CR | author 2026-11-02 | current |
 
 ## Handoffs
 
@@ -60,7 +61,9 @@ independence: separate-agents
 | X4 | `lint_canon.py` | clean, 4 files |
 | X5 | `validate_character_docs.py` | pass |
 | X6 | `commitments/ledger.py check` | 188 commitments, 0 problems |
+| X7 | Integration (branch integrate/cr-049): `cr_facts.py apply CR-049`, `check`, `lint_canon.py`, `validate_character_docs.py`, `ledger.py check`, sync | 20 facts applied; 54 approved fact changes agree; lint clean; 207 identities valid; 195 commitments, 0 problems; index synchronised |
+| X8 | Workbook: `cr049_atomic_programme.py` then LibreOffice recalc | 0 formula errors; Problems found by Checks 0; totals match the estimate (5,804 t; $692m 1913) |
 
 ## Resume here
 
-CR-049: all approved except G1 (secrecy under Julian) and the remainder of requirement 6; the atom's durability (ore, people), the device and the 1927 demonstration decided in direction and recorded under Open decisions, not yet drafted into the chronology. Next: separate sessions for the 1908 fission paper and Canada; then G1, element names, O4, a drafting pass of requirement 6 into the CR, and integration.
+CR-049 integrated on branch `integrate/cr-049` (storyline, register facts, seven people, seven commitments, background, AGENTS, Atomic sheet in the workbook). Pending: fresh-context review of the integrated prose and its fixes, then the integration PR. Next sessions: the next CR (how Pacifica mines and buys as much uranium as it can get); the 1908 fission paper; Canada policy; G1 secrecy; element names; O4 expeditions.
