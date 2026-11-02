@@ -27,7 +27,9 @@ independence: separate-agents
 | D5 | decision | Keep Liang and Mele (P1 approved); rework the atomic branch, requirements 1–5 | author 2026-11-02 | current |
 | Q1 | open choice | Integration of the approved groups | — | open |
 | Q2 | open choice | O4: expedition episodes with real danger | review | open |
-| Q3 | open choice | Decide reworked S1 (T2) and S2/G1 (T4); requirements 6–7 still to do | rework round | open |
+| D6 | decision | Approve the atomic rework, requirements 1–5 (S1, S2) | author 2026-11-02 | current |
+| Q3 | open choice | Requirements 6–7 and G1: when the programme goes secret, under whose authority, the Five | author question 2026-11-02 | open |
+| Q5 | open choice | Replace Liang and Mele with historical people (author's suggestion) | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
 ## Handoffs
@@ -50,4 +52,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049: N, E, I, C1 and P1 approved (integration pending); the atomic branch reworked against requirements 1–5 and PROPOSED (T2 for S1, T4 for S2 and G1). Next: the author's decision on T2/T4, requirements 6–7, element names, O4 expeditions, then integration.
+CR-049: N, E, I, C1, P1 and the reworked S1/S2 approved (integration pending). Open: the historical replacements for Liang and Mele (Q5), secrecy and authority with the Five (Q3, G1, requirement 7), consequences after 1900 (requirement 6, T3), element names, O4.

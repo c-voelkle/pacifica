@@ -521,7 +521,7 @@ Census figures for the five states are recalled from the Census Bureau's compila
 
 ## CR-049 — scientific nomos and computing (2 November 2026)
 
-Approved in part: the nomos, ethos, institutions, computing branch and the two invented people. The atomic branch is reworked but not approved; its anchors are in the subsection below.
+Approved in part: the nomos, ethos, institutions, computing branch and the two invented people. The atomic branch is approved as reworked; its anchors are in the subsection below.
 
 - **Babbage's notation.** Charles Babbage, “On a method of expressing by signs the action of machinery”, *Philosophical Transactions* 116 (1826), pp. 250–265 ([text](https://archive.org/stream/philtrans09445034/09445034_djvu.txt)). The Analytical Engine was designed from the mid-1830s and never built.
 - **Menabrea and Lovelace.** Luigi Menabrea published the first account of the Analytical Engine in French in October 1842, from Babbage's Turin lectures of 1840. Ada Lovelace's translation, with Notes A–G making up 41 of its 66 pages, appeared in Taylor's *Scientific Memoirs* in August 1843, signed “A.A.L.”; Note G's table computes the Bernoulli numbers ([Bodleian Libraries](https://blogs.bodleian.ox.ac.uk/adalovelace/2018/07/26/ada-lovelace-and-the-analytical-engine/)). **Divergence:** Sylvester brings both papers to Carquinez in 1855; their operation tables feed the Calculation Office's procedural notation of 1878–1882 (CR-049 C1).
@@ -531,9 +531,9 @@ Approved in part: the nomos, ethos, institutions, computing branch and the two i
 - **Shannon.** Claude Shannon's MIT master's thesis, *A Symbolic Analysis of Relay and Switching Circuits* (1937, published 1938), showed that Boolean algebra describes and simplifies relay circuits ([DSpace@MIT](https://dspace.mit.edu/handle/1721.1/11173)). **Divergence:** Liang Wenqi (invented) uses relays as Boolean circuits for the Calculation Office's 1863 demonstrator; relay arithmetic enters service in 1868–1870, preset sequences by 1872, programmed electromechanical calculation in 1876–1879 (CR-049 C1).
 - **The returned branch's seed.** Abel Niépce de Saint-Victor reported in 1857–1861 that uranium salts darkened photographic plates in the dark ([Dingler](https://dingler.bbaw.de/articles/ar147016.html)); Becquerel's discovery of radioactivity followed in 1896.
 
-### CR-049 atomic branch, reworked (PROPOSED, 2 November 2026)
+### CR-049 atomic branch, reworked (approved 2 November 2026)
 
-Anchors for requirements 1–5 of the rework; none of the divergences below is approved.
+Anchors for requirements 1–5 of the rework.
 
 - **Joachimsthal.** Adolf Patera's process for uranium compounds from pitchblende went into production at a new works at Joachimsthal in 1853, making uranium yellows for glass; its radium-rich residues were what the Curies later worked ([Adolf Patera](https://en.wikipedia.org/wiki/Adolf_Patera); [ORAU, Jáchymov](https://orau.org/health-physics-museum/articles/jachymov-cradle-of-the-atomic-age.html)). **Divergence:** Carquinez buys the residues from the 1860s.
 - **Becquerel and the Curies.** Radioactivity 1896; polonium and radium 1898; Pierre Curie and Albert Laborde showed in 1903 that radium salts give off heat continuously ([Pierre Curie, Nobel lecture](https://www.nobelprize.org/uploads/2018/06/pierre-curie-lecture.pdf)). Owens (1899) traced erratic thorium readings to air currents carrying an active gas; Rutherford and Soddy's transformation theory followed in 1902 ([Rutherford on the thorium emanation](https://web.chemteam.info/Chem-History/Rutherford-half-life.html)). **Divergence:** 1861, 1868–1869, 1867–1870 and 1877 (CR-049 S1).
