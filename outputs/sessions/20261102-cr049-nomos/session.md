@@ -29,7 +29,8 @@ independence: separate-agents
 | Q2 | open choice | O4: expedition episodes with real danger | review | open |
 | D6 | decision | Approve the atomic rework, requirements 1–5 (S1, S2) | author 2026-11-02 | current |
 | Q3 | open choice | Requirements 6–7 and G1: when the programme goes secret, under whose authority, the Five | author question 2026-11-02 | open |
-| Q5 | open choice | Replace Liang and Mele with historical people (author's suggestion) | author 2026-11-02 | open |
+| D7 | decision | Peirce replaces Liang, Japan at seventeen; atomic estate seat under Hillebrand (dates and history to propose) | author 2026-11-02 | current |
+| Q5 | open choice | P2: Mele's roles to Watkins, Kate Curran (Brandegee), Kamakau; F1 dates (1883, 1887); G1 secrecy design | drafter proposal | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
 ## Handoffs
@@ -52,4 +53,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049: N, E, I, C1, P1 and the reworked S1/S2 approved (integration pending). Open: the historical replacements for Liang and Mele (Q5), secrecy and authority with the Five (Q3, G1, requirement 7), consequences after 1900 (requirement 6, T3), element names, O4.
+CR-049: N, E, I, C1, P1 (Peirce for Liang), S1/S2 and the atomic estate seat (F1) approved; integration pending. Proposed and awaiting the author: P2 (Mele's replacements), F1's dates (charter 1883, seat 1887) and the G1 secrecy settlement. Then requirement 6, element names, O4 (Peirce's Japan sidequest first).
