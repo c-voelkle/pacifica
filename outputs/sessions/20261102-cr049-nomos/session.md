@@ -24,15 +24,17 @@ independence: separate-agents
 | D2 | decision | Fix the tone (legal-brief hedging) | author 2026-11-02 | current |
 | D3 | decision | One or two invented scientists at most; five cut. Liang Wenqi and Mele Kealoha are the drafter's PROPOSED choice within the limit (P1) | author 2026-11-02 | current |
 | D4 | decision | Babbage and Boole anchors added to C1 | author 2026-11-02 | current |
-| Q0 | open choice | P1: keep Liang and Mele? | review F1 | open |
+| D5 | decision | Keep Liang and Mele (P1 approved); rework the atomic branch, requirements 1–5 | author 2026-11-02 | current |
 | Q1 | open choice | Integration of the approved groups | — | open |
 | Q2 | open choice | O4: expedition episodes with real danger | review | open |
-| Q3 | open choice | S1/S2/G1 rework against the seven requirements in CR-049.md | review | open |
+| Q3 | open choice | Decide reworked S1 (T2) and S2/G1 (T4); requirements 6–7 still to do | rework round | open |
+| Q4 | open choice | Names of the two new elements | rework round | open |
 
 ## Handoffs
 
 | ID | To | Task | Inputs | Withheld | Output | Status |
 | --- | --- | --- | --- | --- | --- | --- |
+| H2 | Fresh reviewer | Atomic rework: mechanisms, requirements 1–5, history, canon, safety, labels | CR-049.md, AGENTS.md, background sections, storyline passages | drafter's reasoning and the chat | `outputs/CR-049/review.md` (round 3) | done; F10–F19 repaired |
 | H1 | Fresh reviewer | Consistency, tone, cast, anchors, payload | CR-049.md, AGENTS.md, affected storyline passages, background section | drafter's reasoning and the chat | `outputs/CR-049/review.md` (round 2) | done; F1–F9 repaired |
 
 ## Checks executed
@@ -48,4 +50,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049 is approved in part (register status `approved_in_part_integration_pending`); canon prose is unchanged. Next: the author's word on P1 (Liang, Mele), on integrating N/E/I/C1 (register Liang and Mele, apply facts, write the prose), O4 expeditions, and the S1/S2/G1 rework.
+CR-049: N, E, I, C1 and P1 approved (integration pending); the atomic branch reworked against requirements 1–5 and PROPOSED (T2 for S1, T4 for S2 and G1). Next: the author's decision on T2/T4, requirements 6–7, element names, O4 expeditions, then integration.

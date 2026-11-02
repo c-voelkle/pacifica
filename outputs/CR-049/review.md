@@ -52,3 +52,24 @@ The proposed PR adds only `book-agent/revision/CR-049.md` and this review record
 Checked and confirmed by the reviewer: Babbage (1826), Menabrea (1842) and Lovelace (1843), Boole (1847, 1854), Donkin and Farr (1859, 1864), Peirce (1886), Shannon (1937/38), Niépce de Saint-Victor (1857–61). The Bodleian source gives Lovelace's Notes as 41 of 66 pages. No other invented named person appears.
 
 **Checks after repair:** canon lint clean; register and facts agree (CR-049 facts deferred to integration); storyline synchronised; character documents valid; commitments 0 problems; `cr_facts.py preview --tensions` parses every payload, with only the two expected unregistered-ID findings.
+
+## Round 3 — the reworked atomic branch (2 November 2026)
+
+**Candidate:** S1/S2 reworked against requirements 1–5 after the author kept Liang and Mele. One fresh-context reviewer received only CR-049.md, AGENTS.md, the two CR-049 sections of historical_background.md and the affected storyline passages.
+
+| ID | Finding | Disposition |
+| --- | --- | --- |
+| F10 | No single-particle detector before the neutron, fission pulses and neutron counting. | A counter at Yerba Buena, 1885–1887, read on a quadrant electrometer with photographic records (the Rutherford–Geiger principle, 1908), with Tesla's high voltage; neutron numbers by foil activation. |
+| F11 | Helium's 0.7% deficit was below the 1880s uncertainty in the oxygen–hydrogen ratio. | Morley's ratio (historically 1895) brought forward to 1884–1885 as the stated mechanism; litres of helium from pitchblende. |
+| F12 | “Alpha is helium” rested only on helium in sealed tubes. | Charge-to-mass ratio measured with strong magnets and plates on the 1876 sources. |
+| F13 | Energy “atom for atom” in 1877, and mass–energy “fits” in 1886 and 1892, broke requirement 5. | 1877 gram for gram; per-atom energy after counting in 1883; the mass link stays a conjecture with no conversion until 1905. |
+| F14 | Goldstein was 26 and without a doctorate in 1876. | Assistant under Genth from 1876, doctorate and mastership 1881. |
+| F15 | Hillebrand's 1879 gas came from ore found only in 1881 (and poor in helium). | Joachimsthal pitchblende; he corrects his own claim in 1881. |
+| F16 | Talbert's 1881 find lies in Uncompahgre Ute country. | Mining on a lease through the Republic with the fee to the Ute, under CR-033 (PROPOSED; terms OPEN). |
+| F17 | Mele sidelined after 1867; Morley overloaded. | Transformation credit becomes an open quarrel, restored by a correction entry in 1872; helium and radiogenic lead go to Hillebrand. |
+| F18 | Tesla as furnace chemist. | Tesla supplies the power; Hillebrand's group runs the furnaces. |
+| F19 | One tension bundled S1, S2 and G1; a stale background line; the thorium identification labelled approved; “goldbeater's leaf”. | T2 (S1) and T4 (S2, G1) split; background updated; identification marked PROPOSED; “beaten gold leaf”. |
+
+No safety finding: the text stays at a history-of-science level. Canon consistency (Western Slope and Leadville, Michelson from 1878, Yerba Buena 1866, Morley 1868, Genth) confirmed.
+
+**Checks after repair:** canon lint clean; register and facts agree; storyline synchronised; character documents valid; commitments 0 problems; all tension payloads parse and each S1/S2 pattern matches its own milestone sentence in the CR.
