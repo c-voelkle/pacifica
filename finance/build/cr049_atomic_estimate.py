@@ -3,7 +3,7 @@
 
 A stand-alone estimate requested by the author on 2 November 2026 before
 integration. It reads Pacifica's real GDP (1913 $m) from the current workbook
-and does not modify the workbook.
+and does not modify it; cr049_atomic_programme.py enters its central case.
 
 Every input is a labelled assumption in the tables below; low and high cases
 scale them. Weapons quantities are kept deliberately coarse: they are a
@@ -114,9 +114,10 @@ def main() -> None:
     w = lines.append
 
     w("# CR-049 — the atomic industry, 1864–1932: uranium, costs and returns (MODEL)\n")
-    w("**Status:** MODEL estimate for the author's decision before integration (2 November 2026). Built by "
-      "[`build/cr049_atomic_estimate.py`](build/cr049_atomic_estimate.py); the workbook is read for real GDP and "
-      "not modified. All money in 1913 dollars (multiply by the workbook's price level for current dollars: "
+    w("**Status:** MODEL estimate (2 November 2026), accepted by the author for integration and entered in the "
+      "workbook's Atomic sheet as the central case (see [CR-049-workbook.md](CR-049-workbook.md)). Built by "
+      "[`build/cr049_atomic_estimate.py`](build/cr049_atomic_estimate.py); the workbook is read for real GDP. "
+      "Pacifica means to mine as much uranium as it can get; how is the next CR, and these quantities will rise with it. All money in 1913 dollars (multiply by the workbook's price level for current dollars: "
       "1.66 in 1918, 1.58 in 1927). Weapons quantities are a coarse resource bucket, never per device.\n")
 
     # supply

@@ -1,6 +1,6 @@
 # CR-049 — the atomic industry, 1864–1932: uranium, costs and returns (MODEL)
 
-**Status:** MODEL estimate for the author's decision before integration (2 November 2026). Built by [`build/cr049_atomic_estimate.py`](build/cr049_atomic_estimate.py); the workbook is read for real GDP and not modified. All money in 1913 dollars (multiply by the workbook's price level for current dollars: 1.66 in 1918, 1.58 in 1927). Weapons quantities are a coarse resource bucket, never per device.
+**Status:** MODEL estimate (2 November 2026), accepted by the author for integration and entered in the workbook's Atomic sheet as the central case (see [CR-049-workbook.md](CR-049-workbook.md)). Built by [`build/cr049_atomic_estimate.py`](build/cr049_atomic_estimate.py); the workbook is read for real GDP. Pacifica means to mine as much uranium as it can get; how is the next CR, and these quantities will rise with it. All money in 1913 dollars (multiply by the workbook's price level for current dollars: 1.66 in 1918, 1.58 in 1927). Weapons quantities are a coarse resource bucket, never per device.
 
 ## 1. Uranium mined (tonnes of uranium contained)
 
@@ -41,11 +41,11 @@ Against the economy (central case):
 
 | Period | Industry cost per year | Real GDP per year | Share of GDP |
 |---|---:|---:|---:|
-| 1864–1908 | $0.0m | $3,945m | 0.00% |
-| 1909–1913 | $11.2m | $15,638m | 0.07% |
-| 1914–1919 | $33.5m | $21,377m | 0.16% |
-| 1920–1927 | $23.4m | $31,116m | 0.08% |
-| 1928–1932 | $49.1m | $41,389m | 0.12% |
+| 1864–1908 | $0.0m | $3,948m | 0.00% |
+| 1909–1913 | $11.2m | $15,656m | 0.07% |
+| 1914–1919 | $33.5m | $21,372m | 0.16% |
+| 1920–1927 | $23.4m | $31,044m | 0.08% |
+| 1928–1932 | $49.1m | $41,227m | 0.12% |
 
 The weapon to 1927 (separation halls, engineering, tests and three-fifths of the laboratories) costs about **$328m** (1913 $), roughly $525m in 1927 money: a few percent of the Treasury's technical programmes each year, which is how it stays inside the Works' and the Polytechnic's budgets without a vote. For comparison, the Manhattan Project cost about $2 billion in 1945 money, close to 1% of one year's American GDP; Pacifica's smaller, slower programme spreads a fraction of that over 15 years. The separation halls are priced at about twice what their output would cost with 1940s equipment, because 1910s vacuum, magnet and valve technology is less efficient.
 
