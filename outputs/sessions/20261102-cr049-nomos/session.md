@@ -37,7 +37,7 @@ independence: separate-agents
 | D11 | decision | Demonstration at sea (open ocean); Tokyo atomic power station; Nishina co-lead; no Volga temptation; Britain gives way on three prongs: debt, the Petrograd account (CR-046), the naval demonstration | author 2026-11-02 | current |
 | D12 | decision | Uranium device and its on-page specifications approved for the first demonstration | author 2026-11-02 | current |
 | D13 | decision | Durability: Fergana beside Emba; Rutherford and Meitner; Szilárd, Wigner, von Neumann, Teller by attraction; no false paper | author 2026-11-02 | current |
-| Q8 | open choice | Joachimsthal negotiation; Shinkolobwe with maximal leverage | author 2026-11-02 | open |
+| D14 | decision | Joachimsthal and Shinkolobwe as recommended: Shinkolobwe three-quarters to the Works; Ruanda-Urundi to Belgium at The Hague | author 2026-11-02 | current |
 | Q9 | open choice | Separate sessions: the 1908 fission paper; Canada policy | author 2026-11-02 | open |
 | Q6 | open choice | Requirement 6: Julian's motive (drafted: fear of Europe, teeth for his peace system, a paying industry), the 1927 demonstration design, the world after 1927 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
@@ -62,4 +62,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049: all but G1 and requirement 6 approved (integration pending). Requirement 6 in brainstorm: desert test first; a 1927 demonstration tying the British confrontation's end to the Concord and the Japan friendship. Next: settle the demonstration design, then G1 under Julian, element names, O4.
+CR-049: all approved except G1 (secrecy under Julian) and the remainder of requirement 6; the atom's durability (ore, people), the device and the 1927 demonstration decided in direction and recorded under Open decisions, not yet drafted into the chronology. Next: separate sessions for the 1908 fission paper and Canada; then G1, element names, O4, a drafting pass of requirement 6 into the CR, and integration.
