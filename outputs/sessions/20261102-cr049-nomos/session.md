@@ -33,7 +33,8 @@ independence: separate-agents
 | D8 | decision | Watkins dropped; Kate Layne (Curran, Brandegee) follows up Niépce; Kamakau approved; the Light and Matter Works named | author 2026-11-02 | current |
 | Q5 | open choice | F1 dates (1883, 1887) and G1 secrecy design | drafter proposal | open |
 | D9 | decision | Re-pace the late branch: valves c. 1895, neutron 1899, fission 1908 and chain 1909 in Julian's first years, installation c. 1913 | author 2026-11-02 | current |
-| Q6 | open choice | Requirement 6: consequences; a weapon by c. 1918; the Volga temptation; possible link to the 1921 Altai crime | author 2026-11-02 | open |
+| D10 | decision | First test in the desert, never on Hawaiian reefs; a later public demonstration ends the British confrontation and solidifies the Concord; atomic energy emblematic of the friendship with Japan; Altai link dropped | author 2026-11-02 | current |
+| Q6 | open choice | Requirement 6: Julian's motive (drafted: fear of Europe, teeth for his peace system, a paying industry), the 1927 demonstration design, the world after 1927 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
 ## Handoffs
@@ -56,4 +57,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049: everything but G1 and requirement 6 approved (integration pending); the late branch re-paced to fission 1908 and the chain 1909 under Julian. Next: the weapon question (by c. 1918; Volga temptation; second key Vance III; possible Altai 1921 link), then G1 redesign under Julian, element names, O4.
+CR-049: all but G1 and requirement 6 approved (integration pending). Requirement 6 in brainstorm: desert test first; a 1927 demonstration tying the British confrontation's end to the Concord and the Japan friendship. Next: settle the demonstration design, then G1 under Julian, element names, O4.
