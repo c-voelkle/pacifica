@@ -92,3 +92,21 @@ A fresh-context reviewer read the participants, chronology, P2, F1, T5–T6, the
 | F29 | “Liang's rule” left in Mele's row; “Robert Vance” beside canon's Vances. | Corrected; “a San Francisco daguerreotype studio”. |
 
 **Checks after repair:** canon lint clean; storyline synchronised; all tension payloads parse.
+
+## Round 5 — integrated prose (fresh context, 2 November 2026)
+
+A reviewer given only AGENTS.md, CR-049's decision register and canon tensions, and the integration diff with its surrounding canon reported eleven findings. Lint was clean; ages, dates and safety had no problems.
+
+| ID | Finding | Disposition |
+| --- | --- | --- |
+| F30 | "radium" used while the element names are OPEN | Repaired: "the barium-borne element" throughout the storyline, ledger and AGENTS; the finance labels keep the historical word as planning shorthand |
+| F31 | Edit-memo phrasing ("not the Regent's", "sources below", "without the removal of 1881", Kate never studying medicine, "examinations stay", "no exodus", "on Pacifican ground") | Repaired |
+| F32 | MODEL labels settling OPEN questions (separation halls 1912; Tokyo station 1925 implies Japan told; post-1927 devices; 0.16% vs workbook 0.17% in 1914; stations 1928 vs 1929–1931) | Repaired: halls and Tokyo dates PROPOSED; item 29 notes Japan told by 1925 and post-1927 devices; figures aligned with the workbook |
+| F33 | The Five described as heading "these institutions", Office included | Repaired: "the Polytechnic and the chartered estates" |
+| F34 | "beside Emba" misplaces Fergana | Repaired: "alongside the Emba concession" |
+| F35 | Chronology: Joachimsthal before fission; computing ran ahead to 1882 | Repaired: Joachimsthal moved after fission and dated 1909; the programmed machine moved after 1887 |
+| F36 | Kate's 1867 credit contradicts 1872 "first time credit given back" | Repaired |
+| F37 | Labels: Victoria's influence (F1, PROPOSED); thorium identification and Ute lease approved with S1 | Repaired (Victoria PROPOSED; thorium and Ute lease APPROVED, ledger too). Ruanda-Urundi kept APPROVED on the author's explicit decision; the CR-043 premise that Germany loses its colonies keeps its own PROPOSED label — for the author |
+| F38 | History: Meitner from Berlin; Sharp prospecting for Tanganyika Concessions; Montrose County anachronism | Repaired |
+| F39 | Demonstration hulks vs the 1922 disposals; "three exist, one is spent" vs the 1920 test | Hulks repaired ("Pacifica's own old capital ships, kept as hulks"); the device count is the author's wording — for the author |
+| F40 | Smaller prose (true uses, Bohemia sentence, "made his name", Genth hired 1851, "not I", passive bending) | Repaired |
