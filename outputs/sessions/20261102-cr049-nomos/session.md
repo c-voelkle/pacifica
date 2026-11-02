@@ -3,7 +3,7 @@ session: 20261102-cr049-nomos
 started: 2026-11-02
 updated: 2026-11-02
 mode: integrate
-status: integrated-pending-review
+status: integrated-pr-open
 baseline:
   commit: 3296de3
 independence: separate-agents
@@ -66,4 +66,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049 integrated on branch `integrate/cr-049` (storyline, register facts, seven people, seven commitments, background, AGENTS, Atomic sheet in the workbook). Pending: fresh-context review of the integrated prose and its fixes, then the integration PR. Next sessions: the next CR (how Pacifica mines and buys as much uranium as it can get); the 1908 fission paper; Canada policy; G1 secrecy; element names; O4 expeditions.
+CR-049 integrated on branch `integrate/cr-049` (storyline, register facts, seven people, seven commitments, background, AGENTS, Atomic sheet in the workbook). Review round 5 repaired; integration PR #59 open (supersedes #58). For the author: Germany's colonies premise (CR-043, PROPOSED) under the approved Ruanda-Urundi transfer; whether the 1920 test device is one of the three of 1927. Next sessions: the next CR (how Pacifica mines and buys as much uranium as it can get); the 1908 fission paper; Canada policy; G1 secrecy; element names; O4 expeditions.
