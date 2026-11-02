@@ -7,7 +7,7 @@ description: Estimate and calculate financial quantities for Pacifica change-req
 
 Renamed from Pacifica Scenario Finance. Retain its estimation methods, financial reference authority and reproducible calculations. For a power-directed question, read the [success contract](../../../docs/success-contract.md); calculate resources, burdens and conditional alternatives, and leave the judgment of Julian's power to the author. Standalone financial tasks keep their requested objective.
 
-Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7). This file covers only how Chryseis estimates and calculates.
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R8). This file covers only how Chryseis estimates and calculates.
 
 Turn a proposal into traceable numerical assumptions, dated schedules, and qualified comparisons. Calculate the requested quantities; do not stop at a list of inputs somebody else must supply.
 

@@ -7,7 +7,7 @@ description: Pacifica's commitments ledger — every treaty, compact, lease, loa
 
 A debt register for political obligations. Companion to [Chryseis](../chryseis/SKILL.md) (what things cost) and [pacifica-population](../pacifica-population/SKILL.md) (who is there to do them): this ledger says what each party is bound to and who can refuse.
 
-Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7).
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R8).
 
 ## Run
 

@@ -7,7 +7,7 @@ description: Model Pacifica's population by age, sex and census group (1846-1932
 
 Turn canon events and the People sheet's migration into an age-sex-group population, and report where the sheet's single total and flat growth rate diverge from what the age structure implies. Companion to [Chryseis](../chryseis/SKILL.md): Chryseis prices things; this model says who is there to do them.
 
-Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7).
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R8).
 
 ## Run
 

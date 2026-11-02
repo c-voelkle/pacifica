@@ -157,7 +157,8 @@ source = "CR-022"
 # ---------------------------------------------------------------------------
 # Forbidden statements in current canon and drafts
 # Regular expressions, matched case-insensitively within one sentence.
-# Use for protected mysteries and identity collisions AGENTS.md rules out.
+# kind = "intent" for the protected intent in AGENTS.md; kind = "fact" for
+# plot decisions and identity distinctions a CR made, revisable by a later CR.
 # ---------------------------------------------------------------------------
 
 [[forbidden]]

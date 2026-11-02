@@ -118,6 +118,44 @@ class Sandbox(unittest.TestCase):
         self.assertIn("retires a plot fact", out.getvalue())
         self.assertNotIn("departs from canon", out.getvalue())
 
+    def test_add_forbidden_writes_default_kind(self):
+        self.add_cr("approved_direction", [{"add_forbidden": {"pattern": "Test Person rules", "message": "t"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 0)
+        data = tomllib.loads(self.facts.read_text(encoding="utf-8"))
+        entry = next(f for f in data["forbidden"] if f["pattern"] == "Test Person rules")
+        self.assertEqual(entry["kind"], "fact")
+
+    def test_readding_with_another_kind_is_refused(self):
+        self.add_cr("approved_direction", [{"add_forbidden": {"pattern": self.OMSK, "message": "t",
+                                                              "kind": "intent"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 2)
+
+    def test_promote_fact_to_intent_by_retire_and_add(self):
+        self.add_cr("approved_direction", [{"retire_forbidden": {"pattern": self.OMSK}},
+                                           {"add_forbidden": {"pattern": self.OMSK, "message": "t",
+                                                              "kind": "intent"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 0)
+        data = tomllib.loads(self.facts.read_text(encoding="utf-8"))
+        self.assertEqual(next(f for f in data["forbidden"] if f["pattern"] == self.OMSK)["kind"], "intent")
+        self.assertEqual(cr_facts.main(["check"]), 0)
+
+    def test_preview_tensions_separately(self):
+        draft = Path(self.tmp.name) / "CR-099-draft.md"
+        draft.write_text("# Draft\n\nIn the spring Omsk falls to the Red Army.\n\n"
+                         "## Canon tensions\n\n### T1 — Omsk falls\n\n```json\n"
+                         + json.dumps([{"retire_forbidden": {"pattern": self.OMSK}}]) + "\n```\n\n"
+                         "## Fact changes\n\nnone\n", encoding="utf-8")
+        import contextlib, io
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(cr_facts.main(["preview", "--tensions", str(draft)]), 0)
+        self.assertIn("Canon tension: T1 — Omsk falls", out.getvalue())
+        self.assertIn("retires a plot fact", out.getvalue())
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(cr_facts.main(["preview", str(draft)]), 0)
+        self.assertIn("no fact changes declared", out.getvalue())  # tension not yet decided
+
     def test_preview_does_not_write(self):
         before = self.facts.read_text(encoding="utf-8")
         draft = Path(self.tmp.name) / "CR-099-draft.md"
