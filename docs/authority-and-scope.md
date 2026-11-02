@@ -30,7 +30,7 @@ The author's current request sets the mode. A session can move between modes.
 
 - Do not invent quantities, probabilities, scores, replacement events, off-page amendments, institutions, motives, culprits or genealogical links to make a draft, calculation or audit close.
 - Unknown is never zero. Keep missing evidence, missing calculations and unresolved bridges visible, marked OPEN at the appropriate level, with concrete alternatives in notes.
-- Protected mysteries stay protected: no murderer for Noe Kaʻanoe Ward, no resolution of open genealogy. A character's suspicion is not evidence.
+- Protected mysteries stay protected: no murderer for Noe Kaʻanoe Ward. A character's suspicion is not evidence. Open genealogy is current canon: it stays open until a CR resolves it, never by invention to close a gap.
 - An explanation that makes an existing mechanism clearer is not an increase in power in the world. A new right, bargain, institution or resource is a new premise with its own consequences.
 
 ## R4. Contemporary actors

@@ -50,7 +50,6 @@ Critical identity collisions: Elias's father Silas is not the later Silas claima
 These are values of the book, not plot decisions. They hold until the author explicitly changes one; never retire or work around one as a side effect of another change (`kind = "intent"` in `canon_facts.toml`, retired only with `retire_intent`).
 
 - The culprit of Noe Kaʻanoe Ward's death stays unproved: never establish a murderer, name one, or let the narrator implicate Victoria's side.
-- Open genealogies stay open (R3).
 - Julian is never President.
 - There is no Hawaiian throne abeyance.
 - Pacifica wages no campaign of extermination.
