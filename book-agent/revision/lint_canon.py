@@ -8,7 +8,11 @@ Checks, sentence by sentence:
                agree with the birth year (and the person is alive)
   * events   — key dated events are stated with their canonical year
   * IDs      — every CT-… identifier exists in character_registry.json
-  * forbidden statements listed in the facts file
+  * forbidden statements listed in the facts file, in two kinds:
+      [intent] a protected value of the book (an author decision to change)
+      [canon]  a departure from a plot decision some CR made: revise the
+               passage, or retire the entry through a CR if the story is
+               better for it (cr_facts.py retire_forbidden)
 
 Usage:
   python3 book-agent/revision/lint_canon.py              # current canon files
@@ -16,6 +20,8 @@ Usage:
   python3 book-agent/revision/lint_canon.py --only draft.md
 
 Exit status is 1 when any finding is reported. Standard library only.
+A departure from canon is a finding because canon must agree with itself after
+integration; in a draft it marks a canon tension to bring to the author.
 A line containing `canon-lint: ignore` is skipped (use sparingly, with a reason).
 """
 from __future__ import annotations
@@ -32,6 +38,7 @@ BASE = Path(__file__).resolve().parent
 ROOT = BASE.parent.parent
 FACTS = BASE / "canon_facts.toml"
 REGISTRY = BASE / "character_registry.json"
+FORBIDDEN_KINDS = ("intent", "fact")
 DEFAULT_FILES = [
     ROOT / "AGENTS.md",
     BASE / "master_storyline.md",
@@ -109,7 +116,13 @@ def load_facts(path: Path):
     data = tomllib.loads(path.read_text(encoding="utf-8"))
     people = [Person(**{k: v for k, v in p.items() if k != "source"})
               for p in data.get("person", [])]
-    return people, data.get("event", []), data.get("forbidden", [])
+    forbidden = data.get("forbidden", [])
+    for f in forbidden:
+        f.setdefault("kind", "fact")
+        if f["kind"] not in FORBIDDEN_KINDS:
+            raise ValueError(f"{path.name}: forbidden pattern {f['pattern']!r} has kind "
+                             f"{f['kind']!r}; use one of {', '.join(FORBIDDEN_KINDS)}")
+    return people, data.get("event", []), forbidden
 
 
 def registry_ids() -> set[str]:
@@ -213,7 +226,8 @@ class Linter:
         configured = {a for p in people for a in p.aliases}
         others = sorted((re.escape(n) for n in names if n not in configured), key=len, reverse=True)
         self.others = re.compile(r"(?<![\w-])(?:%s)(?![\w-])" % "|".join(others)) if others else None
-        self.forbidden = [(re.compile(f["pattern"], re.I), f["message"]) for f in forbidden]
+        self.forbidden = [(re.compile(f["pattern"], re.I), f["message"], f.get("kind", "fact"))
+                          for f in forbidden]
         self.ids = ids
         self.findings: list[Finding] = []
 
@@ -462,9 +476,14 @@ class Linter:
 
     def check_forbidden(self, loc, para, offset):
         for sent in sentences(para):
-            for pattern, message in self.forbidden:
+            for pattern, message, kind in self.forbidden:
                 if pattern.search(sent):
-                    self.report(loc, para, offset, sent, "forbidden", message)
+                    if kind == "intent":
+                        self.report(loc, para, offset, sent, "intent", f"protected intent: {message}")
+                    else:
+                        self.report(loc, para, offset, sent, "canon",
+                                    f"departs from canon: {message}. Revise the passage, or retire "
+                                    "the entry in a CR if the story is better this way")
 
     def lint(self, path: Path):
         if path.name in ("character_bible.md", "character_registry.json"):
@@ -504,7 +523,15 @@ def main(argv=None) -> int:
         f.where = rel(f.where)
         print(f)
     n = len(linter.findings)
-    print(f"\n{n} finding{'s' if n != 1 else ''} in {len(targets)} file{'s' if len(targets) != 1 else ''}."
+    tensions = sum(f.check == "canon" for f in linter.findings)
+    intents = sum(f.check == "intent" for f in linter.findings)
+    detail = []
+    if tensions:
+        detail.append(f"{tensions} departure{'s' if tensions != 1 else ''} from canon")
+    if intents:
+        detail.append(f"{intents} on protected intent")
+    suffix = f" ({'; '.join(detail)})" if detail else ""
+    print(f"\n{n} finding{'s' if n != 1 else ''} in {len(targets)} file{'s' if len(targets) != 1 else ''}{suffix}."
           if n else f"Canon lint clean: {len(targets)} file{'s' if len(targets) != 1 else ''} checked.")
     return 1 if n else 0
 

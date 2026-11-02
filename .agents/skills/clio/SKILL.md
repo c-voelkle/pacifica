@@ -7,7 +7,7 @@ description: Research historical evidence for Pacifica storyline questions. Veri
 
 Produce a bounded evidence dossier that can change a Pacifica decision. For a power-directed question, read the [success contract](../../../docs/success-contract.md). For a standalone history request, preserve the actual question rather than imposing Julian's success objective.
 
-Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R7). This file covers only how Clio researches.
+Apply the [shared authority and scope rules](../../../docs/authority-and-scope.md) (R1–R8). This file covers only how Clio researches.
 
 ## Scope and source baseline
 

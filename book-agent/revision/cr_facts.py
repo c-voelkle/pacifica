@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Carry fact changes from change requests into canon_facts.toml.
 
-A CR that changes a date, age, identity or protected fact lists the change
+A CR that changes a date, age, identity or linter-tracked plot fact lists the change
 once, in the same format, in two places:
 
 * a CR draft: a "## Fact changes" section with one ```json block;
@@ -14,13 +14,25 @@ Entry forms (use "was" whenever a value already exists, so a stale CR is caught)
     {"event": "hollerith-tabulation", "set": {"year": 1889}, "was": {"year": 1888}}
     {"add_person": {"id": "CT-…", "aliases": ["…"], "born": 1890}}
     {"add_event": {"id": "…", "year": 1900, "patterns": ["… (?P<year>1[89]\\\\d\\\\d)"]}}
-    {"add_forbidden": {"pattern": "…", "message": "…"}}
+    {"add_forbidden": {"pattern": "…", "message": "…", "kind": "fact"}}
+    {"retire_forbidden": {"pattern": "…"}}   # a plot decision the story outgrew
+    {"retire_intent": {"pattern": "…"}}      # a protected value: explicit author decision
+
+A forbidden entry's "kind" is "fact" (the default: a plot decision a CR made)
+or "intent" (a value of the book the author protects). Canon can change in
+either direction: a later CR may retire what an earlier one added. Retiring
+uses the exact pattern from canon_facts.toml; retire_forbidden refuses an
+"intent" entry, so a protected value never disappears as a side effect.
 
 Commands:
 
     python3 book-agent/revision/cr_facts.py preview DRAFT.md
         Lint current canon as if the draft's fact changes were approved and list
         every passage that would still state the old value (the impact list).
+    python3 book-agent/revision/cr_facts.py preview --tensions DRAFT.md
+        The same, once per canon tension: each ```json block under the draft's
+        "## Canon tensions" section, applied on top of its fact changes. These
+        blocks stay out of "Fact changes" until the author decides a tension.
     python3 book-agent/revision/cr_facts.py apply CR-033
         For an approved register entry: update canon_facts.toml, then list the
         passages to revise. Refuses unapproved CRs and stale "was" values.
@@ -88,6 +100,7 @@ def current_facts(text: str) -> dict:
         "person": {p["id"]: p for p in data.get("person", [])},
         "event": {e["id"]: e for e in data.get("event", [])},
         "forbidden": [f["pattern"] for f in data.get("forbidden", [])],
+        "forbidden_kind": {f["pattern"]: f.get("kind", "fact") for f in data.get("forbidden", [])},
     }
 
 
@@ -159,6 +172,25 @@ def add_block(text: str, table: str, fields: dict, cr: str) -> str:
     return text.rstrip("\n") + "\n\n" + "\n".join(body) + "\n"
 
 
+def remove_forbidden(text: str, pattern: str) -> str:
+    lines = text.split("\n")
+    starts = [i for i, l in enumerate(lines) if l.strip() == "[[forbidden]]"]
+    for i in starts:
+        j = i + 1
+        while j < len(lines) and not lines[j].startswith("[["):
+            j += 1
+        while j > i + 1 and (not lines[j - 1].strip() or lines[j - 1].lstrip().startswith("#")):
+            j -= 1
+        block = tomllib.loads("\n".join(lines[i + 1:j]))
+        if block.get("pattern") == pattern:
+            k = i
+            while k > 0 and not lines[k - 1].strip():
+                k -= 1
+            del lines[k:j]
+            return "\n".join(lines)
+    raise FactError(f"no [[forbidden]] with that pattern in canon_facts.toml: {pattern!r}")
+
+
 def apply_changes(text: str, changes: list[dict], cr: str, verify_was: bool = True) -> str:
     facts = current_facts(text)
     for change in changes:
@@ -181,8 +213,32 @@ def apply_changes(text: str, changes: list[dict], cr: str, verify_was: bool = Tr
                 raise FactError(f"{cr}: {table} {fields['id']} already exists (use set)")
             text = add_block(text, table, fields, cr)
         elif "add_forbidden" in change:
-            if change["add_forbidden"]["pattern"] not in facts["forbidden"]:
-                text = add_block(text, "forbidden", change["add_forbidden"], cr)
+            fields = dict(change["add_forbidden"])
+            fields.setdefault("kind", "fact")
+            if fields["kind"] not in lint_canon.FORBIDDEN_KINDS:
+                raise FactError(f"{cr}: add_forbidden kind {fields['kind']!r}; use one of "
+                                f"{', '.join(lint_canon.FORBIDDEN_KINDS)}")
+            pattern = fields["pattern"]
+            if pattern in facts["forbidden"]:
+                if facts["forbidden_kind"][pattern] != fields["kind"]:
+                    raise FactError(f"{cr}: {pattern!r} is already in canon_facts.toml as "
+                                    f"{facts['forbidden_kind'][pattern]!r}; to change its kind, retire it "
+                                    "and add it again in the same CR")
+            else:
+                text = add_block(text, "forbidden", fields, cr)
+        elif "retire_forbidden" in change or "retire_intent" in change:
+            key = "retire_intent" if "retire_intent" in change else "retire_forbidden"
+            pattern = change[key]["pattern"]
+            if pattern not in facts["forbidden"]:
+                raise FactError(f"{cr}: {key} names a pattern that is not in canon_facts.toml "
+                                f"(already retired, or not copied exactly): {pattern!r}")
+            kind = facts["forbidden_kind"][pattern]
+            if key == "retire_forbidden" and kind == "intent":
+                raise FactError(f"{cr}: {pattern!r} is protected intent; changing it is an explicit "
+                                "author decision — use retire_intent")
+            if key == "retire_intent" and kind != "intent":
+                raise FactError(f"{cr}: {pattern!r} is a plot fact, not protected intent — use retire_forbidden")
+            text = remove_forbidden(text, pattern)
         else:
             raise FactError(f"{cr}: unrecognised fact change {change}")
         facts = current_facts(text)  # fails loudly if the edit broke the TOML
@@ -200,20 +256,66 @@ def temp_facts(text: str) -> tuple[tempfile.TemporaryDirectory, Path]:
     return d, path
 
 
-def cmd_preview(args) -> int:
-    draft = Path(args.draft)
-    changes = draft_changes(draft)
-    if not changes:
-        print(f"{draft.name}: no fact changes declared.")
-        return 0
+def tension_changes(path: Path) -> list[tuple[str, list[dict]]]:
+    """(label, fact changes) for each ```json block in a '## Canon tensions' section."""
+    text = path.read_text(encoding="utf-8")
+    section = re.search(r"^##\s*Canon tensions\s*$(.*?)(?=^##\s|\Z)", text, re.M | re.S)
+    if not section:
+        raise FactError(f"{path.name}: no '## Canon tensions' section")
+    out = []
+    for m in re.finditer(r"```json\s*\n(.*?)```", section.group(1), re.S):
+        before = section.group(1)[:m.start()]
+        heads = re.findall(r"^#{3,}\s*(.+?)\s*$", before, re.M)
+        label = heads[-1] if heads else f"tension {len(out) + 1}"
+        try:
+            changes = json.loads(m.group(1))
+        except json.JSONDecodeError as e:
+            raise FactError(f"{path.name}: canon tension {label!r} JSON is invalid: {e}") from e
+        if not isinstance(changes, list):
+            raise FactError(f"{path.name}: canon tension {label!r} must be a JSON list")
+        out.append((label, changes))
+    return out
+
+
+def describe(changes: list[dict]) -> None:
+    for change in changes:
+        if "retire_intent" in change:
+            print(f"  RETIRES PROTECTED INTENT (author decision): {change['retire_intent']['pattern']}")
+        elif "retire_forbidden" in change:
+            print(f"  retires a plot fact: {change['retire_forbidden']['pattern']}")
+        elif "add_forbidden" in change and change["add_forbidden"].get("kind") == "intent":
+            print(f"  ADDS PROTECTED INTENT (author decision): {change['add_forbidden']['pattern']}")
+
+
+def preview_one(draft: Path, changes: list[dict], heading: str) -> None:
     text = apply_changes(FACTS.read_text(encoding="utf-8"), changes, draft.stem)
     d, facts = temp_facts(text)
     with d:
-        print(f"Impact of {len(changes)} fact change(s) in {draft.name}.")
+        print(heading)
+        describe(changes)
         print("Passages in current canon that would still state the old value:\n")
         lint_canon.main(["--facts", str(facts)])
         print(f"\n{draft.name} itself, against the changed facts:\n")
         lint_canon.main(["--only", "--facts", str(facts), str(draft)])
+
+
+def cmd_preview(args) -> int:
+    draft = Path(args.draft)
+    changes = draft_changes(draft)
+    if not args.tensions:
+        if not changes:
+            print(f"{draft.name}: no fact changes declared.")
+            return 0
+        preview_one(draft, changes, f"Impact of {len(changes)} fact change(s) in {draft.name}.")
+        return 0
+    tensions = tension_changes(draft)
+    if not tensions:
+        print(f"{draft.name}: no canon tension carries fact changes.")
+        return 0
+    for label, extra in tensions:
+        preview_one(draft, changes + extra,
+                    f"\n=== Canon tension: {label} — impact if canon is amended "
+                    f"({len(extra)} change(s), on top of {len(changes)} fact change(s)) ===")
     return 0
 
 
@@ -239,6 +341,8 @@ def cmd_apply(args) -> int:
 def cmd_check(args) -> int:
     facts = current_facts(FACTS.read_text(encoding="utf-8"))
     expected: dict[tuple[str, str, str], tuple[object, str]] = {}
+    present: dict[str, str] = {}   # forbidden pattern -> CR that added it
+    retired: dict[str, str] = {}   # forbidden pattern -> CR that retired it
     problems = []
     for entry in register()["requests"]:
         if not approved(entry):
@@ -252,8 +356,22 @@ def cmd_check(args) -> int:
                     ident = change[f"add_{table}"]["id"]
                     if ident not in facts[table]:
                         problems.append(f"{entry['id']} adds {table} {ident}, missing from canon_facts.toml")
-            if "add_forbidden" in change and change["add_forbidden"]["pattern"] not in facts["forbidden"]:
-                problems.append(f"{entry['id']} adds a forbidden statement missing from canon_facts.toml")
+            if "add_forbidden" in change:
+                pattern = change["add_forbidden"]["pattern"]
+                present[pattern] = entry["id"]
+                retired.pop(pattern, None)
+            for key in ("retire_forbidden", "retire_intent"):
+                if key in change:
+                    pattern = change[key]["pattern"]
+                    retired[pattern] = entry["id"]
+                    present.pop(pattern, None)
+    for pattern, cr in present.items():
+        if pattern not in facts["forbidden"]:
+            problems.append(f"{cr} adds a forbidden statement missing from canon_facts.toml")
+    for pattern, cr in retired.items():
+        if pattern in facts["forbidden"]:
+            problems.append(f"{cr} retires a forbidden statement still in canon_facts.toml "
+                            f"(run: python3 book-agent/revision/cr_facts.py apply {cr})")
     for (table, ident, key), (value, cr) in expected.items():
         now = facts[table].get(ident, {}).get(key)
         if now != value:
@@ -274,6 +392,8 @@ def main(argv=None) -> int:
     sub = ap.add_subparsers(dest="command", required=True)
     p = sub.add_parser("preview", help="impact list for a CR draft")
     p.add_argument("draft")
+    p.add_argument("--tensions", action="store_true",
+                   help="preview each canon tension's amendment separately")
     a = sub.add_parser("apply", help="apply an approved CR's fact changes")
     a.add_argument("cr")
     sub.add_parser("check", help="CI: register and facts file agree")

@@ -77,6 +77,85 @@ class Sandbox(unittest.TestCase):
         self.assertEqual(ev["patterns"], ["test treaty of (?P<year>1[89]\\d\\d)"])
         self.assertEqual(cr_facts.main(["check"]), 0)
 
+    OMSK = "Omsk falls to the Red Army|Kolchak,? (?:the )?Supreme Ruler"
+    PRESIDENT = "President Julian|Julian,? (?:the )?President"
+
+    def patterns(self):
+        return [f["pattern"] for f in tomllib.loads(self.facts.read_text(encoding="utf-8"))["forbidden"]]
+
+    def test_retire_plot_fact(self):
+        self.add_cr("approved_direction", [{"retire_forbidden": {"pattern": self.OMSK}}])
+        self.assertEqual(cr_facts.main(["check"]), 1)  # retired in the register, still in the file
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 0)
+        self.assertNotIn(self.OMSK, self.patterns())
+        self.assertIn("# Pacifica canon facts", self.facts.read_text(encoding="utf-8"))
+        self.assertEqual(cr_facts.main(["check"]), 0)  # CR-041's add is superseded, not missing
+
+    def test_retire_forbidden_refuses_protected_intent(self):
+        self.add_cr("approved_direction", [{"retire_forbidden": {"pattern": self.PRESIDENT}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 2)
+        self.assertIn(self.PRESIDENT, self.patterns())
+
+    def test_retire_intent_is_explicit(self):
+        self.add_cr("approved_direction", [{"retire_intent": {"pattern": self.PRESIDENT}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 0)
+        self.assertNotIn(self.PRESIDENT, self.patterns())
+        self.assertEqual(cr_facts.main(["check"]), 0)
+
+    def test_retire_unknown_pattern_is_an_error(self):
+        self.add_cr("approved_direction", [{"retire_forbidden": {"pattern": "no such pattern"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 2)
+
+    def test_preview_frees_the_draft_from_a_retired_fact(self):
+        draft = Path(self.tmp.name) / "CR-099-draft.md"
+        draft.write_text("# Draft\n\nIn the spring Omsk falls to the Red Army.\n\n## Fact changes\n\n```json\n"
+                         + json.dumps([{"retire_forbidden": {"pattern": self.OMSK}}]) + "\n```\n",
+                         encoding="utf-8")
+        import contextlib, io
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(cr_facts.main(["preview", str(draft)]), 0)
+        self.assertIn("retires a plot fact", out.getvalue())
+        self.assertNotIn("departs from canon", out.getvalue())
+
+    def test_add_forbidden_writes_default_kind(self):
+        self.add_cr("approved_direction", [{"add_forbidden": {"pattern": "Test Person rules", "message": "t"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 0)
+        data = tomllib.loads(self.facts.read_text(encoding="utf-8"))
+        entry = next(f for f in data["forbidden"] if f["pattern"] == "Test Person rules")
+        self.assertEqual(entry["kind"], "fact")
+
+    def test_readding_with_another_kind_is_refused(self):
+        self.add_cr("approved_direction", [{"add_forbidden": {"pattern": self.OMSK, "message": "t",
+                                                              "kind": "intent"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 2)
+
+    def test_promote_fact_to_intent_by_retire_and_add(self):
+        self.add_cr("approved_direction", [{"retire_forbidden": {"pattern": self.OMSK}},
+                                           {"add_forbidden": {"pattern": self.OMSK, "message": "t",
+                                                              "kind": "intent"}}])
+        self.assertEqual(cr_facts.main(["apply", "CR-099"]), 0)
+        data = tomllib.loads(self.facts.read_text(encoding="utf-8"))
+        self.assertEqual(next(f for f in data["forbidden"] if f["pattern"] == self.OMSK)["kind"], "intent")
+        self.assertEqual(cr_facts.main(["check"]), 0)
+
+    def test_preview_tensions_separately(self):
+        draft = Path(self.tmp.name) / "CR-099-draft.md"
+        draft.write_text("# Draft\n\nIn the spring Omsk falls to the Red Army.\n\n"
+                         "## Canon tensions\n\n### T1 — Omsk falls\n\n```json\n"
+                         + json.dumps([{"retire_forbidden": {"pattern": self.OMSK}}]) + "\n```\n\n"
+                         "## Fact changes\n\nnone\n", encoding="utf-8")
+        import contextlib, io
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(cr_facts.main(["preview", "--tensions", str(draft)]), 0)
+        self.assertIn("Canon tension: T1 — Omsk falls", out.getvalue())
+        self.assertIn("retires a plot fact", out.getvalue())
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(cr_facts.main(["preview", str(draft)]), 0)
+        self.assertIn("no fact changes declared", out.getvalue())  # tension not yet decided
+
     def test_preview_does_not_write(self):
         before = self.facts.read_text(encoding="utf-8")
         draft = Path(self.tmp.name) / "CR-099-draft.md"
