@@ -32,3 +32,23 @@ A separate read-only proposal-overlay check used the same linter, the declared p
 ## Publication boundary
 
 The proposed PR adds only `book-agent/revision/CR-049.md` and this review record. It does not amend the approval register, master storyline, canonical facts, character documents, commitments ledger, supplied attachments or financial model. Earlier local working drafts are not included. Adoption and subsequent integration require an explicit author decision on the selected groups and tensions.
+
+## Round 2 — the partly approved decision record (2 November 2026)
+
+**Candidate:** CR-049 revised on the author's decision (N, E, I, T1 Case A and C1 approved; tone fixed; invented cast limited; Babbage and Boole anchors; S1/S2/G1 returned). One fresh-context reviewer received only CR-049.md, AGENTS.md, the affected storyline passages and the new historical-background section; not the drafter's reasoning or the chat.
+
+| ID | Finding | Disposition |
+| --- | --- | --- |
+| F1 | P1 was recorded as approved, but the author set a limit (“one or two”), not a choice of people. | P1 now PROPOSED within the limit; Liang's and Mele's scenes labelled PROPOSED; register, AGENTS.md and storyline note corrected. |
+| F2 | O4's “one fellow must not come back” went beyond the author's “real danger”. | Marked as a suggestion. |
+| F3 | Hollerith read as joining the Calculation Office; in canon he tabulates Noe's registers at the Office of Public Measures. | Corrected; the Calculation Office borrows the method, and Liang's relays lose that work to the cards (PROPOSED). |
+| F4 | Mele as an Oahu College “graduate” before 1859 sits awkwardly with women's admission from 1862. | “Educated at Oahu College”. |
+| F5 | Hedging and memo sentences remained in the narrative; Peirce, Shannon and Jevons comparisons sat in the chronology. | Rewritten as events or cut; comparisons kept in the anchors table and historical_background.md only. |
+| F6 | An 1856 commission precedes the 1857 Albany and London purchases, so Carquinez is the first buyer, not the third; “Pacifica” is anachronistic in 1856. | Corrected. |
+| F7 | Jevons's logic piano is a logic machine, not a rival calculator. | Labelled a comparison only. |
+| F8 | Flat or unopposed beats: the wartime protection, the Japanese hosts, Mele's motive, nothing after 1879. | The navy's claim on the laboratory's people and the cost in gunboats (PROPOSED); hosts who test Liang and keep his better methods; Mele's own readings among those discarded; Liang against Hollerith's cards in 1888 (PROPOSED). |
+| F9 | Two pattern false positives (an 1866 sentence; London's 1857 order) and four misses (bold years, year-after-verb phrasing). | Patterns rewritten and tested against the CR's sentences and the two false-positive sentences. |
+
+Checked and confirmed by the reviewer: Babbage (1826), Menabrea (1842) and Lovelace (1843), Boole (1847, 1854), Donkin and Farr (1859, 1864), Peirce (1886), Shannon (1937/38), Niépce de Saint-Victor (1857–61). The Bodleian source gives Lovelace's Notes as 41 of 66 pages. No other invented named person appears.
+
+**Checks after repair:** canon lint clean; register and facts agree (CR-049 facts deferred to integration); storyline synchronised; character documents valid; commitments 0 problems; `cr_facts.py preview --tensions` parses every payload, with only the two expected unregistered-ID findings.

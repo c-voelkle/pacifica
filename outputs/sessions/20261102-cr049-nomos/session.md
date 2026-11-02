@@ -22,8 +22,9 @@ independence: separate-agents
 | --- | --- | --- | --- | --- |
 | D1 | decision | Approve N1–N3, E1–E4, I1–I2 (T1 Case A), C1 | author 2026-11-02 | current |
 | D2 | decision | Fix the tone (legal-brief hedging) | author 2026-11-02 | current |
-| D3 | decision | One or two invented scientists at most: Liang Wenqi and Mele Kealoha kept, five cut | author 2026-11-02; choice of the two by the drafter | current |
+| D3 | decision | One or two invented scientists at most; five cut. Liang Wenqi and Mele Kealoha are the drafter's PROPOSED choice within the limit (P1) | author 2026-11-02 | current |
 | D4 | decision | Babbage and Boole anchors added to C1 | author 2026-11-02 | current |
+| Q0 | open choice | P1: keep Liang and Mele? | review F1 | open |
 | Q1 | open choice | Integration of the approved groups | — | open |
 | Q2 | open choice | O4: expedition episodes with real danger | review | open |
 | Q3 | open choice | S1/S2/G1 rework against the seven requirements in CR-049.md | review | open |
@@ -32,7 +33,7 @@ independence: separate-agents
 
 | ID | To | Task | Inputs | Withheld | Output | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| H1 | Fresh reviewer | Consistency, tone, cast, anchors, payload | CR-049.md, AGENTS.md, affected storyline passages, background section | drafter's reasoning and the chat | `outputs/CR-049/review.md` (round 2) | running |
+| H1 | Fresh reviewer | Consistency, tone, cast, anchors, payload | CR-049.md, AGENTS.md, affected storyline passages, background section | drafter's reasoning and the chat | `outputs/CR-049/review.md` (round 2) | done; F1–F9 repaired |
 
 ## Checks executed
 
@@ -47,4 +48,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049 is approved in part (register status `approved_in_part_integration_pending`); canon prose is unchanged. Next: the author's word on integrating N/E/I/C1 (register Liang and Mele, apply facts, write the prose), O4 expeditions, and the S1/S2/G1 rework.
+CR-049 is approved in part (register status `approved_in_part_integration_pending`); canon prose is unchanged. Next: the author's word on P1 (Liang, Mele), on integrating N/E/I/C1 (register Liang and Mele, apply facts, write the prose), O4 expeditions, and the S1/S2/G1 rework.
