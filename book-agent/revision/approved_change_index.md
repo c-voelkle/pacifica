@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 46 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 47 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -915,6 +915,25 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Franz Boas's outcome under the Parchman Act (reaches beyond the rump).
 - Workbook (not applied): the World sheet's rump population, the Union plus the rump emigrants, the Gulf plus its share, the Gulf's 1900 conversion loan.
 
+### CR-049 — Pacifica's scientific nomos and ethos, the Calculation Office, the computing branch and the early atomic branch (1850–1900)
+
+**Register status:** `approved_in_part_integration_pending`
+
+- N1–N3: Elias, a lawgiver in the Lycurgus/Numa role, writes On the Public Arts (1851–1854); it is carried out through Genth's and the school's contracts and the mining royalty, never published as a law. It protects competent work, truthful accounts (a falsified account is theft from the commonwealth), independent criticism, teaching and the improvement of institutions, and makes agon and expeditionary trial founding commitments. The 1853 mill report is its first precedent. His fallibility and the Hawaiian breach of 1874–1876 stay.
+- E1–E4: a shared ethos of competence, fidelity, practical confidence, emulation and public honour ("things work in this country"); the discovery vocation belongs chiefly to the openly recruited exceptional few; inquiry is answerable among scientists; a civic usage of mana develops through Hawaiian participants and is contested, never compulsory, its strongest public form the Five's name nā Kahuna after 1887; eight customs grow gradually with local variation.
+- I1: the Calculation Office (Sylvester, 1855); travelling fellowships paid from the royalty from 1854 (first expeditions 1854–1857, Japanese journeys building on the 1854–1855 exchanges); the Laboratory of Light, Electricity and Matter (Genth, 1859). I2 / T1 Case A: qualifying examinations stay; exceptional achievement outweighs examination rank for honours and selection among the qualified; the 1888 service bonds stay.
+- C1: human calculation and checked tables from 1851; a Scheutz-type printing calculator commissioned in 1856 and installed 1858–1860; a Boolean relay method and arithmetic demonstrator in 1863; relay arithmetic in service 1868–1870; preset sequences by 1872; programmed electromechanical calculation 1876–1879; a procedural notation from Babbage's 1826 mechanical notation and Lovelace's 1843 tables, 1878–1882; Hollerith's cards at the Office of Public Measures from 1888 (CR-027), borrowed by the Calculation Office. Anchors: Babbage, Menabrea/Lovelace, Boole, the Scheutz engines, Jevons, Peirce, Shannon (historical_background.md).
+- S1/S2 (approved as reworked): uranium's activity 1861 (Genth, Mele); new bismuth-borne and barium-borne elements 1868–1869 from Joachimsthal residues; transformation 1870 (the thorium gas, Mele's credit restored 1872); weighable sources 1876 and their heat 1877 (Morley); electron 1879 (Goldstein, Michelson); helium and the alpha particle 1881 (Hillebrand); nucleus 1883 (Goldstein, Liang, Mele's counters); isotopes 1884–1886, Morley's oxygen–hydrogen ratio 1884–1885 and his deficit 1886 (a conjecture); the counter 1885–1887 (Yerba Buena, Tesla's high voltage); re-paced late branch: valve amplifiers c. 1895, neutron 1899 at Yerba Buena (Nagaoka, Michelson), confirmed 1901; fission 1908 (Hillebrand) and chain-reaction feasibility 1909, in Julian's first years; Western Slope uranium from 1881 on a Ute lease, mined for uranium from 1909; research installation c. 1913 (OPEN against 1916–1918). Historical additions: Hillebrand (soil), Goldstein and Nagaoka (pull). Names of the two new elements OPEN.
+- F1: the Light and Matter Works, an atomic estate with a seat among the Five under Hillebrand (seat and name approved; dates and history PROPOSED in CR-049: works from 1872, source trade from 1876, Western Slope from 1881, chartered 1883, seat from the first Five of 1887 in place of Hollerith's proposed seat).
+- P1/P2: no invented scientists remain. Charles Sanders Peirce (born 1839) replaces Liang Wenqi: leaves Harvard for Carquinez in 1856, Japan fellowship at seventeen, the 1863 Boolean relay method, the 1867 checking-rule failure. Kate Layne, later Curran and Brandegee (born 1844, raised in Folsom), replaces Mele Kealoha: examined at fifteen in 1860, follows up Niépce's published observation in 1861, the 1867 correction and credit quarrel, the counting room of 1882–1883. Samuel Kamakau (1815–1876) is the Hawaiian voice in the mana debate.
+
+**Still open:**
+- Integration of the approved groups: storyline prose, character bible and registry (the six historical people), the register's facts and cr_facts.py apply (two people; Calculation Office 1855, printing-calculator commission 1856, laboratory 1859, relay demonstrator 1863, the 1867 checking-rule dispute), synchronisation and checks, with a fresh-context review of the integrated prose.
+- F1's dates and history (works 1872, source trade 1876, Western Slope 1881, charter 1883, seat 1887 in place of Hollerith's proposed seat) are PROPOSED. G1, the secrecy settlement, is to be redesigned for 1908–1909 under Julian (the 1892–1895 design under the Regent is superseded); the two keys would be the sovereign's and the Polytechnic chief's (Soberanes, then Vance III from 1915). Requirement 6 includes whether a weapon exists by about 1918.
+- Requirements 6 (consequences for 1900–1932 and what the installation brings Pacifica) and 7 (the programme's place among the Five), with G1: when the programme draws military attention and goes secret, and under whose authority; O1–O3; tension T3.
+- Other PROPOSED details: the Calculation Office as a shared League service from 1866; the navy's wartime claim on the laboratory's people; Liang's relays losing the registers' work to Hollerith's cards in 1888.
+- O4: the expedition episodes must carry real danger (mountains, islands, sea, Japan); suggested, not required: one fellow does not come back.
+
 ### Author-approved editorial safeguards
 
 - Do not give the dead legitimate child no individuality; portray him as a real person before the accident.
@@ -1030,5 +1049,6 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 | 1891 | CR-036: famine relief to Russia in the year of the Moscow expulsion is Victoria's decisive test of diaspora loyalties. |
 | 1877–1897 | CR-037: anonymous scripts and avoidance from the late 1870s; appointment tables from 1888; first great audit 1890; county rule against cliques. |
 | 1856–1897 | CR-038: Hawaii abolishes penal labour contracts 1856; scholarships, benchmarked pay and retirement at 68 from 1888; Vallejo College 1889; county halls in the 1890s; trades congress 1895. |
+| 1851–1888 | CR-049: On the Public Arts 1851–1854; fellowships from 1854; Calculation Office 1855; printing calculator commissioned 1856; laboratory 1859; relay demonstrator 1863; relay arithmetic 1868–1870; programmed calculation 1876–1879; notation 1878–1882; Hollerith's cards from 1888 (CR-027). |
 
 <!-- END AUTO-APPROVAL-LEDGER -->
