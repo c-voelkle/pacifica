@@ -4,7 +4,7 @@ The Pacifica skills (Kalai, Clio, Chryseis) and any agent working in this reposi
 
 ## R1. Authority of sources
 
-- Follow the repository's `AGENTS.md`, its canonical read order and its dated "current authorial authority" section.
+- Follow the repository's `AGENTS.md`, its canonical read order and its "protected intent" list and its dated "current canon" section, which is revisable through a CR (R8).
 - Current master storyline, CR register and direct author corrections govern. Later explicit author decisions override earlier proposals, source snapshots, legacy profiles and assistant suggestions.
 - Use the current character bible and stable-ID registry for identity, motivation and voice. `book-agent/character_bible.json` and other first-draft sources never override approved kinship or chronology.
 - Keep APPROVED, PROPOSED, OPEN and MODEL labels attached to the detail they qualify. An overview or an approved direction does not approve every detail beneath it.
@@ -16,7 +16,7 @@ The author's current request sets the mode. A session can move between modes.
 
 | Mode | Permits | Does not permit |
 | --- | --- | --- |
-| Explore | Substantive analysis, challenge, alternatives | CR, canon, approval or identity edits. "Still brainstorming" stays binding until the author changes it. |
+| Explore | Substantive analysis, challenge, alternatives, including proposed changes to canon (R8) | CR, canon, approval or identity edits. "Still brainstorming" stays binding until the author changes it. |
 | Compare | Pinned cases, mechanisms, costs, outcomes; retaining the baseline is always a case | Treating the favored case as selected |
 | Draft | A complete standalone proposal or candidate prose with impact notes | Altering the master, approvals or identities |
 | Adopt | Revising master prose and affected records, synchronization, validation, within the stated scope | Expanding beyond that scope |
@@ -55,3 +55,12 @@ Actors pursue their own purposes with the information available at the time. The
 
 - A passing validator establishes only the condition it checks. Synchronization of the generated index is not literary integration, and a clean `lint_canon.py` checks only the facts in `canon_facts.toml`.
 - Skills are procedures. They do not install a scheduler, call another service, or message user-owned chats; those need their own implementation and the user's request. Supplied external critiques keep their provenance.
+
+## R8. Canon is revisable
+
+- Canon records the story as currently decided. It is not a constraint the next idea must fit. That a premise came earlier, or that later passages build on it, is not by itself a reason to keep it; it is the cost of changing it.
+- When the strongest version of a draft conflicts with canon, do not quietly bend the draft to fit. Present a canon tension with both cases: (a) the draft adapted to current canon, and (b) canon amended, with the fact changes and the `cr_facts.py preview` impact list that amendment would need. Say which makes the better story and why. The author decides.
+- Judge both cases by what they do for the story from here on: agency, conflict, causality, consequence. Retaining canon is always one of the cases (R2, Compare); being older does not make it the default.
+- Protected intent (AGENTS.md, `kind = "intent"` in `canon_facts.toml`) is different: values of the book the author has chosen to protect. Raise a tension with one only as an explicit question, and never retire one as a side effect of another change.
+- Consistency still holds at every merge. An amended premise is carried through every affected passage in the same branch, and a clean `lint_canon.py` is required after integration.
+- Amending canon is a premise change with its own consequences, proposed openly. It does not license the inventions R3 rules out.

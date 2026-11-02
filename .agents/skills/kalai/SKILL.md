@@ -11,7 +11,7 @@ Apply the [shared authority and scope rules](../../../docs/authority-and-scope.m
 
 ## Establish the writing brief
 
-Read repository AGENTS.md, the relevant current master passages and governing approvals, and the current character bible and stable-ID registry (R1). Identify selected changes, preserved premises, unresolved choices, narrative viewpoint and the authorized destination (R2). Keep brainstorming intact until writing is requested.
+Read repository AGENTS.md, the relevant current master passages and governing approvals, and the current character bible and stable-ID registry (R1). Identify selected changes, preserved premises, unresolved choices, narrative viewpoint and the authorized destination (R2). Keep brainstorming intact until writing is requested. A preserved premise is preserved because it still serves the story, not because it came first (R8).
 
 For a power-directed revision, read the [success contract](../../../docs/success-contract.md). Explaining an existing mechanism does not increase world power; a new legal right, bargain, institution or resource is a substantive premise requiring its own qualification and consequences (R3).
 
@@ -23,6 +23,8 @@ Write events as events: people pursue purposes with the information available to
 
 Propagate changed dates into ages, durations, anniversary language, terms, offices, travel and who could know or authorize an action. Propagate changed institutions into later permissions and refusal, and changed commitments into their burdens and dependencies. Removing war or an event also requires reconsidering the debts, deaths, alliances and opportunities that depended on it. Do not preserve a later authored victory merely because it appeared in the baseline.
 
+Where the strongest version of the change runs into existing canon, write that version and note the tension rather than quietly bending the draft to fit (R8). For each tension, give both cases: the draft adapted to current canon, and canon amended, with the fact changes the amendment needs (`retire_forbidden` for a plot fact a linter pattern protects) and its `cr_facts.py preview` impact list. Say which reads better and why. A `[canon]` finding from `lint_canon.py` on a draft is a tension to bring to the author, not an error to write around. An `[intent]` finding is a protected value: raise it as an explicit question only.
+
 Where a required bridge remains undecided, mark it OPEN at the appropriate level and give concrete alternatives in the notes (R3). Finish the supported prose rather than reducing the deliverable to questions, and do not silently choose a consequential new premise to remove an OPEN marker.
 
 Use [Clio](../clio/SKILL.md) for historical questions and [Chryseis](../chryseis/SKILL.md) for consequential quantitative changes. A saved workbook value is not a new calculation. Distinguish narrative changes from any later authorized model work.
@@ -31,6 +33,6 @@ Use [Clio](../clio/SKILL.md) for historical questions and [Chryseis](../chryseis
 
 Read the full affected sequence after editing, including untouched counterpart passages. For a substantial draft, ask for the fresh-context review in AGENTS.md: one reviewer, without your notes, checking consistency and literary effect together. Resolve demonstrated regressions within scope; label self-review as self-review (R5) and preserve remaining uncertainties.
 
-For a draft, deliver the actual revised narrative or complete alternative, its `## Fact changes` section, plus concise impact notes: baseline, changed premises, affected passages and claims, unchanged assumptions and author choices still needed. Keep alternate cases distinct. Supply a diff when it helps inspection. Do not call a proposal adopted or a synopsis patch fully integrated while affected later prose still says otherwise.
+For a draft, deliver the actual revised narrative or complete alternative, its `## Fact changes` section, a `## Canon tensions` section (each tension with both cases and your recommendation, or the word "none"), plus concise impact notes: baseline, changed premises, affected passages and claims, unchanged assumptions and author choices still needed. Keep alternate cases distinct. Supply a diff when it helps inspection. Do not call a proposal adopted or a synopsis patch fully integrated while affected later prose still says otherwise.
 
 For authorized canon integration, copy the draft's fact changes into the register entry and run `cr_facts.py apply`, revise the actual master and downstream passages until `lint_canon.py` is clean, update the current CR register and adjacent coverage IDs, keep historical research in its proper file, and update character prose and registry together where affected. Run the repository's current synchronization and validation commands. These checks establish their stated conditions only (R7).

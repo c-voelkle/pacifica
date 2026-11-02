@@ -9,6 +9,22 @@
 # Approximate dates ("c.1860") use `approx = true` and get a wider tolerance.
 # `aliases` are the names prose uses for the person; the first is the label
 # used in reports. Keep aliases specific: a bare "Silas" would match two people.
+#
+# Everything here records what canon currently says, not what it must say.
+# Any entry can change through a CR when the story is better for it; a fact
+# being older is no reason to keep it (docs/authority-and-scope.md R8).
+#
+# `[[forbidden]]` entries carry a `kind`:
+#   kind = "intent" — a value of the book the author has protected (Noe's
+#                     culprit stays unproved; Julian is never President).
+#                     Changing one is an explicit author decision, retired
+#                     with {"retire_intent": {"pattern": "…"}}.
+#   kind = "fact"   — a plot decision some CR made, written as a pattern so
+#                     prose cannot contradict it silently. The linter reports
+#                     a hit as a departure from canon, to be resolved either
+#                     way: revise the passage, or retire the entry in a CR with
+#                     {"retire_forbidden": {"pattern": "…"}}. New entries
+#                     default to "fact".
 
 # ---------------------------------------------------------------------------
 # People
@@ -145,30 +161,37 @@ source = "CR-022"
 # ---------------------------------------------------------------------------
 
 [[forbidden]]
+kind = "fact"
 pattern = "Emma's son Albert|Albert Kūnuiākea,? Emma's son"
 message = "Albert Kūnuiākea is Emma's cousin and heir, not her son (CR-027)"
 
 [[forbidden]]
+kind = "intent"
 pattern = "(?:on|by) (?:the )?(?:instructions?|orders?) (?:from|of) (?:the palace|Victoria|the Regent)"
 message = "Narrator-level instruction from Victoria's side implicates a suspect in Noe's death; the culprit stays unproved (CR-021 R9-09)"
 
 [[forbidden]]
+kind = "intent"
 pattern = "(?:Victoria|the Regent|Silas|Abigail) (?:had|has) (?:Noe|her) (?:poisoned|killed|murdered)"
 message = "States a culprit for Noe's death; the culprit stays unproved (CR-021 R9-09)"
 
 [[forbidden]]
+kind = "intent"
 pattern = "(?:murderer|killer) of (?:Noe|Kaʻanoe)|(?:Noe|Kaʻanoe)'s (?:murderer|killer) (?:was|is)"
 message = "Establishes a murderer for Noe; never establish one (AGENTS.md)"
 
 [[forbidden]]
+kind = "intent"
 pattern = "President Julian|Julian,? (?:the )?President"
 message = "Julian is never President (AGENTS.md)"
 
 [[forbidden]]
+kind = "intent"
 pattern = "throne (?:falls )?(?:into|in) abeyance"
 message = "There is no Hawaiian throne abeyance (AGENTS.md)"
 
 [[forbidden]]
+kind = "intent"
 pattern = '''(?<!\bto )\b(?:wage|wages|waged|declare|declares|declared|order|orders|ordered|launch|launches|launched) (?:a |its |their )?(?:war|campaign) of extermination|(?:war|campaign) of extermination (?:is|was) (?:waged|declared|ordered|launched)'''
 message = "Pacifica wages no campaign of extermination (CR-033)"
 source = "CR-033"
@@ -204,116 +227,139 @@ patterns = ['''In (?P<year>1[89]\d\d) he swears before the Cortes''']
 source = "CR-040"
 
 [[forbidden]]
+kind = "fact"
 pattern = "(?:destroys|defeats|victorious against|victor over) the Baltic Fleet"
 message = "Kiyoshi's 1905 victory is over the Petropavlovsk cruiser squadron; Russia's battle fleets survive (CR-040)"
 source = "CR-040"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Omsk falls to the Red Army|Kolchak,? (?:the )?Supreme Ruler"
 message = "CR-041: the Omsk coup fails; Omsk never falls (N2, N7)"
 source = "CR-041"
 
 [[forbidden]]
+kind = "fact"
 pattern = "holds the (?:Ob )?crossing (?:at Novonikolayevsk )?in January 1920"
 message = "CR-041 N4: Vance holds the Volga bridge at Zelenodolsk in June 1919"
 source = "CR-041"
 
 [[forbidden]]
+kind = "fact"
 pattern = "independent Siberia|Siberian Republic"
 message = "CR-041 N6: Siberia enters federal Russia by the Tomsk vote of 1921; the 1918 treaty is a Siberia–Alash union under guarantee"
 source = "CR-041"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Kiyoshi dies in Siberia|Kiyoshi[^.]{0,60}(?:killed|dies) in Siberia in 1920|Kuroda[^.]{0,60}(?:killed|dies) in Siberia in 1920"
 message = "Kiyoshi dies at Kronstadt in May 1920 (CR-040 K1, integrated with CR-041)"
 source = "CR-041"
 
 [[forbidden]]
+kind = "fact"
 pattern = '''\bDairen\b'''
 message = "CR-042 H1/H5: Dalian stays Chinese and keeps its Chinese name; the Transbaikal ataman retires to Urajio"
 source = "CR-042"
 
 [[forbidden]]
+kind = "fact"
 pattern = "retains Alsace-Lorraine"
 message = "CR-043 P7: Alsace-Lorraine becomes a neutral republic in union with Switzerland"
 source = "CR-043"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Victoria negotiates the settlement"
 message = "CR-043 P2: Kaʻiulani and Bryan mediate the peace of 1919"
 source = "CR-043"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Pacifica pays and supplies the Czechoslovak Legion"
 message = "CR-043 P9: France pays the Legion in francs from Pacifican credit"
 source = "CR-043"
 
 [[forbidden]]
+kind = "fact"
 pattern = '''\*M[aā]ui\*'''
 message = "CR-044 A1: the armoured train is Pele"
 source = "CR-044"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Stalin crosses the ice|kills Stalin|Stalin is dead before"
 message = "CR-044 B6: Dzerzhinsky is the last man on Kronstadt; Stalin goes to Georgia"
 source = "CR-044"
 
 [[forbidden]]
+kind = "fact"
 pattern = "(?:marries|married|wife of) (?:Ivan )?Mikhailov|Maria Mikhailova"
 message = "CR-045 G3: Maria refuses Mikhailov and marries in Japan"
 source = "CR-045"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Mikhailov (?:is|was) (?:shot|executed) (?:in|by) (?:1946|the Soviets|Moscow)"
 message = "CR-045 V1: Volkov kills Mikhailov at Harbin in 1928"
 source = "CR-045"
 
 [[forbidden]]
+kind = "fact"
 pattern = '''Stalin (?:resurfaces|returns to (?:Moscow|Russia|power)|survives (?:until|into) 19(?:2[2-9]|3\d))'''
 message = "CR-046 P6: Stalin is killed in Tiflis in the autumn of 1921"
 source = "CR-046"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Churchill (?:is shown|reads|sees) the (?:whole|full|entire) (?:file|ledger|account)"
 message = "CR-046 P7: Churchill is shown one sheet only"
 source = "CR-046"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Karabekir (?:takes|captures) Kars|Turkey (?:annexes|takes|holds) Kars|Kars (?:falls|is lost) to (?:Turkey|the Turks|Kemal)"
 message = "CR-047 D4: Kars votes Armenian in 1921"
 source = "CR-047"
 
 [[forbidden]]
+kind = "fact"
 pattern = '''(?:British|Pacifican) (?:garrison|troops) (?:at|in|hold) Batum (?:in|after) 192\d'''
 message = "CR-047 D6: Batum is a Georgian free port with no garrison"
 source = "CR-047"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Pacifica(?:n)? (?:arms|rifles|guns|weapons) (?:reach|go to|for|to) (?:the )?(?:planters|revolutionaries|rebels|insurgents)"
 message = "CR-048 A2: Pacifica arms neither planters nor revolutionaries"
 source = "CR-048"
 
 [[forbidden]]
+kind = "fact"
 pattern = "(?<![Nn]o )(?:Black|Negro) republic (?:is proclaimed|is founded|forms|declares)"
 message = "CR-048 A3/R14: no Black republic is proclaimed before 1932"
 source = "CR-048"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Montgomery (?:signs|accepts|ratifies) the (?:Gulf )?compact"
 message = "CR-048 R4: the rump never signs the compact"
 source = "CR-048"
 
 [[forbidden]]
+kind = "fact"
 pattern = "(?:the Union|Washington) (?:assumes|takes over|pays) (?:the |any )?Confederate (?:debt|bonds)"
 message = "CR-048 R9: the Union assumes no Confederate debt"
 source = "CR-048"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Garvey (?:lectures|speaks) (?:in|at) Honolulu|Pacifica(?:n yards)? (?:sells?|builds?) (?:ships|a ship) (?:to|for) the Black Star Line"
 message = "CR-048 R17: Pacifica refuses Garvey the ships and the Honolulu lecture"
 source = "CR-048"
 
 [[forbidden]]
+kind = "fact"
 pattern = "Garvey [^.]{0,40}(?:Atlanta federal penitentiary|penitentiary at Atlanta)"
 message = "CR-048 R17: Atlanta is in the rump; Garvey serves at Leavenworth"
 source = "CR-048"

@@ -58,7 +58,19 @@ class Drafts(unittest.TestCase):
         self.assertIn("id", lint_text("See CT-NOBODY-REAL for details."))
 
     def test_forbidden_culprit_hint(self):
-        self.assertIn("forbidden", lint_text("The physician signs the certificate on instructions from the palace."))
+        self.assertIn("intent", lint_text("The physician signs the certificate on instructions from the palace."))
+
+    def test_plot_fact_is_a_departure_not_intent(self):
+        checks = lint_text("In the spring Omsk falls to the Red Army.")
+        self.assertIn("canon", checks)
+        self.assertNotIn("intent", checks)
+
+    def test_protected_intent_entries(self):
+        data = lint_canon.tomllib.loads(lint_canon.FACTS.read_text(encoding="utf-8"))
+        intent = [f["message"] for f in data["forbidden"] if f.get("kind") == "intent"]
+        self.assertEqual(len(intent), 6)
+        self.assertTrue(all(f.get("kind") in lint_canon.FORBIDDEN_KINDS for f in data["forbidden"]))
+
 
     def test_date_change_lists_every_old_site(self):
         text = (BASE / "canon_facts.toml").read_text(encoding="utf-8")
@@ -85,6 +97,25 @@ class Drafts(unittest.TestCase):
             lines = (root / rel).read_text(encoding="utf-8").splitlines()
             line = next(i for i, l in enumerate(lines, 1) if text in l)
             self.assertTrue(any(s.endswith(f"{Path(rel).name}:{line}") for s in sites), f"{rel}:{line}")
+
+class ForbiddenKinds(unittest.TestCase):
+    def facts_with(self, entry: str) -> Path:
+        self.tmp = tempfile.TemporaryDirectory()
+        path = Path(self.tmp.name) / "facts.toml"
+        path.write_text(lint_canon.FACTS.read_text(encoding="utf-8") + "\n" + entry, encoding="utf-8")
+        return path
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_missing_kind_defaults_to_fact(self):
+        facts = self.facts_with('[[forbidden]]\npattern = "Test Person rules"\nmessage = "test"\n')
+        self.assertIn("canon", lint_text("Test Person rules the archipelago.", facts))
+
+    def test_unknown_kind_is_rejected(self):
+        facts = self.facts_with('[[forbidden]]\npattern = "x"\nmessage = "x"\nkind = "sacred"\n')
+        with self.assertRaises(ValueError):
+            lint_canon.load_facts(facts)
 
 if __name__ == "__main__":
     unittest.main()
