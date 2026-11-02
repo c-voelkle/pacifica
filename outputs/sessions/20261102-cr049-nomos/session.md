@@ -39,6 +39,7 @@ independence: separate-agents
 | D13 | decision | Durability: Fergana beside Emba; Rutherford and Meitner; Szilárd, Wigner, von Neumann, Teller by attraction; no false paper | author 2026-11-02 | current |
 | D14 | decision | Joachimsthal and Shinkolobwe as recommended: Shinkolobwe three-quarters to the Works; Ruanda-Urundi to Belgium at The Hague | author 2026-11-02 | current |
 | Q9 | open choice | Separate sessions: the 1908 fission paper; Canada policy | author 2026-11-02 | open |
+| Q10 | open choice | Atomic industry estimate (finance/CR-049-atomic-estimate.md, MODEL): accept the quantities, or adjust the reserve, power stations and post-1927 devices; enter in the workbook? | author request 2026-11-02 | open |
 | Q6 | open choice | Requirement 6: Julian's motive (drafted: fear of Europe, teeth for his peace system, a paying industry), the 1927 demonstration design, the world after 1927 | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
