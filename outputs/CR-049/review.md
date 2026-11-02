@@ -73,3 +73,22 @@ Checked and confirmed by the reviewer: Babbage (1826), Menabrea (1842) and Lovel
 No safety finding: the text stays at a history-of-science level. Canon consistency (Western Slope and Leadville, Michelson from 1878, Yerba Buena 1866, Morley 1868, Genth) confirmed.
 
 **Checks after repair:** canon lint clean; register and facts agree; storyline synchronised; character documents valid; commitments 0 problems; all tension payloads parse and each S1/S2 pattern matches its own milestone sentence in the CR.
+
+## Round 4 — Peirce, P2 and the atomic estate (2 November 2026)
+
+A fresh-context reviewer read the participants, chronology, P2, F1, T5–T6, the register, the people anchors and the storyline passages on the Five, the Polytechnic, the women's examinations and the retirement rule.
+
+| ID | Finding | Disposition |
+| --- | --- | --- |
+| F20 | Hillebrand was twenty-nine in 1883, not thirty. | Corrected. |
+| F21 | Wet collodion plates cannot be stored for a month. | The laboratory's experimental dry plates (Taupenot, 1855). |
+| F22 | Peirce's 1886 letter missing from his anchor. | Added. |
+| F23 | Peirce in Japan at seventeen in 1856 needs a timeline. | Arrives spring 1856, sails in the autumn after his seventeenth birthday; the Dutch-run Nagasaki naval school (1855–1859) as the real setting. |
+| F24 | Kate Curran's 1866 marriage and medicine unresolved. | She marries Curran (historical), keeps her post and never studies medicine. |
+| F25 | “The first test” of the Five's bargain contradicts canon (Donner, 1887). | “Another test”. |
+| F26 | The Crown does not touch the estates' charters (CR-027). | Soberanes uses the Polytechnic's powers at the Regent's request; the Regent acts as holder of the Crown's shares in the champion. |
+| F27 | The Office of Public Measures is an independent estate (1888) reporting to the Senate, not “Victoria's own”. | Corrected; noted that it has no seat among the Five. |
+| F28 | Labels: Peirce's mechanics shown as approved; participants headcount; G1 status; Hearst's label; P2 count. | Peirce's mechanics marked PROPOSED; “one historical person and one invented person”; G1 “PENDING”; Hearst stays PROPOSED; “two Californians and a Hawaiian”. |
+| F29 | “Liang's rule” left in Mele's row; “Robert Vance” beside canon's Vances. | Corrected; “a San Francisco daguerreotype studio”. |
+
+**Checks after repair:** canon lint clean; storyline synchronised; all tension payloads parse.
