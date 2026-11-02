@@ -2985,6 +2985,22 @@ name = "Armenia"
 id = "GE"
 name = "Georgia"
 
+[[party]]
+id = "BE"
+name = "Belgium"
+
+[[party]]
+id = "UMHK"
+name = "Union Minière du Haut-Katanga (with the Comité Spécial du Katanga)"
+
+[[party]]
+id = "BOH"
+name = "Kingdom of Bohemia within the federal monarchy (from 1919)"
+
+[[party]]
+id = "UTE"
+name = "Uncompahgre Ute"
+
 # ---------------------------------------------------------------------------
 # §30 Credit, oil and the brokered peace
 # ---------------------------------------------------------------------------
@@ -4010,3 +4026,131 @@ more_quotes = [
   "Puʻuloa's fishponds and pearl beds are to be restored, and the waters of Kaʻahupahau, the shark who guards the lochs, are closed to dredging.",
 ]
 open = "No term: it runs at the Mōʻī's pleasure and is renewed at each accession. Julian holds both sides; how the Concord's common Navy (from 1927) stands as sub-tenant is not stated."
+
+# ---------------------------------------------------------------------------
+# CR-049 — the atom: the Works, the Ute lease and the uranium concessions
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1881-UTE-LEASE"
+name = "Western Slope mining lease on Uncompahgre Ute land"
+kind = "lease"
+parties = ["PAC", "UTE"]
+from = 1881
+owes = [{ by = "PAC", to = "UTE", what = "the lease fee for the mining ground, paid through the Republic's own office" }]
+status = "PROPOSED"
+cr = "CR-049"
+section = 19
+quote = "the Republic leases the mining ground through its own office and pays the lease fee to the Ute, so the claims open without the removal of 1881."
+open = "Terms, fee and term are OPEN; the ground cannot be sold under CR-033."
+
+[[commitment]]
+id = "C-1883-WORKS-CHARTER"
+name = "Charter of the Light and Matter Works"
+kind = "charter"
+parties = ["PAC", "ESTATES"]
+from = 1883
+owes = [{ by = "ESTATES", to = "PAC", what = "the works, the Western Slope mines and the source trade run as one state champion with the state holding the shares; the estate pays for the Polytechnic's laboratories" }]
+status = "PROPOSED"
+cr = "CR-049"
+section = 19
+quote = "Elias charters the works, the Western Slope mines and the source trade as one state champion with the state holding the shares"
+more_quotes = ["The laboratories stay in the Polytechnic, and the estate pays for them."]
+label_note = "The estate and its seat among the Five are APPROVED (CR-049 F1); the 1883 charter date and history are PROPOSED."
+open = "The charter's text and any term are not stated."
+
+[[commitment]]
+id = "C-1909-JOACHIMSTHAL-CONTRACT"
+name = "Joachimsthal rider to the Bosnian compensation loan"
+kind = "loan"
+parties = ["AH", "PAC"]
+from = 1909
+until = 1939
+term_years = 30
+ended = 1919
+ended_by = "turned into a fifty-year concession at The Hague (C-1919-JOACHIMSTHAL-CONCESSION)"
+owes = [
+  { by = "PAC", to = "AH", what = "the loan with which Austria pays the Porte for its lost rights in Bosnia" },
+  { by = "AH", to = "PAC", what = "all the uranium compounds and post-radium residues of the Joachimsthal state works for thirty years, and first refusal on new Bohemian uranium ore" },
+]
+conditions = ["Austria keeps all its radium", "Pacifica buys the uranium for true uses and states nothing false"]
+status = "APPROVED"
+cr = "CR-049"
+section = 27
+quote = "a finance rider to the loan gives the Light and Matter Works a thirty-year contract for all the uranium compounds and post-radium residues of the Joachimsthal state works, with first refusal on new Bohemian uranium ore."
+more_quotes = ["Austria pays the Porte for its lost rights in Bosnia with money lent by Pacifican banks"]
+open = "The loan's amount, rate and the uranium price are not stated. Shipments stop under the wartime blockade."
+
+[[commitment]]
+id = "C-1915-SHINKOLOBWE-OPTION"
+name = "Shinkolobwe purchase option"
+kind = "concession"
+parties = ["UMHK", "PAC"]
+from = 1915
+ended = 1919
+ended_by = "the Shinkolobwe concession is transferred to a company three-quarters owned by the Works (C-1919-SHINKOLOBWE-COMPANY)"
+owes = [
+  { by = "UMHK", to = "PAC", what = "an exclusive option on all the deposit's ore" },
+  { by = "PAC", to = "UMHK", what = "financing for the mine" },
+]
+status = "APPROVED"
+cr = "CR-049"
+section = 30
+quote = "Union Minière gives the Light and Matter Works an exclusive option on all the deposit's ore in 1915–1916, in return for financing the mine."
+more_quotes = ["In 1917–1919 the Works buys Tanganyika Concessions' shares in Union Minière through London houses."]
+open = "Given in 1915–1916; the year of signature within that range and the sums are not stated."
+
+[[commitment]]
+id = "C-1919-SHINKOLOBWE-COMPANY"
+name = "Shinkolobwe concession company"
+kind = "concession"
+parties = ["BE", "UMHK", "PAC"]
+from = 1919
+until = 2018
+term_years = 99
+owes = [
+  { by = "BE", to = "PAC", what = "the Shinkolobwe concession in a Belgian-registered company three-quarters owned by the Light and Matter Works, all output to Pacifica" },
+  { by = "PAC", to = "BE", what = "royalties, seats on the board and a free allowance of radium for Belgian hospitals; reconstruction credit" },
+  { by = "PAC", to = "UMHK", what = "long copper contracts" },
+]
+conditions = ["Belgium keeps sovereignty", "the miners are paid wages and none is forced (CR-031-R1)", "Belgium receives Ruanda-Urundi at The Hague"]
+status = "APPROVED"
+cr = "CR-049"
+section = 30
+quote = "The Comité Spécial transfers the Shinkolobwe concession out of Union Minière into a new Belgian-registered company three-quarters owned by the Light and Matter Works, for ninety-nine years, with all its output going to Pacifica."
+more_quotes = ["Belgium keeps sovereignty, royalties, seats on the board and a free allowance of radium for its hospitals; Union Minière gets long copper contracts; the miners are paid wages and none is forced."]
+open = "Royalty rates, the credit's amount and the board's composition are not stated."
+
+[[commitment]]
+id = "C-1919-JOACHIMSTHAL-CONCESSION"
+name = "Joachimsthal uranium concession"
+kind = "concession"
+parties = ["BOH", "PAC"]
+from = 1919
+until = 1969
+term_years = 50
+owes = [
+  { by = "BOH", to = "PAC", what = "the uranium side of the Joachimsthal mines, run by the Works" },
+  { by = "PAC", to = "BOH", what = "royalties paid to Prague; reconstruction credit" },
+]
+can_end = [{ who = "BOH", how = "renewals pass through the Bohemian Diet" }]
+conditions = ["the mines stay the property of the Bohemian crown"]
+status = "APPROVED"
+cr = "CR-049"
+section = 30
+quote = "Bohemia's reconstruction credit turns the Joachimsthal contract into a fifty-year concession"
+more_quotes = ["the mines stay the property of the Bohemian crown with royalties paid to Prague, and renewals pass through the Bohemian Diet."]
+open = "Royalty rate and the credit's amount are not stated."
+
+[[commitment]]
+id = "C-1919-FERGANA"
+name = "Tyuya-Muyun (Fergana) concession"
+kind = "concession"
+parties = ["RU", "PAC"]
+from = 1919
+owes = [{ by = "RU", to = "PAC", what = "the Tyuya-Muyun radium and uranium deposit in Fergana as a concession" }]
+status = "APPROVED"
+cr = "CR-049"
+section = 32
+quote = "In 1919–1921 Wrangel's government grants Pacifica the Tyuya-Muyun radium and uranium deposit in Fergana as a concession, beside Emba."
+open = "Granted in 1919–1921; the year, term and royalty are not stated."

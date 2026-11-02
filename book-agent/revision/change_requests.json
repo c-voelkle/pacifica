@@ -3034,28 +3034,230 @@
     },
     {
       "id": "CR-049",
-      "title": "Pacifica's scientific nomos and ethos, the Calculation Office, the computing branch and the early atomic branch (1850–1900)",
-      "status": "approved_in_part_integration_pending",
+      "title": "Pacifica's scientific nomos and ethos, the Calculation Office, the computing branch and the atom (1850–1932)",
+      "status": "approved_integrated_local_labels_retained",
       "approved_on": "2026-11-02",
       "decision_record": "CR-049.md",
-      "authorization": "Author, 2 November 2026. Proposal: \"Can you write the suggested changes up as a formal CR and create a pull request?\" Review: \"Can you review cr-049 and critique the suggested changes? What works, what doesn't?\" The review recommended approving N, E and I once their tone was fixed, T1 Case A, and C1 with the Babbage and Boole anchors, returning S1/S2 and reworking P1 and the expeditions. Decision: \"Ok let's first approve the suggested sections and fix the tone in I. I want less of the invented scientists and mathematicians for sure. Maybe just one or two if absolutely necessary for the plot's development. Also add the Babbage and Boole anchors.\" N1–N3, E1–E4, I1–I2 (T1 Case A) and C1 are approved as revised in CR-049.md; P1 was revised to the author's limit of two invented people; S1, S2 and G1 are returned for rework. Then, the same day: \"Keep Liang and Mele; do steps 1-5 of the suggested atomic branch rework.\" P1 is approved; S1/S2 are reworked against requirements 1–5. Then: \"I would suggest exchanging Mele and Liang for real historical persons as well, if possible. I approve the changes pertaining to steps 1-5 as proposed.\" S1 and S2 as reworked are approved (T2 Case B); G1, requirements 6–7 and the replacement of Liang and Mele remain open. Then: \"Maria Mitchell was from Massachussetts though. It should be someone with a reasonable connection to Pacifica. Peirce's Japan journey would be cool though - why not as a bold 17 year old youth under the fellowship programme? It would make a very interesting sidequest. I approve the new atomic estate seat under Hillebrand. It needs a date though, as well as a history. It seems to me that it should be among the five quite early on...\" Read as: Peirce replaces Liang (approved), Mele's replacement to be proposed with a Pacific connection, and the atomic estate seat approved with its dates and history to be proposed. Then: \"Let's leave out Watkins in that case. If Niepce already documented the fogging of photographic plates in 1861 then we don't need a coincidental new discovery in Pacifica. Someone just needs to follow up on that observation. Brandegee could be a good fit for that. Samuel Kamakau is also approved for his role. ... The Light and Matter Works is approved.\" Then, on the re-paced late branch: \"I approve and I would even move fission and the chain reaction into the beginning of Julian's reign. I think this will can explain why he and Victoria drift apart much better than the current storyline can.\"",
+      "authorization": "Author, 2 November 2026. Proposal: \"Can you write the suggested changes up as a formal CR and create a pull request?\" Review: \"Can you review cr-049 and critique the suggested changes? What works, what doesn't?\" The review recommended approving N, E and I once their tone was fixed, T1 Case A, and C1 with the Babbage and Boole anchors, returning S1/S2 and reworking P1 and the expeditions. Decision: \"Ok let's first approve the suggested sections and fix the tone in I. I want less of the invented scientists and mathematicians for sure. Maybe just one or two if absolutely necessary for the plot's development. Also add the Babbage and Boole anchors.\" N1–N3, E1–E4, I1–I2 (T1 Case A) and C1 are approved as revised in CR-049.md; P1 was revised to the author's limit of two invented people; S1, S2 and G1 are returned for rework. Then, the same day: \"Keep Liang and Mele; do steps 1-5 of the suggested atomic branch rework.\" P1 is approved; S1/S2 are reworked against requirements 1–5. Then: \"I would suggest exchanging Mele and Liang for real historical persons as well, if possible. I approve the changes pertaining to steps 1-5 as proposed.\" S1 and S2 as reworked are approved (T2 Case B); G1, requirements 6–7 and the replacement of Liang and Mele remain open. Then: \"Maria Mitchell was from Massachussetts though. It should be someone with a reasonable connection to Pacifica. Peirce's Japan journey would be cool though - why not as a bold 17 year old youth under the fellowship programme? It would make a very interesting sidequest. I approve the new atomic estate seat under Hillebrand. It needs a date though, as well as a history. It seems to me that it should be among the five quite early on...\" Read as: Peirce replaces Liang (approved), Mele's replacement to be proposed with a Pacific connection, and the atomic estate seat approved with its dates and history to be proposed. Then: \"Let's leave out Watkins in that case. If Niepce already documented the fogging of photographic plates in 1861 then we don't need a coincidental new discovery in Pacifica. Someone just needs to follow up on that observation. Brandegee could be a good fit for that. Samuel Kamakau is also approved for his role. ... The Light and Matter Works is approved.\" Then, on the re-paced late branch: \"I approve and I would even move fission and the chain reaction into the beginning of Julian's reign. I think this will can explain why he and Victoria drift apart much better than the current storyline can.\" Then, on the atomic programme: \"I would say a desert test first ... However, there should be a demonstration at some point, in which Pacifica finally makes its capabilities public. It should somehow tie together both the confrontation with Britain, which it decisively terminates in Pacifica's favor and solidify the Concord. In this timeline I want atomic energy to be emblematic of Pacifica's unshakeable bond of friendship with Japan.\" \"The open sea is more Pacifican. Tokyo powerstation: absolutely. Nishina: approved. ... How Britain gives way: three-pronged - the debtor/creditor relationship is the economic prong. The Petrograd account from CR-046 is the political prong. The naval demonstration is the final, decisive military prong.\" On the device: \"This is good and I think it makes sense for the first demonstration.\" On durability: \"Fergana as a concession alongside Emba works. ... Rutherford as the face of the drift towards Pacifica makes good sense. Lise Meitner too. ... Szilard, Wigner, von Neumann and Teller could simply think that Pacifica is cool and want to be a part of it. ... Julian should not approve a false paper - not his character.\" On ore: \"I approve it as recommended with 3/4 and the ruanda concession to belgium\". Integration: \"Pacifica should recognize the once in a lifetime opportunity and mine as much as it can get its hands on. How it does that will be the subject of the next CR. You can integrate it with the proposed figures and add them to the workbook as a new atomic program.\"",
       "requirements": [
         "N1–N3: Elias, a lawgiver in the Lycurgus/Numa role, writes On the Public Arts (1851–1854); it is carried out through Genth's and the school's contracts and the mining royalty, never published as a law. It protects competent work, truthful accounts (a falsified account is theft from the commonwealth), independent criticism, teaching and the improvement of institutions, and makes agon and expeditionary trial founding commitments. The 1853 mill report is its first precedent. His fallibility and the Hawaiian breach of 1874–1876 stay.",
         "E1–E4: a shared ethos of competence, fidelity, practical confidence, emulation and public honour (\"things work in this country\"); the discovery vocation belongs chiefly to the openly recruited exceptional few; inquiry is answerable among scientists; a civic usage of mana develops through Hawaiian participants and is contested, never compulsory, its strongest public form the Five's name nā Kahuna after 1887; eight customs grow gradually with local variation.",
         "I1: the Calculation Office (Sylvester, 1855); travelling fellowships paid from the royalty from 1854 (first expeditions 1854–1857, Japanese journeys building on the 1854–1855 exchanges); the Laboratory of Light, Electricity and Matter (Genth, 1859). I2 / T1 Case A: qualifying examinations stay; exceptional achievement outweighs examination rank for honours and selection among the qualified; the 1888 service bonds stay.",
         "C1: human calculation and checked tables from 1851; a Scheutz-type printing calculator commissioned in 1856 and installed 1858–1860; a Boolean relay method and arithmetic demonstrator in 1863; relay arithmetic in service 1868–1870; preset sequences by 1872; programmed electromechanical calculation 1876–1879; a procedural notation from Babbage's 1826 mechanical notation and Lovelace's 1843 tables, 1878–1882; Hollerith's cards at the Office of Public Measures from 1888 (CR-027), borrowed by the Calculation Office. Anchors: Babbage, Menabrea/Lovelace, Boole, the Scheutz engines, Jevons, Peirce, Shannon (historical_background.md).",
-        "S1/S2 (approved as reworked): uranium's activity 1861 (Genth, Mele); new bismuth-borne and barium-borne elements 1868–1869 from Joachimsthal residues; transformation 1870 (the thorium gas, Mele's credit restored 1872); weighable sources 1876 and their heat 1877 (Morley); electron 1879 (Goldstein, Michelson); helium and the alpha particle 1881 (Hillebrand); nucleus 1883 (Goldstein, Liang, Mele's counters); isotopes 1884–1886, Morley's oxygen–hydrogen ratio 1884–1885 and his deficit 1886 (a conjecture); the counter 1885–1887 (Yerba Buena, Tesla's high voltage); re-paced late branch: valve amplifiers c. 1895, neutron 1899 at Yerba Buena (Nagaoka, Michelson), confirmed 1901; fission 1908 (Hillebrand) and chain-reaction feasibility 1909, in Julian's first years; Western Slope uranium from 1881 on a Ute lease, mined for uranium from 1909; research installation c. 1913 (OPEN against 1916–1918). Historical additions: Hillebrand (soil), Goldstein and Nagaoka (pull). Names of the two new elements OPEN.",
+        "S1/S2 (approved as reworked): uranium's activity 1861 (Kate Layne following up Niépce; Genth publishes); new bismuth-borne and barium-borne elements 1868–1869 from Joachimsthal residues; transformation 1870 (the thorium gas; Kate Curran's credit restored 1872, Morley confirming); weighable sources 1876 and their heat 1877 (Morley); electron 1879 (Goldstein, Michelson); helium and the alpha particle 1881 (Hillebrand); nucleus 1883 (Goldstein, Peirce, Kate Curran's counters); isotopes 1884–1886, Morley's oxygen–hydrogen ratio 1884–1885 and his deficit 1886 (a conjecture); the counter 1885–1887 (Yerba Buena, Tesla's high voltage); valve amplifiers c. 1895, neutron 1899 at Yerba Buena (Nagaoka, Michelson, Peirce), confirmed 1901; fission 1908 (Hillebrand) and chain-reaction feasibility 1909, in Julian's first years, where Julian and Victoria begin to drift apart; Western Slope uranium from 1881 on a Ute lease, mined for uranium from 1909; first research installation 1913 (OPEN against 1916–1918). Historical additions: Hillebrand (soil), Goldstein and Nagaoka (pull). Names of the two new elements OPEN.",
         "F1: the Light and Matter Works, an atomic estate with a seat among the Five under Hillebrand (seat and name approved; dates and history PROPOSED in CR-049: works from 1872, source trade from 1876, Western Slope from 1881, chartered 1883, seat from the first Five of 1887 in place of Hollerith's proposed seat).",
-        "P1/P2: no invented scientists remain. Charles Sanders Peirce (born 1839) replaces Liang Wenqi: leaves Harvard for Carquinez in 1856, Japan fellowship at seventeen, the 1863 Boolean relay method, the 1867 checking-rule failure. Kate Layne, later Curran and Brandegee (born 1844, raised in Folsom), replaces Mele Kealoha: examined at fifteen in 1860, follows up Niépce's published observation in 1861, the 1867 correction and credit quarrel, the counting room of 1882–1883. Samuel Kamakau (1815–1876) is the Hawaiian voice in the mana debate."
+        "P1/P2: no invented scientists remain. Charles Sanders Peirce (born 1839) replaces Liang Wenqi: leaves Harvard for Carquinez in 1856, Japan fellowship at seventeen, the 1863 Boolean relay method, the 1867 checking-rule failure. Kate Layne, later Curran and Brandegee (born 1844, raised in Folsom), replaces Mele Kealoha: examined at fifteen in 1860, follows up Niépce's published observation in 1861, the 1867 correction and credit quarrel, the counting room of 1882–1883. Samuel Kamakau (1815–1876) is the Hawaiian voice in the mana debate.",
+        "Requirement 6 (approved in direction and integrated): Julian never approves a false paper; Pacifica mines and buys as much uranium as it can before the world knows its worth, buying what nobody values and letting partners keep the radium. Joachimsthal: a finance rider to the 1909 Bosnian compensation loan (thirty-year contract for all uranium compounds and post-radium residues, first refusal on Bohemian ore; Austria keeps its radium), a fifty-year concession at The Hague under the Bohemian crown. Shinkolobwe: exclusive option 1915–1916, Tanganyika Concessions' Union Minière shares 1917–1919, and at The Hague a Belgian-registered company three-quarters owned by the Works for ninety-nine years, all output to Pacifica; Belgium receives Ruanda-Urundi and reconstruction credit, keeps sovereignty, royalties, board seats and hospital radium; paid labour only. Fergana (Tyuya-Muyun) a concession beside Emba, 1919–1921. People by attraction: Rutherford c. 1909–1910 (New Zealand's drift towards Pacifica), Meitner c. 1910, Szilárd c. 1920, Wigner c. 1924, von Neumann c. 1926, Teller c. 1930. A secret desert test about 1920, never on Hawaiian reefs. In 1927 Britain gives way on three prongs: debt, the Petrograd account (CR-046) and a demonstration at sea: a four-tonne light-uranium device equal to ten thousand tons of Giant Powder destroys a moored line of retired capital ships in open ocean halfway between Yokohama and San Francisco before both crowns' flagships, the attachés and the newsreels; three devices exist, one spent; the design sealed in the Thalassia archive; the month PROPOSED (autumn 1927). Atomic energy is the emblem of the friendship with Japan: Nishina Yoshio co-lead; an atomic power station lights Tokyo. Figures (MODEL, finance/CR-049-atomic-estimate.md, entered in the workbook as the atomic programme): about 5,800 t of uranium mined 1864–1932, 1,025 t to energy, 550 t to weapons, 150 t to research, about 4,100 t in reserve; cost about $692m (1913 $), peak 0.16% of GDP; direct returns about $344m. No Volga temptation."
       ],
       "open": [
-        "Integration of the approved groups: storyline prose, character bible and registry (the six historical people), the register's facts and cr_facts.py apply (two people; Calculation Office 1855, printing-calculator commission 1856, laboratory 1859, relay demonstrator 1863, the 1867 checking-rule dispute), synchronisation and checks, with a fresh-context review of the integrated prose.",
-        "F1's dates and history (works 1872, source trade 1876, Western Slope 1881, charter 1883, seat 1887 in place of Hollerith's proposed seat) are PROPOSED. G1, the secrecy settlement, is to be redesigned for 1908–1909 under Julian (the 1892–1895 design under the Regent is superseded); the two keys would be the sovereign's and the Polytechnic chief's (Soberanes, then Vance III from 1915). Requirement 6 includes whether a weapon exists by about 1918.",
-        "Requirements 6 (consequences for 1900–1932 and what the installation brings Pacifica) and 7 (the programme's place among the Five), with G1: when the programme draws military attention and goes secret, and under whose authority; O1–O3; tension T3.",
-        "Other PROPOSED details: the Calculation Office as a shared League service from 1866; the navy's wartime claim on the laboratory's people; Liang's relays losing the registers' work to Hollerith's cards in 1888.",
-        "O4: the expedition episodes must carry real danger (mountains, islands, sea, Japan); suggested, not required: one fellow does not come back."
+        "G1: the secrecy settlement under Julian (when the work becomes secret, on whose authority, with what instruments; the two keys would be the sovereign's and the Polytechnic chief's); whether the 1908 fission paper is published (separate session); when Japan is told and when Nishina joins; how the Julian–Victoria drift plays out.",
+        "Next CR: how Pacifica mines and buys as much uranium as it can get its hands on beyond the Western Slope, Joachimsthal, Shinkolobwe and Fergana; the MODEL quantities will rise with it.",
+        "PROPOSED details retained with local labels: the Works' dates and history (works 1872, source trade 1876, charter 1883, seat 1887 in place of Hollerith's proposed seat); Hollerith at the Office of Public Measures without a seat; the Calculation Office as a shared League service from 1866; the navy's wartime claim on the laboratory's people; Peirce's 1856 move and neuralgia; Kate Layne's 1860 examination; the thorium identification of the 1867 readings; the Ute lease; Julian's motive for a peacetime industry; the demonstration's month.",
+        "OPEN: names of the two new elements; O4 expedition episodes with real danger; the desert test's site and date; the research installation's date if purity slips (1916–1918); Hillebrand's successor in 1921; the Tokyo station's financing; Europe's and the Union's response after 1927 (O2); Canada policy (separate session); O1 and O3 beyond what is integrated; tension T3 with CR-048 A6."
       ],
-      "facts": []
+      "facts": [
+        {
+          "add_person": {
+            "id": "CT-CHARLES-PEIRCE",
+            "aliases": [
+              "Charles Sanders Peirce",
+              "Charles Peirce",
+              "Peirce"
+            ],
+            "born": 1839
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-KATE-BRANDEGEE",
+            "aliases": [
+              "Kate Layne",
+              "Kate Curran",
+              "Kate Brandegee",
+              "Katharine Brandegee",
+              "Mary Katharine Layne"
+            ],
+            "born": 1844
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-SAMUEL-KAMAKAU",
+            "aliases": [
+              "Samuel Kamakau",
+              "Kamakau"
+            ],
+            "born": 1815
+          }
+        },
+        {
+          "add_event": {
+            "id": "carquinez-calculation-office",
+            "year": 1855,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2}[^.;]{0,80}(?:proposes|founds|opens|establishes|sets up) (?:a |the )?Calculation Office",
+              "arrives in \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} and proposes the Calculation Office",
+              "(?:proposes|founds|opens|establishes|sets up) (?:a |the )?Calculation Office (?:in |that year,? )?\\*{0,2}(?P<year>1[89]\\d\\d)",
+              "Calculation Office (?:is |was )?(?:founded|established|opened|set up) in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "carquinez-printing-calculator-commission",
+            "year": 1856,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? (?:Carquinez|the Republic|the school) (?:commissions|orders)[^.;]{0,60}(?:printing calculator|Scheutz)",
+              "Carquinez (?:commissions|orders)[^.;]{0,60}(?:printing calculator|Scheutz)[^.;]{0,20} in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "light-electricity-matter-laboratory",
+            "year": 1859,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? [^.;]{0,30}(?:founds|opens|establishes) the Laboratory of Light, Electricity and Matter",
+              "(?:founds|opens|establishes) the \\*{0,2}Laboratory of Light, Electricity and Matter\\*{0,2} in \\*{0,2}(?P<year>1[89]\\d\\d)",
+              "Laboratory of Light, Electricity and Matter (?:is |was )?(?:founded|established|opened) in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "carquinez-relay-arithmetic-demonstrator",
+            "year": 1863,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? [^.;]{0,60}demonstrates? a relay arithmetic",
+              "demonstrates? (?:a )?relay arithmetic[^.;]{0,30} in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "carquinez-computing-filter-dispute",
+            "year": 1867,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? [^.;]{0,40}finds that a checking rule"
+            ]
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-WILLIAM-HILLEBRAND",
+            "aliases": [
+              "William Francis Hillebrand",
+              "Hillebrand"
+            ],
+            "born": 1853
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-EUGEN-GOLDSTEIN",
+            "aliases": [
+              "Eugen Goldstein",
+              "Goldstein"
+            ],
+            "born": 1850
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-radioactivity-discovery",
+            "year": 1861,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? Genth publishes that the activity belongs to uranium",
+              "activity of uranium (?:is )?(?:established|discovered|announced) in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-bismuth-borne-element",
+            "year": 1868,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? an active substance follows bismuth"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-barium-borne-element",
+            "year": 1869,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? a far more active one follows barium"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-atomic-transformation",
+            "year": 1870,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? Genth and Peirce conclude that one element is turning into another"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-electron-discovery",
+            "year": 1879,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? Goldstein and Michelson announce a common negative constituent",
+              "electron (?:is )?(?:identified|discovered) in Pacifica in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-compact-nucleus",
+            "year": 1883,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? Goldstein proposes that almost all of an atom's mass"
+            ]
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-NAGAOKA-HANTARO",
+            "aliases": [
+              "Nagaoka Hantarō",
+              "Nagaoka"
+            ],
+            "born": 1865
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-neutron-discovery",
+            "year": 1899,
+            "patterns": [
+              "Yerba Buena announces (?:it )?in \\*{0,2}(?P<year>1[89]\\d\\d)",
+              "neutron (?:is )?discovered in Pacifica in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-fission-recognition",
+            "year": 1908,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2},? the uranium core is understood to split"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-first-civilian-research-reactor",
+            "year": 1913,
+            "patterns": [
+              "first (?:controlled )?(?:civilian )?research (?:reactor|installation)[^.;]{0,40}in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        }
+      ],
+      "integrated_on": "2026-11-02"
     }
   ],
   "explicit_cautions": [
@@ -3351,7 +3553,11 @@
     },
     {
       "range": "1851–1888",
-      "event": "CR-049: On the Public Arts 1851–1854; fellowships from 1854; Calculation Office 1855; printing calculator commissioned 1856; laboratory 1859; relay demonstrator 1863; relay arithmetic 1868–1870; programmed calculation 1876–1879; notation 1878–1882; Hollerith's cards from 1888 (CR-027)."
+      "event": "CR-049: On the Public Arts 1851–1854; fellowships from 1854; Calculation Office 1855; printing calculator commissioned 1856; laboratory 1859; uranium's activity 1861; relay demonstrator 1863; new elements 1868–1869; transformation 1870; relay arithmetic 1868–1870; electron 1879; programmed calculation 1876–1879; notation 1878–1882; nucleus 1883; Light and Matter Works chartered 1883 (PROPOSED); Hillebrand among the Five 1887 (PROPOSED); Hollerith's cards from 1888 (CR-027)."
+    },
+    {
+      "range": "1899–1931",
+      "event": "CR-049: neutron 1899; fission 1908 and the chain 1909 in Julian's first years; Joachimsthal rider to the Bosnian loan 1909; Western Slope mined for uranium from 1909; first research installation 1913; Shinkolobwe option 1915–1916; The Hague: Shinkolobwe company and Joachimsthal concession 1919; Fergana concession 1919–1921; secret desert test about 1920; Hillebrand retires 1921; demonstration at sea 1927 (autumn PROPOSED); Tokyo atomic station from 1928 and Pacifican stations 1928–1931 (MODEL)."
     }
   ],
   "affected_sources": [
