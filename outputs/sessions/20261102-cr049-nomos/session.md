@@ -32,7 +32,8 @@ independence: separate-agents
 | D7 | decision | Peirce replaces Liang, Japan at seventeen; atomic estate seat under Hillebrand (dates and history to propose) | author 2026-11-02 | current |
 | D8 | decision | Watkins dropped; Kate Layne (Curran, Brandegee) follows up Niépce; Kamakau approved; the Light and Matter Works named | author 2026-11-02 | current |
 | Q5 | open choice | F1 dates (1883, 1887) and G1 secrecy design | drafter proposal | open |
-| Q6 | open choice | Requirement 6: brainstorm on consequences after 1892 | author 2026-11-02 | open |
+| D9 | decision | Re-pace the late branch: valves c. 1895, neutron 1899, fission 1908 and chain 1909 in Julian's first years, installation c. 1913 | author 2026-11-02 | current |
+| Q6 | open choice | Requirement 6: consequences; a weapon by c. 1918; the Volga temptation; possible link to the 1921 Altai crime | author 2026-11-02 | open |
 | Q4 | open choice | Names of the two new elements | rework round | open |
 
 ## Handoffs
@@ -55,4 +56,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-049: N, E, I, C1, P1/P2 (Peirce, Kate Layne, Kamakau), S1/S2 and the Light and Matter Works' seat approved; integration pending. Proposed: the Works' dates and the G1 secrecy settlement. Now brainstorming requirement 6 (the world after 1892); then element names, O4.
+CR-049: everything but G1 and requirement 6 approved (integration pending); the late branch re-paced to fission 1908 and the chain 1909 under Julian. Next: the weapon question (by c. 1918; Volga temptation; second key Vance III; possible Altai 1921 link), then G1 redesign under Julian, element names, O4.
