@@ -382,3 +382,123 @@ id = "spindletop-gusher"
 year = 1897
 patterns = ['''Spindletop (?:gusher |strike )?(?:comes in|is brought in|blows) (?:in )?(?:January )?(?P<year>1[89]\d\d)''', '''(?:January )?(?P<year>1[89]\d\d) (?:gusher|strike) at Spindletop''', '''Spindletop \((?P<year>1[89]\d\d)\)''']
 source = "CR-048"
+
+[[person]]
+id = "CT-CHARLES-PEIRCE"
+aliases = ["Charles Sanders Peirce", "Charles Peirce", "Peirce"]
+born = 1839
+source = "CR-049"
+
+[[person]]
+id = "CT-KATE-BRANDEGEE"
+aliases = ["Kate Layne", "Kate Curran", "Kate Brandegee", "Katharine Brandegee", "Mary Katharine Layne"]
+born = 1844
+source = "CR-049"
+
+[[person]]
+id = "CT-SAMUEL-KAMAKAU"
+aliases = ["Samuel Kamakau", "Kamakau"]
+born = 1815
+source = "CR-049"
+
+[[event]]
+id = "carquinez-calculation-office"
+year = 1855
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,80}(?:proposes|founds|opens|establishes|sets up) (?:a |the )?Calculation Office''', '''arrives in \*{0,2}(?P<year>1[89]\d\d)\*{0,2} and proposes the Calculation Office''', '''(?:proposes|founds|opens|establishes|sets up) (?:a |the )?Calculation Office (?:in |that year,? )?\*{0,2}(?P<year>1[89]\d\d)''', '''Calculation Office (?:is |was )?(?:founded|established|opened|set up) in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "carquinez-printing-calculator-commission"
+year = 1856
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? (?:Carquinez|the Republic|the school) (?:commissions|orders)[^.;]{0,60}(?:printing calculator|Scheutz)''', '''Carquinez (?:commissions|orders)[^.;]{0,60}(?:printing calculator|Scheutz)[^.;]{0,20} in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "light-electricity-matter-laboratory"
+year = 1859
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? [^.;]{0,30}(?:founds|opens|establishes) the Laboratory of Light, Electricity and Matter''', '''(?:founds|opens|establishes) the \*{0,2}Laboratory of Light, Electricity and Matter\*{0,2} in \*{0,2}(?P<year>1[89]\d\d)''', '''Laboratory of Light, Electricity and Matter (?:is |was )?(?:founded|established|opened) in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "carquinez-relay-arithmetic-demonstrator"
+year = 1863
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? [^.;]{0,60}demonstrates? a relay arithmetic''', '''demonstrates? (?:a )?relay arithmetic[^.;]{0,30} in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "carquinez-computing-filter-dispute"
+year = 1867
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? [^.;]{0,40}finds that a checking rule''']
+source = "CR-049"
+
+[[person]]
+id = "CT-WILLIAM-HILLEBRAND"
+aliases = ["William Francis Hillebrand", "Hillebrand"]
+born = 1853
+source = "CR-049"
+
+[[person]]
+id = "CT-EUGEN-GOLDSTEIN"
+aliases = ["Eugen Goldstein", "Goldstein"]
+born = 1850
+source = "CR-049"
+
+[[event]]
+id = "pacifica-radioactivity-discovery"
+year = 1861
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? Genth publishes that the activity belongs to uranium''', '''activity of uranium (?:is )?(?:established|discovered|announced) in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-bismuth-borne-element"
+year = 1868
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? an active substance follows bismuth''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-barium-borne-element"
+year = 1869
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? a far more active one follows barium''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-atomic-transformation"
+year = 1870
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? Genth and Peirce conclude that one element is turning into another''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-electron-discovery"
+year = 1879
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? Goldstein and Michelson announce a common negative constituent''', '''electron (?:is )?(?:identified|discovered) in Pacifica in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-compact-nucleus"
+year = 1883
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? Goldstein proposes that almost all of an atom's mass''']
+source = "CR-049"
+
+[[person]]
+id = "CT-NAGAOKA-HANTARO"
+aliases = ["Nagaoka Hantarō", "Nagaoka"]
+born = 1865
+source = "CR-049"
+
+[[event]]
+id = "pacifica-neutron-discovery"
+year = 1899
+patterns = ['''Yerba Buena announces (?:it )?in \*{0,2}(?P<year>1[89]\d\d)''', '''neutron (?:is )?discovered in Pacifica in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-fission-recognition"
+year = 1908
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? the uranium core is understood to split''']
+source = "CR-049"
+
+[[event]]
+id = "pacifica-first-civilian-research-reactor"
+year = 1913
+patterns = ['''first (?:controlled )?(?:civilian )?research (?:reactor|installation)[^.;]{0,40}in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049"

@@ -37,6 +37,8 @@ His alliance with Hawaii is initially genuine. He forms a close friendship with 
 
 **CR-028–CR-029, supplied 23 October storyline:** The early recognition and gold-silence machinery remains PROPOSED: an October 1847 Mokelumne discovery precedes his Querétaro mission with Alvarado, while Hartnell carries the debt convention to London. Public confirmation waits until October 1848. The Sonoran miner and Indigenous guide retain independent knowledge and claims; the guide's proposed homeland bargain creates an obligation, not automatic protection. Elias's private claims must remain separate from the public royalty and assumed Mexican debt. In the approved Spanish sequence Prim refuses his 1869–1870 offer, the 1873 Manila station makes Puʻuloa urgent, the Republic borrows in 1874 and Cánovas sells in 1876. Elias's agreement to withhold recognition and port access from Cuban insurgents makes the purchase another compromise with slavery. Pacheco's appointment, municipal public health and land-board reform do not erase Philippine coercion. Exact Manila tactics remain PROPOSED.
 
+**APPROVED — CR-049:** Writes *On the Public Arts* (1851–1854), the never-published brief Genth, Zeuner and Sylvester are hired on: find ability early, judge it by its works, and let no patron, minister or Elias himself force a false account, which he will treat as theft from the commonwealth. He makes Genth's 1853 mill report a precedent and pays for travelling fellowships from the royalty from 1854. PROPOSED: in the American war he gives the navy the Calculation Office's tables and keeps its people; in 1883 he charters the Light and Matter Works. The founder of an ethos of honest accounts ignores the Hawaiian judges in 1874–1876, and the ethos has no answer for him.
+
 ### CT-KAIULANI — Victoria Kamāmalu / Kaʻahumanu IV, Queen of Hawaii and Regent of Pacifica
 **Status:** Historical person in alternate history; CR-027 replaces the fictional cousin without creating a second identity. **Born:** 1 November 1838, daughter of Kīnaʻu and Kekūanāoʻa, granddaughter of Kamehameha I and sister of Alexander Liholiho and Lot Kapuāiwa. **Later life:** Alive in Hawaii in 1932, out of power; death after the ending unchosen. The stable ID preserves legacy mappings.
 
@@ -69,6 +71,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 **APPROVED — CR-038:** As Regent she sends the Office's inspectors into the counties unannounced, checks their returns against figures that are hard to fake, and teaches Pacificans to take pride in what the tables show. She charters the trades congress in 1895 so that Pacifica's own workers never need a march.
 
 **CR-046 (31 October 2026):** APPROVED: by the Romanov burial she has read the Petrograd account and the file the boarding party brought out of Kronstadt; she keeps the ledger shut to protect the settlement, as she will keep the Altai a year later. PROPOSED: in the cathedral she takes Queen Alexandra's hands and turns from the King's representative without a word, and London's press and the Commons speculate about why. Whether Julian answers her charge of 1921 with the ledger she kept shut is OPEN.
+
+**APPROVED — CR-049:** No longer Regent when fission is read in 1908, she keeps her influence on the atom through Hillebrand and the Light and Matter Works; the decision belongs to Julian, and it is where they begin to drift apart. OPEN: how the drift plays out.
 
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
@@ -117,6 +121,8 @@ In 1931 he uses oil, transport and gold leverage against the Manchurian plot. Th
 **The Five:** Their neutrality decides Kiyoshi’s 1907 bid; Julian’s 1910–1911 Senate quarrel strains the arrangement. The 1921 false Altai report breaks it when the estates’ measures serve a Crown-requested lie.
 
 **CR-029–CR-031, current scope:** The Philippine Cortes offers a separate Philippine crown in 1907 and a plebiscite confirms its signed terms. In December 1907 he swears before the Cortes at Manila and is proclaimed under the standard, without episcopal coronation. The full formula Sovereign of Pacifica, Mōʻī of Hawaiʻi and Rey de Filipinas remains explicitly PROPOSED in the detailed CR-029 passage, although the supplied synopsis and Concord passage use it. His three crowns constitute one party opposite Japan in the Concord. Ka Lōkahi is the three-crown council, one vote each, with ten-year reviews of agreed matters; Hayama's two-crown Council and five-year Concord executive term are different institutions. In 1927 Ka Lōkahi’s second review agrees that Japan joins; its vote binds the Hawaiian and Philippine crowns but cannot cure the Realm’s want of Senate consent (CR-040). His Harbin victory leaves a Siberian ally, Japanese-protected Kamchatka, a Transbaikalian protectorate and Chinese rights, rather than one incorporated empire. Under the PROPOSED Kamchatka Company mechanism, Pacifican shareholding and Korean employment arrangements participate in development by professional contractors and directly managed, paid crews. CR-031-R1 removes the labour-camp complicity formerly attributed to his order; Japan and Pacifica have already developed and competed over efficient construction methods for decades. This does not imply that Hirohito knows the Altai secret.
+
+**APPROVED — CR-049:** Fission (1908) and the chain (1909) come in his first years, and the decision about them is his; it is where he and Victoria begin to drift apart. He never approves a false paper. He treats the moment as an opportunity that comes once and has Pacifica mine and buy as much uranium as it can: Joachimsthal through the 1909 Bosnian loan, Shinkolobwe with Ruanda-Urundi for Belgium at The Hague, Fergana alongside the Emba concession. The first device is tested in secret in the desert about 1920, never on Hawaiian reefs; in 1927 the demonstration at sea completes Britain's retreat and solidifies the Concord, and an atomic station lights Tokyo as the emblem of the friendship with Japan. PROPOSED: his motives for a peacetime industry (fear of what Europe will make of the physics, teeth for his peace, an industry that pays its way). OPEN: the secrecy settlement and whether the 1908 paper is published.
 
 ### CT-CALEB — Caleb Vance
 **Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Autumn 1887 Donner Pass standoff, with no civil war under CR-016. CR-022 resolves the shooter: Silas aims at Soberanes and Caleb dies in his place.
@@ -763,6 +769,8 @@ Historical persons in alternate careers. Their historical biographies and source
 
 **APPROVED — CR-034:** German-born chemist who, back in Philadelphia from a failed North Carolina mine in 1850, analyses Californian ores on commission and accepts the Republic's offer in 1851: laboratory, assistants, a salary independent of clients, the right to publish and time for his own chemistry. His laboratory becomes the school at Carquinez in 1852. In 1853 he shows that the Superintendency's own quartz mill loses its sulphide gold, and Elias prints it; in 1858 he identifies the Carson Hill gold telluride and its roasting-and-chlorine treatment. **APPROVED — CR-036:** his spectroscope finds indium in California zinc ore in 1863. **Open:** contracts, salary, private life and scenes.
 
+**APPROVED — CR-049:** His contract is the first clause of *On the Public Arts* put into practice. He founds the Laboratory of Light, Electricity and Matter in 1859; in 1861 he publishes, under Kate Layne's name and his, that uranium's activity belongs to uranium itself; his separations find the bismuth-borne and barium-borne elements in 1868–1869, and with Peirce he concludes in 1870 that one element turns into another. After the 1867 dispute he funds independent checking before the machines.
+
 ### CT-GUSTAV-ZEUNER — Gustav Zeuner, engineer and recruiter
 **Status:** Historical person in alternate history (CR-034).
 
@@ -772,6 +780,8 @@ Historical persons in alternate careers. Their historical biographies and source
 **Status:** Historical person in alternate history (CR-036).
 
 **APPROVED — CR-036:** Second in Cambridge's mathematics examination of 1837 but barred from a degree because he would not sign the Church of England's articles; after ten years as an actuary he takes a Polytechnic chair in 1855 instead of Woolwich, founds mathematics and actuarial science, and from 1866 teaches at Yerba Buena College. His case becomes an argument in Britain's debate over religious tests. **Open:** scenes, students and private life.
+
+**APPROVED — CR-049:** Proposes the Calculation Office in 1855, bringing Babbage's notation and Menabrea's and Lovelace's account of the Analytical Engine. PROPOSED: in 1856 he offers the young Charles Peirce a place at Carquinez.
 
 ### CT-ROBERT-REMAK — Robert Remak, physiologist
 **Status:** Historical person in alternate history (CR-036).
@@ -798,10 +808,14 @@ Historical persons in alternate careers. Their historical biographies and source
 
 **APPROVED — CR-036:** A Prussian Jewish merchant's son who grows up at the gold camp at Murphys and at Virginia City, sits the Polytechnic's examination at fourteen, and from 1878 measures the speed of light at Yerba Buena College. In 1887 he and Morley find no ether wind. Nobel prize 1907, as a Pacifican (PROPOSED). **Open:** family and scenes.
 
+**APPROVED — CR-049:** With Goldstein he announces the electron in 1879. His Yerba Buena laboratory builds the single-particle counter in 1885–1887 and lends Nagaoka the valve-amplified counter with which Yerba Buena announces the neutron in 1899.
+
 ### CT-EDWARD-MORLEY — Edward Morley, chemist
 **Status:** Historical person in alternate history (CR-036).
 
 **APPROVED — CR-036:** Born in New Jersey in 1838 and trained for the Congregational ministry, he comes west in 1868 to a chemistry chair at Yerba Buena College for the laboratory and the pay, as many of his generation of American graduates do. Michelson's partner in the ether experiment of 1887. **Open:** scenes and private life.
+
+**APPROVED — CR-049:** Confirms atomic transformation in 1872, measures the heat of the barium-borne salt in 1877, settles the oxygen–hydrogen ratio in 1884–1885 and finds helium's mass deficit in 1886, which he and Peirce conjecture is radium's heat without being able to say why.
 
 ### CT-KITASATO-SHIBASABURO — Kitasato Shibasaburō, bacteriologist
 **Status:** Historical person in alternate history (CR-036).
@@ -903,6 +917,8 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 
 **APPROVED — CR-027:** One of the Five in 1887, holding the power seat. Steinmetz as later successor is PROPOSED.
 
+**APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.
+
 ### CT-STEINMETZ — Charles Steinmetz
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
 
@@ -997,9 +1013,9 @@ APPROVED — CR-043 P2–P4: at The Hague in 1918–19 she is Mediator for the A
 **Voice:** English-schooled, exact, warm in private and patient in committee; her authority is the court's, not the treasury's.
 
 ### CT-HERMAN-HOLLERITH — Herman Hollerith
-**Status:** proposed_five_member (CR-027).
+**Status:** proposed_office_of_public_measures (CR-027, CR-049).
 
-PROPOSED — CR-027 A22/B6: Measures and tabulation seat among the Five in 1887; punched cards tabulate Noe’s registers from 1888. His appointment and chronology remain proposals. The Office measures; the press seat publishes. No other invented biography is supplied.
+PROPOSED — CR-027 A22/B6, as amended by CR-049: punched cards tabulate Noe’s registers from 1888 at the Office of Public Measures, which has no seat among the Five; the seat CR-027 proposed for him goes to Hillebrand’s atomic estate (CR-049). Peirce, who wants the registers’ work for his relays, loses it to the cards. His appointment and chronology remain proposals. The Office measures; the press seat publishes. No other invented biography is supplied.
 
 ### CT-WILLIAM-RANDOLPH-HEARST — William Randolph Hearst
 **Status:** proposed_five_member (CR-027).
@@ -1028,7 +1044,7 @@ PROPOSED — CR-027 B6: A surname among possible later successors. Given name, h
 
 ## The Five — institutional arrangement (CR-027)
 
-There are always five seats: Polytechnic and General Staff; naval construction/heavy industry/champions; power; measures/tabulation; press/image. The approved 1887 holders are Soberanes, Turner and Tesla. Hollerith and Hearst, Dickson’s work within the press seat, the later successors and the nickname nā Kahuna are PROPOSED. Marcus Vance III’s succession after 1915 is supplied by the updated storyline. The Crown leaves charters, appointments and the Development Fund untouched; the estates never oppose the Crown or let a faction capture them. Donner holds the arrangement in 1887, Kiyoshi’s bid tests neutrality in 1913, the Senate quarrel strains it in 1915–1917, and the false Altai report breaks it in 1921. The successors’ choice matters in 1932. Measurement belongs to the Office and Polytechnic; publication belongs to the press seat.
+There are always five seats: Polytechnic and General Staff; naval construction/heavy industry/champions; power; the atomic estate, the Light and Matter Works (CR-049, replacing the measures/tabulation seat CR-027 proposed); press/image. The approved 1887 holders are Soberanes, Turner and Tesla; Hillebrand holds the atomic estate's seat (seat approved by CR-049, its 1887 date PROPOSED) until he retires in 1921, successor OPEN. Hollerith works at the Office of Public Measures, which has no seat. Hearst, Dickson’s work within the press seat, the later successors and the nickname nā Kahuna are PROPOSED. Marcus Vance III’s succession after 1915 is supplied by the updated storyline. The Crown leaves charters, appointments and the Development Fund untouched; the estates never oppose the Crown or let a faction capture them. Donner holds the arrangement in 1887, Kiyoshi’s bid tests neutrality in 1913, the Senate quarrel strains it in 1915–1917, and the false Altai report breaks it in 1921. The successors’ choice matters in 1932. Measurement belongs to the Office and Polytechnic; publication belongs to the press seat.
 
 
 
@@ -1517,3 +1533,54 @@ Acting Imperial Wizard of the second Klan (*hist.*), refounded on Stone Mountain
 Lucius Q. C. Lamar (1880–1886), the reconciler; Fitzhugh Lee (1886–1892), who signs final abolition; Benjamin Tillman (1892–1898), the Deep South nationalist; Joseph Wheeler (1898–1904), chosen by the Confederate Congress, who signs the Protocol of Richmond and moves the capital to Montgomery; James K. Vardaman (1904–1910), the prison builder; Hoke Smith (1910–1916), the modernizer who disfranchises; Thomas E. Watson (1916–1922), the populist turned hater; Theodore G. Bilbo (1922–1928), the emigrationist; Robert W. Woodruff (1928–1934), the businessman who faces the crash. The table is in the master storyline after the Union's presidents.
 
 **Character use:** Their historical careers are a baseline for character, not proof of conduct. Tillman, Vardaman, Watson and Bilbo were among the most openly racist men in American public life; show it without endorsing it.
+
+## CR-049 — the nomos, computing and the atom (2 November 2026)
+
+Historical people placed in alternate careers; no invented scientists are added. Rutherford, Meitner, Szilárd, Wigner, von Neumann and Teller come to Pacifica by attraction (CR-049) and receive dossiers when they appear in a scene.
+
+### CT-CHARLES-PEIRCE — Charles Sanders Peirce, mathematician and logician
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** Born in 1839, the son of Harvard's mathematician Benjamin Peirce, with an undistinguished examination record. PROPOSED: in the spring of 1856 Sylvester offers him a place at Carquinez, where achievement outranks rank, and he comes west at sixteen. APPROVED: the Calculation Office's youngest computer, he reads Boole and, after his seventeenth birthday, sails as the youngest fellow to Japan (1856–1857), where the Dutch-run naval school at Nagasaki tests him as hard as he tests it. In 1863 he sees Boole's algebra in the Office's telegraph relays and builds the relay arithmetic demonstrator; his circuits, designed on paper first, make the programmed calculator of 1876–1879 run. In 1867 a checking rule of his is shown by Kate Curran to have discarded real readings, and he acknowledges it in public. He fits the electroscope readings (1864), describes the transformation curves (1870), computes the scattering that proves the nucleus (1883), conjectures with Morley that mass and heat are one (1886) and works the neutron's recoils (1899). PROPOSED: a facial neuralgia from his late teens brings on his tempers; success makes him overconfident in elegant procedures; in 1888, nearly fifty, he loses the registers' work to Hollerith's cards. **Open:** the journey's dangers (O4), private life, death.
+
+**Voice:** Quick, combative, delighted by an elegant proof and slow to forgive a dull one; generous to a worthy opponent.
+
+### CT-KATE-BRANDEGEE — Kate Layne, later Curran and Brandegee, the laboratory's recorder
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** Born in Tennessee in 1844 and raised in Folsom from the age of nine. PROPOSED: in 1860, at fifteen, she passes the Republic's examination, one of the first women to do so, and joins the recording staff of the Laboratory of Light, Electricity and Matter. APPROVED: in 1861, at sixteen, she follows up Niépce's published observation with plates and a gold-leaf electroscope and establishes that the activity belongs to uranium; Genth publishes under her name and his. She marries Hugh Curran in 1866 and keeps her post. In 1867 she shows that Peirce's checking rule has discarded real readings, some of them hers, and fights for her credit until the corrections column restores it in 1872. She runs the counting room of 1882–1883 whose observers count the flashes that prove the nucleus. She never studies medicine. **Open:** scenes, her later years and second marriage beyond the name.
+
+**Voice:** Exact, dry and unrelenting about a reading; she keeps everything and forgets nothing owed.
+
+### CT-SAMUEL-KAMAKAU — Samuel Kamakau, Hawaiian historian
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** The historian (1815–1876) whose series on the old ways runs in the Honolulu press from 1866. He argues in print until his death over whether achievement and the masters of the crafts can carry *mana*, and how that sits with genealogy and the gods; the argument outlives him and frames Honolulu's later name for the Five, *nā Kahuna*. **Open:** scenes; no kinship with existing characters is invented.
+
+**Voice:** Learned, polemical, rooted in genealogy and the chiefs' history.
+
+### CT-WILLIAM-HILLEBRAND — William Francis Hillebrand, chemist, head of the Light and Matter Works
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** Born in Honolulu in 1853; Pacifican by birth. He goes from Oahu College to Carquinez and to Bunsen at Heidelberg and comes home in 1878. In 1879 he reports a gas from pitchblende as nitrogen; in 1881 he finds it is helium and prints the correction to his own claim, and remembers. He assays Talbert's Western Slope ore in 1881–1882, finds the isotopes' chemistry and the light lead of uranium ores (1884–1886), makes uranium metal and graphite in electric furnaces, and in 1908, trusting the chemistry, reads fission. The seat among the Five for the atomic estate is his (approved). PROPOSED: director of the Light and Matter Works at its charter in 1883, seated among the Five in 1887. He leaves the seat at sixty-eight in 1921. **Open:** his successor; family and scenes.
+
+**Voice:** A careful analyst who distrusts his own first reading and trusts a chemistry he has checked twice.
+
+### CT-EUGEN-GOLDSTEIN — Eugen Goldstein, physicist
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** Born in Gleiwitz in 1850 to a Jewish family; Helmholtz's student, who has named cathode rays. In 1876, at twenty-six, he takes an assistant's post under Genth with citizenship. With Michelson he announces the electron in 1879; he takes his doctorate in 1881 and becomes master of the Laboratory of Light, Electricity and Matter; in 1883 he proposes the compact nucleus, and his positive rays sort atoms by mass. He reads the neutral radiation of the 1890s as a hard ray, refuses Nagaoka the recoil measurement, and accepts the neutron in 1901. He keeps his chair and the credit for the nucleus, but the next generation's best students go to Yerba Buena. **Open:** scenes and private life.
+
+**Voice:** Authoritative, exacting, slow to concede.
+
+### CT-NAGAOKA-HANTARO — Nagaoka Hantarō, physicist
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** Born in 1865; newly graduated in physics at Tokyo, he is sent by the Japanese partnership to Carquinez in 1887. Refused the recoil measurement by Goldstein, he takes it to Yerba Buena, where Michelson's valve-amplified counter gives the neutron, announced in 1899. He knows the work up to the neutron. **Open:** whether and when Japan is told what follows; his later career and scenes.
+
+**Voice:** Patient, quietly stubborn, a dissenter another school takes in.
+
+### CT-NISHINA-YOSHIO — Nishina Yoshio, physicist
+**Status:** Historical person in alternate history (CR-049).
+
+**APPROVED — CR-049:** Born in 1890. The Japanese co-lead of the atomic programme; atomic energy is the emblem of Pacifica's friendship with Japan, and an atomic power station lights Tokyo. **Open:** when he joins, when and how Japan is told, his part in the Tokyo station and scenes.
