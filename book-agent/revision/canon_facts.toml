@@ -611,3 +611,15 @@ pattern = "Yerba Buena College"
 message = "The college of 1866 is Ralston College (CR-050-R1)."
 kind = "fact"
 source = "CR-050-R1"
+
+[[event]]
+id = "pacifica-first-device-test"
+year = 1924
+patterns = ['''In May \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the Works tests its first device''']
+source = "CR-050-R1"
+
+[[event]]
+id = "san-francisco-water-eleanor-cherry"
+year = 1913
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the state chooses Lake Eleanor and Cherry Valley''']
+source = "CR-050-R1"

@@ -3464,15 +3464,17 @@
       "status": "approved_integrated_local_labels_retained",
       "approved_on": "2026-11-03",
       "decision_record": "CR-050-R1.md",
-      "authorization": "Author, 3 November 2026: \"Yerba Buena College would sound too unserious to the contemporary Anglophone reader and it's another one that's just named after a city. So maybe come up with a better name and lint that together with this CR.\" The site at Hetch Hetchy: \"I like it.\" Second round: \"I would prefer the place to be named after a Pacifican … Ralston is ok for this purpose. This also makes the two the gold and silver colleges of Pacifica. I approve the terms of the Tuolumne Compact.\"",
+      "authorization": "Author, 3 November 2026: \"Yerba Buena College would sound too unserious to the contemporary Anglophone reader and it's another one that's just named after a city. So maybe come up with a better name and lint that together with this CR.\" The site at Hetch Hetchy: \"I like it.\" Second round: \"I would prefer the place to be named after a Pacifican … Ralston is ok for this purpose. This also makes the two the gold and silver colleges of Pacifica. I approve the terms of the Tuolumne Compact.\" Third round: \"I approve the Tuolumne Station as the valley's public face and the suggestions for the proposals in CR-050-R1.\"",
       "requirements": [
         "A1: the private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith is Ralston College, after William Ralston (CT-RALSTON), its chief founder; Carquinez (gold) and Ralston College (silver) are Pacifica's colleges of gold and silver. Always \"Ralston College\" in prose. Current canon revised; earlier records keep the old name as provenance; a forbidden pattern keeps it out of current canon.",
         "B1 (approved in direction): the walled college stands in Hetch Hetchy Valley, reached by a single spur of the state's waterworks railway and a tunnel at its mouth.",
-        "B4: the Compact of the Tuolumne (1910): Ralston College's own compound at the east end, director and five-year budget; its own nominees with one sponsor of its own; equal access; independence of method; contests judged by one judge from each school and a chair named by the sovereign's key; credit by school; no private property in sealed work, endowed chairs; one appeal to the sovereign per dispute; exit on a year's notice, people bound for the term; public life unchanged; the Works pays for a champion of its choosing (Millikan); signed under a written protest deposited with the seal and published at the opening."
+        "B4: the Compact of the Tuolumne (1910): Ralston College's own compound at the east end, director and five-year budget; its own nominees with one sponsor of its own; equal access; independence of method; contests judged by one judge from each school and a chair named by the sovereign's key; credit by school; no private property in sealed work, endowed chairs; one appeal to the sovereign per dispute; exit on a year's notice, people bound for the term; public life unchanged; the Works pays for a champion of its choosing (Millikan); signed under a written protest deposited with the seal and published at the opening.",
+        "B2: the valley is publicly and truthfully the Tuolumne Station of the Light and Matter Works, publishing its open work; the floor is closed as a working station on the protected Tuolumne watershed; the tunnel gate, the layout (Carquinez's laboratories near the gate, the hall in the meadow, Ralston College's compound and houses at the east end, the installation in the granite, the families on the north bench), the valley tram.",
+        "B3: the Tuolumne Me-Wuk lease the valley's use for the seal's term (1909–1910, as their rancheria is settled), for a yearly fee, title to Poopenaut Valley and groves outside the fence, an autumn fortnight in the north groves, wardens' and burners' work under the bond, and the clinic; the Kootzaduka'a Paiute of Mono Lake make their own compact (high-country rights, an east-rim trail, a share, east-rim wardens).",
+        "B5–B6: San Francisco's water from Lake Eleanor and Cherry Valley (1913) with Spring Valley bought out as a bridge; Muir's blind victory (dies December 1914); the first device tested on the Black Rock Desert in May 1924, which Hillebrand lives to see; 'fission' coined by Peirce from Remak's school, the world's word from 1927; Langmuir's, Dempster's and Wigner's costs; the workbook revised (CR-050 workbook)."
       ],
       "open": [
-        "PROPOSED, not integrated: the tunnel gate and layout (B1); the Tuolumne Station as the valley's public face (B2); the Me-Wuk compact (B3); San Francisco's water from Lake Eleanor and Cherry Valley with Spring Valley bought out early, and Muir's blind victory (B1, B5); the recommendations of B6 (the valley tram and Ralston College's houses, the Mono Paiute compact, the Black Rock test of May 1924, 'fission' from Remak's school, costs for Langmuir, Dempster and Wigner, the workbook revision).",
-        "OPEN: the Me-Wuk leaders' names (archival research)."
+        "OPEN: the Me-Wuk and Kootzaduka'a leaders' names (archival research)."
       ],
       "facts": [
         {
@@ -3495,6 +3497,24 @@
             "pattern": "Yerba Buena College",
             "message": "The college of 1866 is Ralston College (CR-050-R1).",
             "kind": "fact"
+          }
+        },
+        {
+          "add_event": {
+            "id": "pacifica-first-device-test",
+            "year": 1924,
+            "patterns": [
+              "In May \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} the Works tests its first device"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "san-francisco-water-eleanor-cherry",
+            "year": 1913,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} the state chooses Lake Eleanor and Cherry Valley"
+            ]
           }
         }
       ],

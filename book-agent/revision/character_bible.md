@@ -1559,6 +1559,8 @@ Historical people placed in alternate careers; no invented scientists are added.
 
 **APPROVED — CR-050:** At sixty-nine he is the appointed respondent at the challenge evening of November 1908. He works out the energy of a split times the atoms in a block of uranium and asks whether the split releases neutrons; if it does, the prudent course is to assume a chain is possible and act before it is proved. The secret begins with his argument. In the late 1880s his fits to the scattering from foil after foil give each core a charge near half its atomic weight.
 
+**APPROVED — CR-050-R1:** At the challenge evening of 1908 he gives the split its name, fission, borrowing the biologists' word for cell division from Remak's school; from the opening of 1927 the world uses it.
+
 ### CT-KATE-BRANDEGEE — Kate Layne, later Curran and Brandegee, the laboratory's recorder
 **Status:** Historical person in alternate history (CR-049).
 
@@ -1581,6 +1583,8 @@ Historical people placed in alternate careers; no invented scientists are added.
 **Voice:** A careful analyst who distrusts his own first reading and trusts a chemistry he has checked twice.
 
 **APPROVED — CR-050:** He withholds his own fission paper for verification in November 1908, stops licensing strong neutron sources abroad in December, tells Victoria and Soberanes, takes the chain result to Julian with Soberanes in 1909 and proposes the compromise of the sealed envelope: dated, witnessed, sealed and opened in due course. He sponsors Meitner into the inner circle in 1911. Langmuir succeeds him in 1921. He dies in Honolulu, where he was born, on 7 February 1925, after Julian has told him the year the seal will be opened; he keeps it to the end because his record is dated and safe, because the term guarantees the opening, because he is a native son among *nā Kahuna*, and because he believes Peirce's argument. In 1927 the corrections column gives him the split.
+
+**APPROVED — CR-050-R1:** He lives to see the first device work on the Black Rock Desert in May 1924.
 
 ### CT-EUGEN-GOLDSTEIN — Eugen Goldstein, physicist
 **Status:** Historical person in alternate history (CR-049).
@@ -1618,12 +1622,16 @@ Historical people in alternate careers; no invented scientists are added.
 
 **Voice:** Patient, measuring, unimpressed by visions he cannot test.
 
+**APPROVED — CR-050-R1:** To take the custody of the seal in 1921 he lays aside the open surface chemistry that would have brought him a Nobel Prize. A mountaineer, he lives under Wapama at Hetch Hetchy.
+
 ### CT-ARTHUR-DEMPSTER — Arthur Jeffrey Dempster, physicist
 **Status:** Historical person in alternate history (CR-050).
 
 **APPROVED — CR-050:** Born in Toronto in 1886; he leaves Germany at the outbreak of war in 1914 and is recruited to Carquinez, where his instrument descends from Goldstein's positive rays. About 1915, on a long exposure, he sees a faint lighter companion beside the uranium line. Admitted to the inner circle when his isotope survey reaches the heavy elements, he agrees to leave uranium out of what he publishes; the survey is published and honoured, and heavy hydrogen appears in it. In 1916–1917 grains separated in his instrument prove that the light isotope is the one that splits, and the magnet halls are his instrument made enormous. The corrections column names him in 1927. **Open:** how his recruitment fits Canada policy (separate session); scenes.
 
 **Voice:** Quiet, exact, a man of long exposures.
+
+**APPROVED — CR-050-R1:** In 1922 he watches Aston receive the Nobel Prize for isotopes while his own better result, the uranium line, lies sealed.
 
 ### CT-LISE-MEITNER — Lise Meitner, physicist
 **Status:** Historical person in alternate history (CR-050).
@@ -1673,3 +1681,6 @@ Historical people in alternate careers; no invented scientists are added.
 **APPROVED — CR-049, CR-050:** He comes about 1924 and becomes the master of the reactors; the energy stored in graphite under irradiation is found and named after him. In 1925–1926 he and Szilárd propose the breeding reactor, and about 1930–1932 an experimental breeder runs and lights a few bulbs in a shed. **Open:** scenes.
 
 **Voice:** Courteous to a fault, relentless in engineering detail.
+
+**APPROVED — CR-050-R1:** Trained as a chemical engineer for his father's tannery in Budapest, he leaves it against his father's wishes. In the reactor hall he is the engineer's brake on Szilárd's haste and refuses to build the breeder bigger than he can control.
+
