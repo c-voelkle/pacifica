@@ -783,7 +783,7 @@ Historical persons in alternate careers. Their historical biographies and source
 ### CT-JAMES-SYLVESTER — James Joseph Sylvester, mathematician
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** Second in Cambridge's mathematics examination of 1837 but barred from a degree because he would not sign the Church of England's articles; after ten years as an actuary he takes a Polytechnic chair in 1855 instead of Woolwich, founds mathematics and actuarial science, and from 1866 teaches at Yerba Buena College. His case becomes an argument in Britain's debate over religious tests. **Open:** scenes, students and private life.
+**APPROVED — CR-036:** Second in Cambridge's mathematics examination of 1837 but barred from a degree because he would not sign the Church of England's articles; after ten years as an actuary he takes a Polytechnic chair in 1855 instead of Woolwich, founds mathematics and actuarial science, and from 1866 teaches at Humboldt College. His case becomes an argument in Britain's debate over religious tests. **Open:** scenes, students and private life.
 
 **APPROVED — CR-049:** Proposes the Calculation Office in 1855, bringing Babbage's notation and Menabrea's and Lovelace's account of the Analytical Engine. PROPOSED: in 1856 he offers the young Charles Peirce a place at Carquinez.
 
@@ -795,7 +795,7 @@ Historical persons in alternate careers. Their historical biographies and source
 ### CT-FERDINAND-COHN — Ferdinand Cohn, microbiologist
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** Kept waiting a year at Breslau before he might take the oath to teach; comes in 1858 to the Methodists' medical college to study microscopic life and moves to Yerba Buena College in 1866. He spots Koch's microscope work and has the Polytechnic give him a laboratory (PROPOSED). **Open:** scenes and private life.
+**APPROVED — CR-036:** Kept waiting a year at Breslau before he might take the oath to teach; comes in 1858 to the Methodists' medical college to study microscopic life and moves to Humboldt College in 1866. He spots Koch's microscope work and has the Polytechnic give him a laboratory (PROPOSED). **Open:** scenes and private life.
 
 ### CT-ROBERT-KOCH — Robert Koch, bacteriologist
 **Status:** Historical person in alternate history (CR-036).
@@ -810,14 +810,14 @@ Historical persons in alternate careers. Their historical biographies and source
 ### CT-ALBERT-MICHELSON — Albert Michelson, physicist
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** A Prussian Jewish merchant's son who grows up at the gold camp at Murphys and at Virginia City, sits the Polytechnic's examination at fourteen, and from 1878 measures the speed of light at Yerba Buena College. In 1887 he and Morley find no ether wind. Nobel prize 1907, as a Pacifican (PROPOSED). **Open:** family and scenes.
+**APPROVED — CR-036:** A Prussian Jewish merchant's son who grows up at the gold camp at Murphys and at Virginia City, sits the Polytechnic's examination at fourteen, and from 1878 measures the speed of light at Humboldt College. In 1887 he and Morley find no ether wind. Nobel prize 1907, as a Pacifican (PROPOSED). **Open:** family and scenes.
 
-**APPROVED — CR-049:** With Goldstein he announces the electron in 1879. His Yerba Buena laboratory builds the single-particle counter in 1885–1887 and lends Nagaoka the valve-amplified counter with which Yerba Buena announces the neutron in 1899.
+**APPROVED — CR-049:** With Goldstein he announces the electron in 1879. His Humboldt laboratory builds the single-particle counter in 1885–1887 and lends Nagaoka the valve-amplified counter with which Humboldt announces the neutron in 1899.
 
 ### CT-EDWARD-MORLEY — Edward Morley, chemist
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** Born in New Jersey in 1838 and trained for the Congregational ministry, he comes west in 1868 to a chemistry chair at Yerba Buena College for the laboratory and the pay, as many of his generation of American graduates do. Michelson's partner in the ether experiment of 1887. **Open:** scenes and private life.
+**APPROVED — CR-036:** Born in New Jersey in 1838 and trained for the Congregational ministry, he comes west in 1868 to a chemistry chair at Humboldt College for the laboratory and the pay, as many of his generation of American graduates do. Michelson's partner in the ether experiment of 1887. **Open:** scenes and private life.
 
 **APPROVED — CR-049:** Confirms atomic transformation in 1872, measures the heat of the barium-borne salt in 1877, settles the oxygen–hydrogen ratio in 1884–1885 and finds helium's mass deficit in 1886, which he and Peirce conjecture is radium's heat without being able to say why.
 
@@ -1583,7 +1583,7 @@ Historical people placed in alternate careers; no invented scientists are added.
 ### CT-EUGEN-GOLDSTEIN — Eugen Goldstein, physicist
 **Status:** Historical person in alternate history (CR-049).
 
-**APPROVED — CR-049:** Born in Gleiwitz in 1850 to a Jewish family; Helmholtz's student, who has named cathode rays. In 1876, at twenty-six, he takes an assistant's post under Genth with citizenship. With Michelson he announces the electron in 1879; he takes his doctorate in 1881 and becomes master of the Laboratory of Light, Electricity and Matter; in 1883 he proposes the compact nucleus, and his positive rays sort atoms by mass. He reads the neutral radiation of the 1890s as a hard ray, refuses Nagaoka the recoil measurement, and accepts the neutron in 1901. He keeps his chair and the credit for the nucleus, but the next generation's best students go to Yerba Buena. **Open:** scenes and private life.
+**APPROVED — CR-049:** Born in Gleiwitz in 1850 to a Jewish family; Helmholtz's student, who has named cathode rays. In 1876, at twenty-six, he takes an assistant's post under Genth with citizenship. With Michelson he announces the electron in 1879; he takes his doctorate in 1881 and becomes master of the Laboratory of Light, Electricity and Matter; in 1883 he proposes the compact nucleus, and his positive rays sort atoms by mass. He reads the neutral radiation of the 1890s as a hard ray, refuses Nagaoka the recoil measurement, and accepts the neutron in 1901. He keeps his chair and the credit for the nucleus, but the next generation's best students go to Humboldt. **Open:** scenes and private life.
 
 **Voice:** Authoritative, exacting, slow to concede.
 
@@ -1592,7 +1592,7 @@ Historical people placed in alternate careers; no invented scientists are added.
 ### CT-NAGAOKA-HANTARO — Nagaoka Hantarō, physicist
 **Status:** Historical person in alternate history (CR-049).
 
-**APPROVED — CR-049:** Born in 1865; newly graduated in physics at Tokyo, he is sent by the Japanese partnership to Carquinez in 1887. Refused the recoil measurement by Goldstein, he takes it to Yerba Buena, where Michelson's valve-amplified counter gives the neutron, announced in 1899. He knows the work up to the neutron. **Open:** whether and when Japan is told what follows; his later career and scenes.
+**APPROVED — CR-049:** Born in 1865; newly graduated in physics at Tokyo, he is sent by the Japanese partnership to Carquinez in 1887. Refused the recoil measurement by Goldstein, he takes it to Humboldt, where Michelson's valve-amplified counter gives the neutron, announced in 1899. He knows the work up to the neutron. **Open:** whether and when Japan is told what follows; his later career and scenes.
 
 **Voice:** Patient, quietly stubborn, a dissenter another school takes in.
 
@@ -1644,10 +1644,10 @@ Historical people in alternate careers; no invented scientists are added.
 
 **Voice:** A theorist who reads other people's measurements closely.
 
-### CT-ROBERT-MILLIKAN — Robert Millikan, physicist, Yerba Buena's champion
+### CT-ROBERT-MILLIKAN — Robert Millikan, physicist, Humboldt's champion
 **Status:** Historical person in alternate history (CR-050).
 
-**APPROVED — CR-050:** Recruited from Chicago in 1910, he becomes Yerba Buena's champion when the college goes behind the wall under protest, and measures the elementary charge in the open with his oil drops in 1910–1913. In 1920 he wants Yerba Buena's share of the sealed record published before Hahn is honoured; the sealed roll lists Yerba Buena's results separately and his open work brings him the Nobel Prize in 1923, and he stays inside. **Open:** scenes; his rival separation route's people.
+**APPROVED — CR-050:** Recruited from Chicago in 1910, he becomes Humboldt's champion when the college goes behind the wall under protest, and measures the elementary charge in the open with his oil drops in 1910–1913. In 1920 he wants Humboldt's share of the sealed record published before Hahn is honoured; the sealed roll lists Humboldt's results separately and his open work brings him the Nobel Prize in 1923, and he stays inside. **Open:** scenes; his rival separation route's people.
 
 **Voice:** Ambitious for his college, jealous of credit, persuasive in public.
 
