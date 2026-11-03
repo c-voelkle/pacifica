@@ -1,0 +1,376 @@
+"""Inputs for the energy workbook: levers, benchmark paths, historical anchors and events.
+
+Every number here is either a historical anchor (with its source and whether it was
+verified in the building session) or a MODEL assumption (with its basis). The build
+script writes them into the workbook as blue input cells; nothing here is a result.
+
+Status words used in the Anchors sheet:
+  VERIFIED  read from the cited source in the building session (3 November 2026)
+  CARRIED   verified in an earlier session and cited in a project document
+  TO VERIFY recalled from the cited standard series; the primary table could not be
+            reached from the session (census.gov and USGS PDFs are blocked). The
+            author should check these against the downloads listed in README.md.
+"""
+
+# ---------------------------------------------------------------- benchmark years
+# Paths are given at these years and interpolated linearly in between by formula.
+PATH_YEARS = [1846, 1850, 1860, 1870, 1880, 1885, 1890, 1895, 1900, 1907, 1913, 1915,
+              1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926, 1927, 1928,
+              1929, 1930, 1931, 1932]
+
+# ---------------------------------------------------------------- levers
+# (name, label, story, stress, unit, status, basis)
+LEVERS = [
+    ("— Demand —",),
+    ("elec_pace", "Electrification pace (× Story shares of homes and factories)", 1.0, 0.85, "×", "Model estimate",
+     "Stress electrifies later: the shares of homes and factory horsepower on electric drive are 15% lower, capped at 100%."),
+    ("motor_full", "Electricity for motors in a fully electrified industry", 1.15, 1.15, "kWh per 1913 $ of real GDP", "Model estimate",
+     "Calibrated to the US in 1929: about 57 TWh of industrial use (utility sales plus self-generation) on about $65bn of real GDP (1913 $) at 78% of factory horsepower electric (Devine 1983)."),
+    ("arc_mwh", "Electricity per tonne of nitrogen fixed in the arc", 70, 70, "MWh/t N", "Historical",
+     "Birkeland–Eyde arc; the figure used in CR-051's power check (outside the texts)."),
+    ("haber_mwh", "Electricity per tonne of Haber–Bosch nitrogen", 1.5, 1.5, "MWh/t N", "Model estimate", "Compressors and pumps; the hydrogen comes from gas."),
+    ("haber_gj", "Fuel per tonne of Haber–Bosch nitrogen", 75, 75, "GJ/t N", "Model estimate", "1920s plants on reformed gas or water gas: roughly 70–100 GJ/t N."),
+    ("carbide_mwh", "Electricity per tonne of calcium carbide", 3.3, 3.3, "MWh/t", "Historical (to verify)", "Willson-type furnaces, about 3–4 MWh/t."),
+    ("chlor_mwh", "Electricity per tonne of chlorine", 3.6, 3.6, "MWh/t", "Historical (to verify)", "Castner–Kellner cells, about 3.5–4 MWh/t."),
+    ("esteel_mwh", "Electricity per tonne of electric-furnace steel", 0.8, 0.8, "MWh/t", "Historical (to verify)", "About 0.6–0.9 MWh/t."),
+    ("falloy_share", "Ferro-alloys as a share of steel output", 0.015, 0.015, "share", "Model estimate", "Ferrosilicon and ferromanganese for the steel champion."),
+    ("falloy_mwh", "Electricity per tonne of ferro-alloys", 7, 7, "MWh/t", "Historical (to verify)", "75% ferrosilicon about 8–10 MWh/t, ferromanganese less."),
+    ("abras_mwh", "Electricity per tonne of carborundum and graphite", 8, 8, "MWh/t", "Historical (to verify)", "Acheson furnaces."),
+    ("pump_kwh", "Electricity per pumped irrigated acre", 400, 400, "kWh/acre/yr", "Model estimate", "Central Valley well pumping, lifts of 50–100 ft."),
+    ("car_home", "Share of motor vehicles built that stay in Pacifica", 0.8, 0.8, "share", "Model estimate", "The rest are exported to partners (CR-020 B9 champions)."),
+    ("car_scrap", "Vehicles scrapped each year", 0.08, 0.08, "share of stock", "Model estimate", "An average life of about twelve years."),
+    ("gulf_home", "Share of the Pacifican-controlled Gulf crude that can be shipped home", 0.8, 0.6, "share", "Model estimate",
+     "After the trust's Asian sales; the rest is sold in the Gulf and the Atlantic. Gulf crude by the canal."),
+    ("asia_home", "Share of the trust's Asian oil sales refined from home crude", 0.5, 0.5, "share", "Model estimate", "The rest comes from Gulf crude refined by Pacifican firms (finance Champions!L:N)."),
+    ("ref_own", "Refinery own use and losses", 0.07, 0.07, "share of throughput", "Model estimate", "1920s refineries burned 6–8% of their crude."),
+    ("— Supply —",),
+    ("hydro_pace", "Hydro building pace, ordinary basins (× Story path)", 1.0, 0.7, "×", "Model estimate",
+     "Stress builds 30% fewer dams. Canon's strategic dams (the Works on the Pit and Feather, Rock Island) are not scaled."),
+    ("dry_year", "Dry year applied to the main balance (0 = none)", 0, 1924, "year", "Historical",
+     "1924 was a severe drought year in California and brought a power shortage (outside the texts). The Checks test a dry year in every year regardless."),
+    ("dry_factor", "Hydro output in a dry year", 0.65, 0.6, "× normal", "Model estimate", "California hydro fell to roughly 60–70% of normal in the worst years."),
+    ("hydro_firm", "Dependable hydro capacity", 0.6, 0.55, "× nameplate", "Model estimate", "Share of hydro nameplate counted on at the late-summer peak."),
+    ("reserve", "Reserve margin planned above the peak", 0.2, 0.15, "share", "Model estimate", "1920s utility practice was 15–25%."),
+    ("th_cf_max", "Highest yearly capacity factor of steam plant", 0.6, 0.6, "share", "Model estimate", "Above this the model builds more steam plant."),
+    ("strat_lf", "Load factor of the strategic loads", 0.92, 0.92, "share", "Model estimate", "The halls and the station run day and night."),
+    ("strat_loss", "Losses on the strategic loads' own lines", 0.04, 0.04, "share", "Model estimate", "Dedicated high-voltage lines from nearby dams."),
+    ("works_cf", "Capacity factor of the Works' dams on the Pit and the Feather", 0.62, 0.6, "share", "Model estimate", "The Pit is spring-fed and unusually steady; storage on the upper Feather."),
+    ("coal_mult", "Western coal output the Realm can raise (× historical by district)", 3.0, 2.0, "×", "Model estimate",
+     "Historically western coal stayed small because California burned oil and hydro; Utah, Rock Springs and New Mexico have the reserves for several times that output if the demand is there. Above this coal is imported (Paths coal_imp_cap)."),
+    ("coal_gj", "Heat value of western coal", 25, 25, "GJ/t", "Historical (to verify)", "Utah and Washington bituminous about 26–28, Rock Springs and New Mexico sub-bituminous 21–24."),
+    ("atom_cf", "Capacity factor of the atomic stations", 0.75, 0.6, "share", "Model estimate", "Same lever as the financial workbook's atom_cf."),
+    ("— Strategic loads (CR-051) —",),
+    ("halls_pos", "Halls' draw within CR-051's range (0 = low, 1 = high)", 0.5, 1.0, "position", "Model estimate", "CR-051 M2 gives a range each year; Stress takes the top."),
+    ("halls_after", "Halls' draw after 1927 (× 1925–27 level)", 0.75, 0.75, "×", "OPEN",
+     "CR-050 keeps a separation-hall feed in 1928–1932 for a small arsenal; the plant is not cut back to nothing. Author to decide."),
+    ("feed_pos", "Feed plant oil within CR-051's 0.4–0.75 Mt (0 = low, 1 = high)", 0.5, 1.0, "position", "Model estimate", "CR-051 M2."),
+    ("hilo_src", "Power for the Hilo smelter (1 = oil-fired steam, 2 = windward hydro)", 1, 1, "switch", "OPEN",
+     "Handoff §8. The Big Island's windward streams cannot carry a smelter (see Strategic loads). Default oil."),
+    ("— Dams and lead times —",),
+    ("colms_on", "Mid-Columbia chain of low dams with ladders (1 = yes)", 1, 1, "switch", "PROPOSED (CR-052)",
+     "The model's answer to handoff §8 'big dams earlier?': without main-stem Columbia power the Realm cannot keep a hydro-led grid in the 1920s. Sites as the historical Rocky Reach, Wells and Chief Joseph; Native consent OPEN."),
+    ("colms_dec", "Mid-Columbia chain: decision", 1921, 1924, "year", "PROPOSED (CR-052)", "After Rock Island (1920)."),
+    ("colms_rate", "Mid-Columbia chain: capacity added each year", 300, 250, "MW/yr", "Model estimate", ""),
+    ("colms_max", "Mid-Columbia chain: full size", 2000, 2000, "MW", "Model estimate", "Historically Rocky Reach, Wells and Chief Joseph together are about 4.6 GW (to verify); a 1920s first stage."),
+    ("works_dec", "Works' dams on the Pit and the Feather: decision", 1920, 1920, "year", "Canon (CR-051 R2)", "Decided with the halls' expansion."),
+    ("rock_dec", "Rock Island dam: decision", 1920, 1920, "year", "Canon (CR-051 S7)", "Built 1920–23."),
+    ("boulder_dec", "Boulder Canyon dam: decision", 1928, 1928, "year", "OPEN",
+     "Historically authorized 1928, first power 1936. Handoff §8 asks whether canon brings it earlier."),
+    ("dam_lead", "Lead time of a large dam from decision to first power", 2, 3, "years", "Model estimate", "Pit 1 and Caribou took about two years; Boulder five."),
+    ("boulder_lead", "Lead time for Boulder Canyon", 4, 5, "years", "Model estimate", "Historically 1931–36."),
+    ("mainline_on", "Main-line railway electrification (1 = yes; share by year in Paths rail_el)", 1, 0, "switch", "PROPOSED (CR-052)",
+     "Handoff §8. The Milwaukee Road electrified 650 route-miles across the Rockies and Cascades in 1915–20 (to verify). Story electrifies the mountain crossings first, then the busiest valley lines."),
+    ("rail_kwh_gj", "Electricity per GJ of locomotive fuel replaced", 22, 22, "kWh/GJ", "Model estimate",
+     "A steam locomotive turns about 6% of its fuel into work at the rail, an electric one about 75% of what it takes from the wire."),
+    ("— Money (1913 $ unless stated) —",),
+    ("cost_hydro", "Hydro plant, built", 160, 200, "$/kW", "Model estimate", "Big Creek and Pit-era plants about $150–250/kW in 1913 money."),
+    ("cost_steam", "Steam plant, built", 70, 85, "$/kW", "Model estimate", ""),
+    ("cost_td", "Transmission and distribution per kW of new capacity", 110, 130, "$/kW", "Model estimate", "Lines, substations and the distribution network: about half of a 1920s utility's plant."),
+    ("renewal", "Renewals each year", 0.015, 0.015, "share of the power plant stock", "Model estimate", ""),
+    ("price_strat", "Price of power to the strategic loads", 0.5, 0.6, "cents/kWh", "Model estimate", "At cost from the Works' own dams."),
+    ("coal_price", "Price of imported coal, delivered", 5.0, 6.0, "$/t", "Model estimate", "Australian and Japanese coal at San Francisco before 1914 was about $5–8/t (outside the texts)."),
+    ("dev_share", "Share of power investment financed by the Development Fund", 0.35, 0.35, "share", "OPEN",
+     "Canon: the Development Fund's power and industrial credit from 1880 (CR-020 B8). The finance workbook has no power line yet."),
+    ("roy_mill", "Royalty per kWh on the compact dams (Rock Island, the Works' dams)", 0.5, 0.5, "mills/kWh", "Model estimate",
+     "CR-051 S8 C2 sets the royalty, not its size. One mill = 0.1 cent."),
+    ("— Check bands —",),
+    ("kwh_max", "Highest believable electricity use per person", 4000, 4000, "kWh/person", "Model estimate",
+     "Norway, the world's highest, was about 2,500–3,000 kWh per person around 1930 (to verify); allowance for canon's early electrification."),
+    ("int_lo", "Energy per real $ against the US: lowest believable", 0.25, 0.25, "× US", "Model estimate", "Pacifica's physical industry (steel, vehicles, refining) is 15–30% of the US's while its real GDP is about two-thirds (finance), and hydro replaces fuel: energy per dollar falls well below the US."),
+    ("int_hi", "Energy per real $ against the US: highest believable", 1.3, 1.3, "× US", "Model estimate", ""),
+    ("cf_lo", "System capacity factor: lowest believable", 0.2, 0.2, "share", "Handoff §7, widened", "The handoff says 25%; US utilities ran at about 24% in 1902 (2.5 TWh on 1.2 GW, to verify), so 20% before 1910 is historical."),
+    ("cf_hi", "System capacity factor: highest believable", 0.6, 0.6, "share", "Handoff §7", ""),
+    ("capex_hi", "Power investment / GDP: highest believable", 0.04, 0.04, "share", "Model estimate", "US utilities invested about 0.8–1% of GDP a year in the 1920s (to verify)."),
+    ("veh_max", "Most motor vehicles per person", 0.5, 0.5, "per person", "Model estimate", "California had about one vehicle for every 2.8 people in 1929 (to verify)."),
+    ("df_max", "Most of the Development Fund's yearly investment that power can take", 0.6, 0.6, "share", "Model estimate", ""),
+    ("halls_grid_max", "Halls' power taken from the common grid: most allowed", 0.25, 0.25, "share of the halls' draw", "Model estimate",
+     "CR-051 says the halls need dedicated power; a quarter from the grid is the tolerance before the check fails."),
+]
+
+# ---------------------------------------------------------------- paths
+# key -> (label, unit, points {year: value}, basis, status)
+# Values between the given points are filled linearly; before the first point the first
+# value is used, after the last point the last value.
+P = {}
+
+
+def path(key, label, unit, points, basis, status="Model estimate"):
+    P[key] = (label, unit, points, basis, status)
+
+
+# households and buildings
+path("hh_size", "Persons per home", "persons", {1846: 5.5, 1900: 4.7, 1920: 4.3, 1932: 4.0},
+     "US averages: 5.6 (1850), 4.8 (1900), 4.3 (1920), 4.1 (1930) (census, to verify).")
+path("elec_home", "Homes with electricity", "share", {1880: 0, 1890: 0.01, 1900: 0.08, 1907: 0.2, 1913: 0.4, 1917: 0.55,
+     1920: 0.65, 1924: 0.78, 1927: 0.86, 1929: 0.9, 1932: 0.93},
+     "US 1930: 68% of homes (Construction Physics). Pacifica electrifies about a decade ahead (ledger L4, E10, E14).")
+path("kwh_home", "Electricity per electrified home", "kWh/yr", {1890: 150, 1900: 200, 1913: 300, 1920: 450, 1924: 600,
+     1927: 750, 1929: 850, 1932: 1000},
+     "US about 500 kWh in 1929; Ontario's cheap hydro gave far more (to verify). Cheap hydro brings electric cooking early.")
+path("kwh_comm", "Commerce and public lighting per person", "kWh/yr", {1885: 0, 1890: 3, 1900: 25, 1913: 80, 1920: 130,
+     1927: 190, 1929: 210, 1932: 200}, "US 1929 about 135 kWh per person for commercial and street lighting (to verify).")
+path("gj_home", "Heat for heating and cooking per home", "GJ/yr", {1846: 70, 1880: 60, 1900: 55, 1913: 50, 1920: 45, 1929: 40, 1932: 40},
+     "Mild coast, cold interior (Utah, Idaho, Washington). Lower than the US average.")
+path("gj_comm", "Heat for commerce per person", "GJ/yr", {1846: 1, 1900: 3, 1913: 5, 1929: 6, 1932: 6}, "")
+path("lamp_bbl", "Lamp oil per home", "bbl/yr", {1846: 0, 1860: 0.1, 1870: 0.5, 1880: 1.0, 1890: 1.2, 1900: 1.0, 1913: 0.4,
+     1920: 0.15, 1929: 0.05, 1932: 0.04}, "Kerosene lighting until the wire arrives.")
+path("bld_wood", "Buildings' heat: wood", "share", {1846: 1.0, 1880: 0.85, 1900: 0.6, 1913: 0.4, 1920: 0.3, 1929: 0.2, 1932: 0.18}, "")
+path("bld_gas", "Buildings' heat: gas", "share", {1846: 0, 1900: 0.02, 1913: 0.1, 1920: 0.15, 1929: 0.25, 1932: 0.27},
+     "Oilfield gas piped to Los Angeles from 1913 and San Francisco from 1929 historically (to verify); earlier here.")
+path("bld_oil", "Buildings' heat: oil", "share", {1846: 0, 1880: 0.1, 1900: 0.2, 1913: 0.25, 1920: 0.25, 1929: 0.22, 1932: 0.21},
+     "Coal is the remainder.")
+# industry
+path("fact_elec", "Factory horsepower on electric drive", "share", {1885: 0, 1890: 0.01, 1900: 0.08, 1907: 0.2, 1913: 0.38,
+     1917: 0.5, 1920: 0.6, 1924: 0.72, 1927: 0.8, 1929: 0.84, 1932: 0.88},
+     "US 1909 25%, 1919 55%, 1929 78% (Devine 1983, to verify); Pacifica a few years ahead.")
+path("ind_mj", "Industrial fuel (not electricity, not steel) per 1913 $ of real GDP", "MJ/$", {1846: 40, 1880: 60, 1900: 72,
+     1913: 65, 1920: 60, 1929: 50, 1932: 48},
+     "Process heat and steam. Below the US because Pacifica's output leans to services, champions and electrified plant.")
+path("ind_oil", "Industrial fuel: oil", "share", {1846: 0, 1880: 0.05, 1890: 0.3, 1900: 0.55, 1913: 0.6, 1920: 0.55, 1929: 0.45, 1932: 0.45}, "")
+path("ind_gas", "Industrial fuel: gas", "share", {1846: 0, 1900: 0.02, 1913: 0.06, 1920: 0.09, 1929: 0.15, 1932: 0.16}, "Wanted; limited by the oilfield gas actually marketed (Fuels).")
+path("ind_wood", "Industrial fuel: wood", "share", {1846: 0.9, 1870: 0.7, 1880: 0.5, 1890: 0.2, 1900: 0.08, 1913: 0.03, 1920: 0.02, 1932: 0.01},
+     "Coal is the remainder.")
+path("steel_gj", "Fuel per tonne of steel (coke and coal)", "GJ/t", {1846: 45, 1900: 38, 1913: 32, 1920: 30, 1929: 26, 1932: 25}, "")
+path("mine_int", "Electricity in mining and smelting per 1913 $m of metal and gold output", "GWh per $m", {1885: 0, 1890: 0.5,
+     1900: 3, 1913: 8, 1920: 11, 1929: 15, 1932: 15}, "Comstock pumps and hoists, copper concentrators, gold dredges, cyanidation (K7).")
+# electrochemistry (thousand tonnes)
+path("alu_kt", "Aluminium, all smelters", "kt", {1888: 0, 1890: 0, 1895: 0.3, 1900: 2, 1907: 6, 1913: 22, 1917: 45, 1920: 50,
+     1922: 55, 1924: 75, 1927: 115, 1929: 140, 1930: 120, 1932: 70},
+     "US 1913 about 22 kt, 1929 about 100 kt (to verify). Canon's aluminium champion (CR-020 B9).")
+path("alu_col", "Aluminium on the Columbia (incl. Wenatchee)", "kt", {1900: 0, 1907: 1, 1913: 6, 1920: 15, 1923: 20, 1924: 30,
+     1927: 45, 1929: 55, 1932: 30}, "Ledger K9: the cluster is on Sierra and Columbia power.")
+path("alu_wen", "… of which Wenatchee smelter (Rock Island)", "kt", {1922: 0, 1923: 0, 1924: 8, 1925: 12, 1927: 15, 1929: 18, 1932: 10},
+     "CR-051 S7: the smelter takes most of Rock Island's output.")
+path("alu_hilo", "Aluminium at Hilo (Keawe)", "kt", {1924: 0, 1925: 4, 1927: 12, 1929: 18, 1932: 10}, "Ledger I13, L14: built 1923–27.")
+path("alu_mwh", "Electricity per tonne of aluminium", "MWh/t", {1888: 40, 1900: 32, 1913: 27, 1920: 25, 1929: 22, 1932: 21},
+     "Hall–Héroult cells: about 30+ MWh/t before 1900, 22–25 MWh/t in the 1920s (to verify).")
+path("arc_kt", "Nitrogen fixed in the arc", "kt N", {1906: 0, 1908: 1, 1913: 8, 1914: 12, 1915: 25, 1916: 38, 1917: 48, 1918: 50,
+     1919: 30, 1920: 22, 1924: 24, 1927: 22, 1928: 15, 1929: 8, 1930: 0},
+     "Ledger K11 and CR-051 R1: the war's nitrogen; about 250 MW freed for the halls in 1919–20. Arc ends 1928–29 as in Norway (OPEN).")
+path("haber_kt", "Nitrogen fixed by Haber–Bosch", "kt N", {1924: 0, 1925: 2, 1927: 15, 1929: 45, 1932: 55},
+     "With the seized German patents (canon O4). Handoff §8: OPEN.")
+path("carb_kt", "Calcium carbide (and cyanamide)", "kt", {1892: 0, 1895: 2, 1900: 15, 1913: 50, 1920: 90, 1927: 140, 1929: 160, 1932: 100}, "Ledger K9.")
+path("chlor_kt", "Chlorine and caustic", "kt Cl2", {1895: 0, 1900: 2, 1913: 20, 1920: 50, 1929: 110, 1932: 90}, "Ledger K9.")
+path("esteel", "Electric-furnace steel as a share of steel output", "share", {1907: 0, 1913: 0.01, 1917: 0.05, 1920: 0.05, 1929: 0.08, 1932: 0.08}, "")
+path("abras_kt", "Carborundum and furnace graphite", "kt", {1895: 0, 1900: 1, 1913: 6, 1920: 15, 1929: 30, 1932: 25},
+     "Ledger K9; the Works' graphite (CR-049, CR-051 M5).")
+# transport
+path("rail_kwh", "Streetcars and interurbans per person", "kWh/yr", {1888: 0, 1890: 2, 1900: 25, 1907: 60, 1913: 90, 1920: 110,
+     1924: 110, 1929: 100, 1932: 90}, "US about 60 kWh per person in 1929 (to verify); the Pacific coast's interurbans (Pacific Electric, Key System) were dense.")
+path("rail_gj", "Railways' fuel per person, before electrification", "GJ/yr", {1846: 0, 1860: 0.5, 1870: 4, 1880: 10, 1890: 18, 1900: 24, 1913: 26, 1920: 26,
+     1924: 24, 1929: 20, 1932: 17}, "US railways burned about 30 GJ per person around 1920 (to verify); oil firing is about a fifth more efficient.")
+path("rail_el", "Railway traffic on electric main lines", "share", {1846: 0, 1912: 0, 1915: 0.01, 1920: 0.05, 1925: 0.15, 1929: 0.25, 1932: 0.3},
+     "Used only if mainline_on = 1. Mountain crossings (Sierra, Cascades, Tehachapi) first.", "PROPOSED (CR-052)")
+path("rail_oil", "Steam railways: oil", "share", {1846: 0, 1876: 0, 1880: 0.05, 1890: 0.4, 1900: 0.7, 1913: 0.8, 1929: 0.85, 1932: 0.85},
+     "The Pacific coast railways burned oil historically from about 1895; here from the 1876 programme.")
+path("rail_wood", "Steam railways: wood", "share", {1846: 1, 1860: 0.9, 1870: 0.6, 1880: 0.3, 1890: 0.05, 1900: 0}, "Coal is the remainder.")
+path("gal_veh", "Motor fuel per vehicle on the road (cars, trucks, tractors)", "bbl/yr", {1900: 4, 1913: 9, 1920: 11, 1929: 13, 1932: 12},
+     "US about 14 bbl per vehicle in 1929 (to verify).")
+path("bunker", "Merchant bunkers taken at home ports", "m bbl", {1880: 0, 1890: 0.5, 1900: 4, 1913: 15, 1920: 28, 1929: 38, 1932: 32},
+     "Pacific shipping on oil; the trust's bunkers sold in Asia are in the finance workbook's Asian sales.")
+path("navy_coal", "Navy coal (before oil firing)", "Mt", {1852: 0, 1860: 0.02, 1880: 0.15, 1895: 0.3, 1905: 0.1, 1915: 0},
+     "CR-020 B1: coal cruisers 1852–1887.")
+path("pump_acres", "Irrigated land watered by electric pumps", "m acres", {1890: 0, 1900: 0.02, 1907: 0.2, 1913: 0.8, 1920: 1.4,
+     1927: 2.2, 1929: 2.6, 1932: 2.8}, "Central Valley, Imperial and Columbia basin.")
+path("sugar_kt", "Hawaiian sugar (bagasse burned in the mills)", "kt", {1846: 1, 1860: 1, 1880: 30, 1900: 300, 1913: 550, 1929: 900, 1932: 1000},
+     "Historical Hawaii output (to verify); about 24 GJ of bagasse per tonne of sugar.")
+path("hawaii", "Hawaii's share of ordinary electricity use", "share", {1846: 0.03, 1900: 0.02, 1913: 0.015, 1929: 0.012, 1932: 0.012},
+     "Hawaii's 1930 population (368,000) against the Realm's.")
+# electricity system
+path("loss", "Transmission and distribution losses", "share", {1885: 0.25, 1900: 0.22, 1913: 0.17, 1920: 0.15, 1929: 0.12, 1932: 0.12},
+     "Early high voltage in canon (E10, E14); US utilities lost about 12–15% in the 1920s (to verify).")
+path("sys_lf", "Load factor of ordinary demand", "share", {1885: 0.25, 1900: 0.3, 1913: 0.38, 1920: 0.42, 1929: 0.45, 1932: 0.42}, "")
+path("heat_rate", "Steam plant heat rate", "MJ/kWh", {1880: 60, 1890: 45, 1900: 32, 1913: 24, 1920: 20, 1925: 17, 1929: 15, 1932: 14.5},
+     "US average 1930 about 1.6 lb of coal per kWh, about 22 MJ/kWh (to verify); Pacifica's turbines (L3) run ahead.")
+path("th_oil", "Steam plant fuel: oil", "share", {1880: 0.05, 1885: 0.1, 1895: 0.6, 1900: 0.75, 1913: 0.8, 1920: 0.72, 1929: 0.55, 1932: 0.52}, "")
+path("th_gas", "Steam plant fuel: gas", "share", {1880: 0, 1900: 0, 1913: 0.04, 1920: 0.08, 1929: 0.18, 1932: 0.2}, "Coal is the remainder. Oil and gas shares are wanted shares; where oil runs short the Fuels sheet moves the rest to coal.")
+path("el_price", "Average price of electricity", "1913 cents/kWh", {1885: 25, 1890: 15, 1900: 6, 1913: 3.0, 1920: 2.0, 1929: 1.4, 1932: 1.4},
+     "US average revenue about 2.7 cents (current) in 1929, about 1.6 cents in 1913 money (to verify); Pacifica's hydro is cheaper.")
+# hydro by basin (MW nameplate, Story)
+path("h_sierra", "Hydro: Sierra west slope (Yuba, American, Mokelumne, Stanislaus, Tuolumne)", "MW", {1887: 0, 1888: 1, 1890: 15, 1895: 60, 1900: 150, 1907: 350, 1913: 750, 1917: 1000, 1920: 1200, 1924: 1600, 1927: 1900, 1929: 2100, 1932: 2300},
+     "PG&E had 67 MW of hydro in 1911 (Electrical World 1912). Canon's Sierra polyphase lines from 1888 (L4).")
+path("h_pit", "Hydro: Pit and Feather (ordinary)", "MW", {1895: 0, 1900: 30, 1907: 100, 1913: 250, 1917: 400, 1920: 500, 1924: 650, 1927: 800, 1929: 900, 1932: 1000}, "Historically Caribou (1921) and Pit 1 (1922).")
+path("h_sj", "Hydro: San Joaquin, Big Creek and Kern", "MW", {1895: 0, 1900: 40, 1907: 100, 1913: 300, 1917: 500, 1920: 650, 1924: 900, 1927: 1150, 1929: 1300, 1932: 1450}, "Historically Big Creek from 1913.")
+path("h_col", "Hydro: Columbia and Snake (ordinary)", "MW", {1888: 0, 1890: 2, 1900: 40, 1907: 120, 1913: 350, 1917: 550, 1920: 700, 1924: 950, 1927: 1200, 1929: 1350, 1932: 1500}, "Spokane Falls from 1885 historically; the Columbia's own stem from Rock Island (strategic).")
+path("h_wil", "Hydro: Willamette, Cascades and Puget Sound", "MW", {1888: 0, 1889: 1, 1895: 15, 1900: 60, 1907: 180, 1913: 450, 1917: 650, 1920: 800, 1924: 1100, 1927: 1400, 1929: 1600, 1932: 1800}, "Willamette Falls 1889 (canon E14); Snoqualmie 1899; Skagit 1924.")
+path("h_colo", "Hydro: Colorado (excluding Boulder)", "MW", {1900: 0, 1913: 10, 1920: 40, 1927: 100, 1929: 120, 1932: 140}, "")
+path("h_int", "Hydro: interior (Salt, Wasatch, Bear, upper Snake, Clark Fork)", "MW", {1890: 0, 1891: 2, 1900: 40, 1913: 200, 1920: 400, 1927: 650, 1932: 850}, "Ames (1891) on Pacifican ground (CR-049); Roosevelt Dam 1911.")
+path("h_haw", "Hydro: Hawaii (windward streams)", "MW", {1890: 0, 1900: 2, 1913: 10, 1920: 20, 1927: 40, 1932: 50}, "")
+path("h_works", "Hydro: the Works' dams on the Pit and upper Feather (CR-051 R2)", "MW", {1921: 0, 1922: 100, 1923: 220, 1924: 330,
+     1925: 430, 1926: 480, 1932: 500}, "CR-051 R2: about 400–500 MW by 1925–26.", "Canon (CR-051 R2)")
+path("h_rock", "Hydro: Rock Island (CR-051 S7)", "MW", {1922: 0, 1923: 120, 1925: 180, 1927: 210, 1932: 210},
+     "Historically 1930–33, about 80 MW at first and 212 MW by 1953 (to verify).", "Canon (CR-051 S7)")
+path("gas_yield", "Gasoline the home refineries can make from a barrel", "share", {1846: 0.1, 1900: 0.12, 1909: 0.18, 1913: 0.22,
+     1920: 0.3, 1929: 0.45, 1932: 0.46}, "Heavy California crude yields little straight-run gasoline; canon's cracking from about 1909 (ledger K13, L12). US 1929 about 42% (to verify).")
+# strategic
+path("halls_lo", "Halls' draw, low end (CR-051 M2)", "MW", {1919: 0, 1920: 150, 1921: 200, 1922: 300, 1923: 400, 1924: 500,
+     1925: 600, 1927: 600}, "CR-051 M2 table.", "Canon (CR-051 M2), MODEL")
+path("halls_hi", "Halls' draw, high end (CR-051 M2)", "MW", {1919: 0, 1920: 200, 1921: 300, 1922: 400, 1923: 520, 1924: 650,
+     1925: 800, 1927: 800}, "CR-051 M2 table.", "Canon (CR-051 M2), MODEL")
+path("station", "Columbia station's draw (CR-051 S7)", "MW", {1922: 0, 1923: 15, 1924: 25, 1925: 40, 1932: 40},
+     "\"Some tens of megawatts\" (S7): pumps, the separation plant, workshops and town.", "Canon (CR-051 S7), MODEL")
+path("hetch", "Walled college and Tuolumne Station (Hetch Hetchy)", "MW", {1910: 0, 1911: 2, 1913: 4, 1920: 6, 1932: 8},
+     "Low-power research installation and the valley; supplied from the Eleanor–Cherry system O'Shaughnessy builds (CR-051 C2).", "Canon (CR-050, CR-051), MODEL")
+path("canal_mw", "Canal locks and zone (memo, outside the Realm)", "MW", {1899: 0, 1900: 6, 1913: 15, 1932: 25},
+     "Gatun hydro served the locks historically (22.5 MW, to verify). Canal opened 1900 in canon.", "Memo")
+# oil fields and coal districts
+path("oil_cap", "Plausible output of the home oilfields", "m bbl", {1846: 0, 1876: 0.1, 1880: 0.5, 1890: 6, 1900: 30, 1907: 60,
+     1913: 115, 1920: 140, 1923: 300, 1929: 330, 1932: 330},
+     "Historical California plus canon's early discoveries: the 1876 programme finds Kern River, Coalinga and Midway–Sunset a decade early; "
+     "the Los Angeles basin giants (1919–21) as history.")
+path("oil_known", "Oil known to be recoverable in the home fields (cumulative)", "bn bbl", {1876: 0.01, 1890: 0.1, 1900: 0.5, 1910: 1.5,
+     1913: 2.0, 1920: 3.0, 1925: 4.5, 1929: 5.5, 1932: 6.0},
+     "California: about 3.0bn bbl produced by 1932 and about 3bn more proved then (to verify).")
+path("gor", "Gas produced with the oil", "thousand cf/bbl", {1890: 0.2, 1900: 0.3, 1913: 0.8, 1920: 1.0, 1929: 1.2, 1932: 1.2},
+     "California 1929: about 330 bcf with 292m bbl (to verify).")
+path("other_imp", "Oil the Realm can import from elsewhere (the Union, Peru, Russia)", "m bbl", {1846: 0, 1860: 0.2, 1880: 1.5,
+     1890: 3, 1900: 5, 1905: 3, 1913: 0, 1932: 0}, "Kerosene and fuel oil before Spindletop; historically California imported Pennsylvania kerosene and Peruvian oil (to verify).")
+path("coal_imp_cap", "Coal the Realm can import", "Mt", {1846: 0.05, 1860: 0.4, 1880: 2.5, 1890: 3.5, 1900: 4.5, 1913: 8, 1920: 9, 1929: 12, 1932: 12},
+     "British Columbia (Nanaimo), Australia (Newcastle), Japan, Keelung and Kaiping under partner contracts (canon §Industry). Japan mined about 34 Mt in 1929, Australia about 11 Mt, British Columbia about 2.5 Mt (to verify).")
+path("wood_cap", "Wood and mill waste the forests can give as fuel", "PJ", {1846: 20, 1870: 100, 1880: 180, 1900: 320, 1913: 380,
+     1920: 400, 1929: 420, 1932: 420}, "Sierra and Pacific Northwest forests; sawmill waste (hog fuel) fired much of the Northwest's industry (to verify). Used before imported coal.")
+path("gas_mkt", "Share of oilfield gas marketed", "share", {1890: 0, 1900: 0.1, 1913: 0.3, 1920: 0.45, 1929: 0.65, 1932: 0.7}, "The rest is flared or vented.")
+path("c_wa", "Coal: Washington (historical)", "Mt", {1870: 0, 1880: 0.2, 1890: 1.2, 1900: 2.2, 1913: 3.5, 1918: 3.7, 1932: 3.7},
+     "Roslyn and the Cascades; held at the historical peak, as capacity (to verify; short tons converted).")
+path("c_ut", "Coal: Utah (historical)", "Mt", {1870: 0, 1880: 0.1, 1890: 0.3, 1900: 1.0, 1913: 2.9, 1920: 5.4, 1932: 5.4}, "Carbon County (to verify).")
+path("c_nm", "Coal: New Mexico (historical)", "Mt", {1870: 0, 1880: 0.2, 1890: 0.4, 1900: 1.2, 1913: 3.4, 1920: 3.3, 1932: 3.4}, "Raton and Gallup (to verify).")
+path("c_wy", "Coal: Rock Springs and Kemmerer, Wyoming west of the divide (historical)", "Mt", {1868: 0, 1870: 0.1, 1880: 0.5, 1890: 1.2, 1900: 2.2, 1913: 4.0, 1920: 5.0, 1932: 5.0}, "About 55% of Wyoming's output (to verify).")
+
+PATHS = P
+
+# ---------------------------------------------------------------- anchors used in formulas
+# Interpolation table for the US comparison (a complete row is needed for each series).
+US_YEARS = [1880, 1890, 1900, 1902, 1907, 1912, 1917, 1920, 1922, 1925, 1927, 1929, 1930, 1932]
+_E1 = {1880: 5.001, 1885: 5.645, 1890: 7.012, 1895: 7.661, 1900: 9.587, 1905: 13.212, 1910: 16.565, 1915: 17.734,
+       1920: 21.344, 1925: 22.382, 1930: 23.68, 1935: 20.436}
+
+
+def _lin(d, y):
+    ks = sorted(d)
+    if y in d:
+        return d[y]
+    lo = max(k for k in ks if k < y)
+    hi = min(k for k in ks if k > y)
+    return d[lo] + (y - lo) * (d[hi] - d[lo]) / (hi - lo)
+
+
+US_SERIES = [
+    # key, label, unit, values by US_YEARS, source, status
+    ("us_pop", "US population", "m", [50.19, 62.98, 76.09, 79.16, 87.01, 95.34, 103.27, 106.46, 110.05, 115.83, 119.04, 121.77, 123.08, 124.84],
+     "Historical Statistics of the United States, series A 7 (mid-year estimates)", "TO VERIFY"),
+    ("us_cap", "US electric utilities: generating capacity", "GW", [0, 0, 0, 1.21, 2.71, 5.17, 8.99, 12.71, 14.19, 21.47, 25.6, 29.8, 32.38, 34.38],
+     "Census of Electrical Industries (1902–1927) and FPC series in Historical Statistics S 49–69; 1880–1900 not reported", "TO VERIFY"),
+    ("us_gen", "US electricity produced, utilities and industry", "TWh", [0, 0, 0, 5.97, 14.12, 24.75, 43.43, 56.56, 61.2, 84.67, 101.39, 116.75, 114.64, 99.36],
+     "Historical Statistics S 15 (total electric energy production); 1930 checks against Construction Physics' 114 TWh", "TO VERIFY (1930 VERIFIED)"),
+    ("us_energy", "US primary energy consumption", "quadrillion Btu", [round(_lin(_E1, y), 3) for y in US_YEARS],
+     "EIA Annual Energy Review, Table E1 (from Schurr and Netschert 1960, Table II); years between the five-year values interpolated", "VERIFIED"),
+]
+
+# ---------------------------------------------------------------- anchor facts (long list)
+# region, series, unit, year, value, source, status
+ANCHOR_FACTS = [
+    ("US", "Primary energy, total", "quadrillion Btu", y, v, "EIA AER Table E1 (Schurr & Netschert, Table II)", "VERIFIED") for y, v in sorted(_E1.items())
+] + [
+    ("US", "Primary energy: coal", "quadrillion Btu", 1900, 6.841, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Primary energy: wood", "quadrillion Btu", 1900, 2.015, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Primary energy: petroleum", "quadrillion Btu", 1920, 2.676, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Primary energy: hydro (fossil-fuel equivalent)", "quadrillion Btu", 1920, 0.738, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Primary energy: coal", "quadrillion Btu", 1930, 13.639, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Primary energy: petroleum", "quadrillion Btu", 1930, 5.897, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Primary energy: natural gas", "quadrillion Btu", 1930, 1.932, "EIA AER Table E1", "VERIFIED"),
+    ("US", "Electricity produced (utility-provided)", "TWh", 1930, 114, "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
+    ("US", "Generation mix: coal / hydro", "share", 1930, "56% / 34%", "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
+    ("US", "Homes with electricity (all / urban)", "share", 1930, "68% / 84%", "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
+    ("US", "Farms with utility power", "share", 1935, "12%", "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
+    ("US", "Utility generating capacity", "GW", 1920, 12.7, "Historical Statistics S; used in CR-051 power check", "TO VERIFY"),
+    ("US", "Utility generating capacity", "GW", 1925, 21.5, "Historical Statistics S; used in CR-051 power check", "TO VERIFY"),
+    ("US", "Utility generating capacity", "GW", 1930, 32.4, "Historical Statistics S; used in CR-051 power check", "TO VERIFY"),
+    ("US", "Central-station electricity", "TWh", 1902, 2.507, "Census of Electrical Industries 1902", "TO VERIFY"),
+    ("US", "Factory horsepower on electric drive", "share", 1909, 0.25, "Devine (1983), J. Econ. Hist. 43", "TO VERIFY"),
+    ("US", "Factory horsepower on electric drive", "share", 1919, 0.55, "Devine (1983)", "TO VERIFY"),
+    ("US", "Factory horsepower on electric drive", "share", 1929, 0.78, "Devine (1983)", "TO VERIFY"),
+    ("US", "Utility fuel per kWh", "lb coal/kWh", 1920, 3.05, "Historical Statistics S (EEI)", "TO VERIFY"),
+    ("US", "Utility fuel per kWh", "lb coal/kWh", 1930, 1.62, "Historical Statistics S (EEI)", "TO VERIFY"),
+    ("US", "Motor vehicle registrations", "m", 1913, 1.26, "Historical Statistics Q 148", "TO VERIFY"),
+    ("US", "Motor vehicle registrations", "m", 1920, 9.24, "Historical Statistics Q 148", "TO VERIFY"),
+    ("US", "Motor vehicle registrations", "m", 1929, 26.7, "Historical Statistics Q 148", "TO VERIFY"),
+    ("US", "Crude oil output", "m bbl", 1900, 63.6, "Mineral Resources of the US / Minerals Yearbook", "TO VERIFY"),
+    ("US", "Crude oil output", "m bbl", 1913, 248.4, "Mineral Resources of the US", "TO VERIFY"),
+    ("US", "Crude oil output", "m bbl", 1920, 442.9, "Mineral Resources of the US", "TO VERIFY"),
+    ("US", "Crude oil output", "m bbl", 1929, 1007.3, "Minerals Yearbook", "TO VERIFY"),
+    ("US", "Oak Ridge power allocation (Y-12 of the total)", "MW", 1945, "200 of 310", "Wikipedia, 'Clinton Engineer Works' (CR-051 power check)", "CARRIED"),
+    ("California", "Crude oil output", "m bbl", 1895, 1.2, "Wikipedia, 'History of oil in California through 1930'", "VERIFIED"),
+    ("California", "Crude oil output", "m bbl", 1900, 4.0, "Wikipedia, 'History of oil in California through 1930' (USGS: 4.3)", "VERIFIED"),
+    ("California", "Crude oil output", "m bbl", 1910, 73.0, "Mineral Resources of the US", "TO VERIFY"),
+    ("California", "Crude oil output", "m bbl", 1913, 97.8, "Mineral Resources of the US", "TO VERIFY"),
+    ("California", "Crude oil output", "m bbl", 1920, 103.4, "Mineral Resources of the US (Wikipedia gives 77; conflict to resolve)", "TO VERIFY"),
+    ("California", "Crude oil output", "m bbl", 1923, 262.9, "Mineral Resources of the US", "TO VERIFY"),
+    ("California", "Crude oil output", "m bbl", 1929, 292.5, "Minerals Yearbook", "TO VERIFY"),
+    ("California", "Crude oil output", "m bbl", 1932, 178.1, "Minerals Yearbook", "TO VERIFY"),
+    ("California", "Hydroelectric output", "TWh", 1922, 3.227, "Geiger (1923), quoting the USGS (CR-051 power check)", "CARRIED"),
+    ("California", "PG&E capacity (hydro 66.8 MW, steam about 71.8 MW)", "MW", 1911, 140, "Electrical World (1912) (CR-051 power check)", "CARRIED"),
+    ("Pacific NW", "Coal output, Washington", "Mt", 1913, 3.5, "Mineral Resources of the US", "TO VERIFY"),
+    ("Mountain", "Coal output, Utah", "Mt", 1920, 5.4, "Mineral Resources of the US", "TO VERIFY"),
+    ("Norway", "Electricity per person", "kWh", 1930, "about 2,500–3,000", "Statistics Norway historical tables (to download)", "TO VERIFY"),
+    ("Canada", "Central-station electricity", "TWh", 1930, 18.1, "Dominion Bureau of Statistics (to download)", "TO VERIFY"),
+    ("Switzerland", "Electricity produced", "TWh", 1930, "about 5", "Swiss historical statistics (to download)", "TO VERIFY"),
+    ("Units", "Crude oil", "GJ/bbl", None, 6.12, "EIA: 5.8 million Btu per barrel", "VERIFIED (standard)"),
+    ("Units", "Motor gasoline", "GJ/bbl", None, 5.54, "EIA: 5.253 million Btu per barrel", "VERIFIED (standard)"),
+    ("Units", "Residual fuel oil", "GJ/bbl", None, 6.63, "EIA: 6.287 million Btu per barrel", "VERIFIED (standard)"),
+    ("Units", "Kerosene", "GJ/bbl", None, 5.98, "EIA: 5.670 million Btu per barrel", "VERIFIED (standard)"),
+    ("Units", "Natural gas", "MJ/cf", None, 1.087, "EIA: about 1,030 Btu per cubic foot", "VERIFIED (standard)"),
+    ("Units", "Tonne of oil equivalent", "GJ", None, 41.868, "IEA convention", "VERIFIED (standard)"),
+]
+
+# ---------------------------------------------------------------- events
+# year, event, where it shows, section/CR, status
+EVENTS = [
+    (1876, "Oil programme after Pico Canyon; fuel-oil experiments", "Fuels (oil fields), Uses (railways)", "§Industry; CR-020 B1", "CANON"),
+    (1882, "Oil-fired torpedo boats", "Fuels (navy oil from finance)", "CR-020 B1", "CANON"),
+    (1884, "Tesla and the electrical institute (1884–86)", "Paths (electrification shares)", "Ledger L4", "CANON"),
+    (1885, "Turbine programme", "Paths (heat rate)", "Ledger L3; CR-020 B1", "CANON"),
+    (1888, "Polyphase transmission in the Sierra", "Hydro (Sierra west slope)", "Ledger E10, L4", "CANON"),
+    (1889, "Willamette Falls transmission", "Hydro (Willamette)", "Ledger E14", "CANON"),
+    (1891, "Ames plant near Telluride, on Pacifican ground", "Hydro (interior)", "CR-049", "CANON"),
+    (1892, "Electrochemistry on cheap power: carbide, carborundum, chlor-alkali (1891–94)", "Uses (electrochemistry)", "Ledger K9", "CANON"),
+    (1900, "Lock-and-lake canal opens (Gatun)", "Strategic loads (memo)", "Canon; CR-051 C1", "CANON"),
+    (1901, "Spindletop; the trust refines Gulf crude", "Fuels (Gulf imports)", "Ledger K12; CR-020 B9", "CANON"),
+    (1908, "Arc nitrogen licensed from Norway", "Uses (arc nitrogen)", "Ledger K11", "CANON (date MODEL)"),
+    (1909, "Pacifican thermal cracking (or Shukhov licence)", "Fuels (gasoline yield)", "Ledger K13, L12", "PROGRAMME"),
+    (1911, "Moving assembly line; walled college in the valley", "Fuels (vehicles); Strategic loads", "Ledger M10; CR-050", "CANON"),
+    (1913, "Research installation in the valley", "Strategic loads (Hetch Hetchy)", "CR-050 X6", "CANON"),
+    (1914, "War with Germany: munitions and the arc plants' peak (1914–18)", "Uses (arc nitrogen)", "CR-040; CR-051 R1", "CANON"),
+    (1917, "Halls decided", "Strategic loads", "CR-050; CR-051 M2", "CANON"),
+    (1919, "First halls on the arc plants' power", "Strategic loads (freed arc power)", "CR-051 R1", "APPROVED"),
+    (1920, "Works' dams on the Pit and upper Feather begun", "Hydro (Works)", "CR-051 R2", "APPROVED; consent OPEN"),
+    (1920, "Rock Island dam begun (1920–23); Columbia station and compacts", "Hydro (Rock Island); Strategic loads", "CR-051 S7, S8", "APPROVED"),
+    (1923, "Columbia station runs; Wenatchee smelter", "Strategic loads", "CR-051 S7", "APPROVED"),
+    (1923, "Hilo aluminium built (1923–27)", "Strategic loads (Hilo)", "Ledger I13, L14", "CANON; power OPEN"),
+    (1924, "Desert test; halls at 500–650 MW", "Strategic loads", "CR-050; CR-051 M2", "APPROVED"),
+    (1925, "Halls at full size, 600–800 MW (1925–27)", "Strategic loads", "CR-051 M2", "APPROVED (MODEL)"),
+    (1927, "Demonstration at sea; the Concord", "Strategic loads", "CR-049, CR-050", "CANON"),
+    (1928, "Boulder Canyon decision (historical date)", "Hydro (Boulder)", "Handoff §8", "OPEN"),
+    (1929, "Motor vehicles: 1.15m built a year", "Fuels (vehicle stock)", "CR-020 B9", "CANON"),
+    (1931, "Tokyo atomic station first power; Pacifican stations follow", "Electricity (atomic, from finance)", "CR-050", "CANON"),
+    (1932, "Oil compact with the Gulf", "Fuels (finance oil output)", "CR-020 B6", "CANON"),
+]
