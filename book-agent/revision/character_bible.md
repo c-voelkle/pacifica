@@ -74,6 +74,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **APPROVED — CR-049:** No longer Regent when fission is read in 1908, she keeps her influence on the atom through Hillebrand and the Light and Matter Works; the decision belongs to Julian, and it is where they begin to drift apart. OPEN: how the drift plays out.
 
+**APPROVED — CR-050:** Hillebrand tells her first, in December 1908; she says to publish once it is verified. Arguing from Elias's memorandum that a withheld account robs as surely as a falsified one, she loses to Julian and accepts the seal only with a twenty-year term written into the deposit. When Hahn publishes in 1920 she demands the opening and is held to her own term: with Siberia, the second cause of the break of 1921. She recognises in the seal, whose rules live in the estates' contracts beyond the Senate's reach, the form of power she struggled to contain in Elias.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -123,6 +125,8 @@ In 1931 he uses oil, transport and gold leverage against the Manchurian plot. Th
 **CR-029–CR-031, current scope:** The Philippine Cortes offers a separate Philippine crown in 1907 and a plebiscite confirms its signed terms. In December 1907 he swears before the Cortes at Manila and is proclaimed under the standard, without episcopal coronation. The full formula Sovereign of Pacifica, Mōʻī of Hawaiʻi and Rey de Filipinas remains explicitly PROPOSED in the detailed CR-029 passage, although the supplied synopsis and Concord passage use it. His three crowns constitute one party opposite Japan in the Concord. Ka Lōkahi is the three-crown council, one vote each, with ten-year reviews of agreed matters; Hayama's two-crown Council and five-year Concord executive term are different institutions. In 1927 Ka Lōkahi’s second review agrees that Japan joins; its vote binds the Hawaiian and Philippine crowns but cannot cure the Realm’s want of Senate consent (CR-040). His Harbin victory leaves a Siberian ally, Japanese-protected Kamchatka, a Transbaikalian protectorate and Chinese rights, rather than one incorporated empire. Under the PROPOSED Kamchatka Company mechanism, Pacifican shareholding and Korean employment arrangements participate in development by professional contractors and directly managed, paid crews. CR-031-R1 removes the labour-camp complicity formerly attributed to his order; Japan and Pacifica have already developed and competed over efficient construction methods for decades. This does not imply that Hirohito knows the Altai secret.
 
 **APPROVED — CR-049:** Fission (1908) and the chain (1909) come in his first years, and the decision about them is his; it is where he and Victoria begin to drift apart. He never approves a false paper. He treats the moment as an opportunity that comes once and has Pacifica mine and buy as much uranium as it can: Joachimsthal through the 1909 Bosnian loan, Shinkolobwe with Ruanda-Urundi for Belgium at The Hague, Fergana alongside the Emba concession. The first device is tested in secret in the desert about 1920, never on Hawaiian reefs; in 1927 the demonstration at sea completes Britain's retreat and solidifies the Concord, and an atomic station lights Tokyo as the emblem of the friendship with Japan. PROPOSED: his motives for a peacetime industry (fear of what Europe will make of the physics, teeth for his peace, an industry that pays its way). OPEN: the secrecy settlement and whether the 1908 paper is published.
+
+**APPROVED — CR-050:** Home from Europe after the Bosnian crisis, he sanctions the seal in 1909 against Victoria's argument: nothing false will be printed, the account is kept and will be opened, and a small chance of Europe building it first is not small if it ends the commonwealth. He holds one of its two keys, refuses Victoria's demand to open it in 1920, visits the dying Hillebrand in Honolulu in 1925 to tell him the year of the opening, and opens it with Vance at the demonstration of 1927, a year inside her term. He announces there that the Works will light Tokyo; the station opens on 29 April 1932. The desert test moves to about 1923–1924.
 
 ### CT-CALEB — Caleb Vance
 **Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Autumn 1887 Donner Pass standoff, with no civil war under CR-016. CR-022 resolves the shooter: Silas aims at Soberanes and Caleb dies in his place.
@@ -232,6 +236,8 @@ Ralston contributes to the second undertaking by connecting private credit, mini
 The historical Bank of California was founded in 1864. Earlier fictional activity belongs to his developing commercial career unless a different institutional chronology is expressly chosen. His firm is not automatically a central bank or owner of public gold. Postwar credit can support mines, workshops and Crocker's transport projects, increasing both productivity and financial concentration. A banking failure, rescue, monopoly or repetition of his historical fate is not approved by this role.
 
 **Proposed dramatic interest:** Expand profitable influence while managing a dependence on public confidence that neither he nor Thorne fully controls. **Open:** Firms, partners, capital, reserves, guarantees, security, rates, loans, public oversight, crises and later fate.
+
+**APPROVED — CR-050-R1:** The private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith bears his name as its chief founder. His fortune is the Comstock's silver, so Carquinez, built on the gold royalty, and Ralston College become Pacifica's colleges of gold and silver. His later fate stays open.
 
 ### CT-KELLY — William Kelly, experimental metallurgist
 **Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.
@@ -779,7 +785,7 @@ Historical persons in alternate careers. Their historical biographies and source
 ### CT-JAMES-SYLVESTER — James Joseph Sylvester, mathematician
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** Second in Cambridge's mathematics examination of 1837 but barred from a degree because he would not sign the Church of England's articles; after ten years as an actuary he takes a Polytechnic chair in 1855 instead of Woolwich, founds mathematics and actuarial science, and from 1866 teaches at Yerba Buena College. His case becomes an argument in Britain's debate over religious tests. **Open:** scenes, students and private life.
+**APPROVED — CR-036:** Second in Cambridge's mathematics examination of 1837 but barred from a degree because he would not sign the Church of England's articles; after ten years as an actuary he takes a Polytechnic chair in 1855 instead of Woolwich, founds mathematics and actuarial science, and from 1866 teaches at Ralston College. His case becomes an argument in Britain's debate over religious tests. **Open:** scenes, students and private life.
 
 **APPROVED — CR-049:** Proposes the Calculation Office in 1855, bringing Babbage's notation and Menabrea's and Lovelace's account of the Analytical Engine. PROPOSED: in 1856 he offers the young Charles Peirce a place at Carquinez.
 
@@ -791,7 +797,7 @@ Historical persons in alternate careers. Their historical biographies and source
 ### CT-FERDINAND-COHN — Ferdinand Cohn, microbiologist
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** Kept waiting a year at Breslau before he might take the oath to teach; comes in 1858 to the Methodists' medical college to study microscopic life and moves to Yerba Buena College in 1866. He spots Koch's microscope work and has the Polytechnic give him a laboratory (PROPOSED). **Open:** scenes and private life.
+**APPROVED — CR-036:** Kept waiting a year at Breslau before he might take the oath to teach; comes in 1858 to the Methodists' medical college to study microscopic life and moves to Ralston College in 1866. He spots Koch's microscope work and has the Polytechnic give him a laboratory (PROPOSED). **Open:** scenes and private life.
 
 ### CT-ROBERT-KOCH — Robert Koch, bacteriologist
 **Status:** Historical person in alternate history (CR-036).
@@ -806,14 +812,14 @@ Historical persons in alternate careers. Their historical biographies and source
 ### CT-ALBERT-MICHELSON — Albert Michelson, physicist
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** A Prussian Jewish merchant's son who grows up at the gold camp at Murphys and at Virginia City, sits the Polytechnic's examination at fourteen, and from 1878 measures the speed of light at Yerba Buena College. In 1887 he and Morley find no ether wind. Nobel prize 1907, as a Pacifican (PROPOSED). **Open:** family and scenes.
+**APPROVED — CR-036:** A Prussian Jewish merchant's son who grows up at the gold camp at Murphys and at Virginia City, sits the Polytechnic's examination at fourteen, and from 1878 measures the speed of light at Ralston College. In 1887 he and Morley find no ether wind. Nobel prize 1907, as a Pacifican (PROPOSED). **Open:** family and scenes.
 
-**APPROVED — CR-049:** With Goldstein he announces the electron in 1879. His Yerba Buena laboratory builds the single-particle counter in 1885–1887 and lends Nagaoka the valve-amplified counter with which Yerba Buena announces the neutron in 1899.
+**APPROVED — CR-049:** With Goldstein he announces the electron in 1879. His Ralston College laboratory builds the single-particle counter in 1885–1887 and lends Nagaoka the valve-amplified counter with which Ralston College announces the neutron in 1899.
 
 ### CT-EDWARD-MORLEY — Edward Morley, chemist
 **Status:** Historical person in alternate history (CR-036).
 
-**APPROVED — CR-036:** Born in New Jersey in 1838 and trained for the Congregational ministry, he comes west in 1868 to a chemistry chair at Yerba Buena College for the laboratory and the pay, as many of his generation of American graduates do. Michelson's partner in the ether experiment of 1887. **Open:** scenes and private life.
+**APPROVED — CR-036:** Born in New Jersey in 1838 and trained for the Congregational ministry, he comes west in 1868 to a chemistry chair at Ralston College for the laboratory and the pay, as many of his generation of American graduates do. Michelson's partner in the ether experiment of 1887. **Open:** scenes and private life.
 
 **APPROVED — CR-049:** Confirms atomic transformation in 1872, measures the heat of the barium-borne salt in 1877, settles the oxygen–hydrogen ratio in 1884–1885 and finds helium's mass deficit in 1886, which he and Peirce conjecture is radium's heat without being able to say why.
 
@@ -919,11 +925,15 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 
 **APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.
 
+**APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; his successor is OPEN.
+
 ### CT-STEINMETZ — Charles Steinmetz
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
 
 
 **PROPOSED — CR-027:** Later successor to the Five’s power seat; his 1889 arrival remains independently approved.
+
+**APPROVED — CR-050:** He builds the magnet halls' electrical supply.
 
 ### CT-BAEKELAND — Leo Baekeland
 **Status:** Historical person redirected to Polytechnic chemistry in 1889 under CR-020 B9/E11. Photographic paper and the later plastics programme connect the university to film and chemicals; Bakelite in 1907 is the approved programme's named milestone. **Open:** Appointment, patent agreements, collaborators, private motives and changed later career.
@@ -1022,6 +1032,8 @@ PROPOSED — CR-027 A22/B6, as amended by CR-049: punched cards tabulate Noe’s
 
 PROPOSED — CR-027 A22/B6: Press and image seat in 1887, with the Examiner and six-language weekly. He wants spectacle but must print the Office’s tables unchanged. He may dramatize Union failures. The role, nickname and proposed interactions remain proposals; the seat’s publishing function is approved.
 
+**APPROVED — CR-050:** About 1919 one of his reporters notices how much Sierra power the new works draw. Hearst (his seat among the Five PROPOSED, CR-027) spikes the story, and it costs him with his own editors.
+
 ### CT-WKL-DICKSON — W. K. L. Dickson
 **Status:** proposed_five_collaborator (CR-027).
 
@@ -1044,7 +1056,7 @@ PROPOSED — CR-027 B6: A surname among possible later successors. Given name, h
 
 ## The Five — institutional arrangement (CR-027)
 
-There are always five seats: Polytechnic and General Staff; naval construction/heavy industry/champions; power; the atomic estate, the Light and Matter Works (CR-049, replacing the measures/tabulation seat CR-027 proposed); press/image. The approved 1887 holders are Soberanes, Turner and Tesla; Hillebrand holds the atomic estate's seat (seat approved by CR-049, its 1887 date PROPOSED) until he retires in 1921, successor OPEN. Hollerith works at the Office of Public Measures, which has no seat. Hearst, Dickson’s work within the press seat, the later successors and the nickname nā Kahuna are PROPOSED. Marcus Vance III’s succession after 1915 is supplied by the updated storyline. The Crown leaves charters, appointments and the Development Fund untouched; the estates never oppose the Crown or let a faction capture them. Donner holds the arrangement in 1887, Kiyoshi’s bid tests neutrality in 1913, the Senate quarrel strains it in 1915–1917, and the false Altai report breaks it in 1921. The successors’ choice matters in 1932. Measurement belongs to the Office and Polytechnic; publication belongs to the press seat.
+There are always five seats: Polytechnic and General Staff; naval construction/heavy industry/champions; power; the atomic estate, the Light and Matter Works (CR-049, replacing the measures/tabulation seat CR-027 proposed); press/image. The approved 1887 holders are Soberanes, Turner and Tesla; Hillebrand holds the atomic estate's seat (seat approved by CR-049, its 1887 date PROPOSED) until he retires in 1921; Langmuir succeeds him (CR-050). Hollerith works at the Office of Public Measures, which has no seat. Hearst, Dickson’s work within the press seat, the later successors and the nickname nā Kahuna are PROPOSED. Marcus Vance III’s succession after 1915 is supplied by the updated storyline. The Crown leaves charters, appointments and the Development Fund untouched; the estates never oppose the Crown or let a faction capture them. Donner holds the arrangement in 1887, Kiyoshi’s bid tests neutrality in 1913, the Senate quarrel strains it in 1915–1917, and the false Altai report breaks it in 1921. The successors’ choice matters in 1932. Measurement belongs to the Office and Polytechnic; publication belongs to the press seat.
 
 
 
@@ -1536,7 +1548,7 @@ Lucius Q. C. Lamar (1880–1886), the reconciler; Fitzhugh Lee (1886–1892), wh
 
 ## CR-049 — the nomos, computing and the atom (2 November 2026)
 
-Historical people placed in alternate careers; no invented scientists are added. Rutherford, Meitner, Szilárd, Wigner, von Neumann and Teller come to Pacifica by attraction (CR-049) and receive dossiers when they appear in a scene.
+Historical people placed in alternate careers; no invented scientists are added. Rutherford, Meitner, Szilárd, Wigner, von Neumann and Teller come to Pacifica by attraction (CR-049); Rutherford, Meitner, Szilárd and Wigner receive dossiers under CR-050, von Neumann and Teller when they appear in a scene.
 
 ### CT-CHARLES-PEIRCE — Charles Sanders Peirce, mathematician and logician
 **Status:** Historical person in alternate history (CR-049).
@@ -1544,6 +1556,10 @@ Historical people placed in alternate careers; no invented scientists are added.
 **APPROVED — CR-049:** Born in 1839, the son of Harvard's mathematician Benjamin Peirce, with an undistinguished examination record. PROPOSED: in the spring of 1856 Sylvester offers him a place at Carquinez, where achievement outranks rank, and he comes west at sixteen. APPROVED: the Calculation Office's youngest computer, he reads Boole and, after his seventeenth birthday, sails as the youngest fellow to Japan (1856–1857), where the Dutch-run naval school at Nagasaki tests him as hard as he tests it. In 1863 he sees Boole's algebra in the Office's telegraph relays and builds the relay arithmetic demonstrator; his circuits, designed on paper first, make the programmed calculator of 1876–1879 run. In 1867 a checking rule of his is shown by Kate Curran to have discarded real readings, and he acknowledges it in public. He fits the electroscope readings (1864), describes the transformation curves (1870), computes the scattering that proves the nucleus (1883), conjectures with Morley that mass and heat are one (1886) and works the neutron's recoils (1899). PROPOSED: a facial neuralgia from his late teens brings on his tempers; success makes him overconfident in elegant procedures; in 1888, nearly fifty, he loses the registers' work to Hollerith's cards. **Open:** the journey's dangers (O4), private life, death.
 
 **Voice:** Quick, combative, delighted by an elegant proof and slow to forgive a dull one; generous to a worthy opponent.
+
+**APPROVED — CR-050:** At sixty-nine he is the appointed respondent at the challenge evening of November 1908. He works out the energy of a split times the atoms in a block of uranium and asks whether the split releases neutrons; if it does, the prudent course is to assume a chain is possible and act before it is proved. The secret begins with his argument. In the late 1880s his fits to the scattering from foil after foil give each core a charge near half its atomic weight.
+
+**APPROVED — CR-050-R1:** At the challenge evening of 1908 he gives the split its name, fission, borrowing Cohn's word for the way bacteria divide, his *Spaltpilze* of the 1870s; from the opening of 1927 the world uses it.
 
 ### CT-KATE-BRANDEGEE — Kate Layne, later Curran and Brandegee, the laboratory's recorder
 **Status:** Historical person in alternate history (CR-049).
@@ -1566,21 +1582,105 @@ Historical people placed in alternate careers; no invented scientists are added.
 
 **Voice:** A careful analyst who distrusts his own first reading and trusts a chemistry he has checked twice.
 
+**APPROVED — CR-050:** He withholds his own fission paper for verification in November 1908, stops licensing strong neutron sources abroad in December, tells Victoria and Soberanes, takes the chain result to Julian with Soberanes in 1909 and proposes the compromise of the sealed envelope: dated, witnessed, sealed and opened in due course. He sponsors Meitner into the inner circle in 1911. Langmuir succeeds him in 1921. He dies in Honolulu, where he was born, on 7 February 1925, after Julian has told him the year the seal will be opened; he keeps it to the end because his record is dated and safe, because the term guarantees the opening, because he is a native son among *nā Kahuna*, and because he believes Peirce's argument. In 1927 the corrections column gives him the split.
+
+**APPROVED — CR-050-R1:** He lives to see the first device work on the Black Rock Desert in May 1924.
+
 ### CT-EUGEN-GOLDSTEIN — Eugen Goldstein, physicist
 **Status:** Historical person in alternate history (CR-049).
 
-**APPROVED — CR-049:** Born in Gleiwitz in 1850 to a Jewish family; Helmholtz's student, who has named cathode rays. In 1876, at twenty-six, he takes an assistant's post under Genth with citizenship. With Michelson he announces the electron in 1879; he takes his doctorate in 1881 and becomes master of the Laboratory of Light, Electricity and Matter; in 1883 he proposes the compact nucleus, and his positive rays sort atoms by mass. He reads the neutral radiation of the 1890s as a hard ray, refuses Nagaoka the recoil measurement, and accepts the neutron in 1901. He keeps his chair and the credit for the nucleus, but the next generation's best students go to Yerba Buena. **Open:** scenes and private life.
+**APPROVED — CR-049:** Born in Gleiwitz in 1850 to a Jewish family; Helmholtz's student, who has named cathode rays. In 1876, at twenty-six, he takes an assistant's post under Genth with citizenship. With Michelson he announces the electron in 1879; he takes his doctorate in 1881 and becomes master of the Laboratory of Light, Electricity and Matter; in 1883 he proposes the compact nucleus, and his positive rays sort atoms by mass. He reads the neutral radiation of the 1890s as a hard ray, refuses Nagaoka the recoil measurement, and accepts the neutron in 1901. He keeps his chair and the credit for the nucleus, but the next generation's best students go to Ralston College. **Open:** scenes and private life.
 
 **Voice:** Authoritative, exacting, slow to concede.
+
+**APPROVED — CR-050:** He co-sponsors Meitner into the inner circle in 1911 and then, past sixty, attacks her conjecture of a rare light isotope at a challenge evening. It is his last stand, and he loses.
 
 ### CT-NAGAOKA-HANTARO — Nagaoka Hantarō, physicist
 **Status:** Historical person in alternate history (CR-049).
 
-**APPROVED — CR-049:** Born in 1865; newly graduated in physics at Tokyo, he is sent by the Japanese partnership to Carquinez in 1887. Refused the recoil measurement by Goldstein, he takes it to Yerba Buena, where Michelson's valve-amplified counter gives the neutron, announced in 1899. He knows the work up to the neutron. **Open:** whether and when Japan is told what follows; his later career and scenes.
+**APPROVED — CR-049:** Born in 1865; newly graduated in physics at Tokyo, he is sent by the Japanese partnership to Carquinez in 1887. Refused the recoil measurement by Goldstein, he takes it to Ralston College, where Michelson's valve-amplified counter gives the neutron, announced in 1899. He knows the work up to the neutron. **Open:** whether and when Japan is told what follows; his later career and scenes.
 
 **Voice:** Patient, quietly stubborn, a dissenter another school takes in.
+
+**APPROVED — CR-050:** Inside the wall. In 1920, after Hahn publishes, he argues that silence now hides only Pacifica's head start, a deception of the world in all but name; he loses, resigns, is held to his bond and returns to Tokyo Imperial University, where he keeps the seal even from his own government. His silence is the proof Julian needs that a Japanese scientist can carry it, and it opens the way for Nishina in 1922. Both crowns honour him in 1927. PROPOSED: in the 1890s he proposes a ring of electrons around the core, the Pacifican model that fails; in 1916–1917 he leads the test that proves the light isotope is the one that splits.
 
 ### CT-NISHINA-YOSHIO — Nishina Yoshio, physicist
 **Status:** Historical person in alternate history (CR-049).
 
 **APPROVED — CR-049:** Born in 1890. The Japanese co-lead of the atomic programme; atomic energy is the emblem of Pacifica's friendship with Japan, and an atomic power station lights Tokyo. **Open:** when he joins, when and how Japan is told, his part in the Tokyo station and scenes.
+
+**APPROVED — CR-050:** He enters the walled college in 1922, after his first European years. From about 1924 his group designs the Tokyo station inside the wall; ground is broken in 1928, the year of Hirohito's enthronement, with Japanese engineers his group has trained, first power comes in 1931 and the station opens on 29 April 1932. It stands inland on rock above any tsunami's reach, and its fuel is leased from the Works and returned. PROPOSED: in Tokyo only the Prince Regent, Hirohito, is told.
+
+## CR-050 — the sealed envelope and the walled college (3 November 2026)
+
+Historical people in alternate careers; no invented scientists are added.
+
+### CT-IRVING-LANGMUIR — Irving Langmuir, physical chemist, master of the magnet halls
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-050:** Born in Brooklyn in 1881; a graduate of Columbia's School of Mines, he comes in 1903 to Tesla's electrical institute instead of Göttingen and becomes Tesla's student. About 1908 he makes the first hard-vacuum valves. From 1917 he builds the magnet halls on the western Sierra among the electrochemical works, with Tesla's power, Steinmetz's supply and Dempster's instrument made enormous; the first hall runs in 1919, fails and is rebuilt, and real production follows in the early 1920s. In 1921, at forty, he succeeds Hillebrand as director of the Light and Matter Works and in the seat among the Five, the first custodian of the seal recruited from the Union (the Works' director keeps it; the keys are the sovereign's and the Polytechnic chief's). In 1928 he names and founds the physics of the hot, charged gas of the halls' ion sources, the seed of a small fusion programme. **Open:** private life and scenes.
+
+**Voice:** Patient, measuring, unimpressed by visions he cannot test.
+
+**APPROVED — CR-050-R1:** To take the custody of the seal in 1921 he lays aside the open surface chemistry that had made his name. A mountaineer, he lives under Wapama at Hetch Hetchy.
+
+### CT-ARTHUR-DEMPSTER — Arthur Jeffrey Dempster, physicist
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-050:** Born in Toronto in 1886; he leaves Germany at the outbreak of war in 1914 and is recruited to Carquinez, where his instrument descends from Goldstein's positive rays. About 1915, on a long exposure, he sees a faint lighter companion beside the uranium line. Admitted to the inner circle when his isotope survey reaches the heavy elements, he agrees to leave uranium out of what he publishes; the survey is published and honoured, and heavy hydrogen appears in it. In 1916–1917 grains separated in his instrument prove that the light isotope is the one that splits, and the magnet halls are his instrument made enormous. The corrections column names him in 1927. **Open:** how his recruitment fits Canada policy (separate session); scenes.
+
+**Voice:** Quiet, exact, a man of long exposures.
+
+**APPROVED — CR-050-R1:** In 1922 he watches Aston receive the Nobel Prize for isotopes while his own finest result, the uranium line, lies sealed.
+
+### CT-LISE-MEITNER — Lise Meitner, physicist
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-049, CR-050:** She comes from Berlin about 1910, breaking up Europe's best team. Admitted to the inner circle in 1911 on the sponsorship of Hillebrand and Goldstein, she proposes in 1911–1912 that the part of uranium that splits easily is a rare, lighter isotope, and wins the challenge evening at which Goldstein attacks it. In the open she publishes her work on the energies of the bendable rays. When Hahn publishes in 1920 and is honoured, she knows the truth; the opening of 1927 names her for the light isotope. **Open:** scenes and private life.
+
+**Voice:** Precise, reserved, generous to collaborators, unyielding on evidence.
+
+### CT-OTTO-HAHN — Otto Hahn, chemist (Berlin)
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-050:** He stays in Berlin when Meitner leaves for Pacifica about 1910. In 1920, working on Vienna's sources, he finds barium among uranium's products and publishes; Europe confirms it within months and honours him. In 1927 the opening of the seal names him the independent second finder. **Open:** whose name for the split sticks; scenes.
+
+**Voice:** A careful chemist who trusts his separations.
+
+### CT-ARTHUR-HAAS — Arthur Erich Haas, physicist (Vienna)
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-050:** In 1907 in Vienna he joins Planck's quantum to the nucleus Pacifica published in 1883 and to Balmer's formula, and derives hydrogen's spectral constant: Europe's answer to Pacifica's question. **Open:** his later career and any scene.
+
+**Voice:** A theorist who reads other people's measurements closely.
+
+### CT-ROBERT-MILLIKAN — Robert Millikan, physicist, Ralston College's champion
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-050, CR-050-R1:** Recruited from Chicago in 1910 as the champion Ralston College chooses under the Compact of the Tuolumne, paid for by the Works, he leads the college behind the wall under protest, and measures the elementary charge in the open with his oil drops in 1910–1913. In 1920 he wants Ralston College's share of the sealed record published before Hahn is honoured; the sealed roll lists Ralston College's results separately and his open work brings him the Nobel Prize in 1923, and he stays inside. **Open:** scenes; his rival separation route's people.
+
+**Voice:** Ambitious for his college, jealous of credit, persuasive in public.
+
+### CT-ERNEST-RUTHERFORD — Ernest Rutherford, physicist
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-049, CR-050:** He comes about 1909–1910 and becomes the face of New Zealand's drift towards Pacifica. He refuses to go behind the wall, stays the public face of Pacifican physics, works in the open, knows there is a wall and never asks what lies behind it. In the 1920s he fires heavy-hydrogen nuclei at heavy hydrogen and sees them fuse, at far less energy than the beam costs, and sincerely calls power from such reactions moonshine; honestly sceptical in public and incurious about the wall, he is the seal's best cover. **Open:** scenes and private life.
+
+**Voice:** Loud, warm, blunt, a man who trusts what he can count.
+
+### CT-LEO-SZILARD — Leó Szilárd, physicist
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-049, CR-050:** He comes about 1920 because Pacifica is where physics is done and enters the outer college. Admitted to the inner circle about 1924, he finds scientific secrecy already invented and becomes its sharpest critic from inside; he designs the opening of 1927, and in 1925–1926 he and Wigner propose a reactor that breeds more fuel than it burns. **Open:** scenes.
+
+**Voice:** Restless, ironic, always two moves ahead of the meeting.
+
+### CT-EUGENE-WIGNER — Eugene Wigner, physicist, master of the reactors
+**Status:** Historical person in alternate history (CR-050).
+
+**APPROVED — CR-049, CR-050:** He comes about 1924 and becomes the master of the reactors; the energy stored in graphite under irradiation is found and named after him. In 1925–1926 he and Szilárd propose the breeding reactor, and about 1930–1932 an experimental breeder runs and lights a few bulbs in a shed. **Open:** scenes.
+
+**Voice:** Courteous to a fault, relentless in engineering detail.
+
+**APPROVED — CR-050-R1:** Trained as a chemical engineer for his father's tannery in Budapest, he leaves it against his father's wishes. In the reactor hall he is the engineer's brake on Szilárd's haste and refuses to build the breeder bigger than he can control.
+

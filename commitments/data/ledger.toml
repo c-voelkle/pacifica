@@ -2994,6 +2994,18 @@ id = "UMHK"
 name = "Union Minière du Haut-Katanga (with the Comité Spécial du Katanga)"
 
 [[party]]
+id = "RALC"
+name = "Ralston College, San Francisco (1866)"
+
+[[party]]
+id = "TMW"
+name = "Tuolumne Me-Wuk (band council; rancheria 1910)"
+
+[[party]]
+id = "KMP"
+name = "Kootzaduka'a Paiute of Mono Lake"
+
+[[party]]
 id = "BOH"
 name = "Kingdom of Bohemia within the federal monarchy (from 1919)"
 
@@ -4072,8 +4084,9 @@ ended_by = "turned into a fifty-year concession at The Hague (C-1919-JOACHIMSTHA
 owes = [
   { by = "PAC", to = "AH", what = "the loan with which Austria pays the Porte for its lost rights in Bosnia" },
   { by = "AH", to = "PAC", what = "all the uranium compounds and the residues left after extraction at the Joachimsthal state works for thirty years, and first refusal on new Bohemian uranium ore" },
+  { by = "AH", to = "PAC", what = "the exclusive marketing of the Austrian barium-borne salt outside the monarchy and a share of its sales (CR-050)" },
 ]
-conditions = ["Austria keeps all of the barium-borne element it extracts", "Pacifica buys the uranium as the world uses it and states nothing false"]
+conditions = ["Austria keeps the barium-borne element it extracts", "the uranium clause sits among the marketing terms like an afterthought (CR-050)", "Pacifica buys the uranium as the world uses it and states nothing false"]
 status = "APPROVED"
 cr = "CR-049"
 section = 27
@@ -4154,3 +4167,73 @@ cr = "CR-049"
 section = 32
 quote = "In 1919–1921 Wrangel's government grants Pacifica the Tyuya-Muyun deposit in Fergana, worked for the barium-borne element, as a concession alongside the Emba concession."
 open = "Granted in 1919–1921; the year, term and royalty are not stated."
+
+[[commitment]]
+id = "C-1931-TOKYO-FUEL-LEASE"
+name = "Fuel lease for the Tokyo atomic station"
+kind = "lease"
+parties = ["PAC", "JP"]
+from = 1931
+owes = [
+  { by = "PAC", to = "JP", what = "fuel for the Tokyo station, leased from the Light and Matter Works" },
+  { by = "JP", to = "PAC", what = "the spent fuel, returned to Pacifica" },
+]
+conditions = ["the bred elements never stay on Japanese soil"]
+status = "APPROVED"
+cr = "CR-050"
+section = 33
+quote = "Its fuel is leased from the Works and returned to Pacifica"
+open = "Terms, price and duration are not stated; how the station is paid for stays OPEN (CR-049)."
+
+[[commitment]]
+id = "C-1910-TUOLUMNE-COMPACT"
+name = "Compact of the Tuolumne (Ralston College inside the wall)"
+kind = "compact"
+parties = ["PAC", "RALC"]
+from = 1910
+until = 1928
+owes = [
+  { by = "PAC", to = "RALC", what = "its own compound, director and a budget fixed for five years at a time; equal access to sources, instruments, the installation and the internal journal; a neutral chair for contests; credit by school; endowed chairs; a champion of its choosing" },
+  { by = "RALC", to = "PAC", what = "its inner work under the seal, its people bound by the bond for the term" },
+]
+can_end = [{ who = "RALC", how = "leaves on a year's notice; its people stay bound to the end of the term" }]
+conditions = ["nothing in the sealed work is private property", "the trustees sign under a written protest, deposited with the seal", "one appeal to the sovereign in person in each dispute"]
+status = "APPROVED"
+cr = "CR-050-R1"
+section = 27
+quote = "The Compact of the Tuolumne gives it its own compound at the valley's east end, its own director and a budget fixed for five years at a time."
+open = "Renewal after 1928 and the budget shares are not stated."
+
+[[commitment]]
+id = "C-1910-HETCH-HETCHY-LEASE"
+name = "Hetch Hetchy lease (Tuolumne Me-Wuk)"
+kind = "lease"
+parties = ["TMW", "PAC"]
+from = 1910
+until = 1928
+owes = [
+  { by = "TMW", to = "PAC", what = "the use of Hetch Hetchy Valley for the seal's term, renewably" },
+  { by = "PAC", to = "TMW", what = "a fee every year; title to Poopenaut Valley and protected groves outside the fence; an autumn fortnight in the north groves; wardens' and burners' work at the Works' rates; the clinic" },
+]
+conditions = ["wardens and burners inside the fence sign the bond", "gatherers sign nothing and are shown nothing"]
+status = "APPROVED"
+cr = "CR-050-R1"
+section = 27
+quote = "the band's council leases the valley's use to the Works for the seal's term, renewably, for a fee paid every year."
+open = "The fee and the leaders' names are not stated; the year is entered as 1910 (canon: 1909–1910)."
+
+[[commitment]]
+id = "C-1910-KOOTZADUKAA-COMPACT"
+name = "Kootzaduka'a compact (the east rim of Hetch Hetchy)"
+kind = "compact"
+parties = ["KMP", "PAC"]
+from = 1910
+owes = [
+  { by = "PAC", to = "KMP", what = "summer rights in the high country above the rims, a marked rim trail around the valley's east end, a share of the fee, wardens' work on the east rim" },
+]
+status = "APPROVED"
+cr = "CR-050-R1"
+section = 27
+quote = "The Kootzaduka'a Paiute of Mono Lake, whose routes come down the Tuolumne canyon from the east, make a compact of their own"
+open = "Terms of the share and the leaders' names are not stated."
+

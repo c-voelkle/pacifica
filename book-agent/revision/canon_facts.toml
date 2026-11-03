@@ -435,7 +435,8 @@ source = "CR-049"
 id = "CT-WILLIAM-HILLEBRAND"
 aliases = ["William Francis Hillebrand", "Hillebrand"]
 born = 1853
-source = "CR-049"
+died = 1925
+source = "CR-049; CR-050"
 
 [[person]]
 id = "CT-EUGEN-GOLDSTEIN"
@@ -488,8 +489,8 @@ source = "CR-049"
 [[event]]
 id = "pacifica-neutron-discovery"
 year = 1899
-patterns = ['''Yerba Buena announces (?:it )?in \*{0,2}(?P<year>1[89]\d\d)''', '''neutron (?:is )?discovered in Pacifica in \*{0,2}(?P<year>1[89]\d\d)''']
-source = "CR-049"
+patterns = ['''Ralston College announces (?:it )?in \*{0,2}(?P<year>1[89]\d\d)''', '''neutron (?:is )?discovered in Pacifica in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-049; CR-050-R1"
 
 [[event]]
 id = "pacifica-fission-recognition"
@@ -502,3 +503,123 @@ id = "pacifica-first-civilian-research-reactor"
 year = 1913
 patterns = ['''first (?:controlled )?(?:civilian )?research (?:reactor|installation)[^.;]{0,40}in \*{0,2}(?P<year>1[89]\d\d)''']
 source = "CR-049"
+
+[[person]]
+id = "CT-IRVING-LANGMUIR"
+aliases = ["Irving Langmuir", "Langmuir"]
+born = 1881
+source = "CR-050"
+
+[[person]]
+id = "CT-ARTHUR-DEMPSTER"
+aliases = ["Arthur Jeffrey Dempster", "Arthur Dempster", "Dempster"]
+born = 1886
+source = "CR-050"
+
+[[person]]
+id = "CT-LISE-MEITNER"
+aliases = ["Lise Meitner", "Meitner"]
+born = 1878
+source = "CR-050"
+
+[[person]]
+id = "CT-OTTO-HAHN"
+aliases = ["Otto Hahn", "Hahn"]
+born = 1879
+source = "CR-050"
+
+[[person]]
+id = "CT-ARTHUR-HAAS"
+aliases = ["Arthur Erich Haas", "Arthur Haas", "Haas"]
+born = 1884
+source = "CR-050"
+
+[[person]]
+id = "CT-ROBERT-MILLIKAN"
+aliases = ["Robert Millikan", "Millikan"]
+born = 1868
+source = "CR-050"
+
+[[person]]
+id = "CT-ERNEST-RUTHERFORD"
+aliases = ["Ernest Rutherford", "Rutherford"]
+born = 1871
+source = "CR-050"
+
+[[person]]
+id = "CT-LEO-SZILARD"
+aliases = ["Leó Szilárd", "Leo Szilard", "Szilárd", "Szilard"]
+born = 1898
+source = "CR-050"
+
+[[person]]
+id = "CT-EUGENE-WIGNER"
+aliases = ["Eugene Wigner", "Wigner"]
+born = 1902
+source = "CR-050"
+
+[[event]]
+id = "pacifica-fission-paper-sealed"
+year = 1908
+patterns = ['''The fission paper of (?:November )?\*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-050"
+
+[[event]]
+id = "pacifica-light-uranium-companion"
+year = 1915
+patterns = ['''About \*{0,2}(?P<year>1[89]\d\d)\*{0,2}, on a long exposure, he sees a faint''']
+source = "CR-050"
+
+[[event]]
+id = "pacifica-magnet-halls-decision"
+year = 1917
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,60}authori[sz]es? the (?:magnet )?halls''']
+source = "CR-050"
+
+[[event]]
+id = "pacifica-first-magnet-hall"
+year = 1919
+patterns = ['''first (?:magnet )?hall[^.;]{0,40}in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-050"
+
+[[event]]
+id = "europe-quantum-atom-haas"
+year = 1907
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? (?:Arthur Erich )?Haas''']
+source = "CR-050"
+
+[[event]]
+id = "europe-fission-rediscovery-hahn"
+year = 1920
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2},? (?:Otto )?Hahn[^.;]{0,60}(?:finds barium|rediscovers|publishes)''']
+source = "CR-050"
+
+[[event]]
+id = "nishina-enters-walled-college"
+year = 1922
+patterns = ['''in \*{0,2}(?P<year>1[89]\d\d)\*{0,2} Nishina[^.;]{0,40}enters the walled college''']
+source = "CR-050"
+
+[[event]]
+id = "tokyo-atomic-station-opened"
+year = 1932
+patterns = ['''station is opened on 29 April \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-050"
+
+[[forbidden]]
+pattern = "Yerba Buena College"
+message = "The college of 1866 is Ralston College (CR-050-R1)."
+kind = "fact"
+source = "CR-050-R1"
+
+[[event]]
+id = "pacifica-first-device-test"
+year = 1924
+patterns = ['''In May \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the Works tests its first device''']
+source = "CR-050-R1"
+
+[[event]]
+id = "san-francisco-water-eleanor-cherry"
+year = 1913
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the state chooses Lake Eleanor and Cherry Valley''']
+source = "CR-050-R1"
