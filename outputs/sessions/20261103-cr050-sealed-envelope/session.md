@@ -41,8 +41,9 @@ independence: separate-agents
 | Q3 | open choice | Whose name for the split sticks | draft | open |
 | Q4 | open choice | Workbook revision: the Atomic sheet still has CR-049's dates (halls from 1912, Tokyo 1925–1927) | integration | open |
 | Q5 | open choice | Thorium | author | deferred to a later CR |
-| D7 | decision | Hetch Hetchy as the walled college's site ("I like it"); Yerba Buena College renamed, drafter to choose (Humboldt College) and lint with this CR | author 2026-11-03 | current |
-| Q6 | open choice | CR-050-R1 B2–B5: the Tuolumne Station, the Me-Wuk compact, Humboldt's Compact of the Tuolumne, Eleanor and Cherry water, Muir | drafter proposal | open |
+| D7 | decision | Hetch Hetchy as the walled college's site ("I like it"); Yerba Buena College renamed, drafter to choose and lint with this CR | author 2026-11-03 | current |
+| D8 | decision | Ralston College, not Humboldt (a Pacifican founder; the colleges of gold and silver); the Compact of the Tuolumne approved | author 2026-11-03 | current |
+| Q6 | open choice | CR-050-R1 B2, B3, B5 and the B6 recommendations (Tuolumne Station, Me-Wuk and Mono Paiute compacts, Eleanor and Cherry water, Muir, Black Rock test May 1924, 'fission', newcomers' costs, workbook) | drafter proposal | open |
 
 ## Handoffs
 
@@ -70,4 +71,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-050 and CR-050-R1 (Humboldt College; Hetch Hetchy approved in direction) are integrated on `integrate/cr-050`, PR #60, stacked on `integrate/cr-049` (PR #59); merge #59 first. Open: the college's site (Q1), the desert test's site and date (Q2), whose name for the split sticks (Q3), and a workbook revision for the halls' and the Tokyo station's new dates (Q4). Next CRs still queued from CR-049: how Pacifica mines and buys more uranium; Canada policy (affects Dempster); element names; O4 expeditions; thorium.
+CR-050 and CR-050-R1 (Ralston College; Hetch Hetchy and the Compact of the Tuolumne) are integrated on `integrate/cr-050`, PR #60, stacked on `integrate/cr-049` (PR #59); merge #59 first. Open: the college's site (Q1), the desert test's site and date (Q2), whose name for the split sticks (Q3), and a workbook revision for the halls' and the Tokyo station's new dates (Q4). Next CRs still queued from CR-049: how Pacifica mines and buys more uranium; Canada policy (affects Dempster); element names; O4 expeditions; thorium.

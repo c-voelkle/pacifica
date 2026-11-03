@@ -3460,25 +3460,26 @@
     },
     {
       "id": "CR-050-R1",
-      "title": "Humboldt College (renamed from Yerba Buena College), and the walled college at Hetch Hetchy",
+      "title": "Ralston College (renamed from Yerba Buena College), and the walled college at Hetch Hetchy",
       "status": "approved_integrated_local_labels_retained",
       "approved_on": "2026-11-03",
       "decision_record": "CR-050-R1.md",
-      "authorization": "Author, 3 November 2026: \"Yerba Buena College would sound too unserious to the contemporary Anglophone reader and it's another one that's just named after a city. So maybe come up with a better name and lint that together with this CR.\" The site at Hetch Hetchy: \"I like it.\"",
+      "authorization": "Author, 3 November 2026: \"Yerba Buena College would sound too unserious to the contemporary Anglophone reader and it's another one that's just named after a city. So maybe come up with a better name and lint that together with this CR.\" The site at Hetch Hetchy: \"I like it.\" Second round: \"I would prefer the place to be named after a Pacifican … Ralston is ok for this purpose. This also makes the two the gold and silver colleges of Pacifica. I approve the terms of the Tuolumne Compact.\"",
       "requirements": [
-        "A1: the private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith is Humboldt College, named for Alexander von Humboldt (name chosen by the drafter on the author's instruction). Current canon revised; earlier decision records and register entries keep the old name as provenance; a forbidden pattern keeps it out of current canon.",
-        "B1 (approved in direction): the walled college stands in Hetch Hetchy Valley; its terms (B2–B5) await the author and are not integrated."
+        "A1: the private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith is Ralston College, after William Ralston (CT-RALSTON), its chief founder; Carquinez (gold) and Ralston College (silver) are Pacifica's colleges of gold and silver. Always \"Ralston College\" in prose. Current canon revised; earlier records keep the old name as provenance; a forbidden pattern keeps it out of current canon.",
+        "B1 (approved in direction): the walled college stands in Hetch Hetchy Valley, reached by a single spur of the state's waterworks railway and a tunnel at its mouth.",
+        "B4: the Compact of the Tuolumne (1910): Ralston College's own compound at the east end, director and five-year budget; its own nominees with one sponsor of its own; equal access; independence of method; contests judged by one judge from each school and a chair named by the sovereign's key; credit by school; no private property in sealed work, endowed chairs; one appeal to the sovereign per dispute; exit on a year's notice, people bound for the term; public life unchanged; the Works pays for a champion of its choosing (Millikan); signed under a written protest deposited with the seal and published at the opening."
       ],
       "open": [
-        "PROPOSED, not integrated: the tunnel gate and layout (B1); San Francisco's water from Lake Eleanor and Cherry Valley with Spring Valley bought out early, and Muir's blind victory (B1, B5); the Tuolumne Station as the valley's public face (B2); the Me-Wuk compact (B3); Humboldt's Compact of the Tuolumne of 1910 (B4); the 1869 Humboldt centenary.",
-        "OPEN: the Mono Paiute's share; the Me-Wuk leaders' names."
+        "PROPOSED, not integrated: the tunnel gate and layout (B1); the Tuolumne Station as the valley's public face (B2); the Me-Wuk compact (B3); San Francisco's water from Lake Eleanor and Cherry Valley with Spring Valley bought out early, and Muir's blind victory (B1, B5); the recommendations of B6 (the valley tram and Ralston College's houses, the Mono Paiute compact, the Black Rock test of May 1924, 'fission' from Remak's school, costs for Langmuir, Dempster and Wigner, the workbook revision).",
+        "OPEN: the Me-Wuk leaders' names (archival research)."
       ],
       "facts": [
         {
           "event": "pacifica-neutron-discovery",
           "set": {
             "patterns": [
-              "Humboldt announces (?:it )?in \\*{0,2}(?P<year>1[89]\\d\\d)",
+              "Ralston College announces (?:it )?in \\*{0,2}(?P<year>1[89]\\d\\d)",
               "neutron (?:is )?discovered in Pacifica in \\*{0,2}(?P<year>1[89]\\d\\d)"
             ]
           },
@@ -3492,7 +3493,7 @@
         {
           "add_forbidden": {
             "pattern": "Yerba Buena College",
-            "message": "The college of 1866 is Humboldt College (CR-050-R1).",
+            "message": "The college of 1866 is Ralston College (CR-050-R1).",
             "kind": "fact"
           }
         }

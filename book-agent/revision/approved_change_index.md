@@ -953,16 +953,17 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The workbook: the Atomic sheet still schedules CR-049's earlier dates (halls from 1912, the Tokyo station 1925–1927); a financial revision is needed.
 - PROPOSED details retained with local labels: Nagaoka's ring model (1890s) and his lead of the proof test; atomic number, Vienna's institute in the 1890s, Bohr 1911–1913, quantum mechanics 1922–1924 and the Kaiser Wilhelm Society's motive; the dated steps of the health programme; the kapu register; Hirohito as the only one told in Tokyo; the Tokyo station's size (CR-049).
 
-### CR-050-R1 — Humboldt College (renamed from Yerba Buena College), and the walled college at Hetch Hetchy
+### CR-050-R1 — Ralston College (renamed from Yerba Buena College), and the walled college at Hetch Hetchy
 
 **Register status:** `approved_integrated_local_labels_retained`
 
-- A1: the private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith is Humboldt College, named for Alexander von Humboldt (name chosen by the drafter on the author's instruction). Current canon revised; earlier decision records and register entries keep the old name as provenance; a forbidden pattern keeps it out of current canon.
-- B1 (approved in direction): the walled college stands in Hetch Hetchy Valley; its terms (B2–B5) await the author and are not integrated.
+- A1: the private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith is Ralston College, after William Ralston (CT-RALSTON), its chief founder; Carquinez (gold) and Ralston College (silver) are Pacifica's colleges of gold and silver. Always "Ralston College" in prose. Current canon revised; earlier records keep the old name as provenance; a forbidden pattern keeps it out of current canon.
+- B1 (approved in direction): the walled college stands in Hetch Hetchy Valley, reached by a single spur of the state's waterworks railway and a tunnel at its mouth.
+- B4: the Compact of the Tuolumne (1910): Ralston College's own compound at the east end, director and five-year budget; its own nominees with one sponsor of its own; equal access; independence of method; contests judged by one judge from each school and a chair named by the sovereign's key; credit by school; no private property in sealed work, endowed chairs; one appeal to the sovereign per dispute; exit on a year's notice, people bound for the term; public life unchanged; the Works pays for a champion of its choosing (Millikan); signed under a written protest deposited with the seal and published at the opening.
 
 **Still open:**
-- PROPOSED, not integrated: the tunnel gate and layout (B1); San Francisco's water from Lake Eleanor and Cherry Valley with Spring Valley bought out early, and Muir's blind victory (B1, B5); the Tuolumne Station as the valley's public face (B2); the Me-Wuk compact (B3); Humboldt's Compact of the Tuolumne of 1910 (B4); the 1869 Humboldt centenary.
-- OPEN: the Mono Paiute's share; the Me-Wuk leaders' names.
+- PROPOSED, not integrated: the tunnel gate and layout (B1); the Tuolumne Station as the valley's public face (B2); the Me-Wuk compact (B3); San Francisco's water from Lake Eleanor and Cherry Valley with Spring Valley bought out early, and Muir's blind victory (B1, B5); the recommendations of B6 (the valley tram and Ralston College's houses, the Mono Paiute compact, the Black Rock test of May 1924, 'fission' from Remak's school, costs for Langmuir, Dempster and Wigner, the workbook revision).
+- OPEN: the Me-Wuk leaders' names (archival research).
 
 ### Author-approved editorial safeguards
 

@@ -489,7 +489,7 @@ source = "CR-049"
 [[event]]
 id = "pacifica-neutron-discovery"
 year = 1899
-patterns = ['''Humboldt announces (?:it )?in \*{0,2}(?P<year>1[89]\d\d)''', '''neutron (?:is )?discovered in Pacifica in \*{0,2}(?P<year>1[89]\d\d)''']
+patterns = ['''Ralston College announces (?:it )?in \*{0,2}(?P<year>1[89]\d\d)''', '''neutron (?:is )?discovered in Pacifica in \*{0,2}(?P<year>1[89]\d\d)''']
 source = "CR-049; CR-050-R1"
 
 [[event]]
@@ -608,6 +608,6 @@ source = "CR-050"
 
 [[forbidden]]
 pattern = "Yerba Buena College"
-message = "The college of 1866 is Humboldt College (CR-050-R1)."
+message = "The college of 1866 is Ralston College (CR-050-R1)."
 kind = "fact"
 source = "CR-050-R1"

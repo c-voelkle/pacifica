@@ -2994,6 +2994,10 @@ id = "UMHK"
 name = "Union Minière du Haut-Katanga (with the Comité Spécial du Katanga)"
 
 [[party]]
+id = "RALC"
+name = "Ralston College, San Francisco (1866)"
+
+[[party]]
 id = "BOH"
 name = "Kingdom of Bohemia within the federal monarchy (from 1919)"
 
@@ -4172,3 +4176,23 @@ cr = "CR-050"
 section = 33
 quote = "Its fuel is leased from the Works and returned to Pacifica"
 open = "Terms, price and duration are not stated; how the station is paid for stays OPEN (CR-049)."
+
+[[commitment]]
+id = "C-1910-TUOLUMNE-COMPACT"
+name = "Compact of the Tuolumne (Ralston College inside the wall)"
+kind = "compact"
+parties = ["PAC", "RALC"]
+from = 1910
+until = 1928
+owes = [
+  { by = "PAC", to = "RALC", what = "its own compound, director and a budget fixed for five years at a time; equal access to sources, instruments, the installation and the internal journal; a neutral chair for contests; credit by school; endowed chairs; a champion of its choosing" },
+  { by = "RALC", to = "PAC", what = "its inner work under the seal, its people bound by the bond for the term" },
+]
+can_end = [{ who = "RALC", how = "leaves on a year's notice; its people stay bound to the end of the term" }]
+conditions = ["nothing in the sealed work is private property", "the trustees sign under a written protest, deposited with the seal", "one appeal to the sovereign in person in each dispute"]
+status = "APPROVED"
+cr = "CR-050-R1"
+section = 27
+quote = "The Compact of the Tuolumne gives it its own compound at the valley's east end, its own director and a budget fixed for five years at a time."
+open = "Renewal after 1928 and the budget shares are not stated."
+
