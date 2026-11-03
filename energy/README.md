@@ -2,7 +2,7 @@
 
 Use the [energy workbook](Pacifica_energy_model_1846-1932.xlsx) alongside the [financial workbook](../finance/Pacifica_financial_model_1846-1932.xlsx) and the [current master storyline](../book-agent/revision/master_storyline.md).
 
-**3 November 2026 (CR-052, first build):** fourteen sheets track every source of power in the Realm and Hawaii and what it is used for, 1846–1932, in two layers: primary energy (PJ, with Mtoe) and electricity (MW, GWh). Population, output, industry, oil output, the navy's oil and the atomic stations come from the financial workbook (Story and Stress), so the multiplier of Pacifica's electricity per person against the United States is an output, not an input: about two (1920–1932). All results are MODEL. See [CR-052-workbook.md](CR-052-workbook.md) for the results and what they mean for canon. SHA-256 `4af645c4beabbdf51dda61e921fd1ef507503f465b81dc6c8a990583ea944fd4`, built from the financial workbook with SHA-256 `22266bad58ee60da888c9b8de9bcd2c964498a5427d6b453b1f6a5a46f6120b2`.
+**3 November 2026 (CR-052, first build):** fourteen sheets track every source of power in the Realm and Hawaii and what it is used for, 1846–1932, in two layers: primary energy (PJ, with Mtoe) and electricity (MW, GWh). Population, output, industry, oil output, the navy's oil and the atomic stations come from the financial workbook (Story and Stress), so the multiplier of Pacifica's electricity per person against the United States is an output, not an input: about two in the Story case and 2.6–3.6 in the Max case (1920–1932). Three cases on one switch (Levers!E4): Story, Stress and Max. All results are MODEL. See [CR-052-workbook.md](CR-052-workbook.md) for the results and what they mean for canon. SHA-256 `6b3ce6b2342bccd8b186bbe3980113b0ff9520e679c2dfeb6f7e6dd256d6b8ea`, built from the financial workbook with SHA-256 `22266bad58ee60da888c9b8de9bcd2c964498a5427d6b453b1f6a5a46f6120b2`.
 
 ## Reproduce
 
@@ -13,7 +13,7 @@ python3 energy/build/extract_finance.py finance/Pacifica_financial_model_1846-19
 # 2. Build the energy workbook (formulas only)
 python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv \
     energy/Pacifica_energy_model_1846-1932.xlsx
-# 3. Recalculate in LibreOffice; expect "success", 0 errors (22,633 formulas)
+# 3. Recalculate in LibreOffice; expect "success", 0 errors (23,722 formulas)
 python3 <xlsx skill>/scripts/recalc.py energy/Pacifica_energy_model_1846-1932.xlsx 300
 ```
 

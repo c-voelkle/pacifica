@@ -540,3 +540,204 @@ EVENTS += [
     (1902, "Signal Hill and Santa Fe Springs with rotary drilling (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
     (1915, "Kettleman Hills and Wilmington (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
 ]
+
+
+# =====================================================================================
+# Third revision (after the fresh-context review of the third build, 3 November 2026)
+# =====================================================================================
+# 1. Oilfields modelled field by field: what the Story and Max paths, the plausible
+#    output (oil_cap) and the known reserves (oil_known) all come from.
+# Each field: canon discovery year, flush peak rate if developed in the 1920s manner
+# (m bbl/yr), and primary recovery with the methods of 1900-1930 (bn bbl). All MODEL;
+# historical discovery years, peaks and recoveries to verify.
+OILFIELDS = [
+    # name, canon year, historical year, peak, primary URR
+    ("Los Angeles City", 1882, 1892, 2, 0.06),
+    ("Puente, Brea–Olinda, Whittier, Fullerton", 1882, 1880, 10, 0.5),
+    ("Kern River", 1885, 1899, 17, 0.6),
+    ("Coalinga", 1890, 1896, 18, 0.7),
+    ("McKittrick", 1891, 1898, 5, 0.1),
+    ("Midway–Sunset", 1893, 1901, 45, 1.0),
+    ("Huntington Beach", 1895, 1920, 35, 0.8),
+    ("Lost Hills and Belridge", 1898, 1910, 10, 0.3),
+    ("Signal Hill (Long Beach)", 1902, 1921, 90, 0.9),
+    ("Santa Fe Springs", 1903, 1919, 80, 0.6),
+    ("Elk Hills", 1905, 1919, 25, 0.6),
+    ("Buena Vista", 1906, 1909, 20, 0.6),
+    ("Torrance, Richfield, Montebello", 1906, 1922, 30, 0.65),
+    ("Kern Front, Round Mountain, Mount Poso", 1908, 1912, 15, 0.4),
+    ("Ventura Avenue", 1910, 1916, 30, 0.7),
+    ("Dominguez, Rosecrans, Inglewood, Seal Beach", 1910, 1923, 30, 0.65),
+    ("Wilmington", 1915, 1932, 40, 1.2),
+    ("Kettleman Hills North Dome", 1923, 1928, 35, 0.45),
+]
+
+
+def _era(y):
+    """How hard a field found in year y is developed at first: fewer rigs and smaller markets early."""
+    return 0.5 if y < 1895 else 0.7 if y < 1905 else 0.85 if y < 1915 else 1.0
+
+
+def _ramp(y):
+    return 5 if y < 1900 else 3 if y < 1910 else 2
+
+
+def field_model(utilization=1.0):
+    """Deliverable output by year (m bbl) and known primary reserves (bn bbl, fields found by then).
+
+    A field ramps linearly to its peak (era-scaled) over its ramp years, then declines
+    exponentially at the rate that exhausts its primary recovery: remaining = q / d.
+    `utilization` scales the whole field model (production below deliverability)."""
+    out = {y: 0.0 for y in range(1846, 1933)}
+    known = {y: 0.0 for y in range(1846, 1933)}
+    for name, y0, yh, peak, urr in OILFIELDS:
+        q = peak * _era(y0)
+        n = _ramp(y0)
+        cum = 0.0
+        d = None
+        for y in range(y0, 1933):
+            known[y] += urr
+            if y < y0 + n:
+                p = q * (y - y0 + 1) / n
+            else:
+                if d is None:
+                    rem = max(urr * 1000 - cum, q)
+                    d = q / rem
+                p = q * (1 - d) ** (y - (y0 + n))
+            p = min(p, max(0.0, urr * 1000 - cum))
+            out[y] += p * utilization
+            cum += p
+    return out, known
+
+
+_cap, _known = field_model(1.0)
+_compact = {1932: 0.85}  # CR-020 B6: the oil compact holds output down in 1932
+_story = {y: v * 0.85 * _compact.get(y, 1.0) for y, v in _cap.items()}
+_max = {y: v * 1.0 * _compact.get(y, 1.0) for y, v in _cap.items()}
+_basis_fields = "; ".join(f"{n} {c} (hist. {h}), peak {p}m, {u}bn" for n, c, h, p, u in OILFIELDS)
+
+path("oil_cap", "Plausible output of the home oilfields (field model)", "m bbl", {y: round(v, 2) for y, v in _cap.items()},
+     "Sum over the fields found by each year: each ramps to its peak (scaled down for early, smaller-market development: "
+     "×0.5 before 1895, ×0.7 to 1905, ×0.85 to 1915) and then declines at the rate its primary recovery allows. Fields "
+     "(canon year, historical year, peak, primary recovery; to verify): " + _basis_fields + ".")
+path("oil_known", "Primary reserves of the fields found (cumulative)", "bn bbl", {y: round(v, 3) for y, v in _known.items()},
+     "Primary recovery with 1900–1930 methods only (no steam flood or water flood), summed over the fields found by each year. "
+     "Kern River and Midway–Sunset hold far more oil, but most of it came out by steam after the 1960s.")
+path("oil_c52", "Home oil output, CR-052 discovery path (85% of the field model)", "m bbl", {y: round(v, 2) for y, v in _story.items()},
+     "Approved CT3 C: the 1876 survey finds the fields listed under oil_cap, from the early 1880s. Story produces 85% of what the "
+     "fields could deliver; 1932 is held down by the oil compact. Kettleman Hills needs a 7,000 ft well: about 1923 at the earliest.",
+     "APPROVED (CR-052 CT3 C), MODEL")
+PATHS_MAX["oil_c52"] = {y: round(v, 2) for y, v in _max.items()}
+
+# dry gas: Kettleman's gas only from 1923
+path("dry_gas", "Dry gas fields (Rio Vista, Buttonwillow; Kettleman from 1923)", "PJ", {1846: 0, 1905: 0, 1913: 10, 1920: 35, 1923: 45,
+     1929: 110, 1932: 120}, "With C: the Sacramento Valley's dry gas found early (Rio Vista historically 1936; Buttonwillow 1927); "
+     "Kettleman Hills' gas after its discovery about 1923. Piped to the Bay cities.", "APPROVED with CT3 C, MODEL")
+PATHS_MAX["dry_gas"] = {1846: 0, 1900: 0, 1905: 5, 1913: 20, 1920: 50, 1923: 65, 1929: 160, 1932: 180}
+
+# 2. Vehicles: fewer in 1913 (California had about 0.045 per person historically)
+path("veh_pp", "Motor vehicles on the road per person", "per person", {1846: 0, 1900: 0, 1905: 0.001, 1910: 0.008, 1913: 0.025,
+     1917: 0.07, 1920: 0.14, 1924: 0.24, 1927: 0.30, 1929: 0.33, 1932: 0.33},
+     "Approved CT5 (amended). US 1913 about 0.013, 1929 0.22; historical California 1913 about 0.045 (to verify). California at 1.25 times "
+     "the Realm's rate (0.41 in 1929) is the most motorized place on earth.", "APPROVED (CR-052 CT5), MODEL")
+PATHS_MAX["veh_pp"] = {1846: 0, 1900: 0, 1905: 0.001, 1910: 0.01, 1913: 0.03, 1917: 0.08, 1920: 0.16, 1924: 0.27, 1927: 0.33,
+                       1929: 0.36, 1932: 0.36}
+
+# 3. Max diverges from Story after the war: multiplier paths instead of constant levers
+path("indw_x", "Industrial weight multiplier (× ind_w)", "×", {1846: 1, 1932: 1}, "Story 1. Max rises after 1915 as process heat electrifies.")
+path("hyd_x", "Hydro building multiplier (× hydro_pace)", "×", {1846: 1, 1932: 1}, "Story 1. Max builds faster after 1915.")
+path("nwboil", "Electric boilers in Northwest pulp, paper and lumber mills", "GWh", {1846: 0, 1932: 0},
+     "Max only: secondary spring and summer hydro sold to mill boilers, as Canada did in the 1920s and 1930s.")
+path("tie_mw", "California–Northwest transfer capacity", "MW", {1846: 0, 1932: 0},
+     "No 1920s line could carry Columbia power to California (the Pacific Intertie came in 1968). Zero in every case unless the author adds one.")
+PATHS_MAX.update({
+    "indw_x": {1846: 1, 1915: 1, 1920: 1.2, 1925: 1.45, 1929: 1.5, 1932: 1.5},
+    "hyd_x": {1846: 1, 1915: 1, 1920: 1.15, 1925: 1.3, 1932: 1.35},
+    "nwboil": {1846: 0, 1921: 0, 1925: 2000, 1929: 5000, 1932: 7000},
+    "elec_home": {1880: 0, 1890: 0.01, 1900: 0.09, 1907: 0.22, 1913: 0.44, 1917: 0.6, 1920: 0.72, 1924: 0.86, 1927: 0.93, 1929: 0.96, 1932: 0.97},
+    "kwh_home": {1890: 150, 1900: 220, 1913: 330, 1917: 450, 1920: 600, 1924: 1000, 1927: 1400, 1929: 1700, 1932: 2000},
+    "kwh_comm": {1885: 0, 1890: 3, 1900: 27, 1913: 90, 1920: 150, 1927: 230, 1929: 260, 1932: 260},
+    "fact_elec": {1885: 0, 1890: 0.01, 1900: 0.09, 1907: 0.22, 1913: 0.42, 1917: 0.55, 1920: 0.66, 1924: 0.8, 1927: 0.87, 1929: 0.91, 1932: 0.93},
+    "alu_kt": {1888: 0, 1890: 0, 1895: 0.3, 1900: 2, 1907: 7, 1913: 25, 1917: 50, 1920: 60, 1922: 70, 1924: 95, 1927: 140, 1929: 180, 1930: 160, 1932: 120},
+    "alu_col": {1900: 0, 1907: 1, 1913: 8, 1920: 25, 1923: 40, 1924: 60, 1927: 100, 1929: 140, 1932: 95},
+    "carb_kt": {1892: 0, 1895: 2, 1900: 15, 1913: 55, 1920: 110, 1927: 190, 1929: 220, 1932: 150},
+    "chlor_kt": {1895: 0, 1900: 2, 1913: 22, 1920: 60, 1929: 160, 1932: 140},
+    "esteel": {1846: 0, 1900: 0, 1907: 0.003, 1913: 0.015, 1917: 0.06, 1920: 0.08, 1929: 0.2, 1932: 0.22},
+    "abras_kt": {1895: 0, 1900: 1, 1913: 7, 1920: 20, 1929: 45, 1932: 40},
+    "rail_el": {1846: 0, 1912: 0, 1915: 0.02, 1920: 0.1, 1925: 0.3, 1929: 0.5, 1932: 0.6},
+    "rail_kwh": {1888: 0, 1890: 2, 1900: 27, 1907: 65, 1913: 100, 1920: 130, 1924: 135, 1929: 125, 1932: 115},
+    "pump_acres": {1890: 0, 1900: 0.02, 1907: 0.25, 1913: 0.9, 1920: 1.7, 1927: 3.0, 1929: 3.6, 1932: 4.0},
+    # fuel displaced by Max's electric heat
+    "ind_mj": {1846: 40, 1880: 60, 1900: 72, 1913: 65, 1920: 59, 1925: 53, 1929: 47, 1932: 45},
+    "gj_home": {1846: 70, 1880: 60, 1900: 55, 1913: 50, 1920: 44, 1925: 40, 1929: 36, 1932: 35},
+})
+MAX_BASIS = ("Max case: every source Pacifica can reach and every use that can absorb it, diverging from Story after the war. "
+             "Electric cooking and water heating (Ontario level), factories fully electric with process heat, aluminium at Alcoa's "
+             "scale (180 kt in 1929, bauxite from Guiana and Bintan through partners, to verify), ammonia from electrolytic hydrogen "
+             "for the Valley and for Japan, electric steel, half the main lines electric, electric boilers in the Northwest mills, "
+             "the Central Valley and Columbia Basin pumped. Fuel paths lowered where electricity replaces heat.")
+# 4. Max levers: no double counting, same check bands as Story
+for k in ("elec_pace", "kwh_max", "int_hi", "hydro_pace", "ind_w"):
+    MAX.pop(k, None)
+MAX.update({"eln_col": 1.0})
+MAX_NOTES.pop("kwh_max", None)
+MAX_NOTES["ind_w"] = "Max case: the weight stays 0.5; Paths indw_x raises it after 1915 as process heat electrifies."
+LEVERS[:] = [lv for lv in LEVERS if not (len(lv) > 1 and lv[0] == "nw_ord")]
+
+# Fields left out of the first list, and secondary recovery in the Max case
+OILFIELDS += [
+    ("Santa Maria, Orcutt, Lompoc, Cat Canyon", 1895, 1901, 12, 0.3),
+    ("Deeper zones under the old fields (rotary, 3,000–6,000 ft)", 1918, 1922, 60, 1.2),
+    ("Edison, Mountain View, Ten Section", 1920, 1928, 25, 0.6),
+    ("Playa del Rey, Venice, Huntington tidelands", 1922, 1929, 25, 0.6),
+]
+
+
+def field_model2(urr_mult=1.0):
+    """field_model with every field's primary recovery scaled (Max: pressure maintenance and water flooding)."""
+    global OILFIELDS
+    saved = OILFIELDS
+    OILFIELDS = [(n, y, h, p, u * urr_mult) for n, y, h, p, u in saved]
+    try:
+        return field_model(1.0)
+    finally:
+        OILFIELDS = saved
+
+
+_cap, _known = field_model2(1.0)
+_capm, _knownm = field_model2(1.3)
+_story = {y: v * 0.9 * _compact.get(y, 1.0) for y, v in _cap.items()}
+_max = {y: v * 1.0 * _compact.get(y, 1.0) for y, v in _capm.items()}
+_basis_fields = "; ".join(f"{n} {c} (hist. {h}), peak {p}m, {u}bn" for n, c, h, p, u in OILFIELDS)
+for key, pts in [("oil_cap", _cap), ("oil_known", _known), ("oil_c52", _story)]:
+    lab, unit, _old, basis, status = PATHS[key]
+    if key == "oil_cap":
+        basis = basis.split("Fields (canon year")[0] + "Fields (canon year, historical year, peak, primary recovery; to verify): " + _basis_fields + "."
+    if key == "oil_c52":
+        lab = "Home oil output, CR-052 discovery path (90% of the field model)"
+        basis = basis.replace("Story produces 85%", "Story produces 90%")
+    PATHS[key] = (lab, unit, {y: round(v, 3) for y, v in pts.items()}, basis, status)
+PATHS_MAX["oil_c52"] = {y: round(v, 3) for y, v in _max.items()}
+PATHS_MAX["oil_cap"] = {y: round(v, 3) for y, v in _capm.items()}
+PATHS_MAX["oil_known"] = {y: round(v, 3) for y, v in _knownm.items()}
+MAX_BASIS += (" Oil: pressure maintenance and water flooding about fifteen years before history raise every field's recovery by 30% "
+              "(oil_cap, oil_known and oil_c52 Max rows).")
+
+# The financial workbook's oil path (oil_src = 1) is tested against the same fields at
+# their historical discovery years.
+def field_model_hist():
+    global OILFIELDS
+    saved = OILFIELDS
+    OILFIELDS = [(n, h, h, p, u) for n, y, h, p, u in saved]
+    try:
+        return field_model(1.0)
+    finally:
+        OILFIELDS = saved
+
+
+_caph, _knownh = field_model_hist()
+path("oil_caph", "Plausible output of the home oilfields at their historical discovery years", "m bbl", {y: round(v, 3) for y, v in _caph.items()},
+     "As oil_cap, with each field found in its historical year; the test for the financial workbook's own oil path (oil_src = 1).")
+path("oil_knownh", "Primary reserves of the fields found, at historical discovery years", "bn bbl", {y: round(v, 3) for y, v in _knownh.items()},
+     "As oil_known, at historical discovery years.")
+MAX.update({"colms_max": 1500, "colms_rate": 300})

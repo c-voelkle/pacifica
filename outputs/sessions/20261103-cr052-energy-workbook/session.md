@@ -1,7 +1,7 @@
 ---
 session: 20261103-cr052-energy-workbook
 started: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 mode: draft
 status: paused-for-author
 baseline:
@@ -24,6 +24,7 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | ID | Type | Statement | Source | Status |
 | --- | --- | --- | --- | --- |
 | D1 | decision | Build the workbook to the handoff and add it to the repository. | author message 2026-11-03 | current |
+| D2 | decision | CT3 A, B and C approved ("with the greatest believable haste in finding the Los Angeles basin giants"); California the most motorized place on earth (CT5 amended); explore a Max case of maximal energy use. | author messages 2026-11-03 | current |
 | Q1 | open choice | CR-052 W1, F1–F13 and CT1–CT6 (adopt the workbook; multiplier about two; halls' capacity share; Works' dams at about 650 MW; the fuel gap and its remedies; Pacifica as oil supplier; vehicles; Hilo on oil). | `claude/CR-052.md` in the project | open |
 
 ## Checks executed
@@ -34,7 +35,9 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | X2 | Workbook Checks sheet, tests 1–9 | Story: 7 fails 1900–23, 1925–26, 1932; 6 fails 1916; 4 fails 1932. Stress: 2 (1922), 6 (9 years before 1927), 9 (1923–27) |
 | X3 | Sensitivity runs (mid-Columbia chain, main-line electrification, Gulf crude, Realm coal ×4, Asian sales, Works' dams +30%, industrial weight 0.7 and 1.0) | in `energy/CR-052-workbook.md` |
 | X4 | Fresh-context review (separate agent) | `outputs/CR-052/review.md`; five MUST FIX applied in the second build |
+| X5 | Second fresh-context review (separate agent) of the third build | `outputs/CR-052/review-2.md`; three MUST FIX applied in the fourth build (field-model oil, Kettleman 1923, no double counting in Max) |
+| X6 | LibreOffice recalculation, fourth build, three cases | 23,722 formulas, 0 errors in each |
 
 ## Resume here
 
-CR-052 (PROPOSED) is in the project as `claude/CR-052.md`; the workbook is on branch `cr-052-energy-workbook` (PR open). Next: the author decides CT1–CT6 and the industrial weight; then the financial workbook's next build reads the `en_*` columns and, if CT3 C is approved, a higher home-oil path, and CR-051's power figures are amended at its integration.
+CR-052 (fourth draft) is in the project as `claude/CR-052.md`: CT3 A–C and CT5 approved; the Max case (M1–M9) awaits the author, with a recommendation to take M1, M2, M6, M7, M8's water flooding and M9 into the Story case. The workbook (fourth build) is on branch `cr-052-energy-workbook`, PR #61. Next: the author's choice among M1–M9; then the financial workbook's next build takes the oil path (C), the vehicle path (CT5), the `en_*` columns and any adopted Max parts.
