@@ -1030,7 +1030,7 @@ PROPOSED — CR-027 A22/B6, as amended by CR-049: punched cards tabulate Noe’s
 
 PROPOSED — CR-027 A22/B6: Press and image seat in 1887, with the Examiner and six-language weekly. He wants spectacle but must print the Office’s tables unchanged. He may dramatize Union failures. The role, nickname and proposed interactions remain proposals; the seat’s publishing function is approved.
 
-**APPROVED — CR-050:** About 1919 one of his reporters notices how much Sierra power the new works draw. Hearst, holding a seat among the Five, spikes the story, and it costs him with his own editors.
+**APPROVED — CR-050:** About 1919 one of his reporters notices how much Sierra power the new works draw. Hearst (his seat among the Five PROPOSED, CR-027) spikes the story, and it costs him with his own editors.
 
 ### CT-WKL-DICKSON — W. K. L. Dickson
 **Status:** proposed_five_collaborator (CR-027).
@@ -1578,7 +1578,7 @@ Historical people placed in alternate careers; no invented scientists are added.
 
 **Voice:** A careful analyst who distrusts his own first reading and trusts a chemistry he has checked twice.
 
-**APPROVED — CR-050:** He withholds his own fission paper for verification in November 1908, tells Victoria and Soberanes, takes the chain result to Julian with Soberanes in 1909 and proposes the compromise of the sealed envelope: dated, witnessed, sealed and opened in due course. He sponsors Meitner into the inner circle in 1911. Langmuir succeeds him in 1921. He dies in Honolulu, where he was born, on 7 February 1925, after Julian has told him the year the seal will be opened; he keeps it to the end because his record is dated and safe, because the term guarantees the opening, because he is a native son among *nā Kahuna*, and because he believes Peirce's argument. In 1927 the corrections column gives him the split.
+**APPROVED — CR-050:** He withholds his own fission paper for verification in November 1908, stops licensing strong neutron sources abroad in December, tells Victoria and Soberanes, takes the chain result to Julian with Soberanes in 1909 and proposes the compromise of the sealed envelope: dated, witnessed, sealed and opened in due course. He sponsors Meitner into the inner circle in 1911. Langmuir succeeds him in 1921. He dies in Honolulu, where he was born, on 7 February 1925, after Julian has told him the year the seal will be opened; he keeps it to the end because his record is dated and safe, because the term guarantees the opening, because he is a native son among *nā Kahuna*, and because he believes Peirce's argument. In 1927 the corrections column gives him the split.
 
 ### CT-EUGEN-GOLDSTEIN — Eugen Goldstein, physicist
 **Status:** Historical person in alternate history (CR-049).
@@ -1612,7 +1612,7 @@ Historical people in alternate careers; no invented scientists are added.
 ### CT-IRVING-LANGMUIR — Irving Langmuir, physical chemist, master of the magnet halls
 **Status:** Historical person in alternate history (CR-050).
 
-**APPROVED — CR-050:** Born in Brooklyn in 1881; a graduate of Columbia's School of Mines, he comes in 1903 to Tesla's electrical institute instead of Göttingen and becomes Tesla's student. About 1908 he makes the first hard-vacuum valves. From 1917 he builds the magnet halls on the western Sierra among the electrochemical works, with Tesla's power, Steinmetz's supply and Dempster's instrument made enormous; the first hall runs in 1919, fails and is rebuilt, and real production follows in the early 1920s. In 1921, at forty, he succeeds Hillebrand as director of the Light and Matter Works and in the seat among the Five, the first custodian of the seal recruited from the Union. In 1928 he names and founds the physics of the hot, charged gas of the halls' ion sources, the seed of a small fusion programme. **Open:** private life and scenes.
+**APPROVED — CR-050:** Born in Brooklyn in 1881; a graduate of Columbia's School of Mines, he comes in 1903 to Tesla's electrical institute instead of Göttingen and becomes Tesla's student. About 1908 he makes the first hard-vacuum valves. From 1917 he builds the magnet halls on the western Sierra among the electrochemical works, with Tesla's power, Steinmetz's supply and Dempster's instrument made enormous; the first hall runs in 1919, fails and is rebuilt, and real production follows in the early 1920s. In 1921, at forty, he succeeds Hillebrand as director of the Light and Matter Works and in the seat among the Five, the first custodian of the seal recruited from the Union (the Works' director keeps it; the keys are the sovereign's and the Polytechnic chief's). In 1928 he names and founds the physics of the hot, charged gas of the halls' ion sources, the seed of a small fusion programme. **Open:** private life and scenes.
 
 **Voice:** Patient, measuring, unimpressed by visions he cannot test.
 
@@ -1654,7 +1654,7 @@ Historical people in alternate careers; no invented scientists are added.
 ### CT-ERNEST-RUTHERFORD — Ernest Rutherford, physicist
 **Status:** Historical person in alternate history (CR-050).
 
-**APPROVED — CR-049, CR-050:** He comes about 1909–1910 and becomes the face of New Zealand's drift towards Pacifica. He refuses to go behind the wall, stays the public face of Pacifican physics, works in the open, knows there is a wall and never asks what lies behind it. In the 1920s he fires heavy-hydrogen nuclei at heavy hydrogen and sees them fuse, at far less energy than the beam costs, and sincerely calls atomic power moonshine, the seal's best cover. **Open:** scenes and private life.
+**APPROVED — CR-049, CR-050:** He comes about 1909–1910 and becomes the face of New Zealand's drift towards Pacifica. He refuses to go behind the wall, stays the public face of Pacifican physics, works in the open, knows there is a wall and never asks what lies behind it. In the 1920s he fires heavy-hydrogen nuclei at heavy hydrogen and sees them fuse, at far less energy than the beam costs, and sincerely calls power from such reactions moonshine; honestly sceptical in public and incurious about the wall, he is the seal's best cover. **Open:** scenes and private life.
 
 **Voice:** Loud, warm, blunt, a man who trusts what he can count.
 

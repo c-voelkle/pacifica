@@ -47,7 +47,7 @@ independence: separate-agents
 | ID | To | Task | Inputs | Withheld | Output | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | H1 | Fresh reviewer | Historical fact-check of every claim presented as historical | CR-050.md | the chat and the drafter's reasoning | `outputs/CR-050/review.md` §1 | done; twelve qualifiers applied, no errors |
-| H2 | Fresh reviewer | Consistency and literary review of the integrated storyline | AGENTS.md, storyline diff, full storyline, CR-050 canon tensions | the chat, CR-050's body and the drafter's notes | `outputs/CR-050/review.md` §2 | see review |
+| H2 | Fresh reviewer | Consistency and literary review of the integrated storyline | AGENTS.md, storyline diff, full storyline, CR-050 canon tensions | the chat, the body of CR-050 and the drafter notes | `outputs/CR-050/review.md` §2 | done; F1–F23 repaired |
 
 ## Checks executed
 
