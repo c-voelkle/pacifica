@@ -378,3 +378,165 @@ EVENTS = [
     (1931, "Tokyo atomic station first power; Pacifican stations follow", "Electricity (atomic, from finance)", "CR-050", "CANON"),
     (1932, "Oil compact with the Gulf", "Fuels (finance oil output)", "CR-020 B6", "CANON"),
 ]
+
+
+# =====================================================================================
+# Second revision, 3 November 2026 (evening): the author's sources, the approved
+# CR-052 CT3 A, B and C and CT5 (amended), and the Max case.
+# =====================================================================================
+
+def set_lever(name, **kw):
+    """Change a lever's Story or Stress value, status or basis in place."""
+    for i, lv in enumerate(LEVERS):
+        if len(lv) > 1 and lv[0] == name:
+            n, label, st, sx, unit, status, basis = lv
+            LEVERS[i] = (n, label, kw.get("story", st), kw.get("stress", sx), unit, kw.get("status", status),
+                         kw.get("basis", basis))
+            return
+    raise KeyError(name)
+
+
+# CT3 A and B, approved by the author on 3 November 2026 ("I absolutely recommend A, B and C").
+set_lever("coal_mult", story=4.0, status="APPROVED (CR-052 CT3 A)",
+          basis="Author, 3 Nov 2026: Realm coal at about four times its historical output by district (Utah's Carbon County and Rock Springs "
+                "mechanized for Pacifican demand). Historically western coal stayed small because California burned oil and hydro.")
+set_lever("gulf_home", story=1.0, status="APPROVED (CR-052 CT3 B)",
+          basis="Author, 3 Nov 2026: all the Pacifican-controlled Gulf crude, after the trust's Asian sales, is shipped home through the canal.")
+
+LEVERS += [
+    ("— CR-052 second revision: oil, vehicles and the Max case —",),
+    ("oil_src", "Home oil output (1 = financial workbook, 2 = CR-052 discovery path in Paths oil_c52)", 2, 1, "switch", "APPROVED (CR-052 CT3 C)",
+     "Author, 3 Nov 2026: find the Los Angeles basin giants 'with the greatest believable haste'. The financial workbook still has the old path; "
+     "its next build should read Paths oil_c52 (see Finance link: extra home oil)."),
+    ("veh_src", "Motor vehicles on the road (1 = built in finance × share kept; 2 = vehicles per person, Paths veh_pp)", 2, 1, "switch",
+     "APPROVED (CR-052 CT5 amended)",
+     "Author, 3 Nov 2026: California must be the most motorized place on earth. Finance Champions!U should build what Finance link shows."),
+    ("cal_mult", "California's vehicles per person against the Realm's average", 1.25, 1.25, "×", "Model estimate",
+     "Historically California had about 1.6 times the US rate (0.36 against 0.22 in 1929, to verify); the Realm's interior counties have fewer."),
+    ("eln_mwh", "Electricity per tonne of nitrogen as ammonia from electrolytic hydrogen", 13, 13, "MWh/t N", "Historical (to verify)",
+     "Norsk Hydro's electrolytic ammonia at Rjukan from 1927–29: about 10–11 MWh per tonne of ammonia, 12–14 MWh per tonne of nitrogen."),
+    ("eln_col", "Share of electrolytic nitrogen on the Columbia", 0.6, 0.6, "share", "Model estimate", "Beside the Columbia's cheap water power."),
+    ("nw_ord", "Northwest's share of ordinary electricity use (Washington, Oregon, Idaho)", 0.22, 0.22, "share", "Model estimate",
+     "Population share of the Northwest counties, about a fifth to a quarter (to verify)."),
+]
+
+# Max case: every source Pacifica can reach and every use that can absorb it. Levers
+# not listed take their Story value.
+MAX = {
+    "elec_pace": 1.15, "ind_w": 0.75, "motor_full": 1.15, "hydro_pace": 1.35, "hydro_firm": 0.6,
+    "colms_on": 1, "colms_dec": 1918, "colms_rate": 400, "colms_max": 3000,
+    "boulder_dec": 1920, "boulder_lead": 6, "mainline_on": 1, "coal_mult": 4.0, "gulf_home": 1.0,
+    "oil_src": 2, "veh_src": 2, "kwh_max": 5000, "int_hi": 1.5, "halls_pos": 0.5,
+}
+MAX_NOTES = {
+    "kwh_max": "Max case: Montana used 3,522 kWh per person for power alone in 1917 (Census of Electrical Industries 1917).",
+    "ind_w": "Max case: factories electrify process heat on cheap hydro (electric furnaces and boilers, as in Norway and Switzerland).",
+}
+
+# ------------------------------------------------------------------ new paths (Story)
+path("oil_c52", "Home oil output, CR-052 discovery path", "m bbl", {1846: 0, 1876: 0.1, 1880: 1, 1885: 4, 1890: 15, 1895: 35, 1900: 70,
+     1905: 120, 1910: 180, 1913: 220, 1917: 270, 1920: 320, 1923: 380, 1925: 400, 1927: 420, 1929: 450, 1931: 450, 1932: 400},
+     "Approved CT3 C. The state survey of the 1876 programme maps the anticlines. Shallow fields first: Los Angeles City and Puente–Brea in "
+     "the early 1880s (historically 1892 and 1880s), Kern River about 1885 (1899), Coalinga and McKittrick about 1890, Midway–Sunset about 1893. "
+     "The deep basin giants need 2,000–4,500 ft: Huntington Beach about 1895 (1920), Signal Hill and Santa Fe Springs 1900–1905 (1921, 1919) "
+     "with the rotary drilling of Spindletop (1897 in canon); Elk Hills 1905 (1919); Kettleman Hills and Wilmington about 1915 (1928, 1932). "
+     "Output is held to what the fields could deliver within a few years of discovery (Signal Hill gave about 90m bbl a year within two years, "
+     "historically) and falls in 1932 under the oil compact.", "APPROVED (CR-052 CT3 C), MODEL")
+path("veh_pp", "Motor vehicles on the road per person", "per person", {1846: 0, 1900: 0, 1905: 0.001, 1910: 0.01, 1913: 0.04, 1917: 0.09,
+     1920: 0.15, 1924: 0.24, 1927: 0.30, 1929: 0.33, 1932: 0.33},
+     "Approved CT5 (amended). US 1929: 26.7m vehicles for 121.8m people, 0.22 (to verify). With California at 1.25 times the Realm's rate "
+     "(0.41 in 1929), it is the most motorized place on earth.", "APPROVED (CR-052 CT5), MODEL")
+path("eln_kt", "Nitrogen as ammonia from electrolytic hydrogen", "kt N", {1846: 0, 1932: 0},
+     "None in the Story case. Max case only.", "Max case")
+path("dry_gas", "Dry gas fields (Rio Vista, Buttonwillow, Kettleman's gas cap)", "PJ", {1846: 0, 1905: 0, 1913: 10, 1920: 40, 1929: 120, 1932: 130},
+     "With C: the survey finds the Sacramento Valley's dry gas early (Rio Vista historically 1936; Buttonwillow 1927). Piped to the Bay cities.",
+     "APPROVED with CT3 C, MODEL")
+path("nw_share", "Northwest's share of ordinary use (memo for the Northwest balance)", "share", {1846: 0.15, 1900: 0.2, 1929: 0.22, 1932: 0.22}, "")
+
+# field capability and reserves, re-derived for C (overwrites the earlier paths)
+path("oil_cap", "Plausible output of the home oilfields", "m bbl", {1846: 0, 1876: 0.2, 1880: 2, 1885: 6, 1890: 25, 1895: 50, 1900: 110,
+     1905: 160, 1910: 230, 1913: 280, 1917: 330, 1920: 380, 1923: 450, 1929: 560, 1932: 560},
+     "What the fields found by each year could deliver if developed hard: the historical peak rates of the fields in oil_c52's basis "
+     "(Long Beach about 90m bbl, Huntington Beach about 40m, Santa Fe Springs about 80m, Midway–Sunset about 45m, Kern River about 20m, "
+     "Elk Hills, Kettleman Hills and Wilmington later; to verify), summed from their canon discovery years.")
+path("oil_known", "Oil known to be recoverable in the home fields (cumulative)", "bn bbl", {1876: 0.01, 1885: 0.3, 1890: 1.5, 1895: 3,
+     1900: 6, 1905: 9, 1910: 11, 1915: 14, 1920: 16, 1932: 19},
+     "The giants' ultimate recovery (Midway–Sunset about 3bn bbl, Wilmington about 3bn, Kern River about 2bn, Belridge about 2bn, "
+     "Elk Hills about 1.3bn, Huntington Beach about 1.1bn, Long Beach about 0.9bn; to verify), counted from canon discovery years at about two-thirds.")
+path("gas_mkt", "Share of oilfield gas marketed", "share", {1890: 0, 1895: 0.1, 1900: 0.2, 1913: 0.4, 1920: 0.55, 1929: 0.7, 1932: 0.72},
+     "The rest is flared or vented. Higher with C: the fields are near the cities earlier.")
+
+# ------------------------------------------------------------------ Max-case paths
+PATHS_MAX = {
+    "oil_c52": {1846: 0, 1876: 0.2, 1880: 2, 1885: 6, 1890: 25, 1895: 50, 1900: 100, 1905: 150, 1910: 210, 1913: 260, 1917: 310,
+                1920: 360, 1923: 420, 1925: 440, 1927: 470, 1929: 520, 1931: 520, 1932: 460},
+    "veh_pp": {1846: 0, 1900: 0, 1905: 0.002, 1910: 0.02, 1913: 0.06, 1917: 0.12, 1920: 0.19, 1924: 0.28, 1927: 0.34, 1929: 0.37, 1932: 0.37},
+    "elec_home": {1880: 0, 1890: 0.02, 1900: 0.12, 1907: 0.3, 1913: 0.55, 1917: 0.7, 1920: 0.8, 1924: 0.9, 1927: 0.95, 1929: 0.97, 1932: 0.98},
+    "kwh_home": {1890: 200, 1900: 300, 1913: 450, 1920: 800, 1924: 1200, 1927: 1500, 1929: 1800, 1932: 2200},
+    "kwh_comm": {1885: 0, 1890: 5, 1900: 35, 1913: 110, 1920: 170, 1927: 250, 1929: 280, 1932: 280},
+    "fact_elec": {1885: 0, 1890: 0.02, 1900: 0.12, 1907: 0.3, 1913: 0.5, 1917: 0.62, 1920: 0.72, 1924: 0.82, 1927: 0.88, 1929: 0.92, 1932: 0.94},
+    "alu_kt": {1888: 0, 1890: 0.2, 1895: 1, 1900: 4, 1907: 12, 1913: 40, 1917: 80, 1920: 100, 1922: 110, 1924: 150, 1927: 220, 1929: 280,
+               1930: 240, 1932: 180},
+    "alu_col": {1900: 0, 1907: 3, 1913: 12, 1920: 35, 1923: 50, 1924: 70, 1927: 110, 1929: 150, 1932: 100},
+    "carb_kt": {1892: 0, 1895: 4, 1900: 25, 1913: 80, 1920: 140, 1927: 220, 1929: 250, 1932: 160},
+    "chlor_kt": {1895: 0, 1900: 4, 1913: 35, 1920: 80, 1929: 180, 1932: 150},
+    "esteel": {1907: 0.005, 1913: 0.03, 1917: 0.08, 1920: 0.1, 1929: 0.2, 1932: 0.22},
+    "abras_kt": {1895: 0, 1900: 2, 1913: 10, 1920: 25, 1929: 50, 1932: 45},
+    "eln_kt": {1846: 0, 1920: 0, 1922: 10, 1925: 60, 1927: 100, 1929: 150, 1932: 180},
+    "haber_kt": {1846: 0, 1932: 0},
+    "rail_el": {1846: 0, 1910: 0, 1913: 0.02, 1915: 0.05, 1920: 0.15, 1925: 0.35, 1929: 0.5, 1932: 0.6},
+    "rail_kwh": {1888: 0, 1890: 4, 1900: 35, 1907: 80, 1913: 120, 1920: 140, 1924: 140, 1929: 130, 1932: 120},
+    "pump_acres": {1890: 0, 1900: 0.05, 1907: 0.4, 1913: 1.2, 1920: 2.0, 1927: 3.2, 1929: 3.8, 1932: 4.2},
+    "dry_gas": {1846: 0, 1900: 0, 1905: 5, 1913: 25, 1920: 70, 1929: 180, 1932: 200},
+    "bld_wood": {1846: 1.0, 1880: 0.8, 1900: 0.5, 1913: 0.3, 1920: 0.2, 1929: 0.12, 1932: 0.1},
+}
+MAX_BASIS = ("Max case: every source Pacifica can reach and every use that can absorb it. Electric cooking and water heating on cheap hydro "
+             "(Ontario and Norway levels), aluminium at half the world's 1929 output, electric steel, ammonia from electrolytic hydrogen "
+             "(Norsk Hydro's route), half the main lines electrified, the Central Valley pumped.")
+
+# ------------------------------------------------------------------ anchors from the author's sources
+_US = {k: i for i, (k, *_r) in enumerate(US_SERIES)}
+_k, _l, _u, _v, _s, _st = US_SERIES[_US["us_cap"]]
+US_SERIES[_US["us_cap"]] = (_k, _l, _u, _v, _s + "; 1907, 1912 and 1917 checked against the 1917 Census of Electrical Industries "
+                            "(2,709,225, 5,165,439 and 8,994,407 kW)", "VERIFIED 1907–1917; TO VERIFY otherwise")
+
+ANCHOR_FACTS += [
+    ("US", "Central stations: generating capacity", "kW", 1907, 2709225, "Census of Electrical Industries 1917, comparative summary", "VERIFIED"),
+    ("US", "Central stations: generating capacity", "kW", 1912, 5165439, "Census of Electrical Industries 1917, comparative summary", "VERIFIED"),
+    ("US", "Central stations: generating capacity", "kW", 1917, 8994407, "Census of Electrical Industries 1917, comparative summary", "VERIFIED"),
+    ("US", "Central stations: electricity generated", "m kWh", 1907, 5862, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("US", "Central stations: electricity generated", "m kWh", 1912, 11569, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("US", "Central stations: electricity generated", "m kWh", 1917, 25438, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("US", "Central-station power sold per person, districts served", "kWh", 1917, 200, "Census of Electrical Industries 1917 (210 with the large plants omitted)", "VERIFIED"),
+    ("California", "Central stations: dynamo capacity", "kW", 1917, 817194, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("California", "Central stations and electric railways: electricity generated", "m kWh", 1917, 2769, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("California", "Central-station electricity per person: light / power", "kWh", 1917, "152 / 489", "Census of Electrical Industries 1917", "VERIFIED"),
+    ("California", "Hydroelectric plants: water horsepower", "hp", 1917, 1114356, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("California", "Average price of hydro power sold", "cents/kWh", 1917, 1.5, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("Montana", "Central-station power per person (mining and smelting)", "kWh", 1917, 3522, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("Pacific division", "Central-station electricity per person: light / power", "kWh", 1917, "124 / 372", "Census of Electrical Industries 1917", "VERIFIED"),
+    ("Washington", "Central stations and electric railways: electricity generated", "m kWh", 1917, 869, "Census of Electrical Industries 1917", "VERIFIED"),
+    ("US", "Manufacturing: electric motors' share of mechanical drive", "share", 1899, 0.048, "Devine (1983), Table 3 (475 of 9,853 thousand hp)", "VERIFIED"),
+    ("US", "Manufacturing: electric motors' share of mechanical drive", "share", 1909, 0.247, "Devine (1983), Table 3 (4,582 of 18,563)", "VERIFIED"),
+    ("US", "Manufacturing: electric motors' share of mechanical drive", "share", 1919, 0.531, "Devine (1983), Table 3 (15,612 of 29,394)", "VERIFIED"),
+    ("US", "Manufacturing: electric motors' share of mechanical drive", "share", 1929, 0.784, "Devine (1983), Table 3 (33,844 of 43,158)", "VERIFIED"),
+    ("US", "Manufacturing: electric motor capacity", "thousand hp", 1929, 33844, "Devine (1983), Table 3", "VERIFIED"),
+    ("California", "Crude oil output", "m bbl", 1931, 188, "Minerals Yearbook 1932–33, chart p. 472 (read from the bars, ±3)", "VERIFIED"),
+    ("Texas", "Crude oil output", "m bbl", 1932, 312, "Minerals Yearbook 1932–33, chart p. 472 (read from the bars, ±3)", "VERIFIED"),
+    ("Oklahoma", "Crude oil output", "m bbl", 1932, 153, "Minerals Yearbook 1932–33, chart p. 472 (read from the bars, ±3)", "VERIFIED"),
+    ("California", "Largest fields", "rank", 1932, "Long Beach, Santa Fe Springs, Kettleman Hills", "Minerals Yearbook 1932–33, p. 472", "VERIFIED"),
+]
+# California 1932 oil and the Devine shares now verified
+for i, f in enumerate(ANCHOR_FACTS):
+    if f[0] == "California" and f[1] == "Crude oil output" and f[3] == 1932:
+        ANCHOR_FACTS[i] = f[:5] + ("Minerals Yearbook 1932–33, chart p. 472 (about 178)", "VERIFIED")
+    if f[1] == "Factory horsepower on electric drive":
+        ANCHOR_FACTS[i] = f[:4] + ({1909: 0.247, 1919: 0.531, 1929: 0.784}[f[3]], "Devine (1983), Table 3", "VERIFIED")
+
+EVENTS += [
+    (1882, "Los Angeles City and Puente–Brea fields (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
+    (1885, "Kern River field (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
+    (1895, "Huntington Beach found by the survey (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
+    (1902, "Signal Hill and Santa Fe Springs with rotary drilling (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
+    (1915, "Kettleman Hills and Wilmington (CR-052 C)", "Fuels (oil_c52)", "CR-052 CT3 C", "APPROVED (dates MODEL)"),
+]

@@ -122,6 +122,12 @@ def q(name: str) -> str:
 
 
 def interp_path(key: str, r: int) -> str:
+    if key + "__max" in PATH_ROW:
+        return f"IF(case_sel=3,{_interp_row(key + '__max', r)},{_interp_row(key, r)})"
+    return _interp_row(key, r)
+
+
+def _interp_row(key: str, r: int) -> str:
     p = PATH_ROW[key]
     a, b = PATH_COLS
     yrs = f"Paths!${a}$5:${b}$5"
@@ -171,7 +177,7 @@ PO = "People & output"
 def spec_people():
     cols = []
     for k in FIN_KEYS:
-        cols.append(Col(k, None, f"IF(case_sel=1,{{{k}_s}},{{{k}_t}})", kind="calc"))
+        cols.append(Col(k, None, f"IF(case_sel=2,{{{k}_t}},{{{k}_s}})", kind="calc"))
     cols += [
         Col("gold", "Gold and silver ($m)", "{gold_ca}+{gold_int}", "#,##0.0"),
         Col("homes", "Homes (thousand)", "{pop_all}/{P:hh_size}/1000", "#,##0"),
@@ -188,7 +194,7 @@ def spec_people():
     for k in FIN_KEYS:
         cols.append(Col(k + "_t", None, None, kind="ext"))
     sheet(PO, "People and output", "Population, output and industry from the financial workbook (Story and Stress), "
-          "with the case picked by Levers!E4. No independent population: the energy model only multiplies these.", cols)
+          "with the case picked by Levers!E4 (the Max case uses the Story values). No independent population: the energy model only multiplies these.", cols)
 
 
 def spec_hydro():
@@ -273,7 +279,7 @@ def spec_strategic():
           "The halls, the feed plant, the Columbia station and the walled college are MODEL figures from CR-050 and CR-051.", cols)
 
 
-ECHEM = ["e_alu", "e_arc", "e_haber", "e_carb", "e_chlor", "e_esteel", "e_falloy", "e_abras"]
+ECHEM = ["e_alu", "e_arc", "e_haber", "e_eln", "e_carb", "e_chlor", "e_esteel", "e_falloy", "e_abras"]
 
 
 def spec_uses():
@@ -287,6 +293,7 @@ def spec_uses():
         Col("e_alu", "Aluminium", "{P:alu_kt}*{P:alu_mwh}", group="Electrochemistry and electrometallurgy (GWh)"),
         Col("e_arc", "Arc nitrogen", "{P:arc_kt}*arc_mwh"),
         Col("e_haber", "Haber–Bosch nitrogen", "{P:haber_kt}*haber_mwh"),
+        Col("e_eln", "Electrolytic nitrogen (Max case)", "{P:eln_kt}*eln_mwh"),
         Col("e_carb", "Calcium carbide", "{P:carb_kt}*carbide_mwh"),
         Col("e_chlor", "Chlor-alkali", "{P:chlor_kt}*chlor_mwh"),
         Col("e_esteel", "Electric steel", "{People & output:steel}*1000*{P:esteel}*esteel_mwh"),
@@ -301,8 +308,14 @@ def spec_uses():
         Col("e_ord", "Ordinary uses", "{e_home}+{e_comm}+{e_motor}+{e_echem}+{e_mine}+{e_rail}+{e_pump}"),
         Col("e_strat", "Strategic loads (halls, station, valley)", "{Strategic loads:strat_gwh}", kind="link"),
         Col("e_total", "All electricity used", "{e_ord}+{e_strat}"),
-        Col("veh", "Motor vehicles on the road (thousand)", "{veh@p}*(1-car_scrap)+{People & output:cars}*car_home",
-            first="{People & output:cars}*car_home", group="Fuel (PJ)"),
+        Col("veh", "Motor vehicles on the road (thousand)",
+            "IF(veh_src=2,{P:veh_pp}*{People & output:pop_all}/1000,{veh@p}*(1-car_scrap)+{People & output:cars}*car_home)",
+            first="IF(veh_src=2,{P:veh_pp}*{People & output:pop_all}/1000,{People & output:cars}*car_home)", group="Fuel (PJ)",
+            note="veh_src = 2: vehicles per person (Paths veh_pp, CR-052 CT5); 1: the financial workbook's build × share kept."),
+        Col("veh_pp", "Vehicles per person", "IF({People & output:pop_all}>0,{veh}*1000/{People & output:pop_all},0)", "0.00", kind="key"),
+        Col("veh_cal", "California's vehicles per person (memo)", "{veh_pp}*cal_mult", "0.00"),
+        Col("veh_build", "Vehicles the finance workbook must build (thousand)", "MAX(0,{veh}-{veh@p}*(1-car_scrap))/car_home",
+            first="{veh}/car_home", note="New vehicles for the road, plus exports at the same share as now."),
         Col("gasoline", "Motor fuel (m bbl)", "{veh}/1000*{P:gal_veh}", "#,##0.0"),
         Col("f_motor", "Motor fuel", "{gasoline}*5.54", "#,##0.0"),
         Col("f_lamp", "Lamp oil", "{People & output:homes}*{P:lamp_bbl}/1000*5.98", "#,##0.0"),
@@ -375,6 +388,13 @@ def spec_electricity():
         Col("mult_gen", "Multiplier: electricity per person vs US", "IF({us_kwh_pp}>0,{kwh_pp}/{us_kwh_pp},\"\")", "0.00", kind="key"),
         Col("halls_cap", "Halls / capacity", "IF({cap}>0,{Strategic loads:halls_mw}/{cap},0)", "0.0%", kind="key", group="The halls (CR-051)"),
         Col("halls_el", "Halls / electricity used", "IF({ord}+{strat}>0,{Strategic loads:halls_gwh}/({ord}+{strat}),0)", "0.0%", kind="key"),
+        Col("nw_gen", "Northwest generation needed (GWh)",
+            "(({ord}-{Uses:e_echem})*{P:nw_share}+{P:alu_col}*{P:alu_mwh}+{Uses:e_eln}*eln_col+0.3*({Uses:e_echem}-{Uses:e_alu}-{Uses:e_eln}))/(1-{loss})"
+            "+{Strategic loads:st_gwh}/(1-strat_loss)", group="The Northwest's own balance",
+            note="Ordinary load at the Northwest's share, Columbia aluminium, electrolytic nitrogen on the Columbia, a third of the rest of electrochemistry, the Columbia station."),
+        Col("nw_hyd", "Northwest hydro available (GWh)", "{Hydro:av_col}+{Hydro:av_wil}+{Hydro:av_rock}+{Hydro:av_colms}+0.5*{Hydro:av_int}"),
+        Col("nw_spare", "Northwest hydro beyond its own load (GWh)", "MAX(0,{nw_hyd}-{nw_gen})", kind="key",
+            note="No 1920s line could carry it to California: it needs more Northwest industry or a tie line. The pooled balance above counts it as usable."),
         Col("hyd_dry", "Hydro in a dry year (GWh)", "({Hydro:av_main}+{Hydro:av_haw_t})/{Hydro:rain}*dry_factor", group="Dry-year test"),
         Col("av_dry", "Supply possible in a dry year (GWh)", "{hyd_dry}+{th_cap}*8.76*0.85+{atom}"),
         Col("short_dry", "Shortfall in a dry year (GWh)", "MAX(0,{gen}-{av_dry})"),
@@ -394,7 +414,8 @@ def spec_fuels():
         Col("flex_pj", "Oil wanted where coal could serve (PJ)", f"{{{O}:f_rail}}*{{P:rail_oil}}+{{{O}:f_ind}}*{{P:ind_oil}}+{{{O}:f_bld}}*{{P:bld_oil}}"
             "+{Electricity:pj_oil}+{gas_short}", "#,##0.0", note="Railways, industry, buildings and power stations at their wanted oil shares, plus gas that is not there."),
         Col("E", "Exports to Asia from home refineries (m bbl)", "{People & output:asia_oil}*asia_home", "#,##0.0"),
-        Col("home", "Home oilfields (m bbl)", "{People & output:oil_out}", "#,##0.0", kind="link"),
+        Col("home", "Home oilfields (m bbl)", "IF(oil_src=2,{P:oil_c52},{People & output:oil_out})", "#,##0.0", kind="key",
+            note="oil_src = 2: CR-052's discovery path (Paths oil_c52); 1: the financial workbook."),
         Col("gulf_av", "Gulf crude that can come home (m bbl)", "IF({A}>=1901,MAX(0,{People & output:gulf_crude}*{People & output:gulf_share}"
             "-{People & output:asia_oil}*(1-asia_home))*gulf_home,0)", "#,##0.0"),
         Col("imp_max", "Most oil that can be imported (m bbl)", "{gulf_av}+{P:other_imp}", "#,##0.0"),
@@ -412,11 +433,11 @@ def spec_fuels():
         Col("cap_oil", "Plausible field output (m bbl)", "{P:oil_cap}", "#,##0.0"),
         Col("cum", "Home output to date (bn bbl)", "{cum@p}+{home}/1000", "0.00", first="{home}/1000"),
         Col("known", "Known recoverable (bn bbl)", "{P:oil_known}", "0.00"),
-        Col("gas_sup", "Marketed oilfield gas (PJ)", "{home}*{P:gor}*1.087*{P:gas_mkt}", "#,##0.0", group="Gas (PJ)"),
+        Col("gas_sup", "Marketed gas: oilfields and dry fields (PJ)", "{home}*{P:gor}*1.087*{P:gas_mkt}+{P:dry_gas}", "#,##0.0", group="Gas (PJ)"),
         Col("gas_dem", "Gas wanted", f"{{{O}:f_ind}}*{{P:ind_gas}}+{{{O}:f_bld}}*{{P:bld_gas}}+{{{O}:f_haber}}+{{Electricity:pj_gas}}", "#,##0.0"),
         Col("gas_used", "Gas used", "MIN({gas_sup},{gas_dem})", "#,##0.0"),
         Col("gas_short", "Shortfall made up with oil", "{gas_dem}-{gas_used}", "#,##0.0"),
-        Col("flared", "Gas flared or vented", "{home}*{P:gor}*1.087-{gas_used}", "#,##0.0"),
+        Col("flared", "Gas flared, vented or left in the ground", "{home}*{P:gor}*1.087+{P:dry_gas}-{gas_used}", "#,##0.0"),
         Col("coal_pj", "Solid fuel needed beyond the wood shares (PJ)", f"{{{O}:f_navy_coal}}+{{{O}:f_rail}}*(1-{{P:rail_oil}}-{{P:rail_wood}})+"
             f"{{{O}:f_ind}}*(1-{{P:ind_oil}}-{{P:ind_gas}}-{{P:ind_wood}})+{{{O}:f_steel}}+{{{O}:f_bld}}*(1-{{P:bld_wood}}-{{P:bld_gas}}-{{P:bld_oil}})+"
             "{Electricity:pj_coal}+{to_coal}", "#,##0.0", group="Coal"),
@@ -473,6 +494,10 @@ def spec_finance():
         Col("v_oexp", "Other crude exported ($m)", "{Fuels:oexp}*{People & output:oil_price}", "#,##0.0"),
         Col("v_asia", "Home oil sold in Asia ($m, memo: in finance)", "{Fuels:E}*{People & output:oil_price}", "#,##0.0"),
         Col("v_coal", "Coal imported ($m)", "{Fuels:coal_imp}*coal_price*{People & output:price}", "#,##0.0"),
+        Col("x_oil", "Home oil above the finance workbook's path (m bbl)", "{Fuels:home}-{People & output:oil_out}", "#,##0.0",
+            group="What the financial workbook would need", note="For its next build (CR-052 CT3 C)."),
+        Col("x_oil_v", "… its value at the finance price ($m)", "{x_oil}*{People & output:oil_price}", "#,##0.0"),
+        Col("x_veh", "Vehicles to build above the finance workbook's path (thousand)", "{Uses:veh_build}-{People & output:cars}", "#,##0"),
         Col("v_net", "Net fuel trade outside the finance workbook ($m)", "{v_oexp}-{v_imp}-{v_coal}", "#,##0.0", kind="key"),
     ]
     sheet("Finance link", "Link to the financial workbook", "What power costs and earns, and the fuel trade, in money. "
@@ -583,18 +608,18 @@ def write_levers(wb):
     ws["A1"] = "Energy levers"
     ws["A1"].font = F_TITLE
     ws["A2"] = ("Every scalar assumption in one place. Pick the case in E4: it switches every lever and also which of the "
-                "financial workbook's two cases feeds People & output.")
+                "financial workbook's two cases feeds People & output (the Max case uses the Story values).")
     ws["A2"].font = F_NOTE
-    ws["A3"] = "Blue = input · the Active column feeds the model through the named range in column I."
+    ws["A3"] = "Blue = input · the Active column feeds the model through the named range in column J."
     ws["A3"].font = F_NOTE
-    ws["B4"] = "Case in use (1 = Story case, 2 = Stress case)"
+    ws["B4"] = "Case in use (1 = Story, 2 = Stress, 3 = Max)"
     ws["B4"].font = F_HEAD
     ws["E4"] = 1
     ws["E4"].font = F_IN
     ws["E4"].fill = FILL_KEY
-    ws["F4"] = '=IF(E4=1,"Story case","Stress case")'
+    ws["F4"] = '=CHOOSE(E4,"Story case","Stress case","Max case")'
     wb.defined_names["case_sel"] = DefinedName("case_sel", attr_text="Levers!$E$4")
-    for i, h in enumerate(["Lever", "Story case", "Stress case", "Active", "Unit", "Status", "Basis and notes", "Name"], start=2):
+    for i, h in enumerate(["Lever", "Story case", "Stress case", "Max case", "Active", "Unit", "Status", "Basis and notes", "Name"], start=2):
         style_head(ws, 6, i, h)
     r = 7
     for lv in LEVERS:
@@ -603,19 +628,25 @@ def write_levers(wb):
             r += 1
             continue
         name, label, st, sx, unit, status, basis = lv
+        mx = I.MAX.get(name, st)
+        if name in I.MAX_NOTES:
+            basis = (basis + " " + I.MAX_NOTES[name]).strip()
         ws.cell(r, 2, label).font = F_CALC
         ws.cell(r, 3, st).font = F_IN
         ws.cell(r, 4, sx).font = F_IN
-        ws.cell(r, 5, f"=IF(case_sel=1,C{r},D{r})").font = F_CALC
-        ws.cell(r, 6, unit)
-        ws.cell(r, 7, status)
-        ws.cell(r, 8, basis).alignment = WRAP
-        ws.cell(r, 9, name).font = F_NOTE
-        if status == "OPEN":
-            ws.cell(r, 7).fill = FILL_KEY
-        wb.defined_names[name] = DefinedName(name, attr_text=f"Levers!$E${r}")
+        ws.cell(r, 5, mx).font = F_IN
+        if mx != st:
+            ws.cell(r, 5).fill = FILL_KEY
+        ws.cell(r, 6, f"=CHOOSE(case_sel,C{r},D{r},E{r})").font = F_CALC
+        ws.cell(r, 7, unit)
+        ws.cell(r, 8, status)
+        ws.cell(r, 9, basis).alignment = WRAP
+        ws.cell(r, 10, name).font = F_NOTE
+        if "OPEN" in status:
+            ws.cell(r, 8).fill = FILL_KEY
+        wb.defined_names[name] = DefinedName(name, attr_text=f"Levers!$F${r}")
         r += 1
-    for col, w in zip("ABCDEFGHI", [3, 58, 11, 11, 11, 22, 22, 80, 14]):
+    for col, w in zip("ABCDEFGHIJ", [3, 58, 10, 10, 10, 10, 20, 22, 80, 14]):
         ws.column_dimensions[col].width = w
     ws.freeze_panes = "C7"
 
@@ -645,7 +676,8 @@ def write_paths(wb):
     ws["A2"] = ("Story-case inputs at benchmark years; the yearly sheets interpolate linearly between them by formula. "
                 "Bold blue = value set by the author or the builder; pale italic = filled in between, edit freely.")
     ws["A2"].font = F_NOTE
-    years = sorted(set(I.PATH_YEARS) | {y for v in I.PATHS.values() for y in v[2] if Y0 <= y <= Y1})
+    years = sorted(set(I.PATH_YEARS) | {y for v in I.PATHS.values() for y in v[2] if Y0 <= y <= Y1}
+                   | {y for v in I.PATHS_MAX.values() for y in v if Y0 <= y <= Y1})
     for i, h in enumerate(["Key", "Series", "Unit"], start=1):
         style_head(ws, 5, i, h)
     c0 = 4
@@ -671,6 +703,23 @@ def write_paths(wb):
             cell.number_format = "General"
         ws.cell(r, cb, basis).alignment = Alignment(vertical="top")
         ws.cell(r, cs, status)
+        r += 1
+    r += 1
+    ws.cell(r, 2, "Max case (used when Levers!E4 = 3; other series take their Story path)").font = F_HEAD
+    r += 1
+    for key, points in I.PATHS_MAX.items():
+        label, unit = I.PATHS[key][0], I.PATHS[key][1]
+        PATH_ROW[key + "__max"] = r
+        ws.cell(r, 1, key + "__max").font = F_NOTE
+        ws.cell(r, 2, label + " (Max)")
+        ws.cell(r, 3, unit)
+        filled = fill_points(points, years)
+        for j, y in enumerate(years):
+            v, given = filled[y]
+            cell = ws.cell(r, c0 + j, round(v, 6))
+            cell.font = Font(name=FONT, color="0000FF", bold=True) if given else F_IN_FILL
+        ws.cell(r, cb, I.MAX_BASIS).alignment = Alignment(vertical="top")
+        ws.cell(r, cs, "Max case")
         r += 1
     ws.column_dimensions["A"].width = 11
     ws.column_dimensions["B"].width = 52
@@ -784,7 +833,7 @@ def write_start(wb, sha):
         "Its main job is to make the multiplier of Pacifica's electricity per person against the United States an output, built from sources and uses.",
         "Territory: the Realm's counties and Hawaii. Partners and assets abroad count only through trade (oil from the Gulf, oil sold in Asia).",
         "Two layers: primary energy (PJ, with Mtoe) and electricity (MW, GWh). Hydro and atomic power count at their fossil-fuel equivalent, as in the US historical series.",
-        "Case: Levers!E4 (1 = Story, 2 = Stress) switches every lever and picks which of the financial workbook's two cases feeds People & output.",
+        "Case: Levers!E4 (1 = Story, 2 = Stress, 3 = Max) switches every lever and picks which of the financial workbook's cases feeds People & output. Max = every source Pacifica can reach and every use that can absorb it, on the Story finance drivers (CR-052, exploration).",
         f"Financial workbook imported: SHA-256 {sha}. Rebuild with energy/build/ when that workbook changes (see energy/README.md).",
         "Conventions: years down the page (row 6 = 1846, row 92 = 1932); blue input, black formula, green link, red imported from finance; yellow = key result. All results MODEL.",
     ]
@@ -831,7 +880,11 @@ def write_start(wb, sha):
         ("Oil for railways, industry and power: share of wanted", "share", "{Fuels:k}", "0%"),
         ("Share of primary energy that would have to be imported", "share", "{Fuels:imp_sh}", "0%"),
         ("… that can actually be imported", "share", "{Fuels:imp_sh2}", "0%"),
-        ("Motor vehicles per person", "per person", "{Uses:veh}*1000/{People & output:pop_all}", "0.00"),
+        ("Motor vehicles per person", "per person", "{Uses:veh_pp}", "0.00"),
+        ("… California (memo)", "per person", "{Uses:veh_cal}", "0.00"),
+        ("Vehicles to build a year", "thousand", "{Uses:veh_build}", "#,##0"),
+        ("Home oil above the finance workbook's path", "m bbl", "{Finance link:x_oil}", "#,##0"),
+        ("Northwest hydro beyond its own load", "TWh", "{Electricity:nw_spare}/1000", "#,##0.0"),
         ("Power investment", "$m", "{Finance link:capex}", "#,##0"),
         ("Power investment / GDP", "share", "{Finance link:capex_gdp}", "0.0%"),
         ("Checks failing this year", "tests", "{Checks:prob}", "@"),
@@ -868,7 +921,8 @@ def write_start(wb, sha):
     opens = [
         "Hetch Hetchy: the valley is the college; San Francisco's water and the valley's power come from the Eleanor–Cherry system (CR-051 C2). No switch needed.",
         "Big dams earlier: Boulder Canyon at its historical dates (boulder_dec 1928, no power before 1932); Rock Island as canon (1920–23); a mid-Columbia chain as an option (colms_on, off). No early Grand Coulee.",
-        "Main-line railway electrification: mainline_on (Story 1, PROPOSED; Stress 0), share of traffic by year in Paths rail_el.",
+        "Main-line railway electrification: mainline_on (Story 1, PROPOSED; Stress 0; Max 1 with half the traffic by 1929).",
+        "Oil (approved CT3 A–C): Realm coal at 4×, all Gulf crude home, home oil on the discovery path oil_c52 (oil_src = 2). Motor vehicles per person (veh_src = 2) so that California is the most motorized place on earth.",
         "Hawaii: hilo_src (1 = oil-fired steam, the default; 2 = windward hydro, which fails the check).",
         "Nitrogen after 1919: the arc runs to 1928–29 then stops (Paths arc_kt); Haber–Bosch from 1925 (Paths haber_kt).",
         "The Five's power seat: the Electricity sheet shows what that seat oversees (capacity, generation, investment).",
@@ -889,7 +943,7 @@ def write_changes(wb, sha):
     ws["A1"].font = F_TITLE
     for i, h in enumerate(["Date", "CR", "Change", "Built from"], start=1):
         style_head(ws, 4, i, h)
-    ws.append(["2026-11-03", "CR-052", "First build: fourteen sheets per the energy-workbook handoff; anchors; nine checks. Second build after the fresh-context review: one industrial weight (ind_w) for motors and fuel; mid-Columbia chain off; Boulder at historical dates.",
+    ws.append(["2026-11-03", "CR-052", "First build: fourteen sheets per the energy-workbook handoff; anchors; nine checks. Second build after the fresh-context review: one industrial weight (ind_w) for motors and fuel; mid-Columbia chain off; Boulder at historical dates. Third build: the author's sources (1917 Census of Electrical Industries, Devine 1983, Minerals Yearbook 1932); CT3 A–C and CT5 approved into the Story case; the Max case.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w
