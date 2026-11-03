@@ -68,4 +68,4 @@ independence: separate-agents
 
 ## Resume here
 
-CR-050 is integrated on `integrate/cr-050`, stacked on `integrate/cr-049` (PR #59); merge #59 first. Open: the college's site (Q1), the desert test's site and date (Q2), whose name for the split sticks (Q3), and a workbook revision for the halls' and the Tokyo station's new dates (Q4). Next CRs still queued from CR-049: how Pacifica mines and buys more uranium; Canada policy (affects Dempster); element names; O4 expeditions; thorium.
+CR-050 is integrated on `integrate/cr-050`, PR #60, stacked on `integrate/cr-049` (PR #59); merge #59 first. Open: the college's site (Q1), the desert test's site and date (Q2), whose name for the split sticks (Q3), and a workbook revision for the halls' and the Tokyo station's new dates (Q4). Next CRs still queued from CR-049: how Pacifica mines and buys more uranium; Canada policy (affects Dempster); element names; O4 expeditions; thorium.
