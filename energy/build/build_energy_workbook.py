@@ -202,7 +202,7 @@ def spec_hydro():
         Col("cap_boulder", "Boulder Canyon (MW)", "IF({A}>=boulder_dec+boulder_lead,MIN(1345,({A}-boulder_dec-boulder_lead+1)*330),0)",
             note="Built up at 330 MW a year to 1,345 MW from the decision plus lead time (Levers). OPEN."),
         Col("cap_colms", "Mid-Columbia chain (MW)", "IF(AND(colms_on=1,{A}>=colms_dec+dam_lead+1),MIN(colms_max,({A}-colms_dec-dam_lead)*colms_rate),0)",
-            note="PROPOSED (CR-052): low main-stem dams with ladders above Rock Island. Built up from decision + lead time."),
+            note="PROPOSED (CR-052): low main-stem dams with ladders above Rock Island; first power in the year after decision + lead time."),
         Col("cap_total", "All hydro (MW)", "+".join(f"{{cap_{k}}}" for k, *_ in BASINS) + "+{cap_works}+{cap_rock}+{cap_boulder}+{cap_colms}",
             group="Totals"),
         Col("rain", "Rainfall (× normal)", "IF({A}=dry_year,dry_factor,1)", "0.00"),
@@ -227,7 +227,7 @@ def spec_hydro():
         Col("u_max", "Highest basin", "MAX({u_pit},{u_col},{u_colo}," + ",".join(f"{{cap_{k}}}/pot_{k}" for k, *_ in BASINS
                                                                               if k not in ("pit", "col", "colo")) + ")", "0%"),
         Col("lead_ok", "Strategic dams after their lead time (1 = yes)",
-            "IF(AND({A}<works_dec+dam_lead,{cap_works}>0),0,1)*IF(AND({A}<rock_dec+dam_lead,{cap_rock}>0),0,1)", "0",
+            "IF(AND({A}<works_dec+dam_lead,{cap_works}>0),0,1)*IF(AND({A}<rock_dec+dam_lead,{cap_rock}>0),0,1)*IF(AND({A}<colms_dec+dam_lead+1,{cap_colms}>0),0,1)*IF(AND({A}<boulder_dec+boulder_lead,{cap_boulder}>0),0,1)", "0",
             group="Lead time"),
     ]
     sheet("Hydro", "Hydro by river basin", "Nameplate capacity by basin (Story path × hydro pace), the strategic dams, output in "
@@ -282,7 +282,8 @@ def spec_uses():
         Col("e_home", "Households", "{homes_el}*{P:kwh_home}/1000"),
         Col("e_comm", "Commerce and public lighting", "{People & output:pop_all}*{P:kwh_comm}*elec_pace/1000000"),
         Col("fact", "Factory horsepower electric", "MIN(1,{P:fact_elec}*elec_pace)", "0%"),
-        Col("e_motor", "Industry, motors", "{People & output:gdp_real}*{fact}*motor_full"),
+        Col("e_motor", "Industry, motors", "{People & output:gdp_real}*ind_w*{fact}*motor_full",
+            note="Real GDP × industrial weight (ind_w) × factory horsepower electric × kWh per 1913 $ of US-type output (motor_full)."),
         Col("e_alu", "Aluminium", "{P:alu_kt}*{P:alu_mwh}", group="Electrochemistry and electrometallurgy (GWh)"),
         Col("e_arc", "Arc nitrogen", "{P:arc_kt}*arc_mwh"),
         Col("e_haber", "Haber–Bosch nitrogen", "{P:haber_kt}*haber_mwh"),
@@ -309,7 +310,8 @@ def spec_uses():
         Col("f_navy_coal", "Navy coal", "{P:navy_coal}*coal_gj", "#,##0.0"),
         Col("f_bunker", "Merchant bunkers", "{P:bunker}*6.63", "#,##0.0"),
         Col("f_rail", "Steam railways", "{People & output:pop_all}*{P:rail_gj}/1000000*(1-IF(mainline_on=1,{P:rail_el},0))", "#,##0.0"),
-        Col("f_ind", "Industry: fuel and steam", "{People & output:gdp_real}*{P:ind_mj}/1000", "#,##0.0"),
+        Col("f_ind", "Industry: fuel and steam", "{People & output:gdp_real}*{P:ind_mj}/1000", "#,##0.0",
+            note="ind_mj already reflects Pacifica's lighter industry (about 0.35–0.4 of US intensity), consistent with ind_w."),
         Col("f_steel", "Steel: coke and coal", "{People & output:steel}*{P:steel_gj}", "#,##0.0"),
         Col("f_haber", "Haber–Bosch: gas", "{P:haber_kt}*haber_gj/1000", "#,##0.0"),
         Col("f_bld", "Heating and cooking", "({People & output:homes}*{P:gj_home}+{People & output:pop_all}/1000*{P:gj_comm})/1000", "#,##0.0"),
@@ -437,7 +439,8 @@ def spec_fuels():
         Col("s_atom", "Atomic", "{Electricity:pj_atom}", "#,##0"),
         Col("prim", "All primary energy", "{s_oil}+{s_coal}+{s_gas}+{s_wood}+{s_hydro}+{s_atom}", "#,##0", kind="key"),
         Col("mtoe", "All primary energy (Mtoe)", "{prim}/41.868", "#,##0.0"),
-        Col("imp_sh", "Share of primary energy imported", "IF({prim}>0,({imp}*6.12+{coal_imp}*coal_gj)/{prim},0)", "0%", kind="key"),
+        Col("imp_sh", "Share of primary energy that would have to be imported", "IF({prim}>0,({imp}*6.12+{coal_imp}*coal_gj)/{prim},0)", "0%", kind="key"),
+        Col("imp_sh2", "Share that can actually be imported", "IF({prim}>0,({imp}*6.12+MIN({coal_imp},{coal_imp_cap})*coal_gj)/{prim},0)", "0%", kind="key"),
         Col("gj_pp", "Per person (GJ)", "IF({People & output:pop_all}>0,{prim}*1000000/{People & output:pop_all},0)", "#,##0",
             group="Intensity"),
         Col("mj_d", "Per 1913 $ of real GDP (MJ)", "IF({People & output:gdp_real}>0,{prim}/{People & output:gdp_real}*1000,0)", "#,##0"),
@@ -826,7 +829,8 @@ def write_start(wb, sha):
         ("Coal imported", "Mt", "{Fuels:coal_imp}", "#,##0.0"),
         ("Coal beyond reach", "Mt", "{Fuels:coal_gap}", "#,##0.0"),
         ("Oil for railways, industry and power: share of wanted", "share", "{Fuels:k}", "0%"),
-        ("Share of primary energy imported", "share", "{Fuels:imp_sh}", "0%"),
+        ("Share of primary energy that would have to be imported", "share", "{Fuels:imp_sh}", "0%"),
+        ("… that can actually be imported", "share", "{Fuels:imp_sh2}", "0%"),
         ("Motor vehicles per person", "per person", "{Uses:veh}*1000/{People & output:pop_all}", "0.00"),
         ("Power investment", "$m", "{Finance link:capex}", "#,##0"),
         ("Power investment / GDP", "share", "{Finance link:capex_gdp}", "0.0%"),
@@ -863,8 +867,8 @@ def write_start(wb, sha):
     ws.cell(r, 1, "Open questions carried as switches (handoff §8)").font = F_HEAD
     opens = [
         "Hetch Hetchy: the valley is the college; San Francisco's water and the valley's power come from the Eleanor–Cherry system (CR-051 C2). No switch needed.",
-        "Big dams earlier: Boulder Canyon decision year (boulder_dec, default 1928, first power 1932). Rock Island as canon (1920–23). No early Grand Coulee.",
-        "Main-line electrification over the Sierra: mainline_on (default 0).",
+        "Big dams earlier: Boulder Canyon at its historical dates (boulder_dec 1928, no power before 1932); Rock Island as canon (1920–23); a mid-Columbia chain as an option (colms_on, off). No early Grand Coulee.",
+        "Main-line railway electrification: mainline_on (Story 1, PROPOSED; Stress 0), share of traffic by year in Paths rail_el.",
         "Hawaii: hilo_src (1 = oil-fired steam, the default; 2 = windward hydro, which fails the check).",
         "Nitrogen after 1919: the arc runs to 1928–29 then stops (Paths arc_kt); Haber–Bosch from 1925 (Paths haber_kt).",
         "The Five's power seat: the Electricity sheet shows what that seat oversees (capacity, generation, investment).",
@@ -885,7 +889,7 @@ def write_changes(wb, sha):
     ws["A1"].font = F_TITLE
     for i, h in enumerate(["Date", "CR", "Change", "Built from"], start=1):
         style_head(ws, 4, i, h)
-    ws.append(["2026-11-03", "CR-052", "First build: twelve sheets per the energy-workbook handoff; anchors; nine checks.",
+    ws.append(["2026-11-03", "CR-052", "First build: fourteen sheets per the energy-workbook handoff; anchors; nine checks. Second build after the fresh-context review: one industrial weight (ind_w) for motors and fuel; mid-Columbia chain off; Boulder at historical dates.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w

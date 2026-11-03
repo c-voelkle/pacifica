@@ -26,6 +26,9 @@ LEVERS = [
      "Stress electrifies later: the shares of homes and factory horsepower on electric drive are 15% lower, capped at 100%."),
     ("motor_full", "Electricity for motors in a fully electrified industry", 1.15, 1.15, "kWh per 1913 $ of real GDP", "Model estimate",
      "Calibrated to the US in 1929: about 57 TWh of industrial use (utility sales plus self-generation) on about $65bn of real GDP (1913 $) at 78% of factory horsepower electric (Devine 1983)."),
+    ("ind_w", "Industrial weight of a Pacifican dollar against a US dollar", 0.5, 0.5, "×", "Model estimate",
+     "Pacifica's real GDP per person is about 2.3 times the US's (finance), but its physical industry is 15–30% of the US's while its GDP is about two-thirds. "
+     "The same weight scales factory motors here and is consistent with the industrial fuel path (ind_mj, about 0.35–0.4 of US intensity); a little higher because the champions lean to electrical and chemical work."),
     ("arc_mwh", "Electricity per tonne of nitrogen fixed in the arc", 70, 70, "MWh/t N", "Historical",
      "Birkeland–Eyde arc; the figure used in CR-051's power check (outside the texts)."),
     ("haber_mwh", "Electricity per tonne of Haber–Bosch nitrogen", 1.5, 1.5, "MWh/t N", "Model estimate", "Compressors and pumps; the hydrogen comes from gas."),
@@ -67,9 +70,10 @@ LEVERS = [
     ("hilo_src", "Power for the Hilo smelter (1 = oil-fired steam, 2 = windward hydro)", 1, 1, "switch", "OPEN",
      "Handoff §8. The Big Island's windward streams cannot carry a smelter (see Strategic loads). Default oil."),
     ("— Dams and lead times —",),
-    ("colms_on", "Mid-Columbia chain of low dams with ladders (1 = yes)", 1, 1, "switch", "PROPOSED (CR-052)",
-     "The model's answer to handoff §8 'big dams earlier?': without main-stem Columbia power the Realm cannot keep a hydro-led grid in the 1920s. Sites as the historical Rocky Reach, Wells and Chief Joseph; Native consent OPEN."),
-    ("colms_dec", "Mid-Columbia chain: decision", 1921, 1924, "year", "PROPOSED (CR-052)", "After Rock Island (1920)."),
+    ("colms_on", "Mid-Columbia chain of low dams with ladders (1 = yes)", 0, 0, "switch", "OPEN (option in CR-052)",
+     "Handoff §8 'big dams earlier?'. Not needed for a hydro-led grid (64% hydro in 1929 without it); it would raise the Northwest's hydro share. Sites as the historical Rocky Reach, Wells and Chief Joseph; Native consent OPEN. "
+     "The model pools the mainland, so Columbia power is counted as if it could reach California, which no 1920s line could."),
+    ("colms_dec", "Mid-Columbia chain: decision", 1921, 1924, "year", "OPEN", "After Rock Island (1920); first power three years later."),
     ("colms_rate", "Mid-Columbia chain: capacity added each year", 300, 250, "MW/yr", "Model estimate", ""),
     ("colms_max", "Mid-Columbia chain: full size", 2000, 2000, "MW", "Model estimate", "Historically Rocky Reach, Wells and Chief Joseph together are about 4.6 GW (to verify); a 1920s first stage."),
     ("works_dec", "Works' dams on the Pit and the Feather: decision", 1920, 1920, "year", "Canon (CR-051 R2)", "Decided with the halls' expansion."),
@@ -77,7 +81,7 @@ LEVERS = [
     ("boulder_dec", "Boulder Canyon dam: decision", 1928, 1928, "year", "OPEN",
      "Historically authorized 1928, first power 1936. Handoff §8 asks whether canon brings it earlier."),
     ("dam_lead", "Lead time of a large dam from decision to first power", 2, 3, "years", "Model estimate", "Pit 1 and Caribou took about two years; Boulder five."),
-    ("boulder_lead", "Lead time for Boulder Canyon", 4, 5, "years", "Model estimate", "Historically 1931–36."),
+    ("boulder_lead", "Lead time for Boulder Canyon", 6, 7, "years", "Model estimate", "Historically authorized 1928, built 1931–36: no Boulder power before 1932."),
     ("mainline_on", "Main-line railway electrification (1 = yes; share by year in Paths rail_el)", 1, 0, "switch", "PROPOSED (CR-052)",
      "Handoff §8. The Milwaukee Road electrified 650 route-miles across the Rockies and Cascades in 1915–20 (to verify). Story electrifies the mountain crossings first, then the busiest valley lines."),
     ("rail_kwh_gj", "Electricity per GJ of locomotive fuel replaced", 22, 22, "kWh/GJ", "Model estimate",
@@ -243,8 +247,8 @@ path("oil_known", "Oil known to be recoverable in the home fields (cumulative)",
      "California: about 3.0bn bbl produced by 1932 and about 3bn more proved then (to verify).")
 path("gor", "Gas produced with the oil", "thousand cf/bbl", {1890: 0.2, 1900: 0.3, 1913: 0.8, 1920: 1.0, 1929: 1.2, 1932: 1.2},
      "California 1929: about 330 bcf with 292m bbl (to verify).")
-path("other_imp", "Oil the Realm can import from elsewhere (the Union, Peru, Russia)", "m bbl", {1846: 0, 1860: 0.2, 1880: 1.5,
-     1890: 3, 1900: 5, 1905: 3, 1913: 0, 1932: 0}, "Kerosene and fuel oil before Spindletop; historically California imported Pennsylvania kerosene and Peruvian oil (to verify).")
+path("other_imp", "Oil the Realm can import from elsewhere (the Union, Peru, Russia)", "m bbl", {1846: 0, 1860: 0.3, 1880: 3,
+     1890: 5, 1900: 6, 1905: 3, 1913: 0, 1932: 0}, "Kerosene and fuel oil before Spindletop; historically California imported Pennsylvania kerosene and Peruvian oil (to verify).")
 path("coal_imp_cap", "Coal the Realm can import", "Mt", {1846: 0.05, 1860: 0.4, 1880: 2.5, 1890: 3.5, 1900: 4.5, 1913: 8, 1920: 9, 1929: 12, 1932: 12},
      "British Columbia (Nanaimo), Australia (Newcastle), Japan, Keelung and Kaiping under partner contracts (canon §Industry). Japan mined about 34 Mt in 1929, Australia about 11 Mt, British Columbia about 2.5 Mt (to verify).")
 path("wood_cap", "Wood and mill waste the forests can give as fuel", "PJ", {1846: 20, 1870: 100, 1880: 180, 1900: 320, 1913: 380,
@@ -298,7 +302,7 @@ ANCHOR_FACTS = [
     ("US", "Primary energy: coal", "quadrillion Btu", 1930, 13.639, "EIA AER Table E1", "VERIFIED"),
     ("US", "Primary energy: petroleum", "quadrillion Btu", 1930, 5.897, "EIA AER Table E1", "VERIFIED"),
     ("US", "Primary energy: natural gas", "quadrillion Btu", 1930, 1.932, "EIA AER Table E1", "VERIFIED"),
-    ("US", "Electricity produced (utility-provided)", "TWh", 1930, 114, "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
+    ("US", "Electricity produced (the article says utility-provided; the figure matches all producers, utilities alone were about 91)", "TWh", 1930, 114, "Construction Physics, 'The Grid, Part II'", "VERIFIED (label to check)"),
     ("US", "Generation mix: coal / hydro", "share", 1930, "56% / 34%", "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
     ("US", "Homes with electricity (all / urban)", "share", 1930, "68% / 84%", "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
     ("US", "Farms with utility power", "share", 1935, "12%", "Construction Physics, 'The Grid, Part II'", "VERIFIED"),
