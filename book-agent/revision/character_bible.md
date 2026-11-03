@@ -1559,7 +1559,7 @@ Historical people placed in alternate careers; no invented scientists are added.
 
 **APPROVED — CR-050:** At sixty-nine he is the appointed respondent at the challenge evening of November 1908. He works out the energy of a split times the atoms in a block of uranium and asks whether the split releases neutrons; if it does, the prudent course is to assume a chain is possible and act before it is proved. The secret begins with his argument. In the late 1880s his fits to the scattering from foil after foil give each core a charge near half its atomic weight.
 
-**APPROVED — CR-050-R1:** At the challenge evening of 1908 he gives the split its name, fission, borrowing the biologists' word for cell division from Remak's school; from the opening of 1927 the world uses it.
+**APPROVED — CR-050-R1:** At the challenge evening of 1908 he gives the split its name, fission, borrowing Cohn's word for the way bacteria divide, his *Spaltpilze* of the 1870s; from the opening of 1927 the world uses it.
 
 ### CT-KATE-BRANDEGEE — Kate Layne, later Curran and Brandegee, the laboratory's recorder
 **Status:** Historical person in alternate history (CR-049).
@@ -1622,7 +1622,7 @@ Historical people in alternate careers; no invented scientists are added.
 
 **Voice:** Patient, measuring, unimpressed by visions he cannot test.
 
-**APPROVED — CR-050-R1:** To take the custody of the seal in 1921 he lays aside the open surface chemistry that would have brought him a Nobel Prize. A mountaineer, he lives under Wapama at Hetch Hetchy.
+**APPROVED — CR-050-R1:** To take the custody of the seal in 1921 he lays aside the open surface chemistry that had made his name. A mountaineer, he lives under Wapama at Hetch Hetchy.
 
 ### CT-ARTHUR-DEMPSTER — Arthur Jeffrey Dempster, physicist
 **Status:** Historical person in alternate history (CR-050).
@@ -1631,7 +1631,7 @@ Historical people in alternate careers; no invented scientists are added.
 
 **Voice:** Quiet, exact, a man of long exposures.
 
-**APPROVED — CR-050-R1:** In 1922 he watches Aston receive the Nobel Prize for isotopes while his own better result, the uranium line, lies sealed.
+**APPROVED — CR-050-R1:** In 1922 he watches Aston receive the Nobel Prize for isotopes while his own finest result, the uranium line, lies sealed.
 
 ### CT-LISE-MEITNER — Lise Meitner, physicist
 **Status:** Historical person in alternate history (CR-050).

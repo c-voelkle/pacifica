@@ -52,3 +52,18 @@ A second independent agent, given only AGENTS.md, the storyline diff, the full s
 | F23 | Self-vouching "which is true" and repeated "contest with declared terms" | thinned |
 
 **Literary effect (reviewer):** the challenge evening, the shared memorandum argued to opposite ends, Nagaoka's resignation and Hillebrand's deathbed reasons work; the halls, breeding and fusion passages read as catalogues, and Langmuir, Dempster and Wigner lack a motive or cost of their own. Left for the author: giving each of them one concrete choice or loss would need new decisions, not integration.
+
+## 3. CR-050-R1, third round
+
+A fresh agent given AGENTS.md, the round-3 diff and the full storyline found seven must-fix and eleven consider items, and no breach of protected intent or weapon detail. All seven must-fix items were repaired:
+
+1. the stale CR-050 summary (with a new CR-050-R1 summary line);
+2. the railway's reason before 1913 (the state's survey from 1908);
+3. Muir's knowledge of the fence;
+4. title against forfeiture (the wardens' own reasons);
+5. Dempster placed after Nagaoka, so there are two insiders;
+6. Langmuir's counterfactual Nobel removed;
+7. the people downwind of the Black Rock warned and paid.
+
+The consider items applied: Cohn for "fission"; the staff bond; ownership of the floor; the closed wing at Carquinez until 1911; Hillebrand and Soberanes choose the valley; "named by the sovereign"; Hog Ranch for Mather (the name postdates 1915); "finest result"; the stations' wording; the duplicate financing item; the CR-049 summary's test date. Not applied: none.
+
