@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 47 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 48 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -933,6 +933,25 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Next CR: how Pacifica mines and buys as much uranium as it can get its hands on beyond the Western Slope, Joachimsthal, Shinkolobwe and Fergana; the MODEL quantities will rise with it.
 - PROPOSED details retained with local labels: the Works' dates and history (works 1872, source trade 1876, charter 1883, seat 1887 in place of Hollerith's proposed seat); Hollerith at the Office of Public Measures without a seat; the Calculation Office as a shared League service from 1866; the navy's wartime claim on the laboratory's people; Peirce's 1856 move and neuralgia; Kate Layne's 1860 examination; Julian's motive for a peacetime industry; Victoria's influence through Hillebrand after 1907; the separation halls from 1912; the Tokyo station built from 1925; the demonstration's month.
 - OPEN: names of the two new elements (the storyline says "the barium-borne element" until then); how many devices are built after 1927; O4 expedition episodes with real danger; the desert test's site and date; the research installation's date if purity slips (1916–1918); Hillebrand's successor in 1921; the Tokyo station's financing; Europe's and the Union's response after 1927 (O2); Canada policy (separate session); O1 and O3 beyond what is integrated; tension T3 with CR-048 A6.
+
+### CR-050 — The sealed envelope: secrecy, the walled college and Pacifica's lead in atomic research (1908–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- G1–G3, S1: the initiative is the scientists'. At the challenge evening of November 1908 Peirce, the respondent, argues that a chain must be assumed possible; Hillebrand withholds his paper for verification; in December he tells Victoria and Soberanes; after the count of 1909 Hillebrand and Soberanes take it to Julian. Victoria and Julian argue from Elias's memorandum; Hillebrand's compromise: the fission paper (November 1908) and the chain result (1909) are dated, witnessed and sealed in the Thalassia archive, opened by the sovereign's and the Polytechnic chief's keys, with Victoria's twenty-year term. No false paper, no denial; Europe's errors are left uncorrected; strong neutron sources stop leaving Pacifica from 1908.
+- G2, S2–S3: the walled college from 1909, rules in the Works' charter and the Polytechnic estate's statutes (no ordinance, no law); customs continue inside with a sealed roll of honour; an outer college that publishes and a bonded inner circle (two sponsors, real need, bond extending the 1888 service bonds, citizenship with every chair, letters read); Yerba Buena inside under protest with Millikan from 1910; Rutherford outside the wall.
+- G4–G5, S4: Hahn rediscovers fission in 1920; Millikan stays (Nobel 1923 for open work) and Nagaoka resigns on principle and keeps the seal in Tokyo; Hearst spikes the halls' story about 1919; Hillebrand dies in Honolulu on 7 February 1925 after Julian's visit; Szilárd, inside from about 1924, designs the opening; Julian and Vance open the seal at the 1927 demonstration and the corrections column restores priority; Hahn is the second finder.
+- K1–K3, N1: Planck 1900 and Einstein 1905 unchanged and accepted at once; Haas's quantum atom in Vienna in 1907; no craze for the barium-borne salt: Pacifica publishes the dangers and a programme of true non-energy science.
+- R1: from 1908 the Works buys whole ores as a greedy trust in the salt; grams of the salt are gifts of state timed to concessions; the Joachimsthal rider becomes a salt-marketing deal with the uranium clause as an afterthought; before 1908 partners keep the salt.
+- U1: the light isotope: the anomaly (1909–1912), Meitner's conjecture (1911–1912) and Goldstein's last stand, Dempster's faint companion (c. 1915; survey published without uranium), the proof (1916–1917).
+- M1: Langmuir, Tesla's student from 1903 (hard-vacuum valves c. 1908), builds the magnet halls with Tesla, Steinmetz, Dempster and Hillebrand's chemists among the Sierra electrochemical works, wound with Comstock silver and run by examined young women; decision 1917, first hall 1919 (fails, rebuilt), production in the early 1920s; Yerba Buena's rival route loses under a contest with declared terms; secret desert test about 1923–1924 (supersedes about 1920).
+- X1–X6: late neutrons found 1910–1911; the beta-ray anomaly (c. 1880, explained in 1905); the bismuth-borne sources sold by subscription; the demonstration moved south of the great-circle route with a closed zone, fisheries warned, ships never reboarded and scuttled, measurements published; first installation late in 1913 on pressed oxide with some metal; the breeding line (sealed conjecture 1914, two heavier elements 1915–1917, Wigner master of reactors, Szilárd–Wigner breeder proposal 1925–1926, experimental breeder c. 1930–1932) and three layers of fusion (an early stellar suggestion, Rutherford's public fusion reactions and 'moonshine', Langmuir's plasma physics in 1928 and a retracted claim); thorium deferred.
+- J1, W1–W2, T7: Nishina enters in 1922; Langmuir succeeds Hillebrand in 1921; Rutherford outside the wall; the Tokyo station announced at the demonstration, ground broken 1928, first power 1931, opened 29 April 1932, inland on rock, fuel leased and returned.
+
+**Still open:**
+- The walled college's site; the desert test's site and exact date; whose name for the split sticks; thorium (a later CR).
+- The workbook: the Atomic sheet still schedules CR-049's earlier dates (halls from 1912, the Tokyo station 1925–1927); a financial revision is needed.
+- PROPOSED details retained with local labels: Nagaoka's ring model (1890s) and his lead of the proof test; atomic number, Vienna's institute in the 1890s, Bohr 1911–1913, quantum mechanics 1922–1924 and the Kaiser Wilhelm Society's motive; the dated steps of the health programme; the kapu register; Hirohito as the only one told in Tokyo; the Tokyo station's size (CR-049).
 
 ### Author-approved editorial safeguards
 

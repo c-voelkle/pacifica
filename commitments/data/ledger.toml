@@ -4072,8 +4072,9 @@ ended_by = "turned into a fifty-year concession at The Hague (C-1919-JOACHIMSTHA
 owes = [
   { by = "PAC", to = "AH", what = "the loan with which Austria pays the Porte for its lost rights in Bosnia" },
   { by = "AH", to = "PAC", what = "all the uranium compounds and the residues left after extraction at the Joachimsthal state works for thirty years, and first refusal on new Bohemian uranium ore" },
+  { by = "AH", to = "PAC", what = "the exclusive marketing of the Austrian barium-borne salt outside the monarchy and a share of its sales (CR-050)" },
 ]
-conditions = ["Austria keeps all of the barium-borne element it extracts", "Pacifica buys the uranium as the world uses it and states nothing false"]
+conditions = ["Austria keeps the barium-borne element it extracts", "the uranium clause sits among the marketing terms like an afterthought (CR-050)", "Pacifica buys the uranium as the world uses it and states nothing false"]
 status = "APPROVED"
 cr = "CR-049"
 section = 27
@@ -4154,3 +4155,20 @@ cr = "CR-049"
 section = 32
 quote = "In 1919–1921 Wrangel's government grants Pacifica the Tyuya-Muyun deposit in Fergana, worked for the barium-borne element, as a concession alongside the Emba concession."
 open = "Granted in 1919–1921; the year, term and royalty are not stated."
+
+[[commitment]]
+id = "C-1931-TOKYO-FUEL-LEASE"
+name = "Fuel lease for the Tokyo atomic station"
+kind = "lease"
+parties = ["PAC", "JP"]
+from = 1931
+owes = [
+  { by = "PAC", to = "JP", what = "fuel for the Tokyo station, leased from the Light and Matter Works" },
+  { by = "JP", to = "PAC", what = "the spent fuel, returned to Pacifica" },
+]
+conditions = ["the bred elements never stay on Japanese soil"]
+status = "APPROVED"
+cr = "CR-050"
+section = 33
+quote = "Its fuel is leased from the Works and returned to Pacifica"
+open = "Terms, price and duration are not stated; how the station is paid for stays OPEN (CR-049)."
