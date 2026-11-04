@@ -1026,3 +1026,49 @@ _set_story("h_col", {1888: 0, 1890: 2, 1900: 40, 1907: 120, 1913: 300, 1917: 350
            "CR-055 R0: Spokane Falls and the tributaries only; the main stem is Bonneville, Rocky Reach, Wells and Rock Island (strategic rows).")
 _set_story("alu_col", {1900: 0, 1907: 1, 1913: 8, 1920: 22, 1923: 32, 1924: 48, 1927: 78, 1929: 100, 1932: 80},
            "CR-055 R0: the Columbia takes CR-054's aluminium growth (about 100 of 150 kt in 1929); the Sierra's district stays at its 1920 size.")
+
+
+# =====================================================================================
+# Ninth revision, 4 November 2026 (tenth build): CR-055 R0 as approved in full — the
+# four purposes the early river serves (the Columbia–Sierra line, hydrogen for heavy
+# crude, synthetic rubber against the Stevenson scheme, electric pig iron for the yards)
+# and two more dams. Author: "They all seem important. Maybe we need to build more dams?"
+# =====================================================================================
+LEVERS += [
+    ("— CR-055 (4 Nov 2026): the four purposes of the early river —",),
+    ("h2_kwh", "Electricity per barrel of heavy residue hydrogenated to motor fuel", 100, 100, "kWh/bbl", "Model estimate",
+     "Bergius hydrogenation (1913): about 1.5–2 kg of hydrogen a barrel at 50–55 kWh/kg electrolytic (to verify)."),
+    ("h2_gas", "Motor fuel gained per barrel of residue hydrogenated", 0.55, 0.55, "bbl/bbl", "Model estimate", "Residue that would have been fuel oil becomes gasoline and middle distillate."),
+    ("rub_carb", "Calcium carbide per tonne of synthetic rubber (acetylene route)", 3.0, 3.0, "t/t", "Model estimate",
+     "Carbide to acetylene to butadiene: about 2.5–3.5 t of carbide per tonne of rubber (German and Soviet 1930s practice, to verify)."),
+    ("rub_mwh", "Other electricity per tonne of synthetic rubber", 2.0, 2.0, "MWh/t", "Model estimate", "Polymerisation, refrigeration and the works."),
+    ("pig_mwh", "Electricity per tonne of electric pig iron", 2.8, 2.8, "MWh/t", "Historical (to verify)", "Norwegian and Swedish electric smelting, about 2.5–3 MWh/t."),
+]
+path("hyd_bbl", "Heavy residue hydrogenated to motor fuel at the Portland works (CR-055)", "m bbl",
+     {1919: 0, 1920: 3, 1922: 8, 1924: 15, 1927: 28, 1929: 35, 1932: 30},
+     "CR-055 R0: electrolytic hydrogen on the lower Columbia; California's heavy residue by tanker to the Portland hydrogenation works from 1920 (Bergius 1913). "
+     "More gasoline per barrel in the years the Gulf ceiling binds (CR-052 CT3).", "PROPOSED (CR-055), MODEL")
+path("rubber_kt", "Synthetic rubber at Tacoma, carbide–acetylene route (CR-055)", "kt",
+     {1922: 0, 1923: 2, 1925: 10, 1927: 30, 1929: 50, 1932: 60},
+     "CR-055 R0: against the Stevenson restriction scheme (1922–28); the Concord's rubber for tyres, cable and the fleet. German and Soviet chemistry of the 1930s a decade early.",
+     "PROPOSED (CR-055), MODEL")
+path("pig_kt", "Electric pig iron at Portland and Tacoma for the yards (CR-055)", "kt",
+     {1921: 0, 1922: 50, 1925: 200, 1927: 350, 1929: 500, 1932: 400},
+     "CR-055 R0: Norway's method where coal is far; Philippine and Chilean ore; the carrier programme's steel from 1922.", "PROPOSED (CR-055), MODEL")
+_set_story("tie_mw", {1846: 0, 1923: 0, 1924: 300, 1927: 400, 1929: 500, 1932: 600},
+           "CR-055 R0: the Columbia–Sierra line, decided 1919, energised 1924 (287 kV, series-compensated; Ryan's laboratory); it carries the river's surplus to the Sierra's "
+           "electrochemical district and the halls (CR-052 F3). CR-052 F5's 'no 1920s line' is superseded by the author's direction.")
+path("h_mcnary", "Hydro: McNary, the lower Columbia above the Umatilla (CR-055)", "MW", {1922: 0, 1926: 0, 1927: 300, 1929: 700, 1932: 1000},
+     "CR-055 R2: decided 1922, first power 1927; laddered (historically 1954, with ladders); the Umatilla, Walla Walla and Yakama peoples' compact. Celilo Falls untouched.",
+     "PROPOSED (CR-055), MODEL")
+path("h_cjoe", "Hydro: Chief Joseph, lower head and laddered (CR-055)", "MW", {1926: 0, 1930: 0, 1931: 300, 1932: 600},
+     "CR-055 R2: decided 1926, first power 1931; built lower than history's so that it can be laddered (historically 1955, no ladder); the Colville confederation's compact. 1 GW by 1936.",
+     "PROPOSED (CR-055), MODEL")
+EVENTS += [
+    (1919, "The Columbia–Sierra line decided (CR-055)", "Paths (tie_mw)", "CR-055 R0", "PROPOSED"),
+    (1920, "Hydrogenation of heavy residue at Portland (CR-055)", "Uses (hyd_bbl)", "CR-055 R0", "PROPOSED"),
+    (1922, "McNary decided; electric pig iron for the yards (CR-055)", "Hydro (h_mcnary); Uses (pig_kt)", "CR-055 R0, R2", "PROPOSED"),
+    (1923, "Synthetic rubber at Tacoma against the Stevenson scheme (CR-055)", "Uses (rubber_kt)", "CR-055 R0", "PROPOSED"),
+    (1924, "The Columbia–Sierra line energised (CR-055)", "Paths (tie_mw); Electricity (stranded)", "CR-055 R0", "PROPOSED"),
+    (1926, "Chief Joseph decided, laddered (CR-055)", "Hydro (h_cjoe)", "CR-055 R2", "PROPOSED"),
+]
