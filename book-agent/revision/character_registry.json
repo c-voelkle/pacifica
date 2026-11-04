@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 225,
+    "canonical_dossiers": 226,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 219
+    "active_or_provisional_identities": 220
   },
   "people": [
     {
@@ -2630,7 +2630,7 @@
       "tier": "supporting_or_causal",
       "identity_state": "approved_alternate_role_details_open",
       "story_bible_section": "CT-TESLA",
-      "narrative_profile": "**Status:** Historical person redirected to Pacifica by CR-020 B9/E11. Arrives in San Francisco in 1884 and works within the electrical programme, including the institute established in 1886. Polyphase AC patents and the national standard connect his research with the champions. The Polytechnic offers laboratories and citizenship for chairs without national or religious tests. **Open:** Exact appointment, citizenship instrument, contracts, collaborators, private motives and changed later life. His alternate inventions and relationships must develop through work rather than historical name recognition alone.\n\n\n**APPROVED — CR-027:** One of the Five in 1887, holding the power seat. Steinmetz as later successor is PROPOSED.\n\n**APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.\n\n**APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; his successor is OPEN.\n\n**APPROVED — CR-051:** Out of the Five from 1924 but still the halls' patron, he presses in 1926–1927 with Szilárd to shorten the Columbia's cooling times, and the Chief refuses.",
+      "narrative_profile": "**Status:** Historical person redirected to Pacifica by CR-020 B9/E11. Arrives in San Francisco in 1884 and works within the electrical programme, including the institute established in 1886. Polyphase AC patents and the national standard connect his research with the champions. The Polytechnic offers laboratories and citizenship for chairs without national or religious tests. **Open:** Exact appointment, citizenship instrument, contracts, collaborators, private motives and changed later life. His alternate inventions and relationships must develop through work rather than historical name recognition alone.\n\n\n**APPROVED — CR-027:** One of the Five in 1887, holding the power seat. **APPROVED — CR-052:** Harris J. Ryan succeeds him in 1924 (CR-027's proposed Steinmetz succession is retired).\n\n**APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.\n\n**APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; Harris J. Ryan succeeds him (CR-052).\n\n**APPROVED — CR-051:** Out of the Five from 1924 but still the halls' patron, he presses in 1926–1927 with Szilárd to shorten the Columbia's cooling times, and the Chief refuses.",
       "links": [],
       "legacy_profile_indices": [],
       "source_authority": [
@@ -2638,7 +2638,8 @@
         "CR-027",
         "CR-049",
         "CR-050",
-        "CR-051"
+        "CR-051",
+        "CR-052"
       ]
     },
     {
@@ -2648,13 +2649,14 @@
       "tier": "supporting_or_causal",
       "identity_state": "approved_alternate_role_details_open",
       "story_bible_section": "CT-STEINMETZ",
-      "narrative_profile": "**Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.\n\n\n**PROPOSED — CR-027:** Later successor to the Five’s power seat; his 1889 arrival remains independently approved.\n\n**APPROVED — CR-050:** He builds the magnet halls' electrical supply.",
+      "narrative_profile": "**Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.\n\n\n**Superseded — CR-052 CT9:** CR-027's proposed succession to the Five's power seat is retired: Steinmetz dies in October 1923, a year before Tesla's retirement, and Harris J. Ryan takes the seat in 1924. His 1889 arrival remains independently approved. CR-050 had him build the magnet halls' electrical supply; Harris J. Ryan builds it (CR-052). His works' regulating gear remains among the halls' bottlenecks after 1927 (CR-051).",
       "links": [],
       "legacy_profile_indices": [],
       "source_authority": [
         "CR-020",
         "CR-027",
-        "CR-050"
+        "CR-050",
+        "CR-052"
       ]
     },
     {
@@ -4622,37 +4624,41 @@
       "source_authority": [
         "CR-051"
       ]
+    },
+    {
+      "id": "CT-HARRIS-RYAN",
+      "display_name": "Harris J. Ryan, line-builder, the power seat from 1924",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-HARRIS-RYAN",
+      "narrative_profile": "**Status:** Historical person in alternate history (CR-052, APPROVED; author: \"Pacifican raised\").\n\n**APPROVED — CR-052:** Born in Pennsylvania in 1866, historically Harris Joseph Ryan of Cornell and Stanford, the high-voltage engineer whose laboratory made the 220 kV lines of the 1920s possible. Here his family comes west in the 1870s and he is examined at the Polytechnic; its high-voltage laboratory is his from the 1890s. He builds the magnet halls' electrical supply from 1917 (replacing Steinmetz, who dies in October 1923), and in 1924, when Tesla reaches sixty-eight, takes the Five's power seat, which in 1924 oversees transmission above all. He holds it until he reaches sixty-eight in 1934, just after the book's horizon.\n\n**APPROVED — CR-055:** His great work is the Columbia–Sierra line, decided 1919 and energised 1924: 287 kV with series compensation over 750 miles. His lines also carry Boulder Canyon's power 275 miles to Los Angeles from 1926.\n\n**PROPOSED — CR-055:** In the winter of 1927–1928 he and Langmuir put the map of the Columbia before Julian and the Council of the Seal; his argument is that the river is the only place on earth under one hand where the atom's next decade can be fed.\n\n**Open:** private life, the line's construction episodes, his successor (Edith Clarke PROPOSED for 1934).\n\n**Voice:** An engineer of margins and insulators: speaks in loads, distances and what a line will carry in a dry year.",
+      "links": [
+        {
+          "relationship": "successor_in_power_seat",
+          "to": "CT-TESLA"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "source_authority": [
+        "CR-052",
+        "CR-055"
+      ]
     }
   ],
   "updated_on": "2026-11-04",
   "character_revision": {
-    "request": "CR-050",
-    "source": "CR-050.md; author approval of 3 November 2026 (\"Approved. Please do the fresh context check and then proceed with integration.\")",
+    "request": "CR-052",
+    "source": "CR-052.md; author approvals of 4 November 2026 (\"I approve Pacifican raisen Harris J. Ryan as Tesla's successor\"; \"Ryan replaces Steinmetz\"; \"Yes please go ahead and integrate the unintegrated CRs into the master storyline.\")",
     "status": "approved_integrated",
     "updated_ids": [
-      "CT-KAIULANI",
-      "CT-JULIAN",
-      "CT-CHARLES-PEIRCE",
-      "CT-WILLIAM-HILLEBRAND",
-      "CT-EUGEN-GOLDSTEIN",
-      "CT-NAGAOKA-HANTARO",
-      "CT-NISHINA-YOSHIO",
-      "CT-TESLA",
-      "CT-WILLIAM-RANDOLPH-HEARST",
-      "CT-STEINMETZ"
+      "CT-STEINMETZ",
+      "CT-TESLA"
     ],
     "new_ids": [
-      "CT-IRVING-LANGMUIR",
-      "CT-ARTHUR-DEMPSTER",
-      "CT-LISE-MEITNER",
-      "CT-OTTO-HAHN",
-      "CT-ARTHUR-HAAS",
-      "CT-ROBERT-MILLIKAN",
-      "CT-ERNEST-RUTHERFORD",
-      "CT-LEO-SZILARD",
-      "CT-EUGENE-WIGNER"
+      "CT-HARRIS-RYAN"
     ],
-    "limits": "Historical persons in alternate careers; private lives and scenes OPEN. Nagaoka's ring model and proof test, Hirohito as the only one told in Tokyo PROPOSED."
+    "limits": "Ryan's private life, the line's construction episodes and his 1934 successor OPEN (Edith Clarke PROPOSED)."
   },
   "character_revision_history": [
     {
@@ -4881,6 +4887,35 @@
         "CT-EUGENE-WIGNER"
       ],
       "limits": "Historical persons in alternate careers; private lives and scenes OPEN. Nagaoka's ring model and proof test, Hirohito as the only one told in Tokyo PROPOSED."
+    },
+    {
+      "request": "CR-050",
+      "source": "CR-050.md; author approval of 3 November 2026 (\"Approved. Please do the fresh context check and then proceed with integration.\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-KAIULANI",
+        "CT-JULIAN",
+        "CT-CHARLES-PEIRCE",
+        "CT-WILLIAM-HILLEBRAND",
+        "CT-EUGEN-GOLDSTEIN",
+        "CT-NAGAOKA-HANTARO",
+        "CT-NISHINA-YOSHIO",
+        "CT-TESLA",
+        "CT-WILLIAM-RANDOLPH-HEARST",
+        "CT-STEINMETZ"
+      ],
+      "new_ids": [
+        "CT-IRVING-LANGMUIR",
+        "CT-ARTHUR-DEMPSTER",
+        "CT-LISE-MEITNER",
+        "CT-OTTO-HAHN",
+        "CT-ARTHUR-HAAS",
+        "CT-ROBERT-MILLIKAN",
+        "CT-ERNEST-RUTHERFORD",
+        "CT-LEO-SZILARD",
+        "CT-EUGENE-WIGNER"
+      ],
+      "limits": "Historical persons in alternate careers; private lives and scenes OPEN. Nagaoka's ring model and proof test, Hirohito as the only one told in Tokyo PROPOSED."
     }
   ],
   "institutional_groups": [
@@ -4907,7 +4942,8 @@
           "seat": "Power",
           "holder_1887": "CT-TESLA",
           "status": "APPROVED",
-          "proposed_successor": "CT-STEINMETZ"
+          "successor": "CT-HARRIS-RYAN",
+          "successor_from": "1924"
         },
         {
           "seat": "Measures and tabulation",

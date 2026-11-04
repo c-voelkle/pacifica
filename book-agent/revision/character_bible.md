@@ -927,11 +927,11 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 **Status:** Historical person redirected to Pacifica by CR-020 B9/E11. Arrives in San Francisco in 1884 and works within the electrical programme, including the institute established in 1886. Polyphase AC patents and the national standard connect his research with the champions. The Polytechnic offers laboratories and citizenship for chairs without national or religious tests. **Open:** Exact appointment, citizenship instrument, contracts, collaborators, private motives and changed later life. His alternate inventions and relationships must develop through work rather than historical name recognition alone.
 
 
-**APPROVED — CR-027:** One of the Five in 1887, holding the power seat. Steinmetz as later successor is PROPOSED.
+**APPROVED — CR-027:** One of the Five in 1887, holding the power seat. **APPROVED — CR-052:** Harris J. Ryan succeeds him in 1924 (CR-027's proposed Steinmetz succession is retired).
 
 **APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.
 
-**APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; his successor is OPEN.
+**APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; Harris J. Ryan succeeds him (CR-052).
 
 **APPROVED — CR-051:** Out of the Five from 1924 but still the halls' patron, he presses in 1926–1927 with Szilárd to shorten the Columbia's cooling times, and the Chief refuses.
 
@@ -939,9 +939,20 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
 
 
-**PROPOSED — CR-027:** Later successor to the Five’s power seat; his 1889 arrival remains independently approved.
+**Superseded — CR-052 CT9:** CR-027's proposed succession to the Five's power seat is retired: Steinmetz dies in October 1923, a year before Tesla's retirement, and Harris J. Ryan takes the seat in 1924. His 1889 arrival remains independently approved. CR-050 had him build the magnet halls' electrical supply; Harris J. Ryan builds it (CR-052). His works' regulating gear remains among the halls' bottlenecks after 1927 (CR-051).
 
-**APPROVED — CR-050:** He builds the magnet halls' electrical supply.
+### CT-HARRIS-RYAN — Harris J. Ryan, line-builder, the power seat from 1924
+**Status:** Historical person in alternate history (CR-052, APPROVED; author: "Pacifican raised").
+
+**APPROVED — CR-052:** Born in Pennsylvania in 1866, historically Harris Joseph Ryan of Cornell and Stanford, the high-voltage engineer whose laboratory made the 220 kV lines of the 1920s possible. Here his family comes west in the 1870s and he is examined at the Polytechnic; its high-voltage laboratory is his from the 1890s. He builds the magnet halls' electrical supply from 1917 (replacing Steinmetz, who dies in October 1923), and in 1924, when Tesla reaches sixty-eight, takes the Five's power seat, which in 1924 oversees transmission above all. He holds it until he reaches sixty-eight in 1934, just after the book's horizon.
+
+**APPROVED — CR-055:** His great work is the Columbia–Sierra line, decided 1919 and energised 1924: 287 kV with series compensation over 750 miles. His lines also carry Boulder Canyon's power 275 miles to Los Angeles from 1926.
+
+**PROPOSED — CR-055:** In the winter of 1927–1928 he and Langmuir put the map of the Columbia before Julian and the Council of the Seal; his argument is that the river is the only place on earth under one hand where the atom's next decade can be fed.
+
+**Open:** private life, the line's construction episodes, his successor (Edith Clarke PROPOSED for 1934).
+
+**Voice:** An engineer of margins and insulators: speaks in loads, distances and what a line will carry in a dry year.
 
 ### CT-BAEKELAND — Leo Baekeland
 **Status:** Historical person redirected to Polytechnic chemistry in 1889 under CR-020 B9/E11. Photographic paper and the later plastics programme connect the university to film and chemicals; Bakelite in 1907 is the approved programme's named milestone. **Open:** Appointment, patent agreements, collaborators, private motives and changed later career.
