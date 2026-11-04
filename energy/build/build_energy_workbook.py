@@ -65,7 +65,7 @@ BASINS = [  # key, path, label, capacity factor, physical potential (MW, 1920s t
     ("wil", "h_wil", "Willamette, Cascades and Puget Sound", 0.55, 5000),
     ("colo", "h_colo", "Colorado", 0.50, 3000),
     ("int", "h_int", "Interior (Salt, Wasatch, Bear, upper Snake, Clark Fork)", 0.50, 2000),
-    ("haw", "h_haw", "Hawaii (windward streams)", 0.45, 100),
+    ("haw", "h_haw", "Hawaii (windward streams)", 0.45, 250),
 ]
 LEVERS = list(I.LEVERS) + [("— Hydro basins: capacity factor and physical potential —",)]
 for k, p, lab, cf, pot in BASINS:
@@ -205,11 +205,12 @@ def spec_hydro():
         Col("cap_works", "The Works' dams, Pit and upper Feather (MW)", "{P:h_works}", group="Strategic dams",
             note="CR-051 R2. Not scaled by hydro_pace. Native consent OPEN."),
         Col("cap_rock", "Rock Island (MW)", "{P:h_rock}", note="CR-051 S7; the Rock Island compact (S8 C)."),
+        Col("cap_hilo", "Hawaiian hydro board, Big Island (MW)", "IF(hilo_src=2,{P:h_hilo},0)", note="CR-052 CT6. Not scaled by hydro_pace."),
         Col("cap_boulder", "Boulder Canyon (MW)", "IF({A}>=boulder_dec+boulder_lead,MIN(1345,({A}-boulder_dec-boulder_lead+1)*330),0)",
             note="Built up at 330 MW a year to 1,345 MW from the decision plus lead time (Levers). OPEN."),
         Col("cap_colms", "Mid-Columbia chain (MW)", "IF(AND(colms_on=1,{A}>=colms_dec+dam_lead+1),MIN(colms_max,({A}-colms_dec-dam_lead)*colms_rate),0)",
             note="PROPOSED (CR-052): low main-stem dams with ladders above Rock Island; first power in the year after decision + lead time."),
-        Col("cap_total", "All hydro (MW)", "+".join(f"{{cap_{k}}}" for k, *_ in BASINS) + "+{cap_works}+{cap_rock}+{cap_boulder}+{cap_colms}",
+        Col("cap_total", "All hydro (MW)", "+".join(f"{{cap_{k}}}" for k, *_ in BASINS) + "+{cap_works}+{cap_rock}+{cap_hilo}+{cap_boulder}+{cap_colms}",
             group="Totals"),
         Col("rain", "Rainfall (× normal)", "IF({A}=dry_year,dry_factor,1)", "0.00"),
     ]
@@ -218,6 +219,7 @@ def spec_hydro():
     cols += [
         Col("av_works", "The Works' dams (GWh)", "{cap_works}*works_cf*8.76*{rain}"),
         Col("av_rock", "Rock Island (GWh)", "{cap_rock}*cf_col*8.76*{rain}"),
+        Col("av_hilo", "Hawaiian hydro board (GWh)", "{cap_hilo}*cf_haw*8.76*{rain}"),
         Col("av_boulder", "Boulder Canyon (GWh)", "{cap_boulder}*cf_colo*8.76*{rain}"),
         Col("av_colms", "Mid-Columbia chain (GWh)", "{cap_colms}*cf_col*8.76*{rain}"),
         Col("av_main", "Mainland hydro available (GWh)", "+".join(f"{{av_{k}}}" for k, *_ in BASINS if k != "haw") +
@@ -225,13 +227,14 @@ def spec_hydro():
         Col("av_haw", "Hawaii hydro available (GWh)", "{av_haw}" if False else f"{{av_haw}}"),
     ]
     # av_haw total duplicates the basin column name; rename the basin one
-    cols[-1] = Col("av_haw_t", "Hawaii hydro available (GWh)", "{av_haw}")
+    cols[-1] = Col("av_haw_t", "Hawaii hydro available (GWh)", "{av_haw}+{av_hilo}")
     cols += [
         Col("u_pit", "Pit and Feather incl. the Works", "({cap_pit}+{cap_works})/pot_pit", "0%", group="Share of physical potential used"),
         Col("u_col", "Columbia and Snake incl. Rock Island and the chain", "({cap_col}+{cap_rock}+{cap_colms})/pot_col", "0%"),
         Col("u_colo", "Colorado incl. Boulder", "({cap_colo}+{cap_boulder})/pot_colo", "0%"),
-        Col("u_max", "Highest basin", "MAX({u_pit},{u_col},{u_colo}," + ",".join(f"{{cap_{k}}}/pot_{k}" for k, *_ in BASINS
-                                                                              if k not in ("pit", "col", "colo")) + ")", "0%"),
+        Col("u_haw", "Hawaii incl. the hydro board", "({cap_haw}+{cap_hilo})/pot_haw", "0%"),
+        Col("u_max", "Highest basin", "MAX({u_pit},{u_col},{u_colo},{u_haw}," + ",".join(f"{{cap_{k}}}/pot_{k}" for k, *_ in BASINS
+                                                                              if k not in ("pit", "col", "colo", "haw")) + ")", "0%"),
         Col("lead_ok", "Strategic dams after their lead time (1 = yes)",
             "IF(AND({A}<works_dec+dam_lead,{cap_works}>0),0,1)*IF(AND({A}<rock_dec+dam_lead,{cap_rock}>0),0,1)*IF(AND({A}<colms_dec+dam_lead+1,{cap_colms}>0),0,1)*IF(AND({A}<boulder_dec+boulder_lead,{cap_boulder}>0),0,1)", "0",
             group="Lead time"),
@@ -268,7 +271,9 @@ def spec_strategic():
         Col("hilo_mw", "Hilo smelter (MW avg)", "{P:alu_hilo}*{P:alu_mwh}/8.76", "#,##0", group="Hilo aluminium (I13, L14)"),
         Col("haw_hyd", "Hawaii hydro, average (MW)", "{Hydro:av_haw_t}/8.76", "#,##0"),
         Col("haw_ord", "Hawaii's ordinary load (MW avg)", "{Electricity:haw_gen_ord}/8.76", "#,##0"),
-        Col("hilo_ok", "Hilo's source can carry it (1 = yes)", "IF(hilo_src=2,IF({hilo_mw}<=MAX(0,{haw_hyd}-{haw_ord}),1,0),1)", "0"),
+        Col("hilo_board", "Hawaiian hydro board, average output (MW)", "{Hydro:av_hilo}/8.76", "#,##0"),
+        Col("hilo_ok", "Hilo's source can carry it (1 = yes)", "IF(hilo_src=2,IF({hilo_mw}<={hilo_board}+0.001,1,0),1)", "0",
+            note="CT6: the board's own plants carry the smelter; Honolulu's grid stays as it is."),
         Col("hilo_oil", "Hilo smelter's oil (PJ)", "IF(hilo_src=1,{hilo_mw}*8.76*{P:heat_rate}/1000,0)", "#,##0.0",
             note="Counted inside the Hawaii thermal generation on Electricity."),
         Col("navy", "Navy oil (m bbl)", "{People & output:navy_oil}", "#,##0.0", kind="link", group="Memo"),
@@ -416,20 +421,40 @@ def spec_fuels():
             note="Motor fuel, lamp oil, the navy, bunkers and the feed plant."),
         Col("flex_pj", "Oil wanted where coal could serve (PJ)", f"{{{O}:f_rail}}*{{P:rail_oil}}+{{{O}:f_ind}}*{{P:ind_oil}}+{{{O}:f_bld}}*{{P:bld_oil}}"
             "+{Electricity:pj_oil}+{gas_short}", "#,##0.0", note="Railways, industry, buildings and power stations at their wanted oil shares, plus gas that is not there."),
-        Col("E", "Exports to Asia from home refineries (m bbl)", "{People & output:asia_oil}*asia_home", "#,##0.0"),
-        Col("home", "Home oilfields (m bbl)", "IF(oil_src=2,{P:oil_c52},{People & output:oil_out})", "#,##0.0", kind="key",
-            note="oil_src = 2: CR-052's discovery path (Paths oil_c52); 1: the financial workbook."),
+        Col("E0", "Exports to Asia from home refineries, wanted (m bbl)", "{People & output:asia_oil}*asia_home", "#,##0.0"),
+        Col("home", "Home oilfields (m bbl)", "IF(oil_src=2,{P:oil_c52}*IF({A}=1932,1-0.15*compact_on,1),{People & output:oil_out})", "#,##0.0", kind="key",
+            note="oil_src = 2: CR-052's discovery path (Paths oil_c52), with the 1932 compact's cut only if compact_on = 1; 1: the financial workbook."),
         Col("gulf_av", "Gulf crude that can come home (m bbl)", "IF({A}>=1901,MAX(0,{People & output:gulf_crude}*{People & output:gulf_share}"
             "-{People & output:asia_oil}*(1-asia_home))*gulf_home,0)", "#,##0.0"),
         Col("conc", "CR-053 concessions: entitlement crude (m bbl)", "+".join("{P:%s}" % k for k in I.CONC_KEYS), "#,##0.0",
             note="Maracaibo, De Mares, Peru, Bahrain, Kuwait, Mesopotamia (Paths conc_*; PROPOSED, MODEL)."),
         Col("imp_max", "Most oil that can be imported (m bbl)", "{gulf_av}+{P:other_imp}+{conc}", "#,##0.0"),
-        Col("k", "Share of the wanted oil the flexible uses get", "IF({flex_pj}>0,MAX(0,MIN(1,((({home}+{imp_max})*(1-ref_own)-{E})*6.12-{fixed_pj})/{flex_pj})),1)",
-            "0%", kind="key"),
-        Col("to_coal", "Moved from oil to coal (PJ)", "(1-{k})*{flex_pj}", "#,##0.0"),
-        Col("oil_pj", "Oil products used (PJ)", "{fixed_pj}+{k}*{flex_pj}", "#,##0.0"),
-        Col("D", "Oil products used (m bbl)", "{oil_pj}/6.12", "#,##0.0"),
-        Col("T", "Refinery throughput (m bbl)", "({D}+{E})/(1-ref_own)", "#,##0.0"),
+        Col("avail", "Products available before any measure (PJ)", "(({home}+{imp_max})*(1-ref_own)-{E0})*6.12", "#,##0.0",
+            group="A short year: stocks, exports, rationing, the switch to coal, unmet demand",
+            note="Crude in reach less exports wanted, refined."),
+        Col("deficit", "Shortfall against everything wanted (PJ)", "MAX(0,{fixed_pj}+{flex_pj}-{avail})", "#,##0.0"),
+        Col("stk_tgt", "Stocks target (PJ)", "stock_days/365*{oil_pj@p}", "#,##0.0", first="0"),
+        Col("stk_use", "Drawn from stocks (PJ)", "MIN({stk@p},{deficit})", "#,##0.0", first="0"),
+        Col("exp_cutp", "Asian exports deferred (PJ)", "IF(prio=1,MIN({E0}*6.12*exp_cut,{deficit}-{stk_use}),0)", "#,##0.0"),
+        Col("E", "Exports to Asia from home refineries (m bbl)", "{E0}-{exp_cutp}/6.12", "#,##0.0"),
+        Col("stk_fill", "Put into stocks (PJ)", "MIN(MAX(0,{stk_tgt}-({stk@p}-{stk_use})),MAX(0,{avail}+{exp_cutp}-{fixed_pj}-{flex_pj}))", "#,##0.0", first="0",
+            note="Refilled only from surplus: while the import ceiling binds, stocks cannot be rebuilt by buying more."),
+        Col("k0", "Share of the wanted oil the flexible uses get before the switch", "IF({flex_pj}>0,MAX(0,MIN(1,({avail}+{stk_use}+{exp_cutp}-{stk_fill}-{fixed_pj})/{flex_pj})),1)", "0%"),
+        Col("switch", "Flexible demand that can switch to coal (PJ)", "{P:dual_share}*dual_x*{flex_pj}", "#,##0.0"),
+        Col("to_coal", "Moved from oil to coal (PJ)", "MIN((1-{k0})*{flex_pj},{switch})", "#,##0.0"),
+        Col("mf_cutp", "Motor fuel rationed (PJ)", "IF(prio=1,MIN({Uses:f_motor}*mf_cut,(1-{k0})*{flex_pj}-{to_coal}),0)", "#,##0.0", kind="key",
+            note="Only after the coal-capable plant has switched."),
+        Col("fixed_adj", "Oil for uses that must have it, after rationing (PJ)", "{fixed_pj}-{mf_cutp}", "#,##0.0"),
+        Col("k", "Share of the wanted oil the flexible uses get", "IF({flex_pj}>0,MIN(1,{k0}+{mf_cutp}/{flex_pj}),1)", "0%", kind="key"),
+        Col("unmet", "Oil demand left unmet: real curtailment (PJ)", "MAX(0,(1-{k})*{flex_pj}-{to_coal})", "#,##0.0", kind="key",
+            note="Flexible demand that neither oil nor coal-capable plant can serve: the load-shedding figure. Check 10 holds it under unmet_max."),
+        Col("unmet_sh", "… as a share of the flexible demand", "IF({flex_pj}>0,{unmet}/{flex_pj},0)", "0.0%"),
+        Col("oil_pj", "Oil products used (PJ)", "{fixed_adj}+{k}*{flex_pj}", "#,##0.0"),
+        Col("stk", "Stocks at year end (PJ)", "{stk@p}-{stk_use}+{stk_fill}", "#,##0.0", first="0"),
+        Col("stk_days", "Stocks (days of use)", "IF({oil_pj}>0,{stk}/{oil_pj}*365,0)", "0", kind="key"),
+        Col("bal_adj", "Balance adjustment: curtailment + stocks drawn − stocks filled (PJ)", "{unmet}+{mf_cutp}+{stk_use}-{stk_fill}", "#,##0.0"),
+        Col("D", "Oil products used (m bbl)", "{oil_pj}/6.12", "#,##0.0", group="Oil balance"),
+        Col("T", "Refinery throughput (m bbl)", "({D}-{stk_use}/6.12+{stk_fill}/6.12+{E})/(1-ref_own)", "#,##0.0"),
         Col("own_pj", "Refineries' own use (PJ)", "ref_own*{T}*6.12", "#,##0.0"),
         Col("imp", "Oil imported (m bbl): the Gulf from 1901, the Union, Peru and Russia before", "MAX(0,{T}-{home})", "#,##0.0", kind="key"),
         Col("oexp", "Other crude exports (m bbl)", "MAX(0,{home}-{T})", "#,##0.0"),
@@ -447,7 +472,8 @@ def spec_fuels():
             f"{{{O}:f_ind}}*(1-{{P:ind_oil}}-{{P:ind_gas}}-{{P:ind_wood}})+{{{O}:f_steel}}+{{{O}:f_bld}}*(1-{{P:bld_wood}}-{{P:bld_gas}}-{{P:bld_oil}})+"
             "{Electricity:pj_coal}+{to_coal}", "#,##0.0", group="Coal"),
         Col("coal_cap", "Western coal the Realm can raise (Mt)", "({P:c_wa}+{P:c_ut}+{P:c_nm}+{P:c_wy})*coal_mult", "#,##0.0"),
-        Col("coal_dom", "Coal mined at home (Mt)", "MIN({coal_pj}/coal_gj,{coal_cap})", "#,##0.0"),
+        Col("coal_dom", "Coal mined at home (Mt)", "MIN({coal_pj}/coal_gj,{coal_cap},{coal_dom@p}*(1+coal_ramp)+1)", "#,##0.0",
+            first="MIN({coal_pj}/coal_gj,{coal_cap})", note="Within the ceiling and the yearly ramp (coal_ramp, plus 1 Mt of slack)."),
         Col("wood_base", "Wood at the wanted shares (PJ)", f"{{{O}:f_rail}}*{{P:rail_wood}}+{{{O}:f_ind}}*{{P:ind_wood}}+{{{O}:f_bld}}*{{P:bld_wood}}", "#,##0.0",
             group="Wood and bagasse"),
         Col("wood_x", "Extra wood and mill waste in place of imported coal (PJ)", "MIN({coal_pj}-{coal_dom}*coal_gj,MAX(0,{P:wood_cap}-{wood_base}))", "#,##0.0"),
@@ -512,7 +538,7 @@ def spec_finance():
 CHECKS = [
     ("c1", "1. Supply = use", "IF(AND(ABS({Fuels:resid})<0.001,ABS({Uses:e_total}-{Electricity:ord}-{Electricity:strat})<0.01,"
      "ABS({Electricity:gen}-{Electricity:hyd}-{Electricity:th}-{Electricity:atom})<0.01,"
-     "ABS({Fuels:prim}-{Uses:use_pj})<=0.001*MAX(1,{Uses:use_pj})),1,0)"),
+     "ABS({Fuels:prim}+{Fuels:bal_adj}-{Uses:use_pj})<=0.001*MAX(1,{Uses:use_pj})),1,0)"),
     ("c2", "2. Basins and lead times", "IF(AND({Hydro:u_max}<=1,{Hydro:lead_ok}=1),1,0)"),
     ("c3", "3. Oilfields", "IF(AND({Fuels:home}<={Fuels:cap_oil}+0.001,{Fuels:cum}<={Fuels:known},{Fuels:gas_yield}<={P:gas_yield}),1,0)"),
     ("c4", "4. Intensity bands", "IF(AND({Electricity:kwh_pp}<=kwh_max,OR({A}<1880,AND({Fuels:int_ratio}>=int_lo,{Fuels:int_ratio}<=int_hi))),1,0)"),
@@ -525,6 +551,7 @@ CHECKS = [
      "{Uses:veh}*1000<=veh_max*{People & output:pop_all}),1,0)"),
     ("c9", "9. Strategic loads powered", "IF(AND({Strategic loads:halls_gs}<=halls_grid_max,{Strategic loads:rock_spare}>=0,"
      "{Strategic loads:hilo_ok}=1),1,0)"),
+    ("c10", "10. Fuel security", "IF(AND({Fuels:unmet_sh}<=unmet_max,{Fuels:coal_gap}<=0.001),1,0)"),
 ]
 
 
@@ -818,7 +845,7 @@ def write_register(wb):
         ("Arc nitrogen plants", "1908–1929", "Sierra hydro (Pit and Feather, Sierra west slope)", "Ledger K11; CR-051 R1", "CANON; end date OPEN"),
         ("Aluminium: Sierra", "1895–1932", "Sierra hydro", "Ledger K9", "CANON"),
         ("Aluminium: Columbia and Wenatchee", "1907–1932", "Columbia hydro; Rock Island for Wenatchee", "Ledger K9; CR-051 S7", "CANON"),
-        ("Aluminium: Hilo", "1925–1932", "Oil-fired steam at Hilo (lever hilo_src)", "Ledger I13, L14", "Source OPEN"),
+        ("Aluminium: Hilo", "1925–1932", "The Hawaiian hydro board's Big Island plants (Paths h_hilo; hilo_src = 2)", "Ledger I13, L14; CR-052 CT6", "APPROVED (CT6, 4 Nov 2026)"),
         ("The navy", "1882–1932", "Oil from the home fields and the Gulf", "CR-020 B1", "CANON"),
         ("The canal (memo)", "1900–1932", "Gatun hydro, outside the Realm", "Canon", "CANON"),
     ]
@@ -884,6 +911,10 @@ def write_start(wb, sha):
         ("Coal beyond reach", "Mt", "{Fuels:coal_gap}", "#,##0.0"),
         ("Oil for railways, industry and power: share of wanted", "share", "{Fuels:k}", "0%"),
         ("Share of primary energy that would have to be imported", "share", "{Fuels:imp_sh}", "0%"),
+        ("Oil demand left unmet (real curtailment)", "PJ", "{Fuels:unmet}", "#,##0.0"),
+        ("Motor fuel rationed", "PJ", "{Fuels:mf_cutp}", "#,##0.0"),
+        ("Asian exports deferred", "m bbl", "{Fuels:exp_cutp}/6.12", "#,##0.0"),
+        ("Oil stocks at year end", "days", "{Fuels:stk_days}", "0"),
         ("… that can actually be imported", "share", "{Fuels:imp_sh2}", "0%"),
         ("Motor vehicles per person", "per person", "{Uses:veh_pp}", "0.00"),
         ("… California (memo)", "per person", "{Uses:veh_cal}", "0.00"),
@@ -915,7 +946,7 @@ def write_start(wb, sha):
         ("Fuels", "Oil, gas, coal, wood and bagasse balances; primary energy; intensity."),
         ("Finance link", "Investment, revenue, royalties and fuel trade in money; named columns en_*."),
         ("Events", "Dated canon commitments."),
-        ("Checks", "The nine tests of the handoff's §7, year by year."),
+        ("Checks", "The nine tests of the handoff's §7 and the fuel-security test, year by year."),
         ("Changes", "Revision history."),
     ]
     for i, (s, d) in enumerate(guide, start=r + 1):
@@ -929,7 +960,8 @@ def write_start(wb, sha):
         "Main-line railway electrification: mainline_on (Story 1 with half the traffic by 1929 since 4 Nov 2026; Stress 0; Max 1).",
         "Oil abroad (CR-053, PROPOSED): entitlement crude from the Maracaibo, De Mares and Peruvian positions and the Gulf-coast options is added to the import ceiling (Paths conc_*, Fuels conc).",
         "Oil (approved CT3 A–C): Realm coal at 4×, all Gulf crude home, home oil on the discovery path oil_c52 (oil_src = 2). Motor vehicles per person (veh_src = 2) so that California is the most motorized place on earth.",
-        "Hawaii: hilo_src (1 = oil-fired steam, the default; 2 = windward hydro, which fails the check).",
+        "Hawaii (CT6, approved 4 Nov 2026): hilo_src = 2, the Hawaiian hydro board's Big Island plants (Paths h_hilo) carry the smelter; 1 = oil-fired steam (superseded).",
+        "Fuel security (4 Nov 2026): in a short year the model draws stocks (stock_days), defers Asian exports (exp_cut), rations motor fuel (mf_cut), switches coal-capable plant (Paths dual_share × dual_x) and only then leaves demand unmet (Fuels unmet; check 10). Realm coal rises at most coal_ramp a year. The 1932 compact is a price floor unless compact_on = 1.",
         "Nitrogen after 1919: the arc runs to 1928–29 then stops (Paths arc_kt); Haber–Bosch from 1925 (Paths haber_kt).",
         "The Five's power seat: the Electricity sheet shows what that seat oversees (capacity, generation, investment).",
         "Native consent for every new dam: the royalty lever roy_mill applies to Rock Island and the Works' dams; other basins carry no compact yet.",
@@ -952,6 +984,8 @@ def write_changes(wb, sha):
     ws.append(["2026-11-03", "CR-052", "First build: fourteen sheets per the energy-workbook handoff; anchors; nine checks. Second build after the fresh-context review: one industrial weight (ind_w) for motors and fuel; mid-Columbia chain off; Boulder at historical dates. Third build: the author's sources (1917 Census of Electrical Industries, Devine 1983, Minerals Yearbook 1932); CT3 A–C and CT5 approved into the Story case; the Max case. Fourth build: field-by-field oil model; Northwest surplus spilled; Max after 1915 only.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-052, CR-053", "Fifth build: the narrowed Max case into Story (M1 electric homes, M6 half the main lines, M7 Boulder 1920/1926 without the mid-Columbia chain, M8 early water flooding, M9 Northwest mill boilers); the chain off in every case; CR-053 concession crude (conc_*) added to the import ceiling.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-052", "Sixth build: fuel security (stocks, export deferral and motor-fuel rationing before the switch to coal; a dual-fuel share, with the rest shown as unmet demand; a yearly ramp on Realm coal; the 1932 compact as a price floor; check 10); CT6, Hilo on the Hawaiian hydro board's Big Island plants.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w

@@ -849,3 +849,50 @@ LEVERS += [
 LEVERS.append(("hydx_on", "Apply the post-1915 hydro multiplier Paths hyd_x (M7; 1 = yes)", 1, 0, "switch", "Model estimate",
                "Story and Max build hydro 35% faster after 1915 (M7). Stress keeps the fourth build's pace (0.7 of Story before M7)."))
 MAX["hydx_on"] = 1
+
+
+# =====================================================================================
+# Fifth revision, 4 November 2026: fuel security (the five additions of review-3's
+# oil question), CT6 (Hilo on windward hydro through a Hawaiian hydro board) and the
+# 1932 oil compact as a price floor. Author: "Yes please" (4 Nov 2026).
+# =====================================================================================
+LEVERS += [
+    ("— CR-052 fifth revision (4 Nov 2026): fuel security and Hilo —",),
+    ("dual_x", "Dual-fuel share of the flexible oil demand (× Paths dual_share)", 1.0, 0.85, "×", "Model estimate",
+     "Story and Max: the coastal stations and railways are built coal-capable by policy, the oil programme's twin. Stress: 15% less of the plant can switch."),
+    ("stock_days", "Oil stocks held (days of last year's products use)", 75, 45, "days", "Model estimate",
+     "Navy reserve plus commercial tankage. Drawn in a short year, refilled from surplus in a long one (Fuels stk)."),
+    ("prio", "Ration exports and motor fuel before putting industry on coal (1 = yes)", 1, 1, "switch", "Model estimate",
+     "Policy order in a short year: stocks, then the trust's Asian exports (up to exp_cut), then motor fuel (up to mf_cut), then the switch to coal, then unmet demand."),
+    ("exp_cut", "Most of the trust's Asian exports that can be cut in a short year", 0.5, 0.5, "share", "Model estimate", "Contracts allow half to be deferred."),
+    ("mf_cut", "Most motor fuel that can be rationed in a short year", 0.15, 0.15, "share", "Model estimate", "Pleasure driving; 1917–18 style."),
+    ("coal_ramp", "Most that Realm coal output can rise in a year", 0.10, 0.08, "share", "Model estimate",
+     "Mines, cars and the Utah–Los Angeles line: about a tenth a year, plus 1 Mt of slack. Above it the cascade goes to wood, imports and 'coal beyond reach'."),
+    ("compact_on", "1932 oil compact cuts output (1 = yes; 0 = a price floor, no cut)", 0, 1, "switch", "PROPOSED (CR-052, 4 Nov)",
+     "Review-3: a 15% cut in the year the Gulf ceiling also falls is the model's one real bottleneck. Story: the compact is a price floor; Stress keeps the cut."),
+    ("unmet_max", "Oil demand left unmet: most allowed (share of the flexible demand)", 0.02, 0.02, "share", "Model estimate", "Check 10."),
+]
+set_lever("hilo_src", story=2, stress=2, status="APPROVED (CR-052 CT6, 4 Nov 2026)",
+          basis="Author, 4 Nov 2026: Hilo on windward hydro through a Hawaiian hydro board (Paths h_hilo), whose twelve-year bonds are the 1932 price problem. "
+                "1 = oil-fired steam (superseded).")
+MAX.update({"hilo_src": 2, "compact_on": 0})
+
+path("dual_share", "Share of the flexible oil demand at plants and locomotives that can burn coal", "share",
+     {1846: 1, 1890: 1, 1900: 0.95, 1913: 0.85, 1920: 0.75, 1929: 0.65, 1932: 0.65},
+     "Interior railways and stations burn coal anyway; coastal stations and the Pacific lines are built dual-fuel by policy; the share falls as oil-only plant spreads in the 1920s.",
+     "PROPOSED (CR-052, 4 Nov), MODEL")
+path("h_hilo", "Hydro: the Hawaiian hydro board's Big Island plants (Wailuku, Honoliʻi, Hakalau; CT6)", "MW",
+     {1920: 0, 1922: 8, 1923: 25, 1924: 45, 1925: 65, 1926: 85, 1927: 105, 1930: 110, 1932: 115},
+     "CT6 (approved 4 Nov 2026): built 1922–27 on twelve-year bonds for the 18 kt smelter (about 45 MW average at a 0.45 capacity factor); Waimanu would be the next dam. Not scaled by hydro_pace.",
+     "APPROVED (CR-052 CT6), MODEL")
+# the 1932 compact leaves the oil paths and is applied in the Fuels formula by compact_on
+for key in ("oil_c52",):
+    lab, unit, pts, basis, status = PATHS[key]
+    PATHS[key] = (lab, unit, {y: round(v / (0.85 if y == 1932 else 1.0), 3) for y, v in pts.items()},
+                  basis.replace("; 1932 is held down by the oil compact", "; the 1932 oil compact is applied by the lever compact_on"), status)
+PATHS_MAX["oil_c52"] = {y: round(v / (0.85 if y == 1932 else 1.0), 3) for y, v in PATHS_MAX["oil_c52"].items()}
+
+EVENTS += [
+    (1922, "Hawaiian hydro board: Big Island windward plants begun (1922–27)", "Hydro (h_hilo); Strategic loads (Hilo)", "CR-052 CT6", "APPROVED (MODEL)"),
+]
+EVENTS[:] = [e if not e[1].startswith("Hilo aluminium built") else (e[0], e[1], e[2], e[3], "CANON; power: hydro board (CT6)") for e in EVENTS]

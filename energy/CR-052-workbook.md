@@ -1,8 +1,8 @@
-# Workbook note, 4 November 2026: the energy workbook (CR-052), fifth build
+# Workbook note, 4 November 2026: the energy workbook (CR-052), sixth build
 
-SHA-256 of the energy workbook: `76e893f6d920a303d16831357186fb8669d6f83dd412bd97fd69bdf5b6541c59`. Built from the financial workbook with SHA-256 `22266bad58ee60da888c9b8de9bcd2c964498a5427d6b453b1f6a5a46f6120b2` (the CR-050 workbook) by [`build/extract_finance.py`](build/extract_finance.py) and [`build/build_energy_workbook.py`](build/build_energy_workbook.py), then recalculated in LibreOffice: 23,812 formulas, no errors, in all three cases. The financial workbook is not changed. All amounts are MODEL estimates; every input is a blue cell with its basis beside it.
+SHA-256 of the energy workbook: `ef912bdb85307ae25b7b3b1c5ed2cb3ce24a69b33d90fa8ba099c243a5f1d709`. Built from the financial workbook with SHA-256 `22266bad58ee60da888c9b8de9bcd2c964498a5427d6b453b1f6a5a46f6120b2` (the CR-050 workbook) by [`build/extract_finance.py`](build/extract_finance.py) and [`build/build_energy_workbook.py`](build/build_energy_workbook.py), then recalculated in LibreOffice: 25,687 formulas, no errors, in all three cases. The financial workbook is not changed. All amounts are MODEL estimates; every input is a blue cell with its basis beside it.
 
-The model follows the handoff (`claude/energy-workbook-handoff.md`), the storyline as integrated on `main`, CR-051 (approved, not yet integrated) for the halls and the Works' dams, the author's decisions of 3 November 2026 recorded in CR-052, the Max decision of 4 November (the narrowed take of the third review, `outputs/CR-052/review-3.md`) and the CR-053 direction of the same day.
+The model follows the handoff (`claude/energy-workbook-handoff.md`), the storyline as integrated on `main`, CR-051 (approved, not yet integrated) for the halls and the Works' dams, the author's decisions of 3 November 2026 recorded in CR-052, the Max decision of 4 November (the narrowed take of the third review, `outputs/CR-052/review-3.md`), the CR-053 direction, CT6 (Hilo on hydro) and the fuel-security additions of the same day.
 
 ## Builds
 
@@ -12,7 +12,8 @@ The model follows the handoff (`claude/energy-workbook-handoff.md`), the storyli
 | Second | After the first fresh-context review ([`outputs/CR-052/review.md`](../outputs/CR-052/review.md)): one industrial weight (`ind_w` = 0.5) for factory motors and industrial fuel; the mid-Columbia chain an option; Boulder at its historical dates. |
 | Third | The author's sources (the 1917 *Census of Electrical Industries*, Devine 1983, the 1932 *Minerals Yearbook*); the approved decisions in the Story case (Realm coal at four times history, CT3 A; all Pacifican-controlled Gulf crude home, B; home oil found early, C; vehicles so that California is the most motorized place on earth, CT5); a third case, **Max** (`Levers!E4` = 3). |
 | Fourth | After the second review ([`outputs/CR-052/review-2.md`](../outputs/CR-052/review-2.md)): home oil from a field-by-field model (22 fields; Kettleman Hills 1923); Northwest water power beyond the Northwest's own load spilled; Max diverges from Story only after 1915. |
-| Fifth (this note) | After the third review ([`outputs/CR-052/review-3.md`](../outputs/CR-052/review-3.md)) and the author's decision of 4 November: **the narrowed Max case goes into Story** — M1 electric homes (Ontario level, 96% of homes wired and 1,700 kWh a home by 1929), M6 half the main lines electric by 1929, M7 Boulder Canyon decided 1920 with first power 1926 and ordinary hydro 35% faster after 1915, M8 pressure maintenance and water flooding fifteen years early (every field's primary recovery × 1.3; Story still produces 90% of deliverability), M9 electric boilers in the Northwest mills (5 TWh by 1929). **The mid-Columbia chain is off in every case** (it collides with CR-051 S7). Not taken: M2 (industrial weight, referred to the financial workbook), M3 and M4 (sent back for rework), M5 (held). Stress keeps the fourth build's shape through three new levers (`home_kwh_x`, `nwboil_x`, `hydx_on`). **CR-053's concession crude** (`conc_ven`, `conc_col`, `conc_peru`, `conc_bah`, `conc_kuw`, `conc_mes`) is added to the import ceiling (Fuels `conc`, `imp_max`) in every case. |
+| Fifth | After the third review ([`outputs/CR-052/review-3.md`](../outputs/CR-052/review-3.md)) and the author's decision of 4 November: **the narrowed Max case goes into Story** — M1 electric homes (Ontario level, 96% of homes wired and 1,700 kWh a home by 1929), M6 half the main lines electric by 1929, M7 Boulder Canyon decided 1920 with first power 1926 and ordinary hydro 35% faster after 1915, M8 pressure maintenance and water flooding fifteen years early (every field's primary recovery × 1.3; Story still produces 90% of deliverability), M9 electric boilers in the Northwest mills (5 TWh by 1929). **The mid-Columbia chain is off in every case** (it collides with CR-051 S7). Not taken: M2 (industrial weight, referred to the financial workbook), M3 and M4 (sent back for rework), M5 (held). Stress keeps the fourth build's shape through three new levers (`home_kwh_x`, `nwboil_x`, `hydx_on`). **CR-053's concession crude** (`conc_ven`, `conc_col`, `conc_peru`, `conc_bah`, `conc_kuw`, `conc_mes`) is added to the import ceiling (Fuels `conc`, `imp_max`) in every case. |
+| Sixth (this note) | **Fuel security**, after the author's question whether the oil shortfalls meant load-shedding: in a short year the Fuels sheet now draws stocks (`stock_days`), defers the trust's Asian exports (`exp_cut`), switches the coal-capable plant (Paths `dual_share` × `dual_x`), rations motor fuel (`mf_cut`) and only then leaves demand unmet (`unmet`, the real curtailment figure; **check 10** holds it under 2% of the flexible demand and requires no coal beyond reach). Realm coal can rise at most `coal_ramp` a year (10%, plus 1 Mt). The 1932 oil compact is a price floor unless `compact_on` = 1 (Story 0, Stress 1). Check 1 carries the stock and curtailment adjustments. **CT6:** `hilo_src` = 2 in every case; the Hawaiian hydro board's Big Island plants (Paths `h_hilo`, 8 MW in 1922 to 105 MW in 1927 and 115 by 1932, not scaled by `hydro_pace`) carry the smelter; Hawaii's physical potential 250 MW (to verify). |
 
 ## Story case (canon with the approved decisions and the 4 November Max parts)
 
@@ -33,10 +34,10 @@ Fourth-build values in brackets where they changed.
 | Halls from the grid (MW avg) |0|0|0|33|106|109|0|0|
 | Primary energy (PJ) |1162|2800|3943|4310|4916|5600|5985 (5868)|5405 (5249)|
 | GJ per person |109|140|155|158|167|172|172 (169)|145 (141)|
-| Home oil (m bbl) |74|228 (209)|275 (248)|280 (250)|304 (272)|274 (238)|255 (216)|194 (159)|
+| Home oil (m bbl) |74|228 (209)|275 (248)|280 (250)|304 (272)|274 (238)|255 (216)|229 (159; the compact a price floor since the sixth build)|
 | Oil imported (m bbl) |6|38|104|130|157 (154)|226 (214)|305 (285)|236 (212)|
 | … of it concession crude (CR-053) |0|0|0|0.3|3|12|20|24|
-| Oil share for rail, industry, power |68%|94% (85%)|93% (82%)|92% (78%)|93% (78%)|88% (66%)|97% (69%)|70% (42%)|
+| Oil share for rail, industry, power |73%|100% (85%)|99% (82%)|98% (78%)|100% (78%)|95% (66%)|100% (69%)|92% (42%)|
 | Coal mined at home (Mt) |20.8|35.3|49.2|54.6|62.6|69.8|69.9|70.0|
 | Coal imported (Mt) |0.0|0.0|0.0|0.0|0.0|0.0|0.0 (0.5)|0.0 (6.5)|
 | Coal beyond reach (Mt) |0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|
@@ -51,9 +52,21 @@ Fourth-build values in brackets where they changed.
 | Electricity revenue ($m) |72|353 (342)|1045 (960)|952 (831)|1202 (1005)|1451 (1146)|1593 (1210)|1379 (966)|
 | Checks failing |—|—|—|—|—|—|—|4, 6|
 
+**Fuel security (sixth build, Story).** Oil demand left unmet is zero in every year; no motor fuel is rationed in any year; no coal is imported; the coal ramp never binds (the largest yearly rise is 1917, 37 to 42 Mt). What the short years cost instead:
+
+| Story |1915|1917|1918|1920|1925|1926|1927|1929|1932|
+|---|---|---|---|---|---|---|---|---|---|
+| Asian exports deferred (m bbl) |10|12|12|14|19|20|21|8|18|
+| Switched from oil to coal (PJ) |161|265|150|20|83|154|87|0|123|
+| Motor fuel rationed (PJ) |0|0|0|0|0|0|0|0|0|
+| Unmet (PJ) |0|0|0|0|0|0|0|0|0|
+| Stocks (days) |0|0|0|0|0|0|0|0|0|
+
+Two findings. **The switch to coal is within the coal-capable plant in every year** (265 PJ in 1917 against about 1,300 PJ of switchable demand), so the 1915–18 and 1925–27 shortfalls are a managed change of fuel, not a shutdown. **Stocks are exhausted from 1915 and never rebuilt,** because the import ceiling binds in every year after that and the model refills tankage only from surplus: the Realm's real oil reserve in the 1920s is its dual-fuel plant and the Gulf, not its tanks. The deferred exports are home-refined products the trust does not ship to Asia in those years (8–21m bbl, half of what the financial workbook sells from home crude); the Asian contracts are served from Gulf crude instead, which the financial workbook's `asia_home` share should reflect (OPEN).
+
 - **The multiplier is now about two and a half:** 2.29–2.85 times US electricity per person in 1920–32 (fourth build 1.86–2.30), 2,400 kWh a head in 1929. The rise is homes (14 TWh in 1929 against 6.5), the main lines (12 TWh against 7.3) and the mill boilers (5 TWh); factory motors are unchanged because M2 was not taken. The halls' shares fall accordingly (CR-051's words still hold: a few per cent of capacity, a twentieth to a tenth of electricity).
 - **Hydro carries it:** 12.8 GW in 1929 (8.8), of which Boulder Canyon 1.3 GW from 1926; hydro is 64–76% of generation in 1920–32. Northwest spill falls to nothing in 1929 with the mill boilers, and 1.4 TWh in 1932.
-- **Oil, with early water flooding:** home oil peaks at 304m bbl in 1924 (272) and is 255m in 1929 (216); railways, industry and power get 88–97% of the oil they want in 1913–29 (66–85%). The Gulf still binds in 1929 (305m bbl imported, with the concessions' 20m on top of the 285m Gulf ceiling); imports are 31% of primary energy. No coal is imported in any year.
+- **Oil, with early water flooding:** home oil peaks at 304m bbl in 1924 (272) and is 255m in 1929 (216); with the sixth build's cascade, railways, industry and power get 95–100% of the oil they want in 1913–29 and 92% in 1932. The Gulf still binds in 1929 (305m bbl imported, with the concessions' 20m on top of the 285m Gulf ceiling); imports are 31% of primary energy. No coal is imported in any year.
 - **Money:** power investment 1.3–1.7% of GDP in 1922–29 ($0.76–0.92bn a year), against 0.8–1.3% in the fourth build; electricity revenue $1.6bn in 1929. Check 6 (the Development Fund's share) fails in 1916 and now also in 1932, when the Fund's credit shrinks in the slump; the financial workbook has no power line yet (F12 OPEN).
 - **1929 electricity, 74 TWh used:** factory motors 21 TWh, homes 14, railways 12 (main lines about 7), commerce 7, electrochemistry 6.4 (aluminium 3.1), mill boilers 5, mining 2.9, pumping 1.0, the strategic loads 4.6.
 
@@ -90,10 +103,11 @@ Unchanged in substance: it keeps the fourth build's electricity per home (`home_
 | 3. Oilfields within the field model and primary reserves; gasoline yield | passes | fails 1876–1916 (the financial workbook's oil runs ahead of the historical fields) | passes |
 | 4. Electricity per person and energy per dollar within bands | fails 1932 (US slump) | passes | passes |
 | 5. Capacity factor, reserve, dry year | passes | passes | passes |
-| 6. Power investment within 4% of GDP and the Development Fund's share | fails 1916 and 1932 | fails 9 years before 1927 | fails 1916 and 1932 |
+| 6. Power investment within 4% of GDP and the Development Fund's share | fails 1916 and 1932 | fails 10 years before 1928 | fails 1916 and 1932 |
 | 7. Oil and coal imports within reach | passes | passes | passes |
 | 8. Navy oil; vehicles per person ≤ 0.5 | passes | passes | passes |
-| 9. Strategic loads powered | passes | fails 1923–27 | passes |
+| 9. Strategic loads powered (incl. Hilo on the board's plants) | passes | fails 1923–27 | passes |
+| 10. Fuel security (unmet ≤ 2% of flexible demand; no coal beyond reach) | passes | passes | passes |
 
 ## The concessions (CR-053)
 
@@ -120,25 +134,25 @@ Carried from the fourth build's note for reference; they were run on the second 
 | Sheet | Contents |
 |---|---|
 | Start | Purpose, conventions, case, the financial workbook's SHA, key results for the benchmark years, the §8 questions and how each is carried. |
-| Levers | 86 levers, Story, Stress and Max, each with a named range, status and basis; `case_sel` in E4. |
+| Levers | 95 levers, Story, Stress and Max, each with a named range, status and basis; `case_sel` in E4. |
 | Anchors | US series used by formula (population, utility capacity, total generation, primary energy from EIA Table E1) and 85 anchor facts with source and status. |
-| Paths | 89 benchmark-year paths (six of them the CR-053 concessions) and 26 Max-case variants: intensities, shares, tonnages, capacity by basin, the halls' range. |
+| Paths | 91 benchmark-year paths (six of them the CR-053 concessions, plus `dual_share` and `h_hilo`) and 26 Max-case variants: intensities, shares, tonnages, capacity by basin, the halls' range. |
 | People & output | 27 finance series, Story and Stress side by side (red), the active one picked by the case. |
-| Hydro | Eight basins, the Works' dams, Rock Island, Boulder Canyon and the (off) mid-Columbia chain; output in a normal or dry year; potential used; lead times. |
+| Hydro | Eight basins, the Works' dams, Rock Island, the Hawaiian hydro board, Boulder Canyon and the (off) mid-Columbia chain; output in a normal or dry year; potential used; lead times. |
 | Strategic loads | The halls (with the arc power freed and the Works' dams), the feed plant, the Columbia station and Rock Island's balance, the walled college, Hilo and Hawaii's island grid, the navy, the canal; register of sources. |
 | Uses | Electricity in 16 sectors (nine of them electrochemical, plus the Northwest mill boilers); fuel in 13; conversion; the use-side primary total. |
 | Electricity | Demand, losses, Hawaii's grid, hydro, steam and atomic supply, peak, capacity, reserve, capacity factors, fuel, per person, the multipliers, the halls' shares, the dry-year test. |
-| Fuels | Oil allocated where it is available (motor fuel, lamps, the navy, bunkers and the feed plant first), then Realm coal, extra wood and imported coal for the rest; gas from the oilfields; the concession crude; the supply-side primary total; import shares; intensity against the US. |
+| Fuels | Oil allocated where it is available (motor fuel, lamps, the navy, bunkers and the feed plant first); the short-year cascade (stocks, exports deferred, the switch to coal-capable plant, motor-fuel rationing, unmet demand); then Realm coal under its ramp and ceiling, extra wood and imported coal for the rest; gas from the oilfields; the concession crude; the supply-side primary total; import shares; intensity against the US. |
 | Finance link | Investment, the Development Fund's credit, revenue, royalties and fuel trade in money; named columns `en_*`. |
-| Events | 39 dated canon commitments, approved discoveries and the CR-053 positions. |
-| Checks | The nine tests of handoff §7, year by year, and the failing tests. |
+| Events | 40 dated canon commitments, approved discoveries and the CR-053 positions. |
+| Checks | The nine tests of handoff §7 and the fuel-security test, year by year, and the failing tests. |
 | Changes | Revision history. |
 
 ## Limits of the model
 
 - **Two systems, no tie line.** Northwest water power beyond the Northwest's own load is spilled (Paths `tie_mw` = 0). California and the Northwest are otherwise pooled: steam, the strategic loads and the rest of the interior share one balance. A two-system grid with its own peaks is the next refinement.
 - The financial workbook does not yet read the `en_*` columns and was not re-run. Its Story and Stress results are unchanged by this note. The Story case now needs from it: the home-oil path (with M8), about 2.15m vehicles a year by 1929, power investment of $0.76–0.92bn a year in 1922–29, and the concession stakes' cost and dividends (CR-053).
-- M3 (aluminium: Hilo the flagship, Arkansas bauxite) and M4 (ammonia) are unchanged in Story pending rework; Hilo's power source (`hilo_src`) stays OPEN (CT6, review-3 finding 9).
+- M3 (aluminium: Hilo the flagship, Arkansas bauxite) and M4 (ammonia) are unchanged in Story pending rework. Hilo is on the Hawaiian hydro board's plants (CT6, approved): 45 MW average for the smelter in 1929 against the board's 49 MW; Honolulu's grid stays oil-steam.
 - Partners' own energy, and production abroad (Emba, Baku, Grozny–Maikop) except as oil the trust can ship home; the concessions enter only as entitlement crude; no trade block yet for partners' equipment purchases.
 - Industrial self-generation is not separated from utility supply; revenue prices all of it at the average utility price, which overstates revenue.
 - The atomic stations' cost stays in the financial workbook's Atomic sheet.
