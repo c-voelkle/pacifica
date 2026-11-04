@@ -3,7 +3,7 @@ session: 20261103-cr052-energy-workbook
 started: 2026-11-03
 updated: 2026-11-04
 mode: draft
-status: paused-for-author
+status: building
 baseline:
   commit: 04155c7
   files:
@@ -25,7 +25,11 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | --- | --- | --- | --- | --- |
 | D1 | decision | Build the workbook to the handoff and add it to the repository. | author message 2026-11-03 | current |
 | D2 | decision | CT3 A, B and C approved ("with the greatest believable haste in finding the Los Angeles basin giants"); California the most motorized place on earth (CT5 amended); explore a Max case of maximal energy use. | author messages 2026-11-03 | current |
-| Q1 | open choice | CR-052 W1, F1–F13 and CT1–CT6 (adopt the workbook; multiplier about two; halls' capacity share; Works' dams at about 650 MW; the fuel gap and its remedies; Pacifica as oil supplier; vehicles; Hilo on oil). | `claude/CR-052.md` in the project | open |
+| D3 | decision | Narrowed Max into Story (M1, M6, M7 Boulder only, M8, M9); M2 to finance via the investment share; M3/M4 reworked as CR-054; CR-053 concessions; CT6 Hilo on the hydro board; Ryan in the power seat from 1924 | author messages 2026-11-04 | current |
+| D4 | decision | CR-054 amounts, division of labour and storyline sentences; CR-055 R0 in full (early river, four purposes, McNary and Chief Joseph) | author messages 2026-11-04 | current |
+| D5 | decision | CT9: Ryan replaces Steinmetz (successor seat and the halls' supply); CR-054 A6: join the nitrogen convention, stay out of the aluminium cartel; paperwork consolidated with newer statements replacing older; hydrogenation with fewer barrels; workbook consistent with itself and the story; report before merging or rebuilding finance | author message 2026-11-04 16:29 | current |
+| Q1 | open choice | W1, F1–F4, F10, F12; CT1, CT2, CT4; `halls_after`; CR-053 open items; CR-055 R1–R9 open items | `CR-052.md`, `CR-053.md`, `CR-055.md` | open |
+| Q2 | open choice | CR-054 A6: confirm "the aluminium pool" meant the European cartel, not the Concord pool | `CR-054.md` | open |
 
 ## Checks executed
 
@@ -40,4 +44,4 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 
 ## Resume here
 
-CR-052 (fourth draft) is in the project as `claude/CR-052.md`: CT3 A–C and CT5 approved; the Max case (M1–M9) awaits the author, with a recommendation to take M1, M2, M6, M7, M8's water flooding and M9 into the Story case. The workbook (fourth build) is on branch `cr-052-energy-workbook`, PR #61. Next: the author's choice among M1–M9; then the financial workbook's next build takes the oil path (C), the vehicle path (CT5), the `en_*` columns and any adopted Max parts.
+The CR-051 integration (branch `adopt/cr051`, not yet on `main` when this was written) is merged into this branch. Paperwork consolidated (4 Nov): CR-052 sixth draft, CR-054 A6 recorded, CR-055 R3 and CT1 aligned with the integrated CR-051. Next: the eleventh workbook build (the line used, the hydrogenation works resized, the diffusion plant of 1930–32, stale notes), then the figures in CR-052–055, the README and the workbook note refreshed from it, and a report to the author before merging PR #61 or rebuilding the financial workbook.

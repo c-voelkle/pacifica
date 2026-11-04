@@ -54,7 +54,7 @@ Fourth-build values in brackets where they changed.
 | Power investment ($m) |34|169 (138)|519 (325)|820 (555)|908 (592)|1115 (564)|1075 (537)|612 (230)|
 | Power investment / GDP |0.6%|0.8%|0.9% (0.6%)|1.7% (1.3%)|1.6% (1.1%)|1.5% (0.9%)|1.3% (0.8%)|0.9% (0.4%)|
 | Electricity revenue ($m) |72|353 (342)|1045 (960)|952 (831)|1202 (1005)|1451 (1146)|1593 (1210)|1379 (966)|
-| Checks failing |—|—|—|—|—|—|—|4|
+| Checks failing |—|—|—|—|—|—|—|—|
 
 **Fuel security (sixth build, Story).** Oil demand left unmet is zero in every year; no motor fuel is rationed in any year; no coal is imported; the coal ramp never binds (the largest yearly rise is 1917, 37 to 42 Mt). What the short years cost instead:
 
@@ -71,7 +71,7 @@ Two findings. **The switch to coal is within the coal-capable plant in every yea
 - **The multiplier is now about two and a half:** 2.41–3.15 times US electricity per person in 1920–32 (fourth build 1.86–2.30), about 2,670 kWh a head in 1929 (tenth build; CR-054's champions and CR-055's early river with its four purposes add about 0.3 together). The rise is homes (14 TWh in 1929 against 6.5), the main lines (12 TWh against 7.3) and the mill boilers (5 TWh); factory motors are unchanged because M2 was not taken. The halls' shares fall accordingly (CR-051's words still hold: a few per cent of capacity, a twentieth to a tenth of electricity).
 - **Hydro carries it:** 12.8 GW in 1929 (8.8), of which Boulder Canyon 1.3 GW from 1926; hydro is 64–76% of generation in 1920–32. Northwest spill falls to nothing in 1929 with the mill boilers, and 1.4 TWh in 1932.
 - **Oil, with early water flooding:** home oil peaks at 304m bbl in 1924 (272) and is 255m in 1929 (216); with the sixth build's cascade, railways, industry and power get 95–100% of the oil they want in 1913–29 and 92% in 1932. The Gulf still binds in 1929 (305m bbl imported, with the concessions' 20m on top of the 285m Gulf ceiling); imports are 31% of primary energy. No coal is imported in any year.
-- **Money:** power investment 1.3–1.7% of GDP in 1922–29 ($0.76–0.92bn a year), against 0.8–1.3% in the fourth build; electricity revenue $1.6bn in 1929. Check 6 (the Development Fund's share) fails in 1916 and now also in 1932, when the Fund's credit shrinks in the slump; the financial workbook has no power line yet (F12 OPEN).
+- **Money:** power investment 1.3–1.7% of GDP in 1922–29 ($0.76–0.92bn a year), against 0.8–1.3% in the fourth build; electricity revenue $1.6bn in 1929. Since the seventh build the Fund's credit is capped at its capacity and check 6 passes in every year; the financial workbook has no power line yet (F12 OPEN).
 - **1929 electricity, 74 TWh used:** factory motors 21 TWh, homes 14, railways 12 (main lines about 7), commerce 7, electrochemistry 6.4 (aluminium 3.1), mill boilers 5, mining 2.9, pumping 1.0, the strategic loads 4.6.
 
 ## Max case (exploration, after the 4 November narrowing)
@@ -96,7 +96,7 @@ Without the chain the Northwest's spill vanishes earlier (the mill boilers and t
 
 ## Stress case
 
-Unchanged in substance: it keeps the fourth build's electricity per home (`home_kwh_x` = 0.5), no mill boilers, the hydro pace before M7 (`hydx_on` = 0), Boulder at 1928, the main lines on steam and the financial workbook's oil and vehicle paths. Electricity per person 1.72–2.26 times the US in 1920–32 (1.67–2.24); the same checks fail as before (3 in 1876–1916, 6 in 1900–26, 2 in 1922, 9 in 1923–27).
+Unchanged in substance: it keeps the fourth build's electricity per home (`home_kwh_x` = 0.5), no mill boilers, the hydro pace before M7 (`hydx_on` = 0), Boulder at 1928, the main lines on steam and the financial workbook's oil and vehicle paths. Electricity per person 1.72–2.26 times the US in 1920–32 (1.67–2.24); the same checks fail as before (3 in 1876–1916, 2 in 1922, 9 in 1923–27; check 6 passes since the seventh build).
 
 ## The checks
 
@@ -105,7 +105,7 @@ Unchanged in substance: it keeps the fourth build's electricity per home (`home_
 | 1. Supply = use | passes | passes | passes |
 | 2. Basins within potential; lead times | passes | fails 1922 (the Works' first 100 MW a year early at Stress's lead time) | passes |
 | 3. Oilfields within the field model and primary reserves; gasoline yield | passes | fails 1876–1916 (the financial workbook's oil runs ahead of the historical fields) | passes |
-| 4. Electricity per person and energy per dollar within bands | fails 1932 (US slump) | passes | passes |
+| 4. Electricity per person and energy per dollar within bands | passes | passes | passes |
 | 5. Capacity factor, reserve, dry year | passes | passes | passes |
 | 6. Power investment within 4% of GDP; Fund credit within the Fund's capacity (capped since the seventh build) | passes | passes | passes |
 | 7. Oil and coal imports within reach | passes | passes | passes |
