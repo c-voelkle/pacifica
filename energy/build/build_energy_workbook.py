@@ -311,6 +311,12 @@ def spec_uses():
         Col("e_rail", "Streetcars, interurbans (and main lines if electrified)",
             "{People & output:pop_all}*{P:rail_kwh}/1000000+IF(mainline_on=1,{People & output:pop_all}*{P:rail_gj}/1000000*{P:rail_el}*rail_kwh_gj,0)"),
         Col("e_pump", "Pumping and irrigation", "{P:pump_acres}*pump_kwh"),
+        Col("alu_grid", "Aluminium for the grid's conductor (kt, memo)", "{P:alu_grid}", "#,##0.0", group="Aluminium's uses (kt, memo; CR-054 A1)"),
+        Col("alu_air", "… the Concord fleet's aircraft", "{P:alu_air}", "#,##0.0"),
+        Col("alu_pool", "… the Concord pool, to Japan", "{P:alu_pool}", "#,##0.0"),
+        Col("alu_civil", "… civil uses at home", "{P:alu_civil}", "#,##0.0"),
+        Col("alu_exp", "… exported beyond the Concord", "MAX(0,{P:alu_kt}-{alu_grid}-{alu_air}-{alu_pool}-{alu_civil})", "#,##0.0", kind="key",
+            note="The part exposed to sterling and the European cartel in 1931 (CR-054 A4)."),
         Col("e_nwboil", "Electric boilers in Northwest mills", "{P:nwboil}*nwboil_x"),
         Col("e_ord", "Ordinary uses", "{e_home}+{e_comm}+{e_motor}+{e_echem}+{e_mine}+{e_rail}+{e_pump}+{e_nwboil}"),
         Col("e_strat", "Strategic loads (halls, station, valley)", "{Strategic loads:strat_gwh}", kind="link"),
@@ -995,6 +1001,8 @@ def write_changes(wb, sha):
     ws.append(["2026-11-04", "CR-052", "Sixth build: fuel security (stocks, export deferral and motor-fuel rationing before the switch to coal; a dual-fuel share, with the rest shown as unmet demand; a yearly ramp on Realm coal; the 1932 compact as a price floor; check 10); CT6, Hilo on the Hawaiian hydro board's Big Island plants.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-052", "Seventh build (after Sol's review of the finance note): the Max case's electrified process heat is its own switch (heat_el) and no longer stacks on the industrial weight; a finance calibration hook (Paths ind_idx) scales ind_w and ind_mj together; the Development Fund's power credit is capped at the Fund's capacity, the remainder shown as privately financed (en_power_capex_private), and check 6 no longer waives the Fund test; electricity revenue split into utility receipts and self-generation (en_elec_revenue_utility, en_elec_revenue_selfgen). Results unchanged.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-054", "Eighth build: the energy-intensive champions reworked — aluminium about 150 kt in 1929 (Columbia 70, Sierra 60, Hilo 18) with its uses as a memo (grid conductor, the fleet's aircraft, the Concord pool, civil, export); electrolytic ammonia 60 kt N on the Columbia from 1925 beside 30 kt N of Haber–Bosch on Valley gas; electric steel 12%; other electrochemistry × 1.2.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w

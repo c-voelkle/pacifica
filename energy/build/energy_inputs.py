@@ -916,3 +916,45 @@ path("ind_idx", "Industrial output per real dollar of GDP, relative to 1913 (fin
      "derived from the investment mix, domestic sourcing and manufactured exports, checked against steel and vehicles, indexed to 1913. "
      "Scales ind_w (factory motors) and ind_mj (industrial fuel) together. 1 until finance exports it; Sol's proportional estimate is "
      "about 1.08 by 1929 (ind_w 0.50 to 0.54).", "PROPOSED (awaiting finance), MODEL")
+
+
+# =====================================================================================
+# Seventh revision, 4 November 2026 (eighth build): CR-054, the energy-intensive
+# champions reworked — aluminium at Alcoa's scale absorbed at home and in the Concord,
+# nitrogen for the Valley and the Concord's own market, electric steel at 12%.
+# Author, 4 Nov 2026: "The amounts and the division of labor makes sense."
+# =====================================================================================
+def _set_story(key, points, note):
+    lab, unit, _old, basis, status = PATHS[key]
+    PATHS[key] = (lab, unit, points, basis + " " + note, "APPROVED direction (CR-054, 4 Nov), MODEL")
+
+
+_set_story("alu_kt", {1888: 0, 1890: 0, 1895: 0.3, 1900: 2, 1907: 6, 1913: 22, 1917: 45, 1920: 52, 1922: 60, 1924: 85, 1927: 125, 1929: 150, 1930: 135, 1932: 120},
+           "CR-054 A1: about 150 kt in 1929, half the world's output; the grid's conductor, the fleet's aircraft, the Concord pool, civil uses, a third exported.")
+_set_story("alu_col", {1900: 0, 1907: 1, 1913: 6, 1920: 16, 1923: 22, 1924: 35, 1927: 55, 1929: 70, 1932: 55},
+           "CR-054 A1: the Columbia (Wenatchee and the Rock Island reach) about 70 kt in 1929.")
+_set_story("alu_wen", {1922: 0, 1923: 0, 1924: 10, 1925: 15, 1927: 20, 1929: 25, 1932: 18}, "CR-054 A1.")
+_set_story("eln_kt", {1846: 0, 1924: 0, 1925: 5, 1927: 25, 1929: 60, 1932: 65},
+           "CR-054 A2: electrolytic ammonia on the Columbia from 1925 (Haber synthesis on hydrogen from the river's secondary power), about 60 kt N by 1929, for the Valley, the Columbia Basin, Hawaii, the Philippines and the China trade; not Japan's market.")
+_set_story("haber_kt", {1924: 0, 1925: 2, 1927: 10, 1929: 30, 1932: 35},
+           "CR-054 A2: Haber–Bosch on Sacramento Valley gas for the Bay and the south, about 30 kt N by 1929; the licence bought from BASF, not seized.")
+_set_story("esteel", {1907: 0, 1913: 0.01, 1917: 0.05, 1920: 0.06, 1929: 0.12, 1932: 0.12}, "CR-054 A5: 12% of steel electric by 1929, for the aircraft and electrical champions' alloys.")
+for _k in ("carb_kt", "chlor_kt", "abras_kt"):
+    lab, unit, pts, basis, status = PATHS[_k]
+    PATHS[_k] = (lab, unit, {y: round(v * (1.2 if y >= 1920 else 1.0 + 0.2 * max(0, y - 1913) / 7), 2) for y, v in pts.items()},
+                 basis + " CR-054 A5: about 1.2 times the earlier path from 1920.", "APPROVED direction (CR-054, 4 Nov), MODEL")
+set_lever("eln_col", story=1.0, stress=1.0, basis="CR-054 A2: all the electrolytic ammonia on the Columbia.")
+# aluminium-use memo (kt), CR-054 A1
+path("alu_grid", "Aluminium: steel-cored conductor for the grid (memo)", "kt", {1915: 0, 1917: 3, 1920: 8, 1924: 20, 1927: 30, 1929: 35, 1932: 25},
+     "CR-054 A1: Boulder–Los Angeles, the Sierra lines, the Columbia's, the main lines. ACSR's share of US aluminium in the late 1920s to verify.", "Memo (CR-054), MODEL")
+path("alu_air", "Aluminium: the Concord fleet's aircraft (memo)", "kt", {1920: 0, 1922: 1, 1925: 3, 1929: 7, 1932: 10},
+     "CR-054 A1: carriers from 1922 (canon); all-metal air arm from the mid-1920s; the 1931–32 programme is counter-cyclical.", "Memo (CR-054), MODEL")
+path("alu_pool", "Aluminium: the Concord pool, to Japan (memo)", "kt", {1920: 0, 1922: 3, 1925: 10, 1927: 18, 1929: 24, 1932: 22},
+     "CR-054 A1, A3: Japan's navy and electrical industry; Japan builds no aluminium industry against Pacifica's before 1937.", "Memo (CR-054), MODEL")
+path("alu_civil", "Aluminium: civil uses at home (memo)", "kt", {1900: 1, 1913: 10, 1920: 20, 1929: 38, 1932: 30},
+     "CR-054 A1: cookware, vehicles, rail cars, film equipment, electrical castings.", "Memo (CR-054), MODEL")
+EVENTS += [
+    (1925, "Electrolytic ammonia on the Columbia; the grid's aluminium conductor (CR-054)", "Uses (eln_kt, alu_grid)", "CR-054 A1, A2", "APPROVED direction (MODEL)"),
+    (1927, "Hayama annex: the Concord's division of labour; the Concord aluminium pool (CR-054)", "Uses (alu_pool)", "CR-054 A3", "APPROVED direction; annex PROPOSED"),
+    (1930, "The Concord joins the nitrogen convention as one party; stays outside the European aluminium cartel (CR-054)", "Uses (eln_kt, alu_kt)", "CR-054 A3, A4", "PROPOSED"),
+]

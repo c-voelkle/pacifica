@@ -13,7 +13,7 @@ python3 energy/build/extract_finance.py finance/Pacifica_financial_model_1846-19
 # 2. Build the energy workbook (formulas only)
 python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv \
     energy/Pacifica_energy_model_1846-1932.xlsx
-# 3. Recalculate in LibreOffice; expect "success", 0 errors (26,037 formulas)
+# 3. Recalculate in LibreOffice; expect "success", 0 errors (26,472 formulas)
 python3 <xlsx skill>/scripts/recalc.py energy/Pacifica_energy_model_1846-1932.xlsx 300
 ```
 
