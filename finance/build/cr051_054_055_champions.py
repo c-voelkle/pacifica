@@ -29,9 +29,9 @@ CR-054 and CR-055 (sheet "Electro champions", linked into "Champions"): aluminiu
 amounts by destination (the Realm and the Concord at the pool's price; the third beyond the
 Concord at the world price, which falls in 1931-32), its first fabrication, and the aircraft
 and engines, in Champions!AO; electrolytic and Haber-Bosch nitrogen, electric steel's premium,
-zinc, magnesium, phosphorus, copper refining, synthetic rubber and hydrogenation in a new
-Champions column (BF), added to the champions' value added at home and the competitive
-industries' profits. Electric pig iron is a change of process, not new output (memo). The copper
+magnesium, phosphorus, synthetic rubber and hydrogenation in a new Champions column (BF), added
+to the champions' value added at home and the competitive industries' profits. Electrolytic zinc
+and copper refining are memos: the metals series (Resources!F) values them at the metal's price. Electric pig iron is a change of process, not new output (memo). The copper
 the Great Salt Lake refines is reconciled with the metals series (Resources!F). Arkansas bauxite
 and the alumina refinery appear as Gulf trade (memo). Plant investment is counted.
 
@@ -104,6 +104,7 @@ def energy_lever(name: str) -> tuple[float, float]:
 def levers() -> list:
     ch, ch2 = energy_lever("cost_hydro"), energy_lever("cost_td")
     ds, dm = energy_lever("dev_share"), energy_lever("df_max")
+    ps, lf = energy_lever("price_strat"), energy_lever("strat_lf")
     return [
         "— CR-051, CR-054 and CR-055: the Works' costs, the energy-intensive champions and the Columbia (4 Nov 2026) —",
         ("halls_y12", "CR-051 M2: the magnet halls' construction, as a multiple of Y-12's", 2.75, 3.0, "× Y-12", "OPEN (author's decision)",
@@ -114,9 +115,9 @@ def levers() -> list:
          "construction about $0.3bn; building costs in 1945 were about 2.8 times those of 1913 (ENR index; to verify): about "
          "$110m in 1913 dollars."),
         ("halls_op", "CR-051: the halls' operation per MW of draw", 35, 45, "1913 $ thousand a MW-year", "Model estimate",
-         "Thousands of examined operators, the recovery chemists, the vacuum and magnet shops, and power at the running cost "
-         "of the Works' own dams (their capital is in the Works sheet): about $25m a year (1913 $) at the full plant's 700 MW. "
-         "Replaces CR-050's 'operation and hydro power' ($6-10m)."),
+         "Thousands of examined operators, the recovery chemists, the vacuum and magnet shops, and the running cost of the Works' "
+         "own dams (their capital is in the Works sheet): about $25m a year (1913 $) at the full plant's 700 MW. Power from "
+         "elsewhere is bought at en_price_strat (Works sheet). Replaces CR-050's 'operation and hydro power' ($6-10m)."),
         ("feed_staff", "CR-051 M1: the feed plant's staff and upkeep", 1.5, 2.0, "1913 $m a year", "Model estimate",
          "Its oil is costed from the energy workbook's 0.4-0.75 Mt at the oil price (Resources!L)."),
         ("diff_op", "CR-051 M4: the gaseous-diffusion plant's operation per MW of draw", 20, 25, "1913 $ thousand a MW-year", "Model estimate", ""),
@@ -138,6 +139,12 @@ def levers() -> list:
          "energy/build/energy_inputs.py dev_share. Applied here to the power investment the Treasury does not build itself."),
         ("en_df_max", "Most of the Fund's yearly investment power can take (mirror)", dm[0], dm[1], "share", "Mirror of the energy workbook",
          "energy/build/energy_inputs.py df_max."),
+        ("en_price_strat", "Price of power to the strategic loads (mirror)", ps[0], ps[1], "1913 cents/kWh", "Mirror of the energy workbook",
+         "energy/build/energy_inputs.py price_strat: what the halls pay for power that is not the Works' own (the freed arc plants' "
+         "power, the Columbia-Sierra line, the grid) and the diffusion plant pays for the river's power. The energy workbook counts "
+         "the same kilowatt-hours in its electricity revenue."),
+        ("en_strat_lf", "Load factor of the strategic loads (mirror)", lf[0], lf[1], "share", "Mirror of the energy workbook",
+         "energy/build/energy_inputs.py strat_lf."),
         ("col2_cost", "CR-055 R9: the Columbia's second units, cost as a share of a new plant's", 0.4, 1.0, "share", "OPEN (author's decision)",
          "CR-055 R9: costed by the energy workbook like a new plant with its lines (about $0.45bn), an overstatement, since units "
          "added to existing powerhouses need no new dam and little new line. Story 0.4 (turbines, generators and the powerhouse "
@@ -325,6 +332,7 @@ def build_works(wb, data: dict) -> Sheet:
     feed = energy_series(W, data, "feed_mt", "Feed plant oil (Mt)", note="CR-051 M1, M2: 0.4-0.75 Mt a year from 1921.")
     diff = energy_series(W, data, "diff_mw", "Gaseous-diffusion plant's draw (MW)")
     works = energy_series(W, data, "cap_works", "The Works' dams, Pit and upper Feather (MW)")
+    wavg = energy_series(W, data, "works_avg", "The Works' dams, average output (MW)")
     rock = energy_series(W, data, "cap_rock", "Rock Island (MW)")
     wen = energy_series(W, data, "wen_mw", "Wenatchee smelter on Rock Island (MW avg)")
     spare = energy_series(W, data, "rock_spare", "Rock Island left for orchards and pumps (MW avg)")
@@ -338,7 +346,11 @@ def build_works(wb, data: dict) -> Sheet:
                note="Share × halls_y12 × y12_build. Replaces CR-050's $130m in 1917-1923 and its $60m enlargement of 1928-1930 "
                "(after 1927 the output rises through gaseous diffusion as feed, M4).")
     ho = W.add("halls_op", "Halls: operation", lambda y, r: f"={halls}{r}*halls_op/1000",
-               note="Draw × halls_op: staff, shops and power at the dams' running cost. Replaces CR-050's operation and hydro power.")
+               note="Draw × halls_op: staff, shops and the Works' dams' running cost. Replaces CR-050's operation and hydro power.")
+    hp = W.add("halls_pw", "Halls: power bought beyond the Works' dams",
+               lambda y, r: f"=MAX(0,{halls}{r}*en_strat_lf-{wavg}{r})*8.76*en_price_strat/100",
+               note="The halls' use (draw × en_strat_lf) less the Works' dams' average output: the freed arc plants' power (1919 on), the "
+               "Columbia-Sierra line (1924 on) and any grid power, bought at en_price_strat. In the energy workbook's electricity revenue.")
     fb = W.add("feed_build", "Feed plant and its oil-fired powerhouse: construction", lambda y, r: FEED_BUILD.get(y, 0), is_input=True,
                note="CR-051 M1: Ralston College's columns put in front of the halls in 1921, several times S-50 (about $6m in 1913 $), "
                "with a powerhouse of their own; larger feed 1924-25.")
@@ -357,8 +369,10 @@ def build_works(wb, data: dict) -> Sheet:
     db = W.add("diff_build", "Gaseous diffusion: pilot and plant", lambda y, r: DIFF_BUILD.get(y, 0), is_input=True,
                note="CR-051 M4: a pilot in the inner circle about 1926, a plant 1930-32 at the Columbia station (site PROPOSED, CR-055 R3). "
                "K-25 cost about $140m in 1913 $; the first plant draws 150 MW in 1932.")
-    do = W.add("diff_op", "Gaseous diffusion: operation", lambda y, r: f"={diff}{r}*diff_op/1000")
-    sep = W.add("sep", "Separation chain: total", lambda y, r: f"={hb}{r}+{ho}{r}+{fb}{r}+{fo}{r}+{sb}{r}+{so}{r}+{br}{r}+{db}{r}+{do}{r}",
+    do = W.add("diff_op", "Gaseous diffusion: operation, with its power",
+               lambda y, r: f"={diff}{r}*diff_op/1000+{diff}{r}*en_strat_lf*8.76*en_price_strat/100",
+               note="Draw × diff_op, plus the river's power at en_price_strat (the plant stands at the Columbia station on the estate's dams).")
+    sep = W.add("sep", "Separation chain: total", lambda y, r: f"={hb}{r}+{ho}{r}+{hp}{r}+{fb}{r}+{fo}{r}+{sb}{r}+{so}{r}+{br}{r}+{db}{r}+{do}{r}",
                 note="To Atomic AD (× atom_scale there), counted with the halls and weapons as government consumption.")
 
     g = "The Works' dams (investment)"
@@ -447,12 +461,13 @@ def link_atomic(wb, W: Sheet) -> None:
         r = row(y)
         q = A.cell(r, 17).value
         assert q == f"=L{r}+(M{r}+N{r}+O{r}+P{r})*atom_scale", q
-        A.cell(r, 17).value = f"=L{r}+(M{r}+N{r}+O{r}+P{r}+AD{r}+AE{r}+AF{r})*atom_scale"
+        A.cell(r, 17).value = f"=L{r}+(M{r}+N{r}+O{r}+P{r}+AD{r}+AF{r})*atom_scale+AE{r}"
         x = A.cell(r, 24).value
         assert x == f"=T{r}+U{r}+W{r}", x
         A.cell(r, 24).value = f"=T{r}+U{r}+W{r}+AG{r}"
     base.note(A.cell(5, 17), (A.cell(5, 17).comment.text + "\n\n" if A.cell(5, 17).comment else "")
-              + "CR-051 build: plus the separation chain, the compacts and the Works' dams (AD-AF), × atom_scale.", 120)
+              + "CR-051 build: plus the separation chain and the Works' dams (AD, AF) × atom_scale, and the compacts' fees and "
+              "royalties (AE), which are not a cost overrun and are not scaled.", 120)
     base.note(A.cell(5, 24), (A.cell(5, 24).comment.text + "\n\n" if A.cell(5, 24).comment else "")
               + "CR-051 build: plus Rock Island's sales (AG).", 120)
     A["A2"].value = (A["A2"].value or "") + (" CR-051 (4 Nov 2026): the halls at a multiple of Y-12, the feed plant, the Columbia station, "
@@ -504,7 +519,7 @@ def build_electro(wb, data: dict) -> Sheet:
                 note="Steel-cored conductor, sheet for the air arm, castings.")
     alu_va = E.add("alu_va", "Aluminium: value added", lambda y, r: f"={va_in}{r}+{va_x}{r}+{fab}{r}")
     craft = E.add("aircraft", "Aircraft and engines: value added", lambda y, r: round(AIRCRAFT[y], 3), is_input=True,
-                  note="Douglas, Lockheed and Boeing are Pacifican; the Concord's carrier and shore air arm all-metal from the mid-1920s, "
+                  note="The earlier workbook's note on Champions!AO has Douglas, Lockheed and Boeing as Pacifican (not storyline canon); the Concord's carrier and shore air arm all-metal from the mid-1920s, "
                   "built in Los Angeles and (PROPOSED) under licence in Japan; the naval and air programme of 1931-32 is the order book. "
                   "US aircraft and parts were about $70m of output in 1929 (to verify).")
     E.add("ao", "Aluminium and aircraft (to Champions!AO)", lambda y, r: f"={alu_va}{r}+{craft}{r}")
@@ -526,10 +541,13 @@ def build_electro(wb, data: dict) -> Sheet:
     ves = E.add("va_es", "Electric steel above ordinary steel",
                 lambda y, r: f"=Champions!R{r}*Champions!B{r}*{es}{r}*es_prem*Paths!B{r}",
                 note="CR-054 A5: an eighth of steel by 1929. Steel output × scale × share × premium.")
-    vzn = E.add("va_zn", "Electrolytic zinc", lambda y, r: f"={zn}{r}*{px['zn']}{r}*22.046*zn_va/1000")
+    vzn = E.add("va_zn", "Electrolytic zinc (memo: inside Resources!F)", lambda y, r: f"={zn}{r}*{px['zn']}{r}*22.046*zn_va/1000",
+                note="Resources!F carries historical values at the metal's price, and Resources!O takes mining's value added from it, so "
+                "the smelting step is already in GDP. Memo only; not in BF.")
     vmg = E.add("va_mg", "Magnesium", lambda y, r: f"={mg}{r}*{px['mg']}{r}*2204.6*mg_va/1000")
     vp = E.add("va_p", "Furnace phosphorus", lambda y, r: f"={ph}{r}*{px['p']}{r}*p_va/1000")
-    vcu = E.add("va_cu", "Copper refining", lambda y, r: f"={cu}{r}*cu_margin*Paths!B{r}/1000")
+    vcu = E.add("va_cu", "Copper refining (memo: inside Resources!F)", lambda y, r: f"={cu}{r}*cu_margin*Paths!B{r}/1000",
+                note="As zinc: refined copper is valued at the refined price inside Resources!F. Memo only; not in BF.")
     rub_m = f"({px['rub']}{{r}}*22.046-rub_inp*Paths!B{{r}})"
     vr = E.add("va_rub", "Synthetic rubber", lambda y, r: f"={rub}{r}*MAX(0,{rub_m.format(r=r)})/1000",
                note="CR-055 purpose 3: against the Stevenson scheme (1922-28). Value added at the world price, never below zero.")
@@ -544,17 +562,20 @@ def build_electro(wb, data: dict) -> Sheet:
     E.add("pig_memo", "Electric pig iron (kt, memo: no new value added)", lambda y, r: f"={pig}{r}",
           note="CR-055 purpose 4: the yards' own iron on Philippine and Chilean ore; a change of process inside steel (Champions!T).")
     bf = E.add("bf", "Electrochemistry and metals (to Champions!BF)",
-               lambda y, r: f"={vn}{r}+{ves}{r}+{vzn}{r}+{vmg}{r}+{vp}{r}+{vcu}{r}+{vr}{r}+{vh}{r}",
-               note="The heavy electrochemicals and metals of CR-054 and CR-055. Champions!Z (chemicals and drugs) is the fine and "
-               "organic chemistry of the licence trade and is not reduced.")
+               lambda y, r: f"={vn}{r}+{ves}{r}+{vmg}{r}+{vp}{r}+{vr}{r}+{vh}{r}",
+               note="Nitrogen, electric steel's premium, magnesium, phosphorus, rubber and hydrogenation (CR-054, CR-055). Zinc and copper "
+               "refining are inside the metals series (memos). Champions!Z (chemicals and drugs) is the fine and organic chemistry of "
+               "the licence trade and is not reduced.")
     E.add("losses", "Losses at world prices (memo)", lambda y, r: f"={lr}{r}+{lh}{r}")
+    E.add("cuzn_share", "Copper and zinc refined / copper and other metals", lambda y, r: f"=IF(Resources!F{r}>0,({cu}{r}*{px['cu']}{r}+{zn}{r}*{px['zn']}{r})*22.046/1000/Resources!F{r},0)",
+          group="Copper against the metals series", fmt="0%")
 
-    g = "Copper against the metals series"
-    cv = E.add("cu_v", "Copper refined, value ($m)", lambda y, r: f"={cu}{r}*{px['cu']}{r}*22.046/1000", group=g)
+    cv = E.add("cu_v", "Copper refined, value ($m)", lambda y, r: f"={cu}{r}*{px['cu']}{r}*22.046/1000")
     E.add("cu_share", "… share of copper and other metals (Resources!F)", lambda y, r: f"=IF(Resources!F{r}>0,{cv}{r}/Resources!F{r},0)",
           fmt="0%", note="CR-055: Bingham and Arizona copper for the grid and the cable industry. The refined copper is mined inside the "
-          "Realm, so it must fit inside the metals series; the rest of the series is lead, zinc, silver ores and the rest. Below "
-          "100% in every year: reconciled, no change to Resources!F.")
+          "Realm, so it must fit inside the metals series with the zinc; the rest is lead, silver ores and the rest. 8-83% (1921, "
+          "when the series falls to $70m in the slump while the copper path is smooth): below 100% in every year, no change to "
+          "Resources!F; 1921 is tight.")
 
     g = "Plant investment ($m)"
     lines = [("alu", alu, 1), ("n", None, 1), ("zn", zn, 1), ("mg", mg, 1), ("p", ph, 1), ("cu", cu, 1), ("rub", rub, 1),
@@ -680,7 +701,7 @@ def build_account(wb, W: Sheet, E: Sheet, line: dict) -> None:
                 cell.number_format = fmt
         wk, rk = f"Works!{W['cap_works']}", f"Works!{W['cap_rock']}"
         put("AL", f"=({d(wk, r, y)}+{d(rk, r, y)})*{cost}/1000*Economy!H{r}")
-        put("AM", f"=(Works!{W['dams']}{r})*atom_scale*Atomic!R{r}")
+        put("AM", f"=(Works!{W['dams']}{r})*atom_scale*Atomic!R{r}")  # as in Atomic Q and S
         put("AN", f"={d('BK', r, y)}*{cost}*(1-col2_cost)/1000*Economy!H{r}")
         put("AO", line.get(y, 0), True)
         put("AP", f"=H{r}-AL{r}+AM{r}-AN{r}+AO{r}")
