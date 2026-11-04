@@ -128,19 +128,22 @@ HEAD = [
     ("X", None, "Return on the entitlement crude ($m)", "Entitlement crude × conc_div; in the champions' earnings abroad (Champions!AZ) and the chartered industries' profits."),
     ("Y", "Investment and consumption (investment-share note v2)", "Investment share of GDP, Story test path",
      "finance/investment-share-note.md v2: about 15% at settlement, 18-20% in the 1860s-70s, 22-25% under the regency, 25-27% in 1900-13, "
-     "22-24% in 1914-19, 27-29% in the 1920s, 24-26% in 1930-32. PROPOSED, MODEL."),
+     "22-24% in 1914-19, 27-29% in the 1920s (27% in 1920, 28-29% from 1922), 24-26% in 1930-32. PROPOSED, MODEL."),
     ("Z", None, "Investment share of GDP", "Story path less inv_gap (Stress five points lower)."),
     ("AA", None, "Gross domestic investment ($m)", "Investment share × core GDP. Includes the power investment (H) and the Development Fund's investment."),
     ("AB", None, "Power investment / gross domestic investment", "US electric utilities were about a sixteenth of private investment in the late 1920s (to verify)."),
     ("AC", None, "Industrial index (1913 = 1)", "Investment share over its 1913 value: the proportional baseline of the note (Sol: about 1.08 by 1929). "
      "The energy workbook reads it as ind_idx when its lever ind_src = 2 (off until the author adopts the path)."),
-    ("AD", None, "Fund's power credit / what the Fund invests", "Development Fund credit to the utilities over 'Debt & cash'!I."),
-    ("AE", None, "Government consumption ($m)", "Treasury spending on the army, navy, war and operations, civil services, technical programmes and settlement; "
-     "public works count as investment, debt interest and transfers are excluded. County and state spending is inside civil services' share."),
-    ("AF", None, "Net exports ($m)", "Net foreign investment (ordinary private investment abroad, the Entente share, net public lending abroad) less net income "
-     "from abroad (income from abroad less remittances and payments to foreign holders). The champions' assets abroad are held at "
-     "a book value derived from earnings, so their change is a valuation, not a flow, and is left out."),
-    ("AG", None, "Household consumption ($m)", "Core GDP less investment, government consumption and net exports."),
+    ("AD", None, "Fund's power credit / the Fund's investment from surpluses", "Development Fund credit to the utilities over 'Debt & cash'!I (the Fund's investment from budget surpluses, "
+     "the base of the energy workbook's cap); against the Fund's investment from all sources ('Debt & cash'!N) the share is lower."),
+    ("AE", None, "Government consumption ($m)", "Treasury spending on the army, navy, war and operations, civil services, technical programmes and settlement. "
+     "Excluded as investment: public works, the Development Fund's 'Investment' events and the atomic power stations (Atomic P); the separation halls and weapons count, "
+     "like other military spending, as government consumption. Debt interest and transfers are excluded. County and state spending is inside civil services' share."),
+    ("AF", None, "Net exports ($m)", "Net foreign investment less net income from abroad. Net foreign investment: ordinary private investment abroad less "
+     "repatriations (Abroad C, F), the Entente share (Abroad D), net public lending abroad ('Debt & cash' B), and the champions' cash investment abroad "
+     "less what foreigners finance and plus what is redeemed (Champion funding D, K, Q, R). Net income: income from abroad and interest on public loans abroad "
+     "(Abroad M, Budget H) less remittances and payments to foreign holders (Abroad O, V)."),
+    ("AG", None, "Household consumption ($m)", "Core GDP less investment, government consumption, net exports and new gold kept as money (Resources R)."),
     ("AH", None, "Household consumption / GDP", ""),
     ("AI", None, "Household consumption per person present ($)", "The author's trade-off view (investment-share note v2): read this, not GDP per person, "
      "for whether Pacificans live visibly better than the Union's citizens."),
@@ -204,16 +207,19 @@ def build_sheet(wb, data: dict, sha: str, old_oil: dict, old_cars: dict) -> None
         put("U", round(data["conc_oil__story"][i], 4), True)
         put("V", STAKES.get(y, 0), True)
         put("W", f"=V{r}" if y == FIRST else f"=W{r - 1}+V{r}", False)
-        put("X", f"=U{r}*conc_div", False)
+        put("X", f"=U{r}*conc_div", False)  # the entitlement is the same in both energy cases
         put("Y", round(INV_SHARE[y], 4), True, "0.0%")
         put("Z", f"=MAX(0,Y{r}-inv_gap)", False, "0.0%")
         put("AA", f"=Z{r}*Economy!O{r}", False)
         put("AB", f"=IF(AA{r}>0,H{r}/AA{r},0)", False, "0.0%")
         put("AC", f"=IF($Z${r13}>0,Z{r}/$Z${r13},1)", False, "0.000")
         put("AD", f"=IF('Debt & cash'!I{r}>0,K{r}/'Debt & cash'!I{r},0)", False, "0%")
-        put("AE", f"=Budget!N{r}+Budget!O{r}+Budget!P{r}+Budget!Q{r}+Budget!S{r}+Budget!T{r}", False)
-        put("AF", f"=Abroad!C{r}+Abroad!D{r}+'Debt & cash'!B{r}-(Abroad!M{r}-Abroad!O{r}-Abroad!V{r})", False)
-        put("AG", f"=Economy!O{r}-AA{r}-AE{r}-AF{r}", False)
+        inv_ev = (f"SUMPRODUCT((Events!$B$6:$B$400<=$A{r})*(Events!$C$6:$C$400>=$A{r})"
+                  f"*(Events!$E$6:$E$400=\"Investment\")*Events!$H$6:$H$400)")
+        put("AE", f"=Budget!N{r}+Budget!O{r}+Budget!P{r}+Budget!Q{r}+Budget!S{r}-{inv_ev}-Atomic!P{r}*atom_scale*Atomic!R{r}+Budget!T{r}", False)
+        put("AF", f"=Abroad!C{r}+Abroad!D{r}-Abroad!F{r}+'Debt & cash'!B{r}+'Champion funding'!D{r}-'Champion funding'!K{r}"
+                  f"+'Champion funding'!Q{r}+'Champion funding'!R{r}-(Abroad!M{r}+Budget!H{r}-Abroad!O{r}-Abroad!V{r})", False)
+        put("AG", f"=Economy!O{r}-AA{r}-AE{r}-AF{r}-Resources!R{r}", False)
         put("AH", f"=IF(Economy!O{r}>0,AG{r}/Economy!O{r},0)", False, "0.0%")
         put("AI", f"=AG{r}*1000000/(Economy!B{r}+People!V{r}+Labour!L{r})", False, "#,##0")
         put("AJ", round(US_PCE[y], 1) if y in US_PCE else None, True, "#,##0")
@@ -221,7 +227,7 @@ def build_sheet(wb, data: dict, sha: str, old_oil: dict, old_cars: dict) -> None
 
 
 def link(wb) -> None:
-    R, C, A = wb["Resources"], wb["Champions"], wb["Abroad"]
+    R, C, A, K = wb["Resources"], wb["Champions"], wb["Abroad"], wb["Capital accounts"]
     assert R["I5"].value.startswith("Oil output before any compact"), R["I5"].value
     assert C["U5"].value == "Motor vehicles built (thousands)", C["U5"].value
     assert A["C5"].value == "Ordinary investment abroad ($m)", A["C5"].value
@@ -235,6 +241,9 @@ def link(wb) -> None:
         a = A[f"C{r}"].value
         assert a == f"=Economy!O{r}*B{r}", a
         A[f"C{r}"].value = f"=Economy!O{r}*B{r}-'Energy link'!V{r}"
+        k = K[f"C{r}"].value
+        assert k == f"=Champions!AY{r}-Champions!Q{r}", k
+        K[f"C{r}"].value = f"=Champions!AY{r}-Champions!Q{r}-'Energy link'!W{r}"
         for L_, add in (("AY", "W"), ("AZ", "X"), ("BB", "X")):
             f = C[f"{L_}{r}"].value
             assert isinstance(f, str) and f.startswith("=") and "Energy link" not in f, (L_, r, f)
@@ -245,6 +254,8 @@ def link(wb) -> None:
               + "CR-052 CT5: the energy workbook's build path in the Story case (en_paths); Energy link D and E.", 140)
     base.note(A["C5"], (A["C5"].comment.text + "\n\n" if A["C5"].comment else "")
               + "CR-053: less the oil trust's stake purchases, which move into the champions' assets abroad (Energy link V, W).", 140)
+    base.note(K["C5"], (K["C5"].comment.text + "\n\n" if K["C5"].comment else "")
+              + "CR-052: less the CR-053 oil stakes (Energy link W), which are oil assets financed out of ordinary investment abroad, so that they are not financed twice.", 140)
     for L_, txt in (("AY", "CR-053: plus the oil trust's stakes at book (Energy link W)."),
                     ("AZ", "CR-053: plus the return on the entitlement crude (Energy link X)."),
                     ("BB", "CR-053: plus the return on the entitlement crude (Energy link X).")):
