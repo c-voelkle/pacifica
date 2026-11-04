@@ -958,3 +958,71 @@ EVENTS += [
     (1927, "Hayama annex: the Concord's division of labour; the Concord aluminium pool (CR-054)", "Uses (alu_pool)", "CR-054 A3", "APPROVED direction; annex PROPOSED"),
     (1930, "The Concord joins the nitrogen convention as one party; stays outside the European aluminium cartel (CR-054)", "Uses (eln_kt, alu_kt)", "CR-054 A3, A4", "PROPOSED"),
 ]
+
+
+# =====================================================================================
+# Eighth revision, 4 November 2026 (ninth build): CR-055 R0 — the Columbia built early
+# and its power put to use from the 1900s. Author: "Why not ten years earlier for each of
+# zinc, ammonia and magnesium? Ignore the line from canon about the first main-stem dam.
+# They should start building them early, when and wherever it makes sense and putting
+# the energy to use."
+# =====================================================================================
+LEVERS += [
+    ("— CR-055 (4 Nov 2026): the Columbia's reserve, built early —",),
+    ("zinc_mwh", "Electricity per tonne of electrolytic zinc", 3.6, 3.6, "MWh/t", "Historical (to verify)", "Trail and Anaconda cells, about 3.3–4 MWh/t."),
+    ("mg_mwh", "Electricity per tonne of magnesium", 22, 22, "MWh/t", "Historical (to verify)", "Electrolytic cells on chloride brine, about 18–25 MWh/t in the 1920s, more before."),
+    ("phos_mwh", "Electricity per tonne of furnace phosphorus", 14, 14, "MWh/t P", "Historical (to verify)", "Electric-furnace phosphorus, about 13–15 MWh/t."),
+    ("cu_mwh", "Electricity per tonne of electrolytically refined copper", 0.3, 0.3, "MWh/t", "Historical (to verify)", "Refining only; smelting is thermal."),
+]
+# the dams, strategic (not scaled by hydro_pace), CR-055 R0/R2
+path("h_bonn", "Hydro: Bonneville, the lower Columbia (CR-055)", "MW", {1908: 0, 1912: 0, 1913: 150, 1915: 300, 1918: 400, 1922: 500, 1932: 500},
+     "CR-055 R0: decided 1908 for Portland, the lower valley's load and navigation; first power 1913; laddered; Celilo Falls untouched (no dam at The Dalles). "
+     "Historically 1933–38 (to verify). The Bonneville compact of 1908 with the Cascade and Wasco bands and the fishing peoples is the first of the S8 pattern.",
+     "PROPOSED (CR-055), MODEL")
+path("h_rreach", "Hydro: Rocky Reach, above Wenatchee (CR-055)", "MW", {1914: 0, 1918: 0, 1919: 200, 1921: 400, 1925: 600, 1929: 800, 1932: 800},
+     "CR-055 R0: decided 1914 for the Columbia Basin's pumps and the Wenatchee works; first power 1919; laddered; the Wenatchi, Entiat and Chelan peoples' compact. Historically 1961 (to verify).",
+     "PROPOSED (CR-055), MODEL")
+path("h_wells", "Hydro: Wells, the Methow reach (CR-055)", "MW", {1921: 0, 1925: 0, 1926: 200, 1928: 400, 1932: 600},
+     "CR-055 R0: decided 1921; first power 1926; the Methow and Okanogan peoples' compact (the Colville confederation). Historically 1967 (to verify).",
+     "PROPOSED (CR-055), MODEL")
+# the electrochemistry that uses the river, a decade earlier (kt)
+path("zinc_kt", "Electrolytic zinc at Spokane (Coeur d'Alene ores)", "kt", {1907: 0, 1908: 2, 1910: 8, 1913: 20, 1917: 45, 1920: 40, 1924: 50, 1929: 70, 1932: 50},
+     "CR-055 R7, ten years early: on Spokane Falls and then Rocky Reach; brass, galvanising and cable; the war's demand from 1915. Trail's method 1916 historically (to verify).",
+     "PROPOSED (CR-055), MODEL")
+path("mg_kt", "Magnesium: Great Salt Lake brine, then Puget Sound seawater", "kt", {1908: 0, 1909: 0.2, 1913: 1.0, 1917: 3.0, 1920: 2.5, 1925: 4.0, 1929: 7.0, 1932: 6.0},
+     "CR-055 R5, ten years early: electrolytic magnesium from the lake's chloride brine on Wasatch hydro from 1909 (Griesheim's cells of 1886; Dow's brine plant 1916 historically); "
+     "the seawater works at Tacoma on Bonneville's power from about 1924. Flares and flash powder first, Elektron-type alloys for the air arm from 1915. US output 1929 about 2 kt (to verify).",
+     "PROPOSED (CR-055), MODEL")
+path("phos_kt", "Furnace phosphorus from the Idaho field (upper Snake hydro)", "kt P", {1914: 0, 1915: 2, 1917: 6, 1920: 10, 1925: 20, 1929: 30, 1932: 25},
+     "CR-055 R7, early: electric-furnace phosphorus for the Valley's and the Concord's fertiliser and the champions' chemistry; the TVA's method of the 1930s (to verify).",
+     "PROPOSED (CR-055), MODEL")
+path("cu_kt", "Electrolytically refined copper at Great Salt Lake", "kt", {1904: 0, 1905: 20, 1913: 120, 1920: 200, 1929: 300, 1932: 200},
+     "CR-055 R7: Bingham and Arizona copper refined on the interior's hydro from 1905 for the grid and the cable industry (to verify against the finance workbook's metals).",
+     "PROPOSED (CR-055), MODEL")
+_set_story("eln_kt", {1846: 0, 1914: 0, 1915: 5, 1917: 15, 1919: 30, 1922: 38, 1925: 45, 1929: 60, 1932: 65},
+           "CR-055 R0, ten years early: ammonia synthesis on electrolytic hydrogen from the Columbia's cells from 1915 (the BASF licence of 1913; the arc plants still make the war's nitric acid to 1919 and free their power for the halls as canon says). "
+           "The cells' heavy-water residue is found about 1916–17, beside the light isotope's proof (CR-050).")
+# the Northwest's own balance counts the river's new loads
+path("nw_new", "Share of the new river loads (zinc, phosphorus, Columbia ammonia) in the Northwest balance", "share", {1846: 1, 1932: 1}, "All on the Columbia, the Spokane and the upper Snake.")
+EVENTS += [
+    (1905, "Electrolytic copper refining at Great Salt Lake (CR-055)", "Uses (cu_kt)", "CR-055 R7", "PROPOSED"),
+    (1908, "Bonneville decided; the Bonneville compact; electrolytic zinc at Spokane (CR-055)", "Hydro (h_bonn); Uses (zinc_kt)", "CR-055 R0, R2, R7", "PROPOSED"),
+    (1909, "Magnesium from Great Salt Lake brine (CR-055)", "Uses (mg_kt)", "CR-055 R5", "PROPOSED"),
+    (1913, "Bonneville's first power; the BASF ammonia licence (CR-055)", "Hydro (h_bonn); Uses (eln_kt)", "CR-055 R0", "PROPOSED"),
+    (1914, "Rocky Reach decided (CR-055)", "Hydro (h_rreach)", "CR-055 R0, R2", "PROPOSED"),
+    (1915, "Ammonia on the Columbia's cells; furnace phosphorus on the upper Snake (CR-055)", "Uses (eln_kt, phos_kt)", "CR-055 R0, R7", "PROPOSED"),
+    (1916, "Heavy water found in the cells' residue; kept by the Works (CR-055)", "Uses (eln_kt memo)", "CR-055 R3", "PROPOSED"),
+    (1921, "Wells decided (CR-055)", "Hydro (h_wells)", "CR-055 R2", "PROPOSED"),
+    (1924, "Seawater magnesium at Tacoma on Bonneville's power (CR-055)", "Uses (mg_kt)", "CR-055 R5", "PROPOSED"),
+]
+EVENTS[:] = [e for e in EVENTS if not e[1].startswith("Electrolytic ammonia on the Columbia; the grid")] + [
+    (1925, "The grid's aluminium conductor (CR-054)", "Uses (alu_grid)", "CR-054 A1", "APPROVED direction (MODEL)")]
+
+# The ordinary Columbia utilities build less once the strategic dams carry the river's
+# load (the ninth build's first pass spilled 6–9 TWh a year): h_col is cut back from
+# 1913, and the Columbia takes the aluminium growth of CR-054 instead of the Sierra,
+# where power is dearer.
+_set_story("h_col", {1888: 0, 1890: 2, 1900: 40, 1907: 120, 1913: 300, 1917: 350, 1920: 400, 1924: 480, 1927: 560, 1929: 620, 1932: 700},
+           "CR-055 R0: Spokane Falls and the tributaries only; the main stem is Bonneville, Rocky Reach, Wells and Rock Island (strategic rows).")
+_set_story("alu_col", {1900: 0, 1907: 1, 1913: 8, 1920: 22, 1923: 32, 1924: 48, 1927: 78, 1929: 100, 1932: 80},
+           "CR-055 R0: the Columbia takes CR-054's aluminium growth (about 100 of 150 kt in 1929); the Sierra's district stays at its 1920 size.")
