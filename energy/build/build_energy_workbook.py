@@ -293,8 +293,9 @@ def spec_uses():
         Col("e_home", "Households", "{homes_el}*{P:kwh_home}*home_kwh_x/1000"),
         Col("e_comm", "Commerce and public lighting", "{People & output:pop_all}*{P:kwh_comm}*elec_pace/1000000"),
         Col("fact", "Factory horsepower electric", "MIN(1,{P:fact_elec}*elec_pace)", "0%"),
-        Col("e_motor", "Industry, motors", "{People & output:gdp_real}*ind_w*{P:indw_x}*{fact}*motor_full",
-            note="Real GDP × industrial weight (ind_w) × factory horsepower electric × kWh per 1913 $ of US-type output (motor_full)."),
+        Col("e_motor", "Industry, motors (and process heat if heat_el = 1)", "{People & output:gdp_real}*ind_w*{P:ind_idx}*(1+({P:indw_x}-1)*heat_el)*{fact}*motor_full",
+            note="Real GDP × industrial weight (ind_w × the finance calibration Paths ind_idx) × factory horsepower electric × kWh per 1913 $ of US-type output (motor_full); "
+                 "the Max case's electrified process heat (Paths indw_x) applies only when heat_el = 1, so it never stacks on a higher finance weight."),
         Col("e_alu", "Aluminium", "{P:alu_kt}*{P:alu_mwh}", group="Electrochemistry and electrometallurgy (GWh)"),
         Col("e_arc", "Arc nitrogen", "{P:arc_kt}*arc_mwh"),
         Col("e_haber", "Haber–Bosch nitrogen", "{P:haber_kt}*haber_mwh"),
@@ -329,8 +330,8 @@ def spec_uses():
         Col("f_navy_coal", "Navy coal", "{P:navy_coal}*coal_gj", "#,##0.0"),
         Col("f_bunker", "Merchant bunkers", "{P:bunker}*6.63", "#,##0.0"),
         Col("f_rail", "Steam railways", "{People & output:pop_all}*{P:rail_gj}/1000000*(1-IF(mainline_on=1,{P:rail_el},0))", "#,##0.0"),
-        Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}/1000-{Uses:e_nwboil}*5.1/1000)", "#,##0.0",
-            note="ind_mj already reflects Pacifica's lighter industry (about 0.35–0.4 of US intensity), consistent with ind_w. Electric mill boilers replace 5.1 MJ of fuel per kWh."),
+        Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}*{P:ind_idx}/1000-{Uses:e_nwboil}*5.1/1000)", "#,##0.0",
+            note="ind_mj already reflects Pacifica's lighter industry (about 0.35–0.4 of US intensity), consistent with ind_w; both are scaled by the same finance calibration (Paths ind_idx). Electric mill boilers replace 5.1 MJ of fuel per kWh."),
         Col("f_steel", "Steel: coke and coal", "{People & output:steel}*{P:steel_gj}", "#,##0.0"),
         Col("f_haber", "Haber–Bosch: gas", "{P:haber_kt}*haber_gj/1000", "#,##0.0"),
         Col("f_bld", "Heating and cooking", "({People & output:homes}*{P:gj_home}+{People & output:pop_all}/1000*{P:gj_comm})/1000", "#,##0.0"),
@@ -514,10 +515,17 @@ def spec_finance():
             "#,##0.0", first="({new_h}*(cost_hydro+cost_td)+{new_t}*(cost_steam+cost_td))/1000"),
         Col("capex", "Power investment ($m)", "{capex_r}*{People & output:price}", "#,##0.0", kind="key"),
         Col("capex_gdp", "Power investment / GDP", "IF({People & output:gdp}>0,{capex}/{People & output:gdp},0)", "0.0%"),
-        Col("dev_credit", "Development Fund's power credit ($m)", "{capex}*dev_share", "#,##0.0"),
-        Col("dev_sh", "… as a share of the Fund's investment", "IF({People & output:dev_inv}>0,{dev_credit}/{People & output:dev_inv},\"\")", "0%"),
-        Col("rev", "Electricity revenue ($m)", "({Electricity:ord}*{P:el_price}+{Electricity:strat}*price_strat)/100*{People & output:price}",
-            "#,##0.0", group="Revenue and royalties"),
+        Col("dev_want", "Development Fund's power credit wanted ($m)", "{capex}*dev_share", "#,##0.0"),
+        Col("dev_credit", "Development Fund's power credit ($m)", "MIN({dev_want},df_max*MAX(0,{People & output:dev_inv}))", "#,##0.0",
+            note="Capped at df_max of what the Fund invests that year (finance Debt & cash); the Fund never lends what it has not got."),
+        Col("priv_fin", "Power investment financed outside the Fund ($m)", "{capex}-{dev_credit}", "#,##0.0",
+            note="Utilities' bonds and shares, the champions' retained earnings, the Reserve Bank's lending in the slump."),
+        Col("dev_sh", "… Fund credit as a share of the Fund's investment", "IF({People & output:dev_inv}>0,{dev_credit}/{People & output:dev_inv},\"\")", "0%"),
+        Col("rev", "Electricity revenue, gross ($m)", "({Electricity:ord}*{P:el_price}+{Electricity:strat}*price_strat)/100*{People & output:price}",
+            "#,##0.0", group="Revenue and royalties", note="All electricity valued at the average utility price, self-generation included."),
+        Col("rev_self", "… of it self-generation valued at utility rates ($m)", "{rev}*self_gen", "#,##0.0",
+            note="Industrial and electrochemical self-generation is not a utility sale; the financial workbook should count only rev_util as utility receipts."),
+        Col("rev_util", "Utility receipts ($m)", "{rev}-{rev_self}", "#,##0.0", kind="key"),
         Col("rev_gdp", "Electricity revenue / GDP", "IF({People & output:gdp}>0,{rev}/{People & output:gdp},0)", "0.0%"),
         Col("roy", "Royalties to the compact peoples ($m)", "({Hydro:av_rock}+{Hydro:av_works})*roy_mill/1000*{People & output:price}", "#,##0.00",
             note="Rock Island (CR-051 S8 C2) and the Works' dams (R2, OPEN), on every kWh sold."),
@@ -544,8 +552,7 @@ CHECKS = [
     ("c4", "4. Intensity bands", "IF(AND({Electricity:kwh_pp}<=kwh_max,OR({A}<1880,AND({Fuels:int_ratio}>=int_lo,{Fuels:int_ratio}<=int_hi))),1,0)"),
     ("c5", "5. Capacity factor, reserve, dry year", "IF(OR({Electricity:gen}=0,{A}<1900),1,IF(AND({Electricity:sys_cf}>=cf_lo,"
      "{Electricity:sys_cf}<=cf_hi,{Electricity:res}>=0.1,{Electricity:dry_ok}=1),1,0))"),
-    ("c6", "6. Money", "IF(AND({Finance link:capex_gdp}<=capex_hi,OR({People & output:dev_inv}<=0,"
-     "{Finance link:dev_credit}<=df_max*{People & output:dev_inv})),1,0)"),
+    ("c6", "6. Money", "IF(AND({Finance link:capex_gdp}<=capex_hi,{Finance link:dev_credit}<=df_max*MAX(0,{People & output:dev_inv})+0.001),1,0)"),
     ("c7", "7. Fuel imports within reach", "IF(AND({Fuels:imp}<={Fuels:imp_max}+0.001,{Fuels:coal_imp}<={Fuels:coal_imp_cap}+0.001),1,0)"),
     ("c8", "8. Navy and motor fuel", "IF(AND(ABS({Uses:f_navy_oil}-{People & output:navy_oil}*6.63)<0.0001,"
      "{Uses:veh}*1000<=veh_max*{People & output:pop_all}),1,0)"),
@@ -987,6 +994,8 @@ def write_changes(wb, sha):
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-052", "Sixth build: fuel security (stocks, export deferral and motor-fuel rationing before the switch to coal; a dual-fuel share, with the rest shown as unmet demand; a yearly ramp on Realm coal; the 1932 compact as a price floor; check 10); CT6, Hilo on the Hawaiian hydro board's Big Island plants.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-052", "Seventh build (after Sol's review of the finance note): the Max case's electrified process heat is its own switch (heat_el) and no longer stacks on the industrial weight; a finance calibration hook (Paths ind_idx) scales ind_w and ind_mj together; the Development Fund's power credit is capped at the Fund's capacity, the remainder shown as privately financed (en_power_capex_private), and check 6 no longer waives the Fund test; electricity revenue split into utility receipts and self-generation (en_elec_revenue_utility, en_elec_revenue_selfgen). Results unchanged.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w
 
@@ -994,7 +1003,8 @@ def write_changes(wb, sha):
 def add_named_columns(wb):
     for key, name in [("capex", "en_power_capex"), ("dev_credit", "en_dev_power_credit"), ("rev", "en_elec_revenue"),
                       ("roy", "en_royalties"), ("v_imp", "en_oil_import_value"), ("v_coal", "en_coal_import_value"),
-                      ("v_net", "en_fuel_trade_net")]:
+                      ("v_net", "en_fuel_trade_net"), ("priv_fin", "en_power_capex_private"), ("rev_util", "en_elec_revenue_utility"),
+                      ("rev_self", "en_elec_revenue_selfgen")]:
         L = LETTER[("Finance link", key)]
         wb.defined_names[name] = DefinedName(name, attr_text=f"'Finance link'!${L}${FIRST}:${L}${LAST}")
 

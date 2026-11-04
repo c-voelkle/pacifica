@@ -896,3 +896,23 @@ EVENTS += [
     (1922, "Hawaiian hydro board: Big Island windward plants begun (1922–27)", "Hydro (h_hilo); Strategic loads (Hilo)", "CR-052 CT6", "APPROVED (MODEL)"),
 ]
 EVENTS[:] = [e if not e[1].startswith("Hilo aluminium built") else (e[0], e[1], e[2], e[3], "CANON; power: hydro board (CT6)") for e in EVENTS]
+
+
+# =====================================================================================
+# Sixth revision, 4 November 2026 (seventh build): after Sol's review of the finance
+# note. Process heat is its own switch; a calibration hook for the finance workbook's
+# industrial series; the Fund's credit capped; revenue split.
+# =====================================================================================
+LEVERS += [
+    ("— CR-052 sixth revision (4 Nov 2026): the finance calibration —",),
+    ("heat_el", "Electrified process heat in factories (1 = yes; applies Paths indw_x)", 0, 0, "switch", "Model estimate",
+     "Max case only. Kept apart from the industrial weight so that a higher finance weight (Paths ind_idx) is never multiplied by it."),
+    ("self_gen", "Share of electricity that is industrial self-generation, not utility sales", 0.2, 0.25, "share", "Model estimate",
+     "US industrial plants made about a third of electricity in the 1920s (to verify); Pacifica's champions less, on utility hydro."),
+]
+MAX.update({"heat_el": 1})
+path("ind_idx", "Industrial output per real dollar of GDP, relative to 1913 (finance calibration)", "×", {1846: 1, 1932: 1},
+     "Hook for the financial workbook's next build (claude/finance-investment-share-note.md v2): the domestic industrial output series "
+     "derived from the investment mix, domestic sourcing and manufactured exports, checked against steel and vehicles, indexed to 1913. "
+     "Scales ind_w (factory motors) and ind_mj (industrial fuel) together. 1 until finance exports it; Sol's proportional estimate is "
+     "about 1.08 by 1929 (ind_w 0.50 to 0.54).", "PROPOSED (awaiting finance), MODEL")
