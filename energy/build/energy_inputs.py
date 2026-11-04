@@ -1105,3 +1105,27 @@ EVENTS += [
 ]
 _set_story("alu_wen", {1922: 0, 1923: 8, 1924: 20, 1925: 25, 1927: 30, 1929: 32, 1932: 25},
            "Eleventh build: CR-051 (integrated) has the Wenatchee works take most of Rock Island's output; part of the Columbia's aluminium (alu_col), so the total is unchanged.")
+
+# =====================================================================================
+# Twelfth build, 4 November 2026: Northwest capacity for both the line and the boilers.
+# Author, 4 Nov 2026: "I think it's better to add NW capacity and keep both."
+# =====================================================================================
+LEVERS += [
+    ("— Twelfth build (4 Nov 2026): Columbia second units —",),
+    ("col2_on", "Columbia second units in the existing powerhouses (1 = yes)", 1, 0, "switch", "APPROVED direction (CR-052, 4 Nov)",
+     "Author, 4 Nov 2026: add Northwest capacity and keep both the Columbia–Sierra line and the mill boilers. Stress keeps the river without its customers' second units."),
+    ("cf_col2", "Capacity factor of the Columbia second units", 0.35, 0.35, "share", "Model estimate",
+     "Added units on run-of-river dams turn the spring and early-summer freshet that would otherwise go over the spillway: secondary energy, the mill boilers' kind of power. "
+     "The Columbia at The Dalles runs about four times its low flow in June (to verify)."),
+]
+path("h_col2", "Columbia second units: Bonneville and Rocky Reach (CR-052)", "MW",
+     {1923: 0, 1924: 50, 1925: 450, 1926: 620, 1927: 680, 1928: 850, 1929: 1100, 1932: 1100},
+     "CR-052 twelfth build (author's direction): decided 1923: Bonneville's second powerhouse (about +500 MW, 1925–27) and Rocky Reach toward about 1,300 MW (+500, 1926–29), 1.1 GW in all by 1929; "
+     "historically Bonneville reached about 1,050 MW, Rocky Reach about 1,300 and Wells about 840 (to verify). No new dam and no new reach: the compacts stand as written.",
+     "APPROVED direction (CR-052, 4 Nov); amounts MODEL")
+LEVERS += [
+    ("ind_src", "Industrial calibration (1 = Paths ind_idx; 2 = the financial workbook's industrial index from the investment share)", 1, 1, "switch",
+     "OPEN (CR-052 M2)",
+     "finance/investment-share-note.md v2: the financial workbook exports the index (Energy link!AC: the investment share over its 1913 value). "
+     "Off until the author adopts the investment-share path; the CR-052 report gives the result with it on."),
+]

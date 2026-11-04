@@ -55,7 +55,9 @@ FIELDS = [
     ("atom_mwe", "Atomic", "V", "Atomic stations in service", "MWe"),
     ("dev_inv", "Debt & cash", "I", "Invested by the Development Fund", "$m"),
     ("public_works", "Budget", "R", "Public works", "$m"),
+    ("ind_idx", "Energy link", "AC", "Industrial index from the investment share (1913 = 1; CR-052 M2)", "index"),
 ]
+OPTIONAL = {"ind_idx": 1.0}  # sheets added by later finance builds; older workbooks give this value
 FIRST_ROW, LAST_ROW = 6, 92  # 1846..1932
 
 
@@ -67,6 +69,9 @@ def read(path: Path) -> dict[str, list[float]]:
     wb = openpyxl.load_workbook(path, data_only=True, read_only=True)
     out = {}
     for key, sheet, col, *_ in FIELDS:
+        if sheet not in wb.sheetnames and key in OPTIONAL:
+            out[key] = [OPTIONAL[key]] * (LAST_ROW - FIRST_ROW + 1)
+            continue
         ws = wb[sheet]
         vals = []
         for r in range(FIRST_ROW, LAST_ROW + 1):

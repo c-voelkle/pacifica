@@ -28,8 +28,8 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | D3 | decision | Narrowed Max into Story (M1, M6, M7 Boulder only, M8, M9); M2 to finance via the investment share; M3/M4 reworked as CR-054; CR-053 concessions; CT6 Hilo on the hydro board; Ryan in the power seat from 1924 | author messages 2026-11-04 | current |
 | D4 | decision | CR-054 amounts, division of labour and storyline sentences; CR-055 R0 in full (early river, four purposes, McNary and Chief Joseph) | author messages 2026-11-04 | current |
 | D5 | decision | CT9: Ryan replaces Steinmetz (successor seat and the halls' supply); CR-054 A6: join the nitrogen convention, stay out of the aluminium cartel; paperwork consolidated with newer statements replacing older; hydrogenation with fewer barrels; workbook consistent with itself and the story; report before merging or rebuilding finance | author message 2026-11-04 16:29 | current |
-| Q1 | open choice | W1, F1–F4, F10, F12; CT1, CT2, CT4; `halls_after`; CR-053 open items; CR-055 R1–R9 open items | `CR-052.md`, `CR-053.md`, `CR-055.md` | open |
-| Q2 | open choice | CR-054 A6: confirm "the aluminium pool" meant the European cartel, not the Concord pool | `CR-054.md` | open |
+| D6 | decision | CR-054 A6 means the European cartel; Northwest capacity added to keep both the line and the mill boilers; CT1 wording amended at integration; CT2 approved (adapt); Max and Stress side effects accepted; rebuild the financial workbook and report before merging | author message 2026-11-04 17:07 | current |
+| Q1 | open choice | Merge PR #61; W1, F1–F4, F10, F12; CT4; `halls_after`; the 1932 oil compact (cut or price floor); the `inv_share` path and `ind_src`; CR-053 amounts; CR-055 R1–R9 open items | `CR-052.md`, `finance/CR-052-workbook.md`, `CR-053.md`, `CR-055.md` | open |
 
 ## Checks executed
 
@@ -44,7 +44,9 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | X7 | Eleventh build: LibreOffice recalculation, three cases | 28,765 formulas, 0 errors in each; Story and Max pass every check in every year; Stress fails 3 (1876–1916), 2 (1922), 9 (1923–24) |
 | X8 | Reproduction from the committed inputs (tenth build, before the changes) | finance import identical; rebuilt workbook equal cell by cell to the committed one |
 | X9 | `lint_canon.py --only` on CR-052–055 | clean except the expected unknown ID CT-HARRIS-RYAN (registered at integration) |
+| X10 | Twelfth energy build and the financial workbook's energy link, iterated to a fixed point | energy 29,029 formulas, finance 54,321, 0 errors; energy outputs unchanged on the last pass; Story: no check fails in either workbook |
+| X11 | Fresh-context review of the finance build (separate agent) | see round log |
 
 ## Resume here
 
-Eleventh build pushed on `cr-052-energy-workbook` (PR #61), with CR-052–055, the README and the workbook note refreshed from it, and the CR-051 integration (`adopt/cr051`) merged in; `main` has since taken CR-051 as #62 and is merged in too, so PR #61 shows only the energy files. Paused for the author before merging PR #61 or rebuilding the financial workbook. Open: CR-054 A6's reading of "the aluminium pool"; CT1 (the halls' capacity share against the integrated CR-051); CT4 (the Bonneville compact as the pattern); W1 and F1–F4, F10, F12.
+Twelfth energy build and the financial workbook's energy link (`finance/build/cr052_energy_link.py`, `finance/CR-052-workbook.md`) are on `cr-052-energy-workbook` (PR #61), iterated to a fixed point. Paused for the author before merging PR #61. Open: the 1932 oil compact (finance cuts 15%, energy treats it as a price floor); the `inv_share` path and `ind_src`; CR-053 amounts; CT4; W1 and F1–F4, F10, F12; at integration the storyline's CR-021 comparison sentence (already stale before this branch), the CR-025 foreign-holder income (about $270m in 1929 now) and the atomic cost share (0.175%).

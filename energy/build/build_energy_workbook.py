@@ -77,7 +77,7 @@ for k, p, lab, cf, pot in BASINS:
 # ------------------------------------------------------------------ finance import
 FIN_KEYS = ["pop_res", "pop_all", "guest", "labour", "gdp", "gdp_real", "price", "gdp_pc", "us_gdp_pc", "oil_out",
             "oil_price", "metals", "gold_ca", "gold_int", "steel", "cars", "chem", "elec_eq", "alum_air", "gulf_crude",
-            "gulf_share", "asia_oil", "navy_oil", "navy_ships", "atom_mwe", "dev_inv", "public_works"]
+            "gulf_share", "asia_oil", "navy_oil", "navy_ships", "atom_mwe", "dev_inv", "public_works", "ind_idx"]
 
 
 def load_finance(path: Path):
@@ -211,11 +211,13 @@ def spec_hydro():
         Col("cap_wells", "Wells (MW)", "{P:h_wells}", note="CR-055: decided 1921, first power 1926."),
         Col("cap_mcnary", "McNary (MW)", "{P:h_mcnary}", note="CR-055: decided 1922, first power 1927; laddered."),
         Col("cap_cjoe", "Chief Joseph, laddered (MW)", "{P:h_cjoe}", note="CR-055: decided 1926, first power 1931."),
+        Col("cap_col2", "Columbia second units (MW)", "{P:h_col2}*col2_on",
+            note="CR-052, twelfth build (author, 4 Nov: add Northwest capacity and keep both the line and the mill boilers): more units in the powerhouses of Bonneville and Rocky Reach, toward their historical installed size; they run on the freshet's secondary water (cf_col2)."),
         Col("cap_boulder", "Boulder Canyon (MW)", "IF({A}>=boulder_dec+boulder_lead,MIN(1345,({A}-boulder_dec-boulder_lead+1)*330),0)",
             note="Built up at 330 MW a year to 1,345 MW from the decision plus lead time (Levers). OPEN."),
         Col("cap_colms", "Mid-Columbia chain (MW)", "IF(AND(colms_on=1,{A}>=colms_dec+dam_lead+1),MIN(colms_max,({A}-colms_dec-dam_lead)*colms_rate),0)",
             note="PROPOSED (CR-052): low main-stem dams with ladders above Rock Island; first power in the year after decision + lead time."),
-        Col("cap_total", "All hydro (MW)", "+".join(f"{{cap_{k}}}" for k, *_ in BASINS) + "+{cap_works}+{cap_rock}+{cap_hilo}+{cap_bonn}+{cap_rreach}+{cap_wells}+{cap_mcnary}+{cap_cjoe}+{cap_boulder}+{cap_colms}",
+        Col("cap_total", "All hydro (MW)", "+".join(f"{{cap_{k}}}" for k, *_ in BASINS) + "+{cap_works}+{cap_rock}+{cap_hilo}+{cap_bonn}+{cap_rreach}+{cap_wells}+{cap_mcnary}+{cap_cjoe}+{cap_col2}+{cap_boulder}+{cap_colms}",
             group="Totals"),
         Col("rain", "Rainfall (× normal)", "IF({A}=dry_year,dry_factor,1)", "0.00"),
     ]
@@ -230,17 +232,18 @@ def spec_hydro():
         Col("av_wells", "Wells (GWh)", "{cap_wells}*cf_col*8.76*{rain}"),
         Col("av_mcnary", "McNary (GWh)", "{cap_mcnary}*cf_col*8.76*{rain}"),
         Col("av_cjoe", "Chief Joseph (GWh)", "{cap_cjoe}*cf_col*8.76*{rain}"),
+        Col("av_col2", "Columbia second units (GWh)", "{cap_col2}*cf_col2*8.76*{rain}"),
         Col("av_boulder", "Boulder Canyon (GWh)", "{cap_boulder}*cf_colo*8.76*{rain}"),
         Col("av_colms", "Mid-Columbia chain (GWh)", "{cap_colms}*cf_col*8.76*{rain}"),
         Col("av_main", "Mainland hydro available (GWh)", "+".join(f"{{av_{k}}}" for k, *_ in BASINS if k != "haw") +
-            "+{av_works}+{av_rock}+{av_bonn}+{av_rreach}+{av_wells}+{av_mcnary}+{av_cjoe}+{av_boulder}+{av_colms}", group="Totals"),
+            "+{av_works}+{av_rock}+{av_bonn}+{av_rreach}+{av_wells}+{av_mcnary}+{av_cjoe}+{av_col2}+{av_boulder}+{av_colms}", group="Totals"),
         Col("av_haw", "Hawaii hydro available (GWh)", "{av_haw}" if False else f"{{av_haw}}"),
     ]
     # av_haw total duplicates the basin column name; rename the basin one
     cols[-1] = Col("av_haw_t", "Hawaii hydro available (GWh)", "{av_haw}+{av_hilo}")
     cols += [
         Col("u_pit", "Pit and Feather incl. the Works", "({cap_pit}+{cap_works})/pot_pit", "0%", group="Share of physical potential used"),
-        Col("u_col", "Columbia and Snake incl. Rock Island, the CR-055 dams and the chain", "({cap_col}+{cap_rock}+{cap_bonn}+{cap_rreach}+{cap_wells}+{cap_mcnary}+{cap_cjoe}+{cap_colms})/pot_col", "0%"),
+        Col("u_col", "Columbia and Snake incl. Rock Island, the CR-055 dams and the chain", "({cap_col}+{cap_rock}+{cap_bonn}+{cap_rreach}+{cap_wells}+{cap_mcnary}+{cap_cjoe}+{cap_col2}+{cap_colms})/pot_col", "0%"),
         Col("u_colo", "Colorado incl. Boulder", "({cap_colo}+{cap_boulder})/pot_colo", "0%"),
         Col("u_haw", "Hawaii incl. the hydro board", "({cap_haw}+{cap_hilo})/pot_haw", "0%"),
         Col("u_max", "Highest basin", "MAX({u_pit},{u_col},{u_colo},{u_haw}," + ",".join(f"{{cap_{k}}}/pot_{k}" for k, *_ in BASINS
@@ -309,7 +312,7 @@ def spec_uses():
         Col("e_home", "Households", "{homes_el}*{P:kwh_home}*home_kwh_x/1000"),
         Col("e_comm", "Commerce and public lighting", "{People & output:pop_all}*{P:kwh_comm}*elec_pace/1000000"),
         Col("fact", "Factory horsepower electric", "MIN(1,{P:fact_elec}*elec_pace)", "0%"),
-        Col("e_motor", "Industry, motors (and process heat if heat_el = 1)", "{People & output:gdp_real}*ind_w*{P:ind_idx}*(1+({P:indw_x}-1)*heat_el)*{fact}*motor_full",
+        Col("e_motor", "Industry, motors (and process heat if heat_el = 1)", "{People & output:gdp_real}*ind_w*IF(ind_src=2,{People & output:ind_idx},{P:ind_idx})*(1+({P:indw_x}-1)*heat_el)*{fact}*motor_full",
             note="Real GDP × industrial weight (ind_w × the finance calibration Paths ind_idx) × factory horsepower electric × kWh per 1913 $ of US-type output (motor_full); "
                  "the Max case's electrified process heat (Paths indw_x) applies only when heat_el = 1, so it never stacks on a higher finance weight."),
         Col("e_alu", "Aluminium", "{P:alu_kt}*{P:alu_mwh}", group="Electrochemistry and electrometallurgy (GWh)"),
@@ -361,7 +364,7 @@ def spec_uses():
         Col("f_navy_coal", "Navy coal", "{P:navy_coal}*coal_gj", "#,##0.0"),
         Col("f_bunker", "Merchant bunkers", "{P:bunker}*6.63", "#,##0.0"),
         Col("f_rail", "Steam railways", "{People & output:pop_all}*{P:rail_gj}/1000000*(1-IF(mainline_on=1,{P:rail_el},0))", "#,##0.0"),
-        Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}*{P:ind_idx}/1000-{Uses:e_nwboil}*5.1/1000)", "#,##0.0",
+        Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}*IF(ind_src=2,{People & output:ind_idx},{P:ind_idx})/1000-{Uses:e_nwboil}*5.1/1000)", "#,##0.0",
             note="ind_mj already reflects Pacifica's lighter industry (about 0.35–0.4 of US intensity), consistent with ind_w; both are scaled by the same finance calibration (Paths ind_idx). Electric mill boilers replace 5.1 MJ of fuel per kWh."),
         Col("f_steel", "Steel: coke and coal", "{People & output:steel}*{P:steel_gj}", "#,##0.0"),
         Col("f_haber", "Haber–Bosch: gas", "{P:haber_kt}*haber_gj/1000", "#,##0.0"),
@@ -431,7 +434,7 @@ def spec_electricity():
             "(({Uses:e_home}+{Uses:e_comm}+{Uses:e_motor}+{Uses:e_mine}+{Uses:e_rail}+{Uses:e_pump})*{P:nw_share}+{P:alu_col}*{P:alu_mwh}+{Uses:e_eln}*eln_col+({Uses:e_zinc}+{Uses:e_phos}+{Uses:e_h2}+{Uses:e_rubber}+{Uses:e_pig})*{P:nw_new}+0.3*({Uses:e_echem}-{Uses:e_alu}-{Uses:e_eln}-{Uses:e_zinc}-{Uses:e_phos}-{Uses:e_mg}-{Uses:e_cu}-{Uses:e_h2}-{Uses:e_rubber}-{Uses:e_pig}))/(1-{loss})"
             "+({Strategic loads:st_gwh}+{Strategic loads:diff_gwh})/(1-strat_loss)", group="The Northwest's own balance",
             note="Ordinary load at the Northwest's share, Columbia aluminium, electrolytic nitrogen on the Columbia, the river's new loads (CR-055), a third of the rest of electrochemistry, the Columbia station and the diffusion plant. The mill boilers are not firm: they come after the line."),
-        Col("nw_hyd", "Northwest hydro available (GWh)", "{Hydro:av_col}+{Hydro:av_wil}+{Hydro:av_rock}+{Hydro:av_bonn}+{Hydro:av_rreach}+{Hydro:av_wells}+{Hydro:av_mcnary}+{Hydro:av_cjoe}+{Hydro:av_colms}+0.5*{Hydro:av_int}"),
+        Col("nw_hyd", "Northwest hydro available (GWh)", "{Hydro:av_col}+{Hydro:av_wil}+{Hydro:av_rock}+{Hydro:av_bonn}+{Hydro:av_rreach}+{Hydro:av_wells}+{Hydro:av_mcnary}+{Hydro:av_cjoe}+{Hydro:av_col2}+{Hydro:av_colms}+0.5*{Hydro:av_int}"),
         Col("nw_surplus", "Northwest hydro beyond its firm load (GWh)", "{nw_hyd}-{nw_firm}", kind="key",
             note="Negative: the Northwest's firm load needs steam (Roslyn and the coast's plants) or power from the south."),
         Col("tie_flow", "Columbia–Sierra line, carried south (GWh)", "MIN({P:tie_mw}*8.76*tie_lf,MAX(0,{nw_surplus}))", kind="key",
@@ -1042,6 +1045,8 @@ def write_changes(wb, sha):
     ws.append(["2026-11-04", "CR-055", "Ninth build: the Columbia built early and its power used (CR-055 R0) — Bonneville 1908/1913 (500 MW), Rocky Reach 1914/1919 (800), Wells 1921/1926 (600), all laddered; electrolytic zinc at Spokane from 1908, magnesium from Great Salt Lake brine from 1909 and seawater at Tacoma from 1924, ammonia on the Columbia's cells from 1915 (heavy water found 1916–17), furnace phosphorus on the upper Snake from 1915, electrolytic copper refining from 1905; the new loads in the Northwest balance and the interruptible set.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-055", "Tenth build: the four purposes of the early river (R0 approved in full) — the Columbia–Sierra line (tie_mw: 300 MW in 1924, 600 by 1932), hydrogenation of heavy residue at Portland from 1920 (35m bbl in 1929; the gasoline gained a memo on Fuels and taken out of the yield test), synthetic rubber at Tacoma from 1923 (50 kt in 1929), electric pig iron for the yards from 1922 (500 kt); McNary (1922/1927, 1 GW by 1932) and a laddered Chief Joseph (1926/1931); the new loads in the Northwest balance and the interruptible set.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-052", "Twelfth build (author, 4 Nov: 'add NW capacity and keep both'): Columbia second units (h_col2, col2_on; Bonneville and Rocky Reach toward their historical installed size, on secondary water at cf_col2) so the mill boilers keep their full path beside the line; CT1 and CT2 decided; CR-054 A6's cartel reading confirmed.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-052", "Eleventh build (consistency, author: 'make it consistent with itself and the story'): the Columbia–Sierra line takes the river's surplus before the Northwest mill boilers, which become secondary power (tie_flow, nwboil_room); the line's delivery counts in the halls' dedicated supply (tie_halls); hydrogenation at a believable hydrogen consumption (h2_kwh 240) with fewer barrels (hyd_bbl; author: 'fewer barrels'); the gaseous-diffusion plant of 1930–1932 (CR-051) as a strategic load at the Columbia station (diff_mw); stale notes corrected.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])

@@ -6,18 +6,24 @@ Use the [energy workbook](Pacifica_energy_model_1846-1932.xlsx) alongside the [f
 
 ## Reproduce
 
+The two workbooks read each other (the energy workbook takes population, output and industry; the financial workbook takes home oil, vehicles and the power memos), so they are rebuilt together and iterated until the values stop moving (two or three passes):
+
 ```bash
+R=<xlsx skill>/scripts/recalc.py
 # 1. Read the financial workbook's Story and Stress results (Stress is recalculated in LibreOffice)
-python3 energy/build/extract_finance.py finance/Pacifica_financial_model_1846-1932.xlsx \
-    energy/build/finance_inputs.csv --recalc <xlsx skill>/scripts/recalc.py
-# 2. Build the energy workbook (formulas only)
-python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv \
-    energy/Pacifica_energy_model_1846-1932.xlsx
-# 3. Recalculate in LibreOffice; expect "success", 0 errors (28,765 formulas)
-python3 <xlsx skill>/scripts/recalc.py energy/Pacifica_energy_model_1846-1932.xlsx 300
+python3 energy/build/extract_finance.py finance/Pacifica_financial_model_1846-1932.xlsx energy/build/finance_inputs.csv --recalc $R
+# 2. Build the energy workbook and recalculate it; expect "success", 0 errors (29,029 formulas)
+python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv energy/Pacifica_energy_model_1846-1932.xlsx
+python3 $R energy/Pacifica_energy_model_1846-1932.xlsx 300
+# 3. Export its Story and Stress results for the financial workbook
+python3 energy/build/export_energy.py energy/Pacifica_energy_model_1846-1932.xlsx energy/build/energy_outputs.csv --recalc $R
+# 4. Rebuild the financial workbook from the CR-050 workbook and recalculate it (54,321 formulas)
+python3 finance/build/cr052_energy_link.py CR-050.xlsx energy/build/energy_outputs.csv finance/Pacifica_financial_model_1846-1932.xlsx
+python3 $R finance/Pacifica_financial_model_1846-1932.xlsx 300
+# repeat 1-4 until energy_outputs.csv no longer changes
 ```
 
-Re-run step 1 whenever the financial workbook changes; its SHA-256 is printed on the energy workbook's Start sheet, so a stale import is visible.
+Each workbook records the SHA-256 of the other it was built from (Start sheet here, Energy link A2 there). Because each records the other's, the pair is checked by values: a last pass changes no value.
 
 ## Files
 
@@ -28,6 +34,8 @@ Re-run step 1 whenever the financial workbook changes; its SHA-256 is printed on
 | `build/build_energy_workbook.py` | Writes the sheets and formulas. |
 | `build/extract_finance.py` | Reads the financial workbook's results for both cases into `finance_inputs.csv`. |
 | `build/finance_inputs.csv` | The imported finance series, with the source workbook's SHA-256 on its first line. |
+| `build/export_energy.py` | Writes the energy results the financial workbook reads (home oil, vehicles, the `en_*` columns, the concession crude) for both cases. |
+| `build/energy_outputs.csv` | Those results, with the energy workbook's SHA-256 on its first line; read by `finance/build/cr052_energy_link.py`. |
 | `CR-052-workbook.md` | Workbook note: the eleven builds, results for the three cases, checks and the questions for the author. |
 
 ## Conventions
@@ -36,7 +44,7 @@ As in the financial workbook: years down the page (row 6 = 1846, row 92 = 1932);
 
 ## Link to the financial workbook
 
-Nothing is pasted either way. The energy workbook reads finance results through the build script, and offers its own results to the financial workbook as named columns on `Finance link`: `en_power_capex`, `en_dev_power_credit`, `en_elec_revenue`, `en_royalties`, `en_oil_import_value`, `en_coal_import_value`, `en_fuel_trade_net`. The financial workbook does not read them yet: that is its next build, once the author approves CR-052.
+Nothing is pasted either way. The energy workbook reads finance results through the build script, and offers its own results to the financial workbook as named columns on `Finance link`: `en_power_capex`, `en_dev_power_credit`, `en_elec_revenue`, `en_royalties`, `en_oil_import_value`, `en_coal_import_value`, `en_fuel_trade_net`. Since 4 November the financial workbook reads them through `export_energy.py` and its own build (`finance/CR-052-workbook.md`): oil and vehicles replace its Story paths, the rest are memos and an investment account.
 
 ## Data still to obtain
 
