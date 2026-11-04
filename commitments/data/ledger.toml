@@ -4335,7 +4335,7 @@ conditions = ["Every dam is laddered; none is built where salmon cannot pass."]
 status = "APPROVED"
 cr = "CR-055"
 section = 25
-quote = "The Bonneville compact of 1908, with the Cascade and Wasco bands and the Yakama, Warm Springs and Umatilla fishing peoples, sets its own terms a year before the Me-Wuk lease; the two are parallel, not model and copy."
+quote = "The Bonneville compact of 1908, with the Cascade and Wasco bands and the Yakama, Warm Springs and Umatilla fishing peoples, sets its own terms a year before the Me-Wuk lease."
 more_quotes = ["Every dam is laddered, and each is leased from the peoples of its reach under a compact that pays a royalty on every kilowatt-hour, sells their villages electricity at cost, gives replacement fishing sites and publishes the fish counts before their observers."]
 open = "Term, royalty and the peoples' leaders and councils not stated (OPEN)."
 
@@ -4350,6 +4350,7 @@ owes = [
   { by = "PAC", to = "COLREACH", what = "a royalty on every kilowatt-hour; electricity at cost for their villages; replacement fishing sites; ladders, with the fish counts published before their observers" },
 ]
 conditions = ["Chief Joseph is built lower than the site allows so that salmon can climb it.", "No dam at The Dalles, on the lower Snake or at the Grand Coulee."]
+label_note = "The dams' dates are MODEL; the compacts' terms are APPROVED."
 status = "APPROVED"
 cr = "CR-055"
 section = 25
