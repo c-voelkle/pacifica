@@ -68,11 +68,11 @@ LEVERS = [
      "CR-050 keeps a separation-hall feed in 1928–1932 for a small arsenal; the plant is not cut back to nothing. Author to decide."),
     ("feed_pos", "Feed plant oil within CR-051's 0.4–0.75 Mt (0 = low, 1 = high)", 0.5, 1.0, "position", "Model estimate", "CR-051 M2."),
     ("hilo_src", "Power for the Hilo smelter (1 = oil-fired steam, 2 = windward hydro)", 1, 1, "switch", "OPEN",
-     "Handoff §8. The Big Island's windward streams cannot carry a smelter (see Strategic loads). Default oil."),
+     "Handoff §8. Superseded by CT6 (approved): 2 in every case, the Hawaiian hydro board's windward plants."),
     ("— Dams and lead times —",),
     ("colms_on", "Mid-Columbia chain of low dams with ladders (1 = yes)", 0, 0, "switch", "OPEN (option in CR-052)",
      "Handoff §8 'big dams earlier?'. Not needed for a hydro-led grid (64% hydro in 1929 without it); it would raise the Northwest's hydro share. Sites as the historical Rocky Reach, Wells and Chief Joseph; Native consent OPEN. "
-     "The model pools the mainland, so Columbia power is counted as if it could reach California, which no 1920s line could."),
+     "Off in every case since the fifth build; superseded by CR-055's named dams (Bonneville, Rocky Reach, Wells, McNary, Chief Joseph)."),
     ("colms_dec", "Mid-Columbia chain: decision", 1921, 1924, "year", "OPEN", "After Rock Island (1920); first power three years later."),
     ("colms_rate", "Mid-Columbia chain: capacity added each year", 300, 250, "MW/yr", "Model estimate", ""),
     ("colms_max", "Mid-Columbia chain: full size", 2000, 2000, "MW", "Model estimate", "Historically Rocky Reach, Wells and Chief Joseph together are about 4.6 GW (to verify); a 1920s first stage."),
@@ -1072,3 +1072,36 @@ EVENTS += [
     (1924, "The Columbia–Sierra line energised (CR-055)", "Paths (tie_mw); Electricity (stranded)", "CR-055 R0", "PROPOSED"),
     (1926, "Chief Joseph decided, laddered (CR-055)", "Hydro (h_cjoe)", "CR-055 R2", "PROPOSED"),
 ]
+
+
+# =====================================================================================
+# Eleventh build, 4 November 2026: consistency with itself and the story.
+# Author, 4 Nov 2026: "update the workbook and make it consistent with itself and the
+# story. For B, I would suggest fewer barrels."
+# =====================================================================================
+set_lever("h2_kwh", story=240, stress=240, status="Model estimate (eleventh build)",
+          basis="Destructive hydrogenation of heavy residue to about 55% light products takes roughly 3–5 kg of hydrogen a barrel (to verify), "
+                "about 4 kg at 50–55 kWh/kg electrolytic plus compression: about 240 kWh a barrel. The tenth build's 100 kWh assumed 1.5–2 kg, a light hydrotreat.")
+LEVERS += [
+    ("— Eleventh build (4 Nov 2026): the line before the boilers —",),
+    ("tie_lf", "Columbia–Sierra line: load factor of what it carries", 0.7, 0.7, "share", "Model estimate",
+     "A long line carrying a river's surplus runs fuller in the spring freshet than in late summer; 0.7 of capacity over the year."),
+    ("tie_loss", "Columbia–Sierra line: losses over its 750 miles", 0.08, 0.08, "share", "Model estimate",
+     "287 kV with series compensation over 750 miles: about 7–10% (to verify)."),
+]
+path("hyd_bbl", "Heavy residue hydrogenated to motor fuel at the Portland works (CR-055)", "m bbl",
+     {1919: 0, 1920: 0.5, 1922: 1.5, 1924: 3, 1927: 6, 1929: 9, 1932: 10},
+     "CR-055 R0 with fewer barrels (author, 4 Nov 2026): California's heavy residue by tanker to the Portland works from 1920 (Bergius 1913). "
+     "9m bbl in 1929 is about 1.4 Mt of feed a year, still several times anything IG Farben ran in the 1920s (Leuna from 1927; to verify).",
+     "PROPOSED (CR-055), MODEL")
+path("diff_mw", "Gaseous-diffusion plant at the Columbia station (CR-051, CR-055 R3)", "MW",
+     {1929: 0, 1931: 0, 1932: 150},
+     "CR-051 (integrated): a gaseous-diffusion pilot about 1926 (a few megawatts, inside the walled college's allowance), the plant built in 1930–1932. "
+     "Site at the Columbia station PROPOSED (CR-055 R3); first stage about 150 MW in 1932, a few hundred at full size in the mid-1930s (MODEL).",
+     "APPROVED dates (CR-051); site and size PROPOSED, MODEL")
+EVENTS += [
+    (1926, "Gaseous-diffusion pilot inside the wall (CR-051)", "Strategic loads (memo)", "CR-051", "APPROVED"),
+    (1930, "Gaseous-diffusion plant begun at the Columbia station (CR-051; site CR-055 R3)", "Paths (diff_mw)", "CR-051, CR-055 R3", "APPROVED dates; site PROPOSED"),
+]
+_set_story("alu_wen", {1922: 0, 1923: 8, 1924: 20, 1925: 25, 1927: 30, 1929: 32, 1932: 25},
+           "Eleventh build: CR-051 (integrated) has the Wenatchee works take most of Rock Island's output; part of the Columbia's aluminium (alu_col), so the total is unchanged.")

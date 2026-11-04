@@ -263,7 +263,10 @@ def spec_strategic():
         Col("arc_peak", "Arc plants' wartime peak (MW)", f"MAX(${{arc_mw}}$6:${{arc_mw}}${row(1918)})".replace("${arc_mw}$6", "X"), "#,##0"),
         Col("freed", "Arc power freed for the halls (MW)", "IF({A}>=1919,MAX(0,{arc_peak}-{arc_mw}),0)", "#,##0"),
         Col("works_avg", "Works' dams, average output (MW)", "{Hydro:av_works}/8.76", "#,##0"),
-        Col("halls_ded", "Halls met from dedicated power (MW avg)", "MIN({halls_mw}*strat_lf,{freed}+{works_avg})", "#,##0"),
+        Col("tie_halls", "Columbia–Sierra line, delivered to the Sierra (MW avg)", "{Electricity:tie_flow}*(1-tie_loss)/8.76", "#,##0",
+            note="CR-055 purpose 1: the line delivers the river's surplus to the Sierra's electrochemical district and the halls."),
+        Col("halls_ded", "Halls met from dedicated power (MW avg)", "MIN({halls_mw}*strat_lf,{freed}+{works_avg}+{tie_halls})", "#,##0",
+            note="The arc plants' freed power, the Works' dams and, from 1924, the Columbia–Sierra line (CR-055)."),
         Col("halls_grid", "Halls met from the common grid (MW avg)", "{halls_mw}*strat_lf-{halls_ded}", "#,##0"),
         Col("halls_gs", "Share of the halls' power from the grid", "IF({halls_mw}>0,{halls_grid}/({halls_mw}*strat_lf),0)", "0%"),
         Col("feed_mt", "Feed plant oil (Mt)", "IF(AND({A}>=1921,{A}<=1927),0.4+feed_pos*0.35,IF({A}>1927,halls_after*(0.4+feed_pos*0.35),0))",
@@ -271,6 +274,9 @@ def spec_strategic():
         Col("feed_pj", "Feed plant oil (PJ)", "{feed_mt}*41.9", "#,##0.0"),
         Col("st_mw", "Columbia station's draw (MW)", "{P:station}", group="Columbia station (CR-051 S7)"),
         Col("st_gwh", "Columbia station's use (GWh)", "{st_mw}*8.76*strat_lf"),
+        Col("diff_mw", "Gaseous-diffusion plant's draw (MW)", "{P:diff_mw}", "#,##0",
+            note="CR-051 (integrated): pilot about 1926, plant built 1930–1932; at the Columbia station on the river's power (CR-055 R3, PROPOSED)."),
+        Col("diff_gwh", "Gaseous-diffusion plant's use (GWh)", "{diff_mw}*8.76*strat_lf"),
         Col("rock_avg", "Rock Island, average output (MW)", "{Hydro:av_rock}/8.76"),
         Col("wen_mw", "Wenatchee smelter (MW avg)", "{P:alu_wen}*{P:alu_mwh}/8.76", note="Part of aluminium on Uses."),
         Col("rock_spare", "Rock Island left for orchards and pumps (MW avg)", "{rock_avg}-{st_mw}*strat_lf-{wen_mw}"),
@@ -288,7 +294,7 @@ def spec_strategic():
             note="Counted inside the Hawaii thermal generation on Electricity."),
         Col("navy", "Navy oil (m bbl)", "{People & output:navy_oil}", "#,##0.0", kind="link", group="Memo"),
         Col("canal", "Canal locks and zone (MW, outside the Realm)", "{P:canal_mw}", "#,##0"),
-        Col("strat_gwh", "Strategic loads on dedicated lines (GWh)", "{halls_gwh}+{st_gwh}+{hh_gwh}", group="Total"),
+        Col("strat_gwh", "Strategic loads on dedicated lines (GWh)", "{halls_gwh}+{st_gwh}+{diff_gwh}+{hh_gwh}", group="Total"),
     ]
     sheet("Strategic loads", "Strategic loads", "Each named canon load with its source of power (register at right). "
           "The halls, the feed plant, the Columbia station and the walled college are MODEL figures from CR-050 and CR-051.", cols)
@@ -334,7 +340,9 @@ def spec_uses():
         Col("alu_civil", "… civil uses at home", "{P:alu_civil}", "#,##0.0"),
         Col("alu_exp", "… exported beyond the Concord", "MAX(0,{P:alu_kt}-{alu_grid}-{alu_air}-{alu_pool}-{alu_civil})", "#,##0.0", kind="key",
             note="The part exposed to sterling and the European cartel in 1931 (CR-054 A4)."),
-        Col("e_nwboil", "Electric boilers in Northwest mills", "{P:nwboil}*nwboil_x"),
+        Col("e_nwboil", "Electric boilers in Northwest mills", "MIN({P:nwboil}*nwboil_x,{Electricity:nwboil_room})",
+            note="Secondary power: the boilers take what the river has left after its firm loads and the Columbia–Sierra line (M9; eleventh build). "
+                 "Where they get less than Paths nwboil, the mills burn fuel instead (Uses f_ind)."),
         Col("e_ord", "Ordinary uses", "{e_home}+{e_comm}+{e_motor}+{e_echem}+{e_mine}+{e_rail}+{e_pump}+{e_nwboil}"),
         Col("e_strat", "Strategic loads (halls, station, valley)", "{Strategic loads:strat_gwh}", kind="link"),
         Col("e_total", "All electricity used", "{e_ord}+{e_strat}"),
@@ -386,7 +394,7 @@ def spec_electricity():
         Col("main_gen", "Mainland generation (GWh)", "{gen}-{haw_gen}"),
         Col("atom", "Atomic stations (GWh)", "{People & output:atom_mwe}*atom_cf*8.76", group="Supply (GWh)"),
         Col("hyd_main", "Hydro used, mainland", "MIN({Hydro:av_main}-{stranded},MAX(0,{main_gen}-{atom}))",
-            note="Northwest water power beyond the Northwest's own load cannot reach California unless a line carries it (Paths tie_mw)."),
+            note="Northwest water power beyond what the Northwest uses and the Columbia–Sierra line carries is spilled (Electricity: stranded)."),
         Col("hyd_haw", "Hydro used, Hawaii", "MIN({Hydro:av_haw_t},{haw_gen})"),
         Col("hyd", "Hydro used", "{hyd_main}+{hyd_haw}"),
         Col("spill", "Hydro spilled", "{Hydro:av_main}+{Hydro:av_haw_t}-{hyd}"),
@@ -419,14 +427,21 @@ def spec_electricity():
         Col("mult_gen", "Multiplier: electricity per person vs US", "IF({us_kwh_pp}>0,{kwh_pp}/{us_kwh_pp},\"\")", "0.00", kind="key"),
         Col("halls_cap", "Halls / capacity", "IF({cap}>0,{Strategic loads:halls_mw}/{cap},0)", "0.0%", kind="key", group="The halls (CR-051)"),
         Col("halls_el", "Halls / electricity used", "IF({ord}+{strat}>0,{Strategic loads:halls_gwh}/({ord}+{strat}),0)", "0.0%", kind="key"),
-        Col("nw_gen", "Northwest generation needed (GWh)",
-            "(({ord}-{Uses:e_echem}-{Uses:e_nwboil})*{P:nw_share}+{Uses:e_nwboil}+{P:alu_col}*{P:alu_mwh}+{Uses:e_eln}*eln_col+({Uses:e_zinc}+{Uses:e_phos}+{Uses:e_h2}+{Uses:e_rubber}+{Uses:e_pig})*{P:nw_new}+0.3*({Uses:e_echem}-{Uses:e_alu}-{Uses:e_eln}-{Uses:e_zinc}-{Uses:e_phos}-{Uses:e_mg}-{Uses:e_cu}-{Uses:e_h2}-{Uses:e_rubber}-{Uses:e_pig}))/(1-{loss})"
-            "+{Strategic loads:st_gwh}/(1-strat_loss)", group="The Northwest's own balance",
-            note="Ordinary load at the Northwest's share, Columbia aluminium, electrolytic nitrogen on the Columbia, a third of the rest of electrochemistry, the Columbia station."),
+        Col("nw_firm", "Northwest firm load (GWh, generation)",
+            "(({Uses:e_home}+{Uses:e_comm}+{Uses:e_motor}+{Uses:e_mine}+{Uses:e_rail}+{Uses:e_pump})*{P:nw_share}+{P:alu_col}*{P:alu_mwh}+{Uses:e_eln}*eln_col+({Uses:e_zinc}+{Uses:e_phos}+{Uses:e_h2}+{Uses:e_rubber}+{Uses:e_pig})*{P:nw_new}+0.3*({Uses:e_echem}-{Uses:e_alu}-{Uses:e_eln}-{Uses:e_zinc}-{Uses:e_phos}-{Uses:e_mg}-{Uses:e_cu}-{Uses:e_h2}-{Uses:e_rubber}-{Uses:e_pig}))/(1-{loss})"
+            "+({Strategic loads:st_gwh}+{Strategic loads:diff_gwh})/(1-strat_loss)", group="The Northwest's own balance",
+            note="Ordinary load at the Northwest's share, Columbia aluminium, electrolytic nitrogen on the Columbia, the river's new loads (CR-055), a third of the rest of electrochemistry, the Columbia station and the diffusion plant. The mill boilers are not firm: they come after the line."),
         Col("nw_hyd", "Northwest hydro available (GWh)", "{Hydro:av_col}+{Hydro:av_wil}+{Hydro:av_rock}+{Hydro:av_bonn}+{Hydro:av_rreach}+{Hydro:av_wells}+{Hydro:av_mcnary}+{Hydro:av_cjoe}+{Hydro:av_colms}+0.5*{Hydro:av_int}"),
+        Col("nw_surplus", "Northwest hydro beyond its firm load (GWh)", "{nw_hyd}-{nw_firm}", kind="key",
+            note="Negative: the Northwest's firm load needs steam (Roslyn and the coast's plants) or power from the south."),
+        Col("tie_flow", "Columbia–Sierra line, carried south (GWh)", "MIN({P:tie_mw}*8.76*tie_lf,MAX(0,{nw_surplus}))", kind="key",
+            note="CR-055 purpose 1: the line takes the river's surplus first, at most its capacity × tie_lf; it displaces oil-fired steam and feeds the halls."),
+        Col("nwboil_room", "Room left for the mill boilers (GWh, delivered)", "MAX(0,{nw_surplus}-{tie_flow})*(1-{loss})"),
+        Col("nw_gen", "Northwest generation needed incl. the mill boilers (GWh)", "{nw_firm}+{Uses:e_nwboil}/(1-{loss})"),
+        Col("nw_short", "Northwest firm load met by steam or from the south (GWh)", "MAX(0,-{nw_surplus})"),
         Col("nw_spare", "Northwest hydro beyond its own load (GWh)", "MAX(0,{nw_hyd}-{nw_gen})", kind="key",
-            note="No 1920s line could carry it to California: it needs more Northwest industry or a tie line."),
-        Col("stranded", "… of which no line can carry south (GWh, spilled)", "MAX(0,{nw_spare}-{P:tie_mw}*8.76)"),
+            note="Before the line: what the line carries plus what is spilled."),
+        Col("stranded", "… of which no line can carry south (GWh, spilled)", "MAX(0,{nw_spare}-{tie_flow})"),
         Col("hyd_dry", "Hydro in a dry year (GWh)", "({Hydro:av_main}+{Hydro:av_haw_t})/{Hydro:rain}*dry_factor", group="Dry-year test"),
         Col("av_dry", "Supply possible in a dry year (GWh)", "{hyd_dry}+{th_cap}*8.76*0.85+{atom}"),
         Col("short_dry", "Shortfall in a dry year (GWh)", "MAX(0,{gen}-{av_dry})"),
@@ -951,7 +966,9 @@ def write_start(wb, sha):
         ("… California (memo)", "per person", "{Uses:veh_cal}", "0.00"),
         ("Vehicles to build a year", "thousand", "{Uses:veh_build}", "#,##0"),
         ("Home oil above the finance workbook's path", "m bbl", "{Finance link:x_oil}", "#,##0"),
-        ("Northwest hydro beyond its own load (spilled)", "TWh", "{Electricity:stranded}/1000", "#,##0.0"),
+        ("Columbia–Sierra line, carried south", "TWh", "{Electricity:tie_flow}/1000", "#,##0.0"),
+        ("Electric boilers in the Northwest mills", "TWh", "{Uses:e_nwboil}/1000", "#,##0.0"),
+        ("Northwest hydro spilled", "TWh", "{Electricity:stranded}/1000", "#,##0.0"),
         ("Power investment", "$m", "{Finance link:capex}", "#,##0"),
         ("Power investment / GDP", "share", "{Finance link:capex_gdp}", "0.0%"),
         ("Checks failing this year", "tests", "{Checks:prob}", "@"),
@@ -1025,6 +1042,8 @@ def write_changes(wb, sha):
     ws.append(["2026-11-04", "CR-055", "Ninth build: the Columbia built early and its power used (CR-055 R0) — Bonneville 1908/1913 (500 MW), Rocky Reach 1914/1919 (800), Wells 1921/1926 (600), all laddered; electrolytic zinc at Spokane from 1908, magnesium from Great Salt Lake brine from 1909 and seawater at Tacoma from 1924, ammonia on the Columbia's cells from 1915 (heavy water found 1916–17), furnace phosphorus on the upper Snake from 1915, electrolytic copper refining from 1905; the new loads in the Northwest balance and the interruptible set.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-055", "Tenth build: the four purposes of the early river (R0 approved in full) — the Columbia–Sierra line (tie_mw: 300 MW in 1924, 600 by 1932), hydrogenation of heavy residue at Portland from 1920 (35m bbl in 1929; the gasoline gained a memo on Fuels and taken out of the yield test), synthetic rubber at Tacoma from 1923 (50 kt in 1929), electric pig iron for the yards from 1922 (500 kt); McNary (1922/1927, 1 GW by 1932) and a laddered Chief Joseph (1926/1931); the new loads in the Northwest balance and the interruptible set.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-052", "Eleventh build (consistency, author: 'make it consistent with itself and the story'): the Columbia–Sierra line takes the river's surplus before the Northwest mill boilers, which become secondary power (tie_flow, nwboil_room); the line's delivery counts in the halls' dedicated supply (tie_halls); hydrogenation at a believable hydrogen consumption (h2_kwh 240) with fewer barrels (hyd_bbl; author: 'fewer barrels'); the gaseous-diffusion plant of 1930–1932 (CR-051) as a strategic load at the Columbia station (diff_mw); stale notes corrected.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w

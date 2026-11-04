@@ -13,7 +13,7 @@ python3 energy/build/extract_finance.py finance/Pacifica_financial_model_1846-19
 # 2. Build the energy workbook (formulas only)
 python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv \
     energy/Pacifica_energy_model_1846-1932.xlsx
-# 3. Recalculate in LibreOffice; expect "success", 0 errors (28,047 formulas)
+# 3. Recalculate in LibreOffice; expect "success", 0 errors (28,765 formulas)
 python3 <xlsx skill>/scripts/recalc.py energy/Pacifica_energy_model_1846-1932.xlsx 300
 ```
 
@@ -28,7 +28,7 @@ Re-run step 1 whenever the financial workbook changes; its SHA-256 is printed on
 | `build/build_energy_workbook.py` | Writes the sheets and formulas. |
 | `build/extract_finance.py` | Reads the financial workbook's results for both cases into `finance_inputs.csv`. |
 | `build/finance_inputs.csv` | The imported finance series, with the source workbook's SHA-256 on its first line. |
-| `CR-052-workbook.md` | Workbook note: changes, results, checks and the questions for the author. |
+| `CR-052-workbook.md` | Workbook note: the eleven builds, results for the three cases, checks and the questions for the author. |
 
 ## Conventions
 
@@ -36,7 +36,7 @@ As in the financial workbook: years down the page (row 6 = 1846, row 92 = 1932);
 
 ## Link to the financial workbook
 
-Nothing is pasted either way. The energy workbook reads finance results through the build script, and offers its own results to the financial workbook as named columns on `Finance link`: `en_power_capex`, `en_dev_power_credit`, `en_elec_revenue`, `en_royalties`, `en_oil_import_value`, `en_coal_import_value`, `en_fuel_trade_net`. The financial workbook does not read them yet: that is the next build, once the author approves CR-052.
+Nothing is pasted either way. The energy workbook reads finance results through the build script, and offers its own results to the financial workbook as named columns on `Finance link`: `en_power_capex`, `en_dev_power_credit`, `en_elec_revenue`, `en_royalties`, `en_oil_import_value`, `en_coal_import_value`, `en_fuel_trade_net`. The financial workbook does not read them yet: that is its next build, once the author approves CR-052.
 
 ## Data still to obtain
 

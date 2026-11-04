@@ -3,7 +3,7 @@ session: 20261103-cr052-energy-workbook
 started: 2026-11-03
 updated: 2026-11-04
 mode: draft
-status: building
+status: paused-for-author
 baseline:
   commit: 04155c7
   files:
@@ -41,7 +41,10 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | X4 | Fresh-context review (separate agent) | `outputs/CR-052/review.md`; five MUST FIX applied in the second build |
 | X5 | Second fresh-context review (separate agent) of the third build | `outputs/CR-052/review-2.md`; three MUST FIX applied in the fourth build (field-model oil, Kettleman 1923, no double counting in Max) |
 | X6 | LibreOffice recalculation, fourth build, three cases | 23,722 formulas, 0 errors in each |
+| X7 | Eleventh build: LibreOffice recalculation, three cases | 28,765 formulas, 0 errors in each; Story and Max pass every check in every year; Stress fails 3 (1876–1916), 2 (1922), 9 (1923–24) |
+| X8 | Reproduction from the committed inputs (tenth build, before the changes) | finance import identical; rebuilt workbook equal cell by cell to the committed one |
+| X9 | `lint_canon.py --only` on CR-052–055 | clean except the expected unknown ID CT-HARRIS-RYAN (registered at integration) |
 
 ## Resume here
 
-The CR-051 integration (branch `adopt/cr051`, not yet on `main` when this was written) is merged into this branch. Paperwork consolidated (4 Nov): CR-052 sixth draft, CR-054 A6 recorded, CR-055 R3 and CT1 aligned with the integrated CR-051. Next: the eleventh workbook build (the line used, the hydrogenation works resized, the diffusion plant of 1930–32, stale notes), then the figures in CR-052–055, the README and the workbook note refreshed from it, and a report to the author before merging PR #61 or rebuilding the financial workbook.
+Eleventh build pushed on `cr-052-energy-workbook` (PR #61), with CR-052–055, the README and the workbook note refreshed from it, and the CR-051 integration (`adopt/cr051`) merged in because `main` did not yet have it. Paused for the author before merging PR #61 or rebuilding the financial workbook. Open: CR-054 A6's reading of "the aluminium pool"; CT1 (the halls' capacity share against the integrated CR-051); CT4 (the Bonneville compact as the pattern); W1 and F1–F4, F10, F12; whether `adopt/cr051` reaches `main` before PR #61.
