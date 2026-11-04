@@ -78,17 +78,18 @@ LEVERS = [
      "the energy workbook (Energy link B and D, with its SHA-256). Stress keeps the financial workbook's own paths, "
      "which is how the energy workbook's Stress case reads them."),
     ("conc_div", "CR-053: the oil trust's return on its entitlement crude ($ a barrel)", 0.30, 0.20, "$/bbl",
-     "Model estimate",
+     "Approved amount (CR-053, 4 Nov 2026)",
      "CR-053: crude at cost against equity; the trust's gain is the discount to the market and the minority "
      "dividend, about 30 cents a barrel against a 1929 price of about $1.20. Held at book in the champions' assets "
      "abroad (Energy link W)."),
-    ("inv_gap", "Investment share below the Story path (share of GDP)", 0.0, 0.05, "share", "Proposed (CR-052 M2)",
-     "finance/investment-share-note.md v2: the Stress case five points lower than Story's test path."),
+    ("inv_gap", "Investment share below the Story path (share of GDP)", 0.0, 0.05, "share", "Approved (CR-052 M2, 4 Nov 2026)",
+     "finance/investment-share-note.md v2: the Stress case five points lower than Story's path. Author, 4 Nov 2026: the path adopted for the "
+     "investment and consumption account; the energy workbook does not read the industrial index yet (its ind_src stays 1)."),
 ]
 
 # CR-053 stake outlays, $m current (MODEL, PROPOSED in CR-053)
 STAKES = {1920: 6, 1921: 6, 1923: 10, 1924: 22, 1925: 12, 1926: 1, 1928: 8}
-STAKE_NOTE = ("CR-053 (MODEL, PROPOSED amounts): Tropical Oil minority 1920-21 ($12m), Lago Petroleum about a fifth "
+STAKE_NOTE = ("CR-053 (MODEL; amounts approved by the author, 4 Nov 2026): Tropical Oil minority 1920-21 ($12m), Lago Petroleum about a fifth "
               "1923-24 ($20m), the Peruvian company 1924-25 ($30m less the Union's reciprocal fifth, $24m), Holmes's "
               "Bahrain and Kuwait options 1926 ($1m), the Mesopotamian share beside the Union's group 1928 ($8m).")
 
@@ -128,7 +129,7 @@ HEAD = [
     ("X", None, "Return on the entitlement crude ($m)", "Entitlement crude × conc_div; in the champions' earnings abroad (Champions!AZ) and the chartered industries' profits."),
     ("Y", "Investment and consumption (investment-share note v2)", "Investment share of GDP, Story test path",
      "finance/investment-share-note.md v2: about 15% at settlement, 18-20% in the 1860s-70s, 22-25% under the regency, 25-27% in 1900-13, "
-     "22-24% in 1914-19, 27-29% in the 1920s (27% in 1920, 28-29% from 1922), 24-26% in 1930-32. PROPOSED, MODEL."),
+     "22-24% in 1914-19, 27-29% in the 1920s (27% in 1920, 28-29% from 1922), 24-26% in 1930-32. Adopted by the author (4 Nov 2026), MODEL."),
     ("Z", None, "Investment share of GDP", "Story path less inv_gap (Stress five points lower)."),
     ("AA", None, "Gross domestic investment ($m)", "Investment share × core GDP. Includes the power investment (H) and the Development Fund's investment."),
     ("AB", None, "Power investment / gross domestic investment", "US electric utilities were about a sixteenth of private investment in the late 1920s (to verify)."),
@@ -284,6 +285,15 @@ def main() -> None:
     for d in (old_oil, old_cars):
         assert all(isinstance(v, (int, float)) for v in d.values()), "expected input values"
     base.add_levers(wb, LEVERS)
+    # the 1932 oil compact: a price floor, not an output cut (author, 4 Nov 2026)
+    L = wb["Levers"]
+    cr = base.lever_row(L, "Output cut under the compact")
+    assert L.cell(cr, 3).value == 0.15, L.cell(cr, 3).value
+    L.cell(cr, 3).value = 0
+    L.cell(cr, 7).value = "Approved (CR-052, 4 Nov 2026)"
+    base.note(L.cell(cr, 3), "CR-052, author 4 Nov 2026: the 1932 compact with the Gulf is a price floor (the price above), "
+              "not an output cut: Pacifica imports a quarter of its primary energy in 1932 and does not cut its own oil. Was 0.15. "
+              "The Stress case has no compact (oil_compact 0).")
     build_sheet(wb, data, sha, old_oil, old_cars)
     link(wb)
     Ch = wb["Changes"]
@@ -296,7 +306,7 @@ def main() -> None:
         "Resources!I; vehicles built from the CT5 path replace Champions!U; Stress keeps the earlier paths. CR-053: the "
         "oil trust's stakes ($65m, 1920-28) out of ordinary investment abroad into the champions' assets abroad, with a "
         "return on the entitlement crude (conc_div). Memos: power investment, the Fund's power credit, utility receipts, "
-        "royalties, oil imports. The investment and consumption account (inv_share test path, inv_gap) and the "
+        "royalties, oil imports. The 1932 compact a price floor, no output cut (compact_cut 0 in Story). The investment and consumption account (inv_share path, inv_gap) and the "
         "proportional industrial index for the energy workbook (Energy link AC). MODEL.")
     for c in range(1, 4):
         Ch.cell(n, c)._style = copy.copy(Ch.cell(n - 1, c)._style)

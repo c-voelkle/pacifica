@@ -1129,3 +1129,13 @@ LEVERS += [
      "finance/investment-share-note.md v2: the financial workbook exports the index (Energy link!AC: the investment share over its 1913 value). "
      "Off until the author adopts the investment-share path; the CR-052 report gives the result with it on."),
 ]
+
+# Author, 4 Nov 2026 (open decisions settled): the 1932 compact a price floor; the
+# investment-share path adopted for the financial workbook's account, but the energy
+# workbook keeps its flat industrial calibration until the industrial output is derived.
+set_lever("compact_on", status="APPROVED (CR-052, 4 Nov 2026)",
+          basis="Author, 4 Nov 2026: the 1932 compact with the Gulf is a price floor, not an output cut, in Story; the financial workbook's compact_cut is 0 to match. "
+                "Stress keeps the cut switch (it reads the financial workbook's own oil, where Stress has no compact).")
+set_lever("ind_src", status="DECIDED (author, 4 Nov 2026): 1 until the industrial output is derived",
+          basis="Author, 4 Nov 2026: the investment-share path is adopted for the financial workbook's account, but the proportional index is not used here: "
+                "it would cut industrial power by about 15% in 1914–19 and lower nineteenth-century demand. Revisit with item 2 of finance/investment-share-note.md v2.")

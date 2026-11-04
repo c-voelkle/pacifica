@@ -3,7 +3,7 @@ session: 20261103-cr052-energy-workbook
 started: 2026-11-03
 updated: 2026-11-04
 mode: draft
-status: paused-for-author
+status: merging
 baseline:
   commit: 04155c7
   files:
@@ -29,7 +29,8 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 | D4 | decision | CR-054 amounts, division of labour and storyline sentences; CR-055 R0 in full (early river, four purposes, McNary and Chief Joseph) | author messages 2026-11-04 | current |
 | D5 | decision | CT9: Ryan replaces Steinmetz (successor seat and the halls' supply); CR-054 A6: join the nitrogen convention, stay out of the aluminium cartel; paperwork consolidated with newer statements replacing older; hydrogenation with fewer barrels; workbook consistent with itself and the story; report before merging or rebuilding finance | author message 2026-11-04 16:29 | current |
 | D6 | decision | CR-054 A6 means the European cartel; Northwest capacity added to keep both the line and the mill boilers; CT1 wording amended at integration; CT2 approved (adapt); Max and Stress side effects accepted; rebuild the financial workbook and report before merging | author message 2026-11-04 17:07 | current |
-| Q1 | open choice | Merge PR #61; W1, F1–F4, F10, F12; CT4; `halls_after`; the 1932 oil compact (cut or price floor); the `inv_share` path and `ind_src`; CR-053 amounts; CR-055 R1–R9 open items | `CR-052.md`, `finance/CR-052-workbook.md`, `CR-053.md`, `CR-055.md` | open |
+| D7 | decision | The 1932 compact a price floor; the extra residents accepted (about 37 million in 1932 at integration); the `inv_share` path adopted with `ind_src` = 1; CR-053 amounts approved; CR-055 CT4 adapt to canon; rebuild both workbooks and merge PR #61 | author message 2026-11-04 18:29 | current |
+| Q1 | open choice | W1, F1–F4, F10, F12; `halls_after`; CR-053 entitlement form and ledger entries; CR-055 R1–R9 open items; the industrial-output derivation (`ind_src` = 2); a world oil-price response; CR-052–055 integration into the storyline | `CR-052.md`, `finance/CR-052-workbook.md`, `CR-053.md`, `CR-055.md` | open |
 
 ## Checks executed
 
@@ -49,4 +50,4 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 
 ## Resume here
 
-Twelfth energy build and the financial workbook's energy link (`finance/build/cr052_energy_link.py`, `finance/CR-052-workbook.md`) are on `cr-052-energy-workbook` (PR #61), iterated to a fixed point. Paused for the author before merging PR #61. Open: the 1932 oil compact (finance cuts 15%, energy treats it as a price floor); the extra residents from the migration pull (about 37 million in 1932 instead of 36); the `inv_share` path and `ind_src`; CR-053 amounts; CT4; W1 and F1–F4, F10, F12; at integration the storyline's CR-021 comparison sentence (already stale before this branch), the CR-025 foreign-holder income (about $270m in 1929 now) and the atomic cost share (0.175%).
+The author's decisions of 4 November evening are applied (compact a price floor; extra residents accepted; `inv_share` adopted with `ind_src` = 1; CR-053 amounts; CR-055 CT4 adapt), both workbooks rebuilt to a fixed point (no Story check fails in either), and PR #61 merged into `main` on the author's instruction. CR-052–CR-055 remain PROPOSED decision records with their approvals noted; nothing in the master storyline is changed. Next: integrate CR-052–055 into the storyline (the population "about 37 million", the CT1 wording, CT9's two Steinmetz sentences, Ryan's registry entry, the Hawaiian hydro board, CR-054's and CR-055's sentences) and register them in `change_requests.json`; the financial workbook's CR-054/055 champions and CR-051 costs.
