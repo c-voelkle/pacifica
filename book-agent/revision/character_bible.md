@@ -76,6 +76,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **APPROVED — CR-050:** Hillebrand tells her first, in December 1908; she says to publish once it is verified. Arguing from Elias's memorandum that a withheld account robs as surely as a falsified one, she loses to Julian and accepts the seal only with a twenty-year term written into the deposit. When Hahn publishes in 1920 she demands the opening and is held to her own term: with Siberia, the second cause of the break of 1921. She recognises in the seal, whose rules live in the estates' contracts beyond the Senate's reach, the form of power she struggled to contain in Elias.
 
+**APPROVED — CR-051:** In 1920 her demand to open the seal becomes "the world knows what you found; you are hiding what you built". In 1921 she adds to her charge the true sentences Pacifica leaves standing to mislead Europe. **Open:** whether she lives to object to the second part's term, sealed in 1927 to 1947.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -127,6 +129,8 @@ In 1931 he uses oil, transport and gold leverage against the Manchurian plot. Th
 **APPROVED — CR-049:** Fission (1908) and the chain (1909) come in his first years, and the decision about them is his; it is where he and Victoria begin to drift apart. He never approves a false paper. He treats the moment as an opportunity that comes once and has Pacifica mine and buy as much uranium as it can: Joachimsthal through the 1909 Bosnian loan, Shinkolobwe with Ruanda-Urundi for Belgium at The Hague, Fergana alongside the Emba concession. The first device is tested in secret in the desert about 1920, never on Hawaiian reefs; in 1927 the demonstration at sea completes Britain's retreat and solidifies the Concord, and an atomic station lights Tokyo as the emblem of the friendship with Japan. PROPOSED: his motives for a peacetime industry (fear of what Europe will make of the physics, teeth for his peace, an industry that pays its way). OPEN: the secrecy settlement and whether the 1908 paper is published.
 
 **APPROVED — CR-050:** Home from Europe after the Bosnian crisis, he sanctions the seal in 1909 against Victoria's argument: nothing false will be printed, the account is kept and will be opened, and a small chance of Europe building it first is not small if it ends the commonwealth. He holds one of its two keys, refuses Victoria's demand to open it in 1920, visits the dying Hillebrand in Honolulu in 1925 to tell him the year of the opening, and opens it with Vance at the demonstration of 1927, a year inside her term. He announces there that the Works will light Tokyo; the station opens on 29 April 1932. The desert test moves to about 1923–1924.
+
+**APPROVED — CR-051:** In 1917 he and Vance call Sibert home as the Chief. In 1926–1927 he asks the Chief for a month on the Columbia's cooling times and is refused ("then the device is a month late"). He chooses Samuel Wilder King to arm the device at sea in 1927.
 
 ### CT-CALEB — Caleb Vance
 **Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Autumn 1887 Donner Pass standoff, with no civil war under CR-016. CR-022 resolves the shooter: Silas aims at Soberanes and Caleb dies in his place.
@@ -883,9 +887,11 @@ He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1907
 **Status:** Holds Manchuria after his father’s assassination, approved by CR-018 A18. Brings Manchuria into the Nationalist state, with railway sovereignty and alliance obligations. **[PROPOSED]** Hostility to his father’s killers and dependence on the Ob coalition make Julian’s restraint valuable; the 1929 Soviet probe becomes a coalition victory.
 
 ### CT-HOOVER — Herbert Hoover, Pacifican relief and moratorium official
-**Status:** Pacifican identity, the 1927 Gulf flood relief and June 1931 war-debt moratorium settled by CR-020 B5–B6. Exact relief-to-treasury appointments and chronology remain qualified under OPEN-019-04; Belgian relief from 1914 remains the earlier proposed course.
+**Status:** Pacifican identity, the 1927 Gulf flood relief and June 1931 war-debt moratorium settled by CR-020 B5–B6. Exact relief-to-treasury appointments and chronology remain qualified under OPEN-019-04. CR-051 (APPROVED) supersedes the earlier proposed Belgian relief: a belligerent Pacifica does not feed occupied Belgium; that work is the neutral Union's.
 
 Hoover's administrative competence belongs to a different sovereign state. During the Mississippi flood the Gulf prosecutes planters who hold Black refugees in levee camps, and its statistics remain honest. In the Depression his moratorium on Pacifica's war-debt claims helps limit forced selling; the order restructures rather than calls its debts. Dawes is the Union president and bears responsibility for Union tariff and farm policy. **Open:** Exact titles, appointment instruments, personal exchanges and the remaining earlier career details.
+
+**APPROVED — CR-051:** Born in Iowa in 1874 and raised in Oregon from 1885, he takes his geology degree at Carquinez in 1895, works as a mining engineer in Australia and China (in the siege of Tientsin in 1900 he helps build the barricades and organises food and water) and as a mining financier in London in 1902–1914. In the war he is Pacifica's food administrator, and in 1918–1919 he holds the food lever under Julian's timing. At The Hague in 1919 he decides where Pacifican food and credit go, and secures the uranium side of the Joachimsthal and Shinkolobwe concessions without asking why. In 1920 the Works' director and the keys admit him to the inner circle as head of the ore office (Fergana, the world survey, the stockpile); Lou Henry Hoover, examined in geology, works with him on the survey. In 1925 he leaves the ore office for public office, still under his bond, an inner-circle man who must answer the Senate about the Works' purchases without a false word. In 1926 he backs Szilárd's five years against the Chief's twenty: ore turns up wherever someone looks. **Open:** whether so famous a figure suits the ore office; scenes. *(Irony: historically he campaigned against foreign raw-material cartels; here he builds the largest.)*
 
 ### CT-THEODORE-ROOSEVELT — Theodore Roosevelt
 **Status:** Union president 1901–1909 and refused mediator in 1905 approved by CR-019; the 1903 emulation and containment response approved by CR-020 B13/E21.
@@ -926,6 +932,8 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 **APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.
 
 **APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; his successor is OPEN.
+
+**APPROVED — CR-051:** Out of the Five from 1924 but still the halls' patron, he presses in 1926–1927 with Szilárd to shorten the Columbia's cooling times, and the Chief refuses.
 
 ### CT-STEINMETZ — Charles Steinmetz
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
@@ -1456,6 +1464,8 @@ Secretary of State for War 1919–21 and Chancellor of the Exchequer 1924–29 (
 
 **Character use:** The British politician whose life's argument against Bolshevism Pacifica vindicated and whose country it humiliated. He is shown one sheet, never the file.
 
+**APPROVED — CR-051:** In 1926 his Treasury, on Lindemann's advice, declines the separation factory Fowler's memo calls for. In the autumn of 1927 he sees the column of water in the newsreels; the memo is in his own files.
+
 ### CT-SAMUEL-HOARE — Samuel Hoare
 
 **Status:** Historical person in alternate history; CR-046 (PROPOSED).
@@ -1586,6 +1596,8 @@ Historical people placed in alternate careers; no invented scientists are added.
 
 **APPROVED — CR-050-R1:** He lives to see the first device work on the Black Rock Desert in May 1924.
 
+**APPROVED — CR-051:** From 1909 he throttles the neutron sources sold abroad instead of stopping them (supersedes the December 1908 stop), and keeps his group publishing true work around uranium so that no hole opens in the journals. In 1911, when the Nobel committee sounds out Carquinez, he withdraws his group from the transuranic prize pending verification, which is true; the corrections column records it in 1927. In 1912 he refuses Meitner's request to warn Rutherford privately that the satellite model is wrong. Until 1917 he leads the scientists' phase of the programme under the two keys; from 1917 he chairs the Council of the Seal as director, the Chief his equal under it.
+
 ### CT-EUGEN-GOLDSTEIN — Eugen Goldstein, physicist
 **Status:** Historical person in alternate history (CR-049).
 
@@ -1603,6 +1615,8 @@ Historical people placed in alternate careers; no invented scientists are added.
 **Voice:** Patient, quietly stubborn, a dissenter another school takes in.
 
 **APPROVED — CR-050:** Inside the wall. In 1920, after Hahn publishes, he argues that silence now hides only Pacifica's head start, a deception of the world in all but name; he loses, resigns, is held to his bond and returns to Tokyo Imperial University, where he keeps the seal even from his own government. His silence is the proof Julian needs that a Japanese scientist can carry it, and it opens the way for Nishina in 1922. Both crowns honour him in 1927. PROPOSED: in the 1890s he proposes a ring of electrons around the core, the Pacifican model that fails; in 1916–1917 he leads the test that proves the light isotope is the one that splits.
+
+**APPROVED — CR-051:** His case of 1920 includes the true signposts left standing to mislead Europe.
 
 ### CT-NISHINA-YOSHIO — Nishina Yoshio, physicist
 **Status:** Historical person in alternate history (CR-049).
@@ -1624,6 +1638,8 @@ Historical people in alternate careers; no invented scientists are added.
 
 **APPROVED — CR-050-R1:** To take the custody of the seal in 1921 he lays aside the open surface chemistry that had made his name. A mountaineer, he lives under Wapama at Hetch Hetchy.
 
+**APPROVED — CR-051:** In 1921, as the new director, he puts Ralston College's thermal-diffusion columns in front of the halls. His quarrel with the Chief is Groves's with Lawrence with the roles reversed: the soldier is the patient one. The Mint lends its silver for the windings of the first two halls during the war, and they are rewound in copper in 1923 (supersedes "Comstock silver lent from the Mint"); his condensation pump of 1916 and its oils are among the bottlenecks Pacifica holds.
+
 ### CT-ARTHUR-DEMPSTER — Arthur Jeffrey Dempster, physicist
 **Status:** Historical person in alternate history (CR-050).
 
@@ -1631,12 +1647,16 @@ Historical people in alternate careers; no invented scientists are added.
 
 **Voice:** Quiet, exact, a man of long exposures.
 
-**APPROVED — CR-050-R1:** In 1922 he watches Aston receive the Nobel Prize for isotopes while his own finest result, the uranium line, lies sealed.
+**APPROVED — CR-050-R1:** In 1922 he watches Aston receive the Nobel Prize for isotopes while his own finest result lies sealed.
+
+**APPROVED — CR-051:** In 1921, after Bohr has inferred the rare isotope, he publishes the light uranium line from his own long exposures, a true measurement and an honour; nothing about its fission is published. His finest result, the proof of 1916–1917 that the light isotope is the one that splits, stays in the second part of the record, sealed in 1927 to 1947, so the opening of 1927 does not name him for it (amends "the corrections column names him in 1927").
 
 ### CT-LISE-MEITNER — Lise Meitner, physicist
 **Status:** Historical person in alternate history (CR-050).
 
 **APPROVED — CR-049, CR-050:** She comes from Berlin about 1910, breaking up Europe's best team. Admitted to the inner circle in 1911 on the sponsorship of Hillebrand and Goldstein, she proposes in 1911–1912 that the part of uranium that splits easily is a rare, lighter isotope, and wins the challenge evening at which Goldstein attacks it. In the open she publishes her work on the energies of the bendable rays. When Hahn publishes in 1920 and is honoured, she knows the truth; the opening of 1927 names her for the light isotope. **Open:** scenes and private life.
+
+**APPROVED — CR-051:** Her leaving in 1910 takes Hahn's questioner from him; in Berlin no one replaces her. In 1912, newly admitted, she asks at a challenge evening to warn Rutherford privately that his satellite model is wrong, and Hillebrand refuses.
 
 **Voice:** Precise, reserved, generous to collaborators, unyielding on evidence.
 
@@ -1646,6 +1666,8 @@ Historical people in alternate careers; no invented scientists are added.
 **APPROVED — CR-050:** He stays in Berlin when Meitner leaves for Pacifica about 1910. In 1920, working on Vienna's sources, he finds barium among uranium's products and publishes; Europe confirms it within months and honours him. In 1927 the opening of the seal names him the independent second finder. **Open:** whose name for the split sticks; scenes.
 
 **Voice:** A careful chemist who trusts his separations.
+
+**APPROVED — CR-051:** Why he takes until 1920: in 1908–1910 the transuranic chains look right; Meitner's leaving takes his questioner, and Otto von Baeyer, who works with him from 1910, asks what, not why; Pacifica's throttling keeps him in commercial chemistry on mesothorium; the Nobel Prize of 1911 makes doubting the transuranics doubting Paris; in 1912 he moves into the Kaiser Wilhelm Institute for Chemistry and, no theorist, defers to Rutherford's satellite model; the war takes him to gas warfare. In 1919, back with Friedrich Paneth as his analytical partner, he finds small inconsistencies in his measurements of 1914; Paneth's separations make the barium undeniable in 1920, and Bohr reads their results by letter.
 
 ### CT-ARTHUR-HAAS — Arthur Erich Haas, physicist (Vienna)
 **Status:** Historical person in alternate history (CR-050).
@@ -1661,10 +1683,14 @@ Historical people in alternate careers; no invented scientists are added.
 
 **Voice:** Ambitious for his college, jealous of credit, persuasive in public.
 
+**APPROVED — CR-051:** His college's rival route is thermal diffusion; it loses the contest in 1920 and becomes the halls' feed in 1921, so Ralston College loses and makes the device possible, and the sealed roll records both. In public he preaches, sincerely, that cosmic rays are the birth cries of atoms built in the stars, the one subject on which his evangelism points away from the halls.
+
 ### CT-ERNEST-RUTHERFORD — Ernest Rutherford, physicist
 **Status:** Historical person in alternate history (CR-050).
 
 **APPROVED — CR-049, CR-050:** He comes about 1909–1910 and becomes the face of New Zealand's drift towards Pacifica. He refuses to go behind the wall, stays the public face of Pacifican physics, works in the open, knows there is a wall and never asks what lies behind it. In the 1920s he fires heavy-hydrogen nuclei at heavy hydrogen and sees them fuse, at far less energy than the beam costs, and sincerely calls power from such reactions moonshine; honestly sceptical in public and incurious about the wall, he is the seal's best cover. **Open:** scenes and private life.
+
+**APPROVED — CR-051:** About 1911, with Pacifica's strong thorium sources, he finds the uranium paradox, and in 1912 he publishes his satellite model of the nucleus, sincerely and wrongly: an indivisible core whose neutral satellites break up only after they leave. It becomes Europe's prohibition and its textbooks' picture; the inner circle lets it stand. In 1922, asked by a London journalist about the Tribune's story, he says honestly that he knows of no such thing and that such a bomb would need a factory no country could build. He is wrong twice, both times sincerely, and both errors serve as signposts. His daughter Eileen does not marry Ralph Fowler.
 
 **Voice:** Loud, warm, blunt, a man who trusts what he can count.
 
@@ -1672,6 +1698,8 @@ Historical people in alternate careers; no invented scientists are added.
 **Status:** Historical person in alternate history (CR-050).
 
 **APPROVED — CR-049, CR-050:** He comes about 1920 because Pacifica is where physics is done and enters the outer college. Admitted to the inner circle about 1924, he finds scientific secrecy already invented and becomes its sharpest critic from inside; he designs the opening of 1927, and in 1925–1926 he and Wigner propose a reactor that breeds more fuel than it burns. **Open:** scenes.
+
+**APPROVED — CR-051:** He calls the signposts left standing "lying with true sentences". The Tribune's story of 1922 goes into his argument that the seal's term must end. In 1926 he answers the Chief's twenty-year forecast with five, once Europe knows it works. In 1926–1927 he presses with the deadline to shorten the Columbia's cooling times and loses to the Chief. He accepts the sealing of the second part to 1947 as the price of the opening he designs, and his argument against it is sealed with it.
 
 **Voice:** Restless, ironic, always two moves ahead of the meeting.
 
@@ -1684,3 +1712,67 @@ Historical people in alternate careers; no invented scientists are added.
 
 **APPROVED — CR-050-R1:** Trained as a chemical engineer for his father's tannery in Budapest, he leaves it against his father's wishes. In the reactor hall he is the engineer's brake on Szilárd's haste and refuses to build the breeder bigger than he can control.
 
+## CR-051 — the moat, the Chief and the long secret (4 November 2026)
+
+### CT-WILLIAM-SIBERT — William Luther Sibert, engineer officer, the Chief of the Works
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1860 at Gadsden, Alabama, a Confederate boy after 1861. About 1879 he takes the Polytechnic's examination, one of its first candidates from the school of Pacifica's Birmingham works, sixty miles from his home, and serves his time in the engineer corps. He joins the regency's canal works in 1889 and commands its Atlantic division from about 1895, building the locks and the great dam of the lock-and-lake canal opened in 1900. In the summer of 1914 he is in China on a survey for the Huai River conservancy; when war comes he commands the Pacifican engineers in the combined siege of Tsingtao beside Japanese officers, rebuilds the Shantung railway behind the lines and brings the heavy guns forward across flooded ground on time, and from 1915 to 1917 he runs the anchorage and works Pacifica holds there under occupation. Called home in 1917 as the Chief of the Light and Matter Works' industrial phase, he builds the halls, the feed plant, the Columbia station and the test site, as the director's equal under the Council of the Seal, and retires after the demonstration of 1927. Quiet, methodical and unflashy, he keeps the margins: the extra capacity in the halls, the holding ponds, the full cooling times promised to the Wanapum; in 1926–1927 he refuses to shorten them ("then the device is a month late"). He returns the Mint's silver bar by bar in 1923. His blind spot is a builder's: in 1926 he forecasts that no one will build a device for twenty years with the ore in Pacifican hands. **Open:** the Birmingham works' founding date (by the late 1870s); scenes.
+
+**Voice:** Laconic, exact about dates, never raises his voice; a man who measures a promise by whether it was kept.
+
+### CT-MICHAEL-OSHAUGHNESSY — Michael Maurice O'Shaughnessy, civil engineer
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in County Limerick in 1864 and in San Francisco from 1885, he has driven irrigation ditches and tunnels for Hawaiian sugar plantations. Under Hillebrand and then the Chief he builds the state's survey line and waterworks railway of 1908–1913, the valley's spur and tunnel, San Francisco's Eleanor–Cherry system, which is the valley's cover, and the test site on the Black Rock Desert in 1924. He knows the Sierra's rock and water better than anyone and does not like being second to a soldier. **Open:** scenes.
+
+**Voice:** Blunt, practical, Irish in his impatience with committees.
+
+### CT-SAMUEL-WILDER-KING — Samuel Wilder King, naval ordnance officer
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in Honolulu in 1886, part-Hawaiian; trained at Pacifica's own naval school. He is the Works' naval ordnance officer from 1922, arms the device on the Black Rock Desert in May 1924 and at sea in 1927: Julian's choice for the sea is a Native Hawaiian. **Open:** his later career; scenes.
+
+**Voice:** Careful, formal on duty, warm off it.
+
+### CT-RALPH-FOWLER — Ralph Fowler, theoretical physicist (Cambridge)
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1889; wounded at Gallipoli, he worked on anti-aircraft ballistics in the war. Asked by Tizard after the Black Rock statement of 1924, and once early quantum mechanics allows a fast-neutron estimate, he calculates in 1924–1926 that separated light uranium in the range of kilograms to tens of kilograms would explode, and that separation would need a plant larger than any chemical works in the Empire. The Treasury declines it in 1926. With Rutherford in Pacifica, he does not marry Eileen Rutherford. **Open:** scenes.
+
+**Voice:** Brisk, mathematical, an athlete's confidence.
+
+### CT-FREDERICK-LINDEMANN — Frederick Lindemann, physicist (Oxford)
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1886; Oxford's professor of experimental philosophy from 1919 and Churchill's friend from 1921. In 1922 he reads the Tribune's evidence as the salt, electrochemistry and a rich state's taste for secrecy; in 1924 he holds that the separation factory is impossible, so the Black Rock shot was chemical or theatre; in 1926 his advice leads the Treasury to decline Fowler's factory. He and Tizard are friends in the 1920s and disagree as friends do. **Open:** scenes.
+
+**Voice:** Assured, sardonic, certain of what cannot be done.
+
+### CT-HENRY-TIZARD — Henry Tizard, scientist (Department of Scientific and Industrial Research)
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1885; at the Department of Scientific and Industrial Research from 1920. After the Tribune's story of 1922 he reads the Office's tables, sees that the nitrogen output fell after the war and the power did not, keeps the file open and asks for river-water samples below the Tuolumne; the samples of 1923 show nothing and the file closes. In May 1924 he reopens it and asks Cambridge what such a device would need, which sets Fowler to work. **Open:** scenes.
+
+**Voice:** Methodical, open-minded, a reader of other people's tables.
+
+### CT-OTTO-VON-BAEYER — Otto von Baeyer, physicist (Berlin)
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1877; the careful physicist with whom Hahn and Meitner measured beta spectra, he works with Hahn from 1910. Like Hahn he asks what happens rather than why, so he cannot replace Meitner. **Open:** scenes.
+
+**Voice:** A meticulous measurer who leaves interpretation to others.
+
+### CT-FRIEDRICH-PANETH — Friedrich Paneth, analytical chemist
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1887; he teaches Rutherford's satellite model in his lectures at the Vienna institute, and from 1919 is Hahn's analytical partner in Berlin, bringing Vienna's sources (historically Hamburg from 1919 and Berlin from 1922). His separations make the barium undeniable in 1920 and break the model he taught. **Open:** scenes.
+
+**Voice:** Rigorous, collegial, a chemist's chemist.
+
+### CT-MARIE-CURIE — Marie Curie, physicist and chemist (Paris)
+**Status:** Historical person in alternate history (CR-051, APPROVED).
+
+**APPROVED — CR-051:** Born in 1867. Carquinez found first the elements her historical prizes honoured, so her prize of 1911 goes to her school's chemistry of the "elements beyond uranium" that neutrons produce, after Hillebrand withdraws Carquinez from consideration; the laboratory most likely to break the transuranic error becomes the one most committed to defending it. In the war she serves at the front. **Open:** scenes.
+
+**Voice:** Austere, tireless, loyal to her school's results.

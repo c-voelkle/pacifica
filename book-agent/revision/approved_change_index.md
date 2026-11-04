@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 49 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 50 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -966,6 +966,24 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - OPEN: the Me-Wuk and Kootzaduka'a leaders' names (archival research).
+
+### CR-051 — The moat: the two hard facts, the industrial lead and the long secret (1908–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- P1–P2: the lead rests on two hard facts (separated light uranium explodes in kilogram amounts; it can be separated at industrial scale) and the industry, not on fission staying secret; three layers with honest lifetimes.
+- E1–E7: throttling of neutron sources from 1909 instead of the December 1908 stop; Hillebrand's group keeps publishing around uranium; Marie Curie's school takes the Nobel Prize of 1911 for the elements beyond uranium and Hillebrand withdraws his group pending verification; Hahn's delay (von Baeyer from 1910, mesothorium, the KWI 1912, the war, Paneth from 1919); Rutherford's satellite model (1912) as Europe's prohibition, left standing by the inner circle; Bohr's reading 1920–21; Dempster publishes the light uranium line in 1921.
+- T1–T2: true signposts (deception by arrangement, named inside the wall; Szilárd's 'lying with true sentences'; Victoria's third count); Fowler's memo of 1924–26 declined by Churchill's Treasury on Lindemann's advice in 1926; no Fowler–Rutherford marriage.
+- M1–M6: Ralston College's thermal diffusion loses the contest in 1920 and becomes the halls' feed in 1921; build big (second stage; production schedule and arsenal MODEL); the war's arc nitrogen power from 1919 and the Works' dams on the Pit and the upper Feather; the halls the district's largest load, published; Mint silver for the first halls, returned 1923; gaseous diffusion pilot c. 1926, plant 1930–32; the bottleneck moat; keep moving.
+- C1–C6: two phases of leadership; William Luther Sibert, canal builder and engineer of Tsingtao, Chief 1917–1927 under a Council of the Seal; O'Shaughnessy as the valley's engineer; Hoover Pacifica's food administrator, the food lever as ore lever at The Hague, the ore office 1920–1925; Samuel Wilder King arms the device in 1924 and 1927; the military sketch to its own CR (Chihuahua OPEN).
+- S1–S8: the valley holds the inner circle only, inner-only challenge evenings, machinists under the inner bond, a population cap (MODEL); the Tribune's Sierra story of spring 1922 contained; SIS, Lindemann and Tizard; the true one-sentence statement on the 1924 test; the Columbia station at White Bluffs with Rock Island and a Roslyn-coal steam plant; three Columbia compacts with a measured promise and a remedy.
+- L1–L5: ore as delay and leverage (the Chief's twenty years against Szilárd's five); the opening of 1927 in two parts, the second sealed to autumn 1947; the re-bonding of 1927 (bonds, the Compact of the Tuolumne and the Me-Wuk lease renewed to 1947); the lead after 1927 (Britain c. 1933–35 MODEL; Europe's heavy-water pile c. 1930–31; no weapon route before 1932).
+
+**Still open:**
+- The founding date of Pacifica's Birmingham works (Sibert's route); whether the Senate's budget committee is told anything; the Columbia bands' leaders in 1919–20; the compacts for the Works' dams with the Pit River peoples and the Maidu.
+- Separate CRs: the Pacifican military 1899–1917 (Tsingtao in detail, the Villa question, Chihuahua and Patton's raid); the dependence strategy after 1927.
+- Energy workbook (CR-052, unmerged) may adjust the halls' share of capacity (its CT1) and the size of the Works' dams (its CT2); CR-055 proposes amending S7's 'first main-stem dam' and S8's pattern clause. Not applied here.
+- Whether Victoria lives to object to the second part's term; whether Hoover suits the ore office; the financial workbook's costs for the halls, the feed plant, the Columbia station and the Works' dams (MODEL, not yet built).
 
 ### Author-approved editorial safeguards
 
