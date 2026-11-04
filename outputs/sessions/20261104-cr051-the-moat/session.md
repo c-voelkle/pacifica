@@ -3,7 +3,7 @@ session: 20261104-cr051-the-moat
 started: 2026-11-03
 updated: 2026-11-04
 mode: integrate
-status: integrated-pr-open
+status: integrated
 baseline:
   commit: 04155c7
 independence: separate-agents
@@ -48,7 +48,7 @@ independence: separate-agents
 | ID | To | Task | Inputs | Withheld | Output | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | H1 | fresh-context reviewer | Review CR-051 draft | CR-051, CR-049, CR-050, CR-050-R1, earlier review, both texts | drafting conversation | `outputs/CR-051/review.md` | done (3 Nov) |
-| H2 | fresh-context reviewer | Review the integrated prose | storyline and bible diffs, CR-051, AGENTS.md | drafting conversation | `outputs/CR-051/review-integration.md` | see round log |
+| H2 | fresh-context reviewer | Review the integrated prose | storyline and bible diffs, CR-051, AGENTS.md | drafting conversation | `outputs/CR-051/review-integration.md` | done; F1–F26 resolved |
 
 ## Checks executed
 
@@ -63,8 +63,8 @@ independence: separate-agents
 
 ## Round log and stop reason
 
-- 4 Nov: integrated on `adopt/cr051` (commit 0232da4); fresh-context review of the integrated text requested (H2).
+- 4 Nov: integrated on `adopt/cr051` (commit 0232da4); fresh-context review of the integrated text (H2): 6 MUST FIX, 13 SHOULD FIX, 7 NOTE, all resolved; checks X3–X6 re-run clean. Merged to `main` at the author's instruction.
 
 ## Resume here
 
-CR-051 integrated on branch `adopt/cr051` and proposed for `main`. Open after it: the military CR for 1899–1917 (Tsingtao in detail, the Villa question), the dependence-strategy CR, CR-052's CT1–CT2 and CR-055's CT1 and CT4 (amendments to CR-051, not applied), the financial workbook's costs for the halls, the feed plant, the Columbia station and the Works' dams.
+CR-051 integrated and merged to `main` (branch `adopt/cr051`). Flag for the author: Paneth's lectures moved to Vienna (review F15); the Kootzaduka'a compact's 1927 renewal is unstated. Open after it: the military CR for 1899–1917 (Tsingtao in detail, the Villa question), the dependence-strategy CR, CR-052's CT1–CT2 and CR-055's CT1 and CT4 (amendments to CR-051, not applied), the financial workbook's costs for the halls, the feed plant, the Columbia station and the Works' dams.

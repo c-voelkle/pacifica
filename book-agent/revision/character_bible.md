@@ -76,6 +76,8 @@ She continues as dowager diplomat until her 1921 renunciation after the Altai co
 
 **APPROVED — CR-050:** Hillebrand tells her first, in December 1908; she says to publish once it is verified. Arguing from Elias's memorandum that a withheld account robs as surely as a falsified one, she loses to Julian and accepts the seal only with a twenty-year term written into the deposit. When Hahn publishes in 1920 she demands the opening and is held to her own term: with Siberia, the second cause of the break of 1921. She recognises in the seal, whose rules live in the estates' contracts beyond the Senate's reach, the form of power she struggled to contain in Elias.
 
+**APPROVED — CR-051:** In 1920 her demand to open the seal becomes "the world knows what you found; you are hiding what you built". In 1921 she adds to her charge the true sentences Pacifica leaves standing to mislead Europe. **Open:** whether she lives to object to the second part's term, sealed in 1927 to 1947.
+
 ### CT-LOST-SON — Kalanimoku, the lost son of Elias and Victoria
 **Status:** Name, parentage and late-1870s death approved by CR-018 A6. Born after the November 1858 wedding and heir to his mother’s Hawaiian crown; precise birth year, age and characterization open.
 
@@ -127,6 +129,8 @@ In 1931 he uses oil, transport and gold leverage against the Manchurian plot. Th
 **APPROVED — CR-049:** Fission (1908) and the chain (1909) come in his first years, and the decision about them is his; it is where he and Victoria begin to drift apart. He never approves a false paper. He treats the moment as an opportunity that comes once and has Pacifica mine and buy as much uranium as it can: Joachimsthal through the 1909 Bosnian loan, Shinkolobwe with Ruanda-Urundi for Belgium at The Hague, Fergana alongside the Emba concession. The first device is tested in secret in the desert about 1920, never on Hawaiian reefs; in 1927 the demonstration at sea completes Britain's retreat and solidifies the Concord, and an atomic station lights Tokyo as the emblem of the friendship with Japan. PROPOSED: his motives for a peacetime industry (fear of what Europe will make of the physics, teeth for his peace, an industry that pays its way). OPEN: the secrecy settlement and whether the 1908 paper is published.
 
 **APPROVED — CR-050:** Home from Europe after the Bosnian crisis, he sanctions the seal in 1909 against Victoria's argument: nothing false will be printed, the account is kept and will be opened, and a small chance of Europe building it first is not small if it ends the commonwealth. He holds one of its two keys, refuses Victoria's demand to open it in 1920, visits the dying Hillebrand in Honolulu in 1925 to tell him the year of the opening, and opens it with Vance at the demonstration of 1927, a year inside her term. He announces there that the Works will light Tokyo; the station opens on 29 April 1932. The desert test moves to about 1923–1924.
+
+**APPROVED — CR-051:** In 1917 he and Vance call Sibert home as the Chief. In 1926–1927 he asks the Chief for a month on the Columbia's cooling times and is refused ("then the device is a month late"). He chooses Samuel Wilder King to arm the device at sea in 1927.
 
 ### CT-CALEB — Caleb Vance
 **Status:** Core relationship approved; ending retained provisionally. **Born:** early nineteenth century, exact year unresolved. **Death:** Autumn 1887 Donner Pass standoff, with no civil war under CR-016. CR-022 resolves the shooter: Silas aims at Soberanes and Caleb dies in his place.
@@ -928,6 +932,8 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 **APPROVED — CR-049:** His works supply the counter's steady high voltage (1885–1887), build valve amplifiers with the Light and Matter Works by about 1895, and power Hillebrand's electric furnaces for uranium metal and graphite.
 
 **APPROVED — CR-050:** Irving Langmuir comes to his electrical institute in 1903 and becomes his student. Past sixty, Tesla is the magnet halls' patron, showman and source of power; his grand visions against Langmuir's patient measurements are the halls' quarrel. He leaves the power seat at sixty-eight in 1924; his successor is OPEN.
+
+**APPROVED — CR-051:** Out of the Five from 1924 but still the halls' patron, he presses in 1926–1927 with Szilárd to shorten the Columbia's cooling times, and the Chief refuses.
 
 ### CT-STEINMETZ — Charles Steinmetz
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
@@ -1760,13 +1766,13 @@ Historical people in alternate careers; no invented scientists are added.
 ### CT-FRIEDRICH-PANETH — Friedrich Paneth, analytical chemist
 **Status:** Historical person in alternate history (CR-051, APPROVED).
 
-**APPROVED — CR-051:** Born in 1887; formerly of the Vienna institute, he teaches Rutherford's satellite model in his lectures at Prague and Hamburg, and from 1919 is Hahn's analytical partner in Berlin, bringing Vienna's sources (historically Hamburg from 1919 and Berlin from 1922). His separations make the barium undeniable in 1920 and break the model he taught. **Open:** scenes.
+**APPROVED — CR-051:** Born in 1887; he teaches Rutherford's satellite model in his lectures at the Vienna institute, and from 1919 is Hahn's analytical partner in Berlin, bringing Vienna's sources (historically Hamburg from 1919 and Berlin from 1922). His separations make the barium undeniable in 1920 and break the model he taught. **Open:** scenes.
 
 **Voice:** Rigorous, collegial, a chemist's chemist.
 
 ### CT-MARIE-CURIE — Marie Curie, physicist and chemist (Paris)
 **Status:** Historical person in alternate history (CR-051, APPROVED).
 
-**APPROVED — CR-051:** Born in 1867. Her historical prizes went to elements Carquinez found first, so her prize of 1911 goes to her school's chemistry of the "elements beyond uranium" that neutrons produce, after Hillebrand withdraws Carquinez from consideration; the laboratory most likely to break the transuranic error becomes the one most committed to defending it. In the war she serves at the front. **Open:** scenes.
+**APPROVED — CR-051:** Born in 1867. Carquinez found first the elements her historical prizes honoured, so her prize of 1911 goes to her school's chemistry of the "elements beyond uranium" that neutrons produce, after Hillebrand withdraws Carquinez from consideration; the laboratory most likely to break the transuranic error becomes the one most committed to defending it. In the war she serves at the front. **Open:** scenes.
 
 **Voice:** Austere, tireless, loyal to her school's results.
