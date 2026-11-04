@@ -133,8 +133,9 @@ def levers() -> list:
          "'A few thousand tons' (CR-051 M3); Y-12 borrowed 13,300 t. Lent 1918, returned in 1923, every bar weighed: a memo, "
          "no cash flow."),
         ("en_cost_hydro", "Energy workbook's hydro plant cost (mirror, do not change here)", ch[0], ch[1], "1913 $/kW", "Mirror of the energy workbook",
-         "energy/build/energy_inputs.py cost_hydro: used only to take the energy workbook's own costing of the Works' dams, "
-         "Rock Island and the second units out of its power investment before the finance basis is put in."),
+         "energy/build/energy_inputs.py cost_hydro: used only to take the energy workbook's own costing of the Works' dams "
+         "and Rock Island out of its power investment before the finance basis is put in, and to show the five dams and the "
+         "second units as the energy workbook costs them (Energy link AL, AQ, AR)."),
         ("en_cost_td", "Energy workbook's lines and distribution per kW (mirror, do not change here)", ch2[0], ch2[1], "1913 $/kW", "Mirror of the energy workbook",
          "energy/build/energy_inputs.py cost_td."),
         ("en_dev_share", "Share of power investment the Development Fund would lend (mirror)", ds[0], ds[1], "share", "OPEN (CR-052 F12; not decided here)",
@@ -858,7 +859,7 @@ def main() -> None:
         "export price, aircraft, nitrogen, electric steel, magnesium, phosphorus, rubber and hydrogenation (their losses at "
         "world prices carried by the fleet's contracts, Budget O); zinc and copper refining as memos inside Resources F; "
         "alumina from the Gulf; plant investment. Energy link AL-BJ: power investment counted once (the energy workbook costs "
-        "the five dams at plant plus bulk lines and the second units at col2_cost; the Columbia-Sierra line added), the "
+        "the five dams at plant plus bulk lines and the second units at its col2_cost, mirrored here as en_col2_cost; the Columbia-Sierra line added), the "
         "identified components and the residual; the Fund's credit, the power estate's bonds (also in the private-saving test, "
         "Sources & uses K) and the Reserve Bank's purchases in 1930-32 (Gold & money I); two new checks. Energy outputs SHA-256 " + sha[:16] + "…. MODEL.")
     for c in range(1, 4):
