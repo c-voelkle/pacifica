@@ -1928,7 +1928,8 @@ section = 24
 quote = "Their arrangement with the Crown is never written down."
 more_quotes = [
   "The Crown does not touch their charters, appointments or the Development Fund; the estates never take sides against the Crown and never let a faction capture them.",
-  "Seats pass to successors such as Steinmetz, Baekeland, Doheny, Giannini and Montgomery, and after 1915 to Marcus Vance III; there are always five.",
+  "Seats pass to successors such as Baekeland, Doheny, Giannini and Montgomery, and after 1915 to Marcus Vance III; there are always five.",
+  "In 1924, when Tesla reaches sixty-eight, the power seat passes to Harris J. Ryan, raised in Pacifica and examined at the Polytechnic, the line-builder of the Realm's long transmission.",
 ]
 
 [[commitment]]
@@ -3025,6 +3026,18 @@ name = "Kingdom of Bohemia within the federal monarchy (from 1919)"
 id = "UTE"
 name = "Uncompahgre Ute"
 
+[[party]]
+id = "BONN"
+name = "Cascade and Wasco bands, with the Yakama, Warm Springs and Umatilla fishing peoples (the Bonneville reach)"
+
+[[party]]
+id = "COLREACH"
+name = "The peoples of the Columbia's later dam reaches (Rocky Reach, Wells, McNary, Chief Joseph; not named in canon)"
+
+[[party]]
+id = "NITROCONV"
+name = "The European nitrogen convention (1930) and its members"
+
 # ---------------------------------------------------------------------------
 # §30 Credit, oil and the brokered peace
 # ---------------------------------------------------------------------------
@@ -3887,12 +3900,12 @@ name = "Gulf oil compact"
 kind = "compact"
 parties = ["GULF", "PAC"]
 from = 1932
-owes = [{ by = "PAC", to = "GULF", what = "help to limit output and support prices, without admitting the Republic" }]
+owes = [{ by = "PAC", to = "GULF", what = "help to support prices, without admitting the Republic; a floor under the price rather than cut output" }]
 status = "CANON"
 section = 34
 quote = "The Gulf's oil compact arrives in 1932, after a year of ten-cent East Texas oil and the 1931 break in its general-measures streak."
-more_quotes = ["Pacifica helps limit output and support prices without admitting the Republic."]
-open = "Quotas and term not stated."
+more_quotes = ["Pacifica helps support prices without admitting the Republic."]
+open = "Floor price and term not stated in the storyline (the workbooks use $0.95 a barrel)."
 
 [[commitment]]
 id = "C-1932-CONCORD-RENEWAL"
@@ -4303,3 +4316,98 @@ cr = "CR-051"
 section = 32
 quote = "The Rock Island compact leases the dam's site and the reach it raises from the Wenatchi and the Columbia people to 1947, renewably, with a royalty on every kilowatt-hour the dam sells"
 open = "The royalty's size and the leaders' names are not stated; entered as 1920 (canon: 1919–1920; the dam is built 1920–1923)."
+
+# ---------------------------------------------------------------------------
+# CR-052 to CR-055: the Columbia, the champions and oil abroad
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1908-BONNEVILLE-COMPACT"
+name = "Bonneville compact (the Cascades dam's reach)"
+kind = "lease"
+parties = ["BONN", "PAC"]
+from = 1908
+owes = [
+  { by = "BONN", to = "PAC", what = "the dam's site and reach leased to the power estate's hydro companies" },
+  { by = "PAC", to = "BONN", what = "a royalty on every kilowatt-hour; electricity at cost for their villages; replacement fishing sites; ladders, with the fish counts published before their observers" },
+]
+conditions = ["Every dam is laddered; none is built where salmon cannot pass."]
+status = "APPROVED"
+cr = "CR-055"
+section = 25
+quote = "The Bonneville compact of 1908, with the Cascade and Wasco bands and the Yakama, Warm Springs and Umatilla fishing peoples, sets its own terms a year before the Me-Wuk lease; the two are parallel, not model and copy."
+more_quotes = ["Every dam is laddered, and each is leased from the peoples of its reach under a compact that pays a royalty on every kilowatt-hour, sells their villages electricity at cost, gives replacement fishing sites and publishes the fish counts before their observers."]
+open = "Term, royalty and the peoples' leaders and councils not stated (OPEN)."
+
+[[commitment]]
+id = "C-1914-COLUMBIA-REACH-COMPACTS"
+name = "Compacts of the later Columbia dams (Rocky Reach, Wells, McNary, Chief Joseph)"
+kind = "lease"
+parties = ["COLREACH", "PAC"]
+from = 1914
+owes = [
+  { by = "COLREACH", to = "PAC", what = "each dam's site and reach leased" },
+  { by = "PAC", to = "COLREACH", what = "a royalty on every kilowatt-hour; electricity at cost for their villages; replacement fishing sites; ladders, with the fish counts published before their observers" },
+]
+conditions = ["Chief Joseph is built lower than the site allows so that salmon can climb it.", "No dam at The Dalles, on the lower Snake or at the Grand Coulee."]
+status = "APPROVED"
+cr = "CR-055"
+section = 25
+quote = "Every dam is laddered, and each is leased from the peoples of its reach under a compact that pays a royalty on every kilowatt-hour, sells their villages electricity at cost, gives replacement fishing sites and publishes the fish counts before their observers."
+more_quotes = ["None is built where salmon cannot pass: there is no dam at The Dalles over Celilo Falls, none on the lower Snake, and none at the Grand Coulee over Kettle Falls."]
+open = "One entry for four compacts; `from` is Rocky Reach's decision (1914); Wells 1921, McNary 1922, Chief Joseph 1926. Peoples, terms and royalties not stated."
+
+[[commitment]]
+id = "C-1928-HAYAMA-ANNEX"
+name = "The Concord's industrial frame (the Hayama annex)"
+kind = "convention"
+parties = ["PAC", "JP"]
+from = 1928
+until = 1937
+owes = [
+  { by = "PAC", to = "JP", what = "supplies the Concord's aluminium, magnesium, oil products, electrical equipment, heavy machinery and the common fleet's aircraft; sells no fertiliser, textiles or ships' fittings into Japan's home market" },
+  { by = "JP", to = "PAC", what = "supplies textiles, its own nitrogen and the silk and consumer trades; builds no aluminium or heavy electrical industry against Pacifica's before 1937; buys Pacifican equipment for its hydro" },
+]
+conditions = ["Outward the two act as one economic party."]
+status = "APPROVED"
+cr = "CR-054"
+section = 33
+quote = "The Concord gives the partners' industrial rivalry a written frame."
+more_quotes = ["The frame is an annex to the Concord's economic articles, agreed at the first Hayama Council, and Japan's share includes shipbuilding below capital ships."]
+label_note = "The division of industries is APPROVED; its form as an annex agreed at the first Hayama Council (1928) and Japan's shipbuilding share are PROPOSED."
+open = "`from` is the first Council of the Two Crowns (1928); CR-054 dated it 1927. `until` is the 1937 limit on Japan's aluminium and heavy electrical industry, the end of the Concord's second term, not a stated term of the annex."
+
+[[commitment]]
+id = "C-1930-NITROGEN-CONVENTION"
+name = "The Concord in the European nitrogen convention"
+kind = "convention"
+parties = ["PAC", "JP", "NITROCONV"]
+from = 1930
+owes = [
+  { by = "NITROCONV", to = "PAC", what = "London and Ludwigshafen recognise the Concord's Asian market" },
+  { by = "PAC", to = "NITROCONV", what = "the Concord joins as a single party" },
+]
+status = "APPROVED"
+cr = "CR-054"
+section = 33
+quote = "In 1930 the Concord joins the European nitrogen convention as a single party, and London and Ludwigshafen recognise its Asian market"
+open = "Quotas and term not stated. Pacifica stays outside the European aluminium cartel of 1931."
+
+[[commitment]]
+id = "C-1927-UK-OIL-TERMS"
+name = "The 1927 settlement's oil terms"
+kind = "settlement"
+parties = ["UK", "PAC", "US"]
+from = 1927
+owes = [
+  { by = "UK", to = "PAC", what = "waives the sheikhdoms' nationality clause for the Pacifican company; consents to an enlarged American group in Mesopotamia" },
+  { by = "PAC", to = "US", what = "joins the Union's group in Mesopotamia rather than displacing it; keeps the Red Line agreement of 1928 as a shared discipline" },
+]
+status = "PROPOSED"
+cr = "CR-053"
+section = 33
+quote = "The settlement of 1927 carries two quiet terms: Britain waives the sheikhdoms' nationality clause for the Pacifican company, and consents to an enlarged American group in Mesopotamia."
+more_quotes = ["Pacifica joins the Union's group there rather than displacing it, and the trust keeps the Red Line agreement of 1928 as a shared discipline."]
+label_note = "The British terms are PROPOSED; joining the Union's group and keeping the Red Line are APPROVED."
+open = "The Pacifican share inside the American group is not stated in the storyline (MODEL: about $8m)."
+

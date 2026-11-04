@@ -719,3 +719,16 @@ id = "pacifica-record-part-two-sealed"
 year = 1927
 patterns = ['''second part[^.;]{0,60}sealed[^.;]{0,80}(?:in|from) \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''']
 source = "CR-051"
+
+[[person]]
+id = "CT-HARRIS-RYAN"
+aliases = ["Harris J. Ryan", "Harris Joseph Ryan", "Ryan"]
+born = 1866
+source = "CR-052"
+
+[[person]]
+id = "CT-STEINMETZ"
+aliases = ["Charles Steinmetz", "Steinmetz"]
+born = 1865
+died = 1923
+source = "CR-052"

@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 50 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 54 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -984,6 +984,61 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Separate CRs: the Pacifican military 1899–1917 (Tsingtao in detail, the Villa question, Chihuahua and Patton's raid); the dependence strategy after 1927.
 - Energy workbook (CR-052, unmerged) may adjust the halls' share of capacity (its CT1) and the size of the Works' dams (its CT2); CR-055 proposes amending S7's 'first main-stem dam' and S8's pattern clause. Not applied here.
 - Whether Victoria lives to object to the second part's term; whether Hoover suits the ore office; the financial workbook's costs for the halls, the feed plant, the Columbia station and the Works' dams (MODEL, not yet built).
+
+### CR-052 — The energy workbook: Pacifica's power, 1846–1932, and what it settles in canon
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- CT3 A–C: Realm coal at about four times history; all Pacifican-controlled Gulf crude home through the canal; California's oilfields found with the greatest believable haste (Los Angeles basin in the early 1880s, the San Joaquin by the 1890s, the rotary fields 1902–1910, Kettleman Hills 1923); M8 pressure maintenance and water flooding from the 1910s.
+- CT5: California the most motorized place on earth (MODEL about 0.41 vehicles per person in 1929).
+- Max decision: M1 electric homes through county grids and Development Fund credit; M6 the main lines' mountain divisions electric after the 1914–1918 oil strain (half of rail traffic by 1929); M7 Boulder Canyon decided 1920, first power 1926, no interstate decade; M9 the Northwest mills' electric boilers on secondary power, kept beside the Columbia–Sierra line by the Columbia second units (Bonneville and Rocky Reach enlarged from 1925).
+- CT6: the Hilo smelter on the Big Island's windward streams through a Hawaiian hydro board on twelve-year bonds; Waimanu the dam it wants next.
+- The power seat and CT9: Harris J. Ryan (born 1866, Pacifican-raised) builds the halls' electrical supply and succeeds Tesla in the power seat in 1924; Steinmetz (died October 1923) is no longer the successor or the halls' supplier.
+- CT1 and CT2: the halls draw a few per cent of capacity and a twentieth to a tenth of electricity; the Works' dams stay at 400–500 MW, the Columbia–Sierra line the second supply from 1924.
+- The 1932 Gulf oil compact is a price floor, not an output cut; the financial workbook's extra residents are accepted (about 37 million in 1932); the investment-share path adopted for the financial workbook's account; figures MODEL (energy workbook twelfth build, financial workbook energy link).
+
+**Still open:**
+- The Boulder reach's consent and terms; the Development Fund's share of power investment and the royalty's size; the halls' draw after 1927.
+- The industrial-output derivation that would let the energy workbook read the investment share; a world oil-price response to Pacifica's early output.
+- Ezra Scattergood and Edith Clarke PROPOSED for later use (Clarke as Ryan's successor in 1934).
+
+### CR-053 — Oil abroad: the oil trust's concessions of the 1920s
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- P1: about a fifth of Lago Petroleum at Maracaibo in 1923–1924, before Standard of Indiana (APPROVED).
+- P2–P4: a minority in Tropical Oil at De Mares (1920–1921); a Pacifican company for Lobitos and the northern Peruvian concessions from 1924 with a reciprocal Union fifth; Holmes's Bahrain and Kuwait options bought in 1926 (direction APPROVED, details PROPOSED).
+- P5: Pacifica joins the Union's group in Mesopotamia rather than displacing it; the Red Line agreement of 1928 kept as a shared discipline (APPROVED); the 1927 settlement's two quiet terms (the nationality waiver, the enlarged American group) PROPOSED.
+- Amounts MODEL: stakes about $65m in 1920–1928; entitlement crude about 20m bbl in 1929; Bahrain's first oil in June 1932 a line only.
+
+**Still open:**
+- Whether the Gulf Republic's trust fronts the Lago purchase; the split of the American group's share; the entitlement form; commitments ledger entries for the settlement's quiet terms.
+
+### CR-054 — The energy-intensive champions: aluminium, nitrogen and the Concord's division of labour, 1915–1932
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- A1: aluminium about 150 kt in 1929, half the world's, absorbed at home and in the Concord (the grid's conductor first, the air arm, the Concord pool to Japan, civil uses; about a third exported); Arkansas bauxite through the Gulf compact; the Columbia carries most of the tonnage, Hilo the showcase.
+- A2: electrolytic ammonia on the Columbia and Haber–Bosch on Valley gas for the Valley and the Concord's own market, not Japan's.
+- A3: the division of labour of 1927 (annex form PROPOSED).
+- A4: why Pacifica's 1931 is milder (storyline sentences APPROVED); A5: electric steel about an eighth of steel.
+- A6: the Concord joins the 1930 nitrogen convention as one party; Pacifica stays outside the European aluminium cartel of 1931.
+
+**Still open:**
+- The alumina refinery's site; the licensed aircraft line in Japan; what Japan withholds in return; the annex form.
+
+### CR-055 — The Columbia's reserve: the river built early, its four purposes, and what is kept for the atom, 1905–1932
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- R0: Bonneville (1908/1913), Rocky Reach (1914/1919), Wells (1921/1926), McNary (1922/1927) and a laddered Chief Joseph (1926/1931), each under a compact with the peoples of its reach; no dam where salmon cannot pass (no The Dalles, no lower Snake, no Grand Coulee).
+- R0, the four purposes: the Columbia–Sierra line (decided 1919, energised 1924); hydrogenation of California's heavy residue at Portland from 1920 (fewer barrels: about 9m bbl in 1929, MODEL); synthetic rubber at Tacoma from 1923 against the Stevenson scheme; electric pig iron for the carrier yards from 1922.
+- R0, the electrochemistry a decade early: copper refining 1905, zinc 1908, magnesium 1909 (seawater 1924), ammonia on the cells 1915, phosphorus 1915.
+- CT1 resolved by CR-051's integration (Rock Island is not called the first dam); CT4 adapt to canon (the Bonneville compact sets its own terms; the Me-Wuk pattern stands).
+- PROPOSED with local labels: heavy hydrogen recognised in the cells' residue 1916–1917; arc welding in the yards from about 1925; the 1928 decision and the rule of fish passage and consent; the diffusion plant at the Columbia station; zirconium at the Wenatchee metals house by 1929–1932; the Rjukan heavy-water contract of 1930.
+
+**Still open:**
+- The peoples' leaders and councils for the five reaches; the diffusion plant's proportions; Kroll; the dams after 1932, Clarke's succession and the Tribune's question of 1935 (beyond the book's horizon).
 
 ### Author-approved editorial safeguards
 
