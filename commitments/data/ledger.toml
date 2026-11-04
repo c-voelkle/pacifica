@@ -3006,6 +3006,18 @@ id = "KMP"
 name = "Kootzaduka'a Paiute of Mono Lake"
 
 [[party]]
+id = "WANA"
+name = "Wanapum (Priest Rapids)"
+
+[[party]]
+id = "CRTF"
+name = "Treaty fishing peoples of the Columbia (Yakama, Umatilla, Nez Perce)"
+
+[[party]]
+id = "WENC"
+name = "Wenatchi and Columbia people (the Rock Island reach)"
+
+[[party]]
 id = "BOH"
 name = "Kingdom of Bohemia within the federal monarchy (from 1919)"
 
@@ -4191,7 +4203,8 @@ name = "Compact of the Tuolumne (Ralston College inside the wall)"
 kind = "compact"
 parties = ["PAC", "RALC"]
 from = 1910
-until = 1928
+until = 1947
+renewals = [1927]
 owes = [
   { by = "PAC", to = "RALC", what = "its own compound, director and a budget fixed for five years at a time; equal access to sources, instruments, the installation and the internal journal; a neutral chair for contests; credit by school; endowed chairs; a champion of its choosing" },
   { by = "RALC", to = "PAC", what = "its inner work under the seal, its people bound by the bond for the term" },
@@ -4202,7 +4215,8 @@ status = "APPROVED"
 cr = "CR-050-R1"
 section = 27
 quote = "The Compact of the Tuolumne gives it its own compound at the valley's east end, its own director and a budget fixed for five years at a time."
-open = "Renewal after 1928 and the budget shares are not stated."
+more_quotes = ["The Compact of the Tuolumne is renewed to 1947, Ralston College's trustees again signing under written protest"]
+open = "First term to November 1928 (CR-050-R1); renewed in 1927 to 1947 with the re-bonding (CR-051 L4). The budget shares are not stated."
 
 [[commitment]]
 id = "C-1910-HETCH-HETCHY-LEASE"
@@ -4210,7 +4224,8 @@ name = "Hetch Hetchy lease (Tuolumne Me-Wuk)"
 kind = "lease"
 parties = ["TMW", "PAC"]
 from = 1910
-until = 1928
+until = 1947
+renewals = [1927]
 owes = [
   { by = "TMW", to = "PAC", what = "the use of Hetch Hetchy Valley for the seal's term, renewably" },
   { by = "PAC", to = "TMW", what = "a fee every year; title to Poopenaut Valley and protected groves outside the fence; an autumn fortnight in the north groves; wardens' and burners' work at the Works' rates; the clinic" },
@@ -4220,7 +4235,8 @@ status = "APPROVED"
 cr = "CR-050-R1"
 section = 27
 quote = "the band's council leases the valley's use to the Works for the seal's term, renewably, for a fee paid every year."
-open = "The fee and the leaders' names are not stated; the year is entered as 1910 (canon: 1909–1910)."
+more_quotes = ["the Me-Wuk lease is renewed to 1947 with a larger fee and the Poopenaut title confirmed"]
+open = "First term to November 1928; renewed in 1927 to 1947 with a larger fee (CR-051 L4). The fee and the leaders' names are not stated; the year is entered as 1910 (canon: 1909–1910)."
 
 [[commitment]]
 id = "C-1910-KOOTZADUKAA-COMPACT"
@@ -4237,3 +4253,53 @@ section = 27
 quote = "The Kootzaduka'a Paiute of Mono Lake, whose routes come down the Tuolumne canyon from the east, make a compact of their own"
 open = "Terms of the share and the leaders' names are not stated."
 
+[[commitment]]
+id = "C-1920-WHITE-BLUFFS-COMPACT"
+name = "White Bluffs compact (the Wanapum and the Columbia station)"
+kind = "lease"
+parties = ["WANA", "PAC"]
+from = 1920
+until = 1947
+owes = [
+  { by = "WANA", to = "PAC", what = "rights of use over the station's ground, renewably; title stays theirs" },
+  { by = "PAC", to = "WANA", what = "a fee every year; the village untouched; the river open with two landing places; the sacred places protected; monthly published measurements with a Wanapum observer; wardens' work at the Works' rates; the clinic" },
+]
+can_end = [{ who = "WANA", how = "ends the lease on a year's notice, with compensation, if the salmon counts fall below the 1919–1920 baseline three years running or the discharge limit is broken; the Works must then cut the piles' output" }]
+conditions = ["cooling water returns only after the holding ponds, with the full cooling times", "wardens sign the staff bond; no Wanapum enters a pile building", "no dam at Priest Rapids"]
+status = "APPROVED"
+cr = "CR-051"
+section = 32
+quote = "In the White Bluffs compact the Wanapum lease their rights of use over the station's ground to the Works to 1947, renewably, for a fee every year, and the title stays theirs."
+open = "Canon dates the compacts 1919–1920; entered as 1920. The fee and the band's leaders are not stated (OPEN)."
+
+[[commitment]]
+id = "C-1920-COLUMBIA-RIVER-ACCORD"
+name = "River accord with the treaty fishing peoples of the Columbia"
+kind = "compact"
+parties = ["CRTF", "PAC"]
+from = 1920
+owes = [
+  { by = "PAC", to = "CRTF", what = "fishing rights at their usual places confirmed in writing; the same measurements sent to their councils; a share of the White Bluffs fee; seats on the remedy panel, the Office in the chair" },
+]
+status = "APPROVED"
+cr = "CR-051"
+section = 32
+quote = "The river accord confirms in writing the fishing rights of the Yakama, the Umatilla and the Nez Perce at their usual places"
+open = "Term not stated; the share of the fee is not stated."
+
+[[commitment]]
+id = "C-1920-ROCK-ISLAND-COMPACT"
+name = "Rock Island compact (the dam's site and reach)"
+kind = "lease"
+parties = ["WENC", "PAC"]
+from = 1920
+until = 1947
+owes = [
+  { by = "WENC", to = "PAC", what = "the dam's site and the reach it raises, renewably" },
+  { by = "PAC", to = "WENC", what = "a royalty on every kilowatt-hour the dam sells; electricity at cost for their villages; fish ladders with published counts; a replacement fishing site of their councils' choosing; work and the clinic" },
+]
+status = "APPROVED"
+cr = "CR-051"
+section = 32
+quote = "The Rock Island compact leases the dam's site and the reach it raises from the Wenatchi and the Columbia people to 1947, renewably, with a royalty on every kilowatt-hour the dam sells"
+open = "The royalty's size and the leaders' names are not stated; entered as 1920 (canon: 1919–1920; the dam is built 1920–1923)."

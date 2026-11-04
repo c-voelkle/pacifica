@@ -623,3 +623,99 @@ id = "san-francisco-water-eleanor-cherry"
 year = 1913
 patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the state chooses Lake Eleanor and Cherry Valley''']
 source = "CR-050-R1"
+
+[[person]]
+id = "CT-MICHAEL-OSHAUGHNESSY"
+aliases = ["Michael Maurice O'Shaughnessy", "Michael O'Shaughnessy", "O'Shaughnessy"]
+born = 1864
+source = "CR-051"
+
+[[person]]
+id = "CT-WILLIAM-SIBERT"
+aliases = ["William Luther Sibert", "William Sibert", "Sibert", "the Chief"]
+born = 1860
+source = "CR-051"
+
+[[person]]
+id = "CT-HOOVER"
+aliases = ["Herbert Hoover", "Hoover"]
+born = 1874
+source = "CR-051"
+
+[[person]]
+id = "CT-SAMUEL-WILDER-KING"
+aliases = ["Samuel Wilder King", "Sam King"]
+born = 1886
+source = "CR-051"
+
+[[person]]
+id = "CT-RALPH-FOWLER"
+aliases = ["Ralph Fowler", "R. H. Fowler", "Fowler"]
+born = 1889
+source = "CR-051"
+
+[[person]]
+id = "CT-OTTO-VON-BAEYER"
+aliases = ["Otto von Baeyer", "von Baeyer"]
+born = 1877
+source = "CR-051"
+
+[[person]]
+id = "CT-FRIEDRICH-PANETH"
+aliases = ["Friedrich Paneth", "Paneth"]
+born = 1887
+source = "CR-051"
+
+[[person]]
+id = "CT-FREDERICK-LINDEMANN"
+aliases = ["Frederick Lindemann", "Lindemann"]
+born = 1886
+source = "CR-051"
+
+[[person]]
+id = "CT-HENRY-TIZARD"
+aliases = ["Henry Tizard", "Tizard"]
+born = 1885
+source = "CR-051"
+
+[[person]]
+id = "CT-MARIE-CURIE"
+aliases = ["Marie Curie", "Marie Skłodowska-Curie", "Madame Curie"]
+born = 1867
+source = "CR-051"
+
+[[event]]
+id = "europe-transuranic-nobel"
+year = 1911
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,60}Nobel[^.;]{0,100}(?:beyond uranium|produced by neutrons)''']
+source = "CR-051"
+
+[[event]]
+id = "rutherford-satellite-model"
+year = 1912
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,60}Rutherford[^.;]{0,60}satellite model''']
+source = "CR-051"
+
+[[event]]
+id = "pacifica-thermal-diffusion-feed"
+year = 1921
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,60}puts (?:Ralston College's )?columns in front of the halls''']
+source = "CR-051"
+
+[[event]]
+id = "tribune-sierra-story"
+year = 1922
+patterns = ['''In (?:the spring of )?\*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,80}Tribune[^.;]{0,60}(?:Sierra|Station)''']
+source = "CR-051"
+
+[[event]]
+id = "british-critical-mass-memo-declined"
+year = 1926
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.;]{0,60}Treasury[^.;]{0,60}declines''']
+source = "CR-051"
+
+[[event]]
+id = "pacifica-record-part-two-sealed"
+year = 1927
+patterns = ['''second part[^.;]{0,60}sealed[^.;]{0,80}(?:in|from) \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''']
+source = "CR-051"
