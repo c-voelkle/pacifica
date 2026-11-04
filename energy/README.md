@@ -17,8 +17,10 @@ python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv en
 python3 $R energy/Pacifica_energy_model_1846-1932.xlsx 300
 # 3. Export its Story and Stress results for the financial workbook
 python3 energy/build/export_energy.py energy/Pacifica_energy_model_1846-1932.xlsx energy/build/energy_outputs.csv --recalc $R
-# 4. Rebuild the financial workbook from the CR-050 workbook and recalculate it (54,321 formulas)
-python3 finance/build/cr052_energy_link.py CR-050.xlsx energy/build/energy_outputs.csv finance/Pacifica_financial_model_1846-1932.xlsx
+# 4. Rebuild the financial workbook from the CR-050 workbook (git show 04155c7:finance/Pacifica_financial_model_1846-1932.xlsx),
+#    first the CR-052 link, then the CR-051/054/055 build, and recalculate it (62,030 formulas)
+python3 finance/build/cr052_energy_link.py CR-050.xlsx energy/build/energy_outputs.csv CR-052.xlsx
+python3 finance/build/cr051_054_055_champions.py CR-052.xlsx energy/build/energy_outputs.csv finance/Pacifica_financial_model_1846-1932.xlsx
 python3 $R finance/Pacifica_financial_model_1846-1932.xlsx 300
 # repeat 1-4 until energy_outputs.csv no longer changes
 ```
@@ -34,8 +36,8 @@ Each workbook records the SHA-256 of the other it was built from (Start sheet he
 | `build/build_energy_workbook.py` | Writes the sheets and formulas. |
 | `build/extract_finance.py` | Reads the financial workbook's results for both cases into `finance_inputs.csv`. |
 | `build/finance_inputs.csv` | The imported finance series, with the source workbook's SHA-256 on its first line. |
-| `build/export_energy.py` | Writes the energy results the financial workbook reads (home oil, vehicles, the `en_*` columns, the concession crude) for both cases. |
-| `build/energy_outputs.csv` | Those results, with the energy workbook's SHA-256 on its first line; read by `finance/build/cr052_energy_link.py`. |
+| `build/export_energy.py` | Writes the energy results the financial workbook reads (home oil, vehicles, the `en_*` columns, the concession crude; since the CR-051/054/055 build also the strategic dams' capacity, the strategic loads, Rock Island's balance, the aluminium memo and the CR-054/055 quantities) for both cases. |
+| `build/energy_outputs.csv` | Those results, with the energy workbook's SHA-256 on its first line; read by `finance/build/cr052_energy_link.py` and `finance/build/cr051_054_055_champions.py`. |
 | `CR-052-workbook.md` | Workbook note: the eleven builds, results for the three cases, checks and the questions for the author. |
 
 ## Conventions
