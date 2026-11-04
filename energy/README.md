@@ -13,7 +13,7 @@ python3 energy/build/extract_finance.py finance/Pacifica_financial_model_1846-19
 # 2. Build the energy workbook (formulas only)
 python3 energy/build/build_energy_workbook.py energy/build/finance_inputs.csv \
     energy/Pacifica_energy_model_1846-1932.xlsx
-# 3. Recalculate in LibreOffice; expect "success", 0 errors (23,722 formulas)
+# 3. Recalculate in LibreOffice; expect "success", 0 errors (23,812 formulas)
 python3 <xlsx skill>/scripts/recalc.py energy/Pacifica_energy_model_1846-1932.xlsx 300
 ```
 
@@ -32,7 +32,7 @@ Re-run step 1 whenever the financial workbook changes; its SHA-256 is printed on
 
 ## Conventions
 
-As in the financial workbook: years down the page (row 6 = 1846, row 92 = 1932); blue = input, black = formula, green = link to another sheet, red = imported from the financial workbook, yellow = key result. `Levers!E4` picks the case (1 = Story, 2 = Stress) and also picks which finance case feeds `People & output`, so one switch moves the whole system. Paths are given at benchmark years and interpolated by formula; bold blue cells were set, pale italic cells are filled in between.
+As in the financial workbook: years down the page (row 6 = 1846, row 92 = 1932); blue = input, black = formula, green = link to another sheet, red = imported from the financial workbook, yellow = key result. `Levers!E4` picks the case (1 = Story, 2 = Stress, 3 = Max) and also picks which finance case feeds `People & output`, so one switch moves the whole system. Paths are given at benchmark years and interpolated by formula; bold blue cells were set, pale italic cells are filled in between.
 
 ## Link to the financial workbook
 

@@ -200,7 +200,7 @@ def spec_people():
 def spec_hydro():
     cols = []
     for k, p, lab, cf, pot in BASINS:
-        cols.append(Col(f"cap_{k}", f"{lab} (MW)", f"{{P:{p}}}*hydro_pace*{{P:hyd_x}}", group="Nameplate capacity, ordinary plants"))
+        cols.append(Col(f"cap_{k}", f"{lab} (MW)", f"{{P:{p}}}*hydro_pace*(1+({{P:hyd_x}}-1)*hydx_on)", group="Nameplate capacity, ordinary plants"))
     cols += [
         Col("cap_works", "The Works' dams, Pit and upper Feather (MW)", "{P:h_works}", group="Strategic dams",
             note="CR-051 R2. Not scaled by hydro_pace. Native consent OPEN."),
@@ -285,7 +285,7 @@ ECHEM = ["e_alu", "e_arc", "e_haber", "e_eln", "e_carb", "e_chlor", "e_esteel", 
 def spec_uses():
     cols = [
         Col("homes_el", "Homes with electricity (thousand)", "{People & output:homes}*MIN(1,{P:elec_home}*elec_pace)", group="Electricity (GWh)"),
-        Col("e_home", "Households", "{homes_el}*{P:kwh_home}/1000"),
+        Col("e_home", "Households", "{homes_el}*{P:kwh_home}*home_kwh_x/1000"),
         Col("e_comm", "Commerce and public lighting", "{People & output:pop_all}*{P:kwh_comm}*elec_pace/1000000"),
         Col("fact", "Factory horsepower electric", "MIN(1,{P:fact_elec}*elec_pace)", "0%"),
         Col("e_motor", "Industry, motors", "{People & output:gdp_real}*ind_w*{P:indw_x}*{fact}*motor_full",
@@ -305,7 +305,7 @@ def spec_uses():
         Col("e_rail", "Streetcars, interurbans (and main lines if electrified)",
             "{People & output:pop_all}*{P:rail_kwh}/1000000+IF(mainline_on=1,{People & output:pop_all}*{P:rail_gj}/1000000*{P:rail_el}*rail_kwh_gj,0)"),
         Col("e_pump", "Pumping and irrigation", "{P:pump_acres}*pump_kwh"),
-        Col("e_nwboil", "Electric boilers in Northwest mills (Max case)", "{P:nwboil}"),
+        Col("e_nwboil", "Electric boilers in Northwest mills", "{P:nwboil}*nwboil_x"),
         Col("e_ord", "Ordinary uses", "{e_home}+{e_comm}+{e_motor}+{e_echem}+{e_mine}+{e_rail}+{e_pump}+{e_nwboil}"),
         Col("e_strat", "Strategic loads (halls, station, valley)", "{Strategic loads:strat_gwh}", kind="link"),
         Col("e_total", "All electricity used", "{e_ord}+{e_strat}"),
@@ -324,7 +324,7 @@ def spec_uses():
         Col("f_navy_coal", "Navy coal", "{P:navy_coal}*coal_gj", "#,##0.0"),
         Col("f_bunker", "Merchant bunkers", "{P:bunker}*6.63", "#,##0.0"),
         Col("f_rail", "Steam railways", "{People & output:pop_all}*{P:rail_gj}/1000000*(1-IF(mainline_on=1,{P:rail_el},0))", "#,##0.0"),
-        Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}/1000-{P:nwboil}*5.1/1000)", "#,##0.0",
+        Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}/1000-{Uses:e_nwboil}*5.1/1000)", "#,##0.0",
             note="ind_mj already reflects Pacifica's lighter industry (about 0.35–0.4 of US intensity), consistent with ind_w. Electric mill boilers replace 5.1 MJ of fuel per kWh."),
         Col("f_steel", "Steel: coke and coal", "{People & output:steel}*{P:steel_gj}", "#,##0.0"),
         Col("f_haber", "Haber–Bosch: gas", "{P:haber_kt}*haber_gj/1000", "#,##0.0"),
@@ -421,7 +421,9 @@ def spec_fuels():
             note="oil_src = 2: CR-052's discovery path (Paths oil_c52); 1: the financial workbook."),
         Col("gulf_av", "Gulf crude that can come home (m bbl)", "IF({A}>=1901,MAX(0,{People & output:gulf_crude}*{People & output:gulf_share}"
             "-{People & output:asia_oil}*(1-asia_home))*gulf_home,0)", "#,##0.0"),
-        Col("imp_max", "Most oil that can be imported (m bbl)", "{gulf_av}+{P:other_imp}", "#,##0.0"),
+        Col("conc", "CR-053 concessions: entitlement crude (m bbl)", "+".join("{P:%s}" % k for k in I.CONC_KEYS), "#,##0.0",
+            note="Maracaibo, De Mares, Peru, Bahrain, Kuwait, Mesopotamia (Paths conc_*; PROPOSED, MODEL)."),
+        Col("imp_max", "Most oil that can be imported (m bbl)", "{gulf_av}+{P:other_imp}+{conc}", "#,##0.0"),
         Col("k", "Share of the wanted oil the flexible uses get", "IF({flex_pj}>0,MAX(0,MIN(1,((({home}+{imp_max})*(1-ref_own)-{E})*6.12-{fixed_pj})/{flex_pj})),1)",
             "0%", kind="key"),
         Col("to_coal", "Moved from oil to coal (PJ)", "(1-{k})*{flex_pj}", "#,##0.0"),
@@ -923,8 +925,9 @@ def write_start(wb, sha):
     ws.cell(r, 1, "Open questions carried as switches (handoff §8)").font = F_HEAD
     opens = [
         "Hetch Hetchy: the valley is the college; San Francisco's water and the valley's power come from the Eleanor–Cherry system (CR-051 C2). No switch needed.",
-        "Big dams earlier: Boulder Canyon at its historical dates (boulder_dec 1928, no power before 1932); Rock Island as canon (1920–23); a mid-Columbia chain as an option (colms_on, off). No early Grand Coulee.",
-        "Main-line railway electrification: mainline_on (Story 1, PROPOSED; Stress 0; Max 1 with half the traffic by 1929).",
+        "Big dams earlier (4 Nov 2026): Boulder Canyon decided 1920, first power 1926 (Story and Max; Stress keeps 1928); Rock Island as canon (1920–23); the mid-Columbia chain is off in every case (CR-051 S7). No early Grand Coulee.",
+        "Main-line railway electrification: mainline_on (Story 1 with half the traffic by 1929 since 4 Nov 2026; Stress 0; Max 1).",
+        "Oil abroad (CR-053, PROPOSED): entitlement crude from the Maracaibo, De Mares and Peruvian positions and the Gulf-coast options is added to the import ceiling (Paths conc_*, Fuels conc).",
         "Oil (approved CT3 A–C): Realm coal at 4×, all Gulf crude home, home oil on the discovery path oil_c52 (oil_src = 2). Motor vehicles per person (veh_src = 2) so that California is the most motorized place on earth.",
         "Hawaii: hilo_src (1 = oil-fired steam, the default; 2 = windward hydro, which fails the check).",
         "Nitrogen after 1919: the arc runs to 1928–29 then stops (Paths arc_kt); Haber–Bosch from 1925 (Paths haber_kt).",
@@ -946,7 +949,9 @@ def write_changes(wb, sha):
     ws["A1"].font = F_TITLE
     for i, h in enumerate(["Date", "CR", "Change", "Built from"], start=1):
         style_head(ws, 4, i, h)
-    ws.append(["2026-11-03", "CR-052", "First build: fourteen sheets per the energy-workbook handoff; anchors; nine checks. Second build after the fresh-context review: one industrial weight (ind_w) for motors and fuel; mid-Columbia chain off; Boulder at historical dates. Third build: the author's sources (1917 Census of Electrical Industries, Devine 1983, Minerals Yearbook 1932); CT3 A–C and CT5 approved into the Story case; the Max case.",
+    ws.append(["2026-11-03", "CR-052", "First build: fourteen sheets per the energy-workbook handoff; anchors; nine checks. Second build after the fresh-context review: one industrial weight (ind_w) for motors and fuel; mid-Columbia chain off; Boulder at historical dates. Third build: the author's sources (1917 Census of Electrical Industries, Devine 1983, Minerals Yearbook 1932); CT3 A–C and CT5 approved into the Story case; the Max case. Fourth build: field-by-field oil model; Northwest surplus spilled; Max after 1915 only.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-052, CR-053", "Fifth build: the narrowed Max case into Story (M1 electric homes, M6 half the main lines, M7 Boulder 1920/1926 without the mid-Columbia chain, M8 early water flooding, M9 Northwest mill boilers); the chain off in every case; CR-053 concession crude (conc_*) added to the import ceiling.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w

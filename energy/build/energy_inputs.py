@@ -741,3 +741,111 @@ path("oil_caph", "Plausible output of the home oilfields at their historical dis
 path("oil_knownh", "Primary reserves of the fields found, at historical discovery years", "bn bbl", {y: round(v, 3) for y, v in _knownh.items()},
      "As oil_known, at historical discovery years.")
 MAX.update({"colms_max": 1500, "colms_rate": 300})
+
+
+# =====================================================================================
+# Fourth revision, 4 November 2026: the narrowed Max case goes into Story
+# (CR-052 decision of 4 November, outputs/CR-052/review-3.md) and the CR-053
+# concessions join the import ceiling.
+# =====================================================================================
+# Author, 4 November 2026, on the narrowed take: "that sounds reasonable"; on the
+# concessions: "conc_* import paths also good to go". Into Story: M1 (electric homes),
+# M6 (half the main lines), M7 (Boulder decided 1920, first power 1926; no mid-Columbia
+# chain, which collides with CR-051 S7), M8 (pressure maintenance and water flooding
+# fifteen years early; vehicles stay on the CT5 path), M9 (electric boilers in the
+# Northwest mills; the Columbia's electrochemistry sized to the unchanged M3).
+# Not into Story: M2 (industrial weight, referred to the financial workbook; electric
+# process heat only in the Northwest), M3 and M4 (sent back for rework), M5 (held).
+# Max keeps its full parts except the chain, as the exploration case.
+
+def _story_takes_max(key):
+    """Story adopts the Max path for `key`; Max's row stays identical."""
+    lab, unit, _old, basis, status = PATHS[key]
+    PATHS[key] = (lab, unit, dict(PATHS_MAX[key]), basis + " 4 Nov 2026: Story takes the Max path (CR-052 Max decision).",
+                  "APPROVED direction (CR-052, 4 Nov), MODEL")
+
+
+# M1: electric homes (Ontario level); rural electrification through the county grids.
+for _k in ("elec_home", "kwh_home"):
+    _story_takes_max(_k)
+# M6: half the main lines electric by 1929; the 1914–18 oil strain as the motive.
+for _k in ("rail_el", "rail_kwh"):
+    _story_takes_max(_k)
+# M7: hydro 35% faster after 1915; Boulder decided 1920, first power 1926. No chain.
+_story_takes_max("hyd_x")
+set_lever("boulder_dec", story=1920, stress=1928, status="APPROVED direction (CR-052 Max M7, 4 Nov)",
+          basis="4 Nov 2026: decided 1920, first power 1926 (Story). Nevada, Arizona and the Western Slope are all Pacifican, so there is "
+                "no interstate-compact decade; the peoples of the reach consent under CR-033. Stress keeps the historical 1928.")
+set_lever("boulder_lead", story=6, stress=7)
+set_lever("colms_on", story=0, stress=0, status="OFF (CR-052 CT8, 4 Nov)",
+          basis="A 1.5 GW chain before 1932 collides with CR-051 S7 (Rock Island the first main-stem dam; no dam at Priest Rapids; "
+                "not yet Grand Coulee). Off in every case; a later CR may add named sites with consents.")
+MAX.pop("colms_on", None); MAX.pop("colms_dec", None); MAX.pop("colms_rate", None); MAX.pop("colms_max", None)
+# M8: pressure maintenance and water flooding about fifteen years early, in Story too.
+# Story still produces 90% of what the fields can deliver; Max 100%.
+_cap13, _known13 = field_model2(1.3)
+_story = {y: v * 0.9 * _compact.get(y, 1.0) for y, v in _cap13.items()}
+for key, pts in [("oil_cap", _cap13), ("oil_known", _known13), ("oil_c52", _story)]:
+    lab, unit, _old, basis, status = PATHS[key]
+    if key == "oil_c52":
+        basis += (" 4 Nov 2026 (Max M8 into Story): pressure maintenance and water flooding from the 1910s raise every field's "
+                  "primary recovery by 30%; Story still produces 90% of deliverability.")
+    else:
+        basis += " 4 Nov 2026: with early pressure maintenance and water flooding (recovery × 1.3), in Story as in Max."
+    PATHS[key] = (lab, unit, {y: round(v, 3) for y, v in pts.items()}, basis, status)
+# M9: electric boilers in the Northwest mills; the Columbia's electrochemistry stays at
+# Story's M3 size (rework pending).
+_story_takes_max("nwboil")
+
+# CR-053: oil abroad. Entitlement crude from minority stakes and the Gulf-coast options,
+# added to "Most oil that can be imported" (Fuels imp_max) in every case. MODEL.
+path("conc_ven", "CR-053 P1: Lake Maracaibo entitlement (minority stake in Lago Petroleum)", "m bbl",
+     {1846: 0, 1923: 0, 1924: 0.5, 1926: 3, 1929: 9, 1932: 12},
+     "Author, 4 Nov 2026 (company: Lago, bought from the independents in 1923–24 before Standard of Indiana). Venezuela about 137m bbl "
+     "in 1929 (to verify); a fifth to a quarter of a company holding about a quarter of the lake. Shipped through the canal.",
+     "PROPOSED (CR-053 P1), MODEL")
+path("conc_col", "CR-053 P2: De Mares entitlement (minority stake in Tropical Oil)", "m bbl",
+     {1846: 0, 1920: 0, 1926: 1, 1927: 2, 1929: 4, 1932: 5},
+     "Stake taken 1920–21 as International Petroleum assembles Tropical Oil; Andian pipeline to Cartagena 1926 (to verify).",
+     "PROPOSED (CR-053 P2), MODEL")
+path("conc_peru", "CR-053 P3: the Peruvian position (Lobitos and the northern concessions; Union minority)", "m bbl",
+     {1846: 0, 1923: 0, 1924: 2, 1926: 4, 1929: 7, 1932: 7},
+     "Pacifican company from about 1924, the Union holding a reciprocal fifth. Peru about 13m bbl in 1929 (to verify). The pre-1901 "
+     "Peruvian imports are in other_imp.", "PROPOSED (CR-053 P3), MODEL")
+path("conc_bah", "CR-053 P4: Bahrain (Holmes's option, 1926; nationality clause waived 1927)", "m bbl",
+     {1846: 0, 1931: 0, 1932: 0.3}, "First oil June 1932 (historical, to verify); nothing before.", "PROPOSED (CR-053 P4), MODEL")
+path("conc_kuw", "CR-053 P4: Kuwait (Holmes's option, 1926)", "m bbl", {1846: 0, 1932: 0},
+     "Burgan struck 1938 historically; nothing in the window.", "PROPOSED (CR-053 P4), MODEL")
+path("conc_mes", "CR-053 P5: the Mesopotamian share (with the Union's group, 1928)", "m bbl", {1846: 0, 1932: 0},
+     "Kirkuk's pipeline to the Mediterranean opens 1934 historically; nothing in the window. Pacifica joins the American group "
+     "(author, 4 Nov 2026) rather than displacing it.", "PROPOSED (CR-053 P5), MODEL")
+CONC_KEYS = ["conc_ven", "conc_col", "conc_peru", "conc_bah", "conc_kuw", "conc_mes"]
+
+MAX_BASIS = ("Max case (exploration, 4 Nov 2026): what Story does not yet take — factories fully electric with process heat "
+             "(indw_x), aluminium at Alcoa's scale, ammonia from electrolytic hydrogen, electric steel; M3 and M4 await rework. "
+             "The mid-Columbia chain is off in every case (CR-051 S7). Max produces 100% of the fields' deliverability.")
+
+EVENTS += [
+    (1920, "Boulder Canyon decided; first power 1926 (CR-052 Max M7 into Story)", "Hydro (Boulder)", "CR-052, 4 Nov", "APPROVED direction (MODEL)"),
+    (1915, "Main-line electrification begins on the mountain crossings; half the traffic by 1929 (M6)", "Uses (rail_el)", "CR-052, 4 Nov", "APPROVED direction (MODEL)"),
+    (1921, "Tropical Oil (De Mares) minority stake", "Fuels (conc_col)", "CR-053 P2", "PROPOSED"),
+    (1923, "Lago Petroleum (Maracaibo) minority stake", "Fuels (conc_ven)", "CR-053 P1", "PROPOSED"),
+    (1924, "Peruvian position with the Union's reciprocal minority", "Fuels (conc_peru)", "CR-053 P3", "PROPOSED"),
+    (1926, "Holmes's Bahrain and Kuwait options bought", "Fuels (conc_bah, conc_kuw)", "CR-053 P4", "PROPOSED"),
+    (1927, "Settlement with Britain: nationality clause waived; Mesopotamian share with the Union's group (1928)", "Fuels (conc_mes)", "CR-053 P4, P5", "PROPOSED"),
+]
+EVENTS[:] = [e for e in EVENTS if not e[1].startswith("Boulder Canyon decision (historical date)")]
+
+# Stress stays the lean case: it keeps the fourth build's Story shape where Story has
+# now taken a Max part (kWh per home, mill boilers, the hydro pace); Boulder stays 1928
+# and the main lines stay steam there (mainline_on = 0, as before).
+LEVERS += [
+    ("— CR-052 fourth revision (4 Nov 2026): Stress scaling of the parts Story took from Max —",),
+    ("home_kwh_x", "Electricity per home (× Paths kwh_home)", 1.0, 0.5, "×", "Model estimate",
+     "Story and Max: Ontario-level electric cooking and water heating (M1). Stress: half, about the fourth build's Story path (850 kWh a home in 1929)."),
+    ("nwboil_x", "Electric boilers in the Northwest mills (× Paths nwboil)", 1.0, 0.0, "×", "Model estimate",
+     "Story and Max: secondary spring and summer hydro sold to the mills (M9). Stress: none."),
+]
+LEVERS.append(("hydx_on", "Apply the post-1915 hydro multiplier Paths hyd_x (M7; 1 = yes)", 1, 0, "switch", "Model estimate",
+               "Story and Max build hydro 35% faster after 1915 (M7). Stress keeps the fourth build's pace (0.7 of Story before M7)."))
+MAX["hydx_on"] = 1
