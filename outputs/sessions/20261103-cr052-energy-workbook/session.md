@@ -47,4 +47,4 @@ independence: separate-agents (fresh-context reviewer for CR-052)
 
 ## Resume here
 
-Eleventh build pushed on `cr-052-energy-workbook` (PR #61), with CR-052–055, the README and the workbook note refreshed from it, and the CR-051 integration (`adopt/cr051`) merged in because `main` did not yet have it. Paused for the author before merging PR #61 or rebuilding the financial workbook. Open: CR-054 A6's reading of "the aluminium pool"; CT1 (the halls' capacity share against the integrated CR-051); CT4 (the Bonneville compact as the pattern); W1 and F1–F4, F10, F12; whether `adopt/cr051` reaches `main` before PR #61.
+Eleventh build pushed on `cr-052-energy-workbook` (PR #61), with CR-052–055, the README and the workbook note refreshed from it, and the CR-051 integration (`adopt/cr051`) merged in; `main` has since taken CR-051 as #62 and is merged in too, so PR #61 shows only the energy files. Paused for the author before merging PR #61 or rebuilding the financial workbook. Open: CR-054 A6's reading of "the aluminium pool"; CT1 (the halls' capacity share against the integrated CR-051); CT4 (the Bonneville compact as the pattern); W1 and F1–F4, F10, F12.
