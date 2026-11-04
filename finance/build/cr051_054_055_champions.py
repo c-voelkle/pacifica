@@ -38,7 +38,8 @@ and the alumina refinery appear as Gulf trade (memo). Plant investment is counte
 The investment account (sheet "Energy link", new columns): the energy workbook's power
 investment becomes the account's first identified component, counted once: the Works' dams and
 Rock Island at their CR-051 cost instead of the energy workbook's generic cost, the Columbia's
-second units at a lower cost (lever col2_cost), plus the Columbia-Sierra line; then the atomic
+second units and the five dams as the energy workbook now costs them (col2_cost, cost_bulk), plus the
+Columbia-Sierra line; then the atomic
 stations, the CR-054/055 works and public works, and the rest of investment as a residual that
 must not be negative. Financing: the Treasury builds the Works' dams (through Atomic); the
 Development Fund's credit (dev_share and df_max as in the energy workbook, CR-052 F12 not
@@ -105,6 +106,7 @@ def levers() -> list:
     ch, ch2 = energy_lever("cost_hydro"), energy_lever("cost_td")
     ds, dm = energy_lever("dev_share"), energy_lever("df_max")
     ps, lf = energy_lever("price_strat"), energy_lever("strat_lf")
+    cb, c2 = energy_lever("cost_bulk"), energy_lever("col2_cost")
     return [
         "— CR-051, CR-054 and CR-055: the Works' costs, the energy-intensive champions and the Columbia (4 Nov 2026) —",
         ("halls_y12", "CR-051 M2: the magnet halls' construction, as a multiple of Y-12's", 2.75, 3.0, "× Y-12", "OPEN (author's decision)",
@@ -145,10 +147,13 @@ def levers() -> list:
          "the same kilowatt-hours in its electricity revenue."),
         ("en_strat_lf", "Load factor of the strategic loads (mirror)", lf[0], lf[1], "share", "Mirror of the energy workbook",
          "energy/build/energy_inputs.py strat_lf."),
-        ("col2_cost", "CR-055 R9: the Columbia's second units, cost as a share of a new plant's", 0.4, 1.0, "share", "OPEN (author's decision)",
-         "CR-055 R9: costed by the energy workbook like a new plant with its lines (about $0.45bn), an overstatement, since units "
-         "added to existing powerhouses need no new dam and little new line. Story 0.4 (turbines, generators and the powerhouse "
-         "extension); Stress has no second units."),
+        ("en_col2_cost", "CR-055 R9: the Columbia's second units, cost as a share of a new plant's (mirror)", c2[0], c2[1], "share",
+         "Decided (author, 4 Nov 2026); mirror of the energy workbook",
+         "energy/build/energy_inputs.py col2_cost: units added to existing powerhouses need no new dam and little new line. The energy "
+         "workbook now costs them so itself, so nothing is taken out here (Energy link AN = 0)."),
+        ("en_cost_bulk", "CR-055 R9: bulk transmission per kW of the five strategic dams (mirror)", cb[0], cb[1], "1913 $/kW",
+         "Decided (author, 4 Nov 2026); mirror of the energy workbook",
+         "energy/build/energy_inputs.py cost_bulk: the five dams at plant plus bulk lines, without distribution."),
         ("rb_est", "CR-055 R9: share of the power estate's 1930-1932 bond issues the Reserve Bank buys", 0.5, 0.3, "share", "Model estimate",
          "'Financed as the Fund's cap allows and otherwise by the power estate's bonds and, in the slump, the Reserve Bank.' "
          "The purchases are added to notes and bank reserves (Gold & money!I) and tested against the gold cover."),
@@ -206,6 +211,7 @@ FEES = c50.ramp({1920: 0.15})
 SILVER_OUT = {y: 1 for y in range(1918, 1923)}  # lent 1918, returned 1923
 SILVER_PX = {1917: 0.84, 1918: 0.98, 1919: 1.12, 1920: 1.02, 1921: 0.63, 1922: 0.68, 1923: 0.65}
 # CR-050 rows this build replaces (Atomic!O)
+ELECTRO_LOSSES = ""  # set by build_electro
 REPLACED = ("Separation halls: construction 1917-1923 (first hall 1919, rebuilt), enlargement 1928-1930",
             "Separation halls: operation and hydro power")
 
@@ -566,7 +572,10 @@ def build_electro(wb, data: dict) -> Sheet:
                note="Nitrogen, electric steel's premium, magnesium, phosphorus, rubber and hydrogenation (CR-054, CR-055). Zinc and copper "
                "refining are inside the metals series (memos). Champions!Z (chemicals and drugs) is the fine and organic chemistry of "
                "the licence trade and is not reduced.")
-    E.add("losses", "Losses at world prices (memo)", lambda y, r: f"={lr}{r}+{lh}{r}")
+    global ELECTRO_LOSSES
+    ELECTRO_LOSSES = E.add("losses", "Losses at world prices, paid by the fleet's contracts", lambda y, r: f"={lr}{r}+{lh}{r}",
+                           note="Author's decision, 4 Nov 2026: the strategic works are carried at cost by the fleet's contracts; the loss is "
+                           "added to the navy line of the Budget (Budget O).")
     E.add("cuzn_share", "Copper and zinc refined / copper and other metals", lambda y, r: f"=IF(Resources!F{r}>0,({cu}{r}*{px['cu']}{r}+{zn}{r}*{px['zn']}{r})*22.046/1000/Resources!F{r},0)",
           group="Copper against the metals series", fmt="0%")
 
@@ -638,13 +647,13 @@ ACCOUNT = [
     ("AL", "Investment, counted once (CR-051, CR-055)", "Energy workbook's own cost of the Works' dams and Rock Island ($m)",
      "New Works and Rock Island capacity × (en_cost_hydro + en_cost_td) × the price level: what the energy workbook's power investment (H) charges for them."),
     ("AM", None, "The Works' dams and Rock Island, finance basis ($m)", "Works sheet (works_kw, the line) × atom_scale × price: built by the Treasury through Atomic AF."),
-    ("AN", None, "Second units: cost taken out ($m)", "New second-unit capacity × the energy workbook's cost × (1 − col2_cost): CR-055 R9's overstatement removed."),
+    ("AN", None, "Second units: cost taken out ($m)", "Zero since the energy workbook's fourteenth build, which costs the second units at col2_cost itself (decision of 4 Nov 2026). Kept so the column letters hold."),
     ("AO", None, "The Columbia–Sierra line ($m)", "CR-055 purpose 1 and R9: about $60m, decided 1919, energised 1924 at 287 kV (input, current $). "
      "Not in the energy workbook's power investment, which costs lines per kW of new capacity."),
     ("AP", None, "Power investment, counted once ($m)", "H − AL + AM − AN + AO. The energy workbook's memo becomes the account's first identified component."),
-    ("AQ", None, "… of which the Columbia's five dams ($m)", "Bonneville, Rocky Reach, Wells, McNary, Chief Joseph: new capacity × the energy workbook's cost. "
-     "Inside H already; shown so they are not added again."),
-    ("AR", None, "… of which the second units ($m)", "At col2_cost of a new plant's cost."),
+    ("AQ", None, "… of which the Columbia's five dams ($m)", "Bonneville, Rocky Reach, Wells, McNary, Chief Joseph: new capacity × (en_cost_hydro + en_cost_bulk), "
+     "as the energy workbook now costs them. Inside H already; shown so they are not added again."),
+    ("AR", None, "… of which the second units ($m)", "At en_col2_cost of a new plant's cost, as the energy workbook costs them."),
     ("AS", None, "Atomic power stations ($m)", "Atomic P × atom_scale × price (Tokyo and the Pacifican stations)."),
     ("AT", None, "CR-054/055 works' plant ($m)", "Electro champions: smelters, ammonia, zinc, magnesium, phosphorus, refinery, rubber, hydrogenation, furnaces."),
     ("AU", None, "Public works ($m)", "Budget R."),
@@ -702,12 +711,12 @@ def build_account(wb, W: Sheet, E: Sheet, line: dict) -> None:
         wk, rk = f"Works!{W['cap_works']}", f"Works!{W['cap_rock']}"
         put("AL", f"=({d(wk, r, y)}+{d(rk, r, y)})*{cost}/1000*Economy!H{r}")
         put("AM", f"=(Works!{W['dams']}{r})*atom_scale*Atomic!R{r}")  # as in Atomic Q and S
-        put("AN", f"={d('BK', r, y)}*{cost}*(1-col2_cost)/1000*Economy!H{r}")
+        put("AN", "=0")
         put("AO", line.get(y, 0), True)
         put("AP", f"=H{r}-AL{r}+AM{r}-AN{r}+AO{r}")
         five = "+".join(d(L_, r, y) for L_ in ("BL", "BM", "BN", "BO", "BP"))
-        put("AQ", f"=({five})*{cost}/1000*Economy!H{r}")
-        put("AR", f"={d('BK', r, y)}*{cost}*col2_cost/1000*Economy!H{r}")
+        put("AQ", f"=({five})*(en_cost_hydro+en_cost_bulk)/1000*Economy!H{r}")
+        put("AR", f"={d('BK', r, y)}*{cost}*en_col2_cost/1000*Economy!H{r}")
         put("AS", f"=Atomic!P{r}*atom_scale*Atomic!R{r}")
         put("AT", f"='Electro champions'!{E['inv']}{r}")
         put("AU", f"=Budget!R{r}")
@@ -755,6 +764,23 @@ def add_capacity_inputs(wb, data: dict) -> None:
 
 def patch_links(wb) -> None:
     X, G, K = wb["Energy link"], wb["Gold & money"], wb["Checks"]
+    SU, B = wb["Sources & uses"], wb["Budget"]
+    # PR #64 decision 6: the power estate's market bonds compete with the Treasury's for private saving
+    assert SU["K134"].value == "Total private uses", SU["K134"].value
+    for y in YEARS:
+        rr = 135 + y - FIRST
+        assert SU[f"A{rr}"].value == y and SU[f"K{rr}"].value == f"=SUM(F{rr}:J{rr})", (y, SU[f"K{rr}"].value)
+        SU[f"K{rr}"].value = f"=SUM(F{rr}:J{rr})+'Energy link'!BF{row(y)}"
+        # PR #64 decision 7: the fleet's contracts carry the rubber and hydrogenation works at cost
+        o = B[f"O{row(y)}"].value
+        assert o == f"=Navy!Y{row(y)}", o
+        B[f"O{row(y)}"].value = f"=Navy!Y{row(y)}+'Electro champions'!{ELECTRO_LOSSES}{row(y)}"
+    base.note(SU["K134"], (SU["K134"].comment.text + "\n\n" if SU["K134"].comment else "")
+              + "CR-055 build (author's decision, 4 Nov 2026): plus the power estate's bonds placed in the market (Energy link BF), "
+              "which compete with the Treasury's for private saving.", 120)
+    base.note(B["O5"], (B["O5"].comment.text + "\n\n" if B["O5"].comment else "")
+              + "CR-055 build (author's decision, 4 Nov 2026): plus the rubber and hydrogenation works' losses at world prices "
+              "(Electro champions), carried by the fleet's contracts at cost: a defence cost of the strategic works.", 120)
     for y in YEARS:
         r = row(y)
         ae = X[f"AE{r}"].value
@@ -824,15 +850,17 @@ def main() -> None:
     Ch.cell(n, 1).value = "4 Nov: CR-051/054/055"
     Ch.cell(n, 2).value = "The Works' costs and the champions"
     Ch.cell(n, 3).value = (
-        "CR-051 (Works sheet, into Atomic AD-AG): the halls at halls_y12 × Y-12 (Story 2.75) on M2's timetable and their "
-        "operation by the energy workbook's draw (replacing CR-050's hall rows), the feed plant and powerhouse, the Columbia "
-        "station with the breeder, gaseous diffusion, the Works' dams and Rock Island (investment), the White Bluffs fee and "
-        "the royalty, Rock Island's sales, the Mint's silver (memo). CR-054/055 (Electro champions, into Champions AO and BF): "
-        "aluminium by destination with the 1931-32 export price, aircraft, nitrogen, electric steel, zinc, magnesium, "
-        "phosphorus, copper refining (reconciled with Resources F), rubber and hydrogenation (losses shown), alumina from the "
-        "Gulf, plant investment. Energy link AL-BJ: power investment counted once (second units at col2_cost, the Columbia-Sierra "
-        "line added), the identified components and the residual; the Fund's credit, the power estate's bonds and the Reserve "
-        "Bank's purchases in 1930-32 (Gold & money I); two new checks. Energy outputs SHA-256 " + sha[:16] + "…. MODEL.")
+        "CR-051 (Works sheet, into Atomic AD-AG): the halls at halls_y12 × Y-12 (Story 2.75) on M2's timetable, their "
+        "operation by the energy workbook's draw and the power they buy beyond the Works' dams (replacing CR-050's hall rows), "
+        "the feed plant and powerhouse, the Columbia station with the breeder, gaseous diffusion, the Works' dams and Rock "
+        "Island (investment), the White Bluffs fee and the royalty (not scaled by atom_scale), Rock Island's sales, the Mint's "
+        "silver (memo). CR-054/055 (Electro champions, into Champions AO and BF): aluminium by destination with the 1931-32 "
+        "export price, aircraft, nitrogen, electric steel, magnesium, phosphorus, rubber and hydrogenation (their losses at "
+        "world prices carried by the fleet's contracts, Budget O); zinc and copper refining as memos inside Resources F; "
+        "alumina from the Gulf; plant investment. Energy link AL-BJ: power investment counted once (the energy workbook costs "
+        "the five dams at plant plus bulk lines and the second units at col2_cost; the Columbia-Sierra line added), the "
+        "identified components and the residual; the Fund's credit, the power estate's bonds (also in the private-saving test, "
+        "Sources & uses K) and the Reserve Bank's purchases in 1930-32 (Gold & money I); two new checks. Energy outputs SHA-256 " + sha[:16] + "…. MODEL.")
     for c in range(1, 4):
         Ch.cell(n, c)._style = copy.copy(Ch.cell(n - 1, c)._style)
     S = wb["Start"]

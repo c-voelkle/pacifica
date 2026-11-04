@@ -553,8 +553,19 @@ def spec_finance():
         Col("new_t", "New steam (MW)", "MAX(0,{Electricity:th_cap}-{Electricity:th_cap@p})", first="{Electricity:th_cap}"),
         Col("stock", "Power plant stock (1913 $m)", "{stock@p}*(1-renewal)+{capex_r}", "#,##0",
             first="{capex_r}"),
-        Col("capex_r", "Power investment (1913 $m)", "({new_h}*(cost_hydro+cost_td)+{new_t}*(cost_steam+cost_td))/1000+renewal*{stock@p}",
-            "#,##0.0", first="({new_h}*(cost_hydro+cost_td)+{new_t}*(cost_steam+cost_td))/1000"),
+        Col("new_s", "… of it the five strategic Columbia dams (MW)",
+            "+".join(f"MAX(0,{{Hydro:cap_{k}}}-{{Hydro:cap_{k}@p}})" for k in ("bonn", "rreach", "wells", "mcnary", "cjoe")),
+            first="{Hydro:cap_bonn}+{Hydro:cap_rreach}+{Hydro:cap_wells}+{Hydro:cap_mcnary}+{Hydro:cap_cjoe}",
+            note="CR-055 R9: costed at plant plus bulk lines (cost_hydro + cost_bulk), without distribution."),
+        Col("new_c2", "… of it the Columbia second units (MW)", "MAX(0,{Hydro:cap_col2}-{Hydro:cap_col2@p})", first="{Hydro:cap_col2}",
+            note="CR-055 R9: costed at col2_cost of a new plant with its lines."),
+        Col("capex_r", "Power investment (1913 $m)",
+            "(MAX(0,{new_h}-{new_s}-{new_c2})*(cost_hydro+cost_td)+{new_s}*(cost_hydro+cost_bulk)+{new_c2}*(cost_hydro+cost_td)*col2_cost"
+            "+{new_t}*(cost_steam+cost_td))/1000+renewal*{stock@p}",
+            "#,##0.0", first="(MAX(0,{new_h}-{new_s}-{new_c2})*(cost_hydro+cost_td)+{new_s}*(cost_hydro+cost_bulk)+{new_c2}*(cost_hydro+cost_td)*col2_cost"
+            "+{new_t}*(cost_steam+cost_td))/1000",
+            note="Ordinary hydro and steam at plant plus lines and distribution; the five strategic dams at plant plus bulk lines; "
+                 "the second units at col2_cost (CR-055 R9, 4 Nov 2026)."),
         Col("capex", "Power investment ($m)", "{capex_r}*{People & output:price}", "#,##0.0", kind="key"),
         Col("capex_gdp", "Power investment / GDP", "IF({People & output:gdp}>0,{capex}/{People & output:gdp},0)", "0.0%"),
         Col("dev_want", "Development Fund's power credit wanted ($m)", "{capex}*dev_share", "#,##0.0"),
@@ -1049,6 +1060,8 @@ def write_changes(wb, sha):
     ws.append(["2026-11-04", "CR-052", "Twelfth build (author, 4 Nov: 'add NW capacity and keep both'): Columbia second units (h_col2, col2_on; Bonneville and Rocky Reach toward their historical installed size, on secondary water at cf_col2) so the mill boilers keep their full path beside the line; CT1 and CT2 decided; CR-054 A6's cartel reading confirmed.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-052", "Eleventh build (consistency, author: 'make it consistent with itself and the story'): the Columbia–Sierra line takes the river's surplus before the Northwest mill boilers, which become secondary power (tie_flow, nwboil_room); the line's delivery counts in the halls' dedicated supply (tie_halls); hydrogenation at a believable hydrogen consumption (h2_kwh 240) with fewer barrels (hyd_bbl; author: 'fewer barrels'); the gaseous-diffusion plant of 1930–1932 (CR-051) as a strategic load at the Columbia station (diff_mw); stale notes corrected.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-04", "CR-055", "Fourteenth build (PR #64 decisions 4 and 5, author: 'Yes please go ahead'): the five strategic Columbia dams costed at plant plus bulk lines (cost_bulk, no distribution) and the Columbia second units at col2_cost (0.4) of a new plant; the financial workbook re-read after its CR-051/054/055 build. Energy results unchanged; power investment lower.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w
