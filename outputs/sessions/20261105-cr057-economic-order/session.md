@@ -46,11 +46,12 @@ independence: separate-agents
 | ID | Check | Result |
 | --- | --- | --- |
 | X1 | `lint_canon.py --only CR-057.md` | clean |
-| X2 | `cr_facts.py preview CR-057.md` | no fact changes declared |
+| X2 | `cr_facts.py preview CR-057.md` and `--tensions` | no fact changes declared; no tension carries fact changes |
+| X3 | Fresh-context review (separate agent; `review.md`) | 7 must-fix, 11 should-fix, 14 notes; all applied, F32 partly |
 
 ## Resume here
 
-CR-057 is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` and its findings are applied. Nothing in the storyline, register, ledger or workbooks is changed. After approval:
+CR-057 is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:
 - integrate G into the storyline with coverage comments;
 - add the register entry and the ledger instruments (I);
 - run sync and the checks;

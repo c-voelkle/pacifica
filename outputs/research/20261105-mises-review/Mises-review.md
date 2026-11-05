@@ -563,6 +563,9 @@ The first two together absorb most of the 1.2–4.6 TWh spill of 1930–32 and m
 
 ### Next steps
 
+**Superseded in detail by CR-057** (`book-agent/revision/CR-057.md`, second draft, after a fresh-context review). It corrects the Fund's rough numbers (about $4.4bn in 1929 and $145m a year without the Crown share), the river's customers, the zones' charters and the reserve compact's governance.
+
+
 - **A CR** to carry the decided changes into canon:
   - B8 rewritten as the sovereign wealth fund;
   - B9 and OPEN-020-10 revised for the Crown share and the zones;
