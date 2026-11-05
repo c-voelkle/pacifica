@@ -14,20 +14,23 @@ add the new channels on top. Then compare the result against Pacifica's own stor
 US history." Both are built, on one switch:
 
   dyn_mode 0  the accounting model, unchanged to the cell;
-  dyn_mode 1  Paths!L kept as the frontier; the channels added on top (each measured from
-              Pacifica's own 1900 position, not against the Union);
+  dyn_mode 1  Paths!L kept as the frontier; the channels added on top. With dyn_vs_us = 1 (saved)
+              C1 and C5 count only Pacifica's lead over the Union, whose own electrification
+              Paths!L already holds; with 0, Pacifica's whole gain since 1900;
   dyn_mode 2  from dyn_start (1900) Paths!L is replaced by growth derived from capital per
-              resident, power per person and a base rate of technical progress; the Fund keeps
+              resident and a base rate of technical progress (electricity enters through the
+              capital stock and C1, not as a term of its own); the Fund keeps
               only its premium over the ordinary return on capital; the same channels on top.
 
 Channels (all MODEL): C1 unit electric drive (manufacturing TFP above a threshold share, David
-1990), net of the Fund's share of power investment; C3 induced R&D from the Works' bottleneck
+1990); C3 induced R&D from the Works' bottleneck
 technologies into the electrical and chemical champions' world shares (Moretti, Steinwender and
 Van Reenen); C4 electrically pumped acres and Valley nitrogen on farms; C5 women's paid work from
-wired homes (Vidart 2024). Reported, not driving: C2 prices and a consumer deflator with a
+wired homes (Vidart 2024), the extra women joining the labour force. C4's pumping and C5 are netted
+by the Development Fund's share of power investment (the county grids, already paid at dev_return). Reported, not driving: C2 prices and a consumer deflator with a
 services (Balassa-Samuelson) term; C6 the aircraft learning curve (Wright 1936); C7 a
 decomposition of the slump; C8 wages, hours, the Japan memo. Touches on the existing model:
-Economy C (mode 2), Economy D (mode 2), Economy J (modes 1-2), Champions Z and AF (modes 1-2);
+Economy C (mode 2), Economy D (mode 2), Economy J, Labour B and Champions Z and AF (modes 1-2);
 each reduces exactly to the old formula at dyn_mode 0.
 """
 from __future__ import annotations
@@ -56,14 +59,20 @@ NEED = ["fact_elec", "homes_wired", "homes", "pump_acres", "el_price", "veh_pp",
 # ------------------------------------------------------------------ levers
 LEVERS = [
     "— CR-056: the dynamic layer, second- and third-order effects of the investments (5 Nov 2026) —",
-    ("dyn_mode", "Dynamic layer: 0 = accounting model; 1 = channels on top of Paths!L; 2 = growth from capital, power and spillovers", 0, 0,
+    ("dyn_mode", "Dynamic layer: 0 = accounting model; 1 = channels on top of Paths!L; 2 = growth from capital and base progress", 0, 0,
      "switch", "Author's choice (5 Nov 2026)",
      "0 reproduces the CR-051/054/055 workbook (cba70b31...) exactly. 1 keeps Paths!L as the frontier and adds the channels "
-     "(Dynamics T into Economy J; Dynamics AC and AD into Champions AF and Z). 2 replaces Paths!L from dyn_start by "
-     "Dynamics AI (capital per resident, power per person, tfp_base) and the Fund's return by its premium over the ordinary "
-     "return on capital (Dynamics AK), with the same channels. Saved at 0."),
+     "(the Dynamics level factor into Economy J, the extra women into Labour B, the share factors into Champions AF and Z). "
+     "2 replaces Paths!L from dyn_start by growth from capital per resident and tfp_base, and the Fund's return by its premium "
+     "over the ordinary return on capital, with the same channels. Saved at 0."),
     ("dyn_start", "Dynamic layer: first year", 1900, 1900, "year", "Model estimate",
      "Channels count from Pacifica's own 1900 position; mode 2 replaces Paths!L from this year."),
+    ("dyn_vs_us", "Dynamic layer, mode 1: count C1 and C5 only on Pacifica's lead over the Union (1) or from its own position (0)", 1, 1,
+     "switch", "Model choice, for the author",
+     "Paths!L is the Union-pace frontier and already holds the Union's own electrification (David's unit-drive acceleration, "
+     "Vidart's women's work). 1 counts only what Pacifica has beyond the Union (the design note's Q1 rule); 0 counts Pacifica's "
+     "whole gain since dyn_start on top of the frontier, which credits the Union's electrification a second time. Mode 2 always "
+     "counts from Pacifica's own position, because tfp_base is the pre-electric rate."),
     ("el_kappa", "C1: manufacturing TFP per unit of drive share above the threshold", 0.8, 0.5, "×", "Model estimate (anchored)",
      "David (1990, AER P&P): about half of the 5-point acceleration of US manufacturing TFP growth in 1919-29 (against "
      "1909-19) is accounted for by secondary electric motors (verified). With drive share rising about 25 points that decade, "
@@ -121,7 +130,6 @@ LEVERS = [
     ("air_lr", "C6: aircraft cost per doubling of cumulative output", 0.8, 0.85, "×", "Model estimate (anchored)",
      "T. P. Wright (1936), 'Factors affecting the cost of airplanes': 80% per doubling."),
     ("k_alpha", "Mode 2: capital's share of output", 0.3, 0.3, "share", "Model estimate (to verify)", "Kendrick's weights, about 0.3."),
-    ("e_alpha", "Mode 2: electricity's share of output", 0.03, 0.03, "share", "Model estimate", "Its cost share, about 0.02-0.04."),
     ("k_dep", "Mode 2: depreciation of the capital stock", 0.04, 0.045, "a year", "Model estimate (to verify)", "Structures and equipment together."),
     ("ky_0", "Mode 2: capital / real GDP in the year before dyn_start", 3.0, 3.0, "×", "Model estimate (to verify)",
      "US reproducible tangible wealth about three times output about 1900 (Goldsmith, to verify)."),
@@ -165,6 +173,8 @@ US = {
     "veh": ({1900: 0, 1913: 0.013, 1920: 0.087, 1924: 0.155, 1929: 0.22, 1932: 0.195}, "US motor vehicles per person",
             "Registrations over population; to verify (canon: one for every four and a half in 1929)."),
     "hh": ({1900: 4.8, 1913: 4.5, 1920: 4.3, 1924: 4.2, 1929: 4.1, 1932: 4.1}, "US persons per home", "Census; to verify."),
+    "drive": ({1880: 0, 1899: 0.048, 1909: 0.247, 1919: 0.531, 1929: 0.784, 1932: 0.80}, "US factory horsepower on electric drive",
+              "Devine (1983), Table 3: 0.048 (1899), 0.247 (1909), 0.531 (1919), 0.784 (1929), verified; 1932 assumed."),
     "gap": ({1929: 0, 1930: 0.11, 1931: 0.19, 1932: 0.31}, "US output below its 1929 path (share)",
             "BEA real GDP 1930-32 at 91.5%, 85.6% and 74.6% of 1929 against a 2.5% trend; to verify."),
 }
@@ -176,7 +186,7 @@ WEIGHTS = [("food", 0.35), ("rent", 0.17), ("clothing", 0.15), ("power", 0.02), 
 
 def us_col(sh, key: str) -> str:
     pts, head, src = US[key]
-    vals = interp(pts, before=0 if key in ("radio", "radio_own", "washer", "fridge", "veh", "gap") else None)
+    vals = interp(pts, before=0 if key in ("radio", "radio_own", "washer", "fridge", "veh", "gap") else 0 if key == "drive" else None)
     if key == "gap":
         vals = {y: (pts.get(y, 0) if y >= 1930 else 0) for y in YEARS}
     return sh.add(f"us_{key}", head, lambda y, r: round(vals[y], 4), is_input=True, note=src + " Interpolated between benchmarks.")
@@ -192,9 +202,9 @@ def new_sheet(wb, name, after, title, purpose):
 # ------------------------------------------------------------------ the Dynamics sheet
 def build_dynamics(wb, data):
     D = new_sheet(wb, "Dynamics", "Energy link", "Dynamics: second- and third-order effects of the investments (CR-056)",
-                  "dyn_mode (Levers): 0 = the accounting model; 1 = these channels on top of Paths!L; 2 = growth from capital, "
-                  "power and base progress in place of Paths!L from dyn_start, with the same channels. The level factor (T) "
-                  "multiplies Economy J; the share factors (AC, AD) multiply Champions AF and Z. Columns AM-BG are reported only.")
+                  "dyn_mode (Levers): 0 = the accounting model; 1 = these channels on top of Paths!L; 2 = growth from capital and "
+                  "base progress in place of Paths!L from dyn_start, with the same channels. The level factor multiplies "
+                  "Economy J, the extra women join Labour B, the share factors multiply Champions AF and Z. C6-C8 are reported only.")
     es = c51.energy_series
     g = "From the energy workbook"
     drive = es(D, data, "fact_elec", "Factory horsepower on electric drive", group=g)
@@ -214,28 +224,44 @@ def build_dynamics(wb, data):
 
     g = "C1 Unit electric drive"
     dl = D.add("drive_lag", "Drive share, el_lag years before", lambda y, r: f"=INDEX(${drive}$6:${drive}$92,MAX(1,A{r}-1845-el_lag))", group=g)
+    usd = us_col(D, "drive")
+    udl = D.add("drive_lag_u", "US drive share, el_lag years before", lambda y, r: f"=INDEX(${usd}$6:${usd}$92,MAX(1,A{r}-1845-el_lag))")
+    vs = D.add("vs_us", "Count only the lead over the Union (1 = yes)", lambda y, r: "=IF(AND(dyn_mode=1,dyn_vs_us=1),1,0)", fmt="0",
+               note="Mode 1 with dyn_vs_us = 1: Paths!L already holds the Union's electrification, so C1 and C5 count only the lead.")
+    c1 = D.add("c1", "C1: output per resident raised by unit drive",
+               lambda y, r: (f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),{mfg}{r}*el_kappa*(MAX(0,{dl}{r}-el_thresh)"
+                             f"-{vs}{r}*MAX(0,{udl}{r}-el_thresh)),0)"),
+               fmt="0.0%", note="mfg share × el_kappa × (Pacifica's lagged drive share above el_thresh, less the Union's when vs_us = 1). "
+               "Not netted by the Fund: factory drive is bought from the power estate and the factories' own plants, not the county grids.")
     fs = D.add("fund_share", "Fund's share of power investment, last year",
                lambda y, r: 0 if y == FIRST else f"=IF('Energy link'!AP{r-1}>0,MIN(1,'Energy link'!AZ{r-1}/'Energy link'!AP{r-1}),0)",
-               note="Energy link AZ / AP: the part of power investment the Fund finances, which Economy D already pays at dev_return. "
-               "C1 is netted by it so the same kilowatts are not credited twice.")
-    c1 = D.add("c1", "C1: output per resident raised by unit drive",
-               lambda y, r: f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),{mfg}{r}*el_kappa*MAX(0,{dl}{r}-el_thresh)*(1-{fs}{r}),0)",
-               fmt="0.0%", note="mfg share × el_kappa × (drive share lagged − el_thresh) × (1 − the Fund's share).")
+               note="Energy link AZ / AP: the part of power investment the Development Fund finances (the county grids that wire homes "
+               "and farms, CR-052), which Economy D already pays at dev_return. C4's pumping and C5 are netted by it.")
 
     g = "C4 Farms"
     nfarm = D.add("n_farm", "Nitrogen on the Realm's farms (kt N)",
                   lambda y, r: f"=('Electro champions'!I{r}+'Electro champions'!J{r})*ag_n_share", group=g)
     fva = D.add("farm_va", "Extra farm value added (1913 $m)",
-                lambda y, r: f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),{pump}{r}*ag_va_acre+{nfarm}{r}*ag_n_yield*ag_grain_px*ag_va_share/1000,0)")
+                lambda y, r: f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),{pump}{r}*ag_va_acre*(1-{fs}{r})+{nfarm}{r}*ag_n_yield*ag_grain_px*ag_va_share/1000,0)",
+                note="Pumped acres × ag_va_acre × (1 − the Fund's share: the farm lines are county-grid credit) + nitrogen × yield × price × value-added share.")
     c4 = D.add("c4", "C4: output per resident raised on the farms",
                lambda y, r: 0 if y == FIRST else f"=IF(Economy!J{r-1}>0,{fva}{r}/(Economy!J{r-1}/Economy!H{r-1}),0)", fmt="0.0%",
                note="Extra farm value added / last year's real non-mining output.")
 
     g = "C5 Wired homes and women's work"
     wl = D.add("wired_lag", "Homes wired, w_lag years before", lambda y, r: f"=INDEX(${wired}$6:${wired}$92,MAX(1,A{r}-1845-w_lag))", group=g)
+    usw = us_col(D, "wired")
+    uwl = D.add("wired_lag_u", "US homes wired, w_lag years before", lambda y, r: f"=INDEX(${usw}$6:${usw}$92,MAX(1,A{r}-1845-w_lag))")
+    wgp = D.add("wired_gain", "Pacifica's wiring gain since dyn_start", lambda y, r: f"=MAX(0,{wl}{r}-INDEX(${wired}$6:${wired}$92,dyn_start-1845))")
+    wgu = D.add("wired_gain_u", "US wiring gain since dyn_start", lambda y, r: f"=MAX(0,{uwl}{r}-INDEX(${usw}$6:${usw}$92,dyn_start-1845))")
+    wlead = D.add("women_lead", "Women in paid work above the Union (share of women)",
+                  lambda y, r: f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),w_lambda*MAX(0,{wgp}{r}-{wgu}{r}),0)", fmt="0.0%",
+                  note="w_lambda × (Pacifica's wiring gain − the Union's): the US series already holds the Union's own effect. The Life table uses this.")
     wpts = D.add("women_pts", "Extra women in paid work (share of women)",
-                 lambda y, r: f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),w_lambda*MAX(0,{wl}{r}-INDEX(${wired}$6:${wired}$92,dyn_start-1845)),0)", fmt="0.0%")
-    c5 = D.add("c5", "C5: output per resident raised by women's work", lambda y, r: f"={wpts}{r}*w_adult*w_rel/lf_rate", fmt="0.0%")
+                 lambda y, r: (f"=IF(AND(dyn_mode>0,A{r}>=dyn_start),w_lambda*MAX(0,{wgp}{r}-{vs}{r}*{wgu}{r})*(1-{fs}{r}),0)"), fmt="0.0%",
+                 note="The driver: w_lambda × (the wiring gain, less the Union's when vs_us = 1) × (1 − the Fund's share). Joins the labour force (Labour B).")
+    c5 = D.add("c5", "C5: output per resident raised by women's work", lambda y, r: f"={wpts}{r}*w_adult*w_rel/lf_rate", fmt="0.0%",
+               note="The extra workers (women_pts × w_adult per resident, added to Labour B) at w_rel of the average worker's output.")
     lev = D.add("level", "Level factor into Economy J", lambda y, r: f"={c1}{r}+{c4}{r}+{c5}{r}", fmt="0.0%",
                 note="Economy J × (1 + this) when dyn_mode is 1 or 2.")
 
@@ -260,7 +286,7 @@ def build_dynamics(wb, data):
                 lambda y, r: f"=Champions!F{r}*(1+IF(dyn_mode=0,0,0.25*({fel}{r}+{fch}{r})/rd_gamma*rd_eps))",
                 note="Memo: a quarter of patents electrical and chemical, patents rising with their R&D stock (to verify).")
 
-    g = "Mode 2: growth from capital, power and base progress"
+    g = "Mode 2: growth from capital and base progress"
     kst = D.add("k", "Capital stock (1913 $m)",
                 lambda y, r: 0 if y == FIRST else (f"=IF(A{r}=dyn_start-1,ky_0*Economy!S{r},IF(A{r}>=dyn_start,"
                                                    f"{c51.col(D.n)}{r-1}*(1-k_dep)+'Energy link'!AA{r-1}/Economy!H{r-1},0))"), group=g,
@@ -269,10 +295,10 @@ def build_dynamics(wb, data):
     gk = D.add("gk", "Growth of capital per resident",
                lambda y, r: 0 if y == FIRST else f"=IF(AND(A{r}>=dyn_start,{kst}{r-1}>0),({kst}{r}/{kst}{r-1})/(Economy!B{r}/Economy!B{r-1})-1,0)",
                fmt="0.0%")
-    ge = D.add("ge", "Growth of electricity per person",
-               lambda y, r: 0 if y == FIRST else f"=IF({kwh}{r-1}>0,{kwh}{r}/{kwh}{r-1}-1,0)", fmt="0.0%")
     gro = D.add("growth", "Trend growth per resident, derived (into Economy C)",
-                lambda y, r: f"=k_alpha*{gk}{r}+e_alpha*{ge}{r}+tfp_base*IF(A{r}>=1896,prod_factor,1)", fmt="0.00%")
+                lambda y, r: f"=k_alpha*{gk}{r}+tfp_base*IF(A{r}>=1896,prod_factor,1)", fmt="0.00%",
+                note="k_alpha × growth of capital per resident + tfp_base. Electricity has no term of its own: it is an input, the power "
+                "plants are in the capital stock, and unit drive is C1.")
     yk = D.add("yk", "Real GDP / capital, last year",
                lambda y, r: 0 if y == FIRST else f"=IF({kst}{r-1}>0,Economy!S{r-1}/{kst}{r-1},0)")
     prem = D.add("prem", "Fund's return above the ordinary return on capital (into Economy D)",
@@ -287,7 +313,11 @@ def build_dynamics(wb, data):
           lambda y, r: f"=IF(AND({cum}{r}>0,${cum}${row(1924)}>0),({cum}{r}/${cum}${row(1924)})^LOG(air_lr,2),\"\")", fmt="0.00")
 
     g = "C7 The slump, decomposed (reported, 1930-32)"
-    ab = D.add("gap_p", "Pacifica's output below trend", lambda y, r: f"=1-Economy!G{r}", group=g, fmt="0.0%")
+    r20, r29_ = row(1920), row(1929)
+    ab = D.add("gap_p", "Pacifica's real output below its 1920s trend", group=g, fmt="0.0%",
+               fn=lambda y, r: (f"=IF(A{r}>=1930,1-Economy!S{r}/(Economy!$S${r29_}*(Economy!$S${r29_}/Economy!$S${r20})^((A{r}-1929)/9)),0)"),
+               note="Real GDP (Economy S) against its 1920-29 growth extrapolated: the same measure as the Union's gap (total real output "
+               "against its trend). Economy G, the model's own gap, is measured against a flat 1930-32 trend.")
     ug = us_col(D, "gap")
     cc = D.add("cc", "Power investment, navy and aircraft ($m)", lambda y, r: f"='Energy link'!AP{r}+Budget!O{r}+'Electro champions'!AI{r}")
     r29 = row(1929)
@@ -307,7 +337,7 @@ def build_dynamics(wb, data):
     D.add("women_us", "US women in paid work (memo)", lambda y, r: round(interp(US["women"][0])[y], 4), is_input=True, fmt="0.0%")
     D.add("japan", "Concord pool aluminium to Japan ($m, memo)", lambda y, r: f"='Electro champions'!AL{r}")
     D.add("union_lost", "Union business lost to the champions ($m, memo)", lambda y, r: f"=Labour!BH{r}")
-    return D, dict(drive=drive, wired=wired, kwh=kwh, elp=elp, veh=veh, kwhh=kwhh, farm=farm, fva=fva, wpts=wpts, lev=lev,
+    return D, dict(drive=drive, wired=wired, kwh=kwh, elp=elp, veh=veh, kwhh=kwhh, farm=farm, fva=fva, wpts=wpts, lev=lev, wlead=wlead,
                    fel=fel, fch=fch, gro=gro, prem=prem, earn=earn, une=une, ush=ush, ab=ab, dem=dem, ug=ug, air_px=D.air_px, hm=hm)
 
 
@@ -326,12 +356,20 @@ def build_prices(wb, d):
     relf = P.add("rel_food", "Food against the Union", group="Relative prices",
                  fn=lambda y, r: 1 if y == FIRST else (f"=1-IF(dyn_mode=0,0,food_pass*{D}{d['fva']}{r}/MAX(1,{D}{d['farm']}{r}*Economy!J{r-1}/Economy!H{r-1}))"),
                  fmt="0.00")
-    rels = P.add("rel_serv", "Services and rent against the Union", lambda y, r: f"=MAX(1,Economy!R{r})^(1-bs_theta)", fmt="0.00",
-                 note="(Pacifica's GDP per person / the US's)^(1 − bs_theta).")
+    pu = P.add("pp_union", "GDP per person against the Union", lambda y, r: f"=IF(Labour!BK{r}>0,Economy!P{r}/(Labour!BK{r}/Labour!AX{r}),1)",
+               fmt="0.00", note="Economy P / (Labour BK / Labour AX): Pacifica's money GDP per person against the Union's as modelled "
+               "(not against US history, Economy R).")
+    rels = P.add("rel_serv", "Services and rent against the Union", lambda y, r: f"=MAX(1,{pu}{r})^(1-bs_theta)", fmt="0.00",
+                 note="(Pacifica's GDP per person / the Union's)^(1 − bs_theta).")
     cpi = P.add("cpi_rel", "Consumer prices against the Union",
                 lambda y, r: (f"=0.35*{relf}{r}+0.17*{rels}{r}+0.15+0.02*{relp}{r}+0.03+0.05*app_rel+0.03*car_rel+0.03*fuel_rel+0.17*{rels}{r}"),
                 fmt="0.00", note="Weights: food .35, rent .17, clothing .15, power .02, other fuel .03, furnishings and appliances .05, "
                 "the car .03, motor fuel .03, services and other .17 (BLS 1917-19 survey, to verify). Clothing and other fuel at 1.")
+    gdpp = P.add("gdp_rel", "GDP prices against the Union",
+                 lambda y, r: (f"=IF(Economy!O{r}>0,'Energy link'!AH{r}*{cpi}{r}+'Energy link'!AE{r}/Economy!O{r}*{rels}{r}"
+                               f"+(1-'Energy link'!AH{r}-'Energy link'!AE{r}/Economy!O{r}),1)"), fmt="0.00",
+                 note="Households at the consumer ratio, government at the services ratio (mostly pay), investment and net exports at 1 "
+                 "(tradable). For comparing real output with the Union.")
     r13 = row(1913)
     P.add("cons_x", "Household consumption per person / US, money", lambda y, r: f"='Energy link'!AK{r}", group="Consumption", fmt="0.00")
     P.add("cons_xr", "… at Union prices", lambda y, r: f"=IF(ISNUMBER('Energy link'!AK{r}),'Energy link'!AK{r}/{cpi}{r},\"\")", fmt="0.00")
@@ -343,7 +381,7 @@ def build_prices(wb, d):
     usc_car = us_col(P, "car")
     P.add("td_car", "A car", lambda y, r: f"=IF({usc_car}{r}>0,({usc_car}{r}*car_rel/{hp}{r})/(${usc_car}${r13}*car_rel/${hp}${r13}),\"\")", fmt="0.00")
     P.add("td_air", "An aircraft (Wright's curve, 1924 = 1)", lambda y, r: f"=Dynamics!{d['air_px']}{r}", fmt="0.00")
-    return P, dict(cpi=cpi, relp=relp, relf=relf, rels=rels, pw=pw)
+    return P, dict(cpi=cpi, relp=relp, relf=relf, rels=rels, pw=pw, pu=pu, gdpp=gdpp)
 
 
 # ------------------------------------------------------------------ Life (benchmark years)
@@ -353,7 +391,10 @@ def build_life(wb, d, p):
     ws["A1"].value = "Life in Pacifica at benchmark years (CR-056)"
     ws["A2"].value = ("What a family earns, buys and does with its time, for the active case and dyn_mode. Pacifican prices are the "
                       "Union's historical prices × Pacifica's relative prices (Prices). Hours of work = price / hourly earnings "
-                      "(50 weeks). Every US anchor TO VERIFY unless the Dynamics or Prices note says verified. All MODEL.")
+                      "(50 weeks). Women's work above the Union is Dynamics' women_lead; adding the same points to married women assumes about three "
+                      "fifths of the extra workers are married, as married women are about three fifths of women. Earnings are labour's share "
+                      "of output per worker including mining and oil, so an upper bound. Every US anchor TO VERIFY unless the Dynamics or "
+                      "Prices note says verified. All MODEL.")
     ws["A3"].value = "Built by finance/build/cr056_dynamics.py. Reported only; nothing here feeds the model."
     for c, s in (("A1", B["A1"]), ("A2", B["A2"]), ("A3", B["A3"])):
         ws[c]._style = copy.copy(s._style)
@@ -373,7 +414,7 @@ def build_life(wb, d, p):
         (None, "Average earnings, Union ($)", lambda y, r: f"=Dynamics!{d['une']}{r}", "#,##0"),
         (None, "… Pacifica / Union, at Union prices", lambda y, r: f"=Dynamics!{d['earn']}{r}/Dynamics!{d['une']}{r}/Prices!{p['cpi']}{r}", "0.00"),
         (None, "Family income, with a working wife's chance ($)",
-         lambda y, r: f"=Dynamics!{d['earn']}{r}*(1+({U('married')(y)}+IF(dyn_mode=0,0,Dynamics!{d['wpts']}{r}))*w_rel)", "#,##0"),
+         lambda y, r: f"=Dynamics!{d['earn']}{r}*(1+({U('married')(y)}+Dynamics!{d['wlead']}{r})*w_rel)", "#,##0"),
         ("Prices (Pacifica, current)", "A kWh at home (cents)", lambda y, r: f"=Prices!{p['pw']}{r}", "0.0"),
         (None, "A basic car ($)", lambda y, r: f"={U('car')(y)}*car_rel", "#,##0"),
         (None, "A gallon of motor fuel (cents)", lambda y, r: f"={U('gas')(y)}*fuel_rel", "0"),
@@ -400,8 +441,8 @@ def build_life(wb, d, p):
         (None, "Housework hours a week, Pacifica",
          lambda y, r: f"={U('housework')(y)}*(1-hw_elec*MAX(0,Dynamics!{d['wired']}{r}-{U('wired')(y)}))", "0.0"),
         (None, "Housework hours a week, Union", lambda y, r: U("housework")(y), "0.0"),
-        (None, "Women in paid work, Pacifica", lambda y, r: f"={U('women')(y)}+IF(dyn_mode=0,0,Dynamics!{d['wpts']}{r})", "0.0%"),
-        (None, "Married women in paid work, Pacifica", lambda y, r: f"={U('married')(y)}+IF(dyn_mode=0,0,Dynamics!{d['wpts']}{r})", "0.0%"),
+        (None, "Women in paid work, Pacifica", lambda y, r: f"={U('women')(y)}+Dynamics!{d['wlead']}{r}", "0.0%"),
+        (None, "Married women in paid work, Pacifica", lambda y, r: f"={U('married')(y)}+Dynamics!{d['wlead']}{r}", "0.0%"),
         (None, "Women in paid work, Union", lambda y, r: U("women")(y), "0.0%"),
     ]
     ws.cell(5, 1).value, ws.cell(5, 2).value = "Group", "Item"
@@ -449,13 +490,19 @@ def hook(wb, d):
         z = C[f"Z{r}"].value
         assert z == f"=X{r}*Y{r}*chem_va*B{r}", (y, z)
         C[f"Z{r}"].value = f"=X{r}*Y{r}*(1+IF(dyn_mode=0,0,Dynamics!{d['fch']}{r}))*chem_va*B{r}"
+        lb = wb["Labour"][f"B{r}"].value
+        assert lb == f"=Economy!B{r}*lf_rate", (y, lb)
+        wb["Labour"][f"B{r}"].value = f"=Economy!B{r}*lf_rate*(1+IF(dyn_mode=0,0,Dynamics!{d['wpts']}{r}*w_adult/lf_rate))"
         af = C[f"AF{r}"].value
         assert af == f"=AC{r}*AD{r}*elec_va*B{r}", (y, af)
         C[f"AF{r}"].value = f"=AC{r}*AD{r}*(1+IF(dyn_mode=0,0,Dynamics!{d['fel']}{r}))*elec_va*B{r}"
     base.note(E["C5"], (E["C5"].comment.text + "\n\n" if E["C5"].comment else "")
-              + "CR-056: in dyn_mode 2, from dyn_start, growth derived from capital, power and base progress (Dynamics).", 120)
+              + "CR-056: in dyn_mode 2, from dyn_start, growth derived from capital and base progress (Dynamics).", 120)
     base.note(E["D5"], (E["D5"].comment.text + "\n\n" if E["D5"].comment else "")
               + "CR-056: in dyn_mode 2 the Fund earns only its premium over the ordinary return on capital (Dynamics).", 120)
+    Lb = wb["Labour"]
+    base.note(Lb["B5"], (Lb["B5"].comment.text + "\n\n" if Lb["B5"].comment else "")
+              + "CR-056: in dyn_mode 1 and 2 the extra women in paid work (Dynamics, C5) join the labour force.", 120)
     base.note(E["J5"], (E["J5"].comment.text + "\n\n" if E["J5"].comment else "")
               + "CR-056: × (1 + the Dynamics level factor) in dyn_mode 1 and 2.", 120)
 
@@ -482,9 +529,9 @@ def main() -> None:
     D, d = build_dynamics(wb, data)
     P, p = build_prices(wb, d)
     d["hours"] = D.add("hours_p", "Hours a week, Pacifica",
-                       lambda y, r: f"=Dynamics!{d['ush']}{r}*MAX(0.5,Economy!R{r}/Prices!{p['cpi']}{r})^(-hrs_eps)*(1-hrs_slump*(1-Economy!G{r}))",
+                       lambda y, r: f"=Dynamics!{d['ush']}{r}*MAX(0.5,Prices!{p['pu']}{r}/Prices!{p['gdpp']}{r})^(-hrs_eps)*(1-hrs_slump*(1-Economy!G{r}))",
                        group="C5 hours (reported)", fmt="0.0",
-                       note="US standard hours × (Pacifica's real income lead at Union prices)^(−hrs_eps) × (1 − hrs_slump × Pacifica's output gap): reported, not a driver.")
+                       note="US standard hours × (Pacifica's real GDP per person against the Union's, at Union GDP prices)^(−hrs_eps) × (1 − hrs_slump × Pacifica's output gap): reported, not a driver.")
     d["hours_u"] = D.add("hours_u", "Hours a week, Union", lambda y, r: f"=Dynamics!{d['ush']}{r}*(1-hrs_slump*Dynamics!{d['ug']}{r})", fmt="0.0",
                          note="US standard hours less short time at the US output gap (Dynamics, C7; 1930-32 only).")
     build_life(wb, d, p)
@@ -495,11 +542,11 @@ def main() -> None:
     Ch.cell(n, 1).value = "5 Nov: CR-056"
     Ch.cell(n, 2).value = "The dynamic layer"
     Ch.cell(n, 3).value = (
-        "dyn_mode (Levers; saved 0): 1 adds the channels on top of Paths!L, 2 replaces Paths!L from 1900 by growth from capital, "
-        "power and base progress. Channels: unit electric drive (C1), induced R&D into the electrical and chemical shares (C3), "
+        "dyn_mode (Levers; saved 0): 1 adds the channels on top of Paths!L (dyn_vs_us 1: only Pacifica's lead over the Union), "
+        "2 replaces Paths!L from 1900 by growth from capital and base progress. Channels: unit electric drive (C1), induced R&D into the electrical and chemical shares (C3), "
         "pumped acres and nitrogen on farms (C4), women's work from wired homes (C5); reported: prices and a consumer deflator "
         "(C2, Prices), the aircraft learning curve (C6), the slump decomposed (C7), wages, hours and the life table (C8, Life). "
-        "Hooks: Economy C, D, J; Champions Z, AF; each the old formula at dyn_mode 0. Energy outputs SHA-256 " + sha[:16] + "…. MODEL.")
+        "Hooks: Economy C, D, J; Labour B; Champions Z, AF; each the old formula at dyn_mode 0. Energy outputs SHA-256 " + sha[:16] + "…. MODEL.")
     for c in range(1, 4):
         Ch.cell(n, c)._style = copy.copy(Ch.cell(n - 1, c)._style)
     S = wb["Start"]

@@ -3,8 +3,8 @@
     python3 finance/build/cr056_identity.py OLD.xlsx NEW.xlsx
 
 OLD is the CR-051/054/055 workbook (cba70b31...), NEW the CR-056 workbook recalculated in LibreOffice
-at dyn_mode 0. Every cell of every sheet OLD has is compared by value (exact, no tolerance); the
-formulas may differ only in Economy C, D, J and Champions Z, AF (the hooks) and in Levers, Changes and
+at dyn_mode 0, both in the same case (Story or Stress). Every cell of every sheet OLD has is compared by value (exact, no tolerance); the
+formulas may differ only in Economy C, D, J, Labour B and Champions Z, AF (the hooks) and in Levers, Changes and
 Start (new rows). Exit status 1 on any difference.
 """
 from __future__ import annotations
@@ -13,7 +13,7 @@ import sys
 
 import openpyxl
 
-HOOKS = {("Economy", "C"), ("Economy", "D"), ("Economy", "J"), ("Champions", "Z"), ("Champions", "AF")}
+HOOKS = {("Economy", "C"), ("Economy", "D"), ("Economy", "J"), ("Labour", "B"), ("Champions", "Z"), ("Champions", "AF")}
 APPEND_ONLY = {"Levers", "Changes", "Start"}
 
 
@@ -21,8 +21,8 @@ def main() -> int:
     old_p, new_p = sys.argv[1], sys.argv[2]
     ov, nv = openpyxl.load_workbook(old_p, data_only=True), openpyxl.load_workbook(new_p, data_only=True)
     of, nf = openpyxl.load_workbook(old_p), openpyxl.load_workbook(new_p)
-    if nv["Levers"]["E4"].value != 1:
-        print("NEW must be in the Story case"); return 1
+    if nv["Levers"]["E4"].value != ov["Levers"]["E4"].value:
+        print("OLD and NEW must be in the same case (Levers E4)"); return 1
     bad_v, bad_f, n = [], [], 0
     for ws in ov.worksheets:
         w2, f1, f2 = nv[ws.title], of[ws.title], nf[ws.title]

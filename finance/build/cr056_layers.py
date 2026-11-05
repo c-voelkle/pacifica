@@ -57,9 +57,12 @@ def read(path):
                                  "Points left to prices, money and banks", "C1: output per resident raised by unit drive",
                                  "C4: output per resident raised on the farms", "C5: output per resident raised by women's work",
                                  "Electrical world share raised by (into Champions AF)", "Agriculture's share of output",
-                                 "Trend growth per resident, derived (into Economy C)")}
+                                 "Trend growth per resident, derived (into Economy C)",
+                                 "Women in paid work above the Union (share of women)",
+                                 "Pacifica's real output below its 1920s trend")}
     pc = {k: col(Pr, k) for k in ("Consumer prices against the Union", "… at Union prices", "Power to homes, Pacifica (cents/kWh)",
-                                  "Food against the Union", "Services and rent against the Union", "Power to homes", "A car")}
+                                  "Food against the Union", "Services and rent against the Union", "Power to homes", "A car",
+                                  "GDP prices against the Union", "GDP per person against the Union")}
     out = {}
     for y in range(1900, 1933):
         o = {}
@@ -76,6 +79,11 @@ def read(path):
         o["cons_x_us"] = g(EL, 37, y)
         o["cons_x_us_real"] = g(Pr, pc["… at Union prices"], y)
         o["cpi_rel"] = g(Pr, pc["Consumer prices against the Union"], y)
+        o["gdp_rel"] = g(Pr, pc["GDP prices against the Union"], y)
+        o["pp_union_m"] = g(Pr, pc["GDP per person against the Union"], y)
+        o["real_pp"] = g(E, 19, y) / g(E, 2, y)
+        o["women_lead"] = g(D, dc["Women in paid work above the Union (share of women)"], y)
+        o["gap_trend"] = g(D, dc["Pacifica's real output below its 1920s trend"], y)
         o["earn"] = g(D, dc["Average earnings per worker ($)"], y)
         o["earn_u"] = g(D, dc["Union average earnings ($)"], y)
         o["hours"] = g(D, dc["Hours a week, Pacifica"], y)
@@ -106,6 +114,9 @@ def read(path):
         o["checks"] = g(K, 19, y)
         o["output_gap"] = 1 - g(E, 7, y)
         out[y] = o
+    for y in range(1901, 1933):
+        out[y]["real_pp_growth"] = out[y]["real_pp"] / out[y - 1]["real_pp"] - 1
+    out[1900]["real_pp_growth"] = None
     out["checks_total"] = sum(out[y]["checks"] or 0 for y in range(1900, 1933)) + sum(
         (K.cell(rr, 19).value or 0) for rr in range(6, r(1900)))
     fails = []
@@ -118,32 +129,41 @@ def read(path):
     return out
 
 
+def _money_first(o):
+    return next((y for y in range(1900, 1933) if o[y]["core_gdp"] >= o[y]["union_gdp"]), None)
+
+
+# Verdicts: "holds"; "fails" (a sentence of the story no longer fits); "re-sync" (a MODEL figure in the storyline to update).
 STORY = [
     # (key, the storyline's words, test(o, base) -> (value_text, verdict))
     ("residents", "\"about 37 million\" in 1932 (§33, MODEL); flag a move above 0.3m",
      lambda o, b: (f"{o[1932]['residents']/1e6:.2f}m ({(o[1932]['residents']-b[1932]['residents'])/1e6:+.2f}m)",
-                   "holds" if abs(o[1932]['residents'] - b[1932]['residents']) <= 0.3e6 and 36.5e6 <= o[1932]['residents'] <= 37.5e6 else "moves")),
-    ("pp_union", "output per person \"about 2.24 times the Union's in 1929\" (§33, CR-021 model comparison); within 10%",
-     lambda o, b: (f"{o[1929]['gdp_pp_x_union']:.2f}× money, {o[1929]['gdp_pp_x_union']/o[1929]['cpi_rel']:.2f}× at Union prices",
-                   "holds" if min(abs(o[1929]['gdp_pp_x_union'] / 2.24 - 1), abs(o[1929]['gdp_pp_x_union'] / o[1929]['cpi_rel'] / 2.24 - 1)) <= 0.1 else "moves")),
-    ("union_larger", "\"the Union remains the larger power in real output\"; \"in 1932 money income briefly puts Pacifica alone ahead\"",
-     lambda o, b: (f"real (Union prices) 1929 {o[1929]['core_gdp']/o[1929]['union_gdp']/o[1929]['cpi_rel']:.2f}×; money 1929 "
-                   f"{o[1929]['core_gdp']/o[1929]['union_gdp']:.2f}×, 1932 {o[1932]['core_gdp']/o[1932]['union_gdp']:.2f}×",
-                   "holds" if o[1929]['core_gdp'] / o[1929]['union_gdp'] / o[1929]['cpi_rel'] < 1 and o[1932]['core_gdp'] > o[1932]['union_gdp']
-                   else "fails")),
+                   "holds" if abs(o[1932]['residents'] - b[1932]['residents']) <= 0.3e6 and 36.5e6 <= o[1932]['residents'] <= 37.5e6 else "re-sync")),
+    ("pp_union", "output per person \"about 2.24 times\" in 1929 (§33; Economy R, against US history, as in CR-031); within 10%",
+     lambda o, b: (f"{o[1929]['gdp_pp_x_us']:.2f}× (against the modelled Union {o[1929]['pp_union_m']:.2f}× money, "
+                   f"{o[1929]['pp_union_m']/o[1929]['gdp_rel']:.2f}× at Union prices)",
+                   "holds" if abs(o[1929]['gdp_pp_x_us'] / 2.24 - 1) <= 0.1 else "re-sync")),
+    ("union_real", "\"the Union remains larger in real output\" in 1932 (§34; real output at Union GDP prices)",
+     lambda o, b: (f"1929 {o[1929]['core_gdp']/o[1929]['union_gdp']/o[1929]['gdp_rel']:.2f}×, "
+                   f"1932 {o[1932]['core_gdp']/o[1932]['union_gdp']/o[1932]['gdp_rel']:.2f}×",
+                   "holds" if o[1932]['core_gdp'] / o[1932]['union_gdp'] / o[1932]['gdp_rel'] < 1 else "fails")),
+    ("money_first", "\"in 1932 money income briefly puts Pacifica alone ahead\" (§34; first year money output ≥ the Union's)",
+     lambda o, b: (f"first ahead {_money_first(o)}; 1932 {o[1932]['core_gdp']/o[1932]['union_gdp']:.2f}×",
+                   "holds" if _money_first(o) == 1932 else "fails")),
     ("crash", "\"a milder crash than the Union, without escaping collapsing trade\" (Union real GDP 1932/1929 about 0.75)",
-     lambda o, b: (f"real GDP 1932/1929 {o[1932]['real_gdp']/o[1929]['real_gdp']:.3f}",
+     lambda o, b: (f"real GDP 1932/1929 {o[1932]['real_gdp']/o[1929]['real_gdp']:.3f}; per resident {o[1932]['real_pp']/o[1929]['real_pp']:.3f}",
                    "holds" if 0.75 < o[1932]['real_gdp'] / o[1929]['real_gdp'] < 0.99 else "fails")),
-    ("champions", "\"a champion has a bad year; the Realm does not\"",
-     lambda o, b: (f"champions 1931/1929 {o[1931]['champions']/o[1929]['champions']:.2f}, GDP {o[1931]['core_gdp']/o[1929]['core_gdp']:.2f}",
+    ("champions", "\"a champion has a bad year; the Realm does not\" (champions fall more than money GDP)",
+     lambda o, b: (f"champions 1931/1929 {o[1931]['champions']/o[1929]['champions']:.2f}, GDP {o[1931]['core_gdp']/o[1929]['core_gdp']:.2f}, "
+                   f"real per resident {o[1931]['real_pp']/o[1929]['real_pp']:.2f}",
                    "holds" if o[1931]['champions'] / o[1929]['champions'] < o[1931]['core_gdp'] / o[1929]['core_gdp'] else "fails")),
-    ("better_off", "Pacificans \"visibly better off\" than the Union's citizens (consumption per person at Union prices, 1929)",
+    ("better_off", "Pacificans \"visibly better off\" than the Union's citizens (consumption per person × US at Union consumer prices, 1929)",
      lambda o, b: (f"{o[1929]['cons_x_us_real']:.2f}× (money {o[1929]['cons_x_us']:.2f}×)", "holds" if o[1929]['cons_x_us_real'] >= 1.3 else "fails")),
-    ("atomic", "the atomic programme at its peak \"0.45 percent of national product, in 1921\" (§31)",
-     lambda o, b: (f"{o[1921]['atomic_share']*100:.2f}%", "holds" if round(o[1921]['atomic_share'] * 100, 2) == 0.45 else "moves")),
+    ("atomic", "the atomic programme at its peak \"0.45 percent of national product, in 1921\" (§33, MODEL)",
+     lambda o, b: (f"{o[1921]['atomic_share']*100:.2f}%", "holds" if round(o[1921]['atomic_share'] * 100, 2) == 0.45 else "re-sync")),
     ("kwh", "\"about 2,600 kilowatt-hours a head in 1929\" (the energy workbook reads the accounting case)",
      lambda o, b: (f"{o[1929]['kwh_pp']*b[1929]['residents']/o[1929]['residents']:,.0f} kWh at these residents",
-                   "holds" if abs(o[1929]['kwh_pp'] * b[1929]['residents'] / o[1929]['residents'] - 2600) <= 100 else "moves")),
+                   "holds" if abs(o[1929]['kwh_pp'] * b[1929]['residents'] / o[1929]['residents'] - 2600) <= 100 else "re-sync")),
     ("budget", "\"Pacifica raises neither tariffs nor taxes; reserves and borrowing fund the response\"",
      lambda o, b: (f"Budget 1932 {o[1932]['budget']:,.0f}, debt/GDP {o[1932]['debt_gdp']*100:.0f}%",
                    "holds" if o[1932]['debt_gdp'] < 0.3 else "strained")),
@@ -153,8 +173,10 @@ STORY = [
 
 ROWS = [
     ("Core GDP ($m)", "core_gdp", "{:,.0f}"), ("Real GDP (1913 $m)", "real_gdp", "{:,.0f}"),
-    ("GDP per person × US (current $)", "gdp_pp_x_us", "{:.2f}"), ("GDP per person × the Union", "gdp_pp_x_union", "{:.2f}"),
-    ("Growth of real output per resident", "growth", "{:.2%}"),
+    ("GDP per person × US (current $)", "gdp_pp_x_us", "{:.2f}"), ("GDP per person × the Union, money", "pp_union_m", "{:.2f}"),
+    ("GDP prices × the Union", "gdp_rel", "{:.2f}"),
+    ("Trend growth per resident (before the slump and talent)", "growth", "{:.2%}"),
+    ("Growth of real GDP per resident, actual", "real_pp_growth", "{:.2%}"),
     ("… unit drive (C1, level)", "c1", "{:.1%}"), ("… farms (C4, level)", "c4", "{:.1%}"), ("… women's work (C5, level)", "c5", "{:.1%}"),
     ("… electrical share raised (C3)", "c3_el", "{:.1%}"),
     ("Household consumption per person × US, money", "cons_x_us", "{:.2f}"), ("… at Union prices", "cons_x_us_real", "{:.2f}"),
@@ -165,9 +187,11 @@ ROWS = [
     ("A car, relative to Pacifica's prices (1913 = 1)", "td_car", "{:.2f}"), ("Food × the Union", "food_rel", "{:.2f}"),
     ("Services and rent × the Union", "serv_rel", "{:.2f}"),
     ("Farm output (1913 $m)", "farm_output", "{:,.0f}"), ("… extra from pumping and nitrogen", "farm_extra", "{:,.0f}"),
-    ("Extra women in paid work (points)", "women_pts", "{:.1%}"),
+    ("Extra women in paid work, driver (points)", "women_pts", "{:.1%}"),
+    ("Women in paid work above the Union (points)", "women_lead", "{:.1%}"),
     ("Residents (m)", "residents", "{:,.0f}"), ("Public debt ($m)", "debt", "{:,.0f}"), ("Budget balance ($m)", "budget", "{:,.0f}"),
-    ("Development stock ($m)", "dev_stock", "{:,.0f}"), ("Output below trend", "output_gap", "{:.1%}"),
+    ("Development stock ($m)", "dev_stock", "{:,.0f}"), ("Output below trend (the model's, flat 1930-32)", "output_gap", "{:.1%}"),
+    ("Real output below its 1920s trend", "gap_trend", "{:.1%}"),
     ("Slump: points closed by demand", "slump_demand", "{:.1%}"), ("Slump: points left to money and banks", "slump_money", "{:.1%}"),
     ("Checks failing", "checks", "{:.0f}"),
 ]
@@ -202,8 +226,10 @@ def main():
     ws["A1"].value = "Layers: the accounting model and the two dynamic modes side by side (CR-056; values)"
     ws["A2"].value = ("Written by finance/build/cr056_layers.py from six LibreOffice recalculations of this workbook (Story and Stress × "
                       "dyn_mode 0, 1, 2). Values, not formulas: rebuild to refresh. Mode 0 = the accounting model; 1 = channels on top of "
-                      "Paths!L; 2 = growth derived from capital, power and base progress from 1900. All MODEL.")
-    ws["A3"].value = "The story tests compare each case with what the master storyline says (not with US history)."
+                      "Paths!L (only Pacifica's lead over the Union's electrification, dyn_vs_us 1); 2 = growth derived from capital and base "
+                      "progress from 1900. All MODEL.")
+    ws["A3"].value = ("The story tests compare each case with what the master storyline says (not with US history). \"fails\": a sentence "
+                      "of the story no longer fits; \"re-sync\": a MODEL figure in the storyline to update.")
     for c, s in (("A1", Bg["A1"]), ("A2", Bg["A2"]), ("A3", Bg["A3"])):
         ws[c]._style = copy.copy(s._style)
     hdr, body, grp = Bg["B5"]._style, Bg["B6"]._style, Bg["B4"]._style
@@ -228,7 +254,7 @@ def main():
             c0 = 2
             for y in YEARS:
                 for mode in (0, 1, 2):
-                    v = res[(case, mode)][y][key]
+                    v = res[(case, mode)][y].get(key)
                     cell = ws.cell(rr, c0)
                     cell.value = (v / 1e6 if key == "residents" else v) if isinstance(v, (int, float)) else v
                     cell._style = copy.copy(body)
