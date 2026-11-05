@@ -22,7 +22,7 @@ from pathlib import Path
 import openpyxl
 
 FIRST, LAST = 6, 92  # 1846..1932
-# (key, sheet, header text in row 5 or None for a named range, named range)
+# (key, sheet, header text in row 5 or None for a named range, named range or Paths key)
 SERIES = [
     ("home_oil", "Fuels", "Home oilfields (m bbl)", None),
     ("conc_oil", "Fuels", "CR-053 concessions: entitlement crude (m bbl)", None),
@@ -39,7 +39,31 @@ SERIES = [
     ("fuel_trade_net", None, None, "en_fuel_trade_net"),
     ("kwh_pp", "Electricity", "Electricity per person (kWh)", None),
     ("mult_gen", "Electricity", "Multiplier: electricity per person vs US", None),
-]
+    # CR-051, CR-054 and CR-055 for the financial workbook (finance/build/cr051_054_055_champions.py)
+    ("cap_works", "Hydro", "The Works' dams, Pit and upper Feather (MW)", None),
+    ("cap_rock", "Hydro", "Rock Island (MW)", None),
+    ("cap_bonn", "Hydro", "Bonneville (MW)", None),
+    ("cap_rreach", "Hydro", "Rocky Reach (MW)", None),
+    ("cap_wells", "Hydro", "Wells (MW)", None),
+    ("cap_mcnary", "Hydro", "McNary (MW)", None),
+    ("cap_cjoe", "Hydro", "Chief Joseph, laddered (MW)", None),
+    ("cap_col2", "Hydro", "Columbia second units (MW)", None),
+    ("halls_mw", "Strategic loads", "Halls' draw (MW)", None),
+    ("halls_ded", "Strategic loads", "Halls met from dedicated power (MW avg)", None),
+    ("works_avg", "Strategic loads", "Works' dams, average output (MW)", None),
+    ("feed_mt", "Strategic loads", "Feed plant oil (Mt)", None),
+    ("station_mw", "Strategic loads", "Columbia station's draw (MW)", None),
+    ("diff_mw", "Strategic loads", "Gaseous-diffusion plant's draw (MW)", None),
+    ("wen_mw", "Strategic loads", "Wenatchee smelter (MW avg)", None),
+    ("rock_spare", "Strategic loads", "Rock Island left for orchards and pumps (MW avg)", None),
+    ("hyd_mf", "Fuels", "Motor fuel gained by hydrogenation (m bbl, memo)", None),
+    ("alu_grid", "Uses", "Aluminium for the grid's conductor (kt, memo)", None),
+    ("alu_air", "Uses", "… the Concord fleet's aircraft", None),
+    ("alu_pool", "Uses", "… the Concord pool, to Japan", None),
+    ("alu_civil", "Uses", "… civil uses at home", None),
+    ("alu_export", "Uses", "… exported beyond the Concord", None),
+] + [(k, "Paths", None, k) for k in ("alu_kt", "alu_hilo", "eln_kt", "haber_kt", "esteel", "zinc_kt", "mg_kt",
+                                      "phos_kt", "cu_kt", "hyd_bbl", "rubber_kt", "pig_kt", "tie_mw")]
 
 
 def sha256(p: Path) -> str:
@@ -50,6 +74,14 @@ def read(path: Path) -> dict[str, list[float]]:
     wb = openpyxl.load_workbook(path, data_only=True)
     out = {}
     for key, sheet, header, name in SERIES:
+        if sheet == "Paths":  # a Paths row, years across (row key in column A, 1846 in column D)
+            ws = wb["Paths"]
+            pr = next((r for r in range(6, ws.max_row + 1) if ws.cell(r, 1).value == name), None)
+            if pr is None:
+                raise SystemExit(f"Paths: no row keyed {name!r}")
+            out[key] = [float(v) if isinstance(v, (int, float)) else 0.0
+                        for v in (ws.cell(pr, 4 + i).value for i in range(LAST - FIRST + 1))]
+            continue
         if name:
             dest = list(wb.defined_names[name].destinations)[0]
             ws = wb[dest[0]]

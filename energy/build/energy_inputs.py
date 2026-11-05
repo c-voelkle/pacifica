@@ -1139,3 +1139,20 @@ set_lever("compact_on", status="APPROVED (CR-052, 4 Nov 2026)",
 set_lever("ind_src", status="DECIDED (author, 4 Nov 2026): 1 until the industrial output is derived",
           basis="Author, 4 Nov 2026: the investment-share path is adopted for the financial workbook's account, but the proportional index is not used here: "
                 "it would cut industrial power by about 15% in 1914–19 and lower nineteenth-century demand. Revisit with item 2 of finance/investment-share-note.md v2.")
+
+
+# =====================================================================================
+# Thirteenth build's follow-up, 4 November 2026 (PR #64 decisions 4 and 5): the five
+# strategic Columbia dams and the second units costed as what they are. Author: "Yes
+# please go ahead" with the proposed settlement.
+# =====================================================================================
+LEVERS += [
+    ("— CR-055 R9 (4 Nov 2026): the strategic dams' cost —",),
+    ("cost_bulk", "Bulk transmission per kW of the five strategic Columbia dams", 30, 40, "$/kW", "Model estimate",
+     "Bonneville, Rocky Reach, Wells, McNary and Chief Joseph feed smelters, the Basin's pumps and one long line, not town "
+     "networks: plant (cost_hydro) plus bulk lines and substations, without the distribution in cost_td (author, 4 Nov 2026). "
+     "Historical Bonneville cost about $90m for some 500 MW (to verify)."),
+    ("col2_cost", "Columbia second units: cost as a share of a new plant's (cost_hydro + cost_td)", 0.4, 1.0, "share", "Model estimate",
+     "CR-055 R9: units added to existing powerhouses need no new dam and little new line; turbines, generators and the powerhouse "
+     "extension (author, 4 Nov 2026). Stress has no second units."),
+]

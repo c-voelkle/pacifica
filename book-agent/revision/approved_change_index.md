@@ -983,7 +983,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The founding date of Pacifica's Birmingham works (Sibert's route); whether the Senate's budget committee is told anything; the Columbia bands' leaders in 1919–20; the compacts for the Works' dams with the Pit River peoples and the Maidu.
 - Separate CRs: the Pacifican military 1899–1917 (Tsingtao in detail, the Villa question, Chihuahua and Patton's raid); the dependence strategy after 1927.
 - Energy workbook (CR-052, unmerged) may adjust the halls' share of capacity (its CT1) and the size of the Works' dams (its CT2); CR-055 proposes amending S7's 'first main-stem dam' and S8's pattern clause. Not applied here.
-- Whether Victoria lives to object to the second part's term; whether Hoover suits the ore office; the financial workbook's costs for the halls, the feed plant, the Columbia station and the Works' dams (MODEL, not yet built).
+- Whether Victoria lives to object to the second part's term; whether Hoover suits the ore office.
 
 ### CR-052 — The energy workbook: Pacifica's power, 1846–1932, and what it settles in canon
 
