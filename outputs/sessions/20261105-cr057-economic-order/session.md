@@ -39,6 +39,7 @@ independence: separate-agents
 | ID | Status | Detail |
 | --- | --- | --- |
 | D1 | decided | MR-01 to MR-15, as recorded in CR-057 A and the review's part I |
+| D2 | decided | The Fund's default (15:52): leased public land, half the guest-worker levy, nothing spent before 1910 and 3% from then (CR-057 C, CT12) |
 | Q1 | open | CR-057 B to F (the reserve compact's ratio and guard; the Fund as a sovereign wealth fund; the river's customers; open patents, auctions and districts; the provident account) and the G wording |
 
 ## Checks executed
