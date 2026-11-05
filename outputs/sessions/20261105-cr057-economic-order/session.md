@@ -40,7 +40,8 @@ independence: separate-agents
 | --- | --- | --- |
 | D1 | decided | MR-01 to MR-15, as recorded in CR-057 A and the review's part I |
 | D2 | decided | The Fund's default (15:52): leased public land, half the guest-worker levy, nothing spent before 1910 and 3% from then (CR-057 C, CT12) |
-| Q1 | open | CR-057 B to F (the reserve compact's ratio and guard; the Fund as a sovereign wealth fund; the river's customers; open patents, auctions and districts; the provident account) and the G wording |
+| D3 | decided | Second round (16:21): B's ratios and guards; Elias writes the charter; widen the rent base first; D's customers; open patents and auctions from the start; five districts abroad, Huludao and Mariveles as scenes; F's caps; the income tax a war measure; G1–G12 and the refusal scene (CR-057 A2) |
+| Q1 | open | CR-057 A2's suggestions (PROPOSED), the revised G2, G5, G8, G10 and the new G13–G16, CT13 and CT14; previously: CR-057 B to F (the reserve compact's ratio and guard; the Fund as a sovereign wealth fund; the river's customers; open patents, auctions and districts; the provident account) and the G wording |
 
 ## Checks executed
 
@@ -52,7 +53,7 @@ independence: separate-agents
 
 ## Resume here
 
-CR-057 is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:
+CR-057 (third draft, A2 applied) is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:
 - integrate G into the storyline with coverage comments;
 - add the register entry and the ledger instruments (I);
 - run sync and the checks;
