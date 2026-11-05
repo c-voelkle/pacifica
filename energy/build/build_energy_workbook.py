@@ -303,7 +303,8 @@ def spec_strategic():
           "The halls, the feed plant, the Columbia station and the walled college are MODEL figures from CR-050 and CR-051.", cols)
 
 
-ECHEM = ["e_alu", "e_arc", "e_haber", "e_eln", "e_carb", "e_chlor", "e_esteel", "e_falloy", "e_abras", "e_zinc", "e_mg", "e_phos", "e_cu", "e_h2", "e_rubber", "e_pig"]
+ECHEM = ["e_alu", "e_arc", "e_haber", "e_eln", "e_carb", "e_chlor", "e_esteel", "e_falloy", "e_abras", "e_zinc", "e_mg", "e_phos", "e_cu", "e_h2", "e_rubber", "e_pig",
+         "e_tchem", "e_fert"]
 
 
 def spec_uses():
@@ -331,6 +332,10 @@ def spec_uses():
         Col("e_h2", "Hydrogen for heavy-residue hydrogenation (CR-055)", "{P:hyd_bbl}*h2_kwh", note="Portland works; the gasoline gained is a memo on Fuels (hyd_gas)."),
         Col("e_rubber", "Synthetic rubber: carbide and the works (CR-055)", "{P:rubber_kt}*(rub_carb*carbide_mwh+rub_mwh)"),
         Col("e_pig", "Electric pig iron (CR-055)", "{P:pig_kt}*pig_mwh"),
+        Col("e_tchem", "Acetylene chemicals at Tacoma (CR-057)", "{P:tchem_gwh}",
+            note="CR-057 D: from 1929 the carbide furnaces' power that the rubber line no longer uses (CT14: rubber 25 kt in 1929, a standby line from 1930)."),
+        Col("e_fert", "Cyanamide fertilizer at Tacoma (CR-057)", "{P:fert_gwh}*fert_x",
+            note="CR-057 D: beyond the rubber plant's power, within the Concord's quota of the 1930 nitrogen convention."),
         Col("e_echem", "All electrochemistry", "+".join("{%s}" % k for k in ECHEM)),
         Col("e_mine", "Mining and smelting", "({People & output:metals}+{People & output:gold})/{People & output:price}*{P:mine_int}",
             group="Electricity (GWh), continued"),
@@ -346,7 +351,17 @@ def spec_uses():
         Col("e_nwboil", "Electric boilers in Northwest mills", "MIN({P:nwboil}*nwboil_x,{Electricity:nwboil_room})",
             note="Secondary power: the boilers take what the river has left after its firm loads and the Columbia–Sierra line (M9; eleventh build). "
                  "Where they get less than Paths nwboil, the mills burn fuel instead (Uses f_ind)."),
-        Col("e_ord", "Ordinary uses", "{e_home}+{e_comm}+{e_motor}+{e_echem}+{e_mine}+{e_rail}+{e_pump}+{e_nwboil}"),
+        Col("rub_kt", "Synthetic rubber at Tacoma (kt, memo)", "{P:rubber_kt}", "#,##0.0", group="The river's customers in the slump (CR-057 D)",
+            note="CR-057 CT14: about 25 kt in 1929, a standby line from 1930 (was 50 kt in 1929)."),
+        Col("e_cold", "Cold storage and quick-freezing (CR-057)", "{P:cold_gwh}*cold_x",
+            note="Wenatchee apples and the coast's salmon; a firm load in the Northwest balance whose summer peak matches the freshet."),
+        Col("e_nwrail", "The rest of the Northwest's main lines (CR-057)", "IF(mainline_on=1,{P:nwrail_gwh}*nwrail_on,0)",
+            note="A firm year-round load in the Northwest balance from 1930; it displaces locomotive oil (Uses f_rail)."),
+        Col("e_wh", "Storage water heaters, interruptible (CR-057)", "{Electricity:wh_f}+{Electricity:wh_w}",
+            note="Secondary power on the interruptible Northwest tariff: what is left after the firm load, the line and the mill boilers, by season (Electricity)."),
+        Col("e_heat", "Capped house heating, winter surplus only (CR-057)", "{Electricity:heat}",
+            note="From heat_from, at most heat_cap, out of the winter share of what the storage heaters leave."),
+        Col("e_ord", "Ordinary uses", "{e_home}+{e_comm}+{e_motor}+{e_echem}+{e_mine}+{e_rail}+{e_pump}+{e_nwboil}+{e_cold}+{e_nwrail}+{e_wh}+{e_heat}"),
         Col("e_strat", "Strategic loads (halls, station, valley)", "{Strategic loads:strat_gwh}", kind="link"),
         Col("e_total", "All electricity used", "{e_ord}+{e_strat}"),
         Col("veh", "Motor vehicles on the road (thousand)",
@@ -363,12 +378,14 @@ def spec_uses():
         Col("f_navy_oil", "Navy oil", "{People & output:navy_oil}*6.63", "#,##0.0"),
         Col("f_navy_coal", "Navy coal", "{P:navy_coal}*coal_gj", "#,##0.0"),
         Col("f_bunker", "Merchant bunkers", "{P:bunker}*6.63", "#,##0.0"),
-        Col("f_rail", "Steam railways", "{People & output:pop_all}*{P:rail_gj}/1000000*(1-IF(mainline_on=1,{P:rail_el},0))", "#,##0.0"),
+        Col("f_rail", "Steam railways", "MAX(0,{People & output:pop_all}*{P:rail_gj}/1000000*(1-IF(mainline_on=1,{P:rail_el},0))-{e_nwrail}/rail_kwh_gj)", "#,##0.0",
+            note="CR-057: less the locomotive fuel the rest of the Northwest's main lines no longer burn (e_nwrail / rail_kwh_gj)."),
         Col("f_ind", "Industry: fuel and steam", "MAX(0,{People & output:gdp_real}*{P:ind_mj}*IF(ind_src=2,{People & output:ind_idx},{P:ind_idx})/1000-{Uses:e_nwboil}*5.1/1000)", "#,##0.0",
             note="ind_mj already reflects Pacifica's lighter industry (about 0.35–0.4 of US intensity), consistent with ind_w; both are scaled by the same finance calibration (Paths ind_idx). Electric mill boilers replace 5.1 MJ of fuel per kWh."),
         Col("f_steel", "Steel: coke and coal", "{People & output:steel}*{P:steel_gj}", "#,##0.0"),
         Col("f_haber", "Haber–Bosch: gas", "{P:haber_kt}*haber_gj/1000", "#,##0.0"),
-        Col("f_bld", "Heating and cooking", "({People & output:homes}*{P:gj_home}+{People & output:pop_all}/1000*{P:gj_comm})/1000", "#,##0.0"),
+        Col("f_bld", "Heating and cooking", "MAX(0,({People & output:homes}*{P:gj_home}+{People & output:pop_all}/1000*{P:gj_comm})/1000-({e_wh}+{e_heat})*bld_mj/1000)", "#,##0.0",
+            note="CR-057: less the fuel the storage water heaters and the capped house heating replace (bld_mj a kWh)."),
         Col("f_feed", "The Works' feed plant (oil)", "{Strategic loads:feed_pj}", "#,##0.0", kind="link"),
         Col("f_sugar", "Sugar mills (bagasse)", "{P:sugar_kt}*24/1000", "#,##0.0"),
         Col("f_power", "Power stations' fuel", "{Electricity:pj_power}", "#,##0.0", kind="link", group="Conversion (PJ)"),
@@ -431,16 +448,30 @@ def spec_electricity():
         Col("halls_cap", "Halls / capacity", "IF({cap}>0,{Strategic loads:halls_mw}/{cap},0)", "0.0%", kind="key", group="The halls (CR-051)"),
         Col("halls_el", "Halls / electricity used", "IF({ord}+{strat}>0,{Strategic loads:halls_gwh}/({ord}+{strat}),0)", "0.0%", kind="key"),
         Col("nw_firm", "Northwest firm load (GWh, generation)",
-            "(({Uses:e_home}+{Uses:e_comm}+{Uses:e_motor}+{Uses:e_mine}+{Uses:e_rail}+{Uses:e_pump})*{P:nw_share}+{P:alu_col}*{P:alu_mwh}+{Uses:e_eln}*eln_col+({Uses:e_zinc}+{Uses:e_phos}+{Uses:e_h2}+{Uses:e_rubber}+{Uses:e_pig})*{P:nw_new}+0.3*({Uses:e_echem}-{Uses:e_alu}-{Uses:e_eln}-{Uses:e_zinc}-{Uses:e_phos}-{Uses:e_mg}-{Uses:e_cu}-{Uses:e_h2}-{Uses:e_rubber}-{Uses:e_pig}))/(1-{loss})"
+            "(({Uses:e_home}+{Uses:e_comm}+{Uses:e_motor}+{Uses:e_mine}+{Uses:e_rail}+{Uses:e_pump})*{P:nw_share}+{P:alu_col}*{P:alu_mwh}+{Uses:e_eln}*eln_col+({Uses:e_zinc}+{Uses:e_phos}+{Uses:e_h2}+{Uses:e_rubber}+{Uses:e_pig}+{Uses:e_tchem}+{Uses:e_fert})*{P:nw_new}+{Uses:e_cold}+{Uses:e_nwrail}+0.3*({Uses:e_echem}-{Uses:e_alu}-{Uses:e_eln}-{Uses:e_zinc}-{Uses:e_phos}-{Uses:e_mg}-{Uses:e_cu}-{Uses:e_h2}-{Uses:e_rubber}-{Uses:e_pig}-{Uses:e_tchem}-{Uses:e_fert}))/(1-{loss})"
             "+({Strategic loads:st_gwh}+{Strategic loads:diff_gwh})/(1-strat_loss)", group="The Northwest's own balance",
-            note="Ordinary load at the Northwest's share, Columbia aluminium, electrolytic nitrogen on the Columbia, the river's new loads (CR-055), a third of the rest of electrochemistry, the Columbia station and the diffusion plant. The mill boilers are not firm: they come after the line."),
+            note="Ordinary load at the Northwest's share, Columbia aluminium, electrolytic nitrogen on the Columbia, the river's new loads (CR-055; Tacoma's acetylene chemicals and cyanamide, CR-057), cold storage and the rest of the main lines (CR-057), three tenths of the rest of electrochemistry, the Columbia station and the diffusion plant. The mill boilers, storage heaters and house heating are not firm: they come after the line."),
         Col("nw_hyd", "Northwest hydro available (GWh)", "{Hydro:av_col}+{Hydro:av_wil}+{Hydro:av_rock}+{Hydro:av_bonn}+{Hydro:av_rreach}+{Hydro:av_wells}+{Hydro:av_mcnary}+{Hydro:av_cjoe}+{Hydro:av_col2}+{Hydro:av_colms}+0.5*{Hydro:av_int}"),
         Col("nw_surplus", "Northwest hydro beyond its firm load (GWh)", "{nw_hyd}-{nw_firm}", kind="key",
             note="Negative: the Northwest's firm load needs steam (Roslyn and the coast's plants) or power from the south."),
         Col("tie_flow", "Columbia–Sierra line, carried south (GWh)", "MIN({P:tie_mw}*8.76*tie_lf,MAX(0,{nw_surplus}))", kind="key",
             note="CR-055 purpose 1: the line takes the river's surplus first, at most its capacity × tie_lf; it displaces oil-fired steam and feeds the halls."),
         Col("nwboil_room", "Room left for the mill boilers (GWh, delivered)", "MAX(0,{nw_surplus}-{tie_flow})*(1-{loss})"),
-        Col("nw_gen", "Northwest generation needed incl. the mill boilers (GWh)", "{nw_firm}+{Uses:e_nwboil}/(1-{loss})"),
+        Col("sec_room", "Secondary room after the mill boilers (GWh, delivered)", "MAX(0,{nwboil_room}-{Uses:e_nwboil})", group="The Northwest's secondary power by season (CR-057 D)",
+            note="What the firm load, the line and the mill boilers leave: the river's paying customers of 1929-32 come next."),
+        Col("room_f", "… in the freshet (GWh)", "{sec_room}*spill_fresh"),
+        Col("room_w", "… in the winter half (GWh)", "{sec_room}*(1-spill_fresh)"),
+        Col("wh_want", "Storage water heaters wanted (GWh)", "{P:wh_homes}*wh_kwh/1000*wh_on"),
+        Col("wh_f", "Storage heaters served, freshet (GWh)", "MIN({wh_want}*wh_fresh,{room_f})"),
+        Col("wh_w", "Storage heaters served, winter (GWh)", "MIN({wh_want}*(1-wh_fresh),{room_w})"),
+        Col("heat", "Capped house heating served (GWh)", "IF({A}>=heat_from,MIN(heat_cap,MAX(0,{room_w}-{wh_w})),0)",
+            note="Only out of the winter surplus the slump leaves, after the storage heaters' winter draw; at most heat_cap."),
+        Col("left_f", "Secondary power left, freshet (GWh, delivered)", "MAX(0,{room_f}-{wh_f})"),
+        Col("left_w", "Secondary power left, winter (GWh, delivered)", "MAX(0,{room_w}-{wh_w}-{heat})"),
+        Col("spill_f", "Spilled in the freshet (GWh)", "{left_f}/(1-{loss})", kind="key"),
+        Col("spill_w", "Spilled in winter (GWh)", "{left_w}/(1-{loss})", kind="key"),
+        Col("nw_gen", "Northwest generation needed incl. the mill boilers (GWh)", "{nw_firm}+({Uses:e_nwboil}+{Uses:e_wh}+{Uses:e_heat})/(1-{loss})",
+            note="Since CR-057 also the storage heaters and the capped house heating."),
         Col("nw_short", "Northwest firm load met by steam or from the south (GWh)", "MAX(0,-{nw_surplus})"),
         Col("nw_spare", "Northwest hydro beyond its own load (GWh)", "MAX(0,{nw_hyd}-{nw_gen})", kind="key",
             note="Before the line: what the line carries plus what is spilled."),
@@ -448,7 +479,7 @@ def spec_electricity():
         Col("hyd_dry", "Hydro in a dry year (GWh)", "({Hydro:av_main}+{Hydro:av_haw_t})/{Hydro:rain}*dry_factor", group="Dry-year test"),
         Col("av_dry", "Supply possible in a dry year (GWh)", "{hyd_dry}+{th_cap}*8.76*0.85+{atom}"),
         Col("short_dry", "Shortfall in a dry year (GWh)", "MAX(0,{gen}-{av_dry})"),
-        Col("interr", "Interruptible electrochemistry (GWh)", "({Uses:e_arc}+{Uses:e_carb}+{Uses:e_abras}+{Uses:e_falloy}+{Uses:e_phos}+{Uses:e_zinc}+{Uses:e_pig}+{Uses:e_rubber})/(1-{loss})"),
+        Col("interr", "Interruptible electrochemistry (GWh)", "({Uses:e_arc}+{Uses:e_carb}+{Uses:e_abras}+{Uses:e_falloy}+{Uses:e_phos}+{Uses:e_zinc}+{Uses:e_pig}+{Uses:e_rubber}+{Uses:e_tchem}+{Uses:e_fert})/(1-{loss})"),
         Col("dry_ok", "Strategic loads kept in a dry year (1 = yes)", "IF({short_dry}<={interr},1,0)", "0"),
     ]
     sheet("Electricity", "Electricity", "Generation, capacity by source, capacity factors, losses, reserve, the dry-year test "
@@ -983,6 +1014,14 @@ def write_start(wb, sha):
         ("Columbia–Sierra line, carried south", "TWh", "{Electricity:tie_flow}/1000", "#,##0.0"),
         ("Electric boilers in the Northwest mills", "TWh", "{Uses:e_nwboil}/1000", "#,##0.0"),
         ("Northwest hydro spilled", "TWh", "{Electricity:stranded}/1000", "#,##0.0"),
+        ("… of it in the freshet (CR-057)", "TWh", "{Electricity:spill_f}/1000", "#,##0.00"),
+        ("… of it in winter (CR-057)", "TWh", "{Electricity:spill_w}/1000", "#,##0.00"),
+        ("Storage water heaters (CR-057)", "TWh", "{Uses:e_wh}/1000", "#,##0.00"),
+        ("Capped house heating (CR-057)", "TWh", "{Uses:e_heat}/1000", "#,##0.00"),
+        ("The rest of the Northwest's main lines (CR-057)", "TWh", "{Uses:e_nwrail}/1000", "#,##0.00"),
+        ("Cold storage and freezing (CR-057)", "TWh", "{Uses:e_cold}/1000", "#,##0.00"),
+        ("Tacoma: acetylene chemicals and cyanamide (CR-057)", "TWh", "({Uses:e_tchem}+{Uses:e_fert})/1000", "#,##0.00"),
+        ("Tacoma: synthetic rubber", "kt", "{Uses:rub_kt}", "#,##0"),
         ("Power investment", "$m", "{Finance link:capex}", "#,##0"),
         ("Power investment / GDP", "share", "{Finance link:capex_gdp}", "0.0%"),
         ("Checks failing this year", "tests", "{Checks:prob}", "@"),
@@ -1062,6 +1101,8 @@ def write_changes(wb, sha):
     ws.append(["2026-11-04", "CR-052", "Eleventh build (consistency, author: 'make it consistent with itself and the story'): the Columbia–Sierra line takes the river's surplus before the Northwest mill boilers, which become secondary power (tie_flow, nwboil_room); the line's delivery counts in the halls' dedicated supply (tie_halls); hydrogenation at a believable hydrogen consumption (h2_kwh 240) with fewer barrels (hyd_bbl; author: 'fewer barrels'); the gaseous-diffusion plant of 1930–1932 (CR-051) as a strategic load at the Columbia station (diff_mw); stale notes corrected.",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     ws.append(["2026-11-04", "CR-055", "Fourteenth build (PR #64 decisions 4 and 5, author: 'Yes please go ahead'): the five strategic Columbia dams costed at plant plus bulk lines (cost_bulk, no distribution) and the Columbia second units at col2_cost (0.4) of a new plant; the financial workbook re-read after its CR-051/054/055 build. Energy results unchanged; power investment lower.",
+               f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
+    ws.append(["2026-11-05", "CR-057", "Fifteenth build (CR-057 D, MR-09; CT14 amended; author, 5 Nov: 'Can you update the energy and financial models accordingly and report back before integrating?'): the river's paying customers in the slump — storage water heaters on an interruptible Northwest tariff from 1929 (wh_homes, about 1 million homes by 1932), capped house heating on the winter surplus from 1930 (heat_cap), a seasonal split of the Northwest's secondary power (spill_fresh) with the spill reported by season, the rest of the Northwest's main lines electrified in 1930-32 as a firm load (nwrail_gwh; locomotive oil displaced), cold storage and freezing (cold_gwh), and Tacoma's carbide turned from rubber in 1929 (rubber_kt 25 kt in 1929, a standby line of rub_standby from 1930) to acetylene chemicals (tchem_gwh) and cyanamide fertilizer (fert_gwh).",
                f"finance SHA-256 {sha[:16]}…; energy/build/build_energy_workbook.py"])
     for col, w in zip("ABCD", [12, 10, 80, 60]):
         ws.column_dimensions[col].width = w

@@ -1,4 +1,4 @@
-# Workbook note, 4 November 2026: the energy workbook (CR-052, CR-054 and CR-055), fourteenth build
+# Workbook note, 4–5 November 2026: the energy workbook (CR-052, CR-054, CR-055 and CR-057), fifteenth build
 
 Built from the financial workbook with its CR-052 energy link (SHA-256 recorded on the Start sheet; `finance/CR-052-workbook.md`) by [`build/extract_finance.py`](build/extract_finance.py) and [`build/build_energy_workbook.py`](build/build_energy_workbook.py), then recalculated in LibreOffice: 29,029 formulas, no errors, in all three cases. The two workbooks read each other and were iterated to a fixed point (README, "Reproduce"). All amounts are MODEL estimates; every input is a blue cell with its basis beside it.
 
@@ -22,6 +22,77 @@ The model follows the handoff (`claude/energy-workbook-handoff.md`), the storyli
 | Twelfth | **Northwest capacity for both the line and the boilers** (author: "add NW capacity and keep both"): Columbia second units in the Bonneville and Rocky Reach powerhouses (`h_col2`, decided 1923: 450 MW in 1925, 1.1 GW by 1929; `cf_col2` 0.35 on the freshet's secondary water; `col2_on`, Stress 0). The mill boilers get their full path in every year (5.0 TWh in 1929) and the line its full capacity. **The financial workbook's energy link** (`finance/CR-052-workbook.md`): this workbook's home oil and vehicles now drive the financial workbook's Story case, whose output is 3.2% higher in 1929; this workbook re-reads it (iterated to a fixed point), so the "home oil above finance" row is zero in every year: the 1932 compact is a price floor in both workbooks (author, 4 Nov 2026). `export_energy.py` writes what the financial workbook reads; `ind_src` (off) reads the financial workbook's industrial index. **Result:** Story 2.40–3.17× US electricity per person in 1920–32, 2,617 kWh a head in 1929 (93 TWh); no oil demand unmet; all checks pass. |
 | Thirteenth | **Re-read after the financial workbook's CR-051/054/055 build** (`finance/CR-051-054-055-workbook.md`); formulas and inputs unchanged. The financial workbook's output is 0.3% lower in 1929 and its Development Fund invests less in 1920–24 and in the slump, so the Fund's power credit is smaller (Story $95m in 1932, was $126m) and more is privately financed; every other result moves by under 0.2% (2,614 kWh a head in 1929, was 2,617; the multiplier 2.40–3.17 unchanged); all checks pass. `export_energy.py` now also writes the series the financial build reads (the strategic dams' capacity, the halls, the feed plant, the station, the diffusion plant, Rock Island's balance, the aluminium memo and the CR-054/055 quantities). The tables below are the twelfth build's. |
 | Fourteenth (this note) | **The strategic dams costed as decided** (author, 4 Nov 2026, the financial workbook's PR #64 decisions 4 and 5): the five Columbia dams (Bonneville, Rocky Reach, Wells, McNary, Chief Joseph) at plant plus bulk lines (`cost_bulk` $30/kW, no distribution: about $1.0bn current in 1908–32 instead of $1.45bn) and the Columbia second units at `col2_cost` 0.4 of a new plant (about $0.19bn instead of $0.48bn). Power investment in Story is $1.04bn in 1929 (was $1.15bn); energy results are unchanged; all checks pass. Re-iterated with the financial workbook to a fixed point. The tables below are the twelfth build's. |
+| Fifteenth (5 Nov 2026) | **CR-057 D, the river's paying customers in the slump; CT14 amended** (author, 5 Nov 2026: "Can you update the energy and financial models accordingly and report back before integrating?"; PROPOSED, not integrated). Storage water heaters on an interruptible Northwest tariff from 1929 (`wh_homes`, about 1 million homes by 1932, `wh_kwh` 2,500 kWh), capped house heating on the winter surplus from 1930 (`heat_cap` 0.3 TWh), a seasonal split of the Northwest's secondary power (`spill_fresh` 0.8) with the spill reported by season, the rest of the Northwest's main lines electrified in 1930–32 as a firm load (`nwrail_gwh`, 0.6 TWh by 1932; locomotive fuel displaced), cold storage and freezing (`cold_gwh`, 0.08 TWh by 1932), and Tacoma's carbide turned from rubber in 1929 (`rubber_kt` 25 kt in 1929, a standby line of 5 kt from 1930) to acetylene chemicals on the rubber line's freed power (`tchem_gwh`) and cyanamide fertilizer (`fert_gwh`, 0.4 TWh by 1932). Re-read after the financial workbook's CR-057 build (a smaller economy) and iterated to a fixed point. See "Fifteenth build" below. |
+
+## Fifteenth build (5 November 2026): CR-057 D, the river's customers
+
+Workbook SHA-256 `956077515eab9ac3b95957d61a1ccc0de6b6898b634fd34ef34d4a2ee57cc1ba`, built by `build/build_energy_workbook.py` from `build/finance_inputs.csv` (financial workbook `e657ccd3…`; the shipped financial workbook `76e70aac…` re-extracts to the same file line for line), recalculated in LibreOffice: 30,862 formulas, no errors, in all three cases. Story: every check passes. Stress fails the same checks in the same years as before: 3 in 1876–1916, 2 in 1922, 9 in 1923–24. Status: PROPOSED (CR-057 D, CT14), for the author's decision before integration. All amounts are MODEL.
+
+**Authorization.** Author, 5 November 2026: "Can you update the energy and financial models accordingly and report back before integrating?" D's customers (author, 16:21): "Electric water and house heating; electrified mountain railways; cold storage; acetylene chemicals and fertilizer after 1928". CT14 is amended (rubber about 25 kt in 1929). D reads "electrified mountain railways" as the rest of the Northwest's main lines (open decision 4).
+
+**What changed.**
+- **Uses: seven new columns.**
+  - Acetylene chemicals (`e_tchem`): the rubber line's freed power, the CR-055 rubber path less the CT14 path × 11.9 MWh a tonne.
+  - Cyanamide (`e_fert`).
+  - Cold storage (`e_cold`).
+  - The rest of the main lines (`e_nwrail`; Stress 0, since its main lines stay on steam).
+  - Storage water heaters (`e_wh`; Stress at half the take-up).
+  - Capped house heating (`e_heat`).
+  - Synthetic rubber in kt (`rub_kt`, memo).
+- **Fuel displaced.** Steam railways' fuel falls by the main lines' kWh / `rail_kwh_gj`. Buildings' heat falls by the heaters' and heating's kWh × `bld_mj` (5 MJ).
+- **The Northwest balance.**
+  - Tacoma's chemicals and cyanamide, cold storage and the main lines are firm loads.
+  - After the firm load, the Columbia–Sierra line and the mill boilers comes the secondary room (`sec_room`). It is split into freshet and winter by `spill_fresh` (0.8, in every year).
+  - The storage heaters take their freshet and winter draw (45% and 55% of `wh_kwh`) from the two halves.
+  - House heating takes at most `heat_cap` from the winter half from 1930.
+  - What is left is the spill by season (`spill_f`, `spill_w`).
+  - Tacoma's new loads are interruptible in the dry-year test.
+- **Start:** nine new key-result rows.
+- **Changes:** a fifteenth-build row.
+
+**Results, Story** (fourteenth build in brackets; the financial workbook's CR-057 economy is smaller: 31.8m people present in 1929 against 35.4m, real GDP $31.3bn against $44.5bn).
+
+| |1913|1920|1924|1927|1929|1930|1931|1932|
+|---|---|---|---|---|---|---|---|---|
+| Generation (TWh) |13.0 (14.5)|30.7 (33.0)|51.1 (57.3)|70.4 (79.3)|82.5 (92.5)|—|—|86.5 (95.3)|
+| kWh per person |703 (720)|1,286 (1,273)|1,884 (1,912)|2,367 (2,393)|2,592 (2,614)|2,526|2,530|2,590 (2,519)|
+| × US electricity per person |2.39 (2.45)|2.42 (2.40)|2.71 (2.76)|2.78 (2.81)|2.70 (2.73)|—|—|3.25 (3.17)|
+| Hydro share |71% (66%)|67% (64%)|74% (69%)|79% (73%)|84% (77%)|—|—|91% (82%)|
+| Oil imported (m bbl) |16 (38)|77 (104)|105 (157)|169 (226)|210 (305)|—|—|167 (236)|
+| Northwest secondary room after the mill boilers (TWh) |—|—|1.20|1.77|1.87|2.82|4.77|5.37|
+| Storage water heaters (TWh) |0|0|0|0|0.25|1.00|1.74|2.20|
+| … of it in winter (TWh) |0|0|0|0|0.14|0.55|0.96|1.08|
+| Capped house heating (TWh) |0|0|0|0|0|0.01|0|0|
+| The rest of the Northwest's main lines (TWh) |0|0|0|0|0|0.15|0.35|0.60|
+| Cold storage and freezing (TWh) |0|0|0|0.02|0.04|0.05|0.07|0.08|
+| Tacoma: acetylene chemicals + cyanamide (TWh) |0|0|0|0|0.30 + 0.10|0.58 + 0.20|0.61 + 0.30|0.65 + 0.40|
+| Tacoma: synthetic rubber (kt) |0|0|6|30|25 (50)|5 (53)|5 (57)|5 (60)|
+| Northwest hydro spilled (TWh) |1.96 (1.64)|4.19 (3.71)|1.38 (0.05)|2.02 (0.08)|1.84 (0.00)|2.05|3.44|3.61 (4.58)|
+| … in the freshet / in winter (TWh) |1.57 / 0.39|3.35 / 0.84|1.11 / 0.28|1.62 / 0.40|1.57 / 0.27|2.05 / 0|3.44 / 0|3.61 / 0|
+| Power investment ($m) |142 (158)|227 (480)|687 (887)|858 (1,066)|808 (1,039)|—|—|707 (638)|
+
+**Reading the results.**
+- **The four customers absorb about 3.9 TWh in 1932:**
+  - the storage heaters 2.2 TWh;
+  - Tacoma 1.05 TWh, of which 0.65 replaces the rubber line's draw;
+  - the main lines 0.6 TWh;
+  - cold storage 0.08 TWh.
+- **The winter surplus is taken in full from 1930.** House heating gets 14 GWh in 1930 and nothing in 1931–32, because the storage heaters' winter draw comes first. Served first, heating would take its 0.3 TWh cap each winter and the heaters 0.26–0.78 TWh, with the same total. Either way a heating tariff has only the slump's winter surplus to use, and the slump leaves 0.6–1.1 TWh of it.
+- **What remains is freshet water:** 2.1 TWh in 1930, 3.4 in 1931 and 3.6 in 1932, with nothing left in winter. CR-057 D's "if a large summer spill remains, electrode boilers with fuel backup are the cheapest addition (first draft) and can be added on the author's word" applies.
+- **The spill of the 1920s returns** (1.4–2.1 TWh a year in 1924–29). The financial workbook's CR-057 economy is about 10% smaller in people and a third smaller in real output, so the river runs further ahead of its customers.
+- **The main lines** displace about 27 PJ of locomotive fuel in 1932 (about 3.8m bbl of oil).
+- **kWh a head** in 1929 is 2,592: the storyline's "about 2,600" holds. The multiplier is 2.39–3.25 in 1913–32.
+- **The financial workbook's fleet payments** (CR-055 decision 7) for the rubber and hydrogenation works fall to $0.5m, $2.9m and $1.8m in 1930–32 (were $1.1m, $8.5m and $9.6m).
+- **Stress:** the heaters at half the take-up and no main-line electrification. It spills 4.0–8.3 TWh in 1929–32 (was 4.0–10.6).
+
+**Decisions for the author.** Serve house heating before the storage heaters in winter? Add electrode boilers for the freshet spill (3.4–3.6 TWh in 1931–32)? Confirm D's reading of "electrified mountain railways" as the rest of the Northwest's main lines.
+
+**Known limits.**
+- The seasonal split is one share for every year, not a monthly flow model.
+- The storage heaters' kWh (2,500 beyond the home's 1,700) and the 1 million homes are MODEL, to verify.
+- The financial workbook does not value Tacoma's acetylene chemicals and cyanamide.
+- Locomotive fuel displaced is counted at `rail_kwh_gj`.
+- The tables above this section are the twelfth build's.
 
 ## Story case (canon with the approved decisions)
 
