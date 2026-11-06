@@ -1058,10 +1058,12 @@ PROPOSED — CR-027 A22/B6: Press and image seat in 1887, with the Examiner and 
 
 PROPOSED — CR-027 A22/B6: Recruited from Edison to provide film for the Five’s press and image operation from 1895. This is work within the press seat, not a sixth seat. Recruitment and date remain proposed.
 
-### CT-DOHENY — Doheny, proposed oil successor
-**Status:** proposed_five_successor (CR-027).
+### CT-DOHENY — Edward L. Doheny, oilman and senator for Los Angeles
+**Status:** Historical person in alternate history; CR-058 NA-4 and DH-1 to DH-4, APPROVED (6 November 2026). CR-027 B6's proposal that he later succeeds to Turner's industrial seat among the Five remains PROPOSED and is an open question beside his Senate seat.
 
-PROPOSED — CR-027 B6: Later oil successor to Turner’s industrial seat. Specific appointment, tenure and scenes remain unchosen. The source names Doheny without an approved detailed biography.
+Born at Fond du Lac in 1856 (*hist.*). He leaves school at sixteen, drives mules for a boundary survey and then works for Pacifica's state survey, which from 1876 maps California's anticlines; its geologists teach him to read rock. In the 1880s he mines at Kingston, New Mexico, marries Carrie Louella Wilkins there in 1883 and makes a friendship with Albert Fall that never becomes a transaction. He reaches Los Angeles about 1890 as a wildcatter after the survey has found the city field; his gift is selling, and the railways' fuel contracts, the Santa Fe's among them, make him the largest independent beside the trust. Invited to Mexico in 1900 by A. A. Robinson of the Mexican Central, he brings in El Ébano (1901) under the Mexican Petroleum Company and Cerro Azul No. 4 (February 1916) under Huasteca; Pan American carries his crude through the canal. Thalassia overrules him twice: he must accept Article 27's concession terms, and in 1925 he may not take Lago, because Venezuela must stay the Union's own source. In return his company is the Pacifican company in Peru (CR-053: Lobitos and the northern concessions International Petroleum does not hold), with the Union's reciprocal fifth. Lago's refusal is PROPOSED. Huasteca's heavy crude goes to the Union's Atlantic coast on long contracts with no political termination clause. Pan American, under the golden share, is never sold abroad. He pays the Crown its quarter and resents it, and sits in the Senate for Los Angeles as the voice of the independents against the trust. His money for the Irish republic in 1919–1921 is a private embarrassment Thalassia tolerates, and later in the 1920s a public instrument against Britain (deferred to a later CR). No bribe: Elk Hills is the navy's reserve and the Office makes a quiet cash loan unthinkable. Ned lives and takes over the business in the 1930s. Doheny dies in 1935, beyond the book's horizon, and his name goes on a petroleum school at Carquinez.
+
+**Character use:** More successful and less criminal than the historical man: the drive and the luck without the corruption.
 
 ### CT-GIANNINI — Giannini, proposed successor
 **Status:** proposed_five_successor (CR-027).
@@ -1387,9 +1389,33 @@ Born in 1884 at Hilo, grandson of one of the 1868 emigrants from Japan to Hawai�
 
 **Status:** Historical person in alternate history; CR-044 C5(b), APPROVED and named on the page (31 October 2026).
 
-Born at San Gabriel, California, in 1885 (*hist.*), so a Pacifican by birth in this history. Grandson of a Confederate colonel killed at Third Winchester and of Benjamin Davis Wilson, the Los Angeles rancher and mayor of 1851 (*hist.*). An Olympic pentathlete in 1912 and designer of the 1913 cavalry sabre (*hist.*). In our history he led the first car-borne raid in the US Army's history in 1916; whether and where he makes such a raid in this history is OPEN, pending a Mexico–Pacifica timeline. A cavalry major seconded to the railway brigade's armoured trains, he commands *Pele* at the Kotelnich bridge with two squadrons of Russian cavalry and takes Lenin on 22 April 1920. PROPOSED: he declines to come aboard Lenin's train, the theatrical correctness of a man who thinks war should have manners; a natural player for the 1920s.
+Born at San Gabriel, California, in 1885 (*hist.*), so a Pacifican by birth in this history. Grandson of a Confederate colonel killed at Third Winchester and of Benjamin Davis Wilson, the Los Angeles rancher and mayor of 1851 (*hist.*). An Olympic pentathlete in 1912 and designer of the 1913 cavalry sabre (*hist.*). **APPROVED — CR-058:** Funston's aide in the ninety-day expedition into Chihuahua of 1916. On 14 May 1916 at the San Miguelito ranch near Rubio, with three Pacifican-built touring cars, about ten soldiers and civilian guides and drivers, he kills Julio Cárdenas, commander of Villa's Dorados, and two other men and straps the bodies to the bonnets: the first motorised raid in his service's history (*hist.*: under Pershing). The lesson of speed, engines and nerve takes him to the armoured trains. A cavalry major seconded to the railway brigade's armoured trains, he commands *Pele* at the Kotelnich bridge with two squadrons of Russian cavalry and takes Lenin on 22 April 1920. PROPOSED: he declines to come aboard Lenin's train, the theatrical correctness of a man who thinks war should have manners; a natural player for the 1920s.
 
 **Character use:** Flamboyant, superstitious, a horseman and a reader of military history; keep the historical man's temperament and give his Pacifican career its own facts as they are decided.
+
+### CT-FREDERICK-FUNSTON — Frederick Funston, commander of the southern border
+
+**Status:** Historical person in alternate history; CR-058 MX-6 and MX-11, APPROVED (6 November 2026).
+
+A Pacifican officer whose name was made in the field, in the Philippines (canon, CR-051's list of candidates). He holds the southern border command at Tucson, with Fort Huachuca as its field base, and in 1916 leads the consented ninety-day expedition into Chihuahua in person from the railhead at Columbus, with Patton as his aide and a Gulf brigade under the defence pact. The Sierra Madre is hard on his heart: he dies at the Santa Rita Hotel in Tucson on 19 February 1917, lies in state at San Francisco's City Hall and is buried at the Presidio, the city he held together after the earthquake of 1906.
+
+**Character use:** Small, quick, a fighter rather than a staff man; his last campaign is the proof that Pacifica keeps its word to Mexico.
+
+### CT-PANCHO-VILLA — Francisco "Pancho" Villa
+
+**Status:** Historical person in alternate history; CR-058 MX-4 and MX-5, APPROVED (6 November 2026).
+
+Broken by Obregón at Celaya in April 1915 and at Agua Prieta on 1–3 November 1915, after Pacifica and the Gulf recognise Carranza and carry Hill's troops to Douglas on their rails. His arms buyer, Felix A. Sommerfeld, works for the German naval attaché. El Paso, in the Gulf Republic, was his commercial capital and his family's home, so his revenge falls on Pacifica: the Naco manifesto of November 1915, Santa Isabel on 10 January 1916 and the raid on Columbus, New Mexico, on 9 March 1916. Never caught; he surrenders at Sabinas on 28 July 1920 under Adolfo de la Huerta's amnesty and is murdered at Parral on 20 July 1923, with Pacifica staying out. The ballads sing of his raid on the *californios*.
+
+**Character use:** A folk hero in Mexico's popular memory, where Pacifica stays the neighbour that took California; the honest cost of the elite friendship with the Sonorans.
+
+### CT-CHARLES-CAMSELL — Charles Camsell, geologist of the North
+
+**Status:** Historical person in alternate history; CR-058 NA-7, APPROVED (6 November 2026).
+
+Born at Fort Liard in 1876 (*hist.*). With J. Mackintosh Bell he explores Great Bear Lake for the Geological Survey of Canada in 1900 and notes cobalt bloom and copper near Echo Bay (*hist.*; one account adds uranium). PROPOSED: about 1912 he takes the Works' canoe party down the Mackenzie and the Great Bear River to the pitchblende. Deputy Minister of Mines from 1920 (*hist.*), he keeps the Canadian company's contract with the Works and Canada's sovereignty over the deposit.
+
+**Character use:** A northerner who knows the rivers and the Dene; Canada's partner, never Pacifica's agent.
 
 ### CT-ALFRED-KNOX — Alfred Knox
 
