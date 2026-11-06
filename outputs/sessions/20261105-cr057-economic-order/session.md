@@ -56,6 +56,8 @@ independence: separate-agents
 
 The workbook rebuild of 5 November (`finance/CR-057-workbook.md`) left Pacifica about a fifth poorer. A decomposition of the old model (CR-057 off) showed that the base path gives about 1.5× the Union. The Development Fund's 30% non-depreciating return gives most of the rest (to 2.37×). The author asked for a believable path to the old 2.4× and approved a growth engine built on research, diffusion, learning curves, selection, ordinary capital and income from abroad: "Yes that sounds much more accurate". `finance/CR-057-growth-design-note.md` (G1–G8) awaits the author's decisions (its §7). No rebuild until approved.
 
+Second draft (6 November, 09:18 answers: research path from 0.6%, 35%, diffusion 0.9, champions driven): four separate agents checked it against the author's sources (`growth-sources.md`, `growth-scripts/`). The main revision is that research enters as an elasticity with diminishing returns, not as a constant 35%, so the engine gives about 2.0× (cautious), 2.1× (central) and 2.4× (upper). The storyline's MODEL figure is 2.24×. The note now suggests learning rates and a network premium, and puts two new questions: decision 2a and the target, decision 7.
+
 ## Resume here
 
 CR-057 (fourth draft: A2 and the second review applied) is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:

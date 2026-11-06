@@ -1,12 +1,29 @@
 # Design note: where Pacifica's lead comes from (CR-057 follow-up)
 
-**Status:** DESIGN NOTE for the author's approval, 6 November 2026. Nothing in the storyline or the workbooks is changed by this note. Figures are MODEL; anchors marked *to verify* are not yet relied on.
+**Status:** DESIGN NOTE, second draft, 6 November 2026, for the author's approval. Nothing in the storyline or the workbooks is changed by this note. Figures are MODEL. The multiples in §5 are the note's estimates, not workbook runs. This draft checks the first against the sources the author supplied (§3) and revises the construction (§4).
 
 **Authorization:** Author, 6 November 2026:
 - "I agree that that's not the right way to calculate. However there must be a believable path to the old 2.4x. I feel like there is something we haven't considered here."
 - On the proposal of a growth engine with research, diffusion, learning curves, selection, ordinary capital and income from abroad: "Yes that sounds much more accurate".
+- 09:18, preliminary answers to the first draft's §7: "1. start at 0.6% otherwise ok. 2. 35% (very significant research being done) 3. 0.9 4. please make a suggestion 5. please make a suggestion 6. approved". Then: "Please use the attached texts, which you requested, to verify the numbers and critique the construction of the model once more, then report back to me before building." With the NYC price of primary aluminium ingot, 1895–1940.
 
-**Read with:** `finance/CR-057-workbook.md` (the rebuild of 5 November, and why it fell short); CR-020 B8–B10; CR-056 (the dynamics layer, `claude/CR-056-dynamics-workbook.md` in the claude.ai project, not yet in this repo); `outputs/research/20261105-mises-review/Mises-review.md` (MR-01, MR-07, MR-08, MR-11).
+**Read with:**
+- `finance/CR-057-workbook.md` (the rebuild of 5 November, and why it fell short);
+- CR-020 B8–B10;
+- CR-056 (the dynamics layer, `claude/CR-056-dynamics-workbook.md` in the claude.ai project, not yet in this repo);
+- `outputs/research/20261105-mises-review/Mises-review.md` (MR-01, MR-07, MR-08, MR-11).
+
+**Sources read** (the author's copies, not in the repo; page numbers are printed pages):
+- Hall and Jones (1999), *QJE* 114: 83–116;
+- Jones and Williams (1998), *QJE* 113: 1119–1135;
+- Hall, Mairesse and Mohnen (2010), "Measuring the returns to R&D" (the CIRANO 2010s-02 version of NBER w15622);
+- Wright (1936), *Journal of the Aeronautical Sciences* 3: 122–128;
+- Moser (2013), "Patents and innovation: evidence from economic history", *JEP* 27(1);
+- Mowery and Rosenberg (1998), *Paths of Innovation*;
+- McCalley (1994), *Model T Ford*;
+- USGS Data Series 140, aluminium statistics (production, and unit values in 1998 dollars).
+
+Separate agents read the books and papers. Their quotations are kept in the session folder (`outputs/sessions/20261105-cr057-economic-order/growth-sources.md`).
 
 ## 1. The finding: what the old model's lead is made of
 
@@ -19,60 +36,160 @@ Four recalculations of the current workbook, run with CR-057 switched off (Story
 | + the national champions (B9) | 1.67 | 25,789 | 27.4 | 943 |
 | **+ the Development Fund's return (B8): the old model** | **2.37** | **44,374** | **33.4** | **1,330** |
 
-- **The base is already about 1.5×.** That is `Paths!L`: a growth path at the level of the historical West and California, which CR-020 B2 put at about 1.4 times the United States. It is an input, and it is believable on its own: gold, oil, climate and a selected migrant population.
-- **The Development Fund carries most of the rest:** 0.70 of the 0.87 points above the base. It does so through one coefficient: every dollar invested raises yearly output by 30 cents from the next year on, forever, with no depreciation, no diminishing return and no failures. Through the migration and champion loops it adds 41% to real output per resident by 1929.
-- **So the old 2.4× was technology hidden inside a capital return.** The Fund's coefficient stood in for everything the storyline says makes Pacifica rich: the Polytechnic, the research institutes, the patents and the frontier industries. When CR-057 removed the Fund's surplus financing, it removed that stand-in, and the lead with it.
+- **The base is already about 1.5×.** That is `Paths!L`: a growth path at the level of the historical West and California, which CR-020 B2 put at about 1.4 times the United States. It is an input.
+- **The Development Fund carries most of the rest:** 0.70 of the 0.87 points above the base. It does so through one coefficient: every dollar invested raises yearly output by 30 cents from the next year on, forever, with no depreciation, no diminishing return and no failures.
+- **So the old 2.4× was technology hidden inside a capital return.** When CR-057 removed the Fund's surplus financing, it removed that stand-in, and the lead with it.
 
-## 2. Why capital cannot carry it, and what can
+**What the storyline actually needs.** The storyline's MODEL figure is "about 2.24 times the Union's in 1929" (master storyline, the CR-021 I/H paragraph, held within 10% by CR-056's tests). The same paragraph says "The prosperity comes from champions, talent, oil and partner growth", and that "The Union remains the larger power in real output". So the target is about 2.24× (2.0–2.46× within the 10% band), not 2.4×. Nothing in canon names the Fund's return as the source.
 
-In growth accounting, differences in output per worker this large come mostly from productivity and from the quality of the workforce, not from the amount of capital. That is the standard finding of cross-country studies (Hall and Jones 1999, *to verify*).
+## 2. Why capital cannot carry it
 
-A simple Solow comparison shows why. Investing 28% of GDP against the Union's 20%, with Pacifica's faster population growth from immigration, raises output per worker by only a few percent in the long run. Diminishing returns absorb the rest, whoever owns the capital. A believable 2.4× therefore needs an explicit productivity engine, applied to every design in the same way.
+Corrected against Hall and Jones (1999):
 
-## 3. The proposed structure
+> In cross-country levels accounting (127 countries, 1988), physical capital and years of schooling explain only part of the 31.7-fold gap in output per worker between the richest and poorest five countries. Capital intensity contributes a factor of 1.8, schooling 2.2 and the productivity residual 8.3 (p. 92). The authors trace all three to "social infrastructure", "the institutions and government policies that determine the economic environment" (p. 84).
 
-Every channel applies equally to the old Development Fund design and to CR-057's Patrimony, so that the comparison between them turns only on who pays and how.
+Two corrections to the first draft:
+- **Hall and Jones measure years of schooling, not workforce quality.** Their cause is institutions, which raise capital, schooling and productivity together. That suits Pacifica, but it does not by itself support a research channel; G2 rests on Jones and Williams and Hall, Mairesse and Mohnen instead.
+- **The Solow arithmetic gives about 7–8%, not "a few percent".** With K/Y = s/(n + g + δ): the Union is 0.20/(0.02 + 0.015 + 0.04) = 2.67, and Pacifica 0.28/(0.035 + 0.015 + 0.04) = 3.11. The ratio is 1.167, so output per worker rises by 1.167^0.5 = 1.08 with Hall and Jones's α = ⅓, or 1.167^0.43 = 1.07 with α = 0.3. Faster population growth from immigration cancels more than half the gain from investing more (without it the gain would be 18%).
 
-| ID | Channel | Mechanism | Calibration (MODEL) | Anchors |
-| --- | --- | --- | --- | --- |
-| G1 | **Base** | `Paths!L` as now: a frontier pace that already holds the Union's own technology, including its electrification (CR-056 Q1) | unchanged | CR-020 B2 |
-| G2 | **Research stock** | Research spending, public and private, accumulates into a knowledge stock that depreciates at 15% a year (as in CR-056 C3). Productivity rises with Pacifica's stock relative to the Union's, with a diminishing (logarithmic) effect. | Research intensity is a path for the author: about 0.3% of GDP in 1880, 1.5% in 1900, 2.5% in 1913 and 3% in 1929. The Union's is about 0.1–0.4% (*to verify*; US manufacturing research was under 0.5% of sales in the 1930s). The social return at Pacifica's intensity is set at 30–40%. | Hall, Mairesse and Mohnen (2010): private returns to R&D "somewhat higher than those for ordinary capital", social returns "even higher, although variable and imprecisely measured"; Jones and Williams (1998, *to verify*) |
-| G3 | **Diffusion (MR-11)** | Open patents raise the share of the knowledge stock that every firm can use | about 0.9 of the stock usable under open licensing, against about 0.6 under exclusive licences (lever) | MR-11; CR-057 E |
-| G4 | **Learning curves (MR-01: cheap inputs)** | In power, aluminium, steel, cars, chemicals and aircraft, unit cost falls a fixed share with every doubling of cumulative output. Pacifica produces far more per head, so it moves down the curves faster than the Union. Cheaper inputs lower downstream costs in proportion to their share of costs. | 15–25% per doubling (lever by sector) | Wright (1936): about 20% per doubling for aircraft; the Model T from about $850 to $260 in 1908–25 (*to verify*); CR-056's aircraft curve |
-| G5 | **Selection** | Kept as now: the skilled-entry and talent channel (B10), "Output raised by the extra talent". The examination state's effect on residents' skills is optional and must not double-count G2. | as now | CR-020 B10, CR-034 |
-| G6 | **Capital at ordinary returns** | Public and private investment both enter a capital stock that depreciates (4%), with the ordinary return (capital's share 0.3, so about 0.10–0.12 gross on the margin). Network infrastructure (grids, ports, rail) may carry a small premium for network effects that diminishes as the network fills. No 30% return on capital anywhere. | k_alpha 0.3, k_dep 4% (as in CR-056 mode 2); network premium 0–0.05 (lever) | CR-056 mode 2; MR-07 |
-| G7 | **Income from abroad and resources** | As now (Abroad, Resources) | unchanged | CR-020 B4, B9 |
-| G8 | **The champions, driven, not added** | The champions' world shares and costs respond to G2 and G4, as CR-056 C3 already does for electrical and chemical shares, rather than being an independent add-on. That avoids counting the same technology twice, once as productivity and once as champions' value added. | the champions' scale set by G2 and G4 | CR-056 C3 |
+## 3. The first draft checked against the sources
 
-## 4. Does it reach about 2.4×? Illustrative arithmetic
+| First draft | Source | Verdict |
+| --- | --- | --- |
+| HMM: private returns "somewhat higher than those for ordinary capital", social returns "even higher, although variable and imprecisely measured" | HMM abstract: "In general, the private returns to R&D are strongly positive and somewhat higher than those for ordinary capital, while the social returns are even higher, although variable and imprecisely measured in many cases." | Quote fair; full wording adopted |
+| Social return 30–40% | JW: "a conservative estimate of the social return of 30 percent" (p. 1121); their regression gives 0.35–0.37 (p. 1131); broad estimates "nearly 100 percent" (p. 1129). HMM case studies: median social 56%, private 25% (p. 25). | Supported, **but only as a marginal return at US post-war intensities** |
+| A constant 35% applied to a gap of 5–10 times the Union's intensity | JW's own model: the return is λ·g/s, inversely proportional to research intensity s (eq. 14, p. 1130). At the optimum (2–4 times actual US research) it falls to the interest rate, about 7% (p. 1133). "Stepping on toes" and "fishing out" are the reasons (p. 1125). | **Not defensible.** The first draft's ×1.25–1.5 for research was too high (see G2) |
+| 15% depreciation of the research stock | HMM: "most researchers use the 15 per cent that Griliches had settled on"; estimates run from 10% to 36% (electrical firms) (p. 15). | Supported as a convention; test 10–25% |
+| Research intensity of the Union 0.1–0.4% of GDP | Mowery and Rosenberg: 2,775 research scientists and engineers in manufacturing labs in 1921, 6,274 in 1927, 27,777 in 1940 (Table 1, pp. 21–22). Federal research was 12–20% of the US total in the 1930s, and $74.1m in 1940 (p. 27). That puts the US total near 0.4–0.6% of GNP in 1940 (inferred), and lower in the 1920s. | Supported. The 1920s were nearer 0.1–0.3%; the Union path is set at 0.05% (1880) → 0.1% (1900) → 0.15% (1913) → 0.25% (1929) |
+| Wright: "about 20% per doubling for aircraft" | Wright's 80% curve is **cumulative-average labour cost of one design in one plant**, observed up to about 200 units (pp. 122–125). Raw material falls 5% per doubling, purchased material 12% and overhead 30%; the whole airplane falls 17% per doubling at first, flattening to 10% (p. 126). | **Corrected**: 20% is labour only; the whole product falls 10–17% |
+| Model T from about $850 to $260 in 1908–25 | McCalley: the Touring went from $850 (1909 model year, "without top, windshield and gas lamps") to $290; the Runabout from $825 to $260 (from 2 December 1923, p. 309). War inflation took the Touring from $360 (1917) to $575 (March 1920). Cumulative output was about 15.1 million. | **Corrected**: two body styles mixed. Price per doubling falls about 10% in money and 15% after deflation (fit 1909–25, R² 0.92 real) |
+| Open patents: usable share 0.9 against 0.6 | Moser: no number exists; most knowledge is never patented (p. 40); open licensing raised US chemical patenting about 20% with an 8–9 year lag (p. 38) | **Construction revised**: lag and patented share (G3) |
 
-Against the 1.5× base, the engine has to supply about ×1.6. The multiples below are the note's estimates, not workbook runs:
+## 4. The revised construction
 
-| Source | Rough multiple on the base by 1929 |
-| --- | --- |
-| G2 and G3: research and diffusion. Half a point to nine-tenths of a point of extra productivity growth a year from the mid-1880s compounds to ×1.25–1.5 by 1929. | ×1.25–1.5 |
-| G4: learning curves in the energy-intensive and mechanical sectors | ×1.05–1.10 |
-| G5: selection (the migration pull gives about ×1.03 in the decomposition) | ×1.03–1.05 |
-| G6: capital deepening at ordinary returns | ×1.02–1.05 |
-| G7 and G8: income from abroad, the champions' share (about ×1.08 in the decomposition) | ×1.05–1.08 |
-| **Combined, on the 1.5× base** | **about 2.2–2.9× (middle about 2.5×)** |
+Every channel applies equally to the old Development Fund design and to CR-057's Patrimony, so the comparison turns only on who pays and how.
 
-**Cross-check on G2.** Pacifica's research intensity is above the Union's by about 1.5% of GDP on average over 1885–1929, and by about 2.5% at the end. At a 35% social return, that gives about half a point of extra growth a year on average, rising to about 0.9 points by the 1920s. That is the range in the table.
+### G1. Base
 
-The 2.4× sits just below the middle of that range. It does not need a 30% return on capital. Each piece has a historical parallel:
-- Swiss and Swedish research intensity in the 20th century;
-- Singapore's selection of its workforce;
-- Wright's learning curves;
-- Britain's income from abroad before 1914.
+`Paths!L` as now: a frontier pace that already holds the Union's own technology, including its electrification (CR-056 Q1). Unchanged.
 
-## 5. What it means for CR-057 and the Patrimony
+### G2. Research stock: an elasticity, not a constant return
 
-- **The question becomes who pays for research and public goods**, not who owns the capital. Pacifica's public share of research (the Polytechnic, the institutes, the Works' civilian research) is perhaps 1–1.5% of GDP by 1929. The Patrimony's 3% spending rule (about 0.6% of GDP in 1929) plus an ordinary research line in the budget can pay for it, with moderate taxes and no quarter-of-receipts surplus.
+- **Stock.** Research spending (public and private) accumulates into a stock that depreciates at 15% a year (lever, test 10–25%). It enters with a lag: a mean of 3–5 years for applied and private research, and 10–20 years for the Polytechnic, the institutes and basic science (HMM p. 16: "a mean lag from 4 to 6 years"; Adams: 20 years for own R&D, 10 to 30 for basic research).
+- **Effect on productivity.** ln(Pacifica's TFP / the Union's TFP) = γ × ln(Pacifica's effective stock per unit of output / the Union's).
+  - **Effective stock:** own stock plus the foreign stock it can absorb. Absorption rises with own research, because firms need their own laboratories to use outside knowledge (Mowery and Rosenberg p. 69: the aircraft industry's own R&D "has been essential to the absorption and application of technologies developed outside its boundaries"; HMM p. 31).
+  - **Leakage:** about a quarter of Pacifica's stock adds to the Union's effective stock (Coe and Helpman, in HMM p. 30: "roughly a quarter of the benefits from R&D in G-7 countries accrues to their trading partners").
+  - **Returns diminish automatically.** With γ constant, the marginal return is γ × output / stock. It falls as the stock grows, as JW's model requires.
+- **The author's 35%** is read as the net social return on Pacifica's marginal research dollar in the late 1920s, at 3% intensity. With a stock of about 0.145 of output, that gives γ ≈ (0.35 + 0.15) × 0.145 ≈ 0.07. That is just below HMM's firm-level centre ("0.01 to 0.25 but centered on 0.08", p. 21).
+- **What it gives.** On the author's path (0.6% → 1.5% → 2.5% → 3%) against the Union's path, Pacifica's effective stock per unit of output is about 4–6 times the Union's in 1929. The research channel then raises productivity by:
+
+| γ | Net return at the margin, 1929 | × TFP by 1929 |
+| --- | --- | --- |
+| 0.07 (the author's 35%) | 35% | ×1.11–1.14 |
+| 0.08 (HMM firm-level centre) | 40% | ×1.12–1.16 |
+| 0.12 | 68% | ×1.19–1.25 |
+| 0.20 (G7 country-level, biased upward, HMM p. 28) | 120% | ×1.33–1.43 |
+
+- **Public research** gets a weight of 0.5–0.7 against private research (HMM p. 19 and p. 32: lower returns to publicly funded R&D), unless the story shows it is mission-directed and close to industry. Pacifica's Polytechnic and institutes are drawn that way, so a weight of 0.8 is defensible.
+- **Only research counts.** The Works' halls and diffusion plant are production spending (CR-056's known limits). Development ("roughly two thirds of U.S. R&D investment constitutes 'D'", Mowery and Rosenberg p. 173) belongs here. Learning from production belongs in G4.
+
+**What 3% of GDP means on the page.** At about three times average earnings per research worker (salary, technicians, equipment), 3% of Pacifica's 1929 output pays for roughly 250,000 research workers, about 100,000 of them scientists and engineers. That is about 3 per 1,000 residents, two-thirds of today's US level, against the Union's 0.1–0.2 per 1,000 (6,274 in industrial laboratories in 1927). Pacifica would need to train or import about 9,000–10,000 scientists and engineers a year by the 1920s, roughly as many engineering graduates as the whole United States. That is possible only with the examination state, the Polytechnic, the institutes and émigré scientists from 1918. It becomes a story commitment, and the storyline should show the graduates. A lower path (2% by 1929) costs a third less and gives up about 3 points of the research channel, because returns diminish.
+
+### G3. Diffusion under open patents (MR-11): a faster lag on the patented part
+
+Moser has no number for "the share of the knowledge stock usable by every firm". What her evidence supports:
+- **Patents change the direction of invention more than its rate.** Countries without patent laws innovated at similar rates, "focused on a narrow set of industries in which secrecy was effective" (p. 30). Patent laws "may influence the direction of technological change and help to encourage the diffusion of knowledge, even though patent laws do not appear to be a necessary or sufficient condition for higher rates of innovation" (p. 33).
+- **Most knowledge is never patented.** "In countries with patent laws, the majority of innovations occur outside of the patent system" (p. 40). About 19–20% of US chemical innovations were patented in 1893 and 1915, and 44–49% in machinery (p. 31). Open licensing can act only on that part.
+- **Open licensing works with a lag.** Under the Chemical Foundation's nonexclusive licences of German patents from 1919, domestic patenting rose about 20%, "with a lag of eight to nine years" (p. 38).
+- **Licences do not carry know-how.** Licensees "typically cannot access the uncodified knowledge that is embodied in skilled workers and scientists" (p. 39). Mowery and Rosenberg make the same point: "U.S. experts could not replicate the Haber-Bosch process" despite the seized patents (p. 75).
+- **There is an incentive cost.** Patents are an effective protection only "for pharmaceuticals and chemical inventions" (p. 31). Compulsory licensing may discourage domestic invention "if it displaces domestic research and development" (p. 37).
+- **Fixed, equal royalties are the right form.** The sewing-machine pool's unequal fees "diverted the research investments of outside firms towards technologically inferior substitutes" (p. 37).
+
+**Revised construction.** The author's 0.9 against 0.6 is kept as the usable share of *patented* knowledge (decision 3), applied to the patented share by sector (about 20% in chemicals, about 45% in machinery and electrical). Three further changes:
+- **Adoption lag:** 3–5 years under open licensing against 6–10 under exclusive licences.
+- **Absorption:** the usable share is reached only by firms with their own laboratories (G2's absorption term).
+- **Incentive loss:** a small cut in the private research share in chemicals and drugs, partly made good by the royalty.
+
+The net effect is about ×1.01–1.03 by 1929, more as a story of speed than of level.
+
+### G4. Learning curves, counted once
+
+Construction, corrected against Wright and Mowery and Rosenberg:
+- **The rate applies to the whole product, not to labour.** Use Wright's whole-airplane curve, or industry price series, not his 80% labour curve.
+- **Most learning is industry-wide and spreads.** It runs on world cumulative output: Wright's supplier "is constantly manufacturing in greater quantities" because it sells to all manufacturers (p. 125). Only a firm-specific part runs on Pacifica's own cumulative output (suggested at one third, to verify against Irwin and Klenow 1994). The Union shares the industry-wide part. Pacifica's advantage is the firm-specific part, plus its heavier domestic use of the cheap inputs.
+- **Count each sector's gain once.** It enters at the sector's gross output relative to GDP (Hulten weights). It is not passed downstream again. Most of the price fall goes to buyers, many of them abroad, under MR-01's tight margins. What Pacifica keeps shows up as the champions' larger world shares (G8), not as a separate addition.
+- **No overlap with G2 or G6.** Tooling is capital (G6), and design and process improvement is development (G2). G4 is pure learning by doing.
+
+**The aluminium curve from the author's series.** The author's NYC ingot prices match USGS's unit values. Deflated (USGS's 1998-dollar series) against world cumulative primary output (USGS; the stock to 1899 estimated at about 28,000 t), leaving out the war years 1907 and 1915–20:
+
+| Fit | Learning rate per doubling | Doublings |
+| --- | --- | --- |
+| 1900–1929 | 16–20% (starting stock halved or doubled) | 5.5–7.0 |
+| 1909–1929 | 14–15% | about 4 |
+| 1900–1913 | 15–22% | 3–4 |
+
+- The curve flattens as the industry matures: 1909–29 gives about 14–15%.
+- **The price is Alcoa's, not a cost.** After the Hall patent expired in 1909 the nominal price held near 22–24 cents for twenty years, so the real fall from 1909 to 1929 is entirely general inflation. A competitive Pacifican industry with cheap Columbia power could fall faster.
+
+**Suggested learning rates (author's decision 4).** Per doubling of world cumulative output, on the whole product:
+
+| Sector | Rate | Basis |
+| --- | --- | --- |
+| Aluminium | 15% | The author's series: 14–18% (1900–29), 14–15% (1909–29) |
+| Electric power (equipment and fuel rate; none on hydro civil works, which are site-specific) | 10% | Coal per kWh from almost 7 lb in 1900 to under 0.9 lb by the 1960s; household power 7.45 → 6.03 cents a kWh, 1920–30 (Mowery and Rosenberg pp. 105, 117) |
+| Steel | 10% after 1900 (20% in the Bessemer decades) | To verify |
+| Motor vehicles | 15% | The Model T, 1909–25: about 10% in money and 15% after deflation per doubling, over about ten doublings (McCalley's prices and production). The price is Ford's volume strategy ("With the product's cost reduced, its sales price could be lowered", p. 144), not quality-adjusted, and it mixes in the moving line (chassis assembly from 12½ hours to 2 hours 57 minutes in 1913, p. 148), which is partly G2 |
+| Chemicals | 15% | Organic chemicals not made from coal tar, 43 → 13 cents a lb, 1921–39 (Mowery and Rosenberg p. 80). Lieberman (1984): learning on cumulated industry output and investment, "strong and consistent" across 37 products (rate to verify) |
+| Aircraft | 15% at first, 10% later | Wright's whole airplane, 17% → 10% (p. 126); cost per seat-mile 2.63 cents (Ford Trimotor, 1928) → 1.27 (DC-3, 1936) (Mowery and Rosenberg p. 63) |
+
+These rates fade as each industry matures (the aluminium fit shows it). Pacifica's net gain over the Union is about ×1.02–1.04 by 1929.
+
+### G5. Selection
+
+Kept as now: the skilled-entry and talent channel (B10), "Output raised by the extra talent". The migration pull gives about ×1.03 in the decomposition. Schooling under the examination state is optional and must not double-count G2.
+
+### G6. Capital at ordinary returns, with a network premium
+
+- **Ordinary capital.** Public and private investment both enter a capital stock that depreciates at 4%, with capital's share 0.3 (as in CR-056 mode 2). The gross marginal return is then about 0.10–0.12. Hall and Jones and the Solow arithmetic give about ×1.07–1.08 by the late 1920s for 28% investment against the Union's 20%.
+- **Suggested network premium (author's decision 5).** Core network capital only: the grid, trunk rail, the ports and the canal. Not halls, buildings or plant.
+  - **Size:** a premium of 0.08 on the margin while the network is being built, so about 0.18–0.20 gross at first. It falls to zero as the network reaches its planned extent: premium = 0.08 × (1 − coverage). Coverage for the grid is homes wired (the energy workbook: 44% in 1913, 86% in 1924, 96% in 1929). Coverage for rail and ports is route-miles and berths against the plan.
+  - **Anchors:** Bom and Ligthart (2014), a meta-analysis: "a short-run output elasticity of public capital supplied at the central government level of 0.083, which increases to 0.122 in the long run", and "almost doubled" for core regional infrastructure. Fernald (1999): "the interstate system was highly productive, but a second one would not be." That is the shape of the premium: high while the first network is built, gone once it is complete.
+  - **Size of the effect:** about ×1.01–1.03 by 1929, on top of the ordinary return.
+
+### G7 and G8. Income from abroad and resources; the champions driven, not added
+
+- G7 as now (Abroad, Resources).
+- G8 (approved): the champions' world shares and costs respond to G2 and G4, as CR-056 C3 already does for the electrical and chemical shares, rather than being an independent add-on. Together about ×1.05–1.08, the champions' ×1.08 in the decomposition.
+
+## 5. Does it reach the storyline's 2.24×? Revised arithmetic
+
+| Source | Cautious (the author's 35%) | Central | Upper |
+| --- | --- | --- | --- |
+| G1 base | 1.50 | 1.50 | 1.50 |
+| G2 research (γ 0.07 · 0.08 · 0.12) | ×1.11 | ×1.13 | ×1.22 |
+| G3 diffusion | ×1.01 | ×1.02 | ×1.03 |
+| G4 learning curves | ×1.02 | ×1.03 | ×1.04 |
+| G5 selection | ×1.03 | ×1.03 | ×1.04 |
+| G6 capital and network premium | ×1.07 | ×1.075 | ×1.09 |
+| G7 and G8 abroad, resources, champions | ×1.05 | ×1.065 | ×1.08 |
+| **Combined, 1929** | **about 2.0×** | **about 2.1×** | **about 2.4×** |
+
+- **The storyline's 2.24× is reached** at the central-to-upper values, and the cautious case sits at the bottom of its 10% band.
+- **The old 2.4× needs the upper column:**
+  - research elasticity 0.12 (a 68% net return at the margin, between HMM's median case-study social return of 56% and JW's broad estimates);
+  - strong absorption and diffusion;
+  - the network premium.
+  - The story can support that: mission-directed applied research close to industry, open patents and in-house laboratories everywhere. But it is the top of what the evidence allows, not the middle.
+- **The first draft overstated research** by applying a constant 35% to a gap far outside the measured range. Diminishing returns take most of it back. That is the main revision.
+
+## 6. What it means for CR-057 and the Patrimony
+
+- **The question becomes who pays for research and public goods**, not who owns the capital. The public share of research (the Polytechnic, the institutes, the Works' civilian research) is perhaps 1–1.5% of GDP by 1929. The Patrimony's 3% spending rule (about 0.6% of GDP in 1929) plus an ordinary research line in the budget can pay for it, with moderate taxes and no quarter-of-receipts surplus.
 - **The champions' own laboratories** pay for the private share. Open patents (MR-11) spread what both produce.
-- **Under G6, money left with citizens earns the same ordinary return as public capital.** The old and new designs then differ only in the network premium and in what the research budget is.
-- **Falling prices (MR-01)** are judged in real terms, at the Union's prices, not by money income.
+- **Under G6, money left with citizens earns the same ordinary return as public capital.** The old and new designs then differ only in the network premium and in the research budget.
+- **Falling prices (MR-01)** are judged in real terms, at the Union's prices, not by money income. CR-056 already reports both: Pacifica's GDP prices are about 1.17 times the Union's in 1929.
 
-## 6. Coordination with CR-056
+## 7. Coordination with CR-056
 
 The dynamics layer (CR-056) already has:
 - C1, unit electric drive;
@@ -82,29 +199,27 @@ The dynamics layer (CR-056) already has:
 
 G2, G6 and G8 extend those channels rather than duplicating them. CR-056 is in the claude.ai project but not in this repository, so it should be merged first. The growth engine is then built as its next layer, with the old and CR-057 designs run on it side by side.
 
-One caution from CR-056's known limits applies to G2: the Works' halls and diffusion plant are production spending, not research. Only the Works' civilian research counts in the research stock.
+## 8. Decisions for the author
 
-## 7. Decisions for the author
+| # | Decision | Status |
+| --- | --- | --- |
+| 1 | Research path: 0.6% (1880) → 1.5% (1900) → 2.5% (1913) → 3% (1929) | Decided (09:18). Implies about 3 scientists and engineers per 1,000 residents by 1929 and a pipeline of 9,000–10,000 a year (G2); a story commitment |
+| 2 | Social return 35% | Decided (09:18). Read as the net return at the margin in the late 1920s, so γ ≈ 0.07 (G2). **New question 2a**: keep that reading (about 2.0–2.1× overall), or read 35% as the return at the 1900s' lower intensity and allow γ 0.12 for mission-directed research (about 2.3–2.4×)? |
+| 3 | Diffusion 0.9 against 0.6 | Decided (09:18). Kept as the usable share of *patented* knowledge, with a faster adoption lag and an incentive loss in chemicals (G3) |
+| 4 | Learning rates by sector | Suggested in G4: aluminium 15%, power 10%, steel 10%, motor vehicles 15%, chemicals 15%, aircraft 15% → 10%; on world cumulative output, one third firm-specific |
+| 5 | Network premium | Suggested in G6: 0.08 × (1 − coverage), core network only |
+| 6 | Champions driven by G2 and G4 | Approved (09:18) |
+| 7 | Target | **New**: the storyline's 2.24× (2.0–2.46× within the 10% band), or the old 2.4×? |
+| 8 | Order of work | Merge CR-056; build the engine; run the old design and CR-057 on it with falling prices; report the old-against-new table and the storyline's MODEL figures |
 
-1. **The research-intensity path** (G2): about 0.3% → 1.5% → 2.5% → 3% of GDP, or another. It is the main driver, and the story can show it (the Polytechnic, the institutes, the champions' laboratories).
-2. **The social return to research** at that intensity: 30% (cautious) or 40%.
-3. **Diffusion under open patents** (G3): 0.9 against 0.6 for exclusive licences.
-4. **The learning rates** (G4), by sector.
-5. **A network premium** for grids, ports and rail (G6): none, or small and diminishing.
-6. **The champions driven by G2 and G4** (G8), replacing the add-on.
-7. **Order of work:**
-   - merge CR-056 into the repository;
-   - build the engine;
-   - run the old design and CR-057 on it with falling prices;
-   - report the same old-against-new table as the 5 November rebuild, and the storyline's MODEL figures.
+## Anchors
 
-## Anchors to verify
+Verified in the sources the author supplied (pages as above): Hall and Jones; Jones and Williams; Hall, Mairesse and Mohnen; Wright; Mowery and Rosenberg; Moser; McCalley. Verified online: USGS DS140 aluminium statistics; the abstracts of Bom and Ligthart (2014) and Fernald (1999); the abstract of Lieberman (1984).
 
-- Hall and Jones (1999), "Why do some countries produce so much more output per worker than others?"
-- Hall, Mairesse and Mohnen (2010), "Measuring the returns to R&D" (NBER w15622): quoted above.
-- Jones and Williams (1998) on social returns and the optimal level of research.
-- US research and development as a share of GNP in the 1920s and 1930s (the NBER chapter c2121 gives manufacturing research at under 0.5% of sales in the 1930s).
-- Wright (1936), "Factors affecting the cost of airplanes".
-- Model T prices, 1908–25.
-- Aluminium prices after 1890.
-- Historical Swiss and Swedish research intensity.
+To verify:
+- Irwin and Klenow (1994) on firm-specific and industry-wide learning;
+- steel learning rates, 1870–1929;
+- Lieberman's chemical learning rate;
+- the US research share of GNP in the 1920s (inferred above from research staff and the 1930s federal share);
+- engineering graduates in the US in the 1920s;
+- historical Swiss and Swedish research intensity.
