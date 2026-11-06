@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 226,
+    "canonical_dossiers": 229,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 220
+    "active_or_provisional_identities": 223
   },
   "people": [
     {
@@ -2970,12 +2970,12 @@
     },
     {
       "id": "CT-DOHENY",
-      "display_name": "Doheny, proposed oil successor",
+      "display_name": "Edward L. Doheny, oilman and senator for Los Angeles",
       "nature": "historical_person_in_alternate_history",
       "tier": "supporting",
-      "identity_state": "proposed_five_successor",
+      "identity_state": "approved_alternate_role_details_open",
       "story_bible_section": "CT-DOHENY",
-      "narrative_profile": "**Status:** proposed_five_successor (CR-027).\n\nPROPOSED — CR-027 B6: Later oil successor to Turner’s industrial seat. Specific appointment, tenure and scenes remain unchosen. The source names Doheny without an approved detailed biography.",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-058 NA-4 and DH-1 to DH-4, APPROVED (6 November 2026). CR-027 B6's proposal that he later succeeds to Turner's industrial seat among the Five remains PROPOSED and is an open question beside his Senate seat.\n\nBorn at Fond du Lac in 1856 (*hist.*). He leaves school at sixteen, drives mules for a boundary survey and then works for Pacifica's state survey, which from 1876 maps California's anticlines; its geologists teach him to read rock. In the 1880s he mines at Kingston, New Mexico, marries Carrie Louella Wilkins there in 1883 and makes a friendship with Albert Fall that never becomes a transaction. He reaches Los Angeles about 1890 as a wildcatter after the survey has found the city field; his gift is selling, and the railways' fuel contracts, the Santa Fe's among them, make him the largest independent beside the trust. Invited to Mexico in 1900 by A. A. Robinson of the Mexican Central, he brings in El Ébano (1901) under the Mexican Petroleum Company and Cerro Azul No. 4 (February 1916) under Huasteca; Pan American carries his crude through the canal. Thalassia overrules him twice: he must accept Article 27's concession terms, and in 1925 he may not take Lago, because Venezuela must stay the Union's own source. In return his company is the Pacifican company in Peru (CR-053: Lobitos and the northern concessions International Petroleum does not hold), with the Union's reciprocal fifth. Lago's refusal is PROPOSED. Huasteca's heavy crude goes to the Union's Atlantic coast on long contracts with no political termination clause. Pan American, under the golden share, is never sold abroad. He pays the Crown its quarter and resents it, and sits in the Senate for Los Angeles as the voice of the independents against the trust. His money for the Irish republic in 1919–1921 is a private embarrassment Thalassia tolerates, and later in the 1920s a public instrument against Britain (deferred to a later CR). No bribe: Elk Hills is the navy's reserve and the Office makes a quiet cash loan unthinkable. Ned lives and takes over the business in the 1930s. Doheny dies in 1935, beyond the book's horizon, and his name goes on a petroleum school at Carquinez.\n\n**Character use:** More successful and less criminal than the historical man: the drive and the luck without the corruption.",
       "links": [
         {
           "relationship": "proposed_successor",
@@ -2985,7 +2985,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-027"
+        "CR-027",
+        "CR-058"
       ]
     },
     {
@@ -3814,12 +3815,13 @@
       "tier": "supporting",
       "identity_state": "approved_alternate_role_details_open",
       "story_bible_section": "CT-GEORGE-PATTON",
-      "narrative_profile": "**Status:** Historical person in alternate history; CR-044 C5(b), APPROVED and named on the page (31 October 2026).\n\nBorn at San Gabriel, California, in 1885 (*hist.*), so a Pacifican by birth in this history. Grandson of a Confederate colonel killed at Third Winchester and of Benjamin Davis Wilson, the Los Angeles rancher and mayor of 1851 (*hist.*). An Olympic pentathlete in 1912 and designer of the 1913 cavalry sabre (*hist.*). In our history he led the first car-borne raid in the US Army's history in 1916; whether and where he makes such a raid in this history is OPEN, pending a Mexico–Pacifica timeline. A cavalry major seconded to the railway brigade's armoured trains, he commands *Pele* at the Kotelnich bridge with two squadrons of Russian cavalry and takes Lenin on 22 April 1920. PROPOSED: he declines to come aboard Lenin's train, the theatrical correctness of a man who thinks war should have manners; a natural player for the 1920s.\n\n**Character use:** Flamboyant, superstitious, a horseman and a reader of military history; keep the historical man's temperament and give his Pacifican career its own facts as they are decided.",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-044 C5(b), APPROVED and named on the page (31 October 2026).\n\nBorn at San Gabriel, California, in 1885 (*hist.*), so a Pacifican by birth in this history. Grandson of a Confederate colonel killed at Third Winchester and of Benjamin Davis Wilson, the Los Angeles rancher and mayor of 1851 (*hist.*). An Olympic pentathlete in 1912 and designer of the 1913 cavalry sabre (*hist.*). **APPROVED — CR-058:** Funston's aide in the ninety-day expedition into Chihuahua of 1916. On 14 May 1916 at the San Miguelito ranch near Rubio, with three Pacifican-built touring cars, about ten soldiers and civilian guides and drivers, he kills Julio Cárdenas, commander of Villa's Dorados, and two other men and straps the bodies to the bonnets: the first motorised raid in his service's history (*hist.*: under Pershing). The lesson of speed, engines and nerve takes him to the armoured trains. A cavalry major seconded to the railway brigade's armoured trains, he commands *Pele* at the Kotelnich bridge with two squadrons of Russian cavalry and takes Lenin on 22 April 1920. PROPOSED: he declines to come aboard Lenin's train, the theatrical correctness of a man who thinks war should have manners; a natural player for the 1920s.\n\n**Character use:** Flamboyant, superstitious, a horseman and a reader of military history; keep the historical man's temperament and give his Pacifican career its own facts as they are decided.",
       "links": [],
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-044"
+        "CR-044",
+        "CR-058"
       ]
     },
     {
@@ -4644,21 +4646,70 @@
         "CR-052",
         "CR-055"
       ]
+    },
+    {
+      "id": "CT-FREDERICK-FUNSTON",
+      "display_name": "Frederick Funston, commander of the southern border",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-FREDERICK-FUNSTON",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-058 MX-6 and MX-11, APPROVED (6 November 2026).\n\nA Pacifican officer whose name was made in the field, in the Philippines (canon, CR-051's list of candidates). He holds the southern border command at Tucson, with Fort Huachuca as its field base, and in 1916 leads the consented ninety-day expedition into Chihuahua in person from the railhead at Columbus, with Patton as his aide and a Gulf brigade under the defence pact. The Sierra Madre is hard on his heart: he dies at the Santa Rita Hotel in Tucson on 19 February 1917, lies in state at San Francisco's City Hall and is buried at the Presidio, the city he held together after the earthquake of 1906.\n\n**Character use:** Small, quick, a fighter rather than a staff man; his last campaign is the proof that Pacifica keeps its word to Mexico.",
+      "links": [
+        {
+          "relationship": "commands",
+          "to": "CT-GEORGE-PATTON"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "source_authority": [
+        "CR-058"
+      ]
+    },
+    {
+      "id": "CT-PANCHO-VILLA",
+      "display_name": "Francisco \"Pancho\" Villa",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-PANCHO-VILLA",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-058 MX-4 and MX-5, APPROVED (6 November 2026).\n\nBroken by Obregón at Celaya in April 1915 and at Agua Prieta on 1–3 November 1915, after Pacifica and the Gulf recognise Carranza and carry Hill's troops to Douglas on their rails. His arms buyer, Felix A. Sommerfeld, works for the German naval attaché. El Paso, in the Gulf Republic, was his commercial capital and his family's home, so his revenge falls on Pacifica: the Naco manifesto of November 1915, Santa Isabel on 10 January 1916 and the raid on Columbus, New Mexico, on 9 March 1916. Never caught; he surrenders at Sabinas on 28 July 1920 under Adolfo de la Huerta's amnesty and is murdered at Parral on 20 July 1923, with Pacifica staying out. The ballads sing of his raid on the *californios*.\n\n**Character use:** A folk hero in Mexico's popular memory, where Pacifica stays the neighbour that took California; the honest cost of the elite friendship with the Sonorans.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "source_authority": [
+        "CR-058"
+      ]
+    },
+    {
+      "id": "CT-CHARLES-CAMSELL",
+      "display_name": "Charles Camsell, geologist of the North",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-CHARLES-CAMSELL",
+      "narrative_profile": "**Status:** Historical person in alternate history; CR-058 NA-7, APPROVED (6 November 2026).\n\nBorn at Fort Liard in 1876 (*hist.*). With J. Mackintosh Bell he explores Great Bear Lake for the Geological Survey of Canada in 1900 and notes cobalt bloom and copper near Echo Bay (*hist.*; one account adds uranium). PROPOSED: about 1912 he takes the Works' canoe party down the Mackenzie and the Great Bear River to the pitchblende. Deputy Minister of Mines from 1920 (*hist.*), he keeps the Canadian company's contract with the Works and Canada's sovereignty over the deposit.\n\n**Character use:** A northerner who knows the rivers and the Dene; Canada's partner, never Pacifica's agent.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "source_authority": [
+        "CR-058"
+      ]
     }
   ],
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-06",
   "character_revision": {
-    "request": "CR-052",
-    "source": "CR-052.md; author approvals of 4 November 2026 (\"I approve Pacifican raisen Harris J. Ryan as Tesla's successor\"; \"Ryan replaces Steinmetz\"; \"Yes please go ahead and integrate the unintegrated CRs into the master storyline.\")",
+    "request": "CR-058",
+    "source": "CR-058.md; author approvals of 5–6 November 2026 (NA-4, MX-5 to MX-7, MX-11, DH-1 to DH-4; \"Just do the final fresh context check and then integrate it to main.\")",
     "status": "approved_integrated",
     "updated_ids": [
-      "CT-STEINMETZ",
-      "CT-TESLA"
+      "CT-GEORGE-PATTON",
+      "CT-DOHENY"
     ],
     "new_ids": [
-      "CT-HARRIS-RYAN"
+      "CT-FREDERICK-FUNSTON",
+      "CT-PANCHO-VILLA",
+      "CT-CHARLES-CAMSELL"
     ],
-    "limits": "Ryan's private life, the line's construction episodes and his 1934 successor OPEN (Edith Clarke PROPOSED)."
+    "limits": "Doheny's place among the Five (CR-027 B6) OPEN beside his Senate seat; Camsell's 1912 party PROPOSED; scenes and private lives OPEN."
   },
   "character_revision_history": [
     {
@@ -4916,6 +4967,19 @@
         "CT-EUGENE-WIGNER"
       ],
       "limits": "Historical persons in alternate careers; private lives and scenes OPEN. Nagaoka's ring model and proof test, Hirohito as the only one told in Tokyo PROPOSED."
+    },
+    {
+      "request": "CR-052",
+      "source": "CR-052.md; author approvals of 4 November 2026 (\"I approve Pacifican raisen Harris J. Ryan as Tesla's successor\"; \"Ryan replaces Steinmetz\"; \"Yes please go ahead and integrate the unintegrated CRs into the master storyline.\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-STEINMETZ",
+        "CT-TESLA"
+      ],
+      "new_ids": [
+        "CT-HARRIS-RYAN"
+      ],
+      "limits": "Ryan's private life, the line's construction episodes and his 1934 successor OPEN (Edith Clarke PROPOSED)."
     }
   ],
   "institutional_groups": [

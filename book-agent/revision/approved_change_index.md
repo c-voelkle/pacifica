@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 54 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 55 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1039,6 +1039,19 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - The peoples' leaders and councils for the five reaches; the diffusion plant's proportions; Kroll; the dams after 1932, Clarke's succession and the Tribune's question of 1935 (beyond the book's horizon).
+
+### CR-058 — North America: containing the Union, drawing Canada and Mexico in, who fuels the Union, and Villa, 1865–1931
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- NA-1 to NA-3: Juárez backed in 1865–67 and Maximilian shot at Querétaro; British Columbia encouraged into Confederation and the Canadian Pacific quietly financed; Grant's war of 1870 against a Union compensation strategy, Pacifica showing each capital the map; the spring of two treaties (8 May 1871 and the Alaskan rivers, BC on 20 July 1871).
+- NA-4 and DH-1 to DH-4: Doheny a Pacifican (the state survey, railway fuel, Mexican Petroleum at El Ébano 1901, Huasteca's Cerro Azul 1916, Article 27 accepted under Thalassia's order, Pan American never sold, the Senate seat, the Irish money, no bribe, Ned lives).
+- NA-5 to NA-9, NA-11, NA-13: Borden wins narrowly in 1911; the Canadian brigade at Irkutsk; Great Bear found about 1912 and Ottawa keeping the Works' contract in 1927; the western-waters treaty about 1906; the Columbia compact of 1922–1925; seals, Fraser sockeye and the 1923 halibut treaty; public power in one line.
+- NA-12a to NA-12h: the Union imports its oil from about 1910, about four-fifths by 1929, mostly from the Gulf; Standard survives as a refinery without crude; the Gulf's oil law with the 55% ceiling; the doctrine of never embargoing the Union; Guffey Petroleum in place of Gulf Oil; Huasteca's long contracts; the Caribbean understanding of 1921–1923.
+- MX-1 to MX-7, MX-10 to MX-12: Huerta refused; Newman; Sommerfeld; the Plan de San Diego in the Gulf; recognition of Carranza and the transit to Douglas in October 1915; Agua Prieta; Santa Isabel and Columbus; the consented ninety-day expedition under Funston from Tucson with a Gulf brigade; Patton at San Miguelito; Funston's death at Tucson in February 1917.
+
+**Still open:**
+- The river grant's instrument; the western-waters treaty's year; Great Bear's year, company, volumes and route; the Columbia compact's form of payment and firm-power effect; the fur-seal convention's year; Huasteca's volumes and Crown share; a Union fuel row in the financial workbook; the brigade's duties and 1919 strength; Guffey's Venezuelan company; BC's anti-Asian laws; Doheny and CR-027 B6's proposed Five seat; IR-2 to IR-5 deferred to the confrontation CR.
 
 ### Author-approved editorial safeguards
 

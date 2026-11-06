@@ -3038,6 +3038,18 @@ name = "The peoples of the Columbia's later dam reaches (Rocky Reach, Wells, McN
 id = "NITROCONV"
 name = "The European nitrogen convention (1930) and its members"
 
+[[party]]
+id = "CA"
+name = "Canada (the Dominion, with British Columbia from 1871; Britain signs its treaties until 1923)"
+
+[[party]]
+id = "VE"
+name = "Venezuela"
+
+[[party]]
+id = "HUASTECA"
+name = "Huasteca Petroleum and Doheny's Pan American (a chartered Pacifican oil company)"
+
 # ---------------------------------------------------------------------------
 # §30 Credit, oil and the brokered peace
 # ---------------------------------------------------------------------------
@@ -4412,3 +4424,192 @@ more_quotes = ["Pacifica joins the Union's group there rather than displacing it
 label_note = "The British terms are PROPOSED; joining the Union's group and keeping the Red Line are APPROVED."
 open = "The Pacifican share inside the American group is not stated in the storyline (MODEL: about $8m)."
 
+# ---------------------------------------------------------------------------
+# CR-058 — North America
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1867-JUAREZ-CREDIT"
+name = "Credit to Juárez's government on the Sonora customs"
+kind = "loan"
+parties = ["PAC", "MX"]
+from = 1867
+owes = [
+  { by = "PAC", to = "MX", what = "recognition and credit secured on the Sonora customs; rifles through Paso del Norte" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 13
+quote = "As France withdraws, Pacifica recognises Juárez's government and lends to it on the Sonora customs, and rifles for the Republic's army go south through Paso del Norte from New Mexico."
+open = "The credit's amount and term are not stated."
+
+[[commitment]]
+id = "C-1871-PAC-NAVIGATION"
+name = "The Alaskan rivers free forever to Canada"
+kind = "treaty"
+parties = ["PAC", "UK", "CA"]
+from = 1871
+owes = [
+  { by = "PAC", to = "CA", what = "navigation of the Stikine, the Yukon and the Porcupine through Alaska, free forever" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 13
+quote = "In the same weeks Pacifica grants Canada, for nothing but the asking, the navigation of the Stikine, the Yukon and the Porcupine through Alaska, free forever."
+more_quotes = ["The grant is a convention signed at Monterey with Britain, with a British Columbian delegate in the British party."]
+label_note = "The grant is APPROVED; its form as a convention signed at Monterey is PROPOSED."
+
+[[commitment]]
+id = "C-1900-GULF-OIL-LAW"
+name = "The Gulf's oil law: separation of the stages and the 55% ceiling"
+kind = "compact"
+parties = ["GULF", "PAC"]
+from = 1900
+owes = [
+  { by = "GULF", to = "PAC", what = "bans secret affiliates, rebates and price agreements; no refiner owns more than a minority of producing wells; trunk pipelines are common carriers at published tariffs" },
+  { by = "PAC", to = "GULF", what = "the trust refines no more than 55% of the Republic's crude and buys at posted prices" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 25
+quote = "The Republic bans secret affiliates, rebates and price agreements and separates the stages of the business: no refiner may own more than a minority of producing wells, trunk pipelines are common carriers at published tariffs, and no refiner may refine more than fifty-five percent of the Republic's crude."
+
+[[commitment]]
+id = "C-1906-WESTERN-WATERS"
+name = "The western-waters treaty and its joint commission"
+kind = "treaty"
+parties = ["PAC", "UK", "CA"]
+from = 1906
+owes = [
+  { by = "PAC", to = "CA", what = "a joint commission of equals with powers to regulate as well as investigate on the Columbia, Kootenay, Okanagan, Similkameen, Skagit, Pend Oreille, the Fraser's salmon and the Alaskan rivers; no upstream-sovereignty doctrine" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 25
+quote = "Its joint commission is a commission of equals with powers to regulate as well as to investigate, the strong commission Canada wanted, and Pacifica, downstream on the Columbia, rejects the doctrine that an upstream state owes its neighbour nothing."
+open = "The year (about 1906) is PROPOSED; the commission's name is not stated."
+
+[[commitment]]
+id = "C-1911-FUR-SEAL"
+name = "The four-power fur-seal convention"
+kind = "convention"
+parties = ["PAC", "UK", "CA", "RU", "JP"]
+from = 1911
+owes = [
+  { by = "PAC", to = "CA", what = "fifteen percent of the Pribilof catch; from 1921 also fifteen percent of the Commander Islands catch" },
+  { by = "JP", to = "CA", what = "ten percent of Robben Island's catch" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 25
+quote = "it proposes a conservation regime and seats Canadian delegates at the table, and the four-power convention bans pelagic sealing and gives Canada fifteen percent of the Pribilof catch, fifteen percent of the Commander Islands' and ten percent of Robben Island's."
+open = "The year of Pacifica's first convention (the 1890s, PROPOSED) and of the four-power convention are not stated; 1911 is history's."
+
+[[commitment]]
+id = "C-1912-GREATBEAR-OFFTAKE"
+name = "Great Bear Lake: the Works' exclusive contract"
+kind = "concession"
+parties = ["CA", "PAC"]
+from = 1912
+owes = [
+  { by = "CA", to = "PAC", what = "a Canadian-chartered company sells the Works all its ore under an exclusive contract" },
+  { by = "PAC", to = "CA", what = "finances the company; a free allowance of the salt for Canada's hospitals; the Works' ore-handling code" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 27
+quote = "A Canadian-chartered company works the deposit on Crown land, so Canada's sovereignty is never in question; the Works finances it and takes all its ore under an exclusive contract, as a radium play, and Canada's hospitals receive a free allowance of the salt, the charity on show; the uranium rides along as an afterthought."
+more_quotes = ["when London, needing uranium, asks it to set aside the Works' Great Bear contract for imperial priority, Ottawa keeps the contract"]
+open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated."
+
+[[commitment]]
+id = "C-1915-MX-RECOGNITION"
+name = "Recognition of Carranza and the rail transit to Douglas"
+kind = "settlement"
+parties = ["PAC", "GULF", "MX"]
+from = 1915
+owes = [
+  { by = "PAC", to = "MX", what = "recognition jointly with the Gulf; rail transit for Hill's troops to Douglas; no arms" },
+  { by = "GULF", to = "MX", what = "recognition jointly with Pacifica; rail transit from Eagle Pass" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 30
+quote = "After Obregón breaks Villa at Celaya in April 1915, Pacifica and the Gulf recognise Carranza together in October."
+
+[[commitment]]
+id = "C-1916-CHIHUAHUA"
+name = "The consented ninety-day expedition into Chihuahua"
+kind = "pact"
+parties = ["PAC", "MX", "GULF"]
+from = 1916
+until = 1916
+owes = [
+  { by = "MX", to = "PAC", what = "formal consent under the Apache convention's pursuit clause; liaison officers from the War Ministry" },
+  { by = "PAC", to = "MX", what = "ninety days, kept to the day; no fighting with Carranza's troops" },
+  { by = "GULF", to = "PAC", what = "a brigade under the defence pact of 1900" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 30
+quote = "Carranza, who depends on Pacifican credit and fears a Union-style occupation, consents formally under the pursuit clause of the Apache convention; Obregón's War Ministry attaches liaison officers, so the columns never fight Carranza's troops; and the expedition has ninety days and keeps to them."
+
+[[commitment]]
+id = "C-1916-HUASTECA-UNION"
+name = "Huasteca's long contracts with the Union"
+kind = "concession"
+parties = ["HUASTECA", "US"]
+from = 1916
+owes = [
+  { by = "HUASTECA", to = "US", what = "heavy Tampico crude for the Atlantic fuel-oil market and the navy, with no political termination clause" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 30
+quote = "The contracts carry no political termination clause."
+more_quotes = ["From 1916 Huasteca's heavy Tampico crude goes to the Union's Atlantic fuel-oil market and its navy on long contracts."]
+label_note = "The contracts' start in 1916 is PROPOSED; the absence of a political termination clause is APPROVED."
+
+[[commitment]]
+id = "C-1921-CARIBBEAN-UNDERSTANDING"
+name = "The Caribbean understanding"
+kind = "settlement"
+parties = ["PAC", "GULF", "US", "CO", "VE"]
+from = 1921
+owes = [
+  { by = "PAC", to = "US", what = "Venezuela stays the Union's source; Pacifica holds only its Lago minority" },
+  { by = "US", to = "GULF", what = "no Union naval station on the Caribbean mainland" },
+  { by = "PAC", to = "GULF", what = "no Pacifican base on the Caribbean mainland; canal rights are not bases" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 33
+quote = "The Caribbean understanding of 1921–1923, brokered by Pacifica, gives each its part."
+more_quotes = ["The rule of 1898 for Cuba, no foreign bases, is extended to the Caribbean mainland and binds Pacifica too"]
+
+[[commitment]]
+id = "C-1923-HALIBUT"
+name = "The Pacific Halibut Treaty"
+kind = "treaty"
+parties = ["CA", "PAC"]
+from = 1923
+status = "APPROVED"
+cr = "CR-058"
+section = 33
+quote = "In 1923 Canada signs the Pacific Halibut Treaty with Pacifica, the first treaty it signs without Britain beside it."
+
+[[commitment]]
+id = "C-1924-COLUMBIA-STORAGE"
+name = "The Columbia storage compact"
+kind = "compact"
+parties = ["CA", "PAC"]
+from = 1924
+owes = [
+  { by = "CA", to = "PAC", what = "storage on the upper Columbia (the Arrow Lakes, Kootenay Lake, later Kinbasket)" },
+  { by = "PAC", to = "CA", what = "half of the extra downstream power, with payments for flood control; no dam flooding across the line without BC's consent and compensation" },
+]
+status = "APPROVED"
+cr = "CR-058"
+section = 33
+quote = "a compact gives British Columbia half of the extra power its storage makes downstream, and payments for flood control besides, so BC's revenue is tied to Pacifica's grid and Pacifica's power to BC's storage, with Pacifica the larger partner."
+open = "The year (1922–1925) is PROPOSED; payment in power or gold is undecided. `from` is set to 1924 within the proposed range."
