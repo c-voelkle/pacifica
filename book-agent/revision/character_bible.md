@@ -341,7 +341,7 @@ At the Hawaiian Aluminium Works in Hilo in 1923–1927 he makes fluoride recover
 
 With Victoria's backing he drafts the 1928 Thalassia Plan as the city becomes the common ministries' capital. It protects watersheds and minimum stream flows, groups heavy industry in two leeward districts, and combines hydro and downwind oil stations with electric trams and ferries. Sewage treatment, reef and fishpond protection, port quarantine, public leasehold land and a garden-city code preserve shore access, shade, low buildings and mountain-to-sea views. Thalassia’s ground remains the Hawaiian throne’s Crown land. Premiums go to the Mōʻī and fund parks, transit and schools; local administration does not transfer Hawaiian land custody. An annual bureau index counts forests, stream flows, smoke-free days, reef fish and park access. He answers impatient developers and ministries with costs and returns, and persuades Julian that the beautiful capital is worth more in newsreels than marble monuments.
 
-After Britain leaves gold in September 1931, sterling-priced aluminium threatens the Hilo works. The Industrial Board would lift the plan's limits and dam Waimanu Stream. Keawe demonstrates that refinancing the hydro board's debt through the Reserve Bank in 1932, extending repayment from twelve years to thirty, lowers power prices without sacrificing Waimanu; the statistics bureau confirms the figures. The roughly thirty-percent price reduction is a MODEL estimate. He accepts one reef cut for a naval anchorage in return for marine reserves elsewhere, earning the purists' charge of betrayal.
+After Britain leaves gold in September 1931, sterling-priced aluminium threatens the Hilo works. The Industrial Board would lift the plan's limits and dam Waimanu Stream. Keawe demonstrates that placing the hydro board's debt with savers in 1932 as thirty-year bonds at the market rate, arranged by the Reserve Bank, instead of repaying it over twelve years, lowers power prices without sacrificing Waimanu; the statistics bureau confirms the figures. The roughly thirty-percent price reduction is a MODEL estimate. He accepts one reef cut for a naval anchorage in return for marine reserves elsewhere, earning the purists' charge of betrayal.
 
 Victoria's last bargain with Julian produces the 1932 Lands and Waters Charter: watershed reserves, minimum flows, two industrial districts, mined-land restoration, public leasehold and the islands index become law throughout the islands. Waimanu is protected and the smelter keeps its gold-parity contracts. Keawe joins the hydro board and must now make the compromises himself.
 
@@ -872,6 +872,8 @@ He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1907
 
 **CR-024–CR-025, current model:** The three-week moratorium separates Japanese recapitalization and secured yen liquidity from an external payments shortage. Japan uses its own capital and Bank of Japan money; Julian's public/private San Francisco credit supplies foreign exchange. The supplied model estimates approximately $400m replacement capital, $295m BOJ liquidity and $497m foreign drawing within $600m committed. These are MODEL estimates, not Takahashi's historical accounts, and do not establish a new common-minister appointment for him.
 
+**APPROVED — CR-057:** In the winter of 1931–32 he asks the Concord's common Finance minister for fresh dollars for Japan's villages and is refused. Tokyo's answer is the adjustable parity it wins at Thalassia, and the officers who strike in May 1932 name the refusal among their reasons.
+
 ### CT-SUN-YAT-SEN — Sun Yat-sen
 **Status:** Pacifican backing and Qing fall approved; particular exile, funding and academy mechanics proposed. The Honolulu-educated revolutionary loses his initial struggle to Yuan, builds his Canton movement with Pacifican help and dies in 1925. Chiang succeeds him. Pacifica’s concurrent work with Zhang Zuolin for Siberia remains a visible contradiction.
 
@@ -882,6 +884,8 @@ He keeps the Japanese units loyal in 1932 with the lesson of his father’s 1907
 **Status:** Manchurian role and 1928 assassination retained; Siberian cooperation and corridor motive proposed. The Fengtian leader supplies coalition manpower and rail access while Pacifica separately backs Sun. Japanese officers kill him in June 1928; his son succeeds in Manchuria. He is not Sun’s successor.
 
 **CR-030–CR-031:** His cooperation sustains the Chinese-owned Manchurian route whose capacity limits the coalition far behind the Ob. Japanese running rights and wartime railway administration are distinct from territorial title. The later Harbin Chinese articles are proposed; no new personal treaty commission is inferred.
+
+**APPROVED — CR-057:** In 1923 his government of the Three Eastern Provinces charters an industrial district at Huludao beside the harbour trust, under Chinese law, with shared dues, bonded quays under the Customs Inspectorate's seal and Japanese firms admitted on the same terms as everyone.
 
 ### CT-ZHANG-XUELIANG — Zhang Xueliang
 **Status:** Holds Manchuria after his father’s assassination, approved by CR-018 A18. Brings Manchuria into the Nationalist state, with railway sovereignty and alliance obligations. **[PROPOSED]** Hostility to his father’s killers and dependence on the Ob coalition make Julian’s restraint valuable; the 1929 Soviet probe becomes a coalition victory.
@@ -935,6 +939,8 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 
 **APPROVED — CR-051:** Out of the Five from 1924 but still the halls' patron, he presses in 1926–1927 with Szilárd to shorten the Columbia's cooling times, and the Chief refuses.
 
+**APPROVED — CR-057:** He puts his own polyphase patents on the Polytechnic's open list, and that is his authority when he answers Baekeland's campaign for exclusive licences at the Five's table.
+
 ### CT-STEINMETZ — Charles Steinmetz
 **Status:** Historical person recruited to a Polytechnic chair in 1889 under CR-020 B9/E11. AC theory and turbo-generator work strengthen the electrical programme. **Open:** Appointment terms, collaborators, private life and specific scenes; source-supplied technical roles do not make every historical invention automatically Pacifican.
 
@@ -959,6 +965,8 @@ Caribbean pressure, Japanese courtship, the Cape Horn fleet voyage, Bull Moose s
 
 
 **PROPOSED — CR-027:** A later successor among the Five as the realm’s needs change; precise tenure and portfolio are not settled.
+
+**APPROVED — CR-057:** Bakelite (1907), made in a Polytechnic chair, is licensed to every rival at the same two percent under the open rule. From his chair, outside the Five, he leads the chemical and electrical champions' campaign for exclusive licences on chair-holders' inventions; Tesla answers him at the Five's table, and the Senate keeps the rule.
 
 ### CT-HUEY-LONG — Huey Long, Gulf examination-franchise opponent
 **Status:** Historical person in an approved alternate Gulf role under CR-020 B5. He attacks the examination franchise as an assault on the common white voter and loses. His constituency has its own political demands within the sovereign Gulf Republic; Pacifica's admission standards threaten planter power and local political machines. **Open:** Campaign date, office held, personal alliances and scene-level outcome. His opposition does not imply that the Gulf is admitted by 1932.
@@ -1067,6 +1075,8 @@ PROPOSED — CR-027 B6: Later oil successor to Turner’s industrial seat. Speci
 **Status:** proposed_five_successor (CR-027).
 
 PROPOSED — CR-027 B6: Among later successors as the realm’s needs change. Exact identity details, seat, date and career are unprovided; no appointment is approved by inclusion here.
+
+**APPROVED — CR-057:** In the winter of 1931–32 A. P. Giannini of the Bank of Italy asks the Realm's Treasury for credit for the farmers and the small firms, and the Industrial Board stands with him; the Treasury refuses. He speaks as a banker, not from a seat. Whether he is the successor CR-027 proposes stays OPEN.
 
 ### CT-MONTGOMERY — Montgomery, proposed successor
 **Status:** proposed_identity_unresolved (CR-027).
@@ -1435,6 +1445,8 @@ Pavel (Paul) Kashevarov, born about 1884 at Sitka, a Creole of Russian and Aluti
 
 **Character use:** A ledger-keeper who sees Mikhailov's game because it is his own: a provincial, half an outsider, faster than his superiors. The one man on the Pacifican side who knows the full cost of the Omsk night. The storyline gives no verdict on him.
 
+**APPROVED — CR-057:** In the winter of 1931–32 he tells the Reserve Bank's board what printing does: he watched Mikhailov's treasury print Siberia's money away in the autumn of 1918, until the Kazan gold and Pacifican credit stopped it. His testimony carries the refusal.
+
 ### CT-MARIA-GRISHINA-ALMAZOVA — Maria Grishina-Almazova
 
 **Status:** Historical person in alternate history; CR-045, APPROVED (31 October 2026). Sources: Petin, *Noveishaya istoriya Rossii* 9:2 (2019).
@@ -1787,3 +1799,21 @@ Historical people in alternate careers; no invented scientists are added.
 **APPROVED — CR-051:** Born in 1867. Carquinez found first the elements her historical prizes honoured, so her prize of 1911 goes to her school's chemistry of the "elements beyond uranium" that neutrons produce, after Hillebrand withdraws Carquinez from consideration; the laboratory most likely to break the transuranic error becomes the one most committed to defending it. In the war she serves at the front. **Open:** scenes.
 
 **Voice:** Austere, tireless, loyal to her school's results.
+
+
+## CR-057 — the economic order tightened (6 November 2026)
+
+### CT-JOHN-CALKINS — John U. Calkins, governor of the Reserve Bank in the slump
+**Status:** Historical person in alternate history (CR-057, APPROVED; dates to verify).
+
+**APPROVED — CR-057:** Historically the governor of the Federal Reserve Bank of San Francisco from 1919 to 1936 (to verify). Here he governs the Realm's Reserve Bank through the slump. In the winter of 1931–32 he stands behind the Treasury and the common Finance minister when they refuse to print, and the cover holds. **Open:** his earlier career; scenes.
+
+### CT-WANG-YONGJIANG — Wang Yongjiang, finance chief of the Three Eastern Provinces
+**Status:** Historical person in alternate history (CR-057, APPROVED; died 1927, to verify).
+
+**APPROVED — CR-057:** Zhang Zuolin's finance chief and the founder of Mukden's own industries. In 1923 he writes Chinese law and shared dues into the Huludao industrial district's charter, keeps its bonded quays under the Customs Inspectorate's seal, and admits Japanese firms on the same terms as everyone. **PROPOSED — CR-057 (set piece):** his fight against Zhang's printing of Mukden's own paper money in 1926–27 is the district's warning of what the Reserve Bank refuses in 1931–32.
+
+### CT-HAYASHI-KYUJIRO — Hayashi Kyūjirō, Japanese consul-general at Mukden
+**Status:** Historical person in alternate history (CR-057, PROPOSED; in post from 1928, to verify).
+
+**PROPOSED — CR-057 (set piece):** When Zhang Xueliang raises Nanjing's flag over Manchuria in 1928–29 and Nanjing confirms the Huludao district with its customs made wholly Chinese, he protests for Japan; the Restoration officers add the district to their grievances.

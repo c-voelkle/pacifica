@@ -53,7 +53,7 @@ FIELDS = [
     ("navy_oil", "Navy", "Z", "Navy oil burned", "m bbl"),
     ("navy_ships", "Navy", "K", "Ships in service", "ships"),
     ("atom_mwe", "Atomic", "V", "Atomic stations in service", "MWe"),
-    ("dev_inv", "Debt & cash", "I", "Invested by the Development Fund", "$m"),
+    ("dev_inv", "Debt & cash", "I", "Invested by the Development Fund", "$m"),  # Z (its lending base) once CR-057 has built it
     ("public_works", "Budget", "R", "Public works", "$m"),
     ("ind_idx", "Energy link", "AC", "Industrial index from the investment share (1913 = 1; CR-052 M2)", "index"),
 ]
@@ -73,6 +73,8 @@ def read(path: Path) -> dict[str, list[float]]:
             out[key] = [OPTIONAL[key]] * (LAST_ROW - FIRST_ROW + 1)
             continue
         ws = wb[sheet]
+        if key == "dev_inv" and ws["Z5"].value == "Development Fund lending base (CR-057)":
+            col = "Z"  # CR-057: the Patrimony's lending arm at home (I when c57_on = 0)
         vals = []
         for r in range(FIRST_ROW, LAST_ROW + 1):
             v = ws[f"{col}{r}"].value

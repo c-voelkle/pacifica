@@ -1721,16 +1721,22 @@ open = "Year of the lease not stated (1875 = choice of site); term and rent not 
 
 [[commitment]]
 id = "C-1880-DEV-FUND"
-name = "Development Fund"
-kind = "law"
+name = "The Patrimony (its lending arm at home, the Development Fund)"
+kind = "charter"
 parties = ["PAC", "ESTATES"]
 from = 1880
-conditions = ["Seventy percent of each budget surplus, before debt repayment, goes into research, power, ports, rail and industrial credit."]
-status = "CANON"
+conditions = [
+  "Takes the state's rents, not its taxes: royalties on gold, oil and minerals after the school of mines' share, the estates' profits after what they keep for their own works, concession fees and the canal's income; half the guest-worker levy from 1890; the leased public domain's rents from 1900.",
+  "Holds railway, mortgage and champions' bonds at home until 1919; then invests across the world, never in a government in default or in treaty negotiation with Pacifica.",
+  "Spends nothing for thirty years; from 1910 pays three percent of its value each year into the budget for infrastructure, the Polytechnic and the research institutes.",
+  "Every loss is written off in public; the Development Fund lends only beside private capital that takes the first loss, except to the state's own estates.",
+]
+status = "APPROVED"
+cr = "CR-057"
 section = 19
-quote = "From 1880 a Development Fund directs seventy percent of each budget surplus, before debt repayment, into research, power, ports, rail and industrial credit."
-more_quotes = ["the Development Fund has its claim on every surplus"]
-open = "Legal form (statute or decree) not stated."
+quote = "In 1880 Elias writes the charter of the Patrimony, which takes the state's rents, not its taxes"
+more_quotes = ["the Crown holds the state's shares in its own estates, the canal and the trunk rights of way, and the Patrimony receives the rents"]
+open = "Revised by CR-057 (replaces the seventy-percent surplus rule of CR-020 B8). The charter's legal form (statute or decree) is not stated."
 
 [[commitment]]
 id = "C-1880-COLOMBIA"
@@ -1927,7 +1933,7 @@ cr = "CR-027"
 section = 24
 quote = "Their arrangement with the Crown is never written down."
 more_quotes = [
-  "The Crown does not touch their charters, appointments or the Development Fund; the estates never take sides against the Crown and never let a faction capture them.",
+  "The Crown does not touch their charters, appointments or the Patrimony; the estates never take sides against the Crown and never let a faction capture them.",
   "Seats pass to successors such as Baekeland, Doheny, Giannini and Montgomery, and after 1915 to Marcus Vance III; there are always five.",
   "In 1924, when Tesla reaches sixty-eight, the power seat passes to Harris J. Ryan, raised in Pacifica and examined at the Polytechnic, the line-builder of the Realm's long transmission.",
 ]
@@ -3755,7 +3761,7 @@ can_end = [
   { who = "PAC", how = "two-thirds Senate consent, won in 1928" },
 ]
 conditions = [
-  "Customs, gold parity and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "Customs, gold parity, the gold cover behind Japan's reserves in San Francisco and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
   "1928 conditions of consent: a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber, a Polytechnic audit reported to the Senate.",
   "Sixty delegates from each legislature meet separately at Thalassia; after three disagreements they vote together without debate.",
   "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
@@ -3766,7 +3772,7 @@ section = 33
 quote = "The Pacific Concord—太平洋協約, Taiheiyō Kyōyaku; la Concordia del Pacífico and ka Lōkahi—joins co-equal crowns."
 more_quotes = [
   "Foreign Affairs, the common Navy and their Finance belong to the Concord.",
-  "Customs, gold parity and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "Customs, gold parity, the gold cover behind Japan's reserves in San Francisco and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
   "Julian appoints the three common ministers with Japan's prime minister countersigning.",
   "The western squadron is reserved to the Japanese naval party until the 1932 renewal.",
   "Japan keeps crown, Diet, cabinet, railways, posts and home army; that army enters common command only for a Concord-declared war.",
@@ -3872,6 +3878,7 @@ from = 1931
 owes = [{ by = "PAC", to = "ENTENTE", what = "suspension of war-debt payments; debt is restructured" }]
 status = "CANON"
 section = 34
+label_note = "The APPROVED — CR-057 label before it covers the Reserve Bank's sentences on the lean and the rescues; the moratorium is base text."
 quote = "Hoover's June 1931 war-debt moratorium restrains forced selling, and debt is restructured."
 open = "Duration, debtors covered and restructured terms not stated."
 
@@ -4412,3 +4419,139 @@ more_quotes = ["Pacifica joins the Union's group there rather than displacing it
 label_note = "The British terms are PROPOSED; joining the Union's group and keeping the Red Line are APPROVED."
 open = "The Pacifican share inside the American group is not stated in the storyline (MODEL: about $8m)."
 
+# ---------------------------------------------------------------------------
+# CR-057: the economic order (integrated 6 November 2026)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1857-RESERVE-BANK"
+name = "The Reserve Bank's charter"
+kind = "charter"
+parties = ["PAC"]
+from = 1857
+conditions = ["Holds the mint's gold and the right of issue; keeps two fifths of its notes and more than a third of its deposits in gold; may not lend to the treasury beyond what the year's taxes repay."]
+status = "APPROVED"
+cr = "CR-057"
+section = 8
+quote = "In 1857 the Confederation charters a Reserve Bank and gives it the mint's gold and the right of issue"
+more_quotes = ["The Bank must keep two fifths of its notes and more than a third of its deposits in gold, and it may not lend to the treasury beyond what the year's taxes repay."]
+open = "Governors' terms and removal for cause (CR-057 B, guard 6) are not stated in the storyline."
+
+[[commitment]]
+id = "C-1927-CONCORD-RESERVES"
+name = "The gold cover behind Japan's reserves in San Francisco"
+kind = "compact"
+parties = ["PAC", "JP"]
+from = 1927
+owes = [{ by = "PAC", to = "JP", what = "Japan's gold earmarked and withdrawable without notice; half the value of its dollar balances held in gold" }]
+can_end = [{ who = "JP", how = "neither ratio can be lowered without Japan's consent" }]
+conditions = ["An agreed matter of the Concord, reviewed at every renewal; the other holders of reserves in San Francisco hold them on the same terms under compacts of their own."]
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "Japan's gold in San Francisco is earmarked and its own to withdraw without notice, and its dollar balances carry half their value in gold; neither ratio can be lowered without Japan's consent."
+more_quotes = ["The other holders of reserves in San Francisco hold them on the same terms under compacts of their own."]
+open = "The first bilateral compact's date and the other holders' compacts are not stated (CR-057 B: partner reserves held in San Francisco from 1886)."
+
+[[commitment]]
+id = "C-1915-WAR-REVENUE"
+name = "War Revenue Act"
+kind = "law"
+parties = ["PAC"]
+from = 1915
+conditions = ["The Realm's first income tax; kept, lower, at the peace."]
+status = "APPROVED"
+cr = "CR-057"
+section = 30
+quote = "To carry its share, the Treasury taxes incomes for the first time under the War Revenue Act of 1915."
+open = "Rates not stated."
+
+[[commitment]]
+id = "C-1919-PREVISION"
+name = "The Previsión"
+kind = "law"
+parties = ["PAC"]
+from = 1919
+conditions = ["A voluntary savings account deductible up to a yearly limit, tied until old age or until the holder buys a leasehold, starts a business or leaves the Realm for good; the war's savings stamps convert into it."]
+status = "APPROVED"
+cr = "CR-057"
+section = 30
+quote = "From 1919 a wage earner may deduct what he puts into a Previsión"
+open = "Caps, the withdrawal rate and age 60 are in CR-057 F, not the storyline."
+
+[[commitment]]
+id = "C-1920-CHARTERED-DISTRICTS"
+name = "The Realm's chartered industrial districts"
+kind = "law"
+parties = ["PAC"]
+from = 1920
+conditions = ["Any firm, Pacifican or foreign, gets power at cost, serviced leasehold land, a licence within weeks, bonded customs for goods made to be sold abroad, and a five-year holiday from tax on a new plant."]
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "From 1920 the Realm charters industrial districts where any firm, Pacifican or foreign, gets power at cost"
+open = "The Act's name (CR-057 A2: the Chartered Districts Act of 1920, administered by the Industrial Board) is not stated in the storyline."
+
+[[commitment]]
+id = "C-1928-THALASSIA-DISTRICTS"
+name = "The Hawaiian crown's leeward districts"
+kind = "charter"
+parties = ["HI"]
+from = 1928
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "The Hawaiian crown charters its own leeward districts under the Thalassia Plan of 1928."
+open = "Terms not stated beyond the Thalassia Plan's (C-1928-THALASSIA-PLAN)."
+
+[[commitment]]
+id = "C-1923-HULUDAO-DISTRICT"
+name = "The Huludao industrial district"
+kind = "charter"
+parties = ["CN", "PAC"]
+from = 1923
+conditions = ["Chinese law and shared dues; bonded quays under the Customs Inspectorate's seal; Japanese firms on the same terms as everyone. From 1928-29 its customs are wholly Chinese."]
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "In 1923 Zhang Zuolin's government of the Three Eastern Provinces charters an industrial district at Huludao beside the harbour trust."
+more_quotes = ["When Zhang Xueliang brings Manchuria under Nanjing's flag in 1928–29, the district's customs become wholly Chinese"]
+open = "Term not stated. A separate charter from the harbour trust (C-1909-HULUDAO-TRUST), whose terms are unchanged."
+
+[[commitment]]
+id = "C-1920-MARIVELES"
+name = "The Mariveles district"
+kind = "charter"
+parties = ["PH"]
+from = 1920
+conditions = ["Filipino firms enter on equal terms and every post is filled by Philippine examination."]
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "From 1920 the Philippine crown's district at Mariveles, at the mouth of Manila Bay, presses coconut oil"
+more_quotes = ["Filipino firms enter on equal terms and every post is filled by Philippine examination."]
+open = "Term not stated."
+
+[[commitment]]
+id = "C-1921-BIRMINGHAM-DISTRICT"
+name = "The Birmingham district"
+kind = "charter"
+parties = ["CSA", "PAC"]
+from = 1921
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "From 1921 Montgomery charters a district beside Pacifica's Birmingham works"
+open = "Terms not stated; the Birmingham works' own founding date stays OPEN (storyline item 31)."
+
+[[commitment]]
+id = "C-1924-HOUSTON-DISTRICT"
+name = "The Gulf Republic's Houston district"
+kind = "charter"
+parties = ["GULF", "PAC"]
+from = 1924
+status = "APPROVED"
+cr = "CR-057"
+section = 33
+quote = "From 1924 the Gulf Republic's district on the Houston channel refines its oil and sulphur beside Pacifican partners."
+open = "Terms not stated. Guaymas, the Mexican free port, waits on Mexico (OPEN)."

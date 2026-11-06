@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 54 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 55 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1039,6 +1039,26 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - The peoples' leaders and councils for the five reaches; the diffusion plant's proportions; Kroll; the dams after 1932, Clarke's succession and the Tribune's question of 1935 (beyond the book's horizon).
+
+### CR-057 — The economic order tightened: falling prices, the reserve compact, the Patrimony, open patents and chartered districts, the Previsión, and the growth engine
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- MR-01: falling prices; the Reserve Bank watches its cover, never a price index; the state works to make inputs cheaper where that unlocks productivity (§33, G1).
+- MR-02, MR-05, MR-06: sterilization of the 1927-28 gold inflow; Bagehot's rule; the standing debt as collateral; the hydro board's debt placed with savers (§34, G6, G7; CT4 amended).
+- MR-03 and B: partners' gold earmarked, dollar balances half covered, notes 40% and deposits 35% in gold; the ratios in treaties (§33, G4); the Reserve Bank chartered in 1857 (§8, G13).
+- MR-04: sterling's return at the old parity backed in 1925 (§33, G3).
+- MR-08, C: the Patrimony (1880) takes rents, not surpluses; half the levy from 1890; the public domain leased from 1900; nothing spent before 1910, then 3%; the Development Fund lends beside private first-loss capital (§19, G2; §24, G10, G10b; CT1, CT3, CT8, CT10, CT12).
+- MR-11, E: open Polytechnic patents from the start; auctioned concessions; no state stake in competitive industries; chartered districts at home (1920) and at Huludao, Mariveles, Birmingham, Houston and Guaymas (§19, §25, §26, §33; G1b, G2a, G5, G11, G12, G15; CT2, CT9, CT11 amended or adapted).
+- MR-12, F: the War Revenue Act of 1915 and the Previsión of 1919 (§30, G14; CT13 adapted).
+- MR-09, D: the river's customers in the slump (§34, G8); Tacoma's carbide turns to chemicals in 1929 (§33, G17; CT14 amended); the power estate's 1930-32 bonds go to savers (CT15 amended).
+- MR-14: homeland leases renewed with compensation for improvements (§5, G9).
+- The refusal to print in 1931-32: Giannini and the Industrial Board, Takahashi, Kashevarov's testimony, the governor Calkins (§34, G16).
+- The growth engine (finance/CR-057-growth-workbook.md): research at 0.6% of GDP (1880) to 2% (1929) at a 35% social return, open licensing, learning by doing, capital at the ordinary return, a network premium; the Fund's 30% return removed; falling prices (the 1913 cover held). MODEL: output per person about 2.3 times the Union's in 1929; residents about 37 million in 1932; the programme's peak about half a percent of national product in 1921; about 2.3 million vehicles a year; the prosperity comes above all from the laboratories.
+- §34 turned round (MODEL): Pacifica alone outproduces the Union at the Union's prices from 1927; in money the Union stays ahead.
+
+**Still open:**
+- The common Finance minister's name; whether A. P. Giannini is CT-GIANNINI; the Mariveles deputy; Guaymas's date (the Mexico timeline); the Birmingham works' founding date; the first bilateral reserve compact's date; Japan's reaction to the Huludao district beyond the officers' grievance (CT6: G5 kept as approved); the investment share derived from saving (CT7, H2 reporting only); the champions' world shares not yet driven by the research channel (G8).
 
 ### Author-approved editorial safeguards
 
