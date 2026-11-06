@@ -126,3 +126,45 @@ The author's NYC ingot prices match USGS's unit values. Production in metric ton
 - Bom and Ligthart (2014), *J. Econ. Surveys* 28: 889–916: "a short-run output elasticity of public capital supplied at the central government level of 0.083, which increases to 0.122 in the long run"; for core regional infrastructure, "almost doubled".
 - Fernald (1999), *AER* 89: 619–638: "the interstate system was highly productive, but a second one would not be."
 - Lieberman (1984), *RAND J.* 15: 213–228: across 37 chemical products, learning is "a function of cumulated industry output and cumulated investment rather than calendar time".
+
+
+## Third draft additions (09:48 anchors)
+
+- **Irwin and Klenow (1994)**, *JPE* 102(6):
+  - "learning rates average 20 percent" (abstract, p. 1200), with a range of 10–27% (Table 2, p. 1215);
+  - firms "learn three times more from an additional unit of their own cumulative production than from an additional unit of another firm's cumulative production";
+  - "learning spills over just as much between firms in different countries as between firms within a given country" (abstract);
+  - "The respective estimates of α and γ average .28 and .32" (p. 1217);
+  - "in terms of the marginal incentives of the firm, most of the learning is internalized" (p. 1218);
+  - the spillovers "are international in scope and therefore provide no clear justification for policies that favor domestic over foreign firms" (p. 1224).
+- **Lieberman (1984)**, *RAND J.* 15(2):
+  - price on cumulated industry output: −.471 alone, −.387 with scale, −.303 with cumulated capacity (Table 3, p. 219);
+  - "More than half of the products in the sample have estimated slope coefficients between 70% and 80%" (p. 221);
+  - about 15% of the decline is plant scale and 85% cumulated output (p. 221);
+  - R&D and capital intensity "steepen the learning curve" (p. 227);
+  - "the learning curve applies to cost rather than price … partly from shifts in profit margins" (p. 215);
+  - concentration has "no discernable effect on the slope" (p. 224).
+- **Blank and Stigler (1957)**, "The Supply of Engineers":
+  - engineering first degrees averaged 980 a year (1901–05), 1,500 (1906–10), 2,500 (1911–15), 4,020 (1916–20), 7,420 (1921–25) and 7,760 (1926–30) (Table 30, p. 75);
+  - engineers trained without a degree added "perhaps two-thirds to the number of engineering graduates" (p. 86);
+  - engineering doctorates averaged 12 a year (1921–25) and 30 (1926–30) (Table 31, p. 78);
+  - about 15% of bachelors worked in development and applied research (p. 91; 1946).
+- **Gugerli, Kupper and Speich (2010)**:
+  - the polytechnic was "graduating between 100 and 300 students a year", and graduates finding jobs in Swiss industry rarely came "close to or exceed 100 per year" (p. 65);
+  - until 1900 about half the students were foreign (p. 41);
+  - Swiss firms created research divisions with the First World War (p. 85);
+  - Ruzicka estimated chemical-industry R&D at about 10 million francs a year (c. 1942) (p. 175);
+  - Swiss R&D was 2.1% of GNP in 1969 (p. 175).
+  - Graduates read from the charts (approximate): about 335 in 1900, 340 in 1913, 620 in 1920 and 335 in 1929, from about 1,600 students in 1929.
+- **Riksdagen, Statsutskottets utlåtande nr 10, 24 April 1928:**
+  - IVA's research on power and fuel: 100,000 kronor requested, 75,000 recommended;
+  - earlier grants of 200,000 kronor (1922) and 75,000 (first half of 1923);
+  - aeronautics: 20,000 kronor (1927–28), 25,000 proposed, and a professorship in aeronautical engineering at KTH proposed.
+- **Kaiserfeld (2013)**, *Minerva* 51: 171–194 (publisher's page; check against the PDF):
+  - KTH's public allocation was SEK 360,000 in 1919;
+  - IVA's public contribution was SEK 100,000–200,000 a year, and it funded about a hundred studies in the 1920s for SEK 230,000.
+- **The steel table supplied by the author:**
+  - Head (1994) is real, with "strong learning effects", but no numeric rate was found;
+  - the pig-iron "−0.37" is unsourced, and 1 − 2^−0.37 = 22.6%, not 23–29%;
+  - Allen's "collective invention" (1983) concerns England's Cleveland district in the 1850s–1870s;
+  - "post-1900 <5%" is unsourced.

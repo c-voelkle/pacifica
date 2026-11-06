@@ -1,11 +1,12 @@
 # Design note: where Pacifica's lead comes from (CR-057 follow-up)
 
-**Status:** DESIGN NOTE, second draft, 6 November 2026, for the author's approval. Nothing in the storyline or the workbooks is changed by this note. Figures are MODEL. The multiples in §5 are the note's estimates, not workbook runs. This draft checks the first against the sources the author supplied (§3) and revises the construction (§4).
+**Status:** DESIGN NOTE, third draft, 6 November 2026, for the author's approval. The third draft records the author's 09:48 decisions and checks the anchors the author supplied then: Irwin and Klenow, Lieberman, Blank and Stigler, ETH Zurich and Sweden, and a table on steel. Nothing in the storyline or the workbooks is changed by this note. Figures are MODEL. The multiples in §5 are the note's estimates, not workbook runs. This draft checks the first against the sources the author supplied (§3) and revises the construction (§4).
 
 **Authorization:** Author, 6 November 2026:
 - "I agree that that's not the right way to calculate. However there must be a believable path to the old 2.4x. I feel like there is something we haven't considered here."
 - On the proposal of a growth engine with research, diffusion, learning curves, selection, ordinary capital and income from abroad: "Yes that sounds much more accurate".
 - 09:18, preliminary answers to the first draft's §7: "1. start at 0.6% otherwise ok. 2. 35% (very significant research being done) 3. 0.9 4. please make a suggestion 5. please make a suggestion 6. approved". Then: "Please use the attached texts, which you requested, to verify the numbers and critique the construction of the model once more, then report back to me before building." With the NYC price of primary aluminium ingot, 1895–1940.
+- 09:48, with the anchors: "I would say we should aim high as the story is supposed to present an impressive but believable alternative history. For the 35% I would therefore say research directed at industrial goals and close to industry."
 
 **Read with:**
 - `finance/CR-057-workbook.md` (the rebuild of 5 November, and why it fell short);
@@ -13,7 +14,7 @@
 - CR-056 (the dynamics layer, `claude/CR-056-dynamics-workbook.md` in the claude.ai project, not yet in this repo);
 - `outputs/research/20261105-mises-review/Mises-review.md` (MR-01, MR-07, MR-08, MR-11).
 
-**Sources read** (the author's copies, not in the repo; page numbers are printed pages):
+**Sources read** (the author's copies, not in the repo; page numbers are printed pages). The third draft adds Irwin and Klenow (1994), Lieberman (1984), Blank and Stigler (1957), Gugerli, Kupper and Speich (2010), the Riksdag statement of 1928 and Kaiserfeld (2013). The second draft read:
 - Hall and Jones (1999), *QJE* 114: 83–116;
 - Jones and Williams (1998), *QJE* 113: 1119–1135;
 - Hall, Mairesse and Mohnen (2010), "Measuring the returns to R&D" (the CIRANO 2010s-02 version of NBER w15622);
@@ -80,7 +81,7 @@ Every channel applies equally to the old Development Fund design and to CR-057's
   - **Effective stock:** own stock plus the foreign stock it can absorb. Absorption rises with own research, because firms need their own laboratories to use outside knowledge (Mowery and Rosenberg p. 69: the aircraft industry's own R&D "has been essential to the absorption and application of technologies developed outside its boundaries"; HMM p. 31).
   - **Leakage:** about a quarter of Pacifica's stock adds to the Union's effective stock (Coe and Helpman, in HMM p. 30: "roughly a quarter of the benefits from R&D in G-7 countries accrues to their trading partners").
   - **Returns diminish automatically.** With γ constant, the marginal return is γ × output / stock. It falls as the stock grows, as JW's model requires.
-- **The author's 35%** is read as the net social return on Pacifica's marginal research dollar in the late 1920s, at 3% intensity. With a stock of about 0.145 of output, that gives γ ≈ (0.35 + 0.15) × 0.145 ≈ 0.07. That is just below HMM's firm-level centre ("0.01 to 0.25 but centered on 0.08", p. 21).
+- **The author's 35% (decided 09:48)** is the return on research "directed at industrial goals and close to industry". It is held at the lower intensity of the 1900s, and returns diminish from there. That gives **γ = 0.12**, between HMM's firm-level centre ("0.01 to 0.25 but centered on 0.08", p. 21) and the G7 country-level estimates of 0.20–0.22, which are biased upward. At 3% intensity in 1929 the net return at the margin is then about 68%, still within the range of HMM's case-study social returns (median 56%) and JW's broad estimates ("nearly 100 percent"). The narrower reading (35% at the margin in 1929, γ ≈ 0.07) is kept as the cautious variant.
 - **What it gives.** On the author's path (0.6% → 1.5% → 2.5% → 3%) against the Union's path, Pacifica's effective stock per unit of output is about 4–6 times the Union's in 1929. The research channel then raises productivity by:
 
 | γ | Net return at the margin, 1929 | × TFP by 1929 |
@@ -93,7 +94,30 @@ Every channel applies equally to the old Development Fund design and to CR-057's
 - **Public research** gets a weight of 0.5–0.7 against private research (HMM p. 19 and p. 32: lower returns to publicly funded R&D), unless the story shows it is mission-directed and close to industry. Pacifica's Polytechnic and institutes are drawn that way, so a weight of 0.8 is defensible.
 - **Only research counts.** The Works' halls and diffusion plant are production spending (CR-056's known limits). Development ("roughly two thirds of U.S. R&D investment constitutes 'D'", Mowery and Rosenberg p. 173) belongs here. Learning from production belongs in G4.
 
-**What 3% of GDP means on the page.** At about three times average earnings per research worker (salary, technicians, equipment), 3% of Pacifica's 1929 output pays for roughly 250,000 research workers, about 100,000 of them scientists and engineers. That is about 3 per 1,000 residents, two-thirds of today's US level, against the Union's 0.1–0.2 per 1,000 (6,274 in industrial laboratories in 1927). Pacifica would need to train or import about 9,000–10,000 scientists and engineers a year by the 1920s, roughly as many engineering graduates as the whole United States. That is possible only with the examination state, the Polytechnic, the institutes and émigré scientists from 1918. It becomes a story commitment, and the storyline should show the graduates. A lower path (2% by 1929) costs a third less and gives up about 3 points of the research channel, because returns diminish.
+**What 3% of GDP means on the page.** At about three times average earnings per research worker (salary, technicians, equipment), 3% of Pacifica's 1929 output pays for roughly 250,000 research workers. About 100,000 of them would be scientists and engineers, or about 3 per 1,000 residents. That is two-thirds of today's US level, against the Union's 0.1–0.2 per 1,000 (6,274 in industrial laboratories in 1927).
+
+The supply of graduates is the binding limit:
+- **Blank and Stigler**, *The Demand and Supply of Scientific Personnel* (NBER 1957), "The Supply of Engineers":
+  - US first degrees in engineering averaged 7,420 a year in 1921–25 and 7,760 in 1926–30 (Table 30, p. 75);
+  - engineers trained without a degree added "perhaps two-thirds to the number of engineering graduates" (p. 86);
+  - only about 15% of bachelors worked in "development and applied research" (p. 91; a 1946 figure).
+- **ETH Zurich** (Gugerli, Kupper and Speich 2010): "between 100 and 300 students a year" graduated in the 19th century (p. 65), about 335 in 1929 from about 1,600 students (Figures 1 and 6, read from the charts). Until 1900 about half the students were foreign, and about half the graduates worked abroad.
+- **Sweden.** The Riksdag's Statsutskottet granted 75,000 kronor in 1928 for IVA's research on power and fuel (utlåtande nr 10, 24 April 1928). Kaiserfeld (*Minerva* 51, 2013) gives the Royal Institute of Technology's public allocation as SEK 360,000 in 1919. Public research was in the hundreds of thousands of kronor, far below 0.1% of GDP.
+- **Swiss research spending.** Ruzicka put Swiss chemical industry research at about 10 million francs a year around 1942 (Gugerli et al. p. 175), about 0.1% of GDP. The first national figure is 2.1% of GNP in 1969.
+
+| New scientists and engineers a year, per 100,000 residents | Rate |
+| --- | --- |
+| US engineering degrees, 1920s | about 6.5 |
+| US, including engineers without a degree | about 10.5 |
+| ETH graduates, 1900–1929 (half of them foreign) | about 8–10 (16 at the 1920 peak) |
+| **Pacifica at 3% (9,000–10,000 a year on 33m)** | **27–30** |
+| Pacifica at 2% (about 6,000–6,500 a year) | 18–20 |
+
+**No country before 1940 spent 1–3% of GDP on research** (none is found in these sources; Switzerland and Sweden were near 0.1%). Pacifica at 3% needs about 45,000–50,000 science and engineering students by the 1920s. That means 8–12 polytechnics the size of a large modern one, or about thirty ETHs, plus the secondary schools to feed them and a stream of several thousand émigré scientists after 1918.
+
+That is impressive, but it strains "believable". Two ways through (decision 1a):
+- **Keep 3%**, and make it a story commitment: the examination state's polytechnics, émigrés from Russia and Central Europe after 1918, and most of the "D" in R&D done by engineers trained on the job (Blank and Stigler's two-fifths without a degree).
+- **Lower the path to 0.6% → 1.2% → 1.8% → 2% (1929).** This still has no precedent, at about ten times the Union. Because returns diminish, it gives up only about 3 points of the research channel at γ = 0.12 (×1.20–1.21 against ×1.24–1.25). The pipeline is then about twice ETH's rate per head.
 
 ### G3. Diffusion under open patents (MR-11): a faster lag on the patented part
 
@@ -116,7 +140,11 @@ The net effect is about ×1.01–1.03 by 1929, more as a story of speed than of 
 
 Construction, corrected against Wright and Mowery and Rosenberg:
 - **The rate applies to the whole product, not to labour.** Use Wright's whole-airplane curve, or industry price series, not his 80% labour curve.
-- **Most learning is industry-wide and spreads.** It runs on world cumulative output: Wright's supplier "is constantly manufacturing in greater quantities" because it sells to all manufacturers (p. 125). Only a firm-specific part runs on Pacifica's own cumulative output (suggested at one third, to verify against Irwin and Klenow 1994). The Union shares the industry-wide part. Pacifica's advantage is the firm-specific part, plus its heavier domestic use of the cheap inputs.
+- **Experience: own output counts more, the world's counts too (Irwin and Klenow 1994).** Learning rates in semiconductors "average 20 percent", and firms "learn three times more from an additional unit of their own cumulative production than from an additional unit of another firm's cumulative production". Spillovers are as strong between countries as within them: "learning spills over just as much between firms in different countries as between firms within a given country" (abstract, p. 1200; α and γ "average .28 and .32", p. 1217). So experience is
+  - Pacifica: E = Q_Pacifica + 0.3 × (Q_world − Q_Pacifica);
+  - Union: E = Q_Union + 0.3 × (Q_world − Q_Union).
+  
+  The fixed one-third share is dropped. Pacifica's advantage then grows with its share of world output: about 77% of its experience is its own at half of world output, under 30% at a tenth. Wright's supplier, who "is constantly manufacturing in greater quantities" (p. 125), is the same idea.
 - **Count each sector's gain once.** It enters at the sector's gross output relative to GDP (Hulten weights). It is not passed downstream again. Most of the price fall goes to buyers, many of them abroad, under MR-01's tight margins. What Pacifica keeps shows up as the champions' larger world shares (G8), not as a separate addition.
 - **No overlap with G2 or G6.** Tooling is capital (G6), and design and process improvement is development (G2). G4 is pure learning by doing.
 
@@ -137,12 +165,21 @@ Construction, corrected against Wright and Mowery and Rosenberg:
 | --- | --- | --- |
 | Aluminium | 15% | The author's series: 14–18% (1900–29), 14–15% (1909–29) |
 | Electric power (equipment and fuel rate; none on hydro civil works, which are site-specific) | 10% | Coal per kWh from almost 7 lb in 1900 to under 0.9 lb by the 1960s; household power 7.45 → 6.03 cents a kWh, 1920–30 (Mowery and Rosenberg pp. 105, 117) |
-| Steel | 10% after 1900 (20% in the Bessemer decades) | To verify |
+| Steel | 20% to 1890, falling to 10% by 1900 and after | **Head (1994)**, *J. Int. Econ.* 37: 141–165: "despite strong learning effects, the steel rail tariff hurt rail users in both the short and long runs"; "The tariff's overall effect on welfare was positive but fairly small." The paper is real, but no numeric learning rate was found in accessible text, so 20% is a judgement. **There is no source for any rate after 1900.** The table supplied with the anchors is partly wrong (see below) |
 | Motor vehicles | 15% | The Model T, 1909–25: about 10% in money and 15% after deflation per doubling, over about ten doublings (McCalley's prices and production). The price is Ford's volume strategy ("With the product's cost reduced, its sales price could be lowered", p. 144), not quality-adjusted, and it mixes in the moving line (chassis assembly from 12½ hours to 2 hours 57 minutes in 1913, p. 148), which is partly G2 |
-| Chemicals | 15% | Organic chemicals not made from coal tar, 43 → 13 cents a lb, 1921–39 (Mowery and Rosenberg p. 80). Lieberman (1984): learning on cumulated industry output and investment, "strong and consistent" across 37 products (rate to verify) |
+| Chemicals | 15% (band 15–19%) | **Lieberman (1984)**, 37 products, late 1950s–1972: price falls 28% per doubling of cumulated industry output (coefficient −.471); 23.5% with plant scale controlled (−.387); and 19% with cumulated capacity also included (−.303) (Table 3, p. 219). "More than half … between 70% and 80%" (p. 221). About 15% of the decline is scale and 85% cumulated output (p. 221). R&D and capital intensity "steepen the learning curve" (p. 227), and the improvements are "embodied in plant and equipment". Price is not cost: it shifts with "profit margins" (p. 215). The gross 24–28% includes scale, embodied capital and margins, which belong to G6 and G2, so pure learning is at most 19%. Also Mowery and Rosenberg p. 80: organic chemicals not made from coal tar fell from 43 to 13 cents a lb, 1921–39 |
 | Aircraft | 15% at first, 10% later | Wright's whole airplane, 17% → 10% (p. 126); cost per seat-mile 2.63 cents (Ford Trimotor, 1928) → 1.27 (DC-3, 1936) (Mowery and Rosenberg p. 63) |
 
 These rates fade as each industry matures (the aluminium fit shows it). Pacifica's net gain over the Union is about ×1.02–1.04 by 1929.
+
+**The steel table supplied with the anchors (09:48)**, checked:
+
+| Row | Finding |
+| --- | --- |
+| Head (1994), US steel rails, 1867–1895, "~20–25%" | The citation and the "strong learning effects" are verified. The 20–25% rate, the window and "costs below British imports" are not found in accessible text |
+| Pig iron, "elasticity about −0.37 (1 − 2^−0.37 ≈ 23–29%)" | **The arithmetic is wrong**: 1 − 2^−0.37 = 22.6%. No study giving −0.37 was found. The nearest are unpublished drafts by Naknoi, with US coefficients of −0.22 to −0.44 |
+| Allen (1977, 1979), "collective invention, Cleveland and Pittsburgh, 1870–1900" | The papers are real (*JEH* 37: 605–633; *JEH* 39: 911–937), but neither abstract gives a learning rate. "Collective invention" is Allen (1983), *JEBO* 4: 1–24, and concerns England's **Cleveland district, 1850s–1870s**, not Pittsburgh |
+| "Post-1900 steel <5%" | No source found; not used |
 
 ### G5. Selection
 
@@ -174,7 +211,8 @@ Kept as now: the skilled-entry and talent channel (B10), "Output raised by the e
 | G7 and G8 abroad, resources, champions | ×1.05 | ×1.065 | ×1.08 |
 | **Combined, 1929** | **about 2.0×** | **about 2.1×** | **about 2.4×** |
 
-- **The storyline's 2.24× is reached** at the central-to-upper values, and the cautious case sits at the bottom of its 10% band.
+- **The author chose the upper column (09:48): "aim high".** With γ = 0.12 and the network premium, the engine gives about 2.4× in 1929, or about 2.35× on the 2% research path. The storyline's MODEL figure (2.24×) is then re-synced from the workbook after the build.
+- **The storyline's 2.24× is also reached** at the central-to-upper values, and the cautious case sits at the bottom of its 10% band.
 - **The old 2.4× needs the upper column:**
   - research elasticity 0.12 (a 68% net return at the margin, between HMM's median case-study social return of 56% and JW's broad estimates);
   - strong absorption and diffusion;
@@ -203,23 +241,38 @@ G2, G6 and G8 extend those channels rather than duplicating them. CR-056 is in t
 
 | # | Decision | Status |
 | --- | --- | --- |
-| 1 | Research path: 0.6% (1880) → 1.5% (1900) → 2.5% (1913) → 3% (1929) | Decided (09:18). Implies about 3 scientists and engineers per 1,000 residents by 1929 and a pipeline of 9,000–10,000 a year (G2); a story commitment |
-| 2 | Social return 35% | Decided (09:18). Read as the net return at the margin in the late 1920s, so γ ≈ 0.07 (G2). **New question 2a**: keep that reading (about 2.0–2.1× overall), or read 35% as the return at the 1900s' lower intensity and allow γ 0.12 for mission-directed research (about 2.3–2.4×)? |
+| 1 | Research path: 0.6% (1880) → 1.5% (1900) → 2.5% (1913) → 3% (1929) | Decided (09:18) |
+| 1a | **New**: keep 3% as a story commitment (about 30 ETHs' worth of graduates and an émigré stream; no precedent before 1940), or lower to 0.6% → 1.2% → 1.8% → 2% (about −3 points of the research channel)? | Open (G2) |
+| 2 | Social return 35% | Decided (09:48): research directed at industrial goals and close to industry, so γ = 0.12 (G2) |
 | 3 | Diffusion 0.9 against 0.6 | Decided (09:18). Kept as the usable share of *patented* knowledge, with a faster adoption lag and an incentive loss in chemicals (G3) |
-| 4 | Learning rates by sector | Suggested in G4: aluminium 15%, power 10%, steel 10%, motor vehicles 15%, chemicals 15%, aircraft 15% → 10%; on world cumulative output, one third firm-specific |
-| 5 | Network premium | Suggested in G6: 0.08 × (1 − coverage), core network only |
+| 4 | Learning rates by sector | Suggested in G4: aluminium 15%, power 10%, steel 20% → 10%, motor vehicles 15%, chemicals 15%, aircraft 15% → 10%. Experience E = own output + 0.3 × the rest of the world's (Irwin and Klenow), with no national premium |
+| 5 | Network premium | Suggested in G6: 0.08 × (1 − coverage), core network only. "Aim high" (09:48) is read as adopting it |
 | 6 | Champions driven by G2 and G4 | Approved (09:18) |
-| 7 | Target | **New**: the storyline's 2.24× (2.0–2.46× within the 10% band), or the old 2.4×? |
-| 8 | Order of work | Merge CR-056; build the engine; run the old design and CR-057 on it with falling prices; report the old-against-new table and the storyline's MODEL figures |
+| 7 | Target | Decided (09:48): "aim high". The upper column, about 2.4×; the storyline's figure is re-synced after the build |
+| 8 | Order of work | Merge CR-056; build the engine; run the old design and CR-057 on it with falling prices; report the old-against-new table and the storyline's MODEL figures. **CR-056's workbook and scripts (`build/cr056_dynamics.py` and the others) are not in the repository or the claude.ai project; only its note is.** Either the author uploads them, or the engine rebuilds the CR-056 channels it needs from the note's specification: C1 unit drive, C5 women's work, and mode 2's capital stock (which G6 supersedes). C3 is superseded by G2 and G8 |
 
 ## Anchors
 
-Verified in the sources the author supplied (pages as above): Hall and Jones; Jones and Williams; Hall, Mairesse and Mohnen; Wright; Mowery and Rosenberg; Moser; McCalley. Verified online: USGS DS140 aluminium statistics; the abstracts of Bom and Ligthart (2014) and Fernald (1999); the abstract of Lieberman (1984).
+**Verified in the sources the author supplied** (pages as above):
+- Hall and Jones;
+- Jones and Williams;
+- Hall, Mairesse and Mohnen;
+- Wright;
+- Mowery and Rosenberg;
+- Moser;
+- McCalley;
+- Irwin and Klenow (1994), *JPE* 102: 1200–1227;
+- Lieberman (1984), *RAND J.* 15: 213–228;
+- Blank and Stigler (1957), "The Supply of Engineers";
+- Gugerli, Kupper and Speich (2010);
+- Riksdagen, Statsutskottets utlåtande nr 10 (1928);
+- Kaiserfeld (2013), *Minerva* 51 (quotes from the publisher's page; to check against the PDF).
 
-To verify:
-- Irwin and Klenow (1994) on firm-specific and industry-wide learning;
-- steel learning rates, 1870–1929;
-- Lieberman's chemical learning rate;
-- the US research share of GNP in the 1920s (inferred above from research staff and the 1930s federal share);
-- engineering graduates in the US in the 1920s;
-- historical Swiss and Swedish research intensity.
+**Verified online:**
+- USGS DS140 aluminium statistics;
+- the abstracts of Bom and Ligthart (2014), Fernald (1999), Head (1994) and Allen (1977, 1979, 1983).
+
+**To verify:**
+- a numeric learning rate for steel at any date (Head's estimate is not in accessible text);
+- US census counts of engineers, 1900–1930;
+- the US research share of GNP in the 1920s, inferred from research staff and the 1930s federal share.
