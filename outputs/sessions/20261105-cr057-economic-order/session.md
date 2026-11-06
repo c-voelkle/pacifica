@@ -1,7 +1,7 @@
 ---
 session: 20261105-cr057-economic-order
 started: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 mode: draft
 status: paused-for-author
 baseline:
@@ -51,6 +51,10 @@ independence: separate-agents
 | X2 | `cr_facts.py preview CR-057.md` and `--tensions` | no fact changes declared; no tension carries fact changes |
 | X3 | Fresh-context review (separate agent; `review.md`) | 7 must-fix, 11 should-fix, 14 notes; all applied, F32 partly |
 | X4 | Second fresh-context review of the third draft (separate agent; `review-2.md`) | 3 must-fix, 29 should-fix, 11 notes; all applied in the fourth draft |
+
+## Growth design note (6 November 2026)
+
+The workbook rebuild of 5 November (`finance/CR-057-workbook.md`) left Pacifica about a fifth poorer. A decomposition of the old model (CR-057 off) showed that the base path gives about 1.5× the Union. The Development Fund's 30% non-depreciating return gives most of the rest (to 2.37×). The author asked for a believable path to the old 2.4× and approved a growth engine built on research, diffusion, learning curves, selection, ordinary capital and income from abroad: "Yes that sounds much more accurate". `finance/CR-057-growth-design-note.md` (G1–G8) awaits the author's decisions (its §7). No rebuild until approved.
 
 ## Resume here
 
