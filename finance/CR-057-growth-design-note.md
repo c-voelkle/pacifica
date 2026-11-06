@@ -1,11 +1,12 @@
 # Design note: where Pacifica's lead comes from (CR-057 follow-up)
 
-**Status:** DESIGN NOTE, third draft, 6 November 2026, for the author's approval. The third draft records the author's 09:48 decisions and checks the anchors the author supplied then: Irwin and Klenow, Lieberman, Blank and Stigler, ETH Zurich and Sweden, and a table on steel. Nothing in the storyline or the workbooks is changed by this note. Figures are MODEL. The multiples in §5 are the note's estimates, not workbook runs. This draft checks the first against the sources the author supplied (§3) and revises the construction (§4).
+**Status:** DESIGN NOTE, fourth draft, 6 November 2026; every decision taken (10:06), ready to build. The third draft records the author's 09:48 decisions and checks the anchors the author supplied then: Irwin and Klenow, Lieberman, Blank and Stigler, ETH Zurich and Sweden, and a table on steel. Nothing in the storyline or the workbooks is changed by this note. Figures are MODEL. The multiples in §5 are the note's estimates, not workbook runs. This draft checks the first against the sources the author supplied (§3) and revises the construction (§4).
 
 **Authorization:** Author, 6 November 2026:
 - "I agree that that's not the right way to calculate. However there must be a believable path to the old 2.4x. I feel like there is something we haven't considered here."
 - On the proposal of a growth engine with research, diffusion, learning curves, selection, ordinary capital and income from abroad: "Yes that sounds much more accurate".
 - 09:18, preliminary answers to the first draft's §7: "1. start at 0.6% otherwise ok. 2. 35% (very significant research being done) 3. 0.9 4. please make a suggestion 5. please make a suggestion 6. approved". Then: "Please use the attached texts, which you requested, to verify the numbers and critique the construction of the model once more, then report back to me before building." With the NYC price of primary aluminium ingot, 1895–1940.
+- 10:06: steel's learning rate "about 24% seems defensible" (Ohashi 2004); "For 1a, I agree that 2% is the more defensible figure." CR-056 lives in the financial workbook on branch `finance/dynamics-layer` (PR #65).
 - 09:48, with the anchors: "I would say we should aim high as the story is supposed to present an impressive but believable alternative history. For the 35% I would therefore say research directed at industrial goals and close to industry."
 
 **Read with:**
@@ -165,7 +166,7 @@ Construction, corrected against Wright and Mowery and Rosenberg:
 | --- | --- | --- |
 | Aluminium | 15% | The author's series: 14–18% (1900–29), 14–15% (1909–29) |
 | Electric power (equipment and fuel rate; none on hydro civil works, which are site-specific) | 10% | Coal per kWh from almost 7 lb in 1900 to under 0.9 lb by the 1960s; household power 7.45 → 6.03 cents a kWh, 1920–30 (Mowery and Rosenberg pp. 105, 117) |
-| Steel | 20% to 1890, falling to 10% by 1900 and after | **Head (1994)**, *J. Int. Econ.* 37: 141–165: "despite strong learning effects, the steel rail tariff hurt rail users in both the short and long runs"; "The tariff's overall effect on welfare was positive but fairly small." The paper is real, but no numeric learning rate was found in accessible text, so 20% is a judgement. **There is no source for any rate after 1900.** The table supplied with the anchors is partly wrong (see below) |
+| Steel | **24% to 1900, fading to 15% by 1929** (author, 10:06: "about 24% seems defensible") | **Ohashi (2004)**, "Learning by doing, export subsidies, and industry growth: Japanese steel in the 1950s and 1960s" (CIRJE-F-280; *J. Int. Econ.*), six integrated firms, 1955–65: "The learning rate obtained is 24 percent", with input prices (iron ore, labour) controlled (p. 19). It also finds "little knowledge spilled over from one steel firm to another", which he attributes to permanent employment (p. 20). The later fade follows Ghemawat (1985), cited there: "79 of 97 examined" products fall in 11–21%. **Head (1994)**, *J. Int. Econ.* 37: 141–165: "despite strong learning effects, the steel rail tariff hurt rail users in both the short and long runs"; "The tariff's overall effect on welfare was positive but fairly small." The paper is real, but no numeric learning rate was found in accessible text, so 20% is a judgement. **There is no source for any rate after 1900.** The table supplied with the anchors is partly wrong (see below) |
 | Motor vehicles | 15% | The Model T, 1909–25: about 10% in money and 15% after deflation per doubling, over about ten doublings (McCalley's prices and production). The price is Ford's volume strategy ("With the product's cost reduced, its sales price could be lowered", p. 144), not quality-adjusted, and it mixes in the moving line (chassis assembly from 12½ hours to 2 hours 57 minutes in 1913, p. 148), which is partly G2 |
 | Chemicals | 15% (band 15–19%) | **Lieberman (1984)**, 37 products, late 1950s–1972: price falls 28% per doubling of cumulated industry output (coefficient −.471); 23.5% with plant scale controlled (−.387); and 19% with cumulated capacity also included (−.303) (Table 3, p. 219). "More than half … between 70% and 80%" (p. 221). About 15% of the decline is scale and 85% cumulated output (p. 221). R&D and capital intensity "steepen the learning curve" (p. 227), and the improvements are "embodied in plant and equipment". Price is not cost: it shifts with "profit margins" (p. 215). The gross 24–28% includes scale, embodied capital and margins, which belong to G6 and G2, so pure learning is at most 19%. Also Mowery and Rosenberg p. 80: organic chemicals not made from coal tar fell from 43 to 13 cents a lb, 1921–39 |
 | Aircraft | 15% at first, 10% later | Wright's whole airplane, 17% → 10% (p. 126); cost per seat-mile 2.63 cents (Ford Trimotor, 1928) → 1.27 (DC-3, 1936) (Mowery and Rosenberg p. 63) |
@@ -211,7 +212,7 @@ Kept as now: the skilled-entry and talent channel (B10), "Output raised by the e
 | G7 and G8 abroad, resources, champions | ×1.05 | ×1.065 | ×1.08 |
 | **Combined, 1929** | **about 2.0×** | **about 2.1×** | **about 2.4×** |
 
-- **The author chose the upper column (09:48): "aim high".** With γ = 0.12 and the network premium, the engine gives about 2.4× in 1929, or about 2.35× on the 2% research path. The storyline's MODEL figure (2.24×) is then re-synced from the workbook after the build.
+- **The author chose the upper column (09:48): "aim high"**, on the 2% research path (10:06). With γ = 0.12 and the network premium, the engine gives about 2.35× in 1929 (about 2.4× on the 3% path). The storyline's MODEL figure (2.24×) is then re-synced from the workbook after the build.
 - **The storyline's 2.24× is also reached** at the central-to-upper values, and the cautious case sits at the bottom of its 10% band.
 - **The old 2.4× needs the upper column:**
   - research elasticity 0.12 (a 68% net return at the margin, between HMM's median case-study social return of 56% and JW's broad estimates);
@@ -241,15 +242,15 @@ G2, G6 and G8 extend those channels rather than duplicating them. CR-056 is in t
 
 | # | Decision | Status |
 | --- | --- | --- |
-| 1 | Research path: 0.6% (1880) → 1.5% (1900) → 2.5% (1913) → 3% (1929) | Decided (09:18) |
-| 1a | **New**: keep 3% as a story commitment (about 30 ETHs' worth of graduates and an émigré stream; no precedent before 1940), or lower to 0.6% → 1.2% → 1.8% → 2% (about −3 points of the research channel)? | Open (G2) |
+| 1 | Research path: 0.6% (1880) → 1.5% (1900) → 2.5% (1913) → 3% (1929) | Decided (09:18); superseded by 1a |
+| 1a | Keep 3%, or lower the path? | **Decided (10:06): 0.6% (1880) → 1.2% (1900) → 1.8% (1913) → 2% (1929)**, "2% is the more defensible figure" (G2) |
 | 2 | Social return 35% | Decided (09:48): research directed at industrial goals and close to industry, so γ = 0.12 (G2) |
 | 3 | Diffusion 0.9 against 0.6 | Decided (09:18). Kept as the usable share of *patented* knowledge, with a faster adoption lag and an incentive loss in chemicals (G3) |
-| 4 | Learning rates by sector | Suggested in G4: aluminium 15%, power 10%, steel 20% → 10%, motor vehicles 15%, chemicals 15%, aircraft 15% → 10%. Experience E = own output + 0.3 × the rest of the world's (Irwin and Klenow), with no national premium |
+| 4 | Learning rates by sector | Suggested in G4: aluminium 15%, power 10%, steel 24% → 15% (author, 10:06), motor vehicles 15%, chemicals 15%, aircraft 15% → 10%. Experience E = own output + 0.3 × the rest of the world's (Irwin and Klenow), with no national premium |
 | 5 | Network premium | Suggested in G6: 0.08 × (1 − coverage), core network only. "Aim high" (09:48) is read as adopting it |
 | 6 | Champions driven by G2 and G4 | Approved (09:18) |
 | 7 | Target | Decided (09:48): "aim high". The upper column, about 2.4×; the storyline's figure is re-synced after the build |
-| 8 | Order of work | Merge CR-056; build the engine; run the old design and CR-057 on it with falling prices; report the old-against-new table and the storyline's MODEL figures. **CR-056's workbook and scripts (`build/cr056_dynamics.py` and the others) are not in the repository or the claude.ai project; only its note is.** Either the author uploads them, or the engine rebuilds the CR-056 channels it needs from the note's specification: C1 unit drive, C5 women's work, and mode 2's capital stock (which G6 supersedes). C3 is superseded by G2 and G8 |
+| 8 | Order of work | Merge CR-056; build the engine; run the old design and CR-057 on it with falling prices; report the old-against-new table and the storyline's MODEL figures. CR-056 is in the financial workbook on branch `finance/dynamics-layer` (PR #65, open; author, 10:06). The engine is built on that branch's workbook: it keeps C1 unit drive and C5 women's work, extends mode 2's capital stock (G6), and supersedes C3 (G2 and G8) |
 
 ## Anchors
 
@@ -264,6 +265,7 @@ G2, G6 and G8 extend those channels rather than duplicating them. CR-056 is in t
 - Irwin and Klenow (1994), *JPE* 102: 1200–1227;
 - Lieberman (1984), *RAND J.* 15: 213–228;
 - Blank and Stigler (1957), "The Supply of Engineers";
+- Ohashi (2004), CIRJE-F-280;
 - Gugerli, Kupper and Speich (2010);
 - Riksdagen, Statsutskottets utlåtande nr 10 (1928);
 - Kaiserfeld (2013), *Minerva* 51 (quotes from the publisher's page; to check against the PDF).
@@ -273,6 +275,6 @@ G2, G6 and G8 extend those channels rather than duplicating them. CR-056 is in t
 - the abstracts of Bom and Ligthart (2014), Fernald (1999), Head (1994) and Allen (1977, 1979, 1983).
 
 **To verify:**
-- a numeric learning rate for steel at any date (Head's estimate is not in accessible text);
+- a numeric learning rate for steel before 1914 (Head's estimate is not in accessible text; Ohashi's 24% is for 1955–65);
 - US census counts of engineers, 1900–1930;
 - the US research share of GNP in the 1920s, inferred from research staff and the 1930s federal share.

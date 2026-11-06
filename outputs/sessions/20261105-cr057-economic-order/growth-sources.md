@@ -168,3 +168,12 @@ The author's NYC ingot prices match USGS's unit values. Production in metric ton
   - the pig-iron "−0.37" is unsourced, and 1 − 2^−0.37 = 22.6%, not 23–29%;
   - Allen's "collective invention" (1983) concerns England's Cleveland district in the 1850s–1870s;
   - "post-1900 <5%" is unsourced.
+
+## Fourth draft (10:06)
+
+**Ohashi (2004)**, CIRJE-F-280, Japanese integrated steel, 1955–65:
+- "a significant learning rate of above 20%" and "little intra-industry knowledge spillover" (abstract);
+- "The learning rate obtained is 24 percent, similar to values found in the literature" (p. 19);
+- Ghemawat (1985): "learning rates for the vast majority of products (79 of 97 examined) fall in the range of 11-21 percent" (p. 19);
+- "a firm's production experience was fairly specific during the study period. Since much of the steel-production knowledge was embodied in skilled labor working at specific plants, experience may not have been easily transferable across firms" (p. 20);
+- "It is important to control for input prices when estimating a learning rate. Otherwise the estimated learning rate would be biased upward" (p. 17).
