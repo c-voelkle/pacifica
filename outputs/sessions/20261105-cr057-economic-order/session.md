@@ -63,6 +63,10 @@ Second draft (6 November, 09:18 answers: research path from 0.6%, 35%, diffusion
 
 After the 10:06 answers (steel 24%, research to 2%; CR-056 on branch `finance/dynamics-layer`, merged into this branch) the engine is built (`finance/build/cr057_growth_engine.py`; note `finance/CR-057-growth-workbook.md`). CR-057 with the engine: 2.23× US at US prices in 1929 (2.24× with the 1913 cover held), residents 36.1m (36.7m) in 1932; the old design gives the same output. Open: adopt the engine; the cover; charge research to the accounts; then iterate energy, re-run population, re-sync the storyline.
 
+## Review applied (6 November 2026, afternoon)
+
+The fresh-context review (`review-growth.md`) found the leak ratio understated (M1) and the stock elasticity inconsistent with the author's 35% (M2), among others; all applied except the iteration loop (S3, open). Rebuilt and iterated: 2.30× US at US prices in 1929, 36.5m at the end of 1932, price level 0.68 in 1929. Population re-run (gap −0.1% in 1932). Next: the author's go-ahead to integrate CR-057 with the re-synced MODEL figures and decision 4's sentence; §34's real-output sentence is a canon decision.
+
 ## Resume here
 
 CR-057 (fourth draft: A2 and the second review applied) is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:

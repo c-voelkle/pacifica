@@ -2,7 +2,7 @@
 
 Use the [energy workbook](Pacifica_energy_model_1846-1932.xlsx) alongside the [financial workbook](../finance/Pacifica_financial_model_1846-1932.xlsx) and the [current master storyline](../book-agent/revision/master_storyline.md).
 
-**Sixteenth build (6 November 2026; PROPOSED, before integration):** no input changes; re-read after the financial workbook's growth engine (`finance/CR-057-growth-workbook.md`), iterated with it to a fixed point in six passes by `finance/build/cr057_rebuild_pair.py`. SHA-256 `b59af946bc8802e03bba373069ffc08d9ab2e7a3fe65d9a3b8974be4f03a8696`.
+**Sixteenth build (6 November 2026; PROPOSED, before integration):** no input changes; re-read after the financial workbook's growth engine (`finance/CR-057-growth-workbook.md`), iterated with it to a fixed point by `finance/build/cr057_rebuild_pair.py` (re-run after the review's fixes). SHA-256 `de27b3ea901b231b9a9ed93851c6064d2dfe113eb55d3701ebd9ed074f20f747`.
 
 **Fifteenth build (CR-057 D, 5 November 2026; PROPOSED, before integration):** the river's paying customers in the slump (storage water heaters, capped house heating, the rest of the Northwest's main lines, cold storage, Tacoma's carbide turned from rubber to acetylene chemicals and cyanamide in 1929) and the Northwest's spill by season; re-read after the financial workbook's CR-057 build. See [CR-052-workbook.md](CR-052-workbook.md), "Fifteenth build".
 
