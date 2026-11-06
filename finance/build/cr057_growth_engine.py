@@ -15,21 +15,24 @@ Authorization: the author, 6 November 2026, on the growth design note
 One master lever, g_on. At 1:
 - Economy D (the Development Fund's 30% return, or CR-057's re-based Patrimony term) is replaced
   by the network premium alone (G6b): g_prem x (1 - coverage) on core network investment (power
-  investment from the energy workbook, Energy link H, with homes wired as coverage; AP would close a loop through the Works' price level; rail, ports and the canal at g_core of
-  GDP with a coverage path), as a growth increment like the old column;
+  investment from the energy workbook, Energy link H, with homes wired as coverage; rail, ports
+  and the canal at g_core of GDP with a coverage path), as a growth increment like the old column;
 - Economy J is multiplied by (1 + the engine's level factor) = (1 + G2/G3)(1 + G4)(1 + G6) - 1:
-  G2/G3  research stocks (Pacifica, the Union, the rest of the world) per unit of output,
-         depreciating at g_dep, entering after an adoption lag (open licensing g_lag_p, exclusive
-         licences g_lag_u); the usable share of the patented part (g_open against g_excl);
-         absorption of the world stock rising with own research; a quarter of Pacifica's stock
-         leaking to the Union; TFP lead = MAX(1, Pacifica's effective stock / the Union's)^g_gamma;
+  G2/G3  research in Jones and Williams's flow form (revised after the fresh-context review, M1/M2):
+         extra TFP growth each year = g_r x (Pacifica's research / GDP g_lag_p years before x its
+         usable share under open licensing x (1 - g_leak x Pacifica's output / the Union's, last
+         year) - the Union's research / GDP g_lag_u years before x its usable share under exclusive
+         licences), when positive; the lead is the exponential of its running sum;
   G4     learning by doing in seven sectors: experience E = own leader's world share
          + g_lbd_x x the rest (Irwin and Klenow 1994), Pacifica's leader against the Union's; the
          cost advantage b x ln(E_P / E_U), b = -log2(1 - learning rate), weighted by each sector's
-         gross output / GDP (Hulten); summed;
-  G6     capital at the ordinary return: the stock of gross domestic investment (Energy link AA at
-         Economy H) depreciating at k_dep; level ((K/Y) / (K/Y)_Union)^(k_alpha / (1 - k_alpha)), the
-         Union at g_su / (g_gu + k_dep) (Hall and Jones's levels form); last year's ratio (no circularity).
+         gross output / GDP (Hulten); summed; cars from the vehicles built (Champions U);
+  G6     capital at the ordinary return: the stock of gross domestic investment (Energy link AA,
+         deflated as GDP is) depreciating at k_dep; level ((K/Y) / (K/Y) in g_kstart)^(k_alpha /
+         (1 - k_alpha)) from g_kstart (the base path holds the capital before it); last year's capital over
+         last year's trend output (Economy S / G), so a slump does not read as capital deepening.
+While g_on = 1, CR-056's mode 2 (Economy C) and C3 (Champions Z, AF) are switched off: G6 and G2
+supersede them. C1 and C5 (Economy J's Dynamics factor) stay with dyn_mode.
 G1 (Paths!L), G5 (talent, Economy I), G7 (mining, the Gulf) and the champions' block (Economy M)
 are unchanged: the champions' R&D is inside the research path, and the research level multiplies
 non-mining, non-champion output only (Economy J), so it is not counted twice (G8, simplified).
@@ -60,12 +63,12 @@ LEVERS = [
      "Author's decisions, 6 Nov 2026 (growth design note)",
      "0 reproduces the input workbook exactly. 1 replaces Economy D (the Fund's 30% return or CR-057's Patrimony term) by the "
      "network premium and multiplies Economy J by the engine's level factor (Growth sheet)."),
-    ("g_gamma", "G2: TFP elasticity of the effective research stock (relative to the Union's)", 0.12, 0.08, "elasticity",
-     "Author 09:48 (research directed at industrial goals); anchored",
-     "HMM (2010): firm-level 'from 0.01 to 0.25 but centered on 0.08' (p. 21); G7 country level 0.20-0.22, biased upward. "
-     "0.12 = the author's 35% held at the 1900s' intensity, research directed at industrial goals and close to industry."),
-    ("g_dep", "G2: research stock depreciation", 0.15, 0.20, "a year", "Anchored",
-     "HMM p. 15: 'most researchers use the 15 per cent that Griliches had settled on'; estimates 10-36%."),
+    ("g_r", "G2: social return to research (TFP growth per unit of research / GDP)", 0.35, 0.25, "return",
+     "Author 09:18 and 09:48 (35%, research directed at industrial goals); anchored",
+     "Jones and Williams (1998): 'estimated TFP growth accounted for by R&D is then r R/Y' (p. 1128), with zero depreciation "
+     "as their convention; 'a conservative estimate of the social return of 30 percent' (p. 1121), 0.35-0.37 in their regression "
+     "(p. 1131), measured on US industry 1961-89 at about 2% of GDP, the intensity Pacifica reaches in 1929. HMM: case-study "
+     "median social return 56% (p. 25). Stress 0.25. Replaces the first build's stock elasticity (review M2)."),
     ("g_lag_p", "G2/G3: adoption lag in Pacifica (open licensing)", 3, 4, "years", "Model estimate (anchored)",
      "HMM p. 16: 'a mean lag from 4 to 6 years'; Moser p. 38: licensees took 8-9 years. Open licensing and in-house laboratories shorten it."),
     ("g_lag_u", "G2/G3: adoption lag in the Union (exclusive licences)", 6, 6, "years", "Model estimate (anchored)", "As above."),
@@ -74,13 +77,9 @@ LEVERS = [
      "occur outside of the patent system' (p. 40)."),
     ("g_open", "G3: usable share of patented knowledge under open licensing", 0.9, 0.8, "share", "Author 09:18 (decision 3)", ""),
     ("g_excl", "G3: usable share of patented knowledge under exclusive licences", 0.6, 0.6, "share", "Author 09:18 (decision 3)", ""),
-    ("g_abs", "G2: absorption, own stock per output at which half the world's stock is usable", 0.05, 0.05, "stock / GDP",
-     "Model estimate (anchored)",
-     "Mowery and Rosenberg p. 69 (own R&D 'essential to the absorption'); HMM p. 31 ('the absorption capacity of the receiver')."),
-    ("g_leak", "G2: share of Pacifica's stock usable in the Union", 0.25, 0.30, "share", "Anchored",
+    ("g_leak", "G2: share of Pacifica's research benefits that accrue to the Union", 0.25, 0.30, "share", "Anchored",
      "Coe and Helpman in HMM p. 30: 'roughly a quarter of the benefits from R&D in G-7 countries accrues to their trading partners'."),
-    ("g_gu", "G2: the Union's real output growth (for its stock per output)", 0.04, 0.04, "a year", "Model estimate", ""),
-    ("g_gw", "G2: the rest of the world's real output growth", 0.025, 0.025, "a year", "Model estimate", ""),
+    ("g_gu", "G6: the Union's real output growth (memo: its steady-state capital / output)", 0.04, 0.04, "a year", "Model estimate", ""),
     ("g_lbd_x", "G4: weight of others' experience against one's own", 0.3, 0.3, "×", "Anchored",
      "Irwin and Klenow (1994): 'α and γ average .28 and .32'; international spillovers as strong as national ones."),
     ("lr_steel_e", "G4: steel learning rate to 1900", 0.24, 0.20, "per doubling", "Author 10:06 (Ohashi 2004)",
@@ -98,6 +97,14 @@ LEVERS = [
     ("g_su", "G6: the Union's gross investment / GDP", 0.21, 0.21, "share", "Model estimate (to verify)",
      "Kuznets: US gross capital formation about a fifth of GNP, 1869-1928 (to verify). The Union's capital / output is "
      "g_su / (g_gu + k_dep), measured the same way as Pacifica's."),
+    ("g_kstart", "G6: first year capital deepening counts (Pacifica's capital / output measured from the year before)", 1900, 1900,
+     "year", "Model estimate (review S2)",
+     "Paths!L is calibrated to the historical West, which holds its own capital; the dilution of the gold rush and the 1880s "
+     "arrivals is inside that base. Counted from CR-056's dyn_start, as CR-056 mode 2 does."),
+    ("g_car_lp", "G4: Pacifica's leading carmaker's share of Pacifica's vehicles", 0.5, 0.4, "share", "Model estimate",
+     "The moving line comes from the Polytechnic's production-engineering school in 1911 (canon, Champions U note)."),
+    ("g_car_lu", "G4: the Union's leading carmaker's share of the Union's vehicles", 0.4, 0.45, "share", "Model estimate",
+     "Ford's share of US output was about half in the early 1920s and a third by 1929 (to verify)."),
     ("g_prem", "G6: network premium at zero coverage", 0.08, 0.04, "return", "Model estimate (anchored)",
      "Bom and Ligthart (2014): long-run output elasticity of public capital 0.122, 'almost doubled' for core regional "
      "infrastructure; Fernald (1999): 'the interstate system was highly productive, but a second one would not be.'"),
@@ -116,8 +123,10 @@ LEVERS = [
 # world: Mowery and Rosenberg (research staff 1921-40; federal 12-20% of the 1930s total), MODEL.
 RD_P = {1846: 0.0, 1851: 0.0005, 1860: 0.001, 1870: 0.003, 1880: 0.006, 1900: 0.012, 1913: 0.018, 1929: 0.02}
 RD_U = {1846: 0.0002, 1880: 0.0005, 1900: 0.001, 1913: 0.0015, 1929: 0.0025}
-RD_W = {1846: 0.0005, 1880: 0.001, 1900: 0.002, 1913: 0.003, 1929: 0.004}
-RATIO_PU = {1846: 0.01, 1870: 0.04, 1900: 0.10, 1913: 0.18, 1929: 0.30}  # Pacifica's output / the Union's, for the leak
+# Motor vehicles built, millions: the Union (historical US production, to verify) and the rest of the world (to verify).
+US_VEH = {1899: 0.0, 1900: 0.004, 1905: 0.025, 1910: 0.187, 1913: 0.485, 1916: 1.6, 1920: 2.2, 1923: 4.0, 1925: 4.3, 1929: 5.3,
+          1930: 3.4, 1931: 2.4, 1932: 1.4}
+ROW_VEH = {1899: 0.0, 1900: 0.005, 1913: 0.1, 1920: 0.15, 1929: 0.75, 1932: 0.5}
 COV_RAIL = {1846: 0.0, 1870: 0.3, 1890: 0.8, 1900: 0.95, 1910: 1.0}
 
 # G4 sectors: (key, label, Pacifica leader's world share, the Union leader's, gross output / Pacifica's GDP, lever(s))
@@ -131,8 +140,7 @@ COV_RAIL = {1846: 0.0, 1870: 0.3, 1890: 0.8, 1900: 0.95, 1910: 1.0}
 SECTORS = [
     ("steel", "Steel", {1870: 0.0, 1890: 0.01, 1900: 0.05, 1901: 0.16, 1913: 0.16, 1929: 0.17},
      {1870: 0.05, 1890: 0.12, 1900: 0.11, 1901: 0.12, 1913: 0.13, 1929: 0.14}, {1870: 0.01, 1900: 0.03, 1929: 0.03}, ("lr_steel_e", "lr_steel_l", 1900, 1929)),
-    ("car", "Motor vehicles", {1900: 0.0, 1905: 0.05, 1913: 0.08, 1920: 0.10, 1929: 0.11},
-     {1900: 0.0, 1905: 0.10, 1913: 0.33, 1920: 0.45, 1929: 0.23}, {1900: 0.0, 1913: 0.015, 1929: 0.04}, ("lr_car",)),
+    ("car", "Motor vehicles", "CARS", "CARS", {1900: 0.0, 1913: 0.015, 1929: 0.04}, ("lr_car",)),
     ("chem", "Chemicals", "Champions!Y", {1870: 0.01, 1913: 0.03, 1929: 0.05}, {1870: 0.005, 1913: 0.015, 1929: 0.02}, ("lr_chem",)),
     ("elec", "Electrical equipment", "Champions!AD", {1880: 0.0, 1890: 0.15, 1913: 0.20, 1929: 0.15},
      {1880: 0.0, 1890: 0.005, 1913: 0.02, 1929: 0.03}, ("lr_elec",)),
@@ -159,7 +167,7 @@ def build_growth(wb) -> c51.Sheet:
     G.ws["A3"].value = ("Years run down the page. Blue = input you can change · black = formula. "
                         "Built by finance/build/cr057_growth_engine.py; all amounts MODEL.")
     wired = find_col(wb["Dynamics"], "Homes wired (share)")
-    rp, ru, rw, rat, cr = interp(RD_P), interp(RD_U), interp(RD_W), interp(RATIO_PU), interp(COV_RAIL)
+    rp, ru = interp(RD_P), interp(RD_U)
 
     g = "G2 and G3: research and diffusion"
     a = G.add("rd_p", "Pacifica's research / GDP", lambda y, r: round(rp[y], 5), group=g, is_input=True, fmt="0.00%",
@@ -167,41 +175,50 @@ def build_growth(wb) -> c51.Sheet:
     b = G.add("rd_u", "The Union's research / GDP", lambda y, r: round(ru[y], 5), is_input=True, fmt="0.00%",
               note="MODEL from Mowery and Rosenberg: 2,775 research scientists and engineers in manufacturing labs (1921), 6,274 (1927), "
                    "27,777 (1940); federal research 12-20% of the 1930s total, $74.1m in 1940 (pp. 21-22, 27).")
-    c = G.add("rd_w", "The rest of the world's research / GDP", lambda y, r: round(rw[y], 5), is_input=True, fmt="0.00%",
-              note="MODEL: Germany's and Britain's laboratories; Switzerland and Sweden about 0.1% (Gugerli et al. p. 175; Riksdag 1928).")
-    d = G.add("ratio", "Pacifica's output / the Union's (for the leak)", lambda y, r: round(rat[y], 4), is_input=True, fmt="0.00")
-    gy = G.add("gy", "Pacifica's real growth, last year",
-               lambda y, r: 0.03 if y <= FIRST + 1 else f"=IF(Economy!S{r-2}>0,Economy!S{r-1}/Economy!S{r-2}-1,0.03)", fmt="0.0%")
-    kp = G.add("kp", "Pacifica's research stock / GDP",
-               lambda y, r: (f"={a}{r}/(0.03+g_dep)" if y == FIRST else
-                             f"={c51.col(G.n)}{r-1}*(1-g_dep)/(1+{gy}{r})+INDEX(${a}$6:${a}$92,MAX(1,A{r}-1845-g_lag_p))"),
-               fmt="0.000", note="Last year's stock less g_dep, over this year's output (last year's growth), plus research g_lag_p years ago.")
-    ku = G.add("ku", "The Union's research stock / GDP",
-               lambda y, r: (f"={b}{r}/(g_gu+g_dep)" if y == FIRST else
-                             f"={c51.col(G.n)}{r-1}*(1-g_dep)/(1+g_gu)+INDEX(${b}$6:${b}$92,MAX(1,A{r}-1845-g_lag_u))"), fmt="0.000")
-    kw = G.add("kw", "The world's research stock / GDP",
-               lambda y, r: (f"={c}{r}/(g_gw+g_dep)" if y == FIRST else f"={c51.col(G.n)}{r-1}*(1-g_dep)/(1+g_gw)+{c}{r}"), fmt="0.000")
-    up = G.add("use_p", "Usable share of own stock, Pacifica (open licensing)", lambda y, r: "=1-g_pat+g_pat*g_open", fmt="0.00")
-    uu = G.add("use_u", "Usable share of own stock, the Union (exclusive licences)", lambda y, r: "=1-g_pat+g_pat*g_excl", fmt="0.00")
-    ep = G.add("eff_p", "Pacifica's effective stock",
-               lambda y, r: f"={kp}{r}*{up}{r}+{kp}{r}/({kp}{r}+g_abs)*{kw}{r}", fmt="0.000",
-               note="Own stock × usable share + the world's stock × absorption (own / (own + g_abs)).")
-    eu = G.add("eff_u", "The Union's effective stock",
-               lambda y, r: f"={ku}{r}*{uu}{r}+{ku}{r}/({ku}{r}+g_abs)*{kw}{r}+g_leak*{kp}{r}*{d}{r}", fmt="0.000",
-               note="As Pacifica's, plus g_leak of Pacifica's stock (scaled to the Union's output).")
-    rr_ = G.add("R", "Pacifica's effective stock / the Union's", lambda y, r: f"=IF({eu}{r}>0,{ep}{r}/{eu}{r},1)", fmt="0.00")
-    l2 = G.add("l2", "G2/G3: TFP lead from research", lambda y, r: f"=IF(g_on=1,MAX(1,{rr_}{r})^g_gamma-1,0)", fmt="0.0%",
-               note="MAX(1, R)^g_gamma - 1: only a lead counts (the base path already holds the Union's own technology).")
-    rnd = G.add("R_nd", "… the same ratio without open licensing (memo)",
-                lambda y, r: f"=IF({eu}{r}>0,({kp}{r}*{uu}{r}+{kp}{r}/({kp}{r}+g_abs)*{kw}{r})/{eu}{r},1)", fmt="0.00")
-    G.add("l3", "… of which open licensing (G3, memo)",
-          lambda y, r: f"=IF(g_on=1,(MAX(1,{rr_}{r})/MAX(1,{rnd}{r}))^g_gamma-1,0)", fmt="0.0%")
+    d = G.add("ratio", "Pacifica's output / the Union's, last year (for the leak)",
+              lambda y, r: (0 if y == FIRST else
+                            f"=IF(Labour!BK{r-1}>0,((Economy!J{r-1}+Economy!L{r-1})*Paths!B{r-1}/Economy!H{r-1}"
+                            f"+Economy!K{r-1}+Economy!M{r-1}+Economy!N{r-1})/Labour!BK{r-1},0)"), fmt="0.00",
+              note="Pacifica's GDP at US prices (as Economy V) over the Union's GDP (Labour BK), last year (review M1).")
+    up = G.add("use_p", "Usable share of own research, Pacifica (open licensing)", lambda y, r: "=1-g_pat+g_pat*g_open", fmt="0.00")
+    uu = G.add("use_u", "Usable share of own research, the Union (exclusive licences)", lambda y, r: "=1-g_pat+g_pat*g_excl", fmt="0.00")
+    lp = G.add("rd_p_lag", "Pacifica's research, g_lag_p years before",
+               lambda y, r: f"=INDEX(${a}$6:${a}$92,MAX(1,A{r}-1845-g_lag_p))", fmt="0.00%")
+    lu = G.add("rd_u_lag", "The Union's research, g_lag_u years before",
+               lambda y, r: f"=INDEX(${b}$6:${b}$92,MAX(1,A{r}-1845-g_lag_u))", fmt="0.00%")
+    inc = G.add("inc", "Extra TFP growth from research this year",
+                lambda y, r: f"=IF(g_on=1,MAX(0,g_r*({lp}{r}*{up}{r}*(1-g_leak*{d}{r})-{lu}{r}*{uu}{r})),0)", fmt="0.000%",
+                note="g_r × (Pacifica's usable research less the share leaking to the Union, scaled to the Union's output, less the "
+                     "Union's usable research), lagged; only a lead counts (the base path holds the Union's own technology). "
+                     "Jones and Williams's flow form: TFP growth from R&D = r × R/Y.")
+    cum = G.add("cum", "Cumulative (log) TFP lead from research",
+                lambda y, r: (f"={inc}{r}" if y == FIRST else f"={c51.col(G.n)}{r-1}+{inc}{r}"), fmt="0.000")
+    l2 = G.add("l2", "G2/G3: TFP lead from research", lambda y, r: f"=EXP({cum}{r})-1", fmt="0.0%")
+    incn = G.add("inc_nd", "… the same without open licensing (memo)",
+                 lambda y, r: f"=IF(g_on=1,MAX(0,g_r*({lp}{r}*{uu}{r}*(1-g_leak*{d}{r})-{lu}{r}*{uu}{r})),0)", fmt="0.000%")
+    cumn = G.add("cum_nd", "… cumulative (memo)", lambda y, r: (f"={incn}{r}" if y == FIRST else f"={c51.col(G.n)}{r-1}+{incn}{r}"),
+                 fmt="0.000")
+    G.add("l3", "… of which open licensing (G3, memo)", lambda y, r: f"=EXP({cum}{r}-{cumn}{r})-1", fmt="0.0%")
+    G.add("ret_m", "Net return on the marginal research dollar (memo)", lambda y, r: "=g_r", fmt="0%",
+          note="In the flow form the author's return is the return: constant at Pacifica's intensities, which are within the "
+               "range it was measured at (about 2% of GDP).")
+
+    vus, vrw = interp(US_VEH, before=0), interp(ROW_VEH, before=0)
+    usv = G.add("veh_u", "The Union's vehicles built (m, input)", lambda y, r: round(vus[y], 4), is_input=True, fmt="0.00",
+                note="Historical US motor vehicle production (to verify).")
+    rwv = G.add("veh_w", "The rest of the world's vehicles built (m, input)", lambda y, r: round(vrw[y], 4), is_input=True, fmt="0.00")
+    wv = G.add("veh_world", "World vehicles built (m)", lambda y, r: f"=Champions!U{r}/1000+{usv}{r}+{rwv}{r}", fmt="0.00",
+               note="Pacifica's (Champions U, from the energy workbook) + the Union's + the rest.")
 
     g = "G4: learning by doing (leader's world share, Pacifica against the Union)"
     terms = []
     first = True
     for key, label, sp, su, wt, lv in SECTORS:
-        if isinstance(sp, str):
+        if sp == "CARS":
+            P = G.add(f"{key}_p", f"{label}: Pacifica's leader",
+                      lambda y, r: f"=IF({wv}{r}>0,g_car_lp*Champions!U{r}/1000/{wv}{r},0)", group=g if first else None, fmt="0.00",
+                      note="g_car_lp × Pacifica's vehicles (Champions U) / the world's (review S6).")
+        elif isinstance(sp, str):
             sh, cl = sp.split("!")
             P = G.add(f"{key}_p", f"{label}: Pacifica's leader", (lambda sh, cl: lambda y, r: f"={sh}!{cl}{r}")(sh, cl),
                       group=g if first else None, fmt="0.00", note=f"{sp}: the champion's world share.")
@@ -210,9 +227,12 @@ def build_growth(wb) -> c51.Sheet:
             P = G.add(f"{key}_p", f"{label}: Pacifica's leader", (lambda v: lambda y, r: round(v[y], 4))(v),
                       group=g if first else None, is_input=True, fmt="0.00", note="MODEL world share.")
         first = False
-        vu = interp(su, before=0)
-        U = G.add(f"{key}_u", f"{label}: the Union's leader", (lambda v: lambda y, r: round(v[y], 4))(vu), is_input=True, fmt="0.00",
-                  note="MODEL world share (to verify where historical).")
+        if su == "CARS":
+            U = G.add(f"{key}_u", f"{label}: the Union's leader", lambda y, r: f"=IF({wv}{r}>0,g_car_lu*{usv}{r}/{wv}{r},0)", fmt="0.00")
+        else:
+            vu = interp(su, before=0)
+            U = G.add(f"{key}_u", f"{label}: the Union's leader", (lambda v: lambda y, r: round(v[y], 4))(vu), is_input=True, fmt="0.00",
+                      note="MODEL world share (to verify where historical).")
         vw = interp(wt, before=0)
         W = G.add(f"{key}_w", f"{label}: gross output / GDP", (lambda v: lambda y, r: round(v[y], 4))(vw), is_input=True, fmt="0.0%",
                   note="Hulten weight, MODEL.")
@@ -235,16 +255,18 @@ def build_growth(wb) -> c51.Sheet:
 
     g = "G6: capital at the ordinary return"
     k = G.add("k", "Capital stock (1913 $m)",
-              lambda y, r: (f"=g_su/(g_gu+k_dep)*Economy!S{r}" if y == FIRST else f"={c51.col(G.n)}{r-1}*(1-k_dep)+'Energy link'!AA{r}/Economy!H{r}"),
-              group=g, note="Gross domestic investment (Energy link AA: the inv_share path × GDP, public and private alike) at the price "
-                            "level, less k_dep. Starts at the Union's ratio × real GDP in 1846.")
-    ky = G.add("ky", "Capital / real GDP, last year", lambda y, r: (f"=g_su/(g_gu+k_dep)" if y == FIRST else f"=IF(Economy!S{r-1}>0,{k}{r-1}/Economy!S{r-1},g_su/(g_gu+k_dep))"),
+              lambda y, r: (f"=g_su/(g_gu+k_dep)*Economy!S{r}" if y == FIRST else f"={c51.col(G.n)}{r-1}*(1-k_dep)+IF(Economy!O{r}>0,'Energy link'!AA{r}*Economy!S{r}/Economy!O{r},0)"),
+              group=g, note="Gross domestic investment (Energy link AA: the inv_share path × GDP, public and private alike) deflated as "
+                            "GDP is (× Economy S / O; review S1), less k_dep. Starts at the Union's ratio × real GDP in 1846.")
+    ky = G.add("ky", "Capital / real trend GDP, last year", lambda y, r: (f"=g_su/(g_gu+k_dep)" if y == FIRST else f"=IF(Economy!S{r-1}>0,{k}{r-1}/(Economy!S{r-1}/Economy!G{r-1}),g_su/(g_gu+k_dep))"),
                fmt="0.00")
     kyu = G.add("ky_u", "The Union's capital / real GDP", lambda y, r: "=g_su/(g_gu+k_dep)", fmt="0.00",
                 note="Steady state s / (g + δ) at the Union's investment share and growth.")
-    l6 = G.add("l6", "G6: level from capital per output against the Union's",
-               lambda y, r: f"=IF(g_on=1,({ky}{r}/{kyu}{r})^(k_alpha/(1-k_alpha))-1,0)", fmt="0.0%",
-               note="Hall and Jones's levels form, (K/Y)^(α/(1-α)), Pacifica against the Union.")
+    l6 = G.add("l6", "G6: level from capital deepening since g_kstart",
+               lambda y, r: (f"=IF(AND(g_on=1,A{r}>=g_kstart),({ky}{r}/INDEX(${ky}$6:${ky}$92,g_kstart-1845))"
+                             f"^(k_alpha/(1-k_alpha))-1,0)"), fmt="0.0%",
+               note="Hall and Jones's levels form, (K/Y)^(α/(1-α)), against Pacifica's own ratio in g_kstart: the base path "
+                    "(the historical West) already holds the capital before it, and the Union's ratio is held steady (review S2).")
 
     g = "Into the Economy sheet"
     lvl = G.add("lvl", "Level factor into Economy J", lambda y, r: f"=(1+{l2}{r})*(1+{l4}{r})*(1+{l6}{r})-1", group=g, fmt="0.0%")
@@ -290,12 +312,23 @@ def link_budget(wb, G: c51.Sheet) -> None:
 
 def link(wb, G: c51.Sheet) -> None:
     E = wb["Economy"]
+    Ch = wb["Champions"]
+    for y in YEARS:  # CR-056 C3 (research spillovers into the champions' shares) is superseded by G2 while g_on = 1 (review S5)
+        r = row(y)
+        for L_, dc in (("Z", "AX"), ("AF", "AW")):
+            v = Ch[f"{L_}{r}"].value
+            old_ = f"(1+IF(dyn_mode=0,0,Dynamics!{dc}{r}))"
+            assert old_ in v, v
+            Ch[f"{L_}{r}"].value = v.replace(old_, f"(1+IF(OR(dyn_mode=0,g_on=1),0,Dynamics!{dc}{r}))")
     for y in YEARS:
         r = row(y)
         if y > FIRST:
             d = E[f"D{r}"].value
             assert d.startswith("=IF(c57_on=1,Patrimony!"), d
             E[f"D{r}"].value = f"=IF(g_on=1,Growth!{G['dg']}{r},{d[1:]})"
+        c_ = E[f"C{r}"].value
+        assert c_.startswith(f"=IF(AND(dyn_mode=2,$A{r}>=dyn_start),"), c_
+        E[f"C{r}"].value = c_.replace(f"=IF(AND(dyn_mode=2,$A{r}>=dyn_start),", f"=IF(AND(dyn_mode=2,g_on<>1,$A{r}>=dyn_start),", 1)
         j = E[f"J{r}"].value
         old = f"*(1+IF(dyn_mode=0,0,Dynamics!"
         assert old in j and j.endswith(f"*G{r}*H{r}/1000000"), j

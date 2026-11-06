@@ -17,7 +17,7 @@ from pathlib import Path
 import openpyxl
 
 ROW0, FIRST = 6, 1846
-L6 = "G6: level from capital per output against the Union's"
+L6 = "G6: level from capital deepening since g_kstart"
 YEARS = (1900, 1913, 1920, 1929, 1932)
 
 VARIANTS = [
@@ -25,9 +25,9 @@ VARIANTS = [
     ("old, engine", {"c57_on": 0, "g_on": 1}),
     ("CR-057, accounting", {"c57_on": 1, "g_on": 0}),
     ("CR-057, engine", {"c57_on": 1, "g_on": 1}),
-    ("CR-057, engine, 1913 cover held", {"c57_on": 1, "g_on": 1, "c_glide": 0}),
+    ("CR-057, engine, rising prices (default glide)", {"c57_on": 1, "g_on": 1, "c_glide": 0.025}),
     ("CR-057, engine, research to 3%", {"c57_on": 1, "g_on": 1}),  # rd path edited below
-    ("CR-057, engine, cautious (γ 0.07, no premium)", {"c57_on": 1, "g_on": 1, "g_gamma": 0.07, "g_prem": 0}),
+    ("CR-057, engine, cautious (r 0.25, no premium)", {"c57_on": 1, "g_on": 1, "g_r": 0.25, "g_prem": 0}),
 ]
 
 
