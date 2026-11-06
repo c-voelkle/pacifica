@@ -58,6 +58,11 @@ The workbook rebuild of 5 November (`finance/CR-057-workbook.md`) left Pacifica 
 
 Second draft (6 November, 09:18 answers: research path from 0.6%, 35%, diffusion 0.9, champions driven): four separate agents checked it against the author's sources (`growth-sources.md`, `growth-scripts/`). The main revision is that research enters as an elasticity with diminishing returns, not as a constant 35%, so the engine gives about 2.0× (cautious), 2.1× (central) and 2.4× (upper). The storyline's MODEL figure is 2.24×. The note now suggests learning rates and a network premium, and puts two new questions: decision 2a and the target, decision 7.
 
+
+## The growth engine built (6 November 2026)
+
+After the 10:06 answers (steel 24%, research to 2%; CR-056 on branch `finance/dynamics-layer`, merged into this branch) the engine is built (`finance/build/cr057_growth_engine.py`; note `finance/CR-057-growth-workbook.md`). CR-057 with the engine: 2.23× US at US prices in 1929 (2.24× with the 1913 cover held), residents 36.1m (36.7m) in 1932; the old design gives the same output. Open: adopt the engine; the cover; charge research to the accounts; then iterate energy, re-run population, re-sync the storyline.
+
 ## Resume here
 
 CR-057 (fourth draft: A2 and the second review applied) is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:

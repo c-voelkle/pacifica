@@ -2,7 +2,8 @@
 
     python3 finance/build/cr057_economic_order.py IN.xlsx OUT.xlsx [--off]
 
-IN is the CR-051/054/055 workbook (cr051_054_055_champions.py on the CR-052 link). The script never
+IN is the CR-051/054/055 workbook (cr051_054_055_champions.py on the CR-052 link), or that workbook with
+the CR-056 dynamic layer (cr056_dynamics.py; 6 November 2026), whose Economy D formula is wrapped as is. The script never
 recalculates; run LibreOffice (xlsx skill scripts/recalc.py) afterwards. With --off the master lever
 c57_on is saved at 0 in both cases: that build must reproduce IN's values exactly (the identity check).
 
@@ -554,7 +555,9 @@ def link_patrimony(wb, P: Sheet) -> None:
         # Economy D: the output effect
         if y > FIRST:
             d = E[f"D{r}"].value
-            assert d == f"=IF(O{r - 1}>0,MIN(dev_cap,dev_return*'Debt & cash'!N{r - 1}/O{r - 1}),0)", d
+            plain = f"IF(O{r - 1}>0,MIN(dev_cap,dev_return*'Debt & cash'!N{r - 1}/O{r - 1}),0)"
+            # the CR-051/054/055 formula, or CR-056's (dyn_mode 2 keeps only the Fund's premium)
+            assert d == "=" + plain or (d.startswith(f"=IF(AND(dyn_mode=2,$A{r}>=dyn_start),") and d.endswith("," + plain + ")")), d
             E[f"D{r}"].value = f"=IF(c57_on=1,Patrimony!{P['d_new']}{r},{d[1:]})"
         # Energy link: the Fund's lending base, the Patrimony's works as public investment
         for L_ in ("AZ", "AD"):
