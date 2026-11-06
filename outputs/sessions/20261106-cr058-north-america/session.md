@@ -33,7 +33,8 @@ independence: separate-agents
 | D2 | decision | NA-12a to NA-12h: Standard a refinery without crude; Gulf crude mostly to the Union; Huasteca contracts; never embargo; Guffey; the 55% ceiling; the Caribbean understanding | 6 Nov | current |
 | D3 | decision | MX-1 to MX-7, MX-10 to MX-12; the southern command at Tucson (delegated) | 6 Nov | current |
 | D4 | decision | DH-1 to DH-4; IR-1, with IR-2 to IR-5 deferred to the confrontation CR | 6 Nov | current |
-| Q1 | open choice | Storyline item 36 (the CR's open decisions), including Doheny and CR-027 B6's proposed Five seat (CT10) and Lago in 1925 (PROPOSED) | CR-058 | open |
+| Q1 | open choice | Storyline item 36 (the CR's open decisions) and Lago in 1925 (PROPOSED) | CR-058 | open |
+| D5 | decision | DH-5: Doheny takes Turner's champions' seat about 1907–1924 after the Senate (about 1896–1907); recorded as CR-058-R1 | 6 Nov | current |
 
 ## Handoffs
 
@@ -60,4 +61,4 @@ No fresh-context review of the integrated prose was run; the final review covere
 
 - CR-058 integrated on `adopt/cr058` and merged to `main`.
 - Next: the Anglo-Pacifican confrontation CR (it should carry IR-2 to IR-5, the Irish lever); a Union fuel row and Huasteca in the financial workbook; storyline item 36.
-- Flag for the author: CT10, Doheny's Senate seat beside CR-027 B6's proposed Five seat; Lago in 1925 stays PROPOSED.
+- CR-058-R1 (Doheny among the Five) integrated on `adopt/cr058-r1` and merged to `main`; CT10 settled. Lago in 1925 stays PROPOSED; Doheny's successor in 1924 is open.

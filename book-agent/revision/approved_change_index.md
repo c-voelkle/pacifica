@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 55 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 56 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1052,6 +1052,16 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - The river grant's instrument; the western-waters treaty's year; Great Bear's year, company, volumes and route; the Columbia compact's form of payment and firm-power effect; the fur-seal convention's year; Huasteca's volumes and Crown share; a Union fuel row in the financial workbook; the brigade's duties and 1919 strength; Guffey's Venezuelan company; BC's anti-Asian laws; Doheny and CR-027 B6's proposed Five seat; IR-2 to IR-5 deferred to the confrontation CR.
+
+### CR-058-R1 — Doheny among the Five: Turner's champions' seat, about 1907–1924
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- DH-5: about 1907, when Turner reaches sixty-eight under CR-038, Doheny takes Turner's seat (naval construction, heavy industry and the champions) and holds it to 1924; Senate from about 1896 to 1907; management of his companies given up; Article 27 enforced on his own company in 1917; the Irish money from one of the Five; Lago refused the year after he leaves the seat (PROPOSED).
+- Settles CR-058 CT10 and approves CR-027 B6's Doheny proposal.
+
+**Still open:**
+- Doheny's successor in 1924; Turner's life after the seat.
 
 ### Author-approved editorial safeguards
 
