@@ -33,7 +33,8 @@ One master lever, g_on. At 1:
 G1 (Paths!L), G5 (talent, Economy I), G7 (mining, the Gulf) and the champions' block (Economy M)
 are unchanged: the champions' R&D is inside the research path, and the research level multiplies
 non-mining, non-champion output only (Economy J), so it is not counted twice (G8, simplified).
-Research spending is a memo (public and private), not charged to the Budget.
+Research: the state's half (g_pub) beyond the research already in Technical programmes is charged to a new
+Budget line AF (g_charge; author's decision 3) and counted in government consumption (Energy link AE).
 """
 from __future__ import annotations
 
@@ -101,8 +102,14 @@ LEVERS = [
      "Bom and Ligthart (2014): long-run output elasticity of public capital 0.122, 'almost doubled' for core regional "
      "infrastructure; Fernald (1999): 'the interstate system was highly productive, but a second one would not be.'"),
     ("g_core", "G6: rail, port and canal investment outside power", 0.01, 0.01, "share of GDP", "Model estimate", ""),
-    ("g_pub", "Research paid by the state (memo)", 0.5, 0.5, "share", "Model estimate",
-     "The Polytechnic, the institutes, the Works' civilian research; the champions' laboratories pay the rest. Memo only."),
+    ("g_pub", "Research paid by the state", 0.5, 0.5, "share", "Model estimate",
+     "The Polytechnic, the institutes, the Works' civilian research; the champions' laboratories pay the rest."),
+    ("g_tp_res", "Share of Technical programmes (Budget S, Paths V) that is research", 0.75, 0.75, "share", "Model estimate",
+     "Paths V: 'Polytechnic, institutes, testing stations, state works'; the testing stations and state works are the rest."),
+    ("g_charge", "Charge the state's research beyond Technical programmes to the Budget (1 = yes)", 1, 1, "switch",
+     "Author's decision 3 (6 Nov 2026, 10:45)",
+     "Budget AF = g_pub × research × GDP − g_tp_res × the Technical programmes' base (GDP × Paths V), when positive; in "
+     "government consumption (Energy link AE)."),
 ]
 
 # Research intensity (share of GDP). Pacifica: the author's path (09:18, 1a at 10:06); the Union and the rest of the
@@ -114,11 +121,16 @@ RATIO_PU = {1846: 0.01, 1870: 0.04, 1900: 0.10, 1913: 0.18, 1929: 0.30}  # Pacif
 COV_RAIL = {1846: 0.0, 1870: 0.3, 1890: 0.8, 1900: 0.95, 1910: 1.0}
 
 # G4 sectors: (key, label, Pacifica leader's world share, the Union leader's, gross output / Pacifica's GDP, lever(s))
-# Shares are MODEL estimates for the alternate history (to verify where historical): US Steel about 0.26 of world steel in
-# 1901 and 0.18 in 1929; Ford about a third of world cars in 1913; Alcoa most of the world's aluminium before 1900.
+# Shares are MODEL estimates for the alternate history (to verify where historical). Steel: in canon a San Francisco
+# syndicate buys Carnegie Steel in 1901 and combines it with the Pacifican mills as Pacifica Steel (master storyline), so
+# there is no US Steel: before 1901 the Union's leader is Carnegie (about 3 Mt of a 28 Mt world in 1900); from 1901
+# Pacifica's leader is Pacifica Steel (Carnegie's plants plus the Pacifican mills, Champions R) and the Union's is the
+# trust formed without Carnegie (about a third of the Union's output). Experience is the firm's, wherever its plants are;
+# only the Pacifican mills' output is in Pacifica's GDP (the weight). Ford about a third of world cars in 1913; Alcoa most
+# of the world's aluminium before 1900.
 SECTORS = [
-    ("steel", "Steel", {1870: 0.0, 1890: 0.005, 1900: 0.01, 1913: 0.03, 1929: 0.05},
-     {1870: 0.05, 1890: 0.15, 1901: 0.26, 1913: 0.20, 1929: 0.18}, {1870: 0.01, 1900: 0.03, 1929: 0.03}, ("lr_steel_e", "lr_steel_l", 1900, 1929)),
+    ("steel", "Steel", {1870: 0.0, 1890: 0.01, 1900: 0.05, 1901: 0.16, 1913: 0.16, 1929: 0.17},
+     {1870: 0.05, 1890: 0.12, 1900: 0.11, 1901: 0.12, 1913: 0.13, 1929: 0.14}, {1870: 0.01, 1900: 0.03, 1929: 0.03}, ("lr_steel_e", "lr_steel_l", 1900, 1929)),
     ("car", "Motor vehicles", {1900: 0.0, 1905: 0.05, 1913: 0.08, 1920: 0.10, 1929: 0.11},
      {1900: 0.0, 1905: 0.10, 1913: 0.33, 1920: 0.45, 1929: 0.23}, {1900: 0.0, 1913: 0.015, 1929: 0.04}, ("lr_car",)),
     ("chem", "Chemicals", "Champions!Y", {1870: 0.01, 1913: 0.03, 1929: 0.05}, {1870: 0.005, 1913: 0.015, 1929: 0.02}, ("lr_chem",)),
@@ -247,8 +259,33 @@ def build_growth(wb) -> c51.Sheet:
 
     g = "Memo: who pays for research"
     G.add("rd_cost", "Research spending ($m)", lambda y, r: f"={a}{r}*Economy!O{r}", group=g)
-    G.add("rd_pub", "… paid by the state ($m)", lambda y, r: f"=g_pub*{a}{r}*Economy!O{r}")
+    pub = G.add("rd_pub", "… paid by the state ($m)", lambda y, r: f"=g_pub*{a}{r}*Economy!O{r}")
+    tpr = G.add("rd_tp", "… already in Technical programmes ($m)", lambda y, r: f"=g_tp_res*Economy!O{r}*Paths!V{r}",
+                note="g_tp_res × GDP × Paths V: the Polytechnic and institutes the Budget already pays for.")
+    G.add("rd_charge", "… charged to the Budget beyond them ($m, into Budget AF)",
+          lambda y, r: f"=IF(AND(g_on=1,g_charge=1),MAX(0,{pub}{r}-{tpr}{r}),0)")
     return G
+
+
+def link_budget(wb, G: c51.Sheet) -> None:
+    B, X = wb["Budget"], wb["Energy link"]
+    assert B["AF5"].value is None and B["AE5"].value.startswith("Earmarked works"), B["AF5"].value
+    B["AF5"].value = "Research beyond Technical programmes (growth engine)"
+    B["AF5"]._style = copy.copy(B["AE5"]._style)
+    B["AF4"]._style = copy.copy(B["AE4"]._style)
+    B.column_dimensions["AF"].width = B.column_dimensions["AE"].width or 13
+    base.note(B["AF5"], "The state's half of the research path (Growth sheet) beyond the research already in Technical programmes "
+              "(g_tp_res of Budget S's base). 0 at g_on = 0 or g_charge = 0. Author's decision 3, 6 Nov 2026.", 100)
+    for y in YEARS:
+        r = row(y)
+        B[f"AF{r}"].value = f"=Growth!{G['rd_charge']}{r}"
+        B[f"AF{r}"]._style = copy.copy(B[f"AE{r}"]._style)
+        yv = B[f"Y{r}"].value
+        assert yv == f"=SUM(N{r}:X{r})+AE{r}", yv
+        B[f"Y{r}"].value = f"=SUM(N{r}:X{r})+AE{r}+AF{r}"
+        ae = X[f"AE{r}"].value
+        assert ae.startswith(f"=Budget!N{r}+Budget!O{r}+Budget!P{r}+Budget!Q{r}+Budget!S{r}-"), ae
+        X[f"AE{r}"].value = ae.replace(f"+Budget!S{r}-", f"+Budget!S{r}+Budget!AF{r}-", 1)
 
 
 def link(wb, G: c51.Sheet) -> None:
@@ -319,6 +356,7 @@ def main() -> None:
     base.add_levers(wb, levers)
     G = build_growth(wb)
     link(wb, G)
+    link_budget(wb, G)
     log(wb, a.off)
     # The CR-057 money block and the 1927 Japan rescue close a loop (Money N from 1928 reads the rescue's callable balances,
     # the rescue's private share reads 1927 investment abroad, which reads 1927 output). LibreOffice reports it as Err:522
