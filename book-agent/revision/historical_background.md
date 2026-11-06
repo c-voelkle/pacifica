@@ -610,3 +610,40 @@ Model sources: the energy workbook (`energy/`, twelfth build, `energy/CR-052-wor
 - **The champions** *(outside the texts; to verify)*: Alcoa's output and steel-cored aluminium conductor's share of US aluminium in the late 1920s; Arkansas as the main North American bauxite district; Japan's aluminium from 1934 (Sumitomo, Nihon Soda); Norsk Hydro's electrolytic ammonia at Rjukan; Noguchi's ammonia at Nobeoka (1923); the international nitrogen convention (1930) and the Alliance Aluminium Compagnie (1931). **Divergence:** about 150,000 t of aluminium in 1929 absorbed in the Realm and the Concord; the Hayama division of labour, agreed at the first Council of the Two Crowns (1928; CR-054 dated it 1927, before canon's first Council).
 - **The Columbia** *(outside the texts; to verify)*: Bonneville (1938), Rock Island (1933), Rocky Reach (1961), McNary (1954), Wells (1967) and Chief Joseph (1955, no ladder) historically; Grand Coulee (1942) ended salmon above it and The Dalles (1957) drowned Celilo Falls; Keokuk's low dam (1913); Big Creek's 220 kV line (1923) and Boulder's 287 kV line (1936); Bergius hydrogenation (1913), Leuna (1927); acetylene-route synthetic rubber in Germany and the USSR in the 1930s; Britain's Stevenson restriction scheme (1922–1928); Norwegian and Swedish electric pig iron; Trail's electrolytic zinc (1916); Griesheim's magnesium (1886) and Dow's brine plant (1916); Urey's heavy hydrogen (1931). **Divergence:** the river built from 1908 with ladders and compacts, its four purposes, and its electrochemistry a decade early.
 - **People** *(outside the texts)*: Harris Joseph Ryan (born 1866 in Pennsylvania; Cornell 1887; Stanford from 1905; the Ryan high-voltage laboratory; president of the AIEE 1923–24; died 1934); Charles Proteus Steinmetz (1865–26 October 1923). **Divergence:** Ryan raised in Pacifica, the halls' supply and the power seat from 1924.
+
+## CR-057 — the economic order tightened, and where the lead comes from (integrated 6 November 2026)
+
+Sources of the review: Ludwig von Mises, *Human Action* (Scholar's Edition), the author's copy; the review and its verified quotations are in `outputs/research/20261105-mises-review/Mises-review.md`. The growth engine's sources are recorded, with page references and quotations, in `outputs/sessions/20261105-cr057-economic-order/growth-sources.md`.
+- **Central banking** *(to verify)*:
+  - the Federal Reserve Act's 40% gold reserve against notes and 35% in gold or lawful money against deposits (1913);
+  - the Reichsbank Act's tax on uncovered notes (1875);
+  - the Bank of England's weekly return (1844) and the suspensions of Peel's Act (1847, 1857, 1866);
+  - Bagehot, *Lombard Street* (1873);
+  - Britain's return to gold at the old parity (1925) and its departure (September 1931).
+  
+  **Divergence:** a Reserve Bank chartered in 1857 with fixed cover; partner reserves earmarked in San Francisco; the ratios in treaties; falling prices accepted; sterilization rather than margin rules in 1927–28; the refusal to print in 1931–32.
+- **Sovereign funds and saving** *(to verify)*: Norway's fund rule (4% in 2001, 3% in 2017); Singapore's net investment returns rule and Temasek (1974); Switzerland's pillar 3a. **Divergence:** the Patrimony of 1880, fed by rents and spending 3% from 1910; the Previsión of 1919.
+- **Leases and concessions** *(to verify)*: the US Mineral Leasing Act of 1920 (a one-eighth royalty floor); the Federal Water Power Act of 1920 (50-year licences); Hong Kong's auctioned premiums and leases renewable at a reassessed rent.
+- **Free ports and zones** *(to verify)*: the Hamburg free port (1888); Kiautschou's free port; Shenzhen (1980); Suzhou Industrial Park (1994).
+- **People and places** *(to verify)*:
+  - John U. Calkins, governor of the Federal Reserve Bank of San Francisco 1919–36;
+  - A. P. Giannini and the Bank of Italy;
+  - Takahashi Korekiyo's reflation of 1931–32;
+  - Wang Yongjiang (died 1927) and his resignation over Mukden's paper money (1926–27);
+  - Hayashi Kyūjirō at Mukden from 1928;
+  - Zhang Xueliang's allegiance to Nanjing (December 1928);
+  - Huludao's ice-free harbour and Yingkou's winter closing;
+  - the copra collapse of 1929–32;
+  - Leo Baekeland's defence of his patents.
+- **Growth** *(read in the author's copies; quotations in `growth-sources.md`)*:
+  - Hall and Jones (1999) on output per worker;
+  - Jones and Williams (1998) and Hall, Mairesse and Mohnen (2010) on the returns to research;
+  - Mowery and Rosenberg (1998) on US industrial research before 1940;
+  - Moser (2013) on patents and diffusion;
+  - Wright (1936), McCalley (1994), Lieberman (1984), Irwin and Klenow (1994) and Ohashi (2004) on learning curves;
+  - the USGS aluminium statistics (Data Series 140);
+  - Blank and Stigler (1957) on the supply of engineers;
+  - Gugerli, Kupper and Speich (2010) on ETH Zurich;
+  - the Riksdag's Statsutskottet (1928) and Kaiserfeld (2013) on Swedish research.
+  
+  **Divergence:** research at 0.6% of GDP in 1880 rising to 2% by 1929, against the Union's 0.05–0.25%. No country before 1940 spent 1% of GDP on research.

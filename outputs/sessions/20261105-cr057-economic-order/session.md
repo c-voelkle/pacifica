@@ -2,8 +2,8 @@
 session: 20261105-cr057-economic-order
 started: 2026-11-05
 updated: 2026-11-06
-mode: draft
-status: paused-for-author
+mode: integrate
+status: integrated
 baseline:
   commit: 961ebae
   files:
@@ -69,10 +69,17 @@ The fresh-context review (`review-growth.md`) found the leak ratio understated (
 
 ## Resume here
 
-CR-057 (fourth draft: A2 and the second review applied) is drafted (PROPOSED) on branch `draft/cr057-economic-order` and awaits the author's decisions on B–F and the G wording. A fresh-context review is filed in `outputs/sessions/20261105-cr057-economic-order/review.md` (F1–F32) and its findings are applied in the second draft. Nothing in the storyline, register, ledger or workbooks is changed. After approval:
-- integrate G into the storyline with coverage comments;
-- add the register entry and the ledger instruments (I);
-- run sync and the checks;
-- then the workbook builds in H's order (money block, saving account, the Fund, wages and prices, the energy loads, auctions).
+CR-057 is approved and integrated (6 November 2026; author: "I'm happy with the figures, you can integrate CR-057 and keep 'about 37 million'"):
+- G1–G17 are in the storyline with coverage comments and local labels;
+- the MODEL figures are re-synced: about 2.3 times in 1929, the laboratories, about 2.3 million vehicles, the atomic peak about half a percent;
+- §34 is turned round at the author's choice: Pacifica ahead in real output from 1927, the Union ahead in money;
+- register entry CR-057 added;
+- ledger: C-1880-DEV-FUND revised and nine instruments added;
+- character docs: three new dossiers (Calkins, Wang Yongjiang, Hayashi Kyūjirō) and CR-057 notes on Giannini, Baekeland, Tesla, Kashevarov, Takahashi and Zhang Zuolin;
+- historical_background and AGENTS are updated;
+- all checks are clean.
 
-The dynamics workbook (CR-056) lives in the claude.ai project and is not yet in this repo; check its status before H4.
+Branch `draft/cr057-economic-order` (PR #66) carries the CR, both workbooks and the CR-056 merge (PR #65's content). Next, if the author asks:
+- find and break the workbook loop through the 1927 Japan rescue, then switch iteration off;
+- drive the champions' world shares from the research channel (G8);
+- the OPEN items in the register entry.
