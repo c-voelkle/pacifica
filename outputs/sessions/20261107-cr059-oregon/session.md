@@ -93,6 +93,7 @@ independence: separate-agents
 | 8 | 2026-11-07 | Author's research: 42,862 confirmed as a contemporary estimate (OHQ 1926, 2019); $1,090,850 confirmed as bonds issued by 1866 (Treasury reports 1866, 1871), year of issue not established (E2, open decision 42) | blocked on author choices |
 | 9 | 2026-11-07 | Author approved the recommendations of the PR #69 review: open decisions 1–8, CT5, CT14 and the Maine motive written into CR-059 and the §8 and §12 drafts; task 34 added (war claims by county); task 19 made the top research priority | blocked on research task 19 and decisions 9–48 |
 | 10 | 2026-11-07 | Research task 19 (the Idaho trade) read online (note `research-idaho-trade.md`): river-company traffic and rates, Portland treasure, Idaho and Boise Basin output, supply routes. Folded into CR-059 Part V and I11 (the summer of 1866, PROPOSED) | blocked on decisions 9–48; archival part of task 19 open |
+| 11 | 2026-11-07 | Author supplied Johansen (1941) and Throckmorton (1961). Research note section 6 (river-company finances by year, retail-price shares, the 1866 squeeze, the Montana push, gold against greenbacks, Corbett, Bolino's series) and section 7 (ten proposed set pieces). CR-059 Part V corrected (48% in 1861, not 1862; Columbia's lead 1862–64 only) and "coin cuts both ways" added (PROPOSED) | set pieces await the author |
 
 ## Resume here
 
