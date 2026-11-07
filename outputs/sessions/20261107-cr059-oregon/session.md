@@ -92,11 +92,12 @@ independence: separate-agents
 | 7 | 2026-11-07 | Second fresh review (facts and hard blockers): five blockers repaired (Sherman's vote, Lamar wording, CT14 for the conditional article placed in the 1865 armistice convention, Buchanan's Sausalito demand labelled PROPOSED, the 1861 convention's meeting); factual corrections (68 per cent, coin, Article I §35, Mullan, Fort Benton timing, Colorado, state count, CT8's 1887 knock-on) | blocked on author choices |
 | 8 | 2026-11-07 | Author's research: 42,862 confirmed as a contemporary estimate (OHQ 1926, 2019); $1,090,850 confirmed as bonds issued by 1866 (Treasury reports 1866, 1871), year of issue not established (E2, open decision 42) | blocked on author choices |
 | 9 | 2026-11-07 | Author approved the recommendations of the PR #69 review: open decisions 1–8, CT5, CT14 and the Maine motive written into CR-059 and the §8 and §12 drafts; task 34 added (war claims by county); task 19 made the top research priority | blocked on research task 19 and decisions 9–48 |
+| 10 | 2026-11-07 | Research task 19 (the Idaho trade) read online (note `research-idaho-trade.md`): river-company traffic and rates, Portland treasure, Idaho and Boise Basin output, supply routes. Folded into CR-059 Part V and I11 (the summer of 1866, PROPOSED) | blocked on decisions 9–48; archival part of task 19 open |
 
 ## Resume here
 
 - CR-059 is a draft on `revision/cr059-oregon`, open as draft PR #69. The author has chosen among open decisions 1–8 and decided CT5, CT14 and the Maine motive (7 November; CR-059 "Author's choices of 7 November 2026"). The CR is not approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
-- **Next research pass: task 19, the Idaho trade**, which carries 4–6 points of the 1866 model. Sources to start from:
+- **Task 19, the Idaho trade, is done in part** (round 10; `research-idaho-trade.md`). Still open within it: Owyhee and northern output by year, tonnage by route and the river company's yearly earnings, for which the archives below are the remaining sources:
   - University of Oregon Special Collections, John C. Ainsworth papers (Coll 250), boxes 5–10: OSN business records.
   - Whitman College and Northwest Archives, OSN Wallula agency records (WCMss.532), 1861–62: the Wallula office's manifest book.
   - Oregon Historical Society Research Library: OSN corporate records and the Transportation Collection.
