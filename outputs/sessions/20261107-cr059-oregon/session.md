@@ -83,10 +83,11 @@ independence: separate-agents
 | 3 | 2026-11-07 | CR-059 draft, fresh review, repairs | blocked on author choices (Q1) |
 | 4 | 2026-11-07 | Author's research audit folded in: Walla Walla mechanism, war-claims act and bonds, 1860 county returns (Marion as the swing), margin about 51–49, Nesmith's turn (V7a), Chinese counts, migration unquantified | blocked on author choices; next research pass: the 1859 Globe speeches and the 1862 Walla Walla correspondence |
 | 5 | 2026-11-07 | Official Records vol. 50 read (Part I complete, Part II pp. 1–800; note `research-official-records-vol50.md`). Walla Walla mechanism rebuilt on the October 1861 order sending the regulars east, the January 1862 report and Halleck's refusal of coin; the convention moved to July 1862 | blocked on author choices; next research pass: the 1859 Globe speeches |
+| 6 | 2026-11-07 | Congressional Globe, 10–12 February 1859, and the Stephens and Hughes pamphlets read (note `research-congressional-globe-1859.md`). Lamar, Nichols and Thayer spoke for admission, so the six changed votes are now Barksdale, McRae, Horton, Leiter, Wood and Foster, all silent historically (H3–H5, §8 prose); Hughes added as the historical voice of "admit to bind"; Thayer's "non-resident Government" proposed as a scene for 1866 | blocked on author choices (open decisions 35, 43 updated); the H changes need a fresh look |
 
 ## Resume here
 
 - CR-059 is a draft on `revision/cr059-oregon`. Nothing is approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
-- Research passes 1 (author's audit) and 2 (Official Records, vol. 50) are folded in. Next research: the Congressional Globe speeches of February 1859, Stephens's *Admission of Oregon* and Thayer's speech. Part II of the Official Records from p. 801 (1864–65) is unread; the page index is in the note.
+- Research passes 1 (author's audit), 2 (Official Records, vol. 50) and 3 (Congressional Globe, February 1859) are folded in. Still open from the Globe: the preamble roll call member by member; Wood's and Foster's terms. Part II of the Official Records from p. 801 (1864–65) is unread; the page index is in the note.
 - Next: the author chooses among open decisions 1–8 and fixes what he wants of 9–46. Then run a second fresh review, approval and integration (storyline §§8, 10, 12; register entry; `cr_facts.py apply`; ledger).
 - CR-B (Deseret, Nevada, Montana, Wyoming) must settle CT9 (Nevada) and CT11 (Deseret). CR-C is the Southwest, and CR-D the peace, Alaska and the Senate (see `plan-v2-four-crs.md`).
