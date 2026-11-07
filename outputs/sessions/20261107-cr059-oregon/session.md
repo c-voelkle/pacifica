@@ -90,7 +90,7 @@ independence: separate-agents
 
 ## Resume here
 
-- CR-059 is a draft on `revision/cr059-oregon`. Nothing is approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
+- CR-059 is a draft on `revision/cr059-oregon`, open for review as draft PR #69. Nothing is approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
 - Research passes 1 (author's audit), 2 (Official Records, vol. 50) and 3 (Congressional Globe, February 1859) are folded in. Still open from the Globe: the preamble roll call member by member; Wood's and Foster's terms. Part II of the Official Records from p. 801 (1864–65) is unread; the page index is in the note.
 - Next: the author chooses among open decisions 1–8 and fixes what he wants of 9–46. Then run a second fresh review, approval and integration (storyline §§8, 10, 12; register entry; `cr_facts.py apply`; ledger).
 - CR-B (Deseret, Nevada, Montana, Wyoming) must settle CT9 (Nevada) and CT11 (Deseret). CR-C is the Southwest, and CR-D the peace, Alaska and the Senate (see `plan-v2-four-crs.md`).
