@@ -46,7 +46,11 @@ independence: separate-agents
 | D4 | decision | Underhanded levers are acceptable "if they work"; "some of the optional ones" are good (which ones not stated) | author, 7 Nov | current |
 | D5 | decision | Idaho's path belongs in CR-059 | author, 7 Nov | current |
 | D6 | decision | John Sherman is swayed by his brother's letters and votes no (106 to 110) | author, 7 Nov | current |
-| Q1 | open choice | All 46 open decisions in CR-059, especially 1–8 (the optional levers) | CR-059 | open |
+| D7 | decision | Open decisions 1–8 settled as recommended in the claude.ai review of PR #69: P11 adopted with set-off (CT5 amended); P10 moved to 1861–62, open; no V7 push; V12 the declined invitation; Dry Creek included with Billy Chinook as interpreter; the lobby carried into CR-D; P6 never stated; V14 genuinely unauthorized | author, 7 Nov ("I approve the recommendations as proposed") | current |
+| D8 | decision | CT14 adapted, with Elias expecting about 55% and his own floor and Native article narrowing it to about 51–49 | author, 7 Nov | current |
+| D9 | decision | Wood and Foster keep their places; their motive is the race for settlers, not shipping | author, 7 Nov | current |
+| D10 | decision | Research task 19 (the Idaho trade) is the highest research priority before integration | author, 7 Nov | current |
+| Q1 | open choice | Open decisions 9–48 in CR-059 (facts to fix) | CR-059 | open |
 
 ## Handoffs
 
@@ -87,10 +91,16 @@ independence: separate-agents
 | 6 | 2026-11-07 | Congressional Globe, 10–12 February 1859, and the Stephens and Hughes pamphlets read (note `research-congressional-globe-1859.md`). Lamar, Nichols and Thayer spoke for admission, so the six changed votes are now Barksdale, McRae, Horton, Leiter, Wood and Foster, all silent historically (H3–H5, §8 prose); Hughes added as the historical voice of "admit to bind"; Thayer's "non-resident Government" proposed as a scene for 1866 | blocked on author choices (open decisions 35, 43 updated); the H changes need a fresh look |
 | 7 | 2026-11-07 | Second fresh review (facts and hard blockers): five blockers repaired (Sherman's vote, Lamar wording, CT14 for the conditional article placed in the 1865 armistice convention, Buchanan's Sausalito demand labelled PROPOSED, the 1861 convention's meeting); factual corrections (68 per cent, coin, Article I §35, Mullan, Fort Benton timing, Colorado, state count, CT8's 1887 knock-on) | blocked on author choices |
 | 8 | 2026-11-07 | Author's research: 42,862 confirmed as a contemporary estimate (OHQ 1926, 2019); $1,090,850 confirmed as bonds issued by 1866 (Treasury reports 1866, 1871), year of issue not established (E2, open decision 42) | blocked on author choices |
+| 9 | 2026-11-07 | Author approved the recommendations of the PR #69 review: open decisions 1–8, CT5, CT14 and the Maine motive written into CR-059 and the §8 and §12 drafts; task 34 added (war claims by county); task 19 made the top research priority | blocked on research task 19 and decisions 9–48 |
 
 ## Resume here
 
-- CR-059 is a draft on `revision/cr059-oregon`, open for review as draft PR #69. Nothing is approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
-- Research passes 1 (author's audit), 2 (Official Records, vol. 50) and 3 (Congressional Globe, February 1859) are folded in. Still open from the Globe: the preamble roll call member by member; Wood's and Foster's terms. Part II of the Official Records from p. 801 (1864–65) is unread; the page index is in the note.
-- Next: the author chooses among open decisions 1–8 and fixes what he wants of 9–46. Then run a second fresh review, approval and integration (storyline §§8, 10, 12; register entry; `cr_facts.py apply`; ledger).
-- CR-B (Deseret, Nevada, Montana, Wyoming) must settle CT9 (Nevada) and CT11 (Deseret). CR-C is the Southwest, and CR-D the peace, Alaska and the Senate (see `plan-v2-four-crs.md`).
+- CR-059 is a draft on `revision/cr059-oregon`, open as draft PR #69. The author has chosen among open decisions 1–8 and decided CT5, CT14 and the Maine motive (7 November; CR-059 "Author's choices of 7 November 2026"). The CR is not approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
+- **Next research pass: task 19, the Idaho trade**, which carries 4–6 points of the 1866 model. Sources to start from:
+  - University of Oregon Special Collections, John C. Ainsworth papers (Coll 250), boxes 5–10: OSN business records.
+  - Whitman College and Northwest Archives, OSN Wallula agency records (WCMss.532), 1861–62: the Wallula office's manifest book.
+  - Oregon Historical Society Research Library: OSN corporate records and the Transportation Collection.
+  - Dorothy O. Johansen, "The Oregon Steam Navigation Company: An Example of Capitalism on the Frontier", *Pacific Historical Review* (June 1941), 179–188; Johansen and Gates, *Empire of the Columbia* (1957); Randall V. Mills, *Stern-Wheelers up Columbia* (1947). The Oregon Encyclopedia, citing these, gives about 100,000 passengers and 60,000 tons upriver from Celilo in roughly two years after 1862, and a profit near 50 per cent in 1862.
+  - Gold output: Waldemar Lindgren, "The Mining Districts of the Idaho Basin and the Boise Ridge", USGS 18th Annual Report, part 3 (1898), which estimates the Idaho City camp at about $44.7 million for 1863–96; Rossiter W. Raymond, *Statistics of Mines and Mining in the States and Territories West of the Rocky Mountains* (from 1869), and J. Ross Browne's report of 1868 for the 1860s by year; the Director of the Mint's annual reports for Idaho deposits; Bancroft, *History of Washington, Idaho and Montana* (1890).
+- Also open: task 34 (war claims by county, for P11's weight in the south); decisions 9–48; a fresh review of the 7 November choices; then approval and integration (storyline §§8, 10, 12; register entry; `cr_facts.py apply`; ledger).
+- CR-B (Deseret, Nevada, Montana, Wyoming) must settle CT9 (Nevada) and CT11 (Deseret). CR-C is the Southwest, and CR-D the peace, Alaska and the Senate, now also carrying the appropriation lobby (see `plan-v2-four-crs.md`).
