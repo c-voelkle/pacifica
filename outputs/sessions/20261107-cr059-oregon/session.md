@@ -81,9 +81,11 @@ independence: separate-agents
 | 1 | 2026-11-06 | Review of the author's draft; plan v2 | requested comparison complete |
 | 2 | 2026-11-06 – 07 | Outlines 1–4 and the levers | usable proposals |
 | 3 | 2026-11-07 | CR-059 draft, fresh review, repairs | blocked on author choices (Q1) |
+| 4 | 2026-11-07 | Author's research audit folded in: Walla Walla mechanism, war-claims act and bonds, 1860 county returns (Marion as the swing), margin about 51–49, Nesmith's turn (V7a), Chinese counts, migration unquantified | blocked on author choices; next research pass: the 1859 Globe speeches and the 1862 Walla Walla correspondence |
 
 ## Resume here
 
 - CR-059 is a draft on `revision/cr059-oregon`. Nothing is approved, and `master_storyline.md`, `change_requests.json` and the ledger are unchanged.
+- Research pass 1 (author's audit) is folded in. Next research: the Congressional Globe speeches of February 1859 and Stephens's *Admission of Oregon*; the Walla Walla correspondence in the Official Records, series I, vol. 50, part II.
 - Next: the author chooses among open decisions 1–8 and fixes what he wants of 9–46. Then run a second fresh review, approval and integration (storyline §§8, 10, 12; register entry; `cr_facts.py apply`; ledger).
 - CR-B (Deseret, Nevada, Montana, Wyoming) must settle CT9 (Nevada) and CT11 (Deseret). CR-C is the Southwest, and CR-D the peace, Alaska and the Senate (see `plan-v2-four-crs.md`).
