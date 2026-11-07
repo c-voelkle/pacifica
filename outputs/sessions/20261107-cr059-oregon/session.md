@@ -45,6 +45,7 @@ independence: separate-agents
 | D3 | decision | The exclusion clause as the hinge: Pacifica need not make Oregon change it | author, 7 Nov | current (limited by the floor in the draft, X2–X7) |
 | D4 | decision | Underhanded levers are acceptable "if they work"; "some of the optional ones" are good (which ones not stated) | author, 7 Nov | current |
 | D5 | decision | Idaho's path belongs in CR-059 | author, 7 Nov | current |
+| D6 | decision | John Sherman is swayed by his brother's letters and votes no (106 to 110) | author, 7 Nov | current |
 | Q1 | open choice | All 46 open decisions in CR-059, especially 1–8 (the optional levers) | CR-059 | open |
 
 ## Handoffs
@@ -84,6 +85,7 @@ independence: separate-agents
 | 4 | 2026-11-07 | Author's research audit folded in: Walla Walla mechanism, war-claims act and bonds, 1860 county returns (Marion as the swing), margin about 51–49, Nesmith's turn (V7a), Chinese counts, migration unquantified | blocked on author choices; next research pass: the 1859 Globe speeches and the 1862 Walla Walla correspondence |
 | 5 | 2026-11-07 | Official Records vol. 50 read (Part I complete, Part II pp. 1–800; note `research-official-records-vol50.md`). Walla Walla mechanism rebuilt on the October 1861 order sending the regulars east, the January 1862 report and Halleck's refusal of coin; the convention moved to July 1862 | blocked on author choices; next research pass: the 1859 Globe speeches |
 | 6 | 2026-11-07 | Congressional Globe, 10–12 February 1859, and the Stephens and Hughes pamphlets read (note `research-congressional-globe-1859.md`). Lamar, Nichols and Thayer spoke for admission, so the six changed votes are now Barksdale, McRae, Horton, Leiter, Wood and Foster, all silent historically (H3–H5, §8 prose); Hughes added as the historical voice of "admit to bind"; Thayer's "non-resident Government" proposed as a scene for 1866 | blocked on author choices (open decisions 35, 43 updated); the H changes need a fresh look |
+| 7 | 2026-11-07 | Second fresh review (facts and hard blockers): five blockers repaired (Sherman's vote, Lamar wording, CT14 for the conditional article placed in the 1865 armistice convention, Buchanan's Sausalito demand labelled PROPOSED, the 1861 convention's meeting); factual corrections (68 per cent, coin, Article I §35, Mullan, Fort Benton timing, Colorado, state count, CT8's 1887 knock-on) | blocked on author choices |
 
 ## Resume here
 

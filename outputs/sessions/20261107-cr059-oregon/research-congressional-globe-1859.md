@@ -37,7 +37,7 @@ The UNT Portal to Texas History copy that the author linked would not load in th
 | Date | Speaker | Side | Globe pages | Argument |
 |---|---|---|---|---|
 | 10 Feb | **James Hughes** (Indiana, Democrat; lame duck) | For | about 946–949; pamphlet | See below |
-| 10 Feb | **Matthias H. Nichols** (Ohio, Republican) | For | 950 | Against giving admission "a purely partisan cast". He cites consistency with the 1856 enabling bill, says alien suffrage is a state matter, and notes that Ohio, Indiana and Illinois "interposed obstacles to the immigration of free negroes" |
+| 10 Feb | **Matthias H. Nichols** (Ohio, Republican) | For | 950 | Against giving admission "a purely partisan cast". He cites consistency with the 1856 enabling bill, says alien suffrage is a state matter, and notes that Ohio, Indiana and Illinois "interposed obstacles to the immigration of free negroes" (Ohio had repealed its laws in 1849) |
 | 10–11 Feb | Bingham (Ohio, Republican); Dawes (Massachusetts, Republican); Stanton (Ohio, Republican) | Against | 946–974 | The exclusion of free Black people; alien suffrage; the Kansas ratio |
 | 11 Feb | **John B. Clark** (Missouri, Democrat; Committee on Territories) | For | about 968–971 | See below |
 | 11 Feb | Zollicoffer (Tennessee, American; minority report) | Against | 968–972 | Population; alien suffrage under *Dred Scott* |
