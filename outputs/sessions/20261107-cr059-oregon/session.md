@@ -50,6 +50,7 @@ independence: separate-agents
 | D8 | decision | CT14 adapted, with Elias expecting about 55% and his own floor and Native article narrowing it to about 51–49 | author, 7 Nov | current |
 | D9 | decision | Wood and Foster keep their places; their motive is the race for settlers, not shipping | author, 7 Nov | current |
 | D10 | decision | Research task 19 (the Idaho trade) is the highest research priority before integration | author, 7 Nov | current |
+| D11 | decision | The 1865–66 slump is softened in Oregon, not erased; the national-currency argument shrinks to the debtor's 29 per cent | author, 7 Nov ("Yes I approve") | current |
 | Q1 | open choice | Open decisions 9–48 in CR-059 (facts to fix) | CR-059 | open |
 
 ## Handoffs
@@ -94,6 +95,7 @@ independence: separate-agents
 | 9 | 2026-11-07 | Author approved the recommendations of the PR #69 review: open decisions 1–8, CT5, CT14 and the Maine motive written into CR-059 and the §8 and §12 drafts; task 34 added (war claims by county); task 19 made the top research priority | blocked on research task 19 and decisions 9–48 |
 | 10 | 2026-11-07 | Research task 19 (the Idaho trade) read online (note `research-idaho-trade.md`): river-company traffic and rates, Portland treasure, Idaho and Boise Basin output, supply routes. Folded into CR-059 Part V and I11 (the summer of 1866, PROPOSED) | blocked on decisions 9–48; archival part of task 19 open |
 | 11 | 2026-11-07 | Author supplied Johansen (1941) and Throckmorton (1961). Research note section 6 (river-company finances by year, retail-price shares, the 1866 squeeze, the Montana push, gold against greenbacks, Corbett, Bolino's series) and section 7 (ten proposed set pieces). CR-059 Part V corrected (48% in 1861, not 1862; Columbia's lead 1862–64 only) and "coin cuts both ways" added (PROPOSED) | set pieces await the author |
+| 12 | 2026-11-07 | Author approved the softened slump: CR-059 Part V's "coin cuts both ways" replaced by "The softened slump" (currency swing and credit softened, Siskiyou wages; Idaho and Montana stand), "The debtor's 29 per cent", British Columbia's slump as contrast (to verify) and a dynamic-layer test case | set pieces await the author |
 
 ## Resume here
 
