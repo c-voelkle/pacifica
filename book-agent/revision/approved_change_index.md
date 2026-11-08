@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 56 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 57 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1062,6 +1062,19 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - Doheny's successor in 1924; Turner's life after the seat.
+
+### CR-066 — Elias before California: Missouri, Taos, the Colonel and Kit Carson (1824–1847, with Taos in 1862)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Parts A–C (APPROVED where the author decided, otherwise PROPOSED): Missouri birth at Franklin c.1824 to an Anglo mother; the father Reuben Thorne (c.1798–1837), Santa Fe trader, trapper with Young, mule trader; Taos winters from 1834; Elias reads to Kit Carson by the fire; the Colonel (Champ d'Asile, Mexican citizen, assayer at the Ortiz, teaches French, Vauban, Jomini, strata, assaying); the pastor at Independence (1836); Reuben drowns forcing the Arkansas in spring 1837, his own choice of crossing; dispossession under Missouri law; the fire's cause unresolved; the Colonel lends Elias the first volume of Dacier's Plutarch (Lycurgus and Numa), never returned.
+- Part B/D: the Colonel hanged for treason at Taos on 9 April 1847 beside Salazar on a French letter Beaubien reads; his January conduct unresolved; the first of Elias's grievances against the United States to wear its uniform. Carson in the 1826 caravan, at Gavilan Peak and as Kearny's guide at San Pasqual.
+- CT1 decided: the father is Reuben Thorne (supersedes the bible's Silas). CT2, CT3 amended. CT4 (CR-061 C11 wording and November 1862 resignation) approved and applied to the CR-061 draft.
+- Part E (Taos, December 1862: the grave, the families' demand, Carson's companies and the 1847 amnesty) is approved and integrated with CR-061, into whose §10 text it is written.
+
+**Still open:**
+- The mother's and the Colonel's names; the Bible's rescue (Missouri exemption law, to verify); deliberately unresolved: the Colonel's service and rank, his conduct in January 1847, who set the fire of 1837.
+- Part E integration with CR-061; CR-066 open decisions 9–12 (Taos 1862, who presses for the trials, Carson's death, Maxwell).
 
 ### Author-approved editorial safeguards
 
