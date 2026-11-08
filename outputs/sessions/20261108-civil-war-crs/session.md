@@ -59,7 +59,8 @@ Hard blockers: (B1) the Union's 1863 Texas expeditions sailed from New Orleans a
 
 - X1 `lint_canon.py --only` on each of CR-059 to CR-065: clean.
 - X2 `cr_facts.py preview` (and `--tensions` where tensions carry blocks): pasted in each draft; no canon passage conflicts outside the declared tensions.
-- X3 Fresh-context review over the set: commissioned 8 November (result in `review-set.md` when returned).
+- X3 Fresh-context review over the set (`review-set.md`): 11 cross-CR contradictions, 6 unlisted tensions, internal and historical items, literary notes.
+- X4 Repair pass (`review-set-fixes.md`): mechanical fixes applied across the seven drafts; the author's items recorded as new tensions (CR-059 CT15, CR-060 CT7–CT8, CR-061 CT8, CR-062 CT7–CT8, CR-063 CT14) and open decisions; all seven lint-clean; `session.py end`: nothing left behind.
 
 ## Resume here
 
