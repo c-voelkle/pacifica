@@ -39,14 +39,15 @@ independence: separate-agents
 
 | ID | To | Task | Inputs | Withheld for independence | Output | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| H1 | fresh-context reviewer | consistency, history, literary effect | CR-066, AGENTS.md, canon §§1–4, §10 excerpt, bible entries, CR-061 draft | the brainstorm chat, this record | findings below | done |
+| H1 | fresh-context reviewer | consistency, history, literary effect | CR-066, AGENTS.md, canon §§1–4, §10 excerpt, bible entries, CR-061 draft | the brainstorm chat, this record | 4 blockers, 13 should-fix, 6 consider; applied (CR-066 Review section) | done |
 
 ## Checks
 
 - X1 `cr_facts.py preview` and `--tensions`: clean except CT1's expected AGENTS.md hit.
-- X2 `lint_canon.py --only CR-066.md`: clean.
+- X2 `lint_canon.py --only CR-066.md`: clean (before and after the review fixes).
+- X3 Interface with CR-061 (PR #69): CT4 asks C11 for "the boy who read to him by the fire" and a November 1862 resignation.
 
 ## Resume here
 
-- The author decides CT1–CT5 and open decisions 1–9; CR-066's EB-21–23 wait on CR-061 C11 and open decision 12.
+- The author decides CT1–CT5 and open decisions 1–9; CR-066 Part E (EB-22–25) waits on CR-061 C11 and open decision 12.
 - On approval: integrate on an `adopt/cr066` branch, after or with CR-061.
