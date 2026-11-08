@@ -2,8 +2,8 @@
 session: 20261108-cr066-elias-before-california
 started: 2026-11-08
 updated: 2026-11-08
-mode: draft
-status: paused-for-author
+mode: adopt
+status: active
 baseline:
   commit: 221ed91
 independence: separate-agents
@@ -23,6 +23,7 @@ independence: separate-agents
 | --- | --- | --- |
 | 2026-10-28 | explore | Author: "Let's continue brainstorming for now" |
 | 2026-11-08 | draft | Author: "write this up as a cr" |
+| 2026-11-08 | adopt | Author: "Reuben is the right name. The changes to cr-061 are approved. Elias does not choose the crossing place. If there's nothing else open, go ahead and integrate it." |
 
 ## Author decisions and open choices
 
@@ -49,5 +50,6 @@ independence: separate-agents
 
 ## Resume here
 
-- The author decides CT1–CT5 and open decisions 1–12; CR-066 Part E (EB-22–25) waits on CR-061 C11 and open decision 12.
-- On approval: integrate on an `adopt/cr066` branch, after or with CR-061.
+- CR-066 Parts A–D integrated on `adopt/cr066`; Part E (Taos, December 1862) waits for CR-061 and is written into its §10 text at CR-061's integration, with the `taos-1847-amnesty` event and the compact's ledger article.
+- CR-061 draft (PR #69) carries the approved CT4 changes: "the boy who read to him by the fire", resignation November 1862; its registry note should use CT-KIT-CARSON.
+- Still OPEN: the mother's and the Colonel's names; the Bible's rescue (Missouri exemption law).

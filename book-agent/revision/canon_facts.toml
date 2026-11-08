@@ -732,3 +732,28 @@ aliases = ["Charles Steinmetz", "Steinmetz"]
 born = 1865
 died = 1923
 source = "CR-052"
+
+[[person]]
+id = "CT-THORNE-FATHER"
+aliases = ["Reuben Thorne"]
+born = 1798
+died = 1837
+source = "CR-066"
+
+[[forbidden]]
+pattern = "Silas Thorne,? (?:Elias(?:'s|’s) father|the father of Elias)|Elias(?:'s|’s) father,? Silas"
+message = "CR-066: Elias's father is Reuben Thorne; Silas is the pastor and the eldest son"
+kind = "fact"
+source = "CR-066"
+
+[[event]]
+id = "colonel-hanged-taos"
+year = 1847
+patterns = ['''hanged in the plaza on 9 April (?P<year>1[89]\d\d)''', '''hanged for treason at Taos on 9 April (?P<year>1[89]\d\d)''']
+source = "CR-066"
+
+[[event]]
+id = "carson-1826-caravan"
+year = 1826
+patterns = ['''In August (?P<year>1[89]\d\d) he takes the Santa Fe road in the caravan''']
+source = "CR-066"
