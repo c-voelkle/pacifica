@@ -31,9 +31,9 @@ independence: separate-agents
 | D1 | decision | Missouri birth; Anglo mother (not the Nuevomexicana alternative) | author 2026-11-08 | current |
 | D2 | decision | The Colonel's backstory, what Elias learns from him, and the volume with Lycurgus and Numa go in | author 2026-11-08 | current |
 | D3 | decision | The Colonel dies in the Taos Rebellion; it feeds Elias's enmity to the Union; no on-the-nose river warning | author 2026-10-28 | current |
-| D4 | decision | Carson and his volunteers cross Elias's men fatefully in New Mexico in the Civil War | author 2026-11-08 | current (realised through CR-061 C11 plus CR-066 EB-22–23) |
+| D4 | decision | Carson and his volunteers cross Elias's men fatefully in New Mexico in the Civil War | author 2026-11-08 | current (realised through CR-061 C11 plus CR-066 EB-22–25) |
 | Q1 | open choice | Father's name: Reuben (recommended) or Silas (CT1) | CR-066 | open |
-| Q2 | open choice | CR-066 open decisions 2–9 | CR-066 | open |
+| Q2 | open choice | CR-066 open decisions 2–12 | CR-066 | open |
 
 ## Handoffs
 
@@ -49,5 +49,5 @@ independence: separate-agents
 
 ## Resume here
 
-- The author decides CT1–CT5 and open decisions 1–9; CR-066 Part E (EB-22–25) waits on CR-061 C11 and open decision 12.
+- The author decides CT1–CT5 and open decisions 1–12; CR-066 Part E (EB-22–25) waits on CR-061 C11 and open decision 12.
 - On approval: integrate on an `adopt/cr066` branch, after or with CR-061.
