@@ -62,6 +62,10 @@ Hard blockers: (B1) the Union's 1863 Texas expeditions sailed from New Orleans a
 - X3 Fresh-context review over the set (`review-set.md`): 11 cross-CR contradictions, 6 unlisted tensions, internal and historical items, literary notes.
 - X4 Repair pass (`review-set-fixes.md`): mechanical fixes applied across the seven drafts; the author's items recorded as new tensions (CR-059 CT15, CR-060 CT7–CT8, CR-061 CT8, CR-062 CT7–CT8, CR-063 CT14) and open decisions; all seven lint-clean; `session.py end`: nothing left behind.
 
+## Author's decision of 8 November 2026 (Bear River)
+
+Bear River is not a Pacifican atrocity: Hays (CT-HAYS) and Beale on the road, warrants and written orders, a limited action at the ravine, the Box Elder compact; the stain the friendship doctrine needs (CR-015 H6) moves to the Owyhee country in 1865–66, where Idaho's miners' companies kill a Paiute camp and Pacifica hangs their leaders at Boise (CR-060 D4, D8–D9, M8–M10, N2, N8, CT5; CR-059 I7 and CR-061 CT8 annotated). Knock-ons at integration: §10's sentence, CR-015 H6's second bullet, §25's rejoinder.
+
 ## Resume here
 
 - CR-059 to CR-065 are drafts on `revision/cr059-oregon` (PR #69, draft). Canon, the register, the facts file and the ledger are unchanged.
