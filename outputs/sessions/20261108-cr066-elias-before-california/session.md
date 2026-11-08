@@ -3,7 +3,7 @@ session: 20261108-cr066-elias-before-california
 started: 2026-11-08
 updated: 2026-11-08
 mode: adopt
-status: active
+status: paused-for-author
 baseline:
   commit: 221ed91
 independence: separate-agents
@@ -50,6 +50,6 @@ independence: separate-agents
 
 ## Resume here
 
-- CR-066 Parts A–D integrated on `adopt/cr066`; Part E (Taos, December 1862) waits for CR-061 and is written into its §10 text at CR-061's integration, with the `taos-1847-amnesty` event and the compact's ledger article.
+- CR-066 Parts A–D integrated and merged to main (#71); Part E (Taos, December 1862) waits for CR-061 and is written into its §10 text at CR-061's integration, with the `taos-1847-amnesty` event and the compact's ledger article.
 - CR-061 draft (PR #69) carries the approved CT4 changes: "the boy who read to him by the fire", resignation November 1862; its registry note should use CT-KIT-CARSON.
 - Still OPEN: the mother's and the Colonel's names; the Bible's rescue (Missouri exemption law).
