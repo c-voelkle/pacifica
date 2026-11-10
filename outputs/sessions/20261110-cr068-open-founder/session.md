@@ -6,7 +6,7 @@ mode: draft
 status: paused-for-author
 baseline:
   commit: b3de13e
-independence: separate-agent   # one fresh-context reviewer on revision 13; revision 14's fixes are self-reviewed
+independence: separate-agent   # fresh-context reviewers on revisions 13 and 14; revision 15's fixes are self-reviewed
 ---
 
 # CR-068 revision 11: the founder in the open
@@ -36,7 +36,11 @@ independence: separate-agent   # one fresh-context reviewer on revision 13; revi
 
 - **Revision 14 (same day):** Status columns updated row by row from the author's decisions. A fresh-context reviewer (given revision 13, AGENTS.md, canon, the character bible, CR-049 and CR-059 to CR-066 and the four source texts; withheld: this record and the drafting conversation) found the draft not ready: leftovers, miscounts, and three mechanisms that undid the open founder. Fixed in revision 14 and listed under Review in the CR.
 
+- **Revision 15 (same day):** a second fresh-context reviewer read revision 14 and again found it not ready. Its must-fix items are applied (the second reservation, the blind vote's standing in canon §8, the §13 block, *Two Houses* against CR-059's Oregon exclusion, leftovers and overstated status cells). What is open is now listed at the head of the CR's Open decisions as items 74 to 90.
+
 ## Resume here
+
+- **After revision 15:** see CR-068, "Still open after revision 15" (items 74 to 90). The reviewers' strongest advice is item 90, a clean copy of the CR before adoption. Revision 15's own fixes are self-reviewed.
 
 - **After revision 14:** the reviewer's must-fix items are applied. Revision 14's own fixes have not been reviewed by a fresh agent.
 - **Waiting on the author:** (1) the reworded second reservation and the dissolution announced beforehand, which change things he had approved; (2) CT25, Victoria and "the policy" of 1871; (3) the items the review found and left for him (listed under Review); (4) the five suggestions and the two drafts A12 and A13; (5) decisions 16 and 31, deferred; (6) whether the 31 rows still marked PROPOSED are approved by default.
