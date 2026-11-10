@@ -30,7 +30,11 @@ independence: self-review   # no fresh-context review of revision 11 has been ru
 - Sources supplied by the author for *Two Houses* (G6b): Fellman, *Inside War*; Rose, *Rehearsal for Reconstruction*; Voegeli, *Free but Not Equal*; Foner, *Reconstruction*. Every page reference in G6b and Appendix B rows S36–S51 was checked against the supplied texts. Quotations of Lincoln in those rows are as the books print them and are still to be checked against Basler (research 44, 47).
 - `lint_canon.py --only CR-068.md` clean; `cr_facts.py preview`: no fact changes declared.
 
+- **Revision 12 (same day):** the author decided open decisions 1 to 50 in chat (16 and 31 deferred) and asked that no texts be drafted yet. Recorded in the list and applied where they change the text: Lincoln dies in 1871 and the meeting is in 1869; Douglass's judgment (V1) is left out; Pacifica's schools read *Two Houses* and its colleges read Lincoln; L3 loses its sentence on the Native nations and the freedmen; London is cut from G4; the loan passes smaller and shorter; an instrument is suggested for Victoria's entry condition (CT8).
+
 ## Resume here
+
+- **After revision 12:** decisions 1 to 50 are decided and marked; 16 and 31 are deferred (31: the schoolbook triad is to be more patriotic and must not give the win to another country in its first sentence). Decisions 51 to 73 are open; the author will come to them later. No paper or sample is to be drafted yet. The decision tables' Status columns are not yet updated row by row.
 
 - CR-068 revision 11 is a draft on `revision/cr059-oregon` (PR #69). Nothing is approved or integrated.
 - **The author's next decision:** open decision 56 (CT18), the writ of 1871 left standing with a ransom article. It is the one change in revision 11 that the author discussed and did not expressly agree, and it is the largest change to canon (§13's PROPOSED override).
