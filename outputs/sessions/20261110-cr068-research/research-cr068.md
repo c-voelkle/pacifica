@@ -195,3 +195,134 @@ Session 2026-11-10. Checked first against the branch's revision 4; applied to re
 **Source:** Wikipedia, 1860 election in Oregon (weak; Secretary of State's Blue Book PDF did not load) (https://en.wikipedia.org/wiki/1860_United_States_presidential_election_in_Oregon); Oregon Encyclopedia, "The Oregonian" (https://oregonencyclopedia.org/articles/oregonian/) and "Asahel Bush" (https://oregonencyclopedia.org/articles/bush_asahel_1824_1913_/).
 **Verdict:** answered, with one flag.
 **Draft change needed:** G10: "Hist.: Pittock's *Oregonian*, edited from 1865 by Harvey W. Scott". **Flag for CR-059:** if CR-059 has Bush arguing in print in 1866, in history he no longer owned the *Statesman* (buyer not named in the source). Either the divergence keeps him at the paper (say why), or he argues as a party leader rather than an editor.
+
+---
+
+# Items 23–37 (added in revision 7; checked the same day, applied as revision 9)
+
+| # | Item | Verdict |
+|---|------|---------|
+| 23 | The Greeley letter | **Disagrees in one word:** "I would also do *that*" |
+| 24 | The draft and the men who left it | **Agrees** (calls and proclamations); historical baselines not checked |
+| 25 | A loyal government made from the loyal | **Agrees**; Colorado's rejection dated 11 Oct 1864 |
+| 26 | Lyceum on schools and primers | **Agrees** |
+| 27 | Conkling | **Agrees** |
+| 28 | The debates in print | **Agrees**; Lincoln assembled the edition |
+| 29 | McClure on Grant | Not used; nothing to check |
+| 30 | Never styling Davis a president | **Agrees in substance** |
+| 31 | Serenade of 10 Nov 1864 | **Agrees**; G8 now quotes it |
+| 32 | The inaugural's perpetual-Union sentence | **Disagrees with Masters:** "and of the Constitution" is in the delivered text |
+| 33 | Louisiana and the Congress | **Partly**: Wade–Davis confirmed; the Louisiana rebuff unconfirmed |
+| 34 | Raymond and the unsent instructions | **Agrees** |
+| 35 | The Dakota war and Lincoln | **Two corrections** (Ramsey's wording; 303–39–38); the Aborigines' Protection Society's part unsupported |
+| 36 | Right of search; Bull Run news; Idaho gold | **Agrees**; Bull Run news reached San Francisco 2 Aug 1861 |
+| 37 | Jefferson and Pierce | **Agrees** |
+
+## 23. The Greeley letter (G4, A8b)
+
+**Finding:** "If I could save the Union without freeing *any* slave I would do it, and if I could save it by freeing *all* the slaves I would do it; and if I could save it by freeing some and leaving others alone I would also do that." The CR ended the sentence with "do it".
+**Source:** Abraham Lincoln Online, from Basler (https://abrahamlincolnonline.org/lincoln/speeches/greeley.htm).
+**Verdict:** disagrees in one word. The cabinet reading of 22 July 1862 and the spring record (6 March, 16 April, 17 July) not checked.
+**Draft change made:** G4 and A8b end "do that".
+
+## 24. The draft and the men who left it (G5, G8)
+
+**Finding:** Proclamation of 18 July 1864 calls for 500,000 men and orders a draft after 5 September for unfilled quotas. Proclamation of 10 March 1863: absentees returning by 1 April are restored without punishment beyond forfeited pay. The letter to Corning and others is of 12 June 1863.
+**Source:** American Presidency Project (https://www.presidency.ucsb.edu/documents/proclamation-116-calling-for-500000-volunteers; https://www.presidency.ucsb.edu/documents/proclamation-recalling-soldiers-their-regiments); House Divided (https://hd.housedivided.dickinson.edu/node/40394).
+**Verdict:** agrees. Geary and Unruh (the baselines the story assumption exceeds) not checked.
+**Draft change made:** "to verify" removed in G5 and G8, PP6.
+
+## 25. A loyal government made from the loyal (G7)
+
+**Finding:** Nevada's and Colorado's enabling acts were both approved on 21 March 1864 (13 Stat. 30, 32). Colorado's first convention adopted a constitution on 11 July 1864, and the voters rejected it on 11 October 1864, 4,672 to 1,520, chiefly because it came with a slate of state officers chosen in advance. The amnesty proclamation (8 December 1863) and West Virginia (1863) are standard dates, not re-checked.
+**Source:** Colorado enabling act (https://dheller.org/Timeline-files/US-Statutes/v13/c38/s1/pub/ch37-p32.pdf); Wikipedia, Constitution of Colorado (weak) (https://en.wikipedia.org/wiki/Constitution_of_Colorado).
+**Verdict:** agrees.
+**Draft change made:** G7 dates the acts and the rejection. The rejection falls four weeks before the Union's election, which suits G7.
+
+## 26. The Lyceum on schools and primers (G9)
+
+**Finding:** Reverence for the laws: "let it be taught in schools, in seminaries, and in colleges; let it be written in primers, spelling books, and in almanacs", and "let it become the political religion of the nation".
+**Source:** Teaching American History, Lyceum address (https://teachingamericanhistory.org/document/the-perpetuation-of-our-political-institutions-address-before-the-young-mens-lyceum-of-springfield-illinois/).
+**Verdict:** agrees. G9's reading (Elias applies the Lyceum's own remedy to the Lyceum) holds exactly.
+**Draft change made:** G9 quotes the clause.
+
+## 27. The letter to Conkling (PP8)
+
+**Finding:** 26 August 1863, written because Lincoln could not attend the mass meeting of unconditional Union men at Springfield on 3 September, and sent to be read there. It contains "The Father of Waters again goes unvexed to the sea" (K21 rightly says that sentence is never written here).
+**Source:** American Presidency Project (https://www.presidency.ucsb.edu/documents/letter-james-c-conkling).
+**Verdict:** agrees. The form (a letter to be read to a meeting) is a good model for PP8.
+
+## 28. The debates in print (MD1)
+
+**Finding:** *Political Debates between Hon. Abraham Lincoln and Hon. Stephen A. Douglas* (Columbus: Follett, Foster and Company, 1860). Lincoln assembled it himself; about 30,000 copies sold in the first year.
+**Source:** Duke University Libraries exhibit (https://exhibits.library.duke.edu/exhibits/show/lincoln/item/12190).
+**Verdict:** agrees. That Lincoln compiled it makes it his own text, which suits the founder's annotated copy.
+
+## 29. McClure on Grant (G3)
+
+**Finding:** the CR does not use the sentence. McClure's *Abraham Lincoln and Men of War-Times* is of 1892.
+**Verdict:** nothing to check.
+
+## 30. Never styling Davis a president (open decision 5)
+
+**Finding:** The "To Whom It May Concern" letter (Executive Mansion, 18 July 1864) accepts proposals for peace, Union and the abandonment of slavery only from "an authority that can control the armies now at war against the United States", and never names the Confederacy. In January 1865 Davis proposed peace "to the two countries"; Lincoln answered that he would receive agents with a view to peace "to the people of our one common country".
+**Source:** Teaching American History (https://teachingamericanhistory.org/document/the-to-whom-it-may-concern-letter); Encyclopedia Virginia, Hampton Roads Conference (https://encyclopediavirginia.org/entries/hampton-roads-conference/).
+**Verdict:** agrees in substance. Whether he wrote "Mr. Davis" in the Blair correspondence not checked.
+
+## 31. The response to a serenade, 10 November 1864 (G8)
+
+**Finding:** "We can not have free government without elections; and if the rebellion could force us to forego, or postpone a national election, it might fairly claim to have already conquered and ruined us."
+**Source:** American Presidency Project (https://www.presidency.ucsb.edu/documents/remarks-response-serenade-2).
+**Verdict:** agrees with G8's paraphrase.
+**Draft change made:** G8 quotes the sentence. Here it is said in defeat, so it reads as a man justifying the election that turned him out, which is stronger.
+
+## 32. The first inaugural's sentence on the perpetual Union (AG2, PP1, A3)
+
+**Finding:** "I hold that, in contemplation of universal law and of the Constitution, the Union of these States is perpetual." The fresh-context review was right; Masters drops "and of the Constitution".
+**Source:** usinfo.org text of the first inaugural (https://usinfo.org/PUBS/LivingDoc_e/firstinaugural.htm).
+**Verdict:** disagrees with Masters 318.
+**Draft change made:** AG2 and A3 quote the delivered sentence; G1's note and S22 point here. Effect on the two pages: Lincoln's claim rests on the Constitution as well as on universal law, which helps his answer in G1 (a territory is not one of "these States").
+
+## 33. Louisiana and the Congress (G7)
+
+**Finding:** The Wade–Davis bill passed both houses on 2 July 1864 and was pocket-vetoed; the Wade–Davis manifesto followed on 4 August 1864. Wikipedia says nothing of Congress refusing Louisiana's members. Drafter's knowledge: the Senate declined to seat the senators of Lincoln's Louisiana government in February 1865.
+**Source:** Wikipedia, Wade–Davis Bill (weak) (https://en.wikipedia.org/wiki/Wade%E2%80%93Davis_Bill).
+**Verdict:** partly. If the Louisiana rebuff is February 1865, it comes after G7's season; G7's "as he was historically over Louisiana" still holds as the pattern.
+**Draft change made:** G7 gives the Wade–Davis date and marks the Louisiana date "still to verify".
+
+## 34. Raymond's proposal and the instructions Lincoln did not send (G8)
+
+**Finding:** Raymond wrote on 22 August 1864. Lincoln's draft of 24 August (Basler 7:517) directed Raymond to seek a conference with Davis and propose that "upon the restoration of the Union and the national authority, the war shall cease at once", other questions to be settled peacefully. It was not sent (that Raymond was talked out of it at a meeting on 25 August is drafter's knowledge).
+**Source:** House Divided, Lincoln to Raymond, 24 August 1864 (https://hd.housedivided.dickinson.edu/node/42202).
+**Verdict:** agrees with G8's "Raymond's road".
+
+## 35. The Dakota war and Lincoln (G4)
+
+**Finding:**
+- Ramsey, 9 September 1862, special session: "The Sioux Indians of Minnesota must be exterminated or driven forever beyond the borders of Minnesota." The CR had "of the State".
+- Lincoln's message to the Senate of 11 December 1862: 39 ordered executed, from those proven to have taken part in massacres as distinct from battles. One was reprieved on 23 December, so 38 were hanged at Mankato on 26 December. The CR had "from 303 to 38".
+- Acts of 16 February 1863 (the Dakota treaties abrogated as to future obligations; lands and annuities forfeited), 21 February 1863 (Winnebago removal) and 3 March 1863 (Dakota removal).
+- Annual message of 1 December 1862: Congress to consider "whether our Indian system shall not be remodeled".
+- Address of 14 August 1862 to a deputation of free coloured men: a colony in Central America; "It is better for us both, therefore, to be separated."
+- The Aborigines' Protection Society: founded 1837 (Buxton, Hodgkin and others); journal *Aborigines' Friend, or Colonial Intelligencer* from 1855. No action on American Indians in the 1860s was found.
+**Source:** MNHS, Alexander Ramsey (https://www.mnhs.org/usdakotawar/stories/history/alexander-ramsey); American Presidency Project, message of 11 December 1862 (https://www.presidency.ucsb.edu/documents/message-the-senate-responding-the-resolution-regarding-indian-barbarities-the-state); Wikipedia, 1862 Mankato mass execution (weak) (https://en.wikipedia.org/wiki/1862_Mankato_mass_execution); 12 Stat. 652 (https://www.govinfo.gov/content/pkg/STATUTE-12/pdf/STATUTE-12-Pg652.pdf); 12 Stat. 819 (https://www.govinfo.gov/link/statute/12/819); Teaching American History, 1862 message excerpt and colonization address (https://teachingamericanhistory.org/document/annual-message-to-congress-1862/; https://teachingamericanhistory.org/document/address-on-colonization-to-a-committee-of-colored-men/); Wikipedia, Aborigines' Protection Society (weak) (https://en.wikipedia.org/wiki/Aborigines%27_Protection_Society).
+**Verdict:** agrees except the two corrections. Lincoln's order to Sibley of 6 December not checked.
+**Draft change made:** G4 corrects Ramsey and the count, dates the acts, quotes the annual message, and marks the Society's taking up the account PROPOSED.
+
+## 36. The right of search, Bull Run and Idaho gold (G2)
+
+**Finding:** Seward's answer of 26 December 1861 held that Wilkes had the right to stop and search the *Trent* and erred in not taking her in for adjudication; the envoys were "cheerfully" released. News of Bull Run reached San Francisco by Pony Express on 2 August 1861. Pierce's party reached the Clearwater in August 1860 (gold first panned there in 1859); Elk City 1860; the Salmon River (Florence) in 1861 (drafter's knowledge for Florence).
+**Source:** Office of the Historian, Trent Affair (https://diplomacy.state.gov/stories/the-trent-affair-diplomacy-britain-and-the-american-civil-war); *San Francisco Directory* for 1862, chronology (https://library.sfgenealogy.org/directory/san-francisco-county-directory/1862/1862_90.pdf); Wikipedia, Elias D. Pierce (weak) (https://en.wikipedia.org/wiki/Elias_D._Pierce); NW Power and Conservation Council, Gold (https://www.nwcouncil.org/history/Gold/).
+**Verdict:** agrees. Bull Run on 2 August is in time for G2's Council in August.
+**Draft change made:** G2's three notes filled in.
+
+## 37. Jefferson and the Pierce letter (G6)
+
+**Finding:**
+- To Astor, 9 November 1813: Astoria "the germ of a great, free & independant empire on that side of our continent", with liberty and self-government spreading from both sides.
+- To Breckinridge, 12 August 1803: why should we take side with our Atlantic rather than our Mississippi descendants; "god bless them both, & keep them in union if it be for their good, but separate them if it be better."
+- To Priestley, 29 January 1804: whether one confederacy or Atlantic and Mississippi confederacies is "not very important to the happiness of either part".
+- Lincoln to Pierce and others, 6 April 1859: "The principles of Jefferson are the definitions and axioms of free society."
+**Source:** Founders Online (https://founders.archives.gov/documents/Jefferson/03-06-02-0466; https://founders.archives.gov/documents/Jefferson/01-41-02-0139; https://founders.archives.gov/documents/Jefferson/01-42-02-0322); Abraham Lincoln Online (https://abrahamlincolnonline.org/lincoln/speeches/pierce.htm).
+**Verdict:** agrees. G6's paraphrase of the Breckinridge letter is fair.
+**Suggestion (not applied):** the Breckinridge clause "keep them in union if it be for their good" is the best line Lincoln has in PP8; he can concede Jefferson and turn the condition.
