@@ -1,6 +1,6 @@
 # CR-068 research (fact-check of the record for the Research section, items 1–22)
 
-Session 2026-11-10, against branch `drafts/cr068-lincoln-agon` (cde59e6). This checks the historical record only. Format as in `research-cr063.md`: Finding / Source / Verdict / Draft change needed. Weak sources (blogs, Wikipedia, anecdote collections) are marked. Lincoln's and Douglass's words are public domain and quoted as found; modern sources are paraphrased.
+Session 2026-11-10. Checked first against the branch's revision 4; applied to revision 7 (the Project copy) as revision 8, where the item numbers 1–22 are unchanged but items 18–20 sit in G4 and CT8, item 21 in the Deseret note and open decision 32, and item 22 in G10, PP12 and CT6. Items 23–37 of revision 7 are not covered here. This checks the historical record only. Format as in `research-cr063.md`: Finding / Source / Verdict / Draft change needed. Weak sources (blogs, Wikipedia, anecdote collections) are marked. Lincoln's and Douglass's words are public domain and quoted as found; modern sources are paraphrased.
 
 **Access note.** The University of Michigan's Basler edition (quod.lib.umich.edu) refused every fetch from this session, so nothing below is checked against Basler's printed pages. Where a Basler page is given, it is the CR's own reference, not confirmed. The Papers of Abraham Lincoln (papersofabrahamlincoln.org) served as the documentary edition for 1848.
 
