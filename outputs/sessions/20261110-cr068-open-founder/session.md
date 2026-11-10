@@ -6,7 +6,7 @@ mode: draft
 status: paused-for-author
 baseline:
   commit: b3de13e
-independence: self-review   # no fresh-context review of revision 11 has been run
+independence: separate-agent   # one fresh-context reviewer on revision 13; revision 14's fixes are self-reviewed
 ---
 
 # CR-068 revision 11: the founder in the open
@@ -34,7 +34,12 @@ independence: self-review   # no fresh-context review of revision 11 has been ru
 
 - **Revision 13 (same day):** the author decided open decisions 51 to 73. Applied: the writ of 1871 stands with a ransom article (CT18 decided); Lincoln dies in 1872 (supersedes 1871); the false report is cut; the Confederate mission is not narrowed; no official honours at Lincoln's death; the tension with Victoria's entry policy is left to the reader. Suggestions given for 55, 58, 63, 65 and 71, and *Two Houses* and Lincoln's reply drafted (A12, A13).
 
+- **Revision 14 (same day):** Status columns updated row by row from the author's decisions. A fresh-context reviewer (given revision 13, AGENTS.md, canon, the character bible, CR-049 and CR-059 to CR-066 and the four source texts; withheld: this record and the drafting conversation) found the draft not ready: leftovers, miscounts, and three mechanisms that undid the open founder. Fixed in revision 14 and listed under Review in the CR.
+
 ## Resume here
+
+- **After revision 14:** the reviewer's must-fix items are applied. Revision 14's own fixes have not been reviewed by a fresh agent.
+- **Waiting on the author:** (1) the reworded second reservation and the dissolution announced beforehand, which change things he had approved; (2) CT25, Victoria and "the policy" of 1871; (3) the items the review found and left for him (listed under Review); (4) the five suggestions and the two drafts A12 and A13; (5) decisions 16 and 31, deferred; (6) whether the 31 rows still marked PROPOSED are approved by default.
 
 - **After revision 13:** all 73 open decisions have an answer except 16 and 31 (deferred). Waiting on the author: his view of the five suggestions (55, 58, 63, 65, 71), of the two drafts (A12, A13) and of the instruments suggested for Victoria's two conditions (CT8; decision 73). Still to do before adoption: update the decision tables' Status columns, run a fresh-context review, and draft storyline text for 1871–72.
 
