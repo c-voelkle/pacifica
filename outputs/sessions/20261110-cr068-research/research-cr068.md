@@ -10,7 +10,7 @@ Session 2026-11-10. Checked first against the branch's revision 4; applied to re
 |---|------|---------|
 | 1 | Basler spot-check of quotations | **Partly.** Six texts confirmed; one quotation (S24, 4 July message) **disagrees** with the published text |
 | 2 | Ashmun amendment, date and tally | **Answered.** 3 Jan 1848; 85–81 (Globe) or 82–81 (Journal) |
-| 3 | 1848 votes on Frémont's expenses and survey | **Not answered** (House Journal not reachable) |
+| 3 | 1848 votes on Frémont's expenses and survey | **Answered later** from the author's scan: 40–110 and 28–128, Lincoln no on both (see the end of this note) |
 | 4 | December 1862 annual message | **Agrees** (1 Dec 1862; abolition by 1 Jan 1900; bonds) |
 | 5 | "One war at a time" | **Unconfirmed**; only a 1916 anecdote collection found. Keep it out |
 | 6 | Lincoln's wish to see the Pacific coast | **Partly.** Colfax confirms the trip talk; the post-presidency wish rests on Mary Lincoln's later letter |
@@ -326,3 +326,13 @@ Session 2026-11-10. Checked first against the branch's revision 4; applied to re
 **Source:** Founders Online (https://founders.archives.gov/documents/Jefferson/03-06-02-0466; https://founders.archives.gov/documents/Jefferson/01-41-02-0139; https://founders.archives.gov/documents/Jefferson/01-42-02-0322); Abraham Lincoln Online (https://abrahamlincolnonline.org/lincoln/speeches/pierce.htm).
 **Verdict:** agrees. G6's paraphrase of the Breckinridge letter is fair.
 **Suggestion (not applied):** the Breckinridge clause "keep them in union if it be for their good" is the best line Lincoln has in PP8; he can concede Jefferson and turn the condition.
+
+---
+
+## 3. The 1848 votes on Frémont's expenses and survey (M4), closed later the same day
+
+**Finding:** From the author's scan of the House Journal, 30th Cong., 1st Sess., pp. 1201–1300 (OCR of the page images).
+- **p. 1233 (about 10 August 1848):** Senate amendment No. 89 to an appropriation bill, $30,000 "for continuing and completing the surveys and explorations to be made by J. C. Frémont, in Oregon and California", to develop their geography and find "the practicable lines of communication, by railroads or otherwise", between the Mississippi valley and the Pacific, the results to be published as a national work without copyright. Rejected 28 to 128. Lincoln is among the nays (p. 1234).
+- **pp. 1251–52 (a day or two later; p. 1245 carries a message dated 11 August):** the Senate's eleventh amendment to the army appropriation bill (H.R. 618, the army to 30 June 1849): $200,000 for the expenses of the military operations in California under Stockton and Frémont and of the civil government Stockton established, on claims evidenced by their written instruments or muster rolls, with the battalion paid as mounted riflemen and in full of claims for lost horses and forage. Rejected 40 to 110. Lincoln is among the nays.
+**Verdict:** answered. Both votes were lopsided, so the Chronicler's "with nearly the whole House" holds for both.
+**Draft change made:** M4 gives both tallies and objects; open decision 4 recommends keeping the line. Both amendments survive the divergence: the battalion's pay and claims stand whatever Stockton governed in this timeline, and the survey's object becomes Oregon.
