@@ -32,7 +32,11 @@ independence: self-review   # no fresh-context review of revision 11 has been ru
 
 - **Revision 12 (same day):** the author decided open decisions 1 to 50 in chat (16 and 31 deferred) and asked that no texts be drafted yet. Recorded in the list and applied where they change the text: Lincoln dies in 1871 and the meeting is in 1869; Douglass's judgment (V1) is left out; Pacifica's schools read *Two Houses* and its colleges read Lincoln; L3 loses its sentence on the Native nations and the freedmen; London is cut from G4; the loan passes smaller and shorter; an instrument is suggested for Victoria's entry condition (CT8).
 
+- **Revision 13 (same day):** the author decided open decisions 51 to 73. Applied: the writ of 1871 stands with a ransom article (CT18 decided); Lincoln dies in 1872 (supersedes 1871); the false report is cut; the Confederate mission is not narrowed; no official honours at Lincoln's death; the tension with Victoria's entry policy is left to the reader. Suggestions given for 55, 58, 63, 65 and 71, and *Two Houses* and Lincoln's reply drafted (A12, A13).
+
 ## Resume here
+
+- **After revision 13:** all 73 open decisions have an answer except 16 and 31 (deferred). Waiting on the author: his view of the five suggestions (55, 58, 63, 65, 71), of the two drafts (A12, A13) and of the instruments suggested for Victoria's two conditions (CT8; decision 73). Still to do before adoption: update the decision tables' Status columns, run a fresh-context review, and draft storyline text for 1871–72.
 
 - **After revision 12:** decisions 1 to 50 are decided and marked; 16 and 31 are deferred (31: the schoolbook triad is to be more patriotic and must not give the win to another country in its first sentence). Decisions 51 to 73 are open; the author will come to them later. No paper or sample is to be drafted yet. The decision tables' Status columns are not yet updated row by row.
 
