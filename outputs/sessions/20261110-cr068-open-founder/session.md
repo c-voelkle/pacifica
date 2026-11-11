@@ -85,3 +85,7 @@ The author approved the five suggestions (the inaugural-to-Monterey-to-Vance cha
 Written into CR-068 (script `b16/r17.py`): the test for "will treat" is printed in the Council's resolution of 12 November 1864 and runs to 1 May; Richmond's recognition waits on no armistice (canon's treaty of spring 1865 kept as the formal act); Hawaii's delegation acts on Victoria's standing instructions; her price is named before California votes; W1 and B16 closes are an allowed exception; G12 is rebuilt on the founder's hospitality, with the border controls of 1871–72 as the cabinet's reaction, supported by Victoria (CT25 now amended, not adapted; the §13 block replaces two canon sentences); CT2 adapt, CT3, CT9, CT20 amend; CT20 recorded in CR-064. New open item: the war aims of 1861 and California's reasons, for a later CR. CR-065 is to be revised by the author (M1's inaugural; the direct exchange).
 
 **Resume here.** The author owes A12 and A13 and a decision on length. Deferred: K8, W2/A10, the four mechanism questions. The rebuilt round of 1871 has had no fresh-context review.
+
+## Lossless split (11 November 2026)
+
+At the author's request CR-068.md was split without changing content: the research list, bibliography and Appendix B went to `CR-068-sources.md`; samples A1 to A8b to `CR-068-samples.md`; the drafts A12 and A13 to `CR-068-two-houses.md`. CR-068.md is now about 247 KB (from 306 KB). Lint clean on all four files.
