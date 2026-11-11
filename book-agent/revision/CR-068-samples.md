@@ -1,6 +1,6 @@
-# CR-068 — voice samples A1 to A8b (the Chronicler writing Lincoln)
+# CR-068 — voice samples A1 to A11 (the Chronicler writing Lincoln)
 
-Split from [CR-068](CR-068.md) on 11 November 2026 to shorten it; nothing here was changed in the move. Revision 17 took one sentence on London out of A8b (CT26), and revision 19 changed the ends of A4 and A8b to the new answer at Honolulu (PP4c). Item, row and sample numbers are the ones CR-068 cites. Not canon. The samples A9 to A11 stay in CR-068; the drafts A12 and A13 are in [CR-068-two-houses.md](CR-068-two-houses.md).
+Split from [CR-068](CR-068.md) on 11 November 2026 to shorten it; nothing here was changed in the move. Revision 17 took one sentence on London out of A8b (CT26), and revision 19 changed the ends of A4 and A8b to the new answer at Honolulu (PP4c). Item, row and sample numbers are the ones CR-068 cites. Not canon. The samples A9 to A11 were moved here from CR-068 in revision 21 and follow A8b; the drafts A12 and A13 are in [CR-068-two-houses.md](CR-068-two-houses.md).
 
 ## The Chronicler writing Lincoln (voice samples; not storyline text, not canon)
 
@@ -93,3 +93,45 @@ These passages show the frame and the voice, nothing more. Every quotation of Li
 > It was the heavier charge, and it was true. It was not an answer. The letter had asked why the Republic's gold stood behind four million who would never be examined, and nothing in either column says. Honolulu saw as much, and in April put the renewal over.
 >
 > The founder had read his man correctly and his hour wrongly, and he went to answer for it. He had come home from Texas in March, with the terms of the credit printed there, and in May he took ship. He stood before the legislature that could end his office, began in their language, and said what the gold was for. It was lent, at interest, so that the South should not be conquered and the Pacific taken next. He said that the Republic made no condition about the slave, and that when Richmond chose to free him, by free birth or by purchase as the President himself had once proposed, the Republic would lend for it or stand surety. Richmond asked twenty-five years later. The answer conceded the President's point, and he gave it in a chamber that could have refused him.
+
+### A9. The verdict (W1; the close of the Comparison)
+
+> It is said in the schools that the founder won because three things held: the South, the coin and the word. The list is correct. It does not say what the first of them was, or who paid for it.
+>
+> Lincoln's plan was a sequence. He would finish the rebellion and then turn to the Pacific with every man he had, and if he had finished the rebellion by the autumn of 1864 he would have carried the rest out. He did not finish it. New Orleans stood because the Republic's engineers and credit helped it stand. The ship that might have saved the Union's fleet at Hampton Roads was never built, because its builder had been at work in California for six years. The general who might have taken Atlanta was the Republic's Inspector-General. The founder had refused redress in 1861, when it was fairly offered, because a Union at peace on the Pacific would have had its sequence. He gave his Council that reason in print.
+>
+> That is why Lincoln lost. It is not yet why the Republic won. A new President pledged to restore the Union might have fought on in the West. He did not, because the founder had told the Americans in the month after Gettysburg what the nearer war would cost them to end, and had not raised the heads of that paper when his enemy fell. I do not say he asked for nothing more. He took Washoe by arms the next spring, and the map of 1865 is larger than the map of 1863. But he asked for no state, he put Oregon to its own vote, he paid in gold, and he said no word about the South. The new President signed within three months.
+>
+> And the Americans voted. In Monterey that year serious men expected the President to give up his Proclamation to keep his office, or to arrange the count. The founder said that the President would do neither, and General Sherman told him he had only to wait for the news. He did not wait. He had printed, fifteen months before, what the Republic would do if the Americans swore a President who would not treat. Now he asked his Council to vote on him again, by the two-thirds that had appointed him, before any ship or wire could tell them how the Americans had chosen. He laid the winter's orders on the table and said he would go that night with fewer than twelve votes of the eighteen. He had twelve. The news came afterwards. The President had kept a paper in his desk since August, binding himself to his successor before he knew there would be one. The founder's paper is the Council's minute. I set them side by side, and I add what the minute shows: he carried his own state's delegation by one vote, and the Council by one.
+>
+> I owe the reader the rest, and the schools do not print all of it. What held the South was the Republic's money. Americans died in the months it bought, and Lincoln said the founder was keeping his mother's house divided. The founder answered that a house may be parted and both halves live, and showed him Missouri. I do not think the answer removes the charge. Slaves waited in those months too, and for a generation after. The founder had told Honolulu that the Republic made no condition about them, and that it would lend or stand surety to end their bondage when Richmond asked. And Lincoln had doubted in print that the Protector could be dismissed. The founder offered himself for dismissal that November, in the one week when he might have lost, and within the year he held his office for life. He would not take his victory as a gift from the man he beat. That is why I call it his.
+
+### A10. From a Pacifican schoolbook (W2; in-world document, PROPOSED)
+
+> *The Story of the Realm*, fifth year, chapter 9: "The War of the West"
+>
+> **Why did Pacifica win the War of the West?**
+>
+> The United States had many more people than Pacifica, and many more soldiers. But Pacifica won, because three things held.
+>
+> **The South held.** The Americans were also fighting the South. Pacifica's engineers and money helped the South to stand, and the best American shipbuilder and one of the best American generals worked for the Founder. So the Americans could not finish their first war.
+>
+> **The coin held.** Pacifica paid in gold, and the Union paid in paper. Miners and farmers in the West wanted our coin. When the war was over the United States wanted it too, and Pacifica paid in gold for the land.
+>
+> **The word held.** The Founder said beforehand what he wanted and what peace in the West would cost: no American state, each territory to settle its own future, and gold for the public land. In 1864 he asked his own Council to judge him before anyone on the Pacific knew how the Americans had voted. He did not ask for more when he was winning. So when the Americans chose a new President, he could make peace with us at once.
+>
+> *The Founder's rival.* Abraham Lincoln was President of the United States. He was honest and brave, and he never gave up. He let his people vote in the middle of the war, although he knew they might vote against him. When they did, he went home. You will read the Founder's answer to him, *Two Houses*, in the seventh year.
+>
+> *Questions:* 1. Name the three things that held. 2. Why could the Americans not finish their first war? 3. What did Lincoln do when his people voted against him?
+
+### A11. November 1864: the blind vote (Part H B15; the days are placeholders, research 38; the pamphlet is research 39)
+
+> On the night of the eighth the President sat in the telegraph office of the War Department while New York and Pennsylvania came in against him. Between dispatches he read aloud from a comic pamphlet written in a countryman's bad spelling, and his Secretary of War left the room.
+>
+> Monterey knew the day and nothing else. The result was somewhere on the continent, coming west. General Sherman said that the President would prove to have held his election honestly and lost it, and that the Protector had only to sit still until the news came and took the American offer out of his enemies' hands.
+>
+> On the ninth the Protector asked the Council that had appointed him to vote on the twelfth whether it would appoint him again. He said that he would need twelve of the eighteen, as he had the first time.
+>
+> He came into the chamber with the fleet's packet for Vance and broke the seal himself. He read out what the Republic would do after the fourth of March if Mr. Lincoln had been chosen again, ship by ship. He said that with eleven votes he would lay down his office before he slept, and that no soldier would hear of the matter from him. With twelve, he said, he would send the Assembly to the electors as soon as the American news came, whatever it was. Then he sat down. Before the roll was called Hawaii's delegation asked, on the Kuhina Nui's instructions, that any armistice be laid before Honolulu, and he agreed. California was called first and gave him five of its nine.
+>
+> Hawaii gave him seven. Twelve had voted for him and six against. The dispatch reached San Francisco five days later. The packet is in the archive at Thalassia, in the box with the fleet's papers for that winter, opened, with the clerk's mark across the seal.
