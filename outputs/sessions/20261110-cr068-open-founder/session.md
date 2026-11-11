@@ -79,3 +79,9 @@ independence: separate-agent   # fresh-context reviewers on revisions 13 and 14;
 The author approved the five suggestions (the inaugural-to-Monterey-to-Vance chain, Bass Reeves, the British consul and Lyons, the valuation board, the instruments) and asked for the review. Reviewer's folder: AGENTS.md, CR-068.md, master_storyline.md, character_bible.md, CR-049, CR-059 to CR-066; told not to argue Lincoln's side against the founder. Verdict: not yet ready, one editing pass short. Its report could not be saved by the reviewer; the findings and what was done are summarized in CR-068's Review section, and the points left for the author are open items 6 to 13 there.
 
 **Resume here.** The author owes: A12 and A13; CT2, CT3, CT9, CT20; open items 6 to 13; a decision on length (the review's list of cuts is in Review).
+
+## The author's answers to the review of revision 16 (11 November 2026)
+
+Written into CR-068 (script `b16/r17.py`): the test for "will treat" is printed in the Council's resolution of 12 November 1864 and runs to 1 May; Richmond's recognition waits on no armistice (canon's treaty of spring 1865 kept as the formal act); Hawaii's delegation acts on Victoria's standing instructions; her price is named before California votes; W1 and B16 closes are an allowed exception; G12 is rebuilt on the founder's hospitality, with the border controls of 1871–72 as the cabinet's reaction, supported by Victoria (CT25 now amended, not adapted; the §13 block replaces two canon sentences); CT2 adapt, CT3, CT9, CT20 amend; CT20 recorded in CR-064. New open item: the war aims of 1861 and California's reasons, for a later CR. CR-065 is to be revised by the author (M1's inaugural; the direct exchange).
+
+**Resume here.** The author owes A12 and A13 and a decision on length. Deferred: K8, W2/A10, the four mechanism questions. The rebuilt round of 1871 has had no fresh-context review.
