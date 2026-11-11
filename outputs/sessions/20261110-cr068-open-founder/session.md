@@ -73,3 +73,9 @@ independence: separate-agent   # fresh-context reviewers on revisions 13 and 14;
 **Checks.** `lint_canon.py --only` clean on both files; `cr_facts.py preview`: no fact changes declared. No fresh-context review of revision 16.
 
 **Resume here.** The author owes: the drafts A12 and A13; CT2, CT3, CT9 and CT20; the five suggestions. Deferred: K8, W2/A10, and the four mechanism questions of the second review. Then a fresh-context review of the clean copy.
+
+## Fresh-context review of revision 16 (11 November 2026)
+
+The author approved the five suggestions (the inaugural-to-Monterey-to-Vance chain, Bass Reeves, the British consul and Lyons, the valuation board, the instruments) and asked for the review. Reviewer's folder: AGENTS.md, CR-068.md, master_storyline.md, character_bible.md, CR-049, CR-059 to CR-066; told not to argue Lincoln's side against the founder. Verdict: not yet ready, one editing pass short. Its report could not be saved by the reviewer; the findings and what was done are summarized in CR-068's Review section, and the points left for the author are open items 6 to 13 there.
+
+**Resume here.** The author owes: A12 and A13; CT2, CT3, CT9, CT20; open items 6 to 13; a decision on length (the review's list of cuts is in Review).
