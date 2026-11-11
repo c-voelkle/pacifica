@@ -55,3 +55,21 @@ independence: separate-agent   # fresh-context reviewers on revisions 13 and 14;
 - **Not done:** a fresh-context review of revision 11, which AGENTS.md requires before adoption and which a revision of this size needs. Storyline text for 1871 and after is not drafted.
 - Research open: items 38–54 of CR-068. The most consequential are 38 (how long the Union's election result took to reach Monterey, which sets the window for the blind vote), 50 (whether Elias can be in Texas early in 1863 and at Honolulu by May) and 49 (whether Port Royal, the Missouri war and the Illinois events stand in this timeline).
 - The branch is one commit behind `main` (the CR-066 session record); no canon file is edited on it by this session.
+
+## Revision 16 (11 November 2026): the clean copy
+
+**What the author asked.** Whether canon says when the renewal is voted and who the eighteen Council members are, and noted that eighteen can tie. Then: write in the two-thirds vote with California's delegation five to four for the founder; answers to open items 74 to 90; a clean copy.
+
+**What canon says (checked in `master_storyline.md`).** §8: "equal member delegations", no number and no names; the Council appoints a Protector by two-thirds; renewal belongs to the two member legislatures; the Assembly alone revokes. §12: renewals in 1862, 1863 and 1864; the dissolution's dates and procedure OPEN. Late May 1861 is only the working date of the first appointment. Nine members a side and "ten to eight" were the drafter's invention.
+
+**What changed in CR-068.**
+- The blind vote is a two-thirds confirming vote of the Council: twelve to six, California five to four, Hawaii seven to two. No amendment to Article XIV; the §8 block is gone (G8, B15, CT17, W1, A9, A11, the §12 block).
+- Lincoln dies in November 1872; the Port Townsend convention sends a constitution and a memorial; K5 assumes a formal offer; the readers do not print Lincoln's reply; the four stories are given without the Chronicler's comment; CT25 adapted (the cabinet's controls).
+- Suggestions awaiting the author: the test for "will treat" (G8), Bass Reeves as petitioner and the valuation board (G12), the British consul and Lord Lyons (B6).
+- Structure: Part I folded into Part H (O1–O6, Victoria's prices); G12 moved into Part G; V1 and CT7 retired; statuses reduced to APPROVED, Suggested, Deferred, OPEN and MODEL; inline revision notes removed. The revision history, decisions 1 to 90 and the reviews moved to `book-agent/revision/CR-068-record.md`.
+
+**How it was built.** Scripts in the session scratchpad (`b16/p1.py` to `p6.py`): exact-match edits that fail loudly, then a regex pass, then a residue check. CR-068.md fell from about 370 KB to about 300 KB.
+
+**Checks.** `lint_canon.py --only` clean on both files; `cr_facts.py preview`: no fact changes declared. No fresh-context review of revision 16.
+
+**Resume here.** The author owes: the drafts A12 and A13; CT2, CT3, CT9 and CT20; the five suggestions. Deferred: K8, W2/A10, and the four mechanism questions of the second review. Then a fresh-context review of the clean copy.
