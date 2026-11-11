@@ -1,8 +1,40 @@
-# CR-068 — drafts of *Two Houses* and of Lincoln's reply (A12, A13)
+# CR-068 — *Two Houses* and Lincoln's reply (A12, A13)
 
-Split from [CR-068](CR-068.md) on 11 November 2026 to shorten it; nothing here was changed in the move. Item, row and sample numbers are the ones CR-068 cites. Not canon. Both are drafts waiting for the author; the argument they follow is round G6b of CR-068.
+Split from [CR-068](CR-068.md) on 11 November 2026. Item, row and sample numbers are the ones CR-068 cites. Not canon. Since revision 18 *Two Houses* is a proposal that Lincoln refuses (round G6b). The author approved A12 as it stands below, and A13 as argument, on 11 November 2026. The drafts of 10 November, which put three questions to the President, are kept at the end and are superseded.
 
-### A12. *Two Houses* (PP8b; G6b; in-world document, PROPOSED; a draft for the author, 10 November 2026)
+### A12. *Two Houses* (PP8b; G6b; in-world document; APPROVED by the author, 11 November 2026)
+
+Lincoln's sentences are his own. The Springfield sentence is in Beveridge 4:160, the letter of 5 October 1863 as Fellman prints it (p. 85), the message of December 1862 as Voegeli prints it (pp. 66–67), and Jefferson's as checked in research 37. The facts are those of round G6b and its sources; the history of the fifth paragraph was checked in research 60. Two sentences differ from the text the author read: "the first session after" for "the one year after" (the acts are of May and July 1862), and the river as a condition of "any further credit", with its toll, by the author's decision on the review of revision 19.
+
+> **TWO HOUSES**
+>
+> To the President of the United States. Monterey, January 1864.
+>
+> Sir: You have said in a public letter that I keep my mother's house divided. I was born at Franklin, on the Missouri, and I do keep it so, because I believe that both halves will prosper better apart, and yours the more. I write to give you my reasons.
+>
+> The house was divided when I was a boy in it, as you said yourself at Springfield: "A house divided against itself cannot stand." You concluded that it must become all one thing or all the other. I concluded that it should be two houses, and so did Mr. Jefferson, whose prayer for the eastern confederacy and the western was to "keep them in union if it be for their good, but separate them if it be better." I gave this to my Council in August of 1861, in print. I offered it to you in the spring of 1862, with an armistice, and had no answer.
+>
+> You mean to bring eleven States back by arms. Consider the one State on that border which never left. Your generals have governed Missouri by martial law since August of 1861. On the fifth of October last you wrote of it: "Each man feels an impulse to kill his neighbor, lest he be first killed by him. Revenge and retaliation follow." Six weeks earlier your general on the border ordered the people out of Jackson, Cass and Bates counties and the half of Vernon, and twenty thousand went. If a State that stayed must be held in this way in the third year of the war, eleven that fought you will have to be held so for a generation.
+>
+> You mean also, since last January, to make four millions free, and I believe you mean it. Your people have not agreed to live beside them. In June of 1862 your own State voted, by two to one and more, that no black man should settle in it, and in December you asked your Congress whether the North cannot "decide for itself, whether to receive them." Freedom carried south by your army will last there as long as the army stays. Parted from the South, the Union is done with slavery by a shorter road. It owes the master no law to return his fugitive, no seats in Congress counted upon his slaves, and no soldier to guard him. What slavery remains within your own lines you can end by the plan of compensation you laid before Congress a year ago.
+>
+> Consider next what your Congress did in the first session after the Southern members left it. It gave the public land to the man who will farm it, and it chartered a railway to the Pacific. Both had been asked for and refused for years. The North was held back by the partner it is now spending its sons to recover. The war meanwhile is paid for in paper and fought by drafted men, and gold stands at a premium in New York. At peace the gold of this coast goes to New York again, as it did before 1861. This Republic will pay in coin for the public domain west of the mountains, on the terms printed in August, and its ports stay open to your ships. If you will treat, I will make the free navigation of the Mississippi a condition of any further credit this Republic gives at Richmond, so that your western farmers reach the sea without toll, as they did before.
+>
+> You have said that one secession invites the next. Let the three governments guarantee one another's bounds as the peace fixes them. This Republic will sign that guarantee and keep it.
+>
+> I ask you again for what I asked in the spring of 1862: an armistice on the lines now held, and commissioners of the three governments.
+>
+> ELIAS THORNE, Protector.
+
+### A13. Lincoln's reply (PP8c; G6b; in-world document; APPROVED as argument, 11 November 2026; text OPEN)
+
+**No text yet.** The argument is in round G6b of CR-068: he grants Missouri, his State's vote and what Congress did in 1862; he answers the doctrine with his inaugural ("Physically speaking, we cannot separate"; "Can aliens make treaties easier than friends can make laws?"); he refuses on the ground that a minority which may leave after losing an election ends government by election; and he will not unsay the Proclamation. When it is written it will be invented words, marked as such, addressed to a named man and written to be read at a Union meeting at Springfield in late February 1864. He does not write the Protector's name.
+
+---
+
+## Superseded drafts of 10 November 2026 (three questions)
+
+### Old A12. *Two Houses* (superseded draft of 10 November 2026)
 
 Its facts are those of the round (G6b) and its sources; it adds the one-mile exception to Order No. 11 (Fellman 95) and leaves out the instructions of 16 September and the thirty-nine lashes. Lincoln's sentences are his own, as the books cited there print them. The date and the reference to the spring of 1862 follow G4 and G6b.
 
@@ -24,7 +56,7 @@ Its facts are those of the round (G6b) and its sources; it adds the one-mile exc
 >
 > ELIAS THORNE, Protector.
 
-### A13. Lincoln's reply (PP8c; G6b; in-world document, PROPOSED; a draft for the author, 10 November 2026)
+### Old A13. Lincoln's reply (superseded draft of 10 November 2026)
 
 **These are invented words.** Lincoln never wrote this letter, and by this CR's rule his invented words appear only in marked in-world documents. Four passages in it are his own or follow his own (the fourth is the phrase from his letter to Schofield). The standard "constantly looked to, constantly labored for, and even though never perfectly attained, constantly approximated" follows his Springfield speech of 26 June 1857, shortened (Beveridge 4:153). "Physically speaking, we cannot separate" and "Can aliens make treaties easier than friends can make laws?" are from his first inaugural (Hist., from the drafter's memory; to verify against Basler, research 57). The review of revision 13 asked for them: they are his strongest published argument against two houses. His quotations from his own letters of 1863 are as Fellman prints them (pp. 84–85). He does not write the Protector's name (Part D). The occasion and the addressee are suggested and invented; he wrote such letters to named men, as to Conkling in 1863.
 
