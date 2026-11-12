@@ -42,15 +42,14 @@ Each draft carries its own list under "Author's decisions of 12 November 2026" a
 | D9 | Deferred: CR-060 CT7 (the Legion's pay and the Black Hawk War); which set of Vicksburg numbers; CR-059 open decision 17; CR-062 M3 (needs modelling). |
 | D10 | Left to the drafter ("I don't care"): CR-059 open decision 11, CR-065 L8 (Chase, included), CR-062 L1. |
 
-## Open author choices
+## Decisions of the evening of 12 November 2026
 
-| ID | Question |
+| ID | Decision |
 | --- | --- |
-| Q1 | CR-060 open decision 14: the drafter suggests the Union's commercial telegraph traffic passes at Salt Lake and Pacifica reads it quietly. |
-| Q2 | CR-062 open decision 23: the drafter's suggestion for Sumner's speech. |
-| Q3 | CR-065 open decision 16: the drafter suggests the gold premium falls on McClellan's election. |
-| Q4 | CR-068: what replaces Victoria's price of November 1864 now that the armistices are executive (suggestion: a pledge to consult the Council). The rows are not rewritten until this is answered. |
-| Q5 | The drafter's readings of "Approve" on rows without a recommendation: CR-059 open decisions 27 (yes), 34 (yes) and 49 (all three scenes; P6 stays "never stated"). |
+| D11 | Victoria's price at the blind vote of November 1864 is the end of the renewals: no renewal of the Protectorship after the war, and what follows made by constitutional amendment, ratified by both founding states, with Hawaii's institutions protected ("Yes this works"). She names the form and no office; the life term is Elias's move in 1865. Written into CR-068 as revision 25, which also drops Elias's pledge to lay an armistice before the Assembly. |
+| D12 | CR-060 open decision 14: the Union's commercial telegraph traffic passes at Salt Lake and Pacifica reads it quietly. |
+| D13 | CR-062 open decision 23 (Sumner denounces the clause and speaks for the treaty) and CR-065 open decision 16 (the gold premium falls on McClellan's election): approved as suggested. |
+| D14 | The drafter's readings of CR-059 open decisions 27, 34 and 49 are confirmed. |
 
 ## Checks
 
@@ -61,6 +60,6 @@ Each draft carries its own list under "Author's decisions of 12 November 2026" a
 
 ## Resume here
 
-- **Waiting on the author:** Q1 to Q5.
-- **Then, in order:** (1) rewrite CR-068's pledges of 1864 (its open item 4 lists the rows); (2) carry CR-068's approved changes into CR-059 (Baker, Bush out of 1866, the Port Townsend convention, Lincoln's letter of 1866) and the rest of CR-060 and CR-062; (3) a fresh-context review of the whole set, the first since 8 November; (4) one merged storyline text for §§8–13, since CR-061, CR-063, CR-065 and CR-068 anchor on the same paragraphs and CR-064 and CR-067 insert after the same §9 sentence; (5) approval of the CRs and integration.
+- **Waiting on the author:** nothing from this session. Still deferred: CR-060 CT7, the Vicksburg numbers, CR-059 open decision 17, CR-062 M3.
+- **Next, in order:** (1) done: CR-068's pledges of 1864 are rewritten (revision 25, self-reviewed); (2) carry CR-068's approved changes into CR-059 (Baker, Bush out of 1866, the Port Townsend convention, Lincoln's letter of 1866) and the rest of CR-060 and CR-062; (3) a fresh-context review of the whole set, the first since 8 November; (4) one merged storyline text for §§8–13, since CR-061, CR-063, CR-065 and CR-068 anchor on the same paragraphs and CR-064 and CR-067 insert after the same §9 sentence; (5) approval of the CRs and integration.
 - **Not done:** CR-061 and CR-067 were not touched (their decisions were already recorded). CR-067's open decisions 4 to 6 and CR-068's waiting items (A13, the occasions of PP6 and PP8) were not on the sheet.
