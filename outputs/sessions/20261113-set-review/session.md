@@ -165,9 +165,22 @@ Dates agree across the set for 1863–64 and 1865–67. No breach of protected i
 - **Not fixed (notes, or need the author):** CR-059 CT14 and CT15 quote superseded wording, line 404, W14's officers at Port Townsend, the Maine pair's motive; CR-062 the protocol's signatory and authority, McClellan's motive, the 1848 maxim; CR-063 Logan's and Marcus's whereabouts; CR-064 the election-day front and the XIII Corps after October 1863; CR-060 open decisions 17–20; CR-068 literary points. Historical corrections were made from the reviewers' and the drafter's memory and are marked "to verify".
 - **Suggestions put to the author** for F2, F4, F5 and F6 (in the conversation; not written in).
 
+## The four suggestions written in (13 November 2026, 13:54)
+
+**Author:** "Write those four in and verify the history corrections. Fill in the blanks for the most important smaller author questions where it makes sense."
+
+- **F2, the bargain of 1865 (CR-068 revision 31; CR-062 T1; CR-059 §12 text).** The Council sits at Monterey from June to August with Victoria leading Hawaii's delegation; the law is drafted in its committee, where Hawaii wins the revenues and the protected list and Sherman argues for a term. Lot is for the life office, Victoria against; the King's instruction decides. Chambers and California in September and October; Hawaii ratifies about 20 November; in force 1 December; treaty and Oregon protocol signed in the third week of December under the new office's powers. The pledge of 1864 is read against himself. Hawaii's instructions are its government's. PROPOSED inside it: the Council's count (thirteen to five) and Marcus's evidence.
+- **F4, October 1861 (CR-059 I2, I3, W14, §10 text; CR-060).** No general recall: the posts east of the Cascades, cut off from the sea, are ordered out by the Mullan Road, and the Iowa regiments go to the Sound. Wright marches with the column. Casey commands at Port Townsend throughout.
+- **F5, Atlanta's winter (CR-064 A11–A13, steps 14–16, §11 text).** Thomas relieved on 10 November; McPherson attacks east of the city on 20–22 November, is repulsed and killed; Johnsonville, Polk's second raid, Mobile's shipping and the coming armistice keep the army in its lines.
+- **F6, the Rio Grande resolution (CR-061 C0a, §10 text).** Reworded against the armies of the United States, with Richmond's forces to be treated with.
+- **History checked on the web:** the overland wire's route and the Denver branch of 10 October 1863; the Deseret convention of 20–23 January and the election of 3 March 1862; Pocatello at Box Elder and the mixed bands at Soda Springs; Western and Atlantic mileage (Allatoona about 40 miles from Atlanta); Manti on 9 April 1865, the Spanish Fork council of June 1865 and Black Hawk's death in September 1870; Stoeckl in Russia from October 1866 to March 1867; Washburn commanding the XIII Corps in Ord's absence; the 11th and 13th Iowa mustered in autumn 1861. Not checked: Johnsonville's date, Alvord's date.
+- **Gaps filled, each marked PROPOSED (drafter):** who signs the Oregon protocol and under what power; how Lincoln knows the maxim of 1848; McClellan's own reason for ceding the West; the Radicals' constitutional charge; Young signing despite Lincoln's assurance; who acts at Monterey in the Protector's absences; the XIII Corps after October 1863; the Maine pair's motive; the election-day front.
+- **Left open:** Logan's and Marcus's whereabouts at Vicksburg and Mobile; Deseret's ratification vote; South Park's charter; the Owyhee court; an Oregonian voice against accession; the Legion's pay; CR-059's stale notes at CT14, CT15, lines 404, 622 and 987.
+- None of the passages written on 13 November after the third review has been read by a fresh reviewer.
+
 ## Resume here
 
-1. Author answers the four suggestions (F2 the bargain of 1865; F4 the order of October 1861; F5 Atlanta's winter; F6 the Rio Grande resolution).
-2. Drafter writes the answers in, with the smaller author items listed above.
+1. Author reads the PROPOSED gap-fillers and the 1865 rewrite; confirms or changes.
+2. A fresh-context check of what was written after the third review (CR-068 G9a, CR-064 A11–A13, CR-059 I2, CR-060 N6, CR-061 C0a).
 3. Compose the merged storyline text for §§8–13 from the merge map (`review-5-merged-storyline.md`).
 4. Approval of each CR and integration.
