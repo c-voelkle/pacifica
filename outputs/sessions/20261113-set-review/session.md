@@ -115,9 +115,40 @@ Also approved and written in: the July pledge at Salt Lake (CR-060 D5: the artic
 
 A final fresh-context review follows; its reports are `review3-*.md` in this directory.
 
+## Third (final) fresh-context review, 13 November 2026
+
+Three independent reviewers; reports verbatim in `review3-a-cr068-cr065.md`, `review3-b-interior-army.md`, `review3-c-oregon-treaty-gulf.md`.
+
+| Draft | Verdict |
+|---|---|
+| CR-059 | Not ready |
+| CR-060 | Not ready |
+| CR-061 | Ready after mechanical fixes and the wording of C0a |
+| CR-062 | Ready after mechanical fixes (the 1848 maxim decided or marked OPEN) |
+| CR-063 | Ready after mechanical fixes |
+| CR-064 | Not ready |
+| CR-065 | Ready after mechanical fixes |
+| CR-067 | Ready after mechanical fixes; A1 follows the decisions below |
+| CR-068 | Not ready |
+
+Dates agree across the set for 1863–64 and 1865–67. No breach of protected intent except F3.
+
+**Blockers that need the author**
+
+| # | Finding | Where |
+|---|---|---|
+| F1 | Suggestions S1–S5 stand unconfirmed, partly under APPROVED labels | CR-068, CR-060, CR-067 |
+| F2 | The bargain of 1865 has no room on its calendar: the law passes by October, Honolulu is twelve days away, and Lot and Victoria can only ratify or reject. Sherman has no forum. Hawaii wants a guarantor for longer than ten years and also argues for a term | CR-068 G9a |
+| F3 | The Compact binds the Legion to the common defence; this reopens deferred CT7 (Black Hawk War) and contradicts N1. Introduced on 13 November | CR-060 D5, §10 text |
+| F4 | The recall order of 1 October 1861 against a state of war recognised by 6 August and regiments shipped to the Sound | CR-059 I2, W15 |
+| F5 | Nothing happens before Atlanta between 8 November 1864 and the armistice | CR-064 |
+| F6 | Council resolution "to clear the Confederate invasion", while Richmond is a partner and the enemy is Canby | CR-061 C0a |
+
+**Mechanical or factual:** the Mosquito crest leaves South Park to the Union (CR-060 CO4); the Union wire ran by South Pass and Fort Bridger, not Denver; G9a and B16a missing from CR-068's counts and chains; stale labels and self-review sections in CR-060, CR-062, CR-064, CR-065, CR-067; smaller items in each report.
+
 ## Resume here
 
-1. Author answers R1 to R7 (R1 to R4 touch the two newest pieces: the lapse of 1865 and the Salt Lake visit).
-2. Drafter makes the fixes that need no decision and carries the answers through; a third check then covers CR-068 and CR-060 only.
-3. Compose the merged storyline text for §§8–13 from the merge map.
+1. Author decides F1 to F6.
+2. Drafter makes the mechanical fixes listed in the three `review3-*` reports and carries the decisions through.
+3. Compose the merged storyline text for §§8–13 from the merge map (`review-5-merged-storyline.md`).
 4. Approval of each CR and integration.
