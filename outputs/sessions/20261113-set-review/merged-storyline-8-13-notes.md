@@ -68,6 +68,14 @@
 
 - §13: the writ of 1871, Lincoln's opinion, the override and the ransom article are removed at the author's direction ("Just leave out the 1871 stowaway scene altogether"). The paragraph now says only that the border is closed from 1863, that no one who reaches the soil is returned, that the treaties of 1871–72 extend the controls and that Victoria supports them.
 
+## Seventh pass, after the seventh reading (`review7-candidate.md`; 13 November 2026, 16:42)
+
+- §9: Lincoln's offer is stated before it is discussed; his message of 4 July stands after the events it follows.
+- §10: the Port Townsend convention closes the Columbia block; Hays, Nye and Steele are named at first mention; "the Sunset articles" are not used before San Antonio; the Navajo treaty of 1865 is told only in §12; Sherman's and Victoria's objection to the unvoted garrison on the Salt Lake road is stated; the Iowa regiments are told once.
+- §11: two comparisons with our own history are removed or reworded.
+- §12 now runs: the home front and Lincoln's offer of 1864; the Union's election; Lincoln's last winter; the blind vote and dissolution; McClellan and the armistices; the lapse, the bargain and the Enabling Law; the treaty and its line; the Navajo treaty, peonage, Black Hawk and the Owyhee; Victoria in 1865–66; Oregon; the interior's consent; the winter protocol, Alaska and the Senate; the evacuation and the credit; Fort Union; Lincoln afterwards. The price of $40 million is in the treaty paragraph.
+- §13: the scalp-bounty convention has its antecedent.
+
 ## Still open after the second pass
 
 **For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
