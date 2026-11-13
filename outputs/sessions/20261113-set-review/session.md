@@ -199,9 +199,19 @@ Mechanical: McPherson's death carried into CR-064 C8 and registry, CR-063, CR-06
 
 `merged-storyline-8-13.md` in this directory is a candidate text of §§8–13: current canon with the storyline texts of CR-059 to CR-065, CR-067 and CR-068 and CR-066 Part E applied, in the order of the merge map, and with events that two drafts told now told once (its closing notes list each). It is built by `merge/assemble.py` (paths in the script point to the drafter's scratch copy of canon; `merge/blocks.py` reads each draft's "Storyline text"). `master_storyline.md` is unchanged and nothing is integrated. `lint_canon.py --only` is clean on the candidate. Not done: style, label reconciliation with the register, ledger quotes, the §4, §14, §19 and §25 sentences, a fresh-context reading.
 
+## Second pass on the merged candidate (13 November 2026, 15:02)
+
+Fresh-context reading: `review5b-merged-candidate.md` ("needs another pass"; §10 furthest from ready, then §12 and §11; no breach of protected intent).
+
+**Author:** "1. approved [§10 kept to the campaign and occupations through 1864; 1865–67 moved]. 2–4. can you make a suggestion. 5. does it make sense to have one of two armored ships at Honolulu during a war? Make a suggestion about the Alaska price and the Treasury loan. Please fix all the remaining mechanical issues."
+
+Done in `merged-storyline-8-13.md` (second pass; notes now in `merged-storyline-8-13-notes.md`, built by `merge/pass2.py`): §10 reordered by theatre and limited to 1861–1864; Washoe told once, with canon's ledger-quoted sentence restored (dropped in the first pass by the drafter's error); the blind vote after the Union's election; the treaty's signing before its line; the Colorado sentence aligned; the Mississippi condition and Lincoln's death moved to their places; decided amendments CR-062 CT3 and CR-059 CT4 applied; memo language and the status header removed; unlabelled paragraphs labelled; Taos labelled APPROVED. Not all mechanical items are done: the notes file lists what remains (most of the 38 doubled events, some undefined terms, label reconciliation, ledger quotes).
+
+Suggestions put to the author in the conversation for: the sequence of 1861; cuts in the exchanges of 1863; the San Antonio article against the fugitive agreement of 1871; the armoured ship at Honolulu; the Alaska price; the Treasury loan. None is written in.
+
 ## Resume here
 
-1. Author reads `merged-storyline-8-13.md`.
-2. A fresh-context reading of the candidate (order, repetition, forward references, labels).
-3. Author confirms the remaining PROPOSED gap-fillers (section of 13:54).
-4. Approval of each CR; then integration into `master_storyline.md` with the register, facts, ledger and character files, as AGENTS.md requires.
+1. Author answers the six suggestions; drafter writes them into the drafts and the candidate.
+2. Finish the mechanical list in `merged-storyline-8-13-notes.md`.
+3. A further fresh-context reading of the candidate.
+4. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.
