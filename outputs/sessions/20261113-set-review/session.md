@@ -209,9 +209,19 @@ Done in `merged-storyline-8-13.md` (second pass; notes now in `merged-storyline-
 
 Suggestions put to the author in the conversation for: the sequence of 1861; cuts in the exchanges of 1863; the San Antonio article against the fugitive agreement of 1871; the armoured ship at Honolulu; the Alaska price; the Treasury loan. None is written in.
 
+## The author's decisions on the reading (13 November 2026, 15:19)
+
+**Author:** "I approve 1, 2, 3, and 5. However, for the plot to work, Pacifica cannot have open borders for fugitives for the first nine years. I suggest moving the fugitive agreement of 1871 back into the San Antonio article of 1863 and having that hold for the entire time."
+
+Written into the drafts and the candidate (third pass):
+- **1861:** the Enabling Act at the end of §8; offer in June, reply early in July, offensive mid-July, state of war by 6 August (CR-068 revision 33, CR-059 storyline).
+- **Exchanges of 1862–63:** three told, the rest in a clause; the Proclamation named (CR-068 storyline).
+- **Hawaii's price in 1861:** batteries and frigates at Honolulu, the second turret ship from 1863 (CR-068).
+- **Alaska and the loan:** Alaska's price out of McClellan's papers; the Senate declines the Treasury loan, which is placed privately (CR-062 M3, CT9, storyline).
+- **Fugitives:** the fugitive agreement begins with the San Antonio articles of February 1863 and holds until abolition; the treaties of 1871–72 extend it. CR-061 S4, Part VII, storyline and new CT9 (which amends canon §13 and the ledger entry C-1871-FUGITIVE at integration); CR-068 G5, G12, M15, CT18; CR-062 T11. This reverses the author's decision of 9 November 2026 in CR-061. PROPOSED links: Hawaii's delay of April 1863 follows the San Antonio terms; Lincoln's draft letter names the contrast with the terms of passage.
+
 ## Resume here
 
-1. Author answers the six suggestions; drafter writes them into the drafts and the candidate.
-2. Finish the mechanical list in `merged-storyline-8-13-notes.md`.
-3. A further fresh-context reading of the candidate.
-4. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.
+1. Finish the mechanical list in `merged-storyline-8-13-notes.md` (doubled events, undefined terms in the Oregon paragraph, labels, ledger quotes).
+2. A further fresh-context reading of the candidate and of the passages changed on 13 November after 15:00.
+3. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.

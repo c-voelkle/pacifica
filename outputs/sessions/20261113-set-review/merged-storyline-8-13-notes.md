@@ -41,9 +41,17 @@
 - §13: the Mississippi condition stands with the treaty that ends Grant's war, and Lincoln's death with 1872.
 - §8: the Articles of 1856 name residence, land tenure and the franchise as member powers, as decided (CR-059 CT4).
 
+## Third pass: the author's decisions of 13 November 2026, 15:19
+
+- §8/§9: Oregon's Enabling Act is told at the end of §8, and 1861 runs offer (June), reply (early July), offensive (mid-July), state of war (by 6 August), as the author approved.
+- §9: Hawaii's price in 1861 is batteries and frigates at Honolulu and the second turret ship.
+- §11: of the exchanges of 1862–63, three are told (the armistice offer, the Proclamation and the account of the nations, Honolulu) and the rest stand in a clause; the Emancipation Proclamation is named; the credit's terms are told with the Texas journey.
+- §10 and §13: the fugitive agreement begins with the San Antonio articles of 1863 and holds until abolition; the association treaties of 1871–72 extend it (author, 13 November 2026).
+- §12: Alaska's price is no part of McClellan's papers; the Senate declines the Treasury loan and the money is lent privately.
+
 ## Still open after the second pass
 
-**For the author (suggestions made in the conversation of 13 November 2026, 15:02):** the order of Lincoln's offer, Elias's reply and the fall of Astoria in 1861, and where Oregon's Enabling Act is first told (the reply uses "Oregon's convention" before §10 introduces it); cuts in the Lincoln–Elias exchanges of 1863; the San Antonio article on fugitives (1863) against the fugitive agreement of 1871; the armoured ship at Honolulu; who states the Alaska price to the Senate; the fate of the separate Treasury loan.
+**For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
 
 **Mechanical, not yet done:** most of the 38 doubled events tabled in the review (section B) beyond those listed above; the Iowa regiments stated three ways; terms still used before they are introduced in the Oregon paragraph of 1866 (the Chinese floor, the Native article, Nesmith, the returns commission); the order inside §11's last third (Atlanta, Mobile, the Valley); "March–June" for the armistices, which the ledger quotes; CR-068 CT26's wording on foreign credit; labels where one CR's sentence sits in another CR's paragraph, and APPROVED sentences that rest on PROPOSED ones; ledger quotes that decided tensions remove (to change at integration). No sentence was rewritten for style.
 
