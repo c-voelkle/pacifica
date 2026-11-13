@@ -56,6 +56,14 @@
 - Lincoln's letters of 1866 and 1867 carry CR-068's label inside the CR-059 and CR-062 paragraphs.
 - The fugitive passages follow the author's second decision (the line closed from 1863, the soil free, ransom from 1871).
 
+## Fifth pass, after the sixth fresh-context reading (`review6-afternoon-changes.md`; 13 November 2026, 16:15)
+
+- §13: no rendition clause is conceded in 1871. Richmond's demand is refused at the table; the petitioner is detained under the controls the treaties extended to the ports and claimed by Richmond's consul; the court frees him; the ransom article follows. The controls are "tightened" in 1871–72, having closed the Texas line since 1863.
+- §9: the reply's third demand is a guarantee for inhabitants of the Columbia who traded or corresponded with the Republic; Lincoln's message of 4 July reaches Monterey in August.
+- §10: the January 1863 paragraph (Mangas, the assembly, the Navajo talks) stands before San Antonio; the October 1861 order is told once; the Nauvoo Legion is named at first mention; Washoe opens with canon's sentence.
+- §11: hidden comments reworded and placed; the account of the nations dated to the spring; Hawaii's delay of April 1863 has one stated cause; the second turret ship comes to Honolulu in 1863; the Peoria sentence and the preface's "dismissed every twelvemonth" are told where later passages rely on them.
+- §12: the Navajo treaty, the end of peonage, Black Hawk and the Owyhee stand before the interior's consent, which now concludes them; "that settlement" has its antecedent again; the mounted police and the armistice line are introduced; the Enabling Law is passed once; the war advances end "as it published in 1862"; the orphan comment is removed.
+
 ## Still open after the second pass
 
 **For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.

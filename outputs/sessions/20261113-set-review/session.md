@@ -226,8 +226,18 @@ Written into the drafts and the candidate (third pass):
 
 **Decided form:** from the San Antonio articles of February 1863 the Texas line is closed to fugitives (refused at the crossings on travel papers; Texas polices its own side), and no one who reaches Pacifican soil is ever returned, as under the Mexican law the Republic was founded on. Texas demands rendition every year and is refused. In 1871 Richmond makes it the price of the association treaties and the ministers concede a clause; the first person held under it petitions for the writ; Elias refuses to apply the clause, and a ransom article replaces it. Written into CR-061 (S4, Part VII, storyline, CT9), CR-068 revision 34 (G5, G12, M15, PP14, CT18, storyline), CR-062 T11 and the candidate. The Mexican constitution's rule is cited from the drafter's knowledge and marked "to verify".
 
+## Sixth reading and the author's answers (13 November 2026, 16:15)
+
+Report: `review6-afternoon-changes.md`. Blockers: the rendition clause of 1871 had no stated authority; CR-068's rows for 1861 kept the old sequence and two impossible reasons; a broken join in §12 of the candidate.
+
+**Author:** "The line 'the one thing Elias may not trade' is stupid anyways. There are many things he may not trade. Other than that the suggestion for 1 is approved. 2 and 3 as well. Clear the mechanical list please."
+
+Written in: CR-068 revision 35 (no rendition clause; the port officer and the consul; the ransom article; 1861 rows dated to July; reasons 4 and 5 replaced; the third demand recast; stale rows M5, O5, G11); CR-061 S4 and CT9 (the phrase removed; Mexican law cited from 1829, checked by the reviewer on the web); CR-059 Part IV and S2; CR-062 S8 and S10; the candidate (fifth pass, listed in its notes).
+
+**Not cleared:** CR-068 lines 51, 69 and 913 still date the founder's rule or the state of war to "August 1861" (the state of war is correctly August; line 69's rule should read July); CR-068 X16, TL6 and the chain paragraph still call the controls of 1871–72 "the cabinet's" without the 1863 line; CR-068's score table does not credit Lincoln with the loan; CR-062's lobby table and modelling note still price a Treasury loan; the drafts' §12 blocks on Lincoln's letters are worded differently from the candidate; about half of the doubled events of the fifth review; label reconciliation and ledger quotes (integration).
+
 ## Resume here
 
-1. Finish the mechanical list in `merged-storyline-8-13-notes.md` (doubled events, undefined terms in the Oregon paragraph, labels, ledger quotes).
-2. A further fresh-context reading of the candidate and of the passages changed on 13 November after 15:00.
+1. Clear the "not cleared" list above.
+2. A further fresh-context reading when the author wants one.
 3. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.
