@@ -246,7 +246,14 @@ Done: CR-068 revision 36 withdraws round G12, PP14, B20, X16, the petitioner, th
 
 **Cleared on the author's "Yes please" (16:42):** §12's order, the joins, the lost label and the stale rows named in the seventh reading (candidate seventh pass; CR-068 July dates and frigates; CR-062 Alaska rows; CR-065). **Not cleared:** mid-sentence labels and label scope; the drafts' storyline blocks against the candidate (the candidate should be declared the text of record at integration); a clause for Washington Territory's charter; the ledger re-quotes. **Suggestions put to the author:** the Protectorship's activation date; how the second turret ship reaches Honolulu; what fails at Petersburg; the news timing of July and August 1861.
 
+## Integration readiness (13 November 2026, 16:50)
+
+**Author:** "I approve all four. Please clear the labels issue as well and do whatever's needed so that we can integrate."
+
+Written in: CR-068 revision 37 (CT30 the Protectorship's dates; the turret ship; the news timing of 1861), CR-064 (Hatcher's Run), the candidate (eighth pass, with the labels cleaned). A dry run placed the candidate in `master_storyline.md`, ran every check and restored the file: lint clean, sync and character checks pass, and the ledger shows ten expected differences. `integration-readiness.md` lists them, the per-CR steps, and what only the author can give. Nothing is integrated: the author's words are taken as an instruction to prepare, and approval of each CR for adoption has been asked for explicitly.
+
 ## Resume here
 
-1. A further fresh-context reading when the author wants one.
-2. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.
+1. Author says, for the nine CRs, "approved for adoption" (with or without confirming the PROPOSED gap-fillers).
+2. Integrate: replace §§8–13 of `master_storyline.md` with the candidate; add the §4, §14, §19 and §25 sentences; register entries and facts; ledger changes; character files; historical background; sync and checks; AGENTS.md's current-canon paragraph.
+3. A fresh-context reading of the integrated text.

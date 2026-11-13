@@ -76,6 +76,12 @@
 - §12 now runs: the home front and Lincoln's offer of 1864; the Union's election; Lincoln's last winter; the blind vote and dissolution; McClellan and the armistices; the lapse, the bargain and the Enabling Law; the treaty and its line; the Navajo treaty, peonage, Black Hawk and the Owyhee; Victoria in 1865–66; Oregon; the interior's consent; the winter protocol, Alaska and the Senate; the evacuation and the credit; Fort Union; Lincoln afterwards. The price of $40 million is in the treaty paragraph.
 - §13: the scalp-bounty convention has its antecedent.
 
+## Eighth pass (13 November 2026, 16:50)
+
+- The author's four approvals: the Protectorship takes effect on 1 June 1861 and each term ends on 31 May; the second turret ship is assembled at Honolulu from sections; Hatcher's Run fails on 5–7 February 1865; Congress recognizes the state of war before Astoria's fall is known, and Lincoln's message of 4 July reaches Monterey in the third week of July.
+- Labels: no label falls mid-sentence; repeated identical labels inside a paragraph are removed; canon sentences that resume after an insert no longer inherit the insert's label where the ledger records them as canon.
+- Ledger-quoted sentences restored where no decision changes them (the Articles' powers, the Enabling Law, the Apache peace, the Freedom Act). The ten remaining ledger differences are decided changes and are listed in `integration-readiness.md`.
+
 ## Still open after the second pass
 
 **For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
