@@ -48,9 +48,17 @@ All five say the set is **not ready to integrate**. No reviewer asks for an auth
 
 Review 5 gives a merge map of every targeted canon paragraph. The nine texts cannot be applied as written: §10's "A Pacifican California column" paragraph is targeted by four drafts and CR-066 Part E, two anchors vanish once other drafts are applied, and §12 reaches 1867 before the Enabling Law of 1865. Five events are told twice (Lincoln's two letters, the dissolution, the evacuations, Texas in February 1863). The merged text has to be composed as one piece, in the order review 5 proposes.
 
+## Fixes made on 13 November (drafter; not yet independently checked)
+
+On the author's "yes go ahead", the findings that needed no decision were fixed draft by draft. Each draft lists its fixes, and what was left for the author, in a paragraph headed "Fixes after the fresh-context review of 13 November 2026" at the end of its section "Author's decisions of 12 November 2026" (CR-068: in its status line, as revision 26). The protected-intent item was done first: the Nauvoo Legion's pay is out of CR-060's §10 text, and D7 and N6 are marked held pending CT7.
+
+Not fixed anywhere: the merged storyline text (review 5's merge map is the plan for it), the minor lists of reviews 2 and 3, and everything in the table "Findings that need the author".
+
+Additional questions for the author that surfaced while fixing: the Amity treaty's date against the armistice (CR-062 A6 against CR-068 CT23); how Lincoln in 1867 can quote instructions Elias gave Vallejo in 1848 (CR-062 S8); the recall order of 1 October 1861 against the state of war of August (CR-059 I2, W15); Butler's ending (CR-063 S6, CR-065); Logan's and Marcus's whereabouts on 18 May 1863 and Logan's during the attack on Mobile (CR-063).
+
 ## Resume here
 
 1. Author answers A1 to A7 (A1 to A3 are linked and come first).
-2. Drafter makes the fixes listed above, draft by draft, and a second reviewer checks only those fixes.
+2. A fresh reviewer checks the fixes of 13 November against the five reports.
 3. Compose the merged storyline text for §§8–13 from the merge map.
 4. Approval of each CR and integration.
