@@ -234,10 +234,9 @@ Report: `review6-afternoon-changes.md`. Blockers: the rendition clause of 1871 h
 
 Written in: CR-068 revision 35 (no rendition clause; the port officer and the consul; the ransom article; 1861 rows dated to July; reasons 4 and 5 replaced; the third demand recast; stale rows M5, O5, G11); CR-061 S4 and CT9 (the phrase removed; Mexican law cited from 1829, checked by the reviewer on the web); CR-059 Part IV and S2; CR-062 S8 and S10; the candidate (fifth pass, listed in its notes).
 
-**Not cleared:** CR-068 lines 51, 69 and 913 still date the founder's rule or the state of war to "August 1861" (the state of war is correctly August; line 69's rule should read July); CR-068 X16, TL6 and the chain paragraph still call the controls of 1871–72 "the cabinet's" without the 1863 line; CR-068's score table does not credit Lincoln with the loan; CR-062's lobby table and modelling note still price a Treasury loan; the drafts' §12 blocks on Lincoln's letters are worded differently from the candidate; about half of the doubled events of the fifth review; label reconciliation and ledger quotes (integration).
+**Not cleared:** the drafts' §12 blocks on Lincoln's letters are worded differently from the candidate (the candidate is the better text; sync at integration); about half of the doubled events of the fifth review, which need sentences rewritten or sit in ledger-quoted canon; label reconciliation and ledger quotes (integration).
 
 ## Resume here
 
-1. Clear the "not cleared" list above.
-2. A further fresh-context reading when the author wants one.
-3. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.
+1. A further fresh-context reading when the author wants one.
+2. Author confirms the remaining PROPOSED gap-fillers; approval of each CR; integration into `master_storyline.md` with register, facts, ledger and character files.
