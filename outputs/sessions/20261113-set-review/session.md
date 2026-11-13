@@ -90,6 +90,31 @@ Three new reviewer contexts, read-only, at commit 77feb3e; reports saved verbati
 
 **Findings the drafter can fix without a decision:** the three passages that still bring Elias home in March 1863; G9a's knock-ons inside CR-068 (round counts, the score table, AG5, W1, W4, MD4, the ledger paragraph); "no volunteer company ever paid" in the account of the nations; CR-060's CT1 fact block and Part II still dating the Compact to December 1862; Hays and the Pyramid Lake peace in Part II; stale OPEN, "recommended" and "if confirmed" labels in CR-059, CR-062, CR-063 and CR-065; the Oregon protocol "signed with the armistice" (it is signed with the treaty); the Vicksburg paragraph's ending and its contradictory status notes; the dated order against slaving raids that CR-068 cites and CR-061 lacks; travel times to Salt Lake (leave about 15 June or travel by relay coach).
 
+## After the second review: the foundation of 1865 rebuilt (13 November 2026, afternoon)
+
+The author rejected four versions of an incident at Port Townsend during a lapse in wartime, and approved a different foundation ("Yes this is better. Please write it in this way and then do a final fresh context review"):
+
+- Pacifica's armistice is signed in mid-May 1865, by Elias as Protector. The Treaty of Amity with Richmond is signed in the last week of May, his last act in the office.
+- The Protectorship expires with its term on the last day of May, after the war. He asks for no further year.
+- There is no incident at Port Townsend and no offer from Marcus.
+- Six months as Chancellor show that the Articles of 1856 cannot govern what the war left: the interior has no lawful government, the wartime decrees are spent, and the long promises have no one behind them. He brings the Enabling Law himself in September.
+
+Written in: CR-068 revision 29 (G9a, B16a, CT29, the §12 text); CR-062 A1, A6 and headings; CR-059 V2; CR-067 A1.
+
+Also approved and written in: the July pledge at Salt Lake (CR-060 D5: the articles of December 1862 give no pledge against federal enforcement and run to the end of 1863; the Compact adds the pledge, binds the Legion to the common defence, and adds "of any date").
+
+**Written in as PROPOSED, not expressly approved** (the author asked for suggestions and raised no objection; each is labelled in its row):
+
+| # | Suggestion | Where |
+|---|---|---|
+| S1 | Why Hawaii agrees to a life office: its half of the Council ends with the accessions | CR-068 G9a, §12 text |
+| S2 | Order of autumn 1865: chambers and California in September and October; Sherman loses the argument on the term and sails as commissioner; Washington signs in December; Hawaii ratifies in December | CR-068 G9a |
+| S3 | The Union closes its wire west of the divide in April 1864 | CR-060 D4a, C5; CR-068 |
+| S4 | The Council adopts the Terms of Monterey in September 1863; that resolution is Washoe's mandate | CR-068 G6; CR-060 C5, C6; CR-067 A1 |
+| S5 | The travellers' court: warrants of January 1863 only for that month's killings; the men of 1862 are surrendered at Box Elder under "of any date" | CR-060 D8, D9 |
+
+A final fresh-context review follows; its reports are `review3-*.md` in this directory.
+
 ## Resume here
 
 1. Author answers R1 to R7 (R1 to R4 touch the two newest pieces: the lapse of 1865 and the Salt Lake visit).
