@@ -64,8 +64,10 @@ Additional questions for the author that surfaced while fixing: the Amity treaty
 | A2 | 1864 fixes the form and the three protections; 1865 is fought over the revenues, the reach of cabinet legislation and the life term ("2 and 3's suggestions work for me"). | CR-068 CT29 and §12 text; ledger changes named for integration |
 | A3 | Lincoln's Oregon letter names Hawaii's demand and turns it. | CR-068 G10; CR-059 V11 and §12 text |
 | A5 | "The treaty dates to 1865": the Diné treaty stays in 1865, so the account of the nations of early 1863 claims only what exists by then. | CR-068 G4, CT15, §10 text |
-| A4 | "Let's go with CR-068's timeline." **Not written in yet:** taken literally (Elias leaves Monterey about 5 January 1863) it removes him from Santa Fe and Taos in December 1862, where the author approved his presence on 9 November (the Navajo talks, the opening of the compact, the Taos article of CR-066 Part E). The drafter has asked whether the merged calendar is meant: out in November as in CR-061, home by late April, Honolulu on 20 May as in CR-068. | pending |
-| A6, A7 | The author asked for suggestions; given in the conversation, not yet decided. | pending |
+| A4 | The merged calendar ("the merged calendar also works"): out in November 1862 as in CR-061, Santa Fe and Taos in December, San Antonio in February, home by late April, Honolulu about 20 May as in CR-068. | CR-061 C12; CR-068 CT24, B9 |
+| A6 | Forney commands the column at Vicksburg; Grant paroles the 15,000 who surrender ("6 and 7 work"). The deferred choice between two sets of numbers is dropped. | CR-063 |
+| A7 | The army's rule stays. The Rio Grande column has a Council resolution of spring 1862; Washoe rests on the third renewal with Victoria's conditions; the Salt Lake garrison of 1862 has none, and that is the grievance behind "no annexation". | CR-067 A1; CR-061 C0a; CR-060 C6 and Part II |
+| A9 | The author would like Deseret's Compact timed so that Elias signs it personally, the Legion being the most significant non-national force in the region. With the merged calendar he is at Santa Fe in December 1862. The drafter's proposal, awaiting an answer: working articles signed by commissioners in December 1862, and the Compact itself signed by Elias and Young at Salt Lake on 24 July 1863, with Lee's surrender and the Box Elder compact of 30 July on the same visit. | pending |
 
 ## Resume here
 
