@@ -236,6 +236,16 @@ Written in: CR-068 revision 35 (no rendition clause; the port officer and the co
 
 **Not cleared:** the drafts' §12 blocks on Lincoln's letters are worded differently from the candidate (the candidate is the better text; sync at integration); about half of the doubled events of the fifth review, which need sentences rewritten or sit in ledger-quoted canon; label reconciliation and ledger quotes (integration).
 
+## Seventh reading; the writ of 1871 withdrawn (13 November 2026, 16:37)
+
+Report: `review7-candidate.md`. One blocker (what the controls of 1871 do on Pacifican soil); §12's order and §13 not ready; four of five points sound after mechanical fixes; no finding on protected intent.
+
+**Author:** "Just leave out the 1871 stowaway scene altogether, it's not what this story is about and it takes the plot too far off course."
+
+Done: CR-068 revision 36 withdraws round G12, PP14, B20, X16, the petitioner, the ransom article and the override; CT18 now only removes canon's PROPOSED override sentence; the rows that cited the scene are cleaned (the heavy beats are three; TL7 and the weights table are for the author to re-read). CR-061 CT9 and S4, CR-062 T11 and the candidate's §13 follow. The blocker falls with the scene.
+
+**Not yet done from the seventh reading:** §12's order in five places; the §13 order (Lincoln's death); dangling joins in §9 and §10; a label lost in §12; stale rows (CR-068 lines dating 1861 to August at about 102, 472, 490; the frigates dropped in three rows; Alaska on the Treasury statement in CR-062 at about 99, 221, 230; CR-062's Part II note on the treaty's silence; CR-065 "in a month"; CR-062 "printed in 1863"); the drafts' storyline blocks against the candidate; and four author questions (the Protectorship's activation date; how the second turret ship reaches Honolulu; what fails at Petersburg; news timing in 1861).
+
 ## Resume here
 
 1. A further fresh-context reading when the author wants one.

@@ -64,6 +64,10 @@
 - §11: hidden comments reworded and placed; the account of the nations dated to the spring; Hawaii's delay of April 1863 has one stated cause; the second turret ship comes to Honolulu in 1863; the Peoria sentence and the preface's "dismissed every twelvemonth" are told where later passages rely on them.
 - §12: the Navajo treaty, the end of peonage, Black Hawk and the Owyhee stand before the interior's consent, which now concludes them; "that settlement" has its antecedent again; the mounted police and the armistice line are introduced; the Enabling Law is passed once; the war advances end "as it published in 1862"; the orphan comment is removed.
 
+## Sixth pass (13 November 2026, 16:37)
+
+- §13: the writ of 1871, Lincoln's opinion, the override and the ransom article are removed at the author's direction ("Just leave out the 1871 stowaway scene altogether"). The paragraph now says only that the border is closed from 1863, that no one who reaches the soil is returned, that the treaties of 1871–72 extend the controls and that Victoria supports them.
+
 ## Still open after the second pass
 
 **For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
