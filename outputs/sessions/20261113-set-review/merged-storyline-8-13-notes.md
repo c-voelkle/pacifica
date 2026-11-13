@@ -82,10 +82,29 @@
 - Labels: no label falls mid-sentence; repeated identical labels inside a paragraph are removed; canon sentences that resume after an insert no longer inherit the insert's label where the ledger records them as canon.
 - Ledger-quoted sentences restored where no decision changes them (the Articles' powers, the Enabling Law, the Apache peace, the Freedom Act). The ten remaining ledger differences are decided changes and are listed in `integration-readiness.md`.
 
+## Ninth pass: doubled events (13 November 2026, 16:56)
+
+Told once now:
+
+- San Antonio: the two tellings are tied as one visit
+- the end of the scalp bounties (kept in §12)
+- the Overland losses (kept in §12)
+- McPherson's death and the February failures (told in §11)
+- Pacifica's armistice (told once, in the armistice paragraph)
+- the Treaty of Amity (told once)
+- the powers under which the treaty is signed
+- the Colorado line (kept in CR-060's paragraph)
+- the evacuation of the Sound
+- Elias as creditor to the Union's bankers
+- Whiteaker's introduction
+- Pensacola's garrison
+
+Left as they are, on purpose: canon's summary sentences that the ledger quotes word for word and that a fuller telling follows (the armistices of "March–June", the Enabling Law's sentence, the abolition of peonage, "Washoe is retaken in 1863–1864"); the Terms of Monterey named once in §10 where Washoe needs them and told in §11; Elias's Texas journey, which is told by theatre in §10 and by the contest in §11; back-references of a clause.
+
 ## Still open after the second pass
 
 **For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
 
-**Mechanical, not yet done:** about half of the 38 doubled events tabled in the review (section B), chiefly those that need a sentence rewritten and those inside canon sentences the ledger quotes (the armistices of "March–June", the Amity treaty, the Enabling Law told in three places, Whiteaker named twice, the scalp bounties, Elias's Texas journey told across five paragraphs); the order inside §11's last third (Atlanta, Mobile, the Valley); "March–June" for the armistices, which the ledger quotes; CR-068 CT26's wording on foreign credit; labels where one CR's sentence sits in another CR's paragraph, and APPROVED sentences that rest on PROPOSED ones; ledger quotes that decided tensions remove (to change at integration). No sentence was rewritten for style.
+**Mechanical, not yet done:** the ledger re-quotes and the register entries, which belong to integration (`integration-readiness.md`).
 
 **Outside §§8–13 and not in the candidate:** CR-068's sentence for §4; CR-062's for §14; CR-060's for §19 and §25.

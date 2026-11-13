@@ -59,6 +59,6 @@ Then, as `AGENTS.md` requires: `sync_master_storyline.py --write` and `--check`;
 
 ## Known weaknesses adopted as they stand unless fixed first
 
-- About half of the doubled events tabled in `review5b-merged-candidate.md` remain; none is a contradiction.
+- Doubled events were removed on 13 November (ninth pass). What remains twice is deliberate: canon summary sentences the ledger quotes, each followed by its fuller telling.
 - A charter for Washington Territory is listed among the Senate's papers and never told.
-- The passes made after the seventh reading (the writ withdrawn; §12 reordered; labels) have not had a fresh-context reading.
+- The passes made after the seventh reading (the writ withdrawn; §12 reordered; labels; doubled events) have not had a fresh-context reading.
