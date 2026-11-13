@@ -193,8 +193,15 @@ Written in (CR-068 revision 32 and neighbours):
 
 Mechanical: McPherson's death carried into CR-064 C8 and registry, CR-063, CR-065; the general recall removed from six notes; "Victoria's standing instructions" replaced in CR-068; Hawaii ratifies about 10 November; Gettysburg's news a fortnight old at Salt Lake; the cabinet governs in the Protector's absences; the XIII Corps holds Chattanooga outside the field army.
 
+## The merged storyline candidate (13 November 2026, 14:31)
+
+**Author:** "I confirm. Go ahead and compose the merged storyline." The confirmation covers Victoria's stance on the term and the mission party as Hawaii's two dissenters (CR-068).
+
+`merged-storyline-8-13.md` in this directory is a candidate text of §§8–13: current canon with the storyline texts of CR-059 to CR-065, CR-067 and CR-068 and CR-066 Part E applied, in the order of the merge map, and with events that two drafts told now told once (its closing notes list each). It is built by `merge/assemble.py` (paths in the script point to the drafter's scratch copy of canon; `merge/blocks.py` reads each draft's "Storyline text"). `master_storyline.md` is unchanged and nothing is integrated. `lint_canon.py --only` is clean on the candidate. Not done: style, label reconciliation with the register, ledger quotes, the §4, §14, §19 and §25 sentences, a fresh-context reading.
+
 ## Resume here
 
-1. Author confirms the PROPOSED items (session record, sections of 13:54 and 14:26), above all Victoria's stance on the term and the mission party as Hawaii's dissenters.
-2. Compose the merged storyline text for §§8–13 from the merge map (`review-5-merged-storyline.md`).
-3. Approval of each CR and integration.
+1. Author reads `merged-storyline-8-13.md`.
+2. A fresh-context reading of the candidate (order, repetition, forward references, labels).
+3. Author confirms the remaining PROPOSED gap-fillers (section of 13:54).
+4. Approval of each CR; then integration into `master_storyline.md` with the register, facts, ledger and character files, as AGENTS.md requires.
