@@ -49,10 +49,17 @@
 - §10 and §13: from the San Antonio articles of 1863 the Texas line is closed to fugitives and no one who reaches Pacifican soil is returned; in 1871 Richmond obtains a rendition clause from the ministers, Elias refuses to apply it, and a ransom article replaces it (author, 13 November 2026, 15:48, replacing the stricter form of 15:19).
 - §12: Alaska's price is no part of McClellan's papers; the Senate declines the Treasury loan and the money is lent privately.
 
+## Fourth pass: further mechanical fixes (13 November 2026, 15:51)
+
+- Doubled events reduced: the Iowa regiments (stated once as fact), Fort Garland's fall, de la Guerra's introduction, Pensacola's garrison, Jackson in July 1863 (Grant sends McPherson), Fort Union's evacuation, Oregon's choice recorded, Halleck as general in chief, Victoria's conditions of 1864.
+- The Oregon paragraph of 1866 introduces the Native article, the floor for Chinese residents, the returns commission and Nesmith.
+- Lincoln's letters of 1866 and 1867 carry CR-068's label inside the CR-059 and CR-062 paragraphs.
+- The fugitive passages follow the author's second decision (the line closed from 1863, the soil free, ransom from 1871).
+
 ## Still open after the second pass
 
 **For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
 
-**Mechanical, not yet done:** most of the 38 doubled events tabled in the review (section B) beyond those listed above; the Iowa regiments stated three ways; terms still used before they are introduced in the Oregon paragraph of 1866 (the Chinese floor, the Native article, Nesmith, the returns commission); the order inside §11's last third (Atlanta, Mobile, the Valley); "March–June" for the armistices, which the ledger quotes; CR-068 CT26's wording on foreign credit; labels where one CR's sentence sits in another CR's paragraph, and APPROVED sentences that rest on PROPOSED ones; ledger quotes that decided tensions remove (to change at integration). No sentence was rewritten for style.
+**Mechanical, not yet done:** about half of the 38 doubled events tabled in the review (section B), chiefly those that need a sentence rewritten and those inside canon sentences the ledger quotes (the armistices of "March–June", the Amity treaty, the Enabling Law told in three places, Whiteaker named twice, the scalp bounties, Elias's Texas journey told across five paragraphs); the order inside §11's last third (Atlanta, Mobile, the Valley); "March–June" for the armistices, which the ledger quotes; CR-068 CT26's wording on foreign credit; labels where one CR's sentence sits in another CR's paragraph, and APPROVED sentences that rest on PROPOSED ones; ledger quotes that decided tensions remove (to change at integration). No sentence was rewritten for style.
 
 **Outside §§8–13 and not in the candidate:** CR-068's sentence for §4; CR-062's for §14; CR-060's for §19 and §25.
