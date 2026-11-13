@@ -178,9 +178,23 @@ Dates agree across the set for 1863–64 and 1865–67. No breach of protected i
 - **Left open:** Logan's and Marcus's whereabouts at Vicksburg and Mobile; Deseret's ratification vote; South Park's charter; the Owyhee court; an Oregonian voice against accession; the Legion's pay; CR-059's stale notes at CT14, CT15, lines 404, 622 and 987.
 - None of the passages written on 13 November after the third review has been read by a fresh reviewer.
 
+## Fourth check and the author's answers (13 November 2026, 14:26)
+
+Report: `review4-new-passages.md`. Verdicts: CR-061 C0a sound; CR-059's order of 1861, CR-060's Black Hawk and wire, CR-064's winter sound after fixes; CR-068 G9a not sound as written (the forum and day of the "year more").
+
+**Author:** "1. Sounds good 2. Ok, Victoria backs Elias and Lot - but who dissents? 3. Yes 4. Yes 5. Sounds fair."
+
+Written in (CR-068 revision 32 and neighbours):
+1. The choice of May 1865 is the mid-May mail steamer for Honolulu, which sails without a request for renewal.
+2. The Council passes the law thirteen to five: Hawaii seven to two, California six to three. **PROPOSED, in answer to the author's question:** Hawaii's two are the mission party's members, who also voted against in November 1864. Victoria votes with the King's letter while arguing for a term, as canon's "reservations about its reach" requires. **To confirm with the author:** whether "Victoria backs Elias and Lot" means she should also drop her argument for a term.
+3. Lot's letter is read aloud to the committee.
+4. The killings of spring 1865 are amnestied on both sides at Spanish Fork.
+5. Thomas keeps the command after 22 November because Grant has no one left to send and Lincoln no time.
+
+Mechanical: McPherson's death carried into CR-064 C8 and registry, CR-063, CR-065; the general recall removed from six notes; "Victoria's standing instructions" replaced in CR-068; Hawaii ratifies about 10 November; Gettysburg's news a fortnight old at Salt Lake; the cabinet governs in the Protector's absences; the XIII Corps holds Chattanooga outside the field army.
+
 ## Resume here
 
-1. Author reads the PROPOSED gap-fillers and the 1865 rewrite; confirms or changes.
-2. A fresh-context check of what was written after the third review (CR-068 G9a, CR-064 A11–A13, CR-059 I2, CR-060 N6, CR-061 C0a).
-3. Compose the merged storyline text for §§8–13 from the merge map (`review-5-merged-storyline.md`).
-4. Approval of each CR and integration.
+1. Author confirms the PROPOSED items (session record, sections of 13:54 and 14:26), above all Victoria's stance on the term and the mission party as Hawaii's dissenters.
+2. Compose the merged storyline text for §§8–13 from the merge map (`review-5-merged-storyline.md`).
+3. Approval of each CR and integration.
