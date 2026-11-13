@@ -146,9 +146,28 @@ Dates agree across the set for 1863–64 and 1865–67. No breach of protected i
 
 **Mechanical or factual:** the Mosquito crest leaves South Park to the Union (CR-060 CO4); the Union wire ran by South Pass and Fort Bridger, not Denver; G9a and B16a missing from CR-068's counts and chains; stale labels and self-review sections in CR-060, CR-062, CR-064, CR-065, CR-067; smaller items in each report.
 
+## After the third review (13 November 2026, 12:55)
+
+**Author:** "I approve the proposed suggestions from the last message. The Legion can be bound to the common defense while a separate treaty and hatchet burial agreement is reached with Black Hawk that prevents the war from getting out of hand. Please make the mechanical fixes and make suggestions for the remaining blockers."
+
+- **S1–S5 approved** and relabelled in CR-060, CR-067 and CR-068. S1 and S2 remain subject to the reviewer's objections F2 (CR-068 open items R1, R2).
+- **F3 decided.** The Compact's defence clause stands. CR-060 CT7, D7, N6 and a new §10 paragraph: a quarrel at Manti in April 1865, the Legion mustered to guard settlements only, a council at Spanish Fork that summer, the hatchet buried, one season of raids and no Circleville. The outline is the author's; date, place, sponsors and terms are PROPOSED. The Legion's pay stays open.
+- **Mechanical fixes made** (CR-068 is revision 30):
+  - CR-060: Colorado line moved to South Park's east rim; the wire's route (Julesburg, South Pass, Fort Bridger; Denver the last public office); Young elected in March 1862; Pocatello at Box Elder; return from Box Elder in under four weeks; one ledger entry for the association; stale open decisions, preview counts and self-review; open decisions 17–20 added.
+  - CR-068: counts and headings for G9a and B16a; double label removed; R1–R4 listed as open; CT24's table; storyline sentence for the Council's adoption of the Terms; the circular of 1862; Stenhouse.
+  - CR-061: C0a has a Status and is marked open on its wording; two storyline passages relabelled PROPOSED (K1, F2); the Owyhee in place of Bear River; the Chihenne royalty; Austin.
+  - CR-067: stale "stay OPEN" statements; A1 names Bear River and the pledge.
+  - CR-065: self-review note; the nearer mirror in M4; Stephens's "within two months".
+  - CR-059: the Senate balance in 1859; "never meets at Salem"; V3 as V2's exception; the Council's seat in V13; V2 to May 1865.
+  - CR-062: L1, L2, T1 labels; A1's attribution; a storyline sentence for the armistice and Amity dates; O5; Fort Fisher; Stoeckl; "Oregon's exclusion clause".
+  - CR-063: Farragut's death follows canon's order; C4; Washburn for the XIII Corps.
+  - CR-064: stale OPEN labels (Galena, Rawlins, O3, the decisions list); O1 against CR-067; A. J. Smith from late April; Resaca; Allatoona's distance; the Iowa regiments.
+- **Not fixed (notes, or need the author):** CR-059 CT14 and CT15 quote superseded wording, line 404, W14's officers at Port Townsend, the Maine pair's motive; CR-062 the protocol's signatory and authority, McClellan's motive, the 1848 maxim; CR-063 Logan's and Marcus's whereabouts; CR-064 the election-day front and the XIII Corps after October 1863; CR-060 open decisions 17–20; CR-068 literary points. Historical corrections were made from the reviewers' and the drafter's memory and are marked "to verify".
+- **Suggestions put to the author** for F2, F4, F5 and F6 (in the conversation; not written in).
+
 ## Resume here
 
-1. Author decides F1 to F6.
-2. Drafter makes the mechanical fixes listed in the three `review3-*` reports and carries the decisions through.
+1. Author answers the four suggestions (F2 the bargain of 1865; F4 the order of October 1861; F5 Atlanta's winter; F6 the Rio Grande resolution).
+2. Drafter writes the answers in, with the smaller author items listed above.
 3. Compose the merged storyline text for §§8–13 from the merge map (`review-5-merged-storyline.md`).
 4. Approval of each CR and integration.
