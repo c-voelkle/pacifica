@@ -69,9 +69,30 @@ Additional questions for the author that surfaced while fixing: the Amity treaty
 | A7 | The army's rule stays. The Rio Grande column has a Council resolution of spring 1862; Washoe rests on the third renewal with Victoria's conditions; the Salt Lake garrison of 1862 has none, and that is the grievance behind "no annexation". | CR-067 A1; CR-061 C0a; CR-060 C6 and Part II |
 | A9 | Deseret in two steps ("Yes that's perfect I think"): working articles signed by commissioners in December 1862 while Elias is at Santa Fe; the Compact of Association signed by Elias and Young at Salt Lake on 24 July 1863 with the Legion on parade; Lee surrendered at the signing under the words "of any date"; Elias present at Box Elder on 30 July; the news of Gettysburg and Vicksburg read off the wire there, and the Terms of Monterey drafted on the road home. | CR-060 D5, D6, D9, CT1, Part II, §10 text; CR-059 W10; CR-067 B6; CR-068 CT24, G6 |
 
+## Second fresh-context review (13 November, after the author's decisions and Deseret's two steps)
+
+Three new reviewer contexts, read-only, at commit 77feb3e; reports saved verbatim as `review2-a-cr068-cr065.md`, `review2-b-interior-army.md` and `review2-c-oregon-treaty-gulf.md`. Each was given a list of the morning's findings to verify and told which passages had no independent check.
+
+**Verdict:** still not ready, and closer. Of the morning's findings the reviewers checked (about forty), most are gone; the survivors are stale labels and leftovers, listed in each report under "Earlier findings: status". CR-061, CR-067, CR-063 and CR-065 are called close. CR-068's new round G9a and CR-060's two-step Deseret are in their main rows and not yet carried through the rest of those drafts.
+
+**New findings that need the author**
+
+| ID | Question | Source |
+| --- | --- | --- |
+| R1 | **The blind vote and the telegraph.** CR-068 needs the Union's result to take about nine days to reach Monterey (wire to Denver, a rider, Deseret's wire west). CR-060 D4a and the new Salt Lake visit have the Union's wire running through Salt Lake, read by Pacifica's office. If it does in November 1864, Monterey knows on the 9th or 10th and the blind vote collapses. One dated fact is needed for when the wire east of Salt Lake is cut. | review2-A blocker 2 |
+| R2 | **Why Hawaii agrees to a life office.** From June 1865 Hawaii has its best constitution yet: a Chancellor answerable to a Council in which it holds nine of eighteen votes; and the hostile Assembly majority lost the dissolution election. Lot and Victoria hold a veto. The reviewer's suggestion: Elias refuses any office with a term, so they must weigh parity without him against guarantees with him. | review2-A blocker 4 |
+| R3 | **Washington signs before the guarantor exists.** The treaty is signed at Washington in December 1865 by Vallejo and Sherman; the Enabling Law is ratified at Honolulu the same month, and Sherman is also arguing for a term at Monterey. Move the signing, move the ratification, or drop Washington from those who ask. | review2-A blocker 5; review2-C should-fix 2 |
+| R4 | **Marcus in June 1865, and the temptation.** CR-067 has him commanding the Columbia from mid-1864, so Naglee would ask him and he could not make an offer at Monterey; canon has Marcus accepting only lawful authority; and CR-068's approved row O6 says no one ever tempts Elias with more. | review2-A blocker 3 |
+| R5 | **Washoe's mandate.** The third renewal (late May 1864) cannot authorise a march of April. Either a Council resolution of autumn 1863 adopts the Terms' first reservation as standing authority, with Victoria's conditions as the price afterwards, or the march moves to May. | review2-B blocker 4 |
+| R6 | **The travellers' court.** If the December articles reach the killings of 1862 they are already retroactive, and the Compact's "of any date" adds nothing. Suggested: the January warrants cover only the January killings; the killers of 1862 are surrendered at Box Elder under the words added on 24 July. | review2-B blocker 3 |
+| R7 | **What Elias withholds until July 1863,** so that Lee is a price: the reviewer suggests the articles are silent on protection from federal enforcement, or expire. | review2-B should-fix 1, literary 1 |
+| R8 | Still open from the morning: the recall order of October 1861 against the state of war; the Amity treaty's date (suggested: April–May 1865, before Pacifica's armistice); how the maxim of 1848 becomes public; Deseret's ratification; South Park; the Owyhee court; Denver's, Ord's and Beale's United States careers; who acts for the Protector while he is away for most of ten months; whether the life term answers Sherman's argument from the founder's death. | all three |
+
+**Findings the drafter can fix without a decision:** the three passages that still bring Elias home in March 1863; G9a's knock-ons inside CR-068 (round counts, the score table, AG5, W1, W4, MD4, the ledger paragraph); "no volunteer company ever paid" in the account of the nations; CR-060's CT1 fact block and Part II still dating the Compact to December 1862; Hays and the Pyramid Lake peace in Part II; stale OPEN, "recommended" and "if confirmed" labels in CR-059, CR-062, CR-063 and CR-065; the Oregon protocol "signed with the armistice" (it is signed with the treaty); the Vicksburg paragraph's ending and its contradictory status notes; the dated order against slaving raids that CR-068 cites and CR-061 lacks; travel times to Salt Lake (leave about 15 June or travel by relay coach).
+
 ## Resume here
 
-1. Author answers A1 to A7 (A1 to A3 are linked and come first).
-2. A fresh reviewer checks the fixes of 13 November against the five reports.
+1. Author answers R1 to R7 (R1 to R4 touch the two newest pieces: the lapse of 1865 and the Salt Lake visit).
+2. Drafter makes the fixes that need no decision and carries the answers through; a third check then covers CR-068 and CR-060 only.
 3. Compose the merged storyline text for §§8–13 from the merge map.
 4. Approval of each CR and integration.
