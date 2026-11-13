@@ -46,7 +46,7 @@
 - §8/§9: Oregon's Enabling Act is told at the end of §8, and 1861 runs offer (June), reply (early July), offensive (mid-July), state of war (by 6 August), as the author approved.
 - §9: Hawaii's price in 1861 is batteries and frigates at Honolulu and the second turret ship.
 - §11: of the exchanges of 1862–63, three are told (the armistice offer, the Proclamation and the account of the nations, Honolulu) and the rest stand in a clause; the Emancipation Proclamation is named; the credit's terms are told with the Texas journey.
-- §10 and §13: the fugitive agreement begins with the San Antonio articles of 1863 and holds until abolition; the association treaties of 1871–72 extend it (author, 13 November 2026).
+- §10 and §13: from the San Antonio articles of 1863 the Texas line is closed to fugitives and no one who reaches Pacifican soil is returned; in 1871 Richmond obtains a rendition clause from the ministers, Elias refuses to apply it, and a ransom article replaces it (author, 13 November 2026, 15:48, replacing the stricter form of 15:19).
 - §12: Alaska's price is no part of McClellan's papers; the Senate declines the Treasury loan and the money is lent privately.
 
 ## Still open after the second pass

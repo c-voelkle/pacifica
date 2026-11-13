@@ -220,6 +220,12 @@ Written into the drafts and the candidate (third pass):
 - **Alaska and the loan:** Alaska's price out of McClellan's papers; the Senate declines the Treasury loan, which is placed privately (CR-062 M3, CT9, storyline).
 - **Fugitives:** the fugitive agreement begins with the San Antonio articles of February 1863 and holds until abolition; the treaties of 1871–72 extend it. CR-061 S4, Part VII, storyline and new CT9 (which amends canon §13 and the ledger entry C-1871-FUGITIVE at integration); CR-068 G5, G12, M15, CT18; CR-062 T11. This reverses the author's decision of 9 November 2026 in CR-061. PROPOSED links: Hawaii's delay of April 1863 follows the San Antonio terms; Lincoln's draft letter names the contrast with the terms of passage.
 
+## Fugitives, second decision (13 November 2026, 15:46–15:48)
+
+**Author:** "On the other hand, it doesn't really make sense for the republic to have such a strict fugitive return policy, given its Mexican liberal pedigree." Then, to the drafter's proposal: "Yes rewrite it as you suggested just now."
+
+**Decided form:** from the San Antonio articles of February 1863 the Texas line is closed to fugitives (refused at the crossings on travel papers; Texas polices its own side), and no one who reaches Pacifican soil is ever returned, as under the Mexican law the Republic was founded on. Texas demands rendition every year and is refused. In 1871 Richmond makes it the price of the association treaties and the ministers concede a clause; the first person held under it petitions for the writ; Elias refuses to apply the clause, and a ransom article replaces it. Written into CR-061 (S4, Part VII, storyline, CT9), CR-068 revision 34 (G5, G12, M15, PP14, CT18, storyline), CR-062 T11 and the candidate. The Mexican constitution's rule is cited from the drafter's knowledge and marked "to verify".
+
 ## Resume here
 
 1. Finish the mechanical list in `merged-storyline-8-13-notes.md` (doubled events, undefined terms in the Oregon paragraph, labels, ledger quotes).
