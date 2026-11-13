@@ -56,6 +56,17 @@ Not fixed anywhere: the merged storyline text (review 5's merge map is the plan 
 
 Additional questions for the author that surfaced while fixing: the Amity treaty's date against the armistice (CR-062 A6 against CR-068 CT23); how Lincoln in 1867 can quote instructions Elias gave Vallejo in 1848 (CR-062 S8); the recall order of 1 October 1861 against the state of war of August (CR-059 I2, W15); Butler's ending (CR-063 S6, CR-065); Logan's and Marcus's whereabouts on 18 May 1863 and Logan's during the attack on Mobile (CR-063).
 
+## Author decisions of 13 November (after the review)
+
+| ID | Decision | Written in |
+| --- | --- | --- |
+| A1 | The Protectorship lapses on its date, the last day of May 1865, before Pacifica's own armistice is signed in June; Elias asks for no bridging renewal and governs six months as Chancellor ("Yes, can you write it in like that?"). The justification of the life office is the guarantor: the parties the Republic has made long promises to ask who is bound; for life because of the Union's election of 1864 and the date a term would give its enemies; Hawaii agrees because the alternative is the Assembly's Californian majority; whether the laying down was sincere stays undecided on the page; the sting is his own maxim of 1848. | CR-068 revision 27: G9a, CT29, B16a, the §12 text; CR-062 A1; CR-061 A1; CR-067 A1 |
+| A2 | 1864 fixes the form and the three protections; 1865 is fought over the revenues, the reach of cabinet legislation and the life term ("2 and 3's suggestions work for me"). | CR-068 CT29 and §12 text; ledger changes named for integration |
+| A3 | Lincoln's Oregon letter names Hawaii's demand and turns it. | CR-068 G10; CR-059 V11 and §12 text |
+| A5 | "The treaty dates to 1865": the Diné treaty stays in 1865, so the account of the nations of early 1863 claims only what exists by then. | CR-068 G4, CT15, §10 text |
+| A4 | "Let's go with CR-068's timeline." **Not written in yet:** taken literally (Elias leaves Monterey about 5 January 1863) it removes him from Santa Fe and Taos in December 1862, where the author approved his presence on 9 November (the Navajo talks, the opening of the compact, the Taos article of CR-066 Part E). The drafter has asked whether the merged calendar is meant: out in November as in CR-061, home by late April, Honolulu on 20 May as in CR-068. | pending |
+| A6, A7 | The author asked for suggestions; given in the conversation, not yet decided. | pending |
+
 ## Resume here
 
 1. Author answers A1 to A7 (A1 to A3 are linked and come first).
