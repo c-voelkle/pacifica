@@ -1,0 +1,693 @@
+{
+ "bases": {
+  "{}": {
+   "errors": 0,
+   "problems": 0,
+   "receipts": 3013.215581605234,
+   "spending": 2219.9584572233534,
+   "public_debt": 133.51522866568433,
+   "reserve_fund": 2248.2576255268796,
+   "net_lending": 21.093156556413863,
+   "gold_paid_out": 60.850000000000044,
+   "gold": 8288.821464927008,
+   "residents": 80788705.11319502,
+   "navy": 155.20729493,
+   "continental_out": 314.6764658012656,
+   "dev_investment": 683.8592772863425,
+   "private_uses": 3883.9945871519385,
+   "idle_gold_source": 0.0,
+   "new_gold_kept": 339.52
+  },
+  "{\"cw_scrip_face\": 3}": {
+   "errors": 0,
+   "problems": 0,
+   "receipts": 3013.836382748689,
+   "spending": 2218.794369089038,
+   "public_debt": 133.98928138485087,
+   "reserve_fund": 2263.647393950677,
+   "net_lending": 21.093156556413863,
+   "gold_paid_out": 57.850000000000044,
+   "gold": 8345.821699969421,
+   "residents": 80788720.43665801,
+   "navy": 155.20729493,
+   "continental_out": 314.6764658012656,
+   "dev_investment": 685.6431487832875,
+   "private_uses": 3884.002510489406,
+   "idle_gold_source": 0.0,
+   "new_gold_kept": 339.52
+  },
+  "{\"cw_ann_nw\": 0.1}": {
+   "errors": 0,
+   "problems": 0,
+   "receipts": 3012.6989712850927,
+   "spending": 2221.5812834278427,
+   "public_debt": 135.67333407573255,
+   "reserve_fund": 2235.9214965314095,
+   "net_lending": 21.093156556413863,
+   "gold_paid_out": 60.350000000000044,
+   "gold": 8298.320430286489,
+   "residents": 80788638.4487413,
+   "navy": 155.20729493,
+   "continental_out": 314.6764658012656,
+   "dev_investment": 681.7143203144971,
+   "private_uses": 3884.2861180610325,
+   "idle_gold_source": 0.0,
+   "new_gold_kept": 339.52
+  },
+  "{\"cw_legion_on\": 1}": {
+   "errors": 0,
+   "problems": 0,
+   "receipts": 3012.679941949604,
+   "spending": 2220.8995111658396,
+   "public_debt": 136.5750513767369,
+   "reserve_fund": 2234.975108914826,
+   "net_lending": 21.093156556413863,
+   "gold_paid_out": 60.850000000000044,
+   "gold": 8288.821269194224,
+   "residents": 80788692.35249741,
+   "navy": 155.20729493,
+   "continental_out": 314.6764658012656,
+   "dev_investment": 682.3737478077694,
+   "private_uses": 3884.30108689264,
+   "idle_gold_source": 0.0,
+   "new_gold_kept": 339.52
+  }
+ },
+ "results": {
+  "cw_ny_share": {
+   "test": {
+    "cw_ny_share": 0.5
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "gold": -745.78,
+    "new_gold_kept": -32.76
+   }
+  },
+  "cw_ny_home": {
+   "test": {
+    "cw_ny_home": 1.0
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "gold": 1811.18,
+    "new_gold_kept": 79.56
+   }
+  },
+  "cw_idle_ratio": {
+   "test": {
+    "cw_idle_ratio": 0.12
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "idle_gold_source": 15.7547
+   }
+  },
+  "cw_rich_early": {
+   "test": {
+    "cw_rich_early": 1.0
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 0.5938,
+    "spending": 0.5838,
+    "public_debt": 8.9684,
+    "reserve_fund": -11.8643,
+    "net_lending": 0.5589,
+    "gold": 0.0007,
+    "residents": 34.069,
+    "continental_out": 21.5868,
+    "dev_investment": -0.6209,
+    "private_uses": 1.4401
+   }
+  },
+  "cw_rich_late": {
+   "test": {
+    "cw_rich_late": 2.0
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 0.8444,
+    "spending": 0.5813,
+    "public_debt": 8.8508,
+    "reserve_fund": -18.6023,
+    "net_lending": 0.953,
+    "gold": 0.0012,
+    "residents": 60.5523,
+    "continental_out": 32.129,
+    "dev_investment": -0.7722,
+    "private_uses": 1.147
+   }
+  },
+  "cw_mission": {
+   "test": {
+    "cw_mission": 0.5
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -1.2615,
+    "spending": 2.2249,
+    "public_debt": 9.9272,
+    "reserve_fund": -31.2792,
+    "gold": -0.0005,
+    "residents": -30.2774,
+    "dev_investment": -3.5247,
+    "private_uses": 1.2914
+   }
+  },
+  "cw_war61": {
+   "test": {
+    "cw_war61": 8
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -1.8824,
+    "spending": 3.1305,
+    "public_debt": 17.874,
+    "reserve_fund": -46.6881,
+    "gold": -0.0007,
+    "residents": -43.688,
+    "dev_investment": -5.0859,
+    "private_uses": 2.432
+   }
+  },
+  "cw_occ6264": {
+   "test": {
+    "cw_occ6264": 6
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -2.4414,
+    "spending": 4.3466,
+    "public_debt": 21.3489,
+    "reserve_fund": -60.533,
+    "gold": -0.0009,
+    "residents": -59.1432,
+    "dev_investment": -6.8851,
+    "private_uses": 3.237
+   }
+  },
+  "cw_occ6567": {
+   "test": {
+    "cw_occ6567": 2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -3.9935,
+    "spending": 6.9411,
+    "public_debt": 15.2829,
+    "reserve_fund": -99.04,
+    "gold": -0.0014,
+    "residents": -93.8745,
+    "dev_investment": -10.9284,
+    "private_uses": -0.0485
+   }
+  },
+  "cw_hon_batt": {
+   "test": {
+    "cw_hon_batt": 0.3
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.5426,
+    "spending": 0.9323,
+    "public_debt": 5.2535,
+    "reserve_fund": -13.4557,
+    "gold": -0.0002,
+    "residents": -12.8537,
+    "dev_investment": -1.4964,
+    "private_uses": 0.7154
+   }
+  },
+  "cw_hon_frig": {
+   "test": {
+    "cw_hon_frig": 2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -6.509,
+    "spending": 16.0478,
+    "public_debt": 29.1313,
+    "reserve_fund": -158.4726,
+    "gold": -0.0076,
+    "residents": -491.2307,
+    "navy": 14.3058,
+    "dev_investment": -22.6294,
+    "private_uses": 3.1746
+   }
+  },
+  "cw_hon_turret": {
+   "test": {
+    "cw_hon_turret": 0.2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.3148,
+    "spending": 0.5606,
+    "public_debt": 2.5515,
+    "reserve_fund": -7.806,
+    "gold": -0.0001,
+    "residents": -7.6268,
+    "dev_investment": -0.8879,
+    "private_uses": 0.4135
+   }
+  },
+  "cw_sitka_gar": {
+   "test": {
+    "cw_sitka_gar": 0.3
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -1.3945,
+    "spending": 5.672,
+    "public_debt": 0.7326,
+    "reserve_fund": -32.0462,
+    "gold": -0.0045,
+    "residents": -250.3824,
+    "dev_investment": -6.9444,
+    "private_uses": -0.1772
+   }
+  },
+  "cw_sitka_mail": {
+   "test": {
+    "cw_sitka_mail": 0.1
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.4648,
+    "spending": 1.8907,
+    "public_debt": 0.2442,
+    "reserve_fund": -10.6821,
+    "gold": -0.0015,
+    "residents": -83.4612,
+    "dev_investment": -2.3148,
+    "private_uses": -0.0591
+   }
+  },
+  "cw_inst_opt": {
+   "test": {
+    "cw_inst_opt": 3
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.4864,
+    "spending": 0.2731,
+    "public_debt": 4.3891,
+    "reserve_fund": -12.1055,
+    "gold": -10.0001,
+    "residents": -6.5203,
+    "dev_investment": -0.7591,
+    "private_uses": -0.0034
+   }
+  },
+  "cw_scrip_face": {
+   "test": {
+    "cw_scrip_face": 3
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 0.6208,
+    "spending": -1.1641,
+    "public_debt": 0.4741,
+    "reserve_fund": 15.3898,
+    "gold_paid_out": -3.0,
+    "gold": 57.0002,
+    "residents": 15.3235,
+    "dev_investment": 1.7839,
+    "private_uses": 0.0079
+   }
+  },
+  "cw_scrip_price": {
+   "test": {
+    "cw_scrip_face": 3,
+    "cw_scrip_price": 0.9
+   },
+   "base": {
+    "cw_scrip_face": 3
+   },
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.6196,
+    "spending": 1.067,
+    "public_debt": 2.6998,
+    "reserve_fund": -15.3658,
+    "gold": -0.0002,
+    "residents": -14.4794,
+    "dev_investment": -1.6856,
+    "private_uses": -0.0075
+   }
+  },
+  "cw_setoff_nc": {
+   "test": {
+    "cw_setoff_nc": 1
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "gold_paid_out": -1.0,
+    "gold": 19.0
+   }
+  },
+  "cw_nb_credit": {
+   "test": {
+    "cw_ann_nw": 0.1,
+    "cw_nb_credit": 0
+   },
+   "base": {
+    "cw_ann_nw": 0.1
+   },
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.31,
+    "spending": 0.5497,
+    "public_debt": 0.8209,
+    "reserve_fund": -7.6869,
+    "gold_paid_out": 0.5,
+    "gold": -9.5001,
+    "residents": -7.3804,
+    "dev_investment": -0.8592,
+    "private_uses": -0.0038
+   }
+  },
+  "cw_union_prop": {
+   "test": {
+    "cw_union_prop": 0.5
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.31,
+    "spending": 0.5497,
+    "public_debt": 0.8209,
+    "reserve_fund": -7.6869,
+    "gold_paid_out": 0.5,
+    "gold": -9.5001,
+    "residents": -7.3804,
+    "dev_investment": -0.8592,
+    "private_uses": -0.0038
+   }
+  },
+  "cw_keep64": {
+   "test": {
+    "cw_keep64": 0.2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.0283,
+    "spending": 0.0514,
+    "public_debt": 0.8061,
+    "reserve_fund": -0.7012,
+    "gold_paid_out": -0.2,
+    "gold": 3.8,
+    "residents": -0.7371,
+    "dev_investment": -0.0858,
+    "private_uses": 0.1996
+   }
+  },
+  "cw_keep67": {
+   "test": {
+    "cw_keep67": 0.2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "gold_paid_out": -0.2,
+    "gold": 3.8
+   }
+  },
+  "cw_ann_nw": {
+   "test": {
+    "cw_ann_nw": 0.2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -1.0332,
+    "spending": 3.2457,
+    "public_debt": 4.3162,
+    "reserve_fund": -24.6723,
+    "gold_paid_out": -1.0,
+    "gold": 18.9979,
+    "residents": -133.3287,
+    "dev_investment": -4.2899,
+    "private_uses": 0.5831
+   }
+  },
+  "cw_ann_gb": {
+   "test": {
+    "cw_ann_gb": 0.2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -1.5001,
+    "spending": 4.2251,
+    "public_debt": 4.2398,
+    "reserve_fund": -35.8128,
+    "gold": -0.0029,
+    "residents": -173.6291,
+    "dev_investment": -5.7237,
+    "private_uses": 0.3146
+   }
+  },
+  "cw_ann_sw": {
+   "test": {
+    "cw_ann_sw": 0.2
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -1.6532,
+    "spending": 4.345,
+    "public_debt": 5.9581,
+    "reserve_fund": -40.046,
+    "gold": -0.0023,
+    "residents": -148.0894,
+    "dev_investment": -6.0083,
+    "private_uses": 0.5754
+   }
+  },
+  "cw_rc_or": {
+   "test": {
+    "cw_rc_or": 0.5
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 5.3396,
+    "spending": -1.0829,
+    "public_debt": -17.2245,
+    "reserve_fund": 58.0174,
+    "gold": 0.0009,
+    "residents": 55.6937,
+    "dev_investment": 6.4835,
+    "private_uses": -2.065
+   }
+  },
+  "cw_washoe": {
+   "test": {
+    "cw_washoe": 0.5
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 7.0197,
+    "spending": -0.3864,
+    "public_debt": -6.3478,
+    "reserve_fund": 62.4514,
+    "gold": 0.001,
+    "residents": 63.6821,
+    "dev_investment": 7.4135,
+    "private_uses": -0.3421
+   }
+  },
+  "cw_rc_sw": {
+   "test": {
+    "cw_rc_sw": 0.3
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 5.3079,
+    "spending": -0.5149,
+    "public_debt": -8.2927,
+    "reserve_fund": 49.7701,
+    "gold": 0.0008,
+    "residents": 50.2262,
+    "dev_investment": 5.847,
+    "private_uses": -0.8658
+   }
+  },
+  "cw_rc_gb": {
+   "test": {
+    "cw_rc_gb": 0.1
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 1.5839,
+    "spending": -0.1197,
+    "public_debt": -1.9428,
+    "reserve_fund": 14.4736,
+    "gold": 0.0002,
+    "residents": 14.6742,
+    "dev_investment": 1.7083,
+    "private_uses": -0.174
+   }
+  },
+  "cw_juarez": {
+   "test": {
+    "cw_juarez": 1
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 0.7259,
+    "spending": 0.3593,
+    "public_debt": 5.3973,
+    "reserve_fund": -16.8662,
+    "net_lending": 0.9024,
+    "gold": 0.0011,
+    "residents": 58.626,
+    "continental_out": 28.3419,
+    "dev_investment": -0.5817,
+    "private_uses": 0.0452
+   }
+  },
+  "cw_or_works": {
+   "test": {
+    "cw_or_works": 1
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 4.8283,
+    "spending": 12.5922,
+    "public_debt": 0.8,
+    "reserve_fund": -71.2469,
+    "gold": 0.8171,
+    "residents": 46844.4597,
+    "dev_investment": -0.3776,
+    "private_uses": 10.9172
+   }
+  },
+  "cw_refugees": {
+   "test": {
+    "cw_refugees": 20000
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": 45.3157,
+    "spending": 19.0416,
+    "public_debt": -2.7025,
+    "reserve_fund": 130.0448,
+    "gold": 7.2787,
+    "residents": 1248991.1627,
+    "dev_investment": 24.9451,
+    "private_uses": 52.8148
+   }
+  },
+  "cw_priv1867": {
+   "test": {
+    "cw_priv1867": 5
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "gold_paid_out": 2.0,
+    "gold": -38.0,
+    "private_uses": 2.0
+   }
+  },
+  "cw_legion_on": {
+   "test": {
+    "cw_legion_on": 1
+   },
+   "base": {},
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.5356,
+    "spending": 0.9411,
+    "public_debt": 3.0598,
+    "reserve_fund": -13.2825,
+    "gold": -0.0002,
+    "residents": -12.7607,
+    "dev_investment": -1.4855,
+    "private_uses": 0.3065
+   }
+  },
+  "cw_legion_pay": {
+   "test": {
+    "cw_legion_on": 1,
+    "cw_legion_pay": 0.3
+   },
+   "base": {
+    "cw_legion_on": 1
+   },
+   "errors": 0,
+   "problems": 0,
+   "moved": {
+    "receipts": -0.5356,
+    "spending": 0.9411,
+    "public_debt": 3.0598,
+    "reserve_fund": -13.2825,
+    "gold": -0.0002,
+    "residents": -12.7607,
+    "dev_investment": -1.4855,
+    "private_uses": 0.3065
+   }
+  }
+ }
+}

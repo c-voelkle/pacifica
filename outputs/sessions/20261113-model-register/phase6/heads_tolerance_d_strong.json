@@ -1,0 +1,12 @@
+{
+ "1.0000": {
+  "story": 0,
+  "stress": 16,
+  "allows": true
+ },
+ "0.7500": {
+  "story": 0,
+  "stress": 17,
+  "allows": true
+ }
+}

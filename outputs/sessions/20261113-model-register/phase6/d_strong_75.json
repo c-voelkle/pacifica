@@ -1,0 +1,100 @@
+{
+ "D + lease + refugees 20,000, 75% of maximum": {
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.483,
+   "cw_rich_late": 4.449,
+   "cw_hon_batt": 3.486,
+   "cw_hon_turret": 2.403,
+   "cw_occ6567": 4.887,
+   "cw_sitka_gar": 2.909,
+   "cw_sitka_mail": 2.909,
+   "cw_juarez": 8.616,
+   "cw_or_works": 11.098,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "result": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 30.27,
+   "room_stress": {
+    "1861": 14.41,
+    "1862": 4.55,
+    "1863": 1.43,
+    "1864": 2.35,
+    "1865": 6.1,
+    "1866": 5.7,
+    "1867": 7.04,
+    "1868": 11.83
+   },
+   "real_gdp_1932_story": 43514.9,
+   "residents_1932_story": 38075025,
+   "first_failure": "none"
+  },
+  "garrisons_x1.25": {
+   "strict": false,
+   "stress": 17,
+   "first_failure": "stress 1863: Private saving capacity"
+  }
+ },
+ "D + lease + refugees 33,000, 75% of maximum": {
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 33000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.379,
+   "cw_rich_late": 4.449,
+   "cw_hon_batt": 3.486,
+   "cw_hon_turret": 2.403,
+   "cw_occ6567": 5.559,
+   "cw_sitka_gar": 3.27,
+   "cw_sitka_mail": 3.27,
+   "cw_juarez": 8.308,
+   "cw_or_works": 10.867,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "result": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 32.88,
+   "room_stress": {
+    "1861": 14.41,
+    "1862": 4.65,
+    "1863": 1.37,
+    "1864": 2.48,
+    "1865": 6.21,
+    "1866": 6.09,
+    "1867": 6.45,
+    "1868": 12.13
+   },
+   "real_gdp_1932_story": 43455.3,
+   "residents_1932_story": 38123076,
+   "first_failure": "none"
+  },
+  "garrisons_x1.25": {
+   "strict": false,
+   "stress": 17,
+   "first_failure": "stress 1863: Private saving capacity"
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "A": {
+  "story": 0,
+  "stress": 16,
+  "allows": true,
+  "matches_solver": true,
+  "formula_errors": [
+   0,
+   0
+  ]
+ },
+ "B": {
+  "story": 0,
+  "stress": 17,
+  "allows": true,
+  "matches_solver": true,
+  "formula_errors": [
+   0,
+   0
+  ]
+ },
+ "C": {
+  "story": 0,
+  "stress": 16,
+  "allows": true,
+  "matches_solver": true,
+  "formula_errors": [
+   0,
+   0
+  ]
+ },
+ "D": {
+  "story": 0,
+  "stress": 16,
+  "allows": true,
+  "matches_solver": true,
+  "formula_errors": [
+   0,
+   0
+  ]
+ }
+}

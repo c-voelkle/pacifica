@@ -1,0 +1,292 @@
+{
+ "cw_sitka_gar": {
+  "label": "L04 Sitka garrison and squadron, per year from 1867",
+  "unit": "$m/yr",
+  "floor": 0.0,
+  "ceiling": 15.25,
+  "fails_at": 15.375,
+  "binding": "stress 1867: Private saving capacity; stress 1932: Interest within 15% (from 1887), Private saving capacity",
+  "probes": [
+   [
+    0.0,
+    true
+   ],
+   [
+    1.0,
+    true
+   ],
+   [
+    2.0,
+    true
+   ],
+   [
+    4.0,
+    true
+   ],
+   [
+    8.0,
+    true
+   ],
+   [
+    16.0,
+    false
+   ],
+   [
+    12.0,
+    true
+   ],
+   [
+    14.0,
+    true
+   ],
+   [
+    15.0,
+    true
+   ],
+   [
+    15.5,
+    false
+   ],
+   [
+    15.25,
+    true
+   ],
+   [
+    15.375,
+    false
+   ]
+  ]
+ },
+ "cw_sitka_mail": {
+  "label": "L04 northern mail, per year from 1867",
+  "unit": "$m/yr",
+  "floor": 0.0,
+  "ceiling": 15.25,
+  "fails_at": 15.375,
+  "binding": "stress 1867: Private saving capacity; stress 1932: Interest within 15% (from 1887), Private saving capacity",
+  "probes": [
+   [
+    0.0,
+    true
+   ],
+   [
+    1.0,
+    true
+   ],
+   [
+    2.0,
+    true
+   ],
+   [
+    4.0,
+    true
+   ],
+   [
+    8.0,
+    true
+   ],
+   [
+    16.0,
+    false
+   ],
+   [
+    12.0,
+    true
+   ],
+   [
+    14.0,
+    true
+   ],
+   [
+    15.0,
+    true
+   ],
+   [
+    15.5,
+    false
+   ],
+   [
+    15.25,
+    true
+   ],
+   [
+    15.375,
+    false
+   ]
+  ]
+ },
+ "cw_ann_nw": {
+  "label": "L08a annuities, the Northwest, per year 1862-81",
+  "unit": "$m/yr",
+  "floor": 0.0,
+  "ceiling": 5.531,
+  "fails_at": 5.562,
+  "binding": "stress 1863: Private saving capacity",
+  "probes": [
+   [
+    0.0,
+    true
+   ],
+   [
+    1.0,
+    true
+   ],
+   [
+    2.0,
+    true
+   ],
+   [
+    4.0,
+    true
+   ],
+   [
+    8.0,
+    false
+   ],
+   [
+    6.0,
+    false
+   ],
+   [
+    5.0,
+    true
+   ],
+   [
+    5.5,
+    true
+   ],
+   [
+    5.75,
+    false
+   ],
+   [
+    5.625,
+    false
+   ],
+   [
+    5.5625,
+    false
+   ],
+   [
+    5.5312,
+    true
+   ]
+  ]
+ },
+ "cw_ann_gb": {
+  "label": "L08b annuities, the Great Basin and Rockies, per year 1863-82",
+  "unit": "$m/yr",
+  "floor": 0.0,
+  "ceiling": 6.031,
+  "fails_at": 6.062,
+  "binding": "stress 1863: Private saving capacity; stress 1932: Private saving capacity",
+  "probes": [
+   [
+    0.0,
+    true
+   ],
+   [
+    1.0,
+    true
+   ],
+   [
+    2.0,
+    true
+   ],
+   [
+    4.0,
+    true
+   ],
+   [
+    8.0,
+    false
+   ],
+   [
+    6.0,
+    true
+   ],
+   [
+    7.0,
+    false
+   ],
+   [
+    6.5,
+    false
+   ],
+   [
+    6.25,
+    false
+   ],
+   [
+    6.125,
+    false
+   ],
+   [
+    6.0625,
+    false
+   ],
+   [
+    6.0312,
+    true
+   ]
+  ]
+ },
+ "cw_ann_sw": {
+  "label": "L08c annuities, the Southwest, per year 1862-81",
+  "unit": "$m/yr",
+  "floor": 0.0,
+  "ceiling": 5.531,
+  "fails_at": 5.562,
+  "binding": "stress 1863: Private saving capacity",
+  "probes": [
+   [
+    0.0,
+    true
+   ],
+   [
+    1.0,
+    true
+   ],
+   [
+    2.0,
+    true
+   ],
+   [
+    4.0,
+    true
+   ],
+   [
+    8.0,
+    false
+   ],
+   [
+    6.0,
+    false
+   ],
+   [
+    5.0,
+    true
+   ],
+   [
+    5.5,
+    true
+   ],
+   [
+    5.75,
+    false
+   ],
+   [
+    5.625,
+    false
+   ],
+   [
+    5.5625,
+    false
+   ],
+   [
+    5.5312,
+    true
+   ]
+  ]
+ }
+}

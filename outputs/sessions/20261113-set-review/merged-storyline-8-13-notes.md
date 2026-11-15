@@ -1,0 +1,110 @@
+# Notes on the merged storyline candidate, §§8–13
+
+**Status of `merged-storyline-8-13.md`:** a CANDIDATE for the author's reading, second pass, 13 November 2026. It is current canon (`master_storyline.md` §§8–13) with the storyline texts of CR-059 to CR-065, CR-067 and CR-068 and CR-066 Part E applied. It is not canon and nothing is integrated; `master_storyline.md` is unchanged. The candidate file itself now holds only storyline text. Built by `merge/assemble.py` and `merge/pass2.py`.
+
+## First pass
+
+**Where two drafts told the same event, the candidate tells it once:**
+
+- §10: a draft reference removed from the prose (CR-060).
+- §10: the Owyhee paragraph names the doctrine and the police it relies on (CR-060 against CR-059).
+- §10: canon's "Washoe is retaken in 1863–1864" and CR-060's dated sentence are one sentence.
+- §12: the dissolution is told once, after the blind vote, with canon's sentences kept (CR-065 against CR-068).
+- §12: the condition of November 1864 is Hawaii's government's (CR-068 revision 32).
+- §12: the front on election day as CR-064 has it.
+- §12: Lincoln's last winter is one passage: the failed attack of 22 November (CR-064) and the annual message (CR-068) join CR-065's sentence.
+- §12: order is the armistices, the lapse and the six months, the bargain of the summer, then canon's sentence that the law is secured.
+- §12: Lincoln's Oregon letter of June 1866 is told once, in the Oregon paragraph (CR-059 and CR-068).
+- §12: Lincoln's letter of 1867 is told once, in the ratification paragraph (CR-062 and CR-068).
+- §12: Fort Union's evacuation is told once, in CR-061's paragraph.
+
+
+## Second pass, after the fresh-context reading (`review5b-merged-candidate.md`)
+
+- §8: the Senate's vote on Oregon is dated.
+- Labels: new paragraphs that began without a label carry one (CR-059 in §8, CR-063 and CR-062 later).
+- §9: canon's summary of the offer and the reply is cut; CR-068's paragraph tells both.
+- §9: Sherman's office is no longer "proposed".
+- §10 is kept to 1861–1864 and ordered by theatre (the Columbia; the Basin and Deseret; the Rio Grande; Montana and Washoe), as the author approved; Black Hawk, the Owyhee, the Navajo treaty and the end of peonage (1865–66) stand in §12 after the interior's consent.
+- Memo language removed (the regiments "that might have come back", the "friendship doctrine", the pointer to letters "told above").
+- §10: the Deseret paragraph is three (1861–62; the articles; the Compact), and the signing is told once.
+- §10: Elias's arrival in New Mexico is stated before Taos; the Taos paragraph is labelled APPROVED, as the project rules record it.
+- §10: the Sunset articles and the Sunset road are named where they are made.
+- §10: Washoe is told once and in order (1863, the votes of January and March 1864, the retaking, the conditions), and canon's sentence "Washoe is retaken in 1863–1864.", which the ledger quotes, is restored.
+- §11: the armistice offer of spring 1862 and the widened credit stand in 1862, before New Orleans; the exchanges of 1863 follow the Texas journey.
+- §11: Drewry's Bluff (May 1862) follows Hampton Roads.
+- §11: the summary of the Eastern war stands before the Atlanta campaign, and Early's raid is told once.
+- §12: the Amity treaty's sentence is amended as decided (CR-062 CT3).
+- §12: canon's Colorado sentence follows CR-060's line (South Park and the upper Arkansas Pacifican).
+- §12: the blind vote and the dissolution follow the Union's election and Lincoln's last winter.
+- §12: the treaty's signing stands before the description of its line.
+- §13: the Mississippi condition stands with the treaty that ends Grant's war, and Lincoln's death with 1872.
+- §8: the Articles of 1856 name residence, land tenure and the franchise as member powers, as decided (CR-059 CT4).
+
+## Third pass: the author's decisions of 13 November 2026, 15:19
+
+- §8/§9: Oregon's Enabling Act is told at the end of §8, and 1861 runs offer (June), reply (early July), offensive (mid-July), state of war (by 6 August), as the author approved.
+- §9: Hawaii's price in 1861 is batteries and frigates at Honolulu and the second turret ship.
+- §11: of the exchanges of 1862–63, three are told (the armistice offer, the Proclamation and the account of the nations, Honolulu) and the rest stand in a clause; the Emancipation Proclamation is named; the credit's terms are told with the Texas journey.
+- §10 and §13: from the San Antonio articles of 1863 the Texas line is closed to fugitives and no one who reaches Pacifican soil is returned; in 1871 Richmond obtains a rendition clause from the ministers, Elias refuses to apply it, and a ransom article replaces it (author, 13 November 2026, 15:48, replacing the stricter form of 15:19).
+- §12: Alaska's price is no part of McClellan's papers; the Senate declines the Treasury loan and the money is lent privately.
+
+## Fourth pass: further mechanical fixes (13 November 2026, 15:51)
+
+- Doubled events reduced: the Iowa regiments (stated once as fact), Fort Garland's fall, de la Guerra's introduction, Pensacola's garrison, Jackson in July 1863 (Grant sends McPherson), Fort Union's evacuation, Oregon's choice recorded, Halleck as general in chief, Victoria's conditions of 1864.
+- The Oregon paragraph of 1866 introduces the Native article, the floor for Chinese residents, the returns commission and Nesmith.
+- Lincoln's letters of 1866 and 1867 carry CR-068's label inside the CR-059 and CR-062 paragraphs.
+- The fugitive passages follow the author's second decision (the line closed from 1863, the soil free, ransom from 1871).
+
+## Fifth pass, after the sixth fresh-context reading (`review6-afternoon-changes.md`; 13 November 2026, 16:15)
+
+- §13: no rendition clause is conceded in 1871. Richmond's demand is refused at the table; the petitioner is detained under the controls the treaties extended to the ports and claimed by Richmond's consul; the court frees him; the ransom article follows. The controls are "tightened" in 1871–72, having closed the Texas line since 1863.
+- §9: the reply's third demand is a guarantee for inhabitants of the Columbia who traded or corresponded with the Republic; Lincoln's message of 4 July reaches Monterey in August.
+- §10: the January 1863 paragraph (Mangas, the assembly, the Navajo talks) stands before San Antonio; the October 1861 order is told once; the Nauvoo Legion is named at first mention; Washoe opens with canon's sentence.
+- §11: hidden comments reworded and placed; the account of the nations dated to the spring; Hawaii's delay of April 1863 has one stated cause; the second turret ship comes to Honolulu in 1863; the Peoria sentence and the preface's "dismissed every twelvemonth" are told where later passages rely on them.
+- §12: the Navajo treaty, the end of peonage, Black Hawk and the Owyhee stand before the interior's consent, which now concludes them; "that settlement" has its antecedent again; the mounted police and the armistice line are introduced; the Enabling Law is passed once; the war advances end "as it published in 1862"; the orphan comment is removed.
+
+## Sixth pass (13 November 2026, 16:37)
+
+- §13: the writ of 1871, Lincoln's opinion, the override and the ransom article are removed at the author's direction ("Just leave out the 1871 stowaway scene altogether"). The paragraph now says only that the border is closed from 1863, that no one who reaches the soil is returned, that the treaties of 1871–72 extend the controls and that Victoria supports them.
+
+## Seventh pass, after the seventh reading (`review7-candidate.md`; 13 November 2026, 16:42)
+
+- §9: Lincoln's offer is stated before it is discussed; his message of 4 July stands after the events it follows.
+- §10: the Port Townsend convention closes the Columbia block; Hays, Nye and Steele are named at first mention; "the Sunset articles" are not used before San Antonio; the Navajo treaty of 1865 is told only in §12; Sherman's and Victoria's objection to the unvoted garrison on the Salt Lake road is stated; the Iowa regiments are told once.
+- §11: two comparisons with our own history are removed or reworded.
+- §12 now runs: the home front and Lincoln's offer of 1864; the Union's election; Lincoln's last winter; the blind vote and dissolution; McClellan and the armistices; the lapse, the bargain and the Enabling Law; the treaty and its line; the Navajo treaty, peonage, Black Hawk and the Owyhee; Victoria in 1865–66; Oregon; the interior's consent; the winter protocol, Alaska and the Senate; the evacuation and the credit; Fort Union; Lincoln afterwards. The price of $40 million is in the treaty paragraph.
+- §13: the scalp-bounty convention has its antecedent.
+
+## Eighth pass (13 November 2026, 16:50)
+
+- The author's four approvals: the Protectorship takes effect on 1 June 1861 and each term ends on 31 May; the second turret ship is assembled at Honolulu from sections; Hatcher's Run fails on 5–7 February 1865; Congress recognizes the state of war before Astoria's fall is known, and Lincoln's message of 4 July reaches Monterey in the third week of July.
+- Labels: no label falls mid-sentence; repeated identical labels inside a paragraph are removed; canon sentences that resume after an insert no longer inherit the insert's label where the ledger records them as canon.
+- Ledger-quoted sentences restored where no decision changes them (the Articles' powers, the Enabling Law, the Apache peace, the Freedom Act). The ten remaining ledger differences are decided changes and are listed in `integration-readiness.md`.
+
+## Ninth pass: doubled events (13 November 2026, 16:56)
+
+Told once now:
+
+- San Antonio: the two tellings are tied as one visit
+- the end of the scalp bounties (kept in §12)
+- the Overland losses (kept in §12)
+- McPherson's death and the February failures (told in §11)
+- Pacifica's armistice (told once, in the armistice paragraph)
+- the Treaty of Amity (told once)
+- the powers under which the treaty is signed
+- the Colorado line (kept in CR-060's paragraph)
+- the evacuation of the Sound
+- Elias as creditor to the Union's bankers
+- Whiteaker's introduction
+- Pensacola's garrison
+
+Left as they are, on purpose: canon's summary sentences that the ledger quotes word for word and that a fuller telling follows (the armistices of "March–June", the Enabling Law's sentence, the abolition of peonage, "Washoe is retaken in 1863–1864"); the Terms of Monterey named once in §10 where Washoe needs them and told in §11; Elias's Texas journey, which is told by theatre in §10 and by the contest in §11; back-references of a clause.
+
+## Still open after the second pass
+
+**For the author:** nothing from the reading is waiting for a decision; the remaining PROPOSED gap-fillers in the drafts are listed in the session record.
+
+**Mechanical, not yet done:** the ledger re-quotes and the register entries, which belong to integration (`integration-readiness.md`).
+
+**Outside §§8–13 and not in the candidate:** CR-068's sentence for §4; CR-062's for §14; CR-060's for §19 and §25.

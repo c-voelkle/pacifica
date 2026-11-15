@@ -33,9 +33,25 @@ from cohort import Group, Rates, load
 ROOT = Path(__file__).resolve().parent.parent
 # PACIFICA_WORKBOOK points the model at a working copy (used while revising the workbook).
 WORKBOOK = Path(os.environ.get("PACIFICA_WORKBOOK", ROOT / "finance" / "Pacifica_financial_model_1846-1932.xlsx"))
-OUT = Path(__file__).resolve().parent / "outputs"
+# PACIFICA_POP_OUT writes the reports elsewhere (used for runs that are not the canon run).
+OUT = Path(os.environ.get("PACIFICA_POP_OUT", Path(__file__).resolve().parent / "outputs"))
 FIRST, LAST = 1846, 1932
 HAWAII_JOIN = 1856  # the sheet's year (Confederation); Hawaii is de facto core from then
+# PACIFICA_JOINS replaces the sheet's territory joins (People C) by a joins file, such as
+# data/joins_cr059_068.toml; the sheet is still read for everything else.
+JOINS_FILE = os.environ.get("PACIFICA_JOINS")
+
+
+def join_override() -> tuple[dict, dict[int, float]] | None:
+    """The joins file and its residents by join year, or None for the sheet's joins."""
+    if not JOINS_FILE:
+        return None
+    import tomllib
+    d = tomllib.loads(Path(JOINS_FILE).read_text(encoding="utf-8"))
+    by: dict[int, float] = {HAWAII_JOIN: float(d["hawaii_1856"])}
+    for j in d["join"]:
+        by[int(j["year"])] = by.get(int(j["year"]), 0.0) + float(j["residents"])
+    return d, by
 
 
 # ---------------------------------------------------------------------------
@@ -64,6 +80,10 @@ def read_sheet() -> dict[int, dict]:
                 d = data.setdefault(y, {})
                 for i, k in idx.items():
                     d[k] = float(row[i] or 0.0)
+    ov = join_override()
+    if ov:
+        for y, d in data.items():
+            d["join"] = ov[1].get(y, 0.0)
     levers = wb["Levers"]
     names = {}
     for row in levers.iter_rows(min_row=1, values_only=True):

@@ -1,0 +1,17 @@
+# Hess, Civil War Logistics — findings (agent pass, 8 Nov 2026)
+
+Key numbers (chapter cites):
+- Wagon payload: max 2,674 lb (Ingalls); practical 1,500–2,500; 1,000 on bad roads (ch6, ch7). Pack mule 200 lb.
+- Forage: 26 lb per animal per day (14 hay + 12 grain) vs 3 lb per man (ch6, ch7). Six-mule team ≈156 lb/day → a one-ton payload is ~13 team-days of forage (derived).
+- Wagons per 1,000 men: 25–35 (Napoleon 12); supply 7 + ammunition 4–5 per 1,000 (Ingalls) (ch6).
+- Radius opinions: Cox 12 mi, Van Vliet 20, Sherman "50 miles was too far", optimists 100 (ch6). Steele at Camden, 100 mi from Little Rock, lost a 200-wagon train and retreated (ch10).
+- Train pace: ~15 mi/day loaded; 26 mi/day on the open frontier (6th Infantry 1857, Fort Kearny–Fort Bridger 709 mi in 27 days) (ch6).
+- Santa Fe / Overland FY1862–63: Fort Leavenworth → Fort Union (735 mi) >6 million lb; → Salt Lake (1,837 mi) 662,720 lb. Hess: "regular supply shipments for small garrisons. Feeding and supporting a huge army ... concentrated in one place was an entirely different matter" (ch6). Denver's 1862 New Mexico proposal: 5,000 men, 500 wagons (100 per 1,000, "three times higher").
+- Sherman's Atlanta line: single track, 350 mi Louisville–Atlanta, 100,000 men; "could not support further operations south of Atlanta" → shift to raiding (Preface). Raids stopped traffic 20 of 120 days; Wheeler (Aug 1864) wrecked two miles, line working 18 Aug (ch10). Nashville ~250,000 t/yr.
+- Confederate rail: Selma–Meridian gap closed Dec 1862; until then the only west–east link ran via Mobile with a bay crossing; Bragg: "If Mobile fell, there would be no west-east link at all" (ch4). Macon & Western lost 29 of 170 cars by Dec 1862. Atlanta hung on Macon & Western and Atlanta & West Point; cavalry raids failed, six infantry corps cut both 26 Aug–1 Sept 1864 (ch10). Breckinridge used the Alabama River Montgomery–Selma (110 mi, 8 hrs) (ch8).
+- Vicksburg/Port Hudson: Gulf commanders "starved for river transportation, cut off ... from the upper Mississippi until ... Port Hudson surrendered on July 9, 1863" (ch3); Gulf enclave supplied by ~2,000-mile coastal route; Banks expedition ~$300 per man (ch5). Port Hudson siege: 30,000 men 100 mi above New Orleans barely sustained.
+- Coastal fleet FY1864–65: 719 craft (224,984 t) on an average day; 4,033 over the war; $92,414/day. Peninsula: 405 vessels moved 100,000 men, 339 supplied them (ch5, ch8). Fort Fisher transports: coal for a 15-day voyage; winter 1865 "occupied all the ocean steam vessels of the country" and exhausted coal stocks (ch8). Shipping Sherman's 60,000 would take ≥2 months → he marched.
+- Troop transfers: XI/XII Corps >20,000 men 1,166 mi, first train 30 Sept 1863; XXIII Corps 20,000 men 1,400 mi in 11 days (Jan 1865), then by sea; XXV Corps to Texas May 1865: 57 steamers, 947 t coal/day. XIII Corps to Banks "routine"; Sherman's divisions Vicksburg→Memphis by steamer from 22 Sept 1863.
+- Texas coast: Dana's brigade-equivalent to the Rio Grande Oct 1863 supplied from New Orleans, evacuated May 1864 (ch5). Trans-Mississippi supply east: cattle swum across; 5,000 Texas cattle seized at Natchez July 1863; after July 1863 "only individuals and small groups could evade Union gunboat patrols" (ch9). Matamoros/Bagdad: not covered.
+- Panama: prewar only ($150 enlisted / $225 officer via Panama; freight cheaper round Cape Horn) (ch1).
+- Not covered: battles, ironclads, Sibley, Carleton, Connor, Nevada, Oregon, the 1864 election.

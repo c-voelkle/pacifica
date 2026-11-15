@@ -387,12 +387,18 @@ name = "Assumed Mexican debt to the London bondholders"
 kind = "loan"
 parties = ["PAC", "LONDON", "MX"]
 from = 1847
+ended = 1859
+ended_by = "repaid in full in 1859, ending the pledge of the gold royalties and San Francisco's customs (CR-068 CT26)"
 owes = [
   { by = "PAC", to = "LONDON", what = "service of about £3 million of Mexican obligations assumed under Querétaro" },
 ]
 secured_on = "customs and prospective mining revenue (later stated as gold royalties and San Francisco customs)"
-conditions = ["the bonds of Mexico's 1846 conversion carry no land rights; California buys no territory from them"]
-can_end = [{ who = "LONDON", how = "the bondholders' consent to the convention is sought" }]
+can_end = [
+  { who = "LONDON", how = "the bondholders' consent to the convention is sought" },
+]
+conditions = [
+  "the bonds of Mexico's 1846 conversion carry no land rights; California buys no territory from them",
+]
 status = "PROPOSED"
 cr = "CR-028"
 section = 4
@@ -401,9 +407,9 @@ more_quotes = [
   "Elias pledges royalties from a find that only seven people in the world know of, and he says nothing false: the mines, he tells the Mexican foreign minister, are California's hope.",
   "The precise valuation, creditor arrangements and amortization remain matters of financial modeling.",
   "The republic's mining revenue finances infrastructure, but its debt to London remains. British bondholders hold claims secured by gold royalties and San Francisco customs.",
-  "Britain refuses to support a war of Californian expansion, and the London bondholders warn that their credit was not extended to finance such adventures.",
+  "In 1859 the Republic repays the London bondholders in full, and the pledge of its gold royalties and of San Francisco's customs ends.",
 ]
-open = "Valuation, interest, amortization and maturity not stated (left to financial modelling)."
+open = "Valuation and interest not stated (left to financial modelling). Repaid in full in 1859 (APPROVED — CR-068); no bondholders stand behind Britain in 1860."
 
 [[commitment]]
 id = "C-1848-GUADALUPE"
@@ -791,8 +797,11 @@ owes = [
 status = "CANON"
 section = 8
 quote = "At the **Carson Convention** in autumn 1860, Pacifica withdraws its troops and recognizes American sovereignty over Washoe in exchange for property guarantees and transit rights."
-more_quotes = ["Washoe is retaken in 1863–1864."]
-open = "Canon does not say the convention ends; Pacifica retakes Washoe in 1863–1864 and keeps Nevada in the 1865 peace, which in effect reverses the recognition. Ended by the 1865 peace (CR-039)."
+more_quotes = [
+  "Washoe is retaken in 1863–1864.",
+  "American owners in Nevada keep the property guarantees Carson gave them.",
+]
+open = "Washoe is retaken in 1864; its guarantees are kept as Hawaii's condition for the third renewal (C-1861-PROTECTOR) and restated in the civil compact (C-1864-WASHOE-COMPACT), and the 1865 peace keeps the property guarantees while ending the convention (CR-039)."
 
 [[commitment]]
 id = "C-1860-CARSON-RENEWAL"
@@ -820,14 +829,17 @@ parties = ["PAC", "CAL", "HI"]
 from = 1861
 term_years = 1
 renewals = [1862, 1863, 1864]
+ended = 1865
+ended_by = "expires with its term on the last day of May 1865; the renewal of 1864 is the last (CR-068)"
 holder = "CT-ELIAS"
-conditions = [
-  "a separate resolution authorizes limited coercive operations with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible",
-]
 can_end = [
   { who = "CAL", how = "renewal requires the member legislature" },
   { who = "HI", how = "renewal requires the member legislature" },
   { who = "PAC", how = "the Confederal Assembly can revoke emergency measures" },
+]
+conditions = [
+  "a separate resolution authorizes limited coercive operations with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible",
+  "Hawaii's conditions for the third renewal (1864): no annexation, the Carson Convention's guarantees kept, and Hawaii's control of entry at its own ports",
 ]
 status = "CANON"
 section = 9
@@ -835,76 +847,117 @@ quote = "The Council invokes Article XIV with formal assent from both member gov
 more_quotes = [
   "A separate resolution authorizes limited coercive operations, with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible.",
   "In 1862, 1863 and 1864 both member legislatures renew Elias's one-year Protectorship as difficult campaigns produce fresh dangers.",
+  "The Protectorship takes effect on 1 June 1861, and each yearly term ends on 31 May.",
+  "Victoria writes Hawaii's conditions into its assent to the third renewal: no annexation, the Carson Convention's guarantees kept, and Hawaii's control of entry at its own ports.",
+  "The renewal of 1864 is the last.",
+  "On the last day of May 1865 the Protectorship expires with its term.",
 ]
-open = "Exact instruments and dates **[OPEN]** (late May 1861 is the working activation date). Renewed a third time in 1864 (CR-039). Its end is not stated; it is still in use for the 1864–1865 dissolution and presumably gives way to the 1865 Providentorship."
+open = "In force 1 June 1861 to 31 May 1865 (APPROVED — CR-068). Exact instruments **[OPEN]**. After the lapse Elias governs for six months as Chancellor under the Articles of 1856 until the Enabling Law is in force on 1 December 1865."
 
 [[commitment]]
 id = "C-1862-DESERET"
-name = "Accession of Deseret"
+name = "Association of Deseret: the working articles of 1862 and the Compact of Association of 1863"
 kind = "compact"
 parties = ["PAC", "DESERET"]
 from = 1862
+ended = 1867
+ended_by = "Deseret's accession on the exchange of ratifications in 1867 (C-1866-DESERET-CHARTER)"
 owes = [
-  { by = "PAC", to = "DESERET", what = "religious freedom; protection of member-state marriage and church-property law" },
-  { by = "DESERET", to = "PAC", what = "its militia placed within the Defense Law" },
+  { by = "PAC", to = "DESERET", what = "the Protector's pledge that the Union's law will not be enforced in Deseret by arms" },
+  { by = "PAC", to = "DESERET", what = "published terms of passage; Deseret's courts and church property left alone; Deseret's wheat bought in gold" },
+  { by = "PAC", to = "DESERET", what = "the garrison's posts named at the old Camp Floyd, the Bear River crossing and Fort Bridger, none within a day's ride of the city" },
+  { by = "DESERET", to = "PAC", what = "supply of the road and passage to the interior campaigns; Lot Smith's cavalry and the Nauvoo Legion bound to the common defence of the roads and the valley" },
+  { by = "PAC", to = "DESERET", what = "a confederal travellers' court for crimes on the roads, extended by the Compact to crimes of any date" },
 ]
-conditions = ["confederal law forbids member states from banning marriage on grounds of race or origin; it does not impose one marriage system"]
-status = "CANON"
+conditions = [
+  "the working articles of December 1862 run to the end of 1863 at the latest and promise nothing against the Union's law; the Compact of 24 July 1863 replaces them",
+  "an agreement about passage, supply and defence under the Protector's mandate, not an annexation; membership waits for the peace",
+]
+status = "PROPOSED"
+cr = "CR-060"
 section = 10
-quote = "Deseret accedes as a confederate state in late 1862–1863, extending the religious freedom promised to all."
+quote = "In December 1862, while Elias is in New Mexico, his commissioners and Young's counsellors sign working articles for passage, supply, the garrison's posts and a confederal court for crimes against travellers on the roads."
 more_quotes = [
-  "The Morrill Act supplies the breaking point, and the accession protects member-state marriage and church-property law while placing its militia within the Defense Law.",
-  "Confederal law forbids member states from banning marriage on grounds of race or origin; it does not impose one marriage system on every state.",
+  "The articles run to the end of 1863 at the latest and promise nothing against the Union's law.",
+  "On the 24th, the anniversary of the Saints' arrival in the valley, the Legion parades, and he and Young sign the Compact of Association, an agreement about passage, supply and defence under the Protector's mandate, not an annexation.",
+  "Pacifica will not suffer the Union's law to be enforced in Deseret by arms.",
+  "It publishes its terms of passage, leaves Deseret's courts and church property alone and buys Deseret's wheat in gold.",
+  "Deseret supplies the road, gives passage to the interior campaigns, and binds Lot Smith's cavalry and the Nauvoo Legion to the common defence of the roads and the valley.",
+  "At Elias's demand the Compact extends the travellers' court to crimes on the roads of any date.",
+  "The garrison's posts are named, the old Camp Floyd, the Bear River crossing and Fort Bridger, none within a day's ride of the city.",
+  "Membership waits for the peace.",
 ]
-open = "Accession dated 'late 1862–1863' (from = 1862 is the earliest). The terms beyond religious freedom are **[PROPOSED]**; accession instruments and representation are **[OPEN]**."
+open = "CR-060 CT1 (decided): association from December 1862, accession in 1867. The Legion's ride to Bannack in 1864 is Young's own decision beyond the roads the Compact binds it to keep, paid after the peace; it is no term of the Compact."
 
 [[commitment]]
 id = "C-1863-ARIZONA"
-name = "Confederate renunciation of Arizona"
+name = "Confederate renunciation of Arizona and the Sunset articles"
 kind = "settlement"
 parties = ["PAC", "CSA"]
 from = 1863
 owes = [
-  { by = "CSA", to = "PAC", what = "renunciation of the Confederate Arizona claim" },
+  { by = "CSA", to = "PAC", what = "renunciation of the Confederate Arizona claim; no Confederate soldier enters New Mexico in arms" },
+  { by = "CSA", to = "PAC", what = "Texas gives up its old claim to New Mexico east of the river, by a resolution of its legislature at Austin" },
   { by = "PAC", to = "CSA", what = "credit and the future railway connection" },
+  { by = "PAC", to = "CSA", what = "use of the Sunset road, but no right to march on it; Texan freight changes to New Mexican carts at El Paso" },
+]
+conditions = [
+  "a slave whom a master brings onto Pacifican soil is free; a fugitive is refused at the Texas line and one who reaches Pacifican soil is not given up (C-1871-FUGITIVE)",
 ]
 status = "PROPOSED"
 section = 10
 quote = "Richmond renounces its Arizona claim in return for credit and the future railway connection."
 more_quotes = [
+  "At San Antonio in February 1863, where Elias has come from Santa Fe, the Sunset articles give the Confederacy the use of the southern road, the Sunset road, but no right to march on it.",
+  "Colonel James Reily, who carried Sibley's letters to the governors of Chihuahua and Sonora the year before, signs for Richmond, and General Magruder for the military district.",
+  "No Confederate soldier enters New Mexico in arms; Texan freight changes to New Mexican carts at El Paso; a slave whom a master brings onto Pacifican soil is free;",
+  "Texas gives up its old claim to New Mexico east of the river by a resolution of its legislature at Austin.",
   "Early in 1863 Elias goes to Texas in person to settle the Arizona renunciation and the Matamoros supply terms.",
 ]
-open = "Year: §10 places it with the 1862 column, §11 (APPROVED — CR-022) has Elias settle it early in 1863. Amount of credit and railway terms not stated."
+open = "Settled at San Antonio in February 1863 (APPROVED — CR-061). The credit's amount is not stated (C-1863-RICHMOND-CREDIT); the railway connection's terms are not stated. Munitions under the 1865 armistice: C-1865-ARMISTICE."
 
 [[commitment]]
 id = "C-1863-MATAMOROS"
-name = "Matamoros supply terms"
+name = "Matamoros supply route"
 kind = "pact"
 parties = ["PAC", "CSA"]
 from = 1863
-owes = [{ by = "PAC", to = "CSA", what = "supplies and credit around Cape Horn to neutral Matamoros and overland into Texas" }]
+owes = [
+  { by = "PAC", to = "CSA", what = "credit, coin and specialist goods (rifles, machine tools, fuzes, primers and mine gear) and men, around Cape Horn to neutral Matamoros and overland into Texas; no bulk" },
+]
+conditions = [
+  "arms and missions suspended by the 1865 armistice while the Union's armistice with Richmond holds; commerce and commercial credit continue (CR-062)",
+]
 status = "APPROVED"
 cr = "CR-022"
 section = 11
 quote = "Early in 1863 Elias goes to Texas in person to settle the Arizona renunciation and the Matamoros supply terms."
 more_quotes = [
-  "Pacifican supplies and credit travel around Cape Horn to neutral Matamoros and overland into Texas, under the working supply plan.",
+  "Pacifican coin, rifles, machine tools, fuzes, primers, mine gear and men travel around Cape Horn to neutral Matamoros and overland into Texas and across Louisiana to the river.",
+  "The armistice with Pacifica carries one public term on the South: while the Union's armistice with Richmond holds, Pacifica sends no military mission and no arms to the Confederacy.",
 ]
-open = "Terms not stated; §11 already has the supply plan running in 1862 under a 'working supply plan'. Alliance terms with Richmond are **[OPEN]**."
+open = "The credit itself is C-1863-RICHMOND-CREDIT (CR-068). The flag of the ships (Pacifican or neutral) is not stated. 'No bulk' is CR-063's reading of the goods named. Alliance terms with Richmond are **[OPEN]**."
 
 [[commitment]]
 id = "C-1863-NAVAJO"
-from_approx = true
 name = "Navajo homeland treaty"
 kind = "treaty"
 parties = ["PAC", "NAVAJO"]
-from = 1863
-owes = [{ by = "PAC", to = "NAVAJO", what = "recognition of a homeland; no Long Walk" }]
-status = "CANON"
+from = 1865
+owes = [
+  { by = "PAC", to = "NAVAJO", what = "recognition of a homeland; no Long Walk" },
+  { by = "PAC", to = "NAVAJO", what = "the return of the Navajo held in New Mexican households: grown captives choose, a joint commission decides for the children, and Pacifica pays each household that releases one" },
+]
+status = "APPROVED"
+cr = "CR-015"
 section = 10
-quote = "In Navajo country the government chooses a different course: a treaty recognizes a homeland and avoids the Long Walk."
-more_quotes = ["Barboncito and Manuelito negotiate that settlement"]
-open = "Year not stated; from = 1863 only follows the paragraph's January 1863 context. Boundaries and terms not stated; negotiators are **[PROPOSED]**."
+quote = "In Navajo country the government chooses a different course."
+more_quotes = [
+  "In 1865 a treaty recognizes the Navajo homeland.",
+  "Barboncito and Manuelito negotiate that settlement",
+  "the Navajo homeland treaty of 1865 also returns the Navajo held in New Mexican households: grown captives choose whether to go home, a joint commission decides for the children, and Pacifica pays each household that releases one.",
+]
+open = "Boundaries not stated. Kit Carson sits as the Rio Grande compact's commissioner, not Pacifica's (APPROVED — CR-061). The Cubero agreement of 1863 is C-1863-NAVAJO-PASSAGE."
 
 [[commitment]]
 id = "C-1864-HI-CONSTITUTION"
@@ -928,24 +981,32 @@ from = 1865
 owes = [
   { by = "PAC", to = "APACHE", what = "homeland reservations, honest agents and prosecution of settler massacres" },
   { by = "PAC", to = "APACHE", what = "paid scouts" },
+  { by = "PAC", to = "APACHE", what = "passage money for the Chiricahua from the Sunset road's customs" },
 ]
 status = "PROPOSED"
-section = 10
+section = 12
 quote = "an Apache peace in 1865 combines homeland reservations, paid scouts, honest agents and prosecution of settler massacres"
-open = "Boundaries and term not stated."
+more_quotes = [
+  "At Santa Rita del Cobre, where he had met Kearny twenty years before, Mangas Coloradas brings his son-in-law Cochise to the table.",
+  "The Chiricahua take passage money from the Sunset road's customs",
+]
+open = "Boundaries and term not stated; the Mescalero's joining and the Chihenne bounds (CR-061 N4, N7) are not in the storyline. The copper lease is C-1865-SANTA-RITA."
 
 [[commitment]]
 id = "C-1865-MX-SCALP"
-from_approx = true
 name = "Mexican convention ending scalp bounties"
 kind = "convention"
 parties = ["PAC", "MX"]
 from = 1865
-owes = [{ by = "MX", to = "PAC", what = "an end to scalp bounties" }]
+from_approx = true
+owes = [
+  { by = "MX", to = "PAC", what = "an end to scalp bounties" },
+]
 status = "PROPOSED"
-section = 10
+section = 12
 quote = "followed by a Mexican convention ending scalp bounties"
-open = "Year not stated beyond following the 1865 Apache peace; who undertakes what (Mexico ends bounties is the plain reading) not stated."
+more_quotes = ["The end of the bounties is the price Mangas asks."]
+open = "Year not stated beyond following the 1865 Apache peace. CR-061 calls it the convention of Paso del Norte, with a second article for the west-bank crossing; the crossing's customs post 'agreed with Mexico' is recorded under C-1867-JUAREZ-CREDIT."
 
 [[commitment]]
 id = "C-1865-ARMISTICE"
@@ -953,14 +1014,26 @@ name = "McClellan armistice conventions"
 kind = "convention"
 parties = ["US", "PAC", "CSA"]
 from = 1865
-conditions = ["executive conventions; the Union's unratified claim to the South survives", "Indian Territory's division initially frozen along the Arkansas River"]
+owes = [
+  { by = "PAC", to = "US", what = "no military mission and no arms to the Confederacy while the Union's armistice with Richmond holds" },
+]
+conditions = [
+  "executive conventions; the Union's unratified claim to the South survives",
+  "Indian Territory's division initially frozen along the Arkansas River",
+  "Pacifica's war advances to Richmond end with the armistice; Washington's request to ban commercial credit as well is refused",
+  "the armistice line at Glorieta holds until the exchange, and the Union keeps Las Vegas, Mora and Fort Union",
+]
 status = "PROPOSED"
 section = 12
 quote = "After taking office in March 1865, McClellan signs executive armistice conventions with Richmond and Pacifica during March–June."
 more_quotes = [
   "The 1865 armistice initially freezes its division along the Arkansas River; the 1871 border convention transfers the northern Cherokee and Creek lands, leaving the Public Land Strip Union.",
+  "The armistice with Pacifica carries one public term on the South: while the Union's armistice with Richmond holds, Pacifica sends no military mission and no arms to the Confederacy.",
+  "It is signed in mid-May 1865, some weeks after Richmond's, by Elias as Protector.",
+  "Washington asks for a ban on commercial credit as well, and Elias refuses",
+  "Until the exchange the armistice line at Glorieta holds, and the Union keeps Las Vegas, Mora and Fort Union.",
 ]
-open = "Terms beyond ceasefire not stated; Union–Pacifica armistice presumably superseded by the 1867 ratified Western line (not stated)."
+open = "Pacifica's convention is signed in mid-May 1865 (PROPOSED — CR-062) and gives way to the Western treaty on the exchange of 1867 (the line at Glorieta holds 'until the exchange'). The Oregon protocol is signed with the Western treaty (C-1867-WESTERN-LINE). The Union–Richmond armistice's end is not stated."
 
 [[commitment]]
 id = "C-1865-CSA-AMITY"
@@ -968,10 +1041,16 @@ name = "Pacifica–Confederate Treaty of Amity and Commerce"
 kind = "treaty"
 parties = ["PAC", "CSA"]
 from = 1865
-owes = [{ by = "PAC", to = "CSA", what = "formal recognition" }]
+owes = [
+  { by = "PAC", to = "CSA", what = "formal recognition" },
+]
+conditions = ["no military clause"]
 status = "CANON"
 section = 12
 quote = "A Pacifica–Confederate Treaty of Amity and Commerce in spring 1865 supplies Pacifica's formal recognition."
+more_quotes = [
+  "The treaty carries no military clause; its exact drafting remains",
+]
 open = "Commercial terms, wartime alliance clauses and exact drafting are **[OPEN]**."
 
 [[commitment]]
@@ -1020,15 +1099,22 @@ name = "Hawaiian guarantees of the Enabling Law"
 kind = "guarantee"
 parties = ["PAC", "HI"]
 from = 1865
-owes = [{ by = "PAC", to = "HI", what = "protection of Hawaiian kingship, the Kuhina Nui, local institutions and agreed revenues" }]
-conditions = ["protected provisions of the Enabling Law, whose later breach cannot be justified by the authority it grants"]
-status = "CANON"
+owes = [
+  { by = "PAC", to = "HI", what = "protection of Hawaiian kingship, the Kuhina Nui, local institutions and agreed revenues, as protected provisions that cabinet legislation may not touch" },
+]
+conditions = [
+  "protected provisions of the Enabling Law, whose later breach cannot be justified by the authority it grants",
+]
+status = "APPROVED"
+cr = "CR-068"
 section = 12
-quote = "Lot supports the bargain in return for assurances protecting Hawaiian kingship, the Kuhina Nui, local institutions and agreed revenues."
+quote = "The form of the law and the protection of Hawaiian kingship, the Kuhina Nui and local institutions were promised by the Council's resolution of November 1864."
 more_quotes = [
+  "Hawaii now bargains for the agreed revenues and for the list of protected provisions that cabinet legislation may not touch, and wins both.",
+  "The cabinet may legislate around specified provisions, but the Hawaiian crown, Kuhina Nui and local institutions are protected.",
   "The guarantees become protected provisions of the Enabling Law, whose later breach cannot be justified by the authority it grants.",
 ]
-open = "Amount of 'agreed revenues' and whether the guarantees survive the 1887 lapse of the enabling delegation are not stated."
+open = "Promised by the Council's resolution of 12 November 1864 (CR-068) and won at Monterey in the summer of 1865. The amount of the agreed revenues and whether the guarantees survive the 1887 lapse of the enabling delegation are not stated."
 
 # ---------------------------------------------------------------------------
 # The Western peace (1865–1871)
@@ -1036,25 +1122,50 @@ open = "Amount of 'agreed revenues' and whether the guarantees survive the 1887 
 
 [[commitment]]
 id = "C-1867-WESTERN-LINE"
-more_quotes = [
-  "The surviving Puget Sound enclave is evacuated under the treaty, leaving the Union without a Pacific port.",
-  "Senate ratification of the paid Western cession is separated from executive recognition of Richmond, which the Senate never ratifies.",
-  "Its Senate recognizes the Confederacy and Gulf Republic and renounces the surviving claims under the 1865 and 1871 lines; the paid Western cession had already been ratified in 1867.",
-]
-name = "Western line (1865 peace)"
+name = "Western treaty (the Western line of the 1865 peace)"
 kind = "treaty"
 parties = ["US", "PAC"]
 from = 1867
 owes = [
-  { by = "US", to = "PAC", what = "cession of the Northwest, Great Basin, Arizona, Utah, Nevada, Idaho, western Montana, southwest Wyoming, Colorado's Western Slope, North and Middle Park, the San Luis Valley and New Mexico to 103°W" },
-  { by = "US", to = "PAC", what = "evacuation of the surviving Puget Sound enclave" },
-  { by = "PAC", to = "US", what = "a $40 million gold vendor credit (see C-1867-VENDOR-CREDIT)" },
+  { by = "US", to = "PAC", what = "cession of the Northwest, Great Basin, Arizona, Utah, Nevada, Idaho, western Montana, southwest Wyoming, Colorado's Western Slope, North and Middle Park, the San Luis Valley and New Mexico to 103°W; Oregon as Oregon's voters choose" },
+  { by = "US", to = "PAC", what = "evacuation of Port Townsend and Fort Union after the exchange; the surviving Puget Sound enclave evacuated" },
+  { by = "PAC", to = "US", what = "a $40 million gold vendor credit in six instalments from the exchange (see C-1867-VENDOR-CREDIT)" },
+  { by = "PAC", to = "US", what = "the Union's merchants keep the Columbia and Puget Sound on published terms; its warships may come in for refuge or repair; no storehouse is granted" },
+  { by = "PAC", to = "US", what = "named roads open from Fort Benton to Helena, from Denver to Salt Lake and from Denver over Raton Pass to Santa Fe; the Santa Fe Trail open to the Union's freighters under published duties" },
+  { by = "PAC", to = "US", what = "the Colorado article: any mountain mining district may vote itself over, and Pacifica supplies and coins it either way" },
+  { by = "US", to = "PAC", what = "the Colorado article: transit through Denver" },
+  { by = "PAC", to = "US", what = "every resident of a ceded district may choose either citizenship and keeps property, courts and civil protection without distinction of colour" },
 ]
-conditions = ["federal cession does not settle Native title or consent", "separated from executive recognition of Richmond, which the Senate never ratifies"]
+conditions = [
+  "federal cession does not settle Native title or consent",
+  "both governments waive their war claims; private claims go to a mixed commission (C-1867-WESTERN-CLAIMS)",
+  "the treaty says nothing about fugitives, names no government south of its line and touches no claim of the Union to the South; it cedes territories, not states",
+  "the Oregon protocol signed with the treaty: a Union Oregon would be disarmed and Pacifica would pay less; spent by Oregon's choice of October 1866 (C-1866-OR-CERTIFICATION)",
+  "separated from executive recognition of Richmond, which the Senate never ratifies",
+  "north of the Columbia no vote is owed; Washington Territory accedes by its convention's charter as the member Columbia (C-1866-WA-CHARTER)",
+]
 status = "CANON"
 section = 12
 quote = "The Western line is agreed in the 1865 peace and ratified by the Union Senate in 1867, alongside Pacifica's Alaska purchase."
-open = "Agreed 1865, ratified 1867 (from = ratification). Detailed boundary surveys are **[PROPOSED]**."
+more_quotes = [
+  "The Western treaty is signed at Washington in the third week of December 1865, under the full powers of the office the Enabling Law created on the first of the month.",
+  "The Union is to evacuate Port Townsend and Fort Union after the exchange, and Pacifica is to pay a vendor credit of $40 million in gold in six instalments from the exchange.",
+  "Its merchants keep the Columbia and Puget Sound on published terms; its warships may come in for refuge or repair, and no storehouse is granted anywhere.",
+  "Named roads stay open from Fort Benton to Helena, from Denver to Salt Lake and from Denver over Raton Pass to Santa Fe.",
+  "Every resident of a ceded district may choose either citizenship and keeps property, courts and civil protection without distinction of colour.",
+  "The treaty says nothing about fugitives.",
+  "The treaty cedes territories, not states.",
+  "The Colorado article lets any mountain mining district vote itself over, binds Pacifica to supply and coin it either way and binds the Union to transit through Denver.",
+  "Oregon it cedes as Oregon's voters shall choose, and the terms of the choice stand in a protocol signed with the treaty by Vallejo and Sherman: a Union Oregon would be disarmed, and Pacifica would pay less.",
+  "North of the river no vote is owed: the Union made Washington Territory no offer of statehood",
+  "The Senate consents on 9 April and, taking that advice, declines the separate Treasury loan by resolution.",
+  "The ratifications are exchanged at Washington that summer, and the first payment is released.",
+  "The Santa Fe Trail stays open to the Union's freighters under published duties.",
+  "The surviving Puget Sound enclave is evacuated under the treaty, leaving the Union without a Pacific port.",
+  "Senate ratification of the paid Western cession is separated from executive recognition of Richmond, which the Senate never ratifies.",
+  "Its Senate recognizes the Confederacy and Gulf Republic and renounces the surviving claims under the 1865 and 1871 lines; the paid Western cession had already been ratified in 1867.",
+]
+open = "Signed December 1865 at Washington (PROPOSED — CR-062); the Senate consents on 9 April 1867 and the ratifications are exchanged that summer (from = the exchange). Detailed boundary surveys are **[PROPOSED]**; the Colorado districts' votes of 1878–1880 and the survey of 1880–82 are in §19. The Union's Secretary of State is **[OPEN]**. CR-059's succession article (N-B) and the deduction for the unratified treaties (N-C) are not stated in the storyline."
 
 [[commitment]]
 id = "C-1867-GUANO"
@@ -1083,11 +1194,19 @@ kind = "loan"
 parties = ["PAC", "US"]
 from = 1867
 until = 1872
-owes = [{ by = "PAC", to = "US", what = "$40 million in gold, in instalments through 1872" }]
+owes = [
+  { by = "PAC", to = "US", what = "$40 million in gold in six instalments from the exchange of 1867, through 1872" },
+]
 status = "PROPOSED"
 section = 12
 quote = "Pacifica pays a $40 million gold vendor credit in instalments through 1872 and offers a separate Treasury loan."
-open = "First instalment year not stated (peace 1865, ratification 1867). Price, schedule and loan capacity require financial testing. The separate Treasury loan is only offered."
+more_quotes = [
+  "Pacifica is to pay a vendor credit of $40 million in gold in six instalments from the exchange.",
+  "Before the vote the first instalment lies counted in gold in the New York Subtreasury, to be released on the exchange.",
+  "The ratifications are exchanged at Washington that summer, and the first payment is released.",
+  "The Senate consents on 9 April and, taking that advice, declines the separate Treasury loan by resolution.",
+]
+open = "First instalment 1867, at the exchange; the split between instalments is **[OPEN]**; set-offs (CR-059, CR-062) are not stated in the storyline. The separate Treasury loan is declined by the Senate; the money is lent privately through Ralston's bank (C-1862-COIN-BONDS)."
 
 [[commitment]]
 id = "C-1867-ALASKA"
@@ -1095,11 +1214,25 @@ name = "Alaska purchase"
 kind = "treaty"
 parties = ["RU", "PAC"]
 from = 1867
-owes = [{ by = "RU", to = "PAC", what = "Alaska" }]
+owes = [
+  { by = "RU", to = "PAC", what = "Russia's claim to Russian America (Alaska)" },
+  { by = "PAC", to = "RU", what = "$7.2 million in Pacifica's own gold, paid at handover" },
+  { by = "PAC", to = "RU", what = "the Russian subjects may leave or stay; the Orthodox Church keeps its property; the Creoles of Sitka and Kodiak become Pacifican citizens" },
+]
+conditions = [
+  "the lands and rights of the Aleut, the Alutiiq, the Tlingit and the other nations are left to their own arrangements",
+]
 status = "CANON"
 section = 12
 quote = "The Western line is agreed in the 1865 peace and ratified by the Union Senate in 1867, alongside Pacifica's Alaska purchase."
-open = "Price, payment and terms not stated in this range; the seller is not named (Russia is implied)."
+more_quotes = [
+  "Pacifica's envoy offers $7.2 million in Pacifica's own gold, paid at handover rather than when a legislature agrees.",
+  "The treaty is signed at St Petersburg early in March 1867, and the cable has the news in Washington within the day.",
+  "The treaty transfers Russia's claim and leaves the lands and rights of the Aleut, the Alutiiq, the Tlingit and the other nations to their own arrangements; Victoria will not have it otherwise.",
+  "The flag changes at Sitka in October 1867.",
+  "The Russian subjects may leave or stay, the Orthodox Church keeps its property, and the Creoles of Sitka and Kodiak become Pacifican citizens.",
+]
+open = "Signed at St Petersburg in March 1867; handover at Sitka in October 1867 (PROPOSED — CR-062). The price is the envoy's offer; CR-062's non-alienation pledge (K4) is not stated in the storyline."
 
 [[commitment]]
 id = "C-1871-IT-BORDER"
@@ -1198,13 +1331,17 @@ owes = [
   { by = "CSA", to = "US", what = "free Mississippi navigation restored" },
   { by = "US", to = "PAC", what = "quitclaim of the Pacific islands Pacifica occupied during the war" },
 ]
-conditions = ["The Union Senate keeps its claim to the South."]
+conditions = [
+  "The Union Senate keeps its claim to the South.",
+  "free navigation of the Mississippi is Pacifica's condition for its guarantee (CR-068 K21)",
+]
 status = "CANON"
 section = 13
 quote = "In spring 1871 Sherman negotiates with Grant, whose friendship now crosses national allegiances."
 more_quotes = [
   "Richmond restores free Mississippi navigation; Pacifica guarantees Confederate independence.",
   "The Union quitclaims the Pacific islands Pacifica occupied during the war. The Union Senate keeps its claim to the South.",
+  "Free navigation of the Mississippi is Pacifica's condition for that guarantee.",
 ]
 open = "The quitclaim sentence carries **[APPROVED — CR-029]**; the rest of the settlement is unlabelled. The guarantee is recorded separately (C-1871-CSA-GUARANTEE)."
 
@@ -1214,14 +1351,20 @@ name = "Pacifican guarantee of Confederate independence"
 kind = "guarantee"
 parties = ["PAC", "CSA"]
 from = 1871
-owes = [{ by = "PAC", to = "CSA", what = "guarantee of Confederate independence" }]
+owes = [
+  { by = "PAC", to = "CSA", what = "guarantee of Confederate independence" },
+]
+conditions = [
+  "read narrowly from 1900 (CR-048): against foreign invasion, not against the Confederate States' own people; Pacifica arms no one and keeps order only inside its treaty grounds",
+  "free navigation of the Mississippi is Pacifica's condition for its guarantee (CR-068 K21)",
+]
 status = "CANON"
 section = 13
 quote = "Richmond restores free Mississippi navigation; Pacifica guarantees Confederate independence."
 more_quotes = [
   "Pacifica reads its 1871 guarantee narrowly: it protects the Confederate States from foreign invasion, not from their own people.",
+  "Free navigation of the Mississippi is Pacifica's condition for that guarantee.",
 ]
-conditions = ["read narrowly from 1900 (CR-048): against foreign invasion, not against the Confederate States' own people; Pacifica arms no one and keeps order only inside its treaty grounds"]
 open = "Term and end not stated. Covers the rump after the partition of 1898–1900 (CR-048)."
 
 [[commitment]]
@@ -1279,23 +1422,29 @@ open = "The amendment is unlabelled; its terms (the convention) are **[PROPOSED]
 
 [[commitment]]
 id = "C-1871-FUGITIVE"
-from_approx = true
 name = "Fugitive agreement with Richmond"
 kind = "compact"
 parties = ["PAC", "CSA"]
-from = 1871
+from = 1863
 ended = 1889
 ended_by = "Confederate abolition in 1888–1889"
-owes = [{ by = "PAC", to = "CSA", what = "preventing enslaved people from escaping to Pacifican territory" }]
-conditions = ["Travel-paper controls refuse entry at Texas, the railway and Gulf ports; the cabinet overrides habeas corpus under the enabling law (PROPOSED)."]
+owes = [
+  { by = "PAC", to = "CSA", what = "fugitives refused at the crossings of the Texas line, by travel-paper controls extended in 1871–1872 to the railway and the Gulf ports; Texas may police its own side" },
+]
+conditions = [
+  "no one who has reached Pacifican soil is returned; Richmond's requests for return are refused every year",
+  "a slave whom a master brings onto Pacifican soil is free",
+]
 status = "CANON"
 section = 13
-quote = "Pacifica enforces a fugitive agreement with Richmond from 1871–1872 until abolition in 1888–1889, preventing enslaved people from escaping to Pacifican territory."
+quote = "Pacifica enforces a fugitive agreement with Richmond from 1863 until abolition in 1888–1889, preventing enslaved people from escaping to Pacifican territory; it closes the border and returns no one who has reached Pacifican soil."
 more_quotes = [
-  "Travel-paper controls refuse entry at Texas, the railway and Gulf ports; when habeas corpus frees a returned fugitive, the cabinet overrides the court under the enabling law.",
+  "a fugitive is refused at the crossings of the Texas line, and Texas may police its own side; but one who reaches Pacifican soil is free and is not given up",
+  "The association treaties of 1871–1872 extend the travel-paper controls that have closed the Texas line since 1863 to the railway and the Gulf ports.",
+  "Richmond asks for the return of those who get through and is refused, as Texas has been every year since 1863.",
   "Confederate abolition in 1888–1889 ends the fugitive agreement",
 ]
-open = "Start given as 1871–1872 and end as 1888–1889; `ended` uses the later year."
+open = "Made as an article of the Sunset articles at San Antonio in February 1863 (C-1863-ARIZONA; CR-061 CT9) and extended in 1871–1872 (CR-068). The ID keeps its old year for stability. End given as 1888–1889; `ended` uses the later year."
 
 # ---------------------------------------------------------------------------
 # §14 Alaska, Japan, China and the ocean road
@@ -4434,15 +4583,20 @@ id = "C-1867-JUAREZ-CREDIT"
 name = "Credit to Juárez's government on the Sonora customs"
 kind = "loan"
 parties = ["PAC", "MX"]
-from = 1867
+from = 1865
 owes = [
   { by = "PAC", to = "MX", what = "recognition and credit secured on the Sonora customs; rifles through Paso del Norte" },
+  { by = "MX", to = "PAC", what = "a customs post at the boundary at the Pass that passes the rifles overland into Chihuahua" },
 ]
 status = "APPROVED"
 cr = "CR-058"
 section = 13
 quote = "As France withdraws, Pacifica recognises Juárez's government and lends to it on the Sonora customs, and rifles for the Republic's army go south through Paso del Norte from New Mexico."
-open = "The credit's amount and term are not stated."
+more_quotes = [
+  "From the autumn of 1865 until June 1866 Juárez's government sits at Paso del Norte itself, and the crossing outlives his stay.",
+  "The rifles go down the Rio Grande's west bank from Mesilla to the boundary at the Pass, where a customs post agreed with Mexico passes them overland into Chihuahua",
+]
+open = "From the autumn of 1865 (CR-061 CT4; CR-058 'Juárez backed in 1865–67'). The credit's amount and term are not stated."
 
 [[commitment]]
 id = "C-1871-PAC-NAVIGATION"
@@ -4495,16 +4649,24 @@ id = "C-1911-FUR-SEAL"
 name = "The four-power fur-seal convention"
 kind = "convention"
 parties = ["PAC", "UK", "CA", "RU", "JP"]
-from = 1911
+from = 1886
 owes = [
-  { by = "PAC", to = "CA", what = "fifteen percent of the Pribilof catch; from 1921 also fifteen percent of the Commander Islands catch" },
+  { by = "PAC", to = "CA", what = "fifteen percent of the Pribilof catch" },
+  { by = "RU", to = "CA", what = "fifteen percent of the Commander Islands' catch, 1886–1921" },
+  { by = "PAC", to = "CA", what = "from 1921, with the Commander Islands, fifteen percent of their catch" },
   { by = "JP", to = "CA", what = "ten percent of Robben Island's catch" },
 ]
+conditions = ["pelagic sealing banned"]
 status = "APPROVED"
 cr = "CR-058"
 section = 25
-quote = "it proposes a conservation regime and seats Canadian delegates at the table, and the four-power convention bans pelagic sealing and gives Canada fifteen percent of the Pribilof catch, fifteen percent of the Commander Islands' and ten percent of Robben Island's."
-open = "The year of Pacifica's first convention (the 1890s, PROPOSED) and of the four-power convention are not stated; 1911 is history's."
+quote = "the four-power convention, which bans pelagic sealing and gives Canada fifteen percent of the Pribilof catch, fifteen percent of the Commander Islands' and ten percent of Robben Island's."
+more_quotes = [
+  "in 1884, when the sealing schooners first reach the Bering Sea,",
+  "it proposes a conservation regime and seats Canadian delegates at the table.",
+  "In 1886 Pacifica, Britain for Canada, Russia and Japan sign",
+]
+open = "Signed 1886 (APPROVED — CR-070); the ID keeps its old year for stability. Term and renewals not stated. The Commander Islands pass to Pacifica in 1921 (CR-031)."
 
 [[commitment]]
 id = "C-1912-GREATBEAR-OFFTAKE"
@@ -4614,3 +4776,861 @@ cr = "CR-058"
 section = 33
 quote = "a compact gives British Columbia half of the extra power its storage makes downstream, and payments for flood control besides, so BC's revenue is tied to Pacifica's grid and Pacifica's power to BC's storage, with Pacifica the larger partner."
 open = "The year (1922–1925) is PROPOSED; payment in power or gold is undecided. `from` is set to 1924 within the proposed range."
+
+# ---------------------------------------------------------------------------
+# Part 4: CR-059 to CR-070, adopted 15 November 2026 (storyline §§8–14, §25)
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "OR"
+name = "Oregon (the territory's compact with the occupation command from 1861; the member state from 1867)"
+
+[[party]]
+id = "COLUMBIA"
+name = "Washington Territory and its counties (the parallel compact of 1861); the member Columbia from 1867"
+
+[[party]]
+id = "IDAHO"
+name = "Idaho (the member state from 1867)"
+
+[[party]]
+id = "WASHOE"
+name = "Washoe (Nevada Territory's legislature and counties; the member state from 1867)"
+
+[[party]]
+id = "MONTANA"
+name = "Western Montana's counties (the member state from 1867)"
+
+[[party]]
+id = "NM"
+name = "New Mexico: the Rio Grande compact's signatories and assembly (1863); the member state from 1867"
+
+[[party]]
+id = "MTCAMPS"
+name = "The mining camps of western Montana (Bannack and Alder Gulch)"
+
+[[party]]
+id = "NEZPERCE"
+name = "The Nez Perce (Lewiston townsite)"
+
+[[party]]
+id = "ORNATIONS"
+name = "The nations of Oregon whose compacts take effect only if Oregon accedes"
+
+[[party]]
+id = "SOUNDNATIONS"
+name = "The treaty nations of the Sound, the coast and the Yakama"
+
+[[party]]
+id = "NWSHOSHONE"
+name = "The Northwestern Shoshone bands (Box Elder compact)"
+
+[[party]]
+id = "ESHOSHONE"
+name = "Washakie's Eastern Shoshone"
+
+[[party]]
+id = "BHUTES"
+name = "Black Hawk's Utes (Deseret's southern settlements, 1865)"
+
+[[party]]
+id = "OWYPAIUTE"
+name = "The Paiute of the Owyhee"
+
+[[party]]
+id = "PUEBLOS"
+name = "The Pueblos of New Mexico"
+
+[[party]]
+id = "TLINGIT"
+name = "The Tlingit of Sitka"
+
+[[party]]
+id = "ALUTIIQ"
+name = "The nations of the Kodiak compact (Alutiiq)"
+
+[[party]]
+id = "UNANGAN"
+name = "The Unangan of St Paul and St George"
+
+[[party]]
+id = "SEALLESSEES"
+name = "The seal-islands lessees (not named in canon)"
+
+[[party]]
+id = "AUK"
+name = "The Auk Tlingit under Kowee"
+
+[[party]]
+id = "AHTNA"
+name = "The Ahtna under Nicolai"
+
+[[party]]
+id = "CHILKOOT"
+name = "The Chilkoot of Dyea"
+
+[[party]]
+id = "WHITEPASS"
+name = "The builders of the White Pass railway from Skagway (not named in canon)"
+
+[[party]]
+id = "BCCO"
+name = "The company of the colony of British Columbia that holds the Confederation's line"
+
+[[party]]
+id = "EASTHOUSES"
+name = "The New York and Philadelphia houses and the transit companies (the private loan of 1867)"
+
+[[commitment]]
+id = "C-1861-OR-ENABLING"
+name = "The Union's Oregon Enabling Act"
+kind = "law"
+parties = ["US", "OR"]
+from = 1861
+ended = 1866
+ended_by = "Oregon's choice of Pacifica in October 1866; it 'stood for five years'"
+owes = [
+  { by = "US", to = "OR", what = "statehood under a new constitution without slavery or exclusion" },
+]
+status = "PROPOSED"
+cr = "CR-059"
+section = 8
+quote = "The Oregon Enabling Act of 2 March 1861 offers statehood under a new constitution without slavery or exclusion, and Oregon is to elect its delegates in June."
+more_quotes = [
+  "The convention the Enabling Act called never meets at Salem.",
+  "The Union's Enabling Act still offers statehood, and the Senate's Republicans refuse to drop its ban on excluding free Black people.",
+  "the Union's own Enabling Act, which demanded the clause's removal, stood for five years and never got it removed",
+]
+open = "CR-059 has it amended in 1864 with the restoration programme; the amendment is not in the storyline."
+
+[[commitment]]
+id = "C-1861-OR-COMPACT"
+name = "Oregon's civil compact with the occupation command"
+kind = "compact"
+parties = ["PAC", "OR"]
+from = 1861
+from_approx = true
+owes = [
+  { by = "PAC", to = "OR", what = "courts and county governments continue; requisitions are paid and disputed in civilian courts; no one swears allegiance; Oregon's men, ports and revenues serve no military purpose outside Oregon" },
+  { by = "PAC", to = "OR", what = "from 1862 the customs collected at Astoria and Portland go into a published Oregon account that pays Oregon's courts and county officers" },
+]
+conditions = [
+  "Whiteaker negotiates civil protections without conceding a governor's right to transfer Oregon's allegiance",
+  "the legislature's acts take effect without the absent federal governor, subject to the compact's court",
+]
+status = "PROPOSED"
+cr = "CR-059"
+section = 10
+quote = "Its territorial legislature and county commissioners negotiate a civil compact with the occupation command."
+more_quotes = [
+  "Courts and county governments continue, requisitions are paid and disputed in civilian courts, no one swears allegiance, and Oregon's men, ports and revenues serve no military purpose outside Oregon.",
+  "The legislature's acts take effect without the absent federal governor, subject to the compact's court.",
+  "From 1862 the customs collected at Astoria and Portland go into a published Oregon account that pays Oregon's courts and county officers.",
+]
+open = "Year not stated; from = the fall of Portland in 1861 (the compact precedes the flood of December 1861). The customs account (CR-059 W6) is folded in. Its end at accession is not stated."
+
+[[commitment]]
+id = "C-1861-PUGET-COMPACT"
+name = "The Puget Sound counties' parallel compact"
+kind = "compact"
+parties = ["PAC", "COLUMBIA"]
+from = 1861
+from_approx = true
+status = "PROPOSED"
+cr = "CR-059"
+section = 10
+quote = "The Puget Sound counties sign a parallel compact, and Matthew Deady, a territorial justice, becomes the compact's court."
+open = "Terms as Oregon's (C-1861-OR-COMPACT); year not stated beyond 1861."
+
+[[commitment]]
+id = "C-1862-WALLA-WALLA"
+name = "Walla Walla convention"
+kind = "convention"
+parties = ["US", "PAC"]
+from = 1862
+until = 1862
+owes = [
+  { by = "PAC", to = "US", what = "the regulars march east with the honours of war by the Mullan Road" },
+]
+status = "PROPOSED"
+cr = "CR-059"
+section = 10
+quote = "After the attempt on the lower Columbia fails, the Walla Walla convention of July 1862 lets the regulars carry out their own government's order: they march east with the honours of war, guided by John Mullan on the road he built."
+open = "Other terms not stated."
+
+[[commitment]]
+id = "C-1862-LEWISTON-LEASE"
+name = "Lewiston townsite lease"
+kind = "lease"
+parties = ["NEZPERCE", "PAC"]
+from = 1862
+from_approx = true
+owes = [
+  { by = "NEZPERCE", to = "PAC", what = "the Lewiston townsite, leased through the Confederation" },
+]
+status = "PROPOSED"
+cr = "CR-059"
+section = 10
+quote = "Lewiston stands on a townsite the Nez Perce lease through the Confederation."
+open = "Year, rent and term not stated; from = the Boise Basin rush of 1862 in the same paragraph."
+
+[[commitment]]
+id = "C-1866-OR-CHARTER"
+name = "Oregon's charter of accession"
+kind = "charter"
+parties = ["PAC", "OR"]
+from = 1866
+owes = [
+  { by = "PAC", to = "OR", what = "the charter entrenched by the Confederal chambers and California and ratified by Hawaii's legislature: 'a charter no cabinet can touch'" },
+]
+conditions = [
+  "the Native article sends killings and land disputes to confederal courts and admits Native testimony, against Oregon's own law",
+  "the charter's floor for Chinese residents: one licence and one court for all",
+  "the exclusion article takes effect only under Pacifica and is limited to people who are not citizens of a member state",
+]
+status = "PROPOSED"
+cr = "CR-059"
+section = 12
+quote = "The Confederal chambers and California entrench Oregon's charter, and Hawaii's legislature ratifies on her message;"
+more_quotes = [
+  "James Nesmith, the Douglas Democrats' leader in Oregon, calls it a charter no cabinet can touch.",
+  "The charter's Native article sends killings and land disputes to confederal courts and admits Native testimony, against Oregon's own law.",
+  "The Native article and the charter's floor for Chinese residents, one licence and one court for all, which Elias insisted on, nearly cost him the south.",
+  "That summer Victoria, in San Francisco, has the article limited to people who are not citizens of a member state.",
+  "In October 1866 Oregon chooses Pacifica narrowly.",
+]
+open = "Approved 1866 with Oregon's choice of October; membership on the exchange of 1867 (CR-059). Amendment only with Oregon's consent (CR-059) is not stated beyond 'entrench'."
+
+[[commitment]]
+id = "C-1866-OR-NATIONS"
+name = "The Oregon nations' conditional compacts"
+kind = "compact"
+parties = ["PAC", "ORNATIONS"]
+from = 1866
+conditions = ["take effect only if Oregon accedes"]
+status = "PROPOSED"
+cr = "CR-059"
+section = 12
+quote = "They have signed their own compacts, to take effect only if Oregon accedes."
+more_quotes = ["The nations whose land it is have no ballot."]
+open = "The nations and terms are not stated (CR-059's Klamath compact and Paiute peace are not in the storyline)."
+
+[[commitment]]
+id = "C-1866-ID-CHARTER"
+name = "Idaho's charter of accession"
+kind = "charter"
+parties = ["PAC", "IDAHO"]
+from = 1866
+status = "PROPOSED"
+cr = "CR-059"
+section = 12
+quote = "In June 1866 Idaho's voters approve its charter of accession."
+more_quotes = ["The peace transfers Idaho outright."]
+open = "Terms not stated; membership on the exchange of 1867."
+
+[[commitment]]
+id = "C-1866-WA-CHARTER"
+name = "Columbia's charter of accession (Washington Territory)"
+kind = "charter"
+parties = ["PAC", "COLUMBIA"]
+from = 1866
+conditions = ["no exclusion clause"]
+status = "PROPOSED"
+cr = "CR-059"
+section = 12
+quote = "North of the river no vote is owed: the Union made Washington Territory no offer of statehood, and in the autumn of 1866 its elected convention meets at Olympia."
+more_quotes = [
+  "It writes no exclusion clause;",
+  "It names the new member Columbia, the name its settlers asked for at Monticello in 1852 and Congress gave away.",
+]
+open = "Approved by the Olympia convention in the autumn of 1866; member as Columbia on the exchange of 1867 (CR-059 Part IX, approved). Further terms not stated."
+
+[[commitment]]
+id = "C-1866-SOUND-NATIONS"
+name = "Compacts of the treaty nations of the Sound, the coast and the Yakama"
+kind = "compact"
+parties = ["PAC", "SOUNDNATIONS"]
+from = 1866
+owes = [
+  { by = "PAC", to = "SOUNDNATIONS", what = "the fishing places their treaties kept, as a right no licence can narrow" },
+]
+status = "PROPOSED"
+cr = "CR-059"
+section = 12
+quote = "The treaty nations of the Sound, the coast and the Yakama sign compacts of their own, and the fishing places their treaties kept become a right no licence can narrow;"
+open = "Signatories and other terms not stated."
+
+[[commitment]]
+id = "C-1866-OR-CERTIFICATION"
+name = "Protocol of certification of Oregon's returns"
+kind = "convention"
+parties = ["US", "PAC"]
+from = 1866
+status = "PROPOSED"
+cr = "CR-062"
+section = 12
+quote = "In the winter after Oregon's vote both governments sign a protocol recording the certified returns and striking the terms the protocol of 1865 set for a Union Oregon."
+open = "Signed in the winter of 1866–67; from = 1866."
+
+[[commitment]]
+id = "C-1863-SHOSHONE-BOXELDER"
+name = "Box Elder compact"
+kind = "compact"
+parties = ["PAC", "NWSHOSHONE"]
+from = 1863
+owes = [
+  { by = "PAC", to = "NWSHOSHONE", what = "annuities paid from the road's own fees; Cache Valley's grazing paid for through Deseret" },
+  { by = "NWSHOSHONE", to = "PAC", what = "Shoshone scouts on the Snake road; the killers given up to the travellers' court by their own people, those of 1862 among them" },
+]
+status = "PROPOSED"
+cr = "CR-060"
+section = 10
+quote = "In the summer, with Elias present on his way from Salt Lake, the bands sign the Box Elder compact: annuities paid from the road's own fees, Cache Valley's grazing paid for through Deseret, Shoshone scouts on the Snake road, and the killers given up to the travellers' court by their own people, those of 1862 among them now that the Compact reaches crimes of any date."
+open = "Amounts, term and the scouts' pay not stated; the Soda Springs agreement (CR-060 N2) is not in the storyline."
+
+[[commitment]]
+id = "C-1863-SHOSHONE-BRIDGER"
+name = "Washakie's terms for passage at Fort Bridger"
+kind = "pact"
+parties = ["PAC", "ESHOSHONE"]
+from = 1863
+status = "PROPOSED"
+cr = "CR-060"
+section = 10
+quote = "Washakie's Eastern Shoshone make their own terms for passage at Fort Bridger and keep their distance from both armies."
+more_quotes = ["The Ute leaders and terms, and Washakie's agreement."]
+open = "Terms **[OPEN]** (§12)."
+
+[[commitment]]
+id = "C-1863-MINING-COMPACTS"
+name = "Supply compacts of the Montana camps"
+kind = "compact"
+parties = ["PAC", "MTCAMPS"]
+from = 1863
+from_approx = true
+owes = [
+  { by = "PAC", to = "MTCAMPS", what = "freight at published rates, Pacifican coin, assay and licensed courts" },
+]
+status = "PROPOSED"
+cr = "CR-060"
+section = 10
+quote = "Deseret's freighters work the Montana Trail on the Compact's terms, and the camps at Bannack and Alder Gulch sign supply compacts for freight at published rates, Pacifican coin, assay and licensed courts."
+more_quotes = ["The courts come too late for the winter of 1863–64."]
+open = "Year given only as 1863–1864 for the camps' turn; the Idaho districts' compacts (CR-060 M1) are not stated."
+
+[[commitment]]
+id = "C-1864-FORT-CHURCHILL"
+name = "Withdrawal terms of the Fort Churchill garrison"
+kind = "settlement"
+parties = ["PAC", "US"]
+from = 1864
+until = 1864
+owes = [
+  { by = "PAC", to = "US", what = "the garrison leaves with its arms; volunteers who will not stay march east by Deseret's road, fed at Pacifica's charge" },
+]
+status = "PROPOSED"
+cr = "CR-060"
+section = 10
+quote = "Those of Fort Churchill's volunteers who will not stay march east by Deseret's road, fed at Pacifica's charge, and Nye goes with them."
+more_quotes = ["Sherman insists that the garrison leave with its arms"]
+open = "No parole is stated either way (CR-060 C5–C6)."
+
+[[commitment]]
+id = "C-1864-WASHOE-COMPACT"
+name = "Washoe's civil compact"
+kind = "compact"
+parties = ["PAC", "WASHOE"]
+from = 1864
+owes = [
+  { by = "PAC", to = "WASHOE", what = "a published tax on the mines' net proceeds lighter than the one Washoe refused" },
+  { by = "PAC", to = "WASHOE", what = "the Carson Convention's guarantees kept" },
+]
+conditions = ["on Oregon's terms (C-1861-OR-COMPACT)"]
+status = "PROPOSED"
+cr = "CR-060"
+section = 10
+quote = "Washoe's legislature and county officials sign a civil compact on Oregon's terms, and Pacifica publishes a tax on the mines' net proceeds lighter than the one Washoe has just refused."
+more_quotes = [
+  "no annexation, the Carson Convention's guarantees kept, and Hawaii's control of entry at its own ports.",
+]
+open = "The tax schedule (CR-060 C8) is not stated. Victoria's request that Washoe choose for itself after the peace is not written in."
+
+[[commitment]]
+id = "C-1865-UTE-BLACKHAWK"
+name = "Spanish Fork agreement with Black Hawk's Utes"
+kind = "pact"
+parties = ["PAC", "BHUTES", "DESERET"]
+from = 1865
+owes = [
+  { by = "PAC", to = "BHUTES", what = "cattle and flour each year for the grazing the settlements took; homelands they will not be moved from" },
+  { by = "PAC", to = "BHUTES", what = "what was done that spring is forgiven on both sides; killings from that day go to the confederal court" },
+]
+conditions = [
+  "the stock already driven off is set against the first year's issue",
+]
+status = "PROPOSED"
+cr = "CR-060"
+section = 12
+quote = "The Utes are promised cattle and flour each year for the grazing the settlements took, and homelands they will not be moved from; the stock already driven off is set against the first year's issue; what was done that spring is forgiven on both sides, and killings from that day go to the confederal court."
+more_quotes = [
+  "That summer the Republic's commissioner calls a council at Spanish Fork.",
+]
+open = "Who bears the yearly issue (Pacifica or Deseret) and the homelands' bounds are not stated."
+
+[[commitment]]
+id = "C-1866-OWYHEE-PAIUTE"
+name = "Owyhee Paiute agreement"
+kind = "pact"
+parties = ["PAC", "OWYPAIUTE"]
+from = 1866
+status = "PROPOSED"
+cr = "CR-060"
+section = 12
+quote = "Silver City calls it murder; the Paiute of the Owyhee sign their agreement that year because of it."
+open = "Terms not stated (CR-060 N8)."
+
+[[commitment]]
+id = "C-1866-UTE"
+name = "Ute homeland agreement of 1866"
+kind = "pact"
+parties = ["PAC", "UTE"]
+from = 1866
+owes = [
+  { by = "PAC", to = "UTE", what = "the Slope and the Parks reserved as a Ute homeland that can never be sold, whose ground the Republic may lease only for the Utes" },
+]
+conditions = ["conditional on the treaty"]
+status = "PROPOSED"
+cr = "CR-060"
+section = 12
+quote = "Pacifica's commissioners meet the Utes in the summer of 1866, and the agreement they make, conditional on the treaty, reserves the Slope and the Parks as a Ute homeland that can never be sold and whose ground the Republic may lease only for the Utes."
+more_quotes = ["The Ute leaders and terms, and Washakie's agreement."]
+open = "Bands and leaders **[OPEN]**; the party is entered as UTE because the Uncompahgre lease of 1881 (C-1881-UTE-LEASE) rests on this homeland."
+
+[[commitment]]
+id = "C-1866-WASHOE-CHARTER"
+name = "Washoe's charter of accession"
+kind = "charter"
+parties = ["PAC", "WASHOE"]
+from = 1866
+status = "PROPOSED"
+cr = "CR-060"
+section = 12
+quote = "Washoe elects a convention in 1866 that approves its charter of accession, and western Montana's counties do the same."
+open = "Terms not stated; membership on the exchange of 1867. Amendment only with the member's consent (CR-060 A5) is not stated."
+
+[[commitment]]
+id = "C-1866-MT-CHARTER"
+name = "Western Montana's charter of accession"
+kind = "charter"
+parties = ["PAC", "MONTANA"]
+from = 1866
+status = "PROPOSED"
+cr = "CR-060"
+section = 12
+quote = "Washoe elects a convention in 1866 that approves its charter of accession, and western Montana's counties do the same."
+open = "Terms not stated; membership on the exchange of 1867."
+
+[[commitment]]
+id = "C-1866-DESERET-CHARTER"
+name = "Deseret's charter of accession"
+kind = "charter"
+parties = ["PAC", "DESERET"]
+from = 1866
+owes = [
+  { by = "PAC", to = "DESERET", what = "Deseret's marriage and church-property law protected under the confederal floor" },
+  { by = "DESERET", to = "PAC", what = "the Nauvoo Legion placed within the Defense Law" },
+]
+conditions = [
+  "confederal law forbids member states from banning marriage on grounds of race or origin; it does not impose one marriage system",
+]
+status = "PROPOSED"
+cr = "CR-060"
+section = 12
+quote = "In December 1866, after Oregon has voted, Utah's territorial legislature adjourns and meets again the same day as the General Assembly of Deseret, and approves the charter that Elias had held back until Oregon was safe."
+more_quotes = [
+  "Deseret becomes a member state on the exchange of ratifications in 1867, with its marriage and church-property law protected under the confederal floor and the Nauvoo Legion placed within the Defense Law.",
+  "Confederal law forbids member states from banning marriage on grounds of race or origin; it does not impose one marriage system on every state.",
+]
+open = "Approved December 1866; member state on the exchange of 1867. Representation is not stated."
+
+[[commitment]]
+id = "C-1863-RIO-GRANDE"
+name = "Rio Grande compact"
+kind = "compact"
+parties = ["PAC", "NM"]
+from = 1863
+owes = [
+  { by = "PAC", to = "NM", what = "elected town government; courts in Spanish and English; the territory's own institutions of 1850; the old grants confirmed, with each community's commons confirmed to the community" },
+  { by = "PAC", to = "NM", what = "any congregation keeps its chapel and calls its own priest" },
+  { by = "PAC", to = "NM", what = "Arizona county organized for Tucson and the Gila" },
+  { by = "PAC", to = "NM", what = "the Taos article: no one tried for 1847, on either side; the Taos and Rio Arriba companies come home as the compact's home guard, sworn to its laws and never ordered against the Union" },
+  { by = "NM", to = "PAC", what = "when the peace comes, debt peonage and the captive trade end, with compensation" },
+]
+status = "PROPOSED"
+cr = "CR-061"
+section = 10
+quote = "its members open the Rio Grande compact of 1863 with Elias at the turn of the year and carry it on with his commissioner, Pablo de la Guerra, after he leaves for Texas."
+more_quotes = [
+  "In the spring it is signed at Santa Fe by the members from the counties Pacifica holds, the probate judges and the town councils",
+  "the compact lets any congregation keep its chapel and call its own priest.",
+  "It gives the towns elected government, courts that sit in Spanish and English, the territory's own institutions of 1850, and confirmation of the old grants, with each community's commons confirmed to the community, and it organizes Arizona county for Tucson and the Gila.",
+  "The signatories accept one clause unwillingly: when the peace comes, debt peonage and the captive trade will end, with compensation.",
+  "The amnesty becomes an article of the Rio Grande compact, and Carson the compact's broker in the Hispano towns.",
+  "The captive article brings the compact's unwilling clause forward.",
+]
+open = "Signed at Santa Fe in the spring of 1863. Its abolition clause is carried out by the ordinance of 1865–66 (C-1866-NM-ABOLITION)."
+
+[[commitment]]
+id = "C-1863-PUEBLOS"
+name = "The Pueblos' agreement"
+kind = "pact"
+parties = ["PAC", "PUEBLOS"]
+from = 1863
+from_approx = true
+owes = [
+  { by = "PAC", to = "PUEBLOS", what = "their grants entered in the register as homelands" },
+]
+status = "APPROVED"
+cr = "CR-061"
+section = 10
+quote = "The Pueblos make their own agreement, and their grants enter the register as homelands."
+open = "Year not stated; from = the Rio Grande compact's year in the same paragraph."
+
+[[commitment]]
+id = "C-1863-NAVAJO-PASSAGE"
+name = "Cubero agreement with the Navajo"
+kind = "pact"
+parties = ["PAC", "NAVAJO"]
+from = 1863
+owes = [
+  { by = "PAC", to = "NAVAJO", what = "the towns' slaving expeditions forbidden" },
+  { by = "NAVAJO", to = "PAC", what = "the raids stop" },
+]
+status = "APPROVED"
+cr = "CR-061"
+section = 10
+quote = "The towns' slaving expeditions are forbidden, the Navajo raids stop, and at the beginning of May the agreement is signed at Cubero with de la Guerra."
+open = "Signed May 1863; replaced by the homeland treaty of 1865 (C-1863-NAVAJO) is not stated."
+
+[[commitment]]
+id = "C-1865-SANTA-RITA"
+name = "Santa Rita del Cobre copper lease"
+kind = "lease"
+parties = ["APACHE", "PAC"]
+from = 1865
+owes = [
+  { by = "APACHE", to = "PAC", what = "the old copper mine at Santa Rita del Cobre" },
+  { by = "PAC", to = "APACHE", what = "a royalty to the Chihenne" },
+]
+status = "APPROVED"
+cr = "CR-061"
+section = 12
+quote = "Pacifica takes the old copper mine on a lease that pays the Chihenne a royalty."
+open = "Royalty and term not stated."
+
+[[commitment]]
+id = "C-1866-NM-ABOLITION"
+name = "New Mexico's abolition ordinance"
+kind = "law"
+parties = ["PAC", "NM"]
+from = 1866
+owes = [
+  { by = "PAC", to = "NM", what = "compensation for the peons and captives freed, forfeited by every patrón who rose in 1866" },
+]
+status = "APPROVED"
+cr = "CR-061"
+section = 12
+quote = "In December 1865 the compact's assembly votes the abolition ordinance, in the House by one vote, the speaker's, cast by José Manuel Gallegos, the priest Bishop Lamy suspended, for the abolition Lamy has preached since the captive article; the cabinet promulgates it as voted in January 1866."
+more_quotes = [
+  "Pacifica abolishes New Mexico's debt peonage and Native captive trade gradually with compensation by 1866, facing a short Hispano revolt.",
+  "every patrón who rose loses the compensation for the peons and captives he must free anyway.",
+]
+open = "Voted December 1865, promulgated January 1866. Rates of compensation are not stated."
+
+[[commitment]]
+id = "C-1866-NM-CHARTER"
+name = "New Mexico's charter of accession"
+kind = "charter"
+parties = ["PAC", "NM"]
+from = 1866
+conditions = ["abolition written into the charter"]
+status = "APPROVED"
+cr = "CR-061"
+section = 12
+quote = "That summer New Mexico's convention approves its charter of accession with abolition written into it."
+open = "Membership on the exchange of 1867. San Miguel's and Mora's members sign against the Union governor's order; Las Vegas protests to Washington."
+
+[[commitment]]
+id = "C-1867-WESTERN-CLAIMS"
+name = "Mutual waiver and the mixed claims commission"
+kind = "settlement"
+parties = ["US", "PAC", "HI"]
+from = 1867
+owes = [
+  { by = "US", to = "PAC", what = "the Union's claims from the war waived" },
+  { by = "PAC", to = "US", what = "Pacifica's claims from the war waived" },
+  { by = "PAC", to = "HI", what = "the family of the Hawaiian sailor killed in 1861 keeps its own claim before the commission" },
+]
+status = "PROPOSED"
+cr = "CR-062"
+section = 12
+quote = "Both governments waive their claims from the war, so Farragut's death is charged to no one in the treaty, and a mixed commission hears private claims."
+more_quotes = [
+  "At Victoria's insistence, the family of the Hawaiian sailor killed in 1861 keeps its own claim before the commission.",
+]
+open = "An article of the Western treaty; from = the exchange of 1867. The commission's sittings and awards are not stated."
+
+[[commitment]]
+id = "C-1863-RICHMOND-CREDIT"
+name = "The Republic's credit to Richmond"
+kind = "loan"
+parties = ["PAC", "CSA"]
+from = 1863
+owes = [
+  { by = "PAC", to = "CSA", what = "credit lent at interest for independence, spent in Europe" },
+]
+conditions = [
+  "it falls due if Richmond treats for reunion",
+  "the war advances end when both governments accept an armistice (published in the spring of 1862); they end with the armistice of 1865",
+]
+status = "APPROVED"
+cr = "CR-068"
+section = 11
+quote = "At San Antonio in February, where the Sunset articles are signed, he also has the terms of the Richmond credit printed: it is lent for independence and falls due if Richmond treats for reunion."
+more_quotes = [
+  "He then widens the Republic's credit at Richmond and publishes its condition, that its war advances end when both governments accept an armistice.",
+  "Pacifica's credit to Richmond, lent on terms it prints the next year, buys in Europe;",
+  "the credit is lent at interest so that the South is not conquered and the Pacific taken next",
+  "Pacifica's war advances to Richmond end with the armistice, as it published in 1862.",
+]
+open = "The credit runs from 1861–62; from = the printed terms of February 1863. Amount and interest are MODEL (CR-068). The offer to lend or stand surety on the customs for compensated emancipation when Richmond asks is an offer, not a term. The supply route is C-1863-MATAMOROS."
+
+[[commitment]]
+id = "C-1862-COIN-BONDS"
+name = "War bonds in coin and the agency of 1867"
+kind = "loan"
+parties = ["SANFRANCISCO", "PAC", "EASTHOUSES"]
+from = 1862
+owes = [
+  { by = "SANFRANCISCO", to = "PAC", what = "the Republic's war bonds taken in coin from the houses' reserves, brought by Ralston" },
+  { by = "PAC", to = "SANFRANCISCO", what = "interest on the coin bonds (amount OPEN)" },
+  { by = "PAC", to = "EASTHOUSES", what = "from 1867, the loan the Senate declined, lent privately through Ralston's bank as the Republic's agent, which takes a share of its own" },
+]
+status = "PROPOSED"
+cr = "CR-069"
+section = 10
+quote = "When the Republic borrows for the war that year, Ralston brings the houses to take its bonds in coin from their reserves; the Republic spends the coin on its own foundries, yards and carriers, and it comes back to the banks."
+more_quotes = [
+  "The interest on the coin bonds and their amounts beyond the model's.",
+  "The money is lent privately instead, through Ralston's bank as the Republic's agent, which takes a share of its own, to New York and Philadelphia houses and the transit companies.",
+]
+open = "Bonds of 1862–1864 (CR-069 P2; about one-fifth of the war's cost, MODEL); interest, amounts and redemption **[OPEN]**. The Steamer Day Agreement is private and not a commitment of the Republic; the Bank of California holds no public charter."
+
+[[commitment]]
+id = "C-1867-NORTHERN-COMMISSION"
+name = "Charter of the Northern Commission"
+kind = "charter"
+parties = ["PAC"]
+from = 1867
+conditions = [
+  "a bill of the confederal chambers, not a cabinet ordinance, so that the compacts have a ratifier that will outlive Elias; the north a station and no fortress",
+  "the Mining Law of 1849 extended north; the land office grants nothing and the claims courts register nothing on a nation's country without that nation's compact",
+  "a mine on a nation's land holds it by the nation's lease; the Confederation takes its five per cent; the finder's share is agreed on top of both and paid by the mine",
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "Alaska is a territory of the Confederation from the day the flag changes, and the confederal chambers charter a Northern Commission under Pablo de la Guerra to govern it;"
+more_quotes = [
+  "he brings it to the chambers as a bill, because the compacts need a ratifier that will outlive him, and the chambers vote the north a station and no fortress;",
+  "but the land office grants nothing and the claims courts register nothing on a nation's country without that nation's compact,",
+  "A mine on a nation's land holds it by the nation's lease; the Confederation takes its five per cent; and the nation that showed the ore takes a finder's share agreed on top of both and paid by the mine.",
+]
+open = "George Davidson succeeds de la Guerra in 1873. The compacts for the Commission's stations and wire (Wrangell, Juneau, Unalaska) and for the Seward Peninsula placers: parties, years and terms OPEN."
+
+[[commitment]]
+id = "C-1869-SITKA"
+name = "Sitka compact with the Tlingit"
+kind = "compact"
+parties = ["PAC", "TLINGIT"]
+from = 1869
+owes = [
+  { by = "PAC", to = "TLINGIT", what = "their village and its fisheries stay theirs; the Commission holds the Russian town's ground by a yearly rent; clan property is recognised in its courts" },
+  { by = "PAC", to = "TLINGIT", what = "a killing by the garrison is paid to the dead man's clan under Tlingit law" },
+  { by = "TLINGIT", to = "PAC", what = "disputes go to a joint hearing" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "the first is opened with the Tlingit at Sitka in the autumn of 1867 and concluded in 1869: their village and its fisheries stay theirs, the Commission holds the Russian town's ground by a yearly rent, clan property is recognised in its courts, and disputes go to a joint hearing."
+more_quotes = [
+  "the rule becomes a term of the Sitka compact, concluded that year, and the town stays quiet.",
+]
+open = "Opened 1867, concluded 1869. The rent's amount and review (CR-070: $5,000 a year in gold, reviewed every ten years) are not in the storyline."
+
+[[commitment]]
+id = "C-1868-KODIAK"
+name = "Kodiak compact"
+kind = "compact"
+parties = ["PAC", "ALUTIIQ"]
+from = 1868
+owes = [
+  { by = "PAC", to = "ALUTIIQ", what = "only the nations' hunters take the sea otter" },
+]
+conditions = ["a yearly quota"]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "By the Kodiak compact of 1868 only the nations' hunters take the sea otter, under a yearly quota, and the otter is not hunted out."
+open = "The quota and the nations' names are not stated."
+
+[[commitment]]
+id = "C-1868-SEAL-LEASES"
+name = "Seal-islands leases"
+kind = "lease"
+parties = ["PAC", "SEALLESSEES", "UNANGAN"]
+from = 1868
+from_approx = true
+renewals = [1880, 1890, 1900, 1910, 1920, 1930]
+owes = [
+  { by = "SEALLESSEES", to = "PAC", what = "a price per skin" },
+  { by = "SEALLESSEES", to = "UNANGAN", what = "the Unangan sealers' terms, paid by the skin, carried in every lease" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "The seal islands are leased at a price per skin and put out to tender again every ten years from 1880, and every lease carries the terms of the Unangan of St Paul and St George, who are paid by the skin and hold their islands by their own compact."
+open = "First lease year not stated (1868 in CR-070). Lessees and prices not stated."
+
+[[commitment]]
+id = "C-1868-PRIBILOF-COMPACT"
+name = "The Pribilof islands' compact with the Unangan"
+kind = "compact"
+parties = ["PAC", "UNANGAN"]
+from = 1868
+from_approx = true
+owes = [
+  { by = "PAC", to = "UNANGAN", what = "their islands held by their own compact; their terms carried in every seal lease" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "who are paid by the skin and hold their islands by their own compact."
+open = "Year and further terms not stated."
+
+[[commitment]]
+id = "C-1872-AUK-FINDER"
+name = "The Auk finder's compact (Gastineau Channel)"
+kind = "compact"
+parties = ["PAC", "AUK"]
+from = 1872
+owes = [
+  { by = "PAC", to = "AUK", what = "a finder's share in the gold belt, agreed before the source is shown and paid by the mine" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "In 1872 the Auk leader Kowee brings ore from Gastineau Channel to the assay office at Sitka and will not show its source until the Commission has agreed his people's share."
+open = "The share is not stated."
+
+[[commitment]]
+id = "C-1880-CHILKOOT"
+name = "Chilkoot compact"
+kind = "compact"
+parties = ["PAC", "CHILKOOT"]
+from = 1880
+owes = [
+  { by = "PAC", to = "CHILKOOT", what = "their packers carry; their trade goes on" },
+  { by = "CHILKOOT", to = "PAC", what = "prospectors cross their pass for a toll" },
+  { by = "CHILKOOT", to = "PAC", what = "from 1884, with the Commission, a wagon road to Sheep Camp and an aerial tramway over the summit" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 25
+quote = "In 1880 the Chilkoot of Dyea make a compact with the Northern Commission: their packers carry, their trade goes on, and prospectors cross their pass for a toll."
+more_quotes = [
+  "From 1884, for the Yukon bar miners, the Chilkoot and the Commission build a wagon road to Sheep Camp and an aerial tramway over the summit, and the Fortymile strike of 1886 pays for it.",
+]
+open = "The toll is not stated. The Chilkat of Klukwan refuse a compact and their pass stays closed."
+
+[[commitment]]
+id = "C-1885-AHTNA-FINDER"
+name = "The Ahtna finder's compact (Chitina copper)"
+kind = "compact"
+parties = ["PAC", "AHTNA"]
+from = 1885
+owes = [
+  { by = "PAC", to = "AHTNA", what = "a finder's share in the copper of the Chitina" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 25
+quote = "In 1885 the Ahtna leader Nicolai shows the Commission's party the copper of the Chitina and makes a finder's compact for it, so that he never has to trade its whereabouts for food, and the mine opened under it ships its ore from about 1900."
+open = "The share and the mine's lease are not stated."
+
+[[commitment]]
+id = "C-1897-WHITE-PASS"
+name = "White Pass railway compact with the Chilkoot"
+kind = "compact"
+parties = ["WHITEPASS", "CHILKOOT"]
+from = 1897
+owes = [
+  { by = "WHITEPASS", to = "CHILKOOT", what = "a share of the railway's freight for the packing it will end" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 25
+quote = "the railway over the White Pass from Skagway is building before the stampede of 1897, on a compact with the Chilkoot, whose ground the pass is, that gives them a share of its freight for the packing it will end."
+open = "The builders and the share are not stated."
+
+[[commitment]]
+id = "C-1868-BC-TELEGRAPH"
+name = "The Confederation's line through British Columbia"
+kind = "concession"
+parties = ["PAC", "BCCO", "CA"]
+from = 1868
+from_approx = true
+ended = 1897
+ended_by = "sold to Canada in the spring of 1897 (C-1897-BC-LINE-SALE)"
+owes = [
+  { by = "BCCO", to = "PAC", what = "Western Union's line in British Columbia, held for the Confederation by a company of the colony" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 14
+quote = "The Confederation buys the company's line in British Columbia through a company of the colony, and its engineers build north from Fort Stager to the Stikine and down the river to Wrangell, and a cable through the straits puts Sitka on the wire in 1870."
+more_quotes = [
+  "For eighteen years Alaska's wire crosses British, then Canadian, soil;",
+  "for a month in 1885 the Dominion's offices refuse Pacifica's cipher, and Sitka is reached only by steamer.",
+]
+open = "Year of purchase not stated (1868 in CR-070). The franchise's terms (CR-070: Collins's grant; free government messages and the Cariboo service owed to the colony and the Dominion) are not in the storyline."
+
+[[commitment]]
+id = "C-1897-BC-LINE-SALE"
+name = "Sale of the British Columbia line to Canada"
+kind = "settlement"
+parties = ["PAC", "CA"]
+from = 1897
+owes = [
+  { by = "PAC", to = "CA", what = "the old line through British Columbia, as the first half of Canada's own wire to the Yukon" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 25
+quote = "in the spring of 1897, when the strike is public, it sells Canada the old line through British Columbia as the first half of Canada's own wire to the Yukon."
+open = "Price and the through-traffic rights to Alaska (CR-070) are not stated."
+
+[[commitment]]
+id = "C-1903-KURIL-CABLE"
+name = "Cable landings by the Kurils at Hakodate"
+kind = "concession"
+parties = ["JP", "PAC"]
+from = 1903
+owes = [
+  { by = "JP", to = "PAC", what = "landing of the Sitka cable by Attu and the Kurils at Hakodate, on Japanese soil" },
+]
+status = "APPROVED"
+cr = "CR-070"
+section = 25
+quote = "Between 1900 and 1903 Pacifica carries the Sitka cable on, to Kodiak and Unalaska in 1900 and by Attu and the Kurils to Hakodate in 1903: the second route to Japan is open, landing only on Pacifican and Japanese soil."
+open = "The grants are not described; CR-070 calls them Japanese grants. Kiyoshi keeps the cable from being cut in 1904."

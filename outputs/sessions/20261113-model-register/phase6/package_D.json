@@ -1,0 +1,22 @@
+{
+ "cw_scrip_face": 3.2,
+ "cw_rc_or": 0.45,
+ "cw_washoe": 0.15,
+ "cw_rc_sw": 0.3,
+ "cw_rc_gb": 0.05,
+ "cw_ann_nw": 0.45,
+ "cw_ann_gb": 0.2,
+ "cw_ann_sw": 0.3,
+ "cw_refugees": 20000,
+ "cw_inst_opt": 2,
+ "cw_priv1867": 3.0,
+ "cw_rich_early": 1.8771,
+ "cw_rich_late": 5.6314,
+ "cw_hon_batt": 4.6484,
+ "cw_hon_turret": 3.204,
+ "cw_occ6567": 6.1094,
+ "cw_sitka_gar": 0.4733,
+ "cw_sitka_mail": 0.4733,
+ "cw_juarez": 10.8906,
+ "cw_or_works": 7.5039
+}
