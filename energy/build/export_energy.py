@@ -63,7 +63,15 @@ SERIES = [
     ("alu_civil", "Uses", "… civil uses at home", None),
     ("alu_export", "Uses", "… exported beyond the Concord", None),
 ] + [(k, "Paths", None, k) for k in ("alu_kt", "alu_hilo", "eln_kt", "haber_kt", "esteel", "zinc_kt", "mg_kt",
-                                      "phos_kt", "cu_kt", "hyd_bbl", "rubber_kt", "pig_kt", "tie_mw")]
+                                      "phos_kt", "cu_kt", "hyd_bbl", "rubber_kt", "pig_kt", "tie_mw")] + [
+    # The financial workbook's dynamic layer (finance/build/cr056_dynamics.py)
+    ("fact_elec", "Uses", "Factory horsepower electric", None),
+    ("homes_wired", "Uses", "Homes with electricity (thousand)", None),
+    ("homes", "People & output", "Homes (thousand)", None),
+    ("fact_gwh", "Uses", "Industry, motors (and process heat if heat_el = 1)", None),
+    ("veh_pp", "Uses", "Vehicles per person", None),
+    ("us_kwh_pp", "Electricity", "US electricity per person, all producers (kWh)", None),
+] + [(k, "Paths", None, k) for k in ("pump_acres", "el_price", "kwh_home")]
 
 
 def sha256(p: Path) -> str:

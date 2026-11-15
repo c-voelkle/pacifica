@@ -1,5 +1,7 @@
 # Workbook revision, 14 November 2026: the Civil War CRs (CR-059 to CR-065, CR-067, CR-068), Alaska (CR-070) and the members' land (L15)
 
+**Superseded as the current workbook on 15 November 2026 (evening):** CR-056 and CR-057 are now built on top of this package; see [CR-057-on-main-workbook.md](CR-057-on-main-workbook.md).
+
 SHA-256 of the current workbook: `a061a7ba809a1f405260bf6a1ec88982f188f9016611371db2409d80080c864c` (rebuilt on 15 November 2026 for the Legion's pay after the peace; see the fifth addendum at the end, the fourth for Columbia's charter, the third for the Sacramento line, the story assumptions and the Legion, and the second for the phase 9 review's six. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`; the first addendum's are those of `9ac9d556…`).
 
 **What it is.** The CR-051/054/055 workbook (SHA-256 `cba70b31…`) with the Civil War CRs' model items, built in two steps by the model plan of 13–14 November 2026 (session `outputs/sessions/20261113-model-register/`). All amounts are MODEL. The new events carry the status "Proposed" until their CRs are integrated, and a workbook label cannot approve a narrative proposal.
