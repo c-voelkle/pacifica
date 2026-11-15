@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 57 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 68 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1075,6 +1075,105 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 **Still open:**
 - The mother's and the Colonel's names; the Bible's rescue (Missouri exemption law, to verify); deliberately unresolved: the Colonel's service and rank, his conduct in January 1847, who set the fire of 1837.
 - Part E integration with CR-061; CR-066 open decisions 9, 10 and 12 (Taos 1862, who presses for the trials, Maxwell); open decision 11 (Carson's death) decided by the author on 9 November 2026: at Taos in May 1868.
+
+### CR-059 — Oregon and the Northwest: the admission that fails, the interior gate, the compact and the choice (1848–1867)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Oregon and the Northwest: the House's rejection of 1859, the Enabling Act of 1861, the occupation and civil compacts, the Walla Walla convention and the interior gate, the Oregon article and the vote of October 1866, the exclusion bargain limited to non-citizens, the Native article; Washington Territory accedes as Columbia (Part IX).
+
+**Still open:**
+- The items still marked OPEN in CR-059.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-060 — The interior: Deseret, Washoe, Idaho, Montana and the divide, 1861–1867
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The interior: Deseret's articles (December 1862), the Compact of 24 July 1863 and accession in 1867; Bear River as a limited action; Washoe retaken in 1864 with no State of Nevada; Idaho and western Montana; the Legion paid only for Bannack (1864, on Young's decision, paid after the peace); the Colorado line; the Owyhee prosecution.
+
+**Still open:**
+- The items still marked OPEN in CR-060.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-061 — The Southwest: the Rio Grande, Santa Fe and Fort Union (1862–1867)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The Southwest: the Rio Grande column of 1862, Fort Craig and Fort Garland, the Navajo homeland and the Apache peace, the end of peonage, the Texas line closed to fugitives from 1863 and no one returned, New Mexico's accession in 1867.
+
+**Still open:**
+- The items still marked OPEN in CR-061.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-062 — The peace, Alaska and the Senate, 1864–1867
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The peace: the armistices of 1865, the Western treaty of December 1865 and its ratification in 1867, the $40m in six instalments, the Senate's refusal of the Treasury loan and the private lending, Alaska and the handover at Sitka, the residents' and nations' articles.
+
+**Still open:**
+- The items still marked OPEN in CR-062.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-063 — The Gulf without New Orleans, 1862–1865
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The Gulf without New Orleans: the Confederacy keeps Louisiana and its ports; Vicksburg's army marches out on 17-18 May 1863; the Matamoros credit; no Fort Fisher; the February 1865 expedition.
+
+**Still open:**
+- The items still marked OPEN in CR-063.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-064 — The Union's war without Sherman, 1862–1864
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The Union's war without Sherman: Shiloh, the western command and the campaigns of 1862-64, Thomas against Polk's flank in 1864.
+
+**Still open:**
+- The items still marked OPEN in CR-064.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-065 — The election of 1864 and the lame-duck winter
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The election of 1864 and the lame-duck winter: McClellan's victory, Pacifica's silence before the vote, the Gold Room's fall on the result.
+
+**Still open:**
+- The items still marked OPEN in CR-065.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-067 — Pacifica's command structure: the army and the navy, 1855–1867
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Pacifica's command structure, 1855-1867: political control, the army and its departments, the navy and its board.
+
+**Still open:**
+- The items still marked OPEN in CR-067.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-068 — The agon: Elias Thorne and Abraham Lincoln, and how the Chronicler writes Lincoln (1838–1867, with its sequels to 1889)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The agon of Elias Thorne and Abraham Lincoln, 1838-1867, and how the Chronicler writes Lincoln; Lincoln dies at Springfield in November 1872.
+
+**Still open:**
+- The items still marked OPEN in CR-068.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-069 — The coast's gold in the war: the Gold Room, the Union's banks and the Steamer Day Agreement (1861–1867)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The coast's gold in the war: the steamers stop in July 1861, the banks' terms and the run on the Sub-Treasury, the choice of paper, Ralston's run, the Steamer Day Agreement of 1 March 1862, the coin bonds, the Bank of California of 4 July 1864, the agency of 1867.
+
+**Still open:**
+- The items still marked OPEN in CR-069.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-070 — Alaska pays early: the Northern Commission, the finder's compacts, the seals and the northern wire (1867–1904)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Alaska pays early: the Northern Commission chartered by bill under de la Guerra and Davidson, the finder's compacts and Kowee, the settler garrison, the seals, salmon and sea otter, the Alaska line and the cables to 1903, the Chilkoot compact and the Yukon road, the Chitina's copper.
+
+**Still open:**
+- The items still marked OPEN in CR-070.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
 
 ### Author-approved editorial safeguards
 

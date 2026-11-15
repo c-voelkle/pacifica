@@ -3907,6 +3907,642 @@
         }
       ],
       "integrated_on": "2026-11-08"
+    },
+    {
+      "id": "CR-059",
+      "title": "Oregon and the Northwest: the admission that fails, the interior gate, the compact and the choice (1848–1867)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-059.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "Oregon and the Northwest: the House's rejection of 1859, the Enabling Act of 1861, the occupation and civil compacts, the Walla Walla convention and the interior gate, the Oregon article and the vote of October 1866, the exclusion bargain limited to non-citizens, the Native article; Washington Territory accedes as Columbia (Part IX)."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-059.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "oregon-admission-rejected",
+            "year": 1859,
+            "patterns": [
+              "February (?P<year>1[89]\\d\\d),? the House rejects Oregon's admission"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "oregon-enabling-act",
+            "year": 1861,
+            "patterns": [
+              "Oregon Enabling Act of (?:\\d{1,2} [A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "walla-walla-convention",
+            "year": 1862,
+            "patterns": [
+              "Walla Walla convention of (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "idaho-charter",
+            "year": 1866,
+            "patterns": [
+              "(?P<year>1[89]\\d\\d),? Idaho's voters approve"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "oregon-accession-vote",
+            "year": 1866,
+            "patterns": [
+              "(?P<year>1[89]\\d\\d),? Oregon chooses Pacifica"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "columbia-convention",
+            "year": 1866,
+            "patterns": [
+              "in the autumn of \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} its elected convention meets at Olympia"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Oregon (?:is|was) admitted (?:to|into|as)|(?:Congress|Washington|the Union) admits Oregon",
+            "message": "CR-059: Oregon is never admitted to the Union; the House rejects admission in 1859 and Oregon accedes to Pacifica in 1866",
+            "kind": "fact"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-060",
+      "title": "The interior: Deseret, Washoe, Idaho, Montana and the divide, 1861–1867",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-060.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The interior: Deseret's articles (December 1862), the Compact of 24 July 1863 and accession in 1867; Bear River as a limited action; Washoe retaken in 1864 with no State of Nevada; Idaho and western Montana; the Legion paid only for Bannack (1864, on Young's decision, paid after the peace); the Colorado line; the Owyhee prosecution."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-060.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "lee-hanged",
+            "year": 1863,
+            "patterns": [
+              "surrenders John D\\. Lee in (?P<year>1[89]\\d\\d)",
+              "John D\\. Lee is (?:tried and )?hanged in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "fort-garland-taken",
+            "year": 1863,
+            "patterns": [
+              "Fort Garland (?:falls|is taken) (?:to the Rio Grande garrison )?in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "colorado-mountain-front-survey",
+            "year": 1882,
+            "patterns": [
+              "survey of 1880[–-](?P<year>1[89]\\d\\d) fixes the line"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "owyhee-hangings",
+            "year": 1866,
+            "patterns": [
+              "in (?P<year>1[89]\\d\\d) it hangs the men who led it",
+              "Owyhee hangings of (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "salt-lake-road-garrison",
+            "year": 1862,
+            "patterns": [
+              "In (?:October )?(?P<year>1[89]\\d\\d),? Pacifican troops reach the Salt Lake road"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "nevada-first-constitution-rejected",
+            "year": 1864,
+            "patterns": [
+              "(?:voters|Washoe) reject(?:s|ed)? (?:the |its )?(?:first )?constitution[^.;]{0,40} in January (?P<year>1[89]\\d\\d)",
+              "In January (?P<year>1[89]\\d\\d),? Washoe's voters reject"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "washoe-retaken-spring",
+            "year": 1864,
+            "patterns": [
+              "Pacifica retakes it in the spring of (?P<year>1[89]\\d\\d)",
+              "spring of (?P<year>1[89]\\d\\d),? Pacifica retakes Washoe",
+              "Pacifica retakes Washoe in (?:the )?spring (?:of )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "deseret-working-articles",
+            "year": 1862,
+            "patterns": [
+              "In December (?P<year>1[89]\\d\\d), while Elias is at Santa Fe, his commissioners"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "deseret-compact-of-association",
+            "year": 1863,
+            "patterns": [
+              "Compact of Association (?:of |in )?(?:24 )?(?:July )?(?P<year>1[89]\\d\\d)",
+              "by the Humboldt road in July (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "deseret-accession",
+            "year": 1867,
+            "patterns": [
+              "Deseret (?:becomes a member state|accedes)[^.;]{0,60}in (?:late )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:Washington|the Union|Congress|Lincoln) (?:still )?admits Nevada|Nevada (?:is|was) admitted (?:to|into|as)",
+            "message": "CR-060 C3–C10: Nevada is never a state of the Union; its first constitution fails in January 1864, Pacifica retakes Washoe in spring 1864 and the Enabling Act is a dead letter",
+            "kind": "fact"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-061",
+      "title": "The Southwest: the Rio Grande, Santa Fe and Fort Union (1862–1867)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-061.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The Southwest: the Rio Grande column of 1862, Fort Craig and Fort Garland, the Navajo homeland and the Apache peace, the end of peonage, the Texas line closed to fugitives from 1863 and no one returned, New Mexico's accession in 1867."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-061.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "mesilla-clash",
+            "year": 1862,
+            "patterns": [
+              "clash at Mesilla in (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "santa-fe-pacifican",
+            "year": 1862,
+            "patterns": [
+              "enters Santa Fe in (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "second-valverde",
+            "year": 1862,
+            "patterns": [
+              "second Valverde, in (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "fort-craig-evacuated",
+            "year": 1863,
+            "patterns": [
+              "Fort Craig's garrison marches out in (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "rio-grande-compact",
+            "year": 1863,
+            "patterns": [
+              "Rio Grande compact of (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "navajo-homeland-treaty",
+            "year": 1865,
+            "patterns": [
+              "Navajo homeland treaty of (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "fort-union-evacuated",
+            "year": 1867,
+            "patterns": [
+              "Fort Union is evacuated in (?:[A-Z][a-z]+ )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:Pacifica|Pacificans?|the column|Caleb)[^.]{0,40}(?:storms|besieges|captures|starves out) Fort Union",
+            "message": "CR-061: Fort Union is watched, never besieged or taken; its garrison marches out under the treaty in 1867",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "establishes control of Arizona and New Mexico in 18[6]2",
+            "message": "CR-061: in 1862 Pacifica holds the Rio Grande to Santa Fe; Fort Union stays Union until the 1867 exchange",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Baylor['’]s Texans",
+            "message": "CR-061: Baylor was removed by Davis in 1862; the Texans at Mesilla are Sibley's rear guard",
+            "kind": "fact"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-062",
+      "title": "The peace, Alaska and the Senate, 1864–1867",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-062.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The peace: the armistices of 1865, the Western treaty of December 1865 and its ratification in 1867, the $40m in six instalments, the Senate's refusal of the Treasury loan and the private lending, Alaska and the handover at Sitka, the residents' and nations' articles."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-062.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "western-treaty-signed",
+            "year": 1865,
+            "patterns": [
+              "Western treaty is signed (?:at [A-Z][a-z]+ )?in (?:late |December )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "alaska-sale-decided",
+            "year": 1866,
+            "patterns": [
+              "On 16 December (?P<year>1[89]\\d\\d)[^.;]{0,60}decides to sell to Pacifica"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "alaska-sitka-handover",
+            "year": 1867,
+            "patterns": [
+              "flag changes at Sitka in (?:October )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:the Union|the United States|Washington|Seward) (?:buys|purchases|acquires) (?:Alaska|Russian America)",
+            "message": "CR-062: Russia sells Alaska to Pacifica in 1867; the Union cannot bid (CR-015 A8)",
+            "kind": "fact"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-063",
+      "title": "The Gulf without New Orleans, 1862–1865",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-063.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The Gulf without New Orleans: the Confederacy keeps Louisiana and its ports; Vicksburg's army marches out on 17-18 May 1863; the Matamoros credit; no Fort Fisher; the February 1865 expedition."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-063.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_forbidden": {
+            "pattern": "(?:Union|Federal|Butler|Farragut)[^.;]{0,40}(?:occupies|occupied|takes|took|captures|captured) Baton Rouge",
+            "message": "CR-063: Baton Rouge stays Confederate; with New Orleans held, the Union never reaches the river below Port Hudson in 1861-65",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Banks[^.;]{0,60}(?:besieges|besieged|takes|took|captures|captured) Port Hudson",
+            "message": "CR-063: no Department of the Gulf field army; Port Hudson is never besieged from the south",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:takes|took|captures|captured|storms|stormed) Fort Fisher|Fort Fisher (?:falls|fell|is taken|was taken|surrenders|surrendered)",
+            "message": "CR-063 (option M-a): no Fort Fisher expedition; Wilmington stays open to the armistice",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:repulsed|turned back|defeated) at Sabine Pass|Sabine Pass[^.;]{0,40}(?:repulse|landing)",
+            "message": "CR-063: no Union landing at Sabine Pass; the expedition sailed from New Orleans with the XIX Corps, which does not exist in the Gulf",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:Union|Federal|Banks|Dana)[^.;]{0,60}(?:occupies|occupied|takes|took|captures|captured) Brownsville",
+            "message": "CR-063: no Union Rio Grande expedition; Brownsville is never Union before 1870",
+            "kind": "fact"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-064",
+      "title": "The Union's war without Sherman, 1862–1864",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-064.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The Union's war without Sherman: Shiloh, the western command and the campaigns of 1862-64, Thomas against Polk's flank in 1864."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-064.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": []
+    },
+    {
+      "id": "CR-065",
+      "title": "The election of 1864 and the lame-duck winter",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-065.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The election of 1864 and the lame-duck winter: McClellan's victory, Pacifica's silence before the vote, the Gold Room's fall on the result."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-065.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": []
+    },
+    {
+      "id": "CR-067",
+      "title": "Pacifica's command structure: the army and the navy, 1855–1867",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-067.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "Pacifica's command structure, 1855-1867: political control, the army and its departments, the navy and its board."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-067.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": []
+    },
+    {
+      "id": "CR-068",
+      "title": "The agon: Elias Thorne and Abraham Lincoln, and how the Chronicler writes Lincoln (1838–1867, with its sequels to 1889)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-068.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The agon of Elias Thorne and Abraham Lincoln, 1838-1867, and how the Chronicler writes Lincoln; Lincoln dies at Springfield in November 1872."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-068.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_person": {
+            "id": "CT-ABRAHAM-LINCOLN",
+            "aliases": [
+              "Abraham Lincoln"
+            ],
+            "born": 1809,
+            "died": 1872
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-069",
+      "title": "The coast's gold in the war: the Gold Room, the Union's banks and the Steamer Day Agreement (1861–1867)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-069.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "The coast's gold in the war: the steamers stop in July 1861, the banks' terms and the run on the Sub-Treasury, the choice of paper, Ralston's run, the Steamer Day Agreement of 1 March 1862, the coin bonds, the Bank of California of 4 July 1864, the agency of 1867."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-069.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "bank-of-california-founded",
+            "year": 1864,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} Ralston and his partner.{0,300}?open the Bank of California",
+              "Bank of California[^.;]{0,30}(?:opens|is founded|founded) (?:on 4 July )?in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-070",
+      "title": "Alaska pays early: the Northern Commission, the finder's compacts, the seals and the northern wire (1867–1904)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-15",
+      "decision_record": "CR-070.md",
+      "authorization": "Author, 15 November 2026: \"I approve the crs\" (the set CR-059 to CR-065 and CR-067 to CR-070, after the integration candidate and its fresh-context review), following the author's decisions recorded in each decision record (7-15 November 2026) and the decision sheet of 12 November 2026.",
+      "requirements": [
+        "Alaska pays early: the Northern Commission chartered by bill under de la Guerra and Davidson, the finder's compacts and Kowee, the settler garrison, the seals, salmon and sea otter, the Alaska line and the cables to 1903, the Chilkoot compact and the Yukon road, the Chitina's copper."
+      ],
+      "open": [
+        "The items still marked OPEN in CR-070.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md)."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "juneau-gold-belt-found",
+            "year": 1872,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} the Auk leader Kowee brings ore"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "sitka-garrison-taper",
+            "year": 1873,
+            "patterns": [
+              "From \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} its garrison falls to two-fifths"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "pribilof-regime-proposed",
+            "year": 1884,
+            "patterns": [
+              "in \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2}, when the sealing schooners first reach the Bering Sea"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "sitka-on-the-wire",
+            "year": 1870,
+            "patterns": [
+              "a cable through the straits puts Sitka on the wire in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "sitka-sea-cable",
+            "year": 1888,
+            "patterns": [
+              "run under the sea from Puget Sound since \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "bc-telegraph-sold-to-canada",
+            "year": 1897,
+            "patterns": [
+              "in the spring of \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2}, when the strike is public, it sells Canada"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "seal-convention-signed",
+            "year": 1886,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} Pacifica, Britain for Canada, Russia and Japan sign"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "chilkoot-compact",
+            "year": 1880,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} the Chilkoot of Dyea make a compact"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "kodiak-compact",
+            "year": 1868,
+            "patterns": [
+              "By the Kodiak compact of \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "davidson-northern-commissioner",
+            "year": 1873,
+            "patterns": [
+              "George Davidson, the coast surveyor, succeeds him in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "sitka-compact-concluded",
+            "year": 1869,
+            "patterns": [
+              "opened with the Tlingit at Sitka in the autumn of 1867 and concluded in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "aleutian-cable-hakodate",
+            "year": 1903,
+            "patterns": [
+              "by Attu and the Kurils to Hakodate in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "kiyoshi-saves-northern-cable",
+            "year": 1904,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} one of the cruisers comes for the cable"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "sitka-test",
+            "year": 1869,
+            "patterns": [
+              "Its first test comes in \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2}, when a sentry kills"
+            ]
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [

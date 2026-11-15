@@ -1,6 +1,6 @@
 # Workbook revision, 14 November 2026: the Civil War CRs (CR-059 to CR-065, CR-067, CR-068), Alaska (CR-070) and the members' land (L15)
 
-SHA-256 of the current workbook: `455cf2b7b8e2bbd62772bf63f3913176f41224ecf96158be17a2b82ac23f36ec` (rebuilt on 15 November 2026 for Columbia's charter; see the fourth addendum at the end, the third for the Sacramento line, the story assumptions and the Legion, and the second for the phase 9 review's six. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`; the first addendum's are those of `9ac9d556…`).
+SHA-256 of the current workbook: `a061a7ba809a1f405260bf6a1ec88982f188f9016611371db2409d80080c864c` (rebuilt on 15 November 2026 for the Legion's pay after the peace; see the fifth addendum at the end, the fourth for Columbia's charter, the third for the Sacramento line, the story assumptions and the Legion, and the second for the phase 9 review's six. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`; the first addendum's are those of `9ac9d556…`).
 
 **What it is.** The CR-051/054/055 workbook (SHA-256 `cba70b31…`) with the Civil War CRs' model items, built in two steps by the model plan of 13–14 November 2026 (session `outputs/sessions/20261113-model-register/`). All amounts are MODEL. The new events carry the status "Proposed" until their CRs are integrated, and a workbook label cannot approve a narrative proposal.
 
@@ -198,4 +198,18 @@ Washington Territory accedes as the member Columbia (CR-059 Part IX). SHA-256 `4
 | Story: real GDP in 1932, 1913 $m | 45,264 | 45,256 |
 
 Paths C was not re-iterated: the change is a few million dollars over sixty-five years; the population model and the sheet agree within about 800 residents at the start of 1932. The population outputs were regenerated and the tests pass.
+
+## Fifth addendum, 15 November 2026: the Legion paid after the peace (author, on review B1: "Young acts; paid after")
+
+The fresh-context review of the candidate storyline found that the Legion's deployment, as first written, had Elias order it and pay for it in 1864, against canon's "Elias orders no operation" and "sends no money … before the vote". The author chose that Young sends Lot Smith's cavalry to Bannack on Deseret's own decision and that Pacifica pays the Legion only in 1865, once the peace keeps western Montana. E216 moves from 1864 to 1865 at the same $0.1m (`cw_legion_on` × `cw_legion_pay`; CR-060 D7, M11). SHA-256 `a061a7ba809a1f405260bf6a1ec88982f188f9016611371db2409d80080c864c`; 63,798 formulas, no errors, saved in the Story case. All amounts MODEL.
+
+| | Fourth addendum | Fifth addendum |
+|---|---|---|
+| Story: failed checks | 0 | 0 |
+| Stress: failed checks (ceiling 17) | 15 | 15 (1887, 1914–24, 1927), the same years |
+| Stress, garrisons 25% dearer | 15 | 15, the same years; 1863 margin +$0.016m |
+| Stress, 1932: gold above the cover requirement | +$10.1m | about +$10.1m |
+| Story: residents at the end of 1932 | 38.68m | 38.68m |
+
+The cost moves a year later; no new Stress failure appears up to 1900, and the 1865 Stress margin stays positive (+$2.7m). Paths C was not re-iterated. The population outputs were regenerated in the adoption branch and the tests pass.
 

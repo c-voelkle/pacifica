@@ -38,7 +38,7 @@ canon already fix, or zero where no figure exists. Phase 6 sets the packages.
   L12    Refugees, deserters and draft evaders added to Paths E in 1863-65, 0.
   L13    E14 becomes private lending ($3m, D8): new category "Private lending", counted in
          gold paid out (Gold & money E) and in private uses (Sources & uses K), not in public cash.
-  L16    The Nauvoo Legion paid only for the Bannack deployment of 1864 (E216; author, 15 Nov).
+  L16    The Nauvoo Legion paid in 1865 only for the Bannack deployment of 1864 (E216; author, 15 Nov).
 Not done here: L15 (the Land Fund's intake of the ceded public domain), approved for a later step.
 """
 from __future__ import annotations
@@ -197,7 +197,7 @@ LEVERS = [
      "switch", "Author (15 Nov): paid only for a decisive deployment",
      "CR-060 D7, CT7: Pacifica pays the Legion only where its deployment, at a decisive moment, wins something Pacifica "
      "would not otherwise have had. The deployment is CR-060 M11 (PROPOSED): Lot Smith's cavalry at Bannack, summer 1864."),
-    ("cw_legion_pay", "L16: the Legion's pay for the Bannack deployment, 1864", 0.1, 0.1, "$m", "Model estimate",
+    ("cw_legion_pay", "L16: the Legion's pay for the Bannack deployment of 1864, paid in 1865", 0.1, 0.1, "$m", "Model estimate",
      "About 300 mounted men for a season, in gold, with horses and forage (MODEL). Road duty is the Compact's common "
      "defence and is not paid."),
     ("cw_ak_cable88", "CR-070 E4: the Puget Sound-Sitka sea cable, total cost 1887-88", 0, 0, "$m", "Lever (start 0)",
@@ -278,8 +278,8 @@ NEW_EVENTS = [
      "No", "Proposed", "CR-061 M1", "L09; rifles delivered at Paso del Norte."),
     ("E215", 1868, 1875, "Oregon works and the railway north (Development Fund credit)", "Investment", None, None,
      "=cw_or_works", "No", "Proposed", "CR-059 V9", "L10 (D9)."),
-    ("E216", 1864, 1864, "The Nauvoo Legion's cavalry at Bannack (paid for the deployment)", "War & operations", None,
-     "Deseret", "=cw_legion_on*cw_legion_pay", "No", "Proposed", "CR-060 D7, M11", "L16 (author, 15 Nov)."),
+    ("E216", 1865, 1865, "The Nauvoo Legion's cavalry at Bannack in 1864, paid after the peace", "War & operations", None,
+     "Deseret", "=cw_legion_on*cw_legion_pay", "No", "Proposed", "CR-060 D7, M11", "L16 (author, 15 Nov): Young's own decision in 1864; paid in 1865."),
     ("E217", 1868, 1879, "Seal islands lease and Alaska customs", "Receipt", None, "Alaska Commercial Company",
      "=cw_alaska_rcpt", "No", "Proposed", "CR-062", "L04; Sitka pays for itself (author, 14 Nov)."),
     ("E218", 1873, 1900, "Sitka garrison and squadron (1873-1900, tapered)", "War & operations", None, None,
