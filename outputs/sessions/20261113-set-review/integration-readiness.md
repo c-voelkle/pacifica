@@ -54,8 +54,8 @@ Then, as `AGENTS.md` requires: `sync_master_storyline.py --write` and `--check`;
 
 1. **Approval of each CR for adoption.** Every draft's status line still reads "DRAFT… not approved". `cr_facts.py apply` refuses an unapproved CR, and the labels **[APPROVED — CR-061]** and **[APPROVED — CR-068]** in the candidate become true only then.
 2. **The gap-fillers still marked PROPOSED (drafter).** They can be adopted with their PROPOSED labels, as earlier CRs were ("local labels retained"), or confirmed first: who signs the Oregon protocol; how Lincoln knows the maxim of 1848; McClellan's own reason for ceding the West; the Radicals' constitutional charge; Young signing despite Lincoln's assurance; Marcus's evidence and Victoria's seat in the Council of 1865; the XIII Corps after October 1863; the Maine pair's motive; the Black Hawk agreement's terms.
-3. **Two things to re-read in CR-068** after the writ was withdrawn: the heavy beats (now three) with TL7's winners, and Sherman's part after 1865.
-4. **Deferred by the author and still deferred:** the Legion's pay (CR-060 CT7); CR-059 open decision 17. (The private lending of 1867 was decided on 14 November 2026: $3m, private money; CR-062 M3.)
+3. ~~Two things to re-read in CR-068~~ **Done (author, 15 November 2026):** "CR-068 is ok." Sherman's fate after 1865 stays OPEN.
+4. **Deferred by the author and still deferred:** CR-059 open decision 17. (The Legion's pay was decided on 15 November 2026: only for a decisive deployment, Bannack in 1864, CR-060 D7 and M11; the Sacramento line starts in 1865; Oregon's customs share and the members' land value are story assumptions.) (The private lending of 1867 was decided on 14 November 2026: $3m, private money; CR-062 M3.)
 
 ## The models at integration (model plan phase 10, 15 November 2026)
 
