@@ -109,7 +109,7 @@ LEVERS = [
      "the islands in 1868 (author, 14 Nov: Sitka pays for itself early)."),
     ("cw_seal_1880s", "L04: Pribilof receipts per year 1880-89 (tendered lease, herd saved)", 0, 0, "$m/yr",
      "Lever (start 0)", "E219. Alaskamaxx E (author, 14 Nov). MODEL 0.5: re-tendered per skin on 100,000 skins, net of "
-     "Canada's 15% once the conservation regime is signed (mid-1880s here; CR-058)."),
+     "Canada's 15% from the convention of 1886 (CR-070 D2): 1880-85 at this value / 0.85 (E219), 1886-89 at it (E239)."),
     ("cw_seal_1890s", "L04: Pribilof receipts per year 1890-1900", 0, 0, "$m/yr", "Lever (start 0)",
      "E220. MODEL 0.85: the 1890 bid ($60,000 rent and $9.625 a skin, Hist.) on a herd still giving 100,000 skins, "
      "less Canada's 15%."),
@@ -127,7 +127,7 @@ LEVERS = [
     ("cw_ak_telegraph", "L04: the Alaska line through British Columbia (1 = built)", 0, 0, "switch", "Lever (off)",
      "CR-070 E2-E3, E7 (author, 15 Nov: the Bering telegraph is a road not taken). E226: Western Union's British "
      "Columbia line bought, the gap built to the Stikine and the Wrangell-Sitka cable, $0.4m/yr 1868-70; E227: an "
-     "operating loss of $0.05m/yr 1871-97; E237-E238: the Sitka-Juneau cable ($0.15m/yr 1872-73) and the Lynn Canal "
+     "operating loss of $0.05m/yr 1871-97; E232-E233: the Sitka-Juneau cable ($0.15m/yr 1872-73) and the Lynn Canal "
      "line ($0.2m, 1884). MODEL."),
     ("cw_ak_commission", "L04: Northern Commission and survey, $m/yr 1867-1932", 0, 0, "$m/yr", "Lever (start 0)",
      "E228. Alaskamaxx A-B, MODEL 0.15: the assay office, claims courts, land office and survey. CR-070 G2: the "
@@ -137,7 +137,7 @@ LEVERS = [
      "(CR-070 F3, after the news); the public share of route, assay and bank income $0.3m/yr 1897-1910. MODEL."),
     ("cw_l15_on", "L15: the new members' public land in the Land Fund from 1867 (1 = on)", 1, 1, "switch",
      "Approved (author, 13 Nov: Q7)", "Sheet Members' land; its net to the Treasury goes into Budget G beside the Land "
-     "Fund's. Sold on the Land Fund's instalments, default and survey cost, at its floor price. The nations are paid "
+     "Fund's. Sold on the Land Fund's instalments, default and survey cost, at the Land Fund's price (cw_l15_value_rel). The nations are paid "
      "by the regional annuities (L08), so no purchase cost is counted here."),
     ("cw_l15_mt_share", "L15: western Montana's share of Montana's farm land", 0.25, 0.25, "share", "Model estimate",
      "The 1867 population was nearly all west of the line; the later ranch land was mostly on the plains (MODEL)."),
@@ -190,12 +190,12 @@ LEVERS = [
     ("cw_legion_pay", "L16: the Legion's road-duty pay, per year 1863-67", 0.15, 0.15, "$m/yr", "Model estimate",
      "About 500 men at $300 a year."),
     ("cw_ak_cable88", "CR-070 E4: the Puget Sound-Sitka sea cable, total cost 1887-88", 0, 0, "$m", "Lever (start 0)",
-     "E239, half in each year. MODEL 1.5 (the Army's 1903 appropriation for Sitka-Seattle and Juneau-Sitka was "
+     "E234, half in each year. MODEL 1.5 (the Army's 1903 appropriation for Sitka-Seattle and Juneau-Sitka was "
      "$485,000 with cheap rubber cable, Hist.; conservative). Ordered by Elias's cabinet in 1886 after Port Hamilton."),
     ("cw_ak_bc_sale", "CR-070 E5: the British Columbia line sold to Canada, 1897", 0, 0, "$m", "Lever (start 0)",
-     "E240, a receipt. MODEL 0.25: Ottawa's own estimates of 1897-98 were $150,000-340,000 to build (Hist.)."),
+     "E235, a receipt. MODEL 0.25: Ottawa's own estimates of 1897-98 were $150,000-340,000 to build (Hist.)."),
     ("cw_ak_aleutian", "CR-070 E4: the Aleutian cable, Sitka to Hakodate, total cost 1900-03", 0, 0, "$m",
-     "Lever (start 0)", "E241, a quarter in each year. MODEL 4.5 (range 4-5), about 3,300 nautical miles at the rate of "
+     "Lever (start 0)", "E236, a quarter in each year. MODEL 4.5 (range 4-5), about 3,300 nautical miles at the rate of "
      "the British Pacific cable of 1902 (to verify). Its stations' upkeep is not costed."),
     ("cw_ak_copper", "CR-070 B4, G5: the Chitina's copper under Nicolai's compact, scale of the MODEL path", 0, 0,
      "scale", "Lever (start 0)", "Added to Resources F in 1900-28. Path at 1: $2m in 1900, $5m a year in 1901-02, $9m "
@@ -203,7 +203,26 @@ LEVERS = [
      "verify by year) read about ten years early at a flat value. Not in the baseline's column F. The state takes its "
      "5%; the finder's share and the lease are paid by the mine."),
     ("cw_ak_copper_rail", "CR-070 B4, G5: the Copper River railway on Development Fund credit, total 1897-1900", 0, 0,
-     "$m", "Lever (start 0)", "E243, a quarter in each year. MODEL 25 (historically $23-25m, built 1907-11, Hist.)."),
+     "$m", "Lever (start 0)", "E238, a quarter in each year. MODEL 25 (historically $23-25m, built 1907-11, Hist.)."),
+    ("cw_l15_value_rel", "L15: the new members' farm value per acre / California's (Land Fund T)", 0.5, 0.5, "share",
+     "Model estimate (author, 15 Nov: the Land Fund's rule)", "Members' land prices its land as the Land Fund does: "
+     "MAX(lfund_floor, lfund_share x value per acre), with the value per acre at this share of California's. MODEL 0.5: "
+     "the 1900 census's farm values per acre in Oregon, Washington, Idaho, Utah, Nevada, Montana, New Mexico and "
+     "Arizona were roughly a third to two-thirds of California's (to verify)."),
+    ("cw_peon_comp", "F10: peonage and captive compensation, 1866 (E10)", 0.5, 0.5, "$m", "Author (15 Nov)",
+     "CR-061 A2: a quarter of registered face, cap $100 a peon; $50 a released captive; under $0.5m. The Navajo and "
+     "Apache treaties' costs are in the Southwest's annuities (E209) from 1862, so E10 carries the compensation only."),
+    ("cw_or_rail_south", "CR-059 W9: the Sacramento line to the Siskiyous, total 1863-66", 8, 8, "$m",
+     "Model estimate (author, 15 Nov: costed)", "E240-E243, Development Fund credit, rising as the line goes north: 12.5%, 18.75%, 31.25% and 37.5% in 1863-66 (the war years cannot carry more: Stress private saving in 1863 has about $1.5m of room). MODEL 8: about "
+     "200 miles up the Sacramento valley and into the Shasta country at about $40,000 a mile (to verify against the "
+     "California and Oregon Railroad's costs of 1870-72)."),
+    ("cw_or_cust_share", "CR-059 V9: Oregon's customs share from 1867, / the customs its residents pay", 0.25, 0.25,
+     "share", "Model estimate (author, 15 Nov: built); OPEN 21", "The Charter's 'defined customs share': a quarter of "
+     "the confederal customs attributable to Oregon's residents, paid to the State (Budget V, subsidies). MODEL; "
+     "the fraction is CR-059 open decision 21."),
+    ("cw_or_cust_base", "CR-059 V9: Oregon's residents / the confederation's, held at the exchange of 1867", 0.0346,
+     0.0346, "share", "Model estimate", "77,096 of about 2.23m residents at the end of 1867 (joins_cr059_068.toml; "
+     "People L). Held flat: Oregon grows more slowly than California and Hawaii."),
 ]
 
 SETOFFS = "cw_scrip_face+cw_nb_credit*cw_ann_nw*5+cw_setoff_nc+cw_keep64+cw_keep67"
@@ -255,8 +274,8 @@ NEW_EVENTS = [
      "=cw_alaska_rcpt", "No", "Proposed", "CR-062", "L04; Sitka pays for itself (author, 14 Nov)."),
     ("E218", 1873, 1900, "Sitka garrison and squadron (1873-1900, tapered)", "War & operations", None, None,
      "=cw_sitka_gar*cw_sitka_taper", "No", "Proposed", "CR-062", "L04; the taper (author, 14 Nov)."),
-    ("E219", 1880, 1889, "Pribilof receipts, tendered lease", "Receipt", None, None, "=cw_seal_1880s", "No",
-     "Proposed", "Alaskamaxx E", "L04 (author, 14 Nov)."),
+    ("E219", 1880, 1885, "Pribilof receipts, tendered lease", "Receipt", None, None, "=cw_seal_1880s/0.85", "No",
+     "Proposed", "Alaskamaxx E", "L04 (author, 14 Nov); before Canada's share (CR-070 D2)."),
     ("E220", 1890, 1900, "Pribilof receipts, tendered lease", "Receipt", None, None, "=cw_seal_1890s", "No",
      "Proposed", "Alaskamaxx E", "L04."),
     ("E221", 1901, 1932, "Pribilof receipts, the herd saved", "Receipt", None, None, "=cw_seal_after", "No",
@@ -272,7 +291,7 @@ NEW_EVENTS = [
     ("E226", 1868, 1870, "Alaska line: the British Columbia line bought, built to the Stikine, cable to Sitka",
      "Programme", None, None, "=0.4*cw_ak_telegraph", "No", "Proposed", "CR-070 E2", "L04; E7, MODEL $1.2m."),
     ("E227", 1871, 1897, "Alaska line: operating loss", "Subsidy & guarantee", None, None,
-     "=0.05*cw_ak_telegraph", "No", "Proposed", "CR-070 E2", "L04; sold to Canada in 1897 (E240)."),
+     "=0.05*cw_ak_telegraph", "No", "Proposed", "CR-070 E2", "L04; sold to Canada in 1897 (E235)."),
     ("E228", 1867, 1932, "Northern Commission, assay office and survey", "Programme", None, None,
      "=cw_ak_commission", "No", "Proposed", "CR-070 A1, G2", "L04; to 1932 pending the counties' CR."),
     ("E229", 1884, 1886, "Chilkoot road and tramway with the clans", "Programme", None, None,
@@ -295,6 +314,16 @@ NEW_EVENTS = [
      "=IF(cw_ak_commission>0,0.005,0)", "No", "Proposed", "CR-070 G4", "$5,000 a year in gold; reviewed every ten years."),
     ("E238", 1897, 1900, "Copper River railway (Development Fund credit)", "Investment", None, None,
      "=cw_ak_copper_rail/4", "No", "Proposed", "CR-070 B4, G5", "Ore shipped from about 1900."),
+    ("E239", 1886, 1889, "Pribilof receipts, tendered lease, net of Canada's 15% (convention of 1886)", "Receipt",
+     None, None, "=cw_seal_1880s", "No", "Proposed", "CR-070 D2", "L04 (author, 15 Nov)."),
+    ("E240", 1863, 1863, "Sacramento line to the Siskiyous, 1863 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.125", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 12.5% of the line in 1863."),
+    ("E241", 1864, 1864, "Sacramento line to the Siskiyous, 1864 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.1875", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 18.7% of the line in 1864."),
+    ("E242", 1865, 1865, "Sacramento line to the Siskiyous, 1865 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.3125", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 31.2% of the line in 1865."),
+    ("E243", 1866, 1866, "Sacramento line to the Siskiyous, 1866 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.375", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 37.5% of the line in 1866."),
 ]
 
 # CR-070 G5: the Chitina's copper, MODEL path at cw_ak_copper = 1 ($m a year), added to Resources F.
@@ -368,7 +397,7 @@ def build_members_land(wb) -> None:
     ws["A2"] = ("CR-059 N2, CT13 and the author's Q7 (13-14 Nov 2026): the new members' ceded public domain enters "
                 "the Land Fund from 1867 under its rules. Farm land is our timeline's census (1945 Census of "
                 "Agriculture, Farms and Farm Property, Table 18), linear between censuses. Sold on the Land Fund's "
-                "instalments at its floor price; the nations are paid by the regional annuities (L08). MODEL.")
+                "instalments at the Land Fund's price (the floor, or a share of the value per acre if higher); the nations are paid by the regional annuities (L08). MODEL.")
     ws["A3"] = "Blue = census input; black = formula. Acres; $m in period money. Net to the Treasury feeds Budget G."
     names = list(L15_CENSUS)
     heads = ["Year"] + [f"{n}, land in farms (acres)" for n in names] + [
@@ -399,7 +428,7 @@ def build_members_land(wb) -> None:
             ws[f"{NEW}{r}"] = f"={SOLD}{r}-{SOLD}{prev}"
             ws[f"{VAL}{r}"] = f"={VAL}{prev}+{NEW}{r}*{PRICE}{r}/1000000"
             ws[f"{ORS}{r}"] = f"=IF(cw_l15_on=1,MAX({ORS}{prev},{OR}{r}-{OR}${r67}),0)"
-        ws[f"{PRICE}{r}"] = "=lfund_floor"
+        ws[f"{PRICE}{r}"] = f"=MAX(lfund_floor,lfund_share*'Land Fund'!T{r}*cw_l15_value_rel)"
         ws[f"{INST}{r}"] = (f"=({VAL}{r}-IF({r}-lfund_inst<{yrow(FIRST)},0,INDEX(${VAL}${yrow(FIRST)}:${VAL}${yrow(LAST)},"
                              f"{r}-{yrow(FIRST) - 1}-lfund_inst)))/lfund_inst*(1-lfund_default)")
         ws[f"{SURV}{r}"] = f"={NEW}{r}*lfund_survey/1000000"
@@ -440,13 +469,17 @@ def main() -> None:
     taken = set(wb.defined_names.keys())
     hdr = LEVER_ROW0
     style_row(L, 66, hdr, range(1, 9))
-    L.cell(hdr, 2).value = "— CR-059-068: the Civil War years 1861-72 (phase 5; Story = Stress at the story minimum) —"
+    L.cell(hdr, 2).value = ("— CR-059-068 and CR-070: the Civil War years and Alaska ("
+                            + (f"values from {Path(a.values).name}" if a.values else "the story minimum")
+                            + "; Story = Stress unless both are given) —")
     r = hdr
     for name, label, story, stress, unit, status, text in LEVERS:
         r += 1
         if name in chosen:
             v = chosen[name]
             story, stress = (v if isinstance(v, (list, tuple)) else (v, v))
+            if status.startswith("Lever"):
+                status = "Package D final (author, 14 Nov)"
         assert name not in taken, name
         style_row(L, 406, r, range(1, 9))
         L.cell(r, 2).value = label
@@ -497,8 +530,22 @@ def main() -> None:
     note(E.cell(rr, 5), "Phase 5: the money is private (the Senate declined the Treasury loan), so the new category "
          "'Private lending' keeps it out of the Treasury's cash and counts it in private uses (Sources & uses K) and in "
          "gold paid out (Gold & money E). Lever L13 (D8: $3-5m, shorter).")
-    setrow("E195", end=1872, desc="Sitka garrison and squadron (1867-72)", h="=cw_sitka_gar")
-    setrow("E196", h="=cw_sitka_mail")
+    setrow("E195", end=1872, desc="Sitka garrison and squadron (1867-72)", h="=cw_sitka_gar",
+           note="L04; 1873-1900 at the taper in E218. Stops after 1900.")
+    setrow("E196", h="=cw_sitka_mail", note="L04; the northern mail. Stops after 1900.")
+    setrow("E09", note="Pacifican goods through Matamoros, drawn on the credit (L01); the mission's pay is E199.")
+    rr = setrow("E10", desc="Peonage and captive compensation (CR-061 A2)", h="=cw_peon_comp",
+                note="Author, 15 Nov: the compensation only; the treaties' costs are in E209.")
+    rr = setrow("E19", note="Old model L03 + L04. Stands beside the war credit of 1862-65 (E09, E198), which is not "
+                            "rolled into it (author, 15 Nov; register F06).")
+    bg = wb["Budget"]
+    for y in range(1867, LAST + 1):
+        rb = yrow(y)
+        v = bg.cell(rb, 22).value
+        assert isinstance(v, str) and v.startswith("=SUMPRODUCT(") and "cw_or_cust" not in v, (y, v)
+        bg.cell(rb, 22).value = v + f"+cw_or_cust_share*cw_or_cust_base*B{rb}"
+    note(bg.cell(5, 22), "CR-059 V9 (author, 15 Nov): from 1867 plus Oregon's customs share (cw_or_cust_share x "
+                         "cw_or_cust_base x customs).")
     rr = setrow("E61", h="=1*(1-cw_ak_route)")
     note(E.cell(rr, 8), "Alaskamaxx G (author, 14 Nov; CR-070 F3): moved to 1897-99 (E230) when cw_ak_route = 1.")
 
@@ -589,13 +636,15 @@ def main() -> None:
 
     # --- Changes log
     n = C.max_row + 1
-    C.cell(n, 1).value = "13 Nov: CR-059-068"
+    C.cell(n, 1).value = "13-15 Nov: CR-059-068, CR-070"
     C.cell(n, 2).value = "Civil War CRs, levers"
     C.cell(n, 3).value = (f"Model plan phase 5 (build/cr059_068_levers.py): levers cw_* on Levers rows {LEVER_ROW0}-"
                           f"{lever_last} at the story minimum; F18 (no gold to New York 1861-65) in Resources R; "
                           "L17 idle-gold source (Sources & uses R, Checks L), 0.12 / 0.06; F18 gold goes east 1866-67; E09 the Richmond "
                           "credit as a loan (with E198-E199); E11 split (E197) with set-offs; E14 private lending; "
-                          "new rows E197-E216 (all 0 where no figure exists)."
+                          "new rows E197-E243; the Members' land sheet (L15); CR-070's Alaska (E195-E196, E217-E239, "
+                          "Resources E/F/T); E10 the compensation only; Oregon's customs share in Budget V from 1867 "
+                          "(rebuilt 13-15 Nov 2026)."
                           + (f" Lever values from {Path(a.values).name}." if a.values else ""))
     style_row(C, n - 1, n, range(1, 4))
     wb.save(a.dst)

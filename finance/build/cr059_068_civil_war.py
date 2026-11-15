@@ -1,7 +1,7 @@
 """Phase 4 of the CR-059-068 model plan: the Civil War CRs' fixed items in the financial workbook.
 
     python3 finance/build/cr059_068_civil_war.py IN.xlsx OUT.xlsx \
-        [--joins population/data/joins_cr059_068.toml] [--rates finance/build/paths_c_rates_cr059_068.csv]
+        [--joins population/data/joins_cr059_068.toml] [--rates finance/build/paths_c_rates_cr059_068_final.csv]
 
 IN is the current workbook (CR-051/054/055, SHA-256 cba70b31...). The script never
 recalculates; run LibreOffice (xlsx skill scripts/recalc.py) afterwards.
@@ -62,7 +62,7 @@ def main() -> None:
     ap.add_argument("src")
     ap.add_argument("dst")
     ap.add_argument("--joins", default=str(ROOT / "population" / "data" / "joins_cr059_068.toml"))
-    ap.add_argument("--rates", default=str(ROOT / "finance" / "build" / "paths_c_rates_cr059_068.csv"))
+    ap.add_argument("--rates", default=str(ROOT / "finance" / "build" / "paths_c_rates_cr059_068_final.csv"))
     a = ap.parse_args()
     wb = openpyxl.load_workbook(a.src)
     P, E, C = wb["Paths"], wb["Events"], wb["Changes"]

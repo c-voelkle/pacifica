@@ -1,6 +1,6 @@
 # Workbook revision, 14 November 2026: the Civil War CRs (CR-059 to CR-065, CR-067, CR-068), Alaska (CR-070) and the members' land (L15)
 
-SHA-256 of the current workbook: `9ac9d556a0ed6b37a30cc358125c7dc02329cf606e0b623f232c156950e8b9d5` (rebuilt on 15 November 2026 for CR-070's decided wire, Commission and copper; see the addendum at the end. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`).
+SHA-256 of the current workbook: `eb642aa747fcf738f3126ef2160ee18dadb1528709a69fd503cad45ac13eb252` (rebuilt on 15 November 2026 after the phase 9 review; see the second addendum at the end. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`; the first addendum's are those of `9ac9d556…`).
 
 **What it is.** The CR-051/054/055 workbook (SHA-256 `cba70b31…`) with the Civil War CRs' model items, built in two steps by the model plan of 13–14 November 2026 (session `outputs/sessions/20261113-model-register/`). All amounts are MODEL. The new events carry the status "Proposed" until their CRs are integrated, and a workbook label cannot approve a narrative proposal.
 
@@ -35,17 +35,17 @@ The natural-increase rates (Paths C) were iterated with the population model unt
      - the Juárez credit, $16.9m;
      - the Oregon works, $86.9m over 1868–75;
      - private lending to the Union's bankers, $3m in 1867;
-     - the instalments as six of $6.67m;
+     - the instalments as six of $6.67m; the first, in 1867, is net of $5.45m of set-offs (Oregon's scrip at face, $3.2m, and the Northwest's annuities of 1862–66, $2.25m), so it pays $1.22m (E11), and the gold paid to the Union over 1867–72 is $34.55m;
      - Oregon's scrip, $3.2m face;
-     - the regional annuities, equal to each region's receipts (D4, MODEL working figures).
+     - the regional annuities, each at the yearly size of its region's earmarked receipts (D4, MODEL working figures). The annuities run for twenty years (1862–81, 1863–82) and the receipts end in 1866–72, so $19.0m of annuities meet $7.85m of earmarked receipts; from 1873 about $0.95m a year has no earmark.
    - **People.** 20,000 refugees, deserters and draft evaders a year in 1863–65 (L12).
    - **Alaska (CR-070).** Sitka's garrison and squadron at $2.85m a year in 1867–72, then 40% of that (the settler garrison). The northern mail at $0.3m a year. Receipts:
      - the seal lease, tendered from 1880, with the herd saved;
      - the salmon case tax from 1870;
-     - Juneau's gold eight years early (Resources E shifted; the historical path is kept in T);
+     - Juneau's gold eight years early (Resources E reads the historical path, kept in T, eight years on, capped at 1898). This adds gold rather than moving it: 1891–98 repeat the 1898 value, and with the Seward Peninsula's placers Alaska's gold over 1867–98 goes from $19.8m to $58.8m, with nothing taken away after 1898;
      - the Seward Peninsula's placers from 1876.
      The Northern Commission and the Chilkoot compact are in at their MODEL costs. The Bering telegraph's cost was in provisionally; the addendum of 15 November replaces it with the wire as decided.
-   - **L15, the members' land.** A new sheet, `Members' land`. The new members' farm land from 1867 is taken from the census (1945 Census of Agriculture, Farms and Farm Property, Table 18), with western Montana at a quarter of Montana's. It is sold on the Land Fund's instalments at its floor price, with no purchase cost, because the nations are paid by the regional annuities. Oregon's schools take one-eighteenth of the margin on Oregon's land. The net goes into Budget G beside the Land Fund's: $105m to the Treasury over 1867–1932, $32m of it to 1900, and $1.25m to Oregon's schools. Five OCR-garbled census entries are read as 3 where the scan prints 5; they are listed in the build script and are to verify against the scans.
+   - **L15, the members' land.** A new sheet, `Members' land`. The new members' farm land from 1867 is taken from the census (1945 Census of Agriculture, Farms and Farm Property, Table 18), with western Montana at a quarter of Montana's. It is sold on the Land Fund's instalments at its floor price (`lfund_floor`, $1.25 an acre in Story, $1 in Stress), with no purchase cost, because the nations are paid by the regional annuities. This departs from Q7's "existing rules": the Land Fund prices California's land at the floor or `lfund_share` of the census value per acre, whichever is higher ($1.94 in 1867), so L15 as built understates its receipts. Oregon's customs share after 1867 is not built. Oregon's schools take one-eighteenth of the margin on Oregon's land. The net goes into Budget G beside the Land Fund's: $105m to the Treasury over 1867–1932, $32m of it to 1900, and $1.25m to Oregon's schools. Five OCR-garbled census entries are read as 3 where the scan prints 5; they are listed in the build script and are to verify against the scans.
 
 ## Results (MODEL)
 
@@ -54,6 +54,8 @@ The natural-increase rates (Paths C) were iterated with the population model unt
 | Story case: failed checks | 0 | 0 |
 | Stress case: failed checks (ceiling 17, author) | 17 | 15 |
 | Stress: margin of private saving, 1932 | +$7.9m | +$92.4m |
+| Stress, 1932: debt within 30% of GDP | 33.1% (fails) | 28.7% |
+| Stress, 1932: gold above the cover requirement | −$12.1m (fails) | +$11.1m |
 | Stress, with the garrisons above the head counts 25% dearer | | 15 failed; margin +$85.9m |
 
 | Story case | 1867 | 1900 | 1932 |
@@ -63,15 +65,15 @@ The natural-increase rates (Paths C) were iterated with the population model unt
 | Public debt, $m | 3 → 70 | 279 → 301 | 3,036 → 3,281 |
 
 - **The war.** It now costs Pacifica something: the debt at the end of 1867 is $70m instead of $3m, and 1867's GDP is a little lower.
-- **What pays it back.** By 1900 the joins, the refugees, the Oregon works, Alaska's receipts and the members' land have more than made it good.
-- **Stress.** The 15 failures that remain are the baseline's own: 1887, 1914–24 and 1927. 1932 now passes every check. The old knife edge (+$3.9m) was the private-saving margin at the story minimum; it is gone.
+- **What pays it back.** By 1900 the joins, the refugees, the Oregon works, Alaska's receipts and the members' land have more than made good the war's cost in output and people: 1900's real GDP and residents are higher than before. The debt is not paid back: it stays higher, $301m against $279m in 1900 and $3,281m against $3,036m in 1932.
+- **Stress.** The 15 failures that remain are the baseline's own, in 13 years: 1887, 1914–24 and 1927, with 1918 and 1919 failing two checks each (private saving and the Siberian line). No year fails that did not fail before, so the strict rule holds. 1932 now passes every check. The base's two 1932 failures were the debt ratio and the gold cover, not private saving; the tightest 1932 check is now the gold cover, at +$11.1m. (The "+$3.9m knife edge" of the phase 6 notes was a run at the story minimum that the committed scripts no longer reproduce: without `--values` the builder now includes L15.)
 
 **Population model** (`population/outputs/`, regenerated on this workbook; tests pass). End of 1932: 38.44m residents, of them 6.11m of Japanese and 5.01m of Chinese origin. Native Hawaiians are 68,000 and Native Californians 131,000. A run with or without `PACIFICA_JOINS` now gives the same figures, because the sheet carries the joins.
 
 ## Storyline figures to update at integration (MODEL)
 
-- §-overview (line 41), the population summary, and §37 (line 1294): "about 37 million" by 1932 → **about 38 million**.
-- Line 885: Japanese-origin against Chinese-origin, "about 5.7 against 4.9 million of some 37 million" → **about 6.1 against 5.0 million of some 38 million**.
+- §-overview (line 41), the population summary, and §37 (line 1294): "about 37 million" by 1932 → **about 38 million** (after the second addendum: **about 39 million**).
+- Line 885: Japanese-origin against Chinese-origin, "about 5.7 against 4.9 million of some 37 million" → **about 6.1 against 5.0 million of some 38 million** (after the second addendum: **about 6.2 against 5.0 million of some 39 million**).
 - AGENTS.md's "Residents in 1932 are about 37 million" follows the same change.
 
 ## Sources
@@ -99,6 +101,7 @@ The author asked for the model to be rebuilt after CR-070's three fresh-context 
 | Story case: failed checks | 0 | 0 |
 | Stress case: failed checks (ceiling 17) | 15 | 15, the same years |
 | Stress: margin of private saving, 1932 | +$92.4m | +$91.7m |
+| Stress, 1932: gold above the cover requirement (the tightest 1932 check) | | +$11.1m |
 | Story: residents at the end of 1932 | 38.435m | 38.443m |
 | Story: real GDP in 1932, 1913 $m | 44,602 | 44,612 |
 | Story: public debt in 1932, $m | 3,281 | 3,282 |
@@ -106,3 +109,51 @@ The author asked for the model to be rebuilt after CR-070's three fresh-context 
 Walk of the 1932 Stress margin: +92.43 before; +92.03 with the Alaska line in place of the Bering entry, the Commission to 1932, the rent and the railway re-timed; +92.07 with the 1888 cable and the sale; +92.08 with the Aleutian cable; +92.85 with the copper; +91.68 with the Copper River railway. The cables are Investment and raise later output, so they cost the margin almost nothing; the copper railway costs more than the royalty returns to the Treasury.
 
 **Not done.** Paths C was not re-iterated: residents move by about 8,000 in 1932, and the population model and the sheet now agree within about 1,900 residents (1,200 before). The garrisons-25%-dearer test was not rerun. The population outputs were regenerated on this workbook and the tests pass.
+
+## Fresh-context review, 15 November 2026 (model plan phase 9)
+
+An independent reviewer rebuilt the workbook from the base with the commands above and compared it cell by cell: every formula and defined name is identical and every value agrees within 1e-6 (63,480 formulas, no errors). Story 0 failed checks; Stress 15; the 1932 Stress private-saving margin +$91.683m; residents at the end of 1932 38,443,360; L15 $105.23m to the Treasury ($32.27m to 1900) and $1.251m to Oregon's schools; the population model reproduces `reconciliation.md` byte for byte (−1,854 residents at the start of 1932), with and without `PACIFICA_JOINS`, and its 18 tests pass. Garrisons 25% dearer on this build: Stress 15, margin +$85.8m (+$80.6m with Sitka dearer too). No blocker. The note's wording was corrected above where the reviewer found it wrong (the binding 1932 check, the set-offs, the annuities, the debt, the Alaska gold, L15's price).
+
+**Open for the author** (they change the workbook; all six approved by the author on 15 November 2026 and applied in the second addendum):
+1. L15's price: the Land Fund's rule (floor or share of census value, whichever is higher), as Q7 approved, instead of the floor alone.
+2. E10 ($2m in 1866, the Navajo and Apache treaties with the peonage compensation): CR-061 A2 puts the compensation under $0.5m, and the annuities have been in E209 since 1862.
+3. Whether the 1862–65 Richmond credit (E09, E198, $11.7m) rolls into the $25m refinancing of 1871–72 (E19) or stands beside it (register F06); the workbook has both.
+4. CR-059 W9, the Sacramento line to the Siskiyous in 1863–66: no cost row.
+5. Canada's 15% of the Pribilof catch is netted over all of 1880–89 (E219); CR-070 D2 has it from 1886.
+6. Oregon's customs share after 1867 (register L15) is not built.
+
+**Labels cleaned in the second addendum's rebuild** (no value changes): stale event IDs in the lever notes of `cw_ak_telegraph`, `cw_ak_cable88`, `cw_ak_bc_sale`, `cw_ak_aleutian`, `cw_ak_copper_rail` and E227; Levers G413–G463 status labels ("Lever (start 0)" and similar) and row 408; E195 and E196 still say "at zero until phase 5"; E09's basis still names Logan's mission (now E199); the Changes log row 67; the default `--rates` in `cr059_068_civil_war.py`. Amounts behind switches (E222–E227, E229–E233, the copper path, E237) are hard-coded and do not vary in Stress. The Sitka garrison and the northern mail stop after 1900 (E196, E218).
+
+## Second addendum, 15 November 2026: the review's six decisions (author: "I approve all 6 suggestions")
+
+Same two build steps from the same base; `cr059_068_levers.py`, `cr059_068_values.json` and the Paths C rates are changed. SHA-256 `eb642aa747fcf738f3126ef2160ee18dadb1528709a69fd503cad45ac13eb252`. Recalculated in LibreOffice: 63,491 formulas, no errors, saved in the Story case. All amounts are MODEL.
+
+**What changed**
+
+1. **L15 at the Land Fund's price.** `Members' land` M is now `MAX(lfund_floor, lfund_share × Land Fund T × cw_l15_value_rel)`: the Land Fund's rule, with the new members' farm value per acre at half California's (`cw_l15_value_rel` 0.5; the 1900 census's values per acre in the eight states were roughly a third to two-thirds of California's, to verify). The floor binds to about 1880; the price is about $2.46 an acre in 1900 and $11.23 in 1932 (Story). Story: $530.6m to the Treasury over 1867–1932 (was $105.2m), $66.4m of it to 1900; Oregon's schools $5.1m.
+2. **E10 is the compensation only:** $0.5m in 1866 (`cw_peon_comp`; CR-061 A2), down from $2m; the Navajo and Apache treaties' costs are in E209 from 1862.
+3. **The Richmond credit stands beside the refinancing.** E19's $25m of 1871–72 is new lending; the war credit (E09, E198) is not rolled into it (E19's note says so). No value change.
+4. **The Sacramento line to the Siskiyous** (CR-059 W9) is costed: $8m on Development Fund credit (`cw_or_rail_south`; about 200 miles at about $40,000 a mile, to verify), E240–E243, rising as the line goes north: $1.0m in 1863, $1.5m in 1864, $2.5m in 1865, $3.0m in 1866. An even spread ($2m a year) failed Stress in 1863: that year's private-saving room is about $1.5m.
+5. **Canada's 15% from 1886.** E219 now runs 1880–85 at `cw_seal_1880s / 0.85` (before Canada's share) and E239 1886–89 at `cw_seal_1880s` (after it).
+6. **Oregon's customs share** (CR-059 V9) is built: from 1867 Budget V adds `cw_or_cust_share × cw_or_cust_base × customs`, a quarter (MODEL; the fraction is CR-059 open decision 21) of the customs attributable to Oregon's residents, held at their 1867 share of the confederation (3.46%). Story: $200m over 1867–1932, $15.9m to 1900, $7.6m in 1932.
+
+Also cleaned: the lever notes' event IDs, the Levers status labels (levers set by the values file read "Package D final"), row 408's header, the notes on E09, E195 and E196, the Changes log entry, and the default `--rates` of `cr059_068_civil_war.py`.
+
+**Paths C** was re-iterated in two rounds: the largest change was 0.000029, then 0.000001, and the population model and the sheet agree within about 100 residents at the end of 1932. The population outputs were regenerated on this workbook and the tests pass.
+
+**Results (MODEL)**
+
+| | First addendum | Second addendum |
+|---|---|---|
+| Story: failed checks | 0 | 0 |
+| Stress: failed checks (ceiling 17) | 15 | 15, the same years (1887, 1914–24, 1927) |
+| Stress, 1932: gold above the cover requirement (the tightest 1932 check) | +$11.1m | +$10.0m |
+| Stress, 1932: margin of private saving | +$91.7m | +$110.0m |
+| Story: residents at the end of 1932 | 38.44m | 38.71m |
+| Story: real GDP in 1932, 1913 $m | 44,612 | 45,333 |
+| Story: public debt, 1867 / 1900 / 1932, $m | 70 / 301 / 3,282 | 78 / 304 / 3,326 |
+
+- **The land pays; Oregon's share costs.** The land's price is the large gain ($425m more over 1867–1932), much of it after 1900, and it raises growth and residents through the Development Fund. Oregon's customs share costs $200m over the same years and holds the debt up; the Sacramento line adds $8m to the war years' borrowing.
+- **The war years are tighter.** With the garrisons 25% dearer, Stress now fails 17 checks, two of them new (1863 and 1864, private saving), where the first addendum's build failed 15: the line uses the room the dearer-garrisons test had in 1863–64. The base case passes the strict rule.
+- **Population.** End of 1932: 38.71m residents, of them 6.17m of Japanese and 5.04m of Chinese origin (model). Storyline figures at integration: about 39 million (was about 37; the first addendum's 38.4 rounded to 38), and about 6.2 against 5.0 million.
+
