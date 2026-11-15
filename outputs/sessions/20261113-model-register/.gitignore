@@ -1,0 +1,3 @@
+# Package and phase workbooks are reproducible from finance/build/ (see session.md); keep scripts, JSON and notes.
+*.xlsx
+__pycache__/

@@ -1,0 +1,312 @@
+{
+ "D as solved": {
+  "strict": true,
+  "story": 0,
+  "stress": 16,
+  "margin_1932_stress": 57.21,
+  "room_stress": {
+   "1861": 13.25,
+   "1862": 2.89,
+   "1863": 0.02,
+   "1864": 0.07,
+   "1865": 1.02,
+   "1866": 1.66,
+   "1867": 10.02,
+   "1868": 18.41
+  },
+  "real_gdp_1932_story": 43358.2,
+  "residents_1932_story": 37916984,
+  "first_failure": "none"
+ },
+ "D + lease + refugees 20,000": {
+  "start": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 58.65,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 2.89,
+    "1863": 0.02,
+    "1864": 0.07,
+    "1865": 1.02,
+    "1866": 1.66,
+    "1867": 10.02,
+    "1868": 18.41
+   },
+   "real_gdp_1932_story": 43412.8,
+   "residents_1932_story": 37934788,
+   "first_failure": "none"
+  },
+  "steps": [
+   {
+    "lever": "Sitka garrison and mail",
+    "from": 0.4733,
+    "to": 4.077,
+    "stopped_by": "stress 1932: Interest within 15% (from 1887), Private saving capacity"
+   },
+   {
+    "lever": "Oregon works",
+    "from": 7.5039,
+    "to": 14.446,
+    "stopped_by": "stress 1872: Private saving capacity"
+   },
+   {
+    "lever": "Garrisons 1865-67",
+    "from": 6.1094,
+    "to": 6.164,
+    "stopped_by": "stress 1872: Private saving capacity"
+   },
+   {
+    "lever": "Juarez credit",
+    "from": 10.8906,
+    "to": 11.824,
+    "stopped_by": "stress 1865: Private saving capacity"
+   }
+  ],
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.8771,
+   "cw_rich_late": 5.6314,
+   "cw_hon_batt": 4.6484,
+   "cw_hon_turret": 3.204,
+   "cw_occ6567": 6.164,
+   "cw_sitka_gar": 4.077,
+   "cw_sitka_mail": 4.077,
+   "cw_juarez": 11.824,
+   "cw_or_works": 14.446,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "final": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 0.68,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 2.89,
+    "1863": 0.02,
+    "1864": 0.07,
+    "1865": 0.03,
+    "1866": 0.66,
+    "1867": 2.74,
+    "1868": 5.15
+   },
+   "real_gdp_1932_story": 43469.4,
+   "residents_1932_story": 38113996,
+   "first_failure": "none"
+  }
+ },
+ "D + lease + refugees 20,000, growth first": {
+  "start": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 58.65,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 2.89,
+    "1863": 0.02,
+    "1864": 0.07,
+    "1865": 1.02,
+    "1866": 1.66,
+    "1867": 10.02,
+    "1868": 18.41
+   },
+   "real_gdp_1932_story": 43412.8,
+   "residents_1932_story": 37934788,
+   "first_failure": "none"
+  },
+  "steps": [
+   {
+    "lever": "Oregon works",
+    "from": 7.5039,
+    "to": 14.798,
+    "stopped_by": "story 1920: Gold cover met"
+   },
+   {
+    "lever": "Juarez credit",
+    "from": 10.8906,
+    "to": 11.488,
+    "stopped_by": "story 1920: Gold cover met"
+   },
+   {
+    "lever": "Garrisons 1865-67",
+    "from": 6.1094,
+    "to": 6.516,
+    "stopped_by": "stress 1865: Private saving capacity"
+   },
+   {
+    "lever": "Sitka garrison and mail",
+    "from": 0.4733,
+    "to": 3.878,
+    "stopped_by": "stress 1872: Private saving capacity"
+   }
+  ],
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.8771,
+   "cw_rich_late": 5.6314,
+   "cw_hon_batt": 4.6484,
+   "cw_hon_turret": 3.204,
+   "cw_occ6567": 6.516,
+   "cw_sitka_gar": 3.878,
+   "cw_sitka_mail": 3.878,
+   "cw_juarez": 11.488,
+   "cw_or_works": 14.798,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "final": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 4.6,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 2.89,
+    "1863": 0.02,
+    "1864": 0.07,
+    "1865": 0.02,
+    "1866": 0.61,
+    "1867": 2.73,
+    "1868": 5.13
+   },
+   "real_gdp_1932_story": 43667.6,
+   "residents_1932_story": 38191456,
+   "first_failure": "none"
+  }
+ },
+ "D + lease + refugees 33,000, growth first": {
+  "start": {
+   "strict": false,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 66.39,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 2.89,
+    "1863": -0.14,
+    "1864": 0.2,
+    "1865": 1.5,
+    "1866": 2.47,
+    "1867": 10.95,
+    "1868": 18.67
+   },
+   "real_gdp_1932_story": 43545.9,
+   "residents_1932_story": 38050716,
+   "first_failure": "stress 1863: Private saving capacity"
+  },
+  "steps": [
+   {
+    "lever": "Richmond draw 1862-63 (trimmed)",
+    "from": 1.8771,
+    "to": 1.738
+   },
+   {
+    "lever": "Oregon works",
+    "from": 7.5039,
+    "to": 14.49,
+    "stopped_by": "story 1920: Gold cover met"
+   },
+   {
+    "lever": "Juarez credit",
+    "from": 10.8906,
+    "to": 11.077,
+    "stopped_by": "story 1920: Gold cover met"
+   },
+   {
+    "lever": "Garrisons 1865-67",
+    "from": 6.1094,
+    "to": 7.412,
+    "stopped_by": "stress 1865: Private saving capacity"
+   },
+   {
+    "lever": "Sitka garrison and mail",
+    "from": 0.4733,
+    "to": 4.36,
+    "stopped_by": "stress 1872: Private saving capacity"
+   }
+  ],
+  "start_trimmed": {
+   "strict": true,
+   "story": 0,
+   "stress": 15,
+   "margin_1932_stress": 66.34,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 3.03,
+    "1863": -0.0,
+    "1864": 0.2,
+    "1865": 1.5,
+    "1866": 2.47,
+    "1867": 10.95,
+    "1868": 18.67
+   },
+   "real_gdp_1932_story": 43544.3,
+   "residents_1932_story": 38050201,
+   "first_failure": "none"
+  },
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 33000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.738,
+   "cw_rich_late": 5.6314,
+   "cw_hon_batt": 4.6484,
+   "cw_hon_turret": 3.204,
+   "cw_occ6567": 7.412,
+   "cw_sitka_gar": 4.36,
+   "cw_sitka_mail": 4.36,
+   "cw_juarez": 11.077,
+   "cw_or_works": 14.49,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "final": {
+   "strict": true,
+   "story": 0,
+   "stress": 16,
+   "margin_1932_stress": 4.24,
+   "room_stress": {
+    "1861": 13.25,
+    "1862": 3.03,
+    "1863": -0.0,
+    "1864": 0.2,
+    "1865": 0.01,
+    "1866": 0.86,
+    "1867": 1.64,
+    "1868": 5.19
+   },
+   "real_gdp_1932_story": 43423.1,
+   "residents_1932_story": 38169741,
+   "first_failure": "none"
+  }
+ }
+}

@@ -18,7 +18,7 @@ import openpyxl
 import canon
 from cohort import load
 
-OUT = Path(__file__).resolve().parent / "outputs"
+OUT = canon.OUT
 KEY = [1850, 1856, 1861, 1865, 1870, 1880, 1887, 1895, 1900, 1907, 1914, 1920, 1925, 1932]
 
 

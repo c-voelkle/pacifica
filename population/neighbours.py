@@ -33,7 +33,7 @@ import cohort
 import historical
 from cohort import Group, load
 
-OUT = Path(__file__).resolve().parent / "outputs"
+OUT = canon.OUT
 STATES = ["SC", "GA", "AL", "MS", "FL"]
 FIRST, LAST = 1870, 1932
 GROUPS = ("black", "white")

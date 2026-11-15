@@ -1,0 +1,86 @@
+# Territory joins for the Civil War CRs (CR-059 to CR-065, CR-067, CR-068): model plan phase 3.
+# Used only when PACIFICA_JOINS points at this file; the default run keeps the sheet's joins
+# (People C = Paths D: 1856 Hawaii 72,000; 1862 177,000; 1863 85,000; 1864 25,000; 1865 10,000;
+# 1867 Alaska and Baja 50,000).
+#
+# Author's decisions of 13 November 2026 (outputs/sessions/20261113-model-register, Q1-Q3, Q12):
+#  * every acceding territory enters the confederal count at the exchange of 1867 (Q1), so
+#    nothing joins in 1862-1866;
+#  * no separate San Luis Valley line: New Mexico's 1860 census already counts it (Q2);
+#  * head counts are fixed estimates between the 1860 and 1870 censuses, stated (Q3);
+#  * Baja is switched off in the build and tested separately (Q12), so its residents are out.
+# Basis: residents as the censuses count them, without "Indians not taxed", as the sheet's
+# earlier joins were sized. Native nations under treaty are outside these figures (open point
+# for the author, listed in the phase 3 note). All figures MODEL.
+
+hawaii_1856 = 72000   # unchanged: the sheet's 1856 join
+
+[[join]]
+year = 1867
+territory = "Oregon"
+residents = 77096
+states = ["Oregon"]
+basis = "1860 census 52,465 and 1870 census 90,923 (census.toml, verified), log-linear to 1867"
+
+[[join]]
+year = 1867
+territory = "Washington Territory"
+residents = 19268
+states = ["Washington"]
+basis = "1860 census 11,594 and 1870 census 23,955 (census.toml, verified), log-linear to 1867"
+
+[[join]]
+year = 1867
+territory = "Idaho"
+residents = 17289
+states = ["Idaho"]
+basis = "territorial census of September 1863, 32,342, less the nearly 12,000 in the camps that became Montana (Idaho State Historical Society, Reference Series 226), so about 20,342; linear to the 1870 census, 14,999"
+
+[[join]]
+year = 1867
+territory = "Washoe (Nevada)"
+residents = 42941
+states = ["Nevada"]
+basis = "the 1870 census, 42,941, held flat back to 1867: the rush population was in place by 1863-64 (Nevada's territorial censuses of 1862-63 at the Nevada State Library are the source to check)"
+
+[[join]]
+year = 1867
+territory = "Deseret"
+residents = 68932
+states = ["Utah"]
+basis = "1860 census 40,273 and 1870 census 86,786 (census.toml, verified), log-linear to 1867"
+
+[[join]]
+year = 1867
+territory = "Southwest Wyoming (with Deseret's charter)"
+residents = 1000
+states = ["Wyoming"]
+basis = "story assumption: Fort Bridger, Green River and the stage stations before the railway of 1868"
+
+[[join]]
+year = 1867
+territory = "Western Montana"
+residents = 18046
+states = ["Montana"]
+basis = "Governor Edgerton's census of 1864, 15,812, and the 1870 census, 20,595, log-linear to 1867; nearly all of it lies west of the line"
+
+[[join]]
+year = 1867
+territory = "New Mexico with Arizona and the San Luis Valley"
+residents = 101964
+states = ["New_Mexico", "Arizona"]
+basis = "1860 census 93,516 (which counts Arizona and the San Luis Valley); 1870: New Mexico 91,874, Arizona 9,658, Conejos and Costilla counties 4,283 (the last to verify); log-linear to 1867"
+
+[[join]]
+year = 1867
+territory = "South Park and the upper Arkansas"
+residents = 1500
+states = ["Colorado"]
+basis = "story assumption: 'almost empty' (CR-060 CO4); Park and Lake counties in 1870 to verify"
+
+[[join]]
+year = 1867
+territory = "Alaska"
+residents = 2000
+states = ["Alaska"]
+basis = "about 500 Russians and 1,500 Creoles at the purchase (EBSCO, 'Russia Sells Alaska'); Native nations outside the count, as elsewhere"

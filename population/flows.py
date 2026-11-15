@@ -27,7 +27,7 @@ import canon
 import cohort
 from cohort import load
 
-OUT = Path(__file__).resolve().parent / "outputs"
+OUT = canon.OUT
 KEY = [1850, 1856, 1862, 1870, 1880, 1890, 1900, 1910, 1920, 1932]
 
 # The sheet's territory joins and the census states whose growth stands for them.
@@ -40,6 +40,13 @@ JOINS = {
     1865: ("Western Slope and SW Wyoming", ["Colorado", "Wyoming"]),
     1867: ("Alaska and Baja", ["Alaska"]),
 }
+_ov = canon.join_override()
+if _ov:   # a joins file (PACIFICA_JOINS): its territories, grouped by join year
+    JOINS = {}
+    for _j in _ov[0]["join"]:
+        _label, _states = JOINS.get(_j["year"], ("", []))
+        JOINS[_j["year"]] = ((_label + ", " if _label else "") + _j["territory"],
+                             _states + [s for s in _j["states"] if s not in _states])
 
 
 def loglin(years: list[int], values: list[float], y: float) -> float:

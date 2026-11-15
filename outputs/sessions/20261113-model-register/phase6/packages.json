@@ -1,0 +1,491 @@
+{
+ "A": {
+  "package": "Creditor first",
+  "fraction": 1.0078125,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rich_early": 3.2919,
+   "cw_rich_late": 9.8758
+  },
+  "story_problems": 0,
+  "stress_problems": 16,
+  "rule_strict": true,
+  "stress_failing": {
+   "1887": [
+    "Private saving capacity"
+   ],
+   "1914": [
+    "Private saving capacity"
+   ],
+   "1915": [
+    "Private saving capacity"
+   ],
+   "1916": [
+    "Private saving capacity"
+   ],
+   "1917": [
+    "Private saving capacity"
+   ],
+   "1918": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1919": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1920": [
+    "Private saving capacity"
+   ],
+   "1921": [
+    "Private saving capacity"
+   ],
+   "1922": [
+    "Private saving capacity"
+   ],
+   "1923": [
+    "Private saving capacity"
+   ],
+   "1924": [
+    "Private saving capacity"
+   ],
+   "1927": [
+    "Japan FX buffer funded"
+   ],
+   "1932": [
+    "Debt within 30% (from 1887)"
+   ]
+  },
+  "new_failures_vs_base": "none",
+  "room_after": {
+   "1861": {
+    "story": 32.13,
+    "stress": 17.56
+   },
+   "1862": {
+    "story": 22.66,
+    "stress": 8.18
+   },
+   "1863": {
+    "story": 20.46,
+    "stress": 3.02
+   },
+   "1864": {
+    "story": 18.68,
+    "stress": 0.02
+   },
+   "1865": {
+    "story": 34.05,
+    "stress": 14.51
+   },
+   "1866": {
+    "story": 33.73,
+    "stress": 13.33
+   },
+   "1867": {
+    "story": 38.31,
+    "stress": 13.88
+   },
+   "1868": {
+    "story": 48.67,
+    "stress": 20.05
+   },
+   "1869": {
+    "story": 55.07,
+    "stress": 23.81
+   },
+   "1870": {
+    "story": 66.22,
+    "stress": 37.0
+   },
+   "1871": {
+    "story": 74.04,
+    "stress": 42.79
+   },
+   "1872": {
+    "story": 81.08,
+    "stress": 30.61
+   }
+  },
+  "debt_peak_story": 52.4951126372689,
+  "debt_peak_stress": 56.6888395643872,
+  "rf_1872_story": 43.3747610423602,
+  "real_gdp_1932_story": 41153.1165419327
+ },
+ "B": {
+  "package": "Fleet and garrisons first",
+  "fraction": {
+   "fleet": 0.79296875,
+   "credit": 0.0
+  },
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_hon_batt": 6.9385,
+   "cw_hon_turret": 4.7824,
+   "cw_occ6567": 9.1191,
+   "cw_sitka_gar": 0.7065,
+   "cw_sitka_mail": 0.7065,
+   "cw_rich_early": 0.3,
+   "cw_rich_late": 0.9
+  },
+  "story_problems": 0,
+  "stress_problems": 17,
+  "rule_strict": true,
+  "stress_failing": {
+   "1887": [
+    "Private saving capacity"
+   ],
+   "1914": [
+    "Private saving capacity"
+   ],
+   "1915": [
+    "Private saving capacity"
+   ],
+   "1916": [
+    "Private saving capacity"
+   ],
+   "1917": [
+    "Private saving capacity"
+   ],
+   "1918": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1919": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1920": [
+    "Private saving capacity"
+   ],
+   "1921": [
+    "Private saving capacity"
+   ],
+   "1922": [
+    "Private saving capacity"
+   ],
+   "1923": [
+    "Private saving capacity"
+   ],
+   "1924": [
+    "Private saving capacity"
+   ],
+   "1927": [
+    "Japan FX buffer funded"
+   ],
+   "1932": [
+    "Debt within 30% (from 1887)",
+    "Private saving capacity"
+   ]
+  },
+  "new_failures_vs_base": "stress 1932: Private saving capacity",
+  "room_after": {
+   "1861": {
+    "story": 25.19,
+    "stress": 10.62
+   },
+   "1862": {
+    "story": 16.25,
+    "stress": 2.02
+   },
+   "1863": {
+    "story": 17.43,
+    "stress": 0.0
+   },
+   "1864": {
+    "story": 21.15,
+    "stress": 2.49
+   },
+   "1865": {
+    "story": 31.71,
+    "stress": 12.17
+   },
+   "1866": {
+    "story": 29.42,
+    "stress": 7.36
+   },
+   "1867": {
+    "story": 28.18,
+    "stress": 1.89
+   },
+   "1868": {
+    "story": 45.87,
+    "stress": 18.01
+   },
+   "1869": {
+    "story": 50.96,
+    "stress": 20.45
+   },
+   "1870": {
+    "story": 60.74,
+    "stress": 32.26
+   },
+   "1871": {
+    "story": 65.43,
+    "stress": 35.89
+   },
+   "1872": {
+    "story": 61.99,
+    "stress": 22.33
+   }
+  },
+  "debt_peak_story": 76.8798862715269,
+  "debt_peak_stress": 84.844115211947,
+  "rf_1872_story": 8.59810345151879,
+  "real_gdp_1932_story": 40702.2505119712
+ },
+ "C": {
+  "package": "Balanced",
+  "fraction": 0.22265625,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rich_early": 0.961,
+   "cw_rich_late": 2.883,
+   "cw_hon_batt": 1.9482,
+   "cw_hon_turret": 1.3428,
+   "cw_occ6567": 2.5605,
+   "cw_sitka_gar": 0.1984,
+   "cw_sitka_mail": 0.1984,
+   "cw_ann_nw": 1.3012,
+   "cw_ann_gb": 0.8697,
+   "cw_ann_sw": 1.2315,
+   "cw_juarez": 4.5645,
+   "cw_or_works": 3.145,
+   "cw_priv1867": 3.4453
+  },
+  "story_problems": 0,
+  "stress_problems": 16,
+  "rule_strict": true,
+  "stress_failing": {
+   "1887": [
+    "Private saving capacity"
+   ],
+   "1914": [
+    "Private saving capacity"
+   ],
+   "1915": [
+    "Private saving capacity"
+   ],
+   "1916": [
+    "Private saving capacity"
+   ],
+   "1917": [
+    "Private saving capacity"
+   ],
+   "1918": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1919": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1920": [
+    "Private saving capacity"
+   ],
+   "1921": [
+    "Private saving capacity"
+   ],
+   "1922": [
+    "Private saving capacity"
+   ],
+   "1923": [
+    "Private saving capacity"
+   ],
+   "1924": [
+    "Private saving capacity"
+   ],
+   "1927": [
+    "Japan FX buffer funded"
+   ],
+   "1932": [
+    "Debt within 30% (from 1887)"
+   ]
+  },
+  "new_failures_vs_base": "none",
+  "room_after": {
+   "1861": {
+    "story": 30.18,
+    "stress": 15.61
+   },
+   "1862": {
+    "story": 18.51,
+    "stress": 4.25
+   },
+   "1863": {
+    "story": 17.48,
+    "stress": 0.05
+   },
+   "1864": {
+    "story": 19.93,
+    "stress": 1.27
+   },
+   "1865": {
+    "story": 29.08,
+    "stress": 9.54
+   },
+   "1866": {
+    "story": 29.05,
+    "stress": 7.0
+   },
+   "1867": {
+    "story": 36.28,
+    "stress": 10.49
+   },
+   "1868": {
+    "story": 45.97,
+    "stress": 18.01
+   },
+   "1869": {
+    "story": 50.45,
+    "stress": 19.79
+   },
+   "1870": {
+    "story": 59.56,
+    "stress": 30.6
+   },
+   "1871": {
+    "story": 63.16,
+    "stress": 29.28
+   },
+   "1872": {
+    "story": 59.06,
+    "stress": 19.36
+   }
+  },
+  "debt_peak_story": 66.8875218546337,
+  "debt_peak_stress": 72.9989142006218,
+  "rf_1872_story": 4.4914146882532,
+  "real_gdp_1932_story": 41811.8075766236
+ },
+ "D": {
+  "package": "Self-financing",
+  "fraction": 0.53125,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.8771,
+   "cw_rich_late": 5.6314,
+   "cw_hon_batt": 4.6484,
+   "cw_hon_turret": 3.204,
+   "cw_occ6567": 6.1094,
+   "cw_sitka_gar": 0.4733,
+   "cw_sitka_mail": 0.4733,
+   "cw_juarez": 10.8906,
+   "cw_or_works": 7.5039
+  },
+  "story_problems": 0,
+  "stress_problems": 16,
+  "rule_strict": true,
+  "stress_failing": {
+   "1887": [
+    "Private saving capacity"
+   ],
+   "1914": [
+    "Private saving capacity"
+   ],
+   "1915": [
+    "Private saving capacity"
+   ],
+   "1916": [
+    "Private saving capacity"
+   ],
+   "1917": [
+    "Private saving capacity"
+   ],
+   "1918": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1919": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1920": [
+    "Private saving capacity"
+   ],
+   "1921": [
+    "Private saving capacity"
+   ],
+   "1922": [
+    "Private saving capacity"
+   ],
+   "1923": [
+    "Private saving capacity"
+   ],
+   "1924": [
+    "Private saving capacity"
+   ],
+   "1927": [
+    "Japan FX buffer funded"
+   ],
+   "1932": [
+    "Debt within 30% (from 1887)"
+   ]
+  },
+  "new_failures_vs_base": "none",
+  "room_after": {
+   "1861": {
+    "story": 27.82,
+    "stress": 13.25
+   },
+   "1862": {
+    "story": 17.12,
+    "stress": 2.89
+   },
+   "1863": {
+    "story": 17.48,
+    "stress": 0.02
+   },
+   "1864": {
+    "story": 18.84,
+    "stress": 0.07
+   },
+   "1865": {
+    "story": 20.72,
+    "stress": 1.02
+   },
+   "1866": {
+    "story": 24.22,
+    "stress": 1.66
+   },
+   "1867": {
+    "story": 36.84,
+    "stress": 10.02
+   },
+   "1868": {
+    "story": 46.84,
+    "stress": 18.41
+   },
+   "1869": {
+    "story": 51.26,
+    "stress": 20.03
+   },
+   "1870": {
+    "story": 60.16,
+    "stress": 29.92
+   },
+   "1871": {
+    "story": 62.81,
+    "stress": 27.76
+   },
+   "1872": {
+    "story": 58.94,
+    "stress": 19.21
+   }
+  },
+  "debt_peak_story": 87.0499027814108,
+  "debt_peak_stress": 94.0777912817274,
+  "rf_1872_story": 2.79359667823035,
+  "real_gdp_1932_story": 43358.1576274003
+ }
+}

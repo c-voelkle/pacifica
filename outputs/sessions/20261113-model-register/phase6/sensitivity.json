@@ -1,0 +1,128 @@
+{
+ "garrisons": {
+  "A": {
+   "allows": true,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 17,
+   "new_failures_vs_variant_base": "stress 1864: Private saving capacity",
+   "stress_room_1863": 1.51,
+   "stress_room_1867": 13.77
+  },
+  "B": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 19,
+   "new_failures_vs_variant_base": "stress 1863: Private saving capacity; stress 1867: Private saving capacity; stress 1932: Private saving capacity",
+   "stress_room_1863": -1.5,
+   "stress_room_1867": -1.37
+  },
+  "C": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 18,
+   "new_failures_vs_variant_base": "stress 1863: Private saving capacity; stress 1864: Private saving capacity",
+   "stress_room_1863": -1.45,
+   "stress_room_1867": 9.17
+  },
+  "D": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 20,
+   "new_failures_vs_variant_base": "stress 1863: Private saving capacity; stress 1864: Private saving capacity; stress 1865: Private saving capacity; stress 1866: Private saving capacity",
+   "stress_room_1863": -1.48,
+   "stress_room_1867": 7.65
+  },
+  "variant_base": {
+   "story_problems": 0,
+   "stress_problems": 17
+  }
+ },
+ "heads": {
+  "A": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 18,
+   "new_failures_vs_variant_base": "none",
+   "stress_room_1863": 3.02,
+   "stress_room_1867": 13.55
+  },
+  "B": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 18,
+   "new_failures_vs_variant_base": "none",
+   "stress_room_1863": 0.0,
+   "stress_room_1867": 1.02
+  },
+  "C": {
+   "allows": true,
+   "strict": true,
+   "story_problems": 0,
+   "stress_problems": 17,
+   "new_failures_vs_variant_base": "none",
+   "stress_room_1863": 0.05,
+   "stress_room_1867": 9.62
+  },
+  "D": {
+   "allows": true,
+   "strict": true,
+   "story_problems": 0,
+   "stress_problems": 16,
+   "new_failures_vs_variant_base": "none",
+   "stress_room_1863": 0.02,
+   "stress_room_1867": 9.16
+  },
+  "variant_base": {
+   "story_problems": 0,
+   "stress_problems": 19
+  }
+ },
+ "gold": {
+  "A": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 18,
+   "new_failures_vs_variant_base": "stress 1864: Private saving capacity",
+   "stress_room_1863": 2.83,
+   "stress_room_1867": 13.65
+  },
+  "B": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 19,
+   "new_failures_vs_variant_base": "stress 1863: Private saving capacity; stress 1932: Private saving capacity",
+   "stress_room_1863": -0.2,
+   "stress_room_1867": 1.37
+  },
+  "C": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 18,
+   "new_failures_vs_variant_base": "stress 1863: Private saving capacity",
+   "stress_room_1863": -0.15,
+   "stress_room_1867": 9.97
+  },
+  "D": {
+   "allows": false,
+   "strict": false,
+   "story_problems": 0,
+   "stress_problems": 19,
+   "new_failures_vs_variant_base": "stress 1863: Private saving capacity; stress 1864: Private saving capacity",
+   "stress_room_1863": -0.18,
+   "stress_room_1867": 9.51
+  },
+  "variant_base": {
+   "story_problems": 0,
+   "stress_problems": 17
+  }
+ }
+}

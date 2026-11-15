@@ -1,0 +1,42 @@
+{
+ "none": {
+  "stress_problems": 17,
+  "story_problems": 0,
+  "margin_1932_stress": 3.91558819163265,
+  "residents_1932": 36750395.6288964,
+  "binding": "stress 1932: Private saving capacity",
+  "sitka_ceiling": 0.891
+ },
+ "refugees 20,000": {
+  "stress_problems": 17,
+  "story_problems": 0,
+  "margin_1932_stress": 16.5567985098951,
+  "residents_1932": 36920192.921341,
+  "binding": "stress 1932: Private saving capacity",
+  "sitka_ceiling": 3.891
+ },
+ "seal lease": {
+  "stress_problems": 17,
+  "story_problems": 0,
+  "margin_1932_stress": 5.37343966994831,
+  "residents_1932": 36771296.0739609,
+  "binding": "stress 1932: Private saving capacity",
+  "sitka_ceiling": 1.219
+ },
+ "seal lease + refugees 20,000": {
+  "stress_problems": 17,
+  "story_problems": 0,
+  "margin_1932_stress": 18.0050018134152,
+  "residents_1932": 36940886.7497377,
+  "binding": "stress 1932: Private saving capacity",
+  "sitka_ceiling": 4.203
+ },
+ "seal lease + refugees 33,000": {
+  "stress_problems": 17,
+  "story_problems": 0,
+  "margin_1932_stress": 26.2248622925117,
+  "residents_1932": 37044851.779242,
+  "binding": "stress 1932: Interest within 15% (from 1887), Private saving capacity",
+  "sitka_ceiling": 7.984
+ }
+}

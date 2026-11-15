@@ -1,0 +1,12 @@
+{
+ "D_final": {
+  "story": 0,
+  "stress": 15,
+  "allows": true,
+  "matches_solver": true,
+  "formula_errors": [
+   0,
+   0
+  ]
+ }
+}
