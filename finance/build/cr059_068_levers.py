@@ -124,14 +124,17 @@ LEVERS = [
      "of the state's 5% and paid by the mine, so the royalty is unchanged."),
     ("cw_ak_seward", "L04: Seward Peninsula placers from the telegraph survey's notes, $m/yr 1876-98", 0, 0, "$m/yr",
      "Lever (start 0)", "Added to Resources E 1876-98 (from 1899 the historical path holds Nome). Alaskamaxx D, MODEL 1.0."),
-    ("cw_ak_telegraph", "L04: the Bering telegraph (1 = built)", 0, 0, "switch", "Lever (off)",
-     "E226-E227: Western Union's abandoned line bought and the Bering link finished, $0.5m/yr 1868-72 (Programme), "
-     "then an operating loss of $0.15m/yr 1873-1900. MODEL; its strategic value is not in the workbook."),
-    ("cw_ak_commission", "L04: Northern Commission and survey, $m/yr 1867-85", 0, 0, "$m/yr", "Lever (start 0)",
-     "E228. Alaskamaxx A-B, MODEL 0.15: the assay office, claims courts, land office and survey."),
+    ("cw_ak_telegraph", "L04: the Alaska line through British Columbia (1 = built)", 0, 0, "switch", "Lever (off)",
+     "CR-070 E2-E3, E7 (author, 15 Nov: the Bering telegraph is a road not taken). E226: Western Union's British "
+     "Columbia line bought, the gap built to the Stikine and the Wrangell-Sitka cable, $0.4m/yr 1868-70; E227: an "
+     "operating loss of $0.05m/yr 1871-97; E237-E238: the Sitka-Juneau cable ($0.15m/yr 1872-73) and the Lynn Canal "
+     "line ($0.2m, 1884). MODEL."),
+    ("cw_ak_commission", "L04: Northern Commission and survey, $m/yr 1867-1932", 0, 0, "$m/yr", "Lever (start 0)",
+     "E228. Alaskamaxx A-B, MODEL 0.15: the assay office, claims courts, land office and survey. CR-070 G2: the "
+     "Commission continues after 1885; carried to 1932 until the counties' CR settles Alaska's standing."),
     ("cw_ak_route", "L04: the Chilkoot compact and an early Yukon route (1 = on)", 0, 0, "switch", "Lever (off)",
-     "E229-E231: road and tramway with the clans $0.1m/yr 1884-86; E61's railway, assay and bank moved to 1896-98; "
-     "the public share of route, assay and bank income $0.3m/yr 1897-1910. Alaskamaxx G, MODEL."),
+     "E229-E231: road and tramway with the clans $0.1m/yr 1884-86; E61's railway, assay and bank moved to 1897-99 "
+     "(CR-070 F3, after the news); the public share of route, assay and bank income $0.3m/yr 1897-1910. MODEL."),
     ("cw_l15_on", "L15: the new members' public land in the Land Fund from 1867 (1 = on)", 1, 1, "switch",
      "Approved (author, 13 Nov: Q7)", "Sheet Members' land; its net to the Treasury goes into Budget G beside the Land "
      "Fund's. Sold on the Land Fund's instalments, default and survey cost, at its floor price. The nations are paid "
@@ -186,6 +189,21 @@ LEVERS = [
      "Deferred by author", "Recommended: confederal pay in gold for road duty only."),
     ("cw_legion_pay", "L16: the Legion's road-duty pay, per year 1863-67", 0.15, 0.15, "$m/yr", "Model estimate",
      "About 500 men at $300 a year."),
+    ("cw_ak_cable88", "CR-070 E4: the Puget Sound-Sitka sea cable, total cost 1887-88", 0, 0, "$m", "Lever (start 0)",
+     "E239, half in each year. MODEL 1.5 (the Army's 1903 appropriation for Sitka-Seattle and Juneau-Sitka was "
+     "$485,000 with cheap rubber cable, Hist.; conservative). Ordered by Elias's cabinet in 1886 after Port Hamilton."),
+    ("cw_ak_bc_sale", "CR-070 E5: the British Columbia line sold to Canada, 1897", 0, 0, "$m", "Lever (start 0)",
+     "E240, a receipt. MODEL 0.25: Ottawa's own estimates of 1897-98 were $150,000-340,000 to build (Hist.)."),
+    ("cw_ak_aleutian", "CR-070 E4: the Aleutian cable, Sitka to Hakodate, total cost 1900-03", 0, 0, "$m",
+     "Lever (start 0)", "E241, a quarter in each year. MODEL 4.5 (range 4-5), about 3,300 nautical miles at the rate of "
+     "the British Pacific cable of 1902 (to verify). Its stations' upkeep is not costed."),
+    ("cw_ak_copper", "CR-070 B4, G5: the Chitina's copper under Nicolai's compact, scale of the MODEL path", 0, 0,
+     "scale", "Lever (start 0)", "Added to Resources F in 1900-28. Path at 1: $2m in 1900, $5m a year in 1901-02, $9m "
+     "a year in 1903-20, $3m a year in 1921-28, about $198m in all: Kennecott's output of 1909-38 (about $200m, to "
+     "verify by year) read about ten years early at a flat value. Not in the baseline's column F. The state takes its "
+     "5%; the finder's share and the lease are paid by the mine."),
+    ("cw_ak_copper_rail", "CR-070 B4, G5: the Copper River railway on Development Fund credit, total 1897-1900", 0, 0,
+     "$m", "Lever (start 0)", "E243, a quarter in each year. MODEL 25 (historically $23-25m, built 1907-11, Hist.)."),
 ]
 
 SETOFFS = "cw_scrip_face+cw_nb_credit*cw_ann_nw*5+cw_setoff_nc+cw_keep64+cw_keep67"
@@ -251,19 +269,37 @@ NEW_EVENTS = [
      "Proposed", "Alaskamaxx F", "L04."),
     ("E225", 1901, 1932, "Alaska salmon case tax", "Receipt", None, None, "=0.6*cw_ak_salmon", "No",
      "Proposed", "Alaskamaxx F", "L04."),
-    ("E226", 1868, 1872, "Bering telegraph: Western Union's line bought and the link finished", "Programme", None,
-     None, "=0.5*cw_ak_telegraph", "No", "Proposed", "Alaskamaxx D", "L04; the Polytechnic's telegraph."),
-    ("E227", 1873, 1900, "Bering telegraph: operating loss", "Subsidy & guarantee", None, None,
-     "=0.15*cw_ak_telegraph", "No", "Proposed", "Alaskamaxx D", "L04."),
-    ("E228", 1867, 1885, "Northern Commission, assay office and survey", "Programme", None, None,
-     "=cw_ak_commission", "No", "Proposed", "Alaskamaxx A-B", "L04."),
+    ("E226", 1868, 1870, "Alaska line: the British Columbia line bought, built to the Stikine, cable to Sitka",
+     "Programme", None, None, "=0.4*cw_ak_telegraph", "No", "Proposed", "CR-070 E2", "L04; E7, MODEL $1.2m."),
+    ("E227", 1871, 1897, "Alaska line: operating loss", "Subsidy & guarantee", None, None,
+     "=0.05*cw_ak_telegraph", "No", "Proposed", "CR-070 E2", "L04; sold to Canada in 1897 (E240)."),
+    ("E228", 1867, 1932, "Northern Commission, assay office and survey", "Programme", None, None,
+     "=cw_ak_commission", "No", "Proposed", "CR-070 A1, G2", "L04; to 1932 pending the counties' CR."),
     ("E229", 1884, 1886, "Chilkoot road and tramway with the clans", "Programme", None, None,
      "=0.1*cw_ak_route", "No", "Proposed", "Alaskamaxx G", "L04."),
-    ("E230", 1896, 1898, "Skagway-Whitehorse railway, assay and banking (public share), early", "Programme", None,
+    ("E230", 1897, 1899, "Skagway-Whitehorse railway, assay and banking (public share), early", "Programme", None,
      "Canada", "=1*cw_ak_route", "No", "Proposed", "Alaskamaxx G", "L04; replaces E61 when cw_ak_route = 1."),
     ("E231", 1897, 1910, "Yukon route, assay and bank income (public share)", "Receipt", None, None,
      "=0.3*cw_ak_route", "No", "Proposed", "Alaskamaxx G", "L04."),
+    ("E232", 1872, 1873, "Sitka-Juneau cable", "Programme", None, None, "=0.15*cw_ak_telegraph", "No", "Proposed",
+     "CR-070 E3", "E7, MODEL."),
+    ("E233", 1884, 1884, "Lynn Canal line to Dyea", "Programme", None, None, "=0.2*cw_ak_telegraph", "No",
+     "Proposed", "CR-070 E3", "E7, MODEL; with the Chilkoot road."),
+    ("E234", 1887, 1888, "Puget Sound-Sitka sea cable", "Investment", None, None, "=cw_ak_cable88/2", "No",
+     "Proposed", "CR-070 E4", "Ordered 1886; Alaska's wire off British soil."),
+    ("E235", 1897, 1897, "British Columbia telegraph line sold to Canada", "Receipt", None, "Canada",
+     "=cw_ak_bc_sale", "No", "Proposed", "CR-070 E5", "Once the Klondike news is public."),
+    ("E236", 1900, 1903, "Aleutian cable: Sitka, Kodiak, Unalaska, Attu, the Kurils, Hakodate", "Investment", None,
+     None, "=cw_ak_aleutian/4", "No", "Proposed", "CR-070 E4, G9", "The second route to Japan (CR-021 I3)."),
+    ("E237", 1869, 1932, "Sitka ground rent to the Tlingit clans", "Programme", None, None,
+     "=IF(cw_ak_commission>0,0.005,0)", "No", "Proposed", "CR-070 G4", "$5,000 a year in gold; reviewed every ten years."),
+    ("E238", 1897, 1900, "Copper River railway (Development Fund credit)", "Investment", None, None,
+     "=cw_ak_copper_rail/4", "No", "Proposed", "CR-070 B4, G5", "Ore shipped from about 1900."),
 ]
+
+# CR-070 G5: the Chitina's copper, MODEL path at cw_ak_copper = 1 ($m a year), added to Resources F.
+AK_COPPER = {1900: 2, **{y: 5 for y in (1901, 1902)}, **{y: 9 for y in range(1903, 1921)},
+             **{y: 3 for y in range(1921, 1929)}}
 
 PRIV = ('SUMPRODUCT((Events!$B$6:$B$400<=$A{r})*(Events!$C$6:$C$400>=$A{r})*'
         '(Events!$E$6:$E$400="Private lending")*(Events!$J$6:$J$400="{gold}")*Events!$H$6:$H$400)')
@@ -464,7 +500,7 @@ def main() -> None:
     setrow("E195", end=1872, desc="Sitka garrison and squadron (1867-72)", h="=cw_sitka_gar")
     setrow("E196", h="=cw_sitka_mail")
     rr = setrow("E61", h="=1*(1-cw_ak_route)")
-    note(E.cell(rr, 8), "Alaskamaxx G (author, 14 Nov): moved to 1896-98 (E230) when cw_ak_route = 1.")
+    note(E.cell(rr, 8), "Alaskamaxx G (author, 14 Nov; CR-070 F3): moved to 1897-99 (E230) when cw_ak_route = 1.")
 
     last = max(x for x in range(6, 401) if E.cell(x, 1).value)
     assert E.cell(last, 1).value == "E196", E.cell(last, 1).value
@@ -510,6 +546,14 @@ def main() -> None:
             rs.cell(rr, 5).value = f"=T{rr}"
     note(rs.cell(5, 20), "Alaskamaxx (author, 14 Nov): the historical path. Column E reads it shifted by "
          "cw_ak_gold_lead years in 1867-98 (finder's compact) plus cw_ak_seward in 1876-98.")
+
+    # --- CR-070 G5: Resources F (copper & other metals) gains the Chitina's copper, 1900-28
+    for y, amt in AK_COPPER.items():
+        c = rs.cell(yrow(y), 6)
+        assert isinstance(c.value, (int, float)), (y, c.value)
+        c.value = f"={c.value}+{amt}*cw_ak_copper"
+    note(rs.cell(yrow(1900), 6), "CR-070 B4, G5 (author, 15 Nov): the Chitina's copper under Nicolai's finder's "
+         "compact, 1900-28, MODEL path scaled by cw_ak_copper.")
 
     # --- L12: Paths E, 1863-65
     ps = wb["Paths"]

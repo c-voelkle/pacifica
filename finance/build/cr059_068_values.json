@@ -29,5 +29,10 @@
  "cw_ak_seward": 1.0,
  "cw_ak_commission": 0.15,
  "cw_ak_telegraph": 1,
- "cw_ak_route": 1
+ "cw_ak_route": 1,
+ "cw_ak_cable88": 1.5,
+ "cw_ak_bc_sale": 0.25,
+ "cw_ak_aleutian": 4.5,
+ "cw_ak_copper": 1.0,
+ "cw_ak_copper_rail": 25
 }
