@@ -1,0 +1,183 @@
+{
+ "story": {
+  "problems": 0,
+  "failing": {},
+  "residents_1861": 1313954.93,
+  "residents_1865": 1648908.17,
+  "residents_1867": 2231415.36,
+  "residents_1872": 2932712.11,
+  "residents_1880": 4448830.67,
+  "residents_1900": 10752644.5,
+  "residents_1918": 24230615.58,
+  "residents_1929": 35444142.73,
+  "residents_1932": 38435414.78,
+  "gdp_1861": 310.49,
+  "gdp_1865": 466.64,
+  "gdp_1867": 592.4,
+  "gdp_1872": 917.61,
+  "gdp_1880": 1477.22,
+  "gdp_1900": 6010.78,
+  "gdp_1918": 42536.66,
+  "gdp_1929": 77197.67,
+  "gdp_1932": 61193.7,
+  "real_gdp_1861": 352.83,
+  "real_gdp_1865": 491.2,
+  "real_gdp_1867": 623.58,
+  "real_gdp_1872": 995.24,
+  "real_gdp_1880": 1846.53,
+  "real_gdp_1900": 7908.92,
+  "real_gdp_1918": 25624.49,
+  "real_gdp_1929": 48248.55,
+  "real_gdp_1932": 44601.82,
+  "public_debt_1861": 2.54,
+  "public_debt_1865": 65.43,
+  "public_debt_1867": 69.96,
+  "public_debt_1872": 72.99,
+  "public_debt_1880": 0,
+  "public_debt_1900": 300.54,
+  "public_debt_1918": 2126.83,
+  "public_debt_1929": 3859.88,
+  "public_debt_1932": 3280.8,
+  "reserve_fund_1861": 0,
+  "reserve_fund_1865": 0,
+  "reserve_fund_1867": 0,
+  "reserve_fund_1872": 0,
+  "reserve_fund_1880": 62.43,
+  "reserve_fund_1900": 122.61,
+  "reserve_fund_1918": 435.17,
+  "reserve_fund_1929": 1301.11,
+  "reserve_fund_1932": 1448.67,
+  "private_margin_1861": 29.05,
+  "private_margin_1865": 29.64,
+  "private_margin_1867": 36.69,
+  "private_margin_1872": 56.55,
+  "private_margin_1880": 97.41,
+  "private_margin_1900": 263.76,
+  "private_margin_1918": 1413.36,
+  "private_margin_1929": 3045.92,
+  "private_margin_1932": 5216.49,
+  "gold_1861": 161.84,
+  "gold_1865": 268.9,
+  "gold_1867": 201.31,
+  "gold_1872": 219.69,
+  "gold_1880": 322.98,
+  "gold_1900": 495.15,
+  "gold_1918": 1393.68,
+  "gold_1929": 2593.49,
+  "gold_1932": 2638.26
+ },
+ "stress": {
+  "problems": 15,
+  "failing": {
+   "1887": [
+    "Private saving capacity"
+   ],
+   "1914": [
+    "Private saving capacity"
+   ],
+   "1915": [
+    "Private saving capacity"
+   ],
+   "1916": [
+    "Private saving capacity"
+   ],
+   "1917": [
+    "Private saving capacity"
+   ],
+   "1918": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1919": [
+    "Private saving capacity",
+    "Siberian line carries the army (1918-32)"
+   ],
+   "1920": [
+    "Private saving capacity"
+   ],
+   "1921": [
+    "Private saving capacity"
+   ],
+   "1922": [
+    "Private saving capacity"
+   ],
+   "1923": [
+    "Private saving capacity"
+   ],
+   "1924": [
+    "Private saving capacity"
+   ],
+   "1927": [
+    "Japan FX buffer funded"
+   ]
+  },
+  "residents_1861": 1293364.42,
+  "residents_1865": 1609602.28,
+  "residents_1867": 2177197.02,
+  "residents_1872": 2823438.0,
+  "residents_1880": 4172029.48,
+  "residents_1900": 8521814.88,
+  "residents_1918": 15507955.61,
+  "residents_1929": 20938661.65,
+  "residents_1932": 22269338.55,
+  "gdp_1861": 299.88,
+  "gdp_1865": 444.24,
+  "gdp_1867": 558.43,
+  "gdp_1872": 841.32,
+  "gdp_1880": 1288.54,
+  "gdp_1900": 3844.34,
+  "gdp_1918": 18957.18,
+  "gdp_1929": 28363.74,
+  "gdp_1932": 17476.28,
+  "real_gdp_1861": 340.77,
+  "real_gdp_1865": 467.62,
+  "real_gdp_1867": 587.82,
+  "real_gdp_1872": 912.5,
+  "real_gdp_1880": 1610.68,
+  "real_gdp_1900": 5058.35,
+  "real_gdp_1918": 11419.99,
+  "real_gdp_1929": 17727.34,
+  "real_gdp_1932": 14324.82,
+  "public_debt_1861": 2.52,
+  "public_debt_1865": 69.64,
+  "public_debt_1867": 77.9,
+  "public_debt_1872": 101.65,
+  "public_debt_1880": 0,
+  "public_debt_1900": 192.22,
+  "public_debt_1918": 2448.97,
+  "public_debt_1929": 3573.12,
+  "public_debt_1932": 4999.38,
+  "reserve_fund_1861": 0,
+  "reserve_fund_1865": 0,
+  "reserve_fund_1867": 0,
+  "reserve_fund_1872": 0,
+  "reserve_fund_1880": 52.34,
+  "reserve_fund_1900": 24.49,
+  "reserve_fund_1918": 0,
+  "reserve_fund_1929": 38.12,
+  "reserve_fund_1932": 0,
+  "private_margin_1861": 14.48,
+  "private_margin_1865": 6.51,
+  "private_margin_1867": 9.82,
+  "private_margin_1872": 12.74,
+  "private_margin_1880": 33.73,
+  "private_margin_1900": 31.19,
+  "private_margin_1918": -985.6,
+  "private_margin_1929": 222.15,
+  "private_margin_1932": 92.43,
+  "gold_1861": 152.9,
+  "gold_1865": 225.8,
+  "gold_1867": 197.05,
+  "gold_1872": 211.89,
+  "gold_1880": 306.02,
+  "gold_1900": 407.14,
+  "gold_1918": 868.33,
+  "gold_1929": 1287.61,
+  "gold_1932": 699.89
+ },
+ "garrisons_x1.25": {
+  "stress": 15,
+  "margin_1932": 85.87,
+  "story": 0
+ }
+}

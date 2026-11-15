@@ -1,0 +1,41 @@
+{
+ "1.0000": {
+  "story": 0,
+  "stress": 17,
+  "allows": true
+ },
+ "0.7500": {
+  "story": 0,
+  "stress": 18,
+  "allows": false
+ },
+ "0.8750": {
+  "story": 0,
+  "stress": 17,
+  "allows": true
+ },
+ "0.8125": {
+  "story": 0,
+  "stress": 17,
+  "allows": true
+ },
+ "0.7812": {
+  "story": 0,
+  "stress": 18,
+  "allows": false
+ },
+ "0.7969": {
+  "story": 0,
+  "stress": 17,
+  "allows": true
+ },
+ "0.7891": {
+  "story": 0,
+  "stress": 17,
+  "allows": true
+ },
+ "tolerance": {
+  "passes_at": 0.7891,
+  "fails_at": 0.7812
+ }
+}

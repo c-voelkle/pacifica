@@ -1,0 +1,72 @@
+{
+ "D + lease + refugees 20,000, growth first": {
+  "garrison_safe_fraction": 0.734,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.458,
+   "cw_rich_late": 4.375,
+   "cw_hon_batt": 3.414,
+   "cw_hon_turret": 2.353,
+   "cw_occ6567": 4.785,
+   "cw_sitka_gar": 2.848,
+   "cw_sitka_mail": 2.848,
+   "cw_juarez": 8.436,
+   "cw_or_works": 10.867,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "margin_1932": 32.11,
+  "room": {
+   "1862": 4.65,
+   "1863": 1.51,
+   "1864": 2.49,
+   "1865": 6.48,
+   "1866": 6.02,
+   "1867": 7.31
+  }
+ },
+ "D + lease + refugees 33,000, growth first": {
+  "garrison_safe_fraction": 0.727,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 33000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.345,
+   "cw_rich_late": 4.338,
+   "cw_hon_batt": 3.377,
+   "cw_hon_turret": 2.328,
+   "cw_occ6567": 5.385,
+   "cw_sitka_gar": 3.168,
+   "cw_sitka_mail": 3.168,
+   "cw_juarez": 8.048,
+   "cw_or_works": 10.528,
+   "cw_alaska_rcpt": 0.3175
+  },
+  "margin_1932": 35.94,
+  "room": {
+   "1862": 4.8,
+   "1863": 1.5,
+   "1864": 2.69,
+   "1865": 6.8,
+   "1866": 6.58,
+   "1867": 6.91
+  }
+ }
+}

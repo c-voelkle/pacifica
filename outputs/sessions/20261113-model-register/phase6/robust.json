@@ -1,0 +1,141 @@
+{
+ "garrisons:A": {
+  "survives": 0.812,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rich_early": 2.731,
+   "cw_rich_late": 8.193,
+   "cw_war61": 7.5,
+   "cw_occ6264": 6.25,
+   "cw_occ6567": 0.0
+  }
+ },
+ "garrisons:B": {
+  "survives": 0.75,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_hon_batt": 5.204,
+   "cw_hon_turret": 3.587,
+   "cw_occ6567": 8.549,
+   "cw_sitka_gar": 0.53,
+   "cw_sitka_mail": 0.53,
+   "cw_rich_early": 0.3,
+   "cw_rich_late": 0.9,
+   "cw_war61": 7.5,
+   "cw_occ6264": 6.25
+  }
+ },
+ "garrisons:C": {
+  "survives": 0.75,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rich_early": 0.796,
+   "cw_rich_late": 2.387,
+   "cw_hon_batt": 1.461,
+   "cw_hon_turret": 1.007,
+   "cw_occ6567": 2.4,
+   "cw_sitka_gar": 0.149,
+   "cw_sitka_mail": 0.149,
+   "cw_ann_nw": 0.976,
+   "cw_ann_gb": 0.652,
+   "cw_ann_sw": 0.924,
+   "cw_juarez": 3.423,
+   "cw_or_works": 2.359,
+   "cw_priv1867": 3.334,
+   "cw_war61": 7.5,
+   "cw_occ6264": 6.25
+  }
+ },
+ "garrisons:D": {
+  "survives": 0.734,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.458,
+   "cw_rich_late": 4.375,
+   "cw_hon_batt": 3.414,
+   "cw_hon_turret": 2.353,
+   "cw_occ6567": 5.608,
+   "cw_sitka_gar": 0.348,
+   "cw_sitka_mail": 0.348,
+   "cw_juarez": 7.998,
+   "cw_or_works": 5.511,
+   "cw_war61": 7.5,
+   "cw_occ6264": 6.25
+  }
+ },
+ "gold:A": {
+  "survives": 0.938,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rich_early": 3.105,
+   "cw_rich_late": 9.315
+  }
+ },
+ "gold:B": {
+  "survives": 0.359,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_hon_batt": 2.494,
+   "cw_hon_turret": 1.719,
+   "cw_occ6567": 3.277,
+   "cw_sitka_gar": 0.254,
+   "cw_sitka_mail": 0.254,
+   "cw_rich_early": 0.3,
+   "cw_rich_late": 0.9
+  }
+ },
+ "gold:C": {
+  "survives": 0.969,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rich_early": 0.94,
+   "cw_rich_late": 2.821,
+   "cw_hon_batt": 1.887,
+   "cw_hon_turret": 1.301,
+   "cw_occ6567": 2.48,
+   "cw_sitka_gar": 0.192,
+   "cw_sitka_mail": 0.192,
+   "cw_ann_nw": 1.261,
+   "cw_ann_gb": 0.843,
+   "cw_ann_sw": 1.193,
+   "cw_juarez": 4.422,
+   "cw_or_works": 3.047,
+   "cw_priv1867": 3.431
+  }
+ },
+ "gold:D": {
+  "survives": 0.953,
+  "values": {
+   "cw_scrip_face": 3.2,
+   "cw_rc_or": 0.45,
+   "cw_washoe": 0.15,
+   "cw_rc_sw": 0.3,
+   "cw_rc_gb": 0.05,
+   "cw_ann_nw": 0.45,
+   "cw_ann_gb": 0.2,
+   "cw_ann_sw": 0.3,
+   "cw_refugees": 20000,
+   "cw_inst_opt": 2,
+   "cw_priv1867": 3.0,
+   "cw_rich_early": 1.803,
+   "cw_rich_late": 5.41,
+   "cw_hon_batt": 4.431,
+   "cw_hon_turret": 3.054,
+   "cw_occ6567": 5.823,
+   "cw_sitka_gar": 0.451,
+   "cw_sitka_mail": 0.451,
+   "cw_juarez": 10.38,
+   "cw_or_works": 7.152
+  }
+ }
+}

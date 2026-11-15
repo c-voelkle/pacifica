@@ -60,6 +60,8 @@ class Canon(unittest.TestCase):
         cls.rows, cls.meta = canon.run("our_timeline", k_early=1.0)
 
     def test_gap_decomposition_adds_up(self):
+        if canon.JOINS_FILE:   # a joins file departs from the sheet's joins on purpose
+            self.skipTest("PACIFICA_JOINS is set: the sheet and the model join different territories")
         for r in self.rows:
             resid = r["sheet_total"] - r["model_total"] - sum(r["gap_by_group"].values())
             self.assertLess(abs(resid), 5, r["year"])
@@ -135,3 +137,33 @@ class Neighbours(unittest.TestCase):
             lost = self.otl[y]["total"] - self.alt[y]["total"]
             abroad = sum(self.alt[y][k] for k in ("union_black", "union_white", "gulf_black", "gulf_white"))
             self.assertLess(abs(lost / abroad - 1), 0.02, y)
+
+
+class CivilWarJoins(unittest.TestCase):
+    """The joins file of the Civil War CRs (model plan phase 3; author, 13 November 2026)."""
+
+    def setUp(self):
+        import tomllib
+        self.path = Path(__file__).resolve().parents[1] / "data" / "joins_cr059_068.toml"
+        self.d = tomllib.loads(self.path.read_text(encoding="utf-8"))
+
+    def test_every_territory_joins_at_the_exchange(self):
+        self.assertEqual({j["year"] for j in self.d["join"]}, {1867})   # Q1: nothing in 1862-66
+
+    def test_each_join_is_sourced_and_has_census_states(self):
+        states = cohort.load("census")["states"]
+        for j in self.d["join"]:
+            self.assertTrue(j["residents"] > 0 and j["basis"], j["territory"])
+            for s in j["states"]:
+                self.assertIn(s, states, j["territory"])
+
+    def test_override_replaces_the_sheet_joins(self):
+        old = canon.JOINS_FILE
+        try:
+            canon.JOINS_FILE = str(self.path)
+            d, by = canon.join_override()
+        finally:
+            canon.JOINS_FILE = old
+        self.assertEqual(by[canon.HAWAII_JOIN], 72000)
+        self.assertAlmostEqual(by[1867], sum(j["residents"] for j in d["join"]))
+        self.assertEqual(sorted(by), [1856, 1867])

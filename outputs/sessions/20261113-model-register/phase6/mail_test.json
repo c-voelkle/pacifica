@@ -1,0 +1,20 @@
+{
+ "2.848": {
+  "strict": true,
+  "stress": 16,
+  "margin_1932": 48.72,
+  "real_gdp_1932_story": 43862.7
+ },
+ "0.5": {
+  "strict": true,
+  "stress": 15,
+  "margin_1932": 77.12,
+  "real_gdp_1932_story": 44261.1
+ },
+ "0.3": {
+  "strict": true,
+  "stress": 15,
+  "margin_1932": 79.51,
+  "real_gdp_1932_story": 44295.1
+ }
+}
