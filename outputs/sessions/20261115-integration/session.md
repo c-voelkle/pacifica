@@ -33,5 +33,6 @@ independence: one fresh-context reviewer for the candidate storyline (brief in r
 ## Resume here
 
 - The pull request from `adopt/cr059-070` to `main` waits for the author's sign-off; do not merge before it.
-- Still open after integration: CR-059 open decision 17 (deferred), Sherman's fate after 1865, the CRs' listed open decisions, and the ledger and registry items left out above.
+- CR-059 open decision 17 is decided (author, 15 November 2026: Washington Territory accedes as Columbia, Part IX); it was wrongly listed as deferred.
+- Still open after integration: Sherman's fate after 1865, the CRs' listed open decisions, and the ledger and registry items left out above.
 - After the merge, retire `models/cr059-068-civil-war` and `revision/cr069-gold`, which this branch contains.
