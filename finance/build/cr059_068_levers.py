@@ -38,7 +38,7 @@ canon already fix, or zero where no figure exists. Phase 6 sets the packages.
   L12    Refugees, deserters and draft evaders added to Paths E in 1863-65, 0.
   L13    E14 becomes private lending ($3m, D8): new category "Private lending", counted in
          gold paid out (Gold & money E) and in private uses (Sources & uses K), not in public cash.
-  L16    The Nauvoo Legion's pay (E216), switched off (deferred by the author).
+  L16    The Nauvoo Legion paid only for the Bannack deployment of 1864 (E216; author, 15 Nov).
 Not done here: L15 (the Land Fund's intake of the ceded public domain), approved for a later step.
 """
 from __future__ import annotations
@@ -141,6 +141,14 @@ LEVERS = [
      "by the regional annuities (L08), so no purchase cost is counted here."),
     ("cw_l15_mt_share", "L15: western Montana's share of Montana's farm land", 0.25, 0.25, "share", "Model estimate",
      "The 1867 population was nearly all west of the line; the later ranch land was mostly on the plains (MODEL)."),
+    ("cw_col_school", "CR-059 Part IX: Columbia's schools' share of the margin on Columbia's land", 1 / 18, 1 / 18,
+     "share", "Approved (author, 15 Nov)", "On Oregon's terms (Members' land). Columbia is Washington Territory "
+     "from the exchange of 1867."),
+    ("cw_col_nontreaty", "CR-059 Part IX: share of Columbia's farm land in the country of nations without a treaty",
+     0.15, 0.15, "share", "Story assumption (author, 15 Nov)", "The Chehalis, Cowlitz, Lower Chinook and their "
+     "neighbours, whose council of 1855 made no treaty: their land enters the Land Fund only by purchase, at "
+     "lfund_price an acre paid as annuities over lfund_term years (Members' land). A story assumption: the lower "
+     "Columbia and the Chehalis and Cowlitz valleys hold about a seventh of Columbia's farm land by the census."),
     ("cw_l15_or_school", "L15: Oregon's schools' share of the margin on Oregon's land", 1 / 18, 1 / 18, "share",
      "Approved (author, 14 Nov: Q7)", "One-eighteenth, the proportion of the Union's grant of sections 16 and 36 of "
      "every township to Oregon's schools (1859; Hist.; to verify). CR-059 CT13, open 44."),
@@ -185,10 +193,13 @@ LEVERS = [
      "Lever (start 0)", "Added to Paths E (D7). The population model (pools.toml) is not changed here."),
     ("cw_priv1867", "L13: private lending to the Union's bankers and the transit companies, 1867", 3, 3, "$m",
      "Author (D8: $3-5m; private, 14 Nov)", "Private, not the Treasury's: it uses private saving and gold, not public cash."),
-    ("cw_legion_on", "L16: the Nauvoo Legion paid by the Confederation (1 = yes)", 0, 0, "switch",
-     "Deferred by author", "Recommended: confederal pay in gold for road duty only."),
-    ("cw_legion_pay", "L16: the Legion's road-duty pay, per year 1863-67", 0.15, 0.15, "$m/yr", "Model estimate",
-     "About 500 men at $300 a year."),
+    ("cw_legion_on", "L16: the Nauvoo Legion paid by the Confederation for a decisive deployment (1 = yes)", 0, 0,
+     "switch", "Author (15 Nov): paid only for a decisive deployment",
+     "CR-060 D7, CT7: Pacifica pays the Legion only where its deployment, at a decisive moment, wins something Pacifica "
+     "would not otherwise have had. The deployment is CR-060 M11 (PROPOSED): Lot Smith's cavalry at Bannack, summer 1864."),
+    ("cw_legion_pay", "L16: the Legion's pay for the Bannack deployment, 1864", 0.1, 0.1, "$m", "Model estimate",
+     "About 300 mounted men for a season, in gold, with horses and forage (MODEL). Road duty is the Compact's common "
+     "defence and is not paid."),
     ("cw_ak_cable88", "CR-070 E4: the Puget Sound-Sitka sea cable, total cost 1887-88", 0, 0, "$m", "Lever (start 0)",
      "E234, half in each year. MODEL 1.5 (the Army's 1903 appropriation for Sitka-Seattle and Juneau-Sitka was "
      "$485,000 with cheap rubber cable, Hist.; conservative). Ordered by Elias's cabinet in 1886 after Port Hamilton."),
@@ -205,21 +216,20 @@ LEVERS = [
     ("cw_ak_copper_rail", "CR-070 B4, G5: the Copper River railway on Development Fund credit, total 1897-1900", 0, 0,
      "$m", "Lever (start 0)", "E238, a quarter in each year. MODEL 25 (historically $23-25m, built 1907-11, Hist.)."),
     ("cw_l15_value_rel", "L15: the new members' farm value per acre / California's (Land Fund T)", 0.5, 0.5, "share",
-     "Model estimate (author, 15 Nov: the Land Fund's rule)", "Members' land prices its land as the Land Fund does: "
+     "Story assumption (author, 15 Nov)", "Members' land prices its land as the Land Fund does: "
      "MAX(lfund_floor, lfund_share x value per acre), with the value per acre at this share of California's. MODEL 0.5: "
-     "the 1900 census's farm values per acre in Oregon, Washington, Idaho, Utah, Nevada, Montana, New Mexico and "
-     "Arizona were roughly a third to two-thirds of California's (to verify)."),
+     "a story assumption (author, 15 Nov 2026): the new members' land is worth about half California's."),
     ("cw_peon_comp", "F10: peonage and captive compensation, 1866 (E10)", 0.5, 0.5, "$m", "Author (15 Nov)",
      "CR-061 A2: a quarter of registered face, cap $100 a peon; $50 a released captive; under $0.5m. The Navajo and "
      "Apache treaties' costs are in the Southwest's annuities (E209) from 1862, so E10 carries the compensation only."),
     ("cw_or_rail_south", "CR-059 W9: the Sacramento line to the Siskiyous, total 1863-66", 8, 8, "$m",
-     "Model estimate (author, 15 Nov: costed)", "E240-E243, Development Fund credit, rising as the line goes north: 12.5%, 18.75%, 31.25% and 37.5% in 1863-66 (the war years cannot carry more: Stress private saving in 1863 has about $1.5m of room). MODEL 8: about "
+     "Model estimate (author, 15 Nov: built from 1865)", "E240-E242, Development Fund credit: 25%, 37.5% and 37.5% in 1865-67; the line reaches the Siskiyous in 1867 (author, 15 Nov: started later, so that the war years keep their room). MODEL 8: about "
      "200 miles up the Sacramento valley and into the Shasta country at about $40,000 a mile (to verify against the "
      "California and Oregon Railroad's costs of 1870-72)."),
     ("cw_or_cust_share", "CR-059 V9: Oregon's customs share from 1867, / the customs its residents pay", 0.25, 0.25,
-     "share", "Model estimate (author, 15 Nov: built); OPEN 21", "The Charter's 'defined customs share': a quarter of "
-     "the confederal customs attributable to Oregon's residents, paid to the State (Budget V, subsidies). MODEL; "
-     "the fraction is CR-059 open decision 21."),
+     "share", "Story assumption (author, 15 Nov)", "The Charter's 'defined customs share': a quarter of "
+     "the confederal customs attributable to Oregon's residents, paid to the State (Budget V, subsidies). CR-059 "
+     "open decision 21, settled as a story assumption."),
     ("cw_or_cust_base", "CR-059 V9: Oregon's residents / the confederation's, held at the exchange of 1867", 0.0346,
      0.0346, "share", "Model estimate", "77,096 of about 2.23m residents at the end of 1867 (joins_cr059_068.toml; "
      "People L). Held flat: Oregon grows more slowly than California and Hawaii."),
@@ -268,8 +278,8 @@ NEW_EVENTS = [
      "No", "Proposed", "CR-061 M1", "L09; rifles delivered at Paso del Norte."),
     ("E215", 1868, 1875, "Oregon works and the railway north (Development Fund credit)", "Investment", None, None,
      "=cw_or_works", "No", "Proposed", "CR-059 V9", "L10 (D9)."),
-    ("E216", 1863, 1867, "The Nauvoo Legion's road-duty pay", "War & operations", None, "Deseret",
-     "=cw_legion_on*cw_legion_pay", "No", "Deferred", "CR-060 D7", "L16."),
+    ("E216", 1864, 1864, "The Nauvoo Legion's cavalry at Bannack (paid for the deployment)", "War & operations", None,
+     "Deseret", "=cw_legion_on*cw_legion_pay", "No", "Proposed", "CR-060 D7, M11", "L16 (author, 15 Nov)."),
     ("E217", 1868, 1879, "Seal islands lease and Alaska customs", "Receipt", None, "Alaska Commercial Company",
      "=cw_alaska_rcpt", "No", "Proposed", "CR-062", "L04; Sitka pays for itself (author, 14 Nov)."),
     ("E218", 1873, 1900, "Sitka garrison and squadron (1873-1900, tapered)", "War & operations", None, None,
@@ -316,14 +326,12 @@ NEW_EVENTS = [
      "=cw_ak_copper_rail/4", "No", "Proposed", "CR-070 B4, G5", "Ore shipped from about 1900."),
     ("E239", 1886, 1889, "Pribilof receipts, tendered lease, net of Canada's 15% (convention of 1886)", "Receipt",
      None, None, "=cw_seal_1880s", "No", "Proposed", "CR-070 D2", "L04 (author, 15 Nov)."),
-    ("E240", 1863, 1863, "Sacramento line to the Siskiyous, 1863 (Development Fund credit)", "Investment", None, None,
-     "=cw_or_rail_south*0.125", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 12.5% of the line in 1863."),
-    ("E241", 1864, 1864, "Sacramento line to the Siskiyous, 1864 (Development Fund credit)", "Investment", None, None,
-     "=cw_or_rail_south*0.1875", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 18.7% of the line in 1864."),
-    ("E242", 1865, 1865, "Sacramento line to the Siskiyous, 1865 (Development Fund credit)", "Investment", None, None,
-     "=cw_or_rail_south*0.3125", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 31.2% of the line in 1865."),
-    ("E243", 1866, 1866, "Sacramento line to the Siskiyous, 1866 (Development Fund credit)", "Investment", None, None,
-     "=cw_or_rail_south*0.375", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: costed (MODEL); 37.5% of the line in 1866."),
+    ("E240", 1865, 1865, "Sacramento line to the Siskiyous, 1865 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.25", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: built from 1865 (MODEL); 25% of the line in 1865."),
+    ("E241", 1866, 1866, "Sacramento line to the Siskiyous, 1866 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.375", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: built from 1865 (MODEL); 37.5% of the line in 1866."),
+    ("E242", 1867, 1867, "Sacramento line to the Siskiyous, 1867 (Development Fund credit)", "Investment", None, None,
+     "=cw_or_rail_south*0.375", "No", "Proposed", "CR-059 W9", "Author, 15 Nov: built from 1865 (MODEL); 37.5% of the line in 1867."),
 ]
 
 # CR-070 G5: the Chitina's copper, MODEL path at cw_ak_copper = 1 ($m a year), added to Resources F.
@@ -403,12 +411,15 @@ def build_members_land(wb) -> None:
     heads = ["Year"] + [f"{n}, land in farms (acres)" for n in names] + [
         "Total, western Montana at its share (acres)", "Sold to date from 1867 (acres)", "Sold this year (acres)",
         "Price ($ an acre)", "Value sold, to date ($m)", "Instalments received ($m)", "Survey and register ($m)",
-        "Net ($m)", "Oregon, sold to date (acres)", "Oregon's schools ($m)", "Net to the Treasury ($m)"]
+        "Net ($m)", "Oregon, sold to date (acres)", "Oregon's schools ($m)", "Columbia, sold to date (acres)",
+        "Columbia's schools ($m)", "Bought from Columbia's nations without a treaty, to date (acres)",
+        "Annuities for that land ($m)", "Net to the Treasury ($m)"]
     for c, h in enumerate(heads, 1):
         ws.cell(5, c).value = h
     col = {h: i + 1 for i, h in enumerate(heads)}
     L = lambda name: openpyxl.utils.get_column_letter(col[name])
-    TOT, SOLD, NEW, PRICE, VAL, INST, SURV, NET, ORS, SCH, OUT = (L(h) for h in heads[9:])
+    TOT, SOLD, NEW, PRICE, VAL, INST, SURV, NET, ORS, SCH, WAS, SCHW, BUYW, ANNW, OUT = (L(h) for h in heads[9:])
+    WA = L("Washington, land in farms (acres)")
     MT = L("Montana, land in farms (acres)")
     OR = L("Oregon, land in farms (acres)")
     first_c, last_c = L(heads[1]), L(heads[8])
@@ -421,20 +432,25 @@ def build_members_land(wb) -> None:
         ws[f"{TOT}{r}"] = f"=SUM({first_c}{r}:{last_c}{r})-(1-cw_l15_mt_share)*{MT}{r}"
         prev = r - 1
         if y < 1867:
-            for c in (SOLD, NEW, VAL, ORS):
+            for c in (SOLD, NEW, VAL, ORS, WAS, BUYW):
                 ws[f"{c}{r}"] = 0
         else:
             ws[f"{SOLD}{r}"] = f"=IF(cw_l15_on=1,MAX({SOLD}{prev},{TOT}{r}-{TOT}${r67}),0)"
             ws[f"{NEW}{r}"] = f"={SOLD}{r}-{SOLD}{prev}"
             ws[f"{VAL}{r}"] = f"={VAL}{prev}+{NEW}{r}*{PRICE}{r}/1000000"
             ws[f"{ORS}{r}"] = f"=IF(cw_l15_on=1,MAX({ORS}{prev},{OR}{r}-{OR}${r67}),0)"
+            ws[f"{WAS}{r}"] = f"=IF(cw_l15_on=1,MAX({WAS}{prev},{WA}{r}-{WA}${r67}),0)"
+            ws[f"{BUYW}{r}"] = f"={WAS}{r}*cw_col_nontreaty"
         ws[f"{PRICE}{r}"] = f"=MAX(lfund_floor,lfund_share*'Land Fund'!T{r}*cw_l15_value_rel)"
         ws[f"{INST}{r}"] = (f"=({VAL}{r}-IF({r}-lfund_inst<{yrow(FIRST)},0,INDEX(${VAL}${yrow(FIRST)}:${VAL}${yrow(LAST)},"
                              f"{r}-{yrow(FIRST) - 1}-lfund_inst)))/lfund_inst*(1-lfund_default)")
         ws[f"{SURV}{r}"] = f"={NEW}{r}*lfund_survey/1000000"
         ws[f"{NET}{r}"] = f"={INST}{r}-{SURV}{r}"
         ws[f"{SCH}{r}"] = f"=IF({SOLD}{r}>0,cw_l15_or_school*{NET}{r}*{ORS}{r}/{SOLD}{r},0)"
-        ws[f"{OUT}{r}"] = f"={NET}{r}-{SCH}{r}"
+        ws[f"{SCHW}{r}"] = f"=IF({SOLD}{r}>0,cw_col_school*{NET}{r}*{WAS}{r}/{SOLD}{r},0)"
+        ws[f"{ANNW}{r}"] = (f"=lfund_price/lfund_term*({BUYW}{r}-IF({r}-lfund_term<{yrow(FIRST)},0,"
+                            f"INDEX(${BUYW}${yrow(FIRST)}:${BUYW}${yrow(LAST)},{r}-{yrow(FIRST) - 1}-lfund_term)))/1000000")
+        ws[f"{OUT}{r}"] = f"={NET}{r}-{SCH}{r}-{SCHW}{r}-{ANNW}{r}"
     ws.column_dimensions["A"].width = 8
     for c in range(2, len(heads) + 1):
         ws.column_dimensions[openpyxl.utils.get_column_letter(c)].width = 16
@@ -642,7 +658,7 @@ def main() -> None:
                           f"{lever_last} at the story minimum; F18 (no gold to New York 1861-65) in Resources R; "
                           "L17 idle-gold source (Sources & uses R, Checks L), 0.12 / 0.06; F18 gold goes east 1866-67; E09 the Richmond "
                           "credit as a loan (with E198-E199); E11 split (E197) with set-offs; E14 private lending; "
-                          "new rows E197-E243; the Members' land sheet (L15); CR-070's Alaska (E195-E196, E217-E239, "
+                          "new rows E197-E242; the Members' land sheet (L15); CR-070's Alaska (E195-E196, E217-E239, "
                           "Resources E/F/T); E10 the compensation only; Oregon's customs share in Budget V from 1867 "
                           "(rebuilt 13-15 Nov 2026)."
                           + (f" Lever values from {Path(a.values).name}." if a.values else ""))

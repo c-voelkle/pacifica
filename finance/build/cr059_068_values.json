@@ -39,5 +39,8 @@
  "cw_peon_comp": 0.5,
  "cw_or_rail_south": 8,
  "cw_or_cust_share": 0.25,
- "cw_or_cust_base": 0.0346
+ "cw_or_cust_base": 0.0346,
+ "cw_legion_on": 1,
+ "cw_legion_pay": 0.1,
+ "cw_col_nontreaty": 0.15
 }

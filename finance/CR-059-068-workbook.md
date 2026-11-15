@@ -1,6 +1,6 @@
 # Workbook revision, 14 November 2026: the Civil War CRs (CR-059 to CR-065, CR-067, CR-068), Alaska (CR-070) and the members' land (L15)
 
-SHA-256 of the current workbook: `eb642aa747fcf738f3126ef2160ee18dadb1528709a69fd503cad45ac13eb252` (rebuilt on 15 November 2026 after the phase 9 review; see the second addendum at the end. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`; the first addendum's are those of `9ac9d556…`).
+SHA-256 of the current workbook: `455cf2b7b8e2bbd62772bf63f3913176f41224ecf96158be17a2b82ac23f36ec` (rebuilt on 15 November 2026 for Columbia's charter; see the fourth addendum at the end, the third for the Sacramento line, the story assumptions and the Legion, and the second for the phase 9 review's six. The figures in the body are those of 14 November, SHA-256 `c5ebb7bb…`; the first addendum's are those of `9ac9d556…`).
 
 **What it is.** The CR-051/054/055 workbook (SHA-256 `cba70b31…`) with the Civil War CRs' model items, built in two steps by the model plan of 13–14 November 2026 (session `outputs/sessions/20261113-model-register/`). All amounts are MODEL. The new events carry the status "Proposed" until their CRs are integrated, and a workbook label cannot approve a narrative proposal.
 
@@ -156,4 +156,46 @@ Also cleaned: the lever notes' event IDs, the Levers status labels (levers set b
 - **The land pays; Oregon's share costs.** The land's price is the large gain ($425m more over 1867–1932), much of it after 1900, and it raises growth and residents through the Development Fund. Oregon's customs share costs $200m over the same years and holds the debt up; the Sacramento line adds $8m to the war years' borrowing.
 - **The war years are tighter.** With the garrisons 25% dearer, Stress now fails 17 checks, two of them new (1863 and 1864, private saving), where the first addendum's build failed 15: the line uses the room the dearer-garrisons test had in 1863–64. The base case passes the strict rule.
 - **Population.** End of 1932: 38.71m residents, of them 6.17m of Japanese and 5.04m of Chinese origin (model). Storyline figures at integration: about 39 million (was about 37; the first addendum's 38.4 rounded to 38), and about 6.2 against 5.0 million.
+
+## Third addendum, 15 November 2026: the Sacramento line later, two story assumptions, the Legion
+
+The author: "Start the Sacramento line later. Make a story assumption for the Oregon census. I suggest Nauvoo is paid by Pacifica only if Pacifica gets something worth the pay in return." SHA-256 `fa26dfaac374b186619f6ba425632e4bb2543a5609494997a71501ab0d6f0b9c`; 63,490 formulas, no errors, saved in the Story case. All amounts MODEL.
+
+- **The Sacramento line** is built in 1865–67 and reaches the Siskiyous in 1867: $2.0m, $3.0m and $3.0m (E240–E242; the same $8m). The war years keep their room.
+- **Story assumptions** (author): the new members' farm land is worth about half California's per acre (`cw_l15_value_rel` 0.5), and Oregon's customs share is a quarter of the customs its residents pay (`cw_or_cust_share` 0.25; CR-059 open decision 21). Neither is to be verified against the census; both are labelled as story assumptions.
+- **The Nauvoo Legion** is paid only for a decisive deployment (CR-060 D7, CT7; the deployment, M11, is PROPOSED): Lot Smith's cavalry at Bannack in the summer of 1864, $0.1m (E216, `cw_legion_on` 1). Road duty under the Compact is the common defence and is not paid.
+
+| | Second addendum | Third addendum |
+|---|---|---|
+| Story: failed checks | 0 | 0 |
+| Stress: failed checks (ceiling 17) | 15 | 15, the same years |
+| Stress, garrisons 25% dearer | 17 (1863, 1864 new) | **15, the same years**; the 1863 private-saving margin is +$0.02m |
+| Stress, 1932: gold above the cover requirement | +$10.0m | +$10.0m |
+| Stress, 1932: private saving | +$110.0m | +$109.0m |
+| Story: residents at the end of 1932 | 38.71m | 38.68m |
+| Story: real GDP in 1932, 1913 $m | 45,333 | 45,264 |
+| Story: public debt, 1867 / 1900 / 1932, $m | 78 / 304 / 3,326 | 77 / 304 / 3,321 |
+
+Paths C was not re-iterated: one round moves the rates by at most 0.000004, and the population model and the sheet agree within about 700 residents in 1932. The population outputs were regenerated (Japanese-origin 6.17m, Chinese-origin 5.04m) and the tests pass. Storyline figures at integration are unchanged: about 39 million; about 6.2 against 5.0 million. The 1863 margin under dearer garrisons is a knife edge: any further cost in 1863 breaks the adverse test.
+
+## Fourth addendum, 15 November 2026: Columbia's charter (author: "I approve all the suggestions")
+
+Washington Territory accedes as the member Columbia (CR-059 Part IX). SHA-256 `455cf2b7b8e2bbd62772bf63f3913176f41224ecf96158be17a2b82ac23f36ec`; 63,798 formulas, no errors, saved in the Story case. All amounts MODEL.
+
+- **The Legion's pay** stays as in the third addendum: $0.1m in 1864 for the Bannack deployment (E216; CR-060 M11, now approved).
+- **Columbia's schools** take one-eighteenth of the margin on Columbia's land, on Oregon's terms (`cw_col_school`; Members' land, new columns "Columbia, sold to date" and "Columbia's schools"): $5.3m over 1867–1932 (Story).
+- **The land of the nations without a treaty** (the Chehalis, Cowlitz, Lower Chinook and their neighbours) enters the Land Fund only by purchase. Story assumption: it is a seventh of Columbia's farm land (`cw_col_nontreaty` 0.15). It is bought as it is sold, at the Land Fund's price to the nations (`lfund_price`, $0.10 an acre in Story, $0.25 in Stress), paid as annuities over `lfund_term` (20 years): about 2.0 million acres by 1932, $0.19m in Story ($0.47m in Stress). Both come off Members' land's net to the Treasury.
+- **No customs share** for Columbia, and its works are within the Development Fund's ordinary programme, so neither adds a row.
+
+| | Third addendum | Fourth addendum |
+|---|---|---|
+| Story: failed checks | 0 | 0 |
+| Stress: failed checks (ceiling 17) | 15 | 15, the same years |
+| Stress, garrisons 25% dearer | 15 | 15, the same years; 1863 margin +$0.016m |
+| Stress, 1932: gold above the cover requirement | +$10.0m | +$10.1m |
+| Story: members' land to the Treasury, 1867–1932 | $530.6m | $525.2m |
+| Story: residents at the end of 1932 | 38.68m | 38.68m |
+| Story: real GDP in 1932, 1913 $m | 45,264 | 45,256 |
+
+Paths C was not re-iterated: the change is a few million dollars over sixty-five years; the population model and the sheet agree within about 800 residents at the start of 1932. The population outputs were regenerated and the tests pass.
 
