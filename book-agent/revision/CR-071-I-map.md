@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-20 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 3, 16 November 2026. Decisions I-1 to I-33 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -29,6 +29,19 @@
 | I-18 | **The transcontinental route stays Pacifica's; Gallup and the other European settlements stay in the counties.** The Diné country does not take in the thirty-fifth-parallel line or its towns. | Author, 16 Nov, 15:17 |
 | I-19 | **Mount Taylor and the San Francisco Peaks:** summits and northern slopes inside the Diné country, southern feet in the counties; **Hesperus and Blanca Peak** under a mountain article. | Author, 16 Nov, 15:19 ("That works for me") |
 | I-20 | **The Hopi terms HP1 to HP7.** | Author, 16 Nov, 15:22 ("Yes these stand") |
+| I-21 | **California's people are moved off the historical shares:** San Francisco about 645,000; Carquinez about 110,000; Sacramento +40,000; Los Angeles +60,000; Fresno, Tulare and Kern +40,000 between them (MODEL). | Author, 16 Nov, 15:57 ("I approve all thirteen") |
+| I-22 | **Mojave is a county.** | as I-21 |
+| I-23 | **California's new names** (Feather, Mokelumne, Owens, Carquinez, Suisun, Diablo, Santa Ana, Mojave) and its 43 counties. | as I-21 |
+| I-24 | **Renaming only where the map forces it:** a county whose lines do not change keeps its name; a merged county is named for its river or town. | as I-21 |
+| I-25 | **Snohomish joins Skagit;** the freed county goes to the pool. | as I-21 |
+| I-26 | **Large and small homelands:** a homeland is a unit of its own if it is larger than about 3,000 square miles or lies across two watersheds, otherwise an enclave. In the Northwest the Yakama, Colville, Nez Perce and Klamath countries are large. | as I-21 |
+| I-27 | **A Salt Lake–Snake–Columbia railway exists by 1887;** Malheur's seat is Ontario. | as I-21; dates and builder OPEN |
+| I-28 | **The multiples and Asian shares by unit (I2) are working figures,** to be revisited when the programme is costed. | as I-21 |
+| I-29 | **Canadian's seat is Springer** (a line runs north from Las Vegas to the Raton coal). | as I-21 |
+| I-30 | **Pecos's county language is English.** | as I-21 |
+| I-31 | **The Jicarilla's homeland** is an enclave in the north of Rio Arriba. | as I-21 |
+| I-32 | **Alaska's nations have a seventh homeland seat** in the Senate. | as I-21 |
+| I-33 | Oregon's and Columbia's counties as drawn, with I-24 and I-25 applied. | as I-21 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -99,7 +112,7 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 - **The relation** runs to the Realm under each compact; disputes go to the Court of the Realm at Monterey. County powers, boundaries and grades are organic law, amendable without local consent (§25); a homeland's are not.
 - **They do not count toward the 124.**
 - **Voting (I-9).** A member of a nation who lives in a county registers and votes there like anyone else, and votes only where he is registered.
-- **The Senate (I-9, I-11, APPROVED).** **Six homeland seats**, beside the eight aliʻi seats, each chosen by the councils of the compact nations of one region, in their own way: California; the Columbia and the Sound; the Basin (Shoshone, Paiute, Washoe and the Utes of Deseret); the Rockies' Utes; the Diné; the Pueblos and the Apache. Whether Alaska's nations have a seventh while Alaska is a territory is OPEN.
+- **The Senate (I-9, I-11, I-32, APPROVED).** **Seven homeland seats** (the seventh for Alaska's nations, chosen PROPOSED at the Northern Commission's yearly council). The first six: **six homeland seats**, beside the eight aliʻi seats, each chosen by the councils of the compact nations of one region, in their own way: California; the Columbia and the Sound; the Basin (Shoshone, Paiute, Washoe and the Utes of Deseret); the Rockies' Utes; the Diné; the Pueblos and the Apache.
 
 ## I5. Alaska — I-7 APPROVED
 
@@ -174,9 +187,9 @@ OPEN: the line; whether every village signs in 1865 or some hold out; the Hopi l
 
 **For the author:** the Diné country's lines and the four mountains (under discussion, 16 November, 15:05: "What if the mountains were in Diné country?").
 
-### California (draft 1, PROPOSED)
+### California — APPROVED (I-21 to I-23)
 
-Forty-three counties from our timeline's fifty-two, San Francisco among them. The outer boundary is kept (rule 5); inside it twelve small counties are merged into their neighbours and three new ones are made. The full list with seats and people is in `population/outputs/map_1887.md`, built from `population/data/counties/map_1887.toml`; people are our timeline's 1887 estimate times 2.98, so every county keeps its historical share of California (MODEL; see the first question below).
+Forty-three counties from our timeline's fifty-two, San Francisco among them. The outer boundary is kept (rule 5); inside it twelve small counties are merged into their neighbours and three new ones are made. The full list with seats and people is in `population/outputs/map_1887.md`, built from `population/data/counties/map_1887.toml`; people are our timeline's 1887 estimate times 2.98, moved as I-21 says (MODEL). The people columns below are before that move; `map_1887.md` has the moved figures.
 
 **Merged (twelve):**
 
@@ -199,26 +212,21 @@ Forty-three counties from our timeline's fifty-two, San Francisco among them. Th
 
 | New county | Seat | Made from | People (thousands) | Why |
 |---|---|---|---|---|
-| Carquinez | Benicia | Both shores of the strait: Vallejo and Benicia from Solano, Martinez from Contra Costa | 50 | The Polytechnic's county (CR-021 B6: Carquinez is a seat of state). The rest of Solano is **Suisun** (Fairfield), the rest of Contra Costa **Diablo** (Antioch) |
+| Carquinez | Benicia | Both shores of the strait: Vallejo and Benicia from Solano, Martinez from Contra Costa | 110 (I-21) | The Polytechnic's county (CR-021 B6: Carquinez is a seat of state). The rest of Solano is **Suisun** (Fairfield), the rest of Contra Costa **Diablo** (Antioch) |
 | Santa Ana | Santa Ana | The south-east of Los Angeles | 39 | Our timeline's Orange County of 1889 |
 | Mojave | Barstow | The desert of San Bernardino | 6 | The thirty-fifth-parallel line (I-16) reaches California at the Colorado; a day's travel from San Bernardino does not reach it |
 
 **Unchanged (twenty-eight):** San Francisco, Alameda, Los Angeles (less Santa Ana), Santa Clara, Sacramento, Sonoma, San Joaquin, San Diego, Fresno, Tulare, Santa Cruz, San Bernardino (less Mojave), Mendocino, Placer, Colusa, San Luis Obispo, Santa Barbara, Marin, Yolo, Siskiyou, Tehama, San Mateo, Stanislaus, Kern, Ventura, Tuolumne, and Suisun and Diablo as above.
 
-- **The band.** Outside San Francisco the counties run from 19,000 (Owens) to 254,000 (Alameda); Mojave, at 6,000, is the exception the travel rule makes. San Francisco has about 845,000 people, a quarter of California and a seventh of the Realm, in one county with one senator.
+- **The band.** Outside San Francisco the counties run from 19,000 (Owens) to 254,000 (Alameda); Mojave, at 6,000, is the exception the travel rule makes. San Francisco has about 645,000 people (I-21), a fifth of California and a ninth of the Realm, in one county with one senator.
 - **Language.** Spanish is entrenched in the whole historic land (§25), so no county grant is needed.
 - **Asian settlement (I-5).** California has about 619,000 people of Asian origin, 19%. PROPOSED: the largest shares, a third or more, are in the Delta counties (Sacramento, San Joaquin), where Chinese crews built the levees and farm behind them, and in the new irrigation counties of the south valley (Fresno, Tulare, Kern); San Francisco has the largest number.
 - **Homelands (I-8).** The homelands of the treaties of 1851–52 lie inside these counties as enclaves; the Miwok homeland, the first and the pattern (§8), is in Mokelumne. Their boundaries are OPEN in canon (§8).
 - **Seats of state** (CR-021 B6): Monterey (the Court), San Francisco, Sacramento (the inland command's headquarters, G4) and Carquinez each sit in a county of their own name.
 
-**For the author:**
-1. **Where California's people are.** Scaling every county alike puts 845,000 in San Francisco and 254,000 in Alameda in 1887. Canon would shift some of that: the Polytechnic at Carquinez, the inland command at Sacramento, the oilfields of the south found from 1876 (CR-052). Keep the historical shares, or move weight to Carquinez, Sacramento and Los Angeles?
-2. **Mojave** as a county of 6,000, or left in San Bernardino and the forty-third county found by splitting a large one (Alameda, Santa Clara or Los Angeles).
-3. **Names:** Feather, Mokelumne, Owens, Carquinez, Suisun, Diablo, Santa Ana, Mojave are new; the rest keep their names.
+### Oregon and Columbia — APPROVED (I-24 to I-27, I-33)
 
-### Oregon and Columbia (draft 1, PROPOSED)
-
-Fourteen counties each, from our timeline's twenty-nine and thirty-three. Four cross an old member line, so neither Oregon nor Columbia is enclosed whole: **Chinook** and **Wasco** lie on both banks of the Columbia, **Palouse** takes in Idaho's Lewiston country, **Malheur** crosses the Snake. People are our timeline's 1887 estimate times 2.5 (Oregon), 2.75 (Columbia) and 2.0 (Idaho's parts), in thousands (MODEL).
+Fourteen and thirteen counties, from our timeline's twenty-nine and thirty-three; Columbia's fourteenth went to the pool (I-25). Four cross an old member line, so neither Oregon nor Columbia is enclosed whole: **Chinook** and **Wasco** lie on both banks of the Columbia, **Palouse** takes in Idaho's Lewiston country, **Malheur** crosses the Snake. People are our timeline's 1887 estimate times 2.5 (Oregon), 2.75 (Columbia) and 2.0 (Idaho's parts), in thousands (MODEL).
 
 | County | Seat | Made of (our timeline's counties) | People |
 |---|---|---|---|
@@ -231,38 +239,75 @@ Fourteen counties each, from our timeline's twenty-nine and thirty-three. Four c
 | **Rogue** | Jacksonville | Jackson, Josephine, Klamath, Lake | 48 |
 | **Grande Ronde** | La Grande | Union, Baker | 40 |
 | **Umatilla** | Pendleton | Umatilla, Morrow | 39 |
-| **McKenzie** | Eugene | Lane | 33 |
+| **Lane** | Eugene | Lane | 33 |
 | **Clackamas** | Oregon City | Clackamas | 33 |
-| **Umpqua** | Roseburg | Douglas | 28 |
-| **Malheur** | Ontario (OPEN) | Grant, Malheur; Idaho's Washington | 27 |
+| **Douglas** | Roseburg | Douglas | 28 |
+| **Malheur** | Ontario | Grant, Malheur; Idaho's Washington | 27 |
 | **Coos** | Marshfield | Coos, Curry | 22 |
 
 | County | Seat | Made of (our timeline's counties) | People |
 |---|---|---|---|
 | **Seattle** | Seattle | King, Kitsap | 107 |
 | **Spokane** | Spokane Falls | Spokane, Stevens | 68 |
-| **Tacoma** | Tacoma | Pierce | 67 |
+| **Pierce** | Tacoma | Pierce | 67 |
 | **Walla Walla** | Walla Walla | Walla Walla, Columbia, Garfield, Asotin, Franklin | 62 |
 | **Palouse** | Colfax | Whitman; Idaho's Nez Perce | 58 |
 | **Nooksack** | Whatcom | Whatcom, San Juan | 37 |
 | **Chehalis** | Chehalis | Lewis, Grays Harbor | 35 |
 | **Yakima** | Ellensburg | Yakima, Kittitas | 27 |
-| **Vancouver** | Vancouver | Clark | 27 |
+| **Clark** | Vancouver | Clark | 27 |
 | **Big Bend** | Sprague | Lincoln, Adams, Douglas | 27 |
 | **Olympia** | Olympia | Thurston, Mason | 25 |
-| **Skagit** | Mount Vernon | Skagit, Island | 20 |
+| **Skagit** | Mount Vernon | Skagit, Island, Snohomish | 35 |
 | **Juan de Fuca** | Port Townsend | Jefferson, Clallam | 20 |
-| **Snohomish** | Snohomish | Snohomish | 14 |
 
-- **Names.** No county may be named for a member (L8), so our timeline's two Columbia counties lose the name. Beyond the rule, PROPOSED: the Northwest's counties named for Union statesmen (Washington, Lincoln, Pierce, King, Garfield, Adams, Jefferson, Jackson, Polk, Grant, Douglas, Lane, Union) take the names of their rivers, towns and peoples. Whether Pacifica renames at all is the author's call; Santiam could stay Marion, McKenzie stay Lane, Tacoma stay Pierce.
+- **Names (I-24).** No county may be named for a member (L8), so our timeline's two Columbia counties lose the name. A county whose lines do not change keeps its name (Lane, Douglas, Pierce, Clark, Clackamas, Multnomah); a merged county is named for its river or town. Our timeline's Lincoln, Garfield, Union and Grant counties, named after 1861, each lie inside a merged county.
 - **The capitols.** Salem's and Olympia's become county halls (G4), in Santiam and Olympia.
 - **Homelands (I-8).** Our timeline's Wallowa County is left out: with no war of 1877 the Wallowa is the Nez Perce's country. Which of the Northwest's homelands are large units outside the counties (PROPOSED: the Yakama, Colville, Nez Perce and Klamath countries) and which are enclaves (Warm Springs, Umatilla, the Sound's and the coast's) is OPEN, with their lines.
 - **Asian settlement (I-5).** Columbia about 93,000 and Oregon about 66,000 people of Asian origin. PROPOSED: the largest shares in Chinook (the canneries; our timeline's Astoria was about a third Chinese in 1880, to verify), Tacoma, Seattle and Yakima; the Willamette counties the smallest, where the exclusion men of 1866 sit (G-6).
-- **Weak points.** Rogue reaches over the Cascades to the Klamath and Lake basins, more than a day from Jacksonville. Snohomish at 14,000 is the smallest; it could join Skagit and free a county for the east. Malheur's seat assumes a railway down the Snake.
+- **Weak point.** Rogue reaches over the Cascades to the Klamath and Lake basins, more than a day from Jacksonville; most of that basin is the Klamath's country (I-26).
 
-**For the author:** the renaming; Snohomish with Skagit or apart; the list of large homelands.
+### Idaho, western Montana, Washoe and the Rockies (draft 1, PROPOSED)
 
-*(Next: Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
+Twenty counties. Idaho's ground needs five, not six, after Bear River, Palouse and Malheur took its edges; western Montana needs five, not four. People are our timeline's 1887 estimate times the unit's multiple, in thousands (MODEL).
+
+| County | Seat | Made of (our timeline's counties) | People |
+|---|---|---|---|
+| **Boise** | Boise City | Ada, Boise, Owyhee | 24 |
+| **Bingham** | Blackfoot | Bingham (unchanged) | 21 |
+| **Wood River** | Shoshone | Alturas, Cassia | 16 |
+| **Salmon** | Salmon City | Lemhi, Custer, Idaho | 12 |
+| **Coeur d'Alene** | Rathdrum | Kootenai, Shoshone | 10 |
+| **Silver Bow** | Butte | Silver Bow, Deer Lodge | 42 |
+| **Helena** | Helena | Lewis and Clark, Jefferson, Meagher west of the Belts | 30 |
+| **Missoula** | Missoula | Missoula (unchanged) | 13 |
+| **Beaverhead** | Dillon | Beaverhead, Madison | 12 |
+| **Gallatin** | Bozeman | Gallatin (unchanged; I-3) | 8 |
+| **Carson** | Carson City | Storey, Lyon, Ormsby, Douglas | 29 |
+| **Elko** | Elko | Humboldt, Elko, northern Lander | 14 |
+| **Eureka** | Eureka | Eureka, White Pine, southern Lander | 11 |
+| **Truckee** | Reno | Washoe, Churchill | 10 |
+| **Walker** | Hawthorne | Esmeralda, Nye | 6 |
+| **Lake** | Leadville | Lake, Summit, Eagle | 33 |
+| **Arkansas** | Salida | Chaffee, Park, Custer, upper Fremont, Saguache, Rio Grande | 26 |
+| **San Juan** | Durango | San Juan, Ouray, San Miguel, Dolores, La Plata, Archuleta; Utah's San Juan | 25 |
+| **Clear Creek** | Georgetown | Clear Creek, Gilpin, and the mountain districts of Boulder, Jefferson and Larimer | 23 |
+| **Gunnison** | Gunnison | Gunnison, Pitkin, Hinsdale | 22 |
+
+- **Washoe's name.** No county is named for a member, so our timeline's Washoe County is **Truckee**. Carson City's capitol is Carson's hall. Washoe's Lincoln went to Virgin (I-12).
+- **The Rockies and the Utes.** The Western Slope and the Parks are the Utes' homeland (CR-060 R4), a large unit outside the counties (I-26) and the largest of all. Our timeline's farming counties there (Mesa, Delta, Montrose, Garfield, Routt, Grand), settled after the removal of 1881, do not exist; their people in the model are moved to the mining counties (6,000 each to Lake, Gunnison and San Juan). PROPOSED: the mining districts on the Slope (Aspen, the San Juans, the Gunnison country, the Blue) are county ground held on lease from the Utes through the Realm, the rent paid to the nation (CR-033 A22; CR-049's Ute lease): the camps are in counties, the valleys between them are not.
+- **Arkansas** takes the north of the San Luis Valley over Poncha Pass, as the narrow gauge does (CR-060 CO7); the valley's Hispano south went to Taos and Rio Arriba.
+- **Clear Creek** can be reached by rail only through Denver, under the Colorado article's transit clause (§15).
+- **Across the old lines:** San Juan (Colorado and Utah), and earlier Bear River, Palouse and Malheur out of Idaho. No county encloses Idaho, western Montana or Washoe whole.
+- **Asian settlement (I-5).** PROPOSED: the largest shares in Boise and Wood River (our timeline's Boise Basin was largely Chinese in 1870, to verify; the Snake plain's irrigation districts are the interior's likeliest Asian-majority ground), in Carson and Elko (the Comstock and the railway towns) and in Silver Bow.
+- **Homelands (I-26).** Large, PROPOSED: the Utes' Slope and Parks; the Nez Perce country; Fort Hall. Enclaves, PROPOSED: the Flathead and the Bitterroot Salish in Missoula, the Coeur d'Alene, Lemhi, Duck Valley, Pyramid Lake and Walker River. The Western Shoshone's Ruby Valley treaty (1863, the Union's, assumed under CR-060 N1) is OPEN.
+- **Weak points.** Walker (6,000) and Gallatin (8,000) are small and are counties because of distance. Salmon has no railway.
+
+**The count so far:** 109 drawn; Arizona's six, Baja's two, Hawaii's five and Thalassia make 123; **one county is spare.**
+
+**For the author:** the mining districts as leased county ground; Walker and Gallatin as counties or merged (into Carson and Helena); where the spare county goes.
+
+*(Next: Arizona and Baja; Hawaii and Thalassia.)*
 
 ## Fact changes
 

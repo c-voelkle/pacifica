@@ -89,7 +89,7 @@ language = "Spanish and English"
 parts = {"NM;San Miguel" = 1}
 [[county]]
 name = "Canadian"
-seat = "Cimarron or Springer"
+seat = "Springer"
 unit = "New Mexico"
 status = "approved"
 language = "Spanish and English"
@@ -120,6 +120,7 @@ name = "Pecos"
 seat = "Roswell"
 unit = "New Mexico"
 status = "approved"
+language = "English"
 parts = {"NM;Lincoln" = 0.8}
 [[county]]
 name = "Mimbres"
@@ -128,374 +129,556 @@ unit = "New Mexico"
 status = "approved"
 parts = {"NM;Grant" = 1}
 
-# ---------------- California (proposed, draft 1) ----------------
+# ---------------- California (approved, I-21 to I-23; adjust = thousands moved off the historical shares, I-21) ----------------
 [[county]]
 name = "San Francisco"
 seat = "San Francisco"
 unit = "California"
+status = "approved"
+adjust = -200
 parts = {"CA;San Francisco" = 1}
 note = "city-county with a board"
 [[county]]
 name = "Humboldt"
 seat = "Eureka"
 unit = "California"
+status = "approved"
 parts = {"CA;Humboldt" = 1, "CA;Del Norte" = 1}
 [[county]]
 name = "Siskiyou"
 seat = "Yreka"
 unit = "California"
+status = "approved"
 parts = {"CA;Siskiyou" = 1}
 [[county]]
 name = "Shasta"
 seat = "Redding"
 unit = "California"
+status = "approved"
 parts = {"CA;Shasta" = 1, "CA;Trinity" = 1}
 [[county]]
 name = "Lassen"
 seat = "Susanville"
 unit = "California"
+status = "approved"
 parts = {"CA;Lassen" = 1, "CA;Modoc" = 1}
 [[county]]
 name = "Tehama"
 seat = "Red Bluff"
 unit = "California"
+status = "approved"
 parts = {"CA;Tehama" = 1}
 [[county]]
 name = "Feather"
 seat = "Oroville"
 unit = "California"
+status = "approved"
 parts = {"CA;Butte" = 1, "CA;Plumas" = 1}
 [[county]]
 name = "Colusa"
 seat = "Colusa"
 unit = "California"
+status = "approved"
 parts = {"CA;Colusa" = 1}
 [[county]]
 name = "Mendocino"
 seat = "Ukiah"
 unit = "California"
+status = "approved"
 parts = {"CA;Mendocino" = 1}
 [[county]]
 name = "Yuba"
 seat = "Marysville"
 unit = "California"
+status = "approved"
 parts = {"CA;Yuba" = 1, "CA;Sutter" = 1}
 [[county]]
 name = "Nevada"
 seat = "Nevada City"
 unit = "California"
+status = "approved"
 parts = {"CA;Nevada" = 1, "CA;Sierra" = 1}
 [[county]]
 name = "Placer"
 seat = "Auburn"
 unit = "California"
+status = "approved"
 parts = {"CA;Placer" = 1}
 [[county]]
 name = "El Dorado"
 seat = "Placerville"
 unit = "California"
+status = "approved"
 parts = {"CA;El Dorado" = 1, "CA;Alpine" = 1}
 [[county]]
 name = "Mokelumne"
 seat = "Jackson"
 unit = "California"
+status = "approved"
 parts = {"CA;Amador" = 1, "CA;Calaveras" = 1}
 [[county]]
 name = "Tuolumne"
 seat = "Sonora"
 unit = "California"
+status = "approved"
 parts = {"CA;Tuolumne" = 1}
 [[county]]
 name = "Sacramento"
 seat = "Sacramento"
 unit = "California"
+status = "approved"
+adjust = 40
 parts = {"CA;Sacramento" = 1}
 [[county]]
 name = "Yolo"
 seat = "Woodland"
 unit = "California"
+status = "approved"
 parts = {"CA;Yolo" = 1}
 [[county]]
 name = "Sonoma"
 seat = "Santa Rosa"
 unit = "California"
+status = "approved"
 parts = {"CA;Sonoma" = 1}
 [[county]]
 name = "Napa"
 seat = "Napa"
 unit = "California"
+status = "approved"
 parts = {"CA;Napa" = 1, "CA;Lake" = 1}
 [[county]]
 name = "Marin"
 seat = "San Rafael"
 unit = "California"
+status = "approved"
 parts = {"CA;Marin" = 1}
 [[county]]
 name = "Suisun"
 seat = "Fairfield"
 unit = "California"
+status = "approved"
 parts = {"CA;Solano" = 0.45}
 [[county]]
 name = "Carquinez"
 seat = "Benicia"
 unit = "California"
+status = "approved"
+adjust = 60
 parts = {"CA;Solano" = 0.55, "CA;Contra Costa" = 0.4}
 note = "both shores of the strait: Vallejo, Benicia, Martinez; the Polytechnic's county"
 [[county]]
 name = "Diablo"
 seat = "Antioch"
 unit = "California"
+status = "approved"
 parts = {"CA;Contra Costa" = 0.6}
 [[county]]
 name = "Alameda"
 seat = "Oakland"
 unit = "California"
+status = "approved"
 parts = {"CA;Alameda" = 1}
 [[county]]
 name = "San Mateo"
 seat = "Redwood City"
 unit = "California"
+status = "approved"
 parts = {"CA;San Mateo" = 1}
 [[county]]
 name = "Santa Clara"
 seat = "San José"
 unit = "California"
+status = "approved"
 parts = {"CA;Santa Clara" = 1}
 [[county]]
 name = "Santa Cruz"
 seat = "Santa Cruz"
 unit = "California"
+status = "approved"
 parts = {"CA;Santa Cruz" = 1}
 [[county]]
 name = "Monterey"
 seat = "Monterey"
 unit = "California"
+status = "approved"
 parts = {"CA;Monterey" = 1, "CA;San Benito" = 1}
 note = "the Court of the Realm sits here"
 [[county]]
 name = "San Joaquin"
 seat = "Stockton"
 unit = "California"
+status = "approved"
 parts = {"CA;San Joaquin" = 1}
 [[county]]
 name = "Stanislaus"
 seat = "Modesto"
 unit = "California"
+status = "approved"
 parts = {"CA;Stanislaus" = 1}
 [[county]]
 name = "Merced"
 seat = "Merced"
 unit = "California"
+status = "approved"
 parts = {"CA;Merced" = 1, "CA;Mariposa" = 1}
 [[county]]
 name = "Fresno"
 seat = "Fresno"
 unit = "California"
+status = "approved"
+adjust = 15
 parts = {"CA;Fresno" = 1}
 [[county]]
 name = "Tulare"
 seat = "Visalia"
 unit = "California"
+status = "approved"
+adjust = 10
 parts = {"CA;Tulare" = 1}
 [[county]]
 name = "Kern"
 seat = "Bakersfield"
 unit = "California"
+status = "approved"
+adjust = 15
 parts = {"CA;Kern" = 1}
 [[county]]
 name = "Owens"
 seat = "Independence"
 unit = "California"
+status = "approved"
 parts = {"CA;Inyo" = 1, "CA;Mono" = 1}
 [[county]]
 name = "San Luis Obispo"
 seat = "San Luis Obispo"
 unit = "California"
+status = "approved"
 parts = {"CA;San Luis Obispo" = 1}
 [[county]]
 name = "Santa Barbara"
 seat = "Santa Barbara"
 unit = "California"
+status = "approved"
 parts = {"CA;Santa Barbara" = 1}
 [[county]]
 name = "Ventura"
 seat = "San Buenaventura"
 unit = "California"
+status = "approved"
 parts = {"CA;Ventura" = 1}
 [[county]]
 name = "Los Angeles"
 seat = "Los Angeles"
 unit = "California"
+status = "approved"
+adjust = 60
 parts = {"CA;Los Angeles" = 0.84}
 [[county]]
 name = "Santa Ana"
 seat = "Santa Ana"
 unit = "California"
+status = "approved"
 parts = {"CA;Los Angeles" = 0.16}
 note = "our timeline's Orange County of 1889"
 [[county]]
 name = "San Bernardino"
 seat = "San Bernardino"
 unit = "California"
+status = "approved"
 parts = {"CA;San Bernardino" = 0.9}
 [[county]]
 name = "Mojave"
 seat = "Barstow"
 unit = "California"
+status = "approved"
 parts = {"CA;San Bernardino" = 0.1}
 note = "the desert and the thirty-fifth-parallel line to the Colorado at Needles"
 [[county]]
 name = "San Diego"
 seat = "San Diego"
 unit = "California"
+status = "approved"
 parts = {"CA;San Diego" = 1}
 
-# ---------------- Oregon and Columbia (proposed, draft 1) ----------------
+# ---------------- Oregon and Columbia (approved with I-24 to I-27) ----------------
 [[county]]
 name = "Chinook"
 seat = "Astoria"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Clatsop" = 1, "OR;Columbia" = 1, "WA;Pacific" = 1, "WA;Wahkiakum" = 1, "WA;Cowlitz" = 1}
 note = "both banks of the lower river; the canneries"
 [[county]]
 name = "Multnomah"
 seat = "Portland"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Multnomah" = 1}
 [[county]]
 name = "Tualatin"
 seat = "Hillsboro"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Washington" = 1, "OR;Yamhill" = 1, "OR;Tillamook" = 1}
 [[county]]
 name = "Clackamas"
 seat = "Oregon City"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Clackamas" = 1}
 [[county]]
 name = "Santiam"
 seat = "Salem"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Marion" = 1, "OR;Polk" = 1}
 note = "the old capitol is its hall (G4)"
 [[county]]
 name = "Calapooia"
 seat = "Albany"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Linn" = 1, "OR;Benton" = 1}
 [[county]]
-name = "McKenzie"
+name = "Lane"
 seat = "Eugene"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Lane" = 1}
 [[county]]
-name = "Umpqua"
+name = "Douglas"
 seat = "Roseburg"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Douglas" = 1}
 [[county]]
 name = "Coos"
 seat = "Marshfield"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Coos" = 1, "OR;Curry" = 1}
 [[county]]
 name = "Rogue"
 seat = "Jacksonville"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Jackson" = 1, "OR;Josephine" = 1, "OR;Klamath" = 1, "OR;Lake" = 1}
 note = "the Sacramento line's valley (H-10)"
 [[county]]
 name = "Wasco"
 seat = "The Dalles"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Wasco" = 1, "OR;Gilliam" = 1, "OR;Crook" = 1, "WA;Klickitat" = 1, "WA;Skamania" = 1}
 note = "both banks of the middle river"
 [[county]]
 name = "Umatilla"
 seat = "Pendleton"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Umatilla" = 1, "OR;Morrow" = 1}
 [[county]]
 name = "Grande Ronde"
 seat = "La Grande"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Union" = 1, "OR;Baker" = 1}
 note = "our timeline's Wallowa County is the Nez Perce's country here and is left out"
 [[county]]
 name = "Malheur"
-seat = "Ontario (OPEN)"
+seat = "Ontario"
 unit = "Oregon"
+status = "approved"
 parts = {"OR;Grant" = 1, "OR;Malheur" = 1, "ID;Washington" = 1}
 note = "crosses the Snake into Idaho's Weiser country"
 [[county]]
-name = "Vancouver"
+name = "Clark"
 seat = "Vancouver"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Clark" = 1}
 [[county]]
 name = "Chehalis"
 seat = "Chehalis"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Lewis" = 1, "WA;Grays Harbor" = 1}
 [[county]]
 name = "Olympia"
 seat = "Olympia"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Thurston" = 1, "WA;Mason" = 1}
 note = "the old capitol is its hall (G4)"
 [[county]]
-name = "Tacoma"
+name = "Pierce"
 seat = "Tacoma"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Pierce" = 1}
 [[county]]
 name = "Seattle"
 seat = "Seattle"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;King" = 1, "WA;Kitsap" = 1}
-[[county]]
-name = "Snohomish"
-seat = "Snohomish"
-unit = "Columbia"
-parts = {"WA;Snohomish" = 1}
 [[county]]
 name = "Skagit"
 seat = "Mount Vernon"
 unit = "Columbia"
-parts = {"WA;Skagit" = 1, "WA;Island" = 1}
+status = "approved"
+parts = {"WA;Skagit" = 1, "WA;Island" = 1, "WA;Snohomish" = 1}
 [[county]]
 name = "Nooksack"
 seat = "Whatcom"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Whatcom" = 1, "WA;San Juan" = 1}
 [[county]]
 name = "Juan de Fuca"
 seat = "Port Townsend"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Jefferson" = 1, "WA;Clallam" = 1}
 [[county]]
 name = "Yakima"
 seat = "Ellensburg"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Yakima" = 1, "WA;Kittitas" = 1}
 [[county]]
 name = "Big Bend"
 seat = "Sprague"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Lincoln" = 1, "WA;Adams" = 1, "WA;Douglas" = 1}
 [[county]]
 name = "Spokane"
 seat = "Spokane Falls"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Spokane" = 1, "WA;Stevens" = 1}
 [[county]]
 name = "Palouse"
 seat = "Colfax"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Whitman" = 1, "ID;Nez Perce" = 1}
 note = "crosses into Idaho: Lewiston and the Moscow country"
 [[county]]
 name = "Walla Walla"
 seat = "Walla Walla"
 unit = "Columbia"
+status = "approved"
 parts = {"WA;Walla Walla" = 1, "WA;Columbia" = 1, "WA;Garfield" = 1, "WA;Asotin" = 1, "WA;Franklin" = 1}
+
+# ---------------- Idaho, western Montana, Washoe, the Rockies (proposed, draft 1) ----------------
+[[county]]
+name = "Boise"
+seat = "Boise City"
+unit = "Idaho"
+parts = {"ID;Ada" = 1, "ID;Boise" = 1, "ID;Owyhee" = 1}
+[[county]]
+name = "Wood River"
+seat = "Shoshone"
+unit = "Idaho"
+parts = {"ID;Alturas" = 1, "ID;Cassia" = 1}
+note = "the mines above, the Snake plain's irrigation districts below"
+[[county]]
+name = "Bingham"
+seat = "Blackfoot"
+unit = "Idaho"
+parts = {"ID;Bingham" = 1}
+[[county]]
+name = "Salmon"
+seat = "Salmon City"
+unit = "Idaho"
+parts = {"ID;Lemhi" = 1, "ID;Custer" = 1, "ID;Idaho" = 1}
+[[county]]
+name = "Coeur d'Alene"
+seat = "Rathdrum"
+unit = "Idaho"
+parts = {"ID;Kootenai" = 1, "ID;Shoshone" = 1}
+[[county]]
+name = "Silver Bow"
+seat = "Butte"
+unit = "Western Montana"
+parts = {"MT;Silver Bow" = 1, "MT;Deer Lodge" = 1}
+[[county]]
+name = "Helena"
+seat = "Helena"
+unit = "Western Montana"
+parts = {"MT;Lewis and Clark" = 1, "MT;Jefferson" = 1, "MT;Meagher" = 1}
+[[county]]
+name = "Missoula"
+seat = "Missoula"
+unit = "Western Montana"
+parts = {"MT;Missoula" = 1}
+[[county]]
+name = "Gallatin"
+seat = "Bozeman"
+unit = "Western Montana"
+parts = {"MT;Gallatin" = 1}
+[[county]]
+name = "Beaverhead"
+seat = "Dillon"
+unit = "Western Montana"
+parts = {"MT;Beaverhead" = 1, "MT;Madison" = 1}
+[[county]]
+name = "Carson"
+seat = "Carson City"
+unit = "Washoe"
+parts = {"NV;Storey" = 1, "NV;Lyon" = 1, "NV;Ormsby" = 1, "NV;Douglas" = 1}
+note = "the Comstock; the old capitol is its hall"
+[[county]]
+name = "Truckee"
+seat = "Reno"
+unit = "Washoe"
+parts = {"NV;Washoe" = 1, "NV;Churchill" = 1}
+note = "our timeline's Washoe County; no county is named for a member"
+[[county]]
+name = "Elko"
+seat = "Elko"
+unit = "Washoe"
+parts = {"NV;Humboldt" = 1, "NV;Elko" = 1, "NV;Lander" = 0.4}
+[[county]]
+name = "Eureka"
+seat = "Eureka"
+unit = "Washoe"
+parts = {"NV;Eureka" = 1, "NV;White Pine" = 1, "NV;Lander" = 0.6}
+[[county]]
+name = "Walker"
+seat = "Hawthorne"
+unit = "Washoe"
+parts = {"NV;Esmeralda" = 1, "NV;Nye" = 1}
+[[county]]
+name = "Clear Creek"
+seat = "Georgetown"
+unit = "The Rockies"
+parts = {"CO;Clear Creek" = 1, "CO;Gilpin" = 1, "CO;Boulder" = 1, "CO;Jefferson" = 1, "CO;Larimer" = 1}
+note = "the Front Range districts that voted themselves over in 1878-80"
+[[county]]
+name = "Lake"
+seat = "Leadville"
+unit = "The Rockies"
+adjust = 6
+parts = {"CO;Lake" = 1, "CO;Summit" = 1, "CO;Eagle" = 1}
+[[county]]
+name = "Arkansas"
+seat = "Salida"
+unit = "The Rockies"
+parts = {"CO;Chaffee" = 1, "CO;Park" = 1, "CO;Custer" = 1, "CO;Fremont" = 1, "CO;Saguache" = 1, "CO;Rio Grande" = 1}
+note = "the upper Arkansas, South Park and, over Poncha Pass, the north of the San Luis Valley"
+[[county]]
+name = "Gunnison"
+seat = "Gunnison"
+unit = "The Rockies"
+adjust = 6
+parts = {"CO;Gunnison" = 1, "CO;Pitkin" = 1, "CO;Hinsdale" = 1}
+[[county]]
+name = "San Juan"
+seat = "Durango"
+unit = "The Rockies"
+adjust = 6
+parts = {"CO;San Juan" = 1, "CO;Ouray" = 1, "CO;San Miguel" = 1, "CO;Dolores" = 1, "CO;La Plata" = 1, "CO;Archuleta" = 1, "UT;San Juan" = 1}

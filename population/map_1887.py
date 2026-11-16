@@ -13,7 +13,7 @@ from pathlib import Path
 import counties_1887 as base
 
 HERE = Path(__file__).parent
-ALLOC = {"California": 43, "Oregon": 14, "Columbia": 14, "Deseret": 10, "New Mexico": 9, "Idaho": 6,
+ALLOC = {"California": 43, "Oregon": 14, "Columbia": 14, "Deseret": 10, "New Mexico": 9, "Idaho": 6,  # I-10
          "Arizona": 6, "Washoe": 5, "The Rockies": 5, "Hawaii": 5, "Western Montana": 4, "Baja": 2, "Thalassia": 1}
 STATE_UNIT = {"CA": "California", "OR": "Oregon", "WA": "Columbia", "ID": "Idaho", "MT": "Western Montana",
               "NV": "Washoe", "UT": "Deseret", "WY": "Deseret", "NM": "New Mexico", "AZ": "Arizona", "CO": "The Rockies"}
@@ -43,6 +43,7 @@ def main():
             h = hist[key]
             people += h["pacifica1887"] * frac * mult[STATE_UNIT[h["state"]]]
             used[key] += frac
+        people += 1000 * c.get("adjust", 0)
         out.append((c, people))
     for key, f in used.items():
         if f > 1.0001:
@@ -64,7 +65,7 @@ def main():
         L.append(f"| {u} | {n} | {len(d)} | {sum(p for _, p in d) / 1000:,.0f} |")
     L.append(f"| **Total** | {sum(ALLOC.values())} | {len(out)} | {sum(p for _, p in out) / 1000:,.0f} |")
     L.append("")
-    L.append("Deseret was allotted ten and drawn as nine; New Mexico was allotted nine and drawn as ten (I-15).\n")
+    L.append("The allocation by old unit is accounting: counties cross the old lines, and counties a unit does not need go to a pool (Deseret one, to New Mexico; Columbia one and Idaho one, of which western Montana takes one).\n")
     for u in ALLOC:
         if u not in drawn:
             continue
@@ -78,10 +79,10 @@ def main():
             L.append(f"| {c['name']} | {c['seat']} | {parts} | {p / 1000:,.0f} | {c.get('status', 'proposed')} |")
         L.append("")
     todo = [k for k, r in hist.items() if r["share"] > 0 and used.get(k, 0) < 0.999
-            and STATE_UNIT[r["state"]] in drawn and r["state"] in ("CA", "UT", "NM", "OR", "WA")]
+            and r["state"] not in ("AZ",)]
     L.append("## Checks\n")
     L.append("- Problems: " + ("; ".join(problems) if problems else "none") + ".")
-    L.append("- Counties of California, Utah, New Mexico, Oregon and Washington not fully assigned: " + (", ".join(
+    L.append("- Counties outside Arizona not fully assigned: " + (", ".join(
         f"{k.split(';')[1]} ({k.split(';')[0]}, {used.get(k, 0):.0%})" for k in sorted(todo)) or "none") + ".")
     (HERE / "outputs" / "map_1887.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("\n".join(L))
