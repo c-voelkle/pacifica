@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 8, 16 November 2026: all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-49 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 8, 16 November 2026: all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-51 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -58,6 +58,8 @@
 | I-47 | **The Nez Perce country keeps the line of 1855, with the Wallowa;** Lewiston and the gold camps of 1860–62 are leased ground inside it; the cut of 1863 is not made. | as I-46 |
 | I-48 | **The Uinta valley is a large homeland.** | as I-46 |
 | I-49 | **Yakama, Klamath and Fort Hall stay large homelands,** though under I-26's size. | as I-46 |
+| I-50 | **California's nineteen tracts stand as a working version.** | Author, 16 Nov, 20:43 |
+| I-51 | **The Cosumnes tract (Royce 301) is §8's Miwok homeland.** It "can be one of the first or signed seven months earlier than historically"; either reading is open to the storyline. | Author, 16 Nov, 20:43 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -157,7 +159,7 @@ The large homelands together are about 87,000 square miles.
 
 **Changes this makes to earlier text in this part.** The Diné country is about 24,000 square miles (not "on the order of 30,000"). Tombstone's silver is county ground; I-37's lease is for Bisbee. The Globe district is in Salt River, not Gila. The Okanogan country is in Big Bend. Counties' people in `map_1887.md` are not yet moved to match (the Globe district's and the Okanogan's are small).
 
-**California's tracts (PROPOSED; drawn on the author's request of 16 November, 19:16).** Royce numbers the tracts reserved by the treaties of 1851–52 on his plate "California 1" (plate CXIV) and gives no boundary text for them, only "reserve a tract on" a river. There are **eighteen treaties and nineteen tracts**: the treaties of 30 May and 3 June reserve two each, and that of 22 August none (its bands agree to go to Clear Lake). Each tract below is traced by eye from the plate against its towns and rivers, so it is right to a few miles at best. They are enclaves inside counties (I-8); no county line moves.
+**California's tracts (a working version, I-50).** Royce numbers the tracts reserved by the treaties of 1851–52 on his plate "California 1" (plate CXIV) and gives no boundary text for them, only "reserve a tract on" a river. There are **eighteen treaties and nineteen tracts**: the treaties of 30 May and 3 June reserve two each, and that of 22 August none (its bands agree to go to Clear Lake). Each tract below is traced by eye from the plate against its towns and rivers, so it is right to a few miles at best. They are enclaves inside counties (I-8); no county line moves.
 
 | Royce | Tract (the assistant's label) | County | Sq mi as drawn |
 |---|---|---|---|
@@ -183,13 +185,13 @@ The large homelands together are about 87,000 square miles.
 | | **Total** | | **about 10,400** |
 
 - **A check.** Our timeline's treaties are usually said to have reserved about 7.5 million acres, some 11,700 square miles (from memory, to verify); the tracing comes to about 10,400.
-- **Canon.** §8 has the Miwok guide's people sign first and their homeland become the pattern, on the Mokelumne. Royce's nearest tract is the Cosumnes one (301, 18 September 1851), which lies between the Cosumnes and the Mokelumne. PROPOSED: that tract is the Miwok homeland of §8, in Mokelumne county's north; canon's "first" then needs either an earlier date for it than our timeline's (the first of our timeline's treaties is Camp Fremont's, 19 March 1851) or the word "first" read as first in the Republic's own series. For the author.
+- **Canon.** §8 has the Miwok guide's people sign first and their homeland become the pattern, on the Mokelumne. Royce's nearest tract is the Cosumnes one (301, 18 September 1851), which lies between the Cosumnes and the Mokelumne. That tract is the Miwok homeland of §8, in Mokelumne county's north (I-51). It is either one of the first signed or signed about seven months earlier than in our timeline (February 1851, before Camp Fremont's of 19 March); the author allows both, and the storyline's text chooses.
 - **The names** are labels for this part. The treaty places and dates beside them in `homelands_1887.toml` are from the assistant's memory except where Royce prints the date; Heizer, *The Eighteen Unratified Treaties of 1851–1852* (1972), has the texts.
 - **Tejon (285) and Temecula (307) are large for enclaves** (1,100 and 1,900 square miles, under I-26's 3,000). Temecula lies across three counties.
 
 **Other enclaves** (squares on the map, not yet outlined): Warm Springs, Umatilla, the Siletz coast, Grand Ronde, Quinault, Makah, Tulalip, Puyallup, Nisqually, Coeur d'Alene, Spokane, Flathead, the Bitterroot Salish, Lemhi, Duck Valley, Pyramid Lake, Walker River, Ruby Valley, the Southern Paiute, Moenkopi, Zuni, the Rio Grande Pueblos, Taos Pueblo, the Jicarilla (I-31), the Mescalero, the Chihenne, the Pima and Maricopa, the Quechan, the Mohave, the Hualapai, the Havasupai. Not complete; Baja's peoples are OPEN.
 
-**For the author:** California's nineteen tracts as drawn; which of them is §8's Miwok homeland; whether the Apache line follows our timeline's reductions of 1873–77 (as drawn) or the larger orders of 1871–72 with Globe, Clifton and the upper Gila on lease.
+**For the author:** whether the Apache line follows our timeline's reductions of 1873–77 (as drawn) or the larger orders of 1871–72 with Globe, Clifton and the upper Gila on lease.
 
 ## I5. Alaska — I-7 APPROVED
 
