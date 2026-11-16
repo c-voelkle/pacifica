@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 3, 16 November 2026. Decisions I-1 to I-36 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 4, 16 November 2026: all 124 drawn. Decisions I-1 to I-40 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -45,6 +45,10 @@
 | I-34 | **The mining districts on the Utes' Slope are county ground held on lease from the Utes** through the Realm, the rent paid to the nation; the valleys between them are not in the counties. | Author, 16 Nov, 16:06 |
 | I-35 | **The spare county is held until Arizona is drawn.** | Author, 16 Nov, 16:06 |
 | I-36 | **Walker stays a county; Gallatin, Madison and Beaverhead are one county, Three Forks,** seat Bozeman, with the court at Dillon. Two counties are spare for Arizona. | Author, 16 Nov, 16:08 ("Agreed on all counts") |
+| I-37 | **San Pedro** is the county's name; Tombstone's silver is worked on lease from the Chiricahua. | Author, 16 Nov, 16:22 ("Questions 1-4 are approved as proposed") |
+| I-38 | **Spanish is a county language** beside English in Pima, La Paz and Ensenada, by grant. | as I-37 |
+| I-39 | **Baja is governed from 1867 to 1887 by a commission on the Alaska model;** its two counties replace it. | as I-37; the commission's name, charter and commissioners OPEN |
+| I-40 | **Arizona's large homelands:** the Tohono O'odham's desert, the White Mountain and San Carlos Apache country and the Chiricahua's, beside the Diné country; the others are enclaves. Arizona's eight counties and Baja's two as drawn. | as I-37 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -305,7 +309,7 @@ Nineteen counties. Idaho's ground needs five, not six, after Bear River, Palouse
 - **Homelands (I-26).** Large, PROPOSED: the Utes' Slope and Parks; the Nez Perce country; Fort Hall. Enclaves, PROPOSED: the Flathead and the Bitterroot Salish in Missoula, the Coeur d'Alene, Lemhi, Duck Valley, Pyramid Lake and Walker River. The Western Shoshone's Ruby Valley treaty (1863, the Union's, assumed under CR-060 N1) is OPEN.
 - **Weak points.** Walker (6,000) is small and is a county for its distances and for the gold of Tonopah and Goldfield to come (I-36). Dillon is a long day from Bozeman by rail. Salmon has no railway.
 
-### Arizona and Baja (draft 1, PROPOSED)
+### Arizona and Baja — APPROVED (I-37 to I-40)
 
 Arizona takes eight counties, its six and the two spare (I-35, I-36); Baja two (I-2). People are our timeline's 1887 estimate times 2.0, in thousands; Baja's 70,000 are divided by the assistant's guess (MODEL).
 
@@ -323,18 +327,69 @@ Arizona takes eight counties, its six and the two spare (I-35, I-36); Baja two (
 | **Ensenada** | Ensenada | Baja's north | 15 | Spanish and English |
 
 - **The railway counties.** Little Colorado and Coconino are the thirty-fifth-parallel line (I-16) from Gallup to the Colorado, south of the Diné country (I-18); Flagstaff, in Coconino, stands at the Peaks' southern foot (I-19). Little Colorado crosses the old New Mexico line.
-- **San Pedro, not Cochise.** Our timeline named the county for Cochise in 1881. Here he made the peace of 1865 (§15), the Dragoon and Chiricahua mountains are his people's country, and Tombstone's silver (found 1877, Hist.) lies in or beside it: PROPOSED, worked on lease like the Utes' mining districts (I-34).
+- **San Pedro, not Cochise.** Our timeline named the county for Cochise in 1881. Here he made the peace of 1865 (§15), the Dragoon and Chiricahua mountains are his people's country, and Tombstone's silver (found 1877, Hist.) lies in or beside it: worked on lease like the Utes' mining districts (I-34, I-37).
 - **Salt River** is the settlement programme's irrigation county, and with Yuma the likeliest in Arizona to have an Asian majority or near it (I-5); the Saints' settlements at Mesa are inside it.
 - **Language (rule 4).** Tucson's county and both of Baja's receive Spanish beside English. Baja is not part of California's historic land: its Spanish is a county grant, not an entrenchment.
 - **Homelands (I-26).** Large, PROPOSED: the Diné country (above), the Tohono O'odham's desert, the Apache country of the White Mountains and San Carlos, the Chiricahua's. Enclaves, PROPOSED: the Hopi (their own, inside the Diné country), the Pima and Maricopa on the Gila, the Quechan at Yuma, the Mohave and Chemehuevi on the Colorado, the Hualapai and Havasupai. Baja's peoples (Kumeyaay, Paipai, Cochimí, Cucapá) are OPEN.
-- **OPEN:** how Baja has been governed since the purchase of 1867 (§16 gives the purchase and nothing more), and so what its two counties replace; whether the Colorado's delta goes with Yuma or with Ensenada.
+- **Baja before 1887 (I-39).** A commission on the Alaska model governs the peninsula from the purchase of 1867 (§16); the two counties replace it in 1887, where Alaska's commission continues (I-7). E7's sentence that Alaska is "the one part of the Confederation that already looks like a county of 1887" gains a second case. OPEN: the commission's name, charter and commissioners; whether the Colorado's delta goes with Yuma or with Ensenada.
 - **Weak points.** Yuma (5,000) and Coconino (6,000) are small; both are counties for distance. Baja's split of people is a guess.
 
 **The count:** 118 drawn. Hawaii's five and Thalassia make 124, with no county spare.
 
-**For the author:** San Pedro and the Chiricahua lease; Spanish for Pima and Baja; Baja before 1887.
+### Hawaii and Thalassia (draft 1, PROPOSED)
 
-*(Next: Hawaii and Thalassia.)*
+Hawaii had no counties in our timeline before 1905; the Kingdom had a governor for each island (Hist., to verify: the island governorships). Five counties and the Crown city. People: Hawaii's 128,000 divided by the island censuses of 1884 and 1890, with the capital and the fleet added to Oʻahu by the assistant's guess (MODEL).
+
+| County | Seat | Made of | People | County language |
+|---|---|---|---|---|
+| **Oʻahu** | Honolulu | The island less Thalassia: Honolulu, the Hawaiian crown's seat; the fleet's leased lochs at Puʻuloa | 42 | Hawaiian and English |
+| **Maui** | Wailuku | Maui, Molokaʻi, Lānaʻi, Kahoʻolawe | 27 | Hawaiian and English |
+| **Hilo** | Hilo | Windward Hawaiʻi: Hilo, Hāmākua, Puna | 22 | Hawaiian and English |
+| **Kauaʻi** | Līhuʻe | Kauaʻi and Niʻihau | 15 | Hawaiian and English |
+| **Kona** | Kailua | Leeward Hawaiʻi: Kona, Kohala, Kaʻū | 14 | Hawaiian and English |
+| **Thalassia** | Thalassia | The Crown city on Kāneʻohe Bay | 8 | Hawaiian and English |
+
+- **Why Hawaiʻi island is two.** Hilo and Kona are a mountain apart, more than a day by land in 1887; the old districts already divide that way.
+- **Thalassia** (K-7; CR-021 B3) has no board and no senator. It stands on the Hawaiian crown's land (§26), and its guard is the Queen's Guard (E6). PROPOSED lines: the lands round Kāneʻohe Bay, from the Koʻolau's crest to the reef.
+- **Puʻuloa.** The fleet's lochs are held on the lease of 1874 (CR-027); the lease, not the county, governs them, and the county's board stops at the reservation's line.
+- **Kalaupapa.** PROPOSED: the settlement on Molokaʻi stays under the Hawaiian crown's Board of Health, outside Maui's board (our timeline made it a county of its own).
+- **Language.** Hawaiian is entrenched in the whole historic land (§25), as Spanish is in California.
+- **What the counties replace.** Since 1876 the Territorial Council has had Hawaii's business (E6). In 1887 rotated Commissioners of the examined service come to the islands in place of the Queen's island governors, on commissions the Queen signs as Regent. That is a count in the loyalists' charge (CR-072 P23) and a ground of the Honolulu rising of 1889 (H-11). OPEN: whether a Commissioner posted to a Hawaiian county must pass in Hawaiian.
+- **Asian settlement (I-5).** Hawaii is about 45% of Asian origin. PROPOSED: Kauaʻi, Hilo and Maui, the plantation counties, have Asian majorities or near them in 1887, the first counties of the Realm that do.
+- **The eight aliʻi seats** (CR-021 A) are beside the five county senators, not among them.
+
+**For the author:** Hawaiʻi island as two counties; Thalassia's lines; Kalaupapa; the Hawaiian examination for Commissioners.
+
+## I6. The map as drawn
+
+`population/outputs/map_1887.md` lists all 124 with seats, parts and people; `population/data/counties/map_1887.toml` is the source, and `population/map_1887.py` checks it (124 counties, no name twice, no historical county assigned twice).
+
+| Old unit | Allotted (I-10) | Drawn | People (thousands) |
+|---|---|---|---|
+| California | 43 | 43 | 3,278 |
+| Oregon | 14 | 14 | 706 |
+| Columbia | 14 | 13 | 595 |
+| Deseret | 10 | 9 | 323 |
+| New Mexico | 9 | 10 | 196 |
+| Arizona | 6 | 8 | 108 |
+| Idaho | 6 | 5 | 82 |
+| Washoe | 5 | 5 | 71 |
+| The Rockies | 5 | 5 | 129 |
+| Hawaii | 5 | 5 | 120 |
+| Western Montana | 4 | 4 | 104 |
+| Baja | 2 | 2 | 70 |
+| Thalassia | 1 | 1 | 8 |
+| **Total** | 124 | **124** | 5,792 |
+
+- **Eleven counties cross an old member or territorial line** (Bear River, Virgin, Green River, Taos, Rio Arriba, Chinook, Wasco, Malheur, Palouse, San Juan, Little Colorado), so the rows above count each county under the unit that holds its seat. No county encloses a member whole; none carries a member's name.
+- **Size.** The median county has about 30,000 people. The largest are San Francisco (645,000), Los Angeles (266,000) and Alameda (254,000); the smallest Pecos and Yuma (5,000), Coconino, Mojave and Walker (6,000).
+- **Language.** Spanish stands beside English in all of California (entrenched) and in eleven counties by grant (eight of New Mexico's, Pima, La Paz, Ensenada); Hawaiian in Hawaii's five and Thalassia.
+- **The Senate of 1888:** 123 county senators (California 43, or 35%, with 56% of the people), seven homeland seats (I-11, I-32), eight aliʻi seats, twelve Polytechnic seats, and up to a quarter appointed (CR-021 A). G3's table is to be replaced by this one.
+- **Outside the 124:** Alaska under the Northern Commission (I-7), and the large homelands (I-8, I-26): the Diné country, the Utes' Slope and Parks, the Yakama, Colville, Nez Perce and Klamath countries, Fort Hall, the Tohono O'odham's desert, the White Mountain and San Carlos Apache country and the Chiricahua's. Their lines are OPEN except where this part gives them.
+- **Not in any county in the model:** about 8,000 people our timeline counted in Wallowa County (the Nez Perce's country here).
+
+**Still owed or open across the part:** sources for Salt Lake City's share of its valley and the Diné population; the homelands' lines; the dates and builders of the three railways this part assumes (I-16, I-27, I-29); the 1880 census sums of Colorado, Montana and Oregon; three 1890 figures; maps drawn from the atlas's geometry.
+
 
 ## Fact changes
 

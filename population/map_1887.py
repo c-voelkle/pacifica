@@ -65,7 +65,7 @@ def main():
         L.append(f"| {u} | {n} | {len(d)} | {sum(p for _, p in d) / 1000:,.0f} |")
     L.append(f"| **Total** | {sum(ALLOC.values())} | {len(out)} | {sum(p for _, p in out) / 1000:,.0f} |")
     L.append("")
-    L.append("The allocation by old unit is accounting: counties cross the old lines, and counties a unit does not need go to a pool (Deseret one, to New Mexico; Columbia one and Idaho one, Western Montana one after Three Forks; Arizona takes two).\n")
+    L.append("The allocation by old unit is accounting: counties cross the old lines, and counties a unit does not need go to a pool (Deseret one, to New Mexico; Columbia one and Idaho one, western Montana none after Three Forks; Arizona takes the two that were left).\n")
     for u in ALLOC:
         if u not in drawn:
             continue

@@ -741,3 +741,55 @@ language = "Spanish and English"
 people = 55
 parts = {}
 note = "the south, with the copper of Santa Rosalía"
+
+# ---------------- Hawaii and Thalassia (proposed, draft 1) ----------------
+# Hawaii's 128,000 (regions_1887.toml) divided by the Kingdom's island censuses of 1884 and 1890, with the
+# capital and the fleet added to Oahu by the assistant's guess.
+[[county]]
+name = "Oʻahu"
+seat = "Honolulu"
+unit = "Hawaii"
+language = "Hawaiian and English"
+people = 42
+parts = {}
+note = "the island less Thalassia; Honolulu, the Hawaiian crown's seat; the fleet's leased lochs at Puʻuloa"
+[[county]]
+name = "Hilo"
+seat = "Hilo"
+unit = "Hawaii"
+language = "Hawaiian and English"
+people = 22
+parts = {}
+note = "windward Hawaiʻi: Hilo, Hāmākua, Puna"
+[[county]]
+name = "Kona"
+seat = "Kailua"
+unit = "Hawaii"
+language = "Hawaiian and English"
+people = 14
+parts = {}
+note = "leeward Hawaiʻi: Kona, Kohala, Kaʻū"
+[[county]]
+name = "Maui"
+seat = "Wailuku"
+unit = "Hawaii"
+language = "Hawaiian and English"
+people = 27
+parts = {}
+note = "Maui, Molokaʻi, Lānaʻi and Kahoʻolawe"
+[[county]]
+name = "Kauaʻi"
+seat = "Līhuʻe"
+unit = "Hawaii"
+language = "Hawaiian and English"
+people = 15
+parts = {}
+note = "Kauaʻi and Niʻihau"
+[[county]]
+name = "Thalassia"
+seat = "Thalassia"
+unit = "Thalassia"
+language = "Hawaiian and English"
+people = 8
+parts = {}
+note = "the Crown city on Kāneʻohe Bay, on the Hawaiian crown's land; no board and no senator (K-7)"
