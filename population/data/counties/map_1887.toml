@@ -1,0 +1,351 @@
+# The 124 counties of 1887 (CR-071 Part I, section I3a), as far as they are drawn.
+# parts: our timeline's county of 1 August 1887 -> the fraction of its people in the new county.
+# Fractions below 1 are guesses. status: approved = the author's decision in CR-071-I-map.md; proposed otherwise.
+
+# ---------------- Deseret (approved, I-12 to I-14) ----------------
+[[county]]
+name = "Bear River"
+seat = "Logan"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Cache" = 1, "UT;Rich" = 1, "UT;Box Elder" = 0.33, "ID;Bear Lake" = 1, "ID;Oneida" = 1}
+[[county]]
+name = "Weber"
+seat = "Ogden"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Weber" = 1, "UT;Davis" = 1, "UT;Morgan" = 1, "UT;Box Elder" = 0.67, "UT;Summit" = 1}
+[[county]]
+name = "Salt Lake"
+seat = "Salt Lake City"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Salt Lake" = 0.72}
+[[county]]
+name = "Jordan"
+seat = "Murray"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Salt Lake" = 0.28, "UT;Tooele" = 1}
+[[county]]
+name = "Timpanogos"
+seat = "Provo"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Utah" = 1, "UT;Wasatch" = 1, "UT;Juab" = 1}
+[[county]]
+name = "Sanpitch"
+seat = "Manti"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Sanpete" = 1, "UT;Millard" = 1, "UT;Emery" = 1}
+[[county]]
+name = "Sevier"
+seat = "Richfield"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Sevier" = 1, "UT;Piute" = 1, "UT;Garfield" = 1, "UT;Beaver" = 1}
+[[county]]
+name = "Virgin"
+seat = "St. George"
+unit = "Deseret"
+status = "approved"
+parts = {"UT;Washington" = 1, "UT;Iron" = 1, "UT;Kane" = 1, "NV;Lincoln" = 1, "AZ;Mohave" = 0.2}
+[[county]]
+name = "Green River"
+seat = "Evanston"
+unit = "Deseret"
+status = "approved"
+parts = {"WY;Uinta" = 1, "WY;Sweetwater" = 1, "UT;Uintah" = 1}
+
+# ---------------- New Mexico (approved, I-15, I-17) ----------------
+[[county]]
+name = "Santa Fe"
+seat = "Santa Fe"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Santa Fe" = 1}
+[[county]]
+name = "Taos"
+seat = "Taos"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Taos" = 1, "CO;Costilla" = 1}
+[[county]]
+name = "Rio Arriba"
+seat = "Española"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Rio Arriba" = 1, "CO;Conejos" = 1, "NM;San Juan" = 1}
+[[county]]
+name = "Gallinas"
+seat = "Las Vegas"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;San Miguel" = 1}
+[[county]]
+name = "Canadian"
+seat = "Cimarron or Springer"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Mora" = 1, "NM;Colfax" = 1}
+[[county]]
+name = "Sandía"
+seat = "Albuquerque"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Bernalillo" = 0.93}
+[[county]]
+name = "Río Abajo"
+seat = "Socorro"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Valencia" = 1, "NM;Socorro" = 1}
+[[county]]
+name = "Mesilla"
+seat = "Las Cruces"
+unit = "New Mexico"
+status = "approved"
+language = "Spanish and English"
+parts = {"NM;Doña Ana" = 1, "NM;Sierra" = 1, "NM;Lincoln" = 0.2}
+[[county]]
+name = "Pecos"
+seat = "Roswell"
+unit = "New Mexico"
+status = "approved"
+parts = {"NM;Lincoln" = 0.8}
+[[county]]
+name = "Mimbres"
+seat = "Silver City"
+unit = "New Mexico"
+status = "approved"
+parts = {"NM;Grant" = 1}
+
+# ---------------- California (proposed, draft 1) ----------------
+[[county]]
+name = "San Francisco"
+seat = "San Francisco"
+unit = "California"
+parts = {"CA;San Francisco" = 1}
+note = "city-county with a board"
+[[county]]
+name = "Humboldt"
+seat = "Eureka"
+unit = "California"
+parts = {"CA;Humboldt" = 1, "CA;Del Norte" = 1}
+[[county]]
+name = "Siskiyou"
+seat = "Yreka"
+unit = "California"
+parts = {"CA;Siskiyou" = 1}
+[[county]]
+name = "Shasta"
+seat = "Redding"
+unit = "California"
+parts = {"CA;Shasta" = 1, "CA;Trinity" = 1}
+[[county]]
+name = "Lassen"
+seat = "Susanville"
+unit = "California"
+parts = {"CA;Lassen" = 1, "CA;Modoc" = 1}
+[[county]]
+name = "Tehama"
+seat = "Red Bluff"
+unit = "California"
+parts = {"CA;Tehama" = 1}
+[[county]]
+name = "Feather"
+seat = "Oroville"
+unit = "California"
+parts = {"CA;Butte" = 1, "CA;Plumas" = 1}
+[[county]]
+name = "Colusa"
+seat = "Colusa"
+unit = "California"
+parts = {"CA;Colusa" = 1}
+[[county]]
+name = "Mendocino"
+seat = "Ukiah"
+unit = "California"
+parts = {"CA;Mendocino" = 1}
+[[county]]
+name = "Yuba"
+seat = "Marysville"
+unit = "California"
+parts = {"CA;Yuba" = 1, "CA;Sutter" = 1}
+[[county]]
+name = "Nevada"
+seat = "Nevada City"
+unit = "California"
+parts = {"CA;Nevada" = 1, "CA;Sierra" = 1}
+[[county]]
+name = "Placer"
+seat = "Auburn"
+unit = "California"
+parts = {"CA;Placer" = 1}
+[[county]]
+name = "El Dorado"
+seat = "Placerville"
+unit = "California"
+parts = {"CA;El Dorado" = 1, "CA;Alpine" = 1}
+[[county]]
+name = "Mokelumne"
+seat = "Jackson"
+unit = "California"
+parts = {"CA;Amador" = 1, "CA;Calaveras" = 1}
+[[county]]
+name = "Tuolumne"
+seat = "Sonora"
+unit = "California"
+parts = {"CA;Tuolumne" = 1}
+[[county]]
+name = "Sacramento"
+seat = "Sacramento"
+unit = "California"
+parts = {"CA;Sacramento" = 1}
+[[county]]
+name = "Yolo"
+seat = "Woodland"
+unit = "California"
+parts = {"CA;Yolo" = 1}
+[[county]]
+name = "Sonoma"
+seat = "Santa Rosa"
+unit = "California"
+parts = {"CA;Sonoma" = 1}
+[[county]]
+name = "Napa"
+seat = "Napa"
+unit = "California"
+parts = {"CA;Napa" = 1, "CA;Lake" = 1}
+[[county]]
+name = "Marin"
+seat = "San Rafael"
+unit = "California"
+parts = {"CA;Marin" = 1}
+[[county]]
+name = "Suisun"
+seat = "Fairfield"
+unit = "California"
+parts = {"CA;Solano" = 0.45}
+[[county]]
+name = "Carquinez"
+seat = "Benicia"
+unit = "California"
+parts = {"CA;Solano" = 0.55, "CA;Contra Costa" = 0.4}
+note = "both shores of the strait: Vallejo, Benicia, Martinez; the Polytechnic's county"
+[[county]]
+name = "Diablo"
+seat = "Antioch"
+unit = "California"
+parts = {"CA;Contra Costa" = 0.6}
+[[county]]
+name = "Alameda"
+seat = "Oakland"
+unit = "California"
+parts = {"CA;Alameda" = 1}
+[[county]]
+name = "San Mateo"
+seat = "Redwood City"
+unit = "California"
+parts = {"CA;San Mateo" = 1}
+[[county]]
+name = "Santa Clara"
+seat = "San José"
+unit = "California"
+parts = {"CA;Santa Clara" = 1}
+[[county]]
+name = "Santa Cruz"
+seat = "Santa Cruz"
+unit = "California"
+parts = {"CA;Santa Cruz" = 1}
+[[county]]
+name = "Monterey"
+seat = "Monterey"
+unit = "California"
+parts = {"CA;Monterey" = 1, "CA;San Benito" = 1}
+note = "the Court of the Realm sits here"
+[[county]]
+name = "San Joaquin"
+seat = "Stockton"
+unit = "California"
+parts = {"CA;San Joaquin" = 1}
+[[county]]
+name = "Stanislaus"
+seat = "Modesto"
+unit = "California"
+parts = {"CA;Stanislaus" = 1}
+[[county]]
+name = "Merced"
+seat = "Merced"
+unit = "California"
+parts = {"CA;Merced" = 1, "CA;Mariposa" = 1}
+[[county]]
+name = "Fresno"
+seat = "Fresno"
+unit = "California"
+parts = {"CA;Fresno" = 1}
+[[county]]
+name = "Tulare"
+seat = "Visalia"
+unit = "California"
+parts = {"CA;Tulare" = 1}
+[[county]]
+name = "Kern"
+seat = "Bakersfield"
+unit = "California"
+parts = {"CA;Kern" = 1}
+[[county]]
+name = "Owens"
+seat = "Independence"
+unit = "California"
+parts = {"CA;Inyo" = 1, "CA;Mono" = 1}
+[[county]]
+name = "San Luis Obispo"
+seat = "San Luis Obispo"
+unit = "California"
+parts = {"CA;San Luis Obispo" = 1}
+[[county]]
+name = "Santa Barbara"
+seat = "Santa Barbara"
+unit = "California"
+parts = {"CA;Santa Barbara" = 1}
+[[county]]
+name = "Ventura"
+seat = "San Buenaventura"
+unit = "California"
+parts = {"CA;Ventura" = 1}
+[[county]]
+name = "Los Angeles"
+seat = "Los Angeles"
+unit = "California"
+parts = {"CA;Los Angeles" = 0.84}
+[[county]]
+name = "Santa Ana"
+seat = "Santa Ana"
+unit = "California"
+parts = {"CA;Los Angeles" = 0.16}
+note = "our timeline's Orange County of 1889"
+[[county]]
+name = "San Bernardino"
+seat = "San Bernardino"
+unit = "California"
+parts = {"CA;San Bernardino" = 0.9}
+[[county]]
+name = "Mojave"
+seat = "Barstow"
+unit = "California"
+parts = {"CA;San Bernardino" = 0.1}
+note = "the desert and the thirty-fifth-parallel line to the Colorado at Needles"
+[[county]]
+name = "San Diego"
+seat = "San Diego"
+unit = "California"
+parts = {"CA;San Diego" = 1}

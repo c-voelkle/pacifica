@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-19 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-20 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -28,6 +28,7 @@
 | I-17 | **New Mexico's county names.** | Author, 16 Nov, 15:05 |
 | I-18 | **The transcontinental route stays Pacifica's; Gallup and the other European settlements stay in the counties.** The Diné country does not take in the thirty-fifth-parallel line or its towns. | Author, 16 Nov, 15:17 |
 | I-19 | **Mount Taylor and the San Francisco Peaks:** summits and northern slopes inside the Diné country, southern feet in the counties; **Hesperus and Blanca Peak** under a mountain article. | Author, 16 Nov, 15:19 ("That works for me") |
+| I-20 | **The Hopi terms HP1 to HP7.** | Author, 16 Nov, 15:22 ("Yes these stand") |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -135,7 +136,7 @@ Utah's San Juan goes with the Four Corners (below). County language: English in 
 - **Hesperus and Blanca Peak** stand in the Utes' country and above the San Luis Valley. A mountain article withdraws their upper slopes from grant, lease and Land Fund sale and keeps passage open for ceremony; the ground stays where it is.
 - The oil of the San Juan basin, the helium and the uranium of the Carrizo and Monument Valley country lie north of the railway, inside the homeland, to be leased through the Realm with the rent paid to the nation (CR-033; a later CR).
 
-**The Hopi (PROPOSED; the author, 16 November, 15:19: "We should also define what the terms are for the Hopi").** Hist.: each village governed itself under its own kikmongwi; seven Hopi leaders went to Santa Fe in 1850 to ask the agent Calhoun for help against Navajo raids; the Hopi never signed a treaty, and the reservation of 1882 (about 2.47 million acres, a rectangle of longitude and latitude) gave them use, not ownership, left out Moenkopi and was later surrounded by the Navajo reservation. Here:
+**The Hopi (HP1 to HP7 APPROVED, I-20).** Hist.: each village governed itself under its own kikmongwi; seven Hopi leaders went to Santa Fe in 1850 to ask the agent Calhoun for help against Navajo raids; the Hopi never signed a treaty, and the reservation of 1882 (about 2.47 million acres, a rectangle of longitude and latitude) gave them use, not ownership, left out Moenkopi and was later surrounded by the Navajo reservation. Here:
 
 | # | Term |
 |---|---|
@@ -173,7 +174,49 @@ OPEN: the line; whether every village signs in 1865 or some hold out; the Hopi l
 
 **For the author:** the Diné country's lines and the four mountains (under discussion, 16 November, 15:05: "What if the mountains were in Diné country?").
 
-*(Next: California; Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
+### California (draft 1, PROPOSED)
+
+Forty-three counties from our timeline's fifty-two, San Francisco among them. The outer boundary is kept (rule 5); inside it twelve small counties are merged into their neighbours and three new ones are made. The full list with seats and people is in `population/outputs/map_1887.md`, built from `population/data/counties/map_1887.toml`; people are our timeline's 1887 estimate times 2.98, so every county keeps its historical share of California (MODEL; see the first question below).
+
+**Merged (twelve):**
+
+| New county | Seat | Takes in | People (thousands) |
+|---|---|---|---|
+| Humboldt | Eureka | Del Norte | 71 |
+| Shasta | Redding | Trinity | 47 |
+| Lassen | Susanville | Modoc | 27 |
+| Feather | Oroville | Butte and Plumas (one river) | 71 |
+| Nevada | Nevada City | Sierra | 72 |
+| Yuba | Marysville | Sutter | 47 |
+| El Dorado | Placerville | Alpine | 31 |
+| Mokelumne | Jackson | Amador and Calaveras | 59 |
+| Merced | Merced | Mariposa | 34 |
+| Owens | Independence | Inyo and Mono | 19 |
+| Monterey | Monterey | San Benito | 68 |
+| Napa | Napa | Lake | 68 |
+
+**New (three):**
+
+| New county | Seat | Made from | People (thousands) | Why |
+|---|---|---|---|---|
+| Carquinez | Benicia | Both shores of the strait: Vallejo and Benicia from Solano, Martinez from Contra Costa | 50 | The Polytechnic's county (CR-021 B6: Carquinez is a seat of state). The rest of Solano is **Suisun** (Fairfield), the rest of Contra Costa **Diablo** (Antioch) |
+| Santa Ana | Santa Ana | The south-east of Los Angeles | 39 | Our timeline's Orange County of 1889 |
+| Mojave | Barstow | The desert of San Bernardino | 6 | The thirty-fifth-parallel line (I-16) reaches California at the Colorado; a day's travel from San Bernardino does not reach it |
+
+**Unchanged (twenty-eight):** San Francisco, Alameda, Los Angeles (less Santa Ana), Santa Clara, Sacramento, Sonoma, San Joaquin, San Diego, Fresno, Tulare, Santa Cruz, San Bernardino (less Mojave), Mendocino, Placer, Colusa, San Luis Obispo, Santa Barbara, Marin, Yolo, Siskiyou, Tehama, San Mateo, Stanislaus, Kern, Ventura, Tuolumne, and Suisun and Diablo as above.
+
+- **The band.** Outside San Francisco the counties run from 19,000 (Owens) to 254,000 (Alameda); Mojave, at 6,000, is the exception the travel rule makes. San Francisco has about 845,000 people, a quarter of California and a seventh of the Realm, in one county with one senator.
+- **Language.** Spanish is entrenched in the whole historic land (§25), so no county grant is needed.
+- **Asian settlement (I-5).** California has about 619,000 people of Asian origin, 19%. PROPOSED: the largest shares, a third or more, are in the Delta counties (Sacramento, San Joaquin), where Chinese crews built the levees and farm behind them, and in the new irrigation counties of the south valley (Fresno, Tulare, Kern); San Francisco has the largest number.
+- **Homelands (I-8).** The homelands of the treaties of 1851–52 lie inside these counties as enclaves; the Miwok homeland, the first and the pattern (§8), is in Mokelumne. Their boundaries are OPEN in canon (§8).
+- **Seats of state** (CR-021 B6): Monterey (the Court), San Francisco, Sacramento (the inland command's headquarters, G4) and Carquinez each sit in a county of their own name.
+
+**For the author:**
+1. **Where California's people are.** Scaling every county alike puts 845,000 in San Francisco and 254,000 in Alameda in 1887. Canon would shift some of that: the Polytechnic at Carquinez, the inland command at Sacramento, the oilfields of the south found from 1876 (CR-052). Keep the historical shares, or move weight to Carquinez, Sacramento and Los Angeles?
+2. **Mojave** as a county of 6,000, or left in San Bernardino and the forty-third county found by splitting a large one (Alameda, Santa Clara or Los Angeles).
+3. **Names:** Feather, Mokelumne, Owens, Carquinez, Suisun, Diablo, Santa Ana, Mojave are new; the rest keep their names.
+
+*(Next: Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
 
 ## Fact changes
 
