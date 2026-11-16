@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 5, 16 November 2026: all 124 drawn and approved by the author region by region; map in `population/outputs/map_1887.png`. Decisions I-1 to I-45 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 6, 16 November 2026: all 124 drawn and approved by the author region by region; the homelands' lines sketched for discussion (I4a); map in `population/outputs/map_1887.png`. Decisions I-1 to I-45 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -125,6 +125,35 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 - **They do not count toward the 124.**
 - **Voting (I-9).** A member of a nation who lives in a county registers and votes there like anyone else, and votes only where he is registered.
 - **The Senate (I-9, I-11, I-32, APPROVED).** **Seven homeland seats** (the seventh for Alaska's nations, chosen PROPOSED at the Northern Commission's yearly council). The first six: **six homeland seats**, beside the eight aliʻi seats, each chosen by the councils of the compact nations of one region, in their own way: California; the Columbia and the Sound; the Basin (Shoshone, Paiute, Washoe and the Utes of Deseret); the Rockies' Utes; the Diné; the Pueblos and the Apache.
+
+## I4a. The homelands' lines: a first suggestion (PROPOSED; the author, 16 November, 17:18: "I would like to see a suggestion for the homelands' actual borders next")
+
+**The rule proposed.** A homeland's line is the line of the agreement that made it. Pacifica keeps its own treaties (California, 1851–52; the Diné, the Apache and the Utes, 1865–66) and assumes the Union's ratified ones (CR-059 N-B; CR-060 N1). Where our timeline drew a reservation only after 1861, by executive order or by a treaty Pacifica never signed, that line is used as a first size and the agreement is Pacifica's own, to be dated. Where a line of the 1850s was later cut down in our timeline (the Nez Perce in 1863), the cut is not made here. Mining camps and towns already inside a homeland stand on leased ground (I-34).
+
+The lines are in `population/data/counties/homelands_1887.toml` and on the map. **Every one is a sketch from the assistant's memory of the treaties, not yet read from Royce's *Indian Land Cessions* (1899) or its digitized maps; the areas are measured off the sketches.**
+
+| Large homeland (outside the 124) | Basis | Sketch, sq mi | What the author must decide |
+|---|---|---|---|
+| **Utes' Slope and Parks** | The agreement of 1866 (§15); our timeline's treaty of 1868, west of 107° W, with North and Middle Park | about 30,000 | The largest. San Juan, Gunnison and part of Lake stand inside it on lease (I-34). Whether the Parks belong |
+| **Diné country** | The treaty of 1865; I-18, I-19 | about 21,000 | The sketch is smaller than the 30,000 this part named earlier; the northern line (the San Juan, or beyond it) decides |
+| **Nez Perce country** | Stevens's treaty of 1855, with the Wallowa | about 14,000 | Lewiston and the Clearwater and Salmon camps of 1860–62 lie inside it. Proposed: they are leased county ground (in Palouse and Salmon); the cut of 1863 never happens |
+| **Tohono O'odham** | No treaty in our timeline; the desert they hold | about 7,000 | Pacifica's own compact, to be dated; Pima county keeps Tucson and the Santa Cruz |
+| **Apache country** | The peace of 1865 (§15); our timeline's orders of 1871–72 | about 6,500 | Globe's and Clifton's mines on lease |
+| **Colville** | Our timeline's order of 1872 | about 4,800 | Pacifica's own compact with the upper Columbia's peoples, to be dated |
+| **Uinta valley** | The Spanish Fork council of 1865 (§15); our timeline's order of 1861 | about 4,200 | New on the list: it passes I-26's test. Whether the Utes of Deseret keep ground in their own valleys as well |
+| **Chiricahua** | The peace of 1865 with Cochise; our timeline's reservation of 1872 | about 3,800 | It covers most of San Pedro county east of the river (I-37) |
+| **Fort Hall** | Our timeline's Fort Bridger treaty of 1868; Washakie's agreement is OPEN in canon | about 2,800 | Just under I-26's size; kept large because it lies across the Snake |
+| **Yakama** | Stevens's treaty of 1855 | about 2,200 | Under I-26's size on this sketch (the treaty's own acreage to check); listed as large by I-26 |
+| **Klamath** | Our timeline's treaty of 1864 | about 2,200 | As Yakama |
+| *Hopi (inside the Diné country)* | HP1–HP7 | about 3,300 | The line by named places (HP2) |
+
+Together the large homelands are on the order of 100,000 square miles, about a tenth of the mainland.
+
+**Enclaves (inside a county's lines).** Marked on the map as squares, with no outline yet:
+- **California's eighteen.** The treaties of 1851–52 (§8) reserved eighteen tracts; our timeline's Senate rejected them, here they stand. They are placed by river: Tejon, Buena Vista, Tule–Kaweah, Kings–Chowchilla, Merced–Tuolumne, Stanislaus, Mokelumne (the first, §8), Yuba–Bear, Feather, Colusa, Upper Sacramento, Clear Lake, Russian River, Eel River, Klamath–Trinity, Scott–Shasta, Temecula, Santa Ysabel. The names are the assistant's labels; the treaties' own tracts and acreage (about 7.5% of the state in our timeline's drafts, to verify) are to be read from Royce and from Heizer, *The Eighteen Unratified Treaties* (1972).
+- **Elsewhere:** Warm Springs, Umatilla, the Siletz coast, Grand Ronde, Quinault, Makah, Tulalip, Puyallup, Nisqually, Coeur d'Alene, Spokane, Flathead, the Bitterroot Salish, Lemhi, Duck Valley, Pyramid Lake, Walker River, Ruby Valley, the Southern Paiute, Moenkopi, Zuni, the Rio Grande Pueblos, Taos Pueblo, the Jicarilla (I-31), the Mescalero, the Chihenne, the Pima and Maricopa, the Quechan, the Mohave, the Hualapai, the Havasupai. The list is not complete, and Baja's peoples are OPEN.
+
+**For the author:** the rule; the Nez Perce line of 1855 with Lewiston on lease; the Uinta valley as a large homeland; the Diné country's northern line; whether Yakama, Klamath and Fort Hall stay large. **Source needed:** the Forest Service's digitized Royce maps ("Tribal Land Cessions", S_USA.TRIBALCEDEDLANDS) could not be reached from this workspace; with that file in the repository the sketches can be replaced by the treaties' own lines.
 
 ## I5. Alaska — I-7 APPROVED
 
@@ -365,7 +394,7 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 
 ## I6. The map as drawn
 
-**The drawing** is `population/outputs/map_1887.png`, made by `population/draw_map_1887.py` from the Newberry atlas's geometry (CC0; not in this repository). It joins our timeline's counties of 1887 as the list says; where one of them is divided, the cut is a straight line chosen by eye, and the homelands' outlines are sketches. Known approximations: Clear Creek is drawn with the whole of Boulder, Jefferson and Larimer, of which only the mountain districts are Pacifican; the Diné country is sketched over the counties round it.
+**The drawing** is `population/outputs/map_1887.png`, made by `population/draw_map_1887.py` from the Newberry atlas's geometry (CC0; not in this repository). It joins our timeline's counties of 1887 as the list says; where one of them is divided, the cut is a straight line chosen by eye, and the homelands' outlines are sketches. Known approximations: Clear Creek is drawn with the whole of Boulder, Jefferson and Larimer, of which only the mountain districts are Pacifican; the homelands (I4a) are sketched over the counties round them, whose lines are not yet pulled back.
 
 `population/outputs/map_1887.md` lists all 124 with seats, parts and people; `population/data/counties/map_1887.toml` is the source, and `population/map_1887.py` checks it (124 counties, no name twice, no historical county assigned twice).
 

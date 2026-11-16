@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import shapefile
 from matplotlib.patches import PathPatch
 from matplotlib.path import Path as MPath
-from shapely.geometry import LineString, Polygon, box, shape
+from shapely.geometry import LineString, Polygon, box, shape  # noqa: F401
 from shapely.ops import polygonize, unary_union
 import numpy as np
 import shapely
@@ -54,16 +54,7 @@ CUTS = {
     "AZ;Mohave": [("Virgin", -114.2, 36.2, -112.0, 37.1)],
     "AZ;Yavapai": [("Coconino", -114.0, 35.0, -110.6, 37.1)],
 }
-# rough sketches of the large homelands (I-8, I-26), lon/lat rings drawn from Part I's wording
-HOMELANDS = {
-    "Diné country\n(Hopi within)": [(-111.75, 35.45), (-111.2, 36.9), (-109.0, 37.1), (-108.0, 36.85), (-107.45, 35.45),
-                                    (-107.9, 35.65), (-109.0, 35.75), (-110.6, 35.3), (-111.5, 35.3)],
-}
-HOMELAND_LABELS = {  # no outline: lines OPEN
-    "Yakama": (-120.8, 46.25), "Colville": (-118.9, 48.35), "Nez Perce": (-116.6, 45.9), "Klamath": (-121.6, 42.75),
-    "Fort Hall": (-112.5, 43.0), "Tohono O'odham": (-112.0, 32.15), "Apache\n(White Mtn, San Carlos)": (-110.1, 33.7),
-    "Chiricahua": (-109.5, 31.85),
-}
+# the homelands' sketched lines and the enclaves' places: data/counties/homelands_1887.toml
 UNIT_COLOUR = {"California": "#f3d9a4", "Oregon": "#b9d8b0", "Columbia": "#a9cfe0", "Deseret": "#e6c3d6",
                "New Mexico": "#f2b8a0", "Idaho": "#d5d0ea", "Arizona": "#f6e39a", "Washoe": "#d9d9c3",
                "The Rockies": "#c9b79c", "Hawaii": "#b6e0d4", "Western Montana": "#c7dcef", "Baja": "#f0cfa0",
@@ -217,19 +208,20 @@ def main():
         fs = max(4.2, min(7.5, 3.6 + 95 * math.sqrt(big.area)))
         ax.text(pt.x, pt.y, n.replace(" ", "\n") if len(n) > 9 else n, ha="center", va="center", fontsize=fs,
                 color="#111111", linespacing=0.9)
-    for label, ring in HOMELANDS.items():
-        g = P(Polygon(ring))
-        draw_poly(ax, g, facecolor="#fdf1e7", edgecolor="#7a3b12", linewidth=1.4, alpha=0.93)
+    hl = tomllib.load(open(DATA / "homelands_1887.toml", "rb"))
+    for h in hl["large"] + hl["inner"]:
+        g = P(Polygon(h["ring"]))
+        inner = h in hl["inner"]
+        draw_poly(ax, g, facecolor="#fdf1e7" if not inner else "#f6d9c2", edgecolor="#7a3b12", linewidth=1.3,
+                  alpha=0.82, linestyle="-" if not inner else "--")
         pt = g.representative_point()
-        ax.text(pt.x, pt.y, label, ha="center", va="center", fontsize=7.5, style="italic", color="#7a3b12", weight="bold")
-    for label, (lo, la) in HOMELAND_LABELS.items():
-        x, y = albers(lo, la)
-        ax.text(x, y, label, ha="center", va="center", fontsize=5.6, style="italic", color="#7a3b12",
-                bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="#7a3b12", lw=0.5, alpha=0.9))
-    for label, lo, la in (("Utes' Slope\nand Parks", -108.0, 39.4), ("Nez Perce\n(Wallowa)", -117.2, 45.45)):
-        x, y = albers(lo, la)
-        ax.text(x, y, label, ha="center", va="center", fontsize=6.5, style="italic", color="#7a3b12", weight="bold",
-                bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.8))
+        ax.text(pt.x, pt.y, h["name"].replace(" ", "\n", 1) if len(h["name"]) > 9 else h["name"], ha="center", va="center",
+                fontsize=6.4 if not inner else 5.6, style="italic", color="#7a3b12", weight="bold", linespacing=0.9)
+    for group, fs in (("california", 4.4), ("elsewhere", 4.6)):
+        for name, lo, la in hl["enclaves"][group]:
+            x, y = albers(lo, la)
+            ax.plot([x], [y], marker="s", ms=3.2, color="#7a3b12", mec="white", mew=0.4, zorder=6)
+            ax.text(x + 0.0012, y, name, ha="left", va="center", fontsize=fs, style="italic", color="#5a2a0c", zorder=6)
     ax.autoscale_view()
     x0, x1 = ax.get_xlim()
     y0, y1 = ax.get_ylim()
@@ -261,11 +253,12 @@ def main():
     inset([0.66, 0.13, 0.20, 0.19], main_names, "The Wasatch Front", (-113.3, 39.9, -110.8, 42.3), fs=7)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 4 (16 November 2026). Colours: the old members and territories the counties replace. "
-             "Dotted grey: our timeline's county lines of 1887.\nHatched: ground in no county. "
-             "Brown: large homelands, outside the 124 (outlines are sketches; boxed names have no agreed lines yet). "
-             "Not shown: Alaska, a territory under the Northern Commission.\n"
-             "Lines inside split counties are drawn by eye. MODEL and PROPOSED.", fontsize=9.5, va="top")
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 6 (16 November 2026). Colours: the old members and territories the counties replace. "
+             "Dotted grey: our timeline's county lines of 1887. Hatched: ground in no county.\n"
+             "Brown outlines: large homelands, outside the 124. Brown squares: homelands that are enclaves inside a county "
+             "(California's eighteen are the treaties of 1851-52, placed by river). Dashed: the Hopi, inside the Diné country.\n"
+             "Every homeland line is a first sketch for discussion, not a surveyed boundary. Not shown: Alaska. MODEL and PROPOSED.",
+             fontsize=9.5, va="top")
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#333333") for c in UNIT_COLOUR.values()]
     fig.legend(handles, list(UNIT_COLOUR), loc="lower right", bbox_to_anchor=(0.985, 0.03), fontsize=9, ncol=2,
                title="Old unit", frameon=True)

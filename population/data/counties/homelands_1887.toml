@@ -1,0 +1,74 @@
+# The homelands of 1887 (CR-071 Part I, I4): a first suggestion of their lines, for the author.
+# Every ring is a SKETCH in longitude/latitude drawn by the assistant from the treaty or order named in
+# `basis`, from memory of those texts; none has been read from Royce's Indian Land Cessions (1899) or its
+# digitized maps yet. PROPOSED throughout. `kind`: large = a unit outside the 124 (I-8, I-26); enclave =
+# inside a county's lines, beyond its board's reach.
+
+[[large]]
+name = "Diné country"
+basis = "Navajo homeland treaty of 1865 (canon); lines I-18, I-19"
+ring = [[-111.75, 35.45], [-111.2, 36.9], [-109.0, 37.1], [-108.0, 36.85], [-107.45, 35.45], [-107.9, 35.65], [-109.0, 35.75], [-110.6, 35.3], [-111.5, 35.3]]
+[[large]]
+name = "Utes' Slope and Parks"
+basis = "Ute agreement of 1866 (canon); our timeline's treaty of 1868: west of 107° W, with North and Middle Park added"
+ring = [[-109.05, 37.0], [-109.05, 40.25], [-107.0, 40.25], [-106.9, 41.0], [-105.95, 41.0], [-105.75, 39.95], [-106.55, 39.6], [-107.0, 39.6], [-107.0, 37.0]]
+[[large]]
+name = "Nez Perce country"
+basis = "Stevens's treaty of 1855, with the Wallowa; not the reduction of 1863"
+ring = [[-117.8, 46.55], [-116.0, 46.75], [-114.9, 46.5], [-114.6, 45.8], [-115.6, 45.3], [-116.8, 45.0], [-117.6, 45.2], [-117.95, 45.6], [-117.5, 46.1]]
+[[large]]
+name = "Yakama"
+basis = "Stevens's treaty of 1855"
+ring = [[-121.45, 46.0], [-121.4, 46.55], [-120.6, 46.6], [-120.3, 46.35], [-120.0, 46.2], [-120.6, 45.95]]
+[[large]]
+name = "Colville"
+basis = "our timeline's executive order of 1872: between the Columbia and the Okanogan"
+ring = [[-119.7, 49.0], [-118.0, 49.0], [-118.15, 48.3], [-118.5, 47.9], [-119.5, 48.1], [-119.7, 48.5]]
+[[large]]
+name = "Klamath"
+basis = "our timeline's treaty of 1864"
+ring = [[-121.95, 42.95], [-121.0, 43.0], [-120.8, 42.4], [-121.5, 42.3], [-121.9, 42.45]]
+[[large]]
+name = "Fort Hall"
+basis = "our timeline's Fort Bridger treaty of 1868"
+ring = [[-112.9, 43.3], [-111.9, 43.3], [-111.85, 42.5], [-112.75, 42.45]]
+[[large]]
+name = "Uinta valley"
+basis = "our timeline's order of 1861; canon's Spanish Fork council of 1865"
+ring = [[-111.0, 40.75], [-109.6, 40.75], [-109.5, 40.0], [-110.9, 39.85]]
+[[large]]
+name = "Apache country"
+basis = "our timeline's White Mountain and San Carlos orders of 1871-72; canon's Apache peace of 1865"
+ring = [[-110.95, 33.85], [-110.5, 34.3], [-109.45, 34.25], [-109.5, 33.2], [-110.0, 32.95], [-110.75, 33.1]]
+[[large]]
+name = "Chiricahua"
+basis = "our timeline's reservation of 1872; canon's peace of 1865 with Cochise"
+ring = [[-110.02, 32.3], [-109.05, 32.3], [-109.05, 31.33], [-110.0, 31.33]]
+[[large]]
+name = "Tohono O'odham"
+basis = "no treaty in our timeline before 1916; the desert they hold"
+ring = [[-113.0, 32.85], [-111.6, 32.75], [-111.3, 32.0], [-111.5, 31.5], [-113.1, 32.05]]
+
+[[inner]]
+name = "Hopi"
+basis = "HP1-HP7 (I-20); our timeline's box of 1882 as a first size"
+ring = [[-111.0, 35.55], [-110.95, 36.45], [-110.05, 36.5], [-110.0, 35.6]]
+
+# enclaves: name, lon, lat. California's eighteen are the treaties of 1851-52, placed by river only.
+[enclaves]
+california = [
+  ["Tejon", -118.85, 34.95], ["Buena Vista", -119.3, 35.25], ["Tule-Kaweah", -119.0, 36.15], ["Kings-Chowchilla", -119.65, 36.9],
+  ["Merced-Tuolumne", -120.3, 37.5], ["Stanislaus", -120.6, 37.85], ["Mokelumne (the first)", -120.85, 38.3], ["Yuba-Bear", -121.2, 39.15],
+  ["Feather", -121.75, 39.75], ["Colusa", -122.05, 39.2], ["Upper Sacramento", -122.3, 40.5], ["Clear Lake", -122.8, 39.05],
+  ["Russian River", -123.1, 38.85], ["Eel River", -123.6, 40.2], ["Klamath-Trinity", -123.7, 41.2], ["Scott-Shasta", -122.8, 41.6],
+  ["Temecula", -116.95, 33.6], ["Santa Ysabel", -116.6, 33.1],
+]
+elsewhere = [
+  ["Warm Springs", -121.3, 44.8], ["Umatilla", -118.55, 45.65], ["Siletz coast", -124.0, 44.8], ["Grand Ronde", -123.6, 45.07],
+  ["Quinault", -124.2, 47.4], ["Makah", -124.6, 48.3], ["Tulalip", -122.25, 48.08], ["Puyallup", -122.35, 47.22], ["Nisqually", -122.7, 47.0],
+  ["Coeur d'Alene", -116.7, 47.4], ["Spokane", -118.0, 47.9], ["Flathead", -114.2, 47.5], ["Bitterroot Salish", -114.1, 46.3], ["Lemhi", -113.6, 44.9],
+  ["Duck Valley", -116.1, 42.0], ["Pyramid Lake", -119.55, 40.0], ["Walker River", -118.75, 38.9], ["Ruby Valley", -115.4, 40.4],
+  ["Southern Paiute", -113.7, 37.15], ["Moenkopi (Hopi)", -111.22, 36.11], ["Zuni", -108.85, 35.07], ["Pueblos of the Rio Grande", -106.45, 35.55],
+  ["Taos Pueblo", -105.55, 36.44], ["Jicarilla", -107.0, 36.75], ["Mescalero", -105.7, 33.2], ["Chihenne", -107.75, 33.3],
+  ["Pima and Maricopa", -111.9, 33.1], ["Quechan", -114.6, 32.8], ["Mohave", -114.4, 34.0], ["Hualapai", -113.4, 35.6], ["Havasupai", -112.7, 36.25],
+]
