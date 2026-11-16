@@ -349,3 +349,153 @@ name = "San Diego"
 seat = "San Diego"
 unit = "California"
 parts = {"CA;San Diego" = 1}
+
+# ---------------- Oregon and Columbia (proposed, draft 1) ----------------
+[[county]]
+name = "Chinook"
+seat = "Astoria"
+unit = "Oregon"
+parts = {"OR;Clatsop" = 1, "OR;Columbia" = 1, "WA;Pacific" = 1, "WA;Wahkiakum" = 1, "WA;Cowlitz" = 1}
+note = "both banks of the lower river; the canneries"
+[[county]]
+name = "Multnomah"
+seat = "Portland"
+unit = "Oregon"
+parts = {"OR;Multnomah" = 1}
+[[county]]
+name = "Tualatin"
+seat = "Hillsboro"
+unit = "Oregon"
+parts = {"OR;Washington" = 1, "OR;Yamhill" = 1, "OR;Tillamook" = 1}
+[[county]]
+name = "Clackamas"
+seat = "Oregon City"
+unit = "Oregon"
+parts = {"OR;Clackamas" = 1}
+[[county]]
+name = "Santiam"
+seat = "Salem"
+unit = "Oregon"
+parts = {"OR;Marion" = 1, "OR;Polk" = 1}
+note = "the old capitol is its hall (G4)"
+[[county]]
+name = "Calapooia"
+seat = "Albany"
+unit = "Oregon"
+parts = {"OR;Linn" = 1, "OR;Benton" = 1}
+[[county]]
+name = "McKenzie"
+seat = "Eugene"
+unit = "Oregon"
+parts = {"OR;Lane" = 1}
+[[county]]
+name = "Umpqua"
+seat = "Roseburg"
+unit = "Oregon"
+parts = {"OR;Douglas" = 1}
+[[county]]
+name = "Coos"
+seat = "Marshfield"
+unit = "Oregon"
+parts = {"OR;Coos" = 1, "OR;Curry" = 1}
+[[county]]
+name = "Rogue"
+seat = "Jacksonville"
+unit = "Oregon"
+parts = {"OR;Jackson" = 1, "OR;Josephine" = 1, "OR;Klamath" = 1, "OR;Lake" = 1}
+note = "the Sacramento line's valley (H-10)"
+[[county]]
+name = "Wasco"
+seat = "The Dalles"
+unit = "Oregon"
+parts = {"OR;Wasco" = 1, "OR;Gilliam" = 1, "OR;Crook" = 1, "WA;Klickitat" = 1, "WA;Skamania" = 1}
+note = "both banks of the middle river"
+[[county]]
+name = "Umatilla"
+seat = "Pendleton"
+unit = "Oregon"
+parts = {"OR;Umatilla" = 1, "OR;Morrow" = 1}
+[[county]]
+name = "Grande Ronde"
+seat = "La Grande"
+unit = "Oregon"
+parts = {"OR;Union" = 1, "OR;Baker" = 1}
+note = "our timeline's Wallowa County is the Nez Perce's country here and is left out"
+[[county]]
+name = "Malheur"
+seat = "Ontario (OPEN)"
+unit = "Oregon"
+parts = {"OR;Grant" = 1, "OR;Malheur" = 1, "ID;Washington" = 1}
+note = "crosses the Snake into Idaho's Weiser country"
+[[county]]
+name = "Vancouver"
+seat = "Vancouver"
+unit = "Columbia"
+parts = {"WA;Clark" = 1}
+[[county]]
+name = "Chehalis"
+seat = "Chehalis"
+unit = "Columbia"
+parts = {"WA;Lewis" = 1, "WA;Grays Harbor" = 1}
+[[county]]
+name = "Olympia"
+seat = "Olympia"
+unit = "Columbia"
+parts = {"WA;Thurston" = 1, "WA;Mason" = 1}
+note = "the old capitol is its hall (G4)"
+[[county]]
+name = "Tacoma"
+seat = "Tacoma"
+unit = "Columbia"
+parts = {"WA;Pierce" = 1}
+[[county]]
+name = "Seattle"
+seat = "Seattle"
+unit = "Columbia"
+parts = {"WA;King" = 1, "WA;Kitsap" = 1}
+[[county]]
+name = "Snohomish"
+seat = "Snohomish"
+unit = "Columbia"
+parts = {"WA;Snohomish" = 1}
+[[county]]
+name = "Skagit"
+seat = "Mount Vernon"
+unit = "Columbia"
+parts = {"WA;Skagit" = 1, "WA;Island" = 1}
+[[county]]
+name = "Nooksack"
+seat = "Whatcom"
+unit = "Columbia"
+parts = {"WA;Whatcom" = 1, "WA;San Juan" = 1}
+[[county]]
+name = "Juan de Fuca"
+seat = "Port Townsend"
+unit = "Columbia"
+parts = {"WA;Jefferson" = 1, "WA;Clallam" = 1}
+[[county]]
+name = "Yakima"
+seat = "Ellensburg"
+unit = "Columbia"
+parts = {"WA;Yakima" = 1, "WA;Kittitas" = 1}
+[[county]]
+name = "Big Bend"
+seat = "Sprague"
+unit = "Columbia"
+parts = {"WA;Lincoln" = 1, "WA;Adams" = 1, "WA;Douglas" = 1}
+[[county]]
+name = "Spokane"
+seat = "Spokane Falls"
+unit = "Columbia"
+parts = {"WA;Spokane" = 1, "WA;Stevens" = 1}
+[[county]]
+name = "Palouse"
+seat = "Colfax"
+unit = "Columbia"
+parts = {"WA;Whitman" = 1, "ID;Nez Perce" = 1}
+note = "crosses into Idaho: Lewiston and the Moscow country"
+[[county]]
+name = "Walla Walla"
+seat = "Walla Walla"
+unit = "Columbia"
+parts = {"WA;Walla Walla" = 1, "WA;Columbia" = 1, "WA;Garfield" = 1, "WA;Asotin" = 1, "WA;Franklin" = 1}

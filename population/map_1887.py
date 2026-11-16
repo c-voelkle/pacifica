@@ -78,10 +78,10 @@ def main():
             L.append(f"| {c['name']} | {c['seat']} | {parts} | {p / 1000:,.0f} | {c.get('status', 'proposed')} |")
         L.append("")
     todo = [k for k, r in hist.items() if r["share"] > 0 and used.get(k, 0) < 0.999
-            and STATE_UNIT[r["state"]] in drawn and r["state"] in ("CA", "UT", "NM")]
+            and STATE_UNIT[r["state"]] in drawn and r["state"] in ("CA", "UT", "NM", "OR", "WA")]
     L.append("## Checks\n")
     L.append("- Problems: " + ("; ".join(problems) if problems else "none") + ".")
-    L.append("- Counties of California, Utah and New Mexico not fully assigned: " + (", ".join(
+    L.append("- Counties of California, Utah, New Mexico, Oregon and Washington not fully assigned: " + (", ".join(
         f"{k.split(';')[1]} ({k.split(';')[0]}, {used.get(k, 0):.0%})" for k in sorted(todo)) or "none") + ".")
     (HERE / "outputs" / "map_1887.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("\n".join(L))

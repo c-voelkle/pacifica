@@ -44,7 +44,9 @@ independence: self-review only (the consistency check of 16 November was done in
 - **Approved (author, 16 November, 15:19):** the mountains (I-19): Mount Taylor's and the Peaks' summits and northern slopes inside the Diné country, Hesperus and Blanca under a mountain article.
 - **Approved (author, 16 November, 15:22):** the Hopi terms HP1 to HP7 (I-20).
 - **California drawn (draft 1, PROPOSED):** 43 counties (12 merged away, 3 new: Carquinez, Santa Ana, Mojave). The map so far is machine-readable: `population/data/counties/map_1887.toml`, checked and tabulated by `population/map_1887.py` -> `outputs/map_1887.md` (62 of 124 drawn).
-- **Waiting for the author:** California's three questions (where its people are; Mojave; names); the multiples and Asian shares by unit (I2).
+- **Author, 16 November, 15:31:** "let's go!" after California's draft, read as: go on to the next region. California's questions were not answered and stay open (defaults kept: historical shares, Mojave kept, proposed names).
+- **Oregon and Columbia drawn (draft 1, PROPOSED):** fourteen each; 90 of 124 drawn.
+- **Waiting for the author:** Oregon's and Columbia's questions (renaming counties named for Union statesmen; Snohomish; the large homelands); California's three questions (where its people are; Mojave; names); the multiples and Asian shares by unit (I2).
 - **Next:** Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies (rework the Rockies' people: the Western Slope is a Ute homeland); Arizona and Baja; Hawaii. Maps can be drawn from the atlas's topology (`localgeohistoryproject/county-boundaries-topology`, CC0). Then G3 recounted, the outline's I and CT3/CT5 updated, and the programme written into Part C and costed.
 - **Corrected in this session:** Thalassia is on Kāneʻohe Bay, not in California; the allocation tables now count it apart.
 - Then Parts A, B, C and J; storyline text, fact changes, ledger (Japan's loan of 1873; the seven charter entries, F–G section T5), registry lines, model rows; a fresh-context review; integration in the K-1 order. CR-057 is now on `main` (PR #73), so CR-073 and CR-072 integrate on `main` as it stands.

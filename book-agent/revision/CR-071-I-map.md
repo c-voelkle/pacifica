@@ -216,6 +216,52 @@ Forty-three counties from our timeline's fifty-two, San Francisco among them. Th
 2. **Mojave** as a county of 6,000, or left in San Bernardino and the forty-third county found by splitting a large one (Alameda, Santa Clara or Los Angeles).
 3. **Names:** Feather, Mokelumne, Owens, Carquinez, Suisun, Diablo, Santa Ana, Mojave are new; the rest keep their names.
 
+### Oregon and Columbia (draft 1, PROPOSED)
+
+Fourteen counties each, from our timeline's twenty-nine and thirty-three. Four cross an old member line, so neither Oregon nor Columbia is enclosed whole: **Chinook** and **Wasco** lie on both banks of the Columbia, **Palouse** takes in Idaho's Lewiston country, **Malheur** crosses the Snake. People are our timeline's 1887 estimate times 2.5 (Oregon), 2.75 (Columbia) and 2.0 (Idaho's parts), in thousands (MODEL).
+
+| County | Seat | Made of (our timeline's counties) | People |
+|---|---|---|---|
+| **Multnomah** | Portland | Multnomah | 137 |
+| **Santiam** | Salem | Marion, Polk | 69 |
+| **Chinook** | Astoria | Clatsop, Columbia (Oregon); Pacific, Wahkiakum, Cowlitz (Columbia) | 61 |
+| **Wasco** | The Dalles | Wasco, Gilliam, Crook; Klickitat, Skamania (Columbia) | 58 |
+| **Calapooia** | Albany | Linn, Benton | 57 |
+| **Tualatin** | Hillsboro | Washington, Yamhill, Tillamook | 55 |
+| **Rogue** | Jacksonville | Jackson, Josephine, Klamath, Lake | 48 |
+| **Grande Ronde** | La Grande | Union, Baker | 40 |
+| **Umatilla** | Pendleton | Umatilla, Morrow | 39 |
+| **McKenzie** | Eugene | Lane | 33 |
+| **Clackamas** | Oregon City | Clackamas | 33 |
+| **Umpqua** | Roseburg | Douglas | 28 |
+| **Malheur** | Ontario (OPEN) | Grant, Malheur; Idaho's Washington | 27 |
+| **Coos** | Marshfield | Coos, Curry | 22 |
+
+| County | Seat | Made of (our timeline's counties) | People |
+|---|---|---|---|
+| **Seattle** | Seattle | King, Kitsap | 107 |
+| **Spokane** | Spokane Falls | Spokane, Stevens | 68 |
+| **Tacoma** | Tacoma | Pierce | 67 |
+| **Walla Walla** | Walla Walla | Walla Walla, Columbia, Garfield, Asotin, Franklin | 62 |
+| **Palouse** | Colfax | Whitman; Idaho's Nez Perce | 58 |
+| **Nooksack** | Whatcom | Whatcom, San Juan | 37 |
+| **Chehalis** | Chehalis | Lewis, Grays Harbor | 35 |
+| **Yakima** | Ellensburg | Yakima, Kittitas | 27 |
+| **Vancouver** | Vancouver | Clark | 27 |
+| **Big Bend** | Sprague | Lincoln, Adams, Douglas | 27 |
+| **Olympia** | Olympia | Thurston, Mason | 25 |
+| **Skagit** | Mount Vernon | Skagit, Island | 20 |
+| **Juan de Fuca** | Port Townsend | Jefferson, Clallam | 20 |
+| **Snohomish** | Snohomish | Snohomish | 14 |
+
+- **Names.** No county may be named for a member (L8), so our timeline's two Columbia counties lose the name. Beyond the rule, PROPOSED: the Northwest's counties named for Union statesmen (Washington, Lincoln, Pierce, King, Garfield, Adams, Jefferson, Jackson, Polk, Grant, Douglas, Lane, Union) take the names of their rivers, towns and peoples. Whether Pacifica renames at all is the author's call; Santiam could stay Marion, McKenzie stay Lane, Tacoma stay Pierce.
+- **The capitols.** Salem's and Olympia's become county halls (G4), in Santiam and Olympia.
+- **Homelands (I-8).** Our timeline's Wallowa County is left out: with no war of 1877 the Wallowa is the Nez Perce's country. Which of the Northwest's homelands are large units outside the counties (PROPOSED: the Yakama, Colville, Nez Perce and Klamath countries) and which are enclaves (Warm Springs, Umatilla, the Sound's and the coast's) is OPEN, with their lines.
+- **Asian settlement (I-5).** Columbia about 93,000 and Oregon about 66,000 people of Asian origin. PROPOSED: the largest shares in Chinook (the canneries; our timeline's Astoria was about a third Chinese in 1880, to verify), Tacoma, Seattle and Yakima; the Willamette counties the smallest, where the exclusion men of 1866 sit (G-6).
+- **Weak points.** Rogue reaches over the Cascades to the Klamath and Lake basins, more than a day from Jacksonville. Snohomish at 14,000 is the smallest; it could join Skagit and free a county for the east. Malheur's seat assumes a railway down the Snake.
+
+**For the author:** the renaming; Snohomish with Skagit or apart; the list of large homelands.
+
 *(Next: Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
 
 ## Fact changes
