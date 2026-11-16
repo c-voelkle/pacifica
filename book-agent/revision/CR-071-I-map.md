@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-13 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-17 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -22,6 +22,10 @@
 | I-11 | **Six homeland seats** in the Senate, grouped as in I4. | Author, 16 Nov, 14:58 ("homeland seat grouping is good") |
 | I-12 | **Deseret's counties** and their names (I3a). | Author, 16 Nov, 14:58 ("Deseret is approved") |
 | I-13 | **Salt Lake City is split from its valley.** | Author, 16 Nov, 14:58 ("should be split I think"); the line PROPOSED |
+| I-14 | **Park City and Coalville go with Weber.** | Author, 16 Nov, 15:05 |
+| I-15 | **A Pecos county** (seat Roswell) takes Lincoln's plains out of Mesilla, from the county Deseret gave back: New Mexico has ten. | Author, 16 Nov, 15:05 |
+| I-16 | **A railway runs west from Albuquerque along the thirty-fifth parallel by 1887.** | Author, 16 Nov, 15:05; its dates and builder OPEN |
+| I-17 | **New Mexico's county names.** | Author, 16 Nov, 15:05 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -107,16 +111,16 @@ The Northern Commission continues under its charter of 1867 (CR-070), reporting 
 | County | Seat | Made of (our timeline's counties) | People, 1887 | Notes |
 |---|---|---|---|---|
 | **Bear River** | Logan | Cache, Rich, northern Box Elder; Idaho's Bear Lake and Oneida | 52 | Crosses the old Idaho line |
-| **Weber** | Ogden | Weber, Davis, Morgan, southern Box Elder; Summit if 5 below is accepted | 49 (59) | The railway junction; the Committee party's town |
+| **Weber** | Ogden | Weber, Davis, Morgan, southern Box Elder, Summit (I-14) | 59 | The railway junction; the Committee party's town |
 | **Salt Lake** | Salt Lake City | The city and its benches | about 54 | A city-county with a board, as San Francisco is; the old capitol is its hall (G4). The city's share of the valley's people is an estimate to verify |
 | **Jordan** | Murray | The valley south of the city, the Oquirrh mines; Tooele | about 27 | The smelters and the Utah Southern's stations |
 | **Timpanogos** | Provo | Utah, Wasatch, Juab | 46 | |
 | **Sanpitch** | Manti | Sanpete, Millard, Emery | 30 | |
 | **Sevier** | Richfield | Sevier, Piute, Garfield, Beaver | 21 | |
 | **Virgin** | St. George | Washington, Iron, Kane; Washoe's Lincoln; the Arizona Strip | 19 | Crosses into Washoe and Arizona |
-| **Green River** | Evanston | Wyoming's Uinta and Sweetwater; Uintah; Summit unless 5 below is accepted | 28 (18) | The railway and the coal; a large Asian minority at Rock Springs |
+| **Green River** | Evanston | Wyoming's Uinta and Sweetwater; Uintah | 18 | The railway and the coal; a large Asian minority at Rock Springs |
 
-**Suggestion on Park City and Coalville (the author's question 5): with Weber.** The Weber rises there, so the first rule puts them in its county; the branch from Park City and Coalville meets the main line at Echo and runs down to Ogden; and the camp's ore goes to the valley's smelters, not to Wyoming. Green River then is the Wyoming line, the coal and the Uinta basin, at about 18,000 people, which is in the interior's range. PROPOSED.
+**Park City and Coalville: with Weber (I-14, APPROVED).** The Weber rises there, so the first rule puts them in its county; the branch from Park City and Coalville meets the main line at Echo and runs down to Ogden; and the camp's ore goes to the valley's smelters, not to Wyoming. Green River then is the Wyoming line, the coal and the Uinta basin, at about 18,000 people, which is in the interior's range.
 
 Utah's San Juan goes with the Four Corners (below). County language: English in all nine. The Utes' homelands of the Uinta basin and central Utah (CR-060 N6) are drawn round; their lines are OPEN.
 
@@ -126,7 +130,7 @@ Utah's San Juan goes with the Four Corners (below). County language: English in 
 
 **The four mountains.** Canon puts all four of the Diné's sacred mountains inside Pacifica. None lies inside the homeland's lines: Blanca Peak stands above the San Luis Valley, Mount Taylor above the Rio Abajo's western edge, the San Francisco Peaks in Arizona's north, Hesperus in the La Plata range. PROPOSED: a mountain article under the homeland's compact withdraws their upper slopes from grant, lease and Land Fund sale and keeps passage open for ceremony; the ground stays in its county or in the Utes' country.
 
-**New Mexico's nine.** People are our timeline's 1887 estimate times 1.3 (the San Luis Valley's two counties times 1.2), in thousands (MODEL).
+**New Mexico's ten (names APPROVED, I-17; the Pecos county APPROVED, I-15).** People are our timeline's 1887 estimate times 1.3 (the San Luis Valley's two counties times 1.2), in thousands (MODEL).
 
 | County | Seat | Made of (our timeline's counties) | People, 1887 | County language |
 |---|---|---|---|---|
@@ -137,17 +141,18 @@ Utah's San Juan goes with the Four Corners (below). County language: English in 
 | **Canadian** | Cimarron or Springer (OPEN) | Mora, Colfax | 22 | Spanish and English |
 | **Sandía** | Albuquerque | Bernalillo east of the Diné country | 24 | Spanish and English |
 | **Río Abajo** | Socorro | Valencia, Socorro | 29 | Spanish and English |
-| **Mesilla** | Las Cruces | Doña Ana, Sierra, Lincoln | 22 | Spanish and English |
+| **Mesilla** | Las Cruces | Doña Ana, Sierra, Lincoln west of the Mescalero's mountains | 17 | Spanish and English |
+| **Pecos** | Roswell | Lincoln's plains on the Pecos | about 6 | English (OPEN) |
 | **Mimbres** | Silver City | Grant | 10 | English |
 
 - **Across the old lines.** Taos and Rio Arriba take the San Luis Valley's Hispano counties: one watershed, one language, and the narrow gauge runs through both (CR-060 CO7). The old Colorado line there disappears. No county encloses New Mexico whole, and none carries its name.
-- **The west.** Our timeline's Bernalillo and Valencia ran to the Arizona line across Diné country. Here they stop at the homeland. The strip south of it along the thirty-fifth parallel (the coal at Gallup, Zuni's country, the Little Colorado settlements) goes to a county of Arizona's six, **Little Colorado** (seat Holbrook; about 10,000 people), drawn with Arizona. ASSUMPTION to confirm: a railway west from Albuquerque along the thirty-fifth parallel exists by 1887; canon does not yet say so.
+- **The west.** Our timeline's Bernalillo and Valencia ran to the Arizona line across Diné country. Here they stop at the homeland. The strip south of it along the thirty-fifth parallel (the coal at Gallup, Zuni's country, the Little Colorado settlements) goes to a county of Arizona's six, **Little Colorado** (seat Holbrook; about 10,000 people), drawn with Arizona. A railway west from Albuquerque along the thirty-fifth parallel exists by 1887 (I-16, APPROVED; its dates and builder OPEN, and a storyline line is needed at integration).
 - **Language (rule 4).** Eight of the nine are Spanish-speaking in the majority and receive Spanish as a county language by organic law, beside English; the Rio Grande compact's courts in Spanish and English are carried as that grant (CT4). Mimbres is a mining county and English.
 - **The Hispano majority holds.** At 1.3 times history the settlement programme does not outnumber it (I-4's exception).
 - **Small homelands inside counties (I-8):** the Pueblos' grants (in Taos, Rio Arriba, Santa Fe, Sandía and Río Abajo; Zuni in Little Colorado); the Chihenne's country and the Santa Rita lease in Mimbres (§15); the Mescalero's in Mesilla's eastern half. The Jicarilla's land is OPEN (our timeline gave them none until 1887).
-- **Weak points.** Mesilla is two countries: the river, and beyond the Mescalero's mountains the Pecos plains that were Lincoln, three days from Las Cruces. A tenth county on the Pecos (seat Roswell, about 7,000 people) would mend it, from the pool's spare county. Mimbres at 10,000 is small; it may take the Clifton copper district when Arizona is drawn.
+- **Weak points.** Pecos (about 6,000) and Mimbres (10,000) are small; Mimbres may take the Clifton copper district when Arizona is drawn. How Lincoln's people divide between Mesilla and Pecos is a guess.
 
-**For the author:** the Diné country's lines and the mountain article; Lincoln with Mesilla or a Pecos county from the spare; the names (Gallinas, Canadian, Sandía, Río Abajo, Mesilla and Mimbres are rivers, a mountain and the country's own old names; Santa Fe, Taos and Rio Arriba keep theirs).
+**For the author:** the Diné country's lines and the four mountains (under discussion, 16 November, 15:05: "What if the mountains were in Diné country?").
 
 *(Next: California; Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
 
