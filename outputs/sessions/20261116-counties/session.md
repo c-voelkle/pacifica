@@ -37,7 +37,8 @@ independence: self-review only (the consistency check of 16 November was done in
 
 ## Resume here
 
-- **Waiting for the author:** which regional variant (V1 to V4, or other multiples per unit) the 1887 split follows; whether Baja is inside the 124; I1 (drawing rules), I4 (homelands), I5 (Alaska).
+- **Decided (author, 16 November 2026, 14:08):** Baja counts among the 124; Bozeman is Pacifican. Baja's population about 1887 is still to be sourced (Mexican census of 1895) and added to `counties_1887.py`.
+- **Waiting for the author:** the regional split of 1887 (the author asks whether a settlement programme for the interior belongs to the hollowing of 1865-87 and what it would need to reach about V3; answered in chat, no decision yet); I1 (drawing rules), I4 (homelands), I5 (Alaska).
 - **Then:** allocation by region replacing the strawman (step 4), with G3 recounted; the map region by region, Deseret first (step 5); `CR-071-I-map.md` (step 6).
 - Then Parts A, B, C and J; storyline text, fact changes, ledger (Japan's loan of 1873; the seven charter entries, F–G section T5), registry lines, model rows; a fresh-context review; integration in the K-1 order. K-1 named "the CR-057 project document as approved on 6 November" as the base; CR-057 is now integrated on `main` (PR #73), so CR-073 and CR-072 integrate on `main` as it stands.
 - Still open in CR-071: D decision 9 ("ready for approval"), the Guard's commander and Wilcox's later life (H4), CT3, CT5, CT4's Columbia and Washoe rows in the outline.
