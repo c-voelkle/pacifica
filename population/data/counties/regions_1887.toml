@@ -1,0 +1,58 @@
+# Where Pacifica's residents of 1887 live: the settlement programme of 1865-87 (CR-071, Parts C and I).
+# Author, 16 November 2026: approved in principle ("I approve"): each acceded unit holds a multiple of its
+# historical population of 1887, differentiated by what its land and water can carry; California holds the
+# remainder of the population model's total. Asian settlers "go where their presence doesn't cause too much
+# disruption", and counties with an Asian majority or large minority may exist in the interior.
+# Every number below is MODEL and proposed by the assistant; none is canon.
+
+[multiple]            # times the historical 1887 population (outputs/counties_1887.md, section 1)
+Oregon = 2.5
+Columbia = 2.75
+Idaho = 2.0
+"Western Montana" = 1.5
+Washoe = 1.5
+Deseret = 1.5          # with southwest Wyoming
+"New Mexico" = 1.3
+Arizona = 2.0
+"The Rockies" = 1.2    # the Colorado mountains; the Western Slope is a Ute homeland
+
+[fixed]               # units outside the mainland baseline
+Hawaii = 128000        # one and a half times the Kingdom's interpolated 1887 population
+Alaska = 40000         # Petroff's 33,426 of 1880 and the settler garrison (CR-070)
+Baja = 70000           # twice our timeline's about 35,000 (see [baja])
+
+[baja]
+# Mexico's censuses: 1900 minus 1895 = 5,379 = 12.73%, so about 42,250 in 1895 and about 47,630 in 1900
+# (Censo de 1910, cuadro VII, Universidad Veracruzana's transcription). Carried back at 2.5% a year: about 35,000 in 1887.
+historical_1887 = 35000
+area_sqmi = 55400
+
+[asian_share]         # share of each unit's residents of Chinese, Japanese or Filipino origin, 1887
+Hawaii = 0.45          # our timeline 1890: about a third
+Baja = 0.30
+Washoe = 0.25
+Idaho = 0.22           # our timeline 1870: 28% Chinese
+Arizona = 0.20
+Columbia = 0.15
+"Western Montana" = 0.12
+Oregon = 0.10
+"The Rockies" = 0.08
+Alaska = 0.05
+Deseret = 0.03
+"New Mexico" = 0.02
+# California takes the rest of the model's Chinese, Japanese and Filipino residents.
+
+[area_sqmi]           # for people per square mile; mainland units from the atlas
+California = 158094
+Oregon = 96951
+Columbia = 67564
+Idaho = 83597
+"Western Montana" = 43315
+Washoe = 110563
+Deseret = 109261
+"New Mexico" = 121590
+Arizona = 113999
+"The Rockies" = 51020
+Hawaii = 6375
+Alaska = 586000
+Baja = 55400
