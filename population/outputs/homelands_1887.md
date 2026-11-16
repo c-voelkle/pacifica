@@ -17,6 +17,31 @@ Built by `population/draw_map_1887.py` from `data/counties/homelands_1887.toml`.
 | Tohono O'odham | 5,149 | none before 1874 (San Xavier). Drawn as our timeline's Pima County west of the Baboquivari crest, so that Tucson's county is one piece |
 | **Total** | 87,056 | |
 
+## California's nineteen tracts (enclaves)
+
+| Royce | Treaty | Tract | Square miles as drawn |
+|---|---|---|---|
+| 273 | 19 March 1851, Camp Fremont | Merced-Tuolumne | 154 |
+| 275 | 29 April 1851, Camp Barbour | Chowchilla-Kings | 365 |
+| 276 | 13 May 1851, Camp Belt | Kings-Kaweah | 323 |
+| 277 | 30 May 1851, Camp Keyes (first tract) | Upper Kings | 982 |
+| 278 | 30 May 1851, Camp Keyes (second tract; not made out on the plate, placed on the Kings below the first) | Lower Kings | 69 |
+| 280 | 28 May 1851, Dent and Vantine's Crossing | Stanislaus | 113 |
+| 282 | 3 June 1851, Camp Burton (first tract) | Tulare-Buena Vista | 397 |
+| 283 | 3 June 1851, Camp Burton (second tract) | Tule River | 506 |
+| 285 | 10 June 1851, Camp Persifer F. Smith | Tejon | 1,132 |
+| 287 | 18 July 1851, Camp Union | Yuba-Bear | 248 |
+| 290 | 1 August 1851, Bidwell's ranch | Feather | 338 |
+| 293 | 16 August 1851, Reading's ranch | Upper Sacramento | 551 |
+| 295 | 20 August 1851, Camp Lu-pi-yu-ma | Clear Lake | 374 |
+| 298 | 9 September 1851, Camp Colus | Colusa | 118 |
+| 301 | 18 September 1851, fork of the Cosumnes | Cosumnes | 186 |
+| 303 | 6 October 1851, Camp Klamath | Lower Klamath | 384 |
+| 305 | 4 November 1851, Scott's valley | Scott valley | 636 |
+| 307 | 5 January 1852, Temecula | Temecula | 1,930 |
+| 309 | 7 January 1852, Santa Ysabel | Santa Ysabel | 1,617 |
+| | | **Total** | 10,424 |
+
 ## Counties adjusted to the homelands' lines
 
 - Sandía: a detached 406 sq mi goes to the Diné country homeland

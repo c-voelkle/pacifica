@@ -271,6 +271,10 @@ def main():
         draw_poly(ax, P(hg), facecolor="#fdf1e7", edgecolor="#7a3b12", linewidth=1.3)
     for h in hl["inner"]:
         draw_poly(ax, P(Polygon(h["ring"])), facecolor="#f6d9c2", edgecolor="#7a3b12", linewidth=1.1, linestyle="--")
+    cal_land = unary_union([merged[c["name"]] for c in counties if c["unit"] == "California"])
+    tracts = {t["name"]: Polygon(t["ring"]).intersection(cal_land) for t in hl["tract"]}
+    for tg in tracts.values():
+        draw_poly(ax, P(tg), facecolor="#f9e3d0", edgecolor="#7a3b12", linewidth=0.8, zorder=5)
     ax.autoscale_view()
     x0, x1 = ax.get_xlim()
     ax.set_xlim(x0 - 0.02, x1 + 0.005)
@@ -347,7 +351,7 @@ def main():
                 out.append(name.replace(" ", "\n", 1))
         return out
 
-    def label_area(a, name, g, sizes, style, allow_outside=False, numbered=True):
+    def label_area(a, name, g, sizes, style, allow_outside=False, numbered=True, key_suffix=""):
         g = g if g.is_valid else g.buffer(0)
         if g.is_empty:
             return
@@ -374,7 +378,7 @@ def main():
         if numbered:
             num = len(key) + 1
             if put(a, str(num), cands, (5.4, 4.6, 4.0), weight="bold", color=style.get("color", "#111111")):
-                key.append((num, name))
+                key.append((num, name + key_suffix))
                 return
         put(a, name, cands[:1], sizes[-1:], **style)  # last resort: at the best point whatever is there
 
@@ -388,7 +392,7 @@ def main():
     home_style = dict(color="#7a3b12", style="italic", weight="bold")
     # 1. enclave squares first, so that names keep off them
     marks = []
-    for group in ("california", "elsewhere"):
+    for group in ("elsewhere",):
         for name, lo, la in hl["enclaves"][group]:
             x, y = albers(lo, la)
             ax.plot([x], [y], marker="s", ms=3.4, color="#7a3b12", mec="white", mew=0.5, zorder=11)
@@ -400,6 +404,7 @@ def main():
         label_area(ax, name, P(hg), (7.4, 6.6, 5.8), home_style, numbered=False)
     for h in hl["inner"]:
         label_area(ax, h["name"], P(Polygon(h["ring"])), (6.4, 5.6), home_style, numbered=False)
+    late = []
     in_inset = set()
     for _, view, names, proj, _o in insets[1:]:
         for n in names:
@@ -410,6 +415,8 @@ def main():
         if n in in_inset:
             continue
         label_area(ax, n, P(merged[n]), (7.6, 6.6, 5.8, 5.0), county_style)
+    for tname, tg in sorted(tracts.items(), key=lambda kv: kv[1].area):
+        label_area(ax, tname, P(tg), (5.0, 4.4), dict(color="#5a2a0c", style="italic"), allow_outside=True, key_suffix=" (homeland)")
     # 3. the insets
     for a_, view, names, proj, outside_ok in insets:
         for n in sorted(names, key=lambda n: proj(merged[n]).area):
@@ -432,11 +439,11 @@ def main():
                  fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 7 (16 November 2026). Colours: the old members and territories the counties replace. "
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 8 (16 November 2026). Colours: the old members and territories the counties replace. "
              "Dotted grey: our timeline's county lines of 1887.\n"
-             "Brown outlines: the large homelands, outside the 124, on the lines of Royce's Indian Land Cessions where our timeline has a text "
-             "(placed from the text within a few miles). Dashed: the Hopi.\n"
-             "Brown squares: homelands that are enclaves inside a county, not yet outlined. Not shown: Alaska. MODEL and PROPOSED.",
+             "Heavy brown outlines: the large homelands, outside the 124 (Royce's lines where our timeline has a text). Dashed: the Hopi. "
+             "Thin brown outlines: California's nineteen treaty tracts of 1851-52, traced from Royce's plate; they lie inside counties.\n"
+             "Brown squares: other homelands inside a county, not yet outlined. Not shown: Alaska. MODEL and PROPOSED.",
              fontsize=9.5, va="top")
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#333333") for c in UNIT_COLOUR.values()]
     fig.legend(handles, list(UNIT_COLOUR), loc="lower right", bbox_to_anchor=(0.985, 0.03), fontsize=9, ncol=2,
@@ -448,7 +455,14 @@ def main():
                 "`data/counties/homelands_1887.toml`.\n\n| Homeland | Square miles as drawn | Royce |\n|---|---|---|\n")
         for h in hl["large"]:
             f.write(f"| {h['name']} | {areas[h['name']]:,.0f} | {h['royce']} |\n")
-        f.write(f"| **Total** | {sum(areas.values()):,.0f} | |\n\n## Counties adjusted to the homelands' lines\n\n")
+        f.write(f"| **Total** | {sum(areas.values()):,.0f} | |\n\n## California's nineteen tracts (enclaves)\n\n| Royce | Treaty | Tract | Square miles as drawn |\n|---|---|---|---|\n")
+        tot = 0.0
+        for t in hl["tract"]:
+            g = tracts[t["name"]]
+            sq = g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
+            tot += sq
+            f.write(f"| {t['royce']} | {t['treaty']} | {t['name']} | {sq:,.0f} |\n")
+        f.write(f"| | | **Total** | {tot:,.0f} |\n\n## Counties adjusted to the homelands' lines\n\n")
         f.write("\n".join(f"- {r}" for r in report) + "\n")
     print("\n".join(report))
     print({h: round(a) for h, a in areas.items()})

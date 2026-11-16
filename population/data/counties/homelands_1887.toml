@@ -71,15 +71,110 @@ basis = "HP1-HP7 (I-20)"
 royce = "executive order of 16 December 1882: 110 to 111 W, 35 30 to 36 30 N, used as a first size; HP2 asks for a line by named places"
 ring = [[-111.0, 35.5], [-111.0, 36.5], [-110.0, 36.5], [-110.0, 35.5]]
 
-# enclaves: name, lon, lat. California's eighteen are the treaties of 1851-52, placed by river only.
+# California: the tracts reserved by the eighteen treaties of 1851-52 (canon section 8; our timeline's Senate
+# rejected them). Royce numbers them 273-309 on his plate "California 1" (pl. CXIV) and gives no boundary text,
+# only "reserve a tract on ..."; eighteen treaties, nineteen tracts (the treaties of 30 May and 3 June reserve two
+# each; that of 22 August none, its bands going to Clear Lake). Royce prints the dates; the treaty places are from
+# the assistant's memory, to verify. Each ring is traced by eye from that plate against
+# its towns and rivers: right to a few miles at best, and the plate's own lines are generalized. Enclaves (I-8).
+[[tract]]
+royce = 273
+treaty = "19 March 1851, Camp Fremont"
+name = "Merced-Tuolumne"
+ring = [[-120.2, 37.5], [-120.2, 37.68], [-120.08, 37.72], [-119.98, 37.66], [-119.98, 37.52]]
+[[tract]]
+royce = 275
+treaty = "29 April 1851, Camp Barbour"
+name = "Chowchilla-Kings"
+ring = [[-120.15, 37.15], [-120.0, 37.2], [-119.55, 36.75], [-119.7, 36.68]]
+[[tract]]
+royce = 276
+treaty = "13 May 1851, Camp Belt"
+name = "Kings-Kaweah"
+ring = [[-119.7, 36.68], [-119.55, 36.75], [-119.2, 36.35], [-119.35, 36.28]]
+[[tract]]
+royce = 277
+treaty = "30 May 1851, Camp Keyes (first tract)"
+name = "Upper Kings"
+ring = [[-119.45, 36.95], [-119.1, 37.0], [-118.75, 36.85], [-118.9, 36.6], [-119.3, 36.5], [-119.5, 36.7]]
+[[tract]]
+royce = 278
+treaty = "30 May 1851, Camp Keyes (second tract; not made out on the plate, placed on the Kings below the first)"
+name = "Lower Kings"
+ring = [[-119.62, 36.52], [-119.47, 36.52], [-119.47, 36.4], [-119.62, 36.4]]
+[[tract]]
+royce = 280
+treaty = "28 May 1851, Dent and Vantine's Crossing"
+name = "Stanislaus"
+ring = [[-120.65, 37.85], [-120.45, 37.85], [-120.45, 37.7], [-120.65, 37.7]]
+[[tract]]
+royce = 282
+treaty = "3 June 1851, Camp Burton (first tract)"
+name = "Tulare-Buena Vista"
+ring = [[-119.55, 35.95], [-119.4, 35.95], [-119.05, 35.35], [-119.2, 35.3]]
+[[tract]]
+royce = 283
+treaty = "3 June 1851, Camp Burton (second tract)"
+name = "Tule River"
+ring = [[-119.0, 36.1], [-118.6, 36.15], [-118.5, 35.85], [-118.95, 35.8]]
+[[tract]]
+royce = 285
+treaty = "10 June 1851, Camp Persifer F. Smith"
+name = "Tejon"
+ring = [[-118.97, 35.36], [-118.4, 34.96], [-118.93, 34.79], [-119.42, 34.98]]
+[[tract]]
+royce = 287
+treaty = "18 July 1851, Camp Union"
+name = "Yuba-Bear"
+ring = [[-121.4, 39.2], [-121.15, 39.25], [-121.1, 39.0], [-121.4, 38.97]]
+[[tract]]
+royce = 290
+treaty = "1 August 1851, Bidwell's ranch"
+name = "Feather"
+ring = [[-121.75, 39.9], [-121.45, 39.95], [-121.4, 39.65], [-121.7, 39.6]]
+[[tract]]
+royce = 293
+treaty = "16 August 1851, Reading's ranch"
+name = "Upper Sacramento"
+ring = [[-122.35, 40.75], [-121.95, 40.8], [-121.85, 40.45], [-122.3, 40.4]]
+[[tract]]
+royce = 295
+treaty = "20 August 1851, Camp Lu-pi-yu-ma"
+name = "Clear Lake"
+ring = [[-123.0, 39.2], [-122.6, 39.15], [-122.55, 38.9], [-122.9, 38.9]]
+[[tract]]
+royce = 298
+treaty = "9 September 1851, Camp Colus"
+name = "Colusa"
+ring = [[-122.0, 39.2], [-121.85, 39.2], [-121.8, 39.0], [-121.95, 38.98]]
+[[tract]]
+royce = 301
+treaty = "18 September 1851, fork of the Cosumnes"
+name = "Cosumnes"
+ring = [[-121.1, 38.55], [-120.85, 38.55], [-120.85, 38.35], [-121.1, 38.35]]
+[[tract]]
+royce = 303
+treaty = "6 October 1851, Camp Klamath"
+name = "Lower Klamath"
+ring = [[-124.0, 41.4], [-123.75, 41.42], [-123.7, 41.1], [-123.85, 40.98], [-124.0, 41.05]]
+[[tract]]
+royce = 305
+treaty = "4 November 1851, Scott's valley"
+name = "Scott valley"
+ring = [[-123.2, 41.75], [-122.75, 41.8], [-122.7, 41.5], [-123.0, 41.35], [-123.25, 41.5]]
+[[tract]]
+royce = 307
+treaty = "5 January 1852, Temecula"
+name = "Temecula"
+ring = [[-117.08, 34.01], [-116.32, 33.57], [-115.79, 33.43], [-115.89, 33.28], [-116.87, 33.39], [-117.08, 33.43], [-117.42, 33.61], [-117.12, 33.8]]
+[[tract]]
+royce = 309
+treaty = "7 January 1852, Santa Ysabel"
+name = "Santa Ysabel"
+ring = [[-116.87, 33.36], [-116.21, 33.36], [-116.04, 33.09], [-116.1, 32.63], [-116.46, 32.59], [-116.7, 33.22], [-116.87, 33.28]]
+
+# enclaves outside California: name, lon, lat (not yet outlined).
 [enclaves]
-california = [
-  ["Tejon", -118.85, 34.95], ["Buena Vista", -119.3, 35.25], ["Tule-Kaweah", -119.0, 36.15], ["Kings-Chowchilla", -119.65, 36.9],
-  ["Merced-Tuolumne", -120.3, 37.5], ["Stanislaus", -120.6, 37.85], ["Mokelumne (the first)", -120.85, 38.3], ["Yuba-Bear", -121.2, 39.15],
-  ["Feather", -121.75, 39.75], ["Colusa", -122.05, 39.2], ["Upper Sacramento", -122.3, 40.5], ["Clear Lake", -122.8, 39.05],
-  ["Russian River", -123.1, 38.85], ["Eel River", -123.6, 40.2], ["Klamath-Trinity", -123.7, 41.2], ["Scott-Shasta", -122.8, 41.6],
-  ["Temecula", -116.95, 33.6], ["Santa Ysabel", -116.6, 33.1],
-]
 elsewhere = [
   ["Warm Springs", -121.3, 44.8], ["Umatilla", -118.55, 45.65], ["Siletz coast", -124.0, 44.8], ["Grand Ronde", -123.6, 45.07],
   ["Quinault", -124.2, 47.4], ["Makah", -124.6, 48.3], ["Tulalip", -122.25, 48.08], ["Puyallup", -122.35, 47.22], ["Nisqually", -122.7, 47.0],
