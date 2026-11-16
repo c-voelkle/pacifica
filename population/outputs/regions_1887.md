@@ -26,12 +26,12 @@ The acceded mainland units hold 2,323,391, 1.96 times our timeline's 1,186,763 (
 
 ## 2. Allocating the 124
 
-Thalassia is one of the 124 and has no senator (K-7). San Francisco is one county. Three rules for the other 122, each by Webster's method with at least one county a unit (Hawaii at least four, one for each island group with a board):
+Thalassia, on Kāneʻohe Bay, is one of the 124 and has no senator (K-7); it is counted apart from Hawaii's counties. San Francisco is one of California's. Three rules for the other 123, each by Webster's method with at least one county a unit (Hawaii at least four, one for each island group):
 
 | Old unit | Our timeline's counties | Strawman (I2) | A by people | B by the square root of people | C by the square root of people times area |
 |---|---|---|---|---|---|
-| California | 52 | 42 | 69 | 32 | 41 |
-| Oregon | 29 | 14 | 14 | 15 | 14 |
+| California | 52 | 41 | 68 | 32 | 40 |
+| Oregon | 29 | 14 | 14 | 14 | 14 |
 | Columbia | 33 | 14 | 13 | 14 | 12 |
 | Idaho | 15 | 5 | 3 | 6 | 6 |
 | Western Montana | 9 | 4 | 2 | 6 | 4 |
@@ -43,15 +43,16 @@ Thalassia is one of the 124 and has no senator (K-7). San Francisco is one count
 | Hawaii | - | 5 | 4 | 6 | 4 |
 | Alaska | - | 5 | 1 | 4 | 5 |
 | Baja | - | 0 | 1 | 5 | 4 |
+| Thalassia | - | 1 | 1 | 1 | 1 |
 | **Total** | | 124 | 124 | 124 | 124 |
 
-California's rows include San Francisco and Thalassia.
+California's rows include San Francisco. Alaska and the homelands are in these rules only for comparison: the author decided on 16 November 2026 that neither forms counties in 1887 (CR-071-I-map.md).
 
 | | Strawman | A | B | C |
 |---|---|---|---|---|
-| California's county senators of 123 | 41 (33%) | 68 (55%) | 31 (25%) | 40 (33%) |
-| People per Californian county | 78k | 48k | 102k | 80k |
-| People per county, acceded mainland | 32k | 47k | 30k | 33k |
+| California's county senators of 123 | 41 (33%) | 68 (55%) | 32 (26%) | 40 (33%) |
+| People per Californian county | 80k | 48k | 102k | 82k |
+| People per county, acceded mainland | 32k | 47k | 31k | 33k |
 | Smallest unit's people per county | 8k Alaska | 32k Hawaii | 10k Alaska | 8k Alaska |
 | Largest county area, sq mi (average in unit) | 22k Washoe | 57k Arizona | 22k Washoe | 22k Washoe |
 

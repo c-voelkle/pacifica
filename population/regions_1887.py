@@ -23,7 +23,7 @@ UNIT = {"California": "California", "Oregon": "Oregon", "Columbia": "Columbia", 
         "New Mexico (Arizona county)": "Arizona", "The Rockies (Colorado)": "The Rockies"}
 ORDER = ["California", "Oregon", "Columbia", "Idaho", "Western Montana", "Washoe", "Deseret",
          "New Mexico", "Arizona", "The Rockies", "Hawaii", "Alaska", "Baja"]
-STRAWMAN = {"California": 42, "Oregon": 14, "Columbia": 14, "Idaho": 5, "Western Montana": 4, "Washoe": 5,
+STRAWMAN = {"California": 41, "Oregon": 14, "Columbia": 14, "Idaho": 5, "Western Montana": 4, "Washoe": 5,
             "Deseret": 9, "New Mexico": 9, "Arizona": 6, "The Rockies": 6, "Hawaii": 5, "Alaska": 5, "Baja": 0}
 
 
@@ -74,31 +74,33 @@ def main():
       f"(V3 was 2.00). California holds {pop['California'] / total:.0%}.\n")
 
     A("## 2. Allocating the 124\n")
-    A("Thalassia is one of the 124 and has no senator (K-7). San Francisco is one county. Three rules for the other 122, "
-      "each by Webster's method with at least one county a unit (Hawaii at least four, one for each island group with a board):\n")
+    A("Thalassia, on Kāneʻohe Bay, is one of the 124 and has no senator (K-7); it is counted apart from Hawaii's counties. "
+      "San Francisco is one of California's. Three rules for the other 123, "
+      "each by Webster's method with at least one county a unit (Hawaii at least four, one for each island group):\n")
     cal_rest = pop["California"]  # includes San Francisco and Thalassia's residents
     w = {u: pop[u] for u in ORDER}
     floor = {u: 1 for u in ORDER}
     floor["Hawaii"] = 4
-    floor["California"] = 2
     rules = {
-        "A by people": webster(w, 124, floor),
-        "B by the square root of people": webster({u: math.sqrt(v) for u, v in w.items()}, 124, floor),
-        "C by the square root of people times area": webster({u: math.sqrt(v * min(area[u], 160000)) for u, v in w.items()}, 124, floor),
+        "A by people": webster(w, 123, floor),
+        "B by the square root of people": webster({u: math.sqrt(v) for u, v in w.items()}, 123, floor),
+        "C by the square root of people times area": webster({u: math.sqrt(v * min(area[u], 160000)) for u, v in w.items()}, 123, floor),
     }
     A("| Old unit | Our timeline's counties | Strawman (I2) | " + " | ".join(rules) + " |")
     A("|---|---|---|" + "---|" * len(rules))
     for u in ORDER:
         A(f"| {u} | {n_hist.get(u, '-')} | {STRAWMAN[u]} | " + " | ".join(str(r[u]) for r in rules.values()) + " |")
-    A("| **Total** | | 124 | " + " | ".join(str(sum(r.values())) for r in rules.values()) + " |")
+    A("| Thalassia | - | 1 | " + " | ".join("1" for _ in rules) + " |")
+    A("| **Total** | | 124 | " + " | ".join(str(sum(r.values()) + 1) for r in rules.values()) + " |")
     A("")
-    A("California's rows include San Francisco and Thalassia.\n")
+    A("California's rows include San Francisco. Alaska and the homelands are in these rules only for comparison: "
+      "the author decided on 16 November 2026 that neither forms counties in 1887 (CR-071-I-map.md).\n")
     A("| | Strawman | " + " | ".join(n.split()[0] for n in rules) + " |")
     A("|---|---|" + "---|" * len(rules))
     allr = {"Strawman": STRAWMAN, **rules}
     def line(label, f):
         A(f"| {label} | " + " | ".join(f(r) for r in allr.values()) + " |")
-    line("California's county senators of 123", lambda r: f"{r['California'] - 1} ({(r['California'] - 1) / 123:.0%})")
+    line("California's county senators of 123", lambda r: f"{r['California']} ({r['California'] / 123:.0%})")
     line("People per Californian county", lambda r: f"{pop['California'] / r['California'] / 1000:.0f}k")
     line("People per county, acceded mainland", lambda r: f"{interior / sum(r[u] for u in ORDER if u not in ('California', 'Hawaii', 'Alaska', 'Baja')) / 1000:.0f}k")
     line("Smallest unit's people per county", lambda r: min((f"{pop[u] / r[u] / 1000:.0f}k {u}" for u in ORDER if r[u]), key=lambda s: int(s.split('k')[0])))
