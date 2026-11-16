@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 9, 16 November 2026: all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-52 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 9, 16 November 2026: all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-60 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -24,7 +24,7 @@
 | I-13 | **Salt Lake City is split from its valley.** | Author, 16 Nov, 14:58 ("should be split I think"); the line PROPOSED |
 | I-14 | **Park City and Coalville go with Weber.** | Author, 16 Nov, 15:05 |
 | I-15 | **A Pecos county** (seat Roswell) takes Lincoln's plains out of Mesilla, from the county Deseret gave back: New Mexico has ten. | Author, 16 Nov, 15:05 |
-| I-16 | **A railway runs west from Albuquerque along the thirty-fifth parallel by 1887.** | Author, 16 Nov, 15:05; its dates and builder OPEN |
+| I-16 | **A railway runs west from Albuquerque along the thirty-fifth parallel by 1887.** | Author, 16 Nov, 15:05; dates and builder I-53 |
 | I-17 | **New Mexico's county names.** | Author, 16 Nov, 15:05 |
 | I-18 | **The transcontinental route stays Pacifica's; Gallup and the other European settlements stay in the counties.** The Diné country does not take in the thirty-fifth-parallel line or its towns. | Author, 16 Nov, 15:17 |
 | I-19 | **Mount Taylor and the San Francisco Peaks:** summits and northern slopes inside the Diné country, southern feet in the counties; **Hesperus and Blanca Peak** under a mountain article. | Author, 16 Nov, 15:19 ("That works for me") |
@@ -35,7 +35,7 @@
 | I-24 | **Renaming only where the map forces it:** a county whose lines do not change keeps its name; a merged county is named for its river or town. | as I-21 |
 | I-25 | **Snohomish joins Skagit;** the freed county goes to the pool. | as I-21 |
 | I-26 | **Large and small homelands:** a homeland is a unit of its own if it is larger than about 3,000 square miles or lies across two watersheds, otherwise an enclave. In the Northwest the Yakama, Colville, Nez Perce and Klamath countries are large. | as I-21 |
-| I-27 | **A Salt Lake–Snake–Columbia railway exists by 1887;** Malheur's seat is Ontario. | as I-21; dates and builder OPEN |
+| I-27 | **A Salt Lake–Snake–Columbia railway exists by 1887;** Malheur's seat is Ontario. | as I-21; dates and builder I-53 |
 | I-28 | **The multiples and Asian shares by unit (I2) are working figures,** to be revisited when the programme is costed. | as I-21 |
 | I-29 | **Canadian's seat is Springer** (a line runs north from Las Vegas to the Raton coal). | as I-21 |
 | I-30 | **Pecos's county language is English.** | as I-21 |
@@ -47,7 +47,7 @@
 | I-36 | **Walker stays a county; Gallatin, Madison and Beaverhead are one county, Three Forks,** seat Bozeman, with the court at Dillon. Two counties are spare for Arizona. | Author, 16 Nov, 16:08 ("Agreed on all counts") |
 | I-37 | **San Pedro** is the county's name; Tombstone's silver is worked on lease from the Chiricahua. | Author, 16 Nov, 16:22 ("Questions 1-4 are approved as proposed") |
 | I-38 | **Spanish is a county language** beside English in Pima, La Paz and Ensenada, by grant. | as I-37 |
-| I-39 | **Baja is governed from 1867 to 1887 by a commission on the Alaska model;** its two counties replace it. | as I-37; the commission's name, charter and commissioners OPEN |
+| I-39 | **Baja is governed from 1867 to 1887 by a commission on the Alaska model;** its two counties replace it. | as I-37; its form I-54, its commissioners' names OPEN |
 | I-40 | **Arizona's large homelands:** the Tohono O'odham's desert, the White Mountain and San Carlos Apache country and the Chiricahua's, beside the Diné country; the others are enclaves. Arizona's eight counties and Baja's two as drawn. | as I-37 |
 | I-41 | **Hawaii's five counties:** Oʻahu, Maui, Hilo, Kauaʻi, Kona; Hawaiʻi island is two. | Author, 16 Nov, 16:31 ("1-5 are approved") |
 | I-42 | **Thalassia's lines:** the lands round Kāneʻohe Bay, from the Koʻolau's crest to the reef. | as I-41 |
@@ -61,6 +61,14 @@
 | I-50 | **California's nineteen tracts stand as a working version.** | Author, 16 Nov, 20:43 |
 | I-51 | **The Cosumnes tract (Royce 301) is §8's Miwok homeland.** It "can be one of the first or signed seven months earlier than historically"; either reading is open to the storyline. | Author, 16 Nov, 20:43 |
 | I-52 | **The Apache country is drawn on the line of 1871,** with Globe and Clifton inside on lease and the Gila's valley floor in Gila county. For canon: "that border is given to Apache country from 1865 and the settlers don't have to be driven out or anything." | Author, 16 Nov, 20:50 ("Yes you can redraw it as suggested") |
+| I-53 | **The three railways keep our timeline's dates,** so the 1887 figures need not move: the Raton line reaches Springer and Las Vegas in 1879 (I-29); the thirty-fifth-parallel line runs from Albuquerque to the Colorado in 1880–83 (I-16); the Salt Lake–Snake–Columbia line is built in 1881–84 (I-27). The builders are companies chartered by the Realm with Land Fund grants, written into Part C with the settlement programme. | Author, 16 Nov, 23:26 ("I approve 1 2 3 4 5 6 7 and 8 as proposed") |
+| I-54 | **The Baja commission (I-39):** three commissioners appointed by the Council, seated at La Paz, under a charter copied from the Northern Commission's with Spanish as a working language. The names are left for later. | as I-53 |
+| I-55 | **The Colorado's delta goes with Yuma,** not Ensenada: the steamers ran up the river to Yuma, and Ensenada lies behind the Sierra Juárez. | as I-53 |
+| I-56 | **Baja's peoples:** enclaves for the Kumeyaay (Sierra Juárez), the Paipai (Santa Catarina), the Kiliwa (San Pedro Mártir) and the Cucapá (the delta, inside Yuma), compacted with the commission in the 1870s. The Cochimí have no homeland unless research shows that enough survived the missions. | as I-53 |
+| I-57 | **The Hopi line** as sketched by named places is the working line. First and Second Mesa sign in 1865; Oraibi, with its farming village Moenkopi, holds out and signs later. The leaders' names and the smallpox and drought of the 1860s are to research. | as I-53 |
+| I-58 | **The Jicarilla's enclave** follows our timeline's order of 1887 around Dulce, in the north of Rio Arriba (I-31), from Royce. | as I-53 |
+| I-59 | **The Ruby Valley treaty of 1863 is assumed** (CR-060 N1), and the Western Shoshone have an enclave at Ruby Valley as well as Duck Valley. Historically the treaty made no reservation; this is a deliberate difference. | as I-53 |
+| I-60 | **The other enclaves:** outlined from Royce where a treaty or order before 1887 gives a line; the rest stay squares until canon gives them a treaty. The Pueblos are drawn by their Spanish grants. | as I-53 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -243,7 +251,7 @@ Utah's San Juan goes with the Four Corners (below). County language: English in 
 | HP6 | **Settlers.** No grant or Land Fund sale inside the line. The Saints who farm at Moenkopi by a Hopi leader's invitation hold a lease through the Realm, not a title. |
 | HP7 | **The Senate and the vote.** The villages take part in choosing the seat of the Pueblos and the Apache, not the Diné's (I-11). A Hopi who lives in a county votes where he is registered (I-9). |
 
-OPEN: the line; whether every village signs in 1865 or some hold out; the Hopi leaders' names; what the smallpox and drought of the 1860s do here (to research).
+**I-57 (APPROVED):** the line by named places, as sketched in I4a, is the working line. First and Second Mesa sign in 1865; Oraibi, with Moenkopi, holds out and signs later, so the Diné treaty's Hopi article runs from 1865 and Oraibi's own signature comes after it (the year OPEN for the storyline). To research: the leaders' names; what the smallpox and drought of the 1860s do here. Start with the *Handbook of North American Indians*, vol. 9 (Southwest, 1979), and Whiteley, *Deliberate Acts* (1988), on Oraibi.
 
 **New Mexico's ten (names APPROVED, I-17; the Pecos county APPROVED, I-15).** People are our timeline's 1887 estimate times 1.3 (the San Luis Valley's two counties times 1.2), in thousands (MODEL).
 
@@ -261,10 +269,10 @@ OPEN: the line; whether every village signs in 1865 or some hold out; the Hopi l
 | **Mimbres** | Silver City | Grant | 10 | English |
 
 - **Across the old lines.** Taos and Rio Arriba take the San Luis Valley's Hispano counties: one watershed, one language, and the narrow gauge runs through both (CR-060 CO7). The old Colorado line there disappears. No county encloses New Mexico whole, and none carries its name.
-- **The west.** Our timeline's Bernalillo and Valencia ran to the Arizona line across Diné country. Here they stop at the homeland. The strip south of it along the thirty-fifth parallel (the coal at Gallup, Zuni's country, the Little Colorado settlements) goes to a county of Arizona's six, **Little Colorado** (seat Holbrook; about 10,000 people), drawn with Arizona. A railway west from Albuquerque along the thirty-fifth parallel exists by 1887 (I-16, APPROVED; its dates and builder OPEN, and a storyline line is needed at integration).
+- **The west.** Our timeline's Bernalillo and Valencia ran to the Arizona line across Diné country. Here they stop at the homeland. The strip south of it along the thirty-fifth parallel (the coal at Gallup, Zuni's country, the Little Colorado settlements) goes to a county of Arizona's six, **Little Colorado** (seat Holbrook; about 10,000 people), drawn with Arizona. A railway west from Albuquerque along the thirty-fifth parallel exists by 1887 (I-16, APPROVED; 1880–83 by a company chartered by the Realm, I-53; a storyline line is needed at integration).
 - **Language (rule 4).** Eight of the nine are Spanish-speaking in the majority and receive Spanish as a county language by organic law, beside English; the Rio Grande compact's courts in Spanish and English are carried as that grant (CT4). Mimbres is a mining county and English.
 - **The Hispano majority holds.** At 1.3 times history the settlement programme does not outnumber it (I-4's exception).
-- **Small homelands inside counties (I-8):** the Pueblos' grants (in Taos, Rio Arriba, Santa Fe, Sandía and Río Abajo; Zuni in Little Colorado); the Chihenne's country and the Santa Rita lease in Mimbres (§15); the Mescalero's in Mesilla's eastern half. The Jicarilla's land is OPEN (our timeline gave them none until 1887).
+- **Small homelands inside counties (I-8):** the Pueblos' grants (in Taos, Rio Arriba, Santa Fe, Sandía and Río Abajo; Zuni in Little Colorado); the Chihenne's country and the Santa Rita lease in Mimbres (§15); the Mescalero's in Mesilla's eastern half. The Jicarilla's enclave is around Dulce in the north of Rio Arriba, on our timeline's line of 1887 (I-31, I-58).
 - **Weak points.** Pecos (about 6,000) and Mimbres (10,000) are small; Mimbres may take the Clifton copper district when Arizona is drawn. How Lincoln's people divide between Mesilla and Pecos is a guess.
 
 **For the author:** the Diné country's lines and the four mountains (under discussion, 16 November, 15:05: "What if the mountains were in Diné country?").
@@ -381,7 +389,7 @@ Nineteen counties. Idaho's ground needs five, not six, after Bear River, Palouse
 - **Clear Creek** can be reached by rail only through Denver, under the Colorado article's transit clause (§15).
 - **Across the old lines:** San Juan (Colorado and Utah), and earlier Bear River, Palouse and Malheur out of Idaho. No county encloses Idaho, western Montana or Washoe whole.
 - **Asian settlement (I-5).** PROPOSED: the largest shares in Boise and Wood River (our timeline's Boise Basin was largely Chinese in 1870, to verify; the Snake plain's irrigation districts are the interior's likeliest Asian-majority ground), in Carson and Elko (the Comstock and the railway towns) and in Silver Bow.
-- **Homelands (I-26).** Large, PROPOSED: the Utes' Slope and Parks; the Nez Perce country; Fort Hall. Enclaves, PROPOSED: the Flathead and the Bitterroot Salish in Missoula, the Coeur d'Alene, Lemhi, Duck Valley, Pyramid Lake and Walker River. The Western Shoshone's Ruby Valley treaty (1863, the Union's, assumed under CR-060 N1) is OPEN.
+- **Homelands (I-26).** Large, PROPOSED: the Utes' Slope and Parks; the Nez Perce country; Fort Hall. Enclaves, PROPOSED: the Flathead and the Bitterroot Salish in Missoula, the Coeur d'Alene, Lemhi, Duck Valley, Pyramid Lake and Walker River. The Western Shoshone's Ruby Valley treaty (1863, the Union's) is assumed under CR-060 N1, with an enclave at Ruby Valley beside Duck Valley (I-59).
 - **Weak points.** Walker (6,000) is small and is a county for its distances and for the gold of Tonopah and Goldfield to come (I-36). Dillon is a long day from Bozeman by rail. Salmon has no railway.
 
 ### Arizona and Baja — APPROVED (I-37 to I-40)
@@ -405,8 +413,8 @@ Arizona takes eight counties, its six and the two spare (I-35, I-36); Baja two (
 - **San Pedro, not Cochise.** Our timeline named the county for Cochise in 1881. Here he made the peace of 1865 (§15), the Dragoon and Chiricahua mountains are his people's country, and Tombstone's silver (found 1877, Hist.) lies in or beside it: worked on lease like the Utes' mining districts (I-34, I-37).
 - **Salt River** is the settlement programme's irrigation county, and with Yuma the likeliest in Arizona to have an Asian majority or near it (I-5); the Saints' settlements at Mesa are inside it.
 - **Language (rule 4).** Tucson's county and both of Baja's receive Spanish beside English. Baja is not part of California's historic land: its Spanish is a county grant, not an entrenchment.
-- **Homelands (I-26).** Large, PROPOSED: the Diné country (above), the Tohono O'odham's desert, the Apache country of the White Mountains and San Carlos, the Chiricahua's. Enclaves, PROPOSED: the Hopi (their own, inside the Diné country), the Pima and Maricopa on the Gila, the Quechan at Yuma, the Mohave and Chemehuevi on the Colorado, the Hualapai and Havasupai. Baja's peoples (Kumeyaay, Paipai, Cochimí, Cucapá) are OPEN.
-- **Baja before 1887 (I-39).** A commission on the Alaska model governs the peninsula from the purchase of 1867 (§16); the two counties replace it in 1887, where Alaska's commission continues (I-7). E7's sentence that Alaska is "the one part of the Confederation that already looks like a county of 1887" gains a second case. OPEN: the commission's name, charter and commissioners; whether the Colorado's delta goes with Yuma or with Ensenada.
+- **Homelands (I-26).** Large, PROPOSED: the Diné country (above), the Tohono O'odham's desert, the Apache country of the White Mountains and San Carlos, the Chiricahua's. Enclaves, PROPOSED: the Hopi (their own, inside the Diné country), the Pima and Maricopa on the Gila, the Quechan at Yuma, the Mohave and Chemehuevi on the Colorado, the Hualapai and Havasupai. Baja's peoples (I-56): enclaves for the Kumeyaay, Paipai, Kiliwa and Cucapá (the last in the delta, inside Yuma); the Cochimí have none unless research shows enough survived the missions.
+- **Baja before 1887 (I-39).** A commission on the Alaska model governs the peninsula from the purchase of 1867 (§16); the two counties replace it in 1887, where Alaska's commission continues (I-7). E7's sentence that Alaska is "the one part of the Confederation that already looks like a county of 1887" gains a second case. Its form is I-54 (three commissioners at La Paz, a charter copied from the Northern Commission's, Spanish a working language); the commissioners' names are OPEN. The Colorado's delta goes with Yuma (I-55).
 - **Weak points.** Yuma (5,000) and Coconino (6,000) are small; both are counties for distance. Baja's split of people is a guess.
 
 **The count:** 118 drawn. Hawaii's five and Thalassia make 124, with no county spare.

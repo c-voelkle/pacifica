@@ -79,7 +79,7 @@ This is Part D's L1, the return of the registers. The office changes its nature 
 - **The ceremony (E-17, APPROVED).** Each Commissioner receives his commission from Elias in person at Monterey and swears the oath of the Confederation, not of his member. It is the 1879 echo of the lords of 1869 returning their registers to the throne (Part D, D1), and Itō, who was with Kido at Nagasaki in 1867 when the lesson began (D1), is told of it by letter.
 - **Alternatives considered:** "the Act of Concurrence" (closer to the Japanese "return", but vaguer about what is given up); "the Governors' Act" (plain, but it names the men it diminishes).
 
-### E3.2 Soberanes's memorandum (Part D, decision 9, ready for approval; winter 1878–79)
+### E3.2 Soberanes's memorandum (Part D, decision 9, APPROVED; winter 1878–79)
 
 Back from Vladivostok, Soberanes reads the reports from Japan (Part D, D3) and writes the memorandum that turns them into the sequence of this part: money first, then the men, then the armed men, then the map, then the vote. It also proposes the Party's use (CR-072 C3). It is addressed to Elias alone and read by Victoria. Soberanes is 31. His motive is CR-072 C3's (the states' patronage posts go to the estates and their boards to the Party; as a historic land California keeps Spanish and the Court at Monterey) and Part G's (G6.2: inside the state the Californios could lose any session, inside the Realm they are guaranteed).
 

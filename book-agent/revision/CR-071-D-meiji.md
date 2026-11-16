@@ -1,6 +1,6 @@
 # CR-071, Part D — The Meiji lesson (1867–1878)
 
-**Status:** DRAFT, 15 November 2026; updated 16 November after the consistency check (A6, B6, B10, C). Decisions 1–8 and 10 APPROVED; 9 ready for approval (Soberanes's motive is now in CR-072 C3 and Part G, G6.2; the memorandum is Part E, E3.2); 8 OPEN. Two refinements from the check, K-4 and K-14, and decision 8 were APPROVED on 16 November. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED.
+**Status:** DRAFT, 15 November 2026; updated 16 November after the consistency check (A6, B6, B10, C). Decisions 1–10 APPROVED (9 on 16 November, 23:26; Soberanes's motive is in CR-072 C3 and Part G, G6.2; the memorandum is Part E, E3.2); 8 OPEN. Two refinements from the check, K-4 and K-14, and decision 8 were APPROVED on 16 November. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED.
 **Belongs to:** `CR-071-outline.md`, Part D. No storyline text is drafted here.
 **Canon it builds on:** §7 (Manjirō, Hikozō, Satsuma, the 1858 treaty); §14 (the guarantee at Edo in 1868, Kuroda, the army mission, the alliance of 1870–71, the Iwakura Mission's landfall); §15 (1877: Pacifica backs Tokyo against Saigō); §16 (Soberanes, born Monterey 1847, Vance's chief of staff at Vladivostok 1878); §18 (Kiyoshi, born at Kagoshima in 1859); CR-021 A ("which Elias watched closely") and B5.
 
@@ -12,7 +12,11 @@ Decisions 1, 3, 5 and 7.
 
 > I approve of these for the most part. For Soberanes we have to determine what his motive is for supporting and even championing the plan. We must also consider an important difference between Meiji Japan's tightly knit oligarchical Samurai leadership and Pacifica's at least nominally parliamentary system of government. I had brought up the topic of a political party once before and deferred it until now. I think it may be time to open that discussion up again as well. (15 November 2026, 17:06)
 
-Decisions 2, 4, 6 and 10 APPROVED. Decision 9 waited on Soberanes's motive, which CR-072 C3 and Part G (G6.2) now supply. The oligarchy difference is D9; the party question became CR-072.
+Decisions 2, 4, 6 and 10 APPROVED. Decision 9 waited on Soberanes's motive, which CR-072 C3 and Part G (G6.2) now supply. It was approved with the map's open items:
+
+> I approve 1 2 3 4 5 6 7 and 8 as proposed. 9 as well. (16 November 2026, 23:26)
+
+(Item 9 of that list was this decision and Part H's two open points, H-13 and H-14.) The oligarchy difference is D9; the party question became CR-072.
 
 ## D0. The claim in four sentences
 
@@ -131,7 +135,7 @@ Japan's abolition was carried by a small band from two domains who had fought a 
 | 6 | Is the 1873 loan placed in San Francisco (L10)? | In part. MODEL; small. | **APPROVED** |
 | 7 | Does D6 stand: the historic lands designed against Kagoshima, and the Truce as the lesson not applied? | Yes. | **APPROVED**; refined by K-4 and K-14 (APPROVED) |
 | 8 | Where is Kiyoshi in 1877? | A cadet at the naval school the Pacifican mission runs in Tokyo, on the government side while Kagoshima rises; it fits his captaincy of Japanese-crewed ships at Keelung in 1884 (§16). | **APPROVED** (author, 16 November) |
-| 9 | Does Soberanes write the memorandum (D3)? | Yes, in the winter of 1878–79 (Part E, E3.2), with the motive of CR-072 C3 and G6.2. | Ready for approval |
+| 9 | Does Soberanes write the memorandum (D3)? | Yes, in the winter of 1878–79 (Part E, E3.2), with the motive of CR-072 C3 and G6.2. | **APPROVED** (author, 16 November, 23:26) |
 | 10 | Does the Chronicler draw the Saigō–Silas parallel, or leave it to the reader (D6)? | Leave it to the reader. | **APPROVED** |
 | K-4 | D6: Hawaii as the exception, safe only because its Queen is the Regent (consistency check A6) | Yes. | **APPROVED** (author, 16 November) |
 | K-14 | D0.4 and D6: the lesson misapplied first in 1882, with Elias's consent, and fixed in law by the Truce in 1887 (consistency check B10; E-13) | Yes. | **APPROVED** (author, 16 November) |

@@ -1,6 +1,6 @@
 # CR-071, Part H — Who resisted, and how each was bested (1879–1888)
 
-**Status:** DRAFT 2, 16 November 2026. H-1 to H-10 APPROVED by the author (11:55), H-9 in the revised wording of H2, and H-8 with its railway assumption. Draft 2 adds the Honolulu rising of 1889 (H4, H-11) and the comparison with Meiji (H5, H-12), both APPROVED by the author (12:00). Details inside approved sections that are not themselves decisions remain PROPOSED. No storyline text is drafted here.
+**Status:** DRAFT 2, 16 November 2026. H-1 to H-10 APPROVED by the author (11:55), H-9 in the revised wording of H2, and H-8 with its railway assumption. Draft 2 adds the Honolulu rising of 1889 (H4, H-11) and the comparison with Meiji (H5, H-12), both APPROVED by the author (12:00). H-13 and H-14 (the Guard's commander, Wilcox's later life) APPROVED 16 November, 23:26. Details inside approved sections that are not themselves decisions remain PROPOSED. No storyline text is drafted here.
 **Belongs to:** `CR-071-outline.md`, Part H. Builds on Parts D, E and F–G (`CR-071-D-meiji.md`, `CR-071-E-preparation.md`, `CR-071-FG-triggers-act.md`), CR-072 (the Party) and CR-073 (Ralston).
 **Canon it builds on (`main`):** §21 ("Grants buy interior legislators … Hawaiian loyalists reject it"); §22 (the Truce; "Portland, Seattle and Salt Lake remain ordinary counties, with the Church steering a coherent Deseret Senate bloc"); §23 (the loyalists court Noe and look to Albert Kūnuiākea); §25 ("County powers, boundaries and grades are organic law, amendable by both chambers without local consent … giving county oligarchies reason to fight through their senators"); the Senate dispute of 1910–1911 and the refusal of 1927, led by Harlan Tate (CR-022, CR-040); §12 (Oregon's vote of 1866, Nesmith, Lane, Deady); §10 (New Mexico's charter, Perea and Chaves); CR-037 E10 (a Hispano or Hawaiian county may be governed mostly by Hispanos or Hawaiians); CR-038 F1 (retirement at 68).
 
@@ -9,6 +9,10 @@
 > I approve all of H1 thru H10 including the assumption that the railway's route goes on to Rogue Valley, with the caveat proposed above for H9. Please write up the Honolulu rising as an early test of Regent Victoria and her guard and the comparison with Meiji. (16 November 2026, 11:55)
 
 > H11 and H12 stand. (12:00)
+
+> I approve 1 2 3 4 5 6 7 and 8 as proposed. 9 as well. (16 November 2026, 23:26)
+
+H-13 and H-14 (H4) were item 9 of that list, with Part D's decision 9.
 
 The caveat for H-9 is the rewording proposed the same morning: no one is beaten by force on the day; the state comes closest at Donner, where the reform's armed losers stand, and is spared at Salt Lake by Taylor's death. H2 carries it.
 
@@ -116,8 +120,8 @@ No one is beaten by force on the day. The members have had no armed men of their
 - **Her choice.** The Queen is at Thalassia, twelve miles over the Pali. Kiyoshi's naval party at Pearl Harbor offers marines, and the Commissioner for Honolulu county offers the reserve. She refuses both. In 1874 confederal marines landed in Honolulu and the deaths were Monterey's; in 1889 Japanese marines firing on Hawaiians would poison the compact with Tokyo, and the Realm's reserve would make it the Realm's quarrel. She sends the Queen's Guard over the Pali under its own officers, with Kalākaua answerable for its loyalty, as he has been since the mutiny of 1873 (§17). Her terms go ahead of it: lay down arms by morning, and the grievance goes to the kingdom's Supreme Court.
 - **The fighting.** Wilcox refuses. The Guard takes the grounds in the afternoon. Seven of the rising are killed, as historically. Hawaiians have fired on Hawaiians in the Queen's name, and the Queen gave the order. In 1874 she kept the Guard in its barracks so that a rising in her name would not become a war; in 1889 she sends it out for the same reason.
 - **The aftermath.** She rides into Honolulu that night. Wilcox is tried for treason before the kingdom's Supreme Court, the court whose judgment of 1876 the Council ignored (E6), and a Hawaiian jury acquits him in 1890, as historically. The Regent accepts the verdict. She also says what the Council is for: it carries Hawaii's business until the Crown is established, and the Act that establishes the Crown will end it. The promise is kept in 1907 (CR-040).
-- **What it tests.** Whether the Regent is a Hawaiian queen or the Realm's officer: she answers both at once, with her own guard and her own court. The loyalists sing of the seven; the Realm's press notes that no marine landed. Wilcox's later life is OPEN. Historically he died in 1903, four years before the plebiscite of 1907, whose "no" then falls to others.
-- **The Guard's commander** in 1889 is OPEN. Major William Moehonua took the command in 1873 (§17) and historically died in 1877. Samuel Nowlein, historically captain of the royal Household Guard in the 1890s, is a candidate.
+- **What it tests.** Whether the Regent is a Hawaiian queen or the Realm's officer: she answers both at once, with her own guard and her own court. The loyalists sing of the seven; the Realm's press notes that no marine landed. **Wilcox's later life (H-14, APPROVED):** he dies in 1903, as historically, four years before the plebiscite of 1907, and the campaign against the union passes to others, possibly his widow Theresa Owana Laʻanui Wilcox, whom he married in 1896 and who was politically active after his death (Hist., from memory, to verify).
+- **The Guard's commander (H-13, APPROVED):** Samuel Nowlein, historically captain of the royal Household Guard in the 1890s, commands the Queen's Guard in 1889. Major William Moehonua took the command in 1873 (§17) and historically died in 1877; when Nowlein succeeds him is OPEN.
 
 ## H5. Against Meiji: why the friction is lower, and where it went (H-12, APPROVED)
 
@@ -149,6 +153,8 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-10 | The table of H3 as the material of 1910–1911 and 1927 | Yes | **APPROVED** (author, 16 November) |
 | H-11 | The Honolulu rising of 30 July 1889: Wilcox at Aliʻiōlani Hale; the Regent refuses the naval party's marines and the reserve and sends the Queen's Guard; seven killed; Wilcox acquitted by a Hawaiian jury in 1890; the Council to end with the Act that establishes the Crown (H4) | Yes | **APPROVED** (author, 16 November) |
 | H-12 | The comparison with Meiji as the CR's reasoning, not the Chronicler's (H5) | Yes | **APPROVED** (author, 16 November) |
+| H-13 | The Queen's Guard's commander in 1889 (H4) | Samuel Nowlein | **APPROVED** (author, 16 November, 23:26) |
+| H-14 | Wilcox's later life (H4) | Dies in 1903 as historically; the 1907 campaign passes to others, possibly his widow Theresa | **APPROVED** (author, 16 November, 23:26) |
 
 ## Canon touchpoints
 
