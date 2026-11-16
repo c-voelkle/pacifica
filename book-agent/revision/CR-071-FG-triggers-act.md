@@ -183,7 +183,7 @@ Counties are counted under the unit that holds their seat; eleven cross an old l
 - **Alaska is outside the 124** under the Northern Commission (Part I, I-7; CT3). The strawman's five Alaskan counties are gone; Alaska's nations take part in choosing the seventh homeland seat (I-32).
 - **The homelands are outside the counties** where large and inside them where enclaves (I-8, I-26); their members vote in a county only where registered (I-9) and choose the seven homeland seats.
 
-California has 57% of the people (MODEL) and 35% of the county senators; a Californian county averages about 76,000 people, a county elsewhere about 30,000. One county, one senator is the interior's bribe. California loses the Senate and wins the map of the state: four of the seats of government and the money. A Senate weighted toward small counties is weighted toward the Party's county men, the Senate Julian meets in 1910–1911 and 1927 (CR-021 B5; CR-072 C6).
+California has 57% of the people in the 124 (56% of the model's 5.84 million; MODEL) and 35% of the county senators; a Californian county averages about 76,000 people, a county elsewhere about 31,000. One county, one senator is the interior's bribe. California loses the Senate and wins the map of the state: four of the seats of government and the money. A Senate weighted toward small counties is weighted toward the Party's county men, the Senate Julian meets in 1910–1911 and 1927 (CR-021 B5; CR-072 C6).
 
 ## G4. On the day (1 August 1887) — APPROVED
 

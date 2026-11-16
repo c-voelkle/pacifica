@@ -20,18 +20,20 @@ Built by `population/settlement_1887.py` from `data/counties/settlement_1887.tom
 
 Of the extra people, 65% arrived in 1867-87 (761,558) and the rest were born here. 35% of the arrivals were assisted (266,545).
 
-## Costs and receipts, 1867-87
+## Costs and receipts
 
-| Item | Out | Back | Net |
-|---|---|---|---|
-| Assisted passage at $35, 40% repaid with the land | $9.3m | $3.7m | $5.6m |
-| Emigration offices, 1867-1887 | $3.1m | | $3.1m |
-| Irrigation districts: 937,302 acres at $12, lent and repaid by water rates; 25% lost | $11.2m | $8.4m | $2.8m |
-| Land: 105,447 farms of 160 acres (16.9m acres) bought from the nations and surveyed, sold at $1.25 on instalments | $2.2m | $19.0m | $-16.8m |
-| **Total** | **$25.9m** | **$31.1m** | **$-5.2m** |
+Out: 1867-87. Back: split into what is received by the end of 1887 and what comes later. Net: in the end.
 
-**What is new to the workbook: $11.6m** over 1867-87 (about $0.6m a year), the passage, the offices and the irrigation loss. The land line is already there in substance: since 14 November 2026 the members' land enters the Land Fund from 1867 (`Members' land` sheet, L15), so its receipts must not be added a second time. The irrigation loans ($11.2m lent in 1872-1887) are a balance-sheet item repaid over about twenty years.
+| Item | Out, 1867-87 | Back by 1887 | Back later | Net in the end |
+|---|---|---|---|---|
+| Assisted passage at $35, 40% repaid with the land | $9.3m | $3.4m | $0.4m | $5.6m |
+| Emigration offices, 1867-1887 | $3.1m | | | $3.1m |
+| Irrigation districts: 937,302 acres at $12, lent and repaid by water rates over about 20 years; 25% lost | $11.2m | $3.4m | $5.1m | $2.8m |
+| Land: 105,447 farms of 160 acres (16.9m acres) bought from the nations and surveyed, sold at $1.35 on instalments (sales $22.8m, of which a tenth is never paid) | $2.2m | $18.4m | $2.0m | $-18.3m |
+| **Total** | **$25.9m** | **$25.2m** | **$7.5m** | **$-6.7m** |
 
-**The railways** (I-53) cost the Treasury no cash: their grants are 10.7m acres of Land Fund land along 1,675 miles (Raton line (1878-79) 250, Thirty-fifth parallel (1880-83) 575, Salt Lake-Snake-Columbia (1881-84) 850). Land that would not sell without the line.
+**What is new to the workbook: $11.6m** over 1867-87 (about $0.6m a year), the passage, the offices and the irrigation loss. **The land is a change of timing, not new acres:** the workbook's `Members' land` sheet (L15) sells our timeline's census farm acreage as it grew, most of it after 1887; the programme sells about this many acres earlier. In the workbook it is an earlier path for L15's acreage, at L15's price, not a second land line. The irrigation loans ($11.2m lent in 1872-1887) are a balance-sheet item repaid over about twenty years.
 
-**Not costed here** (private, or already in the workbook): the smelters, coal and timber that anchor the mining and forest counties (private capital, some on Realm loans); the Union's plains settlers diverted to the Palouse and the Sound (they pay their own way; the offices above recruit them); California's own Land Fund (CR-033).
+**The railways** (I-53) cost the Treasury no cash: their grants are 10.3m acres of Land Fund land along 1,675 miles less about 60 inside homelands, which give a right of way by compact and no land (Raton line (1878-79) 250, Thirty-fifth parallel (1880-83) 575, Salt Lake-Snake-Columbia (1881-84) 850). Land that would not sell without the line.
+
+**Not costed here** (private, or already in the workbook): the smelters, coal and timber that anchor the mining and forest counties (private capital, some on confederal loans); the Union's plains settlers diverted to the Palouse and the Sound (they pay their own way; the offices above recruit them); California's own Land Fund (CR-033).

@@ -43,7 +43,8 @@ def main():
     land_out = acres_sold * (ld["purchase"] + ld["survey"])
 
     rw = p["railways"]
-    rail_acres = sum(rw["miles"].values()) * rw["acres_per_mile"]
+    rail_acres = (sum(rw["miles"].values()) - rw.get("homeland_miles", 0)) * rw["acres_per_mile"]
+    sold_value = acres_sold * ld["price"]
 
     gross_out = passage_out + agents + irr_capital + land_out
     net = passage_out - passage_back + agents + irr_cost + land_out - land_in
@@ -59,24 +60,31 @@ def main():
     L.append(f"| **Total** | | | **{total_extra:,.0f}** |\n")
     L.append(f"Of the extra people, {pe['arrived_share']:.0%} arrived in 1867-87 ({arrivals:,.0f}) and the rest were born here. "
              f"{pe['assisted_share']:.0%} of the arrivals were assisted ({assisted:,.0f}).\n")
-    L.append("## Costs and receipts, 1867-87\n")
-    L.append("| Item | Out | Back | Net |")
-    L.append("|---|---|---|---|")
-    L.append(f"| Assisted passage at ${pe['passage']:.0f}, {pe['repaid_share']:.0%} repaid with the land | {m(passage_out)} | {m(passage_back)} | {m(passage_out - passage_back)} |")
-    L.append(f"| Emigration offices, {a['years'][0]}-{a['years'][1]} | {m(agents)} | | {m(agents)} |")
-    L.append(f"| Irrigation districts: {acres_irr:,.0f} acres at ${ir['cost_per_acre']:.0f}, lent and repaid by water rates; {ir['loss_share']:.0%} lost | {m(irr_capital)} | {m(irr_capital - irr_cost)} | {m(irr_cost)} |")
-    L.append(f"| Land: {farms:,.0f} farms of {ld['acres']:.0f} acres ({acres_sold / 1e6:,.1f}m acres) bought from the nations and surveyed, sold at ${ld['price']:.2f} on instalments | {m(land_out)} | {m(land_in)} | {m(land_out - land_in)} |")
-    L.append(f"| **Total** | **{m(gross_out)}** | **{m(gross_out - net)}** | **{m(net)}** |\n")
+    L.append("## Costs and receipts\n")
+    L.append("Out: 1867-87. Back: split into what is received by the end of 1887 and what comes later. Net: in the end.\n")
+    L.append("| Item | Out, 1867-87 | Back by 1887 | Back later | Net in the end |")
+    L.append("|---|---|---|---|---|")
+    lb, ib = pe["land_by_1887"], pe["irrigation_by_1887"]
+    pb = passage_back
+    L.append(f"| Assisted passage at ${pe['passage']:.0f}, {pe['repaid_share']:.0%} repaid with the land | {m(passage_out)} | {m(pb * lb)} | {m(pb * (1 - lb))} | {m(passage_out - pb)} |")
+    L.append(f"| Emigration offices, {a['years'][0]}-{a['years'][1]} | {m(agents)} | | | {m(agents)} |")
+    rep = irr_capital - irr_cost
+    L.append(f"| Irrigation districts: {acres_irr:,.0f} acres at ${ir['cost_per_acre']:.0f}, lent and repaid by water rates over about 20 years; {ir['loss_share']:.0%} lost | {m(irr_capital)} | {m(rep * ib)} | {m(rep * (1 - ib))} | {m(irr_cost)} |")
+    L.append(f"| Land: {farms:,.0f} farms of {ld['acres']:.0f} acres ({acres_sold / 1e6:,.1f}m acres) bought from the nations and surveyed, sold at ${ld['price']:.2f} on instalments (sales {m(sold_value)}, of which a tenth is never paid) | {m(land_out)} | {m(land_in * lb)} | {m(land_in * (1 - lb))} | {m(land_out - land_in)} |")
+    back_now = pb * lb + rep * ib + land_in * lb
+    back_later = pb * (1 - lb) + rep * (1 - ib) + land_in * (1 - lb)
+    L.append(f"| **Total** | **{m(gross_out)}** | **{m(back_now)}** | **{m(back_later)}** | **{m(net)}** |\n")
     new_net = passage_out - passage_back + agents + irr_cost
     L.append(f"**What is new to the workbook: {m(new_net)}** over 1867-87 (about {m(new_net / 21)} a year), the passage, the offices and the "
-             "irrigation loss. The land line is already there in substance: since 14 November 2026 the members' land enters the Land Fund "
-             "from 1867 (`Members' land` sheet, L15), so its receipts must not be added a second time. The irrigation loans "
+             "irrigation loss. **The land is a change of timing, not new acres:** the workbook's `Members' land` sheet (L15) sells our timeline's "
+             "census farm acreage as it grew, most of it after 1887; the programme sells about this many acres earlier. In the workbook it is "
+             "an earlier path for L15's acreage, at L15's price, not a second land line. The irrigation loans "
              f"({m(irr_capital)} lent in {ir['built'][0]}-{ir['built'][1]}) are a balance-sheet item repaid over about twenty years.\n")
     L.append(f"**The railways** (I-53) cost the Treasury no cash: their grants are {rail_acres / 1e6:,.1f}m acres of Land Fund land along "
-             f"{sum(rw['miles'].values()):,} miles (" + ", ".join(f"{k} {v}" for k, v in rw["miles"].items()) + "). "
+             f"{sum(rw['miles'].values()):,} miles less about {rw.get('homeland_miles', 0)} inside homelands, which give a right of way by compact and no land (" + ", ".join(f"{k} {v}" for k, v in rw["miles"].items()) + "). "
              "Land that would not sell without the line.\n")
     L.append("**Not costed here** (private, or already in the workbook): the smelters, coal and timber that anchor the mining and "
-             "forest counties (private capital, some on Realm loans); the Union's plains settlers diverted to the Palouse and the Sound "
+             "forest counties (private capital, some on confederal loans); the Union's plains settlers diverted to the Palouse and the Sound "
              "(they pay their own way; the offices above recruit them); California's own Land Fund (CR-033).\n")
     open(HERE / "outputs" / "settlement_1887.md", "w", encoding="utf-8").write("\n".join(L))
     print(f"extra {total_extra:,.0f}; gross out {m(gross_out)}; net {m(net)}; new to workbook {m(passage_out - passage_back + agents + irr_cost)}")

@@ -8,9 +8,13 @@ arrived_share = 0.65     # of the extra people of 1887 (Pacifica minus our timel
 assisted_share = 0.35    # of those arrivals, the share whose passage the Realm paid or advanced
 passage = 35.0           # $ a person: steerage across the ocean or from the Union's Midwest, and the land-seeker's fare inland
 repaid_share = 0.40      # of the passage money, the share repaid with the land instalments
+land_by_1887 = 0.90      # of land payments (and passage repayments tied to them), the share received by 1887: sales spread over
+                         # 1867-87, each paid over five years
+irrigation_by_1887 = 0.40  # of the districts' repayments, the share received by 1887: loans spread over 1872-87, repaid over 20 years
 
 [agents]
-per_year = 150000.0      # emigration offices: Hamburg, Liverpool, Christiania, Chicago, Yokohama, Canton
+per_year = 150000.0      # emigration offices: Hamburg, Liverpool, Christiania, Chicago, Canton; Yokohama under the Japan treaty (canon;
+                         # historically Japan forbade emigration until 1885, apart from the party of 1868)
 years = [1867, 1887]
 
 [irrigation]
@@ -23,7 +27,8 @@ built = [1872, 1887]
 farm_share = 0.45        # of the extra people, the share in farm families
 family = 5.0
 acres = 160.0
-price = 1.25             # $ an acre, the floor of the CR-033 Land Fund; interior land seldom fetches more by 1887
+price = 1.35             # $ an acre, average 1867-87 under the Land Fund's rule (CR-033: the higher of the $1.25 floor and 20% of
+                         # census value, members' land at half California's value, L15); the floor binds to about 1880
 paid_share = 0.90        # paid over five years; a tenth never paid (as CR-033)
 purchase = 0.10          # $ an acre to the nations whose land it was (CR-033)
 survey = 0.03            # $ an acre (CR-033)
@@ -33,3 +38,6 @@ survey = 0.03            # $ an acre (CR-033)
 # Fund grants. Land, not cash: alternate sections, ten to the mile, in the Land Fund's land.
 miles = { "Raton line (1878-79)" = 250, "Thirty-fifth parallel (1880-83)" = 575, "Salt Lake-Snake-Columbia (1881-84)" = 850 }
 acres_per_mile = 6400
+# Grants come only from Land Fund land, never from a homeland: the Snake line crosses Fort Hall (the Portneuf) and passes the
+# Umatilla reserve, and each crossing needs a right-of-way compact with the nation. Miles inside homelands, roughly:
+homeland_miles = 60
