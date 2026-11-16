@@ -19,9 +19,9 @@ royce = "treaty of 2 March 1868: west of 107 W, from Colorado's south line to 15
 counties = ["CO;Mesa", "CO;Delta", "CO;Montrose", "CO;Garfield", "CO;Routt", "CO;Grand"]
 [[large]]
 name = "Nez Perce country"
-basis = "Stevens's treaty of 11 June 1855, with the Wallowa; the cession of 1863 is not made"
+basis = "Stevens's treaty of 11 June 1855, with the Wallowa; the cession of 1863 is not made. Checked against Royce's text and plate CXXIII (Idaho, nos. 441-442): the east line is a line west of the Bitterroot crest, about 115 deg 33 min W, reaching the Salmon well above the old crossing"
 royce = "treaty of 11 June 1855, the reserve: from the south fork of the Palouse to the Snake 10 miles below the Alpowa, the Alpowa's source, the crest of the Blue Mountains, the Grande Ronde, the divide of the Wallowa and the Powder, the Snake 15 miles below the Powder, the Salmon, and the spurs of the Bitterroots"
-ring = [[-116.3, 46.9], [-117.2, 46.75], [-117.3, 46.42], [-117.55, 46.2], [-117.9, 45.9], [-117.75, 45.6], [-117.3, 45.1], [-116.85, 44.95], [-116.3, 45.5], [-115.5, 45.75], [-115.3, 46.3], [-115.7, 46.7]]
+ring = [[-116.28, 46.94], [-117.2, 46.75], [-117.3, 46.42], [-117.55, 46.2], [-117.9, 45.9], [-117.75, 45.6], [-117.3, 45.1], [-116.85, 44.95], [-116.2, 45.2], [-115.65, 45.35], [-115.55, 45.75], [-115.55, 46.17], [-115.82, 46.62]]
 [[large]]
 name = "Yakama"
 basis = "Stevens's treaty of 9 June 1855"
@@ -45,9 +45,9 @@ ring = [[-112.6, 42.95], [-112.6, 42.6], [-111.3, 42.6], [-111.3, 43.3], [-111.9
 [[large]]
 name = "Uinta valley"
 basis = "the Spanish Fork council of 1865 (canon)"
-royce = "executive order of 3 October 1861: the whole valley of the Uinta, on both sides to the crest of the first range of mountains. Drawn as that part of our timeline's Wasatch and Uintah counties"
+royce = "executive order of 3 October 1861: the whole valley of the Uinta, on both sides to the crest of the first range of mountains. Drawn as that part of our timeline's Wasatch and Uintah counties north of about 39 deg 57 min N, the south line taken from Royce's plate (Utah, no. 431)"
 counties = ["UT;Wasatch", "UT;Uintah"]
-box = [-110.95, 39.3, -109.78, 41.2]
+box = [-110.95, 39.95, -109.78, 41.2]
 [[large]]
 name = "Apache country"
 basis = "the Apache peace of 1865 (canon); the line is given in 1865 (I-52)"
@@ -178,13 +178,124 @@ name = "Santa Ysabel"
 ring = [[-116.87, 33.36], [-116.21, 33.36], [-116.04, 33.09], [-116.1, 32.63], [-116.46, 32.59], [-116.7, 33.22], [-116.87, 33.28]]
 
 # enclaves outside California: name, lon, lat (not yet outlined).
+# Enclaves inside counties with a line (I-60): outlined where a treaty or executive order before 1887
+# gives one, if larger than about 80 square miles; smaller ones and those with no line stay squares.
+# source = "plate": placed by eye from Royce's state plate; "memory": placed from the assistant's
+# knowledge of the reserve's place and size, not yet checked against the plate.
+[[enclave]]
+name = "Warm Springs"
+basis = "treaty of 25 June 1855: the Deschutes on the east, the Cascades on the west"
+source = "memory"
+ring = [[-121.80, 45.05], [-121.45, 45.12], [-121.10, 45.00], [-121.05, 44.75], [-121.20, 44.62], [-121.75, 44.65], [-121.85, 44.85]]
+
+[[enclave]]
+name = "Umatilla"
+basis = "treaty of 9 June 1855, the reserve before the reductions of 1882-88"
+source = "memory"
+ring = [[-118.85, 45.75], [-118.30, 45.82], [-118.20, 45.60], [-118.40, 45.42], [-118.80, 45.50]]
+
+[[enclave]]
+name = "Siletz coast"
+basis = "the Coast reservation, executive order of 30 November 1855, before the cuts of 1865 and 1875"
+source = "memory"
+ring = [[-123.97, 45.35], [-123.76, 45.35], [-123.74, 44.90], [-123.75, 44.30], [-123.80, 44.00], [-124.20, 44.00], [-124.20, 44.60], [-124.10, 45.00]]
+
+[[enclave]]
+name = "Grand Ronde"
+basis = "executive order of 30 June 1857"
+source = "memory"
+ring = [[-123.73, 45.15], [-123.52, 45.15], [-123.52, 45.00], [-123.73, 45.00]]
+
+[[enclave]]
+name = "Quinault"
+basis = "treaty of 1855-56, the reserve as enlarged by the order of 4 November 1873"
+source = "memory"
+ring = [[-124.40, 47.55], [-123.95, 47.55], [-123.95, 47.30], [-124.30, 47.25]]
+
+[[enclave]]
+name = "Spokane"
+basis = "executive order of 18 January 1881: between Chamokane creek, the Spokane and the Columbia"
+source = "memory"
+ring = [[-118.20, 47.92], [-117.90, 47.85], [-117.85, 48.05], [-118.05, 48.10]]
+
+[[enclave]]
+name = "Coeur d'Alene"
+basis = "executive order of 8 November 1873 (Royce 552)"
+source = "plate"
+ring = [[-117.04, 47.60], [-116.75, 47.60], [-116.55, 47.45], [-116.55, 47.20], [-116.75, 47.05], [-117.04, 47.05]]
+
+[[enclave]]
+name = "Flathead"
+basis = "Hellgate treaty of 16 July 1855, the Jocko reserve"
+source = "memory"
+ring = [[-114.80, 47.55], [-114.35, 47.90], [-113.95, 47.75], [-113.95, 47.25], [-114.35, 47.05], [-114.75, 47.15]]
+
+[[enclave]]
+name = "Lemhi"
+basis = "executive order of 12 February 1875, on the Lemhi (Royce 575)"
+source = "plate"
+ring = [[-113.75, 45.05], [-113.55, 45.05], [-113.55, 44.90], [-113.75, 44.90]]
+
+[[enclave]]
+name = "Duck Valley"
+basis = "executive order of 16 April 1877, with the Idaho addition of 1886"
+source = "memory"
+ring = [[-116.35, 42.15], [-115.85, 42.15], [-115.85, 41.85], [-116.35, 41.85]]
+
+[[enclave]]
+name = "Pyramid Lake"
+basis = "set apart in 1859, confirmed by executive order of 23 March 1874"
+source = "memory"
+ring = [[-119.85, 40.30], [-119.45, 40.30], [-119.35, 40.00], [-119.40, 39.70], [-119.60, 39.65], [-119.80, 39.85]]
+
+[[enclave]]
+name = "Walker River"
+basis = "set apart in 1859, confirmed by executive order of 19 March 1874"
+source = "memory"
+ring = [[-118.95, 39.10], [-118.55, 39.10], [-118.45, 38.85], [-118.60, 38.70], [-118.85, 38.75]]
+
+[[enclave]]
+name = "Zuni"
+basis = "executive order of 16 March 1877 (Royce 645)"
+source = "plate"
+ring = [[-109.05, 35.15], [-108.80, 35.15], [-108.75, 35.00], [-108.95, 34.90], [-109.05, 34.95]]
+
+[[enclave]]
+name = "Jicarilla"
+basis = "executive order of 14 February 1887 (Royce 624), the Dulce country (I-31, I-58)"
+source = "plate"
+ring = [[-107.15, 37.00], [-106.85, 37.00], [-106.85, 36.47], [-107.15, 36.47]]
+
+[[enclave]]
+name = "Mescalero"
+basis = "executive orders of 1873-83 (Royce 643-644), in the Sacramento and White Mountains"
+source = "plate"
+ring = [[-105.80, 33.37], [-105.24, 33.37], [-105.24, 33.02], [-105.80, 33.02]]
+
+[[enclave]]
+name = "Pima and Maricopa"
+basis = "the Gila River reserve of 1859 as enlarged by the orders of 1876-83"
+source = "memory"
+ring = [[-112.30, 33.30], [-111.95, 33.30], [-111.60, 33.15], [-111.60, 33.00], [-112.00, 32.98], [-112.30, 33.10]]
+
+[[enclave]]
+name = "Mohave"
+basis = "the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76"
+source = "memory"
+ring = [[-114.50, 34.30], [-114.25, 34.25], [-114.20, 33.95], [-114.40, 33.75], [-114.55, 33.95]]
+
+[[enclave]]
+name = "Hualapai"
+basis = "executive order of 4 January 1883"
+source = "memory"
+ring = [[-113.95, 35.95], [-113.60, 36.10], [-113.10, 36.05], [-112.95, 35.85], [-113.20, 35.55], [-113.85, 35.60]]
+
 [enclaves]
+# squares: no line before 1887, or too small to outline at this scale
 elsewhere = [
-  ["Warm Springs", -121.3, 44.8], ["Umatilla", -118.55, 45.65], ["Siletz coast", -124.0, 44.8], ["Grand Ronde", -123.6, 45.07],
-  ["Quinault", -124.2, 47.4], ["Makah", -124.6, 48.3], ["Tulalip", -122.25, 48.08], ["Puyallup", -122.35, 47.22], ["Nisqually", -122.7, 47.0],
-  ["Coeur d'Alene", -116.7, 47.4], ["Spokane", -118.0, 47.9], ["Flathead", -114.2, 47.5], ["Bitterroot Salish", -114.1, 46.3], ["Lemhi", -113.6, 44.9],
-  ["Duck Valley", -116.1, 42.0], ["Pyramid Lake", -119.55, 40.0], ["Walker River", -118.75, 38.9], ["Ruby Valley", -115.4, 40.4],
-  ["Southern Paiute", -113.7, 37.15], ["Zuni", -108.85, 35.07], ["Pueblos of the Rio Grande", -106.45, 35.55],
-  ["Taos Pueblo", -105.55, 36.44], ["Jicarilla", -107.0, 36.75], ["Mescalero", -105.7, 33.2], ["Chihenne", -107.75, 33.3],
-  ["Pima and Maricopa", -111.9, 33.1], ["Quechan", -114.6, 32.8], ["Mohave", -114.4, 34.0], ["Hualapai", -113.4, 35.6], ["Havasupai", -112.7, 36.25],
+  ["Makah", -124.6, 48.3], ["Tulalip", -122.25, 48.08], ["Puyallup", -122.35, 47.22], ["Nisqually", -122.7, 47.0],
+  ["Bitterroot Salish", -114.1, 46.3], ["Ruby Valley", -115.4, 40.4],
+  ["Southern Paiute", -113.7, 37.15], ["Pueblos of the Rio Grande", -106.45, 35.55], ["Taos Pueblo", -105.55, 36.44],
+  ["Quechan", -114.6, 32.8], ["Havasupai", -112.7, 36.25],
+  ["Kumeyaay", -116.0, 32.2], ["Paipai", -115.82, 31.65], ["Kiliwa", -115.6, 31.15], ["Cucapá", -115.15, 32.25], ["Chihenne", -107.95, 32.95],
 ]

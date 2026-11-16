@@ -180,7 +180,10 @@ def main():
     new["Thalassia"] = [oahu.intersection(thal)]
     new["Oʻahu"] = [oahu.difference(thal)]
     baja = {f["properties"]["name"]: shape(f["geometry"]) for f in json.load(open(DATA / "baja_outline.geojson"))["features"]}
-    new["Ensenada"] = [baja["Baja California"]]
+    # the Colorado's delta below the line goes with Yuma, not Ensenada (I-55)
+    delta = baja["Baja California"].intersection(Polygon([(-115.75, 32.75), (-114.6, 32.75), (-114.6, 31.6), (-115.25, 31.55), (-115.55, 31.95)]))
+    new["Ensenada"] = [baja["Baja California"].difference(delta)]
+    new["Yuma"].append(delta)
     new["La Paz"] = [baja["Baja California Sur"]]
     merged = {n: unary_union(gs).buffer(0) for n, gs in new.items()}
     hl = tomllib.load(open(DATA / "homelands_1887.toml", "rb"))
@@ -236,7 +239,7 @@ def main():
                 report.append(f"{n}: a detached {sqmi:,.0f} sq mi goes to the {near_home} homeland")
             elif best:
                 merged[best] = unary_union([merged[best], pc]).buffer(0)
-                report.append(f"{n}: a detached {sqmi:,.0f} sq mi goes to {best}")
+                report.append(f"{n}: a detached {sqmi:,.0f} sq mi (near {pc.centroid.x:.2f}, {pc.centroid.y:.2f}) goes to {best}")
             else:
                 merged[n] = unary_union([merged[n], pc])
                 report.append(f"{n}: a detached {sqmi:,.0f} sq mi stays with it (no neighbour)")
@@ -284,6 +287,10 @@ def main():
     tracts = {t["name"]: Polygon(t["ring"]).intersection(cal_land) for t in hl["tract"]}
     for tg in tracts.values():
         draw_poly(ax, P(tg), facecolor=HOME, edgecolor="#7a3b12", linewidth=0.8, zorder=5)
+    land = unary_union([merged[n] for n in main_names])
+    encl = {e["name"]: Polygon(e["ring"]).intersection(land).buffer(0) for e in hl.get("enclave", [])}
+    for eg in encl.values():
+        draw_poly(ax, P(eg), facecolor=HOME, edgecolor="#7a3b12", linewidth=0.8, zorder=5)
     ax.autoscale_view()
     x0, x1 = ax.get_xlim()
     ax.set_xlim(x0 - 0.02, x1 + 0.005)
@@ -425,7 +432,7 @@ def main():
         if n in in_inset:
             continue
         label_area(ax, n, P(merged[n]), (7.6, 6.6, 5.8, 5.0), county_style)
-    for tname, tg in sorted(tracts.items(), key=lambda kv: kv[1].area):
+    for tname, tg in sorted(list(tracts.items()) + list(encl.items()), key=lambda kv: kv[1].area):
         label_area(ax, tname, P(tg), (5.0, 4.4), dict(color="#5a2a0c", style="italic"), allow_outside=True, key_suffix=" (homeland)")
     # 3. the insets
     for a_, view, names, proj, outside_ok in insets:
@@ -449,10 +456,10 @@ def main():
                  fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 9 (16 November 2026). Colours: the old members and territories the counties replace. "
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 10 (17 November 2026). Colours: the old members and territories the counties replace. "
              "Dotted grey: our timeline's county lines of 1887.\n"
              "Homelands are one colour. Heavy outline: a homeland outside the 124 (Royce's lines where our timeline has a text; the Hopi's is a sketch). "
-             "Thin outline: a homeland inside a county (California's nineteen treaty tracts of 1851-52, from Royce's plate).\n"
+             "Thin outline: a homeland inside a county (California's nineteen treaty tracts of 1851-52, and elsewhere the reserves of treaties and orders before 1887).\n"
              "Square: a homeland inside a county with no line drawn yet. Not shown: Alaska. MODEL and PROPOSED.",
              fontsize=9.5, va="top")
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#333333") for c in UNIT_COLOUR.values()]
@@ -475,7 +482,18 @@ def main():
             sq = g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
             tot += sq
             f.write(f"| {t['royce']} | {t['treaty']} | {t['name']} | {sq:,.0f} |\n")
-        f.write(f"| | | **Total** | {tot:,.0f} |\n\n## Counties adjusted to the homelands' lines\n\n")
+        f.write(f"| | | **Total** | {tot:,.0f} |\n\n## Other enclaves outlined (I-60)\n\n"
+                "Source: *plate*, placed by eye from Royce's state plate; *memory*, placed from the assistant's knowledge "
+                "of the reserve's place and size, not yet checked against the plate.\n\n"
+                "| Enclave | Line | Source | Square miles as drawn |\n|---|---|---|---|\n")
+        etot = 0.0
+        for e in hl.get("enclave", []):
+            g = encl[e["name"]]
+            sq = g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
+            etot += sq
+            f.write(f"| {e['name']} | {e['basis']} | {e['source']} | {sq:,.0f} |\n")
+        f.write(f"| **Total** | | | {etot:,.0f} |\n\nSquares (no line before 1887, or too small to outline): "
+                + ", ".join(n for n, _x, _y in hl["enclaves"]["elsewhere"]) + ".\n\n## Counties adjusted to the homelands' lines\n\n")
         f.write("\n".join(f"- {r}" for r in report) + "\n")
     print("\n".join(report))
     print({h: round(a) for h, a in areas.items()})

@@ -553,12 +553,16 @@ seat = "Sprague"
 unit = "Columbia"
 status = "approved"
 parts = {"WA;Lincoln" = 1, "WA;Adams" = 1, "WA;Douglas" = 1}
+adjust = 3
+note = "with the Okanogan country west of Colville, from Stevens (I4a); about 3,000 people (MODEL)"
 [[county]]
 name = "Spokane"
 seat = "Spokane Falls"
 unit = "Columbia"
 status = "approved"
 parts = {"WA;Spokane" = 1, "WA;Stevens" = 1}
+adjust = -3
+note = "less the Okanogan country west of Colville, which goes to Big Bend (I4a); about 3,000 people moved (MODEL)"
 [[county]]
 name = "Palouse"
 seat = "Colfax"
