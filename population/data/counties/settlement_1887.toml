@@ -1,0 +1,35 @@
+# The settlement programme of 1867-87 (CR-071 Part C, C5; Part I, I-4): what it costs.
+# Every number is MODEL, proposed by the assistant on 17 November 2026; none is canon.
+# Prices are of about 1880, in dollars. Read by population/settlement_1887.py.
+
+[people]
+units = ["Oregon", "Columbia", "Idaho", "Western Montana", "Washoe", "Deseret", "New Mexico", "Arizona", "The Rockies", "Baja"]
+arrived_share = 0.65     # of the extra people of 1887 (Pacifica minus our timeline), the share who arrived 1867-87; the rest were born here
+assisted_share = 0.35    # of those arrivals, the share whose passage the Realm paid or advanced
+passage = 35.0           # $ a person: steerage across the ocean or from the Union's Midwest, and the land-seeker's fare inland
+repaid_share = 0.40      # of the passage money, the share repaid with the land instalments
+
+[agents]
+per_year = 150000.0      # emigration offices: Hamburg, Liverpool, Christiania, Chicago, Yokohama, Canton
+years = [1867, 1887]
+
+[irrigation]
+acres_per_person = 0.8   # irrigated acres per extra resident (Utah 1890: about 1.25; the coast's farms need none)
+cost_per_acre = 12.0     # public dams and canals, 1880s
+loss_share = 0.25        # of the capital lent to the districts: defaults and the interest the Realm forgoes
+built = [1872, 1887]
+
+[land]
+farm_share = 0.45        # of the extra people, the share in farm families
+family = 5.0
+acres = 160.0
+price = 1.25             # $ an acre, the floor of the CR-033 Land Fund; interior land seldom fetches more by 1887
+paid_share = 0.90        # paid over five years; a tenth never paid (as CR-033)
+purchase = 0.10          # $ an acre to the nations whose land it was (CR-033)
+survey = 0.03            # $ an acre (CR-033)
+
+[railways]
+# I-53: the three named lines keep our timeline's dates and are built by companies chartered by the Realm with Land
+# Fund grants. Land, not cash: alternate sections, ten to the mile, in the Land Fund's land.
+miles = { "Raton line (1878-79)" = 250, "Thirty-fifth parallel (1880-83)" = 575, "Salt Lake-Snake-Columbia (1881-84)" = 850 }
+acres_per_mile = 6400

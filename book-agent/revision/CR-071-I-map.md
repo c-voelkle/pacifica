@@ -105,7 +105,7 @@ The acceded mainland holds 1.96 times what it held in our timeline, about our ti
 
 **Open under I2:**
 - **The Rockies.** Our timeline's Western Slope counties (Mesa, Delta, Montrose, Garfield and others) were settled after the Utes were removed in 1881. In canon the Slope is a Ute homeland (CR-060 R4), so those people are not there, and the unit's 141,000 must sit in the mining districts, South Park, the upper Arkansas and the San Luis Valley. To be reworked when the Rockies are drawn.
-- **What the programme consists of** (Part C, and the workbook): the trunk railways about a decade early; public irrigation districts on Deseret's model; Land Fund land on instalments with assisted passage; a share of the Union's plains settlers diverted to the Palouse and the Sound; smelters, coal and timber as anchors.
+- **What the programme consists of** is written into Part C (outline, C5) and costed in `population/outputs/settlement_1887.md` (MODEL): Land Fund land on instalments; assisted passage; public irrigation districts on Deseret's model; the three railways on our timeline's dates with land grants (I-53); smelters, coal and timber as anchors; a share of the Union's plains settlers diverted to the Palouse and the Sound. About $11.6 million over 1867–87 is new to the financial workbook.
 
 ## I3. The allocation — APPROVED (I-10)
 
@@ -474,7 +474,7 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 - **Outside the 124:** Alaska under the Northern Commission (I-7), and the large homelands (I-8, I-26): the Diné country, the Utes' Slope and Parks, the Yakama, Colville, Nez Perce and Klamath countries, Fort Hall, the Tohono O'odham's desert, the White Mountain and San Carlos Apache country and the Chiricahua's. Their lines are in I4a.
 - **Not in any county in the model:** about 8,000 people our timeline counted in Wallowa County (the Nez Perce's country here).
 
-**Still owed or open across the part:** the 1880 census sums of Colorado, Montana and Oregon; three 1890 figures; the thirteen enclaves placed from memory, to check against Royce's plates; the Chihenne's enclave (I4a); the Hopi line with the villages' own names (I-57); the Baja commissioners' names (I-54); the settlement programme to write into Part C and cost.
+**Still owed or open across the part:** the 1880 census sums of Colorado, Montana and Oregon; three 1890 figures; the thirteen enclaves placed from memory, to check against Royce's plates; the Chihenne's enclave (I4a); the Hopi line with the villages' own names (I-57); the Baja commissioners' names (I-54); the settlement programme's workbook row (Part C, C5, figures for the author first).
 
 
 ## Fact changes
