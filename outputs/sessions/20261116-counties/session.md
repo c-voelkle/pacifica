@@ -48,7 +48,7 @@ independence: self-review only (the consistency check of 16 November was done in
 - **Idaho, western Montana, Washoe and the Rockies drawn (draft 1, PROPOSED):** twenty counties; 109 of 124 drawn; one county spare.
 - **Waiting for the author:** the Slope's mining districts as county ground leased from the Utes; Walker and Gallatin; the spare county.
 - **Owed:** sources for Salt Lake City's share of its valley and for the Diné population of 1887.
-- **Next:** Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies (rework the Rockies' people: the Western Slope is a Ute homeland); Arizona and Baja; Hawaii. Maps can be drawn from the atlas's topology (`localgeohistoryproject/county-boundaries-topology`, CC0). Then G3 recounted, the outline's I and CT3/CT5 updated, and the programme written into Part C and costed.
+- **Next:** Arizona and Baja; Hawaii and Thalassia. Maps can be drawn from the atlas's topology (`localgeohistoryproject/county-boundaries-topology`, CC0). Then G3 recounted, the outline's I and CT3/CT5 updated, and the programme written into Part C and costed.
 - **Corrected in this session:** Thalassia is on Kāneʻohe Bay, not in California; the allocation tables now count it apart.
 - Then Parts A, B, C and J; storyline text, fact changes, ledger (Japan's loan of 1873; the seven charter entries, F–G section T5), registry lines, model rows; a fresh-context review; integration in the K-1 order. CR-057 is now on `main` (PR #73), so CR-073 and CR-072 integrate on `main` as it stands.
 - Still open in CR-071: D decision 9 ("ready for approval"), the Guard's commander and Wilcox's later life (H4), CT4's Columbia and Washoe rows in the outline.
