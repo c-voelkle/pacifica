@@ -262,7 +262,7 @@ Fourteen counties each, from our timeline's twenty-nine and thirty-three. Four c
 
 **For the author:** the renaming; Snohomish with Skagit or apart; the list of large homelands.
 
-*(Next: Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
+*(Next: Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
 
 ## Fact changes
 
