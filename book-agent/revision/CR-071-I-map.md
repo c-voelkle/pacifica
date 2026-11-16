@@ -343,7 +343,7 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 | County | Seat | Made of | People | County language |
 |---|---|---|---|---|
 | **Oʻahu** | Honolulu | The island less Thalassia: Honolulu, the Hawaiian crown's seat; the fleet's leased lochs at Puʻuloa | 42 | Hawaiian and English |
-| **Maui** | Wailuku | Maui, Molokaʻi, Lānaʻi, Kahoʻolawe | 27 | Hawaiian and English |
+| Maui | Wailuku | Maui, Molokaʻi, Lānaʻi, Kahoʻolawe | 27 | Hawaiian and English |
 | **Hilo** | Hilo | Windward Hawaiʻi: Hilo, Hāmākua, Puna | 22 | Hawaiian and English |
 | **Kauaʻi** | Līhuʻe | Kauaʻi and Niʻihau | 15 | Hawaiian and English |
 | **Kona** | Kailua | Leeward Hawaiʻi: Kona, Kohala, Kaʻū | 14 | Hawaiian and English |
