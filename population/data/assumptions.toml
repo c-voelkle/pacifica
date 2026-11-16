@@ -50,6 +50,9 @@ americas_europe = [[1846, 0.90], [1856, 0.65], [1888, 0.55]]
 chinese  = [[1846, 0.92], [1868, 0.70]]
 japanese = [[1846, 0.80], [1907, 0.50]]
 filipino = [[1846, 0.60]]
+# Deseret's gathered converts (16 November 2026) came as families and congregations, slightly more women
+# than men; MODEL reading, not a sourced number.
+deseret  = [[1846, 0.48]]
 # Assisted arrivals (canon: women and families from 1852): female share of adults.
 assisted_female_share = 0.75
 child_share_unassisted = 0.05

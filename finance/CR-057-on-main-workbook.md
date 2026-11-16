@@ -1,5 +1,7 @@
 # CR-056 and CR-057 rebuilt on the Civil War workbook (15 November 2026)
 
+**Updated 16 November 2026:** the Deseret step now follows the growth engine in the same chain ([Deseret-workbook.md](Deseret-workbook.md)); residents at the end of 1932 are 37.06m and the workbook's SHA-256 is `6bc8d2aa…`. The figures below are those of 15 November.
+
 SHA-256 of the financial workbook: `5563e1c1f97a6a677fca3f98e46b714697f553fa6d46c090f3d323187a324511` (energy workbook `2c918cc0…`). 81,290 formulas; recalculated in LibreOffice with no errors; saved in the Story case (Levers E4 = 1); iterative calculation on, as in the CR-057 growth build. All amounts are MODEL.
 
 **Why.** CR-057 was approved and its integration prepared on 6 November 2026 (PR #66), but that PR was never merged. The Civil War CRs' model (PR #72, merged 15 November) was built on the CR-051/054/055 workbook, without CR-056 and CR-057. Both changed the same workbook from different bases, so the chain is rebuilt with both, in one order.

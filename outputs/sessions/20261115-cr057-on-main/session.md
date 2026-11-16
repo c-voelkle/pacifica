@@ -1,7 +1,7 @@
 ---
 session: 20261115-cr057-on-main
 started: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-16
 mode: integration
 status: paused-for-author
 baseline:
@@ -30,6 +30,12 @@ independence: self-review only (no fresh-context reviewer was run); the merge an
 1. **Stress: 51 failed year-checks** (PR #66: 52; the Civil War workbook alone: 15, ceiling 17). They are CR-057's own (nominal commitments under falling prices). One is new: 1902, private saving short by $0.4m of $793m. The Civil War years are a little easier than before.
 2. **"Development Fund credit" before 1880.** CR-059 V9 and Part IX finance Oregon's and Columbia's works of 1868–75 on Development Fund credit. In the storyline, both before and after CR-057, the Development Fund begins in 1880, as the Patrimony's lending arm under CR-057. This predates CR-057 and is not changed here. A naming decision (for example "the Treasury's works credit" before 1880) would need a small CR.
 3. **The 1862 run and the Reserve Bank.** The storyline does not say what the Reserve Bank does during the run of January 1862. Nothing contradicts it, but a reader may ask. Left as is.
+
+## 16 November 2026: Deseret
+
+- **Authorization (author, 07:02):** "Yes go ahead and add it", on the proposal of 06:57: a line for the Saints in the model, the gathering continuing after 1887 (no Edmunds–Tucker), plural marriage adding no births by itself.
+- `finance/build/deseret_gathering.py` (Deseret sheet, five levers; identity build exact), added as the chain's last step; the pair re-converged in five passes. `population/canon.py` reads the sheet and carries the stream "Deseret" (gap test passes; reconciliation 0.2% in 1932). Residents 37.06m; Story 0, Stress 51. See `finance/Deseret-workbook.md`.
+- The storyline is unchanged: its figures hold, and the gathering's survival is not yet stated there (proposed for the author).
 
 ## Resume here
 
