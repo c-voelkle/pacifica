@@ -42,7 +42,7 @@
 | P15 | **The Society and the House** (C8): two halves of one machine. The Party votes, the House counts; the Society stays outside the Party. | APPROVED (author) |
 | P16 | **Deseret's Aufhebung** (C7): the Deseret caucus; Deseret's marriage protection kept as a personal guarantee for every registered church, under the Realm's floors. | APPROVED (author) |
 | P17 | **The ages of marriage** (C7): 14 for men and 12 for women with parental consent, as in Mexican and common law; 21 and 18 to marry without it. **Pacifica's addition:** a spouse may not be older than twice the other spouse's age, less seven years. The mechanics stay off the page. | APPROVED (author) |
-| P18 | **Cannon carries Deseret**; Taylor resists until his death in July 1887. | APPROVED (author) |
+| P18 | **Cannon carries Deseret**; Taylor resists until he dies on 25 July 1887. | APPROVED (author) |
 | P19 | San Francisco's rival is called **the Committee party**. | APPROVED (author) |
 | P20 | **One party and its friends.** The Party absorbs or neutralises its competitors. There is no two-party system as in the Union: by about 1888 it has only friends, or tame and ineffectual opponents (C9). | APPROVED (author) |
 | P21 | **The age-gap rule binds every marriage**, of every form, not plural marriages only. | APPROVED (author) |
