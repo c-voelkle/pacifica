@@ -1055,7 +1055,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - MR-14: homeland leases renewed with compensation for improvements (§5, G9).
 - The refusal to print in 1931-32: Giannini and the Industrial Board, Takahashi, Kashevarov's testimony, the governor Calkins (§34, G16).
 - The growth engine (finance/CR-057-growth-workbook.md): research at 0.6% of GDP (1880) to 2% (1929) at a 35% social return, open licensing, learning by doing, capital at the ordinary return, a network premium; the Fund's 30% return removed; falling prices (the 1913 cover held). MODEL: output per person about 2.3 times the Union's in 1929; residents about 37 million in 1932; the programme's peak about half a percent of national product in 1921; about 2.3 million vehicles a year; the prosperity comes above all from the laboratories.
-- §34 turned round (MODEL): Pacifica alone outproduces the Union at the Union's prices from 1927; in money the Union stays ahead.
+- §34 turned round (MODEL): Pacifica alone outproduces the Union at the Union's prices from 1928 (re-synced on 16 November 2026 from 1927); in money the Union stays ahead.
 
 **Still open:**
 - The common Finance minister's name; whether A. P. Giannini is CT-GIANNINI; the Mariveles deputy; Guaymas's date (the Mexico timeline); the Birmingham works' founding date; the first bilateral reserve compact's date; Japan's reaction to the Huludao district beyond the officers' grievance (CT6: G5 kept as approved); the investment share derived from saving (CT7, H2 reporting only); the champions' world shares not yet driven by the research channel (G8).

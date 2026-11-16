@@ -1884,7 +1884,7 @@ status = "APPROVED"
 cr = "CR-057"
 section = 19
 quote = "In 1880 Elias writes the charter of the Patrimony, which takes the state's rents, not its taxes"
-more_quotes = ["the Crown holds the state's shares in its own estates, the canal and the trunk rights of way, and the Patrimony receives the rents"]
+more_quotes = ["the Crown holds the state's shares in its own estates, the trunk rights of way and, from 1889, the canal, and the Patrimony receives the rents"]
 open = "Revised by CR-057 (replaces the seventy-percent surplus rule of CR-020 B8). The charter's legal form (statute or decree) is not stated."
 
 [[commitment]]
@@ -4703,7 +4703,7 @@ from = 1921
 status = "APPROVED"
 cr = "CR-057"
 section = 33
-quote = "From 1921 Montgomery charters a district beside Pacifica's Birmingham works"
+quote = "From 1921 the Montgomery government charters a district beside Pacifica's Birmingham works"
 open = "Terms not stated; the Birmingham works' own founding date stays OPEN (storyline item 31)."
 
 [[commitment]]

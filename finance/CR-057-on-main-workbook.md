@@ -44,7 +44,8 @@ Each pass: energy export → CR-052 link (on the CR-050 workbook, commit `04155c
 | "about 2.3 million vehicles a year" | 2.32m | holds |
 | The atomic peak "about half a percent of national product, in 1921" | 0.48%, 1921 | holds |
 | "about 1.2 million people by 1861" | unchanged by CR-057 | holds |
-| Pacifica alone outproduces the Union at its prices from 1927 | unchanged from PR #66 within 0.3% | holds |
+| Pacifica alone outproduces the Union at its prices from 1927 | 0.98× in 1927, 1.03× in 1928 (output per person × residents at US prices against the modelled Union) | **re-synced** to from 1928 (16 November 2026) |
+| The order at about 1.16 and 1.74 times Union output in 1929 and 1932 | in money 1.0× and 1.67×; at the Union's prices 1.54× and 2.22× | **re-synced**, both bases stated (16 November 2026) |
 
 ## Open
 
