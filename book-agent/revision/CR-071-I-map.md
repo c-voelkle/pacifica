@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 1, 16 November 2026. Decisions I-1 to I-9 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-13 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -17,6 +17,11 @@
 | I-7 | **Alaska does not become counties in 1887.** It stays a territory under the Northern Commission, outside the 124; counties are formed from it later. | Author, 16 Nov, 14:51 ("I agree"); canon tension CT3 |
 | I-8 | **The homelands are not counties.** They are compact lands whose relation runs to the Realm; the large ones stand outside the county map, the small ones are enclaves inside a county's lines beyond its board's reach. | Author, 16 Nov, 14:51 ("I agree"); canon tension CT5 |
 | I-9 | **The homelands have a few voices in the Senate. A member of a nation who lives in a county votes there like anyone else, and only in the place where he is registered.** | Author, 16 Nov, 14:51; number and choosing of the seats PROPOSED (I4) |
+
+| I-10 | **The allocation of the 124** (I3). | Author, 16 Nov, 14:58 ("Allocation ... is good") |
+| I-11 | **Six homeland seats** in the Senate, grouped as in I4. | Author, 16 Nov, 14:58 ("homeland seat grouping is good") |
+| I-12 | **Deseret's counties** and their names (I3a). | Author, 16 Nov, 14:58 ("Deseret is approved") |
+| I-13 | **Salt Lake City is split from its valley.** | Author, 16 Nov, 14:58 ("should be split I think"); the line PROPOSED |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -55,7 +60,7 @@ The acceded mainland holds 1.96 times what it held in our timeline, about our ti
 - **The Rockies.** Our timeline's Western Slope counties (Mesa, Delta, Montrose, Garfield and others) were settled after the Utes were removed in 1881. In canon the Slope is a Ute homeland (CR-060 R4), so those people are not there, and the unit's 141,000 must sit in the mining districts, South Park, the upper Arkansas and the San Luis Valley. To be reworked when the Rockies are drawn.
 - **What the programme consists of** (Part C, and the workbook): the trunk railways about a decade early; public irrigation districts on Deseret's model; Land Fund land on instalments with assisted passage; a share of the Union's plains settlers diverted to the Palouse and the Sound; smelters, coal and timber as anchors.
 
-## I3. The allocation — PROPOSED
+## I3. The allocation — APPROVED (I-10)
 
 Alaska's counties of the strawman return to the pool (I-7). The rule behind the proposal: counties in proportion to the square root of people times land, then adjusted (`regions_1887.md`, rule C).
 
@@ -87,7 +92,7 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 - **The relation** runs to the Realm under each compact; disputes go to the Court of the Realm at Monterey. County powers, boundaries and grades are organic law, amendable without local consent (§25); a homeland's are not.
 - **They do not count toward the 124.**
 - **Voting (I-9).** A member of a nation who lives in a county registers and votes there like anyone else, and votes only where he is registered.
-- **The Senate (I-9).** PROPOSED: **six homeland seats**, beside the eight aliʻi seats, each chosen by the councils of the compact nations of one region, in their own way: California; the Columbia and the Sound; the Basin (Shoshone, Paiute, Washoe and the Utes of Deseret); the Rockies' Utes; the Diné; the Pueblos and the Apache. Whether Alaska's nations have a seventh while Alaska is a territory is OPEN.
+- **The Senate (I-9, I-11, APPROVED).** **Six homeland seats**, beside the eight aliʻi seats, each chosen by the councils of the compact nations of one region, in their own way: California; the Columbia and the Sound; the Basin (Shoshone, Paiute, Washoe and the Utes of Deseret); the Rockies' Utes; the Diné; the Pueblos and the Apache. Whether Alaska's nations have a seventh while Alaska is a territory is OPEN.
 
 ## I5. Alaska — I-7 APPROVED
 
@@ -95,26 +100,56 @@ The Northern Commission continues under its charter of 1867 (CR-070), reporting 
 
 ## I3a. The named list, region by region
 
-### Deseret (draft 1, PROPOSED)
+### Deseret — APPROVED (I-12), with Salt Lake split (I-13)
 
-The drawing rules give **eight** counties on Deseret's ground, not the ten of I3: three of them cross the old line (into Idaho, Wyoming and Washoe), which is what "no county encloses a member whole" asks. The two spare counties go back to the pool until the neighbouring regions are drawn. People are our timeline's 1887 estimate times the unit's multiple, in thousands (MODEL).
+**Nine** counties on Deseret's ground; three cross the old line (into Idaho, Wyoming and Washoe). One county of Deseret's ten goes back to the pool. People are our timeline's 1887 estimate times the unit's multiple, in thousands (MODEL).
 
 | County | Seat | Made of (our timeline's counties) | People, 1887 | Notes |
 |---|---|---|---|---|
-| **Bear River** | Logan | Cache, Rich, northern Box Elder; Idaho's Bear Lake and Oneida | 52 | Crosses the old Idaho line: the Saints' northern valleys are one watershed |
-| **Weber** | Ogden | Weber, Davis, Morgan, southern Box Elder | 49 | The railway junction; the Committee party's town |
-| **Jordan** | Salt Lake City | Salt Lake, Tooele | 80 | The largest; the old capitol is its county hall (G4) |
+| **Bear River** | Logan | Cache, Rich, northern Box Elder; Idaho's Bear Lake and Oneida | 52 | Crosses the old Idaho line |
+| **Weber** | Ogden | Weber, Davis, Morgan, southern Box Elder; Summit if 5 below is accepted | 49 (59) | The railway junction; the Committee party's town |
+| **Salt Lake** | Salt Lake City | The city and its benches | about 54 | A city-county with a board, as San Francisco is; the old capitol is its hall (G4). The city's share of the valley's people is an estimate to verify |
+| **Jordan** | Murray | The valley south of the city, the Oquirrh mines; Tooele | about 27 | The smelters and the Utah Southern's stations |
 | **Timpanogos** | Provo | Utah, Wasatch, Juab | 46 | |
-| **Sanpitch** | Manti | Sanpete, Millard, Emery | 30 | Castle Valley was settled from Sanpete |
+| **Sanpitch** | Manti | Sanpete, Millard, Emery | 30 | |
 | **Sevier** | Richfield | Sevier, Piute, Garfield, Beaver | 21 | |
-| **Virgin** | St. George | Washington, Iron, Kane; Washoe's Lincoln; the Arizona Strip | 19 | Crosses into Washoe and Arizona; the Colorado is its southern line |
-| **Green River** | Evanston | Wyoming's Uinta and Sweetwater; Summit and Uintah | 28 | The railway and the coal; Rock Springs' Chinese miners make it the unit's one county with a large Asian minority |
+| **Virgin** | St. George | Washington, Iron, Kane; Washoe's Lincoln; the Arizona Strip | 19 | Crosses into Washoe and Arizona |
+| **Green River** | Evanston | Wyoming's Uinta and Sweetwater; Uintah; Summit unless 5 below is accepted | 28 (18) | The railway and the coal; a large Asian minority at Rock Springs |
 
-Utah's San Juan (a few hundred people at Bluff) goes with the Four Corners when New Mexico is drawn. County language: English in all eight. The Utes' homelands of the Uinta basin and central Utah (CR-060 N6) are drawn round; their lines are OPEN.
+**Suggestion on Park City and Coalville (the author's question 5): with Weber.** The Weber rises there, so the first rule puts them in its county; the branch from Park City and Coalville meets the main line at Echo and runs down to Ogden; and the camp's ore goes to the valley's smelters, not to Wyoming. Green River then is the Wyoming line, the coal and the Uinta basin, at about 18,000 people, which is in the interior's range. PROPOSED.
 
-**For the author:** the names (none is a member's; "Jordan" and "Timpanogos" are the Saints' and the Utes' names for their own places); whether Salt Lake City's county should be the largest in the interior or be split from its valley; Park City and Coalville with Green River (the railway) or with Weber (the watershed).
+Utah's San Juan goes with the Four Corners (below). County language: English in all nine. The Utes' homelands of the Uinta basin and central Utah (CR-060 N6) are drawn round; their lines are OPEN.
 
-*(Next: New Mexico and the Diné country; California; Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
+### New Mexico and the Diné country (draft 1, PROPOSED)
+
+**The Diné country.** The homeland of the treaty of 1865 (§15) is a unit of its own on the map, outside every county (I-8). PROPOSED lines: the San Juan on the north; on the east the Chaco country to the foot of Mount Taylor; on the south the country north of the Puerco of the West and the road along the thirty-fifth parallel; on the west the Little Colorado. That is on the order of 25,000 square miles, larger than any county of the 124, and it lies across the old New Mexico and Arizona lines, so no county line is drawn through it. About 20,000 people in 1887 (MODEL, to be sourced: no Long Walk in this timeline). It chooses the Diné seat in the Senate (I-11). The Hopi mesas lie inside it under an agreement of their own (OPEN: canon is silent on the Hopi).
+
+**The four mountains.** Canon puts all four of the Diné's sacred mountains inside Pacifica. None lies inside the homeland's lines: Blanca Peak stands above the San Luis Valley, Mount Taylor above the Rio Abajo's western edge, the San Francisco Peaks in Arizona's north, Hesperus in the La Plata range. PROPOSED: a mountain article under the homeland's compact withdraws their upper slopes from grant, lease and Land Fund sale and keeps passage open for ceremony; the ground stays in its county or in the Utes' country.
+
+**New Mexico's nine.** People are our timeline's 1887 estimate times 1.3 (the San Luis Valley's two counties times 1.2), in thousands (MODEL).
+
+| County | Seat | Made of (our timeline's counties) | People, 1887 | County language |
+|---|---|---|---|---|
+| **Santa Fe** | Santa Fe | Santa Fe | 17 | Spanish and English |
+| **Taos** | Taos | Taos; Colorado's Costilla | 17 | Spanish and English |
+| **Rio Arriba** | Española | Rio Arriba; Colorado's Conejos; San Juan (the Farmington settlements) | 25 | Spanish and English |
+| **Gallinas** | Las Vegas | San Miguel | 30 | Spanish and English |
+| **Canadian** | Cimarron or Springer (OPEN) | Mora, Colfax | 22 | Spanish and English |
+| **Sandía** | Albuquerque | Bernalillo east of the Diné country | 24 | Spanish and English |
+| **Río Abajo** | Socorro | Valencia, Socorro | 29 | Spanish and English |
+| **Mesilla** | Las Cruces | Doña Ana, Sierra, Lincoln | 22 | Spanish and English |
+| **Mimbres** | Silver City | Grant | 10 | English |
+
+- **Across the old lines.** Taos and Rio Arriba take the San Luis Valley's Hispano counties: one watershed, one language, and the narrow gauge runs through both (CR-060 CO7). The old Colorado line there disappears. No county encloses New Mexico whole, and none carries its name.
+- **The west.** Our timeline's Bernalillo and Valencia ran to the Arizona line across Diné country. Here they stop at the homeland. The strip south of it along the thirty-fifth parallel (the coal at Gallup, Zuni's country, the Little Colorado settlements) goes to a county of Arizona's six, **Little Colorado** (seat Holbrook; about 10,000 people), drawn with Arizona. ASSUMPTION to confirm: a railway west from Albuquerque along the thirty-fifth parallel exists by 1887; canon does not yet say so.
+- **Language (rule 4).** Eight of the nine are Spanish-speaking in the majority and receive Spanish as a county language by organic law, beside English; the Rio Grande compact's courts in Spanish and English are carried as that grant (CT4). Mimbres is a mining county and English.
+- **The Hispano majority holds.** At 1.3 times history the settlement programme does not outnumber it (I-4's exception).
+- **Small homelands inside counties (I-8):** the Pueblos' grants (in Taos, Rio Arriba, Santa Fe, Sandía and Río Abajo; Zuni in Little Colorado); the Chihenne's country and the Santa Rita lease in Mimbres (§15); the Mescalero's in Mesilla's eastern half. The Jicarilla's land is OPEN (our timeline gave them none until 1887).
+- **Weak points.** Mesilla is two countries: the river, and beyond the Mescalero's mountains the Pecos plains that were Lincoln, three days from Las Cruces. A tenth county on the Pecos (seat Roswell, about 7,000 people) would mend it, from the pool's spare county. Mimbres at 10,000 is small; it may take the Clifton copper district when Arizona is drawn.
+
+**For the author:** the Diné country's lines and the mountain article; Lincoln with Mesilla or a Pecos county from the spare; the names (Gallinas, Canadian, Sandía, Río Abajo, Mesilla and Mimbres are rivers, a mountain and the country's own old names; Santa Fe, Taos and Rio Arriba keep theirs).
+
+*(Next: California; Oregon and Columbia; Idaho, western Montana, Washoe and the Rockies; Arizona and Baja; Hawaii.)*
 
 ## Fact changes
 
