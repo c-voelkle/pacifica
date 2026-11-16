@@ -46,7 +46,8 @@ independence: self-review only (the consistency check of 16 November was done in
 - **California drawn (draft 1, PROPOSED):** 43 counties (12 merged away, 3 new: Carquinez, Santa Ana, Mojave). The map so far is machine-readable: `population/data/counties/map_1887.toml`, checked and tabulated by `population/map_1887.py` -> `outputs/map_1887.md` (62 of 124 drawn).
 - **Approved (author, 16 November, 15:57, "I approve all thirteen"):** I-21 to I-33 in Part I: California's people moved off the historical shares, Mojave, California's names; renaming only where the map forces it; Snohomish into Skagit; the test for large homelands; the Snake railway; the multiples as working figures; Springer; Pecos English; the Jicarilla; a seventh homeland seat for Alaska's nations; Oregon and Columbia.
 - **Idaho, western Montana, Washoe and the Rockies drawn (draft 1, PROPOSED):** twenty counties; 109 of 124 drawn; one county spare.
-- **Waiting for the author:** the Slope's mining districts as county ground leased from the Utes; Walker and Gallatin; the spare county.
+- **Approved (author, 16 November, 16:06):** the Slope's mining districts as county ground leased from the Utes (I-34); the spare county held until Arizona is drawn (I-35).
+- **Waiting for the author:** Walker and Gallatin (suggested: keep Walker; one Three Forks county from Gallatin, Madison and Beaverhead).
 - **Owed:** sources for Salt Lake City's share of its valley and for the Diné population of 1887.
 - **Next:** Arizona and Baja; Hawaii and Thalassia. Maps can be drawn from the atlas's topology (`localgeohistoryproject/county-boundaries-topology`, CC0). Then G3 recounted, the outline's I and CT3/CT5 updated, and the programme written into Part C and costed.
 - **Corrected in this session:** Thalassia is on Kāneʻohe Bay, not in California; the allocation tables now count it apart.

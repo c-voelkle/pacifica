@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 3, 16 November 2026. Decisions I-1 to I-33 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 3, 16 November 2026. Decisions I-1 to I-35 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -42,6 +42,8 @@
 | I-31 | **The Jicarilla's homeland** is an enclave in the north of Rio Arriba. | as I-21 |
 | I-32 | **Alaska's nations have a seventh homeland seat** in the Senate. | as I-21 |
 | I-33 | Oregon's and Columbia's counties as drawn, with I-24 and I-25 applied. | as I-21 |
+| I-34 | **The mining districts on the Utes' Slope are county ground held on lease from the Utes** through the Realm, the rent paid to the nation; the valleys between them are not in the counties. | Author, 16 Nov, 16:06 |
+| I-35 | **The spare county is held until Arizona is drawn.** | Author, 16 Nov, 16:06 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -295,7 +297,7 @@ Twenty counties. Idaho's ground needs five, not six, after Bear River, Palouse a
 | **Gunnison** | Gunnison | Gunnison, Pitkin, Hinsdale | 22 |
 
 - **Washoe's name.** No county is named for a member, so our timeline's Washoe County is **Truckee**. Carson City's capitol is Carson's hall. Washoe's Lincoln went to Virgin (I-12).
-- **The Rockies and the Utes.** The Western Slope and the Parks are the Utes' homeland (CR-060 R4), a large unit outside the counties (I-26) and the largest of all. Our timeline's farming counties there (Mesa, Delta, Montrose, Garfield, Routt, Grand), settled after the removal of 1881, do not exist; their people in the model are moved to the mining counties (6,000 each to Lake, Gunnison and San Juan). PROPOSED: the mining districts on the Slope (Aspen, the San Juans, the Gunnison country, the Blue) are county ground held on lease from the Utes through the Realm, the rent paid to the nation (CR-033 A22; CR-049's Ute lease): the camps are in counties, the valleys between them are not.
+- **The Rockies and the Utes.** The Western Slope and the Parks are the Utes' homeland (CR-060 R4), a large unit outside the counties (I-26) and the largest of all. Our timeline's farming counties there (Mesa, Delta, Montrose, Garfield, Routt, Grand), settled after the removal of 1881, do not exist; their people in the model are moved to the mining counties (6,000 each to Lake, Gunnison and San Juan). APPROVED (I-34): the mining districts on the Slope (Aspen, the San Juans, the Gunnison country, the Blue) are county ground held on lease from the Utes through the Realm, the rent paid to the nation (CR-033 A22; CR-049's Ute lease): the camps are in counties, the valleys between them are not.
 - **Arkansas** takes the north of the San Luis Valley over Poncha Pass, as the narrow gauge does (CR-060 CO7); the valley's Hispano south went to Taos and Rio Arriba.
 - **Clear Creek** can be reached by rail only through Denver, under the Colorado article's transit clause (§15).
 - **Across the old lines:** San Juan (Colorado and Utah), and earlier Bear River, Palouse and Malheur out of Idaho. No county encloses Idaho, western Montana or Washoe whole.
@@ -305,7 +307,7 @@ Twenty counties. Idaho's ground needs five, not six, after Bear River, Palouse a
 
 **The count so far:** 109 drawn; Arizona's six, Baja's two, Hawaii's five and Thalassia make 123; **one county is spare.**
 
-**For the author:** the mining districts as leased county ground; Walker and Gallatin as counties or merged (into Carson and Helena); where the spare county goes.
+**For the author:** Walker and Gallatin (the assistant's suggestion of 16 November: keep Walker; join Gallatin with Beaverhead as one county of the Missouri's three forks, seat Bozeman, and free a county).
 
 *(Next: Arizona and Baja; Hawaii and Thalassia.)*
 
