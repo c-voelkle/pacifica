@@ -26,12 +26,13 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
+import matplotlib.patheffects as pe
 import matplotlib.pyplot as plt
 import shapefile
 from matplotlib.patches import PathPatch
 from matplotlib.path import Path as MPath
 from shapely.geometry import LineString, Point, Polygon, box, shape
-from shapely.ops import nearest_points
+from shapely.ops import nearest_points, polylabel
 from shapely.ops import polygonize, unary_union
 import numpy as np
 import shapely
@@ -263,66 +264,172 @@ def main():
     for k, g in geom.items():  # our timeline's county lines, faint
         if k in assigned:
             draw_poly(ax, P(g), facecolor="none", edgecolor="#b0b0b0", linewidth=0.25, linestyle=":")
-    small = {"San Francisco", "Carquinez", "Suisun", "Diablo", "Alameda", "San Mateo", "Marin", "Santa Cruz", "Napa",
-             "Salt Lake", "Jordan", "Weber", "Santa Clara", "Sonoma", "Yolo", "Sacramento", "San Joaquin"}
     main_names = [c["name"] for c in counties if c["unit"] not in ("Hawaii", "Thalassia")]
     for n in main_names:
-        g = P(merged[n])
-        draw_poly(ax, g, facecolor=UNIT_COLOUR[unit[n]], edgecolor="#333333", linewidth=0.9)
-    for n in main_names:
-        if n in small:
-            continue
-        g = P(merged[n])
-        big = max(getattr(g, "geoms", [g]), key=lambda p: p.area)
-        pt = big.representative_point()
-        fs = max(4.2, min(7.5, 3.6 + 95 * math.sqrt(big.area)))
-        ax.text(pt.x, pt.y, n.replace(" ", "\n") if len(n) > 9 else n, ha="center", va="center", fontsize=fs,
-                color="#111111", linespacing=0.9)
+        draw_poly(ax, P(merged[n]), facecolor=UNIT_COLOUR[unit[n]], edgecolor="#333333", linewidth=0.9)
     for name, hg in homes.items():
-        g = P(hg)
-        draw_poly(ax, g, facecolor="#fdf1e7", edgecolor="#7a3b12", linewidth=1.3)
-        pt = max(getattr(g, "geoms", [g]), key=lambda q: q.area).representative_point()
-        ax.text(pt.x, pt.y, name.replace(" ", "\n", 1) if len(name) > 9 else name, ha="center", va="center",
-                fontsize=6.4, style="italic", color="#7a3b12", weight="bold", linespacing=0.9)
+        draw_poly(ax, P(hg), facecolor="#fdf1e7", edgecolor="#7a3b12", linewidth=1.3)
     for h in hl["inner"]:
-        g = P(Polygon(h["ring"]))
-        draw_poly(ax, g, facecolor="#f6d9c2", edgecolor="#7a3b12", linewidth=1.1, linestyle="--")
-        pt = g.representative_point()
-        ax.text(pt.x, pt.y, h["name"], ha="center", va="center", fontsize=5.8, style="italic", color="#7a3b12", weight="bold")
-    for group, fs in (("california", 4.4), ("elsewhere", 4.6)):
-        for name, lo, la in hl["enclaves"][group]:
-            x, y = albers(lo, la)
-            ax.plot([x], [y], marker="s", ms=3.2, color="#7a3b12", mec="white", mew=0.4, zorder=6)
-            ax.text(x + 0.0012, y, name, ha="left", va="center", fontsize=fs, style="italic", color="#5a2a0c", zorder=6)
+        draw_poly(ax, P(Polygon(h["ring"])), facecolor="#f6d9c2", edgecolor="#7a3b12", linewidth=1.1, linestyle="--")
     ax.autoscale_view()
     x0, x1 = ax.get_xlim()
-    y0, y1 = ax.get_ylim()
     ax.set_xlim(x0 - 0.02, x1 + 0.005)
 
-    def inset(rect, names, title, lonlat, fs=6.5, P=P, fn=albers):
+    def inset(rect, names, title, lonlat, P=P, fn=albers):
         a = fig.add_axes(rect)
         a.set_aspect("equal")
         for n in names:
             draw_poly(a, P(merged[n]), facecolor=UNIT_COLOUR[unit[n]], edgecolor="#333333", linewidth=0.9)
         xs_, ys_ = fn([lonlat[0], lonlat[2]], [lonlat[1], lonlat[3]])
-        (xa, ya), (xb, yb) = (xs_[0], ys_[0]), (xs_[1], ys_[1])
-        a.set_xlim(min(xa, xb), max(xa, xb))
-        a.set_ylim(min(ya, yb), max(ya, yb))
-        for n in names:
-            g = P(merged[n])
-            pt = max(getattr(g, "geoms", [g]), key=lambda p: p.area).representative_point()
-            if min(xa, xb) < pt.x < max(xa, xb) and min(ya, yb) < pt.y < max(ya, yb):
-                a.text(pt.x, pt.y, n.replace(" ", "\n") if len(n) > 9 else n, ha="center", va="center", fontsize=fs,
-                       linespacing=0.9)
+        a.set_xlim(min(xs_), max(xs_))
+        a.set_ylim(min(ys_), max(ys_))
         a.set_xticks([])
         a.set_yticks([])
         a.set_title(title, fontsize=9, loc="left")
-        return a
+        return a, box(min(xs_), min(ys_), max(xs_), max(ys_))
 
-    inset([0.02, 0.04, 0.33, 0.20], ["Kauaʻi", "Oʻahu", "Thalassia", "Maui", "Hilo", "Kona"],
-          "Hawaii's five and Thalassia (the red mark on Kāneʻohe Bay)", (-160.4, 18.7, -154.6, 22.4), fs=8, P=PH, fn=local)
-    inset([0.02, 0.26, 0.24, 0.20], main_names, "San Francisco Bay", (-123.25, 36.9, -120.9, 38.95), fs=6.3)
-    inset([0.66, 0.13, 0.20, 0.19], main_names, "The Wasatch Front", (-113.3, 39.9, -110.8, 42.3), fs=7)
+    hawaii_names = ["Kauaʻi", "Oʻahu", "Thalassia", "Maui", "Hilo", "Kona"]
+    insets = [
+        (*inset([0.02, 0.04, 0.33, 0.20], hawaii_names, "Hawaii's five and Thalassia (red, on Kāneʻohe Bay)",
+                (-160.4, 18.7, -154.6, 22.4), P=PH, fn=local), hawaii_names, PH, True),
+        (*inset([0.02, 0.26, 0.24, 0.20], main_names, "San Francisco Bay", (-123.25, 36.9, -120.9, 38.95)), main_names, P, False),
+        (*inset([0.66, 0.13, 0.20, 0.19], main_names, "The Wasatch Front", (-113.3, 39.9, -110.8, 42.3)), main_names, P, False),
+        (*inset([0.80, 0.56, 0.18, 0.21], main_names, "Puget Sound and the lower Columbia", (-124.3, 45.2, -121.6, 48.6)), main_names, P, False),
+    ]
+
+    # ---- labels: white halo, drawn above every line, and never two on top of each other ----
+    fig.canvas.draw()
+    rend = fig.canvas.get_renderer()
+    halo = [pe.withStroke(linewidth=2.0, foreground="white")]
+    taken = []          # display-space boxes already used by labels and squares
+    keep_off = []       # ground the main map's labels keep off: the insets, the key
+    key = []            # labels that did not fit: (number, name)
+
+    def free(bb, a):
+        return not any(bb.overlaps(o) for o in (taken + keep_off if a is ax else taken))
+
+    def put(a, text, cands, sizes, inside=None, min_inside=0.0, **style):
+        """Try each size and candidate (x, y, ha, va) in turn; keep the first that touches no other label."""
+        clip = a.get_window_extent(rend)
+        for fs in sizes:
+            for x, y, ha, va in cands:
+                t = a.text(x, y, text, ha=ha, va=va, fontsize=fs, zorder=12, path_effects=halo, linespacing=0.92, **style)
+                bb = t.get_window_extent(rend).expanded(1.06, 1.12)
+                ok = free(bb, a) and clip.x0 <= bb.x0 and bb.x1 <= clip.x1 and clip.y0 <= bb.y0 and bb.y1 <= clip.y1
+                if ok and inside is not None and min_inside > 0:
+                    inv = a.transData.inverted()
+                    (ax0, ay0), (ax1, ay1) = inv.transform((bb.x0, bb.y0)), inv.transform((bb.x1, bb.y1))
+                    bx = box(ax0, ay0, ax1, ay1)
+                    ok = bx.intersection(inside).area >= min_inside * bx.area
+                if ok:
+                    taken.append(bb)
+                    return True
+                t.remove()
+        return False
+
+    def interior_points(g, n=7):
+        big = max(getattr(g, "geoms", [g]), key=lambda q: q.area)
+        pts = [big.representative_point()]
+        try:
+            pts.insert(0, polylabel(big, tolerance=max(1e-5, math.sqrt(big.area) / 40)))
+        except Exception:
+            pass
+        x0_, y0_, x1_, y1_ = big.bounds
+        grid = [Point(x0_ + (i + 0.5) * (x1_ - x0_) / n, y0_ + (j + 0.5) * (y1_ - y0_) / n) for i in range(n) for j in range(n)]
+        grid = sorted((q for q in grid if big.contains(q)), key=lambda q: -big.exterior.distance(q))
+        return big, [(q.x, q.y, "center", "center") for q in pts + grid[:14]]
+
+    def wraps(name):
+        out = [name]
+        if " " in name:
+            out.append(name.replace(" ", "\n"))
+            if name.count(" ") > 1:
+                out.append(name.replace(" ", "\n", 1))
+        return out
+
+    def label_area(a, name, g, sizes, style, allow_outside=False, numbered=True):
+        g = g if g.is_valid else g.buffer(0)
+        if g.is_empty:
+            return
+        big, cands = interior_points(g)
+        for need in (0.92, 0.7):
+            for form in wraps(name):
+                if put(a, form, cands, sizes, inside=big, min_inside=need, **style):
+                    return
+        if allow_outside:
+            x0_, y0_, x1_, y1_ = big.bounds
+            cx, cy = (x0_ + x1_) / 2, (y0_ + y1_) / 2
+            vx0, vx1 = a.get_xlim()
+            for k in (0.25, 0.9, 1.8, 3.0):  # a little way off, then further, with a leader line back
+                d = k * max(x1_ - x0_, y1_ - y0_) + 0.004 * (vx1 - vx0)
+                outside = [(x1_ + d, cy, "left", "center"), (x0_ - d, cy, "right", "center"), (cx, y1_ + d, "center", "bottom"),
+                           (cx, y0_ - d, "center", "top"), (x1_ + d, y1_ + d, "left", "bottom"), (x0_ - d, y0_ - d, "right", "top"),
+                           (x1_ + d, y0_ - d, "left", "top"), (x0_ - d, y1_ + d, "right", "bottom")]
+                for cand in outside:
+                    if put(a, name, [cand], sizes[:2], **style):
+                        c0 = big.representative_point()
+                        a.plot([c0.x, cand[0]], [c0.y, cand[1]], color="#222222", lw=0.7, zorder=11, solid_capstyle="round")
+                        a.plot([c0.x], [c0.y], marker="o", ms=2.2, color="#222222", zorder=11)
+                        return
+        if numbered:
+            num = len(key) + 1
+            if put(a, str(num), cands, (5.4, 4.6, 4.0), weight="bold", color=style.get("color", "#111111")):
+                key.append((num, name))
+                return
+        put(a, name, cands[:1], sizes[-1:], **style)  # last resort: at the best point whatever is there
+
+    # ground the labels must keep off: the insets on the main map, the key, the legend
+    for a_, *_ in insets:
+        keep_off.append(a_.get_window_extent(rend).expanded(1.02, 1.06))
+    key_box = fig.transFigure.transform([[0.015, 0.50], [0.165, 0.705]])
+    from matplotlib.transforms import Bbox
+    keep_off.append(Bbox(key_box))
+    county_style = dict(color="#111111")
+    home_style = dict(color="#7a3b12", style="italic", weight="bold")
+    # 1. enclave squares first, so that names keep off them
+    marks = []
+    for group in ("california", "elsewhere"):
+        for name, lo, la in hl["enclaves"][group]:
+            x, y = albers(lo, la)
+            ax.plot([x], [y], marker="s", ms=3.4, color="#7a3b12", mec="white", mew=0.5, zorder=11)
+            dx, dy = ax.transData.transform((x, y))
+            taken.append(Bbox([[dx - 4, dy - 4], [dx + 4, dy + 4]]))
+            marks.append((name, x, y))
+    # 2. the homelands, then the counties from the smallest up (the hardest first)
+    for name, hg in homes.items():
+        label_area(ax, name, P(hg), (7.4, 6.6, 5.8), home_style, numbered=False)
+    for h in hl["inner"]:
+        label_area(ax, h["name"], P(Polygon(h["ring"])), (6.4, 5.6), home_style, numbered=False)
+    in_inset = set()
+    for _, view, names, proj, _o in insets[1:]:
+        for n in names:
+            g = proj(merged[n]).buffer(0)
+            if g.intersection(view).area > 0.9 * g.area:
+                in_inset.add(n)
+    for n in sorted(main_names, key=lambda n: P(merged[n]).area):
+        if n in in_inset:
+            continue
+        label_area(ax, n, P(merged[n]), (7.6, 6.6, 5.8, 5.0), county_style)
+    # 3. the insets
+    for a_, view, names, proj, outside_ok in insets:
+        for n in sorted(names, key=lambda n: proj(merged[n]).area):
+            g = proj(merged[n]).buffer(0).intersection(view)
+            if g.is_empty or (g.area < 0.3 * proj(merged[n]).buffer(0).area and g.area < 0.02 * view.area):
+                continue
+            label_area(a_, n, g, (8.0, 7.0, 6.2, 5.4), county_style, allow_outside=True, numbered=False)
+    # 4. the enclaves' names round their squares
+    off = 0.0011
+    for name, x, y in marks:
+        cands = [(x + off, y, "left", "center"), (x - off, y, "right", "center"), (x, y + off, "center", "bottom"),
+                 (x, y - off, "center", "top"), (x + off, y + off, "left", "bottom"), (x + off, y - off, "left", "top"),
+                 (x - off, y + off, "right", "bottom"), (x - off, y - off, "right", "top")]
+        if not put(ax, name, cands, (4.8, 4.3), color="#5a2a0c", style="italic"):
+            num = len(key) + 1
+            if put(ax, str(num), cands, (4.6, 4.0), color="#5a2a0c", weight="bold"):
+                key.append((num, name + " (homeland)"))
+    if key:
+        fig.text(0.018, 0.70, "Names that do not fit on the map\n" + "\n".join(f"{i}  {n}" for i, n in key),
+                 fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
     fig.text(0.02, 0.962, "CR-071 Part I, draft 7 (16 November 2026). Colours: the old members and territories the counties replace. "
@@ -345,6 +452,7 @@ def main():
         f.write("\n".join(f"- {r}" for r in report) + "\n")
     print("\n".join(report))
     print({h: round(a) for h, a in areas.items()})
+    print("numbered:", key)
     print("wrote", out, "| counties with no shape:", missing or "none", "| drawn:", len([n for n in merged if not merged[n].is_empty]))
 
 
