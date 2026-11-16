@@ -1,0 +1,268 @@
+state,county,name_1887,newberry_id,kind,area_sqmi,created,boundary_since
+AK,Aleutian Dist.,ALEUTIAN DIST.,aks_unalaskadist,census district,10816,1880-06-01,1884-05-17
+AK,Arctic Dist.,ARCTIC DIST.,aks_arcticdist,census district,125880,1880-06-01,1884-05-17
+AK,Kodiak Dist.,KODIAK DIST.,aks_kodiakdist,census district,79154,1880-06-01,1884-05-17
+AK,Kuskokwim Dist.,KUSKOKWIM DIST.,aks_kuskokwimdist,census district,103623,1880-06-01,1884-05-17
+AK,Northern Dist.,NORTHERN DIST.,aks_northerndist,census district,347313,1880-06-01,1884-05-17
+AK,Southeastern Dist.,SOUTHEASTERN DIST.,aks_southeasterndist,census district,34392,1880-06-01,1884-05-17
+AK,Southern Dist.,SOUTHERN DIST.,aks_southerndist,census district,227988,1880-06-01,1884-05-17
+AK,Yukon Dist.,YUKON DIST.,aks_yukondist,census district,221433,1880-06-01,1884-05-17
+AZ,Apache,APACHE,azs_apache,county,21177,1879-02-14,1881-03-10
+AZ,Cochise,COCHISE,azs_cochise,county,6209,1881-02-01,1881-02-01
+AZ,Gila,GILA,azs_gila,county,3513,1881-02-08,1885-03-12
+AZ,Graham,GRAHAM,azs_graham,county,6490,1881-03-10,1885-03-12
+AZ,Maricopa,MARICOPA,azs_maricopa,county,9224,1871-02-14,1881-02-08
+AZ,Mohave,MOHAVE,azs_mohave,county,13470,1864-11-10,1883-03-06
+AZ,Pima,PIMA,azs_pima,county,10437,1864-11-10,1881-03-10
+AZ,Pinal,PINAL,azs_pinal,county,5374,1875-02-01,1881-02-08
+AZ,Yavapai,YAVAPAI,azs_yavapai,county,28073,1864-11-10,1883-03-06
+AZ,Yuma,YUMA,azs_yuma,county,10032,1864-11-10,1864-11-10
+CA,Alameda,ALAMEDA,cas_alameda,county,744,1853-03-25,1853-03-25
+CA,Alpine,ALPINE,cas_alpine,county,743,1864-03-16,1864-03-16
+CA,Amador,AMADOR,cas_amador,county,604,1854-06-14,1866-03-02
+CA,Butte,BUTTE,cas_butte,county,1675,1850-02-18,1873-01-01
+CA,Calaveras,CALAVERAS,cas_calaveras,county,1037,1850-02-18,1864-03-16
+CA,Colusa,COLUSA,cas_colusa,county,2404,1850-02-18,1873-01-01
+CA,Contra Costa,CONTRA COSTA,cas_contracosta,county,748,1850-02-18,1868-03-26
+CA,Del Norte,DEL NORTE,cas_delnorte,county,1036,1857-03-02,1887-03-11
+CA,El Dorado,EL DORADO,cas_eldorado,county,1816,1850-02-18,1864-03-16
+CA,Fresno,FRESNO,cas_fresno,county,8292,1856-04-19,1887-03-11
+CA,Humboldt,HUMBOLDT,cas_humboldt,county,3567,1853-05-12,1874-05-30
+CA,Inyo,INYO,cas_inyo,county,10233,1866-03-22,1873-01-01
+CA,Kern,KERN,cas_kern,county,8273,1866-04-02,1885-03-14
+CA,Lake,LAKE,cas_lake,county,1355,1861-05-20,1872-03-08
+CA,Lassen,LASSEN,cas_lassen,county,4428,1864-04-01,1874-03-16
+CA,Los Angeles,LOS ANGELES,cas_losangeles,county,4885,1850-02-18,1881-07-31
+CA,Marin,MARIN,cas_marin,county,525,1850-02-18,1868-03-26
+CA,Mariposa,MARIPOSA,cas_mariposa,county,1463,1850-02-18,1872-04-01
+CA,Mendocino,MENDOCINO,cas_mendocino,county,3561,1850-02-18,1872-10-30
+CA,Merced,MERCED,cas_merced,county,1972,1855-04-19,1887-03-11
+CA,Modoc,MODOC,cas_modoc,county,4203,1874-02-17,1874-02-17
+CA,Mono,MONO,cas_mono,county,3132,1861-04-24,1870-03-28
+CA,Monterey,MONTEREY,cas_monterey,county,3315,1850-02-18,1874-02-12
+CA,Napa,NAPA,cas_napa,county,788,1850-02-18,1872-03-08
+CA,Nevada,NEVADA,cas_nevada,county,974,1851-04-25,1856-04-19
+CA,Placer,PLACER,cas_placer,county,1475,1851-04-25,1873-01-01
+CA,Plumas,PLUMAS,cas_plumas,county,2629,1854-04-01,1874-03-16
+CA,Sacramento,SACRAMENTO,cas_sacramento,county,995,1850-02-18,1878-04-01
+CA,San Benito,SAN BENITO,cas_sanbenito,county,1391,1874-02-12,1887-03-11
+CA,San Bernardino,SAN BERNARDINO,cas_sanbernardino,county,20878,1853-04-26,1877-02-05
+CA,San Diego,SAN DIEGO,cas_sandiego,county,15090,1850-02-18,1873-01-01
+CA,San Francisco,SAN FRANCISCO,cas_sanfrancisco,county,47,1850-02-18,1860-04-25
+CA,San Joaquin,SAN JOAQUIN,cas_sanjoaquin,county,1426,1850-02-18,1878-04-01
+CA,San Luis Obispo,SAN LUIS OBISPO,cas_sanluisobispo,county,3320,1850-02-18,1885-03-14
+CA,San Mateo,SAN MATEO,cas_sanmateo,county,454,1856-07-01,1868-03-16
+CA,Santa Barbara,SANTA BARBARA,cas_santabarbara,county,2750,1850-02-18,1873-01-01
+CA,Santa Clara,SANTA CLARA,cas_santaclara,county,1298,1850-02-18,1853-03-25
+CA,Santa Cruz,SANTA CRUZ,cas_santacruz,county,447,1850-02-18,1868-03-16
+CA,Shasta,SHASTA,cas_shasta,county,4128,1850-02-18,1873-01-01
+CA,Sierra,SIERRA,cas_sierra,county,962,1852-04-16,1874-03-16
+CA,Siskiyou,SISKIYOU,cas_siskiyou,county,6345,1852-03-22,1887-03-11
+CA,Solano,SOLANO,cas_solano,county,850,1850-02-18,1870-03-12
+CA,Sonoma,SONOMA,cas_sonoma,county,1595,1850-02-18,1861-05-13
+CA,Stanislaus,STANISLAUS,cas_stanislaus,county,1515,1854-04-05,1860-02-17
+CA,Sutter,SUTTER,cas_sutter,county,609,1850-02-18,1873-01-01
+CA,Tehama,TEHAMA,cas_tehama,county,2968,1856-04-09,1873-01-01
+CA,Trinity,TRINITY,cas_trinity,county,3208,1850-02-18,1872-10-30
+CA,Tulare,TULARE,cas_tulare,county,6109,1852-04-20,1876-03-23
+CA,Tuolumne,TUOLUMNE,cas_tuolumne,county,2274,1850-02-18,1864-03-16
+CA,Ventura,VENTURA,cas_ventura,county,1900,1873-01-01,1881-07-31
+CA,Yolo,YOLO,cas_yolo,county,1023,1850-02-18,1870-03-12
+CA,Yuba,YUBA,cas_yuba,county,635,1850-02-18,1866-03-31
+CO,Arapahoe,ARAPAHOE,cos_arapahoe,county,4789,1861-11-01,1876-08-01
+CO,Archuleta,ARCHULETA,cos_archuleta,county,1373,1885-04-14,1885-04-14
+CO,Bent,BENT,cos_bent,county,9227,1870-02-11,1876-08-01
+CO,Boulder,BOULDER,cos_boulder,county,751,1861-11-01,1876-08-01
+CO,Chaffee,CHAFFEE,cos_chaffee,county,1015,1879-02-10,1879-02-10
+CO,Clear Creek,CLEAR CREEK,cos_clearcreek,county,396,1861-11-01,1876-08-01
+CO,Conejos,CONEJOS,cos_conejos,county,1418,1861-11-01,1885-04-14
+CO,Costilla,COSTILLA,cos_costilla,county,1808,1861-11-01,1876-08-01
+CO,Custer,CUSTER,cos_custer,county,740,1877-03-09,1877-03-09
+CO,Delta,DELTA,cos_delta,county,1149,1883-02-11,1883-02-11
+CO,Dolores,DOLORES,cos_dolores,county,1029,1881-02-19,1881-02-19
+CO,Douglas,DOUGLAS,cos_douglas,county,843,1861-11-01,1876-08-01
+CO,Eagle,EAGLE,cos_eagle,county,1692,1883-02-11,1883-02-11
+CO,El Paso,EL PASO,cos_elpaso,county,2636,1861-11-01,1876-08-01
+CO,Elbert,ELBERT,cos_elbert,county,6195,1874-02-02,1876-08-01
+CO,Fremont,FREMONT,cos_fremont,county,1587,1861-11-01,1877-03-09
+CO,Garfield,GARFIELD,cos_garfield,county,6221,1883-02-10,1883-02-10
+CO,Gilpin,GILPIN,cos_gilpin,county,150,1861-11-01,1876-08-01
+CO,Grand,GRAND,cos_grand,county,1870,1874-02-02,1877-01-29
+CO,Gunnison,GUNNISON,cos_gunnison,county,3260,1877-03-09,1883-02-27
+CO,Hinsdale,HINSDALE,cos_hinsdale,county,1566,1874-02-10,1876-08-01
+CO,Huerfano,HUERFANO,cos_huerfano,county,1593,1861-11-01,1876-08-01
+CO,Jefferson,JEFFERSON,cos_jefferson,county,814,1861-11-01,1876-08-01
+CO,La Plata,LA PLATA,cos_laplata,county,3774,1874-02-10,1876-08-01
+CO,Lake,LAKE,cos_lake,county,384,1861-11-01,1879-02-10
+CO,Larimer,LARIMER,cos_larimer,county,4255,1861-11-01,1876-08-01
+CO,Las Animas,LAS ANIMAS,cos_lasanimas,county,7333,1866-02-09,1876-08-01
+CO,Logan,LOGAN,cos_logan,county,3082,1887-02-25,1887-02-25
+CO,Mesa,MESA,cos_mesa,county,3340,1883-02-14,1883-02-14
+CO,Montrose,MONTROSE,cos_montrose,county,2243,1883-02-11,1883-02-27
+CO,Ouray,OURAY,cos_ouray,county,541,1877-01-18,1883-03-02
+CO,Park,PARK,cos_park,county,2181,1861-11-01,1876-08-01
+CO,Pitkin,PITKIN,cos_pitkin,county,973,1881-02-23,1881-02-23
+CO,Pueblo,PUEBLO,cos_pueblo,county,2398,1861-11-01,1876-08-01
+CO,Rio Grande,RIO GRANDE,cos_riogrande,county,1284,1874-02-10,1879-02-12
+CO,Routt,ROUTT,cos_routt,county,7076,1877-01-29,1877-01-29
+CO,Saguache,SAGUACHE,cos_saguache,county,3235,1866-12-29,1879-02-12
+CO,San Juan,SAN JUAN,cos_sanjuan,county,388,1876-05-01,1877-01-18
+CO,San Miguel,SAN MIGUEL,cos_sanmiguel,county,1295,1883-03-02,1883-03-02
+CO,Summit,SUMMIT,cos_summit,county,619,1861-11-01,1883-02-11
+CO,Washington,WASHINGTON,cos_washington,county,2256,1887-02-09,1887-02-09
+CO,Weld,WELD,cos_weld,county,5315,1861-11-01,1887-02-25
+ID,Ada,ADA,ids_ada,county,2428,1864-12-22,1883-01-31
+ID,Alturas,ALTURAS (ext),ids_alturas,county,14694,1864-02-04,1887-01-15
+ID,Bear Lake,BEAR LAKE,ids_bearlake,county,1049,1875-01-05,1875-01-05
+ID,Bingham,BINGHAM,ids_bingham,county,10467,1885-01-13,1885-01-13
+ID,Boise,BOISE,ids_boise,county,3538,1863-01-12,1887-01-15
+ID,Cassia,CASSIA,ids_cassia,county,4538,1879-02-20,1879-02-20
+ID,Custer,CUSTER,ids_custer,county,4525,1881-04-01,1881-04-01
+ID,Id Nca 1,ID NCA 1,ids_nca1,non-county area,1,1863-03-03,1864-12-22
+ID,Idaho,IDAHO,ids_idaho,county,11903,1861-12-20,1887-01-15
+ID,Kootenai,KOOTENAI,ids_kootenai,county,5327,1864-12-22,1867-01-09
+ID,Lemhi,LEMHI,ids_lemhi,county,4244,1869-01-09,1885-01-21
+ID,Nez Perce,NEZ PERCE,ids_nezperce,county,2572,1861-12-20,1885-01-21
+ID,Oneida,ONEIDA,ids_oneida,county,2633,1864-01-22,1885-01-13
+ID,Owyhee,OWYHEE,ids_owyhee,county,7950,1863-12-31,1879-02-20
+ID,Shoshone,SHOSHONE,ids_shoshone,county,5038,1861-01-09,1864-02-04
+ID,Washington,WASHINGTON,ids_washington,county,2691,1879-02-20,1883-01-31
+MT,Beaverhead,BEAVERHEAD,mts_beaverhead,county,4584,1864-01-16,1872-01-12
+MT,Chouteau,CHOTEAU,mts_chouteau,county,25532,1864-01-16,1876-02-05
+MT,Custer,CUSTER,mts_custer,county,22960,1864-01-16,1885-03-05
+MT,Dawson,DAWSON,mts_dawson,county,27040,1864-01-16,1883-03-08
+MT,Deer Lodge,DEER LODGE,mts_deerlodge,county,5775,1864-01-16,1881-02-16
+MT,Fergus,FERGUS,mts_fergus,county,7454,1886-12-01,1886-12-01
+MT,Gallatin,GALLATIN,mts_gallatin,county,2569,1865-02-02,1887-05-01
+MT,Jefferson,JEFFERSON,mts_jefferson,county,2247,1864-01-16,1883-03-07
+MT,Lewis and Clark,LEWIS AND CLARK,mts_lewisandclark,county,3011,1865-02-02,1868-03-01
+MT,Madison,MADISON,mts_madison,county,4562,1864-01-16,1869-01-12
+MT,Meagher,MEAGHER,mts_meagher,county,7049,1866-03-26,1886-12-01
+MT,Missoula,MISSOULA,mts_missoula,county,19488,1860-12-14,1867-11-20
+MT,Mt Nca 2,MT NCA 2,mts_nca2,non-county area,4972,1885-03-05,1885-03-05
+MT,Park,PARK,mts_park,county,4974,1887-05-01,1887-05-01
+MT,Silver Bow,SILVER BOW,mts_silverbow,county,1079,1881-02-16,1883-03-07
+MT,Yellowstone,YELLOWSTONE,mts_yellowstone,county,3550,1883-02-26,1883-02-26
+MT,Yellowstone Np (Pt),Yellowstone NP (pt),mts_yellowstonenp,non-county area,191,1887-05-01,1887-05-01
+NV,Churchill,CHURCHILL,nvs_churchill,county,5089,1861-11-25,1869-03-05
+NV,Douglas,DOUGLAS,nvs_douglas,county,801,1861-11-25,1864-10-31
+NV,Elko,ELKO,nvs_elko,county,17203,1869-03-05,1877-02-07
+NV,Esmeralda,ESMERALDA,nvs_esmeralda,county,7880,1861-11-25,1883-03-01
+NV,Eureka,EUREKA,nvs_eureka,county,4178,1873-03-20,1881-03-02
+NV,Humboldt,HUMBOLDT,nvs_humboldt,county,15886,1861-11-25,1873-03-07
+NV,Lander,LANDER,nvs_lander,county,5522,1862-12-19,1873-03-20
+NV,Lincoln,LINCOLN,nvs_lincoln,county,18728,1866-02-26,1875-02-20
+NV,Lyon,LYON,nvs_lyon,county,1479,1861-11-25,1883-03-01
+NV,Nye,NYE,nvs_nye,county,18158,1864-02-16,1875-02-26
+NV,Ormsby,ORMSBY (ext),nvs_ormsby,county,157,1861-11-25,1864-10-31
+NV,Storey,STOREY,nvs_storey,county,264,1861-11-25,1864-10-31
+NV,Washoe,WASHOE,nvs_washoe,county,6321,1861-11-25,1883-01-18
+NV,White Pine,WHITE PINE,nvs_whitepine,county,8897,1869-04-01,1881-03-02
+NM,Bernalillo,BERNALILLO,nms_bernalillo,county,8224,1848-07-04,1882-03-04
+NM,Colfax,COLFAX,nms_colfax,county,6746,1869-01-25,1882-01-31
+NM,Doña Ana,DOÑA ANA,nms_donaana,county,10450,1852-01-09,1887-02-24
+NM,Grant,GRANT,nms_grant,county,9364,1868-01-30,1884-04-03
+NM,Lincoln,LINCOLN,nms_lincoln,county,24237,1869-01-16,1887-02-24
+NM,Mora,MORA,nms_mora,county,4103,1860-02-01,1882-03-04
+NM,Rio Arriba,RIO ARRIBA,nms_rioarriba,county,7168,1848-07-04,1887-02-24
+NM,San Juan,SAN JUAN,nms_sanjuan,county,6107,1887-02-24,1887-02-24
+NM,San Miguel,SAN MIGUEL,nms_sanmiguel,county,12873,1848-07-04,1882-03-04
+NM,Santa Fe,SANTA FE,nms_santafe,county,2714,1848-07-04,1882-03-04
+NM,Sierra,SIERRA,nms_sierra,county,3074,1884-04-03,1884-04-03
+NM,Socorro,SOCORRO,nms_socorro,county,15435,1852-01-09,1887-02-24
+NM,Taos,TAOS,nms_taos,county,2204,1848-07-04,1880-02-10
+NM,Valencia,VALENCIA,nms_valencia,county,8891,1848-07-04,1870-01-13
+OR,Baker,BAKER,ors_baker,county,2335,1862-09-22,1887-04-01
+OR,Benton,BENTON,ors_benton,county,1309,1847-12-23,1859-02-14
+OR,Clackamas,CLACKAMAS,ors_clackamas,county,1878,1843-07-05,1862-10-17
+OR,Clatsop,CLATSOP,ors_clatsop,county,818,1845-12-19,1885-02-24
+OR,Columbia,COLUMBIA,ors_columbia,county,704,1854-01-16,1885-02-24
+OR,Coos,COOS,ors_coos,county,1611,1853-12-22,1882-10-16
+OR,Crook,CROOK,ors_crook,county,8252,1882-10-24,1885-02-23
+OR,Curry,CURRY,ors_curry,county,1632,1855-12-18,1880-10-25
+OR,Douglas,DOUGLAS,ors_douglas,county,5115,1852-01-07,1885-11-19
+OR,Gilliam,GILLIAM,ors_gilliam,county,1729,1885-02-25,1885-02-25
+OR,Grant,GRANT,ors_grant,county,15440,1864-10-14,1885-11-21
+OR,Jackson,JACKSON,ors_jackson,county,2895,1852-01-12,1885-02-12
+OR,Josephine,JOSEPHINE,ors_josephine,county,1639,1856-01-22,1885-02-12
+OR,Klamath,KLAMATH,ors_klamath,county,6121,1882-10-20,1882-10-20
+OR,Lake,LAKE,ors_lake,county,8373,1874-10-24,1885-11-21
+OR,Lane,LANE,ors_lane,county,4496,1851-01-28,1887-02-16
+OR,Linn,LINN,ors_linn,county,2203,1847-12-28,1887-02-16
+OR,Malheur,MALHEUR,ors_malheur,county,10013,1887-04-01,1887-04-01
+OR,Marion,MARION,ors_marion,county,1296,1843-07-05,1859-02-14
+OR,Morrow,MORROW,ors_morrow,county,2048,1885-02-16,1885-02-16
+OR,Multnomah,MULTNOMAH,ors_multnomah,county,467,1854-12-22,1885-02-24
+OR,Polk,POLK,ors_polk,county,781,1845-12-22,1859-02-14
+OR,Tillamook,TILLAMOOK,ors_tillamook,county,1408,1853-12-15,1887-02-15
+OR,Umatilla,UMATILLA,ors_umatilla,county,3224,1862-09-27,1885-02-25
+OR,Union,UNION,ors_union,county,3030,1864-10-14,1887-02-11
+OR,Wallowa,WALLOWA,ors_wallowa,county,2924,1887-02-11,1887-02-11
+OR,Wasco,WASCO,ors_wasco,county,3779,1854-01-11,1885-02-25
+OR,Washington,WASHINGTON,ors_washington,county,711,1843-07-05,1885-02-24
+OR,Yamhill,YAMHILL,ors_yamhill,county,720,1843-07-05,1887-02-15
+UT,Beaver,BEAVER,uts_beaver,county,2592,1856-01-05,1866-05-05
+UT,Box Elder,BOX ELDER,uts_boxelder,county,6725,1856-01-05,1880-02-18
+UT,Cache,CACHE,uts_cache,county,1173,1856-01-05,1864-01-16
+UT,Davis,DAVIS,uts_davis,county,634,1850-10-05,1880-02-18
+UT,Emery,EMERY,uts_emery,county,9233,1880-02-12,1880-02-17
+UT,Garfield,GARFIELD,uts_garfield,county,5208,1882-03-09,1884-03-13
+UT,Iron,IRON,uts_iron,county,3242,1850-01-31,1884-03-13
+UT,Juab,JUAB,uts_juab,county,3399,1852-03-03,1870-02-18
+UT,Kane,KANE,uts_kane,county,4108,1864-01-16,1883-01-01
+UT,Millard,MILLARD,uts_millard,county,6837,1851-10-04,1866-05-05
+UT,Morgan,MORGAN,uts_morgan,county,611,1862-01-17,1862-01-17
+UT,Piute,PIUTE,uts_piute,county,3242,1865-01-16,1880-02-17
+UT,Rich,RICH,uts_rich,county,1086,1864-01-16,1872-02-16
+UT,Salt Lake,SALT LAKE,uts_saltlake,county,808,1850-01-31,1880-02-18
+UT,San Juan,SAN JUAN,uts_sanjuan,county,7935,1880-02-17,1880-02-17
+UT,Sanpete,SANPETE,uts_sanpete,county,1358,1850-01-31,1880-02-18
+UT,Sevier,SEVIER,uts_sevier,county,1937,1865-01-16,1880-02-17
+UT,Summit,SUMMIT,uts_summit,county,1882,1854-01-13,1880-02-18
+UT,Tooele,TOOELE,uts_tooele,county,7290,1850-01-31,1880-02-18
+UT,Uintah,UINTAH,uts_uintah,county,5934,1880-02-18,1880-02-18
+UT,Utah,UTAH,uts_utah,county,2141,1850-01-31,1884-03-13
+UT,Wasatch,WASATCH,uts_wasatch,county,4372,1862-01-17,1884-03-13
+UT,Washington,WASHINGTON,uts_washington,county,2490,1852-03-03,1883-01-01
+UT,Weber,WEBER,uts_weber,county,659,1850-01-31,1880-02-18
+WA,Adams,ADAMS,was_adams,county,1930,1883-11-28,1883-11-28
+WA,Asotin,ASOTIN,was_asotin,county,641,1883-10-27,1883-10-27
+WA,Grays Harbor,CHEHALIS,was_graysharbor,county,1977,1854-04-14,1879-11-13
+WA,Clallam,CLALLAM,was_clallam,county,1770,1854-04-26,1869-12-02
+WA,Clark,CLARKE,was_clark,county,656,1845-08-20,1873-11-14
+WA,Columbia,COLUMBIA,was_columbia,county,874,1875-11-11,1881-11-29
+WA,Cowlitz,COWLITZ,was_cowlitz,county,1166,1854-04-21,1873-11-14
+WA,Douglas,DOUGLAS,was_douglas,county,4640,1883-11-28,1883-11-28
+WA,Franklin,FRANKLIN,was_franklin,county,1265,1883-11-28,1883-11-28
+WA,Garfield,GARFIELD,was_garfield,county,718,1881-11-29,1883-10-27
+WA,Island,ISLAND,was_island,county,210,1852-12-22,1867-01-31
+WA,Jefferson,JEFFERSON,was_jefferson,county,1785,1852-12-22,1877-11-09
+WA,King,KING,was_king,county,2199,1852-12-22,1866-01-09
+WA,Kitsap,KITSAP,was_kitsap,county,399,1857-01-16,1877-11-09
+WA,Kittitas,KITTITAS,was_kittitas,county,3241,1883-11-24,1886-02-04
+WA,Klickitat,KLICKITAT,was_klickitat,county,2290,1859-12-20,1881-11-29
+WA,Lewis,LEWIS,was_lewis,county,2416,1845-12-21,1879-11-13
+WA,Lincoln,LINCOLN,was_lincoln,county,2340,1883-11-24,1883-11-28
+WA,Mason,MASON,was_mason,county,973,1854-03-13,1877-11-09
+WA,Pacific,PACIFIC,was_pacific,county,936,1851-02-03,1879-11-13
+WA,Pierce,PIERCE,was_pierce,county,1680,1852-12-22,1867-01-31
+WA,San Juan,SAN JUAN,was_sanjuan,county,171,1873-10-31,1873-10-31
+WA,Skagit,SKAGIT,was_skagit,county,1753,1883-11-28,1883-11-28
+WA,Skamania,SKAMANIA,was_skamania,county,1684,1854-03-09,1881-11-29
+WA,Snohomish,SNOHOMISH,was_snohomish,county,2108,1861-01-14,1861-01-14
+WA,Spokane,SPOKANE,was_spokane,county,1781,1879-10-30,1883-11-24
+WA,Stevens,STEVENS,was_stevens,county,13626,1863-01-20,1879-10-30
+WA,Thurston,THURSTON,was_thurston,county,736,1852-01-12,1873-11-10
+WA,Wahkiakum,WAHKIAKUM,was_wahkiakum,county,276,1854-04-25,1879-11-13
+WA,Walla Walla,WALLA WALLA,was_wallawalla,county,1299,1854-04-25,1879-11-13
+WA,Whatcom,WHATCOM,was_whatcom,county,2162,1854-03-09,1883-11-28
+WA,Whitman,WHITMAN,was_whitman,county,2178,1872-01-02,1883-11-28
+WA,Yakima,YAKIMA,was_yakima,county,5684,1865-01-21,1886-02-04
+WY,Albany,ALBANY,wys_albany,county,7261,1868-12-16,1886-02-05
+WY,Carbon,CARBON,wys_carbon,county,13261,1868-12-16,1886-02-05
+WY,Crook,CROOK,wys_crook,county,10042,1875-12-08,1875-12-08
+WY,Fremont,FREMONT,wys_fremont,county,21190,1884-03-05,1884-03-05
+WY,Johnson,JOHNSON,wys_johnson,county,10721,1875-12-08,1879-12-13
+WY,Laramie,LARAMIE,wys_laramie,county,10971,1867-01-09,1875-12-08
+WY,Sweetwater,SWEETWATER,wys_sweetwater,county,10537,1867-12-27,1886-02-05
+WY,Uinta,UINTA,wys_uinta,county,13828,1869-12-01,1869-12-01

@@ -27,9 +27,18 @@ independence: self-review only (the consistency check of 16 November was done in
 
 `lint_canon.py --only` clean on every draft except one false positive in `CR-072-party.md` line 45 ("Taylor resists until he dies on 25 July 1887" read as Elias's death). Canon checks clean (no canon files changed).
 
+## Part I, steps 1 and 2 (16 November, afternoon)
+
+- **Author:** "Please merge main in ... Then go ahead and start with steps 1 and 2." `main` (7b2cb15, CR-057 with the Deseret sheet) merged into the branch; canon checks clean.
+- **Step 1, the historical baseline:** `population/counties_1887.py` builds `population/outputs/counties_1887.csv` and `counties_1887.md` from `population/data/counties/` (the Newberry atlas's counties of 1 August 1887, CC0; county census totals from the counties' Wikipedia articles, checked against the state totals in `census.toml`). 233 mainland counties lie wholly or partly on Pacifica's side; about 2.29 million people in 1887 in our timeline, 1.10 million of them in California.
+- **Step 2, the regional split (MODEL, not decided):** four variants in section 2 of `counties_1887.md`. The population model has no regions; California's share of the 5.84 million of 1887 runs from 77% (interior as in history) to 47% (every region in proportion).
+- **Found on the way:** Baja California (purchase of 1867, PROPOSED in §16) is in neither the strawman nor the model; the line in Montana, Wyoming and Colorado needed county assignments (`overrides.toml`, `[pacifica_share]`, guesses for the split counties).
+- **Not done:** county seats; maps (the atlas's geometry is available as topology in `localgeohistoryproject/county-boundaries-topology`, CC0, and can be rebuilt); 1880 sums for Colorado, Montana and Oregon do not close (444, 170, 100); three 1890 figures unverified.
+
 ## Resume here
 
-- **Next: Part I, the map of the 124 counties.** Settle the drawing rules (I1, with the historic lands' outer boundaries kept), the allocation that replaces the strawman behind G3's counts (K-7: 123 county senators, Thalassia none), Alaska (I5; CR-070 open decision 9; CT3), the Native homelands (I4; CT5; the Diné homeland as the test), and the named list with seats and county languages. Research first: historical county counts about 1887 per region; the census of 1880 and the population model's figures for 1887.
-- Then Parts A, B, C and J; storyline text, fact changes, ledger (Japan's loan of 1873; the seven charter entries, F–G section T5), registry lines, model rows; a fresh-context review; integration in the K-1 order (CR-073 and CR-072 in one pass, then CR-071).
+- **Waiting for the author:** which regional variant (V1 to V4, or other multiples per unit) the 1887 split follows; whether Baja is inside the 124; I1 (drawing rules), I4 (homelands), I5 (Alaska).
+- **Then:** allocation by region replacing the strawman (step 4), with G3 recounted; the map region by region, Deseret first (step 5); `CR-071-I-map.md` (step 6).
+- Then Parts A, B, C and J; storyline text, fact changes, ledger (Japan's loan of 1873; the seven charter entries, F–G section T5), registry lines, model rows; a fresh-context review; integration in the K-1 order. K-1 named "the CR-057 project document as approved on 6 November" as the base; CR-057 is now integrated on `main` (PR #73), so CR-073 and CR-072 integrate on `main` as it stands.
 - Still open in CR-071: D decision 9 ("ready for approval"), the Guard's commander and Wilcox's later life (H4), CT3, CT5, CT4's Columbia and Washoe rows in the outline.
 - On `main`, for a later CR or review branch: the leftover "until 1914" in §25's languages paragraph (should follow CR-040's 1907); AGENTS.md's "A Crown-affiliated party is on hold" (CR-038), which CR-072 supersedes at integration.

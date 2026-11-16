@@ -1,0 +1,106 @@
+# Figures the county articles did not give, and how each was obtained. All MODEL inputs to a
+# historical baseline (our timeline), not canon.
+
+[residual_1880]
+# state total (census.toml, verified) minus the sum of the other counties: exact when one county is missing
+"CA;San Francisco" = 233959
+"ID;Alturas" = 1693
+"UT;Cache" = 12562
+"NV;Ormsby" = 5698   # Ormsby with Roop County (attached to Washoe in 1883); the two are not separated here
+
+[unverified_1890]
+# 1890 state totals include Indians on reservations, so a residual does not isolate one county.
+# These are the figures the residuals are consistent with; each is to be read from the 1890 census
+# (Compendium, Part I, Table 2) before it is cited anywhere.
+"CA;San Francisco" = 298997   # CA residual 317,854 = this + Orange 13,589 + 5,268
+"NV;Ormsby" = 4883            # NV residual 6,477 = this + 1,594
+"ID;Alturas" = 6798           # Alturas with Logan (created from it in 1889); ID residual leaves 4,469 beyond it
+
+[parents]
+# county created after 1 August 1887 -> the 1887 county its 1890 population is folded into
+"CA;Orange" = "Los Angeles"
+"CO;Montezuma" = "La Plata"
+"CO;Rio Blanco" = "Garfield"
+"CO;Baca" = "Las Animas"
+"CO;Cheyenne" = "Bent"
+"CO;Kiowa" = "Bent"
+"CO;Otero" = "Bent"
+"CO;Prowers" = "Bent"
+"CO;Kit Carson" = "Elbert"
+"CO;Lincoln" = "Elbert"
+"CO;Morgan" = "Weld"
+"CO;Phillips" = "Logan"
+"CO;Sedgwick" = "Logan"
+"CO;Yuma" = "Washington"
+"ID;Elmore" = "Alturas"
+"ID;Latah" = "Nez Perce"
+"MT;Cascade" = "Chouteau"
+"OR;Harney" = "Grant"
+"OR;Sherman" = "Wasco"
+"UT;Grand" = "Emery"
+"WA;Okanogan" = "Stevens"
+"WY;Converse" = "Laramie"
+"WY;Natrona" = "Carbon"
+"WY;Sheridan" = "Johnson"
+
+[pacifica_share]
+# Share of each county's people on Pacifica's side of the line of 1865 and the survey of 1880-82
+# (storyline section 15, CR-060 CO4-CO7, R1). Counties of wholly Pacifican states are 1 and not listed;
+# unlisted counties of Montana, Colorado and Wyoming are 0. Fractions are MODEL guesses for split counties.
+"MT;Beaverhead" = 1
+"MT;Deer Lodge" = 1
+"MT;Jefferson" = 1
+"MT;Lewis and Clark" = 1
+"MT;Madison" = 1
+"MT;Missoula" = 1
+"MT;Silver Bow" = 1
+"MT;Gallatin" = 1      # the Gallatin valley lies above the point "where the Missouri leaves the hills"; to confirm
+"MT;Meagher" = 0.5     # the Missouri valley side; the Smith River and the Musselshell are the Union's
+"WY;Uinta" = 1
+"WY;Sweetwater" = 1
+"CO;Archuleta" = 1
+"CO;Chaffee" = 1
+"CO;Clear Creek" = 1
+"CO;Conejos" = 1
+"CO;Costilla" = 1
+"CO;Custer" = 1
+"CO;Delta" = 1
+"CO;Dolores" = 1
+"CO;Eagle" = 1
+"CO;Garfield" = 1
+"CO;Gilpin" = 1
+"CO;Grand" = 1
+"CO;Gunnison" = 1
+"CO;Hinsdale" = 1
+"CO;Lake" = 1
+"CO;La Plata" = 1
+"CO;Mesa" = 1
+"CO;Montrose" = 1
+"CO;Ouray" = 1
+"CO;Park" = 1
+"CO;Pitkin" = 1
+"CO;Rio Grande" = 1
+"CO;Routt" = 1
+"CO;Saguache" = 1
+"CO;San Juan" = 1
+"CO;San Miguel" = 1
+"CO;Summit" = 1
+"CO;Boulder" = 0.3     # the mountain districts that vote themselves over in 1880
+"CO;Fremont" = 0.2     # above the canyon
+"CO;Jefferson" = 0.15
+"CO;Larimer" = 0.1
+
+[islands]
+# Hawaii has no counties before 1905. Kingdom censuses by island; each row sums exactly to the
+# verified total in census.toml (80,578 and 89,990), so status is identity-checked; to be read from
+# Schmitt, Demographic Statistics of Hawaii (1968), Table 16.
+names  = ["Hawaii", "Maui", "Molokai and Lanai", "Oahu", "Kauai and Niihau"]
+y1884  = [24991, 15970, 2614, 28068, 8935]
+y1890  = [26754, 17357, 2826, 31194, 11859]
+area_sqmi = [4028, 727, 401, 597, 622]
+
+[alaska]
+# Petroff's census of 1880 by division; sums to the 33,426 in census.toml (identity-checked). Of these
+# 430 were white and 1,756 Creole. No county government existed; the Atlas's eight "counties" are census districts.
+names = ["Southeastern", "Kodiak", "Aleutian", "Kuskokwim", "Yukon", "Arctic"]
+y1880 = [7748, 4352, 2451, 8911, 6870, 3094]
