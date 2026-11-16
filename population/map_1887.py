@@ -43,7 +43,7 @@ def main():
             h = hist[key]
             people += h["pacifica1887"] * frac * mult[STATE_UNIT[h["state"]]]
             used[key] += frac
-        people += 1000 * c.get("adjust", 0)
+        people += 1000 * (c.get("adjust", 0) + c.get("people", 0))
         out.append((c, people))
     for key, f in used.items():
         if f > 1.0001:
@@ -65,7 +65,7 @@ def main():
         L.append(f"| {u} | {n} | {len(d)} | {sum(p for _, p in d) / 1000:,.0f} |")
     L.append(f"| **Total** | {sum(ALLOC.values())} | {len(out)} | {sum(p for _, p in out) / 1000:,.0f} |")
     L.append("")
-    L.append("The allocation by old unit is accounting: counties cross the old lines, and counties a unit does not need go to a pool (Deseret one, to New Mexico; Columbia one and Idaho one, of which western Montana takes one).\n")
+    L.append("The allocation by old unit is accounting: counties cross the old lines, and counties a unit does not need go to a pool (Deseret one, to New Mexico; Columbia one and Idaho one, Western Montana one after Three Forks; Arizona takes two).\n")
     for u in ALLOC:
         if u not in drawn:
             continue
@@ -73,16 +73,16 @@ def main():
         L.append("| County | Seat | Made of | People | Status |")
         L.append("|---|---|---|---|---|")
         for c, p in sorted(drawn[u], key=lambda t: -t[1]):
-            parts = ", ".join((k.split(";")[1] if k.startswith(next(iter(c["parts"])).split(";")[0]) and f == 1 else
+            parts = c.get("note", "") if not c["parts"] else ", ".join((k.split(";")[1] if k.startswith(next(iter(c["parts"])).split(";")[0]) and f == 1 else
                                f"{k.split(';')[1]} ({k.split(';')[0]})" + ("" if f == 1 else f" {f:.0%}"))
                               for k, f in c["parts"].items())
             L.append(f"| {c['name']} | {c['seat']} | {parts} | {p / 1000:,.0f} | {c.get('status', 'proposed')} |")
         L.append("")
     todo = [k for k, r in hist.items() if r["share"] > 0 and used.get(k, 0) < 0.999
-            and r["state"] not in ("AZ",)]
+            ]
     L.append("## Checks\n")
     L.append("- Problems: " + ("; ".join(problems) if problems else "none") + ".")
-    L.append("- Counties outside Arizona not fully assigned: " + (", ".join(
+    L.append("- Our timeline's counties not fully assigned: " + (", ".join(
         f"{k.split(';')[1]} ({k.split(';')[0]}, {used.get(k, 0):.0%})" for k in sorted(todo)) or "none") + ".")
     (HERE / "outputs" / "map_1887.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print("\n".join(L))

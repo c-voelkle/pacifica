@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 3, 16 November 2026. Decisions I-1 to I-35 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 3, 16 November 2026. Decisions I-1 to I-36 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -44,6 +44,7 @@
 | I-33 | Oregon's and Columbia's counties as drawn, with I-24 and I-25 applied. | as I-21 |
 | I-34 | **The mining districts on the Utes' Slope are county ground held on lease from the Utes** through the Realm, the rent paid to the nation; the valleys between them are not in the counties. | Author, 16 Nov, 16:06 |
 | I-35 | **The spare county is held until Arizona is drawn.** | Author, 16 Nov, 16:06 |
+| I-36 | **Walker stays a county; Gallatin, Madison and Beaverhead are one county, Three Forks,** seat Bozeman, with the court at Dillon. Two counties are spare for Arizona. | Author, 16 Nov, 16:08 ("Agreed on all counts") |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -269,9 +270,9 @@ Fourteen and thirteen counties, from our timeline's twenty-nine and thirty-three
 - **Asian settlement (I-5).** Columbia about 93,000 and Oregon about 66,000 people of Asian origin. PROPOSED: the largest shares in Chinook (the canneries; our timeline's Astoria was about a third Chinese in 1880, to verify), Tacoma, Seattle and Yakima; the Willamette counties the smallest, where the exclusion men of 1866 sit (G-6).
 - **Weak point.** Rogue reaches over the Cascades to the Klamath and Lake basins, more than a day from Jacksonville; most of that basin is the Klamath's country (I-26).
 
-### Idaho, western Montana, Washoe and the Rockies (draft 1, PROPOSED)
+### Idaho, western Montana, Washoe and the Rockies — the Rockies' leases and Three Forks APPROVED (I-34, I-36); the rest PROPOSED
 
-Twenty counties. Idaho's ground needs five, not six, after Bear River, Palouse and Malheur took its edges; western Montana needs five, not four. People are our timeline's 1887 estimate times the unit's multiple, in thousands (MODEL).
+Nineteen counties. Idaho's ground needs five, not six, after Bear River, Palouse and Malheur took its edges; western Montana has its four. People are our timeline's 1887 estimate times the unit's multiple, in thousands (MODEL).
 
 | County | Seat | Made of (our timeline's counties) | People |
 |---|---|---|---|
@@ -283,8 +284,7 @@ Twenty counties. Idaho's ground needs five, not six, after Bear River, Palouse a
 | **Silver Bow** | Butte | Silver Bow, Deer Lodge | 42 |
 | **Helena** | Helena | Lewis and Clark, Jefferson, Meagher west of the Belts | 30 |
 | **Missoula** | Missoula | Missoula (unchanged) | 13 |
-| **Beaverhead** | Dillon | Beaverhead, Madison | 12 |
-| **Gallatin** | Bozeman | Gallatin (unchanged; I-3) | 8 |
+| **Three Forks** | Bozeman | Gallatin, Madison, Beaverhead (I-36) | 20 |
 | **Carson** | Carson City | Storey, Lyon, Ormsby, Douglas | 29 |
 | **Elko** | Elko | Humboldt, Elko, northern Lander | 14 |
 | **Eureka** | Eureka | Eureka, White Pine, southern Lander | 11 |
@@ -303,13 +303,38 @@ Twenty counties. Idaho's ground needs five, not six, after Bear River, Palouse a
 - **Across the old lines:** San Juan (Colorado and Utah), and earlier Bear River, Palouse and Malheur out of Idaho. No county encloses Idaho, western Montana or Washoe whole.
 - **Asian settlement (I-5).** PROPOSED: the largest shares in Boise and Wood River (our timeline's Boise Basin was largely Chinese in 1870, to verify; the Snake plain's irrigation districts are the interior's likeliest Asian-majority ground), in Carson and Elko (the Comstock and the railway towns) and in Silver Bow.
 - **Homelands (I-26).** Large, PROPOSED: the Utes' Slope and Parks; the Nez Perce country; Fort Hall. Enclaves, PROPOSED: the Flathead and the Bitterroot Salish in Missoula, the Coeur d'Alene, Lemhi, Duck Valley, Pyramid Lake and Walker River. The Western Shoshone's Ruby Valley treaty (1863, the Union's, assumed under CR-060 N1) is OPEN.
-- **Weak points.** Walker (6,000) and Gallatin (8,000) are small and are counties because of distance. Salmon has no railway.
+- **Weak points.** Walker (6,000) is small and is a county for its distances and for the gold of Tonopah and Goldfield to come (I-36). Dillon is a long day from Bozeman by rail. Salmon has no railway.
 
-**The count so far:** 109 drawn; Arizona's six, Baja's two, Hawaii's five and Thalassia make 123; **one county is spare.**
+### Arizona and Baja (draft 1, PROPOSED)
 
-**For the author:** Walker and Gallatin (the assistant's suggestion of 16 November: keep Walker; join Gallatin with Beaverhead as one county of the Missouri's three forks, seat Bozeman, and free a county).
+Arizona takes eight counties, its six and the two spare (I-35, I-36); Baja two (I-2). People are our timeline's 1887 estimate times 2.0, in thousands; Baja's 70,000 are divided by the assistant's guess (MODEL).
 
-*(Next: Arizona and Baja; Hawaii and Thalassia.)*
+| County | Seat | Made of (our timeline's counties) | People | County language |
+|---|---|---|---|---|
+| **Pima** | Tucson | Pima (unchanged) | 26 | Spanish and English |
+| **Salt River** | Phoenix | Maricopa, Pinal | 25 | English |
+| **Gila** | Safford | Graham, Gila | 13 | English |
+| **San Pedro** | Tombstone | Cochise | 12 | English |
+| **Little Colorado** | Holbrook | Apache; New Mexico's Gallup strip | 10 | English |
+| **Yavapai** | Prescott | Yavapai's south | 10 | English |
+| **Coconino** | Flagstaff | Yavapai's north; Mohave along the railway | 6 | English |
+| **Yuma** | Yuma | Yuma (unchanged) | 5 | English |
+| **La Paz** | La Paz | Baja's south, with Santa Rosalía's copper | 55 | Spanish and English |
+| **Ensenada** | Ensenada | Baja's north | 15 | Spanish and English |
+
+- **The railway counties.** Little Colorado and Coconino are the thirty-fifth-parallel line (I-16) from Gallup to the Colorado, south of the Diné country (I-18); Flagstaff, in Coconino, stands at the Peaks' southern foot (I-19). Little Colorado crosses the old New Mexico line.
+- **San Pedro, not Cochise.** Our timeline named the county for Cochise in 1881. Here he made the peace of 1865 (§15), the Dragoon and Chiricahua mountains are his people's country, and Tombstone's silver (found 1877, Hist.) lies in or beside it: PROPOSED, worked on lease like the Utes' mining districts (I-34).
+- **Salt River** is the settlement programme's irrigation county, and with Yuma the likeliest in Arizona to have an Asian majority or near it (I-5); the Saints' settlements at Mesa are inside it.
+- **Language (rule 4).** Tucson's county and both of Baja's receive Spanish beside English. Baja is not part of California's historic land: its Spanish is a county grant, not an entrenchment.
+- **Homelands (I-26).** Large, PROPOSED: the Diné country (above), the Tohono O'odham's desert, the Apache country of the White Mountains and San Carlos, the Chiricahua's. Enclaves, PROPOSED: the Hopi (their own, inside the Diné country), the Pima and Maricopa on the Gila, the Quechan at Yuma, the Mohave and Chemehuevi on the Colorado, the Hualapai and Havasupai. Baja's peoples (Kumeyaay, Paipai, Cochimí, Cucapá) are OPEN.
+- **OPEN:** how Baja has been governed since the purchase of 1867 (§16 gives the purchase and nothing more), and so what its two counties replace; whether the Colorado's delta goes with Yuma or with Ensenada.
+- **Weak points.** Yuma (5,000) and Coconino (6,000) are small; both are counties for distance. Baja's split of people is a guess.
+
+**The count:** 118 drawn. Hawaii's five and Thalassia make 124, with no county spare.
+
+**For the author:** San Pedro and the Chiricahua lease; Spanish for Pima and Baja; Baja before 1887.
+
+*(Next: Hawaii and Thalassia.)*
 
 ## Fact changes
 

@@ -47,9 +47,11 @@ independence: self-review only (the consistency check of 16 November was done in
 - **Approved (author, 16 November, 15:57, "I approve all thirteen"):** I-21 to I-33 in Part I: California's people moved off the historical shares, Mojave, California's names; renaming only where the map forces it; Snohomish into Skagit; the test for large homelands; the Snake railway; the multiples as working figures; Springer; Pecos English; the Jicarilla; a seventh homeland seat for Alaska's nations; Oregon and Columbia.
 - **Idaho, western Montana, Washoe and the Rockies drawn (draft 1, PROPOSED):** twenty counties; 109 of 124 drawn; one county spare.
 - **Approved (author, 16 November, 16:06):** the Slope's mining districts as county ground leased from the Utes (I-34); the spare county held until Arizona is drawn (I-35).
-- **Waiting for the author:** Walker and Gallatin (suggested: keep Walker; one Three Forks county from Gallatin, Madison and Beaverhead).
+- **Approved (author, 16 November, 16:08):** Walker kept; Three Forks (I-36).
+- **Arizona (eight) and Baja (two) drawn (draft 1, PROPOSED):** 118 of 124; Hawaii's five and Thalassia remain, no spare.
+- **Waiting for the author:** San Pedro and the Chiricahua lease; Spanish for Pima and Baja; how Baja was governed 1867-87.
 - **Owed:** sources for Salt Lake City's share of its valley and for the Diné population of 1887.
-- **Next:** Arizona and Baja; Hawaii and Thalassia. Maps can be drawn from the atlas's topology (`localgeohistoryproject/county-boundaries-topology`, CC0). Then G3 recounted, the outline's I and CT3/CT5 updated, and the programme written into Part C and costed.
+- **Next:** Hawaii and Thalassia. Maps can be drawn from the atlas's topology (`localgeohistoryproject/county-boundaries-topology`, CC0). Then G3 recounted, the outline's I and CT3/CT5 updated, and the programme written into Part C and costed.
 - **Corrected in this session:** Thalassia is on Kāneʻohe Bay, not in California; the allocation tables now count it apart.
 - Then Parts A, B, C and J; storyline text, fact changes, ledger (Japan's loan of 1873; the seven charter entries, F–G section T5), registry lines, model rows; a fresh-context review; integration in the K-1 order. CR-057 is now on `main` (PR #73), so CR-073 and CR-072 integrate on `main` as it stands.
 - Still open in CR-071: D decision 9 ("ready for approval"), the Guard's commander and Wilcox's later life (H4), CT4's Columbia and Washoe rows in the outline.

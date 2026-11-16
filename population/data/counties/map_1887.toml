@@ -616,15 +616,12 @@ seat = "Missoula"
 unit = "Western Montana"
 parts = {"MT;Missoula" = 1}
 [[county]]
-name = "Gallatin"
+name = "Three Forks"
 seat = "Bozeman"
 unit = "Western Montana"
-parts = {"MT;Gallatin" = 1}
-[[county]]
-name = "Beaverhead"
-seat = "Dillon"
-unit = "Western Montana"
-parts = {"MT;Beaverhead" = 1, "MT;Madison" = 1}
+status = "approved"
+parts = {"MT;Gallatin" = 1, "MT;Madison" = 1, "MT;Beaverhead" = 1}
+note = "the three rivers that make the Missouri (I-36); Dillon has the court"
 [[county]]
 name = "Carson"
 seat = "Carson City"
@@ -682,3 +679,65 @@ seat = "Durango"
 unit = "The Rockies"
 adjust = 6
 parts = {"CO;San Juan" = 1, "CO;Ouray" = 1, "CO;San Miguel" = 1, "CO;Dolores" = 1, "CO;La Plata" = 1, "CO;Archuleta" = 1, "UT;San Juan" = 1}
+
+# ---------------- Arizona and Baja (proposed, draft 1) ----------------
+[[county]]
+name = "Little Colorado"
+seat = "Holbrook"
+unit = "Arizona"
+parts = {"AZ;Apache" = 1, "NM;Bernalillo" = 0.07}
+note = "the thirty-fifth-parallel line south of the Diné country, with Gallup and its coal (I-18)"
+[[county]]
+name = "Coconino"
+seat = "Flagstaff"
+unit = "Arizona"
+parts = {"AZ;Yavapai" = 0.3, "AZ;Mohave" = 0.8}
+note = "the line from the Peaks' southern foot to the Colorado at Needles"
+[[county]]
+name = "Yavapai"
+seat = "Prescott"
+unit = "Arizona"
+parts = {"AZ;Yavapai" = 0.7}
+[[county]]
+name = "Salt River"
+seat = "Phoenix"
+unit = "Arizona"
+parts = {"AZ;Maricopa" = 1, "AZ;Pinal" = 1}
+[[county]]
+name = "Pima"
+seat = "Tucson"
+unit = "Arizona"
+language = "Spanish and English"
+parts = {"AZ;Pima" = 1}
+[[county]]
+name = "San Pedro"
+seat = "Tombstone"
+unit = "Arizona"
+parts = {"AZ;Cochise" = 1}
+note = "our timeline's Cochise County; the silver lies in the Chiricahua's country and is leased (I-34's pattern)"
+[[county]]
+name = "Gila"
+seat = "Safford"
+unit = "Arizona"
+parts = {"AZ;Graham" = 1, "AZ;Gila" = 1}
+[[county]]
+name = "Yuma"
+seat = "Yuma"
+unit = "Arizona"
+parts = {"AZ;Yuma" = 1}
+[[county]]
+name = "Ensenada"
+seat = "Ensenada"
+unit = "Baja"
+language = "Spanish and English"
+people = 15
+parts = {}
+note = "the peninsula's north; our timeline's Distrito Norte"
+[[county]]
+name = "La Paz"
+seat = "La Paz"
+unit = "Baja"
+language = "Spanish and English"
+people = 55
+parts = {}
+note = "the south, with the copper of Santa Rosalía"
