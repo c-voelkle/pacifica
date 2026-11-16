@@ -105,6 +105,8 @@ Drafted in Part G.
 
 ## H. Who resisted, and how each was bested
 
+Drafted in Part H (`CR-071-H-resistance.md`, draft 1, all PROPOSED). The table below is the outline's first sketch; Part H's table supersedes it.
+
 One row each: who, what they stood to lose, what they did, how it ended, what it cost Elias.
 
 | Opponent | Stake | Likely means of besting |
