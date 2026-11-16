@@ -30,7 +30,8 @@ import matplotlib.pyplot as plt
 import shapefile
 from matplotlib.patches import PathPatch
 from matplotlib.path import Path as MPath
-from shapely.geometry import LineString, Polygon, box, shape  # noqa: F401
+from shapely.geometry import LineString, Point, Polygon, box, shape
+from shapely.ops import nearest_points
 from shapely.ops import polygonize, unary_union
 import numpy as np
 import shapely
@@ -55,6 +56,8 @@ CUTS = {
     "AZ;Yavapai": [("Coconino", -114.0, 35.0, -110.6, 37.1)],
 }
 # the homelands' sketched lines and the enclaves' places: data/counties/homelands_1887.toml
+# where a county's detached remainder should go when the longest shared line is a mountain crest
+PREFER = {"Spokane": "Big Bend"}
 UNIT_COLOUR = {"California": "#f3d9a4", "Oregon": "#b9d8b0", "Columbia": "#a9cfe0", "Deseret": "#e6c3d6",
                "New Mexico": "#f2b8a0", "Idaho": "#d5d0ea", "Arizona": "#f6e39a", "Washoe": "#d9d9c3",
                "The Rockies": "#c9b79c", "Hawaii": "#b6e0d4", "Western Montana": "#c7dcef", "Baja": "#f0cfa0",
@@ -105,6 +108,22 @@ def load_geometry(topo: Path, wanted: dict[str, str], extra_ids: dict[str, str])
         inner = unary_union(list(polygonize([l for e in v["inner"] for l in lines.get(e, [])]))) if v["inner"] else None
         geom[k] = outer.difference(inner) if inner is not None and not inner.is_empty else outer
     return geom
+
+
+def colville(data: Path):
+    """The ground between the Columbia and the Okanogan south of 49 N, from river centre lines."""
+    riv = json.load(open(data / "rivers_colville.geojson"))
+    lines = [shape(f["geometry"]) for f in riv["features"]]
+    lines.append(LineString([(-120.2, 49.0), (-117.0, 49.0)]))
+    col = unary_union([l for l, f in zip(lines, riv["features"]) if f["properties"]["name"] == "Columbia"])
+    for l, f in zip(list(lines), riv["features"]):  # close the gap at the Okanogan's mouth
+        if f["properties"]["name"] == "Okanogan":
+            end = Point(l.coords[-1])
+            lines.append(LineString([end, nearest_points(end, col)[1]]))
+    net = unary_union([l.buffer(0.004) for l in lines]).boundary
+    net = unary_union(lines + [net])
+    faces = [f for f in polygonize(net) if f.area > 0.05 and f.representative_point().within(box(-119.55, 48.0, -118.1, 49.0))]
+    return unary_union(faces).buffer(0.006).intersection(box(-121.0, 47.0, -117.0, 49.0))
 
 
 def draw_poly(ax, g, **kw):
@@ -161,6 +180,55 @@ def main():
     new["Ensenada"] = [baja["Baja California"]]
     new["La Paz"] = [baja["Baja California Sur"]]
     merged = {n: unary_union(gs).buffer(0) for n, gs in new.items()}
+    hl = tomllib.load(open(DATA / "homelands_1887.toml", "rb"))
+    homes = {}
+    for h in hl["large"]:
+        g = Polygon(h["ring"]) if "ring" in h else None
+        if h.get("rivers"):  # Colville: between the Columbia and the Okanogan, south of 49 N
+            g = colville(DATA)
+        if "counties" in h:
+            cg = unary_union([geom[k] for k in h["counties"]])
+            if "box" in h:
+                cg = cg.intersection(box(*h["box"]))
+            g = cg if g is None else g.intersection(cg)
+        homes[h["name"]] = g.buffer(0)
+    report = []
+    KM = 1 / 111.0  # degrees, roughly
+    all_homes = unary_union(list(homes.values()))
+    skip = {c["name"] for c in counties if c["unit"] in ("Hawaii", "Thalassia", "Baja")}
+    for n in list(merged):
+        if n in skip or not merged[n].intersects(all_homes):
+            continue
+        rest = merged[n].difference(all_homes)
+        opened = rest.buffer(-6 * KM).buffer(6 * KM).intersection(rest)  # drop spikes and slivers under about 12 km
+        slivers = rest.difference(opened)
+        for h in homes:  # slivers touching a homeland go to it
+            near = [q for q in getattr(slivers, "geoms", [slivers]) if not q.is_empty and q.intersects(homes[h].buffer(2 * KM))]
+            if near:
+                homes[h] = unary_union([homes[h]] + near).buffer(0)
+        pieces = sorted([q for q in getattr(opened, "geoms", [opened]) if q.geom_type == "Polygon"], key=lambda q: -q.area)
+        merged[n] = pieces[0]
+        for pc in pieces[1:]:
+            sqmi = pc.area * 69.0 * 69.0 * math.cos(math.radians(pc.centroid.y))
+            best, blen = None, 0.0
+            for m2, g2 in merged.items():
+                if m2 == n or m2 in skip:
+                    continue
+                shared = pc.buffer(1.5 * KM).intersection(g2).area
+                if shared > blen:
+                    best, blen = m2, shared
+            near_home = max(homes, key=lambda h: pc.buffer(1.5 * KM).intersection(homes[h]).area)
+            best = PREFER.get(n, best)
+            if sqmi < 500 and pc.buffer(1.5 * KM).intersects(homes[near_home]):
+                homes[near_home] = unary_union([homes[near_home], pc]).buffer(0)
+                report.append(f"{n}: a detached {sqmi:,.0f} sq mi goes to the {near_home} homeland")
+            elif best:
+                merged[best] = unary_union([merged[best], pc]).buffer(0)
+                report.append(f"{n}: a detached {sqmi:,.0f} sq mi goes to {best}")
+            else:
+                merged[n] = unary_union([merged[n], pc])
+                report.append(f"{n}: a detached {sqmi:,.0f} sq mi stays with it (no neighbour)")
+    areas = {h: g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y)) for h, g in homes.items()}
     missing = [c["name"] for c in counties if c["name"] not in merged or merged[c["name"]].is_empty]
     # ground of Pacifican states in no county: the Utes' Slope, the Wallowa
     assigned = set(owner)
@@ -189,7 +257,9 @@ def main():
     for g in union_side:
         draw_poly(ax, P(g), facecolor="#f4f4f4", edgecolor="#dddddd", linewidth=0.3)
     for g in outside:
-        draw_poly(ax, P(g), facecolor="#ffffff", edgecolor="#999999", linewidth=0.4, hatch="////")
+        left = g.difference(unary_union(list(homes.values())).buffer(3 * KM))
+        if not left.is_empty:
+            draw_poly(ax, P(left), facecolor="#ffffff", edgecolor="#999999", linewidth=0.4, hatch="////")
     for k, g in geom.items():  # our timeline's county lines, faint
         if k in assigned:
             draw_poly(ax, P(g), facecolor="none", edgecolor="#b0b0b0", linewidth=0.25, linestyle=":")
@@ -208,15 +278,17 @@ def main():
         fs = max(4.2, min(7.5, 3.6 + 95 * math.sqrt(big.area)))
         ax.text(pt.x, pt.y, n.replace(" ", "\n") if len(n) > 9 else n, ha="center", va="center", fontsize=fs,
                 color="#111111", linespacing=0.9)
-    hl = tomllib.load(open(DATA / "homelands_1887.toml", "rb"))
-    for h in hl["large"] + hl["inner"]:
+    for name, hg in homes.items():
+        g = P(hg)
+        draw_poly(ax, g, facecolor="#fdf1e7", edgecolor="#7a3b12", linewidth=1.3)
+        pt = max(getattr(g, "geoms", [g]), key=lambda q: q.area).representative_point()
+        ax.text(pt.x, pt.y, name.replace(" ", "\n", 1) if len(name) > 9 else name, ha="center", va="center",
+                fontsize=6.4, style="italic", color="#7a3b12", weight="bold", linespacing=0.9)
+    for h in hl["inner"]:
         g = P(Polygon(h["ring"]))
-        inner = h in hl["inner"]
-        draw_poly(ax, g, facecolor="#fdf1e7" if not inner else "#f6d9c2", edgecolor="#7a3b12", linewidth=1.3,
-                  alpha=0.82, linestyle="-" if not inner else "--")
+        draw_poly(ax, g, facecolor="#f6d9c2", edgecolor="#7a3b12", linewidth=1.1, linestyle="--")
         pt = g.representative_point()
-        ax.text(pt.x, pt.y, h["name"].replace(" ", "\n", 1) if len(h["name"]) > 9 else h["name"], ha="center", va="center",
-                fontsize=6.4 if not inner else 5.6, style="italic", color="#7a3b12", weight="bold", linespacing=0.9)
+        ax.text(pt.x, pt.y, h["name"], ha="center", va="center", fontsize=5.8, style="italic", color="#7a3b12", weight="bold")
     for group, fs in (("california", 4.4), ("elsewhere", 4.6)):
         for name, lo, la in hl["enclaves"][group]:
             x, y = albers(lo, la)
@@ -253,17 +325,26 @@ def main():
     inset([0.66, 0.13, 0.20, 0.19], main_names, "The Wasatch Front", (-113.3, 39.9, -110.8, 42.3), fs=7)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 6 (16 November 2026). Colours: the old members and territories the counties replace. "
-             "Dotted grey: our timeline's county lines of 1887. Hatched: ground in no county.\n"
-             "Brown outlines: large homelands, outside the 124. Brown squares: homelands that are enclaves inside a county "
-             "(California's eighteen are the treaties of 1851-52, placed by river). Dashed: the Hopi, inside the Diné country.\n"
-             "Every homeland line is a first sketch for discussion, not a surveyed boundary. Not shown: Alaska. MODEL and PROPOSED.",
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 7 (16 November 2026). Colours: the old members and territories the counties replace. "
+             "Dotted grey: our timeline's county lines of 1887.\n"
+             "Brown outlines: the large homelands, outside the 124, on the lines of Royce's Indian Land Cessions where our timeline has a text "
+             "(placed from the text within a few miles). Dashed: the Hopi.\n"
+             "Brown squares: homelands that are enclaves inside a county, not yet outlined. Not shown: Alaska. MODEL and PROPOSED.",
              fontsize=9.5, va="top")
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#333333") for c in UNIT_COLOUR.values()]
     fig.legend(handles, list(UNIT_COLOUR), loc="lower right", bbox_to_anchor=(0.985, 0.03), fontsize=9, ncol=2,
                title="Old unit", frameon=True)
     out = HERE / "outputs" / "map_1887.png"
     fig.savefig(out)
+    with open(HERE / "outputs" / "homelands_1887.md", "w", encoding="utf-8") as f:
+        f.write("# The large homelands as drawn (MODEL)\n\nBuilt by `population/draw_map_1887.py` from "
+                "`data/counties/homelands_1887.toml`.\n\n| Homeland | Square miles as drawn | Royce |\n|---|---|---|\n")
+        for h in hl["large"]:
+            f.write(f"| {h['name']} | {areas[h['name']]:,.0f} | {h['royce']} |\n")
+        f.write(f"| **Total** | {sum(areas.values()):,.0f} | |\n\n## Counties adjusted to the homelands' lines\n\n")
+        f.write("\n".join(f"- {r}" for r in report) + "\n")
+    print("\n".join(report))
+    print({h: round(a) for h, a in areas.items()})
     print("wrote", out, "| counties with no shape:", missing or "none", "| drawn:", len([n for n in merged if not merged[n].is_empty]))
 
 

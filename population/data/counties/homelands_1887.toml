@@ -1,58 +1,75 @@
-# The homelands of 1887 (CR-071 Part I, I4): a first suggestion of their lines, for the author.
-# Every ring is a SKETCH in longitude/latitude drawn by the assistant from the treaty or order named in
-# `basis`, from memory of those texts; none has been read from Royce's Indian Land Cessions (1899) or its
-# digitized maps yet. PROPOSED throughout. `kind`: large = a unit outside the 124 (I-8, I-26); enclave =
-# inside a county's lines, beyond its board's reach.
+# The homelands of 1887 (CR-071 Part I, I4a): their lines.
+# Draft 2, 16 November 2026: the large homelands follow the boundary texts in Royce, Indian Land Cessions in the
+# United States (18th Annual Report of the Bureau of American Ethnology, 1899; the author's copy), read in this
+# session, where our timeline has such a text; `royce` gives the entry. A ring is longitude/latitude, placed from
+# the text's parallels, meridians, rivers and named points; where the text follows a crest or a creek the ring is
+# within a few miles, not surveyed. `counties` (+ `box`): the homeland is that part of our timeline's counties of
+# 1887, so its edge is a county line. `kind`: large = a unit outside the 124 (I-8, I-26); enclave = inside a county.
+# PROPOSED until the author approves each.
 
 [[large]]
 name = "Diné country"
-basis = "Navajo homeland treaty of 1865 (canon); lines I-18, I-19"
-ring = [[-111.75, 35.45], [-111.2, 36.9], [-109.0, 37.1], [-108.0, 36.85], [-107.45, 35.45], [-107.9, 35.65], [-109.0, 35.75], [-110.6, 35.3], [-111.5, 35.3]]
+basis = "Navajo homeland treaty of 1865 (canon); I-18, I-19"
+royce = "none: canon's own treaty. North: the San Juan and the Colorado; west: the Colorado and the Little Colorado to the Peaks; south: north of the thirty-fifth-parallel railway; east: the Chaco country to Mount Taylor"
+ring = [[-111.68, 35.36], [-111.62, 36.0], [-111.6, 36.87], [-110.9, 37.18], [-110.2, 37.2], [-109.6, 37.25], [-109.05, 37.2], [-108.6, 36.85], [-108.2, 36.72], [-107.75, 36.15], [-107.55, 35.3], [-107.75, 35.25], [-107.9, 35.6], [-109.05, 35.62], [-110.7, 35.3], [-111.55, 35.3]]
 [[large]]
 name = "Utes' Slope and Parks"
-basis = "Ute agreement of 1866 (canon); our timeline's treaty of 1868: west of 107° W, with North and Middle Park added"
-ring = [[-109.05, 37.0], [-109.05, 40.25], [-107.0, 40.25], [-106.9, 41.0], [-105.95, 41.0], [-105.75, 39.95], [-106.55, 39.6], [-107.0, 39.6], [-107.0, 37.0]]
+basis = "Ute agreement of 1866 (canon, CR-060 R4)"
+royce = "treaty of 2 March 1868: west of 107 W, from Colorado's south line to 15 miles north of 40 N. Drawn as our timeline's six counties of 1887 on that ground that are in no county of the 124, so the mining counties held on lease (I-34) stay whole"
+counties = ["CO;Mesa", "CO;Delta", "CO;Montrose", "CO;Garfield", "CO;Routt", "CO;Grand"]
 [[large]]
 name = "Nez Perce country"
-basis = "Stevens's treaty of 1855, with the Wallowa; not the reduction of 1863"
-ring = [[-117.8, 46.55], [-116.0, 46.75], [-114.9, 46.5], [-114.6, 45.8], [-115.6, 45.3], [-116.8, 45.0], [-117.6, 45.2], [-117.95, 45.6], [-117.5, 46.1]]
+basis = "Stevens's treaty of 11 June 1855, with the Wallowa; the cession of 1863 is not made"
+royce = "treaty of 11 June 1855, the reserve: from the south fork of the Palouse to the Snake 10 miles below the Alpowa, the Alpowa's source, the crest of the Blue Mountains, the Grande Ronde, the divide of the Wallowa and the Powder, the Snake 15 miles below the Powder, the Salmon, and the spurs of the Bitterroots"
+ring = [[-116.3, 46.9], [-117.2, 46.75], [-117.3, 46.42], [-117.55, 46.2], [-117.9, 45.9], [-117.75, 45.6], [-117.3, 45.1], [-116.85, 44.95], [-116.3, 45.5], [-115.5, 45.75], [-115.3, 46.3], [-115.7, 46.7]]
 [[large]]
 name = "Yakama"
-basis = "Stevens's treaty of 1855"
-ring = [[-121.45, 46.0], [-121.4, 46.55], [-120.6, 46.6], [-120.3, 46.35], [-120.0, 46.2], [-120.6, 45.95]]
+basis = "Stevens's treaty of 9 June 1855"
+royce = "treaty of 9 June 1855, the reserve: up the Ahtanum from the Yakima to the Cascades, along the main ridge past Mount Adams, the divides of the Klickitat, Pisco and Satus, to the Yakima at the Satus, up the Yakima"
+ring = [[-120.47, 46.53], [-121.3, 46.5], [-121.42, 46.25], [-121.2, 46.0], [-120.6, 45.97], [-120.2, 46.05], [-120.05, 46.25], [-120.3, 46.42]]
 [[large]]
 name = "Colville"
-basis = "our timeline's executive order of 1872: between the Columbia and the Okanogan"
-ring = [[-119.7, 49.0], [-118.0, 49.0], [-118.15, 48.3], [-118.5, 47.9], [-119.5, 48.1], [-119.7, 48.5]]
+basis = "Pacifica's own compact, to be dated"
+royce = "executive order of 2 July 1872: bounded east and south by the Columbia, west by the Okanogan, north by the British line"
+rivers = true
 [[large]]
 name = "Klamath"
-basis = "our timeline's treaty of 1864"
-ring = [[-121.95, 42.95], [-121.0, 43.0], [-120.8, 42.4], [-121.5, 42.3], [-121.9, 42.45]]
+basis = "Pacifica's own compact (Oregon was under its civil compact in 1864)"
+royce = "treaty of 14 October 1864, the reserve: from the Point of Rocks on Klamath Lake up the shore and Wood River to Fort Klamath, east past the north end of the upper lake to the mountains, along them to the Sprague, and back by the summit to the Point of Rocks"
+ring = [[-121.87, 42.45], [-121.94, 42.58], [-121.98, 42.72], [-121.8, 42.72], [-121.75, 43.0], [-121.2, 43.0], [-121.0, 42.5], [-121.5, 42.3]]
 [[large]]
 name = "Fort Hall"
-basis = "our timeline's Fort Bridger treaty of 1868"
-ring = [[-112.9, 43.3], [-111.9, 43.3], [-111.85, 42.5], [-112.75, 42.45]]
+basis = "Pacifica's own agreement; Washakie's is OPEN in canon"
+royce = "executive order of 14 June 1867: from the Portneuf's mouth 25 miles south to the Bear River divide, 70 miles east along it, about 50 miles north to the Blackfoot, down it to the Snake, down the Snake"
+ring = [[-112.6, 42.95], [-112.6, 42.6], [-111.3, 42.6], [-111.3, 43.3], [-111.9, 43.2], [-112.45, 43.13]]
 [[large]]
 name = "Uinta valley"
-basis = "our timeline's order of 1861; canon's Spanish Fork council of 1865"
-ring = [[-111.0, 40.75], [-109.6, 40.75], [-109.5, 40.0], [-110.9, 39.85]]
+basis = "the Spanish Fork council of 1865 (canon)"
+royce = "executive order of 3 October 1861: the whole valley of the Uinta, on both sides to the crest of the first range of mountains. Drawn as that part of our timeline's Wasatch and Uintah counties"
+counties = ["UT;Wasatch", "UT;Uintah"]
+box = [-110.95, 39.3, -109.78, 41.2]
 [[large]]
 name = "Apache country"
-basis = "our timeline's White Mountain and San Carlos orders of 1871-72; canon's Apache peace of 1865"
-ring = [[-110.95, 33.85], [-110.5, 34.3], [-109.45, 34.25], [-109.5, 33.2], [-110.0, 32.95], [-110.75, 33.1]]
+basis = "the Apache peace of 1865 (canon)"
+royce = "White Mountain reserve, executive order of 9 November 1871, with the San Carlos division of 14 December 1872, as left by the restorations of 1873-77 (the Gila valley above San Carlos, the Clifton district east of 109 30 W, the Globe district); north of the Clifton district it keeps the order's line on New Mexico's boundary"
+ring = [[-110.72, 33.8], [-110.6, 34.22], [-110.0, 34.15], [-109.5, 33.95], [-109.0, 33.8], [-109.0, 33.45], [-109.5, 33.45], [-109.5, 33.15], [-109.95, 33.15], [-110.0, 32.97], [-110.5, 32.97], [-110.75, 33.25], [-110.8, 33.5]]
 [[large]]
 name = "Chiricahua"
-basis = "our timeline's reservation of 1872; canon's peace of 1865 with Cochise"
-ring = [[-110.02, 32.3], [-109.05, 32.3], [-109.05, 31.33], [-110.0, 31.33]]
+basis = "the peace of 1865 with Cochise (canon)"
+royce = "executive order of 14 December 1872: from Dragoon Springs along the north base of the Chiricahua Mountains to the Peloncillo summit, to New Mexico's line, south to Mexico, west 56 miles, north along the west base of the Dragoons"
+ring = [[-110.03, 32.03], [-109.5, 32.2], [-109.05, 32.3], [-109.05, 31.33], [-110.0, 31.33]]
 [[large]]
 name = "Tohono O'odham"
-basis = "no treaty in our timeline before 1916; the desert they hold"
-ring = [[-113.0, 32.85], [-111.6, 32.75], [-111.3, 32.0], [-111.5, 31.5], [-113.1, 32.05]]
+basis = "Pacifica's own compact, to be dated; no treaty in our timeline"
+royce = "none before 1874 (San Xavier). Drawn as our timeline's Pima County west of the Baboquivari crest, so that Tucson's county is one piece"
+counties = ["AZ;Pima"]
+box = [-113.5, 31.2, -111.6, 32.6]
 
 [[inner]]
 name = "Hopi"
-basis = "HP1-HP7 (I-20); our timeline's box of 1882 as a first size"
-ring = [[-111.0, 35.55], [-110.95, 36.45], [-110.05, 36.5], [-110.0, 35.6]]
+basis = "HP1-HP7 (I-20)"
+royce = "executive order of 16 December 1882: 110 to 111 W, 35 30 to 36 30 N, used as a first size; HP2 asks for a line by named places"
+ring = [[-111.0, 35.5], [-111.0, 36.5], [-110.0, 36.5], [-110.0, 35.5]]
 
 # enclaves: name, lon, lat. California's eighteen are the treaties of 1851-52, placed by river only.
 [enclaves]
