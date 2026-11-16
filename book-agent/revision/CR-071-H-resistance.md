@@ -1,12 +1,14 @@
 # CR-071, Part H — Who resisted, and how each was bested (1879–1888)
 
-**Status:** DRAFT 2, 16 November 2026. H-1 to H-10 APPROVED by the author (11:55), H-9 in the revised wording of H2, and H-8 with its railway assumption. Draft 2 adds the Honolulu rising of 1889 (H4, H-11) and the comparison with Meiji (H5, H-12), both PROPOSED. Details inside approved sections that are not themselves decisions remain PROPOSED. No storyline text is drafted here.
+**Status:** DRAFT 2, 16 November 2026. H-1 to H-10 APPROVED by the author (11:55), H-9 in the revised wording of H2, and H-8 with its railway assumption. Draft 2 adds the Honolulu rising of 1889 (H4, H-11) and the comparison with Meiji (H5, H-12), both APPROVED by the author (12:00). Details inside approved sections that are not themselves decisions remain PROPOSED. No storyline text is drafted here.
 **Belongs to:** `CR-071-outline.md`, Part H. Builds on Parts D, E and F–G (`CR-071-D-meiji.md`, `CR-071-E-preparation.md`, `CR-071-FG-triggers-act.md`), CR-072 (the Party) and CR-073 (Ralston).
 **Canon it builds on (`main`):** §21 ("Grants buy interior legislators … Hawaiian loyalists reject it"); §22 (the Truce; "Portland, Seattle and Salt Lake remain ordinary counties, with the Church steering a coherent Deseret Senate bloc"); §23 (the loyalists court Noe and look to Albert Kūnuiākea); §25 ("County powers, boundaries and grades are organic law, amendable by both chambers without local consent … giving county oligarchies reason to fight through their senators"); the Senate dispute of 1910–1911 and the refusal of 1927, led by Harlan Tate (CR-022, CR-040); §12 (Oregon's vote of 1866, Nesmith, Lane, Deady); §10 (New Mexico's charter, Perea and Chaves); CR-037 E10 (a Hispano or Hawaiian county may be governed mostly by Hispanos or Hawaiians); CR-038 F1 (retirement at 68).
 
 ## Author's decisions
 
 > I approve all of H1 thru H10 including the assumption that the railway's route goes on to Rogue Valley, with the caveat proposed above for H9. Please write up the Honolulu rising as an early test of Regent Victoria and her guard and the comparison with Meiji. (16 November 2026, 11:55)
+
+> H11 and H12 stand. (12:00)
 
 The caveat for H-9 is the rewording proposed the same morning: no one is beaten by force on the day; the state comes closest at Donner, where the reform's armed losers stand, and is spared at Salt Lake by Taylor's death. H2 carries it.
 
@@ -103,11 +105,11 @@ No one is beaten by force on the day. The members have had no armed men of their
 | The Commissioners of 1879 | Appointed Senate seats (K-11) | Nothing: they retire at 68 in the 1890s | — |
 | The Hawaiian loyalists | Nothing in 1887; an acquittal and a promise in 1889–90 (H4) | The seven dead of 30 July 1889 | The campaign against the union in the plebiscite of 1907 (CR-040) |
 
-## H4. The Honolulu rising of 1889: the Regent's first test (H-11, PROPOSED)
+## H4. The Honolulu rising of 1889: the Regent's first test (H-11, APPROVED)
 
 **Hist.** Robert William Wilcox (1855–1903), born on Maui to a Hawaiian mother and an American father, was sent by Kalākaua's government to the military academy at Turin in 1881 and recalled in 1887. On 30 July 1889, with about eighty to a hundred and fifty men, most of them Hawaiian, he occupied the grounds of ʻIolani Palace to force a return to the constitution of 1864, which the Bayonet Constitution of 1887 had replaced. Government rifles, and explosives thrown into the bungalow where the last of them held out, ended it in a day; seven of the rising were killed. A Hawaiian jury acquitted Wilcox of treason in 1890. (Figures to verify.)
 
-**Here (PROPOSED).**
+**Here (H-11 APPROVED; details inside it PROPOSED).**
 - **The grievance.** In May 1887 the appointed Territorial Council ratified, with the Queen's assent, the Constitution that made her Regent (E6). The loyalists reject both. In 1887–88 they courted Noe and looked to Albert Kūnuiākea (§23); Noe dies in the autumn of 1888, and Albert is no leader. The younger men find their own.
 - **The man.** Wilcox goes to Turin in 1881 as historically, on Kalākaua's private arrangement, which the Queen permits and Monterey does not pay for (canon: Kalākaua is her envoy, §17). He comes home in 1887 to find the Council ratifying the kingdom into the Realm.
 - **The day.** On 30 July 1889, the eve of Lā Hoʻihoʻi Ea, the day of the restoration of 1843 and of the Confederation of 1856 (§6), Wilcox's men occupy the grounds of Aliʻiōlani Hale, where the Territorial Council sits, and demand that the Council be dissolved and the kingdom's legislature restored. They rise in the Queen's name, against her Council, as Lunalilo's followers rose in her name in February 1874 (§17).
@@ -117,7 +119,7 @@ No one is beaten by force on the day. The members have had no armed men of their
 - **What it tests.** Whether the Regent is a Hawaiian queen or the Realm's officer: she answers both at once, with her own guard and her own court. The loyalists sing of the seven; the Realm's press notes that no marine landed. Wilcox's later life is OPEN. Historically he died in 1903, four years before the plebiscite of 1907, whose "no" then falls to others.
 - **The Guard's commander** in 1889 is OPEN. Major William Moehonua took the command in 1873 (§17) and historically died in 1877. Samuel Nowlein, historically captain of the royal Household Guard in the 1890s, is a candidate.
 
-## H5. Against Meiji: why the friction is lower, and where it went (H-12, PROPOSED)
+## H5. Against Meiji: why the friction is lower, and where it went (H-12, APPROVED)
 
 **The abolition itself was bloodless in both.** On 29 August 1871 the guard of eight thousand stood ready and no one fought (Part D, D1). On 1 August 1887 the Constitution entered into force and no one fought. The violence in Japan came three to six years later: Saga in 1874, the Shinpūren, Akizuki and Hagi risings in 1876, Satsuma in 1877 (Hist.). It came from the class the reforms ruined, after the commutation of the stipends into bonds and the ban on swords in 1876, and conscription from 1873. Pacifica's after-years have Donner (one death, Caleb's), the shed fire at the summit (Holt) and Honolulu (seven). The comparison is of the aftermaths, and five things explain the difference.
 
@@ -145,8 +147,8 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-8 | Jacksonville loses its seat to Medford in 1887 and keeps the county court (H1.7) | Yes (the railway's route past Jacksonville is a story assumption, H1.7) | **APPROVED** (author, 16 November) |
 | H-9 | No one is beaten by force on the day; the state comes closest at Donner and is spared at Salt Lake by Taylor's death (H2) | Yes, as reworded | **APPROVED** (author, 16 November) |
 | H-10 | The table of H3 as the material of 1910–1911 and 1927 | Yes | **APPROVED** (author, 16 November) |
-| H-11 | The Honolulu rising of 30 July 1889: Wilcox at Aliʻiōlani Hale; the Regent refuses the naval party's marines and the reserve and sends the Queen's Guard; seven killed; Wilcox acquitted by a Hawaiian jury in 1890; the Council to end with the Act that establishes the Crown (H4) | Yes | PROPOSED |
-| H-12 | The comparison with Meiji as the CR's reasoning, not the Chronicler's (H5) | Yes | PROPOSED |
+| H-11 | The Honolulu rising of 30 July 1889: Wilcox at Aliʻiōlani Hale; the Regent refuses the naval party's marines and the reserve and sends the Queen's Guard; seven killed; Wilcox acquitted by a Hawaiian jury in 1890; the Council to end with the Act that establishes the Crown (H4) | Yes | **APPROVED** (author, 16 November) |
+| H-12 | The comparison with Meiji as the CR's reasoning, not the Chronicler's (H5) | Yes | **APPROVED** (author, 16 November) |
 
 ## Canon touchpoints
 
