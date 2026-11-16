@@ -1156,3 +1156,78 @@ LEVERS += [
      "CR-055 R9: units added to existing powerhouses need no new dam and little new line; turbines, generators and the powerhouse "
      "extension (author, 4 Nov 2026). Stress has no second units."),
 ]
+
+
+# =====================================================================================
+# Fifteenth build, 5 November 2026: CR-057 D (MR-09), the river's paying customers in the
+# slump, and CT14 (Tacoma's carbide turns from rubber in 1929). Author, 5 November 2026:
+# "Can you update the energy and financial models accordingly and report back before
+# integrating?" D's customers (author, 16:21): "Electric water and house heating;
+# electrified mountain railways; cold storage; acetylene chemicals and fertilizer after 1928".
+# =====================================================================================
+RUB_STANDBY = 5  # kt a year from 1930: the standby line (lever rub_standby sets it here)
+LEVERS += [
+    ("— Fifteenth build (5 Nov 2026): CR-057 D, the river's customers —",),
+    ("wh_on", "Storage water heaters on the interruptible Northwest tariff (× Paths wh_homes)", 1.0, 0.5, "×", "PROPOSED (CR-057 D), MODEL",
+     "Homes that already cook electrically take a cheap interruptible tariff for a storage heater that fills when the river runs high. "
+     "Stress: half the take-up."),
+    ("wh_kwh", "Electricity per storage water heater a year, beyond the home's 1,700 kWh", 2500, 2500, "kWh", "Model estimate (to verify)",
+     "A 1930s storage heater for a family used about 2,500–4,000 kWh a year (to verify); the Story case's 1,700 kWh a wired home already "
+     "covers cooking and some water heating (CR-052 M1)."),
+    ("wh_fresh", "Share of a storage heater's use in the freshet half of the year", 0.45, 0.45, "share", "Model estimate",
+     "Less hot water is drawn in spring and summer."),
+    ("heat_from", "Capped house heating on the winter surplus: from", 1930, 1930, "year", "PROPOSED (CR-057 D)", "The slump's winter surplus."),
+    ("heat_cap", "Capped house heating: most it may take a year", 300, 300, "GWh", "PROPOSED (CR-057 D), MODEL",
+     "The cap keeps it off firm power; the household's wood or oil stove is kept for the weeks the river is low."),
+    ("spill_fresh", "Share of the Northwest's secondary surplus that comes in the freshet", 0.8, 0.8, "share", "Model estimate (CR-057 D)",
+     "The Columbia runs about four times its low flow in June (to verify) and its run-of-river dams store little (no Grand Coulee): about 80% "
+     "of what the firm load, the line and the mill boilers leave comes in the spring and summer freshet. Applied in every year the new "
+     "interruptible loads run (1929–32)."),
+    ("bld_mj", "Fuel replaced per kWh of storage water heating or house heating", 5.0, 5.0, "MJ/kWh", "Model estimate",
+     "A wood, oil or gas water heater or stove at about 70% efficiency."),
+    ("nwrail_on", "The rest of the Northwest's main lines electrified, 1930–32 (× Paths nwrail_gwh)", 1.0, 0.0, "×", "PROPOSED (CR-057 D; open decision 4)",
+     "D reads 'electrified mountain railways' as the rest of the Northwest's main lines and branches (the mountain divisions were electrified "
+     "in 1914–18). A firm year-round load the slump frees power for; it displaces locomotive oil. Stress keeps the main lines on steam (mainline_on 0)."),
+    ("cold_x", "Cold storage and quick-freezing (× Paths cold_gwh)", 1.0, 1.0, "×", "PROPOSED (CR-057 D), MODEL",
+     "Birdseye's method a few years early: Wenatchee apples and the coast's salmon for Asian and Union markets. Its summer peak matches the freshet."),
+    ("fert_x", "Cyanamide fertilizer at Tacoma (× Paths fert_gwh)", 1.0, 1.0, "×", "PROPOSED (CR-057 D), MODEL",
+     "Calcium cyanamide for the Realm's farms and South China's, Korea's and the Philippine crown's sugar and rice, within the Concord's "
+     "quota in the 1930 nitrogen convention, not the glutted export market."),
+    ("rub_standby", "Tacoma's standby rubber line from 1930 (sets Paths rubber_kt)", RUB_STANDBY, RUB_STANDBY, "kt", "AMENDED (CR-057 CT14), MODEL",
+     "One rubber line stays on standby as the strategic reserve (MR-09); edit RUB_STANDBY in energy_inputs.py and rebuild."),
+]
+_rub_old = dict(PATHS["rubber_kt"][2])
+path("rubber_kt", "Synthetic rubber at Tacoma, carbide–acetylene route (CR-055; CR-057 CT14)", "kt",
+     {1922: 0, 1923: 2, 1925: 10, 1927: 30, 1928: 40, 1929: 25, 1930: RUB_STANDBY, 1932: RUB_STANDBY},
+     "CR-055 R0 against the Stevenson scheme (1922–28). CR-057 CT14 (amended): with the scheme ended (1928) and natural rubber falling, the "
+     "carbide turns from 1929 to acetylene chemicals and cyanamide fertilizer: about 25 kt in 1929 (was 50), a standby line of "
+     f"{RUB_STANDBY} kt from 1930 (was 55–60).", "AMENDED (CR-057 CT14), MODEL")
+_rub_mwh = 3.0 * 3.3 + 2.0  # rub_carb × carbide_mwh + rub_mwh (MWh a tonne)
+_old_rub = {1929: 50, 1930: 50 + 10 / 3, 1931: 50 + 20 / 3, 1932: 60}  # CR-055's path, interpolated
+assert _rub_old.get(1929) == 50 and _rub_old.get(1932) == 60, _rub_old
+_tchem = {y: round((_old_rub[y] - (25 if y == 1929 else RUB_STANDBY)) * _rub_mwh, 1) for y in _old_rub}
+path("tchem_gwh", "Acetylene chemicals at Tacoma on the rubber line's freed power (CR-057)", "GWh",
+     {1928: 0, **_tchem},
+     "CR-057 D: acetic acid, vinyl and welding gas take the carbide furnaces' power that the rubber line no longer uses: the CR-055 rubber path "
+     "less the CT14 path, × 11.9 MWh a tonne of rubber (rub_carb × carbide_mwh + rub_mwh).", "PROPOSED (CR-057 D), MODEL")
+path("fert_gwh", "Cyanamide fertilizer at Tacoma, beyond the rubber plant's power (CR-057)", "GWh",
+     {1928: 0, 1929: 100, 1930: 200, 1931: 300, 1932: 400},
+     "CR-057 D: 'fertilizer adding about 0.2–0.5 TWh'. About 120 kt of carbide for some 150 kt of cyanamide (about 30 kt N) by 1932.",
+     "PROPOSED (CR-057 D), MODEL")
+path("wh_homes", "Northwest homes on the storage-heater tariff (CR-057)", "thousand",
+     {1928: 0, 1929: 100, 1930: 400, 1931: 700, 1932: 1000},
+     "CR-057 D: from 1929, ramping to about 1 million Northwest homes by 1932, about half of the Northwest's wired homes (MODEL).",
+     "PROPOSED (CR-057 D), MODEL")
+path("nwrail_gwh", "The rest of the Northwest's main lines electrified, firm load (CR-057)", "GWh",
+     {1929: 0, 1930: 150, 1931: 350, 1932: 600},
+     "CR-057 D: 0.3–0.8 TWh by 1932, beyond the mountain divisions and the half of main-line traffic already electric (M6).",
+     "PROPOSED (CR-057 D), MODEL")
+path("cold_gwh", "Cold storage and quick-freezing, Wenatchee and the coast (CR-057)", "GWh",
+     {1924: 0, 1926: 10, 1929: 40, 1932: 80},
+     "CR-057 D: about 0.05–0.1 TWh by 1932 (Birdseye 1924–30, a few years early).", "PROPOSED (CR-057 D), MODEL")
+EVENTS += [
+    (1929, "Tacoma's carbide turns from rubber to acetylene chemicals and cyanamide (CR-057 CT14); storage water heaters on an interruptible tariff (CR-057 D)",
+     "Paths (rubber_kt, tchem_gwh, fert_gwh, wh_homes)", "CR-057 D", "PROPOSED"),
+    (1930, "Capped house heating on the winter surplus; the rest of the Northwest's main lines electrified; a standby rubber line (CR-057 D)",
+     "Levers (heat_cap); Paths (nwrail_gwh)", "CR-057 D", "PROPOSED"),
+]

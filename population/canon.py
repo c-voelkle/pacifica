@@ -80,6 +80,18 @@ def read_sheet() -> dict[int, dict]:
                 d = data.setdefault(y, {})
                 for i, k in idx.items():
                     d[k] = float(row[i] or 0.0)
+    # Deseret sheet (16 November 2026): the gathering's converts (inside People E) and the Saints' extra births
+    # (inside People D), so the cohort model can carry them as their own stream.
+    if "Deseret" in wb.sheetnames:
+        ws = wb["Deseret"]
+        for row in ws.iter_rows(min_row=6, values_only=True):
+            if row and isinstance(row[0], (int, float)) and FIRST <= int(row[0]) <= LAST:
+                d = data.setdefault(int(row[0]), {})
+                d["gathering"] = float(row[2] or 0.0)
+                d["saints_births"] = float(row[5] or 0.0)
+    for d in data.values():
+        d.setdefault("gathering", 0.0)
+        d.setdefault("saints_births", 0.0)
     ov = join_override()
     if ov:
         for y, d in data.items():
@@ -90,6 +102,7 @@ def read_sheet() -> dict[int, dict]:
         if row and isinstance(row[1], str):
             names[row[1]] = row[4]
     data["levers"] = {"dep_asia": float(names.get("Return migration, Asian streams", 0.28)),
+                      "dg_ret": float(names.get("Deseret: share of gathered converts who leave again", 0.05)),
                       "family_mult": float(names.get("People per skilled worker admitted (with family)", 2.2))}
     return data
 
@@ -102,7 +115,7 @@ def male_share(stream: str, year: int) -> float:
     return historical.male_share(stream, year, table="migration")
 
 
-STREAMS = ("americas_europe", "chinese", "japanese", "filipino", "extra")
+STREAMS = ("americas_europe", "chinese", "japanese", "filipino", "extra", "deseret")
 
 
 def early_multiplier(y: int, override: float | None = None) -> float:
@@ -132,7 +145,8 @@ def migration_profiles(y: int, d: dict, prev: dict | None, lev: dict,
                  cohort.migrant_profile(net_assisted, 1 - a["assisted_female_share"], a["child_share_family"])]
         prof.setdefault(group, []).extend(parts)
 
-    stream("americas_europe", d["am_eu"], d["return_am_eu"], "white")
+    stream("americas_europe", d["am_eu"] - d["gathering"], d["return_am_eu"], "white")
+    stream("deseret", d["gathering"], lev["dg_ret"], "white")
     stream("chinese", d["chinese"], dep, "chinese")
     stream("japanese", d["japanese"], dep, "japanese")
     stream("filipino", d["filipino"], dep, "filipino")
@@ -349,6 +363,15 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
             births += res["births"]
             deaths += res["deaths"] + killed
             ni_by_group[g] = res["births"] - res["deaths"] - killed
+        # the Saints' extra births (Deseret sheet), as newborns in the white group; the sheet carries them in People D
+        saints = d["saints_births"] if "deseret" in streams else 0.0
+        if saints:
+            F0 = [0.0] * cohort.N
+            M0 = [0.0] * cohort.N
+            F0[0], M0[0] = saints * (1 - 0.512), saints * 0.512
+            pop["white"].add(F0, M0)
+            births += saints
+            ni_by_group["white"] = ni_by_group.get("white", 0.0) + saints
         excess = 0.0
         g = pop["native_californian"]
         target = None
@@ -362,7 +385,8 @@ def run(native_ca_bound: str | None = None, joins: bool = True,
         c = d["ni_rate"]
         for g in GROUPS:
             change = ni_by_group[g] - (excess if g == "native_californian" else 0.0)
-            gap[g] = gap[g] * (1 + c) + c * start[g] - change
+            sheet_extra = d["saints_births"] if g == "white" else 0.0   # the sheet's extra births sit in People D
+            gap[g] = gap[g] * (1 + c) + c * start[g] + sheet_extra - change
         tot = sum(pop[g].total() for g in GROUPS)
         allg = _sum(pop.values())
         row = {"year": y + 1, "model_total": tot, "sheet_total": d["end"],
