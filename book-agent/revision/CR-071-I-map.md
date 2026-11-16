@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-18 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 2, 16 November 2026. Decisions I-1 to I-19 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -27,6 +27,7 @@
 | I-16 | **A railway runs west from Albuquerque along the thirty-fifth parallel by 1887.** | Author, 16 Nov, 15:05; its dates and builder OPEN |
 | I-17 | **New Mexico's county names.** | Author, 16 Nov, 15:05 |
 | I-18 | **The transcontinental route stays Pacifica's; Gallup and the other European settlements stay in the counties.** The Diné country does not take in the thirty-fifth-parallel line or its towns. | Author, 16 Nov, 15:17 |
+| I-19 | **Mount Taylor and the San Francisco Peaks:** summits and northern slopes inside the Diné country, southern feet in the counties; **Hesperus and Blanca Peak** under a mountain article. | Author, 16 Nov, 15:19 ("That works for me") |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -127,12 +128,26 @@ Utah's San Juan goes with the Four Corners (below). County language: English in 
 
 ### New Mexico and the Diné country (draft 1, PROPOSED)
 
-**The Diné country.** The homeland of the treaty of 1865 (§15) is a unit of its own on the map, outside every county (I-8). Its southern line runs north of the thirty-fifth-parallel railway, so the line, Gallup, its coal and the other settlements along it stay in the counties (I-18, APPROVED). PROPOSED for the rest: the San Juan on the north; on the east the Chaco country to Mount Taylor; on the west across the Little Colorado to the San Francisco Peaks. That is on the order of 30,000 square miles, larger than any county of the 124, and it lies across the old New Mexico and Arizona lines, so no county line is drawn through it. About 20,000 people in 1887 (MODEL, to be sourced: no Long Walk in this timeline). It chooses the Diné seat in the Senate (I-11). The Hopi mesas lie inside it under an agreement of their own (OPEN: canon is silent on the Hopi).
+**The Diné country.** The homeland of the treaty of 1865 (§15) is a unit of its own on the map, outside every county (I-8). Its southern line runs north of the thirty-fifth-parallel railway, so the line, Gallup, its coal and the other settlements along it stay in the counties (I-18, APPROVED). PROPOSED for the rest: the San Juan on the north; on the east the Chaco country to Mount Taylor; on the west across the Little Colorado to the San Francisco Peaks. That is on the order of 30,000 square miles, larger than any county of the 124, and it lies across the old New Mexico and Arizona lines, so no county line is drawn through it. About 20,000 people in 1887 (MODEL, to be sourced: no Long Walk in this timeline). It chooses the Diné seat in the Senate (I-11). The Hopi mesas lie inside it as a homeland of their own (terms below).
 
-**The four mountains (PROPOSED; the author asked on 16 November what follows if they lie in Diné country).** The four are the corners of a kite of about 28,000 square miles that fits the Diné's own country badly: it takes in the Chama valley, Conejos and the Utes' and Jicarilla's ground, and leaves out Kayenta and Navajo Mountain. So the homeland is the country the Diné hold, drawn out to the two mountains it can reach:
+**The four mountains (APPROVED, I-19).** The four are the corners of a kite of about 28,000 square miles that fits the Diné's own country badly: it takes in the Chama valley, Conejos and the Utes' and Jicarilla's ground, and leaves out Kayenta and Navajo Mountain. So the homeland is the country the Diné hold, drawn out to the two mountains it can reach:
 - **Mount Taylor and the San Francisco Peaks:** the summits and the northern slopes lie inside the homeland; the southern feet, where the railway, Cubero, Cebolleta and Flagstaff are, stay in the counties (I-18). Both are sacred to other nations as well (Acoma, Laguna and Zuni; the Hopi and the Havasupai), and the compact writes their access in.
 - **Hesperus and Blanca Peak** stand in the Utes' country and above the San Luis Valley. A mountain article withdraws their upper slopes from grant, lease and Land Fund sale and keeps passage open for ceremony; the ground stays where it is.
 - The oil of the San Juan basin, the helium and the uranium of the Carrizo and Monument Valley country lie north of the railway, inside the homeland, to be leased through the Realm with the rent paid to the nation (CR-033; a later CR).
+
+**The Hopi (PROPOSED; the author, 16 November, 15:19: "We should also define what the terms are for the Hopi").** Hist.: each village governed itself under its own kikmongwi; seven Hopi leaders went to Santa Fe in 1850 to ask the agent Calhoun for help against Navajo raids; the Hopi never signed a treaty, and the reservation of 1882 (about 2.47 million acres, a rectangle of longitude and latitude) gave them use, not ownership, left out Moenkopi and was later surrounded by the Navajo reservation. Here:
+
+| # | Term |
+|---|---|
+| HP1 | **Who signs.** Each village signs for itself through its own leaders, on one common text. Pacifica invents no Hopi government. The agreement is made at Santa Fe in 1865, before the Diné's lines are closed, because those lines cannot be drawn round the mesas without asking the people on them. |
+| HP2 | **The land** is the villages' own and is entered in the register as a homeland (CR-033): the three mesas, their fields, springs and grazing, on a line described by named places and not by degrees, with **Moenkopi** as a detached part. It cannot be sold; it can be leased only through the Realm, the rent paid to the villages and the accounts published. On the order of 4,000 square miles; the line itself OPEN. |
+| HP3 | **Between Hopi and Diné.** The line is an article of the Navajo homeland treaty of 1865 as well, signed by both. Diné families living inside it stay only by the village's leave. Disputes over stock, fields and water go to a board of one Hopi, one Diné and a judge of the confederal court; raids and killings go to that court, with Native testimony (CR-060 N1). |
+| HP4 | **Shrines and trails.** The villages keep passage to their shrines, eagle-gathering grounds and salt, across the Diné country and the counties, and to the San Francisco Peaks (I-19). |
+| HP5 | **No agent, no school and no mission is placed on the mesas.** A village may contract with the Realm for a school, a physician or vaccination, each village for itself; one may accept what its neighbour refuses. |
+| HP6 | **Settlers.** No grant or Land Fund sale inside the line. The Saints who farm at Moenkopi by a Hopi leader's invitation hold a lease through the Realm, not a title. |
+| HP7 | **The Senate and the vote.** The villages take part in choosing the seat of the Pueblos and the Apache, not the Diné's (I-11). A Hopi who lives in a county votes where he is registered (I-9). |
+
+OPEN: the line; whether every village signs in 1865 or some hold out; the Hopi leaders' names; what the smallpox and drought of the 1860s do here (to research).
 
 **New Mexico's ten (names APPROVED, I-17; the Pecos county APPROVED, I-15).** People are our timeline's 1887 estimate times 1.3 (the San Luis Valley's two counties times 1.2), in thousands (MODEL).
 
