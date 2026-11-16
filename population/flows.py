@@ -156,7 +156,8 @@ def main() -> int:
         return by["full"][y] - wo[s][y]
 
     labels = {"americas_europe": "Americas & Europe", "chinese": "Chinese", "japanese": "Japanese",
-              "filipino": "Filipino", "extra": "Drawn by Pacifica's lead (skilled + families)"}
+              "filipino": "Filipino", "extra": "Drawn by Pacifica's lead (skilled + families)",
+              "deseret": "Deseret: the gathering after 1887 and the Saints' birth premium"}
 
     with open(OUT / "flows_by_year.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
