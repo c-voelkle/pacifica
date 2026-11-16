@@ -573,47 +573,55 @@ unit = "Columbia"
 status = "approved"
 parts = {"WA;Walla Walla" = 1, "WA;Columbia" = 1, "WA;Garfield" = 1, "WA;Asotin" = 1, "WA;Franklin" = 1}
 
-# ---------------- Idaho, western Montana, Washoe, the Rockies (proposed, draft 1) ----------------
+# ---------------- Idaho, western Montana, Washoe, the Rockies (approved, I-34, I-36, I-45) ----------------
 [[county]]
 name = "Boise"
 seat = "Boise City"
 unit = "Idaho"
+status = "approved"
 parts = {"ID;Ada" = 1, "ID;Boise" = 1, "ID;Owyhee" = 1}
 [[county]]
 name = "Wood River"
 seat = "Shoshone"
 unit = "Idaho"
+status = "approved"
 parts = {"ID;Alturas" = 1, "ID;Cassia" = 1}
 note = "the mines above, the Snake plain's irrigation districts below"
 [[county]]
 name = "Bingham"
 seat = "Blackfoot"
 unit = "Idaho"
+status = "approved"
 parts = {"ID;Bingham" = 1}
 [[county]]
 name = "Salmon"
 seat = "Salmon City"
 unit = "Idaho"
+status = "approved"
 parts = {"ID;Lemhi" = 1, "ID;Custer" = 1, "ID;Idaho" = 1}
 [[county]]
 name = "Coeur d'Alene"
 seat = "Rathdrum"
 unit = "Idaho"
+status = "approved"
 parts = {"ID;Kootenai" = 1, "ID;Shoshone" = 1}
 [[county]]
 name = "Silver Bow"
 seat = "Butte"
 unit = "Western Montana"
+status = "approved"
 parts = {"MT;Silver Bow" = 1, "MT;Deer Lodge" = 1}
 [[county]]
 name = "Helena"
 seat = "Helena"
 unit = "Western Montana"
+status = "approved"
 parts = {"MT;Lewis and Clark" = 1, "MT;Jefferson" = 1, "MT;Meagher" = 1}
 [[county]]
 name = "Missoula"
 seat = "Missoula"
 unit = "Western Montana"
+status = "approved"
 parts = {"MT;Missoula" = 1}
 [[county]]
 name = "Three Forks"
@@ -626,109 +634,128 @@ note = "the three rivers that make the Missouri (I-36); Dillon has the court"
 name = "Carson"
 seat = "Carson City"
 unit = "Washoe"
+status = "approved"
 parts = {"NV;Storey" = 1, "NV;Lyon" = 1, "NV;Ormsby" = 1, "NV;Douglas" = 1}
 note = "the Comstock; the old capitol is its hall"
 [[county]]
 name = "Truckee"
 seat = "Reno"
 unit = "Washoe"
+status = "approved"
 parts = {"NV;Washoe" = 1, "NV;Churchill" = 1}
 note = "our timeline's Washoe County; no county is named for a member"
 [[county]]
 name = "Elko"
 seat = "Elko"
 unit = "Washoe"
+status = "approved"
 parts = {"NV;Humboldt" = 1, "NV;Elko" = 1, "NV;Lander" = 0.4}
 [[county]]
 name = "Eureka"
 seat = "Eureka"
 unit = "Washoe"
+status = "approved"
 parts = {"NV;Eureka" = 1, "NV;White Pine" = 1, "NV;Lander" = 0.6}
 [[county]]
 name = "Walker"
 seat = "Hawthorne"
 unit = "Washoe"
+status = "approved"
 parts = {"NV;Esmeralda" = 1, "NV;Nye" = 1}
 [[county]]
 name = "Clear Creek"
 seat = "Georgetown"
 unit = "The Rockies"
+status = "approved"
 parts = {"CO;Clear Creek" = 1, "CO;Gilpin" = 1, "CO;Boulder" = 1, "CO;Jefferson" = 1, "CO;Larimer" = 1}
 note = "the Front Range districts that voted themselves over in 1878-80"
 [[county]]
 name = "Lake"
 seat = "Leadville"
 unit = "The Rockies"
+status = "approved"
 adjust = 6
 parts = {"CO;Lake" = 1, "CO;Summit" = 1, "CO;Eagle" = 1}
 [[county]]
 name = "Arkansas"
 seat = "Salida"
 unit = "The Rockies"
+status = "approved"
 parts = {"CO;Chaffee" = 1, "CO;Park" = 1, "CO;Custer" = 1, "CO;Fremont" = 1, "CO;Saguache" = 1, "CO;Rio Grande" = 1}
 note = "the upper Arkansas, South Park and, over Poncha Pass, the north of the San Luis Valley"
 [[county]]
 name = "Gunnison"
 seat = "Gunnison"
 unit = "The Rockies"
+status = "approved"
 adjust = 6
 parts = {"CO;Gunnison" = 1, "CO;Pitkin" = 1, "CO;Hinsdale" = 1}
 [[county]]
 name = "San Juan"
 seat = "Durango"
 unit = "The Rockies"
+status = "approved"
 adjust = 6
 parts = {"CO;San Juan" = 1, "CO;Ouray" = 1, "CO;San Miguel" = 1, "CO;Dolores" = 1, "CO;La Plata" = 1, "CO;Archuleta" = 1, "UT;San Juan" = 1}
 
-# ---------------- Arizona and Baja (proposed, draft 1) ----------------
+# ---------------- Arizona and Baja (approved, I-37 to I-40) ----------------
 [[county]]
 name = "Little Colorado"
 seat = "Holbrook"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Apache" = 1, "NM;Bernalillo" = 0.07}
 note = "the thirty-fifth-parallel line south of the Diné country, with Gallup and its coal (I-18)"
 [[county]]
 name = "Coconino"
 seat = "Flagstaff"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Yavapai" = 0.3, "AZ;Mohave" = 0.8}
 note = "the line from the Peaks' southern foot to the Colorado at Needles"
 [[county]]
 name = "Yavapai"
 seat = "Prescott"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Yavapai" = 0.7}
 [[county]]
 name = "Salt River"
 seat = "Phoenix"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Maricopa" = 1, "AZ;Pinal" = 1}
 [[county]]
 name = "Pima"
 seat = "Tucson"
 unit = "Arizona"
+status = "approved"
 language = "Spanish and English"
 parts = {"AZ;Pima" = 1}
 [[county]]
 name = "San Pedro"
 seat = "Tombstone"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Cochise" = 1}
 note = "our timeline's Cochise County; the silver lies in the Chiricahua's country and is leased (I-34's pattern)"
 [[county]]
 name = "Gila"
 seat = "Safford"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Graham" = 1, "AZ;Gila" = 1}
 [[county]]
 name = "Yuma"
 seat = "Yuma"
 unit = "Arizona"
+status = "approved"
 parts = {"AZ;Yuma" = 1}
 [[county]]
 name = "Ensenada"
 seat = "Ensenada"
 unit = "Baja"
+status = "approved"
 language = "Spanish and English"
 people = 15
 parts = {}
@@ -737,18 +764,20 @@ note = "the peninsula's north; our timeline's Distrito Norte"
 name = "La Paz"
 seat = "La Paz"
 unit = "Baja"
+status = "approved"
 language = "Spanish and English"
 people = 55
 parts = {}
 note = "the south, with the copper of Santa Rosalía"
 
-# ---------------- Hawaii and Thalassia (proposed, draft 1) ----------------
+# ---------------- Hawaii and Thalassia (approved, I-41 to I-44) ----------------
 # Hawaii's 128,000 (regions_1887.toml) divided by the Kingdom's island censuses of 1884 and 1890, with the
 # capital and the fleet added to Oahu by the assistant's guess.
 [[county]]
 name = "Oʻahu"
 seat = "Honolulu"
 unit = "Hawaii"
+status = "approved"
 language = "Hawaiian and English"
 people = 42
 parts = {}
@@ -757,6 +786,7 @@ note = "the island less Thalassia; Honolulu, the Hawaiian crown's seat; the flee
 name = "Hilo"
 seat = "Hilo"
 unit = "Hawaii"
+status = "approved"
 language = "Hawaiian and English"
 people = 22
 parts = {}
@@ -765,6 +795,7 @@ note = "windward Hawaiʻi: Hilo, Hāmākua, Puna"
 name = "Kona"
 seat = "Kailua"
 unit = "Hawaii"
+status = "approved"
 language = "Hawaiian and English"
 people = 14
 parts = {}
@@ -773,6 +804,7 @@ note = "leeward Hawaiʻi: Kona, Kohala, Kaʻū"
 name = "Maui"
 seat = "Wailuku"
 unit = "Hawaii"
+status = "approved"
 language = "Hawaiian and English"
 people = 27
 parts = {}
@@ -781,6 +813,7 @@ note = "Maui, Molokaʻi, Lānaʻi and Kahoʻolawe"
 name = "Kauaʻi"
 seat = "Līhuʻe"
 unit = "Hawaii"
+status = "approved"
 language = "Hawaiian and English"
 people = 15
 parts = {}
@@ -789,6 +822,7 @@ note = "Kauaʻi and Niʻihau"
 name = "Thalassia"
 seat = "Thalassia"
 unit = "Thalassia"
+status = "approved"
 language = "Hawaiian and English"
 people = 8
 parts = {}

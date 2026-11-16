@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 4, 16 November 2026: all 124 drawn. Decisions I-1 to I-40 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 5, 16 November 2026: all 124 drawn and approved by the author region by region; map in `population/outputs/map_1887.png`. Decisions I-1 to I-45 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -49,6 +49,11 @@
 | I-38 | **Spanish is a county language** beside English in Pima, La Paz and Ensenada, by grant. | as I-37 |
 | I-39 | **Baja is governed from 1867 to 1887 by a commission on the Alaska model;** its two counties replace it. | as I-37; the commission's name, charter and commissioners OPEN |
 | I-40 | **Arizona's large homelands:** the Tohono O'odham's desert, the White Mountain and San Carlos Apache country and the Chiricahua's, beside the Diné country; the others are enclaves. Arizona's eight counties and Baja's two as drawn. | as I-37 |
+| I-41 | **Hawaii's five counties:** Oʻahu, Maui, Hilo, Kauaʻi, Kona; Hawaiʻi island is two. | Author, 16 Nov, 16:31 ("1-5 are approved") |
+| I-42 | **Thalassia's lines:** the lands round Kāneʻohe Bay, from the Koʻolau's crest to the reef. | as I-41 |
+| I-43 | **Kalaupapa** stays under the Hawaiian crown's Board of Health, outside Maui's board. | as I-41 |
+| I-44 | **A Commissioner posted to a Hawaiian county must pass an examination in Hawaiian.** | as I-41 |
+| I-45 | **The counties of Idaho, Washoe and the Rockies** as drawn. | as I-41 |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -274,7 +279,7 @@ Fourteen and thirteen counties, from our timeline's twenty-nine and thirty-three
 - **Asian settlement (I-5).** Columbia about 93,000 and Oregon about 66,000 people of Asian origin. PROPOSED: the largest shares in Chinook (the canneries; our timeline's Astoria was about a third Chinese in 1880, to verify), Tacoma, Seattle and Yakima; the Willamette counties the smallest, where the exclusion men of 1866 sit (G-6).
 - **Weak point.** Rogue reaches over the Cascades to the Klamath and Lake basins, more than a day from Jacksonville; most of that basin is the Klamath's country (I-26).
 
-### Idaho, western Montana, Washoe and the Rockies — the Rockies' leases and Three Forks APPROVED (I-34, I-36); the rest PROPOSED
+### Idaho, western Montana, Washoe and the Rockies — APPROVED (I-34, I-36, I-45)
 
 Nineteen counties. Idaho's ground needs five, not six, after Bear River, Palouse and Malheur took its edges; western Montana has its four. People are our timeline's 1887 estimate times the unit's multiple, in thousands (MODEL).
 
@@ -336,7 +341,7 @@ Arizona takes eight counties, its six and the two spare (I-35, I-36); Baja two (
 
 **The count:** 118 drawn. Hawaii's five and Thalassia make 124, with no county spare.
 
-### Hawaii and Thalassia (draft 1, PROPOSED)
+### Hawaii and Thalassia — APPROVED (I-41 to I-44)
 
 Hawaii had no counties in our timeline before 1905; the Kingdom had a governor for each island (Hist., to verify: the island governorships). Five counties and the Crown city. People: Hawaii's 128,000 divided by the island censuses of 1884 and 1890, with the capital and the fleet added to Oʻahu by the assistant's guess (MODEL).
 
@@ -350,17 +355,17 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 | **Thalassia** | Thalassia | The Crown city on Kāneʻohe Bay | 8 | Hawaiian and English |
 
 - **Why Hawaiʻi island is two.** Hilo and Kona are a mountain apart, more than a day by land in 1887; the old districts already divide that way.
-- **Thalassia** (K-7; CR-021 B3) has no board and no senator. It stands on the Hawaiian crown's land (§26), and its guard is the Queen's Guard (E6). PROPOSED lines: the lands round Kāneʻohe Bay, from the Koʻolau's crest to the reef.
+- **Thalassia** (K-7; CR-021 B3) has no board and no senator. It stands on the Hawaiian crown's land (§26), and its guard is the Queen's Guard (E6). Its lines (I-42): the lands round Kāneʻohe Bay, from the Koʻolau's crest to the reef.
 - **Puʻuloa.** The fleet's lochs are held on the lease of 1874 (CR-027); the lease, not the county, governs them, and the county's board stops at the reservation's line.
-- **Kalaupapa.** PROPOSED: the settlement on Molokaʻi stays under the Hawaiian crown's Board of Health, outside Maui's board (our timeline made it a county of its own).
+- **Kalaupapa (I-43).** The settlement on Molokaʻi stays under the Hawaiian crown's Board of Health, outside Maui's board (our timeline made it a county of its own).
 - **Language.** Hawaiian is entrenched in the whole historic land (§25), as Spanish is in California.
-- **What the counties replace.** Since 1876 the Territorial Council has had Hawaii's business (E6). In 1887 rotated Commissioners of the examined service come to the islands in place of the Queen's island governors, on commissions the Queen signs as Regent. That is a count in the loyalists' charge (CR-072 P23) and a ground of the Honolulu rising of 1889 (H-11). OPEN: whether a Commissioner posted to a Hawaiian county must pass in Hawaiian.
+- **What the counties replace.** Since 1876 the Territorial Council has had Hawaii's business (E6). In 1887 rotated Commissioners of the examined service come to the islands in place of the Queen's island governors, on commissions the Queen signs as Regent. That is a count in the loyalists' charge (CR-072 P23) and a ground of the Honolulu rising of 1889 (H-11). A Commissioner posted to a Hawaiian county must pass an examination in Hawaiian (I-44).
 - **Asian settlement (I-5).** Hawaii is about 45% of Asian origin. PROPOSED: Kauaʻi, Hilo and Maui, the plantation counties, have Asian majorities or near them in 1887, the first counties of the Realm that do.
 - **The eight aliʻi seats** (CR-021 A) are beside the five county senators, not among them.
 
-**For the author:** Hawaiʻi island as two counties; Thalassia's lines; Kalaupapa; the Hawaiian examination for Commissioners.
-
 ## I6. The map as drawn
+
+**The drawing** is `population/outputs/map_1887.png`, made by `population/draw_map_1887.py` from the Newberry atlas's geometry (CC0; not in this repository). It joins our timeline's counties of 1887 as the list says; where one of them is divided, the cut is a straight line chosen by eye, and the homelands' outlines are sketches. Known approximations: Clear Creek is drawn with the whole of Boulder, Jefferson and Larimer, of which only the mountain districts are Pacifican; the Diné country is sketched over the counties round it.
 
 `population/outputs/map_1887.md` lists all 124 with seats, parts and people; `population/data/counties/map_1887.toml` is the source, and `population/map_1887.py` checks it (124 counties, no name twice, no historical county assigned twice).
 
