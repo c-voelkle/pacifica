@@ -129,7 +129,7 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 | Alaska | none | 5 | **0** |
 | **Total** | 233 on the mainland | 124 | **124** |
 
-**The Senate of 1888 on this allocation (replaces G3's table when approved):** 123 county senators; California 43 (35%) with 56% of the people; a Californian county averages about 76,000 people, a county of the acceded mainland about 32,000.
+**The Senate of 1888 on this allocation (now G3's table):** 123 county senators; California 43 (35%) with 56% of the people; a Californian county averages about 76,000 people, a county of the acceded mainland about 32,000.
 
 **Correction to this session's earlier tables:** they counted Thalassia with California. Thalassia stands on Kāneʻohe Bay (storyline §26) and is counted apart here.
 
@@ -446,7 +446,7 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 
 ## I6. The map as drawn
 
-**The drawing** is `population/outputs/map_1887.png`, made by `population/draw_map_1887.py` from the Newberry atlas's geometry (CC0; not in this repository). It joins our timeline's counties of 1887 as the list says; where one of them is divided, the cut is a straight line chosen by eye, and the homelands' outlines are sketches. Known approximations: Clear Creek is drawn with the whole of Boulder, Jefferson and Larimer, of which only the mountain districts are Pacifican; the enclaves are points.
+**The drawing** is `population/outputs/map_1887.png`, made by `population/draw_map_1887.py` from the Newberry atlas's geometry (CC0; not in this repository). It joins our timeline's counties of 1887 as the list says; where one of them is divided, the cut is a straight line chosen by eye, and the homelands follow I4a (Royce's lines where read, sketches elsewhere). Known approximations: Clear Creek is drawn with the whole of Boulder, Jefferson and Larimer, of which only the mountain districts are Pacifican; the smaller enclaves are squares (I-60).
 
 `population/outputs/map_1887.md` lists all 124 with seats, parts and people; `population/data/counties/map_1887.toml` is the source, and `population/map_1887.py` checks it (124 counties, no name twice, no historical county assigned twice).
 
@@ -470,11 +470,11 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 - **Eleven counties cross an old member or territorial line** (Bear River, Virgin, Green River, Taos, Rio Arriba, Chinook, Wasco, Malheur, Palouse, San Juan, Little Colorado), so the rows above count each county under the unit that holds its seat. No county encloses a member whole; none carries a member's name.
 - **Size.** The median county has about 30,000 people. The largest are San Francisco (645,000), Los Angeles (266,000) and Alameda (254,000); the smallest Pecos and Yuma (5,000), Coconino, Mojave and Walker (6,000).
 - **Language.** Spanish stands beside English in all of California (entrenched) and in eleven counties by grant (eight of New Mexico's, Pima, La Paz, Ensenada); Hawaiian in Hawaii's five and Thalassia.
-- **The Senate of 1888:** 123 county senators (California 43, or 35%, with 56% of the people), seven homeland seats (I-11, I-32), eight aliʻi seats, twelve Polytechnic seats, and up to a quarter appointed (CR-021 A). G3's table is to be replaced by this one.
+- **The Senate of 1888:** 123 county senators (California 43, or 35%, with 56% of the people), seven homeland seats (I-11, I-32), eight aliʻi seats, twelve Polytechnic seats, and up to a quarter appointed (CR-021 A). G3's table is replaced by this one (Part G, G3, 17 November).
 - **Outside the 124:** Alaska under the Northern Commission (I-7), and the large homelands (I-8, I-26): the Diné country, the Utes' Slope and Parks, the Yakama, Colville, Nez Perce and Klamath countries, Fort Hall, the Tohono O'odham's desert, the White Mountain and San Carlos Apache country and the Chiricahua's. Their lines are in I4a.
 - **Not in any county in the model:** about 8,000 people our timeline counted in Wallowa County (the Nez Perce's country here).
 
-**Still owed or open across the part:** the 1880 census sums of Colorado, Montana and Oregon; three 1890 figures; the thirteen enclaves placed from memory, to check against Royce's plates; the Chihenne's enclave (I4a); the Hopi line with the villages' own names (I-57); the Baja commissioners' names (I-54); the Senate table to carry into Part G (G3); the settlement programme to write into Part C and cost.
+**Still owed or open across the part:** the 1880 census sums of Colorado, Montana and Oregon; three 1890 figures; the thirteen enclaves placed from memory, to check against Royce's plates; the Chihenne's enclave (I4a); the Hopi line with the villages' own names (I-57); the Baja commissioners' names (I-54); the settlement programme to write into Part C and cost.
 
 
 ## Fact changes

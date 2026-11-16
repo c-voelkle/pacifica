@@ -129,29 +129,14 @@ One row each: who, what they stood to lose, what they did, how it ended, what it
 
 ## I. The map: the 124 counties
 
-- I1. The drawing rules: size, population floor, watershed, one railway town, language, no county that reproduces an old member. The outer boundaries of the two historic lands are exempt: California's guarantees are territorial, so its boundary survives as county lines (Hawaii's is the sea).
-- I2. Strawman allocation (PROPOSED, for argument only; sums to 124; Part G, G3 uses it, and its counts stay PROPOSED until this part is written, K-7):
+**Drafted in `CR-071-I-map.md`** (draft 10, 17 November 2026). All 124 counties are drawn and APPROVED by the author region by region (I-12 to I-45); decisions I-1 to I-60 carry his words. The map is `population/outputs/map_1887.png`.
 
-| Old unit | Counties |
-|---|---|
-| California | 40 |
-| Oregon | 14 |
-| Columbia | 14 |
-| Deseret | 9 |
-| Washoe / Nevada | 5 |
-| Idaho and western Montana | 9 |
-| Arizona | 6 |
-| New Mexico | 9 |
-| The Rockies (west slope, western Wyoming) | 6 |
-| Hawaii | 5 |
-| Alaska | 5 |
-| Crown cities (Thalassia, San Francisco) | 2 |
-
-  **The Crown cities' senators (K-7, APPROVED).** San Francisco is a city-county with a board (CR-021 B3), and the board chooses a senator. Thalassia is governed directly by the Crown and has no board, so it chooses none. The Senate of 1888 then has 123 county senators.
-- I3. The named list, with seat and county language, built region by region.
-- I4. **Native homelands.** They "never enter the public domain" (CR-033). Are they inside a county's lines but outside its board's reach, or outside the 124 altogether, holding their compacts directly with the Realm? The Diné homeland is the test.
-- I5. **Alaska.** Counties from 1887, or the Northern Commission continued (the model carries it to 1932)? CR-021 G lists Alaska among the counties. G3 counts five Alaskan counties pending this answer.
-- I6. Changes after 1887: mergers, splits, new Crown cities (OPEN-021-12), the Hawaiian restoration of 1907 (CR-040).
+- I1. **The drawing rules** (I-6, APPROVED): size, population floor, watershed, one railway town, language, no county that reproduces an old member. The outer boundaries of the two historic lands are exempt: California's guarantees are territorial, so its boundary survives as county lines (Hawaii's is the sea).
+- I2. **The allocation** (I-10, APPROVED; the strawman of this outline is superseded). As drawn: California 43, Oregon 14, Columbia 13, Deseret 9, New Mexico 10, Arizona 8, Idaho 5, Washoe 5, the Rockies 5, Hawaii 5, western Montana 4, Baja 2, Thalassia 1. The Senate of 1888 has 123 county senators (Thalassia has no board, K-7), seven homeland seats, eight aliʻi seats and twelve Polytechnic seats (G3, which now carries Part I's table).
+- I3. **The named list**, with seats, parts, people and county languages: Part I, I3a, and `population/outputs/map_1887.md`. People are MODEL (5.84 million in the model, 5.79 million in the 124).
+- I4. **Native homelands** (I-8, I-9, I-26, I-46 to I-52, I-56 to I-60): compact lands, not counties. Large homelands (over about 3,000 square miles or across two watersheds) are units of their own outside the 124; smaller ones are enclaves inside a county's lines and outside its board's reach. No county is divided by a homeland. The lines follow Royce where our timeline has a text (I4a). The Diné homeland is the largest; the Hopi country lies inside it (HP1 to HP7). The Apache line of 1871 is the Apache country's from 1865 (I-52).
+- I5. **Alaska** (I-7, APPROVED): the Northern Commission continues; Alaska is outside the 124 (CT3).
+- I6. **Changes after 1887:** mergers, splits, new Crown cities (OPEN-021-12), the Hawaiian restoration of 1907 (CR-040). OPEN.
 
 ## J. Aftermath (1887–1900)
 
@@ -168,9 +153,9 @@ Candidate set pieces: the 1872 conversation (D2); the boundary commission in the
 
 - **CT1. Hawaii 1874–1887. RESOLVED** by CR-027 (Part E, E6, E-10): a lawful lease of Puʻuloa in 1874, the illegal ordinances of 1874–76 and the Territorial Council from 1876; Victoria reigns throughout; Hawaii ratifies through the Territorial Council with the Queen's assent.
 - **CT2. RESOLVED.** CR-021 names the Regent Kaiulani throughout; read Victoria.
-- **CT3.** Alaska's standing (CR-070 open decision 9; I5). OPEN.
-- **CT4.** The member compacts' reserved rights (A2): which survive as guarantees, which lapse, which are bought out. Partly settled: Oregon's exclusion law lapses (G-6); Deseret's marriage law becomes a personal guarantee (CR-072 P16); California and Hawaii are the historic lands. Columbia's charter and Washoe OPEN. **The 1887 knock-on (K-15, APPROVED).** CR-059 CT8 and CR-060 A5 make each charter of 1866 amendable only with its own member's consent and leave "the 1887 knock-on" to this CR. Each charter now carries an article of supersession: it yields to a constitution adopted by two-thirds of both chambers and both founding states, which carries its protected provisions as guarantees or ends them with the power they rest on (F–G, section T, with the table of what each provision becomes).
-- **CT5.** Homelands and counties (I4). OPEN.
+- **CT3.** Alaska's standing (CR-070 open decision 9; I5). **Decided** (I-7): the Northern Commission continues and Alaska is outside the 124; CR-021 G's list and E7 are amended at integration (Part I, CT3).
+- **CT4.** The member compacts' reserved rights (A2): which survive as guarantees, which lapse, which are bought out. Partly settled: Oregon's exclusion law lapses (G-6); Deseret's marriage law becomes a personal guarantee (CR-072 P16); California and Hawaii are the historic lands. Columbia's charter and Washoe OPEN (left for later by the author, 16 November). **The 1887 knock-on (K-15, APPROVED).** CR-059 CT8 and CR-060 A5 make each charter of 1866 amendable only with its own member's consent and leave "the 1887 knock-on" to this CR. Each charter now carries an article of supersession: it yields to a constitution adopted by two-thirds of both chambers and both founding states, which carries its protected provisions as guarantees or ends them with the power they rest on (F–G, section T, with the table of what each provision becomes).
+- **CT5.** Homelands and counties (I4). **Decided** (I-8, I-9): compact lands, not counties; large ones outside the 124, enclaves inside a county's lines; seven homeland seats in the Senate; a member living in a county votes only where registered (Part I, CT5).
 - **CT6.** The Council's composition after 1865 (A3). Settled by canon except for Hawaii's delegation after 1876 (K-10, APPROVED).
 
 ## Model

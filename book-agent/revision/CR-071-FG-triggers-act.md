@@ -161,27 +161,29 @@ Founders who wanted to see their succession work handed it over while they lived
 
 The exclusion law **lapses** with the member state on 1 August 1887; no vote repeals it. From 1888 the regency's qualified immigration keeps out much of whom Oregon's law kept out, by examination rather than colour, and critics say so. The Chronicler does not draw the comparison.
 
-## G3. The Senate arithmetic — APPROVED (G-7); counts PROPOSED pending Part I (K-7)
+## G3. The Senate arithmetic — APPROVED (G-7); counts from Part I (I6), the counties APPROVED (I-12 to I-45)
 
-**The Senate of 1888** (CR-021 A): one senator per county, chosen by its Board of Supervisors; up to a quarter appointed (to sixty-eight, CR-038); twelve Polytechnic seats; eight aliʻi seats.
+**The Senate of 1888** (CR-021 A): one senator per county, chosen by its Board of Supervisors; up to a quarter appointed (to sixty-eight, CR-038); twelve Polytechnic seats; eight aliʻi seats; and seven homeland seats (Part I, I-11, I-32).
 
-| Old unit | Counties | Share of the 124 |
-|---|---|---|
-| California | 40 | 32% |
-| Oregon and Columbia | 28 | 23% |
-| Deseret and Washoe | 14 | 11% |
-| Idaho and western Montana; the Rockies | 15 | 12% |
-| Arizona and New Mexico | 15 | 12% |
-| Hawaii | 5 | 4% |
-| Alaska | 5 | 4% |
-| Crown cities (Thalassia, San Francisco) | 2 | 2% |
+| Old unit | Counties | Share of the 124 | People, 1887 (MODEL, thousands) | Share of the people |
+|---|---|---|---|---|
+| California | 43 | 35% | 3,278 | 57% |
+| Oregon and Columbia | 27 | 22% | 1,301 | 22% |
+| Deseret and Washoe | 14 | 11% | 394 | 7% |
+| Idaho and western Montana; the Rockies | 14 | 11% | 315 | 5% |
+| Arizona, New Mexico and Baja | 20 | 16% | 374 | 6% |
+| Hawaii | 5 | 4% | 120 | 2% |
+| Thalassia (the Crown city) | 1 | 1% | 8 | 0% |
+| **Total** | **124** | | **5,792** | |
 
-**What is not yet settled (K-7, APPROVED).** The counts are the outline's strawman (I2) and stay PROPOSED until Part I is written. Three rows depend on open questions:
-- **The Crown cities.** San Francisco is a city-county with a board (CR-021 B3); its board chooses a senator. Thalassia is governed directly by the Crown (CR-021 B3) and has no board, so it chooses none. The Senate of 1888 therefore has **123 county senators**. CR-072 C9, which said San Francisco had "no county board to win", is corrected to match.
-- **Alaska's five** depend on I5 (CR-070 open decision 9; E-11). If the Northern Commission continues, the five go to other rows or the total falls.
-- **The homelands** (I4) may stand inside counties or outside the 124.
+Counties are counted under the unit that holds their seat; eleven cross an old line (Part I, I6). The people are the model's (`population/outputs/map_1887.md`); the model's other 48,000 are Alaska's 40,000 and the 8,000 our timeline counted in Wallowa County, the Nez Perce's country here. The homelands' own people are not yet in the model.
 
-California has perhaps half the people (MODEL; to check) and a third of the county senators; one county, one senator is the interior's bribe. California loses the Senate and wins the map of the state: four of the seats of government and the money. A Senate weighted toward small counties is weighted toward the Party's county men, the Senate Julian meets in 1910–1911 and 1927 (CR-021 B5; CR-072 C6).
+**What this settles (K-7).**
+- **123 county senators.** San Francisco is a city-county with a board (CR-021 B3); its board chooses a senator. Thalassia is governed directly by the Crown (CR-021 B3) and has no board, so it chooses none. CR-072 C9, which said San Francisco had "no county board to win", is corrected to match.
+- **Alaska is outside the 124** under the Northern Commission (Part I, I-7; CT3). The strawman's five Alaskan counties are gone; Alaska's nations take part in choosing the seventh homeland seat (I-32).
+- **The homelands are outside the counties** where large and inside them where enclaves (I-8, I-26); their members vote in a county only where registered (I-9) and choose the seven homeland seats.
+
+California has 57% of the people (MODEL) and 35% of the county senators; a Californian county averages about 76,000 people, a county elsewhere about 30,000. One county, one senator is the interior's bribe. California loses the Senate and wins the map of the state: four of the seats of government and the money. A Senate weighted toward small counties is weighted toward the Party's county men, the Senate Julian meets in 1910–1911 and 1927 (CR-021 B5; CR-072 C6).
 
 ## G4. On the day (1 August 1887) — APPROVED
 
