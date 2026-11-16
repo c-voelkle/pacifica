@@ -50,9 +50,10 @@ counties = ["UT;Wasatch", "UT;Uintah"]
 box = [-110.95, 39.3, -109.78, 41.2]
 [[large]]
 name = "Apache country"
-basis = "the Apache peace of 1865 (canon)"
-royce = "White Mountain reserve, executive order of 9 November 1871, with the San Carlos division of 14 December 1872, as left by the restorations of 1873-77 (the Gila valley above San Carlos, the Clifton district east of 109 30 W, the Globe district); north of the Clifton district it keeps the order's line on New Mexico's boundary"
-ring = [[-110.72, 33.8], [-110.6, 34.22], [-110.0, 34.15], [-109.5, 33.95], [-109.0, 33.8], [-109.0, 33.45], [-109.5, 33.45], [-109.5, 33.15], [-109.95, 33.15], [-110.0, 32.97], [-110.5, 32.97], [-110.75, 33.25], [-110.8, 33.5]]
+basis = "the Apache peace of 1865 (canon); the line is given in 1865 (I-52)"
+royce = "White Mountain reserve, executive order of 9 November 1871: the south edge of the Black Mesa from New Mexico's line west to a point north of Sombrero Butte, the Apache Mountains and the Salt to Pinal Creek, up it to the Pinal Mountains, then the crests north of the Gila to New Mexico's line near Steeple Rock. Not the San Carlos addition of 1872 (the Gila's valley) and none of the reductions of 1873-77: Globe and Clifton lie inside, on lease"
+ring = [[-108.9, 33.9], [-109.6, 34.1], [-110.2, 34.25], [-110.75, 34.3], [-111.3, 34.3], [-111.3, 33.3], [-110.85, 33.3], [-110.6, 33.42], [-110.2, 33.3], [-109.8, 33.05], [-109.4, 33.0], [-108.9, 32.87]]
+counties = ["AZ;Gila", "AZ;Graham", "AZ;Apache"]  # the west and east edges are our timeline's county lines (the Salt and Pinal Creek side; New Mexico's line)
 [[large]]
 name = "Chiricahua"
 basis = "the peace of 1865 with Cochise (canon)"
@@ -65,11 +66,14 @@ royce = "none before 1874 (San Xavier). Drawn as our timeline's Pima County west
 counties = ["AZ;Pima"]
 box = [-113.5, 31.2, -111.6, 32.6]
 
-[[inner]]
+[[large]]
 name = "Hopi"
-basis = "HP1-HP7 (I-20)"
-royce = "executive order of 16 December 1882: 110 to 111 W, 35 30 to 36 30 N, used as a first size; HP2 asks for a line by named places"
-ring = [[-111.0, 35.5], [-111.0, 36.5], [-110.0, 36.5], [-110.0, 35.5]]
+inside = "Diné country"
+basis = "HP1-HP7 (I-20): the mesas' country by named places, with Moenkopi as a detached part"
+royce = "our timeline's order of 16 December 1882 drew a box of degrees (110 to 111 W, 35 30 to 36 30 N); HP2 refuses that. Sketched instead by places: Dinnebito Wash on the west, Black Mesa's rim on the north, Keams Canyon on the east, the Hopi Buttes on the south. A sketch, to be settled with the villages' own names"
+ring = [[-110.95, 35.95], [-110.85, 36.3], [-110.4, 36.35], [-110.05, 36.15], [-110.0, 35.75], [-110.2, 35.5], [-110.6, 35.45], [-110.9, 35.6]]
+extra = [[[-111.32, 36.05], [-111.3, 36.2], [-111.12, 36.2], [-111.12, 36.05]]]
+extra_names = ["Moenkopi (Hopi)"]
 
 # California: the tracts reserved by the eighteen treaties of 1851-52 (canon section 8; our timeline's Senate
 # rejected them). Royce numbers them 273-309 on his plate "California 1" (pl. CXIV) and gives no boundary text,
@@ -180,7 +184,7 @@ elsewhere = [
   ["Quinault", -124.2, 47.4], ["Makah", -124.6, 48.3], ["Tulalip", -122.25, 48.08], ["Puyallup", -122.35, 47.22], ["Nisqually", -122.7, 47.0],
   ["Coeur d'Alene", -116.7, 47.4], ["Spokane", -118.0, 47.9], ["Flathead", -114.2, 47.5], ["Bitterroot Salish", -114.1, 46.3], ["Lemhi", -113.6, 44.9],
   ["Duck Valley", -116.1, 42.0], ["Pyramid Lake", -119.55, 40.0], ["Walker River", -118.75, 38.9], ["Ruby Valley", -115.4, 40.4],
-  ["Southern Paiute", -113.7, 37.15], ["Moenkopi (Hopi)", -111.22, 36.11], ["Zuni", -108.85, 35.07], ["Pueblos of the Rio Grande", -106.45, 35.55],
+  ["Southern Paiute", -113.7, 37.15], ["Zuni", -108.85, 35.07], ["Pueblos of the Rio Grande", -106.45, 35.55],
   ["Taos Pueblo", -105.55, 36.44], ["Jicarilla", -107.0, 36.75], ["Mescalero", -105.7, 33.2], ["Chihenne", -107.75, 33.3],
   ["Pima and Maricopa", -111.9, 33.1], ["Quechan", -114.6, 32.8], ["Mohave", -114.4, 34.0], ["Hualapai", -113.4, 35.6], ["Havasupai", -112.7, 36.25],
 ]

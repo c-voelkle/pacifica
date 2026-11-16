@@ -36,6 +36,7 @@ from shapely.ops import nearest_points, polylabel
 from shapely.ops import polygonize, unary_union
 import numpy as np
 import shapely
+from shapely.prepared import prep
 
 HERE = Path(__file__).parent
 DATA = HERE / "data" / "counties"
@@ -59,6 +60,7 @@ CUTS = {
 # the homelands' sketched lines and the enclaves' places: data/counties/homelands_1887.toml
 # where a county's detached remainder should go when the longest shared line is a mountain crest
 PREFER = {"Spokane": "Big Bend"}
+HOME = "#fbe6d4"  # one colour for every homeland; the outline says which kind
 UNIT_COLOUR = {"California": "#f3d9a4", "Oregon": "#b9d8b0", "Columbia": "#a9cfe0", "Deseret": "#e6c3d6",
                "New Mexico": "#f2b8a0", "Idaho": "#d5d0ea", "Arizona": "#f6e39a", "Washoe": "#d9d9c3",
                "The Rockies": "#c9b79c", "Hawaii": "#b6e0d4", "Western Montana": "#c7dcef", "Baja": "#f0cfa0",
@@ -192,7 +194,12 @@ def main():
             if "box" in h:
                 cg = cg.intersection(box(*h["box"]))
             g = cg if g is None else g.intersection(cg)
+        if "extra" in h:
+            g = unary_union([g] + [Polygon(r) for r in h["extra"]])
         homes[h["name"]] = g.buffer(0)
+    for h in hl["large"]:  # a homeland inside another is cut out of it
+        if "inside" in h:
+            homes[h["inside"]] = homes[h["inside"]].difference(homes[h["name"]]).buffer(0)
     report = []
     KM = 1 / 111.0  # degrees, roughly
     all_homes = unary_union(list(homes.values()))
@@ -203,8 +210,12 @@ def main():
         rest = merged[n].difference(all_homes)
         opened = rest.buffer(-6 * KM).buffer(6 * KM).intersection(rest)  # drop spikes and slivers under about 12 km
         slivers = rest.difference(opened)
+        parts_ = [q for q in getattr(slivers, "geoms", [slivers]) if not q.is_empty]
         for h in homes:  # slivers touching a homeland go to it
-            near = [q for q in getattr(slivers, "geoms", [slivers]) if not q.is_empty and q.intersects(homes[h].buffer(2 * KM))]
+            if not parts_ or not slivers.envelope.intersects(homes[h].envelope.buffer(3 * KM)):
+                continue
+            hb = prep(homes[h].simplify(0.2 * KM).buffer(2 * KM))
+            near = [q for q in parts_ if hb.intersects(q)]
             if near:
                 homes[h] = unary_union([homes[h]] + near).buffer(0)
         pieces = sorted([q for q in getattr(opened, "geoms", [opened]) if q.geom_type == "Polygon"], key=lambda q: -q.area)
@@ -268,13 +279,11 @@ def main():
     for n in main_names:
         draw_poly(ax, P(merged[n]), facecolor=UNIT_COLOUR[unit[n]], edgecolor="#333333", linewidth=0.9)
     for name, hg in homes.items():
-        draw_poly(ax, P(hg), facecolor="#fdf1e7", edgecolor="#7a3b12", linewidth=1.3)
-    for h in hl["inner"]:
-        draw_poly(ax, P(Polygon(h["ring"])), facecolor="#f6d9c2", edgecolor="#7a3b12", linewidth=1.1, linestyle="--")
+        draw_poly(ax, P(hg), facecolor=HOME, edgecolor="#7a3b12", linewidth=1.3)
     cal_land = unary_union([merged[c["name"]] for c in counties if c["unit"] == "California"])
     tracts = {t["name"]: Polygon(t["ring"]).intersection(cal_land) for t in hl["tract"]}
     for tg in tracts.values():
-        draw_poly(ax, P(tg), facecolor="#f9e3d0", edgecolor="#7a3b12", linewidth=0.8, zorder=5)
+        draw_poly(ax, P(tg), facecolor=HOME, edgecolor="#7a3b12", linewidth=0.8, zorder=5)
     ax.autoscale_view()
     x0, x1 = ax.get_xlim()
     ax.set_xlim(x0 - 0.02, x1 + 0.005)
@@ -402,9 +411,10 @@ def main():
     # 2. the homelands, then the counties from the smallest up (the hardest first)
     for name, hg in homes.items():
         label_area(ax, name, P(hg), (7.4, 6.6, 5.8), home_style, numbered=False)
-    for h in hl["inner"]:
-        label_area(ax, h["name"], P(Polygon(h["ring"])), (6.4, 5.6), home_style, numbered=False)
-    late = []
+
+    for h in hl["large"]:  # detached parts carry their own small name
+        for ring, nm in zip(h.get("extra", []), h.get("extra_names", [])):
+            label_area(ax, nm, P(Polygon(ring)), (4.8, 4.3), dict(color="#5a2a0c", style="italic"), allow_outside=True, numbered=False)
     in_inset = set()
     for _, view, names, proj, _o in insets[1:]:
         for n in names:
@@ -439,15 +449,18 @@ def main():
                  fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 8 (16 November 2026). Colours: the old members and territories the counties replace. "
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 9 (16 November 2026). Colours: the old members and territories the counties replace. "
              "Dotted grey: our timeline's county lines of 1887.\n"
-             "Heavy brown outlines: the large homelands, outside the 124 (Royce's lines where our timeline has a text). Dashed: the Hopi. "
-             "Thin brown outlines: California's nineteen treaty tracts of 1851-52, traced from Royce's plate; they lie inside counties.\n"
-             "Brown squares: other homelands inside a county, not yet outlined. Not shown: Alaska. MODEL and PROPOSED.",
+             "Homelands are one colour. Heavy outline: a homeland outside the 124 (Royce's lines where our timeline has a text; the Hopi's is a sketch). "
+             "Thin outline: a homeland inside a county (California's nineteen treaty tracts of 1851-52, from Royce's plate).\n"
+             "Square: a homeland inside a county with no line drawn yet. Not shown: Alaska. MODEL and PROPOSED.",
              fontsize=9.5, va="top")
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#333333") for c in UNIT_COLOUR.values()]
-    fig.legend(handles, list(UNIT_COLOUR), loc="lower right", bbox_to_anchor=(0.985, 0.03), fontsize=9, ncol=2,
-               title="Old unit", frameon=True)
+    handles += [plt.Rectangle((0, 0), 1, 1, fc=HOME, ec="#7a3b12", lw=1.6), plt.Rectangle((0, 0), 1, 1, fc=HOME, ec="#7a3b12", lw=0.7),
+                plt.Line2D([0], [0], marker="s", ms=5, color="#7a3b12", mec="white", ls="")]
+    names_ = list(UNIT_COLOUR) + ["Homeland outside the 124", "Homeland inside a county", "Homeland inside a county, no line yet"]
+    fig.legend(handles, names_, loc="lower right", bbox_to_anchor=(0.985, 0.03), fontsize=9, ncol=2,
+               title="Counties by old unit, and homelands", frameon=True)
     out = HERE / "outputs" / "map_1887.png"
     fig.savefig(out)
     with open(HERE / "outputs" / "homelands_1887.md", "w", encoding="utf-8") as f:

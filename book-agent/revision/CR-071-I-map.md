@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 8, 16 November 2026: all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-51 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 9, 16 November 2026: all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-52 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
 
@@ -60,6 +60,7 @@
 | I-49 | **Yakama, Klamath and Fort Hall stay large homelands,** though under I-26's size. | as I-46 |
 | I-50 | **California's nineteen tracts stand as a working version.** | Author, 16 Nov, 20:43 |
 | I-51 | **The Cosumnes tract (Royce 301) is §8's Miwok homeland.** It "can be one of the first or signed seven months earlier than historically"; either reading is open to the storyline. | Author, 16 Nov, 20:43 |
+| I-52 | **The Apache country is drawn on the line of 1871,** with Globe and Clifton inside on lease and the Gila's valley floor in Gila county. For canon: "that border is given to Apache country from 1865 and the settlers don't have to be driven out or anything." | Author, 16 Nov, 20:50 ("Yes you can redraw it as suggested") |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -145,7 +146,7 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 | **Diné country** | Canon's treaty of 1865, I-18, I-19: the San Juan and the Colorado on the north, the Colorado and Little Colorado to the Peaks on the west, north of the railway on the south, the Chaco country to Mount Taylor on the east | 24,000 | Coconino, Little Colorado, Sandía, Rio Arriba and San Juan end at it; Utah's ground south of the San Juan is inside |
 | **Utes' Slope and Parks** | Royce: the treaty of 1868, west of 107° W to fifteen miles north of 40° N. Drawn as our timeline's Mesa, Delta, Montrose, Garfield, Routt and Grand counties, so its edge is county lines | 22,000 | San Juan, Gunnison and Lake are whole; they are the leased mining counties (I-34) |
 | **Nez Perce country** | The reserve of 1855 with the Wallowa (from memory; to check in Royce) | 10,200 | Palouse keeps the Moscow country; Lewiston and the Clearwater camps are leased ground inside the homeland; Salmon begins at the Salmon River; Walla Walla loses its Blue Mountain corner |
-| **Apache country** | Royce: the White Mountain order of 1871 with San Carlos, less the Globe district, the Gila valley above San Carlos and the Clifton district | 6,100 | **Gila is one piece** (Safford and Clifton). The Globe district, cut off from it, goes to Salt River |
+| **Apache country** | Royce: the White Mountain order of 9 November 1871, whole. Not the San Carlos addition of 1872 (the Gila's valley floor) and none of the reductions of 1873–77 (I-52) | 8,100 | **Gila is one piece**: the Gila's valley from the San Carlos country up to Safford and Duncan. Globe and Clifton lie inside the homeland on lease, like Lewiston (I-47) |
 | **Tohono O'odham** | Pacifica's own; our timeline's Pima County west of the Baboquivari crest | 5,100 | **Pima is one piece** round Tucson |
 | **Colville** | Royce: the order of 2 July 1872, between the Columbia and the Okanogan | 4,900 | **Spokane is not divided**: it keeps the Colville valley east of the Columbia. The Okanogan country west of the homeland, cut off from Spokane, goes to Big Bend |
 | **Uinta valley** | The order of 1861 (from memory; to check), as that part of our timeline's Wasatch and Uintah counties | 4,800 | **Timpanogos is one piece** (it keeps the Heber valley); Green River keeps the Ashley valley |
@@ -153,11 +154,11 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 | **Fort Hall** | Royce: the order of 1867, from the Portneuf's mouth | 2,800 | Bingham north of the Blackfoot; the ground south of the homeland goes to Bear River |
 | **Yakama** | Royce: the reserve of 1855 | 2,200 | Yakima county keeps the river's left bank and the upper valley |
 | **Klamath** | Royce: the reserve of 1864 | 1,700 | Inside Rogue, which stays one piece |
-| *Hopi* (inside the Diné country) | Royce: the order of 1882, 110° to 111° W, 35°30′ to 36°30′ N, as a first size (HP2) | 3,300 | none |
+| *Hopi* (inside the Diné country) | By named places (HP2), a sketch: Dinnebito Wash on the west, Black Mesa's rim on the north, Keams Canyon on the east, the Hopi Buttes on the south; Moenkopi a detached part. Royce's box of degrees (order of 1882) is not used | 2,700 | none |
 
-The large homelands together are about 87,000 square miles.
+The large homelands together are about 89,000 square miles.
 
-**Changes this makes to earlier text in this part.** The Diné country is about 24,000 square miles (not "on the order of 30,000"). Tombstone's silver is county ground; I-37's lease is for Bisbee. The Globe district is in Salt River, not Gila. The Okanogan country is in Big Bend. Counties' people in `map_1887.md` are not yet moved to match (the Globe district's and the Okanogan's are small).
+**Changes this makes to earlier text in this part.** The Diné country is about 24,000 square miles (not "on the order of 30,000"). Tombstone's silver is county ground; I-37's lease is for Bisbee. Globe and Clifton are leased ground inside the Apache country (I-52), in no county. The Okanogan country is in Big Bend. Counties' people in `map_1887.md` are not yet moved to match (Globe's, Clifton's and the Okanogan's are small).
 
 **California's tracts (a working version, I-50).** Royce numbers the tracts reserved by the treaties of 1851–52 on his plate "California 1" (plate CXIV) and gives no boundary text for them, only "reserve a tract on" a river. There are **eighteen treaties and nineteen tracts**: the treaties of 30 May and 3 June reserve two each, and that of 22 August none (its bands agree to go to Clear Lake). Each tract below is traced by eye from the plate against its towns and rivers, so it is right to a few miles at best. They are enclaves inside counties (I-8); no county line moves.
 
@@ -191,7 +192,9 @@ The large homelands together are about 87,000 square miles.
 
 **Other enclaves** (squares on the map, not yet outlined): Warm Springs, Umatilla, the Siletz coast, Grand Ronde, Quinault, Makah, Tulalip, Puyallup, Nisqually, Coeur d'Alene, Spokane, Flathead, the Bitterroot Salish, Lemhi, Duck Valley, Pyramid Lake, Walker River, Ruby Valley, the Southern Paiute, Moenkopi, Zuni, the Rio Grande Pueblos, Taos Pueblo, the Jicarilla (I-31), the Mescalero, the Chihenne, the Pima and Maricopa, the Quechan, the Mohave, the Hualapai, the Havasupai. Not complete; Baja's peoples are OPEN.
 
-**For the author:** whether the Apache line follows our timeline's reductions of 1873–77 (as drawn) or the larger orders of 1871–72 with Globe, Clifton and the upper Gila on lease.
+**The Apache line (I-52, APPROVED) and a note for canon.** The Apache country's border is the line our timeline's order of 9 November 1871 drew, and in this timeline it is the Apache country's **from the peace of 1865** (§15): it is written into that peace, not ordered six years later. Nobody has to be removed to make it. In 1865 there is no settlement inside the line (Hist.: Clifton's copper was first worked in 1872 and Globe's silver found in 1875–76; Safford, on the valley floor outside the line, dates from 1874). The mining camps that come afterwards come by lease from the Apache through the Realm, as at Bisbee (I-37) and Lewiston (I-47), and the reductions of 1873–77, which in our timeline cut Globe, Clifton and the upper Gila out of the reserve, do not happen. OPEN for the storyline: which Apache bands sign in 1865 and where, and the text of the lease article. To be carried into §15 when Part I is integrated.
+
+**How the homelands are drawn on the map.** All homelands have one colour. A large homeland has a heavy outline and its name in italics; an enclave is a small square or, in California, a thin outline. The Hopi country is a homeland inside the Diné country, with its own outline, and the Diné country's name stands outside it.
 
 ## I5. Alaska — I-7 APPROVED
 
