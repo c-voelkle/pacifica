@@ -458,7 +458,7 @@ def main():
                  fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 10 (17 November 2026). Colours: the old members and territories the counties replace. "
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 11 (17 November 2026). Colours: the old members and territories the counties replace. "
              "Dotted grey: our timeline's county lines of 1887.\n"
              "Homelands are one colour. Heavy outline: a homeland outside the 124 (Royce's lines where our timeline has a text; the Hopi's is a sketch). "
              "Thin outline: a homeland inside a county (California's nineteen treaty tracts of 1851-52, and elsewhere the reserves of treaties and orders before 1887).\n"
@@ -485,8 +485,8 @@ def main():
             tot += sq
             f.write(f"| {t['royce']} | {t['treaty']} | {t['name']} | {sq:,.0f} |\n")
         f.write(f"| | | **Total** | {tot:,.0f} |\n\n## Other enclaves outlined (I-60)\n\n"
-                "Source: *plate*, placed by eye from Royce's state plate; *memory*, placed from the assistant's knowledge "
-                "of the reserve's place and size, not yet checked against the plate.\n\n"
+                "Source: *plate*, traced from Royce's state plate (georeferenced on towns; about 5-10 miles); *text*, placed "
+                "from the boundary described in Royce's schedule; *memory*, Royce gives no line.\n\n"
                 "| Enclave | Line | Source | Square miles as drawn |\n|---|---|---|---|\n")
         etot = 0.0
         for e in hl.get("enclave", []):

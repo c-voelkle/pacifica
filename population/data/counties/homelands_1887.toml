@@ -202,43 +202,43 @@ ring = [[-116.87, 33.36], [-116.21, 33.36], [-116.04, 33.09], [-116.1, 32.63], [
 # enclaves outside California: name, lon, lat (not yet outlined).
 # Enclaves inside counties with a line (I-60): outlined where a treaty or executive order before 1887
 # gives one, if larger than about 80 square miles; smaller ones and those with no line stay squares.
-# source = "plate": placed by eye from Royce's state plate; "memory": placed from the assistant's
-# knowledge of the reserve's place and size, not yet checked against the plate.
+# source = "plate": traced from Royce's state plate (georeferenced on towns, about 5-10 miles); "text": placed
+# from the boundary described in Royce's schedule; "memory": no line in Royce, placed by the assistant.
 [[enclave]]
 name = "Warm Springs"
-basis = "treaty of 25 June 1855: the Deschutes on the east, the Cascades on the west"
-source = "memory"
+basis = "treaty of 25 June 1855 (Royce's text): from the Deschutes opposite the Mutton Mountains' eastern end, along their divide to the Cascades, south along the summit to Mount Jefferson, down the Metolius to the Deschutes, down the Deschutes"
+source = "text"
 ring = [[-121.80, 45.05], [-121.45, 45.12], [-121.10, 45.00], [-121.05, 44.75], [-121.20, 44.62], [-121.75, 44.65], [-121.85, 44.85]]
 
 [[enclave]]
 name = "Umatilla"
-basis = "treaty of 9 June 1855, the reserve before the reductions of 1882-88"
-source = "memory"
-ring = [[-118.85, 45.75], [-118.30, 45.82], [-118.20, 45.60], [-118.40, 45.42], [-118.80, 45.50]]
+basis = "treaty of 9 June 1855 (Royce's text): up Wild Horse creek from its mouth at Pendleton to its source, south to Lee's Encampment in the Blue Mountains, to the head of Howtome (McKay) creek, west to the Birch creek divide, north, and back east along McKay's claim; before the reductions of 1882-88"
+source = "text"
+ring = [[-118.79, 45.67], [-118.33, 45.81], [-118.18, 45.52], [-118.55, 45.43], [-118.78, 45.46], [-118.85, 45.64]]
 
 [[enclave]]
 name = "Siletz coast"
-basis = "the Coast reservation, executive order of 30 November 1855, before the cuts of 1865 and 1875"
-source = "memory"
-ring = [[-123.97, 45.35], [-123.76, 45.35], [-123.74, 44.90], [-123.75, 44.30], [-123.80, 44.00], [-124.20, 44.00], [-124.20, 44.60], [-124.10, 45.00]]
+basis = "the Coast reservation, executive order of 9 November 1855 (Royce's text): from the mouth of the Siltcoos, between the Umpqua and the Siuslaw, east along the divide to the western line of range 8 W of the Willamette meridian, north on it to a point due east of Cape Lookout, west to the sea; before the cuts of 1865 and 1875"
+source = "text"
+ring = [[-123.96, 45.34], [-123.71, 45.34], [-123.71, 43.80], [-124.15, 43.88], [-124.30, 44.00], [-124.30, 45.34]]
 
 [[enclave]]
 name = "Grand Ronde"
-basis = "executive order of 30 June 1857"
+basis = "executive order of 30 June 1857: Royce gives only 'a reserve on the head of the Yamhill', no line; placed there, east of the Coast reservation"
 source = "memory"
-ring = [[-123.73, 45.15], [-123.52, 45.15], [-123.52, 45.00], [-123.73, 45.00]]
+ring = [[-123.71, 45.15], [-123.52, 45.15], [-123.52, 45.00], [-123.71, 45.00]]
 
 [[enclave]]
 name = "Quinault"
-basis = "treaty of 1855-56, the reserve as enlarged by the order of 4 November 1873"
-source = "memory"
-ring = [[-124.40, 47.55], [-123.95, 47.55], [-123.95, 47.30], [-124.30, 47.25]]
+basis = "treaty of 1855-56, enlarged by the executive order of 4 November 1873 (Royce's text): from the old reserve's SW corner on the coast 5 miles east, to the south end of Lake Quinault, round its east shore, to the Queets half a mile north of the river 3 miles above its mouth, down to the coast"
+source = "text"
+ring = [[-124.35, 47.54], [-124.29, 47.56], [-123.86, 47.50], [-123.85, 47.46], [-124.18, 47.30], [-124.30, 47.30]]
 
 [[enclave]]
 name = "Spokane"
-basis = "executive order of 18 January 1881: between Chamokane creek, the Spokane and the Columbia"
-source = "memory"
-ring = [[-118.20, 47.92], [-117.90, 47.85], [-117.85, 48.05], [-118.05, 48.10]]
+basis = "executive order of 18 January 1881 (Royce's text): Chamokane creek from the 48th parallel down to the Spokane, along the Spokane's south bank to the Columbia, up the Columbia's west bank to the 48th parallel, east along it"
+source = "text"
+ring = [[-117.83, 48.00], [-117.86, 47.84], [-118.00, 47.87], [-118.33, 47.88], [-118.25, 48.00]]
 
 [[enclave]]
 name = "Coeur d'Alene"
@@ -248,9 +248,9 @@ ring = [[-117.04, 47.60], [-116.75, 47.60], [-116.55, 47.45], [-116.55, 47.20], 
 
 [[enclave]]
 name = "Flathead"
-basis = "Hellgate treaty of 16 July 1855, the Jocko reserve"
-source = "memory"
-ring = [[-114.80, 47.55], [-114.35, 47.90], [-113.95, 47.75], [-113.95, 47.25], [-114.35, 47.05], [-114.75, 47.15]]
+basis = "Hell Gate treaty of 16 July 1855, the Jocko reserve (Royce's text): from the Jocko's source along the Bitterroot divide to the Clark Fork between the Camas and Horse prairies, north along the divide west of the Flathead river to the latitude halfway down Flathead Lake, east to the Mission divide, south along it"
+source = "text"
+ring = [[-113.90, 47.18], [-114.35, 47.15], [-114.75, 47.38], [-114.65, 47.88], [-113.88, 47.88], [-113.85, 47.50]]
 
 [[enclave]]
 name = "Lemhi"
@@ -260,21 +260,21 @@ ring = [[-113.75, 45.05], [-113.55, 45.05], [-113.55, 44.90], [-113.75, 44.90]]
 
 [[enclave]]
 name = "Duck Valley"
-basis = "executive order of 16 April 1877, with the Idaho addition of 1886"
-source = "memory"
-ring = [[-116.35, 42.15], [-115.85, 42.15], [-115.85, 41.85], [-116.35, 41.85]]
+basis = "executive order of 16 April 1877 (Royce's text: from the 100th to the 120th milepost of Nevada's northern line, north to township 16 S of the Boise base line) and the addition of 4 May 1886 (T. 15 S., R. 1-3 E.)"
+source = "text"
+ring = [[-116.37, 41.85], [-115.98, 41.85], [-115.98, 42.07], [-115.89, 42.07], [-115.89, 42.16], [-116.24, 42.16], [-116.24, 42.07], [-116.37, 42.07]]
 
 [[enclave]]
 name = "Pyramid Lake"
-basis = "set apart in 1859, confirmed by executive order of 23 March 1874"
-source = "memory"
-ring = [[-119.85, 40.30], [-119.45, 40.30], [-119.35, 40.00], [-119.40, 39.70], [-119.60, 39.65], [-119.80, 39.85]]
+basis = "set apart in 1859, confirmed by executive order of 23 March 1874; traced from Royce's Nevada plate (no. 561)"
+source = "plate"
+ring = [[-119.85, 40.34], [-119.65, 40.34], [-119.51, 40.06], [-119.38, 39.82], [-119.28, 39.61], [-119.36, 39.63], [-119.55, 39.88], [-119.71, 40.09], [-119.84, 40.25]]
 
 [[enclave]]
 name = "Walker River"
-basis = "set apart in 1859, confirmed by executive order of 19 March 1874"
-source = "memory"
-ring = [[-118.95, 39.10], [-118.55, 39.10], [-118.45, 38.85], [-118.60, 38.70], [-118.85, 38.75]]
+basis = "set apart in 1859, confirmed by executive order of 19 March 1874; traced from Royce's Nevada plate (no. 560)"
+source = "plate"
+ring = [[-119.10, 39.30], [-119.01, 39.30], [-118.81, 39.06], [-118.62, 38.79], [-118.54, 38.56], [-118.60, 38.53], [-118.68, 38.73], [-118.87, 39.00], [-119.08, 39.22]]
 
 [[enclave]]
 name = "Zuni"
@@ -296,21 +296,21 @@ ring = [[-105.80, 33.37], [-105.24, 33.37], [-105.24, 33.02], [-105.80, 33.02]]
 
 [[enclave]]
 name = "Pima and Maricopa"
-basis = "the Gila River reserve of 1859 as enlarged by the orders of 1876-83"
-source = "memory"
-ring = [[-112.30, 33.30], [-111.95, 33.30], [-111.60, 33.15], [-111.60, 33.00], [-112.00, 32.98], [-112.30, 33.10]]
+basis = "the Gila River reserve of 1859 as enlarged by the orders of 1876-83; traced from Royce's Arizona plate 2 (nos. 415, 596, 634, 651)"
+source = "plate"
+ring = [[-112.26, 33.39], [-112.16, 33.37], [-111.99, 33.29], [-111.78, 33.21], [-111.57, 33.10], [-111.51, 33.04], [-111.58, 33.01], [-111.79, 33.08], [-111.99, 33.16], [-112.17, 33.22], [-112.27, 33.28]]
 
 [[enclave]]
 name = "Mohave"
-basis = "the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76"
-source = "memory"
-ring = [[-114.50, 34.30], [-114.25, 34.25], [-114.20, 33.95], [-114.40, 33.75], [-114.55, 33.95]]
+basis = "the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76; traced from Royce's Arizona plate 2 (nos. 466, 554, 593), aligned on the river"
+source = "plate"
+ring = [[-114.27, 34.14], [-114.18, 33.98], [-114.25, 33.75], [-114.35, 33.43], [-114.48, 33.45], [-114.54, 33.55], [-114.47, 33.83], [-114.33, 34.08]]
 
 [[enclave]]
 name = "Hualapai"
-basis = "executive order of 4 January 1883"
-source = "memory"
-ring = [[-113.95, 35.95], [-113.60, 36.10], [-113.10, 36.05], [-112.95, 35.85], [-113.20, 35.55], [-113.85, 35.60]]
+basis = "executive order of 4 January 1883; traced from Royce's Arizona plate 2 (no. 641), the north line the Colorado"
+source = "plate"
+ring = [[-113.78, 36.07], [-113.80, 35.75], [-113.60, 35.49], [-113.21, 35.50], [-112.84, 35.83], [-112.81, 36.24], [-112.97, 36.22], [-113.08, 36.19], [-113.16, 36.12], [-113.17, 35.95], [-113.25, 35.82], [-113.37, 35.76], [-113.49, 35.81], [-113.66, 35.97]]
 
 [enclaves]
 # squares: no line before 1887, or too small to outline at this scale

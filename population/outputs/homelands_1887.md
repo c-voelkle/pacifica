@@ -46,29 +46,29 @@ Built by `population/draw_map_1887.py` from `data/counties/homelands_1887.toml`.
 
 ## Other enclaves outlined (I-60)
 
-Source: *plate*, placed by eye from Royce's state plate; *memory*, placed from the assistant's knowledge of the reserve's place and size, not yet checked against the plate.
+Source: *plate*, traced from Royce's state plate (georeferenced on towns; about 5-10 miles); *text*, placed from the boundary described in Royce's schedule; *memory*, Royce gives no line.
 
 | Enclave | Line | Source | Square miles as drawn |
 |---|---|---|---|
-| Warm Springs | treaty of 25 June 1855: the Deschutes on the east, the Cascades on the west | memory | 1,045 |
-| Umatilla | treaty of 9 June 1855, the reserve before the reductions of 1882-88 | memory | 618 |
-| Siletz coast | the Coast reservation, executive order of 30 November 1855, before the cuts of 1865 and 1875 | memory | 1,377 |
-| Grand Ronde | executive order of 30 June 1857 | memory | 106 |
-| Quinault | treaty of 1855-56, the reserve as enlarged by the order of 4 November 1873 | memory | 323 |
-| Spokane | executive order of 18 January 1881: between Chamokane creek, the Spokane and the Columbia | memory | 170 |
+| Warm Springs | treaty of 25 June 1855 (Royce's text): from the Deschutes opposite the Mutton Mountains' eastern end, along their divide to the Cascades, south along the summit to Mount Jefferson, down the Metolius to the Deschutes, down the Deschutes | text | 1,045 |
+| Umatilla | treaty of 9 June 1855 (Royce's text): up Wild Horse creek from its mouth at Pendleton to its source, south to Lee's Encampment in the Blue Mountains, to the head of Howtome (McKay) creek, west to the Birch creek divide, north, and back east along McKay's claim; before the reductions of 1882-88 | text | 542 |
+| Siletz coast | the Coast reservation, executive order of 9 November 1855 (Royce's text): from the mouth of the Siltcoos, between the Umpqua and the Siuslaw, east along the divide to the western line of range 8 W of the Willamette meridian, north on it to a point due east of Cape Lookout, west to the sea; before the cuts of 1865 and 1875 | text | 1,806 |
+| Grand Ronde | executive order of 30 June 1857: Royce gives only 'a reserve on the head of the Yamhill', no line; placed there, east of the Coast reservation | memory | 96 |
+| Quinault | treaty of 1855-56, enlarged by the executive order of 4 November 1873 (Royce's text): from the old reserve's SW corner on the coast 5 miles east, to the south end of Lake Quinault, round its east shore, to the Queets half a mile north of the river 3 miles above its mouth, down to the coast | text | 265 |
+| Spokane | executive order of 18 January 1881 (Royce's text): Chamokane creek from the 48th parallel down to the Spokane, along the Spokane's south bank to the Columbia, up the Columbia's west bank to the 48th parallel, east along it | text | 179 |
 | Coeur d'Alene | executive order of 8 November 1873 (Royce 552) | plate | 765 |
-| Flathead | Hellgate treaty of 16 July 1855, the Jocko reserve | memory | 1,734 |
+| Flathead | Hell Gate treaty of 16 July 1855, the Jocko reserve (Royce's text): from the Jocko's source along the Bitterroot divide to the Clark Fork between the Camas and Horse prairies, north along the divide west of the Flathead river to the latitude halfway down Flathead Lake, east to the Mission divide, south along it | text | 1,813 |
 | Lemhi | executive order of 12 February 1875, on the Lemhi (Royce 575) | plate | 101 |
-| Duck Valley | executive order of 16 April 1877, with the Idaho addition of 1886 | memory | 531 |
-| Pyramid Lake | set apart in 1859, confirmed by executive order of 23 March 1874 | memory | 925 |
-| Walker River | set apart in 1859, confirmed by executive order of 19 March 1874 | memory | 546 |
+| Duck Valley | executive order of 16 April 1877 (Royce's text: from the 100th to the 120th milepost of Nevada's northern line, north to township 16 S of the Boise base line) and the addition of 4 May 1886 (T. 15 S., R. 1-3 E.) | text | 415 |
+| Pyramid Lake | set apart in 1859, confirmed by executive order of 23 March 1874; traced from Royce's Nevada plate (no. 561) | plate | 416 |
+| Walker River | set apart in 1859, confirmed by executive order of 19 March 1874; traced from Royce's Nevada plate (no. 560) | plate | 285 |
 | Zuni | executive order of 16 March 1877 (Royce 645) | plate | 229 |
 | Jicarilla | executive order of 14 February 1887 (Royce 624), the Dulce country (I-31, I-58) | plate | 606 |
 | Mescalero | executive orders of 1873-83 (Royce 643-644), in the Sacramento and White Mountains | plate | 780 |
-| Pima and Maricopa | the Gila River reserve of 1859 as enlarged by the orders of 1876-83 | memory | 701 |
-| Mohave | the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76 | memory | 517 |
-| Hualapai | executive order of 4 January 1883 | memory | 1,592 |
-| **Total** | | | 12,667 |
+| Pima and Maricopa | the Gila River reserve of 1859 as enlarged by the orders of 1876-83; traced from Royce's Arizona plate 2 (nos. 415, 596, 634, 651) | plate | 368 |
+| Mohave | the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76; traced from Royce's Arizona plate 2 (nos. 466, 554, 593), aligned on the river | plate | 543 |
+| Hualapai | executive order of 4 January 1883; traced from Royce's Arizona plate 2 (no. 641), the north line the Colorado | plate | 1,504 |
+| **Total** | | | 11,758 |
 
 Squares (no line before 1887, or too small to outline): Makah, Tulalip, Puyallup, Nisqually, Bitterroot Salish, Ruby Valley, Southern Paiute, Pueblos of the Rio Grande, Taos Pueblo, Quechan, Havasupai, Kumeyaay, Paipai, Kiliwa, Cucapá.
 

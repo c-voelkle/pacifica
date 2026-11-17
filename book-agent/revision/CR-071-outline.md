@@ -243,7 +243,7 @@ What must be done before CR-071 can be integrated, from the fresh-context review
 4. **Ledger entries** (`commitments/data/ledger.toml`): the Japanese loan of 1873; the Baja purchase and commission; the Mountain Districts commission; the Ute agreement of 1866 and the San Juan lease of 1873; the right-of-way and mining leases (Fort Hall, Lewiston, Globe, Clifton, Bisbee, Santa Rita); the Hopi and Diné articles; the assumed member debts; the end of the 1866 charters (T5).
 5. **Registry and character-bible entries** for the new historical people (del Valle, Fair, Wilcox, Nowlein, Powell, Mattson, Ouray, Dall, Cannon, Taylor, Henry Miller and others), then `validate_character_docs.py`.
 
-Items that can stay OPEN in canon: the first Commissioners' names, the Baja commissioners, the plaintiff of C2 and the first Chancellor; when Powell enters Pacifican service; the Apache bands of 1865, Oraibi's year and the Hopi leaders; when Nowlein takes the Guard; Sand Creek; D8; changes to the counties after 1887; the enclaves to check against Royce's plates; the Cochimí; the workbook rows not yet built (member debts, the grant per head, the Commissioners' cost), MODEL-pending.
+Items that can stay OPEN in canon: the first Commissioners' names, the Baja commissioners, the plaintiff of C2 and the first Chancellor; when Powell enters Pacifican service; the Apache bands of 1865, Oraibi's year and the Hopi leaders; when Nowlein takes the Guard; Sand Creek; D8; changes to the counties after 1887; the Cochimí; the workbook rows not yet built (member debts, the grant per head, the Commissioners' cost), MODEL-pending.
 
 ## Model
 
