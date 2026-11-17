@@ -1,6 +1,6 @@
 # CR-071, Parts F and G — The triggers and the act (1884–1888)
 
-**Status:** DRAFT 6, 16 November 2026. All decisions APPROVED by the author: F-1 to F-4, G-1 to G-11, G-10a, R-1, R-2, K-1 to K-15, and K-16 and K-17 (17 November). Draft 6 applies the consistency check of 16 November (`CR-071-consistency-check.md`: A1, A7, A8, A9, A10, B1, B3, B4, B5, B6, B7, B8 and the bookkeeping in C). The decisions it raised for these parts (K-1, K-5, K-6, K-7, K-9, K-11, K-12, K-13) were APPROVED on 16 November, with R-1 and R-2. Section S carries this CR's amendments to CR-073 and CR-057; section T its amendment to the charters of 1866 in CR-059, CR-060 and CR-061 (K-15, approved 16 November). Details inside approved sections that are not themselves decisions remain PROPOSED until integration.
+**Status:** DRAFT 6, 16 November 2026. All decisions APPROVED by the author: F-1 to F-4, G-1 to G-11, G-10a, R-1, R-2, K-1 to K-15, K-16 and K-17 (17 November), and K-19 to K-25 (17 November evening, in `CR-071-G-addendum.md`; K-23 withdrawn). Draft 6 applies the consistency check of 16 November (`CR-071-consistency-check.md`: A1, A7, A8, A9, A10, B1, B3, B4, B5, B6, B7, B8 and the bookkeeping in C). The decisions it raised for these parts (K-1, K-5, K-6, K-7, K-9, K-11, K-12, K-13) were APPROVED on 16 November, with R-1 and R-2. Section S carries this CR's amendments to CR-073 and CR-057; section T its amendment to the charters of 1866 in CR-059, CR-060 and CR-061 (K-15, approved 16 November). Details inside approved sections that are not themselves decisions remain PROPOSED until integration.
 **Belongs to:** `CR-071-outline.md`, Parts F and G. Builds on Parts D and E (`CR-071-D-meiji.md`, `CR-071-E-preparation.md`), CR-072 (the Prosperity Party), CR-073 (Ralston) and CR-029 (the Philippines). No storyline text is drafted here.
 **Integration (K-1, APPROVED):** CR-073 and CR-072 in one pass on the CR-057 project document of 6 November, then this CR. Parts F and G name the Party, the Committee party, Broderick and Judah alive, Cannon and Taylor, the personal guarantee and the Deseret caucus, and Pacheco "on the Party's ticket", all of which enter canon with CR-072.
 
@@ -163,7 +163,7 @@ The exclusion law **lapses** with the member state on 1 August 1887; no vote rep
 
 ## G3. The Senate arithmetic — APPROVED (G-7); counts from Part I (I6), the counties APPROVED (I-12 to I-45)
 
-**The Senate of 1888** (CR-021 A): one senator per county, chosen by its Board of Supervisors; up to a quarter appointed (to sixty-eight, CR-038); twelve Polytechnic seats; eight aliʻi seats; and seven homeland seats (Part I, I-11, I-32).
+**The Senate of 1888** (CR-021 A): one senator per county, chosen by its Board of Supervisors; up to a quarter appointed (to sixty-eight, CR-038); twelve Polytechnic seats; eight aliʻi seats; and the homeland seats: one for each large homeland of a million acres or more, one for each league of enclaves that reaches that size, and Alaska's (Part I, I-32, I-70 to I-72; sixteen or seventeen and Alaska's in 1888).
 
 | Old unit | Counties | Share of the 124 | People, 1887 (MODEL, thousands) | Share of the people |
 |---|---|---|---|---|
@@ -181,7 +181,7 @@ Counties are counted under the unit that holds their seat; eleven cross an old l
 **What this settles (K-7).**
 - **123 county senators.** San Francisco is a city-county with a board (CR-021 B3); its board chooses a senator. Thalassia is governed directly by the Crown (CR-021 B3) and has no board, so it chooses none. CR-072 C9, which said San Francisco had "no county board to win", is corrected to match.
 - **Alaska is outside the 124** under the Northern Commission (Part I, I-7; CT3). The strawman's five Alaskan counties are gone; Alaska's nations take part in choosing the seventh homeland seat (I-32).
-- **The homelands are outside the counties** where large and inside them where enclaves (I-8, I-26); their members vote in a county only where registered (I-9) and choose the seven homeland seats.
+- **The homelands are outside the counties** where large and inside them where enclaves (I-8, I-26); their members vote in a county only where registered (I-9) and each large homeland, or league of enclaves, chooses its own senator (I-70, I-71).
 
 California has 57% of the people in the 124 (56% of the model's 5.84 million; MODEL) and 35% of the county senators; a Californian county averages about 76,000 people, a county elsewhere about 31,000. One county, one senator is the interior's bribe. California loses the Senate and wins the map of the state: four of the seats of government and the money. A Senate weighted toward small counties is weighted toward the Party's county men, the Senate Julian meets in 1910–1911 and 1927 (CR-021 B5; CR-072 C6).
 
@@ -268,7 +268,7 @@ California's exit has two faces: the old Californio who bargains for guarantees,
 |---|---|---|---|---|
 | 1 | §12, l. 566 | "The Providentorship lasts for Elias's life." | "The Providentorship is Elias's alone; it ends with the regency on 1 August 1887, weeks before his death, and neither a later regent nor a county inherits his power." The next sentence ("Its enabling delegation lapses when the regency begins in 1887") stands. | G1.3, G-11 |
 | 2 | §21, l. 811 | "Elias's life office ends with him." | "Elias's life office has no successor; he lays it down when the regency begins." | G1.3 |
-| 3 | §21, l. 818 | "County boards choose one senator each. Appointments … with twelve Polytechnic seats and eight aliʻi seats." | Add: "Seven homeland seats are chosen by the nations' councils (six on the continent and Alaska's), and Thalassia, governed by the Crown without a board, chooses no county senator: 123 county senators." | I-11, I-32, I-64; G3, K-7 |
+| 3 | §21, l. 818 | "County boards choose one senator each. Appointments … with twelve Polytechnic seats and eight aliʻi seats." | Add: "Each homeland of a million acres or more chooses a senator through its own council, as does each league of smaller homelands that reaches that size, and Alaska's nations choose one; Thalassia, governed by the Crown without a board, chooses no county senator: 123 county senators." | I-32, I-70 to I-72; G3, K-7 |
 | 4 | §21, l. 820 | "The negotiated pact takes effect; the empire consolidates without a succession war." | "The negotiated pact holds; …" | The regency has begun on 1 August (G1.3) |
 | 5 | §22, l. 830 | "Victoria's standing combines the founder's widowhood, …" | "Victoria's standing combines her marriage to the founder, and from August his widowhood, …" | She is Regent before she is widowed |
 | 6 | §23, l. 838 | "As natural guardian she could claim a regency;" | "As natural guardian she could contest the regency;" | The regency exists from 1 August |
@@ -422,6 +422,13 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 | K-15 | The entrenched charters of 1866 (found on `main`: CR-059 V10, CT8; CR-060 A5) | (a): each charter carries an article of supersession; it yields to a constitution adopted by two-thirds of both chambers and both founding states that carries its protected provisions as guarantees or ends them with the power they rest on (section T). G-3 and K-9 stand; the Constitution enters into force on 1 August whatever Deseret does; G-4 kept. | **APPROVED** (author, 16 November, 08:13) |
 | K-16 | Columbia's charter in 1887 (CT4) | The fishing right carried word for word; compacts carried; works ended as fulfilled; the name survives in the Olympia circuit (T3). **APPROVED** (author, 17 November 2026, 09:43: "Approved") |
 | K-17 | Washoe's charter in 1887 (CT4) | The charter carries the 1864 compact's terms; Carson's guarantees and titles carried; the tax cap ends, with existing mines on the net-proceeds basis until worked out (T3). **APPROVED** (author, 17 November 2026, 09:43) |
+| K-19 | Victoria Regent, not Queen: Elias's draft of December 1886 makes her Queen of the Realm; she strikes the article and has the regency article drafted in its place (G1.3a, in `CR-071-G-addendum.md`) | **APPROVED** (author, 17 November 2026, 15:29; Elias as the one who offers, 18:11) |
+| K-20 | One senator for each large homeland, chosen by its own council; leagues of enclaves by choice (Part I, I-70, I-71; addendum) | **APPROVED** (author, 17 November 2026, 18:56) |
+| K-21 | Threshold of one million acres for the map and the Senate (Part I, I-72); four counties to redraw (I-73) | **APPROVED** (author, 17 November 2026, 18:56) |
+| K-22 | Leased ground in no county: its residents attached to the neighbouring county for county business (addendum R2) | **APPROVED** (author, 17 November 2026, 18:29) |
+| K-23 | One seat per compact | **WITHDRAWN** (author, 17 November 2026, 18:56) |
+| K-24 | Citizenship of a nation's member by registration, without the English test (addendum R2) | **APPROVED** (author, 17 November 2026, 18:29) |
+| K-25 | The nations' ladder: land bought back by first refusal and supplementary compact; the chartered nation's five powers (addendum D) | **APPROVED** (author, 17 November 2026, 18:50) |
 | K-13 | The handover and CR-022 (check B1) | CR-022 B3–B4 stand as drama and are listed under CT4 (R, item 13); §22's "widowhood" reworded (R, item 14). | **APPROVED** (author, 16 November) |
 
 **Numbering note.** The author's approval of "G3, G4, G5, G6, G9" (22:55) was read against the decisions table of draft 2. Every section and every decision of draft 5 is approved, so the two readings no longer differ.
