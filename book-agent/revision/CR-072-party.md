@@ -1,6 +1,6 @@
 # CR-072 (draft 10) — The Prosperity Party: Elias's instrument, the regency's pillar (1865–1932)
 
-**Status:** APPROVED AND INTEGRATED, 17 November 2026 (draft 10), local labels retained, in one pass with CR-073 (CR-071 K-1). Twenty-six decisions APPROVED by the author (P1–P26 below); everything else PROPOSED; no open decisions. Draft 10 adds the storyline text as integrated, the fact changes, the registry and the ledger notes. Draft 9 records the author's decisions of 17 November (20:57) on the two that were open: the secret ballot of 1911 (P25, decision 4) and the deaths of Judah and Broderick (P26, decision 16). Draft 8 applies three corrections from CR-071's consistency check of 16 November (`CR-071-consistency-check.md`): San Francisco's board in C9 (CR-071 K-7), where the act nearly fails in C7 and table F (K-9), and the trigger in table F. The author approved all three on 16 November (CR-071 K-7, K-9).
+**Status:** APPROVED AND INTEGRATED, 17 November 2026 (draft 10), local labels retained, in one pass with CR-073 (CR-071 K-1). Twenty-seven decisions APPROVED by the author (P1–P27 below); everything else PROPOSED; no open decisions. Draft 10 adds the storyline text as integrated, the fact changes, the registry and the ledger notes. Draft 9 records the author's decisions of 17 November (20:57) on the two that were open: the secret ballot of 1911 (P25, decision 4) and the deaths of Judah and Broderick (P26, decision 16). Draft 8 applies three corrections from CR-071's consistency check of 16 November (`CR-071-consistency-check.md`): San Francisco's board in C9 (CR-071 K-7), where the act nearly fails in C7 and table F (K-9), and the trigger in table F. The author approved all three on 16 November (CR-071 K-7, K-9).
 **Sister to:** CR-071, the county restructuring (`CR-071-outline.md` and its parts D, E and F–G). **Integration (CR-071 K-1, APPROVED):** with CR-073 in one pass, before CR-071, because CR-071 and CR-073 both name the Party, Broderick and Judah alive, the Committee party and the Deseret caucus. This CR's references to CR-071 (D4's longer stay, L1's step one, E4's survey, D9's memorandum, F3's trigger, H1's narrow vote) are confirmed when CR-071 goes in; the storyline text below carries none of them beyond P12's survey.
 **Number:** CR-072 assumed; rename if taken.
 **Read with:** CR-021 (B2–B5, D, the Senate chosen by county boards), CR-035 (the League; women examined from 1862), CR-037 (the examination state's rules against cliques; open thread E11, "the Carquinez men"), CR-038 (Vallejo College, the barracks and the House), CR-049 (the nomos), §5–§6 (the Committees of Vigilance), §8, §10 (Deseret's accession), §15 (the marriage-floor case), §19, §22, §23, §24, §25, §27 (the Act of Settlement) of the storyline.
@@ -24,6 +24,8 @@
 > 11b - Right, of course it binds all marriages. 14 approved, 15 approved. Also Broderick and Judah both survive since their historical death circumstances don't apply in this timeline. Their date and manner of death remains open. The secret ballot also remains open for now. (19:03)
 
 > I approve both. (17 November 2026, 20:57, on the suggestions for decisions 4 and 16)
+
+> I approve. This can go into main along with the rest of the integration. (17 November 2026, 21:46, on the suggestions for the 1911 ballot and the canal money after the fresh-context review)
 
 | ID | Decision | Label |
 |---|---|---|
@@ -52,6 +54,7 @@
 | P23 | **The Hawaiian loyalists** are not tame in 1888; they are absorbed with the Act of Settlement of 1907 (redated from 1914 to follow CR-040, 16 November). | APPROVED (author) |
 | P24 | **Broderick and Judah both survive** their historical deaths (the duel of 1859; yellow fever in 1863), because the circumstances of those deaths do not arise in this timeline. When and how each dies: P26. | APPROVED (author) |
 | P25 | **The secret ballot of 1911.** Julian brings in the secret, state-printed ballot in 1911 as his weapon in the Senate fight of 1910–1911 against the county oligarchies (C6). The state prints the ballot and the Office counts it ("the House" in the author's approval of 17 November, read as the Office, where the women of the House work, at integration); a candidate is nominated by a public test (signatures, or a board's standing in the league tables), not by the Party. It is not liberalisation (CT6): the Crown breaks a clique inside its own party, and the Party remains the only one that can win (P20). | APPROVED (author, 17 November, 20:57) |
+| P27 | **Julian's lever (amends P25).** The route onto the 1911 ballot is his: a board in the top band of the league tables nominates directly; everyone else needs signatures from a share of the registered voters that only an organisation can gather. Julian sets the bands by ordinance, and his Commissioners' receiverships push the oligarchs' counties into the signature band. The examined and the House welcome it; the senators see the Crown choosing who may stand (the base text's "manipulates the voting machinery"). | APPROVED (author, 17 November, 21:46) |
 | P26 | **The deaths.** Broderick dies in San Francisco in the winter of 1888–89, aged 68, soon after the Party's first published accounts (P6); the Carquinez men run his funeral, the last the old machine holds, and Ralston brings the city's banks. Judah dies of yellow fever at Colón in 1890, aged 64, while heading the first survey of the Panama works after the purchase of 1889: the death this timeline spared him in 1863 finds him on the isthmus a generation later, and it is one of the regency's reasons for mosquito control (CT15). | APPROVED (author, 17 November, 20:57) |
 
 The model the author named is the party described in the second half of Curtis Yarvin's essay "The Midterm Postmortem" (*Gray Mirror*): a real organisation rather than a label; members disciplined like soldiers; candidates chosen and funded centrally; an intelligence organ and a party line carried by the press; turnout as the source of power; a legislature that passes the executive's bills; a cost to be paid for, not a business selling favours. This CR adapts it to a nineteenth-century Pacific state; it does not quote it.
@@ -297,7 +300,7 @@ Integrated on `main` at 7b2cb15 in one pass with CR-073. Each passage carries a 
 | §25, Vallejo College | The Carquinez men are the Party's cadre; the House audits it | P13, P15 (CT3) |
 | §25, after the canal paragraph | Judah heads the first survey of the works and dies at Colón in 1890; mosquito control | P26 (CT15) |
 | §26, the Act of Settlement | The Hawaiian loyalists come in | P23 |
-| §27, the Senate dispute of 1910–1911 | The county oligarchies (C6, PROPOSED); the secret, state-printed ballot of 1911 | P25 |
+| §27, the Senate dispute of 1910–1911 | The county oligarchies (C6, PROPOSED); the secret, state-printed ballot of 1911; the bands and the signatures as Julian's lever | P25, P27 |
 
 P17's figures stay off the page, as the author asked: the storyline names "the ages of marriage and a limit on the gap between the spouses' ages" without the numbers.
 
@@ -315,7 +318,7 @@ One reviewer, given only the candidate storyline diff, the surrounding storyline
 - **Memo voice removed:** Terry's quarrel "ends short of the field"; Judah "stays on the coast through the war years".
 - **Mosquito control:** Judah's death "hardens the regency's resolve on mosquito control" (no claim about what was known in 1890).
 
-Not changed: the Kido line is left as a single beat; the 1911 ballot keeps the base text's "manipulates the voting machinery" beside it, and whether the league-table route is Julian's own lever is left for a later CR.
+Not changed: the Kido line is left as a single beat. The reviewer's point that the 1911 ballot made Julian a clean reformer went to the author, who approved P27 (21:46): the route onto the ballot is Julian's lever.
 
 ## Character registry and bible (at integration)
 

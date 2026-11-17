@@ -3,7 +3,7 @@ session: 20261117-cr072-073
 started: 2026-11-17
 updated: 2026-11-17
 mode: integration
-status: paused-for-author
+status: done
 baseline:
   commit: 7b2cb15
 independence: one fresh-context reviewer for the integrated storyline text (only the diff, the surrounding storyline, AGENTS.md and the two CRs' canon tensions); the integration itself is by the drafter
@@ -33,6 +33,5 @@ independence: one fresh-context reviewer for the integrated storyline text (only
 
 ## Resume here
 
-- **Waiting for the author:** sign-off on the pull request `integrate/cr072-073` → `main`.
-- **Two points left open by the review for the author:** whether the league-table route onto the 1911 ballot is Julian's own lever (the base text says he "manipulates the voting machinery"); and whether the canal purchase money should come through the Treasury instead of the Patrimony's syndicate (R14 kept, the conflict kept as a PROPOSED beat).
-- **After merging:** rebase `drafts/cr071-073-counties` on the new `main`; CR-071's integration then adds S7, Japan's loan of 1873 with the Bank of California's part, and the Deseret charter's carrying-over (T3).
+- **Author, 17 November 2026, 21:46:** approved both suggestions (CR-072 P27, Julian's lever on the 1911 ballot; CR-073 R26, the canal money) and the merge into `main` with the rest of the integration. Applied and merged.
+- **Next:** rebase `drafts/cr071-073-counties` on the new `main`; CR-071's integration then adds S7, Japan's loan of 1873 with the Bank of California's part, and the Deseret charter's carrying-over (T3).
