@@ -94,6 +94,8 @@ Back from Vladivostok, Soberanes reads the reports from Japan (Part D, D3) and w
 
 **The commission (P12).** In 1880 the Patrimony and its Development Fund are chartered (canon CR-057), with Ralston as first chairman (CR-073 R6). The Fund lends beside private capital against water districts, railway stations and land values, and needs a map of all three. Its survey is headed by **Theodore Judah**, aged 54. The cover is honest: the Fund does need the map. Its second use is known to Elias, Soberanes and Judah. Ralston, who as chairman signs Judah's appointment, works out the second use for himself and says nothing (E-16; E9.2).
 
+*Amended 17 November 2026 (fresh-context review against `main`, item 8):* CR-057 has the Patrimony spend nothing for thirty years and the Fund lend only beside private capital, so the Fund does not commission or pay for the survey. **The Superintendency commissions it**, and the Fund lends on its tables. Ralston, who sees every sheet the Fund lends on, works out the second use (E-16 unchanged: he sees it and keeps the secret). The storyline text (draft 2) and the registry follow this.
+
 **The rules (to be fixed in Part I):**
 - **Watershed first.** Powell's report of 1878 on the arid lands argued that the West's political units should follow its drainage (Hist.; Powell was American; the idea is in the air of the West).
 - **One railway station or port as seat**, within a day's travel of every part of the county.
@@ -190,7 +192,7 @@ CR-073 (approved decisions R1–R25) gives Ralston his arc: no failure in 1875; 
 
 **What Part E takes from CR-073:**
 - **E2:** August 1875 is the members' lesson in what the Confederation's credit is worth.
-- **E4 (E-16):** Judah's survey works under the Patrimony's charter of 1880, so Ralston signs the appointment. He sees the map's second use and keeps the secret.
+- **E4 (E-16):** Judah's survey is the Superintendency's, and the Fund lends on its tables, so Ralston sees every sheet (amended 17 November; formerly "works under the Patrimony's charter, so Ralston signs the appointment"). He sees the map's second use and keeps the secret.
 - **1886–87 (E-15):** as chairman of the Patrimony, Ralston brings the San Francisco houses to accept the Constitution. His argument is canon's rule that "the city that holds the money never holds the government" (CR-021 B6): San Francisco becomes a Crown city and keeps the mint, the Reserve Bank, the syndicates and the champions' headquarters, and gives up governing. A builder who wants to build, not to rule (CR-073 D2), can sell that to the houses. This is the act that empties the Committee party's last ground (CR-072 C9), and it is used in Part H.
 - **Sharon** is broken in January 1875 (CR-073 G4) and is not a figure in this part.
 
@@ -218,7 +220,7 @@ CR-073 goes into canon before this CR (K-1), so this CR carries E-15 and the gua
 | E-9 | The old counties' men elected by ward for the first two terms; losing towns receive the court, school or hall | **APPROVED** |
 | E-10 | Hawaii ratifies through the Territorial Council with the Queen's assent; the Queen's Guard becomes Thalassia's guard | **APPROVED** |
 | E-11 | Drop the outline's prototype C3 | **APPROVED** |
-| E-12 | Sherman chairs the 1882 examining board and keeps the commissions out of the Party's hands | **APPROVED** |
+| E-12 | Sherman chairs the 1882 examining board and keeps the commissions out of the Party's hands | **APPROVED**; confirmed by the author on 17 November 2026, 23:03 ("Yes sherman should chair it, that is my decision"), after the review against `main` asked whether it overrides AGENTS.md's "Sherman's fate after 1865 stays OPEN"; AGENTS.md is amended at integration |
 | E-13 | At Sherman's request the failed officers form a command of their own, the inland command | **APPROVED** |
 | E-14 | Sherman's refusal of June 1884 is a refusal of the succession | **APPROVED** |
 | E-15 | Ralston, as chairman of the Patrimony, brings the San Francisco houses to accept the Constitution in 1886–87 | **APPROVED** (guards by K-8) |
