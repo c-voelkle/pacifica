@@ -21,6 +21,22 @@ So the end state is fixed. This CR supplies the **causes, the method, the oppone
 ## A. The starting position: what a member was (1856–1865)
 
 What the members actually held that Elias later needs: militia, courts, land law, charters for banks and railways, their own debt, the choice of Council delegates.
+
+- A0. **What a member held, and when it passed to the centre** (DRAFT 1, 17 November 2026; every row from an approved part):
+
+| Power | Held by the members from | Passes to the centre | How |
+|---|---|---|---|
+| Banks and money | The Articles (1856) | 1857 | Banking follows the currency to the Reserve Bank (CR-057 G13) |
+| Land | The Articles; the charters of 1866 | 1867 for the acceded members | The members' land enters the Land Fund at the exchange (L15); new works go round the members through grants to county boards (C1, from 1865) |
+| Railway charters | The Articles | Gradually, 1865–1884 | The trunk lines are chartered by the confederal chambers with Land Fund grants (I-53); the Sacramento line on Development Fund credit (1865–67) |
+| Courts and law | The Articles; the charters | 1865–1886 | The Confederal Court from 1865 hears confederal grants (C1, C2); the members adopt California's codes through Party majorities (E3.3) |
+| Debt | The Articles; the charters | 1875–1879 | The assumption (E2), refused by California and Deseret |
+| The executive | Elected governors | 1879 | The Commission Act: governors become Commissioners of the Confederation; treasurers and auditors examined and posted from outside (E3.1) |
+| Militia | The Articles; the charters (ten years' home service, CR-059) | 1882 | The Militia Act (E1) |
+| Residence | The members (CR-059 X8) | 1887 | Ends with the member (G-6) |
+| The Council delegation | The Articles; the charters | 1887 | The Council ends with the Constitution (G-1); until then it is the members' last real power, which is why the Party must win their legislatures (F3, A3) |
+
+  The table is the hollowing in one view: by 1887 a member is a legislature, a Council delegation and a power over residence, and little else.
 - A1. The list of members and non-member lands, with the instrument each came in under. **Checked against CR-059–061 on `main` (16 November; K-10):**
 
 | Member | Instrument | Member from | Legislature in the 1880s |
@@ -35,9 +51,36 @@ What the members actually held that Elias later needs: militia, courts, land law
 | New Mexico, with Arizona county | Charter of accession, summer 1866 (CR-061 A4) | 1867 | Yes |
 | Deseret | Charter of accession, December 1866, after the Compact of 1863 (CR-060 D12) | 1867 | Yes |
 
-  That gives **nine members and eight member legislatures** in the 1880s. Arizona is not a member: it is Arizona county of New Mexico. The Western Slope and the Parks are a Ute homeland with no settlers to vote (CR-060); South Park and the upper Arkansas join with the interior in 1867 (CR-060, population note). Alaska is a territory, not a member.
-- A2. What each compact reserved: Hawaii's crown and institutions; Deseret's marriage and church-property law; Oregon's exclusion law; Columbia's charter.
-- A3. The Council after the accessions: who sits, with how many votes. (In 1864 it is 18 seats, California 9 and Hawaii 9.) **Canon (CR-059 CT8, CR-060 A5; author, 12 November 2026):** every new member has a Council delegation equal with the others, and Assembly seats by population. Washoe's legislature chooses its delegation (CR-073 R24). **PROPOSED (K-10):** Hawaii's delegation is chosen by the Territorial Council from 1876, as the Council has the legislature's business (E6). The two-thirds of April 1887 is then six of nine delegations: the Party holds Oregon, Columbia, Idaho, western Montana, Washoe and New Mexico, Hawaii's is the Crown's, and California's changes hands with its legislature in November 1886. Only Deseret's is against.
+  That gives **nine members and eight member legislatures** in the 1880s. Arizona is not a member: it is Arizona county of New Mexico. Deseret takes in southwest Wyoming (CR-060). Alaska is a territory, not a member.
+
+  **The lands that are not members** (DRAFT 1; A-1 for the author):
+  | Land | Governed by | From | Source |
+  |---|---|---|---|
+  | Alaska | The Northern Commission | 1867 (beyond 1887) | CR-059–070; I-7 |
+  | Baja California | A commission on the Alaska model, at La Paz | 1867–1887 | I-39, I-54, I-61 |
+  | **The Mountain Districts** (South Park, the upper Arkansas, and from 1873 the leased districts of the San Juan and Gunnison; from 1878–80 the Front Range districts that vote themselves over) | **A confederal commission** (PROPOSED, A-1), seated at Fairplay, at Leadville from 1879; each district keeps its own miners' code, as CR-060 CO7 says the districts "enter as districts" | 1867–1887 | CR-060 CO4, CO7; I-68 |
+  | The San Luis Valley's Hispano settlements (Costilla, Conejos) | New Mexico (PROPOSED, A-1): taken with Fort Garland by the Rio Grande garrison in 1863 and settled from Taos | 1867 | CR-060 CO3; the map (Taos, Rio Arriba) |
+  | The homelands | Their own nations, by compact (I-8) | 1865–1867 onward | Part I, I4 |
+
+  The Mountain Districts are the third commission after Alaska and Baja (C4), and the reason the Rockies have five counties in 1887 without ever having been a member: Elias never let the richest silver of the 1880s acquire a legislature.
+- A2. **What each compact reserved, and what it becomes in 1887** (DRAFT 1; the acceded members' rows are F–G's T3, APPROVED; Idaho's and western Montana's are A-2, for the author):
+
+| Member | Reserved | 1887 |
+|---|---|---|
+| California | The historic land: Spanish, the Court at Monterey, community property (CR-021 B2; CR-072 C3) | **Carried**: the outer boundary survives as county lines (I1 rule 5); Spanish entrenched in the whole land; the Court of the Realm sits at Monterey |
+| Hawaii | Its crown, the Kuhina Nui and its local institutions (the Council's resolution of November 1864 and the bargain of 1865; CR-068) | **Carried**: the historic land; the Hawaiian crown; Hawaiian entrenched (I-44); the Territorial Council until 1907 (CR-040) |
+| Oregon | The exclusion article; the Native article; the floor for Chinese residents; the school share | Exclusion **ends** (G-6); the rest **carried** (T3) |
+| Columbia | The school share; the treaty fishing right; compacts for the peoples without a treaty; the works | **Carried**, the works ended as fulfilled; the name survives in the Olympia circuit (K-16) |
+| Idaho | The Chinese floor, which replaced Idaho's tax of 1864 on Chinese miners (CR-059 I10); the miners' district codes and titles (PROPOSED, A-2) | **Carried** as guarantees of the whole: the floor becomes the Realm's law; no title granted under a district code before 1887 can be reopened (PROPOSED, A-2) |
+| Washoe | Carson's guarantees of 1860; titles and liens; the net-proceeds tax | Guarantees and titles **carried**; the tax cap **ends**, existing mines keeping it until worked out (K-17) |
+| Western Montana | The supply compacts of 1863–64: freight at published rates, coin, assay and licensed courts (CR-060); the district titles (PROPOSED, A-2) | The compacts' terms are **already common** (the Realm's law and coin); the titles **carried** as in Idaho (PROPOSED, A-2) |
+| New Mexico | Abolition; Spanish; the land grants | **Carried** (T3) |
+| Deseret | Marriage and church-property law; the Nauvoo Legion within the Defense Law | Carried as a personal guarantee for every registered church (CR-072 P16); the Legion already common (E1) |
+- A3. The Council after the accessions: who sits, with how many votes. (In 1864 it is 18 seats, California 9 and Hawaii 9.) **Canon (CR-059 CT8, CR-060 A5; author, 12 November 2026):** every new member has a Council delegation equal with the others, and Assembly seats by population. Washoe's legislature chooses its delegation (CR-073 R24). **APPROVED (K-10):** Hawaii's delegation is chosen by the Territorial Council from 1876, as the Council has the legislature's business (E6). The two-thirds of April 1887 is then six of nine delegations: the Party holds Oregon, Columbia, Idaho, western Montana, Washoe and New Mexico, Hawaii's is the Crown's, and California's changes hands with its legislature in November 1886. Only Deseret's is against.
+
+**Decisions for the author (Part A):**
+- **A-1.** The Colorado mountains (South Park, the upper Arkansas, the leased Ute districts and, from 1878–80, the Front Range districts) are the **Mountain Districts** under a confederal commission at Fairplay, then Leadville, never a member; the San Luis Valley's Hispano settlements belong to New Mexico.
+- **A-2.** Idaho's charter reserves the Chinese floor (canon) and the district titles; western Montana's reserves its supply compacts' terms and the district titles; in 1887 the floor and the titles are carried, the compacts' terms are already common.
 
 *Settled:* Arizona, New Mexico, Washoe and the interior were not governed as counties from the start; canon makes New Mexico and the interior members ("the new state", §10; "the interior states", CR-021). The prototype C3 is withdrawn (E-11).
 
@@ -61,12 +104,12 @@ Seven long-run causes, each tied to an event already in canon. The question for 
 
 ## C. The method before 1871: hollowing (1865–1871)
 
-- C1. **The grant machinery (1865–1871). DRAFT 1, PROPOSED.** Canon: from 1865 Elias uses the Enabling Law to deal with county boards over the members' heads, through water grants, railway subsidies and land sales (§25; CR-021 B5). The machinery:
+- C1. **The grant machinery (1865–1871). APPROVED (author, 17 November 2026, 10:23: "These work for me").** Canon: from 1865 Elias uses the Enabling Law to deal with county boards over the members' heads, through water grants, railway subsidies and land sales (§25; CR-021 B5). The machinery:
   - **Who applies.** A county board (or, from the 1870s, an irrigation district or a railway company the board backs) petitions the confederal Superintendency of Mines and Public Revenue (canon, 1852) for a grant or Development Fund credit for named works. The member's legislature is not a party and need not be told.
   - **Who audits.** The Superintendency's auditors, examined and posted from outside the county. The accounts are published each year beside the next county's: the first comparison tables, two decades before the Office of Public Measures (1888).
   - **What the board signs away.** (1) Its works' accounts, open to confederal audit; (2) the works' route and purpose, which no later board or member law may change without confederal consent; (3) any member tax on the works or their revenue; (4) the forum: disputes go to the Confederal Court, not the member's courts. In return the board gets money its member could never give it, and credit at the centre's rate.
   - **What it does.** By 1871 most interior boards spend more confederal money on works than member money (PROPOSED, no figure). Supervisors learn to look to Monterey; the member's legislature learns that the works in its own counties are not its own. Nothing is taken from the members; everything new goes round them.
-- C2. **The first quarrel: Oregon's Land Act (1869–1870). DRAFT 1, PROPOSED (the case from I-65).** The Chinese floor of Oregon's charter (CR-059 X5) has opened Oregon to Chinese Pacificans, and it provokes the first anti-Chinese movement inside Pacifica in southern Oregon and Idaho (CR-059 S4). In 1869 the Breckinridge men of Jackson and Josephine carry a Land Act through Oregon's legislature: no Land Fund sale in Oregon to any person whom the 1857 constitution would have barred from holding land, and a member tax on assisted settlers' instalments.
+- C2. **The first quarrel: Oregon's Land Act (1869–1870). APPROVED (as C1; the case from I-65).** The Chinese floor of Oregon's charter (CR-059 X5) has opened Oregon to Chinese Pacificans, and it provokes the first anti-Chinese movement inside Pacifica in southern Oregon and Idaho (CR-059 S4). In 1869 the Breckinridge men of Jackson and Josephine carry a Land Act through Oregon's legislature: no Land Fund sale in Oregon to any person whom the 1857 constitution would have barred from holding land, and a member tax on assisted settlers' instalments.
   - **The case.** A Chinese Pacifican from California, holding a Land Fund contract for a farm in the Rogue valley, refuses the tax (his name OPEN). The Confederal Court strikes the Act in 1870 on three grounds: the Land Fund's title is confederal and no member may attach a condition of race to it; the charter's floor (X5) protects a citizen of another member; and no member tax lies on a confederal grant (C1).
   - **What Oregon keeps.** Its residence power over non-citizens and its exclusion article (CR-059 X8) are untouched, and Elias says so in public: the Court has held only what the charter says. Assisted settlers who are not yet citizens are routed to Columbia and Idaho until they naturalise. The residence power ends in 1887 (G-6).
   - **What it teaches.** The legislature lost to a farmer it could not tax, before a court it could not appeal, on a contract it had never seen. It is the first time a member learns that its own counties' business is no longer its own. The Chronicler records the case in its year; the reader connects it at 1887.
@@ -158,7 +201,7 @@ One row each: who, what they stood to lose, what they did, how it ended, what it
 - I5. **Alaska** (I-7, APPROVED): the Northern Commission continues; Alaska is outside the 124 (CT3).
 - I6. **Changes after 1887:** mergers, splits, new Crown cities (OPEN-021-12), the end of the Territorial Council under the Act of Settlement (1907, CR-040). OPEN.
 
-## J. Aftermath (1887–1900) — DRAFT 1, 17 November 2026 (PROPOSED)
+## J. Aftermath (1887–1900) — APPROVED (author, 17 November 2026, 10:23: "These work for me"); names OPEN
 
 - J1. **The first Commissioners arrive (1888): one good posting, one bad.** The first rotation comes from the examined men of 1879–87 (B4), each posted outside his home county (CR-021 B3).
   - **The good posting: a Spanish county on the Rio Grande** (Taos or Mora). The Commissioner is a Californio of the examined service who must and can work in Spanish (the county language, I-30). He keeps the old alcaldes' habits of hearing complaints in the plaza, publishes the county's accounts in both languages, and in his third year Mora's school passes rise above the territory's best. The county's own men had expected an Anglo from Sacramento.
