@@ -1553,7 +1553,7 @@ owes = [
   { by = "ES", to = "PAC", what = "service of the loan from Philippine customs and tobacco revenues; Pacifican agents sit in the customs houses" },
 ]
 secured_on = "Philippine customs and tobacco revenues"
-conditions = ["The Banco Español-Filipino services the loan in Manila.", "The price includes the pardon of the Filipino exiles on Guam (PROPOSED)."]
+conditions = ["The Banco Español-Filipino services the loan in Manila.", "The price includes the pardon of the Filipino exiles on Guam (PROPOSED).", "The Bank of California is the Republic's agent for the loan (CR-073 R10, APPROVED)."]
 status = "APPROVED"
 cr = "CR-029"
 section = 15
@@ -1563,6 +1563,7 @@ more_quotes = [
   "The price includes the pardon of the Filipino exiles on Guam.",
   "The Restoration of December 1874 inherits a debt it cannot pay.",
   "He calls it the honourable liquidation of a republican debt that saves Cuba.",
+  "In 1874 his bank is the Republic's agent for the Spanish loan.",
 ]
 open = "Amount, rate and maturity not stated. 'Ended 1876' reads the law of sale as liquidating the debt, as Cánovas calls it."
 
@@ -1879,13 +1880,18 @@ conditions = [
   "Holds railway, mortgage and champions' bonds at home until 1919; then invests across the world, never in a government in default or in treaty negotiation with Pacifica.",
   "Spends nothing for thirty years; from 1910 pays three percent of its value each year into the budget for infrastructure, the Polytechnic and the research institutes.",
   "Every loss is written off in public; the Development Fund lends only beside private capital that takes the first loss, except to the state's own estates.",
+  "Its first chairman is Ralston, from 1880 (CR-073 R6); the charters of 1887–88 recharter it with the estates and bring its chairman under the age of sixty-eight (CR-073 R8), and he retires in 1894.",
 ]
 status = "APPROVED"
 cr = "CR-057"
 section = 19
 quote = "In 1880 Elias writes the charter of the Patrimony, which takes the state's rents, not its taxes"
-more_quotes = ["the Crown holds the state's shares in its own estates, the trunk rights of way and, from 1889, the canal, and the Patrimony receives the rents"]
-open = "Revised by CR-057 (replaces the seventy-percent surplus rule of CR-020 B8). The charter's legal form (statute or decree) is not stated."
+more_quotes = [
+  "the Crown holds the state's shares in its own estates, the trunk rights of way and, from 1889, the canal, and the Patrimony receives the rents",
+  "Elias makes Ralston the first chairman of the Patrimony in 1880",
+  "The charters of 1887–88 recharter the Patrimony with the estates and bring its chairman under the age of sixty-eight.",
+]
+open = "Revised by CR-057 (replaces the seventy-percent surplus rule of CR-020 B8). The charter's legal form (statute or decree) is not stated. The recharter of 1887–88 is a one-off act, not a scheduled renewal."
 
 [[commitment]]
 id = "C-1880-COLOMBIA"
@@ -2254,8 +2260,8 @@ owes = [
 status = "PROPOSED"
 section = 25
 quote = "The price includes canal recognition, Asian-war neutrality and tariff concessions."
-more_quotes = ["Pacifica rescues the Union's gold reserve in 1895."]
-open = "Form of the rescue (loan, purchase), repayment and term not stated."
+more_quotes = ["Pacifica rescues the Union's gold reserve in 1895.", "The Treasury's gold goes east through a syndicate led by the Bank of California."]
+open = "Form of the rescue (loan, purchase), repayment and term not stated. The syndicate's lead is the Bank of California (CR-073 R3, APPROVED)."
 
 [[commitment]]
 id = "C-1897-US-ARBITRATION"
