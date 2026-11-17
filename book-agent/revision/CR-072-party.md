@@ -1,6 +1,6 @@
-# CR-072 (draft 8) — The Prosperity Party: Elias's instrument, the regency's pillar (1865–1932)
+# CR-072 (draft 9) — The Prosperity Party: Elias's instrument, the regency's pillar (1865–1932)
 
-**Status:** DRAFT 8, 16 November 2026. Twenty-four decisions APPROVED by the author (P1–P24 below); everything else PROPOSED. Still OPEN: the secret ballot under Julian (decision 4); the dates and manner of Broderick's and Judah's deaths (decision 16). Draft 8 applies three corrections from CR-071's consistency check of 16 November (`CR-071-consistency-check.md`): San Francisco's board in C9 (CR-071 K-7), where the act nearly fails in C7 and table F (K-9), and the trigger in table F. The author approved all three on 16 November (CR-071 K-7, K-9).
+**Status:** DRAFT 9, 17 November 2026. Twenty-six decisions APPROVED by the author (P1–P26 below); everything else PROPOSED. No open decisions remain. Draft 9 records the author's decisions of 17 November (20:57) on the two that were open: the secret ballot of 1911 (P25, decision 4) and the deaths of Judah and Broderick (P26, decision 16). Draft 8 applies three corrections from CR-071's consistency check of 16 November (`CR-071-consistency-check.md`): San Francisco's board in C9 (CR-071 K-7), where the act nearly fails in C7 and table F (K-9), and the trigger in table F. The author approved all three on 16 November (CR-071 K-7, K-9).
 **Sister to:** CR-071, the county restructuring (`CR-071-outline.md` and its parts D, E and F–G). **Integration (CR-071 K-1, APPROVED):** with CR-073 in one pass, before CR-071, because CR-071 and CR-073 both name the Party, Broderick and Judah alive, the Committee party and the Deseret caucus. This CR's references to CR-071 (D4's longer stay, L1's step one, E4's survey) are confirmed when CR-071 goes in.
 **Number:** CR-072 assumed; rename if taken.
 **Read with:** CR-021 (B2–B5, D, the Senate chosen by county boards), CR-035 (the League; women examined from 1862), CR-037 (the examination state's rules against cliques; open thread E11, "the Carquinez men"), CR-038 (Vallejo College, the barracks and the House), CR-049 (the nomos), §5–§6 (the Committees of Vigilance), §8, §10 (Deseret's accession), §15 (the marriage-floor case), §19, §22, §23, §24, §25, §27 (the Act of Settlement) of the storyline.
@@ -22,6 +22,8 @@
 > 8. approved 11. approved 11a. based on common law in Mexico the absolute minimum age would be the same as Utah's 14/12 (with parental consent) and 21/18 for independent marriage. What Pacifica would add is a rule that a spouse may not be older than twice the plural spouse's age minus seven years. So for a 12 year old bride the groom could be no older than 17 (and this would require parental consent until the bridal age of 18). These mechanics need not be discussed in detail on page. 12. approved, 13. approved, however the tendency of the Prosperity Party is to absorb or neutralize its competitors. It does not end up in a two party system like the Union, but rather has only friends or completely tame and ineffectual opponents by ca. 1888. (18:46)
 
 > 11b - Right, of course it binds all marriages. 14 approved, 15 approved. Also Broderick and Judah both survive since their historical death circumstances don't apply in this timeline. Their date and manner of death remains open. The secret ballot also remains open for now. (19:03)
+
+> I approve both. (17 November 2026, 20:57, on the suggestions for decisions 4 and 16)
 
 | ID | Decision | Label |
 |---|---|---|
@@ -48,7 +50,9 @@
 | P21 | **The age-gap rule binds every marriage**, of every form, not plural marriages only. | APPROVED (author) |
 | P22 | **How each rival ends** (the C9 table). | APPROVED (author); the San Francisco row corrected in draft 8 (CR-071 K-7, APPROVED) |
 | P23 | **The Hawaiian loyalists** are not tame in 1888; they are absorbed with the Act of Settlement of 1907 (redated from 1914 to follow CR-040, 16 November). | APPROVED (author) |
-| P24 | **Broderick and Judah both survive** their historical deaths (the duel of 1859; yellow fever in 1863), because the circumstances of those deaths do not arise in this timeline. When and how each dies is OPEN (decision 16). | APPROVED (author) |
+| P24 | **Broderick and Judah both survive** their historical deaths (the duel of 1859; yellow fever in 1863), because the circumstances of those deaths do not arise in this timeline. When and how each dies: P26. | APPROVED (author) |
+| P25 | **The secret ballot of 1911.** Julian brings in the secret, state-printed ballot in 1911 as his weapon in the Senate fight of 1910–1911 against the county oligarchies (C6). The state prints the ballot and the House counts it; a candidate is nominated by a public test (signatures, or a board's standing in the league tables), not by the Party. It is not liberalisation (CT6): the Crown breaks a clique inside its own party, and the Party remains the only one that can win (P20). | APPROVED (author, 17 November, 20:57) |
+| P26 | **The deaths.** Broderick dies in San Francisco in the winter of 1888–89, aged 68, soon after the Party's first published accounts (P6); the Carquinez men run his funeral, the last the old machine holds, and Ralston brings the city's banks. Judah dies of yellow fever at Colón in 1890, aged 64, while heading the first survey of the Panama works after the purchase of 1889: the death this timeline spared him in 1863 finds him on the isthmus a generation later, and it is one of the regency's reasons for mosquito control (CT15). | APPROVED (author, 17 November, 20:57) |
 
 The model the author named is the party described in the second half of Curtis Yarvin's essay "The Midterm Postmortem" (*Gray Mirror*): a real organisation rather than a label; members disciplined like soldiers; candidates chosen and funded centrally; an intelligence organ and a party line carried by the press; turnout as the source of power; a legislature that passes the executive's bills; a cost to be paid for, not a business selling favours. This CR adapts it to a nineteenth-century Pacific state; it does not quote it.
 
@@ -99,11 +103,11 @@ Elias pairs a machine man, who knows men, with an engineer, who knows lines.
 - *In this timeline.* In 1856 Elias breaks the second Committee of Vigilance (canon §6). The machine the vigilantes meant to destroy survives because of Elias, and Broderick owes him that. There is no Senate seat in Washington to fight over and no Lecompton quarrel, so the feud with Terry never comes to the field (P24; Terry's later life OPEN). Broderick is 46 in 1866.
 - *What he brings:* wards and captains, the printed ticket, turnout, and the discipline to make a bought vote stay bought.
 - *What he has to unlearn:* the sale of offices. His system ran on fees; Elias's offices are examined. Broderick builds a machine paid for from above, a cost and not a business (E), and he never quite believes it can work.
-- *Stepping aside (P11):* about 1880 he gives up the direction of the Party, which lets the examined cadre take it over (C3). He is the last of the old machine; the Carquinez men are the new one. What he does after 1880, and when and how he dies, are OPEN (decision 16).
+- *Stepping aside (P11):* about 1880 he gives up the direction of the Party, which lets the examined cadre take it over (C3). He is the last of the old machine; the Carquinez men are the new one. He stays in San Francisco as the Party's elder. In 1888 he reads its first published accounts (P6): a machine paid for from above, the thing he never quite believed could work, set out county by county for anyone to read. He dies that winter, in 1888–89, at 68. The Carquinez men run his funeral like an operation, the last the old machine holds, and Ralston brings the city's banks (P26).
 
 **Theodore Judah (b. 1826), the lines.**
 - *Hist.* Rensselaer-trained, he came west in 1854 to build the Sacramento Valley Railroad. The Pacific Railroad Convention of 1859 at San Francisco sent him to Washington to lobby, and he worked the committees there. In 1860–61, with Daniel Strong, the druggist of Dutch Flat, he found the line over Donner Pass and raised the first money for it town by town along the route, signing up Huntington, Crocker, Stanford, Hopkins and Bailey in Sacramento after San Francisco turned him down. He fell out with them over their Dutch Flat wagon road, sailed for New York in October 1863 to raise money to buy them out, caught yellow fever crossing Panama and died in New York on 2 November 1863.
-- *In this timeline.* Judah is in canon's engineering community, "included in principle without separately settled undertakings" (§5). Pacifica is at war with the Union in 1863; there is no going to New York for capital, so there is no Panama crossing and he lives (P24). His quarrel with Huntington and Crocker, both in canon, goes to Elias instead, and the Sacramento line of 1865–67 is built on confederal money. When and how he dies is OPEN (decision 16).
+- *In this timeline.* Judah is in canon's engineering community, "included in principle without separately settled undertakings" (§5). Pacifica is at war with the Union in 1863; there is no going to New York for capital, so there is no Panama crossing and he lives (P24). His quarrel with Huntington and Crocker, both in canon, goes to Elias instead, and the Sacramento line of 1865–67 is built on confederal money. Judah dies of yellow fever at Colón in 1890, at 64, heading the first survey of the Panama works after the French enterprise is bought in 1889. The crossing that killed him historically in 1863 kills him a generation later, with the counties drawn (P26).
 - *What he brings:* the convention and the lobby; a map of every town, board and subscriber along a line; and the habit of treating the county as the unit of a network. The Party's wire runs along his telegraph and rail lines, and its county committees follow his stations.
 - *His later part (P12):* he heads the boundary survey that draws the 124 counties (CR-071 E4), by watershed, railway and station. The engineer who organised the counties along one line draws them for the whole Realm.
 - *Why he matters to P3:* he is an engineer among machine men, and the first bridge between the Party and the estates. Soberanes, when he takes the Party up after 1878, inherits Judah's half of it.
@@ -141,7 +145,7 @@ Elias pairs a machine man, who knows men, with an engineer, who knows lines.
 ### C5. The regency's pillar (1887–1907) — P2, P5, P6 APPROVED
 
 - **The Franchise Law of 1888** gives a second vote for the civil examination and a third for a degree, commission or diploma, plus tongue votes (canon §25). The plural franchise weights the electorate toward the Party's own cadre.
-- **The ballot (P5).** The Party goes on printing its own ticket under the regency. The secret, state-printed ballot is OPEN for Julian's reign (decision 4).
+- **The ballot (P5).** The Party goes on printing its own ticket under the regency. The secret, state-printed ballot comes only under Julian, in 1911 (P25, C6).
 - **The accounts (P6).** From 1888 the Party publishes its accounts with the Office's other numbers: who paid, what was spent, in which county.
 - **League tables and the boards.** Victoria governs by comparison (CR-021 B5). The Office publishes, the Five's press makes the tables famous, and the Party's slates run on them in every board election. That is why shame and ambition work faster than receivership.
 - **The press seat.** Kalākaua's project of the image passes to the press seat of the Five in 1891 (canon §19). PROPOSED: the Party's wire is one of the things it inherits.
@@ -152,6 +156,7 @@ Elias pairs a machine man, who knows men, with an engineer, who knows lines.
 
 - Julian governs by command, receivership and ordinance (CR-021 B5). The boards are suspended in many counties in the war years, and the Party's county men lose what they built.
 - **The county oligarchies** that fight Julian through the Senate in 1910–1911 and in 1927 are the Party's county organisations grown old, rich and hereditary. The examined cadre has become a clique after all, which is what CR-037 E11 foresaw. With no opposition outside the Party (P20), the fight is inside it.
+- **The ballot of 1911 (P25).** Julian answers the oligarchies in the Senate fight of 1910–1911 by taking the ticket from them. From 1911 the state prints the ballot and the House counts it, and a candidate goes on it by a public test: signatures, or a board's standing in the league tables. The county men lose the means to make a bought vote stay bought; the examined lose almost nothing. The Union's reformers wanted the secret ballot against the parties. Here the Crown uses it against a clique inside its own party, and the Party remains the only one that can win (P20; CT6 stands). The oligarchies must find other means, which is part of why they come back in 1927.
 - Details are for a later CR.
 
 ### C7. Deseret: the Aufhebung — P16, P17, P18, P21 APPROVED
@@ -287,11 +292,12 @@ The three senses of *aufheben*: Deseret's machine is **cancelled** as a power of
 - **CT6 — "No political liberalisation" under the regency** (canon decision of 18 October 2026). The Party is not liberalisation: it is the Crown's instrument, and P20 makes it the only party that can win.
 - **CT7 — CR-021 names the Regent Kaiulani.** Read Victoria (as in CR-071).
 - **CT14 — CR-021 and CR-027 date the Act of Settlement 1914, the regency to 1915 and the Senate dispute 1915–17.** Read `main` as integrated with CR-040: the Act of 1907, Julian's accession in November 1907, the Senate dispute of 1910–1911.
-- **CT8 — Judah's death in 1863.** Canon includes him only in principle (§5). His survival (P24) changes no approved fact; it is a new fact for the registry, with his death OPEN.
-- **CT9 — Broderick and Terry.** Neither is in canon. Broderick's survival past 1859 and the absence of the duel (P24) are new facts for the registry, with his death OPEN.
+- **CT8 — Judah's death in 1863.** Canon includes him only in principle (§5). His survival (P24) changes no approved fact; it is a new fact for the registry, with his death at Colón in 1890 (P26).
+- **CT9 — Broderick and Terry.** Neither is in canon. Broderick's survival past 1859 and the absence of the duel (P24) are new facts for the registry, with his death in San Francisco in 1888–89 (P26).
 - **CT10 — CR-021 B2, civil law: "a single code with historic-land exceptions".** Amended: the single code gains a personal guarantee of religious marriage forms and church property, with the Realm's floors and ages (C7), alongside the historic-land exceptions for California and Hawaii. Deseret does not become a historic land; its law is protected by person, not by territory. Canon §10's accession protection is thereby continued, not ended.
 - **CT11 — "People's Party".** Historically both San Francisco's vigilance party (1856) and Utah's Church party (1870) used the name. The text keeps it for Deseret's and calls San Francisco's the Committee party.
 - **CT12 — Elections under a dominant party (P20).** Canon's elected bodies (county boards, the Chamber of Deputies, the plural franchise) stand. They are contested, and the Party wins them. Nothing in canon requires a second party.
+- **CT15 — Canon §25 (the Panama works, storyline line 968): "A lock-and-lake design and mosquito control guide the regency's work."** Stands. P26 adds one reason for the mosquito control, Judah's death at Colón in 1890; the line itself is unchanged. The French purchase of 1889 and the opening of 1900 (CR-039) are unchanged.
 - **CT13 — CR-021 B3: San Francisco a city-county "as it has been since the Consolidation Act of 1856".** Stands. Draft 7's "no county board to win" contradicted it; C9 now gives San Francisco a board and a senator, and the Party wins the board (CR-071 K-7).
 
 ## Open decisions
@@ -302,7 +308,7 @@ The three senses of *aufheben*: Deseret's machine is **cancelled** as a power of
 | 1a | Usage | As in P9 | **APPROVED** (P9) |
 | 2 | Founding year | 1866 | **APPROVED** (P4) |
 | 3 | First organisers | Broderick and Judah | **APPROVED** (P10) |
-| 4 | The secret ballot under Julian | — | OPEN (author, 19:03) |
+| 4 | The secret ballot under Julian | 1911, against the county oligarchies | **APPROVED** (P25, 17 November, 20:57) |
 | 5 | Accounts published | From 1888 | **APPROVED** (P6) |
 | 6 | Kido asks how it is done | Yes | **APPROVED** (P14) |
 | 7 | The Carquinez men as cadre | Yes | **APPROVED** (P13) |
@@ -316,7 +322,7 @@ The three senses of *aufheben*: Deseret's machine is **cancelled** as a power of
 | 13 | San Francisco's rival | The Committee party | **APPROVED** (P19) |
 | 14 | How each rival ends | The C9 table | **APPROVED** (P22); San Francisco row by CR-071 K-7 (APPROVED) |
 | 15 | The Hawaiian loyalists | Absorbed in 1907 | **APPROVED** (P23) |
-| 16 | When and how Broderick and Judah die | — | OPEN (author, 19:03) |
+| 16 | When and how Broderick and Judah die | Broderick in San Francisco, 1888–89; Judah at Colón, 1890 | **APPROVED** (P26, 17 November, 20:57) |
 
 ## Research
 

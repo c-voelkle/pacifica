@@ -17,7 +17,7 @@
 | HENRY-MILLER | Henry Miller (of Miller & Lux) | historical, alternate career | The riparian plaintiff of *Lux v. Kern River District* (working name), the water decision of October 1886 (K-6, F3); his partner Charles Lux dies in March 1887 (Hist.) | 1827–1916, unchanged |
 | VICTORIO | Victorio | historical, alternate career | With no removal there is no Victorio's war; he may sit on the council that spends the Santa Rita royalty (I-66) | c. 1825–1880 historically, killed at Tres Castillos. **His death is OPEN here**: the war that killed him does not happen |
 
-**People CR-072 brings in** (listed so they are not missed; their entries belong to CR-072, which goes in first, K-1): John Taylor (1808–25 July 1887; resists until his death, CR-072 P18), George Q. Cannon (1827–1901; brings the Church in, G-4), Theodore Judah (alive, death OPEN; CR-072 P24, CT8), David Broderick (alive past 1859, death OPEN; CR-072 P24, CT9). If CR-072 has no registry section by then, add them with this list.
+**People CR-072 brings in** (listed so they are not missed; their entries belong to CR-072, which goes in first, K-1): John Taylor (1808–25 July 1887; resists until his death, CR-072 P18), George Q. Cannon (1827–1901; brings the Church in, G-4), Theodore Judah (1826–1890; dies of yellow fever at Colón, CR-072 P24, P26, CT8), David Broderick (1820–1889; dies in San Francisco in the winter of 1888–89, CR-072 P24, P26, CT9). If CR-072 has no registry section by then, add them with this list.
 
 **Named only, no entry:** Charles Lux; Itō, Kido, Ōkubo and Saigō (Part D's comparison, not the Chronicler's); Theresa Wilcox; the first Commissioners, the Baja commissioners and the first Chancellor (OPEN).
 
