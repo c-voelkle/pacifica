@@ -433,6 +433,77 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 
 **Numbering note.** The author's approval of "G3, G4, G5, G6, G9" (22:55) was read against the decisions table of draft 2. Every section and every decision of draft 5 is approved, so the two readings no longer differ.
 
+## Fact changes
+
+The triggers and the act (17 November 2026). The forbidden entry on the Providentorship catches §12's sentence on the office lasting for his life (section R, item 1), to be reworded at integration; the one on the crown keeps K-19 from being undone in prose.
+
+```json
+[
+ {
+  "add_event": {
+   "id": "california-capital-sacramento",
+   "year": 1849,
+   "patterns": [
+    "capital moves from Monterey to Sacramento (?:at the end of |in )?(?P<year>1[89]\\d\\d)",
+    "legislature (?:moves to|sits at) Sacramento (?:in |from )?(?:December )?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "water-decision",
+   "year": 1886,
+   "patterns": [
+    "water decision of (?:October )?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "crown-declined",
+   "year": 1886,
+   "patterns": [
+    "In December (?P<year>1[89]\\d\\d)[^.;]{0,120}Queen of the Realm"
+   ]
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "Victoria (?:is crowned|becomes|reigns as|is proclaimed) Queen of (?:the Realm|Pacifica)",
+   "message": "CR-071 K-19: Victoria declines the Realm's crown in December 1886; she is its Regent and reigns as Queen of Hawaii only",
+   "kind": "fact"
+  }
+ },
+ {
+  "add_event": {
+   "id": "constitution-in-force",
+   "year": 1887,
+   "patterns": [
+    "enters into force on 1 August (?P<year>1[89]\\d\\d)",
+    "On 1 August (?P<year>1[89]\\d\\d)[^.;]{0,60}the regency begins"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "providentorship-ends",
+   "year": 1887,
+   "patterns": [
+    "Providentorship[^.;]{0,40}ends[^.;]{0,40}on 1 August (?P<year>1[89]\\d\\d)",
+    "ends with the regency on 1 August (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "Providentorship lasts for Elias(?:'s|’s) life",
+   "message": "CR-071 G-1: the Providentor's office ends on 1 August 1887, weeks before Elias dies; he keeps the style only (G-11)",
+   "kind": "fact"
+  }
+ }
+]
+```
+
 ## Canon tensions
 
 - **CT1 — CR-073 A, C and D1, "state water law".** Three places, not one clause: the irrigation row in A, the paragraph after the table in C, and D1. With CR-073 in canon first, this CR carries the amendment (S1–S4), together with the meaning of "the Republic" for 1856–87 in CR-073 and CR-057 (K-5).

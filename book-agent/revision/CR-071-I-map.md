@@ -152,7 +152,7 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 - **The relation** runs to the Realm under each compact; disputes go to the Court of the Realm at Monterey. County powers, boundaries and grades are organic law, amendable without local consent (§25); a homeland's are not.
 - **They do not count toward the 124.**
 - **Voting (I-9).** A member of a nation who lives in a county registers and votes there like anyone else, and votes only where he is registered.
-- **The Senate (I-9, I-32, I-70, I-71, APPROVED).** **One seat for each large homeland**, chosen by its own council in its own way (I-70), and Alaska's seat (I-32, chosen PROPOSED at the Northern Commission's yearly council). Enclaves are heard through **leagues they choose** (I-71): when the combined land of the enclaves in a league reaches a million acres, the league chooses a senator. Every member of a nation who lives in a county also votes there (I-9). I-11's six regional seats and I-64's grouping are withdrawn: nations that live near each other (Pueblo and Apache, Hopi and Diné) are not made to share a senator.
+- **The Senate (I-9, I-32, I-70, I-71, APPROVED).** **One seat for each large homeland**, chosen by its own council in its own way (I-70), and Alaska's seat (I-32, chosen PROPOSED at the Northern Commission's yearly council). Enclaves are heard through **leagues they choose** (I-71): when the combined land of the enclaves in a league reaches a million acres, the league chooses a senator. Every member of a nation who lives in a county also votes there (I-9). I-11's six regional seats and I-64's grouping are withdrawn: nations that live near each other (Pueblo and Apache, Hopi and Diné) are not grouped in one seat.
 - **The count in 1888 (PROPOSED).** Sixteen or seventeen homeland seats: the twelve of I4a, the Hopi (2,742 sq mi, inside the Diné country, with a senator of their own), and under I-72 Flathead, Temecula and Santa Ysabel, with the Siletz coast if it stays above the threshold (I4b); Alaska's makes seventeen or eighteen. Leagues are formed by the councils, and none is assumed for 1888.
 - **The appointed quarter.** "Up to a quarter of the Senate" (§21) is a quarter of the whole Senate, appointees included, so the appointees are at most a third of the other seats: 123 county, 12 Polytechnic, 8 aliʻi and 17 or 18 homeland seats give at most **53 appointees** and a Senate of at most **213–214**. Each league seat adds a third of an appointee to the ceiling.
 
@@ -510,7 +510,46 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 
 ## Fact changes
 
-none (no date, age, identity or linter-tracked fact changes so far; the tensions below change status, not tracked facts)
+Reconsidered on 17 November 2026 (outline, Before integration, item 3): the Baja purchase (I-61), the San Juan lease (I-68), Alaska outside the 124 (I-7) and the size rule for the Senate (I-70). The homelands' standing and the seats change status, not dates, and have no further tracked facts.
+
+```json
+[
+ {
+  "add_event": {
+   "id": "baja-purchase",
+   "year": 1867,
+   "patterns": [
+    "Baja purchase (?:of |in )(?P<year>1[89]\\d\\d)",
+    "buys Baja(?: California)? in (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "san-juan-lease",
+   "year": 1873,
+   "patterns": [
+    "In (?P<year>1[89]\\d\\d)[^.;]{0,80}negotiates the San Juan lease",
+    "San Juan lease of (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "Alaska(?:n)?[^.;]{0,60}(?:among|one of) the 124|124 counties[^.;]{0,40}(?:including|with) Alaska",
+   "message": "CR-071 I-7: Alaska stays a territory under the Northern Commission, outside the 124 counties of 1887",
+   "kind": "fact"
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "(?:Pueblos?|Apache|Hopi|Diné|Navajo)[^.;]{0,40}share (?:a|one) (?:senator|Senate seat)",
+   "message": "CR-071 I-70: each large homeland chooses its own senator; enclaves join leagues only by choice (I-71)",
+   "kind": "fact"
+  }
+ }
+]
+```
 
 ## Canon tensions
 

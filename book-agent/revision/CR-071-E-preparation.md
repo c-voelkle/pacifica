@@ -235,6 +235,53 @@ CR-073 goes into canon before this CR (K-1), so this CR carries E-15 and the gua
 | K-10 | The members (check B5) | Checked against CR-059–061 on `main`: nine members from 1867 (outline A1), eight with legislatures; equal Council delegations are canon (CR-059 CT8, CR-060 A5). PROPOSED only: Hawaii's delegation chosen by the Territorial Council from 1876 (E6). Idaho, western Montana and Washoe named in E2 and E8. | **APPROVED** (author, 16 November) |
 | K-14 | When the lesson is misapplied (check B10) | First in 1882, with Elias's consent to Sherman's request (E1, E9.1); fixed in law by the Truce in 1887. Part D, D0.4 and D6 aligned. | **APPROVED** (author, 16 November) |
 
+## Fact changes
+
+The acts and maps of the preparation, as dates the storyline will state (17 November 2026). Previewed with `cr_facts.py preview`; nothing in current canon states another year for them.
+
+```json
+[
+ {
+  "add_event": {
+   "id": "assumption-act",
+   "year": 1879,
+   "patterns": [
+    "Assumption Act (?:of )?\\(?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "militia-act",
+   "year": 1882,
+   "patterns": [
+    "Militia Act (?:of )?\\(?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "county-map-first",
+   "year": 1884,
+   "patterns": [
+    "first map (?:of )?\\(?(?P<year>1[89]\\d\\d)",
+    "provisional map of about 130 districts in (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "county-map-second",
+   "year": 1886,
+   "patterns": [
+    "second map (?:of )?\\(?(?P<year>1[89]\\d\\d)",
+    "the 124 in (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ }
+]
+```
+
 ## Canon touchpoints
 
 - CR-022 and §19 (examinations reach the officer corps; Silas fails; Elias refuses to intervene): E1 and E9.1 supply the instrument, the board and the date.

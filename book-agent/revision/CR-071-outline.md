@@ -239,11 +239,154 @@ What must be done before CR-071 can be integrated, from the fresh-context review
 
 1. **CR-072 and CR-073** approved and integrated first (K-1).
 2. **Storyline prose** for every row of section R3, and the rewordings of R1, written as what happens (AGENTS.md).
-3. **`## Fact changes`** sections in this outline, Part E and Parts F–G, and Part I's "none" reconsidered (the Providentor's office ending on 1 August 1887; the Baja purchase; Alaska outside the 124; K-18's capital).
+3. **`## Fact changes`** sections in this outline, Part E and Parts F–G, and Part I's "none" reconsidered (the Providentor's office ending on 1 August 1887; the Baja purchase; Alaska outside the 124; K-18's capital). **Done (17 November 2026, evening):** fifteen entries, gathered under this outline's `## Fact changes`; the one passage of current canon they catch is §12's sentence on the Providentorship lasting for Elias's life (F–G, R item 1). The `add_person` entries for the new people go with item 5.
 4. **Ledger entries** (`commitments/data/ledger.toml`): the Japanese loan of 1873; the Baja purchase and commission; the Mountain Districts commission; the Ute agreement of 1866 and the San Juan lease of 1873; the right-of-way and mining leases (Fort Hall, Lewiston, Globe, Clifton, Bisbee, Santa Rita); the Hopi and Diné articles; the assumed member debts; the end of the 1866 charters (T5).
 5. **Registry and character-bible entries** for the new historical people (del Valle, Fair, Wilcox, Nowlein, Powell, Mattson, Ouray, Dall, Cannon, Taylor, Henry Miller and others), then `validate_character_docs.py`.
 
 Items that can stay OPEN in canon: the first Commissioners' names, the Baja commissioners, the plaintiff of C2 and the first Chancellor; when Powell enters Pacifican service; the Apache bands of 1865, Oraibi's year and the Hopi leaders; when Nowlein takes the Guard; Sand Creek; D8; changes to the counties after 1887; the Cochimí; the workbook rows not yet built (member debts, the grant per head, the Commissioners' cost), MODEL-pending.
+
+## Fact changes
+
+The whole CR's list, gathered from Part E, Parts F–G and Part I (17 November 2026). This is the list for the register entry on approval (`"facts"`), then `cr_facts.py apply CR-071`. Parts A–D, H and J add none; H's `add_event` records (Deady's seat, Fair's delegation, Jacksonville's seat) wait for its storyline text. New people (del Valle, Fair, Wilcox, Nowlein, Powell, Mattson, Ouray, Dall, Cannon, Taylor, Henry Miller and others) get `add_person` entries with their registry entries (item 5), not before, so that every ID the facts file names is in the registry.
+
+```json
+[
+ {
+  "add_event": {
+   "id": "assumption-act",
+   "year": 1879,
+   "patterns": [
+    "Assumption Act (?:of )?\\(?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "militia-act",
+   "year": 1882,
+   "patterns": [
+    "Militia Act (?:of )?\\(?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "county-map-first",
+   "year": 1884,
+   "patterns": [
+    "first map (?:of )?\\(?(?P<year>1[89]\\d\\d)",
+    "provisional map of about 130 districts in (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "county-map-second",
+   "year": 1886,
+   "patterns": [
+    "second map (?:of )?\\(?(?P<year>1[89]\\d\\d)",
+    "the 124 in (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "california-capital-sacramento",
+   "year": 1849,
+   "patterns": [
+    "capital moves from Monterey to Sacramento (?:at the end of |in )?(?P<year>1[89]\\d\\d)",
+    "legislature (?:moves to|sits at) Sacramento (?:in |from )?(?:December )?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "water-decision",
+   "year": 1886,
+   "patterns": [
+    "water decision of (?:October )?(?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "crown-declined",
+   "year": 1886,
+   "patterns": [
+    "In December (?P<year>1[89]\\d\\d)[^.;]{0,120}Queen of the Realm"
+   ]
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "Victoria (?:is crowned|becomes|reigns as|is proclaimed) Queen of (?:the Realm|Pacifica)",
+   "message": "CR-071 K-19: Victoria declines the Realm's crown in December 1886; she is its Regent and reigns as Queen of Hawaii only",
+   "kind": "fact"
+  }
+ },
+ {
+  "add_event": {
+   "id": "constitution-in-force",
+   "year": 1887,
+   "patterns": [
+    "enters into force on 1 August (?P<year>1[89]\\d\\d)",
+    "On 1 August (?P<year>1[89]\\d\\d)[^.;]{0,60}the regency begins"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "providentorship-ends",
+   "year": 1887,
+   "patterns": [
+    "Providentorship[^.;]{0,40}ends[^.;]{0,40}on 1 August (?P<year>1[89]\\d\\d)",
+    "ends with the regency on 1 August (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "Providentorship lasts for Elias(?:'s|’s) life",
+   "message": "CR-071 G-1: the Providentor's office ends on 1 August 1887, weeks before Elias dies; he keeps the style only (G-11)",
+   "kind": "fact"
+  }
+ },
+ {
+  "add_event": {
+   "id": "baja-purchase",
+   "year": 1867,
+   "patterns": [
+    "Baja purchase (?:of |in )(?P<year>1[89]\\d\\d)",
+    "buys Baja(?: California)? in (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_event": {
+   "id": "san-juan-lease",
+   "year": 1873,
+   "patterns": [
+    "In (?P<year>1[89]\\d\\d)[^.;]{0,80}negotiates the San Juan lease",
+    "San Juan lease of (?P<year>1[89]\\d\\d)"
+   ]
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "Alaska(?:n)?[^.;]{0,60}(?:among|one of) the 124|124 counties[^.;]{0,40}(?:including|with) Alaska",
+   "message": "CR-071 I-7: Alaska stays a territory under the Northern Commission, outside the 124 counties of 1887",
+   "kind": "fact"
+  }
+ },
+ {
+  "add_forbidden": {
+   "pattern": "(?:Pueblos?|Apache|Hopi|Diné|Navajo)[^.;]{0,40}share (?:a|one) (?:senator|Senate seat)",
+   "message": "CR-071 I-70: each large homeland chooses its own senator; enclaves join leagues only by choice (I-71)",
+   "kind": "fact"
+  }
+ }
+]
+```
 
 ## Model
 
