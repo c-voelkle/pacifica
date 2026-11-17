@@ -199,6 +199,8 @@ def main():
             g = cg if g is None else g.intersection(cg)
         if "extra" in h:
             g = unary_union([g] + [Polygon(r) for r in h["extra"]])
+        if "minus" in h:  # leased districts and their roads: county ground inside the homeland's outer line
+            g = g.difference(unary_union([Polygon(r) for r in h["minus"]]))
         homes[h["name"]] = g.buffer(0)
     for h in hl["large"]:  # a homeland inside another is cut out of it
         if "inside" in h:

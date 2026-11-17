@@ -20,9 +20,25 @@ ring = [[-108.85, 33.45], [-108.5, 33.65], [-108.0, 33.75], [-107.5, 33.72], [-1
 
 [[large]]
 name = "Utes' Slope and Parks"
-basis = "Ute agreement of 1866 (canon, CR-060 R4)"
-royce = "treaty of 2 March 1868: west of 107 W, from Colorado's south line to 15 miles north of 40 N. Drawn as our timeline's six counties of 1887 on that ground that are in no county of the 124, so the mining counties held on lease (I-34) stay whole"
-counties = ["CO;Mesa", "CO;Delta", "CO;Montrose", "CO;Garfield", "CO;Routt", "CO;Grand"]
+basis = "Ute agreement of 1866 (canon, CR-060 R4; storyline section 12): the Slope and the Parks, never to be sold; the price of the Utes' alliance of 1863-65 (I-68)"
+royce = "none: canon's own agreement, not the Union's treaty of 1868 (used only as a measure of size, I-46). Drawn as Colorado west of the divide (our timeline's 1887 counties there) with North Park (then in Larimer) and Middle Park (Grand); less the leased mining districts and their roads (I-34, I-68), which are county ground: the San Juan mineral belt (Silverton, Ouray, Telluride, Rico), the railway from Chama to Durango and up the Animas, the road from Durango to the Utah line; Gunnison, the road over Marshall Pass, Crested Butte, Tincup and Pitkin, Aspen, and Lake City. Summit and Eagle stay with Lake (Leadville)"
+counties = ["CO;Mesa", "CO;Delta", "CO;Montrose", "CO;Garfield", "CO;Routt", "CO;Grand", "CO;Gunnison", "CO;Pitkin", "CO;Hinsdale", "CO;San Juan", "CO;Ouray", "CO;San Miguel", "CO;Dolores", "CO;La Plata", "CO;Archuleta"]
+extra = [[[-106.88, 41.0], [-105.95, 41.0], [-105.85, 40.75], [-105.95, 40.45], [-106.4, 40.33], [-106.66, 40.45], [-106.88, 40.7]]]
+extra_names = []
+minus = [
+  [[-108.05, 37.62], [-107.25, 37.62], [-107.25, 38.12], [-108.05, 38.12]],
+  [[-108.2, 37.58], [-107.95, 37.58], [-107.95, 37.82], [-108.2, 37.82]],
+  [[-107.97, 37.0], [-107.72, 37.0], [-107.72, 37.66], [-107.97, 37.66]],
+  [[-107.97, 36.99], [-106.45, 36.99], [-106.45, 37.16], [-107.97, 37.16]],
+  [[-109.06, 37.22], [-107.9, 37.22], [-107.9, 37.4], [-109.06, 37.4]],
+  [[-106.95, 38.38], [-106.18, 38.38], [-106.18, 38.62], [-106.95, 38.62]],
+  [[-106.66, 38.55], [-106.33, 38.55], [-106.33, 38.86], [-106.66, 38.86]],
+  [[-107.12, 38.5], [-106.84, 38.5], [-106.84, 39.0], [-107.12, 39.0]],
+  [[-107.02, 38.95], [-106.68, 38.95], [-106.68, 39.27], [-107.02, 39.27]],
+  [[-107.42, 37.95], [-107.14, 37.95], [-107.14, 38.56], [-107.42, 38.56]],
+  [[-107.2, 38.44], [-106.9, 38.44], [-106.9, 38.58], [-107.2, 38.58]],
+]
+
 [[large]]
 name = "Nez Perce country"
 basis = "Stevens's treaty of 11 June 1855, with the Wallowa; the cession of 1863 is not made. Checked against Royce's text and plate CXXIII (Idaho, nos. 441-442): the east line is a line west of the Bitterroot crest, about 115 deg 33 min W, reaching the Salmon well above the old crossing"

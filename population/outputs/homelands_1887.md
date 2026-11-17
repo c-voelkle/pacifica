@@ -4,9 +4,9 @@ Built by `population/draw_map_1887.py` from `data/counties/homelands_1887.toml`.
 
 | Homeland | Square miles as drawn | Royce |
 |---|---|---|
-| Diné country | 21,279 | none: canon's own treaty. North: the San Juan and the Colorado; west: the Colorado and the Little Colorado to the Peaks; south: north of the thirty-fifth-parallel railway; east: the Chaco country to Mount Taylor |
+| Diné country | 21,280 | none: canon's own treaty. North: the San Juan and the Colorado; west: the Colorado and the Little Colorado to the Peaks; south: north of the thirty-fifth-parallel railway; east: the Chaco country to Mount Taylor |
 | Chihenne and Bedonkohe country | 3,886 | none: canon's own peace. A sketch: the Mogollon Mountains and the Gila's forks on the west, Ojo Caliente on the north-east, the Black Range and the Mimbres on the east. The Santa Rita copper mine lies inside, on lease (CR-061 N4); the surveyed Pinos Altos district and Silver City stay county ground (Mimbres) |
-| Utes' Slope and Parks | 21,989 | treaty of 2 March 1868: west of 107 W, from Colorado's south line to 15 miles north of 40 N. Drawn as our timeline's six counties of 1887 on that ground that are in no county of the 124, so the mining counties held on lease (I-34) stay whole |
+| Utes' Slope and Parks | 32,234 | none: canon's own agreement, not the Union's treaty of 1868 (used only as a measure of size, I-46). Drawn as Colorado west of the divide (our timeline's 1887 counties there) with North Park (then in Larimer) and Middle Park (Grand); less the leased mining districts and their roads (I-34, I-68), which are county ground: the San Juan mineral belt (Silverton, Ouray, Telluride, Rico), the railway from Chama to Durango and up the Animas, the road from Durango to the Utah line; Gunnison, the road over Marshall Pass, Crested Butte, Tincup and Pitkin, Aspen, and Lake City. Summit and Eagle stay with Lake (Leadville) |
 | Nez Perce country | 10,810 | treaty of 11 June 1855, the reserve: from the south fork of the Palouse to the Snake 10 miles below the Alpowa, the Alpowa's source, the crest of the Blue Mountains, the Grande Ronde, the divide of the Wallowa and the Powder, the Snake 15 miles below the Powder, the Salmon, and the spurs of the Bitterroots |
 | Yakama | 2,157 | treaty of 9 June 1855, the reserve: up the Ahtanum from the Yakima to the Cascades, along the main ridge past Mount Adams, the divides of the Klickitat, Pisco and Satus, to the Yakima at the Satus, up the Yakima |
 | Colville | 4,916 | executive order of 2 July 1872: bounded east and south by the Columbia, west by the Okanogan, north by the British line |
@@ -17,7 +17,7 @@ Built by `population/draw_map_1887.py` from `data/counties/homelands_1887.toml`.
 | Chiricahua | 3,329 | executive order of 14 December 1872: from Dragoon Springs along the north base of the Chiricahua Mountains to the Peloncillo summit, to New Mexico's line, south to Mexico, west 56 miles, north along the west base of the Dragoons |
 | Tohono O'odham | 5,149 | none before 1874 (San Xavier). Drawn as our timeline's Pima County west of the Baboquivari crest, so that Tucson's county is one piece |
 | Hopi | 2,742 | our timeline's order of 16 December 1882 drew a box of degrees (110 to 111 W, 35 30 to 36 30 N); HP2 refuses that. Sketched instead by places: Dinnebito Wash on the west, Black Mesa's rim on the north, Keams Canyon on the east, the Hopi Buttes on the south. A sketch, to be settled with the villages' own names |
-| **Total** | 92,489 | |
+| **Total** | 102,735 | |
 
 ## California's nineteen tracts (enclaves)
 
