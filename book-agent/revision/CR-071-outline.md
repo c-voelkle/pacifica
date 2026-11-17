@@ -53,17 +53,17 @@ What the members actually held that Elias later needs: militia, courts, land law
 
   That gives **nine members and eight member legislatures** in the 1880s. Arizona is not a member: it is Arizona county of New Mexico. Deseret takes in southwest Wyoming (CR-060). Alaska is a territory, not a member.
 
-  **The lands that are not members** (DRAFT 1; A-1 for the author):
+  **The lands that are not members** (A-1, APPROVED):
   | Land | Governed by | From | Source |
   |---|---|---|---|
   | Alaska | The Northern Commission | 1867 (beyond 1887) | CR-059–070; I-7 |
   | Baja California | A commission on the Alaska model, at La Paz | 1867–1887 | I-39, I-54, I-61 |
-  | **The Mountain Districts** (South Park, the upper Arkansas, and from 1873 the leased districts of the San Juan and Gunnison; from 1878–80 the Front Range districts that vote themselves over) | **A confederal commission** (PROPOSED, A-1), seated at Fairplay, at Leadville from 1879; each district keeps its own miners' code, as CR-060 CO7 says the districts "enter as districts" | 1867–1887 | CR-060 CO4, CO7; I-68 |
-  | The San Luis Valley's Hispano settlements (Costilla, Conejos) | New Mexico (PROPOSED, A-1): taken with Fort Garland by the Rio Grande garrison in 1863 and settled from Taos | 1867 | CR-060 CO3; the map (Taos, Rio Arriba) |
+  | **The Mountain Districts** (South Park, the upper Arkansas, and from 1873 the leased districts of the San Juan and Gunnison; from 1878–80 the Front Range districts that vote themselves over) | **A confederal commission** (APPROVED, A-1), seated at Fairplay, at Leadville from 1879; each district keeps its own miners' code, as CR-060 CO7 says the districts "enter as districts" | 1867–1887 | CR-060 CO4, CO7; I-68 |
+  | The San Luis Valley's Hispano settlements (Costilla, Conejos) | New Mexico (APPROVED, A-1): taken with Fort Garland by the Rio Grande garrison in 1863 and settled from Taos | 1867 | CR-060 CO3; the map (Taos, Rio Arriba) |
   | The homelands | Their own nations, by compact (I-8) | 1865–1867 onward | Part I, I4 |
 
   The Mountain Districts are the third commission after Alaska and Baja (C4), and the reason the Rockies have five counties in 1887 without ever having been a member: Elias never let the richest silver of the 1880s acquire a legislature.
-- A2. **What each compact reserved, and what it becomes in 1887** (DRAFT 1; the acceded members' rows are F–G's T3, APPROVED; Idaho's and western Montana's are A-2, for the author):
+- A2. **What each compact reserved, and what it becomes in 1887** (DRAFT 1; the acceded members' rows are F–G's T3, APPROVED; Idaho's and western Montana's are A-2, APPROVED):
 
 | Member | Reserved | 1887 |
 |---|---|---|
@@ -71,14 +71,14 @@ What the members actually held that Elias later needs: militia, courts, land law
 | Hawaii | Its crown, the Kuhina Nui and its local institutions (the Council's resolution of November 1864 and the bargain of 1865; CR-068) | **Carried**: the historic land; the Hawaiian crown; Hawaiian entrenched (I-44); the Territorial Council until 1907 (CR-040) |
 | Oregon | The exclusion article; the Native article; the floor for Chinese residents; the school share | Exclusion **ends** (G-6); the rest **carried** (T3) |
 | Columbia | The school share; the treaty fishing right; compacts for the peoples without a treaty; the works | **Carried**, the works ended as fulfilled; the name survives in the Olympia circuit (K-16) |
-| Idaho | The Chinese floor, which replaced Idaho's tax of 1864 on Chinese miners (CR-059 I10); the miners' district codes and titles (PROPOSED, A-2) | **Carried** as guarantees of the whole: the floor becomes the Realm's law; no title granted under a district code before 1887 can be reopened (PROPOSED, A-2) |
+| Idaho | The Chinese floor, which replaced Idaho's tax of 1864 on Chinese miners (CR-059 I10); the miners' district codes and titles (APPROVED, A-2) | **Carried** as guarantees of the whole: the floor becomes the Realm's law; no title granted under a district code before 1887 can be reopened (APPROVED, A-2) |
 | Washoe | Carson's guarantees of 1860; titles and liens; the net-proceeds tax | Guarantees and titles **carried**; the tax cap **ends**, existing mines keeping it until worked out (K-17) |
-| Western Montana | The supply compacts of 1863–64: freight at published rates, coin, assay and licensed courts (CR-060); the district titles (PROPOSED, A-2) | The compacts' terms are **already common** (the Realm's law and coin); the titles **carried** as in Idaho (PROPOSED, A-2) |
+| Western Montana | The supply compacts of 1863–64: freight at published rates, coin, assay and licensed courts (CR-060); the district titles (APPROVED, A-2) | The compacts' terms are **already common** (the Realm's law and coin); the titles **carried** as in Idaho (APPROVED, A-2) |
 | New Mexico | Abolition; Spanish; the land grants | **Carried** (T3) |
 | Deseret | Marriage and church-property law; the Nauvoo Legion within the Defense Law | Carried as a personal guarantee for every registered church (CR-072 P16); the Legion already common (E1) |
 - A3. The Council after the accessions: who sits, with how many votes. (In 1864 it is 18 seats, California 9 and Hawaii 9.) **Canon (CR-059 CT8, CR-060 A5; author, 12 November 2026):** every new member has a Council delegation equal with the others, and Assembly seats by population. Washoe's legislature chooses its delegation (CR-073 R24). **APPROVED (K-10):** Hawaii's delegation is chosen by the Territorial Council from 1876, as the Council has the legislature's business (E6). The two-thirds of April 1887 is then six of nine delegations: the Party holds Oregon, Columbia, Idaho, western Montana, Washoe and New Mexico, Hawaii's is the Crown's, and California's changes hands with its legislature in November 1886. Only Deseret's is against.
 
-**Decisions for the author (Part A):**
+**Decisions (Part A) — A-1 and A-2 APPROVED (author, 17 November 2026, 10:32: "I approve"):**
 - **A-1.** The Colorado mountains (South Park, the upper Arkansas, the leased Ute districts and, from 1878–80, the Front Range districts) are the **Mountain Districts** under a confederal commission at Fairplay, then Leadville, never a member; the San Luis Valley's Hispano settlements belong to New Mexico.
 - **A-2.** Idaho's charter reserves the Chinese floor (canon) and the district titles; western Montana's reserves its supply compacts' terms and the district titles; in 1887 the floor and the titles are carried, the compacts' terms are already common.
 
