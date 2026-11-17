@@ -41,18 +41,23 @@ What the members actually held that Elias later needs: militia, courts, land law
 
 *Settled:* Arizona, New Mexico, Washoe and the interior were not governed as counties from the start; canon makes New Mexico and the interior members ("the new state", §10; "the interior states", CR-021). The prototype C3 is withdrawn (E-11).
 
-## B. Causes: why the states had to go
+## B. Causes: why the states had to go — DRAFT 1, 17 November 2026 (PROPOSED)
 
-Long-run causes, each to be tied to an event already in canon:
-- B1. **The veto.** Washoe 1860 and the 5:4 California delegation of 1864 taught Elias that members can block him through his own constitution.
-- B2. **Water and rails cross state lines.** The grants of 1865–87 already treat the county as the working unit.
-- B3. **One market, one code.** State charters, state courts and state codes are a patchwork the champions cannot use. (Banking is not part of it: it has followed the currency to the centre since 1857, CR-057 G13.)
-- B4. **The examination state needs postings.** A rotated, examined service has nowhere to serve while governors appoint.
-- B5. **Succession.** A regency cannot hold eight member governments the way the founder could. The states must be gone before he is.
-- B6. **Thalassia.** A capital a week from the continent needs its own officers in every county seat.
-- B7. **The Union.** A member state is something Washington can court, recognise or restore (Port Townsend 1863–64, Salem 1866). A county is not.
+Seven long-run causes, each tied to an event already in canon. The question for the author is which the Chronicler names and which he leaves the reader to see in the events. The pattern this CR has followed (D-10: the Saigō–Silas parallel left to the reader; H-12: the Meiji comparison is the CR's reasoning, not the Chronicler's) suggests he names few.
 
-*To decide:* which two or three causes the Chronicler names, and which he leaves for the reader.
+| | Cause | Where canon shows it | Named or shown (PROPOSED) |
+|---|---|---|---|
+| B1 | **The veto.** A coalition of members can stop Elias through his own constitution. | Washoe, 1860: Hawaii withholds the assent Article XIV needs, his "first unambiguous constitutional defeat" (§8). The blind vote of November 1864: twelve to six, the bare two-thirds; one more Californian against him and Hawaii's seven would not have been enough (CR-068). | **Named.** It is the founder's own lesson and the Chronicler already calls 1860 a formative wound. He names it once, at 1887, looking back to both votes. |
+| B2 | **Water and rails cross member lines.** | The grants of 1865–87 treat the county as the working unit (C5's irrigation districts by watershed; Powell, I-65). The precipitating trigger is a water case: *Lux v. Kern River District* (F3, K-6). | **Shown.** The trigger carries it; naming it would explain the plot twice. |
+| B3 | **One market, one code.** | The members adopt California's codes one after another through Party majorities (E3.3); banking followed the currency to the centre in 1857 (CR-057 G13). | **Shown**, in E3.3's quiet consolidation. |
+| B4 | **The examination state needs postings.** | The Commissioners of 1887 (E, the title travelling down; I-44); J1's first postings. | **Shown**, in J1. |
+| B5 | **Succession.** A regency cannot hold eight member governments as the founder could; the states must be gone before he is. | The main trigger is the founder's failing life (F1, F-1); Victoria's regency from 1 August 1887 (G-1). | **Named.** It is the reason for the timing, and only the Chronicler can say it plainly, because no one in 1887 may say aloud that the founder is dying. |
+| B6 | **Thalassia.** A capital a week from the continent needs its own officers in every county seat. | Kāneʻohe Bay chosen in 1875 (§17); the rotated Commissioners. | **Shown**: the map of 124 county seats, each with a Commissioner who answers to Thalassia, is the argument. |
+| B7 | **The Union.** A member state is something Washington can court, recognise or restore. | The Port Townsend convention of 1863–64 (CR-068); the convention the Enabling Act called that never met at Salem (CR-059). F-4 leaves the Union's courting out of the 1880s triggers. | **Shown**, in its own years; the reader connects it. Naming it at 1887 would give it a weight the 1880s no longer carry (F-4). |
+
+**Recommendation (B-1):** the Chronicler names two causes, the veto and succession, in a single passage at 1887, and leaves the other five to the events. This changes my suggestion of 16 November (which had the Union as a third), because F-4 already took the Union out of the 1880s.
+
+**On the page (B-2, PROPOSED):** the passage looks back from the handover at Thalassia. The founder's lesson of 1860 and 1864 was that a constitution of members could stop him; the lesson of 1887 is that it could stop anyone who came after him. The two votes are named by their numbers (Hawaii's withheld assent; twelve to six). The Chronicler does not say what he thinks of it; J4 gives his own time's view.
 
 ## C. The method before 1871: hollowing (1865–1871)
 
@@ -163,7 +168,7 @@ Candidate set pieces: the 1872 conversation (D2); the boundary commission in the
 - **CT1. Hawaii 1874–1887. RESOLVED** by CR-027 (Part E, E6, E-10): a lawful lease of Puʻuloa in 1874, the illegal ordinances of 1874–76 and the Territorial Council from 1876; Victoria reigns throughout; Hawaii ratifies through the Territorial Council with the Queen's assent.
 - **CT2. RESOLVED.** CR-021 names the Regent Kaiulani throughout; read Victoria.
 - **CT3.** Alaska's standing (CR-070 open decision 9; I5). **Decided** (I-7): the Northern Commission continues and Alaska is outside the 124; CR-021 G's list and E7 are amended at integration (Part I, CT3).
-- **CT4.** The member compacts' reserved rights (A2): which survive as guarantees, which lapse, which are bought out. Partly settled: Oregon's exclusion law lapses (G-6); Deseret's marriage law becomes a personal guarantee (CR-072 P16); California and Hawaii are the historic lands. Columbia's charter and Washoe OPEN (left for later by the author, 16 November). **The 1887 knock-on (K-15, APPROVED).** CR-059 CT8 and CR-060 A5 make each charter of 1866 amendable only with its own member's consent and leave "the 1887 knock-on" to this CR. Each charter now carries an article of supersession: it yields to a constitution adopted by two-thirds of both chambers and both founding states, which carries its protected provisions as guarantees or ends them with the power they rest on (F–G, section T, with the table of what each provision becomes).
+- **CT4.** The member compacts' reserved rights (A2): which survive as guarantees, which lapse, which are bought out. Partly settled: Oregon's exclusion law lapses (G-6); Deseret's marriage law becomes a personal guarantee (CR-072 P16); California and Hawaii are the historic lands. Columbia's charter and Washoe's settled (K-16, K-17, author 17 November: F–G, T3). CT4 is closed. **The 1887 knock-on (K-15, APPROVED).** CR-059 CT8 and CR-060 A5 make each charter of 1866 amendable only with its own member's consent and leave "the 1887 knock-on" to this CR. Each charter now carries an article of supersession: it yields to a constitution adopted by two-thirds of both chambers and both founding states, which carries its protected provisions as guarantees or ends them with the power they rest on (F–G, section T, with the table of what each provision becomes).
 - **CT5.** Homelands and counties (I4). **Decided** (I-8, I-9): compact lands, not counties; large ones outside the 124, enclaves inside a county's lines; seven homeland seats in the Senate; a member living in a county votes only where registered (Part I, CT5).
 - **CT6.** The Council's composition after 1865 (A3). Settled by canon except for Hawaii's delegation after 1876 (K-10, APPROVED).
 

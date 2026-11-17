@@ -337,7 +337,12 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 | | The Native article; the floor for Chinese residents | **Carried**: the Realm's law gives the same and more |
 | | The school share of the land margin | **Carried** as the counties' school funds (G2) |
 | Columbia (C-1866-WA-CHARTER) | The school share | **Carried** (G2) |
-| Idaho, Washoe, western Montana (C-1866-ID-, -WASHOE-, -MT-CHARTER) | Terms not stated in canon | Under T1 either way |
+| | The treaty fishing right ("usual and accustomed grounds", the Makah's whaling and sealing), confederal since 1867 | **Carried word for word** as a guarantee of the Realm; the Sound's and Astoria's cannery men lobby to drop it in 1887 and fail (CR-055: no dam at Celilo) (K-16) |
+| | Compacts offered to the peoples without a treaty (Chehalis, Cowlitz, Lower Chinook) | **Carried** as the homeland compacts (Part I, I-8) (K-16) |
+| | The works (the Sound's lights and harbours, the Snoqualmie road) | **Ended because fulfilled**: built by 1887 (K-16) |
+| | The name | The member ends; **"Columbia" survives** as the name of the Court of the Realm's circuit at Olympia, whose capitol becomes its courthouse (as Sacramento's becomes the inland command's, G-9) (K-16) |
+| Washoe (C-1866-WASHOE-CHARTER) | Carried from the civil compact of 1864 (CR-060 C7–C9): Carson's property guarantees of 1860; titles and liens recognised; the tax on mines' net proceeds | **Guarantees and titles carried** as a guarantee of the whole: no title granted under the Convention of 1860 or the compact of 1864 can be reopened. **The tax cap ends** with the member's power to tax; the Realm's mining royalty applies to new claims, and mines already working keep the net-proceeds basis until worked out. By 1887 the Comstock is in decline (Hist.), so the cap protects a mine that is running out; its defenders (William Stewart among them) fight for a privilege that no longer pays much, an irony left to the reader (K-17) |
+| Idaho, western Montana (C-1866-ID-, -MT-CHARTER) | Terms not stated in canon | Under T1 either way |
 | New Mexico (C-1866-NM-CHARTER) | Abolition; Spanish; the land grants | **Carried**: abolition in the Realm's law; Spanish as a county language on the Rio Grande; the grants confirmed (G2) |
 | Deseret (C-1866-DESERET-CHARTER) | Marriage and church-property law | **Carried** as a personal guarantee for every registered church (CR-072 P16, CT10) |
 | | The Nauvoo Legion within the Defense Law | Already common (E1) |
@@ -345,7 +350,7 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 **T4. Storyline (PROPOSED — CR-071).** In §12, after "James Nesmith, the Douglas Democrats' leader in Oregon, calls it a charter no cabinet can touch.":
 > Elias has the charter say what can touch it: a constitution adopted as the Articles are amended, which must carry its protections over or end them with the power they rest on.
 
-**T5. Ledger (at integration).** Add to the conditions of the seven entries C-1866-OR-, WA-, ID-, WASHOE-, MT-, NM- and DESERET-CHARTER: "yields to a constitution adopted by two-thirds of both confederal chambers and both founding states that carries its protected provisions as guarantees or ends them with the power they rest on (CR-071 K-15)"; and, when CR-071's storyline text for 1887 is in, `ended = 1887` with `ended_by = "the Constitution of the Realm (CR-071)"`. Run `python3 commitments/ledger.py check`.
+**T5. Ledger (at integration).** Add to the conditions of the seven entries C-1866-OR-, WA-, ID-, WASHOE-, MT-, NM- and DESERET-CHARTER: "yields to a constitution adopted by two-thirds of both confederal chambers and both founding states that carries its protected provisions as guarantees or ends them with the power they rest on (CR-071 K-15)"; and, when CR-071's storyline text for 1887 is in, `ended = 1887` with `ended_by = "the Constitution of the Realm (CR-071)"`. For Columbia and Washoe add the T3 terms (K-16, K-17): the fishing right and Carson's guarantees as carried, Washoe's tax cap ended with existing mines on the net-proceeds basis. Run `python3 commitments/ledger.py check`.
 
 ---
 
@@ -384,6 +389,8 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 | K-11 | "Life seats" and "those of 1879" (check B6) | Appointed seats held to sixty-eight (CR-038), for the Commissioners of the Confederation in office on 1 August 1887 and for Pacheco. | **APPROVED** (author, 16 November) |
 | K-12 | The first franchise (check B7) | The Franchise Law is the interim chambers' first act in early 1888; the first boards are elected on it in the spring. | **APPROVED** (author, 16 November) |
 | K-15 | The entrenched charters of 1866 (found on `main`: CR-059 V10, CT8; CR-060 A5) | (a): each charter carries an article of supersession; it yields to a constitution adopted by two-thirds of both chambers and both founding states that carries its protected provisions as guarantees or ends them with the power they rest on (section T). G-3 and K-9 stand; the Constitution enters into force on 1 August whatever Deseret does; G-4 kept. | **APPROVED** (author, 16 November, 08:13) |
+| K-16 | Columbia's charter in 1887 (CT4) | The fishing right carried word for word; compacts carried; works ended as fulfilled; the name survives in the Olympia circuit (T3). **APPROVED** (author, 17 November 2026, 09:43: "Approved") |
+| K-17 | Washoe's charter in 1887 (CT4) | The charter carries the 1864 compact's terms; Carson's guarantees and titles carried; the tax cap ends, with existing mines on the net-proceeds basis until worked out (T3). **APPROVED** (author, 17 November 2026, 09:43) |
 | K-13 | The handover and CR-022 (check B1) | CR-022 B3–B4 stand as drama and are listed under CT4 (R, item 13); §22's "widowhood" reworded (R, item 14). | **APPROVED** (author, 16 November) |
 
 **Numbering note.** The author's approval of "G3, G4, G5, G6, G9" (22:55) was read against the decisions table of draft 2. Every section and every decision of draft 5 is approved, so the two readings no longer differ.
