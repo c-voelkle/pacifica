@@ -304,6 +304,10 @@ After CR-057's integration (#73) and before this CR's. Self-review in the writin
 - **Anchors moved:** the Iwakura landfall is line 663; the Patrimony paragraph 792; the age paragraph 880; the 1895 rescue 919; the canal purchase 968; the 1901 purchase 989; Eleanor and Cherry 1095; Kelly and Holley 305.
 - **Nothing else changed** in the passages Part I confirmed (the 1867 agency, Manila and the barracks mutiny, the Puʻuloa Convention, Hawaii inside the customs line, Washoe and the Comstock's tax, Ralston College).
 
+## Fresh-context review of the integration (17 November 2026)
+
+The reviewer of the integrated text (see CR-072, same section) found for this CR: the Hunter's Point dock sentence carries R16 and is now APPROVED; Sharon "corners Ophir to pay for the votes of Washoe's legislature"; "the Spanish government's loan on the Philippine customs" matches §15; "an organisation as large as Ralston's". On the canal (R14) the reviewer noted that the canal's income will be the Patrimony's own; rather than move the purchase money to the Treasury, the conflict is kept as a beat (PROPOSED): his critics say he is raising money to buy his own rent. R21's wording "the Republic's since 1875" in the 1913 sentence is kept as approved; the clause sits under CR-050-R1's label with a CR-073 coverage comment. The edit to §8's "rolling capacity" list is marked by its comment.
+
 ## Canon tensions
 
 - **CT1 — CT-RALSTON: "A banking failure, rescue, monopoly or repetition of his historical fate is not approved by this role."**
