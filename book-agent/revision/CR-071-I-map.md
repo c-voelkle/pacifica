@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 10, 17 November 2026 (after a fresh-context review): all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-68 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 10, 17 November 2026 (after a fresh-context review): all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-69 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Words.** Before 1 August 1887 "the Realm" in this part (and in decisions worded so, e.g. I-34, I-52, I-53) means the Confederation and its confederal offices: leases, charters and loans made before 1887 are confederal and pass to the Realm with the Constitution.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
@@ -222,7 +222,7 @@ The large homelands together are about 102,700 square miles.
 
 ## I5. Alaska — I-7 APPROVED
 
-The Northern Commission continues under its charter of 1867 (CR-070), reporting to the chambers. No county board, no county senator. Counties are formed from the territory as places earn it (I6): PROPOSED, the Southeast after the Klondike, then the Seward Peninsula and the Tanana.
+The Northern Commission continues under its charter of 1867 (CR-070), reporting to the chambers. No county board, no county senator. **I-69 (APPROVED, author, 17 November 2026, 13:14: "William Healy Dall is approved"):** William Healey Dall (born Boston 1845; Hist.: naturalist of the Western Union telegraph expedition in Alaska, 1865–68, and of the Coast Survey's Alaskan work in the 1870s, under Davidson's survey) succeeds George Davidson at the head of the Commission in 1885, at forty; settles CR-070 open decision 9 on the Commission's head after 1885. PROPOSED: here he stays with the line when the Confederation buys it in 1868 (CR-070 E2). Counties are formed from the territory as places earn it (I6): PROPOSED, the Southeast after the Klondike, then the Seward Peninsula and the Tanana.
 
 ## I3a. The named list, region by region
 

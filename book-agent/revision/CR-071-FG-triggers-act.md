@@ -118,7 +118,7 @@ Founders who wanted to see their succession work handed it over while they lived
 
 | When | Step | Who | Canon |
 |---|---|---|---|
-| Nov 1886 | The Party wins California's legislature, narrowly (F3); Pacheco chosen President (G6) | The Party; the San Francisco houses (E-15) | APPROVED |
+| Nov 1886 | The Party wins California's legislature, narrowly (F3); the new legislature, in joint session at its first sitting, chooses Pacheco President (G6, R-3) | The Party; the San Francisco houses (E-15) | APPROVED |
 | Dec 1886 | The second map, the 124, is printed (E4) | Judah's survey | E-8 |
 | Winter 1886–87 | **Pacheco at Thalassia** (G6.2): California's terms are settled with the Regent-designate | Victoria, Pacheco, Soberanes | APPROVED |
 | Jan 1887 | The bill is laid before the Confederal Council and Assembly at Thalassia | Elias; Soberanes drafts | APPROVED |
@@ -217,7 +217,7 @@ California has 57% of the people in the 124 (56% of the model's 5.84 million; MO
 
 Born in Santa Barbara in 1831; schooled in Honolulu at the Oahu Charity School, 1838–43; seaman, judge, state treasurer, brigadier general of the California militia (1863; the Native Cavalry was a separate battalion of federal volunteers); Governor of California, February–December 1875; later a congressman, chairing the committee on private land claims; he spoke for Chinese exclusion in 1882. In canon (CR-029 A12, APPROVED) he goes to Manila in 1876 as Governor-General for a long term.
 
-**In this timeline.** He comes home from Manila about **1885**, at fifty-four, his term done, and is chosen **President of California in November 1886** on the Party's ticket. Canon names no President of California after Vallejo and does not say how the office is filled (R, item 6), so the method is left to integration.
+**In this timeline.** He comes home from Manila about **1885**, at fifty-four, his term done, and is chosen **President of California** by the legislature elected on the Party's ticket in November 1886. **R-3 (APPROVED (author, 17 November 2026, 13:14)):** the President of California is elected by the legislature in joint session after each November election.
 
 ### G6.2 How Pacheco is brought in
 
@@ -275,7 +275,7 @@ California's exit has two faces: the old Californio who bargains for guarantees,
 
 **Confirmed consistent**
 
-6. **Pacheco.** Canon places him only in Manila from 1876 "for a long term" (§15; CR-029 A10, A12). No President of California is named after Vallejo (§3–§6), and canon does not say how the office is filled. Del Valle is not in canon.
+6. **Pacheco.** Canon places him only in Manila from 1876 "for a long term" (§15; CR-029 A10, A12). No President of California is named after Vallejo (§3–§6); the method is now R-3 (the legislature in joint session). Del Valle is not in canon.
 7. **The Regency Council and the Chancellor** (§22; CR-021 A) fit the handover: the Truce's holders sit in the Council from 1 August (now in G1.3 and G4).
 8. **The Enabling Law** lapses "at the beginning of the regency, reassuring the factions" (§24): matches G1.3.
 9. **CR-029 A11** ("authority passes with the office under the Constitution of 1887") and **B4**: unaffected; the Philippines pass to the Regent on 1 August.
@@ -376,6 +376,8 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 | G-10a | Pacheco and exclusion: eyes open | **APPROVED** |
 | G-11 | Elias keeps the title only, no seat | **APPROVED** |
 | R-1 | The 124 commissions are Victoria's first act as Regent, signed in Elias's presence from his list | **APPROVED** (author, 16 November) |
+| R-3 | The President of California is elected by the legislature in joint session after each November election | **APPROVED** (author, 17 November 2026, 13:14) |
+| K-18 | **California's capital moves from Monterey to Sacramento at the end of 1849.** The legislature's first session there opens in December 1849, at the gateway to the registered gravels (the decree of October 1848, §5); it sits through the flood of January 1850 and the squatters' crisis of 1850 under its windows (§8). Monterey keeps the courts, the academy (1852) and, from 1856, the Confederal Council. The "capital on wheels" of our timeline (San José, Vallejo, Benicia, 1849–54) has no place beside the organized rush. Amend CR-021 B6 at integration: Monterey is the republic's first capital, 1846–49 | **APPROVED** (the author's proposal, 17 November 2026, 13:14, "Perhaps it makes sense to move the capital to Sacramento even earlier, maybe even end of 1849"; the assistant agreed) |
 | R-2 | The Confederal Council consents to the interim Chancellor; the Senate confirms in 1888 | **APPROVED** (author, 16 November) |
 
 **Raised by the consistency check of 16 November (APPROVED by the author the same day):**

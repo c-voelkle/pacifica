@@ -71,7 +71,7 @@ Columbia's settlers asked for the name at Monticello in 1852 and Congress gave i
 ### H1.5 Washoe and the Bonanza men
 
 - **Hist.** James Fair, one of the four Bonanza partners, sat for Nevada in the United States Senate from 1881 to 1887. The Comstock's output collapsed after 1880, and Nevada's population fell from about 62,000 in 1880 to about 47,000 in 1890.
-- **PROPOSED:** Washoe's legislature, which chooses its Council delegation (CR-073 R24), sends Fair to the Confederal Council in 1881. In April 1887 he leads Washoe's delegation against the act, for the mines' tenure under the Realm's mining law, and loses; his seat ends on 1 August with the Council itself. The legislature, the Party's since 1874 (CR-073 G4), ratifies.
+- **PROPOSED:** Washoe's legislature, which chooses its Council delegation (CR-073 R24), sends Fair to the Confederal Council in 1881. He was chosen as the Bonanza firm's man when the Party wanted the Comstock's money; in April 1887 he breaks with the Party and takes three of Washoe's nine with him against the act, for the mines' tenure, and loses (Washoe divides five to four for; the Council 66 to 24; outline A3, W-1); his seat ends on 1 August with the Council itself. The legislature, the Party's since 1874 (CR-073 G4), ratifies.
 - **The price.** Existing claims keep their titles (K-17) and pay at the old rate of the tax on net proceeds until worked out; only new claims pay the Realm's royalty. Washoe's five counties (G3) are the clearest case of one county, one senator outrunning the people: by 1890 they have fewer residents than one San Francisco ward (MODEL; to check against the population model).
 
 ### H1.6 New Mexico: Chaves
@@ -146,7 +146,7 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-3 | Conditional ratifications are void under the act (H1.1) | Yes | **APPROVED** (author, 16 November) |
 | H-4 | Deady reads the article of supersession for the Realm and takes a seat on the Court of the Realm, 1887–1892 (H1.3) | Yes | **APPROVED** (author, 16 November) |
 | H-5 | Columbia's name: no county takes it; the name stays on the river (H1.4) | Yes | **APPROVED** (author, 16 November) |
-| H-6 | Fair leads Washoe's delegation against the act; existing claims become leases at the old rate (H1.5) | Yes | **APPROVED** (author, 16 November) |
+| H-6 | Fair leads Washoe's opponents against the act (four of nine, W-1, 17 November); existing claims keep their titles at the old rate (K-17) (H1.5) | Yes | **APPROVED** (author, 16 November) |
 | H-7 | Chaves's petition answered by the second map; he sits on a Rio Grande board from 1888 (H1.6) | Yes | **APPROVED** (author, 16 November) |
 | H-8 | Jacksonville loses its seat to Medford in 1887 and keeps the county court (H1.7) | Yes (the railway's route past Jacksonville is a story assumption, H1.7) | **APPROVED** (author, 16 November) |
 | H-9 | No one is beaten by force on the day; the state comes closest at Donner and is spared at Salt Lake by Taylor's death (H2) | Yes, as reworded | **APPROVED** (author, 16 November) |
