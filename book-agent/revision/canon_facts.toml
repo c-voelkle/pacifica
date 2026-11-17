@@ -1076,3 +1076,116 @@ id = "sitka-test"
 year = 1869
 patterns = ['''Its first test comes in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}, when a sentry kills''']
 source = "CR-070"
+
+[[event]]
+id = "prosperity-party-founded"
+year = 1866
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}, for the first elections after the Enabling Law, Elias founds the Prosperity Party''']
+source = "CR-072"
+
+[[event]]
+id = "broderick-steps-aside"
+year = 1880
+patterns = ['''About \*{0,2}(?P<year>1[89]\d\d)\*{0,2} Broderick gives up the direction''']
+source = "CR-072"
+
+[[event]]
+id = "party-accounts-published"
+year = 1888
+patterns = ['''from \*{0,2}(?P<year>1[89]\d\d)\*{0,2} it publishes its accounts''']
+source = "CR-072"
+
+[[event]]
+id = "judah-dies-colon"
+year = 1890
+patterns = ['''in \*{0,2}(?P<year>1[89]\d\d)\*{0,2} Judah dies of yellow fever''']
+source = "CR-072"
+
+[[event]]
+id = "secret-ballot"
+year = 1911
+patterns = ['''From \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the state prints a secret ballot''']
+source = "CR-072"
+
+[[forbidden]]
+pattern = "Broderick (?:is |was )?(?:killed|shot|dies|died)[^.]{0,60}(?:duel|1859)"
+message = "Broderick survives 1859: there is no duel with Terry (CR-072 P24)."
+kind = "fact"
+source = "CR-072"
+
+[[forbidden]]
+pattern = "Judah (?:dies|died)[^.]{0,60}(?:1863|crossing Panama)"
+message = "Judah survives 1863 and dies at Colón in 1890 (CR-072 P24, P26)."
+kind = "fact"
+source = "CR-072"
+
+[[person]]
+id = "CT-DAVID-BRODERICK"
+aliases = ["David Broderick", "David C. Broderick", "Broderick"]
+born = 1820
+died = 1889
+source = "CR-072"
+
+[[person]]
+id = "CT-THEODORE-JUDAH"
+aliases = ["Theodore Judah"]
+born = 1826
+died = 1890
+source = "CR-072"
+
+[[person]]
+id = "CT-JOHN-TAYLOR"
+aliases = ["John Taylor"]
+born = 1808
+died = 1887
+source = "CR-072"
+
+[[person]]
+id = "CT-GEORGE-Q-CANNON"
+aliases = ["George Q. Cannon"]
+born = 1827
+died = 1901
+source = "CR-072"
+
+[[event]]
+id = "spring-valley-purchase"
+year = 1875
+patterns = ['''In (?:August )?\*{0,2}(?P<year>1[89]\d\d)\*{0,2} the Republic buys the Spring Valley Water Company''']
+source = "CR-073"
+
+[[event]]
+id = "ralston-patrimony-chair"
+year = 1880
+patterns = ['''Elias makes Ralston the first chairman of the Patrimony in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-073"
+
+[[event]]
+id = "ralston-retires"
+year = 1894
+patterns = ['''Ralston turns sixty-eight in \*{0,2}(?P<year>1[89]\d\d)''']
+source = "CR-073"
+
+[[forbidden]]
+pattern = "Bank of California (?:fail(?:s|ed)|clos(?:es|ed) its doors|suspend(?:s|ed))[^.]{0,40}1875"
+message = "The Bank of California does not fail in 1875 (CR-073 R1)."
+kind = "fact"
+source = "CR-073"
+
+[[forbidden]]
+pattern = "Ralston (?:drown(?:s|ed)|dies|died)[^.]{0,40}1875"
+message = "Ralston does not die in 1875 (CR-073 R1)."
+kind = "fact"
+source = "CR-073"
+
+[[event]]
+id = "ralston-dies"
+year = 1897
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2}, at seventy-one, he dies of a stroke''']
+source = "CR-073"
+
+[[person]]
+id = "CT-RALSTON"
+aliases = ["William Chapman Ralston", "William Ralston", "Billy Ralston"]
+born = 1826
+died = 1897
+source = "CR-073"

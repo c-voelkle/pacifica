@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 302,
+    "canonical_dossiers": 308,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 296
+    "active_or_provisional_identities": 302
   },
   "people": [
     {
@@ -1985,7 +1985,7 @@
       "tier": "provisional_role",
       "identity_state": "approved_role_with_details_pending",
       "story_bible_section": "CT-HUNTINGTON",
-      "narrative_profile": "**Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.\n\nHuntington connects Pacifican projects with foreign equipment, materials, investment and skilled personnel. In the first undertaking, prewar purchases help supply the manufacturing programme around Ericsson and Donahue. Machine tools and equipment acquired before commercial access is interrupted become strategically consequential during the war. Eastern relationships face restrictions and divided loyalties; European supply arrangements require lawful transactions, higher costs and time rather than a magical neutral-flag escape from blockade.\n\nHis later work supports railway finance and potential concessions abroad. The historical federal subsidies and land arrangements cannot simply be copied into independent Pacifica. A critical shipment forcing a choice among competing projects is an available incident, not an approved cargo, route or date.\n\n**Proposed dramatic interest:** Build a durable commercial network and preserve freedom to bargain with his largest customer. **Open:** Residence, nationality, offices, suppliers, restrictions, purchases, financing, contracts, associates, concessions and prominence in scenes.",
+      "narrative_profile": "**Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.\n\nHuntington connects Pacifican projects with foreign equipment, materials, investment and skilled personnel. In the first undertaking, prewar purchases help supply the manufacturing programme around Ericsson and Donahue. Machine tools and equipment acquired before commercial access is interrupted become strategically consequential during the war. Eastern relationships face restrictions and divided loyalties; European supply arrangements require lawful transactions, higher costs and time rather than a magical neutral-flag escape from blockade.\n\nHis later work supports railway finance and potential concessions abroad. The historical federal subsidies and land arrangements cannot simply be copied into independent Pacifica. A critical shipment forcing a choice among competing projects is an available incident, not an approved cargo, route or date.\n\n**Proposed dramatic interest:** Build a durable commercial network and preserve freedom to bargain with his largest customer. **Open:** Residence, nationality, offices, suppliers, restrictions, purchases, financing, contracts, associates, concessions and prominence in scenes.\n\n**APPROVED — CR-073 (17 November 2026):** Ralston's rival for the Patrimony's chair in 1880, the one man in the field with an organisation as large as his; Elias chooses Ralston. **APPROVED — CR-072:** his quarrel with Judah goes to Elias, and the Sacramento line is built on confederal money (PROPOSED).",
       "links": [
         {
           "relationship": "industrial_collaborator",
@@ -2003,6 +2003,10 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [
         "Role approved for alternate history; precise career, incidents and historical achievement transfers remain open."
+      ],
+      "source_authority": [
+        "CR-072",
+        "CR-073"
       ]
     },
     {
@@ -2035,7 +2039,7 @@
       "tier": "provisional_role",
       "identity_state": "approved_role_with_details_pending",
       "story_bible_section": "CT-RALSTON",
-      "narrative_profile": "**Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.\n\nRalston contributes to the second undertaking by connecting private credit, mining and transport with the state's immediate need to pay contractors and workers. Future revenue and bullion do not automatically provide cash or foreign settlement when needed. His advances and financial relationships help sustain military gains while creating obligations and private bargaining power. An emergency financing package after an expensive campaign is a possible incident; its occurrence, terms and timing remain open.\n\nThe historical Bank of California was founded in 1864. Earlier fictional activity belongs to his developing commercial career unless a different institutional chronology is expressly chosen. His firm is not automatically a central bank or owner of public gold. Postwar credit can support mines, workshops and Crocker's transport projects, increasing both productivity and financial concentration. A banking failure, rescue, monopoly or repetition of his historical fate is not approved by this role.\n\n**Proposed dramatic interest:** Expand profitable influence while managing a dependence on public confidence that neither he nor Thorne fully controls. **Open:** Firms, partners, capital, reserves, guarantees, security, rates, loans, public oversight, crises and later fate.\n\n**APPROVED — CR-050-R1:** The private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith bears his name as its chief founder. His fortune is the Comstock's silver, so Carquinez, built on the gold royalty, and Ralston College become Pacifica's colleges of gold and silver. His later fate stays open.\n\n**CR-069 (APPROVED 15 November 2026, local labels retained):** Ohio-born, he takes the Republic's oath in July 1861, with his family in Ohio and his partner Eugene Kelly in New York. In the run of January 1862 he pays every depositor in gold, and on 1 March he brings Elias the houses' Steamer Day Agreement in place of a ban on the export of coin, and keeps it at a cost to his own firm. He brings the houses to take the Republic's war bonds in coin (PROPOSED). In 1864 he and Joseph Donohoe quarrel in private and part in public as friends, and on 4 July he and Darius Ogden Mills open the Bank of California. In 1867 his bank is the Republic's agent for the loan the Senate declined, taking a share of its own. His later fate stays OPEN.",
+      "narrative_profile": "**Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.\n\nRalston contributes to the second undertaking by connecting private credit, mining and transport with the state's immediate need to pay contractors and workers. Future revenue and bullion do not automatically provide cash or foreign settlement when needed. His advances and financial relationships help sustain military gains while creating obligations and private bargaining power. An emergency financing package after an expensive campaign is a possible incident; its occurrence, terms and timing remain open.\n\nThe historical Bank of California was founded in 1864. Earlier fictional activity belongs to his developing commercial career unless a different institutional chronology is expressly chosen. His firm is not automatically a central bank or owner of public gold. Postwar credit can support mines, workshops and Crocker's transport projects, increasing both productivity and financial concentration. A banking failure, rescue, monopoly or repetition of his historical fate is not approved by this role.\n\n**Proposed dramatic interest:** Expand profitable influence while managing a dependence on public confidence that neither he nor Thorne fully controls. **Open:** Firms, partners, capital, reserves, guarantees, security, rates, loans, public oversight and crises. **His later fate (CR-073, APPROVED 17 November 2026):** no failure in 1875; first chairman of the Patrimony, 1880–1894 (CR-073); dies of a stroke while swimming off North Beach in 1897.\n\n**APPROVED — CR-050-R1:** The private college founded in San Francisco in 1866 by the city's merchant and banking houses of every faith bears his name as its chief founder. His fortune is the Comstock's silver, so Carquinez, built on the gold royalty, and Ralston College become Pacifica's colleges of gold and silver. His later fate: CR-073 below.\n\n**CR-069 (APPROVED 15 November 2026, local labels retained):** Ohio-born, he takes the Republic's oath in July 1861, with his family in Ohio and his partner Eugene Kelly in New York. In the run of January 1862 he pays every depositor in gold, and on 1 March he brings Elias the houses' Steamer Day Agreement in place of a ban on the export of coin, and keeps it at a cost to his own firm. He brings the houses to take the Republic's war bonds in coin (PROPOSED). In 1864 he and Joseph Donohoe quarrel in private and part in public as friends, and on 4 July he and Darius Ogden Mills open the Bank of California. In 1867 his bank is the Republic's agent for the loan the Senate declined, taking a share of its own. His later fate: CR-073 below.\n\n**CR-073 (APPROVED 17 November 2026, local labels retained):** His bets pay, and there is no failure in 1875 and no repetition of his historical fate; the arc's problem is a private man grown too strong for the state. He builds the manufactures behind the Republic's customs line and the Hunter's Point dock (PROPOSED), which docks the squadron damaged off Manila in the autumn of 1873. In January 1872 he receives the Iwakura embassy at Belmont and his bank contracts to refine Japan's old coinage; that spring the State Assay Office exposes the diamond field before he invests; on his advice the mint strikes a trade dollar for Asia. His bank is the Republic's agent for the Spanish loan of 1874. In the autumn of 1874 he refuses to follow Sharon into Ophir, his first visible choice of the state's terms over his partner. In August 1875 the Reserve Bank discounts his bank's paper at a penalty rate and the Republic buys Spring Valley at a published valuation, Hallidie sitting on it; that winter he brings the San Francisco houses to Broderick and the Prosperity Party (CR-072). From 1880 he is the first chairman of the Patrimony, over Huntington, keeping his shares and giving the bank's direction to William Alvord; every loss he writes off is printed. The recharter of 1887–88 brings him under the age rule; he retires at sixty-eight in 1894, and the Regent declines to set the rule aside, because the charters are not the Crown's to touch. For the canal purchase of 1889 he arranges the syndicate that places the Treasury's canal bonds, and his own recusal rule bars the Bank of California, so the Nevada Bank and the London houses lead it; his bank leads the 1895 gold syndicate and the 1901 purchase of Carnegie Steel, and Pacific Rolling Mills (1866) is the steel undertaking's rolling capacity. He dies of a stroke while swimming off North Beach in 1897, at seventy-one. The dramatic interest stands: the charters, the printed accounts and the age rule are how the state manages his dependence on public confidence.",
       "links": [
         {
           "relationship": "finance_and_transport_collaborator",
@@ -2044,6 +2048,22 @@
         {
           "relationship": "state_credit_counterparty",
           "to": "CT-ELIAS"
+        },
+        {
+          "relationship": "partner and foil",
+          "to": "CT-WILLIAM-SHARON"
+        },
+        {
+          "relationship": "successor at the bank",
+          "to": "CT-WILLIAM-ALVORD"
+        },
+        {
+          "relationship": "brings the San Francisco houses to",
+          "to": "CT-DAVID-BRODERICK"
+        },
+        {
+          "relationship": "rival for the Patrimony's chair",
+          "to": "CT-HUNTINGTON"
         }
       ],
       "legacy_profile_indices": [],
@@ -2051,7 +2071,8 @@
         "Role approved for alternate history; precise career, incidents and historical achievement transfers remain open."
       ],
       "source_authority": [
-        "CR-050-R1"
+        "CR-050-R1",
+        "CR-073"
       ]
     },
     {
@@ -2099,14 +2120,15 @@
       "tier": "provisional_role",
       "identity_state": "approved_role_with_details_pending",
       "story_bible_section": "CT-HALLIDIE",
-      "narrative_profile": "**Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.\n\nHallidie's 1850s wire-rope manufacture and bridge experience support material handling and supply connections during the war. His equipment complements the second undertaking, although his main role in the third undertaking is improving access to difficult mineral deposits and encouraging demand for machinery and transport. Ropes require suitable anchors, lifting apparatus, crews and maintenance; equipment does not eliminate terrain or river hazards.\n\nA repaired supply crossing or hauling installation sustaining an isolated position is a possible bounded operational achievement, not an approved location, battle or date. Mining and lifting applications precede the historical 1873 cable railway; urban cable transport is not silently moved into the war. He belongs to the technical community in which Logan develops, without a separately settled personal mentorship or partnership.\n\n**Proposed dramatic interest:** Make practical equipment dependable and commercially useful while testing ambitious claims against loads and wear. **Open:** Contracts, installations, suppliers, bridges, mine routes, patents, collaborators, innovations, military contribution and later prominence.\n\n**PROPOSED — CR-034:** Comes to California as a boy in 1852; his Horse Shoe Bar bridge (1855) and first wire rope for the quartz mills (1856) are tested on the Carquinez school's testing machine.",
+      "narrative_profile": "**Status:** Historical person with an approved Pacifican role under CR-013; exact biography, dates, citizenship, contracts, incidents and prominence as a distinct character remain open.\n\nHallidie's 1850s wire-rope manufacture and bridge experience support material handling and supply connections during the war. His equipment complements the second undertaking, although his main role in the third undertaking is improving access to difficult mineral deposits and encouraging demand for machinery and transport. Ropes require suitable anchors, lifting apparatus, crews and maintenance; equipment does not eliminate terrain or river hazards.\n\nA repaired supply crossing or hauling installation sustaining an isolated position is a possible bounded operational achievement, not an approved location, battle or date. Mining and lifting applications precede the historical 1873 cable railway; urban cable transport is not silently moved into the war. He belongs to the technical community in which Logan develops, without a separately settled personal mentorship or partnership.\n\n**Proposed dramatic interest:** Make practical equipment dependable and commercially useful while testing ambitious claims against loads and wear. **Open:** Contracts, installations, suppliers, bridges, mine routes, patents, collaborators, innovations, military contribution and later prominence.\n\n**PROPOSED — CR-034:** Comes to California as a boy in 1852; his Horse Shoe Bar bridge (1855) and first wire rope for the quartz mills (1856) are tested on the Carquinez school's testing machine.\n\n**APPROVED — CR-073 (17 November 2026):** Sits on the Spring Valley valuation of August 1875 as the engineers' man (a story assumption, not history).",
       "links": [],
       "legacy_profile_indices": [],
       "legacy_conflicts": [
         "Role approved for alternate history; precise career, incidents and historical achievement transfers remain open."
       ],
       "source_authority": [
-        "CR-034"
+        "CR-034",
+        "CR-073"
       ]
     },
     {
@@ -5892,9 +5914,138 @@
       "source_authority": [
         "CR-057"
       ]
+    },
+    {
+      "id": "CT-DAVID-BRODERICK",
+      "display_name": "David C. Broderick, the Prosperity Party's machine man",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-DAVID-BRODERICK",
+      "narrative_profile": "Historical person in alternate history; CR-072, APPROVED 17 November 2026, local labels retained. Born 1820 in Washington to Irish parents, a Tammany fireman, he built San Francisco's Democratic machine in the gold rush (*hist.*). The Committee of Vigilance of 1856 was aimed at it, and because Elias broke the committee the machine survives and Broderick owes him that; with no seat in Washington to fight over, the feud with David Terry never comes to the field, so he lives past 1859. With Judah, the first organiser of the Prosperity Party (1866): wards, captains, turnout and the printed ticket. He has to unlearn the sale of offices and never quite believes a machine paid for from above can work (PROPOSED). Receives the San Francisco houses through Ralston in the winter of 1875 (CR-073). Steps aside from the Party's direction about 1880, the last of the old machine. Reads the Party's first published accounts in 1888 and dies in San Francisco in January 1889, at sixty-eight; the old machine turns out one last time, the examined cadre runs the funeral, and Ralston brings the city's banks. Distinct from the legacy \"Delegate Broderick\" (profile 30), which stays unassigned.",
+      "links": [
+        {
+          "relationship": "first organiser of the Prosperity Party for",
+          "to": "CT-ELIAS"
+        },
+        {
+          "relationship": "co-organiser with",
+          "to": "CT-THEODORE-JUDAH"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-072"
+      ]
+    },
+    {
+      "id": "CT-THEODORE-JUDAH",
+      "display_name": "Theodore D. Judah, the Prosperity Party's engineer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-THEODORE-JUDAH",
+      "narrative_profile": "Historical person in alternate history; CR-072, APPROVED 17 November 2026, local labels retained. Born 1826; the railway engineer of the Sacramento valley (*hist.*). He stays on the coast through the war years, so there is no Panama crossing in 1863; his quarrel with Huntington and Crocker goes to Elias. With Broderick, the first organiser of the Prosperity Party (1866): the towns, boards and subscribers along his line, and the county committees that follow his stations. Heads the survey that draws the 124 counties. After the purchase of 1889 he heads the first survey of the Panama works and dies of yellow fever at Colón in 1890, at sixty-four; his death is one of the regency's reasons for mosquito control. Distinct from Judah Benjamin (CT-BENJAMIN).",
+      "links": [
+        {
+          "relationship": "first organiser of the Prosperity Party for",
+          "to": "CT-ELIAS"
+        },
+        {
+          "relationship": "quarrel over the Sacramento line with",
+          "to": "CT-HUNTINGTON"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-072"
+      ]
+    },
+    {
+      "id": "CT-JOHN-TAYLOR",
+      "display_name": "John Taylor, president of the Church",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-JOHN-TAYLOR",
+      "narrative_profile": "Historical person in alternate history; CR-072, APPROVED 17 November 2026, local labels retained. Born 1808; leads the Church from 1880 (*hist.*), in the open at Salt Lake. He does not trust a guarantee from a Realm that is abolishing his state, and resists the Constitution's personal guarantee until his death on 25 July 1887.",
+      "links": [
+        {
+          "relationship": "counsellor",
+          "to": "CT-GEORGE-Q-CANNON"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-072"
+      ]
+    },
+    {
+      "id": "CT-GEORGE-Q-CANNON",
+      "display_name": "George Q. Cannon, the Church's politician",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-GEORGE-Q-CANNON",
+      "narrative_profile": "Historical person in alternate history; CR-072, APPROVED 17 November 2026, local labels retained. Born 1827, died 1901 (*hist.*); Taylor's counsellor. With Taylor gone in July 1887, Cannon, negotiating for the Twelve, brings the Church into the Prosperity Party: its People's Party becomes the Party's Deseret caucus.",
+      "links": [
+        {
+          "relationship": "counsellor to",
+          "to": "CT-JOHN-TAYLOR"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-072"
+      ]
+    },
+    {
+      "id": "CT-WILLIAM-ALVORD",
+      "display_name": "William Alvord, president of the Bank of California",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WILLIAM-ALVORD",
+      "narrative_profile": "Historical person in alternate history; CR-073, APPROVED 17 November 2026, local labels retained. Mayor of San Francisco and a director of the bank, who welcomes the Iwakura embassy at Belmont in 1872 (*hist.*). From 1880, when Ralston takes the Patrimony's chair, he directs the bank, which leads the 1895 gold syndicate and the 1901 purchase of Carnegie Steel.",
+      "links": [
+        {
+          "relationship": "succeeds in the bank's direction",
+          "to": "CT-RALSTON"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-073"
+      ]
+    },
+    {
+      "id": "CT-WILLIAM-SHARON",
+      "display_name": "William Sharon, Ralston's partner and foil",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WILLIAM-SHARON",
+      "narrative_profile": "Historical person in alternate history; CR-069 and CR-073, APPROVED 17 November 2026, local labels retained. The bank's agent at Gold Hill (CR-069). In 1874 he corners Ophir to pay for the votes of Washoe's legislature, which chooses Washoe's Council delegation, and runs outside the Prosperity Party; Ralston refuses to follow him. The Party carries Washoe that November, and when the market breaks in January 1875 he has neither the seat nor the credit, because the Reserve Bank will not take mining shares (PROPOSED). He shows what Ralston escaped. His later life OPEN.",
+      "links": [
+        {
+          "relationship": "partner and foil of",
+          "to": "CT-RALSTON"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-069",
+        "CR-073"
+      ]
     }
   ],
-  "updated_on": "2026-11-15",
+  "updated_on": "2026-11-17",
   "character_revision": {
     "request": "CR-059 to CR-070",
     "source": "CR-059 to CR-065 and CR-067 to CR-070; author approval of 15 November 2026 (\"I approve the crs\")",
@@ -6375,6 +6526,25 @@
         "CT-DANIEL-LIBBY"
       ],
       "limits": "Only persons on the page or approved in CR-067 are registered; the others named in the CRs stay without entries. Dates of the Native leaders and of Donohoe OPEN; Sherman's fate after 1865 OPEN."
+    },
+    {
+      "request": "CR-072 and CR-073",
+      "source": "CR-072 (decisions P1–P26) and CR-073 (decisions R1–R25); integration approved by the author on 17 November 2026 (\"Yes please\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-RALSTON",
+        "CT-HUNTINGTON",
+        "CT-HALLIDIE"
+      ],
+      "new_ids": [
+        "CT-DAVID-BRODERICK",
+        "CT-THEODORE-JUDAH",
+        "CT-JOHN-TAYLOR",
+        "CT-GEORGE-Q-CANNON",
+        "CT-WILLIAM-ALVORD",
+        "CT-WILLIAM-SHARON"
+      ],
+      "limits": "Only persons on the page are registered; Terry, Kido, Felton, the Bonanza men and the diamond men stay without entries. Sharon's later life and Terry's OPEN. CR-071 S7 (Ralston and the houses in 1886–87) is added with CR-071."
     }
   ],
   "institutional_groups": [

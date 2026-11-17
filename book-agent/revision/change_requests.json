@@ -4570,6 +4570,201 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-072",
+      "title": "The Prosperity Party: Elias's instrument, the regency's pillar (1865–1932)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-17",
+      "decision_record": "CR-072-party.md",
+      "authorization": "Author, 15 November 2026: decisions P1–P24 (17:46 to 19:03); 16 November 2026: the three corrections of CR-071 K-7 and K-9; 17 November 2026, 20:57: \"I approve both\" (P25, the secret ballot of 1911; P26, the deaths of Broderick and Judah). Integration in one pass, CR-073 and CR-072 on the CR-057 document of 6 November, before CR-071 (CR-071 K-1, approved by the author 16 November 2026); author, 17 November 2026, 21:07: \"Yes please\" to the integration. 17 November 2026, 21:46: \"I approve. This can go into main along with the rest of the integration.\" (P27, Julian's lever on the 1911 ballot).",
+      "requirements": [
+        "The Prosperity Party, founded by Elias in 1866 as his instrument and organised by Broderick and Judah, both alive in this timeline; it prints its own ticket (Things work; the Hui in Hawaii); the examined take it over about 1880 and it is the estates' instrument; it carries 1887; Deseret's People's Party becomes its Deseret caucus and Deseret's marriage law a personal guarantee for every registered church under the Realm's floors (Taylor to July 1887, Cannon); by about 1888 one party and its friends, accounts published, a pillar of the regency; the Hawaiian loyalists in 1907; Broderick dies in 1888–89 and Judah at Colón in 1890; the secret, state-printed ballot of 1911 against the county oligarchies, with the route onto it (the league-table bands and the signatures) as Julian's lever."
+      ],
+      "open": [
+        "CR-071's parts that the Party carries (D4, D9, E4's dates, F3, H1) come with CR-071. Terry's later life OPEN. Sections D and E of CR-072-party.md stay PROPOSED."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "prosperity-party-founded",
+            "year": 1866,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2}, for the first elections after the Enabling Law, Elias founds the Prosperity Party"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "broderick-steps-aside",
+            "year": 1880,
+            "patterns": [
+              "About \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} Broderick gives up the direction"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "party-accounts-published",
+            "year": 1888,
+            "patterns": [
+              "from \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} it publishes its accounts"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "judah-dies-colon",
+            "year": 1890,
+            "patterns": [
+              "in \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} Judah dies of yellow fever"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "secret-ballot",
+            "year": 1911,
+            "patterns": [
+              "From \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} the state prints a secret ballot"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Broderick (?:is |was )?(?:killed|shot|dies|died)[^.]{0,60}(?:duel|1859)",
+            "message": "Broderick survives 1859: there is no duel with Terry (CR-072 P24).",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Judah (?:dies|died)[^.]{0,60}(?:1863|crossing Panama)",
+            "message": "Judah survives 1863 and dies at Colón in 1890 (CR-072 P24, P26).",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-DAVID-BRODERICK",
+            "aliases": [
+              "David Broderick",
+              "David C. Broderick",
+              "Broderick"
+            ],
+            "born": 1820,
+            "died": 1889
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-THEODORE-JUDAH",
+            "aliases": [
+              "Theodore Judah"
+            ],
+            "born": 1826,
+            "died": 1890
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-JOHN-TAYLOR",
+            "aliases": [
+              "John Taylor"
+            ],
+            "born": 1808,
+            "died": 1887
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-GEORGE-Q-CANNON",
+            "aliases": [
+              "George Q. Cannon"
+            ],
+            "born": 1827,
+            "died": 1901
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-073",
+      "title": "Ralston's other arc: the bets that pay, and the power the state takes in (1866–1901)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-17",
+      "decision_record": "CR-073-ralston.md",
+      "authorization": "Author, 15 November 2026: decisions R1–R25 (20:58, 21:24, 21:58, 22:06; Spreckels left out); 16 November 2026: CR-071's amendments S1–S8 (K-5, K-8, the order of K-1). Integration in one pass, CR-073 and CR-072 on the CR-057 document of 6 November, before CR-071 (CR-071 K-1, approved by the author 16 November 2026); author, 17 November 2026, 21:07: \"Yes please\" to the integration. 17 November 2026, 21:46: \"I approve. This can go into main along with the rest of the integration.\" (R26, the canal money).",
+      "requirements": [
+        "Ralston's bets pay and there is no failure in 1875: the State Assay Office exposes the diamond field, Sharon is broken alone on Ophir and Washoe's legislature, the Reserve Bank discounts the Bank of California's paper in August 1875 and the Republic buys Spring Valley at a published valuation; the San Francisco houses come into the Prosperity Party through him; the Patrimony's first chairman from 1880 over Huntington, Alvord at the bank; the recharter of 1887–88 and his retirement at sixty-eight in 1894; the canal syndicate of 1889 (the Treasury's canal bonds; his own bank barred by his recusal rule); the 1895 and 1901 syndicates are the Bank of California's; Pacific Rolling Mills is the rolling capacity; dies of a stroke while swimming off North Beach in 1897; Spring Valley the Republic's from 1875 (line 1095 amended)."
+      ],
+      "open": [
+        "Japan's loan of 1873 (R10's San Francisco part) and CR-071 S7 come with CR-071. The research items in CR-073-ralston.md (Research) stay story assumptions; the Spring Valley price MODEL."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "spring-valley-purchase",
+            "year": 1875,
+            "patterns": [
+              "In (?:August )?\\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2} the Republic buys the Spring Valley Water Company"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "ralston-patrimony-chair",
+            "year": 1880,
+            "patterns": [
+              "Elias makes Ralston the first chairman of the Patrimony in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "ralston-retires",
+            "year": 1894,
+            "patterns": [
+              "Ralston turns sixty-eight in \\*{0,2}(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Bank of California (?:fail(?:s|ed)|clos(?:es|ed) its doors|suspend(?:s|ed))[^.]{0,40}1875",
+            "message": "The Bank of California does not fail in 1875 (CR-073 R1).",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Ralston (?:drown(?:s|ed)|dies|died)[^.]{0,40}1875",
+            "message": "Ralston does not die in 1875 (CR-073 R1).",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_event": {
+            "id": "ralston-dies",
+            "year": 1897,
+            "patterns": [
+              "In \\*{0,2}(?P<year>1[89]\\d\\d)\\*{0,2}, at seventy-one, he dies of a stroke"
+            ]
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-RALSTON",
+            "aliases": [
+              "William Chapman Ralston",
+              "William Ralston",
+              "Billy Ralston"
+            ],
+            "born": 1826,
+            "died": 1897
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [
@@ -4897,7 +5092,7 @@
     "validation": "GitHub PR checks run sync_master_storyline.py --check for exact index sync and presence of approved CR coverage IDs in master_storyline.md.",
     "limits": "Neither automatic ledger sync nor a coverage-ID check proves substantive prose integration; each approval requires editorial review of changed narrative paragraphs."
   },
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-17",
   "historical_background_path": "book-agent/revision/historical_background.md",
   "source_documents": [
     {

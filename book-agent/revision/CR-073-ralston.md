@@ -1,8 +1,8 @@
-# CR-073 (draft 2) — Ralston's other arc: the bets that pay, and the power the state takes in (1866–1901)
+# CR-073 (draft 4) — Ralston's other arc: the bets that pay, and the power the state takes in (1866–1901)
 
-**Status:** DRAFT 3, 15 November 2026. All decisions taken: twenty-five APPROVED by the author (R1–R25 below); Spreckels is left out. Draft 3 records the author's decisions of 21:58 and 22:06. Ready for integration after the updated CR-057 (R20). Draft 2 applies the author's decisions of 21:24, the research on the diamond field and the Hunter's Point dock (decisions 8 and 11), a fact check against Lavender's biography (Part H) and a fresh-context canon check against `main` (Part I). Everything else is PROPOSED. Nothing is integrated. No open decisions remain; the research items below stay as story assumptions until verified.
+**Status:** APPROVED AND INTEGRATED, 17 November 2026 (draft 4), local labels retained, in one pass with CR-072 (CR-071 K-1). Twenty-six decisions APPROVED by the author (R1–R26 below); Spreckels is left out; no open decisions. Draft 4 applies CR-071's amendments S1–S6 and S8 (section S of `CR-071-FG-triggers-act.md`; S7 waits for CR-071, whose E-15 it records), re-checks the CR against `main` at 7b2cb15 after CR-057's integration (Part I2) and records the storyline text as integrated. Draft 3 (15 November) recorded the author's decisions of 21:58 and 22:06; draft 2 applied the decisions of 21:24, the research on the diamond field and the Hunter's Point dock, the fact check against Lavender (Part H) and the fresh-context canon check (Part I). The research items below stay as story assumptions until verified.
 **Number:** CR-073 assumed; rename if taken.
-**Depends on:** CR-057 G13 (the Reserve Bank of 1857, its cover and its lending against good security) and CR-057 C (the Patrimony and its Development Fund, chartered by Elias in 1880). CR-057's header says it was approved and integrated on 6 November 2026, but `main` at commit 28b7263 still carries the old Development Fund paragraph and the Crown's twenty-five percent (Part I). That must be settled before this CR is integrated.
+**Depends on:** CR-057 G13 (the Reserve Bank of 1857, its cover and its lending against good security) and CR-057 C (the Patrimony and its Development Fund, chartered by Elias in 1880). CR-057 is integrated on `main` (#73, commit 7b2cb15, 16 November 2026): the Patrimony paragraph replaces the old Development Fund paragraph and the Crown's twenty-five percent is gone (Part I2). By S8, this CR rests on the CR-057 document as approved on 6 November; nothing in it needs a later version.
 **Read with:** CR-069 (Ralston in the war; the agency of 1867; CT2), CR-050-R1 (Ralston College; Spring Valley "bought out early"), CR-072 (the Prosperity Party; C9, the Committee party's money "bought before its men"), CR-037 and CR-038 (rules against capture; retirement at 68), CR-058-R1 (Doheny: ownership kept, management given up), CR-029 (Manila 1873, the Spanish loan 1874–75), CR-036 D13 (the 1878 eclipse and the frontier on the divide), CR-071 D (the Iwakura mission in Pacifica), CR-020 (the 1895 rescue; the 1901 purchase of Carnegie Steel), and storyline §8, §14, §19, §24, §25.
 **Main source:** David Lavender, *Nothing Seemed Impossible: William C. Ralston and Early San Francisco* (American West Publishing, 1975), the copy the author supplied. Page numbers are the book's.
 **Amendments carried by CR-071** (approved 16 November 2026): the meaning of "the Republic" before 1887, the three water passages, the houses' money of 1875, the Fund's guard on elections, E-15 in the registry and R20's reading of CR-057 are in `CR-071-FG-triggers-act.md`, section S. This file is otherwise as drafted on 15 November.
@@ -50,9 +50,14 @@
 | R23 | **Washoe sits in the confederal chambers** from its accession in 1867, as CR-060 A5 already provides (decision 20). Consequences in B2 and G4. | APPROVED (author, 21:58) |
 | R24 | **Washoe's legislature chooses its Council delegation**, as the Union's states chose senators until 1913 (decision 21). | APPROVED (author, 22:06) |
 | R25 | **Sharon's 1874 campaign:** he buys Ophir to pay for Washoe's legislature, runs outside the Party, loses Washoe to the Party's ticket in November 1874 and is broken in January 1875; Ralston refuses to follow him into Ophir (B2, G4; decision 22). | APPROVED (author, 22:06) |
+| R26 | **The canal money (amends R14).** The Treasury pays for the purchase of 1889 with canal bonds; Ralston, as the Patrimony's chairman, arranges the syndicate that places them. His recusal rule bars the Bank of California, so the Nevada Bank and the London houses lead the largest issue of the decade. | APPROVED (author, 17 November 2026, 21:46) |
 | — | **Spreckels** is left out. | Author (21:24) |
 
+**R20 read by CR-071 S8 (APPROVED 16 November):** "Ready for integration after the updated CR-057" and R20 read: integrated on the CR-057 project document as approved on 6 November (the author's assumed order of 16 November); nothing in CR-073 or CR-071 needs a later version.
+
 ## What canon says now
+
+**What "the Republic" means before 1887 (CR-071 S1, K-5, APPROVED).** For 1856–1887, "the Republic" and "the state" in this CR mean the Confederation's common government at Monterey (from 1885 at Thalassia), not California. The Confederation holds the public domain and the minerals under it, the mint, the Reserve Bank and the State Assay Office, and the works it builds or buys under the Enabling Law, Spring Valley among them; its law governs its own grants and the districts it charters. The members' law governs private land and private water rights until 1887 (§6; CR-021 B2, B5).
 
 - **CT-RALSTON** (`character_bible.md` line 251; registry line 2038): "His firm is not automatically a central bank or owner of public gold … A banking failure, rescue, monopoly or repetition of his historical fate is not approved by this role." His dramatic interest in the bible (line 253): "Expand profitable influence while managing a dependence on public confidence". CR-069 CT2 offered "keep the coast's gold at home at a cost he can count, and be trusted for it" as the amended wording but recommended adapting instead, so the bible's wording stands. "Later fate OPEN" appears three times in the bible. Nothing in canon concerns Ralston after 1867 except Ralston College (storyline line 767).
 - **CR-069:** the run of January 1862, the Steamer Day Agreement, the coin bonds, the Bank of California of 4 July 1864, the Gold Hill agency, and the agency of 1867, when Ralston's bank lends the Republic's money "to New York and Philadelphia houses and the transit companies" (§12, CR-062).
@@ -92,7 +97,7 @@ The Bank of California ran out of coin and closed at 2:35 pm on Thursday 26 Augu
 | **The Grand, the Palace and New Montgomery Street** | Bets on a city that grew too slowly | A city of a far larger country (MODEL: 1.9m residents at the end of 1865 and 8.3m in 1895 under DEM-01 and CR-034; the 1932 total has since been revised to about 39m by CR-059, so re-check 1895 against the current workbook), the subsidized mail line to Honolulu, Yokohama and Hong Kong (§14), and Japan coming to learn. The Palace opens on 2 October 1875 (its historical target date, p. 373) full. **Story assumption:** full occupancy. | PROPOSED |
 | **The Japan business** | Ralston received the Iwakura embassy at Belmont on 25 January 1872, with Mayor Alvord, a director of the bank, giving the welcome. On 30 January the Bank of California signed a contract to refine Japan's old niboo coinage and shipped $500,000 in gold to Osaka on credit, "the first agreement ever entered into between an American business organization and the government of Japan". Japan wanted a $15–20m loan, which Ralston could not raise on the West Coast, and he sent the embassy to London (pp. 323–328). | The same contract, and the beginning of E2: part of Japan's loan of 1873 is raised in San Francisco (CR-071 D, a project document not yet on `main`; canon on `main` has only the 1872 landfall, line 663, and "foreign credit" in the alliance of 1870–71). | PROPOSED |
 | **The trade dollar** | Ralston and Garnett pressed the Coinage Act of 1873 to strike a silver trade dollar of 420 grains for the China trade, and in China men called the coins "Ralston dollars"; most of the $9.3m struck in 1874–75 went east through his bank (pp. 333–335). | Ralston advises the Republic's mint on a Pacifican trade dollar for Asia, which gives Comstock silver an outlet as its price falls. | APPROVED (R18) |
-| **Irrigation:** the San Joaquin and Kings River Canal (1871) | The Grange called it a tool of land speculators; farmland along it rose from $2.50 to $25–30 an acre (p. 354); the company slipped to Miller & Lux (p. 364) | The state wants exactly this. The Land Fund sells the farmland along the canal to settlers on instalments, and under CR-057 the land beside new works is leased at the value they create, so the speculators' rise goes to the Republic. The canal becomes the first district's partner. | PROPOSED |
+| **Irrigation:** the San Joaquin and Kings River Canal (1871) | The Grange called it a tool of land speculators; farmland along it rose from $2.50 to $25–30 an acre (p. 354); the company slipped to Miller & Lux (p. 364) | The Republic wants exactly this. The Land Fund sells the public land along the canal to settlers on instalments, and under CR-057 the land beside new works is leased at the value they create, so the speculators' rise goes to the Republic. The canal becomes the partner of the first district the Republic charters under the Enabling Law; the district's water is governed by its confederal grant, and the riparian owners downstream keep their rights under California's law (CR-071 F3). *(CR-071 S2)* | PROPOSED |
 | **Spring Valley** | See the record, item 4 | The Republic buys it in August 1875 (R9, E1). | APPROVED (author); price MODEL |
 | **The diamond field (1872)** | Ralston lost "something like a quarter of a million dollars" (p. 319) | Exposed by the State Assay Office before he invests (R13, A2). | APPROVED (author) |
 | **The Comstock** | The Bank Ring had let the ground of the California and the Ophir go to speculators, who sold it to the Irish quartet; their Consolidated Virginia cost them $50,000–100,000 and found the Big Bonanza by the end of 1873 (pp. 365–366) | Unchanged (R5). The Bank Ring keeps its mills and the Crown Point and Belcher bonanzas of 1871–72 (p. 328); the Big Bonanza goes to the Irishmen. | APPROVED (author) |
@@ -133,7 +138,7 @@ Ralston is the largest of several powers, not one of two.
 | **Deseret** | The Church's cooperative economy | Deseret yes; its money not yet | The machine the Party never wins (CR-072 C7) |
 | **The savers** | Deposits in the state savings bank and the private savings banks | Yes (the savings bank, §19) | Decisive together |
 
-Two historical powers are weaker here. The Big Four's grip on California's shipping and the land-and-water empires of Miller & Lux and Haggin and Tevis are held back by auctioned concessions, the Land Fund as sole buyer of Native land, the register as title, and state water law.
+Two historical powers are weaker here. The Big Four's grip on California's shipping is held back by auctioned concessions and the state's trunk rights of way. The land-and-water empires of Miller & Lux and Haggin and Tevis are held back by the Land Fund as sole buyer of Native land, the register as title and the Republic's water law over the districts it charters. Miller & Lux's riparian lands, bought from rancho grantees and private holders, stay theirs under California's law, and they remain the largest riparian owner in the San Joaquin; Haggin and Tevis never get the Kern (CR-071 F3). *(CR-071 S3)*
 
 **The consequence for Elias.** The danger is a bloc, not any one rival: the houses, London and the railway men acting together, with Ralston as their natural leader. He is the one man in San Francisco who could organise private money against the state.
 
@@ -143,7 +148,7 @@ Elias never relies on the other man's gratitude or honesty (character principle)
 
 **D1. The gates.** Nearly every large bet he makes passes through something the state holds:
 - Spring Valley has one possible buyer.
-- The canal needs state water law and the Land Fund's buyers.
+- The canal needs the Republic's water grant and the Land Fund's buyers. *(CR-071 S4)*
 - The Comstock mines pay the tax on their net proceeds (line 455), and the mills work under the Republic's mining law.
 - The Hunter's Point dock's best customer is the navy.
 - The agency profits are the Republic's loans; the niboo contract is the start of Japan's.
@@ -182,12 +187,13 @@ Three bargains, and the charter that fixes their end.
 - **The Japan business (1872–73).** The niboo contract of 30 January 1872 happens as historically. Japan's loan, which Ralston could not raise on the West Coast in 1872 (Lavender, p. 327), is raised in part in San Francisco in 1873 in a richer Pacifica (CR-071 D). The Bank of California leads the San Francisco part: as the Republic's agent where the Republic lends (CR-071 D has Elias co-finance the abolition of the domains), and as Japan's banker for the rest, on the 1867 precedent. **Ledger:** there is no entry for a Japanese loan of 1873 on `main`; it belongs with CR-071.
 - **The Spanish loan (1874, CR-029; ledger `C-1874-ES-GOLD-LOAN`, 1874–1876).** The Bank of California is the Republic's agent.
 - **The dock (R16).** **Hist.** Ralston's Hunter's Point dry dock, cut from the rock of the Potrero ridge from September 1866 and finished in 1868, 421 feet long, 120 wide and 22 deep, at a projected $1.2m, held all but one or two of the largest ships afloat, and there was then "no place other than Hunter's Point on either side of the Pacific" where Pacific Mail's fleet could be serviced (Lavender, pp. 240–241). **Here.** After the Manila action of August 1873 the damaged squadron is at Honolulu that September "because neutral Japan would sell them coal but not a dock" (storyline line 722, CR-027 as amended by CR-029). After the barracks mutiny it sails home and is docked at Hunter's Point that autumn, at the navy's cost. The admirals' case for Puʻuloa, settled by the convention of March 1874, cites it. **Story assumptions:** Hunter's Point's place in canon (it is not mentioned on `main`), and that the navy's Mare Island facilities (line 277) have no dock large enough for the squadron's ships in 1873.
-- **The Party (from 1875).** From that winter the San Francisco houses subscribe to the Prosperity Party, and Ralston brings them to Broderick: the merchants make their peace with the machine their vigilance committee tried to break in 1856.
+- **The Party (from 1875).** From that winter the San Francisco houses subscribe to the Prosperity Party, and Ralston brings them to Broderick: the merchants make their peace with the machine their vigilance committee tried to break in 1856. Their money buys the Party's tickets outside San Francisco and its majorities in the confederal chambers. It does not buy California: the Committee party holds California's legislature on the city's and the riparian counties' votes until November 1886 (CR-071 E9.2, K-8). *(CR-071 S5)*
 
 **E3. The Patrimony, 1880 (R6, R7, R12).** Elias makes Ralston the first chairman of the Patrimony under its charter of 1880, over Huntington (G5). On the Doheny pattern (CR-058-R1, CR-037), Ralston keeps his shares in the Bank of California and gives up its direction to William Alvord (historically mayor in 1872 and a director of the bank, Lavender p. 325; president of the bank from 1878 to his death in 1904). The guards:
 - the published accounts, every loss written off in public (CR-057; CR-049: a falsified account is theft from the commonwealth);
 - recusal from every syndicate his own bank leads (PROPOSED: a new rule in the spirit of CR-037; canon has no recusal rule);
-- the Fund's separation from the Reserve Bank and the Treasury (CR-057 B, guard 6: three boards; the Bank never lends to the Fund).
+- the Fund's separation from the Reserve Bank and the Treasury (CR-057 B, guard 6: three boards; the Bank never lends to the Fund);
+- the Fund takes no part in elections or ratifications: it spends nothing on them, and its accounts show it. In 1886–87 Ralston argues the Constitution to the San Francisco houses; he does not campaign (CR-071 E9.2, K-8). *(CR-071 S6)*
 
 **E4. The charters of 1887–88 (R8).** The regency recharters the Patrimony with the other estates and offices, which brings its chairman under CR-038's rule. The storyline's extension of the age to every "estate head and senior officer" (line 876) may already reach him, but §24 lists the Development Fund apart from the estates (line 849), so the recharter removes the doubt. A private banker could never be retired by law; a chartered officer can. His retirement in 1894 is the visible proof that the bargains happened: by then he holds an office, not an empire.
 
@@ -207,37 +213,24 @@ Three bargains, and the charter that fixes their end.
 - **G4. Sharon, the foil (R11, R23).** Sharon refuses the terms. In 1874 he buys Ophir to raise money for Washoe's legislature, as historically, and runs his men against the Prosperity Party's ticket. The Party carries Washoe in November 1874, as it carries most member legislatures (CR-072 C2); a bought vote stays bought only inside the Party's discipline. When the market breaks in January 1875, Sharon has neither the seat nor the credit: the Reserve Bank will not take his mining shares. The state does nothing to him; its rules and its Party do it. He shows what Ralston escaped. Approved (R24, R25). Lavender doubts Sharon could have known in January 1875 that there was no bonanza in the Ophir (p. 368).
 - **G5. The rival for the chair (R12).** Collis Huntington. The railway men are the only power in the field with an organisation as large as Ralston's, and CR-072 (project only) has them quarrelling with the state over Judah; `main` has Judah only "included in principle" (line 291). Historically Huntington and Pullman kept Ralston's Kimball cars off the Central Pacific (Lavender, p. 349), so their rivalry has a history.
 
-## Storyline text (PROPOSED)
+## Storyline text (as integrated, 17 November 2026)
 
-Anchors are checked against `main` at commit 28b7263. The 1872–75 paragraphs go into §14 (1867–1880), not §19 (late 1870s–1880s), so that they sit in date order.
+Integrated on `main` at 7b2cb15 in one pass with CR-072. Each passage carries a `<!-- CR-073: … -->` coverage comment. Sentences that carry an approved decision are labelled **[APPROVED — CR-073]**; the story assumptions (the manufactures and the dock of 1868, the Reserve Bank's rule on mining shares, the full Palace, the recusal rule) stay **[PROPOSED — CR-073]**.
 
-**§14, after "The Iwakura Mission's San Francisco landfall in 1872 puts Japan's officials inside this industrial world." (line 663):**
+| Where | What | Decisions |
+|---|---|---|
+| §8, Kelly and Holley's steel (the "rolling capacity" sentence) | "rolling capacity" leaves the open list; the capacity comes after the war from Pacific Rolling Mills (1866) | R15, R22 (CT11) |
+| §14, after the Iwakura landfall | Two paragraphs: the manufactures and Hunter's Point; Belmont and the niboo contract; the diamond field exposed; the trade dollar; the Big Bonanza; the squadron docked at Hunter's Point in the autumn of 1873; the Spanish loan's agency; Sharon, Ophir and Washoe's legislature, which chooses its Council delegation; August 1875, the Reserve Bank's discount, Spring Valley at its published value with Hallidie on the valuation; the houses into the Party | R1, R5, R9, R10 (Spanish part), R11, R13, R16, R18, R19, R23–R25 |
+| §19, after CR-057's Patrimony paragraph | Ralston the first chairman in 1880, over Huntington; Alvord takes the bank's direction; the printed accounts | R6, R7, R12 |
+| §25, after CR-038's age paragraph | The recharter of 1887–88; retirement in 1894; the Regent declines | R4, R8 |
+| §25, the 1895 rescue | The Treasury's gold through the Bank of California's syndicate; Ralston's death in 1897 at the end of the paragraph | R3, R17 (CT5) |
+| §25, after the canal paragraph (1889) | The Treasury's canal bonds; Ralston arranges the syndicate; his own bank barred, the Nevada Bank and London lead | R14, R26 |
+| §25, the 1901 purchase | The syndicate is the Bank of California's; Pacific Rolling Mills | R3, R15 (CT10) |
+| §27, Lake Eleanor and Cherry Valley | "buys out the Spring Valley Water Company as a bridge" becomes "the Spring Valley works, the Republic's since 1875, carry the city until the new water arrives" | R21 (CT2) |
 
-> **[PROPOSED — CR-073]** Ralston builds for the city he expects. His woollen mills, carriage works, watch factory, sugar refinery and silk mill sell behind the Republic's customs line, and Eastern goods pay duty there. In January 1872 he receives the Iwakura embassy at Belmont, and his bank contracts to refine Japan's old coinage for the new yen. That spring the State Assay Office examines the stones from the Colorado diamond field that two prospectors have left at his bank, and finds them bought in London. In 1873 the Irishmen of the Consolidated Virginia find the Big Bonanza in ground the Bank Ring had let go. Ralston does not fight them on the stock board, because the Reserve Bank will not lend against mining shares. In 1874 Sharon buys Ophir to pay for Washoe's legislature and asks his partner to come in, and Ralston refuses. The Prosperity Party carries Washoe that November, and when the market breaks in January 1875 Sharon has neither the seat nor the credit.
+**Not integrated here:** Japan's loan of 1873 (R10's San Francisco part) has no place in canon until CR-071 D brings the loan in; the CR-071 integration adds the Bank of California's part. S7 (Ralston and the houses in 1886–87, CR-071 E-15) goes into the registry with CR-071.
 
-> **[PROPOSED — CR-073]** In 1875 the Bonanza men open the Nevada Bank, and in August the city's coin runs short. The Reserve Bank discounts the Bank of California's paper at a penalty rate, and its doors stay open. In August 1875 the Republic buys the Spring Valley Water Company at the published value of its works and takes the Calaveras watershed with it. Ralston is paid less than he asked and enough to pay for his shares. The Palace opens in October with every room let. That winter the San Francisco houses begin to subscribe to the Prosperity Party, and Ralston brings them to Broderick.
-
-**§19, after the Development Fund paragraph ("From 1880 a Development Fund directs …", line 788), or after CR-057 G2's Patrimony paragraph that replaces it:**
-
-> **[PROPOSED — CR-073]** Elias makes Ralston the first chairman of the Patrimony in 1880. Ralston keeps his shares in the Bank of California and gives up its direction to William Alvord. Every private syndicate that takes the first loss beside the Development Fund now comes to him, and every loss he writes off is printed. The Bonanza men and the railway men say the Fund follows the Bank of California's syndicates, and the printed accounts are his answer.
-
-**§25, after the paragraph beginning "Victoria and Soberanes make the machinery guard itself." (line 876):**
-
-> **[PROPOSED — CR-073]** The charters bring the Patrimony's chairman under the age of sixty-eight. Ralston turns sixty-eight in 1894 and retires from the Patrimony. He asks the Regent to set the rule aside for him, and she answers that the charters are not the Crown's to touch.
-
-**§25, after "Pacifica rescues the Union's gold reserve in 1895." (line 915):**
-
-> **[PROPOSED — CR-073]** The Treasury's gold goes east through a syndicate led by the Bank of California. Ralston, retired the year before, had kept the coast's gold from the Union through the war. In 1897, at seventy-one, he dies of a stroke while swimming off North Beach.
-
-**§25, after "In 1901 a San Francisco syndicate buys Carnegie Steel …" (line 985):**
-
-> **[PROPOSED — CR-073]** The syndicate is the Bank of California's, and the Pacifican mills it joins to Carnegie's began as Ralston's Pacific Rolling Mills.
-
-**§27, line 1091: amend (CT2).** Replace "In 1913 the state chooses Lake Eleanor and Cherry Valley, side valleys of the same Tuolumne, for San Francisco's water, and buys out the Spring Valley Water Company as a bridge;" with:
-
-> In 1913 the state chooses Lake Eleanor and Cherry Valley, side valleys of the same Tuolumne, for San Francisco's water, and the Spring Valley works, the Republic's since 1875, carry the city until the new water arrives;
-
-The rest of the sentence is unchanged.
+**Differences from draft 3's text:** R10, R12, R14, R16, R18, R19, R22 and R24, approved but absent from draft 3's storyline text, are now on the page. The canal sentence says the Patrimony *arranges the syndicate* because CR-057's Patrimony "spends nothing for thirty years" (line 792): it raises the money, it does not pay it. Ralston's death moves from the 1901 paragraph to the end of the 1895 paragraph, to keep the dates in order.
 
 ## H. Fact check against Lavender (15 November 2026)
 
@@ -301,6 +294,21 @@ A fresh-context agent checked draft 2 against `main` at commit 28b7263 (`book-ag
 
 **Fact changes:** the format is sound, `cr_facts.py preview` runs clean, and the three event patterns match the proposed text. The forbidden patterns now cover past tenses, and an `add_person` record for Ralston is added.
 
+## I2. Canon re-check against `main` at 7b2cb15 (17 November 2026)
+
+After CR-057's integration (#73) and before this CR's. Self-review in the writing context; the fresh-context review of the integrated text is in the integration record.
+
+- **CR-057 settled.** Line 792 has the Patrimony's charter of 1880 with its Development Fund lending "only beside private capital that takes the first loss, except to the state's own estates", its published target and returns, and every loss written off in public: E3's guards rest on it. Line 987: concessions are auctioned for royalties and fees, the state holds shares only in the canal, the trunk rights of way and its own estates, and "commercial banking has no state stake and remains under Reserve Bank regulation" (A1). The Crown's twenty-five percent is gone (line 794, CR-039). C's railway row and Part I's finding are settled.
+- **The Reserve Bank's charter (line 333).** Gold cover of two fifths of its notes and over a third of its deposits; no lending to the treasury beyond the year's taxes. Canon says nothing about collateral. B1's rule (good security, no mining shares) is therefore new and stays PROPOSED — CR-073 on the page.
+- **§24, line 853:** "The Crown does not touch their charters, appointments or the Patrimony" (formerly "or the Development Fund"). G3 and the 1894 scene stand; E4's reason for R8 stands, because §24 still lists the Patrimony apart from the estates.
+- **The Patrimony spends nothing for thirty years** (line 792). R14 is worded so that the Patrimony arranges the syndicate for the canal purchase of 1889; it does not pay. No other passage of this CR has the Patrimony spend before 1910.
+- **Anchors moved:** the Iwakura landfall is line 663; the Patrimony paragraph 792; the age paragraph 880; the 1895 rescue 919; the canal purchase 968; the 1901 purchase 989; Eleanor and Cherry 1095; Kelly and Holley 305.
+- **Nothing else changed** in the passages Part I confirmed (the 1867 agency, Manila and the barracks mutiny, the Puʻuloa Convention, Hawaii inside the customs line, Washoe and the Comstock's tax, Ralston College).
+
+## Fresh-context review of the integration (17 November 2026)
+
+The reviewer of the integrated text (see CR-072, same section) found for this CR: the Hunter's Point dock sentence carries R16 and is now APPROVED; Sharon "corners Ophir to pay for the votes of Washoe's legislature"; "the Spanish government's loan on the Philippine customs" matches §15; "an organisation as large as Ralston's". On the canal (R14) the reviewer noted that the canal's income will be the Patrimony's own; the author approved R26 (17 November, 21:46): the Treasury pays with canal bonds, Ralston arranges the syndicate, and his recusal rule shuts out his own bank, so the Nevada Bank and London lead. The "own rent" beat is dropped. R21's wording "the Republic's since 1875" in the 1913 sentence is kept as approved; the clause sits under CR-050-R1's label with a CR-073 coverage comment. The edit to §8's "rolling capacity" list is marked by its comment.
+
 ## Canon tensions
 
 - **CT1 — CT-RALSTON: "A banking failure, rescue, monopoly or repetition of his historical fate is not approved by this role."**
@@ -311,7 +319,7 @@ A fresh-context agent checked draft 2 against `main` at commit 28b7263 (`book-ag
   - *Adapted:* none; the dates cannot both stand.
   - *Amended:* line 1091 as in the storyline text above: the works, the Republic's since 1875, carry the city until Eleanor and Cherry. The choice of 1913 and everything else in the sentence stand.
   - **Recommended:** amend (decision 18). The linter will not catch the conflict, because the new event pattern does not match line 1091.
-- **CT3 — CR-057: the Patrimony.** The charter of 1880 stands. This CR adds its first chairman and the guards in E3. Its status on `main` is unsettled (Part I).
+- **CT3 — CR-057: the Patrimony.** The charter of 1880 stands. This CR adds its first chairman and the guards in E3. CR-057 is on `main` since 16 November (Part I2).
 - **CT4 — CR-038 F1 and storyline line 876: the age rule.** R8's recharter brings the Patrimony's chairman under the rule beyond doubt, since §24 lists the Development Fund apart from the estates (line 849).
 - **CT5 — §25 and CR-020: the Treasury rescues the Union's gold in 1895; "a San Francisco syndicate" buys Carnegie in 1901.** Adapted: the Treasury's gold, placed through the Bank of California's syndicate; the 1901 syndicate is the Bank's (R3).
 - **CT6 — Historical presidents of the Bank of California.** Historically Ralston became president in 1873 and Mills returned in 1875–78 after the failure, with Alvord from 1878. Here Ralston is president from 1873 to 1880, and Alvord from 1880 to 1904.
@@ -334,7 +342,7 @@ A fresh-context agent checked draft 2 against `main` at commit 28b7263 (`book-ag
 
 | Person | Registry | Change |
 |---|---|---|
-| William Chapman Ralston | CT-RALSTON | Add 1866–1894: the manufactures, Hunter's Point (1866–68), Iwakura at Belmont and the niboo contract (1872), the diamond field exposed (1872), August 1875, the houses into the Party, the Patrimony's chair (1880–1894), retirement in 1894, death by stroke while swimming off North Beach (1897). Replace "later fate OPEN" as in CT1. |
+| William Chapman Ralston | CT-RALSTON | (S7, "1886–87: as chairman of the Patrimony brings the San Francisco houses to accept the Constitution", is added with CR-071.) Add 1866–1894: the manufactures, Hunter's Point (1866–68), Iwakura at Belmont and the niboo contract (1872), the diamond field exposed (1872), August 1875, the houses into the Party, the Patrimony's chair (1880–1894), retirement in 1894, death by stroke while swimming off North Beach (1897). Replace "later fate OPEN" as in CT1. |
 | William Alvord | proposed WILLIAM-ALVORD | Historical person: mayor of San Francisco and a director of the Bank of California in 1872; welcomes the Iwakura embassy at Belmont; here president of the bank, 1880–1904; leads the 1895 and 1901 syndicates. |
 | John Mackay, James Fair, James Flood, William O'Brien | proposed BONANZA-FIRM (one entry) | Historical persons: the Consolidated Virginia, the Big Bonanza (1873), the Nevada Bank (1875). Ralston's rivals. |
 | William Sharon | proposed WILLIAM-SHARON | Historical person: the Gold Hill agent (CR-069); Ralston's partner; seeks Washoe's legislature outside the Party in 1874, loses, and is broken in January 1875 (G4). His later life OPEN. |
