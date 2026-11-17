@@ -97,9 +97,27 @@ ring = [[-110.95, 35.95], [-110.85, 36.3], [-110.4, 36.35], [-110.05, 36.15], [-
 extra = [[[-111.32, 36.05], [-111.3, 36.2], [-111.12, 36.2], [-111.12, 36.05]]]
 extra_names = ["Moenkopi (Hopi)"]
 
+[[large]]
+name = "Flathead"
+basis = "Hell Gate treaty of 16 July 1855, assumed by Pacifica (CR-060 N5); large under I-72 (a million acres or more)"
+royce = "Hell Gate treaty of 16 July 1855, the Jocko reserve: from the Jocko's source along the Bitterroot divide to the Clark Fork between the Camas and Horse prairies, north along the divide west of the Flathead river to the latitude halfway down Flathead Lake, east to the Mission divide, south along it"
+ring = [[-113.90, 47.18], [-114.35, 47.15], [-114.75, 47.38], [-114.65, 47.88], [-113.88, 47.88], [-113.85, 47.50]]
+
+[[large]]
+name = "Temecula"
+basis = "the treaty of 5 January 1852 (canon section 8; Royce 307); large under I-72"
+royce = "treaty of 5 January 1852, Temecula (Royce 307): traced from plate CXIV, no boundary text"
+ring = [[-117.08, 34.01], [-116.32, 33.57], [-115.79, 33.43], [-115.89, 33.28], [-116.87, 33.39], [-117.08, 33.43], [-117.42, 33.61], [-117.12, 33.8]]
+
+[[large]]
+name = "Santa Ysabel"
+basis = "the treaty of 7 January 1852 (canon section 8; Royce 309); large under I-72"
+royce = "treaty of 7 January 1852, Santa Ysabel (Royce 309): traced from plate CXIV, no boundary text"
+ring = [[-116.87, 33.36], [-116.21, 33.36], [-116.04, 33.09], [-116.1, 32.63], [-116.46, 32.59], [-116.7, 33.22], [-116.87, 33.28]]
+
 # California: the tracts reserved by the eighteen treaties of 1851-52 (canon section 8; our timeline's Senate
 # rejected them). Royce numbers them 273-309 on his plate "California 1" (pl. CXIV) and gives no boundary text,
-# only "reserve a tract on ..."; eighteen treaties, nineteen tracts (the treaties of 30 May and 3 June reserve two
+# only "reserve a tract on ..."; eighteen treaties, nineteen tracts, two of which (Temecula, Santa Ysabel) are large homelands under I-72 and listed above (the treaties of 30 May and 3 June reserve two
 # each; that of 22 August none, its bands going to Clear Lake). Royce prints the dates; the treaty places are from
 # the assistant's memory, to verify. Each ring is traced by eye from that plate against
 # its towns and rivers: right to a few miles at best, and the plate's own lines are generalized. Enclaves (I-8).
@@ -188,22 +206,6 @@ royce = 305
 treaty = "4 November 1851, Scott's valley"
 name = "Scott valley"
 ring = [[-123.2, 41.75], [-122.75, 41.8], [-122.7, 41.5], [-123.0, 41.35], [-123.25, 41.5]]
-[[tract]]
-royce = 307
-treaty = "5 January 1852, Temecula"
-name = "Temecula"
-ring = [[-117.08, 34.01], [-116.32, 33.57], [-115.79, 33.43], [-115.89, 33.28], [-116.87, 33.39], [-117.08, 33.43], [-117.42, 33.61], [-117.12, 33.8]]
-[[tract]]
-royce = 309
-treaty = "7 January 1852, Santa Ysabel"
-name = "Santa Ysabel"
-ring = [[-116.87, 33.36], [-116.21, 33.36], [-116.04, 33.09], [-116.1, 32.63], [-116.46, 32.59], [-116.7, 33.22], [-116.87, 33.28]]
-
-# enclaves outside California: name, lon, lat (not yet outlined).
-# Enclaves inside counties with a line (I-60): outlined where a treaty or executive order before 1887
-# gives one, if larger than about 80 square miles; smaller ones and those with no line stay squares.
-# source = "plate": traced from Royce's state plate (georeferenced on towns, about 5-10 miles); "text": placed
-# from the boundary described in Royce's schedule; "memory": no line in Royce, placed by the assistant.
 [[enclave]]
 name = "Warm Springs"
 basis = "treaty of 25 June 1855 (Royce's text): from the Deschutes opposite the Mutton Mountains' eastern end, along their divide to the Cascades, south along the summit to Mount Jefferson, down the Metolius to the Deschutes, down the Deschutes"
@@ -217,10 +219,16 @@ source = "text"
 ring = [[-118.79, 45.67], [-118.33, 45.81], [-118.18, 45.52], [-118.55, 45.43], [-118.78, 45.46], [-118.85, 45.64]]
 
 [[enclave]]
-name = "Siletz coast"
-basis = "the Coast reservation, executive order of 9 November 1855 (Royce's text): from the mouth of the Siltcoos, between the Umpqua and the Siuslaw, east along the divide to the western line of range 8 W of the Willamette meridian, north on it to a point due east of Cape Lookout, west to the sea; before the cuts of 1865 and 1875"
+name = "Siletz coast, north"
+basis = "the Coast reservation, executive order of 9 November 1855 (Royce's text), north of the Yaquina tract: from the tract's northern line to a point due east of Cape Lookout, west of range 8 W of the Willamette meridian. The Yaquina tract (about 200,000 acres, a strip about twenty miles long round Yaquina Bay; our timeline's opening of 21 December 1865) is bought by deed (CR-059 S5) and is county ground; the strip's lines here are placed by eye at 44.47 and 44.76 N"
 source = "text"
-ring = [[-123.96, 45.34], [-123.71, 45.34], [-123.71, 43.80], [-124.15, 43.88], [-124.30, 44.00], [-124.30, 45.34]]
+ring = [[-123.96, 45.34], [-123.71, 45.34], [-123.71, 44.76], [-124.30, 44.76], [-124.30, 45.34]]
+
+[[enclave]]
+name = "Siletz coast, south"
+basis = "the Coast reservation, executive order of 9 November 1855 (Royce's text), south of the Yaquina tract: from the mouth of the Siltcoos, between the Umpqua and the Siuslaw, to the tract's southern line, west of range 8 W"
+source = "text"
+ring = [[-123.71, 44.47], [-123.71, 43.80], [-124.15, 43.88], [-124.30, 44.00], [-124.30, 44.47]]
 
 [[enclave]]
 name = "Grand Ronde"
@@ -245,12 +253,6 @@ name = "Coeur d'Alene"
 basis = "executive order of 8 November 1873 (Royce 552)"
 source = "plate"
 ring = [[-117.04, 47.60], [-116.75, 47.60], [-116.55, 47.45], [-116.55, 47.20], [-116.75, 47.05], [-117.04, 47.05]]
-
-[[enclave]]
-name = "Flathead"
-basis = "Hell Gate treaty of 16 July 1855, the Jocko reserve (Royce's text): from the Jocko's source along the Bitterroot divide to the Clark Fork between the Camas and Horse prairies, north along the divide west of the Flathead river to the latitude halfway down Flathead Lake, east to the Mission divide, south along it"
-source = "text"
-ring = [[-113.90, 47.18], [-114.35, 47.15], [-114.75, 47.38], [-114.65, 47.88], [-113.88, 47.88], [-113.85, 47.50]]
 
 [[enclave]]
 name = "Lemhi"

@@ -83,9 +83,9 @@ Revision 2's section C1 (the list of qualifying homelands, drawn by hand from ca
 - **Alaska's seat** stays (I-32).
 - K-23 (one per compact) is withdrawn.
 
-**Threshold.** One million acres, about 1,563 square miles, for the map and the Senate alike (K-21; I-72). It makes Yakama, Klamath and Fort Hall large by the rule itself, gives the **Hopi** (2,742 sq mi) a senator of their own, and moves four enclaves out of their counties (Part I, I4b; I-73): **Flathead** (1,813, out of Missoula), **Temecula** (1,930, out of San Bernardino, San Diego and Santa Ana), **Santa Ysabel** (1,620, out of San Diego) and the **Siletz coast** (1,806 before the Yaquina deed, out of Tualatin, Calapooia and Lane). The Siletz coast is to be measured first: CR-059 S5 has Yaquina bought by deed, and without the Yaquina tract it may fall under the threshold. Hualapai (1,504) stays an enclave.
+**Threshold.** One million acres, about 1,563 square miles, for the map and the Senate alike (K-21; I-72). It makes Yakama, Klamath and Fort Hall large by the rule itself, gives the **Hopi** (2,742 sq mi) a senator of their own, and moves three enclaves out of their counties and leaves a fourth inside (Part I, I4b; I-73): **Flathead** (1,813, out of Missoula), **Temecula** (1,930, out of San Bernardino, San Diego and Santa Ana), **Santa Ysabel** (1,620, out of San Diego) and the **Siletz coast** (1,806 before the Yaquina deed, out of Tualatin, Calapooia and Lane). Measured on 17 November, evening: without the Yaquina tract bought by deed (CR-059 S5; about 200,000 acres), the Siletz coast is about 1,490 sq mi and **stays an enclave**; the map is redrawn on that (Part I, I4b), and San Diego's Salton desert goes to San Bernardino. Hualapai (1,504) stays an enclave.
 
-**The Senate of 1888 (PROPOSED counts).** 123 county seats, 12 Polytechnic, 8 aliʻi, 16 or 17 homeland seats and Alaska's; no league assumed. The appointees are at most a third of the rest: **53**, in a Senate of at most **213–214**.
+**The Senate of 1888 (PROPOSED counts).** 123 county seats, 12 Polytechnic, 8 aliʻi, 16 homeland seats and Alaska's (the Siletz coast stays an enclave after the Yaquina deed; Part I, I4b); no league assumed. The appointees are at most a third of the rest: **53**, in a Senate of at most **213**.
 
 ---
 

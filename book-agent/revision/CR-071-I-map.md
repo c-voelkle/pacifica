@@ -1,6 +1,6 @@
 # CR-071, Part I — The map: the 124 counties
 
-**Status:** DRAFT 12, 17 November 2026 (I-70 to I-73: a seat for each large homeland, leagues by choice, the one-million-acre threshold, the counties to redraw; supersedes I-11 and I-64 and I-26's size). Draft 11 of the same day (after a fresh-context review; enclaves checked against Royce): all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-73 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
+**Status:** DRAFT 12, 17 November 2026 (map redrawn the same evening, I4b; I-70 to I-73: a seat for each large homeland, leagues by choice, the one-million-acre threshold, the counties to redraw; supersedes I-11 and I-64 and I-26's size). Draft 11 of the same day (after a fresh-context review; enclaves checked against Royce): all 124 drawn and approved by the author region by region; the large homelands' lines drawn from Royce and the counties cut to them (I4a; the rule APPROVED, I-46 to I-49); California's nineteen treaty tracts traced from Royce's plate (PROPOSED); map in `population/outputs/map_1887.png`. Decisions I-1 to I-73 below carry the author's words of 16 November; everything else is PROPOSED. Nothing is integrated.
 **Read with:** `CR-071-outline.md` (Part I), `CR-071-E-preparation.md` (E4, E5, E7), `CR-071-FG-triggers-act.md` (G3), CR-021 (B3, G), CR-033, CR-037, CR-070.
 **Words.** Before 1 August 1887 "the Realm" in this part (and in decisions worded so, e.g. I-34, I-52, I-53) means the Confederation and its confederal offices: leases, charters and loans made before 1887 are confederal and pass to the Realm with the Constitution.
 **Numbers:** `population/outputs/counties_1887.md` (our timeline's counties of 1 August 1887), `population/outputs/regions_1887.md` (Pacifica's residents by old unit), both built by scripts in `population/`. Every population figure is MODEL.
@@ -81,7 +81,7 @@
 | I-70 | **One senator for each large homeland, chosen by its own council** in its own way (supersedes I-11 and I-64). Nations that live near each other are not put in one seat. Alaska's nations keep the seventh-type seat of I-32. | Author, 17 Nov, 18:56 ("Yes, I approve it"), on the author's objection of 18:50 that "tribes that live close to each other may not be friendly"; addendum K-20 |
 | I-71 | **Leagues by choice.** Homelands that are enclaves may form a league with partners of their own choosing; when the league's combined land reaches I-72's threshold, it chooses one senator by a rule its councils agree. A nation belongs to one league at a time and may leave at the end of a Senate term; a large homeland has its own seat and joins none. No geographic limit. Members of every nation also vote in their county where registered (I-9). | Author, 17 Nov, 18:56 |
 | I-72 | **The threshold is one million acres** (about 1,563 square miles), for the map and the Senate alike (supersedes I-26's size; I-49's three are large by the rule itself). Below it, an enclave; at or above it, a unit of its own outside the counties. An enclave that grows past it by land bought back (addendum K-25) leaves its county. | Author, 17 Nov, 18:29 ("The one-million-acre threshold makes sense"), confirmed 18:56 |
-| I-73 | **The counties to redraw for I-72** (I4b): Missoula (Flathead), Tualatin, Calapooia and Lane (the Siletz coast, if it stays above the threshold after the Yaquina deed), San Diego, San Bernardino and Santa Ana (Temecula and Santa Ysabel). | Author, 17 Nov, 18:56 (the task); the redraw PROPOSED |
+| I-73 | **The counties to redraw for I-72** (I4b): Missoula (Flathead), San Diego, San Bernardino and Santa Ana (Temecula and Santa Ysabel); the Siletz coast stays an enclave once the Yaquina tract is out. **Redrawn 17 November, evening** (I4b). | Author, 17 Nov, 18:56 (the task); the lines PROPOSED |
 
 ## I1. The drawing rules — APPROVED (I-6)
 
@@ -153,8 +153,8 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 - **They do not count toward the 124.**
 - **Voting (I-9).** A member of a nation who lives in a county registers and votes there like anyone else, and votes only where he is registered.
 - **The Senate (I-9, I-32, I-70, I-71, APPROVED).** **One seat for each large homeland**, chosen by its own council in its own way (I-70), and Alaska's seat (I-32, chosen PROPOSED at the Northern Commission's yearly council). Enclaves are heard through **leagues they choose** (I-71): when the combined land of the enclaves in a league reaches a million acres, the league chooses a senator. Every member of a nation who lives in a county also votes there (I-9). I-11's six regional seats and I-64's grouping are withdrawn: nations that live near each other (Pueblo and Apache, Hopi and Diné) are not grouped in one seat.
-- **The count in 1888 (PROPOSED).** Sixteen or seventeen homeland seats: the twelve of I4a, the Hopi (2,742 sq mi, inside the Diné country, with a senator of their own), and under I-72 Flathead, Temecula and Santa Ysabel, with the Siletz coast if it stays above the threshold (I4b); Alaska's makes seventeen or eighteen. Leagues are formed by the councils, and none is assumed for 1888.
-- **The appointed quarter.** "Up to a quarter of the Senate" (§21) is a quarter of the whole Senate, appointees included, so the appointees are at most a third of the other seats: 123 county, 12 Polytechnic, 8 aliʻi and 17 or 18 homeland seats give at most **53 appointees** and a Senate of at most **213–214**. Each league seat adds a third of an appointee to the ceiling.
+- **The count in 1888 (PROPOSED).** Sixteen homeland seats: the twelve of I4a, the Hopi (2,742 sq mi, inside the Diné country, with a senator of their own), and under I-72 Flathead, Temecula and Santa Ysabel (I4b); Alaska's makes seventeen. Leagues are formed by the councils, and none is assumed for 1888.
+- **The appointed quarter.** "Up to a quarter of the Senate" (§21) is a quarter of the whole Senate, appointees included, so the appointees are at most a third of the other seats: 123 county, 12 Polytechnic, 8 aliʻi and 17 homeland seats (with Alaska's) give at most **53 appointees** and a Senate of at most **213**. Each league seat adds a third of an appointee to the ceiling.
 
 ## I4a. The homelands' lines (draft 2, PROPOSED; redrawn from Royce on the author's request of 16 November, 17:35)
 
@@ -182,18 +182,20 @@ Alaska's counties of the strawman return to the pool (I-7). The rule behind the 
 
 The large homelands together are about 102,700 square miles.
 
-## I4b. Homelands made large by I-72, and the counties to redraw (I-73; PROPOSED)
+## I4b. Homelands made large by I-72, and the counties redrawn (I-73; redrawn 17 November, evening; lines PROPOSED)
 
-| Homeland | Sq mi as drawn | Now in | What changes |
+| Homeland | Sq mi as drawn | Was in | What changed |
 |---|---|---|---|
-| **Flathead** (the Jocko reserve of the Hell Gate treaty, 1855) | 1,813 | Missoula (enclave, I-60) | Leaves Missoula; Missoula keeps the Bitterroot and the Clark Fork below the Jocko. Its own senator (I-70) |
-| **Siletz coast** (the Coast reservation, 1855) | 1,806 *before* the Yaquina deed | Tualatin, Calapooia, Lane | **To measure first.** CR-059 S5 has Yaquina bought by deed. If the Yaquina tract (our timeline's opening of 1865) is taken out, the remainder may fall under 1,563 sq mi and stay an enclave. If it stays above, it leaves the three counties' coastal ground |
-| **Temecula** (treaty of 5 January 1852) | 1,930 | San Bernardino, San Diego, Santa Ana | Leaves all three; the three keep the coast, the Santa Ana valley and the railway. California's outer line is unaffected (I1) |
-| **Santa Ysabel** (treaty of 7 January 1852) | 1,620 | San Diego | Leaves San Diego, which keeps the coast and the Cuyamaca mines' road |
+| **Flathead** (the Jocko reserve of the Hell Gate treaty, 1855) | 1,813 | Missoula (enclave, I-60) | Leaves Missoula, which keeps the Bitterroot and the Clark Fork round the homeland; its own senator (I-70) |
+| **Temecula** (treaty of 5 January 1852) | 2,108 | San Bernardino, San Diego, Santa Ana | Leaves all three; they keep the coast, the Santa Ana valley and the railway. California's outer line is unaffected (I1) |
+| **Santa Ysabel** (treaty of 7 January 1852) | 1,662 | San Diego | Leaves San Diego. With Temecula it cuts San Diego's coast from the Salton desert: San Diego keeps the coast and its seat, and the desert (about 8,800 sq mi) goes to **San Bernardino**, along the Southern Pacific line through the Coachella valley (`KEEP_SEAT` and `PREFER` in the map script) |
+| *Siletz coast* (the Coast reservation, 1855) | about 1,490 after the Yaquina deed | Tualatin, Calapooia, Lane | **Stays an enclave.** The Yaquina tract bought by deed (CR-059 S5) was a strip about twenty miles long round Yaquina Bay, about 200,000 acres (our timeline's opening of 21 December 1865); without it the coast reserve is under the threshold. Drawn as two enclaves, north and south of the strip (placed by eye at 44.47 and 44.76 N) |
 | *Hualapai* | 1,504 | Mojave | Stays an enclave, just under |
-| *Hopi* | 2,742 | inside the Diné country | Already a homeland of its own; now with its own senator |
+| *Hopi* | 2,742 | inside the Diné country | A homeland of its own already; now with its own senator |
 
-**After the redraw:** the county populations of `population/outputs/counties_1887.md` and the map need re-running (`population/draw_map_1887.py`); none of the four is a seat town, so no county loses its seat.
+The large homelands are now sixteen (with the Hopi), about 108,300 square miles. The California treaty tracts that are enclaves are seventeen of nineteen.
+
+**After the redraw:** the map is redrawn (`population/outputs/map_1887.png`, draft 12) and `homelands_1887.md` rebuilt. The county populations do not move: they are built from our timeline's counties of 1887, and the ground that changed hands (the Jocko valley, the two San Diego sierras, the Salton desert) is counted in its old county either way; `population/map_1887.py` re-run with no change. No county loses its seat.
 
 **The Utes' line (I-68, APPROVED).** Redrawn on the 1866 agreement after the review found that the first drawing followed six farming counties of the 1880s and contradicted I-34. The counties of San Juan and Gunnison are now what I-34 says: districts and roads on lease, the valleys Ute.
 
@@ -501,8 +503,8 @@ Hawaii had no counties in our timeline before 1905; the Kingdom had a governor f
 - **Eleven counties cross an old member or territorial line** (Bear River, Virgin, Green River, Taos, Rio Arriba, Chinook, Wasco, Malheur, Palouse, San Juan, Little Colorado), so the rows above count each county under the unit that holds its seat. No county encloses a member whole; none carries a member's name.
 - **Size.** The median county has about 30,000 people. The largest are San Francisco (645,000), Los Angeles (266,000) and Alameda (254,000); the smallest Pecos and Yuma (5,000), Coconino, Mojave and Walker (6,000).
 - **Language.** Spanish stands beside English in all of California (entrenched) and in eleven counties by grant (eight of New Mexico's, Pima, La Paz, Ensenada); Hawaiian in Hawaii's five and Thalassia.
-- **The Senate of 1888:** 123 county senators (California 43, or 35%, with 56% of the people), sixteen or seventeen homeland seats and Alaska's (I-70, I-32; I4), eight aliʻi seats, twelve Polytechnic seats, and up to a quarter appointed (CR-021 A). G3's table is replaced by this one (Part G, G3, 17 November).
-- **Outside the 124:** Alaska under the Northern Commission (I-7), and the large homelands (I-8, I-26): the Diné country, the Utes' Slope and Parks, the Yakama, Colville, Nez Perce and Klamath countries, Fort Hall, the Tohono O'odham's desert, the White Mountain and San Carlos Apache country, the Chiricahua's and the Chihenne and Bedonkohe country, the Colville and Uinta countries; under I-72 also Flathead, Temecula and Santa Ysabel, and the Siletz coast if it stays above the threshold (I4b). Their lines are in I4a.
+- **The Senate of 1888:** 123 county senators (California 43, or 35%, with 56% of the people), sixteen homeland seats and Alaska's (I-70, I-32; I4), eight aliʻi seats, twelve Polytechnic seats, and up to a quarter appointed (CR-021 A). G3's table is replaced by this one (Part G, G3, 17 November).
+- **Outside the 124:** Alaska under the Northern Commission (I-7), and the large homelands (I-8, I-26): the Diné country, the Utes' Slope and Parks, the Yakama, Colville, Nez Perce and Klamath countries, Fort Hall, the Tohono O'odham's desert, the White Mountain and San Carlos Apache country, the Chiricahua's and the Chihenne and Bedonkohe country, the Colville and Uinta countries; under I-72 also Flathead, Temecula and Santa Ysabel,. Their lines are in I4a.
 - **Not in any county in the model:** about 8,000 people our timeline counted in Wallowa County (the Nez Perce's country here).
 
 **Still owed or open across the part:** the 1880 census sums of Colorado, Montana and Oregon; three 1890 figures; the Hopi line with the villages' own names (I-57); the Baja commissioners' names (I-54); the settlement programme's workbook row (Part C, C5, figures for the author first).

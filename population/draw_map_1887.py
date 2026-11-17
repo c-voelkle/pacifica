@@ -59,7 +59,11 @@ CUTS = {
 }
 # the homelands' sketched lines and the enclaves' places: data/counties/homelands_1887.toml
 # where a county's detached remainder should go when the longest shared line is a mountain crest
-PREFER = {"Spokane": "Big Bend"}
+PREFER = {"Spokane": "Big Bend", "San Diego": "San Bernardino"}
+# a county divided by a homeland keeps the piece with its seat, not the largest (I-73): San Diego's
+# coast is cut from the Salton desert by the Temecula and Santa Ysabel homelands; the desert goes to
+# San Bernardino along the Southern Pacific line through the Coachella valley
+KEEP_SEAT = {"San Diego": (-117.16, 32.72)}
 HOME = "#fbe6d4"  # one colour for every homeland; the outline says which kind
 UNIT_COLOUR = {"California": "#f3d9a4", "Oregon": "#b9d8b0", "Columbia": "#a9cfe0", "Deseret": "#e6c3d6",
                "New Mexico": "#f2b8a0", "Idaho": "#d5d0ea", "Arizona": "#f6e39a", "Washoe": "#d9d9c3",
@@ -224,6 +228,9 @@ def main():
             if near:
                 homes[h] = unary_union([homes[h]] + near).buffer(0)
         pieces = sorted([q for q in getattr(opened, "geoms", [opened]) if q.geom_type == "Polygon"], key=lambda q: -q.area)
+        if n in KEEP_SEAT:
+            seat = Point(*KEEP_SEAT[n])
+            pieces.sort(key=lambda q: (not q.buffer(2 * KM).contains(seat), -q.area))
         merged[n] = pieces[0]
         for pc in pieces[1:]:
             sqmi = pc.area * 69.0 * 69.0 * math.cos(math.radians(pc.centroid.y))
@@ -458,10 +465,10 @@ def main():
                  fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 11 (17 November 2026). Colours: the old members and territories the counties replace. "
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 12 (17 November 2026). Colours: the old members and territories the counties replace. "
              "Dotted grey: our timeline's county lines of 1887.\n"
              "Homelands are one colour. Heavy outline: a homeland outside the 124 (Royce's lines where our timeline has a text; the Hopi's is a sketch). "
-             "Thin outline: a homeland inside a county (California's nineteen treaty tracts of 1851-52, and elsewhere the reserves of treaties and orders before 1887).\n"
+             "Thin outline: a homeland inside a county (seventeen of California's nineteen treaty tracts of 1851-52, and elsewhere the reserves of treaties and orders before 1887).\n"
              "Square: a homeland inside a county with no line drawn yet. Not shown: Alaska. MODEL and PROPOSED.",
              fontsize=9.5, va="top")
     handles = [plt.Rectangle((0, 0), 1, 1, fc=c, ec="#333333") for c in UNIT_COLOUR.values()]
@@ -477,7 +484,7 @@ def main():
                 "`data/counties/homelands_1887.toml`.\n\n| Homeland | Square miles as drawn | Royce |\n|---|---|---|\n")
         for h in hl["large"]:
             f.write(f"| {h['name']} | {areas[h['name']]:,.0f} | {h['royce']} |\n")
-        f.write(f"| **Total** | {sum(areas.values()):,.0f} | |\n\n## California's nineteen tracts (enclaves)\n\n| Royce | Treaty | Tract | Square miles as drawn |\n|---|---|---|---|\n")
+        f.write(f"| **Total** | {sum(areas.values()):,.0f} | |\n\n## California's treaty tracts that are enclaves (seventeen of nineteen; Temecula and Santa Ysabel are large, I-72)\n\n| Royce | Treaty | Tract | Square miles as drawn |\n|---|---|---|---|\n")
         tot = 0.0
         for t in hl["tract"]:
             g = tracts[t["name"]]

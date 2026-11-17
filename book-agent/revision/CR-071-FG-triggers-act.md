@@ -163,7 +163,7 @@ The exclusion law **lapses** with the member state on 1 August 1887; no vote rep
 
 ## G3. The Senate arithmetic — APPROVED (G-7); counts from Part I (I6), the counties APPROVED (I-12 to I-45)
 
-**The Senate of 1888** (CR-021 A): one senator per county, chosen by its Board of Supervisors; up to a quarter appointed (to sixty-eight, CR-038); twelve Polytechnic seats; eight aliʻi seats; and the homeland seats: one for each large homeland of a million acres or more, one for each league of enclaves that reaches that size, and Alaska's (Part I, I-32, I-70 to I-72; sixteen or seventeen and Alaska's in 1888).
+**The Senate of 1888** (CR-021 A): one senator per county, chosen by its Board of Supervisors; up to a quarter appointed (to sixty-eight, CR-038); twelve Polytechnic seats; eight aliʻi seats; and the homeland seats: one for each large homeland of a million acres or more, one for each league of enclaves that reaches that size, and Alaska's (Part I, I-32, I-70 to I-72; sixteen and Alaska's in 1888).
 
 | Old unit | Counties | Share of the 124 | People, 1887 (MODEL, thousands) | Share of the people |
 |---|---|---|---|---|

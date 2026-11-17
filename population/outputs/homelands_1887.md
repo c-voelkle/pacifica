@@ -17,9 +17,12 @@ Built by `population/draw_map_1887.py` from `data/counties/homelands_1887.toml`.
 | Chiricahua | 3,329 | executive order of 14 December 1872: from Dragoon Springs along the north base of the Chiricahua Mountains to the Peloncillo summit, to New Mexico's line, south to Mexico, west 56 miles, north along the west base of the Dragoons |
 | Tohono O'odham | 5,149 | none before 1874 (San Xavier). Drawn as our timeline's Pima County west of the Baboquivari crest, so that Tucson's county is one piece |
 | Hopi | 2,742 | our timeline's order of 16 December 1882 drew a box of degrees (110 to 111 W, 35 30 to 36 30 N); HP2 refuses that. Sketched instead by places: Dinnebito Wash on the west, Black Mesa's rim on the north, Keams Canyon on the east, the Hopi Buttes on the south. A sketch, to be settled with the villages' own names |
-| **Total** | 102,735 | |
+| Flathead | 1,813 | Hell Gate treaty of 16 July 1855, the Jocko reserve: from the Jocko's source along the Bitterroot divide to the Clark Fork between the Camas and Horse prairies, north along the divide west of the Flathead river to the latitude halfway down Flathead Lake, east to the Mission divide, south along it |
+| Temecula | 2,108 | treaty of 5 January 1852, Temecula (Royce 307): traced from plate CXIV, no boundary text |
+| Santa Ysabel | 1,662 | treaty of 7 January 1852, Santa Ysabel (Royce 309): traced from plate CXIV, no boundary text |
+| **Total** | 108,318 | |
 
-## California's nineteen tracts (enclaves)
+## California's treaty tracts that are enclaves (seventeen of nineteen; Temecula and Santa Ysabel are large, I-72)
 
 | Royce | Treaty | Tract | Square miles as drawn |
 |---|---|---|---|
@@ -40,9 +43,7 @@ Built by `population/draw_map_1887.py` from `data/counties/homelands_1887.toml`.
 | 301 | 18 September 1851, fork of the Cosumnes | Cosumnes | 186 |
 | 303 | 6 October 1851, Camp Klamath | Lower Klamath | 384 |
 | 305 | 4 November 1851, Scott's valley | Scott valley | 636 |
-| 307 | 5 January 1852, Temecula | Temecula | 1,930 |
-| 309 | 7 January 1852, Santa Ysabel | Santa Ysabel | 1,617 |
-| | | **Total** | 10,424 |
+| | | **Total** | 6,877 |
 
 ## Other enclaves outlined (I-60)
 
@@ -52,12 +53,12 @@ Source: *plate*, traced from Royce's state plate (georeferenced on towns; about 
 |---|---|---|---|
 | Warm Springs | treaty of 25 June 1855 (Royce's text): from the Deschutes opposite the Mutton Mountains' eastern end, along their divide to the Cascades, south along the summit to Mount Jefferson, down the Metolius to the Deschutes, down the Deschutes | text | 1,045 |
 | Umatilla | treaty of 9 June 1855 (Royce's text): up Wild Horse creek from its mouth at Pendleton to its source, south to Lee's Encampment in the Blue Mountains, to the head of Howtome (McKay) creek, west to the Birch creek divide, north, and back east along McKay's claim; before the reductions of 1882-88 | text | 542 |
-| Siletz coast | the Coast reservation, executive order of 9 November 1855 (Royce's text): from the mouth of the Siltcoos, between the Umpqua and the Siuslaw, east along the divide to the western line of range 8 W of the Willamette meridian, north on it to a point due east of Cape Lookout, west to the sea; before the cuts of 1865 and 1875 | text | 1,806 |
+| Siletz coast, north | the Coast reservation, executive order of 9 November 1855 (Royce's text), north of the Yaquina tract: from the tract's northern line to a point due east of Cape Lookout, west of range 8 W of the Willamette meridian. The Yaquina tract (about 200,000 acres, a strip about twenty miles long round Yaquina Bay; our timeline's opening of 21 December 1865) is bought by deed (CR-059 S5) and is county ground; the strip's lines here are placed by eye at 44.47 and 44.76 N | text | 577 |
+| Siletz coast, south | the Coast reservation, executive order of 9 November 1855 (Royce's text), south of the Yaquina tract: from the mouth of the Siltcoos, between the Umpqua and the Siuslaw, to the tract's southern line, west of range 8 W | text | 879 |
 | Grand Ronde | executive order of 30 June 1857: Royce gives only 'a reserve on the head of the Yamhill', no line; placed there, east of the Coast reservation | memory | 96 |
 | Quinault | treaty of 1855-56, enlarged by the executive order of 4 November 1873 (Royce's text): from the old reserve's SW corner on the coast 5 miles east, to the south end of Lake Quinault, round its east shore, to the Queets half a mile north of the river 3 miles above its mouth, down to the coast | text | 265 |
 | Spokane | executive order of 18 January 1881 (Royce's text): Chamokane creek from the 48th parallel down to the Spokane, along the Spokane's south bank to the Columbia, up the Columbia's west bank to the 48th parallel, east along it | text | 179 |
 | Coeur d'Alene | executive order of 8 November 1873 (Royce 552) | plate | 765 |
-| Flathead | Hell Gate treaty of 16 July 1855, the Jocko reserve (Royce's text): from the Jocko's source along the Bitterroot divide to the Clark Fork between the Camas and Horse prairies, north along the divide west of the Flathead river to the latitude halfway down Flathead Lake, east to the Mission divide, south along it | text | 1,813 |
 | Lemhi | executive order of 12 February 1875, on the Lemhi (Royce 575) | plate | 101 |
 | Duck Valley | executive order of 16 April 1877 (Royce's text: from the 100th to the 120th milepost of Nevada's northern line, north to township 16 S of the Boise base line) and the addition of 4 May 1886 (T. 15 S., R. 1-3 E.) | text | 415 |
 | Pyramid Lake | set apart in 1859, confirmed by executive order of 23 March 1874; traced from Royce's Nevada plate (no. 561) | plate | 416 |
@@ -66,15 +67,17 @@ Source: *plate*, traced from Royce's state plate (georeferenced on towns; about 
 | Jicarilla | executive order of 14 February 1887 (Royce 624), the Dulce country (I-31, I-58) | plate | 606 |
 | Mescalero | executive orders of 1873-83 (Royce 643-644), in the Sacramento and White Mountains | plate | 780 |
 | Pima and Maricopa | the Gila River reserve of 1859 as enlarged by the orders of 1876-83; traced from Royce's Arizona plate 2 (nos. 415, 596, 634, 651) | plate | 368 |
-| Mohave | the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76; traced from Royce's Arizona plate 2 (nos. 466, 554, 593), aligned on the river | plate | 543 |
+| Mohave | the Colorado River reserve, act of 3 March 1865 as enlarged by the orders of 1873-76; traced from Royce's Arizona plate 2 (nos. 466, 554, 593), aligned on the river | plate | 542 |
 | Hualapai | executive order of 4 January 1883; traced from Royce's Arizona plate 2 (no. 641), the north line the Colorado | plate | 1,504 |
-| **Total** | | | 11,758 |
+| **Total** | | | 9,593 |
 
 Squares (no line before 1887, or too small to outline): Makah, Tulalip, Puyallup, Nisqually, Bitterroot Salish, Ruby Valley, Southern Paiute, Pueblos of the Rio Grande, Taos Pueblo, Quechan, Havasupai, Kumeyaay, Paipai, Kiliwa, Cucapá.
 
 ## Counties adjusted to the homelands' lines
 
 - Sandía: a detached 406 sq mi goes to the Diné country homeland
+- San Diego: a detached 8,831 sq mi (near -115.41, 33.40) goes to San Bernardino
+- San Diego: a detached 43 sq mi goes to the Temecula homeland
 - Wasco: a detached 55 sq mi (near -119.18, 45.98) goes to Umatilla
 - Yakima: a detached 173 sq mi goes to the Yakama homeland
 - Spokane: a detached 5,155 sq mi (near -120.27, 48.36) goes to Big Bend
