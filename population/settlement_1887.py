@@ -75,8 +75,9 @@ def main():
     back_later = pb * (1 - lb) + rep * (1 - ib) + land_in * (1 - lb)
     L.append(f"| **Total** | **{m(gross_out)}** | **{m(back_now)}** | **{m(back_later)}** | **{m(net)}** |\n")
     new_net = passage_out - passage_back + agents + irr_cost
-    L.append(f"**What is new to the workbook: {m(new_net)}** over 1867-87 (about {m(new_net / 21)} a year), the passage, the offices and the "
-             "irrigation loss. **The land is a change of timing, not new acres:** the workbook's `Members' land` sheet (L15) sells our timeline's "
+    L.append(f"**In the financial workbook** (`finance/CR-071-settlement-workbook.md`): the passage and the offices ({m(passage_out - passage_back + agents)} net here) "
+             "are already inside Budget T (People T x assist_cost, about $109m in 1867-87), so only the irrigation loans and the land's timing are added. "
+             "The irrigation loss is"+f" {m(irr_cost)}. **The land is a change of timing, not new acres:** the workbook's `Members' land` sheet (L15) sells our timeline's "
              "census farm acreage as it grew, most of it after 1887; the programme sells about this many acres earlier. In the workbook it is "
              "an earlier path for L15's acreage, at L15's price, not a second land line. The irrigation loans "
              f"({m(irr_capital)} lent in {ir['built'][0]}-{ir['built'][1]}) are a balance-sheet item repaid over about twenty years.\n")

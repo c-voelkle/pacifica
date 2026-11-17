@@ -13,6 +13,12 @@ basis = "Navajo homeland treaty of 1865 (canon); I-18, I-19"
 royce = "none: canon's own treaty. North: the San Juan and the Colorado; west: the Colorado and the Little Colorado to the Peaks; south: north of the thirty-fifth-parallel railway; east: the Chaco country to Mount Taylor"
 ring = [[-111.68, 35.36], [-111.62, 36.0], [-111.6, 36.87], [-110.9, 37.18], [-110.2, 37.2], [-109.6, 37.25], [-109.05, 37.2], [-108.6, 36.85], [-108.2, 36.72], [-107.75, 36.15], [-107.55, 35.3], [-107.75, 35.25], [-107.9, 35.6], [-109.05, 35.62], [-110.7, 35.3], [-111.55, 35.3]]
 [[large]]
+name = "Chihenne and Bedonkohe country"
+basis = "Apache peace of 1865 at Santa Rita del Cobre (canon, CR-061 N4): from the Mimbres to the Gila headwaters and Ojo Caliente; I-66"
+royce = "none: canon's own peace. A sketch: the Mogollon Mountains and the Gila's forks on the west, Ojo Caliente on the north-east, the Black Range and the Mimbres on the east. The Santa Rita copper mine lies inside, on lease (CR-061 N4); the surveyed Pinos Altos district and Silver City stay county ground (Mimbres)"
+ring = [[-108.85, 33.45], [-108.5, 33.65], [-108.0, 33.75], [-107.5, 33.72], [-107.42, 33.5], [-107.55, 33.2], [-107.7, 32.95], [-107.85, 32.75], [-108.0, 32.72], [-108.12, 32.78], [-108.15, 32.92], [-108.3, 32.97], [-108.55, 33.02], [-108.8, 33.15]]
+
+[[large]]
 name = "Utes' Slope and Parks"
 basis = "Ute agreement of 1866 (canon, CR-060 R4)"
 royce = "treaty of 2 March 1868: west of 107 W, from Colorado's south line to 15 miles north of 40 N. Drawn as our timeline's six counties of 1887 on that ground that are in no county of the 124, so the mining counties held on lease (I-34) stay whole"
@@ -297,5 +303,5 @@ elsewhere = [
   ["Bitterroot Salish", -114.1, 46.3], ["Ruby Valley", -115.4, 40.4],
   ["Southern Paiute", -113.7, 37.15], ["Pueblos of the Rio Grande", -106.45, 35.55], ["Taos Pueblo", -105.55, 36.44],
   ["Quechan", -114.6, 32.8], ["Havasupai", -112.7, 36.25],
-  ["Kumeyaay", -116.0, 32.2], ["Paipai", -115.82, 31.65], ["Kiliwa", -115.6, 31.15], ["Cucapá", -115.15, 32.25], ["Chihenne", -107.95, 32.95],
+  ["Kumeyaay", -116.0, 32.2], ["Paipai", -115.82, 31.65], ["Kiliwa", -115.6, 31.15], ["Cucapá", -115.15, 32.25],
 ]
