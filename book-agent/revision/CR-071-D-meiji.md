@@ -1,6 +1,6 @@
 # CR-071, Part D — The Meiji lesson (1867–1878)
 
-**Status:** DRAFT, 15 November 2026; updated 16 November after the consistency check (A6, B6, B10, C). Decisions 1–10 APPROVED (9 on 16 November, 23:26; Soberanes's motive is in CR-072 C3 and Part G, G6.2; the memorandum is Part E, E3.2); 8 OPEN. Two refinements from the check, K-4 and K-14, and decision 8 were APPROVED on 16 November. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED.
+**Status:** DRAFT, 15 November 2026; updated 16 November after the consistency check (A6, B6, B10, C). Decisions 1–10 APPROVED (8 on 16 November; 9 on 16 November, 23:26; Soberanes's motive is in CR-072 C3 and Part G, G6.2; the memorandum is Part E, E3.2). Two refinements from the check, K-4 and K-14, were APPROVED on 16 November. Lessons L2–L9 are carried out by approved decisions of Parts E, G, H and I (17 November). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED.
 **Belongs to:** `CR-071-outline.md`, Part D. No storyline text is drafted here.
 **Canon it builds on:** §7 (Manjirō, Hikozō, Satsuma, the 1858 treaty); §14 (the guarantee at Edo in 1868, Kuroda, the army mission, the alliance of 1870–71, the Iwakura Mission's landfall); §15 (1877: Pacifica backs Tokyo against Saigō); §16 (Soberanes, born Monterey 1847, Vance's chief of staff at Vladivostok 1878); §18 (Kiyoshi, born at Kagoshima in 1859); CR-021 A ("which Elias watched closely") and B5.
 
@@ -45,7 +45,7 @@ Decisions 2, 4, 6 and 10 APPROVED. Decision 9 waited on Soberanes's motive, whic
 | June 1874 | Saigō's private schools open in Kagoshima | Governor Ōyama, a local man, pays for them from prefectural funds. Kagoshima remits almost no tax, keeps paying stipends and ignores conscription. |
 | 1876 | Compulsory commutation into bonds | About 174 million yen in bonds; many lose most of their income. |
 | 15 Feb–24 Sep 1877 | The Satsuma Rebellion | Most Satsuma men in the government stay loyal. Ōyama is executed. |
-| May 1877, May 1878 | Kido dies; Ōkubo is assassinated | All three makers of the abolition are dead within fifteen months of each other. The prefectures remain. Of the men who carried the lesson, Itō lives on. |
+| May 1877, May 1878 | Kido dies; Ōkubo is assassinated | All three makers of the abolition are dead within about a year of each other (Saigō, September 1877). The prefectures remain. Of the men who carried the lesson, Itō lives on. |
 
 ## D2. The traffic runs west first (1867–1871)
 
@@ -64,7 +64,7 @@ Decisions 2, 4, 6 and 10 APPROVED. Decision 9 waited on Soberanes's motive, whic
 | **The army mission** | Tokyo from 1871 | The guard; conscription in 1873; the campaign of 1877 | Canon §14 |
 | **The advisers with Kuroda** | Hokkaido from 1869–70 | A territory run by a development office with no domain underneath it | Canon §14; CR-070 pairs it with Alaska's Northern Commission |
 | **Ōkubo and Kido themselves** | Pacifica, January–March 1872 | See D4 | Canon §14; D4 APPROVED |
-| **Soberanes** | Writes the memorandum (decision 9, ready) | Turns it into a plan: D5 | He is 25 in 1872, so the memorandum follows his return from Vladivostok in 1878 (§16). His motive is in CR-072 C3 (the posts to the estates, the boards to the Party; the Californios safer as a historic land) and Part G, G6.2 (the Californios' arithmetic); the memorandum is Part E, E3.2. |
+| **Soberanes** | Writes the memorandum (decision 9, APPROVED) | Turns it into a plan: D5 | He is 25 in 1872, so the memorandum follows his return from Vladivostok in 1878 (§16). His motive is in CR-072 C3 (the posts to the estates, the boards to the Party; the Californios safer as a historic land) and Part G, G6.2 (the Californios' arithmetic); the memorandum is Part E, E3.2. |
 | **Kiyoshi** | Kagoshima, where he was born; 18 years old in 1877 | The losers' side | Canon §18; 1877: a cadet at the naval school the Pacifican mission runs in Tokyo, on the government side while his birthplace rises (decision 8, APPROVED) |
 
 ## D4. The winter of 1872
@@ -81,14 +81,14 @@ In this timeline San Francisco is not a port of transit. It is the ally's chief 
 | # | Japan | The lesson | Pacifica (fixed in Parts E and G) |
 |---|---|---|---|
 | L1 | Registers returned in 1869, domains abolished in 1871 | **Two steps.** First the office changes its nature and keeps its holder; later the holder goes. | **APPROVED:** a step one in the late 1870s. Member governors take a confederal commission and are confirmed by the Providentor, in exchange for L3. The states are abolished only in 1887. Set in Part E: the Commission Act of 1879 (E3.1). |
-| L2 | Wording kept vague in 1869 | Step one must look like an honour. | PROPOSED: the commission is presented as a rank (E3.1). |
-| L3 | Debts, stipends and paper money assumed | **Abolition as a rescue.** A government in deficit will hand over its accounts. | PROPOSED: the Confederation assumes member debts and guarantees member paper (the Assumption Act of 1879, E2). The depression of the 1870s supplies the deficits. |
-| L4 | The guard assembled first | Force before the announcement. | PROPOSED: member militias under the Defense Law before 1887 (the Militia Act of 1882, E1). |
-| L5 | Lords ordered to Tokyo | Move the men, not only the lines. | PROPOSED: governors and senior legislators are given seats and duties at Thalassia. The Seat of Government Act of 1885 (canon) makes the place. |
-| L6 | Peerage for former lords | Rank for office. | PROPOSED: appointed seats in the Senate, "up to a quarter" (canon), held to sixty-eight (CR-038; K-11). |
+| L2 | Wording kept vague in 1869 | Step one must look like an honour. | Carried out: the commission is presented as a rank (E3.1, E-4, E-17, APPROVED). |
+| L3 | Debts, stipends and paper money assumed | **Abolition as a rescue.** A government in deficit will hand over its accounts. | Carried out (E2, E-2, E-3, APPROVED): the Confederation assumes member debts and guarantees member paper (the Assumption Act of 1879, E2). The depression of the 1870s supplies the deficits. |
+| L4 | The guard assembled first | Force before the announcement. | Carried out: member militias under the Defense Law before 1887 (the Militia Act of 1882, E1, E-1, APPROVED). |
+| L5 | Lords ordered to Tokyo | Move the men, not only the lines. | Carried out (E3.1, APPROVED): governors and senior legislators are given seats and duties at Thalassia. The Seat of Government Act of 1885 (canon) makes the place. |
+| L6 | Peerage for former lords | Rank for office. | Carried out (G-5, K-11, APPROVED): appointed seats in the Senate, "up to a quarter" (canon), held to sixty-eight (CR-038; K-11). |
 | L7 | Officials from other domains | The governor is a stranger. | The Commissioner never serves at home (canon; CR-037 gives the Qing root). |
-| L8 | Prefectures named for rivers, towns and mountains | Take the old name off the map. | PROPOSED: no county is called Deseret, Oregon or Columbia. California and Hawaii survive as names of historic lands only. |
-| L9 | 302 prefectures, then 72 | The first map is provisional. | PROPOSED: a provisional map of about 130 districts in 1884, the 124 in 1886 (E-8), and organic law that lets the 124 be redrawn (canon: boundaries are organic law). |
+| L8 | Prefectures named for rivers, towns and mountains | Take the old name off the map. | Carried out (H-5; Part I, I-6, APPROVED): no county is called Deseret, Oregon or Columbia. California and Hawaii survive as names of historic lands only. |
+| L9 | 302 prefectures, then 72 | The first map is provisional. | Carried out (E-8, APPROVED): a provisional map of about 130 districts in 1884, the 124 in 1886 (E-8), and organic law that lets the 124 be redrawn (canon: boundaries are organic law). |
 | L10 | The 1873 loan for stipends | Commutation needs credit. | **APPROVED:** San Francisco can lend where historical America could not; part of the 1873 loan is placed there. MODEL; small. Ledger entry to be created by this CR (outline, Ledger). |
 | L11 | Kagoshima, 1871–77 | **The exception is the danger.** A unit left to its own men, taxes and soldiers becomes a second government. | See D6 (APPROVED). |
 | L12 | Kido, Ōkubo and Saigō dead by May 1878; the prefectures stand | A reform finished before its makers die outlives them. | The succession argument (B5). |
@@ -102,7 +102,7 @@ In this timeline San Francisco is not a port of transit. It is the ally's chief 
 **Hawaii is the exception (K-4, APPROVED; added 16 November).** It keeps a reigning Queen, the Queen's Guard as Thalassia's guard (E-10), the Territorial Council until 1907, eight aliʻi seats in the Senate (G2) and the crown's land premiums (CR-021; CR-057 E). By the rule of D6 it should be the most dangerous unit in the Realm. It is safe only because its Queen is the Regent: the one historic land with a head, a household guard and revenue of its own is the one whose head governs the whole. That sharpens the Kagoshima point. An exception is safe only while its holder is the centre, and the Truce makes one exception whose holder is not.
 
 **Where he fails to apply it.** The failure has two dates (K-14, APPROVED; aligned with E-13).
-- **1882.** At Sherman's request, and with Elias's consent, the officers who fail the Militia Act's examining board are kept together as the command of the reserves (Part E, E1, E9.1). The founder gathers the men with a grievance into one body by an honourable act.
+- **1882.** At Sherman's request, and with Elias's consent, the officers who fail the Militia Act's examining board are kept together as a command of their own, the inland command (Part E, E1, E9.1). The founder gathers the men with a grievance into one body by an honourable act.
 - **1887.** The Truce of Thalassia writes that command into organic law as the inland command, held for life by Silas (canon). That is a Kagoshima: a command that maps onto the old interior, held by a man with a following among the officers the examinations passed over (CR-022). Donner Pass, in October 1887, is Pacifica's Satsuma in miniature, and its leader is the founder's eldest son.
 
 **The Chronicler (decision 10, APPROVED):** he does not draw the parallel between Saigō and Silas. The two scenes are set so that the reader sees it.
@@ -131,7 +131,7 @@ Japan's abolition was carried by a small band from two domains who had fought a 
 | 2 | Does Kido learn Pacifica's Articles from Hikozō and draw the opposite lesson (D2.1)? | Yes. | **APPROVED** |
 | 3 | How long does the mission stay, and does it see Deseret (D4)? | Six to eight weeks; yes, by invitation if the route does not strand it. | **APPROVED** |
 | 4 | Who does Elias talk to: Ōkubo, Kido, or both (D4.2)? | Both, on different steps. | **APPROVED** |
-| 5 | Is there a step one in the late 1870s (L1)? | Yes: the Commission Act of 1879 (Part E, E3.1). | **APPROVED**; the act's name OPEN (Part E, E-17) |
+| 5 | Is there a step one in the late 1870s (L1)? | Yes: the Commission Act of 1879 (Part E, E3.1). | **APPROVED**; the act's name approved in Part E (E-17) |
 | 6 | Is the 1873 loan placed in San Francisco (L10)? | In part. MODEL; small. | **APPROVED** |
 | 7 | Does D6 stand: the historic lands designed against Kagoshima, and the Truce as the lesson not applied? | Yes. | **APPROVED**; refined by K-4 and K-14 (APPROVED) |
 | 8 | Where is Kiyoshi in 1877? | A cadet at the naval school the Pacifican mission runs in Tokyo, on the government side while Kagoshima rises; it fits his captaincy of Japanese-crewed ships at Keelung in 1884 (§16). | **APPROVED** (author, 16 November) |

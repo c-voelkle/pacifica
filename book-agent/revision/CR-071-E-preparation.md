@@ -37,10 +37,10 @@ Two members stay outside most of this until the end: **California** and **Desere
 **The act (1882).**
 - Every member militia becomes a **reserve of the common army**. Its officers hold confederal commissions; its arms are kept in confederal arsenals; it is called out by the Providentor, not the governor.
 - **One examination for every commission (K-2, APPROVED).** The act puts every officer's commission before a board chaired by Sherman (E9.1): the militias' officers, and with them the officers of the regulars and of the Atlantic Auxiliary. This is canon's point that "the examinations reach the officer corps in mid-career" (CR-022, §19), and 1882 is its date. Many of the old fighting officers fail. Silas, an officer of the Auxiliary since 1872 and thirty years old, fails the mathematics and is capped below general rank, and Elias refuses to intervene (canon).
-- **Deseret** loses nothing it had not already given: the Legion has served within the Defense Law since 1863. The Church accepts the act, which costs it least of anyone.
+- **Deseret** loses nothing it had not already given: the Legion has defended the roads and the valley under the Compact since 1863 and served within the Defense Law since 1867 (§10, §12). The Church accepts the act, which costs it least of anyone.
 - **California** resists: the Committee party's papers call it the founder's army. The act passes the confederal chambers on the Party's majorities, and California's legislature can only protest, because defence is a confederal competence (Articles of 1856, canon).
 
-**The consequence no one intends.** The failed officers are not thrown out. At Sherman's request, and with Elias's consent, they are kept together as the command of the reserves, the inland command (E9.1). From 1882 to 1885 the Auxiliary's veteran battalions pass to the interior garrisons on land grants and come under the same command, and Silas commands on the Sierra line (CR-022 B3, dates amended by K-2). By 1887 they are Silas's veterans (CR-072 C4), and the Truce gives their command to Silas for life. The act removes the members' armed men and gathers them into one body with a grievance. It is the lesson of Kagoshima applied to the states and not to the army, misapplied for the first time in 1882 (Part D, D6, K-14), and the cause is an honourable act, not an oversight.
+**The consequence no one intends.** The failed officers are not thrown out. At Sherman's request, and with Elias's consent, they are kept together as a command of their own, the inland command (E9.1). From 1882 to 1885 the Auxiliary's veteran battalions pass to the interior garrisons on land grants and come under the same command, and Silas commands on the Sierra line (CR-022 B3, dates amended by K-2). By 1887 they are Silas's veterans (CR-072 C4), and the Truce gives their command to Silas for life. The act removes the members' armed men and gathers them into one body with a grievance. It is the lesson of Kagoshima applied to the states and not to the army, misapplied for the first time in 1882 (Part D, D6, K-14), and the cause is an honourable act, not an oversight.
 
 ## E2. Money: the assumption (1875–1879) — E-2, E-3 APPROVED
 
@@ -135,7 +135,7 @@ The outline's CT1 is settled by CR-027 (approved, 21 October 2026), which supers
 
 ## E7. The prototype: Alaska — E-11 APPROVED
 
-The Northern Commission (CR-070) governs Alaska from 1867 by compact and commission, with no legislature. It is the one part of the Confederation that already looks like a county of 1887. Whether it becomes counties in 1887 or stays under the Commission is Part I, I5 (CR-070 open decision 9).
+The Northern Commission (CR-070) governs Alaska from 1867 by compact and commission, with no legislature. It is the one part of the Confederation that already looks like a county of 1887. It stays under the Commission and outside the 124 (Part I, I-7, APPROVED; CR-070 open decision 9). Baja's commission (1867–87) and the Mountain Districts' (outline A-1) are the other cases.
 
 The outline's broader prototype (C3: lands taken in 1862–65 governed as counties from the start) is dropped: canon makes New Mexico and the interior members ("the new state", §10; "the interior states", CR-021).
 
@@ -153,7 +153,7 @@ The outline's broader prototype (C3: lands taken in 1862–65 governed as counti
 | 1879 | Assumption Act and Commission Act ("the Collar"); taken by Oregon, Columbia, Idaho, western Montana, Washoe and New Mexico; refused by California and Deseret | E2, E3.1 |
 | 1880 | The Patrimony chartered, Ralston its chairman; Judah's survey begins; the census of 1880 taken as before | E4; CR-073 E3 |
 | c. 1880 | Broderick steps aside; the examined cadre takes the Party | CR-072 P11 |
-| 1882 | Militia Act; Sherman's board examines the officers of the militias, the regulars and the Auxiliary; Silas fails; the command of the reserves formed for those who fail | E1; E9.1 |
+| 1882 | Militia Act; Sherman's board examines the officers of the militias, the regulars and the Auxiliary; Silas fails; the inland command formed for those who fail | E1; E9.1 |
 | 1882–85 | The Auxiliary's veteran battalions pass to the interior garrisons; Silas commands on the Sierra line | E1; CR-022 B3 (amended) |
 | 1884 | First map, about 130 districts, with the census of 1880 re-tabulated by district. June: Sherman refuses the succession | E4; E9.1 |
 | 1885 | Seat of Government Act; the move to Thalassia | canon; F |
@@ -175,13 +175,13 @@ Two historical men give the preparation its honourable faces, each in his own ch
 - He also keeps the commissions out of the Party's hands. The Party may have the boards; it may not have the army (CR-072 B). Commissions are examined, not given on a ticket.
 
 **His mercy, and its cost.**
-- True to the general who cared for his soldiers, he asks that the failed officers not be discharged but kept together under a command of their own, the command of the reserves. Elias agrees. It is the first time he misapplies the lesson of Kagoshima (Part D, D6, K-14).
+- True to the general who cared for his soldiers, he asks that the failed officers not be discharged but kept together under a command of their own, the inland command (not to be confused with the county reserve, which the Commissioner commands, CR-021 B3). Elias agrees. It is the first time he misapplies the lesson of Kagoshima (Part D, D6, K-14).
 - That command is the inland command at Sacramento. In 1887 the Truce writes it into organic law as Silas's for life (canon). The body Kagoshima warned against (Part D, D6) is gathered by an honourable act.
 - It also answers a point in canon: Silas is capped below general rank (CR-022), yet holds the inland command. A command of reserves can be held below general rank.
 
 **June 1884: the refusal of the succession.**
 - *Hist.* At the Republican convention in June 1884 Sherman refused the nomination: if nominated he would not run, and if elected he would not serve.
-- *Here.* Elias is failing and Victoria is increasingly governing (canon §21). Men of the old army, and some Prosperity men who do not trust a woman's regency or the founder's Satsuma-born son and his friends in the navy, want a soldier to hold the state after the founder. They offer it to Sherman. He gives the same answer.
+- *Here.* Elias is failing and Victoria is increasingly governing (canon §21). Men of the old army, and some Prosperity men who do not trust the Queen's influence or the Japanese naval party, want a soldier to hold the state after the founder. They offer it to Sherman. He gives the same answer.
 - With the one respected soldier refusing, the old army is left with Silas, and the succession goes to a negotiated truce rather than to a general. At the Truce Sherman backs constitutional allegiance over personal rule (canon). His refusal is the patriotic act of this sequence.
 
 ### E9.2 Ralston — CR-073; E-15, E-16 APPROVED
@@ -219,7 +219,7 @@ CR-073 goes into canon before this CR (K-1), so this CR carries E-15 and the gua
 | E-10 | Hawaii ratifies through the Territorial Council with the Queen's assent; the Queen's Guard becomes Thalassia's guard | **APPROVED** |
 | E-11 | Drop the outline's prototype C3 | **APPROVED** |
 | E-12 | Sherman chairs the 1882 examining board and keeps the commissions out of the Party's hands | **APPROVED** |
-| E-13 | At Sherman's request the failed officers form the command of the reserves, which becomes the inland command | **APPROVED** |
+| E-13 | At Sherman's request the failed officers form a command of their own, the inland command | **APPROVED** |
 | E-14 | Sherman's refusal of June 1884 is a refusal of the succession | **APPROVED** |
 | E-15 | Ralston, as chairman of the Patrimony, brings the San Francisco houses to accept the Constitution in 1886–87 | **APPROVED** (guards by K-8) |
 | E-16 | Ralston sees the survey's second use and keeps the secret | **APPROVED** |

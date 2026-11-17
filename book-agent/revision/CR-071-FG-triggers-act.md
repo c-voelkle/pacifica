@@ -1,6 +1,6 @@
 # CR-071, Parts F and G — The triggers and the act (1884–1888)
 
-**Status:** DRAFT 6, 16 November 2026. All decisions APPROVED by the author: F-1 to F-4, G-1 to G-11, G-10a, R-1, R-2 and K-1 to K-15. Draft 6 applies the consistency check of 16 November (`CR-071-consistency-check.md`: A1, A7, A8, A9, A10, B1, B3, B4, B5, B6, B7, B8 and the bookkeeping in C). The decisions it raised for these parts (K-1, K-5, K-6, K-7, K-9, K-11, K-12, K-13) were APPROVED on 16 November, with R-1 and R-2. Section S carries this CR's amendments to CR-073 and CR-057; section T its amendment to the charters of 1866 in CR-059, CR-060 and CR-061 (K-15, approved 16 November). Details inside approved sections that are not themselves decisions remain PROPOSED until integration.
+**Status:** DRAFT 6, 16 November 2026. All decisions APPROVED by the author: F-1 to F-4, G-1 to G-11, G-10a, R-1, R-2, K-1 to K-15, and K-16 and K-17 (17 November). Draft 6 applies the consistency check of 16 November (`CR-071-consistency-check.md`: A1, A7, A8, A9, A10, B1, B3, B4, B5, B6, B7, B8 and the bookkeeping in C). The decisions it raised for these parts (K-1, K-5, K-6, K-7, K-9, K-11, K-12, K-13) were APPROVED on 16 November, with R-1 and R-2. Section S carries this CR's amendments to CR-073 and CR-057; section T its amendment to the charters of 1866 in CR-059, CR-060 and CR-061 (K-15, approved 16 November). Details inside approved sections that are not themselves decisions remain PROPOSED until integration.
 **Belongs to:** `CR-071-outline.md`, Parts F and G. Builds on Parts D and E (`CR-071-D-meiji.md`, `CR-071-E-preparation.md`), CR-072 (the Prosperity Party), CR-073 (Ralston) and CR-029 (the Philippines). No storyline text is drafted here.
 **Integration (K-1, APPROVED):** CR-073 and CR-072 in one pass on the CR-057 project document of 6 November, then this CR. Parts F and G name the Party, the Committee party, Broderick and Judah alive, Cannon and Taylor, the personal guarantee and the Deseret caucus, and Pacheco "on the Party's ticket", all of which enter canon with CR-072.
 
@@ -61,7 +61,7 @@ Elias is dying, and there is no legitimate heir (§21–§22). The states are th
 
 ## F3. The precipitating trigger: water — APPROVED
 
-**Hist.** *Lux v. Haggin* (1886): California's Supreme Court upheld riparian rights against upstream diversion for irrigation (Miller and Lux against Haggin and Tevis); the legislature answered with the Wright Act of 1887. (Dates to verify.)
+**Hist.** *Lux v. Haggin*, 69 Cal. 255 (April 1886): California's Supreme Court upheld riparian rights against upstream diversion for irrigation (Miller and Lux against Haggin and Tevis); the legislature answered with the Wright Act of 1887. In this timeline the decision of the Confederal Court on appeal is dated October 1886 (F-3).
 
 **Who is still there to sue (K-6, APPROVED).** CR-073 holds back the two historical land-and-water empires, and the case needs a plaintiff large enough to fight it. Miller & Lux's lands along the San Joaquin are riparian and private, bought in the 1850s and 1860s from rancho grantees and private holders. None of CR-073's levers reaches them: the concessions, the Land Fund and the register govern the public domain and Native land, and the Republic's water law governs its own grants and works (K-5). What is held back is their spread onto the public domain and their purchase of the canal, so they remain the largest riparian owner in the valley and can still go to law. Haggin and Tevis, who historically built on public land, never get the Kern: its water goes to a district chartered on a confederal grant. The case of this timeline is therefore **_Lux v. Kern River District_** (working name), a riparian owner against a confederal district.
 
@@ -196,10 +196,10 @@ California has 57% of the people in the 124 (56% of the model's 5.84 million; MO
 | **California's President** | Pacheco's office ends; an appointed seat in the Senate, held to sixty-eight, and precedence at Monterey (G6) | APPROVED |
 | **The member legislatures** | Dissolved; members may stand for the county boards in the spring of 1888, on the Franchise Law (E-9; K-12) | APPROVED; K-12 |
 | **Interim government (G-8)** | Until the first Senate and Chamber sit in 1888, the Confederal Council and Assembly sit on as the Realm's chambers under the Regent; their first act is the Franchise Law (K-12). The old county boards carry on in their wards until the new boards are elected. The Confederal Council consents to the interim Chancellor; the Senate confirms him at its first sitting in 1888 (R-2). | APPROVED (R-2) |
-| **The 124 Commissioners** | Appointed from the examined service, none in his home county (CR-021 B3); some of the first are the member treasurers and auditors examined and posted since 1879 (E3.1). Elias approves the list before the handover; Victoria signs the commissions as her first act as Regent on 1 August, in his presence (R-1). | canon rule; APPROVED (R-1) |
+| **The 124 Commissioners** | One for each county; Thalassia's governs the Crown city for the Crown directly, with no board (CR-021 B3; PROPOSED, 17 November). Appointed from the examined service, none in his home county (CR-021 B3); some of the first are the member treasurers and auditors examined and posted since 1879 (E3.1). Elias approves the list before the handover; Victoria signs the commissions as her first act as Regent on 1 August, in his presence (R-1). | canon rule; APPROVED (R-1) |
 | **Member judges** | Seats in the Court of the Realm or the county courts, or pensions (E3.3) | E-6 context |
 | **Member employees** | The examined keep their posts; the rest have three years to pass, or are pensioned | APPROVED |
-| **Member property** | Passes to the Realm. **California's capitol at Sacramento becomes the inland command's headquarters** (G-9); Salem's and Olympia's become county halls; Salt Lake's state house becomes the city's county hall | APPROVED |
+| **Member property** | Passes to the Realm. **California's capitol at Sacramento becomes the inland command's headquarters** (G-9); Salem's becomes a county hall and Olympia's the courthouse of the Columbia circuit (K-16); Salt Lake's state house becomes the city's county hall | APPROVED |
 | **Member debts** | Assumed in 1879, except California's and Deseret's, which pass to the Realm now | E2 |
 | **Hawaii** | The Territorial Council carries on until the Act of Settlement of 1907 (CR-040) | canon |
 
@@ -215,7 +215,7 @@ California has 57% of the people in the 124 (56% of the model's 5.84 million; MO
 
 ### G6.1 Romualdo Pacheco (Hist., verified)
 
-Born in Santa Barbara in 1831; schooled in Honolulu at the Oahu Charity School, 1838–43; seaman, judge, state treasurer, brigadier of the Californio Native Cavalry (1863); Governor of California, February–December 1875; later a congressman, chairing the committee on private land claims; he spoke for Chinese exclusion in 1882. In canon (CR-029 A12, APPROVED) he goes to Manila in 1876 as Governor-General for a long term.
+Born in Santa Barbara in 1831; schooled in Honolulu at the Oahu Charity School, 1838–43; seaman, judge, state treasurer, brigadier general of the California militia (1863; the Native Cavalry was a separate battalion of federal volunteers); Governor of California, February–December 1875; later a congressman, chairing the committee on private land claims; he spoke for Chinese exclusion in 1882. In canon (CR-029 A12, APPROVED) he goes to Manila in 1876 as Governor-General for a long term.
 
 **In this timeline.** He comes home from Manila about **1885**, at fifty-four, his term done, and is chosen **President of California in November 1886** on the Party's ticket. Canon names no President of California after Vallejo and does not say how the office is filled (R, item 6), so the method is left to integration.
 
@@ -230,13 +230,13 @@ He is not bought, and he does not simply obey. He bargains, because California's
 
 **The friction (G-10a, APPROVED: eyes open).** His anti-Chinese politics are the Sacramento faction's (CR-029). The Realm takes immigration to the centre (CR-021 B2), so the last President of California signs away the one power through which California could have passed exclusion. He trades exclusion for the Californios' guarantees and knows it. He remains a man who chose.
 
-### G6.3 Reginaldo del Valle (Hist., verified)
+### G6.3 Reginaldo del Valle (Hist.; corrected after the review of 17 November)
 
 - Born in Los Angeles on 15 December 1854; son of Ygnacio del Valle, who came from Jalisco in 1825 and was alcalde of Los Angeles in 1850; the family at Rancho Camulos from 1861.
 - Fluent in English, French and Spanish. Santa Clara (1873); the bar in 1877.
 - **Assembly, 1880–83.** A Democrat. He fought, and lost, a bill requiring state offices to keep their records in English only instead of in Spanish and English. He carried the bill for the State Normal School at Los Angeles (later UCLA). He lost the speakership by three votes in 1881.
-- **Senate, 1883–87.** President pro tempore at twenty-seven, the youngest ever. The *Los Angeles Times* (1885) called him the upper house's "parliamentarian par excellence".
-- **Later.** He chaired the Democratic state conventions (1888, 1894) and lost races for Congress (1884) and lieutenant governor (1890). From 1908 he spent twenty-one years on Los Angeles's Public Services Commission and helped end the Owens Valley water wars after the aqueduct was dynamited. Founder of the Landmarks Club for restoring the missions (1887). Died in 1938.
+- **Senate, 1883–87.** President pro tempore at twenty-eight, the youngest ever. The *Los Angeles Times* (1885) called him the upper house's "parliamentarian par excellence".
+- **Later.** He chaired the Democratic state conventions (1888, 1894) and lost races for Congress (1884) and lieutenant governor (1890). Later he spent many years on Los Angeles's Public Service Commission (dates to verify) and helped end the Owens Valley water wars after the aqueduct was dynamited. A supporter of mission restoration (the Landmarks Club itself was founded by Charles Lummis in 1895). Died in 1938.
 
 ### G6.4 Del Valle's part
 
@@ -246,7 +246,7 @@ He is not bought, and he does not simply obey. He bargains, because California's
 4. **The chamber.** A ratification carried "narrowly" needs a parliamentarian, and he was the best in California's upper house in exactly these years.
 5. **Schools.** The Normal School ties him to the examinations, and so to Soberanes's estate.
 6. **A convert.** Historically a Democrat, he comes to the Party from the opposition, as CR-072 P20 has it absorb its rivals.
-7. **He lives to 1938.** Pacheco dies in 1899. Del Valle can carry the Californio thread into Julian's reign and sit in the Realm's Senate in the fights of 1910–1911 and 1927 (CR-021 B5).
+7. **He lives to 1938.** Pacheco dies in 1899. Del Valle can carry the Californio thread into Julian's reign and sit in the Realm's Senate in the fight of 1910–1911 (CR-021 B5); he reaches sixty-eight in December 1922 and retires under CR-038, so in 1927 he watches from the Court's bar or the board of a Los Angeles county, not the Senate.
 
 ### G6.5 Both
 
@@ -342,7 +342,8 @@ The charters of 1866 are integrated canon (`main`, commit 28b7263). Each is entr
 | | The works (the Sound's lights and harbours, the Snoqualmie road) | **Ended because fulfilled**: built by 1887 (K-16) |
 | | The name | The member ends; **"Columbia" survives** as the name of the Court of the Realm's circuit at Olympia, whose capitol becomes its courthouse (as Sacramento's becomes the inland command's, G-9) (K-16) |
 | Washoe (C-1866-WASHOE-CHARTER) | Carried from the civil compact of 1864 (CR-060 C7–C9): Carson's property guarantees of 1860; titles and liens recognised; the tax on mines' net proceeds | **Guarantees and titles carried** as a guarantee of the whole: no title granted under the Convention of 1860 or the compact of 1864 can be reopened. **The tax cap ends** with the member's power to tax; the Realm's mining royalty applies to new claims, and mines already working keep the net-proceeds basis until worked out. By 1887 the Comstock is in decline (Hist.), so the cap protects a mine that is running out; its defenders (William Stewart among them) fight for a privilege that no longer pays much, an irony left to the reader (K-17) |
-| Idaho, western Montana (C-1866-ID-, -MT-CHARTER) | Terms not stated in canon | Under T1 either way |
+| Idaho (C-1866-ID-CHARTER) | The Chinese floor (CR-059 I10); the miners' district codes and titles (outline A-2) | **Carried** as guarantees of the whole: the floor becomes the Realm's law; no title granted under a district code before 1887 can be reopened (A-2) |
+| Western Montana (C-1866-MT-CHARTER) | The supply compacts' terms (published freight rates, coin, assay, licensed courts); the district titles (A-2) | The compacts' terms are **already common**; the titles **carried** as in Idaho (A-2) |
 | New Mexico (C-1866-NM-CHARTER) | Abolition; Spanish; the land grants | **Carried**: abolition in the Realm's law; Spanish as a county language on the Rio Grande; the grants confirmed (G2) |
 | Deseret (C-1866-DESERET-CHARTER) | Marriage and church-property law | **Carried** as a personal guarantee for every registered church (CR-072 P16, CT10) |
 | | The Nauvoo Legion within the Defense Law | Already common (E1) |

@@ -460,7 +460,7 @@ status = "approved"
 parts = {"OR;Coos" = 1, "OR;Curry" = 1}
 [[county]]
 name = "Rogue"
-seat = "Jacksonville"
+seat = "Medford"
 unit = "Oregon"
 status = "approved"
 parts = {"OR;Jackson" = 1, "OR;Josephine" = 1, "OR;Klamath" = 1, "OR;Lake" = 1}
