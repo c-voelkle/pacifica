@@ -258,35 +258,63 @@ California's exit has two faces: the old Californio who bargains for guarantees,
 
 ---
 
-## R. Canon check (15 November 2026; addendum 16 November)
+## R. Canon check of the whole CR (redone 17 November 2026 against the current canon)
 
-**Scope.** Checked against the master storyline (`master_storyline_281026_CR-040-stage1-2.md`, §6, §12, §15, §21–§24), CR-021 (A, B2–B6, C2, C4, D, F1), CR-029 (A10–A15, B4), CR-039 (L11, L12d, L14), CR-072 and CR-071 Part E. The addendum of 16 November adds CR-022 (B3, B4) and §22's wording on Victoria's standing (items 13 and 14), which the first check did not cover. Not a fresh-context review: the fresh-context agent could not reach the project's documents from its session, so this check was done in the drafting session.
+**Scope.** All of CR-071 (outline and Parts D–I) against the current `master_storyline.md` (line numbers as of commit 7b2cb15), CR-021, CR-022 (as integrated in §22), CR-029, CR-039, CR-059, CR-060, CR-061 and CR-070. Done in the drafting session after the fresh-context review of 17 November; supersedes the check of 15–16 November, which ran against an older snapshot (`master_storyline_281026_CR-040-stage1-2.md`). Three groups: canon text that states an old value and must be reworded; canon that was checked and stands; and what canon does not yet say, which integration must write.
 
-**Contradiction to fix at integration**
+### R1. Canon text to reword at integration
 
-1. **§12: "The Providentorship lasts for Elias's life."** Under G1.3 the office ends on 1 August 1887, weeks before his death. Suggested wording: "The Providentorship is Elias's alone; it ends with the regency on 1 August 1887, weeks before his death, and neither a later regent nor a county inherits his power." The same paragraph's "Its enabling delegation lapses when the regency begins in 1887" stands as written. §12's "Elias becomes Providentor for life" (1865) also stands: it describes the grant, which the Constitution of 1887 supersedes.
+| # | Where | Now says | Becomes | Why |
+|---|---|---|---|---|
+| 1 | §12, l. 566 | "The Providentorship lasts for Elias's life." | "The Providentorship is Elias's alone; it ends with the regency on 1 August 1887, weeks before his death, and neither a later regent nor a county inherits his power." The next sentence ("Its enabling delegation lapses when the regency begins in 1887") stands. | G1.3, G-11 |
+| 2 | §21, l. 811 | "Elias's life office ends with him." | "Elias's life office has no successor; he lays it down when the regency begins." | G1.3 |
+| 3 | §21, l. 818 | "County boards choose one senator each. Appointments … with twelve Polytechnic seats and eight aliʻi seats." | Add: "Seven homeland seats are chosen by the nations' councils (six on the continent and Alaska's), and Thalassia, governed by the Crown without a board, chooses no county senator: 123 county senators." | I-11, I-32, I-64; G3, K-7 |
+| 4 | §21, l. 820 | "The negotiated pact takes effect; the empire consolidates without a succession war." | "The negotiated pact holds; …" | The regency has begun on 1 August (G1.3) |
+| 5 | §22, l. 830 | "Victoria's standing combines the founder's widowhood, …" | "Victoria's standing combines her marriage to the founder, and from August his widowhood, …" | She is Regent before she is widowed |
+| 6 | §23, l. 838 | "As natural guardian she could claim a regency;" | "As natural guardian she could contest the regency;" | The regency exists from 1 August |
+| 7 | §13, l. 625 | "**[PROPOSED]** … a Baja purchase in 1867, paid over five years …" | The purchase **[APPROVED — CR-071]** (I-61); "prices, garrisons and firms await audit" stays | I-61 |
+| 8 | CR-021 D, l. 358 | "The Providentorship ends with Elias." | As item 2 | G1.3 |
+| 9 | CR-021 F1, l. 510 | "As natural guardian Noe could claim the regency" | As item 6 | G1.3 |
+| 10 | CR-021 G, l. 546 | "The 124 counties, including … the interior and Alaska, …" | Without Alaska, which stays under the Northern Commission outside the 124 (CT3); add the homelands as compact lands outside or inside the counties' lines (CT5) | I-7, I-8 |
+| 11 | CR-021 OPEN-021-12, l. 687 | "Portland, Seattle and Salt Lake stay ordinary counties" | "… stay counties, not Crown cities" (Salt Lake is chartered in 1894, J2) | CT7, APPROVED |
+| 12 | CR-021 B6, l. 180 | Monterey: "Capital of the Californian republic" | "The republic's first capital (1846–49); from December 1849 the legislature sits at Sacramento" | K-18 |
+| 13 | CR-021 C, l. 91 | "Deseret (1862–63)" among the members | "Deseret (associated 1862–63; a member from 1867)" | Already required by CR-060 CT1; listed so integration does not miss it |
 
-**Canon text to reword because of G1.3** (CT4, extended)
+**Not found.** K-2 amends "CR-022 B3's 'late 1870s' and 'c.1883–85'". Neither date is in `CR-022.md`, the register or the storyline: canon (§19, l. 763) says only that "the examinations reach the officer corps in mid-career" and Silas "fails the mathematics and is capped below general rank", undated. The dates were in the 23 October snapshot excerpt that CR-022's reading record summarises. Integration therefore has nothing to correct, only a date to add (R3, §19). The deathbed and "last instruction" (CR-022 B4) are §22, l. 834, and stand (the addendum of 16 November, kept below).
 
-2. **§21: "Elias's life office ends with him."** Can stand, read as "has no successor". Clearer: "Elias's life office ends with him: it has no successor, and he lays it down when the regency begins."
-3. **§21: "In August 1887 Elias dies … The negotiated pact takes effect; the empire consolidates without a succession war."** Becomes "… The negotiated pact holds; the empire consolidates without a succession war." The news passing through his telegraph stays.
-4. **§23 (Noe): "After Elias dies in August 1887 … As natural guardian she could claim a regency."** With the Regent already sworn, she can no longer claim a vacant regency; she can contest the one that exists. Suggested: "As natural guardian she could contest the regency."
-5. **CR-021 D, 1887: "The Providentorship ends with Elias"** and **CR-021 F1: "Rivals after August 1887. As natural guardian Noe could claim the regency"**: the same two edits as items 2 and 4.
+### R2. Canon checked, standing as written
 
-**Confirmed consistent**
+- **§21, l. 811–815:** 124 counties across the old lines, Deseret divided, California and Hawaii historic lands; two-thirds of both chambers and founding-state ratification; grants buy interior legislators; Hawaii's assent from the Territorial Council (K-10); residual powers to the Realm; the Commissioner commands the reserve, never serves at home, rotates every five years (G4; J1).
+- **§22, l. 832:** the inland command at Sacramento (G-9: the old capitol its headquarters); l. 834, Donner (Part H, H5).
+- **§24, l. 865:** the enabling-law delegation lapses at the beginning of the regency (G1.3).
+- **§25, l. 871:** chartered status after five years at the four standards, receivership after three below or a declared disorder: J2's dates (Coeur d'Alene 1892 by disorder; Salt Lake qualifying 1893, chartered 1894) follow it. l. 892: selective immigration from 1888 follows the programme of 1867–87 (C5).
+- **§12, l. 576:** the Colorado line (the Western Slope, the parks, South Park and the upper Arkansas Pacifican): A-1 and I-68 add who governs them. l. 579: the Navajo treaty of 1865 with Barboncito and Manuelito and Carson as the compact's commissioner, and the Apache peace at Santa Rita with the Chihenne homeland from the Mimbres to the Gila and Ojo Caliente: I-63, I-52 and I-66 fit inside it. l. 597, 609: the interior's consent by votes; Fort Union after the exchange: A-3 extends the vote to San Miguel and Mora.
+- **§14, l. 655:** the Northern Commission under de la Guerra and Davidson: I-69 adds Dall from 1885.
+- **§16, l. 704:** Soberanes at Keelung in 1884–85; his memorandum is of 1878–79 (Part D, decision 9).
+- **§17, l. 738:** Kāneʻohe chosen in 1875 and the Seat of Government Act of 1885 moving the offices from Monterey: the Council sits at Monterey to 1885 and at Thalassia from 1886 (G1.3).
+- **§19, l. 763:** the officers' examinations and Silas's failure (E1 dates them 1882, K-2).
+- **§27, l. 1106:** the Senate dispute of 1910–11 and the boards' resentment of Commissioners and receivership (J4; H3).
+- **CR-029 A11, B4; CR-039 L11, L12d, L14; CR-021 B2, B6, C2, C4:** unaffected (as in the check of 15 November).
+- **Protected intent:** no removals (I-52, I-68), no extermination, Noe's death untouched (H4), no throne abeyance (E6), Julian not affected.
 
-6. **Pacheco.** Canon places him only in Manila from 1876 "for a long term" (§15; CR-029 A10, A12). No President of California is named after Vallejo (§3–§6); the method is now R-3 (the legislature in joint session). Del Valle is not in canon.
-7. **The Regency Council and the Chancellor** (§22; CR-021 A) fit the handover: the Truce's holders sit in the Council from 1 August (now in G1.3 and G4).
-8. **The Enabling Law** lapses "at the beginning of the regency, reassuring the factions" (§24): matches G1.3.
-9. **CR-029 A11** ("authority passes with the office under the Constitution of 1887") and **B4**: unaffected; the Philippines pass to the Regent on 1 August.
-10. **CR-039 L12d** (the Truce negotiated in Hawaii, signed in spring 1887 while Elias lives); **L14** ("the Crown" during the regency); **L11** (Silas dies at Sacramento in the winter of 1912, which ends the inland command): all consistent.
-11. **CR-021 B6** (the seats of state; the Truce as a map); **B2** (immigration, water and residual powers to the Realm); **C2, C4** (Spanish in California; Soberanes as the Californios' protector): consistent with G2 and G6.
-12. **CR-072** (C3 the campaign for 1887; C4 the Truce; C7 Deseret; C9 the rivals) and **CR-071 E** (E2, E3.1, E5, E6, E9.2): consistent, after CR-072 C9's correction on San Francisco's board (K-7).
+### R3. What canon does not yet say: prose to write at integration
 
-**Addendum, 16 November (K-13, APPROVED)**
+| Section | To add | From |
+|---|---|---|
+| §5 or §8 | The legislature moves to Sacramento in December 1849, through the flood of 1850 and the squatters' crisis | K-18 |
+| §11–§12 | The Utes hold the passes against the Colorado volunteers in 1863–65; the 1866 agreement as the price of the alliance, with Ouray at the table beside Carson | I-68 |
+| §12 | The Diné treaty's landmarks and the right-of-way article by Beale's road; the Apache line of 1871 as the 1865 country; the Hopi article (HP1–HP7, I-57); the Mountain Districts' commission; Baja's commission; San Miguel's and Mora's adherence in October 1867 | I-63, I-52, I-57, A-1, I-39, I-54, A-3 |
+| §13 | The grant machinery (C1); the settlement programme, Powell and the passage offices (C5, I-65); Oregon's Land Act struck down in 1870 (C2); the three railways on our timeline's dates (I-53); the Japanese loan of 1873 (Part D, decision 10) | Parts C, D; I-53 |
+| §14 | The San Juan lease of 1873 (Ouray); Dall at the Commission from 1885 | I-68, I-69 |
+| §15, §19 | Elias watching the abolition of the domains (Part D); Soberanes's memorandum (1878–79); the assumption of 1875–79; the Commission Act of 1879; the Militia Act of 1882 with Silas's failure and the inland command; the survey of 1884–86 | Parts D, E |
+| §21 | Port Hamilton and the water case as triggers (F); the bill of January 1887; California's ratification in May 1887 (Pacheco, del Valle); the handover on 1 August with the commissions (R-1); the Senate's composition (R1 item 3) | Parts F, G |
+| §22, §24 | The interim government until 1888 (G-8); the Chancellor (R-2) | Part G |
+| §23–§25 | The first Commissioners of 1888 (J1); the Honolulu rising of 1889 (Part H, H-11); Coeur d'Alene in 1892 and Salt Lake's charter in 1894 (J2); J3 | Parts H, J |
+| Registry and ledger | See "Before integration" in the outline | — |
 
-13. **CR-022 B3 and B4: the deathbed and the "last instruction".** CR-022 has Soberanes summoned to the deathbed in August and, at Donner, telling Silas: "Your father's last instruction to me was that the wire must not be divided." Under G-11 Elias keeps no powers so that no one can appeal from the Regent to him, and Soberanes appeals to him in words. It stands, and it is better drama. The instruction is a dying man's wish, given after the handover, and binds no one in law; the wire is Soberanes's under the Polytechnic's charter, not under Elias's word. That is why the sentence wounds Silas rather than settles anything. Listed here so that integration does not read it as a power Elias kept. No change to CR-022's text.
-14. **§22: "Victoria's standing combines the founder's widowhood, her reigning Hawaiian crown …".** Under G1.3 she becomes Regent on 1 August as his wife; the widowhood follows weeks later. Suggested: "Victoria's standing combines her marriage to the founder, and from August his widowhood, her reigning Hawaiian crown, …". §21's "Victoria is both the widow of the founder and the reigning Queen of Hawaii" follows the sentence on his death and stands.
+**Addendum of 16 November, kept (K-13, APPROVED)**
+
+- **CR-022 B4 (§22, l. 834): the "last instruction".** Under G-11 Elias keeps no powers, so that no one can appeal from the Regent to him, and Soberanes appeals to him in words. It stands, and it is better drama: a dying man's wish, given after the handover, binding no one in law; the wire is Soberanes's under the Polytechnic's charter, not under Elias's word. That is why the sentence wounds Silas rather than settles anything.
 
 **Two follow-up decisions (both APPROVED, 16 November)**
 
