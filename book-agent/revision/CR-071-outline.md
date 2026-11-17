@@ -240,8 +240,8 @@ What must be done before CR-071 can be integrated, from the fresh-context review
 1. **CR-072 and CR-073** approved and integrated first (K-1).
 2. **Storyline prose** for every row of section R3, and the rewordings of R1, written as what happens (AGENTS.md).
 3. **`## Fact changes`** sections in this outline, Part E and Parts F–G, and Part I's "none" reconsidered (the Providentor's office ending on 1 August 1887; the Baja purchase; Alaska outside the 124; K-18's capital). **Done (17 November 2026, evening):** fifteen entries, gathered under this outline's `## Fact changes`; the one passage of current canon they catch is §12's sentence on the Providentorship lasting for Elias's life (F–G, R item 1). The `add_person` entries for the new people go with item 5.
-4. **Ledger entries** (`commitments/data/ledger.toml`): the Japanese loan of 1873; the Baja purchase and commission; the Mountain Districts commission; the Ute agreement of 1866 and the San Juan lease of 1873; the right-of-way and mining leases (Fort Hall, Lewiston, Globe, Clifton, Bisbee, Santa Rita); the Hopi and Diné articles; the assumed member debts; the end of the 1866 charters (T5).
-5. **Registry and character-bible entries** for the new historical people (del Valle, Fair, Wilcox, Nowlein, Powell, Mattson, Ouray, Dall, Cannon, Taylor, Henry Miller and others), then `validate_character_docs.py`.
+4. **Ledger entries** (`commitments/data/ledger.toml`): the Japanese loan of 1873; the Baja purchase and commission; the Mountain Districts commission; the Ute agreement of 1866 and the San Juan lease of 1873; the right-of-way and mining leases (Fort Hall, Lewiston, Globe, Clifton, Bisbee, Santa Rita); the Hopi and Diné articles; the assumed member debts; the end of the 1866 charters (T5). **Drafted (17 November 2026, evening):** `CR-071-ledger.md`, for entry at integration; one discrepancy found outside CR-071 (C-1874-ORDINANCES ends in 1914 where canon has 1907).
+5. **Registry and character-bible entries** for the new historical people (del Valle, Fair, Wilcox, Nowlein, Powell, Mattson, Ouray, Dall, Cannon, Taylor, Henry Miller and others), then `validate_character_docs.py`. **Drafted (17 November 2026, evening):** `CR-071-registry.md`: ten new people, nine existing entries amended, and the `add_person` facts to enter with them; CR-072's four people listed for cross-reference.
 
 Items that can stay OPEN in canon: the first Commissioners' names, the Baja commissioners, the plaintiff of C2 and the first Chancellor; when Powell enters Pacifican service; the Apache bands of 1865, Oraibi's year and the Hopi leaders; when Nowlein takes the Guard; Sand Creek; D8; changes to the counties after 1887; the Cochimí; the workbook rows not yet built (member debts, the grant per head, the Commissioners' cost), MODEL-pending.
 
@@ -394,7 +394,7 @@ Assumed member debts; the cost of 124 Commissioners and their staffs; pensions a
 
 ## Ledger
 
-Japan's loan of 1873 (its San Francisco part, with the Bank of California as agent) has no entry on `main`; CR-073 expects this CR to create it. Not yet drafted.
+Drafted in `CR-071-ledger.md` (17 November 2026): twelve new entries (among them Japan's loan of 1873, which CR-073 expects this CR to create, the Assumption and Commission Acts, the Militia Act, the Baja and Mountain Districts commissions, the San Juan lease, the Hopi agreement, the right-of-way and mining leases, the compact lands and the nations' ladder), four new parties and changes to thirteen existing entries. They are entered at integration, when the storyline text gives them their quotes.
 
 ## Research
 
