@@ -1,6 +1,6 @@
 # CR-075, Part D — The plan and the people: what Elias expects, how he knows, and who acts on their own (1861)
 
-**Status:** DRAFT, 18 November 2026. Approved already (author, 18 November 2026, 16:29): D-1 (the closed sitting as a challenge evening, Sherman the respondent), D-2 (the twenty-one players), D-3 (new roles for Broderick and the Calculation Office), D-4 (the errors traced as recommended), D-5 (the fallback stated in 1861, the particulars in 1864), D-6 (who hears the plan), D-7 (Sherman first comes to California in 1853, as a banker). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. This part opens questions D-8 to D-13 (below).
+**Status:** DRAFT, 18 November 2026. Approved already (author, 18 November 2026, 16:29): D-1 (the closed sitting as a challenge evening, Sherman the respondent), D-2 (the twenty-one players), D-3 (new roles for Broderick and the Calculation Office), D-4 (the errors traced as recommended), D-5 (the fallback stated in 1861, the particulars in 1864), D-6 (who hears the plan), D-7 (Sherman first comes to California in 1853, as a banker). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. D-8 to D-13 APPROVED as recommended (author, 18 November 2026, 19:28): D-10 with the extra year revised into an error nobody in the room saw, D-11 with Marcus's answer reasonable on the evidence, and D-12 replaced (Ralston's principle recorded in 1861, applied by him in 1862).
 **Belongs to:** `CR-075-outline.md`, Part D. The outline's tables D-b (the players P1–P21) and D-c (the estimate D1–D7) stand as approved and are not repeated. This document writes the sitting, the estimate part by part, the respondent's case and the errors. No storyline text is integrated from here; D10 gives the sentences proposed for integration with the whole CR.
 **Read with:** Part C (`CR-075-C-aims.md`: the objects, Burch's motion, the promise to treat) and Part E (`CR-075-E-california.md`: California's reasons and voices).
 **Canon it builds on:** §8 (Elias "continues to direct money more readily than he can command troops"; the Laboratory and the challenge evening, CR-049–CR-050; the Calculation Office of 1855; Sherman's choice of 1857); §9 (Lincoln's offer in June; the Council's concurrence early in July; Sherman supports the protection and objects that the objectives have grown); §10 (Port Townsend; the Iowa regiments; the turret ship on the river); §11 (Logan Turner; the Richmond credit); CR-059–CR-061 (the Columbia, Deseret, the Rio Grande); CR-064 (Halleck); CR-067 (the mandate; the Inspector-General reports to the Council); CR-068 (MD1, G2, G3, G8; the beat B5, "The Council's night"); CR-069 (Ralston).
@@ -10,6 +10,8 @@
 
 > D 1. approved 2. the 21 players are approved 3. new roles are approved 4. approved 5. approved 6. approved 7. approved as a banker in 1853 (18 November 2026, 16:29)
 
+> I approve all the recommendations as proposed. (18 November 2026, 19:28; D-8 to D-13 and F-3 to F-7)
+
 The principle behind the part is the author's own (13:20): the war is not a one-man or a two-man show, and the answer to "how does he know?" is given alongside the plan.
 
 ## D0. The claim in four sentences
@@ -17,7 +19,7 @@ The principle behind the part is the author's own (13:20): the war is not a one-
 1. Elias does not make the plan of 1861 alone. In the days after Lincoln's offer arrives, he calls the people who know each part to two closed sittings of the Council. They state what is established, what is conjecture and what would settle it, and Sherman, as the appointed respondent, attacks every part.
 2. What comes out is an estimate in seven parts. Each has a name against it: the Union's sequence (Sherman), the West's distance (Ericsson, Judah, Marcus, the Calculation Office, Beale), the interior's market (Huntington, the Assay Office, Hays, Beale, Hunt), the coin (Ralston), the Union's calendar (Broderick, John Sherman's letters), the fallback (Marcus, the Office), and what Elias himself adds from his own life.
 3. The respondent wins his main point. A limited war stays limited only if its objects are written down so that they can be met, and that is why the preamble of Part C has the form it has.
-4. The estimate is right in its direction and wrong in five particulars, and each error is traced to someone. Some of the errors are his. Where the error was someone else's, he chose to believe it. The Calculation Office gave him a range for the war's length, and he took its near end.
+4. The estimate is right in its direction and wrong in five particulars. Each error is traced: two are his own, two were judgment calls by the men who knew best, and one, the strength of the Union's paper money, nobody in the room foresaw.
 
 ## D1. The calendar of June–July 1861
 
@@ -139,9 +141,9 @@ Each part gives the claim, then who gives it and what he brings (*how he knows*)
   - *the Calculation Office (P6)*, on the Union's Treasury reports;
   - *the Reserve Bank's governor (name OPEN)*, on the cover.
 - **Established:** the coast sent New York about forty millions in gold a year (canon, the bankers' memorial of 1862, CR-069). Nothing replaces it.
-- **Conjecture:** that the Union will suspend coin payments within a year.
+- **Conjecture:** that the Union will suspend coin payments within a year, and that a Treasury paying in paper cannot pay for long. Everyone at the table, Ralston and the Office included, believes the second (D5).
 - **What would settle it:** the New York banks' coin at the end of the year. In canon they suspend at the end of December (§9).
-- **The respondent's attack, which is Ralston's.** The houses will keep their coin at home only if they are asked, not ordered. An export ban would send the coin to London by every private route and make the houses the Republic's enemies. Elias does not answer in the sitting. In 1862 he means to decree a ban after all, and Ralston has to make the argument again and bring the houses' word with him: the Steamer Day Agreement (canon, CR-069). The minutes of 1861 show that Elias had already heard the better method and set it aside.
+- **The respondent's attack, which is Ralston's.** The houses will keep their coin at home only if they are asked, not ordered. An export ban would send the coin to London by every private route and make the houses the Republic's enemies. Nobody needs the principle that summer: the treasure steamers stop in July (CR-069), and the coin stays home without being asked. The minutes record it as Ralston's rule. In 1862 the question comes back in a new form, coin leaking to London by private routes, and Elias reaches for an export ban. Ralston applies his own rule of 1861 to it and brings the houses' word instead: the Steamer Day Agreement (canon, CR-069). The scene of 1862 keeps its discovery. What Elias learns there is how the rule works in practice.
 - **What the Republic will do:** announce the price with the objects (Part C, C4). Sherman objects that a price named in 1861 will be raised in 1865 by whoever is winning. The promise to treat on the objects and ask nothing beyond them is Elias's answer to him (Part C, C4.4).
 - **Right** (CR-069). Ralston's method is used, not Elias's.
 
@@ -182,7 +184,7 @@ Sherman supports the protection and objects that the objectives have grown (cano
 2. *Raw men do not invade.* The Republic's army is trained (the Defense Law of 1855, §8), but its reserves are men with farms. What it can hold is what it can supply.
 3. *A limited war stays limited only if its objects are written down, in a form that can be met.* If the Council will not write them, he will report to it that the army's mandate has no limit he can inspect. This is the point he wins, and it gives the preamble its form: each object says what would meet it, and each later resolution names the object it serves (Part C, C2, C7).
 4. *We cannot have two kings.* In our world he said it of a state against the federal power (SHER 120). Here he says it of the Protector against the Council: the Protector commands within the resolution, and the resolution is the Council's (CR-067).
-5. *Casey (D5).* He knows Silas Casey from the old army as a careful officer who wrote the book of drill (Hist.). He tells Marcus that a drillmaster is not a fool and that a defended landing at Port Townsend is not a raid. Marcus answers that Casey will defend Fort Steilacoom and not the anchorage. The minutes record both.
+5. *Casey (D5).* He knows Silas Casey from the old army as a careful officer who wrote the book of drill (Hist.). He tells Marcus that a drillmaster is not a fool and that a defended landing at Port Townsend is not a raid. Marcus answers from the evidence: Casey's posts, guns and stores are at Fort Steilacoom, and a careful officer defends what he has fortified, not an open anchorage. On what the Republic knew in June it is the better reading. The minutes record both, and it is a judgment call that goes wrong, not folly.
 
 What Sherman does not do is oppose the war. He goes on supporting the protection, and he inspects Port Townsend afterwards without blaming Marcus for the government's objectives (canon §10). The respondent's work is to test the plan, not to defeat it.
 
@@ -192,11 +194,11 @@ The errors keep Elias clever rather than prophetic. Each is traced to whoever ma
 
 | Error | Whose estimate | How it shows in the minutes | What follows |
 |---|---|---|---|
-| **Port Townsend holds** (§10) | Marcus's estimate of Casey (D-4) | Sherman's warning is recorded beside Marcus's answer (D4.5) | Casey beats the landing; Marcus approved the operation with reservations and accepts responsibility (canon §10). Sherman's inspection blames the failures, not Marcus (canon) |
+| **Port Townsend holds** (§10) | Marcus's estimate of Casey (D-4): a judgment call, the better reading on the evidence of June (D-11) | Sherman's warning is recorded beside Marcus's answer (D4.5) | Casey beats the landing; Marcus approved the operation with reservations and accepts responsibility (canon §10). Sherman's inspection blames the failures, not Marcus (canon), which is generous from the man who warned him |
 | **The Union fights hard on the Rio Grande** (CR-061) | Elias's own (D-4): he expected the Union to give ground in New Mexico to keep its sequence | His part (D3.7) says so; de la Guerra's paper is more cautious | Canby, Carson and the Coloradans fight two Valverdes (CR-061). The valley costs a year and a second resolution |
 | **The Saints come on their own terms** (CR-060) | The San Bernardino channel's optimism (D-4): Hunt's letter says Young will come in once the road is cut | Hunt's own caution in the same letter, that Young will not be commanded, is recorded and not weighed | Young will not sign until the Protector signs, and rides to Bannack on his own decision (CR-060) |
 | **Washoe needs arms in 1864** (W4) | Elias's, by the method of D3.3 (D-10) | The market argument assumes the interior chooses. It does not consider that Congress can choose for it by making a state | The first reservation of 1863 and the spring of 1864 (canon §10); the Chronicler's exception (W4) |
-| **The war lasts a year longer than planned** | The Calculation Office's range, and Elias's reading of it (D-10) | Sylvester gives the length with its error and says the error is large (P6). Elias takes the near end of the range | The Terms of 1863 and the fallback's particulars of 1864 (CR-068 G8) |
+| **The war lasts a year longer than planned** | Nobody's in particular (D-10): the whole room assumes that a Union paying in paper cannot pay for long. Ralston believes it from New York's books, the Office from the Treasury's reports, Elias from both | The assumption is in the coin part (D3.4) and nobody attacks it, Sherman included | Hist. and canon: the Union chooses paper in February 1862 (§9; CR-069), and the legal-tender notes keep it paying for years. The Terms of 1863 and the fallback's particulars of 1864 follow (CR-068 G8) |
 
 ## D6. Where the players act on their own
 
@@ -205,7 +207,7 @@ The outline's table D-b has each player's interest. This is the list of the mome
 | When | Who | What |
 |---|---|---|
 | June 1861 (the papers) | Ericsson | Gives the Council the case against his own side's complacency: the Union's works can build armour once they have a design (D3.2, PROPOSED) |
-| Late June 1861 | Ralston | Tells the Council that the houses must be asked, not ordered (D3.4, PROPOSED). He is not heeded until 1862 |
+| Late June 1861 | Ralston | Tells the Council that the houses must be asked, not ordered (D3.4, PROPOSED). The minutes record it as his rule |
 | Late June 1861 | Sherman | Wins the written objects (D4, PROPOSED) |
 | July 1861 | Beale | Writes to Andrés Pico on his own initiative (Part E, E7) |
 | December 1861 | Deady | Overrules the garrison in the Willamette flood; Victoria makes compliance Hawaii's price (canon §10) |
@@ -217,7 +219,7 @@ The outline's table D-b has each player's interest. This is the list of the mome
 
 ## D7. The minutes
 
-The minutes of the two sittings are sealed and the Chronicler has them (outline D-a). Elias never publishes them, even when Lincoln sets Burch's address beside the fourth object in 1863 (Part C, C6.7). The minutes would prove the reason for the wording but not the result. They also record his own errors, Ralston's unheeded advice, Sherman's warning about Casey, and the near end of the Office's range. The Chronicler uses them to judge him. That is what an archive of challenge evenings is for.
+The minutes of the two sittings are sealed and the Chronicler has them (outline D-a). Elias never publishes them, even when Lincoln sets Burch's address beside the fourth object in 1863 (Part C, C6.7). The minutes would prove the reason for the wording but not the result. They also record his own errors, Ralston's rule, Sherman's warning about Casey and Marcus's reasons, and an assumption about paper money that nobody questioned. The Chronicler uses them to judge him. That is what an archive of challenge evenings is for.
 
 ## D8. Logan Turner and Carson, outside the room
 
@@ -245,12 +247,12 @@ In §9, after the sentence ending "if the expedition gathering at San Francisco 
 
 ## Decisions for the author
 
-- **D-8. The calendar (D1).** Papers within days of the offer; two closed sittings in late June; the votes on the Council's night early in July. Approve, with Part C's C8 read accordingly?
-- **D-9. Victoria's place and Wyllie's letter (D1.2, D2.3).** Victoria comes to Monterey in May with Hawaii's demands and stays through the Council's night. Wyllie's estimate arrives unasked by the steamer after the packet affair. Approve, or keep Victoria in Honolulu and her party led by the resident delegation?
-- **D-10. The last two errors (D5).** Washoe traced to Elias's market method, and the war's extra year traced to his choice of the near end of the Office's range. Approve?
-- **D-11. Sherman's warning about Casey (D4.5).** Recorded and overruled by Marcus. Approve? It gives Sherman's inspection after Port Townsend (canon §10) a personal edge, which canon does not have, without changing what he finds.
-- **D-12. Ralston heard and set aside in 1861 (D3.4).** The minutes show that Elias had the better method in 1861 and still meant to decree a ban in 1862. Approve? It sharpens canon's CR-069 scene rather than changing it.
-- **D-13. Elias's own part (D3.7).** He gives one part, last, from his own life, recorded as experience and not as evidence. Approve?
+- **D-8. The calendar (D1).** Papers within days of the offer; two closed sittings in late June; the votes on the Council's night early in July. Approve, with Part C's C8 read accordingly? **Decided (author, 18 November 2026, 19:28):** approved.
+- **D-9. Victoria's place and Wyllie's letter (D1.2, D2.3).** Victoria comes to Monterey in May with Hawaii's demands and stays through the Council's night. Wyllie's estimate arrives unasked by the steamer after the packet affair. Approve, or keep Victoria in Honolulu and her party led by the resident delegation? **Decided (author, 18 November 2026, 19:28):** approved.
+- **D-10. The last two errors (D5).** Washoe traced to Elias's market method, and the war's extra year traced to his choice of the near end of the Office's range. Approve? **Decided (author, 18 November 2026, 19:28):** approved with the extra year revised: an error nobody in the room saw (D5).
+- **D-11. Sherman's warning about Casey (D4.5).** Recorded and overruled by Marcus. Approve? It gives Sherman's inspection after Port Townsend (canon §10) a personal edge, which canon does not have, without changing what he finds. **Decided (author, 18 November 2026, 19:28):** approved with Marcus's answer the better reading on the evidence (D4.5).
+- **D-12. Ralston heard and set aside in 1861 (D3.4).** The minutes show that Elias had the better method in 1861 and still meant to decree a ban in 1862. Approve? It sharpens canon's CR-069 scene rather than changing it. **Decided (author, 18 November 2026, 19:28):** approved replaced: Ralston's principle is recorded in 1861 and applied by him in 1862, so CR-069's scene keeps its discovery (D3.4).
+- **D-13. Elias's own part (D3.7).** He gives one part, last, from his own life, recorded as experience and not as evidence. Approve? **Decided (author, 18 November 2026, 19:28):** approved.
 
 ## Fact changes
 

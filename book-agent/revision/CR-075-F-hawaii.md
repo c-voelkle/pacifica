@@ -1,6 +1,6 @@
 # CR-075, Part F — Hawaii's reasons, and Hawaii as the keeper of the aims (1861–1865)
 
-**Status:** DRAFT, 18 November 2026. Approved already (author, 18 November 2026, 16:45): F-1 (Hawaii asks no new aim of the peace) and F-2 (Victoria's argument of 1861 turns Hawaii's historical dilemma round). Hawaii's reasons and price are canon from CR-068 G2, and this part changes none of them. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. This part opens questions F-3 to F-7 (below).
+**Status:** DRAFT, 18 November 2026. Approved already (author, 18 November 2026, 16:45): F-1 (Hawaii asks no new aim of the peace) and F-2 (Victoria's argument of 1861 turns Hawaii's historical dilemma round). Hawaii's reasons and price are canon from CR-068 G2, and this part changes none of them. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. F-3 to F-7 APPROVED as recommended (author, 18 November 2026, 19:28): F-4 as a note in this CR only, F-6 with the press's timing corrected, F-7 with Lot's refusal from December 1863.
 **Belongs to:** `CR-075-outline.md`, Part F. Read with Part C (`CR-075-C-aims.md`; the third object is Hawaii's), Part D (`CR-075-D-plan-and-people.md`; Wyllie's letter, D1.2; Victoria's place, D-9, still open) and Part E (`CR-075-E-california.md`; California's price, which Hawaii shares). No storyline text is integrated from here; F9 gives the sentences proposed for integration with the whole CR.
 **Canon it builds on:**
 - §8: the Confederation of 1856; the common navy; Victoria's coalition beats Article XIV over Washoe in 1860.
@@ -17,6 +17,8 @@
 ## Author's decisions
 
 > F-1: approved / F-2: approved (18 November 2026, 16:45)
+
+> I approve all the recommendations as proposed. (18 November 2026, 19:28)
 
 ## F0. The claim in four sentences
 
@@ -39,9 +41,9 @@
 | Hawaii's legislature (nobles and representatives) | The renewals | 1862, 1863, 1864 | With conditions in 1862 and 1864; delayed and narrow in 1863 (CT16) |
 | The public | Opinion in two languages | From 1861 | The mission and English-language press; the Hawaiian-language press (CR-068) |
 
-- F1.1 **The king.** Hist.: Kamehameha IV refused in 1861 anything that looked like recognition of the South. Wyllie wanted to grant belligerent rights, and the king privately called him an old woman for it (KUYK 65–66). PROPOSED: the king does the same in Pacifica. He lets Victoria carry the authorization, as canon has it, and keeps for himself the one refusal that is his to make: no recognition of Richmond. That refusal holds until May 1865 (canon).
+- F1.1 **The king.** Hist.: Kamehameha IV refused in 1861 anything that looked like recognition of the South. Wyllie wanted to grant belligerent rights, and the king privately called him an old woman for it (KUYK 65–66). PROPOSED: the king does the same in Pacifica. He lets Victoria carry the authorization, as canon has it, and keeps for himself the one refusal that is his to make: no recognition of Richmond. Kamehameha IV dies on 30 November 1863 (Hist.), and from Lot's accession the refusal is Lot's (F-7). It holds until May 1865 (canon).
 - F1.2 **Victoria's office.** Hist.: Kamehameha IV made her Kuhina Nui in 1855, and Wyllie's constitutional amendments of 1860–62 aimed to reduce the office's power (KUYK 36, 121–123). In Pacifica she keeps the office under Lot (CR-014). In 1861 she is the kingdom's officer who can sign beside the king, and Wyllie's wish to reduce the office (Hist.) is a pressure she has to answer by using it well.
-- F1.3 **Where she is in 1861.** This is OPEN under Part D's D-9. Canon gives a pattern for later years: in 1865 the Council sits at Monterey from June to August and Victoria leads Hawaii's delegation (§12). If that was the Council's season in 1861 too, she is at Monterey for the Council's night.
+- F1.3 **Where she is in 1861 (D-9, APPROVED).** She comes to Monterey in May with Hawaii's demands and stays through the Council's night. The pattern is canon's for 1865: the Council sits at Monterey from June to August and Victoria leads Hawaii's delegation (§12). The king governs at Honolulu.
 
 ## F2. The reasons and the price (canon, CR-068 G2), and Victoria's argument (F-2, APPROVED)
 
@@ -73,9 +75,9 @@
   - *Hist.:* Honolulu lived by supplying whaleships with provisions, refits, cash for wages and men. The whalers' bills of exchange were the town's remittance to New England and Europe, and the trade was already in depression in the later 1850s, before the war halved the American fleet (KUYK 138–139).
   - *In Pacifica:* from July 1861 the American whalers are enemy ships and stop calling at Hawaiian ports. Hist.: the Confederate cruisers destroyed forty-six whalers (KUYK 138); whether they hunt in the Pacific in this timeline is left to canon. Honolulu's chandlers and shipyards, mostly in American hands, lose their customers, and the young men who signed on at Honolulu lose their berths.
   - The Republic issues no letters of marque (CR-074: reserved in 1856, first issued in 1878). Its war is not made against the whalers.
-  - *American whalers in Hawaiian ports in July 1861 (F-4):* PROPOSED: they are given thirty days to sail, under a published safe-conduct to leave the Confederation's waters. The Republic does not seize them.
+  - *American whalers in Hawaiian ports in July 1861 (F-4):* PROPOSED, as a note in this CR only (F-4; no storyline sentence): they are given thirty days to sail, under a published safe-conduct to leave the Confederation's waters. The Republic does not seize them.
 - F4.3 **The mission families: against.** American-born or American-descended, they hold seats in Hawaii's delegation and its legislature. In 1865 two of them vote against the Enabling Law (§12). They oppose a war on the country they came from. Lincoln aims at them in 1863, expecting the mission churches to carry the legislature (CR-068). They are what makes the renewal of 1863 narrow.
-- F4.4 **The Hawaiian-language press: for, in its own way.** The Hawaiian-language press, *Ka Hoku o ka Pakipika* (1861–63), was Kalākaua's paper against the mission press, and in 1863 it prints both of Lincoln's papers and the account of the nations (CR-068). Its readers are a Native people under their own king. They read the Union as the government of the settlers and missionaries' sons who already own much of their best land. That reading begins in 1861 with the packet. The mission press calls the boarding an officer's excess. The Hawaiian press names the sailor's island.
+- F4.4 **The Hawaiian-language press: for, in its own way.** The Hawaiian-language press, *Ka Hoku o ka Pakipika* (1861–63), was Kalākaua's paper against the mission press, and in 1863 it prints both of Lincoln's papers and the account of the nations (CR-068). Its readers are a Native people under their own king. They read the Union as the government of the settlers and missionaries' sons who already own much of their best land. The paper begins in the autumn of 1861 (Hist.; first issue to check), after the packet affair of May, so it does not report the boarding as news. From its first issue it names the sailor's island and keeps the affair in print, and the mission press calls the boarding an officer's excess (F-6).
 - F4.5 **The court and Britain.** The king and his circle look to Britain (Hist.; KUYK 65–66: British and French neutrality decided Hawaii's own in August 1861). In Pacifica, Britain's neutrality proclamation of May 1861 recognized both the Union and the South as belligerents (JONES ch.2). The court reads it as permission: if London does not take Washington's side, Honolulu need not either.
 
 ## F5. Hawaii as the keeper of the aims (F-5)
@@ -122,11 +124,11 @@ In §10, after the paragraph on the renewal of 1862:
 
 ## Decisions for the author
 
-- **F-3. Wyllie's guarantee (F3.2–F3.3).** He proposes a three-power guarantee of the Pacific's neutral waters in the summer of 1861. Vallejo answers with his own refusal of 1848, and Victoria sides with Vallejo. Approve?
-- **F-4. The American whalers in July 1861 (F4.2).** Thirty days to sail under a published safe-conduct, and no seizure. Approve, or leave it unmentioned?
-- **F-5. Hawaii as the keeper of the aims (F5).** Each renewal's condition read as holding the Protector to one object. Approve the reading? It changes no canon condition.
-- **F-6. The two publics (F4.3–F4.4).** The mission families against and the Hawaiian-language press for, from 1861 and not only in 1863. Approve?
-- **F-7. The king's refusal (F1.1).** Kamehameha IV refuses recognition of Richmond as his own act, as in our world, and lets Victoria carry the authorization. Approve?
+- **F-3. Wyllie's guarantee (F3.2–F3.3).** He proposes a three-power guarantee of the Pacific's neutral waters in the summer of 1861. Vallejo answers with his own refusal of 1848, and Victoria sides with Vallejo. Approve? **Decided (author, 18 November 2026, 19:28):** approved.
+- **F-4. The American whalers in July 1861 (F4.2).** Thirty days to sail under a published safe-conduct, and no seizure. Approve, or leave it unmentioned? **Decided (author, 18 November 2026, 19:28):** approved, as a note in this CR only, with no storyline sentence.
+- **F-5. Hawaii as the keeper of the aims (F5).** Each renewal's condition read as holding the Protector to one object. Approve the reading? It changes no canon condition. **Decided (author, 18 November 2026, 19:28):** approved.
+- **F-6. The two publics (F4.3–F4.4).** The mission families against and the Hawaiian-language press for, from 1861 and not only in 1863. Approve? **Decided (author, 18 November 2026, 19:28):** approved, with the timing fixed: the paper begins in the autumn of 1861 and keeps the affair in print from its first issue (F4.4).
+- **F-7. The king's refusal (F1.1).** Kamehameha IV refuses recognition of Richmond as his own act, as in our world, and lets Victoria carry the authorization. Approve? **Decided (author, 18 November 2026, 19:28):** approved, with Lot's refusal from his accession in December 1863 (F1.1).
 
 ## Fact changes
 
@@ -146,4 +148,4 @@ none. F5 reads canon's three conditions without changing them. F2.3 gives the ca
 ## Research
 
 **Used:** KUYK 36, 55–58, 63–66, 121–123, 138–146; JONES ch.2.
-**To check if used on the page:** the first issue of *Ka Hoku o ka Pakipika* (Hist.: September 1861; canon cites 1861–63); the American commissioner at Honolulu in 1861 (Hist.: Thomas J. Dryer, KUYK 65).
+**To check if used on the page:** the first issue of *Ka Hoku o ka Pakipika* (Hist.: autumn 1861, probably 26 September; canon cites 1861–63); the American commissioner at Honolulu in 1861 (Hist.: Thomas J. Dryer, KUYK 65).
