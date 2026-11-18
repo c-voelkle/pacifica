@@ -6,6 +6,7 @@ Close reading of the densest passages found in pass 1 (`../research-pass1-sweep.
 - `C-D-coast-and-interior.md` — C1, D2, D3: Hunt pp. 20–37, 218–236, 300–316.
 - `F-hawaii.md` — Part F, C3 and CT2: Kuykendall pp. 36, 55–67, 121–126, 138–146; Jones ch. 1–4 on belligerency, blockade and search.
 - `D-players.md` — Part D-b: Sherman, Ralston, Beale, Broderick, Vallejo, Wyllie.
+- `O-oregon.md` — Oregon and Washington, 1860–61: Johannsen ch. 6–7 (supplied 15:20).
 
 Paraphrase throughout; quotes are under fifteen words and only where the wording matters. Pages are printed page numbers; Jones is cited by chapter and segment.
 
@@ -23,6 +24,7 @@ Paraphrase throughout; quotes are under fifteen words and only where the wording
    - Beale's real roles (telling the Union's general a route was impossible; sounding the Picos on the Union versus a Pacific republic and printing their answer) map onto P10 (HUNT 22; THOM 130–131).
    - Wyllie believed the South would win (KUYK 65): a source for D1 and D5.
    - Vallejo's own grievance in our world was the loss of Californio land titles through American courts (ROS 200, 219): in Pacifica, that is what a Union return would threaten.
+10. **Oregon (Johannsen).** The Northwest's Breckinridge Democrats wanted neutrality in 1861 — no part in a war on the South — and Whiteaker refused to back the administration (JOH 197–209). Canon's Oregon compact (men, ports and revenues serving no military purpose outside Oregon; Whiteaker in the chair) is that programme made into an instrument. Deady's real turn to strong government in 1861 (JOH 194–195) makes him a credible compact court. Lane, rumoured to be coming home to found a Pacific Republic (JOH 209), is the expansionists' man in the Northwest, and a liability to Elias.
 9. **E6 reframed.** California's grievances against Washington in our world (land courts, a miners' tax, neglect: ELL 4–35, 82–91, 182) are, in Pacifica, what a Union that took the coast back would bring. That is what California fights for in concrete terms.
 
 ## Canon checks raised (for pass 3)
@@ -39,6 +41,6 @@ Paraphrase throughout; quotes are under fifteen words and only where the wording
 - Kuykendall pp. 195–236 (reciprocity, annexation, Seward), relevant after 1864.
 
 ## Gaps that remain
-- Oregon's and Washington's politics on the eve of the war: none of the eleven. Waite's notes point to Hull, "Movement in Oregon", and J. Ellison, "Designs for a Pacific Republic" (*Oregon Historical Quarterly*); the standard book is Johannsen, *Frontier Politics and the Sectional Conflict* (1955).
+- Oregon: Johannsen now covers the politics; J. Ellison, "Designs for a Pacific Republic, 1843–1862" (*OHQ* XXXI, 1930) and Hull's article were not found. Johannsen cites both and summarizes the Northwest side.
 - Vallejo in 1861: Rosenus is nearly silent.
-- Jefferson Hunt, Whiteaker, Jack Hays, Ericsson, Deady, Judah: nothing or almost nothing.
+- Jefferson Hunt, Jack Hays, Ericsson, Judah: nothing or almost nothing (Whiteaker and Deady now covered by Johannsen).
