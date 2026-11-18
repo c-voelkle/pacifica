@@ -1,6 +1,6 @@
 # CR-075 (outline) — What the Republic went to war for: the aims of 1861 and why California and Hawaii agreed (1861–1867)
 
-**Status:** OUTLINE for discussion, 18 November 2026. Nothing here is decided beyond what is marked *canon* or APPROVED in an earlier CR. Every proposal is **PROPOSED**; **Hist.** marks the historical record (to verify where so marked), **OPEN** a choice for the author. Each part ends with the questions that fill it. Revised 13:20 the same day on the author's request: Part D now sets the plan beside the people who supply it (*how does he know?*) and their own agency. Revised 15:33: the research of passes 1–3 (twelve texts) written into Parts C to F and CT2; new questions C-4, D-7, E-5, F-2; C4 now worded "on the Pacific slope" (C-3); players P16–P19 added. Decisions of 16:19 written in: C-1 to C-4, E-1 to E-5; of 16:29: D-1 to D-7. Parts are to be drafted one at a time, in their own documents if they grow, as with CR-071.
+**Status:** OUTLINE for discussion, 18 November 2026. Nothing here is decided beyond what is marked *canon* or APPROVED in an earlier CR. Every proposal is **PROPOSED**; **Hist.** marks the historical record (to verify where so marked), **OPEN** a choice for the author. Each part ends with the questions that fill it. Revised 13:20 the same day on the author's request: Part D now sets the plan beside the people who supply it (*how does he know?*) and their own agency. Revised 15:33: the research of passes 1–3 (twelve texts) written into Parts C to F and CT2; new questions C-4, D-7, E-5, F-2; C4 now worded "on the Pacific slope" (C-3); players P16–P19 added. Decisions of 16:19 written in: C-1 to C-4, E-1 to E-5; of 16:29: D-1 to D-7; of 16:45: B-1, F-1, F-2, G-1, CT1–CT3 (H-1 deferred; J-2 recommendation given). Parts are to be drafted one at a time, in their own documents if they grow, as with CR-071.
 **Number:** CR-075 (CR-074 is the latest).
 **Branch:** `drafts/cr075-war-aims`, from `main` at bf2d899 (CR-074 integrated).
 **Origin:** CR-068 CT3, decided "amend, with reservations" (author, 11 November 2026): "the Republic's exact war aims, and California's own reasons for supporting the war, are underdetermined … A later CR is to settle both." CR-068's open list, item 5: "a new CR is to settle them."
@@ -38,7 +38,7 @@ The end state and the sequence are fixed. This CR supplies **what the Republic s
 - B8. The war is not a one-man or a two-man show. Elias's leadership is believable because he gets the right people on his team and uses what they know; every part of his plan answers *how does he know?*, and the people around him act on their own interests (author, 18 November 2026, 13:20; Part D).
 - B7. The Union fights for what it values (no "unrealistic lack of confrontation", 8 November 2026). No annexation by decree (§9). Pacifica wages no campaign of extermination (protected intent).
 
-**Questions:** B-1. Any rule to add or strike?
+**Questions:** B-1. Any rule to add or strike? **Decided (author, 18 November 2026, 16:45):** the rules stand.
 
 ## C. The aims of 1861
 
@@ -168,7 +168,7 @@ CR-068 G2 settled Hawaii's reasons and price (reasons 1 to 3, the batteries, the
 - F3. **Wyllie's estimate.** Hist.: Wyllie believed in 1861 that the South would win its independence and wanted belligerent rights granted; the king refused anything that looked like recognition (KUYK 65). → Wyllie is a source for D1 and D5 (P9), and the voice for recognizing Richmond early; the king and Victoria are the check, as in canon (recognition in May 1865).
 - F4. **The law of the sea already Hawaii's.** Hist.: Hawaii acceded in 1855 to the Russo-American principles (free ships make free goods; neutral goods in enemy ships free) and did not accede to the Declaration of Paris until 1867 (KUYK 63–65). Canon's Confederation note of 1856 (CR-074: Paris's rules on goods kept, letters of marque reserved) is Hawaii's own position. If Hawaii wants C3 in writing at the peace, the model is this principle, not a ban on search (CT2).
 
-**Questions:** F-1. Does Hawaii want anything from the peace beyond C1 and C3? Canon's answer in 1865 is the sailor's claim (CR-062 T9) and the guarantees of the Enabling Law; recommended: no new aim. F-2. **New:** F1's inversion (the warship that would protect Honolulu is the one that boarded its packet): use it in Victoria's argument of 1861?
+**Questions:** F-1. Does Hawaii want anything from the peace beyond C1 and C3? Canon's answer in 1865 is the sailor's claim (CR-062 T9) and the guarantees of the Enabling Law; recommended: no new aim. **Decided (author, 18 November 2026, 16:45):** approved: no new aim. F-2. **New:** F1's inversion (the warship that would protect Honolulu is the one that boarded its packet): use it in Victoria's argument of 1861? **Decided (author, 18 November 2026, 16:45):** approved.
 
 ## G. From the aims to the peace
 
@@ -181,7 +181,7 @@ CR-068 G2 settled Hawaii's reasons and price (reasons 1 to 3, the batteries, the
 | C5 | The seventh reason | The Richmond credit; New Orleans holds | Recognition of Richmond (May 1865) | Won, at the cost W4 records |
 | Price | Announced | Head 3 | $40 million in gold | Paid |
 
-**Questions:** G-1. Is the table complete? Anything Pacifica holds in 1867 that no aim covers? Alaska is bought from Russia, outside the war's aims; recommended: it stays outside them.
+**Questions:** G-1. Is the table complete? Anything Pacifica holds in 1867 that no aim covers? Alaska is bought from Russia, outside the war's aims; recommended: it stays outside them. **Decided (author, 18 November 2026, 16:45):** approved: the table is complete and Alaska stays outside the aims.
 
 ## H. The schoolbook formula
 
@@ -193,7 +193,7 @@ With aims of its own, the first sentence can be Pacifica's. Candidates (to repla
 
 The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook and the Chronicler disagreeing about the first cause is part of the design (W4).
 
-**Questions:** H-1. H1, H2, H3, or a combination (H2 as the heading, H1 as the three causes)?
+**Questions:** H-1. H1, H2, H3, or a combination (H2 as the heading, H1 as the three causes)? **Author, 18 November 2026, 16:45:** not yet sure. Recommended: settle H after Parts C to G are drafted, so the formula sums up the causes as written.
 
 ## I. On the page
 
@@ -204,7 +204,10 @@ The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook an
 ## J. Deferred items this CR can carry
 
 - J1. **The sailor's compensation** (CR-068 open list 4, second mechanism): accepted in 1861, offered again in 1864, still a claim in 1865 (CR-062 T9). Proposed fit: in 1861 the compensation is accepted in principle, but Baker asks for his passports before anything is paid; Lincoln offers it again in 1864; it is never paid, so the family's claim goes before the mixed commission at Victoria's insistence.
-- J2. **CR-065.** Its CR-068 items (McClellan's inaugural on the West, M1; the direct exchange, CT27 and P1) were written in on 12 November and are in the storyline. **Question J-2:** what else in CR-065 did the author want revised (memory of 11 November)?
+- J2. **CR-065.** Its CR-068 items (McClellan's inaugural on the West, M1; the direct exchange, CT27 and P1) were written in on 12 November and are in the storyline. **Question J-2:** what else in CR-065 did the author want revised (memory of 11 November)? **Author, 18 November 2026, 16:45:** not sure; asked for a recommendation. **Recommended:** no separate revision of CR-065. The wish of 11 November came from the same reservation that created this CR (the war aims of 1861 underdetermined), and CR-065's own CR-068 items are done. What CR-075 changes in CR-065 is small and goes in at integration as impact notes:
+  1. Where CR-065 says what Monterey had already said before the campaign (P1–P3: the Terms and their reservations in print since August 1863), add the aims: in print since July 1861 (C-2). The Republic's silence in 1864 then rests on fifteen months of terms and three years of aims.
+  2. Open decision 20 (the reservations used by the Republican press) widens to the preamble of 1861: Republicans read C4 as a programme for the West; Democrats read C5 and the price as proof that the Republic asks nothing a peace cannot give. As in decision 20, no electoral weight is claimed.
+  3. Nothing in CR-065's model, result or lame-duck winter changes.
 - J3. **K8, the Republican nominee of 1856** (CR-068, deferred). It bears on E1 only if the nominee's record on California matters to California's fear. Recommended: leave it deferred.
 - J4. **Housekeeping on the same branch (optional):** seven remaining "Canton" uses in the storyline (to be flagged as possible canon corrections, author 18 November 2026); §25's leftover "until 1914"; AGENTS.md's "A Crown-affiliated party is on hold", superseded by CR-072.
 
@@ -215,7 +218,7 @@ The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook an
 **Current:** M9: "the moment Lincoln is more reasonable than Elias and Elias knows it: a limited war becomes a territorial one because Elias refuses the offer." G2: "He chose a war for the West against an adversary who had offered him redress."
 **Case A (adapt):** keep both lines; the aims stand beside them, and the reader weighs them.
 **Case B (amend):** M9 and G2's verdict become: Lincoln's offer was honest and answered the wrong that had been done; it could not answer what the Republic went to war for, which the reply and its preamble said; the choice was the founder's. No fact changes.
-**Recommendation:** B. A keeps the frame of A4, which the aims exist to replace.
+**Recommendation:** B. A keeps the frame of A4, which the aims exist to replace. **Decided (author, 18 November 2026, 16:45):** amend (Case B).
 
 ### CT2 — The reply's first demand and the treaty (C3)
 
@@ -223,13 +226,13 @@ The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook an
 **Case A (adapt):** C3 is met in substance by C1: after 1867 the Union has no Pacific station from which to search anyone. The treaty is silent, and the schoolbook does not claim it.
 **Case B (amend):** the treaty of 1865 gains an article on Pacific waters: no visit or search of Pacifican or Hawaiian vessels within named limits in peace or war. To check against the Senate debate of 1867 (CR-062).
 **Research (pass 2):** search of neutral merchantmen was a belligerent's right that neutrality conceded during a war, and in peace a right of search existed only by treaty (JONES ch.2, ch.4); the peace therefore meets the reply's first demand by itself. If Hawaii wants the principle in writing, the model is the Russo-American convention of 1854, to which Hawaii acceded in 1855 (KUYK 63), stated as a principle rather than a ban.
-**Recommendation:** A. B only if the author wants Hawaii's aim won in writing, in the form of that principle.
+**Recommendation:** A. B only if the author wants Hawaii's aim won in writing, in the form of that principle. **Decided (author, 18 November 2026, 16:45):** adapt (Case A): the treaty stays silent; the peace meets C3.
 
 ### CT3 — CR-068's assignment of the seven reasons
 
 **Current:** CR-068 CT3 records California's reasons as the second, fifth and sixth of the seven.
 **Amended:** California's reasons are E1 to E4; the seven reasons stay Elias's arguments to the Council, unchanged. A note in CR-068's record, no change to the storyline's seven reasons. No fact changes.
-**Recommendation:** amend.
+**Recommendation:** amend. **Decided (author, 18 November 2026, 16:45):** amend.
 
 ## Fact changes
 
