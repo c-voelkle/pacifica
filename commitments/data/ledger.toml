@@ -6178,7 +6178,7 @@ conditions = [
   "county wage boards on the Realm's benchmarks (CR-038)",
   "the working day outside the Realm's works (the guest workers' rules come with the guest-worker programme of 1890)",
   "every child in school until fourteen, family farms included (H7.2)",
-  "the Land Fund sells no household more than a family farm; Development Fund credit to the districts' co-operatives (H7.4)",
+  "the Land Fund sells no household more than a family farm, of 80 irrigated or 160 dry acres (CR-074 E2); Development Fund credit to the districts' co-operatives (H7.4)",
 ]
 status = "APPROVED"
 cr = "CR-071"
@@ -6204,14 +6204,18 @@ conditions = [
   "ventures abroad under licence and bond, carrying the labour article",
   "acts of state (the Realm's forces, the Atlantic Auxiliary, missions) are outside the Act",
   "raised companies chartered to any body of citizens, excepted from CR-037 E7's membership rules while they hold no arms or role at home, commission no officers and hold no man; a nation's council consents to each posting and its men's warrants join the homeland",
-  "the Philippine Council charters companies of the islands' men, with a separate warrant in the friar land, Calamba's evictees first; the Hawaiian legislature and the Philippine crown charter their own from 1907",
+  "the Philippine Council charters companies of the islands' men, with a separate warrant in the friar land; tenants evicted at Calamba (1890–91) who serve have first claim; the Hawaiian legislature and the Philippine crown charter their own from 1907",
 ]
 status = "APPROVED"
 cr = "CR-074"
 section = 25
 quote = "The Companies Act of 1888 makes the companies a system."
-more_quotes = ["Beside the open companies stand raised companies, chartered to any body of citizens that can fill one"]
-open = "Acres MODEL. The Companies Office's first director and the school's first commandant OPEN."
+more_quotes = [
+  "Beside the open companies stand raised companies, chartered to any body of citizens that can fill one",
+  "the family farm of eighty irrigated acres or a hundred and sixty dry that the labour law allows a household",
+  "The Office's appointment tables do not count whom a raised company takes, since it rules no one at home.",
+]
+open = "The acreage of the half and whole farm APPROVED (CR-074 E2, the family farm); scale MODEL. The Companies Office's first director and the school's first commandant OPEN."
 
 [[commitment]]
 id = "C-1856-PARIS-NOTE"
@@ -6219,8 +6223,9 @@ name = "The Confederation's note on the Declaration of Paris"
 kind = "guarantee"
 parties = ["PAC", "HI"]
 from = 1856
-owes = [{ by = "PAC", to = "PAC", what = "the rules on neutral goods and blockade kept as practice; no letter of marque against a partner's ships or a neutral's goods" }]
 conditions = [
+  "a unilateral declaration to the powers, partners and neutrals: the rules on neutral goods and blockade kept as practice; no letter of marque against a partner's ships or a neutral's goods",
+  "does not accede",
   "letters of marque reserved until the great navies exempt private property at sea (Marcy's terms)",
   "carries forward Hawaii's accession of 1855 to the neutral principles of the convention of 1854 (CR-074 B1)",
 ]
@@ -6229,7 +6234,7 @@ ended_by = "accession to the Declaration of Paris at The Hague (C-1919-PARIS-ACC
 status = "APPROVED"
 cr = "CR-074"
 section = 8
-quote = "When the powers at Paris invite the world to give up privateering, the new Confederation answers as Marcy answers for the United States"
+quote = "When the powers at Paris invite the world to give up privateering, the new Confederation answers as Marcy has answered for the United States"
 open = "The note's date and addressees not stated."
 
 [[commitment]]
@@ -6246,7 +6251,7 @@ conditions = [
 status = "APPROVED"
 cr = "CR-074"
 section = 19
-quote = "In the spring and summer of 1878 about a dozen armed sealers and whalers"
+quote = "In the spring and summer of 1878 armed sealers and whalers sail under letters of marque"
 open = "Number of ships MODEL."
 
 [[commitment]]
@@ -6292,7 +6297,7 @@ conditions = ["never on the camphor frontier"]
 status = "APPROVED"
 cr = "CR-074"
 section = 25
-quote = "A company guards the Keelung mines and the camphor stores for the Director-General, and never the camphor frontier."
+quote = "A company guards the Keelung mines and the camphor stores for the Director-General, and never serves on the camphor frontier against the mountain peoples."
 open = "Its end not stated."
 
 [[commitment]]
@@ -6328,7 +6333,7 @@ status = "APPROVED"
 cr = "CR-074"
 section = 28
 quote = "The next day Julian issues letters of marque to the venture steamers, the companies' tenders and the sealers and whalers"
-open = "Number of letters and prizes not stated."
+open = "Number of letters and prizes not stated. Dated from the declaration of war of 23 August 1914, which is PROPOSED — CR-040."
 
 [[commitment]]
 id = "C-1919-PARIS-ACCESSION"
@@ -6340,7 +6345,7 @@ conditions = ["privateering abolished for Pacifica; the Declaration has no withd
 status = "APPROVED"
 cr = "CR-074"
 section = 30
-quote = "At The Hague in 1919 Pacifica accedes to the Declaration of Paris, and gives up the letters of marque it issued in 1914."
+quote = "At The Hague in 1919 Pacifica accedes to the Declaration of Paris, and gives up privateering for good, five years after Julian's letters."
 open = "The other parties are all signatories and acceders of 1856 onward; UK and FR stand for them."
 
 [[commitment]]
