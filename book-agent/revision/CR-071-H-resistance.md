@@ -172,10 +172,34 @@ No one is beaten by force on the day. The members have had no armed men of their
   - Its exact terms.
   - Whether the 1888 immigration act is that promise.
 
-### H6.3 Still to decide
+### H6.3 The nature of the grievance, and the incident (H-17, H-18; directions APPROVED)
+
+> Option 2, irrigation district case is better, and I think you have hit the nail on the head with your characterization the nature of the nativist grievance in Pacifica. It would be similar to the Malay grievance, namely that of a proud race that simply rejects the Chinese "996 grindset" as alien to it and doesn't want it overvalued or too closely coupled with power. I think this is legitimate and Pacifica needs to take care to substantially make good on this wish, and canon already provides one avenue for it in the form of the institutionalized agon. (Author, 18 November 2026, 05:34)
+
+- **H-17 (direction APPROVED): the incident.** Canon's Rock Springs (1885) and Hells Canyon (1887) (§15, l. 703) are replaced by a Pacifican incident: an attack on Asian farmers in one of the new irrigation districts in the mid-1880s, which is prosecuted. The reasons:
+  - our timeline's drivers of those massacres are mostly absent in Pacifica;
+  - Hells Canyon's setting does not exist, because the Wallowa is the Nez Perce's country (I-47);
+  - land is where settler and Asian families really compete.
+
+  Its knock-on: l. 931 ("Union critics answer with the Chinese massacres") changes with it. **PROPOSED, to settle:** the district, the year, what is done (sheds and crops burned, families driven off, deaths or none), the trial and the sentence. **This is a canon tension:** l. 703 is amended (CT7 below).
+- **H-18 (direction APPROVED): the grievance and the remedy.** Pacifican nativism is a grievance of status and ethos, not of wages. A proud settler people rejects the grind as alien and does not want it overvalued, or too closely coupled with power. The author holds it legitimate: Pacifica must substantially make good on it. Canon's institutionalized agon is the avenue: "Give ability its trial and achievement its honour", and among the qualified, achievement outranks examination rank (CR-049, §5 l. 214, §8 l. 295). The remedy is not a quota (CR-037 forbids one); it widens what counts. **PROPOSED mechanisms, for the author:** H6.4.
+
+### H6.4 Making good through the agon (PROPOSED, for the author)
+
+1. **The examination as a floor, not a ladder, for power.** The civil examination stays the gate to office (CR-037). Above it, postings to county Commissioner and to the Realm's offices go by the record of works, as fellowships have since 1854, not by marks. In 1887 the rule written for the Polytechnic becomes the rule for the service.
+2. **Hours out of the contest.** H-16's labour article adds a maximum working day: eight hours on the Realm's works and in its chartered undertakings, and a weekly day of rest everywhere. No one wins a wage job by working longer. This was the Workingmen's and the Knights of Labor's first demand; California's unenforced eight-hour law of 1868 is the historical seed. Family farms and shops stay outside it, which is why the irrigation districts remain the sharp edge (H-17).
+3. **Arenas where the settler's virtues win honour.** These are open to every Pacifican, so the honour is earned, not reserved:
+   - the militia's commission, which already carries the Franchise Law's third vote;
+   - the counties' contest for the excellence of their works (the league tables);
+   - deeds before witnesses: the survey parties, the Northern Commission, the mountain divisions, fire and flood;
+   - public festivals of the counties' marksmen and riders on the model of the Swiss federal shooting festival, an agon that bound a confederation of citizen-soldiers.
+4. **Silas as the type.** He is the brave soldier capped by an examination (he fails the mathematics in 1882). The inland command is the refuge of the men the grind turned away (E-13, H-15). The agon is the Realm's answer to the next Silas; whether it comes too late for this one is the story's.
+5. **The limit, kept honest.** Asian families who out-work their neighbours on their own land cannot be legislated against without breaking CR-037. The agon answers the status grievance; it does not end the competition for land. That residue is the nativists of 1906 and the county oligarchies of 1910–11.
+
+### H6.5 Still to decide
 
 - **What the Prosperity Party co-opts** from the settlers' movement, and how. The author: "co-opt it must". This waits on the next question.
-- **The sentiment toward the Chinese in Pacifica.** Which of our timeline's drivers apply, and whether Rock Springs (1885) and Hells Canyon (1887), which canon (§15, l. 703) places on Pacifican soil, are believable. This is under discussion as of 18 November 2026. As drawn by CR-071, the Wallowa is the Nez Perce's country (I-47; I4b), so Hells Canyon's setting does not exist. Green River's Rock Springs has "a large Asian minority" (I4a).
+- **The terms of H-17 and H-18**, and which of H6.4's mechanisms stand.
 - **A popular vote on the constitution.** Not taken up yet.
 
 ## Decisions for the author
@@ -197,6 +221,8 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-13 | The Queen's Guard's commander in 1889 (H4) | Samuel Nowlein | **APPROVED** (author, 16 November, 23:26) |
 | H-14 | Wilcox's later life (H4) | Dies in 1903 as historically; the 1907 campaign passes to others, possibly his widow Theresa | **APPROVED** (author, 16 November, 23:26) |
 | H-15 | Silas as the settler interior's guarantor: the Truce read as the interior's bargain (H6.1) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); details PROPOSED or OPEN |
+| H-17 | Rock Springs and Hells Canyon replaced by an irrigation-district attack on Asian farmers, prosecuted (H6.3) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); details PROPOSED |
+| H-18 | Pacifican nativism is a grievance of ethos and status; Pacifica makes good on it through the institutionalized agon, not a quota (H6.3, H6.4) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); mechanisms PROPOSED |
 | H-16 | A labour article as the settlers' price: equal wage, no unfree or contract labour, entry by examination and sponsorship (H6.2) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); terms PROPOSED or OPEN |
 
 ## Canon touchpoints
@@ -221,6 +247,7 @@ No one is beaten by force on the day. The members have had no armed men of their
 - **CT3 — Deady on the Court of the Realm.** Canon names no judge of the Court in 1887. New fact; his historical death in 1893 fits CR-038's retirement in 1892.
 - **CT4 — The Honolulu rising of 1889.** Canon has no armed episode in Hawaii after 1874. New facts: Wilcox, the rising, the seven dead, the acquittal and the Regent's promise. No conflict with the protected intent (the throne is never in abeyance; Victoria reigns throughout).
 - **CT6 — The settler majority (H6).** H-15 and H-16 add to canon: the Truce's reading (§22) and a labour article in 1887 (§21), the second possibly tied to the 1888 immigration act (§25, l. 914). Canon's Rock Springs and Hells Canyon (§15, l. 703) are under review (H6.3); no case is drafted yet.
+- **CT7 — Rock Springs and Hells Canyon (§15, l. 703).** Canon amended (H-17): the sentence is replaced by the irrigation-district case once its details are settled, and l. 931's "the Chinese massacres" follows. Fact changes: none tracked (neither event is in `canon_facts.toml`).
 - **CT5 — Wilcox at Turin.** Hawaii's external relations are confederal (§6), so the Turin schooling is Kalākaua's private arrangement with the Queen's leave, not an act of state.
 
 ## Fact changes
