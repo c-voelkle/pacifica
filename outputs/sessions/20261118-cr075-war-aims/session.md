@@ -29,7 +29,9 @@ independence: same-agent (outline only; no review yet)
 | --- | --- | --- | --- | --- |
 | D1 | decision | The next CR is the war aims of 1861 and California's reasons; outline first | author, 18 November 2026, 13:05 | current |
 | D2 | decision | Add a section on the key players in Pacifica and their agency; answer "how does he know?" alongside the plan, within this CR | author, 18 November 2026, 13:20 | current |
-| Q1 | open choice | B-1, C-1 to C-3, D-1 to D-6, E-1 to E-4, F-1, G-1, H-1, J-2; CT1–CT3 | outline | open |
+| D3 | decision | C-1 the five aims stand; C-2 preamble public in July 1861; C-3 "on the Pacific slope"; C-4 Burch himself speaks for the expansionists | author, 18 November 2026, 16:19 | current |
+| D4 | decision | E-1 the May 1861 note approved; E-2 California's price (a); E-3 a Californian renewal at risk in May 1862; E-4 real historical figures, Burch and one other for the Union side (Starr King proposed); E-5 Beale's public letter used | author, 18 November 2026, 16:19 | current |
+| Q1 | open choice | B-1, D-1 to D-7, F-1, F-2, G-1, H-1, J-2; CT1–CT3; the Union-side figure for E-4 (Starr King proposed) | outline | open |
 
 ## Revision of 13:20
 
@@ -48,6 +50,6 @@ independence: same-agent (outline only; no review yet)
 
 ## Resume here
 
-- Next: the author's answers to the outline's questions (C first, then E, D, F). Research passes complete; drafting the parts waits on the author's answers.
+- Next: confirm Starr King (E-4); the D questions; then draft Part C in full.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
