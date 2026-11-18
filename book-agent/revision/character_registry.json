@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 320,
+    "canonical_dossiers": 321,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 314
+    "active_or_provisional_identities": 315
   },
   "people": [
     {
@@ -6273,6 +6273,35 @@
       "source_authority": [
         "CR-071"
       ]
+    },
+    {
+      "id": "CT-FREDERICK-WARD",
+      "display_name": "Frederick Townsend Ward, captain of the first Pacific Company abroad",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-FREDERICK-WARD",
+      "narrative_profile": "Historical person in alternate history; CR-074, APPROVED 18 November 2026, local labels retained. Born at Salem in 1831 to a shipmaster's family, at sea from boyhood; San Francisco in 1850, Shanghai in 1851, Walker's Sonora filibuster in 1853, which he deserts, then Mexico, the French service in the Crimea, and China in 1857 (*hist.*, Carr, *The Devil Soldier*). Here he rides into California on a mule in the winter of 1854 while the Republic tries Walker's men, is questioned and released, and signs on the *Westward Ho!* for Hong Kong. In the autumn of 1859, on his way to China through San Francisco, he swears allegiance to the Republic so that no American consul can touch his trade (the rule that an oath suffices is PROPOSED, CR-074 T9). He holds Qing rank by letter of commission and never becomes a Chinese subject. For Wu Xu and Yang Fang he raises the Foreign Arms Corps at Shanghai in 1860, with a Pacifican company inside it under the consul's licence; Songjiang falls in July 1860 with Vincente Macanaya's Manilamen; at the first Qingpu his jaw is shattered and he stays on the field (*hist.*). He marries Yang Fang's daughter Changmei in March 1862. He is shot at Cixi on 21 September 1862 and dictates his will on the gunboat to Ningpo: what Wu and Yang owe him, fifty thousand taels for his wife, ten thousand taels' worth in gold to the Republic's Treasury, the rest to his brother and sister; he dies on the 22nd. The Pacifican consul and Admiral Hope are his executors. His brother Harry, still an American, sells the steamers bought with Chinese money to the Union Army in 1863. Revered at Songjiang as Hua (*hist.*). **Voice:** reckless in action, careless with money, contemptuous of Shanghai's merchants and of filibusters; chooses his flags by how a country is governed. **Distinct from** CT-JULIAN-MOTHER (Noe Kaʻanoe Ward) and CT-JOHN-WARD: no kinship.",
+      "links": [
+        {
+          "relationship": "no kinship with (same surname)",
+          "to": "CT-JULIAN-MOTHER"
+        },
+        {
+          "relationship": "no kinship with (same surname)",
+          "to": "CT-JOHN-WARD"
+        },
+        {
+          "relationship": "served the Qing alongside",
+          "to": "CT-LI-HONGZHANG"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-071",
+        "CR-074"
+      ]
     }
   ],
   "updated_on": "2026-11-18",
@@ -6813,6 +6842,22 @@
         "CT-DENIS-KEARNEY"
       ],
       "limits": "Only persons on the page or approved in CR-071 are registered; Ward, Li Hongzhang, Kido, Itō, Lux and Theresa Wilcox stay without entries (Ward's is CR-074's). Fair and Victorio are registered as approved decisions not yet on the page. Nowlein's birth year to verify; Victorio's death and Sherman's fate after 1887 OPEN."
+    },
+    {
+      "request": "CR-074",
+      "source": "CR-074 (D-1 to D-37, the review's findings, and the review of the integration, D-38 to D-41); author's approvals of 18 November 2026",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-LI-HONGZHANG",
+        "CT-LOGAN-TURNER",
+        "CT-FONG",
+        "CT-CALEB",
+        "CT-SILAS-CLAIMANT"
+      ],
+      "new_ids": [
+        "CT-FREDERICK-WARD"
+      ],
+      "limits": "Only Ward is registered; Wu Xu, Yang Fang, Harry Ward, Vincente Macanaya, Burgevine, Gordon, Bogle, Enomoto, Brunet, Liu Mingchuan, Marcy, Seward, Crabb, Camilo Ynitia, Joaquín de la Torre, Mat Salleh and William Clarke Cowie are named without entries. The Shanghai and Hakodate captains OPEN. The five updated IDs change in the bible's CR-074 notes only; their registry entries are unchanged."
     }
   ],
   "institutional_groups": [
