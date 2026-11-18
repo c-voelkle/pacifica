@@ -43,9 +43,11 @@ independence: same-agent (outline only; no review yet)
 - 15:20: Johannsen supplied; passes 1 and 2 run on it (the sweep now covers twelve texts; notes in `research-notes/O-oregon.md`).
 - 15:24: pass 3 (canon checks) done: `research-pass3-canon-check.md`. No tracked fact contradicted; three wordings to refine (B1–B3); Sherman's 1847–49 Monterey years do not exist in Pacifica (recommended: he first comes in 1853).
 - 15:33: author: make the three wording fixes, then write the findings into Parts C–F. Fixes on `housekeeping/cr075-wordings` (from `main`; checks clean; PR to be opened by the author, the CLI is not logged in). Findings written into the outline's Parts C–F and CT2; new questions C-4, D-7, E-5, F-2.
+- 15:49: PR #77 (`housekeeping/cr075-wordings`) opened and squash-merged on the author's word (`2f65358`).
+- 15:56: pass 6 (page references) done: `research-pass6-citation-check.md`. 258 citations; one spelling corrected; five over-long quotes in the notes paraphrased.
 
 ## Resume here
 
-- Next: the author's answers to the outline's questions (C first, then E, D, F); pass 6 (mechanical check of the page references) before any part is drafted in full.
+- Next: the author's answers to the outline's questions (C first, then E, D, F). Research passes complete; drafting the parts waits on the author's answers.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
