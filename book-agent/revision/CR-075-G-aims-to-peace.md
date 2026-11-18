@@ -1,6 +1,6 @@
 # CR-075, Part G — From the aims to the peace: what was named in 1861 and what was kept in 1867
 
-**Status:** DRAFT, 18 November 2026. G-1 is APPROVED (author, 18 November 2026, 16:45): the table is complete and Alaska stays outside the aims. Writing the table out in full found one canon item it missed, the Pacific article of the peace (the guano islands, CR-029). It was put to the author as G-2 and decided at 19:58: the first object now has an island clause, and the kingdom's claim is in a sealed minute (Part C, C1.5, C3.1; Part F, F5). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. This part opens questions G-3 to G-6 (below).
+**Status:** DRAFT, 18 November 2026. G-1 is APPROVED (author, 18 November 2026, 16:45): the table is complete and Alaska stays outside the aims. Writing the table out in full found one canon item it missed, the Pacific article of the peace (the guano islands, CR-029). It was put to the author as G-2 and decided at 19:58: the first object now has an island clause, and the kingdom's claim is in a sealed minute (Part C, C1.5, C3.1; Part F, F5). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. G-3 to G-6 APPROVED as recommended (author, 18 November 2026, 22:58).
 **Belongs to:** `CR-075-outline.md`, Part G. Read with Part C (`CR-075-C-aims.md`: the five objects, the price, the promise to treat, the rule that each resolution names its object). No storyline text is integrated from here; G8 gives the sentence proposed for integration with the whole CR.
 **Canon it builds on:**
 - §10 and §12: the war, the peace of 1865 and the Senate's consent of 9 April 1867.
@@ -17,6 +17,8 @@
 ## Author's decisions
 
 > G-1: approved (18 November 2026, 16:45)
+
+> I approve all from G and all from J. H remains deferred. (22:58)
 
 > You're right to mention the Pacific islands. Ultimately the hidden aim is hegemony over the Pacific, but that of course can't be stated plainly yet. (19:47) … Yes this works. Please add it to F and make the requisite changes in C and G. (19:58)
 
@@ -141,10 +143,10 @@ In §12, after the sentence on the Pacific article ending "which never obliged t
 ## Decisions for the author
 
 - **G-2. The guano islands (G2).** **Decided (author, 18 November 2026, 19:58):** the first object gains an island clause ("or on any island of the Pacific"), Hawaii's claim goes into a sealed minute of the Council's night, and the chain of events from 1856 to 1867 is made explicit in Part F, F5.3. The islands pass B4 by the letter.
-- **G-3. The empty parks of the Rockies (G2).** South Park, the parks and the upper Arkansas were held by the snow (CR-060 CO1) and had no people to ask in 1865. Recommended: they pass B4 by the price alone, and the Chronicler gives them one line beside Washoe. The alternative is to make them a second exception.
-- **G-4. The chain of instruments (G1).** Approve the reading that the heads of 1863 omit the first and third objects because one was a fact on the ground and the other could only be met by the peace?
-- **G-5. The table (G3).** Replace the outline's table with G3?
-- **G-6. The storyline sentence (G8).** In §12, or leave the count to the Chronicler alone?
+- **G-3. The empty parks of the Rockies (G2).** South Park, the parks and the upper Arkansas were held by the snow (CR-060 CO1) and had no people to ask in 1865. Recommended: they pass B4 by the price alone, and the Chronicler gives them one line beside Washoe. The alternative is to make them a second exception. **Decided (author, 18 November 2026, 22:58):** approved as recommended.
+- **G-4. The chain of instruments (G1).** Approve the reading that the heads of 1863 omit the first and third objects because one was a fact on the ground and the other could only be met by the peace? **Decided (author, 18 November 2026, 22:58):** approved as recommended.
+- **G-5. The table (G3).** Replace the outline's table with G3? **Decided (author, 18 November 2026, 22:58):** approved as recommended.
+- **G-6. The storyline sentence (G8).** In §12, or leave the count to the Chronicler alone? **Decided (author, 18 November 2026, 22:58):** approved as recommended.
 
 ## Fact changes
 
