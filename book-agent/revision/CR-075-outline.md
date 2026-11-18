@@ -1,7 +1,21 @@
 # CR-075 (outline) — What the Republic went to war for: the aims of 1861 and why California and Hawaii agreed (1861–1867)
 
-**Status:** OUTLINE for discussion, 18 November 2026. Nothing here is decided beyond what is marked *canon* or APPROVED in an earlier CR. Every proposal is **PROPOSED**; **Hist.** marks the historical record (to verify where so marked), **OPEN** a choice for the author. Each part ends with the questions that fill it. Revised 13:20 the same day on the author's request: Part D now sets the plan beside the people who supply it (*how does he know?*) and their own agency. Revised 15:33: the research of passes 1–3 (twelve texts) written into Parts C to F and CT2; new questions C-4, D-7, E-5, F-2; C4 now worded "on the Pacific slope" (C-3); players P16–P19 added. Decisions of 16:19 written in: C-1 to C-4, E-1 to E-5; of 16:29: D-1 to D-7; of 16:45: B-1, F-1, F-2, G-1, CT1–CT3 (H-1 deferred); of 17:11: J-2 approved. Part C drafted in full in `CR-075-C-aims.md` (18 November 2026). Part C's C-5 to C-11 approved at 17:26. Part E drafted in full in `CR-075-E-california.md` (18 November 2026). Part E's E-6 to E-12 approved at 17:43. Part D drafted in full in `CR-075-D-plan-and-people.md` (18 November 2026). Part D's D-8 to D-13 left open (author, 19:13). Part F drafted in full in `CR-075-F-hawaii.md` (18 November 2026). D-8 to D-13 and F-3 to F-7 approved as recommended at 19:28. Part G drafted in full in `CR-075-G-aims-to-peace.md` (18 November 2026); it finds the Pacific article (CR-029) missing from G-1's table (G-2). G-3 to G-6 and J1, J3, J4 approved at 22:58; H still deferred. Part I drafted in full in `CR-075-I-on-the-page.md` (18 November 2026), replacing I1–I3. The preamble's paper is PP3a (PP3c is CR-068's armistice offer of 1862). Decided at 19:58: the first object gains an island clause and Hawaii a sealed minute (Parts C, F, G); the outline's C1 row is to read accordingly at integration. Parts are to be drafted one at a time, in their own documents if they grow, as with CR-071.
+**Status:** ASSEMBLED for review, 19 November 2026. The CR is this document, which holds the index, the canon base, the gap, the rules, the schoolbook formula, the deferred items, the tensions and the integration notes, together with its six parts (below) and the storyline text in `CR-075-storyline.md`. Every question in the parts is decided by the author (18–19 November 2026) except H-1, the schoolbook formula, which stays deferred. Labels inside the parts mark what is APPROVED, PROPOSED (details), OPEN, MODEL and *Hist.*
+**History:** OUTLINE for discussion, 18 November 2026. Nothing here is decided beyond what is marked *canon* or APPROVED in an earlier CR. Every proposal is **PROPOSED**; **Hist.** marks the historical record (to verify where so marked), **OPEN** a choice for the author. Each part ends with the questions that fill it. Revised 13:20 the same day on the author's request: Part D now sets the plan beside the people who supply it (*how does he know?*) and their own agency. Revised 15:33: the research of passes 1–3 (twelve texts) written into Parts C to F and CT2; new questions C-4, D-7, E-5, F-2; C4 now worded "on the Pacific slope" (C-3); players P16–P19 added. Decisions of 16:19 written in: C-1 to C-4, E-1 to E-5; of 16:29: D-1 to D-7; of 16:45: B-1, F-1, F-2, G-1, CT1–CT3 (H-1 deferred); of 17:11: J-2 approved. Part C drafted in full in `CR-075-C-aims.md` (18 November 2026). Part C's C-5 to C-11 approved at 17:26. Part E drafted in full in `CR-075-E-california.md` (18 November 2026). Part E's E-6 to E-12 approved at 17:43. Part D drafted in full in `CR-075-D-plan-and-people.md` (18 November 2026). Part D's D-8 to D-13 left open (author, 19:13). Part F drafted in full in `CR-075-F-hawaii.md` (18 November 2026). D-8 to D-13 and F-3 to F-7 approved as recommended at 19:28. Part G drafted in full in `CR-075-G-aims-to-peace.md` (18 November 2026); it finds the Pacific article (CR-029) missing from G-1's table (G-2). G-3 to G-6 and J1, J3, J4 approved at 22:58; H still deferred. Part I drafted in full in `CR-075-I-on-the-page.md` (18 November 2026), replacing I1–I3. The preamble's paper is PP3a (PP3c is CR-068's armistice offer of 1862). Decided at 19:58: the first object gains an island clause and Hawaii a sealed minute (Parts C, F, G); the outline's C1 row is to read accordingly at integration. Parts are to be drafted one at a time, in their own documents if they grow, as with CR-071. I-1 to I-6 approved at 00:22 on 19 November 2026 (the honeymoon at the head of Nuʻuanu, overlooking the future site of Thalassia). Assembled the same night.
 **Number:** CR-075 (CR-074 is the latest).
+
+## The CR's parts
+
+| Part | File | What it settles | Decisions |
+|---|---|---|---|
+| A, B, H, J; tensions | this document | The gap; the design rules; the schoolbook formula; the deferred items; CT1–CT3 | B-1, J1–J4, CT1–CT3 decided; H-1 deferred |
+| C | `CR-075-C-aims.md` | The preamble of the war resolution, July 1861: five objects (the first with an island clause), the price, the promise to treat; the sealed minute; Burch's motion; the rule that each resolution names its object | C-1 to C-11 and the island clause, all approved |
+| D | `CR-075-D-plan-and-people.md` | The two closed sittings of June 1861, the estimate part by part with who supplied it, Sherman's case, the errors traced, the players' own acts | D-1 to D-13, approved |
+| E | `CR-075-E-california.md` | California's four reasons, Baker's note, Ralston, Burch and Starr King, Beale and Pico, California's price, the renewal of May 1862, Oregon | E-1 to E-12, approved |
+| F | `CR-075-F-hawaii.md` | Hawaii's reasons and power: Victoria's argument, Wyllie, the kingdom divided, the islands from 1856 to 1867, the promise of 1858 and its keeping, Hawaii as keeper of the aims | F-1 to F-8, approved |
+| G | `CR-075-G-aims-to-peace.md` | The chain of instruments from 1861 to 1867, the B4 test item by item, the table that replaces this outline's G, the Chronicler's count | G-1 to G-6, approved |
+| I | `CR-075-I-on-the-page.md` | Thirteen beats in CR-068's beat-sheet form | I-1 to I-6, approved |
+| Storyline | `CR-075-storyline.md` | The text to be written into `master_storyline.md`, with anchors; the registry, ledger, background and register notes | For review |
 **Branch:** `drafts/cr075-war-aims`, from `main` at bf2d899 (CR-074 integrated).
 **Origin:** CR-068 CT3, decided "amend, with reservations" (author, 11 November 2026): "the Republic's exact war aims, and California's own reasons for supporting the war, are underdetermined … A later CR is to settle both." CR-068's open list, item 5: "a new CR is to settle them."
 **Read with:** CR-028 (1847–48: Querétaro, Trist, the Buchanan–Vallejo Convention), CR-039 (the conventions of 1848 and 1860 ended by the peace), CR-059 to CR-062 (the West, Oregon, Deseret, the Southwest, the peace), CR-065 (the election), CR-067 (the Protector's mandate), CR-068 (G1, G2, G3, G6, G6b, G8, W1–W4), CR-069 (the coin).
@@ -72,6 +86,8 @@ The **price** is not an aim but is announced with them: what the Republic keeps 
 - C-2. Is the preamble public in July 1861 (recommended: yes, it is Elias's protection against the charge of 1863), or given to the Council in closed session and printed only in 1863? **Decided (author, 18 November 2026, 16:19):** approved: public in July 1861.
 - C-3. C4's wording: now written as "on the Pacific slope", with the Basin and the Rockies coming in under C4 only when their peoples ask (Deseret's initiative of 1862). The alternative, "west of the plains", commits the Republic to the Rockies in 1861. Recommended: the narrower wording (research: C8). **Decided (author, 18 November 2026, 16:19):** approved: "on the Pacific slope".
 - C-4. **New: the expansionists at home.** A Californian voice in 1861 asks the Council to name the Rockies line and the Burch members as aims (C8). Who speaks for it, and how does Elias answer? Recommended: a Southern-born Californian on the Burch model (name OPEN; Gwin and Burch themselves are absent from canon so far), answered in the closed sitting by D3: what comes by its own choice need not be named, and what is named will be called conquest. **Decided (author, 18 November 2026, 16:19):** "Why not Burch himself": **John C. Burch** speaks for the expansionists (P20). Hist.: a Missourian and one of the two pro-Southern Democrats California sent to the House in 1859 (WAITE 119); author of the letter of 22 November 1860 for a Pacific republic of California, Oregon, New Mexico, Washington and Utah (ELL 181); a speech at Weaverville to Trinity County's Democrats and "Compromise Union men" on 25 May 1861 (WAITE 315, bibliography). In Pacifica there is no House seat for him; he sits for Trinity in California's assembly or the Confederal Assembly (which, OPEN) and makes the case in July 1861. Elias's answer stands as recommended. Birth year and career detail to verify.
+
+*Since drafted (Part C): C1 also covers "any island of the Pacific from which the Confederation or either of its members can be struck" (author, 19:58; C2, C3.1); C4's "can hold its own ground" reads "can govern themselves" (C-5); the preamble's text is Part C, C2.*
 
 ## D. The plan and the people: what Elias expects, how he knows, and who acts on their own
 
@@ -183,6 +199,8 @@ CR-068 G2 settled Hawaii's reasons and price (reasons 1 to 3, the batteries, the
 
 **Questions:** G-1. Is the table complete? Anything Pacifica holds in 1867 that no aim covers? Alaska is bought from Russia, outside the war's aims; recommended: it stays outside them. **Decided (author, 18 November 2026, 16:45):** approved: the table is complete and Alaska stays outside the aims.
 
+*This table is replaced by Part G, G3 (G-5, approved 22:58).*
+
 ## H. The schoolbook formula
 
 With aims of its own, the first sentence can be Pacifica's. Candidates (to replace W2; A10 follows):
@@ -197,9 +215,7 @@ The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook an
 
 ## I. On the page
 
-- I1. **The scene of July 1861:** the closed sitting as a challenge evening (D-a), each part given by the person who knows it, Sherman attacking, Elias asking; then the open vote on the preamble. Victoria's party votes for C1 and C3 and enters its doubt of C4; Vallejo speaks for C2.
-- I2. **The Chronicler's verdict on 1861** changes (CT1): Lincoln offered honest redress for the sailor; the Republic's objects were not the sailor, and the reply said so. The choice is still the founder's.
-- I3. **Lincoln's side of it** (B5): he reads the preamble as a programme of dismemberment and says so in 1863 (PP8, already in canon as his public letter). His reading is fair; it is also the one Elias expected.
+Replaced by Part I (`CR-075-I-on-the-page.md`), which folds in the outline's I1 (the July scene, now beats I-B3 to I-B6 with CR-068's B5), I2 (the Chronicler's verdict, I-B13) and I3 (Lincoln's reading, I-B11). I-1 to I-6 approved (19 November 2026, 00:22).
 
 ## J. Deferred items this CR can carry
 
@@ -237,15 +253,15 @@ The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook an
 
 ## Fact changes
 
-none (outline; each part adds its own when drafted)
+none. No part changes a tracked fact; each part's own `## Fact changes` says none (`cr_facts.py preview` on each, 18–19 November 2026).
 
 ## Model
 
-Nothing at the outline stage. E6 (b) or E7 would touch the war's financing rows (E09, E198, E203, E204 in `finance/CR-059-068-workbook.md`) only if California's price changes who pays.
+No change. California's price is (a), no new member without both founding states (E-2), which costs nothing. The renewal of 1862 is political. The Pacific article's nominal sum is already in the vendor credit (CR-029). The workbook is not touched.
 
 ## Ledger
 
-To check at drafting: whether the Council's war resolution of July 1861 and its preamble are a ledger commitment (beside C-1863-MONTEREY-TERMS, if that is tracked; CR-068's integration question).
+The war resolution and its preamble are not a commitment to another party. At integration, one condition is added to C-1861-PROTECTOR, quoting the storyline sentence on the mandate's objects (Part C, C9.5; `CR-075-storyline.md`, Ledger). The sealed minute is a promise to a member, not a treaty, and is not tracked. `commitments/ledger.py check` runs after integration.
 
 ## Research (where to find the sources; what is not researched stays a story assumption)
 

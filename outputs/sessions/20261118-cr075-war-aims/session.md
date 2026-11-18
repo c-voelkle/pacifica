@@ -40,6 +40,7 @@ independence: same-agent (outline only; no review yet)
 | D11 | decision | Hawaii's island aim: the first object's island clause, the sealed minute, the chain of 1856–1867 (Parts C, F, G); G-2 decided | author, 18 November 2026, 19:58 | current |
 | D12 | decision | The promise of 1858 and the *Kalama* in 1867 (F5.6); F-8 the *Palestine* from San Francisco under a venture licence, the rule of 1859 | author, 18 November 2026, 20:37 and 22:50 | current |
 | D13 | decision | G-3 to G-6 approved as recommended; J1 (the sailor's compensation), J3 (K8 deferred) and J4 (housekeeping) approved | author, 18 November 2026, 22:58 | current |
+| D14 | decision | Part I: I-1 to I-6 approved; Nuʻuanu overlooking the future site of Thalassia | author, 19 November 2026, 00:22 | current |
 | Q1 | open choice | H-1 (deferred by the author again, 22:58) | outline | open |
 
 ## Revision of 13:20
@@ -68,6 +69,7 @@ independence: same-agent (outline only; no review yet)
 - The promise (author, 20:37): on their honeymoon in November 1858, in the rain, Elias promises Victoria Johnston back; the sealed minute of 1861 is that promise made binding; after the exchange in 1867 the *Kalama* raises the flag on Kalama Island again (Part F, F5.6; Part C, C1.5). The *Palestine* (author's research, 21:02) sailed from San Francisco, owned by San Francisco merchants (Byxbee and Stoddard) and chartered by Parker and Ryan, and called at Honolulu on her way home. Approved (F-8, 22:50): a routine venture licence issued while Elias was occupied with the Edo negotiations; the stain is the owners' indifference and the paper's gap; the rule of 1859 closes it and passes into the Companies Act of 1888; Brooks breaks it at Midway.
 - G-3 to G-6 and J approved (22:58); J4 housekeeping done (canton matches legitimate; "until 1914" already fixed; AGENTS.md party line updated). H deferred again.
 - The preamble renamed PP3a (CR-068's PP3c is the armistice offer of April 1862); the armistice offer added to C4.4, E10.2 and G3. Part I drafted in full: `book-agent/revision/CR-075-I-on-the-page.md` (thirteen beats in CR-068's beat-sheet form; Elias's eyes once). Open: I-1 to I-6; H still deferred.
-- Next: the author's answers on I; then the assembly of the outline, the fresh-context review and integration.
+- I-1 to I-6 approved (19 November 2026, 00:22; the honeymoon at the head of Nuʻuanu, overlooking the future site of Thalassia). Assembled: the outline is the CR's index (parts table, status, notes where parts supersede its tables), and `book-agent/revision/CR-075-storyline.md` holds the storyline blocks S1–S9 with anchors on `main` at 2f65358 and the integration checklist.
+- Next: the fresh-context review (`book-agent/revision/CR-075-review.md`); then the author's decisions on it; then integration on adoption.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.

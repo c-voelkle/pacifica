@@ -1,8 +1,12 @@
 # CR-075, Part I — On the page: the beats this CR adds (1858–1867)
 
-**Status:** DRAFT, 18 November 2026. Everything here is PROPOSED except where it cites an approved part or canon. This part opens questions I-1 to I-6 (below).
+**Status:** DRAFT, 18 November 2026. I-1 to I-6 APPROVED (author, 19 November 2026, 00:22); the honeymoon is at the head of Nuʻuanu, overlooking Kāneʻohe Bay, the future site of Thalassia. The beats' inner details are PROPOSED.
 **Belongs to:** `CR-075-outline.md`, Part I. It replaces the outline's three items I1–I3 (the July scene, the Chronicler's verdict, Lincoln's reading), which are folded in below. It uses CR-068's beat-sheet form (CR-068 Part F: beat, scale and pace, eyes, rounds and parts) so the beats can be placed in its sequence. "Eyes" is whose confidence the reader shares (CR-068 TL4).
 **Sources:** Parts C (`CR-075-C-aims.md`), D (`CR-075-D-plan-and-people.md`), E (`CR-075-E-california.md`), F (`CR-075-F-hawaii.md`) and G (`CR-075-G-aims-to-peace.md`); CR-068's beats B3–B17.
+
+## Author's decisions
+
+> 1 works for me 2 shipping column is ok 3 yes - Nu'unanu overlooking the future site of Thalassia is a good spot. 4 yes 5 yes 6 approved (19 November 2026, 00:22)
 
 ## I0. What the beats are for
 
@@ -15,7 +19,7 @@ The author's brief (13:20): the war is not a one-man or a two-man show, and the 
 | ID | Beat | Scale and pace | Eyes | Parts and canon |
 |---|---|---|---|---|
 | I-B1 | **Shipping intelligence.** The marine column of the *Pacific Commercial Advertiser* for May 1858, reproduced as a page: the *Palestine* due from Johnston "en route for San Francisco". Then three more columns, one each from June, July and the autumn: the *Kalama* sails; the king's proclamation of Kalama Island; a line that the claim is withdrawn. Nothing else. The reader learns the island's history the way Honolulu did, from the harbour | A page; a column at a time | No one's: the newspaper's | F5.2; F5.3 step 3 (F-8) |
-| I-B2 | **The rain.** November 1858, after the wedding at Kawaiahaʻo (canon). Their honeymoon, in the winter rain (place OPEN: Nuʻuanu or one of her own windward lands). He tells her two things he does not have to tell her: he gave the advice that lost the island, and the ship that took it sailed on his government's paper. Then he promises it back, with no witness and nothing written. She is twenty; she has defied her brothers in two songs for this man (canon). What she answers is hers to say and is not reported. Kiyoshi, conceived that spring, is not mentioned | A room or a road; an hour; slow, and rare | Victoria's | F5.6; canon §8 (the marriage) |
+| I-B2 | **The rain.** November 1858, after the wedding at Kawaiahaʻo (canon). Their honeymoon, in the winter rain at the head of Nuʻuanu, where the valley ends at the Pali and the windward side opens below: Kāneʻohe Bay, its fishponds and the Koʻolau cliffs. It is the future site of Thalassia (canon: Elias founds the capital there after 1874, §29; CR-021). The page does not point out the echo. He tells her two things he does not have to tell her: he gave the advice that lost the island, and the ship that took it sailed on his government's paper. Then he promises it back, with no witness and nothing written. She is twenty; she has defied her brothers in two songs for this man (canon). What she answers is hers to say and is not reported. Kiyoshi, conceived that spring, is not mentioned | A room or a road; an hour; slow, and rare | Victoria's | F5.6; canon §8 (the marriage) |
 
 **The spring of 1861 — before the Council's night.** *These go between CR-068's B3 (Baker's cutting) and B5 (the Council's night).*
 
@@ -73,12 +77,12 @@ The author's brief (13:20): the war is not a one-man or a two-man show, and the 
 
 ## Decisions for the author
 
-- **I-1. The eyes (I0, I1).** The plan seen through Vallejo, Victoria, Sherman, Baker, Pico, de la Guerra and Lincoln, with Elias's eyes used once (I-B4). Approve the distribution?
-- **I-2. The shipping column (I-B1).** The island's history of 1858 told only through the *Advertiser*'s marine intelligence. Approve? The alternative is a short narrated scene at Honolulu.
-- **I-3. The honeymoon (I-B2).** In Victoria's eyes; her answer not reported; place left OPEN between Nuʻuanu and her windward lands. Approve, and choose the place if you wish?
-- **I-4. The sittings told as minutes (I-B5).** In Sherman's eyes, with Elias's own part last. Approve?
-- **I-5. Burch's address as a printed page (I-B6), used by Lincoln in 1863 (I-B11).** Approve?
-- **I-6. The placements (I3).** Approve, as working positions for the beat sheet?
+- **I-1. The eyes (I0, I1).** The plan seen through Vallejo, Victoria, Sherman, Baker, Pico, de la Guerra and Lincoln, with Elias's eyes used once (I-B4). Approve the distribution? **Decided (author, 19 November 2026, 00:22):** approved.
+- **I-2. The shipping column (I-B1).** The island's history of 1858 told only through the *Advertiser*'s marine intelligence. Approve? The alternative is a short narrated scene at Honolulu. **Decided (author, 19 November 2026, 00:22):** approved.
+- **I-3. The honeymoon (I-B2).** In Victoria's eyes; her answer not reported; place left OPEN between Nuʻuanu and her windward lands. Approve, and choose the place if you wish? **Decided (author, 19 November 2026, 00:22):** approved. Nuʻuanu, overlooking the future site of Thalassia.
+- **I-4. The sittings told as minutes (I-B5).** In Sherman's eyes, with Elias's own part last. Approve? **Decided (author, 19 November 2026, 00:22):** approved.
+- **I-5. Burch's address as a printed page (I-B6), used by Lincoln in 1863 (I-B11).** Approve? **Decided (author, 19 November 2026, 00:22):** approved.
+- **I-6. The placements (I3).** Approve, as working positions for the beat sheet? **Decided (author, 19 November 2026, 00:22):** approved.
 
 ## Fact changes
 
