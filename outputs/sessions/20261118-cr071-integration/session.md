@@ -52,7 +52,7 @@ independence: one fresh-context reviewer for the integrated storyline text (the 
 
 ## Resume here
 
-- The pull request from `integrate/cr071` into `main` waits for the author's sign-off.
+- PR #75 (`integrate/cr071` into `main`) waits for the author's sign-off. The fresh-context review of the integration found one blocker and fifteen should-fix items, all applied (`CR-071-review-on-main.md`).
 - Next CR: CR-074, the Pacific Companies. The companies' dates are approved; their details, the Companies Act's terms, the name, the Declaration of Paris, the partners and the warrant's size are open.
 - Still OPEN in CR-071 (outline and Parts H and I):
   - the first Commissioners, the Baja commissioners and the first Chancellor;
