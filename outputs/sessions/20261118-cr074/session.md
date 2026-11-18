@@ -35,6 +35,6 @@ independence: one fresh-context reviewer for draft 5 (the CR, the affected canon
 
 ## Resume here
 
-- PR #76 (`integrate/cr074` into `main`) waits for the author's sign-off. The fresh-context review of the integration found four blockers, eight should-fix items and eighteen nits, all applied (`CR-074-review-on-main.md`).
+- PR #76 (`integrate/cr074` into `main`) merged on the author's word (12:59). The fresh-context review of the integration found four blockers, eight should-fix items and eighteen nits, all applied (`CR-074-review-on-main.md`).
 - Still OPEN in CR-074: Siberia's line guard (D-14, deferred); the company's part in Queen Min's survival in 1895 (OPEN-1, for a Korea CR); the Shanghai and Hakodate captains; the Companies Office's first director and the school's first commandant; the Borneo captain of 1895; the Nationalist customs after 1928–29; Pacifica's naturalization rule (T9, PROPOSED).
 - CR-071's own OPEN items stand (see `20261118-cr071-integration`).
