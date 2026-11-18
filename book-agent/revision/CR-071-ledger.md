@@ -295,9 +295,86 @@ quote_draft = "In 1881, when the Snake line reaches the reservation, Fort Hall's
 open = "I-65 APPROVED. The year follows the Snake line's (I-53, 1881–84), a story assumption. Rent and term not stated."
 ```
 
+### From 1854
+
+```toml
+[[commitment]]
+id = "C-1854-VENTURE-LICENCE"
+name = "The venture licence (no private war abroad; ventures abroad under licence and bond)"
+kind = "law"
+parties = ["PAC"]
+from = 1854
+conditions = [
+  "the Republic's answer to Walker's filibusters (§5)",
+  "a venture abroad needs the Republic's licence and bond; no one may make war abroad from its soil",
+  "the Pacific Companies serve under it from 1860 (Shanghai) until the Companies Act of 1888 (C-1888-COMPANIES-ACT)",
+]
+status = "APPROVED"
+cr = "CR-071"
+section = 5
+quote_draft = "In 1854 the Republic answers Walker with a law of its own: no one may make war abroad from its soil, and a venture abroad needs the Republic's licence and bond."
+open = "H7.8 dates APPROVED (author, 18 November 2026, 06:36); details PROPOSED pending CR-074."
+```
+
 ### From 1887
 
 ```toml
+[[commitment]]
+id = "C-1887-LABOUR"
+name = "The labour article of the Constitution of the Realm"
+kind = "guarantee"
+parties = ["PAC", "COUNTIES"]
+from = 1887
+owes = [
+  {by = "PAC", to = "COUNTIES", what = "no labour bound by debt, penal contract or a broker's ticket; the same wage for the same work, whoever does it; a day of rest in seven, on the day of the worker's faith; the eight-hour day on the Realm's works and in its chartered undertakings (H-16, H7.2)"},
+]
+conditions = [
+  "the details by the labour law of 1888 (C-1888-LABOUR-LAW)",
+  "the 1888 immigration act admits labour by examination, sponsorship or guest contract, never on a broker's debt (§25)",
+  "Hawaii's plantations come under the hours rule at each contract's renewal, 1887–92 (PROPOSED)",
+]
+status = "APPROVED"
+cr = "CR-071"
+section = 21
+quote_draft = "The Constitution's labour article holds four rules"
+open = "H-16 and H7.2 APPROVED (18 November 2026)."
+
+[[commitment]]
+id = "C-1888-LABOUR-LAW"
+name = "The labour law of 1888"
+kind = "law"
+parties = ["PAC", "COUNTIES"]
+from = 1888
+conditions = [
+  "county wage boards on the Realm's benchmarks (CR-038)",
+  "the working day outside the Realm's works; the guest workers' rules",
+  "every child in school until fourteen, family farms included (H7.2)",
+  "the Land Fund sells no household more than a family farm; Development Fund credit to the districts' co-operatives (H7.4)",
+]
+status = "APPROVED"
+cr = "CR-071"
+section = 25
+quote_draft = "The labour law of 1888 fills in the article"
+open = "H7.2, H7.4 APPROVED. The working day outside the Realm's works and the farm's size are MODEL or OPEN."
+
+[[commitment]]
+id = "C-1888-COMPANIES-ACT"
+name = "The Companies Act (the Pacific Companies made a system)"
+kind = "law"
+parties = ["PAC", "INLAND"]
+from = 1888
+conditions = [
+  "a school of the companies at Sacramento under the inland command's officers (H7.1)",
+  "a Land Fund warrant for every five years served (80 irrigated or 160 dry acres, MODEL)",
+  "treaties of service with the partners; a company's commission counted for the Franchise Law's third vote",
+  "no filibustering, no service in the Americas, no land taken except by compact, no covert arms (H6.5)",
+]
+status = "PROPOSED"
+cr = "CR-071"
+section = 25
+quote_draft = "The Companies Act of 1888 makes the companies a system"
+open = "H-19's shape APPROVED; the act's name and terms PROPOSED pending CR-074."
+
 [[commitment]]
 id = "C-1887-COMPACT-LANDS"
 name = "The compact lands under the Constitution of the Realm"

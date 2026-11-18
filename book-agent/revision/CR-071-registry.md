@@ -22,12 +22,14 @@
 | WILLIAM-HEALEY-DALL | William Healey Dall | historical, alternate career | Naturalist of the telegraph expedition (1865–68), stays with the line when the Confederation buys it in 1868 (PROPOSED); succeeds Davidson at the head of the Northern Commission in 1885, at forty (I-69) | 1845–1927, unchanged |
 | HENRY-MILLER | Henry Miller (of Miller & Lux) | historical, alternate career | The riparian plaintiff of *Lux v. Kern River District* (working name), the water decision of October 1886 (K-6, F3); his partner Charles Lux dies in March 1887 (Hist.) | 1827–1916, unchanged |
 | VICTORIO | Victorio | historical, alternate career | With no removal there is no Victorio's war; he may sit on the council that spends the Santa Rita royalty (I-66) | c. 1825–1880 historically, killed at Tres Castillos. **His death is OPEN here**: the war that killed him does not happen |
+| FRANK-RONEY | Frank Roney | historical, alternate career | Irish moulder and trades organiser in San Francisco; from about 1880 builds the Prosperity Party's trades side, on *Eight hours and the same wage*; leads toward the trades congress of 1895 (H7.5, CR-038) | 1841–1925, unchanged |
+| DENIS-KEARNEY | Denis Kearney | historical, alternate career | Draws the sandlot crowds in the slack year of 1877 and loses them when work comes back; no crash to ride (H7.5) | 1847–1907, unchanged |
 
 **People CR-072 brought in** are in the registry since its integration on `main` (17 November 2026): CT-JOHN-TAYLOR, CT-GEORGE-Q-CANNON, CT-THEODORE-JUDAH, CT-DAVID-BRODERICK. CR-071 adds nothing to their entries except the amendments in B (Cannon's telegram; Judah's survey under the Superintendency).
 
 **Entries without storyline text yet.** Fair (H-6, W-1), Victorio (I-66) and Deady's seat on the Court (H-4) are not in the storyline text of draft 2. Their registry entries and amendments go in with it as recorded decisions; the storyline mentions them when Part H's text is written (outline, Fact changes: H's `add_event` records wait for it).
 
-**Named only, no entry:** Charles Lux; Ōkubo and Saigō (Part D's comparison, not the Chronicler's); Kido Takayoshi and Itō Hirobumi, who are named in §14 (CR-072 already names Kido without an entry; an entry for both is the next CR's to give, if they come back); Theresa Wilcox; the first Commissioners, the Baja commissioners and the first Chancellor (OPEN).
+**Named only, no entry:** Charles Lux; Ōkubo and Saigō (Part D's comparison, not the Chronicler's); Kido Takayoshi and Itō Hirobumi, who are named in §14 (CR-072 already names Kido without an entry; an entry for both is the next CR's to give, if they come back); Theresa Wilcox; Frederick Townsend Ward (named in §19; his entry is CR-074's, with the companies' details); Li Hongzhang (named in §19); the first Commissioners, the Baja commissioners and the first Chancellor (OPEN).
 
 ## B. Existing entries to amend
 
@@ -66,6 +68,8 @@ Added to CR-071's register `"facts"` with the registry entries above, not before
  {"add_person": {"id": "WILLIAM-HEALEY-DALL", "aliases": ["William Healey Dall", "Dall"], "born": 1845, "died": 1927}},
  {"add_person": {"id": "HENRY-MILLER", "aliases": ["Henry Miller"], "born": 1827, "died": 1916}},
  {"add_person": {"id": "VICTORIO", "aliases": ["Victorio"], "born": 1825, "born_approx": true}},
+ {"add_person": {"id": "FRANK-RONEY", "aliases": ["Frank Roney"], "born": 1841, "died": 1925}},
+ {"add_person": {"id": "DENIS-KEARNEY", "aliases": ["Denis Kearney", "Kearney"], "born": 1847, "died": 1907}},
  {"add_person": {"id": "CT-ROMUALDO-PACHECO", "aliases": ["Romualdo Pacheco", "Pacheco"], "born": 1831, "died": 1899}}
 ]
 ```

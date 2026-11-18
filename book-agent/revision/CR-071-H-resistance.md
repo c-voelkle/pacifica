@@ -252,7 +252,7 @@ The author asked for suggestions "with a view towards good statecraft and maximi
 
 ### H7.1 Silas in 1887 (H-15)
 
-- **Silence in the campaign, one public act at the handover.** Silas does not campaign, which would make him a politician and the Party's rival. On 1 August 1887 he takes the oath to the Regent at Sacramento, before the inland command's officers, in California's old capitol, which becomes the command's headquarters that day (storyline B, §21). The interior sees its armed men accept the order without being asked to love it.
+- **Silence in the campaign, one public act at the handover.** Silas does not campaign, which would make him a politician and the Party's rival. He takes his commission from the Regent at Thalassia on 1 August 1887 (storyline B, §21), and a week later takes the oath again at Sacramento, before the inland command's officers, in California's old capitol, which becomes the command's headquarters that day (storyline B, §21). The interior sees its armed men accept the order without being asked to love it.
 - **The guarantee in a public rule, not in the Truce.** The Truce stays extra-legal and does not name the interior. The guarantee is a convention of the Regency: **each people is kept in order by its own.**
   - In the interior, the inland command and the interior's militia reserve do it, never the naval party or foreign-raised troops.
   - In Hawaii, the Queen's Guard does it.
@@ -288,7 +288,7 @@ The author asked for suggestions "with a view towards good statecraft and maximi
   - The district restores the families to their land, and damages are levied on the rioters' property.
   - The followers who pay their share are amnestied.
   - The trial is published.
-- **The turn.** In October 1886 the same confederal title protects the settlers' water against Henry Miller's riparian suit (F3). The irrigation counties learn that the title protects whoever holds it, and vote for the Party in November. The incident thus feeds the settler bargain.
+- **The turn** (corrected 18 November 2026 at drafting: the water decision of October 1886 goes *against* the districts, F3). In October the same Confederal Court holds that a confederal grant cannot protect the districts' water against a member's riparian law. The court that convicted the Feather rioters cannot protect the settlers' own rivers; only a constitution can. The irrigation counties vote for the Party in November. The incident thus feeds the settler bargain.
 - **Canon.**
   - l. 703 becomes: "In 1886 a mob drives Chinese families off their district farms on the Feather; the Confederal Court convicts the ringleaders and the district restores the families to their land."
   - l. 931 becomes: "Union critics answer with the Feather River."
@@ -373,7 +373,7 @@ Accept "the slack years after 1873" (Part E, E2).
 | H-15 | Silas as the settler interior's guarantor: the Truce read as the interior's bargain (H6.1) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); details PROPOSED or OPEN |
 | H-17 | Rock Springs and Hells Canyon replaced by an irrigation-district attack on Asian farmers, prosecuted (H6.3) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); details PROPOSED |
 | H-18 | Pacifican nativism is a grievance of ethos and status; Pacifica makes good on it through the institutionalized agon, not a quota (H6.3, H6.4) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); H6.4 items 1–4 **APPROVED** (05:51), item 5 PROPOSED |
-| H-20 | The proposals of H7 for the open items | — | **APPROVED** (author, 18 November 2026, 06:27) with three caveats; H7.1 (Silas and the Party), H7.5 (the slogan) and H7.8 (the companies from 1854) revised and PROPOSED |
+| H-20 | The proposals of H7 for the open items | — | **APPROVED** (author, 18 November 2026, 06:27) with three caveats; the revisions of H7.1 (Silas and the Party), H7.5 (the slogan) and H7.8 (the companies from 1854) **APPROVED** 06:36 ("I approve the revisions with the company's dates, but leaving the details as proposed pending the next cr"): the companies' dates APPROVED, their details PROPOSED pending CR-074 |
 | H-19 | An honest avenue for the unexamined to status, property and marriage: technical schools, and training and legal avenues abroad (H6.5) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:51); **shape of H6.5 APPROVED** (06:01: "I agree it warrants its own CR, but I approve of this shape"); the institution goes to its own CR (CR-074 is the next free number), CR-071 carries only the promise of 1887–88 |
 | H-16 | A labour article as the settlers' price: equal wage, no unfree or contract labour, entry by examination and sponsorship (H6.2) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); terms PROPOSED or OPEN |
 
