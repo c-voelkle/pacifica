@@ -125,7 +125,7 @@ Each object below has its wording, whose it is first, why, what it does not ask,
 - C4.1 **The sentence.** "What the Confederation keeps at the peace it will pay for." No sum is named, and nothing is said about what will be kept. The price is announced in 1861 so that it can be paid in 1865 without looking like a ransom. It is the seed of the third head of 1863 (the public domain paid for in gold) and of the $40 million in six instalments (CR-062).
 - C4.2 **How he knows that a price will be taken (D4).** Ralston and the houses' New York correspondents know what New York lost when the treasure steamers stopped (CR-069; the bankers' memorial of January 1862 confirms it later). The Calculation Office knows what a Treasury paying in paper will need in coin (P6). Elias's own rule, B2, is to argue from capability: the Republic can pay, and a Union that is paid is not conquered.
 - C4.3 **Who doubts it.** Burch: why pay for what Washington never earned? Hawaii's delegation: who pays, and in what share? That is left to the peace; the vendor credit of 1867 is the answer (ledger C-1867-VENDOR-CREDIT; MODEL rows in the outline's Model note). Sherman: a price named in 1861 will be raised in 1865 by whoever is winning. The promise in the next sentence answers him.
-- C4.4 **The promise to treat (C-10).** "It will treat whenever the United States will treat on these objects, and it will ask nothing beyond them." It is the May resolution's "renewed negotiations when adequate redress becomes possible" turned into a standing offer. It is also the first form of the Terms' "neither raised nor lowered by the fortunes of the war" (1863). Elias makes the offer again in *Two Houses* (an armistice and commissioners) and in 1864, and it is accepted only in 1865.
+- C4.4 **The promise to treat (C-10).** "It will treat whenever the United States will treat on these objects, and it will ask nothing beyond them." It is the May resolution's "renewed negotiations when adequate redress becomes possible" turned into a standing offer. It is also the first form of the Terms' "neither raised nor lowered by the fortunes of the war" (1863). Elias makes it good in the armistice offer of the last week of April 1862, by which the three governments are to stand on the lines they hold and meet at a neutral place (CR-068 PP3c, G4), and again in *Two Houses* (an armistice and commissioners) and in 1864. It is accepted only in 1865.
 
 ## C5. Why five, and why this order
 
@@ -175,7 +175,7 @@ Canon records the concurrence and Victoria's party's reservations on the reasons
 
 ## C9. What this changes elsewhere (for integration)
 
-- C9.1 **CR-068.** A new paper beside PP3 and PP3b: **PP3c, the preamble** (July 1861, the Council; APPROVED as to publication by C-2; text PROPOSED, C-5). G2's paragraph on the limits gains the preamble as the instrument that carries them. CT1's amendment (Case B, APPROVED 16:45) rests on it: the Chronicler can say what the Republic went to war for because the preamble says so.
+- C9.1 **CR-068.** A new paper beside PP3 and PP3b: **PP3a, the preamble** (July 1861, the Council; PP3c is already CR-068's armistice offer of April 1862; APPROVED as to publication by C-2; text PROPOSED, C-5). G2's paragraph on the limits gains the preamble as the instrument that carries them. CT1's amendment (Case B, APPROVED 16:45) rests on it: the Chronicler can say what the Republic went to war for because the preamble says so.
 - C9.2 **CR-067 A1.** The war resolution of July 1861 has a preamble of objects; every later resolution names the object it serves (C7.1).
 - C9.3 **CR-075 Part G.** The first row's 1867 entry keeps Port Townsend; Fort Union moves to the second and fourth rows (C3.1).
 - C9.4 **CR-065 (J-2, APPROVED 17:11).** "In print since July 1861" refers to this preamble.
@@ -211,7 +211,7 @@ none new. The CR's tensions are the outline's CT1 to CT3 (decided 16:45). Part C
 - §10: the posts east of the Cascades and the Walla Walla convention are read as outside the first object (C-6). The canon text stays as it is.
 - CR-061 C0a: the April resolution is read as citing the fourth and fifth objects. Its words stand.
 - CR-062: the treaty's silence on search (CT2, Case A) and on the pledge not to alienate (C-9) are both kept.
-- CR-068 G2: "no column goes east of the mountains" is read as in C7.3; PP3c added.
+- CR-068 G2: "no column goes east of the mountains" is read as in C7.3; PP3a added.
 - CR-067 A1: the rule that each resolution names its object is added (C-11).
 
 ## Research

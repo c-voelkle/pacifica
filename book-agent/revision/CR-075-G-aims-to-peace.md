@@ -97,7 +97,7 @@ The outline's table in Part G is replaced at integration by this one (PROPOSED).
 | Fourth | The Oregon and Puget Sound compacts | The April 1862 resolution (weak, made good in 1863); Deseret 1862–63; the Rio Grande compact 1863; Idaho and Montana 1863–64; Washoe retaken under reservation (a), 1864 | Oregon's vote of 1866; the charters; residents' choice; Native title by separate agreements; Fort Union evacuated | Met, with Washoe the exception the Chronicler records (W4) |
 | Fifth | The seventh reason | The Richmond credit (1863); New Orleans holds | Recognition of Richmond (May 1865), no term of the peace | Kept, at the cost W4 records |
 | The price | Announced | Head 3 | $40 million in gold, six instalments; the parks covered by it (G-3) | Paid |
-| The promise to treat | In the preamble | Head 6 and reservation (b); *Two Houses* and the offers of 1864 | The treaty negotiated inside the heads | Kept |
+| The promise to treat | In the preamble | The armistice offer of April 1862 (CR-068 PP3c); head 6 and reservation (b); *Two Houses* and the offers of 1864 | The treaty negotiated inside the heads | Kept |
 | California's price | An article of the war resolution (Part E, E9) | — | The charters of 1866 ratified by both founding states | Kept |
 
 ## G4. What the objects asked and the peace did not deliver
