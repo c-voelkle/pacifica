@@ -1,6 +1,6 @@
 # CR-075, Part G — From the aims to the peace: what was named in 1861 and what was kept in 1867
 
-**Status:** DRAFT, 18 November 2026. G-1 is APPROVED (author, 18 November 2026, 16:45): the table is complete and Alaska stays outside the aims. Writing the table out in full found one canon item it missed, the Pacific article of the peace (the guano islands, CR-029). It is put to the author as G-2. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. This part opens questions G-2 to G-6 (below).
+**Status:** DRAFT, 18 November 2026. G-1 is APPROVED (author, 18 November 2026, 16:45): the table is complete and Alaska stays outside the aims. Writing the table out in full found one canon item it missed, the Pacific article of the peace (the guano islands, CR-029). It was put to the author as G-2 and decided at 19:58: the first object now has an island clause, and the kingdom's claim is in a sealed minute (Part C, C1.5, C3.1; Part F, F5). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. This part opens questions G-3 to G-6 (below).
 **Belongs to:** `CR-075-outline.md`, Part G. Read with Part C (`CR-075-C-aims.md`: the five objects, the price, the promise to treat, the rule that each resolution names its object). No storyline text is integrated from here; G8 gives the sentence proposed for integration with the whole CR.
 **Canon it builds on:**
 - §10 and §12: the war, the peace of 1865 and the Senate's consent of 9 April 1867.
@@ -17,6 +17,8 @@
 ## Author's decisions
 
 > G-1: approved (18 November 2026, 16:45)
+
+> You're right to mention the Pacific islands. Ultimately the hidden aim is hegemony over the Pacific, but that of course can't be stated plainly yet. (19:47) … Yes this works. Please add it to F and make the requisite changes in C and G. (19:58)
 
 ## G0. The claim in four sentences
 
@@ -38,7 +40,7 @@
 
 | 1861: the object (Part C) | 1863: the head or reservation (CR-068 CT10) | 1865: the article (CR-062) | 1867 |
 |---|---|---|---|
-| **First:** no American station, storehouse, garrison or fortified post on the slope | No head of its own: by August 1863 the slope is held except Port Townsend, which reservation (b) addresses (the last American station on the Sound) | T3, the evacuation of Port Townsend; T5, no naval station and no storehouse anywhere, warships for refuge or repair only | Port Townsend evacuated after the exchange |
+| **First:** no American station, storehouse, garrison or fortified post on the slope, or on any island of the Pacific from which the Confederation or a member can be struck; the sealed minute on the kingdom's islands (Part C, C1.5) | No head of its own: by August 1863 the slope is held except Port Townsend, which reservation (b) addresses (the last American station on the Sound), and the islands are worked under Hawaii's protection (Part F, F5.3) | T3, the evacuation of Port Townsend; T5, no naval station and no storehouse anywhere, warships for refuge or repair only; T7, the Pacific article (CR-029) | Port Townsend evacuated after the exchange; the guano claims renounced and Palmyra quitclaimed; no *Lackawanna* at Midway |
 | **Second:** an equal treaty in place of 1848; the frontier drawn by consent | Head 2 (each territory's future by its inhabitants' act) draws the frontier; head 4 (the ports open to American commerce) replaces the unequal articles with equal ones | T8, the conventions of 1848 and 1860 ended, Carson's guarantees kept; T2, the line; T5, commerce on most-favoured terms; T9, claims waived on the 1848 model | The treaty between equals is in force |
 | **Third:** no search of Pacifican or Hawaiian ships in their own waters | No head | Silent (CT2, Case A) | Met by the peace and by the first object |
 | **Fourth:** no people by decree, none given up who chose, protection for the punished | Head 1 (no state of the Union asked) and head 2; reservation (a) (a state made by Congress before the peace may be occupied) | O1–O7, Oregon by its voters' choice; T10, residents choose their citizenship; T10a, the Colorado article; T12, Native title by separate agreements; T15, Idaho and Washington Territory | Oregon's vote (October 1866); the charters of 1866; the compacts; Washoe under reservation (a) |
@@ -65,7 +67,7 @@
 | The Western Slope of Colorado | Fourth, with the nation's consent: Ute country | The Utes' alliance and terms (CR-071); Native title by separate agreement (T12) | Yes |
 | **South Park, the parks and the upper Arkansas** | The price (head 3), not the fourth | Held from the San Luis Valley in summer and by the snow in winter (CR-060 CO1, CO4); almost empty in 1865 | **Yes, but by the price alone** (G-3): there was no people to ask, so the land follows the line and is paid for |
 | The Colorado article: districts on the Union side may vote themselves over | Second head of 1863 (CR-062 T10a) | Written in 1865; used about 1878–82 (CR-060 CO7) | Yes |
-| **The guano islands** (Midway, Baker, Howland, Jarvis, Johnston, Kingman; Palmyra quitclaimed) | Not the first object's letter ("on the Pacific slope"), but its purpose (no station "from which the Confederation or either of its members can be struck") and the price (a nominal sum in the vendor credit) | The Pacific article (CR-029); Palmyra annexed by Hawaii in 1862 (canon) | **Yes, by purpose and price, if G-2 is approved.** G-1 missed it |
+| **The guano islands** (Midway, Baker, Howland, Jarvis, Johnston, Kingman; Palmyra quitclaimed) | First, by its island clause; the sealed minute on the kingdom's islands; the price (a nominal sum in the vendor credit) | Claimed for the United States from Honolulu in 1857–59; unprotectable from July 1861; Palmyra taken by Hawaii in April 1862; the Pacific article of 1865 (Part F, F5.3; CR-029) | **Yes, by the letter (G-2, decided 19:58).** G-1 had missed it |
 | **Alaska** | None | Bought from Russia, $7.2 million in gold (CR-062 K1–K9) | **Outside the war's aims** (G-1, APPROVED) |
 | Commerce: Union ships on most-favoured terms; named civilian routes through the Republic; transit through Denver | Second (an equal treaty) and the promise to treat | T5, T6, T10a | Yes: the Republic gives these |
 | The claims waived; the mixed commission; the sailor's family keeps its claim | Second, on the 1848 model | T9; Victoria's condition (CR-062, PROPOSED there) | Yes |
@@ -87,7 +89,7 @@ The outline's table in Part G is replaced at integration by this one (PROPOSED).
 
 | Object | 1861 | 1862–1864 | 1865–1867 | Result |
 |---|---|---|---|---|
-| First | Sausalito sealed; Astoria, Portland, Vancouver and Olympia taken; Port Townsend holds | The Union's attempt of 1862 on the lower Columbia turned back; the Iowa regiments on the Sound; the posts east of the Cascades march out (July 1862) | Port Townsend evacuated after the exchange; no storehouse anywhere; warships for refuge or repair only. The guano islands by the Pacific article (G-2) | Met, in 1867 |
+| First | Sausalito sealed; Astoria, Portland, Vancouver and Olympia taken; Port Townsend holds | The Union's attempt of 1862 on the lower Columbia turned back; the Iowa regiments on the Sound; the posts east of the Cascades march out (July 1862); Palmyra taken (April 1862) | Port Townsend evacuated after the exchange; no storehouse anywhere; warships for refuge or repair only. The guano islands by the Pacific article (the island clause) | Met, in 1867 |
 | Second | Baker's note of May answered (Part E, E4) | Heads 2 and 4 of the Terms | The conventions of 1848 and 1860 ended; the Western line; the ports open to American commerce on equal terms; claims on the 1848 model | Met |
 | Third | The reply's first demand; Hawaii's object by name; Wyllie's guarantee not taken (Part F, F3) | The Union's search is a belligerent right (JONES ch.2) | The peace ends it; no Union station on the slope after 1867 | Met by the peace (CT2, Case A) |
 | Fourth | The Oregon and Puget Sound compacts | The April 1862 resolution (weak, made good in 1863); Deseret 1862–63; the Rio Grande compact 1863; Idaho and Montana 1863–64; Washoe retaken under reservation (a), 1864 | Oregon's vote of 1866; the charters; residents' choice; Native title by separate agreements; Fort Union evacuated | Met, with Washoe the exception the Chronicler records (W4) |
@@ -125,7 +127,8 @@ CR-068's W1 ("the word held") is this table in three words, and W4 is its except
 ## G7. What this changes elsewhere (for integration)
 
 - **The outline's Part G table** is replaced by G3.
-- **Part F, F6** gains the Pacific article as Hawaii's (G-2): Palmyra, annexed by Hawaii in 1862, is quitclaimed, and the islands' guano labourers were recruited at Hawaiian ports (CR-029). F-1 still stands: it is not a new aim if it follows from the first object's purpose.
+- **Part F, F5 and F7** carry the island chain and the Pacific article as Hawaii's (G-2, decided): Palmyra, taken by Hawaii in 1862, is quitclaimed, and the islands' guano labourers were recruited at Hawaiian ports (CR-029). F-1 still stands: the islands come under the island clause and the sealed minute, not a new aim.
+- **Part C** carries the island clause and the sealed minute (C1.5, C3.1).
 - **CR-068 W1 and W4**: no change. G5 is their record.
 - **CR-060 CO1–CO4**: no change. The parks are read under the price (G-3).
 
@@ -137,7 +140,7 @@ In §12, after the sentence on the Pacific article ending "which never obliged t
 
 ## Decisions for the author
 
-- **G-2. The guano islands (G2).** G-1 approved the table as complete, but the peace's Pacific article (CR-029, canon) gives Pacifica six islands and Palmyra. Recommended: read it as following from the first object's purpose (no station from which a member can be struck; Midway would be one) and from the price (a nominal sum in the vendor credit), with Hawaii as the party that wants it. The alternative is to set it beside Alaska as outside the aims.
+- **G-2. The guano islands (G2).** **Decided (author, 18 November 2026, 19:58):** the first object gains an island clause ("or on any island of the Pacific"), Hawaii's claim goes into a sealed minute of the Council's night, and the chain of events from 1856 to 1867 is made explicit in Part F, F5.3. The islands pass B4 by the letter.
 - **G-3. The empty parks of the Rockies (G2).** South Park, the parks and the upper Arkansas were held by the snow (CR-060 CO1) and had no people to ask in 1865. Recommended: they pass B4 by the price alone, and the Chronicler gives them one line beside Washoe. The alternative is to make them a second exception.
 - **G-4. The chain of instruments (G1).** Approve the reading that the heads of 1863 omit the first and third objects because one was a fact on the ground and the other could only be met by the peace?
 - **G-5. The table (G3).** Replace the outline's table with G3?
@@ -149,11 +152,11 @@ none. No tracked fact changes.
 
 ## Canon tensions
 
-none. G-1's "the table is complete" is an earlier decision of this CR, not canon. G-2 asks the author to revisit it in the light of canon's Pacific article.
+none. G-1's "the table is complete" was an earlier decision of this CR, not canon. G-2 corrected it in the light of canon's Pacific article (decided 19:58).
 
 ## Canon touchpoints
 
-- §12, CR-029: the Pacific article is read under the first object and the price (G-2).
+- §12, CR-029: the Pacific article is read under the first object's island clause, the sealed minute and the price (G-2, decided).
 - CR-060 CO1–CO4: the parks are read under the price (G-3).
 - CR-062: the articles are mapped to the objects (G1), with no article changed.
 - CR-068 CT10, W1, W4: unchanged; G5 is the count behind them.

@@ -1,6 +1,6 @@
 # CR-075, Part C — The aims of 1861: the preamble of the war resolution
 
-**Status:** DRAFT, 18 November 2026. The five aims, their publication in July 1861, C4's wording and Burch as the expansionists' voice are APPROVED (C-1 to C-4, author, 18 November 2026, 16:19). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. C-5 to C-11 APPROVED (author, 18 November 2026, 17:26): the preamble's text, the readings of "the Pacific slope" and "east of the mountains", Burch's seat and the Boonslick link, Vallejo's declaration on the pledge of 1848, the promise to treat in 1861, and the rule that each resolution names its object.
+**Status:** DRAFT, 18 November 2026. The five aims, their publication in July 1861, C4's wording and Burch as the expansionists' voice are APPROVED (C-1 to C-4, author, 18 November 2026, 16:19). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. The first object's island clause and the sealed minute are APPROVED (author, 18 November 2026, 19:58; C1.5, C3.1). C-5 to C-11 APPROVED (author, 18 November 2026, 17:26): the preamble's text, the readings of "the Pacific slope" and "east of the mountains", Burch's seat and the Boonslick link, Vallejo's declaration on the pledge of 1848, the promise to treat in 1861, and the rule that each resolution names its object.
 **Belongs to:** `CR-075-outline.md`, Part C. No storyline text is integrated from here; C10 gives the sentences proposed for integration with the whole CR.
 **Canon it builds on:** §4 (the Buchanan–Vallejo Convention of 1848); §8 (the Articles of 1856: equal member delegations in the Council, the Confederal Assembly, acts published in English, Spanish and Hawaiian; Carson, 1860); §9 (the packet affair, Article XIV, the May resolution, Lincoln's offer, the reply and the seven reasons, the Council's ground of concurrence, Hawaii's price, the state of war); §10 (the Columbia, the posts east of the Cascades, the interior's compacts); §12 (the Terms of Monterey, 1863; the Western treaty, 1865); CR-028, CR-039, CR-059 to CR-062, CR-067 (A1: the war resolution is the army's mandate), CR-068 (G2, G6, PP3, PP3b, W1), the ledger entry C-1861-PROTECTOR.
 **Research keys:** as in the outline (`outputs/sessions/20261118-cr075-war-aims/research-notes/README.md`). Hist. = our world.
@@ -10,6 +10,10 @@
 > C 1. the five aims stand 2. approved 3. approved 4. Why not Burch himself (18 November 2026, 16:19)
 
 > 5. approved 6. approved 7. approved 8. approved and yes the link works 9. approved 10. approved in the preamble 11. approved (18 November 2026, 17:26)
+
+> Ultimately the hidden aim is hegemony over the Pacific, but that of course can't be stated plainly yet. (18 November 2026, 19:47) … Yes this works. Please add it to F and make the requisite changes in C and G. (19:58)
+
+The island clause of the first object amends the preamble text approved under C-5. The Republic's further purpose in the Pacific is the author's and is not stated in 1861. This CR does not state it either.
 
 C-1: five aims. C-2: the preamble is public in July 1861. C-3: C4 says "on the Pacific slope". C-4: John C. Burch speaks for the expansionists, and Elias answers him in the closed sitting.
 
@@ -35,6 +39,7 @@ The Republic has four instruments for its war by the end of July 1861. Only the 
 - C1.2 **The reply and the preamble are different papers.** The reply asks for three things now, as the price of standing down the expedition, and Elias tells Baker he does not expect them to be granted (G2). The preamble says what the Republic will settle the war for. The difference is the point. The reply asks Lincoln for things he cannot grant in a war, and the preamble asks for things he could grant at a peace. Elias tells Baker both (outline C6).
 - C1.3 **The articles of the resolution** gather what canon already has as the limits of July: the mandate for one year, the May resolution read in, no column east of the mountains, the sailor's compensation accepted whatever else is refused, and Honolulu's batteries, two frigates and the second turret ship (G2). The theatre is the Union's posts and stations on the Columbia and the Sound (operations: CR-059; canon §10). Part C does not redraw any of these. It adds the preamble above them and a reading of "the mountains" (C7.3).
 - C1.4 **Publication (C-2, APPROVED).** The preamble is printed with the reply and the seven reasons in English, Spanish and Hawaiian, as every confederal act is (canon §8). It goes east with Baker's dispatch, so Congress recognizes a state of war before 6 August knowing what Pacifica says it is fighting for (sequence: CR-068 G2). Lincoln's message of 4 July, written before any of it, names no enemy (PP2). That week the two governments each publish a paper: Lincoln's names no enemy and is about the Union, and the Republic's names its enemy and its objects and nothing else.
+- C1.5 **The sealed minute (APPROVED, author, 19:58).** On the Council's night Hawaii's price (G2) gains one minute, which is sealed with the minutes of the sittings (Part D, D7): *the Confederation will support at the peace the kingdom's claims to the islands of its domain, including any island the kingdom takes in the course of the war.* It is the kingdom's own aim, held by the Kamehameha house (Part F, F5). The public island clause of the first object is what lets the Republic ask for the islands at the peace without breaking the promise to ask nothing beyond the objects (C4.4). The minute is first used when Palmyra is taken in April 1862 (Part F, F5.3).
 
 ## C2. The preamble (draft text)
 
@@ -42,7 +47,7 @@ Draft text, PROPOSED (question C-5). It is short because it is meant to be quote
 
 > **The Council of the Confederation of Pacifica**, having laid before both member governments the offer of the President of the United States, the Protector's reply and the reasons given with it, and having concurred in the reply, declares the objects of the Confederation in this war, so that its friends and its enemy may know what it fights for and on what terms it will make peace.
 >
-> **First.** That no naval station, storehouse, garrison or fortified post of the United States remain on the Pacific slope from which the Confederation or either of its members can be struck.
+> **First.** That no naval station, storehouse, garrison or fortified post of the United States remain on the Pacific slope, or on any island of the Pacific, from which the Confederation or either of its members can be struck.
 >
 > **Second.** That the convention of 1848, and the articles renewed at Carson in 1860, give way to a treaty between equals, and that the frontier between the two nations be drawn by their consent.
 >
@@ -58,15 +63,20 @@ Draft text, PROPOSED (question C-5). It is short because it is meant to be quote
 
 Each object below has its wording, whose it is first, why, what it does not ask, what would meet it, who reads it otherwise, and how it ends. The research basis is the outline's C8; it is cited here, not repeated.
 
-### C3.1 First: no American arms on the Pacific slope
+### C3.1 First: no American arms on the Pacific slope or its islands
 
 - **Whose:** the Council's stated ground of concurrence (canon §9): the American squadron's last Pacific stations are the Columbia and the Sound. Reason 2 is the argument; this is the object.
 - **What it means.** In July 1861 the squadron is six wooden sloops whose cruise runs from Panama to Alaska and through Hawaiian waters (HUNT 301–302). With California's harbours closed and Sausalito sealed (canon §9), what it has left on the coast is anchorages without forts: in our world there were no fortifications at all in Oregon or Washington, because every federal dollar had gone to San Francisco Bay (HUNT 234). The first object asks that this remain so for good: no station, no storehouse, no garrison and no fortified post on the slope.
 - **Sausalito.** The storehouse is not named, because it is already sealed and its stores interned (canon §9); it falls with the convention (second object). The treaty grants "no storehouse … anywhere" (CR-062), which meets both objects at once.
 - **What it does not ask:** the Union's trade, its merchants on the river or its ships in Pacifican ports. Warships may come in for refuge or repair (CR-062) because the object concerns bases and says nothing about visits.
-- **What would meet it:** the evacuation of the last post on the slope. In 1867 that is Port Townsend (CR-062).
+- **The island clause (APPROVED, author, 19:58).** "Or on any island of the Pacific": Hawaii's delegation moves it, and Elias supports it.
+  - *What it covers:* the rocks that Americans had claimed under Washington's Guano Islands Act of 1856 from Honolulu's own harbour: Baker, Howland and Jarvis (1857), Johnston (1858), Midway and Palmyra (1859), Kingman (1859–60) (Part F, F5.2).
+  - *Why "of the Pacific", not "of the North Pacific":* Jarvis lies just south of the equator.
+  - *Why it is defensive:* without Honolulu, the only way the Union can reach the mid-Pacific is to make a station of its own on one of these rocks, which is what it did at Midway in 1867 in our world.
+  - *What it does not say:* anything about whose the islands become. That is the sealed minute (C1.5).
+- **What would meet it:** the evacuation of the last post on the slope, and the Union's renunciation of its claims on the islands. In 1867 these are Port Townsend (CR-062) and the Pacific article (CR-029).
 - **Who reads it otherwise:** Washington reads it as the loss of the Northwest. Elias does not deny it; it is reason 2's arithmetic (G2).
-- **How it ends:** met in 1867, when Port Townsend is evacuated after the exchange (outline G).
+- **How it ends:** met in 1867, when Port Townsend is evacuated after the exchange, and by the Pacific article of the peace (Part G).
 - **The reading of "the Pacific slope" (C-3, APPROVED; boundary PROPOSED, C-6).** In the preamble the slope is the country between the ocean and the crests of the Sierra Nevada and the Cascades: California, the Willamette, the lower Columbia and the Sound. The posts beyond the crests (The Dalles, Walla Walla, Colville; Fort Churchill in Washoe; Fort Bridger; Fort Union in New Mexico) are not named in the first object. Canon already treats them that way: in October 1861 the posts east of the Cascades are cut off from the sea and ordered to march out by the Mullan Road, and they go east under the Walla Walla convention of July 1862 without an assault (canon §10). Fort Union's evacuation in 1867 follows from the line drawn by consent (second object) and New Mexico's compact (fourth), not from the first (to adjust in Part G; C9.3).
 
 ### C3.2 Second: an equal treaty in place of 1848
@@ -156,6 +166,7 @@ Each object below has its wording, whose it is first, why, what it does not ask,
 ## C8. The open vote
 
 Canon records the concurrence and Victoria's party's reservations on the reasons (G2). PROPOSED: the vote on the preamble is taken on the Council's night (CR-068 B5), after the two closed sittings of late June (Part D, D1).
+- **Victoria's party** moves the first object's island clause, and Elias speaks for it as defence (C3.1).
 - **Vallejo** moves the second object and speaks for the whole on California's behalf (I1; E2).
 - **Victoria's party** votes the whole. It enters, as it did for the sixth reason, its doubt of the fourth: a promise to peoples Hawaii has never seen, made in Hawaii's name (I1; B6). The doubt is recorded and is the ground she uses at every renewal.
 - **Sherman** is not a member of the Council. As Inspector-General he reports to it (CR-067), and his report on the resolution says it can be kept because it is written down (D-a).
@@ -174,7 +185,7 @@ Canon records the concurrence and Victoria's party's reservations on the reasons
 
 After the sentence ending "and the second turret ship when the Columbia is secure":
 
-> **[PROPOSED — CR-075]** The Council's war resolution, voted the same day, opens with the objects of the Confederation in the war, printed with the reply and the reasons in English, Spanish and Hawaiian: no American station, storehouse, garrison or fortified post on the Pacific slope; a treaty between equals in place of the convention of 1848 and a frontier drawn by consent; no search of Pacifican or Hawaiian ships in their own waters; no people taken by decree, none on the slope given up who has chosen the Republic, and protection for those punished for the choice; and no army sent east and no conquest on this continent. What the Republic keeps at the peace it will pay for, and it will treat on these objects at any time and ask nothing beyond them. Every later resolution of the war names the object it serves.
+> **[PROPOSED — CR-075]** The Council's war resolution, voted the same day, opens with the objects of the Confederation in the war, printed with the reply and the reasons in English, Spanish and Hawaiian: no American station, storehouse, garrison or fortified post on the Pacific slope or on any island of the Pacific from which the Confederation can be struck; a treaty between equals in place of the convention of 1848 and a frontier drawn by consent; no search of Pacifican or Hawaiian ships in their own waters; no people taken by decree, none on the slope given up who has chosen the Republic, and protection for those punished for the choice; and no army sent east and no conquest on this continent. What the Republic keeps at the peace it will pay for, and it will treat on these objects at any time and ask nothing beyond them. Every later resolution of the war names the object it serves.
 
 ## Decisions for the author
 
