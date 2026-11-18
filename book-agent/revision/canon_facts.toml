@@ -1389,3 +1389,28 @@ aliases = ["Romualdo Pacheco", "Pacheco"]
 born = 1831
 died = 1899
 source = "CR-071"
+
+[[person]]
+id = "CT-FREDERICK-WARD"
+aliases = ["Frederick Townsend Ward", "Ward of Shanghai"]
+born = 1831
+died = 1862
+source = "CR-074"
+
+[[event]]
+id = "companies-act"
+year = 1888
+patterns = ['''The Companies Act of (?P<year>1[89]\d\d)''']
+source = "CR-074"
+
+[[event]]
+id = "paris-accession"
+year = 1919
+patterns = ['''At The Hague in (?P<year>1[89]\d\d) Pacifica accedes to the Declaration of Paris''']
+source = "CR-074"
+
+[[event]]
+id = "korea-capitulation"
+year = 1888
+patterns = ['''In (?P<year>1[89]\d\d) Korea becomes the first partner to sign a treaty of service''']
+source = "CR-074"

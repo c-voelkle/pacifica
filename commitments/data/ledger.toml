@@ -94,6 +94,10 @@ id = "SULU"
 name = "The Sultan of Sulu and the datus"
 
 [[party]]
+id = "NBINTERIOR"
+name = "The peoples of the North Borneo interior (Mat Salleh's following at Tambunan)"
+
+[[party]]
 id = "CN"
 name = "China (Qing, then the Republic)"
 
@@ -6134,12 +6138,15 @@ conditions = [
   "the Republic's answer to Walker's filibusters (§5)",
   "a venture abroad needs the Republic's licence and bond; no one may make war abroad from its soil",
   "the Pacific Companies serve under it from 1860 (Shanghai) until the Companies Act of 1888 (C-1888-COMPANIES-ACT)",
+  "issued by California's government from 1854, the Confederation's Chancellery from 1856, the Providentor's cabinet from 1865, the Companies Office from 1888; consuls may issue it abroad (CR-074 C1)",
+  "refused to Henry Crabb in 1857; his backers are tried for fitting him out (CR-074, D-30)",
 ]
 status = "APPROVED"
 cr = "CR-071"
 section = 6
 quote = "In 1854 the Republic answers Walker with a law of its own: no one may make war abroad from its soil, and a venture abroad needs the Republic's licence and bond."
-open = "H7.8 dates APPROVED (author, 18 November 2026, 06:36); details PROPOSED pending CR-074."
+more_quotes = ["In 1857, when the Republic refuses Henry Crabb a licence for Sonora, he slips out across the Colorado with his followers, his backers in San Francisco are tried for fitting him out, and the Mexicans shoot him at Caborca."]
+open = "Absorbed into the Companies Act of 1888 (CR-074 D1). The bond's amount is not stated."
 
 [[commitment]]
 id = "C-1887-LABOUR"
@@ -6183,19 +6190,158 @@ open = "H7.2, H7.4 APPROVED. The working day outside the Realm's works and the f
 id = "C-1888-COMPANIES-ACT"
 name = "The Companies Act (the Pacific Companies made a system)"
 kind = "law"
-parties = ["PAC", "INLAND"]
+parties = ["PAC", "INLAND", "COUNTIES"]
 from = 1888
 conditions = [
-  "a school of the companies at Sacramento under the inland command's officers (H7.1)",
-  "a Land Fund warrant for every five years served (80 irrigated or 160 dry acres, MODEL)",
-  "treaties of service with the partners; a company's commission counted for the Franchise Law's third vote",
-  "no filibustering, no service in the Americas, no land taken except by compact, no covert arms (H6.5)",
+  "no company serves abroad except under a treaty of service with a recognised government, laid before the chambers; never in the Americas, against the Realm or a partner, for a pretender, in a European power's colonial army or on land taken without compact",
+  "in a war between partners every company serving either stands down from armed duty",
+  "a Companies Office under the Foreign Secretary; its tables published by the Office of Public Measures",
+  "the school at Sacramento under the inland command's officers; a working tongue for every cadet (a tongue vote only for languages on the Crown's list, with examined English)",
+  "the host pays at no less than the Realm's benchmark, never through a broker; the home half held at the Land Fund at interest until discharge",
+  "a warrant for half a farm (40 irrigated or 80 dry acres) for five years served and a whole farm for ten, in the interior's districts on bought land; the whole farm at once for wounds or death; unsaleable for three years",
+  "a company's commission, once confirmed by Sherman's board or its successor, carries the Franchise Law's third vote",
+  "the Suzhou article: no part in killing prisoners, reprisals on the unarmed or forced labour, and no service under a commander who kills surrendered prisoners; a captain may withdraw his company",
+  "ventures abroad under licence and bond, carrying the labour article",
+  "acts of state (the Realm's forces, the Atlantic Auxiliary, missions) are outside the Act",
+  "raised companies chartered to any body of citizens, excepted from CR-037 E7's membership rules while they hold no arms or role at home, commission no officers and hold no man; a nation's council consents to each posting and its men's warrants join the homeland",
+  "the Philippine Council charters companies of the islands' men, with a separate warrant in the friar land, Calamba's evictees first; the Hawaiian legislature and the Philippine crown charter their own from 1907",
 ]
-status = "PROPOSED"
-cr = "CR-071"
+status = "APPROVED"
+cr = "CR-074"
 section = 25
-quote = "The Companies Act of 1888 makes the companies a system"
-open = "H-19's shape APPROVED; the act's name and terms PROPOSED pending CR-074."
+quote = "The Companies Act of 1888 makes the companies a system."
+more_quotes = ["Beside the open companies stand raised companies, chartered to any body of citizens that can fill one"]
+open = "Acres MODEL. The Companies Office's first director and the school's first commandant OPEN."
+
+[[commitment]]
+id = "C-1856-PARIS-NOTE"
+name = "The Confederation's note on the Declaration of Paris"
+kind = "guarantee"
+parties = ["PAC", "HI"]
+from = 1856
+owes = [{ by = "PAC", to = "PAC", what = "the rules on neutral goods and blockade kept as practice; no letter of marque against a partner's ships or a neutral's goods" }]
+conditions = [
+  "letters of marque reserved until the great navies exempt private property at sea (Marcy's terms)",
+  "carries forward Hawaii's accession of 1855 to the neutral principles of the convention of 1854 (CR-074 B1)",
+]
+ended = 1919
+ended_by = "accession to the Declaration of Paris at The Hague (C-1919-PARIS-ACCESSION)"
+status = "APPROVED"
+cr = "CR-074"
+section = 8
+quote = "When the powers at Paris invite the world to give up privateering, the new Confederation answers as Marcy answers for the United States"
+open = "The note's date and addressees not stated."
+
+[[commitment]]
+id = "C-1878-LETTERS"
+name = "Letters of marque in the war with Russia"
+kind = "law"
+parties = ["PAC", "RU"]
+from = 1878
+until = 1878
+conditions = [
+  "issued to armed sealers and whalers for the spring and summer of 1878; prizes to the prize courts at San Francisco and Honolulu",
+  "no neutral's cargo taken (C-1856-PARIS-NOTE)",
+]
+status = "APPROVED"
+cr = "CR-074"
+section = 19
+quote = "In the spring and summer of 1878 about a dozen armed sealers and whalers"
+open = "Number of ships MODEL."
+
+[[commitment]]
+id = "C-1888-CAPITULATION-KOREA"
+name = "Korea's treaty of service (the king's guard)"
+kind = "treaty"
+parties = ["PAC", "KR"]
+from = 1888
+owes = [
+  { by = "PAC", to = "KR", what = "a Pacific Company to drill the king's guard at Seoul in Korean words of command" },
+  { by = "KR", to = "PAC", what = "pay from the Korean treasury through the Companies Office" },
+]
+conditions = ["the first treaty of service under the Companies Act", "stands down from armed duty in the war of 1894"]
+status = "APPROVED"
+cr = "CR-074"
+section = 25
+quote = "In 1888 Korea becomes the first partner to sign a treaty of service under the new Companies Act"
+more_quotes = ["Fong's revenue cruisers keep to the customs, and the guard at Seoul keeps to the palace."]
+open = "Its end (CR-074 F2: after 1905) is not stated in the storyline; the company's part in Queen Min's survival in 1895 OPEN (OPEN-1)."
+
+[[commitment]]
+id = "C-1888-CAPITULATION-CHINA"
+name = "China's treaty of service (the Customs' preventive service)"
+kind = "treaty"
+parties = ["PAC", "CN"]
+from = 1888
+owes = [{ by = "PAC", to = "CN", what = "companies for the Customs' preventive service under the Inspectorate" }]
+conditions = ["the second treaty of service under the Companies Act; under licence from 1885", "stands down from armed duty in the war of 1894"]
+status = "APPROVED"
+cr = "CR-074"
+section = 25
+quote = "That autumn China turns the Customs' preventive service into the second."
+open = "Its end with China's recovery of the customs in 1928–29 (CR-074 F1) is not stated in the storyline; whether the Nationalist service keeps the companies OPEN."
+
+[[commitment]]
+id = "C-1895-FORMOSA-GUARD"
+name = "The Formosan revenue guard"
+kind = "treaty"
+parties = ["PAC", "CN"]
+from = 1895
+owes = [{ by = "PAC", to = "CN", what = "a company guarding the Keelung mines and the camphor stores for the Director-General (C-1895-FORMOSA)" }]
+conditions = ["never on the camphor frontier"]
+status = "APPROVED"
+cr = "CR-074"
+section = 25
+quote = "A company guards the Keelung mines and the camphor stores for the Director-General, and never the camphor frontier."
+open = "Its end not stated."
+
+[[commitment]]
+id = "C-1898-PALATAN"
+name = "The Palatan peace (Tambunan a compact land)"
+kind = "compact"
+parties = ["PAC", "NBINTERIOR"]
+from = 1898
+owes = [{ by = "PAC", to = "NBINTERIOR", what = "Tambunan held as a compact land under its own people; the Pacifican Borneo company held to the peace by the Companies Office on pain of its licence" }]
+conditions = [
+  "the company holds its coast by the Sultan's lease (C-1878-NBORNEO) and its interior only by compact",
+  "made by the company's director, William Cowie, with Mat Salleh in April 1898",
+]
+status = "APPROVED"
+cr = "CR-074"
+section = 25
+quote = "When the board moves on Tambunan the next year, the Office holds it to the peace on pain of its licence, and Tambunan becomes a compact land under its own people."
+open = "Mat Salleh's death OPEN; the compact's other terms not stated."
+
+[[commitment]]
+id = "C-1914-LETTERS"
+name = "Letters of marque in the war with Germany"
+kind = "law"
+parties = ["PAC", "DE"]
+from = 1914
+conditions = [
+  "issued the day after the declaration of war of 23 August 1914 to the venture steamers, the companies' tenders and the sealers and whalers",
+  "prizes taken on the high seas only, never in neutral waters; prize courts at San Francisco and Honolulu",
+]
+ended = 1919
+ended_by = "accession to the Declaration of Paris (C-1919-PARIS-ACCESSION)"
+status = "APPROVED"
+cr = "CR-074"
+section = 28
+quote = "The next day Julian issues letters of marque to the venture steamers, the companies' tenders and the sealers and whalers"
+open = "Number of letters and prizes not stated."
+
+[[commitment]]
+id = "C-1919-PARIS-ACCESSION"
+name = "Pacifica's accession to the Declaration of Paris"
+kind = "convention"
+parties = ["PAC", "UK", "FR"]
+from = 1919
+conditions = ["privateering abolished for Pacifica; the Declaration has no withdrawal clause (CR-074 B6)"]
+status = "APPROVED"
+cr = "CR-074"
+section = 30
+quote = "At The Hague in 1919 Pacifica accedes to the Declaration of Paris, and gives up the letters of marque it issued in 1914."
+open = "The other parties are all signatories and acceders of 1856 onward; UK and FR stand for them."
 
 [[commitment]]
 id = "C-1887-COMPACT-LANDS"

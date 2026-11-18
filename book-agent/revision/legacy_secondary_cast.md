@@ -2,6 +2,8 @@
 
 **Status:** Historical reference for roles not yet mapped to a new canonical identity. **These characters have not been deleted.** Names, occupations and descriptions below are taken from the original 250-profile [character_bible.json](../character_bible.json), not yet rewritten in light of the approved novel.
 
+**Note on "Canton" (CR-074, D-25, 18 November 2026):** CR-021 replaced the first draft's "states or cantons" with 124 counties. Where a legacy role below names a "Canton" (#179, #211, #212, #242), read "county" under CR-021; places outside the 124 counties (Melbourne, the Yangtze, Callao) are not counties at all. The entries themselves are preserved unedited.
+
 For canonical roles and newly introduced figures, use the [character bible](character_bible.md) and [character registry](character_registry.json). For all 250 mappings, including provisional matches, see [legacy_character_crosswalk.json](legacy_character_crosswalk.json).
 
 Many details in these entries are now inconsistent with the approved plot. The index is intended to prevent accidental loss of potentially valuable perspectives, **not** to assert that a scene or a historical characterization still occurs exactly as described. Each row can eventually be given a stable CT-ID, merged cautiously with a confirmed role, or retired after editorial review. No merging by surname alone.
