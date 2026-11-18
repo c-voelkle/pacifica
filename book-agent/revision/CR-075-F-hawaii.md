@@ -99,6 +99,7 @@ In 1861 Victoria's party entered its doubt of the fourth object: it was a promis
 - The third object: met by the peace and the first object, with the treaty silent on search (CT2, Case A).
 - The sailor's claim: his family keeps its private claim before the mixed commission (CR-062 T9, Victoria's condition, PROPOSED there).
 - Its own guarantees: the protected provisions of the Enabling Law, with control of entry and the Kuhina Nui's office among them (canon §12; CR-068 CT8).
+- The Pacific article (canon, CR-029; Part G, G-2): the Union renounces its guano claims to six islands and quitclaims Palmyra, which Hawaii annexed in 1862. If G-2 is approved, this follows from the first object's purpose and the price, not from a new aim, so F-1 stands.
 - What it cannot get: its half of the Council. Lot names the loss in 1865 (canon §12), and California's price of 1861 (Part E, E9) gives Hawaii a vote on each admission but no protection against the result.
 
 ## F7. The law of the sea (cross-reference)

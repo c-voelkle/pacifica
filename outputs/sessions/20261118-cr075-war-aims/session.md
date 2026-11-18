@@ -36,6 +36,7 @@ independence: same-agent (outline only; no review yet)
 | D7 | decision | J-2 approved: no separate revision of CR-065; impact notes at integration | author, 18 November 2026, 17:11 | current |
 | D8 | decision | Part C: C-5 to C-11 approved (preamble text; Pacific slope; east of the mountains; Burch in the Confederal Assembly, Boonslick link; Vallejo on the pledge of 1848; promise to treat in 1861; each resolution names its object) | author, 18 November 2026, 17:26 | current |
 | D9 | decision | Part E: E-6 to E-12 approved; Starr King in the pulpit only; San Pasqual used (no conflict) | author, 18 November 2026, 17:43 | current |
+| D10 | decision | D-8 to D-13 and F-3 to F-7 approved as recommended | author, 18 November 2026, 19:28 | current |
 | Q1 | open choice | H-1 (deferred until C–G are drafted) | outline | open |
 
 ## Revision of 13:20
@@ -59,6 +60,7 @@ independence: same-agent (outline only; no review yet)
 - Part C's C-5 to C-11 approved (17:26). Part E drafted in full: `book-agent/revision/CR-075-E-california.md` (Baker's note of May 1861, California's price as an article of the war resolution, Beale's letter to Andrés Pico, Starr King, the renewal of May 1862). Open: E-6 to E-12.
 - Part E's E-6 to E-12 approved (17:43; Starr King in the pulpit only); historical facts checked on the web (the treaties of 1852, Starr King's dates, Beale at San Pasqual, the flood of 1862). Part D drafted in full: `book-agent/revision/CR-075-D-plan-and-people.md` (two closed sittings in late June, the estimate part by part, Sherman's case, the errors traced). Open: D-8 to D-13.
 - D-8 to D-13 left open by the author (19:13). Part F drafted in full: `book-agent/revision/CR-075-F-hawaii.md` (Victoria's argument, Wyllie's guarantee answered by Vallejo's 1848, the kingdom divided, Hawaii as the keeper of the aims at each renewal). Open: F-3 to F-7, and D-8 to D-13.
-- Next: the author's answers; then G (aims to peace), H (the schoolbook formula), I, J, then the fresh-context review.
+- D-8 to D-13 and F-3 to F-7 approved as recommended (19:28): the extra year is an error nobody saw (paper money); Marcus's Casey call reasonable; Ralston's rule recorded in 1861 and applied in 1862; whalers' safe-conduct a CR note only; the Hawaiian press from autumn 1861; Lot's refusal from December 1863. Part G drafted in full: `book-agent/revision/CR-075-G-aims-to-peace.md` (the chain of instruments; the B4 test item by item; the guano islands missed by G-1, G-2; the empty parks paid for, G-3). Open: G-2 to G-6.
+- Next: the author's answers on G; then H (the schoolbook formula), I, J, then the fresh-context review.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
