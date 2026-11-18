@@ -155,7 +155,7 @@ Each object below has its wording, whose it is first, why, what it does not ask,
 
 ## C8. The open vote
 
-Canon records the concurrence and Victoria's party's reservations on the reasons (G2). PROPOSED: the vote on the preamble follows the closed sitting the same day (D-a).
+Canon records the concurrence and Victoria's party's reservations on the reasons (G2). PROPOSED: the vote on the preamble is taken on the Council's night (CR-068 B5), after the two closed sittings of late June (Part D, D1).
 - **Vallejo** moves the second object and speaks for the whole on California's behalf (I1; E2).
 - **Victoria's party** votes the whole. It enters, as it did for the sixth reason, its doubt of the fourth: a promise to peoples Hawaii has never seen, made in Hawaii's name (I1; B6). The doubt is recorded and is the ground she uses at every renewal.
 - **Sherman** is not a member of the Council. As Inspector-General he reports to it (CR-067), and his report on the resolution says it can be kept because it is written down (D-a).
