@@ -41,9 +41,10 @@ independence: same-agent (outline only; no review yet)
 - 14:52: four more (Kuykendall II, Lavender on Ralston, Williams on Broderick, Thompson on Beale); pass 1, the keyword sweep of all eleven, in `research-pass1-sweep.md` (122 queries; reading guide, matrix, clusters, year windows, locations, silences). Texts, extraction and snippets stay outside the repository.
 - 15:07: the author said go for pass 2. Close reading done; notes in `research-notes/` (README with findings, four note files). Nothing in the outline changed yet; the findings are proposals.
 - 15:20: Johannsen supplied; passes 1 and 2 run on it (the sweep now covers twelve texts; notes in `research-notes/O-oregon.md`).
+- 15:24: pass 3 (canon checks) done: `research-pass3-canon-check.md`. No tracked fact contradicted; three wordings to refine (B1–B3); Sherman's 1847–49 Monterey years do not exist in Pacifica (recommended: he first comes in 1853).
 
 ## Resume here
 
-- Next: the author's view of pass 2's findings (`research-notes/README.md`); then pass 3 (canon checks, next) and pass 5 (write the findings into Parts C, D, E, F and CT2).
+- Next: the author's view of pass 2's findings (`research-notes/README.md`); then pass 5 (write the findings into Parts C, D, E, F and CT2).
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
