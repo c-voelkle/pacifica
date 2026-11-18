@@ -237,6 +237,98 @@ No one is beaten by force on the day. The members have had no armed men of their
 - **The terms of H-17 and H-19**; H6.4's item 5.
 - **A popular vote on the constitution.** Not taken up yet.
 
+## H7. Proposals for the open items (PROPOSED, 18 November 2026, for the author)
+
+The author asked for suggestions "with a view towards good statecraft and maximizing social harmony". Five rules run through them:
+- **Guarantees as universal rules, not group privileges.**
+- **Each people kept in order by its own.**
+- **The grind answered with capital and knowledge, not prohibition.**
+- **Co-opt the organisers, not the demagogues.**
+- **Keep the army out of the Party; publish everything.**
+
+### H7.1 Silas in 1887 (H-15)
+
+- **Silence in the campaign, one public act at the handover.** Silas does not campaign, which would make him a politician and the Party's rival. On 1 August 1887 he takes the oath to the Regent at Sacramento, before the inland command's officers, in California's old capitol, which becomes the command's headquarters that day (storyline B, §21). The interior sees its armed men accept the order without being asked to love it.
+- **The guarantee in a public rule, not in the Truce.** The Truce stays extra-legal and does not name the interior. The guarantee is a convention of the Regency: **each people is kept in order by its own.**
+  - In the interior, the inland command and the interior's militia reserve do it, never the naval party or foreign-raised troops.
+  - In Hawaii, the Queen's Guard does it.
+
+  The Regent keeps it visibly in Honolulu in 1889, when she refuses Kiyoshi's marines (H4). The same principle guards the settler and the Hawaiian loyalist.
+- **His price for his constituency: the school of the companies.** The inland command's officers, the men the grind turned away, train H-19's companies under CR-038's inspectors. Silas becomes the patron of the honest road abroad. He gets patronage through an institution, and his interest becomes the order's. The guarantee then outlives the man (1906, 1912).
+- **The line between Silas and the Party.** The Party takes the workman, Silas the soldier. No serving officer of the inland command or the companies holds Party office.
+
+### H7.2 The labour article (H-16)
+
+- **Entrench little, legislate the rest.** The Constitution holds four short rules that every side can sign:
+  1. no labour bound by debt, penal contract or a broker's ticket;
+  2. the same wage for the same work, whoever does it;
+  3. a day of rest in seven, on the day of the worker's faith;
+  4. the eight-hour day on the Realm's works and in its chartered undertakings.
+
+  An organic law of 1888 carries the rest: county wage boards (CR-038's benchmarked pay), the hours elsewhere and the guest-worker rules.
+- **The 1888 immigration act is the promise kept** (§25, l. 914). It is framed against debt labour, not against the Chinese: "the Realm admits labour by examination, sponsorship or guest contract, never by debt." The Asian family programme continues (canon).
+- **School to fourteen for every child**, family farms included. It is a universal rule, and it is the honest equaliser against a family's grind that targets no one.
+- **Hawaii's plantations** come under the hours rule at each contract's renewal, over five years (1887–92). Their contracts have been reformed since 1856 (CR-038).
+- **Ledger:** a guarantee, C-1887-LABOUR.
+
+### H7.3 The irrigation-district case (H-17)
+
+- **Where and when.** The Feather, in the Sacramento valley, early in 1886. That year our timeline's coast-wide purge drove the Chinese out of Eureka, Truckee and Nicolaus (Hist., to verify). The Sacramento valley's exclusionists are already in H1.1.
+- **What happens.** A district on a confederal grant has sold Land Fund farms on instalments to Chinese families, whose orchards out-yield their neighbours'. A night mob burns their packing sheds and drives the families onto a river barge. No one is killed, or one man is; the author decides. Fewer deaths keep it believable for Pacifica (H6.3).
+- **The answer.**
+  - The grant's terms put the district under the Confederal Court (C1), so the ringleaders are tried there, not before a local jury as Hells Canyon's killers were, and they are convicted.
+  - The district restores the families to their land, and damages are levied on the rioters' property.
+  - The followers who pay their share are amnestied.
+  - The trial is published.
+- **The turn.** In October 1886 the same confederal title protects the settlers' water against Henry Miller's riparian suit (F3). The irrigation counties learn that the title protects whoever holds it, and vote for the Party in November. The incident thus feeds the settler bargain.
+- **Canon.**
+  - l. 703 becomes: "In 1886 a mob drives Chinese families off their district farms on the Feather; the Confederal Court convicts the ringleaders and the district restores the families to their land."
+  - l. 931 becomes: "Union critics answer with the Feather River."
+
+### H7.4 The limit of the agon (H6.4, item 5)
+
+Keep the honest framing, and add four mitigants that break no rule of CR-037:
+1. a ceiling on Land Fund sales per household, for everyone, against both Miller & Lux and family accumulation;
+2. Development Fund credit to district co-operatives, so the settler competes with capital, not hours;
+3. the Polytechnic's agricultural stations teaching the high-value crops to all;
+4. school to fourteen (H7.2).
+
+### H7.5 The Party's co-option
+
+- **What it absorbs:**
+  - the Workingmen's demands the Realm can meet: the eight-hour day on public works; no contract labour; land for settlers; anti-monopoly against the water barons and in published railway rates; a mechanics' lien law;
+  - hiring through the trades, not the brokers.
+- **What it refuses:** exclusion. Its slogan is against the debt, not the man.
+- **Whom it takes.** The organisers, not the demagogue. **PROPOSED:** Frank Roney (Hist.), the Irish moulder and trades organiser who opposed Kearney's methods, builds the Party's trades side from about 1880 and leads to the trades congress of 1895 (CR-038). Denis Kearney, with no crash of 1875 to ride, stays a street orator in 1877. He has a brief sandlot and fades, or drifts to Silas's men.
+- **The line:** as in H7.1.
+
+### H7.6 A popular vote
+
+**PROPOSED: no plebiscite on the Constitution.** The founder knows a plebiscite would polarise. Hawaii's rejection would be counted, and Oregon could be lost. Legitimacy rests on three things instead:
+1. **prior consent:** the conventions of 1866 adopted the article of supersession (K-15), and Deady reads it aloud (H1.3);
+2. **the first county elections of spring 1888,** which the Office publishes county by county with turnout;
+3. **Hawaii's own plebiscite** of 1907 (CR-040).
+
+**Alternative:** ratifying conventions in the members, elected on the old franchise. That is more American, but riskier, and the act's timing (K-15) would depend on them.
+
+### H7.7 The lean years (E-2a)
+
+Accept "the slack years after 1873" (Part E, E2).
+
+### H7.8 CR-074's open items (H-19)
+
+- **The name.** "The Pacific Companies" for the capitulated service; "venture licences" for licensed enterprise; "privateers" only for holders of letters of marque in war.
+- **The Declaration of Paris.** The Republic does not accede in 1856, as the United States did not, but declares that it will issue no letter against neutral goods or against a partner. It may accede later, at The Hague in 1907.
+- **The first capitulation.** The Customs' preventive service under the Pacifican-led Inspectorate (1885, canon), which carries the least risk. Then Korea's guard.
+- **The warrant.** 80 irrigated or 160 dry acres for five years' service (MODEL).
+
+### H7.9 Order of the remaining work
+
+1. The author's decisions on H7.
+2. The storyline text for H6 and H7: §15 (l. 703, 931), §19, §21 and §25.
+3. The ledger: C-1887-LABOUR, and the 1888 act's entry.
+4. Then CR-071 is ready to integrate. CR-074 follows on its own.
+
 ## Decisions for the author
 
 | # | Question | Recommendation | Status |
