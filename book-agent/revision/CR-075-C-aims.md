@@ -1,6 +1,6 @@
 # CR-075, Part C — The aims of 1861: the preamble of the war resolution
 
-**Status:** DRAFT, 18 November 2026. The five aims, their publication in July 1861, C4's wording and Burch as the expansionists' voice are APPROVED (C-1 to C-4, author, 18 November 2026, 16:19). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. The questions this part opens are C-5 to C-11 (below).
+**Status:** DRAFT, 18 November 2026. The five aims, their publication in July 1861, C4's wording and Burch as the expansionists' voice are APPROVED (C-1 to C-4, author, 18 November 2026, 16:19). Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. C-5 to C-11 APPROVED (author, 18 November 2026, 17:26): the preamble's text, the readings of "the Pacific slope" and "east of the mountains", Burch's seat and the Boonslick link, Vallejo's declaration on the pledge of 1848, the promise to treat in 1861, and the rule that each resolution names its object.
 **Belongs to:** `CR-075-outline.md`, Part C. No storyline text is integrated from here; C10 gives the sentences proposed for integration with the whole CR.
 **Canon it builds on:** §4 (the Buchanan–Vallejo Convention of 1848); §8 (the Articles of 1856: equal member delegations in the Council, the Confederal Assembly, acts published in English, Spanish and Hawaiian; Carson, 1860); §9 (the packet affair, Article XIV, the May resolution, Lincoln's offer, the reply and the seven reasons, the Council's ground of concurrence, Hawaii's price, the state of war); §10 (the Columbia, the posts east of the Cascades, the interior's compacts); §12 (the Terms of Monterey, 1863; the Western treaty, 1865); CR-028, CR-039, CR-059 to CR-062, CR-067 (A1: the war resolution is the army's mandate), CR-068 (G2, G6, PP3, PP3b, W1), the ledger entry C-1861-PROTECTOR.
 **Research keys:** as in the outline (`outputs/sessions/20261118-cr075-war-aims/research-notes/README.md`). Hist. = our world.
@@ -8,6 +8,8 @@
 ## Author's decisions
 
 > C 1. the five aims stand 2. approved 3. approved 4. Why not Burch himself (18 November 2026, 16:19)
+
+> 5. approved 6. approved 7. approved 8. approved and yes the link works 9. approved 10. approved in the preamble 11. approved (18 November 2026, 17:26)
 
 C-1: five aims. C-2: the preamble is public in July 1861. C-3: C4 says "on the Pacific slope". C-4: John C. Burch speaks for the expansionists, and Elias answers him in the closed sitting.
 
@@ -176,13 +178,13 @@ After the sentence ending "and the second turret ship when the Columbia is secur
 
 ## Decisions for the author
 
-- **C-5. The preamble's draft text (C2).** Approve, revise, or keep the text OPEN and approve the argument only (as CR-068 does for its papers)? Included in it: C4's "can govern themselves" in place of "can hold its own ground", which is kept for the fifth object (C3.4). Recommended: approve the text, with the wording change.
-- **C-6. "The Pacific slope" (C3.1).** The ocean to the crests of the Sierra Nevada and the Cascades, with the posts beyond left to the line and the fourth object? Recommended: yes. It is what canon's October 1861 and Walla Walla convention already assume.
-- **C-7. "East of the mountains" (C7.3).** The plains beyond the Rockies' front ranges, so that the Rio Grande column of 1862 is a new theatre but not a breach? Recommended: yes.
-- **C-8. Burch's seat (C6.2).** The Confederal Assembly from 1859 (recommended), or California's own assembly? Also: the Boonslick link (born across the river from Franklin, Hist.), used as above, with no acquaintance in Missouri?
-- **C-9. The pledge of 1848 not to alienate (C3.2).** Vallejo declares it kept as the Republic's own rule, owed to no one, with Alaska's pledge of 1867 as its proof (recommended), or leave it unmentioned?
-- **C-10. The promise to treat (C4.4).** "It will treat whenever the United States will treat on these objects, and it will ask nothing beyond them": in the preamble of 1861 (recommended), or first in the Terms of 1863?
-- **C-11. Each new resolution names its object (C7.1, C7.2).** Approve the rule and the table? The guard of October 1862 stays the one act without a vote; the Rio Grande resolution of April 1862 is the weak citation, objected to at the time and made good by the compact of 1863.
+- **C-5. The preamble's draft text (C2).** Approve, revise, or keep the text OPEN and approve the argument only (as CR-068 does for its papers)? Included in it: C4's "can govern themselves" in place of "can hold its own ground", which is kept for the fifth object (C3.4). Recommended: approve the text, with the wording change. **Decided (author, 18 November 2026, 17:26):** approved.
+- **C-6. "The Pacific slope" (C3.1).** The ocean to the crests of the Sierra Nevada and the Cascades, with the posts beyond left to the line and the fourth object? Recommended: yes. It is what canon's October 1861 and Walla Walla convention already assume. **Decided (author, 18 November 2026, 17:26):** approved.
+- **C-7. "East of the mountains" (C7.3).** The plains beyond the Rockies' front ranges, so that the Rio Grande column of 1862 is a new theatre but not a breach? Recommended: yes. **Decided (author, 18 November 2026, 17:26):** approved.
+- **C-8. Burch's seat (C6.2).** The Confederal Assembly from 1859 (recommended), or California's own assembly? Also: the Boonslick link (born across the river from Franklin, Hist.), used as above, with no acquaintance in Missouri? **Decided (author, 18 November 2026, 17:26):** approved: the Confederal Assembly from 1859; the Boonslick link is used.
+- **C-9. The pledge of 1848 not to alienate (C3.2).** Vallejo declares it kept as the Republic's own rule, owed to no one, with Alaska's pledge of 1867 as its proof (recommended), or leave it unmentioned? **Decided (author, 18 November 2026, 17:26):** approved: Vallejo declares it.
+- **C-10. The promise to treat (C4.4).** "It will treat whenever the United States will treat on these objects, and it will ask nothing beyond them": in the preamble of 1861 (recommended), or first in the Terms of 1863? **Decided (author, 18 November 2026, 17:26):** approved: in the preamble of 1861.
+- **C-11. Each new resolution names its object (C7.1, C7.2).** Approve the rule and the table? The guard of October 1862 stays the one act without a vote; the Rio Grande resolution of April 1862 is the weak citation, objected to at the time and made good by the compact of 1863. **Decided (author, 18 November 2026, 17:26):** approved.
 
 ## Fact changes
 

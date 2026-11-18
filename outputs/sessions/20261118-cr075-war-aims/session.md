@@ -34,6 +34,7 @@ independence: same-agent (outline only; no review yet)
 | D5 | decision | D-1 to D-7 approved: the closed sitting as a challenge evening; the 21 players (Starr King confirmed for E-4); the new roles for Broderick and the Calculation Office; D7's errors traced as recommended; the fallback in 1861 and 1864; who hears the plan; Sherman first comes in 1853 as a banker | author, 18 November 2026, 16:29 | current |
 | D6 | decision | B-1 rules stand; F-1 no new Hawaiian aim; F-2 approved; G-1 table complete; CT1 amend (B); CT2 adapt (A); CT3 amend | author, 18 November 2026, 16:45 | current |
 | D7 | decision | J-2 approved: no separate revision of CR-065; impact notes at integration | author, 18 November 2026, 17:11 | current |
+| D8 | decision | Part C: C-5 to C-11 approved (preamble text; Pacific slope; east of the mountains; Burch in the Confederal Assembly, Boonslick link; Vallejo on the pledge of 1848; promise to treat in 1861; each resolution names its object) | author, 18 November 2026, 17:26 | current |
 | Q1 | open choice | H-1 (deferred until C–G are drafted) | outline | open |
 
 ## Revision of 13:20
@@ -54,6 +55,7 @@ independence: same-agent (outline only; no review yet)
 ## Resume here
 
 - Part C drafted in full: `book-agent/revision/CR-075-C-aims.md` (preamble draft text, the five objects, the price and the promise to treat, Burch's motion, the rule that each resolution names its object). Open: C-5 to C-11.
-- Next: the author's answers on C-5 to C-11; then Part E (California) in full, as recommended.
+- Part C's C-5 to C-11 approved (17:26). Part E drafted in full: `book-agent/revision/CR-075-E-california.md` (Baker's note of May 1861, California's price as an article of the war resolution, Beale's letter to Andrés Pico, Starr King, the renewal of May 1862). Open: E-6 to E-12.
+- Next: the author's answers on E-6 to E-12; then Part D in full (the closed sitting and the players), then F–J.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
