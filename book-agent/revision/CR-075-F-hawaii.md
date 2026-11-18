@@ -1,0 +1,149 @@
+# CR-075, Part F — Hawaii's reasons, and Hawaii as the keeper of the aims (1861–1865)
+
+**Status:** DRAFT, 18 November 2026. Approved already (author, 18 November 2026, 16:45): F-1 (Hawaii asks no new aim of the peace) and F-2 (Victoria's argument of 1861 turns Hawaii's historical dilemma round). Hawaii's reasons and price are canon from CR-068 G2, and this part changes none of them. Everything not marked *canon*, *Hist.* or APPROVED is PROPOSED. This part opens questions F-3 to F-7 (below).
+**Belongs to:** `CR-075-outline.md`, Part F. Read with Part C (`CR-075-C-aims.md`; the third object is Hawaii's), Part D (`CR-075-D-plan-and-people.md`; Wyllie's letter, D1.2; Victoria's place, D-9, still open) and Part E (`CR-075-E-california.md`; California's price, which Hawaii shares). No storyline text is integrated from here; F9 gives the sentences proposed for integration with the whole CR.
+**Canon it builds on:**
+- §8: the Confederation of 1856; the common navy; Victoria's coalition beats Article XIV over Washoe in 1860.
+- §9: the packet affair; Victoria's demands and the disclosure of the Southern dealings; "Victoria helps win Hawaiian support and takes political responsibility for the authorization"; Hawaii's price.
+- §10: the Willamette flood; compliance as the price of Hawaii's assent in 1862.
+- §12: the renewals; the bargain of 1865 at Monterey, "where the Council sits from June to August and Victoria leads Hawaii's delegation"; Lot's letter; the Enabling Law's protected provisions.
+- CR-014 and CR-027: Victoria keeps the Kuhina Nui's office under Lot.
+- CR-060 C6 and CR-068 CT8: the conditions of 1864.
+- CR-062 T9: the sailor's claim.
+- CR-068 G2, G8, CT13 and CT16: the reasons, Lincoln's offer of 1864, no round trip to Honolulu, the renewal of 1863.
+- CR-074: the Confederation's note of 1856.
+**Research keys:** as in the outline; the notes are in `research-notes/F-hawaii.md`. Hist. = our world.
+
+## Author's decisions
+
+> F-1: approved / F-2: approved (18 November 2026, 16:45)
+
+## F0. The claim in four sentences
+
+1. Hawaii goes to war in 1861 against its own instinct. A kingdom that in our world asked Washington for an American warship to protect its whalers has in Pacifica been boarded by that warship, and Victoria makes the Council see that the protection Hawaii would have asked for is the danger it now faces.
+2. The kingdom is divided:
+   - the planters gain from the war;
+   - Honolulu's whaling trade and its young seamen lose by it;
+   - the mission families oppose a war on the country they came from;
+   - the Hawaiian-language press reads the Union as the settlers' government.
+   The king refuses Wyllie's wish to recognize the South, as he did in our world.
+3. Hawaii asks nothing of the peace that is not already in the objects: the first object, the third, the sailor's claim and its own guarantees.
+4. From 1862 onward it is the keeper of the aims. At each renewal its condition holds the Protector to a different object, and the doubt it entered on the fourth object in 1861 is the ground of all three.
+
+## F1. How Hawaii decides
+
+| Body | What it decides | When | Who |
+|---|---|---|---|
+| The king's government (Kamehameha IV, Victoria as Kuhina Nui, Wyllie, Lot) | Assent to Article XIV; the king's own refusals | May 1861 | Victoria carries the authorization and takes responsibility for it (canon §9) |
+| Hawaii's delegation in the Confederal Council | Concurrence; the war resolution and its preamble; Hawaii's price | Early July 1861 | "Victoria's party" (CR-068 G2) |
+| Hawaii's legislature (nobles and representatives) | The renewals | 1862, 1863, 1864 | With conditions in 1862 and 1864; delayed and narrow in 1863 (CT16) |
+| The public | Opinion in two languages | From 1861 | The mission and English-language press; the Hawaiian-language press (CR-068) |
+
+- F1.1 **The king.** Hist.: Kamehameha IV refused in 1861 anything that looked like recognition of the South. Wyllie wanted to grant belligerent rights, and the king privately called him an old woman for it (KUYK 65–66). PROPOSED: the king does the same in Pacifica. He lets Victoria carry the authorization, as canon has it, and keeps for himself the one refusal that is his to make: no recognition of Richmond. That refusal holds until May 1865 (canon).
+- F1.2 **Victoria's office.** Hist.: Kamehameha IV made her Kuhina Nui in 1855, and Wyllie's constitutional amendments of 1860–62 aimed to reduce the office's power (KUYK 36, 121–123). In Pacifica she keeps the office under Lot (CR-014). In 1861 she is the kingdom's officer who can sign beside the king, and Wyllie's wish to reduce the office (Hist.) is a pressure she has to answer by using it well.
+- F1.3 **Where she is in 1861.** This is OPEN under Part D's D-9. Canon gives a pattern for later years: in 1865 the Council sits at Monterey from June to August and Victoria leads Hawaii's delegation (§12). If that was the Council's season in 1861 too, she is at Monterey for the Council's night.
+
+## F2. The reasons and the price (canon, CR-068 G2), and Victoria's argument (F-2, APPROVED)
+
+- F2.1 **What canon has.** Hawaii's delegation concurs on the first three of the seven reasons:
+  1. the squadron's claim to stop a neutral packet at sea on suspicion;
+  2. the squadron lives on this coast;
+  3. a kingdom that gave its defence to the common navy must see the navy defend it.
+  It records its doubt of the sixth and enters the seventh as the Protector's own. Its price is Honolulu's batteries, two frigates and the second turret ship.
+- F2.2 **Victoria's argument (F-2).** Hist.: in June 1861 a report of a Confederate privateer in the Pacific reached Honolulu. The American commissioner, on Seward's instructions, asked what Hawaii would do about Confederate ships in its ports. Wyllie answered that the king had no force to make his neutrality respected, and that Honolulu, with millions in American whaling property, needed an American warship present (KUYK 65–66). In Pacifica, Victoria turns that history round:
+  - Hawaii gave its defence to the common navy in 1856 so that it would never again have to ask a great power for a warship;
+  - the warship that Washington would send to "protect" Honolulu is the kind that boarded its packet and killed its sailor;
+  - so a kingdom that cannot make its neutrality respected must either have the Confederation's navy do it or have the Union's navy do it for its own purposes.
+  This is the third reason, given in her own terms. It is why the third object stands by Hawaii's name (Part C, C3.3).
+- F2.3 **Who the sailor was (Hist. as the measure).** Hawaii's part in the whaling trade was to supply the ships and to man them. Thousands of young Hawaiian men went to sea on whaleships and merchantmen (KUYK 138). PROPOSED: the sailor killed in the boarding is one of them, serving on a Hawaiian packet. The canon sailor stays unnamed (CR-062 T9). His death makes the boarding a matter for the families of the coast as well as for the court.
+
+## F3. Wyllie (P9)
+
+- F3.1 **His estimate.** Hist.: Wyllie believed in 1861 that the South would win its independence (KUYK 65). In Pacifica his letter is read at the first sitting (Part D, D1.2, D3.1). He is the Council's strongest voice for the conclusion that the South holds, and its strongest voice for recognizing Richmond early. The king and Victoria are the check.
+- F3.2 **His other instinct (PROPOSED; F-3).** Hist.: from 1857 to 1863 Wyllie pursued a general treaty by which the maritime powers would guarantee Hawaii's independence and neutrality, with Bowring as envoy. Bowring thought the American war an invincible impediment (KUYK 55–57). In Pacifica, in the summer of 1861, Wyllie proposes that the third object be secured at the peace by such a guarantee of the Pacific's neutral waters, signed by Britain, France and the United States.
+- F3.3 **Vallejo answers him with 1848.** Vallejo refused Buchanan's guarantee because "a guarantor has a right to come in" (canon §4). A guarantee of Hawaii's waters by three navies would give each of them that right. Hawaii chose the Confederation in 1856 instead of a guarantee, and the war tests that choice. Victoria sides with Vallejo, and the proposal is not taken up. It is the reason the third object is met by the peace and the first object, and not by an instrument (CT2, Case A).
+
+## F4. The kingdom divided
+
+- F4.1 **The planters: for, quietly.**
+  - *Hist.:* Hawaiian sugar grew fastest in 1861–66 because of the war. Prices rose from June 1861, the best sold at San Francisco for up to 13½ cents a pound in 1864–65, and the American war tariff took part of the gain (KUYK 140–146). Exports averaged little more than half a million pounds a year in 1855–57 and over nineteen million in 1870–72 (KUYK 140).
+  - *In Pacifica:* Hawaiian sugar enters California inside the Confederation's customs union, and no American tariff touches it. The war is the planters' boom, and they do not say so in public.
+  - This is why both of canon's sugar measures of 1864 reach Honolulu where it matters: Lincoln's offer of a treaty admitting Hawaiian sugar free of duty, and the army and fleet's contract for Hawaiian sugar at a fixed price for the length of the war (canon §12). The contract outbids the offer because it pays now.
+- F4.2 **Honolulu's whaling trade: against.**
+  - *Hist.:* Honolulu lived by supplying whaleships with provisions, refits, cash for wages and men. The whalers' bills of exchange were the town's remittance to New England and Europe, and the trade was already in depression in the later 1850s, before the war halved the American fleet (KUYK 138–139).
+  - *In Pacifica:* from July 1861 the American whalers are enemy ships and stop calling at Hawaiian ports. Hist.: the Confederate cruisers destroyed forty-six whalers (KUYK 138); whether they hunt in the Pacific in this timeline is left to canon. Honolulu's chandlers and shipyards, mostly in American hands, lose their customers, and the young men who signed on at Honolulu lose their berths.
+  - The Republic issues no letters of marque (CR-074: reserved in 1856, first issued in 1878). Its war is not made against the whalers.
+  - *American whalers in Hawaiian ports in July 1861 (F-4):* PROPOSED: they are given thirty days to sail, under a published safe-conduct to leave the Confederation's waters. The Republic does not seize them.
+- F4.3 **The mission families: against.** American-born or American-descended, they hold seats in Hawaii's delegation and its legislature. In 1865 two of them vote against the Enabling Law (§12). They oppose a war on the country they came from. Lincoln aims at them in 1863, expecting the mission churches to carry the legislature (CR-068). They are what makes the renewal of 1863 narrow.
+- F4.4 **The Hawaiian-language press: for, in its own way.** The Hawaiian-language press, *Ka Hoku o ka Pakipika* (1861–63), was Kalākaua's paper against the mission press, and in 1863 it prints both of Lincoln's papers and the account of the nations (CR-068). Its readers are a Native people under their own king. They read the Union as the government of the settlers and missionaries' sons who already own much of their best land. That reading begins in 1861 with the packet. The mission press calls the boarding an officer's excess. The Hawaiian press names the sailor's island.
+- F4.5 **The court and Britain.** The king and his circle look to Britain (Hist.; KUYK 65–66: British and French neutrality decided Hawaii's own in August 1861). In Pacifica, Britain's neutrality proclamation of May 1861 recognized both the Union and the South as belligerents (JONES ch.2). The court reads it as permission: if London does not take Washington's side, Honolulu need not either.
+
+## F5. Hawaii as the keeper of the aims (F-5)
+
+In 1861 Victoria's party entered its doubt of the fourth object: it was a promise to peoples Hawaii had never seen, made in Hawaii's name (Part C, C8). PROPOSED: at each renewal the kingdom's condition holds the Protector to one object, and the doubt of 1861 is the ground of all three.
+
+| Renewal | Canon condition or event | The object it holds him to |
+|---|---|---|
+| 1862 | Compliance with Deady's ruling after the Willamette flood (canon §10) | The fourth object, third clause: protection under the people's own law, not the garrison's |
+| 1863 | Put over to the last days of the term; Elias goes to Honolulu and answers before the legislature, beginning in Hawaiian (CR-068 CT16, PP4c) | The fifth object: why the Republic's gold stands behind four million who will never be examined. He answers with the seventh reason, which Victoria's party entered in 1861 as the Protector's own |
+| 1864 | No annexation; Carson's guarantees kept; Hawaii's control of entry at its own ports; Washoe's own choice asked and refused (CR-060 C6; CR-068 CT8) | The fourth object, first clause: no people by decree. It answers the guard put on the Salt Lake road in 1862 without a resolution (Part C, C7.2) |
+
+- F5.1 **Why Hawaii and not California.** California's reasons are its own, and in 1864 Washoe is California's capital (Part E, E10.5). Hawaii's only interest in the West is that the war it pays for stays inside the objects. So Hawaii reads the objects as written and enforces them, and California reads them as interests.
+- F5.2 **What it costs Elias.** Each condition is narrower than the last renewal, and each is won with an argument from the preamble. He accepts every one except Washoe's own choice in 1864, and that one is carried out in 1866 by the Republic's choice rather than Hawaii's (CR-060 C6). The Chronicler records it as the keeper's one loss.
+
+## F6. What Hawaii gets at the peace (F-1, APPROVED: no new aim)
+
+- The first object: no station on the slope; Port Townsend evacuated in 1867 (CR-062).
+- The third object: met by the peace and the first object, with the treaty silent on search (CT2, Case A).
+- The sailor's claim: his family keeps its private claim before the mixed commission (CR-062 T9, Victoria's condition, PROPOSED there).
+- Its own guarantees: the protected provisions of the Enabling Law, with control of entry and the Kuhina Nui's office among them (canon §12; CR-068 CT8).
+- What it cannot get: its half of the Council. Lot names the loss in 1865 (canon §12), and California's price of 1861 (Part E, E9) gives Hawaii a vote on each admission but no protection against the result.
+
+## F7. The law of the sea (cross-reference)
+
+Part C, C3.3 carries it. Hawaii acceded in 1855 to the Russo-American principles (free ships make free goods; neutral goods in enemy ships free) and did not accede to the Declaration of Paris until 1867 (KUYK 63–65). The Confederation's note of 1856 is Hawaii's own position (CR-074). Search in war is a belligerent's right (JONES ch.2), and the third object claims more than the law of nations gives. Hawaii's crisis of 1861 rests on its hulls, not on the law.
+
+## F8. What this changes elsewhere (for integration)
+
+- **CR-068 G2.** No change. Victoria's argument (F2.2) is the third reason in her own terms.
+- **CR-062 T9.** The sailor (F2.3) is one of the young Hawaiians of the whaling trade; he stays unnamed.
+- **CR-074.** No letters of marque in 1861; the American whalers' safe-conduct (F4.2) is new and PROPOSED.
+- **Part G.** The third object's row keeps "met by the peace"; Wyllie's guarantee (F3.2) is the case not taken.
+
+## F9. Storyline sentences proposed (for integration with the whole CR)
+
+In §9, after "Victoria helps win Hawaiian support and takes political responsibility for the authorization":
+
+> **[PROPOSED — CR-075]** She argues it from the kingdom's weakness. Hawaii gave its defence to the common navy so that it would never have to ask a great power for a warship, and the warship Washington would send to protect Honolulu is the kind that boarded its packet. The king refuses Wyllie's wish to recognize the South, and keeps that refusal for himself.
+
+In §10, after the paragraph on the renewal of 1862:
+
+> **[PROPOSED — CR-075]** From then on Hawaii is the keeper of the objects. Each renewal holds the Protector to one of them: the people's own law in 1862, the reason for the war's credit in 1863, no people by decree in 1864. The planters, who gain most from the war, say least about it.
+
+## Decisions for the author
+
+- **F-3. Wyllie's guarantee (F3.2–F3.3).** He proposes a three-power guarantee of the Pacific's neutral waters in the summer of 1861. Vallejo answers with his own refusal of 1848, and Victoria sides with Vallejo. Approve?
+- **F-4. The American whalers in July 1861 (F4.2).** Thirty days to sail under a published safe-conduct, and no seizure. Approve, or leave it unmentioned?
+- **F-5. Hawaii as the keeper of the aims (F5).** Each renewal's condition read as holding the Protector to one object. Approve the reading? It changes no canon condition.
+- **F-6. The two publics (F4.3–F4.4).** The mission families against and the Hawaiian-language press for, from 1861 and not only in 1863. Approve?
+- **F-7. The king's refusal (F1.1).** Kamehameha IV refuses recognition of Richmond as his own act, as in our world, and lets Victoria carry the authorization. Approve?
+
+## Fact changes
+
+none. No tracked fact changes.
+
+## Canon tensions
+
+none. F5 reads canon's three conditions without changing them. F2.3 gives the canon sailor a background without a name.
+
+## Canon touchpoints
+
+- §9: Victoria's argument and the king's refusal are added beside "Victoria helps win Hawaiian support".
+- §10, §12; CR-060 C6; CR-068 CT8 and CT16: the renewals, read as in F5.
+- CR-062 T9: the sailor.
+- CR-074: no letters of marque in 1861.
+
+## Research
+
+**Used:** KUYK 36, 55–58, 63–66, 121–123, 138–146; JONES ch.2.
+**To check if used on the page:** the first issue of *Ka Hoku o ka Pakipika* (Hist.: September 1861; canon cites 1861–63); the American commissioner at Honolulu in 1861 (Hist.: Thomas J. Dryer, KUYK 65).

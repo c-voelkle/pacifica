@@ -58,6 +58,7 @@ independence: same-agent (outline only; no review yet)
 - Part C drafted in full: `book-agent/revision/CR-075-C-aims.md` (preamble draft text, the five objects, the price and the promise to treat, Burch's motion, the rule that each resolution names its object). Open: C-5 to C-11.
 - Part C's C-5 to C-11 approved (17:26). Part E drafted in full: `book-agent/revision/CR-075-E-california.md` (Baker's note of May 1861, California's price as an article of the war resolution, Beale's letter to Andrés Pico, Starr King, the renewal of May 1862). Open: E-6 to E-12.
 - Part E's E-6 to E-12 approved (17:43; Starr King in the pulpit only); historical facts checked on the web (the treaties of 1852, Starr King's dates, Beale at San Pasqual, the flood of 1862). Part D drafted in full: `book-agent/revision/CR-075-D-plan-and-people.md` (two closed sittings in late June, the estimate part by part, Sherman's case, the errors traced). Open: D-8 to D-13.
-- Next: the author's answers on D-8 to D-13; then F (Hawaii), G, H (the schoolbook formula, deferred until now), I, J, then the fresh-context review.
+- D-8 to D-13 left open by the author (19:13). Part F drafted in full: `book-agent/revision/CR-075-F-hawaii.md` (Victoria's argument, Wyllie's guarantee answered by Vallejo's 1848, the kingdom divided, Hawaii as the keeper of the aims at each renewal). Open: F-3 to F-7, and D-8 to D-13.
+- Next: the author's answers; then G (aims to peace), H (the schoolbook formula), I, J, then the fresh-context review.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
