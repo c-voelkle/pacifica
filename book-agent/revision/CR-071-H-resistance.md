@@ -237,7 +237,11 @@ No one is beaten by force on the day. The members have had no armed men of their
 - **The terms of H-17 and H-19**; H6.4's item 5.
 - **A popular vote on the constitution.** Not taken up yet.
 
-## H7. Proposals for the open items (PROPOSED, 18 November 2026, for the author)
+## H7. Proposals for the open items (APPROVED with three caveats, 18 November 2026, 06:27)
+
+> I think you're on the right track for the most part and I approve all with the following caveats: Exclusion of military and company men from the party - for a party that is Elias's personal instrument, this seems odd. Indeed those people seem like exactly who Elias would want on board. Needs revision or clear framing as a costly compromise. The Party also can't slogan against debt labor if debt labor is not allowed. Also the Pacific Companies may start earlier than 1885. It would be good for them to have a proven track record of some kind by the time of the truce. (Author, 18 November 2026, 06:27)
+
+H7.1, H7.5 and H7.8 are revised below for the caveats; the revisions are PROPOSED. The rest of H7 is APPROVED as written. Where H7 names a detail as open or for the author to decide, it stays so (H7.3: whether anyone dies; the historical items to verify).
 
 The author asked for suggestions "with a view towards good statecraft and maximizing social harmony". Five rules run through them:
 - **Guarantees as universal rules, not group privileges.**
@@ -255,7 +259,11 @@ The author asked for suggestions "with a view towards good statecraft and maximi
 
   The Regent keeps it visibly in Honolulu in 1889, when she refuses Kiyoshi's marines (H4). The same principle guards the settler and the Hawaiian loyalist.
 - **His price for his constituency: the school of the companies.** The inland command's officers, the men the grind turned away, train H-19's companies under CR-038's inspectors. Silas becomes the patron of the honest road abroad. He gets patronage through an institution, and his interest becomes the order's. The guarantee then outlives the man (1906, 1912).
-- **The line between Silas and the Party.** The Party takes the workman, Silas the soldier. No serving officer of the inland command or the companies holds Party office.
+- **Silas and the Party (revised for the author's caveat; PROPOSED).** *Silas commands the soldier; the Party enrols him.* Elias wants the soldiers, veterans and company men in his Party, and they are welcome: in the interior its lodges are largely theirs.
+  - **The costly compromise** is the one canon already has. Under Sherman's board (1882, E-12) commissions and promotions are not the Party's to give, and no Party committee stands in the chain of command.
+  - **Elias pays a price for it.** He gives up his strongest patronage lever, rank for loyalty, as Sherman's price for chairing the board and so that the army stays the Realm's after him.
+  - **The one rule beyond it:** a serving officer does not stand on the Party's ticket in a county where he commands.
+  - **The risk** is that the same men are bound twice, to the Party (Elias, then the Regent) and to their commander (Silas). That double loyalty is what 1906 tests.
 
 ### H7.2 The labour article (H-16)
 
@@ -298,7 +306,11 @@ Keep the honest framing, and add four mitigants that break no rule of CR-037:
 - **What it absorbs:**
   - the Workingmen's demands the Realm can meet: the eight-hour day on public works; no contract labour; land for settlers; anti-monopoly against the water barons and in published railway rates; a mechanics' lien law;
   - hiring through the trades, not the brokers.
-- **What it refuses:** exclusion. Its slogan is against the debt, not the man.
+- **What it refuses:** exclusion. **Its slogan (revised; PROPOSED): "Eight hours and the same wage."** Debt labour is already forbidden, so the Party cannot run against it. It runs on the two rules a workman can see enforced on his own site.
+  - To the settler, the same wage means nobody can undercut him.
+  - To the Chinese workman, it means equal treatment.
+
+  The slogan reads two ways, and both readings are true. Our timeline's labour movements sometimes demanded equal pay as a covert means of exclusion. In Pacifica it is not covert: the wage boards enforce it for everyone, and Roney's trades admit everyone who earns it.
 - **Whom it takes.** The organisers, not the demagogue. **PROPOSED:** Frank Roney (Hist.), the Irish moulder and trades organiser who opposed Kearney's methods, builds the Party's trades side from about 1880 and leads to the trades congress of 1895 (CR-038). Denis Kearney, with no crash of 1875 to ride, stays a street orator in 1877. He has a brief sandlot and fades, or drifts to Silas's men.
 - **The line:** as in H7.1.
 
@@ -319,7 +331,18 @@ Accept "the slack years after 1873" (Part E, E2).
 
 - **The name.** "The Pacific Companies" for the capitulated service; "venture licences" for licensed enterprise; "privateers" only for holders of letters of marque in war.
 - **The Declaration of Paris.** The Republic does not accede in 1856, as the United States did not, but declares that it will issue no letter against neutral goods or against a partner. It may accede later, at The Hague in 1907.
-- **The first capitulation.** The Customs' preventive service under the Pacifican-led Inspectorate (1885, canon), which carries the least risk. Then Korea's guard.
+- **Beginning, and a record by 1887 (revised for the author's caveat; PROPOSED).** The companies begin a generation before the Truce:
+  1. **1854: the venture licence.** This is Elias's answer to Walker (§5). No private war abroad without the Republic's licence and bond; sealing, guano, whaling and trading ventures are licensed.
+  2. **1860–63: the first company.** Frederick Townsend Ward's corps at Shanghai, under licence: Pacifican officers and sergeants over Chinese ranks, raised in 1860, holding Shanghai. Ward is killed at Cixi in September 1862 (Hist.). In December 1863 Li Hongzhang executes the Taiping princes who surrendered at Suzhou (Hist.), and the company refuses further service. Its articles forbid a part in killing prisoners. The refusal is the first entry in its record of honour.
+  3. **1866–75: the veterans of 1861–65.**
+     - Companies of survey and guard serve Kuroda's Hokkaido development (canon: "Pacifican advisers north").
+     - Companies supply the sergeant-instructors of the Pacifican army mission to Japan after France's defeat (canon, §14), under the alliance of 1870–71.
+  4. **1878: letters of marque.** In the war with Russia, armed Pacifican sealers and whalers take Russian supply ships in the Okhotsk. Prize courts sit at San Francisco and Honolulu, and the prize shares make the first fortunes.
+  5. **1884–85: Keelung.** A company guards the Chinese-owned coal concession while the squadron demonstrates (§14).
+  6. **1885: the Customs.** The preventive service under the Pacifican-led Inspectorate.
+
+  **By 1887** some thousands have served. Hundreds hold farms on warrant in the interior. They have a record of Shanghai, the north, prizes and a refusal. These are the settlers least likely to be nativists, because they served beside Chinese and Japanese comrades. They are a bridge, and Silas's school (H7.1) trains their sons. CR-074 settles all of it; CR-071 needs only the record's existence by 1887 and the 1887–88 statute that makes it a system.
+- **Korea's guard** is a later capitulation, after 1885; CR-074 decides whether and when.
 - **The warrant.** 80 irrigated or 160 dry acres for five years' service (MODEL).
 
 ### H7.9 Order of the remaining work
@@ -350,6 +373,7 @@ Accept "the slack years after 1873" (Part E, E2).
 | H-15 | Silas as the settler interior's guarantor: the Truce read as the interior's bargain (H6.1) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); details PROPOSED or OPEN |
 | H-17 | Rock Springs and Hells Canyon replaced by an irrigation-district attack on Asian farmers, prosecuted (H6.3) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); details PROPOSED |
 | H-18 | Pacifican nativism is a grievance of ethos and status; Pacifica makes good on it through the institutionalized agon, not a quota (H6.3, H6.4) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); H6.4 items 1–4 **APPROVED** (05:51), item 5 PROPOSED |
+| H-20 | The proposals of H7 for the open items | — | **APPROVED** (author, 18 November 2026, 06:27) with three caveats; H7.1 (Silas and the Party), H7.5 (the slogan) and H7.8 (the companies from 1854) revised and PROPOSED |
 | H-19 | An honest avenue for the unexamined to status, property and marriage: technical schools, and training and legal avenues abroad (H6.5) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:51); **shape of H6.5 APPROVED** (06:01: "I agree it warrants its own CR, but I approve of this shape"); the institution goes to its own CR (CR-074 is the next free number), CR-071 carries only the promise of 1887–88 |
 | H-16 | A labour article as the settlers' price: equal wage, no unfree or contract labour, entry by examination and sponsorship (H6.2) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); terms PROPOSED or OPEN |
 
