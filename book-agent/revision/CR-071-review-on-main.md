@@ -136,3 +136,41 @@ Minor items not applied:
 - Labels in the storyline are scoped to the paragraph, as throughout canon, so the unlabelled canon paragraphs after a CR-071 block do not inherit its label.
 
 **Scratch integration re-run on the final drafts:** `lint_canon.py` clean; `ledger.py check` 288 commitments, 0 problems (with section B applied); `sync_master_storyline.py --check` synchronized.
+
+## Fresh-context review of the integration (18 November 2026)
+
+A separate reviewer was given only the diff of `master_storyline.md`, the integrated sections (§§5, 6, 12–15, 19–25), the canon tensions and AGENTS.md. It found one blocker and fifteen should-fix items; all are applied (storyline draft 3, as integrated):
+
+1. **The handover's look-back read as Silas's.** It now comes first and names Elias: "Twice a constitution of members has stood in Elias's way …". Elias keeps the style. Silas's oath at Sacramento is the block's last sentence. "Elias's words that day are not recorded" becomes "no one records what he says".
+2. **The Feather River was told twice.** §15 keeps one forward line: "The ideal's hardest test in the interior comes on the Feather in 1886."
+3. **Two openings on 1 August 1887.** The handover comes first, then "With the regency the member offices end"; the capitol is named once.
+4. **Sherman's refusal in §22** was told twice, and in memo form. It becomes "**[PROPOSED]** Sherman dies in February 1891."
+5. "The Realm's own works" in about 1880 becomes "the Confederation's own works".
+6. "The inland command and its reserve" becomes "the inland command and the counties' reserves" (the Commissioner commands the reserve).
+7. "The fear of native rule" becomes "the settlers' fear of being policed by strangers".
+8. **The 1888 act:** "…replaces the open door, and as the labour article requires, no one enters on a broker's debt." The coverage comment comes before it.
+9. **Guest workers' rules** are dropped from the labour law of 1888 (the programme is of 1890).
+10. **CR-060's Ute homeland** becomes "the Slope with North and Middle Park" (A row 15; I-68). The ledger quote and `owes` change with it.
+11. "The Council consents" becomes "The Confederal Council consents".
+12. **The roll for leased ground:** "the miners and townsmen on ground a nation leases, which lies in no county, are on the roll of the county beside it".
+13. **Coeur d'Alene:** "the owners' lockout and their guards' rifles have met the union's dynamite".
+14. **Memo-like passages:**
+    - Victoria gives two reasons in her own voice and keeps two unsaid.
+    - "The settler's sons win their honour elsewhere too:".
+    - "His anger has no crash to ride" is cut.
+15. **Sherman's request:** "At Sherman's request … the officers who fail the board's examination".
+
+**Minor items applied:**
+- the Apache countries ("The peace of 1865, whatever its other terms, gives…");
+- Wilcox's demand merged into one sentence;
+- the survey's reprint of the census;
+- "the Los Angeles massacre of 1871, the Feather River" for the Union's critics;
+- "a line drawn by degrees";
+- San Miguel and Mora vote "whether to join New Mexico under its compact and charter";
+- the memorandum's "first step is money";
+- Deseret's legislature and treasury;
+- "the Mountain Districts".
+
+**Not applied:** Dall's one-sentence paragraph (it is a succession) and the Providentorship's end stated in §12, §21's article and the header (each in its own place).
+
+**Checks after the fixes:** `lint_canon.py` clean; `ledger.py check` 292, 0 problems; `cr_facts.py check` agrees; sync current; `validate_character_docs.py` valid.

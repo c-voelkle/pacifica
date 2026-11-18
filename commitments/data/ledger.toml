@@ -961,7 +961,7 @@ more_quotes = [
   "In 1865 a treaty recognizes the Navajo homeland.",
   "Barboncito and Manuelito negotiate that settlement",
   "the Navajo homeland treaty of 1865 also returns the Navajo held in New Mexican households: grown captives choose whether to go home, a joint commission decides for the children, and Pacifica pays each household that releases one.",
-  "Barboncito will not have degrees.",
+  "Barboncito will not have a line drawn by degrees.",
 ]
 open = "Boundaries not stated. Kit Carson sits as the Rio Grande compact's commissioner, not Pacifica's (APPROVED — CR-061). The Cubero agreement of 1863 is C-1863-NAVAJO-PASSAGE."
 
@@ -5384,7 +5384,7 @@ kind = "pact"
 parties = ["PAC", "UTE"]
 from = 1866
 owes = [
-  { by = "PAC", to = "UTE", what = "the Slope and the Parks reserved as a Ute homeland that can never be sold, whose ground the Republic may lease only for the Utes" },
+  { by = "PAC", to = "UTE", what = "the Slope with North and Middle Park reserved as a Ute homeland that can never be sold, whose ground the Republic may lease only for the Utes" },
 ]
 conditions = [
   "conditional on the treaty",
@@ -5393,7 +5393,7 @@ conditions = [
 status = "PROPOSED"
 cr = "CR-060"
 section = 12
-quote = "Pacifica's commissioners meet the Utes in the summer of 1866, and the agreement they make, conditional on the treaty, reserves the Slope and the Parks as a Ute homeland that can never be sold and whose ground the Republic may lease only for the Utes."
+quote = "Pacifica's commissioners meet the Utes in the summer of 1866, and the agreement they make, conditional on the treaty, reserves the Slope with North and Middle Park as a Ute homeland that can never be sold and whose ground the Republic may lease only for the Utes."
 more_quotes = [
   "The other Ute leaders and terms, and Washakie's agreement.",
   "Ouray, who grew up at Taos speaking Spanish, comes to the table with Carson.",
@@ -5571,7 +5571,7 @@ conditions = [
 ended = 1887
 ended_by = "the Constitution of the Realm (CR-071)"
 more_quotes = [
-  "In October 1867 San Miguel and Mora elect conventions on the old franchise to vote on the compact and the charter.",
+  "In October 1867 San Miguel and Mora elect conventions on the old franchise to vote whether to join New Mexico under its compact and charter.",
 ]
 status = "APPROVED"
 cr = "CR-061"
@@ -6169,7 +6169,7 @@ parties = ["PAC", "COUNTIES"]
 from = 1888
 conditions = [
   "county wage boards on the Realm's benchmarks (CR-038)",
-  "the working day outside the Realm's works; the guest workers' rules",
+  "the working day outside the Realm's works (the guest workers' rules come with the guest-worker programme of 1890)",
   "every child in school until fourteen, family farms included (H7.2)",
   "the Land Fund sells no household more than a family farm; Development Fund credit to the districts' co-operatives (H7.4)",
 ]
@@ -6220,7 +6220,7 @@ status = "APPROVED"
 cr = "CR-071"
 section = 21
 quote = "Each homeland of a million acres or more chooses one through its own council, as does each league of smaller homelands that reaches that size, and Alaska's nations choose one."
-more_quotes = ["Their compacts run to the Realm and change only with the nation's consent.", "A member of a nation becomes a citizen by entering himself on the register, and votes where he lives; those who live on leased ground in no county are on the roll of the county beside it."]
+more_quotes = ["Their compacts run to the Realm and change only with the nation's consent.", "A member of a nation becomes a citizen by entering himself on the register, and votes where he lives; the miners and townsmen on ground a nation leases, which lies in no county, are on the roll of the county beside it."]
 open = "I-7 to I-9, I-70 to I-72, K-22, K-24 APPROVED. An eighth status in CR-021 G (CT5). Leagues formed in 1888: none assumed."
 
 [[commitment]]
