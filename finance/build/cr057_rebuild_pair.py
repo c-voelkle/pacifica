@@ -6,6 +6,7 @@ Chain (each pass): energy export -> CR-052 link (on the CR-050 workbook, commit 
 the Civil War CRs (cr059_068_civil_war.py, then cr059_068_levers.py with cr059_068_values.json; rebuilt on main,
 15 November 2026) -> CR-056 dynamic layer -> CR-057 (c_glide 0: the 1913 cover held, author's decision 2 of 6 Nov 2026) -> the growth
 engine -> Deseret (deseret_gathering.py: the gathering after 1887 and the Saints' birth rate, 16 November 2026)
+-> the interior settlement programme (cr071_settlement.py, CR-071 C5, 17 November 2026)
 -> LibreOffice -> extract -> energy workbook -> LibreOffice -> export. Stops when the energy outputs move by
 less than --tol (relative). The last pass also runs cr056_layers.py (the Layers sheet) on the CR-056 build and
 carries its sheet into the final workbook. Writes the two workbooks in place in the repository.
@@ -80,7 +81,8 @@ def main() -> None:
         run(str(B / "cr057_economic_order.py"), str(W / "CR-056.xlsx"), str(W / "CR-057.xlsx"), "--set", "c_glide=0,0")
         final = W / "final.xlsx"
         run(str(B / "cr057_growth_engine.py"), str(W / "CR-057.xlsx"), str(W / "growth.xlsx"))
-        run(str(B / "deseret_gathering.py"), str(W / "growth.xlsx"), str(final))
+        run(str(B / "deseret_gathering.py"), str(W / "growth.xlsx"), str(W / "deseret.xlsx"))
+        run(str(B / "cr071_settlement.py"), str(W / "deseret.xlsx"), str(final))
         recalc(a.recalc, final)
         run(str(EB / "extract_finance.py"), str(final), str(EB / "finance_inputs.csv"), "--recalc", a.recalc)
         run(str(EB / "build_energy_workbook.py"), str(EB / "finance_inputs.csv"), str(EN / "Pacifica_energy_model_1846-1932.xlsx"))
@@ -94,7 +96,8 @@ def main() -> None:
     run(str(B / "cr056_layers.py"), str(W / "CR-056.xlsx"), str(W / "CR-056L.xlsx"), str(W / "cr056_layers.json"), "--recalc", a.recalc)
     run(str(B / "cr057_economic_order.py"), str(W / "CR-056L.xlsx"), str(W / "CR-057L.xlsx"), "--set", "c_glide=0,0")
     run(str(B / "cr057_growth_engine.py"), str(W / "CR-057L.xlsx"), str(W / "growthL.xlsx"))
-    run(str(B / "deseret_gathering.py"), str(W / "growthL.xlsx"), str(final))
+    run(str(B / "deseret_gathering.py"), str(W / "growthL.xlsx"), str(W / "deseretL.xlsx"))
+    run(str(B / "cr071_settlement.py"), str(W / "deseretL.xlsx"), str(final))
     recalc(a.recalc, final)
     shutil.copy(final, FIN / "Pacifica_financial_model_1846-1932.xlsx")
     print("final workbook copied; energy outputs:", eo)

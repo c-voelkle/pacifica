@@ -1189,3 +1189,203 @@ aliases = ["William Chapman Ralston", "William Ralston", "Billy Ralston"]
 born = 1826
 died = 1897
 source = "CR-073"
+
+[[event]]
+id = "assumption-act"
+year = 1879
+patterns = ['''Assumption Act (?:of )?\(?(?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "militia-act"
+year = 1882
+patterns = ['''Militia Act (?:of )?\(?(?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "county-map-first"
+year = 1884
+patterns = ['''first map (?:of )?\(?(?P<year>1[89]\d\d)''', '''provisional map of about 130 districts in (?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "county-map-second"
+year = 1886
+patterns = ['''second map (?:of )?\(?(?P<year>1[89]\d\d)''', '''the 124 in (?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "california-capital-sacramento"
+year = 1849
+patterns = ['''capital moves from Monterey to Sacramento (?:at the end of |in )?(?P<year>1[89]\d\d)''', '''legislature (?:moves to|sits at) Sacramento (?:in |from )?(?:December )?(?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "water-decision"
+year = 1886
+patterns = ['''water decision of (?:October )?(?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "crown-declined"
+year = 1886
+patterns = ['''In December (?P<year>1[89]\d\d)[^.;]{0,120}Queen of the Realm''']
+source = "CR-071"
+
+[[forbidden]]
+pattern = "Victoria (?:is crowned|becomes|reigns as|is proclaimed) Queen of (?:the Realm|Pacifica)"
+message = "CR-071 K-19: Victoria declines the Realm's crown in December 1886; she is its Regent and reigns as Queen of Hawaii only"
+kind = "fact"
+source = "CR-071"
+
+[[event]]
+id = "constitution-in-force"
+year = 1887
+patterns = ['''enters into force on 1 August (?P<year>1[89]\d\d)''', '''On 1 August (?P<year>1[89]\d\d)[^.;]{0,60}the regency begins''']
+source = "CR-071"
+
+[[event]]
+id = "providentorship-ends"
+year = 1887
+patterns = ['''Providentorship[^.;]{0,40}ends[^.;]{0,40}on 1 August (?P<year>1[89]\d\d)''', '''ends with the regency on 1 August (?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[forbidden]]
+pattern = "Providentorship lasts for Elias(?:'s|’s) life"
+message = "CR-071 G-1: the Providentor's office ends on 1 August 1887, weeks before Elias dies; he keeps the style only (G-11)"
+kind = "fact"
+source = "CR-071"
+
+[[event]]
+id = "baja-purchase"
+year = 1867
+patterns = ['''Baja purchase (?:of |in )(?P<year>1[89]\d\d)''', '''buys Baja(?: California)? in (?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[event]]
+id = "san-juan-lease"
+year = 1873
+patterns = ['''In (?P<year>1[89]\d\d)[^.;]{0,80}negotiates the San Juan lease''', '''San Juan lease of (?P<year>1[89]\d\d)''']
+source = "CR-071"
+
+[[forbidden]]
+pattern = "Alaska(?:n)?[^.;]{0,60}(?:among|one of) the 124|124 counties[^.;]{0,40}(?:including|with) Alaska"
+message = "CR-071 I-7: Alaska stays a territory under the Northern Commission, outside the 124 counties of 1887"
+kind = "fact"
+source = "CR-071"
+
+[[forbidden]]
+pattern = "(?:Pueblos?|Apache|Hopi|Diné|Navajo)[^.;]{0,40}share (?:a|one) (?:senator|Senate seat)"
+message = "CR-071 I-70: each large homeland chooses its own senator; enclaves join leagues only by choice (I-71)"
+kind = "fact"
+source = "CR-071"
+
+[[event]]
+id = "venture-licence"
+year = 1854
+patterns = ['''In (?P<year>1[89]\d\d) the Republic answers Walker''']
+source = "CR-071"
+
+[[event]]
+id = "feather-river-riot"
+year = 1886
+patterns = ['''In (?P<year>1[89]\d\d) a mob drives Chinese families off their district farms''', '''In February (?P<year>1[89]\d\d) a night mob on the Feather''']
+source = "CR-071"
+
+[[forbidden]]
+pattern = "(?:Rock Springs|Hells Canyon)[^.;]{0,80}(?:massacre|occur on Pacifican soil)"
+message = "CR-071 H-17: Rock Springs and Hells Canyon do not happen in Pacifica; the Feather River case of 1886 takes their place"
+kind = "fact"
+source = "CR-071"
+
+[[person]]
+id = "CT-REGINALDO-DEL-VALLE"
+aliases = ["Reginaldo del Valle", "del Valle"]
+born = 1854
+died = 1938
+source = "CR-071"
+
+[[person]]
+id = "CT-JAMES-FAIR"
+aliases = ["James G. Fair", "James Fair"]
+born = 1831
+died = 1894
+source = "CR-071"
+
+[[person]]
+id = "CT-ROBERT-WILCOX"
+aliases = ["Robert Wilcox", "Wilcox"]
+born = 1855
+died = 1903
+source = "CR-071"
+
+[[person]]
+id = "CT-SAMUEL-NOWLEIN"
+aliases = ["Samuel Nowlein", "Nowlein"]
+born = 1851
+born_approx = true
+source = "CR-071"
+
+[[person]]
+id = "CT-JOHN-WESLEY-POWELL"
+aliases = ["John Wesley Powell"]
+born = 1834
+died = 1902
+source = "CR-071"
+
+[[person]]
+id = "CT-HANS-MATTSON"
+aliases = ["Hans Mattson"]
+born = 1832
+died = 1893
+source = "CR-071"
+
+[[person]]
+id = "CT-OURAY"
+aliases = ["Ouray"]
+born = 1833
+born_approx = true
+died = 1880
+source = "CR-071"
+
+[[person]]
+id = "CT-WILLIAM-HEALEY-DALL"
+aliases = ["William Healey Dall", "Dall"]
+born = 1845
+died = 1927
+source = "CR-071"
+
+[[person]]
+id = "CT-HENRY-MILLER"
+aliases = ["Henry Miller"]
+born = 1827
+died = 1916
+source = "CR-071"
+
+[[person]]
+id = "CT-VICTORIO"
+aliases = ["Victorio"]
+born = 1825
+born_approx = true
+source = "CR-071"
+
+[[person]]
+id = "CT-FRANK-RONEY"
+aliases = ["Frank Roney"]
+born = 1841
+died = 1925
+source = "CR-071"
+
+[[person]]
+id = "CT-DENIS-KEARNEY"
+aliases = ["Denis Kearney", "Kearney"]
+born = 1847
+died = 1907
+source = "CR-071"
+
+[[person]]
+id = "CT-ROMUALDO-PACHECO"
+aliases = ["Romualdo Pacheco", "Pacheco"]
+born = 1831
+died = 1899
+source = "CR-071"
