@@ -33,7 +33,8 @@ independence: same-agent (outline only; no review yet)
 | D4 | decision | E-1 the May 1861 note approved; E-2 California's price (a); E-3 a Californian renewal at risk in May 1862; E-4 real historical figures, Burch and one other for the Union side (Starr King proposed); E-5 Beale's public letter used | author, 18 November 2026, 16:19 | current |
 | D5 | decision | D-1 to D-7 approved: the closed sitting as a challenge evening; the 21 players (Starr King confirmed for E-4); the new roles for Broderick and the Calculation Office; D7's errors traced as recommended; the fallback in 1861 and 1864; who hears the plan; Sherman first comes in 1853 as a banker | author, 18 November 2026, 16:29 | current |
 | D6 | decision | B-1 rules stand; F-1 no new Hawaiian aim; F-2 approved; G-1 table complete; CT1 amend (B); CT2 adapt (A); CT3 amend | author, 18 November 2026, 16:45 | current |
-| Q1 | open choice | H-1 (deferred until C–G are drafted); J-2 (recommended: no separate revision, impact notes only) | outline | open |
+| D7 | decision | J-2 approved: no separate revision of CR-065; impact notes at integration | author, 18 November 2026, 17:11 | current |
+| Q1 | open choice | H-1 (deferred until C–G are drafted) | outline | open |
 
 ## Revision of 13:20
 
@@ -52,6 +53,7 @@ independence: same-agent (outline only; no review yet)
 
 ## Resume here
 
-- Next: the author's view of the J-2 recommendation; draft Part C in full.
+- Part C drafted in full: `book-agent/revision/CR-075-C-aims.md` (preamble draft text, the five objects, the price and the promise to treat, Burch's motion, the rule that each resolution names its object). Open: C-5 to C-11.
+- Next: the author's answers on C-5 to C-11; then Part E (California) in full, as recommended.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
