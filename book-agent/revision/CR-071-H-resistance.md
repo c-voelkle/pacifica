@@ -200,7 +200,7 @@ No one is beaten by force on the day. The members have had no armed men of their
 
 > I approve 1-4, but I think an honest avenue should be made for those who can't pass or refuse to be examined for whatever reason to obtain not just status but also property and the means to win over a smart wife. Just as the officers who fail get the inland command to honor their achievements on the battlefield, so the state should not obstruct real rewards commensurate to virtue accruing to all citizens. Technical schools where profitable trades are learned are a must and almost go without saying, but what Pacifica should do over and above that is to encourage and provide training and legal avenues for brave young men to go abroad and make their fortunes, perhaps in the form of a Pacific Privateer force. (Author, 18 November 2026, 05:51)
 
-**H-19 (direction APPROVED).** Every citizen gets an honest road to status, property and marriage, examined or not:
+**H-19 (direction APPROVED; shape APPROVED 18 November 2026, 06:01; own CR).** Every citizen gets an honest road to status, property and marriage, examined or not:
 - **Technical schools for the profitable trades** (APPROVED; "almost go without saying").
 - **Over and above them**, state training and legal avenues for brave young men to go abroad and make their fortunes. **Form PROPOSED**: the author's "perhaps … a Pacific Privateer force".
 
@@ -258,7 +258,7 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-15 | Silas as the settler interior's guarantor: the Truce read as the interior's bargain (H6.1) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); details PROPOSED or OPEN |
 | H-17 | Rock Springs and Hells Canyon replaced by an irrigation-district attack on Asian farmers, prosecuted (H6.3) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); details PROPOSED |
 | H-18 | Pacifican nativism is a grievance of ethos and status; Pacifica makes good on it through the institutionalized agon, not a quota (H6.3, H6.4) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); H6.4 items 1–4 **APPROVED** (05:51), item 5 PROPOSED |
-| H-19 | An honest avenue for the unexamined to status, property and marriage: technical schools, and training and legal avenues abroad (H6.5) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:51); form PROPOSED (the author's "perhaps … a Pacific Privateer force") |
+| H-19 | An honest avenue for the unexamined to status, property and marriage: technical schools, and training and legal avenues abroad (H6.5) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:51); **shape of H6.5 APPROVED** (06:01: "I agree it warrants its own CR, but I approve of this shape"); the institution goes to its own CR (CR-074 is the next free number), CR-071 carries only the promise of 1887–88 |
 | H-16 | A labour article as the settlers' price: equal wage, no unfree or contract labour, entry by examination and sponsorship (H6.2) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); terms PROPOSED or OPEN |
 
 ## Canon touchpoints

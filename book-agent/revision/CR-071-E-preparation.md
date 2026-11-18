@@ -45,6 +45,26 @@ Two members stay outside most of this until the end: **California** and **Desere
 ## E2. Money: the assumption (1875–1879) — E-2, E-3 APPROVED
 
 **The lean years (1875–77).** The depression reaches the coast in 1875 and coin drains east (Hist.; CR-073 B3); the drought of 1876–77 ruins the southern ranges (Hist. for California); the members' railway and road bonds, issued on the grants of the 1860s, fall into arrears in Oregon, Columbia and the interior. The confederal credit is sound and the members' is not.
+
+*Checked against the model, 18 November 2026* (`finance/Pacifica_financial_model_1846-1932.xlsx`, saved values; the author asked whether "even relatively lean" holds). **The model does not have lean years 1875–77.**
+
+| Year | Output vs trend (Economy) | Unemployment (Labour) | Real GDP (1913 $m) | Price level (1913 = 1) | Confederal receipts ($m) | Mining & oil ($m) |
+|---|---|---|---|---|---|---|
+| 1872 | 1.00 | 1.5% | 1,007 | 0.922 | 120.9 | 33.5 |
+| 1873 | 0.98 | — | 1,078 | 0.908 | — | 39.2 |
+| 1874 | **0.97** | **3.0%** | 1,161 | 0.894 | 126.6 | 41.8 |
+| 1875 | 0.98 | 2.5% | 1,273 | 0.880 | 136.5 | 44.3 |
+| 1876 | 1.00 | 1.5% | 1,408 | 0.864 | 148.5 | 49.2 |
+| 1877 | 0.98 | 2.5% | 1,496 | 0.848 | 156.1 | 53.3 |
+| 1878 | 1.00 | 1.5% | 1,628 | 0.832 | 170.4 | 42.0 |
+
+- The Union's depression reaches the coast as two shallow dips, 1873–75 and 1877. Output runs two or three per cent below its path and unemployment is two to three per cent. Real output grows every year with the population; 1876 is a normal year.
+- Prices fall steadily, about 1.6% a year, so a fixed debt grows heavier each year.
+- The confederal treasury runs surpluses and puts \$43–49m a year into its Reserve Fund in 1876–78. It is a net creditor.
+- The members' own finances are not modelled (E2's debts are MODEL and not yet in the workbook).
+- **Relative to the Union**, the real turn comes later: Pacifica's lead in output per person falls from 1.89 (1875) to 1.64 (1881), as the Union recovers from 1878 and Washoe's mining falls from 1878.
+
+**PROPOSED rewording (E-2a, for the author).** Replace "the lean years of 1875–77" with "the slack years after 1873". The members' arrears then come from what the model does show: falling prices that make every fixed coupon heavier, lines built ahead of their traffic, and the coin shortage of August 1875. They do not come from a depression the model does not have. The storyline text (draft 2, §19) would change: "The slack years after 1873 and falling prices have put the members' railway and road bonds into arrears, while the Reserve Bank carried the coast's largest private bank through August 1875." The drought of 1876–77 stays as a regional fact (Hist.; not in the model).
 - **August 1875 (CR-073 E1, R1, R9).** The city's coin runs short. The Reserve Bank discounts the Bank of California's good paper at a penalty rate, the doors stay open and no run happens. The same month the Republic, meaning the Confederation (K-5, Part F), buys the Spring Valley Water Company at a published valuation. San Francisco's private money comes through the lean years intact, and owes it to the Confederation's institutions, not to California's.
 - **The members' lesson.** The Confederation's Reserve Bank carried the coast's largest private bank through August 1875; no member could have. Oregon, Columbia and the interior, whose bonds are in arrears, see what the Confederation's credit is worth.
 
@@ -210,7 +230,8 @@ CR-073 goes into canon before this CR (K-1), so this CR carries E-15 and the gua
 | # | Question | Status |
 |---|---|---|
 | E-1 | The Militia Act of 1882, with examined commissions for militia officers, and the failed officers gathering in the inland command | **APPROVED** (extended by K-2) |
-| E-2 | The lean years of 1875–77 as the occasion for the assumption, with August 1875 as in CR-073 | **APPROVED** |
+| E-2 | The lean years of 1875–77 as the occasion for the assumption, with August 1875 as in CR-073 | **APPROVED**; wording under review against the model (E-2a, 18 November 2026) |
+| E-2a | "The slack years after 1873" in place of "the lean years of 1875–77" (E2, model check) | PROPOSED |
 | E-3 | The Assumption Act and the Commission Act of 1879 as one offer, taken or refused together | **APPROVED** |
 | E-4 | Step one's title: member executives become **Commissioners of the Confederation**, the title the county officers take in 1887 | **APPROVED**; the act's name is E-17 |
 | E-5 | California and Deseret refuse step one and stay the two hard cases until 1887 | **APPROVED** |
