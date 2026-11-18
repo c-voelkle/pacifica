@@ -35,7 +35,13 @@ independence: same-agent (outline only; no review yet)
 
 - Part D rebuilt: D-a the closed sitting as a challenge evening with Sherman as respondent; D-b fifteen players (P1–P15) with what each knows, their own interest and where they act on their own; D-c the estimate (D1–D7) with a *how does he know* column. B8 added; C7 corrected (the invited guard at Salt Lake, 1862, without a vote); I1 and R6 added. Working copy of Part D: `part-D-draft1.md`.
 
+## Research, 18 November 2026
+
+- 14:15: the author supplied seven texts; plan in `research-plan.md`.
+- 14:52: four more (Kuykendall II, Lavender on Ralston, Williams on Broderick, Thompson on Beale); pass 1, the keyword sweep of all eleven, in `research-pass1-sweep.md` (122 queries; reading guide, matrix, clusters, year windows, locations, silences). Texts, extraction and snippets stay outside the repository.
+
 ## Resume here
 
+- Next: pass 2 (close reading) from the sweep's reading guide, when the author says go.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
