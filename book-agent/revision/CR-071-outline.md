@@ -235,6 +235,8 @@ Candidate set pieces: the 1872 conversation (D2); the boundary commission in the
 
 ## Before integration (17 November 2026)
 
+**Added 18 November 2026:** before integration, the settler majority (Part H, H6): H-15 and H-16 (directions APPROVED) need their terms; the Party's co-option, the sentiment toward the Chinese (Rock Springs and Hells Canyon in canon) and a popular vote are still to decide. The storyline text (draft 2) does not yet carry H6.
+
 What must be done before CR-071 can be integrated, from the fresh-context review of the whole CR and the canon check (F–G, section R):
 
 1. **CR-072 and CR-073** approved and integrated first (K-1). **Done:** integrated on `main` on 17 November 2026 (PR #74) and merged into this branch the same night.

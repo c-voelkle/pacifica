@@ -137,6 +137,47 @@ No one is beaten by force on the day. The members have had no armed men of their
 
 **Where the friction went.** Pacifica does not escape Kagoshima; it concentrates it. Every armed resentment the reform creates sits in one command, the inland command, and the Truce writes it into organic law for life (D6). Japan paid in blood once and was done: after 1877 the opposition went into the Diet. Pacifica pays less in 1887 and keeps paying: Donner, then the county oligarchies' bloc in the Senate in 1910–1911 and the refusal of 1927 (H3). The Chronicler does not draw the comparison with Satsuma (Part D, decision 10); this section is the CR's reasoning, not text for the page.
 
+## H6. The settler majority: who speaks for him, and his price (H-15, H-16; directions APPROVED)
+
+**The gap (review of 18 November 2026).** H1 buys every organised interest: Californios, the Church, Hispanos, the nations, judges, the member offices, the San Francisco houses. Nobody pays the Anglo-American farmer, miner and workingman of Oregon, Idaho, Montana, Washoe, Columbia and the Sacramento valley. Yet he loses his state, gets a Hawaiian Regent and a Commissioner he did not elect, and in 1888 the Franchise Law gives his examined or multilingual neighbour more votes than him. The constitution also ends the members' power to exclude. This man is the period's most volatile mass politics: in our timeline, the Workingmen of 1877–79 and the anti-Chinese movement of 1885–86. Two historical parallels:
+- the abolition of the Mexican states in 1835 brought the risings of Texas, Zacatecas and Yucatán;
+- in July 1887 the Bayonet Constitution showed the reflex of American settlers toward native rule.
+
+> I like the first two for sure and you can note them down. (Author, 18 November 2026, 05:14, on the review's four directions: Silas as the settlers' guarantor; a labour article as their price; the Party co-opting the movement; a popular vote.)
+
+### H6.1 Silas as the settler interior's guarantor (H-15, direction APPROVED)
+
+- **The idea.** The Truce is read as the settler interior's bargain, not only Silas's private price. The interior's Anglo-American majority gets an armed guarantee that native rule will not be turned on it: its man holds the inland command for life (G5; §22). The command's officers are the men who failed Sherman's board in 1882 (E-13), and it sits at Sacramento.
+- **Canon it builds on.** "Silas's nativists" raise the school-segregation crisis of 1906 (§26, CR-022). His adjutant Harlan Tate, Sacramento's senator, leads the county bloc in the Senate (CR-022). In H1 row 13, Silas "does not oppose the act; is bought by the Truce".
+- **PROPOSED, to settle with the text:**
+  - Silas speaks for the interior in 1887, publicly or through Tate.
+  - His price includes something for his constituency beyond his own command.
+  - The interior's settlers see the inland command as theirs.
+  - Silas is the reason the exclusionists of the Willamette and the Sacramento valley do not become a rising.
+- **OPEN:**
+  - Whether Silas takes a public part in the ratification campaign of 1887, or holds back and lets his silence be read.
+  - Whether the Truce text names the interior at all.
+
+### H6.2 A labour article as the settlers' price (H-16, direction APPROVED)
+
+- **The idea.** This is the workingman's counterpart of the historic-land clause (G6.2) and the Church's personal guarantee: a labour article in the Constitution of 1887. Its aim is to meet the grievance that drove the Workingmen in our timeline, which was unfree and undercutting labour, not the presence of the Chinese as such.
+- **PROPOSED elements, to choose from:**
+  - the same wage for the same work, enforced by the county wage boards (CR-038's benchmarked pay);
+  - no indenture, credit-ticket or gang-boss labour, extending Hawaii's abolition of penal contracts of 1866 (CR-038) and the rule of directly paid crews (CR-031-R1) to all the Realm;
+  - entry by examination and sponsorship, not by contract;
+  - possibly the guest-worker levy brought forward from 1890 to fund the county schools.
+- **Canon it builds on.** In §25 (l. 914), "In 1888 selective skilled and sponsored-family immigration replaces the open door … unskilled Union arrivals are refused." Canon already closes the door to unskilled labour a year after the constitution; H-16 can tie that act to the ratification as the price it is.
+- **OPEN:**
+  - Whether the article is in the constitution or is an organic law promised with it.
+  - Its exact terms.
+  - Whether the 1888 immigration act is that promise.
+
+### H6.3 Still to decide
+
+- **What the Prosperity Party co-opts** from the settlers' movement, and how. The author: "co-opt it must". This waits on the next question.
+- **The sentiment toward the Chinese in Pacifica.** Which of our timeline's drivers apply, and whether Rock Springs (1885) and Hells Canyon (1887), which canon (§15, l. 703) places on Pacifican soil, are believable. This is under discussion as of 18 November 2026. As drawn by CR-071, the Wallowa is the Nez Perce's country (I-47; I4b), so Hells Canyon's setting does not exist. Green River's Rock Springs has "a large Asian minority" (I4a).
+- **A popular vote on the constitution.** Not taken up yet.
+
 ## Decisions for the author
 
 | # | Question | Recommendation | Status |
@@ -155,6 +196,8 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-12 | The comparison with Meiji as the CR's reasoning, not the Chronicler's (H5) | Yes | **APPROVED** (author, 16 November) |
 | H-13 | The Queen's Guard's commander in 1889 (H4) | Samuel Nowlein | **APPROVED** (author, 16 November, 23:26) |
 | H-14 | Wilcox's later life (H4) | Dies in 1903 as historically; the 1907 campaign passes to others, possibly his widow Theresa | **APPROVED** (author, 16 November, 23:26) |
+| H-15 | Silas as the settler interior's guarantor: the Truce read as the interior's bargain (H6.1) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); details PROPOSED or OPEN |
+| H-16 | A labour article as the settlers' price: equal wage, no unfree or contract labour, entry by examination and sponsorship (H6.2) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); terms PROPOSED or OPEN |
 
 ## Canon touchpoints
 
@@ -177,6 +220,7 @@ No one is beaten by force on the day. The members have had no armed men of their
 - **CT2 — Fair in the Confederal Council.** Canon has no Washoe delegate named. New fact (Hist. parallel); no conflict.
 - **CT3 — Deady on the Court of the Realm.** Canon names no judge of the Court in 1887. New fact; his historical death in 1893 fits CR-038's retirement in 1892.
 - **CT4 — The Honolulu rising of 1889.** Canon has no armed episode in Hawaii after 1874. New facts: Wilcox, the rising, the seven dead, the acquittal and the Regent's promise. No conflict with the protected intent (the throne is never in abeyance; Victoria reigns throughout).
+- **CT6 — The settler majority (H6).** H-15 and H-16 add to canon: the Truce's reading (§22) and a labour article in 1887 (§21), the second possibly tied to the 1888 immigration act (§25, l. 914). Canon's Rock Springs and Hells Canyon (§15, l. 703) are under review (H6.3); no case is drafted yet.
 - **CT5 — Wilcox at Turin.** Hawaii's external relations are confederal (§6), so the Turin schooling is Kalākaua's private arrangement with the Queen's leave, not an act of state.
 
 ## Fact changes
