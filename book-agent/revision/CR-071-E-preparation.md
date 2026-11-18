@@ -60,7 +60,7 @@ Two members stay outside most of this until the end: **California** and **Desere
 
 - The Union's depression reaches the coast as two shallow dips, 1873–75 and 1877. Output runs two or three per cent below its path and unemployment is two to three per cent. Real output grows every year with the population; 1876 is a normal year.
 - Prices fall steadily, about 1.6% a year, so a fixed debt grows heavier each year.
-- The confederal treasury runs surpluses and puts \$43–49m a year into its Reserve Fund in 1876–78. It is a net creditor.
+- The confederal treasury runs surpluses and puts $43–49m a year into its Reserve Fund in 1876–78. It is a net creditor.
 - The members' own finances are not modelled (E2's debts are MODEL and not yet in the workbook).
 - **Relative to the Union**, the real turn comes later: Pacifica's lead in output per person falls from 1.89 (1875) to 1.64 (1881), as the Union recovers from 1878 and Washoe's mining falls from 1878.
 
