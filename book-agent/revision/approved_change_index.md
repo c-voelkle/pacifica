@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 71 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 72 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1194,6 +1194,15 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - The items still marked OPEN in CR-070.md (Open decisions) and in the storyline; amounts MODEL (finance/CR-059-068-workbook.md).
+
+### CR-071 — The states dissolved and the 124 counties drawn (1865–1888)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- How the member states were dissolved, 1865–1887: the hollowing by grants (1865–71), the Assumption and Commission Acts (1879), the Militia Act (1882), Judah's survey and the 124 counties (1880–86), the triggers of 1885–86, the ratifications and the article of supersession, the regency of 1 August 1887; who resisted and how each was bested; the settlers' bargain (the labour article, each people kept in order by its own, the Party's trades and lodges, the Pacific Companies' first generation, the labour law and the Companies Act of 1888); the Feather River case of 1886 in place of Rock Springs and Hells Canyon; the map of the 124 counties, the homelands and Alaska outside the 124; the Honolulu rising of 1889.
+
+**Still open:**
+- The first Commissioners, the Baja commissioners and the first Chancellor; when Powell enters service; Sand Creek; Oraibi's year and the Hopi leaders; the Cochimí; the counties' changes after 1887; the Pacific Companies' details and the Companies Act's terms (CR-074); Victorio's death; the ladder's year; Part H's details marked PROPOSED.
 
 ### CR-072 — The Prosperity Party: Elias's instrument, the regency's pillar (1865–1932)
 

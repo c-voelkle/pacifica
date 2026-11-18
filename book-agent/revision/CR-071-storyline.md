@@ -69,7 +69,7 @@ CR-021's own passages (R1 items 8–13 of Parts F–G) are amended in `CR-021.md
 
 The rest of l. 218, from "The election of 1850 strengthens merchants …", follows as its own paragraph, unlabelled as before. The squatters' quarrel at Sacramento comes in that paragraph, in August, so the block no longer mentions it.
 
-### §5, l. 238: after "…without making them subordinate to Elias." (H7.8)
+### §6, l. 238: after "…without making them subordinate to Elias." (H7.8)
 
 > <!-- CR-071: the venture licence --> **[APPROVED — CR-071]** In 1854 the Republic answers Walker with a law of its own: no one may make war abroad from its soil, and a venture abroad needs the Republic's licence and bond. **[PROPOSED — CR-071]** Sealers, whalers, guano men and traders take out the first licences.
 

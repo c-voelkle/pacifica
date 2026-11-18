@@ -311,7 +311,7 @@ conditions = [
 ]
 status = "APPROVED"
 cr = "CR-071"
-section = 5
+section = 6
 quote_draft = "In 1854 the Republic answers Walker with a law of its own: no one may make war abroad from its soil, and a venture abroad needs the Republic's licence and bond."
 open = "H7.8 dates APPROVED (author, 18 November 2026, 06:36); details PROPOSED pending CR-074."
 ```

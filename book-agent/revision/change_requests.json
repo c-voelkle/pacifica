@@ -4572,6 +4572,320 @@
       ]
     },
     {
+      "id": "CR-071",
+      "title": "The states dissolved and the 124 counties drawn (1865–1888)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-18",
+      "decision_record": "CR-071-outline.md",
+      "authorization": "Author, 15–17 November 2026: Parts D, E, F–G (K-1 to K-25 as settled), H (H-1 to H-14), I (I-1 to I-73) and the storyline text; 17 November 2026, 23:03: E-12 confirmed; 23:07: the review's fixes applied. 18 November 2026: H-15 to H-20 (05:14 to 06:36), the companies' dates approved with their details PROPOSED pending CR-074; 06:36: \"Let's finish up 071 now.\"",
+      "requirements": [
+        "How the member states were dissolved, 1865–1887: the hollowing by grants (1865–71), the Assumption and Commission Acts (1879), the Militia Act (1882), Judah's survey and the 124 counties (1880–86), the triggers of 1885–86, the ratifications and the article of supersession, the regency of 1 August 1887; who resisted and how each was bested; the settlers' bargain (the labour article, each people kept in order by its own, the Party's trades and lodges, the Pacific Companies' first generation, the labour law and the Companies Act of 1888); the Feather River case of 1886 in place of Rock Springs and Hells Canyon; the map of the 124 counties, the homelands and Alaska outside the 124; the Honolulu rising of 1889."
+      ],
+      "open": [
+        "The first Commissioners, the Baja commissioners and the first Chancellor; when Powell enters service; Sand Creek; Oraibi's year and the Hopi leaders; the Cochimí; the counties' changes after 1887; the Pacific Companies' details and the Companies Act's terms (CR-074); Victorio's death; the ladder's year; Part H's details marked PROPOSED."
+      ],
+      "facts": [
+        {
+          "add_event": {
+            "id": "assumption-act",
+            "year": 1879,
+            "patterns": [
+              "Assumption Act (?:of )?\\(?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "militia-act",
+            "year": 1882,
+            "patterns": [
+              "Militia Act (?:of )?\\(?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "county-map-first",
+            "year": 1884,
+            "patterns": [
+              "first map (?:of )?\\(?(?P<year>1[89]\\d\\d)",
+              "provisional map of about 130 districts in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "county-map-second",
+            "year": 1886,
+            "patterns": [
+              "second map (?:of )?\\(?(?P<year>1[89]\\d\\d)",
+              "the 124 in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "california-capital-sacramento",
+            "year": 1849,
+            "patterns": [
+              "capital moves from Monterey to Sacramento (?:at the end of |in )?(?P<year>1[89]\\d\\d)",
+              "legislature (?:moves to|sits at) Sacramento (?:in |from )?(?:December )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "water-decision",
+            "year": 1886,
+            "patterns": [
+              "water decision of (?:October )?(?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "crown-declined",
+            "year": 1886,
+            "patterns": [
+              "In December (?P<year>1[89]\\d\\d)[^.;]{0,120}Queen of the Realm"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Victoria (?:is crowned|becomes|reigns as|is proclaimed) Queen of (?:the Realm|Pacifica)",
+            "message": "CR-071 K-19: Victoria declines the Realm's crown in December 1886; she is its Regent and reigns as Queen of Hawaii only",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_event": {
+            "id": "constitution-in-force",
+            "year": 1887,
+            "patterns": [
+              "enters into force on 1 August (?P<year>1[89]\\d\\d)",
+              "On 1 August (?P<year>1[89]\\d\\d)[^.;]{0,60}the regency begins"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "providentorship-ends",
+            "year": 1887,
+            "patterns": [
+              "Providentorship[^.;]{0,40}ends[^.;]{0,40}on 1 August (?P<year>1[89]\\d\\d)",
+              "ends with the regency on 1 August (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Providentorship lasts for Elias(?:'s|’s) life",
+            "message": "CR-071 G-1: the Providentor's office ends on 1 August 1887, weeks before Elias dies; he keeps the style only (G-11)",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_event": {
+            "id": "baja-purchase",
+            "year": 1867,
+            "patterns": [
+              "Baja purchase (?:of |in )(?P<year>1[89]\\d\\d)",
+              "buys Baja(?: California)? in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "san-juan-lease",
+            "year": 1873,
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d)[^.;]{0,80}negotiates the San Juan lease",
+              "San Juan lease of (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "Alaska(?:n)?[^.;]{0,60}(?:among|one of) the 124|124 counties[^.;]{0,40}(?:including|with) Alaska",
+            "message": "CR-071 I-7: Alaska stays a territory under the Northern Commission, outside the 124 counties of 1887",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:Pueblos?|Apache|Hopi|Diné|Navajo)[^.;]{0,40}share (?:a|one) (?:senator|Senate seat)",
+            "message": "CR-071 I-70: each large homeland chooses its own senator; enclaves join leagues only by choice (I-71)",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_event": {
+            "id": "venture-licence",
+            "year": 1854,
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d) the Republic answers Walker"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "feather-river-riot",
+            "year": 1886,
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d) a mob drives Chinese families off their district farms",
+              "In February (?P<year>1[89]\\d\\d) a night mob on the Feather"
+            ]
+          }
+        },
+        {
+          "add_forbidden": {
+            "pattern": "(?:Rock Springs|Hells Canyon)[^.;]{0,80}(?:massacre|occur on Pacifican soil)",
+            "message": "CR-071 H-17: Rock Springs and Hells Canyon do not happen in Pacifica; the Feather River case of 1886 takes their place",
+            "kind": "fact"
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-REGINALDO-DEL-VALLE",
+            "aliases": [
+              "Reginaldo del Valle",
+              "del Valle"
+            ],
+            "born": 1854,
+            "died": 1938
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-JAMES-FAIR",
+            "aliases": [
+              "James G. Fair",
+              "James Fair"
+            ],
+            "born": 1831,
+            "died": 1894
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-ROBERT-WILCOX",
+            "aliases": [
+              "Robert Wilcox",
+              "Wilcox"
+            ],
+            "born": 1855,
+            "died": 1903
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-SAMUEL-NOWLEIN",
+            "aliases": [
+              "Samuel Nowlein",
+              "Nowlein"
+            ],
+            "born": 1851,
+            "born_approx": true
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-JOHN-WESLEY-POWELL",
+            "aliases": [
+              "John Wesley Powell"
+            ],
+            "born": 1834,
+            "died": 1902
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-HANS-MATTSON",
+            "aliases": [
+              "Hans Mattson"
+            ],
+            "born": 1832,
+            "died": 1893
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-OURAY",
+            "aliases": [
+              "Ouray"
+            ],
+            "born": 1833,
+            "born_approx": true,
+            "died": 1880
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-WILLIAM-HEALEY-DALL",
+            "aliases": [
+              "William Healey Dall",
+              "Dall"
+            ],
+            "born": 1845,
+            "died": 1927
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-HENRY-MILLER",
+            "aliases": [
+              "Henry Miller"
+            ],
+            "born": 1827,
+            "died": 1916
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-VICTORIO",
+            "aliases": [
+              "Victorio"
+            ],
+            "born": 1825,
+            "born_approx": true
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-FRANK-RONEY",
+            "aliases": [
+              "Frank Roney"
+            ],
+            "born": 1841,
+            "died": 1925
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-DENIS-KEARNEY",
+            "aliases": [
+              "Denis Kearney",
+              "Kearney"
+            ],
+            "born": 1847,
+            "died": 1907
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-ROMUALDO-PACHECO",
+            "aliases": [
+              "Romualdo Pacheco",
+              "Pacheco"
+            ],
+            "born": 1831,
+            "died": 1899
+          }
+        }
+      ]
+    },
+    {
       "id": "CR-072",
       "title": "The Prosperity Party: Elias's instrument, the regency's pillar (1865–1932)",
       "status": "approved_integrated_local_labels_retained",
