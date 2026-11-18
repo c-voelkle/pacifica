@@ -184,7 +184,7 @@ No one is beaten by force on the day. The members have had no armed men of their
   Its knock-on: l. 931 ("Union critics answer with the Chinese massacres") changes with it. **PROPOSED, to settle:** the district, the year, what is done (sheds and crops burned, families driven off, deaths or none), the trial and the sentence. **This is a canon tension:** l. 703 is amended (CT7 below).
 - **H-18 (direction APPROVED): the grievance and the remedy.** Pacifican nativism is a grievance of status and ethos, not of wages. A proud settler people rejects the grind as alien and does not want it overvalued, or too closely coupled with power. The author holds it legitimate: Pacifica must substantially make good on it. Canon's institutionalized agon is the avenue: "Give ability its trial and achievement its honour", and among the qualified, achievement outranks examination rank (CR-049, §5 l. 214, §8 l. 295). The remedy is not a quota (CR-037 forbids one); it widens what counts. **PROPOSED mechanisms, for the author:** H6.4.
 
-### H6.4 Making good through the agon (PROPOSED, for the author)
+### H6.4 Making good through the agon (items 1–4 APPROVED, 18 November 2026, 05:51; item 5 PROPOSED)
 
 1. **The examination as a floor, not a ladder, for power.** The civil examination stays the gate to office (CR-037). Above it, postings to county Commissioner and to the Realm's offices go by the record of works, as fellowships have since 1854, not by marks. In 1887 the rule written for the Polytechnic becomes the rule for the service.
 2. **Hours out of the contest.** H-16's labour article adds a maximum working day: eight hours on the Realm's works and in its chartered undertakings, and a weekly day of rest everywhere. No one wins a wage job by working longer. This was the Workingmen's and the Knights of Labor's first demand; California's unenforced eight-hour law of 1868 is the historical seed. Family farms and shops stay outside it, which is why the irrigation districts remain the sharp edge (H-17).
@@ -196,10 +196,45 @@ No one is beaten by force on the day. The members have had no armed men of their
 4. **Silas as the type.** He is the brave soldier capped by an examination (he fails the mathematics in 1882). The inland command is the refuge of the men the grind turned away (E-13, H-15). The agon is the Realm's answer to the next Silas; whether it comes too late for this one is the story's.
 5. **The limit, kept honest.** Asian families who out-work their neighbours on their own land cannot be legislated against without breaking CR-037. The agon answers the status grievance; it does not end the competition for land. That residue is the nativists of 1906 and the county oligarchies of 1910–11.
 
-### H6.5 Still to decide
+### H6.5 The honest avenue for the unexamined (H-19; direction APPROVED)
+
+> I approve 1-4, but I think an honest avenue should be made for those who can't pass or refuse to be examined for whatever reason to obtain not just status but also property and the means to win over a smart wife. Just as the officers who fail get the inland command to honor their achievements on the battlefield, so the state should not obstruct real rewards commensurate to virtue accruing to all citizens. Technical schools where profitable trades are learned are a must and almost go without saying, but what Pacifica should do over and above that is to encourage and provide training and legal avenues for brave young men to go abroad and make their fortunes, perhaps in the form of a Pacific Privateer force. (Author, 18 November 2026, 05:51)
+
+**H-19 (direction APPROVED).** Every citizen gets an honest road to status, property and marriage, examined or not:
+- **Technical schools for the profitable trades** (APPROVED; "almost go without saying").
+- **Over and above them**, state training and legal avenues for brave young men to go abroad and make their fortunes. **Form PROPOSED**: the author's "perhaps … a Pacific Privateer force".
+
+**PROPOSED: the form** (for the author; drafted 18 November 2026).
+
+1. **Privateering in the strict sense is a war power only.** A letter of marque licenses a private ship against an enemy's commerce, in a declared war, under a prize court; in peace the same act is piracy. The Declaration of Paris (April 1856) abolished it among its signers; the United States refused to sign. **OPEN:** whether the Republic accedes. If it stays outside, letters of marque are a real tool in canon's wars: against Russian shipping in 1878 (§14), in 1898–99 and 1904–05, with prize courts at San Francisco and Honolulu and the prize shares as the fortune. In the forty years of peace between them, they are no avenue at all.
+2. **The peacetime avenue: licensed service and enterprise abroad.** Three historical models, combined:
+   - **The Swiss capitulations.** For three centuries the cantons signed treaties with foreign crowns that supplied whole regiments. The treaties fixed pay, kept the men's own officers and courts, and brought wealth and honour home. That was the honest road abroad for the poor mountain cantons' brave sons, until the federal ban of 1859.
+   - **Frederick Townsend Ward's Ever-Victorious Army.** A Salem sailor turned adventurer drilled a Chinese force for the Qing in 1860–62, a natural Pacifican prototype a year before the war.
+   - **Land for service.** The United States' bounty-land warrants for its veterans (1847–55), and the Pioneer Column's promise of farms and gold claims (1890), without its conquest.
+3. **What the Realm provides (PROPOSED elements):**
+   - **A school of the companies.** Admission is by trial of body and nerve, not by paper: riding, shooting, seamanship, surveying, field medicine and a working tongue. Rank inside goes by deeds before witnesses (H6.4, 3).
+   - **Capitulations with partners.** Companies serve abroad under treaty with their own officers, pay and justice: guard, gendarmerie or the Customs' preventive service for Korea, China, Siam and the Philippines' crown; railway guards in Manchuria and Siberia. Canon already has railway guards and a Pacifican-led Customs Inspectorate from 1885.
+   - **Licensed ventures.** Mining, sealing, pearling, plantation and trading ventures abroad, each under a Realm licence and bond and only on a concession the host government grants, with the Realm's consuls and courts behind them. The Unsan gold concession in Korea (1895) is a ready case.
+   - **Rewards at home.** A Land Fund warrant for years served, honoured like the inland command's; a company commission counts for the Franchise Law's third vote (**a canon tension**: CR-021's "commission"); the roll of deeds; and the county festivals.
+4. **What it may never be (canon's limits):**
+   - **No filibustering.** In 1853–54 the Republic cut off Walker's supplies and tried his men (§5). The legal road is the answer to that one, not a return to it.
+   - **No service in the Americas.** Pacifica is "the giant its neighbours need not fear" (CR-058), and Mexico remembers Walker.
+   - **No land taken except by compact.** Paid labour only, and no campaign of extermination (protected intent).
+   - **No covert arms** for the rump Confederacy or anyone else (CR-048 A2).
+5. **Where it sits.** Its roots run from 1854 (after Walker) and 1860 (Ward). Its statute is the settler's promise of 1887–88, beside the labour article (H-16), and its life runs past 1932. **Recommendation:** its own CR for the institution, with CR-071 carrying only the promise of 1887 and the statute's name.
+
+**OPEN:**
+- the name ("Privateers" is exact only in war);
+- accession to the Declaration of Paris;
+- the partners and the first capitulation;
+- the warrant's size;
+- whether the 1887 promise is in the Constitution or an organic law;
+- the separate CR.
+
+### H6.6 Still to decide
 
 - **What the Prosperity Party co-opts** from the settlers' movement, and how. The author: "co-opt it must". This waits on the next question.
-- **The terms of H-17 and H-18**, and which of H6.4's mechanisms stand.
+- **The terms of H-17 and H-19**; H6.4's item 5.
 - **A popular vote on the constitution.** Not taken up yet.
 
 ## Decisions for the author
@@ -222,7 +257,8 @@ No one is beaten by force on the day. The members have had no armed men of their
 | H-14 | Wilcox's later life (H4) | Dies in 1903 as historically; the 1907 campaign passes to others, possibly his widow Theresa | **APPROVED** (author, 16 November, 23:26) |
 | H-15 | Silas as the settler interior's guarantor: the Truce read as the interior's bargain (H6.1) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); details PROPOSED or OPEN |
 | H-17 | Rock Springs and Hells Canyon replaced by an irrigation-district attack on Asian farmers, prosecuted (H6.3) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); details PROPOSED |
-| H-18 | Pacifican nativism is a grievance of ethos and status; Pacifica makes good on it through the institutionalized agon, not a quota (H6.3, H6.4) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); mechanisms PROPOSED |
+| H-18 | Pacifican nativism is a grievance of ethos and status; Pacifica makes good on it through the institutionalized agon, not a quota (H6.3, H6.4) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:34); H6.4 items 1–4 **APPROVED** (05:51), item 5 PROPOSED |
+| H-19 | An honest avenue for the unexamined to status, property and marriage: technical schools, and training and legal avenues abroad (H6.5) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:51); form PROPOSED (the author's "perhaps … a Pacific Privateer force") |
 | H-16 | A labour article as the settlers' price: equal wage, no unfree or contract labour, entry by examination and sponsorship (H6.2) | Yes | **Direction APPROVED** (author, 18 November 2026, 05:14); terms PROPOSED or OPEN |
 
 ## Canon touchpoints
