@@ -28,7 +28,12 @@ independence: same-agent (outline only; no review yet)
 | ID | Type | Statement | Source | Status |
 | --- | --- | --- | --- | --- |
 | D1 | decision | The next CR is the war aims of 1861 and California's reasons; outline first | author, 18 November 2026, 13:05 | current |
-| Q1 | open choice | B-1, C-1 to C-3, D-1, D-2, E-1 to E-4, F-1, G-1, H-1, J-2; CT1–CT3 | outline | open |
+| D2 | decision | Add a section on the key players in Pacifica and their agency; answer "how does he know?" alongside the plan, within this CR | author, 18 November 2026, 13:20 | current |
+| Q1 | open choice | B-1, C-1 to C-3, D-1 to D-6, E-1 to E-4, F-1, G-1, H-1, J-2; CT1–CT3 | outline | open |
+
+## Revision of 13:20
+
+- Part D rebuilt: D-a the closed sitting as a challenge evening with Sherman as respondent; D-b fifteen players (P1–P15) with what each knows, their own interest and where they act on their own; D-c the estimate (D1–D7) with a *how does he know* column. B8 added; C7 corrected (the invited guard at Salt Lake, 1862, without a vote); I1 and R6 added. Working copy of Part D: `part-D-draft1.md`.
 
 ## Resume here
 
