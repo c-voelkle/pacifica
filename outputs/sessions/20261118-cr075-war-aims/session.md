@@ -31,7 +31,8 @@ independence: same-agent (outline only; no review yet)
 | D2 | decision | Add a section on the key players in Pacifica and their agency; answer "how does he know?" alongside the plan, within this CR | author, 18 November 2026, 13:20 | current |
 | D3 | decision | C-1 the five aims stand; C-2 preamble public in July 1861; C-3 "on the Pacific slope"; C-4 Burch himself speaks for the expansionists | author, 18 November 2026, 16:19 | current |
 | D4 | decision | E-1 the May 1861 note approved; E-2 California's price (a); E-3 a Californian renewal at risk in May 1862; E-4 real historical figures, Burch and one other for the Union side (Starr King proposed); E-5 Beale's public letter used | author, 18 November 2026, 16:19 | current |
-| Q1 | open choice | B-1, D-1 to D-7, F-1, F-2, G-1, H-1, J-2; CT1–CT3; the Union-side figure for E-4 (Starr King proposed) | outline | open |
+| D5 | decision | D-1 to D-7 approved: the closed sitting as a challenge evening; the 21 players (Starr King confirmed for E-4); the new roles for Broderick and the Calculation Office; D7's errors traced as recommended; the fallback in 1861 and 1864; who hears the plan; Sherman first comes in 1853 as a banker | author, 18 November 2026, 16:29 | current |
+| Q1 | open choice | B-1, F-1, F-2, G-1, H-1, J-2; CT1–CT3 | outline | open |
 
 ## Revision of 13:20
 
@@ -50,6 +51,6 @@ independence: same-agent (outline only; no review yet)
 
 ## Resume here
 
-- Next: confirm Starr King (E-4); the D questions; then draft Part C in full.
+- Next: draft Part C in full; the remaining questions (B-1, F-1, F-2, G-1, H-1, J-2, CT1–CT3) can follow part by part.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
