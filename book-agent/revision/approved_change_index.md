@@ -1275,7 +1275,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The Union under emulation (R1-5): no national Prohibition; from 1903 a federal duty graded by strength and public liquor stores in many states; dry counties and dry states keep their own prohibition; the drys call it Thalassia's compromise.
 
 **Still open:**
-- The first splice's occasion; Pacifica's position at Shanghai (1909) and The Hague (1912) on opium; the duty's revenue and the coffee figures in the workbook (MODEL, next build); the Office of Public Measures' date versus §15's Philippine figures (flagged); CT4 awaiting the author's confirmation.
+- The first splice's occasion; Pacifica's position at Shanghai (1909) and The Hague (1912) on opium; the duty's revenue and the coffee figures in the workbook (MODEL, next build); the Office of Public Measures' date versus §15's Philippine figures (flagged).
 
 ### Author-approved editorial safeguards
 
