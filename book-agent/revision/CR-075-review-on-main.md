@@ -33,3 +33,8 @@
 11. Move items closed by decision out of the register's `open` list.
 12. CR-068: mark M9's old sentence, G2's doubled clause and samples A3's close as superseded by CT1.
 13. Noted: `CR-075-storyline.md` was edited at integration (disclosed in its status line).
+
+## Applied (19 November 2026, 10:15, at the author's request)
+
+All items applied as proposed, including S4's Palmyra wording (which changes G8's approved wording, by the author's decision). The storyline now differs from the blocks in `CR-075-storyline.md`, whose status line lists each change; the storyline governs. Also applied: the bible's notes (Sherman, Alexander, Victoria, Vallejo, Ralston; PROPOSED labels on Elias's "speaks least", Ralston's oath at the door, Beale's motive and Pío's addition), the register's `open` list (items closed by decision moved to the requirements), CR-068's M9 and G2 and sample A3 marked superseded by CT1. Checks after the fixes: canon lint (full and per file), `cr_facts.py check`, sync, character docs and the ledger (300, 0 problems), all clean.
+

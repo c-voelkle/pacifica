@@ -1250,9 +1250,10 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The promise: on their honeymoon in November 1858, in the rain at the head of Nuʻuanu above the future site of Thalassia, Elias tells Victoria his part in the loss and promises her the island back; the sealed minute makes it binding; it is kept in 1867.
 - From the aims to the peace: every article of the peace traced to the objects of 1861 and the heads of 1863, except Washoe; the parks paid for; Alaska never a war aim; CR-068's verdict amended (CT1: Lincoln's offer answered the wrong done, not what the Republic fought for); CT2: the treaty stays silent on search; CT3: California's reasons are E1–E4, the seven reasons stay Elias's arguments.
 - The schoolbook (Part H): no formula; readings by year — a picture book of Kalama Island, The Story of the Realm ch. 9 as narrative (first sentence: the Republic's own cause), the sixth-year novel The Wells of the Gila (1893; Tomás Atencio of Agua Mansa, his cousin Ramón Martín of Abiquiú, the Rio Grande column 1862–63), Two Houses in the seventh year; each reading's omissions named (H4); CR-068 W2 and A10 replaced and W3 amended (CT4).
+- Closed by decision, not open: what Victoria answers in the rain is never reported (I-B2); the Republic's further purpose in the Pacific is never stated, by anyone, in any beat (author's note of 18 November 2026, 19:47).
 
 **Still open:**
-- Part D's and F's PROPOSED details as marked in the parts; what Victoria answers in the rain (never reported, I-B2); when Victoria learns of Kiyoshi (OPEN in canon); the Republic's further purpose in the Pacific is never stated (by decision).
+- Part D's and Part F's PROPOSED details as marked in the parts; when Victoria learns of Kiyoshi (OPEN in canon).
 
 ### Author-approved editorial safeguards
 

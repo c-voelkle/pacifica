@@ -46,6 +46,7 @@ independence: same-agent (outline only; no review yet)
 | D16 | decision | Part H: no formula; the schools' readings by year (picture book of Kalama Island; *The Story of the Realm* ch. 9 as narrative; a sixth-year Rio Grande novel with a drummer from Agua Mansa; *Two Houses*); CR-068 W2 and A10 replaced, W3 amended (CT4) | author, 19 November 2026, 09:11 | current |
 | D17 | decision | CT4 decided: amend; W3 and W2's status amended in CR-068.md, A10 marked replaced, note in CR-068-record.md (on the branch, effective on adoption) | author, 19 November 2026, 09:24 | current |
 | D18 | decision | H2's details approved (Tomás Atencio, Ramón Martín, *The Wells of the Gila*, 1893); integration approved | author, 19 November 2026, 09:30 | current |
+| D19 | decision | The integration review's fixes (M1–M2, S1–S9, Consider 1–13) applied as proposed, including the Palmyra exception in S9 | author, 19 November 2026, 10:15 | current |
 
 ## Revision of 13:20
 
@@ -78,6 +79,7 @@ independence: same-agent (outline only; no review yet)
 - Part H rewritten (author, 09:11): no formula; readings by year; the Rio Grande novel (H2); the fifth-year sample (H3) replaces CR-068 A10; CT4 added (recommended: amend W3).
 - CT4 amended (09:24). H2's open details recommended: Tomás Atencio, Ramón Martín, *The Wells of the Gila*, 1893 by a San Bernardino schoolmaster who was a drummer.
 - Integrated (author, 09:30): main merged into the branch; S1–S9 written into `master_storyline.md` (S4 and S5 as prose; S5 with the fifth object's second half; S7b at its paragraph's end; Sherman's l. 419 knock-on); the CR-075 integration summary; register entry; CT-JOHN-BURCH and CT-THOMAS-STARR-KING in the registry and bible, with notes on ten existing people; the ledger condition on C-1861-PROTECTOR; historical background; CR-065 and CR-068 notes (CT1, CT3, CT4, PP3a, B5); AGENTS.md.
-- Next: the PR for the author's review; no merge without his permission.
+- PR #78 opened. Fresh-context review of the integration (`CR-075-review-on-main.md`): ready after fixes; all fixes applied (10:15); checks clean.
+- Next: the author's merge decision on PR #78; no merge without his permission.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.
