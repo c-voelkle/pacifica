@@ -1,6 +1,6 @@
 # CR-075 — Storyline text and integration notes (draft 1, 19 November 2026)
 
-**Status:** DRAFT for review. This is the text to be written into `master_storyline.md` when the author adopts CR-075. The blocks gather the sentences each part proposed (C10, D10, E12, F10, G8, and J-2's impact note), revised so they read as one account. Anchors quote `main` at 2f65358 (identical in the storyline to bf2d899, the branch's base) and give its line numbers.
+**Status:** INTEGRATED, 19 November 2026 (author's approval, 09:30). This was the text written into `master_storyline.md`; at integration S4 and S5 were folded into prose, S5 gained the fifth object's second half, S7b moved to the end of its paragraph, and S9's second sentence was reworded. The blocks gather the sentences each part proposed (C10, D10, E12, F10, G8, and J-2's impact note), revised so they read as one account. Anchors quote `main` at 2f65358 (identical in the storyline to bf2d899, the branch's base) and give its line numbers.
 **Labels:**
 - **[APPROVED — CR-075]** where the author has approved the decision;
 - **[PROPOSED — CR-075]** for details the parts mark PROPOSED;
@@ -44,7 +44,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 > - a treaty between equals in place of the convention of 1848, and a frontier drawn by consent;
 > - no search of Pacifican or Hawaiian ships in their own waters;
 > - no people taken by decree, none on the slope given up who has chosen the Republic, and protection for those punished for the choice;
-> - no army sent east, and no conquest on this continent.
+> - no army sent east, no conquest on this continent, and loans to any American people that holds its own ground (the fifth object's second half, added at integration).
 >
 > What the Republic keeps at the peace it will pay for, and it will treat on these objects at any time and ask nothing beyond them. Every later resolution of the war names the object it serves. California's delegation asks one thing for itself: no land associated with the Confederation in the war becomes a member without the consent of both member states. In a minute sealed with the sittings' record, the Council promises to support at the peace the kingdom's claims to the islands of its domain.
 
@@ -58,7 +58,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 > <!-- CR-075: Palmyra and the renewal of 1862 (F5.3, E10, E-9, I-B8, I-B9) --> **[APPROVED — CR-075]** In April 1862, with the American squadron gone from its waters, the kingdom takes Palmyra under a commission in the names of the king and the Kuhina Nui. In May California's renewal is the one in doubt. Port Townsend has held, the flood has driven the legislature from Sacramento to San Francisco, the Iowa regiments are on the Sound, and the Council has just voted the Rio Grande. Vallejo reads Baker's note of 1861 to the assembly and tells the members that the armistice offer is at sea. The published Oregon account and the Steamer Day Agreement carry the rest. The assembly renews narrowly, a few streets from the pulpit where Thomas Starr King preaches against the war, and no one stops him.
 
-### S7b. §12, l. 542, after "… begin to resemble annual recognition of a permanent fact."
+### S7b. §12, l. 542, at the end of the paragraph (after "… make his removal politically hazardous."; moved at integration so that "He remains" keeps its subject)
 
 > <!-- CR-075: the keeper of the objects (F6, F-5) --> **[APPROVED — CR-075]** Hawaii's renewals are the ones with conditions. Each holds the Protector to one of the objects of 1861: the people's own law in 1862, the reason for the war's credit in 1863, no people by decree in 1864. The planters, who gain most from the war, say least about it.
 
@@ -68,7 +68,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 ### S9. §12, l. 594, at the end of the Rockies paragraph ("… binds the Union to transit through Denver.")
 
-> <!-- CR-075: the count and the Kalama (G8, G-2, G-3, G-6, F5.6, I-B12) --> **[APPROVED — CR-075]** Every article of the peace can be traced to the objects printed in July 1861 and the heads of 1863, except Washoe, retaken without its people's asking. The empty mountain parks the line takes and the gold pays for, as the preamble said. Alaska, bought the same spring from Russia, was never a war aim. After the exchange the *Kalama* sails for Johnston and raises the kingdom's flag on Kalama Island again. Victoria hears it from the harbour.
+> <!-- CR-075: the count and the Kalama (G8, G-2, G-3, G-6, F5.6, I-B12) --> **[APPROVED — CR-075]** Every article of the peace can be traced to the objects printed in July 1861 and the heads of 1863, except Washoe, retaken without its people's asking. The gold pays for the empty mountain parks the line takes, as the preamble said. Alaska, bought the same spring from Russia, was never a war aim. After the exchange the *Kalama* sails for Johnston and raises the kingdom's flag on Kalama Island again. Victoria hears it from the harbour.
 
 ## Not written into the storyline
 
