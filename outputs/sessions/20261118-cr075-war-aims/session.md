@@ -44,6 +44,7 @@ independence: same-agent (outline only; no review yet)
 | D15 | decision | Fresh-context review: all M, S and K fixes applied as recommended (Judd loses clearance; Ralston decides at the sitting; the sealed minute is the one term beyond the printed objects; the legislature at San Francisco; K1–K7) | author, 19 November 2026, 08:26 | current |
 | Q1 | open choice | H-1 (deferred by the author again, 22:58) | outline | closed by D16 |
 | D16 | decision | Part H: no formula; the schools' readings by year (picture book of Kalama Island; *The Story of the Realm* ch. 9 as narrative; a sixth-year Rio Grande novel with a drummer from Agua Mansa; *Two Houses*); CR-068 W2 and A10 replaced, W3 amended (CT4) | author, 19 November 2026, 09:11 | current |
+| D17 | decision | CT4 decided: amend; W3 and W2's status amended in CR-068.md, A10 marked replaced, note in CR-068-record.md (on the branch, effective on adoption) | author, 19 November 2026, 09:24 | current |
 
 ## Revision of 13:20
 
@@ -74,6 +75,7 @@ independence: same-agent (outline only; no review yet)
 - I-1 to I-6 approved (19 November 2026, 00:22; the honeymoon at the head of Nuʻuanu, overlooking the future site of Thalassia). Assembled: the outline is the CR's index (parts table, status, notes where parts supersede its tables), and `book-agent/revision/CR-075-storyline.md` holds the storyline blocks S1–S9 with anchors on `main` at 2f65358 and the integration checklist.
 - Fresh-context review done (`book-agent/revision/CR-075-review.md`): ready after fixes. All M, S and K items applied (author, 08:26); checks rerun clean.
 - Part H rewritten (author, 09:11): no formula; readings by year; the Rio Grande novel (H2); the fifth-year sample (H3) replaces CR-068 A10; CT4 added (recommended: amend W3).
-- Next: the author's decision on CT4 and the H details marked OPEN (the boy's name, the novel's title and date); then adoption of CR-075; then integration per the checklist in `CR-075-storyline.md` (storyline blocks, registry entries, character bible, ledger condition, background, CR-065/CR-068 notes, checks, PR). No merge to `main` without the author's permission.
+- CT4 amended (09:24). H2's open details recommended: Tomás Atencio, Ramón Martín, *The Wells of the Gila*, 1893 by a San Bernardino schoolmaster who was a drummer.
+- Next: the author's decision on H2's recommended details; then adoption of CR-075; then integration per the checklist in `CR-075-storyline.md` (storyline blocks, registry entries, character bible, ledger condition, background, CR-065/CR-068 notes, checks, PR). No merge to `main` without the author's permission.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.

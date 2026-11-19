@@ -106,7 +106,9 @@ These passages show the frame and the voice, nothing more. Every quotation of Li
 >
 > I owe the reader the rest, and the schools do not print all of it. What held the South was the Republic's money. Americans died in the months it bought, and Lincoln said the founder was keeping his mother's house divided. The founder answered that a house may be parted and both halves live, and showed him Missouri. I do not think the answer removes the charge. Slaves waited in those months too, and for a generation after. The founder had told Honolulu that the Republic made no condition about them, and that it would lend or stand surety to end their bondage when Richmond asked. And Lincoln had doubted in print that the Protector could be dismissed. The founder offered himself for dismissal that November, in the one week when he might have lost, and within the year he held his office for life. He would not take his victory as a gift from the man he beat. That is why I call it his.
 
-### A10. From a Pacifican schoolbook (W2; in-world document, PROPOSED)
+### A10. From a Pacifican schoolbook (W2; in-world document; REPLACED)
+
+*Replaced by CR-075 Part H, H3 (author, 19 November 2026, 09:11). The text below is kept for the record and is not to be used.*
 
 > *The Story of the Realm*, fifth year, chapter 9: "The War of the West"
 >

@@ -8,7 +8,7 @@
 
 | Part | File | What it settles | Decisions |
 |---|---|---|---|
-| A, B, H, J; tensions | this document | The gap; the design rules; the schoolbook (the readings by year, no formula); the deferred items; CT1–CT4 | B-1, J1–J4, CT1–CT3 decided; H decided (H4, 09:11); CT4 recommended |
+| A, B, H, J; tensions | this document | The gap; the design rules; the schoolbook (the readings by year, no formula); the deferred items; CT1–CT4 | B-1, J1–J4, CT1–CT4 decided; H decided (H4, 09:11) |
 | C | `CR-075-C-aims.md` | The preamble of the war resolution, July 1861: five objects (the first with an island clause), the price, the promise to treat; the sealed minute; Burch's motion; the rule that each resolution names its object | C-1 to C-11 and the island clause, all approved |
 | D | `CR-075-D-plan-and-people.md` | The two closed sittings of June 1861, the estimate part by part with who supplied it, Sherman's case, the errors traced, the players' own acts | D-1 to D-13, approved |
 | E | `CR-075-E-california.md` | California's four reasons, Baker's note, Ralston, Burch and Starr King, Beale and Pico, California's price, the renewal of May 1862, Oregon | E-1 to E-12, approved |
@@ -235,7 +235,7 @@ There is no reading at any age that gives the war's causes as a list. A Pacifica
 
 ### H2. The sixth-year novel: the Rio Grande (author, 19 November 2026, 09:11)
 
-- **The boy (PROPOSED; name and title OPEN).** A drummer of about fourteen from Agua Mansa on the Santa Ana River, in the San Bernardino valley. Hist.: Agua Mansa was founded in the 1840s by families from Abiquiú in New Mexico, among them genízaro families, who came west over the Old Spanish Trail with the guide Lorenzo Trujillo; the flood of 1862 destroyed it (nps.gov, the Old Spanish Trail). In Pacifica the same flood of January 1862 that drives the legislature to San Francisco (Part E, S19) takes his family's house. In April he goes with the column that leaves southern California on the 13th (CR-061 C0a), because the column pays in coin and his family has nothing left.
+- **The boy (PROPOSED; name, title and date recommended below, OPEN until approved).** A drummer of about fourteen from Agua Mansa on the Santa Ana River, in the San Bernardino valley. Hist.: Agua Mansa was founded in the 1840s by families from Abiquiú in New Mexico, among them genízaro families, who came west over the Old Spanish Trail with the guide Lorenzo Trujillo; the flood of 1862 destroyed it (nps.gov, the Old Spanish Trail). In Pacifica the same flood of January 1862 that drives the legislature to San Francisco (Part E, S19) takes his family's house. In April he goes with the column that leaves southern California on the 13th (CR-061 C0a), because the column pays in coin and his family has nothing left.
 - **The cousin (PROPOSED).** His mother's people are still at Abiquiú, in Rio Arriba. His cousin, a few years older, serves in one of the Rio Arriba companies in Canby's line at the second Valverde (CR-061 C11), and comes home with them from Fort Craig in December 1862 (canon l. 461). This is the family split by the war, as in *Across Five Aprils*: the two boys face each other across the same river, and they meet that winter at Abiquiú, when the column's men go up the river road (CR-061, Part I, step 6).
 - **What the novel puts in (all canon, CR-061 and §10):**
   - the column marching in detachments small enough for the desert wells;
@@ -252,6 +252,11 @@ There is no reading at any age that gives the war's causes as a list. A Pacifica
   - the Taos families' petition to try the jurors of 1847 (CR-066);
   - what *genízaro* means. The book never says that the boy's family were descended from captives, or that in 1866 the patrones of Abiquiú rose against the abolition of the captive trade (canon l. 601).
 - **When it is written (OPEN).** A generation after the war, for the schools, as *Across Five Aprils* was written a century after its war. Its author is not a character of the novel *Pacifica*.
+- **Recommended (19 November 2026, 09:24; OPEN until the author approves):**
+  - *The boy:* **Tomás Atencio.** Atencio is an Agua Mansa family name with roots at El Rito, next to Abiquiú (Hist.: a María Ygnacia Atencio, born at El Rito in 1842, came over the Old Spanish Trail as a child and married at Agua Mansa in 1854; oldspanishtrail.org). He is invented, and no real Atencio is his parent.
+  - *The cousin:* **Ramón Martín**, of Abiquiú, his mother's sister's son. Martín is one of the oldest names in the Abiquiú grant (Hist.: newmexicohistory.org, the grant of 1734). Two ordinary names, so the book's people are not the canon's.
+  - *The title:* ***The Wells of the Gila.*** The march's first fact is water (the detachments sized for the wells, canon l. 453), and the title promises a desert adventure rather than a war, as the American books do. Alternative: *The Drum at Fort Craig*.
+  - *The date and author:* **1893**, thirty years after Fort Craig. The author is a schoolmaster at San Bernardino who marched with the column as a boy; the book's title page says so and gives no more. That answers "how does he know" inside the fiction, and explains what he leaves out: he writes what a drummer saw, and he was a drummer.
 
 ### H3. Sample: *The Story of the Realm*, fifth year (replaces CR-068 A10; in-world document, PROPOSED)
 
@@ -335,7 +340,7 @@ Replaced by Part I (`CR-075-I-on-the-page.md`), which folds in the outline's I1 
 
 **Current:** W2 (deferred) gives the schoolbook the triad "The South held. The coin held. The word held."; A10 (PROPOSED) is the fifth-year chapter built on it; W3 (APPROVED) says American schoolbooks give the Union's victory a short list of causes, and that "the Pacifican list has the same build".
 **Amended:** W2 and A10 are replaced by Part H (H1, H3). W3 becomes: *American books for children frame the war by the stories they choose, not by a list (Hist.: the list the author supplied, 19 November 2026); the short list of causes belongs to high-school textbooks and examinations. Pacifica's readings have the same build: they choose stories and leave things out. Neither the American books nor Pacifica's give children a motto.* The rest of W3 (Lincoln honoured for not giving up, and for letting his people vote) stands, and is carried by H3's paragraph on the rival. A note in CR-068's record; no storyline change; no fact changes.
-**Recommendation:** amend. It follows from the author's decision on H (09:11).
+**Recommendation:** amend. It follows from the author's decision on H (09:11). **Decided (author, 19 November 2026, 09:24):** amend. W3 and W2's status amended in `CR-068.md`, and A10 marked replaced in `CR-068-samples.md`, on this branch; they take effect with CR-075's adoption.
 
 ## Fact changes
 

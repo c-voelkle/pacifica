@@ -110,7 +110,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
    - B5's parts gain C2, C1.5 and E9;
    - CT3 is carried out by Part E (E2);
    - the reading of "no column east of the mountains" (C7.3).
-   - CT4: W2 and the sample A10 replaced by CR-075 Part H (H1, H3); W3 amended as CT4 has it; W4 gains Part H's three additions (H4). In `CR-068-samples.md`, A10 points to CR-075 H3.
+   - CT4 (done on the branch, 19 November 2026): W2's status and W3 amended in `CR-068.md`; A10 marked replaced in `CR-068-samples.md`. `CR-068-record.md` carries the note, including W4's three additions (H4).
 9. **Checks.**
    - `cr_facts.py check`
    - `lint_canon.py`
