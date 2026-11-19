@@ -3,7 +3,7 @@ session: 20261119-cr076-drink
 started: 2026-11-19
 updated: 2026-11-19
 mode: draft
-status: paused-for-author
+status: done
 baseline:
   commit: c0c75ce
 independence: same-agent (draft 1 only; no review yet)
@@ -40,4 +40,4 @@ independence: same-agent (draft 1 only; no review yet)
 
 ## Resume here
 
-CR-076 draft 4 applies every review fix and is integrated on `drafts/cr076-drink`: storyline (12 paragraphs, §§1, 5, 8, 12, 13, 19, 25, and the CT1 amendment), register entry, registry and bible (Neilson, Thomas Logan, Kato; notes on Victoria, Elias, Kalākaua, Young, Broderick, Silas, Noe), historical background, ledger (spirits article on C-1851-CA-TREATIES), `finance/CR-076-workbook.md` (inputs only; no workbook rows changed), AGENTS.md. All checks pass. A PR (#79) is open for the author to merge; amendment R1 (duty schedule, the lines, Denver in Kansas, Guaymas, no Union Prohibition) is integrated on it, and CT4 (Waite in Kansas) awaits confirmation. Next: the author's merge decision; optionally a fresh-context review of the integration; the next workbook build may take the CR-076 inputs.
+CR-076 is complete: integrated with amendment R1, the model's Drink & coffee memo sheet built (Story 0, Stress 50; no other value changes), and the mortality effect left unmodelled by the author's decision (20:44; note in `population/data/rates.toml` and `finance/CR-076-workbook.md`). PR #79 merged on the author's word (20:44). Open for later CRs: the first splice's occasion, Pacifica at Shanghai (1909) and The Hague (1912) on opium, and the Office of Public Measures' date against §15's Philippine figures.

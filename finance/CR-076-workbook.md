@@ -48,7 +48,7 @@ The energy pair was not re-iterated, because nothing it reads changes (as for CR
 
 ## Not modelled
 
-- The mortality lever (author's decision, 20:34).
+- The mortality lever (author's decision, 20:34; confirmed 20:44). The population model already converges Pacifica's mortality on New Zealand's, the world's best of the period, from 1888 to 1910 (`population/data/rates.toml`). New Zealand's own strong temperance movement is part of that benchmark, so a separate drink effect would double-count and pass the model's ceiling. Before 1888 the effect would be about half a year to a year of adult male life expectancy, or about 0.1–0.2% more residents by 1932, which is smaller than the model's other uncertainties. The drink rules are recorded as one reason the convergence is plausible.
 - The county earmark as county spending: there are no county budgets in the workbook, so the duty and surplus that go to surgeries and halls are a memo.
 - The duty collected by members in 1867–87 is shown on the same sheet as the confederal figures. Whether it is member or confederal money is CR-076 D5's split, which the Budget does not separate.
 - Revenue from the Union's visitors in 1920–32: no national Prohibition, so no reverse traffic of any size.
