@@ -25,10 +25,10 @@
 ## G0. The claim in four sentences
 
 1. The peace of 1865–67 is the preamble of 1861 carried through two more instruments: the six heads of 1863 turn the objects into principles a Union government could sign, and the treaty of 1865 turns the principles into articles and a map.
-2. Of everything Pacifica keeps in 1867, all but three items follow from an object or a rule of 1861:
-   - Washoe, retaken by arms against the fourth object's spirit;
-   - the empty parks of the Rockies, held by the snow and paid for;
+2. Of everything Pacifica keeps in 1867, all but two items follow from an object or a rule of 1861:
+   - Washoe, retaken without its people's asking, against the fourth object's spirit;
    - Alaska, which is bought and stands outside the war.
+   The empty parks of the Rockies, held by the snow, pass by the price alone (G-3). Palmyra and the flag on Johnston pass only by a minute the public never saw (G2, G5).
 3. The peace delivers each object in a different way:
    - the first by evacuation;
    - the second by a new treaty;
@@ -65,11 +65,13 @@
 | Idaho and western Montana's camps | Fourth, beyond the slope: peoples who asked | Compacts of 1863–64; the camps fed and coined from the west (CR-059; CR-060 CO2; T15) | Yes |
 | Deseret, with southwest Wyoming (South Pass, Fort Bridger, the Green River) | Fourth, beyond the slope: Young's initiative | The working articles of December 1862 and the Compact of Association of 24 July 1863; accession in 1867 (CR-060) | Yes |
 | **Washoe** | Reservation (a) of 1863, under the second and fourth objects | Retaken by arms in the spring of 1864; its people did not ask (canon §10; CR-060 C5) | **No: the exception (W4)**. The charter vote of 1866 is the Republic's own choice, not Hawaii's condition (CR-060 C6) |
+| The land east of Glorieta (Las Vegas, Mora, San Miguel; Fort Union kept) | Fourth, after the fact | Ceded by the line; adhered by its conventions' vote of October 1867 (canon §12, CR-071) | Yes, made good after the fact, a near-twin of the April 1862 resolution's weak citation |
 | New Mexico and Arizona, to 103°W | Fourth (the territorial assembly's compact), after the April 1862 resolution's weak citation (Part C, C7.2) | The Rio Grande campaign of 1862–63; the compact of 1863; Fort Union evacuated after the exchange (CR-061; T3) | Yes, made good after the fact |
 | The Western Slope of Colorado | Fourth, with the nation's consent: Ute country | The Utes' alliance and terms (CR-071); Native title by separate agreement (T12) | Yes |
 | **South Park, the parks and the upper Arkansas** | The price (head 3), not the fourth | Held from the San Luis Valley in summer and by the snow in winter (CR-060 CO1, CO4); almost empty in 1865 | **Yes, but by the price alone** (G-3): there was no people to ask, so the land follows the line and is paid for |
 | The Colorado article: districts on the Union side may vote themselves over | Second head of 1863 (CR-062 T10a) | Written in 1865; used about 1878–82 (CR-060 CO7) | Yes |
-| **The guano islands** (Midway, Baker, Howland, Jarvis, Johnston, Kingman; Palmyra quitclaimed) | First, by its island clause; the sealed minute on the kingdom's islands; the price (a nominal sum in the vendor credit) | Claimed for the United States from Honolulu in 1857–59; unprotectable from July 1861; Palmyra taken by Hawaii in April 1862; the Pacific article of 1865 (Part F, F5.3; CR-029) | **Yes, by the letter (G-2, decided 19:58).** G-1 had missed it |
+| **The Union's renunciation of its guano claims** (Midway, Baker, Howland, Jarvis, Johnston, Kingman) | First, by its island clause; the price (a nominal sum in the vendor credit) | Claimed for the United States from Honolulu's harbour in 1857–59, and Johnston from San Francisco's in 1858; unprotectable from July 1861; the Pacific article of 1865 (Part F, F5.3; CR-029) | **Yes, by the letter (G-2, decided 19:58).** G-1 had missed it |
+| **Palmyra quitclaimed to Hawaii, and the kingdom's flag on Johnston** | Only the sealed minute on the kingdom's islands (Part C, C1.5) | Palmyra taken by Hawaii in April 1862; the *Kalama* at Johnston after the exchange (Part F, F5.3, F5.6) | **Only by a minute the public never saw.** The public objects forbid an American station on the islands. They say nothing about whose the islands become. This is the one term the Republic asked beyond its printed objects, and the Chronicler counts it (G5) |
 | **Alaska** | None | Bought from Russia, $7.2 million in gold (CR-062 K1–K9) | **Outside the war's aims** (G-1, APPROVED) |
 | Commerce: Union ships on most-favoured terms; named civilian routes through the Republic; transit through Denver | Second (an equal treaty) and the promise to treat | T5, T6, T10a | Yes: the Republic gives these |
 | The claims waived; the mixed commission; the sailor's family keeps its claim | Second, on the 1848 model | T9; Victoria's condition (CR-062, PROPOSED there) | Yes |
@@ -78,11 +80,12 @@
 | The separate loan refused by the Senate, lent privately through Ralston's bank | No object | Canon §12 | Not a term of the peace |
 | Richmond recognized | Fifth | May 1865, outside the treaty (T13) | Yes |
 
-- G2.1 **The count.** Of the nineteen rows, two are not holdings (the silence on fugitives and the private loan). Of the other seventeen, fourteen pass plainly. Three stand apart, and each is a different kind:
+- G2.1 **The count.** Of the twenty-one rows, two are not holdings (the silence on fugitives and the private loan). Of the other nineteen, fifteen pass plainly or are made good after the fact. Four stand apart, and each is a different kind:
   - *Washoe* breaks the spirit of an object;
-  - *the empty parks* are covered only by the price;
+  - *the empty parks* pass by the price alone;
+  - *Palmyra and the flag on Johnston* pass only by the sealed minute;
   - *Alaska* has nothing to do with the war.
-  The Chronicler names the first. The second is covered by a single line (G-3), and the third needs none.
+  The Chronicler names Washoe as the exception and the sealed minute as the one term asked beyond the printed objects. The parks get a single line (G-3), and Alaska needs none.
 - G2.2 **Where the line moved inside the heads.** CT10 says it: "the heads are principles, and the map moves inside them." Washoe, western Montana and the guano islands are the three movements canon names. Part G adds the parks, which canon already has (CO4) but nobody had tested against the objects.
 
 ## G3. The outline's table, as it now stands
@@ -91,7 +94,7 @@ The outline's table in Part G is replaced at integration by this one (PROPOSED).
 
 | Object | 1861 | 1862–1864 | 1865–1867 | Result |
 |---|---|---|---|---|
-| First | Sausalito sealed; Astoria, Portland, Vancouver and Olympia taken; Port Townsend holds | The Union's attempt of 1862 on the lower Columbia turned back; the Iowa regiments on the Sound; the posts east of the Cascades march out (July 1862); Palmyra taken (April 1862) | Port Townsend evacuated after the exchange; no storehouse anywhere; warships for refuge or repair only. The guano islands by the Pacific article (the island clause) | Met, in 1867 |
+| First | Sausalito sealed; Astoria, Portland, Vancouver and Olympia taken; Port Townsend holds | The Union's attempt of 1862 on the lower Columbia turned back; the Iowa regiments on the Sound; the posts east of the Cascades march out (July 1862); Palmyra taken (April 1862) | Port Townsend evacuated after the exchange; no storehouse anywhere; warships for refuge or repair only. The guano islands renounced by the Pacific article (the island clause); Palmyra and the flag on Johnston by the sealed minute | Met, in 1867 |
 | Second | Baker's note of May answered (Part E, E4) | Heads 2 and 4 of the Terms | The conventions of 1848 and 1860 ended; the Western line; the ports open to American commerce on equal terms; claims on the 1848 model | Met |
 | Third | The reply's first demand; Hawaii's object by name; Wyllie's guarantee not taken (Part F, F3) | The Union's search is a belligerent right (JONES ch.2) | The peace ends it; no Union station on the slope after 1867 | Met by the peace (CT2, Case A) |
 | Fourth | The Oregon and Puget Sound compacts | The April 1862 resolution (weak, made good in 1863); Deseret 1862–63; the Rio Grande compact 1863; Idaho and Montana 1863–64; Washoe retaken under reservation (a), 1864 | Oregon's vote of 1866; the charters; residents' choice; Native title by separate agreements; Fort Union evacuated | Met, with Washoe the exception the Chronicler records (W4) |
@@ -116,14 +119,14 @@ Part G is what that verdict rests on. The Chronicler has the preamble, the Terms
 - the fourth met, with Washoe against it;
 - the fifth kept, with its cost named;
 - the price paid;
-- the promise kept.
-CR-068's W1 ("the word held") is this table in three words, and W4 is its exception column. Part G adds no new judgment to the Chronicler's. It gives him the count.
+- the promise kept, with one term asked beyond the printed objects: the islands of the sealed minute.
+CR-068's W1 ("the word held") is this table in three words, and W4 is its exception column. The sealed minute does not break the word. The printed objects forbade a station and promised nothing about whose the rocks would be. It is where the Republic's further purpose shows, and the Chronicler sets it beside the renewals Victoria held Elias to (Part F, F5.5). Part G adds no new judgment to the Chronicler's. It gives him the count.
 
 ## G6. Who reads the peace against the preamble in 1867
 
 - **Burch** (Part C, C6.6): his republic of five is very nearly the map, reached by the fourth object, not by his address.
 - **Lincoln** at Springfield (canon: he lives there until 1872): he read the preamble as a programme of dismemberment in 1863 (outline I3), and the map of 1867 is enough to keep him reading it that way. The count of how the land came is also there for him to read.
-- **Victoria**: her doubt of the fourth object, entered in 1861, is answered by Washoe, and she says so.
+- **Victoria**: her doubt of the fourth object, entered in 1861, is proved right by Washoe, and she says so.
 - **Sherman**, who signs the treaty beside Vallejo (CR-062): the written objects he insisted on in June 1861 (Part D, D4) are the ones he signs off in December 1865.
 
 ## G7. What this changes elsewhere (for integration)
@@ -138,7 +141,7 @@ CR-068's W1 ("the word held") is this table in three words, and W4 is its except
 
 In §12, after the sentence on the Pacific article ending "which never obliged the United States to keep an island once its guano was gone":
 
-> **[PROPOSED — CR-075]** Every article of the peace can be traced to the objects printed in July 1861 and the heads of 1863, except Washoe, retaken against its people's wish, and the empty mountain parks, which the line takes and the gold pays for. Alaska, bought the same spring from Russia, was never a war aim.
+> **[PROPOSED — CR-075]** Every article of the peace can be traced to the objects printed in July 1861 and the heads of 1863, except Washoe, retaken without its people's asking. The empty mountain parks the line takes and the gold pays for, as the preamble said. Alaska, bought the same spring from Russia, was never a war aim.
 
 ## Decisions for the author
 

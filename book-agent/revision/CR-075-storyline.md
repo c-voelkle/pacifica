@@ -1,6 +1,6 @@
 # CR-075 — Storyline text and integration notes (draft 1, 19 November 2026)
 
-**Status:** DRAFT for review. This is the text to be written into `master_storyline.md` when the author adopts CR-075. The blocks gather the sentences each part proposed (C10, D10, E12, F10, G8, and J-2's impact note), revised so they read as one account. Anchors quote `main` at 2f65358 and give its line numbers.
+**Status:** DRAFT for review. This is the text to be written into `master_storyline.md` when the author adopts CR-075. The blocks gather the sentences each part proposed (C10, D10, E12, F10, G8, and J-2's impact note), revised so they read as one account. Anchors quote `main` at 2f65358 (identical in the storyline to bf2d899, the branch's base) and give its line numbers.
 **Labels:**
 - **[APPROVED — CR-075]** where the author has approved the decision;
 - **[PROPOSED — CR-075]** for details the parts mark PROPOSED;
@@ -13,11 +13,11 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 ### S1. §8, after l. 349 ("They marry in November 1858 … strategic necessity becomes urgent.")
 
-> <!-- CR-075: Kalama Island and the promise (F5.3, F5.6, F-8, I-B1, I-B2) --> **[APPROVED — CR-075]** The same year the kingdom loses an island. The schooner *Palestine*, owned by San Francisco merchants and cleared under the Republic's venture licence, carries two American charterers to Johnston Island, which they claim in March under Washington's guano law. When the news reaches Honolulu the *Kalama* sails under the king's commission, and in July the king proclaims Kalama Island the kingdom's. In the autumn the Council advises him to yield: a rock is not worth a quarrel with Washington while the convention of 1848 stands, and the common navy has no ship to spare. Elias, back from Edo, gives the advice as Chancellor, and the king withdraws. On their honeymoon, in the winter rain at the head of Nuʻuanu above Kāneʻohe Bay, Elias tells Victoria that he gave the advice and that the ship sailed on his government's paper. Then he promises her the island back. **[PROPOSED — CR-075]** In 1859 the Republic and the kingdom forbid any voyage they license or clear to take possession of land for a foreign power. Brooks's claim to Midway that summer costs him his clearance.
+> <!-- CR-075: Kalama Island and the promise (F5.3, F5.6, F-8, I-B1, I-B2) --> **[APPROVED — CR-075]** The same year the kingdom loses an island. The schooner *Palestine*, owned by San Francisco merchants and cleared under the Republic's venture licence, carries two American charterers to Johnston Island, which they claim in March under Washington's guano law. When the news reaches Honolulu the *Kalama* sails under the king's commission, and in July the king proclaims Kalama Island the kingdom's. In the autumn the Council advises him to yield: a rock is not worth a quarrel with Washington while the convention of 1848 stands, and the common navy has no ship to spare. Elias, back from Edo, gives the advice as Chancellor, and the king withdraws. On their honeymoon, in the winter rain at the head of Nuʻuanu above Kāneʻohe Bay, Elias tells Victoria that he gave the advice and that the ship sailed on his government's paper. Then he promises her the island back. **[PROPOSED — CR-075]** In 1859 the Confederation forbids any voyage it licenses or clears to take possession of land for a foreign power. Brooks's claim to Midway that summer costs him his clearance, and Gerrit Judd's to Palmyra costs him his.
 
 ### S2. §9, a new paragraph before l. 413 ("A Union captain intercepts a Hawaiian packet …")
 
-> <!-- CR-075: Baker's note (E4, E-1, E-6, I-B3) --> **[APPROVED — CR-075]** In the first week of May 1861 Baker delivers Seward's note invoking the convention of 1848: California's ports are to be closed to the insurgents' vessels and agents, and deserters returned. Elias and Vallejo answer jointly that the article covers the enemies of the United States in its wars, and that Washington calls the South a rebellion. If it is a war, the article applies, and so does the South's belligerency. Elias tells Baker in person that the article binds California if Washington will admit a war, and that the Republic already receives no privateer of any flag. From then on every article of 1848 is a question Washington can ask and Monterey has to answer.
+> <!-- CR-075: Baker's note (E4, E-1, E-6, I-B3) --> **[APPROVED — CR-075]** In the first week of May 1861 Baker delivers Seward's note invoking the convention of 1848: California's ports are to be closed to the insurgents' vessels and agents, and deserters returned. Elias and Vallejo answer jointly that the article covers the enemies of the United States in its wars, and that Washington calls the South a rebellion. If it is a war, the article applies, and so does the South's belligerency. Elias tells Baker in person that the article binds California if Washington will admit a war, and that the Confederation's ports, under Hawaii's rule of 1854, already receive no privateer of any flag. From then on every article of 1848 is a question Washington can ask and Monterey has to answer.
 
 ### S3. §9, l. 413, after "Vallejo supports California's assent."
 
@@ -25,7 +25,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 ### S4. §9, l. 417, after "The offer is his own."
 
-> <!-- CR-075: the sittings (D1–D7, D-1 to D-13, I-B5) --> **[APPROVED — CR-075]** Before he answers, Elias calls the Council to two closed sittings in the manner of the Laboratory's challenge evenings. Each part of the estimate is given by the person who knows it:
+> <!-- CR-075: the sittings (D1–D7, D-1 to D-13, I-B5) --> **[APPROVED — CR-075]** First, Elias calls the Council to two closed sittings in the manner of the Laboratory's challenge evenings. Each part of the estimate is given by the person who knows it:
 > - Sherman on the Union's generals and the length of the war;
 > - Ericsson on its yards;
 > - Marcus and the Calculation Office on what can reach the Sound;
@@ -40,7 +40,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 ### S5. §9, l. 417, after "and the second turret ship when the Columbia is secure."
 
 > <!-- CR-075: the preamble, the prices and the sealed minute (C2, C1.5, C4, C7, E9, C-1 to C-11, E-7) --> **[APPROVED — CR-075]** The Council's war resolution, voted with the concurrence, opens with the objects of the Confederation in the war, printed with the reply and the reasons in English, Spanish and Hawaiian:
-> - no American station, storehouse, garrison or fortified post on the Pacific slope, or on any island of the Pacific from which the Confederation can be struck;
+> - no American station, storehouse, garrison or fortified post on the Pacific slope, or on any island of the Pacific from which the Confederation or either of its members can be struck;
 > - a treaty between equals in place of the convention of 1848, and a frontier drawn by consent;
 > - no search of Pacifican or Hawaiian ships in their own waters;
 > - no people taken by decree, none on the slope given up who has chosen the Republic, and protection for those punished for the choice;
@@ -50,21 +50,25 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 *Note for integration:* the list may be folded into one sentence, as in S4.
 
-### S6. §9, a new paragraph after l. 417 (ending "… killed at Ball's Bluff in October.")
+### S6. §9, l. 417, before "Baker goes east and is killed at Ball's Bluff in October."
 
-> <!-- CR-075: Burch and Beale (C6, E7, C-4, C-8, E-8, I-B6, I-B7) --> **[APPROVED — CR-075]** In the Confederal Assembly John Burch, member for Trinity, moves an address asking the Council to name the Rockies as the Republic's frontier and the five territories of his letter of 1860 as its object. The fourth object's narrow wording is the Council's answer. In the last days of July Edward Beale writes to Andrés Pico, on his own initiative, asking whether he stands by the objects. Pico answers for them at all hazards and offers lancers, his brother Pío says the same, and the letters are printed in Spanish and English.
+> <!-- CR-075: Burch and Beale (C6, E7, C-4, C-8, E-8, I-B6, I-B7) --> **[APPROVED — CR-075]** In the third week of June, in the Confederal Assembly, John Burch, member for Trinity, had moved an address asking the Council to name the Rockies as the Republic's frontier, and Oregon, Washington, Utah and New Mexico, the lands his open letter of November 1860 invited into the Republic, as its objects. The fourth object's narrow wording is the Council's answer. In the last days of July Edward Beale writes to Andrés Pico, on his own initiative, asking whether he stands by the objects. Pico answers for them at all hazards and offers lancers, his brother Pío says the same, and the letters are printed in Spanish and English.
 
-### S7. §10, a new paragraph after l. 427 (the Oregon paragraph, ending "**[OPEN]** Local officeholders, succession and boundaries.")
+### S7. §11, after l. 488 (the armistice offer of 1862, ending "… when both governments accept an armistice.")
 
-> <!-- CR-075: Palmyra, the renewal of 1862 and the keeper of the objects (F5.3, F6, E10, E-9, F-5, I-B8, I-B9) --> **[APPROVED — CR-075]** In April 1862, with the American squadron gone from its waters, the kingdom takes Palmyra under a commission in the names of the king and the Kuhina Nui. In May California's renewal is the one in doubt. Port Townsend has held, the flood has put Sacramento under water, the Iowa regiments are at sea, and the Council has just voted the Rio Grande. Vallejo reads Baker's note of 1861 to the assembly and tells the members that the armistice offer is at sea. The published Oregon account and the Steamer Day Agreement carry the rest. The assembly renews narrowly, while Thomas Starr King preaches against the war in San Francisco and no one stops him. From then on Hawaii is the keeper of the objects. Each of its renewals holds the Protector to one of them: the people's own law in 1862, the reason for the war's credit in 1863, no people by decree in 1864. The planters, who gain most from the war, say least about it.
+> <!-- CR-075: Palmyra and the renewal of 1862 (F5.3, E10, E-9, I-B8, I-B9) --> **[APPROVED — CR-075]** In April 1862, with the American squadron gone from its waters, the kingdom takes Palmyra under a commission in the names of the king and the Kuhina Nui. In May California's renewal is the one in doubt. Port Townsend has held, the flood has driven the legislature from Sacramento to San Francisco, the Iowa regiments are on the Sound, and the Council has just voted the Rio Grande. Vallejo reads Baker's note of 1861 to the assembly and tells the members that the armistice offer is at sea. The published Oregon account and the Steamer Day Agreement carry the rest. The assembly renews narrowly, a few streets from the pulpit where Thomas Starr King preaches against the war, and no one stops him.
+
+### S7b. §12, l. 542, after "… begin to resemble annual recognition of a permanent fact."
+
+> <!-- CR-075: the keeper of the objects (F6, F-5) --> **[APPROVED — CR-075]** Hawaii's renewals are the ones with conditions. Each holds the Protector to one of the objects of 1861: the people's own law in 1862, the reason for the war's credit in 1863, no people by decree in 1864. The planters, who gain most from the war, say least about it.
 
 ### S8. §12, l. 553, after "makes no move against Port Townsend or Fort Union before the vote."
 
 > <!-- CR-075: J-2 --> **[APPROVED — CR-075]** Its objects have been in print since July 1861 and its terms since August 1863.
 
-### S9. §12, l. 591, after "which never obliged the United States to keep an island once its guano was gone."
+### S9. §12, l. 594, at the end of the Rockies paragraph ("… binds the Union to transit through Denver.")
 
-> <!-- CR-075: the count and the Kalama (G8, G-2, G-3, G-6, F5.6, I-B12) --> **[APPROVED — CR-075]** Every article of the peace can be traced to the objects printed in July 1861 and the heads of 1863, except Washoe, retaken against its people's wish, and the empty mountain parks, which the line takes and the gold pays for. Alaska, bought the same spring from Russia, was never a war aim. After the exchange the *Kalama* sails for Johnston and raises the kingdom's flag on Kalama Island again. Victoria hears it from the harbour.
+> <!-- CR-075: the count and the Kalama (G8, G-2, G-3, G-6, F5.6, I-B12) --> **[APPROVED — CR-075]** Every article of the peace can be traced to the objects printed in July 1861 and the heads of 1863, except Washoe, retaken without its people's asking. The empty mountain parks the line takes and the gold pays for, as the preamble said. Alaska, bought the same spring from Russia, was never a war aim. After the exchange the *Kalama* sails for Johnston and raises the kingdom's flag on Kalama Island again. Victoria hears it from the harbour.
 
 ## Not written into the storyline
 
@@ -74,9 +78,9 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 ## Integration checklist
 
-1. **Storyline.** Write S1–S9 into `master_storyline.md`. Then read §§8–12 through for:
+1. **Storyline.** Write S1–S9 (with S7b) into `master_storyline.md`. Then read §§8–12 through for:
    - reading order;
-   - repeated facts: S5 against l. 417's existing "Hawaii's delegation obtains …"; S7 against l. 427's Willamette sentence;
+   - repeated facts: S5 against l. 417's existing "Hawaii's delegation obtains …"; S7 against l. 427's Willamette sentence and l. 488's armistice offer; S7b against l. 542;
    - labels.
    Run `lint_canon.py`.
 2. **Register.** Add CR-075 to `change_requests.json`: the title, the decisions of 18–19 November 2026 by part, the files, `"facts": []`, and H-1 as the one open item. Then run `sync_master_storyline.py --write` and `--check`.

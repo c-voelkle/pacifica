@@ -26,18 +26,18 @@ The principle behind the part is the author's own (13:20): the war is not a one-
 | When | What | Status |
 |---|---|---|
 | June | Lincoln's offer is made through Baker and in public; release, an inquiry, regret and compensation, if the expedition stands down | canon (§9; CR-068 G2) |
-| Within days of the offer | Elias asks for papers: the Calculation Office, Judah, Beale, Broderick, Huntington's house, the Assay Office and Marcus's staff, each on its own question, in writing, within ten days. Victoria's delegation asks Wyllie for his estimate by the next steamer | PROPOSED |
+| Within days of the offer | Elias asks for papers: the Calculation Office, Judah, Beale, Broderick, Huntington's house, the Assay Office and Marcus's staff, each on its own question, in writing, within ten days. Wyllie's letter, which Victoria asked for in May before she sailed, has come by the June steamer | PROPOSED |
 | Late June, first evening | **The first sitting:** the Union and the West (D1, D2, D6) | PROPOSED |
 | Late June, second evening | **The second sitting:** the interior, the coin and the calendar (D3, D4, D5); Burch's address answered (Part C, C6.4); the respondent's summing-up | PROPOSED |
 | Early July | **The Council's night** (CR-068 B5): the seven reasons, the offer of the Protector's office, Hawaii's price, California's price (Part E, E9), the concurrence, the war resolution and its preamble (Part C). Baker waits in the anteroom | canon (the night, APPROVED in CR-068); its votes PROPOSED here |
 | Mid-July | The offensive opens | canon (§9) |
 
-- D1.1 **Why two sittings and then the night.** The seven reasons argue from the estimate. Reason 4 (the danger will never be smaller) and reason 7 (the Union's sequence) are conclusions of the first sitting. Elias's offer to stand down if the Council prefers Lincoln's terms (CR-068 G2) is a real offer only if the Council has already heard what standing down would cost. So the estimate is heard first, in closed session. The Council's night is when the votes are taken. Part C's C8 is to be read this way: the open vote takes place on the Council's night, after the sittings (C9, below).
-- D1.2 **Time.** Lincoln's offer is made in June, and the reply is sent early in July (CR-068 G2). The papers and the two sittings take about three weeks. No answer from Honolulu can come back within that time (CR-068 CT13), so Wyllie's estimate arrives only if he sent it unasked, by the steamer after the packet affair. PROPOSED: he did. Victoria asked for it in May, when she came to Monterey with Hawaii's demands (D-9).
+- D1.1 **Why two sittings and then the night.** The seven reasons argue from the estimate. Reason 4 (the danger will never be smaller) and reason 7 (the Union's sequence) are conclusions of the first sitting. Elias's offer to stand down if the Council prefers Lincoln's terms (CR-068 G2) is a real offer only if the Council has already heard what standing down would cost. So the estimate is heard first, in closed session. The Council's night is when the votes are taken. Part C's C8 is to be read this way: the open vote takes place on the Council's night, after the sittings (D9, below).
+- D1.2 **Time.** Lincoln's offer is made in June, and the reply is sent early in July (CR-068 G2). The papers and the two sittings take about three weeks. No answer from Honolulu can come back within that time (CR-068 CT13), so Wyllie's estimate is in Monterey only because it was asked for earlier. PROPOSED: Victoria asked him for it in May, as she left Honolulu with Hawaii's demands and the kingdom's assent (D-9; Part F, F1.3), and he sent it by the June steamer.
 
 ## D2. The form: a challenge evening used for war (D-1, APPROVED)
 
-- D2.1 **The custom.** At the Laboratory a result goes to a challenge evening before it goes to the journal. An appointed respondent attacks it, and the evening distinguishes what is established from what is conjecture and from what would settle it (§8; CR-049; the custom as CR-050 shows it in 1908). In 1861 the Laboratory is two years old (1859) and the custom older, from Genth's school. Most of the Council have never attended one. Elias has, many times.
+- D2.1 **The custom.** At the Laboratory a result goes to a challenge evening before it goes to the journal. An appointed respondent attacks it, and the evening distinguishes what is established from what is conjecture and from what would settle it (§8; CR-049; the custom as CR-050 shows it in 1908). In 1861 the Laboratory is two years old (1859), and so is the custom, which began there as a laboratory habit (§8). Most of the Council have never attended one. Elias has, many times.
 - D2.2 **The rules as adapted (PROPOSED):**
   1. Each part is given by the person who knows it, in his own words, and his paper is entered in the minutes.
   2. Each part states three things: what is established (with its source), what is conjecture, and what would settle it, and when.
@@ -48,7 +48,7 @@ The principle behind the part is the author's own (13:20): the war is not a one-
 - D2.3 **Who is in the room (D-6, APPROVED).**
   - *The Council:* both member delegations.
   - *In full:* Marcus Vance (P2) and Sherman (P1), who as Inspector-General reports to the Council (CR-067).
-  - *For their own parts only:* Ralston (P5), Huntington (P4) and Ericsson (P3). Each comes in, gives his part, answers the respondent and leaves.
+  - *For their own parts only:* Ralston (P5), Huntington (P4) and Ericsson (P3). Each comes in, gives his part, answers the respondent and leaves. Ralston is not yet a citizen: he is heard on his own part only and sworn to secrecy at the door. The sitting is where he decides. He takes the Republic's oath in July, after the night (CR-069), and the minutes show that he made up his mind in the room where he gave his rule.
   - *By paper, read in:*
     - the Calculation Office (Sylvester, P6);
     - Judah (P7);
@@ -81,7 +81,7 @@ Each part gives the claim, then who gives it and what he brings (*how he knows*)
   - *Seward's foreign war:* Lincoln refused to make war on Monterey that spring (canon §9). The Union's President has already chosen the sequence once.
 - **Established:** the blockade proclaimed; Lincoln's refusal of Seward; the three-month men before Washington.
 - **Conjecture:** that the South holds for two years.
-- **What would settle it:** the first battle in Virginia. Sherman says it will be lost by whoever attacks first with raw men, and Bull Run is three weeks away.
+- **What would settle it:** the first battle in Virginia. Sherman says the first battle will be lost by whoever attacks first with raw men, and that the side that loses it will then raise armies the size of nations. He gives no date.
 - **The respondent's attack (Sherman against himself, by custom).** If the Union wins quickly in Virginia, it will not need two wars. If it loses, it will build the largest army in the hemisphere and will not stop at the South. Either way the West is next. His forecast of the war's length is the strongest argument for acting now, and he knows it: it is reason 4 before Elias states it.
 - **What the Republic will do:** act in July, while the Union has no army on the Pacific; send no army east (the fifth object); lend to the South when it holds its own ground (from 1863, CR-068 G3–G4).
 - **Right** (CR-068 G3).
@@ -91,13 +91,13 @@ Each part gives the claim, then who gives it and what he brings (*how he knows*)
 - **Claim.** The West cannot be reinforced cheaply. The sea road through Panama must pass the turret ships, and the overland road crosses a thousand miles of plains and passes that the Union does not supply. What reaches the Sound comes in regiments, not armies.
 - **Given by:**
   - *Marcus (P2)*, on what an army needs to move and be fed;
-  - *Ericsson (P3)*, on what the Union's yards can build and how fast. The Navy Department refused his armoured ship in 1854, and the Union has no turret ship (CR-068 G3);
+  - *Ericsson (P3)*, on what the Union's yards can build and how fast. no government would build his armoured ship when he offered it in 1854 (Hist.: to Napoleon III), and the Union has no turret ship (CR-068 G3);
   - *the Calculation Office (P6)*, on Panama's tonnage from the shipping registers;
   - *Judah's paper (P7)*, on the passes and their seasons;
   - *Beale's paper (P10)*, on which roads cannot be used. In our world he told the Union's commander that the Texas expedition by way of Mexico was impracticable (HUNT 22).
 - **Established:**
   - the Pacific squadron is six wooden sloops (HUNT 301–302);
-  - there is no fort on the Columbia or the Sound (HUNT 234, 304);
+  - the Union's posts on the river and the Sound are new, few and lightly built: Congress voted money for the Columbia bar and Port Townsend after 1859 (CR-059 H7), and Washington reinforced the coast and the interior after Washoe, spreading what it sent (canon §10). Port Townsend is the one place the money went in earnest;
   - the regulars in the Northwest are few and thinly posted (HUNT 26, 220–226).
 - **Conjecture:**
   - how many regiments the Union will send, and when;
@@ -143,7 +143,7 @@ Each part gives the claim, then who gives it and what he brings (*how he knows*)
 - **Established:** the coast sent New York about forty millions in gold a year (canon, the bankers' memorial of 1862, CR-069). Nothing replaces it.
 - **Conjecture:** that the Union will suspend coin payments within a year, and that a Treasury paying in paper cannot pay for long. Everyone at the table, Ralston and the Office included, believes the second (D5).
 - **What would settle it:** the New York banks' coin at the end of the year. In canon they suspend at the end of December (§9).
-- **The respondent's attack, which is Ralston's.** The houses will keep their coin at home only if they are asked, not ordered. An export ban would send the coin to London by every private route and make the houses the Republic's enemies. Nobody needs the principle that summer: the treasure steamers stop in July (CR-069), and the coin stays home without being asked. The minutes record it as Ralston's rule. In 1862 the question comes back in a new form, coin leaking to London by private routes, and Elias reaches for an export ban. Ralston applies his own rule of 1861 to it and brings the houses' word instead: the Steamer Day Agreement (canon, CR-069). The scene of 1862 keeps its discovery. What Elias learns there is how the rule works in practice.
+- **The respondent's attack, which is Ralston's.** The houses will keep their coin at home only if they are asked, not ordered. An export ban would send the coin to London by every private route and make the houses the Republic's enemies. Nobody needs the principle that summer: the treasure steamers stop in July (CR-069), and the coin stays home without being asked. The minutes record it as Ralston's rule. In 1862 the question comes back in a new form, coin leaking to London by private routes. The run has frightened Elias. He knows Ralston's rule from the minutes and wants the decree anyway, because a decree is quicker and the rule depends on other men's word. Ralston applies his own rule of 1861 to it and brings the houses' word instead: the Steamer Day Agreement (canon, CR-069). The scene of 1862 keeps its discovery. What Elias learns there is how the rule works in practice.
 - **What the Republic will do:** announce the price with the objects (Part C, C4). Sherman objects that a price named in 1861 will be raised in 1865 by whoever is winning. The promise to treat on the objects and ask nothing beyond them is Elias's answer to him (Part C, C4.4).
 - **Right** (CR-069). Ralston's method is used, not Elias's.
 
@@ -174,7 +174,7 @@ Each part gives the claim, then who gives it and what he brings (*how he knows*)
 He gives one part, and he gives it last, because it is not evidence. He describes what his own life taught him about how the interior chooses:
 - the Santa Fe trail and the Taos winters, where a town's allegiance followed the wagons that fed it (§1; CR-066);
 - the Comanche peace in Texas, where a nation made terms with whoever could keep them (§2);
-- Querétaro in 1847, where a government that could not hold California recognized the republic that did (§4).
+- Querétaro in 1847, where a government that could not hold California recognized the republic that did (§4). From it he draws the lesson that a government fighting a war elsewhere gives up a distant province rather than spend an army on it, and he says so of New Mexico: Washington will give up the Rio Grande to keep its sequence, as Mexico gave up California. This is the lesson that misleads him (D5).
 His reading of Lincoln (MD1): a man who will keep his sequence and will be fair. The Council hears it as his experience, not as proof, and the minutes record it that way.
 
 ## D4. The respondent's case (D-1, APPROVED)
@@ -184,7 +184,7 @@ Sherman supports the protection and objects that the objectives have grown (cano
 2. *Raw men do not invade.* The Republic's army is trained (the Defense Law of 1855, §8), but its reserves are men with farms. What it can hold is what it can supply.
 3. *A limited war stays limited only if its objects are written down, in a form that can be met.* If the Council will not write them, he will report to it that the army's mandate has no limit he can inspect. This is the point he wins, and it gives the preamble its form: each object says what would meet it, and each later resolution names the object it serves (Part C, C2, C7).
 4. *We cannot have two kings.* In our world he said it of a state against the federal power (SHER 120). Here he says it of the Protector against the Council: the Protector commands within the resolution, and the resolution is the Council's (CR-067).
-5. *Casey (D5).* He knows Silas Casey from the old army as a careful officer who wrote the book of drill (Hist.). He tells Marcus that a drillmaster is not a fool and that a defended landing at Port Townsend is not a raid. Marcus answers from the evidence: Casey's posts, guns and stores are at Fort Steilacoom, and a careful officer defends what he has fortified, not an open anchorage. On what the Republic knew in June it is the better reading. The minutes record both, and it is a judgment call that goes wrong, not folly.
+5. *Casey (D5).* He knows Silas Casey from the old army as a careful officer and a drillmaster of the old 9th Infantry, who landed on San Juan Island in 1859 and held it against a British squadron without firing a shot (Hist.). He tells Marcus that a drillmaster is not a fool and that a defended landing at Port Townsend is not a raid. Marcus answers from the evidence: Casey's regiment, stores and headquarters are at Fort Steilacoom, and a careful officer defends his post, his stores and the line to the interior, not the anchorage Congress paid for, which can be retaken when the Union's ships come. Port Townsend's money is on the table (D3.2), and Marcus weighs it and reads it otherwise. On what the Republic knew in June it is the better reading. The minutes record both, and it is a judgment call that goes wrong, not folly.
 
 What Sherman does not do is oppose the war. He goes on supporting the protection, and he inspects Port Townsend afterwards without blaming Marcus for the government's objectives (canon §10). The respondent's work is to test the plan, not to defeat it.
 
@@ -195,9 +195,9 @@ The errors keep Elias clever rather than prophetic. Each is traced to whoever ma
 | Error | Whose estimate | How it shows in the minutes | What follows |
 |---|---|---|---|
 | **Port Townsend holds** (§10) | Marcus's estimate of Casey (D-4): a judgment call, the better reading on the evidence of June (D-11) | Sherman's warning is recorded beside Marcus's answer (D4.5) | Casey beats the landing; Marcus approved the operation with reservations and accepts responsibility (canon §10). Sherman's inspection blames the failures, not Marcus (canon), which is generous from the man who warned him |
-| **The Union fights hard on the Rio Grande** (CR-061) | Elias's own (D-4): he expected the Union to give ground in New Mexico to keep its sequence | His part (D3.7) says so; de la Guerra's paper is more cautious | Canby, Carson and the Coloradans fight two Valverdes (CR-061). The valley costs a year and a second resolution |
-| **The Saints come on their own terms** (CR-060) | The San Bernardino channel's optimism (D-4): Hunt's letter says Young will come in once the road is cut | Hunt's own caution in the same letter, that Young will not be commanded, is recorded and not weighed | Young will not sign until the Protector signs, and rides to Bannack on his own decision (CR-060) |
-| **Washoe needs arms in 1864** (W4) | Elias's, by the method of D3.3 (D-10) | The market argument assumes the interior chooses. It does not consider that Congress can choose for it by making a state | The first reservation of 1863 and the spring of 1864 (canon §10); the Chronicler's exception (W4) |
+| **The Union fights hard on the Rio Grande** (CR-061) | Elias's own (D-4): he expected the Union to give ground in New Mexico to keep its sequence, by the lesson of Querétaro (D3.7; K4 of the review) | His part (D3.7) says so; de la Guerra's paper is more cautious | Canby, Carson and the Coloradans fight the column at the second Valverde (CR-061; the first, in February 1862, is Canby against Sibley). The valley costs a year and the new resolution of April 1862 |
+| **The Saints come on their own terms** (CR-060) | The San Bernardino channel's optimism (D-4): Hunt's letter says Young will come in once the road is cut | Hunt's own caution in the same letter, that Young will not be commanded, is recorded and not weighed | Young will not sign until the Protector signs, and sends the Legion to Bannack on Deseret's own decision (CR-060) |
+| **Washoe has to be retaken in 1864** (W4; without a fight, canon §10) | Elias's, by the method of D3.3 (D-10) | The market argument assumes the interior chooses. It does not consider that Congress can choose for it by making a state | The first reservation of 1863 and the spring of 1864 (canon §10); the Chronicler's exception (W4) |
 | **The war lasts a year longer than planned** | Nobody's in particular (D-10): the whole room assumes that a Union paying in paper cannot pay for long. Ralston believes it from New York's books, the Office from the Treasury's reports, Elias from both | The assumption is in the coin part (D3.4) and nobody attacks it, Sherman included | Hist. and canon: the Union chooses paper in February 1862 (§9; CR-069), and the legal-tender notes keep it paying for years. The Terms of 1863 and the fallback's particulars of 1864 follow (CR-068 G8) |
 
 ## D6. Where the players act on their own
@@ -215,7 +215,7 @@ The outline's table D-b has each player's interest. This is the list of the mome
 | May 1862 | Vallejo | Carries California's renewal on his own argument (Part E, E10) |
 | October 1862 | Sherman and Victoria | Tell Elias that the guard on the Salt Lake road needed the Council's vote (canon, CR-060) |
 | Autumn 1862 | Andrés Pico | Raises the lancers he offered Beale in 1861 (canon CR-061; Part E, E7) |
-| 1864 | Young | Rides to Bannack on his own decision (canon, CR-060) |
+| 1864 | Young | Sends the Legion's cavalry under Lot Smith to Bannack on Deseret's own decision (canon, CR-060) |
 
 ## D7. The minutes
 
@@ -248,7 +248,7 @@ In §9, after the sentence ending "if the expedition gathering at San Francisco 
 ## Decisions for the author
 
 - **D-8. The calendar (D1).** Papers within days of the offer; two closed sittings in late June; the votes on the Council's night early in July. Approve, with Part C's C8 read accordingly? **Decided (author, 18 November 2026, 19:28):** approved.
-- **D-9. Victoria's place and Wyllie's letter (D1.2, D2.3).** Victoria comes to Monterey in May with Hawaii's demands and stays through the Council's night. Wyllie's estimate arrives unasked by the steamer after the packet affair. Approve, or keep Victoria in Honolulu and her party led by the resident delegation? **Decided (author, 18 November 2026, 19:28):** approved.
+- **D-9. Victoria's place and Wyllie's letter (D1.2, D2.3).** Victoria comes to Monterey in May with Hawaii's demands and stays through the Council's night. Wyllie's estimate, asked for by Victoria in May as she sailed, arrives by the June steamer. Approve, or keep Victoria in Honolulu and her party led by the resident delegation? **Decided (author, 18 November 2026, 19:28):** approved.
 - **D-10. The last two errors (D5).** Washoe traced to Elias's market method, and the war's extra year traced to his choice of the near end of the Office's range. Approve? **Decided (author, 18 November 2026, 19:28):** approved with the extra year revised: an error nobody in the room saw (D5).
 - **D-11. Sherman's warning about Casey (D4.5).** Recorded and overruled by Marcus. Approve? It gives Sherman's inspection after Port Townsend (canon §10) a personal edge, which canon does not have, without changing what he finds. **Decided (author, 18 November 2026, 19:28):** approved with Marcus's answer the better reading on the evidence (D4.5).
 - **D-12. Ralston heard and set aside in 1861 (D3.4).** The minutes show that Elias had the better method in 1861 and still meant to decree a ban in 1862. Approve? It sharpens canon's CR-069 scene rather than changing it. **Decided (author, 18 November 2026, 19:28):** approved replaced: Ralston's principle is recorded in 1861 and applied by him in 1862, so CR-069's scene keeps its discovery (D3.4).
@@ -267,7 +267,7 @@ none. CR-068 B5 keeps its shape (D9). The only change to an earlier draft of thi
 - §9: the sittings come between Lincoln's offer and the Council's night. The canon sequence (offer in June, reply early in July, offensive mid-July) is unchanged.
 - §10: Port Townsend's defeat is traced to Marcus's estimate, and Sherman's inspection is unchanged.
 - CR-060, CR-061, CR-069: the errors and the acts on their own are canon events, traced, not changed.
-- CR-068 CT13: no round trip to Honolulu fits; Wyllie's letter is unasked (D1.2).
+- CR-068 CT13: no round trip to Honolulu fits in June; Wyllie's letter was asked for in May (D1.2).
 
 ## Research
 

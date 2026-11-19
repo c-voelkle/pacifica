@@ -190,3 +190,15 @@ The Chronicler then counts it in G5 and I-B13 as the one term the Republic asked
   - Sherman's demand for 200,000 men in October 1861;
   - the Seward–Lyons treaty of 1862.
 - **Literary effect.** Agency is real and spread out. Vallejo moves the second object and carries the 1862 renewal. Victoria wins the third object and holds the keys to the renewals. Beale acts unasked. Ralston's rule beats Elias's decree. Burch pushes and loses. Starr King is left free as the Republic's best answer, and Wyllie and the king each act on their own instinct. California's four reasons (titles, tax, the treaties, the leash; money; the two halves) are believable as Californians' own. Hawaii's power motive (navy, harbour, islands, weight at sea) sits credibly beside its moral reasons, apart from S16. Elias speaks least at the sittings, his own errors are traced to him, and one error is nobody's. "Clever, not prophetic" holds, and K3 and K4 would strengthen it. The spread of points of view in Part I (Vallejo, Victoria, Sherman, de la Guerra, Pico, Lincoln, the Chronicler, and Elias once) matches its stated aim.
+
+## Applied (19 November 2026, 08:26, at the author's request)
+
+All Must-fix (M1–M8), Should-fix (S1–S25) and Consider (K1–K7) items are applied as recommended. The choices taken where the review offered options:
+- Judd loses clearance.
+- Ralston is sworn to secrecy before the sittings, and the sitting is where he decides.
+- The sealed minute is counted as the one term the Republic asked beyond its printed objects.
+- The legislature sits at San Francisco after the flood.
+- K1–K7 are taken.
+
+Also applied: the outline's C1 note no longer carries the Hist. "every federal dollar to San Francisco Bay" into Pacifica (M6), and Part E's E12 is marked superseded by `CR-075-storyline.md`. Checks after the fixes: canon lint clean on all nine CR-075 files; `cr_facts.py` reports no fact changes; master-storyline index, character documents and commitments ledger (300, 0 problems) clean; all ten storyline anchors found on `main` at the lines given.
+
