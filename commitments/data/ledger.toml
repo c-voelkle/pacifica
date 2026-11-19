@@ -349,6 +349,7 @@ owes = [
   { by = "PAC", to = "CANATIONS", what = "homelands reserved to each nation, never sold and leased only through the Republic, which keeps a fee" },
   { by = "PAC", to = "CANATIONS", what = "annuities of goods for ceded land, paid from the Land Fund" },
   { by = "CANATIONS", to = "PAC", what = "land beyond the homelands sold only to the Republic, the sole lawful buyer" },
+  { by = "PAC", to = "CANATIONS", what = "the spirits article (CR-076): no spirits enter a homeland except as the nation's council decides; no annuity, price, wage or debt paid in spirits; a trader who breaks it loses licence and bond and answers in the Republic's court on the nation's complaint" },
 ]
 conditions = ["The Land Fund is kept outside the revenues pledged to London.", "Each sale is entered in the public register, and the entry is the title."]
 status = "APPROVED"
@@ -358,6 +359,8 @@ quote = "A homeland stays the nation's own; it can't be sold, and it can be leas
 more_quotes = [
   "Beyond the homelands only the Republic may buy Native land.",
   "The treaties hold, but long leases at low rents, annuity claims signed over to merchants for debts, and court rulings on boundaries and water keep moving land out of Native hands, and the Realm earns a fee on every lease.",
+  "Every treaty carries a spirits article.",
+  "No spirits enter a homeland except as the nation's council decides, no annuity, price, wage or debt is paid in spirits, and a trader who breaks the article loses his licence and his bond and answers in the Republic's court on the nation's complaint, under the nation's ordinance.",
 ]
 open = "Signed 1851–52. Prices, annuity terms and boundaries are OPEN. The storyline gives no term and does not say who can end the treaties; CR-033 A22 (consent of the nation to undo the compact) is not in the prose."
 

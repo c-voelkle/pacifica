@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 74 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 75 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1254,6 +1254,24 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - Part D's and Part F's PROPOSED details as marked in the parts; when Victoria learns of Kiyoshi (OPEN in canon).
+
+### CR-076 — The measured cup: drink, opium, coffee and the ability ethos at home (1834–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Principle: drink is argued against only from measured harm to the drinker's ability and to bystanders, never as sin; not prohibition; the state's case and label say only what true figures show; the cup belongs to achievement; the rule keeps Pacifica's own people able and covers every intoxicant sold at home, while merchants abroad stay under the ordinary law of trade.
+- Origins: Turley's mill and Taos Lightning, the traders' kegs to the Arkansas posts, and (PROPOSED) Reuben's dealings there and the boy's morning on the Arkansas; Thomas Logan's table of the diggings' killings (1852); Lahaina, September 1859 (two days' drinking, Neilson shot, brought to Honolulu, dies February 1862), Lahaina's ship's surgeon (PROPOSED); the fellows bring Huss and Gothenburg; the life offices' sectional figures; Salt Lake's city store and Young's four-dollar gallon; Hawaii's racial clause ended.
+- Customs: never alone, never by day (a feast-day family wine exception in the Californio and Hispano counties that becomes rarer each generation), never out of hand in public because others are put at risk; the earned cup, poured by others, no one pours their own; never glamour, rite of passage, romance or rank; for women as for men.
+- Law: the treaties' spirits article (1851–52 and every later compact with a Native nation); no spirit ration, coffee instead, the one issue after a deed; railways dismiss a man on duty with drink in him; California's ladder duty by strength (1852), assayed; in 1866 the Confederation's Measures Act takes only customs, licensed importers and the assay standard, and the members' own acts (California, Hawaii under Lot, the acceding members' charters) set the ladder at home, the floor with no quantity discount, the label, the evening hour, no credit, no truck and a county option; Salt Lake's store kept without an official supplier; the Spirit Stores (county option from 1867; universal for take-away spirits and smoking opium by the Spirits Act of 1888); in Hawaii the stores under the Board of Public Health, not the Territorial Council, and the restored legislature from 1907; sobering rooms, a fine scaled to a day's wage, the court's roll; drunkenness excuses nothing; age eighteen; the duty earmarked to surgeries, health boards and the county halls, which are dry on ordinary nights, may vote the cup in on festival nights and keep a coffee counter.
+- Homelands: the nation decides; outsiders answer in the Realm's court on the nation's complaint and, once the nation is chartered, in its own court; a nation's own store keeps its whole duty, chartered or not, half for clinics and half for roads and water; no county licence within ten miles of a homeland line without the nation's consent; one floor on both sides; leases set the terms on leased ground; royalties in trust until charter, then the nation's patrimony, never cash shares; the tables printed.
+- Hawaii and the Philippines: Victoria stops drinking after Lahaina, asks Elias for the Sacramento table, and carries the kingdom's law of 1860 (one rule for Hawaiian and foreigner, opium licensed); ʻawa under Hawaiian custom; no Philippine spirits monopoly, the Spanish opium farm ended and the same licence for all.
+- Opium at home: no law against a people; San Francisco's den ordinance of November 1875 struck by California's supreme court in 1876; opium on a ladder of its own by morphine content, only at the Spirit Stores from 1888, licensed rooms on public-house terms enforced by county police and inspectors with the Chinese district associations consulted; opiates and cocaine for medicine on a physician's order; no opium licence sale in Hawaii.
+- Coffee: the working day's drink; the coffee rooms, the halls' counters, the ration; San Francisco's roasting houses (Folger's Pioneer Mills, Hills Bros.' vacuum tins of 1900); Japanese students take the habit home; Kona's smallholders and their co-operative mill on Development Fund credit; the Philippine industry survives the rust of 1889 by quarantine, spraying and replanting; Satori Kato's soluble coffee at San Francisco in 1901; MODEL estimates of 15–18 lb a head and a fifth or so grown under the Pacific crowns.
+- The Union: a moral temperance crusade and national Prohibition (1920–1933); Pacifica does not supply it.
+- CT1: CR-038's barracks 'rowing and drinking clubs' become 'rowing and climbing clubs; the barracks drinks on the night a race is won or a route climbed, when the losers pour'.
+
+**Still open:**
+- The first splice's occasion; Pacifica's position at Shanghai (1909) and The Hague (1912) on opium; the duty's bands, rates and revenue and the coffee figures (MODEL, next workbook build); the Office of Public Measures' date versus §15's Philippine figures (flagged).
 
 ### Author-approved editorial safeguards
 

@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 323,
+    "canonical_dossiers": 326,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 317
+    "active_or_provisional_identities": 320
   },
   "people": [
     {
@@ -6331,6 +6331,51 @@
       "legacy_conflicts": [],
       "source_authority": [
         "CR-075"
+      ]
+    },
+    {
+      "id": "CT-HENRY-NEILSON",
+      "display_name": "Henry Augustus Neilson, secretary to Kamehameha IV",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-HENRY-NEILSON",
+      "narrative_profile": "Historical person in alternate history; CR-076, APPROVED 19 November 2026. A New Yorker, son of John Jacob Astor's physician, in Honolulu from 1853, private secretary and friend of Alexander Liholiho (*hist.*). Shot by the king at Lahaina late on 11 September 1859 after two days' drinking; brought back to Honolulu and confined to his cottage in Alakea Street; dies 12 February 1862 (*hist.*). Here Victoria sits with him. **Character use:** one event; no invented interiority.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-076"
+      ]
+    },
+    {
+      "id": "CT-THOMAS-LOGAN",
+      "display_name": "Thomas Muldrup Logan, physician and keeper of the tables at Sacramento",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-THOMAS-LOGAN",
+      "narrative_profile": "Historical person in alternate history; CR-076, APPROVED 19 November 2026. Born 1808 in Charleston, in Sacramento from 1850, keeper of its medical and weather records; historically drove the founding of Sacramento's permanent health board in 1862 and California's State Board of Health in 1870, where he was permanent secretary, and proposed a national department of health in 1871; dies 1876 (*hist.*). Here he compiles the table of the diggings' killings that Elias lays before the council in 1852 and keeps the Republic's drink tables; his board of 1862 runs the first sobering room. Always \"Thomas Logan\" or \"Dr Logan\": bare \"Logan\" is Logan Turner. **Voice:** a physician's figures, without sermon.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-076"
+      ]
+    },
+    {
+      "id": "CT-SATORI-KATO",
+      "display_name": "Satori Kato, chemist of soluble coffee",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-SATORI-KATO",
+      "narrative_profile": "Historical person in alternate history; CR-076, APPROVED 19 November 2026. Born June 1847 in Japan; historically worked in Chicago, showed soluble coffee at the Pan-American Exposition of 1901 and patented it in 1903 (US 735,777) (*hist.*). Here he works in San Francisco on a Polytechnic fellowship and shows it there in 1901; his powder goes into the Companies' kits in 1914. **Character use:** one invention; no invented interiority.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-076"
       ]
     }
   ],
