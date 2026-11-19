@@ -32,7 +32,8 @@ independence: same-agent (draft 1 only; no review yet)
 | D2 | decision | Q-1 to Q-16 decided (all recommendations approved; Q-3 narrow, fading exception; Q-6 name the Spirit Stores; Q-7 age 18; Q-16 the rule applies to opium at home, merchants abroad tolerated: human capital, not saving the world) | author, 19 November 2026, 15:46 | current |
 | Q2 | open choice | Part K details, Q-17 to Q-21 | draft 2 | closed by D3 |
 | D3 | decision | Q-17 to Q-21 approved; coffee to be emphasized (Pacifica as a coffee country; how big?) | author, 19 November 2026, 16:31 | current |
-| Q3 | open choice | Part L (coffee), Q-22 to Q-28 | draft 3 | open |
+| Q3 | open choice | Part L (coffee), Q-22 to Q-28 | draft 3 | closed by D4 |
+| D4 | decision | Q-22 to Q-28 approved; fresh-context review requested | author, 19 November 2026, 16:38 | current |
 
 ## Resume here
 
