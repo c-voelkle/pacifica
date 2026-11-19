@@ -30,8 +30,10 @@ independence: same-agent (draft 1 only; no review yet)
 | D1 | decision | Next CR documents drink and the ability ethos (brief as quoted) | author, 19 November 2026, 13:39 | current |
 | Q1 | open choice | Q-1 to Q-16 in CR-076.md | draft 1 | closed by D2 |
 | D2 | decision | Q-1 to Q-16 decided (all recommendations approved; Q-3 narrow, fading exception; Q-6 name the Spirit Stores; Q-7 age 18; Q-16 the rule applies to opium at home, merchants abroad tolerated: human capital, not saving the world) | author, 19 November 2026, 15:46 | current |
-| Q2 | open choice | Part K details, Q-17 to Q-21 | draft 2 | open |
+| Q2 | open choice | Part K details, Q-17 to Q-21 | draft 2 | closed by D3 |
+| D3 | decision | Q-17 to Q-21 approved; coffee to be emphasized (Pacifica as a coffee country; how big?) | author, 19 November 2026, 16:31 | current |
+| Q3 | open choice | Part L (coffee), Q-22 to Q-28 | draft 3 | open |
 
 ## Resume here
 
-Draft 2 records Q-1 to Q-16 and adds Part K (opium at home). Wait for Q-17 to Q-21, then run a fresh-context review before adoption, and integrate (storyline Part N, register, sync, model rows if approved).
+Draft 3 adds Part L (coffee). Wait for Q-22 to Q-28, then run a fresh-context review before adoption, and integrate (storyline Part N, register, sync, model rows if approved).
