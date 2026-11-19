@@ -28,8 +28,10 @@ independence: same-agent (draft 1 only; no review yet)
 | ID | Type | Statement | Source | Status |
 | --- | --- | --- | --- | --- |
 | D1 | decision | Next CR documents drink and the ability ethos (brief as quoted) | author, 19 November 2026, 13:39 | current |
-| Q1 | open choice | Q-1 to Q-16 in CR-076.md | draft 1 | open |
+| Q1 | open choice | Q-1 to Q-16 in CR-076.md | draft 1 | closed by D2 |
+| D2 | decision | Q-1 to Q-16 decided (all recommendations approved; Q-3 narrow, fading exception; Q-6 name the Spirit Stores; Q-7 age 18; Q-16 the rule applies to opium at home, merchants abroad tolerated: human capital, not saving the world) | author, 19 November 2026, 15:46 | current |
+| Q2 | open choice | Part K details, Q-17 to Q-21 | draft 2 | open |
 
 ## Resume here
 
-Wait for the author's answers to Q-1 to Q-16. Then revise CR-076 (labels, dates, names), run a fresh-context review before adoption, and integrate (storyline Part N, register, sync, model rows if approved).
+Draft 2 records Q-1 to Q-16 and adds Part K (opium at home). Wait for Q-17 to Q-21, then run a fresh-context review before adoption, and integrate (storyline Part N, register, sync, model rows if approved).
