@@ -42,7 +42,8 @@ independence: same-agent (outline only; no review yet)
 | D13 | decision | G-3 to G-6 approved as recommended; J1 (the sailor's compensation), J3 (K8 deferred) and J4 (housekeeping) approved | author, 18 November 2026, 22:58 | current |
 | D14 | decision | Part I: I-1 to I-6 approved; Nuʻuanu overlooking the future site of Thalassia | author, 19 November 2026, 00:22 | current |
 | D15 | decision | Fresh-context review: all M, S and K fixes applied as recommended (Judd loses clearance; Ralston decides at the sitting; the sealed minute is the one term beyond the printed objects; the legislature at San Francisco; K1–K7) | author, 19 November 2026, 08:26 | current |
-| Q1 | open choice | H-1 (deferred by the author again, 22:58) | outline | open |
+| Q1 | open choice | H-1 (deferred by the author again, 22:58) | outline | closed by D16 |
+| D16 | decision | Part H: no formula; the schools' readings by year (picture book of Kalama Island; *The Story of the Realm* ch. 9 as narrative; a sixth-year Rio Grande novel with a drummer from Agua Mansa; *Two Houses*); CR-068 W2 and A10 replaced, W3 amended (CT4) | author, 19 November 2026, 09:11 | current |
 
 ## Revision of 13:20
 
@@ -72,6 +73,7 @@ independence: same-agent (outline only; no review yet)
 - The preamble renamed PP3a (CR-068's PP3c is the armistice offer of April 1862); the armistice offer added to C4.4, E10.2 and G3. Part I drafted in full: `book-agent/revision/CR-075-I-on-the-page.md` (thirteen beats in CR-068's beat-sheet form; Elias's eyes once). Open: I-1 to I-6; H still deferred.
 - I-1 to I-6 approved (19 November 2026, 00:22; the honeymoon at the head of Nuʻuanu, overlooking the future site of Thalassia). Assembled: the outline is the CR's index (parts table, status, notes where parts supersede its tables), and `book-agent/revision/CR-075-storyline.md` holds the storyline blocks S1–S9 with anchors on `main` at 2f65358 and the integration checklist.
 - Fresh-context review done (`book-agent/revision/CR-075-review.md`): ready after fixes. All M, S and K items applied (author, 08:26); checks rerun clean.
-- Next: the author's adoption of CR-075; then integration per the checklist in `CR-075-storyline.md` (storyline blocks, registry entries, character bible, ledger condition, background, CR-065/CR-068 notes, checks, PR). H-1 stays deferred. No merge to `main` without the author's permission.
+- Part H rewritten (author, 09:11): no formula; readings by year; the Rio Grande novel (H2); the fifth-year sample (H3) replaces CR-068 A10; CT4 added (recommended: amend W3).
+- Next: the author's decision on CT4 and the H details marked OPEN (the boy's name, the novel's title and date); then adoption of CR-075; then integration per the checklist in `CR-075-storyline.md` (storyline blocks, registry entries, character bible, ledger condition, background, CR-065/CR-068 notes, checks, PR). No merge to `main` without the author's permission.
 - The outline waits for the author's answers to its questions and tensions. Recommended order: C (the aims), then E (California), then D, H, the rest.
 - Nothing is integrated; `main` is untouched.

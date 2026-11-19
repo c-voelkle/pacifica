@@ -74,7 +74,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
 
 - **Parts kept to the CR.** The estimate's errors (D5), Hawaii's power aims (F5.1), the whalers' safe-conduct (F-4), the chain of instruments (G1) and the beat sheet (Part I) stay in the CR. They are planning, not story facts.
 - **Off the page by decision.** The Republic's further purpose in the Pacific (the author's note of 19:47) is never stated. Starr King gets no scene (E-10).
-- **H.** The schoolbook formula is deferred, so §12's schoolbook passage (W2, A10) is unchanged.
+- **H.** The schoolbook (Part H: readings by year, no formula) has no storyline text. Canon l. 633 (the readers print *Two Houses*) is unchanged. CR-068's W2 and A10 are replaced and W3 amended by a note in CR-068's record (CT4).
 
 ## Integration checklist
 
@@ -83,7 +83,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
    - repeated facts: S5 against l. 417's existing "Hawaii's delegation obtains …"; S7 against l. 427's Willamette sentence and l. 488's armistice offer; S7b against l. 542;
    - labels.
    Run `lint_canon.py`.
-2. **Register.** Add CR-075 to `change_requests.json`: the title, the decisions of 18–19 November 2026 by part, the files, `"facts": []`, and H-1 as the one open item. Then run `sync_master_storyline.py --write` and `--check`.
+2. **Register.** Add CR-075 to `change_requests.json`: the title, the decisions of 18–19 November 2026 by part, the files, `"facts": []`, and no open item (H-1 closed by H4, 19 November 2026, 09:11). Then run `sync_master_storyline.py --write` and `--check`.
 3. **Registry and character bible.** Two new Hist. persons (the IDs are written split so the linter does not read them as live):
    - **John Chilton Burch** (proposed ID: CT- + JOHN-BURCH): (1826–1885), born in Boone County, Missouri; in the Confederal Assembly for Trinity from 1859 (C6.2).
    - **Thomas Starr King** (proposed ID: CT- + THOMAS-STARR-KING): (1824–1864), Unitarian minister at San Francisco from 1860; a pulpit only (E6.4, E-10).
@@ -110,6 +110,7 @@ Each block carries a hidden coverage comment. Comparisons with our timeline stay
    - B5's parts gain C2, C1.5 and E9;
    - CT3 is carried out by Part E (E2);
    - the reading of "no column east of the mountains" (C7.3).
+   - CT4: W2 and the sample A10 replaced by CR-075 Part H (H1, H3); W3 amended as CT4 has it; W4 gains Part H's three additions (H4). In `CR-068-samples.md`, A10 points to CR-075 H3.
 9. **Checks.**
    - `cr_facts.py check`
    - `lint_canon.py`

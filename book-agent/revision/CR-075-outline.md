@@ -1,14 +1,14 @@
 # CR-075 (outline) — What the Republic went to war for: the aims of 1861 and why California and Hawaii agreed (1861–1867)
 
-**Status:** ASSEMBLED for review, 19 November 2026. The CR is this document, which holds the index, the canon base, the gap, the rules, the schoolbook formula, the deferred items, the tensions and the integration notes, together with its six parts (below) and the storyline text in `CR-075-storyline.md`. Every question in the parts is decided by the author (18–19 November 2026) except H-1, the schoolbook formula, which stays deferred. Labels inside the parts mark what is APPROVED, PROPOSED (details), OPEN, MODEL and *Hist.*
-**History:** OUTLINE for discussion, 18 November 2026. Nothing here is decided beyond what is marked *canon* or APPROVED in an earlier CR. Every proposal is **PROPOSED**; **Hist.** marks the historical record (to verify where so marked), **OPEN** a choice for the author. Each part ends with the questions that fill it. Revised 13:20 the same day on the author's request: Part D now sets the plan beside the people who supply it (*how does he know?*) and their own agency. Revised 15:33: the research of passes 1–3 (twelve texts) written into Parts C to F and CT2; new questions C-4, D-7, E-5, F-2; C4 now worded "on the Pacific slope" (C-3); players P16–P19 added. Decisions of 16:19 written in: C-1 to C-4, E-1 to E-5; of 16:29: D-1 to D-7; of 16:45: B-1, F-1, F-2, G-1, CT1–CT3 (H-1 deferred); of 17:11: J-2 approved. Part C drafted in full in `CR-075-C-aims.md` (18 November 2026). Part C's C-5 to C-11 approved at 17:26. Part E drafted in full in `CR-075-E-california.md` (18 November 2026). Part E's E-6 to E-12 approved at 17:43. Part D drafted in full in `CR-075-D-plan-and-people.md` (18 November 2026). Part D's D-8 to D-13 left open (author, 19:13). Part F drafted in full in `CR-075-F-hawaii.md` (18 November 2026). D-8 to D-13 and F-3 to F-7 approved as recommended at 19:28. Part G drafted in full in `CR-075-G-aims-to-peace.md` (18 November 2026); it finds the Pacific article (CR-029) missing from G-1's table (G-2). G-3 to G-6 and J1, J3, J4 approved at 22:58; H still deferred. Part I drafted in full in `CR-075-I-on-the-page.md` (18 November 2026), replacing I1–I3. The preamble's paper is PP3a (PP3c is CR-068's armistice offer of 1862). Decided at 19:58: the first object gains an island clause and Hawaii a sealed minute (Parts C, F, G); the outline's C1 row is to read accordingly at integration. Parts are to be drafted one at a time, in their own documents if they grow, as with CR-071. I-1 to I-6 approved at 00:22 on 19 November 2026 (the honeymoon at the head of Nuʻuanu, overlooking the future site of Thalassia). Assembled the same night. Fresh-context review on 19 November 2026 (`CR-075-review.md`): ready after fixes. All its Must-fix, Should-fix and Consider items applied at the author's request (08:26).
+**Status:** ASSEMBLED for review, 19 November 2026. The CR is this document, which holds the index, the canon base, the gap, the rules, the schoolbook, the deferred items, the tensions and the integration notes, together with its six parts (below) and the storyline text in `CR-075-storyline.md`. Every question in the parts and in H is decided by the author (18–19 November 2026). H-1 is closed by H4: no formula; the schools' readings by year (author, 19 November 2026, 09:11). Labels inside the parts mark what is APPROVED, PROPOSED (details), OPEN, MODEL and *Hist.*
+**History:** OUTLINE for discussion, 18 November 2026. Part H rewritten 19 November 2026 after the author's decision of 09:11 (H4: no formula; readings by year; the Rio Grande novel); CT4 added. Nothing here is decided beyond what is marked *canon* or APPROVED in an earlier CR. Every proposal is **PROPOSED**; **Hist.** marks the historical record (to verify where so marked), **OPEN** a choice for the author. Each part ends with the questions that fill it. Revised 13:20 the same day on the author's request: Part D now sets the plan beside the people who supply it (*how does he know?*) and their own agency. Revised 15:33: the research of passes 1–3 (twelve texts) written into Parts C to F and CT2; new questions C-4, D-7, E-5, F-2; C4 now worded "on the Pacific slope" (C-3); players P16–P19 added. Decisions of 16:19 written in: C-1 to C-4, E-1 to E-5; of 16:29: D-1 to D-7; of 16:45: B-1, F-1, F-2, G-1, CT1–CT3 (H-1 deferred); of 17:11: J-2 approved. Part C drafted in full in `CR-075-C-aims.md` (18 November 2026). Part C's C-5 to C-11 approved at 17:26. Part E drafted in full in `CR-075-E-california.md` (18 November 2026). Part E's E-6 to E-12 approved at 17:43. Part D drafted in full in `CR-075-D-plan-and-people.md` (18 November 2026). Part D's D-8 to D-13 left open (author, 19:13). Part F drafted in full in `CR-075-F-hawaii.md` (18 November 2026). D-8 to D-13 and F-3 to F-7 approved as recommended at 19:28. Part G drafted in full in `CR-075-G-aims-to-peace.md` (18 November 2026); it finds the Pacific article (CR-029) missing from G-1's table (G-2). G-3 to G-6 and J1, J3, J4 approved at 22:58; H still deferred. Part I drafted in full in `CR-075-I-on-the-page.md` (18 November 2026), replacing I1–I3. The preamble's paper is PP3a (PP3c is CR-068's armistice offer of 1862). Decided at 19:58: the first object gains an island clause and Hawaii a sealed minute (Parts C, F, G); the outline's C1 row is to read accordingly at integration. Parts are to be drafted one at a time, in their own documents if they grow, as with CR-071. I-1 to I-6 approved at 00:22 on 19 November 2026 (the honeymoon at the head of Nuʻuanu, overlooking the future site of Thalassia). Assembled the same night. Fresh-context review on 19 November 2026 (`CR-075-review.md`): ready after fixes. All its Must-fix, Should-fix and Consider items applied at the author's request (08:26).
 **Number:** CR-075 (CR-074 is the latest).
 
 ## The CR's parts
 
 | Part | File | What it settles | Decisions |
 |---|---|---|---|
-| A, B, H, J; tensions | this document | The gap; the design rules; the schoolbook formula; the deferred items; CT1–CT3 | B-1, J1–J4, CT1–CT3 decided; H-1 deferred |
+| A, B, H, J; tensions | this document | The gap; the design rules; the schoolbook (the readings by year, no formula); the deferred items; CT1–CT4 | B-1, J1–J4, CT1–CT3 decided; H decided (H4, 09:11); CT4 recommended |
 | C | `CR-075-C-aims.md` | The preamble of the war resolution, July 1861: five objects (the first with an island clause), the price, the promise to treat; the sealed minute; Burch's motion; the rule that each resolution names its object | C-1 to C-11 and the island clause, all approved |
 | D | `CR-075-D-plan-and-people.md` | The two closed sittings of June 1861, the estimate part by part with who supplied it, Sherman's case, the errors traced, the players' own acts | D-1 to D-13, approved |
 | E | `CR-075-E-california.md` | California's four reasons, Baker's note, Ralston, Burch and Starr King, Beale and Pico, California's price, the renewal of May 1862, Oregon | E-1 to E-12, approved |
@@ -29,7 +29,7 @@
 - **1861:** secession removes the Southern bloc; "the men who call 1848 the Trist surrender sit in a Congress the South no longer balances" (§9, CR-028, PROPOSED). Lincoln refuses Seward's foreign war with Monterey among its objects (CR-068). Sausalito is sealed. Southern agents solicit bullion; Northern representatives ask the Confederation to supply or finance federal armies (§9). The packet affair; Article XIV; the Protectorship from 1 June; a May resolution for limited coercive operations, with no annexation by decree (§9). Lincoln's offer in June; the reply and the **seven reasons** (CR-068 G2); the Council concurs "on the ground that the American squadron's last Pacific stations are the Columbia and the Sound"; Hawaii's price (batteries, two frigates, the second turret ship). The offensive in mid-July; Congress recognises a state of war before 6 August.
 - **1862–1864:** the Columbia held; the interior comes in by compacts (Oregon 1861, Deseret 1862–63, the Rio Grande 1863); the Richmond credit "lent for independence" (February 1863); the **Terms of Monterey**, six heads, August 1863, "neither raised nor lowered by the fortunes of the war"; Washoe retaken in the spring of 1864 under the first reservation (CR-060, CR-068 G6–G7).
 - **1865–1867:** the armistice (May 1865); the Western treaty (December 1865, ratified 9 April 1867): the conventions of 1848 and 1860 ended, the Western line in place of the Basin's renunciation, Port Townsend and Fort Union evacuated, no storehouse anywhere, the ports open on published terms, $40 million in gold, the claims waived (CR-039, CR-062).
-- **The verdicts:** the Chronicler's three causes (CR-068 W1, APPROVED); the schoolbook's formula (W2, **deferred**: it "should be more patriotic and not give the win to another country in the first sentence").
+- **The verdicts:** the Chronicler's three causes (CR-068 W1, APPROVED); the schoolbook's formula (W2, deferred in CR-068: it "should be more patriotic and not give the win to another country in the first sentence"; replaced by Part H, which has no formula).
 
 The end state and the sequence are fixed. This CR supplies **what the Republic set out to win, why each government agreed, and the plan by which Elias expected to win it**, so that 1865 is the result of 1861 and not its afterthought.
 
@@ -39,7 +39,7 @@ The end state and the sequence are fixed. This CR supplies **what the Republic s
 - A2. **The outcome is much larger than the aims.** The Columbia and the Sound in 1861 become the Northwest, the Basin, Deseret, Idaho, western Montana, Washoe, New Mexico to 103°W, Arizona and the Western Slope by 1865. Between them stand only "choices rather than inevitability" (§9) and the Terms. Read cold, that looks like territory picked up along the way: the "Ajax/Odysseus" risk again, at the scale of the war.
 - A3. **California's reasons are Elias's arguments.** CR-068 assigns California the second, fifth and sixth of the seven reasons (the squadron on its coast; Oregon's merchants; the river's wheat, timber, coal and gold). No Californian actor wants anything in his own words; Vallejo only "supports California's assent". California pays most of the war's men and gold, and its legislature renews the Protectorship three times, but canon has no Californian renewal debate.
 - A4. **The Chronicler's frame leans on Lincoln.** M9: "the moment Lincoln is more reasonable than Elias and Elias knows it"; G2: "He chose a war for the West against an adversary who had offered him redress." With no aims of its own, the Republic's war can only be measured against Lincoln's offer, and it loses that comparison.
-- A5. **The schoolbook cannot name a Pacifican cause first**, because canon gives the Republic no objects of its own to have won. The first cause becomes "the South held" (W2).
+- A5. **The schoolbook cannot name a Pacifican cause first**, because canon gives the Republic no objects of its own to have won. The first cause becomes "the South held" (W2). Closed by Part H.
 
 ## B. Design rules (the author's standing principles, applied here)
 
@@ -203,17 +203,95 @@ CR-068 G2 settled Hawaii's reasons and price (reasons 1 to 3, the batteries, the
 
 *This table is replaced by Part G, G3 (G-5, approved 22:58).*
 
-## H. The schoolbook formula
+## H. The schoolbook: what the Republic's schools read about the war
 
-With aims of its own, the first sentence can be Pacifica's. Candidates (to replace W2; A10 follows):
+**Decided (author, 19 November 2026, 09:11): no formula.** H-1 is closed by a new option, H4, which replaces the candidates H1–H3 and CR-068's W2. Everything in H below is APPROVED in outline. Titles, names and the wording of the sample are PROPOSED, and so is anything marked so.
 
-- **H1 (recommended).** *"We held the river. Our coin held. Our word held."* (1) *We held the river:* the Americans could not take back the West where the Republic chose to stand, on the Columbia, in the passes and on the Rio Grande, and they could never spare the men, because the Founder saw to it that their other war lasted. (2) *Our coin held:* we paid in gold and they in paper, so the West chose our money, and in the end so did their Treasury. (3) *Our word held:* the Founder said in 1861 what we were fighting for and in 1863 what peace would cost, and asked nothing more when we were winning.
-- **H2.** *"We fought for three things and won them all: no foreign navy on our coast, no unequal treaty, and the West's right to choose."* Then the three causes.
-- **H3.** *"The Founder knew the Americans could not fight two wars, and he made sure they had to."* The teacher's line, prouder and harder; the Chronicler's W4 answers it.
+### H0. Why there is no formula
 
-The Chronicler's W1 keeps "the South held" as his first cause; the schoolbook and the Chronicler disagreeing about the first cause is part of the design (W4).
+- **The author's reason.** A triad every child recites comes across as simplistic and Orwellian. The author supplied a list of the books American schools of our world actually use for the Civil War, from the early grades to the eighth.
+- **What that list shows (Hist.: the list supplied; the pattern is the common one, not a single source).** The American books do not reduce the war to a sentence. They frame it by choosing the stories children meet:
+  - children as witnesses (*The Boys' War*, *Soldier's Heart*, *Pink and Say*, *I Survived*);
+  - Lincoln as a person (Freedman's photobiography; the manhunt after his death);
+  - freedom as escape (Henry "Box" Brown; the boy who reaches the Union lines);
+  - a family split by the war (*Across Five Aprils*);
+  - courage on both sides and the cost of combat;
+  - one technical marvel (the ironclads).
+- **What it leaves out** is as consistent: Reconstruction, the war's politics, the election of 1864, the draft riots, and almost all of the West (*Rifles for Watie* is the exception). The meaning is taught by selection.
+- **The age.** CR-068's sample A10 is for the fifth year, about age ten. That is the age of Hakim's *War, Terrible War* and *What Was the Civil War?*, not of a list of causes. The short list of reasons the North won, on which CR-068 W3 drew, belongs to high-school textbooks and examinations.
+- **So Pacifica does what the American books do.** Its schools have no motto about the war. They have a reading for each age, and each reading puts some things in and leaves others out. The Chronicler answers the omissions, not a slogan (W4).
 
-**Questions:** H-1. H1, H2, H3, or a combination (H2 as the heading, H1 as the three causes)? **Author, 18 November 2026, 16:45:** not yet sure. Recommended: settle H after Parts C to G are drafted, so the formula sums up the causes as written. **Author, 18 November 2026, 22:58:** still deferred.
+### H1. The readings, by year
+
+| Year | Reading | What it puts in | What it leaves out |
+|---|---|---|---|
+| Early years (second or third) | **A picture book: *The Island Came Home*** (title PROPOSED), read in the Republic's readers and, in Hawaiian, in the kingdom's schools (PROPOSED) | An American ship takes the kingdom's island in 1858, and the *Kalama*'s captain pulls the American flag down. In 1867, after the peace, the same schooner sails back and raises the kingdom's flag on Kalama Island again, and Honolulu waits at the harbour for her (Part F, F5.3 step 8, F5.6) | The sealed minute (Part C, C1.5): the children learn the happy ending of what was a secret term of the war. That the *Palestine* was owned in San Francisco and sailed on the Republic's licence (F-8): the book says "an American ship". Who gave the advice that lost the island in 1858 (F5.6) |
+| Fifth year | ***The Story of the Realm*, chapter 9, "The War of the West"** (the title kept from CR-068 A10), a narrative chapter, not a list (sample in H3) | The first sentence is the Republic's own cause: "In July 1861 the Republic printed what it was fighting for." The objects in children's words; Victoria asking that the islands be named; Vallejo and the promise of 1848; the coin; neighbours and brothers on different sides in Oregon and Washington; Lincoln as the honest rival who let his people vote (kept from A10) | The fifth object's second half: that the Republic would "lend to any American people that holds its own ground" (C2), which is the credit to a slaveholding republic (W4). Washoe retaken by arms in 1864 (CR-060). Hays's crossing of 1860 (A3). The nations of the West, who had compacts and no ballot (W4) |
+| Sixth year | **A novel with a child at its centre: the Rio Grande** (H2) | A boy's march with the column from Fort Yuma to the Rio Grande, 1862–63 | What the column's road was for, and what it began (H2) |
+| Seventh year | ***Two Houses*** (canon; CR-068 K27, decided) | The founder's letter to the President | Lincoln's reply, which the readers do not print (canon, l. 633) |
+| Colleges | Lincoln's Lyceum address and Peoria (canon, l. 633) | The rival's own words | — |
+
+There is no reading at any age that gives the war's causes as a list. A Pacifican who wants a reason has to take it from the stories, or from the Chronicler.
+
+### H2. The sixth-year novel: the Rio Grande (author, 19 November 2026, 09:11)
+
+- **The boy (PROPOSED; name and title OPEN).** A drummer of about fourteen from Agua Mansa on the Santa Ana River, in the San Bernardino valley. Hist.: Agua Mansa was founded in the 1840s by families from Abiquiú in New Mexico, among them genízaro families, who came west over the Old Spanish Trail with the guide Lorenzo Trujillo; the flood of 1862 destroyed it (nps.gov, the Old Spanish Trail). In Pacifica the same flood of January 1862 that drives the legislature to San Francisco (Part E, S19) takes his family's house. In April he goes with the column that leaves southern California on the 13th (CR-061 C0a), because the column pays in coin and his family has nothing left.
+- **The cousin (PROPOSED).** His mother's people are still at Abiquiú, in Rio Arriba. His cousin, a few years older, serves in one of the Rio Arriba companies in Canby's line at the second Valverde (CR-061 C11), and comes home with them from Fort Craig in December 1862 (canon l. 461). This is the family split by the war, as in *Across Five Aprils*: the two boys face each other across the same river, and they meet that winter at Abiquiú, when the column's men go up the river road (CR-061, Part I, step 6).
+- **What the novel puts in (all canon, CR-061 and §10):**
+  - the column marching in detachments small enough for the desert wells;
+  - Apache Pass in July 1862, told as a fight for the springs;
+  - the prices posted in Spanish and English, and everything paid in coin;
+  - the second Valverde;
+  - Joseph West refusing to hold Mangas Coloradas, who came in under a flag of truce, and sending him home with a written safe-conduct;
+  - the winter watch on Fort Craig;
+  - Fort Craig's garrison marching out in April 1863 with arms and colours, fed on the road by the men who besieged it. The boy drums them out. The novel ends there.
+- **What the novel leaves out (each in canon; the reader of the storyline knows them):**
+  - that Apache Pass begins Pacifica's own Apache war on its own road (canon l. 453);
+  - that the Pinos Altos miners seized Mangas under the flag: the book keeps West's answer and not the miners' act (canon l. 465);
+  - that the Council's resolution of April 1862 told the column to treat with Richmond's forces and not fight them, and that the road ran to Texas (CR-061 C0a; canon l. 453);
+  - the Taos families' petition to try the jurors of 1847 (CR-066);
+  - what *genízaro* means. The book never says that the boy's family were descended from captives, or that in 1866 the patrones of Abiquiú rose against the abolition of the captive trade (canon l. 601).
+- **When it is written (OPEN).** A generation after the war, for the schools, as *Across Five Aprils* was written a century after its war. Its author is not a character of the novel *Pacifica*.
+
+### H3. Sample: *The Story of the Realm*, fifth year (replaces CR-068 A10; in-world document, PROPOSED)
+
+> *The Story of the Realm*, fifth year, chapter 9: "The War of the West"
+>
+> In July 1861 the Republic printed what it was fighting for. It printed it in English, in Spanish and in Hawaiian, so that its friends and its enemy could read it. There were five things. No American fort and no American warship should stay on our coast, or on any island from which our ships or Hawaii's could be attacked. The old convention of 1848, which the Americans had made while their warships lay off our coast, should give way to a treaty between equals. Our ships and Hawaii's should sail freely in their own waters. No people should be taken by force, and no people who had chosen to trade with us should be given up. And the Republic would send no army east and seek no conquest.
+>
+> Princess Victoria of Hawaii asked that the islands be named too, and they were. General Vallejo stood up in the Council and said that California had kept its word in 1848 and would keep it now.
+>
+> The Americans had many more people than we had. In Oregon and Washington, neighbours and sometimes brothers took different sides. But the Republic paid in gold, and the Union paid in paper, and the miners and farmers of the West wanted our coin.
+>
+> Four years later the United States signed a treaty that gave us every one of the five things. The Founder had asked for nothing more. What we kept, we paid for.
+>
+> *The Founder's rival.* Abraham Lincoln was President of the United States. He was honest and brave, and he never gave up. He let his people vote in the middle of the war, although he knew they might vote against him. When they did, he went home. You will read the Founder's answer to him, *Two Houses*, in the seventh year.
+>
+> *Questions:* 1. What did the Republic print in July 1861, and why did it print it in three languages? 2. What did Princess Victoria ask for? 3. What did Lincoln do when his people voted against him?
+
+Notes on the sample:
+- **Its title for Victoria.** "Princess Victoria" is the schoolbook's, as children's books use the simpler title. Canon calls her the Kuhina Nui (l. 257, l. 328).
+- **Its first sentence** is the Republic's own cause, which W2's note asked for ("more patriotic and not give the win to another country in the first sentence"). CR-075 makes it true.
+- **"Every one of the five things"** is the schoolbook's claim. The Chronicler would say all but Washoe's way of keeping the fourth (G2; W4), and that "nothing more" is untrue by one sealed minute (Part G, G2).
+- **The convention of 1848.** The schoolbook tells it as a grievance, as Pío Pico does ("under the guns of 1846", Part E, E7.3). It does not say that California gave the pledge and the Basin in exchange for independence (CR-028).
+
+### H4. What every reading leaves out, and who puts it back
+
+The Chronicler's W4 list stands: what the South held and who paid for it; the price named by the man in possession; Washoe by arms; the nations with compacts and no ballot; Alaska bought without its people being asked; Hays's crossing and the refusal of 1861. CR-075 adds three:
+- the sealed minute, and that the Republic asked one thing beyond its printed objects;
+- the San Francisco merchants who sailed the *Palestine* to Kalama Island on the Republic's licence (F-8);
+- the second half of the fifth object.
+
+The Chronicler's W1 still opens with "the South held". The schoolbook and the Chronicler still disagree about the first cause, as W4 designed, but the disagreement is now with an omission and not with a motto.
+
+### H5. What changes in CR-068 (recorded as CT4)
+
+- **W2** (deferred in CR-068, never approved) is replaced by H. The triad "The South held. The coin held. The word held." is retired.
+- **A10** (PROPOSED sample) is replaced by H3.
+- **W3** (APPROVED) is amended; see CT4.
+- **W4** is unchanged, apart from the three additions in H4, which are a note in CR-068's record.
+
+No storyline text. Canon l. 633 (the readers print *Two Houses*; the colleges set the Lyceum and Peoria) is unchanged and is what H1's last two rows rest on.
 
 ## I. On the page
 
@@ -252,6 +330,12 @@ Replaced by Part I (`CR-075-I-on-the-page.md`), which folds in the outline's I1 
 **Current:** CR-068 CT3 records California's reasons as the second, fifth and sixth of the seven.
 **Amended:** California's reasons are E1 to E4; the seven reasons stay Elias's arguments to the Council, unchanged. A note in CR-068's record, no change to the storyline's seven reasons. No fact changes.
 **Recommendation:** amend. **Decided (author, 18 November 2026, 16:45):** amend.
+
+### CT4 — CR-068's schoolbook (W2, W3, A10)
+
+**Current:** W2 (deferred) gives the schoolbook the triad "The South held. The coin held. The word held."; A10 (PROPOSED) is the fifth-year chapter built on it; W3 (APPROVED) says American schoolbooks give the Union's victory a short list of causes, and that "the Pacifican list has the same build".
+**Amended:** W2 and A10 are replaced by Part H (H1, H3). W3 becomes: *American books for children frame the war by the stories they choose, not by a list (Hist.: the list the author supplied, 19 November 2026); the short list of causes belongs to high-school textbooks and examinations. Pacifica's readings have the same build: they choose stories and leave things out. Neither the American books nor Pacifica's give children a motto.* The rest of W3 (Lincoln honoured for not giving up, and for letting his people vote) stands, and is carried by H3's paragraph on the rival. A note in CR-068's record; no storyline change; no fact changes.
+**Recommendation:** amend. It follows from the author's decision on H (09:11).
 
 ## Fact changes
 

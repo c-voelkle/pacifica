@@ -61,7 +61,7 @@ The author's brief (13:20): the war is not a one-man or a two-man show, and the 
 - **The contents of the sealed minutes** are not shown before I-B13. Baker, Lincoln and the Council's voters see only the preamble.
 - **What Victoria answers in the rain** (I-B2) is not reported.
 - **Kiyoshi** is not mentioned in I-B2.
-- **The schoolbook formula** (Part H) is deferred and is not written into any beat.
+- **The schoolbook** (Part H, decided 19 November 2026: readings by year, no formula) is not written into any beat. It belongs to the Republic after the war, not to 1858–1867.
 
 ## I3. Where they go
 
