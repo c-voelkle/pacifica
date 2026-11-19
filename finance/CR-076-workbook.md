@@ -22,3 +22,13 @@ No workbook rows are changed by CR-076's integration. The author approved the co
 | Share grown under the Pacific crowns | about 15–30% |
 | Retail value | of the order of 0.4% of the Realm's output |
 | Slump support | none beyond the Development Fund's ordinary credit |
+
+## The duty schedule (approved 19 November 2026, 20:11; MODEL amounts)
+
+| Period | Target share of retail price, standard whiskey | Duty on a gallon of 40% whiskey |
+| --- | --- | --- |
+| 1852–66 (California) | ~50% | ~75¢ |
+| 1867–87 (members' acts) | ~70% | ~$1.40 |
+| 1888 on (Spirit Stores), reset every five years | 85% | ~$2.55 (about $6.40 a gallon of pure alcohol) |
+
+Bands from 1888, per degree, spirits marginal ≈ $9.50 a gallon of pure alcohol = 1: 0–2.5% free; 2.5–6% 0.25; 6–15% 0.35; 15–22% 0.70; 22–45% 1.00; 45–60% 1.50; over 60% no drinking sale. Floor: half the Stores' whiskey price per unit of pure alcohol. Working elasticities of the taxed volume: about 2 (1852–66), 1.6 (1867–87), 1.3 (from 1888). Pre-tax whiskey cost assumed about 45¢ a gallon in 1888. Calibration anchors: the Union's whiskey revenue rose from $14.3 million (1868, $2 rate) to $33.7 million (1869, 50¢ rate); Britain's 10s. a proof gallon, 1860–90.

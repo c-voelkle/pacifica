@@ -35,7 +35,9 @@ independence: same-agent (draft 1 only; no review yet)
 | Q3 | open choice | Part L (coffee), Q-22 to Q-28 | draft 3 | closed by D4 |
 | D4 | decision | Q-22 to Q-28 approved; fresh-context review requested | author, 19 November 2026, 16:38 | current |
 | D5 | decision | Apply all the review's fixes and the recommendations in reply (incl. K10); integrate | author, 19 November 2026, 19:06 | current |
+| D6 | decision | R1: duty schedule and prevention approved (20:11); Colorado plains to Kansas, no national Prohibition, Guaymas resort (20:18) | author, 19 November 2026 | current |
+| Q4 | open choice | CT4: Waite stays in Kansas (implemented as recommended) | draft 5 | open |
 
 ## Resume here
 
-CR-076 draft 4 applies every review fix and is integrated on `drafts/cr076-drink`: storyline (12 paragraphs, §§1, 5, 8, 12, 13, 19, 25, and the CT1 amendment), register entry, registry and bible (Neilson, Thomas Logan, Kato; notes on Victoria, Elias, Kalākaua, Young, Broderick, Silas, Noe), historical background, ledger (spirits article on C-1851-CA-TREATIES), `finance/CR-076-workbook.md` (inputs only; no workbook rows changed), AGENTS.md. All checks pass. A PR is open for the author to merge. Next: the author's merge decision; optionally a fresh-context review of the integration; the next workbook build may take the CR-076 inputs.
+CR-076 draft 4 applies every review fix and is integrated on `drafts/cr076-drink`: storyline (12 paragraphs, §§1, 5, 8, 12, 13, 19, 25, and the CT1 amendment), register entry, registry and bible (Neilson, Thomas Logan, Kato; notes on Victoria, Elias, Kalākaua, Young, Broderick, Silas, Noe), historical background, ledger (spirits article on C-1851-CA-TREATIES), `finance/CR-076-workbook.md` (inputs only; no workbook rows changed), AGENTS.md. All checks pass. A PR (#79) is open for the author to merge; amendment R1 (duty schedule, the lines, Denver in Kansas, Guaymas, no Union Prohibition) is integrated on it, and CT4 (Waite in Kansas) awaits confirmation. Next: the author's merge decision; optionally a fresh-context review of the integration; the next workbook build may take the CR-076 inputs.
