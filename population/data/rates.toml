@@ -72,6 +72,9 @@ status = "verified (secondary)"
 # (1888, master storyline §21, §23), then converging to New Zealand's level by 1910 and
 # tracking it after. Fertility: US white until 1900, converging to Canada's level by 1915
 # and tracking it after (author: Pacifica becomes a really attractive place to live).
+# CR-076 (19 November 2026, author's decision): the drink rules (1852 duty, 1866-67 members'
+# acts, 1888 Spirit Stores) are one reason the convergence to New Zealand's level is plausible;
+# they are not modelled as a separate effect, which would double-count and pass the ceiling.
 e0_from = 1888
 e0_full = 1910
 tfr_from = 1900
