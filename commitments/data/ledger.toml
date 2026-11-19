@@ -844,6 +844,7 @@ can_end = [
 conditions = [
   "a separate resolution authorizes limited coercive operations with civilian protections, no forced allegiance, no annexation by emergency decree and renewed negotiations when adequate redress becomes possible",
   "Hawaii's conditions for the third renewal (1864): no annexation, the Carson Convention's guarantees kept, and Hawaii's control of entry at its own ports",
+  "the war resolution's published objects (July 1861): every later resolution of the war names the object it serves (CR-075)",
 ]
 status = "CANON"
 section = 9
@@ -855,6 +856,7 @@ more_quotes = [
   "Victoria writes Hawaii's conditions into its assent to the third renewal: no annexation, the Carson Convention's guarantees kept, and Hawaii's control of entry at its own ports.",
   "The renewal of 1864 is the last.",
   "On the last day of May 1865 the Protectorship expires with its term.",
+  "Every later resolution of the war names the object it serves.",
 ]
 open = "In force 1 June 1861 to 31 May 1865 (APPROVED — CR-068). Exact instruments **[OPEN]**. After the lapse Elias governs for six months as Chancellor under the Articles of 1856 until the Enabling Law is in force on 1 December 1865."
 

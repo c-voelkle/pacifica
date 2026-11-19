@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 321,
+    "canonical_dossiers": 323,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 315
+    "active_or_provisional_identities": 317
   },
   "people": [
     {
@@ -6302,9 +6302,39 @@
         "CR-071",
         "CR-074"
       ]
+    },
+    {
+      "id": "CT-JOHN-BURCH",
+      "display_name": "John Chilton Burch, member for Trinity and voice of the Rockies frontier",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-JOHN-BURCH",
+      "narrative_profile": "Historical person in alternate history; CR-075, APPROVED 19 November 2026, local labels retained. Born in 1826 in Boone County, Missouri, the county east of Franklin's Howard County and a day's ride from it (*hist.*); a lawyer in Trinity County from the 1850s; historically a congressman from California in 1859–61 whose open letter of November 1860 called for a Pacific republic (*hist.*). Here he sits in the Confederal Assembly for Trinity from 1859; his open letter of November 1860 invites Oregon, Washington, Utah and New Mexico into the Republic, and in the third week of June 1861 he moves an address asking the Council to name the Rockies as the frontier and those four lands as the war's objects. The fourth object's narrow wording is the Council's answer. He pushes and loses. **Voice:** an expansionist's frankness; a Missourian's sense of the West as one country. Later career OPEN.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-075"
+      ]
+    },
+    {
+      "id": "CT-THOMAS-STARR-KING",
+      "display_name": "Thomas Starr King, Unitarian minister at San Francisco",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-THOMAS-STARR-KING",
+      "narrative_profile": "Historical person in alternate history; CR-075, APPROVED 19 November 2026, local labels retained. Born 17 December 1824 in New York; minister at Boston, then of the First Unitarian Church of San Francisco from 1860; dies 4 March 1864 (*hist.*). Here he preaches against the war from his pulpit and no one stops him; in May 1862 the assembly renews the Protectorship a few streets away. Pulpit only, no scene of his own (author, E-10): the Republic's best answer to him is that it leaves him free.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-075"
+      ]
     }
   ],
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-19",
   "character_revision": {
     "request": "CR-059 to CR-070",
     "source": "CR-059 to CR-065 and CR-067 to CR-070; author approval of 15 November 2026 (\"I approve the crs\")",
@@ -6858,6 +6888,28 @@
         "CT-FREDERICK-WARD"
       ],
       "limits": "Only Ward is registered; Wu Xu, Yang Fang, Harry Ward, Vincente Macanaya, Burgevine, Gordon, Bogle, Enomoto, Brunet, Liu Mingchuan, Marcy, Seward, Crabb, Camilo Ynitia, Joaquín de la Torre, Mat Salleh and William Clarke Cowie are named without entries. The Shanghai and Hakodate captains OPEN. The five updated IDs change in the bible's CR-074 notes only; their registry entries are unchanged."
+    },
+    {
+      "request": "CR-075",
+      "source": "CR-075 (the aims of 1861); author's approvals of 18–19 November 2026, integration approved 19 November 2026, 09:30",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-ELIAS",
+        "CT-KAIULANI",
+        "CT-EDWARD-BEALE",
+        "CT-ANDRES-PICO",
+        "CT-PIO-PICO",
+        "CT-VALLEJO",
+        "CT-SHERMAN",
+        "CT-RALSTON",
+        "CT-WYLLIE",
+        "CT-ALEXANDER"
+      ],
+      "new_ids": [
+        "CT-JOHN-BURCH",
+        "CT-THOMAS-STARR-KING"
+      ],
+      "limits": "Only Burch and Starr King are registered; Edward Baker, Silas Casey, Brooks, the Palestine's owners and charterers, and the schoolbook's invented characters (Tomás Atencio, Ramón Martín) are named without entries. The updated IDs change in the bible's CR-075 notes only; their registry entries are unchanged."
     }
   ],
   "institutional_groups": [

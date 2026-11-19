@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 73 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 74 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1238,6 +1238,22 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - Siberia's line guard (F7, deferred); the company's part in Queen Min's survival in 1895 (OPEN-1, for a Korea CR); the Shanghai and Hakodate captains; the Companies Office's first director and the school's first commandant; the 1895 captain in Borneo; whether the Nationalist customs keeps the companies after 1928–29; Pacifica's naturalization rule (T9, PROPOSED); the model rows (MODEL).
+
+### CR-075 — What the Republic went to war for: the aims of 1861 and why California and Hawaii agreed (1861–1867)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The preamble of the war resolution, July 1861 (PP3a), printed with the reply and the seven reasons in English, Spanish and Hawaiian: five objects (no American station, storehouse, garrison or fortified post on the Pacific slope or on any island of the Pacific from which the Confederation or either member can be struck; a treaty between equals in place of the convention of 1848 and a frontier by consent; no search in the members' own waters; no people taken by decree, none given up who has chosen the Republic, protection for those punished for it; no army east, no conquest, loans to any American people that holds its own ground), the price (what is kept is paid for) and the promise to treat on the objects at any time and ask nothing beyond them; every later resolution names the object it serves.
+- California's own reasons (titles and tax, the eighteen treaties, the leash of 1848; money; the two halves) and its price: no land associated in the war becomes a member without both members' consent; Baker's note of May 1861 and the joint answer; Burch's address of June 1861 and the fourth object's narrow wording; Beale's letter to Andrés Pico and the Picos' answers; Starr King in the pulpit only; the renewal of May 1862 at San Francisco after the flood.
+- The plan and the people: two closed sittings in late June 1861 in the manner of the challenge evenings, each part of the estimate given by the person who knows it, Sherman as respondent; the estimate's errors traced to whose they were (Port Townsend holds, the Rio Grande fought hard, Young not commanded, Washoe needs arms, an extra year nobody saw); Ralston decides at the sitting.
+- Hawaii's reasons and its own power: Victoria's argument from the kingdom's weakness; Wyllie's wish refused by the king; the island chain 1857–1867 (Kalama Island lost in 1858 to the Palestine, sailed from San Francisco under the Republic's venture licence; the rule of 1859; Brooks and Judd lose their clearance; Palmyra taken in April 1862; the Kalama raises the flag on Kalama Island again in 1867); the sealed minute (the Council will support the kingdom's island claims at the peace), the one term beyond the printed objects; Victoria as keeper of the published objects at the renewals.
+- The promise: on their honeymoon in November 1858, in the rain at the head of Nuʻuanu above the future site of Thalassia, Elias tells Victoria his part in the loss and promises her the island back; the sealed minute makes it binding; it is kept in 1867.
+- From the aims to the peace: every article of the peace traced to the objects of 1861 and the heads of 1863, except Washoe; the parks paid for; Alaska never a war aim; CR-068's verdict amended (CT1: Lincoln's offer answered the wrong done, not what the Republic fought for); CT2: the treaty stays silent on search; CT3: California's reasons are E1–E4, the seven reasons stay Elias's arguments.
+- The schoolbook (Part H): no formula; readings by year — a picture book of Kalama Island, The Story of the Realm ch. 9 as narrative (first sentence: the Republic's own cause), the sixth-year novel The Wells of the Gila (1893; Tomás Atencio of Agua Mansa, his cousin Ramón Martín of Abiquiú, the Rio Grande column 1862–63), Two Houses in the seventh year; each reading's omissions named (H4); CR-068 W2 and A10 replaced and W3 amended (CT4).
+- Closed by decision, not open: what Victoria answers in the rain is never reported (I-B2); the Republic's further purpose in the Pacific is never stated, by anyone, in any beat (author's note of 18 November 2026, 19:47).
+
+**Still open:**
+- Part D's and Part F's PROPOSED details as marked in the parts; when Victoria learns of Kiyoshi (OPEN in canon).
 
 ### Author-approved editorial safeguards
 
