@@ -1,34 +1,54 @@
-# CR-076 — model inputs for the next workbook build (19 November 2026)
+# CR-076: drink, the duty schedule and coffee in the workbook (19 November 2026)
 
-No workbook rows are changed by CR-076's integration. The author approved the coffee estimates as MODEL inputs (Q-26); the drink duty's shape is approved, its bands and rates are not set. Both are listed here for the next build.
+Built by `finance/build/cr076_drink_coffee.py`, the last step of `cr057_rebuild_pair.py` (after the Pacific Companies). It adds 36 levers (`dc_*`) and a memo sheet, **Drink & coffee**, which reads People, Prices, Budget and Economy and feeds nothing. Domestic taxes stay the existing share of non-mining GDP: the drink duty is shown as a part of them, not added to them. The mortality lever is not built. All amounts MODEL.
 
-## Drink and opium duty (MODEL, rates not set)
+**Authorization:** the author, 19 November 2026: the duty schedule (20:11), option 1 with the mortality lever off (20:34: "Option 1 mortality lever off is approved").
 
-- California's ladder duty by strength from 1852; until the London pledge is released in 1859 the part collected on imported spirits at San Francisco is pledged customs revenue.
-- From 1866: the Confederation's customs duty on imported spirits and opium (confederal); the members' ladder duty at home (member revenue; Hawaii's stays in its agreed revenues).
-- From 1867: county Spirit Stores' surplus where a county takes the option; from 1888 the Spirit Stores everywhere (take-away spirits and smoking opium), in Hawaii under the Board of Public Health.
-- Earmark: county surgeries and health boards; county halls from the 1890s. Homelands: each nation's store keeps its whole duty (half clinics, half roads and water).
-- Orders of magnitude for calibration only: Salt Lake's city store out-earned all city taxes in 1863; Gothenburg's company paid about a third of its town's revenue.
-- Possible Life-sheet effect (CR-056): lower adult male mortality and accident rates. Not entered.
+## What the sheet shows (1846–1932)
 
-## Coffee (MODEL, approved as working figures)
+- Pure alcohol drunk per resident by period (`dc_pa_1` to `dc_pa_4`: 2.2, 1.4, 0.9 and 0.75 US gallons; Stress 2.6, 1.6, 1.1 and 0.9) and its split between spirits, wine and beer (spirits 70%, 50%, 35% and 30%).
+- The spirits duty per gallon of pure alcohol (CR-076 R1-1): $1.875 in 1852–66, $3.50 in 1867–87, and from 1888 $6.375 in 1888 prices, reset every five years with Pacifica's price level (Prices!C). Beer and wine pay 0.13 and 0.26 of the spirits rate per unit of alcohol. Collection is 60%, 80% and 95% by period (Stress 50%, 70% and 90%).
+- The Spirit Stores' surplus (the county option at 30% of spirits in 1867–87, all take-away spirits from 1888), the share kept by the nations' own stores (1.5% of the duty), and the duty against domestic taxes, checked against a 35% ceiling.
+- Coffee: pounds per resident (8 before 1888, 12 in 1888–1914, 14 in 1915 rising 0.2 lb a year), the Realm's consumption, Hawaii's and the Philippines' crops reaching the Realm, the share grown under the Pacific crowns and the import bill (green coffee at $0.15 a pound, halved in 1931–32).
 
-| Input | Value |
-| --- | --- |
-| Consumption per head in the Realm, late 1920s | 15–18 lb a year (Union 12–13 lb) |
-| Realm consumption | about 250,000–300,000 t a year |
-| Hawaii's crop | 30,000–40,000 acres; 14,000–27,000 t |
-| Philippine crop | 30,000–60,000 t |
-| Share grown under the Pacific crowns | about 15–30% |
-| Retail value | of the order of 0.4% of the Realm's output |
-| Slump support | none beyond the Development Fund's ordinary credit |
+## Results (Story case)
 
-## The duty schedule (approved 19 November 2026, 20:11; MODEL amounts)
+| Year | Residents | Spirits duty per gal of pure alcohol | Drink duty | Stores' surplus | Domestic taxes | Duty / domestic taxes |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1852 | 0.53m | $1.88 | $1.0m | — | $6m | 17% |
+| 1866 | 1.77m | $1.88 | $3.3m | — | $46m | 7% |
+| 1887 | 6.10m | $3.50 | $14.0m | $0.8m | $87m | 16% |
+| 1888 | 6.34m | $6.38 | $15.9m | $1.2m | $80m | 20% |
+| 1900 | 10.45m | $6.25 | $25.7m | $2.1m | $327m | 8% |
+| 1913 | 19.23m | $8.69 | $65.8m | $5.2m | $933m | 7% |
+| 1929 | 34.40m | $5.96 | $61.9m | $4.4m | $1,650m | 4% |
+| 1932 | 37.06m | $5.96 | $66.7m | $5.0m | $1,426m | 5% |
 
-| Period | Target share of retail price, standard whiskey | Duty on a gallon of 40% whiskey |
-| --- | --- | --- |
-| 1852–66 (California) | ~50% | ~75¢ |
-| 1867–87 (members' acts) | ~70% | ~$1.40 |
-| 1888 on (Spirit Stores), reset every five years | 85% | ~$2.55 (about $6.40 a gallon of pure alcohol) |
+The largest share is 23% in the 1880s (Stress 25%), so no year breaks the 35% ceiling. The duty's weight falls as drinking falls and the income tax arrives in 1915. The duty per gallon rises to 1913 and falls after it, because the five-year reset follows Pacifica's price level.
 
-Bands from 1888, per degree, spirits marginal ≈ $9.50 a gallon of pure alcohol = 1: 0–2.5% free; 2.5–6% 0.25; 6–15% 0.35; 15–22% 0.70; 22–45% 1.00; 45–60% 1.50; over 60% no drinking sale. Floor: half the Stores' whiskey price per unit of pure alcohol. Working elasticities of the taxed volume: about 2 (1852–66), 1.6 (1867–87), 1.3 (from 1888). Pre-tax whiskey cost assumed about 45¢ a gallon in 1888. Calibration anchors: the Union's whiskey revenue rose from $14.3 million (1868, $2 rate) to $33.7 million (1869, 50¢ rate); Britain's 10s. a proof gallon, 1860–90.
+| Coffee | 1888 | 1913 | 1929 | 1932 |
+| --- | --- | --- | --- | --- |
+| Pounds per resident | 12 | 12 | 16.8 | 17.4 |
+| Drunk in the Realm | 35,000 t | 105,000 t | 262,000 t | 293,000 t |
+| Hawaii's crop to the Realm | 300 t | 13,500 t | 22,300 t | 24,000 t |
+| Philippine crop to the Realm | 8,000 t | 23,800 t | 36,000 t | 36,000 t |
+| Grown under the Pacific crowns | 24% | 36% | 22% | 20% |
+| Import bill | $8.7m | $22.3m | $67.4m | $38.5m |
+
+In 1929 the share grown under the crowns is 22% (Stress 25%) and consumption is 16.8 lb a head (Stress 15.1). Both are inside CR-076's ranges (15–30%; 15–18 lb), and the sheet's own check reads "ok" in both cases.
+
+## Checks
+
+- **Switch-off check:** the workbook built with the sheet on and the one built with `dc_on` at 0 both match the input workbook in every value outside Levers, Changes and the new sheet (117,393 values; none differs).
+- **Failed year-checks:** Story 0, Stress 50 (unchanged). Residents, GDP and the Budget are unchanged in every year.
+- **Recalculation:** LibreOffice (the spreadsheet skill's `recalc.py`), 83,712 formulas, no errors in either case.
+- **Financial workbook SHA-256:** `9198e4eb82f20d35974d66c827d5c8728ca9ef9c393326dff6374088f0a2660d`.
+
+The energy pair was not re-iterated, because nothing it reads changes (as for CR-071 and CR-074).
+
+## Not modelled
+
+- The mortality lever (author's decision, 20:34).
+- The county earmark as county spending: there are no county budgets in the workbook, so the duty and surplus that go to surgeries and halls are a memo.
+- The duty collected by members in 1867–87 is shown on the same sheet as the confederal figures. Whether it is member or confederal money is CR-076 D5's split, which the Budget does not separate.
+- Revenue from the Union's visitors in 1920–32: no national Prohibition, so no reverse traffic of any size.

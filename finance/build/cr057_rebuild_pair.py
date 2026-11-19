@@ -8,6 +8,7 @@ the Civil War CRs (cr059_068_civil_war.py, then cr059_068_levers.py with cr059_0
 engine -> Deseret (deseret_gathering.py: the gathering after 1887 and the Saints' birth rate, 16 November 2026)
 -> the interior settlement programme (cr071_settlement.py, CR-071 C5, 17 November 2026)
 -> the Pacific Companies (cr074_companies.py, CR-074, 18 November 2026)
+-> drink and coffee (cr076_drink_coffee.py, CR-076, 19 November 2026; a memo sheet that feeds nothing)
 -> LibreOffice -> extract -> energy workbook -> LibreOffice -> export. Stops when the energy outputs move by
 less than --tol (relative). The last pass also runs cr056_layers.py (the Layers sheet) on the CR-056 build and
 carries its sheet into the final workbook. Writes the two workbooks in place in the repository.
@@ -84,7 +85,8 @@ def main() -> None:
         run(str(B / "cr057_growth_engine.py"), str(W / "CR-057.xlsx"), str(W / "growth.xlsx"))
         run(str(B / "deseret_gathering.py"), str(W / "growth.xlsx"), str(W / "deseret.xlsx"))
         run(str(B / "cr071_settlement.py"), str(W / "deseret.xlsx"), str(W / "settle.xlsx"))
-        run(str(B / "cr074_companies.py"), str(W / "settle.xlsx"), str(final))
+        run(str(B / "cr074_companies.py"), str(W / "settle.xlsx"), str(W / "companies.xlsx"))
+        run(str(B / "cr076_drink_coffee.py"), str(W / "companies.xlsx"), str(final))
         recalc(a.recalc, final)
         run(str(EB / "extract_finance.py"), str(final), str(EB / "finance_inputs.csv"), "--recalc", a.recalc)
         run(str(EB / "build_energy_workbook.py"), str(EB / "finance_inputs.csv"), str(EN / "Pacifica_energy_model_1846-1932.xlsx"))
@@ -100,7 +102,8 @@ def main() -> None:
     run(str(B / "cr057_growth_engine.py"), str(W / "CR-057L.xlsx"), str(W / "growthL.xlsx"))
     run(str(B / "deseret_gathering.py"), str(W / "growthL.xlsx"), str(W / "deseretL.xlsx"))
     run(str(B / "cr071_settlement.py"), str(W / "deseretL.xlsx"), str(W / "settleL.xlsx"))
-    run(str(B / "cr074_companies.py"), str(W / "settleL.xlsx"), str(final))
+    run(str(B / "cr074_companies.py"), str(W / "settleL.xlsx"), str(W / "companiesL.xlsx"))
+    run(str(B / "cr076_drink_coffee.py"), str(W / "companiesL.xlsx"), str(final))
     recalc(a.recalc, final)
     shutil.copy(final, FIN / "Pacifica_financial_model_1846-1932.xlsx")
     print("final workbook copied; energy outputs:", eo)
