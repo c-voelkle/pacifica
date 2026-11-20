@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 334,
+    "canonical_dossiers": 342,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 328
+    "active_or_provisional_identities": 336
   },
   "people": [
     {
@@ -2974,15 +2974,21 @@
       "display_name": "William Randolph Hearst",
       "nature": "historical_person_in_alternate_history",
       "tier": "supporting",
-      "identity_state": "proposed_five_member",
+      "identity_state": "approved_five_member_1887_1931",
       "story_bible_section": "CT-WILLIAM-RANDOLPH-HEARST",
-      "narrative_profile": "**Status:** proposed_five_member (CR-027).\n\nPROPOSED — CR-027 A22/B6: Press and image seat in 1887, with the Examiner and six-language weekly. He wants spectacle but must print the Office’s tables unchanged. He may dramatize Union failures. The role, nickname and proposed interactions remain proposals; the seat’s publishing function is approved.\n\n**APPROVED — CR-050:** About 1919 one of his reporters notices how much Sierra power the new works draw. Hearst (his seat among the Five PROPOSED, CR-027) spikes the story, and it costs him with his own editors.",
-      "links": [],
+      "narrative_profile": "**Status:** five_member 1887–1931 (CR-027 proposal approved by CR-079).\n\nPROPOSED — CR-027 A22/B6: Press and image seat in 1887, with the Examiner and six-language weekly. He wants spectacle but must print the Office’s tables unchanged. He may dramatize Union failures. The role, nickname and proposed interactions remain proposals; the seat’s publishing function is approved.\n\n**APPROVED — CR-050:** About 1919 one of his reporters notices how much Sierra power the new works draw. Hearst (his seat among the Five PROPOSED, CR-027) spikes the story, and it costs him with his own editors.\n\n**APPROVED — CR-079:** Born at San Francisco on 29 April 1863 (*hist.*). He holds the press seat from 1887 until he reaches sixty-eight on 29 April 1931. His press estate, chartered on 1 August 1887 with state shares, owns the *Examiner* and the weekly, the picture wire, the film unit (Le Prince's projected film from 1889–90, Dickson from 1895), the San Francisco station from 1912, the newsreel and from 1927 Farnsworth's television, which he backs because he wants the spectacle. His editors are the estate's newspaper editors, and they quarrel with its radio news; the *Examiner* becomes a picture paper. He hires Walter Lippmann in 1913, the critic of everything he sells, who succeeds him in 1931.",
+      "links": [
+        {
+          "relationship": "press_seat_successor",
+          "to": "CT-WALTER-LIPPMANN"
+        }
+      ],
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
         "CR-027",
-        "CR-050"
+        "CR-050",
+        "CR-079"
       ]
     },
     {
@@ -2990,9 +2996,9 @@
       "display_name": "W. K. L. Dickson",
       "nature": "historical_person_in_alternate_history",
       "tier": "supporting",
-      "identity_state": "proposed_five_collaborator",
+      "identity_state": "approved_press_estate_film_unit_from_1895",
       "story_bible_section": "CT-WKL-DICKSON",
-      "narrative_profile": "**Status:** proposed_five_collaborator (CR-027).\n\nPROPOSED — CR-027 A22/B6: Recruited from Edison to provide film for the Five’s press and image operation from 1895. This is work within the press seat, not a sixth seat. Recruitment and date remain proposed.",
+      "narrative_profile": "**Status:** proposed_five_collaborator (CR-027).\n\nPROPOSED — CR-027 A22/B6: Recruited from Edison to provide film for the Five’s press and image operation from 1895. This is work within the press seat, not a sixth seat. Recruitment and date remain proposed.\n\n**APPROVED — CR-079:** Born in Brittany in 1860 (*hist.*). Projected film comes first, on Le Prince's camera in 1889–90; Dickson leaves Edison in 1895, when the peephole Kinetoscope has lost to projection, and runs the press estate's production, newsreel and work on sound. Lauste, his colleague at Edison's laboratory, follows him in 1896.",
       "links": [
         {
           "relationship": "proposed_press_collaborator",
@@ -3002,7 +3008,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-027"
+        "CR-027",
+        "CR-079"
       ]
     },
     {
@@ -6501,6 +6508,126 @@
       "source_authority": [
         "CR-078"
       ]
+    },
+    {
+      "id": "CT-EADWEARD-MUYBRIDGE",
+      "display_name": "Eadweard Muybridge, photographer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-EADWEARD-MUYBRIDGE",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born at Kingston upon Thames on 9 April 1830 (*hist.*); acquitted in 1875 of killing his wife's lover (*hist.*). In 1878, at Kalākaua's request and the Queen's expense, he photographs a galloping horse with a battery of cameras on a Palo Alto stud farm, and from 1879 projects his sequences with the zoopraxiscope, paid through the 1880s. He sees the first projected film in 1889–90 and dies in 1904. **Character use:** the old showman of motion in the audience of the new medium.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-LOUIS-LE-PRINCE",
+      "display_name": "Louis Le Prince, inventor of the film camera",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-LOUIS-LE-PRINCE",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born at Metz on 28 August 1841 (*hist.*); in New York from 1881 building motion cameras. In 1887 Kalākaua's office brings him to San Francisco instead of Leeds, and the press estate takes over his contract on 1 August 1887. His single-lens camera films on a paper roll in 1888, and the first projected film is shown at San Francisco in 1889–90. He keeps the estate's camera and projector works until he retires in 1909. Historically he vanished from the Dijon train in September 1890; here he does not take it.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-EUGENE-LAUSTE",
+      "display_name": "Eugène Lauste, inventor of sound on film",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-EUGENE-LAUSTE",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born at Montmartre on 17 January 1857 (*hist.*); Dickson's colleague at Edison's laboratory. He follows Dickson to San Francisco in 1896, records sound photographically beside the picture in 1906, and in 1911 the press estate shows a film whose sound is read by photocell and played through a valve amplifier, the piece he historically never had the money for. Sound newsreels follow in 1916–18 and talking features in 1919–20.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-PETER-JENSEN",
+      "display_name": "Peter L. Jensen, maker of the loudspeaker",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-PETER-JENSEN",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born on Falster in 1886 (*hist.*). He comes to California in 1909, at twenty-three, to set up the power estate's arc stations; at Napa, with Edwin Pridham, he builds a moving-coil loudspeaker that works in 1912 and a public-address set in 1913, and Julian's broadcast of August 1914 reaches the crowds through his loudspeakers. He knows Poulsen's magnetic wire from Copenhagen. His Napa works stay private and license at the royalty.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-JOSEPH-KEKUKU",
+      "display_name": "Joseph Kekuku, steel guitarist",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-JOSEPH-KEKUKU",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born at Lāʻie about 1874 (*hist.*); finds the steel guitar's sound as a schoolboy at the Kamehameha School about 1889. He plays and teaches at San Francisco from 1904 and at Los Angeles in the 1920s; from 1913 the Honolulu station broadcasts his instrument. He hears it amplified through Beauchamp's pickup about 1925 and dies at Los Angeles in January 1932.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-WALTER-LIPPMANN",
+      "display_name": "Walter Lippmann, journalist, the press seat from 1931",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WALTER-LIPPMANN",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born at New York on 23 September 1889 (*hist.*); Harvard, 1909; *A Preface to Politics*, 1913. Hearst hires him from New York in 1913, at twenty-four, to run the station's news room. He reports the war on the air from 1914 and writes *Public Opinion* at San Francisco in 1922, on the pictures of the world that people carry in their heads and the expert bureaus a modern public depends on. In May 1931 Julian appoints him to the press seat with the Senate's consent, for the book's argument that experts must give the public its picture of the world. In 1932 he sits among the Five as the man who has written about the confidence in its own information that is Pacifica's weakness. **Character use:** the critic of spectacle at the head of the press.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-VLADIMIR-ZWORYKIN",
+      "display_name": "Vladimir Zworykin, television engineer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-VLADIMIR-ZWORYKIN",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born at Murom in 1888 (*hist.*); Rosing's assistant at St Petersburg in 1910–12. In 1918–19 he buys radio at Omsk for the Directory's war ministry, where Kolchak is minister, and in 1919 Kashevarov's Reserve Bank office recruits him for the power estate's laboratory instead of the Union. In 1922–25 his tube shows moving pictures scanned from film, and in 1923 he describes a storage camera, which works in the studio from 1931–32; it is licensed beside Farnsworth's dissector.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
+    },
+    {
+      "id": "CT-GEORGE-BEAUCHAMP",
+      "display_name": "George Beauchamp, maker of the electric steel guitar",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-GEORGE-BEAUCHAMP",
+      "narrative_profile": "Historical person in alternate history; CR-079, APPROVED 20 November 2026. Born in Coleman County, Texas, in 1899 (*hist.*), a Gulf Republic citizen by birth; a vaudeville steel guitarist in Los Angeles. About 1925 he makes a magnetic pickup with Honda's magnet steel from Tohoku and a Jensen amplifier, and an electric \"Spanish\" guitar follows about 1928; the new music of the islands is played on his instruments.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-079"
+      ]
     }
   ],
   "updated_on": "2026-11-20",
@@ -7079,6 +7206,31 @@
         "CT-THOMAS-STARR-KING"
       ],
       "limits": "Only Burch and Starr King are registered; Edward Baker, Silas Casey, Brooks, the Palestine's owners and charterers, and the schoolbook's invented characters (Tomás Atencio, Ramón Martín) are named without entries. The updated IDs change in the bible's CR-075 notes only; their registry entries are unchanged."
+    },
+    {
+      "request": "CR-079",
+      "source": "CR-079 (picture and sound); author's approvals of 20 November 2026 (11:33, 11:43, 12:13)",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-WILLIAM-RANDOLPH-HEARST",
+        "CT-WKL-DICKSON",
+        "CT-KAIULANI",
+        "CT-JULIAN",
+        "CT-DAVID-KALAKAUA",
+        "CT-PHILO-FARNSWORTH",
+        "CT-PAVEL-KASHEVAROV"
+      ],
+      "new_ids": [
+        "CT-EADWEARD-MUYBRIDGE",
+        "CT-LOUIS-LE-PRINCE",
+        "CT-EUGENE-LAUSTE",
+        "CT-PETER-JENSEN",
+        "CT-JOSEPH-KEKUKU",
+        "CT-WALTER-LIPPMANN",
+        "CT-VLADIMIR-ZWORYKIN",
+        "CT-GEORGE-BEAUCHAMP"
+      ],
+      "limits": "Pridham, Le Prince's son Adolphe, Carlson and Carpenter, Honda, Takayanagi and Termen are named without entries. Hearst's and Dickson's dossiers are extended; the other updated IDs change in the bible's CR-079 notes only."
     }
   ],
   "institutional_groups": [

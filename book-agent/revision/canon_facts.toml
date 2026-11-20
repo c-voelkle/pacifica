@@ -1512,3 +1512,101 @@ id = "warnings-compact"
 year = 1897
 patterns = ['''In (?P<year>1[89]\d\d) the Realm and Japan agree to exchange warnings''']
 source = "CR-078"
+
+[[person]]
+id = "CT-EADWEARD-MUYBRIDGE"
+aliases = ["Eadweard Muybridge", "Muybridge"]
+born = 1830
+died = 1904
+source = "CR-079"
+
+[[person]]
+id = "CT-LOUIS-LE-PRINCE"
+aliases = ["Louis Le Prince", "Le Prince"]
+born = 1841
+source = "CR-079"
+
+[[person]]
+id = "CT-EUGENE-LAUSTE"
+aliases = ["Eugène Lauste", "Eugene Lauste", "Lauste"]
+born = 1857
+source = "CR-079"
+
+[[person]]
+id = "CT-PETER-JENSEN"
+aliases = ["Peter L. Jensen", "Peter Jensen"]
+born = 1886
+source = "CR-079"
+
+[[person]]
+id = "CT-JOSEPH-KEKUKU"
+aliases = ["Joseph Kekuku", "Kekuku"]
+born = 1874
+died = 1932
+source = "CR-079"
+
+[[person]]
+id = "CT-WALTER-LIPPMANN"
+aliases = ["Walter Lippmann", "Lippmann"]
+born = 1889
+source = "CR-079"
+
+[[person]]
+id = "CT-VLADIMIR-ZWORYKIN"
+aliases = ["Vladimir Zworykin", "Zworykin"]
+born = 1888
+source = "CR-079"
+
+[[person]]
+id = "CT-GEORGE-BEAUCHAMP"
+aliases = ["George Beauchamp", "Beauchamp"]
+born = 1899
+source = "CR-079"
+
+[[person]]
+id = "CT-WILLIAM-RANDOLPH-HEARST"
+aliases = ["William Randolph Hearst", "Hearst"]
+born = 1863
+source = "CR-079"
+
+[[event]]
+id = "projected-film"
+year = 1889
+patterns = ['''the first projected film is shown at San Francisco in (?P<year>1[89]\d\d)''']
+source = "CR-079"
+
+[[event]]
+id = "moving-coil-loudspeaker"
+year = 1912
+patterns = ['''moving-coil loudspeaker that works in (?P<year>1[89]\d\d)''']
+source = "CR-079"
+
+[[event]]
+id = "public-address"
+year = 1913
+patterns = ['''a public-address set follows in (?P<year>1[89]\d\d)''']
+source = "CR-079"
+
+[[event]]
+id = "founders-voice-broadcast"
+year = 1913
+patterns = ['''from 1 August (?P<year>1[89]\d\d), the anniversary of the Constitution''']
+source = "CR-079"
+
+[[event]]
+id = "talking-features"
+year = 1919
+patterns = ['''the first talking features come from Los Angeles in (?P<year>1[89]\d\d)''']
+source = "CR-079"
+
+[[event]]
+id = "public-television"
+year = 1930
+patterns = ['''In (?P<year>1[89]\d\d) the press estate's San Francisco transmitter begins a public television service''']
+source = "CR-079"
+
+[[event]]
+id = "press-seat-succession"
+year = 1931
+patterns = ['''On 29 April (?P<year>1[89]\d\d) Hearst reaches sixty-eight''']
+source = "CR-079"

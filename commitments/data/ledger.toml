@@ -2120,6 +2120,7 @@ more_quotes = [
   "Seats pass to successors such as Baekeland, Doheny, Giannini and Montgomery, and after 1915 to Marcus Vance III; there are always five.",
   "In 1924, when Tesla reaches sixty-eight, the power seat passes to Harris J. Ryan, raised in Pacifica and examined at the Polytechnic, the line-builder of the Realm's long transmission.",
   "About 1907, when Logan Turner reaches sixty-eight, the champions' seat passes to Edward L. Doheny, the oilman who has spent a decade in the Senate attacking the trust; he holds it until he reaches sixty-eight in 1924.",
+  "When Hearst reaches sixty-eight in April 1931, Julian gives the press seat to Walter Lippmann with the Senate's consent (§35).",
 ]
 
 [[commitment]]
@@ -6505,6 +6506,39 @@ cr = "CR-078"
 section = 25
 quote = "The Wireless Act of 1911 makes wavelengths concessions of the telegraph estate, auctioned, each carrying a public-service article: the Office of Public Measures' daily tables are read unaltered, and air time goes to the examination lessons."
 open = "Licence terms and the auctions' receipts are not stated (MODEL: small, to the Patrimony as concession rent)."
+
+[[commitment]]
+id = "C-1887-PRESS-ESTATE"
+name = "The press estate's charter"
+kind = "charter"
+parties = ["ESTATES", "CROWN"]
+from = 1887
+conditions = [
+  "the state holds shares in it",
+  "it owns the Examiner and the six-language weekly, and from that day Le Prince's contract",
+]
+status = "APPROVED"
+cr = "CR-079"
+section = 25
+quote = "The press seat's estate is chartered on 1 August 1887 with the others, and the state holds shares in it."
+open = "Its share structure and the state's fraction are not stated; film firms other than the press estate's carry no state stake (CR-057 as amended)."
+
+[[commitment]]
+id = "C-1913-ELECTION-AIR"
+name = "The election air-time act (amending the Wireless Act)"
+kind = "law"
+parties = ["PAC", "ESTATES"]
+from = 1913
+conditions = [
+  "no wavelength to a party",
+  "election air time sold to every ticket at one published rate",
+  "the Office prints each ticket's minutes beside its votes",
+]
+status = "APPROVED"
+cr = "CR-079"
+section = 25
+quote = "An amending act of 1913 to the Wireless Act gives no wavelength to a party and sells election air time to every ticket at one published rate; the Office prints each ticket's minutes beside its votes, and the Prosperity Party buys the most."
+open = "The rate and the election months are not stated."
 
 [[commitment]]
 id = "C-1913-HARBOUR-ACT"

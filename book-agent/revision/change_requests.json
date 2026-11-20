@@ -5340,7 +5340,7 @@
         "Radio beacons about 1920; Yagi's antenna adopted 1926; radio location: San Diego pulse experiments 1924–26, a few sets by 1932, Okabe's magnetron in trial; radio location on the General Staff's sealed roll for as long as the secret holds (amends CR-077 D-5, T7); echo sounding about 1915 and fish-finding about 1925 (PROPOSED detail); AT&T reaches Denver in 1911 on Pacifican valves; no workbook change."
       ],
       "open": [
-        "The Tokyo Bay landing place; Keawe's father's name; Manila's wire to the Customs ports and the fax makers (partners' CR); broadcasting's content (CR-079); the workbook rows for the cables and the chain."
+        "The Tokyo Bay landing place; Keawe's father's name; Manila's wire to the Customs ports and the fax makers (partners' CR); the workbook rows for the cables and the chain."
       ],
       "facts": [
         {
@@ -5396,6 +5396,186 @@
             "year": 1897,
             "patterns": [
               "In (?P<year>1[89]\\d\\d) the Realm and Japan agree to exchange warnings"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "CR-079",
+      "title": "Picture and sound: recording, film, television and the Realm's music (1878–1932)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-20",
+      "decision_record": "CR-079.md",
+      "authorization": "Author, 20 November 2026: 'Please build the picture and sound CR next'; P-1 to P-21 approved with Lippmann, Zworykin, Beauchamp and Victoria never recorded again, and a note on the music (11:33); T1 case C approved (11:43); the fresh-context review's fixes approved: blockers 1–5, the broadcast moved to 1 August, Victoria's reason, the amended film-firms line, the air school teaching languages at certain hours, and the mechanical fixes (12:13). Victoria's decision of 1913 approved as proposed (12:28).",
+      "requirements": [
+        "Hearst holds the press seat 1887–1931 (CR-027's proposal approved); the press estate is chartered on 1 August 1887 with state shares and owns the Examiner and weekly, the picture wire, the film unit, the San Francisco station, the newsreel and from 1927 Farnsworth's television; private papers, studios, labels and stations compete; 'Hearst's editors' are the estate's newspaper editors; film firms other than the press estate's carry no state stake (T9 A).",
+        "Projected film (T1 C): Muybridge's sequences paid for by the Queen's government at Kalākaua's request from 1878; Le Prince brought from New York by Kalākaua's office in 1887, his contract taken over by the press estate on 1 August 1887; paper-roll camera 1888; projected film at San Francisco in 1889–90; newsreels abroad in the 1890s; Dickson from 1895 for production, the newsreel and sound; Le Prince retires 1909; Muybridge dies 1904.",
+        "Sound: Jensen comes in 1909; the moving-coil loudspeaker works in 1912 and public address in 1913; Julian's broadcast of August 1914 through Jensen's loudspeakers; electrical recording about 1912 with resin records under Baekeland's licence; home loudspeakers from about 1915; magnetic wire about 1910; high-frequency bias at San Diego about 1921; oxide-coated acetate tape about 1928 and biased tape in the stations by 1932.",
+        "Film: Lauste follows Dickson in 1896, sound on film 1906, a sound demonstration 1911, sound newsreels 1916–18, talking features from Los Angeles 1919–20 in several languages; cinemas wired by about 1922; licensing at one royalty, no patents trust, studios to Los Angeles from about 1908; the Office films and the press estate distributes; the Union's eastern studios license sound and the Union's film quota of 1923.",
+        "Television: Zworykin recruited at Omsk in 1919 by Kashevarov's office from the Directory's war ministry; pictures from film 1922–25, a storage camera described in 1923; Farnsworth backed by the press estate from 1927 and licensed beside Zworykin; public service at San Francisco 1930, Honolulu November 1931, Los Angeles 1932; a few thousand sets and viewing rooms; about 240 lines (MODEL).",
+        "Music: Kekuku at San Francisco from 1904, Hawaiian music on the Honolulu station from 1913, Kekuku dies January 1932; Beauchamp's electric steel guitar about 1925 with Honda's magnet steel; jazz from New Orleans and the Union's cities; a new music of Hawaiian, Polynesian, Japanese and Western sources that belongs to none; music on the wire as background texture.",
+        "The air: an amending act of 1913 to the Wireless Act gives no wavelength to a party and sells election air time at one published rate, printed by the Office; sponsors allowed outside the public-service hours; from 1916 the air school also teaches the Crown's listed languages at fixed hours for the language examinations, and Hawaiian certifications rise; the Examiner becomes a picture paper.",
+        "Victoria never sings or speaks into a microphone again (her voice belonged to Elias and the chant; she will not let the press estate cut and arrange it); Elias's cylinder of her voice is never copied; she lets Julian copy Elias's own cylinders in 1913, broadcast each 1 August from 1913, and switches the set off; in 1913 she settles that the Office makes its own films and the press estate distributes them unaltered; she watches the first television at Honolulu in November 1931, the Office's tables drawn as charts.",
+        "In May 1931 Julian appoints Lippmann to the press seat with the Senate's consent, because Public Opinion (1922) says experts must give the public its picture of the world; in 1932 Lippmann has written about the confidence in its own information that is Pacifica's weakness. No workbook change."
+      ],
+      "open": [
+        "Who holds the champions' seat after 1924; Takayanagi, the benshi, Japan's and China's film and radio, Termen (partners' CR); the partners' brief to be amended for Zworykin (T6)."
+      ],
+      "facts": [
+        {
+          "add_person": {
+            "id": "CT-EADWEARD-MUYBRIDGE",
+            "aliases": [
+              "Eadweard Muybridge",
+              "Muybridge"
+            ],
+            "born": 1830,
+            "died": 1904
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-LOUIS-LE-PRINCE",
+            "aliases": [
+              "Louis Le Prince",
+              "Le Prince"
+            ],
+            "born": 1841
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-EUGENE-LAUSTE",
+            "aliases": [
+              "Eugène Lauste",
+              "Eugene Lauste",
+              "Lauste"
+            ],
+            "born": 1857
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-PETER-JENSEN",
+            "aliases": [
+              "Peter L. Jensen",
+              "Peter Jensen"
+            ],
+            "born": 1886
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-JOSEPH-KEKUKU",
+            "aliases": [
+              "Joseph Kekuku",
+              "Kekuku"
+            ],
+            "born": 1874,
+            "died": 1932
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-WALTER-LIPPMANN",
+            "aliases": [
+              "Walter Lippmann",
+              "Lippmann"
+            ],
+            "born": 1889
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-VLADIMIR-ZWORYKIN",
+            "aliases": [
+              "Vladimir Zworykin",
+              "Zworykin"
+            ],
+            "born": 1888
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-GEORGE-BEAUCHAMP",
+            "aliases": [
+              "George Beauchamp",
+              "Beauchamp"
+            ],
+            "born": 1899
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-WILLIAM-RANDOLPH-HEARST",
+            "aliases": [
+              "William Randolph Hearst",
+              "Hearst"
+            ],
+            "born": 1863
+          }
+        },
+        {
+          "add_event": {
+            "id": "projected-film",
+            "year": 1889,
+            "patterns": [
+              "the first projected film is shown at San Francisco in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "moving-coil-loudspeaker",
+            "year": 1912,
+            "patterns": [
+              "moving-coil loudspeaker that works in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "public-address",
+            "year": 1913,
+            "patterns": [
+              "a public-address set follows in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "founders-voice-broadcast",
+            "year": 1913,
+            "patterns": [
+              "from 1 August (?P<year>1[89]\\d\\d), the anniversary of the Constitution"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "talking-features",
+            "year": 1919,
+            "patterns": [
+              "the first talking features come from Los Angeles in (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "public-television",
+            "year": 1930,
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d) the press estate's San Francisco transmitter begins a public television service"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "press-seat-succession",
+            "year": 1931,
+            "patterns": [
+              "On 29 April (?P<year>1[89]\\d\\d) Hearst reaches sixty-eight"
             ]
           }
         }

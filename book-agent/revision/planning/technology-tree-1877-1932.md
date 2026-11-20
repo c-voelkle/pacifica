@@ -88,12 +88,12 @@ Every date is PROPOSED. An asterisk (\*) marks a story-relevant date; the rest a
 
 | # | Technology | Pacifica | Hist. | Why then | On the page |
 |---|---|---|---|---|---|
-| C1 | Moving pictures (canon) | 1895 (Dickson) | 1890s | — | — |
+| C1 | Moving pictures: projected film | 1889–90 (Le Prince; Muybridge from 1878; Dickson from 1895; CR-079 T1) | Le Prince 1888; Lumière 1895 | the press seat's need to show crowds | newsreels abroad in the 1890s |
 | C2 | Electrical recording and the loudspeaker | about 1912 | 1925 | valves; broadcasting | Victoria's voice, if recorded again, is recorded electrically |
 | C3 | Sound film | 1916–20\* | 1927 | valves; photocells; Los Angeles film and sound (canon) | talking pictures a decade early; Hollywood as Pacifica's voice |
 | C4 | Magnetic recording: wire, then tape | about 1910; about 1928 | Poulsen 1898; Magnetophon 1935 | valve amplifiers make Poulsen's wire usable | recorded broadcasts; the Office's records; the cipher room |
 | C5 | Electronic television: laboratory, Farnsworth, public service | 1922–25; 1927; 1930–32\* | 1920s; 1927; BBC 1936 | the cathode-ray tube since the 1880s; Victoria's medium | the first pictures in homes in San Francisco and Honolulu |
-| C6 | Public address for crowds and the Party's rallies | about 1915 | 1919–20s | valves | — |
+| C6 | Public address for crowds and the Party's rallies | 1913 (Jensen; CR-079) | 24 December 1915, San Francisco | valves; the loudspeaker of 1912 | Julian's broadcast of August 1914 in Union Square |
 | C7 | Electric music: valve instruments; the amplified Hawaiian steel guitar | 1910s; about 1925\* | theremin 1920; Rickenbacker, Los Angeles, 1931 | Hawaiian music, Los Angeles | a Hawaiian sound becomes the Realm's popular music |
 
 ### D. Measurement and control (the power estate and the Office)
@@ -236,7 +236,7 @@ Birth dates bind the people. They do not bind the inventions, since others can m
    - Cheap radio and mass politics.
    - This is the most explosive case and the hardest to keep under control.
 3. **Korea.** Hangul is an alphabet and suits teleprinters and cards. Independent and guaranteed after 1905, Korea could be the partner that adopts keyboards and cards fastest. *Hist.:* the first Hangul typewriter, 1914.
-4. **Russia.** Federal Russia under Wrangel after 1920 has Pacifican credit and Siberia's partnership. Its electrical people stay in Russia or come to Pacifica instead of leaving for the Union. *Hist.:* Zworykin, the White government's radio engineer, went to Westinghouse in 1919; Termen; Losev; Bonch-Bruevich's radio laboratory at Nizhny Novgorod, 1918.
+4. **Russia.** Federal Russia under Wrangel after 1920 has Pacifican credit and Siberia's partnership. Its electrical people stay in Russia or come to Pacifica instead of leaving for the Union. Zworykin comes to the Realm from Omsk in 1919 (CR-079). *Hist.:* Zworykin, the White government's radio engineer, went to Westinghouse in 1920; Termen; Losev; Bonch-Bruevich's radio laboratory at Nizhny Novgorod, 1918.
 5. **Power.** Each case is weighed by the leading question: which path brings Pacifica the most power and prosperity? A partner's boom enlarges the Concord's market and pool, and it also builds independence.
 6. **Model.** Japan's growth and the partners' purchases may need workbook rows. That is the author's choice, as CR-077 D-14 was.
 
@@ -245,3 +245,5 @@ Birth dates bind the people. They do not bind the inventions, since others can m
 > I approve those dates. Let's start with wire and air. (20 November 2026, 08:36)
 
 The southern wire (1889–1892) and regular broadcasting (1912) are approved as proposed in §9; CR-078 builds on them.
+
+**CR-079 (integrated 20 November 2026)** carries Part C, R5 and R7 (R7 as background). It moves C1 to 1889–90 and C6 to 1913, and puts Zworykin in the Realm for the partners' CR.
