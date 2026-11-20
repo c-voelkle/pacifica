@@ -139,3 +139,7 @@ Most of Part B's numbers can stand. Two famine rows need new mechanisms, two dis
 15. Brandt and Rawski on price information and market integration.
 16. The Philippine Chinese were mostly Hokkien.
 17. Motor roads: about 1,000 km (1921), about 30,000 (1927), about 100,000 (1935).
+
+## Author's decision and fact check (20 November 2026)
+
+The author approved the review. Its seventeen facts from general knowledge were checked against sources (listed at the end of the outline's Part B). Corrections: Chao recorded the national-pronunciation records in 1921, not 1922; Japan had 1.2 million radio subscribers in May 1932; Zikawei's flag signals at Shanghai date from 1884. Not confirmed and not used: Buck's women's literacy figure, electric irrigation at Wujin, national cooperative counts for 1931–35, motor-road kilometres for 1921 and 1927, a 1936 ban on Cantonese films, and dictation-speed news broadcasts.
