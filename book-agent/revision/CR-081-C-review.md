@@ -429,3 +429,14 @@ First spot checks of the reviewer's claims, before the author's decision:
 - The 11,000-man divisions and 715,000 total: confirmed, FRUS 1929 vol. II, doc. 74 (second disbandment conference report); the 800,000 limit, FRUS 1929 vol. II.
 - The 1911 cabinet: sources differ (Wikipedia 9 Manchu, 4 Han; chiculture.org.hk 8 Manchu, 1 Mongol, 4 Han). Both to be cited.
 - "Britain's retreat" after 1927: canon, CR-049 integration ("completing Britain's retreat").
+
+## Applied (20 November 2026, evening)
+
+All Priority 1–3 recommendations were checked against sources and applied to Part C, with these adjustments:
+- P-23 (the 1921 pledge): Fong declines to serve Peking's internal debt but still pays Peking the remainder monthly, rather than withholding it; the works share by regional percentages dates from 1920.
+- P-14's money is presented as canon tension 1 with both cases; the recommendation keeps canon (a declared grant, not arms).
+- Chiang's regiment is the 19th Field Artillery of the 13th Division at Takada (nippon.com), not the 13th Field Artillery.
+- Deng Yanda's execution: 29 November 1931 (Wikipedia; one mirror gives 29 December).
+- The 1930 Sino-Japanese schedule (P-29): the three-year duties are confirmed (Hong Kong record, 6 May 1930); whether cotton goods were on it is not confirmed and is marked so.
+- Weihaiwei: treated as absent in canon (proposal), listed as a watch item.
+- Eight decisions were added for the gaps: P-23 to P-30.
