@@ -31,7 +31,7 @@ independence: fresh-context review by a separate agent (CR-079-review.md)
 | D1 | decision | P-1 to P-21 approved, with Lippmann, Zworykin, Beauchamp, Victoria never recorded again and the music note | author, 11:33 | current |
 | D2 | decision | T1 case C: Muybridge from 1878, Le Prince from 1887, projected film 1889–90 | author, 11:43 | current |
 | D3 | decision | Review fixes, the broadcast on 1 August, Victoria's reason, T9 A, language hours | author, 12:13 | current |
-| Q1 | open choice | Victoria's one active decision in the media (the review's F13 second half) was proposed and not taken up | review | open |
+| D4 | decision | Victoria's rule of 1913 for the Office's films (the review's F13) | author, 12:28 | current |
 | Q2 | open choice | Who holds the champions' seat after 1924 | canon | open |
 
 ## Resume here
