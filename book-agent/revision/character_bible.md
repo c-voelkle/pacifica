@@ -2194,3 +2194,17 @@ Historical persons in alternate history; no invented persons are added. The opti
 **CT-EDWARD-HEBERN — Edward Hebern, maker of rotor ciphers.** Historical person in alternate history; CR-077, APPROVED 20 November 2026. Born at Streator, Illinois, in 1869; farms at Madera and builds at Oakland; historically drew an electric rotor cipher in 1917, patented in 1918, sold five-rotor machines for trial in 1925, and was never told why his sales failed (*hist.*). Here the Office breaks his single rotor in 1918; in 1921 the navy buys his five-rotor service design and its patent rights outright; he keeps a commercial machine without the service wiring, sells it abroad and goes on selling it after he is told that the Office can read it.
 
 **CT-JOHN-VON-NEUMANN — John von Neumann, mathematician.** Historical person in alternate history; CR-049 (arrival by attraction), CR-077, APPROVED 20 November 2026. Born at Budapest in 1903; comes to Pacifica about 1926. In 1927 he reads his report on a machine whose store holds its orders and its numbers alike at a challenge evening, with Levy as respondent; the corrections column prints it with Fuller's group's memorandum of 1925 as prior work, and he signs the correction.
+
+## CR-078 — wire and air (20 November 2026)
+
+Historical person in alternate history; no invented persons are added. Keawe's father, the Hilo harbour pilot, stays unnamed.
+
+**CR-078 notes on existing people (APPROVED 20 November 2026, local labels retained):**
+- **CT-SOBERANES:** reads the Port Hamilton delays to the Senate in 1888 and carries the vote for the southern wire (1889–92); the Wake span about 1910, at sixty-three.
+- **CT-KAIULANI (Victoria):** asks in 1888 for a wire to Tokyo that touches no foreign soil; the warnings compact with Japan of 1897.
+- **CT-TESLA:** about 1902 proposes power through the earth from a tower, accepts the challenge evening's test, and withdraws the tower himself when the receiver at Sacramento takes in less than a thousandth; he keeps the power seat to 1924.
+- **CT-HARRIS-RYAN:** at thirty-six, the respondent at that evening; the result printed under both names is one reason he is trusted with the halls' supply after 1917.
+- **CT-LEONARD-FULLER:** from 1913 gives the Pacific wireless chain its valve transmitters and later its shortwave stations.
+- **CT-KEAWE's father** (unnamed): the Hilo harbour pilot who doubts Jaggar's timetable on 3 February 1923 and takes the boats out because the harbour act obliges him to.
+
+**CT-THOMAS-JAGGAR — Thomas Jaggar, volcanologist.** Historical person in alternate history; CR-078, APPROVED 20 November 2026. Born at Philadelphia in 1871 (*hist.*). He founds the Hawaiian Volcano Observatory on Kīlauea's rim in 1912 and puts seismographs at Hilo and Kona under the warnings compact of 1897; in late 1922 he privately forecasts a wave from a Chilean earthquake, and on 3 February 1923 he forecasts the Kamchatka wave at Hilo for about noon. Historically the warning was not taken seriously and one fisherman died; here the harbour act of 1913 obliges the harbourmaster, the harbour is cleared and no one dies. **Character use:** the scientist with a timetable no one believes until noon.

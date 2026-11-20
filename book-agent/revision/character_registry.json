@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 333,
+    "canonical_dossiers": 334,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 327
+    "active_or_provisional_identities": 328
   },
   "people": [
     {
@@ -6485,6 +6485,21 @@
       "source_authority": [
         "CR-049",
         "CR-077"
+      ]
+    },
+    {
+      "id": "CT-THOMAS-JAGGAR",
+      "display_name": "Thomas Jaggar, volcanologist",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "minor",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-THOMAS-JAGGAR",
+      "narrative_profile": "Historical person in alternate history; CR-078, APPROVED 20 November 2026. Born at Philadelphia in 1871 (*hist.*). He founds the Hawaiian Volcano Observatory on Kīlauea's rim in 1912 and puts seismographs at Hilo and Kona under the warnings compact of 1897; in late 1922 he privately forecasts a wave from a Chilean earthquake, and on 3 February 1923 he forecasts the Kamchatka wave at Hilo for about noon. Historically the warning was not taken seriously and one fisherman died; here the harbour act of 1913 obliges the harbourmaster, the harbour is cleared and no one dies. **Character use:** the scientist with a timetable no one believes until noon.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-078"
       ]
     }
   ],
