@@ -1476,3 +1476,39 @@ id = "first-stored-program-machine"
 year = 1928
 patterns = ['''(?:first|earliest) stored-program machine[^.;]{0,60}(?:runs|in service|enters service)[^.;]{0,30}(?P<year>1[89]\d\d)''', '''In (?P<year>1[89]\d\d)[^.;]{0,60}first stored-program machine''']
 source = "CR-077"
+
+[[person]]
+id = "CT-THOMAS-JAGGAR"
+aliases = ["Thomas Jaggar", "Thomas A. Jaggar", "Jaggar"]
+born = 1871
+source = "CR-078"
+
+[[event]]
+id = "southern-wire-japan"
+year = 1892
+patterns = ['''Guam by Chichijima to Tokyo Bay in (?P<year>1[89]\d\d)''']
+source = "CR-078"
+
+[[event]]
+id = "manila-cable"
+year = 1891
+patterns = ['''Guam to Manila in (?P<year>1[89]\d\d)''']
+source = "CR-078"
+
+[[event]]
+id = "wireless-act"
+year = 1911
+patterns = ['''Wireless Act of (?P<year>1[89]\d\d)''']
+source = "CR-078"
+
+[[event]]
+id = "regular-broadcasting"
+year = 1912
+patterns = ['''Regular broadcasting begins at San Jose and San Francisco in (?P<year>1[89]\d\d)''']
+source = "CR-078"
+
+[[event]]
+id = "warnings-compact"
+year = 1897
+patterns = ['''In (?P<year>1[89]\d\d) the Realm and Japan agree to exchange warnings''']
+source = "CR-078"

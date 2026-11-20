@@ -6431,3 +6431,90 @@ status = "PROPOSED"
 section = 13
 quote = "A Guaymas railway concession and free port go with it."
 open = "The year and term of the concession and free port are not stated; CR-057: Guaymas waits on Mexico."
+
+
+# ---- CR-078 (integrated 20 November 2026): wire and air ----
+
+[[commitment]]
+id = "C-1880-HK-MANILA-CABLE"
+name = "Landing grant for the Eastern Extension company's Hong Kong–Manila cable at Bolinao"
+kind = "concession"
+parties = ["PH", "UK"]
+from = 1880
+owes = [{ by = "PH", to = "UK", what = "a landing at Bolinao for the Eastern Extension company's Hong Kong–Manila cable" }]
+status = "APPROVED"
+cr = "CR-078"
+section = 25
+quote = "Port Hamilton showed that the alliance's telegrams to Tokyo crossed British wires, by Europe and by the Hong Kong–Manila cable that the Eastern Extension company landed at Bolinao in 1880 on a Pacifican landing grant."
+open = "Term and fees not stated. The cable stays British; Manila's own wire to the treaty ports belongs to the partners' CR."
+
+[[commitment]]
+id = "C-1889-MIDWAY-CABLE"
+name = "Midway cable-station lease from the Hawaiian Crown"
+kind = "lease"
+parties = ["HI", "PAC"]
+from = 1889
+owes = [{ by = "HI", to = "PAC", what = "a cable-station lease on Midway, Hawaiian Crown land" }]
+status = "APPROVED"
+cr = "CR-078"
+section = 25
+quote = "The trunk runs from Oʻahu by Midway, on a cable-station lease from the Hawaiian Crown, to Guam in 1889–90, from Guam to Manila in 1891, and from Guam by Chichijima to Tokyo Bay in 1892, on Japanese landing grants under the compact of 1887; it carries traffic from the autumn of 1892 and lands only on Pacifican and Japanese soil."
+open = "Term not stated; distinct from the 1867 naval-ground lease (C-1867-MIDWAY)."
+
+[[commitment]]
+id = "C-1892-TOKYO-CABLE"
+name = "Japanese landing grants for the southern wire at Chichijima and Tokyo Bay"
+kind = "concession"
+parties = ["JP", "PAC"]
+from = 1892
+owes = [{ by = "JP", to = "PAC", what = "landings at Chichijima and on Tokyo Bay for the southern wire, under the compact of 1887" }]
+status = "APPROVED"
+cr = "CR-078"
+section = 25
+quote = "The trunk runs from Oʻahu by Midway, on a cable-station lease from the Hawaiian Crown, to Guam in 1889–90, from Guam to Manila in 1891, and from Guam by Chichijima to Tokyo Bay in 1892, on Japanese landing grants under the compact of 1887; it carries traffic from the autumn of 1892 and lands only on Pacifican and Japanese soil."
+open = "The Tokyo Bay landing place is OPEN (CR-070 G8 suggests Yokosuka). The first route to Japan; the Kuril route of 1903 is the second (C-1903-KURIL-CABLE)."
+
+[[commitment]]
+id = "C-1897-WARNINGS"
+name = "The warnings compact (earthquakes at sea and typhoons)"
+kind = "compact"
+parties = ["JP", "PAC"]
+from = 1897
+owes = [
+  { by = "JP", to = "PAC", what = "warnings of earthquakes at sea and of typhoons" },
+  { by = "PAC", to = "JP", what = "warnings of earthquakes at sea and of typhoons" },
+]
+status = "APPROVED"
+cr = "CR-078"
+section = 25
+quote = "In 1897 the Realm and Japan agree to exchange warnings of earthquakes at sea and of typhoons, and from then on typhoon warnings reach Guam, Manila and the Visayas a day ahead."
+open = "Term not stated. Carried into Hawaiian law by the harbour act of 1913 (C-1913-HARBOUR-ACT). Japan's side is detailed in the partners' CR."
+
+[[commitment]]
+id = "C-1911-WIRELESS-ACT"
+name = "The Wireless Act"
+kind = "law"
+parties = ["PAC", "ESTATES"]
+from = 1911
+conditions = [
+  "wavelengths are concessions of the telegraph estate, auctioned",
+  "every licence reads the Office of Public Measures' daily tables unaltered and gives air time to the examination lessons",
+]
+status = "APPROVED"
+cr = "CR-078"
+section = 25
+quote = "The Wireless Act of 1911 makes wavelengths concessions of the telegraph estate, auctioned, each carrying a public-service article: the Office of Public Measures' daily tables are read unaltered, and air time goes to the examination lessons."
+open = "Licence terms and the auctions' receipts are not stated (MODEL: small, to the Patrimony as concession rent)."
+
+[[commitment]]
+id = "C-1913-HARBOUR-ACT"
+name = "The Hawaiian harbour act (warnings)"
+kind = "law"
+parties = ["HI"]
+from = 1913
+conditions = ["every harbourmaster must act on the Hawaiian Volcano Observatory's warning"]
+status = "APPROVED"
+cr = "CR-078"
+section = 33
+quote = "Thomas Jaggar founds the Hawaiian Volcano Observatory on Kīlauea's rim in 1912 and puts seismographs at Hilo and Kona under the warnings compact; in 1913 the Hawaiian legislature's harbour act obliges every harbourmaster to act on the Observatory's warning."
+open = "Applied at Hilo on 3 February 1923."

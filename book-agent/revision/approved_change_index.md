@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 76 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 77 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1291,6 +1291,20 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 
 **Still open:**
 - Who owns the telephone (telecommunications CR, D-7); daily machine forecasts after 1932; cores and crystal amplifiers after 1932; the Union card champion's name; the Office of Public Measures' city; whether the cipher room reads Britain in 1927 (check against CR-046).
+
+### CR-078 — Wire and air: telephone, cable, radio and the ocean's warnings (1877–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The Confederation's state telegraph buys Bell's Confederation rights in 1877 and licenses them at one royalty; Hughes's microphone; San Francisco's first exchange concession, February 1878; from 1887 the telegraph estate owns the long lines, cables and switching standard as monopolies the state owns (CR-057's auctioned list loses 'cable', T6); exchanges are county concessions relet every twenty years after 1888 with the Office of Public Measures' service figures, the standard and a published-valuation transfer rule; homelands let their own.
+- Telephone calendar: heavy copper to Los Angeles 1894, loading about 1900, repeater trials 1903–05, valve-repeated service 1909–10, about 25 per 100 by 1929 (MODEL); telegraphers and messenger boys lose the town messages from the 1880s; county concessionaires pay the displaced operators a year's wage.
+- The southern wire: Victoria asks in 1888, the Senate votes it over the inland command's senators; Oʻahu–Midway (Hawaiian Crown lease)–Guam 1889–90, Manila 1891, Chichijima–Tokyo Bay 1892 on Japanese grants under the 1887 compact; gutta-percha from the Borneo company's compacts worked at the Carquinez cable works (since 1879); the British Hong Kong–Manila cable of 1880 on a Pacifican landing grant; the Wake span about 1910; Manila's wire to the Customs ports in the partners' CR.
+- Sanriku (15 June 1896): the news reaches Honolulu before the waves; the warnings compact of 1897 (earthquakes at sea, typhoons); Jaggar's Observatory (1912), the Hawaiian harbour act (1913), the 1922 forecast and Hilo on 3 February 1923 (Petropavlovsk's report, Keawe's father clears the harbour, no one dies); the 1927 warning left out.
+- Radio: soft-valve oscillators and arcs about 1900, voice about 1905, hard-valve transmitters from 1909; Tesla's tower refuted at a challenge evening about 1902 (Ryan respondent); fax 1908–10 and teleprinters about 1910; the wireless chain 1910–12 (power estate; Fuller from 1913); the Wireless Act of 1911; regular broadcasting from 1912; Julian's broadcast, August 1914; the air school from 1915; shortwave about 1920; radiotelephone 1922 (Oʻahu) and 1928 (Tokyo, scrambled).
+- Radio beacons about 1920; Yagi's antenna adopted 1926; radio location: San Diego pulse experiments 1924–26, a few sets by 1932, Okabe's magnetron in trial; radio location on the General Staff's sealed roll for as long as the secret holds (amends CR-077 D-5, T7); echo sounding about 1915 and fish-finding about 1925 (PROPOSED detail); AT&T reaches Denver in 1911 on Pacifican valves; no workbook change.
+
+**Still open:**
+- The Tokyo Bay landing place; Keawe's father's name; Manila's wire to the Customs ports and the fax makers (partners' CR); broadcasting's content (CR-079); the workbook rows for the cables and the chain.
 
 ### Author-approved editorial safeguards
 
