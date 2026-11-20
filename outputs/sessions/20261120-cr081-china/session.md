@@ -6,7 +6,7 @@ mode: draft
 status: in progress
 baseline:
   commit: 501791d
-independence: none yet (review planned when Part A is decided)
+independence: fresh-context review of Part A and A8 (CR-081-review.md), corrections approved and applied
 ---
 
 # China's other century (outline), Part A
@@ -22,6 +22,8 @@ independence: none yet (review planned when Part A is decided)
 - `book-agent/revision/CR-081-outline.md`: the method, canon inputs, Part A first draft, B and C sketches.
 - `book-agent/revision/CR-081-A-series.md`: page-cited historical series from Feuerwerker (*The Chinese Economy*, *Sheng*), Rawski and Pomeranz (the last read by OCR), and section 9 on how they change the proposals. The outline's Part A is recalibrated (railways, coal, iron, shipping, cotton, electricity, customs, output per person) and gains decisions 9 (the China Merchants' Pacific line) and 10 (the hinterland's waterworks).
 
+- A8: the 1932 target and recommendations; fresh-context review; the reviewer's outside claims checked against sources (series section 10); corrections applied; A7 now has fifteen decisions.
+
 ## Resume here
 
-Waiting for the author's decisions 1–10 in the outline's A7. Then draft Part B (socioeconomic) on the decided material layer; `population/china.py` only if decision 1 approves it.
+Waiting for the author's decisions 1–15 in the outline's A7 (recommendations in A8). Then draft Part B (socioeconomic) on the decided material layer; `population/china.py` only if decision 1 approves it.
