@@ -1,6 +1,6 @@
 # CR-081 (outline) — China's other century: materials, society and politics (1860–1932)
 
-**Status:** OUTLINE, 20 November 2026. Part A (the material layer) is in first draft below; Parts B and C are sketched. Nothing is decided beyond what is marked *canon*.
+**Status:** OUTLINE, 20 November 2026. Parts A and B are decided (A7, B10); Part C (the political timeline) is in first draft with decisions P-1 to P-22. Nothing in Part C is decided beyond what is marked *canon*.
 
 **Number:** CR-081. CR-080 (the partners' CR) is parked; its China part shrinks to what Japan, Korea and Russia need from China.
 
@@ -334,18 +334,230 @@ Effect on population: about 4–8 million more people in 1932, under 2% of 500 m
 - Remittances: Harris on the remittance firms and the Post Office (*Journal of Asian Studies*, 2014; Illinois dissertation); Benton and Liu, *Dear China* (2018). No source found for a tax on remittances in this period.
 - Not confirmed and not used as figures: Buck's women's literacy figure; electric irrigation at Wujin; national cooperative counts for 1931–35; motor-road kilometres for 1921 and 1927; a 1936 ban on Cantonese films.
 
-## C. The political timeline (sketch)
+## C. The political timeline (draft)
 
-Built on A and B. It starts from CR-080 D0's table (1860–1928) and the decided X-8:
-- Self-Strengthening with a partner;
-- the late Qing reforms;
-- 1911;
-- Yuan Shikai;
-- the warlords;
-- no May Fourth outrage;
-- the Nationalists' model;
-- land;
-- Mao.
+Built on Parts A and B as decided and on canon's turning points. Each period gives canon with its label, the historical baseline (*Hist.*, sources at the end of this part) and the proposals, which are measured against the 1932 target in A8: a strong, solvent China aligned with Pacifica, at minimal cost to Japan. Decisions are numbered P-1 to P-22. Part C answers CR-080's questions D0.1–D0.6 and the items Parts A and B left for it; D0.7 (the Chinese Pacificans) was answered by S-2, S-3 and S-15, and P-3 and P-21 add their politics.
+
+### C0. What canon, Part A and Part B already decide
+
+**Canon's fixed points** (§ numbers are the storyline's):
+- 1860–63: Ward's company holds Shanghai and leaves the Qing's service after Suzhou (CR-074).
+- About 1878–80: Korea's first Western treaty is with Pacifica, through Li Hongzhang's mediation (§14).
+- 1884–85: the Keelung squadron without a battle; a Chinese–Pacifican coal company; railway and fleet-rebuilding credit (§16, PROPOSED).
+- 1885: the Customs Inspectorate under Fong by China's appointment, with Li's backing (§16).
+- 1894–95: the armistice. Korea is independent and neutral, the indemnity moderate, no mainland is ceded, Formosa stays Chinese under the Revenue Convention, and "the Qing retain solvency" (§25).
+- 1898–99: Liaodong stays Chinese through Victoria's negotiation with Cixi; China recovers the Amur's north bank and pledges the Liaodong Gulf coast to no power (§25, CR-042).
+- After 1898: Honolulu and San Francisco shelter reformers and revolutionaries; a limited Boxer relief contingent withdraws promptly and turns its indemnity into scholarships (§25, PROPOSED).
+- 1909: the Huludao trust under a Qing commission; Xu Shichang as viceroy (§27, CR-042, PROPOSED).
+- 1911–12: the Qing falls and Julian backs Sun (§27). PROPOSED: Sun tours Pacifica's Chinese communities, becomes provisional president, yields to Yuan, loses the Second Revolution of 1913 and lives in exile in Honolulu.
+- 1915: Victoria blocks the worst of the Twenty-One Demands (§28, CR-040, PROPOSED).
+- 1915–16: Yuan's monarchy; Julian leaves him to his fate. PROPOSED: Pacifica funds Sun in Canton while working with Zhang Zuolin (§29).
+- 1918: a Chinese brigade guards the Manchurian line, "since Peking's price is that Chinese soldiers guard it" (§31, CR-041, PROPOSED).
+- 1919: Shandong returned to China at The Hague (§30, CR-043).
+- 1921: the Treaty of Harbin, signed in a Chinese city. Russia's extraterritorial rights, concessions and indemnity share are renounced, and Mongolia returns to Chinese suzerainty under its own Mongol government (§32, CR-031, PROPOSED). By 1922 the settlement is a standing alliance of Pacifica, Japan, China and federal Russia (§32, CR-040 R11, APPROVED).
+- 1920s: Whampoa on Pacifican money without a Soviet bargain; Sun dies in 1925 and Chiang succeeds him; the Northern Expedition; Julian obtains Japan's withdrawal at Jinan; Japanese officers kill Zhang Zuolin in June 1928 and Zhang Xueliang joins Nanjing (§33, PROPOSED). The Treaty of Nanjing with the Concord returns the customs and the tariff in 1928–29 (§33, CR-039, APPROVED).
+- 1931: the Manchurian plot is stopped, no client state is made, and Puyi remains in Tianjin (§35).
+- No Soviet state survives 1920 and there is no communism in China; Mao is a nationalist (CR-080 X-8).
+
+**Rules from Parts A and B that become political rules**
+- **Works, not factions.** No Pacifican lending to factions in Peking in 1916–28 (A8.4). Loans go to Chinese-owned works with published accounts and the labour article (S-7).
+- **State, not party.** Pacifican transmitters go to state stations (S-12).
+- **No ownership beyond canon's holdings** (A8): influence comes from credit, standards, schools, the Chinese Pacificans and the guarantee.
+
+**What this means for the timeline.** Canon has Pacifica choose a Chinese leader twice, Sun in 1911 and Nanjing in 1928. Between those dates it deals with whoever holds Peking, the provinces and Manchuria, through revenue, works and people. The decisions below keep to that.
+
+### C1. 1860–1894: Self-Strengthening with a partner (D0.1, D0.2)
+
+- *Hist.:* the Educational Mission sent 120 boys to New England from 1872, and the Qing recalled it in 1881, partly because it thought the boys too Americanised. Its men included Tang Shaoyi (Columbia, class of 1882), Liang Dunyan (Yale), Liang Cheng (Phillips Academy, then Amherst) and Zhan Tianyou (Yale, 1881).
+- *Canon:* the mission studies in San Francisco with naval-academy places and is not recalled (PROPOSED; CR-080 D0.1). By 1894 its men are in their early thirties and serve the telegraph, Kaiping, the China Merchants' line (its Pacific line from 1880, A8.9) and the customs.
+
+**P-1. The partner before 1894.** *Proposal:* Pacifica's partner is Li Hongzhang's Beiyang administration and Sheng Xuanhuai's enterprises, not the court and not the provinces at large. Li mediates Korea's treaty and backs Fong (canon). The mission's men work in Li's and Sheng's offices: the telegraph administration from 1881, the coal and steamship companies, the Tianjin schools. Victoria's friendship with Cixi belongs to 1898–99 and does not reach the arsenals.
+
+**P-2. The fleet credit of 1885.** Pacifica has been Japan's ally since 1870–71 (§14). *Proposal:* the fleet-rebuilding credit of 1885 (canon, PROPOSED) is lent in money. China buys its cruisers in Britain and Germany as in history, and no Pacifican yard builds and no Pacifican officer serves in a Chinese warship. The mission's naval graduates go mainly to the merchant line. This is why the Beiyang fleet loses in 1894 as canon requires, and why Japan does not read the credit as arming its enemy.
+
+### C2. 1895–1901: a milder defeat, the reformers and the Boxers
+
+- *Hist.:* the Hundred Days of reform (June–September 1898) ended in Cixi's coup. Kang Youwei founded the Baohuanghui (Chinese Empire Reform Association) at Victoria, British Columbia, on 20 July 1899, with Liang Qichao as vice-president; its chapters spread through the Americas, and at one time most of Honolulu's Chinese supported it. Sun had founded the Xingzhonghui at Honolulu on 24 November 1894. In 1900 the southern viceroys kept their provinces out of the court's war (the Southeast Mutual Protection).
+- *Canon:* the armistice and the Revenue Convention leave the Qing solvent; Germany still takes Kiaochow, and Pacifica takes nothing (§25). Russia enters Manchuria during the Boxer rising (§26, PROPOSED).
+
+**P-3. The reformers in exile.** *Proposal:* the Hundred Days fail as in history, because the court is unchanged. Pacifica gives Kang, Liang and Sun's men asylum and the right to organise among the Chinese Pacificans, but no arms, no credit and no ships for risings, and Victoria tells Cixi so. Her friendship with Cixi protects the exiles' lives, not their plans. The Baohuanghui and Sun's society both grow fastest in San Francisco and Honolulu, so that by 1905 the two rival Chinese parties abroad are largely Pacifican-based and compete for the same remittance money (S-3).
+
+**The Boxers.** Canon's contingent guards the legations, withdraws early, and Pacifica's indemnity share goes to scholarships and, after 1901, to the conservancy (A8.10). No decision is needed here.
+
+### C3. 1901–1911: the New Policies with more money, and the fall (D0.3)
+
+- *Hist.:*
+  - the examinations were abolished in 1905;
+  - in May 1906 an edict put the whole customs service under a Revenue Council, with Tieliang as superintendent and Tang Shaoyi as associate minister;
+  - Xu Shichang was the first viceroy of the Three Eastern Provinces (1907–09);
+  - in 1908 the court set a nine-year programme for a constitution;
+  - the provincial assemblies were elected in 1909 by about 1.7 million registered voters, 0.42% of the population, and the National Assembly met in 1910;
+  - the cabinet of 8 May 1911 had thirteen members, eight of them Manchu, one Mongol and four Han, seven from the imperial clan, and the provincial assemblies' federation protested at once;
+  - on 9 May 1911 Sheng Xuanhuai nationalised the trunk railways, and on 20 May he signed the Huguang loan with the four-power consortium of British, French, German and American banks;
+  - the Sichuan Railway Protection League formed on 17 June, and troops sent from Hubei to suppress it gave the Wuchang garrison its chance on 10 October.
+- *Canon and Parts A–B:* more revenue (a moderate indemnity, a published customs), more railways (11,000–12,000 km by 1911, A8.4), a Chinese Manchuria, the Polytechnic of Formosa (1906) and the mission's men in office.
+
+**P-4. Why the Qing still falls.** Canon fixes the fall. *Proposal:* the New Policies go further in money, railways and trained men, and the court still fails politically, as in history: the princes' cabinet of May 1911 alienates the constitutionalists, and the railway nationalisation sets Sichuan alight. Pacifica is not in the Huguang consortium, because its rule is to lend to Chinese-owned lines on the customs with no foreign management (A8.4), so the crisis of 1911 is not Pacifica's. The mission's men are divided, as they were in history: Tang Shaoyi serves Yuan in the negotiations of 1911–12, and Liang Dunyan, foreign minister in the princes' cabinet, stays a monarchist.
+
+**P-5. The customs in the revolution.** *Hist.:* in January 1912 the diplomatic body made the Inspector-General the trustee of all customs revenue, deposited in foreign banks at Shanghai for the loan service, so that he released the surplus only to the government the powers recognised. *Proposal:* Fong does the same, because the customs secure the loans Pacifica's savers hold. Pacifica recognises the Republic on the abdication (12 February 1912), not a person, and so the trusteeship that serves the Republic in 1912 serves Yuan from March. This is Fong's divided duty again: Julian backs Sun, and Fong's revenue goes to Peking.
+
+### C4. 1912–1916: Yuan, the loans and the Demands
+
+- *Hist.:* Tang Shaoyi was the Republic's first premier from 13 March to 27 June 1912 and resigned over Yuan's disregard for the cabinet and the law. The Kuomintang won the elections of 1912–13; Song Jiaoren, who was to lead the cabinet, was shot at Shanghai station on 20 March 1913. On 18 March 1913 Wilson withdrew his government's support from the American bankers in the consortium. On 26 April 1913 Yuan signed the £25 million Reorganisation Loan with the British, French, German, Russian and Japanese banks without the parliament's consent, secured on the salt revenue under a foreign-inspected salt administration. The Second Revolution of July 1913 was crushed in about two months; Yuan banned the Kuomintang in November 1913 and dissolved the parliament in January 1914. In 1915 Japan's ultimatum of 7 May forced acceptance of the modified Demands on 25 May, and 9 May became a day of national humiliation and the occasion of a boycott.
+
+**P-6. The Reorganisation Loan.** *Proposal:* Pacifica stays out and says why: it does not lend to arm a president against an elected parliament. With the Union's bankers also out, Britain leads the five-power loan and its salt inspectorate. Japan, not yet in the Concord, takes its share. Britain gains a second foreign-run revenue in China beside Fong's customs, and Japan finances the man Pacifica's candidate is fighting. This is the first instance of canon's criticism of Julian's bargains in China.
+
+**P-7. Tang Shaoyi.** D0.1 asks which of the mission's men matter. *Proposal:* Tang Shaoyi is the one addition to the cast from the mission, because three of his historical posts touch Pacifica. In 1906 he is the associate minister to whom Fong reports. In 1912 he is premier and resigns. In 1929, as in history, he heads Zhongshan, the county Nanjing makes a model county; in canon it is the first county where the card register and the rent limit (S-6), the farm bank (S-5) and the labour article all apply. Zhan Tianyou (the Peking–Kalgan line, 1905–09, and the Canton–Hankow line after 1912; died at Hankou in April 1919), Liang Cheng (the scholarships) and Liang Dunyan stay in the historical notes.
+
+**P-8. The Twenty-One Demands.** In canon Japan holds no lease in Manchuria or Shandong, and Hanyeping's debt is serviced on Pacifican credit (A8.6). *Proposal:* what Japan still obtains in 1915 is commercial: residence, leasing of land for business and mining rights for Japanese along the Manchurian line, and the Daye ore contract (A8.6). Victoria's intervention removes the fifth group of advisers and police and any ultimatum. There is no 9 May, and the boycott of 1915 is short.
+
+### C5. 1916–1923: warlords, war, The Hague and Harbin
+
+- *Hist.:*
+  - Yuan died in June 1916;
+  - the Manchu restoration of 1–12 July 1917, in which Liang Dunyan served as Zhang Xun's foreign minister;
+  - China declared war on Germany on 14 August 1917; some 140,000 Chinese labourers served the British and French armies;
+  - Sun's Constitutional Protection government at Canton from 1917;
+  - Xu Shichang, the only civilian president of the warlord years, from 10 October 1918 to 2 June 1922;
+  - the Nishihara loans of 1917–18 to Duan Qirui (A8.4);
+  - the Zhili–Anhui war of July 1920 and the first Zhili–Fengtian war of 1922;
+  - Hunan's provincial constitution, promulgated on 1 January 1922;
+  - Chen Jiongming's federalism in Guangdong and his attack on Sun on 16 June 1922.
+- *Canon:* the Chinese brigade (1918), Shandong at The Hague (1919), the Treaty of Harbin (1921), the standing alliance (1922), Huludao opened (1914, PROPOSED) and its industrial district under Wang Yongjiang (1923, CR-057).
+
+**P-9. Who signs for China.** *Proposal:* the recognised government in Peking signs, and the southern government joins China's delegation. At The Hague in 1919 China sends one delegation with Canton's men in it, as the Paris delegation had in history, and Pacifica asks for that. Xu Shichang's government signs the Treaty of Harbin in 1921 with Zhang Zuolin's consent for Manchuria. The standing alliance binds the government of China, which passes from Peking to Nanjing in 1928. Xu, who chartered Huludao in 1909, is president when China joins the alliance, so the Huludao link of CR-042 carries through.
+
+**P-10. No May Fourth outrage.** *Proposal:* the New Culture movement and the student unions still form. With Shandong returned, the students' anger turns to the Anfu clique's loans and to the treaty system that remains: extraterritoriality, the concessions and the two foreign-run revenues, Fong's customs and Britain's salt. "Abolish the unequal treaties", which the Nationalists took up in 1924, becomes the movement's cry five years earlier. *Hist.:* there were significant boycotts of Japanese goods in 1908, 1909, 1915, 1919, 1925 and 1928, and then almost continuously from 1931 (Gerth, after Remer). In canon the boycotts of 1915 and 1928 are short and those of 1919 and 1931 do not happen. That is the political return to Japan for the cotton tariff of 1928 (A8, tradeoff 1).
+
+**P-11. The federalists and the south.** *Proposal:* Pacifica gives federalism no political support; canon has it fund Sun's line, which is unification. Its works rule makes it deal with provincial governments, though, and in practice that rewards Hunan under its constitution and Chen Jiongming's Guangdong, which publish accounts and accept the labour article. This is a quarrel with Sun before 1922. Mao takes part in Hunan's self-government movement of 1920, as in history.
+
+**P-12. The Canton customs, 1923.** *Hist.:* in December 1923 Sun threatened to seize the Canton customs surplus, and foreign warships gathered at Canton to stop him. His government cited the precedent of 1919–20, when part of the surplus had been released to the south. *Proposal:* Fong proposes a works account. The surplus collected at the southern ports is held under published accounts for works in the provinces where it is collected (the Canton–Hankow line's southern section, the Pearl River works, the Swatow warnings, S-14) and paid to contractors, never to armies. Peking protests, Sun accepts because his province gets the works, and no warships are needed. Britain resents a Pacifican Inspector-General deciding what the powers decided in history. The formula is the precedent for the Nationalists' own finances (P-14).
+
+### C6. 1923–1928: the Nationalists' model and the Expedition (D0.4, D0.5, D0.6)
+
+- *Hist.:*
+  - Chiang Kai-shek led Sun's military mission to Moscow from 2 September to 29 November 1923;
+  - the Kuomintang's first congress (Canton, 20–30 January 1924) reorganised it on the Soviet model, declared that there was no restriction of sex in political activities and set up a Central Women's Bureau;
+  - Whampoa opened on 16 June 1924;
+  - Sun died on 12 March 1925;
+  - the May Thirtieth shooting of 1925 and the Canton–Hong Kong strike and boycott (June 1925 to October 1926; at Shakee on 23 June 1925 British and French troops fired on the marchers);
+  - Mao was acting head of the Nationalists' propaganda department from October 1925 to May 1926 and director of the sixth session of the Peasant Movement Training Institute in 1926;
+  - the Northern Expedition began on 9 July 1926;
+  - the British concessions at Hankou and Jiujiang were returned by agreement in February and March 1927;
+  - Mao's report on the Hunan peasant movement (March 1927);
+  - the Jinan incident of 3 May 1928, the killing of Zhang Zuolin on 4 June, and Zhang Xueliang's change of flag on 29 December 1928.
+
+**P-13. Chiang's mission of 1923.** *Proposal:* Sun sends Chiang to Pacifica instead of Moscow, for about three months in 1923: to the Companies' school at Sacramento, the Polytechnic, a county board and the Party's machine. He comes back with a plan for Whampoa and a view of how an examined party governs.
+
+**P-14. The Nationalists' model (D0.4).** *Proposal:* the Kuomintang takes three things from the Prosperity Party and refuses one.
+- *It takes:*
+  - examined cadres: party schools whose examinations qualify for posts;
+  - published accounts of the party's and Canton's finances, with T. V. Soong's Central Bank at Canton (1924, as in history) and the works account of P-12 as models;
+  - its own wire and press, under the Wireless rule of S-12.
+- *It refuses* the open ballot. Sun's three stages stay, and tutelage means one party without elections until a constitution.
+- *Whampoa:* its instructors are Chinese officers trained in Pacifica (Chinese Pacificans from the Sacramento school and the mission's sons) under private contract. No Pacific Company serves it, because the Companies serve China only by treaty with the recognised government (CR-074).
+- *The money:* Pacifica's money for Whampoa (canon) is indirect, through the Chinese Pacificans' subscriptions and the works account, which frees Canton's own revenue for the school.
+- *The result* is a party that publishes its accounts and examines its cadres but rules without voters, with the tension that brings to the warlords and later to its own officers.
+
+**P-15. Labour in 1925.** *Proposal:* the May Thirtieth movement and the Canton–Hong Kong strike happen, led by the Nationalists' labour bureau and the seamen's union, since there is no Communist party. They are aimed at Britain and at the Japanese mills where the shooting began (B4). The strike committee exempts the China Merchants' Pacific line and Pacifican firms that carry the labour article, so the boycott moves Hong Kong's trade to Canton, Chinese ships and Pacifica's. Britain pays most of the cost; Japan's mills pay some.
+
+**P-16. The split of 1927, without communists.** *Proposal:* the Nationalists still split in 1927, over land and labour. The left at Wuhan (Wang Jingwei, the peasant and labour bureaus) stands against Chiang at Nanjing with the Shanghai bankers and officers whose families own land. *Hist.:* on 21 May 1927 officers at Changsha turned on the Hunan peasant associations. In canon the associations are dissolved and their leaders dismissed, not hunted down, and there is no Shanghai massacre because there is no Communist party to purge. Wuhan rejoins Nanjing later in 1927, as in history. Land stays the party's open question, and the rent limit of 1930 (S-6) is its answer on paper.
+
+**P-17. Land (D0.5).** S-6 has already decided the practice: the rent limit is enforced where a Pacifican-financed register exists. *Proposal:* Pacifica asks nothing of Nanjing's land law as a whole, unlike Komuch (CR-041), because China's land is China's and the Concord does not guarantee China's government, only its frontiers. The conditions sit in the works contracts district by district. By 1932 the districts with a register are the showcase, and the rest of China is the argument.
+
+**P-18. Mao Zedong (D0.6).** *Hist.:* he graduated from Hunan's First Normal School in 1918, founded the *Xiang River Review* in 1919, argued for Hunan's self-government in 1920 and was elected an alternate member of the Nationalists' Central Executive Committee in 1924. *Proposal:*
+- 1921–24: no Communist party to found; he joins the Nationalists in Hunan.
+- 1925–27: propaganda and the peasant institute as in history; his Hunan report of 1927 is a Nationalist document, and he is on Wuhan's side in the split.
+- 1928–31: out of favour in Nanjing, he goes back to Hunan to run the register and the rent limit in the works districts along the Canton–Hankow line, and the census of 1931–32 (S-11) prints his districts' tables.
+- 1932, aged thirty-eight: a member of the Central Executive Committee and head of the party's peasant department, the leading voice for enforcing the rent limit everywhere, against Nanjing's officers and bankers. He is a rising leader and not yet a successor to Chiang.
+
+### C7. 1928–1932: Nanjing with the customs
+
+- *Hist.:*
+  - the disbandment conference of January 1929 meant to cut the armies outside Manchuria to sixty-five divisions of 11,000 men, about 715,000, within a limit of 800,000, and failed;
+  - the Central Plains war of May–November 1930 against Yan Xishan, Feng Yuxiang and Li Zongren was decided when Zhang Xueliang declared for Chiang on 18 September 1930;
+  - Nanjing's mandate of 28 December 1929 declared extraterritoriality abolished from 1 January 1930; Britain and the Union agreed to treat that date as the start of a gradual abolition, and the negotiations of 1931 were broken off after Mukden;
+  - Weihaiwei was returned on 1 October 1930;
+  - Hu Hanmin was put under house arrest on 28 February 1931; the National People's Convention met in May 1931, and the Provisional Constitution of the tutelage period was promulgated on 1 June 1931;
+  - an opposition government formed at Canton in May 1931 under Wang Jingwei and Eugene Chen; in January 1932 Wang and Chiang agreed to lead together, Wang as premier from 28 January;
+  - the Civil Code, promulgated in 1929–30, gave daughters equal inheritance.
+- *Canon:* the customs and tariff recovered; the Formosan administration a Concord affair with a Japanese deputy (PROPOSED); the Huludao trust until its bonds are paid; the 1931 plot stopped.
+
+**P-19. Soldiers.** *Hist.:* about 2 million under arms in 1928 and 2.23 million in 1935 (B9). *Proposal (MODEL):* about 1.7–1.9 million in 1928 and 1.3–1.5 million by 1932. Fewer famine refugees join the armies (S-1), and more men find work in the modern sector and the Manchurian settlement (S-4). The disbandment of 1929 partly works because the recovered customs pay discharged soldiers through the works: railway building, the conservancy and the land offices, under the labour article. The Central Plains war still happens, because it is about power, and Zhang Xueliang still decides it.
+
+**P-20. Extraterritoriality and the concessions.** *Proposal:* the Concord's crowns, Pacifica and Japan together, renounce their consular jurisdiction from 1 January 1930, answering Nanjing's mandate on its own date. For a term of years (proposal: ten) the International Settlement at Shanghai and the Manchurian line's joint-management zone keep mixed courts with foreign assessors. Without Mukden, Britain and the Union sign their treaties in 1932. The concessions follow history (Hankou and Jiujiang in 1927, Weihaiwei in 1930); the Shanghai Settlement and the French Concession remain in 1932; Pacifica keeps only the Tsingtao anchorage (canon). *Alternative:* Pacifica renounces alone and Japan keeps its courts until a treaty of its own, which singles Japan out and gives its officers another grievance.
+
+**P-21. Canton in 1931.** Remittances, the Pacific line and Cantonese film and radio make Guangdong the richest base outside Nanjing's control (B, tradeoff 6). *Proposal:* Pacifica recognises only Nanjing, a party to the Treaty of Nanjing; the customs pay Nanjing; remittances stay untouched and untaxed (S-17). Without Mukden the reconciliation of January 1932 needs another cause, and the 1931 flood and Nanjing's finances supply it: Wang becomes premier and Chiang keeps the army, as in history.
+
+### C8. Questions carried from CR-080 and Parts A and B
+
+**P-22. The cipher question.** The cipher room never reads a partner's traffic (CR-077 D-6: Germany 1914–18 and the Reds and Whites 1918–20 are read, Japan never). *Proposal:* it never reads any Chinese government, before or after China joins the standing alliance in 1922, and it reads no warlord. Pacifica's picture of China comes from the customs returns, the Chinese Pacificans and the open circular telegrams of warlord politics. That is why Feng Yuxiang's coup of October 1924 and the killing of Zhang Zuolin in 1928 (canon: the officers Thalassia does not see coming) surprise it. *Alternative:* read the factions' military traffic in Manchuria in 1918–22 for Siberian security, which breaks the partner rule with Zhang Zuolin.
+
+**Other items, with recommendations (decided with P-22's table below)**
+- **The party station (S-12, B tradeoff 4).** Pacifican transmitters go only to the Ministry of Communications' stations. Nanjing's party station of 1928 is equipped elsewhere, and the state stations carry the party's hour at a published rate, on the Wireless Act's model of 1913, though under tutelage there is no other party to buy time.
+- **Women in the Nationalists' programme and the census.** The programme follows history: equality in the 1924 manifesto, the Women's Bureau, and the Civil Code's equal inheritance. The census of 1931–32 (S-11), set up and run largely by the women operators and order-writers of S-18, prints for the first time county tables of women's literacy (about 5%, S-8), schooling, employment and age at marriage. The Women's Bureau uses them in its demands on the school law of 1932.
+- **Britain's position (A8, tradeoff 6).** Britain keeps Hong Kong, its Yangtze trade, the salt inspectorate of 1913 and the lien on the Mukden–Huludao line (canon). It bears most of the nationalist anger of 1925–27 and turns to treaty revision from 1926–27, as in history. Its retreat after 1927 (canon) makes it give way faster in China, Hong Kong excepted. Pacifica does not bid for British holdings.
+- **Korea's rice and the Yalu.** *Hist.:* Japan's rice imports from Korea grew from 2.79 million koku a year in 1919–23 to 6.65 million in 1929–33 under the rice plan of 1920. In canon Korea is independent, so the rice comes by contract on Japanese credit, and the Korean farmers in Manchuria are Korea's citizens, not Japan's subjects. A dispute like Wanbaoshan (July 1931) becomes a Sino-Korean matter for the guarantors of 1894, and Japan's army loses a pretext. The Yalu crossing and the Antung–Mukden link belong to CR-080 Part E. *Recommendation:* a Chinese line with Japanese transit rights, under the Treaty of Nanjing's transit guarantee like the Harbin line.
+- **The south as a rival base** is P-21; the treaty ports are P-20.
+- **Mongolia and Tibet.** Mongolia is canon's (Chinese suzerainty under its own government, 1921); its government after the Bogd Khan's death in 1924 stays OPEN. Tibet follows history and is outside this CR.
+
+### C9. Decisions for Part C
+
+| # | Decision | Recommendation |
+|---|---|---|
+| P-1 | The partner before 1894 | Li Hongzhang's Beiyang administration and Sheng's enterprises; the mission's men in their offices |
+| P-2 | The fleet credit of 1885 | Lent in money; no Pacifican-built warships or Pacifican officers in Chinese warships; the mission's naval men to the merchant line |
+| P-3 | The reformers in exile | Asylum and freedom to organise for Kang, Liang and Sun's men; no arms or credit for risings; both parties grow among the Chinese Pacificans |
+| P-4 | The fall of the Qing | As history: the princes' cabinet and the Sichuan railway; Pacifica outside the Huguang consortium; the mission's men divided |
+| P-5 | The customs in 1911–12 | Fong as trustee for the loan service; the surplus to the recognised government; Pacifica recognises the Republic on the abdication |
+| P-6 | The Reorganisation Loan | Pacifica stays out and says why; Britain leads and runs the salt inspectorate; Japan takes its share |
+| P-7 | Tang Shaoyi | Added to the cast: the Revenue Council (1906), premier (1912), the Zhongshan model county (1929) as the showcase of S-5, S-6 and S-7 |
+| P-8 | The Twenty-One Demands | Only commercial rights along the Manchurian line and the Daye contract; no fifth group, no ultimatum, no 9 May |
+| P-9 | Who signs for China | Peking signs, with Canton in China's delegation at The Hague; Xu Shichang's government signs at Harbin; the alliance passes to Nanjing |
+| P-10 | No May Fourth outrage | The students turn on the Anfu loans and the treaty system, Fong's customs included; boycotts of Japan in 1915 and 1928 short, none in 1919 or 1931 |
+| P-11 | The federalists | No political support; works contracts with provinces that publish accounts, which favours Hunan and Guangdong |
+| P-12 | The Canton customs, 1923 | A published works account for the southern ports' surplus, paid to contractors; no warships |
+| P-13 | Chiang's mission of 1923 | To Pacifica instead of Moscow |
+| P-14 | The Nationalists' model | Examined cadres, published accounts, own wire; tutelage without elections; Whampoa's instructors Pacifican-trained Chinese under private contract; Pacifican money indirect |
+| P-15 | Labour in 1925 | May Thirtieth and the Canton–Hong Kong strike led by the Nationalists' labour bureau and the seamen's union; aimed at Britain and the Japanese mills |
+| P-16 | The split of 1927 | Over land and labour, without a massacre; Wuhan rejoins Nanjing |
+| P-17 | Land | No condition on Nanjing's land law; conditions in the works contracts district by district (S-6) |
+| P-18 | Mao | Nationalist from the start; the peasant work of 1925–27; the Hunan register 1928–31; in 1932 head of the peasant department and on the Central Executive Committee, not yet a successor |
+| P-19 | Soldiers | About 1.7–1.9 million in 1928, 1.3–1.5 million by 1932 (MODEL); demobilisation through the works; the Central Plains war still fought |
+| P-20 | Extraterritoriality | Pacifica and Japan renounce together from 1 January 1930, with mixed courts for ten years at Shanghai and in the railway zone; Britain and the Union sign in 1932 |
+| P-21 | Canton in 1931 | Recognition of Nanjing only; remittances untouched; Wang and Chiang reconcile in January 1932 for internal reasons |
+| P-22 | The cipher question | No Chinese government and no warlord read at any time; open sources only |
+| — | The party station, women and the census, Britain, Korea's rice and the Yalu, Mongolia and Tibet | As in C8 |
+
+**Tradeoffs that cannot be avoided**
+1. **Neutral revenue and the chosen leader.** The trusteeship that protects Pacifica's savers (P-5) pays Yuan in 1912–16 and Peking's factions until 1928, while Julian backs Sun. Canon's criticism of Julian's bargains starts here.
+2. **Staying out of the 1913 loan.** It keeps Pacifica's hands clean and gives Britain the salt and Japan a creditor's place with Yuan.
+3. **The students' target.** Without Shandong, nationalism turns on the treaty system, and Fong's customs is part of it. Pacifica becomes a target before Japan does, and the recovery of 1928–29 is its answer.
+4. **A party that publishes its accounts and has no voters.** The Prosperity Party model gives the Nationalists discipline and credit, and the open ballot that Pacifica made its own in 1911 is the part they refuse. Pacifica's example is a standing reproach to tutelage.
+5. **Works contracts as politics.** Conditions district by district (P-11, P-17) reward the provinces and districts that accept them, so Pacifica's money takes sides in the provinces without saying so.
+6. **Land.** The 1927 split and Mao's career both come from the rent question, and enforcing it only in the works districts leaves the rest of China to the landlords and Mao his issue.
+7. **Extraterritoriality.** Renouncing with Japan costs Japan its consular courts outside the railway zone and adds to its officers' grievances. Holding out with Japan would keep China's main grievance against both crowns.
+8. **The cipher rule.** Reading no Chinese government keeps faith with an ally and leaves Pacifica blind to coups, as canon already has it in 1928.
+9. **Britain.** Most of the political cost of a nationalist China aligned with Pacifica falls on Britain: the customs, the 1925 boycott, the concessions. Britain's retreat after 1927 in canon absorbs it, but London keeps the record (as it does at Tomsk, CR-044).
+10. **Canton.** Pacifica's remittances, line and films build the south that challenges Nanjing in 1931 (B, tradeoff 6), and recognising only Nanjing limits what it can do there.
+
+**Sources outside the four books (Part C), checked 20 November 2026**
+- Educational Mission and its men: Wikipedia, *Tang Shaoyi*, *Liang Cheng*, *Liang Dunyan*, *Zhan Tianyou*, *Boxer Indemnity Scholarship*; Phillips Academy, *Chinese students at Andover: Liang Cheng*; FRUS 1908 (the indemnity remission).
+- Reformers and revolutionaries abroad: Wikipedia, *Chinese Empire Reform Association* and *Revive China Society*; Hong Kong government photo archive (Xingzhonghui, Honolulu, 24 November 1894); University of Hawaiʻi ScholarSpace.
+- The Revenue Council of 1906: FRUS 1906 (Rockhill's dispatches); Hansard, Lords, 28 May 1906; *The Spectator*, 19 May 1906.
+- Late Qing reforms: Wikipedia, *1909 Chinese provincial elections*, *Advisory Council (Qing dynasty)*, *Cabinet of Prince Qing*; Chinese Culture (chiculture.org.hk) on the 1911 cabinet.
+- 1911: Wikipedia, *Railway Protection Movement*, *Wuchang Uprising*; Toyo Bunko, Ichiko Chūzō on the Sichuan movement.
+- Customs trusteeship: FRUS 1913 and 1915 (the bankers' commission of 30 January 1912); FRUS 1926; Wikipedia, *Francis Aglen*.
+- 1912–16: Wikipedia, *Reorganisation loan affair*, *Second Revolution*, *China Consortium*, *National Protection War*; Cambridge, *Modern Asian Studies* on British policy and the loan; Wilson's statement of 18 March 1913 (Teaching American History); FRUS 1913; Papers Past (March 1913).
+- 1916–23: Wikipedia, *Xu Shichang*, *Zhang Xun*, *China during World War I*, *Chinese Labour Corps*, *Zhili–Anhui War*, *First Zhili–Fengtian War*, *1924 Beijing Coup*, *Hunan Provincial Constitution*, *Chen Jiongming*; Cambridge on Chinese federalism; Guoqi Xu, *Strangers on the Western Front* (review, Project MUSE).
+- Canton customs, 1923: FRUS 1923 (vol. 1, the naval demonstration at Canton); Papers Past (December 1923).
+- Boycotts: Karl Gerth, "Consumption as resistance" (DIJ Tokyo), citing Remer, *A Study of Chinese Boycotts* (1933).
+- 1923–28: Eugene Wu on Chiang's mission to Moscow (Project MUSE); Wikipedia, *1st National Congress of the Kuomintang*, *Whampoa Military Academy*, *Canton–Hong Kong strike*, *Shakee Massacre*, *Northern Expedition*, *1928 in China*; Britannica, *Mao Zedong*; Wikipedia, *Peasant Movement Training Institute*; Guangzhou education bureau on Mao's propaganda post; Hansard 1927 and the Hong Kong record on the Hankou and Jiujiang agreements; Chinese Culture on the flag change of 1928.
+- 1928–32: FRUS 1929 (the disbandment conferences); Wikipedia, *Central Plains War*; FRUS 1929–31 and Hansard (extraterritoriality); Hansard 1930 and Papers Past (Weihaiwei); *American Political Science Review* (1931) on the convention and constitution; Wang Ke-wen on Hu Hanmin; Cambridge, *Modern Asian Studies*, on the Wang–Chiang cooperation; Wikipedia, *Wang Jingwei*.
+- Women: Papers Past (1929 and 1932) on the inheritance principle and the Civil Code; Simonian (Toulouse) on the Civil Code; Taiwan Today on the 1924 platform; Ma, *Studies on Asia*, on the Central Women's Bureau.
+- Zhongshan model county: Viana, *International Journal of Asian Studies* (2015); Zhongshan government history pages; China Daily (Zhuhai).
+- Korea's rice: *Japanese Research in Business History* 39 (2022); Keio discussion paper 198.
+- Not confirmed and not used as facts: the reasons for the mission's recall beyond "too Americanised"; Zhan Tianyou's part in the inter-Allied railway board of 1919; the share of women among the 1931 convention's delegates; the makers of Nanjing's transmitters.
 
 ## Canon tensions
 
@@ -353,7 +565,8 @@ None yet. Part A's proposals stay inside canon. The ones to watch are:
 - Kaiping's refinancing in 1900–01 by Hoover (a Pacifican in canon; history's Kaiping engineer from 1899), which canon does not mention;
 - Fushun's ownership;
 - an end date for the Formosan administration after 1932 (no tension if it falls after 1932);
-- whether canon's §14 and §16 inputs (PROPOSED) are approved with this CR.
+- whether canon's §14 and §16 inputs (PROPOSED) are approved with this CR;
+- Part C's watch items, none a conflict with canon: Chiang's mission of 1923 to Pacifica (P-13); the works account for the Canton customs (P-12), which canon does not mention; the Concord's renunciation of extraterritoriality in 1930 (P-20), which canon neither states nor excludes; Tang Shaoyi as a new cast member (P-7); canon's "Pacifica funds Sun in Canton" read as indirect money (P-14).
 
 ## Fact changes
 
