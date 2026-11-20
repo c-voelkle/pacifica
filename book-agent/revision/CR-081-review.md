@@ -91,3 +91,7 @@ It is also Japan's cheapest win: Taiwan historically supplied most of Japan's su
 - A5 calls Maddison's 1850–70 fall "dramatic". It was about a tenth per head.
 - A3's "Canon's lines" mixes approved lines (Harbin–Mukden) with PROPOSED ones (the 1896 credit for the Hankow–Canton trunk).
 - "Canon tensions: none yet" should at least list Formosa's exit and Benxi.
+
+## Author's decision and fact check (20 November 2026)
+
+The author approved all corrections. The facts the reviewer drew from general knowledge were checked against outside sources before use; the results and sources are in `CR-081-A-series.md` section 10. Japan's electricity per head about 1932 and the start of Jiangxi's tungsten were not confirmed and are not used. The reviewer's "Huachang (1908)" is the same company as the sources' Wah Chang Mining and Smelting Company (華昌).

@@ -20,6 +20,8 @@ Currencies: Haikwan taels (customs), Kuping taels (treasury), Shanghai taels (co
 | 1933 | about 500 million | CE 95, 98 |
 | 1953 | about 580 million (census 585 million) | CE 93, 95 |
 
+**GDP in 1933, in 1933 yuan (Liu and Yeh; CE 95, Table 24):** gross domestic product 29.88 billion, net 28.26 billion. Net value added by factories 0.64 billion, mining 0.21, utilities 0.13 and modern transport and communications 0.43: the modern sector so defined is 1.41 billion, about 4.7% of GDP. Agriculture is 18.76 billion.
+
 **GDP (Perkins, in 1957 yuan; CE 98, Table 25)**
 
 | | 1914–18 | 1933 | 1952 |
@@ -49,7 +51,7 @@ Perkins sees no clear trend in output per person 1912–33; Rawski sees about a 
 |---|---|---|---|
 | Chinese-owned, China proper | 1,771.4 | 67% | 783.2 |
 | Foreign-owned, China proper | 497.4 | 19% | 163.1 |
-| Manchuria (mostly Japanese) | 376.7 | 14% | 129.5 |
+| Manchuria (ownership not given in the table) | 376.7 | 14% | 129.5 |
 | Total | 2,645.4 | | 1,075.8 |
 
 Textiles were 934 million of it and food 634 million; producers' goods only 499 million (CE 99).
@@ -103,12 +105,12 @@ China had a consumer-goods industry of Japan's order and almost no heavy industr
 
 **Kaiping**
 - Founded 1877–78 to fuel the arsenals and the China Merchants' steamers (FS 2).
-- Passed under foreign control (the 1900 transfer to the Anglo-Belgian company), unlike the other official enterprises, which passed to Chinese private investors (CE 48).
+- Passed under foreign control, unlike the other official enterprises, which passed to Chinese private investors (CE 48). The transfer was to the Anglo-Belgian Chinese Engineering and Mining Company in 1900–01, with Herbert Hoover as the engineer who arranged it (section 10).
 - Merged in 1912 with a rival Chinese firm to form the Kailan Mining Administration (R 309).
 - At Kailan, 1920–36, wages came to 55% of cumulative profits for the whole enterprise (R 308).
 
 **Hanyang and Hanyeping**
-- Hanyang ironworks, Zhang Zhidong, 1890 (CE 45); it began production several years before Japan's Yawata works (R 68).
+- Zhang Zhidong's Hanyang ironworks (CE 45 gives no date for the ironworks; its 1890 date is the Hanyang arsenal's). The Hanyang–Daye works began production in 1894 (CE 49), several years before Japan's Yawata works (R 68).
 - Sheng took it over in 1896 with the Daye iron mines; the Pingxiang coal mines followed in 1898 (FS 9).
 - Joined in 1908 as the Han-Yeh-Ping Coal and Iron Corporation, authorized capital $20 million (about 14 million taels); the China Merchants' company held 1,019,000 taels of its shares (FS 182).
 - Unable to repay its Japanese loans, it fell deeper into debt to the lenders, which became the pretext for the Hanyeping clause of the Twenty-One Demands (CE 82).
@@ -153,7 +155,7 @@ The Treaty of Shimonoseki (Article VI) first allowed foreign manufacturing in th
 | 1919 | 11,199 | 7,300 | 4,080 |
 | 1924 | 12,691 | 10,000 | 5,280 |
 | 1933 | 15,807 | 12,800 | 7,110 |
-| 1936 | 20,746 | 14,600 | — |
+| 1936 | 20,746 | 14,600 (estimated from 1933) | — |
 
 New line per year: 512 km in 1895–1913, 298 km in 1913–27, 763 km in 1928–37 (R 209).
 
@@ -173,7 +175,7 @@ Cost: 7,339 miles built 1894–1914, outside the Chinese Eastern Railway; at the
 | 1915 | 1,559 | 193 | 33,195 |
 | 1924 | 2,734 | 446 | 47,992 |
 | 1930 | 2,792 | 415 | 53,213 |
-| 1935 | 3,895 | 675 | 52,418 |
+| 1935 | 3,895 (excluding Manchuria) | 675 (excluding Manchuria) | 52,418 |
 
 **The China Merchants' Steam Navigation Company against Japan's NYK (FS 182–85, Tables 17–18)**
 
@@ -288,18 +290,49 @@ Huang-Yun is the inland region of western Shandong and the adjacent parts of Zhi
 
 ## 9. What the series change in the outline
 
-1. **Railways (A3).** History: 9,618 km before 1912, about 13,000 km by 1927, 20,746 km of track by 1936. The proposal of 11,000–12,000 km by 1911 needs about 650 km a year from 1895, the pace history reached only in 1928–37 (763 km); credible with early credit. The proposal of 18,000–20,000 km by 1928 is history's 1936 total eight years early, about 1.4–1.5 times history's 1928. It needs about 440 km a year in 1912–28 against history's 298. *Recommendation:* keep both, and note that in canon the Manchurian lines are Chinese-owned, so the ownership changes even where the kilometres do not.
-2. **Coal (A2).** Modern mines were 93% foreign in 1913 and still 78% in 1928. Kaiping kept Chinese and Fushun Chinese would by themselves carry the Chinese share above half. *Recommendation:* keep the proposal; state it as "about 55–65% Chinese-owned by 1928, against 22%".
-3. **Iron (A2, decision 6).** Hanyang started before Yawata but made iron at more than twice Benxi's cost; its Japanese debts became the Twenty-One Demands' clause. In Pacifica the question is less who lends than who fixes the costs (coke, ore haul, management). A Pacifican lender would be a Japanese partner's competitor in Hubei; this belongs to CR-080's partner terms as much as to China.
-4. **Cotton (A4).** History is already a fast-growing Chinese-owned industry (71% of yarn in 1933). The divergence is in looms and cloth, where foreign mills kept about 60%. Canon gives Japan textiles in the Concord's annex; China is not a party. *Question for the author:* do Japanese mills in China grow as in history (their share is the main foreign share in 1936)?
-5. **Electricity (A4).** Foreign utilities held 77% of output in 1923 and 55% in 1936; output grew 14% a year. The proposal of three to five times history's consumption per person needs about 21–24% a year from 1914, which Pacifica's own record (CR-052) makes credible only in the treaty ports and Manchuria.
-6. **Output per person (A5, decision 8).** The modern sector was 2.7% of GDP in 1914–18 and 7.4% in 1933. Doubling it adds only about 7% to GDP. A gain of 10–20% per person by 1932 therefore needs agriculture and the hinterland: famine relief and railways (Part B), fertilizer (canon, from 1929, late), and above all the waterworks. Pomeranz's loss in Huang-Yun alone is a tenth to a fifth of its farm output. *Recommendation:* lower the proposal to 5–10% above Rawski's path, unless Pacifican credit also keeps the Grand Canal and the Yellow River works (new decision 10).
-7. **The state's money (A5).** In the early 1890s the customs were a quarter of the centre's revenue, and railways got half a per cent of its spending. A Pacifican loan secured on the customs is the largest lever canon has. The question is what it pays for: the 1890s budget shows the fleets taking twenty times what railways took.
-8. **Foreign capital.** Russia held 31% of foreign investment in 1902, mostly the Chinese Eastern Railway, and Japan 40% by 1936. In canon both shares change: the Manchurian railway is Chinese on Pacifican credit, and Japan is Pacifica's partner. A Pacifican share near Britain's (a third) by 1914 is the natural figure (MODEL, to be decided with CR-080).
-9. **The China Merchants' company.** History's company stopped growing in 1877, sailed with foreign officers only and gave up its Honolulu and San Francisco voyages of 1880–81. In canon its steamers run on Pacifican engineering (§14) and the Educational Mission keeps its naval places. This makes a Chinese Pacific line possible: Shanghai–Honolulu–San Francisco from 1880, officered from the mission's naval graduates by the 1890s. It would carry the Chinese of Hawaii and California, and their remittances. (New decision 9.)
-10. **Telegraph.** About 54,000 km of line by 1902 (Administration and provincial) and 62,000 km in 1912. The divergence is not length but use: inland telegrams stayed at 2–4 million a year. The terminals and code are CR-080 Part C's.
+Revised on 20 November 2026 after the fresh-context review (`CR-081-review.md`). The outline's A8 carries the resulting recommendations.
+
+1. **Railways.** History built 9,253 km in 1895–1911, 544 km a year (CE 151). The proposal of 11,000–12,000 km by 1911 is 1.2–1.3 times that pace and credible with early credit. History then slowed for political reasons (298 km a year in 1913–27). The revised path is about 14,000–15,000 km by 1927 and 16,000–17,000 km by 1932. In canon the Manchurian lines are Chinese-owned, which changes ownership rather than kilometres: Rawski's track figures already include them.
+2. **Coal.** Modern mines were 93% foreign-controlled in 1913 and 78% in 1928 (CE 119). Kaiping/Kailan and Fushun were the two largest foreign-controlled producers. With both Chinese, the Chinese-owned share comes to roughly 70–85% by 1928. Keelung's coal is outside these series and is reported separately in canon's Formosan administration.
+3. **Iron.** Hanyang started before Yawata but its iron cost more than twice Benxi's (Ch.$48.50 a ton in 1919 against Ch.$22.00 in 1915). Feuerwerker puts the gap down to slow progress on the Canton–Hankow line and the long river haul of coke, not to prices (CE 147). Coke made at Benxi cost Ch.$5.74 a ton; at Hanyang, brought from Pingxiang by river, it cost Ch.$24.54. That points Pacifican credit at coke and haulage.
+4. **Cotton.** Chinese-owned mills made 71% of the yarn in 1933 but only 39% of the cloth.
+5. **Electricity.** Foreign utilities held 77% of output in 1923 and 55% in 1936; output grew 14% a year. History's 4 kWh a head in 1936 implies about 2.4 kWh in 1932. Two to three times that is about 5–7 kWh a head.
+6. **Output per person.** In 1933 prices the modern sector was about 4.7% of GDP (Liu and Yeh, CE 95). Doubling it adds about 5%. Pomeranz's losses in Huang-Yun, 48–100 million yuan a year, are 0.2–0.3% of China's GDP of 29.88 billion; the waterworks matter for floods and famine, not for national output. A gain of 5–10% above Rawski's path needs the modern sector at about twice history's and one to three points from agriculture. Rawski's path is itself about a quarter above Perkins's flat path over 1912–33.
+7. **The state's money.** In the early 1890s the customs were a quarter of the centre's revenue, railways got half a million taels of its spending and the two fleets ten million (CE 76).
+8. **Foreign capital.** Russia held 31% of foreign investment in 1902, mostly the Chinese Eastern Railway, and Japan 40% by 1936; Britain held 33–38% throughout (CE 174). In canon Russia's and Japan's shares change; Britain's position becomes a question.
+9. **The China Merchants' company.** History's company stopped growing in 1877, had no Chinese officers in 1885 and gave up its Honolulu and San Francisco voyages of 1880–81 (FS 183–84).
+10. **Telegraph.** About 54,000 km of line in 1902 (Administration and provincial) and 62,000 km in 1912; inland telegrams stayed at 2–4 million a year.
+
+## 10. Facts checked outside the four books (20 November 2026)
+
+The review raised facts the four books do not carry. Each was checked against the source given.
+
+| Fact | Source |
+|---|---|
+| China's 1933 GDP 29.88 billion yuan (Liu and Yeh) | CE 95, Table 24 |
+| Mid-1930s output per person, PPP: Japan 31% and China 10% of the United States level, so China about a third of Japan | Fukao, Ma and Yuan, Hitotsubashi discussion paper D05-132 |
+| Atolia, California: tungsten found 1904–05, the world's largest producer during the First World War | Wikipedia, *Atolia, California*; Western Mining History |
+| Pine Creek, California: tungsten found April 1916 | historical marker text (HMDB); OneMine |
+| Sangdong, Korea: tungsten found April 1916 | Wikipedia, *Sangdong mine* |
+| Formosa: Qing provincial authorities hired two American drillers at Chuhuangkeng in the late 1870s (1877) | Taipei Times, 28 May 2021; Wikipedia, *Mining in Taiwan* |
+| Yanchang, Shaanxi: the mainland's first oil well, 1907 | Wikipedia, *Shaanxi Yanchang Petroleum* |
+| Tōyō Kisen Kaisha: Hong Kong–Shanghai–Japan–Honolulu–San Francisco sailings advertised from late 1898 | *Hongkong Telegraph*, December 1898 (HK in texts) |
+| Hunan antimony: the Tai Shing company under the Hunan Bureau of Mines, 1897; the Wah Chang (Huachang) Mining and Smelting Company, 1908, with a refinery at Changsha; Hunan's regulus exports from 3 tons (1908) to about 6,000 (1915) | 911 Metallurgist, *Antimony Smelting* |
+| K. C. Li (Li Guoqing): born at Changsha, 1892; Royal School of Mines; secretary of the Hunan Mining Board; founder of the Wah Chang Trading Corporation in New York, 1916 | Prabook; Wikipedia, *Wah Chang Corporation* |
+| Kemmerer commission: its project for a gradual gold standard for China, submitted 11 November 1929, published March 1930 | CRL catalogue; *Waikato Times*, 31 March 1930 |
+| Silver: gold–silver ratio 39.15 in 1902 (about 16 in the early 1870s); London silver at a record low in November 1902 | US Statistical Abstract (FRASER); *Money and Investments* (1907) |
+| Kaiping: Hoover chief engineer from March 1899; the mines passed to the Anglo-Belgian Chinese Engineering and Mining Company in 1900–01; Kailan formed with the Luanzhou company in 1912 | Hoover Presidential Library; Wikipedia, *Kaiping Mines* |
+| Hanyeping: Japanese funds lent against Daye ore from 1904 | IDE (JETRO) working paper on Malayan iron ore |
+| Nishihara loans: eight loans, 145 million yen, to Duan Qirui, January 1917–September 1918 | Wikipedia, *Nishihara Loans*; Schiltz (MPRA 7100) |
+| Shandong, 1922: the railway transferred to China against 15-year treasury notes, with a Japanese traffic manager and accountant until repaid; the German mines to a company under special charter | FRUS 1922, vol. 1, doc. 792; worldjpn.net |
+| Shanghai: the Settlement's electricity department sold in April 1929 for 81 million taels to American and Foreign Power (the Shanghai Power Company) | FRUS 1929, vol. 2; Hansard, 17 July 1929 |
+| Formosa under Japan supplied about 42% of Japan's crude sugar | Wikipedia, *Agriculture in the Empire of Japan* |
+
+Not confirmed and not used: Japan's electricity per head about 1932; the exact date Jiangxi's tungsten began to be worked.
 
 ## Sources
+
+Section 10 lists the sources outside the four books.
 
 - Feuerwerker, *The Chinese Economy, 1870–1949* (University of Michigan Center for Chinese Studies, 1995); pages as cited.
 - Feuerwerker, *China's Early Industrialization* (Harvard, 1958); pages as cited.
