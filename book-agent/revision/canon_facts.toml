@@ -387,7 +387,8 @@ source = "CR-048"
 id = "CT-CHARLES-PEIRCE"
 aliases = ["Charles Sanders Peirce", "Charles Peirce", "Peirce"]
 born = 1839
-source = "CR-049"
+died = 1914
+source = "CR-049; CR-077"
 
 [[person]]
 id = "CT-KATE-BRANDEGEE"
@@ -1414,3 +1415,64 @@ id = "korea-capitulation"
 year = 1888
 patterns = ['''In (?P<year>1[89]\d\d) Korea becomes the first partner to sign a treaty of service''']
 source = "CR-074"
+
+[[person]]
+id = "CT-LEONARD-FULLER"
+aliases = ["Leonard Fuller", "Leonard F. Fuller", "Fuller"]
+born = 1890
+source = "CR-077"
+
+[[person]]
+id = "CT-SOPHIA-LEVY"
+aliases = ["Sophia Levy", "Sophia Hazel Levy", "Levy"]
+born = 1888
+source = "CR-077"
+
+[[person]]
+id = "CT-LESLIE-COMRIE"
+aliases = ["Leslie Comrie", "L. J. Comrie", "Comrie"]
+born = 1893
+source = "CR-077"
+
+[[person]]
+id = "CT-CARL-GUSTAF-ROSSBY"
+aliases = ["Carl-Gustaf Rossby", "Rossby"]
+born = 1898
+source = "CR-077"
+
+[[person]]
+id = "CT-PHILO-FARNSWORTH"
+aliases = ["Philo Farnsworth", "Farnsworth"]
+born = 1906
+source = "CR-077"
+
+[[person]]
+id = "CT-EDWARD-HEBERN"
+aliases = ["Edward Hebern", "Hebern"]
+born = 1869
+source = "CR-077"
+
+[[person]]
+id = "CT-HERMAN-HOLLERITH"
+aliases = ["Herman Hollerith", "Hollerith"]
+born = 1860
+died = 1929
+source = "CR-077"
+
+[[person]]
+id = "CT-JOHN-VON-NEUMANN"
+aliases = ["John von Neumann", "von Neumann"]
+born = 1903
+source = "CR-077"
+
+[[event]]
+id = "carquinez-electronic-calculator"
+year = 1921
+patterns = ['''Carquinez machine runs in (?P<year>1[89]\d\d)''', '''Fuller builds it at Carquinez[^.;]{0,200}\. It runs from the spring of (?P<year>1[89]\d\d)''']
+source = "CR-077"
+
+[[event]]
+id = "first-stored-program-machine"
+year = 1928
+patterns = ['''(?:first|earliest) stored-program machine[^.;]{0,60}(?:runs|in service|enters service)[^.;]{0,30}(?P<year>1[89]\d\d)''', '''In (?P<year>1[89]\d\d)[^.;]{0,60}first stored-program machine''']
+source = "CR-077"
