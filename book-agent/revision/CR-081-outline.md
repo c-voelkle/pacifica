@@ -127,6 +127,40 @@ The Chinese telegraph code (1871), characters on the Customs' cards (CR-080 C3),
 9. The China Merchants' Pacific line from 1880.
 10. The hinterland: does Pacifican credit keep the Grand Canal and the Yellow River works after 1891 and 1901–02? Pomeranz puts the loss from their abandonment at a tenth to a fifth of Huang-Yun's farm output.
 
+### A8. The 1932 target and the decisions measured against it (proposal)
+
+**The author's aim (20 November 2026):** a strong, successful China aligned with Pacifica, at minimal cost to Japan.
+
+**The target in 1932 (MODEL where numeric)**
+- China is solvent and governed: the customs and tariff recovered (canon, 1928–29), its railways, mines and utilities mostly Chinese-owned, and its debt serviced.
+- China is still poor beside Japan. Output per person stays about a third of Japan's. Its strength is fiscal and administrative, not wealth. This is what lets Japan's army live with it.
+- Pacifica lends, trains, sets the standards and buys strategic metals; China owns; Japan sells manufactures and buys coal, ore and food under long contracts.
+- Alignment rests on interest (credit, the diaspora, the scholars, the standards, Pacifica's guarantee against Russia), never on Pacifican ownership. History's rights-recovery movement and the railway protection movement of 1911 show what foreign ownership provokes.
+
+**What canon already settles about Japan's cost:** Manchuria, Dalian and Port Arthur stay Chinese (CR-042); Shandong returns to China, Pacifica keeps the Tsingtao anchorage on lease (PROPOSED); Victoria blocks the worst of the Twenty-One Demands (CR-040, PROPOSED). Japan's compensation is the Ussuri region, Urajio, Karafuto, Korea's economic predominance and the Concord. CR-081 should add no further loss to Japan in China; it should turn Japan's remaining interests into contracts.
+
+| # | Decision | Recommendation under the aim | Pacifica | China | Japan |
+|---|---|---|---|---|---|
+| 1 | Method and script | Yes; `population/china.py` with history and four levers (railways, coal ownership, power, waterworks) | numbers in one place | — | — |
+| 2 | Coal | Kaiping and Fushun stay Chinese; about 55–65% of modern output Chinese-owned by 1928; Benxi stays Sino-Japanese; Fushun and Kailan sell to Japan on long contracts | credit and engineering repaid | owns its fuel | its coal without owning mines |
+| 3 | Tungsten and antimony | Found early (1905–10), Chinese-owned and refined in China (Hunan's own antimony company), sold under long offtake contracts to Pacifica and Japan, not a Pacifican monopoly | secure supply for valves, lamps, tool steel | two inland provinces grow rich | Japan's lamp and radio makers (the annex) are supplied too |
+| 4 | Railways | 11,000–12,000 km by 1911, 18,000–20,000 km by 1928, Chinese state lines on Pacifican credit secured on the customs; equipment ordered from both partners | the largest market for rails, locomotives and signals | unity and grain movement | locomotive and car orders |
+| 5 | Electricity | Lower to about 2–3 times history's use per person by 1932, with about 5 times in Shanghai, Huludao and the Manchurian cities; Chinese municipal and provincial utilities | heavy current (canon's annex) | power for its mills | light current: lamps, radios, meters |
+| 6 | Hanyeping | In 1915, when Victoria blocks the Hanyeping clause, the bargain is a Pacifican refinancing of the Japanese ore loans plus a long Daye ore contract to Yawata at market prices; Pacifican engineers fix coke and haulage; Hanyang makes China's rails | a bank's return, and the Twenty-One Demands defused | keeps its steel works | keeps its ore without the clause |
+| 7 | Technical class and Chinese Pacificans | A few thousand Pacifican-trained engineers and officials by 1911, tens of thousands by 1930; Japan keeps training China's lawyers, doctors and officers as in history; the Chinese-Pacifican population set by the population model with no exclusion (expectation about 2–3% of residents, MODEL) | the alignment's carriers | its modern cadres | its own Chinese alumni, kept |
+| 8 | Output per person | 10–15% above Rawski's path by 1932, conditional on decision 10 | a larger customer | the gain | a larger market |
+| 9 | The China Merchants' Pacific line | Yes: Shanghai–Honolulu–San Francisco from 1880, officered by the mission's naval graduates by the 1890s; Hawaii keeps its own entry rules | trans-Pacific trade and remittances | a merchant marine | competition for the NYK on one route only |
+| 10 | The hinterland's waterworks | Yes, from 1902: when the Qing ends the grain tribute after the Boxer settlement, part of the indemnity and the customs surplus funds a Yellow River and Grand Canal conservancy under a Chinese board with Pacifican engineers | the strongest proof that the alignment pays the poor | a tenth to a fifth more output in Huang-Yun, fewer floods and famines | none |
+
+**Tradeoffs that cannot be avoided**
+1. **Cotton.** China's own mills and Japan's mills in China cannot both grow as in history. With tariff autonomy from 1928, Chinese mills win cloth as well as yarn; Japanese mill owners lose. The softening is that Japan's mills move up into rayon and light current, which the annex already gives them.
+2. **Strength against alignment.** The stronger China is, the less it needs Pacifica. Alignment must be earned year by year in credit, scholars and fair contracts; Pacifica must accept every rights-recovery step, as canon already does with the customs.
+3. **Speed against debt.** Railways and waterworks on credit secured on the customs build faster and load the customs. History's railway loans set off the revolution of 1911. The faster the build, the stronger the nationalist backlash against the lender.
+4. **Strategic metals.** Pacifica's security wants tungsten for itself; Japan's partnership and China's sovereignty want an open market. Shared contracts cost Pacifica a monopoly it could have had.
+5. **The Japanese army.** A unified China removes the chaos that historically drew Japan's army in, but its army will read China's strength as a threat. This feeds canon's May 1932 coup plot rather than removing it.
+6. **Hawaii.** A Chinese Pacific line and a growing Chinese-Pacifican population touch the Hawaiian crown's concern for its own people. Hawaii must keep control of its entry rules, and the story must not become about one diaspora (CR-037).
+7. **Coast against interior.** Pacifican credit earns returns on the coast; the waterworks earn none in cash. Decision 10 has to be paid from the indemnity and the customs, money that could otherwise build more railways.
+
 ## B. The socioeconomic layer (sketch)
 
 - **Famines:** North China in 1876–79 (with canon's relief), 1920–21 and 1928–30. Do railways and relief lower the deaths?
