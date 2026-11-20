@@ -162,7 +162,7 @@ Every date is PROPOSED. An asterisk (\*) marks a story-relevant date; the rest a
 | 4 | The dates marked \* in §4 are working dates for the CRs to test. |
 | 5 | The Guam route and regular broadcasting are set first (§9). |
 
-## 9. The two first dates (PROPOSED for the author's approval)
+## 9. The two first dates (APPROVED, author, 20 November 2026, 08:36)
 
 ### A8. The southern wire to Japan: 1889–1892
 
@@ -241,3 +241,7 @@ Birth dates bind the people. They do not bind the inventions, since others can m
 6. **Model.** Japan's growth and the partners' purchases may need workbook rows. That is the author's choice, as CR-077 D-14 was.
 
 **Order of work:** integrate CR-077 first, then CR-078 Wire and air, then CR-079 Picture and sound and the partners' CR. CR-079 and the partners' CR could also be drafted side by side, because the partners' CR depends on CR-078's fax and radio.
+
+> I approve those dates. Let's start with wire and air. (20 November 2026, 08:36)
+
+The southern wire (1889–1892) and regular broadcasting (1912) are approved as proposed in §9; CR-078 builds on them.
