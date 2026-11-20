@@ -1,6 +1,6 @@
 # The electric century: a plan for CR-077's knock-on technologies (1877–1932)
 
-*Planning note for the author, 20 November 2026. Nothing here is canon. Every Pacifican date is PROPOSED. A historical date is given beside each for comparison (Hist.).*
+*Planning note for the author, 20 November 2026. Nothing here is canon. Every Pacifican date is PROPOSED unless §8 records the author's decision. A historical date is given beside each for comparison (Hist.).*
 
 ## 1. Why a plan first
 
@@ -19,9 +19,9 @@ This note draws the whole tree once. It sets the rules for dating and proposes h
 
 ## 2. The rules
 
-1. **Parts, need and people (CR-077's rule).** A technology comes early only when three things are true: its parts exist in canon, someone in Pacifica needs it, and someone historical who could have built it is in Pacifica. If any one is missing, it keeps its historical date.
+1. **Parts, need and people (CR-077's rule).** A technology comes early only when three things are true: its parts exist in canon, someone needs it, and someone historical who could have built it has the parts in hand. If any one is missing, it keeps its historical date. *Amended (§8):* the need and the people may be in a partner country as well as in Pacifica. Open licensing (CR-057), Pacifican credit and the Concord put Pacifican parts in partners' hands. A partner's invention can therefore come early in its own country, and a Pacifican invention can find a larger market abroad than at home.
 2. **The story filter.** A date goes into the storyline only if it changes the plot, the society or the picture of 1932. Everything else goes into one background table and stays off the page.
-3. **No new estates or seats.** The Five stay five (CR-077 D-4). Each technology belongs to an existing body:
+3. **No new estates or seats.** The Five stay five (CR-077 D-4). Inside the Realm, each technology belongs to an existing body; abroad, it belongs to the partner's own institutions:
    - the telegraph estate under the Polytechnic (wire and cable);
    - Tesla's and then Ryan's power estate (equipment and wireless);
    - the press seat (pictures and sound);
@@ -149,3 +149,95 @@ Every date is PROPOSED. An asterisk (\*) marks a story-relevant date; the rest a
 3. **The roads not taken (§5):** R1–R5 in, R6–R8 as options, R9 out.
 4. **The story-relevant dates** (marked \* in §4) as working dates for the CRs to test.
 5. **Two dates the CRs must settle first:** the Guam route to Japan (A8) and regular broadcasting (B4). Many others depend on them.
+
+## 8. The author's decisions (20 November 2026, 07:38)
+
+> 1. Option 2 seems right, however there might be room for three CRs, as we should also discuss the impact on other countries. For example, does it make sense that all Japanese inventions happen right on time historically? How is Japan's economy transformed? And also the impact on China, Korea and Russia. I feel like a lot of these technologies, especially the computers and the fax machines, might have found fertile ground there with downright explosive potential for alternative development. This also challenges the rules you set up in section 2 somewhat. 2. All seven approved. 3. Approved. 4. Approved for testing. 5. Let's set these dates now.
+
+| # | Decision |
+|---|---|
+| 1 | **Three CRs:** CR-078 Wire and air, CR-079 Picture and sound, and a third CR for the partners (§10). §2 rule 1 is amended so that the need and the people can be in a partner country. |
+| 2 | All seven biases (§3) are the guiding rules. |
+| 3 | R1–R5 in, R6–R8 options, R9 out. |
+| 4 | The dates marked \* in §4 are working dates for the CRs to test. |
+| 5 | The Guam route and regular broadcasting are set first (§9). |
+
+## 9. The two first dates (PROPOSED for the author's approval)
+
+### A8. The southern wire to Japan: 1889–1892
+
+- **What canon fixes:**
+  - the Oʻahu cable of 1879 (CR-021);
+  - Wake, claimed in 1880 "for a future cable";
+  - the Marianas, with the navy at Apra, Pacifican since the Spanish sale of 1876 (CR-029);
+  - the Puget Sound–Sitka cable of 1887–88;
+  - the Aleutian route to Hakodate in 1900–1903 as the second route (CR-070 G9);
+  - "the cable to Manila by 1900" (CR-015, PROPOSED);
+  - CR-070 G8's brief: the trunk in 1889–91 and the Japan branch in 1892–93.
+- **Proposal:**
+  - **1889–90:** the trunk from Oʻahu by Midway to Guam (Apra).
+  - **1891:** Guam to Manila.
+  - **1892:** Guam by Chichijima in the Bonins to Tokyo Bay. It lands on Japanese grants under the 1887 compact with Tokyo; the landing place is to be checked (G8 suggests Yokosuka).
+  - The wire carries traffic from the autumn of 1892.
+  - It lands only on Pacifican and Japanese soil (CR-021 I3).
+- **Why then:**
+  - The Sitka cable of 1888 frees the cable ships, and the move to Thalassia (1885) is behind the Treasury.
+  - Port Hamilton (1885–87) showed that the alliance's telegrams to Tokyo crossed British and Danish wires.
+  - It is the regency's first great work, ordered by Victoria in 1888.
+  - The wire stands before the Sino-Japanese war of 1894. Victoria's mediation that year runs over it, and Thalassia hears from Tokyo within hours instead of three weeks.
+- **What it moves:**
+  - CR-015's "the cable to Manila by 1900" (PROPOSED) becomes 1891.
+  - The Aleutian route stays the second route, from 1903, unchanged.
+- **Cost (MODEL):**
+  - About 6,800 nautical miles at about $1,150 a mile: about $8m in 1889–92. *Hist.:* Commercial Pacific's Honolulu–Midway–Guam–Manila cable of 1902–03 (about 5,400 nautical miles), and the British Pacific cable of 1902 at about £1.8m.
+  - It is not in the workbook yet; CR-078's model step adds it.
+
+### B4. Regular broadcasting: 1912
+
+- **What CR-077 fixes:** valve oscillators about 1900, voice by radio about 1905 and the San Jose broadcasts of 1909 (D-8).
+- **Proposal:**
+  - **The Wireless Act of 1911.** Wavelengths become concessions of the telegraph estate and are auctioned like other concessions (CR-057). Every licence carries a public-service article: the Office's daily tables are read unaltered, and air time is given to the examination lessons. The article follows the canon rule that Hearst prints the Office's tables unaltered.
+  - **1912:** regular programmes from San Jose (the 1909 station) and San Francisco (the press seat's station). *Hist.:* Herrold's San Jose station kept a regular schedule from about 1912. Here that schedule becomes a national service, not a single amateur station.
+  - **1913–14:** stations at Honolulu (in Hawaiian, Japanese and English), Los Angeles, Salt Lake (the Church's; *Hist.* KZN, 1922) and Manila.
+  - **1914:** Julian speaks to the Realm on the air in August, at war with Germany: the first sovereign's broadcast. *Hist.:* George V, Christmas 1932. Broadcasting goes on through the war; *Hist.:* the US closed private stations in 1917.
+  - **1915:** the air school (B5) begins.
+  - **Listeners:** crystal sets first, valve sets from about 1915. About one home in five by 1920 and most homes by 1928 (MODEL). *Hist.* (US): under 1% in 1922, about 40% in 1930.
+- **Why then:**
+  - The parts exist from 1905.
+  - The need is threefold: the press seat (Victoria's medium), the examination state and the islands.
+  - The rule that a wavelength is a concession, not property, comes before anyone has a station to defend, as the Mining Law of 1849 came before the claims.
+- **What it moves:** B5 (1915), C2 (electrical recording about 1912), C6 (public address about 1915) and the media CR's whole calendar. In the Union, broadcasting keeps its historical start (1920) and its commercial form.
+
+## 10. The third CR: the partners' electric century (brief)
+
+**The question.** CR-077 and the planning note treat technology as Pacifica's. But Pacifica licenses openly, lends and trains its partners. Some partners need a technology more than Pacifica does: kanji, Chinese characters and Hangul for fax and teleprinter, and dense cities and few clerks for computing. So the explosive development may come abroad.
+
+**Japan: do its inventions come on time?** Probably not. Japan has had Pacifican fellows since 1856, Nagaoka at Pacifican laboratories since 1887 and valves since the 1890s. Candidates, each to be dated by CR-077's rule:
+
+| Invention | Hist. | Likely in this timeline |
+|---|---|---|
+| Electronic television (Takayanagi, Hamamatsu) | 1926 | earlier: the tube and valves come from Pacifica |
+| Directive antenna (Yagi and Uda, Tohoku) | 1926 | about the same date, but used at once (§3) |
+| Split-anode magnetron (Okabe) | 1927 | about the same date |
+| Facsimile (Niwa, NEC) | 1928 | much earlier: fax is the Concord's medium (R1) |
+| Ferrite (Kato and Takei) | 1930 | as approved in CR-077 |
+| Switching theory (Nakashima, NEC) | 1934–36 | earlier, with the exchanges of the 1890s |
+| Magnet steels KS and MK (Honda; Mishima) | 1917, 1931 | for motors, loudspeakers and recording |
+| Automatic loom (Toyoda) | 1924 | earlier, with cheap electric drive |
+
+Birth dates bind the people. They do not bind the inventions, since others can make them earlier from Pacifican parts. The credit stays Japanese: Japan's scientists stay Japanese (CR-050's Nagaoka keeps the seal in Tokyo).
+
+**Questions for the CR:**
+1. **Japan's economy.** Japan's electrical industry under the Hayama annex (CR-054, 1928): which side makes the valves, the exchanges, the fax machines and the machines? Japan's own computing industry by 1932 is a rival inside the friendship. The Restoration officers' complaint of dependence (canon) gains or loses force.
+2. **China.**
+   - Fax and the Chinese telegraph code: four-digit numbers since 1871 (*Hist.*).
+   - The Customs' statistics on cards, through the Inspectorate.
+   - Huludao (1923) as an electrical district.
+   - Cheap radio and mass politics.
+   - This is the most explosive case and the hardest to keep under control.
+3. **Korea.** Hangul is an alphabet and suits teleprinters and cards. Independent and guaranteed after 1905, Korea could be the partner that adopts keyboards and cards fastest. *Hist.:* the first Hangul typewriter, 1914.
+4. **Russia.** Federal Russia under Wrangel after 1920 has Pacifican credit and Siberia's partnership. Its electrical people stay in Russia or come to Pacifica instead of leaving for the Union. *Hist.:* Zworykin, the White government's radio engineer, went to Westinghouse in 1919; Termen; Losev; Bonch-Bruevich's radio laboratory at Nizhny Novgorod, 1918.
+5. **Power.** Each case is weighed by the leading question: which path brings Pacifica the most power and prosperity? A partner's boom enlarges the Concord's market and pool, and it also builds independence.
+6. **Model.** Japan's growth and the partners' purchases may need workbook rows. That is the author's choice, as CR-077 D-14 was.
+
+**Order of work:** integrate CR-077 first, then CR-078 Wire and air, then CR-079 Picture and sound and the partners' CR. CR-079 and the partners' CR could also be drafted side by side, because the partners' CR depends on CR-078's fax and radio.
