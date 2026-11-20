@@ -277,6 +277,8 @@ Effect on population: about 4–8 million more people in 1932, under 2% of 500 m
 
 ### B10. Decisions for Part B
 
+**DECIDED (author, 20 November 2026, 17:18):** S-1 to S-16 approved. Notes: S-3, the author asks whether remittances are taxed (answered in S-17); S-8, the author asks about women's employment, operators and programmers (answered in S-18); S-12, no ownership but influence and gravity; S-15, Chin Gee Hee and remittances turned into works approved.
+
 | # | Decision | Recommendation |
 |---|---|---|
 | S-1 | Disaster deaths | 1876–79 about a million fewer; 1910–11 plague about 40,000; 1920–21 0.2–0.3 million; Swatow 1922 about a third fewer; 1928–30 3–5 million (Longhai to Xi'an by 1927, trucks beyond); 1931 flood 0.2–0.3 million |
@@ -290,13 +292,15 @@ Effect on population: about 4–8 million more people in 1932, under 2% of 500 m
 | S-9 | Opium | The 1907 schedule enforced by the customs; stores on Formosa; no merchant ban |
 | S-10 | Cities and living standards | About 6–7% in large cities; consumption about 1.0% a year |
 | S-11 | Census | The customs' statistical office tabulates a census of Nanjing's provinces in 1931–32, the first counted Chinese census; it feeds the population script (A0). Depends on CR-080 C3 (cards at the Customs, undecided) |
-| S-12 | Chinese broadcasting | Chinese state stations under the Ministry of Communications on Pacifican transmitters at the one royalty, no Pacifican ownership; Pacifican credit for them carries a public-service article (the market report, Yen's lessons, flood and storm warnings) |
+| S-12 | Chinese broadcasting | Chinese state stations under the Ministry of Communications on Pacifican transmitters at the one royalty, no Pacifican ownership; Pacifican credit for them carries a public-service article (the market report, Yen's lessons, flood and storm warnings). *Author:* no ownership, but influence and gravity: the standard, the equipment, the training of engineers and announcers, programme exchange and the air school's example draw Chinese broadcasting toward Pacifica without a share in it |
 | S-13 | Film | Chinese studios and record pressing at the one royalty; China may set a quota or censorship board for foreign films |
 | S-14 | Warnings | China's ports join the 1897 warnings compact through the Customs' lights and telegraph, and by radio from about 1912 |
-| S-15 | People | Yen carries literacy and radio, Fong statistics, Sheng the telegraph; Chin Gee Hee optional for remittances turned into works |
+| S-15 | People | Yen carries literacy and radio, Fong statistics, Sheng the telegraph; Chin Gee Hee (approved) carries remittances turned into works: a Chinese Pacifican of Seattle who builds the Sun Ning Railway in Taishan from 1906 with emigrants' money |
 | S-16 | Agriculture and food | The market report; electric and oil-engine pumping where power exists; soybeans through Huludao; Tacoma's fertilizer from 1929 |
+| S-17 | Remittance tax (proposal, to decide) | No tax on remittances at either end. Pacifica taxes income where it is earned (the War Revenue Act of 1915), and the employer levy on guest workers (from 1890) falls on employers, not on wages sent home; a tax on the sending would fall on the poorest earners and break the guest-worker contract's promise of wage protection. China competes for the business instead of taxing it: the Post Office's money orders and the banks' telegraphic transfers at a published fee, against the letter shops. The money reaches the state indirectly, through the customs on what remittance families buy and through the deposits it brings to Chinese banks. *Alternatives:* a small Chinese stamp duty on telegraphic transfers, which would push the trade back to the letter shops and Hong Kong; or a Pacifican charge on transfers abroad, which would contradict the guest-worker contract |
+| S-18 | Women's employment (proposal, to decide) | Canon's practice carries to China through its channels. The Realm examined the women its dial displaced for the computing rooms (1898), runs the halls with examined women operators and has Sophia Levy as its first order-writer (CR-077, CR-050). *Proposal (MODEL):* (1) China's 20–40 card installations (B0) are staffed by examined women operators from the 1910s, the first cadre trained at the Office's school from among Chinese-Pacifican women; by 1932 a few thousand card operators and a few dozen order-writers who set up the card-programmed calculators at the Customs, the Post Office, the railways and the census of 1931–32 (S-11); (2) women operators in the telephone exchanges of Shanghai, Canton, Huludao and Formosa and women announcers on the state stations; (3) the labour article (S-7) carries the same wage for the same work (CR-071) into Pacifican-financed mills, where young women are a large share (CE 118); (4) the Polytechnic of Formosa and the Pacifican scholarships admit women on the same examination from the start (CR-037: the examination, never a quota). About 10,000–20,000 women in offices, exchanges, card rooms and stations by 1932, beside about a million in the mills |
 
-**For Part C:** the cipher question; the number of soldiers; the treaty ports and extraterritoriality; Britain's position and the 1913 Reorganisation Loan; Korea's rice and the Yalu crossing.
+**For Part C:** women's place in the Nationalists' programme and in the 1931–32 census's results; the cipher question; the number of soldiers; the treaty ports and extraterritoriality; Britain's position and the 1913 Reorganisation Loan; Korea's rice and the Yalu crossing.
 
 **Tradeoffs that cannot be avoided**
 1. **Rent and the Nationalists' base.** Enforcing the limit where the register exists takes income from landlords, who are much of the Nationalists' rural support. Not enforcing it leaves Mao his issue (Part C).
@@ -308,7 +312,8 @@ Effect on population: about 4–8 million more people in 1932, under 2% of 500 m
 7. **Literacy, reach and nationalism.** More readers and listeners strengthen the demand to recover Formosa, Huludao and Tsingtao; reach grows faster than literacy.
 8. **Radio in Manchuria.** Chinese broadcasting at Mukden and Huludao joins Huludao's customs among the Japanese officers' grievances (canon); the 1931 plot is still stopped.
 9. **Relief and the warlords.** Rail and truck relief works only while the lines' owners let grain pass, as in 1920–21 and not in 1928–30.
-10. **The Chinese Pacificans.** At about 13% of residents they are larger than any Chinese community abroad in history; the story must not become about one diaspora (CR-037), and Hawaii's concern for its own people stands.
+10. **Women in offices.** Women in the card rooms, exchanges and stations come first from Chinese-Pacifican and mission-school families; their visibility is contested at home in the way it was in history's treaty ports, and it ties women's careers in China to Pacifican institutions.
+11. **The Chinese Pacificans.** At about 13% of residents they are larger than any Chinese community abroad in history; the story must not become about one diaspora (CR-037), and Hawaii's concern for its own people stands.
 
 **Sources outside the four books (Part B), checked 20 November 2026**
 - Famines: Wikipedia, *Northern Chinese Famine of 1876–1879*, *Chinese famine of 1920–1921*, *Chinese famine of 1928–1930* (citing Lillian Li, 2007); DisasterHistory.org; Pierre Fuller, *Famine Relief in Warlord China* (2019); a newspaper report on the Red Cross famine roads (Utah Digital Newspapers).
@@ -325,6 +330,8 @@ Effect on population: about 4–8 million more people in 1932, under 2% of 500 m
 - Circular telegrams: Rong Wu, "The making of 'public opinion'", *Modern Asian Studies* (2023).
 - Philippine Chinese: Wikipedia, *Chinese Filipinos*.
 - Migration, Hawaii, cooperatives, Land Law, Yen, opium, May Thirtieth: as in the first draft (Gottschang and Lary; FRUS 1885 and 1906; ILO 1934; Taiwan Today; Wikipedia; Britannica).
+- Women's education: Ginling College (founded 1913, opened 1915), the first institution in China to grant women bachelor's degrees (Wikipedia, *Ginling College*); China's first official women students abroad, to Japanese girls' schools in 1905 (Heidelberg University repository); the Shanghai Women's Commercial and Savings Bank, founded by Chinese women (*Evening Post*, 2 May 1927).
+- Remittances: Harris on the remittance firms and the Post Office (*Journal of Asian Studies*, 2014; Illinois dissertation); Benton and Liu, *Dear China* (2018). No source found for a tax on remittances in this period.
 - Not confirmed and not used as figures: Buck's women's literacy figure; electric irrigation at Wujin; national cooperative counts for 1931–35; motor-road kilometres for 1921 and 1927; a 1936 ban on Cantonese films.
 
 ## C. The political timeline (sketch)

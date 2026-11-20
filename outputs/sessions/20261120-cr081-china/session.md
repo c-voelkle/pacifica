@@ -26,4 +26,4 @@ independence: fresh-context review of Part A and A8 (CR-081-review.md), correcti
 
 ## Resume here
 
-Part A decided (all fifteen A8 recommendations approved, 20 November 2026, 15:55). Part B drafted, reviewed for technology effects (CR-081-B-review.md, approved), facts checked and revised with decisions S-1 to S-16; waiting for the author. Then Part C (political), and a fresh-context review of B and C. Then draft Part B (socioeconomic) on the decided material layer; `population/china.py` only if decision 1 approves it.
+Part A decided (all fifteen A8 recommendations approved, 20 November 2026, 15:55). Part B decided (S-1 to S-16 approved, 17:18); S-17 (remittance tax) and S-18 (women's employment) proposed in answer to the author's questions; waiting for the author on those, then Part C. Then Part C (political), and a fresh-context review of B and C. Then draft Part B (socioeconomic) on the decided material layer; `population/china.py` only if decision 1 approves it.
