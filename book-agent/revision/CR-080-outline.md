@@ -1,6 +1,6 @@
 # CR-080 (outline) — The partners' electric century: Japan, China, Korea and Russia (1856–1932)
 
-**Status:** OUTLINE for discussion, 20 November 2026. Nothing here is decided beyond what is marked *canon*. This document sets the scope, the frame, the packaging and the order of work; the parts are then drafted and decided one at a time, as CR-071's were.
+**Status:** OUTLINE for discussion, 20 November 2026; X-8 decided by the author (13:31), and D0 added on his direction. Nothing here is decided beyond what is marked *canon*. This document sets the scope, the frame, the packaging and the order of work; the parts are then drafted and decided one at a time, as CR-071's were.
 
 **Number:** CR-080, the third of the three CRs set by the planning note `planning/technology-tree-1877-1932.md` (§8, §10).
 
@@ -99,7 +99,7 @@ Pacifica has spent seventy years handing its partners tools, money and schooling
 | A | The frame: rules, what Pacifica gives and withholds, the annex line, canon's summary line (T1) | — | small |
 | B | Japan | A | the largest |
 | C | The links and the scripts: Manila to the Customs ports (CR-078 E-6), the fax makers, the character codes, the Concord's standards | A, B | medium |
-| D | China | A, C | large |
+| D | China: its own divergence 1860–1928 (D0), then its electric century | A, C | the largest with B |
 | E | Korea | A, C | small to medium |
 | F | Russia and Siberia | A | medium |
 | G | 1932: the balance sheet, the Union and Britain, the model | B–F | small |
@@ -184,6 +184,37 @@ Pacifica has spent seventy years handing its partners tools, money and schooling
 
 ## D. China (questions for Part D)
 
+**D0. China's other nineteenth century.** The author's direction (13:31): what changes earlier in China's history matters more than the communist question. Part D therefore opens with China's own divergence, 1860–1928, before its electric century. Canon already changes most of the turning points; their consequences inside China are mostly unworked.
+
+| Year | Canon's change | History | Consequence to work out |
+|---|---|---|---|
+| 1860–63 | Ward's company holds Shanghai; it leaves the Qing's service after the Suzhou killings (CR-074) | the Ever Victorious Army | the Chinese memory of a foreign company that would not serve a killer of prisoners |
+| 1868–81 | the Educational Mission studies in San Francisco, with naval-academy places (PROPOSED) | the mission was in New England and was recalled in 1881 | **not recalled:** about 120 boys become China's engineers, telegraphers and officers. *Hist.:* Zhan Tianyou (railways) and Tang Shaoyi, the Republic's first premier in 1912, were among them |
+| 1881–85 | Kaiping and the steamships on Pacifican credit; the Keelung squadron without a battle; the Inspectorate under Fong from 1885 | Hart's Customs; the French destroy the Fuzhou fleet in 1884 | an honest, published revenue with Chinese staff rising; the telegraph administration (Sheng Xuanhuai, 1881) built with the mission's men |
+| 1894–95 | Japan wins but takes no mainland; Formosa stays Chinese under the Revenue Convention; Korea neutral | Shimonoseki: Formosa and Liaodong ceded; the Triple Intervention | a milder humiliation; Li Hongzhang survives politically; no Russian lease of Port Arthur |
+| 1896–1905 | a Chinese-owned Manchurian railway on Pacifican credit; Russia out of Manchuria after 1905; the Liaodong pledge and Huludao | the Russian Chinese Eastern Railway; Port Arthur Russian, then Japanese | Manchuria stays Chinese in fact as well as name |
+| 1898–1900 | reformers sheltered at Honolulu and San Francisco; a limited Boxer relief; the indemnity turned into scholarships early | the Hundred Days fail; the eight-nation occupation | the reform movement in exile is Pacifican-based; does Kang Youwei's and Liang Qichao's party grow there? |
+| 1906 | the Polytechnic of Formosa | — | a Chinese engineering school with examinations |
+| 1911–16 | Julian backs Sun; Yuan wins; Victoria blocks the worst of the Twenty-One Demands (PROPOSED) | the Twenty-One Demands of 1915 | less hatred of Japan before 1919 |
+| 1919 | Shandong returned to China at The Hague | Shandong to Japan; the May Fourth movement | **no May Fourth outrage against the powers.** The New Culture movement still comes, but the students' anger needs another target: the warlords, or the treaties that remain |
+| 1920–28 | no Soviet state; Whampoa on Pacifican money without a Soviet bargain (PROPOSED); Russia renounces its concessions and the Boxer indemnity at Harbin (1921); Mongolia returns to Chinese suzerainty | the Comintern; the Communist Party (1921); Soviet advisers; the First United Front; Mongolia a Soviet client (1924) | **no Leninist model for the Nationalists.** What do they organize on instead? |
+| 1928 | reunification; the Treaty of Nanjing returns the customs and the tariff | the same reunification; tariff autonomy 1928–30 | a stronger Nanjing government with the Inspectorate's machine and its people |
+
+**Questions for D0:**
+- **D0.1. The Educational Mission's generation.** Confirm the mission (canon, PROPOSED) and its not being recalled. Which of its men matter?
+  - Tang Shaoyi as the Republic's first premier, as in history.
+  - Zhan Tianyou on the railways.
+  - The mission's telegraphers in Sheng Xuanhuai's administration.
+- **D0.2. The Self-Strengthening movement with a partner.** China's arsenals, telegraph and steamships on Pacifican credit and engineers from the 1870s. How far does it get before 1894? Canon fixes Japan's victory in 1894.
+- **D0.3. The Qing's last decades.** Does a milder 1895 and a Chinese Manchuria let the Qing's late reforms of 1901–11 go further? Canon keeps the fall in 1911–12.
+- **D0.4. The Nationalists' model.** Without Lenin's party, the nearest working model of a mass party that wins and governs is the Prosperity Party (CR-072): examined cadres, published accounts, its own ticket and wire. *Proposal:* Sun's and then Chiang's Nationalists borrow it, through Whampoa's Pacifican instructors and Chinese Pacificans in San Francisco. This would give China a party that publishes its accounts, with all the tension that brings to the warlords.
+- **D0.5. Land.** Pacifica made Komuch's credit conditional on its land law (CR-041). *Question:* does it ask the same of Nanjing (Sun's "land to the tiller"), or leave China's countryside alone?
+- **D0.6. Mao Zedong** (*Hist.:* born at Shaoshan, Hunan, 1893). A proud nationalist and a rising leader, not a communist.
+  - *Hist.:* he ran a workers' night school at Changsha in 1917 and argued in 1920 for Hunan's self-government.
+  - *Proposal:* his road runs through the literacy movement and the Nationalists' peasant work. By 1932, at thirty-eight, he is a provincial leader in Hunan or the head of the Nationalists' rural bureau, the voice of the countryside against Nanjing's officers and bankers, and a possible successor to Chiang.
+- **D0.7. Chinese Pacificans.** There is no exclusion act in Pacifica, and the charter's floor for Chinese residents holds (canon). The Taishan families' remittances, engineers who go home, and the revolution's money from San Francisco: how large is the Chinese-Pacifican class that moves between the two countries? Fong is its face.
+
+
 - **D1. The Inspectorate's numbers, 1885–1929.** The Customs' statistics go on cards (C3). From 1928–29, when China recovers the Inspectorate, it inherits a statistical machine and the people trained to run it. *Question:* does Nationalist China build its census and land tax on it?
 - **D2. Characters on the machine.**
   - **The telegraph:** *Hist.:* Sheng Xuanhuai ran the Imperial Telegraph Administration from 1881.
@@ -199,7 +230,8 @@ Pacifica has spent seventy years handing its partners tools, money and schooling
   - **Sun Yat-sen:** Honolulu-educated and backed by Pacifica, he could speak to China on the air from Canton in the 1920s.
   - **The Nationalists' radio:** *Hist.:* their Central Broadcasting Station at Nanjing dates from 1928.
   - **Literacy:** *Hist.:* James Yen's Mass Education Movement (1923) taught about 1,000–1,300 basic characters, and his Ding Xian experiment ran from 1926. Literacy by radio, beside the air school's method, is the strongest proposal in this part.
-  - *Questions:* who controls the transmitters, and what does cheap radio do to China's warlords, to the Nationalists and to Japanese officers in Manchuria? The Communists are not in canon. With Moscow beaten in 1920, does a Chinese communist movement arise from its own roots? This is OPEN, and a candidate to leave out.
+  - *Questions:* who controls the transmitters, and what does cheap radio do to China's warlords, to the Nationalists and to Japanese officers in Manchuria?
+  - **Decided (author, 13:31):** there is no communism in China without the Soviets. Mao appears as a proud nationalist, possibly a rising future leader (D0.6).
 - **D5. Industry.** The Huludao district of 1923 (canon) as an electrical district. Shanghai's light industry. China as a second maker of consumer goods beside Japan, outside the annex because China is not a party.
 - **D6. Film and records.** Shanghai's studios, and the Cantonese films of San Francisco (CR-079).
 - **D7. The control problem.** A China that reads, listens and computes faster than it industrializes. The Formosan grievance. Japan's army's resentment of Chinese customs at Huludao (canon). Pacifica's interest is a strong China that stays a friend.
@@ -253,7 +285,7 @@ Pacifica has spent seventy years handing its partners tools, money and schooling
 | Country | Candidates | Why |
 |---|---|---|
 | Japan | Fujioka Ichisuke (1857), Toyoda Sakichi (1867), Niwa Yasujirō (1893), Matsushita Kōnosuke (1894), Takayanagi Kenjirō (1899); Shibusawa Eiichi (1840) | the electrical base, the loom, the fax, the consumer trade, television |
-| China | Sheng Xuanhuai (1844), Zhan Tianyou (1861), Wang Yunwu (1888), Zhou Houkun (1889), James Yen (1890) | telegraph, engineer, characters, typewriter, literacy |
+| China | Sheng Xuanhuai (1844), Zhan Tianyou (1861), Tang Shaoyi (1862), Wang Yunwu (1888), Zhou Houkun (1889), James Yen (1890), Mao Zedong (1893) | telegraph, engineer, the mission's premier, characters, typewriter, literacy, the nationalist countryside |
 | Korea | Seo Jae-pil (1864), Ju Si-gyeong (1876) | the Hangul press and the standard language |
 | Russia | Bonch-Bruevich (1888), Losev (1903), Ioffe (1880) | radio, crystals, physics |
 
@@ -282,6 +314,8 @@ None at outline stage. Each part will list its own.
 | X-5 | Cast policy: about twelve historical people (A6) | yes |
 | X-6 | Reviews: after Part B and on the whole | yes |
 | X-7 | The first recommendations in Parts B–F as starting points for drafting, not decisions | yes |
+| X-8 | No communism in China without the Soviets; Mao a nationalist and a rising leader | DECIDED (author, 13:31) |
+| X-9 | Part D opens with China's own divergence, 1860–1928 (D0) | yes |
 
 ## Sources
 
