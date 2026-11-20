@@ -40,6 +40,8 @@ Each item gets three things:
 - **canon's change:** what canon already alters;
 - **a proposed Pacifican series:** stated as a multiple or a shift of the historical one, labelled MODEL.
 
+The historical series, read from the four reference works with page citations, are in `CR-081-A-series.md`; its section 9 says how they change the proposals below.
+
 The numbers sit in a small standalone script (proposal: `population/china.py`, beside `neighbours.py`). It holds historical baselines and a few levers, so that Parts B and C can read population, output and literacy from one place. It feeds nothing in the financial workbook unless the author asks.
 
 ### A1. What canon already sends into China
@@ -71,8 +73,8 @@ The numbers sit in a small standalone script (proposal: `population/china.py`, b
 
 | Resource | History | Pacifican divergence to decide |
 |---|---|---|
-| **Coal** | output of 8,987,862 tons in 1912, over 23,000,000 tons in 1926 and more than 27,000,000 tons in 1931; in the 1920s and 1930s Chinese-owned mines produced around 20–30% of modern output and Sino-foreign mines perhaps another 30%, and Fushun, run by the Japanese South Manchuria Railway, nearly all the rest | Kaiping on Pacifican credit from the 1870s (canon); Kaiping does not pass to the Anglo-Belgian company in 1900. Fushun stays Chinese, since Manchuria's railway is Chinese-owned. *Proposal:* the Chinese-owned share above half by the 1920s, and output about 1.3–1.5 times history's by 1931 (MODEL) |
-| **Iron** | Hanyang (1890–94) and Hanyeping (1908) under Sheng Xuanhuai, indebted to Japan's Yawata works for ore loans | Pacifican credit beside Japan's. *Question:* who finances Hanyeping, and does Daye's ore still go to Japan? |
+| **Coal** | output of 8,987,862 tons in 1912, over 23,000,000 tons in 1926 and more than 27,000,000 tons in 1931; in the 1920s and 1930s Chinese-owned mines produced around 20–30% of modern output and Sino-foreign mines perhaps another 30%, and Fushun, run by the Japanese South Manchuria Railway, nearly all the rest | Kaiping on Pacifican credit from the 1870s (canon); Kaiping does not pass to the Anglo-Belgian company in 1900. Fushun stays Chinese, since Manchuria's railway is Chinese-owned. Modern mines were 93% foreign-controlled in 1913 and 78% in 1928 (CE 119). *Proposal:* about 55–65% Chinese-owned by 1928, and output about 1.3–1.5 times history's by 1931 (MODEL) |
+| **Iron** | Hanyang (1890–94) began production several years before Yawata, but in 1919 its pig iron cost more than twice Benxi's; Hanyeping (1908) under Sheng Xuanhuai fell into debt to its Japanese lenders, the pretext for the Twenty-One Demands' clause | Pacifican credit beside Japan's. *Question:* who finances Hanyeping, who fixes its costs, and does Daye's ore still go to Japan? |
 | **Tungsten and antimony** | China became the world's largest producer of both: tungsten in Jiangxi from the 1910s, antimony in Hunan (dates to verify) | **The strongest material divergence.** Tungsten is the metal of the Realm's lamp filaments, valves and tool steel, and from 1912 its valve works make valves by the hundred thousand (CR-077). *Proposal:* Pacifican demand finds and buys Jiangxi's tungsten about 1905–10 and Hunan's antimony early. This makes two inland provinces rich, contested and wired. Hunan is Mao's province (Part C) |
 | **Tin** | Gejiu, Yunnan | Pacifican cans and solder; a smaller case |
 | **Oil** | none found before 1939 (Yumen) | none; China buys the trust's lamp oil (canon: the trust's Asian lamp-oil trade) |
@@ -83,9 +85,9 @@ The numbers sit in a small standalone script (proposal: `population/china.py`, b
 
 | Item | History | Pacifican divergence to decide |
 |---|---|---|
-| **Railways** | a 10 km line from Tangshan built in 1881, extended to Tianjin in 1888 and Shanhaiguan in 1894; Formosa's 107 km Keelung–Taipei–Hsinchu line of 1887–93; about 9,000 km by 1911; the Nationalists built about 3,600 km in 1928–37 | **Canon's lines:** a Chinese-owned Manchurian railway (instead of the Russian line and the Japanese South Manchuria line), the Hankow–Canton trunk on early credit (history finished it only in 1936), Harbin–Mukden, and Huludao. Formosa's line survives, since the island stays Chinese. *Proposal:* about 11,000–12,000 km by 1911 and 18,000–20,000 km by 1928 (MODEL) |
+| **Railways** | a 10 km line from Tangshan built in 1881, extended to Tianjin in 1888 and Shanhaiguan in 1894; Formosa's 107 km Keelung–Taipei–Hsinchu line of 1887–93; about 9,000 km by 1911; the Nationalists built about 3,600 km in 1928–37 | **Canon's lines:** a Chinese-owned Manchurian railway (instead of the Russian line and the Japanese South Manchuria line), the Hankow–Canton trunk on early credit (history finished it only in 1936), Harbin–Mukden, and Huludao. Formosa's line survives, since the island stays Chinese. *Proposal:* about 11,000–12,000 km by 1911 (history 9,618 km before 1912) and 18,000–20,000 km by 1928 (history about 13,000 km by 1927; 20,746 km of track only in 1936) (MODEL) |
 | **Telegraph** | a Tianjin–Shanghai line opened in December 1882, and lines soon connected all the important cities; the Telegraph Administration under Sheng from 1881–82; Great Northern's coastal cable from 1871 | the mission's telegraphers; the Manila–Keelung–Amoy–Foochow–Shanghai cable (CR-080 C1); fax on the newspapers' wire after 1908–10 (CR-078) |
-| **Shipping** | the China Merchants' company (1872) | steamers on Pacifican engineering (canon) |
+| **Shipping** | the China Merchants' company (1872): 33 ships in 1877 and only 30 in 1914, while Japan's NYK grew from 51 to 93; no Chinese officer in 1885; two steamers to Honolulu and San Francisco in 1880–81, the scheme then suspended | steamers on Pacifican engineering (canon). *Proposal:* a Chinese Pacific line, Shanghai–Honolulu–San Francisco from 1880, officered from the mission's naval graduates by the 1890s (decision 9) |
 | **Ports** | Shanghai, Tianjin, Canton and the treaty ports | Huludao (canon), Keelung under its harbour trust (canon); the Customs' lights (*Hist.*: the Marine Department from 1868) |
 | **The post** | the Customs' post office from 1896 | the same under Fong |
 
@@ -93,8 +95,8 @@ The numbers sit in a small standalone script (proposal: `population/china.py`, b
 
 | Item | History | Pacifican divergence to decide |
 |---|---|---|
-| **Cotton** | the first Chinese mill went into production at the end of 1889; Japanese-owned mills in China had 111,936 spindles in 1913 and 2,485,352 in 1936, while Chinese-owned mills went from 484,192 to 2,919,708 | Japanese mills in China (the annex makes textiles Japan's in the Concord, but China is not a party); Toyoda's looms licensed; electric drive. *Question:* does China's tariff from 1928 (canon) protect its own mills? |
-| **Electric power** | Shanghai's first light in 1882; in 1936 China consumed only about 4 kWh per person | Pacifican equipment and credit; Huludao's district. *Proposal:* about 3–5 times history's consumption per person by 1932, concentrated in the treaty ports, Manchuria and the tungsten districts (MODEL) |
+| **Cotton** | the first Chinese mill went into production at the end of 1889; Japanese-owned mills in China had 111,936 spindles in 1913 and 2,485,352 in 1936, while Chinese-owned mills went from 484,192 to 2,919,708 | By 1933 Chinese-owned mills made 71% of the yarn but only 39% of the cloth. Japanese mills in China (the annex makes textiles Japan's in the Concord, but China is not a party); Toyoda's looms licensed; electric drive. *Question:* does China's tariff from 1928 (canon) protect its own mills? |
+| **Electric power** | Shanghai's first light in 1882; in 1936 China consumed only about 4 kWh per person | Pacifican equipment and credit; Huludao's district. *Proposal:* about 3–5 times history's consumption per person by 1932, concentrated in the treaty ports, Manchuria and the tungsten districts (MODEL). History grew 14% a year in 1914–36 and foreign utilities still held 55% of output in 1936; the proposal needs about 21–24% a year |
 | **Machines and electrical goods** | Shanghai's small machine shops | the Commercial Press as maker of character machines (CR-080 D2); Chinese makers beside Japan's for radios and lamps |
 | **Chemicals** | Fan Xudong's salt and soda works at Tianjin (1914–17) | — |
 
@@ -102,11 +104,11 @@ The numbers sit in a small standalone script (proposal: `population/china.py`, b
 
 | Item | History | Pacifican divergence to decide |
 |---|---|---|
-| **Customs revenue** | about 14.7 million Haikwan taels in 1885 (*Hist.*, to verify against the Customs returns); about 22 million taels in 1890, from a service of 700 Europeans and 4,000 Chinese; about 36 million in 1911 | Under Fong the revenue is about the same, because the treaty tariff is fixed. What changes is that it is published, Chinese staff rise, and Pacifican credit is secured on it. *Question:* does more of it reach Chinese development and less foreign indemnities, since there is no Shimonoseki indemnity on history's scale? |
+| **Customs revenue** | about 14.7 million Haikwan taels in 1885 (*Hist.*, to verify against the Customs returns); about 22 million taels in 1890, from a service of 700 Europeans and 4,000 Chinese; about 36 million in 1911 | Under Fong the revenue is about the same, because the treaty tariff is fixed. What changes is that it is published, Chinese staff rise, and Pacifican credit is secured on it. In the early 1890s the customs were a quarter of the centre's 89 million taels, and railways got half a million of its spending (CE 76). *Question:* does more of it reach Chinese development and less foreign indemnities, since there is no Shimonoseki indemnity on history's scale? |
 | **Indemnities** | Shimonoseki (1895) and the Boxer indemnity (1901) consumed much of the revenue | a moderate indemnity in 1895 (canon); the Boxer indemnity partly turned into scholarships early, and Russia's renounced in 1921 (canon) |
 | **Remittances** | Taishan and the Pearl River delta lived on remittances from America | Pacifica has no exclusion act and a charter floor for Chinese residents (canon). *Question:* how large is the Chinese-Pacifican population by 1900 and 1930 (population model)? |
 | **Schooling** | the mission recalled in 1881; the examinations abolished in 1905 | the mission continues; the Polytechnic of Formosa (1906); the scholarships. *Proposal:* a Pacifican-trained technical class of a few thousand by 1911 and tens of thousands by 1930 (MODEL) |
-| **Population and output** | Maddison found that GDP per capita declined dramatically from 1850 to 1870, then increased slightly from 1870 to 1913; the 1933 benchmark is considered reliable | *Proposal:* the same population path (the famines aside), and output per person about 10–20% above history's by 1932 (MODEL), concentrated in the modern sector, the coast, Manchuria and the mining provinces |
+| **Population and output** | Maddison found that GDP per capita declined dramatically from 1850 to 1870, then increased slightly from 1870 to 1913; the 1933 benchmark is considered reliable | *Proposal:* the same population path (the famines aside). The modern sector was 2.7% of GDP in 1914–18 and 7.4% in 1933, so doubling it adds only about 7%. *Revised proposal:* output per person 5–10% above Rawski's path by 1932 (MODEL), or 10–20% if Pacifican credit also keeps the Grand Canal and the Yellow River works (decision 10) |
 
 ### A6. Information
 
@@ -121,13 +123,15 @@ The Chinese telegraph code (1871), characters on the Customs' cards (CR-080 C3),
 5. Electric power per person by 1932.
 6. Hanyeping's financing.
 7. The technical class and the Chinese-Pacifican population.
-8. Output per person, about 10–20% above history's by 1932.
+8. Output per person: 5–10% above Rawski's path by 1932, or 10–20% with the waterworks.
+9. The China Merchants' Pacific line from 1880.
+10. The hinterland: does Pacifican credit keep the Grand Canal and the Yellow River works after 1891 and 1901–02? Pomeranz puts the loss from their abandonment at a tenth to a fifth of Huang-Yun's farm output.
 
 ## B. The socioeconomic layer (sketch)
 
 - **Famines:** North China in 1876–79 (with canon's relief), 1920–21 and 1928–30. Do railways and relief lower the deaths?
 - **Cities:** Shanghai, Tianjin, Canton, Harbin, Huludao; the tungsten towns of Jiangxi and Hunan.
-- **The hinterland:** Pomeranz's question; which regions the railways and the Customs pass by.
+- **The hinterland:** Pomeranz's question; which regions the railways and the Customs pass by. History's state moved its flood control to the coast and the railway bridges after 1891 and gave up the canal in 1901–02 (series, section 8).
 - **Literacy:** baselines, the mission's and the scholarships' graduates, and the Mass Education Movement.
 - **New classes:**
   - engineers;
@@ -174,4 +178,5 @@ None at outline stage.
 - Electricity per person, 1936: [Chen and Sun, 1948](https://search.isc.ac/inventory/49/1492792.htm).
 - Customs revenue and staff, 1890: [Vincent, via Litres](https://litres.com/book/ethel-gwendoline-vincent/newfoundland-to-cochin-china-34282504/read/page-17); telegraph 1882: [Hong Kong in texts](https://hkintexts.histsyn.com/page/1005569).
 - Maddison's China estimates: [University of Bayreuth exhibition](https://eh-exhibition.uni-bayreuth.de/en/cs/China-2/index.html).
+- Series with page citations from Feuerwerker (both books), Rawski and Pomeranz: `CR-081-A-series.md`.
 - Electricity history: Tan, *Recharging China* ([OAPEN](https://library.oapen.org/bitstream/handle/20.500.12657/49455/9781501758966.pdf?sequence=1)).
