@@ -124,6 +124,8 @@ The Chinese telegraph code (1871), characters on the Customs' cards (CR-080 C3),
 
 ### A7. Decisions for Part A
 
+**DECIDED (author, 20 November 2026, 15:55):** all fifteen recommendations in A8 are approved.
+
 1. The method and the script (A0), with levers for railways, coal ownership, power, waterworks, the price of silver, Formosa and migration to Manchuria, and a Japan series beside China's.
 2. Coal: Kaiping and Fushun Chinese, the Chinese-owned share and the output multiple.
 3. Tungsten and antimony as China's export trade.
@@ -142,7 +144,7 @@ The Chinese telegraph code (1871), characters on the Customs' cards (CR-080 C3),
 
 **For Parts B and C:** the treaty ports and extraterritoriality; Britain's position; opium revenue and its suppression; the warlords' revenue and the railways as their prize; labour terms in Pacifican credit; migration from Shandong and Hebei to Manchuria; Korea's rice and the Yalu crossing; the 1913 Reorganisation Loan and the salt revenue.
 
-### A8. The 1932 target and the decisions measured against it (proposal, revised after review)
+### A8. The 1932 target and the decisions measured against it (approved 20 November 2026)
 
 **The author's aim (20 November 2026):** a strong, successful China aligned with Pacifica, at minimal cost to Japan.
 
@@ -190,20 +192,115 @@ The Chinese telegraph code (1871), characters on the Customs' cards (CR-080 C3),
 8. **Hawaii.** A Chinese Pacific line and a growing Chinese-Pacifican population touch the Hawaiian crown's concern for its own people. Hawaii keeps control of its entry rules, and the story does not become about one diaspora (CR-037).
 9. **Coast and interior.** The waterworks earn no cash. Their money comes from the customs surplus and the indemnity share that could otherwise build railways.
 
-## B. The socioeconomic layer (sketch)
+## B. The socioeconomic layer (draft)
 
-- **Famines:** North China in 1876–79 (with canon's relief), 1920–21 and 1928–30. Do railways, relief and the waterworks (decision 10) lower the deaths?
-- **Cities:** Shanghai, Tianjin, Canton, Harbin, Huludao; the tungsten towns of Jiangxi and Hunan.
-- **The hinterland:** Pomeranz's question; which regions the railways and the Customs pass by. History's state moved its flood control to the coast and the railway bridges after 1891 and gave up the canal in 1901–02 (series, section 8).
-- **Literacy:** baselines, the mission's and the scholarships' graduates, and the Mass Education Movement.
-- **New classes:**
-  - engineers;
-  - Chinese Pacificans and returnees;
-  - compradors and their successors;
-  - mine and mill workers;
-  - the Customs' Chinese staff.
-- **The warlords' fiscal base:** railways, salt and the provinces' mines.
-- **Opium:** history's suppression campaign of 1906–17, and Pacifica's rule (CR-076).
+Built on Part A as decided. Each item gives the historical baseline with its source, what canon and Part A change, and a proposal (MODEL where numeric). Abbreviations as in `CR-081-A-series.md` (CE, FS, R, P); other sources are listed at the end of this part.
+
+### B0. What Part A already decides for society
+
+- Railways reach about 11,000–12,000 km by 1911 and 14,000–15,000 km by 1927 (A8.4).
+- The Yellow River and Grand Canal works are kept from 1891 (A8.10).
+- Output per person is 5–10% above Rawski's path by 1932, from a modern sector about twice history's (A8.8).
+- A Pacifican-trained technical class of a few thousand by 1911 and tens of thousands by 1930; Whampoa on Pacifican money (A8.7).
+- Pacifican loans for works paid in China are in silver (A8.11).
+
+### B1. Famine and population
+
+| Famine | History | Pacifican divergence |
+|---|---|---|
+| North China, 1876–79 | 9.5–13 million dead, most in Shanxi (about 5.5 million), Zhili, Henan and Shandong | California wheat and Chinese-Pacifican committees (§14, PROPOSED). Shanxi has no railway; relief reaches Tianjin and the coast, not the worst districts. *Proposal:* about a million fewer deaths |
+| Boxer drought, 1898–1901 | the drought fed the Boxer rising; about 0.2 million dead in Shanxi in 1901 | the waterworks from 1891 reduce Shandong's floods but not the drought. *Proposal:* as history |
+| North China, 1920–21 | about 30 million affected and 0.5 million dead; relief by Chinese charities, the provinces and international committees was effective; the China International Famine Relief Commission followed in 1921 | railways at about 13,000–14,000 km and the conservancy. *Proposal:* about 0.2–0.3 million dead |
+| Northwest, 1928–30 | 6–10 million dead (Shaanxi about 3 million, Gansu 2.5–3 million); about 4 million refugees went to Manchuria | the only famine Pacifica can change much, if a railway reaches the Wei valley before 1928 (inside A8.4's path). *Proposal:* about 3–5 million dead; Gansu stays beyond the railway |
+
+Effect on population: about 3–6 million more people in 1932, under 1% of 500 million. Part A's "same population path" holds.
+
+### B2. Cities
+
+- History: cities over 50,000 held about 16.8 million people about 1900 (4–5%) and 27.3 million in 1938 (5–6%); the six largest grew 2–7% a year in the 1930s; 92 treaty ports by 1914 (CE 92).
+- Canon adds Huludao and its district (CR-042, CR-057), Harbin (CR-040, CR-042), Keelung under its harbour trust (§25).
+- *Proposal:* about 6–7% of the population in large cities by 1932 (MODEL), with the tungsten and antimony towns of Hunan and Jiangxi (A8.3) and the Manchurian railway towns growing fastest.
+
+### B3. The village: land, credit and wages
+
+| Item | History | Proposal |
+|---|---|---|
+| Tenure | 1934–35, 1.75 million farm families in 16 provinces: owners 47.6%, owner-tenants 20.8%, tenants 15.8% (CE 141); tenancy highest in the rice south | unchanged by 1932 except where decision B6 applies |
+| Credit | 1934: loans from merchants 25%, landlords 24%, well-to-do farmers 18%, banks 2.4%, cooperatives 2.6%; two-thirds of loans at 20–40% a year (CE 144). The Famine Relief Commission's Raiffeisen-type credit societies in Hebei grew from 8 to 561 in 1923–27 | **B5:** a Chinese farm bank lends to credit cooperatives from 1923, on the customs surplus and Pacifican silver credit; about ten times history's societies by 1932 (MODEL) |
+| Rent | the Land Law of 1930 limits rent to 37.5% of the main crop; it was not enforced (CE 141) | **B6:** provinces that borrow for the conservancy or a railway enforce the 37.5% limit in the districts the works serve (canon's precedent: Komuch's credit conditional on its land law, CR-041) |
+| Wages and consumption | per-person consumption rose about 0.5–0.6% a year, 1914/18–1931/36 (R 341); farm workers' real wages rose (R 295); Kailan's underground real wage index 100 in 1920 and 209 in 1931 (R 310) | per-person consumption about 0.8–1.0% a year (MODEL), consistent with A8.8 |
+
+### B4. Labour
+
+- History: 1,076,000 factory workers in 1933, 0.4% of employment (R 72); 12 million in handicrafts (CE 94). In the mills young women and children were a large share (CE 118). The May Thirtieth movement of 1925 began in Shanghai's Japanese-owned mills, where a Chinese worker was shot on 15 May.
+- Part A doubles the modern sector: about 2 million factory and mine workers by 1932 (MODEL).
+- Canon's principle at home: directly managed paid crews, no debt-bound labour, the same wage for the same work, school to fourteen (CR-031-R1, CR-071).
+- **B7:** every Pacifican-financed work, mine and utility in China carries a labour article: wages paid directly to the worker, no labour bound by debt or contractor, no worker under fourteen. Japanese mills in China are not bound by it.
+
+### B5. Migration
+
+- **To Manchuria:** about 25 million journeys from Shandong and Hebei between the 1890s and 1937, averaging nearly 500,000 a year; two-thirds returned; net migration over 8 million. In canon Manchuria and its railway are Chinese and Huludao is open (CR-042). **B4:** about the same flow, organised by railway land offices, with more of it settling (MODEL: net 10–12 million); Manchuria takes the refugees of 1928–30 as in history.
+- **To Pacifica:** the population model counts about 4.7 million Chinese Pacificans in 1932, 13% of residents, with descendants (`population/outputs/canon_by_year.csv`, MODEL). History's comparison: Hawaii had 18,254 Chinese in 1884 (22.6% of the kingdom) and restricted entry from 1886; 25,767 in 1900. Canon has no exclusion, the family-emigration article of 1868 (PROPOSED) and Hawaii's own entry rules. **B2:** accept the model's figure.
+- **To Japan:** students, about 8,000 in late 1905 (history); in canon Japan's school beside the Polytechnic from 1928 (§33).
+
+### B6. Remittances and the south
+
+- History: overseas remittances Ch.$114 million in 1903 and 316 million in 1930, about equal to the outflow of foreign loan service and foreign firms' profits (69 and 35 million in 1903, 111 and 227 million in 1930; CE 179).
+- Canon: 4.7 million Chinese Pacificans in a country whose output per person is about 2.3 times the Union's (CR-057, MODEL).
+- **B3:** remittances about twice history's by 1930 (MODEL), concentrated in Guangdong and Fujian (Taishan, Fong's family district). Canton's banks, schools and mills gain most; the south becomes richer than the north relative to history.
+
+### B7. Schooling and literacy
+
+| Item | History | Proposal |
+|---|---|---|
+| Literacy | J. L. Buck in the 1930s: 45% of males over seven had some schooling (about four years) and 30% were literate (R 58) | **B8:** about 40% of males literate in the early 1930s (MODEL) |
+| Abroad | the Educational Mission (120 students, 1872–75) recalled in 1881; about 8,000 students in Japan in 1905–06; American Boxer scholarships from 1909 | the mission continues (A5; the mission itself is §14, PROPOSED); the Polytechnic of Formosa (1906); Pacifica's Boxer scholarships; Japan trains lawyers and doctors (A8.7) |
+| Mass education | James Yen's Mass Education Movement (1923, with Liang Qichao, Hu Shi and Tao Xingzhi), a primer of about a thousand characters, the Ding county experiment from 1926; in 1929 the Nationalist government ordered 1.5 million copies of the primer | **B8:** Pacifican presses, paper and broadcasting support the movement on China's terms; Yen is the historical person who carries the strand |
+
+### B8. Opium
+
+- History: the edict of 1906 and the Ten Years' Agreement of 1907 with Britain; Indian imports almost stopped by 1917; the warlords then revived the poppy. In 1930 opium gave Liu Xiang's 21st Army in Sichuan 13.6 of 31.3 million yuan of revenue (R 18).
+- Canon: Pacifican merchants may still carry opium; strict collection of duty raises Chinese revenue and makes British supply dearer (§16, PROPOSED). At home, the Spirit Stores sell smoking opium under the Spirits Act of 1888 (CR-076).
+- **B9:** Fong's customs enforce the 1907 schedule; Formosa's administration runs stores on the Realm's model; the poppy's revival after 1917 is smaller where the railways and Nanjing reach (MODEL). No ban on Pacifican merchants (canon).
+
+### B9. Armies: the material base for Part C
+
+- Armies: about 500,000 in the late Qing, 1.5 million in 1913, 2 million in 1928, 2.23 million in 1935; military spending about 800 million yuan in 1928 (R 35). The Northern Expedition mobilised 1.1 million men (R 37).
+- At 1928's ratio, each 500,000 soldiers cost about 200 million yuan a year, about two-thirds of history's overseas remittances.
+- The number of soldiers is decided in Part C with the political timeline.
+
+### B10. Decisions for Part B
+
+| # | Decision | Recommendation |
+|---|---|---|
+| B1 | Famine deaths | 1876–79: about a million fewer; 1920–21: 0.2–0.3 million; 1928–30: 3–5 million, with a railway into the Wei valley before 1928 |
+| B2 | Chinese Pacificans | Accept the population model's 4.7 million (13% of residents) in 1932; Hawaii keeps its own entry rules |
+| B3 | Remittances | About twice history's by 1930, concentrated in Guangdong and Fujian |
+| B4 | Manchuria | About the same flow, more of it settled (net 10–12 million); railway land offices |
+| B5 | Rural credit | A Chinese farm bank and credit cooperatives from 1923 on the customs surplus and Pacifican silver credit |
+| B6 | Rent | The 1930 Land Law's 37.5% limit enforced in the districts of Pacifican-financed works |
+| B7 | Labour | A labour article in every Pacifican-financed work, mine and utility |
+| B8 | Literacy | About 40% of males literate by the early 1930s; Pacifican support for Yen's movement on China's terms |
+| B9 | Opium | The 1907 schedule enforced by the customs; stores on Formosa; no merchant ban |
+| B10 | Cities and living standards | About 6–7% in large cities; consumption per person up 0.8–1.0% a year |
+
+**Tradeoffs that cannot be avoided**
+1. **Rent and the Nationalists' base.** Enforcing the rent limit where the works are built takes income from landlords, who are much of the Nationalists' rural support. Not enforcing it leaves Mao his issue (Part C).
+2. **The labour article and Japan's mills.** Chinese mills on Pacifican credit pay directly and employ no children; Japan's mills in China do not have to. The difference makes Japan's mills the place where labour unrest starts, as in 1925.
+3. **South and north.** Remittances and the Pacific line enrich Guangdong and Fujian, while the waterworks and Manchuria help the north. The south's money is also the base of a southern government (Part C).
+4. **Literacy and nationalism.** More readers and broadcasts strengthen the demand to recover Formosa, Huludao and Tsingtao.
+5. **Relief and the warlords.** Railway relief works only while the lines' owners let grain trains pass, as the cliques did in 1920–21 but not in 1928–30.
+6. **The Chinese Pacificans.** At 13% of residents they are larger than any Chinese community abroad in history. The story must not become about one diaspora (CR-037), and Hawaii's concern for its own people stands.
+
+**Sources outside the four books (Part B)**
+- Famines: Wikipedia, *Northern Chinese Famine of 1876–1879*, *Chinese famine of 1920–1921*, *Chinese famine of 1928–1930* (citing Lillian Li, *Fighting Famine in North China*, 2007); DisasterHistory.org on 1920–21 and 1928–30; Pierre Fuller, *Famine Relief in Warlord China* (2019).
+- Migration to Manchuria: Gottschang and Lary, *Swallows and Settlers* (2000, open access); Gottschang's dissertation abstract (1982).
+- Hawaii's Chinese: 1884 census (FRUS 1885); Glick (1980) via *Culture & History*; Images of Old Hawaiʻi on the restrictions of 1886–92.
+- Students in Japan: FRUS 1906, Chargé Wilson, 3 January 1906.
+- Credit cooperatives: ILO, *International Labour Review* (1934); Wikipedia, *History of the cooperative movement in China*. Land Law of 1930: Taiwan Today; FAOLEX.
+- Mass Education Movement: Wikipedia, *Y. C. James Yen* and *Chinese National Association of the Mass Education Movement*; *Manawatu Times*, 20 April 1929.
+- Opium: Britannica, *Ten Years' Agreement*; FRUS 1907.
+- May Thirtieth: Wikipedia, *May Thirtieth Movement*; Britannica.
 
 ## C. The political timeline (sketch)
 

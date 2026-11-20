@@ -26,4 +26,4 @@ independence: fresh-context review of Part A and A8 (CR-081-review.md), correcti
 
 ## Resume here
 
-Waiting for the author's decisions 1–15 in the outline's A7 (recommendations in A8). Then draft Part B (socioeconomic) on the decided material layer; `population/china.py` only if decision 1 approves it.
+Part A decided (all fifteen A8 recommendations approved, 20 November 2026, 15:55). Part B drafted in the outline with decisions B1–B10; waiting for the author. Then Part C (political), and a fresh-context review of B and C. Then draft Part B (socioeconomic) on the decided material layer; `population/china.py` only if decision 1 approves it.
