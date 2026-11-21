@@ -1,6 +1,6 @@
 # CR-082 (outline) — Mouths and acres: how Pacifica means to be fed
 
-**Status:** OUTLINE, 21 November 2026. At 18:52 the author made Julian a provisioner, so the Office's tables slow less in his reign, and wished Japan's rice never to fall short. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
+**Status:** OUTLINE, 21 November 2026. At 19:09 the author fixed the slowing as a story assumption (1.5% in the regency's tables, 2.0% in Julian's), made Victoria a sufficer, and named the regions the provisioners weigh; C4 assesses them. At 18:52 the author made Julian a provisioner, so the Office's tables slow less in his reign, and wished Japan's rice never to fall short. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
 
 **Number:** CR-082. CR-081 (China, `drafts/cr081-china`, PR #83, not merged) waits on it; CR-080 (the partners) stays parked behind CR-081.
 
@@ -29,6 +29,16 @@
 > I see Julian as more of a provisioner. The Office therefore has to assume less slowing, at least for the time being, as Julian is convinced that he needs to bring more people under his umbrella in his personal quest to make the Pacific Concord the preeminent superpower on planet earth.
 >
 > I agree that the partners CR will probably give Japan higher than historical yields and I would be relieved if its rice output was never outstripped by demand. Policy could then be guided by foresight and prudence rather than by reaction to an immediate crisis. (18:52)
+>
+> Victoria is a classic sufficer. We can put down 1.5 for her regency's tables and 2 for Julian's tables as a story assumption.
+>
+> The way I see it, there are five regions that deserve strategic consideration from the provisioners perspective:
+> 1) saskatchewan, manitoba, alberta: can they be taken, along with BC probably Yukon?
+> 2) the Union and the Gulf: can the Gulf's requirements be loosened? The Union's grain is too big an ask
+> 3) Manchuria: the prime black soil prize of the hemisphere - what to do with it, Japan clearly wants it and sees it as its right
+> 4) Australia and New Zealand: same as with Canada
+> 5) the Mekong Delta: wildcard - low population, high potential, but completely alien ecosystem
+> Hokkaido is a low hanging fruit, for Chile the question is one of relationship: how far into the fold can it come? Obviously, it is a strategic choke point and Pacifica cannot tolerate any authority there that isn't in line with its programme. (19:09)
 
 **Author's premise (17:09), taken as the brief:** the leadership plans for half a billion Pacificans a century ahead, and that plan guides foreign policy explicitly.
 
@@ -101,7 +111,7 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
   - **The result.** The Realm's yields are 1.37 times history's in 1910, 1.85 in 1920 and 1.93 in 1930, which our timeline reached in 1944, 1961 and 1964. The lead is 34 years in 1910 and 41 in 1920; after that the Realm has used what there is, and only the weedkiller is still to come.
   - **Sourced and not.** The total, the dates and three magnitudes (Gaines a quarter above the wheats it replaced; the drill's 30% in the driest zone; breeding about half of wheat's yield gains in the plains literature) are sourced. The split among the six is MODEL, and when dated as history it fits the verified series within about 10%. *Canon:* the Colegio de Santa Fe has taught acequia irrigation and dry-land farming since 1864 and Deseret's university measures water (CR-036 D13, D14).
 - **The sea:** our timeline's Pacific landings at their peak of 1936 (the Pacific states' 1.9 billion pounds, verified, and Alaska's), reached by 1930 and counted as animal food that needs no crop land.
-- **Growth (author, 17:59 and 18:52):** from each table year the yearly rate falls in a straight line from the last decade's rate over a century: to 1.5% in the tables before 1908, and to 2.0% in the tables of Julian's reign, because Julian is a provisioner and the Office assumes less slowing for the time being. The 2.0% is the script's reading of that, not yet the author's figure.
+- **Growth (author, 17:59 and 18:52):** from each table year the yearly rate falls in a straight line from the last decade's rate over a century: to 1.5% in the tables before 1908, and to 2.0% in the tables of Julian's reign, because Julian is a provisioner and the Office assumes less slowing for the time being. Both figures are a story assumption (author, 19:09).
 - **The Philippine crown (author):** counted from 1908, as its own ledger on its own diet. It roughly feeds itself.
 
 **What it finds**
@@ -157,7 +167,7 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 - **F-2. DECIDED (author, 17:59):** the Office assumes the same diet, and a rate of growth slower than the early years'.
 - **F-3. DECIDED (author, 17:59):** the Philippine crown is counted after Julian's accession (from 1908).
 - **F-1a. DECIDED in part (author, 18:41):** nitrogen from about 1900, with Chile in the Pacific fold; the short wheats follow it. The other four innovations stay at their central dates unless the author moves them.
-- **F-1b. DECIDED in direction (author, 18:52):** less slowing under Julian, for the time being. Open: the figure (2.0% as built; 1.5% gives 438 million in the Realm a century on, 2.5% gives 722 million), and what the tables of Victoria's regency assume (1.5% as built).
+- **F-1b. DECIDED (author, 18:52 and 19:09):** as a story assumption the regency's tables slow to 1.5% a year and Julian's to 2.0%.
 - **F-1c.** Canon's irrigated area: about 22 million acres by 1910. A line for the storyline, with Powell's office.
 - **F-1d.** Canon's nitrogen: CR-054's 90 thousand tonnes in 1929 against the 480 thousand the case needs. After the decision of 18:41 CR-054's figure has to rise, and a canon tension for CR-054 is to be drafted. *Hist.:* before synthesis the world's fertilizer nitrogen came from Chile's nitrate, so the earliest dates are also a question of policy toward Chile (Part C).
 - **F-1e.** The sea: whether canon reaches history's peak landings by 1930, and what research adds beyond the catch (fishponds, hatcheries), which is not yet counted.
@@ -181,7 +191,7 @@ The table does not say what to do. Two schools read it, and the author's premise
 - **The provisioners.** Numbers are power. The Realm is the smallest of the great powers and will be outgrown by its partner and its rivals unless it grows, so the half-billion must be fed, and the acres found.
 - **The sufficers.** The domain carries what its water carries. Entry is already selective; let it be more so, and let the Realm be rich and few. This is the line that runs from Powell to Keawe's Charter.
 
-**Julian is a provisioner (author, 18:52).** He means to bring more people under his umbrella, to make the Concord the first power on earth. *Consequence for the account:* people come under the umbrella by birth, by ship and by crown, and each land that comes brings its own ledger of mouths and acres, as the Philippine crown did in 1907.
+**Victoria is a classic sufficer (author, 19:09). Julian is a provisioner (author, 18:52).** He means to bring more people under his umbrella, to make the Concord the first power on earth. *Consequence for the account:* people come under the umbrella by birth, by ship and by crown, and each land that comes brings its own ledger of mouths and acres, as the Philippine crown did in 1907.
 
 Each has canon behind it: the Party's *Things work* and the settlement programme on one side, the compacts, the reserved flows and selective entry on the other. Which men and women hold each view is a decision (F-6).
 
@@ -228,24 +238,59 @@ Each line gives what canon has, the gap and the question.
 - **Chile (author, 18:41):** brought into the Pacific fold for its nitrate, from about 1900. *Hist.:* the export duty on nitrate was more than half of Chile's ordinary revenue in 1890–1918, and British houses held much of the trade. *Questions:* by what instrument (a purchase contract, a loan on the duty, a compact), at whose expense, and from what year the Office first names Chile.
 - **The Union and Canada:** the largest grain surplus on earth lies behind the eastern frontier, and the Union buys four-fifths of its oil abroad, most of it from the Gulf (CR-058). *Question:* whether oil for grain is the continent's bargain, and why the provisioners will not rest on it. By A3 the Realm sells food until about 1940; the question is what it secures before then, and what it does with a surplus that Japan needs.
 
-### C4. Other people's surplus land
+### C4. The theatres (author, 19:09; assessments are proposals)
 
-*Proposal:* the doctrine ranks foreign land by its surplus, not its size. China proper feeds itself and little more; in the 1920s it bought rice and flour abroad (to verify).
+**The measure.** One mouth on the Realm's diet needs about a tonne of grain or its equivalent a year (2.1 average acres; MODEL). What each region sells abroad is counted in such mouths. The Realm's own need a century on is about 510 million mouths beyond its ceiling (A3).
 
-| Land | What it yields | Canon's hold | Rival claimant |
-|---|---|---|---|
-| Manchuria | soybeans, bean cake, wheat | Huludao's port, trust and district; Chinese railways | China's own settlers; Japan |
-| Formosa | rice, sugar | the administration since 1895 | Japan, by contract; China, by right |
-| Korea | rice | a guarantee; fertilizer sales | Japan |
-| The Amur and Siberia | wheat, in time | the alliance of 1922 | Russia; Japan's sphere |
-| The rice deltas (Siam, Cochinchina, Burma) | the world's rice exports | none | France, Britain |
-| Australia and New Zealand | wheat, meat, wool | none | Britain; closed to Asian settlers |
+| Theatre | People, about 1930 | What it sells, in Realm mouths | Holder | Canon's hold today |
+|---|---|---|---|---|
+| The prairies, with British Columbia and the Yukon | about 2.4 million on the prairies | 8–15 million by harvest (Canada's wheat: 567 million bushels in 1928, about 300 million in 1931) | Canada | the rivers through Alaska; the Columbia compact; friends from Irkutsk |
+| The Gulf | — | rice, feed, cotton land (not yet counted) | the Gulf Republic | compacts for oil, bauxite and defence; admission tests |
+| The Union | — | the largest surplus on earth (not counted) | the Union | none; it buys the Gulf's oil |
+| Manchuria | about 30 million, nearly all Chinese | about 5 million (soybeans: 5 million tons at the peak of 1931, three-fifths of the world's trade) | China | Huludao; the Treaty of Nanjing's guarantee |
+| Australia and New Zealand | about 8 million | about 4–5 million (Australia's wheat: about 213 million bushels in 1930), with meat, butter and wool | the dominions | none; New Zealand's drift (CR-049) |
+| The Mekong delta | about 4–5 million (to verify) | about 1 million, or 8 million rice-eaters (exports to verify) | France | none; France is the Realm's debtor |
+| Hokkaido | — | up to 4 million koku of rice for Japan | Japan | the advisers of Kuroda's time; the northern school |
+| Chile | — | the nitrogen behind a third of the Realm's yields | Chile | none |
 
-**The forms a claim can take,** from light to heavy: a purchase contract; a claim on revenue through credit; a lease by compact to a land company; an administration; a cession.
+**What the theatres can and cannot do.** Everything the five regions sell today is some 20–30 million Realm mouths, about a twentieth of the century's gap. No acquisition closes it. The regions buy decades; the century is decided by yields, by diet and by how many people Julian gathers. The provisioners' programme therefore has two halves, and only one of them is territorial.
 
-**Two limits from canon and arithmetic.**
-- The Realm takes no acre without a compact, at home or abroad (CR-033, CR-070, CR-074's Act).
-- The Realm imports people. It has none to settle abroad, so settlement colonies, the form Japan and Europe chose, are closed to it by its own numbers. Its claim is on the crop, and on the people who come.
+**1. The prairies, British Columbia and the Yukon.** *Hist.:* the prairie provinces grew sixfold from 1901 to 1931; wheat was a third of Canada's exports; in 1930–31 the wheat pools failed, the three provinces stood guarantor for the banks' advances (about $22 million), and two-thirds of the rural prairie population went on relief. *Canon:* Pacifica is "the giant its neighbours need not fear"; it encouraged British Columbia into Confederation, financed the Canadian Pacific quietly and gave Canada its rivers through Alaska (CR-058).
+- *Can they be taken?* By force, no: it puts Canada, Britain and the Union on one side along the Realm's longest open frontier, for wheat that is for sale. By consent, perhaps, and not before the 1940s: the prairies are British in feeling, and a third of the Realm is of Asian origin.
+- *Proposal:* hold now, leave the door open. In 1931 Julian buys the carry-over, refinances the pools and takes the crop on a long contract through Vancouver. The provinces owe the Realm what they owed the banks. If Canada later fractures, the prairies and British Columbia may ask for a crown by plebiscite, as Manila did; the Realm does not ask first.
+- *Tension:* any step past contract amends CR-058.
+
+**2. The Gulf and the Union.** *Canon:* the Gulf's admission tests cannot pass before the 1960s (CR-039).
+- *Can the tests be loosened?* The tests exist so that a member works as the Realm works. Loosening them for food buys little, because the food does not need admission: a provisioning compact (the rice coast, feed, drainage on Realm credit) gets the crop under the compacts the Gulf already has. Loosening them for people is Julian's real reason, and that is a decision about the umbrella, not about grain.
+- *The Union.* Agreed, too big an ask. But it is a seller that needs the Gulf's oil. The provisioners' interest is that it stays a seller: never an embargo (canon), and no quarrel that closes its elevators.
+
+**3. Manchuria.** *Hist.:* 18 million people on 8 million hectares in 1912, over 13 million hectares by 1929, 37 million people by 1937; Japan was the chief buyer of its beans, oil and bean cake from the 1890s. *Canon:* Chinese, under the Concord's guarantee; Japan has transit and a share in the line's management; its officers plot in 1931.
+- *What it is.* The black soil is already farmed by Chinese settlers, and each year more. It is not empty land to be had; its prize is the crop it sells.
+- *What Japan's claim rests on.* In history, bean cake for its paddies and rice for its cities. In canon Japan fixes its own nitrogen, grows its own rice and has Hokkaido. The material case is gone, and what remains is the army's.
+- *Proposal:* the Concord takes the crop, not the land: a soybean compact with China, the mills and the port at Huludao, long contracts, and the Realm's seed and nitrogen sold to Manchuria's farmers. This is also the answer CR-081 lacked: the point of China policy is that Manchuria's surplus flows to the Concord and its land stays out of the army's hands.
+
+**4. Australia and New Zealand.** *Canon:* Britain's retreat is complete in 1927. *Hist.:* 25 million acres under crop in 1930–31, the most ever; wheat seven-tenths of it.
+- *Same as Canada?* Harder. There is no frontier, 7,000 miles of sea, and what they fear is Japan. They keep Asian settlers out; the Concord is Japan and a Realm one-third Asian.
+- *Proposal:* a guarantee, as Korea has, in exchange for the crop and for no hostile base: wheat, meat, butter and wool on long contract, and Santa Fe's science exchanged with theirs, since their problem is the Realm's. New Zealand first. The price is paid by Japan, which must renounce the south, and that is the Concord's business.
+
+**5. The Mekong delta.** *Hist.:* French; a rice frontier opened by canals since the 1880s. Its surplus is small and it is rice, so it serves Japan and the Philippine crown, not the Realm's table.
+- *Proposal:* last in rank. The Realm's own tropical frontier is already under the umbrella: the Philippine crown's cultivated land tripled between 1903 and 1935 in history, with Mindanao still to open, and the Borneo company holds its interior. If the delta is wanted, France is a debtor, and the means is a contract, not a garrison. The real wildcard is Siam, independent and a larger seller.
+
+**Hokkaido.** *Hist.:* its rice fields reached 198,000 hectares in 1932 and four million koku at best; most of that came in 1920–32 with large irrigation works, on cold-hardy varieties bred from 1893 to 1919. *Canon:* Pacifican advisers have been there since Kuroda. *Proposal:* the same works a generation earlier. It is about half of what Japan needs for no gap (A3), and the cheapest item on this list.
+
+**Chile.** *Hist.:* in 1891 the Congress and the navy fought President Balmaceda and the army; the nitrate houses stood with the Congress; the Congress's ship *Itata* took on 5,000 rifles off San Diego in May; Washington favoured Balmaceda; he lost and shot himself in September. How far the British houses caused the war is disputed.
+- *The hook.* San Diego is Pacifican, and the Republic has forbidden the fitting-out of armed ventures since 1854. The rifles never sail. The year is 1891, a year after the first table.
+- *How far into the fold.* A ladder: buyer on a long contract; creditor with a lien on the nitrate duty, which is half of Chile's revenue; guarantor, with coaling at Valparaíso and the Strait; protégé under a compact, as the Gulf is. *Proposal:* the third rung by 1900. The Realm backs Chilean ownership of the nitrate against the foreign houses, as it backs Chinese ownership in China, lends for it and takes the crop. A veto over Chile's course then comes from the lien and the guarantee, without a garrison.
+- *The author's condition* ("cannot tolerate any authority there that isn't in line with its programme") is harder than the ladder: it means the Realm decides who governs Chile. *Question:* whether the Realm intervenes in 1891, under the sufficer Victoria, whose whole answer to the table is yield and who therefore needs the nitrate more than anyone.
+
+**Decisions for C4**
+- **R-1.** The prairies: contract and credit in 1931, the door left open (or more).
+- **R-2.** The Gulf: a provisioning compact, the tests untouched (or loosened for Julian's reason).
+- **R-3.** Manchuria: the crop and not the land; a soybean compact with China.
+- **R-4.** Australia and New Zealand: a guarantee for the crop; Japan renounces the south.
+- **R-5.** The Mekong: last; the Philippine crown's own frontier first.
+- **R-6.** Hokkaido: its rice works a generation early (to the partners' CR).
+- **R-7.** Chile: the rung reached by 1900, and what the Realm does in 1891.
 
 ### C5. People
 
@@ -256,8 +301,7 @@ Where the half-billion come from: births, and ships from Japan, China and the Ph
 - **F-9.** The home instruments, and the challenge evening on nitrogen.
 - **F-10.** The sea's place in the account.
 - **F-11.** The Gulf, the Union and Canada in the account.
-- **F-12.** The ranking of foreign surplus land.
-- **F-13.** The heaviest form of claim the Realm allows itself in each land (the author's open question of 16:46: trade, hold or settle).
+- **F-12, F-13.** The ranking of the theatres and the heaviest claim the Realm allows itself in each: now R-1 to R-7 in C4.
 - **F-14.** Entry policy under the doctrine.
 
 ## D. What it changes elsewhere (to be decided there)
@@ -290,6 +334,8 @@ none
 ## Sources
 
 Stated from general knowledge and to verify before any figure or date is used: Powell at the Irrigation Congress (October 1893); Crookes's address (September 1898) and its date for the wheat failure; Pearl and Reed's ceiling (1920); King's journey (1909) and book (1911); California's first commercial rice (1912); the rice riots of 1918 and the plan of 1920; China's rice and flour imports in the 1920s; the western phosphate field and Searles Lake; the grain-equivalent ratio between diets.
+
+Read for the theatres on 21 November 2026: the Dominion Bureau of Statistics' monthly wheat reviews of 1931–34 and New Zealand press reports of 1930–31 on the pools (Papers Past); Encyclopedia.com, 'Manchuria', and Mishina on Manchuria's sown area; the Commonwealth Year Books of 1931–40 (Australia's area under crop); the Annals of the Tohoku Geographical Association and Hokkaido University's papers on Hokkaido's rice; Wikipedia and Britannica on the *Itata* and the civil war of 1891, and Monteón on North. Not found and stated from general knowledge, to verify: Cochinchina's rice exports and people, the prairie provinces' control of their resources (1930), the Gulf's crops.
 
 Read for Japan and Chile on 21 November 2026: Hayami and Ruttan, 'Korean Rice, Taiwan Rice, and Japanese Agricultural Stagnation' (University of Minnesota staff paper, 1970); a study of the prewar rice futures markets for the crop's five-year means (arXiv 1404.1164); Encyclopedia.com, 'Nitrate', and the 1914–1918 Online encyclopedia, 'Nitrate', for Chile's exports and the duty.
 

@@ -100,7 +100,7 @@ horizon = 100
 # Author, 21 November 2026, 18:52: Julian is a provisioner and means to bring more
 # people under his umbrella, so under him the Office assumes less slowing, "at least
 # for the time being". The tables made in his reign (from 1908) end at this rate.
-# The value is the script's reading of "less slowing"; the author has not fixed it.
+# Author, 19:09: 1.5 for the regency's tables and 2 for Julian's, as a story assumption.
 g_end_julian = 0.020
 julian_from = 1908
 # Ceiling on irrigated area in the territory: the 1940 census's irrigable area in
