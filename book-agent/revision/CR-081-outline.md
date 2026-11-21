@@ -1,6 +1,6 @@
 # CR-081 (outline) — China's other century: materials, society and politics (1860–1932)
 
-**Status:** OUTLINE, 20 November 2026. Parts A and B are decided (A7, B10); Part C (the political timeline) is drafted and revised after its fresh-context review, with decisions P-1 to P-30. Nothing in Part C is decided beyond what is marked *canon*.
+**Status:** OUTLINE, 20 November 2026. Parts A and B are decided (A7, B10); Part C (the political timeline) is drafted and revised after its fresh-context review, with decisions P-1 to P-30. P-1 to P-3 were approved on 21 November 2026; P-4 is being rethought in C2a (the Victoria–Cixi friendship and the end of the Qing). Nothing in Part C is decided beyond what is marked *canon*.
 
 **Number:** CR-081. CR-080 (the partners' CR) is parked; its China part shrinks to what Japan, Korea and Russia need from China.
 
@@ -386,6 +386,74 @@ Built on Parts A and B as decided and on canon's turning points. Each period giv
 
 **The Boxers.** Canon's contingent is limited and withdraws early, and Pacifica's indemnity share goes to scholarships and, after 1901, to the conservancy (A8.10). No decision is needed here.
 
+### C2a. Victoria and Cixi, and the end of the Qing (revision of P-4, 21 November 2026)
+
+The author approved P-1 to P-3 on 21 November 2026 and asked for P-4 to be rethought: a peer friendship between Cixi and Victoria after the Boxers would change the character of the New Policies, and the Qing's fall need not come at canon's date or in history's manner. Canon's "1911–1912" is a placeholder (author's note). This section gives the friendship, what it changes, three ways the dynasty can end, and a recommendation. P-4 to P-8 below wait on the author's choice here.
+
+**The historical anchor.** After the court returned to Peking in January 1902, Cixi began a series of palace receptions for the wives of the legations, on the assumption that women would be readier to answer an appeal of friendship. Sarah Conger, the American minister's wife, persuaded her in 1903 to sit for Katharine Carl, whose portrait hung at the St. Louis exposition of 1904; Der Ling, a lady-in-waiting from 1903 to 1905, interpreted. Cixi's charm campaign of 1902–1908 was real; what it lacked was a counterpart of her own rank. In canon there is one. Victoria was born in 1838 and Cixi in 1835. Both are widowed regents who governed for adopted sons, Victoria for Julian and Cixi for Guangxu. Both negotiated together in 1898–99 (CR-042, APPROVED), and canon already calls them friends and leaves their scenes open.
+
+**P-4a. The friendship (proposal).**
+- *Its seed* is the Boxer year. Pacifica's limited contingent guards the legations, takes no loot and withdraws first (canon), and Victoria's indemnity share goes to scholarships and the conservancy. When the court comes home in January 1902, Victoria writes to Cixi as one regent to another.
+- *Its go-betweens* are two young women. Princess Kaʻiulani (born 1875, CR-043) is Victoria's envoy at the court from 1902; the apprenticeship is the diplomacy she later uses at The Hague in 1919, and her damaged heart valve limits her journeys. Der Ling (historical) interprets, as she did for Sarah Conger. Der Ling would be a new cast member; the alternative is Kaʻiulani's own interpreter, unnamed.
+- *The meeting.* Victoria visits the Summer Palace in the spring of 1906, after the war of 1904–05 and before her own handover to Julian, while the constitutional missions are abroad.
+- *What each wants.* Cixi wants a power that does not plot against her and a model for an old woman handing over a throne. Victoria wants a China that survives as a partner, and a friend who knows what a regency costs.
+- *The limits.* The friendship lends money and advice, never troops or warships (P-2), and it never asks Cixi to change her court. Japan trains the New Army's officers, as in history, so Japan holds its own stake in the dynasty's army.
+
+**P-4b. The New Policies with a friend (proposal).** Each change takes a historical measure and gives it what it lacked: money, time or a model.
+1. **The examinations are converted, not abolished.** *Hist.:* the throne had agreed to cut the degree quotas over the next three examinations, and on 2 September 1905, on Yuan Shikai's and Zhang Zhidong's memorial, it abolished the examinations at once. Economists and historians link the abolition to the gentry's turn toward revolution after 1905 (Bai and Jia). A title incentive programme gave old degrees to graduates of the new schools until 1911 (Chu). *Proposal:* Cixi keeps the gradual plan of 1903–04, and from 1906 the old degrees are awarded by new-subject state examinations under a board of examinations. The board is advised by the Polytechnic's examiners on Pacifica's model of examination for office (CR-037, CR-038). The gentry's sons keep their road into office, and the new schools are its entrance.
+2. **The banner conversion is paid for.** *Hist.:* Cixi's edicts of September and October 1907, the first on Yuan's memorial, ordered the provincial banner garrisons gradually disbanded, their pensions capitalised for ten years and land granted in place of stipends, and declared Manchu and Han equal before the law. The money was never found. *Proposal:* a Pacifican loan on the customs funds the capitalisation, on the pattern of the Realm's Land Fund. By 1912 most provincial bannermen hold land or bonds instead of stipends, and the "Manchu question" that drove the revolutionaries loses much of its force.
+3. **The constitution has a date the court keeps.** *Hist.:* the missions of 1905–06 (Dai Hongci and Duanfang to the Union first, Zaize to Japan and Europe) reported that constitutional government was the only way to make the state strong; the edict of 1 September 1906 promised a constitution, and the Outline of August 1908 set a nine-year timetable. *Proposal:* Dai and Duanfang's mission stops at Thalassia after Washington. The Outline of 1908 keeps Japan's model for the throne and sets a parliament for 1912.
+4. **The emperor comes back.** *Proposal:* from 1906 Cixi brings Guangxu back into the Grand Council's audiences. When Victoria hands Pacifica to Julian under the Act of Settlement in 1907 (canon), Cixi has seen a regency end without a coup, and in 1908 she names Guangxu to reign under the Outline, with Puyi as his adopted heir.
+5. **Money and the customs.** The Revenue Council of 1906 with Tang Shaoyi (P-7) is the friendship's working office, Fong reporting to it (canon). The first national budget comes earlier than history's of 1910–11.
+
+**P-4c. November 1908 (proposal).** *Hist.:* Guangxu died on 14 November 1908, aged 37, and Cixi on 15 November. A forensic study of 2008 found arsenic in his remains far above normal; historians suspect Cixi, Yuan Shikai or the eunuch Li Lianying, and none is proved. His palace records show years of illness. *Proposal:* in canon Cixi dies on 15 November 1908 and Guangxu does not die. Why is not established; whatever reason anyone may have had is weaker when she has already named him to reign. Victoria loses her friend in the month the fission paper is sealed at home (CR-050).
+
+**P-4d. How the Qing ends: three options.**
+
+*Option 1. Cixi's decade, the fall on canon's date (canon kept).* Guangxu dies with her, as in history. Prince Chun's regency undoes much of what she began: the princes' cabinet, Yuan's dismissal, the Sichuan nationalisation. The dynasty ends in 1911–12 as canon has it. China's Republic inherits a converted examination, a paid banner conversion and a working budget, so the warlord years start from stronger institutions. Victoria watches a regent destroy her friend's work, and Julian backs Sun.
+
+*Option 2. Guangxu's reign, the fall by usurpation in 1915–16 (recommended).*
+- **1908–14: the constitutional reign.**
+  - Guangxu reigns and dismisses Yuan in January 1909, as the regent did in history and for the same grudge of 1898.
+  - Kang Youwei and Liang Qichao are pardoned and come home from Pacifica, so the Protect the Emperor Society, sheltered in San Francisco and Honolulu (P-3), wins its cause.
+  - The assemblies of 1909 and the National Assembly of 1910 meet as in history. A responsible cabinet replaces the princes' cabinet in 1911, with Tang Shaoyi as premier (P-7).
+  - The railway question is settled with cash for the Sichuan shareholders on Pacifican credit, so Sichuan does not rise. The revolutionaries' Canton rising of April 1911 fails, as in history, and there is no Wuchang.
+  - The first parliament is elected in 1912–13, and Song Jiaoren's Kuomintang wins the most seats, as it did in history's election.
+  - Julian backs Sun's movement from 1911 (canon) as a republican opposition with its base in Honolulu, while Victoria keeps her ties to Guangxu's court. China becomes the place where their drift can be seen.
+- **1915: the end.**
+  - The Twenty-One Demands are presented to Guangxu's cabinet, and Victoria, as Julian's envoy, blocks the worst of them (canon).
+  - Guangxu dies in 1915 of his long illness (MODEL; any cause short of murder). Puyi, aged nine, succeeds him under a regency.
+  - In December 1915 Yuan Shikai, recalled by the frightened regency to command the Beiyang divisions, forces the abdication, dissolves the parliament and proclaims his own dynasty. Canon's Yuan monarchy of 1915–16 is what ends the Qing.
+- **1916: the Republic.**
+  - Yunnan under Cai E, Liang Qichao's constitutionalists and Sun's party rise against Yuan, as they did in history. Fong holds the customs surplus in trust because no recognised government exists (P-5), so "Julian leaves him to his fate" (canon) means that no customs money reaches Yuan.
+  - Yuan abandons the throne and dies in June 1916 (canon). The parliament proclaims the Republic and elects Sun provisional president.
+  - The Beiyang generals force Sun out in 1917, and he goes to Canton (history's Constitutional Protection government of 1917). Canon's "Pacifica's chosen partner begins defeated" moves from 1912–13 to 1917.
+  - Puyi keeps the Forbidden City under articles of favourable treatment, Zhang Xun's restoration of July 1917 follows a year and a half after the abdication, and the coup of 1924 sends Puyi to Tianjin (P-26).
+- **What it gives.**
+  - Seven more years of central constitutional government, 1908–15.
+  - A Republic born in a revolt against a usurper, which both Victoria's constitutionalists and Julian's republicans joined.
+  - Japan's officers in the New Army and Japan's opposition to Yuan's throne (as in history) on the same side as Pacifica.
+  - Canon's 1916–32 left as it is.
+
+*Option 3. The Qing survives to 1932.* Guangxu reigns into the 1920s and Puyi succeeds him under the constitution. This is the strongest China, but it removes canon's Nationalists, Whampoa, the Northern Expedition and the Treaty of Nanjing in the form CR-039 approved, and with them most of §33. Not recommended unless the author wants a different 1920s.
+
+**Recommendation:** Option 2. It answers the author's point that the fall is underdetermined by giving it a cause the friendship creates: the dynasty outlives Cixi because Guangxu does, and it ends when he dies and a general seizes the throne. It also keeps canon's 1915–16 and everything after.
+
+**What Option 2 changes elsewhere in Part C (to be redrafted after the decision)**
+- **P-4:** replaced by P-4a to P-4d.
+- **P-5:** the trusteeship applies in 1915–16, with no recognised government until the Republic.
+- **P-6:** there is no Reorganisation Loan to Yuan in 1913. A constitutional loan voted by the parliament (salt reform under British inspection) is one Pacifica may join.
+- **P-7:** Tang Shaoyi is premier under Guangxu from 1911, not under Yuan in 1912.
+- **P-8:** the Demands go to Guangxu's cabinet.
+- **P-9 to P-30:** unchanged in substance. The Republic's governments begin in 1916.
+- **A8.4:** the railway path is unchanged. The "backlash against the lender" of 1911 does not happen, and the slower building after 1911 becomes slower building in the war years.
+
+**Tradeoffs of Option 2**
+1. Guangxu's survival is the hinge. If the author wants history's poisoning kept as an unsolved mystery, Option 1 keeps it.
+2. Julian backing republicans against a reforming dynasty his mother loves is a strong conflict and a hard one to defend in public. Canon already calls his China policy a contradiction.
+3. Kang and Liang's victory makes the Pacifican-based monarchists, not Sun, the winners of 1908, so Sun's standing with the Chinese Pacificans falls until 1915.
+4. Yuan's usurpation has to be credible after six years out of office. It rests on the Beiyang officers' loyalty to him, which held from 1909 to 1911 in history.
+
 ### C3. 1901–1911: the New Policies with more money, and the fall (D0.3)
 
 - *Hist.:*
@@ -399,7 +467,7 @@ Built on Parts A and B as decided and on canon's turning points. Each period giv
   - the Sichuan Railway Protection League formed on 17 June, and troops sent from Hubei to suppress it gave the Wuchang garrison its chance on 10 October.
 - *Canon and Parts A–B:* more revenue (a moderate indemnity, a published customs), more railways (11,000–12,000 km by 1911, A8.4), a Chinese Manchuria, the Polytechnic of Formosa (1906) and the mission's men in office. The war of 1904–05 is fought on neutral China's ground around Harbin and the Sungari (§26), and Japan's army leaves Manchuria under the settlement signed at Urajio in 1905 (CR-039).
 
-**P-4. Why the Qing still falls.** Canon fixes the fall. *Proposal:* the New Policies go further in money, railways and trained men, and the court still fails politically, as in history: the princes' cabinet of May 1911 alienates the constitutionalists, and the nationalisation sets Sichuan alight. The Hankow–Canton trunk, built on Pacifican credit from 1896 (canon, PROPOSED), is open by 1911 except the mountain section, which Zhan Tianyou finishes in 1916 (MODEL), so the crisis of 1911 is about the Sichuan–Hankow line and its Sichuan shareholders. Pacifica is not in the Huguang consortium, because its rule is to lend to Chinese-owned lines on the customs with no foreign management (A8.4), so the crisis is not Pacifica's. The mission's men are divided, as they were in history: Tang Shaoyi serves Yuan in the negotiations of 1911–12, and Liang Dunyan, foreign minister in the princes' cabinet, stays a monarchist.
+**P-4. Why the Qing still falls.** *(First draft, superseded by C2a's options; kept for Option 1.)* Canon fixes the fall. *Proposal:* the New Policies go further in money, railways and trained men, and the court still fails politically, as in history: the princes' cabinet of May 1911 alienates the constitutionalists, and the nationalisation sets Sichuan alight. The Hankow–Canton trunk, built on Pacifican credit from 1896 (canon, PROPOSED), is open by 1911 except the mountain section, which Zhan Tianyou finishes in 1916 (MODEL), so the crisis of 1911 is about the Sichuan–Hankow line and its Sichuan shareholders. Pacifica is not in the Huguang consortium, because its rule is to lend to Chinese-owned lines on the customs with no foreign management (A8.4), so the crisis is not Pacifica's. The mission's men are divided, as they were in history: Tang Shaoyi serves Yuan in the negotiations of 1911–12, and Liang Dunyan, foreign minister in the princes' cabinet, stays a monarchist.
 
 **P-5. The customs in the revolution.** *Hist.:* in January 1912 the diplomatic body made the Inspector-General the trustee of all customs revenue, deposited in foreign banks at Shanghai for the loan service, so that he released the surplus only to the government the powers recognised. *Proposal:* Fong does the same, because the customs secure the loans Pacifica's savers hold, and the conservancy's share, a charge on the surplus since 1891 (A8.10), is paid first. Pacifica recognises the Republic on the abdication (12 February 1912), not a person, and so the trusteeship that serves the Republic in 1912 serves Yuan from March. Canon's smaller indemnities leave a larger surplus than history's, and in 1913 it helps pay for Yuan's campaign against the Second Revolution. This is Fong's divided duty again: Julian backs Sun, and Fong's revenue goes to Peking.
 
@@ -545,10 +613,10 @@ Zhan Tianyou (the Peking–Kalgan line, 1905–09; the Canton–Hankow line, P-4
 
 | # | Decision | Recommendation |
 |---|---|---|
-| P-1 | The mission and the partner | The mission not recalled; Li Hongzhang's Beiyang administration and Sheng's enterprises as partner; the mission's men in their offices |
-| P-2 | The fleet credit of 1885 | Lent in money; no Pacifican-built warships or Pacifican officers in Chinese warships; a minority of the mission's naval men serve and some die at the Yalu |
-| P-3 | The reformers in exile | Asylum and freedom to organise for Kang, Liang and Sun's men; no arms or credit for risings; the 1905 league still founded in Tokyo |
-| P-4 | The fall of the Qing | As history: the princes' cabinet and the Sichuan line; the Hankow–Canton trunk open by 1911 and finished in 1916 (MODEL); Pacifica outside the Huguang consortium; the mission's men divided |
+| P-1 | The mission and the partner (approved 21 Nov) | The mission not recalled; Li Hongzhang's Beiyang administration and Sheng's enterprises as partner; the mission's men in their offices |
+| P-2 | The fleet credit of 1885 (approved 21 Nov) | Lent in money; no Pacifican-built warships or Pacifican officers in Chinese warships; a minority of the mission's naval men serve and some die at the Yalu |
+| P-3 | The reformers in exile (approved 21 Nov) | Asylum and freedom to organise for Kang, Liang and Sun's men; no arms or credit for risings; the 1905 league still founded in Tokyo |
+| P-4a–d | Victoria and Cixi; the New Policies; November 1908; the end of the Qing (C2a) | The friendship from 1902 with Kaʻiulani as envoy; examinations converted, banner conversion paid, parliament for 1912, Guangxu back in council; Guangxu outlives Cixi; Option 2, the Qing falls to Yuan's usurpation in December 1915 and the Republic is proclaimed in 1916 (canon tension 2, case B) |
 | P-5 | The customs in 1911–12 | Fong as trustee for the loan service, the works share first; the surplus to the recognised government; Pacifica recognises the Republic on the abdication |
 | P-6 | The Reorganisation Loan | Pacifica stays out and says why; Britain leads and runs the salt inspectorate; Japan takes its share |
 | P-7 | Tang Shaoyi | Added to the cast: the Revenue Council (1906), premier (1912), the southern delegation (1919), the Zhongshan model county (1929), the Canton opposition (1931) |
@@ -622,12 +690,26 @@ Zhan Tianyou (the Peking–Kalgan line, 1905–09; the Canton–Hankow line, P-4
 
 ## Canon tensions
 
-One tension, from Part C (tension 1 below). Parts A and B stay inside canon. The ones to watch are:
+Two tensions, from Part C (tensions 1 and 2 below). Parts A and B stay inside canon. The ones to watch are:
 - Kaiping's refinancing in 1900–01 by Hoover (a Pacifican in canon; history's Kaiping engineer from 1899), which canon does not mention;
 - Fushun's ownership;
 - an end date for the Formosan administration after 1932 (no tension if it falls after 1932);
 - whether canon's §14 and §16 inputs (PROPOSED) are approved with this CR;
 - **Canon tension 1 (P-14, Pacifica's money for Sun and Whampoa).** Canon: "Pacifica funds Sun in Canton" (§29, PROPOSED) and "Pacifican money supports Whampoa" (§33, PROPOSED); A8.7 (decided): "officers train at Whampoa on Pacifican money". *Case A, canon kept:* a declared grant from Thalassia from 1917, buildings, books and pay, not arms (P-14's recommendation). *Case B, canon amended:* indirect money only (the Chinese Pacificans' subscriptions and the works share), with §29 and §33 reading "Chinese-Pacifican money" and A8.7 amended. No fact changes either way. *Recommendation:* case A.
+- **Canon tension 2 (C2a, the Qing's fall).** Canon (§27, unlabelled narrative): "The Qing falls in 1911–1912. Julian, four years on the throne, supports Sun Yat-sen's movement". PROPOSED: Sun's tour after Wuchang, his provisional presidency, yielding to Yuan, the Second Revolution of 1913 and the Honolulu exile. CR-042 (APPROVED): works on Huludao "go on through the revolution, and the Republic confirms the commission".
+  - *Case A (canon kept):* Option 1.
+  - *Case B (canon amended):* Option 2.
+    - §27 is rewritten: Cixi dies in 1908 and Guangxu reigns; Julian backs Sun from 1911; the Qing falls to Yuan in December 1915.
+    - Sun's provisional presidency moves to 1916.
+    - CR-042's sentence reads "go on through the war years, and the Republic of 1916 confirms the commission".
+
+```json
+[
+  {"add_event": {"id": "qing-fall", "year": 1915, "patterns": ["The Qing falls in (?P<year>1[89]\\d\\d)"]}}
+]
+```
+
+*Recommendation:* case B.
 - **Watch items (proposals canon neither states nor excludes):**
   - Xu Shichang left the viceroyalty on 8 February 1909 (*Hist.*). Canon's 1909 charter (PROPOSED for Xu's part) then needs Xu acting from Peking as Minister of Posts and Communications, or an early-1909 charter; P-9 reads it the first way.
   - No British Weihaiwei in canon, since its lease depended on Russia holding Port Arthur (C8).
