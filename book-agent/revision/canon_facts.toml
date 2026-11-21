@@ -1610,3 +1610,101 @@ id = "press-seat-succession"
 year = 1931
 patterns = ['''On 29 April (?P<year>1[89]\d\d) Hearst reaches sixty-eight''']
 source = "CR-079"
+
+[[person]]
+id = "CT-CIXI"
+aliases = ["Cixi", "Empress Dowager Cixi"]
+born = 1835
+died = 1908
+source = "CR-081"
+
+[[person]]
+id = "CT-YUAN-SHIKAI"
+aliases = ["Yuan Shikai", "Yuan"]
+born = 1859
+died = 1916
+source = "CR-081"
+
+[[person]]
+id = "CT-TANG-SHAOYI"
+aliases = ["Tang Shaoyi"]
+born = 1862
+source = "CR-081"
+
+[[person]]
+id = "CT-LONGYU"
+aliases = ["Longyu", "Empress Dowager Longyu"]
+born = 1868
+died = 1913
+source = "CR-081"
+
+[[person]]
+id = "CT-ZAIFENG"
+aliases = ["Zaifeng", "Prince Chun"]
+born = 1883
+source = "CR-081"
+
+[[person]]
+id = "CT-DUANFANG"
+aliases = ["Duanfang"]
+born = 1861
+died = 1911
+source = "CR-081"
+
+[[person]]
+id = "CT-MAO-ZEDONG"
+aliases = ["Mao Zedong", "Mao"]
+born = 1893
+source = "CR-081"
+
+[[person]]
+id = "CT-DENG-YANDA"
+aliases = ["Deng Yanda"]
+born = 1895
+died = 1931
+source = "CR-081"
+
+[[person]]
+id = "CT-SU-ZHAOZHENG"
+aliases = ["Su Zhaozheng"]
+born = 1885
+died = 1929
+source = "CR-081"
+
+[[person]]
+id = "CT-TANG-SHENGZHI"
+aliases = ["Tang Shengzhi"]
+born = 1889
+source = "CR-081"
+
+[[person]]
+id = "CT-TAN-YANKAI"
+aliases = ["Tan Yankai"]
+born = 1880
+died = 1930
+source = "CR-081"
+
+[[person]]
+id = "CT-SUN-FO"
+aliases = ["Sun Fo"]
+born = 1891
+source = "CR-081"
+
+[[person]]
+id = "CT-HE-JIAN"
+aliases = ["He Jian"]
+born = 1887
+source = "CR-081"
+
+[[person]]
+id = "CT-WANG-JINGWEI"
+aliases = ["Wang Jingwei"]
+born = 1883
+source = "CR-081"
+
+[[person]]
+id = "CT-CHIN-GEE-HEE"
+aliases = ["Chin Gee Hee"]
+born = 1844
+died = 1929
+source = "CR-081"

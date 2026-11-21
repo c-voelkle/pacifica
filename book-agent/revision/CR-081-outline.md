@@ -856,7 +856,7 @@ None tracked by the linter: `cr_facts.py preview --tensions` finds no canon fact
 - §28: "Britain remains a partner" read as a partner in the war's finance (canon tension 3).
 - CR-077 D-6 and its open item (canon tension 3, case B).
 - CR-074 F1's open question, closed in C8 (the company's commission ends in 1929).
-- CR-043's Kaʻiulani: Chinese from 1899, envoy at the court from 1902, at Peking in November 1908, November 1909 and January–February 1912 (P-4a, P-4c, P-4e).
+- CR-043's Kaʻiulani: Chinese from 1897, envoy at the court from 1902, at Peking in November 1908, November 1909 and January–February 1912 (P-4a, P-4c, P-4e).
 - The commitments ledger: the 1908 banner loan, the trusteeship of 1912 (P-5a), the Shandong treasury notes of 1922 (P-27), the Jinan settlement of 1928 (P-27), the 1930 exchange of notes (P-29) and the Treaty of Nanjing's accession clause (P-9).
 - The registry: Tang Shaoyi and Ting Kwei Tang as new cast members, and the historical figures Part C gives named roles (Longyu, Zaifeng, Duanfang, Chiang Kai-shek, Mao Zedong, Deng Yanda, Su Zhaozheng, Tang Shengzhi, Tan Yankai, Sun Fo, He Jian) where the registry lacks them.
 

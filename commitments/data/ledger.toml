@@ -6552,3 +6552,210 @@ cr = "CR-078"
 section = 33
 quote = "Thomas Jaggar founds the Hawaiian Volcano Observatory on Kīlauea's rim in 1912 and puts seismographs at Hilo and Kona under the warnings compact; in 1913 the Hawaiian legislature's harbour act obliges every harbourmaster to act on the Observatory's warning."
 open = "Applied at Hilo on 3 February 1923."
+
+# ---------------------------------------------------------------------------
+# CR-081 — China's other century, 1860–1932 (integrated 21 November 2026)
+# ---------------------------------------------------------------------------
+
+[[commitment]]
+id = "C-1891-CONSERVANCY"
+name = "The conservancy contract of 1891 (Yellow River and Grand Canal)"
+kind = "concession"
+parties = ["CN", "PAC"]
+from = 1891
+owes = [
+  { by = "PAC", to = "CN", what = "Pacifican engineers for the Yellow River and the Grand Canal" },
+  { by = "CN", to = "PAC", what = "the conservancy charge, among the customs' first obligations" },
+]
+secured_on = "the Maritime Customs revenue"
+status = "APPROVED"
+cr = "CR-081"
+section = 25
+quote = "In 1891, when the Qing puts the Yellow River dikes on the localities, a Chinese conservancy board engages Pacifican engineers for the Yellow River and the Grand Canal under a contract secured on the customs, so the conservancy charge ranks among the customs' first obligations; Pacifica's share of the Boxer indemnity joins it after 1901."
+open = "Term and amounts not stated in the storyline (CR-081 P-5's table: 1–1.5 million taels a year, MODEL)."
+
+[[commitment]]
+id = "C-1896-CN-RAILWAY-BONDS"
+name = "The Chinese railway bonds of 1896"
+kind = "loan"
+parties = ["SANFRANCISCO", "CN"]
+from = 1896
+owes = [{ by = "CN", to = "SANFRANCISCO", what = "service of the railway bonds" }]
+secured_on = "the customs, not the lines' receipts"
+status = "APPROVED"
+cr = "CR-081"
+section = 25
+quote = "The railway bonds of 1896 are placed by a syndicate the Bank of California leads under William Alvord."
+more_quotes = ["They are secured on the customs, not on the lines' receipts, which go to the Chinese ministry."]
+open = "Amount and term not stated. After 1928–29 Nanjing keeps their service a first charge on the recovered customs (CR-081 A8.4)."
+
+[[commitment]]
+id = "C-1908-BANNER-LOAN"
+name = "The banner loan of 1908"
+kind = "loan"
+parties = ["PAC", "CN"]
+from = 1908
+owes = [{ by = "CN", to = "PAC", what = "service from the stipend funds the provinces no longer pay, the customs balance as second security" }]
+secured_on = "the provincial stipend funds; the customs balance as second security"
+status = "APPROVED"
+cr = "CR-081"
+section = 26
+quote = "A Pacifican loan of 1908 pays for the edicts of 1907 that capitalise the provincial bannermen's stipends and grant them land, on the pattern of the Realm's Land Fund."
+more_quotes = ["Julian's answer is the contracts, which the Republic keeps; the banner bonds are paid through Fong's customs."]
+open = "Amount and redemption date not stated (redemption date OPEN in CR-081)."
+
+[[commitment]]
+id = "C-1912-CUSTOMS-TRUST"
+name = "The customs trusteeship of January 1912"
+kind = "settlement"
+parties = ["CN", "PAC", "UK", "DE", "RU"]
+from = 1912
+ended = 1929
+ended_by = "China recovers the Inspectorate and customs in 1928–1929 under the Treaty of Nanjing"
+conditions = [
+  "the revenue is deposited in foreign banks at Shanghai for the loan service",
+  "the banks' commission sets the order of the claims by the contracts' dates",
+  "the surplus is released monthly to the recognised government with the diplomatic body's consent",
+]
+status = "APPROVED"
+cr = "CR-081"
+section = 27
+quote = "In January 1912 the diplomatic body makes Fong trustee of the customs revenue, deposited in foreign banks at Shanghai for the loan service, and the Republic confirms the arrangement."
+more_quotes = ["The Bank of California sits on it as the lead of the railway bonds of 1896 and is a fourth custodian beside the Hongkong and Shanghai Bank, the Deutsch-Asiatische Bank and the Russo-Asiatic Bank."]
+open = "The diplomatic body's full membership is not listed; parties recorded are China and the custodians' states."
+
+[[commitment]]
+id = "C-1915-DEMANDS"
+name = "The Sino-Japanese treaties of 25 May 1915"
+kind = "treaty"
+parties = ["JP", "CN"]
+from = 1915
+owes = [{ by = "CN", to = "JP", what = "commercial rights along the Manchurian line under China's law and police; confirmation of the Daye ore contract" }]
+status = "APPROVED"
+cr = "CR-081"
+section = 28
+quote = "Her audiences with Yamagata and with Ōkuma's cabinet produce revised demands in April without the fifth group, and China agrees without an ultimatum; the treaties are signed on 25 May."
+more_quotes = ["Japan and Pacifica undertake that the tariff revision of 1918 will reach an effective five per cent."]
+open = "Term not stated."
+
+[[commitment]]
+id = "C-1918-KHINGAN"
+name = "The coalition's agreement with Peking on the Chinese line (the Khingan agreement)"
+kind = "pact"
+parties = ["CN", "PAC", "JP"]
+from = 1918
+conditions = [
+  "Japanese troops cross Chinese territory only in transit on the line under the coalition's command",
+  "the Chinese brigade guards the line inside China",
+  "the agreement is published",
+]
+status = "APPROVED"
+cr = "CR-081"
+section = 31
+quote = "formalises Peking's consent of March and folds in the Sino-Japanese military agreements of 16 and 19 May, whose leak has brought the students out: Japanese troops cross Chinese territory only in transit on the line under the coalition's command, the Chinese brigade guards the line inside China, and the agreement is published."
+label_note = "The agreement is APPROVED (CR-081 P-24); its name, the Khingan agreement, is PROPOSED and carries its own label just before the quote."
+open = "Term not stated; the brigade passes to Mukden's line guard under the protocol of 1921 (C-1921-MUKDEN-PROTOCOL)."
+
+[[commitment]]
+id = "C-1920-WORKS-SHARE"
+name = "The regional works share of the customs surplus"
+kind = "settlement"
+parties = ["CN", "PAC", "UK"]
+from = 1920
+conditions = ["divided by published percentages for the regions where the revenue is collected", "paid to contractors, never to armies"]
+status = "APPROVED"
+cr = "CR-081"
+section = 33
+quote = "From 1920 a regional works share of the customs surplus is divided by published percentages for the regions where the revenue is collected and paid to contractors, never to armies; Canton's part pays for the Pearl River works, the Swatow warnings and the Whampoa port."
+more_quotes = ["Britain's minister has the diplomatic body confirm the percentages of 1920 in January 1924"]
+open = "Amount MODEL (3–7 million taels a year in the 1920s); the date of the diplomatic body's confirmation is MODEL."
+
+[[commitment]]
+id = "C-1921-MUKDEN-PROTOCOL"
+name = "The Mukden protocol of 1921"
+kind = "settlement"
+parties = ["CN", "JP"]
+from = 1921
+owes = [{ by = "CN", to = "JP", what = "running rights confirmed at the line's published rates, the same for every shipper" }]
+conditions = ["Mukden takes the line's Chinese management and guard, the former Russian zone at Harbin, and Peking's recognition of Zhang's command"]
+status = "APPROVED"
+cr = "CR-081"
+section = 32
+quote = "Zhang's price is a protocol signed at Mukden: his government of the Three Eastern Provinces takes the line's Chinese management and its guard, into which the Chinese brigade passes, the administration of the former Russian zone at Harbin, and Peking's recognition of his command."
+open = "Japan's assent is recorded but its form is not stated; joint management comes only with the Treaty of Nanjing (C-1928-NANJING)."
+
+[[commitment]]
+id = "C-1922-SHANDONG"
+name = "The Shandong settlement (agreed 1919, carried out 1922)"
+kind = "settlement"
+parties = ["CN", "JP"]
+from = 1922
+owes = [
+  { by = "CN", to = "JP", what = "Japanese treasury-note credit repaid for the railway; a Japanese traffic manager and a joint chief accountant until the notes are redeemed" },
+  { by = "JP", to = "CN", what = "the railway returned" },
+]
+status = "APPROVED"
+cr = "CR-081"
+section = 30
+quote = "The Shandong settlement is agreed at The Hague and carried out in 1922: China buys back the railway with Japanese treasury-note credit and keeps a Japanese traffic manager and a joint chief accountant until the notes are redeemed, and the German mines go to a Sino-Japanese company."
+open = "The notes' term is not stated in the storyline (history: fifteen years, redeemable after five)."
+
+[[commitment]]
+id = "C-1928-JINAN"
+name = "The Jinan withdrawal settlement of 1928"
+kind = "settlement"
+parties = ["CN", "JP", "CROWN"]
+from = 1928
+owes = [
+  { by = "CN", to = "JP", what = "the safety of Japanese residents and property; provincial garrisons at Jinan and on the railway zone; a joint claims commission" },
+  { by = "JP", to = "CN", what = "withdrawal within two months" },
+]
+status = "APPROVED"
+cr = "CR-081"
+section = 33
+quote = "Julian's settlement that summer has Nanjing guarantee the Japanese residents and their property, garrison Jinan and the railway zone with provincial troops and accept a joint claims commission with a Pacifican umpire, and Tokyo withdraw within two months, by the end of August"
+open = "The end of August 1928 is a MODEL date."
+
+[[commitment]]
+id = "C-1928-NANJING-ACCESSION"
+name = "China's accession to the standing alliance under the Treaty of Nanjing"
+kind = "alliance"
+parties = ["CN", "CROWN", "JP"]
+from = 1928
+conditions = ["the continuity of the Chinese state", "the Harbin gains and the Peking-era railway bonds kept", "only the Anfu loans repudiated"]
+status = "PROPOSED"
+cr = "CR-081"
+section = 33
+quote = "Nanjing accedes to the standing alliance of 1922 by a clause of the treaty, on the ground that the Chinese state continues; it keeps the Harbin gains and the Peking-era railway bonds and repudiates only the Anfu loans."
+open = "A clause in an approved treaty (C-1928-NANJING), PROPOSED by CR-081 P-9."
+
+[[commitment]]
+id = "C-1930-CONCORD-COURTS"
+name = "The end of the Concord's consular jurisdiction in China"
+kind = "settlement"
+parties = ["CN", "CROWN", "JP"]
+from = 1930
+until = 1940
+term_years = 10
+conditions = ["Concord nationals tried in Chinese modern courts in designated cities", "foreign legal advisers and a right of appeal", "forces in transit keep their own military law"]
+status = "APPROVED"
+cr = "CR-081"
+section = 34
+quote = "For ten years they are tried in Chinese modern courts in designated cities, with foreign legal advisers and a right of appeal, on the model of the Mixed Court's return at Shanghai in 1927; the term is the common foreign ministry's compromise between Nanjing, which wants jurisdiction at once, and Japan's army, which wants no date."
+more_quotes = ["Consular jurisdiction for the Concord's nationals ends on 1 January 1930, the date of Nanjing's mandate."]
+open = "Britain and the Union sign treaties on the same term in 1932; they are not recorded separately."
+
+[[commitment]]
+id = "C-1930-TARIFF-NOTES"
+name = "The exchange of notes of 1930 on Japan's goods"
+kind = "settlement"
+parties = ["CN", "JP"]
+from = 1930
+until = 1933
+term_years = 3
+owes = [{ by = "CN", to = "JP", what = "duties on Japanese cotton goods and marine products bound for three years" }]
+status = "APPROVED"
+cr = "CR-081"
+section = 34
+quote = "Shidehara's foreign ministry accepts the end of Japan's consular courts at Shanghai, Tianjin, Hankou, in Shandong and along the line for an end to the boycotts, the Nanjing guarantee and an exchange of notes of 1930 that binds China's duties on Japanese cotton goods and marine products for three years."
+open = "No renewal is promised (CR-081 P-29)."
