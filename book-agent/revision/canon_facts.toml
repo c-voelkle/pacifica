@@ -1708,3 +1708,8 @@ aliases = ["Chin Gee Hee"]
 born = 1844
 died = 1929
 source = "CR-081"
+
+[[person]]
+id = "CT-TING-KWEI-TANG"
+aliases = ["Ting Kwei Tang", "Ding Guitang"]
+source = "CR-081"

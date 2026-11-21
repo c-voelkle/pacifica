@@ -6290,7 +6290,10 @@ status = "APPROVED"
 cr = "CR-074"
 section = 25
 quote = "That autumn China turns the Customs' preventive service into the second."
-open = "Its end with China's recovery of the customs in 1928–29 (CR-074 F1) is not stated in the storyline; whether the Nationalist service keeps the companies OPEN."
+ended = 1929
+ended_by = "the Pacific Company's commission ends at the handover of the Inspectorate (CR-081)"
+more_quotes = ["The Pacific Company's commission in the preventive service ends at the handover and the company goes home, and China keeps individual Pacifican specialists on its own contracts."]
+open = "CR-074 F1 closed by CR-081: individual specialists stay on China's own contracts."
 
 [[commitment]]
 id = "C-1895-FORMOSA-GUARD"
@@ -6586,7 +6589,7 @@ status = "APPROVED"
 cr = "CR-081"
 section = 25
 quote = "The railway bonds of 1896 are placed by a syndicate the Bank of California leads under William Alvord."
-more_quotes = ["They are secured on the customs, not on the lines' receipts, which go to the Chinese ministry."]
+more_quotes = ["They are secured on the customs, not on the lines' receipts, which go to the Chinese railway administration; only the later line to Huludao will pledge its own receipts to its bondholders."]
 open = "Amount and term not stated. After 1928–29 Nanjing keeps their service a first charge on the recovered customs (CR-081 A8.4)."
 
 [[commitment]]
@@ -6628,9 +6631,13 @@ open = "The diplomatic body's full membership is not listed; parties recorded ar
 id = "C-1915-DEMANDS"
 name = "The Sino-Japanese treaties of 25 May 1915"
 kind = "treaty"
-parties = ["JP", "CN"]
+parties = ["JP", "CN", "PAC"]
 from = 1915
-owes = [{ by = "CN", to = "JP", what = "commercial rights along the Manchurian line under China's law and police; confirmation of the Daye ore contract" }]
+owes = [
+  { by = "CN", to = "JP", what = "commercial rights along the Manchurian line under China's law and police; confirmation of the Daye ore contract" },
+  { by = "JP", to = "CN", what = "an effective 5 per cent from the tariff revision of 1918" },
+  { by = "PAC", to = "CN", what = "an effective 5 per cent from the tariff revision of 1918" },
+]
 status = "APPROVED"
 cr = "CR-081"
 section = 28
@@ -6667,7 +6674,7 @@ status = "APPROVED"
 cr = "CR-081"
 section = 33
 quote = "From 1920 a regional works share of the customs surplus is divided by published percentages for the regions where the revenue is collected and paid to contractors, never to armies; Canton's part pays for the Pearl River works, the Swatow warnings and the Whampoa port."
-more_quotes = ["Britain's minister has the diplomatic body confirm the percentages of 1920 in January 1924"]
+more_quotes = ["Britain's minister has the diplomatic body confirm the percentages of 1920 about the start of 1924"]
 open = "Amount MODEL (3–7 million taels a year in the 1920s); the date of the diplomatic body's confirmation is MODEL."
 
 [[commitment]]
@@ -6713,7 +6720,7 @@ owes = [
 status = "APPROVED"
 cr = "CR-081"
 section = 33
-quote = "Julian's settlement that summer has Nanjing guarantee the Japanese residents and their property, garrison Jinan and the railway zone with provincial troops and accept a joint claims commission with a Pacifican umpire, and Tokyo withdraw within two months, by the end of August"
+quote = "His settlement that summer has Nanjing guarantee the Japanese residents and their property, garrison Jinan and the railway zone with provincial troops and accept a joint claims commission with a Pacifican umpire, and Tokyo withdraw within two months, by about the end of August"
 open = "The end of August 1928 is a MODEL date."
 
 [[commitment]]
@@ -6726,7 +6733,9 @@ conditions = ["the continuity of the Chinese state", "the Harbin gains and the P
 status = "PROPOSED"
 cr = "CR-081"
 section = 33
-quote = "Nanjing accedes to the standing alliance of 1922 by a clause of the treaty, on the ground that the Chinese state continues; it keeps the Harbin gains and the Peking-era railway bonds and repudiates only the Anfu loans."
+quote = "The accession is a clause of the treaty."
+more_quotes = ["Nanjing accedes to the standing alliance of 1922 on the ground that the Chinese state continues; it keeps the Harbin gains and the Peking-era railway bonds and repudiates only the Anfu loans."]
+label_note = "The accession is APPROVED (CR-081 P-9); its form as a clause of the Treaty of Nanjing is PROPOSED, and the entry records the clause."
 open = "A clause in an approved treaty (C-1928-NANJING), PROPOSED by CR-081 P-9."
 
 [[commitment]]
@@ -6742,20 +6751,52 @@ status = "APPROVED"
 cr = "CR-081"
 section = 34
 quote = "For ten years they are tried in Chinese modern courts in designated cities, with foreign legal advisers and a right of appeal, on the model of the Mixed Court's return at Shanghai in 1927; the term is the common foreign ministry's compromise between Nanjing, which wants jurisdiction at once, and Japan's army, which wants no date."
-more_quotes = ["Consular jurisdiction for the Concord's nationals ends on 1 January 1930, the date of Nanjing's mandate."]
+more_quotes = ["Consular jurisdiction for the Concord's nationals ends on 1 January 1930, the date Nanjing's mandate set."]
 open = "Britain and the Union sign treaties on the same term in 1932; they are not recorded separately."
 
 [[commitment]]
 id = "C-1930-TARIFF-NOTES"
 name = "The exchange of notes of 1930 on Japan's goods"
 kind = "settlement"
-parties = ["CN", "JP"]
+parties = ["CN", "CROWN", "JP"]
 from = 1930
 until = 1933
 term_years = 3
-owes = [{ by = "CN", to = "JP", what = "duties on Japanese cotton goods and marine products bound for three years" }]
+owes = [
+  { by = "CN", to = "JP", what = "duties on Japanese cotton goods and marine products bound for three years" },
+  { by = "CROWN", to = "CN", what = "acceptance of China's tariff autonomy; no schedule for Pacifican goods" },
+]
 status = "APPROVED"
 cr = "CR-081"
 section = 34
-quote = "Shidehara's foreign ministry accepts the end of Japan's consular courts at Shanghai, Tianjin, Hankou, in Shandong and along the line for an end to the boycotts, the Nanjing guarantee and an exchange of notes of 1930 that binds China's duties on Japanese cotton goods and marine products for three years."
-open = "No renewal is promised (CR-081 P-29)."
+quote = "Shidehara's foreign ministry accepts the end of Japan's consular courts at Shanghai, Tianjin, Hankou, in Shandong and along the line for an end to the boycotts, the Nanjing guarantee and a joint exchange of notes between the Concord and China in 1930 that binds China's duties on Japanese cotton goods and marine products for three years."
+more_quotes = ["Pacifica's own goods get no schedule, and no renewal is promised when it expires in May 1933."]
+open = "No renewal is promised (CR-081 P-29). The Concord negotiates through the common foreign ministry; its two crowns are recorded as CROWN and JP."
+
+[[commitment]]
+id = "C-1904-PINGXIANG-CREDIT"
+name = "The Pingxiang coke credit (Hanyeping)"
+kind = "loan"
+parties = ["PAC", "CN"]
+from = 1904
+owes = [{ by = "CN", to = "PAC", what = "service of the credit for Pingxiang's coke and its haulage" }]
+conditions = ["the Daye ore still goes to Yawata under its contract, its price reviewed"]
+status = "APPROVED"
+cr = "CR-081"
+section = 26
+quote = "From 1904 Pacifican credit pays for Pingxiang's coke and its haulage, so the Hanyeping works can service their Japanese loans while the Daye ore still goes to Yawata under its contract, its price reviewed."
+open = "Borrower (Hanyeping, a Chinese company), amount, term and security not stated."
+
+[[commitment]]
+id = "C-1929-SHANGHAI-POWER-BONDS"
+name = "Pacifican bonds for the Shanghai Settlement's power plant"
+kind = "loan"
+parties = ["SANFRANCISCO", "CN"]
+from = 1929
+owes = [{ by = "CN", to = "SANFRANCISCO", what = "service of the bonds by the Chinese municipal company" }]
+conditions = ["the ratepayers' vote"]
+status = "APPROVED"
+cr = "CR-081"
+section = 34
+quote = "In 1929 the Shanghai Settlement's power plant passes, by the ratepayers' vote, to a Chinese municipal company on Pacifican bonds."
+open = "The borrower is a Chinese municipal company, recorded under CN; lenders, amount and term not stated."
