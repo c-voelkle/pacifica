@@ -827,6 +827,12 @@ Zhan Tianyou (the Peking–Kalgan line, 1905–09; the Canton–Hankow line, P-4
 - Not confirmed and used only as MODEL: the size of the provincial banner stipends and so of the banner loan; the Inspectorate's own costs in 1911–13; the 1913 Boxer payments after the arrears of 1912.
 - Not confirmed and not used as facts: the goods on the 1930 Sino-Japanese three-year schedule; the reasons for the mission's recall beyond "too Americanised"; Zhan Tianyou's part in the inter-Allied railway board of 1919; the share of women among the 1931 convention's delegates; the makers of Nanjing's transmitters; the year Tang's Tangjiawan port plan began.
 
+## Author's decisions after integration (21 November 2026, 15:45)
+
+- The integration review's mechanical fixes are applied.
+- Kaʻiulani is needed more at Peking in 1908: she spends the autumn there, is at the Lake Palace for the deaths of November and joins Julian in Europe early in 1909 for the Bosnian settlement; CR-043's "from 1908" for the European missions becomes 1909.
+- Sherman dies on 14 February 1891. The Militia Act's board is his legacy but does not carry his name: it is the Commissions Board.
+
 ## Canon tensions
 
 Three tensions, from Part C (tensions 1 to 3 below), all decided by the author on 21 November 2026. Parts A and B stay inside canon. Items to watch from Part A and Part C:

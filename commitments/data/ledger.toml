@@ -6205,7 +6205,7 @@ conditions = [
   "the school at Sacramento under the inland command's officers; a working tongue for every cadet (a tongue vote only for languages on the Crown's list, with examined English)",
   "the host pays at no less than the Realm's benchmark, never through a broker; the home half held at the Land Fund at interest until discharge",
   "a warrant for half a farm (40 irrigated or 80 dry acres) for five years served and a whole farm for ten, in the interior's districts on bought land; the whole farm at once for wounds or death; unsaleable for three years",
-  "a company's commission, once confirmed by Sherman's board or its successor, carries the Franchise Law's third vote",
+  "a company's commission, once confirmed by the Commissions Board, carries the Franchise Law's third vote",
   "the Suzhou article: no part in killing prisoners, reprisals on the unarmed or forced labour, and no service under a commander who kills surrendered prisoners; a captain may withdraw his company",
   "ventures abroad under licence and bond, carrying the labour article",
   "acts of state (the Realm's forces, the Atlantic Auxiliary, missions) are outside the Act",
@@ -6574,7 +6574,7 @@ secured_on = "the Maritime Customs revenue"
 status = "APPROVED"
 cr = "CR-081"
 section = 25
-quote = "In 1891, when the Qing puts the Yellow River dikes on the localities, a Chinese conservancy board engages Pacifican engineers for the Yellow River and the Grand Canal under a contract secured on the customs, so the conservancy charge ranks among the customs' first obligations; Pacifica's share of the Boxer indemnity joins it after 1901."
+quote = "In 1891, when the Qing puts the Yellow River dikes on the localities, a Chinese conservancy board engages Pacifican engineers for the Yellow River and the Grand Canal under a contract secured on the customs, so the conservancy charge ranks among the customs' first obligations."
 open = "Term and amounts not stated in the storyline (CR-081 P-5's table: 1–1.5 million taels a year, MODEL)."
 
 [[commitment]]

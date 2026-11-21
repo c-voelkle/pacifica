@@ -1713,3 +1713,10 @@ source = "CR-081"
 id = "CT-TING-KWEI-TANG"
 aliases = ["Ting Kwei Tang", "Ding Guitang"]
 source = "CR-081"
+
+[[person]]
+id = "CT-SHERMAN"
+aliases = ["William T. Sherman", "Sherman"]
+born = 1820
+died = 1891
+source = "CR-081"
