@@ -375,11 +375,11 @@ Everything below is PROPOSED. Nothing is drafted as a fact change.
 
 **Decisions for C8**
 
-- **N-1.** Which path (A, B or C), or none.
-- **N-2.** The date of the plebiscite (1931 or 1932) and its form (settlers together, each nation for itself).
-- **N-3.** The name and seat of the new crown.
-- **N-4.** Whether the Fraser is closed to the engineers for good.
-- **N-5.** What Canada is given, if anything, for its lost Pacific coast: a free port, running rights, a share of the Columbia's power.
+- **N-1.** *Decided (author, 19:45):* path A.
+- **N-2.** *Decided (author, 19:45):* 1931. The form (settlers together, each nation for itself) stands as proposed. Canon's precedent is the Philippine crown: offered by the Cortes, confirmed by plebiscite (CR-029). Here the legislature at Victoria offers and the vote confirms.
+- **N-3.** The name and seat of the new crown. *Suggestion:* the Crown of Caledonia. *Hist.:* New Caledonia was the mainland's name before 1858. It drops "British" without taking the name of a river the Realm already holds. The legislature stays at Victoria. The nations' compacts are signed inland, at Spences Bridge, where *hist.* the interior nations met in 1915 to back the Nisga'a petition. The Yukon is a territory of the crown with its council at Dawson. Alaska stays under the Northern Commission. Alternatives: Columbia; a Chinook Jargon name.
+- **N-4.** Whether the Fraser is closed to the engineers for good. *Suggestion:* yes, as the one entrenched term of the union: no dam on the main stem and no water out of the basin, to be reopened only by the nations of the river. Canon has already shown the river's weakness at Hells Gate in 1913–14 (CR-058). The script should carry the northern water with and without the Fraser's share (P-5).
+- **N-5.** What Canada is given. *Suggestion:* three things and no share of the Columbia. (1) Its railway's running rights to tidewater and a bonded Canadian quay on Burrard Inlet, confirmed by treaty with the Realm. (2) A ten-year wheat contract at a floor price, signed in the slump of 1931; this is R-1's contract and it serves the provisioners as much as Ottawa. (3) A Mackenzie waters commission. The Peace and the Liard run east into Canada, so the northern water makes the Realm the upstream party and Canada the downstream one, the Columbia compact reversed. Canada is paid for the water it loses and sits on the commission. The boundary is declared settled, and the Realm repeats that it takes no people who have not voted, which Ottawa can read either way.
 
 ## D. What it changes elsewhere (to be decided there)
 
