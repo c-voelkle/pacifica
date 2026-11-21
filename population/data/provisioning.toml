@@ -138,18 +138,77 @@ bushels = [15.5, 15.0, 20.0, 20.5, 19.5,
 source = "USDA NASS, Washington Field Office, 'All wheat, Washington: acreage, yield and production' (data.nass.usda.gov, Historic_Data/smallgrains/allwheat.pdf)"
 status = "verified (read 21 November 2026)"
 base_years = [1900, 1929]      # our timeline's flat years: the measure of 'history's yields'
-# The rule: in year t the Realm farms as our timeline farmed the same land in year
-# t + lead. The lead grows in a straight line from nothing in lead_from to lead_max
-# in lead_full and holds. Our timeline's dry-farm research begins with Utah's Nephi
-# substation in 1903 and its gains reach the fields from the 1940s; canon's Colegio
-# de Santa Fe teaches dry-land farming from 1864 (CR-036 D13) and Deseret's
-# university measures water (D14), a generation and more earlier.
-lead_from = 1880
-lead_full = 1930
-lead_max = 30
-lead_status = "MODEL: the one judgement in the central case. Sensitivity in the report."
+
+[yield_components]
+# Our timeline's gain on Washington's dry-farmed wheat (2.1 times by 1966-75), split
+# into the innovations that made it. For each: the gain, the years in which it reached
+# the state's fields in our timeline, and the years in which canon's programme could
+# have it there (earliest, and the central case with slippage for working ahead of
+# the world's science). A component counts in proportion to the time elapsed in its span.
+mode = "central"            # central | earliest
 applies_to_irrigated = true
-irrigated_status = "the same ladder is applied to irrigated land for want of a verified irrigated series; to replace (Idaho or California yields)"
+irrigated_status = "the same components are applied to irrigated land for want of a verified irrigated series; nitrogen and short straw probably count for more there. To replace (Idaho or California yields)."
+status = "The total, the dates and three magnitudes are sourced (see each item). The split of the total among the six items is MODEL, fitted to the verified series within about 10% (the report prints the fit; it runs low in 1950-60)."
+
+[[yield_components.items]]
+name = "Mechanised fallow and timely work"
+what = "tractor, rod weeder, combine: clean fallow and sowing on time"
+gain = 1.15
+history = [1930, 1945]
+canon_earliest = [1905, 1920]
+canon_central = [1910, 1925]
+needs_nitrogen = false
+basis = "Our timeline: rod weeder invented 1907, tractors replace horses in the 1930s, the region mechanised by 1940 (Schillinger and Papendick 2008). Canon: the most motorised country on earth (CR-052); California built combines and tracked tractors first in our timeline too."
+
+[[yield_components.items]]
+name = "Breeding and seed treatment before short straw"
+what = "crossing and selection for the region, smut resistance, treated seed"
+gain = 1.15
+history = [1930, 1945]
+canon_earliest = [1895, 1905]
+canon_central = [1900, 1912]
+needs_nitrogen = false
+basis = "Our timeline: first Northwest hybrid 1907; smut the first great disease, 1920s; resistant Elmar 1949 (Schillinger and Papendick). Farrer began crossing in 1889, made the cross in 1895 and named Federation in 1901, four-fifths of Australia's wheat by 1919-20; Strampelli's first crosses 1900, first variety 1914. A programme begun in 1880 delivers in 12-15 years and spreads in ten. Canon can halve the breeding time with winter nurseries in Hawaii and Baja."
+
+[[yield_components.items]]
+name = "Cheap nitrogen"
+what = "fertilizer nitrogen at a price dry farms can pay"
+gain = 1.22
+history = [1950, 1965]
+canon_earliest = [1900, 1915]
+canon_central = [1915, 1930]
+needs_nitrogen = true
+basis = "Our timeline: cheap nitrogen reaches the region in the early 1950s (Schillinger and Papendick). Canon: ammonia on the Columbia from 1915 under the BASF licence of 1913 (CR-055); the earliest case buys Chilean nitrate and builds arc plants from about 1900. The knowledge was there: Utah's station published on nitrogen in dry farming in 1910."
+
+[[yield_components.items]]
+name = "Selective hormone weedkiller"
+what = "2,4-D in the crop"
+gain = 1.08
+history = [1948, 1958]
+canon_earliest = [1925, 1935]
+canon_central = [1930, 1940]
+needs_nitrogen = false
+basis = "Our timeline: found by four groups independently in 1940-41, sold from 1945, in the region's wheat in the 1950s. It waited on the science of plant growth substances (1920s-30s), which a programme can hurry by a decade or two but not skip."
+
+[[yield_components.items]]
+name = "Short-straw wheats"
+what = "semi-dwarf varieties that stand under heavy nitrogen"
+gain = 1.12
+history = [1961, 1970]
+canon_earliest = [1905, 1915]
+canon_central = [1918, 1928]
+needs_nitrogen = true
+basis = "Our timeline: Japan's short wheats were bred from in the nineteenth century; Strampelli crossed Akakomugi in 1913; the Norin 10 cross is of 1925; Vogel had it in 1949 and released Gaines in 1961, a quarter above the wheats it replaced, but it was not sown in the driest zone (so 1.12 for the state). Canon has Japan as an ally from 1870 and Sapporo's agronomists; the wheat pays only once nitrogen is cheap, so it follows nitrogen."
+
+[[yield_components.items]]
+name = "Deep-furrow drill and early sowing"
+what = "sowing into deep moisture at the end of summer"
+gain = 1.07
+history = [1965, 1970]
+canon_earliest = [1900, 1905]
+canon_central = [1910, 1915]
+needs_nitrogen = false
+basis = "Our timeline: invented in the early 1960s, sold from the mid-1960s, 30% more winter wheat in the low-rainfall zone (Schillinger and Papendick); 1.07 for the state. It needed no new science, only a station that asked the question."
 
 [nitrogen]
 # What the central case's yields ask of nitrogen, and what canon makes.
@@ -158,8 +217,7 @@ grain_per_tonne_n = 25            # canon's own figure (finance/CR-056-dynamics-
 canon_total_1929 = 90000          # tonnes of nitrogen, CR-054 (MODEL)
 canon_farm_share = 0.5            # CR-056 C4: half goes to farms
 canon_from = 1915                 # ammonia on the Columbia from 1915 (CR-055)
-nitrogen_share_of_gain = 0.5      # the part of the yield gain that has to be bought with nitrogen: MODEL
-status = "MODEL; the response and the share are to verify against our timeline's fertilizer use on western wheat in 1950-65"
+status = "MODEL; nitrogen is counted for the gain of the two components that need it, at canon's own response. To verify against our timeline's fertilizer use on western wheat in 1950-65."
 
 [sea]
 # Our timeline's Pacific landings at their peak, as animal food that needs no crop land.

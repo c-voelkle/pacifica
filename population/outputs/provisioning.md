@@ -25,16 +25,37 @@ Millions of acres. The territory holds 70% of the 19 states' irrigated area. The
 
 One head needs 2.1 acres of average Union crop land on the Realm's diet (author: the same diet). At history's yields an irrigated acre counts as 2.0 such acres and a dry western acre as 0.8.
 
-**Concerted research.** In year *t* the Realm farms as our timeline farmed the same land in year *t* + lead. The lead grows from nothing in 1880 to 30 years in 1930. The measure is Washington's wheat, which is dry-farmed: its yield per acre in our timeline, as ten-year means against 1900–1929.
+**The measure.** Washington's wheat is dry-farmed. Its yield in our timeline, as ten-year means against 1900–1929, beside what the six components below give when dated as they happened:
 
-| Our timeline, ten years centred on | 1915 | 1935 | 1945 | 1950 | 1955 | 1960 | 1965 | 1970 |
+| Ten years centred on | 1915 | 1935 | 1945 | 1950 | 1955 | 1960 | 1965 | 1970 |
 |---|---|---|---|---|---|---|---|---|
-| Yield against 1900–1929 | 1.00 | 1.06 | 1.37 | 1.42 | 1.63 | 1.81 | 1.95 | 2.13 |
+| Our timeline (verified) | 1.00 | 1.06 | 1.37 | 1.42 | 1.63 | 1.81 | 1.95 | 2.13 |
+| The components, at history's dates | 1.00 | 1.10 | 1.32 | 1.34 | 1.50 | 1.64 | 1.84 | 2.09 |
 
-| The Realm in | 1880 | 1890 | 1900 | 1910 | 1920 | 1930 |
-|---|---|---|---|---|---|---|
-| Lead, years | 0 | 6 | 12 | 18 | 24 | 30 |
-| Yields against history's | 1.00 | 1.00 | 1.03 | 1.01 | 1.37 | 1.81 |
+**The components.** Each is worth its gain once it is in the fields; the dates are when it gets there.
+
+| Component | Gain | Our timeline | Canon, earliest | Canon, central | Years gained (central) |
+|---|---|---|---|---|---|
+| Mechanised fallow and timely work | +15% | 1930–1945 | 1905–1920 | 1910–1925 | 20 |
+| Breeding and seed treatment before short straw | +15% | 1930–1945 | 1895–1905 | 1900–1912 | 33 |
+| Cheap nitrogen (needs nitrogen) | +22% | 1950–1965 | 1900–1915 | 1915–1930 | 35 |
+| Selective hormone weedkiller | +8% | 1948–1958 | 1925–1935 | 1930–1940 | 18 |
+| Short-straw wheats (needs nitrogen) | +12% | 1961–1970 | 1905–1915 | 1918–1928 | 42 |
+| Deep-furrow drill and early sowing | +7% | 1965–1970 | 1900–1905 | 1910–1915 | 55 |
+| **All six** | **+109%** | | | | |
+
+| The Realm's yields against history's | 1890 | 1900 | 1910 | 1920 | 1930 | 1932 | 1940 |
+|---|---|---|---|---|---|---|---|
+| Central dates | 1.00 | 1.00 | 1.12 | 1.49 | 1.93 | 1.96 | 2.09 |
+| Earliest dates | 1.00 | 1.07 | 1.57 | 1.93 | 2.01 | 2.04 | 2.09 |
+| Central: our timeline reached this in | — | — | 1937 | 1953 | 1964 | 1966 | 1967 |
+
+- **Mechanised fallow and timely work.** Our timeline: rod weeder invented 1907, tractors replace horses in the 1930s, the region mechanised by 1940 (Schillinger and Papendick 2008). Canon: the most motorised country on earth (CR-052); California built combines and tracked tractors first in our timeline too.
+- **Breeding and seed treatment before short straw.** Our timeline: first Northwest hybrid 1907; smut the first great disease, 1920s; resistant Elmar 1949 (Schillinger and Papendick). Farrer began crossing in 1889, made the cross in 1895 and named Federation in 1901, four-fifths of Australia's wheat by 1919-20; Strampelli's first crosses 1900, first variety 1914. A programme begun in 1880 delivers in 12-15 years and spreads in ten. Canon can halve the breeding time with winter nurseries in Hawaii and Baja.
+- **Cheap nitrogen.** Our timeline: cheap nitrogen reaches the region in the early 1950s (Schillinger and Papendick). Canon: ammonia on the Columbia from 1915 under the BASF licence of 1913 (CR-055); the earliest case buys Chilean nitrate and builds arc plants from about 1900. The knowledge was there: Utah's station published on nitrogen in dry farming in 1910.
+- **Selective hormone weedkiller.** Our timeline: found by four groups independently in 1940-41, sold from 1945, in the region's wheat in the 1950s. It waited on the science of plant growth substances (1920s-30s), which a programme can hurry by a decade or two but not skip.
+- **Short-straw wheats.** Our timeline: Japan's short wheats were bred from in the nineteenth century; Strampelli crossed Akakomugi in 1913; the Norin 10 cross is of 1925; Vogel had it in 1949 and released Gaines in 1961, a quarter above the wheats it replaced, but it was not sown in the driest zone (so 1.12 for the state). Canon has Japan as an ally from 1870 and Sapporo's agronomists; the wheat pays only once nitrogen is cheap, so it follows nitrogen.
+- **Deep-furrow drill and early sowing.** Our timeline: invented in the early 1960s, sold from the mid-1960s, 30% more winter wheat in the low-rainfall zone (Schillinger and Papendick); 1.07 for the state. It needed no new science, only a station that asked the question.
 
 ## 3. People against home supply
 
@@ -44,29 +65,29 @@ One head needs 2.1 acres of average Union crop land on the Realm's diet (author:
 | 1870 | 2.5 | 1.1 | 2.4 | 2.4 | 2.5 | 102% |
 | 1880 | 4.3 | 2.7 | 6.6 | 6.6 | 6.8 | 160% |
 | 1890 | 6.6 | 5.2 | 11.0 | 11.0 | 12.0 | 182% |
-| 1900 | 10.0 | 8.1 | 18.0 | 18.5 | 20.3 | 204% |
-| 1910 | 16.0 | 12.2 | 22.1 | 22.3 | 24.9 | 155% |
-| 1920 | 23.9 | 14.9 | 22.1 | 30.2 | 33.6 | 140% |
-| 1930 | 34.3 | 15.0 | 22.1 | 39.9 | 44.1 | 129% |
-| 1932 | 36.2 | 15.0 | 22.1 | 42.4 | 46.6 | 129% |
+| 1900 | 10.0 | 8.1 | 18.0 | 18.0 | 19.8 | 198% |
+| 1910 | 16.0 | 12.2 | 22.1 | 24.8 | 27.4 | 171% |
+| 1920 | 23.9 | 14.9 | 22.1 | 32.8 | 36.2 | 151% |
+| 1930 | 34.3 | 15.0 | 22.1 | 42.6 | 46.8 | 136% |
+| 1932 | 36.2 | 15.0 | 22.1 | 43.3 | 47.5 | 131% |
 
 Millions fed on the Realm's diet. *Canon's farmers* work as many acres a head as our timeline's residents did on the same land, until the irrigated ceiling (22.0 million acres) and the dry ceiling (15.8 million) stop them.
 
 - **Without research** (canon's farmers at history's yields) the Realm outgrows its own soil in **1918**.
-- **Central case:** the Realm still feeds itself in 1932, with 29% to spare. On the Office's course it outgrows soil and sea in **1940** if yields stay at 1932's, and in **1944** if they go on up our timeline's ladder.
-- **With nitrogen as canon now has it** (90 thousand tonnes in 1929, half to farms) the central case feeds 37.5 million in 1932 and the Realm outgrows it in **no year before 1933**.
+- **Central case:** the Realm still feeds itself in 1932, with 31% to spare. On the Office's course it outgrows soil and sea in **1941** if yields stay at 1932's, and in **1943** once the weedkiller, the last component, is in the fields.
+- **With nitrogen as canon now has it** (90 thousand tonnes in 1929, half to farms) the central case feeds 36.9 million in 1932 and the Realm outgrows it in **no year before 1933**.
 
 ## 4. What the central case asks for
 
 | Year | Irrigated acres | Dry acres | Nitrogen needed | Canon's farm nitrogen | The sea feeds |
 |---|---|---|---|---|---|
 | 1890 | 6.9 | 15.8 | 0 | 0 | 1.0 |
-| 1900 | 16.4 | 15.8 | 11 | 0 | 1.8 |
-| 1910 | 22.0 | 15.8 | 4 | 0 | 2.6 |
-| 1920 | 22.0 | 15.8 | 172 | 16 | 3.4 |
-| 1930 | 22.0 | 15.8 | 376 | 45 | 4.2 |
+| 1900 | 16.4 | 15.8 | 0 | 0 | 1.8 |
+| 1910 | 22.0 | 15.8 | 0 | 0 | 2.6 |
+| 1920 | 22.0 | 15.8 | 124 | 16 | 3.4 |
+| 1930 | 22.0 | 15.8 | 480 | 45 | 4.2 |
 
-Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mouths. Nitrogen is counted at canon's own 25 tonnes of grain per tonne, for 50% of the gain; the rest is left to varieties, tillage and legumes in the rotation. Our timeline irrigated 13.8 million acres on the same land in 1929.
+Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mouths. Nitrogen is counted at canon's own 25 tonnes of grain per tonne, for the gain of the two components that need it (cheap nitrogen and the short-straw wheats). Our timeline irrigated 13.8 million acres on the same land in 1929.
 
 ## 5. The Philippine crown, from 1908 (its own ledger)
 
@@ -86,33 +107,31 @@ From each table year the yearly rate falls in a straight line from the last deca
 | Table | Residents | Crown | Rate | In 25 years | In 50 | In 100 (Realm + crown) | Home ceiling feeds | Realm passes it | A century's need against the ceiling |
 |---|---|---|---|---|---|---|---|---|---|
 | 1890 | 6.6 | — | 4.4% | 17.9 | 40.9 | 123.9 + 0.0 = 123.9 | 23.1 | 1923 | 5 times |
-| 1900 | 10.0 | — | 4.1% | 25.8 | 56.8 | 167.3 + 0.0 = 167.3 | 24.5 | 1924 | 7 times |
-| 1910 | 16.0 | 8.8 | 4.8% | 61.7 | 137.2 | 364.7 + 50.7 = 415.4 | 24.9 | 1920 | 15 times |
-| 1920 | 23.9 | 10.8 | 4.0% | 78.0 | 158.1 | 378.1 + 62.6 = 440.7 | 33.6 | 1929 | 11 times |
-| 1930 | 34.3 | 13.3 | 3.6% | 100.9 | 194.2 | 437.9 + 79.8 = 517.7 | 44.1 | 1938 | 10 times |
+| 1900 | 10.0 | — | 4.1% | 25.8 | 56.8 | 167.3 + 0.0 = 167.3 | 23.8 | 1923 | 7 times |
+| 1910 | 16.0 | 8.8 | 4.8% | 61.7 | 137.2 | 364.7 + 50.7 = 415.4 | 27.4 | 1922 | 13 times |
+| 1920 | 23.9 | 10.8 | 4.0% | 78.0 | 158.1 | 378.1 + 62.6 = 440.7 | 36.2 | 1931 | 10 times |
+| 1930 | 34.3 | 13.3 | 3.6% | 100.9 | 194.2 | 437.9 + 79.8 = 517.7 | 46.8 | 1939 | 9 times |
 
-The table of 1930: 437.9 million in the Realm a century on need 920 million acres of average Union crop land, 2.5 times all the crop land the Union worked in 1925–29. Even at our timeline's yields of 1966–75 the home ceiling gives about 109 million such acres, one part in 8.
+The table of 1930: 437.9 million in the Realm a century on need 920 million acres of average Union crop land, 2.5 times all the crop land the Union worked in 1925–29. Even at our timeline's yields of 1966–75 the home ceiling gives about 99 million such acres, one part in 9.
 
 ## 7. What moves the result
 
 | Lever | Value | Central case feeds in 1932 | Share of residents | Table of 1930: need against ceiling |
 |---|---|---|---|---|
-| As built | — | 46.6 | 129% | 10 times |
-| Lead in 1930 | 20 years | 35.8 | 99% | 12 times |
-| Lead in 1930 | 25 years | 40.9 | 113% | 11 times |
-| Lead in 1930 | 35 years | 50.8 | 141% | 9 times |
-| Research on dry land only | irrigated yields as history's | 31.8 | 88% | 14 times |
-| Irrigated acre | counts 2.5 | 54.3 | 150% | 9 times |
-| Dry-farm ceiling | the 1929 land and no more | 44.7 | 124% | 10 times |
-| The sea | twice our timeline's peak | 50.8 | 140% | 9 times |
-| No sea | — | 42.4 | 117% | 11 times |
-| A leaner diet | 1.5 acres a head | 65.3 | 180% | 7 times |
+| As built (central dates) | — | 47.5 | 131% | 9 times |
+| Earliest dates | nitrogen from 1900 | 49.2 | 136% | 9 times |
+| Research on dry land only | irrigated yields as history's | 32.0 | 89% | 14 times |
+| Irrigated acre | counts 2.5 | 55.4 | 153% | 8 times |
+| Dry-farm ceiling | the 1929 land and no more | 45.5 | 126% | 10 times |
+| The sea | twice our timeline's peak | 51.7 | 143% | 9 times |
+| No sea | — | 43.3 | 120% | 10 times |
+| A leaner diet | 1.5 acres a head | 66.5 | 184% | 7 times |
 
 ## 8. Not sourced, or weakly
 
-- `[yield_ladder]`: MODEL: the one judgement in the central case. Sensitivity in the report.
-- `[yield_ladder]`: the same ladder is applied to irrigated land for want of a verified irrigated series; to replace (Idaho or California yields)
-- `[nitrogen]`: MODEL; the response and the share are to verify against our timeline's fertilizer use on western wheat in 1950-65
+- `[yield_components]`: The total, the dates and three magnitudes are sourced (see each item). The split of the total among the six items is MODEL, fitted to the verified series within about 10% (the report prints the fit; it runs low in 1950-60).
+- `[yield_components]`: the same components are applied to irrigated land for want of a verified irrigated series; nitrogen and short straw probably count for more there. To replace (Idaho or California yields).
+- `[nitrogen]`: MODEL; nitrogen is counted for the gain of the two components that need it, at canon's own response. To verify against our timeline's fertilizer use on western wheat in 1950-65.
 - `[sea]`: MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted.
 - `[sea]`: recalled order of magnitude for the 1930s; to verify (Bureau of Fisheries, Alaska Fishery and Fur-Seal Industries)
 - `[levers]`: MODEL (no source). Generous to the West: much irrigated land grew hay.

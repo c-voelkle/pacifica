@@ -35,8 +35,20 @@ class Provisioning(unittest.TestCase):
         self.assertAlmostEqual(sum(y["bushels"][5:35]) / 30, 19.15, delta=0.05)   # 1900-1929
         self.assertEqual(pv.ladder(self.c, 1915), 1.0)
         self.assertAlmostEqual(pv.ladder(self.c, 1960), 1.81, delta=0.03)
+
+    def test_components_track_the_series_and_order_the_cases(self):
+        for y in (1935, 1945, 1950, 1955, 1960, 1965, 1970):       # the split fits the verified series
+            self.assertAlmostEqual(pv.research(self.c, y, "history") / pv.ladder(self.c, y), 1.0, delta=0.11)
         self.assertEqual(pv.research(self.c, 1880), 1.0)
-        self.assertAlmostEqual(pv.research(self.c, 1930), pv.ladder(self.c, 1960), places=6)
+        for y in range(1880, 1941, 5):
+            h, cen, e = (pv.research(self.c, y, k) for k in ("history", "canon_central", "canon_earliest"))
+            self.assertLessEqual(h, cen + 1e-9)
+            self.assertLessEqual(cen, e + 1e-9)
+            self.assertLessEqual(pv.research(self.c, y, nitrogen=0.0), cen + 1e-9)
+        total = 1.0
+        for item in self.c["yield_components"]["items"]:
+            total *= item["gain"]
+        self.assertAlmostEqual(pv.research(self.c, 1945, "canon_earliest"), total, places=6)
 
     def test_nitrogen_and_sea(self):
         self.assertEqual(pv.canon_farm_nitrogen(self.c, 1914), 0.0)

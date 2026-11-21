@@ -124,11 +124,6 @@ def acres(c: dict, base: dict, year: int, case: str, pop: dict[int, float] | Non
     return irr, dry
 
 
-def lead(c: dict, year: float) -> float:
-    y = c["yield_ladder"]
-    return y["lead_max"] * max(0.0, min(1.0, (year - y["lead_from"]) / (y["lead_full"] - y["lead_from"])))
-
-
 def ladder(c: dict, year: float) -> float:
     """Our timeline's yield on the same land around a year, against its flat years (ten-year mean)."""
     y = c["yield_ladder"]
@@ -142,9 +137,21 @@ def ladder(c: dict, year: float) -> float:
     return max(1.0, sum(window) / len(window) / base)
 
 
-def research(c: dict, year: float) -> float:
-    """The Realm's yields against history's: our timeline's practice of year + lead."""
-    return ladder(c, year + lead(c, year))
+def span(years: list[float], year: float) -> float:
+    return max(0.0, min(1.0, (year - years[0]) / (years[1] - years[0])))
+
+
+def research(c: dict, year: float, when: str | None = None, nitrogen: float = 1.0) -> float:
+    """The Realm's yields against history's: the product of the components in the field by a year.
+    `when` is a column of dates (history, canon_central, canon_earliest); `nitrogen` is the share of
+    the nitrogen the nitrogen-bound components ask for that is actually to hand."""
+    yc = c["yield_components"]
+    key = when or "canon_" + yc["mode"]
+    k = 1.0
+    for item in yc["items"]:
+        share = span(item[key], year) * (nitrogen if item["needs_nitrogen"] else 1.0)
+        k *= 1 + (item["gain"] - 1) * share
+    return k
 
 
 def canon_farm_nitrogen(c: dict, year: int) -> float:
@@ -165,20 +172,23 @@ def standard_acres(c: dict, base: dict, year: int, case: str, pop=None, nitrogen
     irr, dry = base_standard(c, base, year, case, pop)
     if case in ("history", "farmers"):
         return irr + dry
-    k = research(c, year)
-    gain = (irr if c["yield_ladder"]["applies_to_irrigated"] else 0.0) * (k - 1) + dry * (k - 1)
-    if nitrogen == "canon":      # only the part of the gain that canon's own nitrogen can buy
+    lifted = (irr if c["yield_components"]["applies_to_irrigated"] else 0.0) + dry
+    share = 1.0
+    if nitrogen == "canon":      # only as much of the nitrogen-bound gain as canon's own nitrogen buys
         n = c["nitrogen"]
+        asked = lifted * (research(c, year) - research(c, year, nitrogen=0.0))
         bought = canon_farm_nitrogen(c, year) * n["grain_per_tonne_n"] / n["grain_per_standard_acre"]
-        gain = gain * (1 - n["nitrogen_share_of_gain"]) + min(gain * n["nitrogen_share_of_gain"], bought)
-    return irr + dry + gain
+        share = min(1.0, bought / asked) if asked > 0 else 1.0
+    return irr + dry + lifted * (research(c, year, nitrogen=share) - 1)
 
 
 def nitrogen_needed(c: dict, base: dict, year: int, pop) -> float:
-    """Tonnes of nitrogen a year the central case's gain asks for."""
+    """Tonnes of nitrogen a year the nitrogen-bound components ask for."""
     n = c["nitrogen"]
-    gain = standard_acres(c, base, year, "research", pop) - standard_acres(c, base, year, "farmers", pop)
-    return gain * n["nitrogen_share_of_gain"] * n["grain_per_standard_acre"] / n["grain_per_tonne_n"]
+    irr, dry = base_standard(c, base, year, "research", pop)
+    lifted = (irr if c["yield_components"]["applies_to_irrigated"] else 0.0) + dry
+    gain = lifted * (research(c, year) - research(c, year, nitrogen=0.0))
+    return gain * n["grain_per_standard_acre"] / n["grain_per_tonne_n"]
 
 
 def sea_mouths(c: dict, year: int) -> float:
@@ -215,8 +225,8 @@ def crossing_ahead(c: dict, base: dict, pop: dict[int, float], frozen: bool) -> 
     r = rate(lambda y: pop[y], LAST)
     irr, dry = base_standard(c, base, LAST, "ceiling")
     for n in range(1, 200):
-        k = research(c, LAST) if frozen else ladder(c, LAST + n + c["yield_ladder"]["lead_max"])
-        on_irr = k if c["yield_ladder"]["applies_to_irrigated"] else 1.0
+        k = research(c, LAST) if frozen else research(c, LAST + n)
+        on_irr = k if c["yield_components"]["applies_to_irrigated"] else 1.0
         fed = (irr * on_irr + dry * k) / lv["acres_per_head"] + sea_mouths(c, LAST)
         if project(pop[LAST], r, lv["g_end"], n, lv["horizon"]) > fed:
             return LAST + n
@@ -291,27 +301,47 @@ def main() -> int:
       f"The ceiling used is the 1940 census's irrigable area in enterprises times that share: "
       f"{m(ceiling_area(c, base))} million acres. Part states and the dry land are estimates.")
     A("")
-    yl, nn = c["yield_ladder"], c["nitrogen"]
+    yc, nn = c["yield_components"], c["nitrogen"]
     A("## 2. The rule for yields")
     A("")
     A(f"One head needs {lv['acres_per_head']} acres of average Union crop land on the Realm's diet (author: the same diet). "
       f"At history's yields an irrigated acre counts as {lv['irrigated_factor']} such acres and a dry western acre as "
       f"{lv['dry_factor']}.")
     A("")
-    A(f"**Concerted research.** In year *t* the Realm farms as our timeline farmed the same land in year *t* + lead. "
-      f"The lead grows from nothing in {yl['lead_from']} to {yl['lead_max']} years in {yl['lead_full']}. The measure is "
-      "Washington's wheat, which is dry-farmed: its yield per acre in our timeline, as ten-year means against 1900–1929.")
+    A("**The measure.** Washington's wheat is dry-farmed. Its yield in our timeline, as ten-year means against 1900–1929, "
+      "beside what the six components below give when dated as they happened:")
     A("")
     marks = (1915, 1935, 1945, 1950, 1955, 1960, 1965, 1970)
-    A("| Our timeline, ten years centred on | " + " | ".join(str(y) for y in marks) + " |")
+    A("| Ten years centred on | " + " | ".join(str(y) for y in marks) + " |")
     A("|---" * (len(marks) + 1) + "|")
-    A("| Yield against 1900–1929 | " + " | ".join(f"{ladder(c, y):.2f}" for y in marks) + " |")
+    A("| Our timeline (verified) | " + " | ".join(f"{ladder(c, y):.2f}" for y in marks) + " |")
+    A("| The components, at history's dates | " + " | ".join(f"{research(c, y, 'history'):.2f}" for y in marks) + " |")
     A("")
-    decades = (1880, 1890, 1900, 1910, 1920, 1930)
-    A("| The Realm in | " + " | ".join(str(y) for y in decades) + " |")
+    A("**The components.** Each is worth its gain once it is in the fields; the dates are when it gets there.")
+    A("")
+    A("| Component | Gain | Our timeline | Canon, earliest | Canon, central | Years gained (central) |")
+    A("|---|---|---|---|---|---|")
+    for it in yc["items"]:
+        A(f"| {it['name']}{' (needs nitrogen)' if it['needs_nitrogen'] else ''} | {it['gain'] - 1:+.0%} | "
+          f"{it['history'][0]}–{it['history'][1]} | {it['canon_earliest'][0]}–{it['canon_earliest'][1]} | "
+          f"{it['canon_central'][0]}–{it['canon_central'][1]} | {it['history'][1] - it['canon_central'][1]} |")
+    total = 1.0
+    for it in yc["items"]:
+        total *= it["gain"]
+    A(f"| **All six** | **{total - 1:+.0%}** | | | | |")
+    A("")
+    decades = (1890, 1900, 1910, 1920, 1930, 1932, 1940)
+    A("| The Realm's yields against history's | " + " | ".join(str(y) for y in decades) + " |")
     A("|---" * (len(decades) + 1) + "|")
-    A("| Lead, years | " + " | ".join(f"{lead(c, y):.0f}" for y in decades) + " |")
-    A("| Yields against history's | " + " | ".join(f"{research(c, y):.2f}" for y in decades) + " |")
+    A("| Central dates | " + " | ".join(f"{research(c, y, 'canon_central'):.2f}" for y in decades) + " |")
+    A("| Earliest dates | " + " | ".join(f"{research(c, y, 'canon_earliest'):.2f}" for y in decades) + " |")
+    def our_year(k):
+        return next((y for y in range(1930, 1971) if ladder(c, y) >= k), 1970)
+    A("| Central: our timeline reached this in | " + " | ".join(
+        (str(our_year(research(c, y, 'canon_central'))) if research(c, y, 'canon_central') > 1.05 else "—") for y in decades) + " |")
+    A("")
+    for it in yc["items"]:
+        A(f"- **{it['name']}.** {it['basis']}")
     A("")
     A("## 3. People against home supply")
     A("")
@@ -335,7 +365,7 @@ def main() -> int:
     else:
         A(f"- **Central case:** the Realm still feeds itself in {LAST}, with {central(c, base, LAST, pop) / pop[LAST] - 1:.0%} to spare. "
           f"On the Office's course it outgrows soil and sea in **{crossing_ahead(c, base, pop, True)}** if yields stay at "
-          f"1932's, and in **{crossing_ahead(c, base, pop, False)}** if they go on up our timeline's ladder.")
+          f"1932's, and in **{crossing_ahead(c, base, pop, False)}** once the weedkiller, the last component, is in the fields.")
     A(f"- **With nitrogen as canon now has it** ({nn['canon_total_1929'] / 1000:.0f} thousand tonnes in 1929, half to farms) "
       f"the central case feeds {m(central(c, base, LAST, pop, 'canon'))} million in {LAST} and the Realm outgrows it in "
       f"**{x_n if x_n else 'no year before 1933'}**.")
@@ -349,8 +379,8 @@ def main() -> int:
         A(f"| {y} | {m(i)} | {m(d)} | {nitrogen_needed(c, base, y, pop) / 1000:.0f} | {canon_farm_nitrogen(c, y) / 1000:.0f} | {m(sea_mouths(c, y))} |")
     A("")
     A(f"Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mouths. Nitrogen is counted at canon's "
-      f"own {nn['grain_per_tonne_n']} tonnes of grain per tonne, for {nn['nitrogen_share_of_gain']:.0%} of the gain; the rest is "
-      "left to varieties, tillage and legumes in the rotation. Our timeline irrigated "
+      f"own {nn['grain_per_tonne_n']} tonnes of grain per tonne, for the gain of the two components that need it (cheap "
+      "nitrogen and the short-straw wheats). Our timeline irrigated "
       f"{m(acres(c, base, 1929, 'history')[0])} million acres on the same land in 1929.")
     A("")
     A("## 5. The Philippine crown, from 1908 (its own ledger)")
@@ -384,7 +414,7 @@ def main() -> int:
           f"{m(t['ceiling_mouths'])} | {when} | {t['need_100'] / t['ceiling_std']:.0f} times |")
     A("")
     last = rows[-1]
-    top70 = last["ceiling_std"] / research(c, 1930) * ladder(c, 1970)
+    top70 = (last["ceiling_std"] - sea_mouths(c, 1930) * lv["acres_per_head"]) / research(c, 1930) * ladder(c, 1970)
     A(f"The table of 1930: {m(last['realm_100'])} million in the Realm a century on need "
       f"{last['need_100'] / 1e6:,.0f} million acres of average Union crop land, "
       f"{last['need_100'] / lv['union_cropland_1925_29']:.1f} times all the crop land the Union worked in 1925–29. "
@@ -402,11 +432,9 @@ def main() -> int:
         fed = central(c2, b2, LAST, pop)
         t = table(c2, b2, pop, 1930)
         A(f"| {name} | {value} | {m(fed)} | {fed / pop[LAST]:.0%} | {t['need_100'] / t['ceiling_std']:.0f} times |")
-    variant("As built", "—")
-    variant("Lead in 1930", "20 years", "yield_ladder", lead_max=20)
-    variant("Lead in 1930", "25 years", "yield_ladder", lead_max=25)
-    variant("Lead in 1930", "35 years", "yield_ladder", lead_max=35)
-    variant("Research on dry land only", "irrigated yields as history's", "yield_ladder", applies_to_irrigated=False)
+    variant("As built (central dates)", "—")
+    variant("Earliest dates", "nitrogen from 1900", "yield_components", mode="earliest")
+    variant("Research on dry land only", "irrigated yields as history's", "yield_components", applies_to_irrigated=False)
     variant("Irrigated acre", "counts 2.5", irrigated_factor=2.5)
     variant("Dry-farm ceiling", "the 1929 land and no more", dry_ceiling_factor=1.0)
     variant("The sea", "twice our timeline's peak", "sea", index=[0.02, 0.10, 2.00])
@@ -415,7 +443,7 @@ def main() -> int:
     A("")
     A("## 8. Not sourced, or weakly")
     A("")
-    for key, where in (("lead_status", "yield_ladder"), ("irrigated_status", "yield_ladder"), ("status", "nitrogen"),
+    for key, where in (("status", "yield_components"), ("irrigated_status", "yield_components"), ("status", "nitrogen"),
                        ("status", "sea"), ("alaska_status", "sea"), ("factor_status", "levers"),
                        ("status", "territory"), ("status", "dry_cropland"), ("pct_status", "cropland_1929"),
                        ("harvested_status", "cropland_1929"), ("california_status", "cropland_1929"), ("status", "crown")):
