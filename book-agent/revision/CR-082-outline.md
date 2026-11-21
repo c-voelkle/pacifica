@@ -1,6 +1,6 @@
 # CR-082 (outline) — Mouths and acres: how Pacifica means to be fed
 
-**Status:** OUTLINE, 21 November 2026. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
+**Status:** OUTLINE, 21 November 2026. At 18:52 the author made Julian a provisioner, so the Office's tables slow less in his reign, and wished Japan's rice never to fall short. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
 
 **Number:** CR-082. CR-081 (China, `drafts/cr081-china`, PR #83, not merged) waits on it; CR-080 (the partners) stays parked behind CR-081.
 
@@ -25,6 +25,10 @@
 > Can you try to quantify the lead a bit more rigorously? Which innovations matter the most? Which ones could have been made how many years earlier with the kind of programme we are suggesting here - basically the Manhattan Project of dryland farming? (18:30)
 >
 > I would say yes - by that point the table has already existed and been discussed by the top minds for years; it makes sense to bring Chile into the Pacific fold. This lead gives Pacifica's leadership some room to breathe; however, the question remains vital for the coming century - and critical for Japan in the present, which is the Concord's business. (18:41)
+>
+> I see Julian as more of a provisioner. The Office therefore has to assume less slowing, at least for the time being, as Julian is convinced that he needs to bring more people under his umbrella in his personal quest to make the Pacific Concord the preeminent superpower on planet earth.
+>
+> I agree that the partners CR will probably give Japan higher than historical yields and I would be relieved if its rice output was never outstripped by demand. Policy could then be guided by foresight and prudence rather than by reaction to an immediate crisis. (18:52)
 
 **Author's premise (17:09), taken as the brief:** the leadership plans for half a billion Pacificans a century ahead, and that plan guides foreign policy explicitly.
 
@@ -97,6 +101,7 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
   - **The result.** The Realm's yields are 1.37 times history's in 1910, 1.85 in 1920 and 1.93 in 1930, which our timeline reached in 1944, 1961 and 1964. The lead is 34 years in 1910 and 41 in 1920; after that the Realm has used what there is, and only the weedkiller is still to come.
   - **Sourced and not.** The total, the dates and three magnitudes (Gaines a quarter above the wheats it replaced; the drill's 30% in the driest zone; breeding about half of wheat's yield gains in the plains literature) are sourced. The split among the six is MODEL, and when dated as history it fits the verified series within about 10%. *Canon:* the Colegio de Santa Fe has taught acequia irrigation and dry-land farming since 1864 and Deseret's university measures water (CR-036 D13, D14).
 - **The sea:** our timeline's Pacific landings at their peak of 1936 (the Pacific states' 1.9 billion pounds, verified, and Alaska's), reached by 1930 and counted as animal food that needs no crop land.
+- **Growth (author, 17:59 and 18:52):** from each table year the yearly rate falls in a straight line from the last decade's rate over a century: to 1.5% in the tables before 1908, and to 2.0% in the tables of Julian's reign, because Julian is a provisioner and the Office assumes less slowing for the time being. The 2.0% is the script's reading of that, not yet the author's figure.
 - **The Philippine crown (author):** counted from 1908, as its own ledger on its own diet. It roughly feeds itself.
 
 **What it finds**
@@ -114,7 +119,7 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 2. **With research and the sea the Realm is one of the world's great food exporters.** In 1920 it grows food for 20 million more people than it has. The surplus is still 11 million mouths in 1932, but it is shrinking.
 3. **The margin closes about 1941–43** on the Office's course, and by then every innovation on the list is spent.
 4. **The tables keep moving the date back, by less each time.** The tables of 1890 and 1900 put the crossing at 1923, the table of 1910 at 1926, the table of 1920 at 1937, the table of 1930 at 1939.
-5. **The century is out of reach of research.** The table of 1930 has about 438 million in the Realm a century on (the slowing is still to be decided). On the present diet they need nine times the home ceiling.
+5. **The century is out of reach of research.** Julian's table of 1930 has about 102 million in the Realm in 25 years, 207 million in 50, and 562 million a century on, with another 100 million under the Philippine crown. On the present diet the Realm's own need a century on is twelve times the home ceiling, and three times all the crop land the Union works.
 6. **Nitrogen on this schedule means Chile.** The case needs about 225 thousand tonnes of nitrogen a year by 1910 and 440 thousand by 1915. *Hist.:* all the nitrate Chile exported held about 400 thousand tonnes of nitrogen in 1910 and 480 thousand in 1913. The Realm would take more than half of Chile's trade by 1910, and must make its own on the Columbia after that. CR-054's 90 thousand tonnes in 1929 is far too small for this case (F-1d).
 7. **It also needs about 22 million irrigated acres by 1905–10,** against history's 13.8 million on the same land in 1929 (F-1c).
 
@@ -128,9 +133,10 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 
 - A koku of brown rice feeds about one person a year. *Hist.:* Japan filled its gap from Korea and Formosa, and the rice riots of 1918 came when it could not.
 - Canon's Japan has about 4 million fewer mouths, because they live in the Realm. Its gap is smaller than history's, but it has no colony to fill it: the 8 million koku of 1932 must be bought.
-- If Japan's own crop had kept growing at its rate of 1890–1920, the gap of 1932 would nearly close. *Hist.:* the crop stagnated after 1920, and Hayami and Ruttan put that down to the colonial rice itself. Whether canon's Japan stagnates is a question for the partners' CR.
+- **Direction (author, 18:52):** the partners' CR will probably give Japan yields above history's, and Japan's rice should never be outstripped by demand, so that policy is guided by foresight and not by a crisis. What that asks, against our timeline's crop of the same year: 5% more by 1910, 8% more by 1920, 13% more by 1932. *Hist.:* the crop grew 1.38% a year in 1890–1920 and then stagnated, which Hayami and Ruttan put down to the colonial rice itself; a Japan without colonies that simply keeps its old pace is within 1% of its need in 1932. The requirement is modest, and it goes to the partners' CR.
+- There are then no rice riots of 1918 from shortage (a point for the partners' CR to carry).
 - The Realm's surplus of 1932 is about ten times Japan's gap in grain, but it is wheat and feed, not rice.
-- Both run out together. The Realm's surplus is gone about 1941–43, and Japan's gap grows every year.
+- The foresight is still needed. The Realm's surplus is gone about 1941–43, and Japan's fields must go on yielding 1% more every year to keep pace with its people.
 
 **How firm it is**
 
@@ -151,7 +157,7 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 - **F-2. DECIDED (author, 17:59):** the Office assumes the same diet, and a rate of growth slower than the early years'.
 - **F-3. DECIDED (author, 17:59):** the Philippine crown is counted after Julian's accession (from 1908).
 - **F-1a. DECIDED in part (author, 18:41):** nitrogen from about 1900, with Chile in the Pacific fold; the short wheats follow it. The other four innovations stay at their central dates unless the author moves them.
-- **F-1b.** The rate at which the Office lets growth slow (now 1.5% a century on). The author takes this up next (18:16).
+- **F-1b. DECIDED in direction (author, 18:52):** less slowing under Julian, for the time being. Open: the figure (2.0% as built; 1.5% gives 438 million in the Realm a century on, 2.5% gives 722 million), and what the tables of Victoria's regency assume (1.5% as built).
 - **F-1c.** Canon's irrigated area: about 22 million acres by 1910. A line for the storyline, with Powell's office.
 - **F-1d.** Canon's nitrogen: CR-054's 90 thousand tonnes in 1929 against the 480 thousand the case needs. After the decision of 18:41 CR-054's figure has to rise, and a canon tension for CR-054 is to be drafted. *Hist.:* before synthesis the world's fertilizer nitrogen came from Chile's nitrate, so the earliest dates are also a question of policy toward Chile (Part C).
 - **F-1e.** The sea: whether canon reaches history's peak landings by 1930, and what research adds beyond the catch (fishponds, hatcheries), which is not yet counted.
@@ -174,6 +180,8 @@ The table does not say what to do. Two schools read it, and the author's premise
 
 - **The provisioners.** Numbers are power. The Realm is the smallest of the great powers and will be outgrown by its partner and its rivals unless it grows, so the half-billion must be fed, and the acres found.
 - **The sufficers.** The domain carries what its water carries. Entry is already selective; let it be more so, and let the Realm be rich and few. This is the line that runs from Powell to Keawe's Charter.
+
+**Julian is a provisioner (author, 18:52).** He means to bring more people under his umbrella, to make the Concord the first power on earth. *Consequence for the account:* people come under the umbrella by birth, by ship and by crown, and each land that comes brings its own ledger of mouths and acres, as the Philippine crown did in 1907.
 
 Each has canon behind it: the Party's *Things work* and the settlement programme on one side, the compacts, the reserved flows and selective entry on the other. Which men and women hold each view is a decision (F-6).
 
@@ -255,7 +263,7 @@ Where the half-billion come from: births, and ships from Japan, China and the Ph
 ## D. What it changes elsewhere (to be decided there)
 
 - **CR-081, China.** A8's aim ("a strong, successful China aligned with Pacifica, at minimal cost to Japan") gains Pacifica's own object. Formosa's published end date (A8.12), the Manchurian settlement left to Chinese land offices (S-4), the farm bank (S-5) and the famine and flood works (S-1), which add Chinese mouths, are each read again against the table.
-- **Japan and the Concord (author, 18:41: critical for Japan in the present, and the Concord's business).** A3 gives the figures: a gap of about 8 million koku in 1932, a Realm surplus ten times that in grain, and both gone by the early 1940s. In canon Korea is independent and Formosa is Chinese, so Japan has no colonial rice. *Hist.:* the rice riots of 1918 led to the colonial rice plans of 1920. Japan's deficit is therefore worse than history's, and the bean cake, the fertilizer and Formosa's rice all pass through Pacifican hands. The Hayama annex divides industries; nothing divides surplus land.
+- **Japan and the Concord (author, 18:41: critical for Japan in the present, and the Concord's business).** A3 gives the figures and the author's direction of 18:52: Japan's own yields rise enough that its rice never falls short, so the Concord plans from foresight. What remains for the Concord is the century: two partners whose home soil runs out within a generation of each other. In canon Korea is independent and Formosa is Chinese, so Japan has no colonial rice. *Hist.:* the rice riots of 1918 led to the colonial rice plans of 1920. Japan's deficit is therefore worse than history's, and the bean cake, the fertilizer and Formosa's rice all pass through Pacifican hands. The Hayama annex divides industries; nothing divides surplus land.
 - **Britain.** The dominions hold the Pacific's empty farmland and keep Asian settlers out, while three in ten Pacificans are of Asian origin. This belongs to the confrontation CR.
 - **The Gulf.** The admission tests (CR-039).
 - **Home.** Keawe's Charter of 1932 becomes the sufficers' law, passed in the year of the fifth table.
