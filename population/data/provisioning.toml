@@ -1,0 +1,122 @@
+# The provisioning account (CR-082): people against the food the domain can grow.
+# Used by provisioning.py. History's acreages are our timeline's census figures;
+# every factor that turns acres into mouths is MODEL and is a lever.
+
+[author]
+# Author's decisions, 21 November 2026, 17:59.
+diet = "the Realm's present diet, held constant"
+growth = "slower than in the early years"
+crown = "the Philippine crown is counted after Julian's accession"
+
+# ---------------------------------------------------------------------------
+# Irrigated area, our timeline
+# ---------------------------------------------------------------------------
+
+[irrigation_totals]
+# Area irrigated in the 19 states of the Census of Irrigation.
+years = [1889, 1899, 1909, 1919, 1929]
+acres = [3715945, 7744492, 14433285, 19191716, 19547544]
+source = "Census of Irrigation 1940, General Summary and Summary for the 17 Western States, Tables 3-5 (agcensus.library.cornell.edu)"
+status = "verified for 1889, 1899, 1919, 1929; the 1909 figure's middle digits are unclear in the scan (14,433,285 or 14,455,285)"
+# Before the first irrigation census: no count. Rough guesses to start the series.
+early_years = [1861, 1869, 1879]
+early_acres = [100000, 300000, 1000000]
+early_status = "estimate (no source)"
+# Irrigable area in enterprises, 19 states, Census of 1940: the period's own ceiling.
+irrigable_in_enterprises_1940 = 31305949
+works_capable_1940 = 26055248
+ceiling_source = "Census of Irrigation 1940, Summary for the 17 Western States, Table 3"
+ceiling_status = "verified"
+
+[irrigation_1929]
+# Area irrigated in 1929, by state (acres).
+California = 4746632
+Idaho = 2181250
+Utah = 1324125
+Oregon = 898713
+Arizona = 575590
+New_Mexico = 527033
+Washington = 499283
+Nevada = 486648
+Colorado = 3393619
+Montana = 1594912
+Wyoming = 1236155
+source = "Census of Agriculture 1935, vol. III, Table 7 (area irrigated, 1929); California is the 19-state total less the other eighteen"
+status = "verified (the eighteen states read from the table; the sum closes on the census total)"
+
+[cropland_1929]
+# Share of crop land harvested that was irrigated (per cent), same table.
+pct_irrigated = {Montana = 17.1, Idaho = 51.9, Wyoming = 48.7, Colorado = 34.0, New_Mexico = 24.9, Arizona = 93.8, Utah = 79.1, Nevada = 98.2, Washington = 11.1, Oregon = 22.0}
+pct_status = "Washington and Oregon verified for 1929; the eight mountain states read from a scan in which the 1929 and 1934 columns cannot be told apart. To verify."
+# Irrigated land from which crops were harvested, 1929 (acres).
+irrigated_harvested = {Washington = 405027, Oregon = 637967, California = 3540350}
+harvested_status = "Washington and Oregon verified; California read from a garbled row (3,513,700 or 3,540,350). To verify."
+# For the other states: harvested irrigated land as a share of area irrigated.
+harvested_share_of_irrigated = 0.78   # Washington 0.81, Oregon 0.71; estimate
+california_cropland_harvested = 6550000
+california_status = "recalled (Census of Agriculture 1930); to verify"
+
+[territory]
+# Share of each state's irrigated and dry crop land inside Pacifica (MODEL).
+# Whole states: California, Oregon, Washington (Columbia), Idaho, Nevada (Washoe),
+# Utah (Deseret), Arizona, New Mexico. Part states by canon's frontier:
+# Colorado west of the plains (the Western Slope and the San Luis Valley),
+# western Montana with Three Forks, southwest Wyoming.
+irrigated = {Colorado = 0.43, Montana = 0.45, Wyoming = 0.27}
+dry = {Colorado = 0.10, Montana = 0.15, Wyoming = 0.10}
+population = {Colorado = 0.17, Montana = 0.45, Wyoming = 0.20}
+status = "estimate; to replace with county figures on the 1887 map (population/data/counties)"
+
+[dry_cropland]
+# Dry crop land in the territory as a share of its 1929 level. No census series read.
+years = [1861, 1869, 1879, 1889, 1899, 1909, 1919, 1929]
+index = [0.06, 0.15, 0.38, 0.60, 0.75, 0.90, 1.00, 1.00]
+status = "estimate (no source; shaped on California's wheat acreage, which peaked about 1888); to replace with the Census of Agriculture's improved-land series"
+
+# ---------------------------------------------------------------------------
+# Levers (MODEL)
+# ---------------------------------------------------------------------------
+
+[levers]
+# Crop land needed per head on the Realm's diet, in acres of average Union crop land.
+# Our timeline: crop land used for the Union's own food, fibre and tobacco (harvest,
+# failure and fallow; horse feed and exports left out) was 2.14 acres a head in 1910-14
+# and about 2.1-2.3 in 1925-34 (252m acres for about 119m people in 1925-29).
+acres_per_head = 2.1
+acres_per_head_source = "Table 'Cropland acreage used for various purposes, 1910-50' (collections.lib.utah.edu/details?id=1134612; the report's title to verify)"
+acres_per_head_status = "verified for 1910-14 (2.14); later periods computed from the table's totals"
+union_cropland_1925_29 = 374000000   # the same table: all crop land, harvest, failure and fallow
+# One irrigated acre and one dry western acre, in acres of average Union crop land.
+irrigated_factor = 2.0
+dry_factor = 0.8
+factor_status = "MODEL (no source). Generous to the West: much irrigated land grew hay."
+# Canon's farmers can dry-farm this multiple of our timeline's 1929 dry crop land, and no more.
+dry_ceiling_factor = 1.2
+# The Realm's yields against our timeline's: canon's nitrogen (CR-054).
+yield_years = [1861, 1909, 1919, 1929, 1932]
+yield_index = [1.00, 1.00, 1.10, 1.30, 1.30]
+yield_status = "MODEL; to reconcile with the dynamic layer's farm channel (finance/CR-056-dynamics-workbook.md, C4)"
+# The Office's assumed course: the yearly rate falls in a straight line from the
+# last decade's rate to g_end over a century. 0.015 puts the table of 1930 at about
+# half a billion a century on, the author's premise (17:09).
+g_end = 0.015
+horizon = 100
+# Ceiling on irrigated area in the territory: the 1940 census's irrigable area in
+# enterprises, times the territory's share of the 1929 irrigated area.
+ceiling_basis = "irrigable_in_enterprises_1940"
+
+[crown]
+# The Philippine crown, counted from the year after Julian's oath at Manila (December 1907).
+from_year = 1908
+census_years = [1903, 1918, 1939]
+census = [7635426, 10314310, 16000303]
+census_source = "Philippine censuses of 1903, 1918 and 1939, via Wikipedia 'Census in the Philippines'"
+census_status = "verified (our timeline; canon's Philippine population is not modelled)"
+cultivated_years = [1903, 1935]
+cultivated_hectares = [1300000, 4000000]
+cultivated_source = "Library of Congress Country Study, Philippines, 'Economic and Social Developments' (countrystudies.us/philippines/19.htm)"
+cultivated_status = "verified as quoted; rounded figures"
+export_crop_share = 0.30       # sugar, coconut, abaca: MODEL
+acres_per_head = 0.50          # the crown's own rice diet, in its own acres: MODEL, set so that
+                               # it buys about a tenth of its food abroad, as in our timeline (to verify)
+status = "MODEL: the crown is kept as its own ledger, on its own diet and its own land"

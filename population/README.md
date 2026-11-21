@@ -8,6 +8,7 @@ python3 population/canon.py        # canon run against the People sheet -> outpu
 python3 population/flows.py        # where the population comes from, and migration vs US immigration -> outputs/flows.md
 python3 population/changes.py      # workbook change list figures -> outputs/workbook_changes.md, workbook_changes.csv
 python3 population/neighbours.py   # the rump, the Gulf and the Union (CR-048) -> outputs/neighbours.md, neighbours_by_year.csv
+python3 population/provisioning.py # people against the food the domain can grow (CR-082) -> outputs/provisioning.md, provisioning_by_year.csv
 python3 -m unittest discover -s population/tests -v
 ```
 
@@ -111,3 +112,16 @@ The rump Confederacy (South Carolina, Georgia, Alabama, Mississippi, Florida) fr
 - **The Union and the Gulf** are the workbook's paths plus those emigrants. The workbook's Union already contains our timeline's southern migrants.
 
 Central estimate: the rump has 7.1m people in 1900 (historical 7.5m), 48% Black; 9.15m in 1932 (historical 11.0m), 29% Black (historical 39%). Its Black majority ends in 1888 rather than 1903. About 1.6m extra rump emigrants and descendants live in the Union by 1932. Low and high cases (departures × 0.5 and × 1.5) are in `outputs/neighbours.md`. Census figures for the five states are recalled and still to verify against the Census Bureau's Working Paper 56.
+
+## The provisioning account (`provisioning.py`, CR-082)
+
+People against food. It reads the canon run and `data/provisioning.toml` and feeds nothing back.
+
+- **People:** the Realm's residents from the canon run; the Philippine crown from 1908 (our timeline's censuses), kept as its own ledger.
+- **Land:** our timeline's irrigated area by state in 1929 (census, verified) and the 19-state totals of 1889–1929, cut to Pacifica's frontier by estimated shares; dry crop land derived from the census's irrigated share of crop land. The ceiling on irrigated land is the 1940 census's irrigable area in enterprises.
+- **Mouths:** crop land per head on the Realm's diet (2.1 acres of average Union crop land, from our timeline's 1910–34 figures), with MODEL factors for an irrigated acre, a dry acre and canon's nitrogen.
+- **Cases:** history's acres; canon's farmers (history's acres a head for canon's larger population, up to the ceilings; the central case); the ceilings.
+- **The Office's tables (1890–1930):** a century's course from each table year at a rate falling to `g_end`.
+
+Central result (MODEL): the Realm feeds itself with a surplus from about 1870 and outgrows its own soil about 1922; in 1932 about a fifth of its residents eat from other people's land. The dry-land series, the part-state shares and the acre factors are estimates and are listed at the end of `outputs/provisioning.md`.
+
