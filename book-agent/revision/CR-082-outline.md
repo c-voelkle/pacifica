@@ -324,10 +324,62 @@ The regions do not cover the century, so the plan cannot be a list of lands. It 
 
 **Decisions for C7**
 - **P-1.** Whether this is the provisioners' plan (the four works).
-- **P-2.** The northern water: whether Julian's engineers propose it, and when; its collision with the Charter of 1932.
+- **P-2.** *Decided in direction (author, 19:29):* Julian's engineers propose the northern water and prevail on it, because it is critical to national survival. Open: when, and how it stands with the Charter of 1932 (C8 proposes an answer).
 - **P-3.** The yield programme as export: to whom it is sold and to whom refused.
 - **P-4.** The Pampas as a sixth theatre, reached through Chile.
 - **P-5.** Whether these four works go into the script as a century module.
+
+### C8. British Columbia and the Yukon: a path to the plebiscite (proposal; author's question of 19:29)
+
+**Author (21 November 2026, 19:29):** "I think they should and they should prevail at least wrt the northern water, which is after all critical to national survival. Is there a path to BC and Yukon changing crowns by plebiscite by 1932? Let's get creative here and go way back. Everything in the Canada CR and elsewhere in canon can be challenged."
+
+Everything below is PROPOSED. Nothing is drafted as a fact change.
+
+**What history offers**
+
+- *Hist.:* about 30,000 miners went up the Fraser in 1858, most of them out of San Francisco, and Britain made the mainland a colony that August for fear of losing it. In canon San Francisco is Pacifican. The first settler population of the mainland is therefore Pacifican.
+- *Hist.:* the gold gave out, the colonies were merged in 1866 to save money, and in 1869 Victoria merchants (104 by one count) petitioned the American President for annexation.
+- *Hist.:* British Columbia entered Confederation on 20 July 1871 on the promise of a railway, threatened to leave in 1874 and again in 1878 when the railway did not come, and got it in 1885.
+- *Hist.:* almost none of the province was ever ceded by treaty (the Douglas purchases on Vancouver Island, Treaty 8 in the north-east). The Nisga'a petitioned the Privy Council in 1913 and were never heard; in 1927 Parliament made it an offence to raise money for a land claim.
+- *Hist.:* the Yukon had 27,219 people in 1901 and 4,157 in 1921, nearly half of them First Nations. Most Klondikers had come from the south.
+- *Hist.:* Western Australia voted by nearly two to one in 1933 to leave its federation, and Westminster refused in 1935 because the federal government had not asked. Newfoundland, a dominion outside Canada, went bankrupt in 1932 and gave up self-government in 1934.
+
+**The lesson.** A province cannot vote its way out of a federation. A separate colony or dominion can change its status when London lets it. The path therefore has to keep British Columbia out of Canada, or take it out early.
+
+**Three paths**
+
+| Path | Fork | To 1932 | Cost to canon |
+| --- | --- | --- | --- |
+| A. The colony that never joined | 1869–71: Pacifica does not push British Columbia into Confederation and does not finance the Canadian Pacific | A separate British colony, later a dominion like Newfoundland, with Pacifican settlers, trade, rails and creditors; London lets it choose after 1927 | Heavy: CR-058's Canada ends at the Rockies |
+| B. The broken terms | 1874–78: the railway is not built and British Columbia leaves, as it threatened | As A from 1878 | Heavy, and Canada is the injured party |
+| C. The purchase | 1927–32: a province votes and Ottawa is paid to consent | Debt assumed, a free port, grain contracts | Light, and the least credible |
+
+**Recommendation: path A, in five steps**
+
+1. **1858. The Fraser's miners are Pacificans.** Britain makes the colony for the same reason as in history. San Francisco supplies it and Victoria is its port.
+2. **1869–71. The fork.** CR-058 has Pacifica encourage British Columbia into Confederation and quietly finance the Canadian Pacific. Instead it offers the bankrupt colony a railway south to Puget Sound, a loan and free entry for its coal and fish. Britain keeps the colony and Esquimalt; Canada stops at the Rockies. Pacifica asks for nothing more. Victoria Kamakea's sufficers hold to this for forty years.
+3. **1898. The Yukon is governed from Victoria.** Canada has no road to the Klondike that does not cross British Columbia or Alaska. London attaches the district to the colony. The railway from Skagway and the boundary stay as in canon.
+4. **1900–27. The compacts.** The colony signs no treaties. The nations watch their kin south of the line lease dam sites and keep their valleys. The petitions of 1909 and 1913 go to London and also to the Pacific crown. The Columbia compact of 1922–25 is signed with British Columbia and, at Pacifica's insistence, with the nations of the upper river.
+5. **1927–32. The choice.** Britain's retreat is complete in 1927. The slump of 1929 breaks the dominion's finances as it broke Newfoundland's. London offers three courses: government by commission, union with Canada, or the Pacific crown. The vote is held in 1931 or 1932, by the settlers as a whole and by each nation for itself, as crowns have joined since 1907.
+
+**How the provisioners prevail without breaking the Charter.** The nations vote for the crown that will sign compacts with them, and the Lands and Waters Charter of 1932 is that promise in law. The northern water is then leased from the nations of each river, as the Columbia's dams are. The Fraser is never leased, because it is the salmon river. The water comes from the Peace, the Liard, the Stikine and the upper Yukon, which is where the Parsons plan found most of it. Julian's engineers get their water; Keawe's Charter decides whose it is and what it costs. Canon tension 2 becomes the plot.
+
+**What CR-058 loses or changes** (to be drafted as fact changes only if the author chooses path A)
+
+- British Columbia's entry into Confederation in 1871, and Pacifica's part in it and in the Canadian Pacific's finance.
+- The grant of passage on the Stikine, Yukon and Porcupine (1871): it is made to Britain for the colony.
+- Canada learning its diplomacy with Pacifica on seals, sockeye, halibut and the Columbia: these become British Columbia's business. Canada's school is the prairie border and the grain.
+- "Annexation fear makes no sense in this timeline": after 1932 it makes sense, at least in Ottawa. Canon tension 3 sharpens.
+- The Canadian Pacific ends at Calgary or runs to tidewater on Pacifican terms. Prairie wheat goes west through a port under the Pacific crown, which is R-1's lever.
+- Unchanged: the brigade at Irkutsk, Great Bear's pitchblende, Canada's neutrality in 1927.
+
+**Decisions for C8**
+
+- **N-1.** Which path (A, B or C), or none.
+- **N-2.** The date of the plebiscite (1931 or 1932) and its form (settlers together, each nation for itself).
+- **N-3.** The name and seat of the new crown.
+- **N-4.** Whether the Fraser is closed to the engineers for good.
+- **N-5.** What Canada is given, if anything, for its lost Pacific coast: a free port, running rights, a share of the Columbia's power.
 
 ## D. What it changes elsewhere (to be decided there)
 
@@ -347,8 +399,8 @@ The regions do not cover the century, so the plan cannot be a list of lands. It 
 ## Canon tensions
 
 1. **The unstated purpose (B4).** Canon: "The Republic's further purpose in the Pacific is never stated" (CR-075). *Case A, canon kept:* the table is public and the purpose is still never stated; the reader infers it from decisions. *Case B, canon amended:* the purpose is stated in a document of the regency. No fact changes. *Recommendation:* case A.
-2. **Water for fields against reserved water (C1).** Canon: no dam at the Grand Coulee, the lower Snake or The Dalles, and none where salmon cannot pass (CR-055); minimum stream flows (CR-036, the Thalassia Plan). The strongest provisioning plan would dam and divert more. *Case A, canon kept:* the limits stand, and the foreign instruments exist because of them. *Case B, canon amended:* one limit is given up. No fact changes drafted. *Recommendation:* case A; it is the doctrine's motive.
-3. **The giant its neighbours need not fear (C3, C4).** Canon: Pacifica "coordinates nothing" in North America (CR-058). A doctrine that counts the Gulf's and the Union's farmland strains it. *Case A:* the account counts them and policy does not act on it before 1932. *Case B:* policy acts. *Recommendation:* case A, to be reopened by the author.
+2. **Water for fields against reserved water (C1).** Canon: no dam at the Grand Coulee, the lower Snake or The Dalles, and none where salmon cannot pass (CR-055); minimum stream flows (CR-036, the Thalassia Plan). The strongest provisioning plan would dam and divert more. *Case A, canon kept:* the limits stand, and the foreign instruments exist because of them. *Case B, canon amended:* one limit is given up. No fact changes drafted. *Recommendation (superseded in part):* case A; it is the doctrine's motive. *Author, 19:29:* the provisioners prevail on the northern water. The limits inside the Realm can stand; the water comes from north of the line, by lease from the nations there (C8). To be redrafted once N-1 is decided.
+3. **The giant its neighbours need not fear (C3, C4).** Canon: Pacifica "coordinates nothing" in North America (CR-058). A doctrine that counts the Gulf's and the Union's farmland strains it. *Case A:* the account counts them and policy does not act on it before 1932. *Case B:* policy acts. *Recommendation:* case A, to be reopened by the author. *Reopened (author, 19:29):* British Columbia and the Yukon may change crowns by plebiscite by 1932, and CR-058 may be challenged. C8 sets out three paths; each makes Pacifica a neighbour Ottawa has reason to fear.
 
 Watch item: CR-081 is not on `main`. Its A8.12, S-1, S-4 and S-5 are named in Part D as dependencies, not as canon.
 
@@ -359,6 +411,8 @@ none
 ## Sources
 
 Stated from general knowledge and to verify before any figure or date is used: Powell at the Irrigation Congress (October 1893); Crookes's address (September 1898) and its date for the wheat failure; Pearl and Reed's ceiling (1920); King's journey (1909) and book (1911); California's first commercial rice (1912); the rice riots of 1918 and the plan of 1920; China's rice and flour imports in the 1920s; the western phosphate field and Searles Lake; the grain-equivalent ratio between diets.
+
+Read for C8 on 21 November 2026: The Canadian Encyclopedia on the Fraser River gold rush, on British Columbia and Confederation and on the Yukon; BCcampus, *Canadian History: Post-Confederation*, ch. 2.3; the Wikipedia article on the Carnarvon Terms (to verify against Ormsby or Barman); the Library of Parliament's paper on the Nisga'a claim (PRB 99-2E) and the Union of BC Indian Chiefs' timeline; Statistics Canada on the Yukon's census counts; the Western Australian Electoral Commission and the Parliamentary Education Office on the referendum of 1933; Heritage Newfoundland and Labrador on 1932–34. The count of 104 petitioners in 1869 is from a secondary newsletter and is to be verified.
 
 Read for C7 on 21 November 2026: Watkins (San José State University) on the Parsons plan's figures; the Cambridge History of Latin America on Argentina's exports of 1925–29.
 
