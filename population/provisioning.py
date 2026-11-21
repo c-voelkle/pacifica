@@ -7,10 +7,14 @@ What it does
     frontier, turned into acres of average Union crop land and then into mouths
     on the Realm's diet. Cases, each building on the last: history's acres;
     canon's farmers (history's acres a head for canon's larger population, up to
-    the ceilings); concerted research (the central case: the Realm farms as our
-    timeline farmed the same land a generation later); and the sea.
+    what the works can water); concerted research (the central case: the Realm
+    farms as our timeline farmed the same land a generation later); and the sea.
+  * Capacity against crop (22 November 2026): what the land could feed, and what
+    is in fact grown, which is the Realm's own table and what it sells abroad.
+    Nitrogen goes on the fields as the margin narrows and as there is nitrogen.
   * The Office's tables of 1890-1930: from each table year, the course of the
     population for a century at a slowing rate, set against the home ceiling.
+  * The century: the provisioners' four works against the table of 1930.
 
 It reads the canon run and data/provisioning.toml and feeds nothing back.
 Every factor that turns acres into mouths is MODEL (see the data file).
@@ -109,6 +113,21 @@ def geometric_census(years: list[float], values: list[float], year: float) -> fl
     return geometric([y for y, _ in pts], [v for _, v in pts], year)
 
 
+def works_limit(c: dict, base: dict, year: float) -> float:
+    """The most irrigated land canon's works can water in a year: the rivers' own flow until
+    storage is built, then what the dams and pumps reach, at last every irrigable acre."""
+    t, w = c["irrigation_totals"], c["works"]
+    def level(key):
+        return base["area"] if key == "history_1929" else t[key] * base["share"]
+    return interp(w["years"], [level(k) for k in w["basis"]], year)
+
+
+def draft_share(c: dict, year: float, who: str) -> float:
+    """Share of crop land that feeds horses and mules and so feeds no people."""
+    d = c["draft"]
+    return interp(d[who + "_years"], d[who + "_share"], year)
+
+
 def acres(c: dict, base: dict, year: int, case: str, pop: dict[int, float] | None = None) -> tuple[float, float]:
     """Irrigated area and dry crop land inside the frontier in a year, for a case."""
     t, d = c["irrigation_totals"], c["dry_cropland"]
@@ -120,7 +139,7 @@ def acres(c: dict, base: dict, year: int, case: str, pop: dict[int, float] | Non
         return top_irr, top_dry
     if case in ("farmers", "research"):
         k = pop[year] / history_people(c, year)
-        return min(irr * k, top_irr), min(dry * k, top_dry)
+        return min(irr * k, top_irr, works_limit(c, base, year)), min(dry * k, top_dry)
     return irr, dry
 
 
@@ -167,28 +186,45 @@ def base_standard(c: dict, base: dict, year: int, case: str, pop=None) -> tuple[
     return irr * base["harvest"] / base["area"] * lv["irrigated_factor"], dry * lv["dry_factor"]
 
 
-def standard_acres(c: dict, base: dict, year: int, case: str, pop=None, nitrogen: str = "supplied") -> float:
-    """Acres of average Union crop land the home soil is worth in a year, for a case."""
+def standard_acres(c: dict, base: dict, year: int, case: str, pop=None, nitrogen="supplied") -> float:
+    """Acres of average Union crop land the home soil is worth to people in a year, for a case.
+    `nitrogen` is the share of the nitrogen-bound gain in the fields: a number, "full", "supplied"
+    (as much as Chile and the home plants can give) or "canon" (CR-054's nitrogen as it stands)."""
     irr, dry = base_standard(c, base, year, case, pop)
     if case in ("history", "farmers"):
-        return irr + dry
+        return (irr + dry) * (1 - draft_share(c, year, "history"))
     lifted = (irr if c["yield_components"]["applies_to_irrigated"] else 0.0) + dry
-    share = 1.0
-    if nitrogen == "canon":      # only as much of the nitrogen-bound gain as canon's own nitrogen buys
+    if case == "ceiling" or nitrogen == "full":
+        share = 1.0
+    elif isinstance(nitrogen, (int, float)):
+        share = float(nitrogen)
+    else:
         n = c["nitrogen"]
         asked = lifted * (research(c, year) - research(c, year, nitrogen=0.0))
-        bought = canon_farm_nitrogen(c, year) * n["grain_per_tonne_n"] / n["grain_per_standard_acre"]
+        tonnes = canon_farm_nitrogen(c, year) if nitrogen == "canon" else nitrogen_supply(c, year)
+        bought = tonnes * n["grain_per_tonne_n"] / n["grain_per_standard_acre"]
         share = min(1.0, bought / asked) if asked > 0 else 1.0
-    return irr + dry + lifted * (research(c, year, nitrogen=share) - 1)
+    return (irr + dry + lifted * (research(c, year, nitrogen=share) - 1)) * (1 - draft_share(c, year, "canon"))
 
 
 def nitrogen_needed(c: dict, base: dict, year: int, pop) -> float:
-    """Tonnes of nitrogen a year the nitrogen-bound components ask for."""
+    """Tonnes of nitrogen a year the nitrogen-bound components ask for when they are in every field."""
     n = c["nitrogen"]
     irr, dry = base_standard(c, base, year, "research", pop)
     lifted = (irr if c["yield_components"]["applies_to_irrigated"] else 0.0) + dry
     gain = lifted * (research(c, year) - research(c, year, nitrogen=0.0))
     return gain * n["grain_per_standard_acre"] / n["grain_per_tonne_n"]
+
+
+def home_nitrogen(c: dict, year: float) -> float:
+    """Tonnes of home-made nitrogen for the fields in a year (the Columbia's and the valley's ammonia)."""
+    k = c["nitrogen_supply"]
+    return interp(k["home_years"], k["home_farm_tonnes"], year)
+
+
+def nitrogen_supply(c: dict, year: int) -> float:
+    """Tonnes of nitrogen the Realm's fields can get in a year: its share of Chile's trade and its own."""
+    return c["nitrogen_supply"]["chile_share_max"] * chile_nitrogen(c, year) + home_nitrogen(c, year)
 
 
 def chile_nitrogen(c: dict, year: int) -> float:
@@ -228,9 +264,44 @@ def mouths(c: dict, base: dict, year: int, case: str, pop=None, nitrogen: str = 
     return standard_acres(c, base, year, case, pop, nitrogen) / c["levers"]["acres_per_head"]
 
 
-def central(c: dict, base: dict, year: int, pop, nitrogen: str = "supplied") -> float:
-    """The central case: canon's farmers, concerted research and the sea."""
+def central(c: dict, base: dict, year: int, pop, nitrogen="supplied") -> float:
+    """The central case's capacity: canon's farmers, concerted research and the sea, with as much
+    nitrogen as the Realm can get."""
     return mouths(c, base, year, "research", pop, nitrogen) + sea_mouths(c, year)
+
+
+def tonnes_per_mouth(c: dict) -> float:
+    """Grain or its equivalent behind one mouth on the Realm's diet for a year."""
+    return c["levers"]["acres_per_head"] * c["nitrogen"]["grain_per_standard_acre"]
+
+
+def export_mouths(c: dict, year: int) -> float:
+    """What the Realm sells abroad in a year, in mouths on its own diet."""
+    e = c["exports"]
+    return interp(e["years"], e["grain_tonnes"], year) / tonnes_per_mouth(c)
+
+
+def fields(c: dict, base: dict, year: int, pop) -> dict:
+    """Capacity against crop in a year. The crop is the Realm's own table and its sales abroad, no more.
+    The methods that cost nothing an acre are in every field as soon as they exist; nitrogen and the
+    short wheats that need it go on as the margin narrows, never below what the paying crops take
+    and never above what there is to buy."""
+    k = c["nitrogen_supply"]
+    demand = pop[year] + export_mouths(c, year)
+    free = central(c, base, year, pop, 0.0)
+    full = central(c, base, year, pop, "full")
+    asked = nitrogen_needed(c, base, year, pop)
+    supply = nitrogen_supply(c, year)
+    can = min(1.0, supply / asked) if asked > 0 else 1.0
+    need = max(0.0, min(1.0, (demand - free) / (full - free))) if full > free else 0.0
+    floor = interp(k["paying_years"], k["paying_share"], year) if year >= k["paying_years"][0] else 0.0
+    share = min(can, max(floor, need))
+    capacity = central(c, base, year, pop, can)
+    used = share * asked
+    chile = min(used, max(0.0, used - home_nitrogen(c, year)))
+    return {"demand": demand, "exports": export_mouths(c, year), "free": free, "full": full, "capacity": capacity,
+            "share": share, "crop": min(demand, central(c, base, year, pop, share)), "asked": asked,
+            "supply": supply, "used": used, "from_chile": chile, "from_home": used - chile}
 
 
 def crossing(pop: dict[int, float], fed) -> int | None:
@@ -253,7 +324,8 @@ def crossing_ahead(c: dict, base: dict, pop: dict[int, float], frozen: bool) -> 
     for n in range(1, 200):
         k = research(c, LAST) if frozen else research(c, LAST + n)
         on_irr = k if c["yield_components"]["applies_to_irrigated"] else 1.0
-        fed = (irr * on_irr + dry * k) / lv["acres_per_head"] + sea_mouths(c, LAST)
+        people = 1 - draft_share(c, LAST if frozen else LAST + n, "canon")
+        fed = (irr * on_irr + dry * k) * people / lv["acres_per_head"] + sea_mouths(c, LAST)
         if project(pop[LAST], r, slowing(c, LAST), n, lv["horizon"]) > fed:
             return LAST + n
     return LAST + 200
@@ -302,6 +374,65 @@ def table(c: dict, base: dict, pop: dict[int, float], year: int, g_end: float | 
     return out
 
 
+# ---------------------------------------------------------------- the century (CR-082 Part F, P-5)
+
+def year_passed(c: dict, pop: dict[int, float], fed: float, year: int = 1930, g_end: float | None = None) -> int:
+    """The year the Office's course from a table year passes a number of mouths."""
+    lv = c["levers"]
+    g = slowing(c, year) if g_end is None else g_end
+    r = rate(lambda y: pop[y], year)
+    n = 0
+    while project(pop[year], r, g, n, lv["horizon"]) <= fed and n < 400:
+        n += 1
+    return year + n
+
+
+def slowing_that_fits(c: dict, pop: dict[int, float], fed: float, year: int = 1930) -> float:
+    """The rate the Office's course must fall to over the century for the Realm of a century on to be fed."""
+    lv = c["levers"]
+    r = rate(lambda y: pop[y], year)
+    lo, hi = -0.10, r
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        if project(pop[year], r, mid, lv["horizon"], lv["horizon"]) > fed:
+            hi = mid
+        else:
+            lo = mid
+    return lo
+
+
+def century(c: dict, base: dict, pop: dict[int, float]) -> dict:
+    """The provisioners' four works a century after the table of 1930, in mouths on the Realm's diet."""
+    lv, k = c["levers"], c["century"]
+    t = table(c, base, pop, 1930)
+    per_acre = base["harvest"] / base["area"] * lv["irrigated_factor"] * k["yield_multiple"] / lv["acres_per_head"]
+    irr, dry = base_standard(c, base, LAST, "ceiling")
+    home = (irr + dry) * k["yield_multiple"] / lv["acres_per_head"] + sea_mouths(c, LAST)
+    water = {}
+    for name, km3 in k["water_km3"].items():
+        a = km3 * k["acre_feet_per_km3"] / k["acre_feet_per_acre"]
+        water[name] = {"km3": km3, "acres": a, "mouths": a * per_acre, "share_of_flow": km3 / k["tapped_flow_km3"]}
+    sellers = [{"name": s["name"], "asked": s["asked"], "now": s["about_1930"] * 1e6 / tonnes_per_mouth(c),
+                "then": s["today"] * 1e6 / tonnes_per_mouth(c)} for s in k["sellers"]]
+    asked_now = sum(s["now"] for s in sellers if s["asked"])
+    asked = sum(s["then"] for s in sellers if s["asked"])
+    union = sum(s["then"] for s in sellers if not s["asked"])
+    diet = 1 / (1 - k["diet_saving"])
+    stage, top = water["first_stage"]["mouths"], water["ceiling_in_law"]["mouths"]
+    cases = [("Home yields alone (work 1)", home),
+             ("With the first stage of the northern water", home + stage),
+             ("With the whole northern water (works 1 and 2)", home + top),
+             ("And half of what the asked sellers sell", home + top + asked / 2),
+             ("And all of it (works 1 to 3, the Union not asked)", home + top + asked),
+             ("And on the thriftier table (all four works)", (home + top + asked) * diet),
+             ("All four works, and all the Union and the Gulf sell as well", (home + top + asked + union) * diet)]
+    rows = [{"name": n, "fed": f, "share": f / t["realm_100"], "passed": year_passed(c, pop, f),
+             "slowing": slowing_that_fits(c, pop, f)} for n, f in cases]
+    return {"need": t["realm_100"], "crown": t["crown_100"], "home": home, "home_1932": central(c, base, LAST, pop),
+            "water": water, "sellers": sellers, "asked_now": asked_now, "asked": asked, "union": union,
+            "diet": diet, "rows": rows, "plan": rows[5], "gap": t["realm_100"] - rows[5]["fed"]}
+
+
 # ---------------------------------------------------------------- report
 
 def m(x: float) -> str:
@@ -321,6 +452,11 @@ def main() -> int:
       "The author's decisions of 21 November 2026 are built in: the Realm's present diet held constant, a slowing "
       "rate of growth, and the Philippine crown counted from 1908.")
     A("")
+    A("**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for "
+      "its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; "
+      "capacity is told apart from crop (section 4); and the century's four works are computed (section 8). The first "
+      "draft's central case is kept as a row of section 9.")
+    A("")
     A("## 1. The land in 1929 (our timeline, inside the frontier)")
     A("")
     A("| State | Area irrigated | Irrigated land harvested | Dry crop land |")
@@ -332,6 +468,12 @@ def main() -> int:
     A(f"Millions of acres. The territory holds {base['share']:.0%} of the 19 states' irrigated area. "
       f"The ceiling used is the 1940 census's irrigable area in enterprises times that share: "
       f"{m(ceiling_area(c, base))} million acres. Part states and the dry land are estimates.")
+    A("")
+    w = c["works"]
+    A("**Works (review S2).** Irrigated land needs works. Canon's farmers can water "
+      + ", ".join(f"{m(works_limit(c, base, y))} million acres by {y}" for y in w["years"])
+      + f": first what our timeline's rivers watered before the great dams, then what the 1940 census calls works capable "
+      f"of supplying, at last every irrigable acre. {w['named']} The dates are MODEL.")
     A("")
     yc, nn = c["yield_components"], c["nitrogen"]
     A("## 2. The rule for yields")
@@ -375,46 +517,88 @@ def main() -> int:
     for it in yc["items"]:
         A(f"- **{it['name']}.** {it['basis']}")
     A("")
-    A("## 3. People against home supply")
+    A("## 3. People against what the home soil and sea could feed")
     A("")
-    A("| Year | Residents | History's acres | Canon's farmers | + concerted research | + the sea (central case) | Share fed |")
-    A("|---|---|---|---|---|---|---|")
-    for y in (1861, 1870, 1880, 1890, 1900, 1910, 1920, 1930, 1932):
-        f = {k: mouths(c, base, y, k, pop) for k in CASES}
+    A("| Year | Residents | History's acres | Canon's farmers | + concerted research, no nitrogen | + nitrogen as it can be got | "
+      "+ the sea (capacity) | Capacity against residents |")
+    A("|---|---|---|---|---|---|---|---|")
+    for y in (1880, 1890, 1900, 1910, 1920, 1930, 1932):
+        f = {k: mouths(c, base, y, k, pop) for k in ("history", "farmers")}
         cen = central(c, base, y, pop)
-        A(f"| {y} | {m(pop[y])} | {m(f['history'])} | {m(f['farmers'])} | {m(f['research'])} | {m(cen)} | {cen / pop[y]:.0%} |")
+        A(f"| {y} | {m(pop[y])} | {m(f['history'])} | {m(f['farmers'])} | {m(mouths(c, base, y, 'research', pop, 0.0))} | "
+          f"{m(mouths(c, base, y, 'research', pop))} | {m(cen)} | {cen / pop[y]:.0%} |")
     A("")
     A("Millions fed on the Realm's diet. *Canon's farmers* work as many acres a head as our timeline's residents did on "
-      f"the same land, until the irrigated ceiling ({m(ceiling_area(c, base))} million acres) and the dry ceiling "
-      f"({m(base['dry'] * lv['dry_ceiling_factor'])} million) stop them.")
+      f"the same land, until the works (section 1), the irrigated ceiling ({m(ceiling_area(c, base))} million acres) and "
+      f"the dry ceiling ({m(base['dry'] * lv['dry_ceiling_factor'])} million) stop them. Land that feeds horses and mules "
+      f"is taken out: {draft_share(c, 1910, 'history'):.0%} of crop land in 1910 in our timeline, "
+      f"{draft_share(c, 1930, 'history'):.0%} in 1930; canon's tractors bring it to {draft_share(c, 1925, 'canon'):.0%} by 1925. "
+      "The years before 1880 are left out: the early acreages are guesses.")
+    A("")
+    A("**The measure checked on our timeline.** History's acres against history's own people inside the frontier: "
+      + ", ".join(f"{mouths(c, base, y, 'history') / history_people(c, y):.0%} in {y}" for y in (1900, 1910, 1920, 1930))
+      + ". Our timeline's West fed itself with a shrinking margin and sold wheat and fruit abroad, which is about what the "
+      "measure says.")
     A("")
     x_f = crossing(pop, lambda y: mouths(c, base, y, "farmers", pop))
     x_c = crossing(pop, lambda y: central(c, base, y, pop))
+    x_0 = crossing(pop, lambda y: central(c, base, y, pop, 0.0))
     x_n = crossing(pop, lambda y: central(c, base, y, pop, "canon"))
     A(f"- **Without research** (canon's farmers at history's yields) the Realm outgrows its own soil in **{x_f}**.")
+    A(f"- **With research but no bought nitrogen** it outgrows soil and sea in **{x_0 if x_0 else 'no year to 1932'}**.")
     if x_c:
         A(f"- **Central case:** the Realm outgrows its own soil and sea in **{x_c}**.")
     else:
-        A(f"- **Central case:** the Realm still feeds itself in {LAST}, with {central(c, base, LAST, pop) / pop[LAST] - 1:.0%} to spare. "
-          f"On the Office's course it outgrows soil and sea in **{crossing_ahead(c, base, pop, True)}** if yields stay at "
-          f"1932's, and in **{crossing_ahead(c, base, pop, False)}** once the weedkiller, the last component, is in the fields.")
+        A(f"- **Central case:** the Realm could still feed itself in {LAST}, with {central(c, base, LAST, pop) / pop[LAST] - 1:.0%} "
+          f"to spare. On the Office's course it outgrows soil and sea in **{crossing_ahead(c, base, pop, True)}** if yields stay "
+          f"at 1932's, and in **{crossing_ahead(c, base, pop, False)}** once the weedkiller, the last component, is in the fields.")
+    fed_n = central(c, base, LAST, pop, "canon")
     A(f"- **With nitrogen as canon now has it** ({nn['canon_total_1929'] / 1000:.0f} thousand tonnes in 1929, half to farms) "
-      f"the central case feeds {m(central(c, base, LAST, pop, 'canon'))} million in {LAST} and the Realm outgrows it in "
-      f"**{x_n if x_n else 'no year before 1933'}**.")
+      f"the capacity of {LAST} is {m(fed_n)} million, {fed_n / pop[LAST]:.0%} of residents"
+      + (f"; the Realm outgrows it in **{x_n}**." if x_n else "."))
     A("")
-    A("## 4. What the central case asks for")
+    A("## 4. Capacity against crop (review B5)")
     A("")
-    A("| Year | Irrigated acres | Dry acres | Nitrogen needed | All Chile's exports hold | Canon's farm nitrogen (CR-054) | The sea feeds |")
-    A("|---|---|---|---|---|---|---|")
-    for y in (1890, 1900, 1905, 1910, 1915, 1920, 1930):
-        i, d = acres(c, base, y, "research", pop)
-        A(f"| {y} | {m(i)} | {m(d)} | {nitrogen_needed(c, base, y, pop) / 1000:.0f} | {chile_nitrogen(c, y) / 1000:.0f} | "
-          f"{canon_farm_nitrogen(c, y) / 1000:.0f} | {m(sea_mouths(c, y))} |")
+    A("What could be grown is not what is grown. The crop is the Realm's own table and what it sells abroad. The methods "
+      "that cost nothing an acre (seed, drill, fallow, tractor) are in every field as soon as they exist. Nitrogen and the "
+      "short wheats that need it go on as the margin narrows: never less than the paying crops take, never more than "
+      "there is to buy.")
     A("")
-    A(f"Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mouths. Nitrogen is counted at canon's "
-      f"own {nn['grain_per_tonne_n']} tonnes of grain per tonne, for the gain of the two components that need it (cheap "
-      "nitrogen and the short-straw wheats). Our timeline irrigated "
-      f"{m(acres(c, base, 1929, 'history')[0])} million acres on the same land in 1929.")
+    A("| Year | Residents | Sold abroad | Crop grown | Capacity | Idle capacity | Nitrogen-bound gain in the fields | "
+      "Nitrogen used | from Chile | from home plants | Chile's share taken | The full ask |")
+    A("|---|---|---|---|---|---|---|---|---|---|---|---|")
+    for y in (1890, 1900, 1905, 1910, 1915, 1917, 1920, 1925, 1930, 1932):
+        f = fields(c, base, y, pop)
+        sold = max(0.0, f["crop"] - pop[y])
+        A(f"| {y} | {m(pop[y])} | {m(sold)} | {m(f['crop'])} | {m(f['capacity'])} | {m(f['capacity'] - f['crop'])} | "
+          f"{f['share']:.0%} | {f['used'] / 1000:.0f} | {f['from_chile'] / 1000:.0f} | {f['from_home'] / 1000:.0f} | "
+          f"{f['from_chile'] / chile_nitrogen(c, y):.0%} | {f['asked'] / 1000:.0f} |")
+    A("")
+    ex = c["exports"]
+    lo_w, hi_w = ex["world_wheat_trade_1920s_tonnes"]
+    A(f"People and mouths in millions; nitrogen in thousand tonnes a year. A mouth is {tonnes_per_mouth(c):.2f} tonnes of grain "
+      f"or its equivalent. *Sold abroad* (MODEL): {ex['buyers']} At {interp(ex['years'], ex['grain_tonnes'], 1929) / 1e6:.0f} "
+      f"million tonnes in 1929 it is about a sixth of the world's wheat trade ({lo_w / 1e6:.0f}–{hi_w / 1e6:.1f} million tonnes "
+      "a year in the late 1920s). *The full ask* is the nitrogen the two nitrogen-bound components would take in every field "
+      f"(canon's own {nn['grain_per_tonne_n']} tonnes of grain per tonne). The Realm takes at most "
+      f"{c['nitrogen_supply']['chile_share_max']:.0%} of Chile's trade; the home plants give "
+      + ", ".join(f"{home_nitrogen(c, y) / 1000:.0f} thousand tonnes in {y}" for y in (1920, 1925, 1930))
+      + " to the fields (MODEL; review S1).")
+    A("")
+    f10, f29, f32 = fields(c, base, 1910, pop), fields(c, base, 1929, pop), fields(c, base, 1932, pop)
+    margins = {y: central(c, base, y, pop) / pop[y] for y in range(1890, LAST + 1)}
+    best = max(margins, key=margins.get)
+    late = [v for y, v in margins.items() if y >= 1905]
+    A(f"- **The margin is thin.** Capacity is at most {margins[best] - 1:.0%} above residents (in {best}, before the rivers' "
+      f"own flow is all in use) and between {min(late) - 1:.0%} and {max(late) - 1:.0%} above them from 1905. "
+      "No table shows a country twice fed.")
+    A(f"- **Chile is needed early.** By 1910 the fields take {f10['used'] / 1000:.0f} thousand tonnes of nitrogen, "
+      f"{f10['from_chile'] / chile_nitrogen(c, 1910):.0%} of all Chile exports. Without it the Realm could sell "
+      f"{m(max(0.0, f10['free'] - pop[1910]))} million mouths' worth abroad in 1910 instead of {m(f10['crop'] - pop[1910])}, "
+      f"and from {crossing(pop, lambda y: central(c, base, y, pop, 0.0))} it could not feed itself.")
+    A(f"- **The home plants take over in the 1920s.** In 1929 the fields use {f29['used'] / 1000:.0f} thousand tonnes "
+      f"and in 1932 {f32['used'] / 1000:.0f}, against CR-054's {nn['canon_total_1929'] * nn['canon_farm_share'] / 1000:.0f} "
+      f"for farms in 1929 and the first draft's {nitrogen_needed(c, base, 1930, pop) / 1000:.0f}.")
     A("")
     A("## 5. Japan's rice (the Concord's side)")
     A("")
@@ -460,10 +644,12 @@ def main() -> int:
     A(f"From each table year the yearly rate falls in a straight line from the last decade's rate, over a century, to "
       f"{lv['g_end']:.1%} in the tables before {lv['julian_from']} and to {lv['g_end_julian']:.1%} in the tables of Julian's reign "
       "(author: Julian is a provisioner, so the Office assumes less slowing for the time being; the figure itself is the "
-      "script's reading). The home ceiling is every irrigable and dry acre at the table year's yields, with the sea.")
+      "script's reading). The home ceiling is every irrigable and dry acre at the table year's yields, with the sea, "
+      "less the land that feeds work stock in that year. *Realm passes it* is the table's own forecast; it is a different "
+      "measure from section 3's crossing, which follows the yields as they in fact rise.")
     A("")
-    A("| Table | Residents | Crown | Rate | In 25 years | In 50 | In 100 (Realm + crown) | Home ceiling feeds | "
-      "Realm passes it | A century's need against the ceiling |")
+    A("| Table | Residents | Crown | Rate | In 25 years (Realm + crown) | In 50 (Realm + crown) | In 100 (Realm + crown) | "
+      "Home ceiling feeds | Realm passes it | A century's need against the ceiling |")
     A("|---|---|---|---|---|---|---|---|---|---|")
     rows = []
     for y in TABLES:
@@ -471,7 +657,7 @@ def main() -> int:
         rows.append(t)
         when = "already past" if t["passes_ceiling"] <= y else str(t["passes_ceiling"])
         A(f"| {y} | {m(t['realm'])} | {m(t['crown']) if t['crown'] else '—'} | {t['rate']:.1%} | "
-          f"{m(t['realm_25'] + t['crown_25'])} | {m(t['realm_50'] + t['crown_50'])} | "
+          f"{m(t['realm_25'])} + {m(t['crown_25'])} | {m(t['realm_50'])} + {m(t['crown_50'])} | "
           f"{m(t['realm_100'])} + {m(t['crown_100'])} = {m(t['realm_100'] + t['crown_100'])} | "
           f"{m(t['ceiling_mouths'])} | {when} | {t['need_100'] / t['ceiling_std']:.0f} times |")
     A("")
@@ -483,18 +669,87 @@ def main() -> int:
       f"Even at our timeline's yields of 1966–75 the home ceiling gives about {top70 / 1e6:,.0f} million such acres, "
       f"one part in {last['need_100'] / top70:.0f}.")
     A("")
-    A("## 8. What moves the result")
+    A("## 8. The century: the provisioners' four works (CR-082 Part F, P-5)")
     A("")
-    A("| Lever | Value | Central case feeds in 1932 | Share of residents | Table of 1930: need against ceiling |")
+    cy, kc = century(c, base, pop), c["century"]
+    A(f"Julian's table of 1930 has **{m(cy['need'])} million** in the Realm a century on (and {m(cy['crown'])} million under "
+      "the Philippine crown, on its own ledger). Everything below is in mouths on the Realm's diet of today.")
+    A("")
+    A(f"**Work 1, home yields.** Every irrigable and dry acre at {kc['yield_multiple']} times the yields of 1900–29 "
+      f"(what Washington's dry wheat gives in our timeline today), no horses, and the sea as in 1930: **{m(cy['home'])} "
+      f"million**, against a capacity of {m(cy['home_1932'])} million in {LAST}.")
+    A("")
+    A("**Work 2, the northern water.**")
+    A("")
+    A("| Stage | Water | Share of the Peace and the Liard where tapped | Acres watered | Mouths at the century's yields |")
     A("|---|---|---|---|---|")
+    for name, wv in cy["water"].items():
+        A(f"| {name.replace('_', ' ').capitalize()} | {wv['km3']} km³ a year | {wv['share_of_flow']:.0%} | {m(wv['acres'])} million | "
+          f"{m(wv['mouths'])} million |")
+    A("")
+    A(f"At {kc['acre_feet_per_acre']} acre-feet an acre, an irrigated acre counted as in section 2.")
+    A("")
+    A("**Work 3, the sellers.** What each sells abroad, about 1930 and a century on. The century's figure is what the same "
+      "lands sell in our timeline today.")
+    A("")
+    A("| Seller | About 1930 (million tonnes) | In mouths | A century on (million tonnes) | In mouths | Asked |")
+    A("|---|---|---|---|---|---|")
+    for sv, src in zip(cy["sellers"], kc["sellers"]):
+        A(f"| {sv['name']} | {src['about_1930']} | {m(sv['now'])} | {src['today']} | {m(sv['then'])} | "
+          f"{'yes' if sv['asked'] else 'no (author, 19:09)'} |")
+    A(f"| **Asked sellers together** | | **{m(cy['asked_now'])}** | | **{m(cy['asked'])}** | |")
+    A("")
+    A(f"**Work 4, the thriftier table.** {kc['diet_saving']:.0%} less land a head, so every acre and every bought tonne "
+      f"feeds {cy['diet'] - 1:.0%} more people. It breaks the Office's own assumption of a constant diet.")
+    A("")
+    A("**Whether it closes.**")
+    A("")
+    A("| Works | Mouths fed | Share of the table's Realm | The Office's course passes it in | Slowing that would fit |")
+    A("|---|---|---|---|---|")
+    for r in cy["rows"]:
+        fit = f"{r['slowing']:.1%} a year" if r["slowing"] > 0 else "growth must end within the century"
+        A(f"| {r['name']} | {m(r['fed'])} | {r['share']:.0%} | {r['passed']} | {fit} |")
+    A("")
+    pl = cy["plan"]
+    A(f"- **The plan does not close.** All four works, with every tonne the asked sellers sell, feed {m(pl['fed'])} million: "
+      f"{pl['share']:.0%} of the table's Realm, short by {m(cy['gap'])} million. The Office's course passes it in {pl['passed']}.")
+    A(f"- **It fits a Realm that slows to {pl['slowing']:.1%} a year,** not to Julian's {lv['g_end_julian']:.1%} or the "
+      f"regency's {lv['g_end']:.1%}.")
+    A(f"- **It closes only with the Union's grain,** and then only if the Realm buys all of it: "
+      f"{m(cy['rows'][6]['fed'])} million, {cy['rows'][6]['share']:.0%}.")
+    A(f"- **The sellers carry it.** Home and the northern water together are {m(cy['home'] + cy['water']['ceiling_in_law']['mouths'])} "
+      f"million, {(cy['home'] + cy['water']['ceiling_in_law']['mouths']) / cy['need']:.0%} of the need. The first draft's "
+      "250–300 million from the sellers is reached only by counting the Union.")
+    A(f"- **What is not counted:** other buyers of the same grain (Japan and China among them), the sellers' meat, butter and "
+      "wool, Caledonia's own land and people, and a bad year.")
+    A("")
+    A(f"`[century]`: {kc['status']}")
+    A("")
+    A("## 9. What moves the result")
+    A("")
+    A("| Lever | Value | Capacity in 1910 | Share of residents | Capacity in 1932 | Share of residents | "
+      "Table of 1930: need against ceiling |")
+    A("|---|---|---|---|---|---|---|")
     def variant(name, value, section="levers", **kw):
         c2 = cfg()
-        c2[section].update(kw)
+        if section == "first_draft":
+            c2["works"]["basis"] = ["irrigable_in_enterprises_1940"] * 3
+            c2["draft"].update(history_share=[0.0] * 5, canon_share=[0.0] * 4)
+            c2["nitrogen_supply"].update(chile_share_max=10.0)
+        else:
+            c2[section].update(kw)
         b2 = land_1929(c2)
-        fed = central(c2, b2, LAST, pop)
+        fed, early = central(c2, b2, LAST, pop), central(c2, b2, 1910, pop)
         t = table(c2, b2, pop, 1930)
-        A(f"| {name} | {value} | {m(fed)} | {fed / pop[LAST]:.0%} | {t['need_100'] / t['ceiling_std']:.0f} times |")
+        A(f"| {name} | {value} | {m(early)} | {early / pop[1910]:.0%} | {m(fed)} | {fed / pop[LAST]:.0%} | "
+          f"{t['need_100'] / t['ceiling_std']:.0f} times |")
     variant("As built (central dates)", "—")
+    variant("The works as in the first draft", "22 million irrigated acres as soon as there are farmers", "works",
+            basis=["irrigable_in_enterprises_1940"] * 3)
+    variant("No land for work stock", "as in the first draft", "draft", history_share=[0.0] * 5, canon_share=[0.0] * 4)
+    variant("Both, and all the nitrogen asked for", "the first draft's central case", "first_draft")
+    variant("The Realm takes more of Chile's trade", "60%", "nitrogen_supply", chile_share_max=0.60)
+    variant("No home ammonia for the fields", "Chile only", "nitrogen_supply", home_farm_tonnes=[0] * 6)
     variant("Earliest dates for the other four", "—", "yield_components", mode="earliest")
     variant("Research on dry land only", "irrigated yields as history's", "yield_components", applies_to_irrigated=False)
     variant("Irrigated acre", "counts 2.5", irrigated_factor=2.5)
@@ -505,9 +760,12 @@ def main() -> int:
     variant("Julian's tables slow to", "1.5% a year", g_end_julian=0.015)
     variant("Julian's tables slow to", "2.5% a year", g_end_julian=0.025)
     A("")
-    A("## 9. Not sourced, or weakly")
+    A("## 10. Not sourced, or weakly")
     A("")
     for key, where in (("status", "yield_components"), ("irrigated_status", "yield_components"), ("status", "nitrogen"),
+                       ("chile_status", "nitrogen"), ("status", "nitrogen_supply"), ("paying_status", "nitrogen_supply"),
+                       ("status", "works"), ("status", "draft"), ("status", "exports"), ("yield_status", "century"),
+                       ("water_status", "century"), ("diet_status", "century"),
                        ("status", "sea"), ("alaska_status", "sea"), ("status", "japan"), ("people_status", "japan"),
                        ("kg_status", "japan"), ("factor_status", "levers"),
                        ("status", "territory"), ("status", "dry_cropland"), ("pct_status", "cropland_1929"),
@@ -520,7 +778,9 @@ def main() -> int:
         w = csv.writer(f)
         w.writerow(["year", "residents", "crown_people", "fed_history", "fed_farmers", "fed_research", "fed_ceiling",
                     "fed_sea", "fed_central", "yields_against_history", "nitrogen_needed_t",
-                    "irrigated_history", "irrigated_farmers", "dry_history", "dry_farmers", "crown_fed"])
+                    "irrigated_history", "irrigated_farmers", "dry_history", "dry_farmers", "crown_fed",
+                    "crop_grown", "sold_abroad", "nitrogen_share", "nitrogen_used_t", "nitrogen_from_chile_t",
+                    "nitrogen_supply_t", "works_limit_acres"])
         for y in range(FIRST, LAST + 1):
             w.writerow([y, round(pop[y]), round(crown_people(c, y))] +
                        [round(mouths(c, base, y, k, pop)) for k in CASES] +
@@ -528,7 +788,10 @@ def main() -> int:
                         round(nitrogen_needed(c, base, y, pop))] +
                        [round(acres(c, base, y, "history")[0]), round(acres(c, base, y, "farmers", pop)[0]),
                         round(acres(c, base, y, "history")[1]), round(acres(c, base, y, "farmers", pop)[1]),
-                        round(crown_fed(c, y))])
+                        round(crown_fed(c, y))] +
+                       (lambda f: [round(f["crop"]), round(max(0.0, f["crop"] - pop[y])), round(f["share"], 3),
+                                   round(f["used"]), round(f["from_chile"]), round(f["supply"]),
+                                   round(works_limit(c, base, y))])(fields(c, base, y, pop)))
     print(f"wrote {OUT / 'provisioning.md'} and provisioning_by_year.csv")
     return 0
 

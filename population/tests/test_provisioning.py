@@ -56,6 +56,61 @@ class Provisioning(unittest.TestCase):
         self.assertGreater(pv.nitrogen_needed(self.c, self.base, 1930, self.pop), 2e5)
         self.assertTrue(3e6 < pv.sea_mouths(self.c, 1932) < 6e6)
 
+    def test_works_and_work_stock(self):
+        top = pv.ceiling_area(self.c, self.base)
+        last = 0.0
+        for y in range(pv.FIRST, pv.LAST + 1):
+            w = pv.works_limit(self.c, self.base, y)
+            self.assertGreaterEqual(w, last)                         # works are never unbuilt
+            self.assertLessEqual(pv.acres(self.c, self.base, y, "research", self.pop)[0], w + 1)
+            self.assertLessEqual(pv.draft_share(self.c, y, "canon"), pv.draft_share(self.c, y, "history") + 1e-9)
+            last = w
+        self.assertAlmostEqual(pv.works_limit(self.c, self.base, 1890), self.base["area"])
+        self.assertAlmostEqual(pv.works_limit(self.c, self.base, 1930), top)
+        self.assertAlmostEqual(pv.draft_share(self.c, 1910, "history"), 88 / 325, delta=0.005)   # HSUS Da661-664
+
+    def test_crop_never_exceeds_capacity_or_demand(self):
+        for y in range(1880, pv.LAST + 1):
+            f = pv.fields(self.c, self.base, y, self.pop)
+            self.assertLessEqual(f["crop"], f["capacity"] + 1)
+            self.assertLessEqual(f["crop"], f["demand"] + 1)
+            self.assertLessEqual(f["free"], f["capacity"] + 1)
+            self.assertLessEqual(f["capacity"], f["full"] + 1)
+            self.assertLessEqual(f["used"], f["supply"] + 1)
+            self.assertLessEqual(f["used"], f["asked"] + 1)
+            self.assertAlmostEqual(f["from_chile"] + f["from_home"], f["used"], delta=1)
+            self.assertLessEqual(f["from_chile"],
+                                 self.c["nitrogen_supply"]["chile_share_max"] * pv.chile_nitrogen(self.c, y) + 1)
+        self.assertEqual(pv.fields(self.c, self.base, 1899, self.pop)["used"], 0.0)
+
+    def test_first_draft_is_recovered(self):
+        c = pv.cfg()
+        c["works"]["basis"] = ["irrigable_in_enterprises_1940"] * 3
+        c["draft"].update(history_share=[0.0] * 5, canon_share=[0.0] * 4)
+        base = pv.land_1929(c)
+        self.assertAlmostEqual(pv.central(c, base, 1910, self.pop, "full") / self.pop[1910], 2.04, delta=0.01)
+        self.assertAlmostEqual(pv.central(c, base, 1932, self.pop, "full") / self.pop[1932], 1.31, delta=0.01)
+
+    def test_century_adds_up(self):
+        cy = pv.century(self.c, self.base, self.pop)
+        k = self.c["century"]
+        self.assertAlmostEqual(cy["need"], pv.table(self.c, self.base, self.pop, 1930)["realm_100"])
+        self.assertAlmostEqual(45 * k["acre_feet_per_km3"] / 1e6, 36.5, delta=0.05)          # 45 km3 in acre-feet
+        top = cy["water"]["ceiling_in_law"]
+        self.assertAlmostEqual(top["acres"], 45 * k["acre_feet_per_km3"] / k["acre_feet_per_acre"])
+        self.assertAlmostEqual(cy["water"]["first_stage"]["mouths"] / top["mouths"], 20 / 45)
+        plan = (cy["home"] + top["mouths"] + cy["asked"]) / (1 - k["diet_saving"])
+        self.assertAlmostEqual(cy["plan"]["fed"], plan, delta=1)
+        self.assertAlmostEqual(cy["gap"], cy["need"] - plan, delta=1)
+        fed = [r["fed"] for r in cy["rows"]]
+        self.assertEqual(fed, sorted(fed))
+        for r in cy["rows"]:                                         # the fitted slowing does feed the century
+            end = pv.project(self.pop[1930], pv.rate(lambda y: self.pop[y], 1930), r["slowing"], 100, 100)
+            self.assertAlmostEqual(end / r["fed"], 1.0, places=4)
+            self.assertLessEqual(pv.project(self.pop[1930], pv.rate(lambda y: self.pop[y], 1930),
+                                            self.c["levers"]["g_end_julian"], r["passed"] - 1931, 100), r["fed"])
+        self.assertAlmostEqual(sum(s["now"] for s in cy["sellers"]) / 1e6, 29.7, delta=0.5)   # the outline's "20-30 million"
+
     def test_projection_slows_and_matches_closed_form(self):
         p = pv.project(1.0, 0.04, 0.015, 100, 100)
         self.assertAlmostEqual(p, 2.718281828 ** 2.75, places=6)

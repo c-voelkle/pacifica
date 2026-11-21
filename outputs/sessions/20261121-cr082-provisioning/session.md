@@ -1,7 +1,7 @@
 ---
 session: 20261121-cr082-provisioning
 started: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-22
 mode: draft
 status: paused-for-author
 baseline:
@@ -37,6 +37,7 @@ independence: same-agent (writer only; no review yet)
 | D9 | decision | Path A approved for British Columbia and the Yukon (the colony never joins Canada); the plebiscite is in 1931 | author message 2026-11-21 19:45 | current |
 | D10 | decision | The northern water: a first stage of about 20 km³, with 45 km³ as the ceiling in law ("Ok sounds good") | author message 2026-11-21 20:32 | current |
 | D11 | decision | All suggestions for the open decisions are approved (F-1c to F-1e, F-4 to F-11, F-14, R-1 to R-6, P-1 to P-5, N-3 to N-5), except the means of the Chile intervention, which stays PROPOSED; write the CR draft | author message 2026-11-21 21:14 | current |
+| D12 | decision | CR-082 is split in two (the account, doctrine, Chile and theatres; Caledonia and the northern water apart); the model is reworked first ("I agree it should be two separate CRs as suggested. Go ahead and rework the model first") | author message 2026-11-22 00:40 | current |
 | Q5 | open choice | Draft tensions T3 (the compacts or the Charter carry the northern leases), T5 (the Canadian Pacific's finance) and T8 ("the giant its neighbours need not fear"); R-7b (Chile's means) | CR-082.md | open |
 | Q3 | open choice | The provisioners' plan for the century (C7's four works, P-1 to P-5) | author's question 2026-11-21 19:21 | open |
 | Q2 | open choice | R-1 to R-7: the claim the Realm makes in each theatre (C4's proposals) | raised in session | open |
@@ -55,3 +56,5 @@ The central case stands on six dated yield innovations with nitrogen from about 
 **Latest (21:14):** `book-agent/revision/CR-082.md` is the draft (lint clean; `cr_facts.py preview` lists storyline lines 704 and 1124). Open: T3, T5, T8 and R-7b. Not done: the fresh-context review; the century module and the northern water in the script; sourcing the river flows; integration into the storyline, register, ledger and facts. Then CR-081 is revised against R-3.
 
 **Latest (23:30):** the fresh-context review is in `book-agent/revision/CR-082-review.md`: not ready to integrate; six blockers (B1 the fourth crown has no accepting authority; B2 British Columbia's laws against Asians; B3 the Yukon assigned twice; B4 the treaty of 1931 spends in the slump canon refuses to spend in; B5 a Realm in surplus has no reason to hurry; B6 a wrong name and regency dates in G2), fourteen should-fix, seven minor. Next: the author's direction on B1–B5, then the draft is revised; B6 and the minor items are the drafter's to correct.
+
+**Latest (22 November, 00:40):** the author decided to split the CR in two (CR-082 keeps the account, the doctrine, Chile and the theatres; Caledonia and the northern water get their own CR) and asked for the model to be reworked first. Done in `population/provisioning.py`, `data/provisioning.toml`, twelve tests, `outputs/provisioning.md`: works limit irrigated land (13.8 million acres by 1900, 18.3 by 1920, 22.0 by 1930; MODEL, replaces F-1c's date); land that feeds horses and mules is taken out (27% in 1910, verified); nitrogen is at most 35% of Chile's trade plus a home ramp (50 thousand tonnes in 1920, 250 in 1930; MODEL); capacity is told apart from crop, with the Realm's sales abroad as a MODEL series; the century module is built. Results (MODEL): capacity is 121% of residents in 1910 and 115% in 1932 (first draft: 204% and 131%); without research the Realm outgrows its soil in 1905, without bought nitrogen in 1930, in the central case about 1940–42; the table of 1890 puts the crossing at 1914; the fields take about 90 thousand tonnes of nitrogen by 1910 (a quarter of Chile's trade) and about 150 thousand in 1929. The century: need 562 million; home yields 75, the whole northern water 26, the asked sellers 163, thriftier table times 1.28: 339 million, 60%, passed in 2007; it fits a slowing to 1.0% a year, and reaches 93% only with all the Union's and the Gulf's grain. The sellers' figures a century on are our timeline's exports of today, from general knowledge, to verify. Not done: `CR-082.md` still carries the first draft's figures (a note at its head says so) and is not yet split; the review's other findings are untouched. Next: the author's view of the century result (it does not close without the Union), of the re-dated F-1c and re-sized F-1d, and of the work-stock deduction; then the split and the revision of the draft.

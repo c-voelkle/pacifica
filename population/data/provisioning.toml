@@ -225,10 +225,10 @@ canon_farm_share = 0.5            # CR-056 C4: half goes to farms
 canon_from = 1915                 # ammonia on the Columbia from 1915 (CR-055)
 status = "MODEL; nitrogen is counted for the gain of the two components that need it, at canon's own response. To verify against our timeline's fertilizer use on western wheat in 1950-65."
 # Chile's nitrate, the world's fertilizer nitrogen before synthesis (our timeline).
-chile_years = [1865, 1895, 1913]
-chile_nitrate_tonnes = [100000, 1000000, 3000000]
-chile_source = "Encyclopedia.com, 'Nitrate' (exports: 100,000 tonnes by the mid-1860s, 1 million by the mid-1890s, almost 3 million in 1913)"
-chile_status = "verified as quoted; round figures"
+chile_years = [1870, 1890, 1910, 1913, 1916, 1929, 1932]
+chile_nitrate_tonnes = [135397, 1065277, 2335941, 2750000, 2950000, 2898141, 450000]
+chile_source = "Asociacion de Productores de Salitre de Chile, 'Industria del Salitre de Chile 1830-1930' (Valparaiso 1930), as tabled at albumdesierto.cl/ingles/2estadis.htm (1870, 1890, 1910, 1929); 1914-1918 Online, 'Nitrate' (a peak of almost 3 million tons in 1916); a Utah newspaper report of the Producers' Association's figure for 1919 (about 915 thousand tons)"
+chile_status = "verified for 1870, 1890, 1910 and 1929 (read 22 November 2026). 1913 is set a little under that year's production of 2.77 million tonnes; 1916 is as quoted, rounded; 1932 is an estimate from the fall in production (3.23 million tonnes in 1929, 0.44 million in 1933). The series is joined at a constant rate between anchors, so the slump of 1914-15, the collapse of 1919 (about 915 thousand tons, left out as an anchor because it lasted one year) and the swings of the 1920s are not shown. To verify year by year."
 nitrogen_in_nitrate = 0.16        # sodium nitrate is about 16% nitrogen
 
 [sea]
@@ -243,6 +243,109 @@ meat_acres_per_kg = 0.015         # crop land behind a kilogram of meat on the R
 years = [1861, 1880, 1930]
 index = [0.01, 0.05, 1.00]        # canon reaches our timeline's 1936 landings by 1930: MODEL
 status = "MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted."
+
+# ---------------------------------------------------------------------------
+# The rework of 22 November 2026 (fresh-context review B5, S1, S2)
+# ---------------------------------------------------------------------------
+
+[nitrogen_supply]
+# What the Realm's fields can get in a year (review S1). Chile first; the Columbia's and the
+# Sacramento Valley's ammonia on a ramp from canon's first year, 1915 (CR-055).
+chile_share_max = 0.35            # the most of Chile's exports the Realm takes: MODEL
+home_years = [1914, 1915, 1920, 1925, 1930, 1932]
+home_farm_tonnes = [0, 5000, 50000, 150000, 250000, 290000]
+status = "MODEL. The ramp is the review's example (50 thousand tonnes in 1920, 250 in 1930), extended. Arc nitrogen is not counted for fertilizer: it cannot compete with ammonia, which is why canon's furnaces fall idle in 1919. It replaces CR-054's 90 thousand tonnes in 1929 (tension T9) if the author keeps F-1d."
+# Crops that pay for nitrogen whatever the grain surplus (citrus, vegetables, sugar beet, cotton):
+# the least share of the full ask that is in the fields in a year.
+paying_years = [1900, 1915]
+paying_share = [0.0, 0.25]
+paying_status = "MODEL (no source). Our timeline's Californian citrus growers were the West's first large buyers of nitrate; the share is a guess."
+
+[works]
+# Review S2: irrigated land needs works. Up to the first date canon's farmers can irrigate what
+# our timeline's rivers watered before the great dams (the 1929 area); storage then lifts the
+# limit to the 1940 census's 'works capable of supplying' and at last to its irrigable area.
+years = [1900, 1920, 1930]
+basis = ["history_1929", "works_capable_1940", "irrigable_in_enterprises_1940"]
+named = "Storage on the Sacramento, the San Joaquin and the Snake from 1900; Boulder Canyon (decided 1920, power 1926) and the pumping from Rock Island (1920-23), which are canon (CR-052, CR-051); the last step by 1930."
+status = "MODEL. The limits are census figures; the dates are a reading of canon's works and replace F-1c's 'about 22 million irrigated acres by 1910'. The storage dams of 1900-20 are not yet named in canon."
+
+[draft]
+# Crop land that feeds horses and mules feeds no people. The measure of acres a head leaves
+# horse feed out, so the land side must leave it out too.
+history_years = [1900, 1910, 1920, 1930, 1940]
+history_share = [0.27, 0.27, 0.25, 0.18, 0.12]
+canon_years = [1900, 1910, 1925, 1940]
+canon_share = [0.27, 0.27, 0.06, 0.02]
+source = "Historical Statistics of the United States, Millennial Edition, series Da661-664: 88 of 325 million harvested acres fed horses and mules in 1910, 90 of 360 million in 1920"
+status = "1910 and 1920 verified (read 22 November 2026); 1900 set equal to 1910; 1930 and 1940 recalled, to verify. The Union's share is applied to the West for want of a western figure. Canon's share falls with its tractors (the first yield component, 1910-25): MODEL."
+
+[exports]
+# What the Realm sells abroad, in tonnes of grain or its equivalent (review B5: say where the
+# surplus goes). A mouth on the Realm's diet is about 1.05 tonnes.
+years = [1861, 1870, 1880, 1891, 1900, 1913, 1917, 1921, 1929, 1932]
+grain_tonnes = [50000, 400000, 1000000, 1500000, 2000000, 3000000, 7000000, 3000000, 4000000, 3000000]
+buyers = "California's wheat to Liverpool and to North China's famine of 1876-79 (canon); the Volga in 1891 (canon: Victoria sends grain); Japan's and China's coast from the 1890s; the Entente on credit in 1915-19; Asia in the 1920s."
+world_wheat_trade_1920s_tonnes = [20000000, 24500000]
+world_source = "Food Research Institute (Stanford), Wheat Studies, 1929-31: world net exports of wheat and flour of 720 to 900 million bushels a year"
+status = "MODEL (no source for the Realm's own sales; about a million tonnes a year for California's wheat exports of the 1880s is recalled, to verify). At 4 million tonnes the Realm sells about a sixth of the world's wheat trade of the late 1920s, as much as Argentina or Australia. The world figure is verified as quoted."
+
+[century]
+# The provisioners' plan for the century (CR-082 Part F, P-5): four works against the Realm
+# of Julian's table of 1930, a century on.
+yield_multiple = 3.2              # home yields against 1900-29: Washington's all-wheat yield of about 62 bushels an acre today against 19.15
+yield_status = "partly verified: USDA NASS's state overview gives Washington's all wheat 62.6 bushels an acre in a recent year (read 22 November 2026); a ten-year mean is to be read from the same series"
+acre_feet_per_km3 = 810714
+water_km3 = {first_stage = 20, ceiling_in_law = 45}      # author, 21 November 2026, 20:32
+acre_feet_per_acre = 3.25
+tapped_flow_km3 = 112             # the Peace and the Liard together where they would be tapped: the outline's N-7, from general knowledge
+water_status = "MODEL. The sizes are the author's; the rivers' flows are recalled and to verify (Water Survey of Canada)."
+diet_saving = 0.22                # poultry, pork, fish and the soybean for beef: a fifth to a quarter less land (outline C7, no source)
+diet_status = "MODEL (no source). It breaks the Office's own assumption of a constant diet."
+status = "MODEL throughout. The sellers' figures a century on are our timeline's exports of today: what those lands in fact came to sell after a century of the same science, at their own peoples' tables. They are stated from general knowledge and are to verify (USDA PSD, FAOSTAT). Meat, butter and wool are not counted."
+
+# Sellers: grain, oilseeds and their equivalent sold abroad (million tonnes a year), about 1930 and today.
+[[century.sellers]]
+name = "The prairies"
+about_1930 = 6.5
+today = 45
+asked = true
+basis = "About 1930: Canada's net exports of 206 million bushels in 1931-32 and 261 million in 1932-33 (Hansard, 7 November 1933; verified as quoted). Today: wheat, canola, barley and pulses, recalled."
+
+[[century.sellers]]
+name = "The Pampas"
+about_1930 = 9.3
+today = 85
+asked = true
+basis = "About 1930: 4.2 million tons of wheat, 3.5 of maize and 1.6 of linseed a year in 1925-29 (Cambridge History of Latin America, as read for the outline). Today: maize, wheat and the soybean with its meal, recalled."
+
+[[century.sellers]]
+name = "Australia and New Zealand"
+about_1930 = 4.1
+today = 30
+asked = true
+basis = "About 1930: Australia's net exports of 154 million bushels in 1931-32 and 148 million in 1932-33 (Hansard, as above). Today: wheat, barley and canola, recalled."
+
+[[century.sellers]]
+name = "Manchuria"
+about_1930 = 5.0
+today = 5
+asked = true
+basis = "About 1930: 5 million tons of soybeans at the peak of 1931 (outline C4). Today: our timeline's north-east feeds the rest of China and sells nothing abroad; the bean trade of 1931 is kept as the figure. MODEL."
+
+[[century.sellers]]
+name = "The Mekong delta"
+about_1930 = 1.5
+today = 6.5
+asked = true
+basis = "Rice, counted tonne for tonne. Both figures recalled; to verify."
+
+[[century.sellers]]
+name = "The Union and the Gulf"
+about_1930 = 4.8
+today = 150
+asked = false
+basis = "About 1930: the Union's net wheat exports of 177 million bushels a year in 1925-29 (Bureau of Agricultural Economics FS-46; verified as quoted). Today: maize, soybeans, wheat and sorghum, recalled. The author, 21 November 2026, 19:09: 'The Union's grain is too big an ask'."
 
 # ---------------------------------------------------------------------------
 # Japan's rice (the Concord's side of the account)
