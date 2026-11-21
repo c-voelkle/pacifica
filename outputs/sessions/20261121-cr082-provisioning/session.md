@@ -35,6 +35,7 @@ independence: same-agent (writer only; no review yet)
 | D7 | decision | Victoria's government has every reason to intervene in Chile in 1891 | author message 2026-11-21 19:21 | current |
 | D8 | decision | Julian's engineers propose the northern water and prevail on it, as critical to national survival; a path to British Columbia and the Yukon changing crowns by plebiscite by 1932 is wanted, and CR-058 and other canon may be challenged for it | author message 2026-11-21 19:29 | current |
 | D9 | decision | Path A approved for British Columbia and the Yukon (the colony never joins Canada); the plebiscite is in 1931 | author message 2026-11-21 19:45 | current |
+| D10 | decision | The northern water: a first stage of about 20 km³, with 45 km³ as the ceiling in law ("Ok sounds good") | author message 2026-11-21 20:32 | current |
 | Q4 | open choice | N-3 to N-5 in C8: the crown's name and seat, the Fraser, what Canada is given (suggestions recorded) | author's question 2026-11-21 19:45 | open |
 | Q3 | open choice | The provisioners' plan for the century (C7's four works, P-1 to P-5) | author's question 2026-11-21 19:21 | open |
 | Q2 | open choice | R-1 to R-7: the claim the Realm makes in each theatre (C4's proposals) | raised in session | open |
@@ -47,3 +48,5 @@ The central case stands on six dated yield innovations with nitrogen from about 
 **Latest (19:29):** the provisioners propose the northern water and prevail on it (D8). C8 of the outline proposes three paths for British Columbia and the Yukon to change crowns by plebiscite by 1932 and recommends path A (the colony never joins Canada in 1871; London offers the choice after 1927; the nations vote for themselves; the water is leased under the Charter, the Fraser never). Next: the author's choice on N-1 to N-5, then fact changes against CR-058.
 
 **Latest (19:45):** path A and 1931 are decided (D9). Suggestions for N-3 to N-5 are in C8. Next: the author's answers, then fact changes against CR-058 and a Peace and Liard line in the script.
+
+**Latest (20:32):** suggestions for every open decision are in the outline under 'Suggestions for the open decisions'. Next: the author accepts or changes them; then the outline becomes the CR draft, with fact changes against CR-058, CR-054 and CR-075's neighbours, and the century module in the script.

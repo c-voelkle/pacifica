@@ -398,6 +398,44 @@ Everything below is PROPOSED. Nothing is drafted as a fact change.
 3. Victoria with the table of 1900, in the months of the Liaodong negotiation.
 4. The table of 1930 beside the Charter, with Keawe and the Industrial Board (canon's scene of 1932).
 
+## Suggestions for the open decisions (21 November 2026, 20:32; awaiting the author)
+
+The author asked for suggestions on everything still open. None of these is decided. N-3, N-4 and N-5 keep the suggestions already in C8. On N-7 the author answered "Ok sounds good" (20:32) to a first stage of about 20 km³ with 45 km³ as the ceiling in law.
+
+**The account**
+- **F-1c.** Yes: one storyline line, about 22 million irrigated acres by 1910 under Powell's districts.
+- **F-1d.** Amend CR-054: nitrogen rises to about 480 thousand tonnes by 1930, Chile's nitrate first and the Columbia's ammonia after about 1915. Draft the canon tension for CR-054.
+- **F-1e.** Count the sea at history's peak landings by 1930 and no more. Fishponds and hatcheries are research, named and not counted, so the case stays cautious.
+
+**The doctrine**
+- **F-4.** The three steps: Powell's ceiling in 1888, with the Office's first tables; the first table in 1890; a revision with each census.
+- **F-5.** The question arises in the offices under Victoria, not as a charge from Elias. She orders the table to show that the domain suffices. Julian reads the same table the other way.
+- **F-6.** By office first, names when drafting. Sufficers: Victoria, Powell's office, the Hawaiian court, the nations' councils, later Keawe. Provisioners: Julian, the Polytechnic's engineers, the Works, the Navy.
+- **F-7.** Yes, from 1890. Under Victoria the two figures are read as a limit, under Julian as a target.
+- **F-8.** Case A: the table is public and the purpose stays unstated (CR-075 kept).
+
+**The instruments**
+- **F-9.** Yes, and the challenge evening takes up Crookes's warning in 1898–99. Nitrogen is the first answer of both schools.
+- **F-10.** The sea has its own line in the table, counted as protein and capped as in F-1e.
+- **F-11.** The Gulf, the Union and Canada are counted as sellers, never as the Realm's acres. Policy acts by contract only.
+- **F-14.** Each table carries an entry course. Victoria's tables hold entry to what the home soil feeds; Julian lifts it from 1908. Hawaii keeps its own rules, as in canon.
+
+**The theatres**
+- **R-1.** Contract and credit in 1931 (N-5's wheat contract). The door stays open and the Realm never asks first. No prairie plebiscite inside the book.
+- **R-2.** A provisioning compact with the Gulf. The admission tests are untouched (CR-039 kept); Julian asks and is refused.
+- **R-3.** The crop and not the land: a soybean compact with China through Huludao. This is the purpose CR-081 lacked.
+- **R-4.** A guarantee for the crop, New Zealand first and by 1932; Australia open. Japan renounces the south.
+- **R-5.** The Mekong last. Mindanao and the Philippine crown's own frontier first. Siam is watched.
+- **R-6.** Hokkaido's rice works a generation early; passed to the partners' CR.
+- **R-7 (the rest).** No troops in 1891. The Realm holds the *Itata*'s rifles under its own law of 1854, then mediates: Balmaceda leaves alive, and the Congress takes a Realm loan to buy the nitrate fields from the foreign houses, secured on the nitrate duty. Guarantor, with coaling at Valparaíso and the Strait, by 1900.
+
+**The plan for the century**
+- **P-1.** Yes, the four works.
+- **P-2 (the rest).** Surveyed from the 1910s, proposed with the plebiscite of 1931, leased under the Charter of 1932, built in stages.
+- **P-3.** Seed and method are sold to anyone at one royalty. Long nitrogen contracts go with long crop contracts. Refused only to a power at war with the Concord.
+- **P-4.** Yes, the Pampas as a sixth theatre, by contract only, reached through Chile.
+- **P-5.** Yes: a century module in the script, with the northern water on sourced flows, with and without the Fraser.
+
 ## Canon tensions
 
 1. **The unstated purpose (B4).** Canon: "The Republic's further purpose in the Pacific is never stated" (CR-075). *Case A, canon kept:* the table is public and the purpose is still never stated; the reader infers it from decisions. *Case B, canon amended:* the purpose is stated in a document of the regency. No fact changes. *Recommendation:* case A.
