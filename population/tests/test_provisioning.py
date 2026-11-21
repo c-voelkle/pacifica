@@ -62,9 +62,13 @@ class Provisioning(unittest.TestCase):
         self.assertLess(pv.project(1.0, 0.04, 0.015, 100, 100), pv.project(1.0, 0.04, 0.04, 100, 100))
         self.assertAlmostEqual(pv.project(1.0, 0.04, 0.015, 110, 100) / p, 2.718281828 ** 0.15, places=6)
 
-    def test_table_of_1930_is_about_half_a_billion(self):
+    def test_tables_slow_less_under_julian(self):
+        self.assertEqual(pv.slowing(self.c, 1900), self.c["levers"]["g_end"])
+        self.assertEqual(pv.slowing(self.c, 1910), self.c["levers"]["g_end_julian"])
         t = pv.table(self.c, self.base, self.pop, 1930)
-        self.assertTrue(400e6 < t["realm_100"] + t["crown_100"] < 600e6)
+        old = pv.table(self.c, self.base, self.pop, 1930, g_end=self.c["levers"]["g_end"])
+        self.assertTrue(400e6 < old["realm_100"] + old["crown_100"] < 600e6)     # the author's half-billion
+        self.assertGreater(t["realm_100"], old["realm_100"])
 
     def test_crown_is_counted_only_after_the_accession(self):
         self.assertEqual(pv.crown_people(self.c, 1907), 0.0)

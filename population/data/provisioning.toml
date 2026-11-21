@@ -97,6 +97,12 @@ dry_ceiling_factor = 1.2
 # half a billion a century on, the author's premise (17:09).
 g_end = 0.015
 horizon = 100
+# Author, 21 November 2026, 18:52: Julian is a provisioner and means to bring more
+# people under his umbrella, so under him the Office assumes less slowing, "at least
+# for the time being". The tables made in his reign (from 1908) end at this rate.
+# The value is the script's reading of "less slowing"; the author has not fixed it.
+g_end_julian = 0.020
+julian_from = 1908
 # Ceiling on irrigated area in the territory: the 1940 census's irrigable area in
 # enterprises, times the territory's share of the 1929 irrigated area.
 ceiling_basis = "irrigable_in_enterprises_1940"

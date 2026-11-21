@@ -93,16 +93,16 @@ Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mo
 
 ## 5. Japan's rice (the Concord's side)
 
-| Year | People, our timeline | People, canon | Rice a head (koku) | Own crop | Gap, our timeline | Gap, canon | Gap if the crop keeps growing | The Realm's surplus |
-|---|---|---|---|---|---|---|---|---|
-| 1890 | 39.9 | 39.7 | 0.97 | 38.0 | 0.8 (2%) | 0.6 (2%) | 0.6 | 5.4 mouths |
-| 1900 | 43.8 | 43.3 | 1.03 | 43.6 | 1.6 (4%) | 1.1 (3%) | 1.1 | 9.8 mouths |
-| 1910 | 49.2 | 48.1 | 1.09 | 50.1 | 3.7 (7%) | 2.5 (5%) | 2.5 | 16.7 mouths |
-| 1920 | 56.0 | 53.7 | 1.15 | 57.5 | 7.1 (11%) | 4.5 (7%) | 4.5 | 20.2 mouths |
-| 1930 | 64.5 | 60.5 | 1.10 | 59.8 | 11.1 (16%) | 6.7 (10%) | 0.6 | 12.5 mouths |
-| 1932 | 66.4 | 62.2 | 1.10 | 60.3 | 12.7 (17%) | 8.1 (12%) | 0.5 | 11.3 mouths |
+| Year | People, our timeline | People, canon | Rice a head (koku) | Own crop | Gap, our timeline | Gap, canon | Gap if the crop keeps growing | Yields needed for no gap | The Realm's surplus |
+|---|---|---|---|---|---|---|---|---|---|
+| 1890 | 39.9 | 39.7 | 0.97 | 38.0 | 0.8 (2%) | 0.6 (2%) | 0.6 | 1.02 | 5.4 mouths |
+| 1900 | 43.8 | 43.3 | 1.03 | 43.6 | 1.6 (4%) | 1.1 (3%) | 1.1 | 1.03 | 9.8 mouths |
+| 1910 | 49.2 | 48.1 | 1.09 | 50.1 | 3.7 (7%) | 2.5 (5%) | 2.5 | 1.05 | 16.7 mouths |
+| 1920 | 56.0 | 53.7 | 1.15 | 57.5 | 7.1 (11%) | 4.5 (7%) | 4.5 | 1.08 | 20.2 mouths |
+| 1930 | 64.5 | 60.5 | 1.10 | 59.8 | 11.1 (16%) | 6.7 (10%) | 0.6 | 1.11 | 12.5 mouths |
+| 1932 | 66.4 | 62.2 | 1.10 | 60.3 | 12.7 (17%) | 8.1 (12%) | 0.5 | 1.13 | 11.3 mouths |
 
-People in millions; crop and gaps in millions of koku of brown rice (a koku is about 150 kg and feeds one person a year, near enough). *Gap, our timeline* is what Japan bought, mostly from its colonies; in 1929–33 Korea alone sent 6.65 million koku a year. Canon's Japan has no colonies to buy from, but about 4.2 million fewer mouths, because they are in the Realm. *If the crop keeps growing* drops our timeline's stagnation of 1920–35, which Hayami and Ruttan put down to the colonial rice itself.
+People in millions; crop and gaps in millions of koku of brown rice (a koku is about 150 kg and feeds one person a year, near enough). *Gap, our timeline* is what Japan bought, mostly from its colonies; in 1929–33 Korea alone sent 6.65 million koku a year. Canon's Japan has no colonies to buy from, but about 4.2 million fewer mouths, because they are in the Realm. *If the crop keeps growing* drops our timeline's stagnation of 1920–35, which Hayami and Ruttan put down to the colonial rice itself. *Yields needed for no gap* is what canon's Japan must grow, against our timeline's crop of the same year, for its rice never to fall short (the author's wish of 18:52; a requirement for the partners' CR).
 
 The land behind one mouth on the Realm's diet grows about 7 koku of grain or its equivalent, so the Realm's surplus of 1932 is some 79 million koku-equivalents against a Japanese gap of 8.1 million koku. It is mostly wheat and feed, not rice.
 
@@ -119,30 +119,32 @@ Our timeline's censuses and cultivated area, on the crown's own rice diet (MODEL
 
 ## 7. The Office's tables
 
-From each table year the yearly rate falls in a straight line from the last decade's rate to 1.5% over a century (the slowing is still to be decided, F-1b). The home ceiling is every irrigable and dry acre at the table year's yields, with the sea.
+From each table year the yearly rate falls in a straight line from the last decade's rate, over a century, to 1.5% in the tables before 1908 and to 2.0% in the tables of Julian's reign (author: Julian is a provisioner, so the Office assumes less slowing for the time being; the figure itself is the script's reading). The home ceiling is every irrigable and dry acre at the table year's yields, with the sea.
 
 | Table | Residents | Crown | Rate | In 25 years | In 50 | In 100 (Realm + crown) | Home ceiling feeds | Realm passes it | A century's need against the ceiling |
 |---|---|---|---|---|---|---|---|---|---|
 | 1890 | 6.6 | — | 4.4% | 17.9 | 40.9 | 123.9 + 0.0 = 123.9 | 23.1 | 1923 | 5 times |
 | 1900 | 10.0 | — | 4.1% | 25.8 | 56.8 | 167.3 + 0.0 = 167.3 | 23.8 | 1923 | 7 times |
-| 1910 | 16.0 | 8.8 | 4.8% | 61.7 | 137.2 | 364.7 + 50.7 = 415.4 | 32.7 | 1926 | 11 times |
-| 1920 | 23.9 | 10.8 | 4.0% | 78.0 | 158.1 | 378.1 + 62.6 = 440.7 | 44.2 | 1937 | 9 times |
-| 1930 | 34.3 | 13.3 | 3.6% | 100.9 | 194.2 | 437.9 + 79.8 = 517.7 | 46.8 | 1939 | 9 times |
+| 1910 | 16.0 | 8.8 | 4.8% | 62.7 | 146.1 | 468.3 + 65.1 = 533.4 | 32.7 | 1926 | 14 times |
+| 1920 | 23.9 | 10.8 | 4.0% | 79.2 | 168.3 | 485.5 + 80.3 = 565.9 | 44.2 | 1936 | 11 times |
+| 1930 | 34.3 | 13.3 | 3.6% | 102.4 | 206.8 | 562.3 + 102.5 = 664.8 | 46.8 | 1939 | 12 times |
 
-The table of 1930: 437.9 million in the Realm a century on need 920 million acres of average Union crop land, 2.5 times all the crop land the Union worked in 1925–29. Even at our timeline's yields of 1966–75 the home ceiling gives about 99 million such acres, one part in 9.
+The table of 1930: 562.3 million in the Realm a century on need 1,181 million acres of average Union crop land, 3.2 times all the crop land the Union worked in 1925–29. Even at our timeline's yields of 1966–75 the home ceiling gives about 99 million such acres, one part in 12.
 
 ## 8. What moves the result
 
 | Lever | Value | Central case feeds in 1932 | Share of residents | Table of 1930: need against ceiling |
 |---|---|---|---|---|
-| As built (central dates) | — | 47.5 | 131% | 9 times |
-| Earliest dates for the other four | — | 49.2 | 136% | 9 times |
-| Research on dry land only | irrigated yields as history's | 32.0 | 89% | 14 times |
-| Irrigated acre | counts 2.5 | 55.4 | 153% | 8 times |
-| Dry-farm ceiling | the 1929 land and no more | 45.5 | 126% | 10 times |
-| The sea | twice our timeline's peak | 51.7 | 143% | 9 times |
-| No sea | — | 43.3 | 120% | 10 times |
-| A leaner diet | 1.5 acres a head | 66.5 | 184% | 7 times |
+| As built (central dates) | — | 47.5 | 131% | 12 times |
+| Earliest dates for the other four | — | 49.2 | 136% | 12 times |
+| Research on dry land only | irrigated yields as history's | 32.0 | 89% | 18 times |
+| Irrigated acre | counts 2.5 | 55.4 | 153% | 10 times |
+| Dry-farm ceiling | the 1929 land and no more | 45.5 | 126% | 13 times |
+| The sea | twice our timeline's peak | 51.7 | 143% | 11 times |
+| No sea | — | 43.3 | 120% | 13 times |
+| A leaner diet | 1.5 acres a head | 66.5 | 184% | 9 times |
+| Julian's tables slow to | 1.5% a year | 47.5 | 131% | 9 times |
+| Julian's tables slow to | 2.5% a year | 47.5 | 131% | 15 times |
 
 ## 9. Not sourced, or weakly
 

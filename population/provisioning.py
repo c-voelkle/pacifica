@@ -254,7 +254,7 @@ def crossing_ahead(c: dict, base: dict, pop: dict[int, float], frozen: bool) -> 
         k = research(c, LAST) if frozen else research(c, LAST + n)
         on_irr = k if c["yield_components"]["applies_to_irrigated"] else 1.0
         fed = (irr * on_irr + dry * k) / lv["acres_per_head"] + sea_mouths(c, LAST)
-        if project(pop[LAST], r, lv["g_end"], n, lv["horizon"]) > fed:
+        if project(pop[LAST], r, slowing(c, LAST), n, lv["horizon"]) > fed:
             return LAST + n
     return LAST + 200
 
@@ -272,9 +272,15 @@ def project(p0: float, r0: float, g_end: float, n: float, horizon: float) -> flo
     return p0 * math.exp(grown)
 
 
+def slowing(c: dict, year: int) -> float:
+    """The rate the Office lets growth fall to over a century, by the reign the table is made in."""
+    lv = c["levers"]
+    return lv["g_end_julian"] if year >= lv["julian_from"] else lv["g_end"]
+
+
 def table(c: dict, base: dict, pop: dict[int, float], year: int, g_end: float | None = None) -> dict:
     lv = c["levers"]
-    g = lv["g_end"] if g_end is None else g_end
+    g = slowing(c, year) if g_end is None else g_end
     r_realm = rate(lambda y: pop[y], year)
     counted = year >= c["crown"]["from_year"]
     r_crown = rate(lambda y: geometric(c["crown"]["census_years"], c["crown"]["census"], y), year) if counted else 0.0
@@ -414,22 +420,24 @@ def main() -> int:
     A("")
     jr = japanese_in_realm()
     A("| Year | People, our timeline | People, canon | Rice a head (koku) | Own crop | Gap, our timeline | Gap, canon | "
-      "Gap if the crop keeps growing | The Realm's surplus |")
-    A("|---|---|---|---|---|---|---|---|---|")
+      "Gap if the crop keeps growing | Yields needed for no gap | The Realm's surplus |")
+    A("|---|---|---|---|---|---|---|---|---|---|")
     for y in (1890, 1900, 1910, 1920, 1930, 1932):
         j = japan(c, y, jr)
         spare = central(c, base, y, pop) - pop[y]
         A(f"| {y} | {m(j['people'])} | {m(j['canon_people'])} | {j['head']:.2f} | {m(j['crop'])} | "
           f"{m(j['gap_history'])} ({j['gap_history'] / (j['people'] * j['head']):.0%}) | "
           f"{m(j['gap_canon'])} ({j['gap_canon'] / (j['canon_people'] * j['head']):.0%}) | "
-          f"{m(j['gap_canon_on'])} | {m(spare)} mouths |")
+          f"{m(j['gap_canon_on'])} | {j['canon_people'] * j['head'] / j['crop']:.2f} | {m(spare)} mouths |")
     A("")
     j = japan(c, LAST, jr)
     A("People in millions; crop and gaps in millions of koku of brown rice (a koku is about 150 kg and feeds one person a "
       "year, near enough). *Gap, our timeline* is what Japan bought, mostly from its colonies; in 1929–33 Korea alone sent "
       f"{c['japan']['korea_koku']['1931'] / 1e6:.2f} million koku a year. Canon's Japan has no colonies to buy from, but "
       f"about {m(j['people'] - j['canon_people'])} million fewer mouths, because they are in the Realm. *If the crop keeps growing* "
-      "drops our timeline's stagnation of 1920–35, which Hayami and Ruttan put down to the colonial rice itself.")
+      "drops our timeline's stagnation of 1920–35, which Hayami and Ruttan put down to the colonial rice itself. "
+      "*Yields needed for no gap* is what canon's Japan must grow, against our timeline's crop of the same year, for its "
+      "rice never to fall short (the author's wish of 18:52; a requirement for the partners' CR).")
     per = lv["acres_per_head"] * c["nitrogen"]["grain_per_standard_acre"] * 1000 / c["japan"]["kg_per_koku"]
     A("")
     A(f"The land behind one mouth on the Realm's diet grows about {per:.0f} koku of grain or its equivalent, so the Realm's "
@@ -449,9 +457,10 @@ def main() -> int:
     A("")
     A("## 7. The Office's tables")
     A("")
-    A(f"From each table year the yearly rate falls in a straight line from the last decade's rate to "
-      f"{lv['g_end']:.1%} over a century (the slowing is still to be decided, F-1b). The home ceiling is every irrigable and "
-      "dry acre at the table year's yields, with the sea.")
+    A(f"From each table year the yearly rate falls in a straight line from the last decade's rate, over a century, to "
+      f"{lv['g_end']:.1%} in the tables before {lv['julian_from']} and to {lv['g_end_julian']:.1%} in the tables of Julian's reign "
+      "(author: Julian is a provisioner, so the Office assumes less slowing for the time being; the figure itself is the "
+      "script's reading). The home ceiling is every irrigable and dry acre at the table year's yields, with the sea.")
     A("")
     A("| Table | Residents | Crown | Rate | In 25 years | In 50 | In 100 (Realm + crown) | Home ceiling feeds | "
       "Realm passes it | A century's need against the ceiling |")
@@ -493,6 +502,8 @@ def main() -> int:
     variant("The sea", "twice our timeline's peak", "sea", index=[0.02, 0.10, 2.00])
     variant("No sea", "—", "sea", index=[0.0, 0.0, 0.0])
     variant("A leaner diet", "1.5 acres a head", acres_per_head=1.5)
+    variant("Julian's tables slow to", "1.5% a year", g_end_julian=0.015)
+    variant("Julian's tables slow to", "2.5% a year", g_end_julian=0.025)
     A("")
     A("## 9. Not sourced, or weakly")
     A("")
