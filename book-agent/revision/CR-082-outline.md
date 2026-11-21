@@ -1,6 +1,6 @@
 # CR-082 (outline) — Mouths and acres: how Pacifica means to be fed
 
-**Status:** OUTLINE, 21 November 2026. At 19:09 the author fixed the slowing as a story assumption (1.5% in the regency's tables, 2.0% in Julian's), made Victoria a sufficer, and named the regions the provisioners weigh; C4 assesses them. At 18:52 the author made Julian a provisioner, so the Office's tables slow less in his reign, and wished Japan's rice never to fall short. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
+**Status:** OUTLINE, 21 November 2026. At 19:21 the author decided that Victoria's government intervenes in Chile in 1891, and asked what the provisioners' plan is if the regions do not cover the century; C7 sketches it. At 19:09 the author fixed the slowing as a story assumption (1.5% in the regency's tables, 2.0% in Julian's), made Victoria a sufficer, and named the regions the provisioners weigh; C4 assesses them. At 18:52 the author made Julian a provisioner, so the Office's tables slow less in his reign, and wished Japan's rice never to fall short. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
 
 **Number:** CR-082. CR-081 (China, `drafts/cr081-china`, PR #83, not merged) waits on it; CR-080 (the partners) stays parked behind CR-081.
 
@@ -39,6 +39,8 @@
 > 4) Australia and New Zealand: same as with Canada
 > 5) the Mekong Delta: wildcard - low population, high potential, but completely alien ecosystem
 > Hokkaido is a low hanging fruit, for Chile the question is one of relationship: how far into the fold can it come? Obviously, it is a strategic choke point and Pacifica cannot tolerate any authority there that isn't in line with its programme. (19:09)
+>
+> I think Victoria's government has every reason to intervene in 1891. But the real question is what does the provisioner plan actually look like if those five regions don't cover the century? (19:21)
 
 **Author's premise (17:09), taken as the brief:** the leadership plans for half a billion Pacificans a century ahead, and that plan guides foreign policy explicitly.
 
@@ -290,7 +292,7 @@ Each line gives what canon has, the gap and the question.
 - **R-4.** Australia and New Zealand: a guarantee for the crop; Japan renounces the south.
 - **R-5.** The Mekong: last; the Philippine crown's own frontier first.
 - **R-6.** Hokkaido: its rice works a generation early (to the partners' CR).
-- **R-7.** Chile: the rung reached by 1900, and what the Realm does in 1891.
+- **R-7. DECIDED in part (author, 19:21):** Victoria's government intervenes in Chile in 1891. Open: by what means, on whose side in what form, and the rung reached by 1900.
 
 ### C5. People
 
@@ -303,6 +305,29 @@ Where the half-billion come from: births, and ships from Japan, China and the Ph
 - **F-11.** The Gulf, the Union and Canada in the account.
 - **F-12, F-13.** The ranking of the theatres and the heaviest claim the Realm allows itself in each: now R-1 to R-7 in C4.
 - **F-14.** Entry policy under the doctrine.
+
+### C7. The provisioners' plan for the century (sketch; author's question of 19:21)
+
+The regions do not cover the century, so the plan cannot be a list of lands. It is four works, and the lands are one of them. The figures are rough arithmetic on A3's measures, not yet in the script, and each is MODEL. Julian's table of 1930 asks for food for about 560 million in the Realm.
+
+1. **Go on with the yields at home.** The six innovations are spent by 1940. Our timeline added about half as much again to dry-land wheat after 1970. *About 75 million mouths* from the home soil instead of 47.
+2. **Bring the northern water south.** The home ceiling is set by water, at 22 million irrigable acres. *Hist.:* the Parsons plan of 1964 (NAWAPA) would have turned the Yukon, Peace, Fraser, Kootenay and Columbia south and watered another 40 million acres in the West. With canon's power to pump it, that is *another 60–90 million mouths*, more than all five regions sell today. It is why British Columbia and the Yukon matter to the provisioners: for their rivers, not their wheat. It breaks the Columbia compacts and Keawe's Charter of 1932 (canon tension 2), which becomes the sufficers' law against exactly this.
+3. **Make the sellers grow more, and buy it.** The yield programme is the Realm's strongest export. Seed, nitrogen and method sold to other people's farmers, at one royalty as canon licenses everything, raise their surplus; the Realm contracts for it and pays in nitrogen, oil, machines and credit. The prairies, the Pampas (*Hist.:* in 1925–29 Argentina shipped 4.2 million tons of wheat, 3.5 of maize and 1.6 of linseed a year, and was the largest seller of chilled beef), Australia and Manchuria together sell perhaps 30 million mouths now and could sell three times that. The Union is the large one: its crop land at double yields frees food for some 180 million. *About 250–300 million mouths,* none of it owned.
+   - This is Britain's way of eating, at ten times the size and with a monopoly of the science: a people fed from abroad, safe while it holds the sea lanes, the inputs and the means to pay.
+   - It makes the Union's farmer the Realm's largest supplier and the Realm his supplier of fuel and fertilizer.
+   - The points of control are few: Chile's nitrate and the Columbia's ammonia, the canal and the Strait, the fleet, and the granaries at home against a bad year or a blockade.
+4. **Change what is eaten without lowering the table, and count the umbrella differently.** Poultry, pork, fish and the soybean give the same table from a fifth to a quarter less land than beef. And Julian's people need not all be residents of the Realm: every people under the umbrella that the programme makes self-feeding (Japan with Hokkaido, the Philippine crown, Korea, China) adds to the Concord's numbers and takes nothing from its granary.
+
+**Whether it closes.** About 75 + 75 + 275 million mouths, eaten a fifth more thriftily, is about 530–560 million: it closes, barely, and only if all four works succeed. Three of the four are not territorial. The plan is a world order more than an empire, and its weak point is the third work: it holds only while the sellers sell.
+
+**What follows for the theatres.** They are a portfolio of suppliers, to be held by contract, credit and science (R-1 to R-5), and the Pampas join the list. The one territorial prize in the plan is the northern water.
+
+**Decisions for C7**
+- **P-1.** Whether this is the provisioners' plan (the four works).
+- **P-2.** The northern water: whether Julian's engineers propose it, and when; its collision with the Charter of 1932.
+- **P-3.** The yield programme as export: to whom it is sold and to whom refused.
+- **P-4.** The Pampas as a sixth theatre, reached through Chile.
+- **P-5.** Whether these four works go into the script as a century module.
 
 ## D. What it changes elsewhere (to be decided there)
 
@@ -334,6 +359,8 @@ none
 ## Sources
 
 Stated from general knowledge and to verify before any figure or date is used: Powell at the Irrigation Congress (October 1893); Crookes's address (September 1898) and its date for the wheat failure; Pearl and Reed's ceiling (1920); King's journey (1909) and book (1911); California's first commercial rice (1912); the rice riots of 1918 and the plan of 1920; China's rice and flour imports in the 1920s; the western phosphate field and Searles Lake; the grain-equivalent ratio between diets.
+
+Read for C7 on 21 November 2026: Watkins (San José State University) on the Parsons plan's figures; the Cambridge History of Latin America on Argentina's exports of 1925–29.
 
 Read for the theatres on 21 November 2026: the Dominion Bureau of Statistics' monthly wheat reviews of 1931–34 and New Zealand press reports of 1930–31 on the pools (Papers Past); Encyclopedia.com, 'Manchuria', and Mishina on Manchuria's sown area; the Commonwealth Year Books of 1931–40 (Australia's area under crop); the Annals of the Tohoku Geographical Association and Hokkaido University's papers on Hokkaido's rice; Wikipedia and Britannica on the *Itata* and the civil war of 1891, and Monteón on North. Not found and stated from general knowledge, to verify: Cochinchina's rice exports and people, the prairie provinces' control of their resources (1930), the Gulf's crops.
 
