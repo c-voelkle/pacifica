@@ -1,6 +1,6 @@
 # CR-082 (outline) — Mouths and acres: how Pacifica means to be fed
 
-**Status:** OUTLINE, 21 November 2026. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built; its first results are in A3. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
+**Status:** OUTLINE, 21 November 2026. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
 
 **Number:** CR-082. CR-081 (China, `drafts/cr081-china`, PR #83, not merged) waits on it; CR-080 (the partners) stays parked behind CR-081.
 
@@ -19,6 +19,8 @@
 > I don't think it makes sense to continue on the China CR without it (17:24)
 >
 > Start with the script. The Office has to assume the same diet, but not the same growth rate as in the early years. The Philippine crown is counted after Julian's accession. (17:59)
+>
+> This is very important information and it clearly needs to influence Pacifica's decisions from the 1880s onwards. One thing Pacifica would do anyway is to dedicate a significant amount of R&D towards increasing the yield, both on land and at sea. The first step is to define the central case in terms of solid and reliable numbers that take into account Pacifica's concerted efforts to maximize yields in dry areas (the Santa Fe University is the key nexus here). Then we can determine the correct slowing and assess the appropriate strategic positioning regarding the food producers. (18:16)
 
 **Author's premise (17:09), taken as the brief:** the leadership plans for half a billion Pacificans a century ahead, and that plan guides foreign policy explicitly.
 
@@ -67,58 +69,72 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 - **The sea:** the seal convention, the salmon and halibut treaties (CR-058, CR-070); Heʻeia's and Puʻuloa's fishponds protected.
 - **What canon does not say:** how many acres are irrigated, what they yield, what a Pacifican eats, whether the Realm is a net food exporter in any year, or how many people the domain can carry.
 
-### A3. The script and its first results (MODEL)
+### A3. The central case (MODEL)
 
-`population/provisioning.py`, with `data/provisioning.toml`; the report is `population/outputs/provisioning.md`. It reads the canon run and feeds nothing back.
+`population/provisioning.py`, with `data/provisioning.toml`; the full report is `population/outputs/provisioning.md`. It reads the canon run and feeds nothing back.
 
 **How it counts**
 - **Diet (author):** the Realm's present diet, held constant. Our timeline's Union used about 2.1 acres of crop land a head for its own food and fibre in 1910–34, and that is the measure.
-- **Land:** our timeline's irrigated acres by state (census of 1929, verified) and the totals of 1889–1929, cut to canon's frontier. Dry crop land is derived from the census's irrigated share. An irrigated acre counts as 2.0 average Union acres and a dry western acre as 0.8; canon's nitrogen lifts yields to 1.3 times history's by 1929.
-- **The ceiling:** the 1940 census's irrigable area in enterprises, 22 million acres inside the frontier (history's 1929 figure there is 13.8 million), and dry land at 1.2 times its 1929 extent.
-- **Canon's farmers (the central case):** canon has about three times history's people on the same land, so they work history's acres a head until the ceilings stop them.
-- **Growth (author):** from each table year the yearly rate falls in a straight line from the last decade's rate to 1.5% over a century. At 1.5% the table of 1930 gives about half a billion.
-- **The Philippine crown (author):** counted from 1908, as its own ledger on its own diet.
+- **Land (census, our timeline):** irrigated acres by state in 1929 and the totals of 1889–1929, cut to canon's frontier; 13.8 million irrigated acres there in 1929. The ceiling is the 1940 census's irrigable area in enterprises, 22 million acres, with dry land at 1.2 times its 1929 extent, 15.8 million.
+- **Canon's farmers:** canon has about three times history's people on the same land, so they work history's acres a head until the ceilings stop them. They reach the irrigated ceiling about 1910.
+- **Concerted research (author, 18:16):** one rule. In year *t* the Realm farms as our timeline farmed the same land in year *t* + lead, and the lead grows from nothing in 1880 to thirty years in 1930. The measure is a verified series, Washington's dry-farmed wheat: flat at about 19 bushels an acre from 1900 to 1929, then 1.37 times that in the 1940s, 1.63 in the 1950s, 1.81 around 1960 and 2.13 around 1970. *Hist.:* dry-farm research began with Utah's Nephi substation in 1903, and its gains reached the fields a generation later. *Canon:* the Colegio de Santa Fe has taught acequia irrigation and dry-land farming since 1864 and Deseret's university measures water (CR-036 D13, D14). So the Realm's yields are history's until about 1915, 1.37 times history's in 1920 and 1.81 times in 1930.
+- **The sea:** our timeline's Pacific landings at their peak of 1936 (the Pacific states' 1.9 billion pounds, verified, and Alaska's), reached by 1930 and counted as animal food that needs no crop land.
+- **The Philippine crown (author):** counted from 1908, as its own ledger on its own diet. It roughly feeds itself.
 
 **What it finds**
 
-| Year | Residents | Fed at home (canon's farmers) | Share |
-|---|---|---|---|
-| 1880 | 4.3 million | 6.6 | 155% |
-| 1900 | 10.0 | 18.0 | 180% |
-| 1910 | 16.0 | 22.3 | 139% |
-| 1920 | 23.9 | 24.7 | 103% |
-| 1930 | 34.3 | 28.7 | 84% |
-| 1932 | 36.2 | 28.7 | 79% |
+| Year | Residents | Canon's farmers, history's yields | With research | With the sea (central case) | Share fed |
+|---|---|---|---|---|---|
+| 1880 | 4.3 million | 6.6 | 6.6 | 6.8 | 160% |
+| 1900 | 10.0 | 18.0 | 18.5 | 20.3 | 204% |
+| 1910 | 16.0 | 22.1 | 22.3 | 24.9 | 155% |
+| 1920 | 23.9 | 22.1 | 30.2 | 33.6 | 140% |
+| 1930 | 34.3 | 22.1 | 39.9 | 44.1 | 129% |
+| 1932 | 36.2 | 22.1 | 42.4 | 46.6 | 129% |
 
-1. **The Realm is a food exporter from about 1871 to 1921,** which agrees with canon's wheat for North China in 1876–79.
-2. **It outgrows its own soil about 1922,** with every irrigable acre watered. In 1932 about 7.5 million residents, a fifth, eat from other people's land. On history's acres alone it would be 16.6 million.
-3. **The table of 1890 already puts the crossing at 1921.** The Office could have known thirty years ahead.
-4. **The table of 1930:** about 438 million in the Realm and 80 million under the Philippine crown a century on. On the present diet and the yields of 1930 the Realm alone needs 920 million acres of average Union crop land, fifteen times what its ceilings give and two and a half times all the crop land the Union worked in 1925–29.
-5. **The crown feeds itself, roughly,** and brings no surplus.
-6. **What moves the result:** the year of the crossing is soft. It falls in 1922 as built, about 1930 with a larger dry-farm ceiling or yields at 1.6 times history's, and after 1932 if an irrigated acre is worth three average acres or the diet is leaner. The century's figure is not soft: no lever brings the need under about eight times the ceiling.
+1. **Without research the Realm outgrows its own soil in 1918.** Land runs out about 1910; after that only yields can add food.
+2. **With research and the sea it still feeds itself in 1932, with about three-tenths to spare,** and it has been a food exporter since about 1870. The research is what keeps it one.
+3. **The margin closes fast.** On the Office's course the Realm outgrows soil and sea about 1940 if yields stay at 1932's, and about 1944 if they go on up history's ladder.
+4. **Each table moves the date back by about a decade and no more.** The tables of 1890 and 1900 put the crossing at 1923–24, the table of 1920 at 1929, the table of 1930 at 1938.
+5. **The century is out of reach of research.** The table of 1930 has about 438 million in the Realm a century on (the slowing is still to be decided). On the present diet they need ten times the home ceiling at 1930's yields, and eight times at history's yields of 1966–75.
+6. **The case asks canon for two things it does not yet have.** About 22 million irrigated acres by 1910, against history's 13.8 million in 1929. And nitrogen: about 170 thousand tonnes a year by 1920 and 375 thousand by 1930, where CR-054 makes 90 thousand in 1929 and sends half to farms. With nitrogen as canon now has it, the central case feeds 37.5 million in 1932, barely more than the residents.
 
-**Correction.** The first skeleton's hand estimate (the home soil feeds 100–150 million; the ceiling falls in 1960–75) was wrong. It assumed something near a rice diet. On the Realm's own diet the ceiling is about 22–29 million, and the Realm passed it in the 1920s.
+**How firm it is**
 
-**Weak points, listed in the report:** the dry-land series before 1929 and the part-state shares are estimates; the acre factors and the yield path are MODEL; range, pasture and the sea are left out; the Japan series is not built yet.
+| If | Fed in 1932 | Share of residents |
+|---|---|---|
+| The lead in 1930 is 20 years | 35.8 million | 99% |
+| It is 25 years | 40.9 | 113% |
+| It is 35 years | 50.8 | 141% |
+| Research lifts dry land only | 31.8 | 88% |
+| There is no sea | 42.4 | 117% |
+
+The lead is the one judgement in the case. Everything else that carries weight is a census or crop-reporting figure, except the items below.
+
+**Corrections.** The skeleton's hand estimate (100–150 million fed at home) assumed something near a rice diet and was wrong. The first run of the script put the crossing at 1922; it gave yields a flat 30% for nitrogen and nothing for research. The central case above replaces both.
+
+**Still weak, and listed in the report:** the same yield ladder is applied to irrigated land for want of a verified irrigated series; an irrigated acre is counted as two average acres and a dry one as 0.8 (MODEL); the dry-land series before 1929 and the part-state shares are estimates; the nitrogen response is canon's own figure from CR-056; Alaska's landings are recalled; fishponds, hatcheries, range and pasture are not counted; the Japan series is not built.
 
 ### A4. Decisions for Part A
 
 - **F-1. DECIDED (author, 21 November 2026, 17:59):** build the script. Built.
 - **F-2. DECIDED (author, 17:59):** the Office assumes the same diet, and a rate of growth slower than the early years'.
 - **F-3. DECIDED (author, 17:59):** the Philippine crown is counted after Julian's accession (from 1908).
-- **F-1a (new).** Whether *canon's farmers* is canon: that by about 1910 the Realm irrigates some 22 million acres, against history's 10 million on the same land. The storyline has Powell's districts and the settlement programme but no acreage.
-- **F-1b (new).** The rate at which the Office lets growth slow (1.5% a century on, set to meet the author's half-billion).
-- **F-1c (new).** Where the missing fifth comes from in 1932. Canon names no food imports; the candidates are the Union's and Canada's grain and meat, the Gulf's rice, Manchuria's beans and Formosa's sugar and rice (C3, C4).
+- **F-1a.** The central case's lead: thirty years by 1930 (recommended), or twenty-five. It decides whether the Realm exports food in 1932.
+- **F-1b.** The rate at which the Office lets growth slow (now 1.5% a century on). The author takes this up next (18:16).
+- **F-1c.** Canon's irrigated area: about 22 million acres by 1910. A line for the storyline, with Powell's office.
+- **F-1d.** Canon's nitrogen: CR-054's 90 thousand tonnes in 1929 against the 375 thousand the case needs. Either CR-054's figure is raised (a canon tension for CR-054, to be drafted), or the lead is shorter.
+- **F-1e.** The sea: whether canon reaches history's peak landings by 1930, and what research adds beyond the catch (fishponds, hatcheries), which is not yet counted.
 
 ## B. The doctrine (sketch)
 
 ### B1. Who asks the question, and when
 
-- *Canon:* Powell heads the land and water office (CR-071). The Office of Public Measures publishes the tables from 1888 (CR-027, CR-077). The challenge evening is the Polytechnic's test of a claim (CR-050).
+- *Canon:* Powell heads the land and water office (CR-071). The Colegio de Santa Fe (1864) teaches acequia irrigation and dry-land farming, and Deseret's university is where the arid world learns irrigation (CR-036 D13, D14); the author names Santa Fe the nexus of the yield research (18:16). The Office of Public Measures publishes the tables from 1888 (CR-027, CR-077). The challenge evening is the Polytechnic's test of a claim (CR-050).
 - *Hist.:* Powell told the Irrigation Congress at Los Angeles in 1893 that there was not water enough for the lands already claimed, and was shouted down. In September 1898 Sir William Crookes told the British Association that the world's wheat would fail within a generation unless nitrogen were fixed from the air. Pearl and Reed fitted a ceiling of about 197 million to the Union's census in 1920.
 - *Proposal:* three steps.
-  1. **Powell's ceiling (1880s).** By A3 it is about 22 million irrigable acres. His office reports how many acres the domain's water can reach. Unlike history's Powell, he is believed, because he holds the office that draws the districts.
-  2. **The first table (1890, with the Realm's first census).** The Office sets the population's course beside Powell's acres and prints the year they cross. By A3 that year is 1921, and the event arrives a year late.
+  1. **Powell's ceiling (1880s).** By A3 it is about 22 million irrigable acres, and canon's farmers reach it about 1910. His office reports how many acres the domain's water can reach. Unlike history's Powell, he is believed, because he holds the office that draws the districts.
+  2. **The first table (1890, with the Realm's first census).** The Office sets the population's course beside Powell's acres and prints the year they cross. By A3 the table of 1890 puts the crossing at 1923; research then moves it back about a decade with each table.
   3. **The revision every ten years** (1900, 1910, 1920, 1930), laid before the Senate with the census.
 - The revisions fall beside decisions canon already has: the wire to Manila and Tokyo (1889–92); Liaodong, the Huludao option and the Gulf's founding (1898–1900); Julian's first years and Huludao's trust (1909–10); Harbin (1921); the Concord's renewal and the Charter (1932).
 
@@ -171,7 +187,7 @@ Each line gives what canon has, the gap and the question.
 - **Hawaii:** sugar, rice and taro on little land.
 - **The Philippine crown:** about a million Filipinos already live in the Realm (MODEL). Its own land and people are F-3's question.
 - **The Gulf Republic:** the nearest rain-fed farmland on the continent, an ally whose admission tests cannot pass before the 1960s (canon). *Question:* whether the provisioners read those tests differently from the men who wrote them.
-- **The Union and Canada:** the largest grain surplus on earth lies behind the eastern frontier, and the Union buys four-fifths of its oil abroad, most of it from the Gulf (CR-058). *Question:* whether oil for grain is the continent's bargain, and why the provisioners will not rest on it. By A3 the Realm has needed some such bargain since about 1922 (F-1c).
+- **The Union and Canada:** the largest grain surplus on earth lies behind the eastern frontier, and the Union buys four-fifths of its oil abroad, most of it from the Gulf (CR-058). *Question:* whether oil for grain is the continent's bargain, and why the provisioners will not rest on it. By A3 the Realm needs none before about 1940; the question is what it secures before then.
 
 ### C4. Other people's surplus land
 
@@ -236,6 +252,6 @@ none
 
 Stated from general knowledge and to verify before any figure or date is used: Powell at the Irrigation Congress (October 1893); Crookes's address (September 1898) and its date for the wheat failure; Pearl and Reed's ceiling (1920); King's journey (1909) and book (1911); California's first commercial rice (1912); the rice riots of 1918 and the plan of 1920; China's rice and flour imports in the 1920s; the western phosphate field and Searles Lake; the grain-equivalent ratio between diets.
 
-Read for the script on 21 November 2026 (details and status of each series in `population/data/provisioning.toml`): Census of Irrigation 1940, summary tables (the 19 states' irrigated area 1889–1939 and irrigable area in enterprises); Census of Agriculture 1935, vol. III, Table 7 (area irrigated by state, 1929); a table of crop land used per head, 1910–50 (collections.lib.utah.edu, id 1134612; the report's title to verify); the Philippine censuses of 1903, 1918 and 1939; the Library of Congress country study for the Philippines' cultivated area.
+Read for the script on 21 November 2026 (details and status of each series in `population/data/provisioning.toml`): USDA NASS, Washington Field Office, all wheat, yield per acre 1879–1975; Utah Agricultural Experiment Station Bulletin 222 (the Nephi dry-farm substation, founded 1903); the Fish and Wildlife Service's release of 20 June 1941 (the Pacific states' catch); Census of Irrigation 1940, summary tables (the 19 states' irrigated area 1889–1939 and irrigable area in enterprises); Census of Agriculture 1935, vol. III, Table 7 (area irrigated by state, 1929); a table of crop land used per head, 1910–50 (collections.lib.utah.edu, id 1134612; the report's title to verify); the Philippine censuses of 1903, 1918 and 1939; the Library of Congress country study for the Philippines' cultivated area.
 
 From the repository: `population/outputs/canon_by_year.csv` (the table in A1 and the growth rates computed from it, 21 November 2026); `population/outputs/provisioning.md` (A3); `finance/CR-056-dynamics-workbook.md` and `finance/dynamics-design-note.md` (pumped acres); the storyline for A2.

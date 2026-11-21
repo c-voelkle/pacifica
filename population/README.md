@@ -120,8 +120,8 @@ People against food. It reads the canon run and `data/provisioning.toml` and fee
 - **People:** the Realm's residents from the canon run; the Philippine crown from 1908 (our timeline's censuses), kept as its own ledger.
 - **Land:** our timeline's irrigated area by state in 1929 (census, verified) and the 19-state totals of 1889–1929, cut to Pacifica's frontier by estimated shares; dry crop land derived from the census's irrigated share of crop land. The ceiling on irrigated land is the 1940 census's irrigable area in enterprises.
 - **Mouths:** crop land per head on the Realm's diet (2.1 acres of average Union crop land, from our timeline's 1910–34 figures), with MODEL factors for an irrigated acre, a dry acre and canon's nitrogen.
-- **Cases:** history's acres; canon's farmers (history's acres a head for canon's larger population, up to the ceilings; the central case); the ceilings.
+- **Cases, each building on the last:** history's acres; canon's farmers (history's acres a head for canon's larger population, up to the ceilings); concerted research (the Realm farms as our timeline farmed the same land in year *t* + lead, the lead reaching 30 years in 1930, on Washington's verified wheat yields); the sea (our timeline's peak Pacific landings by 1930). The last is the central case.
+- **Checks on the case:** the nitrogen its yields ask for against CR-054's; a variant with canon's present nitrogen.
 - **The Office's tables (1890–1930):** a century's course from each table year at a rate falling to `g_end`.
 
-Central result (MODEL): the Realm feeds itself with a surplus from about 1870 and outgrows its own soil about 1922; in 1932 about a fifth of its residents eat from other people's land. The dry-land series, the part-state shares and the acre factors are estimates and are listed at the end of `outputs/provisioning.md`.
-
+Central result (MODEL): without research the Realm outgrows its own soil in 1918; with research and the sea it still feeds itself in 1932 with about three-tenths to spare, and outgrows both about 1940–44; a century on, the need is about ten times the home ceiling. The case needs about 22 million irrigated acres by 1910 and about 375 thousand tonnes of nitrogen a year by 1930, neither of which canon has yet. Weak inputs are listed at the end of `outputs/provisioning.md`.

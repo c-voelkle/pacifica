@@ -92,10 +92,6 @@ dry_factor = 0.8
 factor_status = "MODEL (no source). Generous to the West: much irrigated land grew hay."
 # Canon's farmers can dry-farm this multiple of our timeline's 1929 dry crop land, and no more.
 dry_ceiling_factor = 1.2
-# The Realm's yields against our timeline's: canon's nitrogen (CR-054).
-yield_years = [1861, 1909, 1919, 1929, 1932]
-yield_index = [1.00, 1.00, 1.10, 1.30, 1.30]
-yield_status = "MODEL; to reconcile with the dynamic layer's farm channel (finance/CR-056-dynamics-workbook.md, C4)"
 # The Office's assumed course: the yearly rate falls in a straight line from the
 # last decade's rate to g_end over a century. 0.015 puts the table of 1930 at about
 # half a billion a century on, the author's premise (17:09).
@@ -120,3 +116,60 @@ export_crop_share = 0.30       # sugar, coconut, abaca: MODEL
 acres_per_head = 0.50          # the crown's own rice diet, in its own acres: MODEL, set so that
                                # it buys about a tenth of its food abroad, as in our timeline (to verify)
 status = "MODEL: the crown is kept as its own ledger, on its own diet and its own land"
+
+# ---------------------------------------------------------------------------
+# Yields under concerted research (the central case)
+# ---------------------------------------------------------------------------
+
+[yield_ladder]
+# All wheat, Washington: yield per harvested acre (bushels), 1895-1975. Washington's
+# wheat is overwhelmingly dry-farmed, so this is what the same dry land gave in our
+# timeline as varieties, fertilizer and tillage improved.
+first_year = 1895
+bushels = [15.5, 15.0, 20.0, 20.5, 19.5,
+           19.8, 24.6, 19.9, 16.6, 19.4, 20.5, 18.5, 23.2, 14.6, 19.3,
+           15.0, 19.9, 20.1, 19.7, 21.4, 23.5, 20.4, 14.1, 12.5, 16.8,
+           17.2, 23.2, 13.6, 25.3, 14.1, 17.5, 19.1, 24.6, 21.4, 18.6,
+           16.1, 18.0, 18.6, 20.2, 19.2, 22.5, 21.5, 21.2, 24.0, 22.4,
+           20.7, 29.1, 31.0, 26.2, 26.8, 24.4, 29.5, 23.8, 28.7, 21.8,
+           26.6, 27.5, 27.9, 28.6, 32.2, 27.9, 29.5, 38.3, 34.9, 38.4,
+           33.4, 28.0, 39.4, 37.4, 39.5, 39.2, 40.0, 39.9, 38.6, 38.4,
+           44.0, 48.7, 47.4, 32.8, 39.5, 48.3]
+source = "USDA NASS, Washington Field Office, 'All wheat, Washington: acreage, yield and production' (data.nass.usda.gov, Historic_Data/smallgrains/allwheat.pdf)"
+status = "verified (read 21 November 2026)"
+base_years = [1900, 1929]      # our timeline's flat years: the measure of 'history's yields'
+# The rule: in year t the Realm farms as our timeline farmed the same land in year
+# t + lead. The lead grows in a straight line from nothing in lead_from to lead_max
+# in lead_full and holds. Our timeline's dry-farm research begins with Utah's Nephi
+# substation in 1903 and its gains reach the fields from the 1940s; canon's Colegio
+# de Santa Fe teaches dry-land farming from 1864 (CR-036 D13) and Deseret's
+# university measures water (D14), a generation and more earlier.
+lead_from = 1880
+lead_full = 1930
+lead_max = 30
+lead_status = "MODEL: the one judgement in the central case. Sensitivity in the report."
+applies_to_irrigated = true
+irrigated_status = "the same ladder is applied to irrigated land for want of a verified irrigated series; to replace (Idaho or California yields)"
+
+[nitrogen]
+# What the central case's yields ask of nitrogen, and what canon makes.
+grain_per_standard_acre = 0.5     # tonnes of grain or its equivalent on an average Union acre: MODEL
+grain_per_tonne_n = 25            # canon's own figure (finance/CR-056-dynamics-workbook.md, C4)
+canon_total_1929 = 90000          # tonnes of nitrogen, CR-054 (MODEL)
+canon_farm_share = 0.5            # CR-056 C4: half goes to farms
+canon_from = 1915                 # ammonia on the Columbia from 1915 (CR-055)
+nitrogen_share_of_gain = 0.5      # the part of the yield gain that has to be bought with nitrogen: MODEL
+status = "MODEL; the response and the share are to verify against our timeline's fertilizer use on western wheat in 1950-65"
+
+[sea]
+# Our timeline's Pacific landings at their peak, as animal food that needs no crop land.
+pacific_states_1936_lb = 1925342000
+pacific_source = "US Fish and Wildlife Service release of 20 June 1941 (1939 catch of the Pacific Coast States), which gives 1936 as the record"
+pacific_status = "verified"
+alaska_lb = 650000000
+alaska_status = "recalled order of magnitude for the 1930s; to verify (Bureau of Fisheries, Alaska Fishery and Fur-Seal Industries)"
+edible_share = 0.5
+meat_acres_per_kg = 0.015         # crop land behind a kilogram of meat on the Realm's diet: MODEL
+years = [1861, 1880, 1930]
+index = [0.01, 0.05, 1.00]        # canon reaches our timeline's 1936 landings by 1930: MODEL
+status = "MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted."

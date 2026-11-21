@@ -21,28 +21,54 @@ Built by `population/provisioning.py` from the canon run and `data/provisioning.
 
 Millions of acres. The territory holds 70% of the 19 states' irrigated area. The ceiling used is the 1940 census's irrigable area in enterprises times that share: 22.0 million acres. Part states and the dry land are estimates.
 
-## 2. People against home supply
+## 2. The rule for yields
 
-One head needs 2.1 acres of average Union crop land on the Realm's diet. An irrigated acre counts as 2.0 such acres and a dry western acre as 0.8; canon's nitrogen raises yields to 1.30 times history's by 1929.
+One head needs 2.1 acres of average Union crop land on the Realm's diet (author: the same diet). At history's yields an irrigated acre counts as 2.0 such acres and a dry western acre as 0.8.
 
-| Year | Residents | Our timeline, same land | Fed at home: history's acres | canon's farmers | the ceilings | Share fed (canon's farmers) |
+**Concerted research.** In year *t* the Realm farms as our timeline farmed the same land in year *t* + lead. The lead grows from nothing in 1880 to 30 years in 1930. The measure is Washington's wheat, which is dry-farmed: its yield per acre in our timeline, as ten-year means against 1900–1929.
+
+| Our timeline, ten years centred on | 1915 | 1935 | 1945 | 1950 | 1955 | 1960 | 1965 | 1970 |
+|---|---|---|---|---|---|---|---|---|
+| Yield against 1900–1929 | 1.00 | 1.06 | 1.37 | 1.42 | 1.63 | 1.81 | 1.95 | 2.13 |
+
+| The Realm in | 1880 | 1890 | 1900 | 1910 | 1920 | 1930 |
 |---|---|---|---|---|---|---|
-| 1861 | 1.2 | 0.8 | 0.4 | 0.5 | 22.1 | 44% |
-| 1870 | 2.5 | 1.1 | 1.1 | 2.4 | 22.1 | 97% |
-| 1880 | 4.3 | 1.7 | 2.7 | 6.6 | 22.1 | 155% |
-| 1890 | 6.6 | 2.8 | 5.2 | 11.0 | 22.1 | 167% |
-| 1900 | 10.0 | 3.6 | 8.1 | 18.0 | 22.1 | 180% |
-| 1910 | 16.0 | 6.0 | 12.3 | 22.3 | 22.3 | 139% |
-| 1920 | 23.9 | 7.9 | 16.6 | 24.7 | 24.7 | 103% |
-| 1930 | 34.3 | 10.9 | 19.5 | 28.7 | 28.7 | 84% |
-| 1932 | 36.2 | 11.7 | 19.5 | 28.7 | 28.7 | 79% |
+| Lead, years | 0 | 6 | 12 | 18 | 24 | 30 |
+| Yields against history's | 1.00 | 1.00 | 1.03 | 1.01 | 1.37 | 1.81 |
 
-*Canon's farmers* is the central case: canon's residents work as many acres a head as our timeline's did on the same land, until the irrigated ceiling (22.0 million acres) and the dry ceiling (15.8 million) stop them.
+## 3. People against home supply
 
-- Canon's farmers feed the Realm, with a surplus to sell, from **1871** to **1921**. From **1922** the Realm eats more than its own soil grows, even at the ceilings.
-- In 1932 about 7.5 million residents, 21%, eat from other people's land. On history's acres alone it would be 16.6 million.
+| Year | Residents | History's acres | Canon's farmers | + concerted research | + the sea (central case) | Share fed |
+|---|---|---|---|---|---|---|
+| 1861 | 1.2 | 0.4 | 0.5 | 0.5 | 0.6 | 47% |
+| 1870 | 2.5 | 1.1 | 2.4 | 2.4 | 2.5 | 102% |
+| 1880 | 4.3 | 2.7 | 6.6 | 6.6 | 6.8 | 160% |
+| 1890 | 6.6 | 5.2 | 11.0 | 11.0 | 12.0 | 182% |
+| 1900 | 10.0 | 8.1 | 18.0 | 18.5 | 20.3 | 204% |
+| 1910 | 16.0 | 12.2 | 22.1 | 22.3 | 24.9 | 155% |
+| 1920 | 23.9 | 14.9 | 22.1 | 30.2 | 33.6 | 140% |
+| 1930 | 34.3 | 15.0 | 22.1 | 39.9 | 44.1 | 129% |
+| 1932 | 36.2 | 15.0 | 22.1 | 42.4 | 46.6 | 129% |
 
-## 3. The Philippine crown, from 1908 (its own ledger)
+Millions fed on the Realm's diet. *Canon's farmers* work as many acres a head as our timeline's residents did on the same land, until the irrigated ceiling (22.0 million acres) and the dry ceiling (15.8 million) stop them.
+
+- **Without research** (canon's farmers at history's yields) the Realm outgrows its own soil in **1918**.
+- **Central case:** the Realm still feeds itself in 1932, with 29% to spare. On the Office's course it outgrows soil and sea in **1940** if yields stay at 1932's, and in **1944** if they go on up our timeline's ladder.
+- **With nitrogen as canon now has it** (90 thousand tonnes in 1929, half to farms) the central case feeds 37.5 million in 1932 and the Realm outgrows it in **no year before 1933**.
+
+## 4. What the central case asks for
+
+| Year | Irrigated acres | Dry acres | Nitrogen needed | Canon's farm nitrogen | The sea feeds |
+|---|---|---|---|---|---|
+| 1890 | 6.9 | 15.8 | 0 | 0 | 1.0 |
+| 1900 | 16.4 | 15.8 | 11 | 0 | 1.8 |
+| 1910 | 22.0 | 15.8 | 4 | 0 | 2.6 |
+| 1920 | 22.0 | 15.8 | 172 | 16 | 3.4 |
+| 1930 | 22.0 | 15.8 | 376 | 45 | 4.2 |
+
+Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mouths. Nitrogen is counted at canon's own 25 tonnes of grain per tonne, for 50% of the gain; the rest is left to varieties, tillage and legumes in the rotation. Our timeline irrigated 13.8 million acres on the same land in 1929.
+
+## 5. The Philippine crown, from 1908 (its own ledger)
 
 | Year | People | Fed from its own land | Balance |
 |---|---|---|---|
@@ -53,41 +79,47 @@ One head needs 2.1 acres of average Union crop land on the Realm's diet. An irri
 
 Our timeline's censuses and cultivated area, on the crown's own rice diet (MODEL). It roughly feeds itself and brings no surplus to the Realm.
 
-## 4. The Office's tables
+## 6. The Office's tables
 
-From each table year the yearly rate falls in a straight line from the last decade's rate to 1.5% over a century. Need is at the table year's yields.
+From each table year the yearly rate falls in a straight line from the last decade's rate to 1.5% over a century (the slowing is still to be decided, F-1b). The home ceiling is every irrigable and dry acre at the table year's yields, with the sea.
 
 | Table | Residents | Crown | Rate | In 25 years | In 50 | In 100 (Realm + crown) | Home ceiling feeds | Realm passes it | A century's need against the ceiling |
 |---|---|---|---|---|---|---|---|---|---|
-| 1890 | 6.6 | — | 4.4% | 17.9 | 40.9 | 123.9 + 0.0 = 123.9 | 22.1 | 1921 | 6 times |
-| 1900 | 10.0 | — | 4.1% | 25.8 | 56.8 | 167.3 + 0.0 = 167.3 | 22.1 | 1921 | 8 times |
-| 1910 | 16.0 | 8.8 | 4.8% | 61.7 | 137.2 | 364.7 + 50.7 = 415.4 | 22.3 | 1918 | 16 times |
-| 1920 | 23.9 | 10.8 | 4.0% | 78.0 | 158.1 | 378.1 + 62.6 = 440.7 | 24.7 | 1921 | 15 times |
-| 1930 | 34.3 | 13.3 | 3.6% | 100.9 | 194.2 | 437.9 + 79.8 = 517.7 | 28.7 | already past | 15 times |
+| 1890 | 6.6 | — | 4.4% | 17.9 | 40.9 | 123.9 + 0.0 = 123.9 | 23.1 | 1923 | 5 times |
+| 1900 | 10.0 | — | 4.1% | 25.8 | 56.8 | 167.3 + 0.0 = 167.3 | 24.5 | 1924 | 7 times |
+| 1910 | 16.0 | 8.8 | 4.8% | 61.7 | 137.2 | 364.7 + 50.7 = 415.4 | 24.9 | 1920 | 15 times |
+| 1920 | 23.9 | 10.8 | 4.0% | 78.0 | 158.1 | 378.1 + 62.6 = 440.7 | 33.6 | 1929 | 11 times |
+| 1930 | 34.3 | 13.3 | 3.6% | 100.9 | 194.2 | 437.9 + 79.8 = 517.7 | 44.1 | 1938 | 10 times |
 
-The table of 1930: 437.9 million in the Realm a century on need 920 million acres of average Union crop land at the yields of 1930, 2.5 times all the crop land the Union worked in 1925–29.
+The table of 1930: 437.9 million in the Realm a century on need 920 million acres of average Union crop land, 2.5 times all the crop land the Union worked in 1925–29. Even at our timeline's yields of 1966–75 the home ceiling gives about 109 million such acres, one part in 8.
 
-## 5. What moves the result
+## 7. What moves the result
 
-| Lever | Value | The ceilings feed in 1932 | Deficit begins | Table of 1930, Realm a century on |
+| Lever | Value | Central case feeds in 1932 | Share of residents | Table of 1930: need against ceiling |
 |---|---|---|---|---|
-| As built | — | 28.7 | 1922 | 437.9 |
-| A leaner diet | 1.5 acres a head | 40.1 | not before 1933 | 437.9 |
-| A rice diet | 0.7 acres a head | 86.0 | not before 1933 | 437.9 |
-| Irrigated acre | counts 3.0 | 39.1 | not before 1933 | 437.9 |
-| Yields | 1.6 times history's by 1929 | 35.3 | 1931 | 437.9 |
-| Dry-farm ceiling | twice the 1929 land | 33.9 | 1930 | 437.9 |
-| Growth ends at | 1.0% a year | 28.7 | 1922 | 341.0 |
-| Growth ends at | 2.0% a year | 28.7 | 1922 | 562.3 |
+| As built | — | 46.6 | 129% | 10 times |
+| Lead in 1930 | 20 years | 35.8 | 99% | 12 times |
+| Lead in 1930 | 25 years | 40.9 | 113% | 11 times |
+| Lead in 1930 | 35 years | 50.8 | 141% | 9 times |
+| Research on dry land only | irrigated yields as history's | 31.8 | 88% | 14 times |
+| Irrigated acre | counts 2.5 | 54.3 | 150% | 9 times |
+| Dry-farm ceiling | the 1929 land and no more | 44.7 | 124% | 10 times |
+| The sea | twice our timeline's peak | 50.8 | 140% | 9 times |
+| No sea | — | 42.4 | 117% | 11 times |
+| A leaner diet | 1.5 acres a head | 65.3 | 180% | 7 times |
 
-## 6. Not sourced, or weakly
+## 8. Not sourced, or weakly
 
+- `[yield_ladder]`: MODEL: the one judgement in the central case. Sensitivity in the report.
+- `[yield_ladder]`: the same ladder is applied to irrigated land for want of a verified irrigated series; to replace (Idaho or California yields)
+- `[nitrogen]`: MODEL; the response and the share are to verify against our timeline's fertilizer use on western wheat in 1950-65
+- `[sea]`: MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted.
+- `[sea]`: recalled order of magnitude for the 1930s; to verify (Bureau of Fisheries, Alaska Fishery and Fur-Seal Industries)
+- `[levers]`: MODEL (no source). Generous to the West: much irrigated land grew hay.
 - `[territory]`: estimate; to replace with county figures on the 1887 map (population/data/counties)
 - `[dry_cropland]`: estimate (no source; shaped on California's wheat acreage, which peaked about 1888); to replace with the Census of Agriculture's improved-land series
 - `[cropland_1929]`: Washington and Oregon verified for 1929; the eight mountain states read from a scan in which the 1929 and 1934 columns cannot be told apart. To verify.
 - `[cropland_1929]`: Washington and Oregon verified; California read from a garbled row (3,513,700 or 3,540,350). To verify.
 - `[cropland_1929]`: recalled (Census of Agriculture 1930); to verify
-- `[levers]`: MODEL (no source). Generous to the West: much irrigated land grew hay.
-- `[levers]`: MODEL; to reconcile with the dynamic layer's farm channel (finance/CR-056-dynamics-workbook.md, C4)
 - `[crown]`: MODEL: the crown is kept as its own ledger, on its own diet and its own land
-- Range and pasture are left out on both sides of the account; so are the sea, Hawaii's cane and the Japan series.
+- Range and pasture are left out on both sides of the account; so are Hawaii's cane, fishponds and hatcheries, and the Japan series.
