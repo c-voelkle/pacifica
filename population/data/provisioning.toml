@@ -176,7 +176,7 @@ what = "fertilizer nitrogen at a price dry farms can pay"
 gain = 1.22
 history = [1950, 1965]
 canon_earliest = [1900, 1915]
-canon_central = [1915, 1930]
+canon_central = [1900, 1915]     # author, 21 November 2026, 18:41: nitrogen from about 1900, Chile in the Pacific fold
 needs_nitrogen = true
 basis = "Our timeline: cheap nitrogen reaches the region in the early 1950s (Schillinger and Papendick). Canon: ammonia on the Columbia from 1915 under the BASF licence of 1913 (CR-055); the earliest case buys Chilean nitrate and builds arc plants from about 1900. The knowledge was there: Utah's station published on nitrogen in dry farming in 1910."
 
@@ -196,7 +196,7 @@ what = "semi-dwarf varieties that stand under heavy nitrogen"
 gain = 1.12
 history = [1961, 1970]
 canon_earliest = [1905, 1915]
-canon_central = [1918, 1928]
+canon_central = [1905, 1915]     # follows nitrogen (author, 18:41)
 needs_nitrogen = true
 basis = "Our timeline: Japan's short wheats were bred from in the nineteenth century; Strampelli crossed Akakomugi in 1913; the Norin 10 cross is of 1925; Vogel had it in 1949 and released Gaines in 1961, a quarter above the wheats it replaced, but it was not sown in the driest zone (so 1.12 for the state). Canon has Japan as an ally from 1870 and Sapporo's agronomists; the wheat pays only once nitrogen is cheap, so it follows nitrogen."
 
@@ -218,6 +218,12 @@ canon_total_1929 = 90000          # tonnes of nitrogen, CR-054 (MODEL)
 canon_farm_share = 0.5            # CR-056 C4: half goes to farms
 canon_from = 1915                 # ammonia on the Columbia from 1915 (CR-055)
 status = "MODEL; nitrogen is counted for the gain of the two components that need it, at canon's own response. To verify against our timeline's fertilizer use on western wheat in 1950-65."
+# Chile's nitrate, the world's fertilizer nitrogen before synthesis (our timeline).
+chile_years = [1865, 1895, 1913]
+chile_nitrate_tonnes = [100000, 1000000, 3000000]
+chile_source = "Encyclopedia.com, 'Nitrate' (exports: 100,000 tonnes by the mid-1860s, 1 million by the mid-1890s, almost 3 million in 1913)"
+chile_status = "verified as quoted; round figures"
+nitrogen_in_nitrate = 0.16        # sodium nitrate is about 16% nitrogen
 
 [sea]
 # Our timeline's Pacific landings at their peak, as animal food that needs no crop land.
@@ -231,3 +237,27 @@ meat_acres_per_kg = 0.015         # crop land behind a kilogram of meat on the R
 years = [1861, 1880, 1930]
 index = [0.01, 0.05, 1.00]        # canon reaches our timeline's 1936 landings by 1930: MODEL
 status = "MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted."
+
+# ---------------------------------------------------------------------------
+# Japan's rice (the Concord's side of the account)
+# ---------------------------------------------------------------------------
+
+[japan]
+people_years = [1880, 1890, 1900, 1910, 1920, 1930, 1932]
+people = [36600000, 39900000, 43800000, 49200000, 55963000, 64450000, 66400000]
+people_status = "censuses of 1920 and 1930; earlier years and 1932 are the official estimates as recalled. To verify."
+# Brown rice, in koku (one koku is about 150 kg).
+crop_1890 = 38000000              # between the verified five-year means of 1885-89 (36.58m) and 1895-99 (39.27m)
+crop_growth_to_1920 = 0.0138
+crop_growth_after_1920 = 0.0040
+crop_source = "Hayami and Ruttan, 'Korean Rice, Taiwan Rice, and Japanese Agricultural Stagnation' (1970): production grew 1.38% a year in 1890-1920 and 0.40% in 1920-35; five-year means from the Ministry of Agriculture's series as quoted in a study of the rice futures markets (arXiv 1404.1164)"
+crop_status = "verified rates and anchors; the level is built from them"
+kg_per_head_years = [1880, 1920, 1930]
+kg_per_head = [137, 173, 165]
+kg_status = "1878-82 and 1918-22 verified (Hayami and Yamada, as quoted in the Journal of Asian Studies); 1930 recalled. To verify."
+kg_per_koku = 150
+korea_koku = {1921 = 2790000, 1931 = 6650000}      # our timeline's imports from Korea, yearly means of 1919-23 and 1929-33 (CR-081's source)
+# Canon: the Japanese-origin residents of the Realm are people Japan does not have to feed.
+our_timeline_japanese_in_territory_1930 = 280000   # mainland and Hawaii, recalled; to verify
+emigrant_share = 0.8                               # how far a Japanese-origin Pacifican lowers Japan's own numbers: MODEL
+status = "MODEL. Canon's Japan has no colonial rice (Korea is independent, Formosa is Chinese) and holds Urajio, Enkaishu and Karafuto, which are not counted."

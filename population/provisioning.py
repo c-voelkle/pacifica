@@ -191,6 +191,32 @@ def nitrogen_needed(c: dict, base: dict, year: int, pop) -> float:
     return gain * n["grain_per_standard_acre"] / n["grain_per_tonne_n"]
 
 
+def chile_nitrogen(c: dict, year: int) -> float:
+    """Tonnes of nitrogen in all the nitrate Chile exported in a year (our timeline)."""
+    n = c["nitrogen"]
+    return geometric(n["chile_years"], n["chile_nitrate_tonnes"], min(year, n["chile_years"][-1])) * n["nitrogen_in_nitrate"]
+
+
+def japanese_in_realm() -> dict[int, float]:
+    with (OUT / "canon_by_year.csv").open(encoding="utf-8") as f:
+        return {int(r["year"]): float(r["japanese"]) for r in csv.DictReader(f)}
+
+
+def japan(c: dict, year: int, in_realm: dict[int, float]) -> dict:
+    """Japan's rice in a year: our timeline, and canon with and without the stagnation of 1920-35."""
+    j = c["japan"]
+    people = geometric(j["people_years"], j["people"], year)
+    away = max(0.0, in_realm[year] - j["our_timeline_japanese_in_territory_1930"] * in_realm[year] / in_realm[1930])
+    canon_people = people - j["emigrant_share"] * away
+    head = interp(j["kg_per_head_years"], j["kg_per_head"], year) / j["kg_per_koku"]
+    to_1920 = j["crop_1890"] * math.exp(j["crop_growth_to_1920"] * (min(year, 1920) - 1890))
+    crop = to_1920 * math.exp(j["crop_growth_after_1920"] * max(0, year - 1920))
+    crop_on = j["crop_1890"] * math.exp(j["crop_growth_to_1920"] * (year - 1890))
+    return {"people": people, "canon_people": canon_people, "head": head, "crop": crop, "crop_on": crop_on,
+            "gap_history": people * head - crop, "gap_canon": canon_people * head - crop,
+            "gap_canon_on": canon_people * head - crop_on}
+
+
 def sea_mouths(c: dict, year: int) -> float:
     """Mouths the sea's catch frees from crop land, as animal food on the Realm's diet."""
     k = c["sea"]
@@ -372,18 +398,45 @@ def main() -> int:
     A("")
     A("## 4. What the central case asks for")
     A("")
-    A("| Year | Irrigated acres | Dry acres | Nitrogen needed | Canon's farm nitrogen | The sea feeds |")
-    A("|---|---|---|---|---|---|")
-    for y in (1890, 1900, 1910, 1920, 1930):
+    A("| Year | Irrigated acres | Dry acres | Nitrogen needed | All Chile's exports hold | Canon's farm nitrogen (CR-054) | The sea feeds |")
+    A("|---|---|---|---|---|---|---|")
+    for y in (1890, 1900, 1905, 1910, 1915, 1920, 1930):
         i, d = acres(c, base, y, "research", pop)
-        A(f"| {y} | {m(i)} | {m(d)} | {nitrogen_needed(c, base, y, pop) / 1000:.0f} | {canon_farm_nitrogen(c, y) / 1000:.0f} | {m(sea_mouths(c, y))} |")
+        A(f"| {y} | {m(i)} | {m(d)} | {nitrogen_needed(c, base, y, pop) / 1000:.0f} | {chile_nitrogen(c, y) / 1000:.0f} | "
+          f"{canon_farm_nitrogen(c, y) / 1000:.0f} | {m(sea_mouths(c, y))} |")
     A("")
     A(f"Acres in millions, nitrogen in thousand tonnes a year, the sea in millions of mouths. Nitrogen is counted at canon's "
       f"own {nn['grain_per_tonne_n']} tonnes of grain per tonne, for the gain of the two components that need it (cheap "
       "nitrogen and the short-straw wheats). Our timeline irrigated "
       f"{m(acres(c, base, 1929, 'history')[0])} million acres on the same land in 1929.")
     A("")
-    A("## 5. The Philippine crown, from 1908 (its own ledger)")
+    A("## 5. Japan's rice (the Concord's side)")
+    A("")
+    jr = japanese_in_realm()
+    A("| Year | People, our timeline | People, canon | Rice a head (koku) | Own crop | Gap, our timeline | Gap, canon | "
+      "Gap if the crop keeps growing | The Realm's surplus |")
+    A("|---|---|---|---|---|---|---|---|---|")
+    for y in (1890, 1900, 1910, 1920, 1930, 1932):
+        j = japan(c, y, jr)
+        spare = central(c, base, y, pop) - pop[y]
+        A(f"| {y} | {m(j['people'])} | {m(j['canon_people'])} | {j['head']:.2f} | {m(j['crop'])} | "
+          f"{m(j['gap_history'])} ({j['gap_history'] / (j['people'] * j['head']):.0%}) | "
+          f"{m(j['gap_canon'])} ({j['gap_canon'] / (j['canon_people'] * j['head']):.0%}) | "
+          f"{m(j['gap_canon_on'])} | {m(spare)} mouths |")
+    A("")
+    j = japan(c, LAST, jr)
+    A("People in millions; crop and gaps in millions of koku of brown rice (a koku is about 150 kg and feeds one person a "
+      "year, near enough). *Gap, our timeline* is what Japan bought, mostly from its colonies; in 1929–33 Korea alone sent "
+      f"{c['japan']['korea_koku']['1931'] / 1e6:.2f} million koku a year. Canon's Japan has no colonies to buy from, but "
+      f"about {m(j['people'] - j['canon_people'])} million fewer mouths, because they are in the Realm. *If the crop keeps growing* "
+      "drops our timeline's stagnation of 1920–35, which Hayami and Ruttan put down to the colonial rice itself.")
+    per = lv["acres_per_head"] * c["nitrogen"]["grain_per_standard_acre"] * 1000 / c["japan"]["kg_per_koku"]
+    A("")
+    A(f"The land behind one mouth on the Realm's diet grows about {per:.0f} koku of grain or its equivalent, so the Realm's "
+      f"surplus of {LAST} is some {(central(c, base, LAST, pop) - pop[LAST]) * per / 1e6:.0f} million koku-equivalents against a "
+      f"Japanese gap of {m(j['gap_canon'])} million koku. It is mostly wheat and feed, not rice.")
+    A("")
+    A("## 6. The Philippine crown, from 1908 (its own ledger)")
     A("")
     A("| Year | People | Fed from its own land | Balance |")
     A("|---|---|---|---|")
@@ -394,7 +447,7 @@ def main() -> int:
     A("Our timeline's censuses and cultivated area, on the crown's own rice diet (MODEL). It roughly feeds itself "
       "and brings no surplus to the Realm.")
     A("")
-    A("## 6. The Office's tables")
+    A("## 7. The Office's tables")
     A("")
     A(f"From each table year the yearly rate falls in a straight line from the last decade's rate to "
       f"{lv['g_end']:.1%} over a century (the slowing is still to be decided, F-1b). The home ceiling is every irrigable and "
@@ -421,7 +474,7 @@ def main() -> int:
       f"Even at our timeline's yields of 1966–75 the home ceiling gives about {top70 / 1e6:,.0f} million such acres, "
       f"one part in {last['need_100'] / top70:.0f}.")
     A("")
-    A("## 7. What moves the result")
+    A("## 8. What moves the result")
     A("")
     A("| Lever | Value | Central case feeds in 1932 | Share of residents | Table of 1930: need against ceiling |")
     A("|---|---|---|---|---|")
@@ -433,7 +486,7 @@ def main() -> int:
         t = table(c2, b2, pop, 1930)
         A(f"| {name} | {value} | {m(fed)} | {fed / pop[LAST]:.0%} | {t['need_100'] / t['ceiling_std']:.0f} times |")
     variant("As built (central dates)", "—")
-    variant("Earliest dates", "nitrogen from 1900", "yield_components", mode="earliest")
+    variant("Earliest dates for the other four", "—", "yield_components", mode="earliest")
     variant("Research on dry land only", "irrigated yields as history's", "yield_components", applies_to_irrigated=False)
     variant("Irrigated acre", "counts 2.5", irrigated_factor=2.5)
     variant("Dry-farm ceiling", "the 1929 land and no more", dry_ceiling_factor=1.0)
@@ -441,10 +494,11 @@ def main() -> int:
     variant("No sea", "—", "sea", index=[0.0, 0.0, 0.0])
     variant("A leaner diet", "1.5 acres a head", acres_per_head=1.5)
     A("")
-    A("## 8. Not sourced, or weakly")
+    A("## 9. Not sourced, or weakly")
     A("")
     for key, where in (("status", "yield_components"), ("irrigated_status", "yield_components"), ("status", "nitrogen"),
-                       ("status", "sea"), ("alaska_status", "sea"), ("factor_status", "levers"),
+                       ("status", "sea"), ("alaska_status", "sea"), ("status", "japan"), ("people_status", "japan"),
+                       ("kg_status", "japan"), ("factor_status", "levers"),
                        ("status", "territory"), ("status", "dry_cropland"), ("pct_status", "cropland_1929"),
                        ("harvested_status", "cropland_1929"), ("california_status", "cropland_1929"), ("status", "crown")):
         A(f"- `[{where}]`: {c[where][key]}")

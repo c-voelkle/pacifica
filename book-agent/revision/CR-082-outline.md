@@ -1,6 +1,6 @@
 # CR-082 (outline) — Mouths and acres: how Pacifica means to be fed
 
-**Status:** OUTLINE, 21 November 2026. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
+**Status:** OUTLINE, 21 November 2026. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
 
 **Number:** CR-082. CR-081 (China, `drafts/cr081-china`, PR #83, not merged) waits on it; CR-080 (the partners) stays parked behind CR-081.
 
@@ -23,6 +23,8 @@
 > This is very important information and it clearly needs to influence Pacifica's decisions from the 1880s onwards. One thing Pacifica would do anyway is to dedicate a significant amount of R&D towards increasing the yield, both on land and at sea. The first step is to define the central case in terms of solid and reliable numbers that take into account Pacifica's concerted efforts to maximize yields in dry areas (the Santa Fe University is the key nexus here). Then we can determine the correct slowing and assess the appropriate strategic positioning regarding the food producers. (18:16)
 >
 > Can you try to quantify the lead a bit more rigorously? Which innovations matter the most? Which ones could have been made how many years earlier with the kind of programme we are suggesting here - basically the Manhattan Project of dryland farming? (18:30)
+>
+> I would say yes - by that point the table has already existed and been discussed by the top minds for years; it makes sense to bring Chile into the Pacific fold. This lead gives Pacifica's leadership some room to breathe; however, the question remains vital for the coming century - and critical for Japan in the present, which is the Concord's business. (18:41)
 
 **Author's premise (17:09), taken as the brief:** the leadership plans for half a billion Pacificans a century ahead, and that plan guides foreign policy explicitly.
 
@@ -85,14 +87,14 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 |---|---|---|---|---|---|
 | Mechanised fallow and timely work | +15% | 1930–45 | 1905–20 | 1910–25 | 20 |
 | Breeding and seed treatment before short straw | +15% | 1930–45 | 1895–1905 | 1900–12 | 33 |
-| Cheap nitrogen | +22% | 1950–65 | 1900–15 | 1915–30 | 35 |
+| Cheap nitrogen | +22% | 1950–65 | 1900–15 | 1900–15 (author) | 50 |
 | Selective hormone weedkiller | +8% | 1948–58 | 1925–35 | 1930–40 | 18 |
-| Short-straw wheats (need nitrogen) | +12% | 1961–70 | 1905–15 | 1918–28 | 42 |
+| Short-straw wheats (need nitrogen) | +12% | 1961–70 | 1905–15 | 1905–15 | 55 |
 | Deep-furrow drill and early sowing | +7% | 1965–70 | 1900–05 | 1910–15 | 55 |
 
-  - **What sets each date.** Breeding is bound by the breeder's calendar, twelve to fifteen years from first cross to release (*Hist.:* Farrer 1889–1901, Strampelli 1900–14), which winter nurseries in Hawaii and Baja can halve. The drill and the fallow are bound by nothing but a station that asks. The weedkiller is bound by a science that did not exist before the 1920s. Nitrogen and the short wheats are bound by nitrogen's price, and in canon that means the Columbia's ammonia of 1915 (CR-055).
+  - **What sets each date.** Breeding is bound by the breeder's calendar, twelve to fifteen years from first cross to release (*Hist.:* Farrer 1889–1901, Strampelli 1900–14), which winter nurseries in Hawaii and Baja can halve. The drill and the fallow are bound by nothing but a station that asks. The weedkiller is bound by a science that did not exist before the 1920s. Nitrogen and the short wheats are bound by nitrogen's price. Canon's own ammonia comes on the Columbia in 1915 (CR-055); before that the world's fertilizer nitrogen is Chile's nitrate. **Decided (author, 18:41):** the programme goes after nitrogen from about 1900, and Chile is brought into the Pacific fold.
   - **What matters most.** Nitrogen with the short wheats is +37% of the +109%, and it is the critical path: a third of the whole gain waits on one industrial date.
-  - **The result.** The Realm's yields are 1.12 times history's in 1910, 1.49 in 1920 and 1.93 in 1930, which our timeline reached in 1937, 1953 and 1964. The lead is 27 years in 1910 and 34 in 1930. With the earliest dates (nitrogen bought from Chile and fixed by the arc from about 1900) they are 1.57 in 1910 and 1.93 already in 1920.
+  - **The result.** The Realm's yields are 1.37 times history's in 1910, 1.85 in 1920 and 1.93 in 1930, which our timeline reached in 1944, 1961 and 1964. The lead is 34 years in 1910 and 41 in 1920; after that the Realm has used what there is, and only the weedkiller is still to come.
   - **Sourced and not.** The total, the dates and three magnitudes (Gaines a quarter above the wheats it replaced; the drill's 30% in the driest zone; breeding about half of wheat's yield gains in the plains literature) are sourced. The split among the six is MODEL, and when dated as history it fits the verified series within about 10%. *Canon:* the Colegio de Santa Fe has taught acequia irrigation and dry-land farming since 1864 and Deseret's university measures water (CR-036 D13, D14).
 - **The sea:** our timeline's Pacific landings at their peak of 1936 (the Pacific states' 1.9 billion pounds, verified, and Alaska's), reached by 1930 and counted as animal food that needs no crop land.
 - **The Philippine crown (author):** counted from 1908, as its own ledger on its own diet. It roughly feeds itself.
@@ -103,25 +105,40 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 |---|---|---|---|---|---|
 | 1880 | 4.3 million | 6.6 | 6.6 | 6.8 | 160% |
 | 1900 | 10.0 | 18.0 | 18.0 | 19.8 | 198% |
-| 1910 | 16.0 | 22.1 | 24.8 | 27.4 | 171% |
-| 1920 | 23.9 | 22.1 | 32.8 | 36.2 | 151% |
+| 1910 | 16.0 | 22.1 | 30.2 | 32.7 | 204% |
+| 1920 | 23.9 | 22.1 | 40.8 | 44.2 | 184% |
 | 1930 | 34.3 | 22.1 | 42.6 | 46.8 | 136% |
 | 1932 | 36.2 | 22.1 | 43.3 | 47.5 | 131% |
 
 1. **Without research the Realm outgrows its own soil in 1918.** Land runs out about 1910; after that only yields can add food.
-2. **With research and the sea it still feeds itself in 1932, with about three-tenths to spare,** and it has been a food exporter since about 1870.
-3. **The margin closes fast.** On the Office's course the Realm outgrows soil and sea about 1941–43, and by then five of the six innovations are spent.
-4. **Each table moves the date back by about a decade and no more.** The tables of 1890 to 1910 put the crossing at 1922–23, the table of 1920 at 1931, the table of 1930 at 1939.
+2. **With research and the sea the Realm is one of the world's great food exporters.** In 1920 it grows food for 20 million more people than it has. The surplus is still 11 million mouths in 1932, but it is shrinking.
+3. **The margin closes about 1941–43** on the Office's course, and by then every innovation on the list is spent.
+4. **The tables keep moving the date back, by less each time.** The tables of 1890 and 1900 put the crossing at 1923, the table of 1910 at 1926, the table of 1920 at 1937, the table of 1930 at 1939.
 5. **The century is out of reach of research.** The table of 1930 has about 438 million in the Realm a century on (the slowing is still to be decided). On the present diet they need nine times the home ceiling.
-6. **The case asks canon for two things it does not yet have.** About 22 million irrigated acres by 1910, against history's 13.8 million in 1929. And nitrogen: about 125 thousand tonnes a year by 1920 and 480 thousand by 1930, where CR-054 makes 90 thousand in 1929 and sends half to farms. With nitrogen as canon now has it, the central case feeds 36.9 million in 1932, barely more than the residents.
+6. **Nitrogen on this schedule means Chile.** The case needs about 225 thousand tonnes of nitrogen a year by 1910 and 440 thousand by 1915. *Hist.:* all the nitrate Chile exported held about 400 thousand tonnes of nitrogen in 1910 and 480 thousand in 1913. The Realm would take more than half of Chile's trade by 1910, and must make its own on the Columbia after that. CR-054's 90 thousand tonnes in 1929 is far too small for this case (F-1d).
+7. **It also needs about 22 million irrigated acres by 1905–10,** against history's 13.8 million on the same land in 1929 (F-1c).
+
+**Japan (the Concord's side; MODEL)**
+
+| Year | People, history | People, canon | Own rice crop | Gap, history | Gap, canon |
+|---|---|---|---|---|---|
+| 1910 | 49.2 million | 48.1 | 50.1 million koku | 3.7 (7%) | 2.5 (5%) |
+| 1920 | 56.0 | 53.7 | 57.5 | 7.1 (11%) | 4.5 (7%) |
+| 1932 | 66.4 | 62.2 | 60.3 | 12.7 (17%) | 8.1 (12%) |
+
+- A koku of brown rice feeds about one person a year. *Hist.:* Japan filled its gap from Korea and Formosa, and the rice riots of 1918 came when it could not.
+- Canon's Japan has about 4 million fewer mouths, because they live in the Realm. Its gap is smaller than history's, but it has no colony to fill it: the 8 million koku of 1932 must be bought.
+- If Japan's own crop had kept growing at its rate of 1890–1920, the gap of 1932 would nearly close. *Hist.:* the crop stagnated after 1920, and Hayami and Ruttan put that down to the colonial rice itself. Whether canon's Japan stagnates is a question for the partners' CR.
+- The Realm's surplus of 1932 is about ten times Japan's gap in grain, but it is wheat and feed, not rice.
+- Both run out together. The Realm's surplus is gone about 1941–43, and Japan's gap grows every year.
 
 **How firm it is**
 
 | If | Fed in 1932 | Share of residents |
 |---|---|---|
-| The earliest dates hold | 49.2 million | 136% |
-| Nitrogen stays at CR-054's | 36.9 | 102% |
+| Nitrogen stays at CR-054's | 36.9 million | 102% |
 | Research lifts dry land only | 32.0 | 89% |
+| The dry-farm ceiling is the 1929 land | 45.5 | 126% |
 | There is no sea | 43.3 | 120% |
 
 **Corrections.** The skeleton's hand estimate (100–150 million fed at home) assumed something near a rice diet and was wrong. The first run of the script put the crossing at 1922; it gave yields a flat 30% for nitrogen and nothing for research. The second used a single lead of thirty years. The six dated innovations above replace all three.
@@ -133,10 +150,10 @@ From `population/outputs/canon_by_year.csv` (MODEL; the storyline rounds 1932 to
 - **F-1. DECIDED (author, 21 November 2026, 17:59):** build the script. Built.
 - **F-2. DECIDED (author, 17:59):** the Office assumes the same diet, and a rate of growth slower than the early years'.
 - **F-3. DECIDED (author, 17:59):** the Philippine crown is counted after Julian's accession (from 1908).
-- **F-1a.** The six innovations' central dates (table in A3), or the earliest ones. The choice is mostly one question: whether the programme gets nitrogen before the Columbia's ammonia of 1915.
+- **F-1a. DECIDED in part (author, 18:41):** nitrogen from about 1900, with Chile in the Pacific fold; the short wheats follow it. The other four innovations stay at their central dates unless the author moves them.
 - **F-1b.** The rate at which the Office lets growth slow (now 1.5% a century on). The author takes this up next (18:16).
 - **F-1c.** Canon's irrigated area: about 22 million acres by 1910. A line for the storyline, with Powell's office.
-- **F-1d.** Canon's nitrogen: CR-054's 90 thousand tonnes in 1929 against the 480 thousand the case needs. Either CR-054's figure is raised (a canon tension for CR-054, to be drafted), or a third of the gain is lost. *Hist.:* before synthesis the world's fertilizer nitrogen came from Chile's nitrate, so the earliest dates are also a question of policy toward Chile (Part C).
+- **F-1d.** Canon's nitrogen: CR-054's 90 thousand tonnes in 1929 against the 480 thousand the case needs. After the decision of 18:41 CR-054's figure has to rise, and a canon tension for CR-054 is to be drafted. *Hist.:* before synthesis the world's fertilizer nitrogen came from Chile's nitrate, so the earliest dates are also a question of policy toward Chile (Part C).
 - **F-1e.** The sea: whether canon reaches history's peak landings by 1930, and what research adds beyond the catch (fishponds, hatcheries), which is not yet counted.
 
 ## B. The doctrine (sketch)
@@ -200,7 +217,8 @@ Each line gives what canon has, the gap and the question.
 - **Hawaii:** sugar, rice and taro on little land.
 - **The Philippine crown:** about a million Filipinos already live in the Realm (MODEL). Its own land and people are F-3's question.
 - **The Gulf Republic:** the nearest rain-fed farmland on the continent, an ally whose admission tests cannot pass before the 1960s (canon). *Question:* whether the provisioners read those tests differently from the men who wrote them.
-- **The Union and Canada:** the largest grain surplus on earth lies behind the eastern frontier, and the Union buys four-fifths of its oil abroad, most of it from the Gulf (CR-058). *Question:* whether oil for grain is the continent's bargain, and why the provisioners will not rest on it. By A3 the Realm needs none before about 1940; the question is what it secures before then.
+- **Chile (author, 18:41):** brought into the Pacific fold for its nitrate, from about 1900. *Hist.:* the export duty on nitrate was more than half of Chile's ordinary revenue in 1890–1918, and British houses held much of the trade. *Questions:* by what instrument (a purchase contract, a loan on the duty, a compact), at whose expense, and from what year the Office first names Chile.
+- **The Union and Canada:** the largest grain surplus on earth lies behind the eastern frontier, and the Union buys four-fifths of its oil abroad, most of it from the Gulf (CR-058). *Question:* whether oil for grain is the continent's bargain, and why the provisioners will not rest on it. By A3 the Realm sells food until about 1940; the question is what it secures before then, and what it does with a surplus that Japan needs.
 
 ### C4. Other people's surplus land
 
@@ -237,7 +255,7 @@ Where the half-billion come from: births, and ships from Japan, China and the Ph
 ## D. What it changes elsewhere (to be decided there)
 
 - **CR-081, China.** A8's aim ("a strong, successful China aligned with Pacifica, at minimal cost to Japan") gains Pacifica's own object. Formosa's published end date (A8.12), the Manchurian settlement left to Chinese land offices (S-4), the farm bank (S-5) and the famine and flood works (S-1), which add Chinese mouths, are each read again against the table.
-- **Japan and the Concord.** In canon Korea is independent and Formosa is Chinese, so Japan has no colonial rice. *Hist.:* the rice riots of 1918 led to the colonial rice plans of 1920. Japan's deficit is therefore worse than history's, and the bean cake, the fertilizer and Formosa's rice all pass through Pacifican hands. The Hayama annex divides industries; nothing divides surplus land.
+- **Japan and the Concord (author, 18:41: critical for Japan in the present, and the Concord's business).** A3 gives the figures: a gap of about 8 million koku in 1932, a Realm surplus ten times that in grain, and both gone by the early 1940s. In canon Korea is independent and Formosa is Chinese, so Japan has no colonial rice. *Hist.:* the rice riots of 1918 led to the colonial rice plans of 1920. Japan's deficit is therefore worse than history's, and the bean cake, the fertilizer and Formosa's rice all pass through Pacifican hands. The Hayama annex divides industries; nothing divides surplus land.
 - **Britain.** The dominions hold the Pacific's empty farmland and keep Asian settlers out, while three in ten Pacificans are of Asian origin. This belongs to the confrontation CR.
 - **The Gulf.** The admission tests (CR-039).
 - **Home.** Keawe's Charter of 1932 becomes the sufficers' law, passed in the year of the fifth table.
@@ -264,6 +282,8 @@ none
 ## Sources
 
 Stated from general knowledge and to verify before any figure or date is used: Powell at the Irrigation Congress (October 1893); Crookes's address (September 1898) and its date for the wheat failure; Pearl and Reed's ceiling (1920); King's journey (1909) and book (1911); California's first commercial rice (1912); the rice riots of 1918 and the plan of 1920; China's rice and flour imports in the 1920s; the western phosphate field and Searles Lake; the grain-equivalent ratio between diets.
+
+Read for Japan and Chile on 21 November 2026: Hayami and Ruttan, 'Korean Rice, Taiwan Rice, and Japanese Agricultural Stagnation' (University of Minnesota staff paper, 1970); a study of the prewar rice futures markets for the crop's five-year means (arXiv 1404.1164); Encyclopedia.com, 'Nitrate', and the 1914–1918 Online encyclopedia, 'Nitrate', for Chile's exports and the duty.
 
 Read for the yield components on 21 November 2026: Schillinger and Papendick, 'Then and Now: 125 Years of Dryland Wheat Farming in the Inland Pacific Northwest', *Agronomy Journal* 100 (2008), WSU Extension EM004E (the region's machines, varieties, nitrogen, weedkillers and the drill, with dates); Salvi and Porfiri on Strampelli, *Journal of Agricultural Science* (2012); the Australian Dictionary of Biography and the Year Book Australia on Farrer and Federation; CIMMYT and the Japanese station's own account of Norin 10; Troyer, 'In the beginning: the multiple discovery of the first hormone herbicides', *Weed Science* (2001); Battenfield, Klatt and Raun (2013) and the Economic Research Service (AIB-786) on breeding's share of wheat's yield gains.
 
