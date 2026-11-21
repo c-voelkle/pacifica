@@ -1,5 +1,7 @@
 # CR-082 (outline) — Mouths and acres: how Pacifica means to be fed
 
+**Superseded as the decision record by `CR-082.md` (draft of 21 November 2026, 21:14).** This file stays as the working paper. Where the two differ, the draft holds; in particular the draft corrects this paper's statements that the northern water is leased under the Charter of 1932, which is an islands charter (draft, T3).
+
 **Status:** OUTLINE, 21 November 2026. At 19:21 the author decided that Victoria's government intervenes in Chile in 1891, and asked what the provisioners' plan is if the regions do not cover the century; C7 sketches it. At 19:09 the author fixed the slowing as a story assumption (1.5% in the regency's tables, 2.0% in Julian's), made Victoria a sufficer, and named the regions the provisioners weigh; C4 assesses them. At 18:52 the author made Julian a provisioner, so the Office's tables slow less in his reign, and wished Japan's rice never to fall short. At 18:41 the author decided that the programme goes after nitrogen from about 1900 and that Chile is brought into the Pacific fold; the central case is rebuilt on that. Part A's decisions F-1 to F-3 are decided (author, 17:59) and the script is built. At 18:16 the author asked for a central case in solid numbers that counts concerted yield research on land and at sea; A3 is that case. Nothing else is decided except what is marked *canon* or *author*. Figures are MODEL.
 
 **Number:** CR-082. CR-081 (China, `drafts/cr081-china`, PR #83, not merged) waits on it; CR-080 (the partners) stays parked behind CR-081.
