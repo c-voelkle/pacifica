@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 342,
+    "canonical_dossiers": 358,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 336
+    "active_or_provisional_identities": 352
   },
   "people": [
     {
@@ -608,7 +608,7 @@
       "tier": "principal_or_developed",
       "identity_state": "approved_identity_CR022_from_supplied_storyline",
       "story_bible_section": "CT-SILAS-CLAIMANT",
-      "narrative_profile": "**Status:** Supplied storyline, CR-022 revision 3. **Born:** late 1851 in Texas to Abigail Merritt, Elias’s biological son and Henry Pruett’s legal son. Distinct from Elias’s father.\n\nHe learns his parentage at eleven when Caleb and Elias bring Pruett’s watch in 1863. Elias supports him but refuses the name. A Texan volunteer at New Orleans in 1870, he later serves the Atlantic Auxiliary. Mid-career mathematics examinations cap him below general rank; Elias refuses an exception, making him the old officers’ grievance against the examination state.\n\nAt Donner in 1887 he shoots at Soberanes and kills Caleb in his place. The public account praises restraint and the lie keeps the Truce. He holds the inland command at Sacramento, declines, confesses to Victoria in autumn 1912 and dies that winter, before the Act of Settlement. His younger daughter marries Kiyoshi’s officer Tanabe Makoto in 1909, when the half-brothers meet for the only time. His old adjutant Harlan Tate later leads Senate resistance to the Concord. **Voice/POV:** Personal grievance, veteran loyalties and competence constrained by examinations; distinguish the man from the public story of Donner. Scene details beyond the supplied storyline remain unprovided.\n\n**CR-071 (APPROVED 18 November 2026, local labels retained):** Fails the mathematics before Sherman's board in 1882; the failed officers are kept together as the inland command; commands on the Sierra line, 1882–85 (E-13). Says nothing through the campaign of 1887; takes his commission from the Regent at Thalassia on 1 August and, a week later, the oath again at Sacramento before the inland command's officers. The interior's settlers read the inland command as their guarantee (H-15). His officers train the Pacific Companies' school from 1888 (PROPOSED, CR-074).",
+      "narrative_profile": "**Status:** Supplied storyline, CR-022 revision 3. **Born:** late 1851 in Texas to Abigail Merritt, Elias’s biological son and Henry Pruett’s legal son. Distinct from Elias’s father.\n\nHe learns his parentage at eleven when Caleb and Elias bring Pruett’s watch in 1863. Elias supports him but refuses the name. A Texan volunteer at New Orleans in 1870, he later serves the Atlantic Auxiliary. Mid-career mathematics examinations cap him below general rank; Elias refuses an exception, making him the old officers’ grievance against the examination state.\n\nAt Donner in 1887 he shoots at Soberanes and kills Caleb in his place. The public account praises restraint and the lie keeps the Truce. He holds the inland command at Sacramento, declines, confesses to Victoria in autumn 1912 and dies that winter, before the Act of Settlement. His younger daughter marries Kiyoshi’s officer Tanabe Makoto in 1909, when the half-brothers meet for the only time. His old adjutant Harlan Tate later leads Senate resistance to the Concord. **Voice/POV:** Personal grievance, veteran loyalties and competence constrained by examinations; distinguish the man from the public story of Donner. Scene details beyond the supplied storyline remain unprovided.\n\n**CR-071 (APPROVED 18 November 2026, local labels retained):** Fails the mathematics before the Commissions Board in 1882; the failed officers are kept together as the inland command; commands on the Sierra line, 1882–85 (E-13). Says nothing through the campaign of 1887; takes his commission from the Regent at Thalassia on 1 August and, a week later, the oath again at Sacramento before the inland command's officers. The interior's settlers read the inland command as their guarantee (H-15). His officers train the Pacific Companies' school from 1888 (PROPOSED, CR-074).",
       "links": [
         {
           "relationship": "child_of",
@@ -1053,7 +1053,7 @@
       "tier": "principal_or_developed",
       "identity_state": "approved_alternate_allegiance_with_details_pending",
       "story_bible_section": "CT-SHERMAN",
-      "narrative_profile": "**Status:** Pacifican allegiance and wartime direction approved under CR-013; exact naturalization, office and family arrangements provisional. **Historical person:** Born 1820. His historical death in 1891 is not automatically a selected fictional endpoint.\n\nSherman returns to independent California as a civilian banker around 1853. His historical American occupation service in California after 1846 cannot simply be retained. Household, business and civic commitments gradually make the republic home; Ellen's preferences, the children and his American family connections must materially affect the decision. His strong historical American constitutional allegiance makes this a substantial divergence, not a convenient response to a better salary.\n\nHe supports lawful government during the 1856 Vigilance crisis and earns mutual professional respect with Thorne without becoming his disciple. When banking employment ends around 1857, an institutional military appointment under Vallejo keeps him in California. Permanent service and naturalization around 1857–1858 precede the war. The exact process and initial appointment remain open. He supports Victoria's restraint during Washoe in 1860: legitimate independence does not authorize expansion across a recognized boundary.\n\nHis proposed wartime office is Inspector-General of the Pacifican Army, responsible for readiness, training and reserves. He supports initial protection and redress for the 1861 packet affair, then challenges the widening gap between the authorization and Thorne's territorial ambitions. His work continues to supply trained soldiers to the campaign he criticizes; remaining in service does not absolve him of complicity.\n\nAfter Port Townsend he inspects operational failures, identifies deficiencies in reconnaissance, command, naval coordination and casualty recovery, and rejects political scapegoating of Marcus. His reports give Victoria evidence for conditions on emergency renewal. Specific findings and inspection scenes are working implementations, not independently fixed testimony.\n\nIn 1862 he refuses the mission intended to sustain Confederate armies. Marcus accepts and travels east; Sherman remains in Pacifica. He has no Union field role at Shiloh, Chickasaw Bayou, Jackson or Vicksburg in this chronology. The earlier proposed Sherman–Marcus battlefield contest in Mississippi is superseded. Other federal officers retain agency and competence, with command assignments to be designed.\n\nDuring 1863 his exchanges with the eastern mission take weeks. He measures new aid requests against depleted reserves, occupation commitments and public finance. When Marcus returns in late 1863–early 1864, both have defensible evidence and an incomplete view of the other's experience. They can jointly reject a poorly prepared offensive while disagreeing about the war's desired end. Sherman presses for a settlement reducing commitments. He insists that the army serves lawful government, not Thorne through a separate personal oath; neither opposition to a proposed amendment nor professional standing gives him a veto over lawful constitutional change.\n\nSherman negotiates the spring 1871 convention with Grant, his old friend serving the Union. A possible 1865–1867 channel through his senator brother John remains proposed. Under the proposed fugitive court episode he objects to the cabinet's constitutional override rather than to the policy itself. These later roles narrow his formerly open postwar career while leaving office tenure, household and fate unresolved.\n\n**Desire:** Serve an adopted country through competent institutions while preserving an allegiance he can justify. **Contradiction:** His training and discipline help execute policies he opposes. He can dispute an invasion yet favor coercive measures against resistance; he is not a uniformly modern humanitarian. **Voice:** Direct, impatient with evasions, attentive to readiness and the difference between a government's stated objective and its orders. He can defend a colleague while condemning the colleague's decision. These are character directions, not authenticated historical quotations. **POV:** Inspection, professional judgment, divided family loyalties, and the compromises of continuing service.\n\n**Relationships:** Thorne is a respected but increasingly troublesome political superior; Marcus is peer, critic and occasional ally; Victoria uses his professional findings but does not control his judgments. Ellen and their children have independent preferences; no separate family dossiers are invented here. **Open:** Initial Californian appointment, naturalization instrument/date, household choices and American family correspondence, final inspector-general title/powers, postwar service, death and later political legacy. Do not import his historical Union rank, campaigns or postwar command automatically.\n\n**CR-059 to CR-070 (APPROVED 15 November 2026, local labels retained):** Major general and Inspector-General, reporting to the Protector and the Council (CR-067). With Victoria he says in 1862 that a garrison on the Salt Lake road needed the Council's vote; after his refusal of 1862 Elias keeps him in office. In 1864 he insists that the Washoe garrison leave with its arms and tells the cabinet that Lincoln will not unsay the Proclamation. At Monterey in 1865 he tells the committee that an office for life has its date too and is not answered. In December 1865 he signs the Western treaty and the Oregon protocol at Washington beside Vallejo; his brother John votes on it (CT-JOHN-SHERMAN). He keeps silent over the Union's campaign of 1864.\n\n**CR-071 (APPROVED 18 November 2026, local labels retained):** Chairs the board that examines every commission under the Militia Act of 1882, militias', regulars' and Auxiliary's, and keeps the commissions out of the Party's hands; at his request the officers who fail are kept together as the inland command (E-12, confirmed by the author 17 November 2026; E-13). In June 1884 refuses the state after the founder (E-14). His fate after 1887 stays OPEN.",
+      "narrative_profile": "**Status:** Pacifican allegiance and wartime direction approved under CR-013; exact naturalization, office and family arrangements provisional. **Historical person:** Born 1820. His historical death in 1891 is not automatically a selected fictional endpoint.\n\nSherman returns to independent California as a civilian banker around 1853. His historical American occupation service in California after 1846 cannot simply be retained. Household, business and civic commitments gradually make the republic home; Ellen's preferences, the children and his American family connections must materially affect the decision. His strong historical American constitutional allegiance makes this a substantial divergence, not a convenient response to a better salary.\n\nHe supports lawful government during the 1856 Vigilance crisis and earns mutual professional respect with Thorne without becoming his disciple. When banking employment ends around 1857, an institutional military appointment under Vallejo keeps him in California. Permanent service and naturalization around 1857–1858 precede the war. The exact process and initial appointment remain open. He supports Victoria's restraint during Washoe in 1860: legitimate independence does not authorize expansion across a recognized boundary.\n\nHis proposed wartime office is Inspector-General of the Pacifican Army, responsible for readiness, training and reserves. He supports initial protection and redress for the 1861 packet affair, then challenges the widening gap between the authorization and Thorne's territorial ambitions. His work continues to supply trained soldiers to the campaign he criticizes; remaining in service does not absolve him of complicity.\n\nAfter Port Townsend he inspects operational failures, identifies deficiencies in reconnaissance, command, naval coordination and casualty recovery, and rejects political scapegoating of Marcus. His reports give Victoria evidence for conditions on emergency renewal. Specific findings and inspection scenes are working implementations, not independently fixed testimony.\n\nIn 1862 he refuses the mission intended to sustain Confederate armies. Marcus accepts and travels east; Sherman remains in Pacifica. He has no Union field role at Shiloh, Chickasaw Bayou, Jackson or Vicksburg in this chronology. The earlier proposed Sherman–Marcus battlefield contest in Mississippi is superseded. Other federal officers retain agency and competence, with command assignments to be designed.\n\nDuring 1863 his exchanges with the eastern mission take weeks. He measures new aid requests against depleted reserves, occupation commitments and public finance. When Marcus returns in late 1863–early 1864, both have defensible evidence and an incomplete view of the other's experience. They can jointly reject a poorly prepared offensive while disagreeing about the war's desired end. Sherman presses for a settlement reducing commitments. He insists that the army serves lawful government, not Thorne through a separate personal oath; neither opposition to a proposed amendment nor professional standing gives him a veto over lawful constitutional change.\n\nSherman negotiates the spring 1871 convention with Grant, his old friend serving the Union. A possible 1865–1867 channel through his senator brother John remains proposed. Under the proposed fugitive court episode he objects to the cabinet's constitutional override rather than to the policy itself. These later roles narrow his formerly open postwar career while leaving office tenure, household and fate unresolved.\n\n**Desire:** Serve an adopted country through competent institutions while preserving an allegiance he can justify. **Contradiction:** His training and discipline help execute policies he opposes. He can dispute an invasion yet favor coercive measures against resistance; he is not a uniformly modern humanitarian. **Voice:** Direct, impatient with evasions, attentive to readiness and the difference between a government's stated objective and its orders. He can defend a colleague while condemning the colleague's decision. These are character directions, not authenticated historical quotations. **POV:** Inspection, professional judgment, divided family loyalties, and the compromises of continuing service.\n\n**Relationships:** Thorne is a respected but increasingly troublesome political superior; Marcus is peer, critic and occasional ally; Victoria uses his professional findings but does not control his judgments. Ellen and their children have independent preferences; no separate family dossiers are invented here. **Open:** Initial Californian appointment, naturalization instrument/date, household choices and American family correspondence, final inspector-general title/powers, postwar service, death and later political legacy. Do not import his historical Union rank, campaigns or postwar command automatically.\n\n**CR-059 to CR-070 (APPROVED 15 November 2026, local labels retained):** Major general and Inspector-General, reporting to the Protector and the Council (CR-067). With Victoria he says in 1862 that a garrison on the Salt Lake road needed the Council's vote; after his refusal of 1862 Elias keeps him in office. In 1864 he insists that the Washoe garrison leave with its arms and tells the cabinet that Lincoln will not unsay the Proclamation. At Monterey in 1865 he tells the committee that an office for life has its date too and is not answered. In December 1865 he signs the Western treaty and the Oregon protocol at Washington beside Vallejo; his brother John votes on it (CT-JOHN-SHERMAN). He keeps silent over the Union's campaign of 1864.\n\n**CR-071 (APPROVED 18 November 2026, local labels retained):** Chairs the board that examines every commission under the Militia Act of 1882, militias', regulars' and Auxiliary's, and keeps the commissions out of the Party's hands; at his request the officers who fail are kept together as the inland command (E-12, confirmed by the author 17 November 2026; E-13). In June 1884 refuses the state after the founder (E-14). **CR-081 (APPROVED 21 November 2026):** dies on 14 February 1891, aged seventy-one; the Commissions Board is his legacy and does not carry his name.",
       "links": [
         {
           "relationship": "professional_peer_and_critic",
@@ -1075,7 +1075,8 @@
       "cr015_reference": "CR-015.md",
       "source_authority": [
         "CR-027",
-        "CR-071"
+        "CR-071",
+        "CR-081"
       ]
     },
     {
@@ -2938,7 +2939,7 @@
       "tier": "principal_or_developed",
       "identity_state": "approved_alternate_role_details_open",
       "story_bible_section": "CT-KAIULANI-CLEGHORN",
-      "narrative_profile": "**Status:** approved_minor_historical_identity (CR-027); a principal of the 1919 peace from CR-043 (31 October 2026).\n\nThe historical princess born in 1875, a minor figure in the Cleghorn household and Kalākaua’s niece. In his 1881 mission he proposes her marriage to Prince Komatsu as part of an Oceanian union; Meiji declines. Distinct from Victoria Kamāmalu (CT-KAIULANI), born in 1838. The ʻokina distinguishes her name in CR-027.\n\nAPPROVED — CR-043 P1: she lives. Schooled in England from 1889. Graves' disease (exophthalmic goitre) is diagnosed in 1896, and in 1897 Theodor Kocher at Bern ties off the gland's arteries and then removes part of it, leaving her enough. In January 1899 she still catches rheumatic fever after a ride in the mountain rain; with her heart no longer driven by the thyroid, no lost kingdom to grieve, months of bed rest and salicylate, she survives with a damaged mitral valve she carries for life. PROPOSED: from 1908 she travels with Julian's missions to the European capitals, where her English school friends have married into the houses he needs.\n\nAPPROVED — CR-043 P2–P4: at The Hague in 1918–19 she is Mediator for the Allied Powers and First Plenipotentiary of the Pacific Crowns, commissioned by Julian under all three crowns, opposite the Union's mediator, William Jennings Bryan (CT-WILLIAM-JENNINGS-BRYAN), under Article 8 of the 1907 Convention. Her instructions fix the outcome in outline; the eastern borders, minorities clauses, the Alsace-Lorraine vote and Swiss terms, the Bohemian settlement and the order of signature are hers. She chairs the Danubian commission. While the mandate lasts the belligerents speak to each other only through the mediators, so Clemenceau must talk to the Germans through her. Victoria's private cables to her record what Victoria wanted in 1917–18 (P10). PROPOSED: she presides seated, and the conference knows why.\n\n**Open:** her date of death; whether she marries.\n\n**Voice:** English-schooled, exact, warm in private and patient in committee; her authority is the court's, not the treasury's.",
+      "narrative_profile": "**Status:** approved_minor_historical_identity (CR-027); a principal of the 1919 peace from CR-043 (31 October 2026).\n\nThe historical princess born in 1875, a minor figure in the Cleghorn household and Kalākaua’s niece. In his 1881 mission he proposes her marriage to Prince Komatsu as part of an Oceanian union; Meiji declines. Distinct from Victoria Kamāmalu (CT-KAIULANI), born in 1838. The ʻokina distinguishes her name in CR-027.\n\nAPPROVED — CR-043 P1: she lives. Schooled in England from 1889. Graves' disease (exophthalmic goitre) is diagnosed in 1896, and in 1897 Theodor Kocher at Bern ties off the gland's arteries and then removes part of it, leaving her enough. In January 1899 she still catches rheumatic fever after a ride in the mountain rain; with her heart no longer driven by the thyroid, no lost kingdom to grieve, months of bed rest and salicylate, she survives with a damaged mitral valve she carries for life. PROPOSED: from 1909 she travels with Julian's missions to the European capitals, where her English school friends have married into the houses he needs (CR-081: in 1908 she is at Peking for the deaths of November and joins Julian early in 1909 for the Bosnian settlement).\n\nAPPROVED — CR-043 P2–P4: at The Hague in 1918–19 she is Mediator for the Allied Powers and First Plenipotentiary of the Pacific Crowns, commissioned by Julian under all three crowns, opposite the Union's mediator, William Jennings Bryan (CT-WILLIAM-JENNINGS-BRYAN), under Article 8 of the 1907 Convention. Her instructions fix the outcome in outline; the eastern borders, minorities clauses, the Alsace-Lorraine vote and Swiss terms, the Bohemian settlement and the order of signature are hers. She chairs the Danubian commission. While the mandate lasts the belligerents speak to each other only through the mediators, so Clemenceau must talk to the Germans through her. Victoria's private cables to her record what Victoria wanted in 1917–18 (P10). PROPOSED: she presides seated, and the conference knows why.\n\n**Open:** her date of death; whether she marries.\n\n**Voice:** English-schooled, exact, warm in private and patient in committee; her authority is the court's, not the treasury's.",
       "links": [
         {
           "relationship": "niece",
@@ -6628,9 +6629,273 @@
       "source_authority": [
         "CR-079"
       ]
+    },
+    {
+      "id": "CT-CIXI",
+      "display_name": "Empress Dowager Cixi, regent of the Qing",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-CIXI",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1835 (*hist.*); regent for the Tongzhi and Guangxu Emperors. In canon she negotiates Liaodong with Victoria in 1898–99 (CR-042). In 1901 her price for the exiles' asylum is the enforcement of the ban on filibustering against fundraising for armed risings. From January 1902 she is Victoria's friend by letter and through Princess Kaʻiulani, whom she receives as a royal guest; the Pacifican money and advice give her New Policies a converted examination, a paid banner conversion and a parliament set for 1912, and from 1906 she brings Guangxu into the Grand Council's business. She dies on 15 November 1908, the day after Guangxu, having named Puyi heir and Prince Chun regent; her valedictory edict confirms the parliament's year. Her funeral of November 1909 is Victoria's last journey to China. **Character use:** the peer Victoria never had, and a ruler who is never asked to change her court.",
+      "links": [
+        {
+          "relationship": "friend_of",
+          "to": "CT-KAIULANI"
+        },
+        {
+          "relationship": "confides_in",
+          "to": "CT-KAIULANI-CLEGHORN"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-YUAN-SHIKAI",
+      "display_name": "Yuan Shikai, Beiyang general and president of the Republic",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-YUAN-SHIKAI",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1859 (*hist.*). Dismissed by the regent on 2 January 1909 (Julian makes no representation); premier from 1 November 1911; president of the Republic from 10 March 1912, when the customs surplus begins to reach him under Fong's trusteeship. He signs the Reorganisation Loan of 26 April 1913 without the parliament's consent, which Pacifica refuses in a published note, crushes the Second Revolution, dissolves the parliament in January 1914, attempts a monarchy in 1915–16 and dies in June 1916. **Character use:** the man with the army whom Pacifica's neutral revenue pays.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-TANG-SHAOYI",
+      "display_name": "Tang Shaoyi, of the Educational Mission, premier of 1912",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-TANG-SHAOYI",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1862 at Tangjiawan, Xiangshan (*hist.*); one of the Educational Mission's men, who in canon studied in San Francisco and was not recalled. Associate minister of the Revenue Council in 1906, to whom Fong reports; special envoy in 1908, who asks Thalassia for a currency loan and Manchurian credit in November 1908 and sees the offer lapse with Yuan's dismissal; Yuan's negotiator in 1911–12 and the Republic's first premier from 13 March to 27 June 1912, who resigns before a budget is voted; head of the southern delegation at Shanghai in 1919; magistrate of the Zhongshan model county from 1929, beside the Pacifican-financed port at his village; a leader of the Canton opposition government of 1931. **Character use:** the mission's man whose posts touch Pacifica at every stage and who ends with the rival base.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-TING-KWEI-TANG",
+      "display_name": "Ting Kwei Tang (Ding Guitang), Inspector-General of Customs from 1929",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-TING-KWEI-TANG",
+      "narrative_profile": "Historical Customs officer in alternate history; CR-081, APPROVED 21 November 2026. By the author's source a graduate of the Customs College of 1916 who served at Antung and in the Peking Inspectorate and was acting Chinese Secretary in 1929 (career dates to verify against the Customs records). In canon Fong names him his deputy under the plan of 1920 about 1926, and Nanjing appoints him Inspector-General in 1929, a planned handover; under him the Inspectorate pays Canton its works share by the percentages of 1920 and nothing more. **Character use:** the Chinese successor Fong's plan promised.",
+      "links": [
+        {
+          "relationship": "successor_to",
+          "to": "CT-FONG"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-LONGYU",
+      "display_name": "Empress Dowager Longyu, Guangxu's widow",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-LONGYU",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1868 (*hist.*); Cixi's niece and Guangxu's empress. Princess Kaʻiulani's sponsor among the court ladies from 1902; Victoria meets her at the Summer Palace in 1906. Empress Dowager from November 1908; Kaʻiulani carries Victoria's condolence to her and, in January 1912, Victoria's letter, and stays with her until the abdication of 12 February 1912, which Longyu signs. Victoria writes to her until her death on 22 February 1913.",
+      "links": [
+        {
+          "relationship": "correspondent_of",
+          "to": "CT-KAIULANI"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-ZAIFENG",
+      "display_name": "Zaifeng, Prince Chun, regent 1908–1911",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-ZAIFENG",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1883 (*hist.*); Guangxu's half-brother and Puyi's father, regent from November 1908. He dismisses Yuan in January 1909, keeps the parliament's date of 1912, forms the princes' cabinet of May 1911 and nationalises the trunk railways, and resigns on 6 December 1911. His brothers Zaixun and Zaitao pass through Thalassia in 1909–10 and reject the condition on new credit.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-DUANFANG",
+      "display_name": "Duanfang, constitutional commissioner and viceroy",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-DUANFANG",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1861 (*hist.*). With Dai Hongci he leads the constitutional mission of 1905–06, which stops at Thalassia after Washington. As viceroy of Zhili he is dismissed in November 1909 for letting photographs be taken of Cixi's cortège and for using trees in the mausoleum's enclosure as telegraph poles.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-MAO-ZEDONG",
+      "display_name": "Mao Zedong, Nationalist and rent reformer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-MAO-ZEDONG",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1893 in Xiangtan county, Hunan (*hist.*); the First Normal School, 1918. There is no Communist party in canon, and he is a Nationalist from the start. He uses the labour article in the Pingxiang works' contracts at Anyuan in 1922 as a promise the employer and the governor have signed, writes the Hunan report of March 1927 as a Nationalist document, sees the association leaders killed at Xiangtan in May 1927 and stays with the party, giving up the associations' claim to govern and keeping the rent limit and the registered lease. Under Tan Yankai and Sun Fo he advises the registration of Pingxiang (1929–31), is blocked by He Jian in Hunan, enters the Central Executive Committee on Wang Jingwei's list in December 1931 and heads the peasant department from February 1932, at thirty-eight, not yet a successor to Chiang. **Character use:** the revolutionary turned by the rule he learned to use.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-DENG-YANDA",
+      "display_name": "Deng Yanda, Whampoa's organiser and the agrarian left",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-DENG-YANDA",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1895 (*hist.*); Whampoa's first organiser and the Expedition's political chief, with Wuhan's left in 1927. He founds a third party of the agrarian left in 1930, is arrested in the International Settlement on 17 August 1931 and executed at Nanjing on 29 November 1931 (*hist.*, kept).",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-SU-ZHAOZHENG",
+      "display_name": "Su Zhaozheng, of the Seamen's Union",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-SU-ZHAOZHENG",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1885 (*hist.*). A Nationalist in canon, he chairs the strike committee of the Canton–Hong Kong strike of 1925–26, which issues permits on published criteria to any carrier that keeps away from Hong Kong, carries no British goods and pays its Chinese crews the same wage.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-TANG-SHENGZHI",
+      "display_name": "Tang Shengzhi, Hunan commander",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-TANG-SHENGZHI",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1889 (*hist.*). He drives Zhao Hengti out of Changsha in 1926 (acting governor from March, to verify) and joins the Expedition as commander of the Eighth Corps for the confirmation of his governorship, support against Wu Peifu, his army kept whole and Hunan's works share paid to contractors under his government. The Expedition's dependence on him puts him with Wuhan in 1927; men of his corps under Xu Kexiang make the Changsha coup; he refuses to submit after the reunion, is broken by Nanjing's western campaign of October–November 1927 and leaves for Japan.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-TAN-YANKAI",
+      "display_name": "Tan Yankai, head of the Executive Yuan",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-TAN-YANKAI",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1880 (*hist.*); a Hunanese, head of the Executive Yuan from October 1928 to his death in September 1930. With Sun Fo he takes Mao on for the registration of the Pingxiang district; his death ends the attempt to extend it.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-SUN-FO",
+      "display_name": "Sun Fo, Minister of Railways",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-SUN-FO",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1891 (*hist.*); Sun Yat-sen's son. He proposes the Zhongshan model county (1929), employs Mao in the Railways' land office as Minister of Railways, and supports his nomination to the peasant department in 1932.",
+      "links": [
+        {
+          "relationship": "child_of",
+          "to": "CT-SUN-YAT-SEN"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-HE-JIAN",
+      "display_name": "He Jian, governor of Hunan from 1929",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-HE-JIAN",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1887 (*hist.*); commander of the 35th Army, whose men turn on the peasant associations in 1927. He governs Hunan from 1929; its works contracts of before 1929 run on and no new ones are signed, he blocks the register's extension, and many landlords there neither register nor sell.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-WANG-JINGWEI",
+      "display_name": "Wang Jingwei, leader of the Nationalist left",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WANG-JINGWEI",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1883 (*hist.*). He leads Wuhan's left in 1927 and the Canton opposition government of 1931 with Eugene Chen, and becomes premier on 28 January 1932 with the civil budget while Chiang keeps the army; his list carries Mao into the Central Executive Committee.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
+    },
+    {
+      "id": "CT-CHIN-GEE-HEE",
+      "display_name": "Chin Gee Hee, Chinese Pacifican of Seattle and railway builder",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-CHIN-GEE-HEE",
+      "narrative_profile": "Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1844 in Taishan (*hist.*); a merchant and labour contractor of Seattle, a Pacifican city in canon. From 1906 he builds the Sun Ning Railway in Taishan with emigrants' money, the case of remittances turned into works (CR-081 S-15).",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-081"
+      ]
     }
   ],
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-21",
   "character_revision": {
     "request": "CR-059 to CR-070",
     "source": "CR-059 to CR-065 and CR-067 to CR-070; author approval of 15 November 2026 (\"I approve the crs\")",
@@ -7231,6 +7496,46 @@
         "CT-GEORGE-BEAUCHAMP"
       ],
       "limits": "Pridham, Le Prince's son Adolphe, Carlson and Carpenter, Honda, Takayanagi and Termen are named without entries. Hearst's and Dickson's dossiers are extended; the other updated IDs change in the bible's CR-079 notes only."
+    },
+    {
+      "request": "CR-081",
+      "source": "CR-081 (China's other century); author's approvals of 20–21 November 2026",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-KAIULANI",
+        "CT-KAIULANI-CLEGHORN",
+        "CT-JULIAN",
+        "CT-FONG",
+        "CT-SUN-YAT-SEN",
+        "CT-CHIANG-KAI-SHEK",
+        "CT-ZHANG-ZUOLIN",
+        "CT-ZHANG-XUELIANG",
+        "CT-XU-SHICHANG",
+        "CT-WILLIAM-ALVORD",
+        "CT-HOOVER",
+        "CT-LI-HONGZHANG",
+        "CT-WANG-YONGJIANG",
+        "CT-SHERMAN"
+      ],
+      "new_ids": [
+        "CT-CIXI",
+        "CT-YUAN-SHIKAI",
+        "CT-TANG-SHAOYI",
+        "CT-TING-KWEI-TANG",
+        "CT-LONGYU",
+        "CT-ZAIFENG",
+        "CT-DUANFANG",
+        "CT-MAO-ZEDONG",
+        "CT-DENG-YANDA",
+        "CT-SU-ZHAOZHENG",
+        "CT-TANG-SHENGZHI",
+        "CT-TAN-YANKAI",
+        "CT-SUN-FO",
+        "CT-HE-JIAN",
+        "CT-WANG-JINGWEI",
+        "CT-CHIN-GEE-HEE"
+      ],
+      "limits": "Guangxu, Puyi, Kang Youwei, Liang Qichao, Sheng Xuanhuai, Duan Qirui, Feng Yuxiang, Xu Kexiang, Zaixun, Zaitao, Liang Dunyan, Zhan Tianyou, Yen, Lin Xiantang and the other historical figures named in the CR stay unregistered. The updated IDs change in the bible's CR-081 notes only."
     }
   ],
   "institutional_groups": [
