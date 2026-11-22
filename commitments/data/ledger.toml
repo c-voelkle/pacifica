@@ -4776,19 +4776,19 @@ open = "Term and rate not stated (our timeline's loan: 4%, FRUS; payable in 1934
 [[commitment]]
 id = "C-1932-GRANARY-CONTRACTS"
 name = "The Crown's granary and its ten-year contracts abroad"
-kind = "law"
-parties = ["CROWN", "COUNTIES"]
+kind = "charter"
+parties = ["ESTATES", "COUNTIES"]
 from = 1932
 owes = [
-  { by = "CROWN", to = "COUNTIES", what = "the home counties' wheat and feed bought first, at the slump's price" },
+  { by = "ESTATES", to = "COUNTIES", what = "the home counties' wheat and feed bought first, at the slump's price" },
 ]
-conditions = ["filled by the Patrimony from its own reserves without new issue", "ten-year contracts abroad for beans and rice, paid in the Columbia's ammonia and the Realm's machines"]
+conditions = ["bought from the Patrimony's own reserves as an investment, without new issue; voted by the Patrimony's board at the Crown's request", "ten-year contracts abroad for beans and rice, paid in the Columbia's ammonia and the Realm's machines"]
 status = "APPROVED"
 cr = "CR-081"
 section = 34
-quote = "Julian asks the Senate for a Crown's granary, a reserve against a bad year or a closed sea, to be filled by the Patrimony from its own reserves without new issue."
-more_quotes = ["Giannini answers that the money should go to the mortgages, the Industrial Board again with him, and the Senate votes the granary."]
-open = "The year of the vote is the winter of 1931–32 (recorded as 1932). The foreign sellers of the ten-year contracts are not named; whether the purchases count against the Patrimony's 3% rule or as investment is the author's to decide."
+quote = "Julian asks the Patrimony's board for a Crown's granary, a reserve against a bad year or a closed sea, to be bought from the Patrimony's own reserves as an investment and without new issue."
+more_quotes = ["Giannini answers in the Senate that the money should go to the mortgages, the Industrial Board again with him, and the board, which the Crown cannot direct, votes the granary as an investment."]
+open = "The year of the vote is the winter of 1931–32 (recorded as 1932). The Patrimony is recorded as ESTATES, as in C-1880-DEV-FUND. An investment, not spending under the 3% rule (author, 22 November 2026, 11:34: case B). The foreign sellers of the ten-year contracts are not named."
 
 [[commitment]]
 id = "C-1920-MARIVELES"
