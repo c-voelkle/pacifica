@@ -4771,7 +4771,7 @@ status = "APPROVED"
 cr = "CR-081"
 section = 34
 quote = "The Crown's government sells the relief commission fifteen million bushels of wheat and flour on credit, serviced from the Customs' flood-relief surtax."
-open = "Term and rate not stated (our timeline's loan: 4%, three instalments 1934–36)."
+open = "Term and rate not stated (our timeline's loan: 4%, FRUS; payable in 1934, 1935 and 1936, Wanganui Chronicle, 28 September 1931; A-series §11)."
 
 [[commitment]]
 id = "C-1932-GRANARY-CONTRACTS"
@@ -4787,7 +4787,7 @@ status = "APPROVED"
 cr = "CR-081"
 section = 34
 quote = "Julian asks the Senate for a Crown's granary, a reserve against a bad year or a closed sea, to be filled by the Patrimony from its own reserves without new issue."
-more_quotes = ["Giannini answers that the money should go to the mortgages, the Industrial Board stands with him, and the Senate votes the granary."]
+more_quotes = ["Giannini answers that the money should go to the mortgages, the Industrial Board again with him, and the Senate votes the granary."]
 open = "The year of the vote is the winter of 1931–32 (recorded as 1932). The foreign sellers of the ten-year contracts are not named; whether the purchases count against the Patrimony's 3% rule or as investment is the author's to decide."
 
 [[commitment]]

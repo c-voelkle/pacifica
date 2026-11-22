@@ -347,7 +347,7 @@ The baselines for A9 and B11 (provisioning revision, M2). Partial: these are the
 
 - These are consignments on the South Manchuria lines, not all exports. Beans from the north also went out by the Chinese Eastern Railway to Vladivostok.
 - In 1925–27 about 40% of Manchuria's bean crop was exported as beans and about 43% went to the bean mills, and 80–90% of the mills' cake and oil was exported. In 1926 beans, cake and oil were about 55% of Manchuria's exports by value (Hk. Tls. 365 million in all).
-- About 1926 beans exported from Manchuria were about 18,110,000 koku a year (same source, ch. II). At the source's own conversion, one koku to 221 kin (about 132.6 kg), that is about 2.4 million tonnes of beans, beside the cake and oil.
+- About 1926 beans exported from Manchuria were about 18,110,000 koku a year (same source, ch. II). At the source's own conversion, one koku to 221 kin (about 132.6 kg), that is about 2.4 million tonnes of beans, beside the cake and oil. The same book's 1925–27 figure, 13.12 million koku as 40% of the crop, gives about 1.7 Mt exported and a crop of about 4.3 Mt. Read with the 18.11 million koku it would imply a crop near 6 Mt. The two passages disagree, and both are to be reconciled against Sun's tables.
 - The OCR of the crop total is unclear ("83,200,000 koku"; 33.2 million fits the shares). To verify against the printed page.
 
 **China's grain imports** (Maritime Customs trade reports of 1932, as quoted in *HK in texts*)
