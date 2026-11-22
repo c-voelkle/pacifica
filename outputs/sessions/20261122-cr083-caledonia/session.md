@@ -6,7 +6,7 @@ mode: draft
 status: paused-for-author
 baseline:
   commit: 1721024
-independence: same-agent (writer only; no review yet)
+independence: fresh-context review of revision 3 by a separate agent (CR-083-review.md)
 ---
 
 # CR-083: Caledonia, the northern water and the Hayama bargain of 1931
@@ -36,4 +36,4 @@ independence: same-agent (writer only; no review yet)
 
 ## Resume here
 
-CR-083 revision 3 is on `drafts/cr083-caledonia`. Next: the author's answer on the twelve PROPOSED items, then a fresh-context review of CR-083 against `main`, then integration (storyline, ledger, registry, facts, AGENTS.md) and the workbook (the wheat contract, Caledonia's debt, Caledonia's people). Not yet verified: Esquimalt and the cable, the northern nations' names and signing places, the river flows and the fields. After CR-083: re-cut the partners' outline (CR-080), Japan first; it inherits the Indies, the Davao colony's history and the consent of the Davao Gulf's peoples.
+CR-083 revision 3 and its fresh-context review (`CR-083-review.md`) are on `drafts/cr083-caledonia`. The review's verdict: not ready to integrate; six blockers (B1 the calendar of 1931; B2 the Hayama bargain against the Concord's common ministries and the renewal of 1932; B3 the Cortes and the Philippine price; B4 the entry rule undefined; B5 the Crown promising the board's purchase; B6 the water hidden from the voters) and eleven should-fix items. Next: the author's direction on B2, B3, B4 and B6, then revision 4. Zamboanga's proposed footing (berthing rights) was found empty; Esquimalt's dockyard left the Royal Navy in 1905 in history. After CR-083: re-cut the partners' outline (CR-080), Japan first.
