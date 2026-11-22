@@ -11,6 +11,16 @@
 
 **Read with:** CR-080 outline (frame, D0); CR-015 and CR-021 (the Customs, Formosa); CR-042 (Huludao); CR-057 (licensing, credit); CR-074 (Ward, the Companies); CR-077 and CR-078 (cards, wire, fax).
 
+## Guiding principle for the revision (author, 22 November 2026)
+
+CR-081 was integrated on this branch before CR-082 (the provisioning doctrine, branch `drafts/cr082-provisioning`) existed. It is to be revised against these decisions of the author. They are directions for the revision, not yet canon.
+
+1. **The aim.** "The strategic ambition becomes control of the world's grain trade. How Pacifica under Julian mobilizes in pursuit of that goal then becomes the guiding principle of CR-081." (08:02)
+2. **What the numbers are for.** "The provisioners are not merely trying to maximize the humans under Pacifican sovereignty, but rather the number of exceptional Pacifican engineers and scientists. They are intelligence maximizers like the sufficers, they simply have a different view of how that goal is to be achieved." (08:27) Victoria is a sufficer, Julian a provisioner (CR-082, approved 21 November).
+3. **The trade, not the land.** The Union's grain is "a trading partner"; what is not feasible is "taking it outright" (08:07). The sellers to be considered include the prairies, the Pampas, Australia and New Zealand, Manchuria, the Mekong, the Union and the Gulf, Russia and Ukraine, and India, which is "basically missing from canon entirely" (07:55). A Pacific kelp aquaculture industry is a century project; the nature of Pacifica's diet is left to a future culinary CR (07:55).
+4. **The scale (MODEL, `population/outputs/provisioning.md` §8 on the CR-082 branch).** Julian's table of 1930 has about 560 million in the Realm a century on. Home yields, the northern water and the farmed sea feed about a fifth of them. The rest must be bought: about three-quarters of what those sellers sell abroad today, or about 70% of the world's grain and soybean trade. Japan, China and every other importer buy from the same pool.
+5. **Earlier decisions that stand.** Manchuria: the crop and not the land (CR-082 R-3, approved). The Republic's further purpose in the Pacific is never stated (CR-075; CR-082 T1 case A). Pacifica seeks no territory in China.
+
 ## The author's request
 
 > Before we discuss China's political changes in isolation, I think we need to go at least two layers deeper and try to get a handle on the material changes. The kinds of technologies and resources that are available, and how much. Then the socioeconomic changes. Only on top of that does it make sense to develop the alternative political timeline. (20 November 2026, 13:41)
