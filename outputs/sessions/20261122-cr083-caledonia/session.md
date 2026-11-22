@@ -30,9 +30,10 @@ independence: same-agent (writer only; no review yet)
 ## Author decisions and open choices
 
 - Approved: listed in the CR's `## Decisions`.
-- For the author: the fourteen PROPOSED items listed there.
+- For the author: the twelve PROPOSED items listed there.
+- 16:57: the author approved the franchise roll and the floors, the Philippine price and the oil pool (checked against CR-053 and CR-054: no conflict; built on the aluminium pool). He decided that Caledonia gets no vote in Ka Lōkahi, because Japan's gain in the Indies gets none. Revision 3.
 - The author's view (16:40): Japan in this history is strong and successful, so a Japanese or Concord station nearby is less feared than in history.
 
 ## Resume here
 
-CR-083 revision 2 is on `drafts/cr083-caledonia`. Next: the author's answer on the fourteen PROPOSED items, then a fresh-context review of CR-083 against `main`, then integration (storyline, ledger, registry, facts, AGENTS.md) and the workbook (the wheat contract, Caledonia's debt, Caledonia's people). Not yet verified: Esquimalt and the cable, the northern nations' names and signing places, the river flows and the fields. After CR-083: re-cut the partners' outline (CR-080), Japan first; it inherits the Indies, the Davao colony's history and the consent of the Davao Gulf's peoples.
+CR-083 revision 3 is on `drafts/cr083-caledonia`. Next: the author's answer on the twelve PROPOSED items, then a fresh-context review of CR-083 against `main`, then integration (storyline, ledger, registry, facts, AGENTS.md) and the workbook (the wheat contract, Caledonia's debt, Caledonia's people). Not yet verified: Esquimalt and the cable, the northern nations' names and signing places, the river flows and the fields. After CR-083: re-cut the partners' outline (CR-080), Japan first; it inherits the Indies, the Davao colony's history and the consent of the Davao Gulf's peoples.
