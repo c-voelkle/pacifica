@@ -1,0 +1,416 @@
+# The provisioning account (CR-082): people against the food the domain can grow.
+# Used by provisioning.py. History's acreages are our timeline's census figures;
+# every factor that turns acres into mouths is MODEL and is a lever.
+
+[author]
+# Author's decisions, 21 November 2026, 17:59.
+diet = "the Realm's present diet, held constant"
+growth = "slower than in the early years"
+crown = "the Philippine crown is counted after Julian's accession"
+
+# ---------------------------------------------------------------------------
+# Irrigated area, our timeline
+# ---------------------------------------------------------------------------
+
+[irrigation_totals]
+# Area irrigated in the 19 states of the Census of Irrigation.
+years = [1889, 1899, 1909, 1919, 1929]
+acres = [3715945, 7744492, 14433285, 19191716, 19547544]
+source = "Census of Irrigation 1940, General Summary and Summary for the 17 Western States, Tables 3-5 (agcensus.library.cornell.edu)"
+status = "verified for 1889, 1899, 1919, 1929; the 1909 figure's middle digits are unclear in the scan (14,433,285 or 14,455,285)"
+# Before the first irrigation census: no count. Rough guesses to start the series.
+early_years = [1861, 1869, 1879]
+early_acres = [100000, 300000, 1000000]
+early_status = "estimate (no source)"
+# Irrigable area in enterprises, 19 states, Census of 1940: the period's own ceiling.
+irrigable_in_enterprises_1940 = 31305949
+works_capable_1940 = 26055248
+ceiling_source = "Census of Irrigation 1940, Summary for the 17 Western States, Table 3"
+ceiling_status = "verified"
+
+[irrigation_1929]
+# Area irrigated in 1929, by state (acres).
+California = 4746632
+Idaho = 2181250
+Utah = 1324125
+Oregon = 898713
+Arizona = 575590
+New_Mexico = 527033
+Washington = 499283
+Nevada = 486648
+Colorado = 3393619
+Montana = 1594912
+Wyoming = 1236155
+source = "Census of Agriculture 1935, vol. III, Table 7 (area irrigated, 1929); California is the 19-state total less the other eighteen"
+status = "verified (the eighteen states read from the table; the sum closes on the census total)"
+
+[cropland_1929]
+# Share of crop land harvested that was irrigated (per cent), same table.
+pct_irrigated = {Montana = 17.1, Idaho = 51.9, Wyoming = 48.7, Colorado = 34.0, New_Mexico = 24.9, Arizona = 93.8, Utah = 79.1, Nevada = 98.2, Washington = 11.1, Oregon = 22.0}
+pct_status = "Washington and Oregon verified for 1929; the eight mountain states read from a scan in which the 1929 and 1934 columns cannot be told apart. To verify."
+# Irrigated land from which crops were harvested, 1929 (acres).
+irrigated_harvested = {Washington = 405027, Oregon = 637967, California = 3540350}
+harvested_status = "Washington and Oregon verified; California read from a garbled row (3,513,700 or 3,540,350). To verify."
+# For the other states: harvested irrigated land as a share of area irrigated.
+harvested_share_of_irrigated = 0.78   # Washington 0.81, Oregon 0.71; estimate
+california_cropland_harvested = 6550000
+california_status = "recalled (Census of Agriculture 1930); to verify"
+
+[territory]
+# Share of each state's irrigated and dry crop land inside Pacifica (MODEL).
+# Whole states: California, Oregon, Washington (Columbia), Idaho, Nevada (Washoe),
+# Utah (Deseret), Arizona, New Mexico. Part states by canon's frontier:
+# Colorado west of the plains (the Western Slope and the San Luis Valley),
+# western Montana with Three Forks, southwest Wyoming.
+irrigated = {Colorado = 0.43, Montana = 0.45, Wyoming = 0.27}
+dry = {Colorado = 0.10, Montana = 0.15, Wyoming = 0.10}
+population = {Colorado = 0.17, Montana = 0.45, Wyoming = 0.20}
+status = "estimate; to replace with county figures on the 1887 map (population/data/counties)"
+
+[dry_cropland]
+# Dry crop land in the territory as a share of its 1929 level. No census series read.
+years = [1861, 1869, 1879, 1889, 1899, 1909, 1919, 1929]
+index = [0.06, 0.15, 0.38, 0.60, 0.75, 0.90, 1.00, 1.00]
+status = "estimate (no source; shaped on California's wheat acreage, which peaked about 1888); to replace with the Census of Agriculture's improved-land series"
+
+# ---------------------------------------------------------------------------
+# Levers (MODEL)
+# ---------------------------------------------------------------------------
+
+[levers]
+# Crop land needed per head on the Realm's diet, in acres of average Union crop land.
+# Our timeline: crop land used for the Union's own food, fibre and tobacco (harvest,
+# failure and fallow; horse feed and exports left out) was 2.14 acres a head in 1910-14
+# and about 2.1-2.3 in 1925-34 (252m acres for about 119m people in 1925-29).
+acres_per_head = 2.1
+acres_per_head_source = "Table 'Cropland acreage used for various purposes, 1910-50' (collections.lib.utah.edu/details?id=1134612; the report's title to verify)"
+acres_per_head_status = "verified for 1910-14 (2.14); later periods computed from the table's totals"
+union_cropland_1925_29 = 374000000   # the same table: all crop land, harvest, failure and fallow
+# One irrigated acre and one dry western acre, in acres of average Union crop land.
+irrigated_factor = 2.0
+dry_factor = 0.8
+factor_status = "MODEL (no source). Generous to the West: much irrigated land grew hay."
+# Canon's farmers can dry-farm this multiple of our timeline's 1929 dry crop land, and no more.
+dry_ceiling_factor = 1.2
+# The Office's assumed course: the yearly rate falls in a straight line from the
+# last decade's rate to g_end over a century. 0.015 puts the table of 1930 at about
+# half a billion a century on, the author's premise (17:09).
+g_end = 0.015
+horizon = 100
+# Author, 21 November 2026, 18:52: Julian is a provisioner and means to bring more
+# people under his umbrella, so under him the Office assumes less slowing, "at least
+# for the time being". The tables made in his reign (from 1908) end at this rate.
+# Author, 19:09: 1.5 for the regency's tables and 2 for Julian's, as a story assumption.
+g_end_julian = 0.020
+julian_from = 1908
+# Ceiling on irrigated area in the territory: the 1940 census's irrigable area in
+# enterprises, times the territory's share of the 1929 irrigated area.
+ceiling_basis = "irrigable_in_enterprises_1940"
+
+[crown]
+# The Philippine crown, counted from the year after Julian's oath at Manila (December 1907).
+from_year = 1908
+census_years = [1903, 1918, 1939]
+census = [7635426, 10314310, 16000303]
+census_source = "Philippine censuses of 1903, 1918 and 1939, via Wikipedia 'Census in the Philippines'"
+census_status = "verified (our timeline; canon's Philippine population is not modelled)"
+cultivated_years = [1903, 1935]
+cultivated_hectares = [1300000, 4000000]
+cultivated_source = "Library of Congress Country Study, Philippines, 'Economic and Social Developments' (countrystudies.us/philippines/19.htm)"
+cultivated_status = "verified as quoted; rounded figures"
+export_crop_share = 0.30       # sugar, coconut, abaca: MODEL
+acres_per_head = 0.50          # the crown's own rice diet, in its own acres: MODEL, set so that
+                               # it buys about a tenth of its food abroad, as in our timeline (to verify)
+status = "MODEL: the crown is kept as its own ledger, on its own diet and its own land"
+
+# ---------------------------------------------------------------------------
+# Yields under concerted research (the central case)
+# ---------------------------------------------------------------------------
+
+[yield_ladder]
+# All wheat, Washington: yield per harvested acre (bushels), 1895-1975. Washington's
+# wheat is overwhelmingly dry-farmed, so this is what the same dry land gave in our
+# timeline as varieties, fertilizer and tillage improved.
+first_year = 1895
+bushels = [15.5, 15.0, 20.0, 20.5, 19.5,
+           19.8, 24.6, 19.9, 16.6, 19.4, 20.5, 18.5, 23.2, 14.6, 19.3,
+           15.0, 19.9, 20.1, 19.7, 21.4, 23.5, 20.4, 14.1, 12.5, 16.8,
+           17.2, 23.2, 13.6, 25.3, 14.1, 17.5, 19.1, 24.6, 21.4, 18.6,
+           16.1, 18.0, 18.6, 20.2, 19.2, 22.5, 21.5, 21.2, 24.0, 22.4,
+           20.7, 29.1, 31.0, 26.2, 26.8, 24.4, 29.5, 23.8, 28.7, 21.8,
+           26.6, 27.5, 27.9, 28.6, 32.2, 27.9, 29.5, 38.3, 34.9, 38.4,
+           33.4, 28.0, 39.4, 37.4, 39.5, 39.2, 40.0, 39.9, 38.6, 38.4,
+           44.0, 48.7, 47.4, 32.8, 39.5, 48.3]
+source = "USDA NASS, Washington Field Office, 'All wheat, Washington: acreage, yield and production' (data.nass.usda.gov, Historic_Data/smallgrains/allwheat.pdf)"
+status = "verified (read 21 November 2026)"
+base_years = [1900, 1929]      # our timeline's flat years: the measure of 'history's yields'
+
+[yield_components]
+# Our timeline's gain on Washington's dry-farmed wheat (2.1 times by 1966-75), split
+# into the innovations that made it. For each: the gain, the years in which it reached
+# the state's fields in our timeline, and the years in which canon's programme could
+# have it there (earliest, and the central case with slippage for working ahead of
+# the world's science). A component counts in proportion to the time elapsed in its span.
+mode = "central"            # central | earliest
+applies_to_irrigated = true
+irrigated_status = "the same components are applied to irrigated land for want of a verified irrigated series; nitrogen and short straw probably count for more there. To replace (Idaho or California yields)."
+status = "The total, the dates and three magnitudes are sourced (see each item). The split of the total among the six items is MODEL, fitted to the verified series within about 10% (the report prints the fit; it runs low in 1950-60)."
+
+[[yield_components.items]]
+name = "Mechanised fallow and timely work"
+what = "tractor, rod weeder, combine: clean fallow and sowing on time"
+gain = 1.15
+history = [1930, 1945]
+canon_earliest = [1905, 1920]
+canon_central = [1910, 1925]
+needs_nitrogen = false
+basis = "Our timeline: rod weeder invented 1907, tractors replace horses in the 1930s, the region mechanised by 1940 (Schillinger and Papendick 2008). Canon: the most motorised country on earth (CR-052); California built combines and tracked tractors first in our timeline too."
+
+[[yield_components.items]]
+name = "Breeding and seed treatment before short straw"
+what = "crossing and selection for the region, smut resistance, treated seed"
+gain = 1.15
+history = [1930, 1945]
+canon_earliest = [1895, 1905]
+canon_central = [1900, 1912]
+needs_nitrogen = false
+basis = "Our timeline: first Northwest hybrid 1907; smut the first great disease, 1920s; resistant Elmar 1949 (Schillinger and Papendick). Farrer began crossing in 1889, made the cross in 1895 and named Federation in 1901, four-fifths of Australia's wheat by 1919-20; Strampelli's first crosses 1900, first variety 1914. A programme begun in 1880 delivers in 12-15 years and spreads in ten. Canon can halve the breeding time with winter nurseries in Hawaii and Baja."
+
+[[yield_components.items]]
+name = "Cheap nitrogen"
+what = "fertilizer nitrogen at a price dry farms can pay"
+gain = 1.22
+history = [1950, 1965]
+canon_earliest = [1900, 1915]
+canon_central = [1900, 1915]     # author, 21 November 2026, 18:41: nitrogen from about 1900, Chile in the Pacific fold
+needs_nitrogen = true
+basis = "Our timeline: cheap nitrogen reaches the region in the early 1950s (Schillinger and Papendick). Canon: ammonia on the Columbia from 1915 under the BASF licence of 1913 (CR-055); the earliest case buys Chilean nitrate and builds arc plants from about 1900. The knowledge was there: Utah's station published on nitrogen in dry farming in 1910."
+
+[[yield_components.items]]
+name = "Selective hormone weedkiller"
+what = "2,4-D in the crop"
+gain = 1.08
+history = [1948, 1958]
+canon_earliest = [1925, 1935]
+canon_central = [1930, 1940]
+needs_nitrogen = false
+basis = "Our timeline: found by four groups independently in 1940-41, sold from 1945, in the region's wheat in the 1950s. It waited on the science of plant growth substances (1920s-30s), which a programme can hurry by a decade or two but not skip."
+
+[[yield_components.items]]
+name = "Short-straw wheats"
+what = "semi-dwarf varieties that stand under heavy nitrogen"
+gain = 1.12
+history = [1961, 1970]
+canon_earliest = [1905, 1915]
+canon_central = [1905, 1915]     # follows nitrogen (author, 18:41)
+needs_nitrogen = true
+basis = "Our timeline: Japan's short wheats were bred from in the nineteenth century; Strampelli crossed Akakomugi in 1913; the Norin 10 cross is of 1925; Vogel had it in 1949 and released Gaines in 1961, a quarter above the wheats it replaced, but it was not sown in the driest zone (so 1.12 for the state). Canon has Japan as an ally from 1870 and Sapporo's agronomists; the wheat pays only once nitrogen is cheap, so it follows nitrogen."
+
+[[yield_components.items]]
+name = "Deep-furrow drill and early sowing"
+what = "sowing into deep moisture at the end of summer"
+gain = 1.07
+history = [1965, 1970]
+canon_earliest = [1900, 1905]
+canon_central = [1910, 1915]
+needs_nitrogen = false
+basis = "Our timeline: invented in the early 1960s, sold from the mid-1960s, 30% more winter wheat in the low-rainfall zone (Schillinger and Papendick); 1.07 for the state. It needed no new science, only a station that asked the question."
+
+[nitrogen]
+# What the central case's yields ask of nitrogen, and what canon makes.
+grain_per_standard_acre = 0.5     # tonnes of grain or its equivalent on an average Union acre: MODEL
+grain_per_tonne_n = 25            # canon's own figure (finance/CR-056-dynamics-workbook.md, C4)
+canon_total_1929 = 90000          # tonnes of nitrogen, CR-054 (MODEL)
+canon_farm_share = 0.5            # CR-056 C4: half goes to farms
+canon_from = 1915                 # ammonia on the Columbia from 1915 (CR-055)
+status = "MODEL; nitrogen is counted for the gain of the two components that need it, at canon's own response. To verify against our timeline's fertilizer use on western wheat in 1950-65."
+# Chile's nitrate, the world's fertilizer nitrogen before synthesis (our timeline).
+chile_years = [1870, 1890, 1910, 1913, 1916, 1929, 1932]
+chile_nitrate_tonnes = [135397, 1065277, 2335941, 2750000, 2950000, 2898141, 450000]
+chile_source = "Asociacion de Productores de Salitre de Chile, 'Industria del Salitre de Chile 1830-1930' (Valparaiso 1930), as tabled at albumdesierto.cl/ingles/2estadis.htm (1870, 1890, 1910, 1929); 1914-1918 Online, 'Nitrate' (a peak of almost 3 million tons in 1916); a Utah newspaper report of the Producers' Association's figure for 1919 (about 915 thousand tons)"
+chile_status = "verified for 1870, 1890, 1910 and 1929 (read 22 November 2026). 1913 is set a little under that year's production of 2.77 million tonnes; 1916 is as quoted, rounded; 1932 is an estimate from the fall in production (3.23 million tonnes in 1929, 0.44 million in 1933). The series is joined at a constant rate between anchors, so the slump of 1914-15, the collapse of 1919 (about 915 thousand tons, left out as an anchor because it lasted one year) and the swings of the 1920s are not shown. To verify year by year."
+nitrogen_in_nitrate = 0.16        # sodium nitrate is about 16% nitrogen
+
+[sea]
+# Our timeline's Pacific landings at their peak, as animal food that needs no crop land.
+pacific_states_1936_lb = 1925342000
+pacific_source = "US Fish and Wildlife Service release of 20 June 1941 (1939 catch of the Pacific Coast States), which gives 1936 as the record"
+pacific_status = "verified"
+alaska_lb = 650000000
+alaska_status = "recalled order of magnitude for the 1930s; to verify (Bureau of Fisheries, Alaska Fishery and Fur-Seal Industries)"
+edible_share = 0.5
+meat_acres_per_kg = 0.015         # crop land behind a kilogram of meat on the Realm's diet: MODEL
+years = [1861, 1880, 1930]
+index = [0.01, 0.05, 1.00]        # canon reaches our timeline's 1936 landings by 1930: MODEL
+status = "MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted."
+
+# ---------------------------------------------------------------------------
+# The rework of 22 November 2026 (fresh-context review B5, S1, S2)
+# ---------------------------------------------------------------------------
+
+[nitrogen_supply]
+# What the Realm's fields can get in a year (review S1). Chile first; the Columbia's and the
+# Sacramento Valley's ammonia on a ramp from canon's first year, 1915 (CR-055).
+chile_share_max = 0.35            # the most of Chile's exports the Realm takes: MODEL
+home_years = [1914, 1915, 1920, 1925, 1930, 1932]
+home_farm_tonnes = [0, 5000, 50000, 150000, 250000, 290000]
+status = "MODEL. The ramp is the review's example (50 thousand tonnes in 1920, 250 in 1930), extended. Arc nitrogen is not counted for fertilizer: it cannot compete with ammonia, which is why canon's furnaces fall idle in 1919. It replaces CR-054's 90 thousand tonnes in 1929 (tension T9) if the author keeps F-1d."
+# Crops that pay for nitrogen whatever the grain surplus (citrus, vegetables, sugar beet, cotton):
+# the least share of the full ask that is in the fields in a year.
+paying_years = [1900, 1915]
+paying_share = [0.0, 0.25]
+paying_status = "MODEL (no source). Our timeline's Californian citrus growers were the West's first large buyers of nitrate; the share is a guess."
+
+[works]
+# Review S2: irrigated land needs works. Up to the first date canon's farmers can irrigate what
+# our timeline's rivers watered before the great dams (the 1929 area); storage then lifts the
+# limit to the 1940 census's 'works capable of supplying' and at last to its irrigable area.
+years = [1900, 1920, 1930]
+basis = ["history_1929", "works_capable_1940", "irrigable_in_enterprises_1940"]
+named = "Storage on the Sacramento, the San Joaquin and the Snake from 1900; Boulder Canyon (decided 1920, power 1926) and the pumping from Rock Island (1920-23), which are canon (CR-052, CR-051); the last step by 1930."
+status = "MODEL. The limits are census figures; the dates are a reading of canon's works and replace F-1c's 'about 22 million irrigated acres by 1910'. The storage dams of 1900-20 are not yet named in canon."
+
+[draft]
+# Crop land that feeds horses and mules feeds no people. The measure of acres a head leaves
+# horse feed out, so the land side must leave it out too.
+history_years = [1900, 1910, 1920, 1930, 1940]
+history_share = [0.27, 0.27, 0.25, 0.18, 0.12]
+canon_years = [1900, 1910, 1925, 1940]
+canon_share = [0.27, 0.27, 0.06, 0.02]
+source = "Historical Statistics of the United States, Millennial Edition, series Da661-664: 88 of 325 million harvested acres fed horses and mules in 1910, 90 of 360 million in 1920"
+status = "1910 and 1920 verified (read 22 November 2026); 1900 set equal to 1910; 1930 and 1940 recalled, to verify. The Union's share is applied to the West for want of a western figure. Canon's share falls with its tractors (the first yield component, 1910-25): MODEL."
+
+[exports]
+# What the Realm sells abroad, in tonnes of grain or its equivalent (review B5: say where the
+# surplus goes). A mouth on the Realm's diet is about 1.05 tonnes.
+years = [1861, 1870, 1880, 1891, 1900, 1913, 1917, 1921, 1929, 1932]
+grain_tonnes = [50000, 400000, 1000000, 1500000, 2000000, 3000000, 7000000, 3000000, 4000000, 3000000]
+buyers = "California's wheat to Liverpool and to North China's famine of 1876-79 (canon); the Volga in 1891 (canon: Victoria sends grain); Japan's and China's coast from the 1890s; the Entente on credit in 1915-19; Asia in the 1920s."
+world_wheat_trade_1920s_tonnes = [20000000, 24500000]
+world_source = "Food Research Institute (Stanford), Wheat Studies, 1929-31: world net exports of wheat and flour of 720 to 900 million bushels a year"
+status = "MODEL (no source for the Realm's own sales; about a million tonnes a year for California's wheat exports of the 1880s is recalled, to verify). At 4 million tonnes the Realm sells about a sixth of the world's wheat trade of the late 1920s, as much as Argentina or Australia. The world figure is verified as quoted."
+
+[century]
+# The provisioners' plan for the century (CR-082 Part F, P-5): four works against the Realm
+# of Julian's table of 1930, a century on.
+yield_multiple = 3.2              # home yields against 1900-29: Washington's all-wheat yield of about 62 bushels an acre today against 19.15
+yield_status = "partly verified: USDA NASS's state overview gives Washington's all wheat 62.6 bushels an acre in a recent year (read 22 November 2026); a ten-year mean is to be read from the same series"
+acre_feet_per_km3 = 810714
+water_km3 = {first_stage = 20, ceiling_in_law = 45}      # author, 21 November 2026, 20:32
+acre_feet_per_acre = 3.25
+tapped_flow_km3 = 112             # the Peace and the Liard together where they would be tapped: the outline's N-7, from general knowledge
+water_status = "MODEL. The sizes are the author's; the rivers' flows are recalled and to verify (Water Survey of Canada)."
+diet_saving = 0.22                # poultry, pork, fish and the soybean for beef: a fifth to a quarter less land (outline C7, no source)
+diet_status = "MODEL (no source). It breaks the Office's own assumption of a constant diet. Author, 22 November 2026: the nature of Pacifica's diet is open for a future culinary CR, so work 4 is shown apart and is not part of the plan's total."
+world_trade_today_tonnes = 650000000
+world_trade_status = "recalled: world exports of wheat (about 200 million tonnes), coarse grains (about 230), rice (about 55) and soybeans (about 165) in recent years; to verify (USDA PSD)"
+grain_trade_aim = "Author, 22 November 2026, 08:02: the strategic ambition becomes control of the world's grain trade, and how Pacifica under Julian mobilizes for it is the guiding principle of CR-081."
+
+status = "MODEL throughout. The sellers' figures a century on are our timeline's exports of today: what those lands in fact came to sell after a century of the same science, at their own peoples' tables. They are stated from general knowledge and are to verify (USDA PSD, FAOSTAT). Meat, butter and wool are not counted."
+
+[century.mariculture]
+# Work 5 (author, 22 November 2026, 07:55): a Pacific kelp aquaculture industry as a century project.
+area_km2 = {low = 20000, central = 50000, high = 100000}
+dry_tonnes_per_ha = 10
+grain_equivalent = 0.3
+basis = "Farmed kelp gives roughly 5-15 dry tonnes a hectare a year in our timeline (recalled). Most of its dry matter is not digestible by people, so a dry tonne is counted as 0.3 tonnes of grain-equivalent: food, feed and the fertilizer it saves together (MODEL). Shellfish grown among the kelp are folded into the same figure. The high case is a strip about 10 km wide along 10,000 km of coast. Canon's starting points: California's kelp potash and acetone works of 1916-19 in our timeline (to verify) and Japan's kombu growers."
+status = "MODEL throughout; the area is a choice of scale, not a natural limit."
+
+# Sellers: grain, oilseeds and their equivalent sold abroad (million tonnes a year), about 1930 and today.
+# 'listed': the author's first five regions (21 November 2026) or the sellers added on 22 November.
+[[century.sellers]]
+name = "The prairies"
+listed = "2026-11-21"
+about_1930 = 6.5
+today = 45
+asked = true
+basis = "About 1930: Canada's net exports of 206 million bushels in 1931-32 and 261 million in 1932-33 (Hansard, 7 November 1933; verified as quoted). Today: wheat, canola, barley and pulses, recalled."
+
+[[century.sellers]]
+name = "The Pampas"
+listed = "2026-11-21"
+about_1930 = 9.3
+today = 85
+asked = true
+basis = "About 1930: 4.2 million tons of wheat, 3.5 of maize and 1.6 of linseed a year in 1925-29 (Cambridge History of Latin America, as read for the outline). Today: maize, wheat and the soybean with its meal, recalled."
+
+[[century.sellers]]
+name = "Australia and New Zealand"
+listed = "2026-11-21"
+about_1930 = 4.1
+today = 30
+asked = true
+basis = "About 1930: Australia's net exports of 154 million bushels in 1931-32 and 148 million in 1932-33 (Hansard, as above). Today: wheat, barley and canola, recalled."
+
+[[century.sellers]]
+name = "Manchuria"
+listed = "2026-11-21"
+about_1930 = 5.0
+today = 5
+asked = true
+basis = "About 1930: 5 million tons of soybeans at the peak of 1931 (outline C4). Today: our timeline's north-east feeds the rest of China and sells nothing abroad; the bean trade of 1931 is kept as the figure. MODEL."
+
+[[century.sellers]]
+name = "The Mekong delta"
+listed = "2026-11-21"
+about_1930 = 1.5
+today = 6.5
+asked = true
+basis = "Rice, counted tonne for tonne. Both figures recalled; to verify."
+
+[[century.sellers]]
+name = "The Union and the Gulf"
+listed = "2026-11-21"
+union = true
+about_1930 = 4.8
+today = 150
+asked = true
+basis = "About 1930: the Union's net wheat exports of 177 million bushels a year in 1925-29 (Bureau of Agricultural Economics FS-46; verified as quoted). Today: maize, soybeans, wheat and sorghum, recalled. Author, 22 November 2026, 08:07: the Union's grain is on the list as a trading partner; 'too big an ask' (19:09) meant taking it outright."
+
+[[century.sellers]]
+name = "Russia, Ukraine and Kazakhstan"
+listed = "2026-11-22"
+about_1930 = 10
+today = 120
+asked = true
+basis = "About 1930: canon's federal Russia has no collectivization, so it is set near the Empire's pre-war exports (wheat about 160 million bushels a year in 1909-13, as quoted in a New Zealand paper of 1931; other grains recalled; to verify). Today: wheat, barley, maize and sunflower meal, recalled. Canon: federal Russia under Wrangel on Pacifican credit; a Pacifican railway board carries Siberian grain from 1918; Ukraine's form is OPEN (CR-041)."
+
+[[century.sellers]]
+name = "Brazil"
+listed = "2026-11-22"
+about_1930 = 0.1
+today = 150
+asked = true
+basis = "About 1930: Brazil sold coffee, not grain. Today: soybeans with their meal, and maize, recalled; the soybean counted tonne for tonne. Brazil is not yet in canon."
+
+[[century.sellers]]
+name = "India and Burma"
+listed = "2026-11-22"
+about_1930 = 3
+today = 25
+asked = true
+basis = "About 1930: Burma's rice (then part of British India), the world's largest rice export, recalled. Today: India's rice and some wheat, recalled; Burma's small. India is barely in canon; it is British in 1932."
+
+# ---------------------------------------------------------------------------
+# Japan's rice (the Concord's side of the account)
+# ---------------------------------------------------------------------------
+
+[japan]
+people_years = [1880, 1890, 1900, 1910, 1920, 1930, 1932]
+people = [36600000, 39900000, 43800000, 49200000, 55963000, 64450000, 66400000]
+people_status = "censuses of 1920 and 1930; earlier years and 1932 are the official estimates as recalled. To verify."
+# Brown rice, in koku (one koku is about 150 kg).
+crop_1890 = 38000000              # between the verified five-year means of 1885-89 (36.58m) and 1895-99 (39.27m)
+crop_growth_to_1920 = 0.0138
+crop_growth_after_1920 = 0.0040
+crop_source = "Hayami and Ruttan, 'Korean Rice, Taiwan Rice, and Japanese Agricultural Stagnation' (1970): production grew 1.38% a year in 1890-1920 and 0.40% in 1920-35; five-year means from the Ministry of Agriculture's series as quoted in a study of the rice futures markets (arXiv 1404.1164)"
+crop_status = "verified rates and anchors; the level is built from them"
+kg_per_head_years = [1880, 1920, 1930]
+kg_per_head = [137, 173, 165]
+kg_status = "1878-82 and 1918-22 verified (Hayami and Yamada, as quoted in the Journal of Asian Studies); 1930 recalled. To verify."
+kg_per_koku = 150
+korea_koku = {1921 = 2790000, 1931 = 6650000}      # our timeline's imports from Korea, yearly means of 1919-23 and 1929-33 (CR-081's source)
+# Canon: the Japanese-origin residents of the Realm are people Japan does not have to feed.
+our_timeline_japanese_in_territory_1930 = 280000   # mainland and Hawaii, recalled; to verify
+emigrant_share = 0.8                               # how far a Japanese-origin Pacifican lowers Japan's own numbers: MODEL
+status = "MODEL. Canon's Japan has no colonial rice (Korea is independent, Formosa is Chinese) and holds Urajio, Enkaishu and Karafuto, which are not counted."

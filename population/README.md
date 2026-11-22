@@ -8,6 +8,7 @@ python3 population/canon.py        # canon run against the People sheet -> outpu
 python3 population/flows.py        # where the population comes from, and migration vs US immigration -> outputs/flows.md
 python3 population/changes.py      # workbook change list figures -> outputs/workbook_changes.md, workbook_changes.csv
 python3 population/neighbours.py   # the rump, the Gulf and the Union (CR-048) -> outputs/neighbours.md, neighbours_by_year.csv
+python3 population/provisioning.py # people against the food the domain can grow (CR-082) -> outputs/provisioning.md, provisioning_by_year.csv
 python3 -m unittest discover -s population/tests -v
 ```
 
@@ -111,3 +112,22 @@ The rump Confederacy (South Carolina, Georgia, Alabama, Mississippi, Florida) fr
 - **The Union and the Gulf** are the workbook's paths plus those emigrants. The workbook's Union already contains our timeline's southern migrants.
 
 Central estimate: the rump has 7.1m people in 1900 (historical 7.5m), 48% Black; 9.15m in 1932 (historical 11.0m), 29% Black (historical 39%). Its Black majority ends in 1888 rather than 1903. About 1.6m extra rump emigrants and descendants live in the Union by 1932. Low and high cases (departures × 0.5 and × 1.5) are in `outputs/neighbours.md`. Census figures for the five states are recalled and still to verify against the Census Bureau's Working Paper 56.
+
+## The provisioning account (`provisioning.py`, CR-082)
+
+People against food. It reads the canon run and `data/provisioning.toml` and feeds nothing back.
+
+- **People:** the Realm's residents from the canon run; the Philippine crown from 1908 (our timeline's censuses), kept as its own ledger.
+- **Land:** our timeline's irrigated area by state in 1929 (census, verified) and the 19-state totals of 1889–1929, cut to Pacifica's frontier by estimated shares; dry crop land derived from the census's irrigated share of crop land. The ceiling on irrigated land is the 1940 census's irrigable area in enterprises.
+- **Mouths:** crop land per head on the Realm's diet (2.1 acres of average Union crop land, from our timeline's 1910–34 figures), with MODEL factors for an irrigated acre, a dry acre and canon's nitrogen.
+- **Cases, each building on the last:** history's acres; canon's farmers (history's acres a head for canon's larger population, up to the works and the ceilings); concerted research; the sea (our timeline's peak Pacific landings by 1930). The last is the central case.
+- **Concerted research:** our timeline's gain on Washington's dry-farmed wheat (verified series) split into six dated innovations (`[yield_components]`): mechanised fallow, breeding before short straw, cheap nitrogen, the hormone weedkiller, short-straw wheats, the deep-furrow drill. Each has history's dates and canon's (earliest and central); the split is MODEL and fits the series within about 10%.
+- **Checks on the case:** the nitrogen its yields ask for against CR-054's; a variant with canon's present nitrogen.
+- **The Office's tables (1890–1930):** a century's course from each table year at a rate falling to `g_end`.
+
+- **Japan's rice (`[japan]`):** people, own crop and gap in our timeline and in canon (fewer mouths, no colonies), beside the Realm's surplus.
+- **Chile's nitrate (`[nitrogen]`):** the nitrogen in all Chile's exports, beside what the case needs.
+
+- **Reworked on 22 November 2026** (fresh-context review B5, S1, S2, S10): irrigated land waits for its works (`[works]`); land that feeds horses and mules is taken out (`[draft]`); nitrogen is what Chile and the home plants can give (`[nitrogen_supply]`); capacity is told apart from crop, which is the Realm's table and its sales abroad (`[exports]`); and the century's four works are computed (`[century]`, `century()`).
+
+Central result (MODEL, 22 November 2026): without research the Realm outgrows its own soil in 1905, and with research but no bought nitrogen in 1930. In the central case capacity stays 15–32% above residents from 1905 (121% in 1910, 115% in 1932; the first draft had 204% and 131%) and the Realm outgrows soil and sea about 1940–42. The first table (1890) puts the crossing at 1914. The fields take about 90 thousand tonnes of nitrogen by 1910, a quarter of Chile's trade, and about 150 thousand in 1929 from home plants (CR-054 has 45 for farms). A century on, Julian's table of 1930 has 562 million in the Realm (century module, revised the same morning on the author's direction: more sellers, the Union as a trading partner, a farmed sea, the diet left to a culinary CR). The Realm's own works feed 115 million (home yields 75, the whole northern water 26, the farmed sea 14 in the central case); nine sellers, 95% of today's world trade in grain and soybeans, sell 587 million mouths' worth. To close, the Realm must buy 76% of it, about 72% of the world's trade (55% and 52% on the thriftier table, which is shown apart). The sellers' figures a century on are our timeline's exports of today, stated from general knowledge and to verify. Japan's rice is unchanged. Weak inputs are listed at the end of `outputs/provisioning.md`.
