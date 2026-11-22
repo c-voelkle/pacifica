@@ -4754,7 +4754,7 @@ status = "APPROVED"
 cr = "CR-081"
 section = 33
 quote = "In 1929 the Concord and Nanjing, with Zhang Xueliang's consent for the Three Eastern Provinces, sign a soybean compact beside the Treaty of Nanjing"
-open = "Term not stated. Settles CR-082 L's date (OPEN there). The Concord's two crowns are recorded as CROWN and JP."
+open = "Term not stated. Gives the date that CR-082 L uses. The Concord's two crowns are recorded as CROWN and JP."
 
 [[commitment]]
 id = "C-1931-CHINA-WHEAT-CREDIT"
@@ -6902,7 +6902,7 @@ status = "APPROVED"
 cr = "CR-082"
 section = 25
 quote = "The Realm buys nitrate on long contracts at Iquique, with deliveries to its own fields from about 1900, and lends to the Chilean state on the security of the nitrate duty."
-more_quotes = ["From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the loan on the duty remains the regency's debt to Chile."]
+more_quotes = ["From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the regency's loan to Chile is left secured on a duty the Realm's own fields no longer pay."]
 open = "Amount, term and the contracts' length not stated; what Julian's ministers do with the loan in the 1920s is OPEN (CR-082). Not yet in the finance workbook."
 
 [[commitment]]
@@ -6926,7 +6926,7 @@ open = "\"By 1900\": the year it is given is not stated. Term not stated. It doe
 id = "C-1915-ENTENTE-GRAIN"
 name = "The Entente's grain on Pacifican credit"
 kind = "loan"
-parties = ["PAC", "UK", "FR"]
+parties = ["PAC", "UK"]
 from = 1915
 owes = [
   { by = "PAC", to = "UK", what = "grain bought with the Entente loans" },
@@ -6936,7 +6936,7 @@ status = "APPROVED"
 cr = "CR-082"
 section = 30
 quote = "The loans also buy the Realm's grain, and from 1915 the Entente eats Pacifican bread on Pacifican credit, which London owes with the rest."
-open = "Part of the Entente advances (CR-025, MODEL); France's share and the end year (1919 in CR-082) not stated in the storyline."
+open = "Part of the Entente advances (CR-025, MODEL); the storyline names London as debtor, so France's share is not recorded; the end year (1919 in CR-082) is not stated in the storyline."
 
 [[commitment]]
 id = "C-1928-GULF-PROVISIONING"
