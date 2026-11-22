@@ -2291,3 +2291,22 @@ Historical persons in alternate history; no invented persons are added. Guangxu,
 
 **CT-CHIN-GEE-HEE — Chin Gee Hee, Chinese Pacifican of Seattle and railway builder.** Historical person in alternate history; CR-081, APPROVED 21 November 2026. Born 1844 in Taishan (*hist.*); a merchant and labour contractor of Seattle, a Pacifican city in canon. From 1906 he builds the Sun Ning Railway in Taishan with emigrants' money, the case of remittances turned into works (CR-081 S-15).
 
+## CR-082 — mouths and acres (22 November 2026)
+
+Historical persons in alternate history; no invented persons are added. Crookes, Haber, the Montts and Trumbull and Nitobe stay unregistered.
+
+**CR-082 notes on existing people (APPROVED 22 November 2026, local labels retained):**
+- **CT-JOHN-WESLEY-POWELL:** in the Republic's service by 1888, when his office reports the ceiling of about 22 million irrigable acres once stored; believed over the Land Fund's sales office; a sufficer.
+- **CT-HERMAN-HOLLERITH:** his cards tabulate the Office's table of 1890, the first to set the population's course beside Powell's acres.
+- **CT-HOOVER:** a provisioner; in 1928 his Mississippi relief becomes the Gulf's provisioning compact.
+- **CT-KEAWE:** a sufficer on land and water.
+- **CT-JULIAN:** a provisioner; from 1908 the Office's tables fall only to 2% a year and count the Philippine crown; reads the table of 1910 with Victoria and quarrels over it; the two figures of 1919 count Siberia's grain on contracts; the century's plan of 1930.
+- **CT-KAIULANI:** (Victoria): a sufficer; asks for the table of 1890 expecting the domain to suffice and draws the sufficer's conclusion; intervenes in Chile in 1891; shapes entry and cannot shrink it; whether she reads the Siberian minute of 1919 before 1921 is OPEN.
+
+**CT-EUGENE-HILGARD — Eugene W. Hilgard, soil scientist and sufficer.** Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1833, died 1916 (*hist.*; historically the University of California's soil scientist of alkali lands, to verify). A sufficer from the table of 1890: the domain carries what its water carries, and the talent comes from selection. **Character use:** the scientist who believes the soil's figure.
+
+**CT-ELWOOD-MEAD — Elwood Mead, irrigation engineer and provisioner.** Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1858 (*hist.*; an irrigation engineer and State Engineer, later in Victoria, Australia, and Commissioner of Reclamation, to verify). Joins the provisioners after Powell's ceiling: the people must be fed and the acres found. His Pacifican career beyond the school is OPEN. **Character use:** a builder of colonies who can fail, giving the provisioners a defeat.
+
+**CT-JOHN-WIDTSOE — John A. Widtsoe, head of the dry-land programme.** Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1872 (*hist.*; of Utah's agricultural college, the author of *Dry-Farming*, 1911, to verify). From about 1900 heads the Colegio de Santa Fe's dry-land programme: fallow worked in time by machine, bred and treated seed, the deep-furrow drill, early sowing and the nitrogen-fed short wheats, with the dry-farm station at Nephi from 1903. **Character use:** the man whose yields move the Office's crossing back.
+
+**CT-JOSE-MANUEL-BALMACEDA — José Manuel Balmaceda, President of Chile.** Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1840 (*hist.*; historically he lost the civil war of 1891 and shot himself in September). In canon Chile's Congress and navy rise against him in 1891; the Realm holds the *Itata*'s rifles, recognises the junta and brokers an armistice before the last battles, and he leaves Chile alive. His life after 1891 is OPEN.

@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 358,
+    "canonical_dossiers": 362,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 352
+    "active_or_provisional_identities": 356
   },
   "people": [
     {
@@ -6893,9 +6893,79 @@
       "source_authority": [
         "CR-081"
       ]
+    },
+    {
+      "id": "CT-EUGENE-HILGARD",
+      "display_name": "Eugene W. Hilgard, soil scientist and sufficer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-EUGENE-HILGARD",
+      "narrative_profile": "Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1833, died 1916 (*hist.*; historically the University of California's soil scientist of alkali lands, to verify). A sufficer from the table of 1890: the domain carries what its water carries, and the talent comes from selection. **Character use:** the scientist who believes the soil's figure.",
+      "links": [
+        {
+          "relationship": "shares_school_with",
+          "to": "CT-KAIULANI"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-082"
+      ]
+    },
+    {
+      "id": "CT-ELWOOD-MEAD",
+      "display_name": "Elwood Mead, irrigation engineer and provisioner",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-ELWOOD-MEAD",
+      "narrative_profile": "Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1858 (*hist.*; an irrigation engineer and State Engineer, later in Victoria, Australia, and Commissioner of Reclamation, to verify). Joins the provisioners after Powell's ceiling: the people must be fed and the acres found. His Pacifican career beyond the school is OPEN. **Character use:** a builder of colonies who can fail, giving the provisioners a defeat.",
+      "links": [
+        {
+          "relationship": "shares_school_with",
+          "to": "CT-JULIAN"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-082"
+      ]
+    },
+    {
+      "id": "CT-JOHN-WIDTSOE",
+      "display_name": "John A. Widtsoe, head of the dry-land programme",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-JOHN-WIDTSOE",
+      "narrative_profile": "Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1872 (*hist.*; of Utah's agricultural college, the author of *Dry-Farming*, 1911, to verify). From about 1900 heads the Colegio de Santa Fe's dry-land programme: fallow worked in time by machine, bred and treated seed, the deep-furrow drill, early sowing and the nitrogen-fed short wheats, with the dry-farm station at Nephi from 1903. **Character use:** the man whose yields move the Office's crossing back.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-082"
+      ]
+    },
+    {
+      "id": "CT-JOSE-MANUEL-BALMACEDA",
+      "display_name": "José Manuel Balmaceda, President of Chile",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-JOSE-MANUEL-BALMACEDA",
+      "narrative_profile": "Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1840 (*hist.*; historically he lost the civil war of 1891 and shot himself in September). In canon Chile's Congress and navy rise against him in 1891; the Realm holds the *Itata*'s rifles, recognises the junta and brokers an armistice before the last battles, and he leaves Chile alive. His life after 1891 is OPEN.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-082"
+      ]
     }
   ],
-  "updated_on": "2026-11-21",
+  "updated_on": "2026-11-22",
   "character_revision": {
     "request": "CR-059 to CR-070",
     "source": "CR-059 to CR-065 and CR-067 to CR-070; author approval of 15 November 2026 (\"I approve the crs\")",
@@ -7536,6 +7606,26 @@
         "CT-CHIN-GEE-HEE"
       ],
       "limits": "Guangxu, Puyi, Kang Youwei, Liang Qichao, Sheng Xuanhuai, Duan Qirui, Feng Yuxiang, Xu Kexiang, Zaixun, Zaitao, Liang Dunyan, Zhan Tianyou, Yen, Lin Xiantang and the other historical figures named in the CR stay unregistered. The updated IDs change in the bible's CR-081 notes only."
+    },
+    {
+      "request": "CR-082",
+      "source": "CR-082 (Mouths and acres); author's approvals of 21–22 November 2026, D18",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-JOHN-WESLEY-POWELL",
+        "CT-HERMAN-HOLLERITH",
+        "CT-HOOVER",
+        "CT-KEAWE",
+        "CT-JULIAN",
+        "CT-KAIULANI"
+      ],
+      "new_ids": [
+        "CT-EUGENE-HILGARD",
+        "CT-ELWOOD-MEAD",
+        "CT-JOHN-WIDTSOE",
+        "CT-JOSE-MANUEL-BALMACEDA"
+      ],
+      "limits": "Crookes, Haber, the Montts and Trumbull, Nitobe and the other historical figures named in the CR stay unregistered. The updated IDs change in the bible's CR-082 notes only."
     }
   ],
   "institutional_groups": [

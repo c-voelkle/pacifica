@@ -1720,3 +1720,28 @@ aliases = ["William T. Sherman", "Sherman"]
 born = 1820
 died = 1891
 source = "CR-081"
+
+[[person]]
+id = "CT-EUGENE-HILGARD"
+aliases = ["Eugene W. Hilgard", "Hilgard"]
+born = 1833
+died = 1916
+source = "CR-082"
+
+[[person]]
+id = "CT-ELWOOD-MEAD"
+aliases = ["Elwood Mead", "Mead"]
+born = 1858
+source = "CR-082"
+
+[[person]]
+id = "CT-JOHN-WIDTSOE"
+aliases = ["John A. Widtsoe", "Widtsoe"]
+born = 1872
+source = "CR-082"
+
+[[person]]
+id = "CT-JOSE-MANUEL-BALMACEDA"
+aliases = ["José Manuel Balmaceda", "Balmaceda"]
+born = 1840
+source = "CR-082"

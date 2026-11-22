@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 79 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 80 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1347,6 +1347,39 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 **Still open:**
 - Whether the cipher room reads London itself in 1927 (CR-077 D-6); the paths of Chen Duxiu, Li Dazhao and Zhou Enlai; whether Lin Xiantang is named; the census of 1931–32 (CR-080 C3) and Japan's receivers (CR-080 X-3); the Yalu crossing's detail (CR-080 Part E); the banner bonds' redemption date; Formosa's end date after 1932; to verify: Ting Kwei Tang's career dates, Tang Shengzhi's acting governorship of March 1926, Lauro's funeral film.
 - From the grain revision (22 November 2026): whether CR-082 B7's entry course moves the Chinese-origin residents from 4.7 million in 1932 (population model); the oath's wording against the Chinese Pacificans already serving, and whether Victoria guesses the 1915 reason by 1921 (character bible); China's wheat flour imports by year (Hsiao Table 2.5) and Manchuria's crop tables (Sun, Prodöhl).
+
+### CR-082 — Mouths and acres: how Pacifica means to be fed (1888–1932, and the century after)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Powell in the Republic's service by 1888; his ceiling of about 22 million irrigable acres (F-4).
+- The Office of Public Measures' public table from 1890, revised with each census and laid before the Senate; crossings 1914, 1915, 1920, 1933, 1938 (MODEL); the conclusions are cabinet minutes and the purpose is never stated (F-4, F-8, T1 case A).
+- The question arises in the offices under Victoria, who draws the sufficer's conclusion (F-5).
+- Two schools of one aim, the most exceptional engineers and scientists: sufficers by selection (Victoria, Powell, Hilgard, the Hawaiian court, the nations' councils, later Keawe on land and water), provisioners by numbers as well (the Polytechnic's engineers, the Works, the Navy, later Mead, Hoover and Julian) (F-6, D16, B3).
+- The rule of two figures from 1890: read as a limit under Victoria, a target under Julian (F-7).
+- The regency's tables fall to 1.5% a year, Julian's from 1908 to 2.0% with the Philippine crown on its own ledger; the diet held constant until a culinary CR (story assumption; T11 case A).
+- An entry course with each table; the sufficers lose on numbers, which come from the regency's settlement programme and natural increase; Victoria shapes entry and cannot shrink it; Julian adds families from 1908 (F-14, B7).
+- The Colegio de Santa Fe the nexus of the dry-land programme from the 1890s, Widtsoe at its head from about 1900; six innovations early (MODEL); storage only where salmon pass or none run, each site under its compact (F-1a, F-1c revised).
+- The challenge evening of 1898–99 on Crookes's warning; nitrogen the first answer of both schools (F-9).
+- Nitrogen as it can be got: at most 35% of Chile's trade, the home plants' ramp from 1915; CR-054's total about 200,000 tonnes in 1929, three-quarters to the Realm's fields (F-1d revised, T9 case B, MODEL).
+- Work stock taken out of the account (F-15); the Realm's sales abroad as a series, the Entente's bread on credit from 1915, about 6 million tonnes shipped in 1917 (F-16, MODEL).
+- Chile, 1891: the motive the mines' and the fleet's, the fields' a forecast; no troops; the Itata's rifles held under the venture licence's rule; the junta recognised as belligerent; an armistice brokered; Balmaceda alive; purchase contracts and a loan on the duty; no buy-out; by 1900 a guarantee against seizure from outside the Americas and of the Strait as the treaty of 1881 left it; the Pampas bought through the Realm's own houses (R-7a, R-7b).
+- The Gulf's provisioning compact of 1928, after the flood, with Hoover; the tests stand; the shorter count refused by the Senate in 1931 (R-2).
+- Manchuria: the crop and not the land (R-3, carried out by CR-081).
+- Australia and New Zealand: a crop guarantee inside the defence treaty, New Zealand first by 1932, resting on OPEN-019-06 (R-4).
+- Siberia: the two figures of 1919 count its grain on the railway board's contracts, not a frontier; no verdict (R-8 as recast).
+- The century's plan (Julian's table of 1930: 562 million a century on, MODEL): home yields, the sellers by contract, the farmed sea; it closes only by buying; the sufficers' figure of 0.6% a year; the cabinet's aim to be indispensable in the world's grain trade, never denying (P-1 to P-5, D13 to D15).
+
+**Still open:**
+- Whether Victoria reads the Siberian minute before 1921 (R-8).
+- The storage sites of 1900–1920 and their cost (for the workbook).
+- What Julian's ministers do with Chile's loan once the Columbia's ammonia replaces the nitrate.
+- New Zealand's guarantee date and Australia's, with OPEN-019-06.
+- Japan's renunciation of any southern advance below the Philippine crown, Japan's yields and Hokkaido (for the partners' CR).
+- The Realm's diet and the measure of the farmed sea (for a culinary CR).
+- R-1's prairie contract, credit and price (CR-083).
+- Finance workbook: Chile's loan, the export credits of 1915–19 and the nitrogen plants, to be sized.
+- To verify: the sellers' century figures, the world's grain trade today, the work-stock shares of 1930 and 1940, Alaska's landings, the kelp yields, the yearly Chilean series, and the Hist. items listed in CR-082's Sources.
 
 ### Author-approved editorial safeguards
 

@@ -6873,3 +6873,97 @@ cr = "CR-081"
 section = 34
 quote = "In 1929 the Shanghai Settlement's power plant passes, by the ratepayers' vote, to a Chinese municipal company on Pacifican bonds."
 open = "The borrower is a Chinese municipal company, recorded under CN; lenders, amount and term not stated."
+
+# ---------------------------------------------------------------------------
+# CR-082: provisioning (integrated with CR-081, 22 November 2026)
+# ---------------------------------------------------------------------------
+
+[[party]]
+id = "CL"
+name = "Chile"
+
+[[party]]
+id = "NZ"
+name = "New Zealand"
+
+[[commitment]]
+id = "C-1891-CHILE-NITRATE"
+name = "Nitrate contracts at Iquique and the loan on the nitrate duty"
+kind = "loan"
+parties = ["PAC", "CL"]
+from = 1891
+owes = [
+  { by = "CL", to = "PAC", what = "nitrate on long contracts at Iquique, delivered to the Realm's fields from about 1900" },
+  { by = "CL", to = "PAC", what = "service of the loan to the Chilean state" },
+]
+secured_on = "the nitrate duty"
+conditions = ["the Realm buys none of the British houses' fields; Chilean buyers take them over twenty years on Realm credit"]
+status = "APPROVED"
+cr = "CR-082"
+section = 25
+quote = "The Realm buys nitrate on long contracts at Iquique, with deliveries to its own fields from about 1900, and lends to the Chilean state on the security of the nitrate duty."
+more_quotes = ["From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the loan on the duty remains the regency's debt to Chile."]
+open = "Amount, term and the contracts' length not stated; what Julian's ministers do with the loan in the 1920s is OPEN (CR-082). Not yet in the finance workbook."
+
+[[commitment]]
+id = "C-1900-CHILE-GUARANTEE"
+name = "Guarantee of Chile's nitrate coast and the Strait"
+kind = "guarantee"
+parties = ["PAC", "CL"]
+from = 1900
+owes = [
+  { by = "PAC", to = "CL", what = "guarantee against a seizure of the nitrate coast by any power from outside the Americas" },
+  { by = "PAC", to = "CL", what = "guarantee of the Strait as the treaty of 1881 left it" },
+  { by = "CL", to = "PAC", what = "coaling at Valparaíso and in the Strait" },
+]
+status = "APPROVED"
+cr = "CR-082"
+section = 25
+quote = "By 1900 it is Chile's guarantor against a seizure of the nitrate coast by any power from outside the Americas, and of the Strait as the treaty of 1881 left it, with coaling at Valparaíso and in the Strait."
+open = "\"By 1900\": the year it is given is not stated. Term not stated. It does not reach Chile's quarrels with Argentina, Peru or Bolivia."
+
+[[commitment]]
+id = "C-1915-ENTENTE-GRAIN"
+name = "The Entente's grain on Pacifican credit"
+kind = "loan"
+parties = ["PAC", "UK", "FR"]
+from = 1915
+owes = [
+  { by = "PAC", to = "UK", what = "grain bought with the Entente loans" },
+  { by = "UK", to = "PAC", what = "repayment with the rest of London's debt" },
+]
+status = "APPROVED"
+cr = "CR-082"
+section = 30
+quote = "The loans also buy the Realm's grain, and from 1915 the Entente eats Pacifican bread on Pacifican credit, which London owes with the rest."
+open = "Part of the Entente advances (CR-025, MODEL); France's share and the end year (1919 in CR-082) not stated in the storyline."
+
+[[commitment]]
+id = "C-1928-GULF-PROVISIONING"
+name = "The Gulf's provisioning compact"
+kind = "compact"
+parties = ["PAC", "GULF"]
+from = 1928
+owes = [{ by = "PAC", to = "GULF", what = "Realm credit for the Gulf's rice, feed and drainage" }]
+conditions = ["the admission tests unchanged"]
+status = "APPROVED"
+cr = "CR-082"
+section = 25
+quote = "In 1928, after the flood, Hoover's relief becomes a provisioning compact: Realm credit for the Gulf's rice, feed and drainage, with the admission tests unchanged."
+more_quotes = ["When the glut of 1931 breaks the streak, Julian asks the Senate to propose a shorter count at the compact's review, and the Senate refuses."]
+open = "The compact has a review; its interval is not stated. Amount not stated."
+
+[[commitment]]
+id = "C-1932-NZ-CROP-GUARANTEE"
+name = "Guarantee of the dominions' crop"
+kind = "guarantee"
+parties = ["PAC", "NZ"]
+from = 1932
+from_approx = true
+owes = [{ by = "PAC", to = "NZ", what = "guarantee of the crop and that no hostile base stands on its soil" }]
+status = "APPROVED"
+label_note = "Rests on the defence treaty of OPEN-019-06, which is PROPOSED; the approval stands only if that treaty does (CR-082 R-4)."
+cr = "CR-082"
+section = 37
+quote = "Inside the treaty Pacifica guarantees the dominions' crop and that no hostile base stands on their soil, New Zealand first, by 1932; Australia's guarantee stays open."
+open = "\"By 1932\": year approximate. Australia's guarantee is open; date decided with OPEN-019-06."
