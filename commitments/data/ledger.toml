@@ -4719,6 +4719,42 @@ more_quotes = ["When Zhang Xueliang brings Manchuria under Nanjing's flag in 192
 open = "Term not stated. A separate charter from the harbour trust (C-1909-HULUDAO-TRUST), whose terms are unchanged."
 
 [[commitment]]
+id = "C-1923-HULUDAO-CROP"
+name = "The Huludao crop article"
+kind = "charter"
+parties = ["CN", "PAC"]
+from = 1923
+owes = [
+  { by = "CN", to = "PAC", what = "bonded elevators on the quay and long purchase contracts at the Customs' published Huludao price" },
+  { by = "PAC", to = "CN", what = "the Columbia's ammonia and the Polytechnic's soybean seed at the one royalty, to any farmer and any buyer's agent" },
+]
+conditions = ["Japanese firms among the buyers on the same terms"]
+status = "APPROVED"
+cr = "CR-081"
+section = 33
+quote = "A crop article, agreed between Mukden and the Realm, gives the quay bonded elevators and lets buyers take long contracts at the Customs' published Huludao price"
+open = "Term not stated. An article of the Huludao district's charter (C-1923-HULUDAO-DISTRICT). Mukden is recorded as CN."
+
+[[commitment]]
+id = "C-1929-SOYBEAN-COMPACT"
+name = "The soybean compact"
+kind = "treaty"
+parties = ["CN", "JP", "CROWN"]
+from = 1929
+owes = [
+  { by = "CN", to = "CROWN", what = "the crop travels at published rates on every Manchurian line" },
+  { by = "CN", to = "JP", what = "the crop travels at published rates on every Manchurian line" },
+  { by = "CROWN", to = "CN", what = "the Concord buys the crop by contract and never by land" },
+  { by = "JP", to = "CN", what = "the Concord buys the crop by contract and never by land" },
+]
+conditions = ["Japan's bean cake and feed are served first"]
+status = "APPROVED"
+cr = "CR-081"
+section = 33
+quote = "In 1929 the Concord and Nanjing sign a soybean compact beside the Treaty of Nanjing"
+open = "Term not stated. Settles CR-082 L's date (OPEN there). The Concord's two crowns are recorded as CROWN and JP."
+
+[[commitment]]
 id = "C-1920-MARIVELES"
 name = "The Mariveles district"
 kind = "charter"
