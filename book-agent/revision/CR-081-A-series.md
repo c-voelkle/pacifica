@@ -330,6 +330,37 @@ The review raised facts the four books do not carry. Each was checked against th
 
 Not confirmed and not used: Japan's electricity per head about 1932; the exact date Jiangxi's tungsten began to be worked.
 
+## 11. Food: Manchuria's beans and China's grain imports (22 November 2026)
+
+The baselines for A9 and B11 (provisioning revision, M2). Partial: these are the first figures found, and both series are still to be completed year by year from the Customs' returns. A picul is taken as 60.48 kg.
+
+**Manchuria's beans** (*Manchurian Beans*, The Manchuria Daily News, Dairen 1929, quoting the South Manchuria Railway's research office)
+
+| Year | Beans consigned by the SMR lines (t) | Bean cake (t) | Bean oil (t) |
+|---|---|---|---|
+| 1921 | 1,829,893 | 399,444 | 28,956 |
+| 1922 | 1,859,896 | 217,108 | 31,899 |
+| 1923 | 2,034,728 | 407,531 | 19,865 |
+| 1924 | 1,894,722 | 564,261 | 16,077 |
+| 1925 | 1,956,322 | 301,619 | 14,798 |
+| 1926 | 2,348,171 | 179,612 | 15,293 |
+
+- These are consignments on the South Manchuria lines, not all exports. Beans from the north also went out by the Chinese Eastern Railway to Vladivostok.
+- In 1925–27 about 40% of Manchuria's bean crop was exported as beans and about 43% went to the bean mills, and 80–90% of the mills' cake and oil was exported. In 1926 beans, cake and oil were about 55% of Manchuria's exports by value (Hk. Tls. 365 million in all).
+- The OCR of the crop total is unclear ("83,200,000 koku"; 33.2 million fits the shares). To verify against the printed page.
+
+**China's grain imports** (Maritime Customs trade reports of 1932, as quoted in *HK in texts*)
+
+| Item | 1931 | 1932 |
+|---|---|---|
+| Wheat from Australia | 14.9 million piculs (about 0.90 Mt) | 9.2 million piculs (about 0.56 Mt) |
+| Rice from French Indo-China | 0.9 million piculs (about 0.05 Mt) | 7.6 million piculs (about 0.46 Mt) |
+| Rice from Siam | 0.7 million piculs (about 0.04 Mt) | 6.4 million piculs (about 0.39 Mt) |
+
+- The swing of 1931–32 is the flood year. A decade's series, and wheat flour from North America, are still to be found.
+- *Hist.* (Brandt, *Explorations in Economic History*, 1985): in 1868–1914 China took only 5–10% of the rice exports of Siam, Cochin-China, Indo-China and India, most of it into the southern ports (Amoy, Canton, Kowloon, Lappa, Swatow). China was a small buyer before 1914 and a large one in bad years after it.
+- Still to verify: China's total rice and flour imports by decade, and its present soybean imports (B11).
+
 ## Sources
 
 Section 10 lists the sources outside the four books.
@@ -338,3 +369,6 @@ Section 10 lists the sources outside the four books.
 - Feuerwerker, *China's Early Industrialization* (Harvard, 1958); pages as cited.
 - Rawski, *Economic Growth in Prewar China* (University of California Press, 1989); pages as cited.
 - Pomeranz, *The Making of a Hinterland* (University of California Press, 1993); pages as cited.
+- *Manchurian Beans*, The Manchuria Daily News, Dairen 1929 (digitised by ZBW, digi.econbiz.de, record 1795345705), chapters II and IX.
+- Maritime Customs trade reports for 1932 as reproduced in *HK in texts* (hkintexts.histsyn.com, page 1122737).
+- Loren Brandt, 'Chinese agriculture and the international economy, 1870–1930s', *Explorations in Economic History* 22 (1985) (title and pages to verify; read from the author's own copy at brandt.economics.utoronto.ca).
