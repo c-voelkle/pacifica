@@ -2,6 +2,8 @@
 
 Use the [energy workbook](Pacifica_energy_model_1846-1932.xlsx) alongside the [financial workbook](../finance/Pacifica_financial_model_1846-1932.xlsx) and the [current master storyline](../book-agent/revision/master_storyline.md).
 
+**Seventeenth build (CR-082, 22 November 2026; APPROVED, D18 and D19):** the nitrogen paths `eln_kt` and `haber_kt` are re-sized (CR-082 T9 case B). The home plants fix the Realm's fields' home nitrogen from `population/provisioning.py` plus CR-054's other half: about 197 kt N in 1929 (131 at the Columbia's cells, 66 by Haber–Bosch) and 245 in 1932. The cells' electricity in 1929 is 1.71 TWh (was 0.78); electricity a head is unchanged to the nearest kWh. All ten checks pass in every year. Iterated with the financial workbook to a fixed point by `finance/build/cr057_rebuild_pair.py` (`finance/CR-081-082-workbook.md`). SHA-256 `886a5ca360257c31dc58940eb2499fd1e7367c59ea9f2247d189f13c18830cc8`.
+
 **Sixteenth build (6 November 2026; PROPOSED, before integration):** no input changes; re-read after the financial workbook's growth engine (`finance/CR-057-growth-workbook.md`), iterated with it to a fixed point by `finance/build/cr057_rebuild_pair.py` (re-run after the review's fixes). SHA-256 `de27b3ea901b231b9a9ed93851c6064d2dfe113eb55d3701ebd9ed074f20f747`.
 
 **Fifteenth build (CR-057 D, 5 November 2026; PROPOSED, before integration):** the river's paying customers in the slump (storage water heaters, capped house heating, the rest of the Northwest's main lines, cold storage, Tacoma's carbide turned from rubber to acetylene chemicals and cyanamide in 1929) and the Northwest's spill by season; re-read after the financial workbook's CR-057 build. See [CR-052-workbook.md](CR-052-workbook.md), "Fifteenth build".

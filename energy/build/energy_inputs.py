@@ -1231,3 +1231,43 @@ EVENTS += [
     (1930, "Capped house heating on the winter surplus; the rest of the Northwest's main lines electrified; a standby rubber line (CR-057 D)",
      "Levers (heat_cap); Paths (nwrail_gwh)", "CR-057 D", "PROPOSED"),
 ]
+
+# =====================================================================================
+# CR-082 (approved 22 November 2026, T9 case B with CR-054's total stated; D18): the home plants
+# fix what the Realm's fields take from home (population/provisioning.py, nitrogen_used_t less
+# nitrogen_from_chile_t: about 152 kt N in 1929 and 195 in 1932) plus CR-054's other half (the
+# crowns' sugar and rice, Korea, the China and Manchurian trade and industry, about 45 kt in 1929).
+# Total about 200 kt N in 1929 (storyline §33, MODEL). Haber-Bosch keeps its share of the earlier
+# path; the Columbia's cells make the rest. Tacoma's cyanamide (fert_gwh) is beside it, unchanged.
+# =====================================================================================
+def _interp(pts, y):
+    ks = sorted(pts)
+    if y <= ks[0]:
+        return pts[ks[0]]
+    if y >= ks[-1]:
+        return pts[ks[-1]]
+    for a, b in zip(ks, ks[1:]):
+        if a <= y <= b:
+            return pts[a] + (pts[b] - pts[a]) * (y - a) / (b - a)
+
+
+_FIELDS_HOME = {1914: 0, 1915: 5, 1916: 14, 1917: 23, 1918: 32, 1919: 41, 1920: 50, 1921: 70, 1922: 90, 1923: 108,
+                1924: 110, 1925: 113, 1926: 114, 1927: 116, 1928: 122, 1929: 152, 1930: 170, 1931: 189, 1932: 195}
+_old_eln, _old_hab = dict(P["eln_kt"][2]), dict(P["haber_kt"][2])
+_new_eln, _new_hab = {1846: 0, 1913: 0}, {1846: 0, 1924: 0}
+for _y in range(1914, 1933):
+    _oe, _oh = _interp(_old_eln, _y), _interp(_old_hab, _y)
+    _tot = _FIELDS_HOME[_y] + 0.5 * (_oe + _oh)
+    _h = _oh * _tot / (_oe + _oh) if (_oe + _oh) > 0 else 0.0
+    _new_hab[_y] = round(_h, 1)
+    _new_eln[_y] = round(_tot - _h, 1)
+_lab, _unit, _pts, _basis, _st = P["eln_kt"]
+P["eln_kt"] = (_lab, _unit, _new_eln, _basis + " CR-082 (T9 case B): re-sized so that the home plants fix the fields' home "
+               "nitrogen plus CR-054's other half; about 200 kt N in all in 1929.", "APPROVED (CR-082 D18), MODEL")
+_lab, _unit, _pts, _basis, _st = P["haber_kt"]
+P["haber_kt"] = (_lab, _unit, _new_hab, _basis + " CR-082 (T9 case B): scaled with the total, keeping its share of the earlier path.",
+                 "APPROVED (CR-082 D18), MODEL")
+EVENTS += [
+    (1915, "The home plants' ramp for the fields (CR-082 F-1d, T9 case B): about 50 kt N to the fields in 1920, 113 in 1925, 152 in 1929",
+     "Paths (eln_kt, haber_kt)", "CR-082 D18", "APPROVED (MODEL)"),
+]
