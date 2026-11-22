@@ -99,9 +99,15 @@ class Provisioning(unittest.TestCase):
         top = cy["water"]["ceiling_in_law"]
         self.assertAlmostEqual(top["acres"], 45 * k["acre_feet_per_km3"] / k["acre_feet_per_acre"])
         self.assertAlmostEqual(cy["water"]["first_stage"]["mouths"] / top["mouths"], 20 / 45)
-        plan = (cy["home"] + top["mouths"] + cy["asked"]) / (1 - k["diet_saving"])
-        self.assertAlmostEqual(cy["plan"]["fed"], plan, delta=1)
-        self.assertAlmostEqual(cy["gap"], cy["need"] - plan, delta=1)
+        own = cy["home"] + top["mouths"] + cy["sea"]["central"]
+        self.assertAlmostEqual(cy["own"], own, delta=1)
+        self.assertAlmostEqual(cy["plan"]["fed"], own + cy["every"], delta=1)
+        self.assertAlmostEqual(cy["gap"], cy["need"] - own - cy["every"], delta=1)
+        if cy["bought"] < 1:                                         # buying that share feeds the need exactly
+            self.assertAlmostEqual(own + cy["bought"] * cy["every"], cy["need"], delta=1)
+        self.assertLess(cy["bought_diet"], cy["bought"])
+        self.assertLess(cy["sea"]["low"], cy["sea"]["central"])
+        self.assertLess(cy["sea"]["central"], cy["sea"]["high"])
         fed = [r["fed"] for r in cy["rows"]]
         self.assertEqual(fed, sorted(fed))
         for r in cy["rows"]:                                         # the fitted slowing does feed the century
@@ -109,7 +115,8 @@ class Provisioning(unittest.TestCase):
             self.assertAlmostEqual(end / r["fed"], 1.0, places=4)
             self.assertLessEqual(pv.project(self.pop[1930], pv.rate(lambda y: self.pop[y], 1930),
                                             self.c["levers"]["g_end_julian"], r["passed"] - 1931, 100), r["fed"])
-        self.assertAlmostEqual(sum(s["now"] for s in cy["sellers"]) / 1e6, 29.7, delta=0.5)   # the outline's "20-30 million"
+        first = [s for s in cy["sellers"] if s["listed"] == "2026-11-21"]
+        self.assertAlmostEqual(sum(s["now"] for s in first) / 1e6, 29.7, delta=0.5)   # the outline's "20-30 million"
 
     def test_projection_slows_and_matches_closed_form(self):
         p = pv.project(1.0, 0.04, 0.015, 100, 100)

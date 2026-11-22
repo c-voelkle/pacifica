@@ -145,13 +145,13 @@ From each table year the yearly rate falls in a straight line from the last deca
 
 The table of 1930: 562.3 million in the Realm a century on need 1,181 million acres of average Union crop land, 3.2 times all the crop land the Union worked in 1925–29. Even at our timeline's yields of 1966–75 the home ceiling gives about 94 million such acres, one part in 13.
 
-## 8. The century: the provisioners' four works (CR-082 Part F, P-5)
+## 8. The century: the provisioners' works (CR-082 Part F, P-5)
 
-Julian's table of 1930 has **562.3 million** in the Realm a century on (and 102.5 million under the Philippine crown, on its own ledger). Everything below is in mouths on the Realm's diet of today.
+Julian's table of 1930 has **562.3 million** in the Realm a century on (and 102.5 million under the Philippine crown, on its own ledger). Everything below is in mouths on the Realm's diet of today. Author, 22 November 2026, 08:02: the strategic ambition becomes control of the world's grain trade, and how Pacifica under Julian mobilizes for it is the guiding principle of CR-081.
 
-**Work 1, home yields.** Every irrigable and dry acre at 3.2 times the yields of 1900–29 (what Washington's dry wheat gives in our timeline today), no horses, and the sea as in 1930: **74.8 million**, against a capacity of 41.6 million in 1932.
+**Work 1, home yields.** Every irrigable and dry acre at 3.2 times the yields of 1900–29 (what Washington's dry wheat gives in our timeline today), no horses, and the wild sea as in 1930: **74.8 million**, against a capacity of 41.6 million in 1932.
 
-**Work 2, the northern water.**
+**Work 2, the northern water** (its own CR after the split).
 
 | Stage | Water | Share of the Peace and the Liard where tapped | Acres watered | Mouths at the century's yields |
 |---|---|---|---|---|
@@ -160,37 +160,53 @@ Julian's table of 1930 has **562.3 million** in the Realm a century on (and 102.
 
 At 3.25 acre-feet an acre, an irrigated acre counted as in section 2.
 
-**Work 3, the sellers.** What each sells abroad, about 1930 and a century on. The century's figure is what the same lands sell in our timeline today.
+**Work 5, the farmed sea** (author, 22 November 2026: a Pacific kelp aquaculture industry as a century project).
 
-| Seller | About 1930 (million tonnes) | In mouths | A century on (million tonnes) | In mouths | Asked |
+| Case | Farms | Mouths |
+|---|---|---|
+| Low | 20,000 km² | 5.7 million |
+| Central | 50,000 km² | 14.3 million |
+| High | 100,000 km² | 28.6 million |
+
+Farmed kelp gives roughly 5-15 dry tonnes a hectare a year in our timeline (recalled). Most of its dry matter is not digestible by people, so a dry tonne is counted as 0.3 tonnes of grain-equivalent: food, feed and the fertilizer it saves together (MODEL). Shellfish grown among the kelp are folded into the same figure. The high case is a strip about 10 km wide along 10,000 km of coast. Canon's starting points: California's kelp potash and acetone works of 1916-19 in our timeline (to verify) and Japan's kombu growers. It is a useful work but not a large one: the central case is a fifth of what home yields give.
+
+**Work 3, the sellers, as trading partners.** What each sells abroad, about 1930 and a century on. The century's figure is what the same lands sell in our timeline today. None is taken; every one is bought from.
+
+| Seller | Listed | About 1930 (million tonnes) | In mouths | A century on (million tonnes) | In mouths |
 |---|---|---|---|---|---|
-| The prairies | 6.5 | 6.2 | 45 | 42.9 | yes |
-| The Pampas | 9.3 | 8.9 | 85 | 81.0 | yes |
-| Australia and New Zealand | 4.1 | 3.9 | 30 | 28.6 | yes |
-| Manchuria | 5.0 | 4.8 | 5 | 4.8 | yes |
-| The Mekong delta | 1.5 | 1.4 | 6.5 | 6.2 | yes |
-| The Union and the Gulf | 4.8 | 4.6 | 150 | 142.9 | no (author, 19:09) |
-| **Asked sellers together** | | **25.1** | | **163.3** | |
+| The prairies | first list | 6.5 | 6.2 | 45 | 42.9 |
+| The Pampas | first list | 9.3 | 8.9 | 85 | 81.0 |
+| Australia and New Zealand | first list | 4.1 | 3.9 | 30 | 28.6 |
+| Manchuria | first list | 5.0 | 4.8 | 5 | 4.8 |
+| The Mekong delta | first list | 1.5 | 1.4 | 6.5 | 6.2 |
+| The Union and the Gulf | first list | 4.8 | 4.6 | 150 | 142.9 |
+| Russia, Ukraine and Kazakhstan | added 22 Nov. | 10 | 9.5 | 120 | 114.3 |
+| Brazil | added 22 Nov. | 0.1 | 0.1 | 150 | 142.9 |
+| India and Burma | added 22 Nov. | 3 | 2.9 | 25 | 23.8 |
+| **Every seller** | | | **42.2** | **616** | **587.1** |
 
-**Work 4, the thriftier table.** 22% less land a head, so every acre and every bought tonne feeds 28% more people. It breaks the Office's own assumption of a constant diet.
+Together these sellers are 95% of the world's trade in grain and soybeans today (650 million tonnes a year; recalled: world exports of wheat (about 200 million tonnes), coarse grains (about 230), rice (about 55) and soybeans (about 165) in recent years; to verify (USDA PSD)).
+
+**Work 4, the thriftier table: pending the culinary CR.** At 22% less land a head every acre and every bought tonne would feed 28% more people. It is shown apart and kept out of the totals.
 
 **Whether it closes.**
 
 | Works | Mouths fed | Share of the table's Realm | The Office's course passes it in | Slowing that would fit |
 |---|---|---|---|---|
 | Home yields alone (work 1) | 74.8 | 13% | 1953 | growth must end within the century |
-| With the first stage of the northern water | 86.4 | 15% | 1958 | growth must end within the century |
-| With the whole northern water (works 1 and 2) | 100.9 | 18% | 1963 | growth must end within the century |
-| And half of what the asked sellers sell | 182.6 | 32% | 1983 | growth must end within the century |
-| And all of it (works 1 to 3, the Union not asked) | 264.2 | 47% | 1997 | 0.5% a year |
-| And on the thriftier table (all four works) | 338.8 | 60% | 2007 | 1.0% a year |
-| All four works, and all the Union and the Gulf sell as well | 521.9 | 93% | 2027 | 1.9% a year |
+| And the whole northern water (work 2) | 100.9 | 18% | 1963 | growth must end within the century |
+| And the farmed sea, central case (work 5) | 115.2 | 20% | 1967 | growth must end within the century |
+| And all that the first list sells, the Union apart (work 3) | 278.5 | 50% | 1999 | 0.60% a year |
+| And half of what every seller sells, the Union with them | 408.8 | 73% | 2015 | 1.36% a year |
+| And all that every seller but the Union sells | 559.5 | 100% | 2030 | 1.99% a year |
+| And all of it, the Union with them | 702.3 | 125% | 2042 | 2.44% a year (Julian's table fits) |
 
-- **The plan does not close.** All four works, with every tonne the asked sellers sell, feed 338.8 million: 60% of the table's Realm, short by 223.5 million. The Office's course passes it in 2007.
-- **It fits a Realm that slows to 1.0% a year,** not to Julian's 2.0% or the regency's 1.5%.
-- **It closes only with the Union's grain,** and then only if the Realm buys all of it: 521.9 million, 93%.
-- **The sellers carry it.** Home and the northern water together are 100.9 million, 18% of the need. The first draft's 250–300 million from the sellers is reached only by counting the Union.
-- **What is not counted:** other buyers of the same grain (Japan and China among them), the sellers' meat, butter and wool, Caledonia's own land and people, and a bad year.
+- **The Realm's own works feed 115.2 million** (home, the northern water and the farmed sea), 20% of the need. Everything else is bought.
+- **The plan closes only by buying.** To feed 562.3 million the Realm must buy **76%** of everything these sellers sell abroad, which is about **72% of the world's grain and soybean trade** of today. With every tonne of it, the works feed 702.3 million, 125%.
+- **With the thriftier table** (work 4, pending) it must buy 55% of what they sell, about 52% of the world's trade.
+- **Without the Union** the plan needs every tonne that every other seller sells, and then reaches 100%: with the Union in the list it has room to share the trade with other buyers.
+- **This is the strategic ambition the author named:** not land but the grain trade. Japan, China and every other importer buy from the same pool, so the Realm's share is contested, and the share is only as safe as the sea lanes, the inputs and the means to pay.
+- **What is not counted:** other buyers' demand, the sellers' meat, butter and wool, Caledonia's own land and people, the Philippine crown's own frontier, and a bad year.
 
 `[century]`: MODEL throughout. The sellers' figures a century on are our timeline's exports of today: what those lands in fact came to sell after a century of the same science, at their own peoples' tables. They are stated from general knowledge and are to verify (USDA PSD, FAOSTAT). Meat, butter and wool are not counted.
 
@@ -227,7 +243,8 @@ At 3.25 acre-feet an acre, an irrigated acre counted as in section 2.
 - `[exports]`: MODEL (no source for the Realm's own sales; about a million tonnes a year for California's wheat exports of the 1880s is recalled, to verify). At 4 million tonnes the Realm sells about a sixth of the world's wheat trade of the late 1920s, as much as Argentina or Australia. The world figure is verified as quoted.
 - `[century]`: partly verified: USDA NASS's state overview gives Washington's all wheat 62.6 bushels an acre in a recent year (read 22 November 2026); a ten-year mean is to be read from the same series
 - `[century]`: MODEL. The sizes are the author's; the rivers' flows are recalled and to verify (Water Survey of Canada).
-- `[century]`: MODEL (no source). It breaks the Office's own assumption of a constant diet.
+- `[century]`: MODEL (no source). It breaks the Office's own assumption of a constant diet. Author, 22 November 2026: the nature of Pacifica's diet is open for a future culinary CR, so work 4 is shown apart and is not part of the plan's total.
+- `[century]`: recalled: world exports of wheat (about 200 million tonnes), coarse grains (about 230), rice (about 55) and soybeans (about 165) in recent years; to verify (USDA PSD)
 - `[sea]`: MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted.
 - `[sea]`: recalled order of magnitude for the 1930s; to verify (Bureau of Fisheries, Alaska Fishery and Fur-Seal Industries)
 - `[japan]`: MODEL. Canon's Japan has no colonial rice (Korea is independent, Formosa is Chinese) and holds Urajio, Enkaishu and Karafuto, which are not counted.

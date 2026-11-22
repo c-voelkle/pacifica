@@ -401,8 +401,15 @@ def slowing_that_fits(c: dict, pop: dict[int, float], fed: float, year: int = 19
     return lo
 
 
+def farmed_sea(c: dict, case: str = "central") -> float:
+    """Work 5: mouths from farmed kelp and shellfish at a scale of farm."""
+    k = c["century"]["mariculture"]
+    ha = k["area_km2"][case] * 100
+    return ha * k["dry_tonnes_per_ha"] * k["grain_equivalent"] / tonnes_per_mouth(c)
+
+
 def century(c: dict, base: dict, pop: dict[int, float]) -> dict:
-    """The provisioners' four works a century after the table of 1930, in mouths on the Realm's diet."""
+    """The provisioners' works a century after the table of 1930, in mouths on the Realm's diet."""
     lv, k = c["levers"], c["century"]
     t = table(c, base, pop, 1930)
     per_acre = base["harvest"] / base["area"] * lv["irrigated_factor"] * k["yield_multiple"] / lv["acres_per_head"]
@@ -412,25 +419,36 @@ def century(c: dict, base: dict, pop: dict[int, float]) -> dict:
     for name, km3 in k["water_km3"].items():
         a = km3 * k["acre_feet_per_km3"] / k["acre_feet_per_acre"]
         water[name] = {"km3": km3, "acres": a, "mouths": a * per_acre, "share_of_flow": km3 / k["tapped_flow_km3"]}
-    sellers = [{"name": s["name"], "asked": s["asked"], "now": s["about_1930"] * 1e6 / tonnes_per_mouth(c),
-                "then": s["today"] * 1e6 / tonnes_per_mouth(c)} for s in k["sellers"]]
-    asked_now = sum(s["now"] for s in sellers if s["asked"])
-    asked = sum(s["then"] for s in sellers if s["asked"])
-    union = sum(s["then"] for s in sellers if not s["asked"])
+    sea = {case: farmed_sea(c, case) for case in k["mariculture"]["area_km2"]}
+    sellers = [{"name": s["name"], "listed": s["listed"], "union": s.get("union", False),
+                "now": s["about_1930"] * 1e6 / tonnes_per_mouth(c), "then": s["today"] * 1e6 / tonnes_per_mouth(c),
+                "tonnes": s["today"] * 1e6} for s in k["sellers"]]
+    every = sum(s["then"] for s in sellers)
+    union = sum(s["then"] for s in sellers if s["union"])
+    first = sum(s["then"] for s in sellers if s["listed"] == "2026-11-21" and not s["union"])
+    tonnes = sum(s["tonnes"] for s in sellers)
     diet = 1 / (1 - k["diet_saving"])
-    stage, top = water["first_stage"]["mouths"], water["ceiling_in_law"]["mouths"]
+    own = home + water["ceiling_in_law"]["mouths"] + sea["central"]
     cases = [("Home yields alone (work 1)", home),
-             ("With the first stage of the northern water", home + stage),
-             ("With the whole northern water (works 1 and 2)", home + top),
-             ("And half of what the asked sellers sell", home + top + asked / 2),
-             ("And all of it (works 1 to 3, the Union not asked)", home + top + asked),
-             ("And on the thriftier table (all four works)", (home + top + asked) * diet),
-             ("All four works, and all the Union and the Gulf sell as well", (home + top + asked + union) * diet)]
+             ("And the whole northern water (work 2)", home + water["ceiling_in_law"]["mouths"]),
+             ("And the farmed sea, central case (work 5)", own),
+             ("And all that the first list sells, the Union apart (work 3)", own + first),
+             ("And half of what every seller sells, the Union with them", own + every / 2),
+             ("And all that every seller but the Union sells", own + every - union),
+             ("And all of it, the Union with them", own + every)]
     rows = [{"name": n, "fed": f, "share": f / t["realm_100"], "passed": year_passed(c, pop, f),
              "slowing": slowing_that_fits(c, pop, f)} for n, f in cases]
-    return {"need": t["realm_100"], "crown": t["crown_100"], "home": home, "home_1932": central(c, base, LAST, pop),
-            "water": water, "sellers": sellers, "asked_now": asked_now, "asked": asked, "union": union,
-            "diet": diet, "rows": rows, "plan": rows[5], "gap": t["realm_100"] - rows[5]["fed"]}
+    need = t["realm_100"]
+    bought = max(0.0, min(1.0, (need - own) / every))
+    bought_diet = max(0.0, min(1.0, (need / diet - own) / every))
+    return {"need": need, "crown": t["crown_100"], "home": home, "home_1932": central(c, base, LAST, pop),
+            "water": water, "sea": sea, "own": own, "sellers": sellers, "every": every, "union": union,
+            "first": first, "tonnes": tonnes, "diet": diet, "rows": rows, "plan": rows[-1],
+            "gap": need - rows[-1]["fed"], "with_diet": own * diet + every * diet,
+            "bought": bought, "bought_diet": bought_diet,
+            "world_share": bought * tonnes / k["world_trade_today_tonnes"],
+            "world_share_diet": bought_diet * tonnes / k["world_trade_today_tonnes"],
+            "sellers_of_world": tonnes / k["world_trade_today_tonnes"]}
 
 
 # ---------------------------------------------------------------- report
@@ -669,17 +687,18 @@ def main() -> int:
       f"Even at our timeline's yields of 1966–75 the home ceiling gives about {top70 / 1e6:,.0f} million such acres, "
       f"one part in {last['need_100'] / top70:.0f}.")
     A("")
-    A("## 8. The century: the provisioners' four works (CR-082 Part F, P-5)")
+    A("## 8. The century: the provisioners' works (CR-082 Part F, P-5)")
     A("")
     cy, kc = century(c, base, pop), c["century"]
     A(f"Julian's table of 1930 has **{m(cy['need'])} million** in the Realm a century on (and {m(cy['crown'])} million under "
-      "the Philippine crown, on its own ledger). Everything below is in mouths on the Realm's diet of today.")
+      "the Philippine crown, on its own ledger). Everything below is in mouths on the Realm's diet of today. "
+      f"{kc['grain_trade_aim']}")
     A("")
     A(f"**Work 1, home yields.** Every irrigable and dry acre at {kc['yield_multiple']} times the yields of 1900–29 "
-      f"(what Washington's dry wheat gives in our timeline today), no horses, and the sea as in 1930: **{m(cy['home'])} "
+      f"(what Washington's dry wheat gives in our timeline today), no horses, and the wild sea as in 1930: **{m(cy['home'])} "
       f"million**, against a capacity of {m(cy['home_1932'])} million in {LAST}.")
     A("")
-    A("**Work 2, the northern water.**")
+    A("**Work 2, the northern water** (its own CR after the split).")
     A("")
     A("| Stage | Water | Share of the Peace and the Liard where tapped | Acres watered | Mouths at the century's yields |")
     A("|---|---|---|---|---|")
@@ -689,39 +708,57 @@ def main() -> int:
     A("")
     A(f"At {kc['acre_feet_per_acre']} acre-feet an acre, an irrigated acre counted as in section 2.")
     A("")
-    A("**Work 3, the sellers.** What each sells abroad, about 1930 and a century on. The century's figure is what the same "
-      "lands sell in our timeline today.")
+    mc = kc["mariculture"]
+    A("**Work 5, the farmed sea** (author, 22 November 2026: a Pacific kelp aquaculture industry as a century project).")
     A("")
-    A("| Seller | About 1930 (million tonnes) | In mouths | A century on (million tonnes) | In mouths | Asked |")
+    A("| Case | Farms | Mouths |")
+    A("|---|---|---|")
+    for case, v in cy["sea"].items():
+        A(f"| {case.capitalize()} | {mc['area_km2'][case]:,} km² | {m(v)} million |")
+    A("")
+    A(f"{mc['basis']} It is a useful work but not a large one: the central case is a fifth of what home yields give.")
+    A("")
+    A("**Work 3, the sellers, as trading partners.** What each sells abroad, about 1930 and a century on. The century's "
+      "figure is what the same lands sell in our timeline today. None is taken; every one is bought from.")
+    A("")
+    A("| Seller | Listed | About 1930 (million tonnes) | In mouths | A century on (million tonnes) | In mouths |")
     A("|---|---|---|---|---|---|")
     for sv, src in zip(cy["sellers"], kc["sellers"]):
-        A(f"| {sv['name']} | {src['about_1930']} | {m(sv['now'])} | {src['today']} | {m(sv['then'])} | "
-          f"{'yes' if sv['asked'] else 'no (author, 19:09)'} |")
-    A(f"| **Asked sellers together** | | **{m(cy['asked_now'])}** | | **{m(cy['asked'])}** | |")
+        when = "first list" if sv["listed"] == "2026-11-21" else "added 22 Nov."
+        A(f"| {sv['name']} | {when} | {src['about_1930']} | {m(sv['now'])} | {src['today']} | {m(sv['then'])} |")
+    A(f"| **Every seller** | | | **{m(sum(s['now'] for s in cy['sellers']))}** | **{cy['tonnes'] / 1e6:.0f}** | **{m(cy['every'])}** |")
     A("")
-    A(f"**Work 4, the thriftier table.** {kc['diet_saving']:.0%} less land a head, so every acre and every bought tonne "
-      f"feeds {cy['diet'] - 1:.0%} more people. It breaks the Office's own assumption of a constant diet.")
+    A(f"Together these sellers are {cy['sellers_of_world']:.0%} of the world's trade in grain and soybeans today "
+      f"({kc['world_trade_today_tonnes'] / 1e6:.0f} million tonnes a year; {kc['world_trade_status']}).")
+    A("")
+    A(f"**Work 4, the thriftier table: pending the culinary CR.** At {kc['diet_saving']:.0%} less land a head every acre and "
+      f"every bought tonne would feed {cy['diet'] - 1:.0%} more people. It is shown apart and kept out of the totals.")
     A("")
     A("**Whether it closes.**")
     A("")
     A("| Works | Mouths fed | Share of the table's Realm | The Office's course passes it in | Slowing that would fit |")
     A("|---|---|---|---|---|")
     for r in cy["rows"]:
-        fit = f"{r['slowing']:.1%} a year" if r["slowing"] > 0 else "growth must end within the century"
+        fit = f"{r['slowing']:.2%} a year" if r["slowing"] > 0 else "growth must end within the century"
+        if r["slowing"] >= lv["g_end_julian"]:
+            fit += " (Julian's table fits)"
         A(f"| {r['name']} | {m(r['fed'])} | {r['share']:.0%} | {r['passed']} | {fit} |")
     A("")
     pl = cy["plan"]
-    A(f"- **The plan does not close.** All four works, with every tonne the asked sellers sell, feed {m(pl['fed'])} million: "
-      f"{pl['share']:.0%} of the table's Realm, short by {m(cy['gap'])} million. The Office's course passes it in {pl['passed']}.")
-    A(f"- **It fits a Realm that slows to {pl['slowing']:.1%} a year,** not to Julian's {lv['g_end_julian']:.1%} or the "
-      f"regency's {lv['g_end']:.1%}.")
-    A(f"- **It closes only with the Union's grain,** and then only if the Realm buys all of it: "
-      f"{m(cy['rows'][6]['fed'])} million, {cy['rows'][6]['share']:.0%}.")
-    A(f"- **The sellers carry it.** Home and the northern water together are {m(cy['home'] + cy['water']['ceiling_in_law']['mouths'])} "
-      f"million, {(cy['home'] + cy['water']['ceiling_in_law']['mouths']) / cy['need']:.0%} of the need. The first draft's "
-      "250–300 million from the sellers is reached only by counting the Union.")
-    A(f"- **What is not counted:** other buyers of the same grain (Japan and China among them), the sellers' meat, butter and "
-      "wool, Caledonia's own land and people, and a bad year.")
+    A(f"- **The Realm's own works feed {m(cy['own'])} million** (home, the northern water and the farmed sea), "
+      f"{cy['own'] / cy['need']:.0%} of the need. Everything else is bought.")
+    A(f"- **The plan closes only by buying.** To feed {m(cy['need'])} million the Realm must buy **{cy['bought']:.0%}** of "
+      f"everything these sellers sell abroad, which is about **{cy['world_share']:.0%} of the world's grain and soybean "
+      f"trade** of today. With every tonne of it, the works feed {m(pl['fed'])} million, {pl['share']:.0%}.")
+    A(f"- **With the thriftier table** (work 4, pending) it must buy {cy['bought_diet']:.0%} of what they sell, about "
+      f"{cy['world_share_diet']:.0%} of the world's trade.")
+    A(f"- **Without the Union** the plan needs every tonne that every other seller sells, and then reaches "
+      f"{cy['rows'][5]['share']:.0%}: with the Union in the list it has room to share the trade with other buyers.")
+    A("- **This is the strategic ambition the author named:** not land but the grain trade. Japan, China and every other "
+      "importer buy from the same pool, so the Realm's share is contested, and the share is only as safe as the sea lanes, "
+      "the inputs and the means to pay.")
+    A("- **What is not counted:** other buyers' demand, the sellers' meat, butter and wool, Caledonia's own land and people, "
+      "the Philippine crown's own frontier, and a bad year.")
     A("")
     A(f"`[century]`: {kc['status']}")
     A("")
@@ -765,7 +802,7 @@ def main() -> int:
     for key, where in (("status", "yield_components"), ("irrigated_status", "yield_components"), ("status", "nitrogen"),
                        ("chile_status", "nitrogen"), ("status", "nitrogen_supply"), ("paying_status", "nitrogen_supply"),
                        ("status", "works"), ("status", "draft"), ("status", "exports"), ("yield_status", "century"),
-                       ("water_status", "century"), ("diet_status", "century"),
+                       ("water_status", "century"), ("diet_status", "century"), ("world_trade_status", "century"),
                        ("status", "sea"), ("alaska_status", "sea"), ("status", "japan"), ("people_status", "japan"),
                        ("kg_status", "japan"), ("factor_status", "levers"),
                        ("status", "territory"), ("status", "dry_cropland"), ("pct_status", "cropland_1929"),
