@@ -347,6 +347,7 @@ The baselines for A9 and B11 (provisioning revision, M2). Partial: these are the
 
 - These are consignments on the South Manchuria lines, not all exports. Beans from the north also went out by the Chinese Eastern Railway to Vladivostok.
 - In 1925–27 about 40% of Manchuria's bean crop was exported as beans and about 43% went to the bean mills, and 80–90% of the mills' cake and oil was exported. In 1926 beans, cake and oil were about 55% of Manchuria's exports by value (Hk. Tls. 365 million in all).
+- About 1926 beans exported from Manchuria were about 18,110,000 koku a year (same source, ch. II). At the source's own conversion, one koku to 221 kin (about 132.6 kg), that is about 2.4 million tonnes of beans, beside the cake and oil.
 - The OCR of the crop total is unclear ("83,200,000 koku"; 33.2 million fits the shares). To verify against the printed page.
 
 **China's grain imports** (Maritime Customs trade reports of 1932, as quoted in *HK in texts*)
@@ -357,9 +358,15 @@ The baselines for A9 and B11 (provisioning revision, M2). Partial: these are the
 | Rice from French Indo-China | 0.9 million piculs (about 0.05 Mt) | 7.6 million piculs (about 0.46 Mt) |
 | Rice from Siam | 0.7 million piculs (about 0.04 Mt) | 6.4 million piculs (about 0.39 Mt) |
 
-- The swing of 1931–32 is the flood year. A decade's series, and wheat flour from North America, are still to be found.
-- *Hist.* (Brandt, *Explorations in Economic History*, 1985): in 1868–1914 China took only 5–10% of the rice exports of Siam, Cochin-China, Indo-China and India, most of it into the southern ports (Amoy, Canton, Kowloon, Lappa, Swatow). China was a small buyer before 1914 and a large one in bad years after it.
-- Still to verify: China's total rice and flour imports by decade, and its present soybean imports (B11).
+- The swing of 1931–32 is the flood year. A year-by-year series of wheat flour imports from North America is still to be found.
+- **Rice by decade** (Brandt 1985, checked 22 November 2026):
+  - In 1868–1914 China took only 5–10% of the rice exports of Siam, Cochin-China, Indo-China and India, most of it into the southern ports (Amoy, Canton, Kowloon, Lappa, Swatow).
+  - In 1901–1910 it imported about 6 million cwt a year (about 0.3 Mt), less than 7% of those exporters' trade; the yearly figures run from 1.15 million cwt (1902) to 15.19 million (1907).
+  - In 1911–1920 its net imports were about 8% of Monsoon Asia's net rice exports.
+  - In 1921–1935 its average imports almost tripled, to about 15% of Monsoon Asia's exports, which rose from 4.3 to 7.5 million tonnes between 1911–15 and 1931–35. That puts China's imports at about 0.6–1.1 million tonnes of rice a year in 1921–35 (arithmetic on Brandt's shares, MODEL).
+- **The 1931 flood loan** (FRUS, verified): in September 1931 the Union's Grain Stabilization Corporation sold China 15 million bushels of wheat and flour, 450,000 tons, on credit for US$9,212,826.56 at 4%. It was serviced from the Customs' 5% flood-relief surtax and taken over by the Export-Import Bank in 1936.
+- **Today** (China's General Administration of Customs, via Reuters, verified): China imported 99.41 million tonnes of soybeans in 2023, about 70% of them from Brazil. It is the world's largest soybean importer, which B11 assumed.
+- Still to find: wheat flour imports by year in the 1920s.
 
 ## Sources
 
@@ -372,3 +379,5 @@ Section 10 lists the sources outside the four books.
 - *Manchurian Beans*, The Manchuria Daily News, Dairen 1929 (digitised by ZBW, digi.econbiz.de, record 1795345705), chapters II and IX.
 - Maritime Customs trade reports for 1932 as reproduced in *HK in texts* (hkintexts.histsyn.com, page 1122737).
 - Loren Brandt, 'Chinese agriculture and the international economy, 1870–1930s', *Explorations in Economic History* 22 (1985) (title and pages to verify; read from the author's own copy at brandt.economics.utoronto.ca).
+- *Foreign Relations of the United States*, 1938, vol. III, and 1945, vol. VII (history.state.gov): the Grain Stabilization Corporation's sale of 1931 and its settlement.
+- Reuters and the General Administration of Customs, China's soybean imports for 2023 (reported 12 January 2024).

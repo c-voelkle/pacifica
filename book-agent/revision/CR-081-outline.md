@@ -856,7 +856,7 @@ The revision follows `CR-081-provisioning-review.md` (fresh-context review, 22 N
 ### D1. Pacifica's ends in China (review B1; G-1, G-2)
 
 **G-1. A9, Pacifica's target in China, 1932 and after (cabinet, never stated).** APPROVED (author, 22 November 2026, 10:12). A8's approved aim, "a strong, successful China aligned with Pacifica, at minimal cost to Japan", stays as the *means* (canon tension T-1, case A). The cabinet's ends are three:
-1. **The crop.** Manchuria's harvest moves on open carriage and published rates to a market the Concord's credit, ships and standards organise, and its land stays out of any army's hands (CR-082 R-3, approved). *MODEL:* Manchuria sold about 5 million tonnes of beans, cake and oil a year at the peak of 1931 (CR-082 outline C4, to verify), about 4.8 million mouths on the Realm's diet.
+1. **The crop.** Manchuria's harvest moves on open carriage and published rates to a market the Concord's credit, ships and standards organise, and its land stays out of any army's hands (CR-082 R-3, approved). *MODEL:* Manchuria sold about 5 million tonnes of beans, cake and oil a year at the peak of 1931 (CR-082 outline C4, to verify; about 1926 the beans alone were about 2.4 million tonnes, A-series §11), about 4.8 million mouths on the Realm's diet.
 2. **A China that feeds itself.** China's 500 million must not bid against the Realm in the pool the Office's tables say the Realm will need. *MODEL:* the 1910 table puts the Realm's crossing at 1920, the 1920 table at 1933, the 1930 table at 1938; in the central case capacity is 115% of residents in 1932 and is passed in 1940. Every Chinese district made self-feeding takes nothing from the Concord's granary.
 3. **The rolls.** China's exceptional engineers and scientists can sit the Realm's examination on the same terms as anyone (CR-037), because both schools count talent, not heads (author, 08:27).
 
@@ -893,7 +893,7 @@ This settles CR-082 L's "Soybean compact with China, date OPEN (CR-081)". Ledger
 **G-6. The Demands without farm leases (1915).** APPROVED (author, 22 November 2026, 10:12). Storyline §28, after "and confirmation of the Daye ore contract.", insert:
 > The leases of farm land in the January text are struck in April on Julian's instruction, which Victoria carries to the genrō without its reason.
 
-*Hist.*, general knowledge, to verify: Group II of the Demands sought leases of land for agricultural purposes in South Manchuria and eastern Inner Mongolia. The sufficer runs the provisioner's errand, and the scene is a strand of the drift.
+*Hist.* (verified 22 November 2026, Wikisource and FRUS 1915): Article 2 of Group II asked that Japanese subjects be permitted to lease or own land in South Manchuria and Eastern Inner Mongolia for buildings or for farming. The sufficer runs the provisioner's errand, and the scene is a strand of the drift.
 
 **G-7. The rate clauses name the crop (1921, 1928).** APPROVED (author, 22 November 2026, 10:12).
 - Storyline §30 (the Mukden protocol), "Japan agrees because its running rights are confirmed at the line's published rates, the same for every shipper." becomes "… the same for every shipper and every destination, and the same for the crop as for any freight."
@@ -902,21 +902,21 @@ This settles CR-082 L's "Soybean compact with China, date OPEN (CR-081)". Ledger
 **G-8. 1931: land against crop.** APPROVED (author, 22 November 2026, 10:12). Storyline §35:
 - After "and Thalassia's case in Tokyo says so.", insert: "Their aim is land for Japanese farmers, and their charge is that Pacifican contracts take Manchuria's harvest while its acres stay closed to Japan. Thalassia's case answers that a client state would close the open carriage on which Japan's own bean cake and feed depend."
 - At the end of the PROPOSED threat sentence ("… the yen's convertibility through common finance."), add: "Food is not among them: the Concord does not refuse seed, nitrogen or grain to a partner."
-- Wanbaoshan stays as written. *Hist.*, general knowledge, to verify: the quarrel was over an irrigation channel Korean settlers dug for paddy, so it is already a quarrel over water and rice.
+- Wanbaoshan stays as written. *Hist.* (verified 22 November 2026): Korean farmers who had subleased land dug a ditch from the Itung river across land held by Chinese farmers, so it is already a quarrel over water and rice.
 
 ### D4. China in the grain pool (review S1; G-9, G-10)
 
 **G-9. B11, China in the grain pool.** APPROVED (author, 22 November 2026, 10:12), outline only. A new section in Part B gives:
-- China's imports by decade, from historical series (*Hist.*, to verify, and listed as such in CR-082's sources): rice from Indochina, Siam and Burma into the southern ports, wheat flour from North America and Australia into Shanghai and the north.
+- China's imports by decade (A-series §11, checked 22 November 2026): rice from Indochina, Siam and Burma into the southern ports, about 0.3 Mt a year in 1901–10 and about 0.6–1.1 Mt in 1921–35 (Brandt's shares, MODEL arithmetic); wheat from Australia, 0.9 Mt in 1931; wheat flour from North America into Shanghai and the north, still to find by year.
 - Canon's change to them (MODEL, not computed): the conservancy, the farm bank, pumps, fertilizer and settlement.
-- The interest: China fed by its own fields is the largest buyer kept out of the pool. In our timeline today China is the largest soybean importer (to verify).
+- The interest: China fed by its own fields is the largest buyer kept out of the pool. In our timeline today China is the largest soybean importer: 99.4 million tonnes in 2023 (verified, A-series §11).
 
 The figures go into `CR-081-A-series.md` (M2); §11 there gives the first of them.
 
 **G-10. The wheat credit of 1931.** APPROVED (author, 22 November 2026, 10:12). Storyline §34 (Canton and the flood), after "the first joint body of the two governments.", insert:
-> The Crown's government sells the relief commission 450,000 tonnes of wheat and flour on credit.
+> The Crown's government sells the relief commission fifteen million bushels of wheat and flour on credit.
 
-*Hist.* (the outline's own FRUS note, P-21): in our timeline the Union sold China's Flood Relief Commission 450,000 tons on credit in September 1931. In canon the Realm sells about 3.3 million tonnes of grain abroad in 1931 (MODEL), so the credit is about a seventh of its sales. One transaction makes Pacifica seller, creditor and relief giver. M5: this is a candidate for Julian's test (AGENTS.md, OPEN), which remains the author's decision.
+*Hist.* (verified 22 November 2026, FRUS 1938 and 1945): in September 1931 the Union's Grain Stabilization Corporation sold China 15 million bushels of wheat and flour, 450,000 tons, on credit at 4% (US$9.2 million), serviced from the Customs' 5% flood-relief surtax. In canon the Realm sells about 3.3 million tonnes of grain abroad in 1931 (MODEL), so the credit is about a seventh of its sales. One transaction makes Pacifica seller, creditor and relief giver. M5: this is a candidate for Julian's test (AGENTS.md, OPEN), which remains the author's decision.
 
 ### D5. Talent (review S2; G-11)
 
@@ -926,11 +926,11 @@ The first draft removed the bond from China's own scholarships so that China wou
 1. **The bond follows the Realm's money, not the scholar's nation.** China's Boxer scholarships carry no Pacifican bond; China pays, and China's scholars owe China. Any place the Realm pays for (its fellowships, a Polytechnic place, a works apprenticeship) carries CR-038's bond as it does for every Pacifican, Chinese entrants included.
 2. **The Realm's posts are for its own people.** A Chinese scholar who passes the examination may study and work in the Realm. A post of trust (the estates, the Offices, the forces, the Works) needs residence and the Crown's oath, and the oath is exclusive: no office, pay or rank under a foreign state while it is held. That is the price of the post. The examination stays the only test of ability, never a quota (CR-037).
 3. **No network rides in on the entrant.** Family entry under Julian's course means a spouse and children, not a lineage. No entrant sponsors another's entry. A sponsor who gains from another's entry loses the right to sponsor. CR-037 already forbids a county being captured by a family, marriage network or congregation, and its inspectors check the same in the estates.
-4. **Avoidance.** For his first ten years an entrant is not posted to the counties where his countrymen are most of the people, nor to the China work of any estate. *Hist.:* the Qing's own law of avoidance kept officials out of their native provinces (general knowledge, to verify); a Chinese entrant would know the rule, and Li's and Nanjing's ministers would understand it.
+4. **Avoidance.** For his first ten years an entrant is not posted to the counties where his countrymen are most of the people, nor to the China work of any estate. *Hist.* (verified 22 November 2026): under the Qing's rules of avoidance provincial officials could serve neither in their own province nor in neighbouring provinces within 500 li; a Chinese entrant would know the rule, and Li's and Nanjing's ministers would understand it.
 5. **The gain is counted.** The Office's two figures for the rule are the people it brings and the posts they fill by year, beside a third figure, the entrants who go home. The rule is renewed with the census if the first two exceed the third.
 
 The cost stays visible: Li's and later Nanjing's complaint that Pacifica takes the best, answered by the fact that the Realm pays for none of China's scholarships and takes no one under bond.
-- Under Victoria the door is open and selective. From 1908 Julian's entry course (CR-082 B7, approved) adds families as defined in item 3. Whether canon's article of 1868 already allows family entry is still to check.
+- Under Victoria the door is open and selective. From 1908 Julian's entry course (CR-082 B7, approved) adds families as defined in item 3. Canon's 1868 treaty already includes a jointly licensed family-emigration article (storyline §16, PROPOSED).
 - To do on approval: ask the population model whether CR-082 B7 moves the Chinese-origin residents from canon's 4.7 million in 1932. Settle the wording of the oath with the character bible, where Chinese Pacificans already serve.
 - Storyline §26, after "and Pacifican firms.", on approval:
 > Its graduates, like any Chinese scholar, may sit the Realm's examination on the same terms as anyone. The Realm pays for none of China's scholarships and binds no one it does not pay for; its posts of trust go to those who live in the Realm and take the Crown's oath, which admits no office under another state, and an entrant brings his wife and children, never his lineage.
@@ -952,7 +952,7 @@ The first draft had the Patrimony buy abroad while the home counties failed. The
 2. **Paid in work at home.** The foreign contracts are paid largely in the Realm's own goods (the Columbia's ammonia, tractors, rails, pumps), from plants the slump has half idled. The Columbia's slump surplus is already sold to new uses (CR-057), and this is one of them. Each foreign tonne bought puts Pacifican plants and crews to work.
 3. **The argument in the Senate.** The provisioners' case is the Office's table of 1930: the Realm passes its own soil and sea about 1940, and grain will never again be this cheap. A ten-year contract signed in 1932 runs to 1942, the decade the table says the margin closes. The granary buys at home first, and the money spent abroad comes back as orders. The sufficers' answer is that the money should go to the foreclosed counties outright. Giannini and the Industrial Board say so, and the foreclosures go on: the granary takes crop, not mortgages. The scene costs the Realm something and gives both schools a true argument.
 
-- *Hist.*, general knowledge, to verify: the Union's Grain Stabilization Corporation bought wheat in 1929–31 and ended holding very large stocks it could not sell; in 1931 it sold part of them to China on credit (G-10 is the canon counterpart).
+- *Hist.* (FRUS, verified 22 November 2026): in 1931 the Union's Grain Stabilization Corporation, which had bought wheat to hold up prices, sold China 15 million bushels on credit (G-10 is the canon counterpart). That it held very large unsold stocks in 1931–32 is general knowledge, to verify.
 - Storyline §34, after "Farms are foreclosed and county banks fail that winter, and the cover holds.", on approval:
 > The Patrimony fills the Crown's granary from its own reserves, buying the home counties' wheat and feed at the slump's price before anyone else's, and takes ten-year contracts abroad only for beans and rice, paid in the Columbia's ammonia and the Realm's machines. Giannini says the money should have gone to the mortgages, and the granary takes crop, not mortgages.
 
