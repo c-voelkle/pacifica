@@ -393,7 +393,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - OPEN-019-02: Pacifica's broker in 1918–19. Recommendation remains proposed: Kaiulani, 80, as dowager diplomat, mirroring 1894; Julian chooses the moment and Hoover runs the food lever. It is her last great act before she renounces her role in 1921.
 - OPEN-019-04: Partly resolved by CR-020 B5–B6: Hoover is Pacifican, runs 1927 Gulf flood relief and proposes the June 1931 moratorium. Exact relief-to-treasury appointments and remaining Belgian-relief chronology stay qualified.
 - OPEN-019-05: What Britain pays in kind in the 1923 settlement. Recommendation remains proposed: Base rights at Singapore and Hong Kong and the cession of Britain's central Pacific islands, not sovereignty over Singapore, which would bring back the war with Britain the author has ruled out.
-- OPEN-019-06: Australia and New Zealand after the Statute of Westminster. Recommendation remains proposed: A defence treaty with Thalassia in 1932, without accepting the racial equality clause: White Australia survives as a hypocrisy Pacifica tolerates.
+- OPEN-019-06: Resolved by CR-082 D19 (22 November 2026): a defence treaty with Thalassia in 1932, after the Statute of Westminster, without accepting the racial equality clause; White Australia survives as a hypocrisy Pacifica tolerates; New Zealand's crop guarantee of 1931 is carried by the treaty.
 - OPEN-019-07: The burning of London (canon §30). Recommendation remains proposed: Keep it as the German fire raid of 1918, the shock that makes London accept the broker.
 - OPEN-019-08: Germany's crown after 1918. Recommendation remains proposed: Wilhelm II abdicates as part of the peace in favour of his grandson Wilhelm, born 1906, under a regency: a boy king with a regent, like Puyi and like Julian's own childhood under Kaiulani.
 - OPEN-019-10: The Chronicler's archive. Recommendation remains proposed: As in J2: the cylinders are sealed, not saved from a fire, and hold the Altai report.
@@ -1369,16 +1369,19 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Australia and New Zealand: a crop guarantee inside the defence treaty, New Zealand first by 1932, resting on OPEN-019-06 (R-4).
 - Siberia: the two figures of 1919 count its grain on the railway board's contracts, not a frontier; no verdict (R-8 as recast).
 - The century's plan (Julian's table of 1930: 562 million a century on, MODEL): home yields, the sellers by contract, the farmed sea; it closes only by buying; the sufficers' figure of 0.6% a year; the cabinet's aim to be indispensable in the world's grain trade, never denying (P-1 to P-5, D13 to D15).
+- Victoria does not read the cabinet's minute of 1919 then; she reads it before the confrontation of 1921, and it adds a count to her charge (D19).
+- Julian asks for the Gulf's shorter count in 1931 because the table of 1930 closes the margin long before the Gulf's earliest admission; the Senate refuses because the parity tests are the Gulf's promise to its Black citizens (D19).
+- Storage of 1900–1920 in basins without salmon (Minidoka, Jackson Lake, the Salt and Yuma, Elephant Butte, the Truckee and Carson, Strawberry Valley); off-stream storage and low laddered dams only on the Sacramento and San Joaquin; compacts with the Akimel O'odham, the Pyramid Lake Paiute and the Pueblos (D19).
+- In the mid-1920s Chile's loan is moved to the copper duty and Chile is offered the Columbia's ammonia patents at the one royalty; in the slump the Realm calls nothing in (D19).
+- OPEN-019-06 decided: the defence treaty with Thalassia in 1932 after the Statute of Westminster; New Zealand's crop guarantee in 1931, carried by the treaty; Australia's after 1932 (D19).
 
 **Still open:**
-- Whether Victoria reads the Siberian minute before 1921 (R-8).
-- The storage sites of 1900–1920 and their cost (for the workbook).
-- What Julian's ministers do with Chile's loan once the Columbia's ammonia replaces the nitrate.
-- New Zealand's guarantee date and Australia's, with OPEN-019-06.
+- The storage works' cost (the workbook task, D19).
+- Australia's crop guarantee after 1932.
 - Japan's renunciation of any southern advance below the Philippine crown, Japan's yields and Hokkaido (for the partners' CR).
 - The Realm's diet and the measure of the farmed sea (for a culinary CR).
 - R-1's prairie contract, credit and price (CR-083).
-- Finance workbook: Chile's loan, the export credits of 1915–19 and the nitrogen plants, to be sized.
+- Finance workbook (one task after the merge, D19): CR-081's loans, Chile's loan, the nitrogen plants and the storage works; the Entente's grain inside the existing advances.
 - To verify: the sellers' century figures, the world's grain trade today, the work-stock shares of 1930 and 1940, Alaska's landings, the kelp yields, the yearly Chilean series, and the Hist. items listed in CR-082's Sources.
 
 ### Author-approved editorial safeguards

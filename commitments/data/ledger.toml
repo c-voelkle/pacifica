@@ -3384,7 +3384,7 @@ quote = "The settlement creates a permanent arbitration court and carries Japan'
 more_quotes = [
   "and joins the arbitration court's new charter",
   "a founding seat in the renewed court",
-  "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause.",
+  "After the Statute of Westminster, Australia and New Zealand agree to a defense treaty with Thalassia in 1932 while refusing the racial equality clause.",
 ]
 open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED). CR-043: Bryan signs the 1919 treaty for the mediating Union, and the Union Senate refuses the court."
 
@@ -4218,11 +4218,11 @@ name = "Australia–New Zealand defense treaty"
 kind = "treaty"
 parties = ["ANZ", "PAC"]
 from = 1932
-status = "PROPOSED"
-cr = "CR-019"
+status = "APPROVED"
+cr = "CR-082"
 section = 37
-quote = "Australia and New Zealand agree to a defense treaty while refusing the racial equality clause."
-open = "OPEN-019-06 (Dominions treaty). Year not stated (§37 is 1932); counterparty presumably Pacifica, not named; terms not stated."
+quote = "After the Statute of Westminster, Australia and New Zealand agree to a defense treaty with Thalassia in 1932 while refusing the racial equality clause."
+open = "OPEN-019-06 decided by CR-082 D19 (22 November 2026). Terms beyond the crop and no-hostile-base guarantees not stated."
 
 [[commitment]]
 id = "C-1928-NANJING"
@@ -6896,14 +6896,14 @@ owes = [
   { by = "CL", to = "PAC", what = "nitrate on long contracts at Iquique, delivered to the Realm's fields from about 1900" },
   { by = "CL", to = "PAC", what = "service of the loan to the Chilean state" },
 ]
-secured_on = "the nitrate duty"
+secured_on = "the nitrate duty; Chile's copper duty from the mid-1920s"
 conditions = ["the Realm buys none of the British houses' fields; Chilean buyers take them over twenty years on Realm credit"]
 status = "APPROVED"
 cr = "CR-082"
 section = 25
 quote = "The Realm buys nitrate on long contracts at Iquique, with deliveries to its own fields from about 1900, and lends to the Chilean state on the security of the nitrate duty."
-more_quotes = ["From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the regency's loan to Chile is left secured on a duty the Realm's own fields no longer pay."]
-open = "Amount, term and the contracts' length not stated; what Julian's ministers do with the loan in the 1920s is OPEN (CR-082). Not yet in the finance workbook."
+more_quotes = ["From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the regency's loan to Chile is left secured on a duty the Realm's own fields no longer pay.", "In the mid-1920s Julian's ministers move the loan's security to Chile's copper duty and offer Chile the Columbia's ammonia patents at the one published royalty, as they would any licensee.", "In the slump it calls nothing in and seizes nothing."]
+open = "Amount, term and the contracts' length not stated; the conversion's year is the mid-1920s. Not yet in the finance workbook."
 
 [[commitment]]
 id = "C-1900-CHILE-GUARANTEE"
@@ -6950,7 +6950,7 @@ status = "APPROVED"
 cr = "CR-082"
 section = 25
 quote = "In 1928, after the flood, Hoover's relief becomes a provisioning compact: Realm credit for the Gulf's rice, feed and drainage, with the admission tests unchanged."
-more_quotes = ["When the glut of 1931 breaks the streak, Julian asks the Senate to propose a shorter count at the compact's review, and the Senate refuses."]
+more_quotes = ["When the glut of 1931 breaks the streak, Julian asks the Senate to propose a shorter count at the compact's review."]
 open = "The compact has a review; its interval is not stated. Amount not stated."
 
 [[commitment]]
@@ -6958,12 +6958,40 @@ id = "C-1932-NZ-CROP-GUARANTEE"
 name = "Guarantee of the dominions' crop"
 kind = "guarantee"
 parties = ["PAC", "NZ"]
-from = 1932
-from_approx = true
-owes = [{ by = "PAC", to = "NZ", what = "guarantee of the crop and that no hostile base stands on its soil" }]
+from = 1931
+owes = [
+  { by = "PAC", to = "NZ", what = "guarantee of the crop" },
+  { by = "PAC", to = "NZ", what = "from the treaty of 1932, guarantee that no hostile base stands on its soil" },
+]
 status = "APPROVED"
-label_note = "Rests on the defence treaty of OPEN-019-06, which is PROPOSED; the approval stands only if that treaty does (CR-082 R-4)."
 cr = "CR-082"
 section = 37
-quote = "Inside the treaty Pacifica guarantees the dominions' crop and that no hostile base stands on their soil, New Zealand first, by 1932; Australia's guarantee stays open."
-open = "\"By 1932\": year approximate. Australia's guarantee is open; date decided with OPEN-019-06."
+quote = "New Zealand's crop guarantee comes first, in 1931, when the slump has struck its butter, wool and wheat; the treaty of 1932 carries it, with the guarantee that no hostile base stands on the dominions' soil."
+open = "Terms of the crop guarantee (a purchase contract, a price) not stated. Australia's crop guarantee comes after 1932."
+
+[[party]]
+id = "AKIMEL"
+name = "The Akimel O'odham of the Salt and the Gila"
+
+[[party]]
+id = "PYRAMID"
+name = "The Pyramid Lake Paiute"
+
+[[commitment]]
+id = "C-1900-STORAGE-COMPACTS"
+name = "The storage compacts of 1900–1920"
+kind = "compact"
+parties = ["PAC", "AKIMEL", "PYRAMID", "PUEBLOS"]
+from = 1900
+from_approx = true
+owes = [
+  { by = "PAC", to = "AKIMEL", what = "their share of the Salt" },
+  { by = "PAC", to = "PYRAMID", what = "their lake's flow from the Truckee" },
+  { by = "PAC", to = "PUEBLOS", what = "a compact of their own on the Rio Grande" },
+]
+conditions = ["storage only in basins where no salmon run; on the Sacramento and the San Joaquin only off-stream storage and low dams with ladders"]
+status = "APPROVED"
+cr = "CR-082"
+section = 25
+quote = "Each site has its compact: the Akimel O'odham keep their share of the Salt, the Pyramid Lake Paiute keep their lake's flow from the Truckee, and the Pueblos make their own compact on the Rio Grande."
+open = "One compact per site; their years (1900–1920) and the other sites' compacts (Minidoka, Jackson Lake, Yuma, the Carson, Strawberry Valley) are not stated. The works' cost is OPEN for the workbook."

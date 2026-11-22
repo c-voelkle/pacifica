@@ -2300,8 +2300,8 @@ Historical persons in alternate history; no invented persons are added. Crookes,
 - **CT-HERMAN-HOLLERITH:** his cards tabulate the Office's table of 1890, the first to set the population's course beside Powell's acres.
 - **CT-HOOVER:** a provisioner; in 1928 his Mississippi relief becomes the Gulf's provisioning compact.
 - **CT-KEAWE:** a sufficer on land and water.
-- **CT-JULIAN:** a provisioner; from 1908 the Office's tables fall only to 2% a year and count the Philippine crown; reads the table of 1910 with Victoria and quarrels over it; the two figures of 1919 count Siberia's grain on contracts; the century's plan of 1930.
-- **CT-KAIULANI:** (Victoria): a sufficer; asks for the table of 1890 expecting the domain to suffice and draws the sufficer's conclusion; intervenes in Chile in 1891; shapes entry and cannot shrink it; whether she reads the Siberian minute of 1919 before 1921 is OPEN.
+- **CT-JULIAN:** a provisioner; from 1908 the Office's tables fall only to 2% a year and count the Philippine crown; reads the table of 1910 with Victoria and quarrels over it; the two figures of 1919 count Siberia's grain on contracts; asks in 1931 for the Gulf's shorter count, to bring its acres and people in before his margin closes, and is refused; the century's plan of 1930.
+- **CT-KAIULANI:** (Victoria): a sufficer; asks for the table of 1890 expecting the domain to suffice and draws the sufficer's conclusion; intervenes in Chile in 1891; shapes entry and cannot shrink it; does not read the Siberian minute of 1919 then, but asks for the cabinet's minutes before the confrontation of 1921 and finds her own rule of 1890 read as a target, a new count in her charge.
 
 **CT-EUGENE-HILGARD — Eugene W. Hilgard, soil scientist and sufficer.** Historical person in alternate history; CR-082, APPROVED 22 November 2026, local labels retained. Born 1833, died 1916 (*hist.*; historically the University of California's soil scientist of alkali lands, to verify). A sufficer from the table of 1890: the domain carries what its water carries, and the talent comes from selection. **Character use:** the scientist who believes the soil's figure.
 

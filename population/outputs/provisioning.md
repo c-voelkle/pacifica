@@ -23,7 +23,7 @@ Built by `population/provisioning.py` from the canon run and `data/provisioning.
 
 Millions of acres. The territory holds 70% of the 19 states' irrigated area. The ceiling used is the 1940 census's irrigable area in enterprises times that share: 22.0 million acres. Part states and the dry land are estimates.
 
-**Works (review S2).** Irrigated land needs works. Canon's farmers can water 13.8 million acres by 1900, 18.3 million acres by 1920, 22.0 million acres by 1930: first what our timeline's rivers watered before the great dams, then what the 1940 census calls works capable of supplying, at last every irrigable acre. Storage from 1900 only where salmon pass or none run (the upper Snake above the falls, the foothill reaches), each site under its compact; Boulder Canyon (decided 1920, power 1926) and the pumping from Rock Island (1920-23), which are canon (CR-052, CR-051); the last step by 1930. The dates are MODEL.
+**Works (review S2).** Irrigated land needs works. Canon's farmers can water 13.8 million acres by 1900, 18.3 million acres by 1920, 22.0 million acres by 1930: first what our timeline's rivers watered before the great dams, then what the 1940 census calls works capable of supplying, at last every irrigable acre. Storage from 1900 in basins where no salmon run (the upper Snake above Shoshone Falls, the Salt and Yuma, the Rio Grande, the Truckee and Carson, Strawberry Valley), off-stream only on the Sacramento and San Joaquin, each site under its compact; Boulder Canyon (decided 1920, power 1926) and the pumping from Rock Island (1920-23), which are canon (CR-052, CR-051); the last step by 1930. The dates are MODEL.
 
 ## 2. The rule for yields
 
