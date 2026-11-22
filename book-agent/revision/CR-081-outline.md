@@ -429,7 +429,7 @@ The author approved P-1 to P-3 on 21 November 2026 and asked for P-4 to be retho
 
 **P-4d. How the Qing ends (Option 1, chosen 21 November 2026).** Prince Chun's regency keeps the assemblies, the budget and the constitution's date, and makes the three decisions that history's regency made: Yuan's dismissal (January 1909), the princes' cabinet (May 1911) and the nationalisation of the trunk railways (May 1911). Wuchang follows on 10 October 1911, and the dynasty ends with the abdication of 12 February 1912, as canon has it; P-4 in C3 gives the mechanics. China's Republic inherits a converted examination, a paid banner conversion and a working budget, so the warlord years start from stronger institutions. *Rejected on 21 November 2026:* Option 2 (Guangxu outlives Cixi and reigns, and the dynasty falls to Yuan's usurpation in 1915–16) and Option 3 (the Qing survives to 1932).
 
-**P-4e. Julian after November 1908 (proposal; left open by the author on 21 November 2026).**
+**P-4e. Julian after November 1908 (approved 21 November 2026, 10:50; item 2 amended 22 November 2026, G-3).**
 
 Canon's Julian is 22 in November 1908. In the spring of 1908 he sailed for Europe believing that war could be made too expensive to start (§27, PROPOSED); in July 1914 he refuses to break a contract for politics and breaks it only when it can no longer change anything (§28, APPROVED). In 1911 he supports Sun's movement (§27); in 1916 he leaves Yuan to his fate, and later he funds Sun while working with Zhang Zuolin, a contradiction that becomes "a criticism of Julian's strategic bargains" (§29). The proposal builds his China policy of 1908–12 from those traits.
 
@@ -856,7 +856,7 @@ The revision follows `CR-081-provisioning-review.md` (fresh-context review, 22 N
 ### D1. Pacifica's ends in China (review B1; G-1, G-2)
 
 **G-1. A9, Pacifica's target in China, 1932 and after (cabinet, never stated).** APPROVED (author, 22 November 2026, 10:12). A8's approved aim, "a strong, successful China aligned with Pacifica, at minimal cost to Japan", stays as the *means* (canon tension T-1, case A). The cabinet's ends are three:
-1. **The crop.** Manchuria's harvest moves on open carriage and published rates to a market the Concord's credit, ships and standards organise, and its land stays out of any army's hands (CR-082 R-3, approved). *MODEL:* Manchuria sold about 5 million tonnes of beans, cake and oil a year at the peak of 1931 (CR-082 outline C4, to verify; about 1926 the beans alone were about 2.4 million tonnes, A-series §11), about 4.8 million mouths on the Realm's diet.
+1. **The crop.** Manchuria's harvest moves on open carriage and published rates to a market the Concord's credit, ships and standards organise, and its land stays out of any army's hands (CR-082 R-3, approved). *Figures:* Manchuria's soybean crop rose from roughly 3.0–3.5 million tonnes in the early 1920s to 5.3–5.4 million by 1929–30, about three-fifths of the world's soybeans (author's research note of 22 November 2026, after Kungtu C. Sun and Ines Prodöhl; to verify against their tables, A-series §11). About 1926 roughly 40% of the crop was exported as beans (about 2.4 million tonnes) and most of the cake and oil from the 43% crushed went abroad too. The whole export is therefore below the crop; provisioning.md's 5.0 million tonnes "about 1930" (about 4.8 million mouths) is the upper bound, MODEL, and the Realm's own share of it is not computed.
 2. **A China that feeds itself.** China's 500 million must not bid against the Realm in the pool the Office's tables say the Realm will need. *MODEL:* the 1910 table puts the Realm's crossing at 1920, the 1920 table at 1933, the 1930 table at 1938; in the central case capacity is 115% of residents in 1932 and is passed in 1940. Every Chinese district made self-feeding takes nothing from the Concord's granary.
 3. **The rolls.** China's exceptional engineers and scientists can sit the Realm's examination on the same terms as anyone (CR-037), because both schools count talent, not heads (author, 08:27).
 
@@ -866,7 +866,7 @@ The revision follows `CR-081-provisioning-review.md` (fresh-context review, 22 N
 
 | Instrument (A8, Part C) | Mouths fed or taken out of the pool | People brought to the rolls | By |
 |---|---|---|---|
-| Huludao and the crop article (G-4) | about 4.8 million mouths of Manchurian crop sold in the pool (MODEL, to verify) | none | 1930 |
+| Huludao and the crop article (G-4) | Manchuria's whole export, at most about 4.8 million mouths (MODEL, to verify); the Realm's share not computed, and Japan has first call (G-5) | none | 1930 |
 | Railways on customs-secured loans; settlement through the land offices | 10–12 million settled in Manchuria (canon, MODEL); the crop they grow is in the line above | none | 1932 |
 | Conservancy (1891), farm bank (1923), pumps, Tacoma's fertilizer (1929) | China's own deficit narrowed: not computed (G-9) | none | 1932 |
 | Educational Mission, Boxer scholarships, Polytechnic of Formosa, the examination rule (G-11) | none | not computed (G-11 asks the population model) | 1932 |
@@ -880,7 +880,7 @@ The revision follows `CR-081-provisioning-review.md` (fresh-context review, 22 N
 
 ### D3. Manchuria: the crop and not the land (review B2, B3; G-4 to G-8)
 
-**G-4. The crop article of 1923.** APPROVED (author, 22 November 2026, 10:12). Storyline §32 (the Huludao district), after "admits Japanese firms on the same terms as everyone.", insert:
+**G-4. The crop article of 1923.** APPROVED (author, 22 November 2026, 10:12). Storyline §33 (the Huludao district), after "admits Japanese firms on the same terms as everyone.", insert:
 > A crop article, agreed between Mukden and the Realm, gives the quay bonded elevators and lets buyers take long contracts at the Customs' published Huludao price, and the Columbia's ammonia and the Polytechnic's soybean seed are sold there at the one royalty to any farmer and to any buyer's agent, Japanese firms among them.
 
 Ledger: a new row, "Huludao crop article", 1923, Mukden and the Realm. Cast: Wang Yongjiang writes it.
@@ -896,8 +896,8 @@ This settles CR-082 L's "Soybean compact with China, date OPEN (CR-081)". Ledger
 *Hist.* (verified 22 November 2026, Wikisource and FRUS 1915): Article 2 of Group II asked that Japanese subjects be permitted to lease or own land in South Manchuria and Eastern Inner Mongolia for buildings or for farming. The sufficer runs the provisioner's errand, and the scene is a strand of the drift.
 
 **G-7. The rate clauses name the crop (1921, 1928).** APPROVED (author, 22 November 2026, 10:12).
-- Storyline §30 (the Mukden protocol), "Japan agrees because its running rights are confirmed at the line's published rates, the same for every shipper." becomes "… the same for every shipper and every destination, and the same for the crop as for any freight."
-- Storyline §25 (the Treaty of Nanjing), "China guarantees the railway transit and its joint management." becomes "China guarantees the railway transit and its joint management, which may set no rate that favours a shipper or a destination."
+- Storyline §32 (the Mukden protocol), "Japan agrees because its running rights are confirmed at the line's published rates, the same for every shipper." becomes "… the same for every shipper and every destination, and the same for the crop as for any freight."
+- Storyline §33 (the Treaty of Nanjing), "China guarantees the railway transit and its joint management." becomes "China guarantees the railway transit and its joint management, which may set no rate that favours a shipper or a destination."
 
 **G-8. 1931: land against crop.** APPROVED (author, 22 November 2026, 10:12). Storyline §35:
 - After "and Thalassia's case in Tokyo says so.", insert: "Their aim is land for Japanese farmers, and their charge is that Pacifican contracts take Manchuria's harvest while its acres stay closed to Japan. Thalassia's case answers that a client state would close the open carriage on which Japan's own bean cake and feed depend."
@@ -916,7 +916,7 @@ The figures go into `CR-081-A-series.md` (M2); §11 there gives the first of the
 **G-10. The wheat credit of 1931.** APPROVED (author, 22 November 2026, 10:12). Storyline §34 (Canton and the flood), after "the first joint body of the two governments.", insert:
 > The Crown's government sells the relief commission fifteen million bushels of wheat and flour on credit.
 
-*Hist.* (verified 22 November 2026, FRUS 1938 and 1945): in September 1931 the Union's Grain Stabilization Corporation sold China 15 million bushels of wheat and flour, 450,000 tons, on credit at 4% (US$9.2 million), serviced from the Customs' 5% flood-relief surtax. In canon the Realm sells about 3.3 million tonnes of grain abroad in 1931 (MODEL), so the credit is about a seventh of its sales. One transaction makes Pacifica seller, creditor and relief giver. M5: this is a candidate for Julian's test (AGENTS.md, OPEN), which remains the author's decision.
+*Hist.* (verified 22 November 2026, FRUS 1938 and 1945): in September 1931 the Union's Grain Stabilization Corporation sold China 15 million bushels of wheat and flour, 450,000 tons, on credit at 4% (US$9.2 million), serviced from the Customs' 5% flood-relief surtax. In canon the Realm sells about 3 million tonnes of grain abroad in 1931 (MODEL, between provisioning.md's 1930 and 1932 values). The 450,000 tons are short tons, about 0.41 million tonnes, so the credit is about an eighth of its sales. One transaction makes Pacifica seller, creditor and relief giver. M5: this is a candidate for Julian's test (AGENTS.md, OPEN), which remains the author's decision.
 
 ### D5. Talent (review S2; G-11)
 
@@ -938,19 +938,19 @@ The cost stays visible: Li's and later Nanjing's complaint that Pacifica takes t
 ### D6. The instruments aimed (review S3, S4, S5; G-12 to G-14)
 
 **G-12. Crop information, money and tonnage.** APPROVED (author, 22 November 2026, 10:12). One sentence each, no new institution:
-- Storyline §35 (the material summary), after "carrying the market report,", the market report becomes "carrying the market report and, from the 1910s, the Customs' Manchurian crop estimate from the land offices' returns,".
+- Storyline §34 (the material summary), after "carrying the market report,", the market report becomes "carrying the market report and, from the 1910s, the Customs' Manchurian crop estimate from the land offices' returns,".
 - Storyline §33 (the Office's machines), after "make the trial forecasts hold", add "first for the Manchurian and Yangtze seasons".
-- Storyline §35 (1929), "a gold-exchange standard linked to Pacifica's dollar" becomes "… linked to Pacifica's dollar, the money the soybean compact's contracts are written in".
-- Winter tonnage from Huludao is already in §32.
+- Storyline §34 (1929), "a gold-exchange standard linked to Pacifica's dollar" becomes "… linked to Pacifica's dollar, the money the soybean compact's contracts are written in".
+- Winter tonnage from Huludao is already in §33.
 
-**G-13. Siberian grain in transit.** APPROVED (author, 22 November 2026, 10:12). With G-7, the Mukden protocol's sentence ends "… and Siberian grain in transit to Huludao travels on the same rates." Federal Russia's Siberia is a seller inside the standing alliance (CR-041; CR-082's century list). Japan's army gains a second reason to want the line.
+**G-13. Siberian grain in transit.** APPROVED (author, 22 November 2026, 10:12). With G-7, the Mukden protocol's sentence ends "… and Siberian grain in transit to Huludao travels on the same rates." Federal Russia's Siberia is a seller inside the standing alliance (CR-041; CR-082's century list). Before 1932 the traffic is small: the grain passes Japan's Transbaikalian sphere at Chita, where the Mukden rates do not run, and a haul of 2,500 km or more eastward pays only for small amounts (*Hist.*, general knowledge, to verify). The point is the rule, not the tonnage.
 
 **G-14. Buying in the slump (1931–32).** Revised after the author's objection (22 November 2026, 10:12): "it's not a good look for the realm to be spending big money abroad while its own farm counties fail. It needs at least a strong provisioner argument for doing so." APPROVED as revised (author, 22 November 2026, 10:33) and integrated (canon tension T-5, case A).
 
 The first draft had the Patrimony buy abroad while the home counties failed. The revision keeps the slump purchase and changes three things:
 1. **The home crop first.** The Patrimony fills a strategic granary, the reserve against a bad year or a closed sea that CR-082 names among the points of control. In the winter of 1931–32 it buys the home counties' wheat and feed at the slump's price first, from its own reserves and without new issue, so the Bank's refusal stands (CR-057). Abroad it contracts only for what the Realm's fields cannot grow in the quantities the tables ask: Manchurian beans, and rice for the Philippine crown and Japan.
 2. **Paid in work at home.** The foreign contracts are paid largely in the Realm's own goods (the Columbia's ammonia, tractors, rails, pumps), from plants the slump has half idled. The Columbia's slump surplus is already sold to new uses (CR-057), and this is one of them. Each foreign tonne bought puts Pacifican plants and crews to work.
-3. **The argument in the Senate.** The provisioners' case is the Office's table of 1930: the Realm passes its own soil and sea about 1940, and grain will never again be this cheap. A ten-year contract signed in 1932 runs to 1942, the decade the table says the margin closes. The granary buys at home first, and the money spent abroad comes back as orders. The sufficers' answer is that the money should go to the foreclosed counties outright. Giannini and the Industrial Board say so, and the foreclosures go on: the granary takes crop, not mortgages. The scene costs the Realm something and gives both schools a true argument.
+3. **The argument in the Senate.** In cabinet the provisioners' case is the Office's table of 1930, which puts the Realm past its home ceiling in 1938 (provisioning.md §7; §3's central case gives 1940). A ten-year contract signed in 1932 runs to 1942, the decade the table says the margin closes. In the Senate the ministers argue only from the public table that grain will not be this cheap again within the contracts' term; the century's conclusion stays in the cabinet's minutes (CR-075; CR-082 B6). The granary buys at home first, and the money spent abroad comes back as orders. The sufficers' answer is that the money should go to the foreclosed counties outright. Giannini and the Industrial Board say so, and the foreclosures go on: the granary takes crop, not mortgages. The scene costs the Realm something and gives both schools a true argument.
 
 - *Hist.* (FRUS, verified 22 November 2026): in 1931 the Union's Grain Stabilization Corporation, which had bought wheat to hold up prices, sold China 15 million bushels on credit (G-10 is the canon counterpart). That it held very large unsold stocks in 1931–32 is general knowledge, to verify.
 - Storyline §34, after "Farms are foreclosed and county banks fail that winter, and the cover holds.", on approval:
@@ -987,6 +987,23 @@ The first draft had the Patrimony buy abroad while the home counties failed. The
 | M1–M4 | As listed | approve | applied 22 November 2026 (outline and A-series only) |
 
 None of these changes a linter-tracked fact. G-4 and G-5 add ledger rows on integration.
+
+### D9. After the fresh-context review of the integrated revision (22 November 2026)
+
+`CR-081-grain-review.md` reviewed the revision as integrated. At 11:06 the author asked for the blockers and the remaining fixes to be applied ("Please apply the blockers and remaining fixes"). They are integrated as follows. **Where the quoted storyline wording in D2–D6 differs, the storyline governs.**
+
+- **B1, S7 (§26, the examination's door).** The oath covers entrants only and admits no office, pay or rank "under a state other than the crowns and Japan". A scholarship China funds, the remitted indemnity's among them, binds its holder to China; the Realm binds only those whose places it pays for. Entrants bring "a spouse and children, never a lineage". On family entry, case A: the 1868 treaty's family-emigration article (§16, PROPOSED) is read as spouses and children, and Julian's entry course from 1908 raises the numbers (CR-082 B7). Not in the storyline, outline only: the ten years of avoidance, the sponsor rule and the counted gain of G-11 items 3–5. The oath's wording against the Chinese Pacificans already serving stays to be settled with the character bible.
+- **B2, B3 (§34, the granary).** Julian asks, his ministers argue from the public table, Giannini and the Industrial Board object, and the Senate votes. Contracts abroad are for beans and rice and no longer "only", so CR-082 R-1's prairie wheat contract stands beside them. The Senate's vote, and whether the purchases count against the Patrimony's 3% rule or as investment, were the reviewer's suggestion. The first is integrated; the second is recorded as open in the ledger row `C-1932-GRANARY-CONTRACTS`.
+- **S1 (§28, 1915).** Victoria is not told the reason. She argues it on China's ground, and the genrō take it as hers. Whether she guesses it by 1921 is for the character bible.
+- **S2 (ledger).** The Mukden and Nanjing rows carry the new rate terms. New rows: `C-1931-CHINA-WHEAT-CREDIT` and `C-1932-GRANARY-CONTRACTS`.
+- **S3, M1 (§33, the compact).** Zhang Xueliang consents for the Three Eastern Provinces. Japan's bean cake and feed have "first call on the Concord's contracts", not priority of carriage. The district's grievance carries CR-057's label again.
+- **S4 (§33, the crop article).** It is an article of the district's charter, not a treaty. Prices are posted on the Huludao exchange and published by the Customs. Ammonia is sold at its published price and seed at the one royalty. In the ledger, Mukden grants the article and the estates sell under it.
+- **S5 (§35, 1931).** Thalassia's answer cites the compact's first call. "Among their other charges".
+- **S6 (§33, Rossby).** The Weather Office asks the Customs for soundings at Huludao and Shanghai, so that the forecasts can be tried on the Manchurian and Yangtze harvests. This is the reviewer's second option and keeps G-12's approved intent.
+- **S8 (§27, 1908).** The option at Huludao is "his mother's of 1899", never part of the talks.
+- **S9 (merge order).** The revision depends on CR-082 (sufficers and provisioners, the tables, the granary's reserve). The register records that CR-082 merges before CR-081 or with it. The optional cabinet sentence at the 1908 cable is not added.
+- **S10.** The figures are corrected in G-1, G-2, G-10 and G-14 item 3, with the Manchurian crop from the author's research note.
+- **M2–M9.** M2: the crop estimate is undated. M3: the credit is serviced from the flood-relief surtax. M4: section numbers corrected. M5: AGENTS.md. M6: P-4e's heading. M7: the 1931 rice figures checked against the Customs page as quoted; they stand, 1931 being the year before the flood imports, to verify against Hsiao, Table 2.5. M8: the register labels the outline-only items. M9: the note under G-13.
 
 ## Canon tensions
 

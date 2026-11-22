@@ -366,7 +366,20 @@ The baselines for A9 and B11 (provisioning revision, M2). Partial: these are the
   - In 1921–1935 its average imports almost tripled, to about 15% of Monsoon Asia's exports, which rose from 4.3 to 7.5 million tonnes between 1911–15 and 1931–35. That puts China's imports at about 0.6–1.1 million tonnes of rice a year in 1921–35 (arithmetic on Brandt's shares, MODEL).
 - **The 1931 flood loan** (FRUS, verified): in September 1931 the Union's Grain Stabilization Corporation sold China 15 million bushels of wheat and flour, 450,000 tons, on credit for US$9,212,826.56 at 4%. It was serviced from the Customs' 5% flood-relief surtax and taken over by the Export-Import Bank in 1936.
 - **Today** (China's General Administration of Customs, via Reuters, verified): China imported 99.41 million tonnes of soybeans in 2023, about 70% of them from Brazil. It is the world's largest soybean importer, which B11 assumed.
-- Still to find: wheat flour imports by year in the 1920s.
+**Wheat flour and the crop, 1914–1930** (author's research note, 22 November 2026; figures as given there, still to read against the tables named)
+
+- **Flour imports:**
+  - Flour imports fell from 2,162,424 piculs in 1914 (about 0.13 Mt) to 157,652 piculs in 1915 (about 0.01 Mt), and Shanghai's and Wuxi's roller mills took the home market.
+  - Imported flour was 1.8% of China's import value in 1920 (Yu-kwei Cheng, p. 34) and 2.06% in 1928–29.
+  - Two surges: 1922–24 (Yangtze floods, cheap North American wheat) and 1928–29 (northern famine, rail disruption, falling world prices). In between, 1925–27, Shanghai mills took more foreign wheat and less flour.
+  - The yearly quantities are in Hsiao Liang-lin, *China's Foreign Trade Statistics, 1864–1949*: Table 2.5 ("Wheat Flour", imports, 1,000 piculs and 1,000 Hk. Tls.), read with Table 3.11 (exports). A retrospective summary is in the Customs' *The Trade of China, 1933*, vol. 1, part 2.
+- **Manchuria's soybean crop:**
+  - About 3.0–3.5 Mt in the early 1920s and 5.3–5.4 Mt by 1929–30, roughly as much as the rest of China, and about 61% of the world's soybean output in 1929.
+  - Some SMR and IIA estimates put its share of the world's commercial export supply at about 80%.
+  - Standardised all-Manchuria crop surveys by the SMR Research Bureau begin with the 1924 harvest (1924–32). Figures before that are reconstructions from rail shipments.
+  - Tables: Kungtu C. Sun, *The Economic Development of Manchuria in the First Half of the Twentieth Century* (ch. 2, around Table 23); the SMR's *Report on Progress in Manchuria, 1907–1928* (agriculture section); Prodöhl, *Globalizing the Soybean* (the 1924–32 series).
+- **What this changes:** Manchuria's whole crop about 1930 is a little above provisioning.md's export figure of 5.0 Mt, so that figure is an upper bound for the export (outline G-1). China's flour imports peaked in the two famine years, which supports reading China as a buyer in bad years (B11).
+- Still to read: the year-by-year flour quantities in Hsiao Table 2.5.
 
 ## Sources
 
@@ -381,3 +394,4 @@ Section 10 lists the sources outside the four books.
 - Loren Brandt, 'Chinese agriculture and the international economy, 1870–1930s', *Explorations in Economic History* 22 (1985) (title and pages to verify; read from the author's own copy at brandt.economics.utoronto.ca).
 - *Foreign Relations of the United States*, 1938, vol. III, and 1945, vol. VII (history.state.gov): the Grain Stabilization Corporation's sale of 1931 and its settlement.
 - Reuters and the General Administration of Customs, China's soybean imports for 2023 (reported 12 January 2024).
+- Author's research note of 22 November 2026 (wheat flour and the Manchurian crop), citing Hsiao Liang-lin, *China's Foreign Trade Statistics, 1864–1949*; Kungtu C. Sun, *The Economic Development of Manchuria in the First Half of the Twentieth Century*; the SMR's *Report on Progress in Manchuria, 1907–1928*; Ines Prodöhl, *Globalizing the Soybean*; Yu-kwei Cheng. Figures as given in the note, to read against the tables.

@@ -4234,6 +4234,7 @@ owes = [
   { by = "CROWN", to = "CN", what = "the Concord guarantees China's frontiers, Manchuria included" },
   { by = "JP", to = "CN", what = "the Concord guarantees China's frontiers, Manchuria included" },
   { by = "CN", to = "JP", what = "railway transit and its joint management" },
+  { by = "CN", to = "JP", what = "the joint management sets no rate that favours a shipper or a destination (CR-081)" },
 ]
 conditions = ["China recovers the Inspectorate and customs in 1928–1929"]
 status = "APPROVED"
@@ -4243,6 +4244,7 @@ quote = "In 1928, after Jinan, the Nationalist government signs the Treaty of Na
 more_quotes = [
   "The Concord guarantees China's frontiers, Manchuria included, and China guarantees the railway transit and its joint management.",
   "It would have made war on a state the Concord guaranteed at Nanjing, and Japan's home army enters common command only for a war the Concord declares.",
+  "The joint management may set no rate that favours a shipper or a destination.",
 ]
 open = "Term not stated. The Concord's two crowns are recorded as CROWN and JP."
 
@@ -4722,18 +4724,18 @@ open = "Term not stated. A separate charter from the harbour trust (C-1909-HULUD
 id = "C-1923-HULUDAO-CROP"
 name = "The Huludao crop article"
 kind = "charter"
-parties = ["CN", "PAC"]
+parties = ["CN", "ESTATES"]
 from = 1923
 owes = [
-  { by = "CN", to = "PAC", what = "bonded elevators on the quay and long purchase contracts at the Customs' published Huludao price" },
-  { by = "PAC", to = "CN", what = "the Columbia's ammonia and the Polytechnic's soybean seed at the one royalty, to any farmer and any buyer's agent" },
+  { by = "CN", to = "ESTATES", what = "bonded elevators on the quay and long purchase contracts at prices posted on the Huludao exchange and published by the Customs" },
+  { by = "ESTATES", to = "CN", what = "the Columbia's ammonia at its published price and the Polytechnic's soybean seed at the one royalty, to any farmer and any buyer's agent" },
 ]
 conditions = ["Japanese firms among the buyers on the same terms"]
 status = "APPROVED"
 cr = "CR-081"
 section = 33
-quote = "A crop article, agreed between Mukden and the Realm, gives the quay bonded elevators and lets buyers take long contracts at the Customs' published Huludao price"
-open = "Term not stated. An article of the Huludao district's charter (C-1923-HULUDAO-DISTRICT). Mukden is recorded as CN."
+quote = "A crop article in the district's charter gives the quay bonded elevators and lets buyers take long contracts at prices posted on the Huludao exchange and published by the Customs"
+open = "Term not stated. An article of the Huludao district's charter (C-1923-HULUDAO-DISTRICT): Mukden grants it (recorded as CN), and the estates sell under it."
 
 [[commitment]]
 id = "C-1929-SOYBEAN-COMPACT"
@@ -4747,12 +4749,46 @@ owes = [
   { by = "CROWN", to = "CN", what = "the Concord buys the crop by contract and never by land" },
   { by = "JP", to = "CN", what = "the Concord buys the crop by contract and never by land" },
 ]
-conditions = ["Japan's bean cake and feed are served first"]
+conditions = ["Japan's bean cake and feed have first call on the Concord's contracts", "Zhang Xueliang consents for the Three Eastern Provinces"]
 status = "APPROVED"
 cr = "CR-081"
 section = 33
-quote = "In 1929 the Concord and Nanjing sign a soybean compact beside the Treaty of Nanjing"
+quote = "In 1929 the Concord and Nanjing, with Zhang Xueliang's consent for the Three Eastern Provinces, sign a soybean compact beside the Treaty of Nanjing"
 open = "Term not stated. Settles CR-082 L's date (OPEN there). The Concord's two crowns are recorded as CROWN and JP."
+
+[[commitment]]
+id = "C-1931-CHINA-WHEAT-CREDIT"
+name = "The wheat credit to the relief commission (1931)"
+kind = "loan"
+parties = ["CROWN", "CN"]
+from = 1931
+owes = [
+  { by = "CROWN", to = "CN", what = "fifteen million bushels of wheat and flour on credit" },
+  { by = "CN", to = "CROWN", what = "service from the Customs' flood-relief surtax" },
+]
+secured_on = "the Customs' flood-relief surtax"
+status = "APPROVED"
+cr = "CR-081"
+section = 34
+quote = "The Crown's government sells the relief commission fifteen million bushels of wheat and flour on credit, serviced from the Customs' flood-relief surtax."
+open = "Term and rate not stated (our timeline's loan: 4%, three instalments 1934–36)."
+
+[[commitment]]
+id = "C-1932-GRANARY-CONTRACTS"
+name = "The Crown's granary and its ten-year contracts abroad"
+kind = "law"
+parties = ["CROWN", "COUNTIES"]
+from = 1932
+owes = [
+  { by = "CROWN", to = "COUNTIES", what = "the home counties' wheat and feed bought first, at the slump's price" },
+]
+conditions = ["filled by the Patrimony from its own reserves without new issue", "ten-year contracts abroad for beans and rice, paid in the Columbia's ammonia and the Realm's machines"]
+status = "APPROVED"
+cr = "CR-081"
+section = 34
+quote = "Julian asks the Senate for a Crown's granary, a reserve against a bad year or a closed sea, to be filled by the Patrimony from its own reserves without new issue."
+more_quotes = ["Giannini answers that the money should go to the mortgages, the Industrial Board stands with him, and the Senate votes the granary."]
+open = "The year of the vote is the winter of 1931–32 (recorded as 1932). The foreign sellers of the ten-year contracts are not named; whether the purchases count against the Patrimony's 3% rule or as investment is the author's to decide."
 
 [[commitment]]
 id = "C-1920-MARIVELES"
@@ -6719,12 +6755,13 @@ name = "The Mukden protocol of 1921"
 kind = "settlement"
 parties = ["CN", "JP"]
 from = 1921
-owes = [{ by = "CN", to = "JP", what = "running rights confirmed at the line's published rates, the same for every shipper" }]
+owes = [{ by = "CN", to = "JP", what = "running rights confirmed at the line's published rates, the same for every shipper and every destination and for the crop as for any freight; Siberian grain in transit to Huludao on the same rates" }]
 conditions = ["Mukden takes the line's Chinese management and guard, the former Russian zone at Harbin, and Peking's recognition of Zhang's command"]
 status = "APPROVED"
 cr = "CR-081"
 section = 32
 quote = "Zhang's price is a protocol signed at Mukden: his government of the Three Eastern Provinces takes the line's Chinese management and its guard, into which the Chinese brigade passes, the administration of the former Russian zone at Harbin, and Peking's recognition of his command."
+more_quotes = ["Japan agrees because its running rights are confirmed at the line's published rates, the same for every shipper and every destination, and the same for the crop as for any freight; Siberian grain in transit to Huludao travels on the same rates."]
 open = "Japan's assent is recorded but its form is not stated; joint management comes only with the Treaty of Nanjing (C-1928-NANJING)."
 
 [[commitment]]
