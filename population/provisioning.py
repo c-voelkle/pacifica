@@ -14,7 +14,7 @@ What it does
     Nitrogen goes on the fields as the margin narrows and as there is nitrogen.
   * The Office's tables of 1890-1930: from each table year, the course of the
     population for a century at a slowing rate, set against the home ceiling.
-  * The century: the provisioners' four works against the table of 1930.
+  * The century: the provisioners' five works against the table of 1930.
 
 It reads the canon run and data/provisioning.toml and feeds nothing back.
 Every factor that turns acres into mouths is MODEL (see the data file).
@@ -472,7 +472,7 @@ def main() -> int:
     A("")
     A("**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for "
       "its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; "
-      "capacity is told apart from crop (section 4); and the century's four works are computed (section 8). The first "
+      "capacity is told apart from crop (section 4); and the century's five works are computed (section 8). The first "
       "draft's central case is kept as a row of section 9.")
     A("")
     A("## 1. The land in 1929 (our timeline, inside the frontier)")
@@ -602,8 +602,14 @@ def main() -> int:
       f"{c['nitrogen_supply']['chile_share_max']:.0%} of Chile's trade; the home plants give "
       + ", ".join(f"{home_nitrogen(c, y) / 1000:.0f} thousand tonnes in {y}" for y in (1920, 1925, 1930))
       + " to the fields (MODEL; review S1).")
+    f17 = fields(c, base, 1917, pop)
+    sold17 = max(0.0, f17["crop"] - pop[1917])
     A("")
-    f10, f29, f32 = fields(c, base, 1910, pop), fields(c, base, 1929, pop), fields(c, base, 1932, pop)
+    A(f"In 1917 the Entente asks {interp(ex['years'], ex['grain_tonnes'], 1917) / 1e6:.0f} million tonnes. Capacity binds "
+      f"that year, so the Realm ships {m(sold17)} million mouths, about {sold17 * tonnes_per_mouth(c) / 1e6:.1f} million tonnes "
+      "(CR-082 review 2, S1).")
+    A("")
+    f10, f29, f32 =fields(c, base, 1910, pop), fields(c, base, 1929, pop), fields(c, base, 1932, pop)
     margins = {y: central(c, base, y, pop) / pop[y] for y in range(1890, LAST + 1)}
     best = max(margins, key=margins.get)
     late = [v for y, v in margins.items() if y >= 1905]

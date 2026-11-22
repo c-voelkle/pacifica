@@ -2,7 +2,7 @@
 
 Built by `population/provisioning.py` from the canon run and `data/provisioning.toml`. Acreages are our timeline's census figures inside Pacifica's frontier; every factor that turns acres into mouths is MODEL. The author's decisions of 21 November 2026 are built in: the Realm's present diet held constant, a slowing rate of growth, and the Philippine crown counted from 1908.
 
-**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; capacity is told apart from crop (section 4); and the century's four works are computed (section 8). The first draft's central case is kept as a row of section 9.
+**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; capacity is told apart from crop (section 4); and the century's five works are computed (section 8). The first draft's central case is kept as a row of section 9.
 
 ## 1. The land in 1929 (our timeline, inside the frontier)
 
@@ -100,6 +100,8 @@ What could be grown is not what is grown. The crop is the Realm's own table and 
 | 1932 | 36.2 | 2.7 | 38.8 | 41.6 | 2.7 | 40% | 195 | 0 | 195 | 0% | 488 |
 
 People and mouths in millions; nitrogen in thousand tonnes a year. A mouth is 1.05 tonnes of grain or its equivalent. *Sold abroad* (MODEL): California's wheat to Liverpool and to North China's famine of 1876-79 (canon); the Volga in 1891 (canon: Victoria sends grain); Japan's and China's coast from the 1890s; the Entente on credit in 1915-19; Asia in the 1920s. At 4 million tonnes in 1929 it is about a sixth of the world's wheat trade (20–24.5 million tonnes a year in the late 1920s). *The full ask* is the nitrogen the two nitrogen-bound components would take in every field (canon's own 25 tonnes of grain per tonne). The Realm takes at most 35% of Chile's trade; the home plants give 50 thousand tonnes in 1920, 150 thousand tonnes in 1925, 250 thousand tonnes in 1930 to the fields (MODEL; review S1).
+
+In 1917 the Entente asks 7 million tonnes. Capacity binds that year, so the Realm ships 5.8 million mouths, about 6.1 million tonnes (CR-082 review 2, S1).
 
 - **The margin is thin.** Capacity is at most 46% above residents (in 1897, before the rivers' own flow is all in use) and between 15% and 32% above them from 1905. No table shows a country twice fed.
 - **Chile is needed early.** By 1910 the fields take 89 thousand tonnes of nitrogen, 24% of all Chile exports. Without it the Realm could sell 1.1 million mouths' worth abroad in 1910 instead of 2.6, and from 1930 it could not feed itself.
