@@ -3,11 +3,20 @@ name: Pacifica — validate canonical characters
 on:
   pull_request:
     paths:
+      # Canon files, the same list in the storyline, commitments and characters workflows,
+      # so an integration PR always runs all three together.
+      - "book-agent/revision/change_requests.json"
+      - "book-agent/revision/master_storyline.md"
+      - "book-agent/revision/approved_change_index.md"
+      - "book-agent/revision/canon_facts.toml"
       - "book-agent/revision/character_bible.md"
       - "book-agent/revision/character_registry.json"
       - "book-agent/revision/legacy_character_crosswalk.json"
-      - "book-agent/revision/validate_character_docs.py"
       - "book-agent/character_bible.json"
+      - "commitments/**"
+      - "AGENTS.md"
+      # This workflow's own tools.
+      - "book-agent/revision/validate_character_docs.py"
       - ".github/workflows/pacifica-characters-check.yml"
   workflow_dispatch:
 
