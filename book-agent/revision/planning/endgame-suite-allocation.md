@@ -1,6 +1,6 @@
 # The summer of 1932: the renunciation and the food order
 
-**Status:** planning note, 23 November 2026, fourth version. Not canon. It sets the book's ending and says what each of the endgame drafts must establish for that ending to be believed. CR-083 is not revised here at the author's direction, but its two contributions are named.
+**Status:** planning note, 23 November 2026, fifth version. Not canon. It sets the book's ending and says what each of the endgame drafts must establish for that ending to be believed. CR-083 is not revised here at the author's direction, but its two contributions are named.
 
 **Authority.** The author's words:
 
@@ -14,6 +14,8 @@
 
 >
 > I would say the article has to also regulate what happens to the spent fuel to Pacifica's exclusive advantage. By then even if the article's specifications tipped them off, wouldn't it be too late for the other powers to do anything with that information anyway? I agree with your canon changes except for the final one. That the moral cost remains unresolved should be left to the reader. (19:32)
+>
+> I meant it shouldn't be stated on page. (19:35)
 
 The ending is therefore decided by the author: **a renunciation agreement and the food order**, with the spent fuel going to the Realm. The earlier versions of this note (an open 1937; then a safety-and-notice convention) are withdrawn. How the drafts get there is Claude's proposal under the delegation of 18:18. Section 7 records the author's decisions of 19:32 on the amendments of canon.
 
@@ -116,14 +118,19 @@ Where the risk actually sits is France. It reserves on Article I, it has the sch
 
 ## 7. Amendments of canon, as the author decided them
 
-The author, 19:32: "I agree with your canon changes except for the final one. That the moral cost remains unresolved should be left to the reader." Items 1 to 5 are therefore approved in direction; item 6 is refused and canon stands. Each approved item still enters its draft as a canon tension with both cases and is marked decided there with these words.
+The author, 19:32: "I agree with your canon changes except for the final one. That the moral cost remains unresolved should be left to the reader." At 19:35 he made the last sentence precise: "I meant it shouldn't be stated on page." Items 1 to 5 are therefore approved in direction. Item 6 is decided differently from both of the note's earlier cases. Each approved item still enters its draft as a canon tension with both cases and is marked decided there with these words.
 
 1. **A British device "about 1933–1935" (L1614), in CR-086.** The reckoning stands as the Works' estimate of 1928. The renunciation overtakes it: Britain stops. This ends a race that canon and the CR-086 draft keep alive past 1932. **Approved (author, 19:32).**
 2. **"Like the Republic's further purpose in the Pacific, the aim is never stated" (L1672), in CR-086.** The aim stays unstated; the rule of never denying is published and voted. The sentence itself is not changed. **Approved (author, 19:32).**
 3. **"Japan may refuse in 1937" (L1734), in CR-085.** Case A keeps the clause as law. Case B makes the renewal of 1932 without term, reviewed every five years, in answer to the coup. A Concord that guarantees the world's bread and holds its only weapons cannot plausibly be five years from dissolving. **Case B approved (author, 19:32).**
 4. **The conference's close (L1746), in CR-086.** Canon has June–July; the Final Act on 1 August is an addition. **Approved (author, 19:32).**
 5. **A pledge by the Realm, in CR-086.** Whether Article I carries the Realm's undertaking not to use the weapon against a signatory. It is a new commitment and the strongest answer to the others' fear. Without it Britain's signature is harder to believe. It is one sentence, and the Navy objects. **Approved (author, 19:32).**
-6. **The closing notes (L1754, L1758). Refused (author, 19:32): canon stands.** Victoria remains "conscious of the Altai and the price of its victory", and the final history still "leaves the victory real and its moral cost unresolved". The finale is triumphant and the book does not settle what it cost; that judgement is the reader's. No draft adds a sentence that resolves it in either direction, and none removes these two.
+6. **The closing notes (L1754, L1758), in CR-086. Decided (author, 19:32 and 19:35): the cost is shown and never named.**
+   - No sentence on the page says that the victory's moral cost is unresolved, and none says that it is settled. The reader draws the conclusion.
+   - What carries the cost stays: the Altai, the Chronicler's sealed cylinders and the hidden testimony, the archive that "records the triumph and what it conceals", and the accounts that "need not agree" (L1758). These are things and events, not verdicts.
+   - On integration the one clause of the storyline that states the verdict is cut: "the final history leaves the victory real and its moral cost unresolved" (L1758). The sentences around it stand.
+   - L1754 stands. Victoria "conscious of the Altai and the price of its victory" is a fact about a character, not the narrator's judgement. This reading is Claude's; if the author counts it as stating the cost, the last clause of L1754 goes too.
+   - The protected intent on Noe Ward's death is untouched.
 
 7. **The spent-fuel clause of Article I (author, 19:32).** New since the third version; see section 2 and section 4. It extends L1634's rule for Tokyo to every signatory.
 
@@ -150,7 +157,7 @@ The author, 19:32: "I agree with your canon changes except for the final one. Th
 3. Part C, Article I in its three clauses: who signs and why, France's reservation, how it is checked, the spent fuel delivered to the Works on the true ground of its danger, and Szilárd's objection inside the wall.
 4. Part D, Article II: the pledge, the scheduled contracts with the Pampas restored, the chambers' vote.
 5. Part E, the Final Act and 1 August; Guaymas's chartered district annexed.
-6. Tensions 1, 2, 4, 5 and 7, each marked decided with the author's words of 19:32. Leave L1754 and L1758 as they are.
+6. Tensions 1, 2, 4, 5 and 7, each marked decided with the author's words of 19:32. Tension 6 as decided: cut the one clause of L1758 that states the verdict; add no sentence in any draft that names the cost as unresolved or as settled.
 7. Drop the safety-and-notice convention, Canada, Siam's protocol and third-state leasing.
 
 **CR-083:** nothing changes here, but its prairie contract and Great Bear renewal are now load-bearing for both articles. It should say so.
