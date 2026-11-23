@@ -4,6 +4,8 @@
 
 Answer each line with **yes** (approved as written), **no**, or a change. A blank is read as still PROPOSED.
 
+**Answered by the author in his own words on 23 November 2026, 23:11, and applied:** 83-4 (yes, with "balanced-budget limits" trimmed to "audited accounts and debt-service limits"); 84-6 (the split is `T-F1` and `T-U1`, both yes); 84-7 (`T-S1` Case A, yes); 85-4 (yes; Harlan Tate's age left to the drafter, who pegs his birth at about 1866). With the same message he sent a sheet answering "Yes" to all 29 items with reasons. Its wording is an adviser's, addressed to him, so the other 25 stay PROPOSED until he says he adopts it.
+
 ## CR-083 (revision 9)
 
 | # | Item, as the draft now has it | What the quoted words cover |
