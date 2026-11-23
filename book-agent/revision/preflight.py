@@ -254,8 +254,10 @@ def check_citations(text: str, story_lines: list[str] | None = None) -> list[str
         hint = (f"; the phrase is on line {', '.join(map(str, hits[:4]))}" if hits
                 else "; the phrase is nowhere in the storyline")
         errors.append(f"citations: {where}: \"{m.group(4)}\" is not on {label}{hint}")
+    anchored_lines = {n for first, last in anchored for n in (first, last)}
     for (first, last), line in sorted(bare.items()):
-        if (first, last) not in anchored:
+        # A bare range is covered when both its ends are anchored somewhere in the draft.
+        if (first, last) not in anchored and not {first, last} <= anchored_lines:
             label = f"L{first}" + (f"–{last}" if last != first else "")
             errors.append(f"citations: line {line}: {label} is never given an anchor phrase in this draft; "
                           f"write {label} (\"a phrase from that line\") at least once")

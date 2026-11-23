@@ -162,6 +162,13 @@ class Citations(unittest.TestCase):
     def test_fences_and_comments_are_not_read(self):
         self.assertEqual(self.check("see below\n\n```\nL99\n```\n<!-- L98 -->"), [])
 
+    def test_bare_range_is_covered_when_both_ends_are_anchored(self):
+        ends = 'L3 ("the Columbia compact") and L5 ("keeps the dollar convertible")'
+        self.assertEqual(self.check(f"See {ends}; together L3–5."), [])
+        errors = self.check('See L3 ("the Columbia compact"); together L3–5.')
+        self.assertEqual(len(errors), 1)
+        self.assertIn("L3–5", errors[0])
+
     def test_labels_ending_in_l_and_a_number_are_not_citations(self):
         self.assertEqual(self.check("See tension `T-L1` and decision N-L12."), [])
 
