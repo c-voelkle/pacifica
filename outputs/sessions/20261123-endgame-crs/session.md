@@ -27,7 +27,7 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 | D5 | PR #87 merged (squash, d0d2c93); the draft workflow runs on this branch | done |
 | Q1 | CR-085: `T-M4`, `T-H1`, `T-A1` were marked decided in revision 2 without his words; now shown as recommendations | open |
 | Q2 | CR-084: the combined annuity band of 15–20 for Caledonia, the retrenchment and the renunciation | open |
-| Q3 | Fresh-context reviews of the four drafts (none run this session) | open |
+| Q3 | Fresh-context reviews of the four drafts | run at the author's request, 20:11; all four say one more revision |
 | Q4 | Whether Australia and New Zealand sign Article I on Canada's footing | open |
 
 ## Checks executed
@@ -41,4 +41,6 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
-Revisions on `drafts/cr083-086-endgame`: CR-083 rev 8, CR-084 rev 6, CR-085 rev 3, CR-086 rev 2. All new scenes are PROPOSED: CR-084 `A2a` and `B5`, CR-085 Part A, CR-086 Parts A to E. Next: the author's answers to Q1, Q2 and Q4, then a fresh-context review of each draft, in merge order (CR-083 and CR-084, then CR-085, then CR-086), giving the reviewer only the draft, AGENTS.md and current canon. Sources carried into CR-086 from revision 1 and its review were not opened again; two *Hist.* dates there are from memory and are marked so.
+Revisions on `drafts/cr083-086-endgame`: CR-083 rev 8, CR-084 rev 6, CR-085 rev 3, CR-086 rev 2. The author decided at 20:11: CR-085's `T-M4`, `T-H1`, `T-A1` approved; the annuity band of 15–20 acceptable pending modelling; Australia and New Zealand sign Article I. Four fresh-context reviews ran in separate agents at his request (`CR-083-review-3.md`, `CR-084-review-3.md`, `CR-085-review-2.md`, `CR-086-review-2.md`); each verdict is "one more revision". They were run at the same time, so the later two read CR-084 before its review's fixes.
+
+Next, in merge order: revise each draft against its review. Shared across the four: (1) one account of the annuity tranche (date, order of votes, who objects) in CR-083, CR-084 and CR-086; (2) one calendar for April to 1 August 1932 (when London sees the article, when Hayama agrees it, promulgated and not ratified on 1 August, the Ottawa conference sitting that day); (3) the legal route for striking the Concord's term, with the Senate; (4) custody of the devices and Japan's place in Article I; (5) every APPROVED or "Decided" label that reaches beyond the author's quoted words, which only the author can settle. No fix has been applied since the reviews.
