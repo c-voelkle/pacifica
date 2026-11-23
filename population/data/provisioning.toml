@@ -306,11 +306,11 @@ status = "MODEL throughout. The sellers' figures a century on are our timeline's
 
 [endgame]
 # The contracts of 1931-32 (CR-083 A11; CR-086 D3). Drafts on branch drafts/cr083-086-endgame; not canon until merged.
-prairie_tonnes = 1500000          # a harvest; the band is 1.0 to 2.0 million (drafter's proposal, 24 November 2026)
+prairie_tonnes = 1000000          # a harvest; the band is 0.8 to 1.2 million (author, 24 November 2026, 00:12)
 prairie_harvests = 10             # 1932-41 (CR-083 A11)
 prairie_price = 18                # $ a tonne, the slump's price used for the Crown's granary (finance lever pv_gran_usd)
 canada_exports_1931_tonnes = 5600000   # 206 million bushels of wheat in 1931-32 (the sellers' list below; Hansard, 7 November 1933)
-status = "MODEL. The tonnage and the price are the drafter's proposals for CR-083's open band; Canada's exports are as in the sellers' list."
+status = "MODEL. The tonnage is the author's of 24 November 2026; the price is the drafter's proposal; Canada's exports are as in the sellers' list."
 
 [century.mariculture]
 # Work 5 (author, 22 November 2026, 07:55): a Pacific kelp aquaculture industry as a century project.

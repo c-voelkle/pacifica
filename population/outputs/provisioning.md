@@ -206,12 +206,12 @@ Together these sellers are 95% of the world's trade in grain and soybeans today 
 
 ### The contracts of 1931-32 (CR-083, CR-086)
 
-- **The prairie wheat contract** (the Patrimony's board, December 1931; CR-083 A11): 1.5 million tonnes a harvest for 10 harvests, 27% of what Canada sold abroad in 1931-32. At the slump's price it costs the board $27 million a year.
-- **Mouths fed in the Realm: 0.** The wheat is resold in Asia. Abroad it is bread for 1.4 million on the Realm's diet, which is the cabinet's second figure for the contract (CR-083 A12).
-- **Giannini's case.** The Realm itself sells 3.0 million tonnes abroad in 1932. The board's wheat is 50% of that, sold to the same buyers.
+- **The prairie wheat contract** (the Patrimony's board, December 1931; CR-083 A11): 1.0 million tonnes a harvest for 10 harvests, 18% of what Canada sold abroad in 1931-32. At the slump's price it costs the board $18 million a year.
+- **Mouths fed in the Realm: 0.** The wheat is resold in Asia. Abroad it is bread for 1.0 million on the Realm's diet, which is the cabinet's second figure for the contract (CR-083 A12).
+- **Giannini's case.** The Realm itself sells 3.0 million tonnes abroad in 1932. The board's wheat is 33% of that, sold to the same buyers.
 - **Article II** (CR-086 D6) feeds no one in the Realm. Its schedule is this contract, New Zealand's crop guarantee and the private houses' Pampas contracts; the Pampas volumes are not modelled.
 
-`[endgame]`: MODEL. The tonnage and the price are the drafter's proposals for CR-083's open band; Canada's exports are as in the sellers' list.
+`[endgame]`: MODEL. The tonnage is the author's of 24 November 2026; the price is the drafter's proposal; Canada's exports are as in the sellers' list.
 
 ## 9. What moves the result
 

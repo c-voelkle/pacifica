@@ -41,19 +41,13 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
-State on 24 November 2026, after the third review round and the model rebuild (the author's message of 23 November, 23:52):
+State on 24 November 2026, after the fourth revision round (the author's "I agree. Please revise them and rerun the workbook", 00:12):
 
 - Branch `drafts/cr083-086-endgame`. Nothing is integrated, `main` is untouched, no integration PR is open.
-- The author's six answers of 23:52 are applied: `CR-084` `T-A2` Case B; `CR-086` `T-8` Case B and `T-9` Case B; `CR-083` `T14` and `T15` Case B; the former German Samoa, New Guinea and Nauru are Pacifica's.
-- Third-round reviews: `CR-083-review-5.md`, `CR-084-review-5.md`, `CR-085-review-4.md`, `CR-086-review-4.md`. Every verdict is "one more revision". No finding has been applied except one plain error of fact in `CR-084` (Rabaul and Nauru lie north of 10° S).
-- Models rebuilt on this branch (`finance/CR-083-086-workbook.md`): `finance/build/cr083_086_endgame.py` is the chain's new last step; the provisioning model has lost the northern water and sizes the prairie contract. Story 0 failed checks, Stress 51. `AGENTS.md`'s paragraph on the financial files is not yet updated; that belongs to integration.
+- Revised against the third-round reviews and the author's six decisions of 00:12, and passing preflight: `CR-083` revision 11, `CR-084` revision 9, `CR-085` revision 6, `CR-086` revision 5. None of these revisions has been reviewed in a fresh context.
+- Decided at 00:12: Inukai dies on 15 May, Takahashi's cabinet resolves the offer and Saitō's confirms it on 26 May, Hayama on 12–15 June; the union has no term and the Crown of Pacifica holds the executive until both crowns agree otherwise at a review; Caledonia's twenty-five years are consecutive; the annuities split as 2 near-end (Caledonia), 4 near-end (the signature) and 11 far-end (the retrenchment); the wheat contract at 1.0 million tonnes; the refusal over Caledonia is Julian's third.
+- Models rebuilt with those sizes (`finance/CR-083-086-workbook.md`): Story 0 failed checks, Stress 51; $395m written off in 1932; the tranches are worth $93m, $169m and $114m.
+- Each draft lists at the end of `## Decisions` the third-round findings it does not yet address. Not yet written: the fact change for Inukai's death and registry entries for Saitō Makoto and Araki Sadao (`CR-085` `T-I1`).
+- `AGENTS.md`'s paragraph on the financial files is not updated; that belongs to integration.
 
-Blockers from the third round, by draft:
-- `CR-083`: the refusal over Caledonia is Julian's third by `L1593`, not his second; Caledonia's tranche comes from the far end and relieves nothing, against "the Exchequer needs relief"; the admission clause's rule for a failed year departs from the Gulf's twenty-five consecutive years with no tension listed.
-- `CR-084`: Britain decides without asking who else signs, while France reserves; the deadline of 30 June has no force once the April accord carries the suspension.
-- `CR-085`: which cabinet makes the offer after 15 May; nobody who can bind Japan is at the Hayama table; what exactly has no term, the union or the executive trust.
-- `CR-086`: Article II is both the cabinet's proposal of the winter and the sufficers' condition of July; Julian's "only signature" against "both crowns ratify that day", and who acts for Japan's crown; labels APPROVED in the table and PROPOSED in the body.
-
-Model findings for the author: 17 annuities are 31% of Britain's book only because the third tranche is near-end; the signature tranche is $262m of $375m; the split 5/6/6 and the contract's 1.5 million tonnes are the drafter's proposals; at that size the board's wheat is half of the Realm's own sales abroad.
-
-Next: the author's word on a fourth revision round and on the proposed sizes.
+Next: a fourth fresh-context review in merge order if the author wants one; then the registry commit and integration on his word.

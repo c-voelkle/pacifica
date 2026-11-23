@@ -15,9 +15,9 @@ What this adds:
 - Loans, Europe group, 1932: Britain's cancelled annuities written off (CR-084 B1, T-A2). The
   workbook holds the Treasury's European claims as one balance repaid at a flat rate, so Britain's
   part is a lever (eg_uk_share) and the 62-year schedule of 1923 is worked on the new Endgame sheet:
-  53 annuities left after the moratorium year; two tranches taken from the end of the schedule
-  (Caledonia, the retrenchment) and one from the near end (the signature); the suspended annuity
-  written off on 1 August.
+  53 annuities left after the moratorium year; Caledonia's two and the signature's four from the
+  near end and the retrenchment's eleven from the end of the schedule (author, 24 November 2026,
+  00:12); the suspended annuity written off on 1 August.
 - Events rows: the loan of 1871 to British Columbia (CR-083 A2); Tokyo Dento's share of the Tokyo
   station, as a receipt against a cost the Atomic sheet enters as Pacifica's (CR-085 C1); the
   Fanning and Washington plantation buyout (CR-084 B4); and three memos that move no Treasury cash:
@@ -64,18 +64,18 @@ LEVERS = [
      "Paths, coupon on European loans", "Canon: 'at reduced interest'."),
     ("eg_left", "Annuities left after the moratorium year (1933-1985)", 53, 53, "annuities",
      "CR-084 B1", "Sixty-two from 1923; 1923-1930 paid, 1931-32 suspended."),
-    ("eg_n1", "Tranche 1, Caledonia: annuities cancelled, from the end of the schedule", 5, 6, "annuities",
-     "Drafter's proposal (MODEL)", "CR-083 A7. Trigger: the Severance Act, June 1932."),
-    ("eg_n2", "Tranche 2, the retrenchment: annuities cancelled, from the end of the schedule", 6, 7, "annuities",
-     "Drafter's proposal (MODEL)", "CR-084 B1. Trigger: Westminster ratifies the retrenchment treaty, autumn 1932."),
-    ("eg_n3", "Tranche 3, the signature: annuities cancelled, from the near end (1933 onward)", 6, 7, "annuities",
-     "Drafter's proposal (MODEL); T-A2 Case B, author 23 Nov 2026, 23:52", "CR-084 B5. Trigger: Westminster ratifies the Final Act, autumn 1932."),
+    ("eg_n1", "Tranche 1, Caledonia: annuities cancelled, from the near end (1932-33 onward)", 2, 2, "annuities",
+     "Author, 24 Nov 2026, 00:12 (MODEL)", "CR-083 A7. Earned by the Severance Act, late June 1932."),
+    ("eg_n2", "Tranche 2, the retrenchment: annuities cancelled, from the end of the schedule", 11, 13, "annuities",
+     "Author, 24 Nov 2026, 00:12 (MODEL); Stress is the top of the band of 20", "CR-084 B1. Trigger: Westminster ratifies the retrenchment treaty, autumn 1932."),
+    ("eg_n3", "Tranche 3, the signature: annuities cancelled, from the near end, after Caledonia's", 4, 5, "annuities",
+     "Author, 24 Nov 2026, 00:12 (MODEL); T-A2 Case B", "CR-084 B5. Trigger: Westminster ratifies the Final Act, autumn 1932."),
     ("eg_bc_loan", "Loan of 1871 to the colony of British Columbia ($m)", 2, 3, "$m",
      "CR-083 A2 (MODEL)", "With the Puget Sound rail link and free entry for coal, timber and fish."),
     ("eg_bc_debt", "The dominion's gold-dollar bonds refunded by private syndicates, 1932 ($m)", 90, 120, "$m",
      "CR-083 A3, A10 (MODEL, recalled)", "Mountain section, the Pacific Great Eastern and war borrowing. Our timeline's province owed well over $100m by 1932 (to verify). A refunding of bonds San Francisco already holds: memo, no new outflow."),
-    ("eg_wheat_t", "Prairie wheat contract: tonnes a harvest", 1500000, 2000000, "tonnes",
-     "Drafter's proposal (MODEL)", "CR-083 A11. Canada sold 5.6 million tonnes abroad in 1931-32 (population/data/provisioning.toml)."),
+    ("eg_wheat_t", "Prairie wheat contract: tonnes a harvest", 1000000, 1200000, "tonnes",
+     "Author, 24 Nov 2026, 00:12 (MODEL)", "CR-083 A11. Canada sold 5.6 million tonnes abroad in 1931-32 (population/data/provisioning.toml)."),
     ("eg_wheat_usd", "Prairie wheat contract: price ($ a tonne)", 18, 18, "$ a tonne",
      "As pv_gran_usd (MODEL)", "The slump's price."),
     ("eg_fanning", "Fanning and Washington: plantation buyout ($m)", 0.4, 0.6, "$m",
@@ -125,17 +125,18 @@ def build_sheet(wb) -> None:
         ("Britain's part of the Treasury's European claims, end of 1931 ($m)", "=eg_uk_share*Loans!O91"),          # 4
         ("Value of one annuity for $1 a year over the annuities left", "=(1-(1+eg_rate)^-eg_left)/eg_rate"),          # 5
         ("Britain's annuity ($m a year)", "=B4/B5"),                                                                    # 6
-        ("Tranche 1, Caledonia: principal cancelled, share of the book", "=(1+eg_rate)^-(eg_left-eg_n1)*(1-(1+eg_rate)^-eg_n1)/eg_rate/B5"),  # 7
-        ("Tranche 2, the retrenchment: share of the book",
-         "=(1+eg_rate)^-(eg_left-eg_n1-eg_n2)*(1-(1+eg_rate)^-eg_n2)/eg_rate/B5"),                                     # 8
-        ("Tranche 3, the signature (near end): share of the book", "=(1-(1+eg_rate)^-eg_n3)/eg_rate/B5"),             # 9
+        ("Tranche 1, Caledonia (near end): principal cancelled, share of the book", "=(1-(1+eg_rate)^-eg_n1)/eg_rate/B5"),  # 7
+        ("Tranche 2, the retrenchment (far end): share of the book",
+         "=(1+eg_rate)^-(eg_left-eg_n2)*(1-(1+eg_rate)^-eg_n2)/eg_rate/B5"),                                     # 8
+        ("Tranche 3, the signature (near end, after Caledonia's): share of the book",
+         "=(1+eg_rate)^-eg_n1*(1-(1+eg_rate)^-eg_n3)/eg_rate/B5"),             # 9
         ("All three tranches: share of the book cancelled", "=B7+B8+B9"),                                              # 10
         ("Annuities cancelled, by count", "=eg_n1+eg_n2+eg_n3"),                                                       # 11
         ("By count, share of the annuities left", "=B11/eg_left"),                                                     # 12
         ("The suspended annuity of 1931-32: principal part written off ($m)", "=B4*Paths!AA90"),                        # 13
         ("Written off in 1932 ($m) [read by Loans]", "=eg_on*(B4*B10+B13)"),                                           # 14
-        ("Britain pays nothing in the years", '="1933 to "&(1932+eg_n3)'),                                             # 15
-        ("Britain's last annuity falls in", "=1985-eg_n1-eg_n2"),                                                      # 16
+        ("Britain pays nothing in the annuity years", '="1932-33 to "&(1931+eg_n1+eg_n3)&"-"&(eg_n1+eg_n3+32)'),                                             # 15
+        ("Britain's last annuity year ends in", "=1985-eg_n2"),                                                      # 16
         ("If all three tranches came from the end (item 84-8 as first approved): share of the book",
          "=(1+eg_rate)^-(eg_left-B11)*(1-(1+eg_rate)^-B11)/eg_rate/B5"),                                               # 17
         ("Tranche 1 ($m)", "=B4*B7"), ("Tranche 2 ($m)", "=B4*B8"), ("Tranche 3 ($m)", "=B4*B9"),                      # 18-20

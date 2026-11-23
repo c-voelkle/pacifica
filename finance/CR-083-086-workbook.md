@@ -2,6 +2,8 @@
 
 **Authorization:** the author, 23 November 2026, 23:52 ("Please run the third review and then proceed to rebuild the models").
 
+**Rebuilt twice on 24 November 2026:** first with the drafter's proposed sizes, then with the author's of 00:12 (the split of 2, 4 and 11 and the contract at 1.0 million tonnes). This note gives the second.
+
 **Status:** the four CRs are drafts on branch `drafts/cr083-086-endgame` and are not canon. These model changes live on that branch with them and go to `main` only with the CRs. Every amount is MODEL. Where a draft leaves a band OPEN, the size used here is the drafter's proposal and is marked so.
 
 Three things changed:
@@ -19,19 +21,21 @@ The workbook holds the Treasury's European claims as one balance ($2,023m at the
 | --- | --- | --- |
 | Britain's part of the claims, end of 1931 | $1,214m | $1,755m |
 | Britain's annuity | $48.8m a year | $74.6m a year |
-| Tranche 1, Caledonia, from the end of the schedule | 5 annuities, 3.8% of the book, $47m | 6 |
-| Tranche 2, the retrenchment, from the end | 6 annuities, 5.5%, $67m | 7 |
-| Tranche 3, the signature, from the near end | 6 annuities, 21.6%, $262m | 7 |
+| Tranche 1, Caledonia, near end (1932–33, 1933–34) | 2 annuities, 7.7% of the book, $93m | 2 |
+| Tranche 2, the retrenchment, from the end (1974–75 to 1984–85) | 11 annuities, 9.4%, $114m | 13 |
+| Tranche 3, the signature, near end (1934–35 to 1937–38) | 4 annuities, 13.9%, $169m | 5 |
 | All three | 17 annuities, **30.9% of the book** | 20 annuities, 36.2% |
 | The suspended annuity, principal part | $19m | |
 | **Written off in 1932** | **$395m** | $702m |
-| Britain pays nothing in | 1933 to 1938 | 1933 to 1939 |
-| Britain's last annuity | 1974 | 1972 |
+| Britain pays nothing in the annuity years | 1932–33 to 1937–38 | to 1938–39 |
+| Britain's last annuity year ends | 1974 | 1972 |
 
-Three findings for the drafts:
-- **A count of annuities is not a share of the book.** `CR-084` `B1` calls 15 to 20 of 53 annuities "~28–38% of remaining principal". That holds only because the third tranche now comes from the near end (`T-A2`, decided 23 November, 23:52). Had all 17 come from the end, as item 84-8 first had it, they would be 16.0% of the book (Story; 19.9% in Stress): annuities due in the 1970s and 1980s are worth little in 1932.
-- **The signature is most of the price.** The six annuities of 1933–38 are worth $262m, more than twice the other two tranches together ($114m). Caledonia's tranche is $47m.
-- **The split of 5, 6 and 6** is the drafter's proposal. The author found the band of 15 to 20 "acceptable pending modeling" (23 November, 20:11); the split is his to decide.
+The split of 2, 4 and 11 is the author's (24 November 2026, 00:12). An annuity year runs from 1 July to 30 June, so Britain's next instalment after the moratorium is that of 15 December 1938.
+
+Findings for the drafts:
+- **A count of annuities is not a share of the book.** Had all 17 come from the end, as item 84-8 first had it, they would be 16.0% of the book (Story; 19.9% in Stress), not the "~28–38%" the draft then stated: annuities due in the 1970s and 1980s are worth little in 1932.
+- **Two near-end annuities for Caledonia are worth about as much as eleven far-end ones for the retrenchment** ($93m against $114m). The signature stays the largest tranche.
+- **Britain's part of the claims, six-tenths, has no source.** Every dollar figure above scales with it.
 
 ## Events rows
 
@@ -40,7 +44,7 @@ Three findings for the drafts:
 | E258 | 1871 | Loan (Continental) | $2m | $3m | British Columbia: the loan to the colony with the Puget Sound rail link (`CR-083` `A2`) |
 | E259 | 1928–31 | Receipt | $3.1m a year | $2.5m a year | Tokyo station: Tokyo Dentō's site, containment, turbines and grid, 55% of the $22.4m the Atomic sheet enters as Pacifica's (`CR-085` `C1`) |
 | E260 | 1932 | Purchase | $0.4m | $0.6m | Fanning and Washington: the plantation buyout (`CR-084` `B4`; no source) |
-| E261 | 1932 | Commitment (memo) | $27m | $36m | The prairie wheat contract's first harvest, bought by the Patrimony's board: 1.5 million tonnes at $18 (`CR-083` `A11`) |
+| E261 | 1932 | Commitment (memo) | $18m | $21.6m | The prairie wheat contract's first harvest, bought by the Patrimony's board: 1.0 million tonnes at $18 (`CR-083` `A11`; Stress 1.2 million) |
 | E262 | 1932 | Commitment (memo) | $90m | $120m | The dominion's gold-dollar bonds refunded by private syndicates (`CR-083` `A10`; recalled, to verify) |
 | E263 | 1932 | Commitment (memo) | $300m | $400m | Private stabilization credits to Britain, Germany and France (`CR-086` `B1`; no source) |
 
@@ -65,9 +69,9 @@ The Budget, Loans and money sheets do not read the Commitment category, so the t
 
 - **The northern water is withdrawn** (item 83-1). `[century]` loses `water_km3` and its companions, and `century()` no longer counts work 2. The Realm's own works feed 89.0 million a century on (was 115.2 million), 16% of the need. To close the plan the Realm must buy **81%** of what the listed sellers sell abroad (was 76%), about 76% of the world's grain and soybean trade of today. The storyline's "three-quarters or more" (`L1672`) holds.
 - **One result moves against a sentence of the report.** Without the Union's grain, every tonne of every other seller now reaches 95% of the need, not 100%. If the storyline or `CR-082` says that the plan can close without the Union, that sentence needs a look on integration.
-- **The prairie wheat contract** is sized in a new `[endgame]` block: 1.5 million tonnes a harvest for ten harvests, 27% of Canada's exports of 1931–32, $27m a year at the slump's price.
-  - The cabinet's second figure (`CR-083` `A12`): 0 mouths in the Realm; abroad, bread for 1.4 million on the Realm's diet.
-  - Giannini's case: the Realm itself sells 3.0 million tonnes abroad in 1932, so the board's wheat is half as much again in the same market. That is a large share, and it makes his objection stronger than the draft lets it be. A band of 1.0 to 2.0 million tonnes is the drafter's proposal.
+- **The prairie wheat contract** is sized in a new `[endgame]` block: 1.0 million tonnes a harvest for ten harvests (author, 24 November 2026, 00:12; band 0.8 to 1.2), 18% of Canada's exports of 1931–32, $18m a year at the slump's price.
+  - The cabinet's second figure (`CR-083` `A12`): 0 mouths in the Realm; abroad, bread for about 0.95 million on the Realm's diet.
+  - Giannini's case: the Realm itself sells 3.0 million tonnes abroad in 1932, so the board's wheat is a third as much again in the same market.
 - Tests: `population/tests/test_provisioning.py`, 13 pass.
 
 ## Not done, and why
