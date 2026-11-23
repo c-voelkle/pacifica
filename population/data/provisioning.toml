@@ -294,12 +294,8 @@ status = "MODEL (no source for the Realm's own sales; about a million tonnes a y
 # The provisioners' plan for the century (CR-082 Part F, P-5): four works against the Realm
 # of Julian's table of 1930, a century on.
 yield_multiple = 3.2              # home yields against 1900-29: Washington's all-wheat yield of about 62 bushels an acre today against 19.15
+# Work 2 (the northern water: 20 and 45 km3 a year from the Peace and the Liard) was withdrawn with CR-083; author, 23 November 2026, item 83-1.
 yield_status = "partly verified: USDA NASS's state overview gives Washington's all wheat 62.6 bushels an acre in a recent year (read 22 November 2026); a ten-year mean is to be read from the same series"
-acre_feet_per_km3 = 810714
-water_km3 = {first_stage = 20, ceiling_in_law = 45}      # author, 21 November 2026, 20:32
-acre_feet_per_acre = 3.25
-tapped_flow_km3 = 112             # the Peace and the Liard together where they would be tapped: the outline's N-7, from general knowledge
-water_status = "MODEL. The sizes are the author's; the rivers' flows are recalled and to verify (Water Survey of Canada)."
 diet_saving = 0.22                # poultry, pork, fish and the soybean for beef: a fifth to a quarter less land (outline C7, no source)
 diet_status = "MODEL (no source). It breaks the Office's own assumption of a constant diet. Author, 22 November 2026: the nature of Pacifica's diet is open for a future culinary CR, so work 4 is shown apart and is not part of the plan's total."
 world_trade_today_tonnes = 650000000
@@ -307,6 +303,14 @@ world_trade_status = "recalled: world exports of wheat (about 200 million tonnes
 grain_trade_aim = "Author, 22 November 2026, 08:02: the strategic ambition becomes control of the world's grain trade, and how Pacifica under Julian mobilizes for it is the guiding principle of CR-081."
 
 status = "MODEL throughout. The sellers' figures a century on are our timeline's exports of today: what those lands in fact came to sell after a century of the same science, at their own peoples' tables. They are stated from general knowledge and are to verify (USDA PSD, FAOSTAT). Meat, butter and wool are not counted."
+
+[endgame]
+# The contracts of 1931-32 (CR-083 A11; CR-086 D3). Drafts on branch drafts/cr083-086-endgame; not canon until merged.
+prairie_tonnes = 1500000          # a harvest; the band is 1.0 to 2.0 million (drafter's proposal, 24 November 2026)
+prairie_harvests = 10             # 1932-41 (CR-083 A11)
+prairie_price = 18                # $ a tonne, the slump's price used for the Crown's granary (finance lever pv_gran_usd)
+canada_exports_1931_tonnes = 5600000   # 206 million bushels of wheat in 1931-32 (the sellers' list below; Hansard, 7 November 1933)
+status = "MODEL. The tonnage and the price are the drafter's proposals for CR-083's open band; Canada's exports are as in the sellers' list."
 
 [century.mariculture]
 # Work 5 (author, 22 November 2026, 07:55): a Pacific kelp aquaculture industry as a century project.
