@@ -162,6 +162,9 @@ class Citations(unittest.TestCase):
     def test_fences_and_comments_are_not_read(self):
         self.assertEqual(self.check("see below\n\n```\nL99\n```\n<!-- L98 -->"), [])
 
+    def test_labels_ending_in_l_and_a_number_are_not_citations(self):
+        self.assertEqual(self.check("See tension `T-L1` and decision N-L12."), [])
+
     def test_template_cites_nothing(self):
         self.assertEqual(preflight.check_citations(TEMPLATE, STORY), [])
 
