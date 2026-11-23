@@ -1,0 +1,51 @@
+name: Pacifica — preflight CR drafts
+
+# Mechanical checks on CR drafts (book-agent/revision/preflight.py --draft): headings,
+# fact changes, ledger IDs and storyline citations. Drafts live on drafts/** branches
+# before any pull request, so this runs on pushes there as well.
+
+on:
+  push:
+    branches:
+      - "drafts/**"
+    paths:
+      - "book-agent/revision/CR-[0-9][0-9][0-9].md"
+  pull_request:
+    paths:
+      - "book-agent/revision/CR-[0-9][0-9][0-9].md"
+      - "book-agent/revision/preflight.py"
+      - ".github/workflows/pacifica-cr-draft.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # the diff below needs the base commit
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Preflight every CR draft this branch changes
+        env:
+          BASE_REF: ${{ github.base_ref || github.event.repository.default_branch }}
+        run: |
+          git fetch --quiet origin "$BASE_REF"
+          files=$(git diff --name-only --diff-filter=AM "origin/$BASE_REF...HEAD" -- \
+            'book-agent/revision/CR-[0-9][0-9][0-9].md')
+          if [ -z "$files" ]; then
+            echo "No CR draft changed against $BASE_REF."
+            exit 0
+          fi
+          status=0
+          for f in $files; do
+            echo "::group::$f"
+            # --skip-approved: integration edits old CR records that predate CR-TEMPLATE.md
+            python3 book-agent/revision/preflight.py --draft "$f" --skip-approved || status=1
+            echo "::endgroup::"
+          done
+          exit $status
