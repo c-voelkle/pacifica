@@ -1,10 +1,10 @@
 # Endgame CRs: approvals to confirm or strike
 
-**Status:** 23 November 2026. Not canon. The four fresh-context reviews of that day each found labels reading APPROVED or "Decided" that reach further than the author's quoted words. At 20:25 the author accepted this procedure: one list across the four drafts, and everything on it downgraded to PROPOSED in the drafts until he answers.
+**Status:** 23 November 2026; answered in full by the author at 23:11 and 23:14. Not canon: approval of these items is not approval to integrate. The four fresh-context reviews of that day each found labels reading APPROVED or "Decided" that reach further than the author's quoted words. At 20:25 the author accepted this procedure: one list across the four drafts, and everything on it downgraded to PROPOSED in the drafts until he answers.
 
 Answer each line with **yes** (approved as written), **no**, or a change. A blank is read as still PROPOSED.
 
-**Answered by the author in his own words on 23 November 2026, 23:11, and applied:** 83-4 (yes, with "balanced-budget limits" trimmed to "audited accounts and debt-service limits"); 84-6 (the split is `T-F1` and `T-U1`, both yes); 84-7 (`T-S1` Case A, yes); 85-4 (yes; Harlan Tate's age left to the drafter, who pegs his birth at about 1866). With the same message he sent a sheet answering "Yes" to all 29 items with reasons. Its wording is an adviser's, addressed to him, so the other 25 stay PROPOSED until he says he adopts it.
+**Answered by the author in his own words on 23 November 2026, 23:11, and applied:** 83-4 (yes, with "balanced-budget limits" trimmed to "audited accounts and debt-service limits"); 84-6 (the split is `T-F1` and `T-U1`, both yes); 84-7 (`T-S1` Case A, yes); 85-4 (yes; Harlan Tate's age left to the drafter, who pegs his birth at about 1866). With the same message he sent a sheet answering "Yes" to all 29 items with reasons, worded as an adviser's note to him. Asked whether he adopted it as his decision, he answered at 23:14: "Yes, I approve". **All 29 items are therefore approved**, 83-4 with its trim, and the drafts record each with those words. Notes the sheet attached and that remain open: the pace of February to June 1932 in CR-083 (accept it, or let compact ratifications run past Proclamation under the standstill rule).
 
 ## CR-083 (revision 9)
 
