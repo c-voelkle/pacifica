@@ -1,133 +1,138 @@
-# The summer of 1932: the finale, and who decides what in CR-084, CR-085 and CR-086
+# The summer of 1932: the renunciation and the food order
 
-**Status:** planning note, 23 November 2026, second version. Not canon. It allocates subjects among three unmerged drafts and sets the shape of the book's ending. CR-083 is left out at the author's direction.
+**Status:** planning note, 23 November 2026, third version. Not canon. It sets the book's ending and says what each of the endgame drafts must establish for that ending to be believed. CR-083 is not revised here at the author's direction, but its two contributions are named.
 
-**Authority.** The author delegated these choices and then set their direction:
+**Authority.** The author's words:
 
 > Please just do what you think makes for the best story and then report back to me. (23 November 2026, 18:18)
 >
-> This is ok but by a better story I meant a more triumphant ending, like a really John Williams esque maximalist top of the crescendo moment, rather than the common ambiguous or tense ending. (23 November 2026, 18:37)
+> This is ok but by a better story I meant a more triumphant ending, like a really John Williams esque maximalist top of the crescendo moment, rather than the common ambiguous or tense ending. (18:37)
+>
+> I'm just wondering if this convention is really what the world's only nuclear power would sign with other powers that had no nuclear weapons and very limited access to fuel. (19:01)
+>
+> I think a renunciation agreement and the food order would be an incredibly strong ending, these CRs should work together towards making that outcome believable. (19:16)
 
-The first version of this note ended the book on an open 1937 and an unsigned convention. That is withdrawn. The choices below are Claude's under the delegation; three of them amend canon and are listed in section 6 for the author's own decision.
+The ending is therefore decided by the author: **a renunciation agreement and the food order**. The earlier versions of this note (an open 1937; then a safety-and-notice convention) are withdrawn. How the drafts get there is Claude's proposal under the delegation of 18:18. Section 7 lists the amendments of canon that need the author's own decision.
 
 Line references are to `master_storyline.md`.
 
-## 1. The shape: every theme returns, and then they sound together
+## 1. The ending in one sentence
 
-A triumphant ending is not an ending without cost. In a finale the minor passages come first, and the last pages are in the major. So the rule for the three drafts is one of order:
+On 1 August 1932 the powers give up the weapon, and the Realm binds itself never to withhold bread.
 
-- **The fights, refusals and prices happen before the conference.** Each strand is argued, paid for and settled between 1927 and May 1932, with a named loser.
-- **Thalassia is where they are sealed, not where they are bargained.** Nobody haggles in the last chapter.
-- **The last day is unambiguous.** The order stands, every party has chosen it, and the book says so.
+The two halves need each other. A renunciation alone is a monopoly dictating terms, and no proud power signs it. A food pledge alone is charity. Together they are a bargain a frightened world can accept: the one state that could starve or destroy any other promises in a ratified act to do neither, and in return the others stop trying to become what it is.
 
-The six reviews asked for agency and cost, and they were right. They also said that twenty-five instruments signed in eight weeks flatten the ending. Both are answered the same way: the instruments are made earlier, and the conference closes with **one act that gathers them**.
+Both halves are already in canon, unspoken:
 
-## 2. The finale, in four entries
+- **The weapon.** "After 1927 the lead is defended by the next plant, not the old secret" (L1640). The Works reckons a British device for "about 1933–1935" (L1614).
+- **The bread.** "Control means being indispensable, never denying: the Realm refuses food to no partner and embargoes no neighbour in peace. Like the Republic's further purpose in the Pacific, the aim is never stated" (L1672).
 
-Each uses what canon already holds.
+The finale states the second sentence aloud for the first time. The aim, to be indispensable, stays unstated. The rule, never to deny, becomes law. That is the sufficers' price and Victoria's school's victory inside her son's triumph.
 
-1. **29 April 1932: Tokyo is lit.** "Tokyo, which burned in the earthquake of 1923, is lit by the Concord" (L1634). The station opens on the Emperor's birthday. CR-085 gives it its financing and announces the second station at Kansai the same day.
-2. **May 1932: Japan chooses.** The Restoration officers strike "to stop the Concord's first renewal", and "Emperor Shōwa and the navy stand against them, and the coup fails" (L1732). The coup produces the opposite of its aim: at Hayama the crowns agree the renewal, and Japan's own sovereign, navy and Diet are the ones who carry it. This is the turn of the whole ending, and it belongs to Japanese actors.
-3. **June–July 1932: the world comes to Thalassia.** The Union enters the order (L1746). Germany, Britain and France enter the monetary settlement (L1748). Britain signs its retrenchment. China ratifies its currency protocol. The dominions sign their treaty (L1752). Victoria, at ninety-three or ninety-four, brokers the Lands and Waters Charter, her "one last bargain" (L1738).
-4. **1 August 1932: the Final Act of Thalassia.** On the forty-fifth anniversary of the Constitution (L929), one instrument recites and annexes everything agreed since 1927 and is promulgated. History's model is the Final Act of the Congress of Vienna, which gathered that congress's separate treaties into one. It is carried by radio across the Pacific and by television to the halls and viewing rooms (L1728), on the day the founder's voice is broadcast each year (L1177).
+## 2. The Final Act of Thalassia
 
-Candidates for the last pages, for the author to choose among:
-- Julian speaks to Tokyo by radiotelephone as he did in 1928 (L1625), this time with the Final Act signed.
-- Kahekili's betrothal to a princess of a collateral imperial house (L1655) is proclaimed; L1734 says its "marriage can proceed".
-- Victoria, who switched the set off the first time she heard Elias's voice on the air (L1177), leaves it on.
+One instrument, promulgated on 1 August 1932, the forty-fifth anniversary of the Constitution (L929), annexing what was made since 1927. History's model is the Final Act of the Congress of Vienna. Its two great articles:
 
-## 3. Who owns what
+**Article I, the renunciation.** The signatories outside the Concord undertake to build no plant for separating the light uranium and to make no test. The Realm discloses nothing: no design, no figure, and its second record stays sealed to 1947 (L1612). Complaints go to the renewed arbitration court (L1746).
 
-| Subject | Owner | The other drafts |
+**Article II, the food order.** The Realm and Japan, as the Concord, undertake that grain and its means (seed, nitrogen, machines, credit, carriage) move to every signatory in peace at published prices, and that no signatory is embargoed in peace. The sellers under contract and the straits held open are scheduled to it.
+
+Everything else in the Act is annexed: the Union's settlement, the monetary settlement, the Concord's renewal, Britain's retrenchment, the Batavia Compact, China's protocol, the dominions' treaty.
+
+## 3. The finale, in four entries
+
+1. **29 April 1932: Tokyo is lit.** "Tokyo, which burned in the earthquake of 1923, is lit by the Concord" (L1634). The world sees what the atom gives a partner. The second station at Kansai is announced.
+2. **May 1932: Japan chooses.** The officers strike "to stop the Concord's first renewal"; "Emperor Shōwa and the navy stand against them, and the coup fails" (L1732). Japan's own institutions carry the renewal. Japan enters the finale inside the atomic order, as co-guarantor of the food order.
+3. **June–July 1932: the world comes to Thalassia.** The Union enters (L1746); Germany, Britain and France enter the monetary settlement (L1748); the dominions sign (L1752); Victoria brokers her "one last bargain" (L1738).
+4. **1 August 1932: the Final Act.** Carried by radio and by television to the halls and viewing rooms (L1728), on the day the founder's voice is broadcast each year (L1177).
+
+Candidates for the last pages: Julian's radiotelephone call to Tokyo (L1625); Kahekili's betrothal proclaimed (L1655); Victoria, who switched the set off the first time she heard Elias on the air (L1177), leaving it on.
+
+## 4. What must be true for the renunciation to be believed
+
+A power signs away a weapon only if it cannot get one soon, cannot afford one, is paid, and is less afraid afterwards than before. Each condition belongs to a draft.
+
+| Condition | What establishes it | Draft |
 |---|---|---|
-| The renewal of 1932: `C-1932-CONCORD-RENEWAL`, L1734, the May Hayama Council as a scene, the Navy seat, the quota | CR-085 | CR-084 does not amend the renewal or stage the Council. |
-| Japan's southern question, L1885 | CR-084 | Answered by what the Dutch treaty gives, the two leased piers. |
-| Britain's debt and `OPEN-019-05`, Labuan and Brunei, Fanning, Tonga, the Batavia Compact, the dominions' line | CR-084 | CR-086 says nothing on Britain's annuities. |
-| The yen and the adjustable parity, one instrument: `C-1932-ADJUSTABLE-PARITY` | CR-085 | CR-086 cites it by that name. |
-| The Tokyo station's financing, the Atomic Power Board, the Kansai station | CR-085 | CR-086 creates no second atomic body. |
-| Ore and thorium, 1919–1932; the atomic convention; China's currency; France's and Germany's terms | CR-086 | — |
-| **The Final Act of Thalassia and the day of 1 August** | CR-086, as the last of the three to merge | CR-084 and CR-085 each say their instruments are annexed to it. |
-| R. B. Bennett, the Great Bear renewal, Canada | CR-083 | CR-086 drops its `add_person` for Bennett and its Canadian section. |
+| **They cannot get the fuel.** | The ore is under contract before anyone knew why: Joachimsthal, Shinkolobwe, Fergana, the Western Slope, and Great Bear renewed for fifty years. After 1927 the Works buys what is left and loses some of it. | CR-086 Part A; CR-083 for Great Bear |
+| **They cannot get the heavy water or the tools.** | The Norsk Hydro contract (L1643) and the restricted goods (L1640), already canon. | CR-086, recited |
+| **They cannot afford it in 1932.** | The slump, sterling off gold, and the cost of the halls. Britain, "fully committed from 1928", is five years in and broke. | CR-084 for Britain's Treasury |
+| **Each is paid in the same Act.** | Britain: its annuities cut. The Union: "debt and gold rescue" (L1746). Germany: the debt settlement (L1748). | CR-084; CR-086 Part B |
+| **Each is less afraid afterwards.** | Article II, and the court. Possibly a pledge by the Realm not to use the weapon against a signatory (section 7, item 5). | CR-086 |
+| **It can be checked without the Realm opening its books.** | The ore ledgers, which the Works already keeps; the restricted-goods list; the cipher room, which has read British official traffic since 1925 (L1534). | CR-086 |
+| **The Concord's partner is inside, not outside.** | Japan has the stations and returns the bred elements. It renounces nothing because it is a party to the monopoly. | CR-085 |
 
-**Merge order:** CR-084, then CR-085, then CR-086.
+**Who signs, and who does not.** Britain and the Union sign because they are paid and broke. Germany signs because it "comes later" (L1614) and wants its debt settled. **France reserves on Article I.** Canon already says "France's grievance, Russian resentment of the lands lost in 1919–1921 and Union revanchists can still find one another" (L1752). One holdout makes the others' signatures mean something, and it is the coda's business, not the finale's.
 
-## 4. Japan: the bargain is won before the finale
+**The hard problem, for CR-086 to solve.** Article I can name only what the world knows: the light isotope and its separation. It cannot name the element that piles breed, which in 1932 is "an idea in Europe" (L1614), without telling Europe that irradiated fuel is worth having. So Europe's heavy-water power piles stay lawful. The draft must say how the Works lives with that: the heavy-water contract, the ore ledgers, and time.
 
-Julian's three levers of 1931 were "oil from Pacifica and the Gulf Republic, transport by the common navy and the yen's convertibility through common finance" (L1720). In 1932 he spends two of them on purpose, to strengthen the Japan that stood with the Emperor in May. The argument over that, and its losers, sit in the winter and spring.
+**The scene this gives.** Britain's choice. Its scientists say five more years; its Treasury says there is no money; the Admiralty has just lost Singapore. Churchill, who was shown one sheet of the Petrograd account in 1927, knows what a breach would cost. The cabinet signs. This is the largest single decision any foreign party makes in the suite, and CR-084 should stage it.
 
-| Japan receives | Who in the Realm objects, and loses |
+## 5. What must be true for the food order to be believed
+
+| Condition | What establishes it | Draft |
+|---|---|---|
+| **The Realm already feeds its partners.** | It "sells 3 to 4 million tonnes of grain or its equivalent a year to Asia" (L1672); the Entente ate its bread on credit from 1915. | CR-082, canon |
+| **The sellers are under contract.** | New Zealand's crop guarantee of 1931 (L1752), the Gulf's provisioning compact of 1928, the soybean compact of 1929 and the wheat credit to China of 1931 are canon. The prairie wheat contract is CR-083's. **The Pampas contracts return**, bought by private houses as merchants. | CR-083; CR-086 for the Pampas |
+| **The straits are open.** | Malacca, Sunda, Lombok and Makassar, by the British treaty and the Batavia Compact. | CR-084 |
+| **Japan is fed, and so stands with the order.** | Japan's crop keeps pace (CR-082 R-6). | CR-085 |
+| **The Realm has never used food as a weapon.** | In 1931 Julian threatened oil, transport and the yen, and "Food is not among them" (L1720). The granary bought in the slump. | canon; recited in CR-086 |
+| **The pledge binds the Realm.** | Voted by both chambers; the sufficers carry it as their condition for the rest. | CR-086 |
+
+**What it resolves.** CR-082 ends on a plan that "closes only by buying three-quarters or more of what the world's grain sellers sell abroad" and holds "only while the sellers sell and the sea lanes are open" (L1672). The food order is how the provisioners' century is secured: by contract and by a promise the sellers can rely on. The cabinet's aim is achieved in the act of renouncing its abuse.
+
+## 6. Who owns what
+
+| Subject | Owner |
 |---|---|
-| The Navy seat by treaty law, for the reserved squadron it gives up (L1734: "making the Navy ministry part of the bargain") | The Navy's Pacifican officers |
-| The yen reset inside a consultation band | The Reserve Bank's board; Shanghai's mills |
-| Two leased commercial piers and auction entry in the Indies and Brunei; shared use of Labuan | The oil trust, which loses Asian sales |
-| Entry of Japanese smelters to the Concord pool | The aluminium champion |
-| The Kansai station | The Works, whose cores sit on Japanese rock |
+| Britain's debt, its retrenchment and **its decision to renounce**; Labuan and Brunei; Fanning; Tonga; the Batavia Compact; the straits; Japan's southern question (L1885) | CR-084 |
+| The renewal of 1932, the May Hayama Council, the Navy seat, the yen and the one parity instrument; the Tokyo and Kansai stations; Japan's rice; **Japan as co-guarantor** | CR-085 |
+| The ore and thorium; France's and Germany's terms; China's currency; the Pampas; Guaymas's chartered district; **the Final Act, Articles I and II, and 1 August** | CR-086 |
+| The prairie wheat contract; Great Bear's renewal; Bennett | CR-083 |
 
-Japan pays with things canon has not already taken: the piers stay unfortified, south of 10° S is closed to it, and the quota costs more in the new yen. It is refused its own commandant at Labuan. Julian, after the coup, asks for the home army under common inspection in peace and is refused: "The home army stays national except in a Concord war" (L1734).
+**Merge order:** CR-083 and CR-084, then CR-085, then CR-086, which recites the others.
 
-The sufficers and the oil trust say in the winter that what stopped the army in 1931 will not stop it again. **May answers them inside the book:** it is not Julian's levers that stop the coup but the Emperor and the navy. The gamble is shown to have paid before the conference opens.
+**Japan's bargain** stands as in the second version of this note: the Navy seat by treaty law, the yen reset, the leased piers, pool entry and the Kansai station, each objected to by a named Pacifican who loses; the piers unfortified and south of 10° S closed; Julian refused on the home army (L1734). The sufficers warn in winter that the levers of 1931 are spent, and May answers them.
 
-Japan's terms are settled in its cabinet and carried by Prince Chichibu and, to Takahashi, by Chiyo (L1722), whom the officers' manifesto names. The common Navy minister is Julian's appointee whose own ministry is on the table.
+**Still out:** Canada's monetary association; leasing Works fuel to third states; Siam's protocol.
 
-**The Realm's own interest, stated in cabinet in each draft:** a Japan that is fed and supplied stops looking at Manchuria's land; Japanese yards and capital sit inside the pool; every Japanese station sends its bred elements back to the Works; the fleet stays whole.
+## 7. Amendments of canon, for the author
 
-## 5. What is in the Final Act, and what is not
+Each becomes a canon tension in the draft named, with both cases.
 
-**Annexed to the Final Act:**
-- canon's settlement with the Union, the monetary settlement and the dominions' treaty;
-- the renewal of the Concord, its Navy protocol and the adjustable parity (CR-085);
-- the British retrenchment treaty, with the Labuan lease and Tonga's treaty (CR-084);
-- the Batavia Compact, initialled, with ratification by the States General to follow in the autumn (CR-084);
-- China's currency protocol, negotiated in 1930–31 (CR-086);
-- **the atomic convention, signed, Britain among the signatories** (CR-086). It is the short form the CR-086 review allows: safety standards and notice of tests, dated honestly to 1927. Britain signs because notice runs both ways and its annuities have just been cut. Szilárd's objection, that the Realm asks the world for candour while its record of 1924 is sealed to 1947, is argued inside the wall in the spring and lost there.
-- **the chartered district at Guaymas, opened** (CR-086). Canon's port has existed since 1867; what has waited on Mexico since CR-057 is the district. Mexico says yes in 1932, on Mexico's terms. This replaces the draft's protocol.
+1. **A British device "about 1933–1935" (L1614), in CR-086.** The reckoning stands as the Works' estimate of 1928. The renunciation overtakes it: Britain stops. This ends a race that canon and the CR-086 draft keep alive past 1932. **Recommended: amend.**
+2. **"Like the Republic's further purpose in the Pacific, the aim is never stated" (L1672), in CR-086.** The aim stays unstated; the rule of never denying is published and voted. **Recommended: amend by adding, not by changing the sentence.**
+3. **"Japan may refuse in 1937" (L1734), in CR-085.** Case A keeps the clause as law. Case B makes the renewal of 1932 without term, reviewed every five years, in answer to the coup. **Recommended: B.** A Concord that guarantees the world's bread and holds its only weapons cannot plausibly be five years from dissolving.
+4. **The conference's close (L1746), in CR-086.** Canon has June–July; the Final Act on 1 August is an addition. **Recommended: add.**
+5. **A pledge by the Realm, in CR-086.** Whether Article I carries the Realm's undertaking not to use the weapon against a signatory. It is a new commitment and the strongest answer to the others' fear. Without it Britain's signature is harder to believe. **Recommended: include, in one sentence, and let the Navy object.**
+6. **The closing notes (L1754, L1758).** Canon ends with Victoria "conscious of the Altai and the price of its victory" and a history whose "moral cost" is "unresolved". **Recommended:** the finale is the last full scene; the Chronicler's sealed cylinders remain as a short coda after it, in a quieter key, with France's reservation and the Union's revanchists in it, and no sentence calls the outcome unresolved. The protected intent on Noe Ward's death is untouched.
 
-**Made earlier, and only recited:** the Tokyo station's financing (1927–28), the ore purchases (1919–1931), Brazilian monazite (1928), the kelp compact (the Hayama Council of 1930).
+## 8. What each draft does next
 
-**Still out:**
-- Canada's monetary association. It contradicts "Canada remains British" (L1752); Canada's part in the finale is CR-083's.
-- Leasing Works fuel to third states. It would put purified graphite and bred-element chemistry abroad and weaken the lead the book has built.
-- Siam's protocol. One sentence under CR-082's R-5 remains.
-- The Pampas contracts as the granary's purchase. Private houses may buy as merchants; this belongs with CR-082.
-
-## 6. Three amendments of canon, for the author
-
-These follow from the direction of 18:37. Each should become a canon tension in the draft named, with both cases.
-
-1. **"Japan may refuse in 1937" (L1734), in CR-085.**
-   - *Case A, canon kept:* the clause stands as law. The ending shows Japan's choice already made in May by its sovereign, navy and Diet, and does not dwell on 1937.
-   - *Case B, canon amended:* in answer to the coup, the renewal of 1932 is made without term and reviewed every five years. The alternating executive stays refused; Japan's price for permanence is the Navy seat by law, the pool and the quota set by audited output.
-   - **Recommended: B.** It is the larger chord, and it gives "co-hegemonic" a meaning. It also removes the cliff CR-085 was written to avert.
-2. **The conference's close, in CR-086.** Canon has "the Thalassia Conference in June–July 1932" (L1746, PROPOSED). The Final Act and its promulgation on 1 August are additions.
-   - **Recommended:** add them.
-3. **The closing notes (L1754, L1758).** Canon ends with Victoria "conscious of the Altai and the price of its victory" and a history that "leaves the victory real and its moral cost unresolved".
-   - *Case A:* keep both sentences as they are, after the finale.
-   - *Case B:* the finale is the last full scene; the Chronicler's sealed cylinders remain as a short coda after it, in a quieter key, and no sentence calls the outcome unresolved.
-   - **Recommended: B.** The record of the cost is kept, and the last chord is not qualified. The protected intent on Noe Ward's death is untouched either way.
-
-## 7. What each draft does next
-
-**CR-084** (revision 5, passes preflight):
-1. Cut section C2 to what the Batavia Compact and the Labuan lease themselves give Japan; remove the Hayama Council scene and the amendment of `C-1932-CONCORD-RENEWAL`.
-2. Move its refusals and votes ahead of the conference where the calendar allows, and say its instruments are annexed to the Final Act.
-3. Add the cabinet's statement of the Realm's interest, with the oil trust's objection.
+**CR-084** (revision 5):
+1. Stage Britain's decision to renounce, in cabinet, as part of the price of the annuities. This is new and is the draft's most important scene.
+2. Say that the straits it opens are scheduled to Article II.
+3. Cut section C2 to what the Batavia Compact and the Labuan lease themselves give Japan; leave the renewal and the Council to CR-085.
 4. Keep Brooke's refusal of Limbang and the Gulf's five-year lifting share.
-5. Then a third fresh-context review; the leased piers have never been reviewed.
+5. Then a third fresh-context review.
 
-**CR-085** (revision 2, passes preflight, not reviewed):
-1. Take ownership of the renewal and the Council. Make May the turn: the coup fails and Japan's own institutions carry the renewal.
-2. Write tension 1 of section 6, both cases.
-3. Bring in Chiyo and Chichibu as carriers.
+**CR-085** (revision 2):
+1. Take the renewal and the Council. Make May the turn.
+2. State Japan's place in the two articles: inside the atomic order, co-guarantor of the food order. This is what "co-hegemonic" means.
+3. Write tension 3, both cases.
 4. Open Tokyo and announce Kansai on 29 April.
-5. Carry the 1910 and 1920 rice figures on mechanisms that exist by then, and say "crop", not "yield".
+5. Carry the 1910 and 1920 rice figures on mechanisms that exist by then.
 6. Then a fresh-context review against the settled CR-084.
 
-**CR-086** (revision 1, six blockers): rebuild as the finale.
-1. Part A, the ore and thorium, with the review's corrections.
-2. Part B, the money: France, Germany and China only.
-3. Part C, the convention in its short form, signed, with the argument inside the wall placed in the spring.
-4. Part D, Guaymas's chartered district.
-5. Part E, the Final Act and 1 August, with tensions 2 and 3 of section 6.
-6. Drop Canada, Siam's protocol and third-state leasing.
+**CR-086** (revision 1): rebuild as the finale, under a title that says so.
+1. Part A, the ore and thorium, with the review's corrections, written as the reason the others cannot get fuel.
+2. Part B, the money: France, Germany and China, written as what each is paid.
+3. Part C, Article I: who signs, why, France's reservation, how it is checked, and the hard problem of section 4.
+4. Part D, Article II: the pledge, the scheduled contracts with the Pampas restored, the chambers' vote.
+5. Part E, the Final Act and 1 August; Guaymas's chartered district annexed.
+6. Tensions 1, 2, 4, 5 and 6.
+7. Drop the safety-and-notice convention, Canada, Siam's protocol and third-state leasing.
 
-**All three:** the author's request section carries the author's words, verbatim and dated.
+**CR-083:** nothing changes here, but its prairie contract and Great Bear renewal are now load-bearing for both articles. It should say so.
+
+**All four:** the author's request section carries the author's words, verbatim and dated.
