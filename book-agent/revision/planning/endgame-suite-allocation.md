@@ -1,6 +1,6 @@
 # The summer of 1932: the renunciation and the food order
 
-**Status:** planning note, 23 November 2026, third version. Not canon. It sets the book's ending and says what each of the endgame drafts must establish for that ending to be believed. CR-083 is not revised here at the author's direction, but its two contributions are named.
+**Status:** planning note, 23 November 2026, fourth version. Not canon. It sets the book's ending and says what each of the endgame drafts must establish for that ending to be believed. CR-083 is not revised here at the author's direction, but its two contributions are named.
 
 **Authority.** The author's words:
 
@@ -12,7 +12,10 @@
 >
 > I think a renunciation agreement and the food order would be an incredibly strong ending, these CRs should work together towards making that outcome believable. (19:16)
 
-The ending is therefore decided by the author: **a renunciation agreement and the food order**. The earlier versions of this note (an open 1937; then a safety-and-notice convention) are withdrawn. How the drafts get there is Claude's proposal under the delegation of 18:18. Section 7 lists the amendments of canon that need the author's own decision.
+>
+> I would say the article has to also regulate what happens to the spent fuel to Pacifica's exclusive advantage. By then even if the article's specifications tipped them off, wouldn't it be too late for the other powers to do anything with that information anyway? I agree with your canon changes except for the final one. That the moral cost remains unresolved should be left to the reader. (19:32)
+
+The ending is therefore decided by the author: **a renunciation agreement and the food order**, with the spent fuel going to the Realm. The earlier versions of this note (an open 1937; then a safety-and-notice convention) are withdrawn. How the drafts get there is Claude's proposal under the delegation of 18:18. Section 7 records the author's decisions of 19:32 on the amendments of canon.
 
 Line references are to `master_storyline.md`.
 
@@ -33,7 +36,14 @@ The finale states the second sentence aloud for the first time. The aim, to be i
 
 One instrument, promulgated on 1 August 1932, the forty-fifth anniversary of the Constitution (L929), annexing what was made since 1927. History's model is the Final Act of the Congress of Vienna. Its two great articles:
 
-**Article I, the renunciation.** The signatories outside the Concord undertake to build no plant for separating the light uranium and to make no test. The Realm discloses nothing: no design, no figure, and its second record stays sealed to 1947 (L1612). Complaints go to the renewed arbitration court (L1746).
+**Article I, the renunciation.** The signatories outside the Concord undertake three things:
+1. to build no plant for separating the light uranium;
+2. to make no test;
+3. **to deliver all fuel that has been through a pile to the Works**, which alone handles it, and to keep none (author, 19:32).
+
+The Realm discloses nothing: no design, no figure, and its second record stays sealed to 1947 (L1612). Complaints go to the renewed arbitration court (L1746).
+
+The third clause is the Tokyo station's rule made general: "Its fuel is leased from the Works and returned to Pacifica, so Japan has the energy and the bred elements never stay on its soil" (L1634). The world may have atomic power; what the piles breed goes to Thalassia, and every foreign pile enlarges the Realm's stock.
 
 **Article II, the food order.** The Realm and Japan, as the Concord, undertake that grain and its means (seed, nitrogen, machines, credit, carriage) move to every signatory in peace at published prices, and that no signatory is embargoed in peace. The sellers under contract and the straits held open are scheduled to it.
 
@@ -58,13 +68,21 @@ A power signs away a weapon only if it cannot get one soon, cannot afford one, i
 | **They cannot get the heavy water or the tools.** | The Norsk Hydro contract (L1643) and the restricted goods (L1640), already canon. | CR-086, recited |
 | **They cannot afford it in 1932.** | The slump, sterling off gold, and the cost of the halls. Britain, "fully committed from 1928", is five years in and broke. | CR-084 for Britain's Treasury |
 | **Each is paid in the same Act.** | Britain: its annuities cut. The Union: "debt and gold rescue" (L1746). Germany: the debt settlement (L1748). | CR-084; CR-086 Part B |
-| **Each is less afraid afterwards.** | Article II, and the court. Possibly a pledge by the Realm not to use the weapon against a signatory (section 7, item 5). | CR-086 |
+| **Each is less afraid afterwards.** | Article II, the court, and the Realm's pledge not to use the weapon against a signatory (section 7, item 5). | CR-086 |
+| **They are left something.** | Atomic power is lawful. A signatory may run piles for power; only the fuel that comes out is the Realm's. | CR-086 |
 | **It can be checked without the Realm opening its books.** | The ore ledgers, which the Works already keeps; the restricted-goods list; the cipher room, which has read British official traffic since 1925 (L1534). | CR-086 |
 | **The Concord's partner is inside, not outside.** | Japan has the stations and returns the bred elements. It renounces nothing because it is a party to the monopoly. | CR-085 |
 
 **Who signs, and who does not.** Britain and the Union sign because they are paid and broke. Germany signs because it "comes later" (L1614) and wants its debt settled. **France reserves on Article I.** Canon already says "France's grievance, Russian resentment of the lands lost in 1919–1921 and Union revanchists can still find one another" (L1752). One holdout makes the others' signatures mean something, and it is the coda's business, not the finale's.
 
-**The hard problem, for CR-086 to solve.** Article I can name only what the world knows: the light isotope and its separation. It cannot name the element that piles breed, which in 1932 is "an idea in Europe" (L1614), without telling Europe that irradiated fuel is worth having. So Europe's heavy-water power piles stay lawful. The draft must say how the Works lives with that: the heavy-water contract, the ore ledgers, and time.
+**The spent fuel, and whether the clause gives the secret away.** The author's judgement is that by 1932 it is too late to matter, and canon supports him.
+
+- *What Europe already knows.* That such elements exist: "In 1911 the Nobel Prize in chemistry goes to Marie Curie, for her school's work on the elements beyond uranium that neutrons produce" (L1281). That piles breed one: by 1932 it is "an idea in Europe, with no production pile, no chemistry and no weapon route" (L1614). The clause confirms a suspicion; it does not hand over a fact.
+- *What Europe would still lack.* Uranium in quantity, which is under contract. Heavy water, most of which the Works holds (L1643). A production pile. The chemistry, sealed to 1947. And years: "what a rival needs most after 1927 is not a fact but ten years of practice" (L1640).
+- *What the clause itself removes.* The material. A signatory that keeps its word never holds irradiated fuel long enough to work on it.
+- *What the text says.* Nothing false. Irradiated fuel is dangerous, and the Works alone has a code for handling it; that is the stated ground and it is true. The value is not stated. This is canon's method from the start, uranium bought "for glazes" and heavy water "as research chemicals", and Szilárd's name for it, "lying with true sentences" (L1580), is the objection he makes inside the wall.
+
+Where the risk actually sits is France. It reserves on Article I, it has the school that won the prize of 1911, and the clause has just told it where to look. That is the coda's threat, and it is a better one than a general unease.
 
 **The scene this gives.** Britain's choice. Its scientists say five more years; its Treasury says there is no money; the Admiralty has just lost Singapore. Churchill, who was shown one sheet of the Petrograd account in 1927, knows what a breach would cost. The cabinet signs. This is the largest single decision any foreign party makes in the suite, and CR-084 should stage it.
 
@@ -96,16 +114,18 @@ A power signs away a weapon only if it cannot get one soon, cannot afford one, i
 
 **Still out:** Canada's monetary association; leasing Works fuel to third states; Siam's protocol.
 
-## 7. Amendments of canon, for the author
+## 7. Amendments of canon, as the author decided them
 
-Each becomes a canon tension in the draft named, with both cases.
+The author, 19:32: "I agree with your canon changes except for the final one. That the moral cost remains unresolved should be left to the reader." Items 1 to 5 are therefore approved in direction; item 6 is refused and canon stands. Each approved item still enters its draft as a canon tension with both cases and is marked decided there with these words.
 
-1. **A British device "about 1933–1935" (L1614), in CR-086.** The reckoning stands as the Works' estimate of 1928. The renunciation overtakes it: Britain stops. This ends a race that canon and the CR-086 draft keep alive past 1932. **Recommended: amend.**
-2. **"Like the Republic's further purpose in the Pacific, the aim is never stated" (L1672), in CR-086.** The aim stays unstated; the rule of never denying is published and voted. **Recommended: amend by adding, not by changing the sentence.**
-3. **"Japan may refuse in 1937" (L1734), in CR-085.** Case A keeps the clause as law. Case B makes the renewal of 1932 without term, reviewed every five years, in answer to the coup. **Recommended: B.** A Concord that guarantees the world's bread and holds its only weapons cannot plausibly be five years from dissolving.
-4. **The conference's close (L1746), in CR-086.** Canon has June–July; the Final Act on 1 August is an addition. **Recommended: add.**
-5. **A pledge by the Realm, in CR-086.** Whether Article I carries the Realm's undertaking not to use the weapon against a signatory. It is a new commitment and the strongest answer to the others' fear. Without it Britain's signature is harder to believe. **Recommended: include, in one sentence, and let the Navy object.**
-6. **The closing notes (L1754, L1758).** Canon ends with Victoria "conscious of the Altai and the price of its victory" and a history whose "moral cost" is "unresolved". **Recommended:** the finale is the last full scene; the Chronicler's sealed cylinders remain as a short coda after it, in a quieter key, with France's reservation and the Union's revanchists in it, and no sentence calls the outcome unresolved. The protected intent on Noe Ward's death is untouched.
+1. **A British device "about 1933–1935" (L1614), in CR-086.** The reckoning stands as the Works' estimate of 1928. The renunciation overtakes it: Britain stops. This ends a race that canon and the CR-086 draft keep alive past 1932. **Approved (author, 19:32).**
+2. **"Like the Republic's further purpose in the Pacific, the aim is never stated" (L1672), in CR-086.** The aim stays unstated; the rule of never denying is published and voted. The sentence itself is not changed. **Approved (author, 19:32).**
+3. **"Japan may refuse in 1937" (L1734), in CR-085.** Case A keeps the clause as law. Case B makes the renewal of 1932 without term, reviewed every five years, in answer to the coup. A Concord that guarantees the world's bread and holds its only weapons cannot plausibly be five years from dissolving. **Case B approved (author, 19:32).**
+4. **The conference's close (L1746), in CR-086.** Canon has June–July; the Final Act on 1 August is an addition. **Approved (author, 19:32).**
+5. **A pledge by the Realm, in CR-086.** Whether Article I carries the Realm's undertaking not to use the weapon against a signatory. It is a new commitment and the strongest answer to the others' fear. Without it Britain's signature is harder to believe. It is one sentence, and the Navy objects. **Approved (author, 19:32).**
+6. **The closing notes (L1754, L1758). Refused (author, 19:32): canon stands.** Victoria remains "conscious of the Altai and the price of its victory", and the final history still "leaves the victory real and its moral cost unresolved". The finale is triumphant and the book does not settle what it cost; that judgement is the reader's. No draft adds a sentence that resolves it in either direction, and none removes these two.
+
+7. **The spent-fuel clause of Article I (author, 19:32).** New since the third version; see section 2 and section 4. It extends L1634's rule for Tokyo to every signatory.
 
 ## 8. What each draft does next
 
@@ -119,7 +139,7 @@ Each becomes a canon tension in the draft named, with both cases.
 **CR-085** (revision 2):
 1. Take the renewal and the Council. Make May the turn.
 2. State Japan's place in the two articles: inside the atomic order, co-guarantor of the food order. This is what "co-hegemonic" means.
-3. Write tension 3, both cases.
+3. Write tension 3, both cases, case B decided (author, 19:32): the renewal is without term.
 4. Open Tokyo and announce Kansai on 29 April.
 5. Carry the 1910 and 1920 rice figures on mechanisms that exist by then.
 6. Then a fresh-context review against the settled CR-084.
@@ -127,10 +147,10 @@ Each becomes a canon tension in the draft named, with both cases.
 **CR-086** (revision 1): rebuild as the finale, under a title that says so.
 1. Part A, the ore and thorium, with the review's corrections, written as the reason the others cannot get fuel.
 2. Part B, the money: France, Germany and China, written as what each is paid.
-3. Part C, Article I: who signs, why, France's reservation, how it is checked, and the hard problem of section 4.
+3. Part C, Article I in its three clauses: who signs and why, France's reservation, how it is checked, the spent fuel delivered to the Works on the true ground of its danger, and Szilárd's objection inside the wall.
 4. Part D, Article II: the pledge, the scheduled contracts with the Pampas restored, the chambers' vote.
 5. Part E, the Final Act and 1 August; Guaymas's chartered district annexed.
-6. Tensions 1, 2, 4, 5 and 6.
+6. Tensions 1, 2, 4, 5 and 7, each marked decided with the author's words of 19:32. Leave L1754 and L1758 as they are.
 7. Drop the safety-and-notice convention, Canada, Siam's protocol and third-state leasing.
 
 **CR-083:** nothing changes here, but its prairie contract and Great Bear renewal are now load-bearing for both articles. It should say so.
