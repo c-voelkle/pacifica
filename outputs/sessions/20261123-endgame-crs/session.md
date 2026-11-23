@@ -41,10 +41,18 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
-On `drafts/cr083-086-endgame`: CR-083 rev 9, CR-084 rev 7, CR-085 rev 4, CR-086 rev 3, each revised against its fresh-context review of 23 November (`CR-083-review-3.md`, `CR-084-review-3.md`, `CR-085-review-2.md`, `CR-086-review-2.md`) at the author's instruction of 20:25. All blockers were addressed; each draft lists the review findings not yet addressed at the end of its `## Decisions`. The four now share one calendar (stated in CR-086 `E1`), one account of the annuities (CR-084 `B1`: three dated tranches from the end of the schedule), one rule for the Senate's consent (CR-084 `T-S1`), and one statement of custody (CR-086 `T-5`).
+State on 24 November 2026, after the third revision round (the author's "Please do that", 23 November, 23:36):
 
-The author answered the approvals list in full at 23:11 and 23:14 (`book-agent/revision/planning/endgame-approvals-to-confirm.md`); all 29 items are approved and recorded in the drafts with his words. Harlan Tate is pegged to a birth about 1866 (PROPOSED). Nothing is approved for integration.
+- Branch `drafts/cr083-086-endgame`. Nothing is integrated, `main` is untouched, no integration PR is open.
+- Revised against the second-round reviews and passing preflight: `CR-083` revision 10, `CR-084` revision 8, `CR-085` revision 5, `CR-086` revision 4. None of these revisions has been reviewed in a fresh context.
+- Each draft quotes the items of the author's answer sheet of 23:11 that concern it, and lists at the end of `## Decisions` the review findings it does not yet address.
 
-At 23:21 the author decided `T-U2` and `T-C1` in CR-086 (case B) and asked for a second round of review. Four new fresh-context reviews ran on the revised drafts (`CR-083-review-4.md`, `CR-084-review-4.md`, `CR-085-review-3.md`, `CR-086-review-3.md`). Each says one more revision; all find the design and the shared calendar sound. Twelve blockers in all, mostly contradictions left by revising quickly: body labels still PROPOSED where the decision tables say APPROVED (CR-084, CR-085); the answer sheet of 23:11 not quoted in the drafts, so its approvals cannot be verified from them; the 10° S zone's geography; the pledge's lapse told two ways in CR-086 `C5`; consent to the two articles told three ways; the wheat contract told two ways in CR-083 and against CR-086 `D4`; the Caledonian treaties against the standstill rule; ledger lines not matching bodies. No fix has been applied since these reviews.
+Questions put to the author and not decided by the drafter:
 
-Next: revise against the second-round reviews when the author says how; then workbook sizing and the author's decision to integrate, in merge order.
+1. `CR-084` `T-A2`: the cancelled annuities come from the end of the schedule (approved, item 84-8), which gives Britain no yearly relief. Alternative: take the third tranche from the near end.
+2. `CR-086` `T-8`: Article II as worded does not forbid what the Realm did in 1919. Alternative: a fourth undertaking against making food or credit conditional on a concession.
+3. `CR-086` `T-9`: what Julian does on 1 August (three cases).
+4. `CR-083` `T-15`: whether the first wave of compacts is ratified by Proclamation Day or ratifications run on under the standstill rule. Also `T14`, the reading of `L892`.
+5. `CR-084` `C3`: who holds the former German Samoa, New Guinea and Nauru after 1919, which decides the annex of existing stations south of 10° S.
+
+Next, when he has answered: apply the answers; a third fresh-context review in merge order (`CR-083` and `CR-084`, then `CR-085`, then `CR-086`); then the workbook tasks and the registry commit. Integration only on his word.
