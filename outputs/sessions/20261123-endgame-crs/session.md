@@ -41,18 +41,19 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
-State on 24 November 2026, after the third revision round (the author's "Please do that", 23 November, 23:36):
+State on 24 November 2026, after the third review round and the model rebuild (the author's message of 23 November, 23:52):
 
 - Branch `drafts/cr083-086-endgame`. Nothing is integrated, `main` is untouched, no integration PR is open.
-- Revised against the second-round reviews and passing preflight: `CR-083` revision 10, `CR-084` revision 8, `CR-085` revision 5, `CR-086` revision 4. None of these revisions has been reviewed in a fresh context.
-- Each draft quotes the items of the author's answer sheet of 23:11 that concern it, and lists at the end of `## Decisions` the review findings it does not yet address.
+- The author's six answers of 23:52 are applied: `CR-084` `T-A2` Case B; `CR-086` `T-8` Case B and `T-9` Case B; `CR-083` `T14` and `T15` Case B; the former German Samoa, New Guinea and Nauru are Pacifica's.
+- Third-round reviews: `CR-083-review-5.md`, `CR-084-review-5.md`, `CR-085-review-4.md`, `CR-086-review-4.md`. Every verdict is "one more revision". No finding has been applied except one plain error of fact in `CR-084` (Rabaul and Nauru lie north of 10° S).
+- Models rebuilt on this branch (`finance/CR-083-086-workbook.md`): `finance/build/cr083_086_endgame.py` is the chain's new last step; the provisioning model has lost the northern water and sizes the prairie contract. Story 0 failed checks, Stress 51. `AGENTS.md`'s paragraph on the financial files is not yet updated; that belongs to integration.
 
-Questions put to the author and not decided by the drafter:
+Blockers from the third round, by draft:
+- `CR-083`: the refusal over Caledonia is Julian's third by `L1593`, not his second; Caledonia's tranche comes from the far end and relieves nothing, against "the Exchequer needs relief"; the admission clause's rule for a failed year departs from the Gulf's twenty-five consecutive years with no tension listed.
+- `CR-084`: Britain decides without asking who else signs, while France reserves; the deadline of 30 June has no force once the April accord carries the suspension.
+- `CR-085`: which cabinet makes the offer after 15 May; nobody who can bind Japan is at the Hayama table; what exactly has no term, the union or the executive trust.
+- `CR-086`: Article II is both the cabinet's proposal of the winter and the sufficers' condition of July; Julian's "only signature" against "both crowns ratify that day", and who acts for Japan's crown; labels APPROVED in the table and PROPOSED in the body.
 
-1. `CR-084` `T-A2`: the cancelled annuities come from the end of the schedule (approved, item 84-8), which gives Britain no yearly relief. Alternative: take the third tranche from the near end.
-2. `CR-086` `T-8`: Article II as worded does not forbid what the Realm did in 1919. Alternative: a fourth undertaking against making food or credit conditional on a concession.
-3. `CR-086` `T-9`: what Julian does on 1 August (three cases).
-4. `CR-083` `T-15`: whether the first wave of compacts is ratified by Proclamation Day or ratifications run on under the standstill rule. Also `T14`, the reading of `L892`.
-5. `CR-084` `C3`: who holds the former German Samoa, New Guinea and Nauru after 1919, which decides the annex of existing stations south of 10° S.
+Model findings for the author: 17 annuities are 31% of Britain's book only because the third tranche is near-end; the signature tranche is $262m of $375m; the split 5/6/6 and the contract's 1.5 million tonnes are the drafter's proposals; at that size the board's wheat is half of the Realm's own sales abroad.
 
-Next, when he has answered: apply the answers; a third fresh-context review in merge order (`CR-083` and `CR-084`, then `CR-085`, then `CR-086`); then the workbook tasks and the registry commit. Integration only on his word.
+Next: the author's word on a fourth revision round and on the proposed sizes.
