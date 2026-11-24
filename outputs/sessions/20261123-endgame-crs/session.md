@@ -41,15 +41,18 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
-State on 24 November 2026, after the fourth revision round (the author's "I agree. Please revise them and rerun the workbook", 00:12):
+State on 24 November 2026, after the fifth revision round (the author's answers of 08:22):
 
 - Branch `drafts/cr083-086-endgame`. Nothing is integrated, `main` is untouched, no integration PR is open.
-- Revised against the third-round reviews and the author's six decisions of 00:12, and passing preflight: `CR-083` revision 11, `CR-084` revision 9, `CR-085` revision 6, `CR-086` revision 5, each since revised once more (below). None of these revisions has been reviewed in a fresh context.
-- Decided at 00:12: Inukai dies on 15 May, Takahashi's cabinet resolves the offer and Saitō's confirms it on 26 May, Hayama on 12–15 June; the union has no term and the Crown of Pacifica holds the executive until both crowns agree otherwise at a review; Caledonia's twenty-five years are consecutive; the annuities split as 2 near-end (Caledonia), 4 near-end (the signature) and 11 far-end (the retrenchment); the wheat contract at 1.0 million tonnes; the refusal over Caledonia is Julian's third.
-- Models rebuilt with those sizes (`finance/CR-083-086-workbook.md`): Story 0 failed checks, Stress 51; $395m written off in 1932; the tranches are worth $93m, $169m and $114m.
-- On the author's word of 24 November, 03:35, Inukai's death and the persons Inukai, Saitō and Araki went under `CR-085`'s `## Fact changes`, and every should-fix item of the third-round reviews was worked through: `CR-083` revision 12, `CR-084` revision 10, `CR-085` revision 7, `CR-086` revision 6. Each draft lists, item by item at the end of `## Decisions`, what was done and what was not. Left for the author: the common Foreign minister's name; the yards' share and capital ships (`CR-085` `T-Y1`); the Columbia half in power or gold (`CR-083` `A6`); Hoare and the cipher rule (`CR-084` `T-B5b`, `T-B5c`). Not done: the Minor items; the older style of `CR-084` `B2` to `B4` and `C1` and of `CR-085` Parts B to D.
-- `AGENTS.md`'s paragraph on the financial files is not updated; that belongs to integration.
+- Current revisions, all passing preflight: `CR-083` 13, `CR-084` 11, `CR-085` 8, `CR-086` 7, `CR-087` 2. None of these has been reviewed in a fresh context. The fourth-round reviews (`CR-083-review-6.md`, `CR-084-review-6.md`, `CR-085-review-5.md`, `CR-086-review-5.md`, `CR-087-review.md`) are of the revisions before them.
+- Decided on 24 November: 00:12 (Inukai, Hayama 12–15 June, the union without term, consecutive years, the split 2/4/11, wheat at 1.0 million tonnes, the third refusal); 07:19 (the Lewis crest, road surveys only, `CR-087`); 07:27 (the yards' share below capital ships, the Columbia half in power, the drafter's additions of the should-fix round); 07:31 and 07:37 (Kaʻiulani as common Foreign minister, signing seated, nothing said of 1919); 08:22 (the crest line confirmed knowing the map; the Emperor signs in mid-July on one advice; Proclamation after the annuity bill; London notices and accepts what the retrenchment is paid in).
+- Each draft lists at the end of `## Decisions` what the fifth round did and did not do with the fourth review's findings.
+- Models (`finance/CR-083-086-workbook.md`): Story 0 failed checks, Stress 51. The memo row E263 names France among the stabilization credits and is to be corrected at the next rebuild.
 
-- `CR-087` (revision 1, on this branch): the Western line keeps the Lewis crest north of Flattop Mountain, so Missoula County touches Alberta at Waterton Lake; roads are surveyed and not built (author, 24 November 2026, 07:19). Preflight passes. Not reviewed. The county map is not redrawn: the atlas geometry is outside the repository and the crest has to be digitised from a topographic source.
+Not done:
+- The county map is not redrawn for `CR-087`. The atlas data is fetchable; the method is in `CR-087` `## D`.
+- Registry entries and fact changes for Mori Kaku and Hiranuma Kiichirō (`CR-085`).
+- The older prose of `CR-084` `B2` to `B4` and `C1` and of `CR-085` Parts B to D; the reviews' Minor items.
+- `AGENTS.md`'s paragraph on the financial files; that belongs to integration.
 
-Next: a fourth fresh-context review in merge order if the author wants one; then the registry commit and integration on his word.
+Next: the map redraw for `CR-087` if the author wants it; a fifth fresh-context review; then the registry commit and integration on his word.
