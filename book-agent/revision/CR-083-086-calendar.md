@@ -1,6 +1,6 @@
 # One calendar for April to autumn 1932 (CR-083 to CR-086)
 
-**Status:** DRAFT for the author's marking, 24 November 2026. A working paper, not a CR. Nothing in it is approved unless the row says so with the author's words. Not integrated; no draft has been changed to match it yet.
+**Status:** APPROVED by the author on 24 November 2026, 10:10: "I approve A-K with Victoria in the final scene." That covers the eleven decisions A to K under the table, and for J the last image: Victoria at Honolulu. The particular days marked "about" stay PROPOSED. A working paper, not a CR, and not integrated. The four drafts are being brought into line with it.
 
 **Why it exists.** The fifth fresh-context reviews found the same fault in three drafts: the four CRs do not agree on what is initialled, voted, ratified and signed in which order in July 1932 (`CR-083-review-7.md` B2; `CR-084-review-7.md` S1 to S3, S5, S10; `CR-085-review-6.md` B1, B2, S3, S4; `CR-086-review-6.md` B1, B2, S3, S4). Once the author has marked this table, each draft's own calendar is cut down to its own rows and points here.
 
@@ -42,19 +42,19 @@
 
 ## Decisions the table needs
 
-Each is the drafter's proposal. The reviews' numbers are given so the author can see what a "yes" closes.
+Each was the drafter's proposal and is APPROVED (author, 24 November 2026, 10:10). The reviews' numbers are given so the author can see what a "yes" closes.
 
 - **A. The Agent-General initials in London.** British Columbia has kept an agent-general in London since the last century (*Hist.*, from memory; to be sourced). Closes `CR-083` S5.
 - **B. Britain wins one of its four requests.** In April the pledge is a separate declaration; at Hayama it moves into Article I. Britain loses the other three and signs. Closes `CR-084` S4 and `CR-086` S3 in part.
-- **C. Kaʻiulani stays at Thalassia in June and presides over the conference; the Finance minister goes to Hayama.** She is fifty-six with the heart canon gives her and has just crossed from London; Simon needs someone to talk to at Thalassia; and the yen is Takahashi's subject at Hayama. Canon has Julian preside at Hayama "with the common ministers" (line 1651 of master_storyline.md), which does not require all of them. The other assistant's plan keeps the Finance minister at Thalassia instead; either works. Closes `CR-085` S3.
+- **C. Kaʻiulani stays at Thalassia in June and presides over the conference; the Finance minister goes to Hayama.** She is fifty-six with the heart canon gives her and has just crossed from London; Simon needs someone to talk to at Thalassia; and the yen is Takahashi's subject at Hayama. Canon has Julian preside at Hayama "with the common ministers" (line 1651 of master_storyline.md), which does not require all of them. Closes `CR-085` S3.
 - **D. The sufficers win the binding form of Article II in late May, before Hayama.** July is then where they collect, by having it voted first. Closes `CR-086` B2.
 - **E. At Hayama Julian bargains with Takahashi outside the sittings.** Canon keeps national ministers out of the sittings and says nothing of the days around them. "Neither Emperor bargains" becomes "Hirohito does not bargain". Closes `CR-085` B2.
 - **F. London answers by cable, and only papers travel by messenger.** Closes `CR-084` S3 and S5.
 - **G. The Senate consents to the Association Treaty before the Republic is proclaimed.** Caledonia is then never without its guarantee. Four of the Senate's five two-thirds votes fall about 9 to 11 July and the fifth in late July. Closes `CR-083` B2.
-- **H. What Japan ratifies, and when.** In July the renewal, the two articles and the countersignature, and nothing else. The Concord's late treaties wait for a second advice in the autumn. Canon says of the renewal that it is "ratified by both crowns and delegations" and that "authorized ministers sign and exchange its instruments at Thalassia" (line 1734); so the Realm's side of that exchange is an authorized minister of the Realm, unnamed, and not Kaʻiulani, who signs for both crowns. Whether Takahashi may lay the July instruments down before the yen is signed is the author's: the drafter proposes that he holds them until it is. Closes `CR-085` B1 and S4, `CR-086` B1.
+- **H. What Japan ratifies, and when.** In July the renewal, the two articles and the countersignature, and nothing else. The Concord's late treaties wait for a second advice in the autumn. Canon says of the renewal that it is "ratified by both crowns and delegations" and that "authorized ministers sign and exchange its instruments at Thalassia" (line 1734); so the Realm's side of that exchange is an authorized minister of the Realm, unnamed, and not Kaʻiulani, who signs for both crowns. Takahashi holds the July instruments until the yen's agreement is signed. Closes `CR-085` B1 and S4, `CR-086` B1.
 - **I. The order of 1 August.** The pledge and the countersignature come before Simon's pen. Closes `CR-086` S3 and S4.
-- **J. The last image.** The author's alone. The candidates the review names: Julian reading the pledge; Kaʻiulani's seated signature; Victoria at Honolulu, who has switched the set off at the founder's voice every 1 August since 1913 and this once leaves it on; a view from below. The drafter would choose Victoria.
-- **K. Britain's second and third tranches fall on the deposit of the King's ratification of both the retrenchment treaty and the Final Act.** The author's split of 2, 4 and 11 annuities is untouched. "Westminster ratifies" is replaced throughout, since Parliament approves and the Crown ratifies. Whether the third tranche should need both ratifications or only the Final Act's is the author's. Closes `CR-084` S2 and S10.
+- **J. The last image.** The author's alone. The candidates the review names: Julian reading the pledge; Kaʻiulani's seated signature; Victoria at Honolulu, who switched the set off the first time she heard the founder's voice on the air in 1913 and this once leaves it on; a view from below. The author chose Victoria (10:10).
+- **K. Britain's second and third tranches fall on the deposit of the King's ratification of both the retrenchment treaty and the Final Act.** The author's split of 2, 4 and 11 annuities is untouched. "Westminster ratifies" is replaced throughout, since Parliament approves and the Crown ratifies. The third tranche needs both ratifications. Closes `CR-084` S2 and S10.
 
 ## What the table does not settle
 
