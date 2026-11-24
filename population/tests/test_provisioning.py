@@ -93,13 +93,9 @@ class Provisioning(unittest.TestCase):
 
     def test_century_adds_up(self):
         cy = pv.century(self.c, self.base, self.pop)
-        k = self.c["century"]
         self.assertAlmostEqual(cy["need"], pv.table(self.c, self.base, self.pop, 1930)["realm_100"])
-        self.assertAlmostEqual(45 * k["acre_feet_per_km3"] / 1e6, 36.5, delta=0.05)          # 45 km3 in acre-feet
-        top = cy["water"]["ceiling_in_law"]
-        self.assertAlmostEqual(top["acres"], 45 * k["acre_feet_per_km3"] / k["acre_feet_per_acre"])
-        self.assertAlmostEqual(cy["water"]["first_stage"]["mouths"] / top["mouths"], 20 / 45)
-        own = cy["home"] + top["mouths"] + cy["sea"]["central"]
+        self.assertNotIn("water", cy)                                 # work 2 withdrawn with CR-083
+        own = cy["home"] + cy["sea"]["central"]
         self.assertAlmostEqual(cy["own"], own, delta=1)
         self.assertAlmostEqual(cy["plan"]["fed"], own + cy["every"], delta=1)
         self.assertAlmostEqual(cy["gap"], cy["need"] - own - cy["every"], delta=1)
@@ -136,6 +132,12 @@ class Provisioning(unittest.TestCase):
         self.assertEqual(pv.crown_people(self.c, 1907), 0.0)
         self.assertGreater(pv.crown_people(self.c, 1908), 8e6)
         self.assertEqual(pv.table(self.c, self.base, self.pop, 1900)["crown_100"], 0.0)
+
+
+    def test_endgame_contract(self):
+        eg = pv.endgame(self.c)
+        self.assertAlmostEqual(eg["prairie_mouths"] * pv.tonnes_per_mouth(self.c), eg["prairie_tonnes"])
+        self.assertLess(eg["prairie_share_of_canada"], 0.5)
 
 
 if __name__ == "__main__":

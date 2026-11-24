@@ -1162,6 +1162,7 @@ conditions = [
   "the Oregon protocol signed with the treaty: a Union Oregon would be disarmed and Pacifica would pay less; spent by Oregon's choice of October 1866 (C-1866-OR-CERTIFICATION)",
   "separated from executive recognition of Richmond, which the Senate never ratifies",
   "north of the Columbia no vote is owed; Washington Territory accedes by its convention's charter as the member Columbia (C-1866-WA-CHARTER)",
+  "in the far north the line is 'the crest of the main range of the Rocky Mountains': north of Flattop Mountain it keeps the Lewis Range crest to the 49th parallel, fixed by the joint survey of 1874 (PROPOSED, CR-087); the St Mary and Belly valleys and Chief Mountain are the Union's",
 ]
 status = "CANON"
 section = 12
@@ -1174,6 +1175,7 @@ more_quotes = [
   "Every resident of a ceded district may choose either citizenship and keeps property, courts and civil protection without distinction of colour.",
   "The treaty says nothing about fugitives.",
   "The treaty cedes territories, not states.",
+  "North of Flattop Mountain, where the Continental Divide crosses west to the Livingston Range, the line keeps the crest of the Lewis Range to the 49th parallel.",
   "The Colorado article lets any mountain mining district vote itself over, binds Pacifica to supply and coin it either way and binds the Union to transit through Denver.",
   "Oregon it cedes as Oregon's voters shall choose, and the terms of the choice stand in a protocol signed with the treaty by Vallejo and Sherman: a Union Oregon would be disarmed, and Pacifica would pay less.",
   "North of the river no vote is owed: the Union made Washington Territory no offer of statehood",
@@ -1669,7 +1671,11 @@ status = "APPROVED"
 cr = "CR-029"
 section = 15
 quote = "In 1878 the Sultan's lease of North Borneo goes to a Pacifican Borneo company rather than to the British."
-open = "Term and rent not stated."
+more_quotes = [
+  "Beside the company's North Borneo, Britain keeps Labuan, which it administers itself as a colony, and its protectorates of 1888 over Brunei and Sarawak; the question is not reopened until 1932.",
+  "The Sultan of Sulu is told, as a courtesy, of the shipping along the coast of North Borneo, and no Sulu title over Brunei Bay is claimed.",
+]
+open = "Term and rent not stated. Cross-linked by CR-084 to Labuan's retrocession and the Labuan Harbour Lease on Brunei Bay (C-1932-LABUAN-LEASE); Britain keeps the Brunei and Sarawak protectorates (CR-074 M1 amended by T-B1 Case B as to Labuan)."
 
 [[commitment]]
 id = "C-1883-PH-MUNICIPAL"
@@ -2125,13 +2131,6 @@ more_quotes = [
 
 [[commitment]]
 id = "C-1887-JP-COMPACT"
-open = "Replaced by the Pacific Concord in 1927, when its fourth renewal falls due (CR-039)."
-more_quotes = [
-  "Japan backs the regency and holds its officers to the agreement; Pacifica guarantees Japan against Russia and supports its treaty revision with Europe. The western squadron’s command is reserved to officers of the Japanese naval party.",
-  "Both states ratify renewals every ten years, in 1897, 1907 and 1917.",
-  "The compact runs until its fourth renewal falls due in 1927, when the Pacific Concord takes its place.",
-  "The naval party loses its reserved squadron arrangement as command is consolidated, making the Navy ministry part of the bargain.",
-]
 name = "Compact with Tokyo"
 kind = "compact"
 parties = ["JP", "PAC", "NAVAL"]
@@ -2151,17 +2150,13 @@ conditions = ["Japan's crown, domestic government and army remain Japanese."]
 status = "PROPOSED"
 section = 24
 quote = "A compact with Tokyo is signed alongside the Truce."
-
-# ---------------------------------------------------------------------------
-# Part 3: storyline §25–§27
-# ---------------------------------------------------------------------------
-
-# Pacifica commitments ledger — part 3: master_storyline.md lines 532–647 (§25–§27, 1887–1915).
-# Format and rules: see the header of commitments/data/ledger.toml.
-
-# ---------------------------------------------------------------------------
-# Parties first needed in this range
-# ---------------------------------------------------------------------------
+more_quotes = [
+  "Japan backs the regency and holds its officers to the agreement; Pacifica guarantees Japan against Russia and supports its treaty revision with Europe. The western squadron’s command is reserved to officers of the Japanese naval party.",
+  "Both states ratify renewals every ten years, in 1897, 1907 and 1917.",
+  "The compact runs until its fourth renewal falls due in 1927, when the Pacific Concord takes its place.",
+  "The naval party loses its reserved squadron as command is consolidated, and the common Navy minister lays the order before the Council himself.",
+]
+open = "Replaced by the Pacific Concord in 1927, when its fourth renewal falls due (CR-039). The reserved squadron it began ends at the renewal of 1932, paid for by the Navy seat by treaty law (C-1932-NAVY-SEAT-PROTOCOL, CR-085)."
 
 [[party]]
 id = "CU"
@@ -2340,8 +2335,9 @@ more_quotes = [
   "At its founding the Republic signs the Gulf compact with Pacifica, which sets the tests any admission must pass.",
   "The five general measures first pass together in 1925.",
   "The 1931 oil glut breaks the general-measures streak, and both parity tests remain far from passing in 1932.",
+  "The refinery stands at Baton Rouge, on the lower Mississippi: Arkansas bauxite comes down the river to it, and deep-water ships carry its alumina to Pacifica's smelters.",
 ]
-open = "Signed at the Republic's founding in 1900 (CR-039); no term stated."
+open = "Signed at the Republic's founding in 1900 (CR-039); no term stated. CR-084 preserves it: the oil trust's undertaking of 1932 (C-1932-GULF-OIL) is written inside the compact's ceiling of fifty-five percent, and Bintan's bauxite is additional to Arkansas's, so the alumina royalty holds. Arkansas bauxite and the alumina refinery come through the compact (CR-054); the refinery's site is Baton Rouge (CR-085, PROPOSED)."
 
 [[commitment]]
 id = "C-1900-GULF-DEFENCE"
@@ -2630,11 +2626,14 @@ status = "APPROVED"
 cr = "CR-029"
 section = 25
 quote = "Pacifica recognizes British Fanning as the station of the Pacific Cable; Britain recognizes Pacifican sovereignty over the equatorial islands from Palmyra to Baker."
-open = "Year and instrument not stated; canon does not say whether this is part of the Boer War settlement in the preceding sentence. 1899 is a placeholder start."
-
-# ---------------------------------------------------------------------------
-# §25 — Asian guarantees
-# ---------------------------------------------------------------------------
+open = "Year and instrument not stated; canon does not say whether this is part of the Boer War settlement in the preceding sentence. 1899 is a placeholder start. The Bamfield lease of 1932 is C-1932-CALEDONIA-SEVERANCE (CR-083); Fanning's own lease is CR-084's. The recognition of Pacifican sovereignty from Palmyra to Baker continues after 1932; the cable lease's term and rent are not stated."
+more_quotes = [
+  "The cable's other end is at Bamfield on Vancouver Island, in British Columbia, and in 1932 the station there is leased to Imperial and International Communications Ltd. under Pacifica's guarantee.",
+  "The recognition of British Fanning holds until 1932, when Britain detaches Fanning and Washington into Ka Lōkahi's trust and the cable station becomes a leasehold.",
+]
+conditions = [
+  "In 1932 Britain detaches Fanning and Washington from the Gilbert and Ellice Islands Colony into Ka Lōkahi's trust (C-1927-MICRONESIA-TRUST, C-1932-FANNING-BUYOUT) and the cable station is leased back to Imperial and International Communications (IIC), under C-1932-UK-RETRENCHMENT.",
+]
 
 [[commitment]]
 id = "C-1894-KOREA-ARMISTICE"
@@ -3231,7 +3230,7 @@ name = "The European nitrogen convention (1930) and its members"
 
 [[party]]
 id = "CA"
-name = "Canada (the Dominion, with British Columbia from 1871; Britain signs its treaties until 1923)"
+name = "Canada (the Dominion; Britain signs its treaties until the Trilateral Treaty of 1932)"
 
 [[party]]
 id = "VE"
@@ -3377,6 +3376,10 @@ parties = ["PAC", "JP", "UK", "DE", "FR", "US"]
 from = 1919
 renewals = [1932]
 owes = [{ by = "PAC", to = "JP", what = "the settlement carries Japan's racial equality clause" }]
+conditions = [
+  "from 1932 it hears complaints under Article I of the Final Act of Thalassia and keeps the register of fuel (PROPOSED); for those complaints the bench is widened by a judge named by China and one named by the dominions together, and no party to a complaint sits (APPROVED, CR-086)",
+  "only the court's finding of breach ends the Realm's pledge toward a signatory of Article I",
+]
 status = "PROPOSED"
 cr = "CR-019"
 section = 30
@@ -3385,8 +3388,11 @@ more_quotes = [
   "and joins the arbitration court's new charter",
   "a founding seat in the renewed court",
   "After the Statute of Westminster, Australia and New Zealand agree to a defense treaty with Thalassia in 1932 while refusing the racial equality clause.",
+  "Complaints under the article go to the Hague Arbitration Court as renewed in 1932.",
+  "For those complaints the Act adds to the court's bench a judge named by China and one named by the dominions together, and no party to a complaint sits on it.",
+  "A signatory that runs a pile registers each charge of fuel with the court's registrar when it goes in, and the Works collects it when it comes out",
 ]
-open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED). CR-043: Bryan signs the 1919 treaty for the mediating Union, and the Union Senate refuses the court."
+open = "Membership, jurisdiction and the terms of the court's 1932 new charter are not stated beyond Article I; the Union joins the new charter and gains a founding seat in the renewed court (PROPOSED). CR-043: Bryan signs the 1919 treaty for the mediating Union, and the Union Senate refuses the court. CR-086: France, which reserves on Article I, sits on the bench that hears complaints under it."
 
 [[commitment]]
 id = "C-1919-NAVAL-LIMITS"
@@ -3413,8 +3419,9 @@ more_quotes = [
   "The Union stays outside these limits until 1932.",
   "The crash halts further construction; the Union joins the limits in 1932.",
   "The Union accepts a naval ratio below the common fleet and Britain",
+  "In the same year Britain accepts, in its retrenchment treaty with the Concord and beside these limits, a peacetime cap on its capital ships east of Ceylon.",
 ]
-open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated. CR-043: the Union Senate refuses the limits after Bryan signs the treaty."
+open = "The disposal requirement (line 697) is unlabelled base text while the parity clause is PROPOSED; ship numbers are MODEL. Italy's adherence is implied by its ranking but not stated. Term not stated. CR-043: the Union Senate refuses the limits after Bryan signs the treaty. CR-084 does not amend these limits: Britain's peacetime capital-ship cap east of Ceylon (APPROVED) is a term of C-1932-UK-RETRENCHMENT and is cross-linked here."
 
 [[commitment]]
 id = "C-1923-UK-FUNDING"
@@ -3426,20 +3433,29 @@ until = 1985
 term_years = 62
 owes = [
   { by = "UK", to = "PAC", what = "service of its gold-dollar war debt over sixty-two years at reduced interest; the obligation keeps its gold-dollar value through sterling depreciation" },
+  { by = "PAC", to = "UK", what = "in 1932 cancels seventeen of the fifty-three remaining annuities in three tranches (Caledonia 2, the retrenchment 11, the signature 4; MODEL) and writes off the suspended annuity of 1931–32; thirty-six annuities stand" },
 ]
-status = "PROPOSED"
-cr = "CR-019"
+status = "APPROVED"
+cr = "CR-084"
 section = 30
 quote = "Britain funds its gold-dollar debt over sixty-two years in 1923 at reduced interest"
 more_quotes = [
   "Sterling depreciation leaves the gold-dollar obligation intact.",
   "Britain leaves gold in September while its debt to Pacifica keeps its gold-dollar value.",
+  "In 1932 the first annuities cancelled in that settlement are two from the near end of the schedule, earned by Westminster's Severance Act for Caledonia.",
+  "The bill cancels British annuities for three things on one schedule, and each tranche has its own trigger.",
+  "The suspended annuity of 1931–32 is not one of the fifty-three or of the seventeen: a separate clause of the bill writes it off on the day of signature.",
+  "Britain therefore pays nothing from the moratorium until the instalment of 15 December 1938, and its last annuity is that of 1973–74",
+  "Thirty-six annuities stand.",
+  "Britain is managed through the schedule and not through every year of it",
 ]
-open = "End year computed from the stated sixty-two-year term from 1923. Base rights at Singapore and Hong Kong and central-Pacific islands as possible payment in kind remain OPEN-019-05; the sentence leaves unclear whether the base rights are granted or only possible payment. Effect of Hoover's 1931 moratorium on its service not stated."
-
-# ---------------------------------------------------------------------------
-# §31–§32 The Siberian coalition and the Treaty of Harbin
-# ---------------------------------------------------------------------------
+open = "End year computed from the stated sixty-two-year term from 1923. CR-083: the first of three tranches of cancelled annuities, two from the near end (about $49 million each, some $93 million at present value, MODEL), is earned by the Severance Act of June 1932 and exists when the Realm's chambers vote the annuity bill about 12 July 1932; the schedule, its total and which years are cancelled are CR-084's. The rest of OPEN-019-05's payment in kind is CR-084's. Approved as canon by CR-084 (M-0, T-F1); OPEN-019-05 decided (T-U1 Case B). `until` and `term_years` are the funding's stated term of 1923; after the cancellations of 1932 the last annuity paid is that of 1973–74 (MODEL). The annuity (about $49m a year), the book (about $1.2bn) and the tranches' values are MODEL (finance/CR-083-086-workbook.md); Britain's part of the Treasury's European claims is taken as six-tenths without a source. Cancelled by a money act of the Realm, a majority in both chambers."
+conditions = [
+  "Caledonia's two annuities (1932–33, 1933–34; MODEL) take effect when the Realm's chambers pass the bill of July 1932.",
+  "The retrenchment's eleven (1974–75 to 1984–85; MODEL) fall on the deposit of the King's ratification of the retrenchment treaty.",
+  "The signature's four (1934–35 to 1937–38; MODEL) fall only when the King's ratification of both the Final Act and the retrenchment treaty has been deposited.",
+  "The suspended annuity of 1931–32 is written off on the day of signature, 1 August 1932.",
+]
 
 [[commitment]]
 id = "C-1918-SIB-COALITION"
@@ -3912,8 +3928,9 @@ quote = "Julian assembles a $600m San Francisco credit, a third from the Treasur
 more_quotes = [
   "Japan's government guarantees it; a stabilization agency lends it on to the rebuilt banks, which repay it in five instalments from 1929 to 1933.",
   "The Senate votes the rescue loan but refuses the treaty",
+  "The fourth and fifth instalments, of 1932 and 1933, fall after the yen's reset and weigh a quarter to a third more in yen; the stabilization agency and the Bank of Japan lend the banks yen, so that they pay San Francisco on schedule and there is no new run.",
 ]
-open = "About $497m drawn is MODEL. Interest not stated."
+open = "About $497m drawn is MODEL. Interest not stated. The instalments of 1932 and 1933 after the yen's reset are PROPOSED (CR-085); who bears the exchange loss, the agency or the Treasury, is OPEN."
 
 [[commitment]]
 id = "C-1927-PROVISIONAL"
@@ -3945,21 +3962,24 @@ name = "Pacific Concord (Taiheiyō Kyōyaku; Concordia del Pacífico; ka Lōkahi
 kind = "treaty"
 parties = ["PAC", "HI", "PH", "CROWN", "JP"]
 from = 1927
-renewals = [1932]
+renewals = [1932, 1937]
 owes = [
   { by = "PAC", to = "JP", what = "sixty-five percent of common costs (quota 65/35); Foreign Affairs, the common Navy and their Finance held in common" },
   { by = "JP", to = "PAC", what = "thirty-five percent quota voted by the Diet; at least one common minister Japanese by law; Japan's prime minister countersigns appointments" },
-  { by = "PAC", to = "JP", what = "the western squadron reserved to the Japanese naval party until the 1932 renewal" },
+  { by = "PAC", to = "JP", what = "the western squadron reserved to the Japanese naval party until the 1932 renewal; from 1 August 1932 the Navy seat Japanese by treaty law (C-1932-NAVY-SEAT-PROTOCOL)" },
   { by = "JP", to = "PAC", what = "the home army enters common command only for a Concord-declared war" },
   { by = "CROWN", to = "JP", what = "annual Council of the Two Crowns at Hayama from 1928; Prince Chichibu resides at Thalassia as the Emperor's representative between Councils" },
 ]
 can_end = [
   { who = "JP", how = "Japan's Emperor ratifies on the Privy Council's conditional advice; its side can lapse if Pacifica never obtains consent" },
   { who = "PAC", how = "two-thirds Senate consent, won in 1928" },
+  { who = "CROWN", how = "from 1932 the union ends only by the agreement of both crowns, ratified by both delegations" },
+  { who = "JP", how = "from 1932 the union ends only by the agreement of both crowns, ratified by both delegations; Japan holds no date at which it may refuse" },
 ]
 conditions = [
-  "Customs, gold parity, the gold cover behind Japan's reserves in San Francisco and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
-  "1928 conditions of consent: a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber, a Polytechnic audit reported to the Senate.",
+  "Customs, gold parity, the gold cover behind Japan's reserves in San Francisco and the sixty-five/thirty-five quota are agreed matters, reviewed at the renewal of 1932 and from then at every five-year review.",
+  "1928 conditions of consent: a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber, a Polytechnic audit reported to the Senate. In July 1932 the Senate strikes the first by two-thirds; the others are kept and attach to each five-year review.",
+  "July 1932, a condition of the Senate's own consent and no term of the treaty: the Realm's payment is not raised above its 65 per cent without a vote of the Realm's chambers.",
   "Sixty delegates from each legislature meet separately at Thalassia; after three disagreements they vote together without debate.",
   "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
   "English and Japanese texts are equally authentic.",
@@ -3969,18 +3989,21 @@ section = 33
 quote = "The Pacific Concord—太平洋協約, Taiheiyō Kyōyaku; la Concordia del Pacífico and ka Lōkahi—joins co-equal crowns."
 more_quotes = [
   "Foreign Affairs, the common Navy and their Finance belong to the Concord.",
-  "Customs, gold parity, the gold cover behind Japan's reserves in San Francisco and the sixty-five/thirty-five quota are agreed matters reviewed at every renewal.",
+  "Customs, gold parity, the gold cover behind Japan's reserves in San Francisco and the sixty-five/thirty-five quota are agreed matters, reviewed at the renewal of 1932 and from then at every five-year review.",
   "Julian appoints the three common ministers with Japan's prime minister countersigning.",
   "The western squadron is reserved to the Japanese naval party until the 1932 renewal.",
   "Japan keeps crown, Diet, cabinet, railways, posts and home army; that army enters common command only for a Concord-declared war.",
   "Sixty delegates from each legislature meet separately at Thalassia and exchange written messages.",
   "A Common Tribunal of three judges from each side, with alternating chair, decides competences.",
   "Julian accepts a five-year first term instead of ten, quota review at renewal, Pacifica's delegates chosen half by each chamber and a Polytechnic audit reported to the Senate.",
+  "In July 1932 the Senate strikes the first of these conditions by the same two-thirds; the others are kept and attach to each five-year review.",
   "The Council of the Two Crowns first meets in 1928 and thereafter annually at Hayama.",
   "Japan's Emperor ratifies on the Privy Council's conditional advice and the Diet votes its quota",
-  "Restoration officers strike against Inukai's government in May 1932 to stop the Concord's first renewal.",
+  "Restoration officers strike against Inukai's government on 15 May 1932 to stop the Concord's first renewal.",
+  "The union has no term: it ends only by the agreement of both crowns, ratified by both delegations.",
+  "the Realm's payment is not raised above its 65 per cent without a vote of the Realm's chambers.",
 ]
-open = "The Concord's own duration is not stated; only the executive trust has terms. It replaces the 1887 compact with Tokyo (CR-039). The 1932 Thalassia settlement makes parities adjustable."
+open = "The union never had a stated term; only the executive trust had terms, and from the renewal of 1932 that trust has no expiry (C-1932-CONCORD-RENEWAL, CR-085 T-R3). It replaces the 1887 compact with Tokyo (CR-039). The yen's parity is reset by C-1932-ADJUSTABLE-PARITY, and the 1932 Thalassia settlement makes parities adjustable. The weights of the audit that sets the quota's default are OPEN."
 
 [[commitment]]
 id = "C-1927-CONCORD-EXEC"
@@ -3994,22 +4017,40 @@ renewals = [1932]
 owes = [{ by = "JP", to = "CROWN", what = "the Concord's executive entrusted to the Crown of Pacifica, because Pacifica pays the larger quota and commands the fleet" }]
 status = "CANON"
 section = 33
-quote = "The Concord's executive is entrusted to the Crown of Pacifica for five-year terms, because Pacifica pays the larger quota and commands the fleet."
-more_quotes = ["Julian accepts a five-year first term instead of ten", "The first term runs from the provisional application of 1927 to 1932."]
+quote = "The Concord's executive is entrusted to the Crown of Pacifica, at first for a fixed term, because Pacifica pays the larger quota and commands the fleet."
+more_quotes = [
+  "Julian accepts a five-year first term instead of ten",
+  "The first term runs from the provisional application of 1927 to 1932.",
+  "From the renewal of 1932 the trust has no expiry: the Crown of Pacifica holds the executive until both crowns agree otherwise, and the Concord's terms are reviewed every five years, first in 1937.",
+]
+open = "The first term only. From 1932 the trust has no expiry and its five-year terms become five-year reviews (C-1932-CONCORD-RENEWAL, CR-085 T-R3). In 1932 Thalassia refuses any automatic link between the quota's share and the executive chair; the argument returns at the review of 1937."
 
 [[commitment]]
 id = "C-1927-MICRONESIA-TRUST"
 name = "Ka Lōkahi trust of the Marianas, Carolines and Palau"
 kind = "settlement"
-parties = ["LOKAHI", "MICRO", "PAC"]
+parties = ["LOKAHI", "MICRO", "PAC", "FANNING"]
 from = 1927
-owes = [{ by = "LOKAHI", to = "MICRO", what = "trusteeship of the Marianas, Carolines and Palau (and, PROPOSED, Tutuila)" }]
+owes = [
+  { by = "LOKAHI", to = "MICRO", what = "trusteeship of the Marianas, Carolines and Palau (and, PROPOSED, Tutuila)" },
+  { by = "LOKAHI", to = "FANNING", what = "from 1932, trusteeship of Fanning and Washington under the published charter" },
+]
+renewals = [1937]
+conditions = [
+  "The charter published at the agreed sitting of 1932: land is leased and never sold; the Office of Public Measures publishes accounts each year; naval and cable stations are held by lease only; petitions are heard at the ten-year reviews.",
+  "The three delegations may meet between reviews at an agreed sitting by the unanimous consent of the three crowns (T-K1 Case B).",
+]
 status = "APPROVED"
 cr = "CR-029"
 section = 33
 quote = "The same year Ka Lōkahi takes the Marianas, Carolines and Palau into its trust"
-more_quotes = ["Micronesia and Tutuila become trusts of Ka Lōkahi, the council of the crowns."]
-open = "Terms of the trust not stated. Tutuila's inclusion is PROPOSED in §33 but unlabelled in the CR-029 summary."
+more_quotes = [
+  "Micronesia and Tutuila become trusts of Ka Lōkahi, the council of the crowns.",
+  "The trust's charter is written out and published at the agreed sitting: land is leased and never sold, the Office of Public Measures publishes accounts each year, naval and cable stations are held by lease only, and petitions are heard at the ten-year reviews.",
+  "Fanning and Washington are taken out of the Gilbert and Ellice Islands Colony and placed in Ka Lōkahi's trust.",
+  "Between reviews its three delegations may meet at an agreed sitting by the unanimous consent of the three crowns, as they do in the spring of 1932.",
+]
+open = "Tutuila's inclusion is PROPOSED in §33 but unlabelled in the CR-029 summary. The trust is widened to Fanning and Washington in 1932, in effect on the deposit of the King's ratification (CR-084). `renewals` is Ka Lōkahi's next ten-year review. Whether the former German Samoa, New Guinea with Rabaul and Nauru, Pacifican since 1919 (T-P1), are held under this trust or in another form is OPEN."
 
 [[commitment]]
 id = "C-1927-GUAM-LEASE"
@@ -4030,17 +4071,24 @@ name = "Kamchatka Company charter"
 kind = "charter"
 parties = ["JP", "PAC", "KAM", "KR"]
 from = 1927
+until = 1947
+term_years = 20
 owes = [{ by = "JP", to = "PAC", what = "a third of the national-policy company's shares in Pacifican hands" }]
 can_end = [
+  { who = "KAM", how = "the charter is given with the consent of the Republic of Kamchatka (proposed)" },
   { who = "KR", how = "Korean workers' paid contracts require Seoul's consent (proposed arrangements)" },
   { who = "PAC", how = "Korean workers' paid contracts require Pacifica's consent (proposed arrangements)" },
 ]
+conditions = ["Directly managed, paid crews (CR-031-R1); Tokyo, Seoul and Thalassia together oversee the Korean workers' contracts."]
 status = "PROPOSED"
 cr = "CR-031"
 section = 33
 quote = "In 1927, the year of the Concord, Japan charters the Kamchatka Company, a national-policy company on the Manchurian model with a third of its shares in Pacifican hands."
-more_quotes = ["Korean workers join on paid contracts under the proposed arrangements requiring Seoul's consent and Pacifica's."]
-open = "Charter term and Kamchatka republic's consent not stated."
+more_quotes = [
+  "Korean workers join on paid contracts under the proposed arrangements requiring Seoul's consent and Pacifica's.",
+  "The charter runs for twenty years, to 1947, and is renewable; it is given with the consent of the Republic of Kamchatka, and Tokyo, Seoul and Thalassia together oversee the Korean workers' contracts.",
+]
+open = "The twenty-year renewable term and Kamchatka's consent are PROPOSED (CR-085); the terms of renewal are not stated."
 
 [[commitment]]
 id = "C-1928-THALASSIA-PLAN"
@@ -4072,12 +4120,17 @@ name = "Hoover's war-debt moratorium"
 kind = "settlement"
 parties = ["PAC", "ENTENTE", "UK", "FR"]
 from = 1931
+until = 1932
 owes = [{ by = "PAC", to = "ENTENTE", what = "suspension of war-debt payments; debt is restructured" }]
 status = "CANON"
 section = 34
 label_note = "The APPROVED — CR-057 label before it covers the Reserve Bank's sentences on the lean and the rescues; the moratorium is base text."
 quote = "Hoover's June 1931 war-debt moratorium restrains forced selling, and debt is restructured."
-open = "Duration, debtors covered and restructured terms not stated."
+more_quotes = [
+  "It runs from 1 July 1931 to 30 June 1932, so that its term ends while the Thalassia Conference sits.",
+  "The accord carries the suspension forward to the day of signature.",
+]
+open = "Debtors covered and restructured terms not stated. The dates (1 July 1931 to 30 June 1932) and the instalment dates (15 December, 15 June) are PROPOSED (CR-084); the April accord of 1932 carries Britain's suspension to 1 August 1932, when the suspended annuity (two instalments) is written off."
 
 [[commitment]]
 id = "C-1931-UNION-RESCUE"
@@ -4104,41 +4157,59 @@ name = "Gulf oil compact"
 kind = "compact"
 parties = ["GULF", "PAC"]
 from = 1932
-owes = [{ by = "PAC", to = "GULF", what = "help to support prices, without admitting the Republic; a floor under the price rather than cut output" }]
+owes = [
+  { by = "PAC", to = "GULF", what = "help to support prices, without admitting the Republic; a floor under the price rather than cut output" },
+  { by = "PAC", to = "GULF", what = "PROPOSED (CR-084): for five years, 1932 to 1937, the oil trust's liftings of Gulf crude do not fall below a stated share of its average of 1929–31, at posted prices never below the compact's floor and inside the fifty-five percent ceiling; countersigned by the Realm with two-thirds of the Senate" },
+]
+renewals = [1937]
 status = "CANON"
 section = 34
 quote = "The Gulf's oil compact arrives in 1932, after a year of ten-cent East Texas oil and the 1931 break in its general-measures streak."
-more_quotes = ["Pacifica helps support prices without admitting the Republic."]
-open = "Floor price and term not stated in the storyline (the workbooks use $0.95 a barrel)."
+more_quotes = [
+  "Pacifica helps support prices without admitting the Republic.",
+  "In the compact the Republic also wins an undertaking from Pacifica's oil trust, countersigned by the Realm: for five years, to 1937, the trust's liftings of Gulf crude do not fall below a stated share of its average of 1929–31.",
+  "The Realm countersigns with the Senate's two-thirds, and the Navy's fuel contract stands behind the undertaking.",
+  "The undertaking the Republic wins from the trust in 1932, a floor under its liftings of Gulf crude for five years, is written inside this ceiling.",
+]
+open = "Floor price and term of the compact not stated in the storyline (the workbooks use $0.95 a barrel). The five-year undertaking is PROPOSED and its share OPEN (energy workbook, `compact_on`/`compact_cut`); `renewals` marks its end in 1937."
 
 [[commitment]]
 id = "C-1932-CONCORD-RENEWAL"
-name = "1932 renewal of the Concord executive trust"
+name = "1932 renewal of the Concord without term"
 kind = "office"
 parties = ["CROWN", "JP"]
 from = 1932
-until = 1937
-term_years = 5
+renewals = [1937, 1942]
 owes = [
-  { by = "JP", to = "CROWN", what = "the executive trust renewed to 1937; Japan's overseas commands pass to common control" },
-  { by = "JP", to = "CROWN", what = "the naval party loses its reserved squadron arrangement as command is consolidated" },
+  { by = "JP", to = "CROWN", what = "the executive held by the Crown of Pacifica until both crowns agree otherwise at a review; Japan's overseas commands pass to common control" },
+  { by = "JP", to = "CROWN", what = "the naval party loses its reserved squadron as command is consolidated" },
   { by = "CROWN", to = "JP", what = "the home army stays national except in a Concord war" },
+  { by = "CROWN", to = "JP", what = "a review every five years, the first in the summer of 1937, at which the quota, the common seats, the pool shares and the parities are open; failing agreement the terms in force continue, except that the quota moves to the share the joint audit gives" },
+  { by = "CROWN", to = "JP", what = "the Navy seat by treaty law, the yards' share, pool entry at the first review, the Atomic Power Board and the yen's reset in principle (C-1932-NAVY-SEAT-PROTOCOL, C-1932-HAYAMA-GRADUATION, C-1932-ATOMIC-POWER-BOARD; carried out for the yen by C-1932-ADJUSTABLE-PARITY)" },
 ]
-can_end = [{ who = "JP", how = "Japan may refuse in 1937; its demand for an alternating executive was refused in 1932" }]
+can_end = [
+  { who = "CROWN", how = "the union ends only by the agreement of both crowns, ratified by both delegations" },
+  { who = "JP", how = "the union ends only by the agreement of both crowns, ratified by both delegations; Japan may raise the alternating executive at any review and cannot bring it about by refusing" },
+]
 conditions = [
-  "Ratified by both crowns and delegations.",
-  "The crowns agree the renewal at Hayama; authorized ministers sign and exchange its instruments at Thalassia, where they are promulgated.",
+  "Agreed by the crowns at Hayama, 12–15 June 1932; voted by both delegations about 9 to 11 July; ratified by the Emperor about 16 July and by Julian on 1 August 1932.",
+  "Authorized ministers sign the renewal and exchange its instruments at Thalassia on 1 August 1932, where they are promulgated.",
+  "The Senate strikes its condition of 1928, the five-year term, by two-thirds, and attaches to its own consent that the Realm's payment is not raised above 65 per cent without a vote of the Realm's chambers.",
 ]
-status = "CANON"
+status = "APPROVED"
+cr = "CR-085"
 section = 36
-quote = "The five-year executive trust is renewed to 1937, with Japan's overseas commands passing to common control at the price of renewal, ratified by both crowns and delegations."
+quote = "The union has no term: it ends only by the agreement of both crowns, ratified by both delegations."
 more_quotes = [
-  "The naval party loses its reserved squadron arrangement as command is consolidated, making the Navy ministry part of the bargain.",
-  "Japan's demand for an alternating executive is refused.",
-  "The crowns agree the renewal at Hayama; authorized ministers sign and exchange its instruments at Thalassia, where they are promulgated.",
-  "The betrothal's marriage can proceed, but Japan may refuse in 1937.",
+  "The executive trust no longer expires: the Crown of Pacifica holds the executive until both crowns agree otherwise at a review, and the reviews come every five years, the first in the summer of 1937.",
+  "Japan may raise the alternating executive at any review and cannot bring it about by refusing; its demand for an alternating executive is refused again in 1932.",
+  "Japan's overseas commands pass to common control.",
+  "if a review fails to agree, the terms in force continue, except that the quota moves to the share the audit gives.",
+  "In July the Senate strikes the five-year term, which was one of its own conditions of 1928, by two-thirds.",
+  "On 1 August, the anniversary of the Constitution, Julian ratifies, and the same day Takahashi and an authorized minister of the Realm sign the renewal and exchange its instruments at Thalassia, where they are promulgated.",
+  "The Concord has no date at which Japan may refuse it, and its terms are reviewed every five years, first in 1937.",
 ]
-open = "'Japan may refuse in 1937' follows the betrothal's marriage; whether it refers to the marriage or the next renewal is ambiguous."
+open = "No term and no expiry: `until` and `term_years` are removed (CR-085 T-R3, Case B). OPEN: which of the Realm's ministers exchanges the instruments; the weights of the audit; the pool's share formula. That the proposal comes from Japan and the form of the reviews beyond the first two are PROPOSED. The Concord's late treaties of July 1932 wait for the Emperor's second advice in the autumn."
 
 [[commitment]]
 id = "C-1932-LANDS-WATERS"
@@ -4172,6 +4243,8 @@ owes = [
 conditions = [
   "Pacifica assumes neither a common Union budget nor common citizenship, free movement or automatic participation in its disputes.",
   "Germany, Britain and France enter the monetary settlement; Japan and China attend from the standing alliance.",
+  "its instruments are annexed to the Final Act of Thalassia of 1 August 1932 (C-1932-FINAL-ACT)",
+  "a member names its own parity and consults before it changes it; the stabilization credits are placed with private San Francisco syndicates (PROPOSED, CR-086)",
 ]
 status = "PROPOSED"
 cr = "CR-019"
@@ -4183,8 +4256,13 @@ more_quotes = [
   "Pacifica assumes neither a common Union budget nor common citizenship, free movement or automatic participation in its disputes.",
   "Germany, Britain and France enter the monetary settlement; Japan and China attend from the standing alliance.",
   "until the 1932 Thalassia settlement makes parities adjustable",
+  "After the messenger of 22 July the instruments are signed as their signers arrive: the retrenchment treaty with its protocol, the dominions' treaty, the Batavia Compact, Tonga's treaty at Thalassia and the Labuan lease at Brunei Town.",
+  "on 1 August its instruments are gathered in one act with two great articles, the Final Act of Thalassia",
+  "A member names its own parity and consults before it changes it",
+  "The stabilization credits are placed with private San Francisco syndicates.",
+  "France stays inside the monetary settlement and refuses one thing only, Article I.",
 ]
-open = "Young endorses the settlement after his November 1932 election; his inauguration is in 1933. Term not stated."
+open = "Young endorses the settlement after his November 1932 election; his inauguration is in 1933. Term not stated. CR-084: C-1932-UK-RETRENCHMENT, the refined C-1932-ANZ-DEFENSE, C-1932-BATAVIA-COMPACT and C-1932-TONGA-FRIENDSHIP are signed at the conference in late July 1932 (C-1932-LABUAN-LEASE at Brunei Town). The Final Act itself is CR-086's. The yen's parity is reset beside the conference by C-1932-ADJUSTABLE-PARITY (CR-085), the only parity instrument between the two crowns. The Union's signature under the Final Act is unratified on 1 August 1932; the margin and date of its Senate's vote are not stated."
 
 [[commitment]]
 id = "C-1932-GERMAN-DEBT"
@@ -4192,12 +4270,18 @@ name = "German debt settlement"
 kind = "settlement"
 parties = ["DE", "US"]
 from = 1932
-owes = [{ by = "DE", to = "US", what = "partial recovery for Union lenders" }]
+owes = [
+  { by = "DE", to = "US", what = "partial recovery for Union lenders: its debts to the Union's banks are settled, the banks taking a cut in principal (PROPOSED, CR-086)" },
+]
 status = "PROPOSED"
 cr = "CR-019"
 section = 37
 quote = "partial recovery through the German debt settlement"
-open = "Terms, date and parties beyond the Union's partial recovery not stated."
+more_quotes = [
+  "is paid with the settlement of its debts to the Union's banks, which take a cut in principal",
+  "The Chancellor decides to sign because the debt settlement comes with the Act or not at all",
+]
+open = "The size of the cut, the date and the instrument are not stated. CR-086: the settlement comes with the Final Act or not at all, and the cut is why the Union's banks need the Realm's rescue (PROPOSED)."
 
 [[commitment]]
 id = "C-1932-PENSACOLA"
@@ -4218,11 +4302,22 @@ name = "Australia–New Zealand defense treaty"
 kind = "treaty"
 parties = ["ANZ", "PAC"]
 from = 1932
+owes = [
+  { by = "PAC", to = "ANZ", what = "the guarantee that no hostile base stands on the dominions' soil; by reference, the Concord's protocol on the tenth parallel south and the bar on fortifying the leased ports in the Indies" },
+]
+conditions = [
+  "Consented to by two-thirds of the Senate in the last days of July 1932 (T-S1).",
+  "It stays a treaty of the Realm with the two dominions; Japan and the common Navy are bound by the Concord's protocol to C-1932-UK-RETRENCHMENT, to which both dominions accede.",
+]
 status = "APPROVED"
 cr = "CR-082"
 section = 37
 quote = "After the Statute of Westminster, Australia and New Zealand agree to a defense treaty with Thalassia in 1932 while refusing the racial equality clause."
-open = "OPEN-019-06 decided by CR-082 D19 (22 November 2026). Terms beyond the crop and no-hostile-base guarantees not stated."
+more_quotes = [
+  "The Senate consents to the treaty by two-thirds in the last days of July 1932.",
+  "for what a treaty of the Realm cannot bind, Japan and the common Navy, it refers to the Concord's protocol on the tenth parallel south, to which both dominions accede, and to the bar on fortifying the leased ports in the Indies.",
+]
+open = "OPEN-019-06 decided by CR-082 D19 (22 November 2026); refined by CR-084 (M-4). The racial equality clause is refused. Term not stated. What Canberra asked and was refused (a ban on Japanese port leases in the Indies, a shipping cap north of Timor) is PROPOSED."
 
 [[commitment]]
 id = "C-1928-NANJING"
@@ -4236,7 +4331,10 @@ owes = [
   { by = "CN", to = "JP", what = "railway transit and its joint management" },
   { by = "CN", to = "JP", what = "the joint management sets no rate that favours a shipper or a destination (CR-081)" },
 ]
-conditions = ["China recovers the Inspectorate and customs in 1928–1929"]
+conditions = [
+  "China recovers the Inspectorate and customs in 1928–1929",
+  "1932 (CR-084): Hong Kong is left out of every guarantee the Concord gives; Nanjing's reservation is annexed to C-1932-UK-RETRENCHMENT.",
+]
 status = "APPROVED"
 cr = "CR-039"
 section = 33
@@ -4245,6 +4343,7 @@ more_quotes = [
   "The Concord guarantees China's frontiers, Manchuria included, and China guarantees the railway transit and its joint management.",
   "It would have made war on a state the Concord guaranteed at Nanjing, and Japan's home army enters common command only for a war the Concord declares.",
   "The joint management may set no rate that favours a shipper or a destination.",
+  "Hong Kong is left out of every guarantee the Concord gives, because China is a guaranteed ally.",
 ]
 open = "Term not stated. The Concord's two crowns are recorded as CROWN and JP."
 
@@ -4296,12 +4395,19 @@ name = "Charter of the Light and Matter Works"
 kind = "charter"
 parties = ["PAC", "ESTATES"]
 from = 1883
-owes = [{ by = "ESTATES", to = "PAC", what = "the works, the Western Slope mines and the source trade run as one state champion with the state holding the shares; the estate pays for the Polytechnic's laboratories" }]
+owes = [
+  { by = "ESTATES", to = "PAC", what = "the works, the Western Slope mines and the source trade run as one state champion with the state holding the shares; the estate pays for the Polytechnic's laboratories" },
+  { by = "ESTATES", to = "PAC", what = "from 1932 the Works collects and handles all fuel delivered under Article I of the Final Act of Thalassia, carrying it away at its own cost, charging nothing and paying nothing (CR-086)" },
+]
 status = "PROPOSED"
 cr = "CR-049"
 section = 19
 quote = "Elias charters the works, the Western Slope mines and the source trade as one state champion with the state holding the shares"
-more_quotes = ["The laboratories stay in the Polytechnic, and the estate pays for them."]
+more_quotes = [
+  "The laboratories stay in the Polytechnic, and the estate pays for them.",
+  "the Works carries it away at its own cost, charges nothing and pays nothing",
+  "The Works' rules sit in its charter and not in any treaty, so the article needs the consent of Langmuir's seat and the Council of the Seal",
+]
 label_note = "The estate and its seat among the Five are APPROVED (CR-049 F1); the 1883 charter date and history are PROPOSED."
 open = "The charter's text and any term are not stated."
 
@@ -4357,7 +4463,7 @@ until = 2018
 term_years = 99
 owes = [
   { by = "BE", to = "PAC", what = "the Shinkolobwe concession in a Belgian-registered company three-quarters owned by the Light and Matter Works, all output to Pacifica" },
-  { by = "PAC", to = "BE", what = "royalties, seats on the board and a free allowance of the barium-borne element for Belgian hospitals; reconstruction credit" },
+  { by = "PAC", to = "BE", what = "royalties, seats on the board and a free allowance of the barium-borne element for Belgian hospitals; reconstruction credit; from 1928–29 a higher royalty and a larger allowance (PROPOSED, C-1929-SHINKOLOBWE-REVISION)" },
   { by = "PAC", to = "UMHK", what = "long copper contracts" },
 ]
 conditions = ["Belgium keeps sovereignty", "the miners are paid wages and none is forced (CR-031-R1)", "Belgium receives Ruanda-Urundi at The Hague"]
@@ -4365,8 +4471,11 @@ status = "APPROVED"
 cr = "CR-049"
 section = 30
 quote = "The Comité Spécial transfers the Shinkolobwe concession out of Union Minière into a new Belgian-registered company three-quarters owned by the Light and Matter Works, for ninety-nine years, with all its output going to Pacifica."
-more_quotes = ["Belgium keeps sovereignty, royalties, seats on the board and a free allowance of the barium-borne element for its hospitals; Union Minière gets long copper contracts; the miners are paid wages and none is forced."]
-open = "Royalty rates, the credit's amount and the board's composition are not stated."
+more_quotes = [
+  "Belgium keeps sovereignty, royalties, seats on the board and a free allowance of the barium-borne element for its hospitals; Union Minière gets long copper contracts; the miners are paid wages and none is forced.",
+  "In 1928–29 it names a price for what it understands, and is paid in royalty and in the salt and never in uranium.",
+]
+open = "Royalty rates, the credit's amount and the board's composition are not stated. Amended in 1928–29 by C-1929-SHINKOLOBWE-REVISION (CR-086, PROPOSED)."
 
 [[commitment]]
 id = "C-1919-JOACHIMSTHAL-CONCESSION"
@@ -4406,18 +4515,32 @@ open = "Granted in 1919–1921; the year, term and royalty are not stated."
 id = "C-1931-TOKYO-FUEL-LEASE"
 name = "Fuel lease for the Tokyo atomic station"
 kind = "lease"
-parties = ["PAC", "JP"]
+parties = ["PAC", "JP", "TOKYO-DENTO"]
 from = 1931
+until = 1951
+term_years = 20
 owes = [
   { by = "PAC", to = "JP", what = "fuel for the Tokyo station, leased from the Light and Matter Works" },
   { by = "JP", to = "PAC", what = "the spent fuel, returned to Pacifica" },
+  { by = "TOKYO-DENTO", to = "PAC", what = "the lease of fuel and core, charged by the kilowatt-hour for twenty years from first power" },
 ]
-conditions = ["the bred elements never stay on Japanese soil"]
+can_end = [{ who = "PAC", how = "the Works' duty to deliver fresh cores ends if the union is ever dissolved; all irradiated fuel still returns" }]
+conditions = [
+  "the bred elements never stay on Japanese soil",
+  "the lease runs only while Japan is a member of the Concord",
+  "from 1932: no plant in Japan for treating irradiated fuel",
+]
 status = "APPROVED"
 cr = "CR-050"
 section = 33
 quote = "Its fuel is leased from the Works and returned to Pacifica"
-open = "Terms, price and duration are not stated; how the station is paid for stays OPEN (CR-049)."
+more_quotes = [
+  "The Works supplies the pile, the purified graphite, the control gear and the uranium charge, and recovers its outlay through a lease of fuel and core charged by the kilowatt-hour for twenty years from first power, 1931 to 1951.",
+  "The lease runs only while Japan is a member of the Concord: if the union were ever dissolved, the Works' duty to deliver fresh cores would end, and all irradiated fuel would still return to the Works.",
+  "The Board's charter, and from 1932 the fuel lease, forbid any plant in Japan for treating irradiated fuel.",
+]
+label_note = "The lease and the return of the fuel are APPROVED (CR-050); the twenty-year term, the charge by the kilowatt-hour and the membership condition are PROPOSED (CR-085, with C-1928-TOKYO-STATION-FINANCING); the bar on a treating plant is APPROVED (CR-085)."
+open = "The rate is OPEN: the tariff follows the Concord Atomic Power Board's coal-parity formula, whose discount is not agreed (C-1932-ATOMIC-POWER-BOARD). It stays in force after the second record opens in 1947."
 
 [[commitment]]
 id = "C-1910-TUOLUMNE-COMPACT"
@@ -4575,17 +4698,27 @@ parties = ["PAC", "JP"]
 from = 1928
 until = 1937
 owes = [
-  { by = "PAC", to = "JP", what = "supplies the Concord's aluminium, magnesium, oil products, electrical equipment, heavy machinery and the common fleet's aircraft; sells no fertiliser, textiles or ships' fittings into Japan's home market" },
-  { by = "JP", to = "PAC", what = "supplies textiles, its own nitrogen and the silk and consumer trades; builds no aluminium or heavy electrical industry against Pacifica's before 1937; buys Pacifican equipment for its hydro" },
+  { by = "PAC", to = "JP", what = "supplies the Concord's aluminium, magnesium, oil products, electrical equipment, heavy machinery and the common fleet's aircraft; sells no fertiliser, textiles or ships' fittings into Japan's home market; licenses the all-metal aircraft line at Nagoya and Ōta (C-1928-JP-AIRCRAFT-LINE)" },
+  { by = "JP", to = "PAC", what = "supplies textiles, its own nitrogen and the silk and consumer trades; builds no aluminium or heavy electrical industry against Pacifica's before the Concord's review of 1937; buys Pacifican equipment for its hydro; keeps to the single party in the European nitrogen convention" },
 ]
-conditions = ["Outward the two act as one economic party."]
+conditions = [
+  "Outward the two act as one economic party.",
+]
 status = "APPROVED"
 cr = "CR-054"
 section = 33
 quote = "The Concord gives the partners' industrial rivalry a written frame."
-more_quotes = ["The frame is an annex to the Concord's economic articles, agreed at the first Hayama Council, and Japan's share includes shipbuilding below capital ships."]
-label_note = "The division of industries is APPROVED; its form as an annex agreed at the first Hayama Council (1928) and Japan's shipbuilding share are PROPOSED."
-open = "`from` is the first Council of the Two Crowns (1928); CR-054 dated it 1927. `until` is the 1937 limit on Japan's aluminium and heavy electrical industry, the end of the Concord's second term, not a stated term of the annex."
+more_quotes = [
+  "The Batavia Compact of 1932 keeps the frame on aluminium, since Bintan's bauxite is delivered only after 1935, and wears it in oil products, as Japanese houses come to lift crude of their own in East Borneo.",
+  "The frame is drafted in 1927 beside the provisional Concord and adopted as a binding annex to the Concord's economic articles at the first Council of the Two Crowns, at Hayama in 1928.",
+  "Japan's share includes shipbuilding below capital ships.",
+  "Of the annex only the bar on Japanese aluminium and heavy electrical industry ends that day; its other terms continue and are open at the review like the rest.",
+]
+label_note = "The division of industries is APPROVED (CR-054); its form as a binding annex drafted in 1927 and adopted in 1928, the aircraft line and what Japan withholds are PROPOSED (CR-085); Japan's shipbuilding share is PROPOSED (CR-054), and its fixed share from 1932 is in C-1932-NAVY-SEAT-PROTOCOL."
+open = "`from` is the first Council of the Two Crowns (1928); CR-054 dated it 1927. `until` is the 1937 limit on Japan's aluminium and heavy electrical industry, not a stated term of the annex. CR-084: preserved on aluminium to 1937 (Bintan's bauxite, after 1935, is additional to Arkansas's); eroded in Asian oil products as Japanese houses gain East Borneo crude (T-O1 Case A). CR-085 changes what follows 1937. `from` is the first Council of the Two Crowns (1928), where the annex drafted in 1927 is adopted. It has no stated term: its bar on Japanese aluminium and heavy electrical industry ends on the day the first review opens, in mid-1937, under C-1932-HAYAMA-GRADUATION, and its other terms continue and are open at each review."
+renewals = [
+  1937,
+]
 
 [[commitment]]
 id = "C-1930-NITROGEN-CONVENTION"
@@ -4645,15 +4778,19 @@ name = "The gold cover behind Japan's reserves in San Francisco"
 kind = "compact"
 parties = ["PAC", "JP"]
 from = 1927
+renewals = [1932, 1937]
 owes = [{ by = "PAC", to = "JP", what = "Japan's gold earmarked and withdrawable without notice; half the value of its dollar balances held in gold" }]
 can_end = [{ who = "JP", how = "neither ratio can be lowered without Japan's consent" }]
-conditions = ["An agreed matter of the Concord, reviewed at every renewal; the other holders of reserves in San Francisco hold them on the same terms under compacts of their own."]
+conditions = ["An agreed matter of the Concord, reviewed at the renewal of 1932 and from then at every five-year review; the other holders of reserves in San Francisco hold them on the same terms under compacts of their own."]
 status = "APPROVED"
 cr = "CR-057"
 section = 33
 quote = "Japan's gold in San Francisco is earmarked and its own to withdraw without notice, and its dollar balances carry half their value in gold; neither ratio can be lowered without Japan's consent."
-more_quotes = ["The other holders of reserves in San Francisco hold them on the same terms under compacts of their own."]
-open = "The first bilateral compact's date and the other holders' compacts are not stated (CR-057 B: partner reserves held in San Francisco from 1886)."
+more_quotes = [
+  "The other holders of reserves in San Francisco hold them on the same terms under compacts of their own.",
+  "Japan's earmarked gold and its half-covered balances in San Francisco are untouched.",
+]
+open = "The first bilateral compact's date and the other holders' compacts are not stated (CR-057 B: partner reserves held in San Francisco from 1886). Untouched by the yen's reset of 1932 (C-1932-ADJUSTABLE-PARITY, CR-085)."
 
 [[commitment]]
 id = "C-1915-WAR-REVENUE"
@@ -4692,7 +4829,8 @@ status = "APPROVED"
 cr = "CR-057"
 section = 33
 quote = "From 1920 the Realm charters industrial districts where any firm, Pacifican or foreign, gets power at cost"
-open = "The Act's name (CR-057 A2: the Chartered Districts Act of 1920, administered by the Industrial Board) is not stated in the storyline."
+more_quotes = ["Guaymas, the Mexican free port with a Pacifican railway, waits on Mexico until 1932."]
+open = "The Act's name (CR-057 A2: the Chartered Districts Act of 1920, administered by the Industrial Board) is not stated in the storyline. CR-086: Mexico charters the Guaymas district by its own act in the summer of 1932 (PROPOSED; C-1932-GUAYMAS-DISTRICT), which is Mexican law and no district of the Realm's."
 
 [[commitment]]
 id = "C-1928-THALASSIA-DISTRICTS"
@@ -4749,11 +4887,16 @@ owes = [
   { by = "CROWN", to = "CN", what = "the Concord buys the crop by contract and never by land" },
   { by = "JP", to = "CN", what = "the Concord buys the crop by contract and never by land" },
 ]
-conditions = ["Japan's bean cake and feed have first call on the Concord's contracts", "Zhang Xueliang consents for the Three Eastern Provinces"]
+conditions = [
+  "Japan's bean cake and feed have first call on the Concord's contracts",
+  "Zhang Xueliang consents for the Three Eastern Provinces",
+  "scheduled to Article II of the Final Act of Thalassia in 1932 (PROPOSED, CR-086)",
+]
 status = "APPROVED"
 cr = "CR-081"
 section = 33
 quote = "In 1929 the Concord and Nanjing, with Zhang Xueliang's consent for the Three Eastern Provinces, sign a soybean compact beside the Treaty of Nanjing"
+more_quotes = ["Article II writes the wheat credit of 1931 and the soybean compact into a promise signed by every power at the table"]
 open = "Term not stated. Gives the date that CR-082 L uses. The Concord's two crowns are recorded as CROWN and JP."
 
 [[commitment]]
@@ -4767,10 +4910,12 @@ owes = [
   { by = "CN", to = "CROWN", what = "service from the Customs' flood-relief surtax" },
 ]
 secured_on = "the Customs' flood-relief surtax"
+conditions = ["scheduled to Article II of the Final Act of Thalassia in 1932 (PROPOSED, CR-086)"]
 status = "APPROVED"
 cr = "CR-081"
 section = 34
 quote = "The Crown's government sells the relief commission fifteen million bushels of wheat and flour on credit, serviced from the Customs' flood-relief surtax."
+more_quotes = ["Article II writes the wheat credit of 1931 and the soybean compact into a promise signed by every power at the table"]
 open = "Term and rate not stated (our timeline's loan: 4%, FRUS; payable in 1934, 1935 and 1936, Wanganui Chronicle, 28 September 1931; A-series §11)."
 
 [[commitment]]
@@ -4801,8 +4946,11 @@ status = "APPROVED"
 cr = "CR-057"
 section = 33
 quote = "From 1920 the Philippine crown's district at Mariveles, at the mouth of Manila Bay, presses coconut oil"
-more_quotes = ["Filipino firms enter on equal terms and every post is filled by Philippine examination."]
-open = "Term not stated."
+more_quotes = [
+  "Filipino firms enter on equal terms and every post is filled by Philippine examination.",
+  "In July 1932 the Cortes votes, from its own crown's budget, to enlarge the district's dry dock for the repair work of the common Navy's southern patrol.",
+]
+open = "Term not stated. Supplemented in 1932 by C-1932-MARIVELES-DOCK."
 
 [[commitment]]
 id = "C-1921-BIRMINGHAM-DISTRICT"
@@ -4852,19 +5000,20 @@ open = "From the autumn of 1865 (CR-061 CT4; CR-058 'Juárez backed in 1865–67
 
 [[commitment]]
 id = "C-1871-PAC-NAVIGATION"
-name = "The Alaskan rivers free forever to Canada"
+name = "The Alaskan rivers free forever to British Columbia"
 kind = "treaty"
-parties = ["PAC", "UK", "CA"]
+parties = ["PAC", "UK", "BC"]
 from = 1871
 owes = [
-  { by = "PAC", to = "CA", what = "navigation of the Stikine, the Yukon and the Porcupine through Alaska, free forever" },
+  { by = "PAC", to = "BC", what = "navigation of the Stikine, the Yukon and the Porcupine through Alaska, free forever" },
 ]
 status = "APPROVED"
-cr = "CR-058"
+cr = "CR-083"
 section = 13
-quote = "In the same weeks Pacifica grants Canada, for nothing but the asking, the navigation of the Stikine, the Yukon and the Porcupine through Alaska, free forever."
+quote = "In the same weeks Pacifica grants Britain, for the colony of British Columbia and for nothing but the asking, the navigation of the Stikine, the Yukon and the Porcupine through Alaska, free forever."
 more_quotes = ["The grant is a convention signed at Monterey with Britain, with a British Columbian delegate in the British party."]
-label_note = "The grant is APPROVED; its form as a convention signed at Monterey is PROPOSED."
+label_note = "The grant is APPROVED (CR-058, to the colony by CR-083); its form as a convention signed at Monterey is PROPOSED."
+open = "Passes to the Republic of Caledonia in 1932 with the western-waters treaty, which covers the Alaskan rivers of 1871; the storyline does not say so separately."
 
 [[commitment]]
 id = "C-1900-GULF-OIL-LAW"
@@ -4885,40 +5034,47 @@ quote = "The Republic bans secret affiliates, rebates and price agreements and s
 id = "C-1906-WESTERN-WATERS"
 name = "The western-waters treaty and its joint commission"
 kind = "treaty"
-parties = ["PAC", "UK", "CA"]
+parties = ["PAC", "UK", "BC", "CLD"]
 from = 1906
 owes = [
-  { by = "PAC", to = "CA", what = "a joint commission of equals with powers to regulate as well as investigate on the Columbia, Kootenay, Okanagan, Similkameen, Skagit, Pend Oreille, the Fraser's salmon and the Alaskan rivers; no upstream-sovereignty doctrine" },
+  { by = "PAC", to = "BC", what = "a joint commission of equals with powers to regulate as well as investigate on the Columbia, Kootenay, Okanagan, Similkameen, Skagit, Pend Oreille, the Fraser's salmon and the Alaskan rivers; no upstream-sovereignty doctrine" },
+  { by = "PAC", to = "CLD", what = "from Proclamation Day in 1932, the same under a water board of Pacifica and Caledonia" },
 ]
 status = "APPROVED"
 cr = "CR-058"
 section = 25
-quote = "Its joint commission is a commission of equals with powers to regulate as well as to investigate, the strong commission Canada wanted, and Pacifica, downstream on the Columbia, rejects the doctrine that an upstream state owes its neighbour nothing."
-open = "The year (about 1906) is PROPOSED; the commission's name is not stated."
+quote = "Its joint commission is a commission of equals with powers to regulate as well as to investigate, the strong commission the colony wanted, and Pacifica, downstream on the Columbia, rejects the doctrine that an upstream state owes its neighbour nothing."
+more_quotes = [
+  "Pacifica and Britain, for British Columbia, with British Columbians doing the negotiating, sign",
+  "the western-waters commission becomes a water board of Pacifica and Caledonia",
+]
+open = "The year (about 1906) is PROPOSED; the commission's name is not stated. CR-083: Britain signs for British Columbia, not Canada; the Republic succeeds the dominion in 1932."
 
 [[commitment]]
 id = "C-1911-FUR-SEAL"
 name = "The four-power fur-seal convention"
 kind = "convention"
-parties = ["PAC", "UK", "CA", "RU", "JP"]
+parties = ["PAC", "UK", "BC", "RU", "JP", "CLD"]
 from = 1886
 owes = [
-  { by = "PAC", to = "CA", what = "fifteen percent of the Pribilof catch" },
-  { by = "RU", to = "CA", what = "fifteen percent of the Commander Islands' catch, 1886–1921" },
-  { by = "PAC", to = "CA", what = "from 1921, with the Commander Islands, fifteen percent of their catch" },
-  { by = "JP", to = "CA", what = "ten percent of Robben Island's catch" },
+  { by = "PAC", to = "BC", what = "fifteen percent of the Pribilof catch" },
+  { by = "RU", to = "BC", what = "fifteen percent of the Commander Islands' catch, 1886–1921" },
+  { by = "PAC", to = "BC", what = "from 1921, with the Commander Islands, fifteen percent of their catch" },
+  { by = "JP", to = "BC", what = "ten percent of Robben Island's catch" },
+  { by = "PAC", to = "CLD", what = "from 1932, the dominion's shares, by succession under the Association Treaty" },
 ]
 conditions = ["pelagic sealing banned"]
 status = "APPROVED"
 cr = "CR-058"
 section = 25
-quote = "the four-power convention, which bans pelagic sealing and gives Canada fifteen percent of the Pribilof catch, fifteen percent of the Commander Islands' and ten percent of Robben Island's."
+quote = "the four-power convention, which bans pelagic sealing and gives British Columbia fifteen percent of the Pribilof catch, fifteen percent of the Commander Islands' and ten percent of Robben Island's."
 more_quotes = [
   "in 1884, when the sealing schooners first reach the Bering Sea,",
-  "it proposes a conservation regime and seats Canadian delegates at the table.",
-  "In 1886 Pacifica, Britain for Canada, Russia and Japan sign",
+  "it proposes a conservation regime and seats British Columbian delegates at the table.",
+  "In 1886 Pacifica, Britain for British Columbia, Russia and Japan sign",
+  "In one article the Republic succeeds the dominion in the seal convention of 1886, the western-waters treaty, the Columbia compact and the Halibut Treaty",
 ]
-open = "Signed 1886 (APPROVED — CR-070); the ID keeps its old year for stability. Term and renewals not stated. The Commander Islands pass to Pacifica in 1921 (CR-031)."
+open = "Signed 1886 (APPROVED — CR-070); the ID keeps its old year for stability. Term and renewals not stated. The Commander Islands pass to Pacifica in 1921 (CR-031). CR-083: the shares are British Columbia's and pass to Caledonia in 1932; whether Japan's share to Caledonia needs the other signatories' assent is not stated."
 
 [[commitment]]
 id = "C-1912-GREATBEAR-OFFTAKE"
@@ -4929,13 +5085,21 @@ from = 1912
 owes = [
   { by = "CA", to = "PAC", what = "a Canadian-chartered company sells the Works all its ore under an exclusive contract" },
   { by = "PAC", to = "CA", what = "finances the company; a free allowance of the salt for Canada's hospitals; the Works' ore-handling code" },
+  { by = "PAC", to = "CA", what = "from 1932, a higher royalty (rate OPEN)" },
 ]
 status = "APPROVED"
 cr = "CR-058"
 section = 27
 quote = "A Canadian-chartered company works the deposit on Crown land, so Canada's sovereignty is never in question; the Works finances it and takes all its ore under an exclusive contract, as a radium play, and Canada's hospitals receive a free allowance of the salt, the charity on show; the uranium rides along as an afterthought."
-more_quotes = ["when London, needing uranium, asks it to set aside the Works' Great Bear contract for imperial priority, Ottawa keeps the contract"]
-open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated."
+more_quotes = [
+  "when London, needing uranium, asks it to set aside the Works' Great Bear contract for imperial priority, Ottawa keeps the contract",
+  "The contract has no stated term until 1932, when the Trilateral Treaty of Thalassia gives it fifty years and a higher royalty to Canada",
+  "The Works' exclusive contract at Great Bear Lake, which had no stated term, is given one of fifty years from 1932, with a higher royalty to Canada",
+  "The company is the Mackenzie Radium and Silver Company, and its ore goes out by river barge in the summer.",
+  "The count leaves out Great Bear, put at 200 to 350 tonnes of uranium to 1932",
+]
+open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated. CR-083: no term until C-1932-TRILATERAL-THALASSIA gives it fifty years from 1932 (to 1982); the new royalty's rate is OPEN. The year (about 1912) is PROPOSED. CR-086: the company's name (the Mackenzie Radium and Silver Company) and the summer barge route are PROPOSED; its tonnage to 1932 (200 to 350 tonnes, a placeholder) and the railhead it used in the 1910s are OPEN."
+until = 1982
 
 [[commitment]]
 id = "C-1915-MX-RECOGNITION"
@@ -5006,32 +5170,37 @@ more_quotes = ["The rule of 1898 for Cuba, no foreign bases, is extended to the 
 id = "C-1923-HALIBUT"
 name = "The Pacific Halibut Treaty"
 kind = "treaty"
-parties = ["CA", "PAC"]
+parties = ["BC", "PAC", "CLD"]
 from = 1923
 status = "APPROVED"
-cr = "CR-058"
+cr = "CR-083"
 section = 33
-quote = "In 1923 Canada signs the Pacific Halibut Treaty with Pacifica, the first treaty it signs without Britain beside it."
+quote = "In 1923 the dominion at Victoria signs the Pacific Halibut Treaty with Pacifica, the first treaty it signs without Britain beside it."
+more_quotes = ["In one article the Republic succeeds the dominion in the seal convention of 1886, the western-waters treaty, the Columbia compact and the Halibut Treaty"]
+open = "Terms not stated. Passes to the Republic of Caledonia in 1932."
 
 [[commitment]]
 id = "C-1924-COLUMBIA-STORAGE"
 name = "The Columbia storage compact"
 kind = "compact"
-parties = ["CA", "PAC"]
+parties = ["BC", "PAC", "CLD"]
 from = 1924
 owes = [
-  { by = "CA", to = "PAC", what = "storage on the upper Columbia (the Arrow Lakes, Kootenay Lake, later Kinbasket)" },
-  { by = "PAC", to = "CA", what = "half of the extra downstream power, with payments for flood control; no dam flooding across the line without BC's consent and compensation" },
+  { by = "BC", to = "PAC", what = "storage on the upper Columbia (the Arrow Lakes, Kootenay Lake, later Kinbasket)" },
+  { by = "PAC", to = "BC", what = "half of the extra downstream power, paid in power and sold back to the Realm's grid for gold dollars, with payments for flood control; no dam flooding across the line without BC's consent and compensation" },
+  { by = "PAC", to = "CLD", what = "from 1932, the same half under a power compact between Pacifica and Caledonia, pledged to the bond refunding" },
 ]
+conditions = ["also signed with the nations of the upper river, at Pacifica's insistence"]
 status = "APPROVED"
 cr = "CR-058"
 section = 33
 quote = "a compact gives British Columbia half of the extra power its storage makes downstream, and payments for flood control besides, so BC's revenue is tied to Pacifica's grid and Pacifica's power to BC's storage, with Pacifica the larger partner."
-open = "The year (1922–1925) is PROPOSED; payment in power or gold is undecided. `from` is set to 1924 within the proposed range."
-
-# ---------------------------------------------------------------------------
-# Part 4: CR-059 to CR-070, adopted 15 November 2026 (storyline §§8–14, §25)
-# ---------------------------------------------------------------------------
+more_quotes = [
+  "it is also signed with the nations of the upper river",
+  "The half is paid in power, which the dominion sells back to the Realm's grid for gold dollars under the compact.",
+  "Caledonia's half of the Columbia's downstream power, now under a power compact between Pacifica and Caledonia",
+]
+open = "The year (1922–1925) is PROPOSED; `from` is set to 1924 within the proposed range. The upper-river nations have no party ids. CR-083 decides payment in power (R-13)."
 
 [[party]]
 id = "OR"
@@ -5882,17 +6051,17 @@ status = "APPROVED"
 cr = "CR-070"
 section = 25
 quote = "the railway over the White Pass from Skagway is building before the stampede of 1897, on a compact with the Chilkoot, whose ground the pass is, that gives them a share of its freight for the packing it will end."
-open = "The builders and the share are not stated."
+open = "The builders and the share are not stated. CR-083: the railway's inland end is on British Columbia's Yukon soil (Caledonia's from 1932)."
 
 [[commitment]]
 id = "C-1868-BC-TELEGRAPH"
 name = "The Confederation's line through British Columbia"
 kind = "concession"
-parties = ["PAC", "BCCO", "CA"]
+parties = ["PAC", "BCCO", "BC"]
 from = 1868
 from_approx = true
 ended = 1897
-ended_by = "sold to Canada in the spring of 1897 (C-1897-BC-LINE-SALE)"
+ended_by = "sold to British Columbia in the spring of 1897 (C-1897-BC-LINE-SALE)"
 owes = [
   { by = "BCCO", to = "PAC", what = "Western Union's line in British Columbia, held for the Confederation by a company of the colony" },
 ]
@@ -5901,24 +6070,24 @@ cr = "CR-070"
 section = 14
 quote = "The Confederation buys the company's line in British Columbia through a company of the colony, and its engineers build north from Fort Stager to the Stikine and down the river to Wrangell, and a cable through the straits puts Sitka on the wire in 1870."
 more_quotes = [
-  "For eighteen years Alaska's wire crosses British, then Canadian, soil;",
-  "for a month in 1885 the Dominion's offices refuse Pacifica's cipher, and Sitka is reached only by steamer.",
+  "For eighteen years Alaska's wire crosses British Columbian soil;",
+  "for a month in 1885 the colony's offices refuse Pacifica's cipher, and Sitka is reached only by steamer.",
 ]
-open = "Year of purchase not stated (1868 in CR-070). The franchise's terms (CR-070: Collins's grant; free government messages and the Cariboo service owed to the colony and the Dominion) are not in the storyline."
+open = "Year of purchase not stated (1868 in CR-070). The franchise's terms (CR-070: Collins's grant; free government messages and the Cariboo service owed to the colony) are not in the storyline. CR-083: the wire crosses the colony's soil throughout, never Canada's."
 
 [[commitment]]
 id = "C-1897-BC-LINE-SALE"
-name = "Sale of the British Columbia line to Canada"
+name = "Sale of the British Columbia line to British Columbia"
 kind = "settlement"
-parties = ["PAC", "CA"]
+parties = ["PAC", "BC"]
 from = 1897
 owes = [
-  { by = "PAC", to = "CA", what = "the old line through British Columbia, as the first half of Canada's own wire to the Yukon" },
+  { by = "PAC", to = "BC", what = "the old line through the colony, as the first half of the colony's own wire to the Yukon" },
 ]
 status = "APPROVED"
-cr = "CR-070"
+cr = "CR-083"
 section = 25
-quote = "in the spring of 1897, when the strike is public, it sells Canada the old line through British Columbia as the first half of Canada's own wire to the Yukon."
+quote = "in the spring of 1897, when the strike is public, it sells British Columbia the old line through the colony as the first half of the colony's own wire to the Yukon."
 open = "Price and the through-traffic rights to Alaska (CR-070) are not stated."
 
 [[commitment]]
@@ -5934,10 +6103,8 @@ status = "APPROVED"
 cr = "CR-070"
 section = 25
 quote = "Between 1900 and 1903 Pacifica carries the Sitka cable on, to Kodiak and Unalaska in 1900 and by Attu and the Kurils to Hakodate in 1903: the second route to Japan is open, landing only on Pacifican and Japanese soil."
-open = "The grants are not described; CR-070 calls them Japanese grants. Kiyoshi keeps the cable from being cut in 1904."
-
-
-# ---- CR-071 (integrated 18 November 2026): the states dissolved and the 124 counties ----
+more_quotes = ["The report comes by the Kuril cable, the northern route on which Japan's observatory has wired offshore earthquakes and tide-gauge readings outward since 1903."]
+open = "The grants are not described; CR-070 calls them Japanese grants. Kiyoshi keeps the cable from being cut in 1904. From 1903 it is the northern route of the warnings compact, Petropavlovsk's reports included (C-1897-WARNINGS; CR-085, PROPOSED)."
 
 [[party]]
 id = "HOPI"
@@ -6522,7 +6689,8 @@ status = "APPROVED"
 cr = "CR-078"
 section = 25
 quote = "Port Hamilton showed that the alliance's telegrams to Tokyo crossed British wires, by Europe and by the Hong Kong–Manila cable that the Eastern Extension company landed at Bolinao in 1880 on a Pacifican landing grant."
-open = "Term and fees not stated. The cable stays British; Manila's own wire to the treaty ports belongs to the partners' CR."
+more_quotes = ["The Bolinao cable of 1880 stays open as a commercial circuit."]
+open = "Term and fees not stated. The cable stays British and stays open as a commercial circuit after 1906, when Manila's own wire to Shanghai is laid (C-1906-MANILA-SHANGHAI-CABLE, CR-085, PROPOSED)."
 
 [[commitment]]
 id = "C-1889-MIDWAY-CABLE"
@@ -6554,17 +6722,22 @@ open = "The Tokyo Bay landing place is OPEN (CR-070 G8 suggests Yokosuka). The f
 id = "C-1897-WARNINGS"
 name = "The warnings compact (earthquakes at sea and typhoons)"
 kind = "compact"
-parties = ["JP", "PAC"]
+parties = ["JP", "PAC", "MANILA-OBS", "CMO-JP"]
 from = 1897
 owes = [
-  { by = "JP", to = "PAC", what = "warnings of earthquakes at sea and of typhoons" },
-  { by = "PAC", to = "JP", what = "warnings of earthquakes at sea and of typhoons" },
+  { by = "PAC", to = "JP", what = "typhoon warnings: the Manila Observatory, with Guam and Chichijima, wires the storm tracks north to Japan" },
+  { by = "JP", to = "PAC", what = "warnings of offshore earthquakes and tide-gauge readings, wired outward to Honolulu by Ōmori Fusakichi and the Central Meteorological Observatory, by the southern wire and from 1903 by the Kuril cable" },
 ]
 status = "APPROVED"
 cr = "CR-078"
 section = 25
 quote = "In 1897 the Realm and Japan agree to exchange warnings of earthquakes at sea and of typhoons, and from then on typhoon warnings reach Guam, Manila and the Visayas a day ahead."
-open = "Term not stated. Carried into Hawaiian law by the harbour act of 1913 (C-1913-HARBOUR-ACT). Japan's side is detailed in the partners' CR."
+more_quotes = [
+  "The warnings run two ways, because the storms and the waves do.",
+  "Okada Takematsu, head of Japan's Central Meteorological Observatory since 1923, runs the tracks on the Manila Observatory's reports and on ships' wireless reports.",
+]
+label_note = "The compact is APPROVED (CR-078); the direction of each warning, the observatories and Okada's tracks on the Tokyo machine of 1931 are PROPOSED (CR-085)."
+open = "Term not stated. Carried into Hawaiian law by the harbour act of 1913 (C-1913-HARBOUR-ACT). The northern route is the Kuril cable (C-1903-KURIL-CABLE), the southern the wire of 1892 (C-1892-TOKYO-CABLE)."
 
 [[commitment]]
 id = "C-1911-WIRELESS-ACT"
@@ -6626,11 +6799,7 @@ status = "APPROVED"
 cr = "CR-078"
 section = 33
 quote = "Thomas Jaggar founds the Hawaiian Volcano Observatory on Kīlauea's rim in 1912 and puts seismographs at Hilo and Kona under the warnings compact; in 1913 the Hawaiian legislature's harbour act obliges every harbourmaster to act on the Observatory's warning."
-open = "Applied at Hilo on 3 February 1923."
-
-# ---------------------------------------------------------------------------
-# CR-081 — China's other century, 1860–1932 (integrated 21 November 2026)
-# ---------------------------------------------------------------------------
+open = "Applied at Hilo on 3 February 1923. Japan's outward warnings of offshore earthquakes under C-1897-WARNINGS reach Honolulu and serve the act (CR-085, PROPOSED)."
 
 [[commitment]]
 id = "C-1891-CONSERVANCY"
@@ -6843,8 +7012,11 @@ status = "APPROVED"
 cr = "CR-081"
 section = 34
 quote = "Shidehara's foreign ministry accepts the end of Japan's consular courts at Shanghai, Tianjin, Hankou, in Shandong and along the line for an end to the boycotts, the Nanjing guarantee and a joint exchange of notes between the Concord and China in 1930 that binds China's duties on Japanese cotton goods and marine products for three years."
-more_quotes = ["Pacifica's own goods get no schedule, and no renewal is promised when it expires in May 1933."]
-open = "No renewal is promised (CR-081 P-29). The Concord negotiates through the common foreign ministry; its two crowns are recorded as CROWN and JP."
+more_quotes = [
+  "Pacifica's own goods get no schedule, and no renewal is promised when it expires in May 1933.",
+  "They protest again in 1932, when the yen's reset makes Japanese cloth cheaper still under the bound duties, and from that year it is likely that China lets the notes lapse in May 1933.",
+]
+open = "No renewal is promised (CR-081 P-29). The Concord negotiates through the common foreign ministry; its two crowns are recorded as CROWN and JP. After the yen's reset of 1932 a lapse in May 1933 is likely (CR-085, PROPOSED); the outcome lies beyond 1932."
 
 [[commitment]]
 id = "C-1904-PINGXIANG-CREDIT"
@@ -6897,12 +7069,21 @@ owes = [
   { by = "CL", to = "PAC", what = "service of the loan to the Chilean state" },
 ]
 secured_on = "the nitrate duty; Chile's copper duty from the mid-1920s"
-conditions = ["the Realm buys none of the British houses' fields; Chilean buyers take them over twenty years on Realm credit"]
+conditions = [
+  "the Realm buys none of the British houses' fields; Chilean buyers take them over twenty years on Realm credit",
+  "scheduled to Article II of the Final Act of Thalassia in 1932 as contracts the Realm will not itself interrupt; the listing gives Chile no rights under the Act (CR-086)",
+]
 status = "APPROVED"
 cr = "CR-082"
 section = 25
 quote = "The Realm buys nitrate on long contracts at Iquique, with deliveries to its own fields from about 1900, and lends to the Chilean state on the security of the nitrate duty."
-more_quotes = ["From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the regency's loan to Chile is left secured on a duty the Realm's own fields no longer pay.", "In the mid-1920s Julian's ministers move the loan's security to Chile's copper duty and offer Chile the Columbia's ammonia patents at the one published royalty, as they would any licensee.", "In the slump it calls nothing in and seizes nothing."]
+more_quotes = [
+  "From the 1920s the Columbia's ammonia replaces Chile's nitrate in the Realm's fields, and the regency's loan to Chile is left secured on a duty the Realm's own fields no longer pay.",
+  "In the mid-1920s Julian's ministers move the loan's security to Chile's copper duty and offer Chile the Columbia's ammonia patents at the one published royalty, as they would any licensee.",
+  "In the slump it calls nothing in and seizes nothing.",
+  "Chile's entry is the contracts of 1891 as they stand in 1932, much shrunk since the Columbia's ammonia.",
+  "the Realm lists them as contracts it will not itself interrupt, and the listing gives Chile and Argentina no rights under the Act",
+]
 open = "Amount, term and the contracts' length not stated; the conversion's year is the mid-1920s. Not yet in the finance workbook."
 
 [[commitment]]
@@ -6944,14 +7125,22 @@ name = "The Gulf's provisioning compact"
 kind = "compact"
 parties = ["PAC", "GULF"]
 from = 1928
-owes = [{ by = "PAC", to = "GULF", what = "Realm credit for the Gulf's rice, feed and drainage" }]
-conditions = ["the admission tests unchanged"]
+owes = [
+  { by = "PAC", to = "GULF", what = "Realm credit for the Gulf's rice, feed and drainage" },
+]
+conditions = [
+  "the admission tests unchanged",
+  "scheduled to Article II of the Final Act of Thalassia in 1932 (PROPOSED); as a treaty in force on 1 August 1932 that ties supply to other things it stands as written (APPROVED, CR-086)",
+]
 status = "APPROVED"
 cr = "CR-082"
 section = 25
 quote = "In 1928, after the flood, Hoover's relief becomes a provisioning compact: Realm credit for the Gulf's rice, feed and drainage, with the admission tests unchanged."
-more_quotes = ["When the glut of 1931 breaks the streak, Julian asks the Senate to propose a shorter count at the compact's review."]
-open = "The compact has a review; its interval is not stated. Amount not stated."
+more_quotes = [
+  "When the glut of 1931 breaks the streak, Julian asks the Senate to propose a shorter count at the compact's review.",
+  "and so do treaties in force on 1 August 1932 that tie supply to other things, the Gulf's compact and New Zealand's guarantee among them",
+]
+open = "The compact has a review; its interval is not stated. Amount not stated. Cross-linked to the Gulf's settlement of 1932 (C-1932-GULF-OIL as amended by CR-084)."
 
 [[commitment]]
 id = "C-1932-NZ-CROP-GUARANTEE"
@@ -6967,7 +7156,14 @@ status = "APPROVED"
 cr = "CR-082"
 section = 37
 quote = "New Zealand's crop guarantee comes first, in 1931, when the slump has struck its butter, wool and wheat; the treaty of 1932 carries it, with the guarantee that no hostile base stands on the dominions' soil."
-open = "Terms of the crop guarantee (a purchase contract, a price) not stated. Australia's crop guarantee comes after 1932."
+open = "Terms of the crop guarantee (a purchase contract, a price) not stated. Australia's crop guarantee comes after 1932. Cross-linked by CR-084 to Britain's rebate of New Zealand's Singapore contribution (PROPOSED; sum OPEN), which is Britain's obligation under C-1932-UK-RETRENCHMENT."
+more_quotes = [
+  "London rebates New Zealand's own contribution to the Singapore base, or credits it against New Zealand's war debt to Britain",
+  "and so do treaties in force on 1 August 1932 that tie supply to other things, the Gulf's compact and New Zealand's guarantee among them",
+]
+conditions = [
+  "scheduled to Article II of the Final Act of Thalassia in 1932 (PROPOSED); as a treaty in force on 1 August 1932 it stands as written (APPROVED, CR-086)",
+]
 
 [[party]]
 id = "AKIMEL"
@@ -6976,6 +7172,102 @@ name = "The Akimel O'odham of the Salt and the Gila"
 [[party]]
 id = "PYRAMID"
 name = "The Pyramid Lake Paiute"
+
+[[party]]
+id = "BC"
+name = "Colony and Dominion of British Columbia, with the Yukon (1858–1932)"
+
+[[party]]
+id = "CLD"
+name = "Republic of Caledonia (from 1932)"
+
+[[party]]
+id = "CALEDONIA-NATIONS"
+name = "The signing First Nations of the Caledonian compacts of 1932 (one id for each nation to be assigned)"
+
+[[party]]
+id = "CA-CSA"
+name = "The Canadian wheat pools' Central Selling Agency (a commercial body whose bank debts Ottawa guarantees)"
+
+[[party]]
+id = "IIC"
+name = "Imperial and International Communications Ltd."
+
+[[party]]
+id = "NL"
+name = "Kingdom of the Netherlands and the Netherlands East Indies"
+
+[[party]]
+id = "BN"
+name = "Sultanate of Brunei (the Sultan, the wazirs and the British Resident under the protectorate of 1888)"
+
+[[party]]
+id = "SARAWAK"
+name = "Raj of Sarawak (Rajah Sir Charles Vyner Brooke; British-protected, outside the Concord's treaties)"
+
+[[party]]
+id = "TO"
+name = "Kingdom of Tonga"
+
+[[party]]
+id = "LABUAN"
+name = "Labuan's domiciled adult voters, Malay headmen and Chinese merchants' chamber"
+
+[[party]]
+id = "FANNING"
+name = "Contract copra workers and cable staff of Fanning and Washington"
+
+[[party]]
+id = "FANNING-ESTATE"
+name = "Fanning Island Limited, owner of the copra estate on Fanning and Washington"
+
+[[party]]
+id = "SHELL"
+name = "Royal Dutch Shell (Bataafse Petroleum Maatschappij; British Malayan Petroleum at Seria)"
+
+[[party]]
+id = "AU"
+name = "Commonwealth of Australia (apart from NZ where Canberra's and Wellington's terms of 1932 differ)"
+
+[[party]]
+id = "TOKYO-DENTO"
+name = "Tokyo Electric Light Company (Tokyo Dentō) and its syndicate of Japanese utility bonds"
+
+[[party]]
+id = "KANSAI-UTILITIES"
+name = "The syndicate of Kansai's electric utilities (Osaka and Kobe)"
+
+[[party]]
+id = "HOKKAIDO-AG"
+name = "Hokkaido's agricultural stations and Sapporo Agricultural College (Hokkaido Imperial University from 1918)"
+
+[[party]]
+id = "CMO-JP"
+name = "Japan's Central Meteorological Observatory"
+
+[[party]]
+id = "MANILA-OBS"
+name = "The Manila Observatory"
+
+[[party]]
+id = "GRAIN-HOUSES"
+name = "Pacifica's private grain houses (merchants, carriers and lenders on the Pampas)"
+
+[[party]]
+id = "AR-EXPORTERS"
+name = "The grain exporters of Buenos Aires and the Pampas"
+
+[[party]]
+id = "BR-MONAZITE"
+name = "The monazite sellers of Bahia and Espírito Santo"
+
+[[party]]
+id = "PT-URGEIRICA"
+name = "The owners of the Urgeiriça mine before August 1929"
+
+[[party]]
+id = "SA-RADIUM"
+name = "The Radium Hill mining companies of South Australia"
 
 [[commitment]]
 id = "C-1900-STORAGE-COMPACTS"
@@ -6995,3 +7287,846 @@ cr = "CR-082"
 section = 25
 quote = "Each site has its compact: the Akimel O'odham keep their share of the Salt, the Pyramid Lake Paiute keep their lake's flow from the Truckee, and the Pueblos make their own compact on the Rio Grande."
 open = "One compact per site; their years (1900–1920) and the other sites' compacts (Minidoka, Jackson Lake, Yuma, the Carson, Strawberry Valley) are not stated. The works' cost is OPEN for the workbook."
+
+[[commitment]]
+id = "C-1871-BC-LOAN"
+name = "Pacifica's loan, the Puget Sound rail link and free entry for British Columbia"
+kind = "loan"
+parties = ["PAC", "BC"]
+from = 1871
+owes = [
+  { by = "PAC", to = "BC", what = "a railway south to Puget Sound, a loan, and free entry for the colony's coal, timber and fish" },
+  { by = "BC", to = "PAC", what = "service of the loan" },
+]
+conditions = ["Pacifica asks for no flag and no sovereignty; Britain keeps the colony and Esquimalt"]
+status = "APPROVED"
+cr = "CR-083"
+section = 13
+quote = "It offers the cash-strapped colony a railway south to Puget Sound, a loan, and free entry for its coal, timber and fish, and the colony takes them."
+more_quotes = ["Britain keeps the colony and Esquimalt, and Pacifica asks for no flag and no sovereignty."]
+open = "Amount, term and security of the loan not stated (to be sized in the finance workbook). The offer falls in 1869–71; `from` is the year of the two treaties."
+
+[[commitment]]
+id = "C-1931-PRAIRIE-WHEAT"
+name = "The Patrimony board's prairie wheat contract"
+kind = "concession"
+parties = ["ESTATES", "CA-CSA"]
+from = 1931
+until = 1941
+term_years = 10
+owes = [
+  { by = "CA-CSA", to = "ESTATES", what = "ten harvests, 1932 to 1941, 1.0 million tonnes a harvest inside a band of 0.8 to 1.2 million (MODEL), bought each autumn in the country elevators and delivered at Burrard Inlet" },
+  { by = "ESTATES", to = "CA-CSA", what = "a gold-dollar balance in San Francisco that the Agency owns, credited against each delivery ($18 a tonne, MODEL); carriage in Pacifican ships; no bid for the Agency's unsold stock of 1929–31 below the band" },
+]
+conditions = [
+  "unconditional; no tariff or treaty term; conditioned by no treaty",
+  "Ottawa's guarantee of the Agency covers the difference in a year when the market is above the band",
+  "named by the Realm in the schedule to the Final Act's second article as a contract it will not interrupt; the schedule binds the Realm only",
+]
+status = "APPROVED"
+cr = "CR-083"
+section = 34
+quote = "In December 1931 it votes the prairie wheat contract: a forward purchase of ten harvests, 1932 to 1941, from the Central Selling Agency of Canada's prairie pools."
+more_quotes = [
+  "Payment is a gold-dollar balance in San Francisco that the Agency owns, credited against each delivery, and no loan.",
+  "The contract is unconditional and carries no tariff or treaty term.",
+  "The contract is named in the schedule to the Act's second article as one the Realm will not interrupt",
+]
+open = "The party is the Patrimony's board, recorded as ESTATES for want of an id of its own. Tonnage, band and price are MODEL; the band's width and the share of Canada's sales it replaces are OPEN. `until` is the last harvest."
+
+[[commitment]]
+id = "C-1932-CALEDONIA-COMPACTS"
+name = "The First Nations compacts of Caledonia and the Fraser River salmon clause"
+kind = "compact"
+parties = ["CLD", "CALEDONIA-NATIONS"]
+from = 1932
+owes = [
+  { by = "CLD", to = "CALEDONIA-NATIONS", what = "no land granted and no dam, mine or railway built on a nation's unceded country without its compact; annual rents and power royalties; published fishery remedies; no dam on the Fraser's main stem" },
+  { by = "CLD", to = "CALEDONIA-NATIONS", what = "at Burrard: the Kitsilano and Capilano reserve lands restored, rent on the harbour works from Proclamation Day, a seat on the harbour board" },
+  { by = "CALEDONIA-NATIONS", to = "CLD", what = "leases, never sales, of the ground the compacts name" },
+]
+can_end = [
+  { who = "CALEDONIA-NATIONS", how = "a nation may refuse to lease or sign, and the standstill rule then holds on its ground; only the nations of the river can reopen the Fraser clause" },
+]
+conditions = [
+  "what the Treaty Commission initials binds nobody until the Republic ratifies it (PROPOSED)",
+  "every grant in the treaties of July 1932 is subject to the compact of the nation whose ground it is (PROPOSED)",
+]
+status = "APPROVED"
+cr = "CR-083"
+section = 37
+quote = "By Proclamation Day two compacts are ratified, Burrard and Spences Bridge; the others are initialled or still in talks and are ratified over 1932–34, and until then the standstill rule holds on that ground and the grants of the July treaties that lie on it wait."
+more_quotes = [
+  "No land is granted and no dam, mine or railway is built on a nation's unceded country without its compact;",
+  "the Fraser has an entrenched salmon clause, no dam on the main stem, which only the nations of the river can reopen.",
+  "the Kitsilano and Capilano reserve lands restored, rent on the harbour works from Proclamation Day, and a seat on the harbour board.",
+  "The Sekani of McLeod Lake refuse a hydro lease that would flood the valley of the Finlay and the Parsnip, and the rule holds",
+]
+open = "One party id stands for all signing nations; ids for each nation to be assigned. The signing places and nations beyond Burrard are PROPOSED; which northern nation refuses, and where the Dane-zaa, the Fort Nelson Dene and the Secwépemc sign, are OPEN. Rents and royalties not stated. Proclamation Day is about 18 July 1932 (the day PROPOSED)."
+
+[[commitment]]
+id = "C-1932-CALEDONIA-SEVERANCE"
+name = "Westminster's Recognition and Severance Act and the Bamfield cable lease"
+kind = "settlement"
+parties = ["UK", "BC", "CLD", "PAC", "IIC"]
+from = 1932
+owes = [
+  { by = "UK", to = "CLD", what = "recognition and severance by Act of Parliament on the legislature's request and consent; in force by a commencement order (about 15 July 1932)" },
+  { by = "PAC", to = "UK", what = "two annuities of the debt funded in 1923 cancelled from the near end of the schedule (C-1923-UK-FUNDING; the first of three tranches)" },
+  { by = "PAC", to = "IIC", what = "guarantee of a long commercial lease of the Bamfield Pacific Cable station" },
+  { by = "CLD", to = "UK", what = "the Island's entrenched guarantees: Victoria the capital, the Island's provincial autonomy, Crown pensions protected, and a two-year term for keeping British nationality (the term PROPOSED)" },
+]
+conditions = [
+  "the commencement order is held back until the Realm's chambers have voted the annuity bill; the Republic is not proclaimed before it",
+]
+status = "APPROVED"
+cr = "CR-083"
+section = 37
+quote = "The Recognition and Severance Act passes in the last week of June, on the legislature's request and consent, and comes into force only by a commencement order, which London holds back until the Realm's chambers have voted the annuity bill."
+more_quotes = [
+  "Its Caledonian chapter is initialled by the dominion's High Commissioner there on Pattullo's cabled instructions",
+  "Pacifica guarantees a long commercial lease of the Bamfield station, the Pacific Cable's end on Vancouver Island, to Imperial and International Communications Ltd.",
+  "For staying, the Island extracts three entrenched guarantees: Victoria remains the Republic's capital, the Island has a provincial autonomy of its own, and Crown pensions are protected,",
+  "About 15 July London makes the commencement order.",
+]
+open = "The lease's term and rent are not stated; the company's ownership of the cable from 1930 is to be verified. The annuity schedule, its total and which years are cancelled are CR-084's (the April accord and the one annuity bill are its instruments). IIC is also the lessee of Fanning's station in CR-084, which should use this id."
+
+[[commitment]]
+id = "C-1932-CALEDONIA-ASSOCIATION"
+name = "The Pacifica–Caledonia Association Treaty, its admission clause and the bond refunding"
+kind = "treaty"
+parties = ["PAC", "CLD"]
+from = 1932
+owes = [
+  { by = "PAC", to = "CLD", what = "gold-dollar reserve clearing in San Francisco; entry and residence for Caledonians in the Realm under its ordinary law" },
+  { by = "CLD", to = "PAC", what = "chartered industrial districts at Burrard Inlet, Prince Rupert and Trail; entry and residence for the Realm's citizens; a perpetual corridor to Alaska for rail, road and cable; hydroelectricity exported south" },
+  { by = "CLD", to = "PAC", what = "succession to the dominion's seal, western-waters, Columbia and halibut treaties" },
+  { by = "CLD", to = "PAC", what = "service of the refunded railway bonds to private San Francisco syndicates, secured on flowing revenue" },
+]
+secured_on = "for the refunding: Caledonia's half of the Columbia's downstream power, the port tolls of Burrard Inlet and Prince Rupert, new contracts for exported power, and the royalties of the Yukon and the Kootenays"
+can_end = [
+  { who = "PAC", how = "admission is considered only after twenty-five consecutive years of measured outcomes; Pacifica may demand a second generation; admission must add neither risk nor a veto; both peoples must vote to unite" },
+]
+conditions = [
+  "admission clause: twenty-five consecutive years after Proclamation Day; a year in which a test fails ends the count",
+  "three tests (PROPOSED): the nations' parity; civic parity in practice for residents of Asian origin; the general floor of the Gulf's compact",
+  "admission would be as counties of the Realm, never as a fourth crown (PROPOSED)",
+  "every grant is subject to the compact of the nation whose ground it is (PROPOSED)",
+  "no defence clause; the guarantee is the Concord's instrument (C-1932-CALEDONIA-GUARANTEE)",
+  "the refunding is private: no issue by the Reserve Bank, no Treasury share, no Development Fund lending abroad; the Patrimony stays out until the Republic is proclaimed and solvent and its treaties are ratified",
+  "consented to by the Realm's Senate by two-thirds about 9 to 11 July 1932, before the Republic is proclaimed; annexed to the Final Act of 1 August 1932",
+]
+status = "APPROVED"
+cr = "CR-083"
+section = 37
+quote = "That day Pattullo and the Realm's envoy sign the Association Treaty on the text the Senate has consented to"
+more_quotes = [
+  "About 9 to 11 July the Senate consents by two-thirds to the Association Treaty on its initialled text.",
+  "The count is twenty-five consecutive years of measured outcomes after Proclamation Day, and a year in which a test fails ends the count, which begins again.",
+  "The treaty holds no defence clause: the guarantee, the repair contract at Esquimalt and the corridor's naval clauses are the Concord's instrument.",
+  "private San Francisco syndicates, led by the Bank of California and other Pacifican houses on commercial terms, refund the dominion's maturing railway bonds.",
+  "The Association Treaty, the guarantee and the Trilateral Treaty are annexed to the Final Act of 1 August",
+]
+open = "Term not stated (the corridor is perpetual). The office of the Realm whose full powers the envoy holds is OPEN. The refunding's amount is not stated (workbook). Signed about 18 July 1932 (the day PROPOSED). Caledonia's legislature's ratification is not told in the storyline."
+
+[[commitment]]
+id = "C-1932-CALEDONIA-GUARANTEE"
+name = "The Concord's external guarantee of Caledonia"
+kind = "guarantee"
+parties = ["CROWN", "JP", "CLD"]
+from = 1932
+owes = [
+  { by = "CROWN", to = "CLD", what = "external guarantee of Caledonia, kept by the common Navy" },
+  { by = "JP", to = "CLD", what = "the same guarantee, as the Concord's other crown" },
+  { by = "CLD", to = "JP", what = "entry and residence for Japanese subjects, reciprocal with Caledonians' in Japan; the floors kept for those resident on Proclamation Day who stay Japanese; no vote by the clause" },
+  { by = "CLD", to = "CROWN", what = "the repair contract at Esquimalt (kept with the Caledonian yard) and the Alaska corridor's naval clauses; dockyards open to the common Navy" },
+]
+conditions = [
+  "external only",
+  "settled in March 1932, confirmed at the Hayama Council in mid-June, voted by the Concord's delegations about 9 to 11 July, signed at Victoria on Proclamation Day and in effect on signature",
+  "the deputy's full powers are the common Foreign minister's and carry Tokyo's mandate by Takahashi's countersignature",
+  "ratified by Julian on 1 August 1932 and by the Emperor in the autumn; annexed to the Final Act",
+]
+status = "APPROVED"
+cr = "CR-083"
+section = 37
+quote = "Pattullo and the Concord's deputy sign the guarantee beside it, which takes effect on signature and binds both crowns."
+more_quotes = [
+  "The guarantee is taken out of the treaty and written as the Concord's, external only, before the terms are published.",
+  "Japanese subjects have a right of entry and residence in Caledonia, reciprocal with Caledonians' in Japan, and those resident on Proclamation Day who stay Japanese keep the floors.",
+  "The Hayama Council confirms the guarantee and Japan's clause in June without change.",
+  "the crowns' ratifications follow, Julian's on 1 August and the Emperor's in the autumn.",
+]
+open = "Term not stated. The repair contract's terms and the naval clauses' text are not stated. Japan's request for a share of the Esquimalt work is refused (PROPOSED). Signed about 18 July 1932 (the day PROPOSED)."
+
+[[commitment]]
+id = "C-1932-TRILATERAL-THALASSIA"
+name = "The Trilateral Treaty of Thalassia"
+kind = "treaty"
+parties = ["CROWN", "JP", "CLD", "CA"]
+from = 1932
+owes = [
+  { by = "CLD", to = "CA", what = "perpetual running rights for the Canadian Pacific across Caledonia, a bonded Canadian quay on Burrard Inlet and transit at Prince Rupert, entrenched against revocation" },
+  { by = "CA", to = "CROWN", what = "a yearly quota of Pacifican farm and industrial machines outside the emergency tariff (size OPEN), open to both partners' champions" },
+  { by = "CA", to = "CROWN", what = "the Great Bear contract given a term of fifty years from 1932 (C-1912-GREATBEAR-OFFTAKE)" },
+  { by = "CROWN", to = "CA", what = "a higher royalty on Great Bear's ore (rate OPEN)" },
+  { by = "CA", to = "CLD", what = "withdrawal of Macdonald's reservation against the line of 1870" },
+]
+conditions = [
+  "the quay is subject to the Burrard compact (C-1932-CALEDONIA-COMPACTS)",
+  "a joint navigation commission for the Peace and the Mackenzie protects the levels of the Slave and the Mackenzie and hears the basin peoples' petitions (Camsell as Canada's commissioner and Alberta's part PROPOSED)",
+  "does not mention the prairie wheat contract",
+  "voted by the Concord's delegations, not by the Realm's Senate; annexed to the Final Act of 1 August 1932",
+]
+status = "APPROVED"
+cr = "CR-083"
+section = 37
+quote = "It is Canada's first treaty with Pacifica in its own name."
+more_quotes = [
+  "In July 1932 the Trilateral Treaty of Thalassia is signed in the month's last days, after Pattullo arrives",
+  "perpetual running rights for the Canadian Pacific across Caledonia, a bonded Canadian quay on Burrard Inlet and transit at Prince Rupert on the northern line, entrenched so that no government at Victoria can revoke them, and subject to the Burrard compact.",
+  "Canada gives a yearly quota of Pacifican farm and industrial machines outside Bennett's emergency tariff;",
+  "Canada withdraws the reservation Macdonald entered against the line of 1870,",
+]
+open = "The quota's size and the royalty's rate are OPEN. Term not stated except Great Bear's fifty years and the perpetual running rights. Ratification by Canada's Parliament, Caledonia's legislature and (in the autumn) the Emperor is not told in the storyline for this treaty by name."
+
+[[commitment]]
+id = "C-1932-UK-RETRENCHMENT"
+name = "British Pacific Retrenchment Treaty"
+kind = "treaty"
+parties = ["UK", "CROWN", "JP", "PAC", "CN", "AU", "NZ"]
+from = 1932
+owes = [
+  { by = "UK", to = "CROWN", what = "ends for good the fortification of Singapore for capital ships and the heavy dry-dock work at Sembawang; a peacetime cap on its capital ships east of Ceylon (cruisers and sloops unrestricted)" },
+  { by = "UK", to = "JP", what = "the same halt and cap, the Concord signing for both crowns" },
+  { by = "CROWN", to = "UK", what = "a maritime pledge of non-aggression toward Malaya and its sea lanes, covering beyond that only attack from the sea by an outside power on the Strait of Malacca and on the commerce of Malaya and the Indian Ocean; never order inside the colonies" },
+  { by = "JP", to = "UK", what = "the same pledge" },
+  { by = "PAC", to = "UK", what = "the Realm's own countersignature on the pledge (two-thirds of the Senate)" },
+  { by = "UK", to = "CROWN", what = "retrocession of Labuan to Brunei subject to Labuan's vote, and consent to the Labuan Harbour Lease; detachment of Fanning and Washington into Ka Lōkahi's trust, the Fanning cable station leased back; quitclaim of its remaining claims in the Phoenix group; release of Tonga from the protectorate of 1900" },
+  { by = "CROWN", to = "AU", what = "protocol: no warship stationed and no new base built south of 10° S between Timor and 155° W (meridian PROPOSED), none sought in Portuguese Timor; no naval fortification or permanently berthed warship at the leased ports of Bintan and East Borneo" },
+  { by = "CROWN", to = "NZ", what = "the same protocol" },
+  { by = "JP", to = "AU", what = "the same protocol, which Japan signs as a crown of the Concord" },
+  { by = "UK", to = "NZ", what = "PROPOSED: New Zealand's contribution to the Singapore base rebated or credited against its war debt to Britain (sum OPEN)" },
+  { by = "PAC", to = "UK", what = "eleven of the seventeen cancelled annuities of C-1923-UK-FUNDING fall on the deposit of the King's ratification of this treaty (MODEL)" },
+]
+can_end = [
+  { who = "UK", how = "reverter: the halt and the cap fall away on Britain's formal notice if the Concord is dissolved, or on a finding of breach by the arbitration court at The Hague (redrafted from 'lapses' when Hayama strikes the Concord's term in June 1932; the redraft is PROPOSED)" },
+]
+conditions = [
+  "Hong Kong is excluded from every guarantee of the Concord; Nanjing's reservation is annexed: nothing in the treaty recognises or prejudices the legal status of Hong Kong or the New Territories, and the Concord makes no commitment touching any dispute between China and Britain.",
+  "Stations existing on 1 January 1932 are excepted from the protocol: Tutuila's wireless and coaling station, Swains and Apia's station (the annex's form PROPOSED).",
+  "PROPOSED: Britain and the Concord each undertake to keep the Strait of Malacca open to peaceful commerce; the clause is scheduled to the second article of the Final Act (CR-086).",
+  "Signed at Thalassia in late July 1932; voted by the Concord's delegations; ratified by Julian on 1 August and by the Emperor in the autumn on a second advice of the Privy Council; the King's ratification is deposited at Thalassia in the autumn of 1932 after the treaties have lain before Parliament and an Act has approved the cession of Labuan and of Fanning and Washington.",
+  "Fiji, the Solomons, the New Hebrides, Pitcairn, Ocean Island and the Gilbert and Ellice Islands proper stay British, and Tokelau New Zealand's.",
+]
+status = "APPROVED"
+cr = "CR-084"
+section = 37
+quote = "The British Pacific Retrenchment Treaty is signed at Thalassia in July 1932 by Britain and by the Concord for both crowns."
+more_quotes = [
+  "Britain ends for good the fortification of Singapore for capital ships and the heavy dry-dock work at Sembawang, and accepts a peacetime cap on its capital ships east of Ceylon, beside the limits of 1919; cruisers and sloops are not restricted.",
+  "the Realm's own countersignature on the pledge, and a reverter clause, by which the halt and the cap fall away on Britain's formal notice if the Concord ends, or on a finding of breach by the arbitration court at The Hague.",
+  "with the term struck, it is redrafted to fall on the Concord's being dissolved.",
+  "nothing in it recognises or prejudices the legal status of Hong Kong or the New Territories, and the Concord makes no commitment touching any dispute between China and Britain.",
+  "The Concord stations no warship and builds no new base south of 10° S between Timor and",
+  "Stations existing on 1 January 1932 are excepted: Tutuila's wireless and coaling station, Swains, and Apia's station in the former German Samoa",
+  "the King's ratification of the retrenchment treaty and of the Final Act is deposited at Thalassia.",
+  "Britain also quitclaims what remains of its overlapping claims in the Phoenix group",
+]
+open = "Term not stated. The protocol's eastern meridian (155° or 156° W) and what stands at Apia, Rabaul and Nauru on 1 January 1932 are OPEN. New Zealand's rebate is PROPOSED and its sum OPEN. The floating dock's fate and the Malacca clause's scheduling are PROPOSED. Which Phoenix islands are quitclaimed (Canton, Gardner, Hull, Sydney) is PROPOSED. CN is a party only as to its reservation; AU and NZ accede to the protocol. The Concord's two crowns are recorded as CROWN and JP."
+
+[[commitment]]
+id = "C-1932-LABUAN-LEASE"
+name = "Labuan Harbour Lease and the Brunei auction accord"
+kind = "lease"
+parties = ["BN", "LABUAN", "CROWN", "JP", "SHELL"]
+from = 1932
+owes = [
+  { by = "BN", to = "CROWN", what = "lease of Labuan's harbour to the Concord as a station of the common Navy on its ordinary establishment" },
+  { by = "BN", to = "JP", what = "the same lease: Japanese ships of the common Navy use the harbour by right, with no squadron and no commandant reserved to Japan" },
+  { by = "BN", to = "LABUAN", what = "municipal self-government, the option of keeping British nationality and employment in the port, as the published terms of the vote guarantee" },
+  { by = "BN", to = "SHELL", what = "PROPOSED: the existing lease at Seria honoured as it stands, at its old royalty; new blocks let at public auction by the Resident's administration" },
+]
+conditions = [
+  "Britain's consent is written into C-1932-UK-RETRENCHMENT; Britain keeps the protectorate of 1888 over Brunei and the Residency.",
+  "Labuan votes Yes in May 1932 by secret ballot on a roll of adult residents domiciled for at least two years; the lease takes effect on the deposit of the King's ratification in the autumn of 1932.",
+  "PROPOSED: Pacifica's oil trust contracts with Shell for Seria crude at posted prices; the crude leaves by pipeline for Lutong in Sarawak.",
+  "Sarawak is no party: the Rajah refuses Limbang and gives no pledge on Brunei Bay (PROPOSED).",
+]
+status = "APPROVED"
+cr = "CR-084"
+section = 37
+quote = "the Labuan Harbour Lease is initialled in May and signed in late July 1932 at Brunei Town, by the Sultan and by a deputy holding the common Foreign minister's full powers."
+more_quotes = [
+  "Britain agrees to give Labuan, a colony of the Straits Settlements that overlooks Brunei Bay, back to the Sultan of Brunei, subject to a vote of Labuan's residents.",
+  "The harbour is a station of the common Navy on its ordinary establishment, with no squadron and no commandant reserved to Japan, and with Palau it is the Concord's southern anchor.",
+  "Shell's lease at Seria is honoured as it stands, at its old royalty, and Pacifica's oil trust contracts with Shell for Seria crude at posted prices; in 1932 Seria is small.",
+  "The Rajah refuses Limbang and gives no pledge.",
+  "Had Labuan voted No, the retrocession would have lapsed",
+]
+open = "Term and rent of the lease not stated. The narrow result and the No-branch (a direct British lease and one annuity off the retrenchment's eleven) are PROPOSED; the size of the roll is MODEL. Palau, the Concord's other southern anchor (M-2), has no entry."
+
+[[commitment]]
+id = "C-1932-FANNING-BUYOUT"
+name = "Fanning and Washington plantation buyout and labour compact"
+kind = "compact"
+parties = ["LOKAHI", "FANNING-ESTATE", "FANNING", "IIC"]
+from = 1932
+owes = [
+  { by = "LOKAHI", to = "FANNING-ESTATE", what = "purchase or re-lease of the copra estate at a published valuation" },
+  { by = "LOKAHI", to = "FANNING", what = "the protections of the Realm's labour article of 1887, and a free and paid choice between passage home to the Gilberts and staying on at free wages under the trust" },
+  { by = "LOKAHI", to = "IIC", what = "the Pacific Cable's station on Fanning leased back" },
+]
+conditions = [
+  "Executed in July 1932; in effect, with the atolls' detachment, on the deposit of the King's ratification in the autumn of 1932.",
+  "Under the trust's charter land is leased and never sold, and naval and cable stations are held by lease only.",
+]
+status = "APPROVED"
+cr = "CR-084"
+section = 37
+quote = "Ka Lōkahi buys the estate from Fanning Island Limited, or re-leases it, at a published valuation."
+more_quotes = [
+  "A compact gives the contract workers the protections of the Realm's labour article of 1887, and a free and paid choice between passage home to the Gilberts and staying on at free wages under the trust.",
+  "The Pacific Cable's station on Fanning is leased back to Imperial and International Communications, which ends Britain's rule of an all-British Pacific cable over the Admiralty's protest.",
+  "The buyout and the labour compact are executed in July and take effect, with the detachment, on the deposit of the King's ratification.",
+]
+open = "Whether the estate is bought or re-leased, the valuation and the cable lease's term and rent are not stated (the buyout sum is a financial-workbook task). Whether the cipher room reads the dominions' traffic at Fanning is OPEN (T-B5c)."
+
+[[commitment]]
+id = "C-1932-TONGA-FRIENDSHIP"
+name = "Concord–Tonga Treaty of Friendship and Maritime Security"
+kind = "treaty"
+parties = ["TO", "CROWN", "JP", "HI", "UK"]
+from = 1932
+owes = [
+  { by = "UK", to = "TO", what = "release from the protectorate of 1900, with Tonga's consent" },
+  { by = "HI", to = "TO", what = "Julian, as Mōʻī of Hawaii, is the treaty's guarantor, on the advice of the Hawaiian privy council" },
+  { by = "CROWN", to = "TO", what = "PROPOSED: no foreign garrison or base on Tongan soil" },
+  { by = "JP", to = "TO", what = "PROPOSED: the same bar" },
+]
+conditions = [
+  "Tonga signs as a sovereign principal.",
+  "PROPOSED: the British consul's veto over Tongan finance ends; the treaty takes effect only after Britain's formal release, on the deposit of the King's ratification in the autumn of 1932.",
+]
+status = "APPROVED"
+cr = "CR-084"
+section = 37
+quote = "Britain agrees, with Tonga's consent, to give up its protectorate of 1900, and Queen Sālote Tupou III signs with the Concord as a sovereign."
+more_quotes = [
+  "that it name Julian, as Mōʻī of Hawaii, its guarantor;",
+  "that it bar any foreign garrison or base on Tongan soil; and that it take effect only after Britain's formal release.",
+  "The Concord–Tonga Treaty of Friendship is initialled in May and signed at Thalassia in July 1932, where the Queen comes in person.",
+]
+open = "Term not stated. The treaty's details beyond the release and the Hawaiian guarantee are PROPOSED. UK is a party only as to its release."
+
+[[commitment]]
+id = "C-1932-BATAVIA-COMPACT"
+name = "Batavia Compact"
+kind = "compact"
+parties = ["NL", "CROWN", "JP", "SHELL"]
+from = 1932
+owes = [
+  { by = "NL", to = "JP", what = "two fenced commercial loading ports leased for fifty years (bauxite on Bintan Island; oil in East Borneo), and open-door concessions on published royalties in unallocated East Borneo oil blocks and Bintan's bauxite (Sulawesi's nickel PROPOSED)" },
+  { by = "NL", to = "CROWN", what = "the same leases and concessions, made with the Concord for both crowns" },
+  { by = "CROWN", to = "NL", what = "no annexation; respect for Dutch sovereignty outside the leased fences; no policing inside the colony; no naval fortification and no warship permanently berthed at the leased ports" },
+  { by = "JP", to = "NL", what = "the same; inside the fences only unarmed watchmen of the Japanese companies, with Dutch field police at the gate" },
+  { by = "NL", to = "SHELL", what = "Shell's fields and refineries at Tarakan, Balikpapan and in South Sumatra stay exactly as they are" },
+  { by = "NL", to = "CROWN", what = "PROPOSED: the Sunda, Lombok and Makassar straits and the Dutch shore of Malacca kept open to peaceful commerce, the clause scheduled to the second article of the Final Act" },
+]
+conditions = [
+  "No protectorate and no military guarantee, which The Hague declines as incompatible with Dutch neutrality.",
+  "The KPM's monopoly of inter-island shipping and Dutch New Guinea stay closed; the Union's holdings in Sumatra stay as they are (PROPOSED).",
+  "Bintan delivers after 1935 and its tonnage is additional to Arkansas bauxite; no tonnage of Indies crude is promised in 1932.",
+  "No tariff concession on sugar: Japanese houses buy Java sugar in bond only, for third markets, and take contracts for Sumatra rubber and Bangka tin.",
+  "Tokyo's banks lend Batavia no gold; after the States General approve the Compact the Indies treasury places an ordinary commercial bond in San Francisco and Amsterdam, guaranteed by neither the Concord nor the Realm.",
+  "Initialled in June and signed in late July 1932; approved by the States General in the autumn of 1932; ratified by Julian on 1 August and by the Emperor in the autumn.",
+]
+status = "APPROVED"
+cr = "CR-084"
+section = 37
+quote = "The Batavia Compact is initialled in June and signed in late July 1932 between the Netherlands and the Concord, and the States General approve it in the autumn."
+more_quotes = [
+  "What the Concord and Japan win is two fenced commercial ports, leased for fifty years under a ratified Dutch treaty",
+  "Inside the fences unarmed watchmen of the Japanese companies keep the grounds, and Dutch field police stand at the gate.",
+  "the Concord pledges only that it will not annex, that it respects Dutch sovereignty outside the leased fences and that it does no policing inside the colony.",
+  "No tariff concession is made on sugar.",
+  "the Indies treasury places an ordinary commercial bond issue in San Francisco and Amsterdam, which neither the Concord nor the Realm guarantees.",
+  "Japan signs no Imperial renunciation of the south.",
+]
+open = "The port leases run fifty years from 1932; the Compact's own term is not stated. Why The Hague signs, de Jonge's stand, Sulawesi's nickel, the Union's Sumatra holdings and the straits clause are PROPOSED. East Borneo's tonnage, Bintan's schedule and the bond's size are workbook tasks. Whether the Netherlands also signs the Final Act's first article is CR-086's. The Concord's two crowns are recorded as CROWN and JP."
+
+[[commitment]]
+id = "C-1932-MARIVELES-DOCK"
+name = "Philippine Cortes's appropriation for the Mariveles dry dock"
+kind = "law"
+parties = ["PH"]
+from = 1932
+conditions = [
+  "An act of the Cortes on its own crown's budget; the common Navy is a customer and not a party.",
+  "PROPOSED: carried narrowly, on a pledge that nothing is conceded on sugar.",
+]
+status = "APPROVED"
+cr = "CR-084"
+section = 37
+quote = "what the Philippine Cortes votes in July 1932 is a line of its own crown's budget, to enlarge the dry dock."
+more_quotes = [
+  "At Manila the common Navy places the repair work of its southern patrol at Mariveles.",
+  "In July 1932 the Cortes votes, from its own crown's budget, to enlarge the district's dry dock for the repair work of the common Navy's southern patrol.",
+]
+open = "Amount not stated. Zamboanga is left out."
+
+[[commitment]]
+id = "C-1893-HOKKAIDO-RICE"
+name = "Hokkaido Cold-Hardy Rice Breeding Exchange"
+kind = "compact"
+parties = ["HOKKAIDO-AG", "ESTATES", "JP", "PAC"]
+from = 1893
+owes = [
+  { by = "PAC", to = "JP", what = "the Realm's stations cross cold-hardy rice with Hokkaido's and give winter nurseries in Hawaiʻi, which halves the breeding cycle" },
+  { by = "HOKKAIDO-AG", to = "ESTATES", what = "Hokkaido's test station and Sapporo Agricultural College share the crossing and its lines" },
+]
+status = "PROPOSED"
+cr = "CR-085"
+section = 25
+quote = "The Hokkaido Cold-Hardy Rice Breeding Exchange begins in 1893"
+more_quotes = [
+  "Pure-line *Bōzu* selections and the first cross-bred Hokkaido cultivars reach the fields of Hokkaido and Tōhoku from 1901 to 1903.",
+  "Paddy is pushed across the Ishikari and Kamikawa plains a generation early, with the Realm's own stations helping to breed the rice, and Japanese settlement on Ainu land goes faster for it.",
+]
+open = "Term and form not stated. The paddy series and Hokkaido's share of the gain are OPEN (population/provisioning.py); the acreage and koku are MODEL. The Ainu are no party to it."
+
+[[commitment]]
+id = "C-1906-MANILA-SHANGHAI-CABLE"
+name = "Manila–Shanghai cable landing agreement"
+kind = "concession"
+parties = ["PH", "PAC", "CN"]
+from = 1906
+owes = [
+  { by = "PAC", to = "CN", what = "a sea cable of Carquinez gutta-percha from Manila, laid by the Realm's telegraph estate and the Philippine administration" },
+  { by = "CN", to = "PAC", what = "a landing near the mouth of the Yangtze, where China's Imperial Telegraph Administration owns and works the shore end and the Shanghai office" },
+]
+status = "PROPOSED"
+cr = "CR-085"
+section = 25
+quote = "The Manila–Shanghai cable is signed and laid in 1906"
+more_quotes = [
+  "In 1906 China's Imperial Telegraph Administration refuses to extend the foreign companies' exclusive right to land cables on its coast against a line that ends in Chinese hands.",
+  "Traffic between Manila, Thalassia and China's treaty ports then passes round British Hong Kong, and no new foreign cable enclave is carved out of Shanghai.",
+]
+open = "The landing place is OPEN. Term and fees not stated. Britain's Bolinao cable of 1880 stays open (C-1880-HK-MANILA-CABLE)."
+
+[[commitment]]
+id = "C-1928-JP-AIRCRAFT-LINE"
+name = "The licensed all-metal aircraft line in Japan"
+kind = "convention"
+parties = ["PAC", "JP"]
+from = 1928
+owes = [
+  { by = "PAC", to = "JP", what = "Pacifica's published licence at the open royalty, and aluminium sheet from the Concord pool" },
+  { by = "JP", to = "PAC", what = "the line builds for the home army's air service and for civil lines; the common fleet's aircraft stay Pacifica's to supply" },
+]
+status = "PROPOSED"
+cr = "CR-085"
+section = 33
+quote = "Under it a licensed line builds all-metal aircraft in Japan from 1928, at Nagoya and Ōta"
+more_quotes = ["a licensed line at Nagoya and Ōta has built them in Japan since 1928, for the home army's air service and the civil lines."]
+open = "A term of the Hayama annex (C-1928-HAYAMA-ANNEX). Capacities and royalty rate not stated."
+
+[[commitment]]
+id = "C-1928-TOKYO-STATION-FINANCING"
+name = "Tokyo Atomic Power Station Split Financing Agreement"
+kind = "compact"
+parties = ["PAC", "JP", "TOKYO-DENTO"]
+from = 1928
+owes = [
+  { by = "TOKYO-DENTO", to = "JP", what = "finances and owns the site, the civil containment, the cooling works, the turbines, the alternators and the grid ties, all paid in yen" },
+  { by = "PAC", to = "TOKYO-DENTO", what = "the Works supplies the pile, the purified graphite, the control gear and the uranium charge" },
+  { by = "TOKYO-DENTO", to = "PAC", what = "the Works' outlay repaid through a lease of fuel and core charged by the kilowatt-hour for twenty years from first power (C-1931-TOKYO-FUEL-LEASE)" },
+]
+status = "PROPOSED"
+cr = "CR-085"
+section = 33
+quote = "The station is paid for in two parts under the Tokyo Atomic Power Station Split Financing Agreement, concluded in 1928"
+more_quotes = ["The Tokyo Electric Light Company and a syndicate of Japanese utility bonds finance and own the site, the civil containment, the cooling works, the steam turbines, the alternators and the ties to the grid, all of it paid in yen, so that no gold leaves Japan at the start."]
+open = "Talks begin late in 1927; amounts are not stated and wait for the workbook."
+
+[[commitment]]
+id = "C-1932-NAVY-SEAT-PROTOCOL"
+name = "Common Navy Ministry Treaty-Law Protocol and the Joint Materials Board"
+kind = "treaty"
+parties = ["CROWN", "JP"]
+from = 1932
+renewals = [1937, 1942]
+owes = [
+  { by = "CROWN", to = "JP", what = "the Navy seat Japanese by treaty law, inside the three common ministries; Julian still names the minister" },
+  { by = "CROWN", to = "JP", what = "a Joint Materials Board with members of both partners, advising on the pool's allocations, with no say over shipping or grain charters and no power to bind" },
+  { by = "CROWN", to = "JP", what = "a fixed share of the common fleet's new building for Japanese yards, below capital ships, fixed to the second review in 1942 (35 per cent PROPOSED); capital ships open at the review of 1937" },
+  { by = "JP", to = "CROWN", what = "the reserved western squadron ends and command is consolidated" },
+]
+conditions = ["No fourth common ministry."]
+status = "APPROVED"
+cr = "CR-085"
+section = 33
+quote = "Under the Common Navy Ministry Treaty-Law Protocol, agreed in 1932 at Hayama and in force from 1 August, the Navy seat is Japanese by treaty law and no longer by convention"
+more_quotes = [
+  "In return the Navy seat becomes Japanese by treaty law, inside the three common ministries, with a Joint Materials Board under it; Julian still names the minister.",
+  "fixed to the second review in 1942 whatever the quota does; capital ships are open at the review of 1937.",
+  "The Board advises on the Concord pool's allocations; it has no say over shipping or grain charters and no power to bind.",
+]
+open = "Part of the renewal's text of 15 June 1932 (C-1932-CONCORD-RENEWAL). The tonnage and money of the yards' share, the chief constructor's name and the outgoing minister's name are OPEN; the figure of 35 per cent is PROPOSED."
+
+[[commitment]]
+id = "C-1932-HAYAMA-GRADUATION"
+name = "Hayama Pool-Entry Protocol"
+kind = "convention"
+parties = ["CROWN", "JP"]
+from = 1932
+renewals = [1937]
+owes = [
+  { by = "JP", to = "CROWN", what = "no primary aluminium smelting in Japan until the first review, in mid-1937" },
+  { by = "CROWN", to = "JP", what = "Japanese firms may hold up to 49 per cent of joint smelting and refining ventures outside Japan, 1932–1937" },
+  { by = "CROWN", to = "JP", what = "on the day the first review opens: admission of Japanese primary smelters and heavy-electrical works to the Concord pool at the inside price, a share of the Concord's orders, pool alumina contracts, and the 49 per cent stakes converted to Japanese majorities" },
+]
+conditions = ["Entry does not wait on the review's agreeing on anything else."]
+status = "APPROVED"
+cr = "CR-085"
+section = 33
+quote = "The Hayama Pool-Entry Protocol of June 1932 sets the day the bar ends."
+more_quotes = [
+  "On the day the first review opens, whether or not that review agrees on anything else, Japanese primary smelters and heavy-electrical works are admitted to the Concord pool at the pool's inside price, with a share of the Concord's orders and pool alumina contracts, and the 49 per cent stakes convert to Japanese majorities.",
+  "Japanese smelters and heavy electrical works enter the Concord pool on the day the first review opens, whether or not that review agrees on anything else, and until then Japanese firms may hold up to 49 per cent of joint smelting ventures outside Japan",
+]
+open = "Part of the renewal's text of 15 June 1932. OPEN: where the joint ventures refine and on whose power; the formula for the pool's share of orders. PROPOSED: the sub-assembly licences, Bintan's bauxite in the pool's accounts from 1935 (CR-084), and that only the annex's bar ends that day. Supplements C-1928-HAYAMA-ANNEX."
+
+[[commitment]]
+id = "C-1932-ADJUSTABLE-PARITY"
+name = "Thalassia Adjustable Gold-Parity Agreement (the yen)"
+kind = "compact"
+parties = ["PAC", "JP"]
+from = 1932
+owes = [
+  { by = "PAC", to = "JP", what = "an orderly reset of the yen's parity downward, inside a consultation band under Common Finance" },
+  { by = "JP", to = "PAC", what = "consultation before any change of parity; the Bank of Japan's relief lending kept under a ceiling in gold" },
+]
+conditions = ["Japan's earmarked gold and its half-covered balances in San Francisco are untouched (C-1927-CONCORD-RESERVES)."]
+status = "APPROVED"
+cr = "CR-085"
+section = 36
+quote = "About 28 or 29 July Takahashi and the common Finance minister sign the Adjustable Gold-Parity Agreement at Thalassia, and it takes effect on signature."
+more_quotes = [
+  "The yen's parity is reset downward by 20 to 25 per cent, inside a consultation band of 5 per cent either way; Japan's earmarked gold and its half-covered balances in San Francisco are untouched.",
+  "The agreement is an instrument of the two finance ministries and does not wait for the Privy Council's second advice, so Tokyo has its relief in August.",
+  "The agreement is the only parity instrument between the two crowns.",
+]
+label_note = "The signing, its effect on signature and Takahashi's holding of the instruments are APPROVED; the range of 20 to 25 per cent, the band of 5 per cent and the costs are PROPOSED until the workbook sizes them."
+open = "Agreed in principle at Hayama in June 1932 and contained in the renewal's text; signed by Japan's Finance minister and the common Finance minister. Term not stated. OPEN: the exact reset, the Bank of Japan's ceiling, who bears the exchange loss on the rescue loan. Cross-linked to C-1932-THALASSIA."
+
+[[commitment]]
+id = "C-1932-ATOMIC-POWER-BOARD"
+name = "Concord Atomic Power Board (charter)"
+kind = "charter"
+parties = ["PAC", "JP", "TOKYO-DENTO", "KANSAI-UTILITIES"]
+from = 1932
+owes = [
+  { by = "PAC", to = "JP", what = "the Board builds and runs the stations in Japan and builds the Kansai station; a published tariff formula indexed only to Tokyo's cost of generating from delivered steam coal, less an agreed discount" },
+  { by = "JP", to = "PAC", what = "no plant in Japan for treating irradiated fuel; every station's spent fuel returns to the Works" },
+  { by = "KANSAI-UTILITIES", to = "PAC", what = "the Kansai station's civil works and turbines owned in yen; the pile and the fuel leased from the Works" },
+]
+conditions = [
+  "Pacifica's consent comes from Langmuir's seat and the Council of the Seal; the Board never sees costs inside the wall.",
+  "No ground is broken at Kansai until the Tokyo station has run a full year at rated power from its opening; a shutdown of more than thirty days restarts the year.",
+]
+status = "APPROVED"
+cr = "CR-085"
+section = 33
+quote = "At Hayama the Concord Atomic Power Board is chartered in 1932 to build and run the stations in Japan; it builds Kansai and does not decide it."
+more_quotes = [
+  "The Board's charter, and from 1932 the fuel lease, forbid any plant in Japan for treating irradiated fuel.",
+  "Nishina co-chairs the Board for Japan, beside a Works engineer of Wigner's school of reactor safety.",
+  "Ground is therefore broken no earlier than May 1933.",
+  "The Council charters the Concord Atomic Power Board and confirms the Concord's guarantee of Caledonia.",
+]
+open = "Part of the renewal's text of 15 June 1932. OPEN: the coal-parity discount, the lease's rate by the kilowatt-hour, Kansai's site, who sits on the Council of the Seal in 1932. PROPOSED: Kansai's size (about 80 MW), its building from 1933 to about 1938 and its financing on Tokyo's pattern."
+
+[[commitment]]
+id = "C-1932-KELP-RESEARCH"
+name = "Pacifica–Hokkaido marine agronomy and kelp research compact"
+kind = "compact"
+parties = ["HOKKAIDO-AG", "ESTATES", "JP", "PAC"]
+from = 1932
+owes = [
+  { by = "HOKKAIDO-AG", to = "ESTATES", what = "joint research on kombu and kelp farming with the Realm's marine stations" },
+  { by = "ESTATES", to = "HOKKAIDO-AG", what = "what the wartime plant at San Diego learned of harvesting kelp by machine" },
+]
+status = "PROPOSED"
+cr = "CR-085"
+section = 33
+quote = "In July 1932 Hokkaido Imperial University and Hokkaido's kombu growers sign a compact on marine agronomy with the Realm's marine stations"
+open = "Term not stated. It changes nothing in the diet tables of 1932. The kombu growers' organisation is not described."
+
+[[commitment]]
+id = "C-1932-FINAL-ACT"
+name = "Final Act of Thalassia"
+kind = "treaty"
+parties = ["CROWN", "JP", "UK", "CA", "ANZ", "CLD", "US", "CSA", "GULF", "DE", "FR", "CN", "MX", "NL"]
+from = 1932
+owes = [
+  { by = "FR", to = "CROWN", what = "its signature under the Act and Article II, with a reservation on Article I" },
+  { by = "NL", to = "CROWN", what = "its signature under the Act's schedule for its straits only" },
+  { by = "MX", to = "CROWN", what = "its signature under both articles, with a reservation keeping the Guaymas charter out of the Act" },
+]
+conditions = [
+  "two articles; the instruments of the settlement annexed (PROPOSED list): the Union's settlement and the monetary settlement, the renewal of the Concord without term, Britain's retrenchment, the 10° S protocol, the Batavia Compact, the Labuan lease, Tonga's treaty, Caledonia's treaties and the Trilateral Treaty, the dominions' defense treaty, China's protocol, the Realm's declaration of custody",
+  "Mexico's charter of the Guaymas district is noted and not annexed (PROPOSED)",
+  "France reserves on Article I",
+  "on 1 August 1932 it is signed by all; both crowns have ratified the renewal and the two articles; no other signatory has ratified anything",
+]
+status = "APPROVED"
+cr = "CR-086"
+section = 37
+quote = "The Final Act of Thalassia is signed and promulgated on 1 August 1932, the forty-fifth anniversary of the Constitution."
+more_quotes = [
+  "on 1 August its instruments are gathered in one act with two great articles, the Final Act of Thalassia",
+  "France signs the Final Act and Article II and enters a reservation on Article I.",
+  "It has its two articles and annexes everything else",
+  "The Netherlands signs the Act's schedule for its straits and neither article.",
+  "On that day the Act is signed by all. Both crowns have ratified the renewal and the two articles.",
+]
+open = "Term not stated. The list of annexes, the signatures of the Confederacy and the Gulf Republic and the Netherlands' footing are PROPOSED. Ratifications after 1 August (the King's, the Union's after its election, the dominions' parliaments, the States General) lie in the autumn of 1932 and after. Belgium's accession waits on a Postwar Europe CR; the accession of Italy, federal Russia, Austria-Hungary and Norway and the end of France's reservation are OPEN."
+
+[[commitment]]
+id = "C-1932-ARTICLE-I"
+name = "Article I of the Final Act of Thalassia: the renunciation and the Realm's pledge"
+kind = "treaty"
+parties = ["UK", "CA", "ANZ", "CLD", "US", "CSA", "GULF", "DE", "CN", "MX", "CROWN", "PAC", "JP"]
+from = 1932
+owes = [
+  { by = "UK", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works; its one separating plant dismantled before the court's observer (PROPOSED)" },
+  { by = "US", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works" },
+  { by = "DE", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works; it keeps the right to build piles for power" },
+  { by = "CA", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works" },
+  { by = "ANZ", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works" },
+  { by = "CN", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works (signature PROPOSED)" },
+  { by = "CLD", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works (signature PROPOSED)" },
+  { by = "MX", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works (signature PROPOSED)" },
+  { by = "GULF", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works (signature PROPOSED)" },
+  { by = "CSA", to = "CROWN", what = "no separating plant, no test, all irradiated fuel delivered to the Works (signature PROPOSED)" },
+  { by = "PAC", to = "UK", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "US", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "DE", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "CA", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "ANZ", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "CN", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "CLD", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "MX", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "GULF", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "PAC", to = "CSA", what = "the weapon is never used against a signatory that keeps the article" },
+  { by = "JP", to = "PAC", what = "the Emperor's countersignature of the pledge as an act of the Concord" },
+  { by = "PAC", to = "CROWN", what = "the Works carries the fuel away at its own cost, charges nothing and pays nothing; the Realm discloses nothing and is not inspected (PROPOSED)" },
+]
+can_end = [
+  { who = "PAC", how = "cannot declare the pledge lapsed; the pledge ends toward a signatory only when the Hague Arbitration Court has found it in breach, and it holds in war as in peace" },
+]
+conditions = [
+  "atomic power stays lawful for the signatories",
+  "the devices are held under the two keys of the Thalassia archive, outside the common Navy; the common fleet carries a device only on an order under both keys",
+  "complaints go to the Hague Arbitration Court as renewed in 1932, with a judge named by China and one named by the dominions together added to the bench, and no party to a complaint sitting",
+  "a signatory that runs a pile registers each charge of fuel with the court's registrar (PROPOSED)",
+  "France is no signatory and receives no pledge; Japan is inside the atomic order as a party to the Concord",
+]
+status = "APPROVED"
+cr = "CR-086"
+section = 37
+quote = "The signatories outside the Concord undertake to build no plant for separating the light uranium, to make no test, and to deliver to the Light and Matter Works all fuel that has been through a pile and to keep none."
+more_quotes = [
+  "Inside the article the Realm undertakes never to use the weapon against a signatory that keeps the article.",
+  "The pledge ends toward a signatory only when the court has found it in breach, and it holds in war as in peace.",
+  "They are held under the two keys of the Thalassia archive, the Sovereign of Pacifica's and the Polytechnic chief's.",
+  "For those complaints the Act adds to the court's bench a judge named by China and one named by the dominions together, and no party to a complaint sits on it.",
+  "Canada signs for itself, and Australia and New Zealand sign on the same footing.",
+  "China, Caledonia, Mexico, the Gulf Republic and the Confederacy have no programme; they sign both articles and receive the pledge.",
+]
+open = "Term not stated. The wording beyond the three clauses, the pledge's limiting words and its lapse is PROPOSED, as are the checks, the annexed declaration of custody and the signatures of China, Caledonia, Mexico, the Gulf Republic and the Confederacy. On 1 August 1932 only the two crowns have ratified. Accession by states not at the conference, how France's reservation ends, and who holds the Polytechnic chief's key in the summer of 1932 are OPEN."
+
+[[commitment]]
+id = "C-1932-ARTICLE-II"
+name = "Article II of the Final Act of Thalassia: the food order"
+kind = "treaty"
+parties = ["CROWN", "JP", "PAC", "UK", "CA", "ANZ", "CLD", "US", "CSA", "GULF", "DE", "FR", "CN", "MX"]
+from = 1932
+owes = [
+  { by = "CROWN", to = "UK", what = "in peace: no embargo; the scheduled contracts honoured; neither food, its means nor credit for them made conditional on a concession; the means and the scheduled passage kept open at published prices" },
+  { by = "CROWN", to = "US", what = "the same four undertakings" },
+  { by = "CROWN", to = "DE", what = "the same four undertakings" },
+  { by = "CROWN", to = "FR", what = "the same four undertakings, given although France reserves on Article I" },
+  { by = "CROWN", to = "CN", what = "the same four undertakings; the wheat credit of 1931 and the soybean compact scheduled" },
+  { by = "CROWN", to = "CA", what = "the same four undertakings; the prairie wheat contract scheduled" },
+  { by = "CROWN", to = "ANZ", what = "the same four undertakings; New Zealand's crop guarantee of 1931 scheduled" },
+  { by = "CROWN", to = "CLD", what = "the same four undertakings" },
+  { by = "CROWN", to = "MX", what = "the same four undertakings" },
+  { by = "CROWN", to = "GULF", what = "the same four undertakings; the provisioning compact of 1928 scheduled" },
+  { by = "CROWN", to = "CSA", what = "the same four undertakings" },
+  { by = "JP", to = "CROWN", what = "signs as the Concord's other partner and as a guarantor, being fed by its own crop" },
+  { by = "PAC", to = "CROWN", what = "the Realm's own guarantee of the article, voted by two-thirds of the Senate" },
+]
+conditions = [
+  "all four undertakings hold in peace, which is peace between the Concord and that signatory; the article does not bind the Realm at war",
+  "a concession is any act of state asked of a signatory in return for supply; price, security and the ordinary terms of trade are not concessions",
+  "treaties in force on 1 August 1932 that tie supply to other things stand as written",
+  "the Concord and its houses take no exclusive right from any seller",
+  "it covers credit for food and its means and no other credit; it promises the Realm's own crop to no one",
+  "contracts with sellers that are not signatories (Chile's nitrate, the Pampas houses') are listed as contracts the Realm will not itself interrupt and give Chile and Argentina no rights under the Act",
+]
+status = "PROPOSED"
+cr = "CR-086"
+section = 37
+quote = "The Realm and Japan, as the Concord, undertake four things toward every signatory in peace"
+more_quotes = [
+  "to make neither food, its means, nor credit for them conditional on any concession",
+  "The Concord and its houses take no exclusive right from any seller, so that any signatory may buy from the same sellers as the Realm's own houses.",
+  "All four undertakings hold in peace, and peace means peace between the Concord and that signatory; the article does not bind the Realm at war.",
+  "The article's schedule lists New Zealand's crop guarantee of 1931, the Gulf's provisioning compact of 1928, the soybean compact of 1929, the wheat credit to China of 1931, Chile's nitrate contracts, the prairie wheat contract, the Pampas contracts, and Malacca, Sunda, Lombok and Makassar held open.",
+  "the eight aliʻi seats and their allies make it their price that the text be an article of the treaty and a guarantee of the Realm",
+  "In 1932 the rule of never denying is published and voted as Article II of the Final Act of Thalassia, and the aim stays unstated.",
+]
+label_note = "The text of the article is PROPOSED (CR-086 F-9, item 13). APPROVED within it: the food order as the ending (F-1), the fourth undertaking against conditions (F-12), the meaning of 'in peace' (F-17), the definition of a concession, the saving of treaties in force and the footing of non-signatories on the schedule (F-14), and the binding form on the sufficers' price in late May (F-16)."
+open = "Term not stated. The mouths-fed figure is OPEN. The schedule's entries for the prairie wheat contract and the straits are CR-083's and CR-084's instruments."
+
+[[commitment]]
+id = "C-1926-BRAZIL-MONAZITE"
+name = "Brazilian monazite purchases"
+kind = "concession"
+parties = ["ESTATES", "BR-MONAZITE"]
+from = 1926
+owes = [
+  { by = "BR-MONAZITE", to = "ESTATES", what = "monazite sand on ordinary commercial contracts" },
+  { by = "ESTATES", to = "BR-MONAZITE", what = "the commercial price" },
+]
+status = "PROPOSED"
+cr = "CR-086"
+section = 33
+quote = "From 1926 the Works, through the estates' chemical houses, buys Brazilian monazite sand on ordinary commercial contracts."
+more_quotes = ["After 1928 Travancore, a princely state under its own government, restricts bulk export to foreign buyers on London's advice."]
+open = "Purchase contracts and no concession of ground (the ledger has no kind for a purchase contract). Tonnage, price and term not stated; the monazite tonnage is OPEN."
+
+[[commitment]]
+id = "C-1927-URGEIRICA-DUMPS"
+name = "Urgeiriça: the dumps and a short concentrate contract"
+kind = "concession"
+parties = ["ESTATES", "PT-URGEIRICA"]
+from = 1926
+ended = 1929
+ended_by = "two British subjects, with London behind them, buy the mine in August 1929 and found the Companhia Portuguesa de Radium"
+owes = [
+  { by = "PT-URGEIRICA", to = "ESTATES", what = "the dumps of the idle mine and its concentrate on a short contract" },
+]
+status = "APPROVED"
+cr = "CR-086"
+section = 33
+quote = "buys the dumps of the idle Urgeiriça mine in Portugal and a short contract for its concentrate"
+more_quotes = ["the Works keeps what it has carted away and loses the mine"]
+open = "The dates 1926–27 and the tonnage are PROPOSED and MODEL; a purchase, recorded under the nearest kind."
+
+[[commitment]]
+id = "C-1927-RADIUM-HILL-PURCHASE"
+name = "Radium Hill: one purchase of ore and stock"
+kind = "concession"
+parties = ["ESTATES", "SA-RADIUM"]
+from = 1926
+ended = 1927
+ended_by = "after the demonstration of 1927 the Commonwealth closes the door"
+owes = [
+  { by = "SA-RADIUM", to = "ESTATES", what = "one purchase of ore and stock" },
+]
+status = "APPROVED"
+cr = "CR-086"
+section = 33
+quote = "makes one purchase of ore and stock at Radium Hill in South Australia"
+more_quotes = ["After the demonstration the Commonwealth closes that door."]
+open = "The dates 1926–27 are PROPOSED and the tonnage (a few tonnes of uranium) is MODEL; a single purchase, recorded under the nearest kind."
+
+[[commitment]]
+id = "C-1929-SHINKOLOBWE-REVISION"
+name = "Shinkolobwe: Belgium's revision of 1928–29"
+kind = "concession"
+parties = ["ESTATES", "BE"]
+from = 1929
+owes = [
+  { by = "ESTATES", to = "BE", what = "a higher royalty and a larger free allowance of the salt for Belgium's hospitals" },
+  { by = "BE", to = "ESTATES", what = "all the output still goes to Pacifica; no share of the uranium for Belgium" },
+]
+status = "PROPOSED"
+cr = "CR-086"
+section = 33
+quote = "Brussels asks for a higher royalty and a larger free allowance of the salt for its hospitals and gets both"
+more_quotes = ["it asks for a share of the uranium and is refused, and all the output still goes to Pacifica"]
+open = "Amends C-1919-SHINKOLOBWE-COMPANY. The storyline dates it 1928–29; the new royalty rate and the allowance are not stated."
+
+[[commitment]]
+id = "C-1932-CHINA-GOLD-EXCHANGE"
+name = "China's dual-track gold-exchange protocol and reserve compact"
+kind = "treaty"
+parties = ["CROWN", "JP", "CN"]
+from = 1932
+owes = [
+  { by = "CN", to = "CROWN", what = "customs assessments and new foreign borrowing on a gold-exchange unit linked to the Realm's dollar" },
+  { by = "CROWN", to = "CN", what = "the Realm's existing silver loans stay in silver; a reserve compact of its own in San Francisco on the terms the other holders have" },
+  { by = "JP", to = "CN", what = "signs with the Crown of Pacifica as one party, the Concord" },
+]
+conditions = ["the interior stays on silver"]
+status = "PROPOSED"
+cr = "CR-086"
+section = 37
+quote = "The protocol, negotiated through 1931, is signed at Thalassia in July 1932 by T. V. Soong, Nanjing's Minister of Finance, and the Concord signs as one party."
+more_quotes = [
+  "Customs assessments and new foreign borrowing move to a gold-exchange unit linked to the Realm's dollar, in which the soybean compact's contracts are already written.",
+  "The Realm's existing silver loans stay in silver, so the loss on silver's fall stays with the Realm, and China gets a reserve compact of its own in San Francisco on the terms the other holders have.",
+]
+label_note = "The dual track itself is APPROVED (CR-086 F-8, T-C1 case B); the protocol's dates, the reserve compact, the silver loans left in silver and the Concord signing as one party are PROPOSED."
+open = "Term, the unit's rate and the reserve compact's ratios not stated. Annexed to the Final Act as China's protocol."
+
+[[commitment]]
+id = "C-1932-PAMPAS-HOUSES"
+name = "The private houses' Pampas contracts"
+kind = "concession"
+parties = ["GRAIN-HOUSES", "AR-EXPORTERS", "PAC"]
+from = 1932
+owes = [
+  { by = "GRAIN-HOUSES", to = "AR-EXPORTERS", what = "carriage, finance and insurance of Argentina's wheat, maize and linseed to third markets; the Columbia's nitrogen and the champions' machines sold to it" },
+  { by = "PAC", to = "GRAIN-HOUSES", what = "the contracts are scheduled to Article II as contracts the Realm will not itself interrupt; the Realm puts no money behind them" },
+]
+conditions = [
+  "Argentina refuses any political tie, any coaling right and any arbitration of its waters",
+  "the listing gives Argentina no rights under the Act",
+  "the Crown's granary is not a buyer",
+]
+status = "PROPOSED"
+cr = "CR-086"
+section = 37
+quote = "On the Pampas the buyers are private Pacifican grain houses, as merchants."
+more_quotes = [
+  "They carry, finance and insure Argentina's wheat, maize and linseed to third markets, and sell it the Columbia's nitrogen and the champions' machines.",
+  "Argentina is not at the conference, and the Realm puts no money behind the houses' contracts.",
+]
+open = "Private merchants' contracts, recorded under the nearest kind. Volumes, terms and the houses' names not stated; the year the buying begins is not stated beyond 1932 (the buying itself is CR-082 P-4)."
+
+[[commitment]]
+id = "C-1932-GUAYMAS-DISTRICT"
+name = "Mexico's charter of the Guaymas industrial district"
+kind = "charter"
+parties = ["MX"]
+from = 1932
+conditions = [
+  "an act of Mexican law, under Mexican courts, customs and labour law, with Article 27 untouched",
+  "no Pacifican customs officer, court or guard inside the district",
+  "noted in the Final Act and not annexed, under Mexico's reservation",
+]
+status = "PROPOSED"
+cr = "CR-086"
+section = 37
+quote = "In the summer of 1932 Mexico charters the Guaymas industrial district beside the port by its own act, under Mexican courts, customs and labour law and with Article 27 untouched."
+more_quotes = [
+  "Mexico gets smelting and canning wages in Sonora, and bonds for the port placed privately in San Francisco.",
+  "The Final Act notes it and does not annex it: Mexico will not put a domestic charter under a court at The Hague, and says so in a reservation.",
+]
+open = "The charter's day and term are not stated; the port bonds are private and their amount is not stated. C-1867-GUAYMAS is not amended."

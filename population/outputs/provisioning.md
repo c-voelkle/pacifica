@@ -2,7 +2,7 @@
 
 Built by `population/provisioning.py` from the canon run and `data/provisioning.toml`. Acreages are our timeline's census figures inside Pacifica's frontier; every factor that turns acres into mouths is MODEL. The author's decisions of 21 November 2026 are built in: the Realm's present diet held constant, a slowing rate of growth, and the Philippine crown counted from 1908.
 
-**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; capacity is told apart from crop (section 4); and the century's five works are computed (section 8). The first draft's central case is kept as a row of section 9.
+**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; capacity is told apart from crop (section 4); and the century's works are computed (section 8). The first draft's central case is kept as a row of section 9.
 
 ## 1. The land in 1929 (our timeline, inside the frontier)
 
@@ -153,14 +153,7 @@ Julian's table of 1930 has **562.3 million** in the Realm a century on (and 102.
 
 **Work 1, home yields.** Every irrigable and dry acre at 3.2 times the yields of 1900–29 (what Washington's dry wheat gives in our timeline today), no horses, and the wild sea as in 1930: **74.8 million**, against a capacity of 41.6 million in 1932.
 
-**Work 2, the northern water** (its own CR after the split).
-
-| Stage | Water | Share of the Peace and the Liard where tapped | Acres watered | Mouths at the century's yields |
-|---|---|---|---|---|
-| First stage | 20 km³ a year | 18% | 5.0 million | 11.6 million |
-| Ceiling in law | 45 km³ a year | 40% | 11.2 million | 26.2 million |
-
-At 3.25 acre-feet an acre, an irrigated acre counted as in section 2.
+**Work 2, the northern water, is withdrawn** (CR-083; author, 23 November 2026). Nothing is counted for it.
 
 **Work 5, the farmed sea** (author, 22 November 2026: a Pacific kelp aquaculture industry as a century project).
 
@@ -196,21 +189,29 @@ Together these sellers are 95% of the world's trade in grain and soybeans today 
 | Works | Mouths fed | Share of the table's Realm | The Office's course passes it in | Slowing that would fit |
 |---|---|---|---|---|
 | Home yields alone (work 1) | 74.8 | 13% | 1953 | growth must end within the century |
-| And the whole northern water (work 2) | 100.9 | 18% | 1963 | growth must end within the century |
-| And the farmed sea, central case (work 5) | 115.2 | 20% | 1967 | growth must end within the century |
-| And all that the first list sells, the Union apart (work 3) | 278.5 | 50% | 1999 | 0.60% a year |
-| And half of what every seller sells, the Union with them | 408.8 | 73% | 2015 | 1.36% a year |
-| And all that every seller but the Union sells | 559.5 | 100% | 2030 | 1.99% a year |
-| And all of it, the Union with them | 702.3 | 125% | 2042 | 2.44% a year (Julian's table fits) |
+| And the farmed sea, central case (work 5) | 89.0 | 16% | 1959 | growth must end within the century |
+| And all that the first list sells, the Union apart (work 3) | 252.4 | 45% | 1995 | 0.40% a year |
+| And half of what every seller sells, the Union with them | 382.6 | 68% | 2013 | 1.23% a year |
+| And all that every seller but the Union sells | 533.3 | 95% | 2028 | 1.89% a year |
+| And all of it, the Union with them | 676.2 | 120% | 2040 | 2.37% a year (Julian's table fits) |
 
-- **The Realm's own works feed 115.2 million** (home, the northern water and the farmed sea), 20% of the need. Everything else is bought.
-- **The plan closes only by buying.** To feed 562.3 million the Realm must buy **76%** of everything these sellers sell abroad, which is about **72% of the world's grain and soybean trade** of today. With every tonne of it, the works feed 702.3 million, 125%.
-- **With the thriftier table** (work 4, pending) it must buy 55% of what they sell, about 52% of the world's trade.
-- **Without the Union** the plan needs every tonne that every other seller sells, and then reaches 100%: with the Union in the list it has room to share the trade with other buyers.
+- **The Realm's own works feed 89.0 million** (home and the farmed sea), 16% of the need. Everything else is bought.
+- **The plan closes only by buying.** To feed 562.3 million the Realm must buy **81%** of everything these sellers sell abroad, which is about **76% of the world's grain and soybean trade** of today. With every tonne of it, the works feed 676.2 million, 120%.
+- **With the thriftier table** (work 4, pending) it must buy 60% of what they sell, about 56% of the world's trade.
+- **Without the Union** the plan needs every tonne that every other seller sells, and then reaches 95%: with the Union in the list it has room to share the trade with other buyers.
 - **This is the strategic ambition the author named:** not land but the grain trade. Japan, China and every other importer buy from the same pool, so the Realm's share is contested, and the share is only as safe as the sea lanes, the inputs and the means to pay.
 - **What is not counted:** other buyers' demand, the sellers' meat, butter and wool, Caledonia's own land and people, the Philippine crown's own frontier, and a bad year.
 
 `[century]`: MODEL throughout. The sellers' figures a century on are our timeline's exports of today: what those lands in fact came to sell after a century of the same science, at their own peoples' tables. They are stated from general knowledge and are to verify (USDA PSD, FAOSTAT). Meat, butter and wool are not counted.
+
+### The contracts of 1931-32 (CR-083, CR-086)
+
+- **The prairie wheat contract** (the Patrimony's board, December 1931; CR-083 A11): 1.0 million tonnes a harvest for 10 harvests, 18% of what Canada sold abroad in 1931-32. At the slump's price it costs the board $18 million a year.
+- **Mouths fed in the Realm: 0.** The wheat is resold in Asia. Abroad it is bread for 1.0 million on the Realm's diet, which is the cabinet's second figure for the contract (CR-083 A12).
+- **Giannini's case.** The Realm itself sells 3.0 million tonnes abroad in 1932. The board's wheat is 33% of that, sold to the same buyers.
+- **Article II** (CR-086 D6) feeds no one in the Realm. Its schedule is this contract, New Zealand's crop guarantee and the private houses' Pampas contracts; the Pampas volumes are not modelled.
+
+`[endgame]`: MODEL. The tonnage is the author's of 24 November 2026; the price is the drafter's proposal; Canada's exports are as in the sellers' list.
 
 ## 9. What moves the result
 
@@ -244,7 +245,6 @@ Together these sellers are 95% of the world's trade in grain and soybeans today 
 - `[draft]`: 1910 and 1920 verified (read 22 November 2026); 1900 set equal to 1910; 1930 and 1940 recalled, to verify. The Union's share is applied to the West for want of a western figure. Canon's share falls with its tractors (the first yield component, 1910-25): MODEL.
 - `[exports]`: MODEL (no source for the Realm's own sales; about a million tonnes a year for California's wheat exports of the 1880s is recalled, to verify). At 4 million tonnes the Realm sells about a sixth of the world's wheat trade of the late 1920s, as much as Argentina or Australia. The world figure is verified as quoted.
 - `[century]`: partly verified: USDA NASS's state overview gives Washington's all wheat 62.6 bushels an acre in a recent year (read 22 November 2026); a ten-year mean is to be read from the same series
-- `[century]`: MODEL. The sizes are the author's; the rivers' flows are recalled and to verify (Water Survey of Canada).
 - `[century]`: MODEL (no source). It breaks the Office's own assumption of a constant diet. Author, 22 November 2026: the nature of Pacifica's diet is open for a future culinary CR, so work 4 is shown apart and is not part of the plan's total.
 - `[century]`: recalled: world exports of wheat (about 200 million tonnes), coarse grains (about 230), rice (about 55) and soybeans (about 165) in recent years; to verify (USDA PSD)
 - `[sea]`: MODEL. The sardine carried our timeline's peak and collapsed after 1945; the sea has a ceiling of its own, and fishponds and hatcheries are not counted.

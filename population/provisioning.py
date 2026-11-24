@@ -14,7 +14,7 @@ What it does
     Nitrogen goes on the fields as the margin narrows and as there is nitrogen.
   * The Office's tables of 1890-1930: from each table year, the course of the
     population for a century at a slowing rate, set against the home ceiling.
-  * The century: the provisioners' five works against the table of 1930.
+  * The century: the provisioners' works against the table of 1930.
 
 It reads the canon run and data/provisioning.toml and feeds nothing back.
 Every factor that turns acres into mouths is MODEL (see the data file).
@@ -412,13 +412,10 @@ def century(c: dict, base: dict, pop: dict[int, float]) -> dict:
     """The provisioners' works a century after the table of 1930, in mouths on the Realm's diet."""
     lv, k = c["levers"], c["century"]
     t = table(c, base, pop, 1930)
-    per_acre = base["harvest"] / base["area"] * lv["irrigated_factor"] * k["yield_multiple"] / lv["acres_per_head"]
     irr, dry = base_standard(c, base, LAST, "ceiling")
     home = (irr + dry) * k["yield_multiple"] / lv["acres_per_head"] + sea_mouths(c, LAST)
-    water = {}
-    for name, km3 in k["water_km3"].items():
-        a = km3 * k["acre_feet_per_km3"] / k["acre_feet_per_acre"]
-        water[name] = {"km3": km3, "acres": a, "mouths": a * per_acre, "share_of_flow": km3 / k["tapped_flow_km3"]}
+    # Work 2, the northern water, was withdrawn with CR-083 (author, 23 November 2026: the diversion is
+    # dropped and appears nowhere; item 83-1). The works keep their numbers 1, 3, 4 and 5.
     sea = {case: farmed_sea(c, case) for case in k["mariculture"]["area_km2"]}
     sellers = [{"name": s["name"], "listed": s["listed"], "union": s.get("union", False),
                 "now": s["about_1930"] * 1e6 / tonnes_per_mouth(c), "then": s["today"] * 1e6 / tonnes_per_mouth(c),
@@ -428,9 +425,8 @@ def century(c: dict, base: dict, pop: dict[int, float]) -> dict:
     first = sum(s["then"] for s in sellers if s["listed"] == "2026-11-21" and not s["union"])
     tonnes = sum(s["tonnes"] for s in sellers)
     diet = 1 / (1 - k["diet_saving"])
-    own = home + water["ceiling_in_law"]["mouths"] + sea["central"]
+    own = home + sea["central"]
     cases = [("Home yields alone (work 1)", home),
-             ("And the whole northern water (work 2)", home + water["ceiling_in_law"]["mouths"]),
              ("And the farmed sea, central case (work 5)", own),
              ("And all that the first list sells, the Union apart (work 3)", own + first),
              ("And half of what every seller sells, the Union with them", own + every / 2),
@@ -442,13 +438,29 @@ def century(c: dict, base: dict, pop: dict[int, float]) -> dict:
     bought = max(0.0, min(1.0, (need - own) / every))
     bought_diet = max(0.0, min(1.0, (need / diet - own) / every))
     return {"need": need, "crown": t["crown_100"], "home": home, "home_1932": central(c, base, LAST, pop),
-            "water": water, "sea": sea, "own": own, "sellers": sellers, "every": every, "union": union,
+            "sea": sea, "own": own, "sellers": sellers, "every": every, "union": union,
             "first": first, "tonnes": tonnes, "diet": diet, "rows": rows, "plan": rows[-1],
             "gap": need - rows[-1]["fed"], "with_diet": own * diet + every * diet,
             "bought": bought, "bought_diet": bought_diet,
             "world_share": bought * tonnes / k["world_trade_today_tonnes"],
             "world_share_diet": bought_diet * tonnes / k["world_trade_today_tonnes"],
             "sellers_of_world": tonnes / k["world_trade_today_tonnes"]}
+
+
+def endgame(c: dict) -> dict:
+    """The contracts of 1931-32 (CR-083 A11, A12; CR-086 D3, D6): what they move, in mouths on the Realm's diet.
+
+    None of it feeds anyone in the Realm before the margin closes: the wheat is resold abroad. The figures
+    are the cabinet's second figure for the wheat contract and Giannini's case against it."""
+    e = c["endgame"]
+    per = tonnes_per_mouth(c)
+    realm_sales = interp(c["exports"]["years"], c["exports"]["grain_tonnes"], LAST)
+    out = {"prairie_tonnes": e["prairie_tonnes"], "prairie_mouths": e["prairie_tonnes"] / per,
+           "prairie_share_of_canada": e["prairie_tonnes"] / e["canada_exports_1931_tonnes"],
+           "prairie_against_realm_sales": e["prairie_tonnes"] / realm_sales,
+           "prairie_cost": e["prairie_tonnes"] * e["prairie_price"], "realm_sales": realm_sales,
+           "harvests": e["prairie_harvests"]}
+    return out
 
 
 # ---------------------------------------------------------------- report
@@ -472,7 +484,7 @@ def main() -> int:
     A("")
     A("**Reworked on 22 November 2026** after the fresh-context review (B5, S1, S2, S10, M2, M3): irrigated land waits for "
       "its works; land that feeds horses and mules is taken out; nitrogen is what Chile and the home plants can give; "
-      "capacity is told apart from crop (section 4); and the century's five works are computed (section 8). The first "
+      "capacity is told apart from crop (section 4); and the century's works are computed (section 8). The first "
       "draft's central case is kept as a row of section 9.")
     A("")
     A("## 1. The land in 1929 (our timeline, inside the frontier)")
@@ -704,15 +716,7 @@ def main() -> int:
       f"(what Washington's dry wheat gives in our timeline today), no horses, and the wild sea as in 1930: **{m(cy['home'])} "
       f"million**, against a capacity of {m(cy['home_1932'])} million in {LAST}.")
     A("")
-    A("**Work 2, the northern water** (its own CR after the split).")
-    A("")
-    A("| Stage | Water | Share of the Peace and the Liard where tapped | Acres watered | Mouths at the century's yields |")
-    A("|---|---|---|---|---|")
-    for name, wv in cy["water"].items():
-        A(f"| {name.replace('_', ' ').capitalize()} | {wv['km3']} km³ a year | {wv['share_of_flow']:.0%} | {m(wv['acres'])} million | "
-          f"{m(wv['mouths'])} million |")
-    A("")
-    A(f"At {kc['acre_feet_per_acre']} acre-feet an acre, an irrigated acre counted as in section 2.")
+    A("**Work 2, the northern water, is withdrawn** (CR-083; author, 23 November 2026). Nothing is counted for it.")
     A("")
     mc = kc["mariculture"]
     A("**Work 5, the farmed sea** (author, 22 November 2026: a Pacific kelp aquaculture industry as a century project).")
@@ -751,7 +755,7 @@ def main() -> int:
         A(f"| {r['name']} | {m(r['fed'])} | {r['share']:.0%} | {r['passed']} | {fit} |")
     A("")
     pl = cy["plan"]
-    A(f"- **The Realm's own works feed {m(cy['own'])} million** (home, the northern water and the farmed sea), "
+    A(f"- **The Realm's own works feed {m(cy['own'])} million** (home and the farmed sea), "
       f"{cy['own'] / cy['need']:.0%} of the need. Everything else is bought.")
     A(f"- **The plan closes only by buying.** To feed {m(cy['need'])} million the Realm must buy **{cy['bought']:.0%}** of "
       f"everything these sellers sell abroad, which is about **{cy['world_share']:.0%} of the world's grain and soybean "
@@ -759,7 +763,7 @@ def main() -> int:
     A(f"- **With the thriftier table** (work 4, pending) it must buy {cy['bought_diet']:.0%} of what they sell, about "
       f"{cy['world_share_diet']:.0%} of the world's trade.")
     A(f"- **Without the Union** the plan needs every tonne that every other seller sells, and then reaches "
-      f"{cy['rows'][5]['share']:.0%}: with the Union in the list it has room to share the trade with other buyers.")
+      f"{cy['rows'][4]['share']:.0%}: with the Union in the list it has room to share the trade with other buyers.")
     A("- **This is the strategic ambition the author named:** not land but the grain trade. Japan, China and every other "
       "importer buy from the same pool, so the Realm's share is contested, and the share is only as safe as the sea lanes, "
       "the inputs and the means to pay.")
@@ -767,6 +771,21 @@ def main() -> int:
       "the Philippine crown's own frontier, and a bad year.")
     A("")
     A(f"`[century]`: {kc['status']}")
+    A("")
+    eg = endgame(c)
+    A("### The contracts of 1931-32 (CR-083, CR-086)")
+    A("")
+    A(f"- **The prairie wheat contract** (the Patrimony's board, December 1931; CR-083 A11): {eg['prairie_tonnes'] / 1e6:.1f} "
+      f"million tonnes a harvest for {eg['harvests']} harvests, {eg['prairie_share_of_canada']:.0%} of what Canada sold abroad "
+      f"in 1931-32. At the slump's price it costs the board ${eg['prairie_cost'] / 1e6:.0f} million a year.")
+    A(f"- **Mouths fed in the Realm: 0.** The wheat is resold in Asia. Abroad it is bread for {m(eg['prairie_mouths'])} million "
+      "on the Realm's diet, which is the cabinet's second figure for the contract (CR-083 A12).")
+    A(f"- **Giannini's case.** The Realm itself sells {eg['realm_sales'] / 1e6:.1f} million tonnes abroad in {LAST}. The board's "
+      f"wheat is {eg['prairie_against_realm_sales']:.0%} of that, sold to the same buyers.")
+    A("- **Article II** (CR-086 D6) feeds no one in the Realm. Its schedule is this contract, New Zealand's crop guarantee and "
+      "the private houses' Pampas contracts; the Pampas volumes are not modelled.")
+    A("")
+    A(f"`[endgame]`: {c['endgame']['status']}")
     A("")
     A("## 9. What moves the result")
     A("")
@@ -808,7 +827,7 @@ def main() -> int:
     for key, where in (("status", "yield_components"), ("irrigated_status", "yield_components"), ("status", "nitrogen"),
                        ("chile_status", "nitrogen"), ("status", "nitrogen_supply"), ("paying_status", "nitrogen_supply"),
                        ("status", "works"), ("status", "draft"), ("status", "exports"), ("yield_status", "century"),
-                       ("water_status", "century"), ("diet_status", "century"), ("world_trade_status", "century"),
+                       ("diet_status", "century"), ("world_trade_status", "century"),
                        ("status", "sea"), ("alaska_status", "sea"), ("status", "japan"), ("people_status", "japan"),
                        ("kg_status", "japan"), ("factor_status", "levers"),
                        ("status", "territory"), ("status", "dry_cropland"), ("pct_status", "cropland_1929"),

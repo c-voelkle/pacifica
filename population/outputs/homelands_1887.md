@@ -84,3 +84,4 @@ Squares (no line before 1887, or too small to outline): Makah, Tulalip, Puyallup
 - Bingham: a detached 838 sq mi (near -111.95, 42.43) goes to Bear River
 - Salmon: a detached 217 sq mi (near -112.61, 44.40) goes to Three Forks
 - Gila: a detached 42 sq mi goes to the Apache country homeland
+- Missoula: 411 sq mi east of the Lewis crest is the Union's (CR-087); the county is 17,022 sq mi as drawn outside the Flathead homeland and meets the 49th parallel as far east as 113.836 W, 10.5 miles from the divide at 114.068 W
