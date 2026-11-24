@@ -842,13 +842,13 @@ Real-world facts behind CR-083, the divergences, and what is still unsourced. De
 **From memory, to be sourced**
 
 - The Governor as a dominion's channel to London in New Zealand and Newfoundland.
-- The Imperial Conference of 1930 on who advises the King on a Governor's appointment; the conference of 1926 on the Governor's position.
-- British Columbia's agent-general in London from 1872.
+- The Imperial Conference of 1930 on who advises the King on a Governor-General's appointment: checked. The conference resolved that the King acts on the advice of his ministers in the dominion concerned, after informal consultation with him (Summary of Proceedings, VI (g), https://www.monarchist.org.au/annexure_10_-imperial_conference_1930; Isaacs's appointment that December was the first under it). The conference of 1926 on the Governor's position is still from memory.
+- British Columbia's agent-general in London from 1872: checked; Gilbert Malcolm Sproat was the first, from 1872 (https://searcharchives.vancouver.ca/province-of-british-columbia-agents-general-in-united-kingdom-list; https://www.canadiana.ca/view/oocihm.16192).
 - The prairie pools' growers giving up their five-year delivery contracts in 1931; the Central Selling Agency by that name.
-- The Bamfield cable's owner in 1930.
+- The Bamfield cable's owner in 1930: checked. The Pacific Cable Board's system, Bamfield and Fanning with it, passed to Imperial and International Communications Ltd on 30 September 1929 (New Zealand, AJHR 1930 F-1, https://slbrartest.natlib.govt.nz/imageserver/parliamentary/P29pZD1BSkhSMTkzMC1JLjEuMjY1MyZnZXRwZGY9dHJ1ZQ==).
 - The Squamish, Musqueam and Tsleil-Waututh at Burrard Inlet; the Tsimshian at Prince Rupert; the Kitsilano and Capilano reserve lands; the signing places of the Dane-zaa (Fort St John), the Fort Nelson Dene and the Secwépemc (Kamloops, the North Thompson); the Dakelh at Fort St James; the Nlaka'pamux at Spences Bridge.
-- Lang's dismissal by the Governor of New South Wales on 13 May 1932.
-- The National Government of 24 August 1931; Chamberlain at the Exchequer from 5 November 1931; Montagu Norman at the Bank; the Abnormal Importations Act (November 1931) and the Import Duties Act (February 1932); the Ottawa conference's opening on 21 July 1932; Beaverbrook's Empire campaign.
+- Lang's dismissal by the Governor of New South Wales on 13 May 1932: checked (https://mhnsw.au/stories/on-this-day/13-may-1932/).
+- The Abnormal Importations Act (royal assent 20 November 1931) and the Import Duties Act (29 February 1932, introduced by Chamberlain as Chancellor on 4 February): checked (https://en.wikipedia.org/wiki/Abnormal_Importations_(Customs_Duties)_Act_1931; https://en.wikipedia.org/wiki/Import_Duties_Act_1932). The Ottawa conference sat from 21 July to 20 August 1932 (New Zealand, AJHR 1932 A-6, https://dynamic-rsnz.natlib.govt.nz/parliamentary/AJHR1932-I-II.2.1.2.5). Still from memory: the National Government of 24 August 1931, Chamberlain's appointment on 5 November 1931, Montagu Norman at the Bank, Beaverbrook's Empire campaign.
 - The railway to Prince Rupert, chartered in 1903 and failed in 1919 (in history the Grand Trunk Pacific, a federal charter).
 - Treaty 8, the petition of 1909 and the Spences Bridge meeting of 1911.
 - Canada's wheat exports of 1931–32 (against which the contract's 18% is reckoned); Australia's export trade.
@@ -872,21 +872,21 @@ The decision record is `CR-084.md` (revision 15), with the shared calendar `CR-0
 
 ### From memory, to be sourced
 
-- That Baldwin, Chamberlain, Thomas and Cunliffe-Lister sailed for Ottawa on 13 July 1932 (Baldwin's sailing is the firmest; the others are from memory).
-- Parliamentary practice in 1932: treaties lie before both Houses, an Act approves a cession of territory, and the King ratifies on his ministers' advice (the Ponsonby rule).
+- That Baldwin, Chamberlain, Thomas and Cunliffe-Lister sailed for Ottawa on 13 July 1932: checked. The delegation, with Hailsham, Runciman and Gilmour, embarked at Southampton in the *Empress of Britain* that afternoon (Dominion, 15 July 1932, https://paperspast.natlib.govt.nz/newspapers/DOM19320715.2.49).
+- The Ponsonby rule: checked. From 1 April 1924 a treaty subject to ratification is laid before both Houses for 21 days before it is ratified (https://api.parliament.uk/historic-hansard/written-answers/1995/nov/01/treaties-ponsonby-rule). That an Act approves a cession of territory is from memory; the Dindings Agreement (Approval) Act of 1934 is an instance (below).
 - The instalment dates of the funding of 1923 (15 June and 15 December) and the annuity year as used in the storyline.
-- That Seria's crude left by pipeline for the refinery at Lutong in Sarawak.
+- That Seria's crude left by pipeline for the refinery at Lutong in Sarawak: checked; the pipeline was finished in 1932 and output began in its first quarter (https://hkintexts.histsyn.com/page/1126605).
 - The text of the Anglo-Tongan agreement of 1905 on the consul's financial veto, and Tongan land law.
 - NKPM's holdings in Sumatra; the KPM's legal monopoly of inter-island shipping; Sulawesi's nickel; the Chadbourne scheme of 1931 and India's sugar duties; the tin of Bangka and Belitung in the slump.
-- The year the Netherlands left gold (1936) and the Indies' colonial deficits.
-- The retrocession of the Dindings to Perak (1934–35), under study at the Colonial Office.
-- Which Phoenix islands carried American guano bonds in 1870; the islands named in the quitclaim (Canton, Gardner, Hull, Sydney).
+- The year the Netherlands left gold: checked, 26–27 September 1936, after France and Switzerland (https://paperspast.natlib.govt.nz/newspapers/AS19360928.2.60). The Indies' colonial deficits are still from memory. The Indies' borrowing abroad: three dollar issues in New York in 1922 ($40m, $40m and $20m at 6%) and a sterling loan of £6m at 5% in London in June 1923 (https://paperspast.natlib.govt.nz/newspapers/EP19230616.2.59).
+- The retrocession of the Dindings to Perak: checked. The Colonial Office file runs from 1930–31 (CO 717/75/13, https://beta.nationalarchives.gov.uk/catalogue/id/C2977764); the agreement was signed on 6 June 1934, approved by Act of Parliament in November 1934, and the territory returned in February 1935 (https://api.parliament.uk/historic-hansard/commons/1934/nov/01/dindings-agreement-approval-bill-lords).
+- Which Phoenix islands carried American guano bonds in 1870: partly checked. The United States claimed all the Phoenix Islands under the Guano Islands Act; the Phoenix Guano Company worked Enderbury, at its peak in 1870, and McKean (https://en.wikipedia.org/wiki/Enderbury_Island; https://evols.library.manoa.hawaii.edu/items/b3682749-c5bc-4cf9-bc88-532b801ec644). The islands named in the quitclaim (Canton, Gardner, Hull, Sydney) are the story's.
 - A primary source for any Burns Philp mortgage or agency on Fanning before 1935; the source was earlier read as "managing agents" and that is not verified.
 - The 155° W meridian, the western edge of French Oceania (about 154°42′ W), the positions of the Cook Islands (Penrhyn at about 9° S), Rabaul (about 4° S) and Nauru.
 - Britain's own uranium ores (Cornwall's dumps; a Portuguese mine from 1929), which agree with CR-086's account and have no source here.
 - Lindemann's friendship with Churchill from 1921 and Churchill's leaving the Treasury in June 1929 (general knowledge).
-- Sea times used for the calendar: London to Thalassia about fourteen days by liner, rail and liner.
-- The agent-general's office of British Columbia in London (CR-083's item; the calendar's).
+- Sea times used for the calendar: London to Thalassia about fourteen days by liner, rail and liner (from memory). For comparison, the *Empress of Britain* left Southampton on 13 July 1932 and landed the delegations at Quebec on 18 July.
+- The agent-general's office of British Columbia in London: checked (above). The dominion's High Commissioner in London is the story's.
 
 ## CR-085 — the Concord renewed without term, and the partners' dossiers (integrated 24 November 2026)
 
@@ -905,16 +905,16 @@ Web pages listed with a URL were verified on 23 or 24 November 2026. Items marke
 
 **From memory, to be sourced**
 
-- The May 15 incident's particulars, Saitō Makoto's cabinet of 26 May 1932 and Araki Sadao as army minister in both cabinets (to check at https://en.wikipedia.org/wiki/May_15_incident and https://en.wikipedia.org/wiki/Sait%C5%8D_Makoto).
-- Hiranuma Kiichirō, born 1867, as vice-president of the Privy Council in 1932, and the Privy Council's part in the delay of the London Naval Treaty in 1930.
-- Saionji's role in recommending the premier in May 1932.
-- The day of the gold embargo of December 1931, the Wakatsuki cabinet's dates and the yen's fall of about 60 per cent, in the Bank of Japan's tables.
+- Saitō Makoto's cabinet of 26 May 1932 and Araki Sadao as army minister in both cabinets: checked (https://en.wikipedia.org/wiki/Sait%C5%8D_cabinet; https://en.wikipedia.org/wiki/Inukai_cabinet). Saionji recommended Saitō to the Emperor on 22 May (https://www.ndl.go.jp/modern/e/cha4/description02.html). The incident's other particulars are still to be checked.
+- Hiranuma Kiichirō: checked; born 28 September 1867, vice-president of the Privy Council from 12 April 1926 to 13 March 1936 (https://en.wikipedia.org/wiki/Hiranuma_Kiichir%C5%8D). The Privy Council's part in the delay of the London Naval Treaty in 1930 is still from memory.
+- Saionji's role in recommending the premier in May 1932: checked (above).
+- The gold embargo of December 1931: checked; reimposed on 13 December 1931, the day Takahashi replaced Inoue at Finance in Inukai's new cabinet (https://paperspast.natlib.govt.nz/newspapers/ST19311216.2.46). The Wakatsuki cabinet's dates and the yen's fall of about 60 per cent are still from memory.
 - The text of the landing-rights agreements of 1899–1900 between China and the Eastern Extension and Great Northern companies.
 - The capacities of Mitsubishi's Nagoya and Nakajima's Ōta works in 1928, and Shibaura's and Hitachi's electrical lines before 1932.
 - Tokyo Dentō's balance sheet in 1927–28 and the structure of a Kansai utilities' syndicate.
 - Hokkaido's paddy acreage by decade and the release date of *Fukoku*; the organisation of Hokkaido's kombu growers.
 - That Horace Capron was among the advisers who counselled against rice in Hokkaido.
-- That the cabinet which fell after the rice riots of 1918 was Terauchi's.
+- That the cabinet which fell after the rice riots of 1918 was Terauchi's: checked; he resigned on 21 September and Hara took office on 29 September 1918 (https://www.ndl.go.jp/modern/e/cha3/description06.html).
 
 ## CR-086 — the Final Act of Thalassia: the renunciation and the food order (integrated 24 November 2026)
 
@@ -935,16 +935,16 @@ The decision record is `CR-086.md` (revision 11); the order of events from April
 
 **From memory, to be sourced**
 
-- Herriot's government formed on 3 June 1932 (https://en.wikipedia.org/wiki/%C3%89douard_Herriot, not opened).
+- Herriot's government formed on 3 June 1932: checked (https://en.wikipedia.org/wiki/%C3%89douard_Herriot).
 - The Final Act of the Congress of Vienna, 9 June 1815 (https://en.wikipedia.org/wiki/Final_Act_of_the_Congress_of_Vienna, not opened).
-- France sat on gold in 1932: the Bank of France's gold holdings in that year.
+- France sat on gold in 1932: checked. French gold reserves rose from 29 to 82 billion francs between 1928 and 1932 (Mouré, *Managing the Franc Poincaré*, ch. 2, https://cambridge.org/core/books/managing-the-franc-poincare/french-gold-accumulation-19281932/CFD722E9782851ABB7F690B88DC932F1).
 - Production of the Saxon (Erzgebirge) districts and of Madagascar in 1920–32.
 - The monazite tonnages of Brazil and Travancore in the 1920s, and a better source than the blog for Travancore's export restriction.
 - Great Bear's route to a railhead before the 1930s.
-- The day Alberto J. Pani took office as Treasury Secretary.
-- The closing date of the Ottawa conference (given two ways on the page cited).
-- That Britain imported most of its bread in 1932, and that Baldwin, Chamberlain, Thomas and Cunliffe-Lister sailed for Ottawa on 13 July 1932 (the calendar's note).
-- The dominions' treaty-making practice after 1923 and 1926, stated from general knowledge.
+- Alberto J. Pani as Treasury Secretary: named in January 1932, from the embassy in Spain (Manawatu Times, 22 January 1932, https://paperspast.natlib.govt.nz/newspapers/MT19320122.2.69); the day he took office is still to be checked.
+- The closing date of the Ottawa conference: 20 August 1932 by New Zealand's official summary (above); other accounts give 18 August, and the difference is not resolved here.
+- That Britain imported most of its bread in 1932 (from memory). The Ottawa sailing of 13 July 1932 is checked (above).
+- The dominions' treaty-making practice after 1923 and 1926, stated from general knowledge. The conference of 1930 considered ratification and full powers (Irish Department of External Affairs note, https://www.difp.ie/volume-3/1929/preliminary-note-on-the-1930-imperial-conference-by-the-department-of-external-affairs/1357/), but the rule itself is still from memory.
 
 ## CR-087 — the Lewis crest (integrated 24 November 2026)
 
