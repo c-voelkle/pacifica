@@ -124,7 +124,7 @@ What changed:
 | The Indies bond, San Francisco tranche | $20m | $30m | Events E264, memo | no |
 | The Guaymas port bonds | $5m | $8m | Events E265, memo | no |
 | China's reserve compact | $25m | $40m | Endgame memo | no |
-| Singapore: naval works not built | £5.0m ($17.5m at $3.50) and £0.4m a year of upkeep | £6.0m; £0.5m | Endgame memo | no: Britain's |
+| Singapore: naval works not built | £5.0m ($17.5m at $3.50), of which £2.3m is work in hand; £0.4m a year of upkeep | £5.0m; £0.5m | Endgame memo | no: Britain's |
 | New Zealand | £0.60m paid and credited, £0.40m not called | the same | Endgame memo | no: Britain's and New Zealand's |
 | Seria's offtake, 1932 | 0.5 million barrels | 0.3 | Endgame memo; energy workbook's Events list | no |
 
@@ -150,7 +150,30 @@ Sources fetched on 24 November 2026:
 - Papers Past, 20 May 1932 (the instalment reduced to £100,000): https://paperspast.natlib.govt.nz/newspapers/WC19320520.2.49
 - Brunei in the Directory and Chronicle (production from the first quarter of 1932; exports of 1934 and 1935): https://hkintexts.histsyn.com/page/1126605 and https://hkintexts.histsyn.com/page/1134012
 
-Not verified, and marked so on the levers: the whole estimate for the Singapore base (£7.75m to £8.7m), on which the £5m rests; the Indies' dollar issues of 1922–23; Eldorado's output in the 1930s; the Kemmerer commission's cover rule; the pound at $3.50. The Guaymas and China sizes are analogies to figures inside the workbook, with no outside source.
+Not verified: Eldorado's output in the 1930s; the Kemmerer commission's cover rule. The Guaymas and China sizes are analogies to figures inside the workbook, with no outside source.
+
+### Three figures checked on 24 November 2026 (author, 18:54)
+
+- **The Singapore base's whole estimate.** The scheme in the Navy Estimates is £7,750,000 (First Lord, 23 November 1927; Civil Lord, 15 March 1932, Vote 10 item 64). With the Army's and the Air Ministry's works the whole was put at £11.6m in December 1929: £9.0m on Navy Votes, £2.0m on Army funds and £0.6m on Air funds. The work actually in hand under the Imperial Conference's decision of 1930 is smaller: an estimate of £5,145,000 for the contract and contingent services (£4,036,000 to the contractor and £1,043,516 of departmental works), with the floating dock, £971,000, beside it; the dockyard's workshops, the generating station and the completion of the graving dock were deferred to a review in 1935. About £3,438,000 was spent by February 1933 without the dock, and the vote for 1932 was £690,000, so about £2.8m was spent by the spring of 1932.
+  - **The £5.0m stands**, as £7.75m less £2.8m, on the reading that the £7.75m does not include the floating dock. The Hansard pages do not say so in terms; if it does include the dock the figure is £4.0m.
+  - **Only £2.3m of it is work in hand** (£5.145m less £2.8m). The other £2.7m was already deferred in 1930, so in 1932 it is a saving against the plan and not against the estimates. The Endgame sheet shows the split. The Stress lever of £6.0m had no support and is now £5.0m.
+- **The Indies' dollar issues.** Three in New York in 1922, all at 6%: $40m of 25-year bonds in January, $40m of 40-year sinking-fund bonds in March, and $20m more of the 40-year bonds in April. That is $100m in 1922. A further loan was offered in June 1923; its page could not be read, so its size is not entered and the proposal's total of $150m is not confirmed. The $20m tranche is a fifth of the 1922 borrowing.
+- **The pound.** Dated quotations in New York for 1932: $3.50 in mid-January, $3.82 at the end of March, $3.30 in late October, $3.34 on 22 December. The Bank of England's history of the Exchange Equalisation Account gives $3.61 when the Account began in the summer and a low of $3.14½ on 29 November. $3.50 is a fair figure for the summer of the Act. The year's average of about $3.51 is recalled from the Federal Reserve's *Banking and Monetary Statistics*; the table itself was not reached.
+
+Sources fetched on 24 November 2026:
+- Hansard, 23 November 1927: https://api.parliament.uk/historic-hansard/commons/1927/nov/23/singapore-base
+- Hansard, 17 December 1929: https://api.parliament.uk/historic-hansard/written_answers/1929/dec/17/singapore-naval-base
+- Hansard, 9 March 1932: https://api.parliament.uk/historic-hansard/written-answers/1932/mar/09/singapore-base
+- Hansard, 15 March 1932 (Navy Estimates): https://api.parliament.uk/historic-hansard/commons/1932/mar/15/navy-estimates-1932
+- Hansard, 22 February 1933: https://api.parliament.uk/historic-hansard/commons/1933/feb/22/singapore-base
+- New Zealand Herald, 7 January 1922: https://paperspast.natlib.govt.nz/newspapers/NZH19220107.2.42
+- Star (Christchurch), 16 March 1922: https://paperspast.natlib.govt.nz/newspapers/TS19220316.2.52
+- Evening Public Ledger (Philadelphia), 21 April 1922: https://panewsarchive.psu.edu/lccn/sn83045211/1922-04-21/ed-1/seq-25.pdf
+- Evening Post, 16 June 1923 (not readable): https://paperspast.natlib.govt.nz/newspapers/EP19230616.2.59
+- Southland Times, 18 January 1932: https://paperspast.natlib.govt.nz/newspapers/ST19320118.2.37
+- Bay of Plenty Times, 30 March 1932: https://paperspast.natlib.govt.nz/newspapers/BOPT19320330.2.24
+- Dominion, 27 October 1932: https://paperspast.natlib.govt.nz/newspapers/DOM19321027.2.72
+- Bank of England, the Exchange Equalisation Account: https://www.bankofengland.co.uk/-/media/boe/files/archive/ww/boe-1939-1945-partii-appendix.pdf
 
 Still not done, and why:
 

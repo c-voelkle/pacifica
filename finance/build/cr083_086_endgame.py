@@ -99,17 +99,21 @@ LEVERS = [
     ("eg_be_radium", "Belgium's larger free allowance of radium salt, 1929-32 (1913 $m a year)", 0.10, 0.15, "$m",
      "Author, 24 Nov 2026, 16:26 (MODEL)", "Taken off the Atomic sheet's radium and source trade."),
     ("eg_indies", "Indies treasury bond, autumn 1932: the tranche placed in San Francisco ($m)", 20, 30, "$m",
-     "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-084 C1. Private placement, no guarantee by the Realm or the Concord. Sized against the Indies' dollar issues of 1922-23 (recalled, to verify)."),
+     "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-084 C1. Private placement, no guarantee by the Realm or the Concord. Sized against the Indies' dollar issues in New York in 1922: $40m in January, $40m in March and $20m in April, at 6%."),
     ("eg_guaymas", "Guaymas port bonds placed in San Francisco, 1932 ($m)", 5, 8, "$m",
      "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-086 E2. A third of the Huludao Harbour Trust (CR-042): wharves and dredging in a sheltered bay with a railway."),
     ("eg_cn_res", "China's reserve compact of 1932: the balance that moves under it ($m)", 25, 40, "$m",
      "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-086 B6. Not a new balance: the Money sheet already counts $100m in 1932 for Korea, the Gulf and China's reserve banks, and this is the part that moves under China's own compact. China's interior stays on silver."),
-    ("eg_sg_capital", "Singapore: naval works not built after the halt (GBP m; Britain's money)", 5.0, 6.0, "GBP m",
-     "Author, 24 Nov 2026, 16:26 (MODEL)", "About GBP 3.4m spent to February 1933 without the floating dock (Hansard, 15 February 1933). The whole estimate of GBP 7.75m to 8.7m is recalled and to verify."),
+    ("eg_sg_capital", "Singapore: naval works not built after the halt (GBP m; Britain's money)", 5.0, 5.0, "GBP m",
+     "Author, 24 Nov 2026, 16:26; Hansard (MODEL)", "The scheme in the Navy Estimates is GBP 7.75m (Hansard, 23 Nov 1927 and 15 Mar 1932), taken without the floating dock (GBP 0.97m); about GBP 2.8m is spent by the spring of 1932 (GBP 3.44m by February 1933, less most of the 1932 vote of GBP 0.69m)."),
+    ("eg_sg_inhand", "Singapore: of which the work in hand under the decision of 1930 (GBP m)", 2.3, 2.3, "GBP m",
+     "Hansard, 9 and 15 March 1932 (MODEL)", "Estimate for the contract and contingent services GBP 5.145m, less about GBP 2.8m spent. The rest of the GBP 5.0m was already deferred to a review in 1935."),
+    ("eg_sg_other", "Singapore: Army and Air works in the scheme of 1929 (GBP m)", 2.6, 2.6, "GBP m",
+     "Hansard, 17 December 1929", "GBP 2.0m on Army funds and GBP 0.6m on Air funds, beside GBP 9.0m on Navy Votes, in the whole scheme of GBP 11.6m; how much of it the halt saves is not sized."),
     ("eg_sg_upkeep", "Singapore: yearly upkeep of a capital-ship dockyard avoided (GBP m a year)", 0.4, 0.5, "GBP m",
      "Author, 24 Nov 2026, 16:26 (MODEL, no source)", "No hull is paid off: the ships go elsewhere."),
     ("eg_fx", "Sterling in 1932 ($ a pound)", 3.5, 3.5, "$",
-     "Floating pound of 1932 (recalled)", "Par before September 1931 was 4.8665."),
+     "Quotations of 1932; Bank of England", "3.50 in mid-January, 3.82 at the end of March, 3.61 at the start of July, 3.30 in late October, a low of 3.145 on 29 November. The year's average, about 3.51, is recalled; the table was not reached. Par before September 1931 was 4.8665."),
     ("eg_nz_paid", "New Zealand's Singapore instalments paid to March 1932, credited by London (GBP m)", 0.60, 0.60, "GBP m",
      "Author, 24 Nov 2026, 16:26; Papers Past and Hansard", "GBP 125,000 a year from 1927-28, cut to GBP 100,000 in 1931: four at 125,000 and one at 100,000."),
     ("eg_seria", "Seria: the oil trust's offtake from Shell in 1932 (m bbl)", 0.5, 0.3, "m bbl",
@@ -239,6 +243,10 @@ def build_sheet(wb) -> None:
         ("Belgium's higher royalty, 1929-32 (1913 $m, total)", "=eg_on*SUM(H6:H92)"),                                        # 60
         ("Great Bear: mining, freight and Canada's royalty, 1913-32 (1913 $m, total)",
          "=eg_on*(SUM(E6:E92)*eg_gbr_cost/1000+SUM(G6:G92))"),                                                               # 61
+        (None, None),
+        ("Singapore: of the works not built, the work in hand under the decision of 1930 (GBP m)", "=eg_sg_inhand"),        # 63
+        ("Singapore: the part already deferred to the review of 1935 (GBP m)", "=B47-B63"),                                  # 64
+        ("Singapore: Army and Air works in the scheme of 1929, not sized as a saving (GBP m)", "=eg_sg_other"),              # 65
     ]
     for i, (lab, f) in enumerate(rows, start=4):
         if lab is None:
@@ -263,7 +271,7 @@ def build_sheet(wb) -> None:
     S.column_dimensions["B"].width = 18
     for r in (7, 8, 9, 10, 12, 17, 22, 40, 41):
         S.cell(r, 2).number_format = "0.0%"
-    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 29, 31, 32, 33, 36, 37, 38, 39, 43, 44, 45, 47, 48, 49, 50, 51, 53, 54, 55, 57, 58, 59, 60, 61):
+    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 29, 31, 32, 33, 36, 37, 38, 39, 43, 44, 45, 47, 48, 49, 50, 51, 53, 54, 55, 57, 58, 59, 60, 61, 63, 64, 65):
         S.cell(r, 2).number_format = "0.0"
 
 
