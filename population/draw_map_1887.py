@@ -271,10 +271,10 @@ def main():
     union_side = [g for k, g in geom.items() if k not in assigned and not k.startswith("HI;")
                   and k.split(";")[0] in ("MT", "WY", "CO") and float(shares.get(k, 0)) < 1]
     union_side.append(ceded)
-    sqmi = lambda g: g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
+    sq_miles = lambda g: g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
     north = merged["Missoula"].intersection(box(-117.0, 48.998, -113.0, 49.01)).bounds
-    report.append(f"Missoula: {sqmi(ceded):,.0f} sq mi east of the Lewis crest is the Union's (CR-087); the county is "
-                  f"{sqmi(merged['Missoula']):,.0f} sq mi as drawn outside the Flathead homeland and meets the 49th parallel as far east as {-north[2]:.3f} W, "
+    report.append(f"Missoula: {sq_miles(ceded):,.0f} sq mi east of the Lewis crest is the Union's (CR-087); the county is "
+                  f"{sq_miles(merged['Missoula']):,.0f} sq mi as drawn outside the Flathead homeland and meets the 49th parallel as far east as {-north[2]:.3f} W, "
                   f"{(114.068 + north[2]) * 69.172 * math.cos(math.radians(49.0)):.1f} miles from the divide at 114.068 W")
 
     def proj_with(fn):
@@ -479,7 +479,7 @@ def main():
                  fontsize=7.2, va="top", linespacing=1.25)
 
     fig.text(0.02, 0.975, "The 124 counties of the Constitution of the Realm, 1 August 1887", fontsize=20, weight="bold")
-    fig.text(0.02, 0.962, "CR-071 Part I, draft 12 (17 November 2026). Colours: the old members and territories the counties replace. "
+    fig.text(0.02, 0.962, "CR-071 Part I, draft 12 (17 November 2026), with CR-087's Lewis crest (a draft). Colours: the old members and territories the counties replace. "
              "Dotted grey: our timeline's county lines of 1887.\n"
              "Homelands are one colour. Heavy outline: a homeland outside the 124 (Royce's lines where our timeline has a text; the Hopi's is a sketch). "
              "Thin outline: a homeland inside a county (seventeen of California's nineteen treaty tracts of 1851-52, and elsewhere the reserves of treaties and orders before 1887).\n"
