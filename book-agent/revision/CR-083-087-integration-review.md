@@ -157,3 +157,5 @@ Fix: move the CR-086 sentence to the end of the paragraph and begin it "The Unio
 ## What was done with this review (24 November 2026)
 
 Applied in the storyline: B1; S1 to S18 (S9's second point, the label on the coalition's request, is left as the decision record has it); M1, M2 (two of the five), M3, M4, M5, M7, M10, M12 and the first point of M13. Not applied: M6, M8, M9, M11, M14, M15, M16 and the rest of M13 (the trajectories of Victoria and Julian, and a trajectory entry for Kaʻiulani), which are left for the rewrite of the text.
+
+Later the same day (19:11, the author: "Yes please" to clearing the remaining points): M6, M8, M9, M11 (the inline label at the July votes dropped, since the closing lists mark every "about" day PROPOSED), M13 (the Sekani's refusal no longer listed as open; 1932 added to Victoria's and Julian's trajectories; a trajectory entry for Kaʻiulani), M14 and M15 applied. M16 is left as house practice.

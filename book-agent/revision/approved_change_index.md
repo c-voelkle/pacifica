@@ -1427,13 +1427,13 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - CR-058 and CR-070 are amended on British Columbia's status from 1871 to 1923 (T4, T6, T7).
 
 **Still open:**
-- The percentages of the vote of 16 April 1932.
+- MODEL: the vote of 16 April 1932 carries about 55 per cent, about 58 on the mainland and about 44 on the Island (author, 24 November 2026, 20:30).
 - Caledonia's modelled population in 1932 and Vancouver Island's share (MODEL; about a sixth from history).
 - The share of the dominion's trade that goes south.
 - Workbook figures: the loan of 1871, the railway and Pacific Great Eastern debt and its refunding, the prairie contract's band and tonnage and the share of Canada's sales it replaces, Canada's machinery quota, the Great Bear royalty's rate, the first annuity tranche.
 - Which northern nation exercises the standstill refusal of 1932 (the Sekani of McLeod Lake are PROPOSED); the signing places of the Dane-zaa, the Fort Nelson Dene and the Secwépemc.
 - The office of the Realm under whose full powers the envoy signs the Association Treaty.
-- The Bamfield cable's owner from 1930 (to verify).
+- The Bamfield cable station is worked from 30 September 1929 by Imperial and International Communications Ltd (Hist., sourced in historical_background.md).
 - The particular days of 1932 given as 'about' are PROPOSED.
 - Model tasks: remove the northern-water work from population/provisioning.py; size Caledonia's own population.
 - History from memory, to be sourced: listed in historical_background.md under CR-083.
@@ -1470,15 +1470,15 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - The four straits (Malacca, Sunda, Lombok, Makassar) kept open by the powers on their shores and scheduled to Article II of the Final Act, with the Netherlands bound on Malacca (PROPOSED).
 - T-O1 Case A: Japanese concessions and a leased East Borneo port erode Julian's oil lever of 1931, a cost he accepts and records. T-R1 Case B: CR-082's proposed southern renunciation is withdrawn.
 - M-4: the 10° S non-basing line as a protocol to the retrenchment treaty, signed by the Concord for both crowns and by Britain, to which Australia and New Zealand accede, with stations existing on 1 January 1932 excepted (Tutuila, Swains, Apia) and a bar on fortifying the leased ports; C-1932-ANZ-DEFENSE stays a treaty of the Realm and is consented to by two-thirds of the Senate. The 155° W limit, the annex's form, New Zealand's rebate and Canberra's refused demands and unanswered grievances are PROPOSED.
-- T-P1 Case B: Pacifica holds the former German Samoa, German New Guinea with Rabaul, and Nauru after 1919; the form of the holding is OPEN.
+- T-P1 Case B: Pacifica holds the former German Samoa, German New Guinea with Rabaul, and Nauru after 1919, as trusts of Ka Lōkahi like Micronesia; Nauru's phosphate is worked by a commission, Australia and New Zealand buying at a published price (author, 24 November 2026, 20:30).
 - T-A2: "Britain is managed through debt" holds of the schedule and not of the six annuity years 1932–33 to 1937–38.
 - T-B5a (CR-086's T-1): the Works' reckoning of a British device about 1933–1935 is overtaken when Britain renounces in May 1932; CR-086 carries the fact change.
 - Autumn 1932: the treaties lie before Parliament, an Act approves the cession of Labuan and of Fanning and Washington, and the King's ratification of the retrenchment treaty and the Final Act is deposited at Thalassia; the second and third tranches are cancelled, the Labuan lease and Tonga's treaty take effect, and the order to dismantle Britain's plant follows (calendar H, K).
 - The days given as "about" are PROPOSED (calendar).
 
 **Still open:**
-- Whether the cipher room reads the dominions' traffic at Fanning (T-B5c; left OPEN by the author, 24 November 2026, 10:45).
-- Whether the 10° S protocol's meridian is 155° or 156° W; what stands at Apia, Rabaul and Nauru on 1 January 1932.
+- T-B5c decided after integration: the cipher room does not read the dominions' traffic at Fanning (author, 24 November 2026, 20:30).
+- The 10° S protocol's meridian is 155° W; on 1 January 1932 Apia has a wireless and coaling station, Rabaul an administrator's post and a harbour, Nauru its phosphate works (author, 24 November 2026, 20:30).
 - The form in which Pacifica holds the former German Samoa, New Guinea and Nauru; Nauru's phosphate; Tokelau's neighbourhood; what Canberra was given in 1919 (T-P1).
 - The office that signs for the Realm (A1); who held the common Foreign ministry from 1927 to 1931.
 - South Africa and the first article (B5).
@@ -1487,7 +1487,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Finance workbook: the fleet-saving figure from Sembawang's halt, the Fanning buyout's valuation, the Indies bond of autumn 1932; Britain's part of the Treasury's European claims is taken as six-tenths without a source.
 - Energy workbook: the Gulf lifting share (`compact_on`/`compact_cut`), Shell's Seria offtake, East Borneo's crude tonnage and Bintan's schedule after 1935; who refines Bintan's bauxite and where.
 - The straits' share of the Realm's oil now and bread later (needs a routing table; `population/provisioning.py` has none).
-- Which Phoenix islands carried American guano bonds in 1870.
+- PROPOSED: the American bonds of 1870 are worked at Enderbury and McKean (Hist., sourced in historical_background.md).
 - Palau, approved under M-2 as the other southern anchor, has no section.
 - Tizard's ore quantities (B5).
 - To source: the items listed under "From memory, to be sourced" in historical_background.md (among them the Lutong pipeline, who sailed for Ottawa on 13 July 1932, the 1905 Anglo-Tongan agreement, NKPM, the KPM's monopoly, Sulawesi's nickel, the Dindings retrocession).
@@ -1545,7 +1545,7 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - T-1: the Works' reckoning of a British device about 1933–1935 stands as its estimate of 1928 and is overtaken; Britain decides to stop in the last days of May 1932 (CR-084) and Article I ends the race.
 - The ore sweep after Hoover's remark of 1926 and its refusals (F-5, T-U2 case B): Urgeiriça's dumps and a short concentrate contract, lost when the mine is bought in August 1929 with London behind the buyers; one purchase at Radium Hill; Cornwall, Saxony and Madagascar refused. The dates 1926–27 are PROPOSED and the tonnages MODEL; the mined total (about 6,000 to 6,200 tonnes with Great Bear) is a placeholder and OPEN.
 - What the sweep buys: the ore makes a rival's weapon late, small and dear, not impossible; Britain's own ore after 1929 is enough in time for one device, late and small (its quantities OPEN).
-- PROPOSED: Great Bear's company is the Mackenzie Radium and Silver Company and its ore goes out by summer barge; its tonnage to 1932 is 295 tonnes of uranium (MODEL; author, 24 November 2026, 16:26) and its railhead in the 1910s is OPEN.
+- PROPOSED: Great Bear's company is the Mackenzie Radium and Silver Company and its ore goes out by summer barge; its tonnage to 1932 is 295 tonnes of uranium (MODEL; author, 24 November 2026, 16:26) and in the 1910s its ore reaches the railway at Athabasca Landing (Canadian Northern, 1912).
 - PROPOSED: Belgium's revision of 1928–29: a higher royalty and a larger hospital allowance of the salt, and no uranium.
 - PROPOSED: thorium: Brazilian monazite bought from 1926 through the estates' chemical houses, Travancore's restriction after 1928 on London's advice, thorium breeding still an experiment in 1932 (F-6).
 - PROPOSED: the dependence strategy after 1927: inside the Concord the fuel lease and the return of the bred elements; outside it the ore, the heavy water, the restricted goods and Article I; leasing Works fuel to states outside the Concord is argued in the Council of the Seal and deferred past 1932.
@@ -1577,12 +1577,12 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 **Still open:**
 - Belgium's accession to the Final Act and its terms (a future Postwar Europe CR; author, 24 November 2026, 13:08).
 - Accession to Article I by states not at the conference (Italy, federal Russia, Austria-Hungary, Norway); how France's reservation ends; whether France has a pile and whose Europe's one small pile is (the coda).
-- The mouths-fed figure for Article II, from population/provisioning.py; the Pampas houses' third-market volumes.
-- How many devices are assembled after 1927 (open in canon; not decided here).
-- The railhead Great Bear's ore used in the 1910s; Great Bear's tonnage; the monazite tonnage; the quantities of Britain's own ore; the exact mined total (until the workbook carries Great Bear).
+- The Pampas houses' third-market volumes. (The mouths-fed figure is settled: none in the Realm; abroad the schedule's prairie contract alone is bread for about a million, MODEL.)
+- No device is assembled after 1927; the material is kept as metal and the two devices of 1927 stay assembled under the two keys (author, 24 November 2026, 20:30).
+- The monazite tonnage; the quantities of Britain's own ore. (Great Bear's railhead in the 1910s is Athabasca Landing from 1912, PROPOSED; its tonnage and the mined total are settled in the workbook.)
 - Who held the common Foreign ministry from 1927 to 1931; the head of the ore office after Hoover; who sits on the Council of the Seal in 1932.
 - Whether Vance dies in May 1932 (OPEN-018-18) and so who holds the Polytechnic chief's key in August (not decided here; author, 24 November 2026, 10:45).
-- The margin and date of the Union Senate's vote; OPEN-019-11 (Pensacola) and OPEN-019-12 (Roosevelt) stay open as in canon.
+- The Union Senate votes on the Final Act in 1933, under Young (author, 24 November 2026, 20:30); OPEN-019-11 (Pensacola) and OPEN-019-12 (Roosevelt) stay open as in canon.
 - Out of the suite: Canada's monetary association, leasing Works fuel to third states, Siam's protocol, a safety-and-notice convention.
 - Workbook tasks (Part H): Great Bear and the small purchases in the energy and atomic workbook; Belgium's higher royalty, the private stabilization credits (memo), China's reserve compact and the Guaymas port bonds in the finance workbook.
 - To verify: Herriot's government formed 3 June 1932; the Final Act of the Congress of Vienna, 9 June 1815; the Bank of France's gold in 1932; production of the Saxon districts and Madagascar in 1920–32; the monazite tonnages and a better source for Travancore; Great Bear's route before the 1930s; the day Pani took office.
