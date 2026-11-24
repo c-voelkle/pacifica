@@ -248,7 +248,9 @@ def japan(c: dict, year: int, in_realm: dict[int, float]) -> dict:
     to_1920 = j["crop_1890"] * math.exp(j["crop_growth_to_1920"] * (min(year, 1920) - 1890))
     crop = to_1920 * math.exp(j["crop_growth_after_1920"] * max(0, year - 1920))
     crop_on = j["crop_1890"] * math.exp(j["crop_growth_to_1920"] * (year - 1890))
+    crop_canon = crop * (1 + interp(j["canon_uplift_years"], j["canon_uplift"], year))
     return {"people": people, "canon_people": canon_people, "head": head, "crop": crop, "crop_on": crop_on,
+            "crop_canon": crop_canon, "gap_cr085": canon_people * head - crop_canon,
             "gap_history": people * head - crop, "gap_canon": canon_people * head - crop,
             "gap_canon_on": canon_people * head - crop_on}
 
@@ -460,6 +462,10 @@ def endgame(c: dict) -> dict:
            "prairie_against_realm_sales": e["prairie_tonnes"] / realm_sales,
            "prairie_cost": e["prairie_tonnes"] * e["prairie_price"], "realm_sales": realm_sales,
            "harvests": e["prairie_harvests"]}
+    base = e["caledonia_census_1931"] + e["yukon_1931"]
+    out["caledonia"] = {k: base * v for k, v in e["caledonia_uplift"].items()}
+    out["caledonia_base"] = base
+    out["island"] = out["caledonia"]["central"] * e["island_share"]
     return out
 
 
@@ -664,6 +670,25 @@ def main() -> int:
       f"surplus of {LAST} is some {(central(c, base, LAST, pop) - pop[LAST]) * per / 1e6:.0f} million koku-equivalents against a "
       f"Japanese gap of {m(j['gap_canon'])} million koku. It is mostly wheat and feed, not rice.")
     A("")
+    A("### Canon's crop after CR-085")
+    A("")
+    A("| Year | Our timeline's crop | Canon's crop | Above our timeline | Canon's need | Gap, canon | Hokkaido inside it |")
+    A("|---|---|---|---|---|---|---|")
+    jj = c["japan"]
+    for i, y in enumerate(jj["hokkaido_years"]):
+        j = japan(c, y, jr)
+        need = j["canon_people"] * j["head"]
+        A(f"| {y} | {m(j['crop'])} | {m(j['crop_canon'])} | {m(j['crop_canon'] - j['crop'])} "
+          f"({j['crop_canon'] / j['crop'] - 1:.0%}) | {m(need)} | {m(j['gap_cr085'])} ({j['gap_cr085'] / need:.1%}) | "
+          f"{m(jj['hokkaido_koku_low'][i])} to {m(jj['hokkaido_koku_high'][i])} |")
+    A("")
+    A("Millions of koku. *Canon's crop* is our timeline's raised by CR-082's requirement, which CR-085 D1 meets with "
+      "Hokkaido's early paddy, bean cake and Japan's own nitrogen; with it Japan's home rice covers its need to within "
+      "about a hundredth in 1932, without colonies. Hokkaido's crop is CR-085's band; how much of it is above our "
+      "timeline's Hokkaido crop is OPEN, because that series is not entered.")
+    A("")
+    A(f"`[japan]` canon series: {jj['canon_status']}")
+    A("")
     A("## 6. The Philippine crown, from 1908 (its own ledger)")
     A("")
     A("| Year | People | Fed from its own land | Balance |")
@@ -784,6 +809,12 @@ def main() -> int:
       f"wheat is {eg['prairie_against_realm_sales']:.0%} of that, sold to the same buyers.")
     A("- **Article II** (CR-086 D6) feeds no one in the Realm. Its schedule is this contract, New Zealand's crop guarantee and "
       "the private houses' Pampas contracts; the Pampas volumes are not modelled.")
+    cal = eg["caledonia"]
+    A(f"- **Caledonia's own people** (CR-083 Part E) are outside the Realm's count. Our timeline's census of 1931 gives "
+      f"{eg['caledonia_base'] / 1e6:.2f} million for British Columbia and the Yukon. With sixty years of Pacifican rail, "
+      f"capital and interior settlement the republic of 1932 is put at {cal['central'] / 1e6:.2f} million "
+      f"({cal['low'] / 1e6:.2f} to {cal['high'] / 1e6:.2f}), of whom about {eg['island'] / 1e6:.2f} million are on the Island. "
+      f"{c['endgame']['caledonia_status']}")
     A("")
     A(f"`[endgame]`: {c['endgame']['status']}")
     A("")
