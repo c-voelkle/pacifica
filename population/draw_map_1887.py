@@ -10,7 +10,9 @@ Needs shapely, pyshp and matplotlib.
 
 What the picture is and is not: each new county is the union of our timeline's counties of
 1 August 1887 named in data/counties/map_1887.toml. Where a historical county is divided between
-two new ones, the cut is a straight line chosen by eye (CUTS below). The homelands' outlines are
+two new ones, the cut is a straight line chosen by eye (CUTS below). Missoula alone is less than
+its historical county: the ground east of the Lewis crest is taken off (CR-087,
+data/counties/lewis_crest_strip.geojson). The homelands' outlines are
 rough sketches from Part I's verbal lines, not surveyed boundaries. MODEL and PROPOSED throughout.
 """
 from __future__ import annotations
@@ -252,6 +254,12 @@ def main():
             else:
                 merged[n] = unary_union([merged[n], pc])
                 report.append(f"{n}: a detached {sqmi:,.0f} sq mi stays with it (no neighbour)")
+    # CR-087: north of Flattop Mountain the Western line keeps to the Lewis Range crest, so the ground
+    # between the crest and our timeline's meridian line of Missoula County is the Union's.
+    # Taken off after the homelands' pass, whose smoothing would round the narrow trough away
+    strip = unary_union([shape(f["geometry"]) for f in json.load(open(DATA / "lewis_crest_strip.geojson"))["features"]])
+    ceded = unary_union(new["Missoula"]).intersection(strip)
+    merged["Missoula"] = merged["Missoula"].difference(strip).buffer(0)
     areas = {h: g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y)) for h, g in homes.items()}
     missing = [c["name"] for c in counties if c["name"] not in merged or merged[c["name"]].is_empty]
     # ground of Pacifican states in no county: the Utes' Slope, the Wallowa
@@ -262,6 +270,12 @@ def main():
                and (k.split(";")[0] in states_in or float(shares.get(k, 0)) == 1)]
     union_side = [g for k, g in geom.items() if k not in assigned and not k.startswith("HI;")
                   and k.split(";")[0] in ("MT", "WY", "CO") and float(shares.get(k, 0)) < 1]
+    union_side.append(ceded)
+    sqmi = lambda g: g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
+    north = merged["Missoula"].intersection(box(-117.0, 48.998, -113.0, 49.01)).bounds
+    report.append(f"Missoula: {sqmi(ceded):,.0f} sq mi east of the Lewis crest is the Union's (CR-087); the county is "
+                  f"{sqmi(merged['Missoula']):,.0f} sq mi as drawn and meets the 49th parallel as far east as {-north[2]:.3f} W, "
+                  f"{(114.068 + north[2]) * 69.172 * math.cos(math.radians(49.0)):.1f} miles from the divide at 114.068 W")
 
     def proj_with(fn):
         def f(g):

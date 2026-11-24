@@ -44,14 +44,14 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 State on 24 November 2026, after the fifth revision round (the author's answers of 08:22):
 
 - Branch `drafts/cr083-086-endgame`. Nothing is integrated, `main` is untouched, no integration PR is open.
-- Current revisions, all passing preflight: `CR-083` 13, `CR-084` 11, `CR-085` 8, `CR-086` 7, `CR-087` 2. None of these has been reviewed in a fresh context. The fourth-round reviews (`CR-083-review-6.md`, `CR-084-review-6.md`, `CR-085-review-5.md`, `CR-086-review-5.md`, `CR-087-review.md`) are of the revisions before them.
+- Current revisions, all passing preflight: `CR-083` 13, `CR-084` 11, `CR-085` 8, `CR-086` 7, `CR-087` 3. None of these has been reviewed in a fresh context. The fourth-round reviews (`CR-083-review-6.md`, `CR-084-review-6.md`, `CR-085-review-5.md`, `CR-086-review-5.md`, `CR-087-review.md`) are of the revisions before them.
 - Decided on 24 November: 00:12 (Inukai, Hayama 12–15 June, the union without term, consecutive years, the split 2/4/11, wheat at 1.0 million tonnes, the third refusal); 07:19 (the Lewis crest, road surveys only, `CR-087`); 07:27 (the yards' share below capital ships, the Columbia half in power, the drafter's additions of the should-fix round); 07:31 and 07:37 (Kaʻiulani as common Foreign minister, signing seated, nothing said of 1919); 08:22 (the crest line confirmed knowing the map; the Emperor signs in mid-July on one advice; Proclamation after the annuity bill; London notices and accepts what the retrenchment is paid in).
 - Added to `CR-083` after revision 13 and not reviewed: the King's representative at Victoria from January to July, and the vote of 16 April on final terms published about 25 March (author, 08:58); the Governor is John Buchan, appointed 1930 in this timeline (author, 09:02; the year is PROPOSED).
+- The county map is redrawn on this branch for `CR-087` (revision 3; author, 09:10): `population/data/counties/lewis_crest_strip.geojson` is taken off Missoula in `population/draw_map_1887.py`. Run it with the atlas's `output` folder as its argument.
 - Each draft lists at the end of `## Decisions` what the fifth round did and did not do with the fourth review's findings.
 - Models (`finance/CR-083-086-workbook.md`): Story 0 failed checks, Stress 51. The memo row E263 names France among the stabilization credits and is to be corrected at the next rebuild.
 
 Not done:
-- The county map is not redrawn for `CR-087`. The atlas data is fetchable; the method is in `CR-087` `## D`.
 - Registry entries and fact changes for Mori Kaku and Hiranuma Kiichirō (`CR-085`).
 - The older prose of `CR-084` `B2` to `B4` and `C1` and of `CR-085` Parts B to D; the reviews' Minor items.
 - `AGENTS.md`'s paragraph on the financial files; that belongs to integration.
