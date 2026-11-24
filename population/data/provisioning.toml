@@ -305,12 +305,18 @@ grain_trade_aim = "Author, 22 November 2026, 08:02: the strategic ambition becom
 status = "MODEL throughout. The sellers' figures a century on are our timeline's exports of today: what those lands in fact came to sell after a century of the same science, at their own peoples' tables. They are stated from general knowledge and are to verify (USDA PSD, FAOSTAT). Meat, butter and wool are not counted."
 
 [endgame]
-# The contracts of 1931-32 (CR-083 A11; CR-086 D3). Drafts on branch drafts/cr083-086-endgame; not canon until merged.
+# The contracts of 1931-32 (CR-083 A11; CR-086 D3). Approved and integrated on 24 November 2026.
 prairie_tonnes = 1000000          # a harvest; the band is 0.8 to 1.2 million (author, 24 November 2026, 00:12)
 prairie_harvests = 10             # 1932-41 (CR-083 A11)
 prairie_price = 18                # $ a tonne, the slump's price used for the Crown's granary (finance lever pv_gran_usd)
 canada_exports_1931_tonnes = 5600000   # 206 million bushels of wheat in 1931-32 (the sellers' list below; Hansard, 7 November 1933)
 status = "MODEL. The tonnage is the author's of 24 November 2026; the price is the drafter's proposal; Canada's exports are as in the sellers' list."
+# Caledonia's own people in 1932 (CR-083 Part E). The Realm's count does not include them.
+caledonia_census_1931 = 694263    # British Columbia, Canadian census of 1931 (CR-083 Part E, Hist.)
+yukon_1931 = 4200                 # about; the same source
+caledonia_uplift = {low = 1.10, central = 1.20, high = 1.30}   # sixty years of Pacifican rail, capital and interior settlement: the drafter's proposal, no source
+island_share = 0.1667             # Vancouver Island, "roughly a sixth" (CR-083 A6, MODEL)
+caledonia_status = "MODEL. The census figures are our timeline's; the uplift is the drafter's proposal and is PROPOSED until the author sets it."
 
 [century.mariculture]
 # Work 5 (author, 22 November 2026, 07:55): a Pacific kelp aquaculture industry as a century project.
@@ -418,3 +424,10 @@ korea_koku = {1921 = 2790000, 1931 = 6650000}      # our timeline's imports from
 our_timeline_japanese_in_territory_1930 = 280000   # mainland and Hawaii, recalled; to verify
 emigrant_share = 0.8                               # how far a Japanese-origin Pacifican lowers Japan's own numbers: MODEL
 status = "MODEL. Canon's Japan has no colonial rice (Korea is independent, Formosa is Chinese) and holds Urajio, Enkaishu and Karafuto, which are not counted."
+# CR-085 D1 (approved 24 November 2026): canon's home crop above our timeline's, and Hokkaido's paddy inside it.
+canon_uplift_years = [1890, 1910, 1920, 1932]
+canon_uplift = [0.0, 0.05, 0.08, 0.13]
+hokkaido_years = [1910, 1920, 1932]
+hokkaido_koku_low = [1500000, 2500000, 3500000]
+hokkaido_koku_high = [1800000, 3000000, 4000000]
+canon_status = "MODEL. The uplifts are CR-082's requirement as CR-085 D1 meets it (Hokkaido's early paddy, bean cake, nitrate on upland crops, Japan's own nitrogen from 1908, no colonial rice after 1920); Hokkaido's crop is CR-085's band. How much of Hokkaido's crop is above our timeline's is OPEN: our timeline's Hokkaido series is not entered."

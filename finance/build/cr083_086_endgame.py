@@ -7,9 +7,9 @@ script never recalculates; run LibreOffice afterwards. With --off the master lev
 at 0 in both cases, which must reproduce IN's values exactly.
 
 Authorization: the author, 23 November 2026, 23:52 ("Please run the third review and then proceed
-to rebuild the models"). The four CRs are DRAFTS on branch drafts/cr083-086-endgame and are not
-canon; this step lives on that branch with them. Every amount is MODEL, and the sizes marked
-"drafter's proposal" are proposals for bands the drafts leave OPEN.
+to rebuild the models"), and 24 November 2026, 14:56 ("Please proceed to rebuild the workbooks"),
+after the four CRs were approved (13:08) and merged to main (pull request 88). Every amount is
+MODEL, and the sizes marked "drafter's proposal" are proposals for bands the CRs leave OPEN.
 
 What this adds:
 - Loans, Europe group, 1932: Britain's cancelled annuities written off (CR-084 B1, T-A2). The
@@ -51,11 +51,11 @@ import openpyxl
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import cr041_russian_war as base  # noqa: E402
 
-AUTHOR = "the author, 23 November 2026, 23:52 (CR-083 to CR-086, drafts)"
+AUTHOR = "the author, 23 November 2026, 23:52, and 24 November 2026, 14:56 (CR-083 to CR-086, approved 24 November 2026)"
 base.AUTHOR = AUTHOR
 
 LEVERS = [
-    "— CR-083 to CR-086: the endgame of 1931-32 (drafts; 24 Nov 2026) —",
+    "— CR-083 to CR-086: the endgame of 1931-32 (approved 24 Nov 2026) —",
     ("eg_on", "Endgame: 1 = on; 0 = the input workbook exactly", 1, 1, "switch",
      "Author, 23 Nov 2026, 23:52", "0 reproduces the input workbook exactly."),
     ("eg_uk_share", "Britain's part of the Treasury's European claims", 0.6, 0.6, "share",
@@ -84,25 +84,25 @@ LEVERS = [
      "Atomic sheet, 1928-1931", "8, 10, 10 and 4 in 1913 $m at the Paths price level."),
     ("eg_tk_share", "Tokyo station: Tokyo Dento's share (site, containment, turbines, grid)", 0.55, 0.45, "share",
      "CR-085 C1 (MODEL)", "The Works supplies the nuclear island and core on a 20-year lease."),
-    ("eg_stab", "Private stabilization credits to Britain, Germany and France, 1932 ($m)", 300, 400, "$m",
-     "CR-086 B1 (MODEL, no source)", "Private San Francisco syndicates; the Bank discounts, the Treasury does not borrow. Memo: if it is entered as Private lending the gold and money tests must be read again."),
+    ("eg_stab", "Private stabilization credits to Britain and Germany, 1932 ($m)", 300, 400, "$m",
+     "CR-086 B1 (MODEL, no source)", "Private San Francisco syndicates; the Bank discounts, the Treasury does not borrow. France sits on gold and asks for no credit (CR-086 B3). Memo: if it is entered as Private lending the gold and money tests must be read again."),
     ("eg_yen", "Yen reset against the gold dollar", 0.2, 0.25, "share",
      "CR-085 A7 (MODEL)", "Inside the band of 20-25%."),
 ]
 
 ROWS = [
     (1871, 1871, "British Columbia: loan to the colony with the Puget Sound rail link (CR-083)", "Loan", "Continental", "British Columbia",
-     "=eg_on*eg_bc_loan", "No", "Draft", "§15 (CR-083 A2)", "The colony stays outside Confederation"),
+     "=eg_on*eg_bc_loan", "No", "Approved", "§15 (CR-083 A2)", "The colony stays outside Confederation"),
     (1928, 1931, "Tokyo station: Tokyo Dento's civil works and turbines, against the cost on Atomic (CR-085)", "Receipt", None, "Japan",
-     "=eg_on*eg_tk_cost*eg_tk_share/4", "No", "Draft", "§32 (CR-085 C1)", "Closes the Atomic sheet's 'financing OPEN, entered as Pacifica's'"),
+     "=eg_on*eg_tk_cost*eg_tk_share/4", "No", "Approved", "§32 (CR-085 C1)", "Closes the Atomic sheet's 'financing OPEN, entered as Pacifica's'"),
     (1932, 1932, "Fanning and Washington: plantation buyout into the Ka Lokahi trust (CR-084)", "Purchase", None, "Britain",
-     "=eg_on*eg_fanning", "No", "Draft", "§37 (CR-084 B4)", "Fanning Island Limited, at published valuation"),
+     "=eg_on*eg_fanning", "No", "Approved", "§37 (CR-084 B4)", "Fanning Island Limited, at published valuation"),
     (1932, 1932, "Prairie wheat contract, first harvest: the Patrimony board's purchase (CR-083; memo, no Treasury cash)", "Commitment",
-     None, "Canada", "=eg_on*eg_wheat_t*eg_wheat_usd/1000000", "No", "Draft", "§34 (CR-083 A11)", "Ten harvests, 1932-41; resold in Asia"),
+     None, "Canada", "=eg_on*eg_wheat_t*eg_wheat_usd/1000000", "No", "Approved", "§34 (CR-083 A11)", "Ten harvests, 1932-41; resold in Asia"),
     (1932, 1932, "Caledonia: the dominion's gold-dollar bonds refunded by private syndicates (CR-083; memo)", "Commitment",
-     None, "Caledonia", "=eg_on*eg_bc_debt", "No", "Draft", "§37 (CR-083 A10)", "Bonds San Francisco already holds; no Treasury share, no Development Fund lending abroad"),
+     None, "Caledonia", "=eg_on*eg_bc_debt", "No", "Approved", "§37 (CR-083 A10)", "Bonds San Francisco already holds; no Treasury share, no Development Fund lending abroad"),
     (1932, 1932, "Private stabilization credits under the monetary settlement (CR-086; memo)", "Commitment",
-     None, "Britain, Germany & France", "=eg_on*eg_stab", "No", "Draft", "§37 (CR-086 B1)", "Private syndicates; not the Treasury's"),
+     None, "Britain & Germany", "=eg_on*eg_stab", "No", "Approved", "§37 (CR-086 B1)", "Private syndicates; not the Treasury's"),
 ]
 
 
@@ -118,7 +118,7 @@ def add_rows(wb) -> list[str]:
 
 def build_sheet(wb) -> None:
     S = wb.create_sheet("Endgame")
-    S["A1"] = "The endgame of 1931-32 (CR-083 to CR-086; drafts, MODEL)"
+    S["A1"] = "The endgame of 1931-32 (CR-083 to CR-086; approved 24 November 2026, MODEL)"
     S["A2"] = ("Britain's 62-year funding of 1923 as level annuities at eg_rate. The Loans sheet takes the write-off of 1932 from "
                "cell B14. Everything here is a memo except B14.")
     rows = [
@@ -147,6 +147,13 @@ def build_sheet(wb) -> None:
         ("Memo, not in the Atomic sheet (CR-086 Part A): Great Bear ore to 1932, t U", "200 to 350"),
         ("Memo: Urgeirica dumps and Radium Hill purchase, t U", "small; OPEN"),
         ("Memo: prairie wheat contract over ten harvests ($m)", "=eg_wheat_t*eg_wheat_usd*10/1000000"),
+        ("Memo: uranium mined to 1932 on the Atomic sheet, t U (canon: about 5,800)", "=SUM(Atomic!B6:F92)"),
+        ("Memo: with Great Bear, Urgeirica and Radium Hill (CR-086 A; OPEN until the Atomic sheet carries them), t U", "6,000 to 6,200"),
+        (None, None),
+        ("Japan's rescue of 1927: the Treasury's participation ($m; sheet Japan rescue)", "='Japan rescue'!D11"),
+        ("One of five instalments, 1929 to 1933 ($m a year)", "=B31/5"),
+        ("Instalments still due after the reset (1932 and 1933): extra cost to Japan in yen, as $m at the old parity", "=2*B32*B22"),
+        ("Memo: the Bank of Japan's ceiling and the banks' own repayments are Japan's books, not this workbook's", None),
     ]
     for i, (lab, f) in enumerate(rows, start=4):
         if lab is None:
@@ -157,7 +164,7 @@ def build_sheet(wb) -> None:
     S.column_dimensions["B"].width = 18
     for r in (7, 8, 9, 10, 12, 17, 22):
         S.cell(r, 2).number_format = "0.0%"
-    for r in (4, 6, 13, 14, 18, 19, 20, 23):
+    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 31, 32, 33):
         S.cell(r, 2).number_format = "0.0"
 
 
@@ -172,12 +179,13 @@ def write_off(wb) -> None:
 def log(wb, ids: list[str], off: bool) -> None:
     Ch = wb["Changes"]
     n = Ch.max_row + 1
-    Ch.cell(n, 1).value = "24 Nov: CR-083 to CR-086 (drafts)"
+    Ch.cell(n, 1).value = "24 Nov: CR-083 to CR-086"
     Ch.cell(n, 2).value = "The endgame of 1931-32"
     Ch.cell(n, 3).value = (f"Master lever eg_on (at 0 the input workbook exactly). Loans: Britain's cancelled annuities written off in "
                            f"1932 (new Endgame sheet). Events {ids[0]}-{ids[-1]}: the loan of 1871 to British Columbia; Tokyo Dento's "
                            "share of the Tokyo station; the Fanning buyout; memos for the prairie wheat contract, the private refunding "
-                           "of the dominion's bonds and the private stabilization credits. Drafts, not canon. MODEL.")
+                           "of the dominion's bonds and the private stabilization credits (Britain and Germany). Approved 24 November 2026; "
+                           "rebuilt on main the same day with Japan's rescue instalments and the mined total as memos. MODEL.")
     for c_ in range(1, 4):
         Ch.cell(n, c_)._style = copy.copy(Ch.cell(n - 1, c_)._style)
     if off:

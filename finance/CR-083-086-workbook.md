@@ -4,7 +4,7 @@
 
 **Rebuilt twice on 24 November 2026:** first with the drafter's proposed sizes, then with the author's of 00:12 (the split of 2, 4 and 11 and the contract at 1.0 million tonnes). This note gives the second.
 
-**Status:** the four CRs are drafts on branch `drafts/cr083-086-endgame` and are not canon. These model changes live on that branch with them and go to `main` only with the CRs. Every amount is MODEL. Where a draft leaves a band OPEN, the size used here is the drafter's proposal and is marked so.
+**Status:** the four CRs were approved on 24 November 2026 (13:08) and merged to `main` (pull request 88). The models were rebuilt on `main` the same day on the author's word of 14:56 ("Please proceed to rebuild the workbooks"); what that rebuild changed is in the last section. Every amount is MODEL. Where a CR leaves a band OPEN, the size used here is the drafter's proposal and is marked so.
 
 Three things changed:
 1. **The provisioning model** (`population/provisioning.py`, `population/data/provisioning.toml`): the northern water is withdrawn, and the prairie wheat contract is sized.
@@ -46,9 +46,9 @@ Findings for the drafts:
 | E260 | 1932 | Purchase | $0.4m | $0.6m | Fanning and Washington: the plantation buyout (`CR-084` `B4`; no source) |
 | E261 | 1932 | Commitment (memo) | $18m | $21.6m | The prairie wheat contract's first harvest, bought by the Patrimony's board: 1.0 million tonnes at $18 (`CR-083` `A11`; Stress 1.2 million) |
 | E262 | 1932 | Commitment (memo) | $90m | $120m | The dominion's gold-dollar bonds refunded by private syndicates (`CR-083` `A10`; recalled, to verify) |
-| E263 | 1932 | Commitment (memo) | $300m | $400m | Private stabilization credits to Britain, Germany and France (`CR-086` `B1`; no source) |
+| E263 | 1932 | Commitment (memo) | $300m | $400m | Private stabilization credits to Britain and Germany; France sits on gold and asks for none (`CR-086` `B1`, `B3`; no source) |
 
-The Budget, Loans and money sheets do not read the Commitment category, so the three memos move no Treasury cash and no gold. The Events column "Story status" reads Draft for all six.
+The Budget, Loans and money sheets do not read the Commitment category, so the three memos move no Treasury cash and no gold. The Events column "Story status" reads Approved for all six since the rebuild on `main`.
 
 ## Results
 
@@ -91,3 +91,30 @@ python3 finance/build/cr057_rebuild_pair.py WORKDIR --recalc PATH_TO_recalc.py
 python3 population/provisioning.py
 python3 -m pytest -q population/tests
 ```
+
+## Rebuilt on main, 24 November 2026
+
+**Authorization:** the author, 24 November 2026, 14:56 ("Please proceed to rebuild the workbooks").
+
+The chain was run again from the CR-050 base with the energy workbook. Story: no failed checks; Stress: 51, as before. The energy outputs did not move (fixed point on the first pass), and no figure in the tables above changed. LibreOffice recalculation: 83,779 formulas, no errors in either case.
+
+What changed:
+
+- **Financial workbook.** The six Events rows E258–E263 read Approved. E263 names Britain and Germany only. The Endgame sheet gains three memos:
+  - uranium mined to 1932 on the Atomic sheet, 5,804 t, beside CR-086's "6,000 to 6,200 t" with Great Bear, Urgeiriça and Radium Hill, which stays OPEN;
+  - Japan's rescue of 1927: the Treasury's participation of $166m is repaid in five instalments of $33m, 1929 to 1933;
+  - a reset of 20% makes the two instalments still due cost Japan about $17m more, counted at the old parity (Story). In Stress the participation is nil, so the memo is nil.
+- **Provisioning model** (`population/provisioning.py`, `population/data/provisioning.toml`, report section 5):
+  - Japan's home crop after `CR-085` `D1`: 52.6, 62.1 and 68.2 million koku in 1910, 1920 and 1932, which is 5%, 8% and 13% above our timeline's 50.1, 57.5 and 60.3. Against canon's need the gap is nil in 1910 and 1920 and 0.2 million koku (0.3%) in 1932. The storyline's 68.1 is the CR's own rounding.
+  - Hokkaido's crop is entered as the CR's band (1.5–1.8, 2.5–3.0 and 3.5–4.0 million koku). How much of it is above our timeline's Hokkaido crop stays OPEN, because that series is not entered.
+  - Caledonia's own people in 1932 (`CR-083` Part E): 0.84 million (0.77 to 0.91), about 0.14 million of them on the Island. This is our timeline's census of 1931 for British Columbia and the Yukon (0.70 million) raised by a fifth. **The uplift is the drafter's proposal and is PROPOSED until the author sets it.** The Realm's count is unchanged.
+  - Tests: 31 pass.
+- **Energy workbook.** No input changed. One reading for `CR-084` `B3.4`: the Gulf crude the model brings home is 285, 266 and 247 million barrels in 1929–31 and 212 million in 1932, which is 80% of the three-year average. The trust's undertaking to the Gulf names "a stated share" of that average and no figure. A share above about four-fifths would already bind in 1932 as the model stands; the share stays OPEN.
+
+Still not done, and why:
+
+- **No figure in the approved CRs:** the fleet saving from Sembawang's halt; New Zealand's part of the £2,113,000; the Indies treasury bond; the Guaymas port bonds; China's reserve compact; Belgium's higher royalty; Seria's offtake, East Borneo's crude and Bintan's bauxite (the last delivers after 1935, outside the book). Each needs a size from the author or a source before it is entered.
+- **The Atomic sheet's sources** (Great Bear, Urgeiriça, Radium Hill, monazite) are still a memo: entering them means reopening `cr049_atomic_programme.py` and `cr050_atomic_retiming.py`, and Great Bear's tonnage is OPEN.
+- **The Kansai station** breaks no ground before May 1933, after the book's last year. **The Tokyo station's fuel** is already in the Atomic sheet's energy use.
+- **Article II's mouths** (`CR-086` `D6`) and the Pampas volumes: the article feeds no one in the Realm and the schedule's volumes are not in canon.
+- **Japan's own nitrogen plants and the Bank of Japan's ceiling** are Japan's books; neither workbook models Japan's home economy.
