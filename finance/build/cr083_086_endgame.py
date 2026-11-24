@@ -88,6 +88,32 @@ LEVERS = [
      "CR-086 B1 (MODEL, no source)", "Private San Francisco syndicates; the Bank discounts, the Treasury does not borrow. France sits on gold and asks for no credit (CR-086 B3). Memo: if it is entered as Private lending the gold and money tests must be read again."),
     ("eg_gulf_floor", "The oil trust's undertaking to the Gulf, 1932-37: floor as a share of its 1929-31 liftings", 0.75, 0.75, "share",
      "Author, 24 Nov 2026, 15:56 (\"I approve three-quarters.\")", "CR-084 B3.4. Checked on the Endgame sheet against the energy workbook's Gulf crude."),
+    ("eg_gbr_scale", "Great Bear: output against the central profile (295 t U to 1932)", 1, 0.68, "multiple",
+     "Author, 24 Nov 2026, 16:26; CR-086 A (band 200-350 t)", "Central profile 5, 10, 15 and 25 t U a year from 1913, 1917, 1922 and 1927: summer barges. Stress is the band's low end."),
+    ("eg_gbr_cost", "Uranium cost, Great Bear (1913 $/kg U)", 8.5, 11.0, "$/kg",
+     "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "Rich vein ore with silver, four legs of river and portage freight: between Fergana (8) and Joachimsthal (9)."),
+    ("eg_sweep_cost", "Uranium cost, Urgeirica's dumps and Radium Hill, 1926-27 (1913 $/kg U)", 10.0, 12.0, "$/kg",
+     "Story assumption (MODEL, no source)", "About 25 t U bought as dumps, ore and stock (CR-086 A)."),
+    ("eg_be_rate", "Belgium's royalty at Shinkolobwe from 1929 (1913 $/kg U; floor $0.6m a year)", 5.0, 6.0, "$/kg",
+     "Author, 24 Nov 2026, 16:26 (MODEL)", "CR-086 A: the revision of 1928-29. The flat $0.6m had fallen from $4.00 to $2.40 a kg when output rose in 1927."),
+    ("eg_be_radium", "Belgium's larger free allowance of radium salt, 1929-32 (1913 $m a year)", 0.10, 0.15, "$m",
+     "Author, 24 Nov 2026, 16:26 (MODEL)", "Taken off the Atomic sheet's radium and source trade."),
+    ("eg_indies", "Indies treasury bond, autumn 1932: the tranche placed in San Francisco ($m)", 20, 30, "$m",
+     "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-084 C1. Private placement, no guarantee by the Realm or the Concord. Sized against the Indies' dollar issues of 1922-23 (recalled, to verify)."),
+    ("eg_guaymas", "Guaymas port bonds placed in San Francisco, 1932 ($m)", 5, 8, "$m",
+     "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-086 E2. A third of the Huludao Harbour Trust (CR-042): wharves and dredging in a sheltered bay with a railway."),
+    ("eg_cn_res", "China's reserve compact of 1932: the balance that moves under it ($m)", 25, 40, "$m",
+     "Author, 24 Nov 2026, 16:26 (MODEL, by analogy)", "CR-086 B6. Not a new balance: the Money sheet already counts $100m in 1932 for Korea, the Gulf and China's reserve banks, and this is the part that moves under China's own compact. China's interior stays on silver."),
+    ("eg_sg_capital", "Singapore: naval works not built after the halt (GBP m; Britain's money)", 5.0, 6.0, "GBP m",
+     "Author, 24 Nov 2026, 16:26 (MODEL)", "About GBP 3.4m spent to February 1933 without the floating dock (Hansard, 15 February 1933). The whole estimate of GBP 7.75m to 8.7m is recalled and to verify."),
+    ("eg_sg_upkeep", "Singapore: yearly upkeep of a capital-ship dockyard avoided (GBP m a year)", 0.4, 0.5, "GBP m",
+     "Author, 24 Nov 2026, 16:26 (MODEL, no source)", "No hull is paid off: the ships go elsewhere."),
+    ("eg_fx", "Sterling in 1932 ($ a pound)", 3.5, 3.5, "$",
+     "Floating pound of 1932 (recalled)", "Par before September 1931 was 4.8665."),
+    ("eg_nz_paid", "New Zealand's Singapore instalments paid to March 1932, credited by London (GBP m)", 0.60, 0.60, "GBP m",
+     "Author, 24 Nov 2026, 16:26; Papers Past and Hansard", "GBP 125,000 a year from 1927-28, cut to GBP 100,000 in 1931: four at 125,000 and one at 100,000."),
+    ("eg_seria", "Seria: the oil trust's offtake from Shell in 1932 (m bbl)", 0.5, 0.3, "m bbl",
+     "Author, 24 Nov 2026, 16:26 (MODEL)", "Output began in the first quarter of 1932; exports were 371,591 t in 1934. Sold in Asia in place of Gulf crude; East Borneo's new blocks give nothing before 1935."),
     ("eg_yen", "Yen reset against the gold dollar", 0.2, 0.25, "share",
      "CR-085 A7 (MODEL)", "Inside the band of 20-25%."),
 ]
@@ -105,7 +131,18 @@ ROWS = [
      None, "Caledonia", "=eg_on*eg_bc_debt", "No", "Approved", "§37 (CR-083 A10)", "Bonds San Francisco already holds; no Treasury share, no Development Fund lending abroad"),
     (1932, 1932, "Private stabilization credits under the monetary settlement (CR-086; memo)", "Commitment",
      None, "Britain & Germany", "=eg_on*eg_stab", "No", "Approved", "§37 (CR-086 B1)", "Private syndicates; not the Treasury's"),
+    (1932, 1932, "Indies treasury bond, the San Francisco tranche (CR-084; memo, private placement)", "Commitment",
+     None, "Netherlands Indies", "=eg_on*eg_indies", "No", "Approved", "§37 (CR-084 C1)", "After the States General approve the Batavia Compact; no guarantee"),
+    (1932, 1932, "Guaymas port bonds placed in San Francisco (CR-086; memo, private)", "Commitment",
+     None, "Mexico", "=eg_on*eg_guaymas", "No", "Approved", "§37 (CR-086 E2)", "Secured on port dues under Mexico's charter; a third of Huludao (CR-042)"),
 ]
+
+# Yearly series on the Endgame sheet, rows aligned with the Atomic sheet (row 6 = 1846, row 92 = 1932).
+def _gbr(y: int) -> float:
+    return 25 if y >= 1927 else 15 if y >= 1922 else 10 if y >= 1917 else 5 if y >= 1913 else 0
+
+
+SWEEP = {1926: 15, 1927: 10}
 
 
 def gulf_crude() -> dict:
@@ -166,11 +203,11 @@ def build_sheet(wb) -> None:
         ("Yen reset: Japan's gold-dollar quota costs this much more in yen", "=1/(1-eg_yen)-1"),                       # 22
         ("Japan's quota of the common budget ($m a year; Events E85 gives Pacifica's)", "=10*(1-pac_quota)"),          # 23
         (None, None),
-        ("Memo, not in the Atomic sheet (CR-086 Part A): Great Bear ore to 1932, t U", "200 to 350"),
-        ("Memo: Urgeirica dumps and Radium Hill purchase, t U", "small; OPEN"),
+        ("Great Bear, Urgeirica and Radium Hill are on the Atomic sheet since 24 November 2026: rows 57 to 61 below", None),
+        ("(row kept so that the cells below do not move)", None),
         ("Memo: prairie wheat contract over ten harvests ($m)", "=eg_wheat_t*eg_wheat_usd*10/1000000"),
-        ("Memo: uranium mined to 1932 on the Atomic sheet, t U (canon: about 5,800)", "=SUM(Atomic!B6:F92)"),
-        ("Memo: with Great Bear, Urgeirica and Radium Hill (CR-086 A; OPEN until the Atomic sheet carries them), t U", "6,000 to 6,200"),
+        ("Memo: uranium mined to 1932 without Great Bear, Urgeirica and Radium Hill, t U (canon before CR-086: about 5,800)", "=SUM(Atomic!B6:F92)"),
+        ("Memo: with them, t U (CR-086 A's band was 6,000 to 6,200)", "=Atomic!G94"),
         (None, None),
         ("Japan's rescue of 1927: the Treasury's participation ($m; sheet Japan rescue)", "='Japan rescue'!D11"),
         ("One of five instalments, 1929 to 1933 ($m a year)", "=B31/5"),
@@ -183,17 +220,50 @@ def build_sheet(wb) -> None:
         ("The undertaking's floor (eg_gulf_floor)", "=eg_gulf_floor"),                                                       # 41
         ("Does the floor hold in 1932? (memo; not counted in Problems)", '=IF(B40>=B41,"OK","Check")'),                      # 42
         ("Room above the floor in 1932 (m bbl)", "=B39-B41*AVERAGE(B36:B38)"),                                               # 43
+        ("Seria: the trust's offtake in 1932, sold in Asia in place of Gulf crude (m bbl)", "=eg_on*eg_seria"),              # 44
+        ("Room above the floor after Seria (m bbl); East Borneo's new blocks give nothing in 1932", "=B43-B44"),             # 45
+        (None, None),
+        ("Singapore, Britain's money: naval works not built after the halt (GBP m)", "=eg_sg_capital"),                      # 47
+        ("... in $m at the pound of 1932", "=B47*eg_fx"),                                                                    # 48
+        ("... yearly upkeep of a capital-ship dockyard avoided (GBP m a year); no hull paid off", "=eg_sg_upkeep"),          # 49
+        ("New Zealand: instalments paid to March 1932, credited by London (GBP m)", "=eg_nz_paid"),                          # 50
+        ("New Zealand: the rest of its GBP 1.0m pledge, not called (GBP m)", "=1-eg_nz_paid"),                               # 51
+        (None, None),
+        ("China's reserve compact of 1932: the balance in San Francisco that moves under it ($m)", "=eg_on*eg_cn_res"),      # 53
+        ("... is part of the balances Money already counts for Korea, the Gulf and China's reserve banks ($m, 1932)", "=Money!G92"),  # 54
+        ("... so the compact asks no new gold; the half cover already held against its part ($m)", "=B53/2"),               # 55
+        (None, None),
+        ("Great Bear ore to 1932 (t U; columns D to I, entered on Atomic)", "=eg_on*SUM(E6:E92)"),                           # 57
+        ("Urgeirica's dumps and Radium Hill, 1926-27 (t U)", "=eg_on*SUM(F6:F92)"),                                          # 58
+        ("Uranium mined to 1932, all sources (t U; Atomic)", "=Atomic!G94"),                                                 # 59
+        ("Belgium's higher royalty, 1929-32 (1913 $m, total)", "=eg_on*SUM(H6:H92)"),                                        # 60
+        ("Great Bear: mining, freight and Canada's royalty, 1913-32 (1913 $m, total)",
+         "=eg_on*(SUM(E6:E92)*eg_gbr_cost/1000+SUM(G6:G92))"),                                                               # 61
     ]
     for i, (lab, f) in enumerate(rows, start=4):
         if lab is None:
             continue
         S.cell(i, 1).value = lab
         S.cell(i, 2).value = f
+    # yearly series, rows as on Atomic
+    for c_, h in zip("DEFGHI", ("Year", "Great Bear, t U", "Urgeirica and Radium Hill, t U", "Great Bear: Canada's royalty (1913 $m)",
+                                "Belgium: royalty above the flat $0.6m (1913 $m)", "Belgium: free radium salt (1913 $m)")):
+        S[f"{c_}5"] = h
+    for r in range(6, 93):
+        y = 1840 + r
+        S[f"D{r}"] = y
+        S[f"E{r}"] = f"={_gbr(y)}*eg_gbr_scale" if _gbr(y) else 0
+        S[f"F{r}"] = SWEEP.get(y, 0)
+        S[f"G{r}"] = 0.10 if y >= 1927 else 0.05 if y >= 1913 else 0
+        S[f"H{r}"] = f"=MAX(0,Atomic!E{r}*eg_be_rate/1000-0.6)" if y >= 1929 else 0
+        S[f"I{r}"] = "=eg_be_radium" if y >= 1929 else 0
+    for c_ in "DEFGHI":
+        S.column_dimensions[c_].width = 16
     S.column_dimensions["A"].width = 86
     S.column_dimensions["B"].width = 18
     for r in (7, 8, 9, 10, 12, 17, 22, 40, 41):
         S.cell(r, 2).number_format = "0.0%"
-    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 31, 32, 33, 36, 37, 38, 39, 43):
+    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 29, 31, 32, 33, 36, 37, 38, 39, 43, 44, 45, 47, 48, 49, 50, 51, 53, 54, 55, 57, 58, 59, 60, 61):
         S.cell(r, 2).number_format = "0.0"
 
 
@@ -203,6 +273,21 @@ def write_off(wb) -> None:
     if not (isinstance(f, str) and f.startswith("=IF($A92=1918")):
         raise SystemExit(f"Loans!N92 is not the expected write-off formula: {f!r}")
     L["N92"].value = f + "+Endgame!$B$14"
+
+
+def atomic(wb) -> None:
+    """Great Bear, the sweep of 1926-27 and Belgium's revision, entered on the Atomic sheet through eg_on."""
+    A = wb["Atomic"]
+    if A["G5"].value != "Total mined" or A["M5"].value != "Contracts, concessions, shares" or A["T5"].value != "Radium and source trade":
+        raise SystemExit("Atomic sheet: columns G, M, T are not where this step expects them")
+    for r in range(73, 93):  # 1913-1932
+        g, l_, m_, t = (A[f"{c_}{r}"].value for c_ in "GLMT")
+        if g != f"=SUM(B{r}:F{r})" or not str(l_).startswith("=(B") or not isinstance(m_, (int, float)) or not isinstance(t, (int, float)):
+            raise SystemExit(f"Atomic row {r} is not as expected")
+        A[f"G{r}"].value = f"{g}+eg_on*(Endgame!E{r}+Endgame!F{r})"
+        A[f"L{r}"].value = f"{l_}+eg_on*(Endgame!E{r}*eg_gbr_cost+Endgame!F{r}*eg_sweep_cost)/1000"
+        A[f"M{r}"].value = f"={m_}+eg_on*(Endgame!G{r}+Endgame!H{r})"
+        A[f"T{r}"].value = f"={t}-eg_on*Endgame!I{r}"
 
 
 def log(wb, ids: list[str], off: bool) -> None:
@@ -215,7 +300,10 @@ def log(wb, ids: list[str], off: bool) -> None:
                            "share of the Tokyo station; the Fanning buyout; memos for the prairie wheat contract, the private refunding "
                            "of the dominion's bonds and the private stabilization credits (Britain and Germany). Approved 24 November 2026; "
                            "rebuilt on main the same day with Japan's rescue instalments and the mined total as memos, and the Gulf "
-                           "undertaking's floor of three-quarters (author, 15:56) checked against the energy workbook. MODEL.")
+                           "undertaking's floor of three-quarters (author, 15:56) checked against the energy workbook. Author, 16:26: "
+                           "Great Bear (295 t U), Urgeirica and Radium Hill (25 t U) and Belgium's revision of 1929 entered on the "
+                           "Atomic sheet; memo rows for the Indies bond and the Guaymas port bonds; memos for Singapore, New "
+                           "Zealand, China's reserve compact and Seria's offtake. MODEL.")
     for c_ in range(1, 4):
         Ch.cell(n, c_)._style = copy.copy(Ch.cell(n - 1, c_)._style)
     if off:
@@ -240,6 +328,7 @@ def main() -> None:
     ids = add_rows(wb)
     build_sheet(wb)
     write_off(wb)
+    atomic(wb)
     log(wb, ids, a.off)
     wb.save(a.dst)
     print(f"wrote {a.dst}: {len(LEVERS) - 1} levers, Events {ids[0]}-{ids[-1]}, sheet Endgame")

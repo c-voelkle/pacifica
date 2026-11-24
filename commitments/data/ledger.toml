@@ -5096,9 +5096,9 @@ more_quotes = [
   "The contract has no stated term until 1932, when the Trilateral Treaty of Thalassia gives it fifty years and a higher royalty to Canada",
   "The Works' exclusive contract at Great Bear Lake, which had no stated term, is given one of fifty years from 1932, with a higher royalty to Canada",
   "The company is the Mackenzie Radium and Silver Company, and its ore goes out by river barge in the summer.",
-  "The count leaves out Great Bear, put at 200 to 350 tonnes of uranium to 1932",
+  "295 from Great Bear from 1913",
 ]
-open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated. CR-083: no term until C-1932-TRILATERAL-THALASSIA gives it fifty years from 1932 (to 1982); the new royalty's rate is OPEN. The year (about 1912) is PROPOSED. CR-086: the company's name (the Mackenzie Radium and Silver Company) and the summer barge route are PROPOSED; its tonnage to 1932 (200 to 350 tonnes, a placeholder) and the railhead it used in the 1910s are OPEN."
+open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated. CR-083: no term until C-1932-TRILATERAL-THALASSIA gives it fifty years from 1932 (to 1982); the new royalty's rate is OPEN. The year (about 1912) is PROPOSED. CR-086: the company's name (the Mackenzie Radium and Silver Company) and the summer barge route are PROPOSED; its ore to 1932 is 295 tonnes of uranium (MODEL; author, 24 November 2026) and the railhead it used in the 1910s is OPEN."
 until = 1982
 
 [[commitment]]

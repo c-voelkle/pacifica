@@ -111,10 +111,52 @@ What changed:
   - Tests: 31 pass.
 - **Energy workbook.** No input changed. One reading for `CR-084` `B3.4`: the Gulf crude the model brings home is 285, 266 and 247 million barrels in 1929–31 and 212 million in 1932, which is 80% of the three-year average. The trust's undertaking to the Gulf names "a stated share" of that average and no figure. A share above about four-fifths would already bind in 1932 as the model stands. **The author set the share at three-quarters on 24 November 2026, 15:56 ("I approve three-quarters.").** It is the lever `eg_gulf_floor` in the financial workbook, and the Endgame sheet checks it against the energy workbook's Gulf crude, read when the workbook is built: the floor is 199 million barrels, the liftings of 1932 stand 12 million above it, and the check reads OK. In Stress the energy workbook gives the same ratio, 80%. The series is the Gulf crude the trust can bring home after its Asian sales, used as a stand-in for its whole liftings.
 
+## The sizes entered on 24 November 2026, 16:26
+
+**Authorization:** the author, 24 November 2026, 16:26 ("Sounds perfect. Please go ahead and enter it."), to a table of sizes proposed by another assistant and corrected by the drafter against sources. Every size is MODEL. The chain was rebuilt: Story no failed checks, Stress 51; the energy outputs settled on the second pass (largest move on the first, 0.1%). LibreOffice: 83,883 formulas, no errors in either case.
+
+| Item | Story | Stress | Where | Treasury cash |
+| --- | --- | --- | --- | --- |
+| Great Bear's ore, 1913–32 | 295 t U (5, 10, 15 and 25 t a year from 1913, 1917, 1922 and 1927) at $8.50 a kg | 201 t at $11 | Atomic, through the Endgame sheet's columns D to I | yes |
+| Canada's royalty on it | $0.05m a year, $0.10m from 1927 (1913 $) | the same | Atomic, contracts | yes |
+| Urgeiriça's dumps and Radium Hill | 15 t in 1926, 10 t in 1927, at $10 a kg | at $12 | Atomic | yes |
+| Belgium's revision of 1929 | $5 a kg at Shinkolobwe with the old $0.6m as a floor: $0.65m a year more in 1929–31, nothing more in 1932; $0.10m a year of free radium salt | $6 a kg; $0.15m | Atomic, contracts and radium trade | yes |
+| The Indies bond, San Francisco tranche | $20m | $30m | Events E264, memo | no |
+| The Guaymas port bonds | $5m | $8m | Events E265, memo | no |
+| China's reserve compact | $25m | $40m | Endgame memo | no |
+| Singapore: naval works not built | £5.0m ($17.5m at $3.50) and £0.4m a year of upkeep | £6.0m; £0.5m | Endgame memo | no: Britain's |
+| New Zealand | £0.60m paid and credited, £0.40m not called | the same | Endgame memo | no: Britain's and New Zealand's |
+| Seria's offtake, 1932 | 0.5 million barrels | 0.3 | Endgame memo; energy workbook's Events list | no |
+
+Results (Story):
+
+- **Uranium mined to 1932: 6,124 t** (was 5,804). **In reserve at the end of 1932: 4,939 t** (was 4,619), four fifths of the whole. The storyline now says about 6,100 and about 4,900.
+- **The atomic programme's net cost to the Treasury, 1846–1932: $1,010m** in current dollars (was $1,005m). Great Bear costs $3.8m in 1913 dollars over twenty years and Belgium's revision $1.95m more in royalty over 1929–31.
+- Monetary gold in 1932 is unchanged at $1,539m.
+- **The Gulf floor still holds** with Seria's offtake counted against it: 11.6 million barrels of room in 1932.
+
+Three things differ from the proposal as it arrived:
+
+- **China's reserve compact is not a new balance.** The Money sheet already counts $100m in 1932 for "Korea, the Gulf, China's reserve banks". The $25m is the part of that which moves under China's own compact, so it asks no new gold of the Reserve Bank.
+- **Seria is half the proposed size.** The proposal took Seria's exports as about 645,000 t in 1934 and 813,500 t in 1935; the Brunei figures printed in a directory of the time are 371,591 t and 441,744 t, and output began only in the first quarter of 1932.
+- **The Malay States had paid £1.2m by December 1929, not £1.6m** (Hansard, 18 December 1929); the £2,113,000 that `CR-084` quotes is the total expected by the end of that financial year. New Zealand's instalment was cut from £125,000 to £100,000 in 1931, which gives about £0.60m paid by March 1932.
+
+Sources fetched on 24 November 2026:
+- Hansard, 13 November 1929 (the £2,113,000): https://api.parliament.uk/historic-hansard/commons/1929/nov/13/singapore-base
+- Hansard, 18 December 1929 (the three contributions to date): https://api.parliament.uk/historic-hansard/commons/1929/dec/18/singapore-base
+- Hansard, 15 February 1933 (about £3,438,000 spent without the floating dock; £2,122,000 contributed): https://api.parliament.uk/historic-hansard/written-answers/1933/feb/15/singapore-base
+- Hansard, 26 July 1939 (expenditure and contributions by year to 1929): https://api.parliament.uk/historic-hansard/written-answers/1939/jul/26/singapore-base
+- New Zealand Herald, 22 September 1927 (£1,000,000 in eight instalments of £125,000): https://paperspast.natlib.govt.nz/newspapers/NZH19270922.2.132
+- Papers Past, 20 May 1932 (the instalment reduced to £100,000): https://paperspast.natlib.govt.nz/newspapers/WC19320520.2.49
+- Brunei in the Directory and Chronicle (production from the first quarter of 1932; exports of 1934 and 1935): https://hkintexts.histsyn.com/page/1126605 and https://hkintexts.histsyn.com/page/1134012
+
+Not verified, and marked so on the levers: the whole estimate for the Singapore base (£7.75m to £8.7m), on which the £5m rests; the Indies' dollar issues of 1922–23; Eldorado's output in the 1930s; the Kemmerer commission's cover rule; the pound at $3.50. The Guaymas and China sizes are analogies to figures inside the workbook, with no outside source.
+
 Still not done, and why:
 
-- **No figure in the approved CRs:** the fleet saving from Sembawang's halt; New Zealand's part of the £2,113,000; the Indies treasury bond; the Guaymas port bonds; China's reserve compact; Belgium's higher royalty; Seria's offtake, East Borneo's crude and Bintan's bauxite (the last delivers after 1935, outside the book). Each needs a size from the author or a source before it is entered.
-- **The Atomic sheet's sources** (Great Bear, Urgeiriça, Radium Hill, monazite) are still a memo: entering them means reopening `cr049_atomic_programme.py` and `cr050_atomic_retiming.py`, and Great Bear's tonnage is OPEN.
+- **Entered since** (see the section above): the Singapore saving, New Zealand, the Indies bond, the Guaymas bonds, China's reserve compact, Belgium's royalty, Seria's offtake, and Great Bear, Urgeiriça and Radium Hill on the Atomic sheet.
+- **After the book's last year:** East Borneo's crude and Bintan's bauxite deliver after 1935. **The monazite stock** has no tonnage in canon.
+- **Seria's offtake is a memo.** It is sold in Asia and does not enter the home fuel balance; half a million barrels is a thousandth of the year's refinery runs.
 - **The Kansai station** breaks no ground before May 1933, after the book's last year. **The Tokyo station's fuel** is already in the Atomic sheet's energy use.
 - **Article II's mouths** (`CR-086` `D6`) and the Pampas volumes: the article feeds no one in the Realm and the schedule's volumes are not in canon.
 - **Japan's own nitrogen plants and the Bank of Japan's ceiling** are Japan's books; neither workbook models Japan's home economy.
