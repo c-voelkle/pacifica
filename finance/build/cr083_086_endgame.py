@@ -86,6 +86,8 @@ LEVERS = [
      "CR-085 C1 (MODEL)", "The Works supplies the nuclear island and core on a 20-year lease."),
     ("eg_stab", "Private stabilization credits to Britain and Germany, 1932 ($m)", 300, 400, "$m",
      "CR-086 B1 (MODEL, no source)", "Private San Francisco syndicates; the Bank discounts, the Treasury does not borrow. France sits on gold and asks for no credit (CR-086 B3). Memo: if it is entered as Private lending the gold and money tests must be read again."),
+    ("eg_gulf_floor", "The oil trust's undertaking to the Gulf, 1932-37: floor as a share of its 1929-31 liftings", 0.75, 0.75, "share",
+     "Author, 24 Nov 2026, 15:56 (\"I approve three-quarters.\")", "CR-084 B3.4. Checked on the Endgame sheet against the energy workbook's Gulf crude."),
     ("eg_yen", "Yen reset against the gold dollar", 0.2, 0.25, "share",
      "CR-085 A7 (MODEL)", "Inside the band of 20-25%."),
 ]
@@ -104,6 +106,26 @@ ROWS = [
     (1932, 1932, "Private stabilization credits under the monetary settlement (CR-086; memo)", "Commitment",
      None, "Britain & Germany", "=eg_on*eg_stab", "No", "Approved", "§37 (CR-086 B1)", "Private syndicates; not the Treasury's"),
 ]
+
+
+def gulf_crude() -> dict:
+    """Gulf crude that can come home, 1929-32, from the energy workbook's cached values (Fuels, column F)."""
+    p = Path(__file__).resolve().parents[2] / "energy" / "Pacifica_energy_model_1846-1932.xlsx"
+    S = openpyxl.load_workbook(p, data_only=True)["Fuels"]
+    if S["F5"].value != "Gulf crude that can come home (m bbl)":
+        raise SystemExit(f"energy workbook: Fuels!F5 is not the Gulf crude column: {S['F5'].value!r}")
+    out = {}
+    for r in range(6, S.max_row + 1):
+        y = S.cell(r, 1).value
+        if y in (1929, 1930, 1931, 1932):
+            v = S.cell(r, 6).value
+            if not isinstance(v, (int, float)):
+                raise SystemExit("energy workbook has no cached values; recalculate it first")
+            out[y] = round(float(v), 1)
+    return out
+
+
+GULF = gulf_crude()
 
 
 def add_rows(wb) -> list[str]:
@@ -154,6 +176,13 @@ def build_sheet(wb) -> None:
         ("One of five instalments, 1929 to 1933 ($m a year)", "=B31/5"),
         ("Instalments still due after the reset (1932 and 1933): extra cost to Japan in yen, as $m at the old parity", "=2*B32*B22"),
         ("Memo: the Bank of Japan's ceiling and the banks' own repayments are Japan's books, not this workbook's", None),
+        (None, None),
+        ("Gulf crude the trust brings home, 1929 (m bbl; energy workbook, Fuels, Story case, read at build)", GULF[1929]),   # 36
+        ("... 1930", GULF[1930]), ("... 1931", GULF[1931]), ("... 1932", GULF[1932]),                                          # 37-39
+        ("1932 as a share of the average of 1929-31", "=B39/AVERAGE(B36:B38)"),                                              # 40
+        ("The undertaking's floor (eg_gulf_floor)", "=eg_gulf_floor"),                                                       # 41
+        ("Does the floor hold in 1932? (memo; not counted in Problems)", '=IF(B40>=B41,"OK","Check")'),                      # 42
+        ("Room above the floor in 1932 (m bbl)", "=B39-B41*AVERAGE(B36:B38)"),                                               # 43
     ]
     for i, (lab, f) in enumerate(rows, start=4):
         if lab is None:
@@ -162,9 +191,9 @@ def build_sheet(wb) -> None:
         S.cell(i, 2).value = f
     S.column_dimensions["A"].width = 86
     S.column_dimensions["B"].width = 18
-    for r in (7, 8, 9, 10, 12, 17, 22):
+    for r in (7, 8, 9, 10, 12, 17, 22, 40, 41):
         S.cell(r, 2).number_format = "0.0%"
-    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 31, 32, 33):
+    for r in (4, 6, 13, 14, 18, 19, 20, 23, 28, 31, 32, 33, 36, 37, 38, 39, 43):
         S.cell(r, 2).number_format = "0.0"
 
 
@@ -185,7 +214,8 @@ def log(wb, ids: list[str], off: bool) -> None:
                            f"1932 (new Endgame sheet). Events {ids[0]}-{ids[-1]}: the loan of 1871 to British Columbia; Tokyo Dento's "
                            "share of the Tokyo station; the Fanning buyout; memos for the prairie wheat contract, the private refunding "
                            "of the dominion's bonds and the private stabilization credits (Britain and Germany). Approved 24 November 2026; "
-                           "rebuilt on main the same day with Japan's rescue instalments and the mined total as memos. MODEL.")
+                           "rebuilt on main the same day with Japan's rescue instalments and the mined total as memos, and the Gulf "
+                           "undertaking's floor of three-quarters (author, 15:56) checked against the energy workbook. MODEL.")
     for c_ in range(1, 4):
         Ch.cell(n, c_)._style = copy.copy(Ch.cell(n - 1, c_)._style)
     if off:

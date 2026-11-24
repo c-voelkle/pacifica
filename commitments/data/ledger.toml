@@ -4159,7 +4159,7 @@ parties = ["GULF", "PAC"]
 from = 1932
 owes = [
   { by = "PAC", to = "GULF", what = "help to support prices, without admitting the Republic; a floor under the price rather than cut output" },
-  { by = "PAC", to = "GULF", what = "PROPOSED (CR-084): for five years, 1932 to 1937, the oil trust's liftings of Gulf crude do not fall below a stated share of its average of 1929–31, at posted prices never below the compact's floor and inside the fifty-five percent ceiling; countersigned by the Realm with two-thirds of the Senate" },
+  { by = "PAC", to = "GULF", what = "PROPOSED (CR-084): for five years, 1932 to 1937, the oil trust's liftings of Gulf crude do not fall below three-quarters of its average of 1929–31 (the share approved by the author, 24 November 2026), at posted prices never below the compact's floor and inside the fifty-five percent ceiling; countersigned by the Realm with two-thirds of the Senate" },
 ]
 renewals = [1937]
 status = "CANON"
@@ -4167,11 +4167,11 @@ section = 34
 quote = "The Gulf's oil compact arrives in 1932, after a year of ten-cent East Texas oil and the 1931 break in its general-measures streak."
 more_quotes = [
   "Pacifica helps support prices without admitting the Republic.",
-  "In the compact the Republic also wins an undertaking from Pacifica's oil trust, countersigned by the Realm: for five years, to 1937, the trust's liftings of Gulf crude do not fall below a stated share of its average of 1929–31.",
+  "In the compact the Republic also wins an undertaking from Pacifica's oil trust, countersigned by the Realm: for five years, to 1937, the trust's liftings of Gulf crude do not fall below **[APPROVED — CR-084]** three-quarters **[PROPOSED — CR-084]** of its average of 1929–31.",
   "The Realm countersigns with the Senate's two-thirds, and the Navy's fuel contract stands behind the undertaking.",
   "The undertaking the Republic wins from the trust in 1932, a floor under its liftings of Gulf crude for five years, is written inside this ceiling.",
 ]
-open = "Floor price and term of the compact not stated in the storyline (the workbooks use $0.95 a barrel). The five-year undertaking is PROPOSED and its share OPEN (energy workbook, `compact_on`/`compact_cut`); `renewals` marks its end in 1937."
+open = "Floor price and term of the compact not stated in the storyline (the workbooks use $0.95 a barrel). The five-year undertaking is PROPOSED; its share, three-quarters, is the author's of 24 November 2026 and sits just under the liftings of 1932 in the energy workbook (80% of the 1929–31 average, MODEL); `renewals` marks its end in 1937."
 
 [[commitment]]
 id = "C-1932-CONCORD-RENEWAL"
