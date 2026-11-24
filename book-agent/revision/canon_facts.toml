@@ -1027,14 +1027,14 @@ source = "CR-070"
 [[event]]
 id = "bc-telegraph-sold-to-canada"
 year = 1897
-patterns = ['''in the spring of \*{0,2}(?P<year>1[89]\d\d)\*{0,2}, when the strike is public, it sells Canada''']
-source = "CR-070"
+patterns = ['''in the spring of \*{0,2}(?P<year>1[89]\d\d)\*{0,2}, when the strike is public, it sells (?:Canada|British Columbia)''']
+source = "CR-070; CR-083"
 
 [[event]]
 id = "seal-convention-signed"
 year = 1886
-patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2} Pacifica, Britain for Canada, Russia and Japan sign''']
-source = "CR-070"
+patterns = ['''In \*{0,2}(?P<year>1[89]\d\d)\*{0,2} Pacifica, Britain for (?:Canada|British Columbia), Russia and Japan sign''']
+source = "CR-070; CR-083"
 
 [[event]]
 id = "chilkoot-compact"
@@ -1745,3 +1745,405 @@ id = "CT-JOSE-MANUEL-BALMACEDA"
 aliases = ["José Manuel Balmaceda", "Balmaceda"]
 born = 1840
 source = "CR-082"
+
+[[person]]
+id = "CT-HARLAN-TATE"
+aliases = ["Harlan Tate", "Tate"]
+born = 1866
+source = "CR-083"
+
+[[person]]
+id = "CT-JOHN-BUCHAN"
+aliases = ["John Buchan", "Buchan"]
+born = 1875
+died = 1940
+source = "CR-083"
+
+[[forbidden]]
+pattern = "(?:British Columbia|BC) (?:enters|entered|joins|joined) (?:the )?(?:Canadian )?Confederation|encourages British Columbia into Confederation"
+message = "CR-083: British Columbia never enters Confederation; it stays a British colony, becomes a dominion in 1907, and becomes the independent Republic of Caledonia in 1932"
+kind = "fact"
+source = "CR-083"
+
+[[forbidden]]
+pattern = "sells Canada the old line"
+message = "CR-083: in 1897 the old telegraph line is sold to British Columbia, which holds the Yukon from 1870–71"
+kind = "fact"
+source = "CR-083"
+
+[[forbidden]]
+pattern = "Canada signs the Pacific Halibut Treaty"
+message = "CR-083: the dominion at Victoria signs the Halibut Treaty of 1923; Canada's first standalone treaty with Pacifica is the Trilateral Treaty of 1932"
+kind = "fact"
+source = "CR-083"
+
+[[forbidden]]
+pattern = "Pacifica(?:,| and) Britain,? for Canada"
+message = "CR-083: on the 1886 seals and c. 1906 western waters Britain signs for British Columbia, not for Canada"
+kind = "fact"
+source = "CR-083"
+
+[[forbidden]]
+pattern = "grants Canada(?:, for nothing| the Alaskan rivers| the Stikine)"
+message = "CR-083: the river grant of spring 1871 is made to Britain for the colony of British Columbia"
+kind = "fact"
+source = "CR-083"
+
+[[forbidden]]
+pattern = "on Canadian soil where no finder's compact runs"
+message = "CR-083: Bonanza Creek is on British Columbia's Yukon soil"
+kind = "fact"
+source = "CR-083"
+
+[[forbidden]]
+pattern = "Crown of Caledonia|Ka Lōkahi[^.]{0,80}four votes"
+message = "CR-083 (rev 7): Caledonia is an independent Republic on the Gulf Republic model, not a crown in Ka Lōkahi"
+kind = "fact"
+source = "CR-083"
+
+[[event]]
+id = "patrimony-prairie-wheat-contract"
+year = 1931
+patterns = ['''prairie wheat contract[^.]{0,60}December \*{0,2}(?P<year>1[89]\d\d)''', '''December \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.]{0,80}prairie wheat contract''']
+source = "CR-083"
+
+[[event]]
+id = "caledonia-republic-proclaimed"
+year = 1932
+patterns = ['''In (?:May|June|July|spring|summer) \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the Republic of Caledonia is proclaimed''']
+source = "CR-083"
+
+[[event]]
+id = "thalassia-trilateral-canada-treaty"
+year = 1932
+patterns = ['''In (?:June|July|summer) \*{0,2}(?P<year>1[89]\d\d)\*{0,2} the Trilateral Treaty of Thalassia''']
+source = "CR-083"
+
+[[person]]
+id = "CT-THOMAS-PATTULLO"
+aliases = ["Thomas Dufferin Pattullo", "Duff Pattullo", "Pattullo"]
+born = 1873
+died = 1956
+source = "CR-083"
+
+[[person]]
+id = "CT-SIMON-TOLMIE"
+aliases = ["Simon Fraser Tolmie", "Tolmie"]
+born = 1867
+died = 1937
+source = "CR-083"
+
+[[person]]
+id = "CT-RB-BENNETT"
+aliases = ["R. B. Bennett", "Richard Bedford Bennett", "Bennett"]
+born = 1870
+died = 1947
+source = "CR-083"
+
+[[person]]
+id = "CT-PETER-KELLY"
+aliases = ["Rev. Peter Kelly", "Peter Kelly"]
+born = 1885
+died = 1966
+source = "CR-083"
+
+[[person]]
+id = "CT-ANDREW-PAULL"
+aliases = ["Andrew Paull"]
+born = 1892
+died = 1959
+source = "CR-083"
+
+[[forbidden]]
+pattern = "annex(?:es|ed|ing) (?:the Netherlands East Indies|Java|Sumatra|Borneo|Fiji)"
+message = "CR-084: neither Pacifica nor Japan annexes the Indies, Borneo or Fiji; the Batavia Compact grants concessions and two unfortified leased commercial ports under Dutch sovereignty, and Fiji stays British"
+kind = "fact"
+source = "CR-084"
+
+[[forbidden]]
+pattern = "guarantees? (?:of )?(?:British )?Hong Kong|Hong Kong is guaranteed"
+message = "CR-084: Hong Kong is excluded from Concord security guarantees to preserve the Nanjing alliance with China"
+kind = "fact"
+source = "CR-084"
+
+[[forbidden]]
+pattern = "(?:Pacifica|the Concord) (?:takes|gains|receives|holds) base rights at Singapore"
+message = "CR-084: OPEN-019-05 settles Singapore by permanent halt of the capital-ship base and a peacetime cap east of Ceylon, not Pacifican base rights"
+kind = "fact"
+source = "CR-084"
+
+[[forbidden]]
+pattern = "(?:Sarawak|Vyner Brooke) (?:signs|joins|accepts) (?:a |the )?(?:Concord|Pacifica|Limbang)"
+message = "CR-084: Rajah Charles Vyner Brooke refuses Limbang and keeps Sarawak outside the Concord's treaties"
+kind = "fact"
+source = "CR-084"
+
+[[forbidden]]
+pattern = "(?:transfers?|cedes?) (?:Fiji|the Solomons|the Solomon Islands|Ocean Island) to (?:Pacifica|Ka Lōkahi|the Concord)"
+message = "CR-084: Fiji, the Solomons, New Hebrides, Pitcairn, Ocean Island and the Gilbert and Ellice Islands proper remain British"
+kind = "fact"
+source = "CR-084"
+
+[[event]]
+id = "uk-pacific-retrenchment-treaty"
+year = 1932
+patterns = ['''British Pacific Retrenchment Treaty (?:is|was|are|were) (?:signed|concluded|initialled)[^.]{0,60}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''(?:signed|concluded|initialled)[^.]{0,40}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.]{0,40}British Pacific Retrenchment Treaty''']
+source = "CR-084"
+
+[[event]]
+id = "labuan-harbour-lease"
+year = 1932
+patterns = ['''Labuan Harbour Lease (?:is|was|are|were) (?:signed|concluded|initialled)[^.]{0,60}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''(?:signed|concluded|initialled)[^.]{0,40}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.]{0,40}Labuan Harbour Lease''']
+source = "CR-084"
+
+[[event]]
+id = "tonga-friendship-treaty"
+year = 1932
+patterns = ['''Concord–Tonga Treaty of Friendship (?:is|was|are|were) (?:signed|concluded|initialled)[^.]{0,60}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''(?:signed|concluded|initialled)[^.]{0,40}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.]{0,40}Concord–Tonga Treaty of Friendship''']
+source = "CR-084"
+
+[[event]]
+id = "batavia-compact-signed"
+year = 1932
+patterns = ['''Batavia Compact (?:is|was|are|were) (?:signed|concluded|initialled)[^.]{0,60}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''(?:signed|concluded|initialled)[^.]{0,40}\*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.]{0,40}Batavia Compact''']
+source = "CR-084"
+
+[[person]]
+id = "CT-SALOTE-TUPOU-III"
+aliases = ["Queen Sālote Tupou III", "Queen Salote", "Sālote Tupou III"]
+born = 1900
+died = 1965
+source = "CR-084"
+
+[[person]]
+id = "CT-AHMAD-TAJUDDIN"
+aliases = ["Sultan Ahmad Tajuddin", "Ahmad Tajuddin"]
+born = 1913
+died = 1950
+source = "CR-084"
+
+[[person]]
+id = "CT-CHARLES-VYNER-BROOKE"
+aliases = ["Rajah Charles Vyner Brooke", "Sir Charles Vyner Brooke", "Vyner Brooke"]
+born = 1874
+died = 1963
+source = "CR-084"
+
+[[person]]
+id = "CT-TF-CAREY"
+aliases = ["Thomas Falkland Carey", "T. F. Carey", "Resident Carey"]
+born = 1903
+died = 1966
+source = "CR-084"
+
+[[person]]
+id = "CT-BC-DE-JONGE"
+aliases = ["Bonifacius Cornelis de Jonge", "B. C. de Jonge", "de Jonge"]
+born = 1875
+died = 1958
+source = "CR-084"
+
+[[person]]
+id = "CT-NEVILLE-CHAMBERLAIN"
+aliases = ["Neville Chamberlain", "Chamberlain"]
+born = 1869
+died = 1940
+source = "CR-084"
+
+[[person]]
+id = "CT-JOHN-SIMON"
+aliases = ["Sir John Simon", "John Simon"]
+born = 1873
+died = 1954
+source = "CR-084"
+
+[[person]]
+id = "CT-PHILIP-CUNLIFFE-LISTER"
+aliases = ["Sir Philip Cunliffe-Lister", "Philip Cunliffe-Lister"]
+born = 1884
+died = 1972
+source = "CR-084"
+
+[[person]]
+id = "CT-BOLTON-EYRES-MONSELL"
+aliases = ["Sir Bolton Eyres-Monsell", "Bolton Eyres-Monsell"]
+born = 1881
+died = 1969
+source = "CR-084"
+
+[[person]]
+id = "CT-INUKAI-TSUYOSHI"
+aliases = ["Inukai Tsuyoshi", "Inukai"]
+born = 1855
+died = 1932
+source = "CR-085"
+
+[[person]]
+id = "CT-SAITO-MAKOTO"
+aliases = ["Saitō Makoto", "Saito Makoto", "Admiral Saitō"]
+born = 1858
+source = "CR-085"
+
+[[person]]
+id = "CT-ARAKI-SADAO"
+aliases = ["Araki Sadao", "Araki"]
+born = 1877
+source = "CR-085"
+
+[[person]]
+id = "CT-MORI-KAKU"
+aliases = ["Mori Kaku", "Mori Tsutomu"]
+born = 1882
+died = 1932
+source = "CR-085"
+
+[[person]]
+id = "CT-HIRANUMA-KIICHIRO"
+aliases = ["Hiranuma Kiichirō", "Hiranuma"]
+born = 1867
+source = "CR-085"
+
+[[event]]
+id = "inukai-killed"
+year = 1932
+patterns = ['''Inukai (?:Tsuyoshi )?(?:is|was) (?:killed|shot|assassinated)[^.]{0,40}?(?P<year>1[89]\d\d)''']
+source = "CR-085"
+
+[[forbidden]]
+pattern = "alternating (?:Concord )?executive (?:is |was )?(?:granted|adopted|approved|enacted|won)"
+message = "CR-085 / L1734: Japan's demand for an alternating Concord executive is refused in 1932"
+kind = "fact"
+source = "CR-085"
+
+[[forbidden]]
+pattern = "[Rr]ice [Rr]iots? from (?:food |rice )?shortage(?:s)? (?:erupt|break out|sweep|topple|shake|hit)"
+message = "CR-085 / CR-082: Hokkaido early rice, nitrate/bean-cake supply, and domestic nitrogen prevent 1918 Rice Riots from shortage in Japan"
+kind = "fact"
+source = "CR-085"
+
+[[forbidden]]
+pattern = "Japanese (?:domestic )?(?:primary )?aluminium (?:smelter|smelting|ingots?) (?:opens?|begins?|starts?|pours?) in 193[0-6]"
+message = "CR-085 / L1600: domestic primary aluminium smelting in Japan stays barred through mid-1937; 1932-37 permits offshore joint ventures only"
+kind = "fact"
+source = "CR-085"
+
+[[forbidden]]
+pattern = "(?:spent fuel|irradiated fuel|bred elements) (?:remain|stay|are reprocessed|are kept) (?:in Japan|on Japanese soil)"
+message = "CR-085 / L1634: all spent fuel from Japanese atomic stations returns to Pacifica's Works and bred elements never stay on Japanese soil"
+kind = "fact"
+source = "CR-085"
+
+[[event]]
+id = "hokkaido-rice-exchange"
+year = 1893
+patterns = ['''Hokkaido Cold-Hardy Rice Breeding Exchange[^.]{0,60}(?:begins|signed|launched) in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}[^.]{0,60}Hokkaido Cold-Hardy Rice Breeding Exchange''']
+source = "CR-085"
+
+[[event]]
+id = "manila-shanghai-cable"
+year = 1906
+patterns = ['''Manila–Shanghai(?: direct submarine)? cable[^.]{0,60}(?:lands|laid|signed)[^.]{0,30}in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''\*{0,2}(?P<year>1[89]\d\d)\*{0,2} Manila–Shanghai(?: direct)? (?:submarine )?cable''']
+source = "CR-085"
+
+[[event]]
+id = "tokyo-station-financing"
+year = 1928
+patterns = ['''Tokyo Atomic Power Station Split Financing Agreement[^.]{0,60}(?:signed|agreed|concluded) in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''\*{0,2}(?P<year>1[89]\d\d)\*{0,2} Tokyo Atomic Power Station Split Financing Agreement''']
+source = "CR-085"
+
+[[event]]
+id = "navy-seat-protocol"
+year = 1932
+patterns = ['''Common Navy Ministry Treaty-Law Protocol[^.]{0,60}(?:agreed|signed|ratified) in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''\*{0,2}(?P<year>1[89]\d\d)\*{0,2} Common Navy Ministry Treaty-Law Protocol''']
+source = "CR-085"
+
+[[event]]
+id = "concord-atomic-power-board"
+year = 1932
+patterns = ['''Concord Atomic Power Board[^.]{0,60}(?:chartered|established|created) in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''\*{0,2}(?P<year>1[89]\d\d)\*{0,2} Concord Atomic Power Board''']
+source = "CR-085"
+
+[[person]]
+id = "CT-SATO-SHOSUKE"
+aliases = ["Satō Shōsuke", "Sato Shosuke"]
+born = 1856
+died = 1939
+source = "CR-085"
+
+[[person]]
+id = "CT-NOGUCHI-SHITAGAU"
+aliases = ["Noguchi Shitagau", "Shitagau Noguchi"]
+born = 1873
+died = 1944
+source = "CR-085"
+
+[[person]]
+id = "CT-MORI-NOBUTERU"
+aliases = ["Mori Nobuteru", "Nobuteru Mori"]
+born = 1884
+died = 1941
+source = "CR-085"
+
+[[person]]
+id = "CT-OMORI-FUSAKICHI"
+aliases = ["Ōmori Fusakichi", "Omori Fusakichi", "Fusakichi Omori"]
+born = 1868
+died = 1923
+source = "CR-085"
+
+[[person]]
+id = "CT-OKADA-TAKEMATSU"
+aliases = ["Okada Takematsu", "Takematsu Okada"]
+born = 1874
+died = 1956
+source = "CR-085"
+
+[[forbidden]]
+pattern = "Japan may refuse in 1937|renewed to 1937|renewal (?:runs |run )?to 1937|renewal lasts only to 1937|right to refuse (?:the )?renewal|refuse each renewal|permits renewal to 1937|end of the Concord's second term"
+message = "CR-085 T-R3: the renewal of 1932 is without term and is reviewed every five years; Japan does not hold a right to refuse in 1937"
+kind = "fact"
+source = "CR-085"
+
+[[forbidden]]
+pattern = '''Britain (?:tests|explodes) (?:its|a) (?:first |own )?(?:atomic |uranium )?device in 19[34]\d'''
+message = "CR-086 T-1: Britain renounces in 1932; the Works' reckoning of a British device about 1933–1935 is its estimate of 1928 and is overtaken"
+kind = "fact"
+source = "CR-086"
+
+[[forbidden]]
+pattern = "moral cost (?:is |remains |stays |left )?(?:un)?(?:resolved|settled)"
+message = "CR-086 T-6 (author, 23 November 2026): the cost is shown and never named. This pattern is a tripwire for one phrase only; the last pages need a reader's check"
+kind = "fact"
+source = "CR-086"
+
+[[forbidden]]
+pattern = '''France (?:signs|accepts|ratifies) (?:Article I\b|the renunciation)'''
+message = "CR-086: France signs the Final Act and Article II and reserves on Article I"
+kind = "fact"
+source = "CR-086"
+
+[[event]]
+id = "final-act-of-thalassia"
+year = 1932
+patterns = ['''Final Act of Thalassia (?:is |was )?(?:signed|promulgated|signed and promulgated)[^.]{0,30}on 1 August (?P<year>1[89]\d\d)''', '''Final Act of Thalassia[^.]{0,20}of 1 August (?P<year>1[89]\d\d)''']
+source = "CR-086"
+
+[[event]]
+id = "guaymas-district-chartered"
+year = 1932
+patterns = ['''Mexico charters[^.]{0,60}Guaymas[^.]{0,60}(?P<year>1[89]\d\d)''', '''(?P<year>1[89]\d\d)[^.]{0,40}Mexico charters[^.]{0,60}Guaymas''']
+source = "CR-086"
+
+[[person]]
+id = "CT-TV-SOONG"
+aliases = ["T. V. Soong", "Song Ziwen"]
+born = 1894
+died = 1971
+source = "CR-086"
+
+[[person]]
+id = "CT-ALBERTO-PANI"
+aliases = ["Alberto J. Pani", "Alberto Pani"]
+born = 1878
+died = 1955
+source = "CR-086"
