@@ -222,7 +222,7 @@ Together these sellers are 95% of the world's trade in grain and soybeans today 
 - **Mouths fed in the Realm: 0.** The wheat is resold in Asia. Abroad it is bread for 1.0 million on the Realm's diet, which is the cabinet's second figure for the contract (CR-083 A12).
 - **Giannini's case.** The Realm itself sells 3.0 million tonnes abroad in 1932. The board's wheat is 33% of that, sold to the same buyers.
 - **Article II** (CR-086 D6) feeds no one in the Realm. Its schedule is this contract, New Zealand's crop guarantee and the private houses' Pampas contracts; the Pampas volumes are not modelled.
-- **Caledonia's own people** (CR-083 Part E) are outside the Realm's count. Our timeline's census of 1931 gives 0.70 million for British Columbia and the Yukon. With sixty years of Pacifican rail, capital and interior settlement the republic of 1932 is put at 0.84 million (0.77 to 0.91), of whom about 0.14 million are on the Island. MODEL. The census figures are our timeline's; the uplift is the drafter's proposal and is PROPOSED until the author sets it.
+- **Caledonia's own people** (CR-083 Part E) are outside the Realm's count. Our timeline's census of 1931 gives 0.70 million for British Columbia and the Yukon. With sixty years of Pacifican rail, capital and interior settlement the republic of 1932 is put at 0.84 million (0.77 to 0.91), of whom about 0.14 million are on the Island. MODEL. The census figures are our timeline's; the uplift is a story assumption the author approved on 24 November 2026 (15:54: 'I approve your population assumption for Caledonia.').
 
 `[endgame]`: MODEL. The tonnage is the author's of 24 November 2026; the price is the drafter's proposal; Canada's exports are as in the sellers' list.
 

@@ -314,9 +314,9 @@ status = "MODEL. The tonnage is the author's of 24 November 2026; the price is t
 # Caledonia's own people in 1932 (CR-083 Part E). The Realm's count does not include them.
 caledonia_census_1931 = 694263    # British Columbia, Canadian census of 1931 (CR-083 Part E, Hist.)
 yukon_1931 = 4200                 # about; the same source
-caledonia_uplift = {low = 1.10, central = 1.20, high = 1.30}   # sixty years of Pacifican rail, capital and interior settlement: the drafter's proposal, no source
+caledonia_uplift = {low = 1.10, central = 1.20, high = 1.30}   # sixty years of Pacifican rail, capital and interior settlement: story assumption, no source; approved by the author, 24 November 2026, 15:54
 island_share = 0.1667             # Vancouver Island, "roughly a sixth" (CR-083 A6, MODEL)
-caledonia_status = "MODEL. The census figures are our timeline's; the uplift is the drafter's proposal and is PROPOSED until the author sets it."
+caledonia_status = "MODEL. The census figures are our timeline's; the uplift is a story assumption the author approved on 24 November 2026 (15:54: 'I approve your population assumption for Caledonia.')."
 
 [century.mariculture]
 # Work 5 (author, 22 November 2026, 07:55): a Pacific kelp aquaculture industry as a century project.
