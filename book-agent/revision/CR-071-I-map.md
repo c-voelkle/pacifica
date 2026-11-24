@@ -406,7 +406,7 @@ Nineteen counties. Idaho's ground needs five, not six, after Bear River, Palouse
 | **Coeur d'Alene** | Rathdrum | Kootenai, Shoshone | 10 |
 | **Silver Bow** | Butte | Silver Bow, Deer Lodge | 42 |
 | **Helena** | Helena | Lewis and Clark, Jefferson, Meagher west of the Belts | 30 |
-| **Missoula** | Missoula | Missoula (unchanged) | 13 |
+| **Missoula** | Missoula | Missoula, less the ground east of the Lewis crest north of about 48°27′ N (changed by CR-087, approved 24 November 2026) | 13 |
 | **Three Forks** | Bozeman | Gallatin, Madison, Beaverhead (I-36) | 20 |
 | **Carson** | Carson City | Storey, Lyon, Ormsby, Douglas | 29 |
 | **Elko** | Elko | Humboldt, Elko, northern Lander | 14 |
