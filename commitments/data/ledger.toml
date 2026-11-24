@@ -3442,7 +3442,7 @@ quote = "Britain funds its gold-dollar debt over sixty-two years in 1923 at redu
 more_quotes = [
   "Sterling depreciation leaves the gold-dollar obligation intact.",
   "Britain leaves gold in September while its debt to Pacifica keeps its gold-dollar value.",
-  "In 1932 the first annuities cancelled under that head are two from the near end of the schedule, earned by Westminster's Severance Act for Caledonia.",
+  "In 1932 the first annuities cancelled in that settlement are two from the near end of the schedule, earned by Westminster's Severance Act for Caledonia.",
   "The bill cancels British annuities for three things on one schedule, and each tranche has its own trigger.",
   "The suspended annuity of 1931–32 is not one of the fifty-three or of the seventeen: a separate clause of the bill writes it off on the day of signature.",
   "Britain therefore pays nothing from the moratorium until the instalment of 15 December 1938, and its last annuity is that of 1973–74",
@@ -7501,7 +7501,7 @@ owes = [
   { by = "UK", to = "JP", what = "the same halt and cap, the Concord signing for both crowns" },
   { by = "CROWN", to = "UK", what = "a maritime pledge of non-aggression toward Malaya and its sea lanes, covering beyond that only attack from the sea by an outside power on the Strait of Malacca and on the commerce of Malaya and the Indian Ocean; never order inside the colonies" },
   { by = "JP", to = "UK", what = "the same pledge" },
-  { by = "PAC", to = "UK", what = "the Realm's own counter-signature on the pledge (two-thirds of the Senate)" },
+  { by = "PAC", to = "UK", what = "the Realm's own countersignature on the pledge (two-thirds of the Senate)" },
   { by = "UK", to = "CROWN", what = "retrocession of Labuan to Brunei subject to Labuan's vote, and consent to the Labuan Harbour Lease; detachment of Fanning and Washington into Ka Lōkahi's trust, the Fanning cable station leased back; quitclaim of its remaining claims in the Phoenix group; release of Tonga from the protectorate of 1900" },
   { by = "CROWN", to = "AU", what = "protocol: no warship stationed and no new base built south of 10° S between Timor and 155° W (meridian PROPOSED), none sought in Portuguese Timor; no naval fortification or permanently berthed warship at the leased ports of Bintan and East Borneo" },
   { by = "CROWN", to = "NZ", what = "the same protocol" },
@@ -7525,7 +7525,7 @@ section = 37
 quote = "The British Pacific Retrenchment Treaty is signed at Thalassia in July 1932 by Britain and by the Concord for both crowns."
 more_quotes = [
   "Britain ends for good the fortification of Singapore for capital ships and the heavy dry-dock work at Sembawang, and accepts a peacetime cap on its capital ships east of Ceylon, beside the limits of 1919; cruisers and sloops are not restricted.",
-  "the Realm's own counter-signature on the pledge, and a reverter clause, by which the halt and the cap fall away on Britain's formal notice if the Concord ends, or on a finding of breach by the arbitration court at The Hague.",
+  "the Realm's own countersignature on the pledge, and a reverter clause, by which the halt and the cap fall away on Britain's formal notice if the Concord ends, or on a finding of breach by the arbitration court at The Hague.",
   "with the term struck, it is redrafted to fall on the Concord's being dissolved.",
   "nothing in it recognises or prejudices the legal status of Hong Kong or the New Territories, and the Concord makes no commitment touching any dispute between China and Britain.",
   "The Concord stations no warship and builds no new base south of 10° S between Timor and",

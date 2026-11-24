@@ -41,6 +41,14 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
+State on 24 November 2026, after integration stage 2 (this block supersedes the ones below):
+
+- The author approved all five CRs at 13:08 ("All the CRs are approved and can be integrated."), chose one integration branch and one pull request (13:15) and parallel writers with reconciliation (13:37).
+- Branch `integrate/cr083-087-endgame`, cut from `drafts/cr083-086-endgame`. Commit `83e27fa` integrates CR-083 to CR-087 in one pass: the four writers' storyline edits were merged paragraph by paragraph, so there is no commit per CR. `main` is untouched until the pull request is merged.
+- Done: storyline (sections 8 to 37, the overview lines and closing items 39 to 42); five register entries with facts applied; ledger (24 new parties, 32 new commitments, 46 amended, plus the Lewis crest on `C-1867-WESTERN-LINE`); 28 new people in the registry and bible (390), notes on existing people in the bible's CR-083 to CR-087 section; historical background; AGENTS.md; amendment notes on `CR-054.md`, `CR-058.md`, `CR-070.md`, `CR-082.md` and their register entries. `preflight.py --integration`: 7 of 7.
+- Not done, and listed in the drafts and writers' notes: the finance, energy and population workbooks for the new figures (annuity tranches, the yen, the stations, Hokkaido, the prairie contract); the decision records CR-084 lists for annotation (`CR-019`, `CR-021`, `CR-022`, `CR-029`, `CR-040`, `CR-052`, `CR-053`, `CR-057`, `CR-074`, `CR-077`, `CR-081`); sources still "from memory" in the historical background.
+- Next: apply the fresh-context review of the integrated prose (`/tmp/work/integ/integration-review.md`, to be copied into `book-agent/revision/CR-083-087-integration-review.md`), then open the pull request to `main`.
+
 State on 24 November 2026, after the fifth revision round (the author's answers of 08:22):
 
 - Branch `drafts/cr083-086-endgame`. Nothing is integrated, `main` is untouched, no integration PR is open.
