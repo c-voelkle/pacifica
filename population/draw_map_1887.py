@@ -274,7 +274,7 @@ def main():
     sqmi = lambda g: g.area * 69.0 * 69.0 * math.cos(math.radians(g.centroid.y))
     north = merged["Missoula"].intersection(box(-117.0, 48.998, -113.0, 49.01)).bounds
     report.append(f"Missoula: {sqmi(ceded):,.0f} sq mi east of the Lewis crest is the Union's (CR-087); the county is "
-                  f"{sqmi(merged['Missoula']):,.0f} sq mi as drawn and meets the 49th parallel as far east as {-north[2]:.3f} W, "
+                  f"{sqmi(merged['Missoula']):,.0f} sq mi as drawn outside the Flathead homeland and meets the 49th parallel as far east as {-north[2]:.3f} W, "
                   f"{(114.068 + north[2]) * 69.172 * math.cos(math.radians(49.0)):.1f} miles from the divide at 114.068 W")
 
     def proj_with(fn):
