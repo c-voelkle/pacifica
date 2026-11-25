@@ -18,4 +18,6 @@
 - 12:00: Q10 items 1, 2, 5, 7, 8, 9, 10, 11 approved, plus Yuan Mei's book and the palace cooks at Thalassia; Wu Yunchu and Lee Kum Sheung registered.
 - Done: CR-089 revision 5 (review S1–S14 and the minor list answered; `A12` the Chinese kitchens; `A13` the cast of nine; `C1`–`C14`; D-20a/b, D-32 to D-35). Preflight 0 errors.
 - Second fresh-context review done (`CR-089-review-2.md`): nearly ready, no blocker, S1–S10 and a minor list. Revision 6 answers them (commit 56d4543). Preflight 0 errors.
-- Next: the author's answers to the PROPOSED items (D-35 marks tension; the palace cooks' particulars D-36), then integration when he approves.
+- 12:51: D-10, D-12–18, D-20b, D-21–23, D-28, D-30 approved; D-19/D-35 reopened (is the French-style marks act needed? a better Realm standard?); chronology and the engineering-and-brigade dynamic requested. Rath's *Oishii* added (key RATH in /home/claude/research/units2.json; sweep queries in `research-notes/Q11-sushi-queries.json`).
+- Done: revision 7 (`A13` chronology, `A14` engineering and the guilds, `T-MARK-1` Case C the Truth of Labels Act, cast `A15`).
+- Next: the author's choice on `T-MARK-1` (A or C); then the remaining PROPOSED particulars; then integration.
