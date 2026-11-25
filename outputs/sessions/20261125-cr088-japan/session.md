@@ -31,12 +31,12 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-25 | Nitobe Inazō: a rigorous scholar at a Polytechnic challenge evening, about 1900 (`A2.5`); registered | approved, 16:32 ("I approve Nitobe as described") |
 | D-26 | Konoe's essay of 1918 as a background voice | approved, 16:32 |
 | D-27 | The Marshalls to Japan (`A2.6`): the 1885 gap, 1914, three conditions at The Hague, Nauru carved out | approved, 17:03 |
-| D-28 | `A5` rebuilt as the catalogue (step 11) | dispositions proposed |
-| D-29 | Motives in capability terms (step 12) | wording proposed |
+| D-28 | `A5` rebuilt as the catalogue (step 11) | approved, 18:16 |
+| D-29 | Motives in capability terms (step 12) | approved, 18:16 |
 | D-30 | The agon in `A3` (step 13) | approved, 17:53 |
 | D-31 | Shinto (`A4.5`), the shrine question G29 | approved, 17:53 |
-| D-32 | San Francisco's six layers and the engineers' school | proposed |
-| D-33 | Where the bath takes root | proposed |
+| D-32 | San Francisco's six layers and the engineers' school | approved, 18:16 |
+| D-33 | Where the bath takes root | approved, 18:16 |
 
 ## What was done
 
@@ -53,5 +53,5 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 8 (step 12): `A1.2` each article with what the Republic gains by giving it; `A1.3` the alliance as a trade; the Realm's reasons in `A4.2` and `A5.1`. Preflight 0 errors.
 - Revision 9 (step 13): rivals and losers in every strand of `A3`, the music corrected, the brochure line made checkable; Shinto as `A4.5` with G29. Preflight 0 errors.
 - Revision 10: `A3.3` the six layers, the skyline as a geological map, the engineers' school; `A3.4` the bath by place (nine cases). Preflight 0 errors.
-- Waiting on the author: D-28, D-29, D-32, D-33; a name for "the engineers' school".
+- Waiting on the author: his choice of name and origin for "the engineers' school" (proposal in chat, 25 November, after 18:16).
 - Next steps of the plan: steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
