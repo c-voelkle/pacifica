@@ -27,6 +27,8 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-21 | Kalākaua's marriage proposal kept as his own initiative | approved, 15:13 ("4. a") |
 | D-22 | The 1927 rescue figure as the workbook's, MODEL | approved, 15:13 ("5. agreed") |
 | D-23 | Chichibu a bather, no title; patron OPEN | approved, 15:13 ("6. agreed") |
+| D-24 | The grievance catalogue as the basis of `A5` | approved, 16:01 ("I approve of the grievances") |
+| D-25 | Nitobe Inazō: a rigorous scholar at a Polytechnic challenge evening, about 1900 (`A2.5`) | proposed; the author liked the idea but doubted the romantic *Bushido* fits the Realm's ethos, 16:01 |
 
 ## What was done
 
@@ -35,7 +37,9 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 5: D-17 to D-23 written in; the corrections on `book-agent/revision/CR-088-decisions-rev5.md` made; `T-EDO-1` added; the Perry pattern now catches `L300`. Preflight 0 errors (warnings: five new persons awaiting registry entries at integration; `CR-089` not yet on `main`).
 - Research, steps 8 and 9: `research-grievances.md` (twenty-eight grievances, our timeline's humiliations set beside canon, sources) and `research-gains.md` (the ledger of Japan's gains with a Japanese actor for each, the opponents, sources).
 
+- Revision 6 (step 10): `A2` rebuilt around Japan's own interest (`A2.1`–`A2.4`), Nitobe as `A2.5`; D-3 restated, D-24, D-25. Preflight 0 errors.
+
 ## Resume here
 
-- Waiting on the author: his reading of the two research notes, especially the new grievances (G3 Satsuma 1877, G6 English command, G7 1894, G8 Formosa, G9 Korea, G10 Sacramento as the model case, G13–G14 1915 and Tsingtao, G22 Manchuria's acres, G24 the atom and the keys, G27 the borrowed culture), the boundary on the Altai (G16) and the optional voices (Nitobe, Konoe).
-- Next steps of the plan: step 10 (rewrite `A2` around Japan's own interest, from `research-gains.md`), step 11 (rebuild `A5` as the catalogue), step 12 (Elias's motives in capability terms), step 13 (the agon in `A3`, the music fix), steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
+- Waiting on the author: D-25 (Nitobe as written in `A2.5`); whether Konoe is wanted (optional, background); which former German islands Japan holds after 1919 (OPEN).
+- Next steps of the plan: step 11 (rebuild `A5` as the catalogue), step 12 (Elias's motives in capability terms), step 13 (the agon in `A3`, the music fix), steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
