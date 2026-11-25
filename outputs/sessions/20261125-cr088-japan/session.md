@@ -1,7 +1,7 @@
 ---
 session: 20261125-cr088-japan
 started: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 mode: draft
 status: paused-for-author
 baseline:
@@ -38,7 +38,8 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-32 | San Francisco's six layers and the engineers' school | approved, 18:16 |
 | D-33 | Where the bath takes root | approved, 18:16 |
 | D-34 | The Calculated (Keisan-ha), origin, Ammann registered | approved, 18:25 |
-| D-35 | Shōkin-jan rebuilt on riichi.wiki's standard rules; choices S1–S10 | proposed |
+| D-35 | Shōkin-jan rebuilt on riichi.wiki's standard rules; choices S1–S10 | superseded by D-36 where it differs |
+| D-36 | Shōkin-jan's agreed rules (rule revisions 12–14 and the last pass), `Appendix A` rewritten whole; choices S1–S27 | approved as design, 25 Nov 19:41–23:44 and 26 Nov 00:14; numbers PROPOSED until play-tested |
 
 ## What was done
 
@@ -47,6 +48,7 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 5: D-17 to D-23 written in; the corrections on `book-agent/revision/CR-088-decisions-rev5.md` made; `T-EDO-1` added; the Perry pattern now catches `L300`. Preflight 0 errors (warnings: five new persons awaiting registry entries at integration; `CR-089` not yet on `main`).
 - Research, steps 8 and 9: `research-grievances.md` (twenty-eight grievances, our timeline's humiliations set beside canon, sources) and `research-gains.md` (the ledger of Japan's gains with a Japanese actor for each, the opponents, sources).
 
+- Revision 12 (26 November, 00:14): `Appendix A` rewritten whole on the agreed Shōkin-jan rules (working note `claude/CR-088-shokin-jan-rev14.md` in the Pacifica project, plus the last pass: the three A.8 polishes, temporary furiten in grace, Renewal doubling only the showdown, Paper Riichi a yaku, S27 printing under the Leash allowed); `A3.6`'s summary, the 1928 set piece and D-36 follow. Preflight 0 errors.
 - Revision 6 (step 10): `A2` rebuilt around Japan's own interest (`A2.1`–`A2.4`), Nitobe as `A2.5`; D-3 restated, D-24, D-25. Preflight 0 errors.
 
 ## Resume here
@@ -56,5 +58,6 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 9 (step 13): rivals and losers in every strand of `A3`, the music corrected, the brochure line made checkable; Shinto as `A4.5` with G29. Preflight 0 errors.
 - Revision 10: `A3.3` the six layers, the skyline as a geological map, the engineers' school; `A3.4` the bath by place (nine cases). Preflight 0 errors.
 - Revision 11: the Calculated in `A3.3`, Ammann registered; `Appendix A` rebuilt (A.1–A.10), riichi by about 1926 in `A3.6`. Preflight 0 errors.
-- Waiting on the author: the Shōkin-jan choices S1–S10 (D-35).
+- Revision 12: Shōkin-jan's `Appendix A` rewritten whole on the agreed rules (D-36, S1–S27). Preflight 0 errors.
+- Open for the author: the settings still marked Proposed in A.9 (S1–S3, S5, S8–S10, S14, the scale of S19).
 - Next steps of the plan: step 16 (bookkeeping, preflight), step 17 (fresh-context review).
