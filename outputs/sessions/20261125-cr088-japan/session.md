@@ -37,6 +37,8 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-31 | Shinto (`A4.5`), the shrine question G29 | approved, 17:53 |
 | D-32 | San Francisco's six layers and the engineers' school | approved, 18:16 |
 | D-33 | Where the bath takes root | approved, 18:16 |
+| D-34 | The Calculated (Keisan-ha), origin, Ammann registered | approved, 18:25 |
+| D-35 | Shōkin-jan rebuilt on riichi.wiki's standard rules; choices S1–S10 | proposed |
 
 ## What was done
 
@@ -53,5 +55,6 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 8 (step 12): `A1.2` each article with what the Republic gains by giving it; `A1.3` the alliance as a trade; the Realm's reasons in `A4.2` and `A5.1`. Preflight 0 errors.
 - Revision 9 (step 13): rivals and losers in every strand of `A3`, the music corrected, the brochure line made checkable; Shinto as `A4.5` with G29. Preflight 0 errors.
 - Revision 10: `A3.3` the six layers, the skyline as a geological map, the engineers' school; `A3.4` the bath by place (nine cases). Preflight 0 errors.
-- Waiting on the author: his choice of name and origin for "the engineers' school" (proposal in chat, 25 November, after 18:16).
-- Next steps of the plan: steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
+- Revision 11: the Calculated in `A3.3`, Ammann registered; `Appendix A` rebuilt (A.1–A.10), riichi by about 1926 in `A3.6`. Preflight 0 errors.
+- Waiting on the author: the Shōkin-jan choices S1–S10 (D-35).
+- Next steps of the plan: step 16 (bookkeeping, preflight), step 17 (fresh-context review).
