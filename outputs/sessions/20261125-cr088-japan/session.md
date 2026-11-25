@@ -33,8 +33,10 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-27 | The Marshalls to Japan (`A2.6`): the 1885 gap, 1914, three conditions at The Hague, Nauru carved out | approved, 17:03 |
 | D-28 | `A5` rebuilt as the catalogue (step 11) | dispositions proposed |
 | D-29 | Motives in capability terms (step 12) | wording proposed |
-| D-30 | The agon in `A3` (step 13) | particulars proposed |
-| D-31 | Shinto (`A4.5`), the shrine question G29 | proposed |
+| D-30 | The agon in `A3` (step 13) | approved, 17:53 |
+| D-31 | Shinto (`A4.5`), the shrine question G29 | approved, 17:53 |
+| D-32 | San Francisco's six layers and the engineers' school | proposed |
+| D-33 | Where the bath takes root | proposed |
 
 ## What was done
 
@@ -50,5 +52,6 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 7: D-25–D-27 written in; `A2.6` the Marshalls; step 11 done: `A5` rebuilt (catalogue G1–G28 in the CR's own numbering, `A5.6`–`A5.12`, boundaries); `A6.4` the key Kiyotada does not hold. Preflight 0 errors.
 - Revision 8 (step 12): `A1.2` each article with what the Republic gains by giving it; `A1.3` the alliance as a trade; the Realm's reasons in `A4.2` and `A5.1`. Preflight 0 errors.
 - Revision 9 (step 13): rivals and losers in every strand of `A3`, the music corrected, the brochure line made checkable; Shinto as `A4.5` with G29. Preflight 0 errors.
-- Waiting on the author: D-28, D-29, D-30, D-31.
+- Revision 10: `A3.3` the six layers, the skyline as a geological map, the engineers' school; `A3.4` the bath by place (nine cases). Preflight 0 errors.
+- Waiting on the author: D-28, D-29, D-32, D-33; a name for "the engineers' school".
 - Next steps of the plan: steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
