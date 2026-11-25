@@ -22,4 +22,5 @@
 - Done: revision 7 (`A13` chronology, `A14` engineering and the guilds, `T-MARK-1` Case C the Truth of Labels Act, cast `A15`).
 - 13:36: `T-MARK-1` Case C approved; revision 8 writes it in (`A6` the Truth of Labels Act, `C6` the Napa petition). Third fresh-context review requested (`CR-089-review-3.md`).
 - Third review done (`CR-089-review-3.md`): nearly ready, no blockers, S1–S11 and a minor list; revision 9 answers them. Outside this CR: `CT-CHIYO`'s registry profile dates her marriage to 1915, canon says November 1907 (for the author).
-- Next: the author's answers to D-37, D-38 and the PROPOSED particulars; then integration.
+- 14:06 D-37, D-38 approved. 14:12: the wedding dinner (C16) and Chiyo's date corrected in registry and bible (November 1907); revision 10 adds the integration plan D-40 (dated additions in their sections + one thematic subsection 'The table beneath the measures' after L1164) with a draft.
+- Next: the author's answer on D-40 and the PROPOSED particulars; then integration.
