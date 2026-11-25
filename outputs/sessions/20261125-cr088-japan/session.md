@@ -32,6 +32,7 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-26 | Konoe's essay of 1918 as a background voice | approved, 16:32 |
 | D-27 | The Marshalls to Japan (`A2.6`): the 1885 gap, 1914, three conditions at The Hague, Nauru carved out | approved, 17:03 |
 | D-28 | `A5` rebuilt as the catalogue (step 11) | dispositions proposed |
+| D-29 | Motives in capability terms (step 12) | wording proposed |
 
 ## What was done
 
@@ -45,5 +46,6 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 ## Resume here
 
 - Revision 7: D-25–D-27 written in; `A2.6` the Marshalls; step 11 done: `A5` rebuilt (catalogue G1–G28 in the CR's own numbering, `A5.6`–`A5.12`, boundaries); `A6.4` the key Kiyotada does not hold. Preflight 0 errors.
-- Waiting on the author: his reading of `A5` (D-28).
-- Next steps of the plan: step 12 (Elias's motives in capability terms), step 13 (the agon in `A3`, the music fix), steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
+- Revision 8 (step 12): `A1.2` each article with what the Republic gains by giving it; `A1.3` the alliance as a trade; the Realm's reasons in `A4.2` and `A5.1`. Preflight 0 errors.
+- Waiting on the author: his reading of `A5` (D-28) and of the motives (D-29).
+- Next steps of the plan: step 13 (the agon in `A3`, the music fix), steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
