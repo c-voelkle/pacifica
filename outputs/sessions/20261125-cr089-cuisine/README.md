@@ -13,4 +13,6 @@
 - Open: glutamate by fermentation; Chichibu as patron (for the destination CR).
 - 09:56: `Q9` dishes and experiences approved except the orchard course. 11:00: the ten desserts approved; mochi added at the author's request.
 - Done: CR-089 revision 4 (`A9` innovations, `A10` dishes and the agon, `A11` desserts with mochi, `A12` cast, `T-METHOD-1`, Takamine registered, the *Tsukuba* at Honolulu, `C9`–`C10`, D-24 to D-32, the eight books in Sources). Preflight 0 errors.
-- Next: the author's answer to `T-METHOD-1` (Case A recommended), then the fresh-context review, then the destination CR.
+- 11:11: `T-METHOD-1` Case A approved. Fresh-context review done (`book-agent/revision/CR-089-review.md`): no blockers, S1–S14. The *Tsukuba* actually had 14 mild cases and ended at Shinagawa; Honolulu was the last port (told the author).
+- 11:43: S4 option (a) approved (Polytechnic trade test; the guild's blind dinner an honour on top). The agon must not be neat: cutthroat, obsessive cooks, racism and foul kitchens. Two books on Chinese food added; proposals in `research-notes/Q10-chinese.md`.
+- Next: the author's choice among the Q10 proposals, then revision 5 (all review items S1–S14 and the Could-fix list), then a second fresh-context review.
