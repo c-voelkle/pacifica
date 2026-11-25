@@ -15,4 +15,6 @@
 - Done: CR-089 revision 4 (`A9` innovations, `A10` dishes and the agon, `A11` desserts with mochi, `A12` cast, `T-METHOD-1`, Takamine registered, the *Tsukuba* at Honolulu, `C9`–`C10`, D-24 to D-32, the eight books in Sources). Preflight 0 errors.
 - 11:11: `T-METHOD-1` Case A approved. Fresh-context review done (`book-agent/revision/CR-089-review.md`): no blockers, S1–S14. The *Tsukuba* actually had 14 mild cases and ended at Shinagawa; Honolulu was the last port (told the author).
 - 11:43: S4 option (a) approved (Polytechnic trade test; the guild's blind dinner an honour on top). The agon must not be neat: cutthroat, obsessive cooks, racism and foul kitchens. Two books on Chinese food added; proposals in `research-notes/Q10-chinese.md`.
-- Next: the author's choice among the Q10 proposals, then revision 5 (all review items S1–S14 and the Could-fix list), then a second fresh-context review.
+- 12:00: Q10 items 1, 2, 5, 7, 8, 9, 10, 11 approved, plus Yuan Mei's book and the palace cooks at Thalassia; Wu Yunchu and Lee Kum Sheung registered.
+- Done: CR-089 revision 5 (review S1–S14 and the minor list answered; `A12` the Chinese kitchens; `A13` the cast of nine; `C1`–`C14`; D-20a/b, D-32 to D-35). Preflight 0 errors.
+- Next: the second fresh-context review (`CR-089-review-2.md`), then the author's answers to the PROPOSED items.
