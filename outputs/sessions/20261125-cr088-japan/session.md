@@ -30,6 +30,8 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 | D-24 | The grievance catalogue as the basis of `A5` | approved, 16:01 ("I approve of the grievances") |
 | D-25 | Nitobe Inazō: a rigorous scholar at a Polytechnic challenge evening, about 1900 (`A2.5`); registered | approved, 16:32 ("I approve Nitobe as described") |
 | D-26 | Konoe's essay of 1918 as a background voice | approved, 16:32 |
+| D-27 | The Marshalls to Japan (`A2.6`): the 1885 gap, 1914, three conditions at The Hague, Nauru carved out | approved, 17:03 |
+| D-28 | `A5` rebuilt as the catalogue (step 11) | dispositions proposed |
 
 ## What was done
 
@@ -42,5 +44,6 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 
 ## Resume here
 
-- Waiting on the author: the proposal for the former German islands after 1919 (the Marshalls to Japan; given in chat on 25 November, 16:3x).
-- Next steps of the plan: step 11 (rebuild `A5` as the catalogue), step 12 (Elias's motives in capability terms), step 13 (the agon in `A3`, the music fix), steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
+- Revision 7: D-25–D-27 written in; `A2.6` the Marshalls; step 11 done: `A5` rebuilt (catalogue G1–G28 in the CR's own numbering, `A5.6`–`A5.12`, boundaries); `A6.4` the key Kiyotada does not hold. Preflight 0 errors.
+- Waiting on the author: his reading of `A5` (D-28).
+- Next steps of the plan: step 12 (Elias's motives in capability terms), step 13 (the agon in `A3`, the music fix), steps 14–15 (Shōkin-jan's rule gaps, with a short list of rule choices for the author), step 16 (bookkeeping, preflight), step 17 (fresh-context review).
