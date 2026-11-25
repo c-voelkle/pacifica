@@ -377,6 +377,8 @@ EVENTS = [
     (1929, "Motor vehicles: 1.15m built a year", "Fuels (vehicle stock)", "CR-020 B9", "CANON"),
     (1931, "Tokyo atomic station first power; Pacifican stations follow", "Electricity (atomic, from finance)", "CR-050", "CANON"),
     (1932, "Oil compact with the Gulf", "Fuels (finance oil output)", "CR-020 B6", "CANON"),
+    (1932, "The trust's undertaking to the Gulf: liftings not below three-quarters of 1929-31, to 1937; Seria offtake 0.5m bbl sold in Asia (memo, not in the home balance); East Borneo's new blocks nil before 1935",
+     "Fuels (Gulf crude that can come home); finance Endgame", "CR-084 B3.4, C1", "APPROVED (author, 24 Nov 2026); MODEL"),
 ]
 
 

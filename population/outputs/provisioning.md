@@ -122,6 +122,18 @@ People in millions; crop and gaps in millions of koku of brown rice (a koku is a
 
 The land behind one mouth on the Realm's diet grows about 7 koku of grain or its equivalent, so the Realm's surplus of 1932 is some 38 million koku-equivalents against a Japanese gap of 8.1 million koku. It is mostly wheat and feed, not rice.
 
+### Canon's crop after CR-085
+
+| Year | Our timeline's crop | Canon's crop | Above our timeline | Canon's need | Gap, canon | Hokkaido inside it |
+|---|---|---|---|---|---|---|
+| 1910 | 50.1 | 52.6 | 2.5 (5%) | 52.6 | -0.0 (-0.0%) | 1.5 to 1.8 |
+| 1920 | 57.5 | 62.1 | 4.6 (8%) | 62.0 | -0.1 (-0.2%) | 2.5 to 3.0 |
+| 1932 | 60.3 | 68.2 | 7.8 (13%) | 68.4 | 0.2 (0.3%) | 3.5 to 4.0 |
+
+Millions of koku. *Canon's crop* is our timeline's raised by CR-082's requirement, which CR-085 D1 meets with Hokkaido's early paddy, bean cake and Japan's own nitrogen; with it Japan's home rice covers its need to within about a hundredth in 1932, without colonies. Hokkaido's crop is CR-085's band; how much of it is above our timeline's Hokkaido crop is OPEN, because that series is not entered.
+
+`[japan]` canon series: MODEL. The uplifts are CR-082's requirement as CR-085 D1 meets it (Hokkaido's early paddy, bean cake, nitrate on upland crops, Japan's own nitrogen from 1908, no colonial rice after 1920); Hokkaido's crop is CR-085's band. How much of Hokkaido's crop is above our timeline's is OPEN: our timeline's Hokkaido series is not entered.
+
 ## 6. The Philippine crown, from 1908 (its own ledger)
 
 | Year | People | Fed from its own land | Balance |
@@ -210,6 +222,7 @@ Together these sellers are 95% of the world's trade in grain and soybeans today 
 - **Mouths fed in the Realm: 0.** The wheat is resold in Asia. Abroad it is bread for 1.0 million on the Realm's diet, which is the cabinet's second figure for the contract (CR-083 A12).
 - **Giannini's case.** The Realm itself sells 3.0 million tonnes abroad in 1932. The board's wheat is 33% of that, sold to the same buyers.
 - **Article II** (CR-086 D6) feeds no one in the Realm. Its schedule is this contract, New Zealand's crop guarantee and the private houses' Pampas contracts; the Pampas volumes are not modelled.
+- **Caledonia's own people** (CR-083 Part E) are outside the Realm's count. Our timeline's census of 1931 gives 0.70 million for British Columbia and the Yukon. With sixty years of Pacifican rail, capital and interior settlement the republic of 1932 is put at 0.84 million (0.77 to 0.91), of whom about 0.14 million are on the Island. MODEL. The census figures are our timeline's; the uplift is a story assumption the author approved on 24 November 2026 (15:54: 'I approve your population assumption for Caledonia.').
 
 `[endgame]`: MODEL. The tonnage is the author's of 24 November 2026; the price is the drafter's proposal; Canada's exports are as in the sellers' list.
 

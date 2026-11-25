@@ -2,6 +2,8 @@
 
 **Status:** OUTLINE, 20 November 2026; integrated 21 November 2026; **under revision 22 November 2026** against the guiding principle below (Part D: all of G-1 to G-14 approved and integrated on 22 November 2026; M1–M4 applied). Parts A and B are decided (A7, B10); Part C (the political timeline) is drafted and revised after its fresh-context review, with decisions P-1 to P-30. P-1 to P-3 were approved on 21 November 2026, and the same day the author chose Option 1 for the end of the Qing (C2a: Guangxu dies in November 1908 as in history and the dynasty ends in 1911–12). P-4a to P-4c, P-4e (Julian after November 1908) and P-5a (the trusteeship's governance) were approved at 10:50 the same day. At 12:04 the author approved P-5 to P-30 as recommended, with the Customs' own guards at Canton in P-12, canon tension 1 in case A and canon tension 3 in case B. The C8 questions are being settled. Nothing in Part C is decided beyond what is marked *canon*.
 
+**Amended by CR-084 and CR-086 (24 November 2026):** the British retrenchment of 1932 excludes Hong Kong; Nanjing enters a reservation that it does not recognize the legal status of Hong Kong or the New Territories, and the Concord makes no commitment touching any dispute between China and Britain. CR-082's southern renunciation is withdrawn by CR-084. China signs the Final Act (its signature of both articles is PROPOSED) and keeps a dual monetary track (CR-086). Where this record says otherwise, those records and the storyline govern.
+
 **Number:** CR-081. CR-080 (the partners' CR) is parked; its China part shrinks to what Japan, Korea and Russia need from China.
 
 **Method (author, 13:41):** three layers in order. Parts B and C are drafted only once Part A is decided.

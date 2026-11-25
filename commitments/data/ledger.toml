@@ -3928,7 +3928,7 @@ quote = "Julian assembles a $600m San Francisco credit, a third from the Treasur
 more_quotes = [
   "Japan's government guarantees it; a stabilization agency lends it on to the rebuilt banks, which repay it in five instalments from 1929 to 1933.",
   "The Senate votes the rescue loan but refuses the treaty",
-  "The fourth and fifth instalments, of 1932 and 1933, fall after the yen's reset and weigh a quarter to a third more in yen; the stabilization agency and the Bank of Japan lend the banks yen, so that they pay San Francisco on schedule and there is no new run.",
+  "The fourth and fifth instalments, of 1932 and 1933, fall after the yen's reset and weigh about a quarter more in yen; the stabilization agency and the Bank of Japan lend the banks yen, so that they pay San Francisco on schedule and there is no new run.",
 ]
 open = "About $497m drawn is MODEL. Interest not stated. The instalments of 1932 and 1933 after the yen's reset are PROPOSED (CR-085); who bears the exchange loss, the agency or the Treasury, is OPEN."
 
@@ -4159,7 +4159,7 @@ parties = ["GULF", "PAC"]
 from = 1932
 owes = [
   { by = "PAC", to = "GULF", what = "help to support prices, without admitting the Republic; a floor under the price rather than cut output" },
-  { by = "PAC", to = "GULF", what = "PROPOSED (CR-084): for five years, 1932 to 1937, the oil trust's liftings of Gulf crude do not fall below a stated share of its average of 1929–31, at posted prices never below the compact's floor and inside the fifty-five percent ceiling; countersigned by the Realm with two-thirds of the Senate" },
+  { by = "PAC", to = "GULF", what = "PROPOSED (CR-084): for five years, 1932 to 1937, the oil trust's liftings of Gulf crude do not fall below three-quarters of its average of 1929–31 (the share approved by the author, 24 November 2026), at posted prices never below the compact's floor and inside the fifty-five percent ceiling; countersigned by the Realm with two-thirds of the Senate" },
 ]
 renewals = [1937]
 status = "CANON"
@@ -4167,11 +4167,11 @@ section = 34
 quote = "The Gulf's oil compact arrives in 1932, after a year of ten-cent East Texas oil and the 1931 break in its general-measures streak."
 more_quotes = [
   "Pacifica helps support prices without admitting the Republic.",
-  "In the compact the Republic also wins an undertaking from Pacifica's oil trust, countersigned by the Realm: for five years, to 1937, the trust's liftings of Gulf crude do not fall below a stated share of its average of 1929–31.",
+  "In the compact the Republic also wins an undertaking from Pacifica's oil trust, countersigned by the Realm: for five years, to 1937, the trust's liftings of Gulf crude do not fall below **[APPROVED — CR-084]** three-quarters **[PROPOSED — CR-084]** of its average of 1929–31.",
   "The Realm countersigns with the Senate's two-thirds, and the Navy's fuel contract stands behind the undertaking.",
   "The undertaking the Republic wins from the trust in 1932, a floor under its liftings of Gulf crude for five years, is written inside this ceiling.",
 ]
-open = "Floor price and term of the compact not stated in the storyline (the workbooks use $0.95 a barrel). The five-year undertaking is PROPOSED and its share OPEN (energy workbook, `compact_on`/`compact_cut`); `renewals` marks its end in 1937."
+open = "Floor price and term of the compact not stated in the storyline (the workbooks use $0.95 a barrel). The five-year undertaking is PROPOSED; its share, three-quarters, is the author's of 24 November 2026 and sits just under the liftings of 1932 in the energy workbook (80% of the 1929–31 average, MODEL); `renewals` marks its end in 1937."
 
 [[commitment]]
 id = "C-1932-CONCORD-RENEWAL"
@@ -5096,9 +5096,9 @@ more_quotes = [
   "The contract has no stated term until 1932, when the Trilateral Treaty of Thalassia gives it fifty years and a higher royalty to Canada",
   "The Works' exclusive contract at Great Bear Lake, which had no stated term, is given one of fifty years from 1932, with a higher royalty to Canada",
   "The company is the Mackenzie Radium and Silver Company, and its ore goes out by river barge in the summer.",
-  "The count leaves out Great Bear, put at 200 to 350 tonnes of uranium to 1932",
+  "295 from Great Bear from 1913",
 ]
-open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated. CR-083: no term until C-1932-TRILATERAL-THALASSIA gives it fifty years from 1932 (to 1982); the new royalty's rate is OPEN. The year (about 1912) is PROPOSED. CR-086: the company's name (the Mackenzie Radium and Silver Company) and the summer barge route are PROPOSED; its tonnage to 1932 (200 to 350 tonnes, a placeholder) and the railhead it used in the 1910s are OPEN."
+open = "The year (about 1912) is PROPOSED; the company's name and the volumes are not stated. CR-083: no term until C-1932-TRILATERAL-THALASSIA gives it fifty years from 1932 (to 1982); the new royalty's rate is OPEN. The year (about 1912) is PROPOSED. CR-086: the company's name (the Mackenzie Radium and Silver Company) and the summer barge route are PROPOSED; its ore to 1932 is 295 tonnes of uranium (MODEL; author, 24 November 2026) and in the 1910s its ore reaches the railway at Athabasca Landing (Canadian Northern, 1912; PROPOSED)."
 until = 1982
 
 [[commitment]]
@@ -7533,7 +7533,7 @@ more_quotes = [
   "the King's ratification of the retrenchment treaty and of the Final Act is deposited at Thalassia.",
   "Britain also quitclaims what remains of its overlapping claims in the Phoenix group",
 ]
-open = "Term not stated. The protocol's eastern meridian (155° or 156° W) and what stands at Apia, Rabaul and Nauru on 1 January 1932 are OPEN. New Zealand's rebate is PROPOSED and its sum OPEN. The floating dock's fate and the Malacca clause's scheduling are PROPOSED. Which Phoenix islands are quitclaimed (Canton, Gardner, Hull, Sydney) is PROPOSED. CN is a party only as to its reservation; AU and NZ accede to the protocol. The Concord's two crowns are recorded as CROWN and JP."
+open = "Term not stated. The protocol's eastern meridian is 155° W, and on 1 January 1932 Apia has a wireless and coaling station, Rabaul an administrator's post and a harbour, and Nauru its phosphate works (author, 24 November 2026, 20:30). New Zealand's rebate is PROPOSED and its sum OPEN. The floating dock's fate and the Malacca clause's scheduling are PROPOSED. Which Phoenix islands are quitclaimed (Canton, Gardner, Hull, Sydney) is PROPOSED. CN is a party only as to its reservation; AU and NZ accede to the protocol. The Concord's two crowns are recorded as CROWN and JP."
 
 [[commitment]]
 id = "C-1932-LABUAN-LEASE"
@@ -7590,7 +7590,7 @@ more_quotes = [
   "The Pacific Cable's station on Fanning is leased back to Imperial and International Communications, which ends Britain's rule of an all-British Pacific cable over the Admiralty's protest.",
   "The buyout and the labour compact are executed in July and take effect, with the detachment, on the deposit of the King's ratification.",
 ]
-open = "Whether the estate is bought or re-leased, the valuation and the cable lease's term and rent are not stated (the buyout sum is a financial-workbook task). Whether the cipher room reads the dominions' traffic at Fanning is OPEN (T-B5c)."
+open = "Whether the estate is bought or re-leased, the valuation and the cable lease's term and rent are not stated (the buyout sum is a financial-workbook task). The cipher room does not read the dominions' traffic at Fanning (T-B5c; author, 24 November 2026, 20:30)."
 
 [[commitment]]
 id = "C-1932-TONGA-FRIENDSHIP"
@@ -7703,7 +7703,7 @@ parties = ["PH", "PAC", "CN"]
 from = 1906
 owes = [
   { by = "PAC", to = "CN", what = "a sea cable of Carquinez gutta-percha from Manila, laid by the Realm's telegraph estate and the Philippine administration" },
-  { by = "CN", to = "PAC", what = "a landing near the mouth of the Yangtze, where China's Imperial Telegraph Administration owns and works the shore end and the Shanghai office" },
+  { by = "CN", to = "PAC", what = "a landing at Woosung, where the Huangpu meets the Yangtze and China's Imperial Telegraph Administration owns and works the shore end and the Shanghai office" },
 ]
 status = "PROPOSED"
 cr = "CR-085"
@@ -7990,7 +7990,7 @@ more_quotes = [
   "In 1932 the rule of never denying is published and voted as Article II of the Final Act of Thalassia, and the aim stays unstated.",
 ]
 label_note = "The text of the article is PROPOSED (CR-086 F-9, item 13). APPROVED within it: the food order as the ending (F-1), the fourth undertaking against conditions (F-12), the meaning of 'in peace' (F-17), the definition of a concession, the saving of treaties in force and the footing of non-signatories on the schedule (F-14), and the binding form on the sufficers' price in late May (F-16)."
-open = "Term not stated. The mouths-fed figure is OPEN. The schedule's entries for the prairie wheat contract and the straits are CR-083's and CR-084's instruments."
+open = "Term not stated. None is fed in the Realm; abroad the article guarantees what its schedule carries, of which the prairie contract is bread for about a million (MODELauthor, 24 November 2026, 20:30). The schedule's entries for the prairie wheat contract and the straits are CR-083's and CR-084's instruments."
 
 [[commitment]]
 id = "C-1926-BRAZIL-MONAZITE"

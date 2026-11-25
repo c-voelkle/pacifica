@@ -41,6 +41,19 @@ independence: same-agent (one writer revised all four drafts; no review was run)
 
 ## Resume here
 
+State on 24 November 2026, evening (this block supersedes the ones below):
+
+- Pull requests 88 (integration, `571726f`) and 89 (workbooks, `b1c91db`) are merged on `main`.
+- Branch `followups/cr083-087`: the integration review's remaining minor items and the 1932 trajectories (Victoria, Julian, a new entry for Kaʻiulani); amendment notes on CR-019, 021, 022, 029, 040, 052, 053, 057, 074, 077 and the CR-081 outline; about thirty items in the historical background checked against sources (the Indies' loan of 1923 was £6m in London, not dollars); `book-agent/revision/CR-083-087-open-questions.md`, a decision sheet for the closing items 39 to 42, waiting on the author.
+- Still from memory: the items left unmarked in the four "From memory, to be sourced" lists; the pound's yearly average for 1932.
+
+State on 24 November 2026, after the merge and the workbook rebuild (this block supersedes the ones below):
+
+- Pull request 88 is merged (`571726f` on `main`): CR-083 to CR-087 are canon.
+- The workbooks were rebuilt on branch `workbooks/cr083-087` (author, 14:56). `finance/CR-083-086-workbook.md` ends with what changed and what is still not entered and why. Story 0 failed checks, Stress 51.
+- Waiting on the author: Caledonia's population uplift (PROPOSED, a fifth above our timeline's census); sizes for the items the CRs leave without a figure (the fleet saving, the Indies bond, the Gulf's stated share, Seria and East Borneo tonnages).
+- Still open from the integration: amendment notes on the older decision records CR-084 lists; sources marked "from memory"; the review's leftover minor items.
+
 State on 24 November 2026, after integration stage 2 (this block supersedes the ones below):
 
 - The author approved all five CRs at 13:08 ("All the CRs are approved and can be integrated."), chose one integration branch and one pull request (13:15) and parallel writers with reconciliation (13:37).

@@ -10,7 +10,7 @@ engine -> Deseret (deseret_gathering.py: the gathering after 1887 and the Saints
 -> the Pacific Companies (cr074_companies.py, CR-074, 18 November 2026)
 -> drink and coffee (cr076_drink_coffee.py, CR-076, 19 November 2026; a memo sheet that feeds nothing)
 -> China's loans and provisioning (cr081_082_provisioning.py, CR-081 and CR-082, 22 November 2026)
--> the endgame of 1931-32 (cr083_086_endgame.py, CR-083 to CR-086, drafts, 24 November 2026)
+-> the endgame of 1931-32 (cr083_086_endgame.py, CR-083 to CR-086, approved and rebuilt on main on 24 November 2026)
 -> LibreOffice -> extract -> energy workbook -> LibreOffice -> export. Stops when the energy outputs move by
 less than --tol (relative). The last pass also runs cr056_layers.py (the Layers sheet) on the CR-056 build and
 carries its sheet into the final workbook. Writes the two workbooks in place in the repository.
