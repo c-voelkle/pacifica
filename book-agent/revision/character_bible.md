@@ -435,7 +435,7 @@ The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili 
 The lost Kalanimoku is CT-LOST-SON. Julian and Chiyo’s later heir is Kahekili / Ikazuchi, retaining stable ID CT-KALANIMOKU-HEIR after the CR-021 name change. Julian succeeds Victoria directly in 1907. No former sovereign, hypothetical father or claimant genealogy is silently transferred to either child.
 
 ### CT-CHIYO — Empress Chiyo, Julian’s wife and Concord patron
-**Status:** Marriage, Kuroda branch, naval patronage, household ties and Concord role approved; private biography remains unspecified. Born in Japan into the kazoku, she belongs to another Kuroda branch, not Kiyoshi's blood or the Japanese emperor's direct line. Kiyoshi arranges her marriage to Julian in 1915. Their son is Kahekili, 雷 (Ikazuchi), future Kamehameha VII; the c.1916 birth remains a working date.
+**Status:** Marriage, Kuroda branch, naval patronage, household ties and Concord role approved; private biography remains unspecified. Born in Japan into the kazoku, she belongs to another Kuroda branch, not Kiyoshi's blood or the Japanese emperor's direct line. Kiyoshi arranges her marriage to Julian in November 1907. Their son is Kahekili, 雷 (Ikazuchi), future Kamehameha VII; the c.1916 birth remains a working date.
 
 Japanese becomes the household language. Chiyo gives Japanese-origin officers and financiers access in Thalassia and credentials at home. After Hirohito's 1924 marriage she becomes Nagako's confidante, extending the monarchs' friendship to the households. Her son's collateral-imperial betrothal offers a long dynastic future without a merged crown or entry into Japan's succession.
 
