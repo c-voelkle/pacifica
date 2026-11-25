@@ -20,8 +20,12 @@
 4. **The Pacific noodle soup.** Where Cantonese and Japanese cooks meet decades earlier than in Tokyo (Rairaiken, 1910), in Honolulu's and San Francisco's halls from the 1880s, a noodle soup on dashi-and-pork broth becomes the working day's lunch. *Hist.:* Hawaii's saimin, from the plantation camps (to verify). Each county's version is a fair class.
 5. **The cutlet and the croquette, the other way round.** Japan made Anglo-American dishes its own. In the Realm, Japanese cooks run the cheap Western-style cafés of the coast and make crab croquettes, pork cutlets with shredded cabbage, and omelettes over rice the Realm's diner food. *Hist.:* *kani korokke* and the *yōshoku* canon (CWI pp.48–49; to verify the crab croquette's date). It is yōshoku travelling back across the Pacific, a hybrid that keeps its makers because the makers are Pacificans.
 6. **The founders' breakfast.** Hangtown fry (oysters, eggs and bacon, the Gold Rush's luxury breakfast; to verify) as the dish served on 1 August, the Constitution's day. It is a settlers' and miners' dish, not a court's, and it honours the interior on the Realm's feast.
-7. **The orchard course.** What the Savoy did once with golden scissors (RITZ ch9.10) is the Realm's ordinary last course: fruit served ripe from the tree in season, by county and mark. The Realm's pride is that its fruit is eaten as New York "never has known how good California fruit ought rightfully to be" (REES ch12.21).
+7. **~~The orchard course.~~** *Withdrawn (author, 09:56: "just fruit is kind of a lazy dessert"; creativity should flourish here). Replaced by the pastry proposals below.* What the Savoy did once with golden scissors (RITZ ch9.10) is the Realm's ordinary last course: fruit served ripe from the tree in season, by county and mark. The Realm's pride is that its fruit is eaten as New York "never has known how good California fruit ought rightfully to be" (REES ch12.21).
 8. **Shave ice and the people's ice cream.** Machine ice in every town, Hawaii's Japanese *kakigōri* with fruit syrups (*Hist.*: Hawaii's plantation shave ice; to verify), and dairy ice cream from the household refrigerator. The pineapple, Delmonico's exotic (LEV p.12), is the Realm's commonest fruit dessert.
+
+## Author's decision (25 November 2026, 09:56)
+
+"These are all good, except the orchard course": proposals 1–6 and 8–12 approved in direction, the orchard course withdrawn. The naming rule is read as covered unless the author says otherwise.
 
 ## Proposals: signature experiences (all PROPOSED)
 
@@ -49,3 +53,32 @@ The Realm keeps Escoffier's custom of naming dishes, with the earned cup's ethic
 | The station-box ranking | Press estate's annual list | Travellers' scores and tasters | Railway companies and station caterers |
 | Challenge evenings | Guilds and the Polytechnic | Blind tasting of a stated claim | Schools of method |
 | Abroad | Paris exhibitions; the Ritz kitchen; Hayama | Foreign juries and guests | The guild fellows; the Realm's kitchens |
+
+## Desserts and pastry: proposals replacing the orchard course (PROPOSED, 25 November 2026)
+
+What the books add:
+- Paris judged its pastry by the eye: sugar temples on wooden frames, nougat cornucopias, prizes for display, and nobody tasted them (TRUB pp.121–122).
+- Escoffier's desserts were theatre on a base of technique: Pêche Melba on a swan of carved ice, Pêches Alexandra under a veil of spun sugar and rose petals, ice-cream bricks frozen and sliced, the omelette *en surprise* (RITZ ch9.4, ch16.1, ch22.4).
+- Delmonico's meringue over ice cream was the "Alaska, Florida" (RITZ ch9.4); in our timeline it is said to be named for the purchase of 1867.
+- A 1920s Japanese recipe for sweet azuki soup with milk, crushed mochi and vanilla "never really caught on" (CWI p.108).
+
+The proposals:
+1. **The Sitka.** The meringue over ice cream is named, under the naming rule, for the deed it honours: the flag change at Sitka in October 1867, since in canon the Realm, not the Union, buys Alaska. Kona coffee ice cream inside; the meringue browned at the table with a hot iron, not flamed (`CR-076`).
+2. **Azuki cream.** The Japanese bean and the French cream meet where both are cheap and the household refrigerator is common: azuki bavarois, azuki and chestnut, azuki ice cream with mochi. The recipe that failed in milk-shy Japan (CWI p.108) succeeds in the Realm's dairy towns.
+3. **The coffee halls' torte.** Pacifica is the coffee country (`CR-076`), and its dry county halls have coffee counters. The halls' earned treat is a layered coffee-and-cream torte with laminated or sponge layers, and each county hall's version is a fair class.
+4. **The Lusitanian line in Hawaiʻi.** Portuguese sweet bread and malasadas (Hawaii's Madeiran families from 1878; to verify), Nagasaki's castella (Portuguese in origin; to verify) and the Macao egg tart meet in Honolulu's bakeries as one family of Pacific–Portuguese pastry.
+5. **The Californio sweets.** Flan, cajeta and churros with chocolate; with them the Basque gâteau and *leche frita* of the interior's boarding houses.
+6. **San Francisco's chocolate.** Ghirardelli (1852) and Guittard (1868; both to verify), with cacao from the Philippine crown, make the Realm's chocolate and bonbon guilds. Chocolate is a marked good under `CR-089` A6.
+7. **The engineered cake.** An oil sponge, light and lean, as a structural invention of a home baker (*Hist.*: Harry Baker's chiffon cake, Los Angeles, 1927, kept secret until 1947; to verify). It opens the agon's hardest question, the secret method against the published one (below).
+8. **Coconut and the Crown kitchens.** Haupia (coconut pudding; to verify) taken into French technique: coconut blancmange, coconut and pineapple in the Hawaiian Crown's state dinners.
+9. **The growers' recipe contest.** The pineapple growers' cooperative invites recipes from the whole Realm and prints the winners. *Hist.:* Dole's contest of 1925, from which pineapple upside-down cake spread (to verify).
+10. **The frozen course as an art.** With freezers in the halls and hotels, bombes, parfaits and layered ices become the pâtissier's main test. Shave ice (proposal 8 above) is its everyday cousin.
+
+**The pastry contest's rule.** Every element must be edible and is tasted, against Paris's sugar temples. Structure is admired only if it survives the spoon.
+
+**The agon's hardest question: the secret method.** The Realm licenses patents openly (`CR-057`) and publishes its measures, but a cook's method is his capital. Options:
+- (a) A master's dish enters the guild register with its method deposited under seal for a fixed term (say ten years), then published. This is a patent's bargain for the kitchen. *Recommended.*
+- (b) Methods stay private; only results are judged.
+- (c) Every prizewinner publishes at once.
+
+Under (a), the chiffon-type cake is a story: its home inventor refuses to deposit the method, and so cannot be registered as a master.
