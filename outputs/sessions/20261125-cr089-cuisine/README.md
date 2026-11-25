@@ -20,4 +20,5 @@
 - Second fresh-context review done (`CR-089-review-2.md`): nearly ready, no blocker, S1–S10 and a minor list. Revision 6 answers them (commit 56d4543). Preflight 0 errors.
 - 12:51: D-10, D-12–18, D-20b, D-21–23, D-28, D-30 approved; D-19/D-35 reopened (is the French-style marks act needed? a better Realm standard?); chronology and the engineering-and-brigade dynamic requested. Rath's *Oishii* added (key RATH in /home/claude/research/units2.json; sweep queries in `research-notes/Q11-sushi-queries.json`).
 - Done: revision 7 (`A13` chronology, `A14` engineering and the guilds, `T-MARK-1` Case C the Truth of Labels Act, cast `A15`).
-- Next: the author's choice on `T-MARK-1` (A or C); then the remaining PROPOSED particulars; then integration.
+- 13:36: `T-MARK-1` Case C approved; revision 8 writes it in (`A6` the Truth of Labels Act, `C6` the Napa petition). Third fresh-context review requested (`CR-089-review-3.md`).
+- Next: the third review's findings; then the remaining PROPOSED particulars; then integration.
