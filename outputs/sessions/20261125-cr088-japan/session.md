@@ -6,7 +6,7 @@ mode: draft
 status: paused-for-author
 baseline:
   commit: 5d281dc
-independence: same-agent (the review of revision 3 and the revisions since were written in one context; no fresh-context review has run on revision 5)
+independence: fresh-context review of revision 15 by a separate agent (27 November 2026; report `review-rev15.md`); the revisions were written in one context
 ---
 
 # CR-088: review, plan and revisions toward a draft ready for fresh-context review
@@ -48,6 +48,8 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 5: D-17 to D-23 written in; the corrections on `book-agent/revision/CR-088-decisions-rev5.md` made; `T-EDO-1` added; the Perry pattern now catches `L300`. Preflight 0 errors (warnings: five new persons awaiting registry entries at integration; `CR-089` not yet on `main`).
 - Research, steps 8 and 9: `research-grievances.md` (twenty-eight grievances, our timeline's humiliations set beside canon, sources) and `research-gains.md` (the ledger of Japan's gains with a Japanese actor for each, the opponents, sources).
 
+- Fresh-context review of revision 15 (27 November): not ready, four blockers, fifteen should-fix, about twenty-five nits (`review-rev15.md`). Author's decisions, 07:29: Kalākaua Case A (canon's Oceanian union and Prince Komatsu kept); the side-payment and shortfall rules as he stated them; Chico in Three Forks County; the rest of the fixes as recommended (D-37).
+- Revision 16 (27 November): the review's round applied: every blocker, should-fix item and nit. Preflight 0 errors.
 - Revision 15 (27 November, 06:41): `T-AINU-1` Case B decided by the author ("Move them in now"); its two fact changes moved into `## Fact changes` (D-7). `preflight.py` fixed to read the registry's `people` (separate commit, with a regression test); its registry warnings now name only the seven persons to be registered. Preflight 0 errors; unit tests pass.
 - Revision 14 (27 November, step 16): bookkeeping brought in line with revisions 4–13: impact notes (the preview's one tracked passage, `L300`; Chichibu, the skyline, Shōkin-jan's home, Hawaii's convention), the interface re-checked against `CR-089` revision 10 (no overlap), the ledger (`C-1858-EDO`, `C-1870-JP-ALLIANCE`, `C-1881-TOKYO-EMIGRATION` now `HI`–`JP` only, `C-1906-SEISMIC-CODE`), registry notes for Peirce, Kiyoshi and Kaʻiulani, D-2, D-13, D-14 and D-15 marked superseded where later decisions replaced them, sources extended and four links repaired. Preflight 0 errors; its eight registry warnings are false (preflight reads `characters`, the registry's key is `people`).
 - Revision 13 (27 November, 06:30): the Category Knife (S28), the Maturity Draw on a taken Renewal, valued as a ron (S17), the contested Window in turn order (S29); A.10 notes, `A3.6`, the 1928 set piece and D-36 follow. The pasted rule revision 15 was folded in as deltas only, since it was written from the revision 14 note. Preflight 0 errors.
@@ -66,4 +68,5 @@ independence: same-agent (the review of revision 3 and the revisions since were 
 - Revision 14: step 16 done (bookkeeping). Preflight 0 errors.
 - Open for the author: the settings still marked Proposed in A.9 (S1–S3, S5, S8–S10, S14, the scale of S19).
 - Revision 15: `T-AINU-1` decided, facts moved; preflight's registry check fixed.
-- Next step of the plan: step 17 (fresh-context review). Waiting on the author: the Shōkin-jan settings marked Proposed in A.9.
+- Revision 16: the fresh-context review's round applied (D-37). Preflight 0 errors.
+- Next: the author's approval of CR-088, or a second fresh-context review of revision 16. Still marked Proposed: Shōkin-jan settings S1–S3, S5, S8–S10, S14, the S19 scale, S31, S32.
