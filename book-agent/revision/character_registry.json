@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 397,
+    "canonical_dossiers": 406,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 391
+    "active_or_provisional_identities": 400
   },
   "people": [
     {
@@ -180,7 +180,8 @@
         "CR-049",
         "CR-050",
         "CR-051",
-        "CR-071"
+        "CR-071",
+        "CR-089"
       ],
       "aliases": [
         "Victoria",
@@ -560,7 +561,8 @@
       "source_authority": [
         "CR-020",
         "CR-021",
-        "CR-027"
+        "CR-027",
+        "CR-089"
       ]
     },
     {
@@ -2527,7 +2529,8 @@
         "CR-018",
         "CR-019",
         "CR-020",
-        "CR-051"
+        "CR-051",
+        "CR-089"
       ]
     },
     {
@@ -2958,7 +2961,8 @@
       "source_authority": [
         "CR-027",
         "CR-043",
-        "CR-088"
+        "CR-088",
+        "CR-089"
       ]
     },
     {
@@ -6396,7 +6400,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-076"
+        "CR-076",
+        "CR-089"
       ]
     },
     {
@@ -6926,7 +6931,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-082"
+        "CR-082",
+        "CR-089"
       ]
     },
     {
@@ -6946,7 +6952,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-082"
+        "CR-082",
+        "CR-089"
       ]
     },
     {
@@ -7384,7 +7391,8 @@
       "legacy_conflicts": [],
       "source_authority": [
         "CR-085",
-        "CR-088"
+        "CR-088",
+        "CR-089"
       ]
     },
     {
@@ -7592,40 +7600,171 @@
       "source_authority": [
         "CR-088"
       ]
+    },
+    {
+      "id": "CT-TAKAKI-KANEHIRO",
+      "display_name": "Takaki Kanehiro, Surgeon-General of the Imperial Japanese Navy",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-TAKAKI-KANEHIRO",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born 1849, died 1920 (*hist.*; the *Tsukuba* voyage of 1884, from and to Shinagawa, 14 mild cases and no deaths among 333 men). APPROVED: Pacifica's naval surgeons see her sick lists at Honolulu, her last port, and Pacifica's navy adopts his ration on its own authority. **Character use:** proof by measurement, carried across the ocean. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-AH-BING",
+      "display_name": "Ah Bing, Seth Lewelling's foreman at Milwaukie",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-AH-BING",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born about 1848 (*hist.*; his home province uncertain, to verify); the Bing cherry of 1875 (*hist.*; how far it is his is disputed). PROPOSED: in the Realm he visits his family in 1889 and comes back, since no law bars his return. **Character use:** the Exclusion that did not happen, in one man's journey. **Open:** his province; scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-GENNOSUKE-KODANI",
+      "display_name": "Gennosuke Kodani, Japanese fisheries man at Point Lobos",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-GENNOSUKE-KODANI",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Abalone diving and canning at Point Lobos from 1897 (*hist.*; dates to verify), some ten kilometres from Point Alones's Chinese fishery. PROPOSED: his divers' raw and steamed abalone is one of the three schools at Monterey's abalone day. **Character use:** the coast's peoples side by side. **Open:** dates; scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-GEORGE-SHIMA",
+      "display_name": "George Shima (Ushijima Kinji), the Delta's Potato King",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-GEORGE-SHIMA",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born 1864, died 1926 (*hist.*). APPROVED: from 1889, after Chin Lung, he makes a potato fortune on the Delta's peat islands. **Character use:** the Japanese farmer as magnate. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-AKIYAMA-TOKUZO",
+      "display_name": "Akiyama Tokuzō, the Emperor's chef",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-AKIYAMA-TOKUZO",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born 1888, died 1974 (*hist.*; trained in Europe 1909–13, the Emperor's chef from 1913). APPROVED: he trains beside the Realm's guild fellows, in the Ritz kitchen among others, and comes home through San Francisco in 1913; his kitchen gives the Emperor's dinner for Julian at Hayama in June 1932, and nobody mentions the treaty at table. **Character use:** the Realm's cooks' rival and ally abroad. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-IKEDA-KIKUNAE",
+      "display_name": "Ikeda Kikunae, chemist of umami",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-IKEDA-KIKUNAE",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born 1864, died 1936 (*hist.*; isolates glutamate from kombu at Tokyo and names umami in 1908). APPROVED: at the powder-or-pot tasting at Carquinez about 1912 he declines to say which consommé he prefers; the pot keeps the prizes and the powder wins the halls. **Character use:** the scientist who will not take sides in the kitchen. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-TAKAMINE-JOKICHI",
+      "display_name": "Takamine Jōkichi, chemist",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-TAKAMINE-JOKICHI",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born 1854, died 1922 (*hist.*; Takadiastase from koji on wheat bran, 1894). PROPOSED: a fellow of the agricultural college's fermentation station from about 1890, so his station work is licensed at the one royalty; his koji spirit fails. **Character use:** fermentation as an industry of the open licence. **Open:** his adrenaline work (the science CRs); scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-LEE-KUM-SHEUNG",
+      "display_name": "Lee Kum Sheung, maker of oyster sauce",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-LEE-KUM-SHEUNG",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Oyster sauce at Nanshui from 1888 and at Macao from 1902 (*hist.*; dates to verify, not entered). PROPOSED: about 1902 his agents bring the Assay Office's label case against San Francisco's imitators, who lose the name; his house registers its trademark in the Realm with Macao stated on every bottle. **Character use:** the labels act seen from a foreign maker's side. **Open:** dates; scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
+    },
+    {
+      "id": "CT-WU-YUNCHU",
+      "display_name": "Wu Yunchu, chemist at Shanghai",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WU-YUNCHU",
+      "narrative_profile": "Historical person in alternate history; CR-089, approved for integration 27 November 2026, local labels retained. Born 1891, died 1953 (*hist.*, to verify; Tianchu glutamate from wheat gluten, 1923, patents abroad from 1926). PROPOSED: his powder is in the Realm's Chinese kitchens from 1925, after the State Assay Office's test. **Character use:** the second powder. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-089"
+      ]
     }
   ],
   "updated_on": "2026-11-27",
   "character_revision": {
-    "request": "CR-088",
-    "source": "CR-088.md; author approval of 27 November 2026 (\"I approve the CR for integration.\")",
+    "request": "CR-089",
+    "source": "CR-089.md; author approval of 27 November 2026, 15:05 (\"I approve D40 - please proceed to integrate CR-089\")",
     "status": "approved_integrated",
     "updated_ids": [
-      "CT-ABE",
-      "CT-CHARLES-PEIRCE",
-      "CT-CHICHIBU",
-      "CT-DAVID-KALAKAUA",
-      "CT-GEORGE-BEAUCHAMP",
-      "CT-JOHN-VON-NEUMANN",
-      "CT-JOSEPH-KEKUKU",
+      "CT-ELWOOD-MEAD",
+      "CT-EUGENE-HILGARD",
+      "CT-HOOVER",
+      "CT-KAIULANI",
       "CT-KAIULANI-CLEGHORN",
-      "CT-KASHIWAGI",
-      "CT-KIYOSHI",
-      "CT-KURODA-SON",
-      "CT-LEONARD-FULLER",
-      "CT-OMORI-FUSAKICHI",
+      "CT-KEAWE",
       "CT-SATO-SHOSUKE",
-      "CT-SOPHIA-LEVY"
+      "CT-SATORI-KATO",
+      "CT-CHIYO"
     ],
     "new_ids": [
-      "CT-YEMYO-IMAMURA",
-      "CT-SANO-TOSHIKATA",
-      "CT-NAITO-TACHU",
-      "CT-ABE-ISOO",
-      "CT-OTHMAR-AMMANN",
-      "CT-NITOBE-INAZO",
-      "CT-GONDO-SEIKYO"
+      "CT-TAKAKI-KANEHIRO",
+      "CT-AH-BING",
+      "CT-GENNOSUKE-KODANI",
+      "CT-GEORGE-SHIMA",
+      "CT-AKIYAMA-TOKUZO",
+      "CT-IKEDA-KIKUNAE",
+      "CT-TAKAMINE-JOKICHI",
+      "CT-LEE-KUM-SHEUNG",
+      "CT-WU-YUNCHU"
     ],
-    "limits": "Notes on existing people stand in the character bible's CR-088 section; CT-KURODA-SON's dossier gains his name and profile. Only persons the CR registers are added; the background figures stay unregistered."
+    "limits": "Notes on existing people stand in the character bible's CR-089 section; CT-CHIYO's marriage date corrected to November 1907 on the draft branch. Only persons the CR registers are added."
   },
   "character_revision_history": [
     {
@@ -8350,6 +8489,38 @@
         "CT-ALBERTO-PANI"
       ],
       "limits": "Notes on existing people stand in the character bible's CR-083 to CR-087 section and the registry profiles are changed only where retired wording had to go (the renewal of 1932; Hoare's character use). Only persons the drafts register are added. Kiyoshi's son's given name, the common Navy and Finance ministers' names and Giannini's link stay OPEN."
+    },
+    {
+      "request": "CR-088",
+      "source": "CR-088.md; author approval of 27 November 2026 (\"I approve the CR for integration.\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-ABE",
+        "CT-CHARLES-PEIRCE",
+        "CT-CHICHIBU",
+        "CT-DAVID-KALAKAUA",
+        "CT-GEORGE-BEAUCHAMP",
+        "CT-JOHN-VON-NEUMANN",
+        "CT-JOSEPH-KEKUKU",
+        "CT-KAIULANI-CLEGHORN",
+        "CT-KASHIWAGI",
+        "CT-KIYOSHI",
+        "CT-KURODA-SON",
+        "CT-LEONARD-FULLER",
+        "CT-OMORI-FUSAKICHI",
+        "CT-SATO-SHOSUKE",
+        "CT-SOPHIA-LEVY"
+      ],
+      "new_ids": [
+        "CT-YEMYO-IMAMURA",
+        "CT-SANO-TOSHIKATA",
+        "CT-NAITO-TACHU",
+        "CT-ABE-ISOO",
+        "CT-OTHMAR-AMMANN",
+        "CT-NITOBE-INAZO",
+        "CT-GONDO-SEIKYO"
+      ],
+      "limits": "Notes on existing people stand in the character bible's CR-088 section; CT-KURODA-SON's dossier gains his name and profile. Only persons the CR registers are added; the background figures stay unregistered."
     }
   ],
   "institutional_groups": [

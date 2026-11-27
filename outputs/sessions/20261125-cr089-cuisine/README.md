@@ -9,6 +9,8 @@
 
 ## Resume here
 
+- 27 November 2026, 15:05: D-40 approved and integration authorized. Integrated on `integration/cr-089` (after CR-088): dated insertions in §§15, 16, 21, 25, 26, 27, 29, 33, 34, 36 and Unresolved #38; the subsection "The table beneath the measures" at the end of §25; register entry and `cr_facts.py apply CR-089` (12 changes); registry +9 (406) and eight notes in the bible; `historical_background.md` CR-089 section; AGENTS.md. `preflight.py --integration` 7 of 7. PR open for the author's sign-off.
+
 - 27 November 2026: rebased onto `main` after CR-088's integration (#91); 83 storyline citations re-pointed mechanically (preflight's suggested lines); `preflight.py --draft` 0 errors, 9 expected registry warnings. Waiting on the author: D-40 (how the CR enters the storyline) and approval for integration.
 
 - Author's decisions of 25 November 2026, 09:47: the destination strand gets its own CR (after CR-089); the *Tsukuba* correction, Takamine's registration, household refrigerators and quick-frozen fish approved; all innovations in synthesis part A approved.
