@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 87 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 88 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1639,6 +1639,26 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - PROPOSED: the particulars of the labels act (name, 1897, the Napa case of 1900), the innovations' winners and losers, Takamine's station, the dishes and desserts, the trade test's form and its two books and the guilds' refusals, the Chinese kitchens' particulars, the palace cooks' particulars, the wedding dinner's particulars, the refrigerator share by 1932.
 - OPEN: how much dairy a head the 0.46 acres stands for; Kodani's and Lee Kum Sheung's dates; which California wines took which medals; glutamate by fermentation before 1932; Takamine's adrenaline; the Hayama kitchen's patron; a second group of palace cooks in 1924–25; accession to the Madrid Agreement; Ah Bing's home province; the dates of Pop Ernest, Hangtown fry, saimin, haupia, malasadas, Dole's contest, California mochiko, Tianchu and the Lee Kum Kee house.
 - Handed off: the Realm as the world elite's prestige destination (a CR of its own, D-26).
+
+### CR-090 — The Other Diet: Japan's domestic political arc, constitutional balance and public opinion (1871–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The Meiji Constitution of 1889 stays formally intact; Minobe's organ theory stays orthodoxy through 1932 (D-1). Meiji particulars (mixed residence 1894–99, State Shinto, no Hibiya riot) PROPOSED (D-10); the army's northern turn and its technical staff officers PROPOSED (D-11).
+- Japanese public-utility radio under the Ministry of Communications from about 1915–16, the dailies' resentment, Honolulu's air from 1916 and household shortwave from about 1920 (D-9); Emperor Shōwa never speaks into a microphone (D-6).
+- Summer 1918: unrest without nationwide riots, Terauchi's resignation and Hara's cabinet (D-12, PROPOSED in its particulars). Closes CR-085's question on 1918.
+- September 1923: battery radio and independent Korea, no massacre of Koreans, anger at the officials who dismissed Imamura (D-7); the Amakasu murders on the page, the legation's request for a trial, Julian's silence and the amnesty of 1926 (D-19).
+- 1925: manhood suffrage with a narrow public order statute and no 1928 escalation (D-14, PROPOSED).
+- Party chronology: Tanaka 1927–29, Hamaguchi July 1929 – April 1931, Wakatsuki April–December 1931, Shidehara at Foreign Affairs 1929–31 (D-13); Hamaguchi's last winter and the reason for his resignation PROPOSED.
+- The villages under gold (D-18): fixed-yen debts including the cooperatives' notes, the cocoon collapse, daughters sold in the silk villages in 1931–32, Thalassia's film, the nitrogen and seed credit in kind from 1931, Kashevarov's argument in person, Takahashi's turn to the adjustable yen, the fleet's forward silk purchases; amounts OPEN.
+- Women's municipal suffrage passed by the Peers in March 1931, carried by the Patriotic Women's Association to capture the women's vote before Ichikawa Fusae's league can (its lost war-comfort mission, its branches' village relief, the organising women workers); first ballots in spring 1932; no Pacifican part (D-2, D-16; particulars PROPOSED).
+- The courts of 15 May: Yokosuka naval district court-martial for every naval officer, the First Division for the army, the Tokyo District Court for the civilians, one Pacifican observer, stern sentences (D-3). Closes CR-085's question on the court. The legal bridge, sealed wire, petitions and sentences PROPOSED (D-17).
+- Takahashi on the radio on 15 May (PROPOSED); the Restoration's calculating-machine charge (D-15, PROPOSED).
+- Registry: Wakatsuki Reijirō and Shidehara Kijūrō registered (D-4); notes on nine existing Japanese persons; background figures unregistered.
+
+**Still open:**
+- The amounts of the nitrogen and seed credit (1931) and of the fleet's forward silk purchases (1931–32); the workbook rows wait for the next rebuild.
+- The reason for Hamaguchi's resignation beyond the gold-parity fights and his health (PROPOSED).
 
 ### Author-approved editorial safeguards
 
