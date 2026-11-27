@@ -25,6 +25,7 @@ independence: self-review of revision 3 (`book-agent/revision/CR-090-review-2.md
 | D-18 | The villages under gold; Pacifica helps and argues; nitrogen and seed in kind; the fleet's silk | approved, 17:29, 17:47, 18:02 |
 | D-19 | The Amakasu murders on the page; Julian's silence and the 1926 amnesty | approved, 17:29 and 17:47 |
 | D-2, D-16 | Municipal suffrage only, carried in the Peers by the Patriotic Women's Association | approved, 17:47 |
+| D-16 | The Association's motive: to capture the women's vote before Ichikawa's league (revision 7, on the PR branch) | approved, 18:23 |
 
 ## Done
 
