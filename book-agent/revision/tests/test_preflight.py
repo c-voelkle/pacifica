@@ -81,6 +81,14 @@ class FactChanges(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertTrue(any("CT-NOBODY-AT-ALL" in w for w in warnings))
 
+    def test_person_already_in_registry_does_not_warn(self):
+        # CT-KURODA-SON is registered in character_registry.json ("people") but has no
+        # canon_facts entry yet, so adding him is not a registry warning.
+        block = '[{"add_person": {"id": "CT-KURODA-SON", "aliases": ["Kiyotada test"], "born": 1888}}]'
+        errors, warnings, _ = self.check(with_facts(block))
+        self.assertEqual(errors, [])
+        self.assertFalse(any("CT-KURODA-SON" in w for w in warnings))
+
     def test_broken_section_reports_once(self):
         errors, _, _ = self.check(draft(**{"\n## Fact changes\n": "\n## Facts\n"}))
         self.assertEqual(len(errors), 1)
