@@ -9,6 +9,8 @@
 
 ## Resume here
 
+- 27 November 2026: rebased onto `main` after CR-088's integration (#91); 83 storyline citations re-pointed mechanically (preflight's suggested lines); `preflight.py --draft` 0 errors, 9 expected registry warnings. Waiting on the author: D-40 (how the CR enters the storyline) and approval for integration.
+
 - Author's decisions of 25 November 2026, 09:47: the destination strand gets its own CR (after CR-089); the *Tsukuba* correction, Takamine's registration, household refrigerators and quick-frozen fish approved; all innovations in synthesis part A approved.
 - Open: glutamate by fermentation; Chichibu as patron (for the destination CR).
 - 09:56: `Q9` dishes and experiences approved except the orchard course. 11:00: the ten desserts approved; mochi added at the author's request.
