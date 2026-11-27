@@ -75,5 +75,6 @@ independence: fresh-context review of revision 15 by a separate agent (27 Novemb
 - Revision 16: the fresh-context review's round applied (D-37). Preflight 0 errors.
 - Revision 17: the second review's round, the teller's queue and the moratorium (D-38). Preflight 0 errors.
 - Revision 18: the Appendix review's round (D-39). Preflight 0 errors.
+- Revision 20 (27 November, 13:37): S4, S31 and S32 approved; S32 extended to the whole Paper Riichi, closed kans included (D-41). Still Proposed: S14 and the S19 scale.
 - Revision 19 (27 November, 12:30): the author approves S1–S3, S5 and S8–S10 (D-40); S14 and the S19 scale stay Proposed for play-testing; S4's core and S31–S32 await his placement.
 - Next: the author's approval of CR-088. Still marked Proposed: Shōkin-jan settings S1–S3, S5, S8–S10, S14, the S19 scale, S31, S32.
