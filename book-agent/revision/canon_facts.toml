@@ -2324,3 +2324,31 @@ year = 1908
 label = "Ikeda Kikunae isolates glutamate from kombu and names umami"
 patterns = ['''names its taste umami in (?P<year>1[89]\d\d)''', '''umami, (?P<year>1[89]\d\d)''']
 source = "CR-089"
+
+[[person]]
+id = "CT-WAKATSUKI-REIJIRO"
+aliases = ["Wakatsuki Reijirō", "Wakatsuki Reijiro", "Wakatsuki"]
+born = 1866
+died = 1949
+source = "CR-090"
+
+[[person]]
+id = "CT-SHIDEHARA-KIJURO"
+aliases = ["Shidehara Kijūrō", "Shidehara Kijuro", "Shidehara"]
+born = 1872
+died = 1951
+source = "CR-090"
+
+[[event]]
+id = "jp-municipal-womens-suffrage"
+year = 1931
+label = "Japan's Imperial Diet enacts Municipal Women's Suffrage"
+patterns = ['''Municipal[^.\n\d]{0,35}Women's Suffrage Act[^.\n\d]{0,20}in (?:March )?(?P<year>1[89]\d\d)''', '''(?P<year>1[89]\d\d)[^.\n\d]{0,20}Municipal[^.\n\d]{0,30}Women's Suffrage''']
+source = "CR-090"
+
+[[event]]
+id = "yokosuka-may-15-trials"
+year = 1932
+label = "Yokosuka Naval District court-martial tries the 15 May naval conspirators under Japanese law"
+patterns = ['''Yokosuka[^.\n\d]{0,45}court-martial[^.\n\d]{0,30}(?:in|of) (?:summer[–-]autumn |summer )?(?P<year>1[89]\d\d)''', '''(?P<year>1[89]\d\d)[^.\n\d]{0,25}Yokosuka[^.\n\d]{0,35}court-martial''']
+source = "CR-090"

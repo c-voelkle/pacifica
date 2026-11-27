@@ -7078,6 +7078,79 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-090",
+      "title": "The Other Diet: Japan's domestic political arc, constitutional balance and public opinion (1871–1932)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-27",
+      "decision_record": "CR-090.md",
+      "authorization": "Author, 27 November 2026: 1a, 2a, 3a, 4a and a clean branch (15:25); the steering calls of 16:17 (Hirohito off the microphones, early radio and independent Korea against the massacre of 1923, the technology upgrades folded in); D-9, the B4 chronology and the review's sharpenings (16:39); the Hamaguchi–Wakatsuki sequence, Takahashi alone on the air on 15 May, jurisdiction by commission and the small fixes (17:07); the two on-page losses (17:29); D-19 and the Peers vote (17:47); \"Yes I approve D-18 and the two forms of help as written. I approve CR-090 for integration.\" (18:02). Integrated on 27 November 2026 after CR-089, local labels retained.",
+      "requirements": [
+        "The Meiji Constitution of 1889 stays formally intact; Minobe's organ theory stays orthodoxy through 1932 (D-1). Meiji particulars (mixed residence 1894–99, State Shinto, no Hibiya riot) PROPOSED (D-10); the army's northern turn and its technical staff officers PROPOSED (D-11).",
+        "Japanese public-utility radio under the Ministry of Communications from about 1915–16, the dailies' resentment, Honolulu's air from 1916 and household shortwave from about 1920 (D-9); Emperor Shōwa never speaks into a microphone (D-6).",
+        "Summer 1918: unrest without nationwide riots, Terauchi's resignation and Hara's cabinet (D-12, PROPOSED in its particulars). Closes CR-085's question on 1918.",
+        "September 1923: battery radio and independent Korea, no massacre of Koreans, anger at the officials who dismissed Imamura (D-7); the Amakasu murders on the page, the legation's request for a trial, Julian's silence and the amnesty of 1926 (D-19).",
+        "1925: manhood suffrage with a narrow public order statute and no 1928 escalation (D-14, PROPOSED).",
+        "Party chronology: Tanaka 1927–29, Hamaguchi July 1929 – April 1931, Wakatsuki April–December 1931, Shidehara at Foreign Affairs 1929–31 (D-13); Hamaguchi's last winter and the reason for his resignation PROPOSED.",
+        "The villages under gold (D-18): fixed-yen debts including the cooperatives' notes, the cocoon collapse, daughters sold in the silk villages in 1931–32, Thalassia's film, the nitrogen and seed credit in kind from 1931, Kashevarov's argument in person, Takahashi's turn to the adjustable yen, the fleet's forward silk purchases; amounts OPEN.",
+        "Women's municipal suffrage passed by the Peers in March 1931, carried by the Patriotic Women's Association; first ballots in spring 1932; no Pacifican part (D-2, D-16; particulars PROPOSED).",
+        "The courts of 15 May: Yokosuka naval district court-martial for every naval officer, the First Division for the army, the Tokyo District Court for the civilians, one Pacifican observer, stern sentences (D-3). Closes CR-085's question on the court. The legal bridge, sealed wire, petitions and sentences PROPOSED (D-17).",
+        "Takahashi on the radio on 15 May (PROPOSED); the Restoration's calculating-machine charge (D-15, PROPOSED).",
+        "Registry: Wakatsuki Reijirō and Shidehara Kijūrō registered (D-4); notes on nine existing Japanese persons; background figures unregistered."
+      ],
+      "open": [
+        "The amounts of the nitrogen and seed credit (1931) and of the fleet's forward silk purchases (1931–32); the workbook rows wait for the next rebuild.",
+        "The reason for Hamaguchi's resignation beyond the gold-parity fights and his health (PROPOSED)."
+      ],
+      "facts": [
+        {
+          "add_person": {
+            "id": "CT-WAKATSUKI-REIJIRO",
+            "aliases": [
+              "Wakatsuki Reijirō",
+              "Wakatsuki Reijiro",
+              "Wakatsuki"
+            ],
+            "born": 1866,
+            "died": 1949
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-SHIDEHARA-KIJURO",
+            "aliases": [
+              "Shidehara Kijūrō",
+              "Shidehara Kijuro",
+              "Shidehara"
+            ],
+            "born": 1872,
+            "died": 1951
+          }
+        },
+        {
+          "add_event": {
+            "id": "jp-municipal-womens-suffrage",
+            "year": 1931,
+            "label": "Japan's Imperial Diet enacts Municipal Women's Suffrage",
+            "patterns": [
+              "Municipal[^.\\n\\d]{0,35}Women's Suffrage Act[^.\\n\\d]{0,20}in (?:March )?(?P<year>1[89]\\d\\d)",
+              "(?P<year>1[89]\\d\\d)[^.\\n\\d]{0,20}Municipal[^.\\n\\d]{0,30}Women's Suffrage"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "yokosuka-may-15-trials",
+            "year": 1932,
+            "label": "Yokosuka Naval District court-martial tries the 15 May naval conspirators under Japanese law",
+            "patterns": [
+              "Yokosuka[^.\\n\\d]{0,45}court-martial[^.\\n\\d]{0,30}(?:in|of) (?:summer[–-]autumn |summer )?(?P<year>1[89]\\d\\d)",
+              "(?P<year>1[89]\\d\\d)[^.\\n\\d]{0,25}Yokosuka[^.\\n\\d]{0,35}court-martial"
+            ]
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [

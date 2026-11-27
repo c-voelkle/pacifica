@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 406,
+    "canonical_dossiers": 408,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 400
+    "active_or_provisional_identities": 402
   },
   "people": [
     {
@@ -7735,36 +7735,71 @@
       "source_authority": [
         "CR-089"
       ]
+    },
+    {
+      "id": "CT-WAKATSUKI-REIJIRO",
+      "display_name": "Wakatsuki Reijirō, Minseitō prime minister 1926–27 and 1931",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-WAKATSUKI-REIJIRO",
+      "narrative_profile": "Historical person in alternate history; CR-090, approved for integration 27 November 2026, local labels retained. Born 1866, died 1949 (*hist.*). APPROVED: Kenseikai prime minister from January 1926 until the bank panic of April 1927; recalled as Minseitō prime minister when Hamaguchi resigns in April 1931, he holds office to December 1931, inherits the Municipal Women's Suffrage Act of March 1931 and, with Shidehara, restrains the generals in the Manchurian plot while gold-parity deflation squeezes the villages. **Character use:** a tired civilian constitutionalist caging his generals while deflation costs him the next election. **Open:** scenes.",
+      "links": [
+        {
+          "relationship": "cabinet_colleague",
+          "to": "CT-SHIDEHARA-KIJURO"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-090"
+      ]
+    },
+    {
+      "id": "CT-SHIDEHARA-KIJURO",
+      "display_name": "Shidehara Kijūrō, Foreign Minister 1924–27 and 1929–31",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-SHIDEHARA-KIJURO",
+      "narrative_profile": "Historical person in alternate history; CR-090, approved for integration 27 November 2026, local labels retained. Born 1872, died 1951 (*hist.*). APPROVED: Foreign Minister in 1924–27 and in the Minseitō cabinets of Hamaguchi and Wakatsuki, 1929–31; the diplomatic architect of restraint in China and of the Concord as an alliance that pays for itself. **Character use:** the commercial internationalist whom the Restoration officers count among the merchant houses' men. **Open:** scenes.",
+      "links": [
+        {
+          "relationship": "cabinet_colleague",
+          "to": "CT-WAKATSUKI-REIJIRO"
+        }
+      ],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-090"
+      ]
     }
   ],
   "updated_on": "2026-11-27",
   "character_revision": {
-    "request": "CR-089",
-    "source": "CR-089.md; author approval of 27 November 2026, 15:05 (\"I approve D40 - please proceed to integrate CR-089\")",
+    "request": "CR-090",
+    "source": "CR-090.md; author approval of 27 November 2026, 18:02 (\"I approve CR-090 for integration.\")",
     "status": "approved_integrated",
     "updated_ids": [
-      "CT-ELWOOD-MEAD",
-      "CT-EUGENE-HILGARD",
-      "CT-HOOVER",
-      "CT-KAIULANI",
-      "CT-KAIULANI-CLEGHORN",
-      "CT-KEAWE",
-      "CT-SATO-SHOSUKE",
-      "CT-SATORI-KATO",
-      "CT-CHIYO"
+      "CT-SAIONJI",
+      "CT-TAKAHASHI",
+      "CT-INUKAI-TSUYOSHI",
+      "CT-SAITO-MAKOTO",
+      "CT-ARAKI-SADAO",
+      "CT-MORI-KAKU",
+      "CT-HIRANUMA-KIICHIRO",
+      "CT-HIROHITO",
+      "CT-KURODA-SON",
+      "CT-KASHIWAGI",
+      "CT-PAVEL-KASHEVAROV"
     ],
     "new_ids": [
-      "CT-TAKAKI-KANEHIRO",
-      "CT-AH-BING",
-      "CT-GENNOSUKE-KODANI",
-      "CT-GEORGE-SHIMA",
-      "CT-AKIYAMA-TOKUZO",
-      "CT-IKEDA-KIKUNAE",
-      "CT-TAKAMINE-JOKICHI",
-      "CT-LEE-KUM-SHEUNG",
-      "CT-WU-YUNCHU"
+      "CT-WAKATSUKI-REIJIRO",
+      "CT-SHIDEHARA-KIJURO"
     ],
-    "limits": "Notes on existing people stand in the character bible's CR-089 section; CT-CHIYO's marriage date corrected to November 1907 on the draft branch. Only persons the CR registers are added."
+    "limits": "Notes on existing people stand in the character bible's CR-090 section. Only the two persons the CR registers are added; Hamaguchi, Adachi, Minobe, Ichikawa, Amakasu, Ōsugi, Itō Noe, Tachibana Munekazu and the other background figures stay unregistered."
   },
   "character_revision_history": [
     {
@@ -8521,6 +8556,34 @@
         "CT-GONDO-SEIKYO"
       ],
       "limits": "Notes on existing people stand in the character bible's CR-088 section; CT-KURODA-SON's dossier gains his name and profile. Only persons the CR registers are added; the background figures stay unregistered."
+    },
+    {
+      "request": "CR-089",
+      "source": "CR-089.md; author approval of 27 November 2026, 15:05 (\"I approve D40 - please proceed to integrate CR-089\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-ELWOOD-MEAD",
+        "CT-EUGENE-HILGARD",
+        "CT-HOOVER",
+        "CT-KAIULANI",
+        "CT-KAIULANI-CLEGHORN",
+        "CT-KEAWE",
+        "CT-SATO-SHOSUKE",
+        "CT-SATORI-KATO",
+        "CT-CHIYO"
+      ],
+      "new_ids": [
+        "CT-TAKAKI-KANEHIRO",
+        "CT-AH-BING",
+        "CT-GENNOSUKE-KODANI",
+        "CT-GEORGE-SHIMA",
+        "CT-AKIYAMA-TOKUZO",
+        "CT-IKEDA-KIKUNAE",
+        "CT-TAKAMINE-JOKICHI",
+        "CT-LEE-KUM-SHEUNG",
+        "CT-WU-YUNCHU"
+      ],
+      "limits": "Notes on existing people stand in the character bible's CR-089 section; CT-CHIYO's marriage date corrected to November 1907 on the draft branch. Only persons the CR registers are added."
     }
   ],
   "institutional_groups": [

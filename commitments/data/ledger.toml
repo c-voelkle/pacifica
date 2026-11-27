@@ -4968,6 +4968,24 @@ more_quotes = ["Article II writes the wheat credit of 1931 and the soybean compa
 open = "Term and rate not stated (our timeline's loan: 4%, FRUS; payable in 1934, 1935 and 1936, Wanganui Chronicle, 28 September 1931; A-series §11)."
 
 [[commitment]]
+id = "C-1931-JP-NITROGEN-CREDIT"
+name = "The Realm's credit in ammonium sulfate and seed rice to Japan's cooperatives (1931)"
+kind = "loan"
+parties = ["PAC", "JP"]
+from = 1931
+term_years = 10
+until = 1941
+owes = [
+  { by = "PAC", to = "JP", what = "ammonium sulfate from the Columbia's plants and seed rice, in kind" },
+  { by = "JP", to = "PAC", what = "repayment in yen over ten years" },
+]
+status = "APPROVED"
+cr = "CR-090"
+section = 34
+quote = "From the spring of 1931 the Realm delivers ammonium sulfate from the Columbia's half-idle plants and seed rice to Japan's cooperatives on a ten-year credit repayable in yen."
+open = "Amounts and rate not stated (OPEN; the workbook row waits for the next rebuild). The borrowers are Japan's Sangyō Kumiai cooperatives, counted here under Japan. No gold leaves Japan and no money is issued."
+
+[[commitment]]
 id = "C-1932-GRANARY-CONTRACTS"
 name = "The Crown's granary and its ten-year contracts abroad"
 kind = "charter"
