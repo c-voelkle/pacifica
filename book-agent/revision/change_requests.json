@@ -6922,6 +6922,162 @@
           }
         }
       ]
+    },
+    {
+      "id": "CR-089",
+      "title": "The Table and the Sea: Pacifica's regional kitchens, the cooks' agon, the truth of labels and the farmed sea's measure (1850–1932)",
+      "status": "approved_integrated_local_labels_retained",
+      "approved_on": "2026-11-27",
+      "decision_record": "CR-089.md",
+      "authorization": "Author, 24 November 2026: two printed columns from 1930, the farmed sea on two lines, narrative only, Takaki, Kodani and Shima registered, a clean branch (21:40); Chinese threads in proportion and Ah Bing registered (23:05). 25 November 2026: the direction, regional kitchens down to the neighbourhood, the cooks' agon, French and Spanish technique, the leaner table as geography and fashion (06:58); Akiyama and Ikeda registered (07:09); T-DIET-2 Case A, dairy as the reason (07:30); the innovations, the Tsukuba correction, Takamine registered, refrigerators and quick-frozen fish, the destination strand to its own CR (09:47); the dishes and experiences without the orchard course (09:56); the desserts and mochi (11:00); T-METHOD-1 Case A (11:11); the master's title as a Polytechnic trade test and the agon not too neat (11:43); the Chinese kitchens, Wu Yunchu and Lee Kum Sheung registered, the palace cooks (\"could be cool\", 12:00); D-10, D-12 to D-18, D-20b, D-21 to D-23, D-28, D-30 (12:51); T-MARK-1 Case C, the Truth of Labels Act (13:36); D-37 and D-38 (14:06); the wedding dinner of 1907 (14:12). 27 November 2026: \"I approve D40 - please proceed to integrate CR-089\" (15:05). Integrated on 27 November 2026 after CR-088, local labels retained.",
+      "requirements": [
+        "Nobody plans the Realm's table: a dozen regional kitchens down to the neighbourhood, from ground, settlers, prices and fashion; the French and Spanish schools (D-7, D-10, D-13, D-18).",
+        "The cooks' agon: rough kitchens, blind tests, posted results, the press estate's lists, the naming rule, the sealed deposit of a method for about ten years (D-15, D-28, D-31, D-33); the master cook's title a Polytechnic trade test registered by the trades congress, the guilds' dinner an honour (D-32).",
+        "The Truth of Labels Act: every statement true and testable, no district reserved, a register of results; the Napa syndicate refused (T-MARK-1 Case C, D-35; name, date and particulars PROPOSED).",
+        "The Office's two columns from 1930, the first staying the cabinet's measure because of dairy (T-DIET-1 Case B, T-DIET-2 Case A, D-1, D-11, D-23); the farmed sea on two lines in the supplement of July 1932 (T-SEA-1 Case B, D-2, D-12); no model or workbook change (D-3).",
+        "The Tsukuba at Honolulu in 1884 and Pacifica's navy adopting the ration (D-20a, D-20b); Ikeda's umami (1908) and the powder or the pot (D-17); Akiyama's fellows and the Hayama dinner (D-16); the Chinese kitchens, Lee Kum Sheung's case, Wu Yunchu's powder (D-34); Longyu's cooks at Thalassia (D-36); the wedding dinner of 1907 (D-39).",
+        "The chronology and the engineering stages, with winners and losers and the guilds' fate (D-37, D-38); household refrigerators and quick-frozen fish (D-24).",
+        "How it enters the storyline: dated events in their sections and one thematic subsection, \"The table beneath the measures\", in section 25 (D-40).",
+        "Nine persons registered: Takaki Kanehiro, Ah Bing, Gennosuke Kodani, George Shima, Akiyama Tokuzō, Ikeda Kikunae, Takamine Jōkichi, Lee Kum Sheung, Wu Yunchu; Chiyo's marriage date in the registry corrected to November 1907."
+      ],
+      "open": [
+        "PROPOSED: the particulars of the labels act (name, 1897, the Napa case of 1900), the innovations' winners and losers, Takamine's station, the dishes and desserts, the trade test's form and its two books and the guilds' refusals, the Chinese kitchens' particulars, the palace cooks' particulars, the wedding dinner's particulars, the refrigerator share by 1932.",
+        "OPEN: how much dairy a head the 0.46 acres stands for; Kodani's and Lee Kum Sheung's dates; which California wines took which medals; glutamate by fermentation before 1932; Takamine's adrenaline; the Hayama kitchen's patron; a second group of palace cooks in 1924–25; accession to the Madrid Agreement; Ah Bing's home province; the dates of Pop Ernest, Hangtown fry, saimin, haupia, malasadas, Dole's contest, California mochiko, Tianchu and the Lee Kum Kee house.",
+        "Handed off: the Realm as the world elite's prestige destination (a CR of its own, D-26)."
+      ],
+      "facts": [
+        {
+          "add_person": {
+            "id": "CT-TAKAKI-KANEHIRO",
+            "aliases": [
+              "Takaki Kanehiro",
+              "Kanehiro Takaki",
+              "Takaki"
+            ],
+            "born": 1849,
+            "died": 1920
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-AH-BING",
+            "aliases": [
+              "Ah Bing"
+            ],
+            "born": 1848,
+            "born_approx": true
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-GENNOSUKE-KODANI",
+            "aliases": [
+              "Gennosuke Kodani",
+              "Kodani Gennosuke",
+              "Kodani"
+            ]
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-GEORGE-SHIMA",
+            "aliases": [
+              "George Shima",
+              "Ushijima Kinji",
+              "Kinji Ushijima"
+            ],
+            "born": 1864,
+            "died": 1926
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-AKIYAMA-TOKUZO",
+            "aliases": [
+              "Akiyama Tokuzō",
+              "Tokuzō Akiyama",
+              "Akiyama"
+            ],
+            "born": 1888,
+            "died": 1974
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-IKEDA-KIKUNAE",
+            "aliases": [
+              "Ikeda Kikunae",
+              "Kikunae Ikeda",
+              "Ikeda"
+            ],
+            "born": 1864,
+            "died": 1936
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-TAKAMINE-JOKICHI",
+            "aliases": [
+              "Takamine Jōkichi",
+              "Jokichi Takamine",
+              "Takamine"
+            ],
+            "born": 1854,
+            "died": 1922
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-LEE-KUM-SHEUNG",
+            "aliases": [
+              "Lee Kum Sheung",
+              "Li Jinshang"
+            ]
+          }
+        },
+        {
+          "add_person": {
+            "id": "CT-WU-YUNCHU",
+            "aliases": [
+              "Wu Yunchu",
+              "Wu Yun-chu"
+            ],
+            "born": 1891,
+            "died": 1953
+          }
+        },
+        {
+          "add_event": {
+            "id": "bing-cherry-oregon",
+            "year": 1875,
+            "label": "Ah Bing and Seth Lewelling's Bing cherry at Milwaukie, Oregon",
+            "patterns": [
+              "name is on the cherry of (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "takaki-beriberi-trial",
+            "year": 1884,
+            "label": "Takaki Kanehiro's Tsukuba voyage shows beriberi is prevented by diet",
+            "patterns": [
+              "In (?P<year>1[89]\\d\\d) Takaki Kanehiro's training ship \\*?Tsukuba"
+            ]
+          }
+        },
+        {
+          "add_event": {
+            "id": "ikeda-umami",
+            "year": 1908,
+            "label": "Ikeda Kikunae isolates glutamate from kombu and names umami",
+            "patterns": [
+              "names its taste umami in (?P<year>1[89]\\d\\d)",
+              "umami, (?P<year>1[89]\\d\\d)"
+            ]
+          }
+        }
+      ]
     }
   ],
   "explicit_cautions": [

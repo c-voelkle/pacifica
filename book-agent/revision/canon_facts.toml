@@ -2244,3 +2244,83 @@ pattern = "Former Aborigines Protection Act (?:is |was )?(?:enacted|passed|impos
 message = "CR-088 T-AINU-1: the 1899 Hokkaido Ainu Settlement and Fisheries Act replaces OTL's coercive Former Aborigines Protection Act"
 kind = "fact"
 source = "CR-088"
+
+[[person]]
+id = "CT-TAKAKI-KANEHIRO"
+aliases = ["Takaki Kanehiro", "Kanehiro Takaki", "Takaki"]
+born = 1849
+died = 1920
+source = "CR-089"
+
+[[person]]
+id = "CT-AH-BING"
+aliases = ["Ah Bing"]
+born = 1848
+born_approx = true
+source = "CR-089"
+
+[[person]]
+id = "CT-GENNOSUKE-KODANI"
+aliases = ["Gennosuke Kodani", "Kodani Gennosuke", "Kodani"]
+source = "CR-089"
+
+[[person]]
+id = "CT-GEORGE-SHIMA"
+aliases = ["George Shima", "Ushijima Kinji", "Kinji Ushijima"]
+born = 1864
+died = 1926
+source = "CR-089"
+
+[[person]]
+id = "CT-AKIYAMA-TOKUZO"
+aliases = ["Akiyama Tokuzō", "Tokuzō Akiyama", "Akiyama"]
+born = 1888
+died = 1974
+source = "CR-089"
+
+[[person]]
+id = "CT-IKEDA-KIKUNAE"
+aliases = ["Ikeda Kikunae", "Kikunae Ikeda", "Ikeda"]
+born = 1864
+died = 1936
+source = "CR-089"
+
+[[person]]
+id = "CT-TAKAMINE-JOKICHI"
+aliases = ["Takamine Jōkichi", "Jokichi Takamine", "Takamine"]
+born = 1854
+died = 1922
+source = "CR-089"
+
+[[person]]
+id = "CT-LEE-KUM-SHEUNG"
+aliases = ["Lee Kum Sheung", "Li Jinshang"]
+source = "CR-089"
+
+[[person]]
+id = "CT-WU-YUNCHU"
+aliases = ["Wu Yunchu", "Wu Yun-chu"]
+born = 1891
+died = 1953
+source = "CR-089"
+
+[[event]]
+id = "bing-cherry-oregon"
+year = 1875
+label = "Ah Bing and Seth Lewelling's Bing cherry at Milwaukie, Oregon"
+patterns = ['''name is on the cherry of (?P<year>1[89]\d\d)''']
+source = "CR-089"
+
+[[event]]
+id = "takaki-beriberi-trial"
+year = 1884
+label = "Takaki Kanehiro's Tsukuba voyage shows beriberi is prevented by diet"
+patterns = ['''In (?P<year>1[89]\d\d) Takaki Kanehiro's training ship \*?Tsukuba''']
+source = "CR-089"
+
+[[event]]
+id = "ikeda-umami"
+year = 1908
+label = "Ikeda Kikunae isolates glutamate from kombu and names umami"
+patterns = ['''names its taste umami in (?P<year>1[89]\d\d)''', '''umami, (?P<year>1[89]\d\d)''']
+source = "CR-089"

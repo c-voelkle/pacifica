@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 86 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 87 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1621,6 +1621,24 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - PROPOSED: the treaty's assay, mission and reciprocity clauses and the four reasons for the panels; the convention's terms; Imamura's League mechanics; the seismic exchange's particulars and Pacific Modern's vocabulary; the onsen list; Pacific String's details; riichi by about 1926 and Shōkin-jan after 1927; dress and mingei details; the Act of 1899's wording; the rural-electrification sequence; Kiyotada's birth year (c. 1888) and early career; the Marshalls' three conditions; Shōkin-jan settings S14 and the S19 scale (play-test dials).
 - OPEN: the Ainu petitioners' names; the sunset article's exact wording; the year Hongwanji's first academy enters the roll; Kiyotada's marriage and children; dora in riichi before 1932; named architects of Pacific Modern landmarks; the patron of the hot-spring trail; which Pueblo refuses its spring; the first Pacifican Go professional; where Kiyoshi's sword rests.
 - Handed off: Japan's 1918 rice prices and domestic politics, and State Shinto (the domestic-politics CR); railway lunch boxes, the kitchen and the farmed sea (CR-089).
+
+### CR-089 — The Table and the Sea: Pacifica's regional kitchens, the cooks' agon, the truth of labels and the farmed sea's measure (1850–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Nobody plans the Realm's table: a dozen regional kitchens down to the neighbourhood, from ground, settlers, prices and fashion; the French and Spanish schools (D-7, D-10, D-13, D-18).
+- The cooks' agon: rough kitchens, blind tests, posted results, the press estate's lists, the naming rule, the sealed deposit of a method for about ten years (D-15, D-28, D-31, D-33); the master cook's title a Polytechnic trade test registered by the trades congress, the guilds' dinner an honour (D-32).
+- The Truth of Labels Act: every statement true and testable, no district reserved, a register of results; the Napa syndicate refused (T-MARK-1 Case C, D-35; name, date and particulars PROPOSED).
+- The Office's two columns from 1930, the first staying the cabinet's measure because of dairy (T-DIET-1 Case B, T-DIET-2 Case A, D-1, D-11, D-23); the farmed sea on two lines in the supplement of July 1932 (T-SEA-1 Case B, D-2, D-12); no model or workbook change (D-3).
+- The Tsukuba at Honolulu in 1884 and Pacifica's navy adopting the ration (D-20a, D-20b); Ikeda's umami (1908) and the powder or the pot (D-17); Akiyama's fellows and the Hayama dinner (D-16); the Chinese kitchens, Lee Kum Sheung's case, Wu Yunchu's powder (D-34); Longyu's cooks at Thalassia (D-36); the wedding dinner of 1907 (D-39).
+- The chronology and the engineering stages, with winners and losers and the guilds' fate (D-37, D-38); household refrigerators and quick-frozen fish (D-24).
+- How it enters the storyline: dated events in their sections and one thematic subsection, "The table beneath the measures", in section 25 (D-40).
+- Nine persons registered: Takaki Kanehiro, Ah Bing, Gennosuke Kodani, George Shima, Akiyama Tokuzō, Ikeda Kikunae, Takamine Jōkichi, Lee Kum Sheung, Wu Yunchu; Chiyo's marriage date in the registry corrected to November 1907.
+
+**Still open:**
+- PROPOSED: the particulars of the labels act (name, 1897, the Napa case of 1900), the innovations' winners and losers, Takamine's station, the dishes and desserts, the trade test's form and its two books and the guilds' refusals, the Chinese kitchens' particulars, the palace cooks' particulars, the wedding dinner's particulars, the refrigerator share by 1932.
+- OPEN: how much dairy a head the 0.46 acres stands for; Kodani's and Lee Kum Sheung's dates; which California wines took which medals; glutamate by fermentation before 1932; Takamine's adrenaline; the Hayama kitchen's patron; a second group of palace cooks in 1924–25; accession to the Madrid Agreement; Ah Bing's home province; the dates of Pop Ernest, Hangtown fry, saimin, haupia, malasadas, Dole's contest, California mochiko, Tianchu and the Lee Kum Kee house.
+- Handed off: the Realm as the world elite's prestige destination (a CR of its own, D-26).
 
 ### Author-approved editorial safeguards
 
