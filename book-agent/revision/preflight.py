@@ -157,7 +157,7 @@ def check_fact_changes(path: Path, run_preview: bool = True) -> tuple[list[str],
             if r.returncode != 0:
                 tail = (r.stderr or r.stdout).strip().splitlines()[-1:] or ["no output"]
                 errors.append(f"fact changes: cr_facts.py preview {' '.join(extra)} failed: {tail[0]}")
-    known = {c["id"] for c in json.loads(REGISTRY.read_text(encoding="utf-8")).get("characters", [])}
+    known = {c["id"] for c in json.loads(REGISTRY.read_text(encoding="utf-8")).get("people", [])}
     for change in changes:
         ident = change.get("add_person", {}).get("id")
         if ident and ident not in known:

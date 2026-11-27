@@ -13,12 +13,12 @@
     "historical_person_in_alternate_history means the person is historical but their actions in Pacifica are fictional unless separately verified."
   ],
   "stats": {
-    "canonical_dossiers": 390,
+    "canonical_dossiers": 397,
     "legacy_profiles": 250,
     "legacy_profiles_cross_referenced": 71,
     "legacy_profiles_still_unmapped": 179,
     "retired_identities": 6,
-    "active_or_provisional_identities": 384
+    "active_or_provisional_identities": 391
   },
   "people": [
     {
@@ -670,7 +670,8 @@
         "CR-031-R1: direct author correction, 23 October 2026",
         "CR-040",
         "CR-041",
-        "CR-044"
+        "CR-044",
+        "CR-088"
       ]
     },
     {
@@ -1289,7 +1290,8 @@
       ],
       "source_authority": [
         "CR-027",
-        "Author-supplied master storyline 2026-10-23; CR-028–CR-031 and current MODEL plan, with local labels preserved"
+        "Author-supplied master storyline 2026-10-23; CR-028–CR-031 and current MODEL plan, with local labels preserved",
+        "CR-088"
       ]
     },
     {
@@ -1370,7 +1372,10 @@
       "narrative_profile": "Senior shogunal politician who treats Californian contact as one possible answer to the threats posed by Russia and Western fleets. His consultation of daimyo and cautious search for technical support make him independently intelligent. Dies 1857.",
       "links": [],
       "legacy_profile_indices": [],
-      "legacy_conflicts": []
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
     },
     {
       "id": "CT-II",
@@ -2385,12 +2390,12 @@
     },
     {
       "id": "CT-KURODA-SON",
-      "display_name": "Kiyoshi’s son, the next Kuroda generation",
+      "display_name": "Kuroda Kiyotada, Kiyoshi’s son, the next Kuroda generation",
       "nature": "fictional_or_composite",
       "tier": "supporting_or_causal",
       "identity_state": "approved_role_with_proposed_detail",
       "story_bible_section": "CT-KURODA-SON",
-      "narrative_profile": "**Status:** Lineage and fleet-loyalty role approved by CR-018 D5/I6. Kiyoshi’s son and Elias’s grandson keeps the fleet’s Japanese units with the common government in May 1932. He is distinct from Kiyoshi’s resolved Fleet-General alias and from Julian’s son Kahekili. **Open:** Name, age, mother, career and personal motives. CR-021’s 1932 renewal ends the naval party’s reserved-squadron arrangement as overseas command becomes common; the Navy ministry is then part of the bargain.\n\n\nHe keeps the Japanese units loyal in 1932 with the lesson of his father’s 1907 bid: a fleet cannot make a sovereign. Kiyoshi’s branch is distinct from the main house held by Kiyonaka.\n\n**CR-045 (31 October 2026):** APPROVED: from 1920 he reads Maria Grishina-Almazova's reports from her Tokyo salon for the Navy General Staff; in May 1932 her warning tells him which ships and which day. PROPOSED: his posting in the intelligence division in the 1920s before the western squadron. **CR-046:** he never learns that British gold paid the Chekists on Kronstadt in his father's last weeks.",
+      "narrative_profile": "**Status:** Lineage and fleet-loyalty role approved by CR-018 D5/I6. Kiyoshi’s son and Elias’s grandson keeps the fleet’s Japanese units with the common government in May 1932. He is distinct from Kiyoshi’s resolved Fleet-General alias and from Julian’s son Kahekili. **Open:** Name, age, mother, career and personal motives. CR-021’s 1932 renewal ends the naval party’s reserved-squadron arrangement as overseas command becomes common; the Navy ministry is then part of the bargain.\n\n\nHe keeps the Japanese units loyal in 1932 with the lesson of his father’s 1907 bid: a fleet cannot make a sovereign. Kiyoshi’s branch is distinct from the main house held by Kiyonaka.\n\n**CR-045 (31 October 2026):** APPROVED: from 1920 he reads Maria Grishina-Almazova's reports from her Tokyo salon for the Navy General Staff; in May 1932 her warning tells him which ships and which day. PROPOSED: his posting in the intelligence division in the 1920s before the western squadron. **CR-046:** he never learns that British gold paid the Chekists on Kronstadt in his father's last weeks.\n\n\n**CR-088 (27 November 2026, local labels retained):** APPROVED: his name is **Kuroda Kiyotada** (黒田清忠), continuing the house's *Kiyo-* character (Kiyotaka, Kiyoshi, Kiyotada); he is common Navy minister from 1 August 1932, sworn at Thalassia with the common Navy's oath. PROPOSED: born about 1888 to Kiyoshi and Hyaku, Kiyotaka's adopted daughter; three-quarters Japanese, one-quarter Thorne; second Count Kuroda of the branch house from May 1920; nephew by marriage to Chiyo. Raised between Tokyo, Kagoshima and Pearl Harbor; Etajima, then Carquinez's engineering and gunnery courses. At nineteen he watches his father turned back by both capitals, and glosses the lesson that a fleet cannot make a sovereign: dual loyalty survives only where the boundary between the crowns is guarded. Posted to the Navy General Staff's intelligence division in Tokyo from 1920, he reads Maria's reports, including reports on his own father's embittered subordinates, and forwards them; from about 1928 he holds a sea command in the western squadron. At forty-four he holds the Japanese units loyal on 15 May 1932; his first act as minister is to carry out the June order dissolving the reserved squadron, and he signs the postings that end the careers of officers he reported on. He commands the fleet that would carry a device only under both keys and holds neither, and accepts it. To the Realm's sceptics he is the grandson who never pressed a claim; to Japan's purists, the war god's son in Japan's treaty seat. **Voice:** exact, bilingual, loyal by boundary rather than by sentiment. **Open:** his marriage and children; scenes.",
       "links": [
         {
           "relationship": "child_of",
@@ -2403,7 +2408,8 @@
         "CR-019",
         "CR-021",
         "CR-045",
-        "CR-046"
+        "CR-046",
+        "CR-088"
       ]
     },
     {
@@ -2825,7 +2831,8 @@
       ],
       "legacy_profile_indices": [],
       "source_authority": [
-        "CR-021 revision 9; direct user decision 2026-10-20"
+        "CR-021 revision 9; direct user decision 2026-10-20",
+        "CR-088"
       ]
     },
     {
@@ -2950,7 +2957,8 @@
       "legacy_conflicts": [],
       "source_authority": [
         "CR-027",
-        "CR-043"
+        "CR-043",
+        "CR-088"
       ]
     },
     {
@@ -4056,7 +4064,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-045"
+        "CR-045",
+        "CR-088"
       ]
     },
     {
@@ -4287,7 +4296,8 @@
         "CR-049",
         "CR-050",
         "CR-050-R1",
-        "CR-077"
+        "CR-077",
+        "CR-088"
       ]
     },
     {
@@ -6401,7 +6411,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-077"
+        "CR-077",
+        "CR-088"
       ]
     },
     {
@@ -6416,7 +6427,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-077"
+        "CR-077",
+        "CR-088"
       ]
     },
     {
@@ -6492,7 +6504,8 @@
       "legacy_conflicts": [],
       "source_authority": [
         "CR-049",
-        "CR-077"
+        "CR-077",
+        "CR-088"
       ]
     },
     {
@@ -6582,7 +6595,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-079"
+        "CR-079",
+        "CR-088"
       ]
     },
     {
@@ -6627,7 +6641,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-079"
+        "CR-079",
+        "CR-088"
       ]
     },
     {
@@ -7368,7 +7383,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-085"
+        "CR-085",
+        "CR-088"
       ]
     },
     {
@@ -7413,7 +7429,8 @@
       "legacy_profile_indices": [],
       "legacy_conflicts": [],
       "source_authority": [
-        "CR-085"
+        "CR-085",
+        "CR-088"
       ]
     },
     {
@@ -7470,71 +7487,145 @@
       "source_authority": [
         "CR-086"
       ]
+    },
+    {
+      "id": "CT-YEMYO-IMAMURA",
+      "display_name": "Yemyō Imamura, Bishop of the Honpa Hongwanji Mission of Hawaii",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-YEMYO-IMAMURA",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1867, died 1932 (*hist.*; bishop of Honolulu's Honpa Hongwanji Mission from 1900 to 1932). APPROVED: Japanese temples and shrines work openly in Hawaii and California under the Realm's religious floors. PROPOSED: from 1900 he brings the Hongwanji's bilingual academies into the Pacifica League's examination rolls on the same footing as the Catholic and Methodist colleges, keeping Buddhist instruction; the Buddhist Mission in California follows. **Character use:** the proof, for Japanese families, that the Realm's floors hold for them. **Open:** the year the first academy enters the roll; scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
+    },
+    {
+      "id": "CT-SANO-TOSHIKATA",
+      "display_name": "Sano Toshikata, structural engineer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-SANO-TOSHIKATA",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1880, died 1956 (*hist.*). APPROVED: with Ōmori Fusakichi he sits on the Polytechnic's San Francisco seismic commission after the earthquake of 1906 and maps the Bay mud's failures against bedrock. PROPOSED: his pupil Naitō Tachū carries the work to the code of 1924. **Character use:** the Japanese engineer who teaches California. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
+    },
+    {
+      "id": "CT-NAITO-TACHU",
+      "display_name": "Naitō Tachū, structural engineer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-NAITO-TACHU",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1886, died 1970 (*hist.*; his Industrial Bank of Japan and Kabuki-za frame survive the Kantō earthquake of 1923). APPROVED: after 1923 Japan's code of 1924 and his reinforced walls become the shared Pacific standard for Thalassia, San Francisco and Manila; in the spring of 1924 he brings his photographs to a challenge evening at Carquinez and asks for machine time, the origin of the Calculated. PROPOSED: a study year at Carquinez; Sophia Levy turns his frames into the Office's structural orders; his printed quarrel with Frank Lloyd Wright over who knew how to build for an earthquake. **Character use:** the engineer whose walls held and who wanted to know why. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
+    },
+    {
+      "id": "CT-ABE-ISOO",
+      "display_name": "Abe Isoo, Waseda professor and baseball pioneer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-ABE-ISOO",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1865, died 1949 (*hist.*). APPROVED: in April 1905 he leads Waseda University's baseball nine on a tour of California and Hawaii, playing Carquinez, Ralston College and Honolulu. PROPOSED: the tour becomes the annual Pacific Intercollegiate Series, Waseda, Keiō and Meiji in rotation. **Character use:** sport as diplomacy in a war year. **Open:** his politics in the Realm's telling; scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
+    },
+    {
+      "id": "CT-OTHMAR-AMMANN",
+      "display_name": "Othmar Ammann, Swiss bridge engineer",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-OTHMAR-AMMANN",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1879, died 1965 (*hist.*; in our timeline the George Washington Bridge of 1931). PROPOSED: he comes west in 1904 by attraction instead of to New York; his entry for the Golden Gate competition of 1925 loses to Pacific Modern's eaved towers, wins at the second challenge evening on the Office's wind and earthquake loads, and his suspension bridge, deflection-stiffened and clad in aluminium, opens in 1929 as the longest span in the world. APPROVED: the only member of the Calculated's circle registered (D-34). **Character use:** the engineer who publishes his numbers. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
+    },
+    {
+      "id": "CT-NITOBE-INAZO",
+      "display_name": "Nitobe Inazō, agricultural economist of Sapporo",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-NITOBE-INAZO",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1862, died 1933 (*hist.*; died at Victoria, British Columbia, in October 1933, after the book's end). APPROVED: the scholar the Realm asks for, a Sapporo man of the northern school and Satō Shōsuke's junior. PROPOSED: graduate years at Carquinez and a doctorate at Halle; a drafter of the Hokkaido Ainu Settlement and Fisheries Act of 1899; about 1900, at a Polytechnic challenge evening with Peirce as respondent, he tells the Realm that Japan learned fast through institutions, not a single code, that adoption is its market in talent, that loyalty without an account is its danger, and that Japan should take the measure and refuse the examination as the road to power. After 1900: women's education, the Hague court's panel of arbitrators, the Japanese council of the Pacific relations institute at Honolulu from 1925. **Character use:** a Japanese case for the partnership on Japanese terms, made to the Realm's face. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
+    },
+    {
+      "id": "CT-GONDO-SEIKYO",
+      "display_name": "Gondō Seikyō, agrarian theorist",
+      "nature": "historical_person_in_alternate_history",
+      "tier": "supporting",
+      "identity_state": "approved_alternate_role_details_open",
+      "story_bible_section": "CT-GONDO-SEIKYO",
+      "narrative_profile": "Historical person in alternate history; CR-088, approved for integration 27 November 2026, local labels retained. Born 1868, died 1937 (*hist.*). APPROVED: he preaches *nōhon-shugi*, the farm as the root of the nation. PROPOSED: the villages' power and cooperatives, independent Korea and cheap nitrogen keep tenant debt shallower than his argument needs, but the silk collapse of 1930–32 gives his critique and the officers of 15 May real moral purchase; the countryside does not rise for the coup. **Character use:** the countryside's grievance, honestly argued. **Open:** scenes.",
+      "links": [],
+      "legacy_profile_indices": [],
+      "legacy_conflicts": [],
+      "source_authority": [
+        "CR-088"
+      ]
     }
   ],
-  "updated_on": "2026-11-24",
+  "updated_on": "2026-11-27",
   "character_revision": {
-    "request": "CR-083 to CR-087",
-    "source": "CR-083.md, CR-084.md, CR-085.md, CR-086.md, CR-087.md; author approval of 24 November 2026, 13:08 (\"All the CRs are approved and can be integrated.\")",
+    "request": "CR-088",
+    "source": "CR-088.md; author approval of 27 November 2026 (\"I approve the CR for integration.\")",
     "status": "approved_integrated",
     "updated_ids": [
-      "CT-CHARLES-CAMSELL",
+      "CT-ABE",
+      "CT-CHARLES-PEIRCE",
       "CT-CHICHIBU",
-      "CT-CHIYO",
-      "CT-ELWOOD-MEAD",
-      "CT-EUGENE-WIGNER",
-      "CT-FREDERICK-LINDEMANN",
-      "CT-GIANNINI",
-      "CT-HARRIS-RYAN",
-      "CT-HENRY-TIZARD",
-      "CT-HIROHITO",
-      "CT-HOOVER",
-      "CT-IRVING-LANGMUIR",
-      "CT-JULIAN",
-      "CT-KAIULANI",
+      "CT-DAVID-KALAKAUA",
+      "CT-GEORGE-BEAUCHAMP",
+      "CT-JOHN-VON-NEUMANN",
+      "CT-JOSEPH-KEKUKU",
       "CT-KAIULANI-CLEGHORN",
-      "CT-KEAWE",
+      "CT-KASHIWAGI",
+      "CT-KIYOSHI",
       "CT-KURODA-SON",
-      "CT-LEO-SZILARD",
-      "CT-NISHINA-YOSHIO",
-      "CT-OTTO-HAHN",
-      "CT-SAIONJI",
-      "CT-SAMUEL-HOARE",
-      "CT-SAMUEL-WILDER-KING",
-      "CT-TAKAHASHI",
-      "CT-WINSTON-CHURCHILL"
+      "CT-LEONARD-FULLER",
+      "CT-OMORI-FUSAKICHI",
+      "CT-SATO-SHOSUKE",
+      "CT-SOPHIA-LEVY"
     ],
     "new_ids": [
-      "CT-THOMAS-PATTULLO",
-      "CT-SIMON-TOLMIE",
-      "CT-RB-BENNETT",
-      "CT-PETER-KELLY",
-      "CT-ANDREW-PAULL",
-      "CT-HARLAN-TATE",
-      "CT-JOHN-BUCHAN",
-      "CT-JOHN-SIMON",
-      "CT-NEVILLE-CHAMBERLAIN",
-      "CT-BOLTON-EYRES-MONSELL",
-      "CT-PHILIP-CUNLIFFE-LISTER",
-      "CT-SALOTE-TUPOU-III",
-      "CT-AHMAD-TAJUDDIN",
-      "CT-TF-CAREY",
-      "CT-CHARLES-VYNER-BROOKE",
-      "CT-BC-DE-JONGE",
-      "CT-INUKAI-TSUYOSHI",
-      "CT-SAITO-MAKOTO",
-      "CT-ARAKI-SADAO",
-      "CT-MORI-KAKU",
-      "CT-HIRANUMA-KIICHIRO",
-      "CT-SATO-SHOSUKE",
-      "CT-NOGUCHI-SHITAGAU",
-      "CT-MORI-NOBUTERU",
-      "CT-OMORI-FUSAKICHI",
-      "CT-OKADA-TAKEMATSU",
-      "CT-TV-SOONG",
-      "CT-ALBERTO-PANI"
+      "CT-YEMYO-IMAMURA",
+      "CT-SANO-TOSHIKATA",
+      "CT-NAITO-TACHU",
+      "CT-ABE-ISOO",
+      "CT-OTHMAR-AMMANN",
+      "CT-NITOBE-INAZO",
+      "CT-GONDO-SEIKYO"
     ],
-    "limits": "Notes on existing people stand in the character bible's CR-083 to CR-087 section and the registry profiles are changed only where retired wording had to go (the renewal of 1932; Hoare's character use). Only persons the drafts register are added. Kiyoshi's son's given name, the common Navy and Finance ministers' names and Giannini's link stay OPEN."
+    "limits": "Notes on existing people stand in the character bible's CR-088 section; CT-KURODA-SON's dossier gains his name and profile. Only persons the CR registers are added; the background figures stay unregistered."
   },
   "character_revision_history": [
     {
@@ -8196,6 +8287,69 @@
         "CT-DANIEL-LIBBY"
       ],
       "limits": "Only persons on the page or approved in CR-067 are registered; the others named in the CRs stay without entries. Dates of the Native leaders and of Donohoe OPEN; Sherman's fate after 1865 OPEN."
+    },
+    {
+      "request": "CR-083 to CR-087",
+      "source": "CR-083.md, CR-084.md, CR-085.md, CR-086.md, CR-087.md; author approval of 24 November 2026, 13:08 (\"All the CRs are approved and can be integrated.\")",
+      "status": "approved_integrated",
+      "updated_ids": [
+        "CT-CHARLES-CAMSELL",
+        "CT-CHICHIBU",
+        "CT-CHIYO",
+        "CT-ELWOOD-MEAD",
+        "CT-EUGENE-WIGNER",
+        "CT-FREDERICK-LINDEMANN",
+        "CT-GIANNINI",
+        "CT-HARRIS-RYAN",
+        "CT-HENRY-TIZARD",
+        "CT-HIROHITO",
+        "CT-HOOVER",
+        "CT-IRVING-LANGMUIR",
+        "CT-JULIAN",
+        "CT-KAIULANI",
+        "CT-KAIULANI-CLEGHORN",
+        "CT-KEAWE",
+        "CT-KURODA-SON",
+        "CT-LEO-SZILARD",
+        "CT-NISHINA-YOSHIO",
+        "CT-OTTO-HAHN",
+        "CT-SAIONJI",
+        "CT-SAMUEL-HOARE",
+        "CT-SAMUEL-WILDER-KING",
+        "CT-TAKAHASHI",
+        "CT-WINSTON-CHURCHILL"
+      ],
+      "new_ids": [
+        "CT-THOMAS-PATTULLO",
+        "CT-SIMON-TOLMIE",
+        "CT-RB-BENNETT",
+        "CT-PETER-KELLY",
+        "CT-ANDREW-PAULL",
+        "CT-HARLAN-TATE",
+        "CT-JOHN-BUCHAN",
+        "CT-JOHN-SIMON",
+        "CT-NEVILLE-CHAMBERLAIN",
+        "CT-BOLTON-EYRES-MONSELL",
+        "CT-PHILIP-CUNLIFFE-LISTER",
+        "CT-SALOTE-TUPOU-III",
+        "CT-AHMAD-TAJUDDIN",
+        "CT-TF-CAREY",
+        "CT-CHARLES-VYNER-BROOKE",
+        "CT-BC-DE-JONGE",
+        "CT-INUKAI-TSUYOSHI",
+        "CT-SAITO-MAKOTO",
+        "CT-ARAKI-SADAO",
+        "CT-MORI-KAKU",
+        "CT-HIRANUMA-KIICHIRO",
+        "CT-SATO-SHOSUKE",
+        "CT-NOGUCHI-SHITAGAU",
+        "CT-MORI-NOBUTERU",
+        "CT-OMORI-FUSAKICHI",
+        "CT-OKADA-TAKEMATSU",
+        "CT-TV-SOONG",
+        "CT-ALBERTO-PANI"
+      ],
+      "limits": "Notes on existing people stand in the character bible's CR-083 to CR-087 section and the registry profiles are changed only where retired wording had to go (the renewal of 1932; Hoare's character use). Only persons the drafts register are added. Kiyoshi's son's given name, the common Navy and Finance ministers' names and Giannini's link stay OPEN."
     }
   ],
   "institutional_groups": [
