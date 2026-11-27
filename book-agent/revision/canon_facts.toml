@@ -2147,3 +2147,100 @@ aliases = ["Alberto J. Pani", "Alberto Pani"]
 born = 1878
 died = 1955
 source = "CR-086"
+
+[[person]]
+id = "CT-KURODA-SON"
+aliases = ["Kuroda Kiyotada", "Kiyotada", "Kiyoshi's son"]
+born = 1888
+source = "CR-088"
+
+[[person]]
+id = "CT-YEMYO-IMAMURA"
+aliases = ["Yemyō Imamura", "Yemyo Imamura", "Bishop Imamura"]
+born = 1867
+died = 1932
+source = "CR-088"
+
+[[person]]
+id = "CT-SANO-TOSHIKATA"
+aliases = ["Sano Toshikata", "Toshikata Sano"]
+born = 1880
+died = 1956
+source = "CR-088"
+
+[[person]]
+id = "CT-NAITO-TACHU"
+aliases = ["Naitō Tachū", "Naito Tachu", "Tachu Naito"]
+born = 1886
+died = 1970
+source = "CR-088"
+
+[[person]]
+id = "CT-ABE-ISOO"
+aliases = ["Abe Isoo", "Isoo Abe"]
+born = 1865
+died = 1949
+source = "CR-088"
+
+[[person]]
+id = "CT-OTHMAR-AMMANN"
+aliases = ["Othmar Ammann", "Othmar H. Ammann", "Ammann"]
+born = 1879
+died = 1965
+source = "CR-088"
+
+[[person]]
+id = "CT-NITOBE-INAZO"
+aliases = ["Nitobe Inazō", "Nitobe Inazo", "Inazo Nitobe", "Nitobe"]
+born = 1862
+died = 1933
+source = "CR-088"
+
+[[person]]
+id = "CT-GONDO-SEIKYO"
+aliases = ["Gondō Seikyō", "Gondo Seikyo", "Seikyo Gondo"]
+born = 1868
+died = 1937
+source = "CR-088"
+
+[[event]]
+id = "kalakaua-tokyo-visit"
+year = 1881
+patterns = ['''Kalākaua[^.]{0,60}(?:visits|reaches|arrives in) Tokyo[^.]{0,30}in (?:March )?\*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''\*{0,2}(?P<year>1[89]\d\d)\*{0,2} Hawaii–Japan Family Emigration''']
+source = "CR-088"
+
+[[event]]
+id = "waseda-california-tour"
+year = 1905
+patterns = ['''Waseda(?: University)?(?: baseball)?[^.]{0,60}(?:tours|sails to|plays in) (?:California|Pacifica)[^.]{0,30}in (?:April |spring )?\*{0,2}(?P<year>1[89]\d\d)\*{0,2}''']
+source = "CR-088"
+
+[[event]]
+id = "omori-sf-survey"
+year = 1906
+patterns = ['''(?:Ōmori|Omori)[^.]{0,60}San Francisco(?: earthquake| seismic)? (?:survey|commission)[^.]{0,30}in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''']
+source = "CR-088"
+
+[[forbidden]]
+pattern = "(?:his|Perry's) failure to reach Japan|Perry (?:never reaches|fails to reach) Japan"
+message = "CR-088 A1.1: Perry reaches Edo Bay in 1853–54 and finds California's Satsuma/Ryukyu channel already open"
+kind = "fact"
+source = "CR-088"
+
+[[forbidden]]
+pattern = "Pacifica (?:imposes|demands|wins) (?:unrestricted )?(?:foreign )?interior land(?:ownership| ownership) in Japan"
+message = "CR-088 A1.3: the 1870–71 equal alliance ends consular courts without demanding unrestricted interior landownership (naichi zakkyo stays under Japanese law)"
+kind = "fact"
+source = "CR-088"
+
+[[event]]
+id = "hokkaido-ainu-act"
+year = 1899
+patterns = ['''Hokkaido Ainu Settlement(?: and| &) Fisheries Act[^.]{0,60}(?:passed|enacted|adopted|signed) in \*{0,2}(?P<year>1[89]\d\d)\*{0,2}''', '''\*{0,2}(?P<year>1[89]\d\d)\*{0,2} Hokkaido Ainu Settlement(?: and| &) Fisheries Act''']
+source = "CR-088"
+
+[[forbidden]]
+pattern = "Former Aborigines Protection Act (?:is |was )?(?:enacted|passed|imposed) in 1899"
+message = "CR-088 T-AINU-1: the 1899 Hokkaido Ainu Settlement and Fisheries Act replaces OTL's coercive Former Aborigines Protection Act"
+kind = "fact"
+source = "CR-088"

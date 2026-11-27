@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 85 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 86 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1600,6 +1600,27 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 **Still open:**
 - PROPOSED: the trough stays under the standstill rule with no compact by 1932 (L-5); the two surveyed routes and their dates (L-6); the line along the divide from Marias Pass to Flattop.
 - OPEN: whose country the upper Waterton valley is and with whom a compact would be made; a boat landing and customs officer at Boundary Bay; whether Pacifica ever treats with the Piegan; the exact point where the crest meets the parallel; where, south of Marias Pass, the line passes from the mountain front to the divide.
+
+### CR-088 — The cultural marriage of Japan and Pacifica: Perry and the Treaty of Edo, why Japan accepts, two-way culture, the grievances, and Kuroda Kiyotada (1853–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- Perry reaches Uraga and Edo Bay in 1853–54 and finds Edo prepared by California's Satsuma/Ryukyu channel; Abe uses California as a counterweight (D-1). Closes Unresolved #14.
+- The 1858 Treaty of Edo: no consular court; mixed panels of one Californian and one Japanese judge under a Japanese president at Nagasaki and Kanagawa until a fixed date in 1870, when the tariff becomes Japan's, without waiting for codes (D-18, D-19, T-EDO-1 Case B); the alliance of 1870–71 keeps the date and demands no interior land.
+- Kalākaua reaches Tokyo as Victoria's envoy in March 1881 and concludes the Hawaii–Japan Family Emigration Convention, the Kingdom of Hawaii's own, binding Hawaii alone (D-4, D-20); canon's Oceanian union and Prince Komatsu stand, the proposal made beyond his instructions, declined in 1882, Victoria making him answerable (D-21).
+- T-AINU-1 Case B: the 1893–99 turn from reproach to exchange and the 1899 Hokkaido Ainu Settlement and Fisheries Act inside unitary Japanese law; it protects villages, not the country (D-7).
+- Nitobe Inazō as the scholar the Realm asks for, a drafter of the Act and the speaker at a challenge evening about 1900 (D-25); Konoe a background voice (D-26).
+- Two-way culture: Hongwanji academies on the Pacifica League's rolls (D-5); the Waseda tour of April 1905 and the Pacific Intercollegiate Series, Go at Carquinez (D-6, D-15); Ōmori and Sano on the San Francisco seismic commission of 1906, Pacific Modern, Naitō's code of 1924 and the Calculated with Ammann's Gate span of 1929 (D-6, D-12, D-30, D-32, D-34); the onsen with Chichibu a bather and no patron (D-13, D-23, D-33); Pacific String and the benshi (D-14, D-30); dress and craft (D-16); kokusui hozon and the returnee critique (D-8); rural power and nōhon-shugi (D-10); Shinto and the shrine question (D-31).
+- The grievance catalogue (D-24, D-28): Satsuma and the Gen'yōsha, the shrine as no answer to the fleet faction, the borrowed culture.
+- The Marshalls to Japan at The Hague in 1919 on three conditions, Samoa, New Guinea with Rabaul and Nauru to Pacifica's trust, Nauru detached (D-27).
+- Kiyoshi's son is Kuroda Kiyotada (CT-KURODA-SON), Maria's reader in Tokyo, who holds the fleet in May 1932 and as common Navy minister from 1 August carries out the order ending his father's squadron; he holds no key (D-11).
+- Shōkin-jan's rules in the CR's Appendix A (D-36 to D-41); the storyline carries only one clause.
+- Seven persons registered: Yemyō Imamura, Sano Toshikata, Naitō Tachū, Abe Isoo, Othmar Ammann, Nitobe Inazō, Gondō Seikyō.
+
+**Still open:**
+- PROPOSED: the treaty's assay, mission and reciprocity clauses and the four reasons for the panels; the convention's terms; Imamura's League mechanics; the seismic exchange's particulars and Pacific Modern's vocabulary; the onsen list; Pacific String's details; riichi by about 1926 and Shōkin-jan after 1927; dress and mingei details; the Act of 1899's wording; the rural-electrification sequence; Kiyotada's birth year (c. 1888) and early career; the Marshalls' three conditions; Shōkin-jan settings S14 and the S19 scale (play-test dials).
+- OPEN: the Ainu petitioners' names; the sunset article's exact wording; the year Hongwanji's first academy enters the roll; Kiyotada's marriage and children; dora in riichi before 1932; named architects of Pacific Modern landmarks; the patron of the hot-spring trail; which Pueblo refuses its spring; the first Pacifican Go professional; where Kiyoshi's sword rests.
+- Handed off: Japan's 1918 rice prices and domestic politics, and State Shinto (the domestic-politics CR); railway lunch boxes, the kitchen and the farmed sea (CR-089).
 
 ### Author-approved editorial safeguards
 

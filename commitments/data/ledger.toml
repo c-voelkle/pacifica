@@ -773,17 +773,26 @@ from = 1858
 owes = [
   { by = "PAC", to = "JP", what = "partnership in commerce, shipbuilding, coal, technical exchange and naval training" },
   { by = "JP", to = "PAC", what = "technical advisers, training, observers, markets, harbors and resources" },
+  { by = "PAC", to = "JP", what = "California's coin exchanged by assayed weight and fineness, after Elias's warning on the gold–silver gap (CR-088, PROPOSED)" },
+  { by = "PAC", to = "JP", what = "no state-backed or treaty-protected mission on Japanese soil (CR-088, PROPOSED)" },
+  { by = "PAC", to = "JP", what = "no consular court: mixed panels of one Californian and one Japanese judge under a Japanese president at Nagasaki and Kanagawa until a fixed date in 1870, Japanese law elsewhere, and the tariff Japan's own on that date (CR-088 D-18, D-19, APPROVED)" },
+  { by = "PAC", to = "JP", what = "two-way shipyard and foundry training (CR-088, PROPOSED)" },
 ]
-conditions = ["no open cession of Japanese sovereignty; no large Japanese expeditionary combat forces yet"]
+conditions = ["no open cession of Japanese sovereignty; no large Japanese expeditionary combat forces yet", "The panels' end does not wait for Japan's promised codes (CR-088)."]
+until = 1870
 status = "CANON"
+cr = "CR-088"
 section = 7
 quote = "In 1858, California and the Tokugawa government conclude the Treaty of Edo."
 more_quotes = [
+  "It has four operative articles.",
+  "Third, instead of consular courts and a tariff Japan cannot change, the treaty sets a fixed date twelve years on, in 1870.",
+  "Second, California renounces any state-backed or treaty-protected mission on Japanese soil, the Republic's general rule.",
   "It formalizes the partnership in commerce, shipbuilding, coal, technical exchange and naval training under the new political leadership.",
   "Japan supplies technical advisers, training, observers, markets, harbors and resources.",
   "Japan remains a treaty partner.",
 ]
-open = "Term, renewal and termination not stated."
+open = "The panels and the fixed tariff end in 1870 (until); the rest of the treaty's term and its termination are not stated; the alliance of 1870–71 keeps the date (C-1870-JP-ALLIANCE). The assay, mission and reciprocity clauses are PROPOSED (CR-088)."
 
 # ---------------------------------------------------------------------------
 # Washoe and the Civil War (1860–1865)
@@ -1507,12 +1516,31 @@ owes = [
   { by = "JP", to = "PAC", what = "dockyard rights at Yokosuka and a coaling lease at Hakodate" },
   { by = "PAC", to = "JP", what = "foreign credit (direction as listed; not spelled out)" },
 ]
-conditions = ["No sovereign Pacifican base is imposed on Japan.", "Takashima coal is among the terms; who supplies whom is not stated."]
+conditions = ["No sovereign Pacifican base is imposed on Japan.", "Takashima coal is among the terms; who supplies whom is not stated.", "It keeps the 1858 date: the mixed panels end, the tariff is Japan's, and no right of foreigners to own land in the Japanese interior is demanded (naichi zakkyo stays under Japanese law; CR-088, PROPOSED)."]
 status = "CANON"
+cr = "CR-088"
 section = 14
 quote = "The 1870–1871 Japanese alliance is equal: full Japanese tariff autonomy and no consular courts, dockyard rights at Yokosuka, a coaling lease at Hakodate, Takashima coal and foreign credit."
-more_quotes = ["No sovereign Pacifican base is imposed on Japan."]
-open = "Term, renewal and relation to the 1858 Treaty of Edo not stated; the direction of 'Takashima coal and foreign credit' is not explicit."
+more_quotes = ["No sovereign Pacifican base is imposed on Japan.", "Elias keeps the date of 1858: the mixed panels end, the tariff is Japan's, and Pacifica demands no right for foreigners to own land in the Japanese interior, which stays under Japanese law."]
+open = "Term and renewal not stated (the compact is renewed from 1887 every ten years); the direction of 'Takashima coal and foreign credit' is not explicit. It ends the Treaty of Edo's panels on the fixed date (C-1858-EDO)."
+
+[[commitment]]
+id = "C-1881-TOKYO-EMIGRATION"
+name = "Hawaii–Japan Family Emigration Convention"
+kind = "convention"
+parties = ["HI", "JP"]
+from = 1881
+owes = [
+  { by = "JP", to = "HI", what = "family passages to Hawaii, wives and children travelling with the men or after them" },
+  { by = "HI", to = "JP", what = "no penal labour contracts (Hawaii's abolition of 1856)" },
+]
+conditions = ["Concluded during Kalākaua's Tokyo envoy tour as the Kingdom of Hawaii's own (CR-088 D-20).", "Signed on the Confederation's behalf with the Council's consent, binding Hawaii alone; it binds neither California nor the Confederation's other members."]
+status = "APPROVED"
+cr = "CR-088"
+section = 19
+quote = "He concludes the 1881 Hawaii–Japan Family Emigration Convention, the Kingdom of Hawaii's own"
+more_quotes = ["From 1881 Japanese families come to Hawaii under the kingdom's own family convention"]
+open = "Term and termination not stated; the convention's further terms are PROPOSED. Family entry across the Realm is Tokyo's win in the renewal of 1907."
 
 [[commitment]]
 id = "C-1868-CN-TREATY"
@@ -3277,7 +3305,8 @@ parties = ["PAC", "US", "DE", "AH", "UK", "FR", "JP", "CN"]
 from = 1919
 owes = [
   { by = "DE", to = "FR", what = "evacuation of Belgium and northern France; no indemnity" },
-  { by = "DE", to = "PAC", what = "loss of its colonies; Pacifica and Japan retain Germany's Pacific islands" },
+  { by = "DE", to = "PAC", what = "loss of its colonies; Samoa, New Guinea with Rabaul, and Nauru to Pacifica" },
+  { by = "DE", to = "JP", what = "the Marshalls to Japan on the terms of C-1919-MARSHALLS" },
   { by = "DE", to = "FR", what = "Alsace-Lorraine given up, not to France: a neutral republic in union with Switzerland (C-1919-ALSACE-LORRAINE)" },
   { by = "PAC", to = "CN", what = "return of Shandong apart from the Tsingtao anchorage" },
   { by = "UK", to = "DE", what = "recognition of Germany's clients in Poland, the Baltic region, Ukraine and Finland" },
@@ -3298,10 +3327,30 @@ more_quotes = [
   "The peace is made by special mediation under Article 8 of the Hague Convention of 1907",
   "Germany evacuates Belgium and northern France, pays no indemnity and loses its colonies.",
   "Germany's clients in Poland, the Baltic region, Ukraine and Finland are recognized.",
-  "Pacifica and Japan retain Germany's Pacific islands.",
+  "The German Pacific islands are divided: the Marshalls go to Japan, and Samoa, German New Guinea with Rabaul, and Nauru to Pacifica.",
   "The settlement creates a permanent arbitration court and carries Japan's racial equality clause.",
 ]
-open = "Germany's regent is OPEN. Which states sign is not listed beyond the mediators. CR-019 first proposed the settlement; CR-043 decides place, dates, mediation and the terms above."
+open = "Germany's regent is OPEN. Which states sign is not listed beyond the mediators. CR-019 first proposed the settlement; CR-043 decides place, dates, mediation and the terms above. CR-088 divides the German islands (C-1919-MARSHALLS)."
+
+[[commitment]]
+id = "C-1919-MARSHALLS"
+name = "The Marshall Islands article of the Treaty of The Hague"
+kind = "treaty"
+parties = ["JP", "PAC", "HI"]
+from = 1919
+owes = [
+  { by = "JP", to = "PAC", what = "no fortification of the Marshalls, a term of this article and not of C-1919-NAVAL-LIMITS" },
+  { by = "JP", to = "PAC", what = "no alienation of Marshallese land, written into Japan's own law after Ka Lōkahi's rule" },
+  { by = "JP", to = "PAC", what = "freedom of worship and no expulsion of any church, school or teacher already in the islands, naming no mission" },
+  { by = "PAC", to = "JP", what = "Nauru's phosphate at the price Australia and New Zealand pay" },
+]
+conditions = ["Japan holds the former German Marshalls in its own sovereignty.", "Nauru, formerly governed from Jaluit, is detached from the Marshalls' administration and stays in Pacifica's trust.", "No foreign protector gains a right of complaint."]
+status = "PROPOSED"
+cr = "CR-088"
+section = 30
+quote = "The Marshalls article binds Japan to three conditions"
+more_quotes = ["Nauru, which the Germans governed from Jaluit, is detached from the Marshalls' administration and stays in Pacifica's trust"]
+open = "Term not stated. Cross-links C-1919-HAGUE, C-1919-NAVAL-LIMITS and C-1885-PAPAL. The division itself is APPROVED (CR-088 D-27)."
 
 [[commitment]]
 id = "C-1919-ALSACE-LORRAINE"
@@ -7242,6 +7291,14 @@ id = "HOKKAIDO-AG"
 name = "Hokkaido's agricultural stations and Sapporo Agricultural College (Hokkaido Imperial University from 1918)"
 
 [[party]]
+id = "AINU-KOTAN"
+name = "Registered collective kotan village trusts and river-fishery associations of Hokkaido under the Act of 1899"
+
+[[party]]
+id = "HONGWANJI-PAC"
+name = "Honpa Hongwanji Mission of Hawaii and the Buddhist Missions of Pacifica (Jōdo Shinshū temples and academies on the Pacifica League's examination roll)"
+
+[[party]]
 id = "CMO-JP"
 name = "Japan's Central Meteorological Observatory"
 
@@ -7691,9 +7748,47 @@ section = 25
 quote = "The Hokkaido Cold-Hardy Rice Breeding Exchange begins in 1893"
 more_quotes = [
   "Pure-line *Bōzu* selections and the first cross-bred Hokkaido cultivars reach the fields of Hokkaido and Tōhoku from 1901 to 1903.",
-  "Paddy is pushed across the Ishikari and Kamikawa plains a generation early, with the Realm's own stations helping to breed the rice, and Japanese settlement on Ainu land goes faster for it.",
+  "paddy is pushed across the Ishikari and Kamikawa plains a generation early, with the Realm's own stations helping to breed the rice, and Japanese settlement on Ainu land goes faster for it.",
 ]
-open = "Term and form not stated. The paddy series and Hokkaido's share of the gain are OPEN (population/provisioning.py); the acreage and koku are MODEL. The Ainu are no party to it."
+open = "Term and form not stated. The paddy series and Hokkaido's share of the gain are OPEN (population/provisioning.py); the acreage and koku are MODEL. The Ainu are no party to it; the Act of 1899 answers the settlement it hastens (C-1899-HOKKAIDO-AINU, CR-088 T-AINU-1 Case B)."
+
+[[commitment]]
+id = "C-1899-HOKKAIDO-AINU"
+name = "Hokkaido Ainu Settlement and Fisheries Act"
+kind = "law"
+parties = ["JP", "HOKKAIDO-AG", "AINU-KOTAN"]
+from = 1899
+owes = [
+  { by = "JP", to = "AINU-KOTAN", what = "registered kotan lands of Chikabumi, Piratori and the coast made inalienable collective village trusts" },
+  { by = "JP", to = "AINU-KOTAN", what = "statutory shares of the river salmon and the coastal kombu" },
+  { by = "HOKKAIDO-AG", to = "AINU-KOTAN", what = "paddy allotments and Sapporo training for households that choose them" },
+  { by = "JP", to = "AINU-KOTAN", what = "village schools teaching Japanese beside Ainu oral literature" },
+]
+conditions = ["A statute of unitary Japanese law, with no separate treaty sovereignty; inspired by the Sitka–Sapporo exchange.", "It protects villages, not the country: the ground taken before 1899 and the hunting country outside the trusts are not given back."]
+status = "PROPOSED"
+cr = "CR-088"
+section = 14
+quote = "The 1899 Hokkaido Ainu Settlement and Fisheries Act, a statute of unitary Japanese law"
+more_quotes = ["the Act protects villages, not the country"]
+open = "Term not stated. The Act takes the place of our timeline's Former Aborigines Protection Act (historical_background.md). Its kombu trusts sign the marine-agronomy compact of 1932 (CR-085)."
+
+[[commitment]]
+id = "C-1906-SEISMIC-CODE"
+name = "Pacifica–Japan seismic engineering exchange and standard"
+kind = "compact"
+parties = ["PAC", "JP", "ESTATES"]
+from = 1906
+owes = [
+  { by = "JP", to = "PAC", what = "Ōmori Fusakichi and Sano Toshikata on the Polytechnic's San Francisco seismic commission of 1906" },
+  { by = "PAC", to = "JP", what = "the Office's structural orders and machine time for Naitō Tachū's frames from 1924" },
+]
+conditions = ["After the Kantō earthquake of 1923, Japan's code of 1924 and Naitō's reinforced walls become the shared standard for Thalassia, San Francisco and Manila."]
+status = "APPROVED"
+cr = "CR-088"
+section = 26
+quote = "Ōmori Fusakichi joins the Polytechnic's San Francisco seismic commission after the earthquake in 1906"
+more_quotes = ["after the earthquake Japan's code of 1924 and Naitō's reinforced walls become the shared Pacific standard for Thalassia, San Francisco and Manila"]
+open = "Form and term not stated; the exchange's particulars (the challenge evenings of 1906 and 1924, the Office's orders) are PROPOSED."
 
 [[commitment]]
 id = "C-1906-MANILA-SHANGHAI-CABLE"

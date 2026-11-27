@@ -2,8 +2,8 @@
 session: 20261125-cr088-japan
 started: 2026-11-25
 updated: 2026-11-27
-mode: draft
-status: paused-for-author
+mode: integration
+status: integrated-awaiting-merge
 baseline:
   commit: 5d281dc
 independence: fresh-context review of revision 15 by a separate agent (27 November 2026; report `review-rev15.md`); the revisions were written in one context
@@ -39,6 +39,8 @@ independence: fresh-context review of revision 15 by a separate agent (27 Novemb
 | D-33 | Where the bath takes root | approved, 18:16 |
 | D-34 | The Calculated (Keisan-ha), origin, Ammann registered | approved, 18:25 |
 | D-35 | Shōkin-jan rebuilt on riichi.wiki's standard rules; choices S1–S10 | superseded by D-36 where it differs |
+| D-37–D-41 | Review rounds and Shōkin-jan settings (see CR-088 `## Decisions`) | approved, 27 Nov 07:29–13:37 |
+| — | CR-088 approved for integration ("I approve the CR for integration.") | approved, 27 Nov |
 | D-36 | Shōkin-jan's agreed rules (rule revisions 12–14 and the last pass), `Appendix A` rewritten whole; choices S1–S27; revision 13 adds S28, S29 and the Maturity Draw (S17) | approved as design, 25 Nov 19:41–23:44, 26 Nov 00:14 and 27 Nov 06:30; numbers PROPOSED until play-tested |
 
 ## What was done
@@ -60,7 +62,12 @@ independence: fresh-context review of revision 15 by a separate agent (27 Novemb
 - Revision 12 (26 November, 00:14): `Appendix A` rewritten whole on the agreed Shōkin-jan rules (working note `claude/CR-088-shokin-jan-rev14.md` in the Pacifica project, plus the last pass: the three A.8 polishes, temporary furiten in grace, Renewal doubling only the showdown, Paper Riichi a yaku, S27 printing under the Leash allowed); `A3.6`'s summary, the 1928 set piece and D-36 follow. Preflight 0 errors.
 - Revision 6 (step 10): `A2` rebuilt around Japan's own interest (`A2.1`–`A2.4`), Nitobe as `A2.5`; D-3 restated, D-24, D-25. Preflight 0 errors.
 
+- Integration (27 November, branch `integration/cr-088` from `draft/cr-088`): storyline revised per the impact notes (§7 Perry and the treaty's four articles; §14 the alliance keeps the date, credit taken and constitution refused, T-AINU-1 Case B with the Act of 1899; §15 Satsuma and the Gen'yōsha; §19 Kalākaua at Tokyo, the convention, the proposal beyond instructions; migration; §25 Nitobe's evening, the faiths and *kokusui hozon*; §26 Waseda, Go, the seismic commission, Pacific Modern, the baths, rural power, Sōseki and the Japanist critics; §30 the islands in 1914 and the Marshalls article; §33 Naitō and the Calculated, Pacific String and the *benshi*, games, baths, dress, craft, the Ainu writers, Gondō, Kiyotada in Tokyo; §36 villages-not-the-country, Kiyotada named and sworn, what his descent means; the Kiyoshi entry; #14 closed, #41 narrowed). Register entry and `cr_facts.py apply CR-088` (15 changes); ledger: C-1858-EDO, C-1870-JP-ALLIANCE, C-1893-HOKKAIDO-RICE, C-1919-HAGUE amended, C-1881-TOKYO-EMIGRATION, C-1899-HOKKAIDO-AINU, C-1906-SEISMIC-CODE, C-1919-MARSHALLS new, parties AINU-KOTAN and HONGWANJI-PAC; registry +7 (397), CT-KURODA-SON's dossier and fifteen notes in the bible; `historical_background.md` CR-088 section with the Yorihito note; AGENTS.md summary and count. The preflight regression test now uses CT-CHRONICLER, since CT-KURODA-SON has a facts entry. `preflight.py --integration`: 7 of 7.
+
 ## Resume here
+
+- **Integrated on `integration/cr-088`; PR open for the author to merge.** After merge: nothing further is required; `draft/cr-088` can be deleted. Noticed, not changed: `historical_background.md` carries a pasted copy of CR-087's body (from "## The author's request" to "## Decisions") under its CR-087 section, from an earlier integration.
+
 
 - Revision 7: D-25–D-27 written in; `A2.6` the Marshalls; step 11 done: `A5` rebuilt (catalogue G1–G28 in the CR's own numbering, `A5.6`–`A5.12`, boundaries); `A6.4` the key Kiyotada does not hold. Preflight 0 errors.
 - Revision 8 (step 12): `A1.2` each article with what the Republic gains by giving it; `A1.3` the alliance as a trade; the Realm's reasons in `A4.2` and `A5.1`. Preflight 0 errors.
