@@ -3,7 +3,7 @@
 
 ## Automatically synchronized approval ledger
 
-**Approved requests:** 88 · **Authority:** [change_requests.json](change_requests.json).
+**Approved requests:** 89 · **Authority:** [change_requests.json](change_requests.json).
 
 This ledger reflects approved requirements, outstanding qualifications, and the provisional timeline verbatim from the register. The chronological narrative above must separately integrate each approval.
 
@@ -1657,8 +1657,24 @@ This ledger reflects approved requirements, outstanding qualifications, and the 
 - Registry: Wakatsuki Reijirō and Shidehara Kijūrō registered (D-4); notes on nine existing Japanese persons; background figures unregistered.
 
 **Still open:**
-- The amounts of the nitrogen and seed credit (1931) and of the fleet's forward silk purchases (1931–32); the workbook rows wait for the next rebuild.
+- The amount of the nitrogen and seed credit (1931); the workbook rows wait for the next rebuild. The fleet's silk amount is set by CR-090-R1 (MODEL).
 - The reason for Hamaguchi's resignation beyond the gold-parity fights and his health (PROPOSED).
+
+### CR-090-R1 — The fibre and the silk villages: artificial silk, Japan's new mills and the fleet's silk (1905–1932)
+
+**Register status:** `approved_integrated_local_labels_retained`
+
+- The Realm's silk boom: silk use per head at one and a half to two times the Union's (MODEL, story assumption); Japan's city women in the Pacific line; Paris's season about 1928–30; Japan's mulberry spreads further (R-5).
+- Rayon cheap early on the Columbia's caustic soda and Rainier Pulp's dissolving pulp at Shelton (1927); it takes the cheap stocking, lingerie and lining trade, never the full-fashioned stocking. Carothers (background, not registered) at the Polytechnic from 1926; polyamide fibre 1928; small first run 1929, volume 1930–31; licensed at the one published royalty to anyone (R-1, R-2).
+- The fibre is called amide; Toyo Rayon sells its own as Amilan at home and in China from about 1930 (R-6). A cloth's label names its fibre under the Truth of Labels Act (extension of CR-089, PROPOSED).
+- The stocking trade bought Japan's best export filature silk, so amide takes the best buyers first and for good; the Union's depression takes much of the rest; silk keeps the cloth at a lower price; the export filature districts (Nagano, Gunma, Yamanashi) and the villages that sell to them fall; the reset cannot restore it (R-1, R-7; T-SILK-1 Case B).
+- Japan's rayon houses (Teijin, Toyo Rayon, Asahi, Kurashiki Kenshoku) license amide in 1930–31; Pacifican firms sell pulp, caustic soda and, in the first years, the intermediates; Noguchi makes the intermediates from about 1931, so no new hold; the Realm's mills do not spin the fibre and the Realm buys its stockings from Japan (R-3, R-8; T-SILK-2 Case A).
+- The Diet session of 1930–31: excise and home-market ban asked by the farm members, the Yokohama silk houses and Katakura, and refused; Noguchi and Ōhara's argument; Gunze crosses over; the silk members' hiring rule passes; spinning on the coast, knitting and weaving in the silk districts; Ōhara's welfare model; Sakurada's PVA fibre about 1930–31; the mills are not the target (R-3, R-8).
+- The fibre's exports earn back a growing part of silk's gold dollars and keep the quota and the last instalments bearable (R-3).
+- The fleet buys two years' cartridge cloth spun from waste silk, not parachute silk; the air arm moves to amide on its own schedule; about $1.7 million over 1931–32, the Realm's share about $1.1 million (MODEL) (R-4).
+
+**Still open:**
+- The Realm's exports of pulp, caustic soda and intermediates to Japan and Japan's fibre exports wait for the next energy and trade workbook rebuild; no figure is set.
 
 ### Author-approved editorial safeguards
 
